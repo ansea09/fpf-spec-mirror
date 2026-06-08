@@ -6,12 +6,12 @@ section_id: "F.12:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__011_anti-patterns-remedies.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:10 — Anti‑patterns & remedies"
-line_start: 72998
-line_end: 73013
+line_start: 73311
+line_end: 73327
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -48,3 +48,4 @@ keywords:
 | **A10** | **Hidden aggregation**          | “Global availability” but only a subset of regions/slices was covered.                       | Over‑claims evidence.                           | State the **aggregation scope** explicitly or confine the verdict to the observed subset; otherwise **Inconclusive**.                                    |
 | **A11** | **Status on “the service”**     | Tagging an abstract umbrella like *“the service”* as “Satisfied”.                            | Loses the entityOfConcern of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
 | **A12** | **Bridge‑by‑name**              | Equating *Activity* ≡ *Process* because both say “process”.                                  | Assumes global meaning.                         | Use **F.9 Bridge** with **kind/CL/Loss**; or keep them distinct.                                                                                         |
+

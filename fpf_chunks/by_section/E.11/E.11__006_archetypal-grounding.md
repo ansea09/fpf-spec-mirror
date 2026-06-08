@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal grounding"
-line_start: 60737
-line_end: 60822
+line_start: 61042
+line_end: 61127
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -26,7 +26,7 @@ keywords:
 
 ### E.11:5 - Archetypal grounding
 
-#### E.11:5.1 - System-side worked entry repair: shortlist entry load, not one-off choice
+#### E.11:5.1 - System-side expanded entry-disambiguation case: shortlist entry load, not one-off choice
 
 Live reader phrase:
 
@@ -54,7 +54,7 @@ Entry repair:
    shortlist rather than one local winner;
 5. admissible entry stop = inspect `C.19` if pool/candidate policy is live; inspect
    `G.5` if selected-set publication is already live; inspect `C.11` or `C.24`
-   only after that narrower entry load is actually live.
+   only after that narrower entry load is actually being made.
 
 #### E.11:5.2 - Episteme-side anti-case: partly-said cue is not yet a claim
 
@@ -79,7 +79,7 @@ Entry repair:
    reclassified honestly; if the phrase is already a boundary claim, inspect
    `A.6.B` / `A.6.C` instead.
 
-#### E.11:5.3 - Episteme-side worked entry repair: same-entity rewrite
+#### E.11:5.3 - Episteme-side expanded entry-disambiguation case: same-entity rewrite
 
 Live reader phrase:
 

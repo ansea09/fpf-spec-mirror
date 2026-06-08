@@ -1,128 +1,119 @@
 ---
 chunk_kind: "parent"
 pattern_id: "J.4"
-pattern_title: "First Practical Entry Neighborhood Index"
+pattern_title: "First Practical Entry Pattern-Comparison Index"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/J.4.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "J.4 — First Practical Entry Neighborhood Index"
-line_start: 82544
-line_end: 82747
+  - "J.4 — First Practical Entry Pattern-Comparison Index"
+line_start: 82860
+line_end: 83054
 dependencies:
 keywords:
 ---
 
-## J.4 - First Practical Entry Neighborhood Index
+## J.4 - First Practical Entry Pattern-Comparison Index
 
 > **Type:** Index (J)
 > **Status:** Stable
 > **Normativity:** Informative navigation rule; it does not create a required sequence or replace the governing pattern body.
 
-**At a glance.** Use `J.4` when a practitioner has a live entry question and needs the first plausible FPF patterns to inspect without turning the index into a universal lookup table or required sequence.
+**At a glance.** Use `J.4` when a practitioner brings a working project into `FPF` and needs the first plausible pattern family. `J.4` starts from project problems and stabilizing results: problem shaping, responsibility alignment, choice, evidence, quality, architecture, publication, temporal and causal use, and only then wording repair when wording blocks the work. It is a compact first-entry aid, not a shadow ToC and not a mini version of the patterns it names.
 
-**Use this when.** Use this pattern when several nearby first entries are plausible, the wrong first stop is common, or a lexical cue is likely to hide a more exact governing pattern.
+**Use this when.** Use this pattern when the project-side question is real but the first `FPF` pattern is unclear, or when two or three candidate `FPF` patterns need to be distinguished before the substantive claim is handled.
 
-**First output.** One selected entry row, or a decision that no `J.4` row is needed because the governing pattern is already obvious.
+**First output.** One named governing pattern to apply to the project-side problem, claim, relation, boundary, or publication-use question; or a decision that no `J.4` row is needed because the governing pattern is already recoverable.
 
-**Primary EntityOfConcern.** One informative `EntryNeighborhoodRow` or the table of such rows: entry neighborhood, honest entry question, first patterns to inspect, nearby reclassifications, admissible entry stop, non-entry condition, and lexical-query help.
+**Primary EntityOfConcern.** One compact `FirstEntryPatternComparisonRow`: a working problem or first-entry cue, one first governing pattern reference or small candidate pattern set, and one short distinction that prevents the common wrong first choice.
 
-**Working action path.** Name the live entry question, inspect the closest row, test the non-entry condition, open the named governing pattern rather than staying in `J.4`, and lower or ignore the row when the exact governing pattern is already recoverable.
+**Working action path.** State the working problem and the stabilizing result being sought, inspect the nearest row, apply the named governing pattern to the substantive claim, and stop using `J.4` when the governing pattern is recoverable. Use the wording-repair row only when the wording itself hides the FPF kind named by value, relation, source-use disposition, or admissible next move. If the row needs more depth than one scan can hold, use the named pattern body or `I.2`.
 
-**Not this pattern when.** Not this pattern when the user already has the exact governing pattern, needs the governing pattern body itself, needs a required ordered sequence, or needs pattern-quality, DRR-adequacy, evidence, assurance, gate, decision, work, or project certification.
+**Not this pattern when.** Not this pattern when the governing pattern is already known, when the user needs the pattern body itself, or when the question is evidence, assurance, gate, decision, work, release, project certification, pattern quality, or `DRR` adequacy as a substantive claim. Those claims are governed by their own patterns.
 
-**What this buys.** `J.4` reduces first-entry search cost while preserving pattern authority: it points, stops, and reclassifies; it does not govern the substantive claim.
+**What this buys.** `J.4` reduces first-entry search cost for working projects without moving authority out of the named pattern. It helps choose where to begin; it does not govern the claim.
 
-This index is informative navigation only.
-It helps one practitioner compare plausible first pattern entries under one live
-entry question. It is not one universal lookup table, not one required sequence, not one
-learning syllabus, and not one pattern-local recognition role. It is one
-compact comparison of nearby starting points.
-Plain use: choose by what you are really trying to decide, not by document
-order. A row names first patterns to inspect, plausible wrong first stops, and
-where entry can stop without pretending there is a required ordered sequence.
+### J.4:0 - Compact Front-Door Rows
 
-Plain column key: entry neighborhood = nearby starting-point cluster; first
-honest entry question = what you are really trying to decide or stabilize; first patterns
-to inspect = patterns to inspect first; admissible entry stop = enough to proceed
-without pretending there is a required ordered sequence.
+Rows are retained only when they are likely first practical entries, common wrong first guesses, or retrieval-facing cues that materially change the first pattern choice. A pattern does not need a `J.4` row merely because it exists.
 
-This table helps recover the governing pattern or verify the preceding guidance. It does not replace the pattern's Solution and does not create a required sequence.
+The compact table has two reader families. Project and practitioner rows are the primary family: they help a user apply `FPF` to a working project, project-side claim, relation, boundary, comparison, architecture, publication, or improvement question. `FPF`-artifact rows are a small secondary family: they help a user apply `FPF` to an `FPF` artifact such as a pattern or `DRR`. Do not use an `FPF`-artifact row as project-side evidence, assurance, gate, decision, work, release, or certification.
 
-| Entry neighborhood | First honest entry question or case signal | First patterns to inspect | Nearby reclassification cues | First admissible entry stop | Non-entry condition and search cues |
-| --- | --- | --- | --- | --- | --- |
-| Project alignment | "We keep mixing responsibilities, method, plan, and performed work." | `A.1.1`; `A.15`; `A.15.2`; `A.15.3`; `B.5.1` | `F.11` for unstable method/work vocabulary; `F.9` for bridge discipline | alignment pattern opened, or one shared work/term form stable enough to proceed | not comparison, boundary-claim placement, SoTA scaffold, or generator scaffold; cues: responsibility, plan, actual work |
-| Principles-to-work carry-through | "Accepted problem-side output plus principle, result, source, interface, or integration cue needs the next P2W relation." | `E.18.1`; `C.22.2`; `A.6.0`; `A.6.1`; `A.15`; `A.15.4` | `C.29` for mathematical-lens use; `A.15.1`/`A.15.2`/`A.15.3` for performed or planned work; `E.18` for graph relation | carry-through record names next kind, relation, record, application, or stop condition | not when no accepted problem-side output exists or one exact pattern already governs the claim; cues: P2W, first principles to work, result carry-through, interface split |
-| Partly-said cue and language-state discovery | "Something important is present but too early for a settled claim, requirement, or work record." | `C.2.LS`; `A.16`; `A.16.1`; `A.16.2`; `B.4.1`; `B.5.2.0` | endpoint claim/action/quality patterns only after the cue matures | cue preserved, language-state cue typed, or entry plurality opened | not when the claim is already stable enough for L/A/D/E claim decomposition; cues: vague cue, not yet a claim |
-| Wording-use precision restoration | "The wording hides the head kind, relation, source-use role, state-family value, architecture/structure use, characteristic, quality sense, function sense, or governing pattern." | `E.10`; `E.10.ARCH`; exact realization pattern when known | `C.2.P`, `A.6.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `A.6.F`, or `F.18` by recovered kind | false positive, local repair, direct exact pattern, or restoration note names remaining move | not a toll booth when exact pattern is already recoverable; cues: source says, readiness claim, function of, layer/level/tier/stack/block/gate |
-| Ontology-first plain technical rewriting | "The sentence has an FPF object, but phrase apparatus hides object, claim, relation, or action." | `F.19`; `E.8`; `E.21` when quality evaluation is live | `E.10`, `E.10.ARCH`, `F.18`, or exact pattern after apparatus is removed | phrase apparatus removed/moved, remaining content repaired, or blocker names hidden kind | not one overloaded word/head alone; cues: official-sounding sentence, mostly negative paragraph, reference boilerplate before action |
-| Boundary unpacking and claim decomposition | "Agreement, API, protocol, SLA, acceptance, or compliance wording mixes law, gate, duty, evidence, quality, or action." | `A.6`; `A.6.B`; `A.6.C` | `A.6.RSIG`, `A.6.P`, `C.16.Q`, or `A.6.A` when first-contact, relation, quality, or action wording is live | boundary claim pattern opened or L/A/D/E atomic claim set ready | not partly-said cue or already decomposed claim set; cues: API, promise, commitment, duty, evidence, gate |
-| Architecture, diagram, module, and model distinction | "Architecture, module diagram, ports, functional architecture, graph, control description, modularity, scale-preference, or source-label wording hides the EntityOfConcern." | `C.30.P`; `C.30.STRAT`; `C.30`; `A.6.M`; `C.31` family | `C.30.ASV`, `C.30.TGA-FLOW-REL`, `E.18`, `C.30.LCA`, `A.6.F`, `C.30.ILC`, `C.16.P`, `C.29`, or `C.2.P` by recovered relation | architecture, structure, module, modularity, reusable-structure, or scale-claim triage is selected | not universal layer/stack ontology or scale-proof shortcut; cues: architecture, ports, three layers, modularity score, LCA proves safety |
-| Comparison, pool policy, selection, and selected-set publication | "We need comparison, shortlist, pool policy, call-planning distinction, or selected set without forcing one winner." | `A.19:0`; `A.17-A.19`; `A.19.CN`; `C.18`; `C.19`; `G.0`; `G.5` | `C.11` for local choice; `C.24` for `CallPlan`/`CheckpointReturn`; `A.19.CPM` or `A.19.SelectorMechanism` when structure is live | comparison relation, pool policy, local choice, call plan, or selected-set publication pattern identified | not when selector mechanism or selected-set publication is already settled; cues: shortlist, acceptable option set |
-| Generator, SoTA, or portfolio scaffold | "The work is a reusable search, harvest, generator, selector, or portfolio scaffold, not one recommendation." | `A.0`; `G.0`; `G.1`; `G.2`; `G.5` | `B.5.2.1`, `C.17-C.19`, `G.10`, or `G.11` when creative search, policy, shipping, or refresh is live | generator/scaffold entry opened or portfolio/set publication pattern identified | not one local comparison or one-off recommendation; cues: scaffold, reusable search, generator |
-| Same-entity rewrite, explanation, and comparative interpretation | "Restate, explain, render, repair, or compare the same claim-bearing `PublicationUnit` without changing what it is about." | `A.6.3.CR`; `A.6.3.RT`; `E.17.EFP`; `E.17.ID.CR` | `E.17.AUD.LHR` or `E.17.AUD.OOTD` when pressured-head or `PublicationUnit` stability is live | rewrite, transition, explanation-facing rendering, or bounded comparative interpretation opened | not a new episteme, new rule track, or independent `PublicationUnit`; cues: same unit, different audience |
-| Temporal claim adequacy | "Speed, cadence, throughput, recovery, stabilization, rollout, or learning rate changes the next move." | `C.27`; `C.16`; `A.3.3` | `B.1.4`, `B.1.6`, `C.18.1`, `C.19`, `C.22.1`, `C.24`, `C.25`, `C.26`, `C.26.3`, or `G.9` by other live question | ordinary prose, Dyn0/Dyn1, `Dyn2TemporalClaimAdequacyCard`, profile, or exact relation | not speed metaphor, snapshot, benchmark, or QL residue alone; cues: velocity, rhythm, cadence, throughput, recovery |
-| Causal-use and counterfactual claim repair | "This caused that, an intervention would work, a policy would have prevented harm, or a benchmark is counterfactual." | `C.28`; `A.10`; `B.3`; `D.5`; `G.5`; `G.9` | `C.16`, `C.27`, `C.26`, `A.15`, `A.3.2`, or `A.6` when the live claim is measurement, temporal, QL, work, or boundary split | causal-use triage card, or downgrade to association, measurement, temporal, simulation, method, work, or boundary interpretation | not observed association, work occurrence, schedule, duty, or simulation trace alone; cues: caused, effect, intervention, counterfactual |
-| Quality-evaluation question framing | "Are we asking for floor blockers, exceptional improvements, trade-off check, open questions, or absorption impact?" | `E.22`; `E.21`; `E.9.DA`; `E.19` | `C.16`/`A.17-A.19` for characteristic legality; `E.10`, `A.6.P`, `C.2.P`, `F.18` for wording/names; project-side patterns for overread | `QualityEvaluationQuestionFrame` names object version, use, purpose, floor/aim, evidence basis, result form, and non-use boundary | not already-framed evaluation awaiting execution; cues: review this, raise to 5, absorption impact, Pareto trade-off |
-| EntityOfConcern-under-improvement evaluation setup | "We want to improve something but cannot yet say better for whom, by which values, against which cases, or when to stop." | `A.19.ECS`; `A.19`; `E.22`; `E.23` | exact evaluations such as `E.21`, `E.9.DA`, `E.2.DA`, `F.18`, or `C.25`; `A.17`, `A.18`, `C.16`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` when live | evaluated object kind, use, contrast cases, coordinates, value meanings, missingness, protected trade-offs, state-family value, and stop/reopen declared | not one already-framed evaluation, local work task, or project certification; cues: what is better, arbitrary rubric, when stop improving |
-| Repeated quality-improvement loop | "The object has an evaluation and candidate repairs; now we need evaluate-change-reevaluate-stop without treating activity as improvement." | `E.23`; `E.22`; exact object-under-improvement evaluation | `A.19.ECS` when evaluation is inadequate; `C.19`/`G.5` for proposal selection; project-side patterns for evidence/assurance/decision/gate/work overread | loop opens with object version, evaluation, expected value movement, protected trade-offs, cost boundary, re-evaluation result form, and stop/reopen | not single evaluation, generator design, selected-set publication, project approval, or external certification; cues: another pass, closed checklist, all fives |
-| Evaluation CharacteristicSpace FPF pattern publication form | "A reusable evaluation characteristic space exists or is being built, and the question is how to publish it as an FPF pattern." | `E.8.ECSPF`; `A.19.ECS`; `E.8`; `E.21` | `E.22`, `E.23`, `F.18`, `E.9.DA`, `E.2.DA`, `C.25`, or exact neighbors by live claim | publication form states evaluated kind, use, first evaluation, coordinates, result form, evidence basis, cases, non-use, reopen | not local, temporary, or one-project-only evaluation; cues: make this rubric a pattern, table right but hard to use |
-| FPF-level Pillar adequacy and whole-FPF improvement | "We are improving FPF as corpus, release candidate, cluster, or language ecology." | `E.2.DA`; `E.2`; `E.23`; `E.22` | `E.21` for one pattern; `E.9.DA` for one DRR; `F.18` for lexical quality; `J.4` for discoverability | FPF object under improvement, use scope, Pillar coordinates, evidence loci, rationales, trade-offs, stop, and reopen declared | not local pattern quality, one DRR, one term, or project-side certification; cues: improve FPF, Pillars, corpus discoverability |
-| Pattern-quality stop, repair, and non-scalar improvement | "A pattern draft/update may be good enough, blocked, or improvable without reducing quality to one score." | `E.21`; `E.19`; `E.8`; `C.25`; `C.16.Q` | `C.16`/`A.17-A.19`, `F.18`, `C.2.P`, `E.17.AUD`, or project-side patterns when those claims are live | `PatternQualityEvaluation` names pattern version, reader, use, window, evidence basis, coordinate rationales, status, stop, or first repair | not only E.8 body shaping, E.19 frame execution, generic measurement, or project certification; cues: quality score, Goodhart, first move missing |
-| DRR decision adequacy before pattern drafting | "Can I draft from this DRR without inventing missing decisions, selected loci, source-use payload, or accepted-decision carry-through?" | `E.9.DA`; `E.9`; `E.10` when wording repair is live | `E.21` for pattern quality; `E.19` for admission/refresh review; project-side or measurement patterns when those claims are live | `DRRDecisionAdequacyEvaluation` names DRR version, use, evidence loci, coordinate rationales, selected-locus disposition, carry-through, status, and first drafting move/repair | not ordinary pattern-quality evaluation, local wording repair, or project-world certification; cues: vague DRR, selected patterns, source-use carry-through |
-Rows are for likely first practical entries, common wrong first guesses, or
-public-facing or retrieval-facing entry points. A pattern does not need a `J.4` row merely
-because it exists. A row belongs here only when the pattern is a practical entry
-point or when its first-pattern choice commonly changes. The pattern text itself
-still needs a pattern-local `Problem frame` and any live wrong-pattern boundary to be clear.
-A `J.4` row usually stays bounded: `3-6` first patterns to inspect, `1-3` nearby or
-reclassification cues, one short not-this-entry sentence, and one short admissible
-entry-stop phrase. The row remains compact enough to scan in one pass and
-specific enough not to smuggle a required ordered sequence.
+#### Project or Practitioner First Entries
+
+| Working problem or first-entry cue | Apply first | If the question is actually... |
+|---|---|---|
+| "We have a messy situation, concern, complaint, or opportunity, and do not yet know what problem-side material is accepted before work starts." | `C.22.2` | Use `E.18.1` only after accepted problem-side material needs first-principles-to-work carry-through. Use `A.15`, `A.15.2`, or `A.15.3` when the issue is responsibility, method, plan, or performed work rather than problem-side material. |
+| "A serious cue or emerging idea is too important to ignore but too early to publish as a settled claim, requirement, or work record." | `C.2.2a` | Use `C.2.P` when the cue's wording must be restored before stronger use, and use the endpoint pattern only when the cue has matured into that endpoint's governed claim. |
+| "A first-principles distinction should change what work, method, or modeling move is tried next." | `E.18.1` | Use `C.29` when the live move is mathematical-lens use, `A.6.0` when a `U.Signature(profile=FormalSubstrate)` declaration must be written, and `A.6.1` when mechanism realization or import is being claimed. |
+| "Responsibilities, roles, methods, plans, performed work, and source use are being mixed in the project conversation." | `A.15` | Use `A.1.1` for bounded responsibility context, `A.15.2` or `A.15.3` for plan and work separation, `A.15.4` for work-relevant source use, and `B.5.1` when the alignment frame itself is being made. |
+| "We need to compare alternatives, keep a shortlist honest, decide locally, or publish a selected set without hiding the comparison logic." | `A.19` and `C.19` | Use `C.11` for a local choice, `C.18` for portfolio or archive context, and `G.5` when a selector or set-return claim is being made. |
+| "The first deliverable is a reusable search, generator, SoTA harvest, novelty-diversity archive, or exploration portfolio rather than one recommendation." | `G.0` | Use `G.1`, `G.2`, and `G.5` for generator and set-return claims; use `C.18` and `C.19` when the archive or selected-set publication is central; use `A.19` when the characteristic space already governs comparison. |
+| "We need to say what better means before evaluating, comparing, or improving an object." | `A.19.ECS` | Use `C.16` for measurement construction, `C.25` for an existing Q-Bundle, `E.22` when a suitable evaluation exists but the evaluation question needs framing, and `E.23` when repeated improvement is needed. |
+| "Evidence, test gaps, assurance, gate validity, or decision permission must be made explicit before commitment." | `A.10` and `B.3` | Use `A.20` for internal constraint validity, `A.21` for gate decisions, `C.11` for local choice, and `A.15` when the claim being made is performed work or planned work. |
+| "We need to describe or change the architecture of some holon, selected structure, or architecture-relevant characteristic." | `C.30` | Use `A.22` or `C.30.ASV` for selected-structure and structural-view questions, `C.30.AD` when the object under repair is an architecture description, and `C.30.STRAT`, `C.30.LCA`, or `C.30.ILC` when stratification, control, or interlevel residuals are live. |
+| "Function, module, interface, port, platform, reusable structure, or scale preference is central to the project move." | `A.6.F` and `A.6.M` | Use `C.31` for modularity or reusable-structure characteristics, `C.31.RSA` for reusable-structure accounting, `C.31.ASAP` for scale-amenability preference, and `C.30.TGA-FLOW-REL` when a TGA flow relation changes an architecture claim. |
+| "Different audiences need aligned descriptions, explanations, screens, summaries, or renderings without changing the underlying EntityOfConcern." | `E.17` | Use `E.17.0` for description discipline, `E.17.AUD` for same-publication-unit use, `E.17.EFP` for explanation-facing rendering, `E.17.ID.CR` for bounded comparative interpretation, and `A.6.3.*` for same-EntityOfConcern episteme morphisms. |
+| "Timing, freshness, delay, cadence, throughput, rate, recovery, effort, or resistance changes what can be claimed or done." | `C.27` | Use `C.16` for characteristic or measurement admission, and the work, comparison, quality, mechanism, evidence, or decision pattern when the temporal cue only modifies that claim. |
+| "A correlation, explanation, scenario, model output, or comparison is being used as if it justified intervention, responsibility, or counterfactual choice." | `C.28` | Use `A.10` for evidence-path use, `B.3` for assurance, `C.16` for measurement, `C.27` for temporal adequacy, and `A.15` for performed work when those claims are live. |
+| "Agreement, API, boundary, protocol, compliance, SLA, acceptance, or permission wording mixes rules, gates, duties, evidence, quality, or action." | `A.6` | Use `A.6.B` for boundary claims, `A.6.C` for claim routing, `A.10` for evidence, `B.3` for assurance, `A.20` for internal constraint validity, `A.21` for gate decisions, and `A.15` for work. |
+| "Vocabulary is breaking down: a word or phrase hides the FPF kind, relation, source-use disposition, value meaning, or admissible move." | `E.10` and `E.10.ARCH` | Use the repair pattern after the kind is recovered: `F.19` for phrase apparatus, `F.18` for naming, `A.19.SPR` for state-family wording, `C.16.P` or `C.16.Q` for characteristic, scale, or quality wording, `E.10.D2` for EntityOfConcern, description, or specification-use wording, `A.6.P`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `A.6.F`, `A.6.M`, or another governing pattern. |
+
+#### FPF-Artifact Author First Entries
+
+| Working problem or first-entry cue | Apply first | If the question is actually... |
+|---|---|---|
+| "We need to evaluate or improve an FPF artifact without reducing quality to one score." | `E.22` | Use `E.21` for one pattern version, `E.9.DA` for one `DRR`, `E.2.DA` for FPF-level quality, and `E.23` when repeated improvement is being made. Use `A.19.ECS` first only when the needed evaluation characteristic space does not yet exist or is inadequate. |
+| "We need to publish an accepted evaluation CharacteristicSpace as an FPF pattern." | `E.8.ECSPF` | Use `A.19.ECS` while constructing or repairing the evaluation characteristic space itself. Use `E.21`, `E.9.DA`, or `E.2.DA` when applying an existing evaluation to a pattern, `DRR`, or FPF-level object. |
+
+### J.4:0.1 - First-Use Slice
+
+A platform team asks, "Should we buy, fine-tune, or build an agent stack for our product?" The first `J.4` move is not to repair words. First ask what the working problem is. If the team still has only a vague situation, start with `C.22.2`. If responsibility, method, plan, and performed work are mixed, start with `A.15`. If the live work is comparing buy, fine-tune, build, and hybrid alternatives, start with `A.19`, `C.19`, `C.11`, or `G.5` depending on whether the comparison frame, selected set, local choice, or selector claim is live. If nobody can say what "better" means, start with `A.19.ECS` or `C.16`. If evidence and tests block commitment, use `A.10` or `B.3`. If several audiences need aligned outputs from the same underlying reasoning, use `E.17`. Use `E.10` only where a wording choice hides the kind or relation needed for one of those project moves.
+
+`J.4` has done its job once the first governing pattern is recoverable. The working project then continues in that pattern, not in `J.4`.
 
 ### J.4:1 - Row Discipline
 
-`EntryNeighborhoodRow := <entryNeighborhood, honestEntryQuestion, firstPatternsToInspect, nearbyReclassifications, admissibleEntryStop, nonEntryCondition, lexicalQueryHelp>`.
+FirstEntryPatternComparisonRow := <workingProblemOrCue, firstGoverningPatternRefOrSmallSet, disambiguatingDistinction>.
 
-This is an informative projection row only. The phrases in `Worked walk-through and lexical-query help` are retrieval cues, not canonical recovered kinds. When a lexical cue has FPF-governed use in FPF-governed wording, `E.10` and the referenced governing pattern decide the exact kind, relation, source-use disposition, source-currentness claim, or value meaning.
+A `FirstEntryPatternComparisonRow` is a `Part J` navigation-index row over published `FPF` patterns. It is not a `semanticArea`, not an `ontologicalNeighborhood`, not a `pattern nest`, not a table-of-content proximity relation, and not a structure of `FPF` itself.
 
-A row is current only while the referenced pattern ids exist and the row's first-entry question remains true. Lower, narrow, or remove a row when it no longer changes first-pattern choice, duplicates the referenced pattern's recognition text, cannot stay compact, or its first-entry claim is no longer true for current pattern ids. Update `J.4` when a new or changed pattern materially changes the honest first-entry choice; do not add historical status notes.
+A row is informative projection only. It remains valid only while the referenced pattern ids exist and the working problem or cue still changes first pattern choice. Lower, split, or remove a row when it duplicates the named pattern's recognition text, cannot stay compact, names stale ids, or no longer prevents a common wrong first choice.
 
-`J.4` remains the compact projection role for these rows. It does not become the applicable governing pattern body for the entry questions or relations it points to. `SoTA`-related cues only help select the first governing pattern; source currentness and `SoTA` adoption are evaluated in that governing pattern, not in `J.4`. If a referenced pattern's `Problem frame` does not expose its use situation, the pattern itself remains under-specified. If a row cannot stay compact, the depth belongs in `I.2`.
+Project-side rows start from the user's working problem or desired stabilizing result. Lexical cues may appear as search handles, but they must not become the table's organizing principle unless the live problem is wording-use repair. When a cue carries FPF-governed use, `E.10`, `E.10.ARCH`, and the named governing pattern recover the kind named by value, relation, source-use disposition, source-currentness claim, or value meaning.
 
-When `J.4` itself is under improvement, use `E.21` for the pattern-quality evaluation and `E.23` for repeated improvement. `J.4` only answers whether a row is a useful first-practical entry projection.
+FPF-artifact rows are secondary. They help FPF stewards evaluate, improve, or publish `FPF` artifacts; they do not define the main public reason a project comes to `FPF`.
 
 ### J.4:2 - Conformance Checklist
 
 | ID | Check |
-| --- | --- |
-| CC-J4-1 | A row is informative navigation only and does not create a required sequence, governing claim, or replacement for the named pattern body. |
-| CC-J4-2 | A row starts from one honest entry question or case signal, not from alphabetical order, table position, campaign history, or pattern-id proximity. |
-| CC-J4-3 | First patterns to inspect stay bounded enough for first use; nearby reclassifications are explicit and do not become a hidden required action chain. |
-| CC-J4-4 | Lexical-query help stays a retrieval cue. If the cue carries FPF-governed use, the named governing pattern and `E.10` recover the exact kind or relation. |
-| CC-J4-5 | A row is lowered, narrowed, or removed when it no longer changes first-pattern choice, duplicates a pattern's own recognition text, cannot stay compact, or points to stale pattern ids. |
-| CC-J4-6 | `J.4` points to pattern-quality, DRR-adequacy, evidence, assurance, gate, decision, work, release, or project-certification patterns only as first entries; those patterns govern their own claims. |
+|---|---|
+| CC-J4-1 | A row is informative first-entry projection only and does not create a required sequence, governing claim, or replacement for the named pattern body. |
+| CC-J4-2 | A project-side row starts from one working problem or desired stabilizing result before lexical cues, pattern ids, or internal corpus topology. |
+| CC-J4-3 | `Apply first` stays small enough for first use, and `If actually` names only the distinction needed to prevent the common wrong first choice. |
+| CC-J4-4 | Lexical cues stay retrieval cues; kind named by value and relation recovery belongs to `E.10`, `E.10.ARCH`, and the named governing pattern. |
+| CC-J4-5 | A row is lowered, split, or removed when it no longer changes first-pattern choice, duplicates a pattern's own recognition text, cannot stay compact, or names stale pattern ids. |
+| CC-J4-6 | FPF-artifact rows remain visibly secondary to project and practitioner entry rows and cannot be used as project-side evidence, assurance, gate, decision, work, release, or certification. |
 
 ### J.4:3 - SoTA and Practice Alignment
 
 | Practice source family | Local invariant | Shortcut rejected |
-| --- | --- | --- |
-| Information-foraging and information-scent practice | Entry rows use the practitioner's live question and recognizable cues before taxonomy. | Choosing by table order, pattern id, or familiar name when the live question points elsewhere. |
-| Faceted navigation and controlled-vocabulary practice | Rows combine entry neighborhood, first question, nearby reclassification, stop condition, and lexical-query help as separate facets. | One universal lookup column or one synonym list that hides kind recovery. |
-| Decision-aid triage practice | `Not this entry when` and admissible entry stop are as important as first patterns to inspect. | Turning an index into a required action chain or exhaustive taxonomy. |
-| Search and retrieval practice for technical corpora | Lexical cues are allowed as search handles, but recovered FPF kinds come from the governing pattern. | Treating a search phrase as the canonical kind, relation, or evidence source. |
+|---|---|---|
+| Problem-first onboarding and practitioner front-door practice | Rows begin from recognizable working situations and stabilizing results. | Presenting the entry index as a catalog of wording repairs or internal pattern topology. |
+| Information-foraging and information-scent practice | Rows keep high-recall cues, but the cue points to a working problem and first admissible pattern. | Choosing by table order, pattern id, or familiar name when the working problem requires a different governing pattern. |
+| Faceted navigation and controlled-vocabulary practice | The row separates working problem or cue, first application, and near-miss distinction. | One synonym list that hides kind recovery. |
+| Decision-aid triage practice | A row is useful only if it changes the first practical choice. | Keeping rows merely because a pattern exists. |
+| Search and retrieval practice for technical corpora | Lexical cues help retrieval but do not become FPF kinds. | Treating a search phrase as canonical ontology. |
 
 ### J.4:4 - Relations and Refresh
 
-`J.4` depends on the current pattern corpus, current pattern ids, and the recognition text of the patterns it points to. It coordinates with `I.2` for deeper walk-throughs, `E.10` for wording-use recovery, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, and the named governing pattern for every substantive claim.
+`J.4` depends on the published pattern corpus, pattern ids, and the recognition text of the patterns it names. It coordinates with `Preface` for coarse orientation, `I.2` for expanded entry-disambiguation cases, `E.10` for wording-use recovery, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, and the named governing pattern for every substantive claim.
 
-Refresh a row when a named pattern is renamed, split, merged, removed, or given a materially different recognition boundary; when a new pattern changes first-entry choice; when a lexical cue becomes misleading; or when the row grows too large to scan. Lower the row to ordinary prose or move depth to `I.2` when it no longer works as compact first-entry navigation.
+Refresh a row when a named pattern is renamed, split, merged, removed, or given a materially different recognition boundary; when a new pattern changes first-entry choice; when a lexical cue becomes misleading; when project front-door use reveals a missing problem family; or when the row grows too large to scan. Move depth to `I.2` when it no longer works as compact first-entry projection.
 
 ### J.4:End
-
-# **Part K - Lexical Debt**
 
 ## Mandatory replacement map for measurement terms
 

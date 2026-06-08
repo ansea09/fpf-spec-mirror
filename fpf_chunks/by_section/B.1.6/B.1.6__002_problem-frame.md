@@ -6,12 +6,12 @@ section_id: "B.1.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:1 — Problem frame"
-line_start: 30306
-line_end: 30317
+line_start: 30334
+line_end: 30346
 dependencies:
   - "A.12"
   - "A.14"
@@ -42,3 +42,4 @@ FPF distinguishes **what is done** from **what it costs** to do it.
   **Work** is the dated run‑time **occurrence** of enacting a MethodDescription by a performer under a `U.RoleAssignment` (A.15). In this pattern we treat Work under its **spent‑resource facet**: the typed delta we can account for across a declared boundary and time window. Γ\_work defines how those deltas compose across parts and phases.
 
 This separation makes models auditable and prevents category errors: **Γ\_method** composes *design‑time coordination* (a process view); **Γ\_work** composes *run‑time Work ledgers* (and never smuggles order semantics).
+

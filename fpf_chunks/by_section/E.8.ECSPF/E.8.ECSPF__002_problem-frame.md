@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:1 — Problem frame"
-line_start: 57236
-line_end: 57255
+line_start: 57520
+line_end: 57539
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -36,7 +36,7 @@ Use `E.8.ECSPF` when an evaluation `CharacteristicSpace` constructed or repaired
 
 **First useful move.** Start from the accepted `A.19.ECS` specification. Name the evaluated object kind, declared use, and first action-guiding evaluation use in the pattern's recognition text before presenting coordinate tables or conformance rows.
 
-**FPF-publication boundary.** If the evaluation is local, temporary, or project-specific, do not publish an FPF pattern. Keep the `A.19.ECS` specification in the local publication form and cite the exact FPF neighbours it uses.
+**FPF-publication boundary.** If the evaluation is local, temporary, or project-specific, do not publish an FPF pattern. Keep the `A.19.ECS` specification in the local publication form and cite the FPF neighbouring patterns named by value it uses.
 
 **What goes wrong if missed.** An evaluation-characteristic-space pattern becomes a score sheet, review form, checklist, or taxonomy. The coordinate table appears before the working situation. Readers can see values but cannot tell when to use them, what to do after an evaluation result, which objects are outside the declared evaluated-object kind, or which neighbouring pattern governs evidence, assurance, gate, work, decision, naming, measurement, or improvement-loop claims.
 

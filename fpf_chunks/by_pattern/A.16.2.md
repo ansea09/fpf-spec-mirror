@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.2.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
-line_start: 22094
-line_end: 22318
+line_start: 22119
+line_end: 22343
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,7 +52,7 @@ Without an explicit retreat pattern, teams treat reopening as failure, hide regr
 | **Reversibility vs trust** | Allow backoff without making the trajectory discipline look arbitrary. |
 | **Explicit retreat vs clutter** | Name retreat and retirement without drowning the model in bookkeeping. |
 | **Witness retention vs honest revision** | Keep what remains valid while explicitly discarding what no longer holds. |
-| **Framing revision vs repair-pattern boundary** | Allow route-specification or framing-scaffold revision without letting `A.16.2` swallow slot-explicit epistemic precision repair from receiving governing patterns. |
+| **Framing revision vs repair-pattern boundary** | Allow route-specification or framing-scaffold revision without letting `A.16.2` swallow slot-explicit epistemic precision repair from governing patterns. |
 
 ### A.16.2:4 - Solution
 This pattern defines the retreat, reframing, and retirement side of the `A.16` move family.
@@ -65,7 +65,7 @@ This pattern defines the retreat, reframing, and retirement side of the `A.16` m
 | `respecify` | the family remains plausible, but the framing scaffold, route specification, or facet-profile reading is wrong | broad domain, witness base, and major family commitments | framing scaffold, route specification, facet-profile reading |
 | `retire` | a cue, route-bearing publication, or branch is no longer current or no longer worth preserving | historical continuity and any cited witnesses that still matter | currentness, authority, successor/no-successor status |
 
-`respecify` is intentionally narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with receiving governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
+`respecify` is intentionally narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
 
 #### A.16.2:4.2 - Required publication note
 Every retreat or retirement move shall name:
@@ -86,7 +86,7 @@ A retreat or retirement move shall not silently preserve operational, gate, comm
 
 **Show (System).** A rollback cue may reopen a prior decision path instead of pretending the original operationalization still holds, or retire one branch once a better-supported successor line has taken over.
 
-**Show (Episteme).** A formalized hypothesis may sketch-backoff to a cue pack when its framing collapses under new exemplars, or it may respecify its route specification while leaving slot-explicit epistemic precision repair to receiving governing patterns.
+**Show (Episteme).** A formalized hypothesis may sketch-backoff to a cue pack when its framing collapses under new exemplars, or it may respecify its route specification while leaving slot-explicit epistemic precision repair to governing patterns.
 
 ### A.16.2:6 - Bias-Annotation
 The pattern pushes against false linear progress narratives. The cost is that teams must expose when closure or route authority is being relaxed, reframed, or retired.
@@ -96,7 +96,7 @@ The pattern pushes against false linear progress narratives. The cost is that te
 - `CC-A.16.2-2` A retreat or retirement move **SHALL NOT** silently preserve endpoint authority if the target form no longer supports it.
 - `CC-A.16.2-3` Reopen / backoff / respecify / retire moves **SHOULD** preserve witnesses and trace links whenever still valid.
 - `CC-A.16.2-4` The target articulation, closure, and route-authority state **SHALL** be explicit when the move substantively changes any of them.
-- `CC-A.16.2-5` `respecify` **SHALL NOT** be used to smuggle slot-explicit epistemic precision repair out of receiving governing patterns.
+- `CC-A.16.2-5` `respecify` **SHALL NOT** be used to smuggle slot-explicit epistemic precision repair out of governing patterns.
 
 ### A.16.2:8 - Common Anti-Patterns and How to Avoid Them
 - **Shame-driven concealment.** Teams hide the retreat. Publish the move.
@@ -160,7 +160,7 @@ Retreat is an admissible move, not a rhetorical excuse to avoid publishing mista
 Older language often talks about "going backwards" or "regressing". The preferred migration is to name whether the change is reopen, sketch-backoff, respecify, or retire, and what boundary or authority consequence follows.
 
 #### A.16.2:15.2 - Integration reminder
-When retreat affects receiving governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, those governing patterns should be updated explicitly rather than left to drift on stale authority.
+When retreat affects governing patterns such as `A.6.P`, `A.6.A`, `C.16.Q`, or `A.15`, those governing patterns should be updated explicitly rather than left to drift on stale authority.
 
 ### A.16.2:16 - Retreat Package Discipline
 
@@ -175,7 +175,7 @@ A retreat note should make explicit:
 - the **target form or target family**,
 - the **retained witnesses**,
 - the **withdrawn assumptions or route claims**,
-- the **required downstream updates** for any affected receiving governing pattern,
+- the **required downstream updates** for any affected governing pattern,
 - and the **successor / no-successor status** if a branch is retired.
 
 #### A.16.2:16.2 - Retreat is not erasure
@@ -193,7 +193,7 @@ Some retreats withdraw only one route claim, scope assumption, framing scaffold,
 `sketchBackoff` withdraws closure state, route authority state, or endpoint authority claim more sharply. It typically preserves witnesses, exemplars, or cue anchors while withdrawing the over-committing publication form and any authority that depended on that form.
 
 #### A.16.2:17.3 - Respecify
-`respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it preserves enough of the prior publication to justify continuity, but it does not authorize semantic slot repair that belongs to receiving governing patterns.
+`respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it preserves enough of the prior publication to justify continuity, but it does not authorize semantic slot repair that belongs to governing patterns.
 
 #### A.16.2:17.4 - Retire
 `retire` ends current authority for a cue, route-bearing publication, or branch while preserving historical continuity. It may point to a better-supported successor or explicitly state that no successor currently exists.

@@ -6,12 +6,12 @@ section_id: "C.19:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__006_first-output.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:0.4 — First output"
-line_start: 42982
-line_end: 42989
+line_start: 43028
+line_end: 43035
 dependencies:
   - "B.3"
   - "C.11"

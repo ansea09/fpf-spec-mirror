@@ -6,12 +6,12 @@ section_id: "E.2.DA:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__013_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:12 — Consequences"
-line_start: 55836
-line_end: 55843
+line_start: 56119
+line_end: 56126
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,7 +30,7 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| FPF-level adequacy becomes measurable by content. | Release and corpus decisions no longer rely on local praise or review state. | Evaluators must name the exact FPF object and use. |
+| FPF-level adequacy becomes measurable by content. | Release and corpus decisions no longer rely on local praise or review state. | Evaluators must name the FPF object and use named by value. |
 | Complete Pillar evaluation blocks partial-good stories. | Hidden losses in entry, layering, source use, and evolution become visible. | Even compact evaluations must touch all eleven coordinates. |
 | Local evaluation patterns keep their authority. | `E.21`, `E.9.DA`, and `E.10` are evidence or repair neighbours, not substitutes. | Users must choose the right object under improvement before evaluating. |
 

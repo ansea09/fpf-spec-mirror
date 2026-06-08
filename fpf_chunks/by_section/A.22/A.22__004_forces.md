@@ -6,12 +6,12 @@ section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:3 — Forces"
-line_start: 28451
-line_end: 28461
+line_start: 28476
+line_end: 28486
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,9 +64,9 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | First-principles structure EntityOfConcern vs ontology inflation | FPF needs a reusable selected-structure EntityOfConcern for relations, constraints, invariants, variation classes, preserved organization, and lost organization, but adding one such EntityOfConcern can accidentally invite many false root kinds. |
-| Useful compression vs source return | Structure makes work easier by compressing cases, but source return opens when compression, extraction, coarsening, source-description reuse, base-dependence reuse, grounding reuse, evidence reuse, lens reuse, simulation reuse, or representation reuse hides a distinction needed for action. |
+| Useful compression vs source return | Structure makes work easier by compressing cases, but a source-return condition is needed when compression, extraction, coarsening, source-description reuse, base-dependence reuse, grounding reuse, evidence reuse, lens reuse, simulation reuse, or representation reuse hides a distinction needed for action. |
 | Description and view usability vs structure confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
 | Mathematical-lens application vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |
-| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, level, tier, stack, expert, cache, router, and gate can remain in Plain prose, but FPF-governed use needs recoverable Tech fields and exact FPF pattern applications. Source labels go through `C.30.STRAT` before A.22 accepts a selected-structure portion. |
+| Plain engineering speech vs Tech recovery | Words such as structure, graph, architecture, module, function, interface, pattern, block, layer, level, tier, stack, expert, cache, router, and gate can remain in Plain prose, but FPF-governed use needs recoverable Tech fields and FPF pattern applications. Source-label recovery is governed by `C.30.STRAT` before A.22 accepts a selected-structure portion. |
 

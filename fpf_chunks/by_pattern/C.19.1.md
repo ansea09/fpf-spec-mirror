@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-line_start: 43295
-line_end: 43399
+line_start: 43341
+line_end: 43446
 dependencies:
   - "A.0"
   - "B.3"
@@ -118,6 +118,7 @@ Source posture: this section is informative grounding for scale-amenable method 
 * **RL & planning:** model-based optimization/general agents vs hand-coded controllers (subject to alpha/delta and safety).
 * **Preference learning:** **RLHF <-> DPO** families.
 * **QD/OEE:** MAP-Elites/**CMA-ME**/**DQD**/**QDax**; **POET/Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
+
 ### C.19.1:6 - Payload — exports
 
 `BLP.Policy@Context` (UTS row; editioned):

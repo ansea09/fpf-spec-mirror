@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
-line_start: 43948
-line_end: 44096
+line_start: 43995
+line_end: 44143
 dependencies:
   - "A.15"
   - "C.19.1"
@@ -59,7 +59,7 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 
 ### C.22.1:3 - Use this when
 
-- the adaptation-signature claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
+- the live task-family adaptation claim is not only that a holder or dyad solved a task, but how fast it acquired usable specialization on a declared task family
 - comparison must stay honest about the work-measure threshold target, prior exposure, adaptation budget, transfer field, and reuse window
 - movement into a new solution corridor or stepping-stone family is part of the real novelty claim
 
@@ -87,7 +87,7 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 ### C.22.1:7 - Solution — one adaptation signature over the `C.22` anchor
 
 - Use one shared adaptation-signature field set for this question. `G.5`, `G.9`, and later notes may cite or consume it, but they should not silently rename threshold, prior-exposure, transfer, downside, or corridor-entry terms.
-- When specialization is the adaptation-signature question, publish one adaptation signature bound to the declared `TaskFamilyRef` or `TaskSignature`, not one generic improvement claim.
+- When specialization is the live adaptation question, publish one adaptation signature bound to the declared `TaskFamilyRef` or `TaskSignature`, not one generic improvement claim.
 - The signature should expose at least:
   - `thresholdTarget`
   - `timeToThreshold`
@@ -141,7 +141,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
 
-**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` source posture plus current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
+**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` source-use role/currentness plus current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
 
 **Claim 3.** Current selector and parity practice needs one stable shared field set for specialization claims.
 
@@ -149,11 +149,11 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Evidence-source note.** Peer-reviewed or archived frontier anchors carry the most direct evidence for threshold, budget, and parity claims. Fast-moving frontier lines remain explicit evidence for corridor-entry and open-ended exploration pressure only when the row names their local contribution; they are not a flattened single evidence status.
 
-| Source-bound anchor family | Source posture | What it disciplines in this pattern |
+| Source-bound anchor family | Source-use role/currentness | What it disciplines in this pattern |
 | --- | --- | --- |
 | `QD` / `OEE` corridor-entry work | Current QD overview plus current FPF OEE/NQD neighbours. | Corridor baseline, descriptor shift, stepping-stone evidence, and whether novelty is reproducible rather than one exotic sample. |
 | Agentic adaptation benchmarks | Current narrow source lines such as FactorMiner and SkillOpt when the task family is comparable. | Threshold target, time-to-threshold, budget-to-threshold, prior exposure, and post-threshold efficiency under a declared task-family anchor. |
-| Transfer / retention evaluation | Source posture supplied by the applying benchmark or neighbour pattern. | Transfer target, retention window, downside, and reuse evidence so specialization speed is not confused with one isolated threshold crossing. |
+| Transfer / retention evaluation | Source-use role/currentness supplied by the applying benchmark or neighbour pattern. | Transfer target, retention window, downside, and reuse evidence so specialization speed is not confused with one isolated threshold crossing. |
 ### C.22.1:13 - Relations
 
 **C.27 temporal-claim relation.**
@@ -162,7 +162,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 - This pattern keeps: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, corridor-entry evidence, and adaptation-signature fields.
 - Non-admissible use: generic "learns faster" wording without task-family anchors does not create a C.27 profile or a complete adaptation signature; faster threshold crossing is not durable specialization unless transfer, retention, downside, and corridor-entry evidence are stated when claimed.
 
-- Exit: downgrade to Dyn1 trend when only a trend is live; use C.24 when the question is only tool-use planning; use C.22.1 when specialization is the adaptation-signature question.
+- Exit: downgrade to Dyn1 trend when only a trend is live; use C.24 when the question is only tool-use planning; use C.22.1 when specialization is the live adaptation question.
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` role, method, work-plan, and work-occurrence separation, `C.24` scout/probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
@@ -174,7 +174,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 ### C.22.1:14 - Not this pattern when
 
 - the claim only needs to name the task family and work-measure threshold target, with no adaptation-speed or transfer claim at all; ordinary `C.22` anchoring is enough
-- the live question is already selector or parity law across candidate selected sets; that belongs to `G.5 / G.9`
+- the question under repair is already selector or parity law across candidate selected sets; that belongs to `G.5 / G.9`
 - the text cannot yet declare one work-measure threshold target, one prior-exposure stance, or one evidence source or evidence locus for corridor entry
 
 ### C.22.1:15 - Conformance checklist

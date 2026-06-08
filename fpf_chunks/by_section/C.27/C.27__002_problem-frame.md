@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 47307
-line_end: 47424
+line_start: 47357
+line_end: 47474
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -159,7 +159,7 @@ assumption, and supported use, the correct output is a partly-said material cue 
 
 The cue may become a `Dyn2TemporalClaimAdequacyCard` only when a rate-change,
 rhythm-change, braking, coasting, recovery, stabilization, or intervention
-claim becomes explicit enough to name the card minimum. If the live question is
+claim becomes explicit enough to name the card minimum. If the question under repair is
 not temporal-claim adequacy, use the pattern that carries that question: C.16
 for measurement, C.26 for residual QL cue, E.17.AUD for publication-unit stability, or
 viability/assurance patterns when the observation has insufficient evidence, witness,

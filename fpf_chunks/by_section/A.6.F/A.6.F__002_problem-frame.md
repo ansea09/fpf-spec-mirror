@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 13537
-line_end: 13562
+line_start: 13548
+line_end: 13573
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### A.6.F:1 - Problem frame
 
-Use this pattern when `function`, `functional`, `functionality`, `effect`, or a similar function-like phrase carries a live FPF claim beyond ordinary prose. The claim kind may be architecture, work, method, capability, role, quality, mathematical, module-allocation, interface, or another exact FPF claim.
+Use this pattern when `function`, `functional`, `functionality`, `effect`, or a similar function-like phrase carries an FPF claim being made beyond ordinary prose. The claim kind may be architecture, work, method, capability, role, quality, mathematical, module-allocation, interface, or another FPF claim named by value.
 
 The first useful move is small:
 
@@ -77,9 +77,9 @@ Stop when the recovered FPF kind, any needed FPF reference, false FPF kind refer
 
 What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
 
-What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the exact FPF kind or relation and the exact governing pattern that carries any remaining claim kind.
+What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the FPF kind or relation named by value and the governing pattern that carries any remaining claim kind.
 
-Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the live issue is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
+Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the issue under repair is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
 
-**E.10.ARCH governing relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, exact FPF kind, relation, claim record, governing pattern, or stop condition is hidden, `E.10.ARCH` selects `A.6.F` only until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `A.6.F` then then stops; the exact governing pattern carries the recovered claim; it does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
+**E.10.ARCH governing-pattern relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, FPF kind named by value, relation, claim record, governing pattern, or stop condition is hidden, `E.10.ARCH` sends the case to `A.6.F` only until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `A.6.F` then exits to the governing pattern; it does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
 

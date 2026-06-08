@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:intro — Intro"
-line_start: 19793
-line_end: 19819
+line_start: 19817
+line_end: 19843
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.Work` when the live question is what actually happened: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameters, resources, affected referent, result, and evidence kept inspectable.
+**At a glance.** Use `U.Work` when the question under repair is what actually happened: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameters, resources, affected referent, result, and evidence kept inspectable.
 
 **Use this when.** Use this pattern when a plan, method description, schedule, log, telemetry stream, dashboard, approval-looking cue, or result statement is being treated as if it were actual performed work. `U.Work` is the run-time occurrence; the surrounding records may identify, constrain, evidence, schedule, or judge it, but they do not become the occurrence by being published.
 

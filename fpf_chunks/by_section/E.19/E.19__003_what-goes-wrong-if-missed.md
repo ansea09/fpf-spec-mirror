@@ -6,23 +6,13 @@ section_id: "E.19:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__003_what-goes-wrong-if-missed.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.1 — What goes wrong if missed"
-line_start: 66780
-line_end: 66783
+line_start: 67091
+line_end: 67094
 dependencies:
-  - "A.6.P"
-  - "C.2.P"
-  - "E.10"
-  - "E.21"
-  - "E.22"
-  - "E.23"
-  - "E.8"
-  - "E.9"
-  - "F.18"
-  - "F.19"
 keywords:
   - "(see H-8)"
   - "MUST NOT modify modeled-world entities (e.g"
@@ -37,5 +27,5 @@ keywords:
 
 ### E.19:0.1 - What goes wrong if missed
 
-Review collapses into heading compliance or personal taste. A draft can pass because it has the right headings while still being hard for a practitioner to recognise, too thin against current practice, unclear about its primary `EntityOfConcern`, exact relation, or claim record, or misleading about related exact patterns and authority claims.
+Review collapses into heading compliance or personal taste. A draft can pass because it has the right headings while still being hard for a practitioner to recognise, too thin against current practice, unclear about its primary `EntityOfConcern`, relation record, or claim record, or misleading about related governing patterns and authority claims.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 53961
-line_end: 53974
+line_start: 54114
+line_end: 54127
 dependencies:
   - "A.10"
   - "A.22"
@@ -44,13 +44,13 @@ keywords:
 
 | ID | Check | Why it matters |
 |---|---|---|
-| CC-ILC-1 | A conforming use names `describedHolonRef`, `boundedContextRef`, and the live architecture concern. | Keeps the triage grounded without narrowing architecture to systems. |
+| CC-ILC-1 | A conforming use names `describedHolonRef`, `boundedContextRef`, and the architecture concern cue. | Keeps the triage grounded without narrowing architecture to systems. |
 | CC-ILC-2 | A conforming use names declared holon levels or declared scopes, not only `level`, `layer`, `scope`, or `scale` prose. | Prevents pseudo-level and pseudo-scope reasoning. |
 | CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Keeps the residual interlevel rather than merely a same-level, same-scope, or unassigned conflict between structures. |
 | CC-ILC-4 | A conforming use records conflict carriers, local repair attempted, and why local repair was insufficient when a conflict or local repair is claimed. | Prevents premature synthesis and repeated local fixes. |
-| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without opening candidate generation. |
-| CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their exact governing patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
-| CC-ILC-7 | If a source-return condition is live, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
+| CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without candidate generation. |
+| CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their governing patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
+| CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |
-| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if candidate residual-reducing moves are live, the record exits to `G.5` or an admitted architecture synthesis governing pattern. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
+| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if residual-reducing candidate moves form a candidate set being used, the record applies `G.5` to the candidate set. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
 

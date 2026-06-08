@@ -6,12 +6,12 @@ section_id: "C.30.ASV:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:12 — Relations"
-line_start: 53505
-line_end: 53512
+line_start: 53654
+line_end: 53661
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 Builds on: `C.30.P`, `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and named governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is live.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is being made.
 
-Does not replace: C.30 grounded architecture and selected-structure adequacy, A.22 selected-structure EntityOfConcern, E.TGA graph, path, and crossing discipline, C.29 mathematical-lens use, C.16 characterization, C.25 Q-Bundles, C.28 causal-use relation, A.10 and G.6 evidence, B.3 assurance, A.20 and A.21 gate or release records, A.15 work, C.11 decisions, or E.17 publication.
+Neighboring claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.22` for selected-structure EntityOfConcern, `E.TGA` for graph, path, and crossing discipline, `C.29` for mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
 

@@ -6,12 +6,12 @@ section_id: "A.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:1 — Problem frame"
-line_start: 28022
-line_end: 28063
+line_start: 28048
+line_end: 28089
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -56,13 +56,13 @@ Within that boundary, A.21:
 * applies **SWP at the gate**: `OperationalGate(profile)` and its `GateCheck`s are **ref-only** with respect to editions, registries, and domain publications or records; A.21 publishes **only** `GateDecision` + `DecisionLog` pins and refs, and MUST NOT declare or mutate edition families.
 This pattern is **about the semantics of what is published** (and how it composes), not about procedural execution.
 
-#### A.21:1.2 - GateFit EntityOfConcern
+#### A.21:1.2 - Primary EntityOfConcern and gate-profile object family
 
 * **`OperationalGate(profile)`** — a gate node (`U.Transduction(kind=Check)`) that mediates any **GateCrossing**: any change in `CtxState = ⟨L,P,E⃗,D⟩` **or** entry to `U.WorkEnactment` (via `LaunchGate`).
-* **`GateProfile`** — the profile-bound constraint of the partial function `CtxState_from -> CtxState_to`; this pattern carries the current binding and minimum profile semantics. Fuller project-local profile matrices are support material unless a current governing pattern explicitly admits them.
+* **`GateProfile`** — the profile-bound constraint of the partial function `CtxState_from -> CtxState_to`; this pattern carries the current binding and minimum profile semantics. Fuller project-local profile matrices are auxiliary material unless a current governing pattern explicitly admits them.
 * **`GateCheckRef`** — the publication lexeme that binds a check to `(aspect, kind, edition, scope)`.
 * **`GateDecision` / `GateDecisionRationale` / `GateDecisionExplanation`** — decision value, structured rationale, and optional narrative (non-decision).
-* **`DecisionLog`** — append-only audit record linking decisions to check refs, rule anchors, and (where applicable) SquareLaw mismatches.
+* **`DecisionLog`** — append-only audit record linking decisions to check refs, rule references, and (where applicable) SquareLaw mismatches.
 
 #### A.21:1.3 - CV vs GF boundary (what “activation” means)
 

@@ -6,12 +6,12 @@ section_id: "C.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:2 — Problem"
-line_start: 35305
-line_end: 35314
+line_start: 35340
+line_end: 35349
 dependencies:
   - "A.2.6"
   - "A.21"

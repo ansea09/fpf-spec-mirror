@@ -6,12 +6,12 @@ section_id: "C.30.LCA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:5 — Archetypal Grounding"
-line_start: 53707
-line_end: 53713
+line_start: 53858
+line_end: 53864
 dependencies:
   - "A.10"
   - "A.20"
@@ -45,5 +45,5 @@ keywords:
 | Archetype | Without C.30.LCA | With C.30.LCA |
 |---|---|---|
 | System | A plant, controller, or supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, and rate bands are recorded as a view of control structure. |
-| Episteme | A control-description publication is read as proof because it uses familiar control labels. | The publication is treated as a description or view; proof-like claim kinds move to the pattern that governs that claim kind. |
+| Episteme | A control-description publication is read as proof because it uses familiar control labels. | The publication is treated as a description or view; proof-like claim kinds are governed by the pattern for that claim kind. |
 

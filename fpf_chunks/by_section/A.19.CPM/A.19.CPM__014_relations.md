@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 27232
-line_end: 27253
+line_start: 27258
+line_end: 27279
 dependencies:
 keywords:
   - "ComparatorSet"

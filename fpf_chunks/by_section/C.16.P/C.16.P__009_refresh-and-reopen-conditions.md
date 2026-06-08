@@ -6,12 +6,12 @@ section_id: "C.16.P:6a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__009_refresh-and-reopen-conditions.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6a — Refresh and reopen conditions"
-line_start: 41165
-line_end: 41176
+line_start: 41210
+line_end: 41221
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 Reopen or narrow `C.16.P` when current pattern-language ecology changes the first characteristic and scale entry:
 
-- a new exact characteristic, scale, evaluation, benchmark, proxy or indicator, gate or decision, mathematical-lens, quality, OEE, NQD, or publication pattern can receive one row directly;
+- a new characteristic named by value, scale, evaluation, benchmark, proxy or indicator, gate or decision, mathematical-lens, quality, OEE, NQD, or publication pattern can receive one row directly;
 - current best-known practice changes comparability, proxy-risk, threshold, measurement, scoring-method, or benchmark-harness discipline adopted in `C.16.P:8`;
 - `J.4` entry projection changes the first practical entry for hidden characteristic and scale wording;
 - a governing pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;

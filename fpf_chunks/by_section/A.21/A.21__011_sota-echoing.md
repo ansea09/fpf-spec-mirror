@@ -6,12 +6,12 @@ section_id: "A.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:10 — SoTA-Echoing"
-line_start: 28365
-line_end: 28377
+line_start: 28391
+line_end: 28403
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -44,7 +44,7 @@ keywords:
 
 ### A.21:10 - SoTA-Echoing
 
-Anchors (post-2015) that this pattern **adopts/adapts/rejects**, consistent with the TGA goal of assured lanes, open graph composition, and join-semantics.
+Source references (post-2015) that this pattern **adopts/adapts/rejects**, consistent with the TGA goal of assured lanes, open graph composition, and join-semantics.
 
 * **Adopt.** *Join-semilattice aggregation as deterministic, profile-bound merge* (distributed systems / CRDT literature, e.g., Kleppmann 2017; Kleppmann & Beresford 2017): A.21 uses the algebraic idea only so declared gate-check outcomes fold to the same `GateDecision` under the same active profile and equivalence witness. It does not import CRDT architecture or use CRDT as prestige terminology.
 

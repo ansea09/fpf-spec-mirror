@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
-line_start: 32440
-line_end: 32561
+line_start: 32474
+line_end: 32595
 dependencies:
   - "A.12"
   - "A.4"
@@ -83,7 +83,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         1.  **Operate:** The drones perform deliveries.
         2.  **Observe:** A monitoring service (`Transformer`) and operators notice recurring cold-weather battery strain, but the evidence still has low articulation.
         3.  **Stabilize:** The team publishes a `U.PreArticulationCuePack` that preserves the cue nucleus, the primary witness traces, and the current language-state position without pretending that a final anomaly or action record already exists.
-        4.  **Route:** The team publishes a `RoutedCueSet` that keeps multiple admissible continuations visible (for example, battery-chemistry investigation versus route-planning adjustment) so that receiving endpoint governing patterns can take over without losing the early signal.
+        4.  **Route:** The team publishes a `RoutedCueSet` that keeps multiple admissible continuations visible (for example, battery-chemistry investigation versus route-planning adjustment) so that endpoint governing patterns can take over without losing the early signal.
 
 *   **B.4.2 - Knowledge Instantiation (Theory Refinement Loop):**
     *   **Context:** A scientific theory of protein folding (`U.Episteme`) is being used to predict structures.

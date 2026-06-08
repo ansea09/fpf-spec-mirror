@@ -6,12 +6,12 @@ section_id: "A.16:22"
 section_title: "Review Matrix for Integration Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__023_review-matrix-for-integration-integrity.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:22 — Review Matrix for Integration Integrity"
-line_start: 21551
-line_end: 21562
+line_start: 21576
+line_end: 21587
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -48,9 +48,9 @@ A reviewer can test an `A.16` move or move chain with six questions:
 
 1. **Are the source publication form and target publication form typed?** If not, the move is too vague.
 2. **Are governing pattern and face kept distinct from the form?** If not, the move collapses layers.
-3. **Is the authority effect explicit?** If not, receiving governing pattern boundaries will drift.
+3. **Is the authority effect explicit?** If not, governing pattern boundaries will drift.
 4. **Is route plurality being confused with lineage fork?** If yes, the history is being misread.
 5. **Are intermediate move publications suppressed in a way that changes the reading?** If yes, the chain is over-compressed.
-6. **Has `A.16` started to impersonate a receiving governing pattern or a trajectory wrapper?** If yes, the relevant receiving governing pattern or `A.16.0` threshold needs to be named explicitly.
+6. **Has `A.16` started to impersonate a governing pattern or a trajectory wrapper?** If yes, the relevant governing pattern or `A.16.0` threshold needs to be named explicitly.
 
 This matrix keeps the integration layer narrow while still making its move semantics inspectable.

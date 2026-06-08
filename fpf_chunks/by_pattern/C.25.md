@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
-line_start: 45296
-line_end: 45706
+line_start: 45344
+line_end: 45754
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -175,7 +175,7 @@ Contemporary engineering quality practice routinely mixes service-level measures
 
 ### C.25:12 - Relations
 
-`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the receiving endpoint when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
+`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the endpoint governing pattern when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
 
 **C.27 temporal-claim relation.**
 
@@ -416,7 +416,7 @@ Migration from legacy family prose should therefore recover bundle shape first, 
 
 ### C.25:20a - Viability-envelope, quantum-like, and temporal-claim relation note
 
-Use `C.25` when the live question is a quality bundle, "-ility" decomposition, proxy metric, trade-off, gate, or report. A viability claim should not become quantum-like merely because it involves uncertainty, feedback, several qualities, or changing operating conditions; a temporal claim should not become a Q-Bundle merely because the working phrase mentions speed, cadence, rhythm, or recovery.
+Use `C.25` when the question under repair is a quality bundle, "-ility" decomposition, proxy metric, trade-off, gate, or report. A viability claim should not become quantum-like merely because it involves uncertainty, feedback, several qualities, or changing operating conditions; a temporal claim should not become a Q-Bundle merely because the working phrase mentions speed, cadence, rhythm, or recovery.
 
 Practical reading:
 

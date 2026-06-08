@@ -6,12 +6,12 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:4 — Solution"
-line_start: 23364
-line_end: 23432
+line_start: 23390
+line_end: 23458
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,7 +54,7 @@ StateFamilyPrecisionRepair:
   triggerSpan:
   boundedTextSpan:
   bearerRef:
-  stateFrameOrReceivingPatternRef:
+  stateFrameOrGoverningPatternRef:
   stateValueOrClassification:
   criteriaOrEvidenceRef?:
   admissibleUse:
@@ -68,35 +68,35 @@ Use the full shape only when the repair must remain inspectable. A direct rewrit
 
 #### A.19.SPR:4.1 - Recovery sequence
 
-1. **Capture trigger and bounded text.** Copy the exact state-family word and the sentence, row, card, or field that uses it.
-2. **Recover the bearer.** Name the item whose state-like value is being claimed: holon, role, source, evidence path, assurance claim, publication face, `PublicationUnit`, gate record, temporal claim, lens-use card, `DRR`, pattern version, project-side administrative record, review record, dispatch record, release or admission record, source-control record, or another exact FPF kind.
-3. **Recover the state frame or governing pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or an exact project-side administrative, review, dispatch, release or admission, or source-control record.
-4. **Recover the value set or classification.** If a local field remains, list its possible values or the exact neighboring pattern that defines them. If no value set is recoverable, do not keep the state-family head as a field.
-5. **Recover criteria or evidence only when live.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when that governing pattern is live.
+1. **Capture trigger and bounded text.** Copy the encountered state-family word and the sentence, row, card, or field that uses it.
+2. **Recover the bearer.** Name the item whose state-like value is being claimed: holon, role, source, evidence path, assurance claim, publication face, `PublicationUnit`, gate record, temporal claim, lens-use card, `DRR`, pattern version, project-side administrative record, review record, dispatch record, release or admission record, source-control record, or another FPF kind named by value.
+3. **Recover the state frame or governing pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or a project-side administrative, review, dispatch, release or admission, or source-control record.
+4. **Recover the value set or classification.** If a local field remains, list its possible values or the neighboring pattern governing that claim that defines them. If no value set is recoverable, do not keep the state-family head as a field.
+5. **Recover criteria or evidence only when that claim is being made.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when the governing pattern for that claim is selected.
 6. **State admissible and non-admissible use.** Say what the reader may do with this value and what adjacent claim remains blocked.
 7. **State validity window or reopen condition.** If currentness, readiness, release or admission, validation, assurance, or administrative state can decay, name what changes the value.
-8. **Rewrite or demote.** Replace broad wording with the exact field or governing-pattern phrase; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
+8. **Rewrite or demote.** Replace broad wording with the state-like field or governing-pattern phrase named by value; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
 9. **Return to the subject pattern.** Do not let the repair become the subject Solution unless the pattern is itself about state-family precision restoration.
 
-#### A.19.SPR:4.2 - Direct governing-pattern exits
+#### A.19.SPR:4.2 - Direct governing-pattern assignments
 
 | Recovered state-like claim | First governing pattern or locus |
 | --- | --- |
 | position in a declared `CharacteristicSpace` | `A.19`, with `A.17`, `A.18`, `C.16`, and `C.16.P` when construction is hidden |
 | reusable transition law, trajectory, or dynamics model | `A.3.3` |
-| role-state assertion, role assignment, or enactable state | exact role-state pattern and `A.15` or exact work pattern when work is live |
+| role-state assertion, role assignment, or enactable state | role-state pattern named by value and `A.15` or work pattern governing the claim when work is being claimed |
 | language-state position for episteme or publication wording | `C.2.2a` and `A.16.*` after `C.2.P` when source-publication recovery is needed |
-| source use, source currentness, source publication, or source-use disposition | `C.2.P`, `E.17`, `E.9.DA`, or exact source-use field |
+| source use, source currentness, source publication, or source-use disposition | `C.2.P`, `E.17`, `E.9.DA`, or source-use field named by value |
 | evidence path state, evidence relation, or reliance disposition | `A.10` |
 | assurance result, assurance claim, assurance input, or engineering-justification use | `B.3` |
-| constraint, local CV, gate, or release readiness | `A.20`, `A.21`, or exact release or gate pattern |
-| publication use, publication face, form, or unit value, source-finding use | `E.17`, `E.17.0`, `E.17.AUD`, or exact publication pattern |
-| Description episteme admitted for specification use or specification refinement | `A.7`, plus the exact specification-granting neighbour: `A.6.2`, `C.2.3`, `A.21`, `C.16`, `E.17`, `E.10`, or another named pattern |
+| constraint, local CV, gate, or release readiness | `A.20`, `A.21`, or release or gate pattern governing the claim |
+| publication use, publication face, form, or unit value, source-finding use | `E.17`, `E.17.0`, `E.17.AUD`, or publication pattern governing the claim |
+| Description episteme admitted for specification use or specification refinement | `A.7`, plus the specification-granting neighbouring pattern named by value: `A.6.2`, `C.2.3`, `A.21`, `C.16`, `E.17`, `E.10`, or another named pattern |
 | temporal claim status or temporal-use classification | `C.27`, retaining `dynClaimPosture` only as a declared C.27 field |
 | mathematical-lens use admissibility | `C.29`, retaining `LensUseAdmissibilityValue` only as a declared C.29 field |
 | `DRR` decision-adequacy result or source-use classification | `E.9.DA` |
 | pattern-quality result or pattern-quality review status | `E.21`, with `E.19` only as review or admission profile |
-| administrative, review, dispatch, release or admission, or source-control state | the exact project-side administrative, review, dispatch, release or admission, or source-control record; not live pattern prose unless the pattern's own `EntityOfConcern` is that record |
+| administrative, review, dispatch, release or admission, or source-control state | the project-side administrative, review, dispatch, release or admission, or source-control record; not pattern prose unless the pattern's own `EntityOfConcern` is that record |
 
 #### A.19.SPR:4.3 - Retained local field rule
 
@@ -105,10 +105,10 @@ A local `...Posture`, `...Status`, `...Readiness`, or `...State` field is admiss
 - field name;
 - bearer kind;
 - governing pattern;
-- value set or exact classification source;
+- value set or declared classification source;
 - admissible use;
 - non-admissible overread;
 - validity window, decay rule, or reopen condition when applicable.
 
-If any of those are missing, either complete them now or rename the field to the exact governing-pattern phrase or record. A narrowing adjective does not count as kind recovery.
+If any of those are missing, either complete them now or rename the field to the phrase or record required by the governing pattern. A narrowing adjective does not count as kind recovery.
 

@@ -6,12 +6,12 @@ section_id: "A.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:intro — Intro"
-line_start: 18810
-line_end: 18811
+line_start: 18833
+line_end: 18834
 dependencies:
   - "A.3"
   - "B.2.5"

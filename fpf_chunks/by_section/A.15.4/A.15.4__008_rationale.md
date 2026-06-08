@@ -6,12 +6,12 @@ section_id: "A.15.4:5b"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5b — Rationale"
-line_start: 21170
-line_end: 21175
+line_start: 21195
+line_end: 21200
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,5 +47,5 @@ keywords:
 
 A.15.4 exists because work often meets sources through displays, publication faces, generated explanations, copied statements, credential views, dashboard tiles, schema wording, API wording, or composed source chains before the project-side FPF kind and reference that actually carries the claim is visible. The pattern protects work momentum and source recoverability together: it lets the practitioner use the encountered item for orientation or bounded source-finding, while preventing the item from becoming approval, evidence, assurance, gate passage, performed work, release permission, role currentness, or status currentness by appearance.
 
-The pattern is deliberately a restoration relation, not a new authority source. Once the exact evidence, gate, assurance, speech-act, commitment, role, status, work-occurrence, publication, or boundary claim is recovered, the pattern that governs that claim carries it directly.
+The pattern is deliberately a restoration relation, not a new authority source. Once the evidence, gate, assurance, speech-act, commitment, role, status, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim carries it directly.
 

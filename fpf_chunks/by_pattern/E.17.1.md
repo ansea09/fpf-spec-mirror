@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
-line_start: 62198
-line_end: 62569
+line_start: 62506
+line_end: 62880
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -196,6 +196,7 @@ The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libra
 - **Constrains:** `E.17.0 U.MultiViewDescribing` whenever it imports viewpoint families from reusable bundles.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and any domain-specific viewpoint family that needs stable reuse.
 - **Protects:** lexical and ontological separation between viewpoint families, concrete views, and publication faces/forms.
+
 #### E.17.1:12.1 - Typed annex manifests for thin bundles
 
 `VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `routing`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing routing notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
@@ -372,6 +373,7 @@ If a legacy practice uses one label interchangeably for a viewpoint family, a re
 #### E.17.1:17.4 - Boundary to annex growth
 
 Annex manifests are useful, but a bundle should not become a thin shell hiding all of its meaning elsewhere. The core bundle still needs enough explicit member and family structure to stand on its own. Annexes deepen reuse; they do not replace the bundle's primary declaration.
+
 ### E.17.1:18 - Import Collision and Alias Discipline
 
 #### E.17.1:18.1 - Family id is not a synonym bag
@@ -405,5 +407,6 @@ A reviewer can test a viewpoint bundle library with five questions:
 5. **Has a publication face started impersonating the library itself?**
 
 Library governance should therefore prefer small, editioned, provenance-preserving bundles over lexical mega-families that are easy to name but hard to reuse truthfully.
+
 ### E.17.1:End
 

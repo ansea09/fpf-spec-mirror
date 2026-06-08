@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.6.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
-line_start: 70540
-line_end: 70796
+line_start: 70852
+line_end: 71108
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -73,7 +73,7 @@ Without disciplined Role Assignment & Enactment reasoning:
 * **Context** — shorthand for **U.BoundedContext** (per E.10.D1).
 * **SenseCell σ** — **address** **⟨Context C × Local‑Sense ℓ⟩** per F.3. (Informative: we write simply **σ**; it already contains **C**.)
 * **Role Description** — a **Role** or **Status** card anchored in a SenseCell (F.4).
-* **Holder** — the concrete entity admitted by the Role or Status Template; when the holder is semio-side, name the exact kind, such as system, episteme, publication, or carrier.
+* **Holder** — the concrete entity admitted by the Role or Status Template; when the holder is semio-side, name the kind named by value, such as system, episteme, publication, or carrier.
 * **Subject** — the referent of a **Status** assertion; determined by the Template (may or may not be the Holder).
 * **subject_of(τ, H)** — function yielding the **Subject** for Status assertions given Template **τ** (and, if needed, candidate **H**).
 * **Eligibility** — conditions on the Holder that *must* hold to apply the Template (F.4 invariants).

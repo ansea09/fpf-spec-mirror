@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_context.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:1 — Context"
-line_start: 18324
-line_end: 18339
+line_start: 18347
+line_end: 18362
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.10:1 - Context
 
-FPF is a holonic framework: wholes are built from parts (A.1, A.14), and reasoning travels across scales via Γ‑flavours (B.1). To keep this reasoning honest and reproducible, every **published assertion** must be evidenced through concrete **symbol carriers** and **well‑typed transformations** performed by an **external TransformerRole** (A.12, A.15). Per A.7, `Describe_EoC_DescEp` is the describing morphism from `EntityOfConcern` to Description episteme; specification use is granted only by exact neighbouring gates such as A.6.2, C.2.3, A.21, C.16, E.17, or E.10. **Publication** makes Description epistemes available through publication forms, faces, units, renderings, or carriers and is **not execution**. Any physical/digital release, rendering, or upload is **Work** by an external transformer **on carriers**, cited in SCR.
+FPF is a holonic framework: wholes are built from parts (A.1, A.14), and reasoning travels across scales via Γ‑flavours (B.1). To keep this reasoning honest and reproducible, every **published assertion** must be evidenced through concrete **symbol carriers** and **well‑typed transformations** performed by an **external TransformerRole** (A.12, A.15). Per A.7, `Describe_EoC_DescEp` is the describing morphism from `EntityOfConcern` to Description episteme; specification use is granted only by neighboring pattern governing the claiming gates such as A.6.2, C.2.3, A.21, C.16, E.17, or E.10. **Publication** makes Description epistemes available through publication forms, faces, units, renderings, or carriers and is **not execution**. Any physical/digital release, rendering, or upload is **Work** by an external transformer **on carriers**, cited in SCR.
 
 Practitioner shorthand:
 > **Claim → (Proof or Test) → Confidence badge**

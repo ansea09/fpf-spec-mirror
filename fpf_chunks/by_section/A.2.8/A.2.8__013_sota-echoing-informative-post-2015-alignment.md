@@ -6,12 +6,12 @@ section_id: "A.2.8:11"
 section_title: "SoTA-Echoing (informative; post‑2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:11 — SoTA-Echoing (informative; post‑2015 alignment)"
-line_start: 5196
-line_end: 5205
+line_start: 5204
+line_end: 5213
 dependencies:
   - "A.15.1"
   - "A.2"

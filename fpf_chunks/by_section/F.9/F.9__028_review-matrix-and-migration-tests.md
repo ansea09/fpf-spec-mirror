@@ -6,12 +6,12 @@ section_id: "F.9:26"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__028_review-matrix-and-migration-tests.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:26 — Review Matrix and Migration Tests"
-line_start: 71948
-line_end: 71959
+line_start: 72260
+line_end: 72272
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -58,3 +58,4 @@ A reader can test bridge integrity with six questions:
 6. **If a stance overlay exists, does it stay within the bridge card's kind, direction, `CL`, and Loss Notes?**
 
 Migration from legacy "same/equivalent/align/map" prose should therefore recover the Bridge Card first, then any row support, then any optional stance overlay. Doing it in the opposite order recreates silent equivalence under new vocabulary.
+

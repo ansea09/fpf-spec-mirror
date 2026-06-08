@@ -6,12 +6,12 @@ section_id: "A.16.1:16"
 section_title: "Cue-Pack Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-package-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:16 — Cue-Pack Package Discipline"
-line_start: 21998
-line_end: 22019
+line_start: 22023
+line_end: 22044
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.16.1:16 - Cue-Pack Package Discipline
 
-A cue pack is useful only if it preserves enough structure to justify route publication or prompt formation without pretending that a receiving endpoint pattern already governs the publication.
+A cue pack is useful only if it preserves enough structure to justify route publication or prompt formation without pretending that a endpoint governing pattern already governs the publication.
 
 #### A.16.1:16.1 - Minimal preservation package
 A robust cue pack should make visible:

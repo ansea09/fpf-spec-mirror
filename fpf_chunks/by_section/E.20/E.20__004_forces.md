@@ -6,12 +6,12 @@ section_id: "E.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:3 — Forces"
-line_start: 67511
-line_end: 67520
+line_start: 67822
+line_end: 67831
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -47,7 +47,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Extensibility vs Kernel stability** | New mechanisms need to be addable ↔ kernel reference loci need to remain citeable and minimal. |
-| **One governing definition vs cross-locus reach** | Each mechanism-intension meaning, suite change, plan item, wiring module, or token migration needs one governing definition while a mechanism introduction often spans suites, plans, wiring, and lexicon. |
+| **One governing definition vs cross-locus reach** | Each mechanism meaning, suite change, plan item, wiring module, or token migration needs one governing definition while a mechanism introduction often spans suites, plans, wiring, and lexicon. |
 | **Didactic usability vs auditability** | Humans need clear “cards” and examples ↔ obligations and pins need to remain checkable and governing-locus bounded. |
 | **SoTA evolution vs semantic integrity** | Methods evolve fast ↔ mechanism meaning SHALL NOT silently shift via wiring updates. |
 | **Local naming freedom vs global reference continuity** | Context-local labels are necessary ↔ references need to remain stable across editions and refactors. |

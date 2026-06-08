@@ -6,12 +6,12 @@ section_id: "A.6.F:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 13802
-line_end: 13814
+line_start: 13813
+line_end: 13825
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,6 +67,6 @@ keywords:
 | **Work collapse** | Work occurrence or result is described as a function. | Assign occurrence or result claims to A.15 and P2W and keep functional wording design-side unless work evidence is live. |
 | **Mathematical-function import** | A mathematical function, loss, objective, or value functional becomes design ontology. | Use C.29 and state preserved and lost structure plus stop condition. |
 | **Module allocation shortcut** | A function is considered implemented because a module is named. | Add correspondence, allocation, interface-signature boundary, or `A.6.M` module-relation repair. |
-| **Functionality as quality proxy** | "Functionality" carries adequacy or quality claim without bearer and exact governing pattern. | Recover bearer and exact governing pattern through `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern. |
-| **Sterile exact-kind repair** | The wording is typed but no useful move remains. | Restore the exact-kind or relation assignment, functional view, alignment note, or exact governing pattern application. |
+| **Functionality as quality proxy** | "Functionality" carries adequacy or quality claim without bearer and governing pattern. | Recover bearer and governing pattern through `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern. |
+| **Sterile kind repair** | The wording is typed but no useful move remains. | Restore the kind or relation assignment, functional view, alignment note, or governing-pattern application. |
 

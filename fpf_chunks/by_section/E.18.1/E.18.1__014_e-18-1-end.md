@@ -6,12 +6,12 @@ section_id: "E.18.1:End"
 section_title: "E.18.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__014_e-18-1-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:End — E.18.1:End"
-line_start: 66764
-line_end: 66765
+line_start: 67075
+line_end: 67076
 dependencies:
   - "A.10"
   - "A.15"

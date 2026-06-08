@@ -6,12 +6,12 @@ section_id: "G.0:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__008_conformance-checklist-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:7 — Conformance Checklist (normative)"
-line_start: 76482
-line_end: 76503
+line_start: 76794
+line_end: 76816
 dependencies:
   - "A.10"
   - "A.17"
@@ -72,3 +72,4 @@ keywords:
 | **CC‑G0‑Φ** | `Φ(CL)` (and `Φ_plane`, if used) is monotone, bounded, and table-backed; policy ids are published; construction preserves `R_eff ≥ 0`. |
 | **CC‑G0‑Unknowns** | *Delegated.* Unknown handling MUST follow the tri-state guard semantics `{pass|degrade|abstain}` with no silent coercions. (See `CC‑GCORE‑GUARD‑1`.) |
 | **CC‑G0‑CSLC** | Scale/unit/polarity legality MUST be proven before any aggregation; illegal arithmetic on ordinal/nominal values is nonconformant. (Governed by the relevant legality patterns; `G.0` only binds and cites.) |
+

@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_didactic-memory.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — Didactic memory"
-line_start: 60377
-line_end: 60386
+line_start: 60679
+line_end: 60688
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -45,5 +45,5 @@ Use the short memory **entity / description / admitted specification use**:
 2. **Description.** Which episteme describes it, in which bounded context and viewpoint?
 3. **Admitted specification use.** What makes a `...Spec` checkable here?
 4. **Publication and carrier.** What only exposes, renders, stores, or transports the episteme?
-5. **Neighboring claims.** Which evidence, assurance, gate, decision, commitment, work, bridge, view, or retargeting pattern carries any additional live claim?
+5. **Neighboring claims.** Which evidence, assurance, gate, decision, commitment, work, bridge, view, or retargeting pattern carries any additional claim being made?
 

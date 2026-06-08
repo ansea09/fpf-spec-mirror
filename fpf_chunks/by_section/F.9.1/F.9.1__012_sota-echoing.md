@@ -6,12 +6,12 @@ section_id: "F.9.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__012_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:11 — SoTA-Echoing"
-line_start: 72050
-line_end: 72065
+line_start: 72363
+line_end: 72378
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
@@ -46,7 +46,7 @@ keywords:
 | Shared operational names and semantic attributes aid observability and documentation, but common naming does not by itself license substitution. | Contemporary observability practice standardizes common operation and data names while keeping those conventions tied to explicit resources, spans, metrics, logs, and profiles. | OpenTelemetry Semantic Conventions (2025). | `F.9.1` adopts the value of short reusable glosses, but keeps them local to the bridge card and loss notes. | **Adapt/Reject.** Adapt common-name discipline as a readability aid; reject common naming as proof of equivalence or completeness. |
 | Validation and metadata practice keeps annotations inspectable instead of letting them replace the object they annotate. | Semantic-web validation and catalog practice separates shapes/metadata from the data graph or dataset being described. | W3C SHACL (2017); W3C DCAT v3 (2024). | `F.9.1` treats a stance overlay as inspectable annotation over a bridge card, not as a substitute bridge or source-return cure. | **Adapt.** Use annotation discipline to keep stance local and reviewable. |
 
-**Worked-slice docking.** The nearest practical recovery anchors here are the `localRename`, `operationalizes`, `projection`, and `partialAnalogy` examples in `F.9.1:13.1` through `F.9.1:13.4`, plus the anti-case `F.9.1:13.5`. If the SoTA claim cannot be recovered through those worked slices and the early boundary rule, do not let the citation stand in for the live pattern law.
+**Worked-slice docking.** The nearest practical recovery loci here are the `localRename`, `operationalizes`, `projection`, and `partialAnalogy` examples in `F.9.1:13.1` through `F.9.1:13.4`, plus the anti-case `F.9.1:13.5`. If the SoTA claim cannot be recovered through those worked slices and the early boundary rule, do not let the citation stand in for the live pattern law.
 
 **Local stance.** Best-known current practice supports a narrow rule: stance labels are useful only when they stay visibly subordinate to a published bridge card, its direction, `CL`, loss notes, and reviewable source-cell and target-cell structure.
 

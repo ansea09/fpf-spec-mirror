@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:7 — Conformance Checklist"
-line_start: 54212
-line_end: 54226
+line_start: 54406
+line_end: 54422
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,14 +46,16 @@ keywords:
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-TGA-FLOW-1 E.18 object.** | The relation names the E.18 graph, path, slice, crossing, or flow valuation object it uses. | Add the exact E.18 reference or use C.30 or C.30.ASV without TGA relation. |
-| **CC-TGA-FLOW-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is live; otherwise keep the graph claim inside E.18 only. |
+| **CC-TGA-FLOW-1 E.18 object.** | The relation names the E.18 graph, path, slice, crossing, or flow valuation object it uses. | Add the E.18 object reference named by value or use C.30 or C.30.ASV without TGA relation.
+ |
+| **CC-TGA-FLOW-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made; otherwise keep the graph claim inside E.18 only. |
 | **CC-TGA-FLOW-3 Functional and flow separation.** | Functional structure and flow or transduction structure remain separate unless a correspondence is declared. | Add `FunctionFlowRelationNote` or remove the functional-architecture claim from the graph sentence. |
 | **CC-TGA-FLOW-4 No TGA architecture takeover.** | The TGA graph is not treated as generic architecture ontology or all architecture structure kinds. | Assign grounded architecture claims, selected architecture-relevant structures, or conditional architecture-description use to C.30 and keep this pattern to flow or transduction structure. |
 | **CC-TGA-FLOW-5 No work overread.** | A graph, path, or slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
-| **CC-TGA-FLOW-6 No evidence, assurance, or gate overread.** | The relation is not used as evidence sufficiency, assurance claim, gate decision, or release permission without exact evidence, assurance, gate, or release pattern application. | Assign the live claim to A.10, G.6, B.3, A.20, A.21, or release loci as live. |
+| **CC-TGA-FLOW-6 No evidence, assurance, or gate overread.** | The relation is not used as evidence sufficiency, assurance claim, gate decision, or release permission without evidence named by value, assurance, gate, or release pattern application. | Assign the claim being made to A.10, G.6, B.3, A.20, A.21, or the release locus named by value when a release claim is being made. |
 | **CC-TGA-FLOW-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the relation's admissible use. |
 | **CC-TGA-FLOW-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |
 | **CC-TGA-FLOW-9 Source return.** | Extracted, generated, coarsened, or partial graphs state source-return conditions when hidden distinctions affect action. | Add source-return condition or narrow the admissible use. |
-| **CC-TGA-FLOW-10 Useful action.** | The repair leaves a surviving move: name graph, path, or crossing relation; add correspondence; return to source; assign the live claim to an exact governing pattern; or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-TGA-FLOW-10 Useful action.** | The repair leaves a surviving move: name graph, path, or crossing relation; add correspondence; return to source; assign the claim being made to a governing pattern; or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-TGA-FLOW-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 semantics or pins, source observation class, architecture locus, correspondence, source return, or neighboring governing boundary changes. | Update the affected reference, narrow admissible use, keep the graph claim inside E.18, apply the governing pattern to the non-flow claim, lower the relation, or block architecture-flow use. |
 

@@ -6,18 +6,16 @@ section_id: "A.6.3.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:intro — Intro"
-line_start: 10601
-line_end: 10643
+line_start: 10612
+line_end: 10654
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
-  - "A.6.3.CSC"
-  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -25,7 +23,6 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -62,7 +59,7 @@ keywords:
 
 **Cheap stop before CSC.** If the rewrite is local, source-visible, non-reliance-bearing, and does not change admissible use, stay in `ConservativeRetextualization` without opening a `Controlled Semantic Coarsening` card.
 
-**Work-planning boundary.** A rewritten method-selection note, work-planning note, or result-measurement note may improve readability and source-finding, but selected-method justification, intended `U.WorkPlan`, actual `U.Work`, and work-result measurement remain governed by `A.15` plus the source `U.Episteme`, source `U.EpistemePublication`, or exact project-side FPF kind and reference for that work.
+**Work-planning boundary.** A rewritten method-selection note, work-planning note, or result-measurement note may improve readability and source-finding, but selected-method justification, intended `U.WorkPlan`, actual `U.Work`, and work-result measurement remain governed by `A.15` plus the source `U.Episteme`, source `U.EpistemePublication`, or project-side FPF kind and reference named by value for that work.
 
 **Reliance-facing use.** Open the fuller rewrite-admissibility record only when the rewritten text will be externally relied on, disputed, cited as a source-relation reason, used across context, or read as release/gate/work preparation, engineering justification, approval, or evidence justification.
 

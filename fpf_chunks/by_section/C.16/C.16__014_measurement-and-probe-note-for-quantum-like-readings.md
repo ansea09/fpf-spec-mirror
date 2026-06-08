@@ -6,12 +6,12 @@ section_id: "C.16:12a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__014_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:12a — Measurement and probe note for quantum-like readings"
-line_start: 40970
-line_end: 41001
+line_start: 41015
+line_end: 41046
 dependencies:
   - "A.10"
   - "A.17"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.16:12a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the live question concerns a measure, metric, score, survey, dashboard, sensor, coordinate, scale, or characteristic. A metric is not quantum-like because it is noisy, probabilistic, discrete, gamed, or difficult to interpret. Metric gaming is not QL; a metric-caused state update may be QL only when the publication, probe, order, frame, or export changes what the result can admissibly support.
+Use C.16 first when the question under repair concerns a measure, metric, score, survey, dashboard, sensor, coordinate, scale, or characteristic. A metric is not quantum-like because it is noisy, probabilistic, discrete, gamed, or difficult to interpret. Metric gaming is not QL; a metric-caused state update may be QL only when the publication, probe, order, frame, or export changes what the result can admissibly support.
 
 Action path:
 

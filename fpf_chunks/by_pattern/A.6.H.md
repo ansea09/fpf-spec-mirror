@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.H.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
-line_start: 17313
-line_end: 17677
+line_start: 17335
+line_end: 17700
 dependencies:
   - "A.14"
   - "A.15"
@@ -398,3 +398,4 @@ Scale legality note: whenever “fraction/percentage/share” appears in wholene
 ### A.6.H:End
 
 # Cluster A.V - Constitutional Principles of the Kernel
+

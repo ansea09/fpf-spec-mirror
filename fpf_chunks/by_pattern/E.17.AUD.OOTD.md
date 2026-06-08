@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
-line_start: 65584
-line_end: 65902
+line_start: 65895
+line_end: 66213
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 **Plain-name.** Keep one publication unit about one primary EntityOfConcern at a time.
 
 **One-line summary.** `PublicationUnit Primary EntityOfConcern Discipline` governs one bounded publication unit at a time and keeps that unit explicit about what it is mainly about, what move it is carrying over that entity, and what wider work, non-admissible downstream decision, or reliance claim remains outside.
-**Primary EntityOfConcern discipline.** The live technical field is `publicationUnitPrimaryEntityOfConcern`: the primary EntityOfConcern, exact non-claim-bearing kind, topic, or subject that this bounded publication unit is mainly about for the current use. When no claim-bearing episteme or episteme-lane view is live, the pattern names the exact non-claim-bearing kind, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** The live technical field is `publicationUnitPrimaryEntityOfConcern`: the primary EntityOfConcern, non-claim-bearing kind named by value, topic, or subject that this bounded publication unit is mainly about for the current use. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
 **Publication unit under review in plain terms.** The publication unit under review is one bounded publication unit that other people are meant to read as one unit: a note, memo, sheet, review aid, screen, table, or short section. The carried publication move is to keep that unit explicit about one `publicationUnitPrimaryEntityOfConcern`, one carried move over that entity, and one outside-work boundary.
 
@@ -58,14 +58,14 @@ keywords:
 
 **Not this pattern when.** This is not the right pattern when:
 - the problem is still local lexical-head kind or qualifier repair and `E.17.AUD.LHR` (`Local Head Restoration`) is enough;
-- the same publication unit is already stable enough, and the live question is one bounded comparative review move over already available source epistemes or publications under `E.17.ID.CR`;
-- the live question is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
-- the live question is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
+- the same publication unit is already stable enough, and the question under repair is one bounded comparative review move over already available source epistemes or publications under `E.17.ID.CR`;
+- the question under repair is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
+- the question under repair is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
 - the unit is already being used to approve, assign, adjudicate, or direct work and should use the more honest downstream decision, work, or reliance publication.
 
 **Quick recovery entry.** If the recognition block fits, recover the working question through the ordinary six-row card in `E.17.AUD.OOTD:4.3` and the nearest worked slices in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.5`. If that ordinary card plus one nearest worked slice already settles the case, stop there rather than climbing into the heavier assurance sections by habit.
 
-**Quick boundary bank.** If the recognition block no longer fits, stop at the right boundary instead of opening the heavier stack by habit. One overloaded local lexical head or qualifier only -> `E.17.AUD.LHR` (`Local Head Restoration`). Same stable publication unit, but the live question is one bounded comparison over already pinned source epistemes or publications -> `E.17.ID.CR`. View, face, carrier, same-entity rewrite, or downstream approval, work, or reliance question -> the neighboring pattern or the more honest downstream decision publication.
+**Quick boundary bank.** If the recognition block no longer fits, stop at the right boundary instead of opening the heavier stack by habit. One overloaded local lexical head or qualifier only -> `E.17.AUD.LHR` (`Local Head Restoration`). Same stable publication unit, but the question under repair is one bounded comparison over already pinned source epistemes or publications -> `E.17.ID.CR`. View, face, carrier, same-entity rewrite, or downstream approval, work, or reliance question -> the neighboring pattern or the more honest downstream decision publication.
 
 **Quick kind-plus-lens interpretation.** `PublicationUnit Stability Discipline` names the broader publication-unit discipline family. `PublicationUnit Primary EntityOfConcern Discipline` names the publication-unit stability pattern used when one publication unit needs its primary EntityOfConcern, carried move, and outside-work boundary made explicit together. The inherited moving lineage still remains successive `U.Episteme` publications over `U.CharacteristicSpace`; this pattern keeps explicit how one publication unit speaks about that lineage or a move over it, not a rival moving lineage.
 
@@ -126,7 +126,7 @@ If the real problem is still only one vague local lexical head word, start with 
 #### E.17.AUD.OOTD:4.1.a - Pairwise plain glosses
 
 - **Publication unit** = one written or displayed bounded unit others are meant to read as one unit, such as a note, memo, sheet, table, or guided screen.
-- **Primary EntityOfConcern** = the local stabilization interpretation for what that unit is mainly about when it carries or exposes a claim-bearing episteme or episteme-lane `U.View`; it is not a new `C.2.1` slot. If no claim-bearing episteme or episteme-lane view is live, name the exact non-claim-bearing kind, topic, or subject instead of inventing a `EntityOfConcernRef`.
+- **Primary EntityOfConcern** = the local stabilization interpretation for what that unit is mainly about when it carries or exposes a claim-bearing episteme or episteme-lane `U.View`; it is not a new `C.2.1` slot. If no claim-bearing episteme or episteme-lane view is live, name the non-claim-bearing kind named by value, topic, or subject instead of inventing a `EntityOfConcernRef`.
 - **Carried move** = what the unit is doing over that entity, or that it is only stabilizing it without adding a new move.
 - **Outside-work boundary** = what wider review, execution work, non-admissible downstream decision, or reliance claim stays outside the current unit.
 - **Explicit transition** = the unit openly says it has moved from one interpretation or primary EntityOfConcern to another instead of pretending nothing changed.
@@ -192,13 +192,13 @@ Then add:
 - `modelingLensPolicy`;
 - `downstreamDecisionPolicy`.
 
-These fields do not create a rival rule track. `publicationUnitFormCue` names words such as note, sheet, screen, and table as form clues only; it does not make those clues primary-entity kinds or exact claim/relation kinds. The fields only make the heavier neighboring-boundary claim-kind visible once the ordinary card already holds.
+These fields do not create a rival rule track. `publicationUnitFormCue` names words such as note, sheet, screen, and table as form clues only; it does not make those clues primary-entity kinds or claim named by value/relation kinds. The fields only make the heavier neighboring-boundary claim-kind visible once the ordinary card already holds.
 
 **Quick governing-pattern and project-side-reference boundary summary**
 - use `E.17.AUD.LHR` (`Local Head Restoration`) when the instability is still local to one local lexical head, qualifier, or interpretation word;
-- use `E.17.ID.CR` when the same publication unit already holds one stable primary EntityOfConcern, one carried move, and one outside-work boundary, and the live question is one bounded comparative review move over already available source epistemes or publications;
+- use `E.17.ID.CR` when the same publication unit already holds one stable primary EntityOfConcern, one carried move, and one outside-work boundary, and the question under repair is one bounded comparative review move over already available source epistemes or publications;
 - use this pattern when one publication unit still has unstable primary EntityOfConcern, carried-move, or outside-work interpretation after honest local repair;
-- use the neighboring pattern or the exact project-side FPF kind and reference when view, face, carrier, entityOfConcernRef-preserving transform, explanation, bridge, ontology, gate, approval, or execution claim becomes primary.
+- use the neighboring pattern or the project-side FPF kind and reference named by value when view, face, carrier, entityOfConcernRef-preserving transform, explanation, bridge, ontology, gate, approval, or execution claim becomes primary.
 
 #### E.17.AUD.OOTD:4.5 - Boundary-rule summary
 
@@ -346,7 +346,7 @@ Heavier declaration comes only after the ordinary card already holds.
 - `E.17.AUD.LHR` for local lexical-head kind or qualifier repair;
 - `E.17.ID.CR` when the same unit is already stable and the remaining question is one bounded comparative review move;
 - `E.17.EFP` when explanation-face governance on existing faces is primary;
-- `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the live question is same-entity rewrite or representation change;
+- `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the question under repair is same-entity rewrite or representation change;
 - `A.10` when evidence or provenance becomes primary;
 - `A.15` and `A.15.4` when work, reliance, or execution claim becomes primary;
 - `B.3` when assurance or engineering justification becomes primary;

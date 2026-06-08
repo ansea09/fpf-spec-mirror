@@ -6,12 +6,12 @@ section_id: "B.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:2 — Problem"
-line_start: 31232
-line_end: 31241
+line_start: 31266
+line_end: 31275
 dependencies:
   - "A.1"
   - "A.12"
@@ -35,7 +35,7 @@ Layered supervision is useful across engineered, biological, organizational, and
 
 1. Structural composition: part-whole or structural composition of a holon.
 2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
-3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted or supported.
+3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted, observed, constrained, or revised.
 
 When these are confused, a functional or supervisory layer is treated as a physical part, a publication is treated as an acting agent, a diagram is treated as proof, or a controller label is treated as a gate or assurance result.
 

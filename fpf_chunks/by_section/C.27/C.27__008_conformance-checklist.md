@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 48797
-line_end: 48845
+line_start: 48847
+line_end: 48895
 dependencies:
   - "A.3.3"
   - "B.1.4"

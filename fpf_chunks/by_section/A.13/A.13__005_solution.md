@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 18976
-line_end: 19030
+line_start: 18999
+line_end: 19054
 dependencies:
   - "A.12"
   - "A.2"
@@ -67,6 +67,7 @@ The `Agency-CHR` profile is grounded in contemporary research (e.g., Active Infe
 When work shifts to a new `TaskFamily`, describe the holder as acquiring **context-bounded task-family specialization** rather than as becoming more generally intelligent in the abstract. The same holder may carry different task-family specializations across different task families without becoming a new kernel type. Breadth across unrelated task families is not the adaptation-signature claim here; the adaptation-signature claim is **time-to-usable specialization** on the declared task family and work target under a named work-measure threshold, adaptation budget, and freshness or provenance basis.
 
 Low-human-overlap or newly discovered task families remain admissible when the task family, evidence basis, and reuse window are explicit by value.
+
 #### A.13:4.4 - The Agency Grade (Didactic Layer)
 
 While the multi-dimensional `Agency-CHR` profile is essential for formal assurance, engineers and managers need a simpler, at-a-glance summary. The **Agency Grade** is a **non-normative, didactic** scale from 0 to 4 that synthesizes the CHR profile into an intuitive autonomy grade.

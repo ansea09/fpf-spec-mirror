@@ -6,12 +6,12 @@ section_id: "C.30.LCA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:2 — Problem"
-line_start: 53546
-line_end: 53551
+line_start: 53696
+line_end: 53701
 dependencies:
   - "A.10"
   - "A.20"
@@ -44,5 +44,5 @@ keywords:
 
 Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and recovered control-layer labels imply separation. In practice that is often enough for orientation, but not enough to make the architecture claim admissible. A control-stack description can quietly overclaim that stability, safety, evidence sufficiency, gate validity, assurance, or causality has already been established; a non-control `layer`, `level`, `tier`, or `stack` label belongs first to `C.30.STRAT`, not to C.30.LCA.
 
-FPF needs a pattern that preserves the useful recognition of control architecture without letting the recognition cue become a proof. The control roles, feedback relations, externality boundaries, and rate separations belong in an architecture structural view. Claims about dynamics, temporal adequacy, causal use, evidence, assurance, gates, or mathematical lens transfer belong in the exact governing pattern that governs that claim kind.
+FPF needs a pattern that preserves the useful recognition of control architecture without letting the recognition cue become a proof. The control roles, feedback relations, externality boundaries, and rate separations belong in an architecture structural view. Claims about dynamics, temporal adequacy, causal use, evidence, assurance, gates, or mathematical lens transfer belong in the governing pattern that governs that claim kind.
 

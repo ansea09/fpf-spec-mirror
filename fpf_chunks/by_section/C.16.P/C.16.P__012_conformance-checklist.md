@@ -6,12 +6,12 @@ section_id: "C.16.P:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__012_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:9 — Conformance checklist"
-line_start: 41201
-line_end: 41211
+line_start: 41247
+line_end: 41257
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,10 +43,10 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, exact governing pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C16P-1` | The repair names trigger span, bearer, recovered characteristic or scale construction, governing pattern, admissible use, non-admissible use, and remaining reader move. |
 | `CC-C16P-2` | `metric`, `score`, `axis`, `dimension`, `feature`, `property`, `indicator`, `strong`, `weak`, `robust`, `level`, `coordinate`, `threshold`, and `benchmark` are trigger words, not recovered kinds by themselves. |
-| `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or exact governing-pattern use applies the exact pattern directly when construction is already recoverable. |
-| `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims exit to exact governing patterns. |
+| `CC-C16P-3` | Direct `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or governing-pattern use applies the governing pattern directly when construction is already recoverable. |
+| `CC-C16P-4` | Evidence, assurance, gate, work, decision, causal-use, release, publication, benchmark, and authority claims exit to governing patterns. |
 | `CC-C16P-5` | The repair does not create a metrics-only restoration pattern, CHR super-pattern, scalar verdict, undefined maturity-status scheme, or release decision. |
 | `CC-C16P-6` | The repaired wording preserves one useful admissible reader move; type-correct but inert characterization wording is not recovered by value. |
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:5 — Archetypal grounding"
-line_start: 63901
-line_end: 63985
+line_start: 64212
+line_end: 64296
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,7 +77,7 @@ The `PlainView` rendering may stay `SourcePinnedExplanation` while the `TechCard
 #### E.17.EFP:5.3 - Didactic retelling
 **Source slice.** `The pressure-control condition is satisfied whenever the reserve valve opens within 80 ms.`
 
-**Didactic rendering.** `For onboarding: the system stays safe here because the reserve valve opens quickly enough; the exact threshold and source claim remain in the pinned technical note.`
+**Didactic rendering.** `For onboarding: the system stays safe here because the reserve valve opens quickly enough; the threshold and source claim named by value remain in the pinned technical note.`
 
 This stays in `DidacticRetelling` only if it is kept off `TechCard` or `AssuranceLane` faces where it could be mistaken for canonical semantics.
 
@@ -100,7 +100,7 @@ This no longer stays inside explanation-use discipline. The rendering introduces
 
 **Overreaching rendering on an `AssuranceLane`-facing use.** `Operators may rely on this explanation as sufficient assurance that short overloads stay inside the tolerated window.`
 
-This also leaves the profile. The rendering is no longer only reader help over existing claims; it starts acting like policy-bearing or assurance-bearing guidance. The case must reopen, drop the explanation class, or use the neighboring pattern and exact project-side FPF kind and reference that govern that guidance rather than staying on an explanation face.
+This also leaves the profile. The rendering is no longer only reader help over existing claims; it starts acting like policy-bearing or assurance-bearing guidance. The case must reopen, drop the explanation class, or use the neighboring pattern and project-side FPF kind and reference named by value that govern that guidance rather than staying on an explanation face.
 
 #### E.17.EFP:5.4.c - Boundary to lighter explanatory note with source-bearing return
 **Source slice.** `The technical incident note says the reserve path remained available during the measured load band, but it also keeps one unresolved ambiguity about recovery latency.`
@@ -116,5 +116,5 @@ This does **not** remain ordinary explanation profiling. The lighter note suppre
 - **`SpeculativeRetelling`** reopens when source binding becomes available, or when the rendering starts to behave like canonical explanation rather than clearly bounded exploratory help.
 
 #### E.17.EFP:5.6 - Boundary to interpretation and world or gate use
-If the rendering starts generating one bounded comparative review case, rival interpretations, bridge-mediated comparative claims, new hypotheses, world consequences, gate consequences, assurance claims, or engineering-justification claims, it must leave this profile and apply the neighboring FPF pattern and exact project-side FPF kind and reference that govern the claim or effect (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `B.3`, `A.20`, `A.21`).
+If the rendering starts generating one bounded comparative review case, rival interpretations, bridge-mediated comparative claims, new hypotheses, world consequences, gate consequences, assurance claims, or engineering-justification claims, it must leave this profile and apply the neighboring FPF pattern and project-side FPF kind and reference named by value that govern the claim or effect (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `B.3`, `A.20`, `A.21`).
 

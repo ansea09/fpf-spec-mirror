@@ -6,12 +6,12 @@ section_id: "A.2.5:5"
 section_title: "What an RSG is not (guardrails)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__006_what-an-rsg-is-not-guardrails.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:5 — What an RSG is not (guardrails)"
-line_start: 3429
-line_end: 3436
+line_start: 3437
+line_end: 3444
 dependencies:
   - "A.15"
   - "A.2.1"

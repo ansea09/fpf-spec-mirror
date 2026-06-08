@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 44419
-line_end: 44443
+line_start: 44467
+line_end: 44491
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,16 +74,16 @@ A Goldilocks, stepping-stone, or archive-derived problem must be represented as 
 - solvability band;
 - characteristic-space, declared problem-side characteristic descriptor, or Q-bundle relation;
 - declared difference criterion when novelty or diversity is claimed, or apply the governing characterization or comparison pattern;
-- non-scalar trade-off, dominance, partial-order, or set-return relation when live;
+- non-scalar trade-off, dominance, partial-order, or set-return relation when that relation is being made;
 - measurability or explicit unknown handling;
 - reversibility or containment for safe probing when live;
 - stepping-stone option value when retention matters;
 - expiry or refresh condition;
-- selected-set, archive, pool, front, or parity relation when live.
+- selected-set, archive, pool, front, or parity relation when that relation is being made.
 
 The local `solvability band` label means a context-bound, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, not a hidden readiness scale, and not a single-score ranking.
 
-If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to the exact FPF pattern for that claim.
+If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to the governing FPF pattern for that claim.
 
 The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 

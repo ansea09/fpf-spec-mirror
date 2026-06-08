@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 52092
-line_end: 52106
+line_start: 52200
+line_end: 52214
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.30.AD:1 - Problem frame
 
-Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, TGA-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 role-enactor semantics are live only when a project role relation itself is being governed.
+Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, TGA-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 role-enactor semantics apply only when a project role relation itself is being governed.
 
 The difficulty is that the description is not the architecture. The same architecture can have several descriptions. The same description set can contain several views. Each view is written from one viewpoint or concern-framed practice and can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transduction structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
 
@@ -66,6 +66,6 @@ The first-minute practitioner can ask:
 - Which selected structures or structure kinds does this view describe?
 - Which viewpoint makes this view useful?
 - What correspondence connects this view to the architecture claim and other views?
-- When does source return to a source episteme, source view, or exact neighboring pattern become necessary?
+- When does source return to a source episteme, source view, or neighboring pattern governing that claim become necessary?
 - What admissible architecture move remains after the description has been used?
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.A.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
-line_start: 12806
-line_end: 13530
+line_start: 12817
+line_end: 13541
 dependencies:
   - "A.15"
   - "A.16"
@@ -69,7 +69,7 @@ A.3, A.6, A.6.B, A.6.P, A.6.S, A.6.0, A.6.5, A.2.6, A.7, A.15, E.8, E.10, F.9, F
 **C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue routing, responsibility handoff, and admissible retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the admissible continuation is still an open probe question rather than an invitation; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17** and **E.18** for viewpoint publication; **F.9.1** for bridge-stance annotations; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
-A.6.A is the precision-restoration realization pattern for action-invitation wording only. `E.10` or `E.10.ARCH` sends wording here when action-first language still hides a site, invited enactor, candidate action, coupling frame, detector or viewpoint, normal form, admissible use, or governing-pattern boundary after quality, capability, deontic, work, evidence, assurance, gate, decision, publication, state-family, architecture, function-like, and relation-only cases have been excluded or assigned to their exact governing patterns. If the repaired phrase is primarily evaluative, use `C.16.Q`; if it is primarily capability, method, work, duty, evidence, assurance, gate, or decision, use the exact governing pattern and keep A.6.A only as an optional preceding invitation record when the invitation semantics remain live.
+A.6.A is the precision-restoration realization pattern for action-invitation wording only. `E.10` or `E.10.ARCH` sends wording here when action-first language still hides a site, invited enactor, candidate action, coupling frame, detector or viewpoint, normal form, admissible use, or governing-pattern boundary after quality, capability, deontic, work, evidence, assurance, gate, decision, publication, state-family, architecture, function-like, and relation-only cases have been excluded or assigned to their patterns governing the recovered claims. If the repaired phrase is primarily evaluative, use `C.16.Q`; if it is primarily capability, method, work, duty, evidence, assurance, gate, or decision, use the governing pattern and keep A.6.A only as an optional preceding invitation record when the invitation semantics remain live.
 
 **Non-goal.**
 This pattern does **not** assert that physical affordances, interface affordances, social affordances, epistemic probe moves, articulation-closure moves, latent policy cues, and control opportunities are one concept.
@@ -79,7 +79,7 @@ Its job is to publish a disciplined **bridge interpretation** across those tradi
 It also does **not** assert that every trigger use of action-first language is admissibly repaired by `actionInvitation(...)`:
 
 * where the repaired statement is primarily **evaluative**, use **C.16.Q**;
-* where it is primarily about **general capability**, capability wording, method wording, or method-description wording, use **A.6.F**, `U.Capability`, `U.Method`, or `MethodDescription` according to the live claim;
+* where it is primarily about **general capability**, capability wording, method wording, or method-description wording, use **A.6.F**, `U.Capability`, `U.Method`, or `MethodDescription` according to the claim being made;
 * where it is primarily **deontic**, apply **A.6.B**;
 * where it is primarily about **scheduled or executed enactment**, dock to **A.15** (`U.Method`, `U.MethodDescription`, `U.WorkPlan`, or actual `U.Work` once execution has occurred) rather than letting `actionInvitation(...)` become a shadow execution model.
 
@@ -158,7 +158,7 @@ A use of affordance-like or action-first language is in scope for A.6.A when any
 When the trigger fires, authors SHOULD follow the A.6.P repair path:
 
 1. **Capture the trigger span.**
-   Copy the exact trigger phrase.
+   Copy the trigger phrase.
 
 2. **Reconstruct the candidate set.**
    Enumerate plausible candidate interpretations, including:
@@ -410,8 +410,8 @@ A conforming `PolicyHook` publishes:
 A.6.A SHALL prevent the collapse of action invitation language into neighbouring families.
 
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
-* A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the exact receiving kind.
-* A statement about **what must be done** belongs to **A.6.B** with A-classified or D-classified claims as live.
+* A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the governing pattern for the asserted capability, method, or method-description claim.
+* A statement about **what must be done** belongs to **A.6.B** when the wording asserts an A-classified admissibility claim or a D-classified commitment claim.
 * A statement about **what was actually done** belongs to **A.15** and `U.Work`.
 * If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts.
 * Mixed sentences that carry both evaluative and invitational content SHALL be split into `evaluativeAscription(...)` and `actionInvitation(...)` records, with explicit cross-references when the co-occurrence matters.

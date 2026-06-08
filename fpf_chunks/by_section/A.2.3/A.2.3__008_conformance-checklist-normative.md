@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__008_conformance-checklist-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 2809
-line_end: 2881
+line_start: 2816
+line_end: 2888
 dependencies:
   - "A.1.1"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 12905
-line_end: 13275
+line_start: 12916
+line_end: 13286
 dependencies:
   - "A.15"
   - "A.16"
@@ -60,7 +60,7 @@ A use of affordance-like or action-first language is in scope for A.6.A when any
 When the trigger fires, authors SHOULD follow the A.6.P repair path:
 
 1. **Capture the trigger span.**
-   Copy the exact trigger phrase.
+   Copy the trigger phrase.
 
 2. **Reconstruct the candidate set.**
    Enumerate plausible candidate interpretations, including:
@@ -312,8 +312,8 @@ A conforming `PolicyHook` publishes:
 A.6.A SHALL prevent the collapse of action invitation language into neighbouring families.
 
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
-* A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the exact receiving kind.
-* A statement about **what must be done** belongs to **A.6.B** with A-classified or D-classified claims as live.
+* A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the governing pattern for the asserted capability, method, or method-description claim.
+* A statement about **what must be done** belongs to **A.6.B** when the wording asserts an A-classified admissibility claim or a D-classified commitment claim.
 * A statement about **what was actually done** belongs to **A.15** and `U.Work`.
 * If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts.
 * Mixed sentences that carry both evaluative and invitational content SHALL be split into `evaluativeAscription(...)` and `actionInvitation(...)` records, with explicit cross-references when the co-occurrence matters.

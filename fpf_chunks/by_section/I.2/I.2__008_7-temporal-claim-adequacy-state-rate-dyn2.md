@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Detailed Walk-throughs"
+pattern_title: "Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".7 - Temporal claim adequacy: state -> rate -> Dyn2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__008_7-temporal-claim-adequacy-state-rate-dyn2.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "I.2 — Detailed Walk-throughs"
+  - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .7 - Temporal claim adequacy: state -> rate -> Dyn2"
-line_start: 82509
-line_end: 82520
+line_start: 82825
+line_end: 82836
 dependencies:
 keywords:
 ---

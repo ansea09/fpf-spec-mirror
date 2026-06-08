@@ -6,12 +6,12 @@ section_id: "A.2.4:17"
 section_title: "Minimal evidence-role assignment schema (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__018_minimal-evidence-role-assignment-schema-informative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:17 — Minimal evidence-role assignment schema (informative)"
-line_start: 3346
-line_end: 3359
+line_start: 3354
+line_end: 3367
 dependencies:
   - "A.10"
   - "A.2"

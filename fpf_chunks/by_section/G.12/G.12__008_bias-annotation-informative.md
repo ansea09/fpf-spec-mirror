@@ -6,12 +6,12 @@ section_id: "G.12:7"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__008_bias-annotation-informative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:7 — Bias‑Annotation (informative)"
-line_start: 81922
-line_end: 81928
+line_start: 82237
+line_end: 82243
 dependencies:
   - "A.19"
   - "C.18"

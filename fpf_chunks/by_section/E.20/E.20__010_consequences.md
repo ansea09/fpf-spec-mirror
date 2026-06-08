@@ -6,12 +6,12 @@ section_id: "E.20:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:9 — Consequences"
-line_start: 67801
-line_end: 67813
+line_start: 68112
+line_end: 68124
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -46,8 +46,8 @@ keywords:
 
 **Benefits**
 * Mechanism introductions become **trainable and reviewable** (a repeatable governing-definition map).
-* Reduces drift by requiring one governing pattern for each mechanism-intension meaning and keeping semantics in their governing pattern.
-* Keeps suites descriptive and the P2W seam crisp, improving auditability.
+* Reduces drift by requiring one governing pattern for each mechanism meaning and keeping semantics in their governing pattern.
+* Keeps suites descriptive and the P2W planning-to-work boundary crisp, improving auditability.
 * Supports SoTA evolution without destabilizing kernel meaning.
 
 **Costs**

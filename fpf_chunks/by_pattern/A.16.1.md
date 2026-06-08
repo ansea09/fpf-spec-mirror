@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 21809
-line_end: 22093
+line_start: 21834
+line_end: 22118
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,10 +49,10 @@ keywords:
 
 **Typical next governing patterns.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `C.16.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
 
-**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the receiving governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
+**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
 
 ### A.16.1:1 - Problem frame
-Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method work, or endpoint governance through receiving governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
+Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method work, or endpoint governance through governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
 
 The cue pack is deliberately earlier than `RoutedCueSet`. It may carry early directional hints, but it is not yet the governing form for route selection, route authority, or route rationale.
 
@@ -150,7 +150,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route authority state **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
 - `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced, but their governing patterns remain `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
-- `CC-A.16.1-7` A cue pack **SHALL NOT** silently inherit endpoint authority that belongs to receiving governing patterns.
+- `CC-A.16.1-7` A cue pack **SHALL NOT** silently inherit endpoint authority that belongs to governing patterns.
 
 ### A.16.1:8 - Common Anti-Patterns and How to Avoid Them
 - **Cue as claim.** Do not promote the pack into a proposition without a later admissible move.
@@ -160,7 +160,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - **Cue as carrier zoo.** Do not make `U.PreArticulationCuePack` a replacement for `A.7` carrier discipline.
 
 ### A.16.1:9 - Consequences
-The benefit is an admissible preservation form for early cues and a cleaner seam into routing and receiving endpoint patterns. The trade-off is one more explicit publication form that must be named and maintained.
+The benefit is an admissible preservation form for early cues and a cleaner seam into routing and endpoint governing patterns. The trade-off is one more explicit publication form that must be named and maintained.
 
 ### A.16.1:10 - Rationale
 `U.PreArticulationCuePack` is the earliest durable seam publication in the cluster. It keeps pre-threshold cues visible before route selection and without overloading `A.6.P`, `B.4.1`, or `B.5.2`.
@@ -226,7 +226,7 @@ If a cue pack begins to carry route decision, stable endpoint authority, relatio
 
 ### A.16.1:16 - Cue-Pack Package Discipline
 
-A cue pack is useful only if it preserves enough structure to justify route publication or prompt formation without pretending that a receiving endpoint pattern already governs the publication.
+A cue pack is useful only if it preserves enough structure to justify route publication or prompt formation without pretending that a endpoint governing pattern already governs the publication.
 
 #### A.16.1:16.1 - Minimal preservation package
 A robust cue pack should make visible:
@@ -284,7 +284,7 @@ A cue pack may combine trace refs, embodiment refs, model-state refs, and exempl
 A reviewer may ask: if all candidate anchors and witnesses were removed, would anything remain that justifies preserving this pack at all? If the answer is still unclear what is being preserved, the pack is under-specified and should be rewritten, retired, or not published yet.
 
 #### A.16.1:18.3 - Review test for covert endpoint capture
-A reviewer should also ask whether any sentence in the pack would become false if the receiving endpoint pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
+A reviewer should also ask whether any sentence in the pack would become false if the endpoint governing pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
 
 ### A.16.1:19 - Cue-Pack Continuation and Comparative Preservation Rule
 
@@ -306,7 +306,7 @@ Not all witnesses play the same role. Authors should distinguish the witness tha
 A cue pack may cite traces, embodiment, model-state refs, or document fragments, but it should not absorb their full carrier semantics. When carrier analysis itself becomes central, `A.7` or another carrier governing pattern should be cited explicitly rather than silently embedded into the pack.
 
 #### A.16.1:20.3 - Early directional plurality rule
-Plural lane candidates or plural route-candidate hints are not a flaw. If the same cue nucleus pulls toward several receiving governing patterns, the pack should keep that plurality visible until `B.4.1` narrows it into explicit route publication. The error is not plurality; the error is hiding plurality under a single convenient gloss.
+Plural lane candidates or plural route-candidate hints are not a flaw. If the same cue nucleus pulls toward several governing patterns, the pack should keep that plurality visible until `B.4.1` narrows it into explicit route publication. The error is not plurality; the error is hiding plurality under a single convenient gloss.
 
 ### A.16.1:21 - Review Matrix and Migration Tests
 

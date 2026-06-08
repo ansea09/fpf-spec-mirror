@@ -6,12 +6,12 @@ section_id: "A.16:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:12 — Relations"
-line_start: 21351
-line_end: 21355
+line_start: 21376
+line_end: 21380
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

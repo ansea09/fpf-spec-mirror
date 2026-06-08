@@ -6,12 +6,12 @@ section_id: "C.28:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__014_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:12 — Relations"
-line_start: 50142
-line_end: 50159
+line_start: 50192
+line_end: 50209
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,5 +64,5 @@ keywords:
 - `G.5` governs method dispatch and MethodFamily registry. `C.28` supplies causal method or policy class declarations when method dispatch compares causal methods.
 - `G.9` governs parity and benchmarks. `C.28` supplies causal method rung parity.
 - `G.11` governs refresh orchestration. `C.28` supplies causal-use support records whose realizability, identification, fairness, representation, off-policy, target-trial, and simulation-validation shifts can trigger refresh.
-- `C.26` governs quantum-like modeling. `C.28` is a required causal exit before QL retention when the live question is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability.
+- `C.26` governs quantum-like modeling. `C.28` is a required causal exit before QL retention when the question under repair is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability.
 

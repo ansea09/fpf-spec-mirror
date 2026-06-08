@@ -6,12 +6,12 @@ section_id: "C.26:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:12 — Relations"
-line_start: 46272
-line_end: 46293
+line_start: 46320
+line_end: 46341
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 - C.28 governs causal-use question, causality-ladder rung, causal estimand, identification, counterfactual sampling realizability, causal evidence support basis, causal-use verdict, causal fairness, causal policy, and causal method parity.
 - This pattern keeps residual quantum-like probe, frame, order, export, or coarsening discipline after ordinary causal-use explanation has been tried.
 - Non-admissible use: intervention, causal effect, causal fairness, causal policy, counterfactual comparison, causal method parity, or counterfactual-rung-data realizability do not activate quantum-like modeling by themselves.
-- Exit: when the live question is causal, cite `C.28` before retaining QL-lite or QL-NQ.
+- Exit: when the question under repair is causal, cite `C.28` before retaining QL-lite or QL-NQ.
 
 **C.27 temporal-claim relation.**
 

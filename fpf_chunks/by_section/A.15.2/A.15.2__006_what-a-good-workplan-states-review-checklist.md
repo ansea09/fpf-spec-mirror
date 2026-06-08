@@ -6,12 +6,12 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 20341
-line_end: 20355
+line_start: 20365
+line_end: 20379
 dependencies:
   - "A.10"
   - "A.15"

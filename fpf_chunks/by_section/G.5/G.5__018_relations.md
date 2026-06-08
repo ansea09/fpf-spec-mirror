@@ -6,12 +6,12 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__018_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 79017
-line_end: 79034
+line_start: 79331
+line_end: 79348
 dependencies:
   - "C.11"
   - "C.18"
@@ -59,7 +59,7 @@ keywords:
 * Planning/enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the plannedBaselineRef (cited, not redefined).
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
 * Optional method/generator extensions via `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus any future extension-bearing patterns that add extra selector pins.
-* Mathematical-lens use: open `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved/lost structure, or stop condition is not yet recoverable. `C.29` may return `NoMathLensUseNeeded`, `MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, or `NeighborGoverningLocusNote` for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
+* Mathematical-lens use: apply `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved/lost structure, or stop condition is not yet recoverable. `C.29` may return `NoMathLensUseNeeded`, `MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, or `NeighborGoverningPatternNote` for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
 
 **Publishes to:** `UTS` (family ids, selector policy records, and selected-set identities such as `ShortlistId` when one public result is emitted), `G.6` (audit citations), RSCR emission records (typed triggers + payload pins), and downstream packs via `G.10` shipping publications.
 

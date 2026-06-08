@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.13.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
-line_start: 81969
-line_end: 82327
+line_start: 82284
+line_end: 82642
 dependencies:
   - "A.18"
   - "A.19"
@@ -398,7 +398,7 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 | §   | ID & Title                  |  Concise reminder                                                |
 | --- | --------------------------- | --------------------------------------------------------------- |
 | I.1 | Deprecated Aliases          |  Deprecated names kept as alias labels for continuity; aliases do not carry current semantics. |
-| I.2 | Detailed Walk-throughs | Worked entry readings for high-risk or compact-insufficient entry neighborhoods; compact-index-only is a complete admissible posture when enough. |
+| I.2 | Expanded Entry Disambiguation Cases | Expanded entry-disambiguation cases for high-risk or compact-insufficient first-entry pattern comparison; compact-index-only is a complete admissible posture when enough. |
 | I.3 | Change‑Log (auto‑generated) |  Version history keyed to DRR ids.                               |
 | I.4 | External Standards Mappings |  Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 

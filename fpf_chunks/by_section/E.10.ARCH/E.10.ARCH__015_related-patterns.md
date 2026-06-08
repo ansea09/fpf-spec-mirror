@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 59881
-line_end: 59896
+line_start: 60182
+line_end: 60197
 dependencies:
   - "A.17"
   - "A.18"
@@ -47,15 +47,15 @@ keywords:
 
 - `E.10` catches and closes local wording issues or selects the applicable row.
 - `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
-- `A.6.F` realizes function-like exact-kind and relation recovery.
+- `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
 - `C.30.P` realizes architecture and structure wording recovery.
-- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before exact governing-pattern return.
+- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.
 - `C.16.P` realizes characteristic and scale wording recovery.
 - `C.16.Q` realizes quality characterization and evaluative characterization wording recovery.
-- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or exact governing pattern is hidden.
-- `F.18` governs durable reusable naming after the live kind or relation is known.
-- `F.19` governs phrase-level ontology-first plain technical rewriting after the live kind is recovered or while proving it is still hidden.
+- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or governing pattern is hidden.
+- `F.18` governs durable reusable naming after the kind under repair or relation is known.
+- `F.19` governs phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
 - `J.4` helps readers enter the correct pattern from broad or old terms.

@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Proof Kit (ready‑to‑reuse obligations for Γ\\_ctx / Γ\\_time)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_proof-kit-ready-to-reuse-obligations-for-ctx-time.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:5 — Proof Kit (ready‑to‑reuse obligations for Γ\\_ctx / Γ\\_time)"
-line_start: 29814
-line_end: 29866
+line_start: 29842
+line_end: 29894
 dependencies:
   - "A.12"
   - "A.14"

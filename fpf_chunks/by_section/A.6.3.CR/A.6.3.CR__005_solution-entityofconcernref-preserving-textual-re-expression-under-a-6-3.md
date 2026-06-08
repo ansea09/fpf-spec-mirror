@@ -6,18 +6,16 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 10671
-line_end: 10816
+line_start: 10682
+line_end: 10827
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
-  - "A.6.3.CSC"
-  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -25,7 +23,6 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -61,7 +58,7 @@ This pattern repeatedly uses a small working vocabulary.
 
 `sourceSlice` and `publishedSlice` are local review labels for the source textual slice and the resulting textual rendering in one rewrite case. A `publishedSlice` is not automatically a `U.EpistemePublication`; it becomes one only when the governing publication discipline instantiates it as such.
 
-These terms are only local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, evidence kind, exact project-side FPF kind and reference, new governing pattern, new publication face, or a second semantic rule track.
+These terms are only local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, evidence kind, project-side FPF kind and reference named by value, new governing pattern, new publication face, or a second semantic rule track.
 
 #### A.6.3.CR:4.2 - Scope and exclusions
 

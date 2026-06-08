@@ -6,38 +6,14 @@ section_id: "C.31:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:3 — Forces"
-line_start: 54317
-line_end: 54327
+line_start: 54516
+line_end: 54526
 dependencies:
-  - "A.10"
-  - "A.17"
-  - "A.18"
-  - "A.19"
-  - "A.6.M"
-  - "B.3"
-  - "C.11"
-  - "C.16"
-  - "C.25"
-  - "C.29"
-  - "C.30"
-  - "C.30.ASV"
-  - "C.31.ASAP"
-  - "C.31.RSA"
-  - "G.5"
 keywords:
-  - "ModularityVectorLite"
-  - "bespoke residue"
-  - "cohesion"
-  - "coupling"
-  - "evidence reuse"
-  - "interface variation"
-  - "modularity characteristics"
-  - "reusable-structure characteristics"
-  - "substitutability"
 ---
 
 ### C.31:3 - Forces
@@ -48,6 +24,6 @@ keywords:
 | Characteristic plurality vs scalar pressure | Different modularity interpretations have different subjects, scales, evidence, declared measurement or comparison basis, governing-pattern needs, and risks; one score hides that plurality. |
 | Useful proxy vs proxy substitution | A cheap share, count, or graph interpretation can guide local repair, but it may become a false quality, evidence, or decision claim. |
 | Module-interface view vs broader structure | Modularity can involve functions, flows, control, work, evidence, data, placement, or scale, not only modules. |
-| Local repair vs cross-case publication | A local diagnosis can stop at report-only use; cross-case comparison needs C.16, C.25, G.2, and possibly G.5 or C.11 governing-pattern application. |
+| Local repair vs cross-case publication | A local diagnosis can stop at report-only use; cross-case comparison needs C.16, C.25, G.2, and possibly G.5 or C.11 claim-governance assignment. |
 | Complexity pressure vs complexity ontology | Residual pressure and growth signals are useful, but complexity is not one commensurable architecture characteristic. |
 

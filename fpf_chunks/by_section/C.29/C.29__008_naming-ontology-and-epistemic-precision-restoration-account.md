@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 50955
-line_end: 51000
+line_start: 51031
+line_end: 51076
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -99,13 +102,13 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 
 | Earlier wording risk | Recovered wording in `C.29` |
 |---|---|
-| `source` or `target` | Use `source-basis document`, `Basis used`, `entityOfConcernRef`, `governing FPF pattern`, `BridgeRefSet`, or exact pattern reference as appropriate. |
-| raw source intake as evidence | Recovered as source-basis text, not authority. Selected content is integrated through `C.29:13a`, `C.29:13`, and the field rows and checklist rows that carry its live claim. |
+| `source` or `target` | Use `source-basis document`, `Basis used`, `entityOfConcernRef`, `governing FPF pattern`, `BridgeRefSet`, or pattern reference named by value as appropriate. |
+| raw source intake as evidence | Recovered as source-basis text, not authority. Selected content is integrated through `C.29:13a`, `C.29:13`, and the field rows and checklist rows for its claim being made. |
 | `structure-preserving identification` | Rewritten to `structure-preserving representation or mapping` unless direct equivalence is explicitly the `LensMappingMode`. |
 | Source compound fields that merge dynamics reference and transition-law reference | Rewritten as separate `DynamicsRef?` and `TransitionLawRef?` fields. |
-| Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `C28SupportRecordRef` only when that exact neighboring-pattern application or support record is live. |
+| Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `C28SupportRecordRef` only when that neighboring-pattern application or support record is being used. |
 | `ExportPolicy` | Split into `admissibleUse`, `nonAdmissibleUse`, and optional `ExportPolicyRef?`. |
-| free strength qualifier | Replace with exact adequacy fields, evidence path, scale construction, comparability construction, use-admissibility value, and stop-condition wording. |
+| free strength qualifier | Replace with named adequacy fields, evidence path, scale construction, comparability construction, use-admissibility value, and stop-condition wording. |
 | `model`, `lens`, `math` as prestige heads | Recovered as `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, and `LensUseAdmissibilityValue`. |
 | Causal or assurance implications | Recovered as `CausalUseDisposition?` and `AssuranceUseDisposition?`, with `C.28`, `A.10`, `B.3`, and G-patterns as neighboring governors. |
 

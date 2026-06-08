@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
-line_start: 61421
-line_end: 61605
+line_start: 61727
+line_end: 61912
 dependencies:
   - "A.10"
   - "B.3"
@@ -146,6 +146,7 @@ Classify the intended change **before** work starts (declare it in the DRR frami
 * **Didactic economy**: length vs density ratio within band; “Tell‑Show‑Show” present.
 
 **Optional lenses** (context‑specific): *Ethical/SoD guard strength; cross‑scale roll‑up integrity; aggregation proofs present;* etc.
+
 ### E.15:5 - Conformance Checklist (normative)
 
 **CC‑LA‑1 (Context anchoring).**

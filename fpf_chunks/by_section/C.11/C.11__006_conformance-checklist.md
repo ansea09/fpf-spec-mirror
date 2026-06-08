@@ -6,12 +6,12 @@ section_id: "C.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__006_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:7 — Conformance Checklist"
-line_start: 40259
-line_end: 40278
+line_start: 40304
+line_end: 40323
 dependencies:
   - "A.13"
   - "A.18"
@@ -58,7 +58,7 @@ keywords:
 | `CC-C11.10` | `ProbeBudget` **SHALL** stay in `C.11` while it means the budget for further probing before choice, and `ValueOfInformation` / `ValueOfComputation` **SHALL** stay theory-side comparative criteria even when `C.19` or `C.24` later consume their outputs. | Preserves the bounded-resource bridge without letting neighboring patterns steal the doctrine. |
 | `CC-C11.11` | Shortlist or selected-set publication semantics **SHALL NOT** be treated as part of `C.11`; if the question shifts to surfacing or publishing the selected set, the text **SHALL** apply `G.5`. | Preserves selector-facing publication placement and keeps publication semantics out of local choice doctrine. |
 | `CC-C11.12` | When one heavier dependence layer or neighboring family line is activated, the text **SHALL** state what limitation of the simpler comparison it repairs and what changes in the actual comparison once that line is in play. | Prevents branch-name citation from replacing use-time doctrine. |
-| `CC-C11.13` | The text **SHALL** make the closure rule explicit enough to justify why the lawful result is `choose now`, `reject current set`, `probe again`, or `reroute` rather than some softer holding-pattern output, and **SHALL** treat vaguer endings as unfinished rather than as lawful results. | Prevents the decision record from ending in one sophisticated but operationally empty posture. |
-| `CC-C11.14` | The decision record **SHALL** make one minimal decision-record shape explicit: chooser, option set, comparison basis, one explicit `ChoiceRule`, probe posture, and one emitted `ChoiceResult`; `choose now`, `reject current set`, `probe again`, and `reroute` outputs **SHALL** each state their mandatory fields explicitly enough to determine the next move without reopening surrounding rationale. | Keeps the pattern usable as one working decision record rather than one doctrinal memo. |
+| `CC-C11.13` | The text **SHALL** make the closure rule explicit enough to justify why the lawful result is `choose now`, `reject current set`, `probe again`, or `reroute` rather than some softer holding-pattern output, and **SHALL** treat vaguer endings as unfinished rather than as lawful results. | Prevents the decision record from ending in one sophisticated but operationally empty result. |
+| `CC-C11.14` | The decision record **SHALL** make one minimal decision-record shape explicit: chooser, option set, comparison basis, one explicit `ChoiceRule`, probe decision value, and one emitted `ChoiceResult`; `choose now`, `reject current set`, `probe again`, and `reroute` outputs **SHALL** each state their mandatory fields explicitly enough to determine the next move without reopening surrounding rationale. | Keeps the pattern usable as one working decision record rather than one doctrinal memo. |
 | `CC-C11.15` | If a `ChoiceResult` is supported by a causal effect, counterfactual comparison, causal policy, or off-policy causal evaluation claim, it **SHALL** carry `ChoiceResult.causalUseSpec?` with `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, supported use and unsupported use, and the relevant `C.28` support refs. | Prevents decision-theory vocabulary from certifying causal-use support. |
 

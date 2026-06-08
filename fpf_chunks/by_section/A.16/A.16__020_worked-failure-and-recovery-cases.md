@@ -6,12 +6,12 @@ section_id: "A.16:19"
 section_title: "Worked Failure and Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__020_worked-failure-and-recovery-cases.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:19 — Worked Failure and Recovery Cases"
-line_start: 21509
-line_end: 21525
+line_start: 21534
+line_end: 21550
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -48,7 +48,7 @@ keywords:
 A low-articulation cue is observed and quickly described as if it were already a requirement. Under `A.16`, this is rejected because the move history is missing: the publication should first be noticed, stabilized, and route-published. The recovery is not to defend the over-committing label, but to reopen and publish the earlier route-bearing form.
 
 #### A.16:19.2 - Silent route drift
-A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit handoff to a receiving governing pattern.
+A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit handoff to a governing pattern.
 
 #### A.16:19.3 - admissible retreat after over-formalization
 A note is formalized too early into a relation-like shape, but later review shows the anchors are still unstable. The correct continuation is not to leave the relation form in place and quietly reinterpret it. The correct continuation is `reopen -> sketchBackoff`, preserving what still holds and lowering the authority of what no longer does.

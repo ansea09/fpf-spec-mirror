@@ -6,12 +6,12 @@ section_id: "A.10:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:7 — Consequences"
-line_start: 18623
-line_end: 18633
+line_start: 18646
+line_end: 18656
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,5 +60,5 @@ keywords:
 | **Objective evidence**            | External `TransformerRole` eliminates self‑evidence loops.                      | **Reflexive systems** require a mirror meta‑holon. *Mitigation:* provide a “reflexive modelling” appendix with examples.              |
 | **Comparable numbers over time**  | Temporal coverage invariants prevent “trend” claims built on gaps.              | **Extra dating work** for legacy data. *Mitigation:* allow provisional labels until dating is completed.                              |
 | **Safe composition of knowledge** | SCR/RSCR keep sources intact as Γ\_epist composes epistemes.                    | **Initial friction** in teams new to carrier thinking. *Mitigation:* start with “top‑10 carriers per claim” rule, expand as needed.   |
-| **Feeds B.3 typed assurance claims** | Evidence relations provide evidence inputs such as `R` and `CL` only for a named typed assurance claim. | B.3 is not a generic trust or assurance score; cite the exact claim and relying context. |
+| **Feeds B.3 typed assurance claims** | Evidence relations provide evidence inputs such as `R` and `CL` only for a named typed assurance claim. | B.3 is not a generic trust or assurance score; cite the claim named by value and relying context. |
 

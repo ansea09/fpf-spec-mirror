@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 48457
-line_end: 48761
+line_start: 48506
+line_end: 48811
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -52,7 +52,7 @@ keywords:
 Read these cases before the fuller field definitions. They show admissible stopping points for ordinary work:
 
 - no C.27 record for ordinary state, metaphor, or unsupported broad-use language;
-- Dyn1 or C.16 when the live issue is only measured rate;
+- Dyn1 or C.16 when the issue under repair is only measured rate;
 - `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs a bounded evidence path, model assumption, planning assumption, or neighbouring-pattern relation;
 - `Dyn2TemporalClaimProfile` or a named FPF pattern relation only when the authored temporal claim is used beyond the local working context, benchmarks, promises, assures, becomes causal, crosses scale, or carries decision-use that affects gate, release, assurance, benchmark, or work-plan use.
 
@@ -338,6 +338,7 @@ Minimum useful note:
   public comparison;
 - possible behavior change: smaller tickets, hidden work, quality reduction,
   postponed rework, selection of easier tasks;
+
 
 - process-vs-measurement split: measurement/probe effect, real work change,
   gaming/selection effect, causal effect if claimed;

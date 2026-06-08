@@ -6,12 +6,12 @@ section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 50937
-line_end: 50954
+line_start: 51013
+line_end: 51030
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -65,7 +68,7 @@ keywords:
 
 ### C.29:5 - Neighboring-pattern boundaries
 
-Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern relation note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first admissible move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-locus table instead of copying generic boundary prose into the neighboring pattern:
+Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first admissible move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-pattern table instead of copying generic boundary prose into the neighboring pattern:
 
 - `A.6.P` handles relation precision restoration.
 - `A.3.3` handles dynamics semantics.
@@ -79,5 +82,5 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 - `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.
 - `C.27` handles temporal-claim adequacy.
 
-Use the C.29 discipline when the live question is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
+Use the C.29 discipline when the question under repair is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
 

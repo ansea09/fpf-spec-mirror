@@ -6,12 +6,12 @@ section_id: "A.16.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:7 — Conformance Checklist"
-line_start: 21917
-line_end: 21925
+line_start: 21942
+line_end: 21950
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,5 +43,5 @@ keywords:
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route authority state **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
 - `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced, but their governing patterns remain `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
-- `CC-A.16.1-7` A cue pack **SHALL NOT** silently inherit endpoint authority that belongs to receiving governing patterns.
+- `CC-A.16.1-7` A cue pack **SHALL NOT** silently inherit endpoint authority that belongs to governing patterns.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Proof obligations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_proof-obligations-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:7 — Proof obligations (normative)"
-line_start: 30220
-line_end: 30237
+line_start: 30248
+line_end: 30265
 dependencies:
   - "A.12"
   - "A.14"

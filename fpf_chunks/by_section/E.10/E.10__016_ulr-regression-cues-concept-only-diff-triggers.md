@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "ULR regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_ulr-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:12 — ULR regression cues (concept-only “diff” triggers)"
-line_start: 59573
-line_end: 59588
+line_start: 59874
+line_end: 59889
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ Re-review your prose when any of these happen:
 
 * **Context edition** changes → re-affirm twin labels, Bridges, and acceptance wording.
 * **A role/type name grows** (“and/plus/--”) → apply MG-DA: split or bundle (A.2).
-* **A slash, `and`, `plus`, `&`, or similar grouping mark appears in FPF-governed wording** → classify the span before editing the mark. The trigger is the FPF-governed grouping use, not the character itself: LLM output, review text, intake notes, or draft prose often uses a slash as lazy `and/or`, as an untyped bundle, or as an attempt to point at a hidden kind. If the grouped words are claim-bearing heads, relation heads, kind candidates, a lazy `and/or` join, or an attempt to point at a hidden kind, apply MG-DA, `A.6.P`, or the exact selected restoration pattern: split, bundle, or recover the exact relation and admissible use. If the mark is part of accepted notation or a conventional designation such as a standard name, source name, discipline abbreviation, established compound name, formula, ratio, fraction, unit, path-like quoted source token, title, product name, or URL, keep the notation and classify its use; do not rewrite `ISO/IEC`, `ISO/IEC/IEEE`, `1/2`, or similar conventional forms merely to remove the mark.
+* **A slash, `and`, `plus`, `&`, or similar grouping mark appears in FPF-governed wording** → classify the span before editing the mark. The trigger is the FPF-governed grouping use, not the character itself: LLM output, review text, intake notes, or draft prose often uses a slash as lazy `and/or`, as an untyped bundle, or as an attempt to point at a hidden kind. If the grouped words are claim-bearing heads, relation heads, kind candidates, a lazy `and/or` join, or an attempt to point at a hidden kind, apply MG-DA, `A.6.P`, or the selected restoration pattern: split, bundle, or recover the relation named by value and admissible use. If the mark is part of accepted notation or a conventional designation such as a standard name, source name, discipline abbreviation, established compound name, formula, ratio, fraction, unit, path-like quoted source token, title, product name, or URL, keep the notation and classify its use; do not rewrite `ISO/IEC`, `ISO/IEC/IEEE`, `1/2`, or similar conventional forms merely to remove the mark.
 * **A “service” statement broadens scope** → check that **acceptance** terms cover the new promised content, endpoint, or work boundary; else split the Service.
 * **Recipes gain/lose steps** → update **`MethodDescription`**, not `Service` or `Role` names.
 * **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).

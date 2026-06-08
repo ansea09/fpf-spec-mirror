@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 34704
-line_end: 34722
+line_start: 34739
+line_end: 34757
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ It exists because episteme-publication-heavy texts can use locally convenient he
 The rewrite discipline here is ontological and use-facing, not lexical; in this pattern the repair is bounded to episteme, publication, and source-use precision:
 - do not replace one broad token with one new broad token by string substitution;
 - first recover the FPF kind and relation set, the claim-bearing status, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
-- then choose the smallest exact wording that preserves the FPF-governed distinction without creating a second ontology.
+- then choose the smallest wording that preserves the FPF-governed distinction without creating a second ontology.
 
 This pattern uses the `E.10` trigger result as its entry condition, then works in the `C.2.1` and `E.17` epistemic-publication ontology rather than in a lexical registry.
 

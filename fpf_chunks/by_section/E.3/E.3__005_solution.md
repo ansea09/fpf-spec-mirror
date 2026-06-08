@@ -6,12 +6,12 @@ section_id: "E.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:4 — Solution"
-line_start: 55862
-line_end: 55892
+line_start: 56145
+line_end: 56176
 dependencies:
   - "E.2"
 keywords:
@@ -29,6 +29,7 @@ keywords:
 ---
 
 ### E.3:4 - Solution
+
 #### E.3:4.1 - **Principle Taxonomy**
    Every principle is an instance of `U.Principle` assigned **exactly one** class ∈ { `Gov`, `Arch`, `Epist`, `Prag`, `Did` }.
 

@@ -6,12 +6,12 @@ section_id: "A.19.SPR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__005_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:3 — Forces"
-line_start: 23354
-line_end: 23363
+line_start: 23380
+line_end: 23389
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,7 +47,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Compact state words vs exact bearer | Working prose needs short state words, but FPF claims need the bearer named. |
+| Compact state words vs bearer named by value | Working prose needs short state words, but FPF claims need the bearer named. |
 | Local finite fields vs hidden ontology | Some pattern-local state fields are useful; others hide source, evidence, assurance, gate, release or admission, or administrative claims. |
 | A.19 state-space core vs many governing patterns | `A.19` gives `CharacteristicSpace`, but many state-like claims belong to evidence, assurance, publication, temporal, lens-use, or project-side administrative records. |
 | Semio precision vs semio-bias | Source or publication state wording may need semio repair, but not every state-like claim is a source, publication, or language-state case. |

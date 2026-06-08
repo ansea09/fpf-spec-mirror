@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Assurance relation for quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_assurance-relation-for-quantum-like-claims.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:11a — Assurance relation for quantum-like claims"
-line_start: 31909
-line_end: 31935
+line_start: 31943
+line_end: 31969
 dependencies:
   - "A.10"
   - "A.12"
@@ -65,7 +65,7 @@ Action path:
 
 1. Decide the claim-assurance requirement before building assurance machinery.
 2. If the QL note only prevents a local misreading, keep it as QL-lite with ordinary evidence.
-3. If the claim will be reused, state the exact FPF pattern, local stop condition, and evidence relation or evidence-path state.
+3. If the claim will be reused, state the governing FPF pattern, local stop condition, and evidence relation or evidence-path state.
 4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing action, build the B.3 assurance claim over named evidence carriers and scope.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-evidenced assurance claim does not silently stay current after probes, carriers, or scope change.
@@ -73,7 +73,7 @@ Action path:
 | Claim-use requirement | B.3 expectation | Output |
 | --- | --- | --- |
 | Local modeling note | No assurance tuple beyond the ordinary pattern and evidence note | QL-lite note with local stop |
-| Reusable example or pattern-facing note | Name the exact FPF pattern, local stop condition, and evidence relation or evidence-path state | Reusable example with source relation |
+| Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-path state | Reusable example with source relation |
 | Decision, release, audit, readiness, or compliance use | Provide F-G-R and congruence relation, evidence carriers, confidence, rival explanations, and decay or reopen conditions | Assurance tuple and evidence path |
 | Comparative superiority claim | Add rival-model comparison, baseline, mechanism, and scope limits | Bounded superiority claim or apply the neighboring FPF pattern that governs the live comparison |
 

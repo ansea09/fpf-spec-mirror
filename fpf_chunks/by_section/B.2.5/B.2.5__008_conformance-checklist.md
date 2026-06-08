@@ -6,12 +6,12 @@ section_id: "B.2.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:7 — Conformance Checklist"
-line_start: 31303
-line_end: 31314
+line_start: 31337
+line_end: 31348
 dependencies:
   - "A.1"
   - "A.12"
@@ -37,7 +37,7 @@ keywords:
 | CC-B2.5-2 | A conforming use names the shared medium or publication/interaction channel that carries observations, reports, signals, constraints, or influence. | Makes the loop inspectable. |
 | CC-B2.5-3 | A conforming use names both observation/report and influence/constraint sides or explicitly says the loop is not closed. | Separates closed feedback loops from one-way commands. |
 | CC-B2.5-4 | A conforming use keeps structural composition, supervisory relation, and interaction/publication network distinct. | Prevents layer/part category errors. |
-| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their exact governing patterns. | Prevents loop-as-proof overread. |
+| CC-B2.5-5 | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims are assigned to their governing patterns. | Prevents loop-as-proof overread. |
 | CC-B2.5-6 | Episteme examples name the acting systems or practices that perform review, revision, publication, or use. | Prevents episteme-agent overread. |
-| CC-B2.5-7 | If a control-structure view is live, the use cites or opens `C.30.LCA`. | Keeps relation-level feedback claims and view-level architecture claims aligned. |
+| CC-B2.5-7 | If a control-structure view is live, the control-structure-view claim is governed by `C.30.LCA`. | Keeps relation-level feedback claims and view-level architecture claims aligned. |
 

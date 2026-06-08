@@ -6,12 +6,12 @@ section_id: "A.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__005_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:4 — Forces"
-line_start: 5544
-line_end: 5553
+line_start: 5552
+line_end: 5561
 dependencies:
   - "A.15"
   - "A.2"

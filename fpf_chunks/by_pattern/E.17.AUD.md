@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
-line_start: 64923
-line_end: 65218
+line_start: 65234
+line_end: 65529
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,28 +51,28 @@ keywords:
 **Plain-name.** Keep one publication unit stable enough to read honestly.
 
 **One-line summary.** `PublicationUnit Stability Discipline` is the first stability discipline for notes, memos, sheets, tables, screens, and short sections whose primary-EntityOfConcern interpretation, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim has become unstable while the unit still looks unchanged. It helps the reader decide whether the honest next repair is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison over already stable source publications, or leaving the publication-unit stability family for a neighboring non-publication-unit pattern.
-**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and routes claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the exact non-claim-bearing kind, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and routes claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
-**Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-lane `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-lane view is live, do not invent a `EntityOfConcernRef`; name the exact non-claim-bearing kind, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or exact subject by value.
+**Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-lane `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-lane view is live, do not invent a `EntityOfConcernRef`; name the non-claim-bearing kind named by value, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or subject named by value by value.
 
 **Minimal lens in plain terms.** Use a four-part interpretation: one publication unit under review, one primary EntityOfConcern, one carried publication move over that primary EntityOfConcern, and one outside boundary to work, work planning, decision, gate, or reliance claim. That outside boundary usually needs one light boundary type too: neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation. If any of those interpretation relations changes quietly, the unit is no longer honest enough to read as one unchanged publication unit.
 
 **Local working vocabulary.**
 - `publication unit under review` = the note, memo, sheet, table, screen, or short section being kept honest as one unit;
-- `primary EntityOfConcern` = the exact primary EntityOfConcern of the claim-bearing episteme or episteme-lane view that the unit carries or exposes when such an item is live; otherwise use exact non-claim-bearing kind, topic, or subject without creating a `EntityOfConcernRef`;
+- `primary EntityOfConcern` = the primary EntityOfConcern named by value of the claim-bearing episteme or episteme-lane view that the unit carries or exposes when such an item is live; otherwise use non-claim-bearing kind named by value, topic, or subject without creating a `EntityOfConcernRef`;
 - `carried publication move` = the publication-side claim, interpretation, comparison, or explanation move that the unit performs over that primary EntityOfConcern;
 - `outside work boundary` = downstream `U.Work`, `U.WorkPlanning`, decision, gate, or reliance claim that still remains outside the unit;
-- `downstream claim or effect` = an approval, assignment, go or no-go, gate, work, or reliance claim or effect that readers infer from the unit but that belongs outside this pattern unless explicitly handled by its governing pattern or by the exact project-side FPF kind and reference that governs that claim or effect.
+- `downstream claim or effect` = an approval, assignment, go or no-go, gate, work, or reliance claim or effect that readers infer from the unit but that belongs outside this pattern unless explicitly handled by its governing pattern or by the project-side FPF kind and reference named by value that governs that claim or effect.
 **A.6.P unpacking of overloaded local words.** This pattern does not use `route`, `branch`, `head`, or `unit` as hidden ontology. Use these roles instead:
 - `local lexical head` = the head word or phrase inside one claim-bearing sentence or heading, such as `review`, `interpretation`, `note`, or `text`; it is not an FPF pattern head, not a package-family head, and not a language-state alternative;
 - `publication-unit repair disposition` = the current repair disposition: local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, explanation classification, representation change, controlled coarsening, changed primary EntityOfConcern, or downstream decision, gate, work, or reliance claim;
-- `governing FPF pattern or exact project-side FPF kind and reference` = the named FPF pattern, or a project-side evidence record, gate record, decision record, work plan, work occurrence, method, action invitation, relation record, or `U.EpistemePublication` whose governing FPF pattern is named;
+- `governing FPF pattern or project-side FPF kind and reference named by value` = the named FPF pattern, or a project-side evidence record, gate record, decision record, work plan, work occurrence, method, action invitation, relation record, or `U.EpistemePublication` whose governing FPF pattern is named;
 - `publication-unit stability family` = the relation among `E.17.AUD`, `E.17.AUD.LHR`, `E.17.AUD.OOTD`, and neighboring comparison and explanation patterns; it is not a runtime path and not a transduction sequence;
 - `presentation-form label` = `note`, `memo`, `sheet`, `screen`, and similar form words; these are only form clues until the publication unit under review and primary EntityOfConcern are restored.
 
 When any of those roles is claim-bearing, record the active entry in the working card rather than polishing the sentence with another generic word.
 
-**Use this when.** Use this pattern when one note, memo, sheet, screen, table, or short section is no longer trustworthy as one stable interpretation unit. Use it when people keep arguing about a paragraph, but the real question is simpler: repair one local lexical head, stabilize the whole unit, treat the unit as bounded comparison, or stop using this pattern because another FPF pattern or project publication governs the live claim.
+**Use this when.** Use this pattern when one note, memo, sheet, screen, table, or short section is no longer trustworthy as one stable interpretation unit. Use it when people keep arguing about a paragraph, but the real question is simpler: repair one local lexical head, stabilize the whole unit, treat the unit as bounded comparison, or stop using this pattern because another FPF pattern or project publication governs the claim being made.
 
 **First-minute working moment.** A memo starts by naming one primary EntityOfConcern, then quietly makes a different publication move over it, or quietly becomes about a different primary EntityOfConcern. One reviewer wants to repair one vague local lexical head. Another wants to rewrite the whole memo. A third person thinks the unit is already a bounded comparison or a downstream decision or reliance publication. You need one honest stabilization decision before the unit gets patched in three incompatible ways.
 
@@ -143,7 +143,7 @@ Without a named publication-unit stability discipline:
 
 > `PublicationUnit Stability Discipline` is the first stabilization decision for one publication unit whose interpretation is unstable.
 >
-> It names the current repair disposition: what the unit is mainly about, what move it is carrying, and which governing FPF pattern or exact project-side FPF kind and reference governs the live case. It does not certify the unit or make a paperwork dossier.
+> It names the current repair disposition: what the unit is mainly about, what move it is carrying, and which governing FPF pattern or project-side FPF kind and reference named by value governs the live case. It does not certify the unit or make a paperwork dossier.
 
 #### E.17.AUD:4.1 - Minimum admissible interpretation
 
@@ -161,10 +161,10 @@ If the publication unit changes any of those four without saying so, its interpr
 - `local lexical-head repair`: one overloaded local head should apply `E.17.AUD.LHR`;
 - `whole-unit stabilization`: the unit should apply `E.17.AUD.OOTD`;
 - `bounded comparison`: the stable unit should apply `E.17.ID.CR`;
-- `leave publication-unit stability`: the live claim is work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another object governed by its exact neighboring FPF pattern or exact project-side FPF kind and reference.
+- `leave publication-unit stability`: the claim being made is work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another object governed by its neighboring FPF pattern governing that claim or project-side FPF kind and reference named by value.
 
 `PublicationUnit Stability Discipline` is the first stabilization decision for one publication unit whose interpretation is unstable.
-Its job is to name the current repair disposition and then handle the case under the governing FPF pattern or exact project-side FPF kind and reference that already governs that disposition: `E.17.AUD.LHR` for local lexical-head repair, `E.17.AUD.OOTD` for whole-unit stabilization, `E.17.ID.CR` for bounded comparison, or another neighboring pattern when the live claim has left publication-unit stability.
+Its job is to name the current repair disposition and then handle the case under the governing FPF pattern or project-side FPF kind and reference named by value that already governs that disposition: `E.17.AUD.LHR` for local lexical-head repair, `E.17.AUD.OOTD` for whole-unit stabilization, `E.17.ID.CR` for bounded comparison, or another neighboring pattern when the claim being made has left publication-unit stability.
 
 It does **not** re-govern the narrower whole-unit admissibility check that already belongs to `PublicationUnit Primary EntityOfConcern Discipline` once the active question becomes: can this one unit still keep one stable primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim by value?
 
@@ -187,7 +187,7 @@ This pattern governs one publication unit as a readable unit. It does **not** tr
 
 Those may become relevant neighboring concerns, but they are not the problem situation being governed here just because the same note, sheet, or screen happens to mention them.
 
-**Publication-unit boundary choice.** A `PublicationUnit` boundary is valid when a careful reader would naturally inspect that bounded item as carrying one primary publication move over one primary EntityOfConcern, with one visible outside boundary to work, work planning, decision, gate, reliance claim, or neighboring pattern application. Choose the bounded item that carries the live claim or effect being repaired. Do not choose a smaller boundary merely to hide a downstream overclaim, and do not choose a larger boundary merely to absorb several primary EntityOfConcern values into one unit. A table row may be the unit when that row carries the claim; the whole table may be the unit when the table-level caption or comparison frame carries the claim. A dashboard tile, note, card, sheet, or screen block may be the unit only when that bounded item, not the whole carrier or interface, carries the live publication move.
+**Publication-unit boundary choice.** A `PublicationUnit` boundary is valid when a careful reader would naturally inspect that bounded item as carrying one primary publication move over one primary EntityOfConcern, with one visible outside boundary to work, work planning, decision, gate, reliance claim, or neighboring pattern application. Choose the bounded item that carries the claim being made or effect being repaired. Do not choose a smaller boundary merely to hide a downstream overclaim, and do not choose a larger boundary merely to absorb several primary EntityOfConcern values into one unit. A table row may be the unit when that row carries the claim; the whole table may be the unit when the table-level caption or comparison frame carries the claim. A dashboard tile, note, card, sheet, or screen block may be the unit only when that bounded item, not the whole carrier or interface, carries the live publication move.
 
 **Publication-unit snapshot identity.** A `PublicationUnit` may remain the same bounded unit while its carrier rendering, export format, screenshot, or layout changes. It does not remain the same stabilized interpretation by visual or file continuity alone. If a revision, refresh, translation, regeneration, or dashboard update changes the primary EntityOfConcern, carried publication move, outside boundary, source pins, or admissible use, rerun the four-part interpretation for the new snapshot before the unit is used for comparison, explanation, evidence, gate, decision, work, or reliance claims.
 
@@ -320,7 +320,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 4. **CC-AUD-4 — The active repair disposition is named honestly.**
    The case makes explicit whether the live problem situation is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, or another neighboring pattern rather than patching several problem situations at once under one vague stability claim.
 5. **CC-AUD-5 - Repair-disposition and governing-pattern boundary choice is explicit.**
-   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or exact project-side FPF kind and reference is explicit rather than hidden inside broad-family wording.
+   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or project-side FPF kind and reference named by value is explicit rather than hidden inside broad-family wording.
 6. **CC-AUD-6 — Presentation-form labels do not launder publication-unit kind or downstream claim or effect.**
    `note`, `memo`, `sheet`, `table`, `screen`, and similar labels remain presentation-form clues and do not silently change the publication unit under review, create proof, create evidence, create release admissibility, or mint downstream claim or effect.
 7. **CC-AUD-7 - Claim-bearing modeling substrate or rationale is published or handled by a governing publication form.**
@@ -332,7 +332,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 
 - **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `E.17`, and `C.2.1`.
 - **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
-- **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the exact project-side FPF kind and reference instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
+- **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the project-side FPF kind and reference named by value instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
 
 ### E.17.AUD:End
 

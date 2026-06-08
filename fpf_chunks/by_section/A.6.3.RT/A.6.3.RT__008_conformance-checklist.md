@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:7 — Conformance Checklist"
-line_start: 11361
-line_end: 11398
+line_start: 11372
+line_end: 11409
 dependencies:
   - "A.10"
   - "A.15"

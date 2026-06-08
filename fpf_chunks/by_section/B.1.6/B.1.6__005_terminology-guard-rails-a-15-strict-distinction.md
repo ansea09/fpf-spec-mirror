@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Terminology guard‑rails (A.15 — Strict Distinction)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_terminology-guard-rails-a-15-strict-distinction.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:4 — Terminology guard‑rails (A.15 — Strict Distinction)"
-line_start: 30336
-line_end: 30345
+line_start: 30365
+line_end: 30375
 dependencies:
   - "A.12"
   - "A.14"
@@ -40,3 +40,4 @@ keywords:
 * **Work (U.Work)** — a run‑time **occurrence**: dated enactment of a MethodDescription by a performer under a `U.RoleAssignment`. In this pattern, **Work** is treated under its *spent‑resource ledger* facet; composed by **Γ\_work**.
 * **Transformer (T)** — a `U.System` playing the executing and/or auditing role for Work’s accounting (A.12); transformer identity belongs in the **Boundary Ledger**.
 * **Mereology for resources (A.14):** use `PortionOf` for **quantitative splits** and `PhaseOf` for **time‑slices**; **do not** use `MemberOf` for resource stocks.
+

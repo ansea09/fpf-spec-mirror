@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution"
-line_start: 60459
-line_end: 60736
+line_start: 60761
+line_end: 61041
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -82,8 +82,8 @@ This pattern keeps these semantic heads distinct:
 | `description-recognition signature` | one first-contact cue structure of one encountered description, governed by `A.6.RSIG` |
 | `first-reading role` | the local reading job carried by an existing pattern section or projection; not a new surface kind |
 | `lexical-query support` | cue-to-pattern/source access through the reader's words, domain phrases, and query cues without alias minting |
-| `worked entry reading` | one explanatory reading case, not `U.Work`, not a workflow, and not an execution trace |
-| `entry neighborhood` | one case-relative editorial grouping or `J.4` row, not a graph node, route, selector output, or object kind |
+| `ExpandedEntryDisambiguationCase` | one bounded `I.2` case that expands compact first-entry comparison when wrong-pattern risk, repeated failure, retrieval-facing use, or compact guidance insufficiency is live |
+| `FirstEntryPatternComparisonSet` | one case-relative `E.11` or `Part J` navigation grouping of plausible candidate patterns, tempting wrong patterns, entry-load reclassifications, and admissible entry stops; not `semanticArea`, not `ontologicalNeighborhood`, not `pattern nest`, not ToC proximity, and not a structure of `FPF` itself |
 | `thin echo` | lower-case projection discipline: a reminder or pointer, not a `U.Type`, publication-face kind, or authority relation |
 
 None of those heads is a synonym for the others. This pattern routes each
@@ -95,15 +95,18 @@ Reader-facing entry language speaks primarily in pattern-language terms:
 reclassification`, `admissible entry stop`, `thin echo`, and `applicable governing pattern body`.
 
 `owner` and `ownership` are not default reader-facing terms here. Use them only
-when the live question is responsibility or stewardship assignment, process-law owner-set
+when the question under repair is responsibility or stewardship assignment, process-law owner-set
 control, or explicit authority-conflict diagnostics; do not use them as substitutes
 for candidate pattern, nearby pattern, publication, file carrier, or project record.
 
 #### E.11:4.3 - Pattern-language navigation stance and case-orientation snapshot
 
-An `entry neighborhood` is one case-relative editorial grouping of plausible
-candidate patterns, nearby patterns, common misclassifications, entry-load
+A `FirstEntryPatternComparisonSet` is one case-relative editorial grouping of plausible
+candidate patterns, case-near patterns, common misclassifications, entry-load
 reclassifications, and admissible entry stops under one first honest entry load.
+It is a navigation object for pattern selection, not an ontology object. It does
+not name a `semanticArea`, an `ontologicalNeighborhood`, a `pattern nest`, a
+table-of-content proximity relation, or one structure of `FPF` itself.
 
 `candidate patterns` here are case-plausible patterns to inspect under one
 named entry load. They are not `OptionSet`s, candidate pools, selected sets, or
@@ -157,7 +160,7 @@ claim or wording repair is being placed:
 | choosing among patterns, candidate patterns, nearby patterns, wrong governing pattern bodies, or entry-load reclassifications inside the pattern language | `E.11` |
 | the admissible local `Problem frame` first-reading role, reading order, or recognition/assurance relation | `E.8` |
 | review trigger, evidence-mode selection, or cross-role parity checks for one pattern-entry discoverability-bearing change | `E.19 / PCP-ENTRY` |
-| one compact or worked projection of already-authoritative pattern meaning-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the governing-role map |
+| one compact pattern-comparison row or expanded entry-disambiguation case over already-authoritative pattern-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the governing-role map |
 | the order in which one already-identified area is learned or taught | `E.6`, `E.7`, `E.12`, `F.16`, and the appropriate tutorial views or walkthroughs |
 | cue preservation, route-bearing publication, or endpoint publication | `A.16`, `A.16.1`, `B.4.1`, or the relevant publication pattern |
 | one actual work sequence, method, plan, episteme publication, work-result record, or execution stop | the relevant pattern for method description, work planning, or work occurrence rather than `E.11` |
@@ -168,12 +171,12 @@ diagnostic vocabulary:
 
 - entry-orientation labels: `candidate-pattern`, `nearby-pattern`,
   `entry-load-reclassification`, `common-misclassification`;
-- projection-support labels: `lexical-support`, `worked-reading-expansion`;
+- projection-support labels: `lexical-support`, `expanded-entry-disambiguation`;
 - entry-posture labels: `entry-bearing`, `participant-only`,
   `entry-load-critical`;
 - projection-purpose labels: `global-entry orientation role`,
-  `catalogue-search support role`, `entry-neighborhood index role`,
-  `worked-entry-reading support role`, `Problem-frame recognition role`,
+  `catalogue-search support role`, `pattern-comparison index role`,
+  `expanded-entry-disambiguation support role`, `Problem-frame recognition role`,
   `entry-lexeme support role`, `review-profile role`, `assurance-support role`.
 
 These labels are optional reviewer/editor vocabulary. They are not exported
@@ -187,19 +190,19 @@ The concrete `FPF` application uses distinct support/projection roles:
 - `Preface` gives coarse global orientation;
 - `Table of Content` `Keywords & Search Queries` gives sparse
   catalogue-search and lexical-query support;
-- `J.4` gives compact entry-neighborhood comparison;
-- `I.2` gives worked entry readings for high-risk or compact-insufficient
+- `J.4` gives compact first-entry pattern comparison;
+- `I.2` gives expanded entry-disambiguation cases for high-risk or compact-insufficient
   cases;
 - the pattern's own `Problem frame` gives the primary local first-reading role;
 - `F.17, F.18, and E.10` carry entry-lexeme support;
 - `README` can echo the Core entry architecture and point to `Preface`, `J.4`,
   `I.2`, and selected pattern families.
 
-`README` remains downstream of Core and does not introduce entry neighborhoods,
+`README` remains downstream of Core and does not introduce first-entry pattern-comparison sets,
 candidate patterns, or lexical names absent from Core. It changes when public
 entry claims change materially, not for every internal local wording repair.
 
-Canonical entry neighborhoods can use compact lexical-query support when the
+Canonical first-entry pattern-comparison rows or row sets can use compact lexical-query support when the
 lexical entry load is real. Query cues are retrieval aids, not aliases, Bridges,
 equivalence claims, or semantic twins. A query cue becomes an alias only through
 the relevant lexical/naming pattern or `authoritySourceRef` target.
@@ -218,7 +221,7 @@ false_friends_or_forbidden_synonyms
 Ordinary lexical-query support stays sparse:
 
 - ordinary `Table of Content` rows: prefer `2-5` high-signal query phrases;
-- ordinary `J.4` neighborhoods: keep only the most discriminating domain phrases and
+- ordinary `J.4` rows: keep only the most discriminating domain phrases and
   false friends;
 - fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
   naming, alias, bridge, or collision question exists.
@@ -232,8 +235,8 @@ projection role. Other mentions remain thin echoes.
 | --- | --- | --- |
 | trigger-word repair and naming fix | `A.6.P`, `F.18`, and `E.10` | quoted local reminders only when needed for user safety |
 | description-recognition-signature claim | `A.6.RSIG` | one bounded publication/view cue under `E.17` when needed |
-| compact entry-neighborhood row | `J.4` | `Preface`, README, one pattern's `Problem frame` |
-| worked entry reading | `I.2` | one compact `J.4` pointer |
+| compact first-entry pattern-comparison row | `J.4` | `Preface`, README, one pattern's `Problem frame` |
+| expanded entry-disambiguation case | `I.2` | one compact `J.4` pointer |
 | local problem-frame recognition cue | the pattern `Problem frame` under `E.8` | `J.4` as cross-pattern comparison |
 | lexical-query cue | `F.17`, `F.18`, or `E.10`; or a bounded ToC or J.4 support hook | `I.2`, README, and local prose only as sparse cues |
 
@@ -274,10 +277,10 @@ pattern-entry-discoverability changes. It is risk-triggered rather than
 universal and reviews only entry-facing effects.
 
 A pattern does not need a `J.4` row merely because it exists. A `J.4` row is
-needed only when the pattern or neighborhood is a likely first practical entry,
+needed only when the pattern or first-entry pattern-comparison set is a likely first practical entry,
 a common wrong first guess, or a public/retrieval-facing entry point.
 
-`I.2` worked readings are rare-depth. A compact-index-only posture is a
+`I.2` expanded entry-disambiguation cases are rare-depth. A compact-index-only posture is a
 complete admissible entry result when the `J.4` row plus pattern `Problem frame` are
 enough for the entry load.
 
@@ -294,7 +297,7 @@ For an ordinary `E.11`-triggered entry-discoverability change, the minimum is:
 Everything else is triggered:
 
 - `J.4` row: only if it is a likely first entry or common wrong first guess;
-- `I.2` worked reading: only if compact guidance repeatedly fails or risk is
+- `I.2` expanded entry-disambiguation case: only if compact guidance repeatedly fails or risk is
   high;
 - ToC lexical cues: only if search/query support is material;
 - README/Preface echo: only if public entry changes materially;

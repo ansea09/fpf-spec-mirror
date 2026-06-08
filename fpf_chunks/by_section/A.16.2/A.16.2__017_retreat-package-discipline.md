@@ -6,12 +6,12 @@ section_id: "A.16.2:16"
 section_title: "Retreat Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__017_retreat-package-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:16 — Retreat Package Discipline"
-line_start: 22224
-line_end: 22245
+line_start: 22249
+line_end: 22270
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ A retreat note should make explicit:
 - the **target form or target family**,
 - the **retained witnesses**,
 - the **withdrawn assumptions or route claims**,
-- the **required downstream updates** for any affected receiving governing pattern,
+- the **required downstream updates** for any affected governing pattern,
 - and the **successor / no-successor status** if a branch is retired.
 
 #### A.16.2:16.2 - Retreat is not erasure

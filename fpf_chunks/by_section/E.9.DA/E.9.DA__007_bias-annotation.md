@@ -6,12 +6,12 @@ section_id: "E.9.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:6 — Bias annotation"
-line_start: 57944
-line_end: 57949
+line_start: 58229
+line_end: 58234
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,5 +29,5 @@ keywords:
 
 This pattern biases FPF toward decisions before drafting. The bias is useful because missing decisions become expensive once they fan out into pattern hosts.
 
-The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and exact precision-restoration neighbours.
+The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and precision-restoration neighboring patterns named by value.
 

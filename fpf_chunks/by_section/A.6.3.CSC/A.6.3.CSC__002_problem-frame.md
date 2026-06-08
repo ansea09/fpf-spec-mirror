@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:1 — Problem frame"
-line_start: 10251
-line_end: 10284
+line_start: 10262
+line_end: 10295
 dependencies:
   - "A.15"
   - "A.20"
@@ -54,7 +54,7 @@ keywords:
 
 `Controlled Semantic Coarsening` governs one coarsened rendering that remains useful only because the source-bearing side stays identifiable, the admissible use is narrower, downstream use is non-admissible from the coarsened rendering alone, and escalation reopens that source-bearing side. It is the FPF governing pattern for that source-to-rendering relation. It is not a tag, token, `U.*` kind, publication face, carrier, bridge card, stance overlay, work plan, approval, or gate.
 
-**Start here when.** Your first honest publication unit is a small controlled-coarsening card: source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary live question may be ordinary rewrite, representation change, explanation, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of coarsening.
+**Start here when.** Your first honest publication unit is a small controlled-coarsening card: source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary question under repair may be ordinary rewrite, representation change, explanation, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of coarsening.
 
 **Neighboring project records and governing patterns.** Ordinary same-entity wording belongs under `A.6.3.CR`; representation-scheme change belongs under `A.6.3.RT`; explanation-facing class discipline belongs under `E.17.EFP`; bounded comparison belongs under `E.17.ID.CR`; bridge or substitution use belongs under `F.9` or `F.9.1`; changed EntityOfConcern belongs under `A.6.4`; work authority requires `A.15`-governed selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result-measurement record; gate or adjudication authority requires `A.20` or `A.21`-governed project records.
 

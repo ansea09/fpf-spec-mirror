@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Relations (where this card sits)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_relations-where-this-card-sits.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:12 — Relations (where this card sits)"
-line_start: 70191
-line_end: 70204
+line_start: 70503
+line_end: 70516
 dependencies:
   - "A.11"
   - "A.2.1"

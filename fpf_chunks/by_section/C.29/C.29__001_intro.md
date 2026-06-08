@@ -6,12 +6,12 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 50168
-line_end: 50181
+line_start: 50218
+line_end: 50233
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -71,9 +74,11 @@ keywords:
 
 **Plain-name.** Mathematical lens use.
 
-**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation substrate, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the admissible use; the non-admissible use; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
+**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation object, local formal role, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the admissible use; the non-admissible use; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
 
-**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-locus notes. They are not actors, approvals, gates, work records, evidence records, assurance results, decisions, or release records. They state which declared mathematical-lens use is admissible, what remains blocked, and which neighboring FPF locus carries any live non-lens claim.
+**Slot discipline.** C.29 uses `CandidateMathObject` for the mathematical object, formalism, learned representation, simulation object, local formal role, or family in a declared mathematical-lens-use relation. `U.Signature(profile=FormalSubstrate)` in `A.6.0` is a different relation position: it declares vocabulary, laws, imports, and applicability for a formal substrate. `A.6.1` governs mechanism import or realization when that formal substrate is used in a mechanism; `E.18.1` governs P2W transduction when accepted problem-side material needs that formal declaration for later work. The same mathematical object may appear in several of these positions, but the governing pattern is selected by relation position and claim being made, not by the word `substrate`.
+
+**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. They state which declared mathematical-lens use is admissible, what remains blocked, and which neighboring FPF pattern governs any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the governing pattern for that use.
 
 **No new `U.*` from C.29 local lens-use outputs.** `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, `MathLensUse.Card@Context`, `MathLensUseOutputRef`, and `CC-C29-*` are C.29-local instruments. They do not mint `U.MathLens`, `U.MathLensUseRecord`, `LensKind`, `MathLensUseCompliance`, or a durable record family. Durable names, kinds, or records require explicit FPF admission through `F.18`, `C.3`, `F.8`, and `E.9`.
 

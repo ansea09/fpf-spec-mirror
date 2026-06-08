@@ -6,12 +6,12 @@ section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__014_worked-prompt-species.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 33343
-line_end: 33356
+line_start: 33378
+line_end: 33391
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,5 +49,5 @@ A cue may admissibly become an opportunity prompt when the open question concern
 A routed cue may become a probe prompt when what matters is not yet explanation but the explicit need to test, contrast, instrument, or perturb.
 
 #### B.5.2.0:13.4 - Specialization-sensitive prompt set
-A cue set may admissibly become a `TaskFamilySpecializationPrompt`, `AdaptationProbePrompt`, `NonHumanUtilityPrompt`, or `SubstrateDiversificationPrompt` when the live question is not yet a selector decision but a bounded entry into specialist acquisition, adaptation probing, nonhuman-utility discovery, or substrate widening. The point is to preserve the task family, budget window, rival candidate paths, and corridor-entry evidence requirement long enough for later comparison rather than smuggling a commitment into prompt form.
+A cue set may admissibly become a `TaskFamilySpecializationPrompt`, `AdaptationProbePrompt`, `NonHumanUtilityPrompt`, or `SubstrateDiversificationPrompt` when the question under repair is not yet a selector decision but a bounded entry into specialist acquisition, adaptation probing, nonhuman-utility discovery, or substrate widening. The point is to preserve the task family, budget window, rival candidate paths, and corridor-entry evidence requirement long enough for later comparison rather than smuggling a commitment into prompt form.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
-line_start: 74681
-line_end: 75527
+line_start: 74995
+line_end: 75841
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -31,9 +31,9 @@ keywords:
 
 Use `F.18` when a name must become stable and reusable across one local context, a concept set, a bridge, or a durable FPF/publication vocabulary. Use it when the issue is not merely one overloaded local phrase, but a name that must carry context, kind, local sense, use-domain, bridge relation or F.9.1 bridge stance when live, and lineage without smuggling global sameness.
 
-**First useful move.** Ask whether the live work is durable naming. If yes, make the name local-first by naming its context, kind, purpose/use-domain, local sense, and bridge relation or F.9.1 bridge stance when live. If no, use the lighter exact pattern: local phrase repair under `E.10` or `C.2.P`, relation precision under `A.6.P`, or the domain pattern that governs the named object.
+**First useful move.** Ask whether the live work is durable naming. If yes, make the name local-first by naming its context, kind, purpose/use-domain, local sense, and bridge relation or F.9.1 bridge stance when live. If no, use the lighter governing pattern: local phrase repair under `E.10` or `C.2.P`, relation precision under `A.6.P`, or the domain pattern that governs the named object.
 
-**Cheap stop.** If the wording is one-off local repair and does not create a reusable name, stop after the exact local repair. Do not open a full Name Card, mint a new head, or create lineage entries just because a phrase was clarified.
+**Cheap stop.** If the wording is one-off local repair and does not create a reusable name, stop after the local repair with recovered kind and use. Do not open a full Name Card, mint a new head, or create lineage entries just because a phrase was clarified.
 
 ### F.18:1 - Context
 
@@ -170,7 +170,7 @@ This is especially useful when one head already appears in more than one admissi
 When naming work touches the discoverability amendment, `PCP-TERM` plus `F.18`
 and `A.6.P` must settle the durable heads used here, including
 `pattern-entry discoverability`, `description recognition signature`,
-`entry orientation`, `entry lexeme retrieval aid`, `worked entry reading`,
+`entry orientation`, `entry lexeme retrieval aid`, `expanded entry-disambiguation case`,
 `Problem-frame recognition signature`, and `thin-echo discipline`, as part of
 the amendment itself.
 
@@ -188,9 +188,9 @@ The canonical settlement table for this amendment is:
 | `pattern-entry discoverability` | composite entry quality over one entry-recognition stack | `E.11` | broad `discoverability` alone |
 | `description recognition signature` | first-contact cue structure of one description-bearing unit | `A.6.RSIG` | `discoverability of descriptions` |
 | `recognition text` | existing first reading text inside one pattern | `E.8` | invented `discoverability surface` |
-| `entry neighborhood` | entry-load-oriented grouping of plausible patterns, tempting wrong patterns, entry-load reclassifications, and admissible stops | `E.11`; `J.4` only when the entry grouping is a pattern-language map | `route` |
+| `FirstEntryPatternComparisonSet` | case-relative `Part J` or `E.11` navigation grouping of plausible candidate patterns, tempting wrong patterns, entry-load reclassifications, and admissible entry stops | `E.11`; `J.4` only when the grouping is a compact pattern-comparison index row or row set | `route`, `semanticArea` as navigation label, `ontologicalNeighborhood` as navigation label |
 | `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare search-help wording |
-| `worked entry reading` | bounded interpretive case reading | `I.2` | `workflow`, `scenario script`, `route` |
+| `ExpandedEntryDisambiguationCase` | bounded case that expands compact first-entry comparison when wrong-pattern risk, repeated failure, retrieval-facing use, or compact guidance insufficiency is live | `I.2` | `workflow`, `scenario script`, `route`, untyped interpretation label |
 | `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, companion function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
 
 One canonical term per job is the settled target of this amendment.
@@ -200,17 +200,17 @@ Rejected or superseded wording is not live Plain or Tech vocabulary; the row use
 
 When naming work touches the C.2.1 EntityOfConcern family, use these rows as the local-first settlement. They are Name Card settlements for field and head names; they do not create a new `U.*` kind, relation kind, evidence kind, publication kind, or universal entity ontology.
 
-`EntityOfConcern` is the selected Tech head for the Russian idea "интересуемая сущность" in the episteme slot/ref and same-EntityOfConcern alignment family. It means the entity, relation, claim record, or exact kind/reference pair selected for the declared use by role-method-interest selection, construction/reference trace, episteme trace when a Description episteme or Description episteme admitted for specification use is live, publication-unit trace when a bounded unit is live, bridge or retargeting trace when sameness crosses context, and witness trace when work, action, or reliance is live. If that trace is missing, the result is a candidate set, blocked use, or non-use, not a stronger claim under a nicer name.
+`EntityOfConcern` is the selected Tech head for the Russian idea "интересуемая сущность" in the episteme slot/ref and same-EntityOfConcern alignment family. It means the entity, relation, claim record, or kind named by value/reference pair selected for the declared use by role-method-interest selection, construction/reference trace, episteme trace when a Description episteme or Description episteme admitted for specification use is live, publication-unit trace when a bounded unit is live, bridge or retargeting trace when sameness crosses context, and witness trace when work, action, or reliance is live. If that trace is missing, the result is a candidate set, blocked use, or non-use, not a stronger claim under a nicer name.
 
 | Name or source wording | F.18 settlement | Must not mean |
 | --- | --- | --- |
-| `EntityOfConcern` | Preferred Tech head for the EntityOfConcern, relation, claim record, or exact kind/reference pair that a claim-bearing episteme, pattern body, or bounded publication unit treats as primary for the declared use. | A universal `object`, a topic by interest alone, the publication unit itself, or a new kernel kind. |
-| `EntityOfConcernSlot` | Entity-valued C.2.1 slot. Relation, claim-record, and exact kind/reference cases enter only through the declared relation/claim/reference discriminator and the exact governing pattern. | A relation-valued bucket, a generic claim-use bucket, or a way to avoid the exact relation, evidence, gate, work, decision, assurance, or architecture pattern. |
+| `EntityOfConcern` | Preferred Tech head for the EntityOfConcern, relation, claim record, or kind named by value/reference pair that a claim-bearing episteme, pattern body, or bounded publication unit treats as primary for the declared use. | A universal `object`, a topic by interest alone, the publication unit itself, or a new kernel kind. |
+| `EntityOfConcernSlot` | Entity-valued C.2.1 slot. Relation, claim-record, and kind named by value/reference cases enter only through the declared relation/claim/reference discriminator and the governing pattern. | A relation-valued bucket, a generic claim-use bucket, or a way to avoid the relation named by value, evidence, gate, work, decision, assurance, or architecture pattern. |
 | `entityOfConcernRef`, `EntityOfConcernRef` | Reference handle for the EntityOfConcern under the slot/ref discipline of C.2.1. Same-EntityOfConcern cases preserve this reference; retargeting changes it only through A.6.4 and its invariant/loss boundary. | A free publication-unit field, title, topic, carrier reference, authoring-work reference, or review-object reference. |
 | `EntityOfConcernClass` | Constraint on admissible EntityOfConcern values only where an episteme slot or same-EntityOfConcern law is live. | A topic taxonomy, audience category, object-quality class, or default pattern-family partition. |
-| `publicationUnitPrimaryEntityOfConcern` | Technical head for the primary entity of concern, exact non-claim-bearing kind, topic, or subject that one bounded `PublicationUnit` is mainly about while carrying one move and one outside-work boundary. When a claim-bearing episteme or episteme-lane `U.View` is live, recover it through `EntityOfConcernRef`. | A C.2.1 slot by itself, a second EntityOfConcern ontology, a carrier identity, a title, or project-side authority by readable form. |
-| `EntityOfInterest`, `EoIClass`, `DescribedEntity*`, `describedEntityRef`, `primary described entity` | Use `EntityOfConcern`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the exact local FPF kind. | Live technical vocabulary, second C.2.1 slot family, alias permission, or permission to keep old semantics beside the selected family. |
-| `EntityOfConcernAlignmentCase` | Local table head for the exact-same, retarget, bridge, relation-record, distinct-entity, and blocked-use split. | A new kernel kind or a substitute for A.6.4, F.9/F.17/F.18, A.6.P, or the exact receiving relation pattern. |
+| `publicationUnitPrimaryEntityOfConcern` | Technical head for the primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about while carrying one move and one outside-work boundary. When a claim-bearing episteme or episteme-lane `U.View` is live, recover it through `EntityOfConcernRef`. | A C.2.1 slot by itself, a second EntityOfConcern ontology, a carrier identity, a title, or project-side authority by readable form. |
+| `EntityOfInterest`, `EoIClass`, `DescribedEntity*`, `describedEntityRef`, `primary described entity` | Use `EntityOfConcern`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the local FPF kind named by value. | Live technical vocabulary, second C.2.1 slot family, alias permission, or permission to keep old semantics beside the selected family. |
+| `EntityOfConcernAlignmentCase` | Local table head for the same-by-value, retarget, bridge, relation-record, distinct-entity, and blocked-use split. | A new kernel kind or a substitute for A.6.4, F.9/F.17/F.18, A.6.P, or the pattern governing the relation kind. |
 #### F.18:5.1 - Card purpose & mode guard (normative)
 
 To prevent “post-hoc justification” of intuitively chosen labels, every **Name Card** SHALL declare its
@@ -477,8 +477,8 @@ Disputes often orbit the string (“we hate that word”). By separating **sense
 
 **11.5a Test the replacement candidate against umbrella drift.**
 
-* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: primary `EntityOfConcern`, governing FPF pattern, carried admissible move, exact kind/ref or local field, relation or claim record when live, neighboring exclusions, and example fit.
-* Do not approve a candidate merely because it avoids the old bad word. The replacement is acceptable only when the exact FPF kind or local field is defined by value and the current use names its boundaries.
+* Before replacing an overloaded head, apply the `E.10:0.2` replacement-candidate anti-umbrella rule. Then run the candidate head through the same local-first naming test: primary `EntityOfConcern`, receiving FPF pattern, carried admissible move, kind named by value/ref or local field, relation or claim record when live, neighboring exclusions, and example fit.
+* Do not approve a candidate merely because it avoids the old bad word. The replacement is acceptable only when the FPF kind named by value or local field is defined by value and the current use names its boundaries.
 * If the candidate still hides several possible kinds, keep a candidate-set note and do not mint, rename, or land the term yet.
 
 **11.5b Keep interpretive-view labels subordinate to the base candidate set or family.**

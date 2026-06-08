@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-line_start: 43733
-line_end: 43947
+line_start: 43780
+line_end: 43994
 dependencies:
   - "C.16"
   - "C.18"
@@ -64,7 +64,7 @@ The corresponding claims are governed by their named governing patterns.
 ### C.22:2 - Problem Frame (DesignRunTag split; crossing-visible)
 
 **Selector-facing problem case**
-For selector-facing `C.22` use, a problem case is live when the problem-side representation is stable enough to attach or emit a minimal `TaskSignature` for eligibility, acceptance, and policy-governed selection. Method absence, method contestability, or method-family ambiguity is a common downstream reason for `C.22` use, but it is not the only reason a `ProblemCard@Context` may be needed upstream. `C.22` therefore does not define problemhood by method absence; it defines the downstream typed attachment record used once problem-side readiness is truthful. When the live question is still a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use `C.22.2` before binding one chosen `TaskSignature`. When selection or synthesis of a method becomes live, strategy or policy is governed by `G.5` and `E/E-LOG`; `C.22` use does not introduce a strategy or policy kernel type.
+For selector-facing `C.22` use, a problem case applies when the problem-side representation is stable enough to attach or emit a minimal `TaskSignature` for eligibility, acceptance, and policy-governed selection. Method absence, method contestability, or method-family ambiguity is a common downstream reason for `C.22` use, but it is not the only reason a `ProblemCard@Context` may be needed upstream. `C.22` therefore does not define problemhood by method absence; it defines the downstream typed attachment record used once problem-side readiness is truthful. When the question under repair is still a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use `C.22.2` before binding one chosen `TaskSignature`. When selection or synthesis of a method becomes live, strategy or policy is governed by `G.5` and `E/E-LOG`; `C.22` use does not introduce a strategy or policy kernel type.
 **Unknown‑first discipline.** Author S2 with `unknown` traits rather than coercions; **SoS‑LOG** branches MUST specify `{admit|degrade|abstain|sandbox}` handling for `unknown` via closed enums registered at UTS.
 
 Un‑typed "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; cross‑Context reuse is by name, not Bridge. We need a Context‑local descriptor that (i) obeys **MM‑CHR admissibility** (Scale/Unit/Polarity proven before any aggregation), (ii) records **Assurance lanes (TA/VA/LA)** per **A.10** and **ReferencePlane**, (iii) carries **tri‑state unknowns** explicitly, and (iv) records crossing attestations (**BridgeCard + UTS row**) with **Φ(CL)/Φ_plane** policy‑ids.

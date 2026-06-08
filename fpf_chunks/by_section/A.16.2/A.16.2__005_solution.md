@@ -6,12 +6,12 @@ section_id: "A.16.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:4 — Solution"
-line_start: 22116
-line_end: 22142
+line_start: 22141
+line_end: 22167
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ This pattern defines the retreat, reframing, and retirement side of the `A.16` m
 | `respecify` | the family remains plausible, but the framing scaffold, route specification, or facet-profile reading is wrong | broad domain, witness base, and major family commitments | framing scaffold, route specification, facet-profile reading |
 | `retire` | a cue, route-bearing publication, or branch is no longer current or no longer worth preserving | historical continuity and any cited witnesses that still matter | currentness, authority, successor/no-successor status |
 
-`respecify` is intentionally narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with receiving governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
+`respecify` is intentionally narrower than epistemic precision repair. Slot-explicit epistemic precision restoration, bearer repair, or endpoint-local lexical precision remains with governing patterns such as `A.6.P`, `C.16.Q`, and `A.6.A`.
 
 #### A.16.2:4.2 - Required publication note
 Every retreat or retirement move shall name:

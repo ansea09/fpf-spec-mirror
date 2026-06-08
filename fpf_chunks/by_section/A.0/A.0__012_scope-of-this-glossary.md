@@ -6,12 +6,12 @@ section_id: "A.0:QF.0a"
 section_title: "Scope of this glossary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__012_scope-of-this-glossary.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.0a — Scope of this glossary"
-line_start: 1017
-line_end: 1020
+line_start: 1024
+line_end: 1027
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

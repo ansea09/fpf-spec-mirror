@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 35171
-line_end: 35203
+line_start: 35206
+line_end: 35238
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,14 +56,14 @@ keywords:
 | Prevents parallel episteme and publication ontology from entering FPF-governed wording. | Adds a small recovery step before apparently simple rewrites; mitigate by using the smallest sufficient mode. |
 | Preserves accepted glossary and rules without turning source-basis status lines into accidental pattern authority. | Requires a clear separation between pattern guidance and source-basis status. |
 | Makes unclear meaning fail closed. | Some attractive phrases will not be accepted until their kind or relation is actually recovered. |
-| Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one exact kind or relation is needed. |
+| Improves DRR and pattern drafting discipline. | Authors must resist convenient lists and umbrellas when one kind named by value or relation is needed. |
 
 #### C.2.P:9.1 - Operating Consequence
 For new episteme-publication precision prose:
 - start from FPF kinds and relations, not from familiar publication nouns and document nouns;
 - use `PublicationUnit` for bounded publication units;
 - use `EntityOfConcern` and `EntityOfConcernRef` when the episteme slot is live, and translate `describedEntity` source wording to the adopted EntityOfConcern family before FPF-governed use closure;
-- keep publication form, generic publication face, MVPK face under E.17 constraints, view, carrier, document with named source, evidence, architecture, reviewed publication, review packet, review record, or review state, and exact project-side FPF kind and reference separate;
+- keep publication form, generic publication face, MVPK face under E.17 constraints, view, carrier, document with named source, evidence, architecture, reviewed publication, review packet, review record, or review state, and project-side FPF kind and reference named by value separate;
 - name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when more than one is live;
 - classify heterogeneous kind lists before writing a sentence that depends on them;
 - say that FPF patterns are applied in problem situations, not called or routed as procedures;
@@ -72,7 +72,7 @@ For new episteme-publication precision prose:
 Operationally, each rewrite should:
 - separate FPF-side episteme and publication context from project-side episteme and publication context whenever both are present;
 - name `relationClaimSlice`, `admissibleUse`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision-making reliance, work permission, assurance, or engineering justification;
-- classify heterogeneous lists before naming them: one live kind, relation set, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
+- classify heterogeneous lists before naming them: one kind under repair, relation set, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
 - say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;
 - avoid strength metaphors unless the characteristic, scale, threshold, evidence class, or admissibility relation is named.
 

@@ -6,12 +6,12 @@ section_id: "E.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:3 — Forces"
-line_start: 67879
-line_end: 67889
+line_start: 68191
+line_end: 68201
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -38,7 +38,7 @@ keywords:
 |---|---|
 | Comparability vs false precision | Pattern versions must be comparable, but ordinal qualities cannot be averaged. |
 | Completeness vs affordability | Every coordinate is evaluated; rationale and evidence can stay compact. |
-| Maturity vs length | A short pattern is mature only when selected mature-pattern ingredients are present in the body or exact neighbours. |
+| Maturity vs length | A short pattern is mature only when selected mature-pattern ingredients are present in the body or neighboring pattern governing the claims. |
 | Ontology vs usability | Names and kinds must be exact without burying the first user move. |
 | Semio precision vs semio-bias | Episteme and publication distinctions matter, but non-semio patterns still lead with their own `EntityOfConcern`. |
 | Open-ended improvement vs stop | Improvement can continue forever, while one version needs a scoped stop condition. |

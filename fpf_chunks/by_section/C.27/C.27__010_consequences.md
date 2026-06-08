@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 48894
-line_end: 48947
+line_start: 48944
+line_end: 48997
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -96,7 +96,7 @@ When a Dyn2 benchmark, task-family adaptation claim, public method claim,
 selector-facing claim, SoTA-bearing publication claim, or other Part G publication carries a
 temporal-claim record, C.27 `reopenTrigger` is not enough by itself. C.27 states
 the temporal-claim question and its validity/reopen condition; G.9 carries benchmark parity
-when comparison is live; G.11 carries refresh orchestration such as refresh
+when comparison is being made; G.11 carries refresh orchestration such as refresh
 queue, refresh plan, refresh report, deprecation notice, or edition bump when
 evidence, comparator editions, method editions, claim windows, or validity
 windows drift.

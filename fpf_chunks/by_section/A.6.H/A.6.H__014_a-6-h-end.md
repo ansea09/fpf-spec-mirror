@@ -6,12 +6,12 @@ section_id: "A.6.H:End"
 section_title: "A.6.H:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__014_a-6-h-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:End — A.6.H:End"
-line_start: 17675
-line_end: 17677
+line_start: 17697
+line_end: 17700
 dependencies:
   - "A.14"
   - "A.15"
@@ -37,3 +37,4 @@ keywords:
 ### A.6.H:End
 
 # Cluster A.V - Constitutional Principles of the Kernel
+

@@ -6,12 +6,12 @@ section_id: "B.1.6:10"
 section_title: "Conformance Checklist (complete)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__011_conformance-checklist-complete.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:10 — Conformance Checklist (complete)"
-line_start: 30518
-line_end: 30531
+line_start: 30552
+line_end: 30565
 dependencies:
   - "A.12"
   - "A.14"

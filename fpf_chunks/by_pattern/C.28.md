@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
-line_start: 49301
-line_end: 50167
+line_start: 49351
+line_end: 50217
 dependencies:
   - "A.10"
   - "A.15"
@@ -698,7 +698,7 @@ Lexical tripwires:
 
 #### C.28:4.11 - Neighbor Routing Table
 
-| If the live issue is... | Use... | `C.28` role |
+| If the issue under repair is... | Use... | `C.28` role |
 | --- | --- | --- |
 | measured value, score, scale, indicator, or metric definition | `C.16` | Only active when the measure is used causally. |
 | temporal trend, rate, acceleration, inertia, or rhythm wording | `C.27` | Active when temporal wording is used as causal effect or intervention evidence. |
@@ -904,7 +904,7 @@ The pattern is not Pearl-only. SCM/PCH provides the rung discipline, but potenti
 - `G.5` governs method dispatch and MethodFamily registry. `C.28` supplies causal method or policy class declarations when method dispatch compares causal methods.
 - `G.9` governs parity and benchmarks. `C.28` supplies causal method rung parity.
 - `G.11` governs refresh orchestration. `C.28` supplies causal-use support records whose realizability, identification, fairness, representation, off-policy, target-trial, and simulation-validation shifts can trigger refresh.
-- `C.26` governs quantum-like modeling. `C.28` is a required causal exit before QL retention when the live question is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability.
+- `C.26` governs quantum-like modeling. `C.28` is a required causal exit before QL retention when the question under repair is intervention, causal effect, causal fairness, causal policy, counterfactual comparison, or counterfactual-rung-data realizability.
 
 ### C.28:13 - Footer Marker
 

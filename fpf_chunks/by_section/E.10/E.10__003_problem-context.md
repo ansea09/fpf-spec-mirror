@@ -6,12 +6,12 @@ section_id: "E.10:1"
 section_title: "Problem context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__003_problem-context.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:1 — Problem context"
-line_start: 58839
-line_end: 58853
+line_start: 59140
+line_end: 59154
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 ---
 
 ### E.10:1 - Problem context
-**Current name set.** `E.10` is the current FPF pattern. `E.10:0.2` is the shared wording-use trigger scan. The older `LEX-BUNDLE` or `ULR` material below is retained as detailed reference apparatus for selected lexical, register, naming, morphology, and local rewrite problems. It is not a second current ontology, not a second trigger registry, not a second pattern head, and not a replacement for `E.10.ARCH`, the selected precision-restoration realization pattern, an exact governing pattern, or `F.18`.
+**Current name set.** `E.10` is the current FPF pattern. `E.10:0.2` is the shared wording-use trigger scan. The older `LEX-BUNDLE` or `ULR` material below is retained as detailed reference apparatus for selected lexical, register, naming, morphology, and local rewrite problems. It is not a second current ontology, not a second trigger registry, not a second pattern head, and not a replacement for `E.10.ARCH`, the selected precision-restoration realization pattern, a governing pattern, or `F.18`.
 
 **Intent.** Provide one **normative** rule-set that makes FPF language **unambiguous, composable across contexts, and teachable** by design. Authors, reviewers, and tooling can point to **LEX-BUNDLE** as the governing lexical pattern for:
 

@@ -6,12 +6,12 @@ section_id: "A.6.2:6"
 section_title: "Bias & Defaults (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__007_bias-defaults-informative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:6 — Bias & Defaults (informative)"
-line_start: 9671
-line_end: 9680
+line_start: 9681
+line_end: 9691
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -40,5 +40,6 @@ keywords:
 
 * **Local‑first semantics.** EFEM is **Context‑local**; crossings of Context or ReferencePlane are always delegated to Bridges / A.6.1 transport (with CL penalties to `R/R_eff` only). No “implicit cross‑Context EFEM” is permitted.
 
-* **EntityOfConcern and Description-episteme boundary and specification-use/refinement respect.** EFEM never collapses EntityOfConcern with Description epistemes or with specification-use refinements: EntityOfConcern-to-Description and optional specification-use refinement operations are typed explicitly. The former remains the A.7 describing boundary; the latter is an EFEM species only when it is an episteme→episteme refinement admitted by an exact specification use/refinement gate.
+* **EntityOfConcern and Description-episteme boundary and specification-use/refinement respect.** EFEM never collapses EntityOfConcern with Description epistemes or with specification-use refinements: EntityOfConcern-to-Description and optional specification-use refinement operations are typed explicitly. The former remains the A.7 describing boundary; the latter is an EFEM species only when it is an episteme→episteme refinement admitted by a specification use/refinement gate named by value
+.
 

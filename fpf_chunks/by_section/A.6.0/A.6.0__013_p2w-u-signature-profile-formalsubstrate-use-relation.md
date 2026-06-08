@@ -6,12 +6,12 @@ section_id: "A.6.0:10a"
 section_title: "P2W U.Signature(profile=FormalSubstrate) Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_p2w-u-signature-profile-formalsubstrate-use-relation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:10a — P2W U.Signature(profile=FormalSubstrate) Use Relation"
-line_start: 8958
-line_end: 8976
+line_start: 8968
+line_end: 8986
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -44,10 +44,10 @@ Do not decide whether source wording names a `U.Signature(profile=FormalSubstrat
 |---|---|---|---|
 | `U.Signature(profile=FormalSubstrate)` declaration | `A.6.0` | `U.Signature(profile=FormalSubstrate)` with SubjectBlock, Vocabulary, Laws, Applicability, effect discipline, inference kinds, imports and provides, and no-realization pin. | The declaration is not a mechanism, empirical identity claim, evidence proof, work authorization, gate passage, or mathematical-lens use result. |
 | Mathematical-lens use | `C.29` | Candidate mathematical object or formalism, mapping mode, preserved structure, lost structure, visible payoff, admissible use, non-admissible use, and stop condition. | Lens-use adequacy does not declare the signature profile and does not settle handler semantics, mechanism realization, empirical truth, evidence, work, gate, or decision authority. |
-| Mechanism consumption or realization | `A.6.1` and downstream mechanism patterns | A mechanism cites the signature by import or reference, publishes operation algebra, law set, admissibility conditions, transport, and any monotone realization relation when live. | A mechanism does not rewrite the imported signature laws by use, and a realization does not become a new `U.Signature(profile=FormalSubstrate)` declaration unless a new signature is declared. |
+| Mechanism consumption or realization | `A.6.1` and downstream mechanism patterns | A mechanism cites the signature by import or reference, publishes operation algebra, law set, admissibility conditions, transport, and any monotone realization relation when that relation is being made. | A mechanism does not rewrite the imported signature laws by use, and a realization does not become a new `U.Signature(profile=FormalSubstrate)` declaration unless a new signature is declared. |
 | P2W carry-through cue | `E.18.1` | Source cue, carried distinction, live next relation, selected application, stop condition, and any return trigger. | P2W does not mint `U.SubstrateFormalization`, does not decide mathematical-lens admissibility, and does not replace A.6.0 or C.29. |
 
-Old or source-local wording such as `SubstrateFormalization` recovers as a move to author, select, or cite a `U.Signature(profile=FormalSubstrate)` unless the live claim is actually a `C.29` mathematical-lens use, an `A.6.1` mechanism relation, or another neighboring relation. In slot terms, the mathematical object can fill a `CandidateMathObject` position in `C.29`, a vocabulary or law position in a `U.Signature(profile=FormalSubstrate)` declaration, or an imported-signature position in a mechanism. Those are relation positions, not separate object kinds and not `U.Role`s.
+Old or source-local wording such as `SubstrateFormalization` recovers as a move to author, select, or cite a `U.Signature(profile=FormalSubstrate)` unless the claim being made is actually a `C.29` mathematical-lens use, an `A.6.1` mechanism relation, or another neighboring relation. In slot terms, the mathematical object can fill a `CandidateMathObject` position in `C.29`, a vocabulary or law position in a `U.Signature(profile=FormalSubstrate)` declaration, or an imported-signature position in a mechanism. Those are relation positions, not separate object kinds and not `U.Role`s.
 
 The Rodin-style lesson used here is constructive rather than slogan-like: formal languages, axioms, rules, and mathematical objects help model a world-facing or episteme-facing EntityOfConcern only when their representational and operational limits are declared. A.6.0 therefore stores the formal-deductive declaration. C.29 stores the declared use of a mathematical lens. A.6.1, bridge, measurement, evidence, work, gate, and decision patterns store the later relations that apply, test, authorize, or use that declaration.
 

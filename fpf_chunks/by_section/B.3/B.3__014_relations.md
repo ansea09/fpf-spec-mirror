@@ -6,12 +6,12 @@ section_id: "B.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__014_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:11 — Relations"
-line_start: 31896
-line_end: 31908
+line_start: 31930
+line_end: 31942
 dependencies:
   - "A.10"
   - "A.12"
@@ -62,7 +62,7 @@ keywords:
 * **Builds on:** B.1 (Universal Γ), B.1.1 (Proof Kit), B.1.2 (Γ_sys & BIC), B.1.3 (Γ_epist & SCR), B.1.4 (Γ_ctx/Γ_time), A.12 (Transformer), A.14 (Mereology), A.7 (EntityOfConcern/Description strict distinction) and A.15 (role/method/work alignment), **C.13 (Compose‑CAL)**.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation aliasing and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for causal-use support verdicts, `CausalityLadderRung`, identification profile refs and realizability profile refs, and supported causal use and unsupported causal use; `A.10` for the evidence graph path carrying causal evidence-basis refs.
-* **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers return to the exact neighboring source when assurance is not live.
+* **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers return to the neighboring source when assurance is not live.
 * **Used by:** KD‑CAL action patterns (to plan improvements), B.4 (Evolution loops that raise F/G/R or CL over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
 

@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 15552
-line_end: 15573
+line_start: 15574
+line_end: 15595
 dependencies:
   - "A.21"
   - "A.6.1"

@@ -6,12 +6,12 @@ section_id: "F.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:3 — Forces"
-line_start: 70823
-line_end: 70831
+line_start: 71135
+line_end: 71143
 dependencies:
   - "A.6.9"
   - "E.10.D1"

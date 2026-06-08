@@ -6,12 +6,12 @@ section_id: "B.1.1:5"
 section_title: "Didactic mini‑examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_didactic-mini-examples.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:5 — Didactic mini‑examples"
-line_start: 29101
-line_end: 29105
+line_start: 29128
+line_end: 29132
 dependencies:
   - "A.1"
   - "A.12"

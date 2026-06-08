@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 13590
-line_end: 13764
+line_start: 13601
+line_end: 13775
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### A.6.F:4 - Solution
 
-A.6.F is an A.6.P RPR specialization for function-like wording. It does not mint `U.Function`. It assigns the live use to an existing FPF kind, relation, claim record, view, or governing-pattern application and stops there unless another claim kind remains live.
+A.6.F is an A.6.P RPR specialization for function-like wording. It does not mint `U.Function`. It assigns the use under repair to an existing FPF kind, relation, claim record, view, or governing-pattern application and stops there unless another claim kind remains live.
 
 #### A.6.F:4.1 - Trigger rule
 
@@ -72,7 +72,7 @@ A.6.F applies when a sentence uses function-like wording to carry one or more li
 - mathematical function, mapping, relation, loss, objective, or value functional;
 - quality, fitness, characteristic, score, or proxy wording;
 - module allocation, interface, signature, port, API, protocol, flow, or mechanism relation;
-- another exact FPF claim, such as evidence, assurance, gate, decision, or release.
+- another FPF claim named by value, such as evidence, assurance, gate, decision, or release.
 
 If none of those claim kinds is live, the wording may remain ordinary Plain prose.
 
@@ -120,20 +120,20 @@ FunctionUseRepair ::= {
 }
 ```
 
-The repair is complete when a practitioner can say which exact FPF kind, relation, claim record, view, or governing-pattern application the function-like wording uses, which false FPF kinds or relations it does not use, and what the next admissible architecture or exact governing pattern application is. If the text still hides a function, capability, work, method, role, module, or mathematical-function collapse, the repair is incomplete.
+The repair is complete when a practitioner can say which FPF kind named by value, relation, claim record, view, or governing-pattern application the function-like wording uses, which false FPF kinds or relations it does not use, and what the next admissible architecture or governing-pattern application is. If the text still hides a function, capability, work, method, role, module, or mathematical-function collapse, the repair is incomplete.
 #### A.6.F:4.3 - Repair assignments
 
 | Function wording use | First FPF kind or receiving locus | Boundary |
 | --- | --- | --- |
 | required transformation or effect | `VP.Functional`, `FunctionalStructureView@Context`, or locally declared capability or effect record | Does not imply physical module, work occurrence, or evidence. |
-| capability of a holon | `U.Capability` or the exact capability-governing pattern or project record named by the live claim | Does not imply that a method, module, or work occurrence exists. |
+| capability of a holon | `U.Capability` or the capability-governing pattern or project record named by the claim being made | Does not imply that a method, module, or work occurrence exists. |
 | method wording | `U.Method`, `MethodDescription`, `VP.Procedural`, or A.15 design or run boundary as triggered | Does not imply execution. |
 | work occurrence or work result | `U.Work`, Work record, or P2W relation under the governing TGA work-result pattern | Does not imply reusable function ontology. |
 | responsibility or role expectation | `VP.RoleEnactor` and the relevant role and enactor relation | Does not imply the role-holder performed the work. |
 | mathematical function or relation | C.29 mathematical-lens use with domain, codomain or relation domain, preserved and lost structure, lens-use admissibility value, and stop condition | Does not become architecture, evidence, causal proof, assurance, or decision claim by itself. |
-| quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic or measurement governing pattern according to the live claim | Does not let "functionality" carry a quality claim without bearer and exact governing pattern. |
-| module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or `A.6.M` module-relation repair as live | Does not make function and module one FPF kind. |
-| interface or signature relation | `InterfaceSignatureBoundaryNote`, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, or `A.6.M` module-relation repair when live | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
+| quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic or measurement governing pattern according to the claim being made | Does not let "functionality" carry a quality claim without bearer and governing pattern. |
+| module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or `A.6.M` module-relation repair when a module-interface claim is being made | Does not make function and module one FPF kind. |
+| interface or signature relation | `InterfaceSignatureBoundaryNote`, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, or `A.6.M` module-relation repair when the corresponding claim is being made | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
 | functional architecture | `ArchitectureOf@Context` with `structureKindRef = FunctionalStructure` and `FunctionalStructureView@Context` under C.30.ASV | Not a peer architecture ontology and not a TGA graph by itself. |
 
 #### A.6.F:4.4 - Functional architecture boundary
@@ -178,13 +178,13 @@ The note is a boundary and source-finding aid. It is not the functional architec
 | Confusion | Repair |
 | --- | --- |
 | function = module | Keep `VP.Functional` and `VP.ModuleInterface` distinct; connect them through declared correspondence, allocation, retargeting, or `A.6.M` module-relation repair. |
-| function = capability | Capability belongs to a holon; function-like wording describes required transformation or effect or architectural relation only when that exact FPF kind or relation is declared. |
+| function = capability | Capability belongs to a holon; function-like wording describes required transformation or effect or architectural relation only when that FPF kind or relation named by value is declared. |
 | function = work | Work is a dated occurrence or result; function is design-side or description-side content unless work evidence is explicitly live. |
 | function = method | Method is a reusable way of doing; function-like wording names required transformation or effect only when method or method-description claim is not live. |
 | function = role | Role and enactor structure uses `VP.RoleEnactor` and role records; function-like responsibility wording needs role and enactor relation recovery. |
 | mathematical function = holon purpose | Use C.29 for mathematical function or relation; recover domain, codomain or relation domain, preserved and lost structure, lens-use admissibility value, and stop condition. |
 | functional diagram = evidence | Diagram is a view or publication; evidence claim uses `A.10` or `G.6`. |
-| functionality = quality | Recover the quality bearer and exact governing pattern through `C.25`, `C.16`, or C.16.Q before using the wording as an adequacy claim. |
+| functionality = quality | Recover the quality bearer and governing pattern through `C.25`, `C.16`, or C.16.Q before using the wording as an adequacy claim. |
 
 #### A.6.F:4.7 - Composability and compositionality
 
@@ -228,7 +228,7 @@ falseFpFKindRefs: user journey publication, work log, TGA graph, module diagram
 nextAdmissibleMove: open C.30.ASV only if the selected functional structure changes action
 stopCondition: ordinary phrase remains Plain if no architecture claim is live
 ```
-**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability or effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern when the claim is live. A.6.F stops after exact-kind or relation recovery when no quality claim remains.
+**Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability or effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern when the claim is being made. A.6.F stops after kind or relation recovery when no quality claim remains.
 
 **Mathematical function or loss.** A model note says, "the loss function explains the holon purpose." The repair keeps the mathematical function under C.29 lens discipline: domain, codomain or relation domain, preserved and lost structure, lens-use admissibility value, and stop condition. The loss may inform a reasoning move; it does not become holon purpose, evidence sufficiency, causal proof, assurance, or project decision by itself.
 

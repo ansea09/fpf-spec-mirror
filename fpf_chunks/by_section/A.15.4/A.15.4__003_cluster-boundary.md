@@ -6,12 +6,12 @@ section_id: "A.15.4:2"
 section_title: "Cluster Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__003_cluster-boundary.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:2 — Cluster Boundary"
-line_start: 20939
-line_end: 20942
+line_start: 20963
+line_end: 20966
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ keywords:
 
 ### A.15.4:2 - Cluster Boundary
 
-A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and actual `U.Work`. A.15.4 starts only when an encountered item begins to justify a work claim or reliance claim and the team must recover the exact project-side FPF kind and reference that carries that claim, effect, or relation. If the pattern and project-side reference that govern the live claim or effect are already known, use them directly and keep A.15.4 as the bounded restoration step.
+A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and actual `U.Work`. A.15.4 starts only when an encountered item begins to justify a work claim or reliance claim and the team must recover the project-side FPF kind and reference named by value that carries that claim, effect, or relation. If the pattern and project-side reference that govern the claim being made or effect are already known, use them directly and keep A.15.4 as the bounded restoration step.
 

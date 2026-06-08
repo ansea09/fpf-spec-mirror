@@ -6,12 +6,12 @@ section_id: "G.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__014_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:12 — Relations"
-line_start: 79406
-line_end: 79412
+line_start: 79720
+line_end: 79726
 dependencies:
   - "A.10"
   - "A.21"

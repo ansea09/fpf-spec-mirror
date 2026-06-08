@@ -6,12 +6,12 @@ section_id: "A.19.SPR:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:9 — Rationale"
-line_start: 23490
-line_end: 23495
+line_start: 23516
+line_end: 23521
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,5 +47,5 @@ keywords:
 
 The repeated problem is not a bad word. The repeated problem is an untyped state-like claim. FPF needs finite state-like fields, but each field must be over a bearer and a state frame. Placing this pattern under the `A.19` neighborhood keeps the general repair near state-space and state-comparability discipline without making semio the home for every status word and without turning `E.10` into an omnibus ontology.
 
-The pattern also protects exact local fields. `LensUseAdmissibilityValue` and `dynClaimPosture` are acceptable when their governing patterns declare value sets and boundaries. Specification wording is acceptable only as a Description episteme admitted for specification use or refinement under an exact specification-granting neighbouring pattern; it is not a reusable posture field. Broad `source posture`, `evidence posture`, `assurance posture`, `publication posture`, `release posture`, and administrative forms are not acceptable unless they are repaired into exact FPF kinds or moved to the exact project-side administrative, review, dispatch, release or admission, or source-control record that actually governs them.
+The pattern also protects local fields named by value. `LensUseAdmissibilityValue` and `dynClaimPosture` are acceptable when their governing patterns declare value sets and boundaries. Specification wording is acceptable only as a Description episteme admitted for specification use or refinement under a specification-granting neighbouring pattern named by value; it is not a reusable posture field. Broad `source posture`, `evidence posture`, `assurance posture`, `publication posture`, `release posture`, and administrative forms are not acceptable unless they are repaired into FPF kinds named by value or moved to the project-side administrative, review, dispatch, release or admission, or source-control record that actually governs them.
 

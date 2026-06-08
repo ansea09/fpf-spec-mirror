@@ -6,12 +6,12 @@ section_id: "C.29:10"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Bias annotation"
-line_start: 51167
-line_end: 51181
+line_start: 51254
+line_end: 51268
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -72,9 +75,9 @@ keywords:
 | **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
 | **Speculation laundering** | Vanchurin enters as candidate lens or SoTA-echo, not accepted fact. |
 | **Over-formalization** | Low-consequence analogy can remain local prose; reusable or decision-bearing lens needs a `MathLensUse.*` card. |
-| **Dry ontology drift** | Keep Plain explanations where they improve recognition, but recover claim-bearing commitments through exact fields or a named neighboring pattern. |
+| **Dry ontology drift** | Keep Plain explanations where they improve recognition, but recover claim-bearing commitments through fields named by value or a named neighboring pattern. |
 | **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
 | **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
 | **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
-| **Pattern-as-actor wording** | A pattern is described as writing, deciding, raising assurance, authorizing work, or creating project records; repair it through claim-bearing text, project-side records, governing FPF loci, and exact pattern application, because patterns supply discipline, not agency. |
+| **Pattern-as-actor wording** | A pattern is described as writing, deciding, raising assurance, authorizing work, or creating project records; repair it through claim-bearing text, project-side records, governing FPF patterns, and governing-pattern application, because patterns supply discipline, not agency. |
 

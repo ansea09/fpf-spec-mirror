@@ -6,12 +6,12 @@ section_id: "C.25:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:12 — Relations"
-line_start: 45428
-line_end: 45445
+line_start: 45476
+line_end: 45493
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -44,7 +44,7 @@ keywords:
 
 ### C.25:12 - Relations
 
-`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the receiving endpoint when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
+`E.21` specialises the Q-Bundle normal form for FPF pattern-quality claims. `C.25` remains the general endpoint for engineering quality families; `E.21` is the endpoint governing pattern when the quality claim evaluates one FPF pattern version as action-guiding FPF text.
 
 **C.27 temporal-claim relation.**
 

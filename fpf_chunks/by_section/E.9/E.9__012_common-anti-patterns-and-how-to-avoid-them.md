@@ -6,12 +6,12 @@ section_id: "E.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57686
-line_end: 57696
+line_start: 57970
+line_end: 57980
 dependencies:
   - "E.10"
   - "E.19"
@@ -35,5 +35,5 @@ keywords:
 | **Four-label shell** | The record has Problem frame, Decision, Rationale, and Consequences headings, but no decision grounds, use-value, alternatives, content distribution, or impact account by value. | The minimum kernel is labeled but not substantively recoverable. | Fill the decision-inspection content blocks needed for the decision, or use the lightweight variant only for true `Delta-0` / `Delta-1` edits. |
 | **Tentative carrier list** | The DRR says a pattern may need work later, is most likely affected, or should be watched if touched. | A named distribution question is postponed while pretending to be decided. | Classify each named pattern or selected non-pattern FPF kind-reference pair now: selected, rejected, inherited unchanged, or outside the current decision with a named record. |
 | **Loss without use/reopen rule** | The decision summarizes, redacts, simplifies, or otherwise declares a source-loss mode but does not state admissible use, non-admissible downstream use, recoverability, and reopen conditions. | A representation with undeclared source loss can be used as if it were the full source. | Add the source-loss and recoverability template: preserved distinctions, dropped distinctions, admissible uses, non-admissible uses, recoverability class, and reopen or stop rule. |
-| **Free paraphrase import** | The DRR restates a source-borne method, architecture claim, accepted decision-ground item, or reusable source passage in smoother prose but does not say whether it quoted, narrowed, instantiated, used as decision grounds, turned into draft guidance, kept example-only, or retired the source use. | The paraphrase can widen, weaken, or redirect the source while appearing to preserve it. | State the source-use result and loss and addition account, or keep the passage as an exact quote or example-only source example. |
+| **Free paraphrase import** | The DRR restates a source-borne method, architecture claim, accepted decision-ground item, or reusable source passage in smoother prose but does not say whether it quoted, narrowed, instantiated, used as decision grounds, turned into draft guidance, kept example-only, or retired the source use. | The paraphrase can widen, weaken, or redirect the source while appearing to preserve it. | State the source-use result and loss and addition account, or keep the passage as an quote or example-only source named by value example. |
 | **Decorative SoTA appendix** | Sources are listed after the fact or treated as SoTA because they are official, recent, popular, or famous, but they do not change the selected answer, boundary, or validation evidence obligation. | The record looks researched while the decision remains unchallenged by current best-known practice. | State what each load-bearing source makes the DRR adopt, adapt, or reject, why that source family is current for the DRR decision question under E.8, and which uncertainty would materially change the answer. |

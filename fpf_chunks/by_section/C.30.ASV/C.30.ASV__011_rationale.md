@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 53486
-line_end: 53493
+line_start: 53635
+line_end: 53642
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 C.30.ASV exists because architecture descriptions are multi-view by nature, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is being described; a viewpoint says how an episteme or view is oriented toward a concern. They may be bound, but they are not interchangeable.
 
-The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the live structure kind and the next admissible architecture move, no full view record is needed. The full record opens when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
+The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
 
-The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings live beside TEVB rather than mutating TEVB.
+The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings are defined beside TEVB rather than mutating TEVB.
 

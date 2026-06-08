@@ -6,12 +6,12 @@ section_id: "E.17.AUD:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__011_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:10 — Conformance Checklist"
-line_start: 65192
-line_end: 65210
+line_start: 65503
+line_end: 65521
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 4. **CC-AUD-4 — The active repair disposition is named honestly.**
    The case makes explicit whether the live problem situation is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, or another neighboring pattern rather than patching several problem situations at once under one vague stability claim.
 5. **CC-AUD-5 - Repair-disposition and governing-pattern boundary choice is explicit.**
-   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or exact project-side FPF kind and reference is explicit rather than hidden inside broad-family wording.
+   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or project-side FPF kind and reference named by value is explicit rather than hidden inside broad-family wording.
 6. **CC-AUD-6 — Presentation-form labels do not launder publication-unit kind or downstream claim or effect.**
    `note`, `memo`, `sheet`, `table`, `screen`, and similar labels remain presentation-form clues and do not silently change the publication unit under review, create proof, create evidence, create release admissibility, or mint downstream claim or effect.
 7. **CC-AUD-7 - Claim-bearing modeling substrate or rationale is published or handled by a governing publication form.**

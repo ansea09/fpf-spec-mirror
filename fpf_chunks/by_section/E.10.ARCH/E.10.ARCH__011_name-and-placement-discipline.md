@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__011_name-and-placement-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 59828
-line_end: 59837
+line_start: 60129
+line_end: 60138
 dependencies:
   - "A.17"
   - "A.18"
@@ -47,7 +47,7 @@ keywords:
 
 `semanticArea` is the selected Part-F Tech term for the semantic unit used by a wording-use restoration row. Plain speech may say "semantic area" or "meaning area" only as a gloss for that declared Part-F row or bounded row-set.
 
-`meaning area`, `theme`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution. Tech prose must resolve those cues into `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `entityOfConcernUseFields`, `ontologicalNeighborhood`, exact `governingPattern`, and realization pattern.
+`meaning area`, `theme`, `pattern area`, `pattern cluster`, `workstream`, `campaign`, `module`, and `branch` are not selected as Tech architecture terms for this distribution. Tech prose must resolve those cues into `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `entityOfConcernUseFields`, `ontologicalNeighborhood`, `governingPattern` named by value, and realization pattern.
 
 `pattern nest` is allowed for ID and placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. It is not a semantic parent relation and not an authority relation.
 

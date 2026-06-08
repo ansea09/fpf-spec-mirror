@@ -6,12 +6,12 @@ section_id: "A.16.0:16"
 section_title: "Boundary notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__017_boundary-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:16 — Boundary notes"
-line_start: 21803
-line_end: 21806
+line_start: 21828
+line_end: 21831
 dependencies:
   - "A.16"
   - "A.16.1"

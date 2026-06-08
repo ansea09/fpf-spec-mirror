@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__007_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 68129
-line_end: 68149
+line_start: 68441
+line_end: 68461
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -47,7 +47,7 @@ keywords:
 | `CC-E21-7` | For any `5`, name the reinforcing evidence loci required by that coordinate's `5` meaning; otherwise lower the coordinate to `4` or below. |
 | `CC-E21-8` | For `MaturePatternParityAndSelectedContentSufficiency = 4` or `5`, include a compact maturity-discharge payload: comparator id, selected ingredient, current locus, and missing/lowering item if any; category lists without loci cap the coordinate at `3`. |
 | `CC-E21-9` | Make SoTA rows adopt, adapt, or reject current practice and change the pattern. |
-| `CC-E21-10` | Keep measurement, score, scale, formal, causal, mathematical, QL, simulation, representation, or learned-lens claims under `C.16`, `A.17`, `A.18`, `A.19`, or the exact pattern that governs the claim when the evaluated pattern makes those claims. |
+| `CC-E21-10` | Keep measurement, score, scale, formal, causal, mathematical, QL, simulation, representation, or learned-lens claims under `C.16`, `A.17`, `A.18`, `A.19`, or the pattern that governs the claim when the evaluated pattern makes those claims. |
 | `CC-E21-11` | State floor satisfaction, remaining bounded non-use, and lowering or reopen conditions in any stop claim. |
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |
 | `CC-E21-13` | Keep quality results out of project evidence, assurance, gate, work, safety/compliance, release, and publication truth claims. |

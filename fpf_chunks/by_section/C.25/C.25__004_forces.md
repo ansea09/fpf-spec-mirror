@@ -6,12 +6,12 @@ section_id: "C.25:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:3 — Forces"
-line_start: 45329
-line_end: 45337
+line_start: 45377
+line_end: 45385
 dependencies:
   - "A.15"
   - "A.16.0"

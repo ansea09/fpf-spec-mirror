@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 56756
-line_end: 57084
+line_start: 57040
+line_end: 57368
 dependencies:
   - "E.10"
   - "E.19"
@@ -73,7 +73,7 @@ Authors **MAY** add additional sections. Prefer expressing them as subsections u
 2. **Problem**
 3. **Forces**
 4. **Solution**
-5. **Archetypal Grounding** (Tell-Show-Show; at least one content-bearing grounding slice, reduced grounding case, or exact ordinary/non-use boundary)
+5. **Archetypal Grounding** (Tell-Show-Show; at least one content-bearing grounding slice, reduced grounding case, or ordinary/non-use boundary)
 6. **Bias‑Annotation**
 7. **Conformance Checklist**
 8. **Common Anti‑Patterns and How to Avoid Them** (at least one local misuse, overread, or exact boundary case; no placeholder)
@@ -181,9 +181,9 @@ Brief explanations:
 
 Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
 #### E.8:4.2.1 - Recognition text and assurance text
-Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, exact relation, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
+Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
-If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, exact relation, or claim record is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
+If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, relation record, or claim record is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
 Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
 The earlier provisional `recognition shell / assurance shell` wording is retired.
@@ -199,14 +199,14 @@ Its job is to make visible:
 - what goes wrong if the pattern is missed;
 - what the pattern buys the reader in practice;
 - when this is not the right pattern;
-- what primary `EntityOfConcern`, exact relation, or claim record is actually being kept stable;
+- what primary `EntityOfConcern`, relation record, or claim record is actually being kept stable;
 - and, when technical terms must appear early, a pairwise plain gloss for each early FPF-governed technical term.
 
 The **assurance text** is the second-reading text.
 It carries the heavier FPF-governed material that makes the pattern reviewable and auditable:
 - declaration blocks and typed fields when those are part of the pattern's declared conformance or boundary claim;
 - representation ontology, EntityOfConcern discipline, or primary-EntityOfConcern discipline;
-- any minimal modeling or mathematical lens that keeps the primary `EntityOfConcern`, exact relation, or claim record stable;
+- any minimal modeling or mathematical lens that keeps the primary `EntityOfConcern`, relation record, or claim record stable;
 - guidance/check, invariants, admissibility, and stop or neighbouring-pattern conditions;
 - `SoTA-Echoing` when it carries explanatory work;
 - and the review hooks that let a broader or more consequential interpretation or use be checked explicitly.
@@ -224,7 +224,7 @@ If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of th
 A **third didactic-content role** means enough didactic and operational content that the pattern survives without nearby project documents. Typical indicators include:
 - at least one concrete source and resulting-publication slice in Archetypal Grounding when the pattern governs transforms or publication change;
 - at least one boundary-heavy example or anti-example when nearby patterns or other governing companion roles are easy to confuse;
-- reviewer guidance that tells what to inspect first and which neighboring FPF pattern governs the failure mode and which exact project-side FPF kind and reference carries the claim or effect;
+- reviewer guidance that tells what to inspect first and which neighboring FPF pattern governs the failure mode and which project-side FPF kind and reference named by value carries the claim or effect;
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
 
 Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review path is required.
@@ -257,18 +257,18 @@ A pattern may reuse a pattern-native role word when that role is already defined
 When a pattern or companion text is drafted from `E.10` or `E.10.ARCH`, distinguish two authoring objects:
 
 * **`semanticArea`** is the Part-F semantic unit for a wording-use restoration row: one Concept-Set row, one UTS row, or an explicitly bounded row-set. It is declared with `semanticAreaBaseConcept` and `semanticAreaSenseFamily`.
-* **`ontologicalNeighborhood`** is the applicability neighborhood around that named `semanticArea`: nearby primary `EntityOfConcern` kinds, relation kinds, claim records, exact FPF patterns, non-use boundaries, and remaining reader move that can carry the recovered meaning after the wording is repaired.
+* **`ontologicalNeighborhood`** is the applicability neighborhood around that named `semanticArea`: nearby primary `EntityOfConcern` kinds, relation kinds, claim records, governing FPF patterns, non-use boundaries, and remaining reader move that can carry the recovered meaning after the wording is repaired.
 * **`pattern nest`** is the publication and specialization placement of a pattern under its governing pattern family.
 
-These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose primary `EntityOfConcern`, exact relation, or claim record it repairs. Its `semanticArea` states the Part-F semantic unit it repairs, while its `ontologicalNeighborhood` may name several exact governing relations. For example, quality-term repair lives in the `C.16` characterization nest, even though its neighbouring relations can include relation construction, action invitation, evidence, assurance, source-use assignment, engineering quality bundles, pattern-quality evaluation, or mathematical-lens use.
+These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose primary `EntityOfConcern`, relation record, or claim record it repairs. Its `semanticArea` states the Part-F semantic unit it repairs, while its `ontologicalNeighborhood` may name several relation governing the asserted uses. For example, quality-term repair lives in the `C.16` characterization nest, even though its neighbouring relations can include relation construction, action invitation, evidence, assurance, source-use assignment, engineering quality bundles, pattern-quality evaluation, or mathematical-lens use.
 
-Affected patterns should use a thin pointer when the first-stage wording repair belongs elsewhere. The pointer names the exact restoration pattern and the condition that triggers it; it does not copy the trigger registry, the full `E.10.ARCH` recovery algorithm, or a second local architecture for the same repair. The affected pattern then keeps its own subject matter: the characteristic, structure, view, episteme, relation, evidence, assurance, gate, work, decision, or adequacy question it already governs.
+Affected patterns should use a thin pointer when the first-stage wording repair belongs elsewhere. The pointer names the selected restoration pattern and the condition that triggers it; it does not copy the trigger registry, the full `E.10.ARCH` recovery algorithm, or a second local architecture for the same repair. The affected pattern then keeps its own subject matter: the characteristic, structure, view, episteme, relation, evidence, assurance, gate, work, decision, or adequacy question it already governs.
 
-If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, the recovered primary `EntityOfConcern` kind or relation/claim record, the intended pattern nest, the exact neighboring governing relations, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
+If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, the recovered primary `EntityOfConcern` kind or relation/claim record, the intended pattern nest, the neighboring governing relations, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
 #### E.8:4.2.3 - Reader-role discipline for pattern prose
 
 A pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
-Its FPF-governed sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing companion roles are named, the prose should answer one user question such as `which neighboring FPF pattern applies`, `which exact project-side FPF kind and reference carries the claim`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
+Its FPF-governed sections therefore explain what the pattern lets that user do, what it forbids, what it costs, and how it relates to neighbouring patterns in user terms. When neighbouring patterns or other governing companion roles are named, the prose should answer one user question such as `which neighboring FPF pattern applies`, `which project-side FPF kind and reference named by value carries the claim`, `which nearby pattern is easy to confuse`, or `what must stay coordinated here`; it should not read as one explanatory aside about why the package architecture was split that way.
 `E.8` reader and reviewer wording is FPF pattern-authoring wording. Project-side publication readers, explanation readers, comparative review units, and participants in named project-side review relations are governed by the publication or project-side patterns that name those publication units, explanation-use relations, comparative review units, evidence paths, work records, or gate records, such as `E.17`, `E.17.ID.CR`, `E.17.EFP`, `A.10`, `A.15.4`, `A.20`, or `A.21`.
 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
@@ -287,7 +287,7 @@ Human-facing fit is also subject-domain fit. A recognition text that starts from
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, primary `EntityOfConcern`, non-use boundary, or first action-guiding move visible enough.
 
-**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by an exact neighboring FPF pattern application that now carries that claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
+**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as a remaining admissible reader move or be replaced by an neighboring FPF pattern governing that claim application that now carries that claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
 
 For canonical patterns, the first-reading text should behave as a **recognition text** and the heavier review/check scope should remain in an **assurance text**.
 
@@ -315,7 +315,7 @@ rather than becoming a local catalogue row.
 The local recognition signature should make recoverable:
 
 - the concrete working situation;
-- the primary `EntityOfConcern`, exact relation, claim record, or stabilized concern;
+- the primary `EntityOfConcern`, relation named by value, claim record, or stabilized concern;
 - what goes wrong if the pattern is missed or misread;
 - the first admissible action-guiding move and what that move buys;
 - the ordinary not-this-pattern boundary;
@@ -326,10 +326,10 @@ The local recognition signature should make recoverable:
 frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
-Cross-pattern comparison belongs in `J.4`; expanded case walk-through belongs in
-`I.2`.
+Cross-pattern comparison belongs in `J.4`; expanded entry-disambiguation cases
+belong in `I.2`.
 
-If the prose points to neighbouring patterns or other governing companion roles, it should present them as neighboring FPF patterns, exact project-side FPF kinds and references, or `E.11` entry-recognition reclassifications rather than as hidden co-authorities of the current pattern.
+If the prose points to neighbouring patterns or other governing companion roles, it should present them as neighboring FPF patterns, project-side FPF kinds and references named by value, or `E.11` entry-recognition reclassifications rather than as hidden co-authorities of the current pattern.
 
 If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition text.
 At minimum the recognition text should show at least three heterogeneous reader or domain situations rather than one narrow case family with a later broad claim attached.

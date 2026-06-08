@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 53768
-line_end: 53778
+line_start: 53920
+line_end: 53930
 dependencies:
   - "A.10"
   - "A.20"
@@ -49,5 +49,5 @@ keywords:
 * Coordinates with `E.18` and `C.30.TGA-FLOW-REL` when flow or transduction path slices supply structure input to the control view.
 * Applies `A.3.3` for dynamics and stability claims, `C.27` for temporal and rate adequacy, `C.28` for causal-use claims, `A.10` or `G.6` for evidence claim, `B.3` for assurance, `A.20` or `A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` when LCA is used as a transferable mathematical lens.
 
-Does not replace: `C.30.STRAT` stratification or source-label precision restoration, `C.30` grounded architecture and selected-structure adequacy, `C.30.ASV` architecture structural-view adequacy, `B.2.5` supervisor-subholon feedback-loop discipline, `E.18` graph, path, and crossing discipline, `A.3.3` dynamics claim, `C.27` temporal and rate adequacy, `C.28` causal-use claim, `A.10` or `G.6` evidence claim, `B.3` assurance, `A.20` or `A.21` gate and constraint-validity records, `A.15` work, or `C.29` mathematical-lens use.
+Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification and source-label precision restoration, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `B.2.5` for supervisor-subholon feedback-loop discipline, `E.18` for graph, path, and crossing discipline, `A.3.3` for dynamics claims, `C.27` for temporal and rate adequacy, `C.28` for causal use, `A.10` or `G.6` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate and constraint-validity records, `A.15` for work, and `C.29` for mathematical-lens use. `C.30.LCA` governs only the control-structure view relation being claimed.
 

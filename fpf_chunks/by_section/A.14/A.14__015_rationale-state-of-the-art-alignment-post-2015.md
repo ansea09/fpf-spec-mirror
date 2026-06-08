@@ -6,12 +6,12 @@ section_id: "A.14:14"
 section_title: "Rationale (state‑of‑the‑art alignment, post‑2015)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_rationale-state-of-the-art-alignment-post-2015.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:14 — Rationale (state‑of‑the‑art alignment, post‑2015)"
-line_start: 19354
-line_end: 19361
+line_start: 19378
+line_end: 19385
 dependencies:
   - "A.1"
   - "B.1.1"

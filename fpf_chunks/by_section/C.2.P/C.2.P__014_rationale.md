@@ -6,12 +6,12 @@ section_id: "C.2.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__014_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:10 — Rationale"
-line_start: 35204
-line_end: 35213
+line_start: 35239
+line_end: 35248
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ FPF already contains the relevant ontology. The recurring defect was not lack of
 
 The correct repair is therefore not a new umbrella. It is a disciplined recovery action: use `E.2`, `E.10`, `F.18`, `A.6.P`, `A.7`, `C.2.1`, `E.17.0`, `E.17`, and MVPK together until the sentence says which EntityOfConcern, relation, publication, view, carrier, record, work, action, or pattern application it means.
 
-Because `E.2` governs all normative FPF patterns, epistemic precision is not a value apart from `P-2 Didactic Primacy`. An epistemic precision restoration may be stricter than the original wording, but if it turns FPF-governed reader-facing problem text into a kind inventory with no working situation or first useful move, it has not landed the FPF repair. The remedy is not expressive license and not metaphor removal; the remedy is admissible recognition wording whose live claim remains recoverable through the Tech interpretation or a named exact FPF pattern application.
+Because `E.2` governs all normative FPF patterns, epistemic precision is not a value apart from `P-2 Didactic Primacy`. An epistemic precision restoration may be stricter than the original wording, but if it turns FPF-governed reader-facing problem text into a kind inventory with no working situation or first useful move, it has not landed the FPF repair. The remedy is not expressive license and not metaphor removal; the remedy is admissible recognition wording whose claim being made remains recoverable through the Tech interpretation or a named FPF pattern application.
 
 The detailed rules remain in ordinary pattern sections, so the pattern is usable as FPF guidance rather than as an external glossary container.
 

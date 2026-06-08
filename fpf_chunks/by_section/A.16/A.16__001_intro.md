@@ -6,12 +6,12 @@ section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:intro — Intro"
-line_start: 21218
-line_end: 21233
+line_start: 21243
+line_end: 21258
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -54,7 +54,7 @@ keywords:
 
 **First output.** A small typed move note or early preservation-to-routing note that names the source publication form, target publication form, target governing pattern, and MVPK face where that face matters.
 
-**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, receiving endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
+**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
 
 **Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
 

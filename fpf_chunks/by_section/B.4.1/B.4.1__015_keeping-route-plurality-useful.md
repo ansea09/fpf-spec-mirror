@@ -6,12 +6,12 @@ section_id: "B.4.1:14"
 section_title: "Keeping route plurality useful"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__015_keeping-route-plurality-useful.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:14 — Keeping route plurality useful"
-line_start: 32714
-line_end: 32743
+line_start: 32748
+line_end: 32777
 dependencies:
   - "A.15"
   - "A.16"
@@ -59,7 +59,7 @@ This is enough to keep later handoff reviewable without collapsing the seam into
 For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream governing pattern that would become admissible if that discriminator is satisfied.
 
 #### B.4.1:14.2 - Selected route is not endpoint governance
-Even when one route is selected, the routed cue set remains a seam publication form until a receiving governing pattern is entered explicitly.
+Even when one route is selected, the routed cue set remains a seam publication form until a governing pattern is entered explicitly.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
 A reviewer should check whether the selected route is justified by the published cue pack and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold is not yet met, keep the publication early rather than laundering it into a late prompt, requirement, or work governing pattern.

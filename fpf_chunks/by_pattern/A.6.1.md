@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
-line_start: 9011
-line_end: 9336
+line_start: 9021
+line_end: 9346
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -52,7 +52,7 @@ keywords:
 
 Use this pattern when a reusable declaration has to do more than name a signature: it must declare a law-governed operation algebra, operational admissibility predicates, context-local applicability, and explicit cross-context or cross-plane Transport for a `U.Mechanism`.
 
-Do not use this pattern when the live claim is only a reusable declaration with no operational guards; use A.6.0. Do not use it to authorize work, pass a gate, certify evidence, choose a method, publish telemetry, or prove a result. Those claims use the work, gate, evidence, method, publication, or result patterns that cite the mechanism when needed.
+Do not use this pattern when the claim being made is only a reusable declaration with no operational guards; use A.6.0. Do not use it to authorize work, pass a gate, certify evidence, choose a method, publish telemetry, or prove a result. Those claims use the work, gate, evidence, method, publication, or result patterns that cite the mechanism when needed.
 
 First useful move: write the mechanism declaration as a specialization of the four-row A.6.0 Signature Block, then add only the mechanism-specific fields: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, `Transport`, `Γ_timePolicy`, `PlaneRegime`, and `Audit`. If cross-context use is live, name the Bridge and the Reliability penalty relation before any reuse claim is made.
 
@@ -335,7 +335,7 @@ Builds on **A.6.0**; instantiates **A.2.6 USM** (ContextSlice, Γ_time, intersec
 
 When `E.18.1` reaches a mechanism cue, this pattern carries the mechanism meaning: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, effect realization when declared, transport, and mechanism descriptions. P2W may name the cue and governing pattern, but it does not define these mechanism relations locally.
 
-If the live issue is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use the current `E.20` governing pattern when live. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
+If the issue under repair is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use the current `E.20` governing pattern when live. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
 
 ### A.6.1:12b - Lowering, repair, and refresh conditions
 

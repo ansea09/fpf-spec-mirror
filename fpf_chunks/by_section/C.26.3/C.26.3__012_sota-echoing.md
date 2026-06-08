@@ -6,12 +6,12 @@ section_id: "C.26.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__012_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:11 — SoTA-Echoing"
-line_start: 47234
-line_end: 47252
+line_start: 47282
+line_end: 47300
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 Worked-slice discipline from these rows:
 
 - state the envelope before importing source terminology;
-- translate source terms into selected structures, `ArchitectureOf@Context` relations, architecture descriptions, structural views, or exact C.30 subcases;
+- translate source terms into selected structures, `ArchitectureOf@Context` relations, architecture descriptions, structural views, or named C.30 subcases;
 - keep sensors, probes, actuators, and metrics distinct;
 - state adaptation cost and failure mode;
 - apply ordinary quality and measurement patterns to one-scalar quality concerns.

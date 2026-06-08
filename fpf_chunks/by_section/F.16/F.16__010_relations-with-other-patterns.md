@@ -6,12 +6,12 @@ section_id: "F.16:9"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__010_relations-with-other-patterns.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:9 — Relations (with other patterns)"
-line_start: 74225
-line_end: 74232
+line_start: 74539
+line_end: 74546
 dependencies:
   - "B.3"
   - "D.CTX"

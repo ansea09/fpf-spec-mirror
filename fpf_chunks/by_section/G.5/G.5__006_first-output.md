@@ -6,12 +6,12 @@ section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0.4 — First output"
-line_start: 78430
-line_end: 78441
+line_start: 78743
+line_end: 78754
 dependencies:
   - "C.11"
   - "C.18"

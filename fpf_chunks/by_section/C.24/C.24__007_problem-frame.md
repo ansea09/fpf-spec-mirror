@@ -6,12 +6,12 @@ section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__007_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 44995
-line_end: 45014
+line_start: 45043
+line_end: 45062
 dependencies:
   - "A.1"
   - "A.15"
@@ -46,10 +46,10 @@ This CAL provides the **conceptual API for thought** that lets any implementatio
 
 Immediate failure indicators for this pattern:
 
-* the current planning result cannot say whether one choice posture already exists,
+* the current planning result cannot say whether one choice result already exists,
 * the current text cannot distinguish route description, call plan, and executed call work,
 * the budget being burned is still only probing-before-choice budget rather than enactment or tool-call budget, or
 * the next admissible output is still undefined as one enactment-facing plan, one `CheckpointReturn`, or one neighbouring-pattern exit.
 
-If the live question is still which fixed option should survive now, apply `C.11`. If it is still pool policy over several still-live candidate lines, apply `C.19`. If it is already public selected-set publication, apply `G.5`.
+If the question under repair is still which fixed option should survive now, apply `C.11`. If it is still pool policy over several still-live candidate lines, apply `C.19`. If it is already public selected-set publication, apply `G.5`.
 

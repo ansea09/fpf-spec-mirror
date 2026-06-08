@@ -6,12 +6,12 @@ section_id: "A.6.5:11"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__012_relations-with-other-patterns.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:11 — Relations (with other patterns)"
-line_start: 14898
-line_end: 14933
+line_start: 14920
+line_end: 14955
 dependencies:
   - "A.1"
   - "A.19"

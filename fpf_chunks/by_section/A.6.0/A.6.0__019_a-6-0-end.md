@@ -6,12 +6,12 @@ section_id: "A.6.0:End"
 section_title: "A.6.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__019_a-6-0-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:End — A.6.0:End"
-line_start: 9009
-line_end: 9010
+line_start: 9019
+line_end: 9020
 dependencies:
   - "A.2.6"
   - "A.6.1"

@@ -6,12 +6,12 @@ section_id: "C.27:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:3 — Forces"
-line_start: 47575
-line_end: 47625
+line_start: 47625
+line_end: 47674
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -84,7 +84,6 @@ Borrowed-frame translation:
 | Typed/discretized compact dynamic representation | A.19, C.16, and C.26 carry it only when the representation, measurement, or residual QL cue is live. |
 | Quantum-like or active-inference superiority claim | Not adopted in C.27; C.26 carries the residual probe, frame, order, export, or coarsening claim after ordinary C.27, C.16, work, benchmark, and proxy pattern relations are named. |
 | Universal search for force/mass analogues everywhere | Rejected as literal ontology; physical words may remain Plain diagnostic cues, but C.27 mints no `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess`. |
-
 | Design alternative | C.27 outcome | Reason |
 | --- | --- | --- |
 | Do nothing | Insufficient | Leaves FPF vulnerable to speed-only, rate-only, rhythm-as-vibe, and effort-free intervention claims. |

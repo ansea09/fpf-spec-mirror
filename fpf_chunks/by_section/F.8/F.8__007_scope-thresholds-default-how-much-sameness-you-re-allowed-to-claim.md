@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Scope thresholds (default τ) — how much sameness you’re allowed to claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_scope-thresholds-default-how-much-sameness-you-re-allowed-to-claim.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:6 — Scope thresholds (default τ) — how much sameness you’re allowed to claim"
-line_start: 71168
-line_end: 71178
+line_start: 71480
+line_end: 71490
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.3:13"
 section_title: "Governance & conformance pull‑ups"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__015_governance-conformance-pull-ups.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:13 — Governance & conformance pull‑ups"
-line_start: 37821
-line_end: 37864
+line_start: 37866
+line_end: 37909
 dependencies:
   - "A.1"
   - "A.2.6"

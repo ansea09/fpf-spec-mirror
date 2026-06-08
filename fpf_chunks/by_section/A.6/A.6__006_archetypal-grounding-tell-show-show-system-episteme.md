@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 7052
-line_end: 7116
+line_start: 7060
+line_end: 7124
 dependencies:
   - "A.10"
   - "A.15"
@@ -121,7 +121,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 * **Multi‑view (MVPK canonical face kinds only):**
 
   * PlainView for decision makers: what this protocol means for assurance.
-  * TechCard for engineers: exact metric definitions, admissibility predicates, and a clearly marked **Norms/Commitments** section (D‑claims) for governance.
+  * TechCard for engineers: metric definitions named by value, admissibility predicates, and a clearly marked **Norms/Commitments** section (D‑claims) for governance.
   * InteropCard for exchange-oriented consumers: conceptual field names/anchors and schema references (concrete format mapping lives outside Part E).
   * AssuranceLane for auditors: evidence map (which carriers prove what happened) and adjudication steps keyed by `E-*` IDs.
 

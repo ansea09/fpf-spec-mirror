@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 68215
-line_end: 68228
+line_start: 68528
+line_end: 68541
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -31,7 +31,7 @@ keywords:
 
 ### E.22:1 - Problem frame
 
-Use `E.22` when someone is about to ask for a quality evaluation, quality review, returned-finding absorption, improvement proposal, or next-move hypothesis over an exact object version, and the question needs to say what kind of evaluation is wanted before the evaluator starts.
+Use `E.22` when someone is about to ask for a quality evaluation, quality review, returned-finding absorption, improvement proposal, or next-move hypothesis over an object version named by value, and the question needs to say what kind of evaluation is wanted before the evaluator starts.
 
 `E.22` frames the question. It does not evaluate the object. The values, coordinates, statuses, and stop meanings come from the named object-under-improvement evaluation: for example `E.21` for one pattern version, `E.9.DA` for one `DRR`, `E.2.DA` for an FPF-level object, `C.25` for an engineering quality bundle, or another declared characteristic space, scale set, rubric, or review profile. `E.19` is different: it supplies an admission or refresh review gate and findings profile. Use `E.19` as the object-under-improvement evaluation only when the object being evaluated is an `E.19` review-profile result itself. For one FPF pattern version, `E.21` supplies the coordinate values and `PatternQualityStatus`; `E.19` may later check that the `E.21` result is valid, sufficient for the release seam, and not overread as project evidence, release, gate, assurance, or work.
 

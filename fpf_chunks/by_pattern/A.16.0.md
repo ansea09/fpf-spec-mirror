@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 21565
-line_end: 21808
+line_start: 21590
+line_end: 21833
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -191,7 +191,7 @@ A trajectory may later cross a viewpoint or context boundary. When that happens:
 
 **Show (System).** A service disturbance is a system-side phenomenon, not the trajectory subject. It grounds an alerting episteme lineage. One stabilized cue pack may first keep two routes live in one `RoutedCueSet`; only later, if two distinct successor publications are actually issued, does the lineage fork.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-lane tension, not the occupant itself. Once preserved as a cue pack, the governed lineage may project into a typed prompt publication on one branch and later formalize on another, or it may reopen and retire one branch if the provisional route proves unsupported.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-lane tension, not the positioned episteme publication or lineage itself. Once preserved as a cue pack, the governed lineage may project into a typed prompt publication on one branch and later formalize on another, or it may reopen and retire one branch if the provisional route proves unsupported.
 
 ### A.16.0:6 - Bias-Annotation
 The pattern biases authors toward lineage-aware history accounts rather than stage stories about one magically maturing `U.Episteme` publication. That bias is intentional when branch, loss, or handoff semantics matter. The counter-bias is equally intentional: do **not** publish a trajectory account when a local move note already suffices.
@@ -209,7 +209,7 @@ The pattern biases authors toward lineage-aware history accounts rather than sta
 ### A.16.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Meta-wrapper inflation.** Treat `A.16.0` as obligatory around every move. Repair by publishing a local `A.16` move note unless history itself has governance value.
 - **One-publication myth.** Treat one frozen episteme as literally moving unchanged. Repair by publishing lineage members and their links.
-- **Governing-pattern/form collapse.** Treat receiving governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
+- **Governing-pattern/form collapse.** Treat governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
 - **Form/face collapse.** Treat seam publications as if they minted a second MVPK face family. Repair by naming form and face separately.
 - **Multi-route/fork collapse.** Treat several live routes in one governed member as if they were already several successor members.
 - **Hidden work crossing.** Describe operationalization as purely linguistic when it actually required new world-facing work. Repair by publishing the crossing explicitly.

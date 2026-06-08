@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:2 — Problem"
-line_start: 10285
-line_end: 10298
+line_start: 10296
+line_end: 10309
 dependencies:
   - "A.15"
   - "A.20"
@@ -54,7 +54,7 @@ The core failure is not ordinary omission by itself. The failure appears when th
 - the coarsened rendering has a declared `source-loss mode` or reduced recoverability;
 - the coarsened rendering makes only the narrower use admissible;
 - downstream use is non-admissible from the coarsened rendering alone;
-- downstream use reopens the source-bearing side or moves to the exact governing FPF pattern or `authoritySourceRef` destination that makes the requested use admissible.
+- downstream use reopens the source-bearing side or moves to the governing FPF pattern or `authoritySourceRef` destination that makes the requested use admissible.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared constraint and makes it too easy for coarsened renderings to travel as if they were the source-bearing side.
 

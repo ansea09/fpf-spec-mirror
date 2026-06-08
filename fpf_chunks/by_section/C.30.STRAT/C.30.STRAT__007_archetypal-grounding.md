@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 52778
-line_end: 52785
+line_start: 52924
+line_end: 52931
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,5 +53,5 @@ keywords:
 | --- | --- | --- |
 | Source-label cue | A neural-network architecture source says that an `expert block` sits above a `router layer`. | A source-publication note says that a `cache layer` keeps a diagram or view current. |
 | Recovery result | `Expert`, `block`, `router`, and `layer` stay source labels until the repair recovers module-interface, function-like, path-selection, flow, or selected-structure apparatus. | `Cache` and `layer` stay source labels until the repair recovers publication source-currentness, view, state or currentness, or ordinary non-use apparatus. |
-| Admissible move | Open `A.6.M`, `A.6.F`, `E.18`, `C.30.TGA-FLOW-REL`, `G.5`, or `C.11` only after the exact neighborhood is recovered. | Open `C.2.P`, `E.17`, `A.19.SPR`, `A.3.3`, or `C.27` only after the exact publication, episteme, state, or temporal claim is recovered. |
+| Admissible move | Apply `A.6.M`, `A.6.F`, `E.18`, `C.30.TGA-FLOW-REL`, `G.5`, or `C.11` only after the ontological neighborhood is recovered by value. | Apply `C.2.P`, `E.17`, `A.19.SPR`, `A.3.3`, or `C.27` only after the publication named by value, episteme, state, or temporal claim is recovered. |
 

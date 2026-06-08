@@ -6,12 +6,12 @@ section_id: "C.30:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:3 — Forces"
-line_start: 51552
-line_end: 51562
+line_start: 51658
+line_end: 51668
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,6 +64,6 @@ keywords:
 | Architecture claim vs architecture description | A useful architecture description can be mistaken for the architecture claim or for the selected structure. |
 | Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module structure, interface relation, work, role relation, evidence relation, information structure, placement structure, scale, and declared logical structures; module diagrams are only one structure kind. |
 | Small first move vs full record | The practitioner often needs one architecture question card, not a complete architecture description record set. |
-| SoTA architecture-description discipline vs tool lock-in | ISO 42010-style view, viewpoint, and correspondence discipline is useful, and FPF adapts it to holons, epistemes, views, publications, source return, and exact governing pattern applications. |
+| SoTA architecture-description discipline vs tool lock-in | ISO 42010-style view, viewpoint, and correspondence discipline is useful, and FPF adapts it to holons, epistemes, views, publications, source return, and governing-pattern applications. |
 | Structure source relation vs overread | A structure, graph, lens, measurement, or model can supply a source relation for an architecture description without proving evidence, assurance, causality, gate passage, or release. |
 

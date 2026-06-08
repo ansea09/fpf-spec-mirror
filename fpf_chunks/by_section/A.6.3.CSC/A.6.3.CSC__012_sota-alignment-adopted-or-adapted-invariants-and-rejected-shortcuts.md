@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:11"
 section_title: "SoTA Alignment: Adopted Or Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__012_sota-alignment-adopted-or-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:11 — SoTA Alignment: Adopted Or Adapted Invariants And Rejected Shortcuts"
-line_start: 10524
-line_end: 10543
+line_start: 10535
+line_end: 10554
 dependencies:
   - "A.15"
   - "A.20"
@@ -62,5 +62,5 @@ keywords:
 
 The practical implication is the same across these traditions: coarsened readable publication faces or renderings are valuable, but their admissible use depends on source relation, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery loci for those SoTA rows.
 
-**Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT govern publication metadata, provenance, validation, cataloging, and interoperability. They do not by themselves make work occurrence, gate passage, bridge or substitution use, equivalence, release permission, or project claim admissibility admissible; those uses require the governing pattern or exact project-side FPF kind and reference that carries that claim.
+**Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT govern publication metadata, provenance, validation, cataloging, and interoperability. They do not by themselves make work occurrence, gate passage, bridge or substitution use, equivalence, release permission, or project claim admissibility admissible; those uses require the governing pattern or project-side FPF kind and reference named by value that carries that claim.
 

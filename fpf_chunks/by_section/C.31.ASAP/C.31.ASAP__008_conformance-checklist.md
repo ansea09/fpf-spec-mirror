@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 55166
-line_end: 55180
+line_start: 55454
+line_end: 55468
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,14 +51,14 @@ keywords:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C31.ASAP-1` | A live C.31.ASAP use names architecture alternative set, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" wording. |
+| `CC-C31.ASAP-1` | A C.31.ASAP use being made names architecture alternative set, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" wording. |
 | `CC-C31.ASAP-2` | `ScaleClaimTriage` names slope evidence, scale-probe evidence, or a no-probe reason. | Prevents preference claims without declared evidence or no-probe reason. |
 | `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
 | `CC-C31.ASAP-4` | Source-return condition is present when any compressed, coarse, extracted, indexed, or accounting representation drops source-side distinctions. | Prevents unsafe coarse descriptions. |
 | `CC-C31.ASAP-5` | Waiver reason is one of deontic constraint, safety or legal boundary, scale-probe overturn, assurance infeasibility, or context-specific bounded exception. | Prevents false debt labels. |
-| `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is live under its exact governing pattern. | Prevents shadow project authority. |
-| `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not carry scale preference by themselves. | Blocks source-label overread. |
-| `CC-C31.ASAP-8` | Mathematical-lens claims name C.29 output fields; C.31.ASAP carries only the architecture scale-preference side. | Keeps C.29 and C.31.ASAP distinct. |
-| `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the exact neighboring pattern. | Prevents scale preference from becoming selection or assurance. |
+| `CC-C31.ASAP-6` | `ArchitectureHeuristicDebt` remains report-only unless a decision, risk, work, evidence, assurance, or selected-set record is being used under its governing pattern. | Prevents shadow project authority. |
+| `CC-C31.ASAP-7` | Platform, product-line, modularity, reuse, open-interface, RG, and coarse-graining labels do not establish scale preference by themselves. | Blocks source-label overread. |
+| `CC-C31.ASAP-8` | Mathematical-lens claims name C.29 output fields; C.31.ASAP governs only the architecture scale-preference side. | Keeps C.29 and C.31.ASAP distinct. |
+| `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the governing pattern. | Prevents scale preference from becoming selection or assurance. |
 | `CC-C31.ASAP-10` | SoTA rows mutate at least one solution line, checklist item, boundary, relation, or worked slice. | Keeps source use non-decorative. |
 

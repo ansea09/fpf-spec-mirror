@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Detailed Walk-throughs"
+pattern_title: "Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".6 - Same-entity rewrite, explanation, and comparative reading"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__007_6-same-entity-rewrite-explanation-and-comparative-reading.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "I.2 — Detailed Walk-throughs"
+  - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .6 - Same-entity rewrite, explanation, and comparative reading"
-line_start: 82485
-line_end: 82508
+line_start: 82801
+line_end: 82824
 dependencies:
 keywords:
 ---

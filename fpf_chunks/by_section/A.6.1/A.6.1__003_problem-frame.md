@@ -6,12 +6,12 @@ section_id: "A.6.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__003_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:1 — Problem frame"
-line_start: 9043
-line_end: 9046
+line_start: 9053
+line_end: 9056
 dependencies:
   - "A.19"
   - "A.2.6"

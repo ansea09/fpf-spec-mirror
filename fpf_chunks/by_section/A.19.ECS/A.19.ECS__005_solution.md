@@ -6,12 +6,12 @@ section_id: "A.19.ECS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:4 — Solution"
-line_start: 23105
-line_end: 23200
+line_start: 23130
+line_end: 23225
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -51,9 +51,9 @@ Construct an evaluation `CharacteristicSpace` by declaring the evaluated object 
 | `ResultRowShape` | Required result row fields for the evaluation, including coordinate, value, and a short rationale; some evaluations may add evidence-locus or payload fields. | Not a free-form review paragraph and not a two-column coordinate/value table. |
 | `AdjacentValueRationaleRule` | Rule that each result rationale says why the lower adjacent value would understate the evidence and why the higher adjacent value would overstate it, or for the top value what would lower or reopen the claim. | Not verbosity for its own sake. |
 | `CalibrationPointSet` | Reusable 3/4/5 or equivalent adjacent-value calibration points for common evaluator disagreements. | Not a second score system and not a shortcut around the declared scale. |
-| `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another exact payload. | Not administrative burden, not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
+| `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another payload named by value. | Not administrative burden, not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
 | `ProtectedTradeoffSet` | Qualities or neighbour claims that must be checked when visible coordinates improve. | Not a hidden veto without a declared evaluation pattern or value meaning. |
-| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, slot or use-position, admissible use, and scope when coordinate wording or evaluation wording is repaired, with an exact governing-pattern reference when another pattern governs the live kind, relation, claim, or position. | Not a lexical substitution table and not permission to change object kind or slot/use-position by cleaner wording. |
+| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, slot or use-position, admissible use, and scope when coordinate wording or evaluation wording is repaired, with a governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position. | Not a lexical substitution table and not permission to change object kind or slot/use-position by cleaner wording. |
 | `StatusValueSet` | Local admissible-use result values for the evaluation. | Not release state, gate status, or reviewer praise. |
 | `E23StartCondition` | Minimum condition for using this evaluation inside `E.23`. | Not the improvement loop itself. |
 
@@ -65,14 +65,14 @@ Use these moves when constructing or repairing an evaluation. They are not a man
 
 1. **Name the evaluated object kind and use.** Say what object kind is being evaluated and for which declared use. If the evaluated object kind is not recoverable, stop before choosing coordinates.
 2. **Build the discriminating cases.** Include at least one evaluated object that should pass, one object of the same general family that should fail the floor, and one different object kind that should return to evaluation selection before opening or receive an explicit object-kind-fit defect/value if this evaluation has already been invoked.
-3. **Choose candidate characteristics.** Draw candidates from the object kind's real failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and exact FPF neighbours.
+3. **Choose candidate characteristics.** Draw candidates from the object kind's real failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
 4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or an ordinal content evaluation.
 5. **Remove false coordinates.** Drop coordinates that do not change admissible action, do not discriminate the evaluated object, duplicate another coordinate without a different repair move, or belong to another exact evaluation.
-6. **Split compound coordinates.** If a coordinate mixes two repair moves, two object kinds, or two incompatible scales, split it or assign one part to the exact neighbouring pattern that governs it.
+6. **Split compound coordinates.** If a coordinate mixes two repair moves, two object kinds, or two incompatible scales, split it or assign one part to the neighboring pattern governing the claim that governs it.
 7. **State preferred movement and trade-offs.** For each declared coordinate, state the preferred direction or explain why no simple direction exists. Name the protected trade-offs that must be checked when the coordinate improves.
 8. **Define result form, evidence basis, and calibration.** State the required result row shape, evidence basis, adjacent-value rationale rule, calibration points for common disagreements, and any coordinate-specific payload needed for high or floor-reaching values.
 9. **Define floor, exceptional, status, and stop.** State the viable-for-use floor, exceptional-for-use meaning, status values, and local stop or reopen condition.
-10. **Record governing-neighbour relations.** Name the exact FPF pattern that governs evidence, assurance, gate, work, decision, publication, naming, quality-bundle, measurement, OEE/NQD, or mathematical-lens claims when those become live. This is a declarative relation after the coordinate/value/evidence content, not route, receiver, owner, host, home, handoff, exit prose, "go there/not here" reference boilerplate, or architecture-placement rationale.
+10. **Record governing-neighbour relations.** Name the FPF pattern that governs evidence, assurance, gate, work, decision, publication, naming, quality-bundle, measurement, OEE/NQD, or mathematical-lens claims when those become live. This is a declarative relation after the coordinate/value/evidence content, not route, receiver, owner, host, home, handoff, exit prose, "go there/not here" reference boilerplate, or architecture-placement rationale.
 11. **Start `E.23` only after evaluation values exist.** A repeated improvement loop can start only when the evaluated object version, evidence basis, result form, and evaluation are recoverable enough for re-evaluation.
 
 #### A.19.ECS:4.3 - Evaluation specification minimum
@@ -83,21 +83,21 @@ A.19.ECS does not prescribe a publication or record form. It states which evalua
 |---|---|
 | `Evaluation problem frame` | Evaluated object kind, declared use, first useful move, existing-evaluation boundary, and what goes wrong if no evaluation exists. |
 | `Non-use boundary` | Boundaries to single-characteristic, measurement, Q-Bundle, naming, evidence, assurance, gate, work, decision, publication, and loop-method patterns. |
-| `Local names and kind settlement` | Local field names, exact roles, and non-use boundaries. |
+| `Local names and kind settlement` | Local field names, role named by values, and non-use boundaries. |
 | `Evaluation record shape` | The local record or bundle shape used by the evaluation. |
 | `Object-kind fit rule` | Admissible evaluated object, below-floor evaluated object, and outside-declared-object-kind boundary handling before and after invocation. |
-| `Evaluation evidence basis` | Exact loci that must be checked or named when a value depends on object version, corpus projection, source currentness, mature comparator, worked case, retrieval, or other external evidence. |
+| `Evaluation evidence basis` | Loci named by value that must be checked or named when a value depends on object version, corpus projection, source currentness, mature comparator, worked case, retrieval, or other external evidence. |
 | `Result-row shape` | Required result row fields, at minimum coordinate, value, and short rationale; any required evidence-locus or coordinate-specific payload fields are declared here. |
 | `Coordinate set` | Coordinate heads, properties of the evaluated object, evaluated-object properties and use conditions, scale/value meanings, evidence loci, and protected trade-offs. |
 | `Calibration and payload rules` | Adjacent-value calibration points and coordinate-specific payloads that prevent impressionistic `3`/`4`/`5` assignment or category-list discharge. |
 | `Status and stop condition` | Admissible-use statuses, local stop meanings, and reopen conditions. |
 | `Worked slices` | At least one passing evaluated object, one below-floor evaluated object, and one outside-declared-object-kind boundary case. |
 | `Common anti-patterns` | The false interpretations or values the evaluation must block. |
-| `Neighbouring-pattern claim assignment` | Exact neighbouring FPF patterns and the live claims each neighbour governs. |
+| `Neighbouring-pattern claim assignment` | Neighbouring FPF patterns named by value and the claims being made that each pattern governs. |
 
 This minimum is a content requirement, not a file-format requirement. For an FPF pattern publication form, `E.8` still governs the authoring form. `A.19.ECS` only states what the evaluation must make recoverable so that `E.22` can frame an improvement-oriented quality evaluation and `E.23` can run a repeated improvement loop.
 
-When construction or repair changes coordinate wording or evaluation wording, the evaluation characteristic-space specification records `PrecisionRepairKindRule` or an equivalent result-row requirement. The check compares the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, slot or use-position, admissible use, and scope, and names the exact governing pattern when another pattern governs the live kind, relation, claim, or position. A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot/use-position is a changed evaluation decision, not a wording repair.
+When construction or repair changes coordinate wording or evaluation wording, the evaluation characteristic-space specification records `PrecisionRepairKindRule` or an equivalent result-row requirement. The check compares the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, slot or use-position, admissible use, and scope, and names the governing pattern when another pattern governs the kind under repair, relation, claim, or position. A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot/use-position is a changed evaluation decision, not a wording repair.
 
 #### A.19.ECS:4.4 - Discriminating-case test
 

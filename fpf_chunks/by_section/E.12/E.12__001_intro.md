@@ -6,12 +6,12 @@ section_id: "E.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:intro — Intro"
-line_start: 60942
-line_end: 60943
+line_start: 61247
+line_end: 61248
 dependencies:
   - "E.13"
   - "E.2"

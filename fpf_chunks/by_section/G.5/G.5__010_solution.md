@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 78477
-line_end: 78882
+line_start: 78790
+line_end: 79196
 dependencies:
   - "C.11"
   - "C.18"
@@ -48,6 +48,7 @@ keywords:
 ---
 
 ### G.5:4 - Solution
+
 #### G.5:4.6a - Causal method dispatch declarations
 
 Method selection involving causal methods must declare whether a compared method is an observational predictor, an intervention optimizer, a counterfactual strategy, a causal fairness estimator, a causal-RL policy, or a simulation-only method.

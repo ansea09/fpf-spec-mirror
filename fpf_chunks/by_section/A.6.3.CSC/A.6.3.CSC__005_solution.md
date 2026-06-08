@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
-line_start: 10309
-line_end: 10438
+line_start: 10320
+line_end: 10449
 dependencies:
   - "A.15"
   - "A.20"
@@ -84,15 +84,15 @@ Before using this pattern, ask five questions:
 4. Is downstream use explicitly non-admissible from the coarsened rendering alone?
 5. Is the source-bearing reopen or governing-pattern handoff trigger visible?
 
-If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the exact project-side FPF kind and reference or authority-reference relation that actually makes the requested use admissible. If the required admissibility path is missing, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not treat that request or note as retroactive admissibility for the coarsened rendering, earlier claim or effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
+If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the project-side FPF kind and reference named by value or authority-reference relation that actually makes the requested use admissible. If the required admissibility path is missing, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not treat that request or note as retroactive admissibility for the coarsened rendering, earlier claim or effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
 
 #### A.6.3.CSC:4.3 - Ordinary vs claim-bearing
 
 Ordinary cases should remain light. A short orientation summary, redacted partner note, workshop simplification, or lookup handle does not need the full assurance record if the six-row card is recoverable.
 
-Claim-bearing cases add only the fields that matter for the live use, dispute, reliance, citation, policy, bridge, work, gate, privacy, or assurance case. This list is not a daily gate for ordinary summaries, briefings, redactions, or lookup handles:
+Claim-bearing cases add only the fields that matter for the use under repair, dispute, reliance, citation, policy, bridge, work, gate, privacy, or assurance case. This list is not a daily gate for ordinary summaries, briefings, redactions, or lookup handles:
 
-The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one coarsened-rendering case, not `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` destination, or exact project-side FPF kind and reference unless another governing FPF pattern explicitly instantiates that object.
+The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one coarsened-rendering case, not `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` destination, or project-side FPF kind and reference named by value unless another governing FPF pattern explicitly instantiates that object.
 
 - `sourceBearingSideRef` and `coarsenedRenderingRef` when the source-bearing side, coarsened rendering, `PublicationUnit`, publication face, E.17 publication-face kind value `publication face/form`, E.17 publication-face kind value `interop publication form`, or carrier could be confused;
 - `coarsenedRenderingPublicationUnitIfAny` when the coarsened rendering is carried by one `PublicationUnit` that is distinct from the publication, disclosure note, dashboard tile, or `interop publication form` on which it appears;

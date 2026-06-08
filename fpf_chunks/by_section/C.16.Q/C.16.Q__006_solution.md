@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 41344
-line_end: 41696
+line_start: 41390
+line_end: 41742
 dependencies:
   - "A.10"
   - "A.16"
@@ -73,7 +73,7 @@ A use of **quality** is in scope for C.16.Q when any of the following holds:
 When the trigger fires, follow the `E.10.ARCH` recovery order specialized to quality-term or evaluative characterization:
 
 1. **Capture the trigger span.**
-   Copy the exact trigger phrase using *quality* or a red-flag derivative such as *high-quality*, *quality metric*, *quality characteristic*, or *model quality*.
+   Copy the trigger phrase using *quality* or a red-flag derivative such as *high-quality*, *quality metric*, *quality characteristic*, or *model quality*.
 
 2. **Recover the bearer and publication lane.**
    Name the bearer and the relevant A.7 lane or kind: EntityOfConcern being described, description, `episteme` or publication face, carrier when the carrier itself is evaluated, pattern, model, policy, explanation, candidate, architecture description, work result, relation, action loop, or ordinary prose.
@@ -81,8 +81,8 @@ When the trigger fires, follow the `E.10.ARCH` recovery order specialized to qua
 3. **Reconstruct candidate quality senses and endpoint patterns.**
    Enumerate plausible candidate senses and, when relevant, candidate endpoint-governing FPF patterns or explicit endpoint source references. If the occurrence is decision-bearing, publication-bearing, or cross-tradition-bearing, record a short quality-term candidate note before selecting the repair.
 
-4. **Exit when the live claim is not quality-term or evaluative characterization.**
-   If the occurrence is primarily action invitation, relation construction, bridge, basedness, endpoint mismatch, evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, characteristic and scale construction, or source-use, do not assign a `QualitySense`. Apply `A.6.P`, `A.6.A`, `C.16.P`, `C.29`, `C.2.P`, or the exact governing pattern.
+4. **Exit when the claim being made is not quality-term or evaluative characterization.**
+   If the occurrence is primarily action invitation, relation construction, bridge, basedness, endpoint mismatch, evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, characteristic and scale construction, or source-use, do not assign a `QualitySense`. Apply `A.6.P`, `A.6.A`, `C.16.P`, `C.29`, `C.2.P`, or the pattern governing the recovered claim.
 
 5. **Select one explicit quality sense.**
    Pick one `QualitySense` token and state why rival senses were rejected in this local context.
@@ -91,7 +91,7 @@ When the trigger fires, follow the `E.10.ARCH` recovery order specialized to qua
    Rewrite the sentence either into one explicit endpoint-pattern-governed evaluative form (`Characteristic | Q-Bundle | Objective | ExplanatoryMeritBundle | selector-value endpoint`) or, when endpoint choice is still being stabilized, into one explicit `qualityTermAscription(...)` transitional repair form with bearer, frame, evaluator and viewpoint, normal form, and explicit qualifiers.
 
 7. **Classify boundary-bearing consequences.**
-   If the repaired statement is used for admissibility, commitments, publication, evidence-bearing decisions, gates, release, or work, apply the exact governing pattern instead of letting *quality* carry the required claim by itself.
+   If the repaired statement is used for admissibility, commitments, publication, evidence-bearing decisions, gates, release, or work, apply the governing pattern instead of letting *quality* carry the required claim by itself.
 
 #### C.16.Q:4.1 - Transitional repair frame: evaluative classification anchored by `qualityTermAscription(...)`
 
@@ -143,7 +143,7 @@ Tech and normative prose SHALL keep the evaluated participant in the bearer posi
 * “The benchmark says model quality is high” rewrites to `qualityTermAscription(bearer=Model, evaluator=BenchmarkPolicy, …)`.
 
 There is no inverse token that silently makes the evaluator the bearer.
-If inverse wording is used in Plain prose, the wording SHALL be rewritten into the bearer-centred form (or publish an explicit inverse form under the exact governing pattern that governs it).
+If inverse wording is used in Plain prose, the wording SHALL be rewritten into the bearer-centred form (or publish an explicit inverse form under the pattern governing the recovered claim that governs it).
 
 #### C.16.Q:4.1c - Endpoint-first discipline
 
@@ -187,7 +187,7 @@ Where:
 * **`defaultNormalForm`** ∈
   `{ SignalPack, Characteristic, Bundle, Objective }`
 * **`admissibleNormalForms`** is the explicitly declared set of admissible evaluative normal forms for the sense.
-  `defaultNormalForm` names the primary evaluative normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. If the quality ascription is published, route publication face, form, unit, carrier, and rendering questions to E.17, E.8, or the exact publication pattern.
+  `defaultNormalForm` names the primary evaluative normal form; any additional endpoint forms MUST be declared here rather than inferred ad hoc. If the quality ascription is published, route publication face, form, unit, carrier, and rendering questions to E.17, E.8, or the publication pattern governing the claim.
 
 #### C.16.Q:4.3 - Normative starter set of sense families
 
@@ -261,7 +261,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
 
 A `QualitySense` SHALL declare one admissible **default** evaluative normal form and MAY declare additional admissible evaluative normal forms explicitly.
 
-The normal forms in this section are endpoint or evaluative forms. They are not publication forms by themselves. Publication face, publication form, publication unit, carrier, rendering, export, and front-end questions remain with `E.17`, `E.8`, or the exact endpoint-governing publication pattern.
+The normal forms in this section are endpoint or evaluative forms. They are not publication forms by themselves. Publication face, publication form, publication unit, carrier, rendering, export, and front-end questions remain with `E.17`, `E.8`, or the endpoint-governing publication pattern named by value.
 
 **QNF-1 - `SignalPack`.**
 Use for `QS.PhenomenalCharacter`, `QS.PreconceptualFit`, and many cases of `QS.LatentFit`.
@@ -308,7 +308,7 @@ A conforming objective contains:
 
 C.16.Q SHALL prevent the collapse of **function or capability** claims into **quality-family** claims.
 
-* A statement about **what a system does** uses `A.6.F` first when function-like wording hides the exact FPF kind, relation, or claim, then the exact capability, method, work, role, `A.6.M` module-interface, architecture, mathematical, evidence, assurance, gate, decision, or release pattern whose primary `EntityOfConcern`, bearer, relation record, or characteristic-space construction is recovered.
+* A statement about **what a system does** uses `A.6.F` first when function-like wording hides the FPF kind named by value, relation, or claim, then the pattern governing the recovered capability, method, work, role, `A.6.M` module-interface, architecture, mathematical, evidence, assurance, gate, decision, or release claim whose primary `EntityOfConcern`, bearer, relation record, or characteristic-space construction is recovered.
 * A statement about **how well, how safely, how robustly, or how maintainably** it does so belongs to `QS.EngineeringQualityFamily`.
 * “Quality characteristic” and “functional characteristic” SHALL NOT be used as interchangeable labels.
 * In engineering contexts, `-ility` names are **quality-family labels**, not automatically Characteristics.
@@ -355,10 +355,10 @@ A conforming quality-term repair publication SHALL narrate changes with a stable
 * **`rescope(...)`** — change `U.Scope`.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnesses(...)`** — refresh evidence or witness bindings.
-* **`exitToReceivingPattern(...)`** — semantic move to a non-quality governing pattern; never edit in place silently.
+* **`assignToGoverningPattern(...)`** — semantic move to a non-quality governing pattern; never edit in place silently.
 
 A silent **sense rewrite** is a breaking semantic change.
-If the ascription ceases to mean “quality ascription” at all, use `exitToReceivingPattern(...)` rather than pretending the same record survived unchanged.
+If the ascription ceases to mean “quality ascription” at all, use `assignToGoverningPattern(...)` rather than pretending the same record survived unchanged.
 
 **A.6.P rewrite note.**
 `retargetBearer(...)` is the family-specific form of `retargetParticipant(BearerSlot, …)`.
@@ -391,7 +391,7 @@ In **Tech and normative prose**:
 * in QD and NQD contexts, bare **quality** MUST default to **`QS.UseValue`**;
 * preconceptual uses MUST NOT be presented as if they were already Characteristics;
 * latent and distributed fit MUST NOT be presented as if it were automatically explanatory merit;
-* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; it SHALL exit to `A.6.A` or another exact action-invitation governing pattern, with source-tradition `affordance` wording kept only as a quoted cue when needed;
+* if the occurrence is primarily **action-invitation** talk, the text MUST NOT assign a `QualitySense`; it SHALL exit to `A.6.A` or another action-invitation governing pattern, with source-tradition `affordance` wording kept only as a quoted cue when needed;
 * scope words (*applicability*, *envelope*, *generality*, *validity*) MUST NOT be used as hidden substitutes for `U.Scope`, `U.ClaimScope (G)`, or `U.WorkScope`;
 * quoted metalinguistic uses of the token *quality* are allowed, but SHALL be marked as **token-under-discussion**, not as a boundary-bearing term.
 

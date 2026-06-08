@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:4 — Solution"
-line_start: 32586
-line_end: 32649
+line_start: 32620
+line_end: 32683
 dependencies:
   - "A.15"
   - "A.16"
@@ -40,7 +40,7 @@ keywords:
 ---
 
 ### B.4.1:4 - Solution
-Insert a pre-abductive route-bearing seam inside the language-state cluster, between observation/cue preservation and receiving endpoint-entry patterns:
+Insert a pre-abductive route-bearing seam inside the language-state cluster, between observation/cue preservation and endpoint governing-pattern entries:
 
 `Observe -> Notice -> Stabilize -> Route`
 
@@ -86,7 +86,7 @@ The candidate route set may contain, among others:
   - `SubstrateDiversificationRoute`
 
 ##### B.4.1:4.2.1 - Specialization-sensitive extension route family
-These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that receiving governing patterns must be able to recover by value.
+These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that governing patterns must be able to recover by value.
 
 Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the honest next question is whether threshold-reaching specialization is actually attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
 

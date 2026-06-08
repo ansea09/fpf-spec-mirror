@@ -6,12 +6,12 @@ section_id: "C.16.Q:11a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__014_refresh-and-reopen-conditions.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11a — Refresh and reopen conditions"
-line_start: 41971
-line_end: 41983
+line_start: 42017
+line_end: 42029
 dependencies:
   - "A.10"
   - "A.16"
@@ -59,7 +59,7 @@ keywords:
 Reopen or narrow C.16.Q when any of these current-pattern-language conditions becomes live:
 
 * a recurring quality or evaluative family appears that is not covered by the current `QualitySense` starter set and cannot be treated as an existing endpoint-pattern-governed form;
-* a new exact endpoint pattern can receive a class of uses that currently require transitional `qualityTermAscription(...)`;
+* a new endpoint governing pattern can govern a class of uses that currently require transitional `qualityTermAscription(...)`;
 * `A.7`, `C.2.P`, `C.2.1`, or bridge-policy vocabulary changes the admissible lane, EntityOfConcern, publication-face, carrier, or `ReferencePlane` wording used by this pattern;
 * current best-known practice changes a `QualitySense`, normal-form boundary, action-invitation boundary, scale-legality boundary, or source-use and currentness row used in `C.16.Q:11`;
 * `J.4` first-entry projection changes for quality, characteristic, action-invitation, architecture-description, selector, or explanation wording;

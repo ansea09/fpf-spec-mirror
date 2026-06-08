@@ -6,12 +6,12 @@ section_id: "E.17.EFP:4"
 section_title: "Solution — review profile for explanation renderings on existing MVPK faces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__005_solution-review-profile-for-explanation-renderings-on-existing-mvpk-faces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:4 — Solution — review profile for explanation renderings on existing MVPK faces"
-line_start: 63667
-line_end: 63900
+line_start: 63978
+line_end: 64211
 dependencies:
   - "A.10"
   - "A.15"
@@ -125,7 +125,7 @@ The fuller field vocabulary below opens only when ambiguity or load-bearing use 
 - `compositionRule`;
 - `reopenCondition`.
 
-These fields inherit the `E.17:5.1e` local-field rule. They classify one explanation-facing rendering for review; they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority reference, publication face, or exact project-side FPF kind and reference unless another governing FPF pattern explicitly instantiates that object. The `explanationClass` value is a local source-relation and admissible-use profile value, not `ExplanationKind`, not `U.Kind`, not `EvidenceKind`, not `FaceKind`, and not a truth certificate.
+These fields inherit the `E.17:5.1e` local-field rule. They classify one explanation-facing rendering for review; they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, authority reference, publication face, or project-side FPF kind and reference named by value unless another governing FPF pattern explicitly instantiates that object. The `explanationClass` value is a local source-relation and admissible-use profile value, not `ExplanationKind`, not `U.Kind`, not `EvidenceKind`, not `FaceKind`, and not a truth certificate.
 
 Where explanation crosses from source rendering into new claim production, hidden bridge work, gate-bearing semantics, world-changing claim or effect, or a source relation with declared source-loss mode, the profile no longer suffices and the case must leave this profile.
 
@@ -247,7 +247,7 @@ A rendering assigned to one of these explanation classes declares what is omitte
 When reader-fit is part of the explanation case, `allowedUse` and `misuseRisk` should be explicit enough that a didactic or contrastive rendering cannot be mistaken for assurance, policy, or gate-bearing guidance.
 
 ##### E.17.EFP:4.5.c. Downstream-use and boundary rule
-This profile stays explanation-facing and episteme-facing. It does not govern bridge stance, retargeting, action selection, executable docking, gate-bearing claim or effect, assurance, engineering justification, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, world consequences, work or reliance consequences, gate consequences, assurance, or engineering justification, apply the neighboring FPF pattern and name the exact project-side FPF kind and reference that governs that claim or effect (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`).
+This profile stays explanation-facing and episteme-facing. It does not govern bridge stance, retargeting, action selection, executable docking, gate-bearing claim or effect, assurance, engineering justification, or work enactment. If a case starts carrying one bounded comparative review case, rival interpretations, bridge-mediated comparison load, world consequences, work or reliance consequences, gate consequences, assurance, or engineering justification, apply the neighboring FPF pattern and name the project-side FPF kind and reference named by value that governs that claim or effect (`E.17.ID.CR`, `F.9.1`, `B.5.2`, `A.6.4`, `A.15`, `A.15.4`, `B.3`, `A.20`, `A.21`).
 
 Interpretant-side fields do not weaken that boundary rule. They only bound reader use; they do not authorize unsupported downstream guidance.
 

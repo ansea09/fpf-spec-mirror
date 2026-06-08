@@ -6,12 +6,12 @@ section_id: "E.17.EFP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:7 — Conformance Checklist"
-line_start: 63991
-line_end: 64028
+line_start: 64302
+line_end: 64339
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ Use core ordinary checks first. Conditional rows open only when reader-fit, bund
 7. **CC-EF-11 — `SourceLinkedExplanationReconstruction` publishes `addedLinkPolicy` when needed.**
    When bounded connective prose is doing real review work, the rendering states what link is added, why it remains bounded, and which unsupported link class is explicitly forbidden.
 8. **CC-EF-12 — Derivative renderings keep source links operative.**
-   A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or exact project-side FPF kind and reference that evidences it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
+   A fork, adaptation, translation, generated explanation, tutorial, access-format conversion, or other derivative rendering that will guide work or reliance maps each operative claim to the exact source passage, carrier path, or project-side FPF kind and reference named by value that evidences it, or else downgrades to reader help or applies `A.6.3.CSC` as appropriate.
 9. **CC-EF-13 — Generated explanation reliance boundary is explicit.**
    A generated explanation used beyond ordinary reader help states its explanation class, source-finding state, operative claims, governing pattern for each relied-on claim, and non-admissible downstream use. The explanation itself is not evidence, assurance, approval, gate passage, release reliance, or work authority.
 

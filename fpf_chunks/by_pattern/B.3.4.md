@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.4.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
-line_start: 32026
-line_end: 32143
+line_start: 32060
+line_end: 32177
 dependencies:
   - "A.10"
   - "B.3"

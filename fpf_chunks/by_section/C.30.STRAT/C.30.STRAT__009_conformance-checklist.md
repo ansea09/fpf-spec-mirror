@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 52792
-line_end: 52804
+line_start: 52938
+line_end: 52950
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,11 +52,11 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-C30STRAT-1` | The source label is copied as a source label before any FPF kind is assigned. |
-| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, exact governing pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader move. |
 | `CC-C30STRAT-3` | No root kind or universal kind is minted for layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or stratification. |
-| `CC-C30STRAT-4` | The selected `ontologicalNeighborhood` and exact governing-pattern row select the governing pattern; the source label does not select the pattern nest by itself. |
-| `CC-C30STRAT-5` | Direct exact cases use the exact governing pattern directly instead of detouring through this pattern. |
-| `CC-C30STRAT-6` | The repair distinguishes the neighborhoods in `C.30.STRAT:4.2` when any of them are live, and it does not compress several live neighborhoods into one word. |
+| `CC-C30STRAT-4` | The selected `ontologicalNeighborhood` and governing-pattern row select the governing pattern; the source label does not select the pattern nest by itself. |
+| `CC-C30STRAT-5` | Already recovered cases use the governing pattern directly instead of detouring through this pattern. |
+| `CC-C30STRAT-6` | The repair distinguishes the neighborhoods in `C.30.STRAT:4.2` when any of them are being used, and it does not compress several ontological neighborhoods being used into one word. |
 | `CC-C30STRAT-7` | Subject patterns use at most a thin pointer to this pattern and do not copy this trigger table. |
 | `CC-C30STRAT-8` | The result preserves one useful admissible reader move; if no move remains, the disposition is quote-only, reduced-use cue, blocked use, or incomplete rewrite rather than recovered by value. |
 

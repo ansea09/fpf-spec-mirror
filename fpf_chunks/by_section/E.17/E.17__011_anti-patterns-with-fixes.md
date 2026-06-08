@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_anti-patterns-with-fixes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Anti‑patterns (with fixes)"
-line_start: 63526
-line_end: 63538
+line_start: 63837
+line_end: 63849
 dependencies:
   - "A.6.2"
   - "A.6.3"

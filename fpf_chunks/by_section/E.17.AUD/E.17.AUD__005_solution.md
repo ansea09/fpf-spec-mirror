@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:4 — Solution"
-line_start: 65022
-line_end: 65117
+line_start: 65333
+line_end: 65428
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 > `PublicationUnit Stability Discipline` is the first stabilization decision for one publication unit whose interpretation is unstable.
 >
-> It names the current repair disposition: what the unit is mainly about, what move it is carrying, and which governing FPF pattern or exact project-side FPF kind and reference governs the live case. It does not certify the unit or make a paperwork dossier.
+> It names the current repair disposition: what the unit is mainly about, what move it is carrying, and which governing FPF pattern or project-side FPF kind and reference named by value governs the live case. It does not certify the unit or make a paperwork dossier.
 
 #### E.17.AUD:4.1 - Minimum admissible interpretation
 
@@ -63,10 +63,10 @@ If the publication unit changes any of those four without saying so, its interpr
 - `local lexical-head repair`: one overloaded local head should apply `E.17.AUD.LHR`;
 - `whole-unit stabilization`: the unit should apply `E.17.AUD.OOTD`;
 - `bounded comparison`: the stable unit should apply `E.17.ID.CR`;
-- `leave publication-unit stability`: the live claim is work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another object governed by its exact neighboring FPF pattern or exact project-side FPF kind and reference.
+- `leave publication-unit stability`: the claim being made is work, work planning, decision, gate, evidence, explanation, reliance, carrier or front-end work, or another object governed by its neighboring FPF pattern governing that claim or project-side FPF kind and reference named by value.
 
 `PublicationUnit Stability Discipline` is the first stabilization decision for one publication unit whose interpretation is unstable.
-Its job is to name the current repair disposition and then handle the case under the governing FPF pattern or exact project-side FPF kind and reference that already governs that disposition: `E.17.AUD.LHR` for local lexical-head repair, `E.17.AUD.OOTD` for whole-unit stabilization, `E.17.ID.CR` for bounded comparison, or another neighboring pattern when the live claim has left publication-unit stability.
+Its job is to name the current repair disposition and then handle the case under the governing FPF pattern or project-side FPF kind and reference named by value that already governs that disposition: `E.17.AUD.LHR` for local lexical-head repair, `E.17.AUD.OOTD` for whole-unit stabilization, `E.17.ID.CR` for bounded comparison, or another neighboring pattern when the claim being made has left publication-unit stability.
 
 It does **not** re-govern the narrower whole-unit admissibility check that already belongs to `PublicationUnit Primary EntityOfConcern Discipline` once the active question becomes: can this one unit still keep one stable primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim by value?
 
@@ -89,7 +89,7 @@ This pattern governs one publication unit as a readable unit. It does **not** tr
 
 Those may become relevant neighboring concerns, but they are not the problem situation being governed here just because the same note, sheet, or screen happens to mention them.
 
-**Publication-unit boundary choice.** A `PublicationUnit` boundary is valid when a careful reader would naturally inspect that bounded item as carrying one primary publication move over one primary EntityOfConcern, with one visible outside boundary to work, work planning, decision, gate, reliance claim, or neighboring pattern application. Choose the bounded item that carries the live claim or effect being repaired. Do not choose a smaller boundary merely to hide a downstream overclaim, and do not choose a larger boundary merely to absorb several primary EntityOfConcern values into one unit. A table row may be the unit when that row carries the claim; the whole table may be the unit when the table-level caption or comparison frame carries the claim. A dashboard tile, note, card, sheet, or screen block may be the unit only when that bounded item, not the whole carrier or interface, carries the live publication move.
+**Publication-unit boundary choice.** A `PublicationUnit` boundary is valid when a careful reader would naturally inspect that bounded item as carrying one primary publication move over one primary EntityOfConcern, with one visible outside boundary to work, work planning, decision, gate, reliance claim, or neighboring pattern application. Choose the bounded item that carries the claim being made or effect being repaired. Do not choose a smaller boundary merely to hide a downstream overclaim, and do not choose a larger boundary merely to absorb several primary EntityOfConcern values into one unit. A table row may be the unit when that row carries the claim; the whole table may be the unit when the table-level caption or comparison frame carries the claim. A dashboard tile, note, card, sheet, or screen block may be the unit only when that bounded item, not the whole carrier or interface, carries the live publication move.
 
 **Publication-unit snapshot identity.** A `PublicationUnit` may remain the same bounded unit while its carrier rendering, export format, screenshot, or layout changes. It does not remain the same stabilized interpretation by visual or file continuity alone. If a revision, refresh, translation, regeneration, or dashboard update changes the primary EntityOfConcern, carried publication move, outside boundary, source pins, or admissible use, rerun the four-part interpretation for the new snapshot before the unit is used for comparison, explanation, evidence, gate, decision, work, or reliance claims.
 

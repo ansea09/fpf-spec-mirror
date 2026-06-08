@@ -6,12 +6,12 @@ section_id: "A.6.1:12a"
 section_title: "P2W Mechanism Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__015_p2w-mechanism-use-relation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:12a — P2W Mechanism Use Relation"
-line_start: 9314
-line_end: 9319
+line_start: 9324
+line_end: 9329
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -33,5 +33,5 @@ keywords:
 
 When `E.18.1` reaches a mechanism cue, this pattern carries the mechanism meaning: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, effect realization when declared, transport, and mechanism descriptions. P2W may name the cue and governing pattern, but it does not define these mechanism relations locally.
 
-If the live issue is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use the current `E.20` governing pattern when live. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
+If the issue under repair is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use the current `E.20` governing pattern when live. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
 

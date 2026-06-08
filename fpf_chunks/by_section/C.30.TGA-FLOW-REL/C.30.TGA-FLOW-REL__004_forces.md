@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:3 — Forces"
-line_start: 54075
-line_end: 54085
+line_start: 54227
+line_end: 54237
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,7 +48,7 @@ keywords:
 | --- | --- |
 | Flow relation vs architecture takeover | E.TGA graph, path, or crossing relation can be essential, but it does not become all architecture ontology. |
 | Functional view vs flow view | A functional structure view may need a flow relation, but a graph, path, or crossing object is not a functional element by itself. |
-| Graph precision vs work overread | E.18 gives precise graph, path, and flow-valuation objects; work occurrence and work results remain outside TGA unless their own pattern is live. |
+| Graph precision vs work overread | E.18 gives precise graph, path, and flow-valuation objects; work occurrence and work results remain outside TGA unless their own pattern governs the claim being made. |
 | No-hidden-scalarization vs architecture scoring | E.18 set-return and no-hidden-scalarization discipline can inform architecture reasoning, but it does not become a general architecture score. |
 | Small relation vs unneeded non-architecture apparatus | A project often needs one relation record, not a full C.29 lens card, evidence path, assurance case, or decision record. |
 | E.18 stability vs C.30 integration | A TGA-based architecture claim, selected flow or transduction structure, architecture structural view, or conditional architecture-description use needs a relation to E.18 without rewriting E.TGA as generic architecture adequacy theory. |

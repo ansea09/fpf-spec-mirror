@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__004_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:2 — Problem"
-line_start: 52660
-line_end: 52669
+line_start: 52771
+line_end: 52780
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,8 +52,8 @@ keywords:
 How can FPF keep common stratification and architecture-operation language without:
 
 - minting false root kinds for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate`;
-- making `C.30` the universal governing pattern for all structure-like wording;
+- making `C.30` govern all structure-like wording;
 - making `A.6.M` or `C.30.LCA` carry a duplicate local trigger registry;
-- treating source labels as evidence, assurance, gate passage, decision, work, causal proof, modularity, architecture adequacy, or mathematical-lens success by appearance;
+- treating source labels as non-source-label FPF-governed claims by appearance;
 - removing useful source language before a remaining admissible reader move is recoverable?
 

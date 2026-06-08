@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:intro — Intro"
-line_start: 19364
-line_end: 19424
+line_start: 19388
+line_end: 19448
 dependencies:
   - "A.10"
   - "A.12"
@@ -64,18 +64,18 @@ keywords:
 1. Name the role, holder, and context distinction that is live.
 2. Name the method or method description that is meant to govern the work.
 3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
-4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the exact FPF pattern and exact project-side FPF kind and reference for the live claim or effect, or stop.
+4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the governing FPF pattern and project-side FPF kind and reference named by value for the claim being made or effect, or stop.
 5. If a visible item is being used by appearance for a work claim, reliance claim, or source-restoration claim, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 
 **Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
 
-**Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the exact project-side FPF kind and reference needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
+**Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the project-side FPF kind and reference named by value needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
 
-**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
+**Recovered-source green path.** If the required project-side FPF kind and reference named by value is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
 
 **Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
 
-**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
+**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the issue under repair is whether a visible item has the project-side FPF kind and reference named by value needed for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work move or reliance move and blocks no concrete overclaim about role, method, plan, work, status, approval, evidence, or release.
 
@@ -99,7 +99,7 @@ keywords:
 
 **Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
 
-**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
+**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the question under repair is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
 
 **Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may orient work or cue attention. It becomes sufficient for work execution, plan use, approval, gate decision, or execution evidence only when the required method, plan, approval, gate, or evidence source remains explicit and reopenable. Treat the coarsened-rendering relation through `A.6.3.CSC Controlled Semantic Coarsening` when the rendering itself changes what can be relied on.
 

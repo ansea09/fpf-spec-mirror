@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:5 — Archetypal Grounding"
-line_start: 10439
-line_end: 10458
+line_start: 10450
+line_end: 10469
 dependencies:
   - "A.15"
   - "A.20"
@@ -58,7 +58,7 @@ keywords:
 
 **Redacted partner note.** The source-bearing side is a full incident record with actor identity, trace path, and recovery evidence. The coarsened rendering is a partner-facing redacted note that withholds actor identity and trace path. Its narrower admissible use is bounded disclosure and coordination. Accountability, legal, audit, readiness, and gate uses reopen the full incident record or name the relevant `authoritySourceRef` destination.
 
-**Redacted functional-description publication.** The source-bearing side is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The coarsened rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower admissible use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the source-bearing side or apply `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, or `B.2.5` as the live claim requires.
+**Redacted functional-description publication.** The source-bearing side is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The coarsened rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower admissible use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the source-bearing side or apply `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, or `B.2.5` as the claim being made requires.
 
 **Exceptional interop-facing simplification.** The source-bearing side is two pinned context notes plus their bridge or comparison source material. The coarsened rendering is: `For this exchange only, Field A is treated as broader than Field B; see source notes for exceptions.` The rendering may orient the exchange, but any equivalence, substitution, projection, bridge-row, or approval use applies `F.9` or `F.9.1` or reopens the source-bearing side source material.
 

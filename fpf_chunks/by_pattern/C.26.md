@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 45707
-line_end: 46299
+line_start: 45755
+line_end: 46347
 dependencies:
   - "A.10"
   - "A.15"
@@ -158,7 +158,7 @@ C.26 ordinary output: produce one of these, then stop or select the neighboring 
 
 - no C.26 pattern selection because the ordinary FPF pattern carries the case;
 - QL-lite note with the minimum sufficient field set;
-- use the ordinary pattern that carries the live question;
+- use the ordinary pattern that carries the question under repair;
 - escalation to evidence, assurance, or formal-model work when the claim’s evidence or authority demand requires it.
 
 Keep the entry cost proportional to the use. A QL situation does not begin with a full record.
@@ -187,7 +187,7 @@ Checking discipline:
 
 | Checking failure | Repair |
 | --- | --- |
-| "QL word appeared, escalate to assurance." | Ask what claim and evidence demand are actually live. |
+| "QL word appeared, escalate to assurance." | Ask what claim and evidence demand are actually being made. |
 | "This sounds metaphorical, remove it." | Ask what representational mistake the wording prevents. |
 | "Use ordinary FPF only." | Name the ordinary FPF pattern that carries the residual claim. |
 | "No quantum-like unless mathematically formalized." | Allow QL-lite when it prevents local false reading and no formal claim is made. |
@@ -248,7 +248,7 @@ Use the `C.11` mini-output discipline across the cluster: finish with one next m
 | --- | --- |
 | Use / choose now | The low-recoverability reading is enough for the declared local action or decision. |
 | Probe again | One named probe, order/frame test, measurement, source check, or bridge check could still change the result. |
-| Reroute | The live question belongs to another FPF pattern rather than QL-lite. |
+| Reroute | The question under repair belongs to another FPF pattern rather than QL-lite. |
 | No QL wording | Ordinary uncertainty, measurement, work, bridge, quality, or search patterns carry the case. |
 
 Retire QL when the residual cue disappears. If `A.6`, `F.9`, `C.16`, `A.10`, `B.3`, `A.15`, `C.25`, `A.6.3.CSC`, `A.6.3.RT`, or another ordinary FPF pattern now carries the claim without a false passive read, false shared frame, false faithful export, unsupported distributed-state reading, or QL-specific coarsening residue, remove QL wording from the active working note or pattern prose.
@@ -287,11 +287,11 @@ Child patterns inherit `QL-NQ`. They should not restate the global boundary as l
 #### C.26:4.2 - Pattern selector
 ##### C.26:4.2.1 - Causal-use exit before QL retention
 
-Before retaining `QL-lite`, `QL-NQ`, or a quantum-like framing for a live claim, check whether the actual question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data. If so, redirect the claim/question to `C.28` before any quantum-like retention.
+Before retaining `QL-lite`, `QL-NQ`, or a quantum-like framing for a claim being made, check whether the actual question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data. If so, redirect the claim/question to `C.28` before any quantum-like retention.
 
 ```text
 CC-C26-CAUSAL-EXIT:
-If the live question is intervention, counterfactual comparison,
+If the question under repair is intervention, counterfactual comparison,
 causal effect, causal fairness, causal policy, or realizability of counterfactual-rung data,
 redirect the claim/question to C.28 before retaining QL-lite or QL-NQ.
 ```
@@ -312,7 +312,7 @@ Use this as a diagnostic sequence before retaining QL wording. DDD, microservice
 
 C.26 does not choose among options, generate missing alternatives, or settle `C.11` decision quality. It can mark that the available readings sit in non-shared comparison frames or lack a declared admissible joint comparison route; the choice/search output still belongs to `C.11`, `B.5.2`, `C.18`, `C.19`, or `A.19`.
 
-| If the live question is mainly... | First FPF pattern | Add QL only when... |
+| If the question under repair is mainly... | First FPF pattern | Add QL only when... |
 | --- | --- | --- |
 | Choice, comparison, or question order | `C.11` | incompatible probes, order effects, non-shared comparison frames, or no declared admissible joint comparison route change the choice-state reading. |
 | Boundary interaction or interface reading | `A.6`, `A.6.B`, `A.6.P` | the probe or interaction changes the represented state, export validity, or viability decision. |
@@ -485,7 +485,7 @@ The pattern may under-admit some mathematically valid QL models when the author 
 | CC-C26.9 | If the claim becomes reusable, assurance-bearing, measurement-like, relation-minting, high-stakes, or superiority-claiming, the text escalates beyond QL-lite. |
 | CC-C26.10 | The text does not mint `U.Probe`, generic `U.State`, `U.DistributedState`, `U.Lens`, a new boundary kind, or a social-substance kind. |
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
-| CC-C26-CAUSAL-EXIT | If the live question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim/question to `C.28` before retaining QL-lite or QL-NQ. |
+| CC-C26-CAUSAL-EXIT | If the question under repair is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim/question to `C.28` before retaining QL-lite or QL-NQ. |
 
 ### C.26:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -618,7 +618,7 @@ This section is intentionally short. It carries operational anchors for using th
 - C.28 governs causal-use question, causality-ladder rung, causal estimand, identification, counterfactual sampling realizability, causal evidence support basis, causal-use verdict, causal fairness, causal policy, and causal method parity.
 - This pattern keeps residual quantum-like probe, frame, order, export, or coarsening discipline after ordinary causal-use explanation has been tried.
 - Non-admissible use: intervention, causal effect, causal fairness, causal policy, counterfactual comparison, causal method parity, or counterfactual-rung-data realizability do not activate quantum-like modeling by themselves.
-- Exit: when the live question is causal, cite `C.28` before retaining QL-lite or QL-NQ.
+- Exit: when the question under repair is causal, cite `C.28` before retaining QL-lite or QL-NQ.
 
 **C.27 temporal-claim relation.**
 

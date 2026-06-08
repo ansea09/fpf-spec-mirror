@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.3.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
-line_start: 46943
-line_end: 47268
+line_start: 46991
+line_end: 47316
 dependencies:
   - "A.10"
   - "A.15"
@@ -343,7 +343,7 @@ The QL lens is secondary. It matters when the way viability is probed, exported,
 Worked-slice discipline from these rows:
 
 - state the envelope before importing source terminology;
-- translate source terms into selected structures, `ArchitectureOf@Context` relations, architecture descriptions, structural views, or exact C.30 subcases;
+- translate source terms into selected structures, `ArchitectureOf@Context` relations, architecture descriptions, structural views, or named C.30 subcases;
 - keep sensors, probes, actuators, and metrics distinct;
 - state adaptation cost and failure mode;
 - apply ordinary quality and measurement patterns to one-scalar quality concerns.
@@ -355,7 +355,7 @@ Worked-slice discipline from these rows:
 - C.27 may flag: braking, throttling, cadence, recovery, or stabilization moves in claims such as slow rollout protecting support capacity, request throttling preventing collapse, or cadence change preserving attention/team health.
 - This pattern keeps: viability bearer, protected promise/function, viable region, disturbance, sensor/probe/action split, adaptation cost, and failure mode.
 - Non-admissible use: stabilization wording is not a viability envelope, and C.27 is not the pattern for all stability-through-change claims.
-- Exit: if the live claim is only better quality, healthier team, or more resilient service without a declared viability envelope, use C.25, E.13, or the relevant quality/proxy/value pattern rather than C.26.3 or a C.27 profile.
+- Exit: if the claim being made is only better quality, healthier team, or more resilient service without a declared viability envelope, use C.25, E.13, or the relevant quality/proxy/value pattern rather than C.26.3 or a C.27 profile.
 
 - Builds on: `C.26`, `C.25`, `U.Dynamics`, `A.6`, `A.15`, `C.16`, `A.10`, `B.3`, `A.3`, `A.19`, `C.18`, `C.19`.
 - Coordinates with: `C.26.1` when sensors, probes, dashboards, or metrics change represented state; `C.26.2` when coordinated work evidences the envelope state.

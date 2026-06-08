@@ -6,12 +6,12 @@ section_id: "A.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:8 — Consequences"
-line_start: 28340
-line_end: 28354
+line_start: 28366
+line_end: 28380
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -48,7 +48,7 @@ keywords:
 
 * **Deterministic gating.** Join-semilattice aggregation makes decisions order-independent and idempotent (modulo declared equivalence), enabling consistent audit and replay.
 * **Clean CV/GF separation.** Activation boundary keeps profile concerns out of mechanism validity.
-* **Profile clarity.** Fold policies (`error|timeout|unknown`) are explicit and profile-bound, making safety posture reviewable.
+* **Profile clarity.** Fold policies (`error|timeout|unknown`) are explicit and profile-bound, making safety review result inspectable.
 * **Publication hygiene.** MVPK faces remain pins+refs (no new numeric claims), and DecisionLog captures rationale without procedural commitments.
 
 **Trade-offs**

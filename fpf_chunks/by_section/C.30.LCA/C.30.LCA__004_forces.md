@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 53552
-line_end: 53560
+line_start: 53702
+line_end: 53710
 dependencies:
   - "A.10"
   - "A.20"
@@ -43,9 +43,9 @@ keywords:
 ### C.30.LCA:3 - Forces
 
 * Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
-* The same source labels can name different things. C.30.LCA receives only recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses go through `C.30.STRAT` to their exact neighboring patterns.
+* The same source labels can name different things. C.30.LCA applies only to recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses are recovered with `C.30.STRAT` and then governed by their governing patterns when those claims are being made.
 * Layered and multi-rate control descriptions often need timing and dynamics claim before they can carry stability or safety claims.
 * `B.2.5` already gives FPF a supervisor-subholon feedback-loop pattern, but it does not turn every loop diagram into proof.
 * TGA graphs can describe flow and transduction relations that participate in control, but the TGA graph is still a description or view, not the control structure itself.
-* Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records open only when the live question calls for that exact governing pattern use.
+* Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records are used only when the question under repair calls for that governing pattern use.
 

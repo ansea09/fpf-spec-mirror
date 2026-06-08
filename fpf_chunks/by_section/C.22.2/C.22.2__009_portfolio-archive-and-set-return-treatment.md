@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 44394
-line_end: 44418
+line_start: 44442
+line_end: 44466
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ Archive, portfolio, pool, front, shortlist, selected-set, and set-return materia
 
 Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, live pool, and set-return material remain live source distinctions, but their current FPF governing patterns are already available:
 
-| Source wording | Current FPF pattern or relation | Required problem-card preservation when live |
+| Source wording | Current FPF pattern or relation | Required problem-card preservation when the corresponding claim is being made |
 |---|---|---|
 | Problem archive | `C.18`, `C.19`, `A.10`, `G.6` | Preserve source set or reference, retention criterion, candidate status, and provenance relation. |
 | Problem portfolio | `G.5`, `C.19`, `G.9`, `G.11` | Preserve selection or retention criterion, budget or window, review cadence, and selected-set or live-pool relation. |
@@ -80,7 +80,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, l
 | Live pool | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when total order is not admissible. |
 
-A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention criterion, budget or window, review cadence, and exact pattern reference when live. `setContextRef` is a reference field, not a new `SetContext` kind and not a downstream claim carrier.
+A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention criterion, budget or window, review cadence, and pattern reference named by value when live. `setContextRef` is a reference field, not a new `SetContext` kind and not a downstream claim carrier.
 
 `setContextRef` must preserve the recoverable source-set form when live: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the source-set form is not recoverable, the card may keep a source cue, but it must not claim selected-set readiness or archive-derived readiness.
 

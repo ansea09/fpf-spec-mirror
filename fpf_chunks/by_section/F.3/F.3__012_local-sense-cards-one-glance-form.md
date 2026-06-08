@@ -6,12 +6,12 @@ section_id: "F.3:11"
 section_title: "Local‑Sense Cards (one‑glance form)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__012_local-sense-cards-one-glance-form.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:11 — Local‑Sense Cards (one‑glance form)"
-line_start: 69707
-line_end: 69718
+line_start: 70019
+line_end: 70030
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:7 — Conformance Checklist"
-line_start: 43246
-line_end: 43260
+line_start: 43292
+line_end: 43306
 dependencies:
   - "B.3"
   - "C.11"
@@ -48,7 +48,7 @@ keywords:
 
 - **C19-8**  When the Heterogeneity-first lens is used, provenance MUST include: (i) the family-quota vector (including the default triad quota k), (ii) the subFamilyDef id (from F1-Card) if sub-family quotas apply, (iii) the sampler class, seed, and policy id.
 - **C19-9** When `C.19` returns one pool-policy result, that result **MUST** identify the still-live pool or family scope, the governing lens or policy id, and the next treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`).
-- **C19-10** If the live question is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** reroute rather than restate `C.11`, `C.24`, or `G.5`.
+- **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** reroute rather than restate `C.11`, `C.24`, or `G.5`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If exploration/exploitation collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior/logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
 

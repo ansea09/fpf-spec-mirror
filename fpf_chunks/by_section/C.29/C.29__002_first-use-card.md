@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First-use card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-use-card.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First-use card"
-line_start: 50182
-line_end: 50196
+line_start: 50234
+line_end: 50248
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -65,16 +68,16 @@ keywords:
 
 ### C.29:0 - First-use card
 
-Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is live.
+Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is being made.
 
-| First question | Required answer before the lens carries claim-bearing use |
+| First question | Required answer before claim-bearing lens use |
 |---|---|
 | Is the mathematical phrase changing the next admissible move, or only helping recognition? | If no move changes, keep ordinary prose or write `NoMathLensUseNeededNote`. |
 | What phenomenon is being seen through the lens? | Name `TargetPhenomenon` in problem-owning language. |
-| What concrete mathematical object, formal role, learned representation, simulation substrate, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
+| What concrete mathematical object, formal role, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
 | What structure is preserved? | Name `PreservedStructure`. |
 | What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
 | What tempting inference does this lens not license? | Name `StopCondition`; no stop condition means no admissible C.29 result. |
 
-Non-use comes first. Do not open C.29 merely because mathematics appears. Open it only when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the live claim, name the neighboring FPF locus and keep C.29 to the mathematical-lens use part.
+Start with the useful lens decision: choose, apply, bound, replace, or remove a mathematical lens when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If no next admissible move changes, keep ordinary prose or write `NoMathLensUseNeededNote`. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the claim being made, apply the governing FPF pattern and keep C.29 to the mathematical-lens use part.
 

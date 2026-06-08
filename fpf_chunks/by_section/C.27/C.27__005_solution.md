@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:4 — Solution"
-line_start: 47626
-line_end: 48456
+line_start: 47675
+line_end: 48505
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -589,7 +589,7 @@ relation change.
 | rateChangeReadingMeasureRef | Measurement reference used as evidence for an acceleration, deceleration, braking, redirection, stabilization, hazard-change, queue-pressure-change, or other rate-change reading. | C.16-compatible; this is evidence for a reading, not a new primitive acceleration measure. |
 | publishedOrTargetedMeasureRef | The measure being used as reading, dashboard signal, target, gate, incentive, budget input, or public comparison. | C.16 carries measurement legality and comparability; target/proxy use belongs outside C.27 when FPF-governed. |
 | targetOrIncentiveUse | How the metric is used as a target, incentive, optimization proxy, management signal, or behavior-shaping prompt. | E.13, assurance, or governance patterns carry proxy/utility distortion. |
-| dashboardGatePromiseOrBudgetUse | Whether the metric appears in a dashboard, gate, promise, budget, review, or public comparison. | Names boundary/assurance pattern relations when those uses are live. |
+| dashboardGatePromiseOrBudgetUse | Whether the metric appears in a dashboard, gate, promise, budget, review, or public comparison. | Names boundary/assurance pattern relations when those uses are being made. |
 | behaviorChangeRisk | How publication, target pressure, incentive, or gate use may change behavior. | C.27 records temporal intervention risk; causal-use claim still needs `C.28` causal-use relation. |
 | temporalWorkChangeVsMeasurementChangeNote | Split between real work/process rate change, measurement/probe effect, gaming/selection effect, and causal effect if claimed. | Prevents metric improvement from being read as system improvement. |
 | C16RouteRef | Route/reference for admissible measurement construction, comparability, and evidence. | C.27 cites it; C.27 does not define metric legality. |
@@ -720,8 +720,8 @@ intervention relation that changes admissible use, no entry here applies.
 | C.27 metric-as-target block | `dyn2MetricTargetEffectBlock?` splits metric-as-measure, metric-as-target or incentive, metric publication as temporal intervention, and residual probe, frame, or export cue; C.16 carries measurement, E.13 or an assurance pattern carries proxy distortion, and C.26 applies only after ordinary FPF pattern relations leave residual QL cue. |
 | C.27 cross-scale transfer field | `dyn2CrossScaleTransferBlock?` keeps local and aggregate dynamic readings separate; cross-scale use needs source bearer, target bearer, aggregation relation, bearer continuity, mix-shift risk, and explicit `crossScaleTransferUseBoundary`. |
 | Object-centric dynamic trace | Workflow/process rate claims need bearer, object/event trace, interaction, and convergence/divergence discipline rather than one generic process-speed label. |
-| Method composition or emergent work cycle | If the live claim is about how method parts compose, how an adaptive work cycle becomes a capability, or how repeated practice changes shape, C.27 handles only the temporal adequacy of the rate, rhythm, recovery, stabilization, or rate-change claim. `B.1.5` carries order-sensitive method composition and work enactment; `B.2.4` carries meta-functional transition and capability-emergence questions. |
-| State-change or evolution loop and language-state movement | If the live claim is that a system, episteme, method, cue, branch, or language-state relation evolved, reopened, stabilized, operationalized, retired, or moved through a named state-change sequence, C.27 handles only the temporal adequacy of any speed/rhythm/recovery/stabilization claim. `A.4` / `B.4` carry temporal duality and canonical evolution loops; `A.16` / `B.4.1` carry language-state move and cue-stabilization discipline. |
+| Method composition or emergent work cycle | If the claim being made is about how method parts compose, how an adaptive work cycle becomes a capability, or how repeated practice changes shape, C.27 handles only the temporal adequacy of the rate, rhythm, recovery, stabilization, or rate-change claim. `B.1.5` carries order-sensitive method composition and work enactment; `B.2.4` carries meta-functional transition and capability-emergence questions. |
+| State-change or evolution loop and language-state movement | If the claim being made is that a system, episteme, method, cue, branch, or language-state relation evolved, reopened, stabilized, operationalized, retired, or moved through a named state-change sequence, C.27 handles only the temporal adequacy of any speed/rhythm/recovery/stabilization claim. `A.4` / `B.4` carry temporal duality and canonical evolution loops; `A.16` / `B.4.1` carry language-state move and cue-stabilization discipline. |
 | C.27 scale-variable claim block | `dyn2ScaleVariableClaimBlock?` is present only when changing review capacity, tool calls, tokens, sprints, data, model capacity, parallelism, freedom of action, or another declared scale variable is used as the basis for a rate-change, learning, recovery, throughput, or stabilization claim; C.18.1 carries scale variables, scale windows, scale probes, and scale-elasticity value. |
 | Autonomy-budget or freedom-of-action claim | If freedom of action, action tokens, decision tokens, guard cadence, depletion, pause/resume, or autonomy-gated work is used as the basis for a rate-change or stabilization claim, C.27 states the temporal claim only. `E.16` carries autonomy budgets, guard checks, ledger evidence, depletion behavior, and override speech acts. |
 | C.27 viability-envelope relation | `dyn2ViabilityEnvelopeRoute?` is present only when braking, throttling, rollout speed, cadence change, recovery timing, adaptation cost, or stabilization is used to keep a declared viability bearer inside usable bounds; C.26.3 carries viability-envelope boundary regulation. |

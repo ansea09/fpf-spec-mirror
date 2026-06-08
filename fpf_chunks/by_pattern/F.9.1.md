@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
-line_start: 71966
-line_end: 72158
+line_start: 72279
+line_end: 72471
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
@@ -41,7 +41,7 @@ keywords:
 
 **Plain-name.** Bridge-card stance overlay.
 **One-line summary.** `BridgeStanceOverlay` governs one stance annotation over an existing `F.9` bridge card so authors can say how to read that bridge without changing its kind, direction, `CL`, or loss notes and without treating the overlay as bridge authority or as a cure for missing source-bearing return.
-**Bridge-stance overlay in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
+**Primary EntityOfConcern in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
 **Use this when.** Use this overlay when an existing bridge card already exists and the real need is one compact stance label such as `localRename`, `operationalizes`, `partialAnalogy`, `projection`, or `nonEquivalent` that helps readers interpret that bridge without widening its substitution licence.
 **Start here when.** Your first honest artefact is already an `F.9` bridge card, and the practical question is how to read that bridge rather than whether a bridge exists at all.
 **What goes wrong if missed.** Authors fall back to vague phrases like "roughly analogous" or "just a rename", and readers either over-read the gloss as silent bridge authority or under-read it as disposable style.
@@ -94,7 +94,7 @@ If the stance materially affects interpretation, the bridge card should publish 
 
 ### F.9.1:6 - Bias-Annotation
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for stance overlays attached to existing `F.9` Bridge Cards inside FPF.
-This pattern favors disciplined cross-school comparison and bridge readability over sweeping synonym claims. The main mitigation is that every stance remains subordinate to the underlying Bridge Card, its direction, `CL`, and loss notes, with explicit handoff to `A.6.3.CSC` when the live issue is source-bearing return for a coarsened rendering rather than bridge-card reading.
+This pattern favors disciplined cross-school comparison and bridge readability over sweeping synonym claims. The main mitigation is that every stance remains subordinate to the underlying Bridge Card, its direction, `CL`, and loss notes, with explicit handoff to `A.6.3.CSC` when the issue under repair is source-bearing return for a coarsened rendering rather than bridge-card reading.
 
 ### F.9.1:7 - Conformance Checklist
 - `CC-F.9.1-1` A stance annotation **SHALL NOT** replace the underlying `F.9` bridge kind.
@@ -129,7 +129,7 @@ The practical gain is narrow but real: teams already use short stance glosses in
 | Shared operational names and semantic attributes aid observability and documentation, but common naming does not by itself license substitution. | Contemporary observability practice standardizes common operation and data names while keeping those conventions tied to explicit resources, spans, metrics, logs, and profiles. | OpenTelemetry Semantic Conventions (2025). | `F.9.1` adopts the value of short reusable glosses, but keeps them local to the bridge card and loss notes. | **Adapt/Reject.** Adapt common-name discipline as a readability aid; reject common naming as proof of equivalence or completeness. |
 | Validation and metadata practice keeps annotations inspectable instead of letting them replace the object they annotate. | Semantic-web validation and catalog practice separates shapes/metadata from the data graph or dataset being described. | W3C SHACL (2017); W3C DCAT v3 (2024). | `F.9.1` treats a stance overlay as inspectable annotation over a bridge card, not as a substitute bridge or source-return cure. | **Adapt.** Use annotation discipline to keep stance local and reviewable. |
 
-**Worked-slice docking.** The nearest practical recovery anchors here are the `localRename`, `operationalizes`, `projection`, and `partialAnalogy` examples in `F.9.1:13.1` through `F.9.1:13.4`, plus the anti-case `F.9.1:13.5`. If the SoTA claim cannot be recovered through those worked slices and the early boundary rule, do not let the citation stand in for the live pattern law.
+**Worked-slice docking.** The nearest practical recovery loci here are the `localRename`, `operationalizes`, `projection`, and `partialAnalogy` examples in `F.9.1:13.1` through `F.9.1:13.4`, plus the anti-case `F.9.1:13.5`. If the SoTA claim cannot be recovered through those worked slices and the early boundary rule, do not let the citation stand in for the live pattern law.
 
 **Local stance.** Best-known current practice supports a narrow rule: stance labels are useful only when they stay visibly subordinate to a published bridge card, its direction, `CL`, loss notes, and reviewable source-cell and target-cell structure.
 
@@ -155,7 +155,7 @@ Table-level note: `projection` is only a stance over a declared bridge. It does 
 A comparative bundle may need to mention an explanatory resemblance across traditions without claiming substitution. In such cases `partialAnalogy` may guide reading when the shared pattern is local and declared. If review concludes that this local resemblance still lacks reuse support, `nonEquivalent` should be preferred so that apparent similarity does not drift into silent replacement. The label blocks equivalence and silent substitution; it does not by itself assert `Disjoint` or `CL=0` unless the underlying `F.9` bridge card says so.
 
 #### F.9.1:13.5 - `projection` is not a coarsened-note cure
-A team may write a short comparison note saying that one report-only metric is `basically a projection` of a richer operations concept. That sentence does not by itself justify a `projection` overlay. First recover the underlying `F.9` bridge card, its direction, `CL`, and Loss Notes from the source-bearing episteme or source publication needed for bridge support. Only then may the overlay say how to read that bridge. If readers still need return to the source-bearing episteme or source publication before any bridge-bearing use is admissible, the overlay must wait; it cannot repair the missing bridge card.
+A team may write a short comparison note saying that one report-only metric is `basically a projection` of a richer operations concept. That sentence does not by itself justify a `projection` overlay. First recover the underlying `F.9` bridge card, its direction, `CL`, and Loss Notes from the source-bearing episteme or source publication needed for the Bridge Card. Only then may the overlay say how to read that bridge. If readers still need return to the source-bearing episteme or source publication before any bridge-bearing use is admissible, the overlay must wait; it cannot repair the missing bridge card.
 
 ### F.9.1:14 - Practical use guidance
 

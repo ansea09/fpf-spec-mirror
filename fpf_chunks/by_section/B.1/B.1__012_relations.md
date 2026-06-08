@@ -6,12 +6,12 @@ section_id: "B.1:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__012_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:11 — Relations"
-line_start: 28925
-line_end: 28933
+line_start: 28952
+line_end: 28960
 dependencies:
   - "A.1"
   - "A.9"

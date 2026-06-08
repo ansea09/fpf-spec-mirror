@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__008_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:6 — Bias-Annotation"
-line_start: 52786
-line_end: 52791
+line_start: 52932
+line_end: 52937
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,7 +49,7 @@ keywords:
 
 ### C.30.STRAT:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto and Epist**, **Prag**, **Did**, and **Gov**. Scope: architecture and engineering source-label precision restoration, with exits to non-architecture governing patterns when recovery selects them.
+Lenses tested: **Arch**, **Onto and Epist**, **Prag**, **Did**, and **Gov**. Scope: architecture and engineering source-label precision restoration, with non-architecture governing-pattern applications when recovery selects them.
 
-This pattern intentionally biases away from lexical replacement and toward ontology-first recovery. The mitigation is the cheap-closure rule: ordinary source prose stays ordinary, quote-only wording stays quote-only, and direct exact cases skip `C.30.STRAT`.
+This pattern intentionally biases away from lexical replacement and toward ontology-first recovery. The mitigation is the cheap-closure rule: ordinary source prose stays ordinary, quote-only wording stays quote-only, and already recovered cases skip `C.30.STRAT`.
 

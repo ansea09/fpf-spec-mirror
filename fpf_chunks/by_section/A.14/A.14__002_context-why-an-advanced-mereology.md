@@ -6,12 +6,12 @@ section_id: "A.14:1"
 section_title: "Context — why an advanced mereology?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__002_context-why-an-advanced-mereology.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:1 — Context — why an advanced mereology?"
-line_start: 19095
-line_end: 19111
+line_start: 19119
+line_end: 19135
 dependencies:
   - "A.1"
   - "B.1.1"

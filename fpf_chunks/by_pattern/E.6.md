@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.6.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
-line_start: 56488
-line_end: 56587
+line_start: 56772
+line_end: 56871
 dependencies:
   - "E.2"
 keywords:
@@ -52,7 +52,7 @@ document order with one universal first-practical workflow.
 
 #### E.6:4.0 - Document order is distinct from first-practical entry
 
-The macro-order of the document is a didactic scaffold, not a universal practical workflow. Entry navigation surfaces such as the `Preface`, `J.4`, entry-neighborhood governing patterns, and worked entry readings are informative navigation only: they may cross Parts when that is the first honest entry for the live question, and they do not create a second normative process history.
+The macro-order of the document is a didactic scaffold, not a universal practical workflow. Entry navigation surfaces such as the `Preface`, `J.4`, first-entry pattern-comparison rows, and expanded entry-disambiguation cases are informative navigation only: they may cross Parts when that is the first honest entry for the question under repair, and they do not create a second normative process history.
 
 The "On-Ramp First" Macro-Structure: The specification is ordered to create a smooth cognitive ramp:
 * It begins with an informal, non-normative Preface (The On-Ramp), which uses storytelling and concrete examples (System and Episteme) to build intuition.
@@ -99,7 +99,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 | **CC‑DA.1** | Each Part **SHALL** open with a one‑paragraph situational “hook” before formal text. |
 | **CC‑DA.2** | Every architectural pattern **MUST** implement Tell‑Show‑Show: universal rule plus System & Episteme illustrations. |
 | **CC‑DA.3** | Governance patterns (**Part E**) **SHALL NOT** appear before the Kernel in the main document flow. |
-| **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry guidance; entry-neighborhood and worked-reading guidance are informative and MAY cross Parts without implying a universal process history. |
+| **CC‑DA.4** | Navigation aids **SHALL** distinguish document order from first-practical entry guidance; first-entry pattern-comparison guidance and expanded entry-disambiguation cases are informative and MAY cross Parts without implying a universal process history. |
 
 ### E.6:7 - Consequences
 

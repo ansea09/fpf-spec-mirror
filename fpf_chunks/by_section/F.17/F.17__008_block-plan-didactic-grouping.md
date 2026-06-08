@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Block Plan (didactic grouping)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_block-plan-didactic-grouping.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:7 — Block Plan (didactic grouping)"
-line_start: 74503
-line_end: 74515
+line_start: 74817
+line_end: 74829
 dependencies:
   - "A.1.1"
   - "A.11"

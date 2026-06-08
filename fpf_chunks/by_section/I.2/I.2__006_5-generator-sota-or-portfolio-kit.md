@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Detailed Walk-throughs"
+pattern_title: "Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".5 - Generator, SoTA, or Portfolio Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__006_5-generator-sota-or-portfolio-kit.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "I.2 — Detailed Walk-throughs"
+  - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .5 - Generator, SoTA, or Portfolio Kit"
-line_start: 82461
-line_end: 82484
+line_start: 82777
+line_end: 82800
 dependencies:
 keywords:
 ---
@@ -21,7 +21,7 @@ keywords:
 - **Case signal:** "We need a reusable search/harvest/portfolio scaffold, not
   one recommendation."
 - **Posture:** compact-index-only is normally sufficient unless repeated
-  misclassification makes a worked reading necessary.
+  misclassification makes an expanded entry-disambiguation case necessary.
 - **Initial uncertainty:** the reader can confuse generator/scaffold authoring
   with one-off recommendation, one comparison, one selected-set publication, or
   tooling choice.

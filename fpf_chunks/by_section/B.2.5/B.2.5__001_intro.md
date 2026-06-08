@@ -6,12 +6,12 @@ section_id: "B.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:intro — Intro"
-line_start: 31214
-line_end: 31218
+line_start: 31248
+line_end: 31252
 dependencies:
   - "A.1"
   - "A.12"

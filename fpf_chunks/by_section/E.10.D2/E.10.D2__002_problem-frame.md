@@ -6,12 +6,12 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 60119
-line_end: 60146
+line_start: 60420
+line_end: 60447
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -49,7 +49,7 @@ The first useful move is to ask five questions:
 4. Is specification use admitted by explicit checkability, acceptance, validation, formality, or harness conditions, or is this only a Description episteme?
 5. Which neighboring FPF pattern carries any publication, carrier, evidence, assurance, gate, decision, commitment, promise, work, view, bridge, retargeting, or state-family claim?
 
-Not this pattern when the live question is already an exact evidence path, assurance claim, gate decision, commitment, work occurrence, bridge, representation transition, source relation, or state-family field. Use the exact neighboring pattern for that claim and use E.10.D2 only to keep the EntityOfConcern, Description episteme, and specification-use boundary readable.
+Not this pattern when the question under repair is already an evidence path named by value, assurance claim, gate decision, commitment, work occurrence, bridge, representation transition, source relation, or state-family field. Use the neighboring pattern governing that claim for that claim and use E.10.D2 only to keep the EntityOfConcern, Description episteme, and specification-use boundary readable.
 
 FPF frequently has to say that some item is being described: a role, method, system, work occurrence, promise content, characteristic, architecture, episteme, view, or another FPF entity. The old short memory of "thing / words / rules" remains useful, but it becomes harmful when it is taught as three peer kinds.
 
@@ -64,4 +64,4 @@ This matters whenever wording such as `RoleDescription`, `ArchitectureDescriptio
 
 What goes wrong if E.10.D2 is missed: specification-looking words become authority, a publication becomes the thing described, a file becomes the method, an approval state over an episteme becomes a runtime state, or two descriptions with the same label are treated as the same EntityOfConcern across contexts.
 
-What E.10.D2 buys in practice: the practitioner can name the item under concern, keep the Description episteme inspectable, admit specification use only when checkability exists, and send every other live claim to the exact FPF pattern that carries it.
+What E.10.D2 buys in practice: the practitioner can name the item under concern, keep the Description episteme inspectable, admit specification use only when checkability exists, and send every other claim being made to the governing FPF pattern that carries it.

@@ -6,12 +6,12 @@ section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 62512
-line_end: 62534
+line_start: 62821
+line_end: 62844
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -59,3 +59,4 @@ If a legacy practice uses one label interchangeably for a viewpoint family, a re
 #### E.17.1:17.4 - Boundary to annex growth
 
 Annex manifests are useful, but a bundle should not become a thin shell hiding all of its meaning elsewhere. The core bundle still needs enough explicit member and family structure to stand on its own. Annexes deepen reuse; they do not replace the bundle's primary declaration.
+

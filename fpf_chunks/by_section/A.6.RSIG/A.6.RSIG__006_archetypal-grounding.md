@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:5 — Archetypal grounding"
-line_start: 7468
-line_end: 7559
+line_start: 7476
+line_end: 7567
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -93,7 +93,7 @@ Why the cue is not enough yet:
 - the method note can be mistaken for the defining `U.Episteme` of selection
   semantics;
 - a team can prematurely choose `C.11` or `G.5` before knowing what kind of
-  comparison entry load is actually live.
+  comparison entry load is actually being made.
 
 Recognition repair:
 

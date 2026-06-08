@@ -6,12 +6,12 @@ section_id: "C.19:5.1"
 section_title: "System grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__011_system-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:5.1 — System grounding"
-line_start: 43231
-line_end: 43241
+line_start: 43277
+line_end: 43287
 dependencies:
   - "B.3"
   - "C.11"
@@ -47,4 +47,4 @@ A SoTA pack often compares traditions that stay non-dominated for different reas
 
 #### C.19:5.3 - Collective and contextual grounding
 
-A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. The practical point is that `C.19` governs that pool-treatment decision only while the live question is still about the live set; once the result must become one local choice, one enactment plan, or one published selected set, reroute immediately.
+A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. The practical point is that `C.19` governs that pool-treatment decision only while the question under repair is still about the live set; once the result must become one local choice, one enactment plan, or one published selected set, reroute immediately.

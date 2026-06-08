@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 53561
-line_end: 53706
+line_start: 53711
+line_end: 53857
 dependencies:
   - "A.10"
   - "A.20"
@@ -42,7 +42,7 @@ keywords:
 
 ### C.30.LCA:4 - Solution
 
-Treat LCA-like material as a control-structure view under `C.30`. Recover the described architecture claim, the selected control structure or control-structure relation set, the control roles, the control relations, the relevant rate bands or recovered control-layer labels, and the boundary refs that make the view checkable. If the source label is not yet control-specific, apply `C.30.STRAT` before C.30.LCA receives the case. Then state the admissible use and the non-admissible overread.
+Treat LCA-like material as a control-structure view under `C.30`. Recover the described architecture claim, the selected control structure or control-structure relation set, the control roles, the control relations, the relevant rate bands or recovered control-layer labels, and the boundary refs that make the view checkable. If the source label is not yet control-specific, apply `C.30.STRAT` before applying C.30.LCA to the case. Then state the admissible use and the non-admissible overread.
 
 The ordinary minimum may stop with a compact `ControlStructureViewNote`:
 
@@ -53,16 +53,16 @@ ControlStructureViewNote:
   one control relation:
   loop state: closed | one-way | unclear:
   control-layer or rate label recovered?: yes | no | C.30.STRAT needed:
-  boundary refs live?: observation | actuation | feedback | externality | not live:
-  proof, evidence, causal, gate, or assurance governing pattern if live:
+  boundary refs used?: observation | actuation | feedback | externality | not used:
+  governing pattern for proof, evidence, causal, gate, or assurance claim, if that claim is being made:
   admissibleUse:
   nonAdmissibleUse:
   stop condition:
 ```
 
-Use `rateBandRefs?`, `controlLayerRefs?`, and `externalityBoundaryRefs?` only when rate, recovered control-layer, or externality wording carries a live control-structure claim. Otherwise the ordinary note may stop after one control relation, loop state, and the exact proof-governing pattern application if that claim is live. Generic stratification labels stay with `C.30.STRAT` until recovered.
+Use `rateBandRefs?`, `controlLayerRefs?`, and `externalityBoundaryRefs?` only when rate, recovered control-layer, or externality wording carries a control-structure claim being made. Otherwise the ordinary note may stop after one control relation, loop state, and the proof-governing pattern application named by value if that claim is being made. Generic stratification labels stay with `C.30.STRAT` until recovered.
 
-When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` opens only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claim kinds.
+When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claim kinds.
 
 ```text
 InterLayerControlRelationNote:
@@ -76,7 +76,7 @@ InterLayerControlRelationNote:
   nonAdmissibleUse:
 ```
 
-Open this note only when a recovered control-layer relation is used for decomposition, substitution, safety or stability claim, or architecture decision claim. It is not proof. Otherwise keep C.30.LCA at the small note or ordinary view form, or return the source label to `C.30.STRAT`.
+Use this note only when a recovered control-layer relation is used for decomposition, substitution, safety or stability claim, or architecture decision claim. It is not proof. Otherwise keep C.30.LCA at the small note or ordinary view form, or return the source label to `C.30.STRAT`.
 
 ```text
 ControlStructureView@Context ::= {
@@ -134,7 +134,7 @@ ControlStructureView@Context ::= {
 
 #### C.30.LCA:4.0a - Safety-loss control-structure note
 
-Use a `SafetyLossControlStructureNote` only when safety wording is live and the practitioner first needs the architecture-side loss-control structure, not a safety-case verdict:
+Use a `SafetyLossControlStructureNote` only when safety wording is being used for a loss-control claim and the practitioner first needs the architecture-side loss-control structure, not a safety-case verdict:
 
 ```text
 SafetyLossControlStructureNote:
@@ -171,18 +171,19 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 | Observer or estimator | Role or method producing state estimates, observations, or evidence-facing readouts. |
 | Supervisor | Role or method governing subordinate holons, gates, policy changes, or control-mode changes. |
 
-**Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-specific item: `controlLayerRef`, `controlRoleRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, and, where live, `B.2.5` supervisor-subholon relation. Generic system level, aggregation scope, organization level, work or evidence scope, scale window, coarse-graining, deployment tier, and publication section do not stay in C.30.LCA. A layer label is not a control structure, not a system level, not a rate band, and not evidence of separation by itself.
+**Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-specific item: `controlLayerRef`, `controlRoleRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, and, where the supervisor-subholon relation is being claimed, `B.2.5` supervisor-subholon relation. Generic system level, aggregation scope, organization level, work or evidence scope, scale window, coarse-graining, deployment tier, and publication section do not stay in C.30.LCA. A layer label is not a control structure, not a system level, not a rate band, and not evidence of separation by itself.
 
 **B.2.5 boundary.** `B.2.5` remains the supervisor-subholon feedback-loop check pattern. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon loop is part of the control view. It does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, the acting `Transformer`, publication or review practice, and publication relation, source relation, or reliance relation are named; an episteme does not sense, judge, plan, adapt, or act as an agent.
 
-**TGA boundary.** A TGA path slice may supply flow-structure or transduction-structure input to the control view when flow or transduction relation is live. The TGA graph remains a description or view of flow or transduction structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
+**TGA boundary.** A TGA path slice may supply flow-structure or transduction-structure input to the control view when a flow or transduction relation is being used. The TGA graph remains a description or view of flow or transduction structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 
-**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is live, use `MathLensUse.FullCard` or at least `MathLensUse.MiniCard`. Dynamics, temporal adequacy, and causal claims are still assigned to `A.3.3`, `C.27`, and `C.28`.
+**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is being claimed, use `MathLensUse.FullCard` or at least `MathLensUse.MiniCard`. Dynamics, temporal adequacy, and causal claims are still assigned to `A.3.3`, `C.27`, and `C.28`.
 
 **Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
 
 **Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Safety and assurance claims use `B.3`, evidence to `A.10` or `G.6`, temporal adequacy to `C.27`, and dynamics or stability claims use `A.3.3` or the appropriate dynamics claim.
 
-**Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. `C.30.LCA` receives the case only after the stack label has been recovered as control roles, relations, and rate bands; otherwise the label first goes to `C.30.STRAT`. C.30.LCA does not claim rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, the next admissible move is `C.27` plus dynamics or assurance claim as live.
+**Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` to the case only after the stack label has been recovered as control roles, relations, and rate bands; otherwise the label is recovered first by `C.30.STRAT`. C.30.LCA does not claim rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, the next admissible move is `C.27` plus the dynamics or assurance pattern named by value when that claim kind is being made.
 
 **Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller that changes allowed modes. `C.30.LCA` records the supervisor-subholon relation and may reference `B.2.5`. If the text claims that this loop authorizes work, passes a gate, or proves a policy constraint, the claim uses `A.15`, `A.20`, or `A.21`.
+

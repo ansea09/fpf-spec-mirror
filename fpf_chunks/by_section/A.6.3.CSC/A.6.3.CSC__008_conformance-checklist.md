@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:7 — Conformance Checklist"
-line_start: 10465
-line_end: 10494
+line_start: 10476
+line_end: 10505
 dependencies:
   - "A.15"
   - "A.20"
@@ -63,7 +63,7 @@ A conformance check is retained only if it changes the next admissible use of th
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-7 (Use-specific assurance).** | Claim-bearing cases SHALL add only the admissibility fields needed for the live use, dispute, or reliance case. | Keeps the assurance section tied to real risk. |
+| **CC-CSC-7 (Use-specific assurance).** | Claim-bearing cases SHALL add only the admissibility fields needed for the use under repair, dispute, or reliance case. | Keeps the assurance section tied to real risk. |
 | **CC-CSC-8 (Branch and use split).** | Load-bearing or disputed cases SHALL keep `coarseningBranch` and `admissibleUseValue` separate. | Prevents the coarsening branch from implying source-loss mode or authority. |
 | **CC-CSC-9 (Source-loss mode and recoverability).** | Cases affecting claim admissibility, accountability, admissible-use value, or later citation SHALL state source-loss mode and recoverability class. | Prevents recoverability from being mistaken for admissible use. |
 | **CC-CSC-10 (Coarsening-chain continuity).** | A coarsening chain SHALL satisfy `CSC-WF-3` or reopen the source-bearing side. | Prevents provenance reset by repeated summarization. |

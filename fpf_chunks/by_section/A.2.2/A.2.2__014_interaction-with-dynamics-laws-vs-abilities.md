@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Interaction with Dynamics (laws vs. abilities)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_interaction-with-dynamics-laws-vs-abilities.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:13 — Interaction with Dynamics (laws vs. abilities)"
-line_start: 2490
-line_end: 2497
+line_start: 2497
+line_end: 2504
 dependencies:
   - "A.1"
   - "A.1.1"

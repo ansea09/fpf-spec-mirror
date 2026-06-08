@@ -6,12 +6,12 @@ section_id: "C.28:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__016_c-29-mathematical-lens-use-relation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:12a — C.29 mathematical-lens use relation"
-line_start: 50162
-line_end: 50165
+line_start: 50212
+line_end: 50215
 dependencies:
   - "A.10"
   - "A.15"

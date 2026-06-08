@@ -6,12 +6,12 @@ section_id: "B.1.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.2 — System‑specific Aggregation Γ\\_sys"
   - "B.1.2:intro — Intro"
-line_start: 29260
-line_end: 29394
+line_start: 29288
+line_end: 29422
 dependencies:
   - "A.1"
   - "A.3"

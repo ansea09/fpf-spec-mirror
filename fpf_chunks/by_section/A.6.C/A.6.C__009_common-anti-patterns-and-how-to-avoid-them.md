@@ -6,12 +6,12 @@ section_id: "A.6.C:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8605
-line_end: 8616
+line_start: 8615
+line_end: 8626
 dependencies:
   - "A.15.1"
   - "A.2.3"

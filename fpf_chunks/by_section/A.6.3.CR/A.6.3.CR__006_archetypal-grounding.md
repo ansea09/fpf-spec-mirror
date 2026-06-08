@@ -6,18 +6,16 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 10817
-line_end: 10898
+line_start: 10828
+line_end: 10909
 dependencies:
   - "A.15"
   - "A.6.2"
   - "A.6.3"
-  - "A.6.3.CSC"
-  - "A.6.3.RT"
   - "A.6.4"
   - "A.7"
   - "B.5.2"
@@ -25,7 +23,6 @@ dependencies:
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
@@ -64,7 +61,7 @@ This stays ordinary `ConservativeRetextualization` because the omission is decla
 
 **Published summary slice.** `For small-batch material X below T, method M-2 is the selected method. Work plan WP-17 and result measurement RM-4 remain required.`
 
-This remains `ConservativeRetextualization` because it is a textual restatement of the same source-episteme claims and it keeps the work-planning and result-measurement requirements visible. It is admissible for interpretation and source-finding. It does not by itself provide performed `U.Work`, evidence, gate passage, engineering justification, or control architecture. If the summary drops the work-plan and result-measurement requirements or makes the selected method look executable by summary alone, treat the text as `A.6.3.CSC Controlled Semantic Coarsening` or recover the exact project-side FPF kind and reference that actually makes the requested use admissible.
+This remains `ConservativeRetextualization` because it is a textual restatement of the same source-episteme claims and it keeps the work-planning and result-measurement requirements visible. It is admissible for interpretation and source-finding. It does not by itself provide performed `U.Work`, evidence, gate passage, engineering justification, or control architecture. If the summary drops the work-plan and result-measurement requirements or makes the selected method look executable by summary alone, treat the text as `A.6.3.CSC Controlled Semantic Coarsening` or recover the project-side FPF kind and reference named by value that actually makes the requested use admissible.
 
 #### A.6.3.CR:5.1.d - Generated-summary source-relation variant
 
@@ -82,9 +79,9 @@ A generated or machine-assisted summary may stay in `ConservativeRetextualizatio
 
 When the generated-summary case needs the shared vocabulary rather than this CR-local question list, read the source relation through `E.17:5.1b`: `source-pointer-only`, `source-available`, `source-retrieved`, `source-used`, `source-faithful`, `claim-admissible`, `claim-non-admissible`, `claim-contradicted`, `claim-plausible-only`, `source-omitted`, `source-loss-declared`, `claim-widened`, `added-linkage`, `independent-verification-present`, `admissible-for-this-use`, `downstream-use-forbidden`, and `reopen-trigger-present`.
 
-The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the source slice or required exact project-side FPF kind and reference is missing, a repair request or source-gap note is only prospective; it does not retroactively make the earlier summary source-relation-admissible.
+The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the source slice or required project-side FPF kind and reference named by value is missing, a repair request or source-gap note is only prospective; it does not retroactively make the earlier summary source-relation-admissible.
 
-If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. Either keep it as source-finding/orientation, repair it against the source, or hand off to `A.6.3.CSC`, `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `E.17.ID.CR`, `A.15`, `A.10`, or another exact governing pattern according to the live claim.
+If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. Either keep it as source-finding/orientation, repair it against the source, or hand off to `A.6.3.CSC`, `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `E.17.ID.CR`, `A.15`, `A.10`, or another governing pattern according to the claim being made.
 
 #### A.6.3.CR:5.2 - Same-EntityOfConcern rewrite via declared correspondence
 

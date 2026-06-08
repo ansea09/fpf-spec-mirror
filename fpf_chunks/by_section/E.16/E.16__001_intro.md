@@ -6,12 +6,12 @@ section_id: "E.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:intro — Intro"
-line_start: 61606
-line_end: 61613
+line_start: 61913
+line_end: 61920
 dependencies:
   - "A.13"
   - "A.15"

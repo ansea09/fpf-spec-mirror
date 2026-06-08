@@ -6,12 +6,12 @@ section_id: "A.6.P:11"
 section_title: "SoTA‑Echoing (informative; post‑2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)"
-line_start: 12729
-line_end: 12741
+line_start: 12740
+line_end: 12752
 dependencies:
   - "A.10"
   - "A.2.4"

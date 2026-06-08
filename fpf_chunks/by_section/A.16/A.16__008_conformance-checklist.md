@@ -6,12 +6,12 @@ section_id: "A.16:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:7 — Conformance Checklist"
-line_start: 21314
-line_end: 21325
+line_start: 21339
+line_end: 21350
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

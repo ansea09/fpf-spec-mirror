@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_invariants.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 60222
-line_end: 60239
+line_start: 60523
+line_end: 60540
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -53,5 +53,5 @@ keywords:
 
 **D2-7 (No label-only cross-context sameness).** Identical labels in two bounded contexts or viewpoints do not establish sameness. Use F.9 bridges, A.6.3 views, or A.6.4 retargeting as appropriate.
 
-**D2-8 (ReferencePlane reservation).** Do not call this distinction a plane. Use `ReferencePlane` only where CHR or another exact pattern defines that field.
+**D2-8 (ReferencePlane reservation).** Do not call this distinction a plane. Use `ReferencePlane` only where CHR or another governing pattern defines that field.
 

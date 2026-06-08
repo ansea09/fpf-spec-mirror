@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-on-ramp-to-archetypes-first-authoring-last-sequence.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:4 — Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
-line_start: 56514
-line_end: 56549
+line_start: 56798
+line_end: 56833
 dependencies:
   - "E.2"
 keywords:
@@ -27,7 +27,7 @@ keywords:
 
 #### E.6:4.0 - Document order is distinct from first-practical entry
 
-The macro-order of the document is a didactic scaffold, not a universal practical workflow. Entry navigation surfaces such as the `Preface`, `J.4`, entry-neighborhood governing patterns, and worked entry readings are informative navigation only: they may cross Parts when that is the first honest entry for the live question, and they do not create a second normative process history.
+The macro-order of the document is a didactic scaffold, not a universal practical workflow. Entry navigation surfaces such as the `Preface`, `J.4`, first-entry pattern-comparison rows, and expanded entry-disambiguation cases are informative navigation only: they may cross Parts when that is the first honest entry for the question under repair, and they do not create a second normative process history.
 
 The "On-Ramp First" Macro-Structure: The specification is ordered to create a smooth cognitive ramp:
 * It begins with an informal, non-normative Preface (The On-Ramp), which uses storytelling and concrete examples (System and Episteme) to build intuition.

@@ -6,12 +6,12 @@ section_id: "A.2.2:18"
 section_title: "Didactic quick cards (reuse in specs and slides)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__019_didactic-quick-cards-reuse-in-specs-and-slides.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:18 — Didactic quick cards (reuse in specs and slides)"
-line_start: 2532
-line_end: 2537
+line_start: 2539
+line_end: 2544
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:4 — Solution"
-line_start: 19459
-line_end: 19570
+line_start: 19483
+line_end: 19594
 dependencies:
   - "A.10"
   - "A.12"
@@ -142,9 +142,9 @@ Every `CheckpointReturn` should carry:
 - the evidence observed on each tested approach, including progress toward the named work-measure threshold and important failure signals
 - the budget already burned and the residual budget still available
 - the recommended next work move or reliance move: continue probing, commit to planned work, narrow the method or claim, hand off, or stop
-- the exact commit trigger that would justify leaving the bounded probe
+- the commit trigger named by value that would justify leaving the bounded probe
 
-The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution-evidence path, or rollout decision. Those claims need the exact project-side FPF kind and reference before committed rollout.
+The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution-evidence path, or rollout decision. Those claims need the project-side FPF kind and reference named by value before committed rollout.
 
 Low-human-overlap approaches remain admissible here only while they stay tied to the declared outcome criterion, budget guard rails, and evidence path by value.
 
@@ -152,7 +152,7 @@ Low-human-overlap approaches remain admissible here only while they stay tied to
 
 Use `A.15.4` when an encountered episteme, episteme publication, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain is being used by appearance for a work claim, reliance claim, role/status currentness claim, approval, permission, gate passage, evidence, engineering justification, release reliance, or performed `U.Work`.
 
-`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which exact project-side FPF kind and reference must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the exact source pattern named there.
+`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which project-side FPF kind and reference named by value must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the source-restoration pattern governing that reliance named there.
 
 A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable may help the team plan work or find the needed source. It does not replace the selected method, `U.WorkPlan`, performed `U.Work`, evidence path, gate or decision record, engineering-justification record, or release-reliance source.
 

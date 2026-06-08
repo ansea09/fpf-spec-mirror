@@ -6,12 +6,12 @@ section_id: "C.2.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:10 — Rationale"
-line_start: 36050
-line_end: 36053
+line_start: 36085
+line_end: 36088
 dependencies:
   - "A.16"
   - "A.18"

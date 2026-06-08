@@ -6,12 +6,12 @@ section_id: "E.10.D2:5"
 section_title: "Naming discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_naming-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:5 — Naming discipline"
-line_start: 60212
-line_end: 60221
+line_start: 60513
+line_end: 60522
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -43,7 +43,7 @@ keywords:
 
 **Reserved suffix.** Use `...Spec` only for a Description episteme admitted for specification use. Do not use `Spec` as a synonym for "detailed", "important", "official-looking", "formal-looking", or "stored in a schema".
 
-**Entity names.** Use the bare exact FPF kind for the EntityOfConcern: `Role`, `Method`, `System`, `Architecture`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Do not append `Description`, `Spec`, `Card`, `View`, or `Carrier` unless the episteme, view, publication, or carrier is the actual EntityOfConcern.
+**Entity names.** Use the bare FPF kind named by value for the EntityOfConcern: `Role`, `Method`, `System`, `Architecture`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another kind named by value. Do not append `Description`, `Spec`, `Card`, `View`, or `Carrier` unless the episteme, view, publication, or carrier is the actual EntityOfConcern.
 
 **DescriptionContext names.** Use `EntityOfConcernRef`, `BoundedContextRef`, and `ViewpointRef` for Description episteme addressing. Do not revive `DescribedEntityRef`, `EntityOfInterest`, or peer-layer I-D-S wording.
 

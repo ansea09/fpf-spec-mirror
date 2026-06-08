@@ -6,12 +6,12 @@ section_id: "C.29:13b"
 section_title: "Source-use boundary notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__017_source-use-boundary-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13b — Source-use boundary notes"
-line_start: 51411
-line_end: 51417
+line_start: 51515
+line_end: 51522
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -70,3 +73,4 @@ keywords:
 3. `SAND-THREAD-MATH-LINKS-2026-05-12` is a recognition cue, not a mathematical proof source or FPF law.
 4. CLT-as-RG or fixed-point wording is retained only as a structural modeling viewpoint. A safe formulation is: under the usual normalization, the Gaussian is an attractive fixed point for finite-variance distributions; other stable laws are other fixed points under suitable normalization.
 5. The intake correction from direct identification to structure-preserving representation is selected and becomes a central ontology guard.
+

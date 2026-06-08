@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
-line_start: 30299
-line_end: 30572
+line_start: 30327
+line_end: 30606
 dependencies:
   - "A.12"
   - "A.14"
@@ -48,6 +48,7 @@ FPF distinguishes **what is done** from **what it costs** to do it.
   **Work** is the dated run‑time **occurrence** of enacting a MethodDescription by a performer under a `U.RoleAssignment` (A.15). In this pattern we treat Work under its **spent‑resource facet**: the typed delta we can account for across a declared boundary and time window. Γ\_work defines how those deltas compose across parts and phases.
 
 This separation makes models auditable and prevents category errors: **Γ\_method** composes *design‑time coordination* (a process view); **Γ\_work** composes *run‑time Work ledgers* (and never smuggles order semantics).
+
 ### B.1.6:2 - Problem
 
 Without a dedicated algebra for spent resources, models drift into four errors:
@@ -76,6 +77,7 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 * **Work (U.Work)** — a run‑time **occurrence**: dated enactment of a MethodDescription by a performer under a `U.RoleAssignment`. In this pattern, **Work** is treated under its *spent‑resource ledger* facet; composed by **Γ\_work**.
 * **Transformer (T)** — a `U.System` playing the executing and/or auditing role for Work’s accounting (A.12); transformer identity belongs in the **Boundary Ledger**.
 * **Mereology for resources (A.14):** use `PortionOf` for **quantitative splits** and `PhaseOf` for **time‑slices**; **do not** use `MemberOf` for resource stocks.
+
 ### B.1.6:5 - Solution — The Γ\_work Operator
 
 **Intent.** Provide a universal, conservative way to compose resource spending across parts and steps, without talking about control‑flow (that is Γ\_method’s job).
@@ -95,6 +97,7 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 * **Result W_tot — U.Work.** A composite Work whose **resource ledger** is the Γ_work fold of the input ledgers (plus any declared overheads/residuals). It is accompanied by a **Boundary Ledger** (see §5.3) and references its parts for auditability.
 
 > **Do not confuse:** Γ\_work neither schedules nor orders steps; it composes **resource deltas attached to Work**. If you need order, use Γ\_method at design‑time and Work’s run‑time relations (`precedes`, `PhaseOf`, `overlaps`) with Γ\_time for temporal coverage.
+
 #### B.1.6:5.2 - What counts as “Work”
 
 Work is defined **with respect to a declared boundary** of the holon being transformed or assembled:
@@ -125,6 +128,7 @@ Every Γ\_work result **MUST** include a **Boundary Ledger**:
 * **(v) Accounting authority:** identity of the system(s) that executed, metered, and/or audited the reported ledgers (often the performer/transformer per Work part, plus the aggregator for a roll‑up).
 
 This ledger is what makes cross‑model Work totals comparable and auditable (A.10).
+
 #### B.1.6:5.4 - The invariant quintet instantiated (overview)
 
 Γ\_work preserves B.1 invariants; the detailed proofs and corner cases are in Part 2.
@@ -133,6 +137,7 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 * **COMM / LOC (local commutativity / locality):** For **independent** boundary/stock partitions, composed Work is additive and independent of local fold order.
 * **WLNK (weakest‑link bound):** Effective Work is capped by the scarcest **critical** input on the boundary (no Work can exceed available supply).
 * **MONO (monotonicity):** Increasing an available resource cannot decrease Work (for the same boundary and time window); decreasing dissipation or improving η cannot reduce feasibility.
+
 #### B.1.6:5.5 - How Γ\_work relates to Methods (and to Γ\_method)
 
 * **Design‑time:** `M_spec` (a `U.MethodDescription`) may declare an intended yield **η** and admissible equivalences between resource types (e.g., heat→mechanical). These are **assumptions** until validated by run‑time Work.
@@ -140,6 +145,7 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 * **Sequencing:** If multiple MethodDescriptions are ordered/branched (process view), use **Γ\_method** to define that coordination at design‑time. At run‑time, model the corresponding segments as Work parts and fold them with Γ\_work (Work adds in serial and parallel), while time coverage is handled by Γ\_time.
 
 > **Didactic tip:** Think of **Γ\_method** as the **coordination story**, and **Γ\_work** as the **receipt of what it cost**, both anchored to the same boundary and time window.
+
 ### B.1.6:6 - Fold rules (how Γ\_work composes)
 
 #### B.1.6:6.1 - Boundary partition (across parts of a whole)

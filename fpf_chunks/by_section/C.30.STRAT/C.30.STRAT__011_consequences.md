@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__011_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:9 — Consequences"
-line_start: 52815
-line_end: 52822
+line_start: 52961
+line_end: 52968
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 | Benefit | Trade-off or mitigation |
 | --- | --- |
-| Source labels remain usable recognition cues without becoming root kinds. | The reader pays one recovery-row cost only when FPF-governed use is live; ordinary prose closes cheaply. |
+| Source labels remain usable recognition cues without becoming root kinds. | The reader pays one recovery-row cost only when FPF-governed use is being made; ordinary prose closes cheaply. |
 | Subject patterns avoid copied trigger registries. | Subject patterns need accurate thin pointers to `C.30.STRAT` and still keep their own invariants precise. |
-| Architecture wording no longer captures relation, evidence, assurance, gate, work, decision, publication, state, or mathematical-lens claims by sound. | The repair may open several exact governing patterns when one sentence compresses several claims; the benefit is that each claim remains governed by its exact pattern. |
+| Source-label wording no longer captures non-source-label claims by sound. | The repair may name several governing patterns when one sentence compresses several claims; the benefit is that each claim remains governed by its governing pattern. |
 

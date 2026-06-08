@@ -6,12 +6,12 @@ section_id: "E.18.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__012_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:11 — SoTA-Echoing"
-line_start: 66742
-line_end: 66752
+line_start: 67053
+line_end: 67063
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,5 +57,5 @@ keywords:
 | Model-based engineering and systems practice separates model, view, requirement, evidence, and execution records because each has different authority. | A useful diagram or view can classify the next relation without changing the governed kind. | P2W separates graph, view, publication, evidence, gate, and work applications before the next move. | The practitioner can use a diagram as thinking material without letting the diagram authorize work, prove readiness, or settle evidence. | The project source, architecture-description relation, evidence relation, gate relation, or release relation changes. |
 | Traceability and digital-thread practice values continuity from problem, rationale, method, plan, work, and result while keeping record kinds distinct. | A trace is useful only when each record kind remains named. | P2W carries problem-side material through a replayable carry-through record while keeping problem card, work plan, performed work, evidence, provenance, result, and refresh relations distinct. | The team can replay a path from problem to work without treating trace continuity as evidence, approval, or performed work. | Source restoration, provenance, refresh, or work-family law changes the currentness relation. |
 | Formal-methods and mathematical-modeling practice uses `U.Signature(profile=FormalSubstrate)` declarations to preserve invariants, expose lost structure, and make equivalence conditions explicit. | Mathematical value is recoverable only through preserved structure, lost structure, payoff, and stop condition. | P2W separates mathematical-lens use from the `U.Signature(profile=FormalSubstrate)` declaration and from empirical, work, evidence, or authorization claims. | A mathematical idea helps choose the next disciplined move without becoming proof of real-world identity or permission to act. | Mathematical-lens, signature, bridge, measurement, normalization, comparison, or source-currentness assumptions change. |
-| Assurance, safety, evidence, gate, and decision practice treats confidence, acceptance, validation, approval, and release as distinct relations. | Labels and readiness phrases are cues, not local authority. | P2W preserves the cue, recovers the relation, and stops local authority until the governed relation is live. | A warning, green label, or approval note remains useful without becoming an evidence case, gate record, decision, or release. | Evidence, assurance, gate, conformance, release, work-entry, or decision relation changes. |
+| Assurance, safety, evidence, gate, and decision practice treats confidence, acceptance, validation, approval, and release as distinct relations. | Labels and readiness phrases are cues, not local authority. | P2W preserves the cue, recovers the relation, and stops local authority until the governed relation is being made. | A warning, green label, or approval note remains useful without becoming an evidence case, gate record, decision, or release. | Evidence, assurance, gate, conformance, release, work-entry, or decision relation changes. |
 

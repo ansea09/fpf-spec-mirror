@@ -6,12 +6,12 @@ section_id: "A.15.4:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__005_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:4 — Conformance Checklist"
-line_start: 21150
-line_end: 21157
+line_start: 21175
+line_end: 21182
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 | ID | Requirement (Normative Predicate) | Purpose and Rationale |
 | :--- | :--- | :--- |
-| **CC-A15.4-1 (Work-relevant source restoration)** | Before an authority-looking case guides work or reliance, a conforming `A.15.4` use SHALL produce the ordinary source-restoration note: encountered item, live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, pattern that governs the live claim or effect, exact project-side FPF kind and reference needed, admissible next project move now, and blocked overread. It SHALL name the pattern and project-side reference that carry the requested claim or effect; if that source is absent or stale, it SHALL lower only the unsupported reliance to orientation, source-finding, contested use, source repair, bounded reversible probe, or blocked unsupported claim. | Prevents appearance-based reliance while keeping ordinary use cheap. |
-| **CC-A15.4-2 (P2W publication use boundary)** | A principle scheme, functional diagram, scenario, screen, or explanation that exposes a P2W chain may guide only the exact `A.15` work or planning kind named by the project use: method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result measurement. Claims outside that named use require their own exact project-side FPF kinds and references. | Keeps P2W publication use tied to the live work move instead of turning publication form into project authority. |
-| **CC-A15.4-3 (Lowering and refresh)** | When the pattern that governs the live claim or effect, exact project-side FPF kind and reference, source-currentness relation, revocation relation, affected work item, relying context, or time window cannot be recovered, the work or reliance claim SHALL be lowered to orientation, source-finding, contested use, bounded reversible probe, source-repair request, or blocked unsupported claim. Refresh is required when source currentness, revocation, governing decision, evidence path, status register, copied-source relation, generated-source relation, or publication relation changes. | Keeps A.15.4 useful without admitting a new source kind. |
+| **CC-A15.4-1 (Work-relevant source restoration)** | Before an authority-looking case guides work or reliance, a conforming `A.15.4` use SHALL produce the ordinary source-restoration note: encountered item, live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, pattern that governs the claim being made or effect, project-side FPF kind and reference named by value needed, admissible next project move now, and blocked overread. It SHALL name the pattern and project-side reference that carry the requested claim or effect; if that source is absent or stale, it SHALL lower only the unsupported reliance to orientation, source-finding, contested use, source repair, bounded reversible probe, or blocked unsupported claim. | Prevents appearance-based reliance while keeping ordinary use cheap. |
+| **CC-A15.4-2 (P2W publication use boundary)** | A principle scheme, functional diagram, scenario, screen, or explanation that exposes a P2W chain may guide only the exact `A.15` work or planning kind named by the project use: method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result measurement. Claims outside that named use require their own project-side FPF kinds and references named by value. | Keeps P2W publication use tied to the live work move instead of turning publication form into project authority. |
+| **CC-A15.4-3 (Lowering and refresh)** | When the pattern that governs the claim being made or effect, project-side FPF kind and reference named by value, source-currentness relation, revocation relation, affected work item, relying context, or time window cannot be recovered, the work or reliance claim SHALL be lowered to orientation, source-finding, contested use, bounded reversible probe, source-repair request, or blocked unsupported claim. Refresh is required when source currentness, revocation, governing decision, evidence path, status register, copied-source relation, generated-source relation, or publication relation changes. | Keeps A.15.4 useful without admitting a new source kind. |
 

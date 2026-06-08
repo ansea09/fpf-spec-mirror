@@ -6,12 +6,12 @@ section_id: "C.30.ILC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:2 — Problem"
-line_start: 53820
-line_end: 53829
+line_start: 53972
+line_end: 53981
 dependencies:
   - "A.10"
   - "A.22"
@@ -44,9 +44,9 @@ keywords:
 
 Architecture work often starts from a residual: a local fix works in one declared holon level or declared scope and fails in another. Component optimization increases whole-holon or product-line integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return obligation.
 
-The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the live claim, that residual exits to `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is live; to `C.31.ASAP` when architecture scale preference over declared alternatives is live; or to `G.5` or an admitted architecture synthesis governing pattern for candidate architecture moves. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
+The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the claim being made, that residual is governed by `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is being claimed; by `C.31.ASAP` when architecture scale preference over declared alternatives is being claimed; or by `G.5` when residual-reducing candidate architecture moves form a candidate set being used. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
 
-Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, use mathematical frustration language as proof, or open a new architecture synthesis effort too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or exact governing pattern application.
+Without a pattern, teams either discuss the residual as vague `complexity`, treat it as ordinary stakeholder conflict, jump into measurement, use mathematical frustration language as proof, or jump to candidate generation too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or governing-pattern application.
 
-The practical work is often not to draw another view. It is to assign the residual to the exact locus that can bear it: declared holon level, declared scope, level-bearing selected structure, structure kind, constraint, characteristic or Q-bundle, evidence-reuse boundary, source-return condition, or non-architecture claim kind.
+The practical work is often not to draw another view. It is to assign the residual to the locus named by value that can bear it: declared holon level, declared scope, level-bearing selected structure, structure kind, constraint, characteristic or Q-bundle, evidence-reuse boundary, source-return condition, or non-architecture claim kind.
 

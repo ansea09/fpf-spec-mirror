@@ -6,12 +6,12 @@ section_id: "G.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:10 — Rationale"
-line_start: 77420
-line_end: 77424
+line_start: 77733
+line_end: 77737
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

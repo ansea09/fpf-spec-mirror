@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_admission-and-extraction-criterion.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 59793
-line_end: 59809
+line_start: 60094
+line_end: 60110
 dependencies:
   - "A.17"
   - "A.18"
@@ -52,11 +52,11 @@ Add or retain a `WordingUseRestorationApplicabilityRow` when all of the followin
 - the recovery apparatus or field set is stable enough to teach;
 - repeated in-place repair distracts from the subject pattern's primary EntityOfConcern and first useful move;
 - a useful remaining reader move survives after overread removal;
-- no existing exact governing pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
+- no existing governing pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
 
-Do not add a new realization pattern when an existing exact pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another exact pattern already carries the live EntityOfConcern, relation, claim, or field. Record that pattern as the `governingPattern`.
+Do not add a new realization pattern when an existing governing pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another governing pattern already carries the EntityOfConcern under repair, relation, claim, or field. Record that pattern as the `governingPattern`.
 
-Extract repair-only material from a subject pattern when the material is only trigger lists, false-friend rows, anti-umbrella prose, or repair fields that must run before the subject pattern can start. Leave a narrow first-use cue or exact governing-pattern relation in the subject pattern.
+Extract repair-only material from a subject pattern when the material is only trigger lists, false-friend rows, anti-umbrella prose, or repair fields that must run before the subject pattern can start. Leave a narrow first-use cue or governing-pattern relation in the subject pattern.
 
 Keep material in the subject pattern when it states the subject pattern's own invariant, worked case, conformance condition, characteristic construction, structural construction, mathematical lens, source-return condition, or user action.
 

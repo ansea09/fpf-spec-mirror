@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:10 — Rationale"
-line_start: 10516
-line_end: 10523
+line_start: 10527
+line_end: 10534
 dependencies:
   - "A.15"
   - "A.20"
@@ -50,5 +50,5 @@ Controlled coarsening is useful because FPF work often needs cheap readable form
 
 This pattern is narrower than a general simplification pattern. It applies only when the coarsened rendering remains tied to a source-bearing side and carries a narrower-use card.
 
-The core memory aid is simple: a coarsened rendering may help interpretation, but it must not become the source-bearing side it was derived from. It may expose or cite the source-bearing side or the exact project-side FPF kind and reference that carries the requested admissibility; that exposed source or value remains the admissibility source, not the coarsened rendering's readable face. If admissibility is missing, a repair request, source-gap note, or reopen note may guide only future repair or return to source; it does not backdate the coarsened rendering into source relation.
+The core memory aid is simple: a coarsened rendering may help interpretation, but it must not become the source-bearing side it was derived from. It may expose or cite the source-bearing side or the project-side FPF kind and reference named by value that carries the requested admissibility; that exposed source or value remains the admissibility source, not the coarsened rendering's readable face. If admissibility is missing, a repair request, source-gap note, or reopen note may guide only future repair or return to source; it does not backdate the coarsened rendering into source relation.
 

@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:4 — Solution"
-line_start: 49472
-line_end: 50026
+line_start: 49522
+line_end: 50076
 dependencies:
   - "A.10"
   - "A.15"
@@ -528,7 +528,7 @@ Lexical tripwires:
 
 #### C.28:4.11 - Neighbor Routing Table
 
-| If the live issue is... | Use... | `C.28` role |
+| If the issue under repair is... | Use... | `C.28` role |
 | --- | --- | --- |
 | measured value, score, scale, indicator, or metric definition | `C.16` | Only active when the measure is used causally. |
 | temporal trend, rate, acceleration, inertia, or rhythm wording | `C.27` | Active when temporal wording is used as causal effect or intervention evidence. |

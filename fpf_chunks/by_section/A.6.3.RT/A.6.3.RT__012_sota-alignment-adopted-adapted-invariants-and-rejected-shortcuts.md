@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:11"
 section_title: "SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__012_sota-alignment-adopted-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:11 — SoTA Alignment: Adopted/Adapted Invariants And Rejected Shortcuts"
-line_start: 11420
-line_end: 11434
+line_start: 11431
+line_end: 11445
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,5 +57,5 @@ keywords:
 **Claim 3.** Best-known representation-aware practice treats latent geometry, decoded output, and representation structure as evidence-bounded interpretation that needs a declared admissibility path before it can carry an engineering claim.
 **Practice source, local alignment, and adoption decision.** Representation engineering and causal-abstraction practice (source maturity = research/technical practice used for evaluation use) treats internal representations as inspectable, monitorable, manipulable, or experimentally aligned only through explicit methods that connect representation to behavior, causal role, or source relation. BLT/LCM-style model examples (source maturity = examples/analogy only here, not claim-bearing authority) show that representation regime matters, but they do not by themselves decide when a diagram, decoded output, or latent cluster becomes a valid engineering claim. This pattern **adopts** representation-validity grounding through source-relation path, recoverability scope, decode path, `recoverabilityEvidenceClass`, and declared probe/intervention evidence where claimed; it **rejects** the shortcut where latent geometry, diagram topology, or decoded prose becomes ontology by readability or model reputation.
 
-**Local stance.** The claim-bearing SoTA claim for this pattern is narrow: representation regime and reasoning medium are admissible review subjects, but geometry, notation, topology, probe output, decoded prose, or latent/distributed structure do not become ontology, evidence, gate admissibility, work authority, or engineering justification unless a declared admissibility path makes that exact use admissible.
+**Local stance.** The claim-bearing SoTA claim for this pattern is narrow: representation regime and reasoning medium are admissible review subjects, but geometry, notation, topology, probe output, decoded prose, or latent/distributed structure do not become ontology, evidence, gate admissibility, work authority, or engineering justification unless a declared admissibility path makes that use admissible by value.
 

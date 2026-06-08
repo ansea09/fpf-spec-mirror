@@ -6,12 +6,12 @@ section_id: "E.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:9 — Consequences"
-line_start: 60894
-line_end: 60905
+line_start: 61199
+line_end: 61210
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -32,7 +32,7 @@ discoverability instead of leaving the entry guidance fragmented across `Preface
 
 It also imposes discipline: entry support becomes thinner, more explicit about
 its authoritative patterns and support roles, and less tolerant of
-workflow-shaped wording. The cost stays bounded because worked readings,
+workflow-shaped wording. The cost stays bounded because expanded entry-disambiguation cases,
 pattern-local notes, parity scans, retrieval fixtures, and evidence modes are triggered
 by risk rather than required for ordinary wording repairs.
 

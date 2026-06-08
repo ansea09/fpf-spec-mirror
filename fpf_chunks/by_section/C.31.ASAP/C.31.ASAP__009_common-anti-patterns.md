@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:8"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__009_common-anti-patterns.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:8 — Common anti-patterns"
-line_start: 55181
-line_end: 55190
+line_start: 55469
+line_end: 55478
 dependencies:
   - "A.10"
   - "A.17"
@@ -52,7 +52,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | `ModularThereforeScalable` | The text says modular or platform architecture scales without scale variable, window, slope evidence, or exception curve. | Add `ScaleClaimTriage` or downgrade to C.31 characteristic cue. |
-| `GenericScaleAudit` | Audit fields appear with no architecture alternative set or next move. | Return to `ScaleClaimTriage`; remove audit apparatus until preference use is live. |
+| `GenericScaleAudit` | Audit fields appear with no architecture alternative set or next move. | Return to `ScaleClaimTriage`; remove audit apparatus until preference use is being made. |
 | `AllExceptionsAreDebt` | Any non-scale-amenable choice becomes debt. | Test waiver reasons and keep justified bounded exceptions out of `ArchitectureHeuristicDebt`. |
 | `RGAsScaleProof` | Coarse-graining or RG wording is used as a scale-preference claim. | Apply C.29 for lens use and C.31.ASAP for preference claim; require source-return condition. |
 | `ShareAsScalePreferenceEvidence` | `ReusableStructureShare` or `BespokeResidueShare` is used to prefer one alternative. | Keep the share report-only in C.31.RSA until scale variable, window, and admissible comparison are declared. |

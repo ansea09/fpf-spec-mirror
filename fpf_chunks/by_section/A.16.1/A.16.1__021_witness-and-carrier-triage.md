@@ -6,12 +6,12 @@ section_id: "A.16.1:20"
 section_title: "Witness and Carrier Triage"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__021_witness-and-carrier-triage.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:20 — Witness and Carrier Triage"
-line_start: 22071
-line_end: 22081
+line_start: 22096
+line_end: 22106
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ Not all witnesses play the same role. Authors should distinguish the witness tha
 A cue pack may cite traces, embodiment, model-state refs, or document fragments, but it should not absorb their full carrier semantics. When carrier analysis itself becomes central, `A.7` or another carrier governing pattern should be cited explicitly rather than silently embedded into the pack.
 
 #### A.16.1:20.3 - Early directional plurality rule
-Plural lane candidates or plural route-candidate hints are not a flaw. If the same cue nucleus pulls toward several receiving governing patterns, the pack should keep that plurality visible until `B.4.1` narrows it into explicit route publication. The error is not plurality; the error is hiding plurality under a single convenient gloss.
+Plural lane candidates or plural route-candidate hints are not a flaw. If the same cue nucleus pulls toward several governing patterns, the pack should keep that plurality visible until `B.4.1` narrows it into explicit route publication. The error is not plurality; the error is hiding plurality under a single convenient gloss.
 

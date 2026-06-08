@@ -6,12 +6,12 @@ section_id: "F.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:intro — Intro"
-line_start: 75528
-line_end: 75542
+line_start: 75842
+line_end: 75856
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,9 +41,9 @@ keywords:
 **Plain-name.** Ontology-first plain rewriting.
 
 **Intent.**
-Repair technical prose whose object, claim, relation, action, role, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Remaining word, head, naming, or wording-use problems then apply `E.10`, `E.10.ARCH`, `F.18`, or the exact pattern for the object.
+Repair technical prose whose object, claim, relation, action, role, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Remaining word, head, naming, or wording-use problems then apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern for the object.
 
-**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and exact source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects are live.
+**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and exact source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects carry the repaired span's claim.
 
 **Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `J.4`, pattern-quality records, review records, `DRR`s, projection carriers, and source-side notes.
 

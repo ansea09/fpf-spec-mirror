@@ -6,12 +6,12 @@ section_id: "A.6.P:12a"
 section_title: "Quantum-like relation/probe wording precision note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__016_quantum-like-relation-probe-wording-precision-note.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12a — Quantum-like relation/probe wording precision note"
-line_start: 12768
-line_end: 12799
+line_start: 12779
+line_end: 12810
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -60,7 +60,7 @@ Treat quantum-like FPF-governed wording such as `coupled`, `interaction`, `probe
 
 Action path:
 
-1. Mark the exact trigger span in the draft.
+1. Mark the trigger span in the draft.
 2. Restore the head kind first: is the phrase naming a boundary interaction, bridge/export, evidence carrier, measure, work act, viability move, decision comparison, or representation shortcut?
 3. Build a small candidate set for the relation kind and endpoint facets.
 4. Select the relation kind or hand off to an existing governing pattern.
@@ -82,7 +82,7 @@ Minimum repair for FPF-governed quantum-like relation wording:
 
 Useful outputs:
 
-- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` exact governing pattern when the repaired slots reduce to one existing governing claim kind or admissible-use boundary;
+- an ordinary `F.9`, `A.6.8`, `A.6.9`, `C.16`, `A.15`, or `C.25` governing pattern when the repaired slots reduce to one existing governing claim kind or admissible-use boundary;
 - a local explanatory phrase when no reusable relation token is justified;
 - an `A.6.P` repair plus `F.18` naming pass when a reusable relation token is actually needed;
 - a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim kind or admissible-use boundary.

@@ -6,12 +6,12 @@ section_id: "A.2.7:End"
 section_title: "A.2.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_a-2-7-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.7 — U.RoleAlgebra: In‑Context Role Relations"
   - "A.2.7:End — A.2.7:End"
-line_start: 4908
-line_end: 4909
+line_start: 4916
+line_end: 4917
 dependencies:
   - "A.1.1"
   - "A.15"

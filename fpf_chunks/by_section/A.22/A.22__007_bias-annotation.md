@@ -6,12 +6,12 @@ section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:6 — Bias-Annotation"
-line_start: 28690
-line_end: 28703
+line_start: 28716
+line_end: 28729
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,8 +68,8 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
 | Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 remains the governing pattern for lens-use result, admissibility, and stop condition. |
 | Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. description, specification-use, and publication boundaries stay explicit. |
-| Review-only bias | Checks leave a repair move: name the structure, name the exact structure-claim reliance relation, open a structural view, return to source, or apply exact FPF pattern. |
+| Review-only bias | Checks leave a repair move: name the structure, name the structure-claim reliance relation named by value, state a structural view, return to source, or apply the governing FPF pattern. |
 | Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

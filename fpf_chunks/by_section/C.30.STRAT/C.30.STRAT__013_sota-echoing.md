@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 52829
-line_end: 52834
+line_start: 52975
+line_end: 52982
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,5 +51,7 @@ keywords:
 
 Reduced SoTA is sufficient for this precision-restoration pattern. The source practice being adopted is not a new external ontology; it is the observed architecture and engineering habit of using compact labels such as `layer`, `level`, `tier`, `stack`, `block`, `expert`, `cache`, `router`, and `gate` as local recognition language. FPF adapts that practice by keeping labels as source labels and requiring ontology-first recovery before they carry FPF-governed use.
 
-Internal FPF current practice is the governing source here: `E.10` supplies trigger handling, `E.10.ARCH` supplies the recovery architecture, `C.30.P` supplies architecture and structure wording repair, and exact governing patterns carry recovered cases. The `Solution`, checklist, worked cases, and relations in this pattern change because that source-use disposition rejects lexical replacement and trigger-table fanout.
+Internal FPF current practice is the governing source here: `E.10` supplies trigger handling, `E.10.ARCH` supplies the recovery architecture, `C.30.P` supplies architecture and structure wording repair, `F.19` supplies apparatus-vs-usability discipline, and governing patterns carry recovered cases. The `Solution`, checklist, worked cases, and relations in this pattern change because that source-use disposition rejects lexical replacement and trigger-table fanout.
+
+**Currentness front.** Recheck this pattern when `E.10.ARCH` changes the recovery row fields, `C.30.P` changes architecture or structure wording repair, `F.19` changes apparatus policy, or a more source-label realization pattern now governs a label family currently repaired here. The smallest changed locus is the affected row field, Relations entry, worked case, or subject-pattern thin pointer; do not rebuild a local trigger registry.
 

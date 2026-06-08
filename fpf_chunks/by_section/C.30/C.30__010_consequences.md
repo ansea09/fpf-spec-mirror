@@ -6,12 +6,12 @@ section_id: "C.30:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:9 — Consequences"
-line_start: 51988
-line_end: 51996
+line_start: 52096
+line_end: 52104
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,6 +62,6 @@ keywords:
 | --- | --- |
 | Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and artifact role when the use has FPF-governed use. |
 | The pattern enables first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
-| Functional, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy moves to `C.30.ASV`, so practitioners may need an explicit view application. |
-| C.29, E.18, LCA, module-and-interface repair, evidence, assurance, and gate patterns can supply source or reliance relations for architecture work without becoming architecture ontology. | Exact governing pattern applications are named whenever a source or reliance relation is used beyond C.30 architecture claim, selected-structure, or conditional description-use scope. |
+| Functional, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy is governed by `C.30.ASV`, so practitioners may need an explicit view application. |
+| C.29, E.18, LCA, module-and-interface repair, evidence, assurance, and gate patterns can supply source or reliance relations for architecture work without becoming architecture ontology. | Governing pattern applications are named by value whenever a source or reliance relation is used beyond C.30 architecture claim, selected-structure, or conditional description-use scope. |
 

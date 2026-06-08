@@ -6,12 +6,12 @@ section_id: "F.15:18"
 section_title: "Didactic distillation (90‑second teaching script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_didactic-distillation-90-second-teaching-script.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:18 — Didactic distillation (90‑second teaching script)"
-line_start: 74096
-line_end: 74099
+line_start: 74410
+line_end: 74413
 dependencies:
   - "B.3"
   - "D.CTX"

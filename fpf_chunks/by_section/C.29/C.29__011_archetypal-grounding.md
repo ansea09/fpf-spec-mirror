@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__011_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Archetypal grounding"
-line_start: 51140
-line_end: 51166
+line_start: 51227
+line_end: 51253
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -69,9 +72,9 @@ keywords:
 |---|---|---|---|---|
 | Production line as queueing network | Queueing network | flow, service rates, bottlenecks, waiting time | human motivation, contractual duties, rare events not modeled | `MathLensUse.MiniCard`; admits throughput and latency reasoning, not full organizational ontology. |
 | Team backlog as queue | Queueing lens | work arrival, work in progress, service time, waiting time | obligation, motivation, priority legitimacy, skill learning | `MathLensUse.OneLine` or mini-card; admits bottleneck reasoning, not moral or managerial authority. |
-| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; move to `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next admissible inspection. |
+| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; use `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next admissible inspection. |
 | Measurement comparison as declared distance or scoring choice | Metric-space distance, embedding, or scoring-function lens | comparability, distance, proximity, clustering, threshold structure | evidence strength, causal mechanism, value judgment | `MathLensUse.OneLine` or mini-card; admits comparison design and sensitivity checks, not truth or priority by itself. |
-| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the exact neighbor relation is named | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
+| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the neighboring relation is named by value | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
 | Research field as citation graph or category-like network | Graph or categorical structure | adjacency, composition, interface, failed transfer, citation or transformation patterns | semantic truth, evidence strength, social meaning | First inspect adjacency, composition, interface, or failed transfer; `MathLensUse.MiniCard` plus `F.9` when contexts cross; never substitute graph proximity for truth or evidence. |
 | Quantum-like dashboard | Quantum-like probe and order lens | order effects, probe effects, incompatible frames when actually present | physical quantum ontology | `C.26` with C.29-compatible stop condition `QL-NQ`; not a full-card cost for QL-lite notes. |
 | RG-like scale-law claim | Coarse-graining or fixed-point lens | scale variable, coarse-graining rule, invariants across scales | micro-mechanism identity and universal validity | `C.29` plus `C.18.1` or `C.19.1`; stops outside scale window. |
@@ -81,11 +84,11 @@ Worked micro-cases by failure mode:
 
 | Failure mode | Reader sees | C.29 repair |
 |---|---|---|
-| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before moving to `MathLensUse.OneLine` or mini-card. |
+| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before using `MathLensUse.OneLine` or mini-card. |
 | Under-specified-lens repair | "The market is a field." | Write `MathLensUse.OneLine` only if the candidate mathematical object, mapping, preserved structure, lost structure, payoff, and stop condition can be stated; otherwise remove the phrase or keep it as ordinary metaphor. |
-| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless a exact neighboring pattern carries it. |
-| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Open `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
-| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not open C.29 merely because local mathematics appears. |
+| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless a governing pattern governs it. |
+| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Apply `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
+| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not use C.29 merely because local mathematics appears. |
 | Speculative SoTA stress | Vanchurin-style universe-as-learning. | Treat as candidate-lens stress, not accepted physics, foundation, assurance, or release input. |
 
 Vanchurin-style universe-as-learning is not an ordinary first grounding archetype. Keep it in the validation harness and SoTA use as a candidate stress test: it can teach overclaim control and adapt-not-adopt discipline, but it does not ground accepted physics, assurance, quantitative law, or routine lens use.

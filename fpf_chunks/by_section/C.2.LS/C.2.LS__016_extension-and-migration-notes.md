@@ -6,12 +6,12 @@ section_id: "C.2.LS:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__016_extension-and-migration-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:15 — Extension and Migration Notes"
-line_start: 36407
-line_end: 36423
+line_start: 36443
+line_end: 36460
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -56,3 +56,4 @@ A conforming migration rewrites such statements into explicit facet talk: which 
 
 #### C.2.LS:15.3 - Boundary reminder
 `U.LanguageStateFacetProfile` is a coordination record. If authors find themselves putting move rules, bridge rules, scale rules, or bundle semantics into the profile itself, they are writing in the wrong governing pattern.
+

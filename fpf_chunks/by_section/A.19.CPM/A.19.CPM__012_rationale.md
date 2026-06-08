@@ -6,12 +6,12 @@ section_id: "A.19.CPM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__012_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:10 — Rationale"
-line_start: 27211
-line_end: 27218
+line_start: 27237
+line_end: 27244
 dependencies:
 keywords:
   - "ComparatorSet"

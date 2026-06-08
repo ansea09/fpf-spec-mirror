@@ -6,12 +6,12 @@ section_id: "E.10.D2:4"
 section_title: "Core field discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_core-field-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Core field discipline"
-line_start: 60179
-line_end: 60211
+line_start: 60480
+line_end: 60512
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -41,7 +41,7 @@ keywords:
 
 #### E.10.D2:4.1 - EntityOfConcern
 
-`EntityOfConcern` means the item under concern in the current claim. It is not a universal "object" bucket and not an authoring target. It may be a system-side entity, an episteme, a relation, a characteristic, a work occurrence, a pattern, or another exact FPF kind.
+`EntityOfConcern` means the item under concern in the current claim. It is not a universal "object" bucket and not an authoring target. It may be a system-side entity, an episteme, a relation, a characteristic, a work occurrence, a pattern, or another FPF kind named by value.
 
 When the EntityOfConcern is itself an episteme, the same distinction still holds. The episteme under concern is not automatically identical to a Description episteme about that episteme, and a publication of that episteme is still a publication relation.
 

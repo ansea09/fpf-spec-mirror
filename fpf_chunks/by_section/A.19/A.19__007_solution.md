@@ -6,12 +6,12 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 22738
-line_end: 22955
+line_start: 22763
+line_end: 22980
 dependencies:
   - "A.17"
   - "A.18"
@@ -166,7 +166,7 @@ A **state label** like "Ready", "Authorized", "Degraded", etc., in an RSG is a c
 
 Two states can be compared **coordinatewise** only under strict conditions. Essentially, we require the states to be expressed in the **same measurement space**, with the **same units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
 
--   **Same space.** The two holders’ state snapshots lie in the **exact same CharacteristicSpace** (and, if relevant, the same RCS attached to a Role in a given Context). It’s not enough that they have similarly named characteristics; they must share the actual defined space (same slots with same definitions).
+-   **Same space.** The two holders’ state snapshots lie in the **same CharacteristicSpace by value** (and, if relevant, the same RCS attached to a Role in a given Context). It’s not enough that they have similarly named characteristics; they must share the actual defined space (same slots with same definitions).
 
 -   **Scale congruence.** For each slot being compared, the scale type, unit, and polarity orientation are **identical**. For example, if comparing temperature readings, both must be on the same scale (say, °C on a ratio scale with “higher = hotter” orientation). No unit mismatches or differing interpretations can be present.
 

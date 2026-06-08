@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Evidence Semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_evidence-semantics-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Evidence Semantics (Normative)"
-line_start: 40830
-line_end: 40842
+line_start: 40875
+line_end: 40887
 dependencies:
   - "A.10"
   - "A.17"
@@ -44,6 +44,6 @@ keywords:
 **Rule Σ‑2.** Evidence composition is **commutative, associative, idempotent** at the concept level (sets/multisets of grounds); combining grounds can never *reduce* what is knowable about the measure’s warrant.
 **Rule Σ‑3.** *Soundness minimum:* there exists a conceptual chain linking **bearer → Characteristic → Scale and Unit → admissible method or episteme**. (No “free‑floating numbers”.)
 **Rule Σ‑4.** Any declared *agreement* construct used as evidence (e.g., dual readings, panels) **SHALL** respect the template’s scale type (per A.18) (e.g., order‑based concordance for ordinal; tolerance‑based agreement for interval or ratio).
-**Note (boundary).** CG‑frame evidence thresholds (e.g., “minimal evidence” gates used by selection, scoring, or comparison mechanisms) are governed by their exact FPF patterns or specification records. C.16 defines only the EvidenceStub semantics that such gates may cite.
+**Note (boundary).** CG‑frame evidence thresholds (e.g., “minimal evidence” gates used by selection, scoring, or comparison mechanisms) are governed by their FPF patterns or specification records. C.16 defines only the EvidenceStub semantics that such gates may cite.
 *Source references:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
 

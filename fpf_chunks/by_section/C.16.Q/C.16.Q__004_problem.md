@@ -6,12 +6,12 @@ section_id: "C.16.Q:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__004_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:2 — Problem"
-line_start: 41322
-line_end: 41334
+line_start: 41368
+line_end: 41380
 dependencies:
   - "A.10"
   - "A.16"
@@ -65,5 +65,5 @@ How can FPF let working texts keep the communicative convenience of the word **q
 * engineering architecture and quality-characteristic discourse,
 * open-ended evolution, NQD, and selection discourse,
 * control, world-model, and active-inference discourse,
-* ecological affordance discourse, including source-tradition `affordance` cases that must leave quality-term restoration for `A.6.A` or another exact action-invitation governing pattern?
+* ecological affordance discourse, including source-tradition `affordance` cases that must leave quality-term restoration for `A.6.A` or another action-invitation governing pattern?
 

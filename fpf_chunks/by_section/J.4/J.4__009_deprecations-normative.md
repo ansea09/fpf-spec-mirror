@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "J.4"
-pattern_title: "First Practical Entry Neighborhood Index"
-section_id: "J.4:section-006"
+pattern_title: "First Practical Entry Pattern-Comparison Index"
+section_id: "J.4:section-008"
 section_title: "Deprecations (normative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__007_deprecations-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+output_path: "by_section/J.4/J.4__009_deprecations-normative.md"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "J.4 — First Practical Entry Neighborhood Index"
-  - "J.4:section-006 — Deprecations (normative)"
-line_start: 82684
-line_end: 82695
+  - "J.4 — First Practical Entry Pattern-Comparison Index"
+  - "J.4:section-008 — Deprecations (normative)"
+line_start: 82991
+line_end: 83002
 dependencies:
 keywords:
 ---

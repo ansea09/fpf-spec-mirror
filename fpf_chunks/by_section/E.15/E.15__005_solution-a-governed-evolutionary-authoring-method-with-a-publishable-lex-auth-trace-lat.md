@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution-a-governed-evolutionary-authoring-method-with-a-publishable-lex-auth-trace-lat.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:4 — Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
-line_start: 61447
-line_end: 61539
+line_start: 61753
+line_end: 61846
 dependencies:
   - "A.10"
   - "B.3"
@@ -121,3 +121,4 @@ Classify the intended change **before** work starts (declare it in the DRR frami
 * **Didactic economy**: length vs density ratio within band; “Tell‑Show‑Show” present.
 
 **Optional lenses** (context‑specific): *Ethical/SoD guard strength; cross‑scale roll‑up integrity; aggregation proofs present;* etc.
+

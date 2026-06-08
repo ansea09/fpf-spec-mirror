@@ -6,12 +6,12 @@ section_id: "A.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:2 — Problem"
-line_start: 28431
-line_end: 28450
+line_start: 28456
+line_end: 28475
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,6 +76,6 @@ How can FPF let a practitioner name structure as an EntityOfConcern while preser
 - structure and a Description episteme or view of that structure;
 - structure and a publication face, diagram, table, graph, or carrier;
 - structure and mathematical-lens application;
-- structure and another FPF claim kind that must exit to its own pattern;
+- structure and another FPF claim kind governed by its governing pattern;
 - structure in general and architecture-specific structure selected by `C.30`.
 

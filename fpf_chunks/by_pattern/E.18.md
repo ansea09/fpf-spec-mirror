@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
-line_start: 65903
-line_end: 66423
+line_start: 66214
+line_end: 66734
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -49,7 +49,7 @@ keywords:
 
 Provide a notation-independent architecture for transduction graphs. The EntityOfConcern is a `TransductionGraph`: a typed, editioned directed multigraph whose nodes are morphisms, whose edges are one typed `U.Transfer` relation, and whose flows are valuations over paths or path slices inside the same graph object. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge/CL notes, and refresh scope.
 
-**Use this when.** Use E.TGA when the live question is whether a project description needs one graph object, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer` rather than an ordered work narrative, method narrative, or wording-use cue.
+**Use this when.** Use E.TGA when the question under repair is whether a project description needs one graph object, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer` rather than an ordered work narrative, method narrative, or wording-use cue.
 
 **First useful move.** Name the graph object, the node kinds, the single `U.Transfer` edge kind, and the exact crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransductionGraph`, active `PathId` or `PathSliceId` when a path or slice is live, node kinds, one `U.Transfer`, and only the crossings or pins that are live.
 
@@ -334,7 +334,7 @@ This is an expandable list of viewpoint families; TGA is intentionally viewpoint
 8. The P2W illustrative species row (`U.Signature(profile=FormalSubstrate)` … `U.EvaluatingAndRefreshing` with functional/procedural aliases and `TypicalEnactorRoleName`) is **informative** and does not change kind or viewpoint semantics.
 
 **Conditional deliverable — `UTS.ViewpointMap` (TEVB-aligned when live).**
-Publish a UTS block named `ViewpointMap` only when an engineering or publication viewpoint-family mapping claim is made or consumed. Ordinary E.TGA use does not require `UTS.ViewpointMap` when the live question is only the graph object, flow valuation, path slice, or crossing.
+Publish a UTS block named `ViewpointMap` only when an engineering or publication viewpoint-family mapping claim is made or consumed. Ordinary E.TGA use does not require `UTS.ViewpointMap` when the question under repair is only the graph object, flow valuation, path slice, or crossing.
 
 *Minimum row schema (per row, when `ViewpointMap` is live).*
 * `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).
@@ -497,7 +497,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 | **Open-graph and string-diagram rewriting** (Bonchi et al., *Graphical Linear Algebra*, 2019; Kissinger survey lineage) | Rewrites and subflow refactors are admissible only with edition bumps, sentinel scopes, and `PathSlice` locality sufficient for replay. | Localize the rewrite to the affected subflow or slice, pin editions, and re-emit the affected faces. | Treating a global rewrite as replay-safe because the diagram still looks equivalent. |
 | **Research-package portability / RO-Crate-style research packaging** (RO-Crate 1.2; Soiland-Reyes et al., *Packaging research artefacts with RO-Crate*, 2022, as lineage) | Portable package descriptions belong in MVPK faces and InteropCards; packages and lineage metadata do not define graph semantics. | Publish package, provenance, and source refs as publication references while keeping graph meaning in the node/gate definitions. | Treating a crate, package, file bundle, or lineage record as the semantic authority for the graph. |
 | **Reproducibility and content addressability** (Di Cosmo et al., *Referencing Source Code Artifacts: a Separate Concern in Software Citation*, 2020) | Stable identifiers become edition pins and entries in `E⃗`; they make references checkable but do not decide node, gate, or mechanism meaning. | Pin the exact editions of code, comparator, transport registry, descriptor map, or distance definition used by a face or path. | Treating an identifier, hash, or content-addressed source ref as semantic authority. |
-| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as a TAMP survey source reference; named MPC survey or named reference used when MPC is the live claim) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered work-method narrative, an unbounded loop, or pre-Work launch-value filling. |
+| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as a TAMP survey source reference; named MPC survey or named reference used when MPC is the claim being made) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered work-method narrative, an unbounded loop, or pre-Work launch-value filling. |
 | **Quality-Diversity / illumination search** (MAP-Elites and CMA-ME as lineage; QDax JMLR 2024 as QD library source reference; QDHF 2023/ICML 2024 or QDAIF 2023 refs only when feedback-guided QD is live) | Set and archive returns stay visible; E.TGA treats covert scalarization to one winner as non-conformant while leaving selector, archive, dominance, and comparator semantics to neighboring loci. | Return the set/archive, pin comparator and descriptor/distance editions, and cite the selector/comparator loci when live. | Collapsing a partially ordered or archive-like result into a single best score. |
 | **Profunctor optics / modular projection practice** (Pickering, Gibbons, Wu, *Profunctor Optics*, 2019) | MVPK faces are projections of graph/morphism information; they carry views without adding new numeric or mechanism claims. | Publish views as MVPK faces with correspondence refs and pins, while leaving transformations and checks in their governing patterns. | Treating a view, projection, screen, or explanation as a transformation, evidence result, or gate decision. |
 
@@ -552,11 +552,11 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
-Relation boundary: `E.18` governs transduction graph architecture. When a graph use raises work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the exact governing pattern for that relation before relying on the graph.
+Relation boundary: `E.18` governs transduction graph architecture. When a graph use raises work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the governing pattern for that relation before relying on the graph.
 
 ### E.18:15a - E.18.1 P2W Child-Pattern Relation
 
-`E.18.1` is a child pattern for principles-to-work carry-through. It inherits this pattern's graph, path, flow-valuation, transfer, crossing, and gate minimum, then adds the local P2W relation from accepted problem-side output to the next exact FPF kind, relation, record, or application. Pilot examples for one specialization belong in the selected child pattern that uses them; `E.18` keeps only the graph-architecture law and this short child-pattern relation.
+`E.18.1` is a child pattern for principles-to-work carry-through. It inherits this pattern's graph, path, flow-valuation, transfer, crossing, and gate minimum, then adds the local P2W relation from accepted problem-side output to the next FPF kind named by value, relation, record, or application. Pilot examples for one specialization belong in the selected child pattern that uses them; `E.18` keeps only the graph-architecture law and this short child-pattern relation.
 
 ### E.18:End
 

@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 39697
-line_end: 39733
+line_start: 39742
+line_end: 39778
 dependencies:
   - "A.13"
   - "A.18"
@@ -56,7 +56,7 @@ If that first output still cannot be written honestly, the current comparison st
 
 - The chooser is still moving between person, team, organization, or another collectivity-bearing level.
 - The current comparison is still inventing, expanding, or reframing options while also claiming to compare them.
-- The current comparison says more information would help but cannot name one exact next probe that could still change the result.
+- The current comparison says more information would help but cannot name one next probe that could still change the result.
 - The current result is really surfacing one selected set or one enactment plan rather than one local choice.
 
 **First-minute questions.**
@@ -64,14 +64,14 @@ If that first output still cannot be written honestly, the current comparison st
 - Who or what is actually choosing here, and at what chooser-bearing level?
 - What options are already on the table now?
 - What current basis is being used to compare them?
-- What exact next probe could still change the choice, if any?
+- What next probe could still change the choice, if any?
 - Is this still local choice, or has the question already moved to search, pool policy, publication, or enactment?
 
 **Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13 / C.9` when the hard question is agenthood rather than choice; `A.18 / A.19` when the mathematical support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat selected-set publication or shortlist semantics as if they were the same question as deciding.
 
-**What goes wrong if this pattern is missed.** Search, selection policy, planning, and choice doctrine collapse into one blurred notion of rationality. Teams either choose too early because pool policy was never stated, keep probing without one exact reason the next probe is still worth its cost, or leave only one vague claim that "a decision was made" without one explicit decision record naming the current result.
+**What goes wrong if this pattern is missed.** Search, selection policy, planning, and choice doctrine collapse into one blurred notion of rationality. Teams either choose too early because pool policy was never stated, keep probing without one reason the next probe is still worth its cost, or leave only one vague claim that "a decision was made" without one explicit decision record naming the current result.
 
 **What this pattern buys.** This pattern gives one stable place to compare classical, causal, success-first or subjunctive, bounded-resource, active-inference-adjacent, and quantum-like decision lines without silently reassigning search, selection, or planning doctrine to the wrong question. In practice it buys one explicit answer to four questions: choose now, reject the current set, probe again, or reroute.
 

@@ -6,12 +6,12 @@ section_id: "A.15.2:9"
 section_title: "Launch-Value Boundary For P2W"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__015_launch-value-boundary-for-p2w.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:9 — Launch-Value Boundary For P2W"
-line_start: 20436
-line_end: 20439
+line_start: 20460
+line_end: 20463
 dependencies:
   - "A.10"
   - "A.15"

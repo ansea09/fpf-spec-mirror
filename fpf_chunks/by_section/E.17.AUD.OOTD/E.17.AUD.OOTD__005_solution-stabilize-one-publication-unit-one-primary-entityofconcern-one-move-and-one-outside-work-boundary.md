@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - stabilize one publication unit, one primary EntityOfConcern, one move, and one outside-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-primary-entityofconcern-one-move-and-one-outside-work-boundary.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one primary EntityOfConcern, one move, and one outside-work boundary"
-line_start: 65655
-line_end: 65761
+line_start: 65966
+line_end: 66072
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ If the real problem is still only one vague local lexical head word, start with 
 #### E.17.AUD.OOTD:4.1.a - Pairwise plain glosses
 
 - **Publication unit** = one written or displayed bounded unit others are meant to read as one unit, such as a note, memo, sheet, table, or guided screen.
-- **Primary EntityOfConcern** = the local stabilization interpretation for what that unit is mainly about when it carries or exposes a claim-bearing episteme or episteme-lane `U.View`; it is not a new `C.2.1` slot. If no claim-bearing episteme or episteme-lane view is live, name the exact non-claim-bearing kind, topic, or subject instead of inventing a `EntityOfConcernRef`.
+- **Primary EntityOfConcern** = the local stabilization interpretation for what that unit is mainly about when it carries or exposes a claim-bearing episteme or episteme-lane `U.View`; it is not a new `C.2.1` slot. If no claim-bearing episteme or episteme-lane view is live, name the non-claim-bearing kind named by value, topic, or subject instead of inventing a `EntityOfConcernRef`.
 - **Carried move** = what the unit is doing over that entity, or that it is only stabilizing it without adding a new move.
 - **Outside-work boundary** = what wider review, execution work, non-admissible downstream decision, or reliance claim stays outside the current unit.
 - **Explicit transition** = the unit openly says it has moved from one interpretation or primary EntityOfConcern to another instead of pretending nothing changed.
@@ -122,13 +122,13 @@ Then add:
 - `modelingLensPolicy`;
 - `downstreamDecisionPolicy`.
 
-These fields do not create a rival rule track. `publicationUnitFormCue` names words such as note, sheet, screen, and table as form clues only; it does not make those clues primary-entity kinds or exact claim/relation kinds. The fields only make the heavier neighboring-boundary claim-kind visible once the ordinary card already holds.
+These fields do not create a rival rule track. `publicationUnitFormCue` names words such as note, sheet, screen, and table as form clues only; it does not make those clues primary-entity kinds or claim named by value/relation kinds. The fields only make the heavier neighboring-boundary claim-kind visible once the ordinary card already holds.
 
 **Quick governing-pattern and project-side-reference boundary summary**
 - use `E.17.AUD.LHR` (`Local Head Restoration`) when the instability is still local to one local lexical head, qualifier, or interpretation word;
-- use `E.17.ID.CR` when the same publication unit already holds one stable primary EntityOfConcern, one carried move, and one outside-work boundary, and the live question is one bounded comparative review move over already available source epistemes or publications;
+- use `E.17.ID.CR` when the same publication unit already holds one stable primary EntityOfConcern, one carried move, and one outside-work boundary, and the question under repair is one bounded comparative review move over already available source epistemes or publications;
 - use this pattern when one publication unit still has unstable primary EntityOfConcern, carried-move, or outside-work interpretation after honest local repair;
-- use the neighboring pattern or the exact project-side FPF kind and reference when view, face, carrier, entityOfConcernRef-preserving transform, explanation, bridge, ontology, gate, approval, or execution claim becomes primary.
+- use the neighboring pattern or the project-side FPF kind and reference named by value when view, face, carrier, entityOfConcernRef-preserving transform, explanation, bridge, ontology, gate, approval, or execution claim becomes primary.
 
 #### E.17.AUD.OOTD:4.5 - Boundary-rule summary
 

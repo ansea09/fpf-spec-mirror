@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
-line_start: 7242
-line_end: 7665
+line_start: 7250
+line_end: 7673
 dependencies:
   - "A.6"
   - "A.6.P"
@@ -119,7 +119,7 @@ The encountered carrier or projection may help recognition; it does not become
 authoritative merely by being encountered. When this pattern talks about an
 encountered publication or projection, that wording does not mint a new surface
 kind; use an existing publication face, publication form, interop publication form,
-`U.View`, card, or lane kind only when that kind is actually live.
+`U.View`, card, or lane kind only when that kind is actually being made.
 
 Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme by being the encountered item.
 
@@ -227,7 +227,7 @@ The four-part split for pattern-local recognition is:
 | Generic first-contact description recognition | `A.6.RSIG` | The neutral cue shape: description, carrier or projection, definitionEpistemeRef, exclusions, false neighbor. |
 | Local placement and form | `E.8` | How the pattern's `Problem frame` carries the first-reading role. |
 | Actual local semantics | The pattern itself | The pattern's relation-signature object, solution, consequences, and conformance law. |
-| Cross-pattern comparison | `E.11`, `J.4`, and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and worked entry reading. |
+| Cross-pattern comparison | `E.11`, `J.4`, and `I.2` | Candidate patterns, tempting wrong patterns, entry-load reclassification, and expanded entry-disambiguation cases. |
 
 #### A.6.RSIG:4.5 - No-minting rule
 
@@ -318,7 +318,7 @@ Why the cue is not enough yet:
 - the method note can be mistaken for the defining `U.Episteme` of selection
   semantics;
 - a team can prematurely choose `C.11` or `G.5` before knowing what kind of
-  comparison entry load is actually live.
+  comparison entry load is actually being made.
 
 Recognition repair:
 

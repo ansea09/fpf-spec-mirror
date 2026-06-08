@@ -6,12 +6,12 @@ section_id: "A.15.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:intro — Intro"
-line_start: 20209
-line_end: 20235
+line_start: 20233
+line_end: 20259
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.WorkPlan` when the live question is intended work: planned windows, intended role requirements, planned constraints, resource budgets, dependencies, acceptance targets, and baselines for subsequent variance against performed `U.Work`.
+**At a glance.** Use `U.WorkPlan` when the question under repair is intended work: planned windows, intended role requirements, planned constraints, resource budgets, dependencies, acceptance targets, and baselines for subsequent variance against performed `U.Work`.
 
 **Use this when.** Use this pattern when a schedule, calendar, rota, Kanban ticket, Gantt bar, shift plan, rollout plan, or planned reservation is being treated as a method, actual work, evidence, approval, or gate result. `U.WorkPlan` is an episteme for intended `U.Work`; it can coordinate action, but it does not make execution happen.
 

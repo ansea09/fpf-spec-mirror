@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:4"
 section_title: "Quick worked-slice starter"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__005_quick-worked-slice-starter.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:4 — Quick worked-slice starter"
-line_start: 65388
-line_end: 65399
+line_start: 65699
+line_end: 65710
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ If you need one ordinary entry sentence fast, start from one of these:
 | Operations review | `This review unit is about the incident episode and its timing contrast, not yet about action approval.` |
 | Semio-heavy paragraph | `This paragraph is about the comparative review unit, not the wider architecture strategy.` |
 
-Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can honestly carry, reopen with the governing FPF pattern or exact project-side FPF kind and reference instead of treating the starter as step one of a fixed flow.
+Use these starters only as local examples. If outside observations or downstream constraints change what the sentence can honestly carry, reopen with the governing FPF pattern or project-side FPF kind and reference named by value instead of treating the starter as step one of a fixed flow.
 

@@ -6,12 +6,12 @@ section_id: "F.12:7"
 section_title: "Clause templates (conceptual schemata)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__008_clause-templates-conceptual-schemata.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:7 — Clause templates (conceptual schemata)"
-line_start: 72918
-line_end: 72953
+line_start: 73231
+line_end: 73266
 dependencies:
   - "A.2.3"
   - "F.1"

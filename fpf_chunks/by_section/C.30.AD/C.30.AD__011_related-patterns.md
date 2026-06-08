@@ -6,12 +6,12 @@ section_id: "C.30.AD:9"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_related-patterns.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:9 — Related patterns"
-line_start: 52367
-line_end: 52375
+line_start: 52477
+line_end: 52485
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 - `C.30` governs grounded architecture and selected-structure adequacy.
 - `C.30.P` repairs overloaded architecture or structure wording before this pattern is used.
 - `C.30.ASV` governs architecture structural views and structure-kind and viewpoint separation.
-- `C.30.TGA-FLOW-REL`, `C.30.LCA`, and `C.30.ILC` govern exact architecture structure-relation subcases.
+- `C.30.TGA-FLOW-REL`, `C.30.LCA`, and `C.30.ILC` govern architecture structure-relation subcases named by value.
 - `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, and `E.17` govern generic EntityOfConcern, Description, view, viewpoint, publication, and MVPK machinery.
 - `C.2.P` repairs source-current and publication or carrier relation-set overreads.
 

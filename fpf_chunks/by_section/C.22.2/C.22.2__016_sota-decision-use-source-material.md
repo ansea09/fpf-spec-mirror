@@ -6,12 +6,12 @@ section_id: "C.22.2:15"
 section_title: "SoTA Decision-Use Source Material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__016_sota-decision-use-source-material.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:15 — SoTA Decision-Use Source Material"
-line_start: 44557
-line_end: 44584
+line_start: 44605
+line_end: 44632
 dependencies:
   - "A.10"
   - "A.15"
@@ -83,9 +83,9 @@ Local SoTA-to-action tests:
 | Source or relation pressure | Popular shortcut rejected | Required local result | Reopen condition |
 |---|---|---|---|
 | Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover source signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when live. | Reopen when context, scope, viewpoint, rival frame, evidence need, or improvement or acceptance probe changes. |
-| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation next-move reason, validation boundary, readiness disposition, admissible P2W use, non-admissible use, and exact-pattern cue when a claim outside `C.22.2` is live. | Reopen when the signal, context, scope, acceptance probe, problem-formulation next-move reason, validation boundary, freshness, or named claim outside `C.22.2` changes. |
+| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation next-move reason, validation boundary, readiness disposition, admissible P2W use, non-admissible use, and governing-pattern cue when a claim outside `C.22.2` is live. | Reopen when the signal, context, scope, acceptance probe, problem-formulation next-move reason, validation boundary, freshness, or named claim outside `C.22.2` changes. |
 | QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set claim. | Preserve `setContextRef`, source set kind, selection or retention criterion, and a non-scalar next move; apply the governing set, parity, archive, pool, or refresh pattern when live. | Reopen when the source set, retention criterion, parity relation, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
-| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as permission to act. | Record generator, evaluator, variant, or stepping-stone reason source only as a source cue; name validation, freshness, and exact pattern references before probe or action. | Reopen when generator, evaluator, variant, stepping-stone reason source, safety/probe condition, or exact pattern reference changes. |
+| Open-ended agents, problem variants, evaluator feedback, and stepping stones change source pressure. | Agent output, evaluator trace, or generated variant is treated as permission to act. | Record generator, evaluator, variant, or stepping-stone reason source only as a source cue; name validation, freshness, and pattern reference named by values before probe or action. | Reopen when generator, evaluator, variant, stepping-stone reason source, safety/probe condition, or pattern reference named by value changes. |
 | First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, mapping or `C.29` relation, preserved and lost structure when live, practical formulation payoff, problem-formulation next-move reason, and stop condition. | Reopen when candidate structure, preserved or lost structure, problem-formulation next-move reason, stop condition, or `C.29` result changes. |
 | Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question live; record candidate structure, preserved and lost structure when live, and representation or retargeting relations before freezing kind structure. | Reopen when formulation question, kind structure, relation, representation-transition relation, or retargeting relation changes. |
 | Object model looks clarifying. | Object-model clarity freezes the wrong EntityOfConcern or relation. | Keep EntityOfConcern and relation reviewable; name representation-transition, retargeting, or bridge relation references before reusing a local cue or readiness disposition. | Reopen when EntityOfConcern, relation, view, bridge relation, or representation-transition relation changes. |

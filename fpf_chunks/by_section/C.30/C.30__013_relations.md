@@ -6,12 +6,12 @@ section_id: "C.30:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:12 — Relations"
-line_start: 52020
-line_end: 52027
+line_start: 52128
+line_end: 52135
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 Builds on: `A.22`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
 
-Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named governing patterns for architecture decision and candidate-set claims when those claim kinds are live.
+Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named governing patterns for architecture decision and candidate-set claims when those claim kinds are being made.
 
-Does not replace: A.22 selected-structure EntityOfConcern; C.30.STRAT stratification-wording repair and source-label repair; C.30.ASV structural-view adequacy; E.TGA graph, path, and crossing discipline; C.29 mathematical-lens use; C.16 characterization; C.25 Q-Bundles; C.28 causal-use relation; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; A.15 work; C.11 decisions; or E.17 publication.
+Neighboring claims stay with their governing patterns: `A.22` for selected-structure EntityOfConcern, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `E.TGA` for graph, path, and crossing discipline, `C.29` for mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30` governs the grounded architecture claim, selected structures, and the next admissible architecture move.
 

@@ -6,12 +6,12 @@ section_id: "C.16.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__002_use-this-when.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:0 — Use this when"
-line_start: 41027
-line_end: 41043
+line_start: 41072
+line_end: 41088
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,14 +45,14 @@ Use this pattern when wording such as `axis`, `dimension`, `feature`, `property`
 
 **What goes wrong if missed.** A metric becomes a measure without a scale, a score becomes proof, `strong` becomes a verdict without a characteristic, a level becomes an undefined maturity status, an indicator becomes the thing indicated, or a benchmark result becomes gate passage or release permission.
 
-**What this buys.** The reader can recover the bearer, characteristic, scale, value, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold, admissible use, and exact governing pattern before treating a number, adjective, coordinate, or comparison as actionable.
+**What this buys.** The reader can recover the bearer, characteristic, scale, value, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold, admissible use, and governing pattern before treating a number, adjective, coordinate, or comparison as actionable.
 
-**First useful move.** Ask which bearer, characteristic, scale, value or score construction is recoverable; then apply `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, or the exact neighboring pattern instead of letting the compact word decide.
+**First useful move.** Ask which bearer, characteristic, scale, value or score construction is recoverable; then apply `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, or the neighboring pattern governing that claim instead of letting the compact word decide.
 
 **Not this pattern when.**
 
 - If the `Characteristic`, `Scale`, value set, scoring method, and admissible use are already recoverable, use `C.16`, `A.17`, `A.18`, or `A.19` directly.
-- If the live claim is a Q-bundle, quality-term or evaluative characterization, or pattern-quality coordinate, use `C.25`, `C.16.Q`, or `E.21` directly after any needed characteristic-scale repair.
-- If the live claim is mathematical-lens use, use `C.29`.
-- If the live claim is evidence, assurance, gate, work, decision, causal-use, release, benchmark harness, or project-side authority claim, use the exact pattern for that claim after characteristic and scale construction is recovered or blocked.
+- If the claim being made is a Q-bundle, quality-term or evaluative characterization, or pattern-quality coordinate, use `C.25`, `C.16.Q`, or `E.21` directly after any needed characteristic-scale repair.
+- If the claim being made is mathematical-lens use, use `C.29`.
+- If the claim being made is evidence, assurance, gate, work, decision, causal-use, release, benchmark harness, or project-side authority claim, use the governing pattern for that claim after characteristic and scale construction is recovered or blocked.
 

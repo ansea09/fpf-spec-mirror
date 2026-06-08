@@ -6,12 +6,12 @@ section_id: "A.6.4:8"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__009_conformance-checklist-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:8 — Conformance checklist (normative)"
-line_start: 11899
-line_end: 11945
+line_start: 11910
+line_end: 11956
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -68,7 +68,7 @@ For retargetings over `…Description`/`…Spec` epistemes:
 For every FPF-governed retargeting use, the source EntityOfConcern, receiving EntityOfConcern, `KindBridge`, invariant, preserved commitments, withdrawn or new commitments, admissible predicate changes, admissibility value, retargeting witness, admissibility value, and source-bearing reopen condition are recoverable. If bridge or invariant witnessing is insufficient for the intended use, the case records source-bearing reopen, bridge-only comparison, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff.
 
 **CC-A.6.4-8 - Neighboring-pattern handoff.**
-Retargeting wording does not carry work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or TGA-path currentness unless the exact governing FPF pattern and exact project-side FPF kind or reference are named.
+Retargeting wording does not carry work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or TGA-path currentness unless the governing FPF pattern and project-side FPF kind or reference named by value are named.
 
 **CC-A.6.4-9 - StructuralReinterpretation boundary.**
 When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. `StructuralReinterpretation` receives retargeting semantics from `A.6.4`; it is not proof of `entityOfConcernRef` continuity and not a TGA-local retargeting kind.

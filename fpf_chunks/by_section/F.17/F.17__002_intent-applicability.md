@@ -6,12 +6,12 @@ section_id: "F.17:1"
 section_title: "Intent & Applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__002_intent-applicability.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:1 — Intent & Applicability"
-line_start: 74395
-line_end: 74407
+line_start: 74709
+line_end: 74721
 dependencies:
   - "A.1.1"
   - "A.11"

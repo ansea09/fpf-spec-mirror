@@ -6,12 +6,12 @@ section_id: "E.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__009_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:8 — Rationale"
-line_start: 56055
-line_end: 56058
+line_start: 56339
+line_end: 56342
 dependencies:
   - "E.1"
   - "E.5.3"

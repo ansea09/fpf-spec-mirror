@@ -6,12 +6,12 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 43531
-line_end: 43607
+line_start: 43578
+line_end: 43654
 dependencies:
   - "A.17"
   - "A.18"
@@ -87,12 +87,12 @@ Define a **portable minimal set** of CHR **slots**. Each slot is **CHR-typed** (
 Contexts MAY add these DHC slots when the discipline-health question includes engineering-grade reasoning, architecturing, optimization, prediction, comparison, assurance input, decision input, first-principles justification, mathematical-lens use, or source-publication overread. These slots remain discipline-health characteristics. They do not become evidence relations, assurance relations, gate decisions, mathematical-lens use, measurement legality, release permission, or project authority.
 
 7. **EngineeringClaimJustificationRecoverability** *(ordinal; polarity ↑; ReferencePlane=episteme|world by declared claim; CG-Spec-bound when aggregated)*
-   Degree to which engineering-grade claims in the discipline or Context expose the exact justification that carries their force for the declared use. The justification may be a named construction, source, model, lens, evidence relation, characteristic relation, assurance relation, gate relation, method relation, or heuristic triage boundary, but it must cite the exact neighbouring FPF pattern when that force is live (`A.10`, `B.3`, `A.15`, `A.20`, `A.21`, `C.16`, `C.29`, or another exact pattern). Heuristic examples may carry recognition and triage only; prediction, comparison, optimization, falsification, assurance-input, decision-input, or architecture-readiness force requires the recoverable justification.
+   Degree to which engineering-grade claims in the discipline or Context expose the exact justification that carries their force for the declared use. The justification may be a named construction, source, model, lens, evidence relation, characteristic relation, assurance relation, gate relation, method relation, or heuristic triage boundary, but it must cite the neighboring pattern governing the claiming FPF pattern when that force is live (`A.10`, `B.3`, `A.15`, `A.20`, `A.21`, `C.16`, `C.29`, or another governing pattern). Heuristic examples may carry recognition and triage only; prediction, comparison, optimization, falsification, assurance-input, decision-input, or architecture-readiness force requires the recoverable justification.
 
 8. **SemioSubstitutionPressure** *(ordinal or ratio; polarity ↓ to band; ReferencePlane=episteme; CG-Spec-bound when aggregated)*
-   Degree to which discipline texts, patterns, dashboards, views, publications, source chains, or review artifacts substitute wording, publication form, record appearance, source appearance, or explanation fluency for the operative engineering entity, relation, work, evidence, assurance, gate, decision, method, or mathematical-lens claim. Lower pressure is healthier when the discipline keeps EntityOfConcern, episteme, publication, source, carrier, and project-side claim kind or admissible-use boundary separable and names the exact governing pattern for any live claim or admissible-use boundary.
+   Degree to which discipline texts, patterns, dashboards, views, publications, source chains, or review artifacts substitute wording, publication form, record appearance, source appearance, or explanation fluency for the operative engineering entity, relation, work, evidence, assurance, gate, decision, method, or mathematical-lens claim. Lower pressure is healthier when the discipline keeps EntityOfConcern, episteme, publication, source, carrier, and project-side claim kind or admissible-use boundary separable and names the pattern governing the recovered claim for any claim being made or admissible-use boundary.
 
-**Extension guard.** Activating either extension slot requires a local `EngineeringClaimJustification` note or semio-substitution note that names the live claim kind or admissible-use boundary, exact neighbouring FPF pattern, admissible use, non-admissible overread, and stop or reopen condition. The note is a DHC value explanation, not a new evidence source, assurance case, gate, release record, or work authority.
+**Extension guard.** Activating either extension slot requires a local `EngineeringClaimJustification` note or semio-substitution note that names the claim kind being made or admissible-use boundary, neighboring pattern governing the claiming FPF pattern, admissible use, non-admissible overread, and stop or reopen condition. The note is a DHC value explanation, not a new evidence source, assurance case, gate, release record, or work authority.
 
 #### C.21:4.2 - Guard Macros (normative)
 

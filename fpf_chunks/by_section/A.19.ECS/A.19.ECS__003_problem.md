@@ -6,12 +6,12 @@ section_id: "A.19.ECS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:2 — Problem"
-line_start: 23075
-line_end: 23092
+line_start: 23100
+line_end: 23117
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -29,7 +29,7 @@ keywords:
 
 ### A.19.ECS:2 - Problem
 
-FPF already has exact machinery for single characteristics, scales, coordinate values, Q-Bundles, and repeated improvement. The gap is the construction of a useful grouped scale set for an evaluated object kind.
+FPF already has named patterns for single characteristics, scales, coordinate values, Q-Bundles, and repeated improvement. The gap is the construction of a useful grouped scale set for an evaluated object kind.
 
 Recurring failures:
 

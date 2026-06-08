@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:4 — Solution"
-line_start: 27702
-line_end: 27852
+line_start: 27728
+line_end: 27878
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -95,7 +95,7 @@ Minimum pins on faces that carry CV outcomes (**Lean publication** allowed by pr
 | `LipschitzBounds / stability` | A perturbation, sensitivity, robustness, continuity, safety-envelope, or stability claim changes the CV use. | Bound or certificate ref under declared assumptions; no universal Lipschitz certificate demand. |
 | `ReinterpretationEquivalence` | The step is `StructuralReinterpretation`. | `CV.Status + ReinterpWitness` scoped to the addressed `PathSliceId`. |
 | `ReferencePlaneCrossing`, CSLC, Freshness, Role/Channel, Regulated-X, `DesignRunTagConsistency` | A gate, crossing, comparator, freshness, role/work, safety, or design/run relation is live. | Not CV-only; use GateFit/A.21 or the named neighboring locus. |
-CV **SHALL NOT** declare or translate `Units`, `ReferencePlane`, or `ComparatorSet`. Gate-mediated crossings and gate-consumed CSLC checks use `E.18`/`A.21` with UNM declaration and bridge discipline. Comparator admissibility, ranking, selection, set-return, archive semantics, and refresh remain with `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.11`, or `A.21` only where those live claims are actually present.
+CV **SHALL NOT** declare or translate `Units`, `ReferencePlane`, or `ComparatorSet`. Gate-mediated crossings and gate-consumed CSLC checks use `E.18`/`A.21` with UNM declaration and bridge discipline. Comparator admissibility, ranking, selection, set-return, archive semantics, and refresh remain with `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.11`, or `A.21` only where those claims being made are actually present.
 
 #### A.20:4.5 - SWP matrix (declaration-locus discipline)
 

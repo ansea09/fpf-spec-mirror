@@ -6,12 +6,12 @@ section_id: "A.22:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:5 — Archetypal Grounding"
-line_start: 28682
-line_end: 28689
+line_start: 28708
+line_end: 28715
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,5 +65,5 @@ keywords:
 | --- | --- |
 | Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: what organization is being selected, over what declared substrate and with what reliance relation, under what context, and with what loss? |
 | Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be flow or transduction, control, module-interface structure, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
-| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe selected structure or serve as a source-description or A.6.6 base-dependence relation for a selected-structure claim. The episteme, view, or publication is not the structure itself; it carries a description, view, or exact reliance relation with validation and source-return boundaries. |
+| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output can describe selected structure or serve as a source-description or A.6.6 base-dependence relation for a selected-structure claim. The episteme, view, or publication is not the structure itself; it carries a description, view, or reliance relation named by value with validation and source-return boundaries. |
 

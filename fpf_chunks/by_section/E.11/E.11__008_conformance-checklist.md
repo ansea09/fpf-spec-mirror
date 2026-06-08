@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Conformance checklist"
-line_start: 60834
-line_end: 60873
+line_start: 61139
+line_end: 61178
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -54,8 +54,8 @@ keywords:
   boundary, and projection-only status compatible without requiring identical
   wording or exhaustive coverage.
 - **CC-E11-8 Worked reading threshold.** High-risk, often-misclassified,
-  repeatedly failed, retrieval-facing, or materially new entry neighborhoods
-  have either one worked entry reading or one explicit compact-index-only
+  repeatedly failed, retrieval-facing, or materially new first-entry pattern-comparison sets
+  have either one expanded entry-disambiguation case or one explicit compact-index-only
   posture.
 - **CC-E11-9 Lexical-query support.** Material lexical divergence is handled
   through governed lexical-query support, not synonym stuffing or alias

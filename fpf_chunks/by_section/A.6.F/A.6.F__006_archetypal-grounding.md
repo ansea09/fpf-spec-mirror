@@ -6,12 +6,12 @@ section_id: "A.6.F:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:5 — Archetypal Grounding"
-line_start: 13765
-line_end: 13772
+line_start: 13776
+line_end: 13783
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner reads "the function", "functional architecture", or "this functionality" and needs to know whether the sentence is about capability, effect, method, work, role, module allocation, mathematical relation, quality, or architecture. A.6.F asks for the exact FPF kind, relation, claim record, view, or governing-pattern application before the phrase carries a live FPF claim. |
-| Show: `U.System` | A robot, software system, plant, product platform, or AI-agent system may have capabilities, required effects, control functions, module allocations, runtime flows, and user-visible functionality. Those are not one FPF kind; A.6.F assigns each live use to its exact FPF kind, relation, or governing pattern. |
+| Tell | A practitioner reads "the function", "functional architecture", or "this functionality" and needs to know whether the sentence is about capability, effect, method, work, role, module allocation, mathematical relation, quality, or architecture. A.6.F asks for the FPF kind named by value, relation, claim record, view, or governing-pattern application before the phrase carries an FPF claim being made. |
+| Show: `U.System` | A robot, software system, plant, product platform, or AI-agent system may have capabilities, required effects, control functions, module allocations, runtime flows, and user-visible functionality. Those are not one FPF kind; A.6.F assigns each use being made to its FPF kind named by value, relation, or governing pattern. |
 | Show: `U.Episteme` | A functional diagram, SysML view, architecture note, generated code architecture note, benchmark report, or mathematical model may publish or substantiate a function-like claim. The episteme or publication does not become the function, capability, work, evidence, or architecture. |
 

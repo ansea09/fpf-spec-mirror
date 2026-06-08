@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 59375
-line_end: 59497
+line_start: 59676
+line_end: 59798
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,7 +36,7 @@ keywords:
 
 > **What this section does.** LEX L-rules standardise **how we recover kind and use** in Core/Context when overloaded everyday words hide FPF concepts.
 > **What this section does not do.** It does **not** restate naming (see **§ 7 MG-DA**) or morphology/casing/suffix rules (see **§ 8 LEX.Morph**); it **depends** on them.
-> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs an exact granting gate; publication faces/forms/units/carriers/renderings stay in publication lanes. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
+> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs a granting gate named by value; publication faces/forms/units/carriers/renderings stay in publication lanes. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
 
 #### E.10:9.1 - Hard bans and ontology recovery rows (single table; normative)
 
@@ -97,7 +97,7 @@ A text **passes** LEX if all answers are **Green**:
   ULR–CTX‑2: Same‑spelled labels are **distinct senses** across Contexts; reuse requires a **Bridge** (F.9) with CL & loss notes.
 
 * **With E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).**
-  Speak in the **right EntityOfConcern and Description-episteme boundary and specification use**. ULR-EOC-DESC-SPEC-1..3 apply (the EntityOfConcern is named directly; Description suffixes name Description-episteme use; Spec suffixes name specification use on a Description episteme; work/state assertions are evaluations or occurrences). Upgrades Description to specification use only when **checkable acceptance** or another exact specification-granting gate exists.
+  Speak in the **right EntityOfConcern and Description-episteme boundary and specification use**. ULR-EOC-DESC-SPEC-1..3 apply (the EntityOfConcern is named directly; Description suffixes name Description-episteme use; Spec suffixes name specification use on a Description episteme; work/state assertions are evaluations or occurrences). Upgrades Description to specification use only when **checkable acceptance** or another specification-granting gate named by value exists.
 
 * **With A.2 / A.15 (Role–Method–Work alignment).**
   Role = **assignment**; Method = **way‑of‑doing**; MethodDescription = **documented recipe**; Work = **dated occurrence**. Sentences must keep this split.

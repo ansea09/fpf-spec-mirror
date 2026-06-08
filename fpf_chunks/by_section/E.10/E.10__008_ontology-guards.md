@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:6 — Ontology Guards"
-line_start: 58901
-line_end: 58988
+line_start: 59202
+line_end: 59289
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,8 +45,8 @@ keywords:
   * **Don’t:** `IncidentBoard`, `TDD Tradition`, `Production Process` (kernel), `Service Function` (kernel).
 
  **Onto2 — EntityOfConcern and Description-episteme boundary and specification-use morphology**  *(ref. E.10.D2)*
-* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`**: `MethodDescription`, `TraditionDescription`. A **Description episteme admitted for specification use** appends **`...Spec`** and presupposes acceptance criteria, harnesses, measurable anchors, formal checkability, verification use, or another exact specification-granting gate (normative in **E.10.D2** and neighbouring patterns). E.g., *Algorithm* is a species of `MethodDescription` for a computer (a system in the role of information transformer); **if** expressed in a formal language **and** bundled with acceptance tests, it is **`MethodSpec`** (per **F.11**). **If** expressed as pseudo-code, it is **`MethodDescription`**.
-* **Formal-description guard:** A formal mathematical or physical theorem, including a formal postulate theorem in physics, remains a Description episteme until a bounded use assigns specification use. Its formal language belongs to formality and publication-expression discipline; it becomes a specification only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another exact specification-granting condition.
+* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`**: `MethodDescription`, `TraditionDescription`. A **Description episteme admitted for specification use** appends **`...Spec`** and presupposes acceptance criteria, harnesses, measurable anchors, formal checkability, verification use, or another specification-granting gate named by value (normative in **E.10.D2** and neighbouring patterns). E.g., *Algorithm* is a species of `MethodDescription` for a computer (a system in the role of information transformer); **if** expressed in a formal language **and** bundled with acceptance tests, it is **`MethodSpec`** (per **F.11**). **If** expressed as pseudo-code, it is **`MethodDescription`**.
+* **Formal-description guard:** A formal mathematical or physical theorem, including a formal postulate theorem in physics, remains a Description episteme until a bounded use assigns specification use. Its formal language belongs to formality and publication-expression discipline; it becomes a specification only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another specification-granting condition named by value.
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `FlowDescription`/`FlowSpec`, `SystemDescription`/`SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
 * **Don’t:** `SamplingAlgorithm` (when it is just prose), `SamplingProcessSpec` (head not signalling kind).
@@ -107,7 +107,7 @@ keywords:
 * **Onto‑Deon — Deontic lexicon guard (Core register)**
 **Rule.** In the Conceptual Core, avoid using **“Standard”** as the head noun of an EntityOfConcern name unless the object is an explicit **deontic speech-act** under the **Gov** lens (cf. E.3).
 
-For interface/boundary invariants and public commitments of **things** (holons, interfaces, ports), prefer exact EntityOfConcern-side names like **InterfaceContract**, **ComplianceProfile**, **AcceptanceSpec**, **InteropProfile**, etc.
+For interface/boundary invariants and public commitments of **things** (holons, interfaces, ports), prefer EntityOfConcern-side names named by value like **InterfaceContract**, **ComplianceProfile**, **AcceptanceSpec**, **InteropProfile**, etc.
 
 Use the word **standard** for a publication of a Description episteme, possibly admitted for specification use, that is *intended to be complied with* and has explicit compliance checks.
 

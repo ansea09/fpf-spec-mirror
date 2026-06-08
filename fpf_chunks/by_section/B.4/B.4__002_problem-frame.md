@@ -6,12 +6,12 @@ section_id: "B.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:1 — Problem Frame"
-line_start: 32442
-line_end: 32445
+line_start: 32476
+line_end: 32479
 dependencies:
   - "A.12"
   - "A.4"

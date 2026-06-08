@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 75528
-line_end: 75757
+line_start: 75842
+line_end: 76069
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -40,9 +40,9 @@ keywords:
 **Plain-name.** Ontology-first plain rewriting.
 
 **Intent.**
-Repair technical prose whose object, claim, relation, action, role, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Remaining word, head, naming, or wording-use problems then apply `E.10`, `E.10.ARCH`, `F.18`, or the exact pattern for the object.
+Repair technical prose whose object, claim, relation, action, role, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Remaining word, head, naming, or wording-use problems then apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern for the object.
 
-**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and exact source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects are live.
+**Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and exact source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects carry the repaired span's claim.
 
 **Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `J.4`, pattern-quality records, review records, `DRR`s, projection carriers, and source-side notes.
 
@@ -69,7 +69,7 @@ Typical in-scope prose includes:
 
 - If the problem is only one overloaded word or head after the content is visible, apply `E.10`.
 - If the problem is a durable reusable name, apply `F.18`.
-- If the span already names a live relation, source-use relation, state-family value, architecture label, characteristic, quality term, function wording, evidence claim, gate claim, work claim, decision claim, or other exact FPF object, apply the exact pattern for that object.
+- If the span already names the content-bearing relation, source-use relation, state-family value, architecture label, characteristic, quality term, function wording, evidence claim, gate claim, work claim, decision claim, or other FPF object named by value, apply the governing pattern for that object.
 - If the source text is only being observed and not admitted into FPF-governed prose, keep the observation source-side.
 
 **Primary EntityOfConcern in plain terms.** One phrase-level, sentence-level, row-level, paragraph-level, or small-section technical-prose repair whose goal is kind-preserving plain expression.
@@ -124,7 +124,7 @@ Use `OntologyFirstPlainRewrite` as a five-step repair over one bounded span.
 1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, negative catalogue, reference boilerplate, or other overwrap.
 2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim kind or relation kind, slot or use-position, admissible use, concerned role, and design/run or coupled-flow role it expresses. If a phrase part changes one of those values, keep it as content. If it only restates process, role label, negative catalogue, reference boilerplate, or quality proof without changing content, classify it as apparatus.
 3. **Remove or move apparatus.** Delete the apparatus or move it to the carrier where it belongs: `DRR`, review record, quality result, architecture note, ToC/J.4, projection carrier, release/landing evidence carrier, or source-side note. Do not replace it with a smoother synonym, role label, container word, or status word.
-4. **Restore remaining content precision.** Apply `E.10`, `E.10.ARCH`, `F.18`, or the exact governing pattern when a remaining word, head, relation, claim, slot/use-position, source-use role, durable name, or admissible-use boundary is still hidden.
+4. **Restore remaining content precision.** Apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern when a remaining word, head, relation, claim, slot/use-position, source-use role, durable name, or admissible-use boundary is still hidden.
 5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim/relation/action, slot/use-position, role, flow, established term, and admissible use. The rewrite fails if it changes one of those values without an accepted semantic decision, or if it becomes harder for the declared reader to use.
 
 Use the full result form when the repair must be inspectable; otherwise a local rewrite plus the kind-preservation check is enough.
@@ -137,10 +137,10 @@ Use the full result form when the repair must be inspectable; otherwise a local 
 | `ApparatusCandidateSet` | Visible pattern-application, role, carrier, locus, flow, status, process, negative-catalogue, reference, or quality-proof apparatus candidates. |
 | `ContentCandidateSet` | Phrase parts that may carry object, kind, claim, relation, slot/use-position, role, flow, evidence value, or user move. |
 | `ObjectOfConcern` | Object the span is about. |
-| `KindAndClaimMap` | Head kind, claim kind, relation kind, slot or use-position when live, admissible use, scope, and exact governing pattern when another pattern governs a specific outside claim. |
+| `KindAndClaimMap` | Head kind, claim kind, relation kind, slot or use-position when it changes admissible use, scope, and governing pattern when another pattern governs a specific outside claim. |
 | `ConcernedRoleAndFlow` | Role concerned with the object, plus design/run or coupled-flow role when it changes meaning. |
 | `ApparatusDisposition` | Removed, moved, retained as content, or blocker when separation is not yet possible. |
-| `RemainingContentPrecisionRestoration` | `not needed`, `E.10`, `E.10.ARCH`, `F.18`, exact governing pattern, or blocker. |
+| `RemainingContentPrecisionRestoration` | `not needed`, `E.10`, `E.10.ARCH`, `F.18`, governing pattern, or blocker. |
 | `PlainRewrite` | Short rewrite after apparatus removal and remaining-content precision restoration. |
 | `KindPreservationCheck` | Pre-rewrite and post-rewrite object kind, relation or claim kind, slot or use-position, admissible use, and scope; disposition is `preserved`, `split`, `intentionally changed by accepted decision`, or `blocker`. |
 | `LossCheck` | What became worse, less local, less current, less recoverable, or less usable if the rewrite is accepted. |
@@ -159,7 +159,7 @@ Pattern prose keeps:
 - the first useful move;
 - the practical delta and cost of missing it;
 - local boundary prose only for a documented local confusion and exact stop condition;
-- short declarative references to exact related patterns after the pattern's own content is visible.
+- short declarative references to related patterns after the pattern's own content is visible.
 
 Pattern prose moves out:
 
@@ -178,7 +178,7 @@ Pattern prose moves out:
 | Pattern text role | "Live pattern text must not contain corpus projection evidence." | "A pattern must not contain projection evidence about itself." |
 | Evaluation scope | "The evaluation has pre-landing host-set use." | "This is a host-only evaluation; corpus-entry values need corpus-projection evidence." |
 | Negative catalogue | "This pattern is not proof, not work, not a gate, not a decision." | "This pattern evaluates pattern quality; project evidence claims are governed by project-side evidence patterns." |
-| Role label | "The platform owns scale." | "A scale-preference claim over platform and non-platform alternatives is live." |
+| Role label | "The platform owns scale." | "The span makes a scale-preference claim over platform and non-platform alternatives." |
 | Publication/evidence mix | "The dashboard is the evidence gate." | "The dashboard is a publication form; evidence and gate claims need their own governing patterns." |
 
 ### F.19:6 - Bias-Annotation
@@ -195,9 +195,9 @@ Pattern prose moves out:
 | Check | Requirement |
 |---|---|
 | `CC-F19-1` | The repair names the text span and visible apparatus candidates before rewriting. |
-| `CC-F19-2` | The repair separates apparatus from content by object, kind, claim or relation kind, slot/use-position when live, admissible use, concerned role, and flow role; lexical dislike is not enough. |
+| `CC-F19-2` | The repair separates apparatus from content by object, kind, claim or relation kind, slot/use-position when it changes admissible use, concerned role, and flow role; lexical dislike is not enough. |
 | `CC-F19-3` | Apparatus is removed or moved before wording-use precision restoration is applied to the remaining content. |
-| `CC-F19-4` | Content-bearing wording remains content and is repaired by `E.10`, `E.10.ARCH`, `F.18`, or the exact governing pattern rather than deleted as style. |
+| `CC-F19-4` | Content-bearing wording remains content and is repaired by `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern rather than deleted as style. |
 | `CC-F19-5` | A removed apparatus word is not replaced by a synonym, metonymy, role label, container word, or status word that carries the same hidden apparatus. |
 | `CC-F19-6` | Established FPF terms are preserved unless a named precision-restoration or naming pattern changes them. |
 | `CC-F19-7` | Every accepted rewrite includes a `KindPreservationCheck`; a wording change that changes object kind, relation kind, claim kind, slot/use-position, admissible use, or scope without an accepted decision remains a blocker. |
@@ -210,12 +210,12 @@ Pattern prose moves out:
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | Lexical paint | One umbrella word is replaced by another while the object kind stays hidden. | Recover the object kind and rewrite in the object's technical name. |
-| Plain-language drift | Smooth prose drops the exact kind or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
+| Plain-language drift | Smooth prose drops the kind named by value or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
 | Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to its carrier and keep only the resulting user move or boundary. |
 | Role label as ontology | A role label replaces the object kind. | Name the object kind; state the role relation only when it changes the claim. |
-| Slot label as ontology | A slot, field, or use-position label replaces the object kind, or the same object in several slots is treated as several kinds. | Preserve object kind and slot/use-position separately and apply the exact pattern for the live relation, signature, lens, role, method, or work claim. |
+| Slot label as ontology | A slot, field, or use-position label replaces the object kind, or the same object in several slots is treated as several kinds. | Preserve object kind and slot/use-position separately and apply the governing pattern for the content-bearing relation, signature, lens, role, method, or work claim. |
 | Negative catalogue | The sentence defines an object by listing what it is not. | Lead with the positive object and action; keep only local documented confusion and exact stop condition. |
-| Overformalized precision | The rewrite preserves all terms but makes the sentence harder to think with or generalize from. | Keep the live kind and claim, drop non-load-bearing apparatus, and use a plain technical sentence plus exact reference where needed. |
+| Overformalized precision | The rewrite preserves all terms but makes the sentence harder to think with or generalize from. | Keep the content-bearing kind and claim, drop non-load-bearing apparatus, and use a plain technical sentence plus reference named by value where needed. |
 | Apparatus-preserving paraphrase | A rewrite changes wording but keeps the same status, process, or quality-proof apparatus. | Return to the apparatus/content split and repair by value. |
 
 ### F.19:9 - Consequences
@@ -229,7 +229,7 @@ The cost is that some edits need a short repair note before they look simple. Th
 Plain technical style in FPF is not a separate aesthetic layer. It is the visible result of ontology-first repair with less apparatus. The order matters:
 
 1. remove or move boilerplate apparatus;
-2. restore the remaining content through the exact wording-use, naming, relation, slot, source-use, or object pattern;
+2. restore the remaining content through the wording named by value-use, naming, relation, slot, source-use, or object pattern;
 3. write the shortest sentence that keeps the recovered meaning.
 
 Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phrase-style super-pattern. `E.10` catches words and heads whose kind or use is hidden. `F.19` catches the earlier phrase-level problem: the content may not even be visible until process, role, status, reference, quality, or negative-catalogue apparatus is removed.
@@ -252,12 +252,10 @@ Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phras
 | `E.10.ARCH` | Provides shared wording-use recovery architecture for remaining content. |
 | `F.18` | Settles durable reusable names after kind and use are known. |
 | `A.6.P` | Restores relation construction when the remaining content hides relation kind, endpoint, support/basis, or slot/use-position. |
-| `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Govern state-family, source/publication, characteristic/scale, and architecture/structure wording when those objects remain live after apparatus removal. |
+| `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Govern state-family, source/publication, characteristic/scale, and architecture/structure wording when those objects remain as content after apparatus removal. |
 | `E.21` | Consumes `F.19` findings through `PrecisionRestorationProfile`; it lowers affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | Use `F.19` in review, framing, and improvement-loop work while keeping quality-loop records out of pattern prose. |
 | `J.4` | Provides first-entry cues for phrase-level apparatus repair. |
 
 ### F.19:End
-
-# **Part G – Discipline SoTA Patterns Kit**
 

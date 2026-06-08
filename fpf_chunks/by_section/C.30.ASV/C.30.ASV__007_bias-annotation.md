@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 53431
-line_end: 53444
+line_start: 53580
+line_end: 53593
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,8 +63,8 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
 | Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
 | TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
-| Check-only bias | Every failed conformance check gives a repair move or exact governing pattern application. |
+| Check-only bias | Every failed conformance check gives a repair move or governing-pattern application. |
 | Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

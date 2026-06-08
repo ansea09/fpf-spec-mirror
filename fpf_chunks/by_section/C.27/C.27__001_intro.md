@@ -6,12 +6,12 @@ section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:intro — Intro"
-line_start: 47269
-line_end: 47306
+line_start: 47317
+line_end: 47356
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -59,7 +59,9 @@ keywords:
 
 **Described-system, description, and carrier discipline.** The described system, work, practice, method, service, or benchmark is not the C.27 record. A `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` is an authored description of temporal-claim adequacy. A document, table, page, report, or card may carry that description; it is not the temporal claim, not the dynamic system, and not the work trace.
 
-**Use-context and evidence/assumption discipline.** When this pattern says `supportedUse`, it means the decision, plan, diagnosis, comparison, publication, promise, assurance-facing relation, or other practical use that this exact C.27 record can carry given its `dynClaimPosture`, evidence path, model or planning assumption, source-use reference when live, windows, resistance or cost statement, and reopen condition. `unsupportedUse` means one nearby downstream claim, effect, or use that this exact record does not carry. These fields do not create permission; they state the pragmatic reach of the authored temporal-claim description.
+**Use-context and evidence/assumption discipline.** When this pattern says `supportedUse`, it means the decision, plan, diagnosis, comparison, publication, promise, assurance-facing relation, or other practical use that this C.27 record named by value can carry
+ given its `dynClaimPosture`, evidence path, model or planning assumption, source-use reference when that source use is being made
+, windows, resistance or cost statement, and reopen condition. `unsupportedUse` means one nearby downstream claim, effect, or use that this record named by value does not carry. These fields do not create permission; they state the pragmatic reach of the authored temporal-claim description.
 
 Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` and `unsupportedUse` only for the pragmatic reach of a temporal-claim record; use an evidence path, model assumption, source-use reference, or planning assumption for the reason a reading is credible; use `RouteRef` or a named FPF pattern relation when an existing FPF pattern governs the other question.
 
@@ -75,7 +77,7 @@ Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` an
 2. the difference between state, rate, and rate-change changes admissible use;
 3. the text can name at least target, intervention, window, resistance or cost, evidence path or assumption relation, supported use, and unsupported use or reopen trigger.
 
-Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the live issue, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
+Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the issue under repair, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
 
 For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. A local card should normally fit in 5-9 short lines; if it does not, clarify the claim, narrow it, or cite the existing FPF pattern that governs the other question. `RouteRef`, `C16RouteRef`, `G9ParityPlanRef`, and similar references appear only when the use is FPF-governed beyond the local note.
 

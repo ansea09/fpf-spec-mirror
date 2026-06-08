@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 68454
-line_end: 68549
+line_start: 68767
+line_end: 68862
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -31,7 +31,7 @@ keywords:
 
 ### E.23:4 - Solution
 
-`E.23` is the general method for repeated improvement of an object version under an exact object-under-improvement evaluation. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
+`E.23` is the general method for repeated improvement of an object version under an object-under-improvement evaluation named by value. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
 
 #### E.23:4.1 - Local names and kind settlement
 
@@ -64,7 +64,7 @@ For one quality-improvement loop:
 3. Use `E.22` to frame the first quality evaluation when the purpose is not already explicit.
 4. Run the object-under-improvement evaluation in its required result form. For one FPF pattern version, this is an `E.21` result with every required coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
 5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary.
-6. Apply repairs or variants to the object. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the exact pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the exact restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the live kind, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
+6. Apply repairs or variants to the object. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
 7. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, mandatory attention-discharge rows, and coordinate-specific payloads.
 8. Record what improved, what stayed floor-only, what was unchanged by value with loci, what became worse, and which rows moved outside the evaluation.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.

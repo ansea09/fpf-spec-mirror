@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality & Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_minimal-generality-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:7 — Minimal Generality & Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 59065
-line_end: 59133
+line_start: 59366
+line_end: 59434
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ It is **not** a USM scope and carries **no** truth/validity semantics.
 **DA‑D1 (kind anchoring, MUST).** The head noun names the **FPF kind being classified** (e.g., *Sense*, *Context*, *Role*, *Bridge*, *Characteristic*). Readers can answer “**X of what?**” without external context.
 **DA‑D2 (Characteristic, not axis, MUST).** Enumerated properties are named as **Characteristic**  within a **CharacteristicSpace** (MM‑CAL). Avoid spatial metaphors (*axis, dimension, plane, lane, tier, layer*) unless the metaphor is a **pattern‑defined primitive** in this spec.
 **DA‑D3 (Enum clarity, MUST).** If the term denotes an enumeration, (a) the value set is **small and closed**, (b) membership criteria are obvious from the definition, (c) the **kind being classified** is explicit in the name (e.g., `SenseFamily`, not bare *Family*, *RowPlane* or overly general *Facet*).
-**DA‑D4 (Anti‑recipe, MUST).** Do not bake *how-to* or local methods into discriminator names; those belong in `U.Method` or `U.MethodDescription`, or in `U.Capability` when the live kind is an ability envelope.
+**DA‑D4 (Anti‑recipe, MUST).** Do not bake *how-to* or local methods into discriminator names; those belong in `U.Method` or `U.MethodDescription`, or in `U.Capability` when the kind under repair is an ability envelope.
 **DA‑D5 (Mapping discipline, MUST).** Cross‑context interpretations go through a **Bridge** (F.9). Discriminator names must not suggest global identity.
 **DA‑D6 (Register discipline, SHOULD).** Keep normative tokens stable; synonyms live in **Plain** register only and must not appear in constraints/tests.
 **DA‑D7 (Ban generic combinators, MUST).** Reject vague composites like *NameUseMode*, *NamingScope*, *RowFacet/RowPlane/RowLane*. Each candidate must pass **DA‑D1** and **DA‑D3** (kind-anchored head and explicit **CharacteristicSpace**).

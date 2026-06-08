@@ -6,12 +6,12 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:12 — Relations"
-line_start: 28758
-line_end: 28765
+line_start: 28785
+line_end: 28792
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 
 Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
 
-Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and named governing patterns for structure-information, equivalence, and synthesis claims when those claim kinds are live.
+Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and governing patterns named for structure-information, equivalence, and synthesis claim kinds when those claim kinds are being made.
 
 Does not replace: `C.30.P` or `C.30.STRAT` wording-use precision restoration, `C.30` for grounded architecture adequacy and conditional architecture-description use, `C.29` for mathematical-lens use, `C.16` for measurement and characterization, `C.28` for causal-use relation, `B.3` for assurance, `A.10` and `G.6` for evidence, `A.20` and `A.21` for gates and release, `A.15` for work, `C.11` for decisions, or `E.17` for publication.
 

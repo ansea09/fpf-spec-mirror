@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-u-epistemicretargeting-as-efem-profile-entityofconcernchangemode-retarget.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:4 — Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
-line_start: 11577
-line_end: 11834
+line_start: 11588
+line_end: 11845
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -59,14 +59,14 @@ When a retargeting claim has FPF-governed use, the receiving text makes these de
 | `preservedCommitments` | What the receiving item still carries from the source under the declared invariant. |
 | `withdrawnOrNewCommitments` | What the receiving item drops, narrows, adds, widens, or changes. |
 | `admissiblePredicateChanges` | Which predicates or claim forms become admissible or inadmissible after `entityOfConcernRef` changes. |
-| `admissibilityValue` | The source-claim, bridge, or invariant witness value for the exact intended use. |
+| `admissibilityValue` | The source-claim, bridge, or invariant witness value for the intended use named by value. |
 | `retargetingWitness` | The reason the changed EntityOfConcern interpretation is admissible now. |
 | `counterWitness` | Any fact that weakens retargeting admissibility, such as missing bridge, invariant failure, unwitnessed predicate transfer, source contradiction, or hidden work/evidence/gate reliance. |
 | `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability goal, recoverability evidence, and source-bearing reopen condition. |
-| `admissibleUse` | The exact use that remains admissible now. |
+| `admissibleUse` | The admissible use named by value now. |
 | `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, TGA-path, temporal, or dynamics use that is not carried by the current item. |
-| `neighboringPatternHandoff` | The FPF pattern that carries the live neighboring claim, when one is live. |
-| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the live claim. |
+| `neighboringPatternHandoff` | The FPF pattern that carries the neighboring claim being made, when one is live. |
+| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the claim being made. |
 
 The decision block is not a new FPF kind, record, profile, publication form, or hidden evidence or justification object. It is a recoverable field set for retargeting cases. Ordinary local retargeting can stay compact when the source EntityOfConcern, receiving EntityOfConcern, bridge, invariant, and remaining reader action are already explicit.
 
@@ -280,7 +280,7 @@ Boundary rules:
 - if decoded or latent output is interpretable but not tied to source claim, access route, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
 - if changed problem formulation changes abductive prompt, candidate generation, rival-set formation, selected prime hypothesis, plausibility filtering, or abductive reopen, use `B.5.2`;
-- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or the exact neighboring governing pattern.
+- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or the neighboring governing pattern.
 
 `StructuralReinterpretation` in `E.18` receives retargeting semantics from this pattern. It is not a TGA-local retargeting kind and not proof that the source and receiving items preserve the same `entityOfConcernRef`.
 

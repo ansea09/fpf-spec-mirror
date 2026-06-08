@@ -6,12 +6,12 @@ section_id: "E.17.EFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:3 — Forces"
-line_start: 63659
-line_end: 63666
+line_start: 63970
+line_end: 63977
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,5 +39,5 @@ keywords:
 - **Face discipline vs reader fit.** The same source may need different renderings, but all of them still live on existing MVPK faces.
 - **Traceability vs accessibility.** Simpler renderings are useful only if readers can still recover how they relate to the source.
 - **Didactic usefulness vs policy misuse.** A didactic or speculative retelling may help humans, but it must not masquerade as assurance or gate-bearing content.
-- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others should use interpretation, retargeting, or world or gate governing patterns or exact project-side FPF kinds and references.
+- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others should use interpretation, retargeting, or world or gate governing patterns or project-side FPF kinds and references named by value.
 

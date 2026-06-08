@@ -6,12 +6,12 @@ section_id: "A.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.5/A.5__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.5 — Open‑Ended Kernel & Extension Layering"
   - "A.5:1 — Problem frame"
-line_start: 6661
-line_end: 6671
+line_start: 6669
+line_end: 6679
 dependencies:
 keywords:
   - "FPF architecture"

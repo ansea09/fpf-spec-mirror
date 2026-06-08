@@ -6,12 +6,12 @@ section_id: "A.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__010_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:9 — Rationale"
-line_start: 28355
-line_end: 28364
+line_start: 28381
+line_end: 28390
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -50,5 +50,5 @@ keywords:
   * early absorption at `block` without specifying execution strategy, and
   * deterministic publication semantics (commutative + associative + idempotent).
 * CV⇒GF activation is the mechanism that keeps orthogonality strict while still publishing a single gate decision publication: GF results do not replace CV failures.
-* Explicit folds for `error|timeout|unknown` make safety posture reviewable and profile-specific without inventing new decision values.
+* Explicit folds for `error|timeout|unknown` make safety review result inspectable and profile-specific without inventing new decision values.
 

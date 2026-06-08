@@ -6,12 +6,12 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 52904
-line_end: 52914
+line_start: 53053
+line_end: 53063
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 | View usefulness vs view overread | Views make architecture discussable, but a useful artifact can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
 | Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often travel together but are not the same kind. |
 | TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
-| Small triage vs full view record | Many cases need only the live structure kind and next move; full view records are justified only when they change action. |
+| Small triage vs full view record | Many cases need only the structure kind under consideration and next move; full view records are justified only when they change action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
 | Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
 

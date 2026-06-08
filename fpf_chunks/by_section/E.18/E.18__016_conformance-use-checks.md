@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_conformance-use-checks.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:15 — Conformance Use Checks"
-line_start: 66407
-line_end: 66417
+line_start: 66718
+line_end: 66728
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -49,5 +49,5 @@ keywords:
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
-Relation boundary: `E.18` governs transduction graph architecture. When a graph use raises work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the exact governing pattern for that relation before relying on the graph.
+Relation boundary: `E.18` governs transduction graph architecture. When a graph use raises work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the governing pattern for that relation before relying on the graph.
 

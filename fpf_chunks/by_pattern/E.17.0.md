@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
-line_start: 61812
-line_end: 62197
+line_start: 62120
+line_end: 62505
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -287,7 +287,7 @@ When views or Description epistemes, including Description epistemes admitted fo
   * using `U.EpistemicViewing` plus publication‑specific viewpoints,
   * emitting `U.View` instances declared against `publication face/form`/`interop publication form` kind via publication-face/form discipline.
 
-MultiViewDescribing therefore **does not re‑define EntityOfConcern-to-Description or specification-use refinement** (`Describe_EoC_DescEp` plus `specificationUseRef` when a neighbouring gate grants specification force) and does not introduce any `U.Work` on carriers; A.7 carries the describing boundary, A.6.2 and exact neighbouring gates carry specification-use refinement, and E.17 carries publication.
+MultiViewDescribing therefore **does not re‑define EntityOfConcern-to-Description or specification-use refinement** (`Describe_EoC_DescEp` plus `specificationUseRef` when a neighbouring gate grants specification force) and does not introduce any `U.Work` on carriers; A.7 carries the describing boundary, A.6.2 and neighboring pattern governing the claiming gates carry specification-use refinement, and E.17 carries publication.
 
 Explanation-facing renderings over the same source `U.Episteme` claims may later be classified by `ExplanationFaithfulnessProfile` on top of existing publication faces, but that profile does not create a second viewpoint calculus here. `U.MultiViewDescribing` continues to govern the epistemic distinction between viewpoints, views, and correspondences.
 

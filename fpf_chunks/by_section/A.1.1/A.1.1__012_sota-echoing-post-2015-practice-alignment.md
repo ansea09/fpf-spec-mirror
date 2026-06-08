@@ -6,12 +6,12 @@ section_id: "A.1.1:11"
 section_title: "SoTA-Echoing (post-2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__012_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
   - "A.1.1:11 — SoTA-Echoing (post-2015 practice alignment)"
-line_start: 1495
-line_end: 1505
+line_start: 1502
+line_end: 1512
 dependencies:
   - "A.1"
   - "A.2.1"

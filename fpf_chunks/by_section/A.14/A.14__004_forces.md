@@ -6,12 +6,12 @@ section_id: "A.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:3 — Forces"
-line_start: 19124
-line_end: 19132
+line_start: 19148
+line_end: 19156
 dependencies:
   - "A.1"
   - "B.1.1"

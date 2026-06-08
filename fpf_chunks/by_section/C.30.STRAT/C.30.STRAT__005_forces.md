@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__005_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:3 — Forces"
-line_start: 52670
-line_end: 52679
+line_start: 52781
+line_end: 52790
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,9 +51,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Source-language usability vs ontology | Practitioners need compact local words; FPF needs selected `ontologicalNeighborhood`, exact relation or claim-use, source-use disposition, and use boundary. |
-| Pattern placement vs ontological neighborhood | The placement is in the `C.30` pattern nest because the recurring first confusion is architecture or structure wording, but its exits may be A.6, C.16, C.2, C.29, evidence, assurance, gate, work, decision, or ordinary non-use. |
+| Source-language usability vs ontology | Practitioners need compact local words; FPF needs selected `ontologicalNeighborhood`, relation named by value or claim-use, source-use disposition, and use boundary. |
+| Pattern placement vs ontological neighborhood | The placement is in the `C.30` pattern nest because the recurring first confusion is architecture or structure wording, but recovered claims and relations are governed by the pattern named in `C.30.STRAT:4.2`. |
 | Thin repair vs shadow registry | Subject patterns need one pointer, not copied trigger lists. |
-| Direct governing pattern vs detour | If the relation, function-like use, control use, scale use, publication use, evidence use, or decision use is already exact, the exact governing pattern starts directly. |
-| Didactic payoff vs sterile precision | The repair is complete only when it leaves one useful move: exact governing-pattern application, local rewrite, source return, ordinary source label, or blocked use. |
+| Direct governing pattern vs detour | If the relation, function-like use, control use, scale use, publication use, evidence use, or decision use is already recovered by value, apply the governing pattern directly. |
+| Didactic payoff vs sterile precision | The repair is complete only when it leaves one useful move: governing-pattern application, local rewrite, source return, ordinary source label, or blocked use. |
 

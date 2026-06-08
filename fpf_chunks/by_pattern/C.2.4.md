@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 36474
-line_end: 36645
+line_start: 36511
+line_end: 36684
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -118,6 +118,7 @@ The distinction echoes work on sketching, focusing/TAE, embodied cue capture, an
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.5`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `A.6.P`, `B.4.1`, `B.5.2.0`.
 - Constrains: articulation thresholds for routing and repair.
+
 ### C.2.4:13 - Worked Examples and Edge Cases
 
 #### C.2.4:13.1 - High formality, low articulation
@@ -155,6 +156,7 @@ Statements such as "still vague", "more explicit now", or "ready for formalizati
 
 #### C.2.4:15.3 - Boundary reminder
 `AE` does not govern closure, confidence, or warrant. If authors want those meanings, they must publish them through their own governing patterns.
+
 ### C.2.4:16 - Articulation Publication Package Discipline
 
 #### C.2.4:16.1 - Minimal articulation package

@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:1 — Problem frame"
-line_start: 52421
-line_end: 52442
+line_start: 52531
+line_end: 52552
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -48,19 +47,19 @@ Working engineers often say "architecture" or "structure" while pointing at a us
 
 The repair question is:
 
-> Which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim does the wording name, and which exact FPF pattern now carries the claim?
+> Which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim does the wording name, and which FPF pattern governs that claim?
 
-The live architecture or structure use may be:
+The architecture or structure use under repair may be:
 
 - selected structure under `A.22`;
 - an `ArchitectureOf@Context` claim under `C.30`, a thin architecture-description bridge under `C.30`, or the full architecture-description mechanism under `C.30.AD`;
-- an `ArchitectureStructuralView@Context` or exact `C.30.*` subcase;
+- an `ArchitectureStructuralView@Context` or named `C.30.*` subcase;
 - a publication, view, face, `PublicationUnit`, carrier, dashboard, ADR, source document, or source-return relation under `C.2.P` or `E.17`;
 - a relation construction under `A.6.P`;
 - a function or functionality-kind use under `A.6.F`;
 - a mathematical-lens use claim under `C.29`;
 - a characteristic, scale, score, coordinate, threshold, or quality-coordinate claim under `C.16.P` or `C.16`;
 - a Q-bundle or quality-characterization claim under `C.16.Q`, `C.25`, or `E.21`;
-- an evidence, assurance, gate, work, decision, causal-use, release, or method claim under its exact pattern;
-- ordinary prose with no current FPF-governed use.
+- an evidence, assurance, gate, work, decision, causal-use, release, or method claim under its governing pattern;
+- ordinary prose with no FPF-governed use being made.
 

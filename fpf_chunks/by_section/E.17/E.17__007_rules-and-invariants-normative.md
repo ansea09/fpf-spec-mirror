@@ -6,12 +6,12 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 63406
-line_end: 63453
+line_start: 63717
+line_end: 63764
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -61,7 +61,7 @@ For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_v
     * *Defaults:* `PlainView ⪯ TechCard ⪯ InteropCard`.
     * *Note:* `AssuranceLane` is independent of the formality chain; it binds **evidence‑about‑claims** and MUST NOT introduce new claims **of** the morphism.
 3. **Description-source and specification-use sourcing and EpistemicViewing compatibility (A.7 and E.10.D2, A.6.2–A.6.3, E.17.0).**
-    * (a) Inputs to `Emit_s(-)` are **existing Description epistemes** about the same arrow (for example, `MethodDescription`, `MethodSpec` when specification use has been granted by exact neighbouring gates). MVPK does **not** redefine, collapse, or create EntityOfConcern-to-Description or specification-use mechanisms.
+    * (a) Inputs to `Emit_s(-)` are **existing Description epistemes** about the same arrow (for example, `MethodDescription`, `MethodSpec` when specification use has been granted by neighboring pattern governing the claiming gates). MVPK does **not** redefine, collapse, or create EntityOfConcern-to-Description or specification-use mechanisms.
     * (b) Each `Emit_s(-)` SHALL be realised as a species of `U.EpistemicViewing` (A.6.3) over those Description epistemes: entityOfConcern‑preserving, effect‑free and conservative in the sense of A.6.2 and A.6.3. Publication adds no new commitments beyond what is present in the referenced Description episteme.
     * (c) Edition governance respects `U.EditionSeries` and UTS; rows remain the row identity handles for names; MVPK faces MUST be (re‑)emitted when the underlying Description-episteme or specification-use editions change.
 4. **Pin discipline (Part F and Part G).**

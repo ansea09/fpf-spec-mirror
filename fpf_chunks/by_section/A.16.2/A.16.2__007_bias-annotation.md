@@ -6,12 +6,12 @@ section_id: "A.16.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:6 — Bias-Annotation"
-line_start: 22150
-line_end: 22152
+line_start: 22175
+line_end: 22177
 dependencies:
   - "A.16"
   - "A.16.0"

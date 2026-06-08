@@ -6,12 +6,12 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 53989
-line_end: 53996
+line_start: 54142
+line_end: 54149
 dependencies:
   - "A.10"
   - "A.22"
@@ -44,7 +44,7 @@ keywords:
 
 The gain is an early architecture move that is small and precise. The practitioner can preserve useful problem language such as conflict, frustration, level, layer, or local optimization while recovering the FPF fields that keep the claim reviewable.
 
-The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or exact governing pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until they are live.
+The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or governing-pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, stakeholder mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
 
-This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; the admitted candidate-generation or architecture synthesis pattern carries residual-reducing candidate moves; and the decision pattern carries any final selected architecture.
+This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; `G.5` carries residual-reducing candidate sets; and the decision pattern carries any final selected architecture.
 

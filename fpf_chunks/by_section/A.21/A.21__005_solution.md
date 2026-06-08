@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:4 — Solution"
-line_start: 28082
-line_end: 28270
+line_start: 28108
+line_end: 28296
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -104,7 +104,7 @@ Publications carry only:
 A check may encounter `error`, `timeout`, or evidence-scoped `unknown`. These do **not** become new decision values; they are folded into the decision lattice **by profile and check policy**.
 **Normative minimum folds (tri-state).**
 
-> **Naming note.** Some conformance tables use **Lean** as a label for the `GateProfile=Lite` gating posture. Treat this as an alias only, and do not confuse it with `PublishMode=Lite` (a publication-face reduction mode).
+> **Naming note.** Some conformance tables use **Lean** as a label for the `GateProfile=Lite` GateProfile value. Treat this as an alias only, and do not confuse it with `PublishMode=Lite` (a publication-face reduction mode).
 
 | Active `GateProfile` | `error` fold | `timeout` fold | `unknown` fold (evidence-scoped) |
 | -------------------- | -----------: | -------------: | ------------------------------: |
@@ -113,13 +113,13 @@ A check may encounter `error`, `timeout`, or evidence-scoped `unknown`. These do
 | `SafetyCritical`     |      `block` |        `block` | per `GateCheck` policy (safety-default: `degrade`) |
 | `RegulatedX`         |      `block` |        `block` | per `GateCheck` policy (safety-default: `degrade`); X identity and edition are recorded in `DecisionLog` |
 
-Where a `GateCheck` declares an evidence-scoped `unknown` strategy, that strategy is part of the check’s intensional definition; the fold applied and its justification are recorded in `DecisionLog`.
+Where a `GateCheck` declares an evidence-scoped `unknown` strategy, that strategy is part of the check's criteria definition; the fold applied and its justification are recorded in `DecisionLog`.
 
 #### A.21:4.6 - GateProfiles: current binding and minimum profile semantics
 
 A.21 binds the following *functional role* of `GateProfile`:
 
-> **Terminology (avoid `Lite`/`Lean` confusion).** `GateProfile=Lite|Core|SafetyCritical|RegulatedX` is the **gating posture** that determines the effective GateCheck set and fold policies. `PublishMode=Lite` is a **publication-face reduction mode** (AssuranceLane‑Lite / TechCard‑Lite) and MUST NOT be interpreted as a reduced-obligation `GateProfile`.
+> **Terminology (avoid `Lite`/`Lean` confusion).** `GateProfile=Lite|Core|SafetyCritical|RegulatedX` is the **GateProfile value** that determines the effective GateCheck set and fold policies. `PublishMode=Lite` is a **publication-face reduction mode** (AssuranceLane‑Lite / TechCard‑Lite) and MUST NOT be interpreted as a reduced-obligation `GateProfile`.
 
 * A `GateProfile` is an attribute of a **branch or `PathSlice`**; the default is `Core`.
 * Local overrides may change the active profile for the current GateCrossing and its subordinate scope **but cannot reduce** the already-effective set of `GateCheckKind`s; only additions are allowed. Weakening SHALL use a new `PathSlice` via sentinel.
@@ -144,7 +144,7 @@ A.21 binds the following *functional role* of `GateProfile`:
 * any `GateCheckRef.edition` changes (including regulator X editions for `RegulatedConformance(X)`),
 * the declared `Γ_time` basis changes or resolves differently,
 * a relevant `FreshnessTicket` expires/changes or TOCTOU window constraints change,
-* a sentinel-bounded `subflow` refresh adds an SCR/RSCR carrier to the `DecisionLog` rationale-anchor set,
+* a sentinel-bounded `subflow` refresh adds an SCR/RSCR carrier to the `DecisionLog` rationale-reference set,
 
 * any input breaks the declared `A.21` equivalence witness.
 
@@ -167,7 +167,7 @@ The gate publishes faces to record **what is declared**, not “how it executes�
   * **Gate-requirement on edition refs.** Any face that cites `CGSpec`, `ComparatorSet`, or `UNM.TransportRegistryPhi` editions also includes `BridgeCard + UTS row` through `F.9`, `F.17`, `E.17`, and `E.18`; otherwise downstream consumption is non-conformant.
 * ReferencePlane and CL: source `ReferencePlane` pins and target `ReferencePlane` pins; `CLPlane` / “CL^plane” (for non-crossings `CL^plane = none` is allowed, but pins are still explicit); any Φ penalties are published as rule refs and appear in the **R-channel only**
 * Freshness: declared `GammaTime` / “Γ_time” pin and presence/absence of `FreshnessTicket` (refs)
-* Evidence: SCR/RSCR carrier anchors (refs) + VALATA (VA/LA/TA) presence on AssuranceLane
+* Evidence: SCR/RSCR carrier references (refs) + VALATA (VA/LA/TA) presence on AssuranceLane
 * Guards: `USM.CompareGuard` / `USM.LaunchGuard` applicability pins (presence-only; GuardFail uses the `A.2.6` guard vocabulary and is aggregated here by the gate referenced by the existing aggregation-assignment field `GuardOwnerGateId`)
 * Decision: aggregated `GateDecision` and `DecisionLogRef`
 
@@ -183,7 +183,7 @@ The gate publishes faces to record **what is declared**, not “how it executes�
 
 * gate identity + `PathSliceId` (+ `PublicationScopeId` when the log is published via a face bundle)
 * each `GateCheckKind`, its `GateCheckRef.edition`, and its folded outcome (`pass|degrade|block|abstain`) including the applied `error|timeout|unknown` fold
-* rule anchors / evidence anchors (SCR/RSCR carriers + VALATA bindings); SquareLaw mismatched pins appear only when the crossing check is live
+* rule references / evidence references (SCR/RSCR carriers + VALATA bindings); SquareLaw mismatched pins appear only when the crossing check is live
 
 * policy-id dependencies used by checks (as `PolicyIdRef` bundles per F.8:8.1); `Φ(CL)`, `Φ_plane`, and `Ψ(CL^k)` appear only when bridge or crossing is live, while gate-local policy ids appear only when consulted by the active profile
 

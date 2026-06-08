@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:12 — Relations"
-line_start: 15465
-line_end: 15496
+line_start: 15487
+line_end: 15518
 dependencies:
   - "A.10"
   - "A.14"
@@ -78,5 +78,5 @@ Base declarations inherit the rule that time-dependent assumptions require expli
 Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose must name explicit relation kinds and keep the meaning lane separate (SenseCell/ConceptSet).
 
 **Constrains support wording in A.6.P/E.10.**
-Support-looking phrases that mean base-dependence are governed here: select a declared `baseRelation`, name `dependent` and `base`, add scope/time/witnesses as live, and preserve polarity. Support-looking phrases that do not mean base-dependence use the exact governing pattern ontology rather than becoming `SupportRelation`, `SupportBasis`, or `SupportRecord` buckets.
+Support-looking phrases that mean base-dependence are governed here: select a declared `baseRelation`, name `dependent` and `base`, add scope/time/witnesses as live, and preserve polarity. Support-looking phrases that do not mean base-dependence use the ontology of the governing pattern for that claim rather than becoming `SupportRelation`, `SupportBasis`, or `SupportRecord` buckets.
 

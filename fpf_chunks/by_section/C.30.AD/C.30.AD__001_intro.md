@@ -6,12 +6,12 @@ section_id: "C.30.AD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:intro — Intro"
-line_start: 52030
-line_end: 52044
+line_start: 52138
+line_end: 52152
 dependencies:
   - "A.10"
   - "A.15"

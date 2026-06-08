@@ -6,12 +6,12 @@ section_id: "A.16.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:intro — Intro"
-line_start: 21809
-line_end: 21824
+line_start: 21834
+line_end: 21849
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,5 +50,5 @@ keywords:
 
 **Typical next governing patterns.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `C.16.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
 
-**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the receiving governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
+**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
 

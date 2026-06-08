@@ -6,12 +6,12 @@ section_id: "A.16.1:18"
 section_title: "Worked Cue Complexes and Review Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__019_worked-cue-complexes-and-review-tests.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:18 — Worked Cue Complexes and Review Tests"
-line_start: 22049
-line_end: 22059
+line_start: 22074
+line_end: 22084
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ A cue pack may combine trace refs, embodiment refs, model-state refs, and exempl
 A reviewer may ask: if all candidate anchors and witnesses were removed, would anything remain that justifies preserving this pack at all? If the answer is still unclear what is being preserved, the pack is under-specified and should be rewritten, retired, or not published yet.
 
 #### A.16.1:18.3 - Review test for covert endpoint capture
-A reviewer should also ask whether any sentence in the pack would become false if the receiving endpoint pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
+A reviewer should also ask whether any sentence in the pack would become false if the endpoint governing pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
 

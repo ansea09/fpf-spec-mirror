@@ -6,12 +6,12 @@ section_id: "G.12:4"
 section_title: "Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__005_solution-compute-and-publish-dhc-series-admissibly-with-rscr-ready-telemetry.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:4 — Solution — Compute and publish DHC series admissibly, with RSCR-ready telemetry"
-line_start: 81601
-line_end: 81893
+line_start: 81916
+line_end: 82208
 dependencies:
   - "A.19"
   - "C.18"

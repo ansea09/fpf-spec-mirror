@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
-line_start: 71395
-line_end: 71965
+line_start: 71707
+line_end: 72278
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"
@@ -610,6 +610,7 @@ A reader can test bridge integrity with six questions:
 6. **If a stance overlay exists, does it stay within the bridge card's kind, direction, `CL`, and Loss Notes?**
 
 Migration from legacy "same/equivalent/align/map" prose should therefore recover the Bridge Card first, then any row support, then any optional stance overlay. Doing it in the opposite order recreates silent equivalence under new vocabulary.
+
 ### F.9:14a - C.29 mathematical-lens use relation
 
 > When meaning, substitution, sense cells, direction, `CL`, or Bridge-supported use crosses context, write the `F.9` Bridge Card first. Add the applicable `C.29` output only for mathematical-lens use: candidate mathematical object, `LensMappingMode`, preserved and lost structure, exposed invariants or distinctions, lens-use admissibility value, admissible and non-admissible use, and stop condition. Do not duplicate Bridge semantics inside MathLensUse. A Bridge may make a mathematical lens interpretable across contexts without making it substitution-safe.

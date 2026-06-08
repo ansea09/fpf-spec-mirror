@@ -6,12 +6,12 @@ section_id: "A.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:9 — Consequences"
-line_start: 28730
-line_end: 28738
+line_start: 28756
+line_end: 28765
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,8 +63,9 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| FPF gains a reusable selected-structure EntityOfConcern without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or exact reliance relation, preserved and lost structure, and non-admissible use when the claim has FPF-governed use. |
+| FPF gains a reusable selected-structure EntityOfConcern without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or reliance relation named by value, preserved and lost structure, and non-admissible use when the claim has FPF-governed use. |
 | Structural views become usable without confusing the view, carrier, publication, source relation, grounding relation, and selected structure EntityOfConcern. | Existing loose prose that says "the structure is the diagram" needs repair. |
-| C.29 mathematical lenses and E.18 TGA graphs can supply governed reliance relations for structure claims without becoming structure ontology. | Exact FPF pattern applications are named when evidence, assurance, causality, gate, work, or decision claims are live. |
-| Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture claim or durable architecture-description use is live. |
+| C.29 mathematical lenses and E.18 TGA graphs can supply governed reliance relations for structure claims without becoming structure ontology. | FPF pattern applications are named by value when evidence, assurance, causal-use, gate, work, or decision claims are being made.
+ |
+| Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture claim or durable architecture-description use is being made. |
 

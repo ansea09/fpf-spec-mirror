@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
-line_start: 19364
-line_end: 19792
+line_start: 19388
+line_end: 19816
 dependencies:
   - "A.10"
   - "A.12"
@@ -63,18 +63,18 @@ keywords:
 1. Name the role, holder, and context distinction that is live.
 2. Name the method or method description that is meant to govern the work.
 3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
-4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the exact FPF pattern and exact project-side FPF kind and reference for the live claim or effect, or stop.
+4. Choose the next move: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the governing FPF pattern and project-side FPF kind and reference named by value for the claim being made or effect, or stop.
 5. If a visible item is being used by appearance for a work claim, reliance claim, or source-restoration claim, move to `A.15.4 Work-Relevant Source Restoration` and return here only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 
 **Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible project move. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
 
-**Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the exact project-side FPF kind and reference needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
+**Minimum sufficient next move.** Choose the minimum sufficient next move, recover only the project-side FPF kind and reference named by value needed for that move, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
 
-**Recovered-source green path.** If the required exact project-side FPF kind and reference is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
+**Recovered-source green path.** If the required project-side FPF kind and reference named by value is present and its scope and window match the live role, method, plan, or work move, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or unsupported-claim block needed for the next move.
 
 **Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
 
-**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the live issue is whether a visible item has the exact project-side FPF kind and reference needed for that work claim or reliance claim.
+**Reliance-bearing use.** Open the fuller alignment frame when the item is about to guide planned work, actual work, role attribution, status attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the issue under repair is whether a visible item has the project-side FPF kind and reference named by value needed for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work move or reliance move and blocks no concrete overclaim about role, method, plan, work, status, approval, evidence, or release.
 
@@ -98,7 +98,7 @@ keywords:
 
 **Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
 
-**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the live question is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
+**Related-record mistakes.** If the first honest encountered item is still only a cue, keep it under `A.16` or `A.16.1`; if the question under repair is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a visible item is being used for a work relation or reliance relation, use `A.15.4`.
 
 **Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may orient work or cue attention. It becomes sufficient for work execution, plan use, approval, gate decision, or execution evidence only when the required method, plan, approval, gate, or evidence source remains explicit and reopenable. Treat the coarsened-rendering relation through `A.6.3.CSC Controlled Semantic Coarsening` when the rendering itself changes what can be relied on.
 
@@ -236,9 +236,9 @@ Every `CheckpointReturn` should carry:
 - the evidence observed on each tested approach, including progress toward the named work-measure threshold and important failure signals
 - the budget already burned and the residual budget still available
 - the recommended next work move or reliance move: continue probing, commit to planned work, narrow the method or claim, hand off, or stop
-- the exact commit trigger that would justify leaving the bounded probe
+- the commit trigger named by value that would justify leaving the bounded probe
 
-The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution-evidence path, or rollout decision. Those claims need the exact project-side FPF kind and reference before committed rollout.
+The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution-evidence path, or rollout decision. Those claims need the project-side FPF kind and reference named by value before committed rollout.
 
 Low-human-overlap approaches remain admissible here only while they stay tied to the declared outcome criterion, budget guard rails, and evidence path by value.
 
@@ -246,13 +246,13 @@ Low-human-overlap approaches remain admissible here only while they stay tied to
 
 Use `A.15.4` when an encountered episteme, episteme publication, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain is being used by appearance for a work claim, reliance claim, role/status currentness claim, approval, permission, gate passage, evidence, engineering justification, release reliance, or performed `U.Work`.
 
-`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which exact project-side FPF kind and reference must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the exact source pattern named there.
+`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question asks which project-side FPF kind and reference named by value must be recovered before the encountered item can carry the live work claim, reliance claim, or effect; that question belongs to `A.15.4` or to the source-restoration pattern governing that reliance named there.
 
 A principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable may help the team plan work or find the needed source. It does not replace the selected method, `U.WorkPlan`, performed `U.Work`, evidence path, gate or decision record, engineering-justification record, or release-reliance source.
 
 ### A.15:5 - Archetypal Grounding
 
-The role-method-work alignment applies whenever the live question is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
+The role-method-work alignment applies whenever the question under repair is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
 
 | Archetype | **`U.System` Archetype (Manufacturing)** | **`U.Episteme` Archetype (Scientific Peer Review)** |
 | :--- | :--- | :--- |
@@ -273,7 +273,7 @@ This side-by-side comparison reveals the power of the framework. A seemingly dif
 
 **Briefing slice.** `Status briefing only: rollback path appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence path.`
 
-This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the exact evidence, gate, decision, or assurance pattern to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
+This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern governing the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
 
 #### A.15:5.1.b - P2W principle-scheme publication guides planning, not occurrence
 
@@ -281,7 +281,7 @@ This briefing may orient the team and cue attention. If the team wants to execut
 
 **Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any run is recorded.`
 
-This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, material carrier, screen, export, OCR behavior, or publication-use, apply the exact pattern for that live claim. If no exact project-side kind and reference exists, create only a source-restoration request, decision-request record for the next decision, prospective work-plan entry, or explicit source-gap note.
+This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, material carrier, screen, export, OCR behavior, or publication-use, apply the governing pattern for that claim being made. If no project-side kind and reference named by value exists, create only a source-restoration request, decision-request record for the next decision, prospective work-plan entry, or explicit source-gap note.
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
@@ -289,7 +289,7 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the exact `A.15` selected-method, work-plan, or work-occurrence record. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the exact project evidence path, gate or constraint decision, or engineering-justification record under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
+The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the selected `A.15` selected-method, work-plan, or work-occurrence record named by value. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence path, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
 
 ### A.15:6 - Bias-Annotation
 
@@ -328,7 +328,7 @@ To preserve role-method-work modeling, a conforming model or use SHALL satisfy t
 | **CC-A15-11 (KindFit)** | A conforming `performedBy` assignment SHALL use a `U.Role` appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
 | **CC-A15-12 (Causal-use Work Boundary)** | A conforming causal-use model MAY represent intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work here only as `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, and role-assigned execution structure. Any claim that the resulting causal use is admissible SHALL cite `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, and supported use and unsupported use. | Prevents method, work-plan, or work-occurrence structure from being mistaken for causal-use support. |
 | **CC-A15-13 (A.15.4 Boundary)** | If a visible item is being used for a work relation or reliance relation by appearance, a conforming `A.15` use SHALL use `A.15.4` for the source-restoration question and keep only the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation here. | Prevents the A.15 kernel from absorbing source-restoration claims. |
-| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable as the selected method, `U.WorkPlan`, performed `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the exact `A.15` object being guided; any non-A.15 claim uses its exact pattern or `A.15.4` source restoration. |
+| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable as the selected method, `U.WorkPlan`, performed `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the selected `A.15` object named by value; any non-A.15 claim uses its governing pattern or `A.15.4` source restoration. |
 
 ### A.15:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -338,9 +338,9 @@ To preserve role-method-work modeling, a conforming model or use SHALL satisfy t
 - **Capability-as-work.** Do not treat possession of a capability as if the task has already been performed; capability enables execution under conditions but is not execution.
 - **Approval collapse.** Keep approval or authorization speech acts distinct from the operational step they open; model them as communicative `U.Work` when they institute a role, gate, or commitment effect.
 - **Process soup.** Do not leave "process", "workflow", or "activity" uninterpreted in FPF-governed passages; resolve the source cue to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, or `U.Work`.
-- **Briefing-as-execution-cue.** A lighter review note, rollout summary, or redacted operations note may orient work; use `A.15.4` or the exact source pattern before relying on it for execution, approval, gate, evidence, or plan claims.
-- **P2W publication as work occurrence.** A principle scheme, functional diagram, scenario, screen, or explanation may guide exact method or work-planning moves; recover the exact project-side FPF kind and reference for any selected-method, work-plan, work-occurrence, result, evidence, gate, or engineering-justification claim.
-- **Visible item as work source.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is only a source candidate until `A.15.4` recovers the exact project-side kind and reference needed for the live work or reliance claim.
+- **Briefing-as-execution-cue.** A lighter review note, rollout summary, or redacted operations note may orient work; use `A.15.4` or the source-restoration pattern governing that reliance before relying on it for execution, approval, gate, evidence, or plan claims.
+- **P2W publication as work occurrence.** A principle scheme, functional diagram, scenario, screen, or explanation may guide selected method or work-planning moves named by value; recover the project-side FPF kind and reference named by value for any selected-method, work-plan, work-occurrence, result, evidence, gate, or engineering-justification claim.
+- **Visible item as work source.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is only a source candidate until `A.15.4` recovers the project-side kind and reference named by value needed for the live work or reliance claim.
 
 ### A.15:9 - Consequences
 
@@ -390,7 +390,7 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 | Approval and execution are distinct practical acts. | Change-enablement and decision-modeling practice separates risk assessment, authorization, scheduling, decision logic, and the work that realizes change. | ITIL 4 Practitioner: Change Enablement (2023); OMG DMN 1.5 (2024); source maturity = current practitioner guidance plus mature modeling standard. | In the release and gate examples, an approval or authorization institutes an authorization or gate-relevant effect; it is not the same work as deployment, welding, or other operational occurrence. | **Adopt.** Adopt the communicative/operational split and reject collapse of approval into the thing approved. |
 | Fast bounded exploration must not become committed rollout by convenience. | Contemporary agentic tool-use and adaptive-work practice, including ReAct, Toolformer, and Reflexion-style tool-use and self-correction lines, supports bounded probing while preserving explicit transition from option exploration to committed change. | Current agentic tool-use and self-correction practice; ITIL 4 Practitioner: Change Enablement (2023); ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025); source maturity = current technical and practitioner guidance plus mature and current modeling standards. | The scout and probe moment returns candidate-approach evidence, observed result, burned and residual budget amounts, and a commit trigger rather than a selected method, `U.WorkPlan`, performed `U.Work`, or rollout decision. | **Adapt and reject.** Adapt bounded scout and probe discipline to FPF role, method, work-plan, and work-occurrence splits; reject the shortcut where an early probe silently becomes a committed method choice, work plan, or rollout. |
 
-For visible credential, provenance, dashboard, explanation, or composed-source cases that need exact project-side FPF kind and reference before work or reliance, use `A.15.4`. The A.15 family carries only the returned role, method, plan, and work part of the case.
+For visible credential, provenance, dashboard, explanation, or composed-source cases that need project-side FPF kind and reference named by value before work or reliance, use `A.15.4`. The A.15 family carries only the returned role, method, plan, and work part of the case.
 
 The nearest recovery loci are the manufacturing, peer-review, rollout briefing, `CC-A15-7`, `CC-A15-10`, `CC-A15-12`, and the boundary to `A.15.4`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15` rule.
 
@@ -448,7 +448,7 @@ Useful outputs:
 
 When `E.18.1` reaches WorkPlanning, this family carries the split among selected method, `U.WorkPlan`, `SlotFillingsPlanItem`, performed `U.Work`, and result-related records. A P2W principle scheme, functional diagram, or scenario may guide method inspection and work-planning preparation only after the current work-family object is named.
 
-WorkPlanning may place evidence-reference hooks and source-currentness requests for the exact pattern that carries the live relation. If the live relation is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning record.
+WorkPlanning may place evidence-reference hooks and source-currentness requests for the governing pattern that carries the live relation. If the live relation is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning record.
 
 ### A.15:12d - P2W Performed-Work Relation
 
@@ -468,7 +468,7 @@ Lower an `A.15` claim when the role, holder, bounded context, method, method des
 
 Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence path changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
 
-Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new live evidence, assurance, gate, source-restoration, or mathematical-lens relation. If the live issue after refresh is no longer role-method-work alignment, use the exact pattern for that relation and keep only the returned `A.15` separation here.
+Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new live evidence, assurance, gate, source-restoration, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the returned `A.15` separation here.
 
 ### A.15:End
 

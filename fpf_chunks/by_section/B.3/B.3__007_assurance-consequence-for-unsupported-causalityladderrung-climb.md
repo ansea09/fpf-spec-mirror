@@ -6,12 +6,12 @@ section_id: "B.3:4.9"
 section_title: "Assurance consequence for unsupported CausalityLadderRung climb"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_assurance-consequence-for-unsupported-causalityladderrung-climb.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4.9 — Assurance consequence for unsupported CausalityLadderRung climb"
-line_start: 31695
-line_end: 31719
+line_start: 31729
+line_end: 31753
 dependencies:
   - "A.10"
   - "A.12"
@@ -65,7 +65,7 @@ keywords:
 CausalUseSupportVerdict = supported | bounded | unsupported | abstain
 ```
 
-`CausalAssuranceTupleTrigger` is narrower than local causal-use repair. A local `C.28` downgrade, redirection to a named receiving relation, or abstain disposition does not require a new `B.3` assurance tuple by itself. Create or update a `B.3` tuple only when the causal-use claim is assurance-bearing, publication-bearing, release-bearing, or reused as an input to assurance, trust, certification, risk acceptance, or downstream selection. Exploratory causal wording, local causal wording repair, or a `C.28` cheap stop remains outside `B.3` until it changes assurance or publication use.
+`CausalAssuranceTupleTrigger` is narrower than local causal-use repair. A local `C.28` downgrade, redirection to a relation governing the asserted use, or abstain disposition does not require a new `B.3` assurance tuple by itself. Create or update a `B.3` tuple only when the causal-use claim is assurance-bearing, publication-bearing, release-bearing, or reused as an input to assurance, trust, certification, risk acceptance, or downstream selection. Exploratory causal wording, local causal wording repair, or a `C.28` cheap stop remains outside `B.3` until it changes assurance or publication use.
 
 Unsupported `CausalityLadderRung` climb lowers, blocks, or abstains from `R` for the affected causal-use claim. If `CounterfactualSamplingRealizabilityProfile.verdict = nonrealizable`, `B.3` lowers or blocks `R` for claims that require direct counterfactual-comparison sampling evidence. If `CounterfactualSamplingRealizabilityProfile.verdict = unknown`, direct-realization claims are unsupported, but identified, bounded, or simulation-only admissible use may still be admissible when `C.28` declares the admissible use and unadmissible use.
 

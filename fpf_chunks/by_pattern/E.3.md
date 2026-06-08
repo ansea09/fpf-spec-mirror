@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.3.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
-line_start: 55846
-line_end: 55998
+line_start: 56129
+line_end: 56282
 dependencies:
   - "E.2"
 keywords:
@@ -44,6 +44,7 @@ When two pillars or derived principles pull in opposite directions, architectura
 | **Evolutionary Stability**            | Durable core ↔ adaptability to new knowledge                       |
 
 ### E.3:4 - Solution
+
 #### E.3:4.1 - **Principle Taxonomy**
    Every principle is an instance of `U.Principle` assigned **exactly one** class ∈ { `Gov`, `Arch`, `Epist`, `Prag`, `Did` }.
 

@@ -6,12 +6,12 @@ section_id: "A.6.9:End"
 section_title: "A.6.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__014_a-6-9-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.9 — U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)"
   - "A.6.9:End — A.6.9:End"
-line_start: 16879
-line_end: 16880
+line_start: 16901
+line_end: 16902
 dependencies:
   - "A.6.6"
   - "A.6.P"

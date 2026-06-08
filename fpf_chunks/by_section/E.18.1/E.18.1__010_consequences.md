@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:9 — Consequences"
-line_start: 66726
-line_end: 66735
+line_start: 67037
+line_end: 67046
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,5 +56,5 @@ keywords:
 | Positive graph comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
 | Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source phrase. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method or work-planning material outside P2W. |
-| Related patterns keep their authority. | P2W avoids duplicating evidence, gate, decision, architecture, publication, mechanism, and work-family doctrine. | Users consult the pattern named by the recovered relation when that relation is live. |
+| Related patterns keep their authority. | P2W avoids duplicating evidence, gate, decision, architecture, publication, mechanism, and work-family doctrine. | Users consult the pattern named by the recovered relation when that relation is being made. |
 

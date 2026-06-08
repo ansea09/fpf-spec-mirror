@@ -6,12 +6,12 @@ section_id: "A.3.3:11"
 section_title: "Migration notes (quick path to value)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__012_migration-notes-quick-path-to-value.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:11 — Migration notes (quick path to value)"
-line_start: 6480
-line_end: 6489
+line_start: 6488
+line_end: 6497
 dependencies:
   - "A.19"
   - "B.4"

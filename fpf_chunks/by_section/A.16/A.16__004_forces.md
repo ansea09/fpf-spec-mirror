@@ -6,12 +6,12 @@ section_id: "A.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:3 — Forces"
-line_start: 21242
-line_end: 21249
+line_start: 21267
+line_end: 21274
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

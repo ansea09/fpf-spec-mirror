@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 47425
-line_end: 47574
+line_start: 47475
+line_end: 47624
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -135,44 +135,44 @@ Do not make C.27 the governing pattern when:
   intervention-sensitive rate-change claim is made;
 - a word such as speed, rhythm, acceleration, agility, or inertia is only a
   teaching metaphor or casual Plain wording;
-- the live issue is publication-unit stability: one overloaded local head,
+- the issue under repair is publication-unit stability: one overloaded local head,
   drifting publication-unit primary entity of concern, bounded comparison, explanation faithfulness, or
   approval/action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
   pattern that governs the downstream claim, effect, or use before C.27;
-- the live question is whether a measure is legal, comparable, or interpretable:
+- the question under repair is whether a measure is legal, comparable, or interpretable:
   `C.16` carries measurement construction, with C.27 only citing the temporal
   C.27 relation if the measure supplies evidence for an intervention-sensitive claim;
-- the live question is a transition law, simulation, prediction, or control model:
+- the question under repair is a transition law, simulation, prediction, or control model:
   `A.3.3 U.Dynamics` and formal/evidence patterns carry the formal dynamics,
   with C.27 only naming the admissible-use limit of the authored claim;
-- the live question is work/resource actuals: `U.Work` and `Gamma_work` carry the
+- the question under repair is work/resource actuals: `U.Work` and `Gamma_work` carry the
   evidence, with C.27 only using it as effort evidence or planning assumption for a Dyn2 claim;
-- the live question is scaling-law or elasticity adequacy: C.18.1 carries scale
+- the question under repair is scaling-law or elasticity adequacy: C.18.1 carries scale
   variables, scale window, scale probes, and scale-elasticity value, with C.27
   only naming the temporal-claim adequacy question if scale change is used as the scale-variable relation for
   rate-change, learning, recovery, throughput, or stabilization;
-- the live question is a work plan, call plan, method description, or authorized
+- the question under repair is a work plan, call plan, method description, or authorized
   intervention actor/role assignment: the planning pattern carries the plan, with C.27 only active
   when the plan's admissible use depends on rate-change, recovery, stabilization,
   or braking;
-- the live question is task-family specialization: C.22.1 carries adaptation
+- the question under repair is task-family specialization: C.22.1 carries adaptation
   signature fields, with C.27 only naming the temporal-claim question when
   learning or adaptation speed changes admissible use;
-- the live question is preserving a viability envelope under disturbance,
+- the question under repair is preserving a viability envelope under disturbance,
   adaptation cost, latency, operational-support load, or boundary regulation: C.26.3 carries
   the envelope claim, with C.27 only naming the temporal move if
   braking, throttling, cadence change, recovery timing, or stabilization changes
   supported use;
-- the live question is causal attribution: `C.28` carries causal-use claim,
+- the question under repair is causal attribution: `C.28` carries causal-use claim,
   and evaluation/evidence patterns carry non-causal evaluation/evidence claims;
   C.27 may mark the temporal claim's causal use as unsupported until that `C.28`
   relation is satisfied;
-- the live question is a benchmark, budget, promise, service boundary, SLA-like
+- the question under repair is a benchmark, budget, promise, service boundary, SLA-like
   statement, public commitment, assurance, or release gate: the relevant
   benchmark, boundary, promise, service, assurance, or planning pattern carries
   that claim/use, with C.27 only naming the temporal claim that the other pattern
   inspects;
-- the live question is residual quantum-like probe, frame, export, or coarsening cue:
+- the question under repair is residual quantum-like probe, frame, export, or coarsening cue:
   `C.26` carries it only after ordinary dynamics, work, measurement, benchmark,
   proxy, and assurance patterns have carried their parts.
 

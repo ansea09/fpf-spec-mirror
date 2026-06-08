@@ -6,44 +6,22 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 54941
-line_end: 54955
+line_start: 55198
+line_end: 55212
 dependencies:
-  - "A.10"
-  - "A.19"
-  - "A.6.M"
-  - "B.3"
-  - "C.11"
-  - "C.16"
-  - "C.27"
-  - "C.28"
-  - "C.29"
-  - "C.30"
-  - "C.30.ASV"
-  - "C.31"
-  - "C.31.ASAP"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "accounting basis"
-  - "bespoke residue"
-  - "refactoring opportunity"
-  - "report-only share"
-  - "reusable share"
-  - "reusable-structure accounting"
-  - "source return"
 ---
 
 ### C.31.RSA:12 - Relations
 
 | Pattern | Relation |
 | --- | --- |
-| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, gate, and pruning mask before RSA receives reusable loci, bespoke-residue loci, accounting-basis fields, repair moves, or source-return conditions. |
-| `C.31` | Supplies live modularity characteristics; RSA does not duplicate the characteristic taxonomy. |
+| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, gate, and pruning mask before RSA uses recovered reusable loci, bespoke-residue loci, accounting-basis fields, repair moves, or source-return conditions. |
+| `C.31` | Supplies modularity characteristics under evaluation; RSA does not duplicate the characteristic taxonomy. |
 | `A.6.M` | Supplies module-interface relation repair for reusable interface and platform-grammar claims. |
 | `C.30` and `C.30.ASV` | Supply architecture claim and structural-view context for the structures being accounted over. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern measurement, scale, unit, comparability, score, and characteristic legality when RSA shares are used beyond report-only. |
@@ -51,5 +29,5 @@ keywords:
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
-| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate synthesis requires a current governing pattern before RSA can carry candidate-synthesis or decision use. |
+| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate-synthesis and selected-set publication claims are governed by `G.5` when set-return or candidate-set publication is being claimed; local decision claims are governed by `C.11`; RSA does not govern candidate-synthesis, selected-set, or decision use. |
 

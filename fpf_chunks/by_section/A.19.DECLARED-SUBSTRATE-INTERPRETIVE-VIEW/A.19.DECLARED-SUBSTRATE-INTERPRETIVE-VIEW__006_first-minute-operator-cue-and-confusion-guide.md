@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b"
 section_title: "First-minute operator cue and confusion guide"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__006_first-minute-operator-cue-and-confusion-guide.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.b — First-minute operator cue and confusion guide"
-line_start: 24103
-line_end: 24125
+line_start: 24129
+line_end: 24151
 dependencies:
   - "A.0"
   - "A.19"
@@ -51,7 +51,7 @@ Do this in the first minute:
 
 If you cannot name the base substrate or the recoverable source-set entry point or set-result entry point that carries it, or if the current prose would change the source-to-outcome relation or its posture, stop. You are either repairing the substrate, retargeting the object, or drifting into publication/policy.
 
-| If the live question sounds like... | Use now | Why |
+| If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |
 | "How do I help the reader inspect the declared substrate?" | `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` | This pattern governs substrate-side only reading. |
 | "What is the substrate itself?" | `A.19.SOURCE-SET-SPACE-SUBSTRATE` | The base line has to exist first. |

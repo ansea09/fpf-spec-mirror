@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 80326
-line_end: 80649
+line_start: 80640
+line_end: 80964
 dependencies:
   - "A.19"
   - "A.21"
@@ -45,6 +45,7 @@ keywords:
 ---
 
 ### G.9:4 — Solution
+
 #### G.9:4.0 — G.Core linkage (normative)
 
 This pattern is **core‑invariant** and therefore binds to **G.Core** by declaration (not by restating invariants here).

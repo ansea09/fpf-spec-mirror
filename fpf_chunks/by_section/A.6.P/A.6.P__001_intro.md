@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 11988
-line_end: 12044
+line_start: 11999
+line_end: 12055
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -67,11 +67,11 @@ RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explic
 
 **Use this when.** Use `A.6.P` when wording hides a relation-bearing use: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole or part, service, cross-context bridge wording, endpoint compression, qualifier-carried claim, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
 
-**What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the exact neighboring FPF pattern to compose with it.
+**What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the neighboring FPF pattern governing that claim to compose with it.
 
-**First useful move.** Restore the head kind and the relation or comparison use separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality characterization, evaluative characterization, or function-like exact-kind recovery, use the exact governing pattern named below instead of forcing relation repair.
+**First useful move.** Restore the head kind and the relation or comparison use separately. If the problem is only source-expression, publication, architecture or structure, characteristic or scale, quality characterization, evaluative characterization, or function-like kind recovery, use the pattern governing the recovered claim named below instead of forcing relation repair.
 
-**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-use pattern, or architecture pattern. If `E.10` already recovered the exact governing pattern, kind, or relation, use that governing pattern directly.
+**Not this pattern when.** Do not use `A.6.P` as a universal wording-repair pattern, evidence pattern, assurance pattern, quality pattern, source-use pattern, or architecture pattern. If `E.10` already recovered the pattern governing the recovered claim, kind, or relation, use that governing pattern directly.
 
 **Placement.** Part A → cluster **A.6 Signature Stack & Boundary Discipline** → governing pattern for **RPR specialisations** (A.6.5, A.6.6, A.6.8, A.6.9, A.6.H, and any additional A.6.x pattern that declares this RPR relation).
 

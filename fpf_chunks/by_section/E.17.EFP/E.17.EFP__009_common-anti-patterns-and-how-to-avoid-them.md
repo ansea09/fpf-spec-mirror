@@ -6,12 +6,12 @@ section_id: "E.17.EFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 64029
-line_end: 64041
+line_start: 64340
+line_end: 64352
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 | Letting speculative prose enter technical or assurance use | speculative retelling starts to look canonical | restrict speculative retelling to clearly marked exploratory or didactic use on existing faces |
 | Collapsing MVPK face and `publication face/form` or `interop publication form` discipline | explanation appears to create a new publication family | stay on existing MVPK faces and keep named `publication face/form` or `interop publication form` and carrier policy explicit |
 | Derivative rendering as source replacement | a fork, adaptation, generated explanation, tutorial, or access-format conversion is treated as the original source because it is easier to read or access | keep it as a derivative rendering, publish source links for operative claims, and use `A.10` or `A.6.3.CSC` when reliance or narrowed-use discipline is live |
-| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release reliance, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another exact receiving source only for the operative claim being relied on |
+| Explanation as evidence or assurance | a fluent or source-linked explanation is cited as proof, approval, gate passage, release reliance, work authority, or assurance | classify the rendering, keep ordinary reader help inside E.17.EFP, and open `A.10`, `B.3`, `A.21`, `A.15`, or another source relation that evidences the operative claim only for the operative claim being relied on |
 

@@ -6,12 +6,12 @@ section_id: "C.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:6 — Bias-Annotation"
-line_start: 40249
-line_end: 40258
+line_start: 40294
+line_end: 40303
 dependencies:
   - "A.13"
   - "A.18"
@@ -46,7 +46,7 @@ keywords:
 
 This pattern is intentionally biased toward `Prag` and `Onto/Epist` discipline.
 
-It prefers one clear OptionSet choice locus, one explicit neighboring-question split, and one minimal mathematical floor over one looser but more rhetorically flexible notion of rationality.
+It prefers one clear decision-theory EntityOfConcern, one explicit neighboring-question split, and one minimal mathematical floor over one looser but more rhetorically flexible notion of rationality.
 
 That bias can feel too strict in cases where the chooser, option set, or dependence structure is still genuinely moving. The mitigation is not to weaken the pattern back into one general rationality account. The mitigation is to keep the unfinished state explicit: hold one tie-set, hold one `probe again` result, or state the neighboring governing pattern that now truly governs the question.
 

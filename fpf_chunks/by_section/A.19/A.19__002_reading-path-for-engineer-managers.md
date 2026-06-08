@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 22611
-line_end: 22686
+line_start: 22636
+line_end: 22711
 dependencies:
   - "A.17"
   - "A.18"
@@ -47,7 +47,7 @@ keywords:
 
 * **A.17** — canonizes the technical head **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
 * **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and admissible aggregation.
-* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the live use is a characteristic, scale, coordinate, score, metric label, quality-term repair, or exact governing-pattern exit.
+* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the use under repair is a characteristic, scale, coordinate, score, metric label, quality-term repair, or application of the pattern governing the recovered claim.
 
 **Step 2 — Ontology and governing spec refs the CHR suite operates on.**
 

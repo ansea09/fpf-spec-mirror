@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:12 — Relations"
-line_start: 65879
-line_end: 65900
+line_start: 66190
+line_end: 66211
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 - `E.17.AUD.LHR` for local lexical-head kind or qualifier repair;
 - `E.17.ID.CR` when the same unit is already stable and the remaining question is one bounded comparative review move;
 - `E.17.EFP` when explanation-face governance on existing faces is primary;
-- `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the live question is same-entity rewrite or representation change;
+- `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the question under repair is same-entity rewrite or representation change;
 - `A.10` when evidence or provenance becomes primary;
 - `A.15` and `A.15.4` when work, reliance, or execution claim becomes primary;
 - `B.3` when assurance or engineering justification becomes primary;

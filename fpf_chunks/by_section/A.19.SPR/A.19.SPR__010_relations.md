@@ -6,12 +6,12 @@ section_id: "A.19.SPR:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__010_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:8 — Relations"
-line_start: 23472
-line_end: 23489
+line_start: 23498
+line_end: 23515
 dependencies:
   - "A.10"
   - "A.16"
@@ -47,10 +47,10 @@ keywords:
 
 | Pattern | Relation |
 | --- | --- |
-| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct governing pattern, controlled precision reduction, `F.18`, or fail-closed non-use. |
+| `E.10` | Catches state-family trigger wording and selects local repair, `A.19.SPR`, direct governing-pattern assignment, controlled precision reduction, `F.18`, or fail-closed non-use. |
 | `E.10.ARCH` | Provides the shared wording-use restoration architecture. `A.19.SPR` is the realization pattern for recurring state-family hidden-field cases. |
 | `A.19` | Governs `CharacteristicSpace` and state-space typing. `A.19.SPR` uses A.19 only when the state-like claim is a characteristic-space position or comparable state. |
-| `A.3.3` | Governs dynamics and state-transition laws when reusable change semantics are live. |
+| `A.3.3` | Governs dynamics and state-transition laws when reusable change semantics are being claimed. |
 | `C.2.P`, `C.2.2a`, `A.16.*`, `E.17` | Govern source-use and publication-use assignments, language-state positions, and admissible moves. |
 | `A.10` | Governs evidence path state and reliance disposition. |
 | `B.3` | Governs assurance result, assurance claim, and assurance-input use. |

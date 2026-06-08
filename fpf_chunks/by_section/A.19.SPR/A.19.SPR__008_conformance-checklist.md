@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:6 — Conformance checklist"
-line_start: 23447
-line_end: 23461
+line_start: 23473
+line_end: 23487
 dependencies:
   - "A.10"
   - "A.16"
@@ -49,12 +49,12 @@ keywords:
 | --- | --- |
 | `CC-A19SPR-1` | Every FPF-governed state-family word SHALL name a bearer or be demoted to ordinary prose, quote-only wording, reduced-use cue, or blocker. |
 | `CC-A19SPR-2` | Every retained state-family field SHALL name the state frame or governing pattern that defines its value. |
-| `CC-A19SPR-3` | Every retained state-family field SHALL have a value set, classification source, or exact neighboring-pattern result. |
+| `CC-A19SPR-3` | Every retained state-family field SHALL have a value set, classification source, or neighboring-pattern result named by value. |
 | `CC-A19SPR-4` | The repair SHALL state admissible use and non-admissible overread. |
 | `CC-A19SPR-5` | Currentness, readiness, validation, assurance, release or admission, or administrative state claims SHALL state a validity window, decay rule, or reopen condition when the value can change. |
-| `CC-A19SPR-6` | Source, evidence, assurance, publication, gate, work, decision, release or admission, and administrative uses SHALL be assigned to exact governing patterns or exact project-side records rather than hidden under state-family wording. |
-| `CC-A19SPR-7` | Semio patterns receive only language-state and source or publication cases. They SHALL NOT become the general home for evidence, assurance, gate, work, temporal, mathematical-lens, or administrative states. |
-| `CC-A19SPR-8` | Exact local fields such as `LensUseAdmissibilityValue` and `dynClaimPosture` may stay only with declared governing pattern, value set, boundary, and reopen condition; specification wording SHALL recover a Description episteme admitted for specification use or refinement plus the exact specification-granting neighbouring pattern. |
+| `CC-A19SPR-6` | Source, evidence, assurance, publication, gate, work, decision, release or admission, and administrative uses SHALL be assigned to patterns governing the recovered claims or project-side records rather than hidden under state-family wording. |
+| `CC-A19SPR-7` | Semio patterns govern only language-state and source or publication cases. They SHALL NOT become the general home for evidence, assurance, gate, work, temporal, mathematical-lens, or administrative states. |
+| `CC-A19SPR-8` | Local fields named by value, such as `LensUseAdmissibilityValue` and `dynClaimPosture`, may stay only with declared governing pattern, value set, boundary, and reopen condition; specification wording SHALL recover a Description episteme admitted for specification use or refinement plus the specification-granting neighbouring pattern named by value. |
 | `CC-A19SPR-9` | The repair SHALL preserve one remaining reader move. Type-correct but inert wording is incomplete. |
 | `CC-A19SPR-10` | Whole-corpus cleanup SHALL be classified. Blind global replacement of `posture`, `state`, `status`, or `readiness` is nonconforming. |
 

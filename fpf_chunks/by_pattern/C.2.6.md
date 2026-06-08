@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
-line_start: 36829
-line_end: 36990
+line_start: 36870
+line_end: 37033
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -109,6 +109,7 @@ The facet is motivated by embodied cognition, operator-facing interaction practi
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9.1`.
 - Constrains: cue publication and bridge loss notes.
+
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
 #### C.2.6:13.1 - Embodied-to-document shift
@@ -146,6 +147,7 @@ Statements like "the system wants", "the note suggests", or "the operator-facing
 
 #### C.2.6:15.3 - Boundary reminder
 `U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
+
 ### C.2.6:16 - Anchoring Publication Package Discipline
 
 #### C.2.6:16.1 - Minimal anchoring package

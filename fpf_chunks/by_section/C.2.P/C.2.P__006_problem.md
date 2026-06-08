@@ -6,12 +6,12 @@ section_id: "C.2.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__006_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:2 — Problem"
-line_start: 34723
-line_end: 34732
+line_start: 34758
+line_end: 34767
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 Without an epistemic precision-restoration discipline for episteme-publication-heavy wording:
 
-1. broad publication words hide whether the claim is about `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, `PublicationUnit`, carrier, document with named source, evidence, architecture, reviewed publication, review packet, review record, or review state, or exact project-side FPF kind and reference;
+1. broad publication words hide whether the claim is about `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, `PublicationUnit`, carrier, document with named source, evidence, architecture, reviewed publication, review packet, review record, or review state, or project-side FPF kind and reference named by value;
 2. FPF pattern-application claims and project-side work-occurrence, work-plan, decision, action-invitation, method, record, carrier, or front-end claims get mixed in one sentence;
 3. slash lists and heterogeneous rows become false group kinds;
 4. unclear source meaning is guessed into FPF-governed wording rather than blocked or assigned to an accepted FPF extension;

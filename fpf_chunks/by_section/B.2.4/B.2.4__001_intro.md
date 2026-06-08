@@ -6,12 +6,12 @@ section_id: "B.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
   - "B.2.4:intro — Intro"
-line_start: 31104
-line_end: 31105
+line_start: 31138
+line_end: 31139
 dependencies:
   - "A.3.1"
   - "B.2"

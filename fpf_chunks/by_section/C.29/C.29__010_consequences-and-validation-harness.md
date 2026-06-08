@@ -6,12 +6,12 @@ section_id: "C.29:8"
 section_title: "Consequences and validation harness"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__010_consequences-and-validation-harness.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:8 — Consequences and validation harness"
-line_start: 51053
-line_end: 51139
+line_start: 51130
+line_end: 51226
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -67,7 +70,7 @@ keywords:
 
 | Benefit | Cost or handling |
 |---|---|
-| FPF gains a general discipline for mathematical lens use while mathematical lenses stay tied to declared structure, declared loss, and admissible use. | Adds one new pattern; neighboring-pattern exits carry evidence, causal, bridge, assurance, work, decision, publication, and admission uses. |
+| FPF gains a general discipline for mathematical lens use while mathematical lenses stay tied to declared structure, declared loss, and admissible use. | Adds one new pattern; neighboring-pattern applications govern evidence, causal, bridge, assurance, work, decision, publication, and admission uses. |
 | Existing specialized lenses such as `C.26` become easier to explain as special cases. | `C.26` needs only relation wording, not a rewrite of its core. |
 | Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
 | Vanchurin-like speculative work can enter as candidate-lens stress tests. | Requires strict Adapt-not-Adopt marking. |
@@ -78,35 +81,45 @@ keywords:
 
 For Stable admission or material refresh of `C.29`, run a small C.29 validation harness. The harness is not a benchmark mandate and not a tool requirement. It is a repeatable admission check that the pattern yields correct first outputs, avoids false positives, preserves neighboring-pattern writing boundaries, and keeps the first useful move visible.
 
-This subsection governs steward-side validation, not the ordinary C.29 user path. A working user applies the action path and chooses the cheapest honest output; they do not run the harness merely to decide between ordinary prose, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or a neighboring governing locus.
+This subsection governs steward-side validation, not the ordinary C.29 user path. A working user applies the action path and chooses the cheapest honest output; they do not run the harness merely to decide between ordinary prose, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `NeighborGoverningPatternNote`.
 
 C.29 output-change conditions:
 
 | New condition | Required result |
 |---|---|
 | validation slice fails, degrades, or no longer matches the stated regime | Change `LensUseAdmissibilityValue` to the admissible value, update the failure case, narrow the admissible use, or block prediction-facing use. |
-| a principal rival lens changes the next admissible move | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the current lens for that use. |
-| the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or neighboring FPF locus. |
+| a principal rival lens changes the next admissible move | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the lens for that use. |
+| the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or governing FPF pattern. |
 | source-use role becomes outdated, contradicted, or demoted to background only | Change the `SourceUseRole`, update the use-admissibility value, or retire the lens from claim-bearing use. |
-| bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim becomes live | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
+| bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim is being made | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
 | abstraction, compression, coarse-graining, or latent representation drops a distinction now needed for the declared use | Add `SourceReturnCondition?`, narrow the use, or block the compressed-lens claim. |
+
+Smallest source-return and output-change conditions:
+
+| Condition | Required result |
+|---|---|
+| a source-basis document or source-basis family changes the lens family, validation boundary, limitation, or stated use used by this C.29 output | Update `SourceUseRole`, `LensUseAdmissibilityValue`, and `OutputChangeCondition?`; narrow, replace, or retire claim-bearing use when the new basis no longer fits the declared use. |
+| a later source supersedes or contradicts the source-use decision that made the lens admissible | Mark the source-use decision as superseded or contradicted for that use, then select a new source-use role, lower the output class, or block claim-bearing use. |
+| a neighboring governing pattern changes the use-rights for measurement, evidence, causal use, assurance, Bridge semantics, scale law, selector, benchmark, decision, or work | Keep C.29 only for the declared lens-use part and apply the changed governing pattern to the neighboring claim before the C.29 output is reused. |
+| the same lens family starts carrying validation, causal-use, evidence, assurance, selector, benchmark, release, or work claim | Add the governing-pattern application, or narrow the C.29 result to lens-admissible prediction, distinction, obstruction, diagnostic boundary, or stop condition only. |
+| preserved structure or lost structure can no longer be replayed from the source-side variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
 
 AI-assisted thin-echo result rule:
 
 | Thin echo or query shape | Required result |
 |---|---|
-| `field-like`, `quantum-like`, `category-like`, `manifold`, `entropy`, `RG`, `graph`, `embedding`, or another mathematical prestige head appears alone | Do not answer from the family label. First name the live use or state that no C.29 use is live. |
-| live claim is causal, measurement, bridge, evidence, temporal, work, assurance, selector, or benchmark-facing | Name the neighboring FPF locus before any C.29 output. |
-| C.29 remains live after neighboring-locus check | Return at least `CandidateMathObject`, `PreservedStructure`, `LostStructure`, `AdmissibleNextMove`, and `StopCondition`, or downgrade to `LensCandidateNote` or `NoMathLensUseNeededNote`. |
+| `field-like`, `quantum-like`, `category-like`, `manifold`, `entropy`, `RG`, `graph`, `embedding`, or another mathematical prestige head appears alone | Do not answer from the family label. First name the use under repair or state that no C.29 use is being made. |
+| claim being made is causal, measurement, bridge, evidence, temporal, work, assurance, selector, or benchmark-facing | Name the governing FPF pattern before any C.29 output. |
+| C.29 still applies after the governing-pattern check | Return at least `CandidateMathObject`, `PreservedStructure`, `LostStructure`, `AdmissibleNextMove`, and `StopCondition`, or downgrade to `LensCandidateNote` or `NoMathLensUseNeededNote`. |
 
 C.29 edge-case boundary results:
 
 | Edge case | Required result |
 |---|---|
 | mechanized proof of a model property | State assumptions and proven property; empirical evidence or assurance use stays with `A.10`, `B.3`, or relevant G patterns. |
-| simulation-calibrated lens | Scenario exploration is allowed; prediction, decision, or counterfactual reliance needs validation and the exact neighboring-pattern result. |
-| latent-space visualization | Use learned-lens overlay and stop latent ontology, causal mechanism, or unobserved-variable recovery unless separately carried by the exact neighboring pattern. |
-| exact isomorphism or equivalence claim | Justify the exact relation or downgrade `LensMappingMode`. |
+| simulation-calibrated lens | Scenario exploration is allowed; prediction, decision, or counterfactual reliance needs validation and the neighboring-pattern result named by value. |
+| latent-space visualization | Use learned-lens overlay and stop latent ontology, causal mechanism, or unobserved-variable recovery unless separately governed by the neighboring pattern governing that claim. |
+| isomorphism or equivalence claim named by value | Justify the relation named by value or downgrade `LensMappingMode`. |
 | multi-lens composition | Name the principal lens and neighboring notes; avoid one giant full card that mixes queue, graph, causal, temporal, and assurance authority. |
 | lens becomes accepted domain theory | Keep local domain theory with the domain pattern; durable FPF naming or kind change needs `F.18`, `C.3`, `F.8`, and `E.9`. |
 | mathematical notation shift only | Use `A.6.3.RT` unless mathematical-lens use changes the declared use. |
@@ -119,9 +132,9 @@ Harness shape:
 | `CaseId` | Stable case id. |
 | `InputPhrase` | The phrase or claim a cold user might write. |
 | `ExpectedFirstPattern` | `C.29`, a neighboring pattern, or no C.29 output needed. |
-| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningLocusNote`. |
+| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
 | `RequiredFields` | Minimal fields or overlays required. |
-| `NeighborPatternRefs` | Exact neighboring governing loci when live. |
+| `NeighborPatternRefs` | Neighboring governing patterns named by value when their claims are being made. |
 | `ExpectedRepair` | Downgrade, narrow, add loss, add validation, choose rival lens, or apply neighbor. |
 | `ExpectedStopCondition` | Most tempting nearby overread blocked. |
 | `ExpectedNonUseDecision` | Present only for false-positive cases. |
@@ -130,8 +143,8 @@ Minimum harness cases:
 
 | Case | Expected result |
 |---|---|
-| “organization is quantum” | `C.26` plus `C.29` compatibility only if order or probe effects are live; otherwise downgrade to metaphor; physical quantum ontology blocked. |
-| Markov kernel in accepted local reliability model | `A.3.3`; no full `MathLensUse.FullCard` unless lens-transfer, publication, assurance, bridge, or reusable explanation is live. |
+| “organization is quantum” | `C.26` plus `C.29` compatibility only if order or probe effects are being claimed; otherwise downgrade to metaphor; physical quantum ontology blocked. |
+| Markov kernel in accepted local reliability model | `A.3.3`; no full `MathLensUse.FullCard` unless lens-transfer, publication, assurance, bridge, or reusable explanation is being claimed. |
 | category-like research field | `C.29` mini-card and possibly `F.9`; semantic truth and evidence strength explicitly lost. |
 | RG-like scale law | `C.29` plus `C.18.1`; scale window and coarse-graining rule required. |
 | Vanchurin-style universe-as-learning | candidate lens only; not accepted physics; stop condition blocks ontology. |
@@ -144,9 +157,9 @@ Reader-fit checks for admission or material refresh:
 
 | Reader | Required result |
 |---|---|
-| engineer-manager | Can decide local metaphor, one-line, or mini-card without opening the full card by default. |
+| engineer-manager | Can decide local metaphor, one-line, or mini-card without using the full card by default. |
 | researcher | Can state preserved structure, lost structure, and stop condition without turning the pattern into a philosophy-of-mathematics essay. |
-| FPF steward | Can identify the neighboring governing locus for causal, evidence, bridge, scale, measurement, dynamics, temporal, decision, work, explanation, comparison, representation, or assurance claim before accepting a C.29 claim. |
+| FPF steward | Can identify the governing pattern for causal, evidence, bridge, scale, measurement, dynamics, temporal, decision, work, explanation, comparison, representation, or assurance claim before accepting a C.29 claim. |
 | SoTA author | Can mark a source as adopt, adapt, reject, or candidate stress test without laundering speculative work into accepted FPF law. |
 | AI-assisted reader | Recovers `C.29` or the neighboring governing pattern from the query, and does not answer from a thin echo such as `field-like`, `quantum-like`, or `category-like` alone. |
 

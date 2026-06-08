@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:12 — Relations"
-line_start: 54264
-line_end: 54271
+line_start: 54462
+line_end: 54469
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when live, `InterfaceSignatureBoundaryNote`, and the exact module-and-interface repair pattern when module or interface claim kind is live.
+Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `InterfaceSignatureBoundaryNote`, and the module-and-interface repair pattern when a module or interface claim is being made.
 
-Does not replace: C.30.STRAT stratification-wording repair and source-label repair; E.18 graph, path, crossing, and flow-valuation discipline; C.30 grounded architecture and selected-structure adequacy; C.30.ASV architecture structural-view adequacy; A.6.F function-use repair; A.15 work; A.10 and G.6 evidence; B.3 assurance; A.20 and A.21 gate or release records; C.28 causal-use relation; C.29 mathematical-lens use; C.16 characterization or admitted characteristic and measurement governing patterns; or C.11 decisions.
+Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for graph, path, crossing, and flow-valuation discipline, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TGA-FLOW-REL:4.3`. `C.30.TGA-FLOW-REL` governs only the architecture-TGA flow-structure relation being claimed.
 

@@ -6,12 +6,12 @@ section_id: "F.18:6"
 section_title: "What belongs in the label—and what does not"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_what-belongs-in-the-label-and-what-does-not.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:6 — What belongs in the label—and what does not"
-line_start: 74923
-line_end: 74940
+line_start: 75237
+line_end: 75254
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

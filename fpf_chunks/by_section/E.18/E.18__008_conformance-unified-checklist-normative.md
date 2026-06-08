@@ -6,12 +6,12 @@ section_id: "E.18:7"
 section_title: "Conformance — Unified checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_conformance-unified-checklist-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:7 — Conformance — Unified checklist (normative)"
-line_start: 66239
-line_end: 66306
+line_start: 66550
+line_end: 66617
 dependencies:
   - "A.2.6"
   - "A.20"

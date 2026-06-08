@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 59641
-line_end: 59657
+line_start: 59942
+line_end: 59958
 dependencies:
   - "A.17"
   - "A.18"
@@ -54,9 +54,9 @@ keywords:
 **Intent.**
 Keep FPF wording-use precision restoration distributed without letting every pattern of concern or subject pattern grow its own first-stage trigger registry. `E.10` catches one overloaded wording use; `E.10.ARCH` says which applicability rows exist, how one row selects the first applicable restoration or governing pattern, and when repeated repair-only prose should be extracted from a subject pattern.
 
-`E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover what kind of thing is being talked about, which adjacent EntityOfConcern values, relation records, claim records, slot or use-position values, and exact FPF kinds or references are admissibly involved, which relation, source-use disposition, or state-family value is live, and, when plain ontology is not enough, which mathematical lens under `C.29` or which pattern-defined formal apparatus makes the candidate structure checkable. The output returns to wording only after that kind, slot/use-position, and use structure is recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
+`E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover what kind of thing is being talked about, which adjacent EntityOfConcern values, relation records, claim records, slot or use-position values, and FPF kinds named by value or references are admissibly involved, which relation, source-use disposition, or state-family value is live, and, when plain ontology is not enough, which mathematical lens under `C.29` or which pattern-defined formal apparatus makes the candidate structure checkable. The output returns to wording only after that kind, slot/use-position, and use structure is recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
 
 **Builds on.** `E.10`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `F.18`, `E.8`, `E.19`, and `E.2`.
 
-**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, exact `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `J.4`, and exact evidence, assurance, gate, work, decision, causal-use, release, and publication patterns when those claims are live.
+**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `J.4`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
 

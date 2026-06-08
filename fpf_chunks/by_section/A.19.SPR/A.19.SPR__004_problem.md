@@ -6,12 +6,12 @@ section_id: "A.19.SPR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__004_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:2 — Problem"
-line_start: 23343
-line_end: 23353
+line_start: 23369
+line_end: 23379
 dependencies:
   - "A.10"
   - "A.16"
@@ -52,5 +52,5 @@ How can FPF repair state-family wording without:
 - treating every state-like word as a `CharacteristicSpace` position;
 - treating publication, source, evidence, assurance, gate, decision, work, release or admission, and administrative states as one source, publication, or language-state case;
 - duplicating the state-family recovery algorithm inside every governing pattern;
-- demoting exact finite local fields such as `LensUseAdmissibilityValue` or `dynClaimPosture` when they are already well-formed, or erasing a real specification use or refinement gate that names its exact neighbouring pattern and value set.
+- demoting finite local fields such as `LensUseAdmissibilityValue` or `dynClaimPosture` when they are already well-formed, or erasing a real specification use or refinement gate that names its neighboring pattern governing the claim and value set.
 

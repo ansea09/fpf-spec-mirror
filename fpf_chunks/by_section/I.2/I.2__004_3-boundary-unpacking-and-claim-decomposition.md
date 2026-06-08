@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Detailed Walk-throughs"
+pattern_title: "Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".3 - Boundary unpacking and claim decomposition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__004_3-boundary-unpacking-and-claim-decomposition.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "I.2 — Detailed Walk-throughs"
+  - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .3 - Boundary unpacking and claim decomposition"
-line_start: 82405
-line_end: 82430
+line_start: 82721
+line_end: 82746
 dependencies:
 keywords:
 ---

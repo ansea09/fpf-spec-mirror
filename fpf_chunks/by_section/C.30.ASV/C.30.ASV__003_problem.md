@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 52889
-line_end: 52903
+line_start: 53038
+line_end: 53052
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is live, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view is live, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
+An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
 
 Without this pattern:
 

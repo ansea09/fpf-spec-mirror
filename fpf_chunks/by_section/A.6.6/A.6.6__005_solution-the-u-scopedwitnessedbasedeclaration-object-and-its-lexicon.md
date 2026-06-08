@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-the-u-scopedwitnessedbasedeclaration-object-and-its-lexicon.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:4 — Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
-line_start: 15060
-line_end: 15263
+line_start: 15082
+line_end: 15285
 dependencies:
   - "A.10"
   - "A.14"
@@ -243,7 +243,7 @@ If these fields cannot be stated, do not create a `SupportRelation`, `SupportBas
 | --- | --- |
 | a source, model, diagram, publication, or view describes, constrains, or exposes something | source-description, specification-use, and publication patterns (`A.7`, `A.6.3`, `A.6.2`, `C.2.3`, `E.17`, local source rules) |
 | an observation, test, proof, role, or carrier bears on a claim | evidence patterns (`A.10`, `A.2.4`, `G.6`) |
-| a claim is acceptable in an assurance or trust calculus | assurance patterns (`B.3`) plus exact evidence ontology when evidence is live |
+| a claim is acceptable in an assurance or trust calculus | assurance patterns (`B.3`) plus evidence ontology named by value when evidence is live |
 | a causal, intervention, counterfactual, off-policy, or simulation-only use is admissible | causal-use pattern (`C.28`) |
 | a mathematical lens, mapping, or model makes a use admissible or exposes preserved/lost structure | mathematical-lens patterns (`C.29`, `C.26`, `F.9`) |
 | a metric, score, threshold, benchmark, or characteristic warrants a comparison | measurement/characteristic/comparison patterns (`C.16`, `C.25`, `G.9`) |

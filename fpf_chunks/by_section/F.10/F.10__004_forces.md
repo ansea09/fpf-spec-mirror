@@ -6,12 +6,12 @@ section_id: "F.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:3 — Forces"
-line_start: 72189
-line_end: 72197
+line_start: 72502
+line_end: 72510
 dependencies:
   - "B.3"
   - "D.CTX"

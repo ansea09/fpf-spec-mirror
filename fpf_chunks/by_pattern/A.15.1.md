@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 19793
-line_end: 20208
+line_start: 19817
+line_end: 20232
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -46,7 +46,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.Work` when the live question is what actually happened: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameters, resources, affected referent, result, and evidence kept inspectable.
+**At a glance.** Use `U.Work` when the question under repair is what actually happened: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameters, resources, affected referent, result, and evidence kept inspectable.
 
 **Use this when.** Use this pattern when a plan, method description, schedule, log, telemetry stream, dashboard, approval-looking cue, or result statement is being treated as if it were actual performed work. `U.Work` is the run-time occurrence; the surrounding records may identify, constrain, evidence, schedule, or judge it, but they do not become the occurrence by being published.
 
@@ -452,7 +452,7 @@ Lower a candidate `U.Work` claim when performer, enacted method, method-descript
 
 Repair the work record when a subsequent source changes the work interval, performer, role assignment, enacted method, method-description edition, parameter binding, resource ledger, outcome, affected referent, state-plane anchor, pre-state or post-state anchor, overlap policy, or aggregation policy. Repair only the changed relation: do not rewrite the method when only evidence changed, do not rewrite evidence when only work time changed, and do not convert a plan or source-restoration request into work.
 
-Refresh before cross-context acceptance, aggregation, comparison, result measurement, release reliance, gate use, evidence use, assurance use, QD or OEE archive use, or P2W carry-through use. If the live claim after refresh is no longer performed work, use the governing pattern for that relation and keep only the returned `U.Work` reference here.
+Refresh before cross-context acceptance, aggregation, comparison, result measurement, release reliance, gate use, evidence use, assurance use, QD or OEE archive use, or P2W carry-through use. If the claim being made after refresh is no longer performed work, use the governing pattern for that relation and keep only the returned `U.Work` reference here.
 
 ### A.15.1:End
 

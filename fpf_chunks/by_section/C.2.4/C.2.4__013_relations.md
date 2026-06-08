@@ -6,12 +6,12 @@ section_id: "C.2.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:12 — Relations"
-line_start: 36557
-line_end: 36560
+line_start: 36594
+line_end: 36598
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -36,3 +36,4 @@ keywords:
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.5`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `A.6.P`, `B.4.1`, `B.5.2.0`.
 - Constrains: articulation thresholds for routing and repair.
+

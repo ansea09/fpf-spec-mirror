@@ -6,12 +6,12 @@ section_id: "A.16.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:1 — Problem frame"
-line_start: 21825
-line_end: 21829
+line_start: 21850
+line_end: 21854
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,7 +37,7 @@ keywords:
 ---
 
 ### A.16.1:1 - Problem frame
-Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method work, or endpoint governance through receiving governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
+Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method work, or endpoint governance through governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
 
 The cue pack is deliberately earlier than `RoutedCueSet`. It may carry early directional hints, but it is not yet the governing form for route selection, route authority, or route rationale.
 

@@ -6,12 +6,12 @@ section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 66715
-line_end: 66725
+line_start: 67026
+line_end: 67036
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 |---|---|
 | **Boundary fanout.** The pattern repeats long lists of what P2W is not. | Keep relation discipline in `E.18.1:4.4`; make local sections state the next P2W action. |
 | **Path-as-procedure.** The graph is read as a required project sequence. | Treat the graph as carry-through over FPF applications; use `stop`, `split`, and `return` edges. |
-| **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, work, evidence, or result. | Write the carried distinction and live P2W question before selecting an application. |
+| **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, work, evidence, or result. | Write the carried distinction and next FPF-use question before selecting an application. |
 | **Math-as-authority.** A `U.Signature(profile=FormalSubstrate)` declaration, mathematical lens, or near-sameness does all downstream work. | Record preserved structure, lost structure, payoff, and stop condition; continue through the recovered relation. |
 | **Generic result token.** "Result" becomes one local kind. | Split the phrase into artifact, telemetry, acceptance, quality, measurement, refresh, source, evidence, or role-enactability relation. |
 | **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the FPF relation before continuing. |

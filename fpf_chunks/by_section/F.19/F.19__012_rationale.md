@@ -6,12 +6,12 @@ section_id: "F.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__012_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:10 — Rationale"
-line_start: 75721
-line_end: 75730
+line_start: 76035
+line_end: 76044
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -37,7 +37,7 @@ keywords:
 Plain technical style in FPF is not a separate aesthetic layer. It is the visible result of ontology-first repair with less apparatus. The order matters:
 
 1. remove or move boilerplate apparatus;
-2. restore the remaining content through the exact wording-use, naming, relation, slot, source-use, or object pattern;
+2. restore the remaining content through the wording named by value-use, naming, relation, slot, source-use, or object pattern;
 3. write the shortest sentence that keeps the recovered meaning.
 
 Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phrase-style super-pattern. `E.10` catches words and heads whose kind or use is hidden. `F.19` catches the earlier phrase-level problem: the content may not even be visible until process, role, status, reference, quality, or negative-catalogue apparatus is removed.

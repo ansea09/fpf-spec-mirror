@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
-line_start: 47269
-line_end: 49300
+line_start: 47317
+line_end: 49350
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -58,7 +58,9 @@ keywords:
 
 **Described-system, description, and carrier discipline.** The described system, work, practice, method, service, or benchmark is not the C.27 record. A `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` is an authored description of temporal-claim adequacy. A document, table, page, report, or card may carry that description; it is not the temporal claim, not the dynamic system, and not the work trace.
 
-**Use-context and evidence/assumption discipline.** When this pattern says `supportedUse`, it means the decision, plan, diagnosis, comparison, publication, promise, assurance-facing relation, or other practical use that this exact C.27 record can carry given its `dynClaimPosture`, evidence path, model or planning assumption, source-use reference when live, windows, resistance or cost statement, and reopen condition. `unsupportedUse` means one nearby downstream claim, effect, or use that this exact record does not carry. These fields do not create permission; they state the pragmatic reach of the authored temporal-claim description.
+**Use-context and evidence/assumption discipline.** When this pattern says `supportedUse`, it means the decision, plan, diagnosis, comparison, publication, promise, assurance-facing relation, or other practical use that this C.27 record named by value can carry
+ given its `dynClaimPosture`, evidence path, model or planning assumption, source-use reference when that source use is being made
+, windows, resistance or cost statement, and reopen condition. `unsupportedUse` means one nearby downstream claim, effect, or use that this record named by value does not carry. These fields do not create permission; they state the pragmatic reach of the authored temporal-claim description.
 
 Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` and `unsupportedUse` only for the pragmatic reach of a temporal-claim record; use an evidence path, model assumption, source-use reference, or planning assumption for the reason a reading is credible; use `RouteRef` or a named FPF pattern relation when an existing FPF pattern governs the other question.
 
@@ -74,7 +76,7 @@ Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` an
 2. the difference between state, rate, and rate-change changes admissible use;
 3. the text can name at least target, intervention, window, resistance or cost, evidence path or assumption relation, supported use, and unsupported use or reopen trigger.
 
-Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the live issue, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
+Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the issue under repair, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
 
 For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. A local card should normally fit in 5-9 short lines; if it does not, clarify the claim, narrow it, or cite the existing FPF pattern that governs the other question. `RouteRef`, `C16RouteRef`, `G9ParityPlanRef`, and similar references appear only when the use is FPF-governed beyond the local note.
 
@@ -196,7 +198,7 @@ assumption, and supported use, the correct output is a partly-said material cue 
 
 The cue may become a `Dyn2TemporalClaimAdequacyCard` only when a rate-change,
 rhythm-change, braking, coasting, recovery, stabilization, or intervention
-claim becomes explicit enough to name the card minimum. If the live question is
+claim becomes explicit enough to name the card minimum. If the question under repair is
 not temporal-claim adequacy, use the pattern that carries that question: C.16
 for measurement, C.26 for residual QL cue, E.17.AUD for publication-unit stability, or
 viability/assurance patterns when the observation has insufficient evidence, witness,
@@ -290,44 +292,44 @@ Do not make C.27 the governing pattern when:
   intervention-sensitive rate-change claim is made;
 - a word such as speed, rhythm, acceleration, agility, or inertia is only a
   teaching metaphor or casual Plain wording;
-- the live issue is publication-unit stability: one overloaded local head,
+- the issue under repair is publication-unit stability: one overloaded local head,
   drifting publication-unit primary entity of concern, bounded comparison, explanation faithfulness, or
   approval/action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
   pattern that governs the downstream claim, effect, or use before C.27;
-- the live question is whether a measure is legal, comparable, or interpretable:
+- the question under repair is whether a measure is legal, comparable, or interpretable:
   `C.16` carries measurement construction, with C.27 only citing the temporal
   C.27 relation if the measure supplies evidence for an intervention-sensitive claim;
-- the live question is a transition law, simulation, prediction, or control model:
+- the question under repair is a transition law, simulation, prediction, or control model:
   `A.3.3 U.Dynamics` and formal/evidence patterns carry the formal dynamics,
   with C.27 only naming the admissible-use limit of the authored claim;
-- the live question is work/resource actuals: `U.Work` and `Gamma_work` carry the
+- the question under repair is work/resource actuals: `U.Work` and `Gamma_work` carry the
   evidence, with C.27 only using it as effort evidence or planning assumption for a Dyn2 claim;
-- the live question is scaling-law or elasticity adequacy: C.18.1 carries scale
+- the question under repair is scaling-law or elasticity adequacy: C.18.1 carries scale
   variables, scale window, scale probes, and scale-elasticity value, with C.27
   only naming the temporal-claim adequacy question if scale change is used as the scale-variable relation for
   rate-change, learning, recovery, throughput, or stabilization;
-- the live question is a work plan, call plan, method description, or authorized
+- the question under repair is a work plan, call plan, method description, or authorized
   intervention actor/role assignment: the planning pattern carries the plan, with C.27 only active
   when the plan's admissible use depends on rate-change, recovery, stabilization,
   or braking;
-- the live question is task-family specialization: C.22.1 carries adaptation
+- the question under repair is task-family specialization: C.22.1 carries adaptation
   signature fields, with C.27 only naming the temporal-claim question when
   learning or adaptation speed changes admissible use;
-- the live question is preserving a viability envelope under disturbance,
+- the question under repair is preserving a viability envelope under disturbance,
   adaptation cost, latency, operational-support load, or boundary regulation: C.26.3 carries
   the envelope claim, with C.27 only naming the temporal move if
   braking, throttling, cadence change, recovery timing, or stabilization changes
   supported use;
-- the live question is causal attribution: `C.28` carries causal-use claim,
+- the question under repair is causal attribution: `C.28` carries causal-use claim,
   and evaluation/evidence patterns carry non-causal evaluation/evidence claims;
   C.27 may mark the temporal claim's causal use as unsupported until that `C.28`
   relation is satisfied;
-- the live question is a benchmark, budget, promise, service boundary, SLA-like
+- the question under repair is a benchmark, budget, promise, service boundary, SLA-like
   statement, public commitment, assurance, or release gate: the relevant
   benchmark, boundary, promise, service, assurance, or planning pattern carries
   that claim/use, with C.27 only naming the temporal claim that the other pattern
   inspects;
-- the live question is residual quantum-like probe, frame, export, or coarsening cue:
+- the question under repair is residual quantum-like probe, frame, export, or coarsening cue:
   `C.26` carries it only after ordinary dynamics, work, measurement, benchmark,
   proxy, and assurance patterns have carried their parts.
 
@@ -389,7 +391,6 @@ Borrowed-frame translation:
 | Typed/discretized compact dynamic representation | A.19, C.16, and C.26 carry it only when the representation, measurement, or residual QL cue is live. |
 | Quantum-like or active-inference superiority claim | Not adopted in C.27; C.26 carries the residual probe, frame, order, export, or coarsening claim after ordinary C.27, C.16, work, benchmark, and proxy pattern relations are named. |
 | Universal search for force/mass analogues everywhere | Rejected as literal ontology; physical words may remain Plain diagnostic cues, but C.27 mints no `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess`. |
-
 | Design alternative | C.27 outcome | Reason |
 | --- | --- | --- |
 | Do nothing | Insufficient | Leaves FPF vulnerable to speed-only, rate-only, rhythm-as-vibe, and effort-free intervention claims. |
@@ -945,7 +946,7 @@ relation change.
 | rateChangeReadingMeasureRef | Measurement reference used as evidence for an acceleration, deceleration, braking, redirection, stabilization, hazard-change, queue-pressure-change, or other rate-change reading. | C.16-compatible; this is evidence for a reading, not a new primitive acceleration measure. |
 | publishedOrTargetedMeasureRef | The measure being used as reading, dashboard signal, target, gate, incentive, budget input, or public comparison. | C.16 carries measurement legality and comparability; target/proxy use belongs outside C.27 when FPF-governed. |
 | targetOrIncentiveUse | How the metric is used as a target, incentive, optimization proxy, management signal, or behavior-shaping prompt. | E.13, assurance, or governance patterns carry proxy/utility distortion. |
-| dashboardGatePromiseOrBudgetUse | Whether the metric appears in a dashboard, gate, promise, budget, review, or public comparison. | Names boundary/assurance pattern relations when those uses are live. |
+| dashboardGatePromiseOrBudgetUse | Whether the metric appears in a dashboard, gate, promise, budget, review, or public comparison. | Names boundary/assurance pattern relations when those uses are being made. |
 | behaviorChangeRisk | How publication, target pressure, incentive, or gate use may change behavior. | C.27 records temporal intervention risk; causal-use claim still needs `C.28` causal-use relation. |
 | temporalWorkChangeVsMeasurementChangeNote | Split between real work/process rate change, measurement/probe effect, gaming/selection effect, and causal effect if claimed. | Prevents metric improvement from being read as system improvement. |
 | C16RouteRef | Route/reference for admissible measurement construction, comparability, and evidence. | C.27 cites it; C.27 does not define metric legality. |
@@ -1076,8 +1077,8 @@ intervention relation that changes admissible use, no entry here applies.
 | C.27 metric-as-target block | `dyn2MetricTargetEffectBlock?` splits metric-as-measure, metric-as-target or incentive, metric publication as temporal intervention, and residual probe, frame, or export cue; C.16 carries measurement, E.13 or an assurance pattern carries proxy distortion, and C.26 applies only after ordinary FPF pattern relations leave residual QL cue. |
 | C.27 cross-scale transfer field | `dyn2CrossScaleTransferBlock?` keeps local and aggregate dynamic readings separate; cross-scale use needs source bearer, target bearer, aggregation relation, bearer continuity, mix-shift risk, and explicit `crossScaleTransferUseBoundary`. |
 | Object-centric dynamic trace | Workflow/process rate claims need bearer, object/event trace, interaction, and convergence/divergence discipline rather than one generic process-speed label. |
-| Method composition or emergent work cycle | If the live claim is about how method parts compose, how an adaptive work cycle becomes a capability, or how repeated practice changes shape, C.27 handles only the temporal adequacy of the rate, rhythm, recovery, stabilization, or rate-change claim. `B.1.5` carries order-sensitive method composition and work enactment; `B.2.4` carries meta-functional transition and capability-emergence questions. |
-| State-change or evolution loop and language-state movement | If the live claim is that a system, episteme, method, cue, branch, or language-state relation evolved, reopened, stabilized, operationalized, retired, or moved through a named state-change sequence, C.27 handles only the temporal adequacy of any speed/rhythm/recovery/stabilization claim. `A.4` / `B.4` carry temporal duality and canonical evolution loops; `A.16` / `B.4.1` carry language-state move and cue-stabilization discipline. |
+| Method composition or emergent work cycle | If the claim being made is about how method parts compose, how an adaptive work cycle becomes a capability, or how repeated practice changes shape, C.27 handles only the temporal adequacy of the rate, rhythm, recovery, stabilization, or rate-change claim. `B.1.5` carries order-sensitive method composition and work enactment; `B.2.4` carries meta-functional transition and capability-emergence questions. |
+| State-change or evolution loop and language-state movement | If the claim being made is that a system, episteme, method, cue, branch, or language-state relation evolved, reopened, stabilized, operationalized, retired, or moved through a named state-change sequence, C.27 handles only the temporal adequacy of any speed/rhythm/recovery/stabilization claim. `A.4` / `B.4` carry temporal duality and canonical evolution loops; `A.16` / `B.4.1` carry language-state move and cue-stabilization discipline. |
 | C.27 scale-variable claim block | `dyn2ScaleVariableClaimBlock?` is present only when changing review capacity, tool calls, tokens, sprints, data, model capacity, parallelism, freedom of action, or another declared scale variable is used as the basis for a rate-change, learning, recovery, throughput, or stabilization claim; C.18.1 carries scale variables, scale windows, scale probes, and scale-elasticity value. |
 | Autonomy-budget or freedom-of-action claim | If freedom of action, action tokens, decision tokens, guard cadence, depletion, pause/resume, or autonomy-gated work is used as the basis for a rate-change or stabilization claim, C.27 states the temporal claim only. `E.16` carries autonomy budgets, guard checks, ledger evidence, depletion behavior, and override speech acts. |
 | C.27 viability-envelope relation | `dyn2ViabilityEnvelopeRoute?` is present only when braking, throttling, rollout speed, cadence change, recovery timing, adaptation cost, or stabilization is used to keep a declared viability bearer inside usable bounds; C.26.3 carries viability-envelope boundary regulation. |
@@ -1239,7 +1240,7 @@ improvement; or trend means intervention model.
 Read these cases before the fuller field definitions. They show admissible stopping points for ordinary work:
 
 - no C.27 record for ordinary state, metaphor, or unsupported broad-use language;
-- Dyn1 or C.16 when the live issue is only measured rate;
+- Dyn1 or C.16 when the issue under repair is only measured rate;
 - `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs a bounded evidence path, model assumption, planning assumption, or neighbouring-pattern relation;
 - `Dyn2TemporalClaimProfile` or a named FPF pattern relation only when the authored temporal claim is used beyond the local working context, benchmarks, promises, assures, becomes causal, crosses scale, or carries decision-use that affects gate, release, assurance, benchmark, or work-plan use.
 
@@ -1526,6 +1527,7 @@ Minimum useful note:
 - possible behavior change: smaller tickets, hidden work, quality reduction,
   postponed rework, selection of easier tasks;
 
+
 - process-vs-measurement split: measurement/probe effect, real work change,
   gaming/selection effect, causal effect if claimed;
 - E.13 or proxy relation: proxy distortion or utility distortion if velocity diverges from the
@@ -1647,7 +1649,7 @@ Use the negative cases to make non-use easy. They are not profile triggers.
 | "This section accelerates orientation." | No C.27 record unless the `PublicationUnit` carries that acceleration claim as the basis for a decision, promise, intervention, or comparison. |
 | "The chart shows throughput rising." | Dyn1; C.16 only if the measurement construction is FPF-governed. No C.27 record unless a rate-change intervention claim appears. |
 | "The team has a strong rhythm." | No C.27 record unless rhythm carries a decision-use; then name bearer, timing reference, window, evidence proxy, and admissible use. |
-| "We use a dashboard of velocity." | C.16/E.13/C.26.1 when the live issue is measurement, proxy distortion, or probe/publication effect; C.27 only when the dashboard is claimed to change a temporal outcome. |
+| "We use a dashboard of velocity." | C.16/E.13/C.26.1 when the issue under repair is measurement, proxy distortion, or probe/publication effect; C.27 only when the dashboard is claimed to change a temporal outcome. |
 | "The model is dynamic." | `U.Dynamics` when a state-space or transition law is being described; no C.27 record unless authored prose makes a rate-change adequacy claim. |
 | "The agent used more calls." | C.24/work-trace relation; C.27 only when more calls are claimed to change debugging, search, learning, recovery, or stabilization rate. |
 | "The process is agile." | A.6.P/local-head restoration first when "agile" is overloaded; C.27 only when braking, redirection, or rate-change question is live. |
@@ -1720,7 +1722,7 @@ When a Dyn2 benchmark, task-family adaptation claim, public method claim,
 selector-facing claim, SoTA-bearing publication claim, or other Part G publication carries a
 temporal-claim record, C.27 `reopenTrigger` is not enough by itself. C.27 states
 the temporal-claim question and its validity/reopen condition; G.9 carries benchmark parity
-when comparison is live; G.11 carries refresh orchestration such as refresh
+when comparison is being made; G.11 carries refresh orchestration such as refresh
 queue, refresh plan, refresh report, deprecation notice, or edition bump when
 evidence, comparator editions, method editions, claim windows, or validity
 windows drift.

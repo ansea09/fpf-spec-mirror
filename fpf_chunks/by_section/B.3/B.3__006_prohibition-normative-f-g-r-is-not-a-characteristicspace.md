@@ -6,12 +6,12 @@ section_id: "B.3:4.8"
 section_title: "Prohibition (normative) — F–G–R is not a CharacteristicSpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_prohibition-normative-f-g-r-is-not-a-characteristicspace.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4.8 — Prohibition (normative) — F–G–R is not a CharacteristicSpace"
-line_start: 31691
-line_end: 31694
+line_start: 31725
+line_end: 31728
 dependencies:
   - "A.10"
   - "A.12"

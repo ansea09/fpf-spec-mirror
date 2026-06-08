@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 46131
-line_end: 46147
+line_start: 46179
+line_end: 46195
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,5 +62,5 @@ keywords:
 | CC-C26.9 | If the claim becomes reusable, assurance-bearing, measurement-like, relation-minting, high-stakes, or superiority-claiming, the text escalates beyond QL-lite. |
 | CC-C26.10 | The text does not mint `U.Probe`, generic `U.State`, `U.DistributedState`, `U.Lens`, a new boundary kind, or a social-substance kind. |
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
-| CC-C26-CAUSAL-EXIT | If the live question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim/question to `C.28` before retaining QL-lite or QL-NQ. |
+| CC-C26-CAUSAL-EXIT | If the question under repair is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim/question to `C.28` before retaining QL-lite or QL-NQ. |
 

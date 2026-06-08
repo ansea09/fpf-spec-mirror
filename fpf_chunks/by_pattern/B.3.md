@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
-line_start: 31356
-line_end: 31941
+line_start: 31390
+line_end: 31975
 dependencies:
   - "A.10"
   - "A.12"
@@ -188,7 +188,7 @@ Build a `B.3` assurance claim only when the next work move or reliance move depe
 
 | Field | Required content |
 | --- | --- |
-| Claim and assurance use carried by the tuple | The exact claim `C` and the assurance use the tuple carries: readiness, release, audit, compliance, safety, model credibility, or another named assurance use. |
+| Claim and assurance use carried by the tuple | The claim named by value `C` and the assurance use the tuple carries: readiness, release, audit, compliance, safety, model credibility, or another named assurance use. |
 | Holon, context, and scope | `H`, `K`, and `S` plus audience or relying context when the label is human-facing. |
 | Evaluation condition | What was evaluated, under which method, policy, test, review, measurement, or assurance case. |
 | Evidence relation and carriers | The `A.10` evidence path, carrier refs, source-maintenance role assignments, windows, verifier rule, relying-party rule, and proof results or status results that evidence the assurance tuple. |
@@ -237,7 +237,7 @@ Negative controls:
 | Model card, datasheet, data card, assurance document, or assurance-looking note | Scoped documentation for a named claim, documented admissible-use statement or external intended-use field, evaluated condition, limitation, version, and window. | Higher `R`, broader `G`, higher `F`, better `CL`, readiness, compliance, safety, or release confidence by document presence. |
 | Generated confidence phrase | Source-finding or explanation relation when grounded. | Assurance increase, authority, approval, or evidence by wording alone. |
 
-Model cards, datasheets, data cards, assurance documents, and assurance-looking notes are external documentation records or source carriers unless they are mapped into existing `FPF` claims and publication faces. They do not add MVPK face kinds and do not bypass `B.3` when the live use is an assurance claim.
+Model cards, datasheets, data cards, assurance documents, and assurance-looking notes are external documentation records or source carriers unless they are mapped into existing `FPF` claims and publication faces. They do not add MVPK face kinds and do not bypass `B.3` when the use under repair is an assurance claim.
 
 **Lint trigger.** A model card, datasheet, or data card cited as readiness, safety, compliance, release confidence, or assurance proof requires documented intended-use match, evaluation condition, limitations, an `A.10` evidence path, and one typed `Assurance(H, C \| K, S)` claim for the named assurance claim. Without those, return `no assurance use` or a rejected/downgraded assurance claim.
 
@@ -262,7 +262,7 @@ Trigger and non-trigger cases:
 | Encountered source use | B.3 disposition | Minimum action |
 | --- | --- | --- |
 | Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, carrier, evidence path, window, admissible use, unadmissible use, and reopen trigger. |
-| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another exact receiving source. |
+| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another source relation that evidences the operative claim. |
 | Local conformance label, `CV.Status`, benchmark result, or score near a release conversation but not used to raise assurance | No B.3 assurance use. | Keep `CV.Status` in `A.20`, gate-decision publication in `A.21`, pattern-quality result in `E.19`, measurement or marker relation in `C.16`/`A.10`, and no assurance tuple unless an assurance claim is live. |
 | Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration basis, stop condition, admissible use, and unsupported attempted use; open `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the move. |
 | Safety-looking note, compliance-looking label, public warning, dashboard state, generated operational explanation, or status display is intended or reasonably foreseeable to make the B.3 material-reliance threshold live: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence path and any live `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation/retargeting dependency. |
@@ -403,7 +403,7 @@ Do not treat `⟨F,G,R⟩` as a `U.CharacteristicSpace` and do not define geomet
 CausalUseSupportVerdict = supported | bounded | unsupported | abstain
 ```
 
-`CausalAssuranceTupleTrigger` is narrower than local causal-use repair. A local `C.28` downgrade, redirection to a named receiving relation, or abstain disposition does not require a new `B.3` assurance tuple by itself. Create or update a `B.3` tuple only when the causal-use claim is assurance-bearing, publication-bearing, release-bearing, or reused as an input to assurance, trust, certification, risk acceptance, or downstream selection. Exploratory causal wording, local causal wording repair, or a `C.28` cheap stop remains outside `B.3` until it changes assurance or publication use.
+`CausalAssuranceTupleTrigger` is narrower than local causal-use repair. A local `C.28` downgrade, redirection to a relation governing the asserted use, or abstain disposition does not require a new `B.3` assurance tuple by itself. Create or update a `B.3` tuple only when the causal-use claim is assurance-bearing, publication-bearing, release-bearing, or reused as an input to assurance, trust, certification, risk acceptance, or downstream selection. Exploratory causal wording, local causal wording repair, or a `C.28` cheap stop remains outside `B.3` until it changes assurance or publication use.
 
 Unsupported `CausalityLadderRung` climb lowers, blocks, or abstains from `R` for the affected causal-use claim. If `CounterfactualSamplingRealizabilityProfile.verdict = nonrealizable`, `B.3` lowers or blocks `R` for claims that require direct counterfactual-comparison sampling evidence. If `CounterfactualSamplingRealizabilityProfile.verdict = unknown`, direct-realization claims are unsupported, but identified, bounded, or simulation-only admissible use may still be admissible when `C.28` declares the admissible use and unadmissible use.
 
@@ -601,7 +601,7 @@ This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with
 * **Builds on:** B.1 (Universal Γ), B.1.1 (Proof Kit), B.1.2 (Γ_sys & BIC), B.1.3 (Γ_epist & SCR), B.1.4 (Γ_ctx/Γ_time), A.12 (Transformer), A.14 (Mereology), A.7 (EntityOfConcern/Description strict distinction) and A.15 (role/method/work alignment), **C.13 (Compose‑CAL)**.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation aliasing and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for causal-use support verdicts, `CausalityLadderRung`, identification profile refs and realizability profile refs, and supported causal use and unsupported causal use; `A.10` for the evidence graph path carrying causal evidence-basis refs.
-* **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers return to the exact neighboring source when assurance is not live.
+* **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers return to the neighboring source when assurance is not live.
 * **Used by:** KD‑CAL action patterns (to plan improvements), B.4 (Evolution loops that raise F/G/R or CL over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
 
@@ -617,7 +617,7 @@ Action path:
 
 1. Decide the claim-assurance requirement before building assurance machinery.
 2. If the QL note only prevents a local misreading, keep it as QL-lite with ordinary evidence.
-3. If the claim will be reused, state the exact FPF pattern, local stop condition, and evidence relation or evidence-path state.
+3. If the claim will be reused, state the governing FPF pattern, local stop condition, and evidence relation or evidence-path state.
 4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing action, build the B.3 assurance claim over named evidence carriers and scope.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-evidenced assurance claim does not silently stay current after probes, carriers, or scope change.
@@ -625,7 +625,7 @@ Action path:
 | Claim-use requirement | B.3 expectation | Output |
 | --- | --- | --- |
 | Local modeling note | No assurance tuple beyond the ordinary pattern and evidence note | QL-lite note with local stop |
-| Reusable example or pattern-facing note | Name the exact FPF pattern, local stop condition, and evidence relation or evidence-path state | Reusable example with source relation |
+| Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-path state | Reusable example with source relation |
 | Decision, release, audit, readiness, or compliance use | Provide F-G-R and congruence relation, evidence carriers, confidence, rival explanations, and decay or reopen conditions | Assurance tuple and evidence path |
 | Comparative superiority claim | Add rival-model comparison, baseline, mechanism, and scope limits | Bounded superiority claim or apply the neighboring FPF pattern that governs the live comparison |
 

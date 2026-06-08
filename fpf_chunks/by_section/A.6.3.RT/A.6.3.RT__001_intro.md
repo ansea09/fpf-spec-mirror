@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:intro — Intro"
-line_start: 10974
-line_end: 11023
+line_start: 10985
+line_end: 11034
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,11 +76,11 @@ keywords:
 3. What representation scheme, reasoning medium, or expression form changed?
 4. What reader action remains admissible, and what downstream use is not admissible from this representation shift alone?
 
-**Action/work boundary.** A representation shift may be admissible for method inspection or work-planning preparation, but the source for intended or actual work remains `A.15` plus the source `U.Episteme`, source `U.EpistemePublication`, or exact project-side FPF kind and reference that governs that work claim.
+**Action/work boundary.** A representation shift may be admissible for method inspection or work-planning preparation, but the source for intended or actual work remains `A.15` plus the source `U.Episteme`, source `U.EpistemePublication`, or project-side FPF kind and reference named by value that governs that work claim.
 
 **Reliance-facing use.** Open the fuller continuity-witness decision block only when the shifted representation will be externally relied on, disputed, cited as an admissibility reason, used across context, treated as gate/release/work preparation justification, carried through a decode-mediated or latent access path, used in abductive reopen, or used for temporal/dynamics or TGA-path currentness.
 
-**Representation-validity grounding.** Recoverability is recoverability for one declared admissible use, not a general property of the receiving representation. A diagram, table, notation, decoded output, or model-state rendering may be recoverable enough for inspection or technical review when receiving-side relations trace back to source-relation records and loss notes, while still being insufficient for work-planning reliance, gate reliance, release reliance, evidence reliance, assurance reliance, or engineering justification. For any such reliance use, this pattern supplies only same-EntityOfConcern correspondence witness; the operative admissibility must come from the governing FPF pattern and exact project-side FPF kind and reference named by `A.15`, `A.10`, `A.20`, `A.21`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, or `F.9.1` as applicable. When the shifted representation will carry claim-bearing use, state the admissibility path that makes that exact use admissible: source-relation path, recoverability scope, decode path where needed, evidence class, any probe evidence, intervention evidence, or causal-abstraction claim, and the `E.17:5.1b` source-relation class when source pointer, source availability, source retrieval, source use, source faithfulness, claim admissibility, contradiction, omission, claim widening, or reopen trigger could diverge. Use `E.17:5.1c` for the shared use-boundary meanings of `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary live question may belong to ordinary textual restatement, coarsening, explanation, comparison, bridge work, substitution, work, reliance, gate, evidence, assurance, retargeting, or carrier and front-end work.
+**Representation-validity grounding.** Recoverability is recoverability for one declared admissible use, not a general property of the receiving representation. A diagram, table, notation, decoded output, or model-state rendering may be recoverable enough for inspection or technical review when receiving-side relations trace back to source-relation records and loss notes, while still being insufficient for work-planning reliance, gate reliance, release reliance, evidence reliance, assurance reliance, or engineering justification. For any such reliance use, this pattern supplies only same-EntityOfConcern correspondence witness; the operative admissibility must come from the governing FPF pattern and project-side FPF kind and reference named by value named by `A.15`, `A.10`, `A.20`, `A.21`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, or `F.9.1` as applicable. When the shifted representation will carry claim-bearing use, state the admissibility path that makes that use admissible by value: source-relation path, recoverability scope, decode path where needed, evidence class, any probe evidence, intervention evidence, or causal-abstraction claim, and the `E.17:5.1b` source-relation class when source pointer, source availability, source retrieval, source use, source faithfulness, claim admissibility, contradiction, omission, claim widening, or reopen trigger could diverge. Use `E.17:5.1c` for the shared use-boundary meanings of `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary question under repair may belong to ordinary textual restatement, coarsening, explanation, comparison, bridge work, substitution, work, reliance, gate, evidence, assurance, retargeting, or carrier and front-end work.
 
 A table, diagram, notation, decoded output, or model-state rendering may expose or cite its source relation. It does not become that source relation, architecture, ontology, evidence, gate, or work source by visual clarity, geometry, notation, proximity, or reuse. If the needed admissibility path is missing, a repair request, source-gap note, or evidence-work plan is prospective only; it does not retroactively make the earlier representation shift admissible.
 

@@ -6,12 +6,12 @@ section_id: "A.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__008_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:7 — Consequences"
-line_start: 6615
-line_end: 6622
+line_start: 6623
+line_end: 6630
 dependencies:
   - "B.4"
 keywords:

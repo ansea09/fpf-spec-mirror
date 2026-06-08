@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.CSC.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
-line_start: 10239
-line_end: 10600
+line_start: 10250
+line_end: 10611
 dependencies:
   - "A.15"
   - "A.20"
@@ -65,7 +65,7 @@ keywords:
 
 `Controlled Semantic Coarsening` governs one coarsened rendering that remains useful only because the source-bearing side stays identifiable, the admissible use is narrower, downstream use is non-admissible from the coarsened rendering alone, and escalation reopens that source-bearing side. It is the FPF governing pattern for that source-to-rendering relation. It is not a tag, token, `U.*` kind, publication face, carrier, bridge card, stance overlay, work plan, approval, or gate.
 
-**Start here when.** Your first honest publication unit is a small controlled-coarsening card: source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary live question may be ordinary rewrite, representation change, explanation, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of coarsening.
+**Start here when.** Your first honest publication unit is a small controlled-coarsening card: source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary question under repair may be ordinary rewrite, representation change, explanation, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of coarsening.
 
 **Neighboring project records and governing patterns.** Ordinary same-entity wording belongs under `A.6.3.CR`; representation-scheme change belongs under `A.6.3.RT`; explanation-facing class discipline belongs under `E.17.EFP`; bounded comparison belongs under `E.17.ID.CR`; bridge or substitution use belongs under `F.9` or `F.9.1`; changed EntityOfConcern belongs under `A.6.4`; work authority requires `A.15`-governed selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result-measurement record; gate or adjudication authority requires `A.20` or `A.21`-governed project records.
 
@@ -99,7 +99,7 @@ The core failure is not ordinary omission by itself. The failure appears when th
 - the coarsened rendering has a declared `source-loss mode` or reduced recoverability;
 - the coarsened rendering makes only the narrower use admissible;
 - downstream use is non-admissible from the coarsened rendering alone;
-- downstream use reopens the source-bearing side or moves to the exact governing FPF pattern or `authoritySourceRef` destination that makes the requested use admissible.
+- downstream use reopens the source-bearing side or moves to the governing FPF pattern or `authoritySourceRef` destination that makes the requested use admissible.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared constraint and makes it too easy for coarsened renderings to travel as if they were the source-bearing side.
 
@@ -153,15 +153,15 @@ Before using this pattern, ask five questions:
 4. Is downstream use explicitly non-admissible from the coarsened rendering alone?
 5. Is the source-bearing reopen or governing-pattern handoff trigger visible?
 
-If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the exact project-side FPF kind and reference or authority-reference relation that actually makes the requested use admissible. If the required admissibility path is missing, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not treat that request or note as retroactive admissibility for the coarsened rendering, earlier claim or effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
+If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the project-side FPF kind and reference named by value or authority-reference relation that actually makes the requested use admissible. If the required admissibility path is missing, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not treat that request or note as retroactive admissibility for the coarsened rendering, earlier claim or effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
 
 #### A.6.3.CSC:4.3 - Ordinary vs claim-bearing
 
 Ordinary cases should remain light. A short orientation summary, redacted partner note, workshop simplification, or lookup handle does not need the full assurance record if the six-row card is recoverable.
 
-Claim-bearing cases add only the fields that matter for the live use, dispute, reliance, citation, policy, bridge, work, gate, privacy, or assurance case. This list is not a daily gate for ordinary summaries, briefings, redactions, or lookup handles:
+Claim-bearing cases add only the fields that matter for the use under repair, dispute, reliance, citation, policy, bridge, work, gate, privacy, or assurance case. This list is not a daily gate for ordinary summaries, briefings, redactions, or lookup handles:
 
-The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one coarsened-rendering case, not `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` destination, or exact project-side FPF kind and reference unless another governing FPF pattern explicitly instantiates that object.
+The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one coarsened-rendering case, not `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` destination, or project-side FPF kind and reference named by value unless another governing FPF pattern explicitly instantiates that object.
 
 - `sourceBearingSideRef` and `coarsenedRenderingRef` when the source-bearing side, coarsened rendering, `PublicationUnit`, publication face, E.17 publication-face kind value `publication face/form`, E.17 publication-face kind value `interop publication form`, or carrier could be confused;
 - `coarsenedRenderingPublicationUnitIfAny` when the coarsened rendering is carried by one `PublicationUnit` that is distinct from the publication, disclosure note, dashboard tile, or `interop publication form` on which it appears;
@@ -257,7 +257,7 @@ Neighboring governing patterns may point here when a coarsened rendering relatio
 
 **Redacted partner note.** The source-bearing side is a full incident record with actor identity, trace path, and recovery evidence. The coarsened rendering is a partner-facing redacted note that withholds actor identity and trace path. Its narrower admissible use is bounded disclosure and coordination. Accountability, legal, audit, readiness, and gate uses reopen the full incident record or name the relevant `authoritySourceRef` destination.
 
-**Redacted functional-description publication.** The source-bearing side is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The coarsened rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower admissible use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the source-bearing side or apply `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, or `B.2.5` as the live claim requires.
+**Redacted functional-description publication.** The source-bearing side is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The coarsened rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower admissible use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the source-bearing side or apply `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, or `B.2.5` as the claim being made requires.
 
 **Exceptional interop-facing simplification.** The source-bearing side is two pinned context notes plus their bridge or comparison source material. The coarsened rendering is: `For this exchange only, Field A is treated as broader than Field B; see source notes for exceptions.` The rendering may orient the exchange, but any equivalence, substitution, projection, bridge-row, or approval use applies `F.9` or `F.9.1` or reopens the source-bearing side source material.
 
@@ -288,7 +288,7 @@ A conformance check is retained only if it changes the next admissible use of th
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-7 (Use-specific assurance).** | Claim-bearing cases SHALL add only the admissibility fields needed for the live use, dispute, or reliance case. | Keeps the assurance section tied to real risk. |
+| **CC-CSC-7 (Use-specific assurance).** | Claim-bearing cases SHALL add only the admissibility fields needed for the use under repair, dispute, or reliance case. | Keeps the assurance section tied to real risk. |
 | **CC-CSC-8 (Branch and use split).** | Load-bearing or disputed cases SHALL keep `coarseningBranch` and `admissibleUseValue` separate. | Prevents the coarsening branch from implying source-loss mode or authority. |
 | **CC-CSC-9 (Source-loss mode and recoverability).** | Cases affecting claim admissibility, accountability, admissible-use value, or later citation SHALL state source-loss mode and recoverability class. | Prevents recoverability from being mistaken for admissible use. |
 | **CC-CSC-10 (Coarsening-chain continuity).** | A coarsening chain SHALL satisfy `CSC-WF-3` or reopen the source-bearing side. | Prevents provenance reset by repeated summarization. |
@@ -326,7 +326,7 @@ Controlled coarsening is useful because FPF work often needs cheap readable form
 
 This pattern is narrower than a general simplification pattern. It applies only when the coarsened rendering remains tied to a source-bearing side and carries a narrower-use card.
 
-The core memory aid is simple: a coarsened rendering may help interpretation, but it must not become the source-bearing side it was derived from. It may expose or cite the source-bearing side or the exact project-side FPF kind and reference that carries the requested admissibility; that exposed source or value remains the admissibility source, not the coarsened rendering's readable face. If admissibility is missing, a repair request, source-gap note, or reopen note may guide only future repair or return to source; it does not backdate the coarsened rendering into source relation.
+The core memory aid is simple: a coarsened rendering may help interpretation, but it must not become the source-bearing side it was derived from. It may expose or cite the source-bearing side or the project-side FPF kind and reference named by value that carries the requested admissibility; that exposed source or value remains the admissibility source, not the coarsened rendering's readable face. If admissibility is missing, a repair request, source-gap note, or reopen note may guide only future repair or return to source; it does not backdate the coarsened rendering into source relation.
 
 ### A.6.3.CSC:11 - SoTA Alignment: Adopted Or Adapted Invariants And Rejected Shortcuts
 
@@ -346,7 +346,7 @@ The core memory aid is simple: a coarsened rendering may help interpretation, bu
 
 The practical implication is the same across these traditions: coarsened readable publication faces or renderings are valuable, but their admissible use depends on source relation, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery loci for those SoTA rows.
 
-**Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT govern publication metadata, provenance, validation, cataloging, and interoperability. They do not by themselves make work occurrence, gate passage, bridge or substitution use, equivalence, release permission, or project claim admissibility admissible; those uses require the governing pattern or exact project-side FPF kind and reference that carries that claim.
+**Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT govern publication metadata, provenance, validation, cataloging, and interoperability. They do not by themselves make work occurrence, gate passage, bridge or substitution use, equivalence, release permission, or project claim admissibility admissible; those uses require the governing pattern or project-side FPF kind and reference named by value that carries that claim.
 
 ### A.6.3.CSC:12 - Relations
 

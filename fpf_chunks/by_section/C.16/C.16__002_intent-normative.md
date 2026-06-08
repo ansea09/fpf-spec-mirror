@@ -6,12 +6,12 @@ section_id: "C.16:1"
 section_title: "Intent (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__002_intent-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:1 — Intent (Normative)"
-line_start: 40600
-line_end: 40621
+line_start: 40645
+line_end: 40666
 dependencies:
   - "A.10"
   - "A.17"
@@ -44,11 +44,11 @@ keywords:
 * **Measure claim** (`U.Measure`) says what was claimed about a **subject**: a value on that Scale, with a **time stance** and (when required) an **EvidenceStub**.
 * **Direct comparability** is conservative: *same template*; everything else requires a **named and cited** comparability basis governed by the relevant FPF pattern, Bridge, method description, or specification record.
 
-**Boundary to neighboring governing patterns and specification records.** C.16 governs measurement templates, readings, score meanings, scale legality, direct comparability, and evidence-stub adequacy. It does **not** govern (i) characterization mechanisms such as normalization, indicatorization, scoring, comparison, or selection, (ii) normalization and equivalence notions such as method tokens, invariant-value notions, or equivalence relations, (iii) claim-use policies such as comparability modes and legality gates, or (iv) suite protocol obligations. Those meanings are governed by their exact FPF patterns or specification records, such as CN-Spec, CG-Spec, and the CHR mechanism-governing patterns. C.16 may **cite** those patterns or records when motivating evidence or interpretability, but MUST NOT introduce or restate their terminology or laws.
+**Boundary to neighboring governing patterns and specification records.** C.16 governs measurement templates, readings, score meanings, scale legality, direct comparability, and evidence-stub adequacy. It does **not** govern (i) characterization mechanisms such as normalization, indicatorization, scoring, comparison, or selection, (ii) normalization and equivalence notions such as method tokens, invariant-value notions, or equivalence relations, (iii) claim-use policies such as comparability modes and legality gates, or (iv) suite protocol obligations. Those meanings are governed by their FPF patterns or specification records, such as CN-Spec, CG-Spec, and the CHR mechanism-governing patterns. C.16 may **cite** those patterns or records when motivating evidence or interpretability, but MUST NOT introduce or restate their terminology or laws.
 
-Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release or admission use with the exact pattern or specification record that governs that comparison or scoring claim.
+Use this when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release or admission use with the governing pattern or specification record that governs that comparison or scoring claim.
 
-Thin precision-restoration pointer: if the live issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or exact governing-pattern exit, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or application of the pattern governing the recovered claim, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
 Useful output: a measurement claim that a reader can interpret and compare only within its declared measurement basis, without turning a convenient number into a free-floating fact.
 
 Metric legality does not make causal use admissible. If a measured value, score, dashboard reading, or metric disparity reaches `CausalUseActivation` by being used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, or causal method superiority, keep the measurement repair in `C.16` and carry the causal-use question, causal-ladder rung, estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.

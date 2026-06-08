@@ -6,12 +6,12 @@ section_id: "A.16.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__010_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:9 — Consequences"
-line_start: 21933
-line_end: 21935
+line_start: 21958
+line_end: 21960
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### A.16.1:9 - Consequences
-The benefit is an admissible preservation form for early cues and a cleaner seam into routing and receiving endpoint patterns. The trade-off is one more explicit publication form that must be named and maintained.
+The benefit is an admissible preservation form for early cues and a cleaner seam into routing and endpoint governing patterns. The trade-off is one more explicit publication form that must be named and maintained.
 

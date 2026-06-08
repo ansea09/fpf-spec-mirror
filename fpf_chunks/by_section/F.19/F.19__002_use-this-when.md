@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 75543
-line_end: 75570
+line_start: 75857
+line_end: 75884
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -55,7 +55,7 @@ Typical in-scope prose includes:
 
 - If the problem is only one overloaded word or head after the content is visible, apply `E.10`.
 - If the problem is a durable reusable name, apply `F.18`.
-- If the span already names a live relation, source-use relation, state-family value, architecture label, characteristic, quality term, function wording, evidence claim, gate claim, work claim, decision claim, or other exact FPF object, apply the exact pattern for that object.
+- If the span already names the content-bearing relation, source-use relation, state-family value, architecture label, characteristic, quality term, function wording, evidence claim, gate claim, work claim, decision claim, or other FPF object named by value, apply the governing pattern for that object.
 - If the source text is only being observed and not admitted into FPF-governed prose, keep the observation source-side.
 
 **Primary EntityOfConcern in plain terms.** One phrase-level, sentence-level, row-level, paragraph-level, or small-section technical-prose repair whose goal is kind-preserving plain expression.

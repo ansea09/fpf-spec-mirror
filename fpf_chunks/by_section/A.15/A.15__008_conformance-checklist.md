@@ -6,12 +6,12 @@ section_id: "A.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:7 — Conformance Checklist"
-line_start: 19629
-line_end: 19650
+line_start: 19653
+line_end: 19674
 dependencies:
   - "A.10"
   - "A.12"
@@ -64,5 +64,5 @@ To preserve role-method-work modeling, a conforming model or use SHALL satisfy t
 | **CC-A15-11 (KindFit)** | A conforming `performedBy` assignment SHALL use a `U.Role` appropriate for the `U.Work` kind (e.g., `ApproverRole` for communicative approvals; `DeployerRole` for operational deployments). | Prevents kind-mismatched role attribution. |
 | **CC-A15-12 (Causal-use Work Boundary)** | A conforming causal-use model MAY represent intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work here only as `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, and role-assigned execution structure. Any claim that the resulting causal use is admissible SHALL cite `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, and supported use and unsupported use. | Prevents method, work-plan, or work-occurrence structure from being mistaken for causal-use support. |
 | **CC-A15-13 (A.15.4 Boundary)** | If a visible item is being used for a work relation or reliance relation by appearance, a conforming `A.15` use SHALL use `A.15.4` for the source-restoration question and keep only the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation here. | Prevents the A.15 kernel from absorbing source-restoration claims. |
-| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable as the selected method, `U.WorkPlan`, performed `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the exact `A.15` object being guided; any non-A.15 claim uses its exact pattern or `A.15.4` source restoration. |
+| **CC-A15-14 (P2W Publication Boundary)** | A conforming use SHALL NOT treat a principle scheme, functional diagram, scenario, screen, or explanation that makes a P2W chain recoverable as the selected method, `U.WorkPlan`, performed `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the selected `A.15` object named by value; any non-A.15 claim uses its governing pattern or `A.15.4` source restoration. |
 

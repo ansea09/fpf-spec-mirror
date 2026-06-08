@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 44332
-line_end: 44353
+line_start: 44379
+line_end: 44400
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,8 +79,8 @@ Use this split:
 | Method-family selection object | Comparison or selection among method families | Governing pattern `G.5`; not a problem-card field. |
 | `U.Method`, `U.MethodDescription` | Method and method description | Governing pattern family `A.15` and related method-description anchors. |
 | `U.WorkPlan`, `SlotFillingsPlanItem` | Planned work and plan item | Governing pattern family `A.15`; not a C.22 task signature. |
-| `U.Work` | Performed work | Governing pattern family `A.15`, with evidence, provenance, and assurance relations when live. |
-| Result record and result measurement | Evidence, provenance, measurement characterization, assurance, or refresh material depending on use | Exact patterns `A.10`, `G.6`, `B.3`, `C.16`, or `G.11` according to the claim kind. |
+| `U.Work` | Performed work | Governing pattern family `A.15`; if the attempted claim is evidence, provenance, or assurance, use `A.10`, `G.6`, or `B.3` for that relation. |
+| Result record and result measurement | Evidence, provenance, measurement characterization, assurance, or refresh material according to the attempted claim | Use `A.10`, `G.6`, `B.3`, `C.16`, or `G.11` according to the claim kind being made. |
 
-Transition condition: `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`. When the live issue becomes method-family selection, selected method, planned work, performed work, result record, or result measurement, apply the exact FPF pattern for that claim; do not expand the card.
+Transition condition: `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`. When the issue under repair becomes method-family selection, selected method, planned work, performed work, result record, or result measurement, apply the governing FPF pattern for that claim; do not expand the card.
 

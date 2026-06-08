@@ -6,12 +6,12 @@ section_id: "C.29:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__005_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:3 — Forces"
-line_start: 50263
-line_end: 50274
+line_start: 50315
+line_end: 50326
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -68,10 +71,10 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use, declared loss, and neighboring-pattern exit. |
+| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use, declared loss, and neighboring-pattern application. |
 | **SoTA openness vs metaphysical safety** | Vanchurin-like and Sandberg-like material enters as current lens prompts, not final ontology. |
 | **General pattern vs local precision** | `C.29` stays non-duplicative with `A.6.P`, `F.9`, `C.26`, `C.28`, `A.3.3`, and `A.19`; its contribution is coordination around declared mathematical-lens use. |
 | **Didactic usability vs formal rigor** | The first user needs one small card; expert use needs lens mapping mode, invariant claims, loss, `LensUseAdmissibilityValue`, rival lenses, and stop conditions. |
-| **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while exact fields carry FPF claim-bearing use or admissibility. |
+| **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while fields named by value recover FPF claim-bearing use or admissibility. |
 | **Transfer reach vs domain validity** | Category, RG, variational, quantum-like, and learning lenses are useful because they travel; that same transfer reach makes misuse easy. |
 

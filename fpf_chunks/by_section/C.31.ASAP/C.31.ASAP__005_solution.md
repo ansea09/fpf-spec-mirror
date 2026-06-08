@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 55011
-line_end: 55146
+line_start: 55268
+line_end: 55403
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,11 +49,11 @@ keywords:
 
 ### C.31.ASAP:4 - Solution
 
-C.31.ASAP specializes scale-amenability preference for architecture alternatives. It applies when an architecture alternative set, scale variable or scale window, and claimed preference under scale are live.
+C.31.ASAP specializes scale-amenability preference for architecture alternatives. It applies when an architecture alternative set, scale variable or scale window, and claimed preference under scale are named.
 
-#### C.31.ASAP:4.1 - Live trigger
+#### C.31.ASAP:4.1 - Applicability fields
 
-C.31.ASAP is live only when all of the following are present:
+C.31.ASAP applies only when all of the following are present:
 
 1. a declared architecture alternative set;
 2. a declared scale variable or scale window;
@@ -84,17 +84,17 @@ ScaleClaimTriage:
   sourceReturnCondition:
   admissibleUse:
   nonAdmissibleUse:
-  nextGoverningPatternRef:
+  relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-The triage is complete enough when it states the next admissible architecture move and the nearest blocked overread. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is live.
+The triage is complete enough when it states the next admissible architecture move and the nearest blocked overread. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is being made.
 
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
 When architecture alternatives satisfy the same safety boundary, legal boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
-This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision becomes live, use `G.5`, `G.9`, `C.11`, `A.21`, or the exact governing pattern. C.31.ASAP contributes the scale-preference claim and its boundary.
+This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern. C.31.ASAP governs only the scale-preference claim and its boundary.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -114,7 +114,7 @@ Typical architecture scale variables include:
 | `N_regulatoryInstances` | approval, safety, or certification repeats |
 | `freedomOfAction` | allowed design, search, or control variation |
 
-The scale variable is not enough by name. The live claim also needs a scale window, expected stable or improving structure, exception-growth risk, and source-return condition.
+The scale variable is not enough by name. The claim being made also needs a scale window, expected stable or improving structure, exception-growth risk, and source-return condition.
 
 #### C.31.ASAP:4.5 - Scale audit outputs
 
@@ -133,7 +133,7 @@ ArchitectureScaleAuditRecord@Project:
   SourceReturnCondition:
   admissibleUse:
   nonAdmissibleUse:
-  nextGoverningPatternRef:
+  relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
@@ -145,7 +145,7 @@ ArchitectureScaleAuditRecord@Project:
 | `ArchitectureHeuristicDebt` | Report-only note for knowingly accepting a locally hand-engineered solution with less scale-amenable slope profile under the declared scale window. |
 | `BespokeResidueRegister@Project` | Exception inventory with expiry or refactor triggers; not a kernel kind. |
 | `ScaleWindow` | Declared range where the preference claim holds. |
-| `SourceReturnCondition` | Condition for returning from a compressed, coarse, extracted, indexed, or accounting representation to source-side structural evidence, source records, or a neighboring source or evidence record with higher declared validation boundary. |
+| `SourceReturnCondition` | Condition for returning from a compressed, coarse, extracted, indexed, or accounting representation to source-side structural evidence, source records, or a related source or evidence record with higher declared validation boundary. |
 
 `ArchitectureScaleAuditRecord@Project` is a project-side triage record governed by this pattern. It is not an assurance proof, gate record, selected-set publication, local decision, or work plan.
 
@@ -162,7 +162,7 @@ ASAPWaiverReason:
 
 Not every non-scale-amenable choice is debt. A deontic constraint, safety boundary, legal boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
 
-`ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its exact governing pattern.
+`ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its governing pattern.
 
 #### C.31.ASAP:4.7 - Scale-refactoring moves
 
@@ -173,7 +173,7 @@ Before scale-preference guidance becomes action-guiding, name at least one possi
 | interface variants grow without payoff | reduce interface alphabet or introduce interface grammar | A.6.M governs interface relation repair. |
 | product-line or platform variants lack explicit variation points | introduce variability slots or extension rules | Platform label alone is not scale-preference evidence. |
 | one aggregation scope hides lower-scope hazards | split the declared aggregation scope or architecture boundary | C.29 supplies lens-use fields only when coarse-graining is mathematical-lens use. |
-| repeated work carries reusable structure | replace bespoke work with a method template | Work and method claims go to `A.15`, `A.15.1`, or `A.15.4` when live. |
+| repeated work contains reusable structure | replace bespoke work with a method template | Work and method claims go to `A.15`, `A.15.1`, or `A.15.4` when those claims are being made. |
 | regulatory or safety residue remains local and repeated | isolate regulatory residue or safety-specific exception register | Evidence, assurance, and gate claims go to `A.10`, `B.3`, `G.6`, or `A.21`. |
 | coarse representation loses safety, semantic, or source distinctions | return to lower-scope source-side evidence or narrow the scale window | Source-return condition is mandatory. |
 

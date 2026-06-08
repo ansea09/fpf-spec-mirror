@@ -6,12 +6,12 @@ section_id: "C.26.3:End"
 section_title: "C.26.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__014_c-26-3-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:End — C.26.3:End"
-line_start: 47267
-line_end: 47268
+line_start: 47315
+line_end: 47316
 dependencies:
   - "A.10"
   - "A.15"

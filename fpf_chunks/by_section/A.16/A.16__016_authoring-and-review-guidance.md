@@ -6,12 +6,12 @@ section_id: "A.16:15"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__016_authoring-and-review-guidance.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:15 — Authoring and Review Guidance"
-line_start: 21403
-line_end: 21427
+line_start: 21428
+line_end: 21452
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -61,7 +61,7 @@ A reviewer should ask:
 - is the move a real transduction or just rhetorical relabeling?
 - does the move preserve witnesses and route provenance appropriately?
 - is route plurality being confused with lineage fork?
-- did a receiving governing pattern silently absorb the publication too early?
+- did a governing pattern silently absorb the publication too early?
 - if retreat or retirement occurred, was the authority drop made explicit?
 
 #### A.16:15.3 - Integration reminder

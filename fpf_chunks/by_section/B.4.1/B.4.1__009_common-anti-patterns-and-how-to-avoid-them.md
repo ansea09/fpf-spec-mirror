@@ -6,12 +6,12 @@ section_id: "B.4.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 32668
-line_end: 32673
+line_start: 32702
+line_end: 32707
 dependencies:
   - "A.15"
   - "A.16"

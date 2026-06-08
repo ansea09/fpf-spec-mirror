@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 36991
-line_end: 37154
+line_start: 37034
+line_end: 37199
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -115,6 +115,7 @@ This factorization fits current work on sparse distributed representations, symb
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9.1`.
 - Constrains: language-state position publication and bridge loss notes around representation shifts.
+
 ### C.2.7:13 - Worked Examples and Factor Interaction Notes
 
 #### C.2.7:13.1 - Distributed but explicit
@@ -152,6 +153,7 @@ Aliases such as `EncodingBasis` or similar should be unfolded into explicit fact
 
 #### C.2.7:15.3 - Boundary reminder
 `U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine route authority, closure, or anchoring by itself.
+
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package

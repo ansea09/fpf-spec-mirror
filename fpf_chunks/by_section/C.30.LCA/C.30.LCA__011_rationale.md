@@ -6,12 +6,12 @@ section_id: "C.30.LCA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:10 — Rationale"
-line_start: 53753
-line_end: 53758
+line_start: 53904
+line_end: 53909
 dependencies:
   - "A.10"
   - "A.20"
@@ -44,5 +44,5 @@ keywords:
 
 Control architecture is too important to leave to diagram authority and too useful to remove from architecture language. The FPF move is to keep the practice cue and recover the control-structure content first: controlled holon or architecture claim, control roles, control relations, recovered rate or control-layer labels, observation and actuation boundaries, externality boundaries, and the next admissible control-architecture move. The record may be a Description episteme or episteme-lane view, possibly admitted for specification use, but that is the record lane for the control-structure move, not the center of the pattern. It can cite `C.30.STRAT`, `B.2.5`, TGA, dynamics, C.27, C.28, evidence, assurance, gates, and C.29, but it does not absorb their claim kinds.
 
-This also protects the architecture ontology's EntityOfConcern and Description-episteme boundary plus specification-use discipline. The architecture-relevant EntityOfConcern is the selected control structure under `ArchitectureOf@Context`; the LCA diagram or control note is an architecture description or view when that lane is live. Several descriptions may describe the same control structure, and one description may be published without becoming the structure it describes.
+This also protects the architecture ontology's EntityOfConcern and Description-episteme boundary plus specification-use discipline. The architecture-relevant EntityOfConcern is the selected control structure under `ArchitectureOf@Context`; the LCA diagram or control note is an architecture description or view when description or view use is being made. Several descriptions may describe the same control structure, and one description may be published without becoming the structure it describes.
 

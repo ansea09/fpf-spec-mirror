@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 52650
-line_end: 52659
+line_start: 52761
+line_end: 52770
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,9 +51,9 @@ keywords:
 
 Architecture and engineering sources use compact labels because they work in local practice. Neural-network architecture prose says `block`, `expert`, `cache`, or `router`. Control architecture says `layer`. Organizations say `level` or `tier`. Documentation says `section`, `stack`, or `view`. Mathematical and scale prose says `level`, `resolution`, or `coarse-graining step`.
 
-Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible move is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or evidence, assurance, gate, decision, work, or causal-use assignment.
+Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible move is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
 
 The repair question is:
 
-> Which `ontologicalNeighborhood` does this source-label use belong to, and which exact governing pattern now carries the recovered kind, recovered relation, recovered claim-use, source-use disposition, or non-use disposition?
+> Which `ontologicalNeighborhood` does this source-label use belong to, and which governing pattern now governs the recovered kind, recovered relation, recovered claim-use, source-use disposition, or non-use disposition?
 

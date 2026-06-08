@@ -6,12 +6,12 @@ section_id: "A.6.F:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:3 — Forces"
-line_start: 13579
-line_end: 13589
+line_start: 13590
+line_end: 13600
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,10 +61,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the exact FPF kind, relation, claim record, view, or governing-pattern application recoverable when the phrase carries a live FPF claim. |
+| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the FPF kind named by value, relation, claim record, view, or governing-pattern application recoverable when the phrase carries an FPF claim being made. |
 | Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
-| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different exact FPF kinds, relations, and claim records. |
+| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different FPF kinds named by value, relations, and claim records. |
 | Mathematical function vs design relation | Mathematical functions and relations can be used for reasoning, but C.29 governs their lens use and stop condition. |
 | Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module-interface structure do not become one FPF kind. |
-| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need exact-kind or relation recovery and a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
+| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need kind or relation recovery and a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
 

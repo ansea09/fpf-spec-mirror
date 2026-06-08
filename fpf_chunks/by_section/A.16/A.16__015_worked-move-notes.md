@@ -6,12 +6,12 @@ section_id: "A.16:14"
 section_title: "Worked Move Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__015_worked-move-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:14 — Worked Move Notes"
-line_start: 21375
-line_end: 21402
+line_start: 21400
+line_end: 21427
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -49,7 +49,7 @@ An operator alert note about a production disturbance may move:
 
 `notice -> stabilize -> route -> operationalize`
 
-The alert note does not need to become an anomaly statement immediately. It may first become a cue pack, then a routed cue set, and only then a typed operational form under the receiving governing pattern.
+The alert note does not need to become an anomaly statement immediately. It may first become a cue pack, then a routed cue set, and only then a typed operational form under the governing pattern.
 
 #### A.16:14.2 - Inquiry move note
 An inquiry cue pack about a model-vs-observation discrepancy may move:

@@ -6,12 +6,12 @@ section_id: "A.6.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:10 — Rationale"
-line_start: 15424
-line_end: 15440
+line_start: 15446
+line_end: 15462
 dependencies:
   - "A.10"
   - "A.14"

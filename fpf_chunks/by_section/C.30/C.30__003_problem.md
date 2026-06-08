@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 51528
-line_end: 51551
+line_start: 51634
+line_end: 51657
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ Engineering teams use "architecture" for several different things:
 - a TGA graph or flow description;
 - a functional, control, information, deployment, logical, or physical structure view;
 - an ADR-like publication;
-- a project-side claim carried by another exact FPF pattern.
+- a project-side claim carried by another governing FPF pattern.
 
 These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the Description episteme or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
 

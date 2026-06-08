@@ -6,12 +6,12 @@ section_id: "C.3.A:2"
 section_title: "Context & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__003_context-problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:2 — Context & Problem"
-line_start: 38988
-line_end: 39002
+line_start: 39033
+line_end: 39047
 dependencies:
   - "A.2.6"
   - "C.3.x"

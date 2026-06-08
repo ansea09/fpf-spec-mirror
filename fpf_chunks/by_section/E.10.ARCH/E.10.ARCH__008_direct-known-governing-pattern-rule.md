@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known governing-pattern rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_direct-known-governing-pattern-rule.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known governing-pattern rule"
-line_start: 59787
-line_end: 59792
+line_start: 60088
+line_end: 60093
 dependencies:
   - "A.17"
   - "A.18"
@@ -45,7 +45,7 @@ keywords:
 
 ### E.10.ARCH:5 - Direct known governing-pattern rule
 
-If the exact governing pattern and its primary `EntityOfConcern`, exact relation, or claim record are already recoverable by value, use that governing pattern directly. Do not send direct `C.30`, `C.16`, `C.29`, `E.21`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
+If the governing pattern and its primary `EntityOfConcern`, relation record, or claim record are already recoverable by value, use that governing pattern directly. Do not send direct `C.30`, `C.16`, `C.29`, `E.21`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
 
-Apply `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, or `A.19.SPR` only when wording hides the live EntityOfConcern, relation, characteristic, scale, score, quality characterization, comparison reference set, source-use disposition, state-family value, admissible use, or remaining reader move.
+Apply `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, or `A.19.SPR` only when wording hides the EntityOfConcern under repair, relation, characteristic, scale, score, quality characterization, comparison reference set, source-use disposition, state-family value, admissible use, or remaining reader move.
 

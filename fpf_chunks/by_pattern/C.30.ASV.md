@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 52849
-line_end: 53514
+line_start: 52997
+line_end: 53663
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ architectureClaimRef?:
 describedHolonRef?:
 boundedContextRef?:
 
-live architecture concern:
+architecture concern cue:
 suspected wrong collapse:
 practitioner prompt label:
 candidate structure kinds:
@@ -82,20 +82,21 @@ governingPatternApplicationRefs:
 stop condition:
 ```
 
-Ordinary minimum: name the live architecture claim or selected structure, or the described holon and bounded context when the claim is not opened yet, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not live`.
+Ordinary minimum: name the architecture claim being made or selected structure, or the described holon and bounded context when the claim is not yet recoverable, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not used`.
 
-Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the live structure kind and the next admissible architecture move. Open a full `ArchitectureStructuralView@Context` only when the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another exact governing-pattern use.
+Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the structure kind under consideration and the next admissible architecture move. Use a full `ArchitectureStructuralView@Context` only when the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another governing-pattern use.
 
 What goes wrong if C.30.ASV is missed: "architecture" silently means "module diagram"; a view becomes a publication face; a viewpoint becomes a structure kind; TEVB is stretched into a full architecture ontology; a Transduction Graph Architecture (TGA) graph, Layered Control Architecture (LCA) control sketch, code-agent relation graph, or neural-network block diagram becomes the architecture by appearance.
 
-What C.30.ASV buys in practice: the practitioner can name the architecture claim, selected structures, structure kind, viewpoint, selected relation kinds, selected constraints, selected invariants, live operation or dynamics descriptions, hidden or lost structure, correspondence, source or reliance relation, source-return condition, admissible use, and non-admissible use before relying on a view.
+What C.30.ASV buys in practice: the practitioner can name the architecture claim, selected structures, structure kind, viewpoint, selected relation kinds, selected constraints, selected invariants, operation or dynamics descriptions being used, hidden or lost structure, correspondence, source or reliance relation, source-return condition, admissible use, and non-admissible use before relying on a view.
 
-Not this pattern when the live question is only the general architecture claim, structure as such, or a TGA graph relation, path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If the view is used for another live claim, use the exact governing pattern and keep C.30.ASV only to the view portion.
+Not this pattern when the question under repair is only the general architecture claim, structure as such, or a TGA graph relation, path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, or `C.30.TGA-FLOW-REL` as appropriate. If the view is used for another claim being made, use the governing pattern and keep C.30.ASV only to the view portion.
 
-Thin precision-restoration pointer: if the live issue is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another exact governing-pattern exit, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; C.30.ASV resumes only after the architecture structural-view claim or exact non-ASV exit is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another governed claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
+
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is live, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view is live, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
+An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
 
 Without this pattern:
 
@@ -115,7 +116,7 @@ Without this pattern:
 | View usefulness vs view overread | Views make architecture discussable, but a useful artifact can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
 | Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often travel together but are not the same kind. |
 | TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
-| Small triage vs full view record | Many cases need only the live structure kind and next move; full view records are justified only when they change action. |
+| Small triage vs full view record | Many cases need only the structure kind under consideration and next move; full view records are justified only when they change action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
 | Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
 
@@ -125,9 +126,9 @@ Govern architecture structural views by first naming the selected architecture-r
 
 A conforming `ArchitectureStructuralView@Context` record is a Description or view over selected `U.Structure` references in one `ArchitectureOf@Context` claim record, under one declared `ArchitectureStructureKindRef` and one `DescriptionContext.ViewpointRef`. The description and view machinery makes the selected-structure move inspectable; it does not replace that move.
 
-C.30.ASV is the selected-structure-kind-to-view relation pattern for architecture work. It explains how different selected structure kinds become views under declared viewpoints and concerns. It is not a complete architecture-description pattern; a durable `ArchitectureDescription@Context` composes one or more structural-view records through C.30 and E.17.0 only when description use is live.
+C.30.ASV is the selected-structure-kind-to-view relation pattern for architecture work. It explains how different selected structure kinds become views under declared viewpoints and concerns. It is not a complete architecture-description pattern; a durable `ArchitectureDescription@Context` composes one or more structural-view records through C.30 and E.17.0 only when description use is being made.
 
-C.30.ASV does not extend the TEVB core viewpoint set by implication. It defines architecture structure kinds and architecture-specific structure-kind and view-record bindings. TEVB viewpoints are reused when the structure-kind view uses one of the TEVB core viewpoints; other structure-kind views use `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, an exact governing FPF pattern, or a source or reliance record.
+C.30.ASV does not extend the TEVB core viewpoint set by implication. It defines architecture structure kinds and architecture-specific structure-kind and view-record bindings. TEVB viewpoints are reused when the structure-kind view uses one of the TEVB core viewpoints; other structure-kind views use `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, a governing FPF pattern, or a source or reliance record.
 
 #### C.30.ASV:4.1 - Architecture structural view record
 `StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over structures selected by `ArchitectureOf@Context` and typed by `ArchitectureStructureKindRef`.
@@ -168,7 +169,7 @@ ArchitectureStructuralView@Context ::= {
 
 `DescriptionContext.EntityOfConcernRef` names the selected structure or selected structure set represented by `structureRefs`. `architectureClaimRef` names the enclosing `ArchitectureOf@Context` claim, and the described holon and bounded context are recovered through that claim record.
 
-**EntityOfConcern discipline.** C.30.ASV treats selected structure as the current `EntityOfConcern` for this view use when the view concerns dependent, non-agentive organization rather than one publication artifact. This does not add a parallel EntityOfConcern head: `DescriptionContext.EntityOfConcernRef`, `selectedStructureEntityOfConcernRef`, and `structureRefs` must converge on the same selected structure or structure set, while `architectureClaimRef` remains the enclosing architecture-claim context.
+**EntityOfConcern discipline.** C.30.ASV treats selected structure as the EntityOfConcern for this view use when the view concerns dependent, non-agentive organization rather than one publication artifact. This does not add a parallel EntityOfConcern head: `DescriptionContext.EntityOfConcernRef`, `selectedStructureEntityOfConcernRef`, and `structureRefs` must converge on the same selected structure or structure set, while `architectureClaimRef` remains the enclosing architecture-claim context.
 `viewpointRef` is a recovery label for `descriptionContext.ViewpointRef`, not a second independent viewpoint slot. If the implementation stores only `DescriptionContext`, the viewpoint remains recoverable there.
 
 `structureKnowledgeState?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply assurance, gate, release, causal proof, or architecture decision.
@@ -210,21 +211,21 @@ Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structur
 - `declaredStructureKindDefinition`;
 - allowed relation families;
 - common false interpretations;
-- exact governing pattern applications;
+- governing-pattern applications;
 - `boundedContextRef`.
 
-Each structure kind needs a short definition, allowed relation families, common false interpretations, typical exact governing pattern applications, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `U.Structure`.
+Each structure kind needs a short definition, allowed relation families, common false interpretations, typical governing-pattern applications, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `U.Structure`.
 
 #### C.30.ASV:4.3 - Small triage output
 
-Use `ArchitectureStructureKindTriage@Project` before a full view record when the practitioner only needs to identify the live structure kind and next architecture move.
+Use `ArchitectureStructureKindTriage@Project` before a full view record when the practitioner only needs to identify the structure kind under consideration and next architecture move.
 
 ```text
 ArchitectureStructureKindTriage@Project ::= {
   architectureClaimRef?: ArchitectureOf@ContextRef,
   describedHolonRef?: U.HolonRef,
   boundedContextRef?: U.BoundedContextRef,
-  liveArchitectureConcernCue,
+  architectureConcernCue,
   suspectedWrongCollapse,
   plainPromptLabel,
   candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef),
@@ -241,8 +242,8 @@ ArchitectureStructureKindTriage@Project ::= {
 }
 ```
 
-`primaryGoverningPatternApplicationRef` names the pattern that carries the next live claim kind. `candidateGenerationPatternApplication?` marks that the next admissible move is to leave ASV for candidate generation; it is not ASV work. `temptingWrongPatternRefs?` names tempting wrong first patterns when that repair is needed. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
-When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the live structure kind before opening a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
+`primaryGoverningPatternApplicationRef` names the pattern that carries the next claim kind being made. `candidateGenerationPatternApplication?` marks that the next admissible move is candidate generation; candidate generation is not ASV work. `temptingWrongPatternRefs?` names tempting wrong first patterns when that repair is needed. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
+When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
 
 Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-governed records use the Tech values below:
 
@@ -267,14 +268,14 @@ Declaration source: `VF.ARCH.STRUCTURE` is an `E.17.1` and `F.18` declared viewp
 
 #### C.30.ASV:4.4a - Structural-view publication-use boundary
 
-This subsection is the C.30.ASV structural-view publication-use boundary. C.30.ASV governs architecture structural-view adequacy: selected architecture-relevant structure, structure kind, view construction, correspondence, hidden structure and lost structure, source return, and next architecture move. Generic guards that a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is not evidence sufficiency, safety proof, assurance verdict, gate passage, release permission, work record, or decision authority belong here or in the exact description-publication neighbor. They do not expand the structural-view record and do not replace the architecture move.
+This subsection is the C.30.ASV structural-view publication-use boundary. C.30.ASV governs architecture structural-view adequacy: selected architecture-relevant structure, structure kind, view construction, correspondence, hidden structure and lost structure, source return, and next architecture move. When a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is used for evidence sufficiency, safety assurance, gate passage, release permission, work record, or decision authority, apply the pattern governing that claim; keep only the structural-view record and the next architecture move in C.30.ASV.
 
 ```text
 VF.TEVB.ENG core stays:
   { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
 ```
 
-TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence obligations, and exact governing pattern applications.
+TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence obligations, and governing-pattern applications.
 
 ```text
 VF.ARCH.STRUCTURE : U.ViewpointBundle {
@@ -307,28 +308,28 @@ ArchitectureStructureKindViewRecordBinding ::= {
 
 #### C.30.ASV:4.5 - Initial architecture structure kinds and view records
 
-The initial set is a seed for first architecture moves, not an atlas. Use the table to choose one live structure kind and the exact governing pattern application that carries any stronger claim.
+The initial set is a seed for first architecture moves, not an atlas. Use the table to choose one structure kind under consideration and the governing-pattern application that carries any non-ASV claim kind.
 
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | `FunctionalStructureView@Context` | function refs or effect refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, capability, work, or requirement patterns when those claims are live. |
+| `FunctionalStructure` | `FunctionalStructureView@Context` | function refs or effect refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, capability, work, or requirement patterns when those claims are being made. |
 | `FlowTransductionStructure` | `FlowTransductionStructureView@Context` | `transductionGraphRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs` | Use `E.18` and `C.30.TGA-FLOW-REL` for graph, path, or crossing structure input; use `C.28` for causal claims. |
 | `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
-| `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are live. |
-| `PlacementDeploymentStructure` | `PlacementDeploymentStructureView@Context` | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, legal patterns or regulatory patterns, or safety patterns for those stronger claims. |
-| `InformationDataStructure` | `InformationDataStructureView@Context` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are live. |
-| `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView@Context` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when live | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
-| `ControlStructure` | `ControlStructureView@Context` | control role refs, declared control-rate refs, observer, estimator, controller, planner, and supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are live. |
-| `ConstraintRequirementStructure` | `ConstraintRequirementStructureView@Context` | requirement refs, constraint refs, and invariant refs, affected structure refs, admissibility conditions | Requirements shape structures; requirement, gate, evidence, causal, or decision claims apply their exact governing patterns. |
-| `MaterialSpatialStructure` | `MaterialSpatialStructureView@Context` | geometry, adjacency, containment, energy flow or material flow, safety separation | Physical separation is not safety proof; safety, evidence, dynamics, or causal claims apply their exact governing patterns. |
+| `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are being made. |
+| PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, legal, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
+| `InformationDataStructure` | `InformationDataStructureView@Context` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are being made. |
+| `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView@Context` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when the corresponding claim is being made | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
+| `ControlStructure` | `ControlStructureView@Context` | control role refs, declared control-rate refs, observer, estimator, controller, planner, and supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are being made. |
+| `ConstraintRequirementStructure` | `ConstraintRequirementStructureView@Context` | requirement refs, constraint refs, and invariant refs, affected structure refs, admissibility conditions | Requirements shape structures; requirement, gate, evidence, causal, or decision claims apply their governing patterns. |
+| `MaterialSpatialStructure` | `MaterialSpatialStructureView@Context` | geometry, adjacency, containment, energy flow or material flow, safety separation | Physical separation is not safety proof; safety, evidence, dynamics, or causal claims apply their governing patterns. |
 | `DeclaredLogicalStructure` | `LogicalStructureView@Context` | local logical relation class, relation constraints, correspondence to functional structures, module structures, runtime structures, and data structures | Covers `logical architecture` without making `logical` a universal ontology token. |
 
-Externally governed classifier values remain admissible when they are the live architecture-relevant structure, but C.30.ASV does not define their full record families:
+Externally governed classifier values remain admissible when they are the architecture-relevant structure under consideration, but C.30.ASV does not define their full record families:
 
 | Externally governed classifier value | ASV use | Full semantics and governing patterns |
 | --- | --- | --- |
 | `WorkMethodStructure` | Method arrangement or work arrangement changes the architecture move. | Use `MethodDescription`, `WorkPlan`, `WorkEnactment`, exception path, launch relation or gate relation, and `A.15` governing patterns; do not turn a work-method diagram into work authority. |
-| `RoleEnactorStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns for the stronger claim; do not treat an org chart as architecture truth. |
+| RoleEnactorStructure | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
 | `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10`, `G.6`, or `B.3` for evidence sufficiency or assurance verdict; ASV only names the structure and loss boundary. |
 | `ScaleEvolutionStructure` | Scale window, replacement or change policy, trajectory reference, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
 | `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or externally governed values fits. | Name definition, relation families, false interpretations, governing patterns, and context; do not mint a root kind by label alone. |
@@ -337,14 +338,14 @@ Minimum useful seed examples:
 
 | Structure kind | Minimal example | False interpretation | First governing pattern |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern as live. |
-| `FlowTransductionStructure` | Path, crossing, valuation, or transduction slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, C.29, or C.28 as live. |
-| `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance claim as live. |
-| `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern as live. |
-| `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source return as live. |
-| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, C.24, C.16, C.25, or C.30.LCA as live. |
-| `MaterialSpatialStructure` | Separation, adjacency, containment, or energy path or material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal claim as live. |
-| `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or exact declared-neighbor pattern as live. |
+| `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern when that claim kind is being made. |
+| `FlowTransductionStructure` | Path, crossing, valuation, or transduction slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, C.29, or C.28 when a graph, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
+| `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance pattern when that claim kind is being made. |
+| `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern when that claim kind is being made. |
+| `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source-return pattern when that claim or reliance use is being made. |
+| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, C.24, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
+| `MaterialSpatialStructure` | Separation, adjacency, containment, or energy path or material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal pattern when that claim kind is being made. |
+| `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or governing pattern when that relation is being claimed or a claim of that kind is being made. |
 Minimal `SecurityTrustBoundaryStructureView@Context` fields:
 
 ```text
@@ -362,16 +363,16 @@ SecurityTrustBoundaryStructureView@Context ::= {
   detectionResponseBoundaryRefs?:
   governingPatternApplicationRefs:
     A.10 | G.6 | B.3 | C.28 | A.20 | A.21 |
-    C.16 | C.25 | C.24 when tool authority or agentic tool-use is live | C.30.LCA when control relation is live
+    C.16 | C.25 | C.24 when tool authority or agentic tool-use is being claimed | C.30.LCA when a control relation is being claimed
   admissibleUse:
-  nonAdmissibleUse:
-    not compliance proof, not risk score, not assurance verdict, not security by checklist, not secure because a diagram says "zero trust"
+  neighboringClaimBoundary:
+    compliance, risk-score, assurance, checklist-security, and zero-trust claims apply the evidence, assurance, risk, gate, or security pattern governing the claim being made
 }
 ```
 
-`SecurityTrustBoundaryStructure` carries adversarial-boundary interpretation: which protected assets or effects are live, who or what is trusted, where untrusted input crosses, what authority or privilege is exposed, which adversarial paths and attack exposures matter, which data-flow or control-flow security boundaries matter, and where secure defaults, hardening, update or supply-chain channels, detection, or response boundaries change the next architecture move.
+`SecurityTrustBoundaryStructure` carries adversarial-boundary interpretation: which protected assets or effects are under consideration, who or what is trusted, where untrusted input crosses, what authority or privilege is exposed, which adversarial paths and attack exposures matter, which data-flow or control-flow security boundaries matter, and where secure defaults, hardening, update or supply-chain channels, detection, or response boundaries change the next architecture move.
 
-Do not open evidence, assurance, gate, or compliance pattern use only because the topic is safety, security, or regulation. Open it when the architecture move relies on evidence sufficiency, assurance verdict, gate passage, regulatory acceptance, or release authority. If the live move is structural, first recover the structure: trust boundary, loss-control relation, control relation, evidence reuse structure, or affected structure or affected view.
+Apply evidence, assurance, gate, or compliance patterns only when the architecture move relies on evidence sufficiency, assurance verdict, gate passage, regulatory acceptance, or release authority. If the selected move is structural, first recover the structure: trust boundary, loss-control relation, control relation, evidence reuse structure, or affected structure or affected view.
 
 Use a `SafetyLossControlStructureNote` when a safety-architecture concern first needs the architecture-side loss-control structure rather than a safety-case verdict:
 
@@ -419,7 +420,7 @@ FunctionalStructureView@Context ::= {
 }
 ```
 
-A transduction graph, path slice, crossing, or flow valuation is not a functional element. When flow is live, connect the functional view to `FlowTransductionStructure` through `C.30.TGA-FLOW-REL`. When module allocation is live, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind.
+A transduction graph, path slice, crossing, or flow valuation is not a functional element. When a flow relation is being used, connect the functional view to `FlowTransductionStructure` through `C.30.TGA-FLOW-REL`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind.
 
 Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
 
@@ -444,19 +445,19 @@ Correspondence examples:
 
 | Source wording | Recover |
 | --- | --- |
-| "This function is implemented by that module." | `FunctionToModuleAllocationRef` or the exact allocation or relation record. |
+| "This function is implemented by that module." | `FunctionToModuleAllocationRef` or the allocation or relation record named by value. |
 | "This flow crosses that runtime boundary." | `FlowToRuntimeInteractionCorrespondence`. |
 | "This evidence covers the replacement." | `EvidenceReuseToAffectedStructure`; assign sufficiency or verdict to `A.10`, `G.6`, or `B.3`. |
-| "This requirement constrains that structure." | `RequirementToStructureConstraint` or exact constraint record. |
-| "This scale window changes the structure kind." | `ScaleWindowToStructureKindCorrespondence`; assign scale-lens claims to `C.29` when live. |
+| "This requirement constrains that structure." | `RequirementToStructureConstraint` or a constraint record named by value. |
+| "This scale window changes the structure kind." | `ScaleWindowToStructureKindCorrespondence`; assign scale-lens claims to `C.29` when those claims are being made. |
 
 Use `SourceReturnCondition` when compression, extraction, coarsening, evidence reuse, ML evaluation, bounded exception, many-to-many allocation, publication, or decision claim hides a distinction needed for action, assurance, causal use, legal review, regulatory review, comparison, or reopening.
 
-If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, legal or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is live.
+If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, legal or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is needed.
 
-When the view is used to name affected structures for a next move but no decision record is live, use C.30 `AffectedArchitectureStructureNote`: affected structure kinds, affected structure refs when known, affected ASV refs, accepted or suspected view loss, source-return condition, and the next admissible move. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
+When the view is used to name affected structures for a next move but no decision record is being used, use C.30 `AffectedArchitectureStructureNote`: affected structure kinds, affected structure refs when known, affected ASV refs, accepted or suspected view loss, source-return condition, and the next admissible move. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
 
-Use the thinnest source or reliance relation that preserves the next architecture move. Open fuller source, evidence, assurance, or claim-kind relation only when the current source or reliance relation cannot be inspected, used, compared, refreshed, or bounded without it. A `ControlStructureViewNote` may precede full `C.30.LCA` use or proof-governing pattern applications when one control relation and its boundary are enough for the current move.
+Use the thinnest source or reliance relation that preserves the next architecture move. Use fuller source, evidence, assurance, or claim-kind relation only when the source or reliance relation being used cannot be inspected, used, compared, refreshed, or bounded without it. A `ControlStructureViewNote` may precede full `C.30.LCA` use or proof-governing pattern applications when one control relation and its boundary are enough for the architecture move being made.
 
 Treat source return as a user action, not only a metadata field:
 
@@ -474,9 +475,9 @@ SourceReturnAction:
     openNeighborPattern | stop
 ```
 
-Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected reliance relation, assurance, legal, comparison, causal, gate, or decision commitment. The condition is live only when the repaired text still relies on the hidden source-side distinction.
+Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected reliance relation, assurance, legal, comparison, causal, gate, or decision commitment. The condition is needed only when the repaired text still relies on the hidden source-side distinction.
 
-Model cards, system cards, and evaluation harness reports may publish or substantiate an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when live, and the evidence or assurance governing pattern when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release claim or gate claim by publication alone.
+Model cards, system cards, and evaluation harness reports may publish or substantiate an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when that mismatch is being claimed, and the evidence or assurance governing pattern when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release claim or gate claim by publication alone.
 
 #### C.30.ASV:4.8 - Worked slices
 
@@ -484,7 +485,7 @@ Model cards, system cards, and evaluation harness reports may publish or substan
 
 ```text
 Runtime degradation slice:
-  active structure kinds:
+  selected structure kinds:
     RuntimeInteractionStructure
     ControlStructure
     InformationDataStructure
@@ -499,7 +500,7 @@ Runtime degradation slice:
     green indicator value as gate authority or release authority
 ```
 
-Use `C.24` only when tool-use, call planning, call graph, work execution, or budgeted agentic tool-use is the live claim. Do not absorb those claims into architecture structure.
+Use `C.24` only when tool-use, call planning, call graph, work execution, or budgeted agentic tool-use is the claim being made. Do not absorb those claims into architecture structure.
 
 **CPS or plant architecture.** A plant drawing, P&ID-like artifact, LCA sketch, or safety-case view is not the plant architecture by itself. First recovery may need:
 
@@ -525,7 +526,7 @@ stop condition:
   no P&ID, LCA diagram, or safety case is treated as the architecture
 ```
 
-**Chiplet or device architecture.** A packaging diagram or interconnect sketch may open several structure kinds:
+**Chiplet or device architecture.** A packaging diagram or interconnect sketch may involve several structure kinds:
 
 ```text
 Chiplet and device architecture first recovery:
@@ -589,7 +590,7 @@ Evidence reuse across product variants:
     evidence-structure view as assurance verdict
 ```
 
-**AI agent diagram.** A "planner-memory-tools" diagram is not the agent's architecture by itself. It may open first recovery as a structure-kind set, without minting an AI-domain ontology:
+**AI agent diagram.** A "planner-memory-tools" diagram is not the agent's architecture by itself. It may start first recovery as a structure-kind set, without minting an AI-domain ontology:
 
 ```text
 AI-agent architecture first recovery:
@@ -613,17 +614,17 @@ correspondenceOrLossLine:
   security boundary, module-interface, and evidence-assurance structures,
   plus any diagram or evaluation-harness loss
 governingPatternApplicationRefs:
-  C.30.TGA-FLOW-REL when E.18 flow relation is live,
+  C.30.TGA-FLOW-REL when an E.18 flow relation is being used,
   A.6.M module-relation repair for tool, API, or interface relation claims,
-  A.10, G.6, or B.3 when evidence or assurance reliance is live,
-  C.24, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is live
+  A.10, G.6, or B.3 when evidence or assurance reliance is being claimed,
+  C.24, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is being claimed
 stop condition:
-  no evidence sufficiency, assurance, gate, autonomy, or tool-call authority remains inside ASV
+  ASV contains only the structural-view record; evidence sufficiency, assurance, gate, autonomy, and tool-call authority claims are assigned to the governing patterns for those claims
 ```
 
-Structural AI-agent security is architecture structure when these structure kinds change the next architecture move. When the live claim is latent representation, decoding, or effect adequacy rather than architecture structure, keep the phrase as a reduced-use source cue until the exact governing representation, decode, or effect-adequacy pattern carries that claim.
+Structural AI-agent security is architecture structure when these structure kinds change the next architecture move. When the claim being made is latent representation, decoding, or effect adequacy rather than architecture structure, keep the phrase as a reduced-use source cue until the representation, decode, or effect-adequacy pattern governing that claim carries that claim.
 
-**Generated code-agent relation graph.** A probe JSON or code-agent architecture relation graph can be an architecture structural view publication only after observed, inferred, or unknown observation value, evidence pointers or source pointers, unexplored regions, typed relation semantics, and source-return conditions are present. It is not proof of the agent's internal belief and not assurance that a downstream code change is safe.
+**Generated code-agent relation graph.** A probe JSON or code-agent architecture relation graph can be an architecture structural view publication only after observed, inferred, or unknown observation value, evidence pointers or source pointers, unexplored regions, typed relation semantics, and source-return conditions are present. Belief-state proof and downstream-change safety assurance apply the patterns governing those claims.
 
 **Neural-network block replacement.** Replacing attention, FFN, convolution, SSM, recurrent, memory block or cache block, MoE expert-selection, pruning, distillation, or another block is an architecture move only when the changed structure kind, flow relation, module-interface claim kind, preserved and lost structure, affected characteristic, source relation, and decision or evidence governing pattern are named.
 
@@ -644,10 +645,10 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
 | Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
 | TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
-| Check-only bias | Every failed conformance check gives a repair move or exact governing pattern application. |
+| Check-only bias | Every failed conformance check gives a repair move or governing-pattern application. |
 | Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 
 ### C.30.ASV:7 - Conformance Checklist
 
@@ -656,16 +657,16 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **CC-ASV-1 Structure target.** | Every architecture structural view names `structureRefs` or a recoverable selected-structure reference. | Name the selected structure reference, or downgrade the artifact to an architecture question, diagram, note, or publication that does not claim to be a structural view. |
 | **CC-ASV-2 Structure kind.** | Every architecture structural view names `structureKindRef`. | Run `ArchitectureStructureKindTriage@Project`; if no structure kind changes action, keep the text as ordinary prose or a source note. |
 | **CC-ASV-3 Same selected architecture claim.** | The view preserves `architectureClaimRef`, `DescriptionContext`, and the claim record's `describedHolonRef` and `boundedContextRef` unless explicit retargeting or a bridge is declared. | Restore the same claim record and bounded context, or add an explicit retargeting or bridge note before using the view. |
-| **CC-ASV-4 Viewpoint discipline.** | The view is under `VF.ARCH.STRUCTURE` or another declared architecture-specific bundle, rather than an ad-hoc tag. | Assign the view to `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, or a exact governing pattern; otherwise keep the label as Plain recognition wording. |
+| **CC-ASV-4 Viewpoint discipline.** | The view is under `VF.ARCH.STRUCTURE` or another declared architecture-specific bundle, rather than an ad-hoc tag. | Assign the view to `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, or a governing pattern; otherwise keep the label as Plain recognition wording. |
 | **CC-ASV-5 Lost structure.** | The view names hidden or lost structure, especially for query, extraction, coarsening, or publication uses. | Add a one-line hidden-structure note or lost-structure note, or narrow the admissible use so omitted structure is not relied on. |
 | **CC-ASV-6 Correspondence.** | Cross-view relations are carried by `correspondenceModelRefs` or correspondence records, not by prose alone. | Add a correspondence note or stop at a single-view statement without cross-view consistency claim. |
 | **CC-ASV-7 No publication collapse.** | A diagram, model, table, dashboard, generated relation graph, or ADR is kept as publication, record, or carrier, not the architecture structural view itself. | Keep the artifact as publication or carrier and name the source episteme or view; do not require a full architecture view unless it changes the next move. |
 | **CC-ASV-8 No single-view architecture.** | If a decision uses an architecture view as decision claim, it names the affected structures and views, not only one favored diagram. | Add affected structure and view refs, or narrow the statement to the single view's admissible use. |
-| **CC-ASV-9 No proof overread.** | The view does not act as evidence, safety proof, causal proof, gate decision, or work record without a named exact governing pattern. | Assign the live claim to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, or mark the proof, evidence, gate, or assurance use unsupported; do not add more C.30.ASV fields as a substitute. |
-| **CC-ASV-10 Exact relation or correspondence record.** | Every cross-reference names the exact kind, relation, or record: selected structure, structure kind, viewpoint, correspondence record, allocation record, bridge record, evidence relation, publication carrier when publication is live, interface specification, or exact governing record. | Replace the ambiguous reference with the kind, relation, or record that actually carries the claim, or split the sentence into separate records. |
+| **CC-ASV-9 No proof overread.** | The view does not act as evidence, safety proof, causal proof, gate decision, or work record without a named governing pattern. | Assign the claim being made to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, or mark the proof, evidence, gate, or assurance use unsupported; do not add more C.30.ASV fields as a substitute. |
+| **CC-ASV-10 Relation or correspondence record named by value.** | Every cross-reference names the kind named by value, relation, or record: selected structure, structure kind, viewpoint, correspondence record, allocation record, bridge record, evidence relation, publication carrier when a publication relation is being made, interface specification, or governing record named by value. | Replace the ambiguous reference with the kind, relation, or record that actually carries the claim, or split the sentence into separate records. |
 | **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, legal review, regulatory review, or reopening. |
-| **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers `<X>StructureKind` or a declared local relation. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is live, keep the name as Plain prose and do not let it carry ontology. |
-| **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, assign to an exact governing pattern, generate candidates, stop, open a structural view, add correspondence, add source return, or apply the exact governing pattern. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers `<X>StructureKind` or a declared local relation. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is being claimed, keep the name as Plain prose and do not let it carry ontology. |
+| **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, assign to a governing pattern, generate candidates, stop, state a structural view, add correspondence, add source return, or apply the governing pattern. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
 ### C.30.ASV:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -674,11 +675,11 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **Module diagram as architecture view** | One module-interface diagram is treated as the whole architecture. | Run structure-kind triage; keep module-interface as one structure kind and add other views only when they change action. |
 | **Viewpoint as structure kind** | `VP.Functional`, `VP.ModuleInterface`, or another viewpoint is used as if it were the selected structure kind. | Recover `ArchitectureStructureKindRef` and bind it to a viewpoint through `ArchitectureStructureKindViewRecordBinding` when needed. |
 | **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use `VF.ARCH.STRUCTURE` and binding rows. |
-| **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme or source view and publication relation; open an ASV record only if the view changes action. |
+| **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme or source view and publication relation; use an ASV record only if the view changes action. |
 | **Single-view decision** | A decision uses one architecture view as if it covered all affected structures. | Name affected structures and view refs, or narrow the decision to the single view's admissible use. |
 | **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still justify action. | Add hidden structure and lost structure and source-return condition, or narrow admissible use. |
-| **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the live claim to the exact governing pattern and keep ASV only to view adequacy. |
-| **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data flow or control flow, abuse or misuse path, and the exact evidence, assurance, measurement, causal, gate, selection, or allocation claim kind if it is live; do not treat ordinal risk color as security architecture adequacy, resource-allocation priority, or gate passage. |
+| **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the claim being made to the governing pattern and keep ASV only to view adequacy. |
+| **Risk color as security architecture** | A red, yellow, or green risk cell, risk matrix, maturity score, or compliance color stands in for `SecurityTrustBoundaryStructure` or resource-allocation priority. | Recover protected asset or effect, trust boundary, untrusted input, privilege or authority relation, data flow or control flow, abuse or misuse path, and the evidence named by value, assurance, measurement, causal, gate, selection, or allocation claim kind if that claim is being made; do not treat ordinal risk color as security architecture adequacy, resource-allocation priority, or gate passage. |
 | **Taxonomy without action** | The text classifies a view but does not say what changes in practice. | Add `admissibleArchitectureMove` or stop at Plain recognition wording. |
 
 ### C.30.ASV:9 - Consequences
@@ -694,15 +695,15 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 C.30.ASV exists because architecture descriptions are multi-view by nature, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is being described; a viewpoint says how an episteme or view is oriented toward a concern. They may be bound, but they are not interchangeable.
 
-The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the live structure kind and the next admissible architecture move, no full view record is needed. The full record opens when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
+The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
 
-The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings live beside TEVB rather than mutating TEVB.
+The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings are defined beside TEVB rather than mutating TEVB.
 
 ### C.30.ASV:11 - SoTA-Echoing
 
 | Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence where live, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
+| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence when used, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
 | OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF Description or views. | Generated, queried, or model-derived views state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not become source episteme, source or reliance relation, evidence sufficiency, gate passage, or assurance. |
 | UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can publish ASV records only when Description-episteme or specification-use content, DescriptionContext EntityOfConcern, structure refs, structure kind, viewpoint, and publication relation are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without a recoverable C.30 or C.30.ASV source view. |
 | Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection boundaries and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
@@ -713,9 +714,9 @@ The TEVB decision is conservative. TEVB remains the small engineering viewpoint 
 
 Builds on: `C.30.P`, `C.30`, `A.22`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and named governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is live.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is being made.
 
-Does not replace: C.30 grounded architecture and selected-structure adequacy, A.22 selected-structure EntityOfConcern, E.TGA graph, path, and crossing discipline, C.29 mathematical-lens use, C.16 characterization, C.25 Q-Bundles, C.28 causal-use relation, A.10 and G.6 evidence, B.3 assurance, A.20 and A.21 gate or release records, A.15 work, C.11 decisions, or E.17 publication.
+Neighboring claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.22` for selected-structure EntityOfConcern, `E.TGA` for graph, path, and crossing discipline, `C.29` for mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
 
 ### C.30.ASV:End
 

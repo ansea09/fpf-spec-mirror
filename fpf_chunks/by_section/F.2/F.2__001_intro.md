@@ -6,12 +6,12 @@ section_id: "F.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:intro — Intro"
-line_start: 69282
-line_end: 69289
+line_start: 69594
+line_end: 69601
 dependencies:
   - "A.11"
   - "A.7"

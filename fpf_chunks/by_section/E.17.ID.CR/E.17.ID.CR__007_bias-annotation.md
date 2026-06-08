@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 64794
-line_end: 64802
+line_start: 65105
+line_end: 65113
 dependencies:
   - "A.15"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "A.10:10b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__013_c-29-mathematical-lens-use-relation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
   - "A.10:10b — C.29 mathematical-lens use relation"
-line_start: 18705
-line_end: 18708
+line_start: 18728
+line_end: 18731
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 66699
-line_end: 66714
+line_start: 67010
+line_end: 67025
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,8 +51,8 @@ keywords:
 ### E.18.1:7 - Conformance Checklist
 
 - `CC-E18.1-1` The P2W use starts from an accepted `ProblemCard@Context` or stops before P2W begins.
-- `CC-E18.1-2` The carry-through record states `ProblemCardRef`, `CarriedDistinction`, `LiveP2WQuestion`, `RecoveredFPFKindOrRelation`, `SelectedApplication`, `WrittenRecordOrApplication`, `NotCarried`, `StopCondition`, `ReturnTrigger`, and `SourceCurrentnessCheck`.
-- `CC-E18.1-3` The positive graph is recoverable: accepted problem-side output, live question, first-principles lens, declaration stack, mechanism or method, planning, performed work, result records, and return or refresh.
+- `CC-E18.1-2` The carry-through record states `ProblemCardRef`, `CarriedDistinction`, `NextFPFUseQuestion`, `RecoveredFPFKindOrRelation`, `SelectedApplication`, `WrittenRecordOrApplication`, `NotCarried`, `StopCondition`, `ReturnTrigger`, and `SourceCurrentnessCheck`.
+- `CC-E18.1-3` The positive graph is recoverable: accepted problem-side output, question under repair, first-principles lens, declaration stack, mechanism or method, planning, performed work, result records, and return or refresh.
 - `CC-E18.1-4` One source phrase may split into several FPF applications; the record does not compress them into one generic token.
 - `CC-E18.1-5` Result wording is unpacked into concrete result-related relations; a generic `WorkResult` kind is not admitted.
 - `CC-E18.1-6` `PrincipleFrame` material keeps postulates and CHR observability distinct from units, planes, comparators, thresholds, ontology editions, CHR editions, plans, work, evidence, and gates.

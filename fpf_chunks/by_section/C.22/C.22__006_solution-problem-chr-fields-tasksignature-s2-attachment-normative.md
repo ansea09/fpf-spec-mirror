@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem‑CHR (fields) + TaskSignature (S2) attachment (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__006_solution-problem-chr-fields-tasksignature-s2-attachment-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem‑CHR (fields) + TaskSignature (S2) attachment (normative)"
-line_start: 43784
-line_end: 43855
+line_start: 43831
+line_end: 43902
 dependencies:
   - "C.16"
   - "C.18"

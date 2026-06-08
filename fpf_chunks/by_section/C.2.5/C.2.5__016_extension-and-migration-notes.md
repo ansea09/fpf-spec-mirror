@@ -6,12 +6,12 @@ section_id: "C.2.5:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__016_extension-and-migration-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:15 — Extension and Migration Notes"
-line_start: 36761
-line_end: 36770
+line_start: 36801
+line_end: 36811
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,3 +41,4 @@ Words such as "settled", "closed", "final", or "open" should be treated as migra
 
 #### C.2.5:15.3 - Boundary reminder
 `CD` is not warrant strength and not a gate decision. It speaks only about the local fixity of the current episteme/publication path and its candidate space.
+

@@ -6,12 +6,12 @@ section_id: "C.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:intro — Intro"
-line_start: 34651
-line_end: 34656
+line_start: 34686
+line_end: 34691
 dependencies:
   - "A.10"
   - "A.15"

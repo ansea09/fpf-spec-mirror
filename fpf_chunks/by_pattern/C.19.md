@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
-line_start: 42941
-line_end: 43294
+line_start: 42987
+line_end: 43340
 dependencies:
   - "B.3"
   - "C.11"
@@ -336,7 +336,7 @@ A SoTA pack often compares traditions that stay non-dominated for different reas
 
 #### C.19:5.3 - Collective and contextual grounding
 
-A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. The practical point is that `C.19` governs that pool-treatment decision only while the live question is still about the live set; once the result must become one local choice, one enactment plan, or one published selected set, reroute immediately.
+A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. The practical point is that `C.19` governs that pool-treatment decision only while the question under repair is still about the live set; once the result must become one local choice, one enactment plan, or one published selected set, reroute immediately.
 ### C.19:6 - Bias-Annotation
 
 No global scalarisation of partial orders; ordinal scales excluded from arithmetic; all selections record lens id and policy id; notation/tool neutrality.
@@ -352,7 +352,7 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 
 - **C19-8**  When the Heterogeneity-first lens is used, provenance MUST include: (i) the family-quota vector (including the default triad quota k), (ii) the subFamilyDef id (from F1-Card) if sub-family quotas apply, (iii) the sampler class, seed, and policy id.
 - **C19-9** When `C.19` returns one pool-policy result, that result **MUST** identify the still-live pool or family scope, the governing lens or policy id, and the next treatment (`widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`).
-- **C19-10** If the live question is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** reroute rather than restate `C.11`, `C.24`, or `G.5`.
+- **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** reroute rather than restate `C.11`, `C.24`, or `G.5`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If exploration/exploitation collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior/logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
 

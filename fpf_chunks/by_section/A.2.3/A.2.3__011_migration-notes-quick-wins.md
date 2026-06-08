@@ -6,12 +6,12 @@ section_id: "A.2.3:10"
 section_title: "Migration notes (quick wins)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_migration-notes-quick-wins.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10 — Migration notes (quick wins)"
-line_start: 2933
-line_end: 2942
+line_start: 2940
+line_end: 2950
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -55,7 +55,8 @@ keywords:
 2. **Separate provider from promise content.** Keep systems/teams as `U.System`; make them providers via `…#ServiceProviderRole:Context`.
 3. **Wire evidence.** Ensure every relevant `U.Work` has `claimsPromiseContent` (and `fulfilsPromiseContent` post‑verdict).
 4. **Choose metrics.** For each Service/promise content, define 2–4 KPIs and the **exact** Work-based formulas (availability, lead-time, rejection rate, cost-to-serve), declare the **Claim scope (G)** and **Γ_time** policy used for each KPI, and—when KPIs are numeric/comparable—define the underlying `U.Characteristic` + measurement procedure and evidence (C.16/C.25) and pin `{UnitType, ScaleKind, ReferencePlane, EditionId}`.
-   → For each **promise content**, define 2–4 KPIs and the exact Work-based formulas, with explicit `Γ_time`.
+   → For each **promise content**, define 2–4 KPIs and the Work-based formulas named by value
+, with explicit `Γ_time`.
 5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to FPF Kinds via Bridges.
 6. **Tidy language.** Apply **A.6.8 (RPR‑SERV)** / **L‑SERV**: ban unqualified “service” as a synonym for server/team/process/ticket in normative prose; map them explicitly.
 

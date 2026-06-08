@@ -6,12 +6,12 @@ section_id: "C.2.6:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__016_extension-and-migration-notes.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:15 — Extension and Migration Notes"
-line_start: 36933
-line_end: 36942
+line_start: 36975
+line_end: 36985
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,3 +43,4 @@ Statements like "the system wants", "the note suggests", or "the operator-facing
 
 #### C.2.6:15.3 - Boundary reminder
 `U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
+

@@ -6,12 +6,12 @@ section_id: "F.9.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__004_forces.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:3 — Forces"
-line_start: 71987
-line_end: 71993
+line_start: 72300
+line_end: 72306
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

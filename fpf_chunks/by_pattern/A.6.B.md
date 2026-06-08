@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.B.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
-line_start: 7666
-line_end: 8340
+line_start: 7674
+line_end: 8350
 dependencies:
   - "A.10"
   - "A.6"
@@ -250,6 +250,7 @@ This section is the normative “API” of the square: what each quadrant is for
 
 * If a `D-*` statement imposes compliance with a gate, it **MUST** reference the relevant `A-*` ID(s).
 * If a `D-*` statement is meant to be auditable, it **SHOULD** reference the `E-*` claim(s) that provide evidence and the carrier classes involved.
+
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
 **Intent.** State what happens in work and how it can be evidenced: observed effects, emitted events, traces/logs/metrics, produced reports, measurement outcomes.
@@ -329,6 +330,7 @@ When an obligation/commitment relies on precise term or metric meanings:
 * `D-*` references `L-*` that define the terms/metrics it uses.
 
 This keeps governance text from accidentally redefining semantics in prose.
+
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
 **Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy/enforce it, and (iii) an observability expectation into the three quadrants:

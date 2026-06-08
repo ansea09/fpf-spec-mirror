@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-slices.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:5 — Worked slices"
-line_start: 23433
-line_end: 23446
+line_start: 23459
+line_end: 23472
 dependencies:
   - "A.10"
   - "A.16"
@@ -49,11 +49,11 @@ keywords:
 
 **Show, evidence path.** "Evidence posture is incomplete" repairs to an `A.10` result: evidence kind, claim and effect, carrier or source path, currentness window, `RelianceDisposition`, admissible reliance, blocked reliance, and reopen trigger.
 
-**Show, publication use.** "Publication posture allows decision input" repairs to an `E.17` publication use note plus exact decision or evidence pattern when live. The publication face may orient, expose a source, compare, or carry a candidate input; it does not decide or assure by itself.
+**Show, publication use.** "Publication posture allows decision input" repairs to an `E.17` publication use note plus the decision or evidence pattern governing the claim being made. The publication face may orient, expose a source, compare, or carry a candidate input; it does not decide or assure by itself.
 
 **Show, mathematical lens.** `LensUseAdmissibilityValue` may stay in `C.29` because it names a local finite field for a mathematical-lens use. The field still cannot mean evidence, assurance, release, benchmark superiority, or source authority.
 
 **Show, temporal claim.** `dynClaimPosture` may stay in `C.27` when its value set and non-overread boundary are present. The value says what kind of temporal claim use is being made; it does not upgrade evidence, authority, assurance, or promise claim.
 
-**Show, administrative state.** "The release or admission record is ready for release action" belongs in the exact project-side release or admission, review, dispatch, administrative, or source-control record that carries that state. A live pattern body may mention it only as an informative boundary; it must not use that external administrative state as pattern-subject guidance.
+**Show, administrative state.** "The release or admission record is ready for release action" belongs in the project-side release or admission, review, dispatch, administrative, or source-control record that carries that state. A pattern body may mention it only as an informative boundary; it must not use that external administrative state as pattern-subject guidance.
 

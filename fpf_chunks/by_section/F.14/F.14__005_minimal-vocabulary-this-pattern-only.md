@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:4 — Minimal vocabulary (this pattern only)"
-line_start: 73495
-line_end: 73502
+line_start: 73809
+line_end: 73816
 dependencies:
   - "F.1"
   - "F.10"

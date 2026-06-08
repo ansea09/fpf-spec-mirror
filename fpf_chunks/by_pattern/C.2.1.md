@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
-line_start: 33829
-line_end: 34650
+line_start: 33864
+line_end: 34685
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -578,7 +578,7 @@ EntityOfConcern values such as `U.System`, `U.Method`, `U.Role`, or `U.Episteme`
 
   `Describe_EoC_DescEp` is **conformant** to A.6.2 but not an Ep→Ep morphism (domain is the `EntityOfConcern` value, codomain is a Description-side `U.Episteme`). C.2.1 provides the **codomain schema** and ensures that the resulting Description has a valid DescriptionContext.
 
-C.2.1 does not decide that a Description episteme has become a Specification. If a bounded use formalises, constrains, test-harnesses, accepts, or publishes a Description episteme as a specification, the governing pattern must name the exact specification-use gate: A.6.2 for effect-free episteme refinement, C.2.3 for formality and checkability, A.21 or the relevant gate/acceptance pattern for harness and acceptance force, C.16 for measurement criteria, E.17 for publication expression, and E.10 for suffix discipline. The C.2.1 requirement is only that the Description episteme keeps the same `entityOfConcernRef`, `BoundedContextRef`, and `ViewpointRef` unless an exact retargeting or viewing pattern declares otherwise.
+C.2.1 does not decide that a Description episteme has become a Specification. If a bounded use formalises, constrains, test-harnesses, accepts, or publishes a Description episteme as a specification, the governing pattern must name the exact specification-use gate: A.6.2 for effect-free episteme refinement, C.2.3 for formality and checkability, A.21 or the relevant gate/acceptance pattern for harness and acceptance force, C.16 for measurement criteria, E.17 for publication expression, and E.10 for suffix discipline. The C.2.1 requirement is only that the Description episteme keeps the same `entityOfConcernRef`, `BoundedContextRef`, and `ViewpointRef` unless an retargeting or viewing pattern named by value declares otherwise.
 
 C.2.1 does **not** define the full `EntityOfConcern` / Description-episteme boundary or the specification-use gates; it only insists that any `...Description` episteme, and any `...Spec` use admitted by neighbouring gates, must:
 * implement `U.EpistemeCard` or `U.EpistemeView` **with** `content`, `entityOfConcernRef`, `groundingHolonRef?`, `viewpointRef?`, and `referenceScheme?` fields, and

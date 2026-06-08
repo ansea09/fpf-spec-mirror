@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
-line_start: 32562
-line_end: 32790
+line_start: 32596
+line_end: 32824
 dependencies:
   - "A.15"
   - "A.16"
@@ -47,7 +47,7 @@ keywords:
 **Plain-name.** Observe-to-route seam.
 
 ### B.4.1:1 - Problem frame
-Observation rarely yields a ready anomaly, `A.6.A` invitation, or hypothesis in one step. Between low-articulation cue preservation and endpoint governance through receiving governing patterns, the cluster needs one explicit route-bearing seam that can publish route plurality or route selection without pretending that the cue already belongs to a receiving governing pattern.
+Observation rarely yields a ready anomaly, `A.6.A` invitation, or hypothesis in one step. Between low-articulation cue preservation and endpoint governance through governing patterns, the cluster needs one explicit route-bearing seam that can publish route plurality or route selection without pretending that the cue already belongs to a governing pattern.
 
 That seam begins **after** `U.PreArticulationCuePack`. Cue preservation may exist before routing. `B.4.1` begins only when route publication itself becomes worth making explicit.
 
@@ -63,7 +63,7 @@ Without a pre-abductive seam, early cue publications are either lost, prematurel
 | **Form vs face precision** | Keep route-bearing publication form distinct from the MVPK face on which it is rendered. |
 
 ### B.4.1:4 - Solution
-Insert a pre-abductive route-bearing seam inside the language-state cluster, between observation/cue preservation and receiving endpoint-entry patterns:
+Insert a pre-abductive route-bearing seam inside the language-state cluster, between observation/cue preservation and endpoint governing-pattern entries:
 
 `Observe -> Notice -> Stabilize -> Route`
 
@@ -109,7 +109,7 @@ The candidate route set may contain, among others:
   - `SubstrateDiversificationRoute`
 
 ##### B.4.1:4.2.1 - Specialization-sensitive extension route family
-These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that receiving governing patterns must be able to recover by value.
+These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that governing patterns must be able to recover by value.
 
 Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the honest next question is whether threshold-reaching specialization is actually attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
 
@@ -210,7 +210,7 @@ This is enough to keep later handoff reviewable without collapsing the seam into
 For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream governing pattern that would become admissible if that discriminator is satisfied.
 
 #### B.4.1:14.2 - Selected route is not endpoint governance
-Even when one route is selected, the routed cue set remains a seam publication form until a receiving governing pattern is entered explicitly.
+Even when one route is selected, the routed cue set remains a seam publication form until a governing pattern is entered explicitly.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
 A reviewer should check whether the selected route is justified by the published cue pack and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold is not yet met, keep the publication early rather than laundering it into a late prompt, requirement, or work governing pattern.
@@ -222,7 +222,7 @@ One cue cluster may also split into several routed cue sets if different sub-cue
 
 ### B.4.1:15 - Migration and worked continuation boundaries
 
-`B.4.1` governs route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to receiving governing patterns once the next publication is explicit enough to carry them.
+`B.4.1` governs route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to governing patterns once the next publication is explicit enough to carry them.
 
 #### B.4.1:15.1 - Migration from anomaly-first prose
 Older anomaly-first language should be migrated into route publication when the publication does not yet meet anomaly-governance entry conditions.

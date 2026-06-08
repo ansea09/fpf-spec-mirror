@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.LS.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
-line_start: 36232
-line_end: 36473
+line_start: 36267
+line_end: 36510
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -163,6 +163,7 @@ The pattern gives the declared language-state chart over `U.CharacteristicSpace`
 - Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.3`.
 - Coordinates with: `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `E.18`, `F.9.1`.
 - Constrains: language-state threshold publication and profile composition.
+
 ### C.2.LS:13 - Worked Examples and Composition Notes
 
 #### C.2.LS:13.1 - Operator-facing early alert
@@ -230,6 +231,7 @@ A conforming migration rewrites such statements into explicit facet talk: which 
 
 #### C.2.LS:15.3 - Boundary reminder
 `U.LanguageStateFacetProfile` is a coordination record. If authors find themselves putting move rules, bridge rules, scale rules, or bundle semantics into the profile itself, they are writing in the wrong governing pattern.
+
 ### C.2.LS:16 - Profile Publication Package Discipline
 
 #### C.2.LS:16.1 - Minimal publishable profile package

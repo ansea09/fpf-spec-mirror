@@ -6,12 +6,12 @@ section_id: "E.17.AUD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__012_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:11 — Relations"
-line_start: 65211
-line_end: 65216
+line_start: 65522
+line_end: 65527
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,5 +45,5 @@ keywords:
 
 - **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `E.17`, and `C.2.1`.
 - **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
-- **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the exact project-side FPF kind and reference instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
+- **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the project-side FPF kind and reference named by value instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
 

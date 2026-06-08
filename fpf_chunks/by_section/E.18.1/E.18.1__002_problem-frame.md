@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:1 — Problem frame"
-line_start: 66435
-line_end: 66462
+line_start: 66746
+line_end: 66773
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### E.18.1:1 - Problem frame
 
-Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is not yet settled. The practitioner has a live carry-through question: which problem-side distinction can be carried into the next exact FPF relation or record?
+Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is not yet settled. The practitioner has an unsettled carry-through question: which problem-side distinction can be carried into the next FPF relation or record named by value?
 
 The primary EntityOfConcern is the P2W carry-through relation: the relation between accepted problem-side material and the next admissible FPF use. P2W keeps first-principles material usable by turning it into one recoverable next move instead of letting an inspiring explanation become an all-purpose project claim.
 
@@ -58,7 +58,7 @@ The primary EntityOfConcern is the P2W carry-through relation: the relation betw
 
 - an accepted `ProblemCard@Context` names a working problem and the team needs a disciplined next move toward method, planning, performed work, or result interpretation;
 - a first-principles, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism, method, WorkPlanning, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
-- a TGA graph, P2W path, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the live next move must still be recovered as a current FPF kind or relation;
+- a TGA graph, P2W path, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next move must still be recovered as an accepted FPF kind or relation;
 - a result artifact, telemetry line, acceptance record, quality-evaluation record, done-state update, feedback pin, or integration claim needs to be unpacked before it can guide the next move.
 
 #### E.18.1:1.2 - What goes wrong if missed
@@ -71,8 +71,8 @@ The practitioner gets one admissible next move: write a P2W carry-through record
 
 #### E.18.1:1.4 - Not this pattern when
 
-- there is no accepted problem-side record; use `C.22.2` or the exact problem-side pattern first;
-- the live FPF kind, relation, and record to write are already settled; use that pattern directly and do not add a P2W layer;
+- there is no accepted problem-side record; use `C.22.2` or the problem-side pattern named by value first;
+- the FPF kind under repair, relation, and record to write are already settled; use that pattern directly and do not add a P2W layer;
 - the requested work product is a local project procedure, schedule, or work-management method; use the relevant work, planning, method, gate, or operational-management pattern;
 - the requested record or claim is an evidence case, assurance case, gate record, decision record, architecture description, publication-use claim, or wording-use repair; use the recovered relation and its governing pattern directly.
 

@@ -6,12 +6,12 @@ section_id: "C.17:14"
 section_title: "Anti‑Goodhart guard (use creativity metrics safely)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__015_anti-goodhart-guard-use-creativity-metrics-safely.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:14 — Anti‑Goodhart guard (use creativity metrics safely)"
-line_start: 42440
-line_end: 42461
+line_start: 42486
+line_end: 42507
 dependencies:
   - "A.1"
   - "A.10"

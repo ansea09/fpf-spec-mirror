@@ -6,12 +6,12 @@ section_id: "E.17.EFP:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__014_c-29-mathematical-lens-use-relation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:12a — C.29 mathematical-lens use relation"
-line_start: 64083
-line_end: 64086
+line_start: 64394
+line_end: 64397
 dependencies:
   - "A.10"
   - "A.15"

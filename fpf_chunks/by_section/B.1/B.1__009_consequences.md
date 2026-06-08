@@ -6,12 +6,12 @@ section_id: "B.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:8 — Consequences"
-line_start: 28897
-line_end: 28905
+line_start: 28924
+line_end: 28932
 dependencies:
   - "A.1"
   - "A.9"

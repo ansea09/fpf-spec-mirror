@@ -6,12 +6,12 @@ section_id: "E.10.D2:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__004_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:3 — Solution"
-line_start: 60155
-line_end: 60178
+line_start: 60456
+line_end: 60479
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -47,7 +47,7 @@ For any sentence that names an entity and also names description, specification,
 4. **Keep publication and carrier relations separate.** A card, document, dashboard, diagram, file, rendering, or API surface may publish, encode, render, or expose a Description episteme; it is not thereby the EntityOfConcern and it does not by itself create permission, evidence, gate, assurance, decision, commitment, or work.
 5. **Exit to the neighboring pattern when another claim becomes live.** Evidence goes to evidence patterns; assurance to assurance patterns; gate decisions to gate patterns; commitments and promises to F.18 and related patterns; work to work and P2W patterns; publication and view mechanics to E.17/A.6.3/C.2.P; retargeting to A.6.4.
 
-Ordinary minimum: write one line that names the EntityOfConcern, the Description episteme or `not live`, the DescriptionContext or missing-context blocker, the specification-use admission value, and the exact neighboring FPF pattern for any live non-description claim.
+Ordinary minimum: write one line that names the EntityOfConcern, the Description episteme or `not live`, the DescriptionContext or missing-context blocker, the specification-use admission value, and the neighboring FPF pattern governing that claim for any live non-description claim.
 
 ```text
 E10D2BoundaryLine:
@@ -60,4 +60,4 @@ E10D2BoundaryLine:
   nonAdmissibleUse:
 ```
 
-Stop at the boundary line when it makes the next admissible move clear. Open heavier episteme, publication, source, bridge, evidence, assurance, gate, decision, work, or state-family records only when those claims are live.
+Stop at the boundary line when it makes the next admissible move clear. Open heavier episteme, publication, source, bridge, evidence, assurance, gate, decision, work, or state-family records only when those claims are being made.

@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Micro-examples (illustrative, one-liners)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_micro-examples-illustrative-one-liners.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:10 — Micro-examples (illustrative, one-liners)"
-line_start: 71591
-line_end: 71607
+line_start: 71903
+line_end: 71919
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

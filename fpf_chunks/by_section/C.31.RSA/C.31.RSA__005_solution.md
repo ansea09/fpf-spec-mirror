@@ -6,41 +6,19 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 54642
-line_end: 54779
+line_start: 54893
+line_end: 55030
 dependencies:
-  - "A.10"
-  - "A.19"
-  - "A.6.M"
-  - "B.3"
-  - "C.11"
-  - "C.16"
-  - "C.27"
-  - "C.28"
-  - "C.29"
-  - "C.30"
-  - "C.30.ASV"
-  - "C.31"
-  - "C.31.ASAP"
-  - "G.5"
-  - "G.6"
 keywords:
-  - "accounting basis"
-  - "bespoke residue"
-  - "refactoring opportunity"
-  - "report-only share"
-  - "reusable share"
-  - "reusable-structure accounting"
-  - "source return"
 ---
 
 ### C.31.RSA:4 - Solution
 
-C.31.RSA governs reusable-structure accounting as a typed description over declared structures and structural aspects. It starts with `ReusableStructureTriage`; it opens `ReusableStructureAccountingDescription@Context` only when the accounting basis is declared.
+C.31.RSA governs reusable-structure accounting as a typed description over declared structures and structural aspects. It starts with `ReusableStructureTriage`; it uses `ReusableStructureAccountingDescription@Context` only when the accounting basis is declared.
 
 #### C.31.RSA:4.1 - Typed accounting description
 
@@ -99,7 +77,7 @@ HiddenOrResidualShare:
   report-only uncertainty or residue interpretation under accountingBasisRef
 ```
 
-Numeric shares require a declared `accountingBasisRef`, declared scale or unitless-value rule, unit when relevant, polarity when relevant, admissible comparability relation, and exact comparator admission such as `CG-Spec`, `ComparatorSetRef`, or an exact neighboring comparator reference before they can guide comparison, ranking, selection, gate use, or decision use. Without that, the share remains local report-only guidance.
+Numeric shares require a declared `accountingBasisRef`, declared scale or unitless-value rule, unit when relevant, polarity when relevant, admissible comparability relation, and comparator admission named by value such as `CG-Spec`, `ComparatorSetRef`, or a comparator-governing reference named by value before they can guide outside-RSA use such as comparison, ranking, selection, gate use, or decision use. Without that, the share remains local report-only guidance.
 
 #### C.31.RSA:4.4 - Pseudo-sum boundary
 
@@ -120,7 +98,7 @@ RSA is useful because it points to relocation and repair moves:
 
 | Situation | Repair direction |
 | --- | --- |
-| Repeated delivery work carries structure that is not explicit. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
+| Repeated delivery work contains structure that is not explicit in the work or method description being used. | Move repeated structure into `MethodDescription`, work structure, or reusable work relation. |
 | Repeated interface exceptions are handled one by one. | Add or revise interface grammar, variability slots, or substitution policy under A.6.M. |
 | An undocumented dependency crosses module or view boundaries. | Expose the dependency, revise boundary, add correspondence, or add source-return condition. |
 | Evidence is recreated for each instance. | Move repeatable evidence into an evidence package, assurance argument record, or validity-context note. |
@@ -144,12 +122,12 @@ After a relocation or reuse move, ask what got worse:
 
 The result is not "more reuse is better." A conforming RSA move states the reusable locus, the bespoke or residual locus, the accounting basis, the first repair direction, and the first cost, loss, or source-return condition that can make the move inadmissible.
 
-#### C.31.RSA:4.6 - Activation boundary
+#### C.31.RSA:4.6 - Triage and accounting use boundary
 
 Use only `ReusableStructureTriage` when:
 
 - there is one local case;
-- no comparison, publication, assurance, decision, or scale preference is live;
+- no outside-RSA use is being made;
 - the practitioner only needs a repair direction;
 - no numeric share is being relied on.
 
@@ -159,7 +137,7 @@ Use `ReusableStructureAccountingDescription@Context` when:
 - a report-only share is useful;
 - structure refs or structural aspects need to be compared inside one declared `accountingBasisRef`;
 - source-return conditions matter;
-- reusable structure or bespoke residue is used for a decision, publication, assurance, scale, or cross-case report.
+- reusable structure or bespoke residue is used for outside-RSA use such as cross-case report, publication, assurance, architecture scale preference, or decision.
 
 #### C.31.RSA:4.7 - Reopen and lowering conditions
 
@@ -168,11 +146,11 @@ An RSA result remains valid only inside its declared accounting basis, structure
 - a hidden source distinction becomes action-relevant;
 - the accounting basis changes or proves heterogeneous;
 - the selected structure, structural aspect, interface grammar, evidence package, work method, or assurance argument changes edition;
-- a comparator set, CG-Spec, gate, or decision use is added after a report-only share was recorded;
-- downstream reliance uses the RSA result for evidence, assurance, gate, causal, scale, or decision work that the RSA note did not admit;
+- a comparator set, CG-Spec, or outside-RSA use is added after a report-only share was recorded;
+- downstream reliance uses the RSA result for outside-RSA evidence, assurance, gate, causal-use, scale-preference, or decision work that the RSA note did not admit;
 - evidence validity, assurance window, or source-return condition decays;
 - a local bounded exception becomes repeated enough to require refactoring;
 - a reuse move improves one locus while worsening interface cost, variation loss, evidence decay, assurance work, source-return cost, or hidden bespoke residue.
 
-Lower the result to report-only when comparison, ranking, selection, gate use, or decision use lacks exact comparator admission. Lower it to quote-only or source cue when the accounting basis cannot be recovered. Mark it blocked when the reusable locus and bespoke-residue locus cannot be separated.
+Lower the result to report-only when outside-RSA comparison, ranking, selection, gate use, or decision use lacks comparator admission named by value. Lower it to quote-only or source cue when the accounting basis cannot be recovered. Mark it blocked when the reusable locus and bespoke-residue locus cannot be separated.
 

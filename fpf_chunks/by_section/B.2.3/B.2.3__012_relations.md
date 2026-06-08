@@ -6,12 +6,12 @@ section_id: "B.2.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__012_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:11 — Relations"
-line_start: 31094
-line_end: 31101
+line_start: 31128
+line_end: 31135
 dependencies:
   - "A.1"
   - "B.2"

@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Solution — The Γ\\_work Operator"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_solution-the-work-operator.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:5 — Solution — The Γ\\_work Operator"
-line_start: 30346
-line_end: 30409
+line_start: 30376
+line_end: 30443
 dependencies:
   - "A.12"
   - "A.14"
@@ -49,6 +49,7 @@ keywords:
 * **Result W_tot — U.Work.** A composite Work whose **resource ledger** is the Γ_work fold of the input ledgers (plus any declared overheads/residuals). It is accompanied by a **Boundary Ledger** (see §5.3) and references its parts for auditability.
 
 > **Do not confuse:** Γ\_work neither schedules nor orders steps; it composes **resource deltas attached to Work**. If you need order, use Γ\_method at design‑time and Work’s run‑time relations (`precedes`, `PhaseOf`, `overlaps`) with Γ\_time for temporal coverage.
+
 #### B.1.6:5.2 - What counts as “Work”
 
 Work is defined **with respect to a declared boundary** of the holon being transformed or assembled:
@@ -79,6 +80,7 @@ Every Γ\_work result **MUST** include a **Boundary Ledger**:
 * **(v) Accounting authority:** identity of the system(s) that executed, metered, and/or audited the reported ledgers (often the performer/transformer per Work part, plus the aggregator for a roll‑up).
 
 This ledger is what makes cross‑model Work totals comparable and auditable (A.10).
+
 #### B.1.6:5.4 - The invariant quintet instantiated (overview)
 
 Γ\_work preserves B.1 invariants; the detailed proofs and corner cases are in Part 2.
@@ -87,6 +89,7 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 * **COMM / LOC (local commutativity / locality):** For **independent** boundary/stock partitions, composed Work is additive and independent of local fold order.
 * **WLNK (weakest‑link bound):** Effective Work is capped by the scarcest **critical** input on the boundary (no Work can exceed available supply).
 * **MONO (monotonicity):** Increasing an available resource cannot decrease Work (for the same boundary and time window); decreasing dissipation or improving η cannot reduce feasibility.
+
 #### B.1.6:5.5 - How Γ\_work relates to Methods (and to Γ\_method)
 
 * **Design‑time:** `M_spec` (a `U.MethodDescription`) may declare an intended yield **η** and admissible equivalences between resource types (e.g., heat→mechanical). These are **assumptions** until validated by run‑time Work.
@@ -94,3 +97,4 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 * **Sequencing:** If multiple MethodDescriptions are ordered/branched (process view), use **Γ\_method** to define that coordination at design‑time. At run‑time, model the corresponding segments as Work parts and fold them with Γ\_work (Work adds in serial and parallel), while time coverage is handled by Γ\_time.
 
 > **Didactic tip:** Think of **Γ\_method** as the **coordination story**, and **Γ\_work** as the **receipt of what it cost**, both anchored to the same boundary and time window.
+

@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution Outline (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-outline-normative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution Outline (Normative)"
-line_start: 40651
-line_end: 40808
+line_start: 40696
+line_end: 40853
 dependencies:
   - "A.10"
   - "A.17"
@@ -133,11 +133,11 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 
 **R‑EV‑2 (Compositionality).** Multiple grounds may be **composed** as a finite set; composition is **commutative, associative, and idempotent** at the level of stubs, enabling conceptual merge of corroborations.
 
-**R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated from the bearer to the Characteristic via an appropriate description episteme that carries the measured subject, characteristic, and evidence relation. *(Note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their exact FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
+**R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated from the bearer to the Characteristic via an appropriate description episteme that carries the measured subject, characteristic, and evidence relation. *(Note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
 **R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated that connects:
 `bearer (subject) -> grounds -> Characteristic -> Coordinate or Level on the declared Scale`,
 in the appropriate Context of meaning. *(Informative: this is the measurement-claim binding chain.)*
-*(Boundary note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their exact FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
+*(Boundary note:* mechanism‑level admissibility gates (e.g., legality thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
 
 #### C.16:5.4 - Polarity, Comparability, and ScoringMethods (normative)
 

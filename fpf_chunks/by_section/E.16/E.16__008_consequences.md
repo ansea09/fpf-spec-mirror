@@ -6,12 +6,12 @@ section_id: "E.16:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__008_consequences.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:7 — Consequences"
-line_start: 61751
-line_end: 61791
+line_start: 62058
+line_end: 62099
 dependencies:
   - "A.13"
   - "A.15"
@@ -74,6 +74,7 @@ keywords:
 
 7. **Budgeted specialist acquisition and checkpointed exploitation (2024→).**
    **Adopt/Adapt.** Recent agentic tool-use, self-play, and open-ended search lines reinforce that the competition variable is time or budget to threshold plus fast exploitation after a viable route is found. E.16 adapts this into distinct scout/probe/commit control surfaces and rejects any reading where early probe success authorizes rollout without an explicit checkpoint.
+
 #### E.16:7.2 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Why it fails | Repair |

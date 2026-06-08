@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 13773
-line_end: 13786
+line_start: 13784
+line_end: 13797
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 
 ### A.6.F:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries a live FPF claim across FPF.
+Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. Scope: function-like wording that carries an FPF claim being made across FPF.
 
 | Bias risk | Mitigation |
 | --- | --- |
@@ -67,7 +67,7 @@ Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. 
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
 | Module bias | Function-to-module allocation uses correspondence or `A.6.M` module-relation repair; function and module remain distinct. |
 | Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
-| Check-only bias | Every conformance item carries a repair move or exact governing pattern application. |
+| Check-only bias | Every conformance item carries a repair move or governing-pattern application. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

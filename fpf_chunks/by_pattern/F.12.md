@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.12.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
-line_start: 72836
-line_end: 73158
+line_start: 73149
+line_end: 73472
 dependencies:
   - "A.2.3"
   - "F.1"
@@ -209,6 +209,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 | **A10** | **Hidden aggregation**          | “Global availability” but only a subset of regions/slices was covered.                       | Over‑claims evidence.                           | State the **aggregation scope** explicitly or confine the verdict to the observed subset; otherwise **Inconclusive**.                                    |
 | **A11** | **Status on “the service”**     | Tagging an abstract umbrella like *“the service”* as “Satisfied”.                            | Loses the entityOfConcern of the judgement.           | Attach to **ClauseCell\@Window about WorkCell**; the service concept remains a promise vocabulary (A.2.3).                                               |
 | **A12** | **Bridge‑by‑name**              | Equating *Activity* ≡ *Process* because both say “process”.                                  | Assumes global meaning.                         | Use **F.9 Bridge** with **kind/CL/Loss**; or keep them distinct.                                                                                         |
+
 ### F.12:11 - Extended worked examples
 
 > Each example identifies **Contexts**, the **quadruple** ⟨ClauseCell, WorkCell, MeasureCell, Window⟩, any **Bridge(s)**, and the **Predicate**. The verdict attaches to *ClauseCell\@Window about WorkCell*.

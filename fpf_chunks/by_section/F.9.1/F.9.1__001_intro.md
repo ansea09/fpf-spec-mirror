@@ -6,12 +6,12 @@ section_id: "F.9.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:intro — Intro"
-line_start: 71966
-line_end: 71980
+line_start: 72279
+line_end: 72293
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
@@ -42,7 +42,7 @@ keywords:
 
 **Plain-name.** Bridge-card stance overlay.
 **One-line summary.** `BridgeStanceOverlay` governs one stance annotation over an existing `F.9` bridge card so authors can say how to read that bridge without changing its kind, direction, `CL`, or loss notes and without treating the overlay as bridge authority or as a cure for missing source-bearing return.
-**Bridge-stance overlay in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
+**Primary EntityOfConcern in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
 **Use this when.** Use this overlay when an existing bridge card already exists and the real need is one compact stance label such as `localRename`, `operationalizes`, `partialAnalogy`, `projection`, or `nonEquivalent` that helps readers interpret that bridge without widening its substitution licence.
 **Start here when.** Your first honest artefact is already an `F.9` bridge card, and the practical question is how to read that bridge rather than whether a bridge exists at all.
 **What goes wrong if missed.** Authors fall back to vague phrases like "roughly analogous" or "just a rename", and readers either over-read the gloss as silent bridge authority or under-read it as disposable style.

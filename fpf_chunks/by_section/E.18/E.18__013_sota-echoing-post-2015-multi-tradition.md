@@ -6,12 +6,12 @@ section_id: "E.18:12"
 section_title: "SoTA‑Echoing (post‑2015, multi‑Tradition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_sota-echoing-post-2015-multi-tradition.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:12 — SoTA‑Echoing (post‑2015, multi‑Tradition)"
-line_start: 66350
-line_end: 66366
+line_start: 66661
+line_end: 66677
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -51,7 +51,7 @@ keywords:
 | **Open-graph and string-diagram rewriting** (Bonchi et al., *Graphical Linear Algebra*, 2019; Kissinger survey lineage) | Rewrites and subflow refactors are admissible only with edition bumps, sentinel scopes, and `PathSlice` locality sufficient for replay. | Localize the rewrite to the affected subflow or slice, pin editions, and re-emit the affected faces. | Treating a global rewrite as replay-safe because the diagram still looks equivalent. |
 | **Research-package portability / RO-Crate-style research packaging** (RO-Crate 1.2; Soiland-Reyes et al., *Packaging research artefacts with RO-Crate*, 2022, as lineage) | Portable package descriptions belong in MVPK faces and InteropCards; packages and lineage metadata do not define graph semantics. | Publish package, provenance, and source refs as publication references while keeping graph meaning in the node/gate definitions. | Treating a crate, package, file bundle, or lineage record as the semantic authority for the graph. |
 | **Reproducibility and content addressability** (Di Cosmo et al., *Referencing Source Code Artifacts: a Separate Concern in Software Citation*, 2020) | Stable identifiers become edition pins and entries in `E⃗`; they make references checkable but do not decide node, gate, or mechanism meaning. | Pin the exact editions of code, comparator, transport registry, descriptor map, or distance definition used by a face or path. | Treating an identifier, hash, or content-addressed source ref as semantic authority. |
-| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as a TAMP survey source reference; named MPC survey or named reference used when MPC is the live claim) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered work-method narrative, an unbounded loop, or pre-Work launch-value filling. |
+| **TAMP and MPC planning and control practice** (Garrett, Lozano-Perez, Kaelbling 2021 as lineage; Zhao et al., *A Survey of Optimization-based Task and Motion Planning*, 2024, as a TAMP survey source reference; named MPC survey or named reference used when MPC is the claim being made) | Iteration is allowed only as a budgeted Selection-Planning loop with freshness checks and launch values bound in `U.WorkEnactment`. | Declare the loop budget, freshness/request boundary, next `PathSlice`, and Work-only launch-value filling. | Turning E.TGA into an ordered work-method narrative, an unbounded loop, or pre-Work launch-value filling. |
 | **Quality-Diversity / illumination search** (MAP-Elites and CMA-ME as lineage; QDax JMLR 2024 as QD library source reference; QDHF 2023/ICML 2024 or QDAIF 2023 refs only when feedback-guided QD is live) | Set and archive returns stay visible; E.TGA treats covert scalarization to one winner as non-conformant while leaving selector, archive, dominance, and comparator semantics to neighboring loci. | Return the set/archive, pin comparator and descriptor/distance editions, and cite the selector/comparator loci when live. | Collapsing a partially ordered or archive-like result into a single best score. |
 | **Profunctor optics / modular projection practice** (Pickering, Gibbons, Wu, *Profunctor Optics*, 2019) | MVPK faces are projections of graph/morphism information; they carry views without adding new numeric or mechanism claims. | Publish views as MVPK faces with correspondence refs and pins, while leaving transformations and checks in their governing patterns. | Treating a view, projection, screen, or explanation as a transformation, evidence result, or gate decision. |
 

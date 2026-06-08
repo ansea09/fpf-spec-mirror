@@ -6,12 +6,12 @@ section_id: "C.30:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:6 — Bias-Annotation"
-line_start: 51944
-line_end: 51957
+line_start: 52052
+line_end: 52065
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,11 +62,11 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Module-diagram bias | Keep module structure and interface relation as one structure family among several; use `C.30.ASV` and the exact module-and-interface repair pattern when live. |
+| Module-diagram bias | Keep module structure and interface relation as one structure family among several; use `C.30.ASV` and the module-and-interface repair pattern when a module or interface claim is being made. |
 | Tool-model bias | Treat notation, tool model, generated relation graph, diagram, and dashboard as description, specification-use, or publication artifacts unless a declared governing relation gives the artifact a more specific role. |
 | Check-only bias | The first output is an architecture question card plus action palette, not a checklist that only detects mistakes. |
 | Assurance or gate bias | Architecture descriptions do not certify safety, evidence sufficiency, release, or gate passage; assign those claims to the governing patterns. |
-| Didactic-thinning risk | Semantic repair preserves why the distinction matters: the pattern opens with the practitioner situation, payoff, stop condition, and first move. |
+| Didactic-thinning risk | Semantic repair preserves why the distinction matters: the pattern begins with the practitioner situation, payoff, stop condition, and first move. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the live move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
 

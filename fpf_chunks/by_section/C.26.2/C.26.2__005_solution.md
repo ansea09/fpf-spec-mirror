@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 46645
-line_end: 46862
+line_start: 46693
+line_end: 46910
 dependencies:
   - "A.10"
   - "A.15"
@@ -212,7 +212,7 @@ Well-formedness constraints:
 - `timeWindow` bounds the claim; persistence beyond that window needs its own support.
 - `ordinaryRivals` include at least the principal policy, incentive, routine, shared stimulus, dashboard-following, copied-artifact, or social-desirability explanation that could explain the same coordination.
 - `minimalSupportedClaim` states only what survives after rivals and export loss are named.
-- `unsupportedUse` names the neighboring claim or use that the current claim does not carry without applying the exact neighboring FPF pattern that governs that claim.
+- `unsupportedUse` names the neighboring claim or use that the current claim does not carry without applying the neighboring FPF pattern governing that claim that governs that claim.
 
 #### C.26.2:4.9 - Carrier, probe, report, and state split
 

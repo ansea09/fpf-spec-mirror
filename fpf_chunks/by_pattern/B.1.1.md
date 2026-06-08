@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.1.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
-line_start: 28936
-line_end: 29259
+line_start: 28963
+line_end: 29287
 dependencies:
   - "A.1"
   - "A.12"
@@ -353,5 +353,6 @@ This pattern operationalizes **A.14 (Mereology Extension)** and **A.15 (Strict D
 > Keep `D` a **DAG**, pick edges from **four** mereological relations, route **order/time/cost** to their Γ‑flavours, and attach the **four Proof Kit obligations** (IND‑LOC, WLNK‑CUT, MONO‑AX, IDEM‑WIT) with scope/boundary notes.
 > Do this, and the Quintet holds with minimal fuss.
 >
+
 ### B.1.1:End
 

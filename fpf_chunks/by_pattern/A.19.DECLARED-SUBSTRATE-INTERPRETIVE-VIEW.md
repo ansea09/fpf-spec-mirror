@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
-line_start: 24035
-line_end: 24529
+line_start: 24061
+line_end: 24555
 dependencies:
   - "A.0"
   - "A.19"
@@ -118,7 +118,7 @@ Do this in the first minute:
 
 If you cannot name the base substrate or the recoverable source-set entry point or set-result entry point that carries it, or if the current prose would change the source-to-outcome relation or its posture, stop. You are either repairing the substrate, retargeting the object, or drifting into publication/policy.
 
-| If the live question sounds like... | Use now | Why |
+| If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |
 | "How do I help the reader inspect the declared substrate?" | `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` | This pattern governs substrate-side only reading. |
 | "What is the substrate itself?" | `A.19.SOURCE-SET-SPACE-SUBSTRATE` | The base line has to exist first. |
@@ -393,14 +393,14 @@ Run this self-check before you leave the passage:
 
 - if the interpretive view would change the base relation or posture, reopen `A.19.SOURCE-SET-SPACE-SUBSTRATE`;
 - if the atlas-necessity line is empty, stay with thin interpretation;
-- if the next live question is naming repair, terminology precision, publication, or policy, apply `F.18`, `A.6.P`, `G.5`, `G.10`, `C.19`, or `C.24` instead of stretching interpretive-view prose across those boundaries.
+- if the next question under repair is naming repair, terminology precision, publication, or policy, apply `F.18`, `A.6.P`, `G.5`, `G.10`, `C.19`, or `C.24` instead of stretching interpretive-view prose across those boundaries.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.13 - Using the interpretive view with neighboring patterns
 
 Read neighboring patterns in this order once the interpretive view declaration is in place:
 
 - Use `G.2` when the interpretive view becomes palette-first, tradition-facing atlas work. That is one local specialization of atlas interpretation, not the common family head.
-- Use `F.18` when the live question is label choice around interpretive-view, atlas, palette, or declared-map-ref language. Naming notes may explain the labels, but they do not change the base substrate or the inspection question.
+- Use `F.18` when the question under repair is label choice around interpretive-view, atlas, palette, or declared-map-ref language. Naming notes may explain the labels, but they do not change the base substrate or the inspection question.
 - Use `A.6.P` when one passage collapses view, surface, space, map, or palette into one umbrella word. Repair the layer split first, then continue.
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
 - Use `G.5`, `G.10`, `C.19`, or `C.24` when the passage starts deciding outputs, survivor sets, or planning posture.

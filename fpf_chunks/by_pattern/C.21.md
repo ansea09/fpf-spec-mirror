@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.21.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
-line_start: 43500
-line_end: 43732
+line_start: 43547
+line_end: 43779
 dependencies:
   - "A.17"
   - "A.18"
@@ -117,12 +117,12 @@ Define a **portable minimal set** of CHR **slots**. Each slot is **CHR-typed** (
 Contexts MAY add these DHC slots when the discipline-health question includes engineering-grade reasoning, architecturing, optimization, prediction, comparison, assurance input, decision input, first-principles justification, mathematical-lens use, or source-publication overread. These slots remain discipline-health characteristics. They do not become evidence relations, assurance relations, gate decisions, mathematical-lens use, measurement legality, release permission, or project authority.
 
 7. **EngineeringClaimJustificationRecoverability** *(ordinal; polarity ↑; ReferencePlane=episteme|world by declared claim; CG-Spec-bound when aggregated)*
-   Degree to which engineering-grade claims in the discipline or Context expose the exact justification that carries their force for the declared use. The justification may be a named construction, source, model, lens, evidence relation, characteristic relation, assurance relation, gate relation, method relation, or heuristic triage boundary, but it must cite the exact neighbouring FPF pattern when that force is live (`A.10`, `B.3`, `A.15`, `A.20`, `A.21`, `C.16`, `C.29`, or another exact pattern). Heuristic examples may carry recognition and triage only; prediction, comparison, optimization, falsification, assurance-input, decision-input, or architecture-readiness force requires the recoverable justification.
+   Degree to which engineering-grade claims in the discipline or Context expose the exact justification that carries their force for the declared use. The justification may be a named construction, source, model, lens, evidence relation, characteristic relation, assurance relation, gate relation, method relation, or heuristic triage boundary, but it must cite the neighboring pattern governing the claiming FPF pattern when that force is live (`A.10`, `B.3`, `A.15`, `A.20`, `A.21`, `C.16`, `C.29`, or another governing pattern). Heuristic examples may carry recognition and triage only; prediction, comparison, optimization, falsification, assurance-input, decision-input, or architecture-readiness force requires the recoverable justification.
 
 8. **SemioSubstitutionPressure** *(ordinal or ratio; polarity ↓ to band; ReferencePlane=episteme; CG-Spec-bound when aggregated)*
-   Degree to which discipline texts, patterns, dashboards, views, publications, source chains, or review artifacts substitute wording, publication form, record appearance, source appearance, or explanation fluency for the operative engineering entity, relation, work, evidence, assurance, gate, decision, method, or mathematical-lens claim. Lower pressure is healthier when the discipline keeps EntityOfConcern, episteme, publication, source, carrier, and project-side claim kind or admissible-use boundary separable and names the exact governing pattern for any live claim or admissible-use boundary.
+   Degree to which discipline texts, patterns, dashboards, views, publications, source chains, or review artifacts substitute wording, publication form, record appearance, source appearance, or explanation fluency for the operative engineering entity, relation, work, evidence, assurance, gate, decision, method, or mathematical-lens claim. Lower pressure is healthier when the discipline keeps EntityOfConcern, episteme, publication, source, carrier, and project-side claim kind or admissible-use boundary separable and names the pattern governing the recovered claim for any claim being made or admissible-use boundary.
 
-**Extension guard.** Activating either extension slot requires a local `EngineeringClaimJustification` note or semio-substitution note that names the live claim kind or admissible-use boundary, exact neighbouring FPF pattern, admissible use, non-admissible overread, and stop or reopen condition. The note is a DHC value explanation, not a new evidence source, assurance case, gate, release record, or work authority.
+**Extension guard.** Activating either extension slot requires a local `EngineeringClaimJustification` note or semio-substitution note that names the claim kind being made or admissible-use boundary, neighboring pattern governing the claiming FPF pattern, admissible use, non-admissible overread, and stop or reopen condition. The note is a DHC value explanation, not a new evidence source, assurance case, gate, release record, or work authority.
 
 #### C.21:4.2 - Guard Macros (normative)
 
@@ -223,7 +223,7 @@ This checklist verifies a DHC reading after the practitioner has selected the li
 | **CC-C.21-14 Phi policies.** | `Phi(CL)` and `Phi_plane` are monotone, table-backed, and published by policy id. | Prevents hidden penalty functions. |
 | **CC-C.21-15 Ref discipline.** | Edition pinning appears as `...Ref.edition` on the relevant reference field; bare `...Edition` fields are repaired. | Keeps edition subject explicit. |
 | **CC-C.21-16 Role kit, informative.** | Standard roles from F.4 may be used: `DisciplineStewardRole`, `DHCMethodAuthorRole`, `DHCSeriesPublisherRole`; values still declare design/run stance and `ReferencePlane`. | Roles do not become evidence or authority. |
-| **CC-C.21-17 Engineering-grade and semio-substitution extensions.** | When `EngineeringClaimJustificationRecoverability` or `SemioSubstitutionPressure` is active, the DHC row names the exact neighbouring FPF pattern that carries live engineering claim kind or admissible-use boundary or semio-substitution repair, plus admissible use, non-admissible overread, and stop or reopen condition. | The extension note is not evidence, assurance, gate passage, mathematical-lens use, release permission, work authority, or project certification. |
+| **CC-C.21-17 Engineering-grade and semio-substitution extensions.** | When `EngineeringClaimJustificationRecoverability` or `SemioSubstitutionPressure` is active, the DHC row names the neighboring pattern governing the claiming FPF pattern that carries live engineering claim kind or admissible-use boundary or semio-substitution repair, plus admissible use, non-admissible overread, and stop or reopen condition. | The extension note is not evidence, assurance, gate passage, mathematical-lens use, release permission, work authority, or project certification. |
 
 ### C.21:10 - Consequences
 
@@ -235,11 +235,11 @@ This checklist verifies a DHC reading after the practitioner has selected the li
 
 | SoTA/practice anchor | What it changes in C.21 | Adoption stance | Boundary of non-overread |
 |---|---|---|---|
-| Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility/metascience practice on replication, transparency, claim granularity, and freshness. | `ReproducibilityRate`, `EvidenceGranularity`, freshness windows, and evidence-lane tagging are live discipline-health characteristics rather than one global credibility score. | Adopt and adapt: use reproducibility as one typed characteristic with scope, window, and evidence lanes. | C.21 does not certify any single claim as true; claim evidence remains under `A.10`, `G.6`, or the exact evidence pattern. |
+| Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility/metascience practice on replication, transparency, claim granularity, and freshness. | `ReproducibilityRate`, `EvidenceGranularity`, freshness windows, and evidence-lane tagging are live discipline-health characteristics rather than one global credibility score. | Adopt and adapt: use reproducibility as one typed characteristic with scope, window, and evidence lanes. | C.21 does not certify any single claim as true; claim evidence remains under `A.10`, `G.6`, or the evidence pattern governing the claim. |
 | Fortunato et al. (2018) science-of-science framing and Wu, Wang, and Evans (2019) disruption-index family. | `DisruptionBalance` is a banded characteristic, not a monotone novelty target; the method id and edition are declared before use. | Adapt: use disruption/consolidation as a typed reading over a declared corpus and method edition. | Disruption is not quality, truth, safety, or project usefulness by itself. |
 | Standards and ecosystem-convergence practice in engineering disciplines. | `StandardisationLevel` stays ordinal with comparison-only operations, and cross-context reuse goes through Bridge+CL rather than hidden averaging. | Adopt lightly: use standardization as an ordinal characteristic and preserve local meanings. | Standard status is not SoTA proof, evidence sufficiency, gate passage, or assurance. |
 | Current plural-tradition and bridge-mapping practice in mature fields. | `AlignmentDensity` counts CL-rated Bridges per declared `DHC-SenseCells`; it rewards recoverable substitutions without semantic collapse. | Adopt: use explicit bridge/loss notes and keep penalties in R/R_eff only. | A high bridge count is not a universal language, consensus, or authority claim. |
-| Engineering architecture and semio-bias control practice from the current FPF architecture workstream. | Adds `EngineeringClaimJustificationRecoverability` and `SemioSubstitutionPressure` as discipline-health extension slots. | Adopt for FPF-facing engineering disciplines: evaluate whether engineering claim kind or admissible-use boundary and semio-substitution pressure remain recoverable through exact neighboring patterns. | These slots do not replace mathematical-lens use, evidence, assurance, gate, release, work, or project certification patterns. |
+| Engineering architecture and semio-bias control practice from the current FPF architecture workstream. | Adds `EngineeringClaimJustificationRecoverability` and `SemioSubstitutionPressure` as discipline-health extension slots. | Adopt for FPF-facing engineering disciplines: evaluate whether engineering claim kind or admissible-use boundary and semio-substitution pressure remain recoverable through neighboring patterns governing those claims. | These slots do not replace mathematical-lens use, evidence, assurance, gate, release, work, or project certification patterns. |
 
 The practical consequence is that C.21 reads discipline health through typed characteristics. It can feed dashboards or time-series publications, but the dashboard is only a publication view over DHC readings; it is not the discipline-health ontology and not project authority.
 

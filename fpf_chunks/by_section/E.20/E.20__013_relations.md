@@ -6,12 +6,12 @@ section_id: "E.20:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__013_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:12 — Relations"
-line_start: 67830
-line_end: 67849
+line_start: 68142
+line_end: 68161
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -51,7 +51,7 @@ keywords:
 * **E.15** (evolution discipline; DRR/edition thinking)
 
 **Coordinates with:**
-* **A.6.1** (`U.Mechanism.Intension` template governance)
+* **A.6.1** (`U.Mechanism` definition template governance)
 * **A.6.7** (`MechSuiteDescription` integrity)
 * **A.15.3** (`SlotFillingsPlanItem` and planned baseline seam)
 * **E.18** (E.TGA flows that cite planned baselines)

@@ -6,12 +6,12 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 13563
-line_end: 13578
+line_start: 13574
+line_end: 13589
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,5 +71,5 @@ FPF texts repeatedly use function-like wording for different FPF kinds and relat
 - module allocation or interface relation;
 - functional architecture shorthand.
 
-These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the exact FPF kind or relation, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the FPF kind or relation named by value, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
 

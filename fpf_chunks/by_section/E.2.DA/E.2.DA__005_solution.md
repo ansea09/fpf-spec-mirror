@@ -6,12 +6,12 @@ section_id: "E.2.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:4 — Solution"
-line_start: 55627
-line_end: 55760
+line_start: 55910
+line_end: 56043
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -37,14 +37,14 @@ There is no smaller `E.2.DA` evaluation. If the caller only needs local pattern 
 | Local name | Kind and role |
 |---|---|
 | `FPFPillarAdequacyEvaluation` | Authored evaluation record over one scoped FPF Pillar-adequacy claim. |
-| `FPFObjectUnderImprovementRef` | Exact FPF object version being evaluated. |
+| `FPFObjectUnderImprovementRef` | FPF object version named by value being evaluated. |
 | `FPFAdequacyUseScope` | Declared FPF-level use the object must serve. |
 | `FPFAdequacyReaderScope` | Primary reader family and working situation for the adequacy claim. |
 | `FPFAdequacyQualificationWindow` | Edition, source-currentness, neighbour, release, or comparison window for which the values hold. |
 | `FPFPillarAdequacyCoordinateSet` | The eleven required Pillar coordinates in this pattern. |
-| `FPFPillarAdequacyEvidenceBasis` | Exact checked loci in the scoped FPF object: pattern bodies, host or monolith sections, projections, ToC or `J.4` rows, source rows, relation rows, companion files, evaluation results, and missing or unchecked loci that affect values. |
-| `FPFPillarValueRationales` | Required result rows: Pillar coordinate, value, short rationale, and exact evidence locus. |
-| `PillarAdequacyEvidenceRefs` | Exact loci in patterns, projections, source rows, entry rows, relation rows, or findings used as value evidence. |
+| `FPFPillarAdequacyEvidenceBasis` | Checked loci named by value in the scoped FPF object: pattern bodies, host or monolith sections, projections, ToC or `J.4` rows, source rows, relation rows, companion files, evaluation results, and missing or unchecked loci that affect values. |
+| `FPFPillarValueRationales` | Required result rows: Pillar coordinate, value, short rationale, and evidence locus named by value. |
+| `PillarAdequacyEvidenceRefs` | Loci named by value in patterns, projections, source rows, entry rows, relation rows, or findings used as value evidence. |
 | `FPFKindRestorationEvidence` | Pre-repair and post-repair object-kind, relation-or-claim-kind, slot-or-use-position when live, admissible-use, and scope evidence for broad precision or wording cleanup that affects the scoped FPF object. |
 | `FPFPillarAdequacyStatus` | Admissible-use result for the scoped FPF Pillar-adequacy claim. |
 | `FPFPillarAdequacyFront` | Optional non-dominated set of FPF variants or edit packages under the declared coordinate set. |
@@ -55,13 +55,13 @@ These names are local to the evaluation unless `F.18` promotes a durable name. T
 
 ```text
 FPFPillarAdequacyEvaluation:
-  FPFObjectUnderImprovementRef: <exact object and version>
-  FPFAdequacyUseScope: <entry | authoring | review | project use | source absorption | corpus release | other exact use>
+  FPFObjectUnderImprovementRef: <object and version named by value>
+  FPFAdequacyUseScope: <entry | authoring | review | project use | source absorption | corpus release | other use named by value>
   FPFAdequacyReaderScope: <primary reader and working situation>
   FPFAdequacyQualificationWindow: <edition/source/neighbour/release/comparison window>
   FPFPillarAdequacyEvidenceBasis: <checked pattern, host, monolith, projection, ToC/J.4, source, relation, companion, evaluation-result, and missing loci that affect values>
   FPFPillarAdequacyCoordinateTable: <all eleven coordinates, values, short rationales, evidence loci>
-  FPFKindRestorationEvidence: <when broad wording/precision repair is part of the evaluated change: pre/post kind, relation or claim kind, slot or use-position when live, admissible use, scope, exact governing pattern when another pattern governs the live kind/relation/claim/position, and preserved/split/intentionally changed/blocker disposition>
+  FPFKindRestorationEvidence: <when broad wording/precision repair is part of the evaluated change: pre/post kind, relation or claim kind, slot or use-position when live, admissible use, scope, governing pattern when another pattern governs the kind under repair/relation/claim/position, and preserved/split/intentionally changed/blocker disposition>
   FPFPillarAdequacyStatus: <status>
   StopOrRepairCondition: <local stop, first repair, Pillar decision, or architecture decision>
 ```
@@ -90,7 +90,7 @@ The values are ordinal content evaluations. They are not a scalar score, maturit
 | `P3ScalableFormalityAdequacy` | Can informality mature toward formal assurance without forks or rewrites? | Plain, Tech, Formal, and mathematical strengthening remain staged. |
 | `P4OpenEndedKernelAdequacy` | Do kernel concepts stay meta-level while domain knowledge stays in patterns? | New content extends FPF without smuggling domain doctrine into the kernel. |
 | `P5FPFLayeringAdequacy` | Do modular pattern layering and neighbour authority stay intact? | Patterns can be added, replaced, or removed without shadow authority. |
-| `P6LexicalStratificationAdequacy` | Are Plain, Tech, Formal, and mathematical registers recoverable when live? | Load-bearing wording maps to exact fields, kinds, lenses, or neighbours. |
+| `P6LexicalStratificationAdequacy` | Are Plain, Tech, Formal, and mathematical registers recoverable when live? | Load-bearing wording maps to fields named by value, kinds, lenses, or neighbours. |
 | `P7PragmaticUtilityAdequacy` | Do proofs, measures, models, and reviews change real admissible action? | The object changes prediction, decision, diagnosis, design, repair, stop, or assignment. |
 | `P8CrossScaleConsistencyAdequacy` | Do composition, aggregation, boundary, emergence, and method structure stay consistent across scales? | Cross-scale claims name preserved structure, lost structure, algebra, and boundary. |
 | `P9StateExplicitnessAdequacy` | Are states, transitions, currentness, editions, and qualification windows explicit when live? | Readers can tell what version/state is being used and what changes it. |
@@ -120,7 +120,7 @@ An `E.2.DA` result uses this table shape:
 
 | Pillar coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
-| `<E.2.DA coordinate>` | `<0..5>` | `<assigned-value basis; why the lower adjacent value would understate the FPF evidence; why the higher adjacent value would overstate it, or for 5 what would lower/reopen>` | `<pattern section, monolith section, host, ToC row, J.4 row, projection, source row, relation row, companion file, evaluation result, or exact missing locus>` |
+| `<E.2.DA coordinate>` | `<0..5>` | `<assigned-value basis; why the lower adjacent value would understate the FPF evidence; why the higher adjacent value would overstate it, or for 5 what would lower/reopen>` | `<pattern section, monolith section, host, ToC row, J.4 row, projection, source row, relation row, companion file, evaluation result, or missing locus named by value>` |
 
 A Pillar essay, local-quality average, two-column table, or result whose value depends on unchecked corpus/projection/source evidence is not an `E.2.DA` result. It is only draft evaluation material. Missing or unchecked evidence lowers the Pillar coordinate that needs it; it does not make the coordinate optional.
 
@@ -129,7 +129,7 @@ Common calibration points:
 | Pillar family | `3` | `4` | `5` |
 |---|---|---|---|
 | Entry, usability, and projection Pillars | The object can be used with visible limits, but projection or first-use evidence is partial. | Relevant governing loci and projections are coherent enough for declared use. | The use is replayable across governing text, projection, cold-reader or retrieval evidence, and non-use boundary. |
-| Layering and semantic authority Pillars | Neighbours are plausible, but some authority or shadow-spec risk remains. | Exact governing patterns and thin projections are distinguishable. | Authority is robust across pattern bodies, relations, projection rows, and anti-fragmentation cases. |
+| Layering and semantic authority Pillars | Neighbours are plausible, but some authority or shadow-spec risk remains. | Governing patterns named by value and thin projections are distinguishable. | Authority is robust across pattern bodies, relations, projection rows, and anti-fragmentation cases. |
 | Source and evolution Pillars | Source or reopen language exists, but currentness, contribution, or smallest-reopen basis is compact. | Source contribution, currentness window, and reopen condition are explicit for declared use. | Source-front movement and future reopen are replayable without freezing development after a local stop. |
 
 #### E.2.DA:4.6 - Status and stop condition

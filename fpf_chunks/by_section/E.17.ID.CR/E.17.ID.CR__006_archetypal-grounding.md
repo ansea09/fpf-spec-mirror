@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 64558
-line_end: 64793
+line_start: 64869
+line_end: 65104
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -256,7 +256,7 @@ Why `ComparativeReading` no longer governs:
 Why `ComparativeReading` no longer governs:
 - the review unit is being over-read as gate-facing authority;
 - the bounded comparative reading has become a substitute for the source episteme or source publication;
-- the selected governing target moves toward `A.15`, `A.20`, `A.21`, policy, assurance, release, adjudication, or another exact governing FPF pattern rather than staying in interpretation.
+- the selected governing target moves toward `A.15`, `A.20`, `A.21`, policy, assurance, release, adjudication, or another governing FPF pattern rather than staying in interpretation.
 
 ##### E.17.ID.CR:5.4.11 - Invalid publication and repair example
 

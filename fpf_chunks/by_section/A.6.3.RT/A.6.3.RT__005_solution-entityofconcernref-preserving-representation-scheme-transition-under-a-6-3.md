@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-entityofconcernref-preserving-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:4 — Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
-line_start: 11051
-line_end: 11272
+line_start: 11062
+line_end: 11283
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Use this vocabulary only after the ordinary use path leaves a live ambiguity or 
 - **Source-relation path** = the visible source relation back to pinned or otherwise reviewable source `U.Episteme` claim graph that keeps same-EntityOfConcern continuity honest.
 - **Decode-mediated case** = a case where explicit access to the receiving representation depends on a declared decoding path rather than direct interpretation from an already published source episteme or source publication.
 - **actionabilityShift** = a changed reader action-possibility interpretation or apparent readiness created by the rendering. It is not execution authority, gate status, action invitation, work authority, or proof that work may proceed.
-- **recoverabilityEvidenceClass** = a local review field naming the recoverability evidence needed for decode-mediated or latent cases. It is not an `EvidenceKind`, and it is not required for ordinary non-latent representation shifts unless recoverability is part of the live question.
+- **recoverabilityEvidenceClass** = a local review field naming the recoverability evidence needed for decode-mediated or latent cases. It is not an `EvidenceKind`, and it is not required for ordinary non-latent representation shifts unless recoverability is part of the question under repair.
 - **representationValidityAdmissibilityValue** = a local admissibility value used only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite gate, evidence, work, or authority use beyond declared admissible use. It says which use the shifted representation makes admissible now; it is not a score, ordered rank, improvement scale, ontology class, evidence class, or `authoritySourceRef` destination.
 - **sourceRelationClass** = the shared `E.17:5.1b` vocabulary used beside representation-validity value when the source relation itself is disputed or claim-bearing: pointer-only, available, retrieved, used, faithful, claim-admissible, claim-non-admissible, claim-contradicted, claim-plausible-only, source-omitted, source-loss-declared, claim-widened, added-linkage, independent-verification-present, admissible-for-this-use, downstream-use-forbidden, or reopen-trigger-present.
 
@@ -85,7 +85,7 @@ Use this vocabulary only after the ordinary use path leaves a live ambiguity or 
 
 **Recoverability-for-use rule.** If the declared admissible use is inspection, source-finding, comparison, or technical review, `RepresentationTransduction` can close with entityOfConcernRef-preserving preservation, source-relation path, representation-scheme delta, and loss/recoverability notes. If the declared admissible use is work-planning preparation, this pattern is admissible only for reversible preparation until `A.15` supplies the role, method, plan, and work source relation. If the declared admissible use is evidence or currentness, gate or release, assurance, commitment, bridge or substitution, or engineering justification, the case must name the downstream governing source relation; otherwise the receiving representation remains orientation or review use only.
 
-These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `MechanismKind`, `EvidenceKind`, exact project-side FPF kind and reference, new face family, or new ontology governing pattern.
+These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `MechanismKind`, `EvidenceKind`, project-side FPF kind and reference named by value, new face family, or new ontology governing pattern.
 
 #### A.6.3.RT:4.2 - Scope and exclusions
 
@@ -152,14 +152,14 @@ That ordinary path is the default. It is admissible for inspection, source-findi
 | `representationSchemeDelta` | The representation scheme, reasoning medium, representation factor, or inference-regime change that matters for review. |
 | `preservedCommitments` | What the receiving item still carries from the source. |
 | `withdrawnOrNewCommitments` | What the receiving item drops, narrows, adds, widens, or changes. |
-| `admissibilityClass` | The source-relation or representation-validity admissibility class for the exact intended use. |
+| `admissibilityClass` | The source-relation or representation-validity admissibility class for the intended use named by value. |
 | `continuityWitness` | The reason the entityOfConcernRef-preserving continuity is still reviewable. |
 | `counterWitness` | Any fact that weakens entityOfConcernRef-preserving continuity, such as changed entity, changed predicate, changed frame, missing source-relation path, or non-admissible decode path. |
 | `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability scope, recoverability evidence, and source-bearing reopen condition. |
-| `admissibleUse` | The exact use that remains admissible now. |
+| `admissibleUse` | The admissible use named by value now. |
 | `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, TGA-path, temporal, or dynamics use that is not carried by the current item. |
-| `neighboringPatternHandoff` | The FPF pattern that carries the live neighboring claim, when one is live. |
-| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the live claim. |
+| `neighboringPatternHandoff` | The FPF pattern that carries the neighboring claim being made, when one is live. |
+| `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the claim being made. |
 
 The decision block is not a new FPF kind, record, profile, publication form, or hidden admissibility object. It is a recoverable field set for the representation-transition case.
 
@@ -220,7 +220,7 @@ Conservativity is approximated here by checking, together, `entityOfConcernPolic
 A reviewed case under this pattern makes explicit which distinctions, inspection possibilities, or local cues are lost, foregrounded, or rearranged by the shift in representation regime. Reliability transport may remain source-bounded or be explicitly downgraded, but it must never be silently widened just because the receiving form looks clearer, more structured, or more formal.
 
 ##### A.6.3.RT:4.5.c. Authority and handoff rule
-A case reviewed under this pattern stays same-entity and episteme-facing. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal/dynamics currentness, or TGA-path currentness. If any of those claims become live, name the exact neighboring pattern and keep the representation shift to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use until the neighboring source relation is supplied.
+A case reviewed under this pattern stays same-entity and episteme-facing. It does not govern retargeting, bridge stance, explanation governance, executable docking, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal/dynamics currentness, or TGA-path currentness. If any of those claims become live, name the neighboring pattern governing that claim and keep the representation shift to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use until the neighboring source relation is supplied.
 
 ##### A.6.3.RT:4.5.c.1. Same-entity entry condition for decode-mediated cases
 A decode-mediated or latent/distributed case may stay here only when the receiving rendering states a source-relation path back to already pinned and provenance-bearing source `U.Episteme` claim graph for the same EntityOfConcern.

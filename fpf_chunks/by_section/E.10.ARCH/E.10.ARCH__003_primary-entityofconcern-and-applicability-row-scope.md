@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__003_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 59684
-line_end: 59719
+line_start: 59985
+line_end: 60020
 dependencies:
   - "A.17"
   - "A.18"
@@ -53,10 +53,10 @@ A `WordingUseRestorationApplicabilityRow` is a pattern-local row over one `seman
 - `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily`;
 - the primary `EntityOfConcern` kind and encountered FPF kind or reference;
 - the relation between the encountered FPF kind or reference and the primary `EntityOfConcern`;
-- the exact FPF kind or relation recovered when live;
+- the FPF kind or relation named by value recovered when live;
 - live-claim or admissible-use classification when live;
 - source-use disposition when live;
-- state-family value or exact governing-pattern result when live;
+- state-family value or governing-pattern result when live;
 - sentence role;
 - admissible use;
 - non-use boundary;
@@ -73,7 +73,7 @@ A `WordingUseRestorationApplicabilityRow` is a pattern-local row over one `seman
 
 `semanticArea` is the Part-F semantic unit used by one wording-use restoration row: one Concept-Set row, one UTS row, or an explicitly bounded row-set whose rows remain sense-uniform enough for one recovery apparatus.
 
-`semanticAreaSenseFamily` is the Part-F `senseFamily` or exact FPF kind-family discriminator that prevents the row from becoming a theme, domain, workstream, or pattern-nest label.
+`semanticAreaSenseFamily` is the Part-F `senseFamily` or FPF kind named by value-family discriminator that prevents the row from becoming a theme, domain, workstream, or pattern-nest label.
 
 `ontologicalNeighborhood` means the FPF applicability neighborhood around that named `semanticArea`: primary `EntityOfConcern` kind, admissible adjacent FPF kinds or references, relations, descriptions, publication forms or carriers, source-use dispositions, state-family values, use boundaries, applicable FPF patterns, remaining reader move, and the stable apparatus that makes the recovery checkable. It is not the semantic unit by itself and is not textual proximity, filename proximity, ToC proximity, alphabetic proximity, workstream grouping, topic grouping, discipline column, domain label, or pattern-nest placement.
 

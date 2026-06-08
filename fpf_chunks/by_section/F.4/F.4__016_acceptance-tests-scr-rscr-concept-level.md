@@ -6,12 +6,12 @@ section_id: "F.4:14"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:14 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 70214
-line_end: 70234
+line_start: 70526
+line_end: 70546
 dependencies:
   - "A.11"
   - "A.2.1"

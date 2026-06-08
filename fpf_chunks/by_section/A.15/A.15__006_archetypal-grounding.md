@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:5 — Archetypal Grounding"
-line_start: 19571
-line_end: 19611
+line_start: 19595
+line_end: 19635
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### A.15:5 - Archetypal Grounding
 
-The role-method-work alignment applies whenever the live question is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
+The role-method-work alignment applies whenever the question under repair is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
 
 | Archetype | **`U.System` Archetype (Manufacturing)** | **`U.Episteme` Archetype (Scientific Peer Review)** |
 | :--- | :--- | :--- |
@@ -67,7 +67,7 @@ This side-by-side comparison reveals the power of the framework. A seemingly dif
 
 **Briefing slice.** `Status briefing only: rollback path appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence path.`
 
-This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the exact evidence, gate, decision, or assurance pattern to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
+This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern governing the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
 
 #### A.15:5.1.b - P2W principle-scheme publication guides planning, not occurrence
 
@@ -75,7 +75,7 @@ This briefing may orient the team and cue attention. If the team wants to execut
 
 **Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any run is recorded.`
 
-This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, material carrier, screen, export, OCR behavior, or publication-use, apply the exact pattern for that live claim. If no exact project-side kind and reference exists, create only a source-restoration request, decision-request record for the next decision, prospective work-plan entry, or explicit source-gap note.
+This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, material carrier, screen, export, OCR behavior, or publication-use, apply the governing pattern for that claim being made. If no project-side kind and reference named by value exists, create only a source-restoration request, decision-request record for the next decision, prospective work-plan entry, or explicit source-gap note.
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
@@ -83,5 +83,5 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the exact `A.15` selected-method, work-plan, or work-occurrence record. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the exact project evidence path, gate or constraint decision, or engineering-justification record under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
+The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the selected `A.15` selected-method, work-plan, or work-occurrence record named by value. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence path, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
 

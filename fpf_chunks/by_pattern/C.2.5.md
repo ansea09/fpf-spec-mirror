@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.5.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
-line_start: 36646
-line_end: 36828
+line_start: 36685
+line_end: 36869
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -118,6 +118,7 @@ The facet aligns with iterative design, open-world reasoning, and exploratory se
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.4`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`.
 - Constrains: reopen, backoff, and endpoint docking guards.
+
 ### C.2.5:13 - Worked Examples and Retreat Cases
 
 #### C.2.5:13.1 - Explicit but still open
@@ -155,6 +156,7 @@ Words such as "settled", "closed", "final", or "open" should be treated as migra
 
 #### C.2.5:15.3 - Boundary reminder
 `CD` is not warrant strength and not a gate decision. It speaks only about the local fixity of the current episteme/publication path and its candidate space.
+
 ### C.2.5:16 - Closure Publication Package Discipline
 
 #### C.2.5:16.1 - Minimal closure package

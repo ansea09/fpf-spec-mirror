@@ -6,12 +6,12 @@ section_id: "C.22.2:18"
 section_title: "Misuse Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__019_misuse-modes-and-repairs.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:18 — Misuse Modes and Repairs"
-line_start: 44602
-line_end: 44611
+line_start: 44650
+line_end: 44659
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 | Misuse mode | Symptom | Repair |
 |---|---|---|
 | Card-as-work-item | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, context, scope, improvement check or acceptance probe, and next move before any work pattern is applied. |
-| Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the exact pattern that governs the live claim. |
+| Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that governs the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording becomes one local score. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and non-scalar next move. |
 | Silent retargeting | A changed EntityOfConcern, representation scheme, diagram, functional description, or TGA path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
 | Refresh dead end | Expiry or unknown handling is recorded as a passive note. | State refresh, retirement, bounded use, `abstain/no-change`, or the relation that must be reopened. |

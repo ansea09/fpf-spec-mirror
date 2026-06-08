@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 31407
-line_end: 31690
+line_start: 31441
+line_end: 31724
 dependencies:
   - "A.10"
   - "A.12"
@@ -138,7 +138,7 @@ Build a `B.3` assurance claim only when the next work move or reliance move depe
 
 | Field | Required content |
 | --- | --- |
-| Claim and assurance use carried by the tuple | The exact claim `C` and the assurance use the tuple carries: readiness, release, audit, compliance, safety, model credibility, or another named assurance use. |
+| Claim and assurance use carried by the tuple | The claim named by value `C` and the assurance use the tuple carries: readiness, release, audit, compliance, safety, model credibility, or another named assurance use. |
 | Holon, context, and scope | `H`, `K`, and `S` plus audience or relying context when the label is human-facing. |
 | Evaluation condition | What was evaluated, under which method, policy, test, review, measurement, or assurance case. |
 | Evidence relation and carriers | The `A.10` evidence path, carrier refs, source-maintenance role assignments, windows, verifier rule, relying-party rule, and proof results or status results that evidence the assurance tuple. |
@@ -187,7 +187,7 @@ Negative controls:
 | Model card, datasheet, data card, assurance document, or assurance-looking note | Scoped documentation for a named claim, documented admissible-use statement or external intended-use field, evaluated condition, limitation, version, and window. | Higher `R`, broader `G`, higher `F`, better `CL`, readiness, compliance, safety, or release confidence by document presence. |
 | Generated confidence phrase | Source-finding or explanation relation when grounded. | Assurance increase, authority, approval, or evidence by wording alone. |
 
-Model cards, datasheets, data cards, assurance documents, and assurance-looking notes are external documentation records or source carriers unless they are mapped into existing `FPF` claims and publication faces. They do not add MVPK face kinds and do not bypass `B.3` when the live use is an assurance claim.
+Model cards, datasheets, data cards, assurance documents, and assurance-looking notes are external documentation records or source carriers unless they are mapped into existing `FPF` claims and publication faces. They do not add MVPK face kinds and do not bypass `B.3` when the use under repair is an assurance claim.
 
 **Lint trigger.** A model card, datasheet, or data card cited as readiness, safety, compliance, release confidence, or assurance proof requires documented intended-use match, evaluation condition, limitations, an `A.10` evidence path, and one typed `Assurance(H, C \| K, S)` claim for the named assurance claim. Without those, return `no assurance use` or a rejected/downgraded assurance claim.
 
@@ -212,7 +212,7 @@ Trigger and non-trigger cases:
 | Encountered source use | B.3 disposition | Minimum action |
 | --- | --- | --- |
 | Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, carrier, evidence path, window, admissible use, unadmissible use, and reopen trigger. |
-| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another exact receiving source. |
+| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another source relation that evidences the operative claim. |
 | Local conformance label, `CV.Status`, benchmark result, or score near a release conversation but not used to raise assurance | No B.3 assurance use. | Keep `CV.Status` in `A.20`, gate-decision publication in `A.21`, pattern-quality result in `E.19`, measurement or marker relation in `C.16`/`A.10`, and no assurance tuple unless an assurance claim is live. |
 | Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration basis, stop condition, admissible use, and unsupported attempted use; open `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the move. |
 | Safety-looking note, compliance-looking label, public warning, dashboard state, generated operational explanation, or status display is intended or reasonably foreseeable to make the B.3 material-reliance threshold live: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people/team status, operational action, or controlled-object regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence path and any live `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation/retargeting dependency. |

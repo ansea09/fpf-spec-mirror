@@ -6,12 +6,12 @@ section_id: "C.29:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__009_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:7 — Rationale"
-line_start: 51001
-line_end: 51052
+line_start: 51077
+line_end: 51129
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -20,6 +20,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -38,6 +40,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -67,21 +70,21 @@ keywords:
 
 #### C.29:7.1 - Why this improves FPF
 
-The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next move follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation substrate, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, use-admissibility value, and stop condition.
+The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next move follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation object, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, use-admissibility value, and stop condition.
 
 First-principles mathematical structures can come from several families without turning any one family into an FPF-wide foundation: signatures, logics, axioms, type or abstraction distinctions, symmetries, invariants, compositional structure, local-global relations, scale relations, boundary conditions, variational principles, action, energy, free-energy, loss, or value functionals, constrained optimization structure, probability, information, typicality, algorithmic construction, resource bounds, implementation constraints, consistency boundaries, causal or intervention-preservation questions, operator or function-space mappings, and admissible observation maps. Each use still needs declared mapping, preserved structure, lost structure, validation regime or use-admissibility value, and stop condition.
 
 This fits FPF because FPF already commits to state explicitness, bounded contexts, evidence and assurance, cross-context bridges, open-ended evolution, SoTA alignment, notational independence, and avoidance of ornamental formalism.
 
-`C.29` makes an existing discipline explicit: when FPF uses a mathematical substrate as a mathematical lens for a stated use, the `C.29` application declares what the substrate preserves, what it loses, what it makes visible, which rival lenses remain live, and where its admissible use stops.
+`C.29` makes an existing discipline explicit: when FPF uses a `CandidateMathObject`, local formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use, the `C.29` application declares what that use preserves, what it loses, what it makes visible, which rival lenses still change the next admissible move, and where its admissible use stops.
 
-The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist carry the exact FPF commitments.
+The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist record the FPF commitments named by value.
 
 #### C.29:7.2 - Alternatives rejected
 
 | Alternative | Why rejected |
 |---|---|
-| Keep only local math-lens hooks | Leaves no general conformance carrier; `C.26`-style guardrails do not transfer to non-QL lenses. |
+| Keep only local math-lens hooks | Leaves no general conformance pattern; `C.26`-style guardrails do not transfer to non-QL lenses. |
 | Add only a paragraph to `A.6.P` | Overloads relational precision restoration with general modeling adequacy. |
 | Add only a paragraph to `F.9` | Bridge discipline is about cross-context semantics; C.29 also governs within-context mathematical representation. |
 | Treat Vanchurin as a new FPF foundation | Too speculative and ontology-bearing; selected source-use disposition is candidate-lens stress test only. |
@@ -101,7 +104,7 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 | `P‑6 Lexical Stratification` | Positive: separates Plain "lens" from technical `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `StopCondition`, and evidence fields. |
 | `P‑7 Pragmatic Utility` | Positive if every mathematical-lens use result changes an admissible prediction, distinction, obstruction, model choice, diagnostic boundary, or stop condition. |
 | `P‑8 Cross‑Scale Consistency` | Positive: scale windows, coarse-graining, local-global relations, composition, dynamics, symmetry, and boundary conditions become declared rather than assumed. |
-| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, use-admissibility value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when live. |
+| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, use-admissibility value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when those claims are being made. |
 | `P‑10 Open‑Ended Evolution` | Positive: new lens families and first-principles modeling structures can be added without destabilizing Core. |
 | `P‑11 SoTA Alignment` | Positive: admits current mathematical modeling, applied category theory, scientific machine learning, causal abstraction, learning-dynamics research, and plural foundations without over-adopting them. |
 
@@ -110,8 +113,9 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 | Pillar | C.29 effect |
 |---|---|
 | `Gov` | New mathematical-lens use norms require `E.9` design-rationale discipline and SoTA discipline when they alter FPF norms. |
-| `Arch` | Wrong carrier placement is blocked; `C.29` coordinates but does not replace neighboring patterns. |
+| `Arch` | Wrong governing-pattern assignment is blocked; `C.29` coordinates but does not replace neighboring patterns. |
 | ontology and episteme distinction | Representation, mapping, preservation, loss, and `LensUseAdmissibilityValue` are explicit. |
 | `Prag` | A useful lens produces a useful prediction, distinction, obstruction, or stop condition; otherwise it remains didactic prose. |
-| `Did` | The card gives a small first-use check while experts can inspect exact field meanings. |
+| `Did` | The card gives a small first-use check while experts can inspect field meanings named by value.
+ |
 

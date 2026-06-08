@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 57950
-line_end: 57966
+line_start: 58235
+line_end: 58251
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -35,8 +35,8 @@ keywords:
 | `CC-E9DA-4` | State `DRRDecisionAdequacyStatus`, first drafting move or first repair, bounded non-use, and reopen condition. |
 | `CC-E9DA-5` | Keep `DRR` adequacy distinct from pattern quality, review pass, release state, evidence, assurance, gate, and project work. |
 | `CC-E9DA-6` | Apply `E.10` to load-bearing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
-| `CC-E9DA-6a` | Apply the `F.19` kind-or-boilerplate diagnostic from `E.9`/`E.21` to proposed drafting wording and record the scalar effect as a precision-restoration profile: remaining word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or an exact governing pattern; phrase apparatus goes to `F.19`; boilerplate stays out of future pattern prose. |
-| `CC-E9DA-6b` | For any proposed wording, naming, or precision-restoration repair, record `DRRKindRestorationCheck`. The repair is not adequate if it only removes a trigger word or substitutes a cleaner phrase while changing, narrowing, widening, flattening, or losing the governed kind, relation, claim kind, slot or use-position, admissible use, or scope without an accepted semantic decision and exact governing-pattern reference when another pattern governs the live kind, relation, claim, or position. |
+| `CC-E9DA-6a` | Apply the `F.19` kind-or-boilerplate diagnostic from `E.9`/`E.21` to proposed drafting wording and record the scalar effect as a precision-restoration profile: remaining word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or a governing pattern; phrase apparatus goes to `F.19`; boilerplate stays out of future pattern prose. |
+| `CC-E9DA-6b` | For any proposed wording, naming, or precision-restoration repair, record `DRRKindRestorationCheck`. The repair is not adequate if it only removes a trigger word or substitutes a cleaner phrase while changing, narrowing, widening, flattening, or losing the governed kind, relation, claim kind, slot or use-position, admissible use, or scope without an accepted semantic decision and governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position. |
 | `CC-E9DA-7` | State source contribution by payload mutation when a source is load-bearing. |
 | `CC-E9DA-8` | State what became worse if visible decision-adequacy values improved. |
 | `CC-E9DA-9` | State the `DRRDecisionAdequacyEvidenceBasis`; if source-currentness, accepted-decision inheritance, selected-locus, architecture, or comparator evidence is missing or unchecked, lower the coordinate that needs it. |

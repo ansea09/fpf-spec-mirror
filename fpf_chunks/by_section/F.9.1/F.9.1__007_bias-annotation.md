@@ -6,12 +6,12 @@ section_id: "F.9.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__007_bias-annotation.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:6 — Bias-Annotation"
-line_start: 72025
-line_end: 72028
+line_start: 72338
+line_end: 72341
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"
@@ -36,5 +36,5 @@ keywords:
 
 ### F.9.1:6 - Bias-Annotation
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for stance overlays attached to existing `F.9` Bridge Cards inside FPF.
-This pattern favors disciplined cross-school comparison and bridge readability over sweeping synonym claims. The main mitigation is that every stance remains subordinate to the underlying Bridge Card, its direction, `CL`, and loss notes, with explicit handoff to `A.6.3.CSC` when the live issue is source-bearing return for a coarsened rendering rather than bridge-card reading.
+This pattern favors disciplined cross-school comparison and bridge readability over sweeping synonym claims. The main mitigation is that every stance remains subordinate to the underlying Bridge Card, its direction, `CL`, and loss notes, with explicit handoff to `A.6.3.CSC` when the issue under repair is source-bearing return for a coarsened rendering rather than bridge-card reading.
 

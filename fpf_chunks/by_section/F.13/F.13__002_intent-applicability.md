@@ -6,12 +6,12 @@ section_id: "F.13:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__002_intent-applicability.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:1 — Intent & applicability"
-line_start: 73167
-line_end: 73176
+line_start: 73481
+line_end: 73490
 dependencies:
   - "F.1"
   - "F.10"

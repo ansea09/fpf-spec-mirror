@@ -6,12 +6,12 @@ section_id: "A.6.1:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_bias-annotation-informative.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:6 — Bias-Annotation (informative)"
-line_start: 9215
-line_end: 9224
+line_start: 9225
+line_end: 9234
 dependencies:
   - "A.19"
   - "A.2.6"

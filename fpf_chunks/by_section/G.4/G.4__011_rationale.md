@@ -6,12 +6,12 @@ section_id: "G.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:10 — Rationale"
-line_start: 78351
-line_end: 78363
+line_start: 78664
+line_end: 78676
 dependencies:
   - "A.10"
   - "A.18"

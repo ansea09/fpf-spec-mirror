@@ -6,12 +6,12 @@ section_id: "E.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:2 — Problem"
-line_start: 67501
-line_end: 67510
+line_start: 67812
+line_end: 67821
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -46,7 +46,7 @@ keywords:
 
 When a new mechanism (or mechanism family) is introduced without an explicit authoring protocol:
 
-1. **Governing-definition ambiguity** causes partial changes: a suite enumerates a new `…IntensionRef`, but the canonical `U.Mechanism.Intension` card is missing or inconsistent.
+1. **Governing-definition ambiguity** causes partial changes: a suite enumerates a new `...MechanismDefinitionRef`, but the canonical `U.Mechanism` definition card is missing or inconsistent.
 2. **Boundary erosion** occurs: suite descriptions start to define mechanism semantics; method wiring starts to redefine kernel meaning; publication/telemetry becomes a hidden tail.
 3. **Plan/enactment confusion** appears: planned slot fillings start to carry launch values, witnesses, or gate decisions.
 4. **Terminology drift** breaks citations: renames happen silently; tokens fragment across registers; downstream references become unstable.

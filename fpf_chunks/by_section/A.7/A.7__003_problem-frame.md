@@ -6,12 +6,12 @@ section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 17691
-line_end: 17701
+line_start: 17714
+line_end: 17724
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,5 +44,5 @@ keywords:
 
 Practitioner check: if a sentence could be read as “the document decided” or “the process executed itself”, it violates A.7.
 
-Boundary for use from other patterns: A.7 restores the `EntityOfConcern`, the admissible describing relation, and the publication boundary, then returns the work to the subject pattern. Do not let A.7 turn an architecture, structure, work, method, evidence, characterization, or decision question into a general discussion of descriptions. If the `EntityOfConcern` is itself a Description episteme or view, keep the pattern centered on that episteme as the item under concern; description-of-description or publication-force issues open only when they are the exact live claim.
+Boundary for use from other patterns: A.7 restores the `EntityOfConcern`, the admissible describing relation, and the publication boundary, then returns the work to the subject pattern. Do not let A.7 turn an architecture, structure, work, method, evidence, characterization, or decision question into a general discussion of descriptions. If the `EntityOfConcern` is itself a Description episteme or view, keep the pattern centered on that episteme as the item under concern; description-of-description or publication-force issues open only when they are the exact claim being made.
 

@@ -6,12 +6,12 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 51997
-line_end: 52006
+line_start: 52105
+line_end: 52114
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,7 +62,7 @@ Architecture is most useful in FPF when it stays close to selected structure ove
 
 C.30 and C.30.ASV establish an FPF architecture kernel: architecture as selected `EntityOfConcern` structure for a described holon, with Description epistemes and structural views, structure-kind discipline, correspondence and source-return boundaries, and characteristic-relation applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the live structure kind, downgrade an artifact, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is live.
+The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the structure kind under consideration, downgrade an artifact, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
 
 The DescriptionContext structure also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may be source relations for a view with different validation boundaries. C.30 keeps those variants usable without turning any one carrier into the architecture.
 

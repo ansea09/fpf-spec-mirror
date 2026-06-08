@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:1 — Intent"
-line_start: 65909
-line_end: 65932
+line_start: 66220
+line_end: 66243
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -44,7 +44,7 @@ keywords:
 
 Provide a notation-independent architecture for transduction graphs. The EntityOfConcern is a `TransductionGraph`: a typed, editioned directed multigraph whose nodes are morphisms, whose edges are one typed `U.Transfer` relation, and whose flows are valuations over paths or path slices inside the same graph object. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge/CL notes, and refresh scope.
 
-**Use this when.** Use E.TGA when the live question is whether a project description needs one graph object, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer` rather than an ordered work narrative, method narrative, or wording-use cue.
+**Use this when.** Use E.TGA when the question under repair is whether a project description needs one graph object, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer` rather than an ordered work narrative, method narrative, or wording-use cue.
 
 **First useful move.** Name the graph object, the node kinds, the single `U.Transfer` edge kind, and the exact crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransductionGraph`, active `PathId` or `PathSliceId` when a path or slice is live, node kinds, one `U.Transfer`, and only the crossings or pins that are live.
 

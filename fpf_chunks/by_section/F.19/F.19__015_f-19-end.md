@@ -6,12 +6,12 @@ section_id: "F.19:End"
 section_title: "F.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__015_f-19-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:End — F.19:End"
-line_start: 75754
-line_end: 75757
+line_start: 76068
+line_end: 76069
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -33,6 +33,4 @@ keywords:
 ---
 
 ### F.19:End
-
-# **Part G – Discipline SoTA Patterns Kit**
 

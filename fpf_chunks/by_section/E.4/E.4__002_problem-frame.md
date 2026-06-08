@@ -6,12 +6,12 @@ section_id: "E.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:1 — Problem frame"
-line_start: 56001
-line_end: 56004
+line_start: 56285
+line_end: 56288
 dependencies:
   - "E.1"
   - "E.5.3"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 50168
-line_end: 51450
+line_start: 50218
+line_end: 51555
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -19,6 +19,8 @@ dependencies:
   - "A.15.4"
   - "A.19"
   - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
@@ -37,6 +39,7 @@ dependencies:
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.18.1"
   - "E.19"
   - "E.8"
   - "E.9"
@@ -70,26 +73,28 @@ keywords:
 
 **Plain-name.** Mathematical lens use.
 
-**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation substrate, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the admissible use; the non-admissible use; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
+**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation object, local formal role, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the admissible use; the non-admissible use; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
 
-**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-locus notes. They are not actors, approvals, gates, work records, evidence records, assurance results, decisions, or release records. They state which declared mathematical-lens use is admissible, what remains blocked, and which neighboring FPF locus carries any live non-lens claim.
+**Slot discipline.** C.29 uses `CandidateMathObject` for the mathematical object, formalism, learned representation, simulation object, local formal role, or family in a declared mathematical-lens-use relation. `U.Signature(profile=FormalSubstrate)` in `A.6.0` is a different relation position: it declares vocabulary, laws, imports, and applicability for a formal substrate. `A.6.1` governs mechanism import or realization when that formal substrate is used in a mechanism; `E.18.1` governs P2W transduction when accepted problem-side material needs that formal declaration for later work. The same mathematical object may appear in several of these positions, but the governing pattern is selected by relation position and claim being made, not by the word `substrate`.
+
+**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. They state which declared mathematical-lens use is admissible, what remains blocked, and which neighboring FPF pattern governs any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the governing pattern for that use.
 
 **No new `U.*` from C.29 local lens-use outputs.** `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, `MathLensUse.Card@Context`, `MathLensUseOutputRef`, and `CC-C29-*` are C.29-local instruments. They do not mint `U.MathLens`, `U.MathLensUseRecord`, `LensKind`, `MathLensUseCompliance`, or a durable record family. Durable names, kinds, or records require explicit FPF admission through `F.18`, `C.3`, `F.8`, and `E.9`.
 
 ### C.29:0 - First-use card
 
-Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is live.
+Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is being made.
 
-| First question | Required answer before the lens carries claim-bearing use |
+| First question | Required answer before claim-bearing lens use |
 |---|---|
 | Is the mathematical phrase changing the next admissible move, or only helping recognition? | If no move changes, keep ordinary prose or write `NoMathLensUseNeededNote`. |
 | What phenomenon is being seen through the lens? | Name `TargetPhenomenon` in problem-owning language. |
-| What concrete mathematical object, formal role, learned representation, simulation substrate, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
+| What concrete mathematical object, formal role, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
 | What structure is preserved? | Name `PreservedStructure`. |
 | What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
 | What tempting inference does this lens not license? | Name `StopCondition`; no stop condition means no admissible C.29 result. |
 
-Non-use comes first. Do not open C.29 merely because mathematics appears. Open it only when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the live claim, name the neighboring FPF locus and keep C.29 to the mathematical-lens use part.
+Start with the useful lens decision: choose, apply, bound, replace, or remove a mathematical lens when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair. If no next admissible move changes, keep ordinary prose or write `NoMathLensUseNeededNote`. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the claim being made, apply the governing FPF pattern and keep C.29 to the mathematical-lens use part.
 
 ### C.29:1 - Problem frame
 
@@ -99,9 +104,9 @@ The positive need is as important as the guard. In working projects, first-princ
 
 The missing FPF rule is general but narrow: when FPF-governed wording, a pattern example, method note, review record, `PublicationUnit`, or neighboring-pattern note uses or plausibly needs a mathematical object, formalism, or family for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable application, the `C.29` application records the useful first-principles modeling structure and its boundary. It names the candidate mathematical object or family, what structure is preserved, what structure is lost, what invariant, admissible distinction, obstruction, diagnostic boundary, or constructive limit becomes visible, which `LensUseAdmissibilityValue` value is declared for that use, and where the mathematical-lens use stops.
 
-`C.29` is not opened because mathematics appears. It is opened when either a mathematical object is used for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer, or a stable working problem is under-lensed and a cheap candidate lens could expose useful structure for the next move.
+A C.29 application is justified when a mathematical object is used for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer, or when a stable working problem is under-lensed and a cheap candidate lens could expose useful structure for the next move. Mathematical appearance alone is not enough.
 
-The first move is not a full-card demand. It is a first-principles entry decision: choose the smallest mathematical structure that changes the next admissible move, keep ordinary prose when no mathematical structure changes the move, or send the live claim to the neighboring FPF pattern. The result records what the lens preserves, what it loses, what it makes visible, what remains blocked, and where the use stops.
+The first move is not a full-card demand. It is a first-principles entry decision: choose the smallest mathematical structure that changes the next admissible move, keep ordinary prose when no mathematical structure changes the move, or apply the governing FPF pattern when the claim being made is outside the declared lens use. The result records what the lens preserves, what it loses, what it makes visible, what remains blocked, and where the use stops.
 
 Selected compact formulation:
 
@@ -120,7 +125,7 @@ A practitioner applying FPF faces a working situation where ordinary prose can h
 - scale transition, coarse behavior, universality, knee, or scaling pressure can call for coarse-graining, RG, or scaling-law vocabulary;
 - probe effects, order effects, context effects, or incompatible frames can call for quantum-like or contextual-probability vocabulary.
 
-The useful first-minute intuition is not “hunt for overclaim.” It is “find the structure that would improve the next move, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and which neighboring pattern carries any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
+The useful first-minute intuition is not “hunt for overclaim.” It is “find the structure that would improve the next move, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and which governing pattern governs any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
 
 Without a general lens-use discipline, the reader cannot tell whether the phrase is a bounded structure-preserving representation, an analogy-only prompt, an unsupported ontology import, a local domain model, or prestige language.
 
@@ -132,26 +137,26 @@ Without a general lens-use discipline, the reader cannot tell whether the phrase
 
 **Under-lensed anti-case.** “The work stream has dynamics” or “this portfolio is a network” is used for a diagnosis that affects prediction, comparison, repair, or stop conditions, but no mathematical object changes what can be predicted, compared, diagnosed, repaired, or stopped. The repair is to choose a cheap candidate lens that exposes useful structure, or keep the sentence as ordinary prose.
 
-**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. If no contested lens-transfer, publication, assurance, bridge, or reusable explanation claim is live, the claim stays under `A.3.3` and does not open `C.29`.
+**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. If no contested lens-transfer, publication, assurance, bridge, or reusable explanation claim is being made, the claim stays under `A.3.3` and does not require a C.29 output.
 
 #### C.29:1.3 - Intended FPF use-value
 
-`C.29` gives a cheap use path before any full card or boundary table. Its first job is to help the working reader introduce, choose, repair, bound, or decline a mathematical lens: choose no C.29 output, a candidate note, a one-line repair, a mini-card, a full card only when publication, bridge, assurance-input, benchmark, model-selection, prediction, or reusable-explanation use requires it, or a named neighboring locus when the live claim belongs to evidence, causal, bridge, assurance, work, decision, publication, or admission governance rather than the declared mathematical-lens use. Use it only when the mathematical lens affects a claim or next move; ordinary local math and decorative prose stay outside C.29. A successful `C.29` result makes useful mathematical compression available to FPF as a disciplined modeling move while reducing ontology smuggling, prestige vocabulary, loss-free transfer, causal laundering, bridge duplication, evidence laundering, and assurance laundering.
+`C.29` gives a cheap use path before any full card or boundary table. Its first job is to help the working reader introduce, choose, repair, bound, or decline a mathematical lens by selecting the cheapest honest output: no C.29 output, a candidate note, a one-line repair, a mini-card, a full card when high-reliance use requires it, or a neighboring-pattern note when the claim being made is outside declared mathematical-lens use. Use it only when the mathematical lens affects a claim or next move; ordinary local math and decorative prose stay outside C.29. A successful `C.29` result makes useful mathematical compression available to FPF as a disciplined modeling move while reducing ontology smuggling, prestige vocabulary, loss-free transfer, causal laundering, bridge duplication, evidence laundering, and assurance laundering.
 
 ### C.29:2 - Problem
 
-Current FPF mathematical-lens use criteria are distributed and local:
+Accepted FPF mathematical-lens use criteria are distributed and local:
 
 - `A.6.P` governs relation precision restoration, but not every mathematical-object transfer.
 - `A.3.3` governs state, transition, observation, validity, constraints, and calibration for dynamics, but not all mathematical representation choices.
 - `A.19` governs characteristic spaces, structural overlays, comparability, normalization, and bridge-aware state comparison, but not the adequacy of all mathematical lenses.
 - `C.18.1` and `C.19.1` govern scale-law and BLP claims, but not non-scale mathematical lenses.
 - `C.26` is the local precedent for mathematical-lens detachment, but only for quantum-like modeling.
-- `F.9` governs cross-context semantic bridges, but does not decide whether a mathematical substrate is adequate inside one context or as a domain-transferring lens.
+- `F.9` governs cross-context semantic bridges, but does not decide whether a mathematical object, formalism, or learned representation is adequate inside one context or as a domain-transferring lens.
 
 There are two symmetric failure modes.
 
-The first failure mode is mathematical under-lensing: a working situation needs a mathematical lens that changes prediction, comparison, diagnosis, repair, or stop conditions, but the record carries only ordinary prose, familiar school math, or a broad family name such as graph, field, space, score, trend, dynamics, or quantum-like without a useful invariant, obstruction, state variable, mapping, scale behavior, rival lens, or action-changing payoff.
+The first failure mode is mathematical under-lensing: a working situation needs a mathematical lens that changes prediction, comparison, diagnosis, repair, or stop conditions, but the record contains only ordinary prose, familiar school math, or a broad family name such as graph, field, space, score, trend, dynamics, or quantum-like without a useful invariant, obstruction, state variable, mapping, scale behavior, rival lens, or action-changing payoff.
 
 The second failure mode is mathematical overread:
 
@@ -162,11 +167,11 @@ The second failure mode is mathematical overread:
 | Force | Tension |
 |---|---|
 | **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use, declared loss, and neighboring-pattern exit. |
+| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use, declared loss, and neighboring-pattern application. |
 | **SoTA openness vs metaphysical safety** | Vanchurin-like and Sandberg-like material enters as current lens prompts, not final ontology. |
 | **General pattern vs local precision** | `C.29` stays non-duplicative with `A.6.P`, `F.9`, `C.26`, `C.28`, `A.3.3`, and `A.19`; its contribution is coordination around declared mathematical-lens use. |
 | **Didactic usability vs formal rigor** | The first user needs one small card; expert use needs lens mapping mode, invariant claims, loss, `LensUseAdmissibilityValue`, rival lenses, and stop conditions. |
-| **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while exact fields carry FPF claim-bearing use or admissibility. |
+| **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while fields named by value recover FPF claim-bearing use or admissibility. |
 | **Transfer reach vs domain validity** | Category, RG, variational, quantum-like, and learning lenses are useful because they travel; that same transfer reach makes misuse easy. |
 
 ### C.29:4 - Solution and selected answer
@@ -175,7 +180,7 @@ The second failure mode is mathematical overread:
 
 `C.29 — Mathematical Lens Use` is the general FPF discipline for mathematical lenses used in explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. It handles two first-use cases, with the positive case first: an under-lensed situation where the next admissible move can benefit from a cheap first candidate lens; and an existing candidate lens proposed for application, repair, bounding, replacement, or rejection. Its job is to help the reader introduce, choose, apply, limit, replace, or remove a mathematical lens so that a useful admissible next move survives. A mathematical lens is admissible for a declared use when it compresses a phenomenon by preserving declared structure, exposing useful invariants, and producing lens-admissible predictions, distinctions, obstructions, or diagnostic boundaries inside a bounded context. It is inadmissible for an undeclared or unadmissible use when it imports source-domain ontology, hides loss under metaphor, treats source prestige as evidence, or licenses claims outside its declared scale, context, validation, bridge, causal, or assurance boundary.
 
-`C.29` does not mint `MathLens`, `U.MathLens`, `LensKind`, or any universal FPF lens object. In this pattern, “mathematical lens” names a declared use of a mathematical object, formalism, learned representation, simulation substrate, or mathematical family under declared mapping, preserved structure and lost structure, `LensUseAdmissibilityValue`, admissible use, and stop condition; the target phenomenon and any claim outside that declared lens use keep their own FPF kinds.
+`C.29` does not mint `MathLens`, `U.MathLens`, `LensKind`, or any universal FPF lens object. In this pattern, “mathematical lens” names a declared use of a mathematical object, formalism, learned representation, simulation object, or mathematical family under declared mapping, preserved structure and lost structure, `LensUseAdmissibilityValue`, admissible use, and stop condition; the target phenomenon and any claim outside that declared lens use keep their own FPF kinds.
 
 Admission guard: C.29 governs mathematical-lens use claims. It does not mint mathematical-lens kinds, and it does not govern or create the EntityOfConcern named by a neighboring claim-bearing episteme, Bridge, evidence path, causal-use relation, assurance score, measurement construction, dynamics semantics, decision record, work record, explanation rendering, comparative review unit, representation transition, coarsened rendering, selector, benchmark, or scale audit. Its outputs are local lens-use outputs unless a separate FPF naming and admission decision makes one durable.
 
@@ -188,11 +193,11 @@ Compact plain form:
 
 > **A useful mathematical lens is compression with invariants and declared losses.**
 
-Register policy: **Tech exactness below, Plain metaphor above.** Plain phrases such as “structures that survive transfer,” “what the lens makes visible,” and “where the lens stops” are admissible as recognition aids. When a sentence carries FPF-kind, relation, evidence, admissibility, causal, assurance, bridge, gate, work, decision, or pattern-application commitment, the corresponding `C.29` output recovers the exact fields and governing patterns.
+Register policy: **Tech exactness below, Plain metaphor above.** Plain phrases such as “structures that survive transfer,” “what the lens makes visible,” and “where the lens stops” are admissible as recognition aids. When a sentence makes an FPF-kind, relation, evidence, admissibility, causal, assurance, bridge, gate, work, decision, or pattern-application commitment, the corresponding `C.29` output recovers the fields named by value and governing patterns.
 
-Zero and first-principles compatibility note: `E.1` and `E.2` govern the mission and pillar authority. `C.29` serves them by making mathematical first-principles lens use inspectable for one declared use: candidate mathematical object, preserved structure, lost structure, visible payoff, admissible move, neighboring-pattern boundary, and stop condition. It does not replace pillar authority, neighboring governing loci, ordinary FPF reasoning, or `E.9` design-rationale basis for normative changes.
+Zero and first-principles compatibility note: `E.1` and `E.2` govern the mission and pillar authority. `C.29` serves them by making mathematical first-principles lens use inspectable for one declared use: candidate mathematical object, preserved structure, lost structure, visible payoff, admissible move, neighboring-pattern boundary, and stop condition. It does not replace pillar authority, neighboring governing patterns, ordinary FPF reasoning, or `E.9` design-rationale basis for normative changes.
 
-Mathematics is not a prerequisite for FPF use. Ordinary prose is valid when no mathematical structure changes the next admissible move. C.29 earns its place only when a mathematical object, formalism, learned representation, simulation substrate, or mathematical family changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair.
+Mathematics is not a prerequisite for FPF use. Ordinary prose is valid when no mathematical structure changes the next admissible move. C.29 earns its place only when a mathematical object, formalism, learned representation, simulation object, or mathematical family changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next admissible repair.
 
 Plain and Tech bridge:
 
@@ -202,11 +207,11 @@ Plain and Tech bridge:
 | How does it represent the phenomenon? | `LensMappingMode`. |
 | What survives? | `PreservedStructure`. |
 | What disappears or is deliberately ignored? | `LostStructure`. |
-| Why trust this use? | `LensUseAdmissibilityValue`, validation overlay when live, and neighboring evidence and assurance loci when their claims are live. |
+| Why trust this use? | `LensUseAdmissibilityValue`, validation overlay when validation use is being claimed, and governing evidence and assurance patterns when their claims are being made. |
 | What can the reader now do? | `AdmissibleNextMove` or `admissibleUse`. |
 | What remains blocked? | `StopCondition` and `nonAdmissibleUse`. |
 
-State, scale, and dynamics trigger: if the lens carries state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, strong wording or weak wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the receiving FPF locus. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a valid measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
+State, scale, and dynamics trigger: if the lens use names state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, strong wording or weak wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the governing FPF pattern. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a valid measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
 
 #### C.29:4.2a - Mathematicalization Utility Principle
 
@@ -228,21 +233,23 @@ If no next admissible move changes, keep the text as ordinary prose, downgrade i
 
 #### C.29:4.2b - First-principles lens-family use
 
-`C.29` admits first-principles use only when the principle family changes what the working reader can derive, inspect, compare, observe, or honestly block. The family name is never enough. Each row below is a discovery and recovery discipline: it tells the reader what must be named before the mathematical lens can carry claim-bearing use.
+`C.29` admits first-principles use only when the principle family changes what the working reader can derive, inspect, compare, observe, or honestly block. The family name is never enough. Each row below is a discovery and recovery discipline: it tells the reader what must be named before claim-bearing mathematical-lens use is admissible.
 
 | First-principles family | Use when the working problem asks | Required `C.29` recovery | Stop or neighboring-pattern application |
 |---|---|---|---|
-| Boundary, exterior derivative, Stokes-like local-to-global relation | How local increments, flows, sources, interfaces, or balances compose into a global claim. | Name the domain, boundary, field, form, or flow, derivative, divergence, or curl-like operator, boundary condition, and what is conserved, sourced, or lost at the boundary. | Does not make all boundary language one mechanism; measurement, evidence, and bridge claims move to `C.16`, `A.10`, or `F.9`. |
-| Cohomology, closed relation and exact relation split, topological obstruction | Why a local rule cannot be made global, or why a transfer or composition is blocked. | Name the cycle or cocycle-like object, equivalence class or obstruction, local closure condition, failed exactness witness or failed global witness, and the blocked claim. | Useful obstruction is a `LostStructure` or `StopCondition`; it is not a causal explanation without `C.28` and evidence. |
+| Boundary, exterior derivative, Stokes-like local-to-global relation | How local increments, flows, sources, interfaces, or balances compose into a global claim. | Name the domain, boundary, field, form, or flow, derivative, divergence, or curl-like operator, boundary condition, and what is conserved, sourced, or lost at the boundary. | Does not make all boundary language one mechanism; measurement, evidence, and bridge claims are governed by `C.16`, `A.10`, or `F.9`. |
+| Cohomology, closed relation and relation named by value split, topological obstruction | Why a local rule cannot be made global, or why a transfer or composition is blocked. | Name the cycle or cocycle-like object, equivalence class or obstruction, local closure condition, failed exactness witness or failed global witness, and the blocked claim. | Useful obstruction is a `LostStructure` or `StopCondition`; it is not a causal explanation without `C.28` and evidence. |
 | Symmetry, invariance, equivariance, Noether-like conservation | Which transformations leave the relevant claim unchanged, or which conservation-like quantity follows from an invariance. | Name the transformation family, action on the described variables, invariant or conserved quantity, assumptions, and distinctions intentionally lost. | Does not transfer physical conservation, coordinate-free truth, or causal mechanism without domain evidence path and dynamics semantics. |
-| Variational principle, action, energy, free-energy, loss, or value functional, Legendre or convex duality | Whether a behavior, representation, design, or trade-off follows from stationarity, extremum, dual variables, or potential transformation. | Name the functional, admissible variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. | Does not imply the target literally optimizes that functional unless `A.3.3`, `A.10`, or `C.28` carries the dynamics semantics, evidence path, or causal use. |
-| RG, coarse-graining, fixed point, basin, universality | Why different microdescriptions can share one macropattern, or when a scale claim stops. | Name the scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, invariant or exponent, and lost microstructure. | Scale-law adequacy and general method scale-preference claims move to `C.18.1` and `C.19.1`; architecture scale-preference claims move to `C.31.ASAP`; no micro-mechanism identity is licensed. |
-| Diagonal, self-reference, fixed-point theorem, no-go family | Whether a universal evaluator, complete language, self-model, closure rule, or governance rule is blocked by self-application. | Name the encoding, evaluator or self-map, diagonal or fixed-point construction, universal claim being tested, and exact impossibility or closure boundary. | Does not prove every recursive-looking case is a no-go theorem; assurance or governance claims move to `B.3`, `E.19`, or the local domain pattern. |
-| Composition, category, operad, optic, semiring or limit transform | Whether composition, interface, view, transformation, or algebraic law is the useful preserved structure. | Name objects, morphisms or relations, composition law, identity or interface condition, preserved algebraic law, failed transfer, and any limit transform such as classical or tropical or Fourier-Laplace or Legendre. | Bridge semantics and substitution safety move to `F.9`; C.29 only records the declared lens use and its loss. |
+| Variational principle, action, energy, free-energy, loss, or value functional, Legendre or convex duality | Whether a behavior, representation, design, or trade-off follows from stationarity, extremum, dual variables, or potential transformation. | Name the functional, admissible variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. | Does not imply the target literally optimizes that functional unless `A.3.3`, `A.10`, or `C.28` governs the dynamics semantics, evidence path, or causal use. |
+| RG, coarse-graining, fixed point, basin, universality | Why different microdescriptions can share one macropattern, or when a scale claim stops. | Name the scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, invariant or exponent, and lost microstructure. | Scale-law adequacy and general method scale-preference claims are governed by `C.18.1` and `C.19.1`; architecture scale-preference claims are governed by `C.31.ASAP`; no micro-mechanism identity is licensed. |
+| Diagonal, self-reference, fixed-point theorem, no-go family | Whether a universal evaluator, complete language, self-model, closure rule, or governance rule is blocked by self-application. | Name the encoding, evaluator or self-map, diagonal or fixed-point construction, universal claim being tested, and the impossibility or closure boundary named by value. | Does not prove every recursive-looking case is a no-go theorem; assurance or governance claims are governed by `B.3`, `E.19`, or the local domain pattern. |
+| Composition, category, operad, optic, semiring or limit transform | Whether composition, interface, view, transformation, or algebraic law is the useful preserved structure. | Name objects, morphisms or relations, composition law, identity or interface condition, preserved algebraic law, failed transfer, and any limit transform such as classical or tropical or Fourier-Laplace or Legendre. | Bridge semantics and substitution safety are governed by `F.9`; C.29 only records the declared lens use and its loss. |
 | Probability, information, observation, acquisition | Which uncertainty, information, typicality, readout, or next observation changes the next admissible move. | Name the random variables or distributions, utility or information criterion, observation or probe design variable, model assumptions, estimation method, validation boundary, and robustness note. | Measurement, evidence, experiment planning, causal-use verdicts, and assurance stay with `C.16`, `A.10`, `C.28`, `A.15`, and `B.3`. |
-| Bounded-observer structural information, MDL, epiplexity, compression, or description-recoverability lens | Whether a bounded observer can recover enough selected structure from an architecture description, relation trace, generated graph, reusable-structure accounting result, or other source episteme to change the next admissible move. | Name the source episteme or trace, observer boundary, candidate information measure or coding scheme, mapping mode, preserved selected structure, lost structure, visible payoff, observation or postulate boundary, and source-return condition. | Does not make epiplexity or compression an architecture characteristic, quality score, selector result, evidence path, assurance result, OOD guarantee, or causal proof. Architecture, structural-view, reuse-accounting, measurement, evidence, assurance, and bridge claims move to `C.30`, `C.30.ASV`, `C.30.AD`, `C.31`, `C.31.RSA`, `C.16`, `A.10`, `B.3`, or `F.9` as live. |
+| Bounded-observer structural information, MDL, epiplexity, compression, or description-recoverability lens | Whether a bounded observer can recover enough selected structure from an architecture description, relation trace, generated graph, reusable-structure accounting result, or other source episteme to change the next admissible move. | Name the source episteme or trace, observer boundary, candidate information measure or coding scheme, mapping mode, preserved selected structure, lost structure, visible payoff, observation or postulate boundary, and source-return condition. | Does not make epiplexity or compression an architecture characteristic, quality score, selector result, evidence path, assurance result, OOD guarantee, or causal proof. Architecture, structural-view, reuse-accounting, measurement, evidence, assurance, and bridge claims are governed by `C.30`, `C.30.ASV`, `C.30.AD`, `C.31`, `C.31.RSA`, `C.16`, `A.10`, `B.3`, or `F.9` when those claims are being made. |
 
-This table is normative as a recovery guide, not as a mandatory taxonomy. A local project may name a closer family, but it must recover the same claim-bearing structure: mathematical substrate, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition.
+This table is normative as a recovery guide, not as a mandatory taxonomy. A local project may name a closer family, but it must recover the same claim-bearing structure: `CandidateMathObject` or candidate family, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition.
+
+P2W and formal-declaration boundary: when one of these families is used in a P2W transduction from accepted problem-side material into later work, `C.29` still records only the declared mathematical-lens use. A declared formal relation can make mathematical-to-mathematical exactness or near-sameness visible; it does not by itself declare a `FormalSubstrate` signature, `PrincipleFrame`, mechanism, observation-bound world claim, evidence path, causal-use relation, Bridge-admissible use, or work. Use `A.6.0` for the `U.Signature(profile=FormalSubstrate)` declaration, `A.6.1` when mechanism import or realization is being claimed, and `E.18.1` when accepted problem-side material needs a formal declaration for later FPF use.
 
 #### C.29:4.2c - Bounded-observer structural-information lens
 
@@ -284,7 +291,7 @@ Architecture work may use C.29-local descriptions for graph, flow, control, stru
 | `MLU.Description@RGArchitecture` | scale map over architecture descriptions, fixed-point or basin metaphor, or declared coarse-graining map | scale-stability of an architecture vector and exploding exceptions | not literal physical RG unless domain theory warrants it |
 | `MLU.Description@MultilevelLearningFrustration` | multilevel learning over structurally renormalizable descriptions, frustrated optimization landscape, or variational residual model | residual-reducing architecture moves across declared scopes or levels | not proof that the project literally optimizes one global function |
 
-`MLU.Description@RGArchitecture` is live only when the use names a declared aggregation scope, scale variable or scale window, coarse-graining rule, preserved structure, lost structure, source-return condition, and the exact overread that the lens does not license. If the claim becomes a scale-preference claim, `C.31.ASAP` receives the architecture preference side; C.29 keeps only the declared mathematical-lens use.
+`MLU.Description@RGArchitecture` applies only when the use names a declared aggregation scope, scale variable or scale window, coarse-graining rule, preserved structure, lost structure, source-return condition, and the overread named by value that the lens does not license. If the claim becomes a scale-preference claim, `C.31.ASAP` governs the architecture preference side; C.29 keeps only the declared mathematical-lens use.
 
 Minimum RG architecture description:
 
@@ -317,7 +324,7 @@ R_l : A_l -> A_{l+1}
 
 The index `_l` is a declared aggregation-scope index inside this C.29 lens, not a generic level, tier, layer, or ladder. Each use names the aggregation scope, the coarse-graining rule, the lost structure, and the source-return condition.
 
-`MLU.Description@MultilevelLearningFrustration` is live only when the use names declared holon levels or declared scopes, a mapping between them, conflicting constraints or residuals, preserved structure, lost structure, and the nearest neighboring FPF pattern for any measurement, causal, evidence, assurance, work, selected-set, or decision claim.
+`MLU.Description@MultilevelLearningFrustration` applies only when the use names declared holon levels or declared scopes, a mapping between them, conflicting constraints or residuals, preserved structure, lost structure, and the nearest neighboring FPF pattern for any measurement, causal, evidence, assurance, work, selected-set, or decision claim.
 
 Minimum multilevel-learning and frustration description:
 
@@ -336,25 +343,26 @@ MLU.Description@MultilevelLearningFrustration:
   StopCondition:
 ```
 
-Admissible use: triage, explanation, candidate generation, rival-lens comparison, scale-window reasoning, source-return triggers, and architecture-decision rationale only when the neighboring pattern carries any non-C.29 claim. Non-admissible use: no proof that the project literally optimizes one global function, no causal proof, no assurance score, no claim that complexity necessarily grows, and no replacement for `C.11`, `C.28`, `B.3`, `C.16`, `G.5`, or stakeholder and ethics patterns.
+Admissible use: triage, explanation, candidate generation, rival-lens comparison, scale-window reasoning, source-return triggers, and architecture-decision rationale only when the neighboring pattern governs any non-C.29 claim. Non-admissible use: no proof that the project literally optimizes one global function, no causal proof, no assurance score, no claim that complexity necessarily grows, and no replacement for `C.11`, `C.28`, `B.3`, `C.16`, `G.5`, or stakeholder and ethics patterns.
+
 #### C.29:4.3 - Use boundary
 
 This boundary prevents `C.29` from being over-applied.
 
-**Use `C.29` when** a mathematical object, formalism, learned representation, simulation substrate, or mathematical family is used as a lens for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer over a physical, organizational, epistemic, social, computational, scientific, or methodological phenomenon, or when a phenomenon, decision, explanation, comparison, model-selection, diagnosis, or method-choice problem is stable enough that the first useful move is to choose a cheap candidate lens that makes relevant structure visible.
+**Use `C.29` when** a mathematical object, formalism, learned representation, simulation object, or mathematical family is used as a lens for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer over a physical, organizational, epistemic, social, computational, scientific, or methodological phenomenon, or when a phenomenon, decision, explanation, comparison, model-selection, diagnosis, or method-choice problem is stable enough that the first useful move is to choose a cheap candidate lens that makes relevant structure visible.
 
 **Do not use `C.29` as the governing pattern when:**
 
 - the mathematics is ordinary local domain theory already governed by a domain pattern;
 - the phrase is a purely didactic analogy that is not reused for decisions, evidence, assurance, publication, bridge, comparison, or transfer;
-- the live question is causal-use question, causal-use justification, or verdict, which is governed by `C.28`;
-- the live question is measurement construction, scale legality, direct comparability, or evidence-stub adequacy, which is governed by `C.16`;
-- the live question is cross-context meaning or substitution safety, which is governed by `F.9`;
-- the live question is dynamics semantics without a separate lens-transfer claim, which is governed by `A.3.3`;
-- the live question is a `CharacteristicSpace` overlay with no domain-transfer, prediction, assurance, publication, or reusable explanation claim, which stays under `A.19`.
-- the live use is a `ChoiceResult`, local choice record, selected-set publication, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant source restoration; those claims stay with `C.11`, `G.5` or `G.9`, `A.15`, `A.15.1`, or `A.15.4` as appropriate.
-- the live use is an explanation-facing rendering, bounded comparative review unit, same-EntityOfConcern representation-scheme transition, or controlled semantic coarsening; those claims stay with `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, or `A.6.3.CSC`, with C.29 fields carrying only mathematical-lens use when the mathematical lens affects the stated admissible use.
-- the live claim is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for use; temporal-claim adequacy stays with `C.27`.
+- the question under repair is causal-use question, causal-use justification, or verdict, which is governed by `C.28`;
+- the question under repair is measurement construction, scale legality, direct comparability, or evidence-stub adequacy, which is governed by `C.16`;
+- the question under repair is cross-context meaning or substitution safety, which is governed by `F.9`;
+- the question under repair is dynamics semantics without a separate lens-transfer claim, which is governed by `A.3.3`;
+- the question under repair is a `CharacteristicSpace` overlay with no domain-transfer, prediction, assurance, publication, or reusable explanation claim, which stays under `A.19`.
+- the use under repair is a `ChoiceResult`, local choice record, selected-set publication, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant source restoration; those claims stay with `C.11`, `G.5` or `G.9`, `A.15`, `A.15.1`, or `A.15.4` as appropriate.
+- the use under repair is an explanation-facing rendering, bounded comparative review unit, same-EntityOfConcern representation-scheme transition, or controlled semantic coarsening; those claims stay with `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, or `A.6.3.CSC`, with C.29 fields carrying only mathematical-lens use when the mathematical lens affects the stated admissible use.
+- the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for use; temporal-claim adequacy stays with `C.27`.
 
 This boundary keeps mathematical-lens use from becoming a shadow record for neighboring work.
 
@@ -364,13 +372,13 @@ Lexical rule: use **structure-preserving representation** rather than **structur
 
 Begin with action guidance, not with the full card.
 
-First action choices: keep ordinary prose, introduce a cheap candidate lens, name a substrate that fits the stated use more directly, add visible payoff, add loss, choose the principal rival lens, add validation regime, narrow an existing claim, downgrade an overclaim, or move any evidence, causal, bridge, assurance, work, decision, publication, or admission claim to the exact neighboring FPF locus.
+First action choices: keep ordinary prose, introduce a cheap candidate lens, name the `CandidateMathObject` or formal role that fits the stated use more directly, add visible payoff, add loss, choose the principal rival lens, add validation regime, narrow an existing claim, downgrade an overclaim, or apply the governing FPF pattern to any non-lens claim being made.
 
-Memory hook: a successful C.29 application can raise or lower the mathematical claim-bearing use. It can introduce a first candidate lens, keep ordinary domain prose, remove a mathematical lens, repair relation wording through `A.6.P`, declare a `CharacteristicSpace` through `A.19`, use `C.16` for measurement and comparability, open `F.9` for bridge semantics, ask the `C.28` causal-use question, restore work or source responsibility through `A.15`, or send temporal-use adequacy to `C.27`.
+Memory hook: a successful C.29 application can raise or lower the mathematical claim-bearing use. It can introduce a first candidate lens, keep ordinary domain prose, remove a mathematical lens, repair relation wording through `A.6.P`, declare a `CharacteristicSpace` through `A.19`, use `C.16` for measurement and comparability, apply `F.9` for bridge semantics, ask the `C.28` causal-use question, restore work or source responsibility through `A.15`, or apply `C.27` for temporal-use adequacy.
 
 No-lens cheap path: name the `ProblemStructureCue`, choose the cheapest candidate lens family that makes it visible, test whether that lens changes the next admissible move, and if no move changes, keep ordinary prose or collect more observations before using mathematical-lens wording.
 
-First neighboring-locus map:
+First neighboring-pattern map:
 
 | Claim-bearing question | Govern there first | C.29 remainder |
 |---|---|---|
@@ -384,27 +392,48 @@ First neighboring-locus map:
 
 Math-apparatus boundary: `C.29` coordinates the declared mathematical-lens use across relation substrate, state spaces and characteristic spaces, measurement, dynamics, scale, bridge, causal, evidence, assurance, selector, and benchmark patterns. It does not replace any one of them.
 
-1. **Find the claim-bearing phrase.** Mark the exact mathematical phrase that affects explanation, decision, prediction, comparison, publication, bridge, assurance-input, or reusable transfer.
+1. **Find the claim-bearing phrase.** Mark the mathematical phrase named by value that affects explanation, decision, prediction, comparison, publication, bridge, assurance-input, or reusable transfer.
 2. **Choose the smallest output class that preserves honesty.** The output-class decision happens before any full-card fields.
-3. **Name the concrete mathematical object or structure.** Family labels such as `category theory`, `field`, `graph`, `quantum`, `RG`, or `geometry` are entry prompts, not adequate substrates for the stated use by themselves.
-4. **State the lens mapping mode.** Use the least committing honest `C.29`-local lens mapping mode: analogy-only prompt, representation, empirical fit, simulation, quotient, abstraction, coarse-graining, embedding, homomorphism, isomorphism, functor-like transfer, cross-context lens-transfer candidate, or accepted local theory. If cross-context meaning, substitution, CL, sense cells, or Bridge-admissible use is live, `F.9` governs that claim; the C.29 fields record only mathematical-lens use for the declared transfer.
+3. **Name the concrete mathematical object or structure.** Family labels such as `category theory`, `field`, `graph`, `quantum`, `RG`, or `geometry` are entry prompts, not adequate `CandidateMathObject` values for the stated use by themselves.
+4. **State the lens mapping mode.** Use the least committing honest `C.29`-local lens mapping mode: analogy-only prompt, representation, empirical fit, simulation, quotient, abstraction, coarse-graining, embedding, homomorphism, isomorphism, functor-like transfer, cross-context lens-transfer candidate, or accepted local theory. If cross-context meaning, substitution, CL, sense cells, or Bridge-admissible use is being claimed, `F.9` governs that claim; the C.29 fields record only mathematical-lens use for the declared transfer.
 5. **State preserved structure and lost structure.** This is the central repair move.
 6. **State what becomes visible.** Name the invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, lens-admissible distinction, model-selection consequence, or other payoff.
-7. **State the admissible use and blocked use.** Say what is now admissible, what remains blocked, and which named neighboring FPF locus governs any live claim outside the declared lens use.
-8. **If the claim does not pass, repair rather than merely fail.** Downgrade, narrow, switch to a principal rival lens, add `LensUseAdmissibilityValue` or validation regime, split out bridge, dynamics, measurement, causal, temporal, decision, work, explanation, comparison, representation, scale, or assurance claims to the neighboring governing locus, or remove the mathematical phrase from claim-bearing use.
+7. **State the admissible use and blocked use.** Say what is now admissible, what remains blocked, and which governing FPF pattern governs any claim being made outside the declared lens use.
+8. **If the claim does not pass, repair rather than merely fail.** Downgrade, narrow, switch to a principal rival lens, add `LensUseAdmissibilityValue` or validation regime, split any non-lens claim to its governing FPF pattern, or remove the mathematical phrase from claim-bearing use.
 
 Application output classes:
 
 | Output class | Output | Use condition | Required content |
 |---|---|---|---|
-| `NoMathLensUseNeeded` | `NoMathLensUseNeededNote` or ordinary Plain orientation | Mathematical language is local, didactic, or accepted local theory and is not used for transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable explanation. | State why `C.29` is not opened; no card. |
+| `NoMathLensUseNeeded` | `NoMathLensUseNeededNote` or ordinary Plain orientation | Mathematical language is local, didactic, or accepted local theory and is not used for transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable explanation. | State why no C.29 output is needed; no card. |
 | `LensCandidateNote` | `MathLensUse.LensCandidateNote` | A problem whose next move can depend on a mathematical lens is stable enough for a first candidate lens, but no adequate mathematical object has been named yet. | `TargetPhenomenon`, `ProblemStructureCue`, `CandidateLensFamily`, optional `CandidateMathObject?`, `WhyThisLensCouldHelp`, `ExpectedVisiblePayoff`, `ObservableOrControllableCue?`, `AdmissibleNextMove`, `OrdinaryRivalOrFallback`, `StopCondition`, `NextMathLensUseOutput`. |
 | `OneLine` | `MathLensUse.OneLine` | An under-specified phrase affects explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer and needs repair before reuse. | `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `VisiblePayoff`, `AdmissibleNextMove`, optional `ObservationOrReadoutNeeded?`, `OrdinaryRivalOrFallback`, `StopCondition`. |
 | `MiniCard` | `MathLensUse.MiniCard` | The lens is admissible for a reusable explanation, local decision, comparison, or method-selection claim. | `OneLine` content plus `InvariantsExposed`, `LensUseAdmissibilityValue`, `admissibleUse`, `nonAdmissibleUse`, principal rival, and `RivalLensRelation?` when another mathematical lens changes the admissible move. |
-| `FullCard` | `MathLensUse.FullCard` | Publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is live. | Full `MathLensUse.Card@Context` plus any conditional overlays. |
-| `NeighborGoverningLocusNote` | `NeighborGoverningLocusNote` | The live claim is causal use, bridge or substitution, measurement construction, scale legality, direct comparability, evidence-stub adequacy, dynamics semantics, temporal adequacy, decision result, selected method, work plan, performed work, evidence trust, assurance, explanation rendering, comparative review, representation transition, coarsening, scale law, release, selector, or benchmark. | Name the governing FPF locus and apply `C.28`, `F.9`, `C.16`, `A.3.3`, `C.27`, `C.11`, `A.15`, `A.15.1`, `A.15.4`, `A.10`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `C.18.1`, `C.19.1`, or a relevant G pattern. The C.29 application keeps only the declared lens-use result. |
+| `FullCard` | `MathLensUse.FullCard` | Publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is being made. | Full `MathLensUse.Card@Context` plus any conditional overlays. |
+| `NeighborGoverningPatternNote` | `NeighborGoverningPatternNote` | The claim being made is causal use, bridge or substitution, measurement construction, scale legality, direct comparability, evidence-stub adequacy, dynamics semantics, temporal adequacy, decision result, selected method, work plan, performed work, evidence trust, assurance, explanation rendering, comparative review, representation transition, coarsening, scale law, release, selector, or benchmark. | Name the governing FPF pattern and apply `C.28`, `F.9`, `C.16`, `A.3.3`, `C.27`, `C.11`, `A.15`, `A.15.1`, `A.15.4`, `A.10`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `C.18.1`, `C.19.1`, or a relevant G pattern. The C.29 application keeps only the declared lens-use result. |
 
 Micro-template examples:
+
+Architecture and P2W first-use slice:
+
+```text
+MathLensUse.LensCandidateNote@ArchitectureP2W := {
+  TargetPhenomenon: cooling-fixture deformation problem accepted as a problem-side distinction,
+  ProblemStructureCue: heat-flow balance, boundary condition, interface reference plane, and deformation residual change the next architecture or method-choice question,
+  CandidateLensFamily: boundary and variational heat-flow lens,
+  CandidateMathObject?: temperature field with boundary-condition relation and optional energy functional,
+  WhyThisLensCouldHelp: the lens can expose whether the useful distinction is a preserved heat-flow invariant, a boundary-condition mismatch, or a deformation factor outside the model,
+  ExpectedVisiblePayoff: decide whether the next honest output is a C.29 one-line lens use, an A.6.0 FormalSubstrate signature declaration, or an E.18.1 P2W transduction use of the accepted problem-side distinction,
+  ObservableOrControllableCue?: boundary temperatures, heat-flow observations, reference-plane assignment, deformation readout,
+  AdmissibleNextMove: write `MathLensUse.OneLine` only after mapping, preserved structure, lost structure, and stop condition are nameable; apply `A.6.0` only when `U.Signature(profile=FormalSubstrate)` must be declared; apply `E.18.1` only when the accepted problem-side distinction must be used in later FPF work,
+  OrdinaryRivalOrFallback: ordinary deformation narrative plus local measurement note,
+  StopCondition: no method is selected, no work plan is created, no evidence-strength claim is made, and no causal-use verdict or assurance claim follows from this C.29 note,
+  NextMathLensUseOutput: MathLensUse.OneLine or NeighborGoverningPatternNote
+}
+```
+
+This filled slice is a C.29 first-use output. It does not declare the formal signature, perform the P2W transduction by itself, select the method, or create work. Those claims are governed by `A.6.0`, `E.18.1`, `A.15`, `A.15.1`, `A.15.4`, `A.10`, `C.28`, or `B.3` when those claims are being made.
+
 
 ```text
 MathLensUse.LensCandidateNote example := {
@@ -469,7 +498,7 @@ MathLensUse.OneLine := {
 }
 ```
 
-For `MathLensUse.OneLine`, `VisiblePayoff` says what the lens makes visible, such as a bottleneck, invariant, obstruction, incompatibility, loss boundary, or diagnostic split. `AdmissibleNextMove` says the now-admissible user move, such as compute a local quantity, compare only inside a declared structure, run a validation slice, apply a neighboring pattern, keep the phrase as local metaphor, or remove the phrase from claim-affecting use. `ObservationOrReadoutNeeded?` names the missing observable, readout, assignment, outcome, validation slice, or scale point needed before the repaired line can carry the stated move. `OrdinaryRivalOrFallback` says what the reader would use without this mathematical lens: ordinary prose, accepted local domain theory, direct measurement, a causal model, a queueing model instead of a quantum-like metaphor, an `A.19` space declaration instead of `C.29`, or an `F.9` bridge instead of category-like wording. If two mathematical lenses already change the next move at this cheap-output class, add one ordinary-language note about the disagreement and move to `MathLensUse.MiniCard` or `MathLensUse.FullCard` before claiming a reusable rival-lens relation.
+For `MathLensUse.OneLine`, `VisiblePayoff` says what the lens makes visible, such as a bottleneck, invariant, obstruction, incompatibility, loss boundary, or diagnostic split. `AdmissibleNextMove` says the now-admissible user move, such as compute a local quantity, compare only inside a declared structure, run a validation slice, apply a neighboring pattern, keep the phrase as local metaphor, or remove the phrase from claim-affecting use. `ObservationOrReadoutNeeded?` names the missing observable, readout, assignment, outcome, validation slice, or scale point needed before the repaired line makes the stated move admissible. `OrdinaryRivalOrFallback` says what the reader would use without this mathematical lens: ordinary prose, accepted local domain theory, direct measurement, a causal model, a queueing model instead of a quantum-like metaphor, an `A.19` space declaration instead of `C.29`, or an `F.9` bridge instead of category-like wording. If two mathematical lenses already change the next move at this cheap-output class, add one ordinary-language note about the disagreement and use `MathLensUse.MiniCard` or `MathLensUse.FullCard` before claiming a reusable rival-lens relation.
 
 ```text
 MathLensUse.LensCandidateNote := {
@@ -487,13 +516,13 @@ MathLensUse.LensCandidateNote := {
 }
 ```
 
-`MathLensUse.LensCandidateNote` is not evidence, assurance, a bridge, a decision record, a selector result, a literature survey, or a full lens-use card. It is a cheap first-candidate lens selection note. Its successful next outputs are `NoMathLensUseNeededNote`, `MathLensUse.OneLine`, or a named neighboring governing-locus note.
+`MathLensUse.LensCandidateNote` is not evidence, assurance, a bridge, a decision record, a selector result, a literature survey, or a full lens-use card. It is a cheap first-candidate lens selection note. Its successful next outputs are `NoMathLensUseNeededNote`, `MathLensUse.OneLine`, or a named neighboring governing-pattern note.
 
 Name guard for this note: `ProblemStructureCue` is a recognition cue, not a FPF signature; `CandidateLensFamily` is a family prompt, not a kind; `AdmissibleNextMove` is action guidance, not a work record; `NextMathLensUseOutput` is the next C.29 output class, not a new record family.
 
-Do not use `MathLensUse.OneLine` with an empty `CandidateMathObject`. If the candidate object has not yet been named, use `MathLensUse.LensCandidateNote` first or exit to ordinary prose or a neighboring governing locus.
+Do not use `MathLensUse.OneLine` with an empty `CandidateMathObject`. If the candidate object has not yet been named, use `MathLensUse.LensCandidateNote` first, keep ordinary prose, or write a `NeighborGoverningPatternNote` when a non-lens claim is being made.
 
-Cheap stop: if the mathematical phrase does not affect any claim beyond orientation, do not open the full card. If the first honest output is `NoMathLensUseNeededNote`, that is a successful `C.29` result, not an underfilled card.
+Cheap stop: if the mathematical phrase does not affect any claim beyond orientation, do not use the full card. If the first honest output is `NoMathLensUseNeededNote`, that is a successful `C.29` result, not an underfilled card.
 
 #### C.29:4.4.1 - Output set and use-rights
 
@@ -506,26 +535,26 @@ After applying `C.29`, the output is one of these:
 | `MathLensUse.OneLine` | Target, mathematical object, lens mapping mode, preserved structure, lost structure, visible payoff, admissible next move, optional observation or readout needed, ordinary rival or fallback, and stop condition. |
 | `MathLensUse.MiniCard` | One-line plus invariant or payoff, `LensUseAdmissibilityValue`, admissible use, non-admissible use, and rival-lens relation when disagreement changes the next move. |
 | `MathLensUse.FullCard` | Full card for publication, bridge, assurance input, model selection, benchmark, prediction, or reusable explanation. |
-| `NeighborGoverningLocusNote` | A named neighboring FPF locus governs the live causal, bridge, evidence, scale, dynamics, temporal, decision, work, explanation, comparison, representation, measurement, or assurance claim; the C.29 application records only the declared lens-use result. |
+| `NeighborGoverningPatternNote` | A named neighboring FPF pattern governs the causal, bridge, evidence, scale, dynamics, temporal, decision, work, explanation, comparison, representation, measurement, or assurance claim being made; the C.29 application records only the declared lens-use result. |
 
-Positive warning: a successful `C.29` output makes the mathematical lens honest for its declared use. It does not make the claim true, safe, released, benchmark-superior, admissible for decision use, or causal-use-admissible. Truth, safety, release, benchmark, decision, and causal-use claims need their governing neighboring FPF patterns.
+Positive warning: a successful `C.29` output makes the mathematical lens honest for its declared use. Any empirical truth, causal-use, bridge, assurance, release, decision, or benchmark claim still needs its governing FPF pattern.
 
 `LensMappingMode`, `LensUseAdmissibilityValue`, and admissible use are separate fields.
 
 | Lens-use aspect | Question it answers | Where it is recorded |
 |---|---|---|
 | Mapping construction | How does the mathematical object represent, abstract, embed, quotient, simulate, learn, or transfer the phenomenon? | `LensMappingMode`, `PreservedStructure`, `LostStructure`, and any `ScaleWindow?` or `CoarseGrainingRule?`. |
-| Use-admissibility value | What limited lens-use value is declared for this use? | `LensUseAdmissibilityValue`, validation overlay when live, and neighboring evidence or assurance patterns when their claims are live. |
-| Admissible use | What can the working reader now do, and what remains blocked? | `admissibleUse`, `nonAdmissibleUse`, `AdmissibleNextMove`, `StopCondition`, and named neighboring FPF loci. |
+| Use-admissibility value | What limited lens-use value is declared for this use? | `LensUseAdmissibilityValue`, validation overlay when validation use is being claimed, and neighboring evidence or assurance patterns when their claims are being made. |
+| Admissible use | What can the working reader now do, and what remains blocked? | `admissibleUse`, `nonAdmissibleUse`, `AdmissibleNextMove`, `StopCondition`, and named governing FPF patterns. |
 
-`LensMappingMode` names construction, not permission. Typical local values include `representation`, `abstraction`, `quotient`, `coarse-graining`, `embedding`, `homomorphism`, `isomorphism`, `functor-like transfer`, `simulation substrate`, and `learned or fitted representation`. A broad family name such as graph, field, category, geometry, quantum-like, variational, or Bayesian is only a prompt until the concrete construction and preserved structure and lost structure are named.
+`LensMappingMode` names construction, not permission. Typical local values include `representation`, `abstraction`, `quotient`, `coarse-graining`, `embedding`, `homomorphism`, `isomorphism`, `functor-like transfer`, `simulation`, and `learned or fitted representation`. A broad family name such as graph, field, category, geometry, quantum-like, variational, or Bayesian is only a prompt until the concrete construction and preserved structure and lost structure are named.
 
 `LensUseAdmissibilityValue` grants only limited use-rights:
 
 | `LensUseAdmissibilityValue` value | Allowed use | Blocked use |
 |---|---|---|
 | analogy-only prompt | orientation, hypothesis generation, recognition cue | decision, assurance, causal claim, or publication as established model |
-| diagnosticOnly | finding a candidate obstruction, bottleneck, mismatch, missing state variable, or rival-lens split | prediction, decision, causal use, bridge substitution, assurance, or ontology without the exact neighboring-pattern result |
+| diagnosticOnly | finding a candidate obstruction, bottleneck, mismatch, missing state variable, or rival-lens split | prediction, decision, causal use, bridge substitution, assurance, or ontology without the neighboring-pattern result named by value |
 | formal derivation inside accepted theory | local explanation or theorem-backed transfer when assumptions hold | empirical claim without observation or evidence |
 | simulation | candidate model and scenario exploration | real-world causal or predictive reliance without validation |
 | empirical fit | local prediction inside validation regime | out-of-regime generalization and causal use |
@@ -533,45 +562,45 @@ Positive warning: a successful `C.29` output makes the mathematical lens honest 
 | SoTA-echo candidate | structured exploration and lens-use testing | accepted FPF law, assurance, release, or foundation claim |
 | mechanized proof | formal property under assumptions | real-world adequacy unless assumptions, bridge, and evidence hold |
 
-Admissible use is not inferred from elegance, familiarity, source prestige, or mapping type. It is stated in `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`. Mathematical adequacy is not empirical truth, causal-use verdict, bridge substitution, assurance, release confidence, decision sufficiency, or benchmark superiority; those claims need their governing neighboring FPF patterns.
+Admissible use is not inferred from elegance, familiarity, source prestige, or mapping type. It is stated in `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`. Any empirical truth, causal-use, bridge, assurance, release, decision, or benchmark claim remains a separate neighboring-pattern claim.
 
 #### C.29:4.4.2 - From lens to local action
 
-Local action change from a mathematical lens is limited to these cases unless a neighboring pattern carries the needed non-C.29 use:
+Local action change from a mathematical lens is limited to these cases unless a neighboring pattern governs the needed non-C.29 use:
 
 1. observe or measure a newly named variable or relation;
 2. compare only under a declared structure and loss boundary;
 3. diagnose a bottleneck, obstruction, mismatch, invariant, or failed transfer;
-4. choose or reject a principal rival lens for the current local use;
+4. choose or reject a principal rival lens for this local use;
 5. narrow, downgrade, or block a tempting overread;
-6. open the exact neighboring FPF locus when the live claim is causal, bridge, evidence, assurance, measurement, temporal, decision, work, scale, selector, or benchmark.
+6. apply the governing FPF pattern when a claim being made exceeds the declared lens use.
 
-Each item closes either as a local C.29 output or as a named neighboring-pattern opening. If the needed result is a work plan, choice result, selector output, benchmark, or evidence record, publish that neighboring result in its governing pattern rather than from this list.
+Each item closes either as a local C.29 output or as a named neighboring-pattern application. If the needed result is a work plan, choice result, selector output, benchmark, or evidence record, publish that neighboring result in its governing pattern rather than from this list.
 
 #### C.29:4.4.3 - No-lens entry: choosing a first candidate lens
 
-Use this when the next admissible move can benefit from a mathematical lens but no adequate mathematical object has been named. The output is `MathLensUse.LensCandidateNote`, not `MathLensUse.OneLine` and not a full card. State the `ProblemStructureCue`, choose one cheap `CandidateLensFamily`, say what it could make visible, name the `ObservableOrControllableCue?` when available, state the `AdmissibleNextMove`, compare it with the `OrdinaryRivalOrFallback`, and stop if no action changes. If the cue is still pre-articulation and no stable `ProblemStructureCue` can be named, do not mathematize it; preserve cue plurality through `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state locus before returning to `C.29`.
+Use this when the next admissible move can benefit from a mathematical lens but no adequate mathematical object has been named. The output is `MathLensUse.LensCandidateNote`, not `MathLensUse.OneLine` and not a full card. State the `ProblemStructureCue`, choose one cheap `CandidateLensFamily`, say what it could make visible, name the `ObservableOrControllableCue?` when available, state the `AdmissibleNextMove`, compare it with the `OrdinaryRivalOrFallback`, and stop if no action changes. If the cue is still pre-articulation and no stable `ProblemStructureCue` can be named, do not mathematize it; preserve cue plurality through `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state pattern before applying `C.29`.
 
 Candidate guidance rows are examples for first recognition. Use the row that fits the working cue, or state a closer local cue using the same fields.
 
 | `ProblemStructureCue` | Cheap `CandidateLensFamily` | First admissible move and stop |
 |---|---|---|
 | waiting, backlog, bottleneck, or throughput | queue or flow network | Observe arrivals, work in progress, service time, wait time, and bottleneck candidate; do not infer obligation, motivation, or managerial authority from the queueing lens alone. |
-| state change, trajectory, stabilization, or control pressure | state-space, dynamics, Markov, ODE, or control lens | Name state, transition law, observation map, and validity window; return dynamics semantics to `A.3.3` and temporal-use claims to `C.27` when live. |
-| dependency, interface, composition, or transfer failure | graph, hypergraph, category, operad, or compositional lens | Expose edges, edge meaning, slots, interfaces, composition law, and failed transfer; use `F.9` when cross-context meaning or substitution is live. |
-| local-to-global boundary relation, conservation across a boundary, or source balance or sink balance | Stokes-like, exterior-derivative, divergence, flux, or boundary-operator lens | Name the domain, boundary, local rule, boundary condition, and conserved or sourced quantity; do not infer mechanism, evidence, or bridge safety without the neighboring pattern. |
-| local rule that cannot become a global solution, or a transfer blocked by topology | cohomology, closed relation, exact relation, obstruction, or failed-extension lens | Name the local closure condition, global witness that fails, obstruction class or equivalent diagnostic boundary, and the blocked claim. |
-| comparison, similarity, distribution shift, population movement, or shape change | metric-space distance, topology, embedding, or optimal-transport lens | Declare what distance, neighborhood, order, embedding, coupling, or transport cost preserves and what it loses; use `C.16` for comparability and measurement construction when live. |
-| scale transition, coarse behavior, universality, knee, fixed point, or basin-of-attraction cue | coarse-graining, RG, fixed-point, or scaling-law lens | Name scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, and invariants; use `C.18.1` for scale-law adequacy, `C.19.1` when general method scale-preference or BLP preference is live, and `C.31.ASAP` when architecture scale preference is live. |
+| state change, trajectory, stabilization, or control pressure | state-space, dynamics, Markov, ODE, or control lens | Name state, transition law, observation map, and validity window; return dynamics semantics to `A.3.3` and temporal-use claims to `C.27` when those claims are being made. |
+| dependency, interface, composition, or transfer failure | graph, hypergraph, category, operad, or compositional lens | Expose edges, edge meaning, slots, interfaces, composition law, and failed transfer; use `F.9` when cross-context meaning or substitution is being claimed. |
+| local-to-global boundary relation, conservation across a boundary, or source balance or sink balance | Stokes-like, exterior-derivative, divergence, flux, or boundary-operator lens | Name the domain, boundary, local rule, boundary condition, and conserved or sourced quantity; do not infer mechanism, evidence, or bridge safety without the relevant governing pattern. |
+| local rule that cannot become a global solution, or a transfer blocked by topology | cohomology, closed relation, relation named by value, obstruction, or failed-extension lens | Name the local closure condition, global witness that fails, obstruction class or equivalent diagnostic boundary, and the blocked claim. |
+| comparison, similarity, distribution shift, population movement, or shape change | metric-space distance, topology, embedding, or optimal-transport lens | Declare what distance, neighborhood, order, embedding, coupling, or transport cost preserves and what it loses; use `C.16` for comparability and measurement construction when those claims are being made. |
+| scale transition, coarse behavior, universality, knee, fixed point, or basin-of-attraction cue | coarse-graining, RG, fixed-point, or scaling-law lens | Name scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, and invariants; use `C.18.1` for scale-law adequacy, `C.19.1` when general method scale-preference or BLP preference is being claimed, and `C.31.ASAP` when an architecture scale-preference claim is being made. |
 | invariance under transformations, coordinate changes, or conservation-like claim | symmetry, group action, Noether-like, invariant, or equivariant representation | Identify the transformations, invariant or conserved quantity, assumptions, distinctions preserved, and coordinate details lost; do not import physical conservation without evidence. |
 | extremal behavior, trade-off, dual view, potential, or cost relation or resource relation | variational, Lagrangian or Hamiltonian, action, energy, or free-energy, Legendre, convex-duality, or constrained-optimization lens | Name the functional, variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. |
-| self-reference, universal evaluator, complete-language claim, closure paradox, or impossible total method | diagonal, fixed-point theorem, no-go, or self-application lens | Name the encoding, evaluator or self-map, diagonal move, universal claim tested, and exact closure or impossibility boundary; do not turn every loop into a no-go theorem. |
+| self-reference, universal evaluator, complete-language claim, closure paradox, or impossible total method | diagonal, fixed-point theorem, no-go, or self-application lens | Name the encoding, evaluator or self-map, diagonal move, universal claim tested, and closure or impossibility boundary named by value; do not turn every loop into a no-go theorem. |
 | uncertainty, information value, missing observation, active probe, or next sample choice | probabilistic, information-theoretic, BED, OED, active-learning, or Bayesian-optimization lens | Name the variables or distributions, utility or information criterion, design variable, acquisition candidate, model assumptions, estimation method, validation boundary, and robustness note. |
 | intervention, policy effect, or counterfactual question | SCM, causal graph, or causal abstraction lens | Name the causal object, intervention or assignment, outcome readout, and whether counterfactual structure is preserved, approximated, or not claimed; keep causal-use question and verdict with `C.28`. |
 | learned scientific representation, latent state, surrogate solver, or operator view | neural operator, latent representation, surrogate solver, or world-model lens | Add the observation map, data or training regime, validation slice, generalization claim, uncertainty or approximation note, and stop condition. |
-| probe effects, order effects, context effects, incompatible frames, or measurement-as-intervention | quantum-like or contextual-probability lens | Use `C.26` for quantum-like adequacy when order effects, probe effects, or context effects are actually live; block physical quantum ontology unless separate physics evidence is supplied. |
+| probe effects, order effects, context effects, incompatible frames, or measurement-as-intervention | quantum-like or contextual-probability lens | Use `C.26` for quantum-like adequacy when order effects, probe effects, or context effects are actually being made; block physical quantum ontology unless separate physics evidence is supplied. |
 
-`MathLensUse.LensCandidateNote` is local first-candidate guidance. It does not replace `G.2` SoTA synthesis, tradition mapping, or broad lens-family review. Use `G.2` when the live work is tradition-scale source synthesis; use `C.29` when the local need is to choose one cheap candidate lens that changes the next admissible move. The cheap observation and control check does not open `C.16` or `A.10` by default; it only asks what the user can observe, read out, assign, vary, or validate now. Measurement construction, evidence strength, intervention-use claim, or validation still moves to the neighboring pattern when live.
+`MathLensUse.LensCandidateNote` is local first-candidate guidance. It does not replace `G.2` SoTA synthesis, tradition mapping, or broad lens-family review. Use `G.2` when the work being done is tradition-scale source synthesis; use `C.29` when the local need is to choose one cheap candidate lens that changes the next admissible move. The cheap observation and control check does not apply `C.16` or `A.10` by default; it only asks what the user can observe, read out, assign, vary, or validate now. Measurement construction, evidence strength, intervention-use claim, or validation is still governed by the governing pattern when that claim is being made.
 
 #### C.29:4.4.4 - First honest C.29 entry cases
 
@@ -579,16 +608,16 @@ For E.11-style first-entry recognition, distinguish the working entry case befor
 
 | First honest entry case | What the working reader met | First `C.29` answer |
 |---|---|---|
-| Pre-articulation cue | Something feels structurally wrong, but it is not yet a claim and no stable `ProblemStructureCue` can be named. | Do not impose a mathematical lens. Use `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state locus first; return to C.29 only when the problem structure is stable enough. |
-| No lens or under-lensed problem | A problem situation is stable enough for mathematical help, but no mathematical substrate has been named. | Use `MathLensUse.LensCandidateNote`: `ProblemStructureCue` -> `CandidateLensFamily` -> `AdmissibleNextMove`. |
+| Pre-articulation cue | Something feels structurally wrong, but it is not yet a claim and no stable `ProblemStructureCue` can be named. | Do not impose a mathematical lens. Use `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state pattern first; apply C.29 only when the problem structure is stable enough. |
+| No lens or under-lensed problem | A problem situation is stable enough for mathematical help, but no `CandidateMathObject` has been named. | Use `MathLensUse.LensCandidateNote`: `ProblemStructureCue` -> `CandidateLensFamily` -> `AdmissibleNextMove`. |
 | Under-specified lens | A phrase such as field-like, graph-like, or quantum-like appears, but no object, mapping, preservation, or loss is stated. | Write `MathLensUse.OneLine` or downgrade to ordinary prose. |
-| Useful lens with overread | The lens is useful, but the text turns it into ontology, evidence, causality, assurance, bridge, or release authority. | Use `MathLensUse.MiniCard` or `MathLensUse.FullCard` and name blocked use plus neighboring governing locus. |
+| Useful lens with overread | The lens is useful, but the text turns it into ontology, evidence, causality, assurance, bridge, or release authority. | Use `MathLensUse.MiniCard` or `MathLensUse.FullCard` and name blocked use plus neighboring governing pattern. |
 | Ordinary local math | A Markov kernel, ODE, graph data structure, or accepted domain theory appears inside its local domain use. | Return `NoMathLensUseNeededNote` and stay with the local pattern. |
-| Wrong first pattern | The reader reaches for `C.26`, `F.9`, `C.28`, `C.16`, or `A.3.3` before knowing whether mathematical-lens use is live, or reaches for `C.29` when a neighbor already governs. | Name the first governing locus and state what `C.29` contributes, if anything. |
+| Wrong first pattern | The reader reaches for `C.26`, `F.9`, `C.28`, `C.16`, or `A.3.3` before knowing whether mathematical-lens use is being made, or reaches for `C.29` when a neighbor already governs. | Name the first governing pattern and state what `C.29` contributes, if anything. |
 
 #### C.29:4.4.5 - False-positive bank and entry stops
 
-Do not open `C.29` for these non-use cases unless a separate lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation claim becomes live:
+Do not use a C.29 output for these non-use cases unless a separate lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation claim is being made:
 
 - ordinary ODE inside accepted physics or local engineering model;
 - Markov kernel inside accepted stochastic dynamics;
@@ -597,46 +626,46 @@ Do not open `C.29` for these non-use cases unless a separate lens-transfer, publ
 - category-theoretic proof internal to a domain where that formalism is the local theory;
 - one-off pedagogical metaphor not reused for decision, evidence, assurance, publication, bridge, comparison, or transfer.
 
-False-negative bank: open `C.29` even when no polished mathematical buzzword appears if the working problem has a structure that changes an admissible next move and ordinary prose is currently hiding it.
+False-negative bank: use `C.29` even when no polished mathematical buzzword appears if the working problem has a structure that changes an admissible next move and ordinary prose is currently hiding it.
 
-| False-negative situation | Why `C.29` is live | Cheap move |
+| False-negative situation | Why `C.29` applies | Cheap move |
 |---|---|---|
 | “Something is off, but we cannot yet say whether it is flow, priority, meaning, or evidence.” | The cue is not stable enough for `ProblemStructureCue`. | Stay in language-state work first; do not make C.29 create a mathematical lens from an unstable cue. |
 | “We have many tasks waiting, but cannot see where flow slows.” | Queue or flow structure can expose bottleneck and WIP boundary. | Use `MathLensUse.LensCandidateNote` for queue or flow; estimate arrivals, service, waiting, and bottleneck. |
-| “This comparison feels important, but distance is unclear.” | Metric-space distance, topology, embedding, or transport adequacy is live. | Name what comparison preserves and loses before using the comparison. |
-| “We transfer a structure between contexts because it looks the same.” | Mathematical-lens use and bridge loss are live. | Name preserved structure and lost structure and use `F.9` when cross-context meaning or substitution is live. |
-| “A latent space is used as a scientific explanation.” | Learned-lens overread is live. | Name observation map, validation slice, generalization boundary, and stop causal or ontology overread. |
-| “The method scales because the mathematics is elegant.” | Scale-law adequacy or BLP preference claim is live. | Name scale variable or scale window; use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale-preference or BLP preference, and `C.31.ASAP` for architecture scale preference. |
+| “This comparison feels important, but distance is unclear.” | Metric-space distance, topology, embedding, or transport adequacy is being claimed. | Name what comparison preserves and loses before using the comparison. |
+| “We transfer a structure between contexts because it looks the same.” | Mathematical-lens use and bridge loss are being claimed. | Name preserved structure and lost structure and use `F.9` when cross-context meaning or substitution is being claimed. |
+| “A latent space is used as a scientific explanation.” | Learned-lens overread is being made. | Name observation map, validation slice, generalization boundary, and stop causal or ontology overread. |
+| “The method scales because the mathematics is elegant.” | Scale-law adequacy or BLP preference claim is being made. | Name scale variable or scale window; use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale-preference or BLP preference, and `C.31.ASAP` for architecture scale preference. |
 
-Entry guidance states when `C.29` is the first governing locus and when another pattern is first:
+Entry guidance states when `C.29` is the first governing pattern and when another pattern is first:
 
-| Entry situation | First governing locus | Tempting wrong first locus |
+| Entry situation | First governing pattern | Tempting wrong first pattern |
 |---|---|---|
 | mathematical-lens use inside a phrase such as "market is a field" | `C.29` | `C.26`, `F.9`, or `A.3.3` before declared lens use is checked |
 | explanation-facing rendering that uses a mathematical lens | `E.17.EFP`; `C.29` only for the mathematical-lens use part when that lens affects explanation use | `C.29` as the first pattern for every explanation |
 | bounded comparative review unit with a mathematical comparison construction | `E.17.ID.CR`; `C.29` only for declared lens use or rival-lens relation | `C.29` as the comparison or adjudication record |
 | same-EntityOfConcern representation-scheme transition | `A.6.3.RT`; `C.29` only if the transition imports a contested or use-affecting mathematical lens | `C.29` for every table, diagram, geometry, or notation shift |
 | coarsened rendering useful only under narrower admissible use and source-bearing reopen | `A.6.3.CSC`; `C.29` only if the coarsening depends on mathematical abstraction or coarse-graining | `C.29` as source-bearing return or bridge relation |
-| within-context representation adequacy | `C.29` | `F.9` when no cross-context meaning claim is live |
+| within-context representation adequacy | `C.29` | `F.9` when no cross-context meaning claim is being made |
 | quantum-like dashboard or probe-order claim | `C.26` plus `C.29` compatibility | physical quantum ontology |
 | graph state space | `A.19` or `A.3.3` unless lens transfer is explicit | `C.29` for every graph word |
 | category bridge across contexts | `F.9` plus `C.29` lens-use relation | duplicate bridge semantics inside `C.29` |
-| prediction, rate, trajectory, recovery, convergence, or rhythm claim | `C.27` when temporal adequacy is live; `C.29` only for declared lens use | treating a mathematical prediction cue as enough for temporal-use adequacy |
-| decorative scale language | no `C.18.1` or `C.19.1` unless scale behavior is live | scale-law review for every scale word |
+| prediction, rate, trajectory, recovery, convergence, or rhythm claim | `C.27` when temporal adequacy is being claimed; `C.29` only for declared lens use | treating a mathematical prediction cue as enough for temporal-use adequacy |
+| decorative scale language | no `C.18.1` or `C.19.1` unless scale behavior is being claimed | scale-law review for every scale word |
 
-Admissible entry stops are: no C.29 output needed, `MathLensUse.OneLine` opened, or neighboring governing pattern selected.
+Admissible entry stops are: no C.29 output needed, `MathLensUse.OneLine` used, or a neighboring governing pattern applied.
 
-#### C.29:4.4.6 - Governing-locus boundary table
+#### C.29:4.4.6 - Governing-pattern boundary table
 
-A receiving `C.29` application uses this governing-locus discipline so mathematical-lens use stays in the C.29 discipline rather than becoming a second authority over neighboring claims.
+A `C.29` application uses this governing-pattern discipline so mathematical-lens use stays in the C.29 discipline rather than becoming a second authority over neighboring claims.
 
-Positive positive claim kind:
+Positive claim kind:
 
-> A C.29 application gives a pattern-local adequacy discipline for claims that use a mathematical object, formalism, learned representation, simulation substrate, or mathematical family as a mathematical lens for a stated use. The application asks for candidate mathematical object, lens mapping mode, preserved and lost structure, visible invariant or distinction, `LensUseAdmissibilityValue` or validation regime, admissible use, non-admissible use, and stop condition.
+> A C.29 application gives a pattern-local adequacy discipline for claims that use a mathematical object, formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use. The application asks for candidate mathematical object, lens mapping mode, preserved and lost structure, visible invariant or distinction, `LensUseAdmissibilityValue` or validation regime, admissible use, non-admissible use, and stop condition.
 
-Boundary transfer rule: when the live claim is a choice result, work plan, evidence path, assurance tuple, explanation rendering, comparative review unit, representation shift, temporal claim, bridge, causal-use claim, measurement claim, scale-law claim, selector, or benchmark, the `NeighborGoverningLocusNote` names the exact receiving FPF locus and exact project-side record. A C.29 application can contribute a lens-admissible prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that the receiving record can cite; it does not create that neighboring record.
+Boundary application rule: when the claim being made is a choice result, work plan, evidence path, assurance tuple, explanation rendering, comparative review unit, representation shift, temporal claim, bridge, causal-use claim, measurement claim, scale-law claim, selector, or benchmark, the `NeighborGoverningPatternNote` names the governing FPF pattern and project-side record. A C.29 application can contribute a lens-admissible prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that the governing record can cite; it does not create that neighboring record.
 
-| Live object or claim | Governing FPF locus | C.29 contribution |
+| Object or claim being made | Governing FPF pattern | C.29 contribution |
 |---|---|---|
 | mathematical-lens use | `C.29` | Names the C.29 discipline: candidate mathematical object, lens mapping mode, preserved structure and lost structure, invariant or distinction, `LensUseAdmissibilityValue`, admissible use, non-admissible use, and stop condition. |
 | durable reusable names beyond pattern-local fields | `F.18` | Cite when `MathLensUse` names become durable beyond C.29-local use. |
@@ -645,10 +674,10 @@ Boundary transfer rule: when the live claim is a choice result, work plan, evide
 | object, description, and carrier distinction | `A.7` | Do not identify the phenomenon directly with the mathematical object. |
 | dynamics state space and transition law | `A.3.3` | Assess imported or contested lens use; do not govern dynamics semantics. |
 | `CharacteristicSpace`, slots, topology, order, and metric-space distance overlays | `A.19` | Apply only when an overlay becomes a domain-transferring or publication-bearing lens. |
-| `ChoiceResult`, local choice record, selected-set publication, option-selection claim, or selector or benchmark result | `C.11`; `G.5` or `G.9` when selected-set or benchmark publication is live | Can contribute a lens-admissible prediction, distinction, obstruction, diagnostic boundary, or rival-lens note for the decision or selector record. |
+| `ChoiceResult`, local choice record, selected-set publication, option-selection claim, or selector or benchmark result | `C.11`; `G.5` or `G.9` when selected-set or benchmark publication use is being made | Can contribute a lens-admissible prediction, distinction, obstruction, diagnostic boundary, or rival-lens note for the decision or selector record. |
 | selected method, method-family selection, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant source restoration | `A.15`, `A.15.1`, `A.15.4` | Can contribute method-relevant lens use; method, plan, performed-work, and source-restoration records stay with the A.15 family. |
 | evidence path, source currentness, provenance, evidence carrier, or model card or datasheet used as evidence | `A.10` | States `LensUseAdmissibilityValue` only; evidence paths and provenance remain A.10 matters. |
-| assurance, readiness, reliability, release confidence, safety, trust, or engineering justification | `B.3` plus relevant G patterns when live | Treats declared lens use as possible input only; mathematical elegance does not raise assurance. |
+| assurance, readiness, reliability, release confidence, safety, trust, or engineering justification | `B.3` plus relevant G patterns when the corresponding claim is being made | Treats declared lens use as possible input only; mathematical elegance does not raise assurance. |
 | measurement construction, scale, unit, or comparability, or evidence-stub adequacy | `C.16` | States measurement-dependent `LensUseAdmissibilityValue` only; measurement construction, scale, unit, or polarity, direct comparability, and evidence-stub adequacy stay with `C.16`. |
 | explanation-facing rendering or generated explanation use | `E.17.EFP` | States mathematical-lens use for the mathematical explanation used inside the rendering; explanation-use discipline stays with `E.17.EFP`. |
 | bounded comparative review unit | `E.17.ID.CR` | States declared lens use for a mathematical comparison construction or rival lens when that construction affects the comparative review use. |
@@ -656,8 +685,8 @@ Boundary transfer rule: when the live claim is a choice result, work plan, evide
 | coarsened rendering with narrower admissible use and source-bearing reopen | `A.6.3.CSC` | Applies only if the coarsening depends on mathematical abstraction, quotienting, or coarse-graining. |
 | cross-context meaning, bridge kind, direction, CL, loss, and substitution | `F.9` | Reference Bridge; do not duplicate Bridge Card semantics. |
 | causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or support record. |
-| forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, temporal window, or rate-change used as sufficient for a use | `C.27` | Can state that a mathematical lens carries a prediction or distinction; temporal-claim adequacy stays with `C.27`. |
-| scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1`, `C.31.ASAP` | Cite scale-window, scale-law, BLP, or architecture scale-preference evidence when scale behavior, general method scale preference, or architecture scale preference is live. |
+| forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, temporal window, or rate-change used as sufficient for a use | `C.27` | Can state a prediction-relevant or distinction-relevant mathematical-lens use; temporal-claim adequacy stays with `C.27`. |
+| scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1`, `C.31.ASAP` | Cite scale-window, scale-law, BLP, or architecture scale-preference evidence when scale behavior, general method scale preference, or architecture scale preference is being claimed. |
 | quantum-like modeling | `C.26` | Treat `C.26` as C.29-compatible specialization, not as full-card inheritance for every QL-lite note. |
 | selectors, benchmarks, parity, SoTA packs, and model-selection publications | `G.5`, `G.9`, `G.2`, `G.10` | Selector or benchmark records govern publication and evaluation; a `MathLensUse.*` card can contribute declared lens use for a selector or benchmark input only. |
 
@@ -671,9 +700,9 @@ Read `MathLensUse.Card@Context` through three aspects:
 
 | Aspect | Fields or refs | Boundary |
 |---|---|---|
-| Mathematical substrate | `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `InvariantsExposed` | Names the representation; does not identify the phenomenon with the mathematical object. |
+| Mathematical object in lens-use position | `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `InvariantsExposed` | Names the representation used by C.29; does not identify the phenomenon with the mathematical object and does not replace an `A.6.0` FormalSubstrate signature. |
 | Use-admissibility and validation | `LensUseAdmissibilityValue`, `ValidationUseOverlayRef?`, `LearnedLensOverlayRef?`, failure case, uncertainty or approximation note | States the use-admissibility value for this lens use; does not create an evidence path, benchmark result, assurance, or release confidence. |
-| FPF use and boundaries | `admissibleUse`, `nonAdmissibleUse`, `StopCondition`, `BridgeRefSet?`, `CausalUseDisposition?`, `AssuranceUseDisposition?`, `ExportPolicyRef?` | States what the reader may do and where neighboring FPF loci carry live claims. |
+| FPF use and boundaries | `admissibleUse`, `nonAdmissibleUse`, `StopCondition`, `BridgeRefSet?`, `CausalUseDisposition?`, `AssuranceUseDisposition?`, `ExportPolicyRef?` | States what the reader may do and which governing FPF patterns govern claims being made. |
 
 Validity boundary: mathematical validity of the object under its assumptions is not the same as representational adequacy to the phenomenon; representational adequacy is not empirical validation for a use; empirical validation is not a causal-use verdict; a causal-use verdict is not assurance, release confidence, decision sufficiency, or benchmark superiority.
 
@@ -696,7 +725,7 @@ MathLensUse.Card@Context := {
 }
 ```
 
-Conditional fields apply only when the corresponding neighboring claim, claim-bearing use, or publication use is live:
+Conditional fields apply only when the corresponding neighboring claim, claim-bearing use, or publication use is being made:
 
 ```text
 MathLensUse.FullCard conditional fields := {
@@ -723,7 +752,7 @@ MathLensUse.FullCard conditional fields := {
 
 #### C.29:4.5a - Conditional overlays
 
-The base card stays light. These overlays are used only when their use is live. Ordinary C.29 use does not fill this block; it escalates here only when the claim is already publication-facing, assurance-input, benchmark, bridge, model-selection, prediction, scientific or model, learned-lens, or causal-use facing.
+The base card stays light. These overlays are used only when their corresponding use is being made. Ordinary C.29 use does not fill this block; it escalates here only when the claim is already publication-facing, assurance-input, benchmark, bridge, model-selection, prediction, scientific or model, learned-lens, or causal-use facing.
 
 ```text
 MathLensUse.ValidationUseOverlay@Context :=
@@ -786,9 +815,9 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | no `CandidateMathObject` | If the problem still needs a mathematical lens for the next move, first name the `ProblemStructureCue` and write a `MathLensUse.LensCandidateNote` with the cheapest candidate lens family and admissible next move; downgrade to ordinary prose or remove the mathematical claim only when no candidate lens changes action. |
 | no `LensMappingMode` | Choose a lens mapping mode or downgrade to analogy-only prompt. |
 | no `PreservedStructure` | Remove the claim-bearing mathematical phrase. |
-| no `LostStructure` | Add a loss note, downgrade, or justify an equivalence or isomorphism claim through the exact governing pattern. |
+| no `LostStructure` | Add a loss note, downgrade, or justify an equivalence or isomorphism claim through the governing pattern. |
 | no invariant, obstruction, distinction, or payoff | Keep the phrase as didactic recognition cue or orientation-only. |
-| no `LensAdmissiblePredictionOrDistinction` where decision, prediction, or model selection is live | Block decision or assurance use; downgrade to analogy-only if no admissible consequence is named. |
+| no `LensAdmissiblePredictionOrDistinction` where decision, prediction, or model selection is being claimed | Block decision or assurance use; downgrade to analogy-only if no admissible consequence is named. |
 | evidence is analogy-only | Block decision, publication-as-established-model, assurance, release, and causal use unless evidence path, validation regime, causal-use relation, or assurance result is supplied by its governing pattern. |
 | no `LensUseAdmissibilityValue` | Block decision, publication, assurance, benchmark, and release use. |
 | causal, intervention, policy, or counterfactual overread | Apply `C.28` or block causal use. |
@@ -802,38 +831,38 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | Field | Meaning selected for `C.29` | Boundary guard |
 |---|---|---|
 | `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | Not a `U.Kind`, not a EntityOfConcern slot, and not a publication-lane item. |
-| `entityOfConcernRef?` | Exact EntityOfConcern reference used when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
+| `entityOfConcernRef?` | EntityOfConcern reference named by value when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
 | `BoundedContext` | Context in which the lens is claimed to work. | Cross-context use cites `F.9`. |
 | `CandidateMathObject` | Concrete mathematical object, structure, formal role, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
-| `LensMappingMode` | `C.29`-local lens mapping mode. | Does not replace `F.9` BridgeKind, `A.6.P` `RelationKind`, `C.3` kind, or domain relation kinds; cross-context transfer uses `F.9` when bridge semantics are live. |
-| `PreservedStructure` | Structure the lens carries into the declared use. | No preserved structure means the mathematical phrase cannot carry the stated use. |
-| `LostStructure` | Structure the lens drops, abstracts away, or cannot carry. | Empty loss requires explicit equivalence or isomorphism justification through the exact governing pattern. |
+| `LensMappingMode` | `C.29`-local lens mapping mode. | Stays separate from `F.9` BridgeKind, `A.6.P` `RelationKind`, `C.3` kind, and domain relation kinds; cross-context transfer uses `F.9` when bridge semantics are being claimed. |
+| `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
+| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the governing pattern. |
 | `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
-| `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | Not a measurement construction, evidence record, causal-use result, or validation verdict. Open `C.16`, `A.10`, `C.28`, or `A.3.3` when those claim types are live. |
-| `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the lens can carry the stated admissible move. | If this missing item carries a measurement, evidence, causal, dynamics, or validation claim, the neighboring pattern governs that neighboring work. |
-| `LensAdmissiblePredictionOrDistinction?` | Required when prediction, decision, method selection, model selection, or publication-as-model is live. | Not required for orientation-only use. |
-| `DynamicsRef?`, `TransitionLawRef?` | References to `A.3.3`-owned dynamics when dynamics semantics are live. | `C.29` does not own dynamics. |
-| `ObservationMapRef?` | Probe, readout, or observation map when observation makes the lens admissible for the declared use. | Required for learned or measurement-dependent lenses when live. |
-| `ScaleWindow?`, `CoarseGrainingRule?` | Scale range and coarse-graining or compression rule when scale behavior, macro description or effective description, universality, coarse behavior, latent compression, or renormalized description is live. | `C.18.1` and `C.19.1` carry scale-law and BLP evidence; the C.29 output states only how the lens remains adequate inside the declared window. |
+| `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | Not a measurement construction, evidence record, causal-use result, or validation verdict. Apply `C.16`, `A.10`, `C.28`, or `A.3.3` when those claim types are being made. |
+| `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated admissible move is justified. | If this missing item makes a measurement, evidence, causal, dynamics, or validation claim being made, that claim is governed by the neighboring pattern governing that claim. |
+| `LensAdmissiblePredictionOrDistinction?` | Required when prediction, decision, method selection, model selection, or publication-as-model is being claimed. | Not required for orientation-only use. |
+| `DynamicsRef?`, `TransitionLawRef?` | References to `A.3.3`-owned dynamics when dynamics semantics are being claimed. | `C.29` does not own dynamics. |
+| `ObservationMapRef?` | Probe, readout, or observation map when observation makes the lens admissible for the declared use. | Required when learned or measurement-dependent lens use is being made. |
+| `ScaleWindow?`, `CoarseGrainingRule?` | Scale range and coarse-graining or compression rule when scale behavior, macro description or effective description, universality, coarse behavior, latent compression, or renormalized description is being claimed. | `C.18.1` and `C.19.1` govern scale-law and BLP evidence; the C.29 output states only how the lens remains adequate inside the declared window. |
 | `SourceReturnCondition?` | Condition under which the reader must return from the compressed or coarse description to the source-side variables, observations, cases, or mechanisms. | Required only when abstraction, coarse-graining, compression, latent representation, or macro-modeling drops source-side distinctions that could matter to the stated use. |
-| `PublicationUseClassification?` | Optional note for publication-facing use: `orientationOnly`, `explanationFacing`, `comparisonInput`, `decisionInputCandidate`, `benchmarkInput`, `assuranceInputCandidate`, or `reusableModelPublication`. | Does not publish, release, benchmark, assure, or decide anything by itself; the neighboring publication, benchmark, evidence, decision, and assurance loci still govern those claims. |
-| `OutputChangeCondition?` | Condition under which the current C.29 output must be narrowed, demoted, replaced, retired from claim-bearing use, or handed to a neighboring FPF locus. | Not a process log or standing state-family record; it states a result boundary for the current lens use. |
-| OrdinaryRivalOrFallback | Ordinary prose, accepted local theory, direct measurement, or simpler neighboring-pattern exit the reader would use without this lens. | Required for cheap outputs; prevents prestige bias before broad rival review. |
+| `PublicationUseClassification?` | Optional note for publication-facing use: `orientationOnly`, `explanationFacing`, `comparisonInput`, `decisionInputCandidate`, `benchmarkInput`, `assuranceInputCandidate`, or `reusableModelPublication`. | Does not publish, release, benchmark, assure, or decide anything by itself; the governing publication, benchmark, evidence, decision, and assurance patterns still govern those claims. |
+| `OutputChangeCondition?` | Condition under which this C.29 output must be narrowed, demoted, replaced, retired from claim-bearing use, or handed to a neighboring FPF pattern. | Not a process log or standing state-family record; it states a result boundary for the lens use being made. |
+| OrdinaryRivalOrFallback | Ordinary prose, accepted local theory, direct measurement, or simpler neighboring-pattern application the reader would use without this lens. | Required for cheap outputs; prevents prestige bias before broad rival review. |
 | `PrincipalRivalLens?` | Default ordinary or most relevant rival lens. | Preferred over a broad literature survey. |
-| `RivalLensSet?` | Broader comparison set only when publication, selection, or claim-bearing comparison is live. | Not a `G.5` selector, benchmark harness, or parity result. |
-| `RivalLensRelation?` | Declared relation between the current lens and the principal rival or live rival set. Allowed local relation values include `ordinaryFallback`, `complementary`, `sameUseLowerCost`, `morePreservedStructureHigherCost`, `lowerErrorOnDeclaredEvaluationCriterion`, `clearerExplanationForDeclaredReader`, `bridgeNeedsF9`, `causalUseNeedsC28`, `differentScaleWindow`, `differentLossProfile`, `incomparableForCurrentUse`, `blockedByStopCondition`, and `unresolved`. Examples: a queueing lens and a causal lens can be complementary for different moves; a latent manifold and a causal graph can conflict when latent axes are read causally; an RG-like lens and a micro-dynamics lens can have different scale windows. | Names disagreement only; a C.29 output is not a winning-lens choice, literature review, selector result, benchmark result, or parity result. Any superiority claim names the evaluation criterion, reader, cost, scale window, or governing pattern that makes the comparison admissible. |
+| `RivalLensSet?` | Broader comparison set only when publication, selection, or claim-bearing comparison is being made. | Not a `G.5` selector, benchmark harness, or parity result. |
+| `RivalLensRelation?` | Declared relation between the lens in this use and the principal rival or rival set being compared. Allowed local relation values include `ordinaryFallback`, `complementary`, `sameUseLowerCost`, `morePreservedStructureHigherCost`, `lowerErrorOnDeclaredEvaluationCriterion`, `clearerExplanationForDeclaredReader`, `bridgeNeedsF9`, `causalUseNeedsC28`, `differentScaleWindow`, `differentLossProfile`, `incomparableForCurrentUse`, `blockedByStopCondition`, and `unresolved`. Examples: a queueing lens and a causal lens can be complementary for different moves; a latent manifold and a causal graph can conflict when latent axes are read causally; an RG-like lens and a micro-dynamics lens can have different scale windows. | Names disagreement only; a C.29 output is not a winning-lens choice, literature review, selector result, benchmark result, or parity result. Any superiority claim names the evaluation criterion, reader, cost, scale window, or governing pattern that makes the comparison admissible. |
 | `LensUseAdmissibilityValue` | Local finite lens-use admissibility field. | Not evidence, an EvidenceGraph, a PathId, or an assurance score. |
-| `BridgeRefSet?` | Reference to `F.9` Bridge material when context crossing is live. | Bridge semantics stay with `F.9`. |
+| `BridgeRefSet?` | Reference to `F.9` Bridge material when context crossing is being claimed. | Bridge semantics stay with `F.9`. |
 | `CausalUseDisposition?` | One of `noCausalUseClaim`, `causalUseBlocked`, `C28ApplicationRef`, or `C28SupportRecordRef`. | No causal-reference shortcut; no causal verdict from `C.29`. |
 | `AssuranceUseDisposition?` | One of `noAssuranceUseClaim`, `assuranceUseBlocked`, `evidenceInputOnly`, `A10Ref`, or `B3ApplicationRef`. | No assurance verdict from mathematical elegance. |
-| `admissibleUse` | Admissible current use of the lens. | Matches evidence and validation regime. |
-| `nonAdmissibleUse` | Tempting neighboring use that is blocked or handed to another governing locus. | Names the neighboring pattern when live. |
+| `admissibleUse` | Admissible use of the lens in this C.29 application. | Matches evidence and validation regime. |
+| `nonAdmissibleUse` | Tempting neighboring use that is blocked or governed by another governing pattern. | Names the neighboring pattern when that neighboring claim is being made. |
 | `StopCondition` | Most tempting nearby claim the lens does not license. | Main anti-overread output; not boilerplate. |
-| `ExportPolicyRef?` | Governed reuse or export policy when publication or downstream reuse is live. | Not required for local orientation or mini-card use. |
+| `ExportPolicyRef?` | Governed reuse or export policy when publication or downstream reuse is being claimed. | Not required for local orientation or mini-card use. |
 
 ### C.29:5 - Neighboring-pattern boundaries
 
-Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern relation note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first admissible move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-locus table instead of copying generic boundary prose into the neighboring pattern:
+Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first admissible move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-pattern table instead of copying generic boundary prose into the neighboring pattern:
 
 - `A.6.P` handles relation precision restoration.
 - `A.3.3` handles dynamics semantics.
@@ -847,7 +876,7 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 - `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.
 - `C.27` handles temporal-claim adequacy.
 
-Use the C.29 discipline when the live question is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
+Use the C.29 discipline when the question under repair is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
 
 ### C.29:6 - Naming, ontology, and epistemic precision-restoration account
 
@@ -885,13 +914,13 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 
 | Earlier wording risk | Recovered wording in `C.29` |
 |---|---|
-| `source` or `target` | Use `source-basis document`, `Basis used`, `entityOfConcernRef`, `governing FPF pattern`, `BridgeRefSet`, or exact pattern reference as appropriate. |
-| raw source intake as evidence | Recovered as source-basis text, not authority. Selected content is integrated through `C.29:13a`, `C.29:13`, and the field rows and checklist rows that carry its live claim. |
+| `source` or `target` | Use `source-basis document`, `Basis used`, `entityOfConcernRef`, `governing FPF pattern`, `BridgeRefSet`, or pattern reference named by value as appropriate. |
+| raw source intake as evidence | Recovered as source-basis text, not authority. Selected content is integrated through `C.29:13a`, `C.29:13`, and the field rows and checklist rows for its claim being made. |
 | `structure-preserving identification` | Rewritten to `structure-preserving representation or mapping` unless direct equivalence is explicitly the `LensMappingMode`. |
 | Source compound fields that merge dynamics reference and transition-law reference | Rewritten as separate `DynamicsRef?` and `TransitionLawRef?` fields. |
-| Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `C28SupportRecordRef` only when that exact neighboring-pattern application or support record is live. |
+| Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `C28SupportRecordRef` only when that neighboring-pattern application or support record is being used. |
 | `ExportPolicy` | Split into `admissibleUse`, `nonAdmissibleUse`, and optional `ExportPolicyRef?`. |
-| free strength qualifier | Replace with exact adequacy fields, evidence path, scale construction, comparability construction, use-admissibility value, and stop-condition wording. |
+| free strength qualifier | Replace with named adequacy fields, evidence path, scale construction, comparability construction, use-admissibility value, and stop-condition wording. |
 | `model`, `lens`, `math` as prestige heads | Recovered as `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, and `LensUseAdmissibilityValue`. |
 | Causal or assurance implications | Recovered as `CausalUseDisposition?` and `AssuranceUseDisposition?`, with `C.28`, `A.10`, `B.3`, and G-patterns as neighboring governors. |
 
@@ -899,21 +928,21 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 
 #### C.29:7.1 - Why this improves FPF
 
-The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next move follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation substrate, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, use-admissibility value, and stop condition.
+The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next move follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation object, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, use-admissibility value, and stop condition.
 
 First-principles mathematical structures can come from several families without turning any one family into an FPF-wide foundation: signatures, logics, axioms, type or abstraction distinctions, symmetries, invariants, compositional structure, local-global relations, scale relations, boundary conditions, variational principles, action, energy, free-energy, loss, or value functionals, constrained optimization structure, probability, information, typicality, algorithmic construction, resource bounds, implementation constraints, consistency boundaries, causal or intervention-preservation questions, operator or function-space mappings, and admissible observation maps. Each use still needs declared mapping, preserved structure, lost structure, validation regime or use-admissibility value, and stop condition.
 
 This fits FPF because FPF already commits to state explicitness, bounded contexts, evidence and assurance, cross-context bridges, open-ended evolution, SoTA alignment, notational independence, and avoidance of ornamental formalism.
 
-`C.29` makes an existing discipline explicit: when FPF uses a mathematical substrate as a mathematical lens for a stated use, the `C.29` application declares what the substrate preserves, what it loses, what it makes visible, which rival lenses remain live, and where its admissible use stops.
+`C.29` makes an existing discipline explicit: when FPF uses a `CandidateMathObject`, local formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use, the `C.29` application declares what that use preserves, what it loses, what it makes visible, which rival lenses still change the next admissible move, and where its admissible use stops.
 
-The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist carry the exact FPF commitments.
+The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist record the FPF commitments named by value.
 
 #### C.29:7.2 - Alternatives rejected
 
 | Alternative | Why rejected |
 |---|---|
-| Keep only local math-lens hooks | Leaves no general conformance carrier; `C.26`-style guardrails do not transfer to non-QL lenses. |
+| Keep only local math-lens hooks | Leaves no general conformance pattern; `C.26`-style guardrails do not transfer to non-QL lenses. |
 | Add only a paragraph to `A.6.P` | Overloads relational precision restoration with general modeling adequacy. |
 | Add only a paragraph to `F.9` | Bridge discipline is about cross-context semantics; C.29 also governs within-context mathematical representation. |
 | Treat Vanchurin as a new FPF foundation | Too speculative and ontology-bearing; selected source-use disposition is candidate-lens stress test only. |
@@ -933,7 +962,7 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 | `P‑6 Lexical Stratification` | Positive: separates Plain "lens" from technical `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `StopCondition`, and evidence fields. |
 | `P‑7 Pragmatic Utility` | Positive if every mathematical-lens use result changes an admissible prediction, distinction, obstruction, model choice, diagnostic boundary, or stop condition. |
 | `P‑8 Cross‑Scale Consistency` | Positive: scale windows, coarse-graining, local-global relations, composition, dynamics, symmetry, and boundary conditions become declared rather than assumed. |
-| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, use-admissibility value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when live. |
+| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, use-admissibility value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when those claims are being made. |
 | `P‑10 Open‑Ended Evolution` | Positive: new lens families and first-principles modeling structures can be added without destabilizing Core. |
 | `P‑11 SoTA Alignment` | Positive: admits current mathematical modeling, applied category theory, scientific machine learning, causal abstraction, learning-dynamics research, and plural foundations without over-adopting them. |
 
@@ -942,16 +971,17 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 | Pillar | C.29 effect |
 |---|---|
 | `Gov` | New mathematical-lens use norms require `E.9` design-rationale discipline and SoTA discipline when they alter FPF norms. |
-| `Arch` | Wrong carrier placement is blocked; `C.29` coordinates but does not replace neighboring patterns. |
+| `Arch` | Wrong governing-pattern assignment is blocked; `C.29` coordinates but does not replace neighboring patterns. |
 | ontology and episteme distinction | Representation, mapping, preservation, loss, and `LensUseAdmissibilityValue` are explicit. |
 | `Prag` | A useful lens produces a useful prediction, distinction, obstruction, or stop condition; otherwise it remains didactic prose. |
-| `Did` | The card gives a small first-use check while experts can inspect exact field meanings. |
+| `Did` | The card gives a small first-use check while experts can inspect field meanings named by value.
+ |
 
 ### C.29:8 - Consequences and validation harness
 
 | Benefit | Cost or handling |
 |---|---|
-| FPF gains a general discipline for mathematical lens use while mathematical lenses stay tied to declared structure, declared loss, and admissible use. | Adds one new pattern; neighboring-pattern exits carry evidence, causal, bridge, assurance, work, decision, publication, and admission uses. |
+| FPF gains a general discipline for mathematical lens use while mathematical lenses stay tied to declared structure, declared loss, and admissible use. | Adds one new pattern; neighboring-pattern applications govern evidence, causal, bridge, assurance, work, decision, publication, and admission uses. |
 | Existing specialized lenses such as `C.26` become easier to explain as special cases. | `C.26` needs only relation wording, not a rewrite of its core. |
 | Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
 | Vanchurin-like speculative work can enter as candidate-lens stress tests. | Requires strict Adapt-not-Adopt marking. |
@@ -962,35 +992,45 @@ The compact Plain line remains useful because it points to a real heuristic: goo
 
 For Stable admission or material refresh of `C.29`, run a small C.29 validation harness. The harness is not a benchmark mandate and not a tool requirement. It is a repeatable admission check that the pattern yields correct first outputs, avoids false positives, preserves neighboring-pattern writing boundaries, and keeps the first useful move visible.
 
-This subsection governs steward-side validation, not the ordinary C.29 user path. A working user applies the action path and chooses the cheapest honest output; they do not run the harness merely to decide between ordinary prose, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or a neighboring governing locus.
+This subsection governs steward-side validation, not the ordinary C.29 user path. A working user applies the action path and chooses the cheapest honest output; they do not run the harness merely to decide between ordinary prose, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `NeighborGoverningPatternNote`.
 
 C.29 output-change conditions:
 
 | New condition | Required result |
 |---|---|
 | validation slice fails, degrades, or no longer matches the stated regime | Change `LensUseAdmissibilityValue` to the admissible value, update the failure case, narrow the admissible use, or block prediction-facing use. |
-| a principal rival lens changes the next admissible move | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the current lens for that use. |
-| the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or neighboring FPF locus. |
+| a principal rival lens changes the next admissible move | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the lens for that use. |
+| the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or governing FPF pattern. |
 | source-use role becomes outdated, contradicted, or demoted to background only | Change the `SourceUseRole`, update the use-admissibility value, or retire the lens from claim-bearing use. |
-| bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim becomes live | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
+| bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim is being made | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
 | abstraction, compression, coarse-graining, or latent representation drops a distinction now needed for the declared use | Add `SourceReturnCondition?`, narrow the use, or block the compressed-lens claim. |
+
+Smallest source-return and output-change conditions:
+
+| Condition | Required result |
+|---|---|
+| a source-basis document or source-basis family changes the lens family, validation boundary, limitation, or stated use used by this C.29 output | Update `SourceUseRole`, `LensUseAdmissibilityValue`, and `OutputChangeCondition?`; narrow, replace, or retire claim-bearing use when the new basis no longer fits the declared use. |
+| a later source supersedes or contradicts the source-use decision that made the lens admissible | Mark the source-use decision as superseded or contradicted for that use, then select a new source-use role, lower the output class, or block claim-bearing use. |
+| a neighboring governing pattern changes the use-rights for measurement, evidence, causal use, assurance, Bridge semantics, scale law, selector, benchmark, decision, or work | Keep C.29 only for the declared lens-use part and apply the changed governing pattern to the neighboring claim before the C.29 output is reused. |
+| the same lens family starts carrying validation, causal-use, evidence, assurance, selector, benchmark, release, or work claim | Add the governing-pattern application, or narrow the C.29 result to lens-admissible prediction, distinction, obstruction, diagnostic boundary, or stop condition only. |
+| preserved structure or lost structure can no longer be replayed from the source-side variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
 
 AI-assisted thin-echo result rule:
 
 | Thin echo or query shape | Required result |
 |---|---|
-| `field-like`, `quantum-like`, `category-like`, `manifold`, `entropy`, `RG`, `graph`, `embedding`, or another mathematical prestige head appears alone | Do not answer from the family label. First name the live use or state that no C.29 use is live. |
-| live claim is causal, measurement, bridge, evidence, temporal, work, assurance, selector, or benchmark-facing | Name the neighboring FPF locus before any C.29 output. |
-| C.29 remains live after neighboring-locus check | Return at least `CandidateMathObject`, `PreservedStructure`, `LostStructure`, `AdmissibleNextMove`, and `StopCondition`, or downgrade to `LensCandidateNote` or `NoMathLensUseNeededNote`. |
+| `field-like`, `quantum-like`, `category-like`, `manifold`, `entropy`, `RG`, `graph`, `embedding`, or another mathematical prestige head appears alone | Do not answer from the family label. First name the use under repair or state that no C.29 use is being made. |
+| claim being made is causal, measurement, bridge, evidence, temporal, work, assurance, selector, or benchmark-facing | Name the governing FPF pattern before any C.29 output. |
+| C.29 still applies after the governing-pattern check | Return at least `CandidateMathObject`, `PreservedStructure`, `LostStructure`, `AdmissibleNextMove`, and `StopCondition`, or downgrade to `LensCandidateNote` or `NoMathLensUseNeededNote`. |
 
 C.29 edge-case boundary results:
 
 | Edge case | Required result |
 |---|---|
 | mechanized proof of a model property | State assumptions and proven property; empirical evidence or assurance use stays with `A.10`, `B.3`, or relevant G patterns. |
-| simulation-calibrated lens | Scenario exploration is allowed; prediction, decision, or counterfactual reliance needs validation and the exact neighboring-pattern result. |
-| latent-space visualization | Use learned-lens overlay and stop latent ontology, causal mechanism, or unobserved-variable recovery unless separately carried by the exact neighboring pattern. |
-| exact isomorphism or equivalence claim | Justify the exact relation or downgrade `LensMappingMode`. |
+| simulation-calibrated lens | Scenario exploration is allowed; prediction, decision, or counterfactual reliance needs validation and the neighboring-pattern result named by value. |
+| latent-space visualization | Use learned-lens overlay and stop latent ontology, causal mechanism, or unobserved-variable recovery unless separately governed by the neighboring pattern governing that claim. |
+| isomorphism or equivalence claim named by value | Justify the relation named by value or downgrade `LensMappingMode`. |
 | multi-lens composition | Name the principal lens and neighboring notes; avoid one giant full card that mixes queue, graph, causal, temporal, and assurance authority. |
 | lens becomes accepted domain theory | Keep local domain theory with the domain pattern; durable FPF naming or kind change needs `F.18`, `C.3`, `F.8`, and `E.9`. |
 | mathematical notation shift only | Use `A.6.3.RT` unless mathematical-lens use changes the declared use. |
@@ -1003,9 +1043,9 @@ Harness shape:
 | `CaseId` | Stable case id. |
 | `InputPhrase` | The phrase or claim a cold user might write. |
 | `ExpectedFirstPattern` | `C.29`, a neighboring pattern, or no C.29 output needed. |
-| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningLocusNote`. |
+| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
 | `RequiredFields` | Minimal fields or overlays required. |
-| `NeighborPatternRefs` | Exact neighboring governing loci when live. |
+| `NeighborPatternRefs` | Neighboring governing patterns named by value when their claims are being made. |
 | `ExpectedRepair` | Downgrade, narrow, add loss, add validation, choose rival lens, or apply neighbor. |
 | `ExpectedStopCondition` | Most tempting nearby overread blocked. |
 | `ExpectedNonUseDecision` | Present only for false-positive cases. |
@@ -1014,8 +1054,8 @@ Minimum harness cases:
 
 | Case | Expected result |
 |---|---|
-| “organization is quantum” | `C.26` plus `C.29` compatibility only if order or probe effects are live; otherwise downgrade to metaphor; physical quantum ontology blocked. |
-| Markov kernel in accepted local reliability model | `A.3.3`; no full `MathLensUse.FullCard` unless lens-transfer, publication, assurance, bridge, or reusable explanation is live. |
+| “organization is quantum” | `C.26` plus `C.29` compatibility only if order or probe effects are being claimed; otherwise downgrade to metaphor; physical quantum ontology blocked. |
+| Markov kernel in accepted local reliability model | `A.3.3`; no full `MathLensUse.FullCard` unless lens-transfer, publication, assurance, bridge, or reusable explanation is being claimed. |
 | category-like research field | `C.29` mini-card and possibly `F.9`; semantic truth and evidence strength explicitly lost. |
 | RG-like scale law | `C.29` plus `C.18.1`; scale window and coarse-graining rule required. |
 | Vanchurin-style universe-as-learning | candidate lens only; not accepted physics; stop condition blocks ontology. |
@@ -1028,9 +1068,9 @@ Reader-fit checks for admission or material refresh:
 
 | Reader | Required result |
 |---|---|
-| engineer-manager | Can decide local metaphor, one-line, or mini-card without opening the full card by default. |
+| engineer-manager | Can decide local metaphor, one-line, or mini-card without using the full card by default. |
 | researcher | Can state preserved structure, lost structure, and stop condition without turning the pattern into a philosophy-of-mathematics essay. |
-| FPF steward | Can identify the neighboring governing locus for causal, evidence, bridge, scale, measurement, dynamics, temporal, decision, work, explanation, comparison, representation, or assurance claim before accepting a C.29 claim. |
+| FPF steward | Can identify the governing pattern for causal, evidence, bridge, scale, measurement, dynamics, temporal, decision, work, explanation, comparison, representation, or assurance claim before accepting a C.29 claim. |
 | SoTA author | Can mark a source as adopt, adapt, reject, or candidate stress test without laundering speculative work into accepted FPF law. |
 | AI-assisted reader | Recovers `C.29` or the neighboring governing pattern from the query, and does not answer from a thin echo such as `field-like`, `quantum-like`, or `category-like` alone. |
 
@@ -1040,9 +1080,9 @@ Reader-fit checks for admission or material refresh:
 |---|---|---|---|---|
 | Production line as queueing network | Queueing network | flow, service rates, bottlenecks, waiting time | human motivation, contractual duties, rare events not modeled | `MathLensUse.MiniCard`; admits throughput and latency reasoning, not full organizational ontology. |
 | Team backlog as queue | Queueing lens | work arrival, work in progress, service time, waiting time | obligation, motivation, priority legitimacy, skill learning | `MathLensUse.OneLine` or mini-card; admits bottleneck reasoning, not moral or managerial authority. |
-| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; move to `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next admissible inspection. |
+| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; use `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next admissible inspection. |
 | Measurement comparison as declared distance or scoring choice | Metric-space distance, embedding, or scoring-function lens | comparability, distance, proximity, clustering, threshold structure | evidence strength, causal mechanism, value judgment | `MathLensUse.OneLine` or mini-card; admits comparison design and sensitivity checks, not truth or priority by itself. |
-| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the exact neighbor relation is named | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
+| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the neighboring relation is named by value | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
 | Research field as citation graph or category-like network | Graph or categorical structure | adjacency, composition, interface, failed transfer, citation or transformation patterns | semantic truth, evidence strength, social meaning | First inspect adjacency, composition, interface, or failed transfer; `MathLensUse.MiniCard` plus `F.9` when contexts cross; never substitute graph proximity for truth or evidence. |
 | Quantum-like dashboard | Quantum-like probe and order lens | order effects, probe effects, incompatible frames when actually present | physical quantum ontology | `C.26` with C.29-compatible stop condition `QL-NQ`; not a full-card cost for QL-lite notes. |
 | RG-like scale-law claim | Coarse-graining or fixed-point lens | scale variable, coarse-graining rule, invariants across scales | micro-mechanism identity and universal validity | `C.29` plus `C.18.1` or `C.19.1`; stops outside scale window. |
@@ -1052,11 +1092,11 @@ Worked micro-cases by failure mode:
 
 | Failure mode | Reader sees | C.29 repair |
 |---|---|---|
-| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before moving to `MathLensUse.OneLine` or mini-card. |
+| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before using `MathLensUse.OneLine` or mini-card. |
 | Under-specified-lens repair | "The market is a field." | Write `MathLensUse.OneLine` only if the candidate mathematical object, mapping, preserved structure, lost structure, payoff, and stop condition can be stated; otherwise remove the phrase or keep it as ordinary metaphor. |
-| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless a exact neighboring pattern carries it. |
-| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Open `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
-| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not open C.29 merely because local mathematics appears. |
+| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless a governing pattern governs it. |
+| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Apply `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
+| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not use C.29 merely because local mathematics appears. |
 | Speculative SoTA stress | Vanchurin-style universe-as-learning. | Treat as candidate-lens stress, not accepted physics, foundation, assurance, or release input. |
 
 Vanchurin-style universe-as-learning is not an ordinary first grounding archetype. Keep it in the validation harness and SoTA use as a candidate stress test: it can teach overclaim control and adapt-not-adopt discipline, but it does not ground accepted physics, assurance, quantitative law, or routine lens use.
@@ -1070,11 +1110,11 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
 | **Speculation laundering** | Vanchurin enters as candidate lens or SoTA-echo, not accepted fact. |
 | **Over-formalization** | Low-consequence analogy can remain local prose; reusable or decision-bearing lens needs a `MathLensUse.*` card. |
-| **Dry ontology drift** | Keep Plain explanations where they improve recognition, but recover claim-bearing commitments through exact fields or a named neighboring pattern. |
+| **Dry ontology drift** | Keep Plain explanations where they improve recognition, but recover claim-bearing commitments through fields named by value or a named neighboring pattern. |
 | **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
 | **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
 | **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
-| **Pattern-as-actor wording** | A pattern is described as writing, deciding, raising assurance, authorizing work, or creating project records; repair it through claim-bearing text, project-side records, governing FPF loci, and exact pattern application, because patterns supply discipline, not agency. |
+| **Pattern-as-actor wording** | A pattern is described as writing, deciding, raising assurance, authorizing work, or creating project records; repair it through claim-bearing text, project-side records, governing FPF patterns, and governing-pattern application, because patterns supply discipline, not agency. |
 
 ### C.29:11 - Conformance checklist
 
@@ -1082,36 +1122,37 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 
 | ID | Requirement | Purpose |
 |---|---|---|
-| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation substrate is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. | Keeps local analogies lightweight. |
-| `CC-C29-1 Output class selected before full card` | Select no-C.29-output-needed, one-line, mini-card, full-card, or `NeighborGoverningLocusNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
-| `CC-C29-2 Named substrate` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
-| `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is live, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
-| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` `RelationKind`, or domain ontology. If bridge semantics are live, cite or open `F.9`. | Prevents hidden bridge, relation-kind, or ontology conversions. |
+| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. | Keeps local analogies lightweight. |
+| `CC-C29-1 Output class selected before full card` | Select no-C.29-output-needed, one-line, mini-card, full-card, or `NeighborGoverningPatternNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
+| `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
+| `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
+| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` `RelationKind`, or domain ontology. If bridge semantics are being claimed, apply `F.9`. | Prevents hidden bridge, relation-kind, or ontology conversions. |
 | `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
-| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the exact governing pattern. | Prevents map-territory collapse. |
+| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the governing pattern. | Prevents map-territory collapse. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
-| `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` carries claim-bearing use, recover the concrete substrate, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
+| `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` or candidate family, preserved structure, lost structure, visible payoff, use-admissibility value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
 | `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next move, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, use-admissibility value, and stop condition. | Prevents C.29 from turning recoverable-structure estimates into architecture ontology, quality, selector, evidence, assurance, OOD, or causal claims. |
-| `CC-C29-6c Architecture-local lens descriptions` | When `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another architecture-local lens description carries claim-bearing use, recover declared scope or scale window, candidate mathematical object, mapping mode, preserved structure, lost structure, source-return condition, admissible next move, and stop condition; send architecture, scale-preference, measurement, evidence, assurance, selected-set, and decision claims to their exact neighboring patterns. | Prevents architecture lens descriptions from becoming architecture ontology, RG proof, global-optimizer proof, scale preference, evidence, assurance, selector, or decision authority. |
-| `CC-C29-7 Lens-admissible prediction or distinction` | When decision, prediction, model selection, or publication-as-model is live, state at least one lens-admissible prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
-| `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is live, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
-| `CC-C29-8a Neighboring claim distribution` | If the live output is a choice result, method or work record, evidence path, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF locus and exact project-side record. | Prevents C.29 from absorbing neighboring claims. |
-| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are live, declare the scale range and coordinate with `C.18.1` and `C.19.1`. | Prevents universalization. |
-| `CC-C29-9a Temporal use boundary` | If the live claim is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not live. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
-| `CC-C29-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is live, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison admissible. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
+| `CC-C29-6c Architecture-local lens descriptions` | When `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another architecture-local lens description is used for claim-bearing lens use, recover declared scope or scale window, candidate mathematical object, mapping mode, preserved structure, lost structure, source-return condition, admissible next move, and stop condition; apply the neighboring patterns governing those claims to architecture, scale-preference, measurement, evidence, assurance, selected-set, and decision claims. | Prevents architecture lens descriptions from becoming architecture ontology, RG proof, global-optimizer proof, scale preference, evidence, assurance, selector, or decision authority. |
+| `CC-C29-7 Lens-admissible prediction or distinction` | When decision, prediction, model selection, or publication-as-model is being claimed, state at least one lens-admissible prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
+| `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is being claimed, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
+| `CC-C29-8a Neighboring claim distribution` | If the output being made is a choice result, method or work record, evidence path, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF pattern and project-side record. | Prevents C.29 from absorbing neighboring claims. |
+| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are being claimed, declare the scale range and coordinate with `C.18.1` and `C.19.1`. | Prevents universalization. |
+| `CC-C29-9a Temporal use boundary` | If the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not being claimed. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
+| `CC-C29-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is being claimed, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison admissible. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
 | `CC-C29-10a Validation regime` | If the lens is used for prediction, publication, assurance input, benchmark, model selection, or scientific claim or model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
 | `CC-C29-10b Source-use role` | If a source changes C.29 admissible use, name its `SourceUseRole`; do not let source prestige silently become evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates the source-use role from source-use disposition. |
+| `CC-C29-10c Source-currentness and return condition` | If source material, source-basis family, source-use decision, or a neighboring governing pattern changes the use-rights for this lens output, state `SourceReturnCondition?` or `OutputChangeCondition?` and narrow, demote, replace, retire, or block the claim-bearing use. | Keeps SoTA currentness and neighboring-pattern currentness tied to the admissible C.29 output rather than to source prestige or process evidence. |
 | `CC-C29-11 LensUseAdmissibilityValue` | Label `LensUseAdmissibilityValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with matching use-rights. | Prevents evidence laundering. |
 | `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and governing pattern. | Protects FPF from metaphysical collapse. |
 | `CC-C29-13 Stop condition` | State the most tempting nearby claim the lens does not license. | Makes misuse locally visible. |
 | `CC-C29-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9`; Bridge and C.29 fields agree without duplicate writing. | Keeps semantics bounded. |
 | `CC-C29-15 Causal-use discipline` | Causal-use claims apply `C.28`; C.29 cannot make causal use admissible by itself. | Blocks causal laundering. |
 | `CC-C29-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply `A.10`, `B.3`, and relevant G patterns. | Prevents elegance from raising assurance directly. |
-| `CC-C29-17 C.2.P recovery` | Broad heads, source wording or target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to exact FPF kinds, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
-| `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it carries ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
+| `CC-C29-17 C.2.P recovery` | Broad heads, source wording or target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to FPF kinds named by value, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
+| `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it makes ontology, evidence, causal, assurance, bridge, gate, work, decision, or admissibility commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
 | `CC-C29-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents C.29-everywhere. |
 | `CC-C29-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps C.29 as a repair pattern. |
-| `CC-C29-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation carrier. | Makes repeated validation admission visible. |
+| `CC-C29-21 Validation harness` | Stable admission requires the small harness cases in §8.1 or an admitted equivalent validation record. | Makes repeated validation admission visible. |
 
 ### C.29:12 - Common anti-patterns
 
@@ -1119,46 +1160,46 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 |---|---|---|
 | **Map-territory collapse** | “The organization is a quantum system.” | “A quantum-like lens models order, probe, or contextual-probability effects; no physical quantum ontology is licensed.” |
 | **Prestige substitution** | “Use category theory” without naming objects, morphisms, functors, preservation, or loss. | Name the categorical structure, preserved composition or interface, and failed transfer. |
-| **Family-name substrate** | `field`, `graph`, `category`, `RG`, or `quantum` appears as if the family name were enough. | Name the concrete object, structure, formal role, or downgrade to Plain recognition. |
-| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object opens `C.29`. | Require lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation use. |
+| **Family-name as object** | `field`, `graph`, `category`, `RG`, or `quantum` appears as if the family name were enough. | Name the concrete object, structure, formal role, or downgrade to Plain recognition. |
+| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object is treated as requiring `C.29`. | Require lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation use. |
 | **Card-before-problem** | The author fills fields before stating the working phrase and first repair. | Begin with the phrase, stated use, output class, and first repair output. |
-| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is live. |
-| **False exactness** | Equivalence, isomorphism, or exact representation is declared when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared exact relation through the exact governing pattern. |
+| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is being made. |
+| **False exactness** | Equivalence, isomorphism, or representation is declared by value when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared relation named by value through the governing pattern. |
 | **RG-as-vibe** | “Everything is coarse-graining” with no scale window, coarse-graining rule, or fixed point. | Declare scale variable, coarse-graining rule, invariants, and rival micro-models. |
-| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is live. | Use BLP scale-audit when a general method scale-preference claim is live; use C.31.ASAP when architecture scale preference is live; otherwise mark the lens as local and bounded by `C.29` stop condition. |
-| **Familiar math misses live structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the live problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
+| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is being made. | Use BLP scale-audit when a general method scale-preference claim is being made; use C.31.ASAP when an architecture scale-preference claim is being made; otherwise mark the lens as local and bounded by `C.29` stop condition. |
+| **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the working problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
 | **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
 | **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseAdmissibilityValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
 | **Loss-free bridge** | Mathematical structure is exported across contexts without `F.9`, loss notes, counter-example, or admissible use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
 | **Duplicate bridge writing** | C.29 repeats sense cells, CL, substitution scope, and Bridge-admissible use. | Let `F.9` write Bridge semantics; cite Bridge from the C.29 output. |
-| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and open `F.9` for cross-context meaning, substitution, CL, sense cells, or Bridge-admissible use. |
+| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and apply `F.9` to cross-context meaning, substitution, CL, sense cells, or Bridge-admissible use. |
 | **Causal laundering** | Lens fit is treated as proof of intervention effect. | Apply `C.28` and evidence design, or block causal use. |
 | **Assurance laundering** | Elegant formalism is treated as release confidence. | Use `A.10` and `B.3`; C.29 can be evidence input only when `LensUseAdmissibilityValue` and validation regime are declared. |
-| **LensUseAdmissibilityValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns carry prediction, decision, causal use, bridge substitution, assurance, or ontology. |
-| **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the live rival. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next move; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is live. |
+| **LensUseAdmissibilityValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns govern prediction, decision, causal use, bridge substitution, assurance, or ontology. |
+| **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the rival lens being compared. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next move; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is being made. |
 | **StopCondition boilerplate** | The card says “does not prove everything.” | State the most tempting nearby overread the lens does not license. |
-| **Neighbor absorption** | C.29 repeats `F.9`, `C.28`, `A.3.3`, `A.19`, `C.11`, `A.15`, `A.10`, `B.3`, `C.16`, `C.27`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, or assurance semantics. | Apply the governing-locus table and cite the neighboring pattern. |
+| **Neighbor absorption** | C.29 repeats `F.9`, `C.28`, `A.3.3`, `A.19`, `C.11`, `A.15`, `A.10`, `B.3`, `C.16`, `C.27`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, or assurance semantics. | Apply the governing-pattern table and cite the neighboring pattern. |
 | **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the commitment through `C.2.P` fields or keep it as ordinary Plain recognition only. |
 | **C.29 local-kind inflation** | `MathLensUse.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit minting or reuse, naming, kind, and design-rationale decision through `F.8`, `F.18`, `C.3`, and `E.9`. |
 
 ### C.29:13 - SoTA-echoing account
 
-SoTA source use for `C.29` is accepted only when it changes action guidance. A citation that only decorates the file does not carry `C.29`.
+SoTA source use for `C.29` is accepted only when it changes action guidance. A citation that only decorates the file does not establish `C.29` use.
 
 `C.29` separates source-use roles from source-use disposition. `Adopt`, `Adapt`, `Reject`, and candidate-stress-test disposition say what FPF does with the source; `SourceUseRole` says what work the source may perform inside a C.29 application.
 
 | `SourceUseRole` | Admissible `C.29` use | Blocked `C.29` use |
 |---|---|---|
 | `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | Supply evidence, truth, ontology, causal-use verdict, assurance, or release confidence. |
-| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the current problem cue. | Require a lens before the candidate changes the next move. |
-| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern exit. | Replace the C.29 fields or the neighboring governing pattern. |
+| `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Require a lens before the candidate changes the next move. |
+| `adequacyControlSource` | Discipline preserved structure, lost structure, stop condition, validation regime, or neighboring-pattern application. | Replace the C.29 fields or the neighboring governing pattern. |
 | `validationBoundarySource` | Constrain the declared validation regime, evaluation slice, uncertainty, failure case, or domain of applicability. | Become an evidence path, assurance claim, benchmark result, or release confidence by source prestige alone. |
-| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local substrate. | License cross-context ontology import or broader transfer without `F.9`, evidence, and stop condition. |
+| `acceptedDomainTheory` | Permit local use inside a domain where the theory is already the governing local formalism. | License cross-context ontology import or broader transfer without `F.9`, evidence, and stop condition. |
 | `proofUnderAssumptions` | Justify a formal property under stated assumptions. | Prove real-world adequacy unless assumptions, observations, bridge, and evidence path are also present. |
 | `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Act as a proof that the rival or source family is globally unusable. |
-| `rivalLensSource` | Name a principal rival lens or relation that changes the current admissible move. | Become a literature review, selector result, or benchmark result. |
-| `sourceIdentityLocator` | Preserve exact source identity when a source is being cited or traced. | Carry substantive adequacy by itself. |
-| `historicalBackgroundOnly` | Explain lineage or terminology without carrying current admissible use. | Carry present-day prediction, decision, bridge, causal, assurance, or admission use. |
+| `rivalLensSource` | Name a principal rival lens or relation that changes the admissible move being made. | Become a literature review, selector result, or benchmark result. |
+| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Carry substantive adequacy by itself. |
+| `historicalBackgroundOnly` | Explain lineage or terminology without carrying admissible use being claimed. | Carry present-day prediction, decision, bridge, causal, assurance, or admission use. |
 | SoTA line | Selected action-guidance effect | Disposition |
 |---|---|---|
 | Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |
@@ -1167,13 +1208,13 @@ SoTA source use for `C.29` is accepted only when it changes action guidance. A c
 | Geometric deep learning, invariance, and equivariance | Use symmetry, group action, invariance, and equivariant representation as lens-discovery cues when generic feature lists hide the relevant sameness under transformations. Ask which transformations are admissible, which distinctions are preserved, and which coordinate details can be lost. | **Adapt as lens-discovery source.** Not evidence for domain law, causal mechanism, or coordinate-free truth. |
 | Optimal transport and distribution geometry | Use transport plans, couplings, Wasserstein-like geometry, and declared movement cost as lens-discovery cues for population, distribution, shape, shift, or allocation questions. Ask what moves, under which cost, and what structure or mass is lost. | **Adapt as lens-discovery source.** Not evidence for causality, fairness, mechanism, or policy effect. |
 | Model reporting and responsible modeling practice | Intended use, evaluation conditions, limitations, validation regime, failure cases, uncertainty, and domain of applicability become C.29 validation fields for prediction, publication, assurance-input, benchmark, model-selection, and scientific or model uses. | **Adapt.** Turns reporting practice into fields and repair moves. |
-| Causal and approximate causal abstraction | When abstraction, quotient, coarse-graining, simulation, or macro-modeling is live, ask whether intervention and counterfactual structure is preserved, approximated, or not claimed; use `C.28` for causal-use question and verdict. Approximate abstraction is a source-backed lens-use note, not a softened causal-use grant. | **Adapt.** No C.29 output is causal authority. |
+| Causal and approximate causal abstraction | When abstraction, quotient, coarse-graining, simulation, or macro-modeling is being claimed, ask whether intervention and counterfactual structure is preserved, approximated, or not claimed; use `C.28` for causal-use question and verdict. Approximate abstraction is a source-backed lens-use note, not a softened causal-use grant. | **Adapt.** No C.29 output is causal authority. |
 | Causal representation learning | Use causal-representation work as a discovery guard for latent variables, learned factors, interventions, assignments, and invariance across environments. If a latent lens is being read causally, keep causal-use question and verdict with `C.28`. | **Adapt as lens-discovery source.** Blocks “latent means causal”; does not make representation learning a causal verdict. |
 | Scientific machine learning as hybrid first-principles and data-driven modeling | Treat first-principles structures as plural and domain-bound: conservation laws, constitutive relations, boundary conditions, symmetries, known dynamics, numerical stability, uncertainty, and data-driven approximation can each discipline a lens. Require the C.29 user to name the concrete structure and validation boundary rather than saying "science says so." | **Adapt.** Reinforces the first-principles position without making any one SciML family the FPF foundation. |
-| Variational principles and constrained extrema | Use action, energy, free-energy, loss, value, entropy, or resource functionals as first-principles lenses only when the admissible variation space, constraints, boundary conditions, stationarity or extremum condition, conserved or dual quantities, and neighboring dynamics exits and evidence exits are named. | **Adapt as first-principles lens-discovery source.** Does not imply the target literally optimizes the declared functional; dynamics, evidence, causal-use, and assurance claims stay with neighboring loci. |
+| Variational principles and constrained extrema | Use action, energy, free-energy, loss, value, entropy, or resource functionals as first-principles lenses only when the admissible variation space, constraints, boundary conditions, stationarity or extremum condition, conserved or dual quantities, and neighboring dynamics applications and evidence applications are named. | **Adapt as first-principles lens-discovery source.** Does not imply the target literally optimizes the declared functional; dynamics, evidence, causal-use, and assurance claims are governed by neighboring patterns. |
 | Physics-informed ML and learned scientific representations | Use physics-informed losses, governing equations, neural operators, surrogate solvers, and learned representations only with observation map, training or simulation regime, resolution or discretization policy, generalization claim, validation slice, uncertainty or approximation note, and stop condition. | **Adapt.** Contributes learned-lens overlay fields; does not license out-of-regime solver replacement, causal mechanism, or unobserved-state truth. |
 | Scientific and physics foundation models | Treat foundation-model claims in scientific domains as learned-lens stress tests: broad pretraining, in-context dynamics inference, zero-shot or transfer claims, and cross-domain simulation all require declared training regime, task family, validation regime, uncertainty, failure cases, and output-change condition. | **Adapt as SoTA pressure.** A foundation-model result can suggest a candidate lens or benchmark question; it is not accepted FPF law and not a universal first-principles source. |
-| Koopman, operator-theoretic dynamics, and system identification | Use observables, operator representations, dynamic-mode decomposition, and sparse identification as discovery cues for nonlinear dynamics. Name the state, observable or readout, forecast or control use being tested, and the neighboring dynamics or temporal locus. | **Adapt as lens-discovery source.** Does not prove a real mechanism, dynamics semantics, evidence, or temporal-use adequacy. |
+| Koopman, operator-theoretic dynamics, and system identification | Use observables, operator representations, dynamic-mode decomposition, and sparse identification as discovery cues for nonlinear dynamics. Name the state, observable or readout, forecast or control use being tested, and the governing dynamics or temporal-use pattern. | **Adapt as lens-discovery source.** Does not prove a real mechanism, dynamics semantics, evidence, or temporal-use adequacy. |
 | Probabilistic programming, Bayesian workflow, and model criticism | Use priors, likelihood assumptions, posterior predictive checks, prior-data conflict, model mismatch, and uncertainty as lens-use cues. Ask what the probabilistic lens makes visible, what assumptions it imports, and where prediction or explanation stops. | **Adapt as lens-discovery and criticism source.** Not a truth verdict, evidence verdict, or assurance result by itself. |
 | Modern Bayesian experimental design, OED, active sensing, and adaptive sampling | Use modern BED and OED, expected-information-gain estimation, acquisition-function, active-learning, Bayesian-optimization, and robustness results to ask which observation, probe, assignment, fidelity, or sample would change the lens's next admissible move. Require declared utility, design variable, model assumptions, computational tractability, model-misspecification or robustness note, and validation boundary before using the result for prediction, decision, experiment planning, evidence, causal-use verdict, or assurance. | **Adapt as current lens-discovery source.** Not a measurement construction, evidence record, causal-use result, experiment plan, or assurance claim by itself. |
 | Uncertainty, approximation, sensitivity, and robustness practice | Prediction or scientific or model use requires approximation or uncertainty note, known failure or counterexample, and domain of applicability. | **Adapt.** Prevents empirical-fit overread. |
@@ -1196,7 +1237,7 @@ Adopt and adapt the following as a candidate lens family:
 
 > **learning dynamics → coarse-graining → effective geometry → gauge fields, metric-tensor fields, or distance-like structure → variational or thermodynamic optimality**
 
-Use this source as the case for why FPF needs a lens-use card: the source carries many mathematical structures, but its claims are broad and speculative. The candidate-lens stress-test value comes through trainable variables, local update rules, Legendre transforms, thermodynamic potentials, gauge-field, metric-tensor-field, and distance-language claims, memory and processing trade-offs, and RG-like re-optimization of compressed representations.
+Use this source as the case for why FPF needs a lens-use card: the source discusses many mathematical structures, but its claims are broad and speculative. The candidate-lens stress-test value comes through trainable variables, local update rules, Legendre transforms, thermodynamic potentials, gauge-field, metric-tensor-field, and distance-language claims, memory and processing trade-offs, and RG-like re-optimization of compressed representations.
 
 The Plain lesson is “this is a useful candidate lens, not a new FPF cosmology.” Selected lens use:
 
@@ -1222,13 +1263,29 @@ Known limitations from the checked source-use disposition remain material for ma
 
 Adopt the plural-foundations source-use decision: several structural families can be reusable across domains, and their adequacy depends on declared mapping, local use, mutual interpretability, and recoverable loss.
 
-Source-use role: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 carries this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
+Source-use role: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 records this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
+
+Rodin/P2W micro-slice:
+
+```text
+MathLensUse.OneLine@RodinP2W:
+  TargetPhenomenon: accepted problem-side distinction that may need later formal declaration
+  CandidateMathObject: one selected formal structure or structural family
+  LensMappingMode: exact formal equivalence, interpretation, homomorphism, or near-sameness candidate
+  PreservedStructure: the invariant, composition law, obstruction, boundary relation, or formal relation that survives the lens use
+  LostStructure: world-facing detail, measurement condition, causal condition, bridge loss, or implementation detail not preserved by the formal relation
+  VisiblePayoff: the reader can decide whether a formal declaration is needed before mechanism, method, or work reasoning
+  AdmissibleNextMove: apply `A.6.0` if a `U.Signature(profile=FormalSubstrate)` declaration is needed; apply `E.18.1` if accepted problem-side material must be used through P2W in later FPF work
+  StopCondition: mathematical-to-mathematical exactness or near-sameness does not prove observation-bound world adequacy, causal use, evidence strength, Bridge-admissible use, or work readiness
+```
+
+Read the slice by relation position. `C.29` records preserved and lost structure for the mathematical-lens use. `A.6.0` declares vocabulary, laws, imports, and applicability when the formal substrate must be written as a signature. `E.18.1` governs P2W transduction of the accepted problem-side distinction into the next admissible FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made.
 
 #### C.29:13.4 - Applied category theory
 
 Adopt applied category theory as one major organizer for cross-domain transfer, especially composition, interfaces, views, transformations, and bridges. Retain the concrete source-basis examples: databases, electric circuits, and dynamical systems as application families; adjoint functors, enriched categories, and toposes as categorical structures that organize transfer.
 
-In `C.29`, category-theoretic material is used through the same local adequacy fields as any other lens: stated use, named structure, preserved composition or interface, lost structure, failed transfer, and neighboring-pattern exits. It is especially useful when composition, interfaces, views, transformations, or bridges matter to the admissible move.
+In `C.29`, category-theoretic material is used through the same local adequacy fields as any other lens: stated use, named structure, preserved composition or interface, lost structure, failed transfer, and neighboring-pattern applications. It is especially useful when composition, interfaces, views, transformations, or bridges matter to the admissible move.
 
 #### C.29:13.5 - Obstructions to compositionality
 
@@ -1236,9 +1293,9 @@ Adapt the obstructions and failures-of-compositionality perspective into `LostSt
 
 ### C.29:13a - Source locators and source-basis guard
 
-SoTA materials are not nameless background. Exact decision grounds and governing inheritance remain recoverable by value, and SoTA rows shape action guidance rather than decorate the file. The source locators and the source-use role of each external source are retained here.
+SoTA materials are not nameless background. Decision grounds and governing inheritance remain recoverable by value, and SoTA rows shape action guidance rather than decorate the file. The source locators and the source-use role of each external source are retained here.
 
-#### Exact source and governing basis
+#### Source and governing basis
 
 | Basis id | Basis item | What it contributes | Use in `C.29` |
 |---|---|---|---|
@@ -1253,8 +1310,8 @@ SoTA materials are not nameless background. Exact decision grounds and governing
 | `MODEL-REPORTING-2018/2021` | Mitchell et al., **Model Cards for Model Reporting**; Gebru et al., **Datasheets for Datasets**. | Contributes intended-use, evaluation-condition, limitation, dataset-context, and out-of-scope-use declarations for model and data-bearing lenses. | **Adapt.** Use for `admissibleUse`, `nonAdmissibleUse`, validation regime, limitation notes, and domain-of-applicability fields; do not treat documentation presence as evidence or assurance by itself. |
 | `CAUSAL-ABSTRACTION-2017/2019` | Rubenstein et al., **Causal Consistency of Structural Equation Models**; Beckers and Halpern, **Abstracting Causal Models**. | Contributes the question of whether abstraction, quotient, macro-model, or coarse-graining preserves intervention and counterfactual structure. | **Adapt.** Feeds `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
 | `APPROX-CAUSAL-ABSTRACTION-2019/2020` | Beckers, Eberhardt, and Halpern, **Approximate Causal Abstraction** and **Approximate Causal Abstractions**, arXiv:1906.11583 and PMLR 2020. | Contributes the distinction between approximate and exact micro-to-macro causal abstraction, including discrepancy between micro-model and macro-model causal descriptions and uncertainty in probabilistic causal models. | **Adapt.** Justifies the `approximated` value in `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
-| `CAUSAL-ABSTRACTION-JMLR-2025` | **Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability**, JMLR 2025. | Contributes generalized mechanism transformation, graded faithfulness, and abstraction checks for learned systems, including where representation mappings become too flexible to carry explanation or causal use. | **Adapt.** Strengthens the abstraction-preservation question; causal-use question and verdict still belongs to `C.28`. |
-| `SCHOLKOPF-ETAL-2021` | Scholkopf et al., **Towards Causal Representation Learning**, Proceedings of the IEEE 2021, arXiv:2102.11107. | Contributes distinctions among learned latent representations, causal variables, interventions, assignments, environment invariance, and causal-use claims. | **Adapt as discovery source.** Helps detect when `C.28` is live; does not make a latent representation causal by itself. |
+| `CAUSAL-ABSTRACTION-JMLR-2025` | **Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability**, JMLR 2025. | Contributes generalized mechanism transformation, graded faithfulness, and abstraction checks for learned systems, including where representation mappings become too flexible to license explanation or causal use. | **Adapt.** Strengthens the abstraction-preservation question; causal-use question and verdict still belongs to `C.28`. |
+| `SCHOLKOPF-ETAL-2021` | Scholkopf et al., **Towards Causal Representation Learning**, Proceedings of the IEEE 2021, arXiv:2102.11107. | Contributes distinctions among learned latent representations, causal variables, interventions, assignments, environment invariance, and causal-use claims. | **Adapt as discovery source.** Helps detect when `C.28` applies; does not make a latent representation causal by itself. |
 | `SCIML-NEURAL-OPERATORS-2019/2021` | Raissi, Perdikaris, and Karniadakis on PINNs; Karniadakis et al. on physics-informed machine learning; Lu et al. on DeepONet; Li et al. on Fourier neural operators. | Contributes learned-lens obligations: observation map, data or training regime, discretization or resolution policy, generalization claim, validation regime, uncertainty, and stop condition. | **Adapt.** Use as source material for the lightweight learned-lens overlay; do not promote a full SciML specialization or assume out-of-domain generalization. |
 | `SCIML-DIETRICH-SCHILDERS-2025` | Dietrich and Schilders, **Scientific machine learning**, Mathematische Semesterberichte 2025, DOI `10.1007/s00591-025-00399-4`. | Contributes the hybrid first-principles and data-driven framing: conservation laws, constitutive relations, boundary conditions, physical consistency, operator learning, probabilistic approaches, uncertainty, robustness, and validation limits. | **Adapt.** Reinforces plural first-principles discipline and validation boundaries; does not make SciML a universal FPF foundation. |
 | `PIML-SURVEY-2025` | **When physics meets machine learning: a survey of physics-informed machine learning**, Machine Learning for Computational Science and Engineering 2025, DOI `10.1007/s44379-025-00016-0`. | Contributes physics-informed learning as integration of prior physics knowledge with data-driven models for data efficiency, generalization, and plausibility, including Lagrangian or Hamiltonian mechanics, energy conservation, physics-informed losses, and physics-informed optimization as current first-principles lens families. | **Adapt.** Strengthens the learned-lens and variational-principle use; does not make physics-informed wording sufficient evidence or assurance. |
@@ -1265,7 +1322,7 @@ SoTA materials are not nameless background. Exact decision grounds and governing
 | `MODERN-BED-2023/2024` | Rainforth, Foster, Ivanova, and Bickford Smith, **Modern Bayesian Experimental Design**, arXiv:2302.14545; accepted/published in Statistical Science context. | Contributes current BED as utility-driven and computationally constrained, with recent methods for tractable expected information gain, sequential or adaptive design, and practical deployment limits. | **Adapt as current discovery source.** Does not make C.29 a measurement-construction, evidence, causal-use, or experiment-planning pattern. |
 | `MODERN-OED-2024/2026` | Huan, Jagalur, and Marzouk, **Optimal experimental design: Formulations and computations**, Acta Numerica 2024; arXiv:2407.16212 v2 2026. | Contributes broad current OED framing: design variables, utility criteria, computational methods, sequential design, complex models, and prediction-oriented data acquisition. | **Adapt as current discovery source.** C.29 may ask what data acquisition would make the lens usable, but neighboring patterns govern experiments, evidence, causal-use verdict, and work planning. |
 | `BO-AL-ADAPTIVE-SAMPLING-2024` | Di Fiore, Nardelli, and Mainini, **Active Learning and Bayesian Optimization: A Unified Perspective to Learn with a Goal**, Archives of Computational Methods in Engineering 2024, DOI `10.1007/s11831-024-10064-z`. | Contributes active learning, Bayesian optimization, and adaptive sampling as goal-driven acquisition schemes, not as generic "collect more data" advice. | **Adapt as current discovery source.** Use only for the candidate observation, probe, or acquisition move; do not import selector, evidence, or assurance authority. |
-| `EIG-DENSITY-APPROX-2024/2026` | Li, Baptista, and Marzouk, **Expected information gain estimation via density approximations: Sample allocation and dimension reduction**, arXiv:2411.08390 v3 2026. | Contributes current computational caution: EIG estimation itself can require density approximation, sample-allocation, and dimension-reduction choices before it is usable. | **Adapt as computational-tractability source.** A claimed information-gain lens needs estimation and approximation fields when the computation is live. |
+| `EIG-DENSITY-APPROX-2024/2026` | Li, Baptista, and Marzouk, **Expected information gain estimation via density approximations: Sample allocation and dimension reduction**, arXiv:2411.08390 v3 2026. | Contributes current computational caution: EIG estimation itself can require density approximation, sample-allocation, and dimension-reduction choices before it is usable. | **Adapt as computational-tractability source.** A claimed information-gain lens needs estimation and approximation fields when the computation is required for the declared lens use. |
 | `ROBUST-GBOED-2025` | Barlas, Sloman, and Kaski, **Robust Experimental Design via Generalised Bayesian Inference**, arXiv:2511.07671. | Contributes robustness prompts for model misspecification, outliers, and incorrect noise assumptions through generalized Bayesian OED or Gibbs Bayesian OED and Gibbs expected information gain. | **Adapt as robustness source.** If model misspecification is plausible, the C.29 output records the robustness note; it does not turn robustness into evidence or assurance by itself. |
 | `VVUQ-UQ-PREDICTION-2010/2012/2007` | Oberkampf and Roy, **Verification and Validation in Scientific Computing**; National Research Council, **Assessing the Reliability of Complex Models**; Gneiting and Raftery, **Strictly Proper Scoring Rules, Prediction, and Estimation**. | Contributes validation, uncertainty, prediction scoring, calibration caution, sensitivity or robustness notes, and domain-of-applicability boundaries. | **Adapt.** Prediction, publication-as-model, benchmark, model-selection, or assurance-input uses need validation or uncertainty fields; source prestige does not supply those fields. |
 
@@ -1282,10 +1339,10 @@ SoTA materials are not nameless background. Exact decision grounds and governing
 | `MODEL-CARDS-2018/2019` | `https://arxiv.org/abs/1810.03993` | **Model-reporting source.** Supplies intended-use, evaluation-slice, limitation, and out-of-scope-use structure for model-bearing lenses; does not make reported model use admissible by itself. |
 | `DATASHEETS-2018/2021` | `https://arxiv.org/abs/1803.09010`; CACM page: `https://cacm.acm.org/research/datasheets-for-datasets/` | **Dataset-documentation source.** Supplies provenance, composition, collection, recommended use, and limitation prompts when a lens depends on data or dataset-derived representation. |
 | `CAUSAL-CONSISTENCY-2017` | `https://arxiv.org/abs/1707.00819` | **Causal-abstraction source.** Supports checking whether SEM descriptions at different granularities agree about intervention effects; feeds the intervention-preservation question without giving `C.29` causal authority. |
-| `CAUSAL-ABSTRACTION-2019` | `https://arxiv.org/abs/1812.03789`; AAAI page: `https://ojs.aaai.org/index.php/AAAI/article/view/4117` | **Causal-abstraction source.** Supports distinguishing transformations, abstractions, and named abstraction classes; used only to require explicit `C.28` application when causal use is live. |
+| `CAUSAL-ABSTRACTION-2019` | `https://arxiv.org/abs/1812.03789`; AAAI page: `https://ojs.aaai.org/index.php/AAAI/article/view/4117` | **Causal-abstraction source.** Supports distinguishing transformations, abstractions, and named abstraction classes; used only to require explicit `C.28` application when causal use is being claimed. |
 | `APPROX-CAUSAL-ABSTRACTION-2019/2020` | `https://arxiv.org/abs/1906.11583`; PMLR page: `https://proceedings.mlr.press/v115/beckers20a.html` | **Approximate causal-abstraction source.** Contributes `approximated` intervention and counterfactual preservation value in the lightweight causal-abstraction check; does not let `C.29` decide causal-use question and verdict without `C.28`. |
 | `CAUSAL-ABSTRACTION-JMLR-2025` | `https://jmlr.org/beta/papers/v26/23-0058.html` | **Current causal-abstraction source.** Contributes generalized mechanism-transformation and graded-faithfulness checks for learned systems; keeps causal-use question and verdict with `C.28`. |
-| `SCHOLKOPF-ETAL-2021` | `https://arxiv.org/abs/2102.11107`; DOI `10.1109/JPROC.2021.3058954` | **Causal-representation discovery source.** Contributes the question whether a learned latent representation has intervention, assignment, outcome, and environment-invariance evidence path before causal use; opens `C.28` when causal-use question and verdict are live. |
+| `SCHOLKOPF-ETAL-2021` | `https://arxiv.org/abs/2102.11107`; DOI `10.1109/JPROC.2021.3058954` | **Causal-representation discovery source.** Contributes the question whether a learned latent representation has intervention, assignment, outcome, and environment-invariance evidence path before causal use; causal-use question and verdict are governed by `C.28` when causal use is being claimed. |
 | `PINN-2019` | DOI `10.1016/j.jcp.2018.10.045` | **Physics-informed ML source.** Contributes validation, training-regime, governing-equation, and inverse-problem and forward-problem distinctions for learned mathematical lenses. |
 | `PIML-2021` | DOI `10.1038/s42254-021-00314-5` | **Physics-informed machine-learning survey source.** Contributes physics-informed learning as a broad learned-lens family requiring problem, prior-knowledge, validation, and uncertainty boundaries. |
 | `DEEPONET-2021` | DOI `10.1038/s42256-021-00302-5` | **Neural-operator source.** Contributes operator-learning as a learned mathematical lens over function spaces; requires training domain, observation map, generalization claim, and stop condition. |
@@ -1294,7 +1351,7 @@ SoTA materials are not nameless background. Exact decision grounds and governing
 | `PIML-SURVEY-2025` | DOI `10.1007/s44379-025-00016-0`; `https://link.springer.com/article/10.1007/s44379-025-00016-0` | **Current physics-informed ML survey source.** Contributes prior-physics integration as data-efficiency, generalization, and plausibility cues; not evidence or assurance by itself. |
 | `NEURAL-OPERATORS-NRP-2024` | DOI `10.1038/s42254-024-00712-5`; `https://www.nature.com/articles/s42254-024-00712-5` | **Neural-operator review source.** Contributes function-space lens obligations and operator lens obligations, physics constraints and domain constraints, and validation boundaries for scientific simulation and design. |
 | `PHYSICS-FOUNDATION-MODEL-2025` | `https://arxiv.org/abs/2509.13805` | **Physics-foundation-model candidate source.** Contributes candidate and stress-test handling of broad scientific foundation-model claims; does not make those claims accepted FPF law. |
-| `KOOPMAN-SINDY-DMD-2016` | SINDy DOI `10.1073/pnas.1517384113`; DMD DOI `10.1137/1.9781611974508` | **Operator-dynamics and system-identification discovery source.** Contributes observable, dynamic-mode-decomposition, or sparse-identification lens choices for nonlinear dynamics; dynamics semantics, evidence, and temporal-use adequacy still require `A.3.3`, `A.10`, or `C.27` when live. |
+| `KOOPMAN-SINDY-DMD-2016` | SINDy DOI `10.1073/pnas.1517384113`; DMD DOI `10.1137/1.9781611974508` | **Operator-dynamics and system-identification discovery source.** Contributes observable, dynamic-mode-decomposition, or sparse-identification lens choices for nonlinear dynamics; dynamics semantics, evidence, and temporal-use adequacy still require `A.3.3`, `A.10`, or `C.27` when those claims are being made. |
 | `BAYES-WORKFLOW-PPL-2018/2020` | Probabilistic programming arXiv `https://arxiv.org/abs/1809.10756`; Bayesian Workflow arXiv `https://arxiv.org/abs/2011.01808` | **Probabilistic-model discovery and criticism source.** Contributes prior, likelihood, posterior predictive, prior-data conflict, model mismatch, uncertainty, and revision cues; does not make probabilistic fit a truth, evidence, or assurance result by itself. |
 | `MODERN-BED-2023/2024` | `https://arxiv.org/abs/2302.14545`; DOI `10.48550/arXiv.2302.14545` | **Modern Bayesian experimental design source.** Contributes current BED as utility-driven and computationally constrained, with tractable EIG, sequential/adaptive design, and deployment limits; neighboring patterns still govern measurement construction, evidence, causal-use verdict, and work planning. |
 | `MODERN-OED-2024/2026` | `https://arxiv.org/abs/2407.16212`; Cambridge Core DOI `10.1017/S0962492924000023` | **Modern optimal experimental design source.** Contributes broad OED formulations and computations for complex models; C.29 uses it only to ask what acquisition would make a candidate lens usable. |
@@ -1312,14 +1369,15 @@ SoTA materials are not nameless background. Exact decision grounds and governing
 3. `SAND-THREAD-MATH-LINKS-2026-05-12` is a recognition cue, not a mathematical proof source or FPF law.
 4. CLT-as-RG or fixed-point wording is retained only as a structural modeling viewpoint. A safe formulation is: under the usual normalization, the Gaussian is an attractive fixed point for finite-variance distributions; other stable laws are other fixed points under suitable normalization.
 5. The intake correction from direct identification to structure-preserving representation is selected and becomes a central ontology guard.
+
 ### C.29:14 - Informative taxonomy seed
 
-Use this recognition menu only to identify a possible lens family and likely neighboring-pattern exits. After selecting a row, state the local C.29 fields that make the lens adequate or stop the use.
+Use this recognition menu only to identify a possible lens family and likely neighboring-pattern applications. After selecting a row, state the local C.29 fields that make the lens adequate or stop the use.
 
 | Lens family | What it catches | FPF use | Common stop condition | Likely neighboring patterns |
 |---|---|---|---|---|
-| **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed relation and exact relation splits, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
-| **Obstruction-first and failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without the exact neighboring-pattern result. | `F.9`, `A.6.P`, `A.10`, `E.19` |
+| **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed relation and relation named by value splits, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
+| **Obstruction-first and failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without the neighboring-pattern result named by value. | `F.9`, `A.6.P`, `A.10`, `E.19` |
 | **Symmetry, invariance, equivariance, and Noether** | Group actions, invariants, equivariant representations, conservation-like constraints, and geometric-deep-learning regularities. | If the problem depends on sameness under transformations or a conservation-like claim, ask which transformations are admissible, what remains invariant, and which distinctions are lost. | Does not transfer physical conservation law, causal mechanism, or coordinate-free truth without domain evidence. | `A.10`, `C.16`, `A.19`, domain pattern |
 | **Variational, action, optimization, and Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, admissible variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence path it. | `A.3.3`, `C.28`, `A.10` |
 | **Diagonal, self-reference, and no-go** | Self-application, universal evaluators, closure limits, diagonal constructions, and impossibility boundaries. | Use when the payoff is to block a tempting universal claim or expose a closure boundary. | Does not prove every recursive-looking case is a diagonal or no-go case. | `B.3`, `E.19`, local domain pattern |
@@ -1327,7 +1385,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 | **Category, compositionality, optics, and semiring-limit** | Composition, interfaces, views, transformations, algebraic laws, limit transforms, and cases where changing algebra changes what is preserved. | Multi-view architecture, bridges, system composition, and classical or tropical or Fourier-Laplace or Legendre-style transform cues. | Does not imply all target objects are categories or that every functor-like transfer preserves the needed structure. | `F.9`, `A.6.P`, `A.19` |
 | **Information geometry and learning dynamics** | Update, curvature, optimization trajectory. | Adaptive systems, learning agents, epistemic dynamics. | Does not license “everything is learning” ontology. | `A.3.3`, `A.10`, `C.28` |
 | **Optimal transport and distribution geometry** | Transport plans, Wasserstein-like geometry, couplings, costed movement between distributions, populations, shapes, or allocations. | Use when the question is how one distribution, population, shape, or allocation can move toward another under declared costs and losses. | Does not license causality, fairness, mechanism, or policy effect by itself. | `C.16`, `A.10`, `C.28`, `D.5` |
-| **Operator learning, SciML, and latent representations** | Learned function-to-function operators, neural operators, surrogate solvers, embeddings, and world-model representations. | Use when the first useful lens is an operator over functions, states, or fields; name the observation map, training or simulation regime, validation slice, and generalization boundary. | Does not license out-of-domain solver replacement, causal mechanism, or unobserved state truth without validation and the exact neighboring-pattern result. | `A.10`, `C.16`, `A.3.3`, `C.28` |
+| **Operator learning, SciML, and latent representations** | Learned function-to-function operators, neural operators, surrogate solvers, embeddings, and world-model representations. | Use when the first useful lens is an operator over functions, states, or fields; name the observation map, training or simulation regime, validation slice, and generalization boundary. | Does not license out-of-domain solver replacement, causal mechanism, or unobserved state truth without validation and the neighboring-pattern result named by value. | `A.10`, `C.16`, `A.3.3`, `C.28` |
 | **Koopman and operator-theoretic dynamics** | Observables or coordinates where nonlinear dynamics can be represented by an operator, often approximately linear. | Use when nonlinear dynamics need a tractable forecast, control, or diagnostic representation; name the observable or readout and the forecast or control use being tested. | Does not prove a real linear mechanism or temporal-use adequacy; dynamics semantics, evidence, and temporal claims stay with `A.3.3`, `A.10`, and `C.27`. | `A.3.3`, `A.10`, `C.27` |
 | **Causal representation and causal abstraction** | Causal graphs, SCMs, causal representation learning, micro-to-macro mappings, quotient models, and intervention-preservation questions. | If the user asks what to change to get an effect, test causal graph, SCM, or causal abstraction as the candidate lens, not correlation graph or latent manifold by default. | `C.29` can state declared lens use only; causal-use question and verdict, intervention claims, and counterfactual reliance stay with `C.28`. | `C.28`, `A.10`, `A.3.3` |
 | **Quantum-like and contextual probability** | Probe effects, incompatible frames, order effects. | Dashboards, workshops, surveys, measurement-as-intervention. | Quantum-like is not physical quantum unless separate physics evidence is supplied. | `C.26`, `C.16`, `F.9` |
@@ -1339,9 +1397,9 @@ Use this recognition menu only to identify a possible lens family and likely nei
 - **Decision basis:** `E.9` design-rationale discipline and the source-basis rows in `C.29:13a`.
 - **Contributes to:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only declared mathematical-lens use is in scope, with no amendment to pillar content, priority, or constitutional authority.
 
-- **Coordinates with:** `C.11`, `A.15.1`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `C.31.ASAP`, `G.5`, `G.9`, `G.2`, `G.10`.
+- **Coordinates with:** `A.6.0`, `A.6.1`, `E.18.1`, `C.11`, `A.15.1`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `C.31.ASAP`, `G.5`, `G.9`, `G.2`, `G.10`.
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
-- **Does not replace:** `F.9` bridges, `C.28` causal-use discipline, `A.3.3` dynamics semantics, `A.19` characteristic-space governance, `C.16` measurement construction, scale legality, direct comparability, and evidence-stub adequacy, `A.10` and `B.3` evidence and assurance, `C.11` decision records, `A.15`, `A.15.1`, and `A.15.4` method and work records, `E.17.EFP` explanation-use discipline, `E.17.ID.CR` comparative review units, `A.6.3.RT` representation transitions, `A.6.3.CSC` coarsening, `C.27` temporal-claim adequacy, `C.18.1` and `C.19.1` scale-law and BLP preference claim, `C.31.ASAP` architecture scale-preference claim, or G-pattern selector and benchmark work.
+- **Neighboring claims stay with their governing patterns.** Use `F.9` for bridges; `C.28` for causal use; `A.3.3` for dynamics semantics; `A.19` and `C.16` for characteristic-space and measurement construction; `A.10` and `B.3` for evidence and assurance; `C.11`, `A.15`, `A.15.1`, and `A.15.4` for decision, method, and work records; `E.17.*` for explanation and comparative-review publication use; `A.6.3.RT` and `A.6.3.CSC` for representation transition and coarsening; `C.27`, `C.18.1`, `C.19.1`, and `C.31.ASAP` for temporal, scale-law, method scale-preference, and architecture scale-preference claims; and Part G for selector and benchmark work. C.29 records only the declared mathematical-lens use and the neighboring-pattern handoff for the claim being made.
 
 ### C.29:End
 

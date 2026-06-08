@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - E.TGA graph model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-e-tga-graph-model-and-relation-disciplines.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:5 — Solution - E.TGA graph model and relation disciplines"
-line_start: 65965
-line_end: 66222
+line_start: 66276
+line_end: 66533
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -273,7 +273,7 @@ This is an expandable list of viewpoint families; TGA is intentionally viewpoint
 8. The P2W illustrative species row (`U.Signature(profile=FormalSubstrate)` … `U.EvaluatingAndRefreshing` with functional/procedural aliases and `TypicalEnactorRoleName`) is **informative** and does not change kind or viewpoint semantics.
 
 **Conditional deliverable — `UTS.ViewpointMap` (TEVB-aligned when live).**
-Publish a UTS block named `ViewpointMap` only when an engineering or publication viewpoint-family mapping claim is made or consumed. Ordinary E.TGA use does not require `UTS.ViewpointMap` when the live question is only the graph object, flow valuation, path slice, or crossing.
+Publish a UTS block named `ViewpointMap` only when an engineering or publication viewpoint-family mapping claim is made or consumed. Ordinary E.TGA use does not require `UTS.ViewpointMap` when the question under repair is only the graph object, flow valuation, path slice, or crossing.
 
 *Minimum row schema (per row, when `ViewpointMap` is live).*
 * `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).

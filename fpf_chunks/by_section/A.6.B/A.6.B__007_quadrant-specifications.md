@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 7773
-line_end: 7876
+line_start: 7781
+line_end: 7885
 dependencies:
   - "A.10"
   - "A.6"
@@ -144,6 +144,7 @@ This section is the normative “API” of the square: what each quadrant is for
 
 * If a `D-*` statement imposes compliance with a gate, it **MUST** reference the relevant `A-*` ID(s).
 * If a `D-*` statement is meant to be auditable, it **SHOULD** reference the `E-*` claim(s) that provide evidence and the carrier classes involved.
+
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
 **Intent.** State what happens in work and how it can be evidenced: observed effects, emitted events, traces/logs/metrics, produced reports, measurement outcomes.

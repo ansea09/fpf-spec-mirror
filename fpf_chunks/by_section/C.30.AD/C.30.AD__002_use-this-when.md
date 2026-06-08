@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 52045
-line_end: 52091
+line_start: 52153
+line_end: 52199
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,9 +56,9 @@ keywords:
 
 ### C.30.AD:0 - Use this when
 
-Use this pattern when an architecture description is the live EntityOfConcern: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
+Use this pattern when an architecture description is the EntityOfConcern under repair: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
 
-Open `C.30.AD` when the practitioner needs to know:
+Use `C.30.AD` when the practitioner needs to know:
 
 - which `ArchitectureOf@Context` claim the description is about;
 - which selected structures or architecture structure kinds are described;
@@ -90,14 +90,14 @@ ArchitectureDescriptionUseCard@Project:
   firstExactNeighborPatternApplication?:
 ```
 
-The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, the active viewpoint refs, admissible use, non-admissible use, and one remaining architecture move or exact neighboring-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is live.
+The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture move or neighboring-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
 
 **Not this pattern when.**
 
-- If the live use is a grounded architecture claim or one first architecture question, use `C.30`.
-- If the live use is a selected structure or structural description outside architecture, use `A.22`.
-- If the live use is one architecture structural view, use `C.30.ASV`.
+- If the use under repair is a grounded architecture claim or one first architecture question, use `C.30`.
+- If the use under repair is a selected structure or structural description outside architecture, use `A.22`.
+- If the use under repair is one architecture structural view, use `C.30.ASV`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the live use is only a publication face, carrier, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the exact publication or source pattern.
-- If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the exact neighboring pattern to the live claim.
+- If the use under repair is only a publication face, carrier, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the neighboring pattern governing that claim to the claim being made.
 

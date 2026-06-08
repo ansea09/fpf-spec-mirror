@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "I.2"
-pattern_title: "Detailed Walk-throughs"
+pattern_title: "Expanded Entry Disambiguation Cases"
 section_id: "I.2"
 section_title: ".8 - Causal-use and counterfactual-support repair"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__009_8-causal-use-and-counterfactual-support-repair.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
-  - "I.2 — Detailed Walk-throughs"
+  - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .8 - Causal-use and counterfactual-support repair"
-line_start: 82521
-line_end: 82532
+line_start: 82837
+line_end: 82848
 dependencies:
 keywords:
 ---

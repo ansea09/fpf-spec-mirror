@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_anti-patterns-and-repairs.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Anti-patterns and repairs"
-line_start: 60283
-line_end: 60293
+line_start: 60584
+line_end: 60594
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -43,7 +43,7 @@ keywords:
 |---|---|---|
 | **Entity-description collapse** | "The method is the document"; "the architecture is the diagram"; "the role contains the checklist". | Name the EntityOfConcern, then name the Description episteme or publication relation separately. |
 | **Spec by name** | Any detailed write-up is called `...Spec`. | Use `...Description` unless specification-use admission conditions are present. |
-| **Publication as authority** | A card, dashboard, schema, generated view, or file is treated as permission, evidence, gate, assurance, decision, or work. | Send that live claim to the exact neighboring pattern; keep the publication relation separate. |
+| **Publication as authority** | A card, dashboard, schema, generated view, or file is treated as permission, evidence, gate, assurance, decision, or work. | Send that claim being made to the neighboring pattern governing that claim; keep the publication relation separate. |
 | **Carrier identity** | The file path or repository entry is treated as the episteme or EntityOfConcern. | Say the carrier encodes or renders the episteme. |
 | **Context erasure** | A context-local Description episteme is read as a global definition. | Restore `BoundedContextRef` and `ViewpointRef`, or use F.9/A.6.3/A.6.4 for cross-context relations. |
 | **Status-state leakage** | Evidence, requirement, approval, or standard status becomes a role-state node. | Keep statuses over epistemes distinct from state graphs and runtime state attestations. |

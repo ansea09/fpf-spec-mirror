@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Problem (what goes wrong without this concept)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_problem-what-goes-wrong-without-this-concept.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:2 — Problem (what goes wrong without this concept)"
-line_start: 2302
-line_end: 2308
+line_start: 2309
+line_end: 2315
 dependencies:
   - "A.1"
   - "A.1.1"

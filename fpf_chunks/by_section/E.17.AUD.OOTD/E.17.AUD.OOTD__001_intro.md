@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__001_intro.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:intro — Intro"
-line_start: 65584
-line_end: 65619
+line_start: 65895
+line_end: 65930
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 **Plain-name.** Keep one publication unit about one primary EntityOfConcern at a time.
 
 **One-line summary.** `PublicationUnit Primary EntityOfConcern Discipline` governs one bounded publication unit at a time and keeps that unit explicit about what it is mainly about, what move it is carrying over that entity, and what wider work, non-admissible downstream decision, or reliance claim remains outside.
-**Primary EntityOfConcern discipline.** The live technical field is `publicationUnitPrimaryEntityOfConcern`: the primary EntityOfConcern, exact non-claim-bearing kind, topic, or subject that this bounded publication unit is mainly about for the current use. When no claim-bearing episteme or episteme-lane view is live, the pattern names the exact non-claim-bearing kind, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** The live technical field is `publicationUnitPrimaryEntityOfConcern`: the primary EntityOfConcern, non-claim-bearing kind named by value, topic, or subject that this bounded publication unit is mainly about for the current use. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
 **Publication unit under review in plain terms.** The publication unit under review is one bounded publication unit that other people are meant to read as one unit: a note, memo, sheet, review aid, screen, table, or short section. The carried publication move is to keep that unit explicit about one `publicationUnitPrimaryEntityOfConcern`, one carried move over that entity, and one outside-work boundary.
 
@@ -59,14 +59,14 @@ keywords:
 
 **Not this pattern when.** This is not the right pattern when:
 - the problem is still local lexical-head kind or qualifier repair and `E.17.AUD.LHR` (`Local Head Restoration`) is enough;
-- the same publication unit is already stable enough, and the live question is one bounded comparative review move over already available source epistemes or publications under `E.17.ID.CR`;
-- the live question is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
-- the live question is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
+- the same publication unit is already stable enough, and the question under repair is one bounded comparative review move over already available source epistemes or publications under `E.17.ID.CR`;
+- the question under repair is still same-entity rewrite, representation shift, explanation-face work, bridge-explication, or another neighboring pattern whose move is already primary;
+- the question under repair is view, face, carrier, or publication architecture rather than publication-unit interpretation instability;
 - the unit is already being used to approve, assign, adjudicate, or direct work and should use the more honest downstream decision, work, or reliance publication.
 
 **Quick recovery entry.** If the recognition block fits, recover the working question through the ordinary six-row card in `E.17.AUD.OOTD:4.3` and the nearest worked slices in `E.17.AUD.OOTD:5.1` through `E.17.AUD.OOTD:5.5`. If that ordinary card plus one nearest worked slice already settles the case, stop there rather than climbing into the heavier assurance sections by habit.
 
-**Quick boundary bank.** If the recognition block no longer fits, stop at the right boundary instead of opening the heavier stack by habit. One overloaded local lexical head or qualifier only -> `E.17.AUD.LHR` (`Local Head Restoration`). Same stable publication unit, but the live question is one bounded comparison over already pinned source epistemes or publications -> `E.17.ID.CR`. View, face, carrier, same-entity rewrite, or downstream approval, work, or reliance question -> the neighboring pattern or the more honest downstream decision publication.
+**Quick boundary bank.** If the recognition block no longer fits, stop at the right boundary instead of opening the heavier stack by habit. One overloaded local lexical head or qualifier only -> `E.17.AUD.LHR` (`Local Head Restoration`). Same stable publication unit, but the question under repair is one bounded comparison over already pinned source epistemes or publications -> `E.17.ID.CR`. View, face, carrier, same-entity rewrite, or downstream approval, work, or reliance question -> the neighboring pattern or the more honest downstream decision publication.
 
 **Quick kind-plus-lens interpretation.** `PublicationUnit Stability Discipline` names the broader publication-unit discipline family. `PublicationUnit Primary EntityOfConcern Discipline` names the publication-unit stability pattern used when one publication unit needs its primary EntityOfConcern, carried move, and outside-work boundary made explicit together. The inherited moving lineage still remains successive `U.Episteme` publications over `U.CharacteristicSpace`; this pattern keeps explicit how one publication unit speaks about that lineage or a move over it, not a rival moving lineage.
 

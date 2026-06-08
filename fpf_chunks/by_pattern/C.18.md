@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
-line_start: 42728
-line_end: 42838
+line_start: 42774
+line_end: 42884
 dependencies:
   - "A.1"
   - "A.15"

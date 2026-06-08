@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 60395
-line_end: 60439
+line_start: 60697
+line_end: 60741
 dependencies:
   - "A.6.RSIG"
   - "E.19"
@@ -48,7 +48,7 @@ What goes wrong if this pattern is missed:
   entry language turns into workflow language;
 - lexical support turns into synonym stuffing instead of governed query cues;
 - readers repeat the same wrong first guesses because the corpus never
-  publishes one explicit entry-neighborhood discipline.
+  publishes one explicit first-entry pattern-comparison discipline.
 
 What this pattern buys:
 

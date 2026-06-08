@@ -6,12 +6,12 @@ section_id: "C.21:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__010_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:9 — Conformance Checklist"
-line_start: 43663
-line_end: 43686
+line_start: 43710
+line_end: 43733
 dependencies:
   - "A.17"
   - "A.18"
@@ -61,5 +61,5 @@ This checklist verifies a DHC reading after the practitioner has selected the li
 | **CC-C.21-14 Phi policies.** | `Phi(CL)` and `Phi_plane` are monotone, table-backed, and published by policy id. | Prevents hidden penalty functions. |
 | **CC-C.21-15 Ref discipline.** | Edition pinning appears as `...Ref.edition` on the relevant reference field; bare `...Edition` fields are repaired. | Keeps edition subject explicit. |
 | **CC-C.21-16 Role kit, informative.** | Standard roles from F.4 may be used: `DisciplineStewardRole`, `DHCMethodAuthorRole`, `DHCSeriesPublisherRole`; values still declare design/run stance and `ReferencePlane`. | Roles do not become evidence or authority. |
-| **CC-C.21-17 Engineering-grade and semio-substitution extensions.** | When `EngineeringClaimJustificationRecoverability` or `SemioSubstitutionPressure` is active, the DHC row names the exact neighbouring FPF pattern that carries live engineering claim kind or admissible-use boundary or semio-substitution repair, plus admissible use, non-admissible overread, and stop or reopen condition. | The extension note is not evidence, assurance, gate passage, mathematical-lens use, release permission, work authority, or project certification. |
+| **CC-C.21-17 Engineering-grade and semio-substitution extensions.** | When `EngineeringClaimJustificationRecoverability` or `SemioSubstitutionPressure` is active, the DHC row names the neighboring pattern governing the claiming FPF pattern that carries live engineering claim kind or admissible-use boundary or semio-substitution repair, plus admissible use, non-admissible overread, and stop or reopen condition. | The extension note is not evidence, assurance, gate passage, mathematical-lens use, release permission, work authority, or project certification. |
 

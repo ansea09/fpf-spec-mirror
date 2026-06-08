@@ -6,12 +6,12 @@ section_id: "B.1:7"
 section_title: "Conformance Checklist (for pattern adopters)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__008_conformance-checklist-for-pattern-adopters.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:7 — Conformance Checklist (for pattern adopters)"
-line_start: 28885
-line_end: 28896
+line_start: 28912
+line_end: 28923
 dependencies:
   - "A.1"
   - "A.9"

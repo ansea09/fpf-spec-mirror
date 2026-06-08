@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
-line_start: 22607
-line_end: 23046
+line_start: 22632
+line_end: 23071
 dependencies:
   - "A.17"
   - "A.18"
@@ -50,7 +50,7 @@ keywords:
 
 * **A.17** — canonizes the technical head **Characteristic** (and retires near-synonyms such as “axis/dimension/feature/property/metric” from normative Tech register).
 * **A.18** — CSLC discipline (**Characteristic / Scale / Level / Coordinate**) as the metrology of interpretability, comparability, and admissible aggregation.
-* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the live use is a characteristic, scale, coordinate, score, metric label, quality-term repair, or exact governing-pattern exit.
+* **C.16 (MM‑CHR)** — the measurement substrate (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`) and the conservative baseline of **direct comparability** (“same template”). C.16 makes coordinates auditable; it does not define CHR mechanisms. Use `C.16.P` first when the wording itself still hides whether the use under repair is a characteristic, scale, coordinate, score, metric label, quality-term repair, or application of the pattern governing the recovered claim.
 
 **Step 2 — Ontology and governing spec refs the CHR suite operates on.**
 
@@ -296,7 +296,7 @@ A **state label** like "Ready", "Authorized", "Degraded", etc., in an RSG is a c
 
 Two states can be compared **coordinatewise** only under strict conditions. Essentially, we require the states to be expressed in the **same measurement space**, with the **same units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
 
--   **Same space.** The two holders’ state snapshots lie in the **exact same CharacteristicSpace** (and, if relevant, the same RCS attached to a Role in a given Context). It’s not enough that they have similarly named characteristics; they must share the actual defined space (same slots with same definitions).
+-   **Same space.** The two holders’ state snapshots lie in the **same CharacteristicSpace by value** (and, if relevant, the same RCS attached to a Role in a given Context). It’s not enough that they have similarly named characteristics; they must share the actual defined space (same slots with same definitions).
 
 -   **Scale congruence.** For each slot being compared, the scale type, unit, and polarity orientation are **identical**. For example, if comparing temperature readings, both must be on the same scale (say, °C on a ratio scale with “higher = hotter” orientation). No unit mismatches or differing interpretations can be present.
 

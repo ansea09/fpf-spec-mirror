@@ -6,12 +6,12 @@ section_id: "A.16.2:17"
 section_title: "Retained vs Withdrawn Authority"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__018_retained-vs-withdrawn-authority.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:17 — Retained vs Withdrawn Authority"
-line_start: 22246
-line_end: 22259
+line_start: 22271
+line_end: 22284
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ keywords:
 `sketchBackoff` withdraws closure state, route authority state, or endpoint authority claim more sharply. It typically preserves witnesses, exemplars, or cue anchors while withdrawing the over-committing publication form and any authority that depended on that form.
 
 #### A.16.2:17.3 - Respecify
-`respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it preserves enough of the prior publication to justify continuity, but it does not authorize semantic slot repair that belongs to receiving governing patterns.
+`respecify` keeps the broad family but changes framing scaffold, route specification, or facet-profile reading. It is neither pure retreat nor silent edit: it preserves enough of the prior publication to justify continuity, but it does not authorize semantic slot repair that belongs to governing patterns.
 
 #### A.16.2:17.4 - Retire
 `retire` ends current authority for a cue, route-bearing publication, or branch while preserving historical continuity. It may point to a better-supported successor or explicitly state that no successor currently exists.

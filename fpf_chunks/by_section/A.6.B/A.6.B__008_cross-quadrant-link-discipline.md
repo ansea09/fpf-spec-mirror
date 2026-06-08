@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 7877
-line_end: 7953
+line_start: 7886
+line_end: 7963
 dependencies:
   - "A.10"
   - "A.6"
@@ -119,6 +119,7 @@ When an obligation/commitment relies on precise term or metric meanings:
 * `D-*` references `L-*` that define the terms/metrics it uses.
 
 This keeps governance text from accidentally redefining semantics in prose.
+
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
 **Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy/enforce it, and (iii) an observability expectation into the three quadrants:

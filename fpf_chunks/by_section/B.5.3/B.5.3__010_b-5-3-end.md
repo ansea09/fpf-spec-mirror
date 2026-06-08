@@ -6,12 +6,12 @@ section_id: "B.5.3:End"
 section_title: "B.5.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__010_b-5-3-end.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:End — B.5.3:End"
-line_start: 33711
-line_end: 33719
+line_start: 33746
+line_end: 33754
 dependencies:
   - "A.2"
   - "C.3"

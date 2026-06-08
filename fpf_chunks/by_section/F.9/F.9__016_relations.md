@@ -6,12 +6,12 @@ section_id: "F.9:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_relations.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:14 — Relations"
-line_start: 71781
-line_end: 71793
+line_start: 72093
+line_end: 72105
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

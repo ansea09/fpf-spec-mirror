@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 44662
-line_end: 44674
+line_start: 44710
+line_end: 44722
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard@Context` drafting is admissible only as drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any exact-pattern cues for claims outside `C.22.2`.
+Machine-assisted `ProblemCard@Context` drafting is admissible only as drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any governing-pattern cues for claims outside `C.22.2`.
 
 Required practitioner checks for a machine-assisted draft:
 
@@ -73,5 +73,5 @@ Required practitioner checks for a machine-assisted draft:
 - problem-formulation next-move reason;
 - unknown handling;
 - freshness or expiry disposition;
-- exact-pattern cues for live claims, relations, or boundaries outside `C.22.2`.
+- governing-pattern cues for claims being made, relations, or boundaries outside `C.22.2`.
 

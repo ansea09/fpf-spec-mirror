@@ -6,12 +6,12 @@ section_id: "E.20:4"
 section_title: "Solution — the Mechanism Introduction Protocol (MIP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__005_solution-the-mechanism-introduction-protocol-mip.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:4 — Solution — the Mechanism Introduction Protocol (MIP)"
-line_start: 67521
-line_end: 67750
+line_start: 67832
+line_end: 68061
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -54,7 +54,7 @@ MIP governs **how changes are assigned to their governing definitions**, not how
 
 * **MIP not triggered:** pure currentness, reference, typo, or old-label cleanup that changes no mechanism, suite, planned-baseline, wiring, governing-definition, or citeable-token semantics.
 * **Local wording or alias-docking only:** wording clarifies an already-governed mechanism relation, or `F.18` alias docking preserves citeability of an old token without changing what the token denotes.
-* **MIP-run manifest required:** the edit changes mechanism-intension meaning, suite denotation, suite closure, suite obligations, suite pins, suite protocol semantics, planned-baseline pins, wiring semantics, governing-definition assignment, or what a citeable token denotes.
+* **MIP-run manifest required:** the edit changes mechanism meaning, suite denotation, suite closure, suite obligations, suite pins, suite protocol semantics, planned-baseline pins, wiring semantics, governing-definition assignment, or what a citeable token denotes.
 
 Only the third outcome uses the manifest in `E.20:4.2`. The first two still name the current governing locus or alias-docking relation when the text will be published. When the only live result is no denotation change, the published content should not carry MIP-run vocabulary except as a short non-trigger note.
 
@@ -65,14 +65,14 @@ Only the third outcome uses the manifest in `E.20:4.2`. The first two still name
 * **MIP-run** — an authoring event that applies this protocol to a concrete change set, captured as a short manifest (recorded as a DRR-linked change record or an equivalent, explicitly citeable change record).
 
 **Reuses:**
-* `U.Mechanism.Intension` / `U.Mechanism.IntensionRef`, suite descriptions (`MechSuiteDescription` and specializations), WorkPlanning plan items (`SlotFillingsPlanItem` and specializations), alias docking (F.18), RSCR triggers (G.Core), and PQG profiles (E.19).
+* `U.Mechanism` definition cards and `MechanismDefinitionRef`, suite descriptions (`MechSuiteDescription` and specializations), WorkPlanning plan items (`SlotFillingsPlanItem` and specializations), alias docking (F.18), RSCR triggers (G.Core), and PQG profiles (E.19).
 
 #### E.20:4.1 - Step 1: Classify the introduction
 
 A MIP-run SHALL first classify the change, because different classes have different governing definitions:
 
-1. **New mechanism family, species, or archetypal grounding** (new `U.Mechanism.Intension` archetype).
-2. **New mechanism intension within an existing A.6.1 mechanism kind** (new `…IntensionRef`, new canonical card).
+1. **New mechanism family, species, or archetypal grounding** (new `U.Mechanism` archetypal definition).
+2. **New mechanism definition within an existing A.6.1 mechanism kind** (new `MechanismDefinitionRef`, new canonical card).
 3. **Mechanism revision** (signature/laws/slots/transport/audit semantics change).
 4. **Suite change** (membership, obligations, spec pins, suite protocols, suite audit obligations).
 5. **Planned-baseline change** (new or revised `SlotFillingsPlanItem` specialization, or changes to its pins).
@@ -80,11 +80,11 @@ A MIP-run SHALL first classify the change, because different classes have differ
 7. **Terminology migration** (renames, token splits/merges, register changes).
 8. **Deprecation / supersession / retirement** (marking mechanisms/suites/plan items as deprecated, declaring successors, and preserving citeability; apply E.20:4.9.1).
 
-**Mechanism kind boundary.** A MIP-run may introduce a new `U.Mechanism.IntensionRef`. It does not introduce a new `U.Transduction(kind=...)` unless `E.18` is explicitly updated, and it does not introduce a new C.3 `U.Kind` unless C.3 and `A.6.5` discipline is explicitly live.
+**Mechanism kind boundary.** A MIP-run may introduce a new `MechanismDefinitionRef`. It does not introduce a new `U.Transduction(kind=...)` unless `E.18` is explicitly updated, and it does not introduce a new C.3 `U.Kind` unless C.3 and `A.6.5` discipline is explicitly live.
 
 **A.6.1 compatibility.** MIP assigns mechanism meaning to A.6.1-governed mechanism definitions: operation algebra, law set, admissibility conditions, slot interface, transport or bridge regime, applicability, and audit. Suites, planned-baseline records, and Part-G wiring modules may cite or bind that meaning; they do not supply or redefine it.
 
-**New mechanism-family criterion.** Treat a change as a new mechanism family, species, or archetypal grounding only when the existing mechanism-governing pattern cannot express the operation algebra, law set, admissibility conditions, slot interface, transport boundary, or audit semantics without changing its kind invariants. Otherwise classify the change as a new mechanism intension or `…IntensionRef` within an existing A.6.1 mechanism kind.
+**New mechanism-family criterion.** Treat a change as a new mechanism family, species, or archetypal grounding only when the existing mechanism-governing pattern cannot express the operation algebra, law set, admissibility conditions, slot interface, transport boundary, or audit semantics without changing its kind invariants. Otherwise classify the change as a new mechanism definition or `MechanismDefinitionRef` within an existing A.6.1 mechanism kind.
 
 A single MIP-run MAY span multiple classes, but SHALL treat each class with its correct governing-definition assignment (below).
 
@@ -100,7 +100,7 @@ For every new or modified change item, the MIP-run SHALL name **exactly one gove
 Conditional support fields appear only when live:
 
 * the change class(es) from E.20:4.1 when needed to disambiguate the assignment,
-* new or changed citeable tokens (`…IntensionRef`, `SlotKind` tokens, `PatternScopeId`, etc.) when token denotation or citeability changes,
+* new or changed citeable tokens (`MechanismDefinitionRef`, `SlotKind` tokens, `PatternScopeId`, etc.) when token denotation or citeability changes,
 * the best-known Delta-Class (`Δ-0` to `Δ-3`) and impact radius estimate (E.15) when the run is plausibly `Δ-2` or `Δ-3`,
 * intended RSCR trigger types when refresh or regression wiring is live, and
 * the PQG (E.19) profile set when the run crosses an E.19-governed review boundary.
@@ -111,7 +111,7 @@ Conditional support fields appear only when live:
 
 | Change kind | Governing definition | Canonical location | Forbidden move |
 |---|---|---|---|
-| Mechanism intension meaning (operations, laws, invariants, admissibility, slot interface, transport, audit semantics) | **Mechanism-governing pattern** | Designated mechanism-governing pattern | SHALL NOT “define” the mechanism inside a suite or a wiring module. |
+| Mechanism meaning (operations, laws, invariants, admissibility, slot interface, transport, audit semantics) | **Mechanism-governing pattern** | Designated mechanism-governing pattern | SHALL NOT “define” the mechanism inside a suite or a wiring module. |
 | Suite membership, obligations, spec pins, and suite protocols | **Suite-governing pattern** | `A.6.7` or `A.6.7.<FamilyKey>` | SHALL NOT carry mechanism semantics, acceptance thresholds, gate criteria, DecisionLogs, or publication tails into the suite. |
 | Planned baseline pins (planned slot fillings, edition-pinned refs, explicit time selector) | **WorkPlanning governing pattern** | `A.15.3` plus suite-specific specialization when needed | SHALL NOT embed launch values, witnesses, or gate decisions in planning. |
 | SoTA method, comparator, or generator **definitions**, including provenance and evaluation semantics | **SoTA-pack governing pattern** | `G.2` (SoTA synthesis packs) | SHALL NOT rephrase SoTA evolution as kernel semantics. |
@@ -124,26 +124,26 @@ Conditional support fields appear only when live:
 
 #### E.20:4.3 - Step 3: Card-first canonicalization (eliminate dangling refs)
 
-If the introduction adds a new `U.Mechanism.IntensionRef` anywhere (especially inside a suite):
+If the introduction adds a new `MechanismDefinitionRef` anywhere (especially inside a suite):
 
-1. The MIP-run SHALL first create a **canonical mechanism card** at the governing pattern location that publishes the `…IntensionRef` and the minimal identity fields (names, intent, and “this is a distinct mechanism”).
+1. The MIP-run SHALL first create a **canonical mechanism card** at the governing pattern location that publishes the `MechanismDefinitionRef` and the minimal identity fields (names, intent, and "this is a distinct mechanism").
 2. The card MAY be a **stub** initially, but SHALL reserve:
-  * the stable `…IntensionRef` (and its lexical register entry per E.10/F.17),
+  * the stable `MechanismDefinitionRef` (and its lexical register entry per E.10/F.17),
    * the intended mechanism family or species placement,
  and
   * a DRR pointer for completing semantics (including any missing register/twin-label work).
 
-Only after (1) is in place MAY suites or protocols enumerate the new `…IntensionRef`.
+Only after (1) is in place MAY suites or protocols enumerate the new `MechanismDefinitionRef`.
 
 #### E.20:4.4 - Step 4: Mechanism semantics completion (what “done” means)
 
 **Definition-of-done note (delegated).** MIP uses two completion checkpoints for mechanism cards:
 
-* **Stub done** — a citeability stub for a `U.Mechanism.IntensionRef`: a resolvable canonical target created only to prevent dangling references (E.20:4.3), not semantic completion.
+* **Stub done** - a citeability stub for a `MechanismDefinitionRef`: a resolvable canonical target created only to prevent dangling references (E.20:4.3), not semantic completion.
 
- A stub **SHALL** (i) exist at the mechanism-governing pattern's canonical location, (ii) reserve and publish the stable `…IntensionRef` (and its lexical/register entries), (iii) set `IntensionHeader.status = draft`, and (iv) carry an explicit DRR pointer for completing semantics. A stub **SHALL** also list the *A.6.1* conformance checklist item IDs it does **not** yet satisfy (without duplicating that checklist here). A stub may preserve citeability for suite or protocol enumeration, but it does not authorize suite closure, gate checks, planned baselines, wiring consumption, reuse, or import unless the fields required for that use are present and marked current.
+ A stub **SHALL** (i) exist at the mechanism-governing pattern's canonical location, (ii) reserve and publish the stable `MechanismDefinitionRef` (and its lexical/register entries), (iii) set `MechanismDefinitionHeader.status = draft`, and (iv) carry an explicit DRR pointer for completing semantics. A stub **SHALL** also list the *A.6.1* conformance checklist item IDs it does **not** yet satisfy (without duplicating that checklist here). A stub may preserve citeability for suite or protocol enumeration, but it does not authorize suite closure, gate checks, planned baselines, wiring consumption, reuse, or import unless the fields required for that use are present and marked current.
 
-* **Introduced done** — a mechanism card that can be relied upon as a `U.Mechanism.Intension`. “Introduced done” is defined by *A.6.1* conformance: the card **SHALL** satisfy the applicable *A.6.1:7 Conformance Checklist* items (**CC‑UM.\***), with the baseline items designated by *A.6.1* (e.g., **CC‑UM.0** and **CC‑UM.1**) being the minimum requirement.
+* **Introduced done** - a mechanism card that can be relied upon as a `U.Mechanism` definition. "Introduced done" is defined by *A.6.1* conformance: the card **SHALL** satisfy the applicable *A.6.1:7 Conformance Checklist* items (**CC-UM.\***), with the baseline items designated by *A.6.1* (e.g., **CC-UM.0** and **CC-UM.1**) being the minimum requirement.
 
 The list below is **informative** only (semantic orientation); the normative structure and “done” criteria are delegated to *A.6.1*’s CC items to avoid drift between this protocol and the canonical mechanism definition.
 
@@ -183,7 +183,7 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 **Kernel stability rule (recommended).** If the suite is a kernel suite, and the change adds a new required stage, prefer creating a **suite variant** rather than mutating the kernel membership. If mutation is unavoidable, pair it with terminology continuity (E.20:4.9) and RSCR triggers (E.20:4.10).
 
-#### E.20:4.7 - Step 7: Planned baseline & P2W seam (if planning changes)
+#### E.20:4.7 - Step 7: Planned baseline & P2W planning-to-work boundary (if planning changes)
 
 If the mechanism introduction changes what a WorkPlanning baseline pins (e.g., selected comparator specs, method descriptions, time selector, guard pins):
 
@@ -194,9 +194,9 @@ If the mechanism introduction changes what a WorkPlanning baseline pins (e.g., s
    * no `FinalizeLaunchValues` witnesses,
    * no gate decisions or decision logs.
    * time is explicit: include `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest/current” is nonconformant.
-3. The plan item SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description via `target_slot_bearing_description_ref` (typically a kit or suite) and SHALL NOT target a `U.Mechanism.IntensionRef`. If a “standalone mechanism baseline” is needed, introduce an explicit Description-scoped slot-bearing description wrapper (e.g., a mech kit or a suite-of-one) and target that.
+3. The plan item SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description via `target_slot_bearing_description_ref` (typically a kit or suite) and SHALL NOT target a `MechanismDefinitionRef`. If a "standalone mechanism baseline" is needed, introduce an explicit Description-scoped slot-bearing description wrapper (e.g., a mech kit or a suite-of-one) and target that.
 
-This step exists to keep the P2W seam crisp: planning defines **planned fillers**, enactment witnesses **actual runs**.
+This step exists to keep the P2W planning-to-work boundary crisp: planning defines **planned fillers**, enactment witnesses **actual runs**.
 
 #### E.20:4.8 - Step 8: Wiring & SoTA updates (keep method evolution out of kernel)
 
@@ -206,7 +206,7 @@ If the introduction involves methods, comparators, selectors, or other SoTA-sens
 2. Pin the chosen SoTA refs for a baseline in WorkPlanning plan items (E.20:4.7); wiring consumes pins rather than silently overriding them.
 3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared governing pattern.
 4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the operation, law, admissibility, transport, slot, or audit meaning of the mechanism it wires.
-5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-governing pattern, under the A.6.1 mechanism-intension template; the change SHALL emit RSCR triggers (E.20:4.10).
+5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-governing pattern, under the A.6.1 mechanism-definition template; the change SHALL emit RSCR triggers (E.20:4.10).
 
 #### E.20:4.9 - Step 9: Terminology continuity (alias docking)
 
@@ -221,7 +221,7 @@ If the introduction renames any public token or changes canonical naming:
 If the change class includes deprecation/supersession/retirement (E.20:4.1 #8), the MIP-run SHALL preserve reference continuity while making the status change explicit:
 
 1. **Preserve the canonical target.** The deprecated mechanism card, suite description, plan item, or wiring module SHALL remain resolvable at its canonical location; deprecation MUST NOT be implemented by removal that would break citations.
-2. **Keep the public token citeable.** The deprecated token (`…IntensionRef`, suite token, plan-item token, etc.) SHALL remain citeable. If a successor token/name is introduced, the old token SHALL be alias-docked per F.18 (E.20:4.9).
+2. **Keep the public token citeable.** The deprecated token (`MechanismDefinitionRef`, suite token, plan-item token, etc.) SHALL remain citeable. If a successor token/name is introduced, the old token SHALL be alias-docked per F.18 (E.20:4.9).
 3. **Declare successor (or “no successor”).** The deprecated mechanism card, suite description, plan item, or wiring module SHALL declare a successor pointer (or explicitly declare that there is none) using the project’s established deprecation/supersession fields.
 4. **Assign downstream updates to governing definitions.** Any needed suite denotation, closure, obligation, pin, protocol-semantic, WorkPlanning-pin, or wiring-semantic change SHALL be performed in its respective governing definition (E.20:4.2), preferably by introducing a suite variant rather than silently swapping kernel membership.
 5. **Emit RSCR triggers.** Deprecation/supersession SHALL emit typed RSCR triggers and extend the regression envelope (E.20:4.10), including checks for dangling refs and alias coverage.
@@ -238,10 +238,10 @@ A MIP-run that changes any of:
 
 SHALL emit typed RSCR triggers via the RSCR governing pattern and SHALL extend the regression envelope to include, at minimum:
 
-* no dangling `…IntensionRef` enumerations,
+* no dangling `MechanismDefinitionRef` enumerations,
 * suite membership set semantics + protocol closure,
 * guard/gate separation preservation,
-* P2W seam preservation (planning vs enactment).
+* P2W planning-to-work boundary preservation (planning vs enactment).
 
 **Guard (normative).** Trigger kind identifiers (e.g., `RSCRTriggerKindId`) SHALL be selected from the RSCR trigger catalogue governed by `G.Core`. A MIP-run SHALL NOT mint ad hoc trigger kinds (“reason kinds”) scattered in arbitrary patterns/modules.
 

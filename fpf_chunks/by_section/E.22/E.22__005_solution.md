@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 68245
-line_end: 68338
+line_start: 68558
+line_end: 68651
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -44,12 +44,12 @@ keywords:
 | `DeclaredQualityFloor` | Minimum acceptable coordinate or status floor when the frame declares a floor claim. |
 | `DesiredImprovementAim` | Requested movement beyond the floor when improvement beyond the floor is requested. |
 | `TradeoffProtectionSet` | Qualities that must not silently worsen while visible values improve. |
-| `ExpectedEvaluationEvidenceBasis` | Evidence loci the named evaluation must check or name for the requested purpose: object version, corpus/projection loci, source-currentness loci, comparator loci, worked cases, returned findings, or exact missing loci. |
+| `ExpectedEvaluationEvidenceBasis` | Evidence loci the named evaluation must check or name for the requested purpose: object version, corpus/projection loci, source-currentness loci, comparator loci, worked cases, returned findings, or missing loci named by value. |
 | `ExpectedQualityEvaluationResultForm` | The result-row shape required by the named evaluation, including coordinate/value/short-rationale rows, mandatory attention-discharge profiles such as `E.21` `PrecisionRestorationProfile`, and any evidence-locus or coordinate-specific payload fields. For `E.21`, this profile collapses word/head/use, phrase-apparatus, repetition/distribution, role-carrier, and pattern-application layers into affected-coordinate effects. |
 | `QualityReviewFindingRow` | Actionable row for a returned finding, expected movement, correction direction, and closure test. |
 | `KindRestorationCheck` | Required field for any finding or proposal whose correction direction changes wording, naming, or precision-restoration content: pre-repair kind/relation/slot-or-use-position/admissible use/scope, proposed post-repair kind/relation/slot-or-use-position/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CandidateImprovementProposalPortfolio` | Bounded set of proposal rows returned by the evaluation when alternatives are useful. |
-| `NextAdmissibleMoveHypothesis` | Stop, repair, proposal, trade-off warning, outside-evaluation statement, new-frame statement, or exact governing pattern for a specific claim, relation, or boundary suggested by the evaluation. This is the proposed next improvement move, not a substitute for the evaluation result. |
+| `NextAdmissibleMoveHypothesis` | Stop, repair, proposal, trade-off warning, outside-evaluation statement, new-frame statement, or governing pattern for a specific claim, relation, or boundary suggested by the evaluation. This is the proposed next improvement move, not a substitute for the evaluation result. |
 
 These names frame and report quality evaluation. They do not select candidates, publish sets, plan work, certify evidence, approve release, or create new values.
 
@@ -70,13 +70,13 @@ Purposes can be combined, but the result keeps them distinguishable. A floor res
 
 ```text
 QualityEvaluationQuestionFrame:
-  Object version under quality evaluation: <exact object version>
+  Object version under quality evaluation: <object version named by value>
   Object-under-improvement evaluation: <exact evaluation>
   Evaluation purpose selection: <floor | exceptional | tradeoff | proposal | open-question | absorption | combined>
   Declared quality floor: <floor and scope, or evaluation default>
   Desired improvement aim: <floor-only | raise toward exceptional | compare variants | propose candidate changes | discover questions | absorption impact>
-  Protected trade-offs: <usability | affordability | locality | corpus ecology | neighbour fit | source preservation | other exact property>
-  Expected evidence basis: <object, corpus, source, comparator, worked-case, returned-finding, projection, or exact missing loci required by the named evaluation and purpose>
+  Protected trade-offs: <usability | affordability | locality | corpus ecology | neighbour fit | source preservation | other property named by value>
+  Expected evidence basis: <object, corpus, source, comparator, worked-case, returned-finding, projection, or missing loci named by value required by the named evaluation and purpose>
   Expected result form: <named evaluation's result-row shape | finding rows | proposal rows | trade-off table | open-question list | absorption-impact account | next-move hypotheses>
   Non-use boundary: <what this result must not decide, certify, publish, plan, execute, or prove>
 ```
@@ -101,7 +101,7 @@ QualityReviewFindingRow:
   Closure test: <what evidence would close the row>
 ```
 
-A proposal row uses the same shape plus expected trade-offs and the exact governing pattern for any outside claim, relation, or boundary when needed. One edit may close several rows, but each row keeps its own disposition and closure evidence.
+A proposal row uses the same shape plus expected trade-offs and the governing pattern for any outside claim, relation, or boundary when needed. One edit may close several rows, but each row keeps its own disposition and closure evidence.
 
 For wording, naming, and precision-restoration proposals, the correction direction is not "replace X with Y". It must state the recovered object kind, relation, slot or use-position when live, admissible use, and scope before and after the change, or state `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with loci. A proposal that only removes the suspicious word, that leaves the text unchanged without by-value discharge, or that narrows one kind into another without an accepted decision, is a finding, not a closed repair.
 
@@ -111,7 +111,7 @@ For wording, naming, and precision-restoration proposals, the correction directi
 |---|---|
 | `coordinateImproved` | A named coordinate or status has stronger content evidence after the change. |
 | `floorOnlyClosure` | A below-floor defect was repaired enough for the floor but not exceptional expression. |
-| `unchangedBecauseAlreadySatisfied` | The suggestion was already satisfied by value, with exact loci and the evaluation property it already satisfies. |
+| `unchangedBecauseAlreadySatisfied` | The suggestion was already satisfied by value, with loci named by value and the evaluation property it already satisfies. |
 | `tradeoffIntroduced` | A repair raised one property and damaged another. |
 | `qualityLossDetected` | The applied or proposed change lowers a value or protected quality. |
 | `outsideObjectUnderImprovementEvaluation` | The suggestion belongs under another exact evaluation or pattern. |

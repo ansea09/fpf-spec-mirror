@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.16.P"
 pattern_title: "Characteristic and Scale Precision Restoration"
 section_id: "C.16.P:6"
-section_title: "Exact governing-pattern exits"
+section_title: "Governing-Pattern Exits Named by Value"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.16.P/C.16.P__008_exact-governing-pattern-exits.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+output_path: "by_section/C.16.P/C.16.P__008_governing-pattern-exits-named-by-value.md"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
-  - "C.16.P:6 — Exact governing-pattern exits"
-line_start: 41144
-line_end: 41164
+  - "C.16.P:6 — Governing-Pattern Exits Named by Value"
+line_start: 41189
+line_end: 41209
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ dependencies:
 keywords:
 ---
 
-### C.16.P:6 - Exact governing-pattern exits
+### C.16.P:6 - Governing-Pattern Exits Named by Value
 
 | Recovered construction, claim kind, or admissible-use boundary | Exit |
 | --- | --- |
@@ -50,13 +50,13 @@ keywords:
 | Quality-term or evaluative characterization wording | `C.16.Q` after any needed characteristic and scale repair |
 | Pattern-quality coordinate or pattern-quality evaluation | `E.21` |
 | Mathematical function, mathematical lens, preserved-structure and lost-structure, model adequacy or lens-use result | `C.29` |
-| CHR mechanism, characteristic-space mechanism, selector, suite, or set-return law | `A.19.CN`, `G.0`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or exact mechanism pattern |
-| Evidence or proof | `A.10` or exact evidence pattern |
-| Assurance or engineering justification | `B.3` or exact assurance pattern |
-| Gate, constraint, release, readiness threshold | `A.20`, `A.21`, release or admissibility pattern, or exact gate pattern |
+| CHR mechanism, characteristic-space mechanism, selector, suite, or set-return law | `A.19.CN`, `G.0`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or mechanism pattern named by value |
+| Evidence or proof | `A.10` or evidence pattern governing the claim |
+| Assurance or engineering justification | `B.3` or assurance pattern governing the claim |
+| Gate, constraint, release, readiness threshold | `A.20`, `A.21`, release or admissibility pattern, or gate pattern governing the claim |
 | Decision, choice, selected option | `C.11` |
 | Causal-use claim | `C.28` |
 | Work, method, operation, implementation | `A.15`, `A.15.4`, method or work pattern |
-| Source, publication, carrier, dashboard, documentation | `C.2.P`, `E.17`, or exact publication or source-use pattern |
-| Relation construction, comparison relation, or wording that says one value supports or is based on another | `A.6.P` or retained exact relation specialization |
+| Source, publication, carrier, dashboard, documentation | `C.2.P`, `E.17`, or publication or source-use pattern governing the claim |
+| Relation construction, comparison relation, or wording that says one value supports or is based on another | `A.6.P` or retained relation named by value specialization |
 

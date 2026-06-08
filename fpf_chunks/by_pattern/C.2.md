@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
-line_start: 33720
-line_end: 33828
+line_start: 33755
+line_end: 33863
 dependencies:
   - "A.1"
   - "A.10"
@@ -94,7 +94,7 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 
 ### C.2:5 - ✱ Archetypal Grounding (Tell–Show–Show)
 
-**Universal rule (tell).** *Compose knowledge by Γ\_epist with weakest‑link R, monotone F, and explicit CL on every bridge; keep `ClaimGraph`, EntityOfConcern, grounding holon, viewpoint, view, reference scheme, notation, publication form, and carrier in their exact FPF relations.*
+**Universal rule (tell).** *Compose knowledge by Γ\_epist with weakest‑link R, monotone F, and explicit CL on every bridge; keep `ClaimGraph`, EntityOfConcern, grounding holon, viewpoint, view, reference scheme, notation, publication form, and carrier in their FPF relation named by values.*
 
 **System (show, Sys‑CAL lens).** Consider a **battery‑pack thermal subsystem** integrating a physics model of heat flow and an operating envelope for fast‑charge. As a **system**, it composes pumps, sensors, and controllers by physical Γ with conservation constraints (Sys‑CAL). The assurance story depends on epistemes about the model and envelope; the system **acts**, epistemes constrain. (Archetypes and boundary discipline per core.)
 

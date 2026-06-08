@@ -6,12 +6,12 @@ section_id: "E.5.4:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__006_archetypal-grounding-system-episteme.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:5 — Archetypal Grounding (System / Episteme)"
-line_start: 56451
-line_end: 56457
+line_start: 56735
+line_end: 56741
 dependencies:
   - "E.3"
   - "E.5"

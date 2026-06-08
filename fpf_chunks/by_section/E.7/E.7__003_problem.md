@@ -6,12 +6,12 @@ section_id: "E.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__003_problem.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:2 — Problem"
-line_start: 56597
-line_end: 56604
+line_start: 56881
+line_end: 56888
 dependencies:
   - "E.5.4"
   - "E.6"

@@ -6,12 +6,12 @@ section_id: "A.16.0:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21732
-line_end: 21739
+line_start: 21757
+line_end: 21764
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -43,7 +43,7 @@ keywords:
 ### A.16.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Meta-wrapper inflation.** Treat `A.16.0` as obligatory around every move. Repair by publishing a local `A.16` move note unless history itself has governance value.
 - **One-publication myth.** Treat one frozen episteme as literally moving unchanged. Repair by publishing lineage members and their links.
-- **Governing-pattern/form collapse.** Treat receiving governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
+- **Governing-pattern/form collapse.** Treat governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
 - **Form/face collapse.** Treat seam publications as if they minted a second MVPK face family. Repair by naming form and face separately.
 - **Multi-route/fork collapse.** Treat several live routes in one governed member as if they were already several successor members.
 - **Hidden work crossing.** Describe operationalization as purely linguistic when it actually required new world-facing work. Repair by publishing the crossing explicitly.

@@ -6,12 +6,12 @@ section_id: "E.10.D2:12"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_conformance-checklist.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:12 — Conformance checklist"
-line_start: 60354
-line_end: 60365
+line_start: 60656
+line_end: 60667
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -45,7 +45,7 @@ keywords:
 | **CC-D2-2** | Every Description episteme recovers `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>` when the description relation is live. |
 | **CC-D2-3** | Every `...Spec` wording has explicit specification-use admission: checkable invariants or criteria, check method or harness, and preserved or declared DescriptionContext. |
 | **CC-D2-4** | Publication faces/forms/units, carriers, renderings, views, and work records are not treated as the EntityOfConcern. |
-| **CC-D2-5** | Evidence, assurance, gate, decision, promise, commitment, and work claims exit to the exact neighboring pattern when they become live. |
-| **CC-D2-6** | The text does not use old I-D-S peer-class wording, `intensional object`, `DescribedEntity*`, `EntityOfInterest`, `EoI`, or `EoIClass` as live vocabulary. |
-| **CC-D2-7** | The word `plane` is not used for this distinction; only exact patterns such as CHR may define `ReferencePlane`. |
+| **CC-D2-5** | Evidence, assurance, gate, decision, promise, commitment, and work claims exit to the neighboring pattern governing that claim when they are being made. |
+| **CC-D2-6** | The text does not use old I-D-S peer-class wording, `intensional object`, `DescribedEntity*`, `EntityOfInterest`, `EoI`, or `EoIClass` as accepted vocabulary for current FPF prose. |
+| **CC-D2-7** | The word `plane` is not used for this distinction; only governing patterns such as CHR may define `ReferencePlane`. |
 

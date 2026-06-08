@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 32744
-line_end: 32772
+line_start: 32778
+line_end: 32806
 dependencies:
   - "A.15"
   - "A.16"
@@ -41,7 +41,7 @@ keywords:
 
 ### B.4.1:15 - Migration and worked continuation boundaries
 
-`B.4.1` governs route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to receiving governing patterns once the next publication is explicit enough to carry them.
+`B.4.1` governs route publication, not abductive reasoning, lexical repair, deontic commitment, or work execution. Those belong to governing patterns once the next publication is explicit enough to carry them.
 
 #### B.4.1:15.1 - Migration from anomaly-first prose
 Older anomaly-first language should be migrated into route publication when the publication does not yet meet anomaly-governance entry conditions.

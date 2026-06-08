@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 54964
-line_end: 54991
+line_start: 55221
+line_end: 55248
 dependencies:
   - "A.10"
   - "A.17"
@@ -63,15 +63,15 @@ ScaleClaimTriage:
   expectedStableOrImprovingStructure:
   exceptionGrowthRisk:
   sourceReturnCondition:
-  nextGoverningPatternRef:
+  relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
 
-Ordinary use starts by naming the alternatives, the scale variable, the scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception growth risk. Open `ArchitectureScaleAuditRecord@Project` only when the scale preference is live enough to affect a comparison, selected set, publication, assurance input, or architecture decision.
+Ordinary use starts by naming the alternatives, the scale variable, the scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception growth risk. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
 
 What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "reusable", "general", "open", "coarse-grained", or "RG-like" becomes a shortcut for a scale-preference claim; a locally hand-engineered solution is called debt even when safety, legality, or mission constraints justify it; exception growth is hidden until the architecture is already expensive to change; and coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 
-What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, and where scale, lens, evidence, assurance, selection, or decision claims leave this pattern.
+What C.31.ASAP buys in practice: the practitioner can say what is being scaled, where the scale claim holds, what structure is expected to remain stable or improve, what exceptions are allowed, what evidence or no-probe reason exists, which scale-preference claim stays in C.31.ASAP, and which governing pattern governs any lens-use, evidence, assurance, selection, or decision claim being made.
 
-Not this pattern when the live question is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, architecture synthesis, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, the admitted architecture synthesis governing pattern, or `C.11` as appropriate. C.31.ASAP receives architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
+Not this pattern when the question under repair is only module-interface relation repair, modularity-characteristic selection, reusable-structure accounting, mathematical-lens use, scale-law adequacy, method preference under general BLP, candidate architecture generation, selected-set return, or final local choice. Use `A.6.M`, `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, `G.9`, or `C.11` as appropriate. C.31.ASAP governs architecture scale-preference claims; it does not select the architecture, prove the scale law, or certify the project.
 

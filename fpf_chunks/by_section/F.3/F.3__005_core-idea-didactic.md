@@ -6,12 +6,12 @@ section_id: "F.3:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__005_core-idea-didactic.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:4 — Core idea (didactic)"
-line_start: 69615
-line_end: 69624
+line_start: 69927
+line_end: 69936
 dependencies:
   - "A.11"
   - "A.7"

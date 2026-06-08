@@ -6,12 +6,12 @@ section_id: "C.30.ASV:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__012_sota-echoing.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:11 — SoTA-Echoing"
-line_start: 53494
-line_end: 53504
+line_start: 53643
+line_end: 53653
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 | Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence where live, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
+| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence when used, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
 | OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF Description or views. | Generated, queried, or model-derived views state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not become source episteme, source or reliance relation, evidence sufficiency, gate passage, or assurance. |
 | UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can publish ASV records only when Description-episteme or specification-use content, DescriptionContext EntityOfConcern, structure refs, structure kind, viewpoint, and publication relation are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without a recoverable C.30 or C.30.ASV source view. |
 | Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection boundaries and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |

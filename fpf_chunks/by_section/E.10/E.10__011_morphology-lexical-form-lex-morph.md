@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "18497f0808242ab7c1a31cb5c94898e9f6b6879d"
+commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 59134
-line_end: 59374
+line_start: 59435
+line_end: 59675
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,8 +70,8 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 | **`Objective`**         | **Target state**                           | EntityOfConcern/Description side (depends on formalization) | KernelToken/ContextToken        | `HemostasisObjective`                             | Encoding acceptance tests here (put tests in Spec/MethodDescription). |
 | **`Requirement`**       | **Acceptance condition, requirement claim, or commitment record where binding condition is live**               | Description episteme or Description episteme admitted for specification use                            | KernelToken/ContextToken        | `LatencyRequirement`                              | Using as a role or capability.                                        |
 | **`BoundedContext`**    | **Context card**                           | (meta-structural; not EntityOfConcern and Description-episteme or specification use)         | ContextToken                    | `ITIL_2020_BoundedContext`                        | Treating Context as domain; minting `U.*` inside a Context.           |
-| **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical/geometric surface, or the exact neighboring FPF object. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
-| **`Card`**                 | UTS/record unit (episteme)               | Description episteme, Description episteme admitted for specification use, or publication-unit use, depending on exact FPF kind       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
+| **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical/geometric surface, or the neighboring FPF object. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
+| **`Card`**                 | UTS/record unit (episteme)               | Description episteme, Description episteme admitted for specification use, or publication-unit use, depending on FPF kind named by value       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
 
 #### E.10:8.1.1 - Legacy suffix conventions
 
@@ -79,7 +79,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 |--- |--- |--- |--- |--- |
 | **Space** | EntityOfConcern-side kind | A typed **state space** (finite product of Characteristic×Scale slots); no procedures | Kernel A.19; CHR/space consumers | `CharacteristicSpace`, `CreativitySpace`. Edition of a Space is a **phase** of the episteme that defines it. |
 | **SpaceRef** | Pointer | Registry reference to a Space | Data fields / UTS | `CharacteristicSpaceRef`. Use **`.edition`** on the **Ref** when pinning a historical phase. |
-| **Map** | EntityOfConcern-side kind (method) | A **mapping method** from subjects to coordinates in a declared Space (encoder/featurizer) | Kernel/Method family (EntityOfConcern side), described through Description epistemes and admitted for specification use only when exact gates grant specification use | `DescriptorMap` (declares invariances, corpus typing). Not a record or file. |
+| **Map** | EntityOfConcern-side kind (method) | A **mapping method** from subjects to coordinates in a declared Space (encoder/featurizer) | Kernel/Method family (EntityOfConcern side), described through Description epistemes and admitted for specification use only when gates named by value grant specification use | `DescriptorMap` (declares invariances, corpus typing). Not a record or file. |
 | **MapRef** | Pointer | Registry reference to a **Map** | Data fields / UTS | `DescriptorMapRef`. Pin the method phase via **`DescriptorMapRef.edition`**. |
 | **Def** | Spec-family alternate token (CG-Spec family) | A **definition/specification publication** that fixes a **formula** or **distance** over a space; *synonym of …Spec* **within CG-Spec registries only** | Part G (CG‑Spec family) | `DistanceDef` ≍ `DistanceSpec`. Prefer **…Spec** in new normative prose; **…Def** retained where already published. |
 | **DefRef** | Pointer | Registry reference to a **…Spec/…Def** | Data fields / UTS | `DistanceDefRef`. Use **`DistanceDefRef.edition`** to pin the exact formula edition. |
@@ -100,17 +100,17 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 **L-EPI-PUB — episteme, publication, view, carrier, and authority-reference lane discipline**
 * Use `U.Episteme` for the claim-bearing unit. Use `U.EpistemePublication` or governed `U.Episteme` publication only when that episteme is available as a published episteme under C.2.1 and E.17 discipline.
-* Name the exact publication form separately from the episteme: for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, typed route-bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, typed route-bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
 * Name the carrier or rendering lane separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
 * Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign/episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the live P2W chain element: intended method family, selected method/method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
-* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application claim. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the exact FPF kind, relation record, relation phrase, tuple-like record, exact project-side FPF kind and reference, or not-triggered disposition before final wording is accepted.
+* Use `C.2.P` when episteme-publication-heavy wording carries episteme, publication, view, carrier, relation, admissibility, evidence, work, gate, decision, method, or FPF-pattern-application claim. This parent pattern keeps the lexical and naming discipline; `C.2.P` supplies the epistemic precision-restoration profile that recovers the FPF kind named by value, relation record, relation phrase, tuple-like record, project-side FPF kind and reference named by value, or not-triggered disposition before final wording is accepted.
 
 **Publication face, form, unit, and carrier discipline - `surface` as trigger wording**
-* **Definition.** `surface` is trigger wording, not a durable FPF Tech head by itself. When it has FPF-governed use, recover whether the sentence means publication face, publication form, publication unit, carrier, rendering, UI/front-end face, physical/geometric surface, companion publication, projection material, carrier relation, or another exact FPF kind or relation.
-* **Allowed final heads:** exact publication or carrier terms, or deliberately ordinary physical/geometric `surface` when no FPF-governed use is carried.
+* **Definition.** `surface` is trigger wording, not a durable FPF Tech head by itself. When it has FPF-governed use, recover whether the sentence means publication face, publication form, publication unit, carrier, rendering, UI/front-end face, physical/geometric surface, companion publication, projection material, carrier relation, or another FPF kind or relation named by value.
+* **Allowed final heads:** publication or carrier terms named by value, or deliberately ordinary physical/geometric `surface` when no FPF-governed use is carried.
 * **Forbidden final heads:** `StructureSurface`, `MechanismSurface`, `PortfolioSurface`, and any `...Surface` that hides a structural, mechanistic, measurement, review, assurance, explanation, comparison, or publication-unit object.
 * **Preferred alternatives:** name publication face, form, unit, carrier, and rendering; use `...Boundary` for structural borders, `...View` for episteme/view relations, and `...Card` only for a UTS or record unit when that is exact.
 
@@ -165,8 +165,8 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
-Canonical entry-neighborhoods may use one compact **entry lexeme support**
-block when the lexical issue is live.
+Canonical first-entry pattern-comparison rows or row sets may use one compact
+**entry lexeme support** block when the lexical issue is live.
 That support should not live in every pattern body by default.
 Keep it instead in:
 
@@ -200,7 +200,7 @@ forbidden_aliases
 Ordinary lexical-query support should stay compact:
 
 * ordinary `Table of Content` rows: prefer `2-5` query phrases;
-* ordinary `J.4` neighborhoods: keep only the most discriminating domain phrases and
+* ordinary `J.4` pattern-comparison rows: keep only the most discriminating domain phrases and
   false friends;
 * fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
   naming, alias, bridge, or collision claim exists.
