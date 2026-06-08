@@ -6,12 +6,12 @@ section_id: "A.2.4:1"
 section_title: "Context and intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_context-and-intent.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:1 — Context and intent"
-line_start: 2973
-line_end: 2982
+line_start: 3144
+line_end: 3153
 dependencies:
   - "A.10"
   - "A.2"

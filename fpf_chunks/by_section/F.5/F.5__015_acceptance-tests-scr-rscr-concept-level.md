@@ -6,12 +6,12 @@ section_id: "F.5:14"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__015_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:14 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 70822
-line_end: 70840
+line_start: 70787
+line_end: 70805
 dependencies:
   - "A.11"
   - "A.7"

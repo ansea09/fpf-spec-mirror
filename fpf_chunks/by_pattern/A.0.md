@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.0.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-line_start: 894
-line_end: 1141
+line_start: 1065
+line_end: 1312
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -59,11 +59,11 @@ keywords:
 
 **Keywords & queries.** *novelty, quality‑diversity (NQD), explore/exploit (E/E‑LOG), **declared set result**, **typed portfolio publication**, illumination map *(report‑only telemetry)*, parity run, comparability, ReferencePlane, CL^plane, **ParetoOnly** default*
 
-### 1) Problem frame
+### A.0:1 - Problem Frame
 
 Engineer‑managers meeting FPF for the first time need a **plain, on‑ramp vocabulary** for the framework’s *generative* engine so they can run an informed **problem‑solving/search loop** on day one—*before* formal specifications. Without that, Part G and Part F read as assurance/alignment only, and teams default to single “best” options. This **undercuts P‑10 Open‑Ended Evolution** and harms adoption.
 
-### 2) Problem
+### A.0:2 - Problem
 
 In current practice:
 
@@ -74,7 +74,7 @@ In current practice:
 
 FPF needs a **short, normative glossary** that names the generative primitives in **Plain** register and ties each to its **formal anchor**—so declared set results and typed portfolio publications, not single scores, become the default publication.
 
-### 3) Forces
+### A.0:3 - Forces
 
 | Force                         | Tension                                                                         |
 | ----------------------------- | ------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ FPF needs a **short, normative glossary** that names the generative primitives i
 | **Comparability vs Locality** | Shared N‑U‑C‑D terms ↔ context‑local CG‑frames and bridges with CL.             |
 | **Tool‑agnostic Core**        | Conceptual publication in UTS ↔ engineering teams’ urge to cite specific tools. |
 
-### 4) Solution — **Normative onboarding glossary and publication hooks**
+### A.0:4 - Solution - Normative onboarding glossary and publication hooks
 
 #### 4.1 Plain one‑liners (normative on‑ramp; formal anchors in C.17–C.19)
 
@@ -115,7 +115,7 @@ FPF needs a **short, normative glossary** that names the generative primitives i
 4) Apply **G.5** selection/dispatch with parity pins; **return a declared set result** (`Front`, `Archive`, `Shortlist`, or `RankedShortlist` as appropriate), not a single score or an unnamed "portfolio".
 5) **Publish to UTS** + **PathIds/PathSliceId**; **Illumination Map** is **report‑only telemetry** by default.
 
-### 5) Archetypal Grounding
+### A.0:5 - Archetypal Grounding
 *Informative; manager‑first (E.7/E.8 Tell‑Show‑Show).*  <!-- exact heading per CC‑AG.1 -->
 
 **Show‑A - SRE capacity plan (selector returns a set).**
@@ -134,7 +134,7 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 *Frame.* A living review compares rival **causal identification** methods (e.g., IV vs. DiD vs. RCT‑adjacent surrogates) across policy domains.
 *Glossary in action.* `U = external‑validity gain @ F/G‑declared lanes`, `C = ethics & data‑licence constraints`, `N = dissimilarity in **ClaimGraph** transformations`, `D_P = coverage of identification niches in the archive`. `ReferencePlane = episteme`. Illumination/coverage stays **report‑only telemetry**; selection returns a declared retained-set result or portfolio-publication view of methods per niche. *(Publish UTS rows; cite Bridges + CL for cross‑domain reuse; edition‑pin Descriptor/Distance defs where QD applies.)*
 
-### 6) Bias‑Annotation
+### A.0:6 - Bias-Annotation
 
 **Scope.** Trans‑disciplinary; glossary applies to both **System** and **Episteme** work.
 **Known risks & mitigations.**
@@ -142,7 +142,7 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 *Terminology drift:* enforce **LEX‑BUNDLE** registers; ban tool jargon in Core.
 *Optimization monoculture:* require declared set-result or typed portfolio publication where G‑kit mandates parity; illumination stays **report‑only telemetry** unless a CAL policy promotes it (policy‑id cited).
 
-### 7) Conformance Checklist (SCR/RSCR stubs)
+### A.0:7 - Conformance Checklist (SCR/RSCR stubs)
 
 | ID          | Requirement                                                                                                                                                                               | Purpose                                                                         |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -159,7 +159,7 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 | **CC‑A0‑11** | Apply **Iso‑Scale Parity** in parity runs when S is declared; where infeasible, state the **loss notes** and treat results as **non‑parity** with an explicit penalty in **R**.             | Keeps comparisons fair and auditable under scale constraints.                    |
 | **CC‑A0‑12** | **BLP default.** If a domain‑specific heuristic is selected over a general, scale‑amenable method, record a **BLP‑waiver** reason: *deontic*, *scale‑probe overturn*, or *context‑specific*. | Prevents silent violations of the Bitter Lesson; improves selector transparency. |
 
-### 8) Consequences
+### A.0:8 - Consequences
 
 **Benefits.**
 • **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
@@ -170,11 +170,11 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 • Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
 • Requires discipline on units and scales → mitigated by CG‑frame templates.
 
-### 9) Rationale
+### A.0:9 - Rationale
 
 This pattern **instantiates P‑10 Open‑Ended Evolution** by making *generation‑selection‑publication* **operational** at the on‑ramp: readers get just enough shared vocabulary to run *search as standard practice*. It aligns with **Didactic Primacy (P‑2)** and **LEX‑BUNDLE (E.10)** by keeping definitions *plain‑first* and scale‑lawful, and with **Patterns Layering (P‑5)** by pointing to C.17–C.19 for formal anchors without tool lock‑in. The post‑2015 line (MAP‑Elites → CMA‑ME/MAE → Differentiable QD/MEGA → QDax; POET/Enhanced‑POET/Darwinian Goedel Machine) normalised **quality‑diversity** and **open‑endedness** as first‑class search objectives; this glossary surfaces those ideas as **publication standards**, not tool recipes.
 
-### 10) Relations
+### A.0:10 - Relations
 
 **Builds on.** **E.2 Pillars** (P-10, P-2, P-6), **A.5** (Open-Ended Kernel), **B.5/B.5.2.1** (Abductive loops + NQD integration), **C.17–C.19** (Creativity-CHR, NQD-CAL, E/E-LOG).
 

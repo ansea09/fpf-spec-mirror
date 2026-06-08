@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.10 — Evidence Graph Referring (C‑4)"
-line_start: 18343
-line_end: 18733
+line_start: 18519
+line_end: 18909
 dependencies:
   - "A.1"
   - "A.10"

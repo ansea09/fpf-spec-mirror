@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
-section_id: "A.0:section-009"
-section_title: "9) Rationale"
+section_id: "A.0:9"
+section_title: "Rationale"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__010_9-rationale.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/A.0/A.0__010_rationale.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:section-009 — 9) Rationale"
-line_start: 1012
-line_end: 1015
+  - "A.0:9 — Rationale"
+line_start: 1183
+line_end: 1186
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -53,7 +53,7 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### 9) Rationale
+### A.0:9 - Rationale
 
 This pattern **instantiates P‑10 Open‑Ended Evolution** by making *generation‑selection‑publication* **operational** at the on‑ramp: readers get just enough shared vocabulary to run *search as standard practice*. It aligns with **Didactic Primacy (P‑2)** and **LEX‑BUNDLE (E.10)** by keeping definitions *plain‑first* and scale‑lawful, and with **Patterns Layering (P‑5)** by pointing to C.17–C.19 for formal anchors without tool lock‑in. The post‑2015 line (MAP‑Elites → CMA‑ME/MAE → Differentiable QD/MEGA → QDax; POET/Enhanced‑POET/Darwinian Goedel Machine) normalised **quality‑diversity** and **open‑endedness** as first‑class search objectives; this glossary surfaces those ideas as **publication standards**, not tool recipes.
 

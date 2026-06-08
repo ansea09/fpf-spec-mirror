@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
-section_id: "A.0:section-003"
-section_title: "3) Forces"
+section_id: "A.0:1"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__004_3-forces.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/A.0/A.0__002_problem-frame.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:section-003 — 3) Forces"
-line_start: 916
-line_end: 924
+  - "A.0:1 — Problem Frame"
+line_start: 1072
+line_end: 1075
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -53,12 +53,7 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### 3) Forces
+### A.0:1 - Problem Frame
 
-| Force                         | Tension                                                                         |
-| ----------------------------- | ------------------------------------------------------------------------------- |
-| **Readability vs Rigor**      | One‑liners for managers ↔ lawful definitions with editions and scale types.     |
-| **Creativity vs Assurance**   | Open‑ended search (OEE/QD) ↔ conformance, parity, and publication discipline.   |
-| **Comparability vs Locality** | Shared N‑U‑C‑D terms ↔ context‑local CG‑frames and bridges with CL.             |
-| **Tool‑agnostic Core**        | Conceptual publication in UTS ↔ engineering teams’ urge to cite specific tools. |
+Engineer‑managers meeting FPF for the first time need a **plain, on‑ramp vocabulary** for the framework’s *generative* engine so they can run an informed **problem‑solving/search loop** on day one—*before* formal specifications. Without that, Part G and Part F read as assurance/alignment only, and teams default to single “best” options. This **undercuts P‑10 Open‑Ended Evolution** and harms adoption.
 

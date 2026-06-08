@@ -6,12 +6,12 @@ section_id: "A.19.ECS:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__008_common-anti-patterns.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:7 — Common anti-patterns"
-line_start: 23260
-line_end: 23274
+line_start: 23436
+line_end: 23450
 dependencies:
   - "A.17-A.19"
   - "C.16"

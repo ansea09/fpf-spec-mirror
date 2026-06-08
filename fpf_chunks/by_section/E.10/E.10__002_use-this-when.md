@@ -6,12 +6,12 @@ section_id: "E.10:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__002_use-this-when.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:0 — Use this when"
-line_start: 58309
-line_end: 59139
+line_start: 58498
+line_end: 59332
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,6 +65,7 @@ Formal fields from the older LEX substrate are live only when the selected wordi
 Local patterns may cite the relevant `E.10` trigger row, but they should not reproduce large trigger lists or create local lexical registries unless a named local application profile has its own primary `EntityOfConcern`, first useful move, and governing-pattern boundary. New trigger families enter `E.10` only when they recur across FPF-governed texts and cannot be handled by one local pattern; specialized patterns receive the detailed ontology when the problem is no longer lexical. Stale or overly broad trigger rows are narrowed or retired.
 
 Self-application is bounded. When `E.10` is under improvement, use `E.10` only for its own wording-trigger repairs; use `E.21` for pattern-quality evaluation, `E.22` for improvement-oriented quality-evaluation framing, `E.23` for the improvement loop, `E.2.DA` for FPF-level Pillar effect, and neighboring pattern governing the claims for relation, episteme, publication, source-use, naming, or quality-word issues.
+
 #### E.10:0.1 - Scope split
 
 `E.10` governs lexical conformance for FPF pattern text, extracted pattern hosts, `FPF-Spec` monolith text, FPF governing documents, accepted `DRR` text, and any project, product, research, engineering, or review text that deliberately uses FPF terms, pattern references, FPF relation names, FPF kind claims, FPF admissibility claims, or claims FPF conformance.
@@ -196,6 +197,7 @@ EntityOfConcern rewrite:
   distinction preserved:
   remaining admissible reader move:
 ```
+
 ##### E.10:0.2c.2 - publication-unit wording that implies authoring or interpretation work
 
 When a phrase makes the bounded unit sound like authoring work or interpretation work, split the sentence by kind under repair.
@@ -485,6 +487,7 @@ Support-headed names such as `SupportRecord`, `SupportSource`, `SupportLine`, `S
 A support-headed phrase selected by an accepted `DRR`, pattern draft, table heading, schema field, coordinate name, or future drafting vocabulary is already durable enough to trigger `F.18` unless the text explicitly marks it as source-only, quote-only, or rejected. Do not accept `subject to F.18 later` as `E.10` closure when the phrase is already being used to guide authoring, review, landing, or reusable FPF wording. Either complete the naming decision now, replace the head with the selected interpretation named by value, or leave the naming issue blocking by value.
 
 If the sentence cannot name the scale, evidence class, threshold, relation, source-loss mode, EntityOfConcern, grounding holon, base relation, admissible-use target, or support-like interpretation named by value, it is not ready for architecture or pattern prose. `A.6.3.CSC` governs FPF-governed source-loss-mode governance; `A.6.P` governs support-like interpretation discrimination and relation precision restoration; `C.2.P` requires the wording to recover the governing pattern and mode.
+
 ##### E.10:0.2c.19 - Applying patterns versus procedural calls
 
 FPF patterns are applied in problem situations.
@@ -568,6 +571,7 @@ If context changes the EntityOfConcern, apply the `EntityOfConcern`, grounding, 
 A translated term is not automatically the same FPF head. A translation may preserve reader access while losing kind precision, admissible use, source-use boundary, or source-description relation. A bilingual alias is not a Bridge by itself and does not create equivalence, substitution, UTS admission, or cross-context naming relation.
 
 When translated wording has FPF-governed use, recover the FPF kind named by value, local head, publication construction, source relation, and admissible use before accepting the translation. A translated explanation is a derivative rendering; operative claims need source links and `E.17.EFP` or `A.10` when reliance use is being made. A translated `PublicationUnit` may preserve form while shifting `publicationUnitPrimaryEntityOfConcern` or carried publication move; apply `E.17.AUD` or `E.17.AUD.OOTD` when that shift is live. Local translated heads may use `E.17.AUD.LHR` or `C.2.P` without full `F.18` unless durable cross-context naming, UTS row, Core-facing term, or reusable FPF head is intended.
+
 ##### E.10:0.2c.25 - `state`, `status`, `posture`, `readiness`
 
 Do not let state-family wording become a maturity adjective, evidence claim, assurance result, gate passage, release permission, source authority, work completion, or process state by appearance.

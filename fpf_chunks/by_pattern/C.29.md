@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 50218
-line_end: 51555
+line_start: 50400
+line_end: 51737
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -1399,7 +1399,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 - **Coordinates with:** `A.6.0`, `A.6.1`, `E.18.1`, `C.11`, `A.15.1`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `C.31.ASAP`, `G.5`, `G.9`, `G.2`, `G.10`.
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
-- **Neighboring claims stay with their governing patterns.** Use `F.9` for bridges; `C.28` for causal use; `A.3.3` for dynamics semantics; `A.19` and `C.16` for characteristic-space and measurement construction; `A.10` and `B.3` for evidence and assurance; `C.11`, `A.15`, `A.15.1`, and `A.15.4` for decision, method, and work records; `E.17.*` for explanation and comparative-review publication use; `A.6.3.RT` and `A.6.3.CSC` for representation transition and coarsening; `C.27`, `C.18.1`, `C.19.1`, and `C.31.ASAP` for temporal, scale-law, method scale-preference, and architecture scale-preference claims; and Part G for selector and benchmark work. C.29 records only the declared mathematical-lens use and the neighboring-pattern handoff for the claim being made.
+- **Neighboring claims stay with their governing patterns.** Use `F.9` for bridges; `C.28` for causal use; `A.3.3` for dynamics semantics; `A.19` and `C.16` for characteristic-space and measurement construction; `A.10` and `B.3` for evidence and assurance; `C.11`, `A.15`, `A.15.1`, and `A.15.4` for decision, method, and work records; `E.17.*` for explanation and comparative-review publication use; `A.6.3.RT` and `A.6.3.CSC` for representation transition and coarsening; `C.27`, `C.18.1`, `C.19.1`, and `C.31.ASAP` for temporal, scale-law, method scale-preference, and architecture scale-preference claims; and Part G for selector and benchmark work. C.29 records only the declared mathematical-lens use and the governing-pattern boundary for the claim being made.
 
 ### C.29:End
 

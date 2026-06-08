@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 59942
-line_end: 59958
+line_start: 60135
+line_end: 60151
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,13 +33,14 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -58,5 +59,5 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 **Builds on.** `E.10`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `F.18`, `E.8`, `E.19`, and `E.2`.
 
-**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `J.4`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
+**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `E.11`, `I.2`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
 

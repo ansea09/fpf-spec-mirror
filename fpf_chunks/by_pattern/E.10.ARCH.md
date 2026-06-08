@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-line_start: 59942
-line_end: 60199
+line_start: 60135
+line_end: 60398
 dependencies:
   - "A.17"
   - "A.18"
@@ -32,13 +32,14 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -57,7 +58,7 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 **Builds on.** `E.10`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `F.18`, `E.8`, `E.19`, and `E.2`.
 
-**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `J.4`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
+**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27`, `C.29`, `F.19`, `E.21`, `E.11`, `I.2`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
 
 ### E.10.ARCH:0 - Use this when
 
@@ -148,18 +149,20 @@ For wording such as `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `D
 - Exact evidence, assurance, gate, work, decision, architecture, characteristic, mathematical-lens, or project-side patterns receive their own claim being made or admissible-use boundary directly when it is already recoverable.
 
 This selected-family case is the standing example for recurring hidden-field architecture. When a new hidden-field family recurs, it is not solved by adding local warning prose to every subject pattern. It either uses an existing governing pattern, gets one applicability row in this table, or justifies a new realization pattern only when the hidden field set, recovery apparatus, and remaining reader move recur across FPF-governed texts.
+
 ### E.10.ARCH:2a - Rationale and source-use lines
 
 This distribution is selected because the recurring failure is not "too few word rules". The failure is that repair-only trigger prose migrates into subject patterns and begins to compete with their primary `EntityOfConcern` and first useful moves. A common symptom is a non-semio pattern whose Solution mainly teaches that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence record, assurance verdict, decision, gate passage, release, work occurrence, or authority source. Those guards are often correct, but their ontology is publication pragmatics, description pragmatics, and neighboring-pattern assignment, not the subject matter of the architecture, method, role, evidence, or characterization pattern. A workable FPF answer therefore needs three separations at once: a cheap shared trigger scan in `E.10`, a shared recovery architecture in `E.10.ARCH`, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a remaining reader move.
 
 | Source or practice line | Source-use role | What the line changes in `E.10.ARCH` |
 | --- | --- | --- |
-| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, and `J.4`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, sends relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, and naming cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
+| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, sends relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
 | Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin governing-pattern pointers and blocks local trigger-registry copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
 | Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
 | Current governing-pattern growth in FPF. | Reopen pressure, not proof of this pattern's authority. | Requires a row to be removed, narrowed, or changed when a new governing pattern can carry the EntityOfConcern under repair, relation, claim, or local field directly, or when realization patterns start copying the shared algorithm back into local prose. |
 
 The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new governing pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
+
 ### E.10.ARCH:3 - Shared recovery algorithm
 
 Use this recovery order for FPF-relevant wording-use restoration cases. Each realization pattern may publish a compact local form, but the order stays shared.
@@ -229,6 +232,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or characterization use named by value;
 - use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or governing pattern;
 - use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance.
+
 ### E.10.ARCH:8 - Name and placement discipline
 
 `semanticArea` is the selected Part-F Tech term for the semantic unit used by a wording-use restoration row. Plain speech may say "semantic area" or "meaning area" only as a gloss for that declared Part-F row or bounded row-set.
@@ -252,6 +256,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | "The function improved maintainability." | `A.6.F` first recovers the FPF kind named by value, relation, or claim when hidden; quality or maintainability wording then goes to `C.16.P`, `C.16.Q`, `C.25`, or quality pattern governing the claim when live. | function-as-default-architecture; maintainability-as-unscaled verdict. |
 | "Read this pattern for improvement proposals." | Recover whether the live FPF-governed use is source-publication use, bounded comparative review unit, or improvement-oriented evaluation. Use `E.22` only for improvement-oriented quality review under a declared pattern-under-improvement evaluation. | generic reading as a pattern. |
 | "This summary is enough for action." | `E.10` checks whether the wording is precision restoration or controlled precision reduction. If coarsened source-to-rendering use is live, `A.6.3.CSC` names source-bearing side, loss mode, narrower admissible use, non-admissible downstream use, and reopen condition. | summary-as-full source; coarsening without declared loss. |
+
 ### E.10.ARCH:10 - Conformance checklist
 
 | Check | Requirement |
@@ -269,6 +274,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. None of them becomes workstream, campaign, module, or authority-bearing record. |
 | `CC-E10ARCH-9` | Repair removes overread and preserves one useful admissible reader move. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation checks cover duplicate trigger tables, stale quality-term-restoration links, broad `U.*` heads, shadow restoration apparatus, and entry or index drift. |
+
 ### E.10.ARCH:11 - Common anti-patterns
 
 | Anti-pattern | Symptom | Repair |
@@ -297,6 +303,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - `F.19` governs phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
-- `J.4` helps readers enter the correct pattern from broad or old terms.
+- `E.11` governs entry-distribution and sends broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.
+
 ### E.10.ARCH:End
 

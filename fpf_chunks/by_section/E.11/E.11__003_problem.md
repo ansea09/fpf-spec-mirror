@@ -6,29 +6,34 @@ section_id: "E.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__003_problem.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:2 — Problem"
-line_start: 60742
-line_end: 60749
+line_start: 60928
+line_end: 60937
 dependencies:
-  - "A.6.RSIG"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.19"
+  - "E.21"
   - "E.8"
-  - "F.17"
   - "F.18"
+  - "F.19"
   - "I.2"
-  - "J.4"
 keywords:
-  - "& Search Queries gives sparse"
+  - "Public first-entry explanation or durable pattern semantics"
+  - "dependencies"
+  - "query phrases"
 ---
 
 ### E.11:2 - Problem
 
-Pattern-entry discoverability loads are spread across `Preface`, `J.4`,
-`I.2`, local pattern `Problem frame`s, table-of-content query rows, and
-lexical-support patterns. Without one governing pattern for their split, readers
-can infer false sequence, wrong pattern, wrong governing pattern body, or shadow
-projection authority because the support roles are under-governed.
+Entry material fails in three recurring ways.
+
+First, it becomes too internal. It starts with FPF diagnoses such as "roles and methods are mixed" even though a working practitioner only knows that they need an architecture review, a regulation, a decision, or a better name.
+
+Second, it becomes a duplicate corpus. A separate first-entry index repeats `readme` scenarios, then each pattern repeats the same related-pattern fanout list, and soon FPF carries several slightly different entry arrangements.
+
+Third, it becomes too authoritative. A projection row, heading, card, or `readme` paragraph starts answering as if it were the pattern body. That is projection drift: a finding aid becomes a shadow source.
 

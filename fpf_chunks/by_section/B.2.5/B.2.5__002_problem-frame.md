@@ -6,12 +6,12 @@ section_id: "B.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_problem-frame.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:1 — Problem frame"
-line_start: 31253
-line_end: 31265
+line_start: 31429
+line_end: 31441
 dependencies:
   - "A.1"
   - "A.12"
@@ -40,5 +40,5 @@ What goes wrong if B.2.5 is missed: the supervised holon, supervisor transformer
 What B.2.5 buys in practice: the practitioner can keep useful supervisor/subholon language while naming the acting role, medium, returned influence, and governing pattern for any stronger claim being made.
 Not this pattern when the issue under repair is only a control-structure view, reusable dynamics law, rate/timing claim, causal intervention claim, evidence or assurance claim, gate decision, or module-interface relation. Use `C.30.LCA`, `A.3.3`, `C.27`, `C.28`, `A.10`/`G.6`, `B.3`, `A.20`/`A.21`, or `A.6.M` as appropriate.
 
-The primary EntityOfConcern is one supervisor-subholon feedback-loop relation. Stability, safety, evidence sufficiency, gate readiness, causal validity, or assurance claims remain neighboring claims under their governing patterns when they are live.
+The primary EntityOfConcern is one supervisor-subholon feedback-loop relation. Stability, safety, evidence sufficiency, gate readiness, causal validity, or assurance claims remain neighboring claims under their governing patterns when those claims are being made.
 

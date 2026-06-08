@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.Q.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
-line_start: 41283
-line_end: 42053
+line_start: 41459
+line_end: 42235
 dependencies:
   - "A.10"
   - "A.16"
@@ -84,6 +84,7 @@ When `E.10` encounters `quality`, `good`, `fit`, `high-quality`, `quality metric
 This pattern does not assert that phenomenal character or qualia, phenomenological preconceptual fit, Pirsig-style dynamic quality and static quality, latent fit in learned representations, explanatory merit, engineering `-ilities`, QD and NQD selector value, and control adequacy are one concept.
 Its job is to publish a disciplined evaluative-characterization use across those traditions while preventing false identity by shared label.
 It also does not assert that every trigger use of "quality" is admissibly repaired by the transitional quality-term repair form: where the repaired statement is primarily about an action invitation under `A.6.A`, relation construction under `A.6.P`, or a requirement or commitment over explicit heads, the admissible move is to exit to the pattern governing the recovered claim rather than assigning a quality-term or evaluative characterization.
+
 ### C.16.Q:0 - Use this when
 
 Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, `quality characteristic`, `quality improved`, or an evaluative `-ility` claim hides which quality or evaluative-characterization use is live.
@@ -240,6 +241,7 @@ So the sentence "X has quality" is never accepted as a terminal form. It must be
 
 **Separation note.**
 `evaluator` and `viewpoint` are not synonyms. When both matter, publish them separately: the evaluator is the observing, criticizing, or selecting party or policy, while the viewpoint is the declared `U.Viewpoint` under which the ascription is presented.
+
 #### C.16.Q:4.1b - Polarity discipline (bearer-centred; no silent inverse)
 
 `qualityTermAscription` is bearer-centred.
@@ -410,6 +412,7 @@ A conforming objective contains:
 * acceptance or selector policy,
 * reference plane and window,
 * relation to novelty, diversity, and constraints.
+
 #### C.16.Q:4.6 - Functional vs quality-family discipline
 
 C.16.Q SHALL prevent the collapse of **function or capability** claims into **quality-family** claims.
@@ -519,6 +522,7 @@ C.16.Q permits monotone elaboration:
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
 A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with one `QualitySense`, one bearer tuple, one evaluation frame, one evaluator and viewpoint, one admissible normal form, explicit scope, time, and bridge qualifiers when they matter, and declared endpoint-governing pattern or explicit endpoint source relation.
+
 #### C.16.Q:5.2 - Show (System lane)
 
 **Draft:** “The model quality improved.”
@@ -795,7 +799,7 @@ Reopen or narrow C.16.Q when any of these current-pattern-language conditions be
 * a new endpoint governing pattern can govern a class of uses that currently require transitional `qualityTermAscription(...)`;
 * `A.7`, `C.2.P`, `C.2.1`, or bridge-policy vocabulary changes the admissible lane, EntityOfConcern, publication-face, carrier, or `ReferencePlane` wording used by this pattern;
 * current best-known practice changes a `QualitySense`, normal-form boundary, action-invitation boundary, scale-legality boundary, or source-use and currentness row used in `C.16.Q:11`;
-* `J.4` first-entry projection changes for quality, characteristic, action-invitation, architecture-description, selector, or explanation wording;
+* README, ToC, `E.11`, retrieval, or local Problem-frame first-entry cues change for quality, characteristic, action-invitation, architecture-description, selector, or explanation wording;
 * subject patterns begin copying quality trigger lists, `QualitySense` rows, or transitional repair-form slots that belong in this first-stage quality-term precision-restoration pattern.
 
 The refresh action is to remove, narrow, or redirect the affected row or exit. Do not preserve a stale `QualitySense`, endpoint exit, lane wording, or source row as historical compatibility text.
@@ -806,6 +810,7 @@ The refresh action is to remove, narrow, or redirect the affected row or exit. D
 * **Builds on:** **E.10.ARCH** for shared wording-use restoration architecture; **C.16.P** for characteristic and scale exits; **A.2.6** for explicit scope and `Γ_time`; **A.17, A.18, and C.16** for admissible measurable characteristics; **C.25** for engineering `Q-Bundle` publication.
 * **Coordinates with:** **A.6.P** when the recovered content is relation construction rather than quality-term or evaluative characterization; **A.6.A** or another action-invitation governing pattern when the trigger invites action rather than evaluates a bearer; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves, early cue handling, responsibility handoff, and admissible retreat or reopen; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for prompt-shaped continuations that are not yet stable endpoint publication; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance; **C.17, C.18, and C.19** for `QS.UseValue`, novelty and diversity discipline, and selector policy; **E.17.0** and **E.17.2** for architecture-description and viewpoint bundles; **F.9** and **F.9.1** for Bridges, CL, and bridge-stance annotations; **A.6.B** when repaired ascriptions become boundary-bearing.
 * **Publishes vocabulary through:** **E.10, F.17, and F.18** when the `qualityTermAscription` repair-form skeleton, the `QualitySense` starter set, and the red-flag rewrites become stable shared vocabulary.
+
 #### C.16.Q:12.1 - Language-space refactor note
 This pattern uses **endpoint-first assignment** rather than universal governance of all quality language. `qualityTermAscription(...)` remains useful as a transitional repair form, but it is not the required resting place or durable local record kind for every repaired use of `quality`.
 
@@ -822,5 +827,6 @@ Bare `quality` in Tech prose should therefore be banned or rewritten immediately
 
 #### C.16.Q:12.3 - Endpoint-governance boundary
 This pattern does not govern articulation-state characteristics, bridge stances, or representation factors. Those remain governed by `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, and `F.9.1`.
+
 ### C.16.Q:End
 

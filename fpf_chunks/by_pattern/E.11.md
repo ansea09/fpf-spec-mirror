@@ -6,576 +6,345 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 60691
-line_end: 61246
+line_start: 60890
+line_end: 61211
 dependencies:
-  - "A.6.RSIG"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.19"
+  - "E.21"
   - "E.8"
-  - "F.17"
   - "F.18"
+  - "F.19"
   - "I.2"
-  - "J.4"
 keywords:
-  - "& Search Queries gives sparse"
+  - "Public first-entry explanation or durable pattern semantics"
+  - "dependencies"
+  - "query phrases"
 ---
 
 ## E.11 - First-Practical Entry and Pattern-Use Discoverability Discipline
 
-> **Type:** Architectural pattern
+> **Type:** Pattern-language governance pattern (E)
 > **Status:** Stable
-> **Normativity:** Normative unless marked informative
+> **Normativity:** Normative for FPF entry, projection, and discoverability publication units.
 
-### E.11:1 - Problem frame
+**At a glance.** `E.11` governs how FPF helps a working practitioner find the first useful pattern family without turning entry material into a shadow table of contents, universal method sequence, conformance authority, or second pattern body. The public first-entry publication unit is the FPF `readme` section: it starts from ordinary project needs and first useful results. The `Preface` explains the cross-cutting ideas behind those entries in plain engineering language before it relies on FPF terms. Local pattern `Problem frame` sections carry the high-precision recognition role. Separate duplicate first-entry indexes are not maintained when they repeat the `readme` scenario set.
 
-One cold reader often enters `FPF` with one ordinary work phrase rather than one
-pattern ID. The reader may see several plausible patterns, one search result,
-one `Preface` blurb, one `J.4` row, or one local pattern opening, but still not
-know which authoritative pattern to inspect first, which nearby pattern is only
-support or a tempting wrong first stop, and where the admissible entry stop belongs.
+**Use this when.** Use this pattern when a first-entry publication unit, table-of-content cue, `readme` section, Preface text, retrieval card, lexical query row, or pattern-local recognition text could change which FPF pattern family a user should inspect and apply first.
 
-Pattern-entry discoverability is the discipline that makes that first
-recognition honest without turning the pattern language into workflow.
+**First output.** A discoverability arrangement that names the public first-entry scenario, the first admissible governing pattern or small candidate pattern set, the local wrong-pattern boundary, and the publication unit that carries each piece.
 
-Use this pattern when the reader can name the entry load in ordinary work language
-but still cannot tell which pattern to inspect first, which nearby pattern is
-only support, and where the first admissible entry stop belongs.
+**Primary EntityOfConcern.** One entry or discoverability publication unit in FPF: `readme` first-entry scenario text, Preface principle explanation, ToC query row, expanded entry-disambiguation case, retrieval cue, or pattern-local Problem-frame recognition text.
 
-What goes wrong if this pattern is missed:
+**What this buys.** A practitioner can start from a real project question instead of from FPF's internal topology, while FPF keeps pattern authority in the governing pattern body and avoids a duplicate navigation canon.
 
-- `Preface`, `README`, `J.4`, one search result, or one local top is treated as
-  if it were the authoritative pattern rather than one projection or support
-  role;
-- one plausible nearby pattern becomes a hidden required next step because
-  entry language turns into workflow language;
-- lexical support turns into synonym stuffing instead of governed query cues;
-- readers repeat the same wrong first guesses because the corpus never
-  publishes one explicit first-entry pattern-comparison discipline.
+### E.11:1 - Problem Frame
 
-What this pattern buys:
+FPF has many patterns. New users do not usually arrive saying "I need A.15" or "I need C.30.AD." They arrive with project questions:
 
-- the first honest entry load becomes nameable near the point of use;
-- candidate patterns, tempting wrong patterns, and admissible entry stops become
-  visible without minting a workflow;
-- support/projection roles can help the reader recover the right pattern
-  without competing with the governing pattern body.
+- "I need to design or review architecture."
+- "I need to write a regulation, method, boundary, contract, API, or work-process document."
+- "I need to compare options without jumping to one favorite."
+- "I need to turn a vague situation into a problem."
+- "I need to say what better means before improving."
+- "I need to know what evidence or assurance is missing."
+- "I need to keep a temporal, freshness, rate, or action-window claim honest."
+- "I need to use causal claims, model outputs, interventions, or responsibility claims safely."
+- "I need to publish, compare, or rely on descriptions, views, dashboards, or explanations of the same entity."
+- "I need better names for project entities."
+- "I need to repair a technical text."
+- "I need to know whether mathematics would help."
+- "I need the field of current options or state of the art."
 
-Ordinary not-this-pattern boundary:
+Those project questions need public first-entry scenarios. They should not be forced through a compact internal index before the user has recognized what FPF can do.
 
-- not when the real entry load is first-contact recognition of one single
-  encountered description; use `A.6.RSIG`;
-- not when the real entry load is already one published route, language-state cue,
-  endpoint publication line, or work sequence;
-- not when the authoritative pattern is already known and the remaining job is
-  only didactic order or lexical repair;
-- not when a formal quality claim about discoverability is being made; route
-  that quality claim through `C.25` / `C.16.Q` as applicable.
+At the same time, first-entry text is dangerous when it becomes too powerful. A `readme` blurb, table row, search cue, or example can start acting as if it defines the pattern, prescribes a universal method sequence, or grants authority that belongs only in the governing pattern.
 
 ### E.11:2 - Problem
 
-Pattern-entry discoverability loads are spread across `Preface`, `J.4`,
-`I.2`, local pattern `Problem frame`s, table-of-content query rows, and
-lexical-support patterns. Without one governing pattern for their split, readers
-can infer false sequence, wrong pattern, wrong governing pattern body, or shadow
-projection authority because the support roles are under-governed.
+Entry material fails in three recurring ways.
+
+First, it becomes too internal. It starts with FPF diagnoses such as "roles and methods are mixed" even though a working practitioner only knows that they need an architecture review, a regulation, a decision, or a better name.
+
+Second, it becomes a duplicate corpus. A separate first-entry index repeats `readme` scenarios, then each pattern repeats the same related-pattern fanout list, and soon FPF carries several slightly different entry arrangements.
+
+Third, it becomes too authoritative. A projection row, heading, card, or `readme` paragraph starts answering as if it were the pattern body. That is projection drift: a finding aid becomes a shadow source.
 
 ### E.11:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| High recall vs high precision | Coarse orientation helps the reader enter quickly without creating false confidence or false sequence. |
-| Local fit vs corpus consistency | Pattern-local cues stay honest while the corpus avoids stale echoes and duplicated load-bearing guidance. |
-| Subject-domain wording vs canonical wording | Readers search in real phrases, but canonical names and governed distinctions stay admissible. |
-| Quick orientation vs anti-workflow discipline | Entry support helps pattern selection without reading like route execution, handoff, or pipeline. |
-| Reader economy vs fanout control | More support roles can help entry, but repeated near-duplicate guidance creates contradiction risk and maintenance cost. |
-| Human and AI-assisted retrieval vs authority | Retrieval may return helpful fragments, but fragments must not answer as if they were the applicable governing pattern body. |
+| Project recognizability | The public entry must start from ordinary project questions, not from internal pattern topology. |
+| Technical precision | The entry must still make the first admissible governing pattern recoverable. |
+| Low burden | A newcomer should not need to fill forms or parse a compact index before seeing value. |
+| Plain credibility | A newcomer should see the project value and the idea behind it before seeing forms, pattern ids, or FPF internal vocabulary. |
+| No duplicate canon | `readme`, Preface, ToC, local pattern Problem frames, and expanded cases must not carry competing first-entry arrangements. |
+| No semio-bias | Wording and description repair must be visible, but FPF must not present itself mainly as a language-policing framework. |
+| Corpus evolution | New patterns may change first-entry scenarios, but entry material must update without copying whole pattern bodies into projections. |
 
-### E.11:4 - Solution
+### E.11:3.1 - Practice Grounding
 
-#### E.11:4.1 - Entry-discoverability object, non-goals, and non-minting boundary
-
-`E.11` governs pattern-entry discoverability for `FPF` and
-`FPF`-conformant pattern-language support roles: the coordination discipline by which one
-reader can bring plausible authoritative patterns into view, compare them,
-reject tempting wrong patterns and wrong governing pattern bodies, use admissible
-projection/support roles, and reach one admissible entry stop or entry-load
-reclassification without reading the pattern language as workflow.
-
-In `E.11`, the live entry-discoverability case is pattern-entry discoverability. Description
-discoverability remains governed by `A.6.RSIG`; `E.11` mentions it only to
-preserve the semantic-name settlement and support-role partition.
-
-`E.11` does not govern:
-
-- discoverability trigger-word repair or naming assets that belong to
-  `A.6.P / F.18 / E.10`;
-- description-recognition signatures in general, which belong to `A.6.RSIG`;
-- local first-reading placement and form, which belong to `E.8`;
-- `DRR` and campaign content decisions, which belong to `E.9`;
-- ordinary pattern authoring and pattern-content changes, which belong to `E.8`
-  plus the governing domain pattern unless a live pattern-entry discoverability
-  defect is being repaired;
-- didactic order, learning order, cognitive-load ramping, tutorial sequence,
-  progressive mastery, and teaching examples after the relevant pattern family
-  has already been identified;
-- workflows, process routes, control-flow graphs, prescribed method sequences,
-  work handoffs, or runtime execution stops;
-- the governing semantics of referenced patterns;
-- formal quality treatment, which belongs to `C.25` / `C.16.Q` when the claim
-  becomes evaluative;
-- graph ontology in `E.18`.
-
-This pattern does not mint one new `U.Discoverability`, `RelationKind`,
-`PatternKind`, `StatusKind`, publication face kind, publication form kind, carrier kind, graph node, or workflow state.
-
-#### E.11:4.2 - Pattern-entry discoverability claim and FPF strata
-
-Pattern-entry discoverability is one composite quality-facing concern over
-whether one reader can:
-
-- bring the right candidate patterns into view, together with any admissible
-  support roles needed for comparison;
-- recognize applicability or non-applicability;
-- avoid common wrong patterns, wrong governing pattern bodies, or projection-only
-  fragments answered as if they were authoritative;
-- reach one admissible entry stop or entry-load reclassification.
-
-This pattern keeps these semantic heads distinct:
-
-| Head | Working meaning here |
+| Practice family | Rule impact in E.11 |
 | --- | --- |
-| `pattern-entry discoverability` | one composite entry quality over a support/projection stack inside a pattern language |
-| `description-recognition signature` | one first-contact cue structure of one encountered description, governed by `A.6.RSIG` |
-| `first-reading role` | the local reading job carried by an existing pattern section or projection; not a new surface kind |
-| `lexical-query support` | cue-to-pattern/source access through the reader's words, domain phrases, and query cues without alias minting |
-| `ExpandedEntryDisambiguationCase` | one bounded `I.2` case that expands compact first-entry comparison when wrong-pattern risk, repeated failure, retrieval-facing use, or compact guidance insufficiency is live |
-| `FirstEntryPatternComparisonSet` | one case-relative `E.11` or `Part J` navigation grouping of plausible candidate patterns, tempting wrong patterns, entry-load reclassifications, and admissible entry stops; not `semanticArea`, not `ontologicalNeighborhood`, not `pattern nest`, not ToC proximity, and not a structure of `FPF` itself |
-| `thin echo` | lower-case projection discipline: a reminder or pointer, not a `U.Type`, publication-face kind, or authority relation |
+| Information foraging and information scent | A first-entry cue must expose a recognizable working project question before it names internal FPF topology. Scenario heads therefore use architecture, comparison, timing, evidence, naming, mathematics, publication-use, or improvement questions, not only pattern ids. |
+| Technical-documentation front doors and front-matter practice | Public orientation belongs in the FPF `readme` section. The Preface explains principles, while the governing pattern body carries normative detail. |
+| Search and retrieval cue practice for technical corpora | ToC rows, lexical query rows, and retrieval cards are finding aids. They may help a user locate the governing pattern, but they do not define the claim or replace the pattern body. |
+| FPF projection-as-finding-aid discipline | A projection publication unit must name what it can and cannot decide. If the substantive claim changes, the governing pattern or a pattern for that claim must be used. |
 
-None of those heads is a synonym for the others. This pattern routes each
-effect to its applicable governing pattern body or applicable projection role rather than letting
-`discoverability` become one semantic swamp.
+### E.11:4 - Solution - Assign Each Entry Publication Unit One Job
 
-Reader-facing entry language speaks primarily in pattern-language terms:
-`candidate pattern`, `nearby pattern`, `tempting wrong pattern`, `entry-load
-reclassification`, `admissible entry stop`, `thin echo`, and `applicable governing pattern body`.
+Use this distribution.
 
-`owner` and `ownership` are not default reader-facing terms here. Use them only
-when the question under repair is responsibility or stewardship assignment, process-law owner-set
-control, or explicit authority-conflict diagnostics; do not use them as substitutes
-for candidate pattern, nearby pattern, publication, file carrier, or project record.
-
-#### E.11:4.3 - Pattern-language navigation stance and case-orientation snapshot
-
-A `FirstEntryPatternComparisonSet` is one case-relative editorial grouping of plausible
-candidate patterns, case-near patterns, common misclassifications, entry-load
-reclassifications, and admissible entry stops under one first honest entry load.
-It is a navigation object for pattern selection, not an ontology object. It does
-not name a `semanticArea`, an `ontologicalNeighborhood`, a `pattern nest`, a
-table-of-content proximity relation, or one structure of `FPF` itself.
-
-`candidate patterns` here are case-plausible patterns to inspect under one
-named entry load. They are not `OptionSet`s, candidate pools, selected sets, or
-selector outputs unless another authoritative pattern explicitly promotes that
-structure.
-
-`nearby pattern` means case-near for recognition, disambiguation, or entry-load
-reclassification. It does not mean next, required, dependent, broader,
-narrower, or pedagogically prior.
-
-Authors can use one lower-case `case-orientation snapshot` as an editorial lens
-over the current cues, current entry-load hypothesis, plausible candidate patterns,
-tempting wrong pattern, disambiguating fact, admissible entry stop, and current
-reading role. It is not one canonical persisted object and does not create a
-transition history.
-
-Minimal example:
-
-```text
-case_signal = "we need a shortlist, not one winner"
-current_entry_load_hypothesis = selected-set publication or candidate-pool policy
-plausible_candidate_patterns = C.19; G.5 only when selected-set publication is live
-nearby_patterns_or_reclassifications = C.11, C.24, A.19 comparator/selector supports
-tempting_wrong_pattern = C.11
-disambiguating_fact = output remains a governed set, not one local choice
-admissible_entry_stop = inspect C.19 if pool policy is live; inspect G.5 if publication is live; inspect C.11/C.24 only after the entry load narrows
-
-```
-
-#### E.11:4.4 - Entry-orientation labels and entry-load reclassification discipline
-
-The local `FPF` application of this pattern is the coordination discipline for
-first-practical entry orientation over the `FPF` pattern language: support-role
-partition, entry-bearing vs nearby-pattern discipline, entry-load-reclassification
-presentation, thin-echo discipline, entry-lexeme-support hooks, and review
-hooks.
-
-Route-shaped wording can blur entry orientation with admissible publication seams,
-early language-state route publication, endpoint publication, `A.6.B` L/A/D/E-classified claim
-structure, `DRR` claim routing, or actual method sequencing or work sequencing. Repair that
-blur by typing the live entry load explicitly rather than by treating every
-route-shaped phrase as entry guidance.
-
-Use this placement test whenever one pattern-entry discoverability-bearing
-claim or wording repair is being placed:
-
-| If the claim is about... | Route it to... |
-| --- | --- |
-| first bringing candidate patterns into view through reader words, domain phrases, or query cues | lexical-query support under `F.17, F.18, and E.10`, coordinated by `E.11` only where the pattern-entry load is live |
-| one description's first-contact recognition, truthful applicability signal, or defining `U.Episteme` | `A.6.RSIG` |
-| choosing among patterns, candidate patterns, nearby patterns, wrong governing pattern bodies, or entry-load reclassifications inside the pattern language | `E.11` |
-| the admissible local `Problem frame` first-reading role, reading order, or recognition/assurance relation | `E.8` |
-| review trigger, evidence-mode selection, or cross-role parity checks for one pattern-entry discoverability-bearing change | `E.19 / PCP-ENTRY` |
-| one compact pattern-comparison row or expanded entry-disambiguation case over already-authoritative pattern-entry discoverability content | `J.4`, `I.2`, `Preface`, the pattern `Problem frame`, or lexical support according to the governing-role map |
-| the order in which one already-identified area is learned or taught | `E.6`, `E.7`, `E.12`, `F.16`, and the appropriate tutorial views or walkthroughs |
-| cue preservation, route-bearing publication, or endpoint publication | `A.16`, `A.16.1`, `B.4.1`, or the relevant publication pattern |
-| one actual work sequence, method, plan, episteme publication, work-result record, or execution stop | the relevant pattern for method description, work planning, or work occurrence rather than `E.11` |
-| the meaning of the actual pattern, method, boundary description, or other entry-discoverability object | the relevant authoritative pattern or governing pattern/source rather than the entry support role |
-
-`E.11` uses only lower-case editorial labels when reviewers need a compact
-diagnostic vocabulary:
-
-- entry-orientation labels: `candidate-pattern`, `nearby-pattern`,
-  `entry-load-reclassification`, `common-misclassification`;
-- projection-support labels: `lexical-support`, `expanded-entry-disambiguation`;
-- entry-posture labels: `entry-bearing`, `participant-only`,
-  `entry-load-critical`;
-- projection-purpose labels: `global-entry orientation role`,
-  `catalogue-search support role`, `pattern-comparison index role`,
-  `expanded-entry-disambiguation support role`, `Problem-frame recognition role`,
-  `entry-lexeme support role`, `review-profile role`, `assurance-support role`.
-
-These labels are optional reviewer/editor vocabulary. They are not exported
-kind families and are not required authoring dimensions for ordinary pattern
-repairs.
-
-#### E.11:4.5 - Support-role partition, Problem-frame first-reading discipline, and README boundary
-
-The concrete `FPF` application uses distinct support/projection roles:
-
-- `Preface` gives coarse global orientation;
-- `Table of Content` `Keywords & Search Queries` gives sparse
-  catalogue-search and lexical-query support;
-- `J.4` gives compact first-entry pattern comparison;
-- `I.2` gives expanded entry-disambiguation cases for high-risk or compact-insufficient
-  cases;
-- the pattern's own `Problem frame` gives the primary local first-reading role;
-- `F.17, F.18, and E.10` carry entry-lexeme support;
-- `README` can echo the Core entry architecture and point to `Preface`, `J.4`,
-  `I.2`, and selected pattern families.
-
-`README` remains downstream of Core and does not introduce first-entry pattern-comparison sets,
-candidate patterns, or lexical names absent from Core. It changes when public
-entry claims change materially, not for every internal local wording repair.
-
-Canonical first-entry pattern-comparison rows or row sets can use compact lexical-query support when the
-lexical entry load is real. Query cues are retrieval aids, not aliases, Bridges,
-equivalence claims, or semantic twins. A query cue becomes an alias only through
-the relevant lexical/naming pattern or `authoritySourceRef` target.
-
-Minimal visible lexical-query shape:
-
-```text
-canonical_label
-plain_twin_if_governed
-visible_query_cues
-domain_query_examples
-deprecated_cues
-false_friends_or_forbidden_synonyms
-```
-
-Ordinary lexical-query support stays sparse:
-
-- ordinary `Table of Content` rows: prefer `2-5` high-signal query phrases;
-- ordinary `J.4` rows: keep only the most discriminating domain phrases and
-  false friends;
-- fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
-  naming, alias, bridge, or collision question exists.
-
-#### E.11:4.6 - Fanout, thin-echo discipline, and semantic parity
-
-Each entry/discoverability claim names one most applicable pattern body or governing
-projection role. Other mentions remain thin echoes.
-
-| Claim payload | Governing FPF pattern, source-maintenance role assignment, or projection role | Thin echoes allowed in |
+| Publication unit | Job | Not its job |
 | --- | --- | --- |
-| trigger-word repair and naming fix | `A.6.P`, `F.18`, and `E.10` | quoted local reminders only when needed for user safety |
-| description-recognition-signature claim | `A.6.RSIG` | one bounded publication/view cue under `E.17` when needed |
-| compact first-entry pattern-comparison row | `J.4` | `Preface`, README, one pattern's `Problem frame` |
-| expanded entry-disambiguation case | `I.2` | one compact `J.4` pointer |
-| local problem-frame recognition cue | the pattern `Problem frame` under `E.8` | `J.4` as cross-pattern comparison |
-| lexical-query cue | `F.17`, `F.18`, or `E.10`; or a bounded ToC or J.4 support hook | `I.2`, README, and local prose only as sparse cues |
+| FPF `readme` section | Public first-entry scenarios for working projects; plain explanation of what FPF is and where it helps first. | Pattern authority, conformance rules, full ToC, internal governance evidence, or duplicate pattern body. |
+| `Preface` | Plain-engineering narrative explaining why the first-entry scenarios are credible: transdisciplinarity, local closure, holons, EntityOfConcern and description, multi-view publication, architecture as structure, epiplexity, first-principles-to-work, mathematical modeling and FormalSubstrate distinctions, ontology-first repair, evidence/assurance boundaries, characteristic spaces, NQD/OEE, state of the art, didactic primacy, and FPF as a whole project with companion explanations and tools. | Repeating the scenario table, defining a second entry index, serving as conformance authority, or requiring prior FPF vocabulary before the idea is understandable. |
+| Table of Content | Search-oriented pattern overview: id, title, admission state, keywords, query phrases, dependencies. | Public first-entry explanation or durable pattern semantics. |
+| Pattern `Problem frame` | High-precision local recognition text for that pattern's own EntityOfConcern and first useful action. | A related-pattern fanout list, package-placement rationale, or first-entry index. |
+| `I.2` or other expanded cases | Longer entry-disambiguation cases only when compact first-entry scenarios and pattern Problem frames are insufficient. | Tutorial obligation for every pattern or replacement for pattern bodies. |
+| Retrieval cards or other projection material | Thin finding aids that point to the governing pattern body and say what they cannot decide. | Authority, evidence, gate, decision, or final pattern interpretation. |
 
-Support-role parity means semantic consistency of first-contact entry load, governing
-FPF pattern, source-maintenance role assignment, governing projection role, wrong-pattern boundary, projection-only
-status, and no claim with broader authority than the Core pattern body. It does not require
-identical wording, identical examples, identical rows, or exhaustive coverage
-across all support/projection roles.
+A separate first-entry index is not maintained when it repeats the `readme` scenario set. If one first-entry row has value not carried by the FPF `readme` section, ToC, a pattern Problem frame, or an expanded case, place that value in the appropriate publication unit instead of maintaining a duplicate index body.
 
-#### E.11:4.7 - Change propagation, compact pattern-local-note discipline, and `PCP-ENTRY` hook
+### E.11:4.1 - readme First-Entry Scenario Rule
 
-Authors do not introduce `Entry-orientation account` as a standalone artifact
-family.
+The public first-entry scenario set starts from working project questions and stabilizing results.
 
-For material entry/discoverability changes, the author leaves one compact pattern-local note
-inside the `DRR`, `PCP` record, patch note, or equivalent pattern-local note record.
-Ordinary wording repairs do not require a separate note when candidate-pattern
-force, first honest entry load, applicable governing pattern body or applicable projection role, and
-support role remain unchanged.
-
-Allowed pattern-local note shape:
+A conforming first-entry scenario has this shape:
 
 ```text
-Entry-change note:
-changed projection or support role:
-changed first-contact entry load:
-applicable governing pattern body or projection role:
-wrong-pattern or parity risk:
-selected check, if any:
+FirstEntryScenario:
+  projectQuestion:
+  practicalUse:
+  typicalFirstResult:
+  firstPatternFamily:
+  blockedOverreadOrBoundary:
 ```
 
-If the note takes more than a few lines for an ordinary material entry change,
-the change is probably too large for a local note or should escalate to a real
-`DRR` / `PCP` record.
+The public scenario text may be prose rather than a visible form. It should still make those fields recoverable.
 
-`PCP-ENTRY` is the narrow additive review profile for material
-pattern-entry-discoverability changes. It is risk-triggered rather than
-universal and reviews only entry-facing effects.
+Good scenario heads name recognizable project work:
 
-A pattern does not need a `J.4` row merely because it exists. A `J.4` row is
-needed only when the pattern or first-entry pattern-comparison set is a likely first practical entry,
-a common wrong first guess, or a public/retrieval-facing entry point.
+- develop or review architecture;
+- write rules, methods, and work-process documents;
+- compare alternatives and make a local choice;
+- turn a vague situation into a usable problem statement;
+- define what "better" means and run improvement;
+- prepare evidence, assurance, or gate decisions before commitment;
+- check timing, freshness, rhythm, and action windows;
+- use causal explanations, interventions, responsibility, and model outputs safely;
+- compare descriptions, dashboards, explanations, and views of the same thing;
+- give things better names;
+- repair wording in technical documents before it changes action;
+- decide whether mathematics or formal modeling would help;
+- build a state-of-the-art or option portfolio.
 
-`I.2` expanded entry-disambiguation cases are rare-depth. A compact-index-only posture is a
-complete admissible entry result when the `J.4` row plus pattern `Problem frame` are
-enough for the entry load.
+Wording repair may be one scenario. It must not dominate the public first-entry set. FPF should not look like a commission for checking admissible technical speech when it is also a framework for architecture, problem shaping, work-method publication, comparison, evidence, mathematics, quality, and improvement.
 
-#### E.11:4.7.1 - Minimum viable entry discipline
+#### E.11:4.1.1 - First-Time Engineer Readability Rule
 
-For an ordinary `E.11`-triggered entry-discoverability change, the minimum is:
+Public first-entry text is tested against a first-time engineer, engineer-manager, or assisting agent who has not studied FPF.
 
-1. the `Problem frame` names the working situation;
-2. it names or implies the first candidate pattern or `authoritySourceRef` target;
-3. it rejects one tempting wrong reading if that risk is live;
-4. it does not imply workflow, handoff, or route order;
-5. any support role remains a thin echo.
+The title and first sentence must name a recognizable working problem before FPF taxonomy, pattern ids, internal kind names, quality or projection vocabulary, or conformance vocabulary appears. The first practical result must be something the reader could imagine producing or asking for in the project: an architecture question note, regulation outline, comparison note, problem card, quality-and-improvement note, evidence-readiness note, timing note, causal-use note, description-use note, naming card, repaired paragraph, modeling note, or option portfolio.
 
-Everything else is triggered:
+FPF precision remains required. It is introduced after the plain recognition hook and stays recoverable through the pattern ids and later wording. If the same sentence cannot be translated into ordinary engineering Russian or ordinary engineering English without FPF slang, it is probably not public first-entry text yet.
 
-- `J.4` row: only if it is a likely first entry or common wrong first guess;
-- `I.2` expanded entry-disambiguation case: only if compact guidance repeatedly fails or risk is
-  high;
-- ToC lexical cues: only if search/query support is material;
-- README/Preface echo: only if public entry changes materially;
-- pattern-local note: only for material entry-selection changes;
-- evidence mode: only for high-risk, disputed, retrieval-facing,
-  repeated-failure, or measured-improvement claims.
+#### E.11:4.1.2 - Public Value Claim And Grounding Rule
 
-### E.11:5 - Archetypal grounding
+A first-entry scenario may state substantial project value, but that value claim must be grounded. The scenario is not bare marketing copy. It should let an unfamiliar practitioner or assisting agent recognize a project situation, imagine a first useful result, and see the substantive FPF mechanism behind that value claim.
 
-#### E.11:5.1 - System-side expanded entry-disambiguation case: shortlist entry load, not one-off choice
+A conforming public first-entry scenario therefore:
 
-Live reader phrase:
+- starts from a concrete project need in ordinary engineering language;
+- names the first useful written result or decision aid before it names internal FPF apparatus;
+- names the first pattern family as the means, not as the headline;
+- shows at least one substantive distinction, object, comparison, or decision that FPF will make usable;
+- avoids cards, forms, pattern ids, quality vocabulary, projection vocabulary, and conformance vocabulary until the working use is already recognizable;
+- keeps wording repair and description repair visible but below half of the public scenario set, so FPF does not present itself mainly as speech policing.
 
-> "We need a shortlist, not one winner."
+The public first-entry set should read like "here are typical ways FPF can help a working project first", not like "here is the internal topology of FPF" and not like "here are slogans about better thinking."
 
-Why the phrase is easy to mishandle:
+### E.11:4.2 - Preface Principle Rule
 
-- `C.11` looks tempting because a local decision may eventually happen;
-- `G.5` looks tempting because publication may happen later;
-- `C.24` can be nearby when the missing object is a tool-call plan;
-- one reader can mistake the live entry load for a required next step in a hidden
-  selection workflow.
+The Preface explains why the `readme` scenarios are possible. It names cross-cutting ideas once, in narrative order, without copying the `readme` scenario table.
 
-Entry repair:
+The Preface is read by people and agents who may still be deciding whether FPF is worth the cost of opening the heavier pattern bodies. It therefore has a didactic job: show that the public first-entry value claims are not empty marketing and not a loose collection of tips. The Preface should make the reader see the underlying engineering ideas that allow FPF to help with architecture, problem shaping, evidence, comparison, naming, mathematical modeling, quality, and improvement.
 
-1. first honest entry load = selected-set shaping, candidate-pool policy, or
-   selected-set publication, not automatically one-off local choice;
-2. plausible candidate patterns = `A.19.CN`, `A.17-A.19`, `C.18`, `C.19`,
-   `G.0`, and `G.5` when selected-set publication is already live;
-3. nearby / entry-load-reclassification patterns = `C.11` only after the entry load
-   narrows to one local decision doctrine, `C.24` only when the next honest
-   C.24 object is a `CallPlan` or `CheckpointReturn`, and `A.19.CPM` /
-   `A.19.SelectorMechanism` when comparator/selector structure is live;
-4. disambiguating fact = the desired output remains a governed set or
-   shortlist rather than one local winner;
-5. admissible entry stop = inspect `C.19` if pool/candidate policy is live; inspect
-   `G.5` if selected-set publication is already live; inspect `C.11` or `C.24`
-   only after that narrower entry load is actually being made.
+The Preface should cover at least:
 
-#### E.11:5.2 - Episteme-side anti-case: partly-said cue is not yet a claim
+- transdisciplinary use without collapse of local meanings;
+- local closure inside an open world;
+- holons, systems, epistemes, and the fact that architecture applies wherever holons have structure;
+- EntityOfConcern and description, including description episteme, publication form, carrier, and multi-view publication separation;
+- thinking-through-writing through patterns, cards, records, views, and publication forms;
+- architecture as structure and epiplexity as an architecture characteristic;
+- first-principles-to-work through TGA and P2W;
+- mathematical lenses, formal-substrate declarations, mechanism import, and first-principles carry-through as distinct claims;
+- ontology-first wording repair through `E.10`, `E.10.ARCH`, `F.18`, and `F.19`;
+- evidence, assurance, gate, decision, and work separation;
+- characteristic spaces, quality, NQD/OEE, and improvement loops;
+- novelty, diversity, and state of the art;
+- didactic primacy and plain explanation paired with technical fields.
 
-Live reader phrase:
+The Preface may narrate across many pattern families, and it may discuss FPF as a whole project, including companion explanations, worked cases, tools, and project-local adaptations when those help explain the Core Specification. This is not leakage from one pattern into another. A Preface is allowed to explain the project-level idea that several patterns implement together.
 
-> "This phrase matters, but it is not yet a claim."
+The Preface may point to pattern families, but it should not become a second first-entry index.
 
-Plausible but wrong first reading:
+#### E.11:4.2.1 - Preface Plain-Engineering Narrative Rule
 
-- the reader jumps straight to `A.6.P`, `C.16.Q`, `A.6.A`, or `C.25` because
-  the phrase sounds conceptually important.
+Preface prose is written in plain engineering language first and FPF vocabulary second.
 
-Entry repair:
+A conforming Preface:
 
-1. first honest entry load = cue preservation and entry-load typing, not endpoint claim
-   publication;
-2. plausible candidate patterns = `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`,
-   `B.5.2.0`;
-3. tempting wrong pattern = any endpoint claim, action, or quality pattern that
-   assumes the cue is already stable enough to publish as a claim;
-4. admissible entry stop = cue preserved, entry plurality opened, or entry load
-   reclassified honestly; if the phrase is already a boundary claim, inspect
-   `A.6.B` / `A.6.C` instead.
+- states the working idea before the FPF term;
+- gives a plain gloss before a strict FPF term carries the main explanatory point;
+- uses pattern ids as addresses for stricter treatment, not as the main explanatory language;
+- keeps vivid explanation and didactic force when precision repair removes overread;
+- shows how the first-entry scenarios are grounded in real concepts, not only how they are distributed across patterns;
+- can be understood before the reader has studied the pattern bodies, even though the pattern bodies remain the source of exact governance.
 
-#### E.11:5.3 - Episteme-side expanded entry-disambiguation case: same-entity rewrite
+FPF-specific terms such as `EntityOfConcern`, `episteme`, `publication form`, `carrier`, `viewpoint`, `DRR`, `math lens`, `FormalSubstrate`, `NQD`, `OEE`, `Plain`, or `Tech` may appear in the Preface only when the ordinary engineering distinction is already visible or immediately glossed. A Preface paragraph that cannot be understood without prior FPF vocabulary is not yet in Preface style, even if every term is technically lawful.
 
-Live reader phrase:
+### E.11:4.3 - Pattern Problem-Frame Rule
 
-> "We need to explain the same EntityOfConcern for another audience."
+A pattern's own `Problem frame` is the local high-precision first-recognition section.
 
-Entry repair:
+It should let a working practitioner recover:
 
-1. first honest entry load = same-entity retextualization, representation-scheme
-   transition, explanation-facing rendering, or bounded comparative reading;
-2. plausible candidate patterns = `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`,
-   `E.17.ID.CR`;
-3. tempting wrong pattern = minting one second `U.Episteme` for the same claim or one parallel rule
-   lane;
-4. disambiguating fact = the governed `U.Episteme` or `PublicationUnit` stays the same; only rendering,
-   reading posture, or explanatory framing changes;
-5. admissible entry stop = same-entity rewrite opened or explanation-facing
-   rendering stabilized with source pins.
+- the pattern's primary EntityOfConcern;
+- the working problem;
+- what goes wrong if the pattern is missed or misread;
+- the first admissible action;
+- the practical result that action buys;
+- the ordinary not-this-pattern boundary.
 
-#### E.11:5.4 - Quick compact-index-only examples
+Add candidate-pattern comparison only when a real entry-discoverability problem exists. Otherwise, keep cross-pattern comparison out of the pattern body and use ordinary `Relations`, ToC query phrases, or expanded cases.
 
-- **Project alignment.** If the first entry load is responsibility/method/plan vs
-  run confusion, `A.15` and neighboring work/role patterns are likely first
-  governing pattern bodies; `F.17` is a typical vocabulary stabilizer when vocabulary is
-  unstable. This can stay compact-index-only unless repeated readers confuse it
-  with the whole FPF method.
-- **Generator, SoTA, or portfolio kit.** If the work is to publish a reusable
-  search/harvest/portfolio scaffold, inspect `A.0`, `G.0`, `G.1`, `G.2`, and
-  `G.5`. This can stay compact-index-only unless portfolio/generator entry is
-  repeatedly misclassified as one-off recommendation.
+### E.11:4.4 - First-Entry Terminology
 
-### E.11:6 - Bias-Annotation
+Preserve the first-entry terminology.
 
-This pattern counters:
+| Term | Use |
+| --- | --- |
+| `first entry` | General FPF term for the first useful entry from a working project or FPF artifact into the pattern corpus. |
+| `first practical entry` | Public-facing and practitioner-facing form: the first useful entry selected by a real project question. |
+| `first-entry scenario` | FPF `readme` section prose that starts from a recognizable project question and names first useful FPF pattern families. |
+| `first-entry cue` | A phrase, project question, table row, heading, retrieval card, or local recognition text that helps recover the first pattern family. |
+| `first-entry pattern-comparison set` | A small case-relative set of plausible candidate patterns and tempting wrong patterns for the current project question; it is used only when the first governing pattern choice is genuinely ambiguous and is not a standing replacement index. |
+| `expanded entry-disambiguation case` | A longer case used only when `readme`, ToC, and local Problem-frame recognition are not enough. |
 
-- workflow bias;
-- programmer's-bias graph language;
-- front-door centralization bias;
-- synonym-soup bias;
-- support-projection authority bias;
-- `owner`-word bias in reader-facing entry language.
+Avoid `route`, `workflow`, `lifecycle`, `entry neighborhood`, `semantic area`, `ontological neighborhood`, `map`, `owner`, `load`, `posture`, `support`, and other broad heads as entry terms unless the relevant governing pattern has recovered their specific FPF kind and admissible use.
 
-### E.11:7 - Conformance checklist
+### E.11:4.5 - Public readme Section Single-Source Rule
 
-- **CC-E11-0 Affordability.** Entry guidance is non-conforming when it becomes
-  more expensive to author, review, or read than the discoverability risk
-  warrants.
-- **CC-E11-1 No workflow.** Entry prose does not imply mandatory sequence,
-  handoff, route execution, baton transfer, control state, or artifact
-  pipeline.
-- **CC-E11-2 Pattern authority.** Entry support roles do not redefine the
-  governing semantics of the authoritative pattern.
-- **CC-E11-3 Governing entry / thin echo.** Each entry/discoverability claim has
-  one applicable governing pattern body or applicable projection role; other mentions remain thin
-  echoes.
-- **CC-E11-4 Pattern-language vocabulary.** Reader-facing entry prose uses
-  candidate patterns, nearby patterns, tempting wrong patterns, entry load
-  reclassification, and admissible entry stop rather than next-step vocabulary.
-- **CC-E11-4a Editorial labels only.** Entry labels in `E.11` are editorial
-  projection labels over existing patterns, sections, rows, or publication
-  faces. They do not create `PatternKind`, `RelationKind`, `StatusKind`,
-  publication face kind, publication form kind, carrier kind, `Role`, `U.Type`, graph node, or workflow state.
-- **CC-E11-5 Problem-frame first-reading role.** Local problem-frame recognition
-  remains in the pattern's `Problem frame`; `J.4`, `I.2`, lexical support, and
-  `README` do not become competing local recognition pattern bodies.
-- **CC-E11-6 Quality boundary.** Formal quality claims about discoverability or
-  recognition apply `C.25` or `C.16.Q` as applicable; `E.11` coordinates
-  pattern-entry use, not quality authority.
-- **CC-E11-7 Semantic parity.** Multi-role changes keep entry load, authority,
-  boundary, and projection-only status compatible without requiring identical
-  wording or exhaustive coverage.
-- **CC-E11-8 Worked reading threshold.** High-risk, often-misclassified,
-  repeatedly failed, retrieval-facing, or materially new first-entry pattern-comparison sets
-  have either one expanded entry-disambiguation case or one explicit compact-index-only
-  posture.
-- **CC-E11-9 Lexical-query support.** Material lexical divergence is handled
-  through governed lexical-query support, not synonym stuffing or alias
-  equivalence.
-- **CC-E11-10 Retrieval-facing claim.** Retrieval fixtures are used only when
-  retrieval behavior is explicitly claimed, observed to fail, or
-  machine-facing projection support is in scope.
+The FPF `readme` section carries the public first-entry scenario set.
 
-### E.11:8 - Common Anti-Patterns and How to Avoid Them
+If the same public first-entry content is exported into another publication form, export it from the FPF `readme` section instead of maintaining a second public first-entry version.
 
-- **Problem-frame absence.** The pattern body is lawful, but the first-use
-  situation is still unclear. Repair by rewriting the `Problem frame` for the
-  first-reading role.
-- **Top overgrowth.** The opening carries architecture placement, token guards,
-  route fields, or law before the working situation is clear. Repair by moving
-  heavy material to `Solution`, `Relations`, `Conformance`, or `I.2`.
-- **Route smuggling.** Local text says `Start here`, `next governing pattern`, `next actor`, `handoff`, or
-  `reroute` as if it were a sequence. Repair by replacing it with candidate
-  patterns, nearby patterns, entry-load reclassification, and admissible entry stop.
-- **Shadow projection.** `J.4`, `README`, or another projection defines pattern
-  semantics. Repair by moving that definition back to the authoritative pattern
-  and leaving only one thin echo.
-- **Lexical stuffing.** Pattern bodies fill themselves with synonyms for
-  findability. Repair by routing lexical support through `F.17, F.18, and E.10`.
-- **Entry-block-as-ontology.** A temporary map of neighborhoods is frozen as if
-  it were one stable ontology. Repair by keeping neighborhoods case-relative
-  and projection-scoped.
+### E.11:4.6 - Projection and Authority Boundary
 
-### E.11:9 - Consequences
+Entry and projection publication units help a user find the governing pattern. They do not govern the claim by themselves.
 
-This pattern gives `FPF` one explicit coordination discipline for pattern-entry
-discoverability instead of leaving the entry guidance fragmented across `Preface`,
-`J.4`, `I.2`, pattern tops, query rows, and lexical support lanes.
+When a projection is used, it must be clear whether it is:
 
-It also imposes discipline: entry support becomes thinner, more explicit about
-its authoritative patterns and support roles, and less tolerant of
-workflow-shaped wording. The cost stays bounded because expanded entry-disambiguation cases,
-pattern-local notes, parity scans, retrieval fixtures, and evidence modes are triggered
-by risk rather than required for ordinary wording repairs.
+- public orientation;
+- table-of-content query material;
+- pattern-local recognition text;
+- expanded entry-disambiguation case;
+- retrieval card;
+- quality or projection evidence for an FPF artifact;
+- ordinary citation or relation.
 
-### E.11:10 - Rationale
+If a projection needs to answer a substantive claim, use the governing pattern body or the pattern that governs that claim. Do not strengthen the projection.
 
-This pattern is needed because the entry problem is no longer only local pattern form
-and not only lexical repair. `E.8` governs local first-reading form;
-`A.6.RSIG` governs the neutral description-recognition-signature substrate;
-`E.19` reviews risk-triggered entry changes. The cross-pattern entry law still
-needs its own governing pattern.
+### E.11:5 - Worked Slices
 
-### E.11:11 - SoTA-Echoing
+#### E.11:5.1 - Public Entry From A Project Question
 
-This pattern is an `FPF`-local pattern-entry discipline. It adopts current
-discoverability, documentation-mode, taxonomy, pattern-validation,
-human/AI-facing, and retrieval practices only where they preserve one
-entry-load-oriented entry reading over a pattern language. It rejects turning that
-reading into one workflow, front door, route graph, synonym store, or
-retrieval-tooling ontology.
+A project team says: "We need to review the architecture of our AI-agent platform before choosing a vendor."
 
-| Pattern claim carried here | Source-bearing SoTA support (post-2015) | Alignment with `E.11` | Adoption status and worked-slice implication |
-| --- | --- | --- | --- |
-| Pattern-entry starts from first honest entry load and candidate-pattern recognition, not chapter order or route execution. | Jorge Arango (2018), *Living in Information: Responsible Design for Digital Places*; Raluca Budiu (2020), "Information Scent: How Users Decide Where to Go Next", Nielsen Norman Group. | Information-architecture practice supports orientation through places, labels, context, and reader expectations. `E.11` adopts scent as first-contact cue economy, then adds governing-pattern-body recovery, tempting-wrong-pattern rejection, entry-load reclassification, and admissible entry stop. | **Adopt and add governing-pattern-body discipline.** Adopt cue economy and entry-load-oriented orientation; reject scent, familiar wording, or a retrieved support echo as sufficient governing pattern body. In the shortlist case, the manager distinguishes selected-set publication, candidate-pool policy, and one-off choice before opening the wrong pattern. |
-| Pattern-entry support needs role partition: coarse orientation, compact index, expanded entry-disambiguation case, local first-reading role, and lexical support are different jobs. | ISO/IEC/IEEE 26514:2022; Daniele Procida, *Diataxis* documentation framework (2017-2025). | User-information and documentation-mode practice separates information needs and presentation modes. `E.11` extends this from documentation form to governing-pattern-body recovery and wrong-pattern rejection. | **Adapt.** Adopt mode separation; reject replacing pattern authority with documentation architecture. Practitioners get compact rows in `J.4`, expanded entry-disambiguation cases in `I.2`, and local recognition in the authoritative pattern. |
-| Entry lexemes and query cues need controlled governance, but lexical support is not alias minting and not semantic equivalence. | Helen Lippell, ed. (2022), *Taxonomies: Practical Approaches to Developing and Managing Vocabularies for Digital Information*. | Taxonomy practice supports governed terms, validation, and maintenance for search, browse, and interpretation. `E.11` routes query cues, false friends, and plain twins through `F.17, F.18, and E.10`, `J.4`, `I.2`, and ToC rows instead of stuffing synonyms into every pattern body. | **Adapt.** Adopt lexical-query discipline; reject uncontrolled alias growth. In the partly-said anti-case, subject-language cues help find the first-entry pattern-comparison set while the cue remains not-yet-claim. |
-| Human and AI-assisted readers need clear capability, limitation, and uncertainty cues. | Amershi et al. (2019), "Guidelines for Human-AI Interaction", CHI 2019. | Human-AI guidance validates the need to make capabilities and limits clear enough for calibration. `E.11` adapts this into public and machine-assisted entry: thin echoes say what they can point to and what they cannot define, while `A.6.RSIG` fields such as applies-to, excludes, defining `U.Episteme`, and admissible entry stop calibrate what an encountered description can and cannot settle. | **Adapt and narrow.** Adopt expectation management for mixed human/AI reading; reject an AI-interface pattern. README and `Preface` should say "typical entry-stabilizing result" rather than promise guaranteed outputs, and the `E.19` LLM-retrieved-paragraph case should recover the applicable governing pattern body instead of letting a helpful fragment answer as authority. |
-| Pattern-entry claims need accountable case-linked validation and selected evidence, but evidence cost is risk-triggered. | Riehle, Harutyunyan, and Barcomb (2020), *Pattern Discovery and Validation Using Scientific Research Methods*. | Pattern-validation practice supports explicit evidence beyond folklore. `E.11` adapts this into `PCP-ENTRY`, expanded entry-disambiguation cases, wrong-pattern checks, compact pattern-local notes, tiny golden cases, and selected evidence only when entry-selection effect, semantic support-role parity, public-entry risk, repeated failure, or retrieval-facing behavior warrants them. | **Adopt / lightweight.** Adopt accountable case-linked validation; reject universal empirical validation or heavy fixture work for ordinary wording or support-role/projection edits. |
-| Retrieval-facing entry support must distinguish successful retrieval from correct pattern selection and faithful source use. | Lewis et al. (2020), "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"; Liu, Zhang, and Liang (2023), "Evaluating Verifiability in Generative Search Engines"; Gao et al. (2023), "Enabling Large Language Models to Generate Text with Citations"; Asai et al. (2024), "Self-RAG"; Saad-Falcon et al. (2023), "ARES"; Es et al. (2023), "RAGAS"; Wallat et al. (2024/2025), work on correctness versus faithfulness in `RAG` attributions. | Current retrieval and citation work distinguishes context relevance, retrieved support, citation precision/recall, answer faithfulness, attribution faithfulness, post-rationalized citation-like support, and adaptive retrieval. `E.11` adapts that into governing-pattern-body and thin-echo hygiene and selected retrieval fixtures that distinguish pattern hit, support-role hit, source faithfulness, projection-vs-governing-pattern-body ambiguity, stale-echo absence, and thin-echo anchor presence. | **Adapt, risk-triggered.** Adopt the hit/support/authority/faithfulness split; reject universal RAG benchmarking and reject citation-like support as authority by itself. In the "LLM retrieved a helpful paragraph but not the pattern" case, the repair is to recover the applicable governing pattern body, not to bless the fragment as authority. |
+The public `readme` first-entry scenario points to architecture, comparison, and evidence:
 
-### E.11:12 - Relations
+- architecture: what holon is being architected, which structures matter, and which architecture characteristic is under concern;
+- comparison: which vendor, build, fine-tune, or hybrid alternatives remain in the candidate set;
+- evidence: what tests or assurance arguments are needed before commitment.
 
-- **Builds on:** `A.6.RSIG`, `E.8`
-- **Coordinates with:** `E.19 / PCP-ENTRY`, `J.4`, `I.2`, `F.17`, `F.18`,
-  `E.10`, `E.6`, `E.7`, `E.12`, `F.16`, `C.25`, `C.16.Q`
-- **Constrains:** reader-facing entry support roles for `FPF` and
-  `FPF`-conformant pattern languages
+The first governing pattern family is not a wording-repair pattern. It is `C.30` for architecture, with `A.19`, `C.11`, `A.10`, or `B.3` applied when the project question narrows to comparison, local choice, evidence, or assurance. `E.10` is used only if the text hides the kind of architecture, evidence, decision, or publication claim being made.
+
+#### E.11:5.2 - Duplicate First-Entry Row Discharge
+
+A compact first-entry index row says:
+
+```text
+Architecture and diagrams:
+  start with C.30, C.30.AD, evidence, and dashboard patterns;
+  remember that diagrams are not proof;
+  compare alternatives before choosing.
+```
+
+Do not keep this as a second entry canon. Discharge its useful content by kind:
+
+| Useful item in the row | Publication unit or governing pattern |
+| --- | --- |
+| "Architecture" as a public working-project question | `readme` first-entry scenario for architecture design or review. |
+| "Diagrams" as publication or rendering use | `readme` scenario for descriptions, explanations, dashboards, or views of the same entity; `E.17.*`, `A.15.4`, or `C.30.AD` when the claim is being governed. |
+| "Diagrams are not proof" | Local Problem-frame recognition in the pattern that governs the architecture description or evidence claim; not a public duplicate-index warning. |
+| "Evidence" | `A.10`, `B.3`, `A.20`, `A.21`, or the evidence/assurance scenario when the project question is evidence or commitment. |
+| "Dashboard" as same-entity or rendering concern | Publication-use or dashboard pattern material, not architecture itself. |
+| "Compare alternatives" | Comparison and selected-set scenario plus `A.19`, `C.11`, `C.18`, or `C.19`. |
+| Search phrases such as "architecture diagram proof" | ToC query material or retrieval cue, if it helps find the governing pattern. |
+| A hard ambiguity between architecture, description, evidence, and comparison | `I.2` expanded entry-disambiguation case only if `readme`, ToC, and local Problem frames are insufficient. |
+
+After discharge, the remaining row is deleted because it only duplicates the `readme` scenario set and creates a second canon. The deletion preserves value because every claim being made has a publication unit or governing pattern that matches its kind.
+
+### E.11:6 - Conformance Checklist
+
+| ID | Check |
+| --- | --- |
+| `CC-E11-1` | Public first-entry text starts from recognizable working project questions before pattern ids or FPF diagnoses. |
+| `CC-E11-2` | The FPF `readme` section carries the public first-entry scenario set; the Preface does not repeat that set as an index. |
+| `CC-E11-3` | A separate first-entry index is not maintained when it duplicates `readme` scenarios; any unique value is placed in `readme`, ToC, the pattern Problem frame, an expanded case, or the governing pattern for the substantive claim. |
+| `CC-E11-4` | First-entry terminology remains available: first entry, first practical entry, first-entry scenario, first-entry cue, first-entry pattern-comparison set, and expanded entry-disambiguation case. |
+| `CC-E11-5` | Wording and description repair do not dominate public first-entry scenarios; FPF remains visible as project architecture, work, problem, comparison, evidence, temporal, causal, publication-use, mathematics, quality, and improvement help. |
+| `CC-E11-6` | A projection publication unit never answers as the governing pattern body; it points to the governing pattern or says what claim or action is blocked beyond the finding role. |
+| `CC-E11-7` | Pattern-local recognition stays in the Problem frame and does not become a related-pattern fanout list or package-placement explanation. |
+| `CC-E11-8` | ToC and lexical-query phrases remain finding aids, not names, alternate names, semantic equivalences, or authority relations. |
+| `CC-E11-9` | A duplicate first-entry row can be discharged by kind without losing useful content: scenario, query cue, local recognition, expanded case, quality evidence, or substantive claim. |
+| `CC-E11-10` | Practice grounding affects rules: information scent shapes scenario heads, `readme`/front-matter practice shapes publication placement, retrieval practice keeps cues thin, and projection discipline blocks shadow authority. |
+| `CC-E11-11` | Each public first-entry scenario states a concrete project need, a first useful result or decision aid, and the first pattern family after the project value is recognizable. |
+| `CC-E11-12` | Public first-entry value claims are grounded by at least one substantive FPF distinction, object, comparison, or decision that explains why the proposed help is credible. |
+| `CC-E11-13` | Preface prose can be read before the pattern bodies: ordinary engineering meaning appears before FPF terms, and strict FPF terms that carry the main explanatory point are glossed at first use. |
+| `CC-E11-14` | The Preface explains FPF-level ideas and cross-pattern composition without becoming a second ToC, second first-entry index, conformance authority, or pattern-id catalogue. |
+
+### E.11:7 - Common Anti-Patterns
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Internal diagnosis as public entry | `readme` starts with "roles, methods, and work are mixed" before the user sees a project problem they recognize. | Rewrite the entry from the project question: architecture review, regulation writing, option comparison, problem shaping, naming, quality improvement, evidence, mathematics, or SoTA portfolio. |
+| Ungrounded public value claim | The first-entry text claims broad benefit but does not show the first useful result, working object, distinction, comparison, or pattern family that makes the benefit credible. | Keep the value claim only when it is grounded by a recognizable project need, a first result, and one substantive FPF idea or governing pattern family. |
+| FPF-slang front door | The `readme` or Preface starts with pattern ids, FPF kinds, internal quality vocabulary, or terms such as `EntityOfConcern`, `episteme`, `DRR`, `carrier`, `math lens`, `NQD`, or `OEE` before plain meaning is visible. | Put the ordinary engineering distinction first, then add the FPF name as a precise address or gloss. |
+| Preface as pattern-id catalogue | The Preface lists pattern families and terms but does not explain why the first-entry value claims are possible or how the ideas compose. | Rewrite as cross-cutting narrative: project problem, idea, why it matters, then pattern family for stricter treatment. |
+| Pattern-body prerequisite | The Preface is only understandable after the reader has already studied the patterns. | Add plain glosses and project examples so the Preface can be read before the pattern bodies while still pointing to them. |
+| Duplicate first-entry canon | `readme`, Preface, ToC, a separate index, and pattern bodies all carry different entry arrangements. | Keep public scenarios in `readme`, ideas in Preface, query material in ToC, local recognition in Problem frames, and expanded cases only where needed. |
+| Semio-first public identity | FPF appears mainly as technical-language policing. | Keep wording repair as one entry scenario and make architecture, work, problem, comparison, evidence, mathematics, quality, and improvement visible. |
+| Projection as authority | A `readme` sentence, ToC row, retrieval card, or entry cue is used as if it governs the claim. | Use the governing pattern body or the pattern governing the substantive claim. |
+| Entry as universal sequence | First-entry text prescribes a universal sequence. | State that entries are alternatives selected by the working question, not steps. |
+| Pattern-local reference fanout | A pattern's first substantive section lists neighboring patterns instead of its own EntityOfConcern and first action. | Place discoverability in `readme`, ToC, or expanded cases; keep the pattern body focused on its own problem and solution. |
+
+### E.11:8 - Relations
+
+- The FPF `readme` section carries public first practical entries.
+- `Preface` carries cross-cutting ideas and principles behind the public first practical entries.
+- `E.8` governs pattern form and pattern-local Problem-frame discipline.
+- `E.19` checks entry, projection, and pattern-use discoverability during review and refresh.
+- `E.21` evaluates whether corpus entry and projection material preserve quality without becoming pattern content.
+- `F.17`, `F.18`, `F.19`, `E.10`, and `E.10.ARCH` govern lexical, naming, and wording precision when entry cues hide FPF kinds or relations.
+- `I.2` carries expanded entry-disambiguation cases only when compact public first-entry scenarios and local Problem frames are insufficient.
+- ToC rows provide query and dependency cues; they do not replace public first-entry scenarios or governing pattern bodies.
 
 ### E.11:End
 

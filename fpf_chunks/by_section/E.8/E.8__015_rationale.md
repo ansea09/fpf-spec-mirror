@@ -6,14 +6,15 @@ section_id: "E.8:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__015_rationale.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Rationale"
-line_start: 57453
-line_end: 57465
+line_start: 57638
+line_end: 57650
 dependencies:
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.21"
   - "E.23"
@@ -27,7 +28,7 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"

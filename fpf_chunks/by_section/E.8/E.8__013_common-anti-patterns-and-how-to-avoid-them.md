@@ -6,14 +6,15 @@ section_id: "E.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57419
-line_end: 57444
+line_start: 57604
+line_end: 57629
 dependencies:
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.21"
   - "E.23"
@@ -27,7 +28,7 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -63,8 +64,8 @@ These failure modes recur in drafts and in downstream application. They are pred
 | **Hidden trade-offs** | Solution sounds universally good; Consequences lists only benefits. | Removes decision-use value; applicability cannot be judged. | In Consequences, include at least one trade-off and a mitigation; if none exists, explain why. |
 | **Skeleton-only pattern** | The template is present, but the pattern gives only one compressed definition block and scenario labels. | Passes form while failing didactic sufficiency. | Add didactic content: local decomposition, concrete slices, reviewer cues, and neighboring-pattern or project-side FPF kind and reference named by value guidance. |
 | **Project-context leakage** | A reader needs architecture memos or planning notes to understand the pattern. | The monolith stops being self-sufficient. | Move the essential problem framing, worked slices, and rationale into the pattern itself; keep project reviews informative only. |
-| **Repeated content, reference, and architecture boilerplate leakage** | Problem frame or Solution spends user-facing space repeating the same guard, distinction, mini-rule, reference, definition, caveat, related-pattern mapping, placement note, split rationale, or defer rationale without a new local action/case/evidence need. | The product text becomes an architecture memo or reference note instead of a pattern. Ordinary references, footnotes, ToC/J.4 entries, and `Relations` already carry cross-reference work; repeating it as prose hides the positive Solution. | Replace the boilerplate with a normal pattern id, citation, `Builds on`, `Coordinates with`, `Relations`, ToC/J.4 row, or architecture/DRR note. Keep only a local boundary sentence when it changes the first admissible move. |
-| **Quality-carrier leakage** | Any host or monolith pattern text, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, or checklist rows, talks about corpus projection, ToC/J.4 alignment, retrieval/cold-reader evidence, monolith parity, landing evidence, `PatternQualityStatus`, all-`4`/all-`5` posture, or developer/reviewer/executor correspondence as if that is pattern content. | The text is now about why the pattern can be evaluated, found, landed, or trusted, or about role-turn communication, rather than about what the intended user should do. | Move the quality/projection facts to `E.21`, `E.19`, ToC/J.4, projection/card/retrieval, or release/landing carriers. Keep only the user-facing action or boundary justified by that evidence. |
+| **Repeated content, reference, and architecture boilerplate leakage** | Problem frame or Solution spends user-facing space repeating the same guard, distinction, mini-rule, reference, definition, caveat, related-pattern mapping, placement note, split rationale, or defer rationale without a new local action/case/evidence need. | The product text becomes an architecture memo or reference note instead of a pattern. Ordinary references, footnotes, README/ToC/E.11/I.2 entry cues, and `Relations` already carry cross-reference work; repeating it as prose hides the positive Solution. | Replace the boilerplate with a normal pattern id, citation, `Builds on`, `Coordinates with`, `Relations`, README/ToC/E.11/I.2 entry cue, or architecture/DRR note. Keep only a local boundary sentence when it changes the first admissible move. |
+| **Quality-carrier leakage** | Any host or monolith pattern text, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, or checklist rows, talks about corpus projection, README/ToC/E.11/I.2 alignment, retrieval/cold-reader evidence, monolith parity, landing evidence, `PatternQualityStatus`, all-`4`/all-`5` posture, or developer/reviewer/executor correspondence as if that is pattern content. | The text is now about why the pattern can be evaluated, found, landed, or trusted, or about role-turn communication, rather than about what the intended user should do. | Move the quality/projection facts to `E.21`, `E.19`, README/ToC/E.11/I.2, projection/card/retrieval, or release/landing carriers. Keep only the user-facing action or boundary justified by that evidence. |
 | **Apparatus overwrap** | A simple pattern claim, relation, object, action, or placement is wrapped in extra role, carrier, locus, flow, state, status, text-state, package, or process words. | The sentence may be technically correct, but the reader sees apparatus before the pattern's object and move. A poetic plain rewrite can be just as bad if it loses the FPF kind. | Apply `F.19`; the final rewrite keeps the same `EntityOfConcern`, head kind, relation or claim kind, established FPF term, concerned role, and flow role. |
 | **Generic-head underspecification** | An FPF-governed phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the text never restores what kind of thing that phrase names. | The reader cannot tell what ontology the sentence is actually governing. | Restore the head kind first in pattern-local or project-local terms before any broader claim or effect or comparison is made. |
 | **Qualifier-smuggled claim kind or admissible-use boundary** | A modifier such as `comparative`, `safe`, `interactive`, `reliable`, or `faithful` is doing the semantic work while the text leaves its claim kind or admissible-use boundary implicit. | The sentence sounds precise without actually stating its comparison criterion, relation claim kind or admissible-use boundary, or downstream claim or effect boundary. | Unpack the qualifier into explicit claim kind or admissible-use boundary, criteria, named neighboring FPF pattern, or project-side FPF kind and reference rather than relying on the modifier alone. |

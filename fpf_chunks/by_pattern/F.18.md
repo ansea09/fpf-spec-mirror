@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
-line_start: 74995
-line_end: 75841
+line_start: 74960
+line_end: 75810
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -188,7 +188,7 @@ The canonical settlement table for this amendment is:
 | `pattern-entry discoverability` | composite entry quality over one entry-recognition stack | `E.11` | broad `discoverability` alone |
 | `description recognition signature` | first-contact cue structure of one description-bearing unit | `A.6.RSIG` | `discoverability of descriptions` |
 | `recognition text` | existing first reading text inside one pattern | `E.8` | invented `discoverability surface` |
-| `FirstEntryPatternComparisonSet` | case-relative `Part J` or `E.11` navigation grouping of plausible candidate patterns, tempting wrong patterns, entry-load reclassifications, and admissible entry stops | `E.11`; `J.4` only when the grouping is a compact pattern-comparison index row or row set | `route`, `semanticArea` as navigation label, `ontologicalNeighborhood` as navigation label |
+| `FirstEntryPatternComparisonSet` | case-relative `E.11` entry-distribution grouping of plausible candidate patterns, tempting wrong patterns, entry-load reclassifications, and admissible entry stops | `E.11`; use `I.2` for expanded entry-disambiguation cases when compact cues are insufficient | `route`, `semanticArea` as navigation label, `ontologicalNeighborhood` as navigation label |
 | `entry lexeme retrieval aid` | lexical and query retrieval aid without alias minting | `F.17`, `F.18`, and `E.10`, coordinated by `E.11` | `lexical discoverability`, bare search-help wording |
 | `ExpandedEntryDisambiguationCase` | bounded case that expands compact first-entry comparison when wrong-pattern risk, repeated failure, retrieval-facing use, or compact guidance insufficiency is live | `I.2` | `workflow`, `scenario script`, `route`, untyped interpretation label |
 | `thin echo` | low-detail projection pointer to the cited pattern, cited pattern section, field, relation, or section of a named non-pattern FPF publication form; the pointer makes the publication form, companion function, and reference recoverable, and the referenced section carries the claim | `E.11` | duplicated guidance, parallel blurbs |
@@ -211,6 +211,7 @@ When naming work touches the C.2.1 EntityOfConcern family, use these rows as the
 | `publicationUnitPrimaryEntityOfConcern` | Technical head for the primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about while carrying one move and one outside-work boundary. When a claim-bearing episteme or episteme-lane `U.View` is live, recover it through `EntityOfConcernRef`. | A C.2.1 slot by itself, a second EntityOfConcern ontology, a carrier identity, a title, or project-side authority by readable form. |
 | `EntityOfInterest`, `EoIClass`, `DescribedEntity*`, `describedEntityRef`, `primary described entity` | Use `EntityOfConcern`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the local FPF kind named by value. | Live technical vocabulary, second C.2.1 slot family, alias permission, or permission to keep old semantics beside the selected family. |
 | `EntityOfConcernAlignmentCase` | Local table head for the same-by-value, retarget, bridge, relation-record, distinct-entity, and blocked-use split. | A new kernel kind or a substitute for A.6.4, F.9/F.17/F.18, A.6.P, or the pattern governing the relation kind. |
+
 #### F.18:5.1 - Card purpose & mode guard (normative)
 
 To prevent “post-hoc justification” of intuitively chosen labels, every **Name Card** SHALL declare its
@@ -535,6 +536,7 @@ Disputes often orbit the string (“we hate that word”). By separating **sense
 * A naming pass compares candidate labels over one active palette and shortlist. The card keeps the active palette recoverable and uses thinner interpretive-view wording, because the question is only which label best fits the current candidate spread.
 * Later, the same naming discussion must explain why one label misleads unless the reader can see the palette together with a derived archive, an `OutcomeMapRef`, and one `BridgeDistortionNote`. In that case atlas wording is allowed, but the card still names the base palette and records that the atlas is only optional interpretive help for the naming explanation.
 * In both cases, guarded-head notes stay on the naming side: they explain alias risk or mismatch patterns, not who stewards the substrate or which publication face is authoritative.
+
 ### F.18:13 - Anti‑Patterns & Failure Modes (what to avoid)
 
 **13.1 “Global name first.”**
@@ -557,6 +559,7 @@ Letting a Plain label or alias accumulate extra meanings absent in the underlyin
 
 **13.7 “Atlas label does substrate work.”**
 Letting atlas or interpretive-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.
+
 ### F.18:14 - Assurance & Conformance (human‑only checks)
 
 #### F.18:14.1 - Author checklist (before requesting review).
@@ -637,6 +640,7 @@ A **MintNew** Name Card is **non-conformant** if it records only the chosen labe
 
 **CC-F18-18 (Interpretive-view labels keep their base candidate set or family).**
 When a Name Card or worked naming note uses interpretive-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.
+
 ### F.18:16 - Anti‑patterns & safe rewrites (normative)
 
 > Each item names a **speaking error** and a **local‑first repair**. Use this as an author’s lint pass before proposing a unified name.

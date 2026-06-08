@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.6.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
-line_start: 14958
-line_end: 15520
+line_start: 15132
+line_end: 15696
 dependencies:
   - "A.10"
   - "A.14"
@@ -160,6 +160,7 @@ Typical failure modes this pattern is designed to eliminate:
 
 10. **Support bucket relapse.**
     “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are SWBD basedness; others are evidence polarity, assurance input, causal-use support basis, mathematical-lens use, work enablement, source-description, publication companion, or ordinary help. Treating all of them as one undifferentiated support relation recreates the same under-described dependence that A.6.6 exists to repair.
+
 ### A.6.6:3 - Forces
 
 | Force | Tension |
@@ -371,7 +372,7 @@ If these fields cannot be stated, do not create a `SupportRelation`, `SupportBas
 | a mathematical lens, mapping, or model makes a use admissible or exposes preserved/lost structure | mathematical-lens patterns (`C.29`, `C.26`, `F.9`) |
 | a metric, score, threshold, benchmark, or characteristic warrants a comparison | measurement/characteristic/comparison patterns (`C.16`, `C.25`, `G.9`) |
 | one thing helps work, enables an action, supplies a resource, or makes operation easier | work/resource/action patterns (`A.15`, `A.15.4`, `A.6.A`, `C.11`) or ordinary Plain help |
-| one file, section, index, packet, or companion helps a reader find or inspect another item | publication/navigation patterns (`E.17`, `J.4`) or ordinary orientation |
+| one file, section, packet, companion, entry cue, or expanded case helps a reader find, inspect, or compare another item | publication, entry, or navigation patterns (`E.17`, `E.11`, `I.2`) or ordinary orientation |
 
 This test prevents support wording from becoming either a source-relation bucket or a basis bucket. A.6.6 governs only the support cases that are genuinely base-relative.
 
@@ -535,6 +536,7 @@ A team has adopted A.6.6 if, for any decision-relevant “relative-to” stateme
 `〈dependent, base, baseRelation, scope, Γ_time?, witnesses?〉`
 and can classify any update as one of:
 `declareBase / withdrawBaseDecl / rebase / repointDependent / rescope / retime / refreshWitnesses / changeBaseRelation`.
+
 ### A.6.6:10 - Rationale
 
 **Why focus on base declaration rather than a metaphor.**

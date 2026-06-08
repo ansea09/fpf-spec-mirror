@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "J.4"
-pattern_title: "First Practical Entry Pattern-Comparison Index"
-section_id: "J.4:section-009"
+pattern_id: "I.2"
+pattern_title: "Expanded Entry Disambiguation Cases"
+section_id: "I.2:section-011"
 section_title: "Affected locations and required edits (normative)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__010_affected-locations-and-required-edits-normative.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/I.2/I.2__012_affected-locations-and-required-edits-normative.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
-  - "J.4 — First Practical Entry Pattern-Comparison Index"
-  - "J.4:section-009 — Affected locations and required edits (normative)"
-line_start: 83003
-line_end: 83036
+  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2:section-011 — Affected locations and required edits (normative)"
+line_start: 82873
+line_end: 82906
 dependencies:
 keywords:
 ---

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
-line_start: 58301
-line_end: 59941
+line_start: 58490
+line_end: 60134
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,6 +72,7 @@ Formal fields from the older LEX substrate are live only when the selected wordi
 Local patterns may cite the relevant `E.10` trigger row, but they should not reproduce large trigger lists or create local lexical registries unless a named local application profile has its own primary `EntityOfConcern`, first useful move, and governing-pattern boundary. New trigger families enter `E.10` only when they recur across FPF-governed texts and cannot be handled by one local pattern; specialized patterns receive the detailed ontology when the problem is no longer lexical. Stale or overly broad trigger rows are narrowed or retired.
 
 Self-application is bounded. When `E.10` is under improvement, use `E.10` only for its own wording-trigger repairs; use `E.21` for pattern-quality evaluation, `E.22` for improvement-oriented quality-evaluation framing, `E.23` for the improvement loop, `E.2.DA` for FPF-level Pillar effect, and neighboring pattern governing the claims for relation, episteme, publication, source-use, naming, or quality-word issues.
+
 #### E.10:0.1 - Scope split
 
 `E.10` governs lexical conformance for FPF pattern text, extracted pattern hosts, `FPF-Spec` monolith text, FPF governing documents, accepted `DRR` text, and any project, product, research, engineering, or review text that deliberately uses FPF terms, pattern references, FPF relation names, FPF kind claims, FPF admissibility claims, or claims FPF conformance.
@@ -203,6 +204,7 @@ EntityOfConcern rewrite:
   distinction preserved:
   remaining admissible reader move:
 ```
+
 ##### E.10:0.2c.2 - publication-unit wording that implies authoring or interpretation work
 
 When a phrase makes the bounded unit sound like authoring work or interpretation work, split the sentence by kind under repair.
@@ -492,6 +494,7 @@ Support-headed names such as `SupportRecord`, `SupportSource`, `SupportLine`, `S
 A support-headed phrase selected by an accepted `DRR`, pattern draft, table heading, schema field, coordinate name, or future drafting vocabulary is already durable enough to trigger `F.18` unless the text explicitly marks it as source-only, quote-only, or rejected. Do not accept `subject to F.18 later` as `E.10` closure when the phrase is already being used to guide authoring, review, landing, or reusable FPF wording. Either complete the naming decision now, replace the head with the selected interpretation named by value, or leave the naming issue blocking by value.
 
 If the sentence cannot name the scale, evidence class, threshold, relation, source-loss mode, EntityOfConcern, grounding holon, base relation, admissible-use target, or support-like interpretation named by value, it is not ready for architecture or pattern prose. `A.6.3.CSC` governs FPF-governed source-loss-mode governance; `A.6.P` governs support-like interpretation discrimination and relation precision restoration; `C.2.P` requires the wording to recover the governing pattern and mode.
+
 ##### E.10:0.2c.19 - Applying patterns versus procedural calls
 
 FPF patterns are applied in problem situations.
@@ -575,6 +578,7 @@ If context changes the EntityOfConcern, apply the `EntityOfConcern`, grounding, 
 A translated term is not automatically the same FPF head. A translation may preserve reader access while losing kind precision, admissible use, source-use boundary, or source-description relation. A bilingual alias is not a Bridge by itself and does not create equivalence, substitution, UTS admission, or cross-context naming relation.
 
 When translated wording has FPF-governed use, recover the FPF kind named by value, local head, publication construction, source relation, and admissible use before accepting the translation. A translated explanation is a derivative rendering; operative claims need source links and `E.17.EFP` or `A.10` when reliance use is being made. A translated `PublicationUnit` may preserve form while shifting `publicationUnitPrimaryEntityOfConcern` or carried publication move; apply `E.17.AUD` or `E.17.AUD.OOTD` when that shift is live. Local translated heads may use `E.17.AUD.LHR` or `C.2.P` without full `F.18` unless durable cross-context naming, UTS row, Core-facing term, or reusable FPF head is intended.
+
 ##### E.10:0.2c.25 - `state`, `status`, `posture`, `readiness`
 
 Do not let state-family wording become a maturity adjective, evidence claim, assurance result, gate passage, release permission, source authority, work completion, or process state by appearance.
@@ -1298,15 +1302,15 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
-Canonical first-entry pattern-comparison rows or row sets may use one compact
-**entry lexeme support** block when the lexical issue is live.
-That support should not live in every pattern body by default.
+Public first-entry scenario text, ToC query rows, local Problem-frame recognition text, or expanded `I.2` entry-disambiguation cases may use one compact **entry lexeme cue** block when the lexical issue changes the first useful FPF entry.
+That cue block should not live in every pattern body by default.
 Keep it instead in:
 
-* `J.4`,
-* `I.2`,
+* FPF `readme` section,
+* `E.11` entry-distribution loci,
+* `I.2` expanded entry-disambiguation cases,
 * `Table of Content` query rows,
-* or one bounded lexical-support record governed by `F.17`, `UTS`, or `F.18`.
+* or one bounded lexical-query record governed by `F.17`, `UTS`, or `F.18`.
 
 This block remains one editorial lexical-query set.
 It does not mint names, aliases, `U.Types`, bridges, or semantic equivalences
@@ -1333,8 +1337,7 @@ forbidden_aliases
 Ordinary lexical-query support should stay compact:
 
 * ordinary `Table of Content` rows: prefer `2-5` query phrases;
-* ordinary `J.4` pattern-comparison rows: keep only the most discriminating domain phrases and
-  false friends;
+* ordinary `README` scenario or `E.11` entry-distribution cues: keep only the most discriminating domain phrases and false friends;
 * fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
   naming, alias, bridge, or collision claim exists.
 
@@ -1601,9 +1604,10 @@ E.10 lexical governance is not a private FPF style preference. It is a compact a
 | ISO 704:2022 and ISO 1087:2019 terminology work on concepts, definitions, designations, and term formation. | Current-standard/reference-only for terminology work; official status does not make it complete SoTA for FPF semantic repair. | Mutates `E.10:0.2`, `E.10:0.2a`, and `E.10:11`: use explicit designation and definition discipline when a term is minted, repaired, or made reusable; keep head kind, context, and intended use recoverable. | Do not solve FPF wording by dictionary substitution, synonym stuffing, or global alias registry. Do not turn every term into a class hierarchy. |
 | ISO 9241-110:2020 interaction principles and W3C WCAG 2.2 Understanding SC 2.4.6, 3.2.4, and 3.3.2 on descriptive headings/labels, consistent identification, and visible labels/instructions. | Current-standard/reference and current practice anchor for comprehension, task suitability, predictable identification, and error prevention. | Mutates `E.10:0.2a`, `E.10:0.2c.15`, `E.10:0.2c.28`, and `E.10:11`: require a repair to preserve the remaining reader move, usable local label, and predictable repeated label; treat label clarity as a usability constraint after kind recovery. | Do not accept readability, friendliness, or a nicer label as proof that the term is semantically safe. Do not let a label change kind, scope, authority, or downstream use. |
 | W3C SKOS Reference for controlled structured vocabularies and lexical labels, with heavier OWL/RDF ontology practice used only by ontology-bearing neighboring patterns named by value. | Current reference source for controlled-vocabulary publication and label relations; not current-best source for every FPF wording repair. | Mutates `E.10:0.2b`, `E.10:0.2c.18`, and `E.10:0.2c.28`: keep vocabulary labels, concept-like heads, registries, maps, and reusable names recoverable as publication or naming objects named by value before reuse; send durable naming to `F.18` and relation, source, or domain ontology to neighboring pattern governing the claims. | Do not make OWL-style term-to-class modeling the default answer to every vague term. Do not let a controlled vocabulary become a second FPF ontology or replacement trigger registry. |
-| W3C WCAG 2.2 headings/labels and consistent-identification guidance, plus FPF-internal `J.4` / `E.11` entry-neighbour practice. | Current reference source for discoverability and label consistency; FPF entry projection remains the governing local architecture. | Mutates `E.10:0.2b`, `E.10:0.2c.29`, `E.10:12`, and `J.4` coordination: keep trigger wording discoverable enough for first repair, but make final wording, governing-pattern application, and entry projection govern the result. | Do not turn trigger lists into local lexical registries, front-door taxonomies, or accepted replacement vocabulary. Do not let search convenience select ontology. |
+| W3C WCAG 2.2 headings/labels and consistent-identification guidance, plus FPF-internal `E.11`, README, ToC, and `I.2` entry-distribution practice. | Current reference source for discoverability and label consistency; FPF entry projection remains the governing local architecture. | Mutates `E.10:0.2b`, `E.10:0.2c.29`, `E.10:12`, and `E.11` coordination: keep trigger wording discoverable enough for first repair, but make final wording, governing-pattern application, and entry projection govern the result. | Do not turn trigger lists into local lexical registries, front-door taxonomies, or accepted replacement vocabulary. Do not let search convenience select ontology. |
 
 The practical result is simple: lexical governance must improve action guidance and semantic composability, not become language-police work. A SoTA row that does not change a rewrite, a forbidden shortcut, a governing-pattern application, a conformance prompt, or a reopen cue remains decorative and does not carry E.10.
+
 ### E.10:12 - ULR regression cues *(concept-only “diff” triggers)*
 
 Re-review your prose when any of these happen:

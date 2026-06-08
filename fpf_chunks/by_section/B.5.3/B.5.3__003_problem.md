@@ -6,12 +6,12 @@ section_id: "B.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__003_problem.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:2 — Problem"
-line_start: 33645
-line_end: 33652
+line_start: 33821
+line_end: 33828
 dependencies:
   - "A.2"
   - "C.3"

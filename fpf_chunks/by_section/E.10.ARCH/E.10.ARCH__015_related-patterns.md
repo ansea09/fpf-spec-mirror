@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 60182
-line_end: 60197
+line_start: 60380
+line_end: 60396
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,13 +33,14 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -58,4 +59,5 @@ keywords:
 - `F.19` governs phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
-- `J.4` helps readers enter the correct pattern from broad or old terms.
+- `E.11` governs entry-distribution and sends broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.
+

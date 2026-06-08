@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology & Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-lexical-form-lex-morph.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:8 — Morphology & Lexical Form (LEX.Morph)"
-line_start: 59435
-line_end: 59675
+line_start: 59628
+line_end: 59867
 dependencies:
   - "A.10"
   - "A.15"
@@ -165,15 +165,15 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
-Canonical first-entry pattern-comparison rows or row sets may use one compact
-**entry lexeme support** block when the lexical issue is live.
-That support should not live in every pattern body by default.
+Public first-entry scenario text, ToC query rows, local Problem-frame recognition text, or expanded `I.2` entry-disambiguation cases may use one compact **entry lexeme cue** block when the lexical issue changes the first useful FPF entry.
+That cue block should not live in every pattern body by default.
 Keep it instead in:
 
-* `J.4`,
-* `I.2`,
+* FPF `readme` section,
+* `E.11` entry-distribution loci,
+* `I.2` expanded entry-disambiguation cases,
 * `Table of Content` query rows,
-* or one bounded lexical-support record governed by `F.17`, `UTS`, or `F.18`.
+* or one bounded lexical-query record governed by `F.17`, `UTS`, or `F.18`.
 
 This block remains one editorial lexical-query set.
 It does not mint names, aliases, `U.Types`, bridges, or semantic equivalences
@@ -200,8 +200,7 @@ forbidden_aliases
 Ordinary lexical-query support should stay compact:
 
 * ordinary `Table of Content` rows: prefer `2-5` query phrases;
-* ordinary `J.4` pattern-comparison rows: keep only the most discriminating domain phrases and
-  false friends;
+* ordinary `README` scenario or `E.11` entry-distribution cues: keep only the most discriminating domain phrases and false friends;
 * fuller lexical sets belong under `F.17, F.18, and E.10` only when one real
   naming, alias, bridge, or collision claim exists.
 

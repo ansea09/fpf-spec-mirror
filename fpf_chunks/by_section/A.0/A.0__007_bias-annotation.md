@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
-section_id: "A.0:section-008"
-section_title: "8) Consequences"
+section_id: "A.0:6"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__009_8-consequences.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/A.0/A.0__007_bias-annotation.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:section-008 — 8) Consequences"
-line_start: 1001
-line_end: 1011
+  - "A.0:6 — Bias-Annotation"
+line_start: 1147
+line_end: 1154
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -53,14 +53,11 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### 8) Consequences
+### A.0:6 - Bias-Annotation
 
-**Benefits.**
-• **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
-• **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
-• **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
-
-**Trade‑offs & mitigations.**
-• Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
-• Requires discipline on units and scales → mitigated by CG‑frame templates.
+**Scope.** Trans‑disciplinary; glossary applies to both **System** and **Episteme** work.
+**Known risks & mitigations.**
+*Over‑aggregation:* forbid mixed‑scale sums; use **CG‑frame** and **MM‑CHR**.
+*Terminology drift:* enforce **LEX‑BUNDLE** registers; ban tool jargon in Core.
+*Optimization monoculture:* require declared set-result or typed portfolio publication where G‑kit mandates parity; illumination stays **report‑only telemetry** unless a CAL policy promotes it (policy‑id cited).
 

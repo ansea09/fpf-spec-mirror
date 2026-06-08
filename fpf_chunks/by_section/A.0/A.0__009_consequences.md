@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
-section_id: "A.0:section-001"
-section_title: "1) Problem frame"
+section_id: "A.0:8"
+section_title: "Consequences"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__002_1-problem-frame.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/A.0/A.0__009_consequences.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:section-001 — 1) Problem frame"
-line_start: 901
-line_end: 904
+  - "A.0:8 — Consequences"
+line_start: 1172
+line_end: 1182
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -53,7 +53,14 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### 1) Problem frame
+### A.0:8 - Consequences
 
-Engineer‑managers meeting FPF for the first time need a **plain, on‑ramp vocabulary** for the framework’s *generative* engine so they can run an informed **problem‑solving/search loop** on day one—*before* formal specifications. Without that, Part G and Part F read as assurance/alignment only, and teams default to single “best” options. This **undercuts P‑10 Open‑Ended Evolution** and harms adoption.
+**Benefits.**
+• **Immediate usability** for engineer‑managers (plain one‑liners) with **formal anchors** for auditors.
+• **Declared-set-first / typed portfolio-publication** culture (typed set results & illumination) instead of brittle leaderboards.
+• **Edition‑aware comparability**; parity/refresh is routine, not ad‑hoc.
+
+**Trade‑offs & mitigations.**
+• Slightly longer UTS rows → mitigated by consistent schema and copy‑paste snippets.
+• Requires discipline on units and scales → mitigated by CG‑frame templates.
 

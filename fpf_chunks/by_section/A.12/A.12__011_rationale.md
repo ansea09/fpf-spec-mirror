@@ -6,12 +6,12 @@ section_id: "A.12:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__011_rationale.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:8 — Rationale"
-line_start: 18941
-line_end: 18951
+line_start: 19117
+line_end: 19127
 dependencies:
   - "A.3"
   - "B.2.5"

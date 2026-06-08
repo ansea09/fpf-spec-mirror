@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_conformance-checklist.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance checklist"
-line_start: 60152
-line_end: 60168
+line_start: 60349
+line_end: 60366
 dependencies:
   - "A.17"
   - "A.18"
@@ -33,13 +33,14 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.2"
   - "E.21"
   - "E.8"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -60,3 +61,4 @@ keywords:
 | `CC-E10ARCH-8` | `semanticArea`, `ontologicalNeighborhood`, and `pattern nest` follow `E.8` placement discipline: `semanticArea` is the Part-F semantic unit, `ontologicalNeighborhood` is its applicability neighborhood, and `pattern nest` is placement. None of them becomes workstream, campaign, module, or authority-bearing record. |
 | `CC-E10ARCH-9` | Repair removes overread and preserves one useful admissible reader move. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation checks cover duplicate trigger tables, stale quality-term-restoration links, broad `U.*` heads, shadow restoration apparatus, and entry or index drift. |
+

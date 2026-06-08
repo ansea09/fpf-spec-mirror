@@ -6,12 +6,12 @@ section_id: "C.16.Q:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__001_intro.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:intro — Intro"
-line_start: 41283
-line_end: 41313
+line_start: 41459
+line_end: 41490
 dependencies:
   - "A.10"
   - "A.16"
@@ -85,3 +85,4 @@ When `E.10` encounters `quality`, `good`, `fit`, `high-quality`, `quality metric
 This pattern does not assert that phenomenal character or qualia, phenomenological preconceptual fit, Pirsig-style dynamic quality and static quality, latent fit in learned representations, explanatory merit, engineering `-ilities`, QD and NQD selector value, and control adequacy are one concept.
 Its job is to publish a disciplined evaluative-characterization use across those traditions while preventing false identity by shared label.
 It also does not assert that every trigger use of "quality" is admissibly repaired by the transitional quality-term repair form: where the repaired statement is primarily about an action invitation under `A.6.A`, relation construction under `A.6.P`, or a requirement or commitment over explicit heads, the admissible move is to exit to the pattern governing the recovered claim rather than assigning a quality-term or evaluative characterization.
+

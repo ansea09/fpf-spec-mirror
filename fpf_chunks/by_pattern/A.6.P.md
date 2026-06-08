@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 11999
-line_end: 12816
+line_start: 12170
+line_end: 12990
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -220,7 +220,7 @@ A relation mention or relation-bearing phrase is in-scope for `A.6.P` when **any
 | **Characteristic, measurement, threshold, or comparison reference.** The phrase says a characteristic, metric, score, threshold, benchmark, or comparison warrants a claim. | bearer, characteristic space, scale, measure, measurement procedure, comparison reference set, threshold rule, proxy-distortion risk. | `C.16`, `A.17`-`A.19`, `C.25`, `G.9`, and the bridge or comparison pattern governing the characteristic, measurement, threshold, benchmark, or comparison claim being made. |
 | **Admissible-use or boundary-use rule.** The phrase says a current use, publication use, project action, work preparation, gate use, or downstream reliance is allowed. | `admissibleUse` target named by value, non-admissible claim escalation or adjacent use, L, A, D, and E split when boundary-use reading is being made, project-side kind or reference if needed. | `A.6.B`, `E.17:5.1c`, `C.2.P`, and project-side pattern governing the claim. |
 | **Work, enablement, prerequisite, resource, or operational help.** The phrase says one thing helps, enables, prepares, funds, resources, scaffolds, directs, or makes work easier, without claiming evidence, authority, truth, or admissibility. | enabled work and method or action, prerequisite or resource relation if FPF-governed, remaining reader move, explicit non-admissible evidence, gate, assurance, or decision use. | `A.15`, `A.15.4`, `A.6.A`, `C.11`, or Plain orientation when no FPF-governed use is live. |
-| **Publication companion, entry, navigation, or reader help.** The phrase says one publication unit, section, navigation index, review packet, companion document, or reader aid helps readers find, inspect, compare, or review another EntityOfConcern. | publication unit or companion-publication kind, reader function, publication or episteme being found, inspected, or reviewed, source-description relation, evidence path, architecture or structure relation, or review relation when that relation is being made; no downstream authority unless separately named. | `E.17`, `J.4`, `C.2.P`, and the governing pattern if action guidance becomes FPF-governed. |
+| **Publication companion, entry, navigation, or reader help.** The phrase says one publication unit, section, README scenario, ToC query cue, expanded entry-disambiguation case, review packet, companion document, or reader aid helps readers find, inspect, compare, or review another EntityOfConcern. | publication unit or companion-publication kind, entry-distribution locus, reader function, publication or episteme being found, inspected, or reviewed, source-description relation, evidence path, architecture or structure relation, or review relation when that relation is being made; no downstream authority unless separately named. | `E.17`, `E.11`, `I.2`, `C.2.P`, and the governing pattern if action guidance becomes FPF-governed. |
 
 If no support-like claim kind or admissible-use boundary can be selected from the current claim context, the phrase remains ordinary help, orientation, source-finding, quote-only wording, reduced-use cue, or blocked current transfer. A support-headed name such as `SupportRecord`, `support source`, `support relation`, `support line`, `support basis`, a support phrase that hides a state-family claim, `support view`, or `supported use` is a diagnostic trigger; it is conforming only when rewritten to a locally governed record, field, relation, admissible-use boundary, or, for the A.19 case, `DeclaredSubstrateInterpretiveView` under `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`. When the selected support-like case is base-dependence, the conforming form is A.6.6 SWBD or a Context-local SWBD specialization with explicit `baseRelation(dependent, base)`, not a generic support-headed type. Otherwise, use the selected row above and name the relation named by value, slot, field, source-use relation, evidence path, grounding, or governing pattern ontology for that support-like case.
 
@@ -232,6 +232,7 @@ When `E.10` selects relation-like repair case, endpoint recovery, support-like c
 This pattern does not become the parent for every wording-use precision-restoration problem. Source-expression, publication, carrier, face, `PublicationUnit`, and source-use wording use `C.2.P` when that stack is live. Architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, or source-use relation is hidden uses `C.30.P`. Characteristic, scale, score, metric, indicator, threshold, comparison, or scalar-quality wording whose construction is hidden uses `C.16.P`. Quality or evaluative characterization uses `C.16.Q`, `C.25`, `E.21`, or another characterization pattern governing the claim unless the found problem is relation construction. Function-like wording whose FPF kind named by value, relation, or claim is hidden uses `A.6.F` first.
 
 The old quality-term precision-restoration placement is not retained as a live `A.6.P` child after `C.16.Q` exists. `A.6.P` remains applicable for relation-shaped entry cases inside quality prose, such as bridge, basedness, comparison, action-invitation relation, or endpoint mismatch; it does not carry quality characterization or evaluative characterization as a relation by default.
+
 #### A.6.P:4.0 - Language-state entry note
 
 RPR entry normally presupposes enough `C.2.4` articulation explicitness that at least one relation-like skeleton can be named explicitly, and often enough `C.2.5` closure that one candidate relation-bearing use is worth publishing as a relation record rather than remaining cue-pack material.
@@ -807,6 +808,7 @@ A.6.P echoes contemporary practice across independent traditions, while remainin
 | Fong and Spivak, "Seven Sketches in Compositionality" (2019), as applied-category-theory lineage for compositional modeling. | Lineage and didactic source use for compositional lens choice; not by itself current-best source use for FPF wording repair. | Shows why stable abstract lenses can be reused across domains. | Adapts compositionality as a reason to keep A.6.P notation-neutral while requiring relation slots and change lexicon; mutates the rationale and teaching examples. | Rejects adding a global category-theory ontology to FPF relation repair. |
 
 These echoes justify why A.6.P is structured as: **stable lens -> explicit slots -> explicit change classes -> lexical guardrails**, rather than "just define the verb". A source row that does not change A.6.P fields, examples, checklist rows, boundaries, or reopen conditions is decorative and should be removed or demoted to lineage outside the SoTA echo.
+
 ### A.6.P:12 — Relations
 
 **Specialised by**
@@ -865,6 +867,7 @@ Useful outputs:
 - a local explanatory phrase when no reusable relation token is justified;
 - an `A.6.P` repair plus `F.18` naming pass when a reusable relation token is actually needed;
 - a `C.26` application only for the remaining state, probe, export, frame, or coarsening claim kind or admissible-use boundary.
+
 ### A.6.P:12b - C.29 mathematical-lens use relation
 
 > **Mathematical-lens use relation.** `A.6.P` may select a stable mathematical substrate for relation precision restoration: arity, polarity, endpoint discipline, slot structure, and relation-kind repair. This does not by itself apply `C.29`. `C.29 Mathematical Lens Use` applies only when that substrate is used as a FPF-governed mathematical representation of a selected subject, relation, claim, or structure beyond relation repair. `A.6.P` does not by itself license source-domain ontology transfer.

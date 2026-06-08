@@ -6,12 +6,12 @@ section_id: "E.2.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__012_sota-echoing.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:11 — SoTA-Echoing"
-line_start: 56108
-line_end: 56118
+line_start: 56290
+line_end: 56300
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,7 +31,7 @@ keywords:
 | Source-use decision | Local adoption |
 |---|---|
 | `E.2` constitutional source | Supplies Pillar heads and prevents local redefinition. |
-| Pattern-language entry and projection discipline from `E.11` and `J.4` | Makes entry, thin echoes, and governing-pattern authority evaluable under `P1`, `P2`, `P5`, `P7`, `P9`, and `P10`. |
+| Pattern-language entry and projection discipline from `README`, `E.11`, ToC, and `I.2` | Makes entry, thin echoes, and governing-pattern authority evaluable under `P1`, `P2`, `P5`, `P7`, `P9`, and `P10`. |
 | Current pattern-quality source lines from `E.21` | Provide local pattern-quality evidence without averaging it into corpus adequacy. |
 | Current `DRR` adequacy source lines from `E.9.DA` | Provide decision-quality evidence when upstream decisions affect Pillar realization. |
 | Precision and naming source lines from `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18` | Keep wording repair distributed while evaluating FPF-level Pillar effects. |

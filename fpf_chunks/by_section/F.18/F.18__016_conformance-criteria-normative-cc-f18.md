@@ -6,12 +6,12 @@ section_id: "F.18:15"
 section_title: "Conformance Criteria (normative “CC‑F18”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__016_conformance-criteria-normative-cc-f18.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:15 — Conformance Criteria (normative “CC‑F18”)"
-line_start: 75562
-line_end: 75607
+line_start: 75530
+line_end: 75576
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -71,3 +71,4 @@ A **MintNew** Name Card is **non-conformant** if it records only the chosen labe
 
 **CC-F18-18 (Interpretive-view labels keep their base candidate set or family).**
 When a Name Card or worked naming note uses interpretive-view or atlas wording, it **SHALL** keep the base palette, front, archive, shortlist, or candidate set recoverable, **SHALL** use atlas wording only when several declared views, spaces, mappings, or qualifiers are jointly load-bearing for the naming explanation, and **SHALL NOT** let guarded-head notes stand in for substrate stewardship or publication policy decisions.
+

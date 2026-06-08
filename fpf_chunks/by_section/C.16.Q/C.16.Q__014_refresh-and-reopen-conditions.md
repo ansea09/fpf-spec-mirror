@@ -6,12 +6,12 @@ section_id: "C.16.Q:11a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__014_refresh-and-reopen-conditions.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11a — Refresh and reopen conditions"
-line_start: 42017
-line_end: 42029
+line_start: 42197
+line_end: 42209
 dependencies:
   - "A.10"
   - "A.16"
@@ -62,7 +62,7 @@ Reopen or narrow C.16.Q when any of these current-pattern-language conditions be
 * a new endpoint governing pattern can govern a class of uses that currently require transitional `qualityTermAscription(...)`;
 * `A.7`, `C.2.P`, `C.2.1`, or bridge-policy vocabulary changes the admissible lane, EntityOfConcern, publication-face, carrier, or `ReferencePlane` wording used by this pattern;
 * current best-known practice changes a `QualitySense`, normal-form boundary, action-invitation boundary, scale-legality boundary, or source-use and currentness row used in `C.16.Q:11`;
-* `J.4` first-entry projection changes for quality, characteristic, action-invitation, architecture-description, selector, or explanation wording;
+* README, ToC, `E.11`, retrieval, or local Problem-frame first-entry cues change for quality, characteristic, action-invitation, architecture-description, selector, or explanation wording;
 * subject patterns begin copying quality trigger lists, `QualitySense` rows, or transitional repair-form slots that belong in this first-stage quality-term precision-restoration pattern.
 
 The refresh action is to remove, narrow, or redirect the affected row or exit. Do not preserve a stale `QualitySense`, endpoint exit, lane wording, or source row as historical compatibility text.

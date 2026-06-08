@@ -6,14 +6,15 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 57040
-line_end: 57368
+line_start: 57222
+line_end: 57552
 dependencies:
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.21"
   - "E.23"
@@ -27,7 +28,7 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -180,6 +181,7 @@ Brief explanations:
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
 
 Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Internal Cohesion), S-4 (Contextualisation), and S-6 (Quotable Closers).
+
 #### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
@@ -228,6 +230,7 @@ A **third didactic-content role** means enough didactic and operational content 
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
 
 Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review path is required.
+
 #### E.8:4.2.2 - Package-form and governing-pattern relation role-word discipline
 
 FPF pattern prose is not free-form descriptive English. When authors name a *package-form* or a *governing-pattern relation*, they must use role words with stable semantic intent.
@@ -265,6 +268,7 @@ These are not synonyms. A precision-restoration pattern is placed in the pattern
 Affected patterns should use a thin pointer when the first-stage wording repair belongs elsewhere. The pointer names the selected restoration pattern and the condition that triggers it; it does not copy the trigger registry, the full `E.10.ARCH` recovery algorithm, or a second local architecture for the same repair. The affected pattern then keeps its own subject matter: the characteristic, structure, view, episteme, relation, evidence, assurance, gate, work, decision, or adequacy question it already governs.
 
 If a draft proposes a new precision-restoration pattern, the authoring claim must show the repeated wording failure, `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, the recovered primary `EntityOfConcern` kind or relation/claim record, the intended pattern nest, the neighboring governing relations, and the admissible action left after repair. A new pattern is not justified merely because a word appears often, because a local checklist wants a bucket, or because a campaign needs a tidy grouping.
+
 #### E.8:4.2.3 - Reader-role discipline for pattern prose
 
 A pattern is written for its intended FPF user: the person who will use the pattern to organise thought, inspect a case, publish a note, or review a result under that pattern.
@@ -326,8 +330,7 @@ The local recognition signature should make recoverable:
 frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
-Cross-pattern comparison belongs in `J.4`; expanded entry-disambiguation cases
-belong in `I.2`.
+Compact candidate-pattern comparison belongs in `E.11`-distributed entry material; expanded entry-disambiguation cases belong in `I.2`.
 
 If the prose points to neighbouring patterns or other governing companion roles, it should present them as neighboring FPF patterns, project-side FPF kinds and references named by value, or `E.11` entry-recognition reclassifications rather than as hidden co-authorities of the current pattern.
 

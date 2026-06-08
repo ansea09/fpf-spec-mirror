@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding-system-episteme.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:5 — Archetypal Grounding (System / Episteme)"
-line_start: 79557
-line_end: 79564
+line_start: 79526
+line_end: 79533
 dependencies:
   - "A.10"
   - "A.21"

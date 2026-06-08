@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Teaching deck — the ULR quick card (reusable in any Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_teaching-deck-the-ulr-quick-card-reusable-in-any-context.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:13 — Teaching deck — the ULR quick card (reusable in any Context)"
-line_start: 59890
-line_end: 59902
+line_start: 60083
+line_end: 60095
 dependencies:
   - "A.10"
   - "A.15"

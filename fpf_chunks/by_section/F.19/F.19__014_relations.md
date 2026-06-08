@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 76054
-line_end: 76067
+line_start: 76023
+line_end: 76036
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -21,6 +21,7 @@ dependencies:
   - "C.30.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.11"
   - "E.18"
   - "E.19"
   - "E.21"
@@ -28,7 +29,7 @@ dependencies:
   - "E.23"
   - "E.8"
   - "F.18"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -44,5 +45,5 @@ keywords:
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Govern state-family, source/publication, characteristic/scale, and architecture/structure wording when those objects remain as content after apparatus removal. |
 | `E.21` | Consumes `F.19` findings through `PrecisionRestorationProfile`; it lowers affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | Use `F.19` in review, framing, and improvement-loop work while keeping quality-loop records out of pattern prose. |
-| `J.4` | Provides first-entry cues for phrase-level apparatus repair. |
+| `E.11` and `I.2` | Provide first-entry cues and expanded entry-disambiguation cases for phrase-level apparatus repair. |
 

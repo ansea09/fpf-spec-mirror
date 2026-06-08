@@ -6,12 +6,12 @@ section_id: "G.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__011_consequences.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:9 — Consequences"
-line_start: 79695
-line_end: 79699
+line_start: 79664
+line_end: 79668
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.9.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
-line_start: 5236
-line_end: 5527
+line_start: 5407
+line_end: 5698
 dependencies:
   - "A.10"
   - "A.15.1"

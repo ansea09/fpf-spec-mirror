@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.0"
 pattern_title: "Onboarding Glossary (NQD & E/E‑LOG)"
-section_id: "A.0:section-006"
-section_title: "6) Bias‑Annotation"
+section_id: "A.0:3"
+section_title: "Forces"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.0/A.0__007_6-bias-annotation.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/A.0/A.0__004_forces.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
-  - "A.0:section-006 — 6) Bias‑Annotation"
-line_start: 976
-line_end: 983
+  - "A.0:3 — Forces"
+line_start: 1087
+line_end: 1095
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
@@ -53,11 +53,12 @@ keywords:
   - "typed portfolio publication"
 ---
 
-### 6) Bias‑Annotation
+### A.0:3 - Forces
 
-**Scope.** Trans‑disciplinary; glossary applies to both **System** and **Episteme** work.
-**Known risks & mitigations.**
-*Over‑aggregation:* forbid mixed‑scale sums; use **CG‑frame** and **MM‑CHR**.
-*Terminology drift:* enforce **LEX‑BUNDLE** registers; ban tool jargon in Core.
-*Optimization monoculture:* require declared set-result or typed portfolio publication where G‑kit mandates parity; illumination stays **report‑only telemetry** unless a CAL policy promotes it (policy‑id cited).
+| Force                         | Tension                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------- |
+| **Readability vs Rigor**      | One‑liners for managers ↔ lawful definitions with editions and scale types.     |
+| **Creativity vs Assurance**   | Open‑ended search (OEE/QD) ↔ conformance, parity, and publication discipline.   |
+| **Comparability vs Locality** | Shared N‑U‑C‑D terms ↔ context‑local CG‑frames and bridges with CL.             |
+| **Tool‑agnostic Core**        | Conceptual publication in UTS ↔ engineering teams’ urge to cite specific tools. |
 

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `21e2101c100964de121c37408b37563ee0cdbf8c`
+Commit SHA: `b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d`
 
 Chunking method: `pattern-aware`
 
-Patterns: `237`
+Patterns: `236`
 
 ## Patterns
 
@@ -246,4 +246,3 @@ Patterns: `237`
 - [G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)](by_pattern/G.12.md)
 - [G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)](by_pattern/G.13.md)
 - [I.2 — Expanded Entry Disambiguation Cases](by_pattern/I.2.md)
-- [J.4 — First Practical Entry Pattern-Comparison Index](by_pattern/J.4.md)

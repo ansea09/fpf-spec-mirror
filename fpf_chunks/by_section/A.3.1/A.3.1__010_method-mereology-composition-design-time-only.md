@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Method mereology (composition) — design‑time only"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_method-mereology-composition-design-time-only.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:9 — Method mereology (composition) — design‑time only"
-line_start: 5921
-line_end: 5941
+line_start: 6092
+line_end: 6112
 dependencies:
   - "A.1"
   - "A.1.1"

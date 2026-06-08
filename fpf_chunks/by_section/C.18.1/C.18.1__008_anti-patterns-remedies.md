@@ -6,12 +6,12 @@ section_id: "C.18.1:7"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__008_anti-patterns-remedies.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:7 — Anti‑patterns & remedies"
-line_start: 42950
-line_end: 42953
+line_start: 43132
+line_end: 43135
 dependencies:
   - "C.16"
   - "C.17"

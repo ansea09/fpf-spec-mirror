@@ -6,14 +6,15 @@ section_id: "E.8:0.3"
 section_title: "Pattern Kind In Plain Terms"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_pattern-kind-in-plain-terms.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.3 — Pattern Kind In Plain Terms"
-line_start: 56996
-line_end: 57015
+line_start: 57178
+line_end: 57197
 dependencies:
   - "E.10"
+  - "E.11"
   - "E.19"
   - "E.21"
   - "E.23"
@@ -27,7 +28,7 @@ dependencies:
   - "E.9.DA"
   - "F.18"
   - "F.19"
-  - "J.4"
+  - "I.2"
 keywords:
   - "). The key words MUST"
   - "MAY"
@@ -58,7 +59,7 @@ Pattern application is the user-side act: the user recognizes the working situat
 
 The primary content-bearing job is constructive method guidance: the pattern must say what the user should do so the recurring error does not arise. Error prevention, auditability, and conformance checks are evidence that the guidance is usable; they are not the pattern's center. The first substantive content in the opening `Problem frame` and `Solution` must be a positive subject spine: the primary `EntityOfConcern` kind, the first admissible action-guiding move, the practical delta, and the few boundaries needed for that first move. The text must not replace subject content with repeated guards, distinctions, related-pattern mappings, references, mini-rules, definitions, caveats, architecture rationale, or quality/projection evidence unless the repetition adds a new local action, case, evidence value for the user, or first-reading recognition need. Copying distinctions owned by other patterns into this pattern as repeated "do not confuse our EoC with their EoC" prose is the same repetition problem. Boundary doctrine is pattern content like any other doctrine: if strict distinction, non-use, ToC navigation, or the governing pattern for a claim/relation/boundary already carries the distinction, do not repeat it locally. Use one short pattern id or governing-pattern statement when needed. Add local boundary prose only when it states a documented local confusion and exact stop condition that the owning pattern does not already carry. The repair is to say clearly what this pattern's own `EntityOfConcern` is, not to enumerate the unbounded set of other things it is not.
 
-The same rule blocks pattern-application drift for any FPF object, not only for patterns. Name the object by its FPF kind when the kind is known: a pattern is a pattern, a claim is a claim, a relation is a relation, a row is a row, a source is a source, a publication is a publication, a WorkPlan is a WorkPlan, and so on. FPF patterns are applied to situations, claims, texts, or work objects. Use `governing pattern` only in the typed form `governing pattern for <claim/relation/boundary>` when one pattern actually governs that specific item; use `related pattern` for a looser pattern relation; use `relation` only for the relation itself. A compact pattern-reference sentence should be declarative: this pattern applies to `<situation/claim/object>`, this claim is governed by `<pattern id>`, this relation is recorded in `Relations`, this entry cue belongs in ToC/J.4, or this pattern application stops under `<condition>`. Relations are positive claims, not catalogs of absent relations. Detailed discoverability belongs in ToC/J.4; compact related-pattern statements belong late in `Relations` after the positive subject/action spine. Ordinary references use ordinary reference apparatus: a pattern id in prose, a citation, `Builds on`, `Coordinates with`, `Relations`, ToC, or `J.4`. They are also not repeated as many conditional sentences or small variants when one compact definition, boundary, table, `Relations`, ToC, or `J.4` locus already carries the same content family.
+The same rule blocks pattern-application drift for any FPF object, not only for patterns. Name the object by its FPF kind when the kind is known: a pattern is a pattern, a claim is a claim, a relation is a relation, a row is a row, a source is a source, a publication is a publication, a WorkPlan is a WorkPlan, and so on. FPF patterns are applied to situations, claims, texts, or work objects. Use `governing pattern` only in the typed form `governing pattern for <claim/relation/boundary>` when one pattern actually governs that specific item; use `related pattern` for a looser pattern relation; use `relation` only for the relation itself. A compact pattern-reference sentence should be declarative: this pattern applies to `<situation/claim/object>`, this claim is governed by `<pattern id>`, this relation is recorded in `Relations`, this entry cue belongs in README, ToC, `E.11`, `I.2`, or a retrieval/projection carrier, or this pattern application stops under `<condition>`. Relations are positive claims, not catalogs of absent relations. Detailed discoverability belongs in README, ToC query cues, `E.11`, `I.2`, or retrieval/projection carriers; compact related-pattern statements belong late in `Relations` after the positive subject/action spine. Ordinary references use ordinary reference apparatus: a pattern id in prose, a citation, `Builds on`, `Coordinates with`, `Relations`, ToC, README, `E.11`, or `I.2`. They are also not repeated as many conditional sentences or small variants when one compact definition, boundary, table, `Relations`, ToC, README, `E.11`, `I.2`, or retrieval/projection locus already carries the same content family.
 
 Treat precision-restoration problems in pattern prose as one profile with five layers: word/head/use precision, phrase apparatus, repetition/distribution, role/carrier separation, and pattern application. Do not add a local row for each new symptom. `E.8` requires the author to keep the positive subject/action spine first; `F.19` repairs phrase-level apparatus; `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern repairs remaining word/head/use precision; `E.21` measures the collapsed effect on pattern quality.
 

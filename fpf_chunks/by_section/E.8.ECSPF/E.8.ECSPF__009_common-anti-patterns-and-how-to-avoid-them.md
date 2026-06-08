@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57642
-line_end: 57656
+line_start: 57828
+line_end: 57842
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -38,6 +38,6 @@ keywords:
 | **Rubric promotion.** | A local rubric becomes an FPF pattern because it was useful once. | Keep it local unless durable FPF reuse, evaluated object scope, and governing patterns for outside claims are declared. |
 | **Frozen evaluation publication form.** | The evaluated EntityOfConcern kind, use, use of a cited source, source adoption/adaptation/rejection decision, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen `A.19.ECS` for the evaluation EntityOfConcern and state whether earlier evaluation results remain comparable, need a bridge, or must be retired. |
 | **Report-shaped evaluation pattern.** | The pattern publishes coordinate names but leaves the returned result as a narrative, score list, or two-column table. | Add a result-form block: coordinate, value, short rationale, evidence basis, and coordinate-specific payload where needed. |
-| **Pattern-quality report as evaluation pattern.** | `E.21` status, all-`4`/all-`5` posture, corpus projection, retrieval evidence, J.4 alignment, monolith parity, landing readiness, or role-turn correspondence appears anywhere in the pattern as if it were the evaluation method. | Move that evidence to the quality/review/projection/release carrier and keep the pattern body focused on the evaluation for the declared evaluated object kind. |
+| **Pattern-quality report as evaluation pattern.** | `E.21` status, all-`4`/all-`5` posture, corpus projection, retrieval evidence, README/ToC/E.11/I.2 alignment, monolith parity, landing readiness, or role-turn correspondence appears anywhere in the pattern as if it were the evaluation method. | Move that evidence to the quality/review/projection/release carrier and keep the pattern body focused on the evaluation for the declared evaluated object kind. |
 | **Apparatus-overwrapped publication form.** | The evaluation relation is written through role, carrier, locus, flow, status, or package words that add no evaluated object kind, coordinate meaning, evidence rule, user move, or flow-role distinction. | Apply `F.19`; if remaining content still hides a word/head/use, apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern. |
 

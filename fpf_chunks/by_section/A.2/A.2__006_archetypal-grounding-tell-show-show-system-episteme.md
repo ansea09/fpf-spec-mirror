@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show: System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:5 — Archetypal Grounding (Tell–Show–Show: System / Episteme)"
-line_start: 1608
-line_end: 1626
+line_start: 1779
+line_end: 1797
 dependencies:
   - "A.1"
   - "A.1.1"

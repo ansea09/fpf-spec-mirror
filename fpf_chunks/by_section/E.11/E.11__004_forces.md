@@ -6,32 +6,36 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 60750
-line_end: 60760
+line_start: 60938
+line_end: 60949
 dependencies:
-  - "A.6.RSIG"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.19"
+  - "E.21"
   - "E.8"
-  - "F.17"
   - "F.18"
+  - "F.19"
   - "I.2"
-  - "J.4"
 keywords:
-  - "& Search Queries gives sparse"
+  - "Public first-entry explanation or durable pattern semantics"
+  - "dependencies"
+  - "query phrases"
 ---
 
 ### E.11:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| High recall vs high precision | Coarse orientation helps the reader enter quickly without creating false confidence or false sequence. |
-| Local fit vs corpus consistency | Pattern-local cues stay honest while the corpus avoids stale echoes and duplicated load-bearing guidance. |
-| Subject-domain wording vs canonical wording | Readers search in real phrases, but canonical names and governed distinctions stay admissible. |
-| Quick orientation vs anti-workflow discipline | Entry support helps pattern selection without reading like route execution, handoff, or pipeline. |
-| Reader economy vs fanout control | More support roles can help entry, but repeated near-duplicate guidance creates contradiction risk and maintenance cost. |
-| Human and AI-assisted retrieval vs authority | Retrieval may return helpful fragments, but fragments must not answer as if they were the applicable governing pattern body. |
+| Project recognizability | The public entry must start from ordinary project questions, not from internal pattern topology. |
+| Technical precision | The entry must still make the first admissible governing pattern recoverable. |
+| Low burden | A newcomer should not need to fill forms or parse a compact index before seeing value. |
+| Plain credibility | A newcomer should see the project value and the idea behind it before seeing forms, pattern ids, or FPF internal vocabulary. |
+| No duplicate canon | `readme`, Preface, ToC, local pattern Problem frames, and expanded cases must not carry competing first-entry arrangements. |
+| No semio-bias | Wording and description repair must be visible, but FPF must not present itself mainly as a language-policing framework. |
+| Corpus evolution | New patterns may change first-entry scenarios, but entry material must update without copying whole pattern bodies into projections. |
 

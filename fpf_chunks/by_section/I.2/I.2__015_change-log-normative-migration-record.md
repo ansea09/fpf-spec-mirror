@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "J.4"
-pattern_title: "First Practical Entry Pattern-Comparison Index"
-section_id: "J.4:section-012"
+pattern_id: "I.2"
+pattern_title: "Expanded Entry Disambiguation Cases"
+section_id: "I.2:section-014"
 section_title: "Change Log (normative migration record)"
 source_path: "FPF-Spec.md"
-output_path: "by_section/J.4/J.4__013_change-log-normative-migration-record.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+output_path: "by_section/I.2/I.2__015_change-log-normative-migration-record.md"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
-  - "J.4 — First Practical Entry Pattern-Comparison Index"
-  - "J.4:section-012 — Change Log (normative migration record)"
-line_start: 83049
-line_end: 83054
+  - "I.2 — Expanded Entry Disambiguation Cases"
+  - "I.2:section-014 — Change Log (normative migration record)"
+line_start: 82919
+line_end: 82924
 dependencies:
 keywords:
 ---

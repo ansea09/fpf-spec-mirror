@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21183
-line_end: 21186
+line_start: 21359
+line_end: 21362
 dependencies:
   - "A.10"
   - "A.15"

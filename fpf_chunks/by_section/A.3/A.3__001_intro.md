@@ -6,12 +6,12 @@ section_id: "A.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__001_intro.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:intro — Intro"
-line_start: 5528
-line_end: 5529
+line_start: 5699
+line_end: 5700
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds (senseFamily-aware)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__007_bridge-kinds-sensefamily-aware.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:6 — Bridge kinds (senseFamily-aware)"
-line_start: 71776
-line_end: 71818
+line_start: 71741
+line_end: 71783
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

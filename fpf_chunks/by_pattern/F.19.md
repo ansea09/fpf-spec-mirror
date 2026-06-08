@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 75842
-line_end: 76069
+line_start: 75811
+line_end: 76038
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -20,6 +20,7 @@ dependencies:
   - "C.30.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.11"
   - "E.18"
   - "E.19"
   - "E.21"
@@ -27,7 +28,7 @@ dependencies:
   - "E.23"
   - "E.8"
   - "F.18"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 
@@ -44,7 +45,7 @@ Repair technical prose whose object, claim, relation, action, role, or flow is b
 
 **Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and exact source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects carry the repaired span's claim.
 
-**Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `J.4`, pattern-quality records, review records, `DRR`s, projection carriers, and source-side notes.
+**Coordinates with.** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `E.11`, `I.2`, pattern-quality records, review records, `DRR`s, projection carriers, and source-side notes.
 
 ### F.19:0 - Use this when
 
@@ -123,7 +124,7 @@ Use `OntologyFirstPlainRewrite` as a five-step repair over one bounded span.
 
 1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, negative catalogue, reference boilerplate, or other overwrap.
 2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim kind or relation kind, slot or use-position, admissible use, concerned role, and design/run or coupled-flow role it expresses. If a phrase part changes one of those values, keep it as content. If it only restates process, role label, negative catalogue, reference boilerplate, or quality proof without changing content, classify it as apparatus.
-3. **Remove or move apparatus.** Delete the apparatus or move it to the carrier where it belongs: `DRR`, review record, quality result, architecture note, ToC/J.4, projection carrier, release/landing evidence carrier, or source-side note. Do not replace it with a smoother synonym, role label, container word, or status word.
+3. **Remove or move apparatus.** Delete the apparatus or move it to the carrier where it belongs: `DRR`, review record, quality result, architecture note, README/ToC/E.11/I.2 entry locus, projection carrier, release/landing evidence carrier, or source-side note. Do not replace it with a smoother synonym, role label, container word, or status word.
 4. **Restore remaining content precision.** Apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern when a remaining word, head, relation, claim, slot/use-position, source-use role, durable name, or admissible-use boundary is still hidden.
 5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim/relation/action, slot/use-position, role, flow, established term, and admissible use. The rewrite fails if it changes one of those values without an accepted semantic decision, or if it becomes harder for the declared reader to use.
 
@@ -166,7 +167,7 @@ Pattern prose moves out:
 - package-placement rationale;
 - review/executor correspondence;
 - quality-status proof;
-- ToC/J.4, retrieval, card, monolith-parity, or landing evidence;
+- README/ToC/E.11/I.2, retrieval, card, monolith-parity, or landing evidence;
 - repeated boundary doctrine already carried by another pattern.
 
 ### F.19:5 - Archetypal Grounding
@@ -255,7 +256,7 @@ Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phras
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | Govern state-family, source/publication, characteristic/scale, and architecture/structure wording when those objects remain as content after apparatus removal. |
 | `E.21` | Consumes `F.19` findings through `PrecisionRestorationProfile`; it lowers affected quality coordinates without creating one coordinate per apparatus symptom. |
 | `E.19`, `E.22`, `E.23` | Use `F.19` in review, framing, and improvement-loop work while keeping quality-loop records out of pattern prose. |
-| `J.4` | Provides first-entry cues for phrase-level apparatus repair. |
+| `E.11` and `I.2` | Provide first-entry cues and expanded entry-disambiguation cases for phrase-level apparatus repair. |
 
 ### F.19:End
 

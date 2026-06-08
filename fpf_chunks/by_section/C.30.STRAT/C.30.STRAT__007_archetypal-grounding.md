@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 52924
-line_end: 52931
+line_start: 53106
+line_end: 53113
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,13 +37,14 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.11"
   - "E.17"
   - "E.18"
   - "E.8"
   - "F.18"
   - "G.5"
   - "G.6"
-  - "J.4"
+  - "I.2"
 keywords:
 ---
 

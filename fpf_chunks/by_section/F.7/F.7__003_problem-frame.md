@@ -6,12 +6,12 @@ section_id: "F.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__003_problem-frame.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:2 — Problem frame"
-line_start: 71126
-line_end: 71134
+line_start: 71091
+line_end: 71099
 dependencies:
   - "A.6.9"
   - "E.10.D1"

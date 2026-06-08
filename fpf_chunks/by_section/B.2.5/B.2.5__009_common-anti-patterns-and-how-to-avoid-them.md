@@ -6,12 +6,12 @@ section_id: "B.2.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 31349
-line_end: 31358
+line_start: 31525
+line_end: 31534
 dependencies:
   - "A.1"
   - "A.12"

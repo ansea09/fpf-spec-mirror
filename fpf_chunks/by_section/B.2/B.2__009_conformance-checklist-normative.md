@@ -6,12 +6,12 @@ section_id: "B.2:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__009_conformance-checklist-normative.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:7 — Conformance Checklist (normative)"
-line_start: 30835
-line_end: 30846
+line_start: 31011
+line_end: 31022
 dependencies:
   - "A.1"
   - "A.12"

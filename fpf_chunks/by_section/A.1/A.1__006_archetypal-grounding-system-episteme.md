@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_archetypal-grounding-system-episteme.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:5 — Archetypal Grounding (System / Episteme)"
-line_start: 1227
-line_end: 1237
+line_start: 1398
+line_end: 1408
 dependencies:
   - "A.1"
   - "A.1.1"

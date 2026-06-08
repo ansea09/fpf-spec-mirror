@@ -6,12 +6,12 @@ section_id: "A.3.2:16"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__017_didactic-quick-cards.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:16 — Didactic quick cards"
-line_start: 6263
-line_end: 6270
+line_start: 6434
+line_end: 6441
 dependencies:
   - "A.1.1"
   - "A.15"

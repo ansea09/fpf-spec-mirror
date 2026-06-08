@@ -6,12 +6,12 @@ section_id: "F.18:13"
 section_title: "Anti‑Patterns & Failure Modes (what to avoid)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__014_anti-patterns-failure-modes-what-to-avoid.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:13 — Anti‑Patterns & Failure Modes (what to avoid)"
-line_start: 75506
-line_end: 75527
+line_start: 75473
+line_end: 75495
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -47,3 +47,4 @@ Letting a Plain label or alias accumulate extra meanings absent in the underlyin
 
 **13.7 “Atlas label does substrate work.”**
 Letting atlas or interpretive-view language quietly replace the base candidate set or family or decide substrate stewardship or publication policy. **Fix:** keep the base palette, front, archive, or shortlist recoverable, use atlas wording only when several declared views or qualifiers are jointly load-bearing for the naming explanation, and move substrate questions and publication questions to the pattern sections that govern those objects.
+

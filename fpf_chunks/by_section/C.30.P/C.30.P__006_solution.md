@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:4 — Solution"
-line_start: 52575
-line_end: 52623
+line_start: 52757
+line_end: 52805
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,9 +35,9 @@ dependencies:
   - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.11"
   - "E.17"
   - "E.8"
-  - "J.4"
 keywords:
 ---
 

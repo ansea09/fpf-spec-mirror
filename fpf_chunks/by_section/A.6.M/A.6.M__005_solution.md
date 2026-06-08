@@ -6,12 +6,12 @@ section_id: "A.6.M:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__005_solution.md"
-commit_sha: "21e2101c100964de121c37408b37563ee0cdbf8c"
+commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:4 — Solution"
-line_start: 13932
-line_end: 14088
+line_start: 14106
+line_end: 14262
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -162,7 +162,7 @@ ModuleRelationRepairNote:
   interfaceSpecificationRef or gap: service API exists; semantic versioning, data schema, and semantic-constraint conditions incomplete
   admissibilityConditions: team delivery responsibility and on-call responsibility declared; substitutability not established
   substitutionOrChangePolicyRef: missing
-  liveClaimBoundary: role, enactor, work, and procedural correspondence first; module-interface relation only after boundary and interface specification are declared
+  claimBoundary: role, enactor, work, and procedural correspondence first; module-interface relation only after boundary and interface specification are declared
   notAModuleBecause: team communication boundary and delivery responsibility do not by themselves establish module interface, substitutability, or compatibility
   governedNonModuleClaimPatternRefs: A.15 and A.2 for team and work claims; C.29 if the team/module correspondence is claimed as homomorphism-like or almost-same structure; A.6.M only for the declared module-interface relation
   stopCondition: the correspondence is usable as an architecture diagnostic, not as proof
