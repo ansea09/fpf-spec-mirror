@@ -6,12 +6,12 @@ section_id: "A.15.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_bias-annotation.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:6 — Bias-Annotation"
-line_start: 20974
-line_end: 20985
+line_start: 20973
+line_end: 20984
 dependencies:
   - "A.15.1"
   - "A.15.2"

@@ -6,12 +6,12 @@ section_id: "F.0.1:11"
 section_title: "SCR/RSCR acceptance checks (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__012_scr-rscr-acceptance-checks-conceptual.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:11 — SCR/RSCR acceptance checks (conceptual)"
-line_start: 69195
-line_end: 69223
+line_start: 69194
+line_end: 69222
 dependencies:
   - "A.1.1"
   - "A.11"

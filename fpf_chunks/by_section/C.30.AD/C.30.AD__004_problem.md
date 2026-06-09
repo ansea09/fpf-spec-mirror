@@ -6,12 +6,12 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 52397
-line_end: 52407
+line_start: 52398
+line_end: 52408
 dependencies:
   - "A.10"
   - "A.15"

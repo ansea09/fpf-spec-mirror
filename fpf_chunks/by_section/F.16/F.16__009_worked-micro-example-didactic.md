@@ -6,12 +6,12 @@ section_id: "F.16:8"
 section_title: "Worked micro‑example (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__009_worked-micro-example-didactic.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:8 — Worked micro‑example (didactic)"
-line_start: 74490
-line_end: 74503
+line_start: 74489
+line_end: 74502
 dependencies:
   - "B.3"
   - "D.CTX"

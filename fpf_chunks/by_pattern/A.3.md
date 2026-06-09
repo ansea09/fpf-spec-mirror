@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
-line_start: 5699
-line_end: 5908
+line_start: 5698
+line_end: 5907
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "E.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__007_conformance-checklist.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:6 — Conformance Checklist"
-line_start: 56505
-line_end: 56512
+line_start: 56506
+line_end: 56513
 dependencies:
   - "E.1"
   - "E.5.3"

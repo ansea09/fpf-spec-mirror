@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
-line_start: 31566
-line_end: 32151
+line_start: 31565
+line_end: 32152
 dependencies:
   - "A.10"
   - "A.12"
@@ -325,15 +325,17 @@ Any Γ‑flavour that claims an **Assurance** result **must** adopt the followin
    *Rationale:* the least formal piece caps the formality of the whole (WLNK on F).
    *Monotone:* raising any `F_i` cannot reduce `F_eff`.
 
-2. **ClaimScope:**
+2. **ClaimScope (G):**
 
    ```
-   G_eff = SpanUnion({G_i}) constrained by evidence relation
+   G_eff(path)  = intersection({G_i | i is essential on the dependency path})
+   G_eff(claim) = SpanUnion({G_eff(path_j)}) only across independently supported paths
    ```
 
-   * “SpanUnion” is a **set/coverage union** in the domain’s space.
-   * **Constraint:** any region in the union **not covered** by reliable parts is **dropped** (WLNK).
-   * *Monotone:* adding evidence-covered span cannot reduce `G_eff`.
+   * Along an essential dependency path, every required support must hold on the same slice, so the effective claim scope is the intersection of the required scopes. Empty intersection means the path does not support the claim on any slice.
+   * Across independent support lines for the same claim, B.3 may publish a `SpanUnion` of the path scopes, but only when the independence assumption and evidence relation are explicit.
+   * **Constraint:** any region not covered by the required support relation for its path is dropped. A raw union of node scopes is never the default law for `G`.
+   * *Monotone:* adding an independently supported path may widen the published claim scope; adding a new essential dependency may narrow it.
 
 3. **Reliability (penalized by integration):**
 
@@ -543,10 +545,10 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-B3.1** | An assurance result **SHALL** be a typed claim `Assurance(H, C &#124; K, S)` with `S ∈ {design, run}`. | Prevent scope drift and chimeras. |
-| **CC-B3.2** | `F` **SHALL** be treated as **ordinal** (`min`/thresholds only); `G` as **coverage** (set/measure union constrained by evidence relation); `R` as **ratio** (`min` + conservative operations). | Preserve scale integrity (CHR). |
+| **CC-B3.2** | `F` **SHALL** be treated as **ordinal** (`min`/thresholds only); `G` as a **USM scope object** (membership, intersection along essential paths, and `SpanUnion` only across independent support lines); `R` as **ratio** (`min` + conservative operations). | Preserve scale integrity (CHR/USM). |
 | **CC-B3.3** | The **Congruence Level** `CL` **SHALL** live on **edges**; the penalty `Φ(CL)` **SHALL** be **monotone decreasing** and **bounded** (`R_eff ≥ 0`). | Make integration quality first-class. |
 | **CC-B3.4** | `R_eff` **SHALL** be computed as `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
-| **CC-B3.5** | `F_eff = min_i F_i`; `G_eff = SpanUnion({G_i})` constrained by evidence relation. | Prevent over-generalization. |
+| **CC-B3.5** | For `G`, essential dependency paths **SHALL** compose by intersection; `SpanUnion` is allowed only across explicitly independent support lines to the same claim and only over supported slices. | Prevent over-generalization. |
 | **CC-B3.6** | An **Assurance SCR** **SHALL** be produced, listing node/edge values, Evidence Graph Ref, and any OrderSpec/TimeWindow identifiers, and **SHALL also display** the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared **CHR:ReferencePlane ∈ {world\|concept\|episteme}**, a separable **TA/VA/LA** evidence breakdown per **CC-KD-08**, decay/valid-until indicators on empirical bindings, and the **Epistemic-Debt** tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
 | **CC-B3.7** | **Agency-CHR** values (A.13) **SHALL NOT** override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a **Meta-Holon Transition**. | Preserve safety; keep agency separate. |
 | **CC-B3.8** | Design-time and run-time assurance **SHALL NOT** be mixed in one tuple; compare them side by side if needed. | Avoid design-time and run-time mixing. |

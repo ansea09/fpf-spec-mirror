@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_invariants.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 60722
-line_end: 60739
+line_start: 60723
+line_end: 60740
 dependencies:
   - "A.7"
   - "C.2.1"

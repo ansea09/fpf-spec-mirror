@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "ULR conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_ulr-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:11 — ULR conformance prompts (normative, concept-only questions)"
-line_start: 60031
-line_end: 60053
+line_start: 60032
+line_end: 60054
 dependencies:
   - "A.10"
   - "A.15"

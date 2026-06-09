@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution — Architectural Decisions (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_solution-architectural-decisions-overview.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:5 — Solution — Architectural Decisions (overview)"
-line_start: 37441
-line_end: 37469
+line_start: 37442
+line_end: 37470
 dependencies:
   - "A.1"
   - "A.2.6"
@@ -50,8 +50,8 @@ A facet (not a Characteristic) that helps plan **ΔF/ΔR** and forecast bridge s
 **C.3‑D7 — Guard shapes are standardized and fail‑closed.**
 Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **Scope coverage** (USM), then **R** penalties and freshness. *(See C.3.A.)*
 
-> **Manager’s picture — Two characteristics (keep them separate).**
-> – **characteristic 1 (USM, G):** *Where* the claim holds → set of **Context slices**; composed by ∈ (membership) / ∩ (intersection) / **SpanUnion** (union across independent lines) / translate (scope mapping).
-> – **characteristic 2 (Kind extent):** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
+> **Manager’s picture — one claim-scope object and one kind-extent relation (keep them separate).**
+> – **Claim scope (USM, G):** *Where* the claim holds → set of **Context slices**; composed by membership / intersection / **SpanUnion** across independent lines / translate.
+> – **Kind extent relation:** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
 > **Never “widen G” by abstract wording; widen only by ΔG with support.**
 

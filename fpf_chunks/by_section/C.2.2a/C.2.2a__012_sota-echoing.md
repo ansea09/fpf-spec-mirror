@@ -6,12 +6,12 @@ section_id: "C.2.2a:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__012_sota-echoing.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:11 — SoTA-Echoing"
-line_start: 36051
-line_end: 36068
+line_start: 36052
+line_end: 36069
 dependencies:
   - "A.16"
   - "A.16.0"

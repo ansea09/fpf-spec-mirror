@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__008_solution.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:4 — Solution"
-line_start: 34954
-line_end: 35307
+line_start: 34955
+line_end: 35308
 dependencies:
   - "A.10"
   - "A.15"

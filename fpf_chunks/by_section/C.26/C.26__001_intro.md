@@ -6,12 +6,12 @@ section_id: "C.26:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:intro — Intro"
-line_start: 45937
-line_end: 45942
+line_start: 45938
+line_end: 45943
 dependencies:
   - "A.10"
   - "A.15"

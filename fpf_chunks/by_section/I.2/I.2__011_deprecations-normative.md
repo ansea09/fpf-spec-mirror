@@ -6,12 +6,12 @@ section_id: "I.2:section-010"
 section_title: "Deprecations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__011_deprecations-normative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:section-010 — Deprecations (normative)"
-line_start: 82861
-line_end: 82872
+line_start: 82860
+line_end: 82871
 dependencies:
 keywords:
 ---

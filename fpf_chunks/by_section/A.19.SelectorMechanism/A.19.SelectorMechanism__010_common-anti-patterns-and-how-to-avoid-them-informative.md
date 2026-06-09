@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:8"
 section_title: "Common Anti-Patterns and How to Avoid Them — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__010_common-anti-patterns-and-how-to-avoid-them-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:8 — Common Anti-Patterns and How to Avoid Them — informative"
-line_start: 27735
-line_end: 27748
+line_start: 27734
+line_end: 27747
 dependencies:
 keywords:
   - "SelectEligibility"

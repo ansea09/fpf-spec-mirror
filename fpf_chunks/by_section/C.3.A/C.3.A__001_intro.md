@@ -6,12 +6,12 @@ section_id: "C.3.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:intro — Intro"
-line_start: 39182
-line_end: 39198
+line_start: 39183
+line_end: 39199
 dependencies:
   - "A.2.6"
   - "C.3.x"

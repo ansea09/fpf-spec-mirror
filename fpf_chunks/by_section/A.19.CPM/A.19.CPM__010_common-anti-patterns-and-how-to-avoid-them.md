@@ -6,12 +6,12 @@ section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 27367
-line_end: 27404
+line_start: 27366
+line_end: 27403
 dependencies:
 keywords:
   - "ComparatorSet"

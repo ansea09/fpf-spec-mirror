@@ -6,12 +6,12 @@ section_id: "I.2:section-012"
 section_title: "Migration playbook (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__013_migration-playbook-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:section-012 — Migration playbook (informative)"
-line_start: 82907
-line_end: 82914
+line_start: 82906
+line_end: 82913
 dependencies:
 keywords:
 ---

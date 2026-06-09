@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.1.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-line_start: 43523
-line_end: 43628
+line_start: 43524
+line_end: 43629
 dependencies:
   - "A.0"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:2 — Problem"
-line_start: 15209
-line_end: 15245
+line_start: 15208
+line_end: 15244
 dependencies:
   - "A.10"
   - "A.14"

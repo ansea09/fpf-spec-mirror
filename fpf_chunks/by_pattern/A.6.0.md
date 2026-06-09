@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.0.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
-line_start: 8843
-line_end: 9191
+line_start: 8842
+line_end: 9190
 dependencies:
   - "A.2.6"
   - "A.6.1"

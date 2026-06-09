@@ -6,12 +6,12 @@ section_id: "F.6:End"
 section_title: "F.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_f-6-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:End — F.6:End"
-line_start: 71072
-line_end: 71073
+line_start: 71071
+line_end: 71072
 dependencies:
   - "A.15"
   - "A.2.1"

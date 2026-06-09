@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 66909
-line_end: 66964
+line_start: 66910
+line_end: 66965
 dependencies:
   - "A.10"
   - "A.15"

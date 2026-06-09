@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__010_consequences.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:9 — Consequences"
-line_start: 10690
-line_end: 10697
+line_start: 10689
+line_end: 10696
 dependencies:
   - "A.15"
   - "A.20"

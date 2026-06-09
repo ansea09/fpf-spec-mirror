@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_reasoning-primitives-judgement-schemas.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:8 — Reasoning primitives (judgement schemas)"
-line_start: 73842
-line_end: 73871
+line_start: 73841
+line_end: 73870
 dependencies:
   - "F.1"
   - "F.10"

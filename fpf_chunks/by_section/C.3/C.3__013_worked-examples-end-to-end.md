@@ -6,12 +6,12 @@ section_id: "C.3:11"
 section_title: "Worked examples (end‑to‑end)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__013_worked-examples-end-to-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:11 — Worked examples (end‑to‑end)"
-line_start: 37948
-line_end: 38024
+line_start: 37949
+line_end: 38025
 dependencies:
   - "A.1"
   - "A.2.6"

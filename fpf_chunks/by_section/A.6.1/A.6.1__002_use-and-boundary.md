@@ -6,12 +6,12 @@ section_id: "A.6.1:0"
 section_title: "Use and boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__002_use-and-boundary.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:0 — Use and boundary"
-line_start: 9212
-line_end: 9223
+line_start: 9211
+line_end: 9222
 dependencies:
   - "A.19"
   - "A.2.6"

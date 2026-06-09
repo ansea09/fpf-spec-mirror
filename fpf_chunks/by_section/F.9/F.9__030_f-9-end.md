@@ -6,12 +6,12 @@ section_id: "F.9:End"
 section_title: "F.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__030_f-9-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:End — F.9:End"
-line_start: 72242
-line_end: 72243
+line_start: 72241
+line_end: 72242
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "A.3.2:5"
 section_title: "Clear distinctions (quick litmus for managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__006_clear-distinctions-quick-litmus-for-managers.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.3.2 — U.MethodDescription"
   - "A.3.2:5 — Clear distinctions (quick litmus for managers)"
-line_start: 6260
-line_end: 6272
+line_start: 6259
+line_end: 6271
 dependencies:
   - "A.1.1"
   - "A.15"

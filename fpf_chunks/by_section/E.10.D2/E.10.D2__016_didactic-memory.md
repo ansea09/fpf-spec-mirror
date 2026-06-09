@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_didactic-memory.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — Didactic memory"
-line_start: 60878
-line_end: 60887
+line_start: 60879
+line_end: 60888
 dependencies:
   - "A.7"
   - "C.2.1"

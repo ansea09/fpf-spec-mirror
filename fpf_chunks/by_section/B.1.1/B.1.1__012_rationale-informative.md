@@ -6,12 +6,12 @@ section_id: "B.1.1:11"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__012_rationale-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:11 — Rationale (informative)"
-line_start: 29445
-line_end: 29448
+line_start: 29444
+line_end: 29447
 dependencies:
   - "A.1"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "B.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__014_relations.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:11 — Relations"
-line_start: 32106
-line_end: 32118
+line_start: 32107
+line_end: 32119
 dependencies:
   - "A.10"
   - "A.12"

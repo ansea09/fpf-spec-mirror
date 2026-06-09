@@ -6,12 +6,12 @@ section_id: "A.2.5:20"
 section_title: "Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__021_didactic-script-90-seconds-how-a-2-5-ties-to-a-2-1-a-2-3.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:20 — Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3"
-line_start: 4131
-line_end: 4142
+line_start: 4130
+line_end: 4141
 dependencies:
   - "A.15"
   - "A.2.1"

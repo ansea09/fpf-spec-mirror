@@ -6,12 +6,12 @@ section_id: "C.26:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__007_bias-annotation.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:6 — Bias-Annotation"
-line_start: 46353
-line_end: 46360
+line_start: 46354
+line_end: 46361
 dependencies:
   - "A.10"
   - "A.15"

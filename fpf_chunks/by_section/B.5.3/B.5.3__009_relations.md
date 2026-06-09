@@ -6,12 +6,12 @@ section_id: "B.5.3:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__009_relations.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:8 — Relations"
-line_start: 33916
-line_end: 33921
+line_start: 33917
+line_end: 33922
 dependencies:
   - "A.2"
   - "C.3"

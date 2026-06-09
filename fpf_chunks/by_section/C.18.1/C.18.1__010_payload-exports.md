@@ -6,12 +6,12 @@ section_id: "C.18.1:9"
 section_title: "Payload — exports"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__010_payload-exports.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:9 — Payload — exports"
-line_start: 43142
-line_end: 43149
+line_start: 43143
+line_end: 43150
 dependencies:
   - "C.16"
   - "C.17"

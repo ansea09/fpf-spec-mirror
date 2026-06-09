@@ -6,12 +6,12 @@ section_id: "A.2.5:6"
 section_title: "Invariants (preview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__007_invariants-preview.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:6 — Invariants (preview)"
-line_start: 3616
-line_end: 3623
+line_start: 3615
+line_end: 3622
 dependencies:
   - "A.15"
   - "A.2.1"

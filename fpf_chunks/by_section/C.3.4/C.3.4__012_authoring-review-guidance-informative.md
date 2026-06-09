@@ -6,12 +6,12 @@ section_id: "C.3.4:11"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_authoring-review-guidance-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:11 — Authoring & Review Guidance (informative)"
-line_start: 38981
-line_end: 39001
+line_start: 38982
+line_end: 39002
 dependencies:
   - "C.3.1"
   - "C.3.2"

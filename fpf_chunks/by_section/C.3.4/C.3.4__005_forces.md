@@ -6,12 +6,12 @@ section_id: "C.3.4:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__005_forces.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:4 — Forces"
-line_start: 38837
-line_end: 38845
+line_start: 38838
+line_end: 38846
 dependencies:
   - "C.3.1"
   - "C.3.2"

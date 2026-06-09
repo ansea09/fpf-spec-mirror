@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.3.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
-line_start: 38559
-line_end: 38794
+line_start: 38560
+line_end: 38795
 dependencies:
   - "A.2.6"
   - "C.2.2"

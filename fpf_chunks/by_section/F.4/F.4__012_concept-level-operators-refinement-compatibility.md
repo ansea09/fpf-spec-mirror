@@ -6,12 +6,12 @@ section_id: "F.4:11"
 section_title: "Concept‑level operators (refinement & compatibility)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_concept-level-operators-refinement-compatibility.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:11 — Concept‑level operators (refinement & compatibility)"
-line_start: 70397
-line_end: 70460
+line_start: 70396
+line_end: 70459
 dependencies:
   - "A.11"
   - "A.2.1"

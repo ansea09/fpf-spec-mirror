@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
-line_start: 18288
-line_end: 18404
+line_start: 18287
+line_end: 18403
 dependencies:
   - "A.8"
   - "U.Types"

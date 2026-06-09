@@ -6,12 +6,12 @@ section_id: "G.8:8"
 section_title: "Conformance Checklist (CC‑G8)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__009_conformance-checklist-cc-g8.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:8 — Conformance Checklist (CC‑G8)"
-line_start: 80448
-line_end: 80489
+line_start: 80447
+line_end: 80488
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "E.12:End"
 section_title: "E.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__006_e-12-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:End — E.12:End"
-line_start: 61298
-line_end: 61299
+line_start: 61299
+line_end: 61300
 dependencies:
   - "E.13"
   - "E.2"

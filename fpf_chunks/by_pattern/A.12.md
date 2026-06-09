@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.12.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
-line_start: 19009
-line_end: 19141
+line_start: 19008
+line_end: 19140
 dependencies:
   - "A.3"
   - "B.2.5"

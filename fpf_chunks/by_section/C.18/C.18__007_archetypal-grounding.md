@@ -6,12 +6,12 @@ section_id: "C.18:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_archetypal-grounding.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:6 — Archetypal Grounding"
-line_start: 43047
-line_end: 43050
+line_start: 43048
+line_end: 43051
 dependencies:
   - "A.1"
   - "A.15"

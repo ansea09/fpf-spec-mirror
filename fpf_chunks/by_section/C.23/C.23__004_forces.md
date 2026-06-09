@@ -6,12 +6,12 @@ section_id: "C.23:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__004_forces.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:3 — Forces"
-line_start: 44998
-line_end: 45004
+line_start: 44999
+line_end: 45005
 dependencies:
   - "A.10"
   - "B.3"

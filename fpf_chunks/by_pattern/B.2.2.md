@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
-line_start: 31068
-line_end: 31162
+line_start: 31067
+line_end: 31161
 dependencies:
   - "A.1"
   - "B.2"

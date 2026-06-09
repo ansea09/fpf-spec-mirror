@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 22812
-line_end: 22887
+line_start: 22811
+line_end: 22886
 dependencies:
   - "A.17"
   - "A.18"

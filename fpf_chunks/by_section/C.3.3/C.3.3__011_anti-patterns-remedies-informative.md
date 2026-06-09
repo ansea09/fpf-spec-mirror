@@ -6,12 +6,12 @@ section_id: "C.3.3:10"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__011_anti-patterns-remedies-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:10 — Anti‑patterns & Remedies (informative)"
-line_start: 38758
-line_end: 38768
+line_start: 38759
+line_end: 38769
 dependencies:
   - "A.2.6"
   - "C.2.2"

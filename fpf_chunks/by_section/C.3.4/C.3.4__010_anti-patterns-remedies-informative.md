@@ -6,12 +6,12 @@ section_id: "C.3.4:9"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_anti-patterns-remedies-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:9 — Anti‑patterns & Remedies (informative)"
-line_start: 38946
-line_end: 38956
+line_start: 38947
+line_end: 38957
 dependencies:
   - "C.3.1"
   - "C.3.2"

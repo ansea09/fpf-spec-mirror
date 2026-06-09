@@ -6,12 +6,12 @@ section_id: "A.6.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:intro — Intro"
-line_start: 14370
-line_end: 14387
+line_start: 14369
+line_end: 14386
 dependencies:
   - "A.1"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope & Status (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-status-normative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope & Status (Normative)"
-line_start: 40843
-line_end: 40850
+line_start: 40844
+line_end: 40851
 dependencies:
   - "A.10"
   - "A.17"

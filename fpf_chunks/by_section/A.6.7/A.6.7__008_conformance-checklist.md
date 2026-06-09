@@ -6,12 +6,12 @@ section_id: "A.6.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__008_conformance-checklist.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:7 — Conformance Checklist"
-line_start: 16040
-line_end: 16075
+line_start: 16039
+line_end: 16074
 dependencies:
   - "A.21"
   - "A.6.1"

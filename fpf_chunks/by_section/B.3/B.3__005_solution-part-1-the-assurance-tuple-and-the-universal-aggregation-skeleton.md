@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 31617
-line_end: 31900
+line_start: 31616
+line_end: 31901
 dependencies:
   - "A.10"
   - "A.12"
@@ -275,15 +275,17 @@ Any Γ‑flavour that claims an **Assurance** result **must** adopt the followin
    *Rationale:* the least formal piece caps the formality of the whole (WLNK on F).
    *Monotone:* raising any `F_i` cannot reduce `F_eff`.
 
-2. **ClaimScope:**
+2. **ClaimScope (G):**
 
    ```
-   G_eff = SpanUnion({G_i}) constrained by evidence relation
+   G_eff(path)  = intersection({G_i | i is essential on the dependency path})
+   G_eff(claim) = SpanUnion({G_eff(path_j)}) only across independently supported paths
    ```
 
-   * “SpanUnion” is a **set/coverage union** in the domain’s space.
-   * **Constraint:** any region in the union **not covered** by reliable parts is **dropped** (WLNK).
-   * *Monotone:* adding evidence-covered span cannot reduce `G_eff`.
+   * Along an essential dependency path, every required support must hold on the same slice, so the effective claim scope is the intersection of the required scopes. Empty intersection means the path does not support the claim on any slice.
+   * Across independent support lines for the same claim, B.3 may publish a `SpanUnion` of the path scopes, but only when the independence assumption and evidence relation are explicit.
+   * **Constraint:** any region not covered by the required support relation for its path is dropped. A raw union of node scopes is never the default law for `G`.
+   * *Monotone:* adding an independently supported path may widen the published claim scope; adding a new essential dependency may narrow it.
 
 3. **Reliability (penalized by integration):**
 

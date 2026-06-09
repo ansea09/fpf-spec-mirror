@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — define U.Work as the accountable, dated occurrence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-define-u-work-as-the-accountable-dated-occurrence.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — define U.Work as the accountable, dated occurrence"
-line_start: 20044
-line_end: 20097
+line_start: 20043
+line_end: 20096
 dependencies:
   - "A.1"
   - "A.1.1"

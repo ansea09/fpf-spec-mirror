@@ -6,12 +6,12 @@ section_id: "A.16.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__013_relations.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:12 — Relations"
-line_start: 21950
-line_end: 21954
+line_start: 21949
+line_end: 21953
 dependencies:
   - "A.16"
   - "A.16.1"

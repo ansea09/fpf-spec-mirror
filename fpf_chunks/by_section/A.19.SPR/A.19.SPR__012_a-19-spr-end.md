@@ -6,12 +6,12 @@ section_id: "A.19.SPR:End"
 section_title: "A.19.SPR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__012_a-19-spr-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:End — A.19.SPR:End"
-line_start: 23698
-line_end: 23699
+line_start: 23697
+line_end: 23698
 dependencies:
   - "A.10"
   - "A.16"

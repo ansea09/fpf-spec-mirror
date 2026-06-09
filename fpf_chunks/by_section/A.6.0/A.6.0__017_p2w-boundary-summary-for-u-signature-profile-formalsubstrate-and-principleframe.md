@@ -6,12 +6,12 @@ section_id: "A.6.0:10e"
 section_title: "P2W Boundary Summary For U.Signature(profile=FormalSubstrate) And PrincipleFrame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__017_p2w-boundary-summary-for-u-signature-profile-formalsubstrate-and-principleframe.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:10e — P2W Boundary Summary For U.Signature(profile=FormalSubstrate) And PrincipleFrame"
-line_start: 9170
-line_end: 9175
+line_start: 9169
+line_end: 9174
 dependencies:
   - "A.2.6"
   - "A.6.1"

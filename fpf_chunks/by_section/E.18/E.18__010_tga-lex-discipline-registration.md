@@ -6,12 +6,12 @@ section_id: "E.18:9"
 section_title: "TGA LEX discipline (registration)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__010_tga-lex-discipline-registration.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:9 — TGA LEX discipline (registration)"
-line_start: 66596
-line_end: 66599
+line_start: 66597
+line_end: 66600
 dependencies:
   - "A.2.6"
   - "A.20"

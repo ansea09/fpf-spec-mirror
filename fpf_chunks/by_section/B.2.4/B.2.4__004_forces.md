@@ -6,12 +6,12 @@ section_id: "B.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__004_forces.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.2.4 — Meta-Functional Transition (MFT)"
   - "B.2.4:3 — Forces"
-line_start: 31333
-line_end: 31341
+line_start: 31332
+line_end: 31340
 dependencies:
   - "A.3.1"
   - "B.2"

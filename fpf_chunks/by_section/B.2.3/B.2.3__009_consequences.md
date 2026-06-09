@@ -6,12 +6,12 @@ section_id: "B.2.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_consequences.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:8 — Consequences"
-line_start: 31278
-line_end: 31286
+line_start: 31277
+line_end: 31285
 dependencies:
   - "A.1"
   - "B.2"

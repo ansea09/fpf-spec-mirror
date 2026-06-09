@@ -6,12 +6,12 @@ section_id: "E.2:7"
 section_title: "Conformance Checklist — BLP"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__008_conformance-checklist-blp.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:7 — Conformance Checklist — BLP"
-line_start: 56000
-line_end: 56011
+line_start: 56001
+line_end: 56012
 dependencies:
   - "C.18"
   - "C.19"

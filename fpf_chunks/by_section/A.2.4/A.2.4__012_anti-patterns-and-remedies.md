@@ -6,12 +6,12 @@ section_id: "A.2.4:11"
 section_title: "Anti-patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__012_anti-patterns-and-remedies.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:11 — Anti-patterns and remedies"
-line_start: 3440
-line_end: 3451
+line_start: 3439
+line_end: 3450
 dependencies:
   - "A.10"
   - "A.2"

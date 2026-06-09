@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:4 — Solution"
-line_start: 47857
-line_end: 48687
+line_start: 47858
+line_end: 48688
 dependencies:
   - "A.3.3"
   - "B.1.4"

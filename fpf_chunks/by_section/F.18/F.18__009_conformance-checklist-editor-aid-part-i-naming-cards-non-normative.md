@@ -6,12 +6,12 @@ section_id: "F.18:8"
 section_title: "Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_conformance-checklist-editor-aid-part-i-naming-cards-non-normative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:8 — Conformance Checklist (editor aid) — Part I: naming & cards (non‑normative)"
-line_start: 75275
-line_end: 75315
+line_start: 75274
+line_end: 75314
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

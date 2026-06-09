@@ -6,12 +6,12 @@ section_id: "B.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__004_forces.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:3 — Forces"
-line_start: 28988
-line_end: 28997
+line_start: 28987
+line_end: 28996
 dependencies:
   - "A.1"
   - "A.9"

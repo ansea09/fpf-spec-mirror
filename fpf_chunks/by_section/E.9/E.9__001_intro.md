@@ -6,12 +6,12 @@ section_id: "E.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:intro — Intro"
-line_start: 57880
-line_end: 57885
+line_start: 57881
+line_end: 57886
 dependencies:
   - "E.10"
   - "E.19"

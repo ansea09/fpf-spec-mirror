@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Interaction with EntityOfConcern and Description-episteme boundary, specification use/refinement, and DescriptionContext  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_interaction-with-entityofconcern-and-description-episteme-boundary-specification-use-refinement-and-descriptioncontext-normative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.2.1 — U.Episteme — Epistemes and their slot graph"
   - "C.2.1:6 — Interaction with EntityOfConcern and Description-episteme boundary, specification use/refinement, and DescriptionContext  (normative)"
-line_start: 34557
-line_end: 34598
+line_start: 34558
+line_end: 34599
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

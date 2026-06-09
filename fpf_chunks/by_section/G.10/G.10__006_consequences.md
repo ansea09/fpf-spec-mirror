@@ -6,12 +6,12 @@ section_id: "G.10:5"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__006_consequences.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:5 — Consequences"
-line_start: 81390
-line_end: 81402
+line_start: 81389
+line_end: 81401
 dependencies:
   - "A.10"
   - "A.15.3"

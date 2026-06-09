@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Anti‑patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_anti-patterns-and-repairs.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
   - "B.3:8 — Anti‑patterns and repairs"
-line_start: 32065
-line_end: 32078
+line_start: 32066
+line_end: 32079
 dependencies:
   - "A.10"
   - "A.12"

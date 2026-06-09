@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.12.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
-line_start: 61212
-line_end: 61299
+line_start: 61213
+line_end: 61300
 dependencies:
   - "E.13"
   - "E.2"

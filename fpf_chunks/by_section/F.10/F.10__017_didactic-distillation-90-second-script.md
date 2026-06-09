@@ -6,12 +6,12 @@ section_id: "F.10:16"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__017_didactic-distillation-90-second-script.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:16 — Didactic distillation (90‑second script)"
-line_start: 72783
-line_end: 72789
+line_start: 72782
+line_end: 72788
 dependencies:
   - "B.3"
   - "D.CTX"

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__011_rationale.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:10 — Rationale"
-line_start: 10698
-line_end: 10705
+line_start: 10697
+line_end: 10704
 dependencies:
   - "A.15"
   - "A.20"

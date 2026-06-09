@@ -6,12 +6,12 @@ section_id: "A.6.1:12b"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__016_lowering-repair-and-refresh-conditions.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
   - "A.6.1:12b — Lowering, repair, and refresh conditions"
-line_start: 9501
-line_end: 9515
+line_start: 9500
+line_end: 9514
 dependencies:
   - "A.19"
   - "A.2.6"

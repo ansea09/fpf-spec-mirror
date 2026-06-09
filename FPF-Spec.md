@@ -1927,7 +1927,6 @@ Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal**
 * Defines **`U.RoleAssignment`** (binding a **holder** holon to a **role** inside a **bounded context**, optionally within a **time window**).
 * Separates that binding from **`U.RoleEnactment`** (the run‑time fact that a piece of **Work** was performed under that assignment).
 * Names the **Role Characterisation Space (RCS)** and the **Role State Graph (RSG)** as **intensional** facets of a Role (recorded in its `RoleDescription`, upgraded to `RoleSpec` only after tests exist).
-* Declares **eligibility** constraints so Roles apply to the right holon kinds, **without badge‑of‑badge chains** like “TransformerRole is assigned to be AgentRole”. If your Context wants taxonomic inheritance between role names, express it with in‑Context role algebra (`≤`), not via chained assignments.
 * Declares **eligibility** constraints so Roles apply to the right holon kinds, **without badge‑of‑badge chains** like “TransformerRole is assigned to be AgentRole”. If a Context intends taxonomic inheritance between role names, that relation is expressed in‑Context via role algebra (`≤`), not via chained assignments.
 
 **Non‑goals.** No storage models, no workflows, no org charts. This is a **thinking Standard**; all semantics are notation‑free.
@@ -4240,7 +4239,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 **Lexical commitments (normative):**
 — In normative text and guards, use **Claim scope (G)**, **Work scope**, and **Publication scope**.
-— Do **not** name the characteristic “applicability/envelope/generality/capability envelope/**publication applicability**/validity.” Those words are permitted only as explanatory aliases in notes.
+— Do **not** name the scope object “applicability/envelope/generality/capability envelope/**publication applicability**/validity.” Those words are permitted only as explanatory aliases in notes.
 
 ### A.2.6:6 - Normative Definitions
 
@@ -4663,12 +4662,12 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 | ID                                    | Requirement                                                                                                                                                                                    |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑USM‑1 (Declaration).**           | Epistemes **SHALL** declare **`U.ClaimScope`**, capabilities **SHALL** declare **`U.WorkScope`**. The abstract `U.Scope` MAY be used in architectural notes but not in guards.                 |
-| **CC‑USM‑2 (Set‑valued).**            | Scope characteristics are **set‑valued** over `U.ContextSlice`. Implementations MUST support **membership**, **intersection**, **SpanUnion**, **translate**, **widen/narrow**, **refit**.      |
+| **CC‑USM‑2 (Set‑valued).**            | Scope objects are **set-valued** over `U.ContextSlice`. Implementations MUST support **membership**, **intersection**, **SpanUnion**, **translate**, **widen/narrow**, **refit**.               |
 | **CC‑USM‑3 (Coverage guards).**       | ESG and Method–Work guards **MUST** use `Scope covers TargetSlice` predicates and **MUST** specify `Γ_time`. Guards fail closed.                                                               |
 | **CC‑USM‑4 (Serial intersection).**   | Along essential dependency paths, effective scope **SHALL** be the **intersection**; empty intersection invalidates the path.                                                                  |
 | **CC‑USM‑5 (SpanUnion constraints).** | Parallel scope **MAY** use **SpanUnion** only if independent support lines are **justified**; published union **MUST NOT** exceed supported slices.                                            |
 | **CC‑USM‑6 (Cross‑context).**            | Any Cross‑context use **MUST** declare a Bridge and **CL**; CL penalties apply to **R**, not **F/G**.                                                                                             |
-| **CC‑USM‑7 (No synonym drift).**      | In normative text and guards, **MUST** use **Claim scope (G)** or **Work scope**. Terms “applicability/envelope/generality/capability envelope/validity” **MUST NOT** name the characteristic. |
+| **CC‑USM‑7 (No synonym drift).**      | In normative text and guards, **MUST** use **Claim scope (G)** or **Work scope**. Terms “applicability/envelope/generality/capability envelope/validity” **MUST NOT** name the scope object.       |
 | **CC‑USM‑8 (Determinism).**           | Membership evaluation **MUST** be deterministic given the slice tuple; no heuristic “close enough” matching.                                                                                   |
 | **CC‑USM‑9 (Edition triggers).**      | ΔG± (widen/narrow) constitutes a **content change**; refit does not.                                                                                                                          |
 | **CC‑USM‑10 (Publication discipline).** | Publication carriers that gate usage **SHALL** declare `U.PublicationScope`. For any publication **about** an episteme or capability, `PublicationScope` **MUST** be a subset of the underlying `U.ClaimScope`/`U.WorkScope`. Cross‑context publications **MUST** cite Bridge + CL; CL penalties **apply to R only** (scope membership unchanged). |
@@ -31832,15 +31831,17 @@ Any Γ‑flavour that claims an **Assurance** result **must** adopt the followin
    *Rationale:* the least formal piece caps the formality of the whole (WLNK on F).
    *Monotone:* raising any `F_i` cannot reduce `F_eff`.
 
-2. **ClaimScope:**
+2. **ClaimScope (G):**
 
    ```
-   G_eff = SpanUnion({G_i}) constrained by evidence relation
+   G_eff(path)  = intersection({G_i | i is essential on the dependency path})
+   G_eff(claim) = SpanUnion({G_eff(path_j)}) only across independently supported paths
    ```
 
-   * “SpanUnion” is a **set/coverage union** in the domain’s space.
-   * **Constraint:** any region in the union **not covered** by reliable parts is **dropped** (WLNK).
-   * *Monotone:* adding evidence-covered span cannot reduce `G_eff`.
+   * Along an essential dependency path, every required support must hold on the same slice, so the effective claim scope is the intersection of the required scopes. Empty intersection means the path does not support the claim on any slice.
+   * Across independent support lines for the same claim, B.3 may publish a `SpanUnion` of the path scopes, but only when the independence assumption and evidence relation are explicit.
+   * **Constraint:** any region not covered by the required support relation for its path is dropped. A raw union of node scopes is never the default law for `G`.
+   * *Monotone:* adding an independently supported path may widen the published claim scope; adding a new essential dependency may narrow it.
 
 3. **Reliability (penalized by integration):**
 
@@ -32050,10 +32051,10 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-B3.1** | An assurance result **SHALL** be a typed claim `Assurance(H, C &#124; K, S)` with `S ∈ {design, run}`. | Prevent scope drift and chimeras. |
-| **CC-B3.2** | `F` **SHALL** be treated as **ordinal** (`min`/thresholds only); `G` as **coverage** (set/measure union constrained by evidence relation); `R` as **ratio** (`min` + conservative operations). | Preserve scale integrity (CHR). |
+| **CC-B3.2** | `F` **SHALL** be treated as **ordinal** (`min`/thresholds only); `G` as a **USM scope object** (membership, intersection along essential paths, and `SpanUnion` only across independent support lines); `R` as **ratio** (`min` + conservative operations). | Preserve scale integrity (CHR/USM). |
 | **CC-B3.3** | The **Congruence Level** `CL` **SHALL** live on **edges**; the penalty `Φ(CL)` **SHALL** be **monotone decreasing** and **bounded** (`R_eff ≥ 0`). | Make integration quality first-class. |
 | **CC-B3.4** | `R_eff` **SHALL** be computed as `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
-| **CC-B3.5** | `F_eff = min_i F_i`; `G_eff = SpanUnion({G_i})` constrained by evidence relation. | Prevent over-generalization. |
+| **CC-B3.5** | For `G`, essential dependency paths **SHALL** compose by intersection; `SpanUnion` is allowed only across explicitly independent support lines to the same claim and only over supported slices. | Prevent over-generalization. |
 | **CC-B3.6** | An **Assurance SCR** **SHALL** be produced, listing node/edge values, Evidence Graph Ref, and any OrderSpec/TimeWindow identifiers, and **SHALL also display** the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared **CHR:ReferencePlane ∈ {world\|concept\|episteme}**, a separable **TA/VA/LA** evidence breakdown per **CC-KD-08**, decay/valid-until indicators on empirical bindings, and the **Epistemic-Debt** tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
 | **CC-B3.7** | **Agency-CHR** values (A.13) **SHALL NOT** override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a **Meta-Holon Transition**. | Preserve safety; keep agency separate. |
 | **CC-B3.8** | Design-time and run-time assurance **SHALL NOT** be mixed in one tuple; compare them side by side if needed. | Avoid design-time and run-time mixing. |
@@ -37462,9 +37463,9 @@ A facet (not a Characteristic) that helps plan **ΔF/ΔR** and forecast bridge s
 **C.3‑D7 — Guard shapes are standardized and fail‑closed.**
 Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **Scope coverage** (USM), then **R** penalties and freshness. *(See C.3.A.)*
 
-> **Manager’s picture — Two characteristics (keep them separate).**
-> – **characteristic 1 (USM, G):** *Where* the claim holds → set of **Context slices**; composed by ∈ (membership) / ∩ (intersection) / **SpanUnion** (union across independent lines) / translate (scope mapping).
-> – **characteristic 2 (Kind extent):** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
+> **Manager’s picture — one claim-scope object and one kind-extent relation (keep them separate).**
+> – **Claim scope (USM, G):** *Where* the claim holds → set of **Context slices**; composed by membership / intersection / **SpanUnion** across independent lines / translate.
+> – **Kind extent relation:** *Which instances* in a **given slice** belong to the kind → `MemberOf(e, k, slice)`.
 > **Never “widen G” by abstract wording; widen only by ΔG with support.**
 
 ### C.3:6 - Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)
@@ -68922,9 +68923,7 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 **Builds on:** A.1.1 `U.BoundedContext` (formal frame); A.7 *Strict Distinction* (C‑6); A.8 *Universal Core* (C‑1); A.11 *Ontological Parsimony* (C‑5); A.4 *Temporal Duality* (C‑7); **E.10.D1 D.CTX** (lexical discipline for “Context”).
 **Coordinates with.** **F.1** (Context Map via Context Cards), **F.2** (local term capture), **F.3** (intra‑Context clustering), **F.7** (Concept‑Set Table), **F.9** (Alignment & Bridge), **B.3** (Trust & Assurance; CL penalties).
 
-> **Didactic note.** In the Tech register, **Context ≡ `U.BoundedContext`** (per E.10.D1). We use “Context of meaning” as a **metaphor only**; *Context* remains the normative short form for `U.BoundedContext`. The word **anchor** is not used in FPF.
-
-> **Didactic note.** In the Tech register, **Context ≡ `U.BoundedContext`** (per E.10.D1). We use “Context of meaning” as a **metaphor only**; *Context* remains the normative short form for `U.BoundedContext`. The word **anchor** is not used in FPF. The word *plane* is reserved to **CHR:ReferencePlane** only.
+> **Didactic note.** In the Tech register, **Context ≡ `U.BoundedContext`** (per E.10.D1). “Context of meaning” is a metaphor only; *Context* remains the normative short form for `U.BoundedContext`. The word **anchor** is not used in FPF, and the bare word *plane* is reserved to **CHR:ReferencePlane**.
 
 **Terminology guard (normative, Part F).** The **row classifier** is **senseFamily**: {Role | Status | Measurement | Type‑structure | Method | Execution}. **Characteristic** (MM‑CHR) names measurable aspects only (A.17–A.19) and MUST NOT be used for row typing in Part F. Avoid the generic word **facet** in Part F; when unavoidable, reference **C.3.5 KindAT (informative facet)** or **Compose‑CAL `U.Facet`** explicitly. Only **CHR:ReferencePlane** is permitted (no bare “plane”); use **EntityOfConcern / Description episteme / specification-use boundary** for entity-description-specification-use discipline; use **stance** for design vs run.
 

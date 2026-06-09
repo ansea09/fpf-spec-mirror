@@ -6,12 +6,12 @@ section_id: "A.2.2:12"
 section_title: "Interaction with Service Promise Clauses (external promise content)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__013_interaction-with-service-promise-clauses-external-promise-content.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:12 — Interaction with Service Promise Clauses (external promise content)"
-line_start: 2656
-line_end: 2667
+line_start: 2655
+line_end: 2666
 dependencies:
   - "A.1"
   - "A.1.1"

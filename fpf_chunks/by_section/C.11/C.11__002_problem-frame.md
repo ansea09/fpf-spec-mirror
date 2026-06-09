@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 39918
-line_end: 39954
+line_start: 39919
+line_end: 39955
 dependencies:
   - "A.13"
   - "A.18"

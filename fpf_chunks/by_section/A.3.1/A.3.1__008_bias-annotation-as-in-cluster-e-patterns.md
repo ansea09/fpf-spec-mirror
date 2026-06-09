@@ -6,12 +6,12 @@ section_id: "A.3.1:7"
 section_title: "Bias‑Annotation (as in cluster‑E patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__008_bias-annotation-as-in-cluster-e-patterns.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:7 — Bias‑Annotation (as in cluster‑E patterns)"
-line_start: 6048
-line_end: 6053
+line_start: 6047
+line_end: 6052
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "C.3.1:End"
 section_title: "C.3.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__013_c-3-1-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:End — C.3.1:End"
-line_start: 38356
-line_end: 38357
+line_start: 38357
+line_end: 38358
 dependencies:
   - "A.1"
   - "A.2.6"

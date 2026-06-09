@@ -6,7 +6,7 @@ section_id: "A.0:QF.2a"
 section_title: "Set/space reading reading glosses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__016_set-space-reading-reading-glosses.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2a — Set/space reading reading glosses"

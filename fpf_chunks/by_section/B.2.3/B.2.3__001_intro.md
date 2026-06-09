@@ -6,12 +6,12 @@ section_id: "B.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:intro — Intro"
-line_start: 31163
-line_end: 31168
+line_start: 31162
+line_end: 31167
 dependencies:
   - "A.1"
   - "B.2"

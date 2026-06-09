@@ -6,12 +6,12 @@ section_id: "C.2.6:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__016_extension-and-migration-notes.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:15 — Extension and Migration Notes"
-line_start: 37151
-line_end: 37161
+line_start: 37152
+line_end: 37162
 dependencies:
   - "A.16"
   - "A.16.0"

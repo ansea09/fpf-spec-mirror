@@ -6,12 +6,12 @@ section_id: "I.2:section-013"
 section_title: "Alias and body-prose continuity (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__014_alias-and-body-prose-continuity-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:section-013 — Alias and body-prose continuity (informative)"
-line_start: 82915
-line_end: 82918
+line_start: 82914
+line_end: 82917
 dependencies:
 keywords:
 ---

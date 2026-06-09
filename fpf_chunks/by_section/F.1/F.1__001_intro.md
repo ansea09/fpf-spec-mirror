@@ -6,12 +6,12 @@ section_id: "F.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:intro — Intro"
-line_start: 69235
-line_end: 69243
+line_start: 69234
+line_end: 69242
 dependencies:
   - "A.11"
   - "A.7"

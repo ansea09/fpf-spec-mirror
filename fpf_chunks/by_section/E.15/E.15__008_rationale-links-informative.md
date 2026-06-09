@@ -6,12 +6,12 @@ section_id: "E.15:7"
 section_title: "Rationale & Links (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__008_rationale-links-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:7 — Rationale & Links (informative)"
-line_start: 61849
-line_end: 61852
+line_start: 61850
+line_end: 61853
 dependencies:
   - "A.10"
   - "B.3"

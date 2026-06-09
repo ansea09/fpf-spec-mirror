@@ -6,12 +6,12 @@ section_id: "D.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
   - "D.5:intro — Intro"
-line_start: 55695
-line_end: 55702
+line_start: 55696
+line_end: 55703
 dependencies:
   - "B.3"
   - "B.3.3"

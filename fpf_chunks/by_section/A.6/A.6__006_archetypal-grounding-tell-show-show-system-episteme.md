@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 7231
-line_end: 7295
+line_start: 7230
+line_end: 7294
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.2:7"
 section_title: "Conformance Checklist (normative) — CC‑G2"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__008_conformance-checklist-normative-cc-g2.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:7 — Conformance Checklist (normative) — CC‑G2"
-line_start: 77641
-line_end: 77671
+line_start: 77640
+line_end: 77670
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

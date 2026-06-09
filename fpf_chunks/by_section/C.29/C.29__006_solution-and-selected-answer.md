@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution and selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-and-selected-answer.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution and selected answer"
-line_start: 50509
-line_end: 51194
+line_start: 50510
+line_end: 51195
 dependencies:
   - "A.1.1"
   - "A.10"

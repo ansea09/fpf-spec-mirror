@@ -6,7 +6,7 @@ section_id: "A.1.1:End"
 section_title: "A.1.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_a-1-1-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.1.1 — U.BoundedContext: The Semantic Frame"
   - "A.1.1:End — A.1.1:End"

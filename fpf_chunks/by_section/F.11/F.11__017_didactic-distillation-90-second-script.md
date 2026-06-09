@@ -6,12 +6,12 @@ section_id: "F.11:16"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation-90-second-script.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:16 — Didactic distillation (90‑second script)"
-line_start: 73103
-line_end: 73111
+line_start: 73102
+line_end: 73110
 dependencies:
   - "A.15"
   - "A.15.1"

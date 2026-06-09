@@ -6,12 +6,12 @@ section_id: "A.16.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__012_sota-echoing.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:11 — SoTA-Echoing"
-line_start: 22140
-line_end: 22142
+line_start: 22139
+line_end: 22141
 dependencies:
   - "A.16"
   - "A.16.0"

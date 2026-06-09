@@ -6,12 +6,12 @@ section_id: "E.5.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:intro — Intro"
-line_start: 56636
-line_end: 56637
+line_start: 56637
+line_end: 56638
 dependencies:
   - "E.5"
 keywords:

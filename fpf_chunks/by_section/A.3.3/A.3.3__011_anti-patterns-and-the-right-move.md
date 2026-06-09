@@ -6,12 +6,12 @@ section_id: "A.3.3:10"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__011_anti-patterns-and-the-right-move.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.3.3 — U.Dynamics"
   - "A.3.3:10 — Anti‑patterns (and the right move)"
-line_start: 6639
-line_end: 6658
+line_start: 6638
+line_end: 6657
 dependencies:
   - "A.19"
   - "B.4"

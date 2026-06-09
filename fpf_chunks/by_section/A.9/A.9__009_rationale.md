@@ -6,12 +6,12 @@ section_id: "A.9:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__009_rationale.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:8 — Rationale"
-line_start: 18483
-line_end: 18493
+line_start: 18482
+line_end: 18492
 dependencies:
   - "A.1"
   - "A.8"

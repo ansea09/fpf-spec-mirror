@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 11455
-line_end: 11537
+line_start: 11454
+line_end: 11536
 dependencies:
   - "A.10"
   - "A.15"

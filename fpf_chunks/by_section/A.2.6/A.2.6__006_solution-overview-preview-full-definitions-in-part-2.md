@@ -6,12 +6,12 @@ section_id: "A.2.6:5"
 section_title: "Solution — Overview (preview; full definitions in Part 2)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__006_solution-overview-preview-full-definitions-in-part-2.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:5 — Solution — Overview (preview; full definitions in Part 2)"
-line_start: 4229
-line_end: 4244
+line_start: 4228
+line_end: 4243
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -40,5 +40,5 @@ keywords:
 
 **Lexical commitments (normative):**
 — In normative text and guards, use **Claim scope (G)**, **Work scope**, and **Publication scope**.
-— Do **not** name the characteristic “applicability/envelope/generality/capability envelope/**publication applicability**/validity.” Those words are permitted only as explanatory aliases in notes.
+— Do **not** name the scope object “applicability/envelope/generality/capability envelope/**publication applicability**/validity.” Those words are permitted only as explanatory aliases in notes.
 

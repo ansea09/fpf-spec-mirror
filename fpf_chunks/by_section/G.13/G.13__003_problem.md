@@ -6,12 +6,12 @@ section_id: "G.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__003_problem.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:2 — Problem"
-line_start: 82272
-line_end: 82281
+line_start: 82271
+line_end: 82280
 dependencies:
   - "A.18"
   - "A.19"

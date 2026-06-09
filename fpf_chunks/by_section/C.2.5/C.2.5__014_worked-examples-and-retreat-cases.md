@@ -6,12 +6,12 @@ section_id: "C.2.5:13"
 section_title: "Worked Examples and Retreat Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__014_worked-examples-and-retreat-cases.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:13 — Worked Examples and Retreat Cases"
-line_start: 36950
-line_end: 36960
+line_start: 36951
+line_end: 36961
 dependencies:
   - "A.16"
   - "A.16.0"

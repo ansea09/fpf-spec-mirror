@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Solution — how meanings connect (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_solution-how-meanings-connect-conceptual-notation-free.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
   - "F.10:7 — Solution — how meanings connect (conceptual, notation‑free)"
-line_start: 72559
-line_end: 72576
+line_start: 72558
+line_end: 72575
 dependencies:
   - "B.3"
   - "D.CTX"

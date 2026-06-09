@@ -6,12 +6,12 @@ section_id: "A.16:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__007_bias-annotation.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.16 — Language-State Transduction Coordination"
   - "A.16:6 — Bias-Annotation"
-line_start: 21512
-line_end: 21514
+line_start: 21511
+line_end: 21513
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

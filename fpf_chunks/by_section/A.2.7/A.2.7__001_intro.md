@@ -6,12 +6,12 @@ section_id: "A.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.7 — U.RoleAlgebra: In‑Context Role Relations"
   - "A.2.7:intro — Intro"
-line_start: 5016
-line_end: 5026
+line_start: 5015
+line_end: 5025
 dependencies:
   - "A.1.1"
   - "A.15"

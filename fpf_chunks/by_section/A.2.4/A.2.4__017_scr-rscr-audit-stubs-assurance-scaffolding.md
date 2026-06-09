@@ -6,12 +6,12 @@ section_id: "A.2.4:16"
 section_title: "SCR/RSCR audit stubs (assurance scaffolding)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__017_scr-rscr-audit-stubs-assurance-scaffolding.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:16 — SCR/RSCR audit stubs (assurance scaffolding)"
-line_start: 3506
-line_end: 3524
+line_start: 3505
+line_end: 3523
 dependencies:
   - "A.10"
   - "A.2"

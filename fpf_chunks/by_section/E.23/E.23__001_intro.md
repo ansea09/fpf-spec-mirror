@@ -6,12 +6,12 @@ section_id: "E.23:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:intro — Intro"
-line_start: 68699
-line_end: 68702
+line_start: 68700
+line_end: 68703
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

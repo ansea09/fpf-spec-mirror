@@ -6,12 +6,12 @@ section_id: "A.6:End"
 section_title: "A.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__015_a-6-end.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:End — A.6:End"
-line_start: 7419
-line_end: 7420
+line_start: 7418
+line_end: 7419
 dependencies:
   - "A.10"
   - "A.15"

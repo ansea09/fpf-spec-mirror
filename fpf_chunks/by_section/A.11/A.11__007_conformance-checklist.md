@@ -6,12 +6,12 @@ section_id: "A.11:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__007_conformance-checklist.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:6 — Conformance Checklist"
-line_start: 18963
-line_end: 18972
+line_start: 18962
+line_end: 18971
 dependencies:
   - "A.11"
   - "U.Type"

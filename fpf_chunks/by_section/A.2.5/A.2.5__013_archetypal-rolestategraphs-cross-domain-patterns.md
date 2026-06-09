@@ -6,12 +6,12 @@ section_id: "A.2.5:12"
 section_title: "Archetypal RoleStateGraphs (cross‑domain patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__013_archetypal-rolestategraphs-cross-domain-patterns.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:12 — Archetypal RoleStateGraphs (cross‑domain patterns)"
-line_start: 3788
-line_end: 3908
+line_start: 3787
+line_end: 3907
 dependencies:
   - "A.15"
   - "A.2.1"

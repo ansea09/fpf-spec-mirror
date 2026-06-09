@@ -6,12 +6,12 @@ section_id: "A.19.SPR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:intro — Intro"
-line_start: 23492
-line_end: 23510
+line_start: 23491
+line_end: 23509
 dependencies:
   - "A.10"
   - "A.16"

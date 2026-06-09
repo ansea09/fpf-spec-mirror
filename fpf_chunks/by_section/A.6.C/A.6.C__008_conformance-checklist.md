@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 8757
-line_end: 8785
+line_start: 8756
+line_end: 8784
 dependencies:
   - "A.15.1"
   - "A.2.3"

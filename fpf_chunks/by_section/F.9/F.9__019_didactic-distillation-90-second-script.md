@@ -6,12 +6,12 @@ section_id: "F.9:17"
 section_title: "Didactic distillation (90-second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__019_didactic-distillation-90-second-script.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:17 — Didactic distillation (90-second script)"
-line_start: 72097
-line_end: 72103
+line_start: 72096
+line_end: 72102
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

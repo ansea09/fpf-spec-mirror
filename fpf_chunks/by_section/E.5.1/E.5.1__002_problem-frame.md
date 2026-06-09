@@ -6,12 +6,12 @@ section_id: "E.5.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__002_problem-frame.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:1 — Problem frame"
-line_start: 56638
-line_end: 56644
+line_start: 56639
+line_end: 56645
 dependencies:
   - "E.5"
 keywords:

@@ -6,12 +6,12 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 45899
-line_end: 45934
+line_start: 45900
+line_end: 45935
 dependencies:
   - "A.15"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "C.30:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__006_archetypal-grounding.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:5 — Archetypal Grounding"
-line_start: 52226
-line_end: 52233
+line_start: 52227
+line_end: 52234
 dependencies:
   - "A.10"
   - "A.15"

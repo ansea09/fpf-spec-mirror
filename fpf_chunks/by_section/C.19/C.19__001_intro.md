@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:intro — Intro"
-line_start: 43169
-line_end: 43184
+line_start: 43170
+line_end: 43185
 dependencies:
   - "B.3"
   - "C.11"

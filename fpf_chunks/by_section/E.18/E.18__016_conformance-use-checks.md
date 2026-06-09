@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_conformance-use-checks.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:15 — Conformance Use Checks"
-line_start: 66683
-line_end: 66693
+line_start: 66684
+line_end: 66694
 dependencies:
   - "A.2.6"
   - "A.20"

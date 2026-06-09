@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution — the method as an abstract, paradigm‑agnostic “way of doing”"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution-the-method-as-an-abstract-paradigm-agnostic-way-of-doing.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.3.1 — U.Method"
   - "A.3.1:4 — Solution — the method as an abstract, paradigm‑agnostic “way of doing”"
-line_start: 5944
-line_end: 6015
+line_start: 5943
+line_end: 6014
 dependencies:
   - "A.1"
   - "A.1.1"

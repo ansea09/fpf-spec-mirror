@@ -6,12 +6,12 @@ section_id: "E.17:8"
 section_title: "Examples (SoTA-aligned Local Tests)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__009_examples-sota-aligned-local-tests.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8 — Examples (SoTA-aligned Local Tests)"
-line_start: 63747
-line_end: 63761
+line_start: 63748
+line_end: 63762
 dependencies:
   - "A.6.2"
   - "A.6.3"

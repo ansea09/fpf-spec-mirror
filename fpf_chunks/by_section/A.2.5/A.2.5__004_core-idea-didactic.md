@@ -6,12 +6,12 @@ section_id: "A.2.5:3"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__004_core-idea-didactic.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:3 — Core idea (didactic)"
-line_start: 3579
-line_end: 3589
+line_start: 3578
+line_end: 3588
 dependencies:
   - "A.15"
   - "A.2.1"

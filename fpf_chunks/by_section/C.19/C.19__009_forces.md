@@ -6,12 +6,12 @@ section_id: "C.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__009_forces.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:3 — Forces"
-line_start: 43233
-line_end: 43237
+line_start: 43234
+line_end: 43238
 dependencies:
   - "B.3"
   - "C.11"

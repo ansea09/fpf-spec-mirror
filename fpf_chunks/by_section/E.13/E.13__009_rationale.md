@@ -6,12 +6,12 @@ section_id: "E.13:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__009_rationale.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.13 — Pragmatic Utility & Value Alignment"
   - "E.13:8 — Rationale"
-line_start: 61378
-line_end: 61383
+line_start: 61379
+line_end: 61384
 dependencies:
   - "E.12"
   - "E.2"

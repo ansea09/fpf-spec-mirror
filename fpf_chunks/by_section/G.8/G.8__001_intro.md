@@ -6,12 +6,12 @@ section_id: "G.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:intro — Intro"
-line_start: 80085
-line_end: 80094
+line_start: 80084
+line_end: 80093
 dependencies:
   - "A.10"
   - "A.21"

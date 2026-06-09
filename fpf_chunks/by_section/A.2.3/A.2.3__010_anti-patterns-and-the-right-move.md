@@ -6,12 +6,12 @@ section_id: "A.2.3:9"
 section_title: "Anti‑patterns (and the right move)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_anti-patterns-and-the-right-move.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:9 — Anti‑patterns (and the right move)"
-line_start: 3088
-line_end: 3110
+line_start: 3087
+line_end: 3109
 dependencies:
   - "A.1.1"
   - "A.15.1"

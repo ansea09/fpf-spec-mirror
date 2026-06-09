@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_invariants-anti-patterns-normative-unless-marked-informative.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
-line_start: 41090
-line_end: 41152
+line_start: 41091
+line_end: 41153
 dependencies:
   - "A.10"
   - "A.17"

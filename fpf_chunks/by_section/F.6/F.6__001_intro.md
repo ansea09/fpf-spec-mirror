@@ -6,12 +6,12 @@ section_id: "F.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__001_intro.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:intro — Intro"
-line_start: 70817
-line_end: 70824
+line_start: 70816
+line_end: 70823
 dependencies:
   - "A.15"
   - "A.2.1"

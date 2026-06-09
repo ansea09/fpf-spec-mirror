@@ -6,12 +6,12 @@ section_id: "F.9.1:14"
 section_title: "Practical use guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__015_practical-use-guidance.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:14 — Practical use guidance"
-line_start: 72368
-line_end: 72377
+line_start: 72367
+line_end: 72376
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

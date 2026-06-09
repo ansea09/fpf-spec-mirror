@@ -6,12 +6,12 @@ section_id: "A.6.0:11"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__018_lowering-repair-and-refresh-conditions.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:11 — Lowering, repair, and refresh conditions"
-line_start: 9176
-line_end: 9189
+line_start: 9175
+line_end: 9188
 dependencies:
   - "A.2.6"
   - "A.6.1"

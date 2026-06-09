@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__006_shared-recovery-algorithm.md"
-commit_sha: "b22b6993b3e94f7896d5dc1cd011af7bc3f49b0d"
+commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 60255
-line_end: 60268
+line_start: 60256
+line_end: 60269
 dependencies:
   - "A.17"
   - "A.18"
