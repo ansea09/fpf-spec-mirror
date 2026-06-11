@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 47658
-line_end: 47807
+line_start: 48078
+line_end: 48225
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -55,23 +55,23 @@ C.27 does not govern:
 
 - transition laws or reusable dynamics models, which `A.3.3 U.Dynamics` carries;
 - state-space or coordinate construction, which `A.19` and `C.16` carry;
-- measurement legality, evidence construction, provenance, assurance claim,
+- measurement construction, measurement comparability, evidence construction, provenance, assurance claim,
   or evidence decay, which `C.16`, `A.10`, `B.3`, `B.3.4`, and `G.6` carry as
   applicable;
 - work actuals and resource burn, which `U.Work` and `Gamma_work` carry;
 - planning structures and authorized work, which `U.WorkPlan`,
   `U.MethodDescription`, `C.24`, and relevant planning patterns carry;
-- autonomy-budget declarations, guard checks, ledgers, depletion, pause/resume,
+- autonomy-budget declarations, guard checks, ledgers, depletion, pause or resume,
   or freedom-of-action governance, which `E.16` carries;
 - state-change or evolution loops and language-state movement, which `A.4`, `B.4`,
   `A.16`, and `B.4.1` carry;
-- `C.28`-governed causal-use claim, which `C.28` carries, or evaluation/evidence claim, which the relevant evaluation/evidence patterns carry;
-- metric proxy/value substitution, which `E.13` carries;
+- `C.28`-governed causal-use claim, which `C.28` carries, or evaluation and evidence claim, which the relevant evaluation and evidence patterns carry;
+- metric proxy and value substitution, which `E.13` carries;
 - service promises, agreement text, SLA-like statements, release gates, public
   commitments, and service-acceptance bindings, which `A.2.3`, `A.2.8`,
   `A.2.9`, `A.6.C`, `F.12`, and assurance patterns carry;
 - benchmark harnesses, which `G.9` carries;
-- dashboard time-series, telemetry pins, path/slice publication, pack shipping,
+- dashboard time-series, telemetry pins, path and slice publication, pack shipping,
   discipline-health slots, and refresh orchestration, which `C.21`, `G.12`,
   `G.6`, `G.10`, and `G.11` carry;
 - selector publication roles, which `G.5` carries only when a concrete
@@ -113,7 +113,7 @@ Local temporal-value boundary:
 > C.27 can classify the temporal move. It does not decide that acceleration,
 > braking, stabilization, coasting, recovery, convergence, or release speed is
 > valuable. The FPF patterns for value alignment, assurance, promise, ethics,
-> safety, legal, or proxy/audit concerns carry value, utility, constraint fit,
+> safety, legal, proxy, or audit concerns carry value, utility, constraint fit,
 > harm, promise impact, and proxy distortion.
 
 This boundary applies to claims such as "faster onboarding is better", "more
@@ -122,14 +122,13 @@ goal". C.27 may make the temporal claim adequate enough to inspect, but it does
 not turn speed into value by default.
 
 These are claim-relation boundary tests, not keyword exclusions. C.27 may still supply a
-short temporal-claim note when the state/rate/rate-change/rhythm/regime reading
-changes admissible use. The named neighbouring pattern then carries the
-non-C.27 question. If the temporal distinction does not change admissible use, exit
-C.27 completely.
+short temporal-claim note when the state, rate, rate-change, rhythm, or regime reading
+changes supported use. The named neighbouring pattern then carries the
+non-C.27 question. If the temporal distinction does not change supported use, stop before opening C.27.
 
 Do not make C.27 the governing pattern when:
 
-- the text only reports a state or snapshot and no rate/use distinction changes
+- the text only reports a state or snapshot and no rate or use distinction changes
   interpretation;
 - the text only reports a rate, trend, throughput, cadence, or trajectory and no
   intervention-sensitive rate-change claim is made;
@@ -137,40 +136,40 @@ Do not make C.27 the governing pattern when:
   teaching metaphor or casual Plain wording;
 - the issue under repair is publication-unit stability: one overloaded local head,
   drifting publication-unit primary entity of concern, bounded comparison, explanation faithfulness, or
-  approval/action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
+  approval wording or action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
   pattern that governs the downstream claim, effect, or use before C.27;
-- the question under repair is whether a measure is legal, comparable, or interpretable:
+- the question under repair is whether a measure is constructed, comparable, or interpretable:
   `C.16` carries measurement construction, with C.27 only citing the temporal
   C.27 relation if the measure supplies evidence for an intervention-sensitive claim;
 - the question under repair is a transition law, simulation, prediction, or control model:
-  `A.3.3 U.Dynamics` and formal/evidence patterns carry the formal dynamics,
-  with C.27 only naming the admissible-use limit of the authored claim;
-- the question under repair is work/resource actuals: `U.Work` and `Gamma_work` carry the
+  `A.3.3 U.Dynamics` and formal or evidence patterns carry the formal dynamics,
+  with C.27 only naming the supported-use limit of the authored claim;
+- the question under repair is work actuals or resource actuals: `U.Work` and `Gamma_work` carry the
   evidence, with C.27 only using it as effort evidence or planning assumption for a Dyn2 claim;
 - the question under repair is scaling-law or elasticity adequacy: C.18.1 carries scale
   variables, scale window, scale probes, and scale-elasticity value, with C.27
   only naming the temporal-claim adequacy question if scale change is used as the scale-variable relation for
   rate-change, learning, recovery, throughput, or stabilization;
-- the question under repair is a work plan, call plan, method description, or authorized
-  intervention actor/role assignment: the planning pattern carries the plan, with C.27 only active
-  when the plan's admissible use depends on rate-change, recovery, stabilization,
+- the question under repair is a work plan, tool-use plan, method description, or authorized
+  intervention actor reference or role assignment: the planning pattern carries the plan, with C.27 only active
+  when the plan's supported use depends on rate-change, recovery, stabilization,
   or braking;
 - the question under repair is task-family specialization: C.22.1 carries adaptation
   signature fields, with C.27 only naming the temporal-claim question when
-  learning or adaptation speed changes admissible use;
+  learning or adaptation speed changes supported use;
 - the question under repair is preserving a viability envelope under disturbance,
   adaptation cost, latency, operational-support load, or boundary regulation: C.26.3 carries
   the envelope claim, with C.27 only naming the temporal move if
   braking, throttling, cadence change, recovery timing, or stabilization changes
   supported use;
 - the question under repair is causal attribution: `C.28` carries causal-use claim,
-  and evaluation/evidence patterns carry non-causal evaluation/evidence claims;
+  and evaluation and evidence patterns carry non-causal evaluation and evidence claims;
   C.27 may mark the temporal claim's causal use as unsupported until that `C.28`
   relation is satisfied;
 - the question under repair is a benchmark, budget, promise, service boundary, SLA-like
   statement, public commitment, assurance, or release gate: the relevant
   benchmark, boundary, promise, service, assurance, or planning pattern carries
-  that claim/use, with C.27 only naming the temporal claim that the other pattern
+  that claim or use, with C.27 only naming the temporal claim that the other pattern
   inspects;
 - the question under repair is residual quantum-like probe, frame, export, or coarsening cue:
   `C.26` carries it only after ordinary dynamics, work, measurement, benchmark,
@@ -179,7 +178,7 @@ Do not make C.27 the governing pattern when:
 Overlap example: "Adding review capacity for two sprints will double backlog
 reduction rate and justify a budget increase" is not solved by C.27 alone. C.27
 types the Dyn2 temporal-claim question; the planning pattern carries planned effort,
-`C.16` carries the rate/rate-change measure, the budget/planning pattern carries
+`C.16` carries the rate or rate-change measure, the budget or planning pattern carries
 approval, and `C.28` carries any causal-use claim. The short
 temporal-claim note is a `Dyn2TemporalClaimAdequacyCard`: it prevents those
 patterns from missing the hidden rate-change question, but it does not replace
@@ -190,10 +189,9 @@ C.27 does not introduce:
 - literal Newtonian or physical ontology for organizations, practices, services,
   dances, learning, or work cycles;
 - physical quantum ontology or quantum-like superiority;
-- mandatory ODE/PDE/calculus formalism for all temporal claims;
+- mandatory ODE, PDE, or calculus formalism for all temporal claims;
 - new Kernel types for force, mass, acceleration, rhythm, or practice;
 - a new publication role, separate pattern, law sheet, or MVPK face;
 - default C.27 profiling for every temporal word;
-- thin C.27 echo records when a local C.27 card or profile can cite the FPF
-  FPF pattern that governs the other question.
+- thin C.27 echo records when a local C.27 card or profile can cite the FPF pattern that governs the other question.
 

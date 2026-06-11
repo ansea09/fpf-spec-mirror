@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: "E.17.ID.CR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__003_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:2 — Problem"
-line_start: 64593
-line_end: 64602
+line_start: 64987
+line_end: 64996
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -40,11 +40,11 @@ keywords:
 
 ### E.17.ID.CR:2 - Problem
 
-Without a named comparative-reading discipline:
+Without a named comparative-review-unit discipline:
 1. a useful comparative review unit is dismissed as if it were only harmless prose;
-2. a cautious review aid is over-read as if it already licensed substitution, interoperability, or equivalence;
+2. a cautious review aid is overread as if it already licensed substitution, interoperability, or equivalence;
 3. a comparative review unit quietly becomes action-selection pressure or hidden hypothesis work while still sounding calm;
-4. same-entity viewing, explanation rendering, and bounded comparative reading collapse into one fuzzy review bucket;
+4. same-entity viewing, explanation rendering, and bounded comparison collapse into one fuzzy review bucket;
 5. ontology-facing target shift or changed EntityOfConcern hides inside comparative wording;
 6. a review unit written to serve review is mistaken for work or reliance guidance, assurance shorthand, or release authority.
 

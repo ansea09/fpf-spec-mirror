@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
+pattern_title: "RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
 section_id: "A.6.3.RT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition"
+  - "A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:3 — Forces"
-line_start: 11224
-line_end: 11231
+line_start: 11292
+line_end: 11299
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,16 +38,13 @@ dependencies:
   - "F.18"
   - "F.9"
   - "F.9.1"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
 keywords:
 ---
 
 ### A.6.3.RT:3 - Forces
 
 - **Same entity, different reasoning medium.** Teams need different representational forms without silently changing the EntityOfConcern.
-- **Legibility vs recoverability.** A clearer representation is useful only if readers can still recover how it relates to source claims, source-relation records, and pins.
+- **Legibility vs recoverability.** A clearer representation is useful only if users can still recover how it relates to source claims, source-relation records, and pins.
 - **Representation change vs EntityOfConcern shift.** A new notation or geometry can make structure more visible, but it must not silently become a new EntityOfConcern or a new ontology.
 - **Recoverability before decode ambition.** Start from cases where recoverability can be reviewed directly before leaning on decode-mediated reconstruction.
 - **Governing-pattern restraint.** This pattern must stay under `A.6.3`, not swallow explanation governance, retargeting, bridge work, or carrier work.

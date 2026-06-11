@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 49127
-line_end: 49180
+line_start: 49541
+line_end: 49594
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -54,9 +54,9 @@ claims while keeping ordinary state and rate claims cheap. Its main cost is one
 more C-pattern and several neighbour notes in existing FPF patterns. The mitigation is the
 central affordability rule: C.27 must be easier not to use than to misuse.
 
-C.27 claims decay over time. Refresh or reopen when:
-Refresh demand stays proportional:
+C.27 claims decay over time. Refresh or reopen when one of the listed conditions changes.
 
+Refresh demand stays proportional:
 ```text
 Local C.27 card:
   has reopenTrigger only.
@@ -64,15 +64,15 @@ Local C.27 card:
 Boundary-crossing C.27 profile:
   has validityWindowRef and evidence valid_until when FPF-governed.
 
-Part G / benchmark / SoTA / public method claim:
+Part G, benchmark, SoTA, or public method claim:
   C.27 reopenTrigger feeds G.11 refresh orchestration;
   C.27 does not become a refresh ledger.
 ```
 
 - sampling window, cadence, or time base changes;
 - effort envelope or resource budget changes;
-- intervention actor/role capacity, authority, or availability changes;
-- inertia/resistance proxy changes: new tooling, team, queue topology, domain,
+- intervention actor reference, role capacity, authority, or availability changes;
+- inertia or resistance proxy changes: new tooling, team, queue topology, domain,
   work mix, constraints, or service environment;
 - metric becomes a target, incentive, gate, dashboard, or public comparison;
 - cross-scale transfer is attempted;
@@ -80,7 +80,7 @@ Part G / benchmark / SoTA / public method claim:
 - hidden queues, rework, burnout, quality loss, operational-support load, safety load, or
   coordination debt appear;
 - rhythm bearer, timing reference, window, proxy, or coupling changes;
-- claim use changes from assumption/diagnostic to benchmark, assurance,
+- claim use changes from assumption or diagnostic to benchmark, assurance,
   causal, promise-like, publication, or formal model use;
 - the claim is reused outside its original validity window or domain;
 - a coasting, braking, or recovery claim continues after effort changes or stops.
@@ -93,9 +93,9 @@ formal-model relation. If rate-change evidence decays, freshness and epistemic-d
 handling belongs with B.3.4 or G.11 rather than becoming a C.27 freshness calculus.
 
 When a Dyn2 benchmark, task-family adaptation claim, public method claim,
-selector-facing claim, SoTA-bearing publication claim, or other Part G publication carries a
+selector-facing claim, SoTA publication claim, or other Part G publication carries a
 temporal-claim record, C.27 `reopenTrigger` is not enough by itself. C.27 states
-the temporal-claim question and its validity/reopen condition; G.9 carries benchmark parity
+the temporal-claim question and its validity or reopen condition; G.9 carries benchmark parity
 when comparison is being made; G.11 carries refresh orchestration such as refresh
 queue, refresh plan, refresh report, deprecation notice, or edition bump when
 evidence, comparator editions, method editions, claim windows, or validity

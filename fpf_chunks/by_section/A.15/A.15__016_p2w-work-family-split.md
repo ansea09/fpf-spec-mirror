@@ -6,12 +6,12 @@ section_id: "A.15:12c"
 section_title: "P2W Work-Family Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__016_p2w-work-family-split.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12c — P2W Work-Family Split"
-line_start: 19964
-line_end: 19969
+line_start: 20033
+line_end: 20038
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### A.15:12c - P2W Work-Family Split
 
-When `E.18.1` reaches WorkPlanning, this family carries the split among selected method, `U.WorkPlan`, `SlotFillingsPlanItem`, performed `U.Work`, and result-related records. A P2W principle scheme, functional diagram, or scenario may guide method inspection and work-planning preparation only after the current work-family object is named.
+When a P2W use under `E.18.1` produces a `WorkPlanning` relation, this family carries the split among selected method, `U.WorkPlan`, `SlotFillingsPlanItem`, performed `U.Work`, and result-related records. A P2W principle scheme, functional diagram, or scenario may guide method inspection and work-planning preparation only after the current work-family object is named.
 
-WorkPlanning may place evidence-reference hooks and source-currentness requests for the governing pattern that carries the live relation. If the live relation is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning record.
+WorkPlanning may place evidence-reference hooks and source-currentness requests for the governing pattern that carries the relation under repair. If the relation under repair is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning record.
 

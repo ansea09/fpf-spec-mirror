@@ -6,12 +6,12 @@ section_id: "C.2.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__014_rationale.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:10 — Rationale"
-line_start: 35416
-line_end: 35425
+line_start: 35532
+line_end: 35541
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,11 +51,11 @@ keywords:
 
 ### C.2.P:10 - Rationale
 
-FPF already contains the relevant ontology. The recurring defect was not lack of concepts but ad hoc wording that bypassed them: `source`, `target`, `surface`, `object`, `host`, `route`, `supported use`, and similar trigger terms packed several FPF kinds and relations into one convenient phrase; they are examples of wording to unpack, not live replacement vocabulary.
+FPF already contains the relevant ontology. The recurring defect was not lack of concepts but ad hoc wording that bypassed them: `source`, `target`, `surface`, `object`, `host`, `route`, `supported use`, and similar trigger terms packed several FPF kinds and relations into one convenient phrase; they are examples of wording to unpack, not current replacement vocabulary.
 
 The correct repair is therefore not a new umbrella. It is a disciplined recovery action: use `E.2`, `E.10`, `F.18`, `A.6.P`, `A.7`, `C.2.1`, `E.17.0`, `E.17`, and MVPK together until the sentence says which EntityOfConcern, relation, publication, view, carrier, record, work, action, or pattern application it means.
 
-Because `E.2` governs all normative FPF patterns, epistemic precision is not a value apart from `P-2 Didactic Primacy`. An epistemic precision restoration may be stricter than the original wording, but if it turns FPF-governed reader-facing problem text into a kind inventory with no working situation or first useful move, it has not landed the FPF repair. The remedy is not expressive license and not metaphor removal; the remedy is admissible recognition wording whose claim being made remains recoverable through the Tech interpretation or a named FPF pattern application.
+Because `E.2` governs all normative FPF patterns, epistemic precision is not a value apart from `P-2 Didactic Primacy`. An epistemic precision restoration may be stricter than the original wording, but if it turns FPF-governed reader-facing problem text into a kind inventory with no working situation or first useful move, it has not landed the FPF repair. The remedy is not expressive license and not metaphor removal; the remedy is recognition wording with declared-use boundary whose claim being made remains recoverable through the Tech interpretation or a named FPF pattern application.
 
 The detailed rules remain in ordinary pattern sections, so the pattern is usable as FPF guidance rather than as an external glossary container.
 

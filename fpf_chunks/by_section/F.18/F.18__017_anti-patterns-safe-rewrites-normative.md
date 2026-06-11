@@ -6,12 +6,12 @@ section_id: "F.18:16"
 section_title: "Anti‑patterns & safe rewrites (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__017_anti-patterns-safe-rewrites-normative.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:16 — Anti‑patterns & safe rewrites (normative)"
-line_start: 75713
-line_end: 75744
+line_start: 76400
+line_end: 76431
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

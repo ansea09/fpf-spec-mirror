@@ -6,12 +6,12 @@ section_id: "E.17.EFP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:1 — Problem frame"
-line_start: 64038
-line_end: 64047
+line_start: 64489
+line_end: 64498
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,5 +41,5 @@ The same underlying claim set often needs explanation-facing renderings on more 
 - a didactic retelling for onboarding or review preparation;
 - a clearly marked speculative retelling that helps discussion but does not pretend to be canonical content.
 
-FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how its source tether to the source `U.Episteme` or source `U.EpistemePublication` is stated, and where it is admissible.
+FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how its source tether to the source `U.Episteme` or source `U.EpistemePublication` is stated, and which bounded use it carries.
 

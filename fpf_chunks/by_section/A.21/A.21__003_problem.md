@@ -6,12 +6,12 @@ section_id: "A.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__003_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:2 — Problem"
-line_start: 28265
-line_end: 28273
+line_start: 28372
+line_end: 28380
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -46,8 +46,8 @@ keywords:
 
 Without a unified GateFit core:
 
-* Gate admissibility becomes ad-hoc, **order-dependent**, and hard to audit (especially with multiple independent checks).
-* Gate logic enters CV (planes/comparators/freshness/roles appear “inside steps”), collapsing the CV/GF separation.
-* “Unknown / timeout / error” behavior becomes implicit and inconsistent across cases, undermining reproducibility and safety.
-* Publication faces drift into “extra semantics” (computed scalars / tool encodings) rather than pins + refs, breaking MVPK discipline.
+* Gate decisions become ad hoc, **order-dependent**, and hard to audit (especially with multiple independent checks).
+* Gate logic enters CV: plane claims, comparator claims, freshness claims, or role-channel claims appear “inside steps”, collapsing the CV and GF separation.
+* “Unknown”, “timeout”, or “error” behavior becomes implicit and inconsistent across cases, undermining reproducibility and safety.
+* Publication faces drift into “extra semantics” (computed scalars or tool encodings) rather than pins and references, breaking MVPK discipline.
 

@@ -6,12 +6,12 @@ section_id: "B.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__013_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:12 — Relations"
-line_start: 29448
-line_end: 29460
+line_start: 29551
+line_end: 29563
 dependencies:
   - "A.1"
   - "A.12"

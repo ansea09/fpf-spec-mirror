@@ -6,12 +6,12 @@ section_id: "A.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__010_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:8 — Consequences"
-line_start: 28108
-line_end: 28119
+line_start: 28212
+line_end: 28223
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -42,8 +42,8 @@ keywords:
 **Benefits.**
 *Clarity & composability.* Mechanism descriptions remain limited to internal laws; gates are the sole policy junction.
 
-*Replayability.* With valuation plus MVPK pins, re-runs under fixed `E⃗` are comparable and slice-scoped through `E.18`, `A.20`, and `G.11` when refresh wiring is live.
-*Didactic hygiene.* Readers can see what is internal mechanism constraint status vs. gate policy.
+*Replayability.* With valuation plus MVPK pins, re-runs under fixed `E⃗` are comparable and slice-scoped through `E.18`, `A.20`, and `G.11` when refresh wiring is present.
+*Didactic hygiene.* Readers can see what is step-local mechanism constraint plus `CV.Status` vs. gate policy.
 
 **Trade‑offs.**
 

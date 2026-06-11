@@ -6,12 +6,12 @@ section_id: "E.17.AUD:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__006_worked-slices.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:5 — Worked slices"
-line_start: 65516
-line_end: 65549
+line_start: 65850
+line_end: 65883
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,7 +53,7 @@ A memo starts about one bounded architecture question over an inherited lineage 
 
 #### E.17.AUD:5.3 - Stable-unit comparison case
 
-A comparison sheet already keeps one stable primary EntityOfConcern and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `E.17.ID.CR ComparativeReading`.
+A comparison sheet already keeps one stable primary EntityOfConcern and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `E.17.ID.CR ComparativeReviewUnit`.
 
 #### E.17.AUD:5.4 - Explanation-laundering case
 
@@ -71,7 +71,7 @@ Use this quick contrast set when the first interpretation is still foggy:
 | --- | --- | --- |
 | `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
 | `whole-unit interpretation shift` | the publication unit under review quietly changes primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |
-| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReading` |
+| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
 | `downstream claim or effect overread` | readers are inferring approval, assignment, or go or no-go claim or effect from the publication unit | leave the publication-unit stability family for the more honest downstream decision, gate, work, or reliance publication |
 | `modeling-lens hidden` | the unit only makes sense because of one unpublished model, formal substrate, or rationale | publish that substrate or rationale briefly or use a heavier publication form or neighboring pattern |
 

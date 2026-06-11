@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+pattern_title: "ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
 section_id: "A.6.3.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__010_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:9 — Consequences"
-line_start: 11113
-line_end: 11120
+line_start: 11217
+line_end: 11224
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -26,9 +26,6 @@ dependencies:
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
 keywords:
 ---
 

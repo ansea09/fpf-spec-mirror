@@ -6,12 +6,12 @@ section_id: "A.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__010_rationale.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:9 — Rationale"
-line_start: 28556
-line_end: 28565
+line_start: 28657
+line_end: 28666
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -44,11 +44,11 @@ keywords:
 
 ### A.21:9 - Rationale
 
-* The microkernel framing preserves a single graph semantics: checks are nodes and publications, not an external pipeline; this keeps a second hidden process order outside the gate core.
-* The join lattice provides a minimal, monotone aggregation that supports:
+* The microkernel framing preserves a single graph semantics: checks are nodes and publications, not an external execution sequence; this keeps a second hidden execution order outside the gate core from appearing.
+* The join lattice provides minimal, monotone aggregation with two useful properties:
 
   * early absorption at `block` without specifying execution strategy, and
-  * deterministic publication semantics (commutative + associative + idempotent).
+  * deterministic publication semantics (commutative, associative, and idempotent).
 * CV⇒GF activation is the mechanism that keeps orthogonality strict while still publishing a single gate decision publication: GF results do not replace CV failures.
 * Explicit folds for `error|timeout|unknown` make safety review result inspectable and profile-specific without inventing new decision values.
 

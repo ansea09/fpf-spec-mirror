@@ -6,12 +6,12 @@ section_id: "A.8:11"
 section_title: "Open Questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__012_open-questions.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.8 — Universal Core Principle (C‑1)"
   - "A.8:11 — Open Questions"
-line_start: 18396
-line_end: 18401
+line_start: 18464
+line_end: 18469
 dependencies:
   - "A.8"
   - "U.Types"

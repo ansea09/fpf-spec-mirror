@@ -6,12 +6,12 @@ section_id: "A.2.4:9"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__010_worked-examples.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:9 — Worked examples"
-line_start: 3358
-line_end: 3397
+line_start: 3360
+line_end: 3399
 dependencies:
   - "A.10"
   - "A.2"

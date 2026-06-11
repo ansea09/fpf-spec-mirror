@@ -6,12 +6,12 @@ section_id: "A.2.1:5"
 section_title: "Archetypal Grounding (three disparate arenas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_archetypal-grounding-three-disparate-arenas.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
   - "A.2.1:5 — Archetypal Grounding (three disparate arenas)"
-line_start: 2196
-line_end: 2287
+line_start: 2198
+line_end: 2289
 dependencies:
   - "A.1"
   - "A.1.1"

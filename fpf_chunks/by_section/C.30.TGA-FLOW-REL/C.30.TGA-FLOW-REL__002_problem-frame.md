@@ -6,12 +6,12 @@ section_id: "C.30.TGA-FLOW-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
   - "C.30.TGA-FLOW-REL:1 — Problem frame"
-line_start: 54370
-line_end: 54403
+line_start: 54782
+line_end: 54815
 dependencies:
   - "A.10"
   - "A.15"

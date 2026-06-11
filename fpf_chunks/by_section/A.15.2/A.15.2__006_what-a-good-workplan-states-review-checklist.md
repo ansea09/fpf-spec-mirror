@@ -6,12 +6,12 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 20540
-line_end: 20554
+line_start: 20617
+line_end: 20631
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 Use this as a human-facing checklist (not a rigid schema):
 
 1. **Horizon & cadence** (e.g., “W36 surgeries, daily ETL”).
-2. **Plan Items** with: target Method and MethodDescription, planned windows, dependencies.
+2. **`PlanItem` values** with: target Method and MethodDescription, planned windows, dependencies.
 3. **Role requirements** (kinds) and **intended assignments** (optional, context‑lawful).
 4. **Capability thresholds** and **safety envelopes**.
 5. **Resource budgets** and **reservations** on assets.
@@ -47,5 +47,5 @@ Use this as a human-facing checklist (not a rigid schema):
 7. **Bridges** if plan spans **multiple contexts** (operations, audit, or regulatory).
 8. **Baseline and version** plus **change notes** (so variance is attributable).
 9. **Policy pointers** (episode policy, overlap policy for Work roll‑ups if needed for KPIs).
-10. **Exceptions path** (how ad hoc or emergency work is planned after the fact).
+10. **Exception relation** (how ad hoc or emergency work is related back to planning, if that relation is needed).
 

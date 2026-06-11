@@ -6,12 +6,12 @@ section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 44935
-line_end: 44949
+line_start: 45360
+line_end: 45374
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,9 +71,9 @@ The compact export fields are:
 - problem signal and context grounding;
 - EntityOfConcern and scope cut when they change the move;
 - improvement check or acceptance probe;
-- readiness disposition: reviewable-only, `P2W-ready`, no-work or `abstain/no-change`, refresh, retire, archive, or governing-pattern application cue;
-- source-set or representation relation reference when live;
+- readiness disposition: reviewable-only, `P2W-ready`, no-work or `abstainOrNoChange`, refresh, retire, archive, or governing-pattern application cue;
+- source-set or representation relation reference when current;
 - problem-formulation next-move reason and validation boundary when P2W relies on the card.
 
-For P2W carry-through, use `E.18.1` with the accepted problem-side material and the live relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is live. For work need, use the A.15 family only after work planning, performed work, or work-relevant source restoration is live. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
+For P2W carry-through, use `E.18.1` with the accepted problem-side material and the current relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is current. For work need, use the A.15 family only after work planning, performed work, or work-relevant source restoration is current. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
 

@@ -6,12 +6,12 @@ section_id: "C.22:13"
 section_title: "Practical use checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__014_practical-use-checks.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:13 — Practical use checks"
-line_start: 44165
-line_end: 44171
+line_start: 44590
+line_end: 44596
 dependencies:
   - "C.16"
   - "C.18"

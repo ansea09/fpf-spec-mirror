@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.ID.CR.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
-line_start: 64487
-line_end: 65320
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
+line_start: 64938
+line_end: 65654
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -37,101 +37,44 @@ dependencies:
 keywords:
 ---
 
-## E.17.ID.CR - ComparativeReading — bounded comparative reading over comparative review units
+## E.17.ID.CR - ComparativeReviewUnit - bounded comparison over comparative review units
 
 > **Status:** Stable
 
-**Placement.** Pattern for bounded comparative reading over comparative review units, coordinated with the neighboring `A.6.3.*`, `F.9.1`, and `E.17.EFP` patterns.
-**Builds on.** `C.2.2a`; `A.16.0`; `F.9`; `E.14`.
-**Coordinates with.** `A.6.P`; `A.6.3`; `A.6.3.CR`; `A.6.3.RT`; `A.6.9`; `F.9`; `F.9.1`; `E.17.EFP`; `E.17.AUD.LHR`; `B.5.2.0`; `B.5.2`; `OntologicalReframing`; `A.6.4`; `C.11`; `A.15`; `A.20`; `A.21`.
-**Active governing pattern.** `ComparativeReading` is the governing pattern here under the wider `InterpretationDiscipline` family. The public pattern name is `ComparativeReading`, not interpretation-in-general.
-**Citation names.** Cite this pattern as `E.17.ID.CR`, `ID.CR`, or `ComparativeReading`. Do not cite it as unqualified `ID` or `CR`; use `A.6.3.CR` when the intended pattern is `ConservativeRetextualization`.
-**Family-specialization guard.** `InterpretationDiscipline` is a naming-level family label only. It is not a `U.*` kind, not a `publication-face kind`, not a publication face, not a new episteme kind, not an authority reference, not a bridge taxonomy, not a second semantic track, and not a governing pattern by itself. The active governing pattern here is `ComparativeReading`; no publication or project record cites `InterpretationDiscipline`, `ID`, or `CR` alone as `governingPatternRef` or `authoritySourceRef`.
-**Plain-name.** Bounded comparative reading over comparative review units.
-**One-line summary.** `ComparativeReading` works over one bounded comparative review unit over already available source epistemes or source publications while the shared review frame stays preserved, one bounded contrast or a small set of bounded contrast rows is being made visible, and downstream claim or effect remains outside. The compared alternatives may be distinct entities when they stay under that shared review frame.
-**Bounded comparative review unit in plain terms.** The pattern works over the comparative review unit itself - the comparison note, small comparison sheet, or guided review aid that carries one bounded contrast or a small set of bounded contrast rows - not the whole source episteme or source publication set and not the wider decision or work process.
+**Plain-name.** Bounded comparison over comparative review units.
 
-**Early comparative lens.** Read the comparative-reading case through one early formula: one comparative review unit over already available source epistemes or source publications keeps the shared review frame visible while making one bounded contrast or a small set of bounded contrast rows inspectable, with downstream claim or effect still left outside. The shared frame may be the same `EntityOfConcernRef`, review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set reference. Compared alternatives under that frame may be distinct objects. That is the whole early read. It does not govern interpretation in general, the whole source episteme or source publication set, or the wider decision or work process.
+**Use this when.** Use this pattern when a team needs one small comparison note, comparison sheet, or guided review aid over already available source epistemes or source publications. The unit should make one bounded contrast or a small set of contrast rows inspectable while the shared review frame stays visible and downstream claim or effect remains outside.
 
-**Use this when.** Use this pattern when you need a small comparative review unit, such as a comparison note, comparison sheet, or guided review aid, over already available source epistemes or source publications so that a team can inspect one bounded contrast or a small set of bounded contrast rows while still keeping the shared review frame and compared alternatives explicit and without yet claiming equivalence, root cause, redesign, release approval, or another unsupported downstream claim or effect.
+**First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one honest comparison unit: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The job is not yet action selection, approval, ontology repair, or wider work-process control. It is to compare without pretending that the comparison note already became a decision.
 
-**First-minute working moment.** A team already has two or more source-pinned notes, sheets, views, or review aids on the table and needs one honest comparison unit that keeps the shared review frame visible while making one bounded contrast or a small comparison sheet inspectable. The compared items may be two design options for one release, two methods for one task family, two vendor bulletins for one control scope, or two programme strategies for one initiative. The real job is not yet action selection, approval, ontology repair, or wider work-process control. It is to help reviewers compare without pretending that the comparison note or sheet already became a decision.
+**First output.** Use the ordinary seven-row card:
 
-**First-screen questions.**
-1. What source epistemes or source publications are being compared?
-2. What one contrast or small set of contrast rows is being made visible?
-3. What shared review frame remains preserved, and what compared alternatives stay distinct under it?
-4. What does this note not decide?
-5. What boundary condition would make it a decision, prompt, bridge, ontology, work or reliance, gate, assurance, or adjudication case?
+```text
+ComparativeReviewUnit:
+  ReviewedSources:
+  SharedReviewFrame:
+  ComparedAlternatives:
+  ComparisonCriterionOrRows:
+  BoundedLift:
+  BlockedDownstreamClaimOrEffect:
+  BoundaryTrigger:
+```
 
-**Working action spine.** When a comparison note or guided review aid is needed, separate compared sources, one bounded contrast or small row set, shared review frame, distinct alternatives when present, and undecided downstream claim or effect. Use the unit for bounded review, source-finding, contrast inspection, or planning preparation. The ordinary output is the seven-row ordinary working card or one compact note or sheet. If a decision claim, bridge claim, prompt claim, ontology claim, work claim, reliance claim, gate claim, assurance claim, or adjudication claim becomes live, apply the neighboring FPF pattern that governs that claim. Decision-making claims and decision records apply `C.11`; relation-precision claims apply `A.6.P`; bridge wording applies Part F with `A.6.9`, `F.9`, or `F.9.1`; gate and release claims apply `A.20` or `A.21`. Use `E.17:5.1c` for `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger`; use `E.17:5.1d` when the primary question under repair may be same-entity rewrite, representation change, coarsening, explanation, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of bounded comparative reading.
+**What goes wrong if missed.** A comparison unit is either dismissed as harmless prose or overread as equivalence, action selection, gate pressure, release approval, work or reliance guidance, or adjudication authority. The team then argues about hidden authority instead of inspecting the bounded contrast.
 
-**Ordinary-output claim inventory.** After `ComparativeReading`, the author has claimed only that these source epistemes, source publications, or project-side FPF kinds and references named by value have been compared under this bounded comparison basis, shared review frame, and declared source references. The author has not claimed equivalence, substitutability, bridge relation, selection, recommendation, decision, evidence path, assurance, gate passage, release readiness, work occurrence, or reliance relation unless the neighboring FPF pattern governing that claim and project-side FPF kind and reference named by value are named.
+**What this buys in practice.** The team can compare already available sources, inspect one bounded contrast or a small comparison sheet, and use the boundary trigger to name any crossed claim and the pattern that governs that claim.
 
-**Primary working reader.** The primary first-minute reader is an engineer-manager or programme lead using a bounded comparative review unit in ordinary project review. Architecture reviewers, release or compliance reviewers, research reviewers, and cultural or programme reviewers remain important secondary readers, but the first recognition block should still read engineer-manager-first rather than architecture-first.
+**Not this pattern when.** If the primary question is no longer the bounded comparison unit or its shared review frame, name the crossed claim and apply the governing pattern for that claim: source transformation, bridge, explanation face, prompt or action selection, ontology or `EntityOfConcern` change, decision, work or reliance, gate, assurance, adjudication, or reduced-use source rendering.
 
-**Problem-owning practice reading.** In ordinary practice, this pattern helps teams write design-review notes, release or compliance comparisons, incident triage comparisons, research review notes, and programme review aids when the real job is to compare already available source epistemes or source publications under one shared review frame without yet claiming equivalence, action selection, or decision authority. The job is not to settle the full review or downstream decision process. It is to make one bounded comparative review unit honest enough that reviewers can inspect one contrast or a small set of contrast rows, know what downstream claim or effect stays outside, and stop arguing as if the note had already become a decision.
-
-**What goes wrong if you miss this.** If this pattern stays unnamed, teams often flip between two bad readings. Either the comparative review unit is dismissed as if it were only harmless prose, or it is over-read as if it already licensed equivalence, action selection, gate pressure, or work or reliance. The practical result is distrust and friction in review work because readers can no longer tell whether they are looking at one bounded comparison aid or at a disguised decision.
-
-**What this buys you in practice.** Naming the pattern buys one smaller and more usable review unit. A team can compare already available source epistemes or source publications, inspect one bounded contrast or a small comparison sheet, and still keep downstream claim or effect outside. In practice that means review conversations move faster with less argument about whether the note already settled equivalence, approval, or the next work or reliance move.
-
-**Ordinary use.** If the comparison only helps review, source-finding, contrast inspection, or planning preparation, keep one small comparison note or the seven-row ordinary working card; do not thicken it into a decision, bridge, release, or authority record.
-
-**Cheap stop after ordinary card.** If the comparison note answers the seven-row card and no neighboring-boundary claim is live, stop. Do not open `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.EFP`, `A.6.3.CSC`, bridge, prompt, work or reliance, gate, assurance, or authority patterns.
-
-**Assurance-section boundary.** Read `E.17.AUD.LHR`, `E.17.AUD.OOTD`, interpretant-side fields, bridge boundaries, prompt boundaries, authority boundaries, and the heavier boundary tables as assurance or source-relation material after the seven-row ordinary card, not as the ordinary first screen for one comparison note.
-
-**Load-bearing use.** Open the fuller comparative-relation and source-relation apparatus only when the comparison will be externally relied on, disputed, cited, used across context, used to affect person status or team status, or read as release, gate, bridge or substitution, action-selection, work or reliance, or engineering-justification input.
-
-**Stop condition.** Stop once the comparison changes no next review, source-finding, contrast-inspection, or planning-preparation move and blocks no concrete overclaim about equivalence, decision, bridge or substitution, work or reliance, gate, or engineering justification.
-
-**Admissible-use examples.**
-
-| Admissible comparative-use | Source-finding or bounded inspection with no downstream claim or effect | Non-admissible comparative use |
-| --- | --- | --- |
-| A comparison note is admissible for one bounded review discussion when it names the compared sources, shared review frame, compared alternatives when present, one contrast, and what remains undecided. | A comparison suggests the next source, method, or bridge claim to inspect without deciding substitution, method selection, release, or work reliance. | A comparison table is used as equivalence, bridge licence, method-selection decision, release decision, evidence, gate passage, or adjudication authority. |
-
-**Admissible comparative-unit forms.**
-- **Single-contrast note** — one bounded contrast with one comparison basis, one shared review frame, unsupported downstream claim or effect, world-contact limit, and boundary trigger.
-- **Small comparison sheet** — a small set of bounded contrast rows under one shared review frame. Each row states its comparison basis; the sheet has one shared unsupported downstream claim or effect, one world-contact limit, and one boundary trigger. It must not add an aggregate recommendation, ranking, or action-selection conclusion unless another governing FPF pattern or project record named by value supplies that source relation or project record.
-
-When one comparative note is itself lighter or simplified, it remains admissible here only while source-bearing return stays available and heavier bridge, action-selection, or work or reliance claim remains outside.
-
-**Not this pattern when.** This is not the right pattern when the primary question is:
-- restating the same EntityOfConcern or shifting its representation rather than adding one bounded contrast under `A.6.3.*`;
-- carrying a controlled narrower-use rendering whose governing relation is source-bearing tether, narrower admissible claim or effect, non-admissible downstream claim or effect, and reopen duty rather than bounded comparative reading;
-- explicating an already-declared bridge stance rather than governing a comparative review unit under `F.9.1`;
-- deciding explanation-face use rather than carrying bounded comparative reading under `E.17.EFP`;
-- `PublicationUnit` EntityOfConcern stabilization after local repair;
-- abductive-prompt or action-selection pressure under `B.5.2(.0)`;
-- ontology or target change under `OntologicalReframing` or `A.6.4`;
-- or downstream decision, work or reliance, gate, assurance, or adjudication authority under `C.11`, `A.15`, `A.20`, or `A.21`.
-
-**Neighboring-work boundary.** If the live work is actually same-EntityOfConcern rewrite, relation-precision work, bridge wording, bridge-stance note over an existing Bridge Card, explanation-face use, abductive prompt, ontology change, decision work, gate or authority work, or local `PublicationUnit` repair, keep the current comparative review unit narrow and use the FPF pattern that governs that outside work (`A.6.P`, `A.6.3.*`, `A.6.9`, `F.9`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing` or `A.6.4`, `C.11`, `A.15`, `A.20`, `A.21`, `E.17.AUD.LHR`, or `E.17.AUD.OOTD`). The engineer-manager action is to keep the comparison note from carrying that outside work; if the outside work is live, recover the existing project-side FPF kind and reference named by value for that work when available. If no existing source carries the needed load-bearing claim, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note and otherwise keep the comparison note to inline orientation or source-finding; the new request or note must not be treated as retroactive evidence, approval, gate passage, performed `U.Work`, release permission, or assurance.
-
-**Ordinary recovery reference.** If the recognition block fits, keep three entries recoverable: the bounded comparative review unit, the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`, and the nearest ordinary worked slices in `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c`. Use `E.17.ID.CR:4.1.d` only if one pressure term still blocks the working read.
-
-**Quick kind-plus-lens reading.** `InterpretationDiscipline` names the wider interpretation family and `ComparativeReading` names the active governing pattern here. Recover the case through the early comparative lens above: one comparative review unit over already available source epistemes or source publications, the shared review frame preserved, one bounded contrast or small row set made visible, and downstream claim or effect still outside. If that read no longer holds, handle the neighboring work under the pattern or governing FPF pattern and project-side FPF kind and reference named by value rather than widening this pattern into interpretation-in-general.
-
-**First-minute term reading.** Read the early pressure terms this way. Shared review frame = the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set reference preserved across the comparison. Compared alternatives = the distinct options, methods, bulletins, strategies, notes, source epistemes, source publications, or project-side FPF kinds and references named by value kept separate under that frame. Source epistemes or source publications, plus source references, = already available source epistemes or source publications plus the notes, views, or links that keep the comparison checkable. `allowedUse` and `misuseRisk` are local reader-fit fields under `admissibleUse`: they name what comparative use remains admissible for this unit and what unsupported downstream reading it may wrongly attract.
-
-**Quick working-fit check.** Before you read the heavier harness, ask:
+**Quick working-fit check.**
 1. Am I working over the comparative review unit itself?
-2. Does the shared review frame stay preserved, with compared alternatives still distinct if they are distinct, while one bounded contrast or small row set is being made visible?
-3. Is the main question still this bounded comparison rather than same-EntityOfConcern rewrite, `PublicationUnit` stabilization, decision, gate, action, approval, rollout, release, policy, assurance, adjudication, bridge, prompt, or ontology-shift claim?
+2. Does the shared review frame stay preserved, with compared alternatives still distinct when they are distinct?
+3. Is one bounded contrast or small row set being made visible?
+4. Is the downstream claim or effect still outside?
 
-If yes, stay here and use the ordinary working card. If no, use the neighboring-work boundary above and the fuller boundary table in `E.17.ID.CR:4.5`.
-
-**Worked-slice pointer.** If you need one ordinary sentence fast, borrow the nearest admissible example from `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.c` and then check it against the seven-row ordinary working card rather than treating the example itself as a second mini-harness.
+If yes, stay here and use the ordinary card. If no, use the neighboring-work boundary in `E.17.ID.CR:4.5`.
 
 ### E.17.ID.CR:1 - Problem frame
-
-**Anti-fixed-process note.** The quick checks, ordinary working card, worked-slice pointer, working order, and worked slices in this pattern are local aids and examples for one comparative review unit.
-They are not a canonical transduction process for the bounded comparative review unit here, not a mandatory fixed sequence for the wider review process, and not a promise that admissible cases move through one fixed graph in one direction.
-FPF fixes the local comparison unit, the local comparative move, the neighboring-pattern boundaries, and the inherited dynamic frame; actual work may reopen, back off, loop, or depend on outside observations and downstream constraints.
-Read the worked-slice bank sideways rather than as one required sequence: one admissible case may finish after a single bounded comparison, another may reopen after a new outside observation, and another may need the neighboring pattern once environmental change or downstream constraints make that neighboring pattern the exact locus for the live downstream question.
-
 Engineer-managers, programme leads, and research or cultural reviewers repeatedly need to prepare or share a small comparative review unit that helps a team read two already available source epistemes or source publications together without overstating what downstream claim or effect that unit now carries.
 Typical moments include:
 - a design-review note that says one already available option write-up foregrounds coupling risk more than another;
@@ -145,11 +88,11 @@ They become dangerous when a reader starts treating them as if they already esta
 
 ### E.17.ID.CR:2 - Problem
 
-Without a named comparative-reading discipline:
+Without a named comparative-review-unit discipline:
 1. a useful comparative review unit is dismissed as if it were only harmless prose;
-2. a cautious review aid is over-read as if it already licensed substitution, interoperability, or equivalence;
+2. a cautious review aid is overread as if it already licensed substitution, interoperability, or equivalence;
 3. a comparative review unit quietly becomes action-selection pressure or hidden hypothesis work while still sounding calm;
-4. same-entity viewing, explanation rendering, and bounded comparative reading collapse into one fuzzy review bucket;
+4. same-entity viewing, explanation rendering, and bounded comparison collapse into one fuzzy review bucket;
 5. ontology-facing target shift or changed EntityOfConcern hides inside comparative wording;
 6. a review unit written to serve review is mistaken for work or reliance guidance, assurance shorthand, or release authority.
 
@@ -157,26 +100,22 @@ Without a named comparative-reading discipline:
 
 | Force | Tension |
 | --- | --- |
-| **Engineer-manager usability vs governance precision** | The pattern must start from a recognisable review situation without hiding its neighboring patterns. |
-| **Middle-band reality** | Some comparative readings are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
-| **Source tether vs interpretive lift** | The case must add a bounded interpretive lift without pretending to create a new free-floating semantics. |
-| **Comparison unit vs surrounding work** | The pattern must keep the comparative review unit, the bounded comparative reading, and the larger review process distinct rather than sliding between them by style. |
-| **Viewing restraint** | Interpretation must not absorb same-entity viewing, conservative rewriting, or representation transduction whose main question is not comparative reading. |
-| **Bridge restraint** | Interpretation must not become a second bridge taxonomy. |
-| **Explanation restraint** | Interpretation must not become a shadow face-use discipline system next to `E.17.EFP`. |
-| **Abductive restraint** | Interpretation must stop before abductive-prompt or action-selection claim becomes live. |
-| **Ontology restraint** | Interpretation must not hide same-referent pressure, retargeted-EntityOfConcernRef pressure, or changed `EntityOfConcernRef`. |
-| **Interpretant-side boundedness** | Reader-fit may matter, but it must remain explicit and bounded rather than silently rewriting authority. |
+| **Engineer-manager usability vs governance precision** | The pattern starts from a recognisable review situation without hiding its neighboring patterns. |
+| **Middle-band reality** | Some bounded comparisons are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
+| **Source tether vs interpretive lift** | The case adds a bounded interpretive lift without pretending to create a new free-floating semantics. |
+| **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct rather than sliding between them by style. |
+| **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation transduction whose main question is not bounded comparison. |
+| **Bridge restraint** | Interpretation does not become a second bridge taxonomy. |
+| **Explanation restraint** | Interpretation does not become a shadow face-use discipline system next to `E.17.EFP`. |
+| **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next move. |
+| **Ontology restraint** | Interpretation does not hide same-referent pressure, retargeted-EntityOfConcernRef pressure, or changed `EntityOfConcernRef`. |
+| **Interpretant-side boundedness** | Reader-fit can matter, but it remains explicit and bounded rather than silently rewriting authority. |
 
-### E.17.ID.CR:4 - Solution - comparative review units with bounded comparative reading, escalation, and boundary rules
+### E.17.ID.CR:4 - Solution - comparative review units with bounded comparison, escalation, and boundary rules
 
-#### E.17.ID.CR:4.1 - Engineer-manager-first working use, comparison-unit distinction, and compact specialization definition
+#### E.17.ID.CR:4.1 - Ordinary comparative review-unit move
 
-The solution opening here follows `E.17.ID.CR:4.3`'s working-model-first discipline.
-A solution-side reader first meets the engineer-manager working use and the comparison-unit distinction, then the compact `ComparativeReading` definition that names the formal comparative read.
-That order keeps the governing pattern explicit without making the compact definition a substitute for the working review moment.
-
-#### E.17.ID.CR:4.1.a - Engineer-manager-first use
+Make one bounded comparison unit over already available source epistemes or source publications. Pin the reviewed sources, state the shared review frame, keep the compared alternatives visible, write the bounded comparative lift, name the downstream claim or effect that remains blocked, and give the boundary trigger that would move the case to another governing pattern.
 
 In plain working terms, this pattern is for a review unit that says something like:
 - `this option write-up foregrounds integration pressure more than that one`;
@@ -185,46 +124,17 @@ In plain working terms, this pattern is for a review unit that says something li
 - `this research synthesis foregrounds uncertainty more than that one, but it is not yet a method choice`;
 - `this program brief foregrounds continuity risk more than that one, but it is not yet a funding decision`.
 
-If that sounds like the review unit you need, keep the comparison unit bounded this way.
-If instead you are mainly restating source epistemes or source publications, explaining them, opening a new abductive prompt or action-selection question, changing the EntityOfConcern, or making a decision, handle that live work under the FPF pattern or governing FPF pattern and project-side FPF kind and reference named by value before the comparison unit carries the claim.
+If that sounds like the review unit you need, keep the comparison unit bounded by the seven-row card. If the first move is no longer bounded comparison over pinned sources, name the crossed claim and let its governing pattern carry that claim before this unit is used.
 
-#### E.17.ID.CR:4.1.b - Pattern, case, and comparison-unit distinction
+#### E.17.ID.CR:4.1.b - Compact placement
 
-This pattern presents the `ComparativeReading` as the active governing pattern inside the broader `InterpretationDiscipline` family.
-The family name marks the wider interpretation zone.
-The governing pattern here is narrower and more concrete than interpretation-in-general.
-It works over one **comparative review unit** and only the **bounded comparative reading** carried by that unit.
-The wider review or decision work remains outside the pattern except where neighboring-work boundary or authority limits are needed.
+`ComparativeReviewUnit` is the governing pattern selected inside the wider `InterpretationDiscipline` naming family for this bounded use. The family name helps readers find the interpretation area; it does not govern the local claim. The local object is one comparative review unit carrying one bounded comparison, or a small set of bounded contrast rows, over already available source epistemes or source publications.
 
-The kind stack should therefore be read explicitly:
-- family name = `InterpretationDiscipline` as the wider naming-level family;
-- family-level move class = bounded interpretation work at that wider level;
-- governing pattern = `ComparativeReading`;
-- comparison unit = the bounded comparative review unit;
-- comparative move = bounded comparative reading over already available source epistemes or source publications;
-- wider work = the broader review or decision process that still sits outside this pattern.
+> `ComparativeReviewUnit` governs one comparative review unit over already available, source-pinned epistemes or source-pinned publications. It stays bounded only while the shared review frame and source references remain visible, distinct alternatives stay distinct, the added lift remains comparative, and any crossed bridge, prompt, ontology, work, gate, authority, or downstream-use claim is named and governed by the pattern for that claim.
 
-The family name is only a naming aid for this specialization. It is not a `U.Kind`, `publication-face kind`, publication face, authority reference, or governing-pattern reference; when a record needs a governing pattern, cite `E.17.ID.CR ComparativeReading` or the more neighboring pattern governing that claim.
+Use `E.17.ID.CR`, `ID.CR`, or `ComparativeReviewUnit` when this bounded comparison unit is the current object. Use the neighboring pattern when the crossed claim becomes primary.
 
-In ordinary use the bounded comparative review unit may appear as a short comparison note, comparison sheet, guided review aid, or guided comparative UI.
-Those are admissible unit forms, not rival comparison units.
-
-This distinction matters because the pattern is not governing reading as such in the abstract and it is not governing the whole review or decision work.
-It is governing a small, reviewable unit that carries one bounded comparative lift over already available source epistemes or source publications.
-The pattern does not create a new practical publication-unit family of its own; it tells when such a comparative review unit can stay modest and when a downstream claim or effect or decision-bearing record already belongs to another neighboring pattern governing that claim.
-
-##### E.17.ID.CR:4.1.b.a - Compact specialization definition
-
-> `ComparativeReading` is the active governing pattern inside the `InterpretationDiscipline` family.
->
-> It governs one comparative review unit over already available, source-pinned epistemes or source-pinned publications and carries one bounded comparative reading, or a small set of bounded contrast rows, over that unit.
->
-> It stays admissible only while the case preserves the shared review frame, keeps distinct alternatives distinct unless bridge or substitution relation exists elsewhere, keeps the source references visible, keeps the added comparative lift bounded, and does not turn into same-entity viewing, bridge claims, explanation-face governance, prompt-bearing abductive work, ontology-facing reframing, retargeting, or downstream work or reliance authority.
-
-Read this blockquote as the compact governing-pattern reminder.
-It should stay nearby and early, but not stand in front of the engineer-manager-first use block or the comparison-unit distinction that working readers need first.
-
-#### E.17.ID.CR:4.1.c - Why the comparative-reading specialization needs its own discipline
+#### E.17.ID.CR:4.1.c - Why the comparative-review-unit specialization needs its own discipline
 
 Teams already produce small comparative review units, often as comparison notes, comparison sheets, or guided review aids, that are more committed than a plain bridge-stance overlay over an existing Bridge Card but still below action selection, ontology reframing, retargeting, or approval guidance.
 Leaving that middle band unnamed creates two opposite failures: one reader dismisses the review unit as harmless prose, while another over-reads it as if it already carried substitution, action-selection pressure, or action authority.
@@ -234,24 +144,23 @@ This pattern gives teams a narrow way to prepare, share, and inspect that compar
 #### E.17.ID.CR:4.1.d - Local working vocabulary
 
 This pattern uses a small local vocabulary for review.
-- **Comparative review unit** = a lightweight review unit such as a short comparison note, small comparison sheet, guided review aid, or guided comparative UI whose explicit job is one bounded comparative reading or a small set of bounded contrast rows under one shared review frame.
-- **Base governing case** = the primary source relation, pattern-governing case, or project work question that is already live before bounded comparative reading is added.
+- **Comparative review unit** = a lightweight review unit such as a short comparison note, small comparison sheet, guided review aid, or guided comparative UI whose explicit job is one bounded comparison or a small set of bounded contrast rows under one shared review frame.
+- **Base governing case** = the primary source relation, pattern-governing case, or project work question that already governs the review use before bounded comparison is added.
 - **Reviewed source episteme or source publication** = the already pinned or otherwise reviewable source episteme or source publication being comparatively read; in plain terms, the already available source episteme or source publication under review.
 - **Source references** = `sourceAnchorSet` or `sourceRefs` that make the interpreted source episteme or source publication inspectable.
 - **Shared review frame** = the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set reference that remains preserved while the comparison is made.
 - **Compared alternative** = one distinct option, method, bulletin, strategy, note, view, source episteme, source publication, or project-side FPF kind and reference named by value kept separate under the shared review frame.
 - **Same `EntityOfConcernRef` case** = the special case where the compared sources describe the same entity. This is common, but it is not required when distinct alternatives remain under one shared review frame.
-- **Interpretive lift** = the bounded comparative or asymmetry-bearing reading added on top of already available source epistemes or source publications; in a small comparison sheet, each row has its own declared comparison basis while the unit keeps one shared unsupported downstream claim or effect and boundary trigger.
-- **Bridge Card reference** = required `bridgeCardRef` when the case depends on bridge-mediated correspondence rather than ordinary source reading alone; optional `bridgeStanceRef` may qualify that bridge only after the bridge card exists.
-- **Allowed use** = what this review unit may be used for while it remains only a bounded comparative review unit.
-- **Misuse risk** = how the review unit is most likely to be over-read into a bridge, action-selection, ontology, or authority claim that it does not carry.
-- **Prompt boundary** = the explicit `U.AbductivePrompt` publication that becomes the governing publication when abductive-prompt or action-selection claim becomes live.
+- **Interpretive lift** = the bounded comparative or asymmetry-bearing comparison added on top of already available source epistemes or source publications; in a small comparison sheet, each row has its own declared comparison criterion while the unit keeps one shared blocked downstream claim or effect and boundary trigger.
+- **Bridge Card reference** = required `bridgeCardRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone; optional `bridgeStanceRef` can qualify that bridge only after the bridge card exists.
+- **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
+- **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
+- **Prompt boundary** = the explicit `U.AbductivePrompt` publication that becomes the governing publication when an abductive-prompt or action-selection claim governs the next move.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 
-These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` target, publication face, or project-side FPF kind and reference named by value unless another governing FPF pattern explicitly instantiates that object.
-They do not replace source notes, bridge cards, explanation renderings, prompt publications, or gate-bearing source forms.
-Their role is to keep a bounded comparative review unit readable without silently upgrading its authority.
+These terms are local review fields for completing the comparative review unit. They keep source references, shared review frame, compared alternatives, bounded lift, blocked downstream claim or effect, and boundary trigger readable in the card.
+When one of those fields starts carrying a bridge, evidence, gate, speech-act, commitment, work, authority, publication-face, or project-side FPF claim, name that crossed claim and use the governing pattern for it.
 
 #### E.17.ID.CR:4.2 - Scope and exclusions
 
@@ -259,13 +168,13 @@ Their role is to keep a bounded comparative review unit readable without silentl
 - bounded comparative asymmetry over already declared reviewed source epistemes or source publications;
 - reader-facing interpretive caution that stays source-tethered and preserves the shared review frame;
 - comparison of distinct alternatives under one shared review target, described situation, release candidate, method family, control scope, problem frame, or source-set reference;
-- comparative review units that answer one explicit contrastive question without opening a rival action-selection search;
+- comparative review units that answer one explicit contrastive question without creating a rival action-selection search;
 - bounded user-fit when that fit only limits use rather than widening authority.
 
 **Out of scope**
 - same-entity restatement, conservative rewrite, or representation shift whose main question stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
 - bridge-stance overlay that only clarifies an already-declared bridge stance over an existing Bridge Card (`F.9.1`);
-- explanation-face use discipline, admissibility, or added-link review on existing faces (`E.17.EFP`);
+- explanation-face use discipline, bounded-use boundary, or added-link review on existing faces (`E.17.EFP`);
 - abductive-prompt or action-selection cases (`B.5.2.0` or `B.5.2`);
 - ontology-facing reframing or changed EntityOfConcern (`OntologicalReframing` or `A.6.4`);
 - policy, gate, adjudication, assurance, or work-facing use (`A.15`, `A.20`, or `A.21`).
@@ -274,40 +183,33 @@ Their role is to keep a bounded comparative review unit readable without silentl
 
 Use this discipline only when all of the following hold:
 1. the reviewed source episteme or source publication is already pinned or otherwise reviewable;
-2. the review unit adds one bounded comparative or interpretive lift, or a small set of bounded contrast rows with row-level comparison bases;
+2. the review unit adds one bounded comparative or interpretive lift, or a small set of bounded contrast rows with row-level comparison criteria;
 3. the case is still answering a bounded contrastive question rather than selecting an action;
 4. the shared review frame stays preserved, and compared alternatives remain distinct unless an explicit bridge or substitution source supplies equivalence, substitution, or another named relation between them;
 5. the main question is not already better described as same-entity viewing, bridge-stance overlay over an existing Bridge Card, or explanation-face use discipline.
 
-If any of those fail, handle the live work under the neighboring FPF pattern and project-side FPF kind and reference named by value that actually govern it.
+If any of those fail, handle the current work under the neighboring FPF pattern and project-side FPF kind and reference named by value that actually govern it.
 
 #### E.17.ID.CR:4.2.b - Nearest neighboring work
 
-Name the base source relation or work question before adding bounded comparative reading.
-The nearest neighboring work questions should be separated in this order:
-1. **Same-entity rewrite or representation shift.** If the project move is still mainly restatement, representation shift, or another same-entity viewing transform, keep it with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`.
-2. **Bridge-stance clarification.** If the review unit only makes an already-declared bridge stance more legible, it stays subordinate to `F.9.1`.
-3. **Explanation-face use.** If the main question is explanation class, face admissibility, or bounded connective prose on an existing face, it stays with `E.17.EFP`.
-4. **Abductive prompt or action-selection pressure.** If open-question pressure or action-selection pursuit becomes live, bounded comparative reading ends and `B.5.2.0` or `B.5.2` governs that work.
-5. **Changed EntityOfConcern or decision-bearing use.** If continuity witnesses, changed target, decision-bearing consequence, gate, approval, rollout, release, policy, assurance, or adjudication use is needed, the case has already left this discipline for `OntologicalReframing`, `A.6.4`, `A.15`, `A.20`, `A.21`, or another governing FPF pattern and project-side FPF kind and reference named by value.
+Name the base source relation or work question before adding bounded comparison. If the current question is already source transformation, bridge, explanation-face use, prompt or action selection, ontology or changed `EntityOfConcern`, decision, work or reliance, gate, assurance, adjudication, or reduced-use source rendering, do not stretch `ComparativeReviewUnit` to carry it. Use the compact boundary map in `E.17.ID.CR:4.5` and the governing pattern for the crossed claim.
 
 #### E.17.ID.CR:4.3 - Working-model first; plain questions first, ordinary minimum second, full declaration third
 
-Most working users should not have to start with a long declaration block.
+Most working users do not have to start with a long declaration block.
 This pattern therefore follows `E.14`'s working-model-first discipline: the first usable block is a small set of plain questions that helps an engineer-manager keep the review unit bounded to the work it can honestly carry.
-The opening of `E.17.ID.CR:4.1` follows that same order by value: engineer-manager working use and comparison-unit distinction come first, and the compact `ComparativeReading` definition stays nearby as a recovery reference rather than a gate before use.
-The ordinary minimum block comes next for ordinary use.
-The full declaration block remains available as a load-bearing assurance record.
+The ordinary minimum block comes next for ordinary use: it lets the reader turn the working comparison into the seven-row card before touching the fuller declaration block.
+The full declaration block remains available as an assurance record that carries source, boundary, and downstream-claim fields by value.
 
 #### E.17.ID.CR:4.3.a - Five plain working questions
 
 The near-top quick working-fit check is the canonical first working block for this pattern.
-A working user should be able to answer these same five questions before touching the fuller blocks:
+A working user can usually answer these same five questions before touching the fuller blocks:
 1. What already available source epistemes or source publications am I comparing?
 2. What single contrast or small set of contrast rows am I trying to make visible?
 3. Am I still inside the same shared review frame, with compared alternatives kept distinct when they are distinct, or has the review target already shifted?
-4. What unsupported downstream reading must the team not take from this review unit?
-5. What would force this review unit to leave `ComparativeReading` for explanation, bridge work, prompt work, ontology work, or decision authority?
+4. What blocked downstream interpretation does the team avoid taking from this review unit?
+5. What would make another governing pattern govern the explanation, bridge work, prompt work, ontology work, or decision-authority claim?
 
 If these five answers are not visible, the case is not ready to stay here as a bounded comparative review unit.
 
@@ -315,116 +217,109 @@ If these five answers are not visible, the case is not ready to stay here as a b
 
 For ordinary bounded comparative review units, it is usually enough that the unit or its surrounding review context keeps explicit:
 - what reviewed source episteme or source publication is being interpreted;
-- where the source references live;
+- which source references carry the local claim;
 - that the shared review frame remains preserved and that distinct alternatives remain distinct unless another source supplies bridge or substitution relation;
-- what exact bounded comparative lift is being added, or which bounded contrast rows are included and what comparison basis each row uses;
-- what downstream claim or effect remains unsupported;
+- what declared bounded comparative lift is being added, or which bounded contrast rows are included and what comparison criterion each row uses;
+- what downstream claim or effect remains blocked;
 - that the default `worldContactPolicy` here is review-only and non-executive;
 - and what neighboring FPF pattern becomes mandatory if the case crosses that neighboring boundary.
 
-If those minimum answers cannot stay stable across the same note, sheet, or review aid without sliding between reviewed source episteme or source publication, bounded comparative review unit, bounded lift, and outside work, stop here. Repair local lexical-head kind pressure through `E.17.AUD.LHR` (`Local Head Restoration`); if the whole review unit still has unstable EntityOfConcern or carried-move reading after that repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before adding more declaration weight.
+If those minimum answers cannot stay stable across the same note, sheet, or review aid without sliding between reviewed source episteme or source publication, bounded comparative review unit, bounded lift, and outside work, stop here. Repair local lexical-head kind pressure through `E.17.AUD.LHR` (`Local Head Restoration`); if the whole review unit still has unstable EntityOfConcern or carried-move identification after that repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before adding more declaration weight.
 
 ##### E.17.ID.CR:4.3.b.a - Ordinary working card
 
-An admissible ordinary comparative review unit should normally let a reader recover these seven rows without opening the heavier fuller declaration:
+An ordinary comparative review unit normally lets a reader recover these seven rows without using the heavier fuller declaration:
 
 | Row | Plain question | Minimum answer |
 | --- | --- | --- |
 | **Reviewed source** | What already available source epistemes or source publications are being compared? | one pinned source slice, one explicit source pair, or one explicit source set |
 | **Source references** | Where can a reviewer inspect that source episteme or source publication? | visible `sourceAnchorSet` or nearby `sourceRefs` |
 | **Shared review frame and alternative identities** | What review target, described situation, or source-set reference is preserved, and what alternatives remain distinct under it? | preserved shared review frame; distinct alternatives are not treated as equivalent or substitutable without bridge relation |
-| **Bounded lift row(s)** | What single contrast or small row set is this unit making visible? | one declared `comparisonBasis` or a small set of row-level `comparisonBasis` statements under one shared unsupported downstream claim or effect and boundary trigger |
-| **Unsupported downstream claim or effect** | What is this unit not yet claiming? | no equivalence, prompt opening, ontology change, or decision authority |
-| **World-contact limit** | What may the unit not be used to do? | `review-only and non-executive` |
+| **Bounded lift row(s)** | What single contrast or small row set is this unit making visible? | one declared `comparisonBasis` or a small set of row-level `comparisonBasis` statements under one shared blocked downstream claim or effect and boundary trigger |
+| **Blocked downstream claim or effect** | What is this unit not yet claiming? | no equivalence, abductive-prompt creation, ontology change, or decision authority |
+| **World-contact limit** | What can the unit not be used to do? | `review-only and non-executive` |
 | **Boundary trigger** | What would end this pattern and require another governing pattern? | one explicit bridge, explanation, prompt, ontology, or authority trigger |
 
-This working card may live inline in the comparative review unit or in its immediate review context.
-Read it as the ordinary recovery reference for the near-top working-fit check:
+This working card can appear inline in the comparative review unit or in its immediate review context.
+Use it as the ordinary recovery reference for the near-top working-fit check:
 - if rows 1-4 are still unstable because one pressured local lexical head or qualifier is doing too much work, stop and repair that local lexical-head pressure through `E.17.AUD.LHR` (`Local Head Restoration`) before you keep building the comparative review unit here;
-- if rows 3-7 cannot stay stable because the same review unit still has unstable reviewed-source, comparative-move, or outside-work reading after one honest local repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`);
-- if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved shared review frame, distinct alternatives where present, and one bounded contrast or small row set, `ComparativeReading` remains the honest primary governing pattern.
+- if rows 3-7 cannot stay stable because the same review unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after one honest local repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`);
+- if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved shared review frame, distinct alternatives where present, and one bounded contrast or small row set, `ComparativeReviewUnit` remains the honest primary governing pattern.
 
-The nearest stay-here worked slices for this reading are `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.b`.
+The nearest stay-here worked slices for this pattern are `E.17.ID.CR:5.4.5` through `E.17.ID.CR:5.4.6.b`.
 The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
 
-Move to the load-bearing extension only when one of the boundary, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
-`ComparativeReading` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparative reading, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the review unit first needs to restabilize what it is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
+Use the fuller declaration extension only when one of the boundary, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
+`ComparativeReviewUnit` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparison, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the first question is what the review unit is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
 
-#### E.17.ID.CR:4.3.c - Load-bearing extension guidance
+#### E.17.ID.CR:4.3.c - Fuller Declaration Extension Guidance
 
-A fuller declaration record becomes warranted when:
-- reader-fit is doing real work;
-- misuse risk is high;
-- the review unit sits close to viewing, bridge, explanation, abductive-prompt, ontology-shift, policy, assurance, gate, release, action-selection, or adjudication boundaries;
-- mixed composition with `A.6.3.*` or `E.17.EFP` is load-bearing;
-- the publication unit still has unstable EntityOfConcern, carried-move, or outside-work reading after local repair;
-- or the case would otherwise be too easy to over-read as more committed than a bounded comparative review unit.
+A fuller declaration record becomes warranted only when a local condition changes the actual first move: reader-fit is doing real work, overread risk is high, a mixed case depends on `A.6.3.*` or `E.17.EFP`, bridge-mediated relation is live, or the same review unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after local repair.
 
-The load-bearing extension may inherit already-declared case ids, source pins, and provenance references instead of restating them inline.
-When recorded as a load-bearing review unit, that extension normally captures the ordinary minimum block plus any neighboring-pattern fields that remain load-bearing for the mixed case.
-Do not answer `PublicationUnit` instability by stacking more local fields onto the load-bearing extension. If `E.17.AUD.LHR` (`Local Head Restoration`) has already repaired the local lexical-head pressure and the same review unit still has unstable reviewed-source, publication-unit, comparative-move, or outside-work reading, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before deciding how much declaration weight should stay here.
+The fuller declaration extension can inherit already-declared case ids, source pins, and provenance references instead of restating them inline. When recorded as a claim-bearing review unit, that extension normally captures the ordinary minimum block plus only the neighboring-pattern fields that govern the mixed case.
 
-#### E.17.ID.CR:4.3.d - Load-bearing declaration block
+Do not answer `PublicationUnit` instability by stacking more local fields onto the fuller declaration extension. If `E.17.AUD.LHR` (`Local Head Restoration`) has already repaired the local lexical-head pressure and the same review unit still has unstable reviewed-source, publication-unit, comparative-move identification, or outside-work boundary, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before deciding how much declaration weight stays here.
 
-When the heavier declaration weight really stays here, the unit should still make at least these fields recoverable:
-- `sourceRelationClass` using the shared `E.17:5.1b` vocabulary when the comparison depends on source pointer, source availability or retrieval, source use, source faithfulness, claim recoverability, contradiction, omission, claim widening, added linkage, independent verification, admissible use, forbidden downstream use, or reopen trigger;
+#### E.17.ID.CR:4.3.d - Fuller Declaration Block
+When the heavier declaration weight really stays here, the unit still makes at least these fields recoverable:
+- `sourceRelationClass` using the shared `E.17:5.1b` vocabulary when the comparison depends on source pointer, source availability or retrieval, source use, source faithfulness, claim recoverability, contradiction, omission, claim widening, added linkage, independent verification, bounded use, forbidden downstream use, or reopen trigger;
 - `sourceAnchorSet` or `sourceRefs`;
 - `comparativeRelationClass = sameEntityComparisonClass | sharedFrameDistinctAlternativeClass | readerFitComparativeClass`;
 - `comparisonBasis`;
 - `addedClaimPolicy`;
 - `bridgeStanceVisibility`;
 - required `bridgeCardRef` plus optional `bridgeStanceRef` when the case depends on bridge-mediated comparative relation;
-- `targetUserModel` when reader-fit is materially shaping the reading;
+- `targetUserModel` when reader-fit is materially shaping the comparison unit;
 - `interactionMode` when the review unit is not just one static comparative sentence;
 - `contrastiveQuestion` when the case is answering a specific contrast;
-- `allowedUse`;
-- `misuseRisk`;
+- `boundedComparativeUse`;
+- `overreadRisk`;
 - `promptWorthinessThreshold`;
 - `ontologyBoundaryTrigger`;
 - `worldContactPolicy`;
 - `downstreamAuthorityLimit`;
 - `baseCasePattern` when the review unit is a mixed case layered over `A.6.3.*` or `E.17.EFP`.
 
-`sourceRelationClass` is only source-relation or claim-admissibility class for the local claim or use. `comparativeRelationClass` is only the comparative-relation class of this review unit. Neither field is a `RelationKind`, `KindBridge`, Bridge Card, bridge relation, bridge stance, semantic identity, equivalence, substitution, evidence relation, gate decision, assurance claim, work relation, commitment, speech act, authority-reference relation, or decision record. The `sameEntityComparisonClass` value is a special case for comparisons where the compared sources really describe the same entity; it does not assert semantic identity. When the unit compares distinct alternatives, use `sharedFrameDistinctAlternativeClass` plus distinct alternative refs, and do not treat the alternatives as equivalent or substitutable without bridge relation.
-`readerFitComparativeClass` by itself does not open interpretation. Bounded correspondence wording that starts implying bridge relation is bridge-mediated comparative relation: it requires an explicit `bridgeCardRef`, or the case applies `F.9` or `F.9.1` before the comparison unit can carry that bridge-mediated source relation. When cross-context bridge semantics are live, the actual bridge kind and Bridge Card remain governed by `F.9`. If bridge-mediated reading is live, `bridgeCardRef` is required and any `bridgeStanceRef` remains optional and subordinate.
+`sourceRelationClass` is only the source-relation or bounded-claim class for the local claim or use. `comparativeRelationClass` is only the comparative-relation class of this review unit. Neither field is any neighboring object or claim: relation-kind, bridge card, bridge stance, bridge relation, semantic identity, evidence relation, gate, assurance, work relation, speech act, commitment, authority reference, or decision record. The `sameEntityComparisonClass` value is a special case for comparisons where the compared sources really describe the same entity; it does not assert semantic identity. When the unit compares distinct alternatives, use `sharedFrameDistinctAlternativeClass` plus distinct alternative refs, and do not treat the alternatives as equivalent or substitutable without bridge relation.
+`readerFitComparativeClass` by itself does not create an interpretation claim. Bounded correspondence wording that starts implying bridge relation is bridge-mediated comparative relation: it requires an explicit `bridgeCardRef`, or the case applies `F.9` or `F.9.1` before the comparison unit can carry that bridge-mediated source relation. When cross-context bridge semantics govern the case, the actual bridge kind and Bridge Card remain governed by `F.9`. If bridge-mediated comparative relation governs the case, `bridgeCardRef` is required and any `bridgeStanceRef` remains optional and subordinate.
 The main comparison question plus the neighboring pattern boundaries still decide the selected FPF pattern or project-side FPF kind and reference named by value.
 
 #### E.17.ID.CR:4.3.e - Interpretant-side block
 
 The interpretant-side fields above do not turn this zone into a full interactive explanation system or a dialog-management system.
 Their current role is narrower:
-- keep bounded comparative reading from pretending it is audience-neutral when it is not;
-- make the contrastive question, guided review mode, and allowed use visible;
+- keep bounded comparison from pretending it is audience-neutral when it is not;
+- make the contrastive question, guided review mode, and bounded use visible;
 - and stop interpretation prose from quietly becoming prompt-bearing guidance, assurance shorthand, or policy pressure.
 
 #### E.17.ID.CR:4.3.f - Static note versus interactive aid
 
 Use two comparison-relation forms.
 
-1. **Static comparative review note.** A static note, sheet, or short review unit normally needs only the reviewed source episteme or source publication set, source references, `E.17:5.1b` source-relation class when source relation is disputed, comparison basis, bounded lift, unsupported downstream claim or effect, world-contact limit, and boundary trigger. Do not import interactive-explanation vocabulary into this ordinary case.
-2. **Interactive comparative aid.** Add `targetUserModel`, `interactionMode`, state or history needed for the live comparison, `misuseRisk`, and admissible-use boundary only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. These fields still do not authorize prompt selection, action selection, gate use, work or reliance, or approval; they only keep the interactive comparative aid from being mistaken for audience-neutral static prose.
+1. **Static comparative review note.** A static note, sheet, or short review unit normally needs only the reviewed source episteme or source publication set, source references, `E.17:5.1b` source-relation class when source relation is disputed, comparison criterion, bounded lift, blocked downstream claim or effect, world-contact limit, and boundary trigger. Do not import interactive-explanation vocabulary into this ordinary case.
+2. **Interactive comparative aid.** Add `targetUserModel`, `interactionMode`, state or history needed for the comparison claim, `overreadRisk`, and bounded-use boundary only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. These fields keep the interactive comparative aid from being mistaken for audience-neutral static prose; they do not carry a crossed claim.
 
-A comparative review unit may expose or cite source epistemes, source publications, or project-side FPF kinds and references named by value being compared. It does not become those source epistemes, source publications, project-side FPF kinds and references named by value, a bridge card, a gate decision, or a work or reliance source by table layout, fluent contrast, side-by-side placement, or guided-review reuse. If the required source relation is missing, the repair request or source-gap note is prospective only; it does not backdate a source relation into the earlier comparison.
+A comparative review unit can expose or cite the source epistemes, source publications, or project-side FPF references being compared, but layout, fluent contrast, side-by-side placement, or guided-review reuse does not change the kind of the unit or create a stronger source relation. If the required source relation is missing, the repair request or source-gap note is prospective only; it does not backdate a source relation into the earlier comparison.
 
-**Comparative-reading identity over revision.** A revised comparison table, regenerated comparison note, or updated guided review aid is not the same comparative reading merely because the layout, title, or compared-source family stayed familiar. If new source input, revised source references, changed comparison basis, changed shared review frame, or changed unsupported downstream claim or effect is live, publish the preserved comparative frame and the changed claims, or treat the result as a new comparative review unit before it is used for recommendation, selection, decision, gate, bridge, work, or reliance claims.
+**Comparative-review-unit identity over revision.** A revised comparison table, regenerated comparison note, or updated guided review aid is not the same bounded comparison merely because the layout, title, or compared-source family stayed familiar. If new source input, revised source references, changed comparison criterion, changed shared review frame, or changed blocked downstream claim or effect changes the comparison identity or downstream use, publish the preserved comparative frame and the changed claims, or treat the result as a new comparative review unit before using it for a stronger crossed claim.
 
 #### E.17.ID.CR:4.3.g - Representation ontology and modeling lens (informative)
 
-The early canonical lens for this pattern is already stated near the top: one comparative review unit over already available, source-pinned epistemes or source-pinned publications, with the shared review frame preserved, one bounded contrast or small row set made visible, and unsupported downstream claim or effect kept outside.
+The early canonical lens for this pattern is already stated near the top: one comparative review unit over already available, source-pinned epistemes or source-pinned publications, with the shared review frame preserved, one bounded contrast or small row set made visible, and blocked downstream claim or effect kept outside.
 
 This informative note only unpacks that same lens. It does not introduce a second one.
 
 This pattern does not model interpretation in general.
-It models the `ComparativeReading` as the active governing pattern inside the broader `InterpretationDiscipline` family.
+It models the `ComparativeReviewUnit` as the selected governing pattern inside the broader `InterpretationDiscipline` family.
 In plain terms, the pattern works over the review unit itself.
-That unit may appear as a comparison note, comparison sheet, or guided review aid, but it is not the whole review process, it is not the source system, and it is not the hidden act of reading in the abstract.
-The bounded comparative reading is the interpretive lift carried by that review unit.
+That unit can appear as a comparison note, comparison sheet, or guided review aid, but it is not the whole review process, it is not the source system, and it is not a hidden act of interpretation in the abstract.
+The bounded comparison is the interpretive lift carried by that review unit.
 
 The minimum typed lens is a compact record of:
 - source references and source relation;
 - one declared source-relation class;
-- one declared comparison basis and added-claim policy;
-- one allowed-use boundary, one misuse-risk line, and one `worldContactPolicy` that remains subordinate to `A.20` or `A.21` when gate or adjudication claim appears;
+- one declared comparison criterion and added-claim policy;
+- one bounded-use boundary, one overread-risk line, and one `worldContactPolicy` that remains subordinate to `A.20` or `A.21` when gate or adjudication claim appears;
 - the relevant prompt, ontology, and authority boundary triggers;
 - and which neighboring pattern still governs the base case when this remains a mixed overlay.
 
@@ -434,61 +329,56 @@ This pattern therefore does not create a rival bridge taxonomy, a rival base-cas
 
 #### E.17.ID.CR:4.3.h - Working read-out
 
-A working reader should be able to say, in one short paragraph:
+A working reader can usually say, in one short paragraph:
 - what reviewed source episteme or source publication is being comparatively read;
 - what bounded interpretive lift is being added;
 - what shared review frame remains preserved, and, in the special same-EntityOfConcern case, why the same `EntityOfConcernRef` remains preserved;
-- which neighboring pattern carrying bridge, prompt, ontology, action, gate, adjudication, authority, or downstream claim is still not yet active;
-- and what neighboring-pattern boundary would become mandatory if the case were read as carrying a bridge, prompt, ontology, action, gate, adjudication, authority, or downstream claim.
+- which crossed claim is still outside this pattern and which neighboring pattern would govern that claim if it became primary;
+- and which boundary condition shows that the primary claim is no longer a bounded `ComparativeReviewUnit` claim.
 
-If that read-out becomes fuzzy, the review unit is no longer bounded enough to stay here and should be narrowed, clarified, or moved under the governing neighboring pattern.
+If that read-out becomes fuzzy, the review unit is no longer bounded enough to stay here; narrow it, clarify it, or make the governing neighboring pattern primary for the crossed claim.
 
 #### E.17.ID.CR:4.4 - Branch-discipline summary
 
-This section is the compact governing-rule summary for `ComparativeReading` inside the Core.
-It keeps the ComparativeReading governing rule recoverable for ordinary users and engineer-manager-first review.
-In mixed cases, the neighboring pattern discipline still remains primary where the base case really belongs to `A.6.3.*`, `F.9.1`, or `E.17.EFP`.
-
-Use the fuller solution, boundary table, worked slices, and relations section here when exact clause wording, full field set, or full reopen conditions matter.
-Keep this pattern to these summary rules.
+This section is the compact governing-rule summary for `ComparativeReviewUnit` inside the Core. Use the fuller solution, boundary table, worked slices, and relations section here only when specific clause wording, full field set, or full reopen conditions matter.
 
 1. **Preserve the shared review frame.**
-   Keep the review target, described situation, decision situation, release candidate, method family, control scope, problem frame, or source-set reference visible; keep distinct alternatives distinct unless bridge or substitution relation exists elsewhere; keep source references and one declared comparison basis per contrast row visible; keep `contrastiveQuestion` explicit when it is doing real review work.
+   Keep the reviewed source episteme or source publication set, source references, declared comparison criterion, and distinct alternative identities visible. If `contrastiveQuestion` is doing real review work, state it.
 2. **Keep the lift bounded and comparative.**
-   The review unit may add a bounded comparative or asymmetry-bearing reading, but it may not quietly intensify into theory claim, bridge licence, prompt-opening pressure, explanation governance, ontology shift, or a decision, gate, action, approval, rollout, release, policy, assurance, adjudication, bridge, prompt, or ontology-shift claim.
-3. **Name the base source relation or work question.**
-   If the main question is really same-entity rewrite, bridge-stance overlay over an existing Bridge Card, explanation-face work, prompt opening, ontology reframing, retargeting, or a decision, gate, action, approval, rollout, release, policy, assurance, adjudication, bridge, prompt, or ontology-shift claim, this pattern should not stay primary.
-4. **Keep neighboring patterns for downstream claims explicit.**
-   Bridge-mediated comparative relation still requires explicit `bridgeCardRef`; optional `bridgeStanceRef` may qualify only an existing bridge card. Prompt-worthy cases publish `U.AbductivePrompt`; ontology-shift claims apply `OntologicalReframing` or `A.6.4`; action, gate, or adjudication use applies `A.15`, `A.20`, `A.21`, or another governing FPF pattern and project-side FPF kind and reference named by value. If the primary question is reduced-use source rendering rather than bounded comparison, apply `A.6.3.CSC Controlled Semantic Coarsening`.
+   The review unit can add one bounded comparative or asymmetry-bearing lift. It stops when that lift starts carrying a stronger crossed claim.
+3. **Name the crossed claim instead of repeating exclusions.**
+   When the case stops being bounded comparison, name the claim that crossed the boundary and apply the pattern that governs that claim: source transformation, bridge, explanation face, abductive prompt or action selection, ontology or changed `EntityOfConcern`, decision, work or reliance, gate, assurance, adjudication, or reduced-use source rendering.
+4. **Keep neighboring-pattern authority explicit.**
+   Bridge-mediated comparative relation requires explicit `bridgeCardRef`; prompt-worthy cases publish `U.AbductivePrompt`; ontology-shift claims apply `OntologicalReframing` or `A.6.4`; action, gate, adjudication, work, reliance, or assurance use applies the governing project-side FPF pattern and project-side FPF kind and reference named by value.
 5. **Keep reader-fit bounded.**
-   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` may be stated when they are doing real work, but they do not authorize coaching, prompt selection, action selection, policy guidance, or an authority claim that the unit does not carry.
+   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` can be stated when they change actual review use, but they do not create authority that the unit does not carry.
 
 #### E.17.ID.CR:4.5 - Neighboring-work boundary glance
 
 This table is a compact boundary aid for separating the comparative review unit from neighboring project work and source requirements.
 For a fuller mixed-case read, read this table together with the neighboring pattern discipline.
 
-| If the case is really doing this... | It should stay here or move elsewhere... |
+| If the case is really doing this... | Governing pattern or bounded disposition |
 | --- | --- |
 | one local lexical head or qualifier is still doing too much work, but one honest repair would stabilize the same unit | `E.17.AUD.LHR` (`Local Head Restoration`) |
 | the same note is mostly rewriting, reframing, or re-rendering the same EntityOfConcern with no bounded comparative lift | `A.6.3`, `A.6.3.CR`, or `A.6.3.RT` |
 | the real job is only to make an already-declared bridge stance explicit over an existing Bridge Card | `F.9.1` |
 | the comparison wording is now making a relation-precision claim between compared items | `A.6.P` |
 | the comparison wording is now making sameness, equivalence, alignment, mapping, substitution, or cross-context bridge relation | Part F with `A.6.9`, `F.9`, or `F.9.1` |
-| the note is primarily a reduced-use source-pinned rendering with narrower-use, non-admissible downstream use, and source-bearing reopen discipline | `A.6.3.CSC Controlled Semantic Coarsening` |
-| one review unit already keeps the same primary entity of concern, one bounded comparison, and one outside-work boundary stable | `ComparativeReading` within `InterpretationDiscipline` |
-| the same unit still has unstable reviewed-source, comparative-move, or outside-work reading after local repair | `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) |
+| the note is primarily a reduced-use source-pinned rendering with narrower-use, blocked downstream use, and source-bearing reopen discipline | `A.6.3.CSC Controlled Semantic Coarsening` |
+| one review unit already keeps the same primary entity of concern, one bounded comparison, and one outside-work boundary stable | `ComparativeReviewUnit` within `InterpretationDiscipline` |
+| the same unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after local repair | `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) |
 | the real job is explanation-face governance on existing faces | `E.17.EFP` |
-| the comparison is now opening an abductive prompt or action-selection question | `B.5.2.0` or `B.5.2` |
+| the comparison now creates an abductive-prompt claim or action-selection question | `B.5.2.0` or `B.5.2` |
 | the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` or `A.6.4` |
 | the unit is now being used as a decision-making claim or decision record | `C.11` |
 | the unit is now being used for execution, gate, or adjudication consequence | `A.15`, `A.20`, or `A.21` |
 
-For first-minute use, read the four boundary rows around the comparative-reading case itself as a compact mirror of the near-top working-fit check and the ordinary working card:
+For first-minute use, read the four boundary rows around the comparative-review-unit case itself as a compact mirror of the near-top working-fit check and the ordinary working card:
 - pressured local lexical head -> `E.17.AUD.LHR` (`Local Head Restoration`);
-- stable same-object comparative review unit -> stay with `ComparativeReading`;
+- stable same-object comparative review unit -> stay with `ComparativeReviewUnit`;
 - same unit still unstable after local repair -> `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`);
-- neighboring pattern for bridge, prompt, ontology, action, gate, adjudication, authority, or downstream claim already primary -> move out of this pattern.
+- any stronger crossed claim already primary -> the governing pattern for that claim is primary.
 If the comparison unit is already carrying neighboring work, use the boundary rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked boundary examples.
 
 #### E.17.ID.CR:4.5.a - Ordinary working order for the card
@@ -496,33 +386,32 @@ If the comparison unit is already carrying neighboring work, use the boundary ro
 The shortest ordinary working order is:
 1. name the base source relation or work question if the case is mixed;
 2. pin the reviewed source episteme or source publication and make the shared review frame plus any distinct alternatives visible;
-3. state the bounded comparative lift, or the small set of contrast rows and their row-level comparison bases, in compact form;
-4. declare the unsupported downstream claim or effect and the review-only and non-executive world-contact limit;
+3. state the bounded comparative lift, or the small set of contrast rows and their row-level comparison criteria, in compact form;
+4. declare the blocked downstream claim or effect and the review-only and non-executive world-contact limit;
 5. name the boundary trigger that would end interpretation.
 
-That five-step order is not a second ordinary working card, and it is not a canonical review process. It is only one local working aid for this pattern.
-It is the shortest way to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`.
-In ordinary use, publish the resulting seven-row card in compact form rather than a heavier load-bearing declaration block whenever boundary pressure still stays low.
+Use this order only to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`; publish the resulting card in compact form whenever boundary pressure still stays low.
+
 If the seven-row working card still cannot be completed plainly through that order, the review unit is not yet ready to stay here.
-If the note, sheet, or review aid first has to answer what it is about, what move it is carrying, and what wider work remains outside, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before continuing comparative-reading work.
+If the first question is what the note, sheet, or review aid is about, what move it carries, and what wider work remains outside, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) before continuing comparative-review-unit work.
 
 ### E.17.ID.CR:5 - Archetypal grounding
 
-**Worked-slice status.** Read the system case, episteme case, and boundary-bank cases as a heterogeneous example bank, not as one recommended progression.
-They show different admissible outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry.
+**Worked-slice note.** Use the system case, episteme case, and worked boundary examples as a heterogeneous example bank, not as one recommended progression.
+They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Complete the seven-row card for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
 
 #### E.17.ID.CR:5.1 - Tell
 
-`ComparativeReading` names the bounded middle band where a team needs to prepare one explicit comparative reading over source epistemes or source publications with already declared references without yet opening prompt-selection work, action-selection work, ontology-facing reframing, gate, approval, rollout, release, policy, assurance, adjudication, or source-reliance use.
+`ComparativeReviewUnit` names the bounded middle band where a team prepares one explicit bounded comparison over source epistemes or source publications with already declared references, while any stronger crossed claim remains outside until the governing pattern for that claim is named.
 The comparison unit is the bounded comparative review unit.
-That review unit must stay modest enough that a reviewer can still see the same `EntityOfConcernRef`, the declared comparison basis, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
+That review unit stays modest enough that a reviewer can still see the same `EntityOfConcernRef`, the declared comparison criterion, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
 
 #### E.17.ID.CR:5.2 - Show (System)
 
 **Source slice.** Two pinned operating notes describe the same service episode from different operational responsibilities.
 One note has its source reference in the maintenance log, the other in the continuity dashboard for the same declared episode and the same `EntityOfConcernRef`.
 
-**Comparative review unit.** `Under the declared comparison basis, the maintenance note foregrounds operator-induced variance, while the continuity note foregrounds buffer-sensitive drift; each view exposes a blind spot in the other without granting direct substitution.`
+**Comparative review unit.** `Under the declared comparison criterion, the maintenance note foregrounds operator-induced variance, while the continuity note foregrounds buffer-sensitive drift; each view exposes a blind spot in the other without granting direct substitution.`
 
 **Why this stays here.**
 - source relation and source references are explicit;
@@ -542,13 +431,13 @@ One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face;
 - the base-case governing patterns remain identifiable;
 - the comparative lift is explicit and bounded to one reviewer task;
 - explanation-face governance and same-entity transform discipline remain with their neighboring patterns;
-- approval, rollout, release, gate, policy, assurance, or adjudication use, and prompt-bearing action-selection pressure remain negative.
+- authority-bearing use and prompt-bearing action-selection pressure remain governed by their neighboring patterns.
 
-#### E.17.ID.CR:5.4 - Boundary bank
+#### E.17.ID.CR:5.4 - Worked boundary examples
 
 ##### E.17.ID.CR:5.4.1 - Lower-boundary bridge-stance overlay case
 
-**Bridge-stance overlay unit.** `The existing Bridge Card relates the local maintenance-pressure term to the partner continuity term; this overlay says the relation should be read as asymmetry-explicating rather than substitution-friendly.`
+**Bridge-stance overlay unit.** `The existing Bridge Card relates the local maintenance-pressure term to the partner continuity term; this overlay says the relation is normally treated as asymmetry-explicating rather than substitution-friendly.`
 
 Why it stays under `F.9.1`:
 - the bridge stance is already declared;
@@ -559,34 +448,34 @@ Why it stays under `F.9.1`:
 
 **Base-case rendering.** A same-entity comparison sheet retabulates one pinned incident note into columns for trigger, pressure, and recovery.
 
-**Comparative review unit.** `In the retabulated view, the recovery column makes the operator-induced asymmetry easier to inspect than the trigger column, but the table should not be read as establishing a new causal hierarchy.`
+**Comparative review unit.** `In the retabulated view, the recovery column makes the operator-induced asymmetry easier to inspect than the trigger column, but the table is not treated as establishing a new causal hierarchy.`
 
 Why this remains mixed rather than collapsing:
 - `A.6.3.RT` still governs the base representation shift;
-- bounded comparative reading is secondary and only adds a bounded comparative lift;
-- most restrictive forbidden-use constraint wins, so no new ontology or gate reading is licensed.
+- bounded comparison is secondary and only adds a bounded comparative lift;
+- most restrictive forbidden-use constraint wins, so no new ontology or gate claim is licensed.
 
 ##### E.17.ID.CR:5.4.3 - Mixed primary-pattern composition with `E.17.EFP`
 
 **Base-case rendering.** A `TechCard`-face explanation rendering is already classified as `SourceLinkedExplanationReconstruction` and publishes a bounded connective policy.
 
-**Comparative review unit.** `For maintenance reviewers, this rendering foregrounds the difference between operator load and throughput pressure more than the original prose, but it should not be read as a design-level recommendation.`
+**Comparative review unit.** `For maintenance reviewers, this rendering foregrounds the difference between operator load and throughput pressure more than the original prose, but it is not treated as a design-level recommendation.`
 
 Why this stays mixed rather than collapsing:
-- `E.17.EFP` still governs explanation class and face admissibility;
-- bounded comparative reading only adds bounded comparative use for one reviewer task;
-- the review unit still does not own explanation-face governance, approval, rollout, release, gate, policy, assurance, or adjudication use.
+- `E.17.EFP` still governs explanation class and face bounded use;
+- bounded comparison only adds bounded comparative use for one reviewer task;
+- `E.17.EFP` still governs explanation-face use; any authority-bearing use must name its governing pattern.
 
 ##### E.17.ID.CR:5.4.4 - Guided review aid with bounded interaction mode
 
 **Source slice.** A reviewer UI presents two already pinned source notes side by side for the same described operational episode.
 
-**Guided comparative review unit.** `Question: which note foregrounds variance introduced by operator timing rather than environmental drift? Allowed use: bounded comparative triage only. Misuse risk: do not treat this aid as action selection or release guidance.`
+**Guided comparative review unit.** `Question: which note foregrounds variance introduced by operator timing rather than environmental drift? Bounded comparative use: bounded comparative triage only. Misuse risk: do not treat this aid as action selection or release guidance.`
 
 Why it stays here:
 - the interaction mode is explicit but still bounded;
-- the review unit answers one contrastive question rather than opening prompt pursuit or action-selection pursuit;
-- allowed use and misuse risk are visible instead of being smuggled into interface tone.
+- the review unit answers one contrastive question rather than creating prompt pursuit or action-selection pursuit;
+- bounded use and overread risk are visible instead of being smuggled into interface tone.
 
 ##### E.17.ID.CR:5.4.5 - Product and design-review comparison case
 
@@ -595,7 +484,7 @@ One note foregrounds coupling and rollback pressure; the other foregrounds deliv
 
 **Comparative review unit.** `For architecture review, the first note foregrounds coupling risk more than the second, while the second foregrounds delivery speed more than the first; that asymmetry is useful for discussion, but it is not yet a recommendation to choose either option.`
 
-**Working-boundary reading.** This is the ordinary stay-here case: one honest local repair and one publication-unit stability check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
+**Working-boundary use.** This is the ordinary stay-here case: one honest local repair and one publication-unit stability check would already leave the review unit stable enough that the bounded comparative review move itself stays primary.
 
 Why it stays here:
 - the same planned release remains the `EntityOfConcernRef`;
@@ -608,10 +497,10 @@ Why it stays here:
 
 **Comparative review unit.** `For release review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal checklist foregrounds rollback evidence more than protocol conformance; this comparison helps frame the review, but it is not yet a release gate or equivalence claim.`
 
-**Working-boundary reading.** This is the same stay-here case under a release or compliance load: the comparison unit is already stable enough, so the primary question is the bounded contrast rather than local repair or `PublicationUnit` stabilization.
+**Working-boundary use.** This is the same stay-here case under release or compliance pressure: the comparison unit is already stable enough, so the primary question is the bounded contrast rather than local repair or `PublicationUnit` stabilization.
 
 Why it stays here:
-- the comparison basis is explicit and bounded to one review task;
+- the comparison criterion is explicit and bounded to one review task;
 - the source references remain visible and the same release candidate stays in view;
 - the review unit helps an engineer-manager see a review asymmetry without laundering gate authority.
 
@@ -636,32 +525,32 @@ One foregrounds continuity of community engagement more; the other foregrounds s
 
 Why it stays here:
 - the same initiative remains the `EntityOfConcernRef`;
-- the comparison basis is explicit for one declared review task;
+- the comparison criterion is explicit for one declared review task;
 - the unit helps programme discussion without laundering decision authority.
 
 ##### E.17.ID.CR:5.4.6.c - Exogenous-change stop-and-reopen case
 
 **Source slice.** An internal release-review comparison sheet already compares one control checklist and one vendor bulletin for the same declared release candidate and the same control scope.
-Mid-review, an external incident bulletin arrives and changes the live rollback assumptions for that same candidate.
+Mid-review, an external incident bulletin arrives and changes the rollback assumptions governing use of that same candidate.
 
 **Initial comparative review unit.** `Before the new bulletin, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal checklist foregrounds rollback evidence more than protocol conformance; this comparison frames the review, but it is not yet a release gate or equivalence claim.`
 
-**Working-boundary follow-through.** This case begins on the same admissible stay-here case as `E.17.ID.CR:5.4.6`, but outside observation then changes the declared comparison basis, so the unit must stop and reopen instead of being carried forward by inertia.
+**Working-boundary follow-through.** This case begins on the same stay-here case as `E.17.ID.CR:5.4.6`, but outside observation then changes the declared comparison criterion, so the unit stops and reopens instead of being carried forward by inertia.
 
-**Why this must stop and reopen.**
-- the new outside observation changes the declared comparison basis;
-- the previous bounded comparison may remain traceable, but it cannot continue by inertia as if the same live review conditions still held;
-- the admissible next move is either to restate a fresh comparative review unit over the new declared basis or to apply a neighboring governing pattern if downstream gate or authority question has now become primary.
+**Why this stops and reopens.**
+- the new outside observation changes the declared comparison criterion;
+- the previous bounded comparison can remain traceable, but it cannot continue by inertia as if the same governing review conditions still held;
+- the bounded next use is either to restate a fresh comparative review unit over the new declared criterion or to apply a neighboring governing pattern if downstream gate or authority question has now become primary.
 
 ##### E.17.ID.CR:5.4.6.d - Lighter comparison note with source-return discipline
 
 **Source episteme and source publication set.** A release team already has the full internal rollback worksheet, vendor bulletin, and incident-note bundle for one release candidate. A short comparison note is then prepared for the daily review stand-up.
 
-**Comparative review unit.** `For today's review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal rollback worksheet foregrounds rollback evidence more than protocol conformance; this short note is only a review aid over the same release candidate, and the full source episteme or source publication set remains primary for any bridge, release, coarsening, or work or reliance reading.`
+**Comparative review unit.** `For today's review, the vendor bulletin foregrounds protocol conformance more than rollback evidence, while the internal rollback worksheet foregrounds rollback evidence more than protocol conformance; this short note is only a review aid over the same release candidate, and the full source episteme or source publication set remains primary for any bridge, release, coarsening, or work or reliance claim.`
 
 Why it still stays here:
 - the comparison unit is still one bounded comparative review unit, not a replacement for the source episteme or source publication set;
-- the note remains source-pinned through the already available source episteme or source publication set and openly forbids bridge, gate, or work or reliance use that it does not carry;
+- the note remains source-pinned through the already available source episteme or source publication set, and bridge, gate, or work or reliance use remains with the governing pattern for that claim;
 - any attempt to treat the short note as enough for equivalence, release approval, execution claim or effect, or a reduced-use source substitute requires source-bearing return, `A.6.3.CSC Controlled Semantic Coarsening`, or another neighboring pattern.
 
 ##### E.17.ID.CR:5.4.6.e - Functional versus constructive-description comparison
@@ -674,7 +563,7 @@ Why it stays here:
 - both source publications keep source references and remain inspectable;
 - the same pumping skid remains the `EntityOfConcernRef`;
 - the bounded comparative lift is the function-versus-construction contrast for one review task;
-- module equivalence, work occurrence, evidence, and gate claims remain non-admissible downstream uses.
+- module equivalence, work occurrence, evidence, and gate claims remain blocked downstream uses.
 
 ##### E.17.ID.CR:5.4.6.f - Method-option comparison without method choice
 
@@ -684,47 +573,47 @@ Why it stays here:
 
 Why it stays here:
 - the reviewed source epistemes are pinned;
-- the comparison basis is explicit;
+- the comparison criterion is explicit;
 - no selected-method, work-plan, performed-work, evidence, or engineering-justification claim is added;
-- if the team chooses a method or prepares a work plan, record the selected method as project `U.Method`, record the work plan as `U.WorkPlan` under `A.15`, and use `A.15.1` only when a dated `U.Work` occurrence is live.
+- if the team chooses a method or prepares a work plan, record the selected method as project `U.Method`, record the work plan as `U.WorkPlan` under `A.15`, and use `A.15.1` only when a dated `U.Work` occurrence is the governed occurrence claim.
 
 **Nearest neighboring-work examples.** The next four cases are the nearest worked boundaries for prompt pressure, same-entity viewing, ontology shift, and gate or authority misuse. Use them when the near-top negative-boundary rows fit and you need one worked cue for keeping the comparison unit from carrying outside work.
 
 ##### E.17.ID.CR:5.4.7 - Upper-boundary prompt-bearing case
 
-**Prompt-bearing review unit.** `This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we should open a prompt around that shared control possibility.`
+**Prompt-bearing review unit.** "This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we normally publish a U.AbductivePrompt around that shared control possibility."
 
-Why `ComparativeReading` no longer governs:
-- abductive-prompt or action-selection claim has become live;
+Why `ComparativeReviewUnit` no longer governs:
+- abductive-prompt or action-selection claim governs the next move;
 - the review unit is now prompt-bearing rather than only interpretive;
-- the selected governing target is `B.5.2.0` or `B.5.2` through explicit `U.AbductivePrompt` publication.
+- the selected governing pattern is `B.5.2.0` or `B.5.2` through explicit `U.AbductivePrompt` publication.
 
 ##### E.17.ID.CR:5.4.8 - Same-entity viewing boundary case
 
 **Viewing rendering.** `The source note is retabulated into a compact comparison sheet that preserves the same claims and entity but makes pressure, trigger, and recovery fields easier to inspect.`
 
 Why it does not enter interpretation:
-- the main question is representational reshaping rather than comparative reading;
+- the main question is representational reshaping rather than bounded comparison;
 - no bounded asymmetry or interpretive claim is added;
 - the more precise governing pattern is `A.6.3.RT`.
 
 ##### E.17.ID.CR:5.4.9 - Ontology-boundary anti-case
 
-**Ontology-pressuring review unit.** `The older maintenance note and the new field-observation note are best read as two observational cuts over the same latent failure mode, so we should recast both under a new operational kind and treat the source labels as legacy labels.`
+**Ontology-pressuring review unit.** `The older maintenance note and the new field-observation note are best treated as two observational cuts over the same latent failure mode, so we normally recast both under a new operational kind and treat the source labels as legacy labels.`
 
-Why `ComparativeReading` no longer governs:
+Why `ComparativeReviewUnit` no longer governs:
 - the case is now asking for a same-referent interpretation with continuity-witness demand or retargeted-EntityOfConcernRef interpretation;
 - continuity witnesses would now be needed;
 - bounded comparative interpretation is no longer enough, so the case applies `OntologicalReframing`.
 
 ##### E.17.ID.CR:5.4.10 - Authority and gate misuse anti-case
 
-**Authority-pressuring review unit.** `Because this comparison consistently foregrounds the safer operating condition, reviewers may use the review unit directly as a release gate and do not need the underlying source episteme or source publication during triage.`
+**Authority-pressuring review unit.** `Because this comparison consistently foregrounds the safer operating condition, reviewers can use the review unit directly as a release gate and do not need the underlying source episteme or source publication during triage.`
 
-Why `ComparativeReading` no longer governs:
-- the review unit is being over-read as gate-facing authority;
-- the bounded comparative reading has become a substitute for the source episteme or source publication;
-- the selected governing target moves toward `A.15`, `A.20`, `A.21`, policy, assurance, release, adjudication, or another governing FPF pattern rather than staying in interpretation.
+Why `ComparativeReviewUnit` no longer governs:
+- the review unit is being overread as gate-facing authority;
+- the bounded comparison has become a substitute for the source episteme or source publication;
+- the authority-bearing claim is governed by `A.15`, `A.20`, `A.21`, policy, assurance, release, adjudication, or another governing FPF pattern rather than by `ComparativeReviewUnit`.
 
 ##### E.17.ID.CR:5.4.11 - Invalid publication and repair example
 
@@ -733,87 +622,89 @@ Why `ComparativeReading` no longer governs:
 Why it is invalid here:
 - no source references are visible;
 - bridge-mediated comparison is being implied without explicit bridge declaration;
-- unsupported substitution and authority claims are being smuggled in through soft phrasing.
+- blocked substitution and authority claims are being smuggled in through soft phrasing.
 
-**Minimal repair.** `Under bridge card BC-12 and the stated comparison basis, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary.`
+**Minimal repair.** `Under bridge card BC-12 and the stated comparison criterion, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary.`
 
 What the repair does:
 - restores the source references and bridgeCardRef;
-- narrows the claim back to bounded comparative reading;
-- reasserts the unsupported downstream claim or effect.
+- narrows the claim back to bounded comparison;
+- reasserts the blocked downstream claim or effect.
 
 ### E.17.ID.CR:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
-Scope: **bounded comparative review units governed under the `ComparativeReading` governing pattern inside `InterpretationDiscipline`**, not a universal claim about all review or publication forms.
+Scope: bounded comparative review units governed under `ComparativeReviewUnit` inside `InterpretationDiscipline`, not all review, all publication, or all decision work.
 
-This pattern intentionally biases toward bounded comparative reading and away from hidden bridge inflation, explanation laundering, ontology shift, action-selection pressure, and hidden policy, assurance, gate, release, or adjudication claims.
-The main mitigations are explicit primary-governing-pattern naming, visible source references, explicit interpretant-side boundedness, explicit unsupported downstream claim or effect, explicit comparison-unit surfacing, and hard boundaries to bridge, abductive-prompt, ontology-reframing, retargeting, policy, assurance, gate, release, action-selection, and adjudication patterns.
-Under the governance lens, the pattern is deliberately conservative: it helps a user prepare or review a bounded comparative review unit without letting that unit quietly become policy, assurance, gate, or action authority.
+This pattern intentionally biases toward one modest object: a bounded comparison over already available source epistemes or source publications. Its mitigation is positive before it is prohibitive: recover the source references, shared review frame, bounded lift, blocked downstream claim or effect, and boundary trigger. When the boundary trigger fires, name the crossed claim and use the governing pattern for that claim rather than extending this pattern by another warning list.
+
+The governance risk is not that a comparative review unit exists; it is that fluent comparison hides stronger use. The pattern therefore keeps reader-fit, interaction mode, and source relation visible only when they change the review unit's actual use, while keeping authority-bearing claims with their own governing patterns and project-side FPF kinds and references named by value.
 
 ### E.17.ID.CR:7 - Conformance Checklist
 
-A conformance check is retained only if it changes the next admissible use of the comparative review unit, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared admissible use.
+A conformance check is retained only if it changes the next bounded use of the comparative review unit, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared bounded use.
 
-Use ID.CR-Core for ordinary comparison notes. Conditional rows open only when the note touches neighboring-pattern relation, bridge declaration, or reader-fit fields. For fuller mixed-case read, read this checklist together with the neighboring pattern discipline and the boundary conditions gathered in this section.
+Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when the note touches neighboring-pattern relation, bridge declaration, or reader-fit fields. For fuller mixed-case read, read this checklist together with the neighboring pattern discipline and the boundary conditions gathered in this section.
 
-**Assurance recovery note.** Read this checklist as a heavier read-back of the already-declared ComparativeReading governing rule, not as a second rule list. If a row cannot be recovered through the ordinary seven-row card, the nearest worked slices, or the practical safeguards already named in the pattern, the case is not yet stable enough to rely on checklist prose alone.
+**Assurance recovery note.** Use this checklist as a heavier check of the already-declared ComparativeReviewUnit governing rule, not as a second rule list. If a row cannot be recovered through the ordinary seven-row card, the nearest worked slices, or the practical safeguards already named in the pattern, the case is not yet stable enough to rely on checklist prose alone.
 
 #### E.17.ID.CR:7.1 - ID.CR-Core ordinary checks
 
 1. **CC-ID-1 - Bounded comparative review unit is explicit.**
    The pattern makes clear that the comparison unit is a bounded comparative review unit rather than the whole review or decision work or a hidden mental act.
-2. **CC-ID-2 - Source references and comparison basis are explicit.**
-   A reviewer can see what already-fixed source episteme or source publication is being read and what declared comparison basis or contrast is carrying the lift.
+2. **CC-ID-2 - Source references and comparison criterion are explicit.**
+   A reviewer can see what already-fixed source episteme or source publication is being interpreted and what declared comparison criterion or contrast is carrying the lift.
 3. **CC-ID-3 - The lift stays bounded.**
-   The pattern keeps the comparative claim visibly narrower than bridge licence, explanation governance, prompt opening, ontology shift, or guidance carrying approval, gate, release, policy, assurance, adjudication, or authority-reference claim.
+   The ordinary card keeps bounded lift, blocked downstream claim or effect, world-contact limit, and boundary trigger visible before any neighboring claim can be read from the unit.
 4. **CC-ID-6 - Neighboring-pattern boundaries stay visible.**
-   Prompt-worthiness, ontology-shift claim, or action, gate, approval, rollout, release, policy, assurance, or adjudication use leads to an explicit neighboring FPF pattern rather than staying hidden inside comparative prose.
+   When the boundary trigger fires, the neighboring FPF pattern carries that prompt, ontology, action, gate, authority, or downstream claim instead of leaving it hidden inside comparative prose.
 5. **CC-ID-8 - The review unit does not over-claim authority.**
-   The unit is still review-only and non-executive and does not present itself as substitution licence, gate guidance, or action authority.
+   The unit remains review-only and non-executive; stronger authority use is carried only by the named governing pattern and project-side FPF kind and reference.
 
 #### E.17.ID.CR:7.2 - ID.CR-Conditional checks
 
 1. **CC-ID-4 - Base-case governing-pattern relation is explicit.**
    A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
 2. **CC-ID-5 - Bridge declaration does not hide.**
-   If bridge-mediated comparative relation is live, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
+   If bridge-mediated comparative relation governs the case, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
 3. **CC-ID-7 - Reader-fit stays bounded.**
-   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk` are visible when needed, but they do not open an authority claim that the unit does not carry.
+   `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` are visible when needed, but they do not create an authority claim that the unit does not carry.
 
-**Checklist recovery map.** If an assurance-side reader needs to cash one checklist row out by value, use the nearest ordinary card row and worked recovery below before treating the checklist as self-sufficient:
+**Checklist recovery map.** If an assurance-side reader wants to recover one checklist row by value, use the nearest ordinary card row and worked recovery below before treating the checklist as self-sufficient:
 
 | Checklist row | Recover through first | Nearest worked or practical recovery |
 | --- | --- | --- |
 | `CC-ID-1` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source** and **Shared review frame and alternative identities** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
 | `CC-ID-2` | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift** | `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` |
-| `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Unsupported downstream claim or effect**, and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+| `CC-ID-3` | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Blocked downstream claim or effect**, and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
 | `CC-ID-4` | near-top **Neighboring-work boundary**, **Quick working-fit check**, and `E.17.ID.CR:4.5 - Neighboring-work boundary glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-5` | `E.17.ID.CR:4.3.d` bridge-declaration fields plus `E.17.ID.CR:4.2` neighboring patterns | `E.17.ID.CR:5.4.1`, `E.17.ID.CR:5.4.2`, `E.17.ID.CR:5.4.3` |
 | `CC-ID-6` | `E.17.ID.CR:4.3.b.a` row **Boundary trigger** plus the near-top boundary corridor | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
-| `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary card and unsupported downstream claim or effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
-| `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Unsupported downstream claim or effect** and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
+| `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary card and blocked downstream claim or effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
+| `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
 
 ### E.17.ID.CR:8 - Common Anti-Patterns and How to Avoid Them
 
+**Positive boundary-use profile.** Read the anti-pattern table below only after the ordinary working card has recovered the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
+
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
-| **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a reading move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
+| **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
 | **Bridge gloss inflation** | A helpful comparative sentence starts acting like a bridge licence the declared bridge card and stance do not allow. | Keep bridge-mediated comparative relation tied to required `bridgeCardRef`; use optional `bridgeStanceRef` only as a subordinate overlay under `F.9.1`. |
-| **Soft prompt smuggling** | The review unit is really opening a question or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim becomes live, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
-| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use comparative reading only when bounded comparative lift is primary. |
-| **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and admissibility review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
-| **Gentle-tone advisory overread** | A calm explanatory tone makes work or reliance, assurance, or gate guidance sound harmless. | Publish `allowedUse`, `misuseRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
-| **EntityOfConcern shift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Exit to `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target become load-bearing. |
-| **Interface neutrality fiction** | A guided or contrastive aid pretends to be audience-neutral while steering non-admissible downstream use. | Make `targetUserModel`, `interactionMode`, and `contrastiveQuestion` explicit and keep the non-admissible use forbidden. |
+| **Soft prompt smuggling** | The review unit is really creating an abductive prompt or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim governs the next move, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
+| **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
+| **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
+| **Gentle-tone advisory overread** | A calm explanatory tone makes work or reliance, assurance, or gate guidance sound harmless. | Publish `boundedComparativeUse`, `overreadRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
+| **EntityOfConcern shift** | A changed target is mislabeled as interpretation because the prose still sounds comparative. | Apply `OntologicalReframing` or `A.6.4` once continuity witnesses or changed target govern the claim. |
+| **Interface neutrality fiction** | A guided or contrastive aid pretends to be audience-neutral while steering blocked downstream use. | Make `targetUserModel`, `interactionMode`, and `contrastiveQuestion` explicit and keep the non-bounded use forbidden. |
 
 ### E.17.ID.CR:9 - Consequences
 
 - The middle band between bridge-stance overlay over an existing Bridge Card and prompt-bearing abduction becomes reviewable rather than rhetorical.
-- Reviewers get a cleaner way to distinguish comparative interpretation from same-entity viewing, explanation rendering, ontology shift, approval, rollout, release, gate, policy, assurance, and adjudication use.
+- Reviewers get a cleaner way to distinguish comparative interpretation from the first crossed claim that would make another governing pattern primary.
 - Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
-- Guided comparative review units become easier to prepare honestly because allowed use, misuse risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
-- Users get an admissible way to keep bounded comparative review units modest: the unit can stay useful while its comparative reading remains below the boundary threshold for prompt publication, ontology-facing reframing, or gate-facing guidance.
+- Guided comparative review units become easier to prepare honestly because bounded use, overread risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
+- Users get a bounded way to keep comparative review units modest while the boundary trigger remains below the first crossed claim.
 
 ### E.17.ID.CR:10 - Rationale
 
@@ -821,53 +712,45 @@ Teams already write small comparative review units, often as comparison notes or
 What they usually lack is a disciplined way to keep that unit useful without letting it silently become an equivalence claim, a hidden hypothesis, a redesign push, or a release decision.
 
 This pattern exists to protect that everyday bounded-comparison use.
-It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
+It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
 The gain is practical: a team can compare available source epistemes or source publications honestly without pretending that a helpful review unit already carries more authority than it really does.
 
 ### E.17.ID.CR:11 - SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts
 
-**SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
-**Assurance recovery note.** Read each row here as a heavier confirmation of one already-declared ComparativeReading governing rule. If a row cannot be recovered through the ordinary card, the interpretant-side block, the quick boundary corridor, or the nearest worked slices, do not let the citation carry the pattern by itself.
+**SoTA alignment rule.** Use each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
+**Assurance recovery note.** Use each row here as a heavier confirmation of one already-declared ComparativeReviewUnit governing rule. If a row cannot be recovered through the ordinary card, the interpretant-side block, the quick boundary corridor, or the nearest worked slices, do not let the citation carry the pattern by itself.
 
 **Traditions covered.** This pattern binds itself to architecture-description governance, explainable-AI review discipline, interactive explanation-system practice, and design-space anti-scalarization practice. These rows are selected because they discipline recurrent review work in the problem-owning domains named in the case bank; they are not a decorative literature collage added after the governing pattern was chosen.
 
 | Claim need | Source idea and current source | Current source section or reference | Local FPF invariant and practical local test | Nearest recovery reference | Adopted, adapted, or rejected shortcut |
 | --- | --- | --- | --- | --- | --- |
-| Comparative review units should stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review targets rather than letting reader-help prose replace structural review. | Joint ISO, IEC, and IEEE 42010:2022; source maturity = mature standard | This pattern adopts explicit source references, declared comparison basis, and explicit boundary rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
-| Interpretation and explanation use are use-sensitive and bounded by intended reader and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all helpful prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source maturity = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `allowedUse`, and `misuseRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt and adapt.** |
-| Static comparative notes and interactive comparative aids must not carry the same relation load. | Static review notes need source references, comparison basis, bounded lift, unsupported downstream claim or effect, and boundary trigger; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source maturity = emerging preprint, not settled standard. | This pattern keeps the ordinary seven-row card sufficient for static notes and adds `targetUserModel`, `interactionMode`, state and history, `misuseRisk`, and admissible-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static and interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
-| Faithful source relation is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful source relation from attractive but low-source-relation narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source maturity = research paper as source for evaluation use | This pattern adopts explicit source references, `E.17:5.1b` source-relation class when live, unsupported downstream claim or effect, and bridge-claim visibility so that bounded comparative reading is not over-read as source relation or governing-pattern authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Unsupported downstream claim or effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
-| Comparative review units must not become hidden ranking, aggregate recommendation, or false equivalence when a comparison sheet sorts or scores alternatives. | Quality-diversity practice and multi-objective optimization practice preserve diverse candidate sets and non-scalar trade-offs when one scalar score would hide relevant differences. | Mouret and Clune (2015), MAP-Elites; Deb et al. (2002), NSGA-II; source maturity = adapted design-space analogy, not naming or review standard | This pattern adapts only the anti-scalarization invariant: one comparison sheet may expose row-level comparison bases, trade-offs, and visible ordering bases, but it must not add equivalence, substitution, recommendation, method choice, gate passage, or decision authority unless `C.11`, `F.9`, `A.20`, `A.21`, another governing FPF pattern, or an project record named by value supplies that source relation or project record. | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Unsupported downstream claim or effect**, and **Boundary trigger**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, `E.17.ID.CR:5.4.6.f` | **Adapt conditionally.** Reject treating optimization vocabulary, Pareto wording, benchmark tables, or sorted display order as proof of a governing FPF relation. |
+| Comparative review units normally stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review targets rather than letting reader-help prose replace structural review. | Joint ISO, IEC, and IEEE 42010:2022; source status = mature standard | This pattern adopts explicit source references, declared comparison criterion, and explicit boundary rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
+| Interpretation and explanation use are use-sensitive and bounded by intended reader and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all helpful prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source status = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt and adapt.** |
+| Static comparative notes and interactive comparative aids carry different relation loads. | Static review notes need source references, comparison criterion, bounded lift, blocked downstream claim or effect, and boundary trigger; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source status = emerging preprint, not settled standard. | This pattern keeps the ordinary seven-row card sufficient for static notes and adds `targetUserModel`, `interactionMode`, state and history, `overreadRisk`, and bounded-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static and interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
+| Faithful source relation is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful source relation from attractive but low-source-relation narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source status = research paper as source for evaluation use | This pattern adopts explicit source references, `E.17:5.1b` source-relation class when it governs the claim, blocked downstream claim or effect, and bridge-claim visibility so that bounded comparison is not overread as source relation or governing-pattern authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
+| Comparative review units do not become hidden ranking, aggregate recommendation, or false equivalence when a comparison sheet sorts or scores alternatives. | Quality-diversity practice and multi-objective optimization practice preserve diverse candidate sets and non-scalar trade-offs when one scalar score would hide relevant differences. | Mouret and Clune (2015), MAP-Elites; Deb et al. (2002), NSGA-II; source status = adapted design-space analogy, not naming or review standard | This pattern adapts only the anti-scalarization invariant: one comparison sheet can expose row-level comparison criteria, trade-offs, and visible ordering criteria, but it does not add equivalence, substitution, recommendation, method choice, gate passage, or decision authority unless `C.11`, `F.9`, `A.20`, `A.21`, another governing FPF pattern, or a project record named by value supplies that source relation or project record. | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Blocked downstream claim or effect**, and **Boundary trigger**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, `E.17.ID.CR:5.4.6.f` | **Adapt conditionally.** Reject treating optimization vocabulary, Pareto wording, benchmark tables, or sorted display order as proof of a governing FPF relation. |
 
-**Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison basis, source references, and boundary rules must stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: read the **Reviewed source**, **Source references**, and **Bounded lift** rows together before leaning on the citation. Engineer-manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
+**Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison criterion, source references, and boundary rules stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: use the **Reviewed source**, **Source references**, and **Bounded lift** rows together before leaning on the citation. Engineer-manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
 
-**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and unsupported downstream claim or effect rather than letting them stand alone. Engineer-manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
+**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and blocked downstream claim or effect rather than letting them stand alone. Engineer-manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
 
-**Row 3.** The interactive-system row matters because bounded comparative aids can become more directive than static prose without crossing into a full new governing pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode is load-bearing, that fact must be explicit and must still stop before prompt, ontology, or authority escalation. Assurance recovery: read that pressure through the interaction fields plus the prompt and authority boundary rows rather than treating the source citation as a licence for action selection, coaching, prompt selection, approval, or other downstream guidance. Engineer-manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt selection, action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
+**Row 3.** The interactive-system row matters because bounded comparative aids can become more directive than static prose without crossing into a full new governing pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode changes the comparison claim, that fact is explicit and still stops before prompt, ontology, or authority escalation. Assurance recovery: handle that pressure through the interaction fields plus the prompt and authority boundary rows rather than treating the source citation as a licence for action selection, coaching, prompt selection, approval, or other downstream guidance. Engineer-manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt selection, action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
 
-**Row 4.** The faithfulness row matters because a comparative review unit can sound careful while still smuggling bridge, prompt, or authority claims. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a semantic or operational licence. Ordinary recovery: use the **Unsupported downstream claim or effect** and **World-contact limit** rows before letting polished prose win the argument by tone. Engineer-manager payoff: polished prose is no longer enough to overrule the underlying source episteme or source publication set or to sneak in a decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
+**Row 4.** The faithfulness row matters because a comparative review unit can sound careful while still smuggling bridge, prompt, or authority claims. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a semantic or operational licence. Ordinary recovery: use the **Blocked downstream claim or effect** and **World-contact limit** rows before letting polished prose win the argument by tone. Engineer-manager payoff: polished prose is no longer enough to overrule the underlying source episteme or source publication set or to sneak in a decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
 
-**Row 5.** The anti-scalarization row matters because a comparison sheet often becomes a ranking by layout, sort order, or score aggregation before anyone states a decision. The pattern adapts only the design-space lesson it can honestly use: keep non-scalar trade-offs, row-level comparison bases, and visible ordering bases inspectable. It rejects any move where a benchmark table, Pareto label, or sorted order becomes equivalence, recommendation, method choice, gate passage, or decision authority. Ordinary recovery: read **Bounded lift**, **Unsupported downstream claim or effect**, and **Boundary trigger** before accepting any ordering as more than a review aid. Engineer-manager payoff: the team can compare alternatives without a quiet scalar score deciding the work. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, and `E.17.ID.CR:5.4.6.f`.
+**Row 5.** The anti-scalarization row matters because a comparison sheet often becomes a ranking by layout, sort order, or score aggregation before anyone states a decision. The pattern adapts only the design-space lesson it can honestly use: keep non-scalar trade-offs, row-level comparison criteria, and visible ordering criteria inspectable. It rejects any move where a benchmark table, Pareto label, or sorted order becomes equivalence, recommendation, method choice, gate passage, or decision authority. Ordinary recovery: use **Bounded lift**, **Blocked downstream claim or effect**, and **Boundary trigger** before accepting any ordering as more than a review aid. Engineer-manager payoff: the team can compare alternatives without a quiet scalar score deciding the work. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, and `E.17.ID.CR:5.4.6.f`.
 
 ### E.17.ID.CR:12 - Relations
-
-- **Naming-level family:** `InterpretationDiscipline` names the wider interpretation family for this governing pattern.
-- **Governing pattern:** `ComparativeReading` over comparative review units.
-- **Inherited dynamic frame:** `C.2.2a` and `A.16.0`, where what moves is a lineage of successive `U.Episteme` publications over `U.CharacteristicSpace`.
-- **Comparative-review-unit and carrier use:** the comparative review unit is one working review unit that may be carried by an admissible E.17 publication-face kind value `publication face/form` over that inherited frame; it is not the moving lineage itself, not a carrier, and not the whole review or decision work.
+- **Citation.** Cite this pattern as `E.17.ID.CR`, `ID.CR`, or `ComparativeReviewUnit` when the current object is one bounded comparative review unit. Use `A.6.3.CR` when the intended pattern is `ConservativeRetextualization`.
+- **Placement.** `ComparativeReviewUnit` sits inside the wider `InterpretationDiscipline` naming family, but the local governing object is the comparative review unit and its bounded comparison. The wider review or decision work remains outside until a crossed claim becomes primary.
 - **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `F.9.1`, Part F, `A.6.9`, and `E.14`.
-- **Mixed-case dependency rule:** in mixed cases, this pattern stays subordinate to whichever neighboring pattern still governs the base case (`A.6.3.*`, `F.9` or `F.9.1`, Part F with `A.6.9`, or `E.17.EFP`), including that pattern's source, continuity, bridge, wording-repair, and boundary constraints.
-- **Primary rule here:** this section carries the summary, checklist, worked slices, and boundary block for `ComparativeReading`; mixed-case neighboring pattern rule remains primary where the base case still belongs elsewhere.
-- **Repair-only neighbors when local instability is real:** use `E.17.AUD.LHR` (`Local Head Restoration`) when lexical-head kind or qualifier pressure is still local; use `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) when the same review unit still has unstable reviewed-source, publication-unit, comparative-move, or outside-work reading after local repair. These neighboring patterns are not always-on prerequisites for ordinary `ComparativeReading` use.
 - **Coordinates with:** `A.6.P`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `F.9.1`, Part F, `A.6.9`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `C.11`, `A.15`, `A.15.4`, `A.20`, `A.21`.
-- **Nearest neighboring FPF patterns for outside work:** `A.6.P`, `A.6.3.*`, `F.9` or `F.9.1`, Part F with `A.6.9`, `E.17.EFP`, `C.11`, and `B.5.2.0` or `B.5.2`.
-- **Main neighboring-pattern boundaries:** relation-precision claims apply `A.6.P`; sameness, equivalence, alignment, mapping, substitutability, interchangeability, or attribute, entity, or profile matching across contexts applies Part F and `A.6.9` and, when bridge relation is live, `F.9` or `F.9.1`; abductive-prompt claim applies `B.5.2.0` or `B.5.2`; ontology or changed-target claim applies `OntologicalReframing` or `A.6.4`; decision-making claims and decision records apply `C.11`; downstream work or reliance, gate, assurance, and adjudication claims apply `A.15.4`, `A.15`, `A.20`, or `A.21`.
-- **Boundary notes:** same-entity transform rule stays with `A.6.3.*`; bridge-stance overlay stays with `F.9.1` over an existing `F.9` Bridge Card; "same", "equivalent", "align", or "map" wording repair and attribute, entity, or profile mismatch repair stay with Part F or `A.6.9`; explanation-face governance stays with `E.17.EFP`; reduced-use source-pinned renderings with narrower admissible use, non-admissible downstream use, and reopen discipline apply `A.6.3.CSC Controlled Semantic Coarsening`; bounded comparative reading does not by itself authorize downstream use it does not carry.
-- **Non-goal:** this pattern does not create a rival publication with named authority-reference relation, a rival bridge taxonomy, a rival sameness or equivalence repair pattern, or a rival base-case discipline of its own.
+- **Boundary map.** Use `E.17.ID.CR:4.5` when the comparison starts carrying relation precision, bridge or sameness, prompt or action selection, ontology or changed target, decision, work or reliance, gate, assurance, adjudication, or reduced-source-use claims. The neighboring pattern governs only the crossed claim it names.
+- **Local repair neighbors.** Use `E.17.AUD.LHR` only when a local lexical head or qualifier still destabilizes the same unit; use `E.17.AUD.OOTD` only when the reviewed-source, publication-unit, comparative-move, or outside-work boundary is still unstable after local repair.
 
 ### E.17.ID.CR:12a - C.29 mathematical-lens use relation
 
-> When a bounded comparative review unit uses a mathematical comparison basis, rival lens, invariant, obstruction, or structural similarity, `E.17.ID.CR` still works over comparison unit, viewpoint, basis, review-unit boundary, and comparative-reading admissibility. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) may be cited only for adequacy of the mathematical lens used in that comparison. It does not create the comparison record, adjudicate rival publications, or authorize bridge, evidence, selector, or benchmark claims outside the comparative-reading record.
+> When a bounded comparative review unit uses a mathematical comparison criterion, rival lens, invariant, obstruction, or structural similarity, `E.17.ID.CR` still works over comparison unit, viewpoint, comparison criterion, review-unit boundary, and bounded-use boundary. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when required) can be cited only for the mathematical-lens use: candidate mathematical object, lens mapping mode, preserved and lost structure, `LensUseAdmissibilityValue`, bounded use, blocked downstream use, and stop condition. It does not create the comparison record, adjudicate rival publications, or authorize bridge, evidence, selector, or benchmark claims outside the comparative-review-unit record.
 
 ### E.17.ID.CR:End
 

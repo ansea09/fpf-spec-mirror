@@ -6,12 +6,12 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 44906
-line_end: 44934
+line_start: 45330
+line_end: 45359
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,6 +63,7 @@ keywords:
 ---
 
 ### C.22.2:22 - First Practical Entry Aid
+
 This section is a discoverability aid only. It helps a practitioner or assistant find a candidate pattern; it does not prescribe a transition sequence and does not require opening `C.22.2` for every problem-sounding text.
 
 These likely practitioner entry phrases point to `C.22.2`:
@@ -79,13 +80,13 @@ Direct-entry cues that are not `C.22.2`:
 
 - accepted method or work planning: use `A.15`;
 - proof, provenance, reliability, or assurance claim: use `A.10`, `G.6`, or `B.3`;
-- local choice among explicit options: use `C.11`, or `G.5` when set publication or selected-set semantics are live;
+- local choice among explicit options: use `C.11`, or `G.5` when set publication or selected-set semantics are current;
 - agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or relation named by value;
 - ordinary discussion with no downstream project-side move: no `C.22.2` use.
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner must be able to produce a Thin `ProblemCard@Context` in under one page and correctly choose one admissible next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstain/no-change`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
+Given a messy signal, a practitioner can produce a Thin `ProblemCard@Context` in under one page and correctly choose one governed next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
 
 Entry relation:
 

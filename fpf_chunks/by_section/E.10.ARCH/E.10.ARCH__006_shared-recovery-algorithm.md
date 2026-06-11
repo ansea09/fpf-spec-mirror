@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:3"
 section_title: "Shared recovery algorithm"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__006_shared-recovery-algorithm.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:3 — Shared recovery algorithm"
-line_start: 60278
-line_end: 60291
+line_start: 60705
+line_end: 60731
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -46,11 +58,24 @@ keywords:
 
 ### E.10.ARCH:3 - Shared recovery algorithm
 
+#### E.10.ARCH:3.1 - Method/work governing-pattern constellation in wording restoration
+
+Use this branch when one source label, project handle, or project concern points to changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern` rather than to one typed FPF value.
+
+Do not name a new recovery object. Recover the project concern first only to find the linked relation positions. Then recover the typed FPF values separately through their governing patterns. Typical filled values include `U.Method`, `U.MethodDescription`, `U.Mechanism`, formal-substrate declaration, mathematical-lens use, `U.WorkPlan`, dated `U.Work`, evidence relation, source relation, gate relation, result relation, publication relation, and temporal relation when current.
+
+This branch is an `E.10.ARCH` use of existing subject ontology and relation/slot discipline. It is not `U.ChangeConcern`, not `MethodWorkChangeOnticGraph`, not a process model, not a workflow, and not a super-kind over method, mechanism, plan, work, evidence, source, gate, result, or temporal values.
+
+A compact local restoration note may record the affected entity, bounded context, change or maintained-condition statement, state or delta predicates when current, and references to the separately recovered typed values. That note is not a project record, evidence record, gate record, method, mechanism, work plan, work occurrence, or ontic. It is only the local record of how the wording restoration found the governing typed values.
+
+Each filled reference remains governed by its own pattern. `A.15` carries the role-method-plan-work alignment part; `A.3.1`, `A.3.2`, `A.6.0`, `C.29`, `A.6.1`, `E.20`, `A.10`, gate, source, result, publication, temporal, and evidence patterns carry their own typed values. Do not assign one typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits that dual typing. Slot-position labels do not create alternate ontology.
+
+If a current `U.*` name in the constellation looks like only a slot-position label, apply `E.24`: retain the `U.*` name only when an existing governing pattern gives it standalone `EntityOfConcern` identity, stable identity criterion, and action-facing gain. If not, demote that use to a SlotKind or relation label rather than keeping the U-kind by inertia. If repeated method/work/process material actually needs a durable ontic, open an E.24 ontic-introduction decision and write the governing head pattern before citing that ontic as current FPF ontology.
 Use this recovery order for FPF-relevant wording-use restoration cases. Each realization pattern may publish a compact local form, but the order stays shared.
 
 1. **Trigger and bounded text.** Name the bounded text span or publication unit, trigger span, local sentence role, register classification, and whether the text is conformant FPF, project text deliberately using FPF-governed terms, pattern references, relation names, or conformance claims, or source text being unpacked for possible FPF use.
 2. **Cheap local closure.** Check whether the wording has no FPF-governed use or only a small local head, register, or morphology repair. If yes, repair locally under `E.10`, state the remaining reader move, and stop.
-3. **Head kind and candidate ontology.** Recover the head kind, register classification, EntityOfConcern and Description-episteme boundary, specification-use gate when live, candidate referents, candidate EntityOfConcern values, relation records named by value, claim records, candidate relations, candidate slots or use-positions, candidate carriers or publications, and scope, time, viewpoint, or context facets. Include literal and intended candidates when metonymy or compression is plausible.
+3. **Head kind and candidate ontology.** Recover the head kind, register classification, EntityOfConcern and Description-episteme boundary, specification-use gate when specification use is current, candidate referents, candidate EntityOfConcern values, relation records named by value, claim records, candidate relations, candidate slots or use-positions, candidate carriers or publications, and scope, time, viewpoint, or context facets. Include literal and intended candidates when metonymy or compression is plausible.
 4. **Semantic area, ontological neighborhood, and governing-pattern selection.** State `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily`; then select the `ontologicalNeighborhood` and first applicable governing pattern by primary `EntityOfConcern` kind and admissible adjacent FPF kinds, references, or relations: relation construction, function-like kind and relation recovery, episteme, publication, source-use, selected structure or architecture description, characteristic or scale construction, quality characterization, evidence, assurance, gate, work, decision, causal-use, naming, controlled coarsening, or another governing FPF pattern.
 5. **Formal apparatus or stable substrate.** State the stable apparatus that makes the repair checkable: relation or signature slots under `A.6.0`/`A.6.5`/`A.6.P`, publication relation set, source-use disposition, selected structure, architecture question, characteristic or scale construction, quality bundle, mathematical lens under `C.29`, evidence path, gate record, work occurrence, decision record, assurance argument, causal-use record, or governing-pattern field set. When the same object is used in several relation/signature/lens positions, record the object kind and slot/use-position separately and cite the governing pattern; `E.10.ARCH` selects the restoration architecture rather than duplicating that pattern's ontology.
 6. **Normalized ontology and lexical projection.** Produce the repaired wording, compact repair note, record-shaped value, governing-pattern application, or non-use disposition. Do not replace one umbrella word with another. The replacement candidate is itself a bounded wording use until it passes the `E.10` trigger scan or is demoted to ordinary wording, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite.

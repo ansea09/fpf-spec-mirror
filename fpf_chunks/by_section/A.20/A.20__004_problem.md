@@ -6,12 +6,12 @@ section_id: "A.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__004_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:2 — Problem"
-line_start: 27884
-line_end: 27894
+line_start: 27987
+line_end: 27997
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -41,10 +41,10 @@ keywords:
 
 Without a clear CV core:
 
-* internal step laws (domains/ranges, invariants, units coherence, Lipschitz/stability) bleed into gate **profile**;
+* internal step laws (declared domains and ranges, invariants, units coherence, and Lipschitz-bound or stability claims) are mistaken for `GateProfile` fit;
 * plane or comparator declarations sneak into mechanisms;
 * freshness and DesignRunTag concerns appear inside mechanisms;
 * reproducibility suffers because transfers start carrying hidden semantics beyond `⟨L,P,E⃗,D⟩`.
 
-Under this pattern, CV is evaluated **inside** transformations. **If** a check declares planes/units/comparators or depends on an active `GateProfile`, **then** it is treated as **GateFit at gates** and the CV explanation **does not apply**.
+Under this pattern, CV is evaluated **inside** transformations. **If** a check declares planes, units, or comparators or depends on a declared `GateProfile`, **then** it is treated as **GateFit at gates** and the CV explanation **does not apply**.
 

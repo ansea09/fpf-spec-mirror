@@ -6,12 +6,12 @@ section_id: "A.2.2:4"
 section_title: "Solution — define the ability explicitly"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__005_solution-define-the-ability-explicitly.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:4 — Solution — define the ability explicitly"
-line_start: 2495
-line_end: 2536
+line_start: 2497
+line_end: 2538
 dependencies:
   - "A.1"
   - "A.1.1"

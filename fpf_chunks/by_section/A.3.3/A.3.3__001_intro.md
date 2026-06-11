@@ -1,20 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.3"
-pattern_title: "U.Dynamics"
+pattern_title: "U.Dynamics: State-Space and Transition-Law Episteme"
 section_id: "A.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.3 — U.Dynamics"
+  - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:intro — Intro"
-line_start: 6443
-line_end: 6446
+line_start: 6545
+line_end: 6550
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
+  - "A.20"
+  - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "B.3"
   - "B.4"
+  - "C.2.P.DR"
+  - "C.27"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.20"
+  - "F.18"
+  - "U.BoundedContext"
+  - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Work"
+  - "U.WorkPlan"
 keywords:
   - "model"
   - "simulation"
@@ -22,7 +45,9 @@ keywords:
   - "state space"
 ---
 
-## A.3.3 - `U.Dynamics`
+## A.3.3 - U.Dynamics: State-Space and Transition-Law Episteme
 
+> **Type:** Definitional pattern
 > **Status:** Stable
+> **Normativity:** Normative
 

@@ -6,12 +6,12 @@ section_id: "C.17:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__003_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:2 — Forces"
-line_start: 42290
-line_end: 42301
+line_start: 42715
+line_end: 42726
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "ULR regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_ulr-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:12 — ULR regression cues (concept-only “diff” triggers)"
-line_start: 60090
-line_end: 60105
+line_start: 60512
+line_end: 60529
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,8 @@ Re-review your prose when any of these happen:
 * **Recipes gain/lose steps** → update **`MethodDescription`**, not `Service` or `Role` names.
 * **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).
 * **A generic head or support-headed compound acquires FPF-governed claim or admissible use** (`comparative`, `safe`, `interactive`, `reliable`, `support`, `supported`, `supporting`, `support-looking`, and similar modifiers or heads) → restore the head kind first, then unpack the qualifier claim or support-like interpretation before broader publication.
+* **Method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, or control-strategy wording changes** → recover the slot before rewriting: `U.Method`, `U.MethodDescription`, formal-substrate declaration, mathematical-lens use, `U.Mechanism`, `U.WorkPlan`, dated `U.Work`, evidence relation, or quote-only source wording. Do not replace one umbrella with another.
+* **A declarative representation starts to sound imperative** (graph path, path slice, evidence path, query, predicate, table, dashboard, publication face, mathematical representation, method-description representation, source-chain relation, carrier path, or FPF pattern relation "runs", "routes", "calls", "dispatches", "authorizes", or "flows" without a recovered kind) → apply `C.2.P.DR` or the direct governing pattern such as `E.18`, `A.10`, `A.19.SPR`, `E.17`, `C.29`, `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `E.8`, or `F.19`.
 * **New token minted** → ensure `LEX.TokenClass` declared; run collision checks; add CharacteristicSpace if enum.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
 * **Cross-Context reuse by label** appears → require a **Bridge** (F.9) or split senses.

@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 60403
-line_end: 60419
+line_start: 60856
+line_end: 60878
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -50,6 +62,12 @@ keywords:
 - `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
+- `C.2.P.DR` realizes declarative representation and imperative-metaphor overread repair.
+- `A.3.1` governs `U.Method` and method-like slot recovery when semantic way of doing is hidden.
+- `A.3.2` governs `U.MethodDescription` when an episteme describes a method.
+- `A.6.0`, `C.29`, `A.6.1`, and `E.20` govern formal-substrate declarations, mathematical-lens use, mechanism meaning, and mechanism-governing-definition assignment when those claims are current.
+- `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide.
+- `E.18` governs graph paths, path slices, flow valuations, and transduction-graph relations when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
 - `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.
 - `C.16.P` realizes characteristic and scale wording recovery.

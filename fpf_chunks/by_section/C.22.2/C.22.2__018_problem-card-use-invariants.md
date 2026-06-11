@@ -6,12 +6,12 @@ section_id: "C.22.2:17"
 section_title: "Problem-Card Use Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__018_problem-card-use-invariants.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:17 — Problem-Card Use Invariants"
-line_start: 44824
-line_end: 44832
+line_start: 45248
+line_end: 45256
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,8 +66,8 @@ keywords:
 
 | Invariant | Requirement |
 |---|---|
-| One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. A changed represented problem states the changed representation or the relation that must be reopened. |
-| `P2W-ready` is problem-side readiness | The card can be ready as input to P2W or selector-facing use without being work-ready, gate-passed, method-selected, evidence-proved, or autonomy-authorized. |
+| One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. A changed represented problem states the changed representation or the relation that is reopened. |
+| `P2W-ready` is problem-side readiness | The card can be ready as input to P2W or selector-facing use without being ready for work execution, gate passage, method selection, evidence use, or autonomy control. |
 | Claims outside `C.22.2` stay outside the card | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation, temporal, causal, and mathematical-lens claims remain with the pattern that governs each claim being made. |
-| Stale or blocked cards state a disposition | A stale, unknown-blocked, changed-representation, or missing required reason/criterion/source-reference card states refresh, retirement, bounded use, `abstain/no-change`, or the relation that must be reopened. |
+| Stale or blocked cards state a disposition | A stale, unknown-blocked, changed-representation, or missing required reason, criterion, or source-reference card states refresh, retirement, bounded use, `abstainOrNoChange`, or the relation that is reopened. |
 

@@ -6,12 +6,12 @@ section_id: "E.17:10"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_anti-patterns-with-fixes.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:10 — Anti‑patterns (with fixes)"
-line_start: 63924
-line_end: 63936
+line_start: 64375
+line_end: 64387
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -20,6 +20,7 @@ dependencies:
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -46,5 +47,5 @@ keywords:
 4. **Viewpointless views.**
     *Fix:* Define Viewpoint; attach concerns + conformance; re‑emit.
 5. **`InteropCard` equivalent to `TechCard` duplication.**
-    *Fix:* `InteropCard` may refine typing or shape but cannot contradict `TechCard` (reindexing monotone).
+    *Fix:* `InteropCard` can refine typing or shape but cannot contradict `TechCard` (reindexing monotone).
 

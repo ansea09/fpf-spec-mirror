@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "D.5 — Bias-Audit & Ethical Assurance"
-line_start: 55696
-line_end: 55865
+line_start: 56110
+line_end: 56281
 dependencies:
   - "B.3"
   - "B.3.3"
@@ -197,4 +197,6 @@ By integrating this cycle into the core engineering work cycle, FPF moves ethica
 *   **Operationalizes:** The conceptual roles of `Ethicist`, `Domain Sociologist`, and `UX Design Critic` from the Intellect Stack.
 
 ### D.5:End
+
+# **Part E – The FPF Constitution and Authoring Guides**
 

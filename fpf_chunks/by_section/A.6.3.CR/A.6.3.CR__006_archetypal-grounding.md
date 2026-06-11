@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+pattern_title: "ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
 section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 10998
-line_end: 11079
+line_start: 11102
+line_end: 11183
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -26,9 +26,6 @@ dependencies:
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
 keywords:
 ---
 
@@ -49,7 +46,7 @@ This is an admissible direct `ConservativeRetextualization` because the EntityOf
 This is still an admissible ordinary case even though the short stand-up slice does not restate every pin and qualifier inline. The didactic point is that lightweight use may inherit already-published pins and provenance when the tether stays visible to the reader.
 
 #### A.6.3.CR:5.1.b - Benign omission that stays ordinary
-**Source note slice.** `Service S exceeded the latency threshold in the evening batch window. Trace T-44 and dashboard pin D-17 show the spike. The note also lists two low-confidence hypotheses for later investigation.`
+**Source note slice.** `Service S exceeded the latency threshold in the evening batch window. Trace T-44 and dashboard pin D-17 show the spike. The note also lists two low-confidence hypotheses for separate investigation.`
 
 **Published stand-up slice.** `Evening-batch latency for Service S exceeded the threshold. Source pins: T-44, D-17. Low-confidence hypotheses are omitted from this stand-up note and remain in the pinned source.`
 
@@ -70,10 +67,10 @@ A generated or machine-assisted summary may stay in `ConservativeRetextualizatio
 | Source-relation question | CR-local meaning |
 | --- | --- |
 | source pointer present | The summary points to the source slice or source bundle it claims to restate. |
-| source actually used | The inspectable generation or rewrite path used that source, not merely a similar topic or remembered background. If the path is unavailable, keep the summary source-pointer-only or orientation-only until a source-use path is recovered. |
+| source actually used | The inspectable generation or rewrite trace used that source, not merely a similar topic or remembered background. If the trace is unavailable, keep the summary source-pointer-only or orientation-only until a source-use trace is recovered. |
 | claim admissible | Each claim-bearing summary claim can be recovered from the source slice or declared correspondence witness. |
 | claim merely plausible | A sentence sounds likely but is not recoverable from the source; it must stay orientation-only or leave CR. |
-| omission/loss | Relevant omitted qualifiers, alternatives, caveats, uncertainty, or conditions are visible enough for the admissible use. |
+| omission or loss | Relevant omitted qualifiers, alternatives, caveats, uncertainty, or conditions are visible enough for the admissible use. |
 | claim widening | The summary does not turn possibility, hypothesis, bounded scope, or low-confidence wording into a wider commitment. |
 | added linkage | New causal, bridge, comparison, work, gate, evidence, or explanation links are not introduced as if they were in the source. |
 
@@ -81,7 +78,7 @@ When the generated-summary case needs the shared vocabulary rather than this CR-
 
 The summary may expose or cite the source slice it restates. It does not become that source slice by fluency, brevity, translation, layout, generated form, or reuse. If the source slice or required project-side FPF kind and reference named by value is missing, a repair request or source-gap note is only prospective; it does not retroactively make the earlier summary source-relation-admissible.
 
-If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. Either keep it as source-finding/orientation, repair it against the source, or hand off to `A.6.3.CSC`, `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `E.17.ID.CR`, `A.15`, `A.10`, or another governing pattern according to the claim being made.
+If the generated summary is source-pointer-only, merely plausible, claim-widened, or carrying added linkage, do not treat it as a conservative source-equivalent summary. Either keep it as source-finding or orientation, repair it against the source, or apply A.6.3.CSC, ExplanationFaithfulnessProfile, RepresentationTransduction, E.17.ID.CR, A.15, A.10, or another governing pattern according to the claim being made.
 
 #### A.6.3.CR:5.2 - Same-EntityOfConcern rewrite via declared correspondence
 
@@ -112,5 +109,5 @@ This does **not** remain ordinary `ConservativeRetextualization`. The coarsened 
 A text is rewritten not mainly to restate the same source, but to explain why it matters, simplify reasoning for a learner, or narrate a mechanism. That move should leave `ConservativeRetextualization` and be reviewed under `ExplanationFaithfulnessProfile`.
 
 #### A.6.3.CR:5.4 - Boundary to representation transduction
-A prose note is rewritten as a table, matrix, diagram, or latent/distributed representation. Even if the EntityOfConcern stays fixed, this is not only a textual rewrite; it belongs with `RepresentationTransduction`.
+A prose note is rewritten as a table, matrix, diagram, latent representation, or distributed representation. Even if the EntityOfConcern stays fixed, this is not only a textual rewrite; it belongs with `RepresentationTransduction`.
 

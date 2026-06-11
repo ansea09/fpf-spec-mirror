@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: "E.17.ID.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__011_rationale.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:10 — Rationale"
-line_start: 65265
-line_end: 65273
+line_start: 65607
+line_end: 65615
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -44,6 +44,6 @@ Teams already write small comparative review units, often as comparison notes or
 What they usually lack is a disciplined way to keep that unit useful without letting it silently become an equivalence claim, a hidden hypothesis, a redesign push, or a release decision.
 
 This pattern exists to protect that everyday bounded-comparison use.
-It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the unsupported downstream claim or effect, and the boundary trigger that would end interpretation.
+It keeps a comparative review unit usable by making five entries visible enough to inspect: the bounded comparative review unit, the source references, the bounded comparative lift, the blocked downstream claim or effect, and the boundary trigger that would end interpretation.
 The gain is practical: a team can compare available source epistemes or source publications honestly without pretending that a helpful review unit already carries more authority than it really does.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+pattern_title: "ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
 section_id: "A.6.3.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__007_bias-annotation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:6 — Bias-Annotation"
-line_start: 11080
-line_end: 11084
+line_start: 11184
+line_end: 11188
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -26,14 +26,11 @@ dependencies:
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
 keywords:
 ---
 
 ### A.6.3.CR:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto/Epist**, **Prag**, **Did**.
-This pattern intentionally biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is explicit handoff discipline to `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, and later downstream governing patterns when the same-entity textual interpretation stops being honest.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**.
+This pattern intentionally biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is to apply `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, or the downstream governing pattern when the same-entity textual interpretation stops being honest.
 

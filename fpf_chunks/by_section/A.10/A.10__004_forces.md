@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.10"
-pattern_title: "Evidence Graph Referring (C‑4)"
+pattern_title: "Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
 section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.10 — Evidence Graph Referring (C‑4)"
+  - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:3 — Forces"
-line_start: 18550
-line_end: 18559
+line_start: 18624
+line_end: 18633
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,6 +58,6 @@ keywords:
 | **Universality vs. evidence-relation cost** | One Standard must fit systems and epistemes ↔ Evidence producers and maintainers need proportionate evidence records.                                                           |
 | **Externality vs. reflexivity** | Evidence must be produced by an external TransformerRole (A.12) ↔ Some systems adapt themselves (need reflexive modelling without self‑evidence). |
 | **Atemporal vs. temporal**      | Many claims are state‑like ↔ Many others are histories; evidence must respect order and coverage (Γ\_time).                                       |
-| **Rigor vs. flow**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental evidence relations.                                 |
+| **Rigor vs. cadence**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental evidence relations.                                 |
 | **Mereology vs. provenance**    | Part‑whole edges build holarchies ↔ Evidence edges never do; the two graphs must interlock without leaking semantics.                             |
 

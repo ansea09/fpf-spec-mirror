@@ -6,12 +6,12 @@ section_id: "C.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__007_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:3 — Forces"
-line_start: 34945
-line_end: 34954
+line_start: 35053
+line_end: 35062
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,8 +53,8 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Exactness vs readability | FPF-governed wording needs kinds named by value, but a sentence overloaded with every possible kind becomes unreadable. |
-| Preservation vs cleanup | Accepted architecture text must not be paraphrased away, but source-companion status cannot be mistaken for pattern authority. |
+| Precision vs readability | FPF-governed wording needs kinds named by value, but a sentence overloaded with every possible kind becomes unreadable. |
+| Preservation vs cleanup | Accepted source text or accepted governing text must not be paraphrased away, but source-companion statement cannot be mistaken for pattern authority. |
 | Local repair vs new ontology | Many phrases only need local A.6.P and F.18 recovery; a few reveal a real missing FPF kind or relation. |
 | FPF-side vs project-side work | The same word can describe FPF pattern authorship or a user's project publication, record, work, or action. |
 | Guidance vs audit | The pattern must tell authors what to do, while check rows only verify that the rewrite was carried out. |

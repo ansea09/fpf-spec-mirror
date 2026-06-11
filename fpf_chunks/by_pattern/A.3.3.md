@@ -1,19 +1,42 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.3.3"
-pattern_title: "U.Dynamics"
+pattern_title: "U.Dynamics: State-Space and Transition-Law Episteme"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.3.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.3 — U.Dynamics"
-line_start: 6443
-line_end: 6707
+  - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
+line_start: 6545
+line_end: 6834
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
+  - "A.20"
+  - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "B.3"
   - "B.4"
+  - "C.2.P.DR"
+  - "C.27"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.20"
+  - "F.18"
+  - "U.BoundedContext"
+  - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Work"
+  - "U.WorkPlan"
 keywords:
   - "model"
   - "simulation"
@@ -21,268 +44,293 @@ keywords:
   - "state space"
 ---
 
-## A.3.3 - `U.Dynamics`
+## A.3.3 - U.Dynamics: State-Space and Transition-Law Episteme
 
+> **Type:** Definitional pattern
 > **Status:** Stable
+> **Normativity:** Normative
 
-### A.3.3:1 - Context
+### A.3.3:1 - Problem frame
 
-Teams need one place to say **how a thing changes**. Physicists call this “dynamics” (equations of motion, state‑transition maps). In IT and enterprise change, we often talk about **evolution of characteristics** (latency, cost, reliability, compliance, architectural fitness) across time. In knowledge work, **KD‑CAL** (knowledge dynamics) reasons about how the **status of claims** shifts as evidence arrives. All these are *the same modeling need*: a context‑local description of **state space** and **allowed transitions**.
+Use this pattern when a project needs one reusable model of **how state changes** in a bounded context: a state space, a transition law, an observation relation, and the conditions under which prediction, simulation, calibration, conformance, drift, or gating claims are warranted.
 
-FPF already separates:
+Use it when the working question is:
 
-* **what a holon is** (structure, PBS/SBS),
-* **how we act** (Method or MethodDescription, Work),
-* **what we promise** (Service).
+* which holon, episteme, system-in-role, claim, service, resource bundle, architecture, or other EntityOfConcern has changing state;
+* which characteristics define the state space;
+* which transition law states how those coordinates evolve;
+* which observations or work-derived traces can be compared with the law;
+* whether a prediction can be used for comparison, gating, assurance, planning, or control.
 
-What is missing without `U.Dynamics` is the **law of change**—the model that tells us how states evolve **with or without** our interventions.
+**Primary EntityOfConcern.** The `EntityOfConcern` is `U.Dynamics`: an `U.Episteme` that specifies a state space and a state-transition law for one or more EntitiesOfConcern in a bounded context.
 
-> Intuition: **Method** tells an agent what to do; **Dynamics** tells everyone how the world (or a model of it) changes when something happens (or even when nothing happens).
+**First useful move.** Name the changing EntityOfConcern, the bounded context, the state-space characteristics, the transition law, the observation relation, and the applicability window. If these cannot be named, the current claim is not yet ready for prediction, conformance, or gate use.
 
-**Lexical note.** Terms like *process* and *thermodynamic process* are mapped by **L‑PROC**:
+**What goes wrong if missed.** Procedure text becomes "the dynamics", telemetry becomes a law, one observed run becomes a prediction, a dashboard becomes a state space, or a simulation becomes permission to act.
 
-* the **recipe** is `U.Method or U.MethodDescription`,
-* the **dated run** is `U.Work`,
-* the **law/trajectory model** is `U.Dynamics`.
+**What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate methods from laws of change, and decide where mathematical-lens, temporal, evidence, assurance, or gate patterns must take over.
+
+**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If it states an episteme describing that way, use `A.3.2`. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness of a claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
 
 ### A.3.3:2 - Problem
 
-Without a first‑class `U.Dynamics`, models suffer predictable failures:
+Without a first-class `U.Dynamics`, state-change claims collapse into nearby but different claims:
 
-1. **Recipe = Law.** Teams put the *procedure* (Method or MethodDescription) where the *state law* should be, so simulations and predictions become impossible to compare with reality.
-2. **Run = Law.** Logs of Work are mistaken for dynamics; past events are treated as if they defined what *must* happen.
-3. **No state space.** Discussions jump between metrics (latency! throughput!) without an explicit **characteristic space** or invariants, so “improvements” cannot be reasoned about.
-4. **Domain lock‑in.** “Dynamics” is left to domain vocabularies (physics, control, finance), losing a trans‑disciplinary way to speak about change in a single kernel.
+1. **Recipe becomes law.** Teams put procedure text, a control diagram, a workflow diagram, or a method description where a state-transition law should be.
+2. **Trace becomes law.** Dated work logs, telemetry, and incident sequences are treated as if past events defined what must happen.
+3. **Dashboard becomes state space.** Metric lists appear without characteristics, units, scales, topology, geometry, invariants, or operating region.
+4. **Prediction becomes authority.** A model output is used for a gate, release, safety, or work decision without freshness, non-expansiveness, commutation, observation, or assurance conditions.
+5. **Domain vocabulary blocks transfer.** Physics, control, finance, reliability, operations, knowledge dynamics, and architecture all talk about change differently; FPF needs one kernel pattern that preserves their differences without inventing separate ontologies.
 
 ### A.3.3:3 - Forces
 
-| Force                                  | Tension                                                                                                                 |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs. richness**          | One kernel notion must cover ODE/PDE, Markov chains, queues, discrete events, and enterprise “fitness characteristics”. |
-| **Model vs. reality**                  | A law must be **design‑time** (an `Episteme`), yet judged by **run‑time** evidence (Work).                              |
-| **Continuous vs. discrete vs. hybrid** | Different time bases and update rules must coexist.                                                                     |
-| **Open vs. closed systems**            | Exogenous inputs (control/disturbances) may be explicit or implicit.                                                    |
-| **Predictive use vs. diagnostic use**  | The same dynamics can guide planning or explain incidents; interfaces must support both.                                |
+| Force | Tension |
+| --- | --- |
+| Universality and domain richness | One kernel pattern must cover ODEs, PDEs, Markov kernels, queues, discrete events, Bayesian updates, enterprise characteristic evolution, and architecture-quality change without flattening the domain-specific model. |
+| Model and world | `U.Dynamics` is an episteme, while evidence comes from dated work, telemetry, observation, and source relations. |
+| Continuous, discrete, stochastic, and hybrid forms | Time bases, update rules, likelihood models, and disturbances differ; the state-space and transition-law declaration must keep them explicit. |
+| Prediction and intervention | A law can inform planning, diagnosis, simulation, model-predictive control, or assurance, but it does not itself assign work authority or responsibility. |
+| Mathematical power and transfer risk | Mathematical form can make prediction precise, but transfer across domains, scales, or representations needs `C.29` and sometimes `A.6.0`. |
+| Freshness and gate pressure | Predictions are attractive when observation is slow or expensive; gate use still needs stated currentness and applicability conditions. |
 
-### A.3.3:4 - Solution — The unified concept `U.Dynamics`
+### A.3.3:4 - Solution
 
-**Definition (normative).**
-Within a `U.BoundedContext`, **`U.Dynamics`** is an **`U.Episteme` that specifies a state space and a state‑transition law** (deterministic or stochastic, continuous/discrete/hybrid) for one or more holons, possibly under exogenous inputs and constraints. It **does not** prescribe what an agent should do (that is `U.Method or U.MethodDescription`) and **is not** the dated evolution itself (that is `U.Work` evidence).
+#### A.3.3:4.1 - Definition
 
-* **Type:** `U.Episteme` (design‑time model/law on a carrier).
-* **Orientation:** descriptive/predictive about **how states evolve**; can be used by Methods but remains separate from them.
-* **Judged by:** conformance of observed **Work‑derived traces** to the law and invariants.
+Within a `U.BoundedContext`, `U.Dynamics` is an `U.Episteme` that specifies a **state space** and a **state-transition law** for one or more EntitiesOfConcern, possibly under exogenous inputs, constraints, and observation relations.
 
-#### A.3.3:4.1 - Core structure (minimal fields)
+`U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can describe physical systems, software services, organizations, episteme states, claim states, resource states, architecture characteristics, or other holons whose state change is being modeled.
 
+It does not prescribe what an agent should do. A semantic way of doing belongs to `U.Method`; an episteme describing that way belongs to `U.MethodDescription`; a dated occurrence belongs to `U.Work`; a planned occurrence belongs to `U.WorkPlan`; a mechanism law belongs to `U.Mechanism`; evidence and assurance claims belong to their own governing patterns.
+
+#### A.3.3:4.2 - Dynamics statement
+
+Use this compact statement when applying the pattern:
+
+```text
+Dynamics statement:
+  EntityOfConcern:
+  BoundedContext:
+  StateSpace:
+  TransitionLaw:
+  TimeBase:
+  Stochasticity:
+  InputsOrDisturbances:
+  ObservationRelation:
+  ConstraintsOrInvariants:
+  ApplicabilityWindow:
+  CalibrationOrParameterBasis:
+  PredictionUse:
+  EvidenceRelation:
+  StopCondition:
 ```
+
+This statement is not an instruction sequence. It is the smallest episteme-facing record needed to keep the law of change separate from methods, work, evidence, and authority.
+
+#### A.3.3:4.3 - Working distinction table
+
+| Current claim | Governing pattern |
+| --- | --- |
+| state space and transition law for changing state | `A.3.3 U.Dynamics` |
+| semantic way of doing | `A.3.1 U.Method` |
+| text, code, diagram, model, proof script, or protocol describing a method | `A.3.2 U.MethodDescription` |
+| planned dated work | `A.15.2 U.WorkPlan` |
+| dated work occurrence and actuals | `A.15.1 U.Work` |
+| mechanism algebra, admissible operation, or law-governed application over a subject kind | `A.6.1 U.Mechanism` and `E.20` |
+| formal object, invariant, postulate set, or mathematical substrate | `A.6.0`, `C.29`, or the direct mathematical pattern |
+| observation, trace, conformance result, source, or provenance used as evidence | `A.10` and evidence-neighbor patterns |
+| assurance case, trust calculus, or safety argument | `B.3` or the direct assurance pattern |
+| gate passage, release, authority, or permission to act | `A.20`, `A.21`, or the direct gate or authority pattern |
+| freshness, delay, rhythm, currentness, inertia, or validity window of a claim | `C.27` |
+
+#### A.3.3:4.4 - State-space and transition-law fields
+
+```text
 U.Dynamics {
-  context        : U.BoundedContext,     // where the model’s meaning and units are defined
-  stateSpace     : CharacteristicSpace,  // explicit characteristics & units; may include topology/geometry
-  transitionLaw  : Episteme,             // equations/relations/kernels/transition matrices/rules
-  timeBase       : {continuous|discrete|hybrid},
-  stochasticity? : {deterministic|stochastic}, // incl. noise/likelihood model if stochastic
-  inputs?        : P(Characteristic),    // control/disturbances/environmental drivers
-  observation?   : Episteme,             // measurement/observation map from state to observables
-  constraints?   : Episteme,             // invariants/safety envelopes/guards
-  validity?      : Conditions,           // operating region, approximations, version, timespan
-  calibration?   : Episteme              // parameter identification / priors
+  context: U.BoundedContext
+  entityOfConcern: EntityOfConcern
+  stateSpace: CharacteristicSpace
+  transitionLaw: U.Episteme
+  timeBase: continuous | discrete | hybrid
+  stochasticity: deterministic | stochastic
+  inputsOrDisturbances?: CharacteristicSet
+  observationRelation?: U.Episteme
+  constraintsOrInvariants?: U.Episteme
+  applicabilityWindow?: ConditionSet
+  calibrationOrParameterBasis?: U.Episteme
 }
 ```
 
-* **`stateSpace`** uses FPF **characteristics** (not “characteristics”) so we can talk about **architecture fitness** (e.g., latency, MTBF, cost) just like temperature/pressure/volume in physics.
-* **`transitionLaw`** is paradigm‑agnostic: ODE/PDE, finite‑state relation, Petri net firing, queueing kernel, Bayesian update, etc.
-* **`observation`** separates what exists from what we *measure* (key for monitoring/assurance).
+`stateSpace` uses FPF characteristics with units, scales, and comparability rules. It may include topology, geometry, aggregation policy, or coordinate transformations when trajectories or comparisons need them.
 
-#### A.3.3:4.2 - What `U.Dynamics` is **not**
+`transitionLaw` is paradigm-agnostic. It can be an equation, relation, kernel, finite-state transition, queueing model, Bayesian update, Petri-net firing relation, simulation rule, learned predictor, or hybrid model, provided the state space and applicability window are declared.
 
-* **Not a Method or MethodDescription:** no imperative steps or prescriptions.
-* **Not Work:** no timestamps/resources attached; evidence lives on `U.Work`.
-* **Not a Service:** no consumer promise; dynamics may underpin service SLOs but does not define the promise.
-* **Not PBS/SBS:** do not place dynamics inside structural BoMs.
+`observationRelation` separates state from what can be measured, sampled, logged, estimated, or inferred. Identity observation is allowed only when the context says the state coordinate is directly observed.
 
-### A.3.3:5 - Where `U.Dynamics` sits in enactment
+#### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 
-* **Design‑time:**
-  Methods may *reference* Dynamics for planning/control (e.g., MPC uses a plant model).
-  Services may *derive* acceptance targets from Dynamics (e.g., queueing predictions → SLO).
+Let `D` be a `U.Dynamics` in context `C`, and let `W` be dated `U.Work` records or observation records produced under `C`.
 
-* **Run‑time:**
-  Work produces **state samples/telemetry**; applying the **observation** map yields traces.
-  Conformance/violation is decided by comparing traces with **constraints** and predictions from the transition law.
-  Updates to model parameters flow via **calibration** (design‑time again).
+| Derived value | Meaning |
+| --- | --- |
+| `trace(W, D)` | ordered observed values produced by applying `D.observationRelation` to work records, telemetry, source records, or measurements |
+| `initialState(W, D)` | stated, measured, or estimated state at trace start |
+| `predict(D, initialState, inputs, horizon)` | trajectory or distribution generated by the transition law over the declared horizon |
+| `insideOperatingRegion(D, state)` | check against constraints, invariants, and applicability window |
+| `residuals(D, trace)` | discrepancies between predicted and observed values under a stated alignment |
+| `fits(D, trace, tolerancePolicy)` | conformance verdict under a declared tolerance, likelihood, interval, or distributional policy |
+| `drift(D1, D2, domain)` | divergence between two dynamics versions over a declared operating domain |
 
-> Memory hook: **Method decides**, **Dynamics predicts**, **Work reveals**.
+Calibration outcomes produce a new or updated dynamics episteme. They do not turn the old law into a dated work record and do not make the new law authoritative for gates without the gate pattern.
 
-### A.3.3:6 - Prediction Use In Gating (normative)
+#### A.3.3:4.6 - Prediction use in comparison or gating
 
-When **predicted** coordinates (from a dynamics model) are used for **comparison or gating**, one of the following **MUST** hold:
-1) a **fresh observation** is available for the gate’s window; or
-2) the applied flow/map `Φ_{Δt}` is proven **non‑expansive** (Lipschitz ≤ 1) under the declared distance overlay (see § 5.1.7), **and** it **commutes** with the invariantization step (§ 5.1.6) — i.e., `Quot/Fix_g ∘ Φ_{Δt} = Φ_{Δt} ∘ Quot/Fix_g` on the domain of use.
+When predicted coordinates from `U.Dynamics` are used for comparison, release, gate, assurance, or work-preparation use, one of these conditions must hold:
 
-If neither condition is satisfied, using prediction for gating is **forbidden**; the system **MUST** fall back to observation. Any use of `Φ_{Δt}` **SHALL** declare its validity window (range, Δt).
+1. a fresh observation is available for the gate or comparison window; or
+2. the applied transition map `Phi_dt` is declared non-expansive under the declared distance structure, and the transition commutes with the invariantization or quotient step on the domain of use.
 
-### A.3.3:7 - Archetypal grounding (engineer‑manager friendly)
+If neither condition is satisfied, prediction does not carry the gate or comparison claim. Use observation, reopen `C.27`, or move the gate claim to `A.20`, `A.21`, or the direct authority pattern.
 
-| Domain                        | Holon & State Space                     | Transition Law Example               | Observation                 | Typical Questions                                                 |
-| ----------------------------- | --------------------------------------- | ------------------------------------ | --------------------------- | ----------------------------------------------------------------- |
-| **Process control**           | Reactor: {Temperature, Concentration}   | Non‑linear ODE with disturbance term | Thermocouples, analyzers    | Will we overshoot? What control horizon keeps safety constraints? |
-| **Reliability/ops**           | Service platform: {MTBF, MTTR, Backlog} | Birth–death/queueing model           | Incident logs, uptime pings | Given load, what SLO is feasible?                                 |
-| **Evolutionary architecture** | System: {Latency, Cost, Coupling}       | Discrete‑time map per release        | Perf tests, bills           | If we change X, how does latency trend next 3 sprints?            |
-| **KD‑CAL (knowledge)**        | Claim: {Belief, Support}                | Bayesian update rule                 | Evidence carriers          | How does confidence evolve as studies arrive?                     |
+Every use of `Phi_dt` states its applicability window: operating region, horizon, scale band, time step, parameter regime, and source-currentness condition.
 
-**Key takeaway:** one kernel object captures **trajectories in a characteristic space**, from thermodynamics to software quality and knowledge confidence.
+#### A.3.3:4.7 - C.27 and C.29 boundaries
 
-### A.3.3:8 - Conformance Checklist (normative)
+`C.27` may flag a temporal claim whose downstream use depends on a reusable transition law, prediction, simulation, calibrated control, or formal model. `A.3.3` keeps the law: state space, transition law, observation relation, constraints, simulation, prediction, calibration, and model-applicability discipline. A `Dyn2TemporalClaimAdequacyCard` or temporal classification is not itself a law of change.
 
-**CC‑A3.3‑1 (Type).**
-`U.Dynamics` **IS** an `U.Episteme` (design‑time model/law on a carrier). It is **not** a `U.Method or U.MethodDescription`, **not** `U.Work`, and **not** a structural part of any PBS/SBS.
+Stay in `A.3.3` when `transitionLaw` or `observationRelation` uses accepted local dynamics, Markov kernels, ODEs, simulations, queueing theory, control theory, or domain theory inside one context.
 
-**CC‑A3.3‑2 (Context).**
-Every `U.Dynamics` **MUST** be declared **inside** a `U.BoundedContext`. Units, characteristic names, admissible regions, and time base are **local to the context**; cross‑context reuse requires a Bridge (`U.Alignment`).
+Use `C.29` when the law depends on contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting, or reusable explanation across contexts. The `C.29` output states preserved structure, lost structure, operating-region or scale window, rival lens when current, lens-use boundary value, and stop condition. `A.3.3` remains the governing pattern for state space, transition law, observation, constraints, and calibration semantics.
 
-**CC‑A3.3‑3 (Explicit state space).**
-`stateSpace` **MUST** enumerate characteristics with units and scales (continuous, discrete, or ordinal) and any topology/geometry needed for trajectories. Do **not** refer to informal “axes”.
+#### A.3.3:4.8 - Method, mechanism, and governing-pattern constellation boundary
 
-**CC‑A3.3‑4 (Transition law).**
-`transitionLaw` **MUST** specify a state‑transition relation/map/kernel suitable for the declared time base (`continuous|discrete|hybrid`) and stochasticity (deterministic or with a likelihood/noise model).
+A source label such as `process`, `algorithm`, `dynamics`, `workflow`, `model`, `controller`, or `simulator` may point to linked slot positions under `E.10.ARCH`, not to one typed value. Recover the relevant slots first, then split the linked values:
 
-**CC‑A3.3‑5 (Observation model).**
-If evidence from `U.Work` is to be checked against the law, an `observation` mapping **MUST** be provided (identity is acceptable only if explicitly stated). Sampling rate/granularity **SHOULD** be declared.
+* `U.Method` for the semantic way of doing;
+* `U.MethodDescription` for the representation describing that way;
+* `U.Dynamics` for the state-space and transition-law episteme;
+* `U.Mechanism` for an admissible operation or law-governed application over a subject kind;
+* `U.WorkPlan` and `U.Work` for planned and dated occurrences;
+* evidence, gate, authority, and assurance values when those claims are current.
 
-**CC‑A3.3‑6 (Constraints & validity).**
-If safety/envelope constraints apply, they **MUST** be declared under `constraints`. Operating region, approximations, version, and `timespan` **SHOULD** be stated under `validity`.
+The linkage among relation positions does not become a process, method, mechanism, dynamics model, plan, work occurrence, or evidence object. Do not assign one typed value as both `U.Method` and `U.Dynamics` unless a governing pattern explicitly admits that dual typing for the current claim.
 
-**CC‑A3.3‑7 (Separation from Method).**
-A `U.Dynamics` **SHALL NOT** prescribe imperative steps or responsibilities. Planning/control algorithms that *use* the dynamics belong to `U.Method or U.MethodDescription`.
+### A.3.3:5 - Archetypal Grounding
 
-**CC‑A3.3‑8 (No actuals on Dynamics).**
-Resource/time **actuals** and telemetry **MUST** attach to `U.Work`. Calibration outcomes produce **new versions** of `U.Dynamics`; the law object itself carries no run‑time logs.
+#### A.3.3:5.1 - Reactor control
 
-**CC‑A3.3‑9 (Multi‑scale declaration).**
-If state is aggregated across parts or time, the aggregation policy (`Γ_time`, `Γ_work`, averaging vs. sum vs. percentile) **MUST** be stated to prevent incoherent comparisons.
+A reactor team models temperature and concentration under a nonlinear ODE with disturbances. The ODE, state space, observation relation, and operating region are `U.Dynamics`. The control policy is `U.Method`; the controller code is `U.MethodDescription` unless a dated run or mechanism claim is current. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
 
-**CC‑A3.3‑10 (Lexical hygiene).**
-Ambiguous uses of *process/processual* (laws vs. runs vs. recipes) **MUST** be resolved per **L‑PROC**/**L‑ACT**:
+#### A.3.3:5.2 - Reliability and operations
 
-* law → `U.Dynamics`,
-* recipe → `U.Method or U.MethodDescription`,
-* run → `U.Work`.
+A service platform models backlog, arrival rate, and incident recovery with a queueing or birth-death model. The model can predict whether an SLO is feasible, but the service promise remains `U.PromiseContent`, and release or gate use needs the gate pattern.
 
-**CC‑A3.3‑11 (Link to Services—optional).**
-If service SLOs are derived from a dynamics model, the service promise clause (`U.PromiseContent`) **SHOULD** reference that `U.Dynamics` (A.2.3), but the promise clause remains the promise, not the law.
+#### A.3.3:5.3 - Evolutionary architecture
 
-### A.3.3:9 - Evidence and operators (traces, prediction, conformance)
+An architecture group tracks latency, coupling, operational cost, and change lead time across releases. A discrete-time transition map over those characteristics can be `U.Dynamics`. Architecture moves, selected structures, and views stay with architecture patterns; work occurrences and measurements stay with work and evidence patterns.
 
-Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records produced under `C`. Let `obs_D(-)` be the declared observation map for `D`.
+#### A.3.3:5.4 - Knowledge dynamics
 
-#### A.3.3:9.1 - Derived evidence
+A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. A Bayesian or likelihood update is a dynamics episteme over claim state. The studies, reviews, and source records are evidence values; the dynamics model does not make a claim true by itself.
 
-* **`trace(W, D)` → Sequence\<t, y>:**
-  derive an ordered sequence of observed values `y` at times `t` by applying `obs_D` to Work/telemetry associated with `W`. (Not a kernel type; a derived analysis or assurance value.)
+#### A.3.3:5.5 - Natural physical evolution
 
-* **`inputs(W)` → Series:**
-  exogenous inputs and control signals recovered from Work metadata if the model declares `inputs`.
+The Moon orbiting Earth can be modeled as `U.Dynamics` without pretending that the Moon enacts a method or performs governed work. A role assignment such as satellite classification may be well-formed, but it does not create method-work alignment.
 
-* **`initialState(W, D)` → x₀:**
-  the assumed/estimated state at trace start (from Work context or a stated estimation rule).
+### A.3.3:6 - Bias-Annotation
 
-#### A.3.3:9.2 - Prediction & simulation
+Typical biases:
 
-* **`predict(D, x₀, inputs?, horizon)` → Trajectory:**
-  propagate the law to obtain a predicted trajectory in the declared state space.
+* **recipe-as-law bias**: procedure text or controller code is treated as the law of change;
+* **trace-as-law bias**: logs or one observed run are treated as reusable dynamics;
+* **dashboard-as-state-space bias**: visible metrics substitute for declared characteristics, units, scales, and comparability relations;
+* **prediction-as-authority bias**: model output is treated as permission, gate passage, or safety proof;
+* **mathematical-prestige bias**: equations, learned predictors, and simulations are accepted without applicability window, observation relation, and transfer boundary;
+* **semio-bias**: the pattern drifts into arguments about descriptions of dynamics while losing the state-space and transition-law EntityOfConcern.
 
-* **`admissible(D, x)` → bool:**
-  test whether state `x` satisfies `constraints`.
+### A.3.3:7 - Conformance Checklist
 
-* **`reach(D, S₀, S₁, inputs?, horizon)` → bool:**
-  reachability: can states in `S₀` evolve into `S₁` under the law.
+**CC-A3.3-1 (Type).** `U.Dynamics` is an `U.Episteme` for a state-space and transition-law claim. It is not `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, evidence, assurance, or gate authority.
 
-#### A.3.3:9.3 - Conformance & drift
+**CC-A3.3-2 (Bounded context).** Every `U.Dynamics` is declared inside a `U.BoundedContext`. Units, characteristic names, operating region, time base, approximation regime, and source-currentness condition are local to that context.
 
-* **`residuals(D, trace)` → Series:**
-  discrepancies between predicted and observed series under a stated alignment (point‑wise, windowed, distributional).
+**CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other holon with modeled state.
 
-* **`fits(D, trace, tol)` → {pass|fail|partial}:**
-  verdict under tolerance policy `tol` defined by the context (e.g., sup‑norm ≤ ε, percentile bands, likelihood threshold).
+**CC-A3.3-4 (State space).** The state space enumerates characteristics with units, scales, comparability rules, and any needed topology, geometry, aggregation policy, or invariantization rule.
 
-* **`drift(D₁, D₂, domain)` → Measure:**
-  divergence between two model versions over a declared operating domain (e.g., max deviation of eigenvalues, KL between predictive distributions).
+**CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
 
-#### A.3.3:9.4 - Invariants
+**CC-A3.3-6 (Observation relation).** Evidence use states how work records, telemetry, measurements, or source records become observed coordinates. Direct observation is declared rather than assumed.
 
-* `fits(D, trace, tol)=pass` ⇒ every sample lies in `admissible(D,-)` unless the context explicitly permits out‑of‑envelope transients.
-* If two traces are generated under identical `inputs` and initial conditions, recorded differences must be explainable by the declared stochasticity/noise model or flagged as violations.
+**CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
-> **Didactic hook:** *Dynamics predicts; Work reveals; Conformance compares.*
+**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or work sequence. Planning or control methods that use dynamics belong to `U.Method` and `U.MethodDescription`.
 
-### A.3.3:10 - Anti‑patterns (and the right move)
+**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, work logs, and telemetry attach to work, evidence, or source values. Calibration creates a new or revised dynamics episteme.
 
-* **“Dynamics = procedure.”**
-  Control recipes/step graphs belong to `Method or MethodDescription`. Keep the law in `U.Dynamics`.
+**CC-A3.3-10 (Prediction use).** Predicted coordinates used for comparison or gating require fresh observation or a declared non-expansive, invariant-commuting transition map over the domain of use.
 
-* **“Telemetry = dynamics.”**
-  Logs are `Work` evidence. Build `trace(Work, D)` and compare to the law; do not store logs inside the law.
+**CC-A3.3-11 (C.27 boundary).** Temporal adequacy, freshness, delay, rhythm, inertia, and currentness claims stay with `C.27` unless a reusable transition law is current.
 
-* **“No state space.”**
-  KPI lists without an explicit `stateSpace` turn into dashboard folklore. Name characteristics with units and ranges.
+**CC-A3.3-12 (C.29 boundary).** Contested, cross-domain, learned, speculative, scale-changing, or transferable mathematical-lens use is assigned to `C.29`; `A.3.3` keeps the dynamics semantics.
 
-* **“Hard‑coding SLO inside the law.”**
-  Service targets are promises (`U.PromiseContent.acceptanceSpec`). Keep predictions and promises separate; link them.
+**CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered.
 
-* **“Stuffing Dynamics into BoM.”**
-  A model is not a component. Leave PBS/SBS for structure.
+### A.3.3:8 - Common Anti-Patterns and How to Avoid Them
 
-* **“One size fits all time base.”**
-  If parts of the system evolve on different clocks, declare `hybrid` and separate update rules.
+| Anti-pattern | Repair |
+| --- | --- |
+| "The procedure is the dynamics." | Put the semantic way of doing in `U.Method`, the procedure text in `U.MethodDescription`, and the law of state change in `U.Dynamics`. |
+| "Telemetry is the dynamics." | Treat telemetry as evidence or source material; derive `trace(W, D)` and compare it with the declared law. |
+| "The dashboard is our state space." | Recover characteristics, units, scales, comparability relations, operating region, and invariants. |
+| "The simulation approved the release." | Keep simulation as prediction; use `A.20`, `A.21`, `A.10`, or `B.3` for gate, evidence, and assurance claims. |
+| "The model works everywhere." | State the applicability window and lowering condition; use `C.27` for currentness and `C.29` for transfer. |
+| "A workflow diagram proves the dynamics." | Recover whether the diagram describes a method, plan, evidence relation, mechanism, or transition law. |
+| "A learned predictor is the law." | State training domain, observation relation, uncertainty, error policy, and applicability window before using prediction. |
 
-### A.3.3:11 - Migration notes (quick path to value)
+### A.3.3:9 - Consequences
 
-1. **Name the changing things.** Pick 3–7 **characteristics** that matter (physical or architectural). Declare `stateSpace` with units and ranges.
-2. **Write the law you already use.** Even if it is a queueing approximation or a simple ARIMA—put it under `transitionLaw` and state assumptions under `validity`.
-3. **Separate recipe from law.** Move control procedures to `Method or MethodDescription`; keep forecasting/plant equations in `U.Dynamics`.
-4. **Wire evidence.** Ensure production `Work` emits the measurements needed by `observation`. Build `trace(Work, D)`.
-5. **Start conformance.** Define a simple `tol` and compute `fits(D, trace, tol)` weekly. Raise issues on drift; version the model when calibrating.
-6. **Link to promises (optional).** If SLOs depend on the law, reference `U.Dynamics` from `U.PromiseContent` and derive targets transparently.
-7. **For KD‑CAL.** Treat belief/support as characteristics; declare a Bayesian/likelihood update in `transitionLaw`; evaluate conformance against evidence arrivals.
+| Benefit | Cost or caution |
+| --- | --- |
+| Prediction, simulation, conformance, drift, and calibration claims become reviewable. | The project must name state-space characteristics and observation relations rather than relying on dashboard labels. |
+| Methods, method descriptions, mechanisms, work, and dynamics stop substituting for each other. | Source labels like `process` and `model` often need `E.10.ARCH` recovery before typed assignment. |
+| Gate and release use becomes safer because prediction needs freshness or a stated mathematical condition. | Some attractive predictions become inadmissible until observation or proof is supplied. |
+| Dynamics can cover physical, organizational, epistemic, software, architectural, and resource examples under one FPF kind. | Domain-specific laws still need their own notation, assumptions, and evidence disciplines. |
+| Mathematical-lens transfer is visible rather than hidden inside equations. | `C.29` may be needed when the dynamics model crosses contexts, scales, or representation regimes. |
+
+#### A.3.3:9.1 - Quick use cards
+
+* **Dynamics predicts.** It is a state-space and transition-law episteme.
+* **Work reveals.** Measurements, logs, and actuals belong to work, evidence, or source values.
+* **Method guides.** A method may use dynamics, but dynamics is not the method.
+* **State space first.** No state-space characteristics, no reviewable dynamics claim.
+* **Observation matters.** A law without observation relation cannot be compared with traces.
+* **Prediction is not authority.** Gate and release claims need their governing patterns.
+
+### A.3.3:10 - Rationale
+
+FPF needs `U.Dynamics` because many practical questions are not about what an agent should do, but about how a state changes when the world evolves, a model is simulated, evidence arrives, a resource pool fluctuates, or an architecture changes. Those questions need a law of change, not a procedure, not a work log, and not a promise.
+
+The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is not a universal notation. It is the distinction between state-space, transition law, observation relation, applicability window, and neighboring claims.
+
+### A.3.3:11 - SoTA-Echoing
+
+| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| --- | --- | --- | --- |
+| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adapt: dynamics, transformations, tasks, and processes are kept close without collapsing law, method, mechanism, and work. | `U.Dynamics` is a law-of-change episteme; transformation and method claims stay in their governing patterns. |
+| Current data-driven predictive-control work | de Jong, Breschi, Schoukens, and Lazar, "Koopman Data-Driven Predictive Control with Robust Stability and Recursive Feasibility Guarantees", arXiv:2405.01292; Shang, Cortes, and Zheng, "On the Exponential Stability of Koopman Model Predictive Control", arXiv:2511.02008. | Adopt: prediction, lifted state, stability, recursive feasibility, and prediction error need explicit state-space, model, horizon, and constraint declarations. | `stateSpace`, `transitionLaw`, `applicabilityWindow`, `constraintsOrInvariants`, and prediction-use conditions are mandatory before comparison or gate use. |
+| Current stochastic predictive-control work | Knaup and Tsiotras, "Recursively Feasible Stochastic Model Predictive Control for Time-Varying Linear Systems Subject to Unbounded Disturbances", arXiv:2410.11107. | Adopt: stochasticity, unbounded disturbances, time variation, feasibility, and chance constraints must not be hidden behind one model label. | `stochasticity`, `inputsOrDisturbances`, tolerance policy, and applicability window are explicit fields. |
+| Current digital-twin validation pressure | Russell Bernal, Petterson, Alarcon Granadeno, Murphy, Mason, and Cleland-Huang, "Validating Terrain Models in Digital Twins for Trustworthy sUAS Operations", arXiv:2508.16104. | Adapt: model validation depends on operational context, observation limits, granularity, uncertainty, and real-world use conditions. | Observation relation, evidence relation, operating region, and source-currentness condition remain separate from the dynamics law. |
+| Historical state-space, declarative, and imperative contrasts | Classical state-space control, early declarative programming, workflow slogans, and process-model slogans. | Reject as current SoTA by themselves; retain only as lineage and recognition cues. | The pattern repairs by FPF kind, state-space declaration, and slot relation rather than by programming-paradigm or process-slogan labels. |
+
+Refresh this pattern when current work on process theory, predictive control, hybrid systems, stochastic dynamics, digital twins, causal dynamics, learned world models, graph representations, equivalence representations, or FPF's own characteristic-space, temporal, mathematical-lens, work, evidence, and gate patterns changes the governing distinction.
 
 ### A.3.3:12 - Relations
 
-**C.27 temporal-claim relation.**
-
-- C.27 may flag: a claim whose downstream use depends on a reusable transition law, prediction, simulation, calibrated control, or formal model.
-- This pattern keeps: state space, transition law, observation/model constraints, simulation, prediction, calibrated control, and validity discipline.
-- Non-admissible use: a `Dyn2TemporalClaimAdequacyCard` or Dyn2 classification is not a law of change, and `dynOrder` is not a property of the state space or transition law.
-- Exit: if the answer requires a reusable law, prediction, simulation, or calibrated control model, the claim belongs with `U.Dynamics`; C.27 only cites that pattern relation and keeps the temporal-claim adequacy question.
-
-* **Builds on:**
-  `A.1.1 U.BoundedContext` (local meaning/units),
-  `A.2 Role` / `A.2.1 RoleAssigning` (agents that *use* the law),
-  `A.15.1 U.Work` (run‑time evidence).
-
-* **Coordinates with:**
-  `A.3.1 U.Method` / `A.3.2 U.MethodDescription` (planning/control using the law),
-  `A.2.3 U.PromiseContent` (promises informed by predictions),
-  **KD‑CAL** (knowledge dynamics as a specialisation: belief‑update laws),
-  **Resrc‑CAL** (cost/energy models as dynamics over resources).
-
-* **Constrained by lexical rules:**
-  **E.10 L‑PROC** (process disambiguation), **L‑ACT** (activity/action), **L‑FUNC** (function).
-
-### A.3.3:13 - Didactic quick cards (engineer‑manager ready)
-
-* **Dynamics = Law of Change.** A design‑time model of how states evolve.
-* **State space = Named characteristics with units.** No vague “axes”.
-* **Method vs Dynamics.** Method decides *what we do*; Dynamics predicts *what will happen*.
-* **Work = Evidence.** Only Work has timestamps and resource actuals.
-* **Conformance = Prediction vs Trace.** Fit, residuals, drift.
-* **Keep promises separate.** Services are promises; Dynamics informs them but does not replace them.
-
-**Memory hook:** **Method decides - Dynamics predicts - Work reveals.**
-
-### A.3.3:12a - C.29 mathematical-lens use relation
-
-> If `transitionLaw` or `observation` uses accepted local dynamics, Markov kernels, ODEs, simulations, or accepted domain theory, stay in `A.3.3`; no MathLensUse output is needed unless a separate lens-transfer, publication, assurance, bridge, prediction, or reusable-explanation use is being claimed. If `transitionLaw` or `observation` depends on a contested, cross-domain, learned, or speculative mathematical lens, add the applicable `C.29` output for that stated use. That output states preserved dynamic structure, lost structure, validity or scale window, rival lens when live, `LensUseAdmissibilityValue`, and stop condition; then return to `A.3.3` for state space, transition law, observation, constraints, and calibration semantics.
+* **Builds on:** `A.1.1 U.BoundedContext`; `A.19 CharacteristicSpace`; episteme machinery for description, source, and publication when those claims are current.
+* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; architecture patterns when dynamics describes architecture-characteristic change.
+* **Separates from:** services and promise content; PBS and SBS structural breakdowns; causal-use claims; gate authority; assurance arguments; publication-use claims.
+* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when source labels hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics.
 
 ### A.3.3:End
 

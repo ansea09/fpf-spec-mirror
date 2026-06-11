@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 44650
-line_end: 44674
+line_start: 45074
+line_end: 45098
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,19 +64,19 @@ keywords:
 
 ### C.22.2:9 - Goldilocks and Set-Return Docking
 
-Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` must not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection interpretation carried by current governing patterns.
+Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` does not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection interpretation carried by current governing patterns.
 
-A Goldilocks, stepping-stone, or archive-derived problem must be represented as source context or set context, selection or retention criterion, and current next move, not as problem difficulty, priority, or readiness score.
+A Goldilocks, stepping-stone, or archive-derived problem is represented as source context or set context, selection or retention criterion, and current next move, not as problem difficulty, priority, or readiness score.
 
 `ProblemCard@Context` carries only the problem-side readiness fields and relation references:
 
-- source set kind when archive, pool, front, shortlist, selected set, or portfolio language is live;
+- source set kind when archive, pool, front, shortlist, selected set, or portfolio language is current;
 - solvability band;
 - characteristic-space, declared problem-side characteristic descriptor, or Q-bundle relation;
 - declared difference criterion when novelty or diversity is claimed, or apply the governing characterization or comparison pattern;
 - non-scalar trade-off, dominance, partial-order, or set-return relation when that relation is being made;
 - measurability or explicit unknown handling;
-- reversibility or containment for safe probing when live;
+- reversibility or containment for safe probing when current;
 - stepping-stone option value when retention matters;
 - expiry or refresh condition;
 - selected-set, archive, pool, front, or parity relation when that relation is being made.

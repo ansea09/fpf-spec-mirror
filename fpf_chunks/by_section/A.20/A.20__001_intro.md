@@ -6,12 +6,12 @@ section_id: "A.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:intro — Intro"
-line_start: 27825
-line_end: 27830
+line_start: 27925
+line_end: 27933
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -39,7 +39,10 @@ keywords:
 
 ## A.20 - U.Flow.ConstraintValidity — Eulerian
 
-**Tech‑name.** `U.Flow.ConstraintValidity` (`U.Flow` genus)
-**Plain‑name.** Flow constraint validity (Eulerian interpretation)
-**Type / Status.** Architectural pattern — **normative** for flows governed by E.TGA (E.18) under the Eulerian operational interpretation
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative for flows governed by E.TGA (`E.18`) under the Eulerian operational interpretation.
+
+**Tech-name.** `U.Flow.ConstraintValidity` (`U.Flow` genus)
+**Plain-name.** Flow constraint validity (Eulerian interpretation)
 

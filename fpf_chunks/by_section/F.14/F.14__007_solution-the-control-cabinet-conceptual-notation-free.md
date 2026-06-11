@@ -6,12 +6,12 @@ section_id: "F.14:6"
 section_title: "Solution — the control cabinet (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__007_solution-the-control-cabinet-conceptual-notation-free.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:6 — Solution — the control cabinet (conceptual, notation‑free)"
-line_start: 73927
-line_end: 73967
+line_start: 74614
+line_end: 74654
 dependencies:
   - "F.1"
   - "F.10"

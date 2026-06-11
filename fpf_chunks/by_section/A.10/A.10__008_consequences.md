@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.10"
-pattern_title: "Evidence Graph Referring (C‑4)"
+pattern_title: "Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
 section_id: "A.10:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.10 — Evidence Graph Referring (C‑4)"
+  - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:7 — Consequences"
-line_start: 18821
-line_end: 18831
+line_start: 18893
+line_end: 18903
 dependencies:
   - "A.1"
   - "A.10"
@@ -55,10 +55,10 @@ keywords:
 
 | Benefit                           | Why it matters                                                                  | Trade‑off / Mitigation                                                                                                                |
 | --------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cross‑scale reproducibility**   | Any composite metric or argument can be walked back to its carriers and method. | **Overhead** of maintaining SCR/RSCR. *Mitigation:* keep entries minimal but complete; use checklists from the pedagogical companion. |
+| **Cross-scale reproducibility** | Any composite metric or argument can be walked back to its carriers and method. | **Overhead** of maintaining SCR and RSCR. *Mitigation:* keep entries minimal but complete; use checklists from the pedagogical companion. |
 | **DesignRunTag clarity**            | Intent (MethodDescription) is cleanly separated from execution (Work traces).          | **Discipline** needed at boundaries. *Mitigation:* MIC templates; explicit “instantiates” bridges.                                    |
 | **Objective evidence**            | External `TransformerRole` eliminates self‑evidence loops.                      | **Reflexive systems** require a mirror meta‑holon. *Mitigation:* provide a “reflexive modelling” appendix with examples.              |
 | **Comparable numbers over time**  | Temporal coverage invariants prevent “trend” claims built on gaps.              | **Extra dating work** for legacy data. *Mitigation:* allow provisional labels until dating is completed.                              |
-| **Safe composition of knowledge** | SCR/RSCR keep sources intact as Γ\_epist composes epistemes.                    | **Initial friction** in teams new to carrier thinking. *Mitigation:* start with “top‑10 carriers per claim” rule, expand as needed.   |
+| **Safe composition of knowledge** | SCR and RSCR keep sources intact as `Γ_epist` composes epistemes. | **Initial friction** in teams new to carrier thinking. *Mitigation:* start with the ten most important carriers per claim, then expand as needed. |
 | **Feeds B.3 typed assurance claims** | Evidence relations provide evidence inputs such as `R` and `CL` only for a named typed assurance claim. | B.3 is not a generic trust or assurance score; cite the claim named by value and relying context. |
 

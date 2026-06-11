@@ -1,20 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.3"
-pattern_title: "U.Dynamics"
+pattern_title: "U.Dynamics: State-Space and Transition-Law Episteme"
 section_id: "A.3.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.3 — U.Dynamics"
+  - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:3 — Forces"
-line_start: 6476
-line_end: 6485
+line_start: 6583
+line_end: 6593
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
+  - "A.20"
+  - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "B.3"
   - "B.4"
+  - "C.2.P.DR"
+  - "C.27"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.20"
+  - "F.18"
+  - "U.BoundedContext"
+  - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Work"
+  - "U.WorkPlan"
 keywords:
   - "model"
   - "simulation"
@@ -24,11 +47,12 @@ keywords:
 
 ### A.3.3:3 - Forces
 
-| Force                                  | Tension                                                                                                                 |
-| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs. richness**          | One kernel notion must cover ODE/PDE, Markov chains, queues, discrete events, and enterprise “fitness characteristics”. |
-| **Model vs. reality**                  | A law must be **design‑time** (an `Episteme`), yet judged by **run‑time** evidence (Work).                              |
-| **Continuous vs. discrete vs. hybrid** | Different time bases and update rules must coexist.                                                                     |
-| **Open vs. closed systems**            | Exogenous inputs (control/disturbances) may be explicit or implicit.                                                    |
-| **Predictive use vs. diagnostic use**  | The same dynamics can guide planning or explain incidents; interfaces must support both.                                |
+| Force | Tension |
+| --- | --- |
+| Universality and domain richness | One kernel pattern must cover ODEs, PDEs, Markov kernels, queues, discrete events, Bayesian updates, enterprise characteristic evolution, and architecture-quality change without flattening the domain-specific model. |
+| Model and world | `U.Dynamics` is an episteme, while evidence comes from dated work, telemetry, observation, and source relations. |
+| Continuous, discrete, stochastic, and hybrid forms | Time bases, update rules, likelihood models, and disturbances differ; the state-space and transition-law declaration must keep them explicit. |
+| Prediction and intervention | A law can inform planning, diagnosis, simulation, model-predictive control, or assurance, but it does not itself assign work authority or responsibility. |
+| Mathematical power and transfer risk | Mathematical form can make prediction precise, but transfer across domains, scales, or representations needs `C.29` and sometimes `A.6.0`. |
+| Freshness and gate pressure | Predictions are attractive when observation is slow or expensive; gate use still needs stated currentness and applicability conditions. |
 

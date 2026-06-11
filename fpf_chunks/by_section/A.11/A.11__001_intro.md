@@ -6,12 +6,12 @@ section_id: "A.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:intro — Intro"
-line_start: 18909
-line_end: 18912
+line_start: 18977
+line_end: 18980
 dependencies:
   - "A.11"
   - "U.Type"

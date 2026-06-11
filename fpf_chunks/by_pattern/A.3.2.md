@@ -1,31 +1,36 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.3.2"
-pattern_title: "U.MethodDescription"
+pattern_title: "U.MethodDescription: Description Episteme for a Way of Doing"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.2 — U.MethodDescription"
-line_start: 6162
-line_end: 6442
+  - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
+line_start: 6254
+line_end: 6544
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.3"
   - "A.3.1"
+  - "B.3"
+  - "C.2.P.DR"
   - "C.28"
+  - "E.10"
+  - "E.10.ARCH"
+  - "F.18"
   - "U.BoundedContext"
-  - "U.Capability"
-  - "U.Dynamics"
   - "U.Method"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "SOP"
@@ -36,284 +41,294 @@ keywords:
   - "specification"
 ---
 
-## A.3.2 - U.MethodDescription
+## A.3.2 - U.MethodDescription: Description Episteme for a Way of Doing
 
-### A.3.2:1 - Context (plain‑language motivation)
+> **Type:** Definitional pattern
+> **Status:** Stable
+> **Normativity:** Normative
 
-Projects need a **stable way to express “how it is written”**—the recipe, code, SOP, rule set, or formal proof—**without confusing it** with:
+### A.3.2:1 - Problem frame
 
-* the **semantic “way of doing”** (that is `U.Method`),
-* the **assignment** (that is `U.RoleAssignment`),
-* the **ability** (that is `U.Capability`),
-* the **execution** (that is `U.Work`), or
-* the **calendar plan** (that is `U.WorkPlan`).
+Use this pattern when a project needs to say what text, code, diagram, rule set, solver formulation, proof script, SOP, protocol, or process model **describes a method**.
 
-`U.MethodDescription` gives this anchor. It treats **algorithms, programs, proofs, SOPs, BPMN diagrams, solver models, playbooks** as **one class of epistemes**: *knowledge on a carrier that describes a Method*. This unifies software and “paper” procedures and lets teams switch notations without breaking the model.
+Use it when the working question is:
 
-### A.3.2:2 - Problem (what breaks without a clear `MethodDescription`)
+* which `U.Method` is being described;
+* which representation states the fields needed for reuse, review, planning, audit, or enactment;
+* whether two descriptions preserve the same method identity in one bounded context;
+* which parameters, preconditions, effects, admissible outcomes, and acceptance criteria are stated by the description;
+* whether an executable file, proof script, workflow diagram, or optimization model is only a method description, or whether a different FPF claim is current.
 
-1. **Spec/run conflation.** A flowchart or code is mistaken for the run; audits and SLOs become unreliable.
-2. **Who/time leakage.** People and calendars creep into the recipe; reuse and staffing agility die.
-3. **Step‑only bias.** Functional or logical styles are treated as “not real methods”; designs get contorted into faux steps.
-4. **Algorithm‑centrism.** Only code is considered “the method”, leaving SOPs and scientific procedures second‑class.
-5. **Structure entanglement.** BoM/PBS elements end up inside the recipe; method and product structure tangle.
-6. **Unstated equivalence.** Two specs intended to mean “the same method” are not declared equivalent; teams fork semantics by accident.
+**Primary EntityOfConcern.** The `EntityOfConcern` is `U.MethodDescription`: an `U.Episteme` that describes a `U.Method` in some representation.
 
-### A.3.2:3 - Forces (what we must balance)
+**First useful move.** Name the method being described, the bounded context in which its identity is judged, the representation form, and the fields by which work can later cite or enact the described method.
 
-| Force                              | Tension we resolve                                                                                  |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **Representation vs. semantics**   | Many notations, one meaning: specs may differ, method stays one.                                    |
-| **Universality vs. domain idioms** | SOPs, code, solver models, proofs—all first‑class, yet domain terms remain local.                   |
-| **Timelessness vs. operability**   | Specs are timeless, but must be precise enough to drive execution and audit.                        |
-| **Reusability vs. constraints**    | Specs should declare role kinds, capabilities, safety bounds—without baking in people or calendars. |
-| **Evolvability vs. identity**      | Specs change; we need a way to evolve them without losing the method’s identity or history.         |
+**What goes wrong if missed.** Code becomes "the method", a workflow diagram becomes work, an approved protocol becomes evidence of safe execution, a proof script becomes mechanism law, or a declarative representation becomes an ordered work-control claim.
 
-### A.3.2:4 - Solution — the specification as an episteme describing a Method
+**What this buys.** The project can improve, compare, version, audit, and reuse method descriptions without collapsing them into method semantics, work plans, dated work, mechanisms, mathematical substrates, gates, authority claims, or evidence relations.
+
+**Not this pattern when.** Do not use this pattern merely because the source says `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. First recover the slot. The current claim may instead be `A.3.1 U.Method`, `A.6.0` formal-substrate declaration, `C.29` mathematical-lens use, `A.6.1` or `E.20` mechanism meaning, `A.15.2 U.WorkPlan`, `A.15.1 U.Work`, an evidence relation, a publication-use relation, or quote-only source wording.
+
+### A.3.2:2 - Problem
+
+Without a precise `U.MethodDescription` distinction, projects collapse several different claims:
+
+1. **Description as run.** A flowchart, repository, executable, lab protocol, or solver file is treated as if it were the dated work occurrence.
+2. **Description as method semantics.** A notation or file is treated as the method itself, so equivalent descriptions look like competing methods and different methods can hide behind one document name.
+3. **Description as plan or authority.** A protocol, dashboard cue, gate-looking entry, or approved procedure note is treated as a work plan, permission, gate passage, or evidence result.
+4. **Description as mechanism or formal substrate.** A proof script, algorithm, model, or rule set is treated as if it already declared operation algebra, laws, admissibility predicates, transport, or mathematical substrate.
+5. **Imperative overread.** A declarative representation, graph path, query plan, constraint model, or state predicate is interpreted as an ordered work-control claim.
+6. **Unstated equivalence.** Two descriptions intended to describe the same method are not given a local identity criterion, so teams fork method meaning by accident.
+
+### A.3.2:3 - Forces
+
+| Force | Tension this pattern resolves |
+| --- | --- |
+| Representation versus method semantics | Many representations can describe one method; one representation can also carry other claims. |
+| Reuse versus enactment | A method description should be reusable before any particular work occurrence happens. |
+| Precision versus notation plurality | SOPs, code, proof scripts, solver models, process models, and lab protocols can all be useful without forcing one algorithmic paradigm. |
+| Reviewability versus overclaim | A description may be reviewable and executable, but that does not make it evidence, authorization, work, or mechanism law. |
+| Identity versus variation | Variants, refinements, parameter values, and contextual bridges must be visible enough to prevent silent method drift. |
+
+### A.3.2:4 - Solution
 
 #### A.3.2:4.1 - Definition
 
-**`U.MethodDescription`** is an **`U.Episteme`** that **describes a `U.Method`** in a concrete representation (text, code, diagram, model). It is **knowledge on a carrier** that can be reviewed and validated; at run-time a **`U.System`** **uses it to execute the `U.Method` as `U.Work` under a `U.RoleAssignment`**.
+`U.MethodDescription` is an `U.Episteme` that describes a `U.Method` in a representation such as text, code, diagram, model, rule set, proof script, protocol, or executable form.
 
-> **Strict Distinction (memory aid):**
-> **Method** = *how in principle* (semantic Standard).
-> **MethodDescription** = *how it is described* (`U.Episteme` carried by a publication form or carrier).
-> **Work** = *how it went this time* (dated execution).
+A method description is not the method, not the work occurrence, not the work plan, not the performer, not the capability, not the mechanism, not the formal substrate, and not the evidence relation. A system in a transformer-like role may enact a method during `U.Work` while using a method description, but the description itself does not enact anything.
 
-#### A.3.2:4.2 - Representation‑agnostic stance (independent of “algorithmic paradigm”)
+Working distinction:
 
-`U.MethodDescription` **does not privilege any single notation**. Typical forms include (non‑exhaustive):
+| Claim being made | Governing pattern |
+| --- | --- |
+| context-defined semantic way of doing | `A.3.1 U.Method` |
+| representation that describes that way of doing | `A.3.2 U.MethodDescription` |
+| selected formal object, invariant, substrate, or mathematical declaration | `A.6.0`, `C.29`, or another direct mathematical pattern |
+| law-governed operation structure, admissibility predicate set, transport, or realization relation | `A.6.1`, with `E.20` when mechanism meaning is introduced or revised |
+| planned dated work, work preparation, schedule, or launch value | `A.15.2 U.WorkPlan` plus gate or authority patterns when a gate or authority claim is current |
+| dated occurrence with witnesses, logs, measurements, and outputs | `A.15.1 U.Work` |
+| evidence relation or provenance relation for a claim, effect, or use | `A.10`, `B.3`, `G.6`, or the direct evidence pattern or assurance pattern |
 
-* **Imperative Spec** — SOP, BPMN/flowchart, PLC ladder, shell/pipeline scripts.
-* **Functional Spec** — compositions of pure functions, typed pipelines, category‑style combinators.
-* **Logical/Constraint Spec** — rules/goal sets, SAT/SMT/MILP models, theorem‑prover scripts.
-* **Statistical/ML Spec** — model definitions, training/evaluation procedures, inference pipelines.
-* **Reactive/Event‑driven Spec** — statecharts, observers/triggers, stream/CEP rules.
-* **Hybrid Spec** — mixtures (e.g., imperative orchestration calling solver kernels).
+#### A.3.2:4.2 - Representation-agnostic stance
 
-**Same Method, different MethodDescriptions.** In a single `U.BoundedContext`, several MethodDescriptions **may describe the same `U.Method`** if they entail the **same preconditions**, **guarantee the same effects**, and meet the **same non‑functional bounds** (cf. A.3.1).
+`U.MethodDescription` does not privilege imperative procedures or software code. A method description can be written as:
 
-#### A.3.2:4.3 - What a good MethodDescription states (paradigm‑neutral content)
+* an SOP, checklist, BPMN diagram, PLC ladder, shell script, or operational protocol;
+* functional composition, typed pipeline, process model, state machine, or event rule set;
+* SAT, SMT, MILP, theorem-prover, proof-assistant, or constraint-model file;
+* statistical or ML training, evaluation, inference, or deployment description;
+* lab protocol, clinical guideline, control recipe, or organizational rule set;
+* a hybrid form that combines several representations.
 
-Not a schema—these are **content prompts** for reviewers:
+These forms are `U.MethodDescription` only when the current claim is that they describe a method. A solver formulation may also expose a formal substrate. A program run may be `U.Work`. A mechanism card may declare laws and admissibility predicates. A proof may be evidence for a claim. A workflow diagram may describe a method or a work plan depending on the fields it actually states. Representation style alone does not decide the FPF kind.
 
-1. **Purpose & Name of the Method** it describes (link to `U.Method`).
-2. **Interface or ports** (inputs, outputs, resources, or Standards) in the context’s vocabulary.
-3. **Preconditions** (guards, invariants, required states).
-4. **Postconditions / Effects** (what is guaranteed upon success).
-5. **Non‑functional constraints** (latency, precision, cost, safety envelope).
-6. **Role requirements** for enactment (**kinds**, not people)—to be satisfied at run time via **`U.RoleAssignment`**.
-7. **Capability thresholds** the performer must meet (checked against **`U.Capability`** of the holder).
-8. **Failure semantics** (detectable failures, compensations, rollback/forward strategies).
-9. **Compositional hooks** (how this spec composes: serial/parallel/choice/iteration), without embedding calendars.
-10. **Parameter declarations** (what may vary per run; values bound at `U.Work` creation).
+#### A.3.2:4.3 - Method-description fields
 
-> **Didactic guardrail:** A MethodDescription **does not** embed a schedule, assignees, or BoM. Calendars -> `U.WorkPlan`; people and units -> `U.RoleAssignment`; product structure -> PBS and SBS.
+A useful method description usually makes these fields recoverable in the current bounded context:
 
-#### A.3.2:4.3a - Causal-use sampling and realized-counterfactual work boundary
+| Field | What to recover |
+| --- | --- |
+| Method described | the named `U.Method` and the bounded context where the name has meaning |
+| Inputs and outputs | accepted inputs, produced outputs, resources, interfaces, ports, and relevant standards |
+| Preconditions | states, guards, invariants, input conditions, and required environmental conditions |
+| Effects | postconditions, guaranteed effects, produced result kinds, and failure semantics |
+| Bounds | latency, precision, cost, safety envelope, reliability, uncertainty, or other local bounds |
+| Role and capability requirements | role kinds and capability thresholds required for enactment, not named people |
+| Parameters | values that may vary across work occurrences, defaults, ranges, and binding time |
+| Acceptance criteria | how a work occurrence or result is judged against the method description |
+| Variants and refinement | declared deltas, preserved interface, strengthened preconditions or effects, and identity criterion |
+| Source and edition | publication, file, document, or source relation when reliance depends on a version |
 
-A `U.MethodDescription` may specify how to perform intervention assignment, counterfactual randomization, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection. That specification is still a recipe for action: it declares role requirements, preconditions, postconditions/effects, parameters, failure semantics, and acceptance criteria for the work.
+Calendars, assignees, work authorization, gate passage, and dated execution witnesses are not part of the method-description claim. They may cite the method description, but they are governed elsewhere.
 
-It does not by itself make a causal-use claim admissible. If the resulting work is used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, causal method superiority, or support for a causal decision, apply `C.28` to the causal-use question: causality-ladder rung, estimand, support basis, support verdict, supported use, and unsupported use.
+#### A.3.2:4.4 - Method-description acceptance and use boundaries
 
-#### A.3.2:4.4 - Epistemic roles for MethodDescriptions (via `U.RoleAssignment`)
+A method description may be accepted, regulated, preferred, deprecated, or forbidden in a bounded context. That is a separate publication, gate, authority, or policy claim. The acceptance label does not turn the description into work, evidence, a gate decision, or a mechanism.
 
-Being an Episteme, a MethodDescription may itself play epistemic roles via `U.RoleAssignment` in a context (classification, not action), e.g.:
+When a method description is used to prepare or enact work, keep the chain explicit:
 
-* `ApprovedProcedureRole`, `RegulatedProcedureRole`, `SafetyCriticalProcedureRole`, `De‑factoStandardRole`.
-* These **do not** make the spec an actor; they classify its **status** within the context (who may use it, in which settings).
+1. `U.MethodDescription` describes `U.Method`.
+2. `U.WorkPlan` may cite that description when preparing dated work.
+3. A system in a role assignment enacts the method during `U.Work`.
+4. Work outputs, logs, traces, measurements, or publications may become evidence only through the governing evidence or assurance pattern.
 
-#### A.3.2:4.5 - Constructor‑theoretic note (unifying “algorithms” and “physical recipes”)
+#### A.3.2:4.5 - Method, mechanism, and formal-substrate boundary
 
-In the constructor‑theoretic reading used by FPF:
+Do not decide method, mechanism, or formal substrate by the surface word. When a source expression names changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-* **Algorithms, programs, solver models, proofs** are all **`U.MethodDescription`**—descriptions of Methods that transform **information**.
-* **SOPs, control recipes, lab protocols** are **`U.MethodDescription`**—descriptions of Methods that transform **matter/energy**.
-* A **universal transformer** (a system with sufficient capability) enacts **any physically admissible MethodDescription**—not only informational ones.
+For this host, keep the local question thin: is the current claim an episteme that describes a method? If the same source expression also raises method, mechanism, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 
-This keeps software and “wet lab” on equal footing.
+The local position checks are:
+* In **method-description position**, the claim is that a representation describes a method.
+* In **method position**, the claim is the context-defined semantic way of doing.
+* In **formal-substrate position**, the claim is the selected formal object, structure, invariant, or mathematical declaration used for reasoning.
+* In **mechanism position**, the claim is the law-governed operation algebra, law set, admissibility predicates, applicability, transport, audit surface, or realization relation.
+* In **work position**, the claim is a dated occurrence with witnesses and outputs.
 
-### A.3.2:5 - Clear distinctions (quick litmus for managers)
+Those links remain typed relation-position links to separately governed claims. Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits such dual typing; a slot-position label names the relation position, not a new ontology.
 
-| You are holding…                          | It is…                         | Why                                           |
-| ----------------------------------------- | ------------------------------ | --------------------------------------------- |
-| A BPMN diagram or SOP                     | **`U.MethodDescription`**             | A description on a carrier.                   |
-| A git repo or compiled binary             | **`U.MethodDescription`**             | Still a description (even if executable).     |
-| “The way we do X in principle”            | **`U.Method`**                 | Semantic Standard beyond any single notation. |
-| A run log with timestamps                 | **`U.Work`**                   | A dated execution event.                      |
-| A role description (“surgeon”, “planner”) | **`U.Role` / `U.RoleAssignment`** | assignment, not recipe.                      |
-| “Can achieve ±0.2 mm”                     | **`U.Capability`**             | Ability of a holder, not a spec.              |
-| A calendar for next week’s runs           | **`U.WorkPlan`**               | Plan/schedule, not a recipe.                  |
-| A state‑transition law                    | **`U.Dynamics`**               | Model of evolution, not a method description. |
+Example: a MILP file can describe a scheduling method; the mathematical formulation can be a formal substrate; a selector mechanism can declare admissible selection operations over candidate methods; a scheduled solver run is work; the resulting production schedule can become evidence for a separate claim. Those claims may be linked, but one does not close the others.
 
-### A.3.2:6 - Archetypal grounding (parallel cases)
+#### A.3.2:4.6 - Constructor and process-theory note
 
-#### A.3.2:6.1 - Industrial SOP (imperative)
+In the constructor-theory and process-theory interpretation used by this campaign, both informational and physical procedures are understood through possible or impossible transformations. That motivates a broad method-description kind without making software code privileged:
 
-* **Method:** `Etch_Al2O3`.
-* **MethodDescription:** `SOP_Etch_v7.pdf` + PLC ladder file.
-* **Role requirements:** `EtchOperatorRole`; **Capability:** gas‑control precision ≤ threshold.
-* **Execution:** `Tool_42#TransformerRole:Fab_A` enacts the spec → **Work** runs W‑143…W‑155.
+* a program, proof script, or solver model may describe a method for information transformation;
+* an SOP, lab protocol, or control recipe may describe a method for material, energetic, organizational, or mixed transformation;
+* a method description can be used by a system in a transformer-like role during work;
+* a mechanism may declare law-governed operation structure for transformations, but that mechanism claim is separate from the method-description claim.
 
-#### A.3.2:6.2 - Optimization model (logical/constraint)
+This note is not a license to call every algorithm-looking expression a method description. It only explains why FPF can treat many representation forms uniformly after the current slot is recovered.
 
-* **Method:** `JS_Schedule_v4`.
-* **MethodDescription:** MILP model + solver config; admissible solution definition.
-* **Execution:** `PlannerService_v4#TransformerRole:Plant_2025` produces **Work** `Run_2025‑W32‑P1`.
+#### A.3.2:4.7 - Declarative representation boundary
 
-#### A.3.2:6.3 - Clinical guideline (epistemic, status via RoleStateGraph + State Assertion)
+Some method descriptions use declarative representations: constraint sets, graph patterns, state predicates, SQL-like queries, policy rules, e-graphs, monoidal diagrams, or process constraints. Do not translate such representations into an imperative route unless the method claim actually states an ordered action structure.
 
-* **Method:** `AcuteAppendicitis_Triage`.
-* **MethodDescription:** clinical decision rule set; **Epistemic Role**: `RegulatedProcedureRole:Hospital_Context`.
-* **Execution:** `ER_Team#TransformerRole:ER_Shift` enacts the spec on a case → **Work** visit V‑8842.
+If the source turns a graph path, evidence path, query plan, predicate, checklist, publication face, or pattern relation into a route, dispatch, call sequence, receiver path, or work workflow by metaphor, apply `C.2.P.DR` before assigning the direct governing pattern.
 
-### A.3.2:7 - Bias‑Annotation (as in E‑cluster)
+### A.3.2:5 - Archetypal Grounding
 
-* **Lenses tested:** `Did`, `Prag`, `Arch`, `Epist`.
-* **Scope declaration:** Universal; semantics are **context‑local** via `U.BoundedContext`.
-* **Rationale:** Elevates procedural descriptions such as code, SOPs, executable scripts, and recipe-like models to a single class, avoiding algorithm-centrism and step-only bias. Keeps the strict split among **Method**, **MethodDescription**, **Work**, **Role**, and **Capability**.
+Across the slices below, `U.MethodDescription` is recognized by its relation to a method, not by its carrier or notation:
 
-### A.3.2:8 - Conformance Checklist (normative)
+```text
+In this bounded context, which representation describes which U.Method, for which later work, review, planning, audit, or enactment use?
+```
 
-**CC‑A3.2‑1 (Episteme status).**
-`U.MethodDescription` **IS** an `U.Episteme` (knowledge on a carrier). It is **not** a `U.Method` (semantic way), **not** a `U.Work` (execution), **not** a `U.Role` or `U.RoleAssignment` (assignment), **not** a `U.WorkPlan` (schedule), and **not** PBS or SBS content.
+#### A.3.2:5.1 - Industrial procedure
 
-**CC‑A3.2‑2 (Context anchoring).**
-Every `U.MethodDescription` **MUST** be interpreted **within** a `U.BoundedContext`. Names, Standards, and admissible non‑functional bounds are **local** to that context.
+`SOP_Etch_v7.pdf` and a PLC ladder file describe `EtchAl2O3@FabA`.
 
-**CC‑A3.2‑3 (Method linkage).**
-A `U.MethodDescription` **MUST** declare the `U.Method` it describes. Multiple MethodDescriptions **MAY** describe the same Method (see CC‑A3.2‑8).
+The method description states gas-flow inputs, temperature bounds, chamber preconditions, expected etch profile, failure conditions, operator role kind, calibration capability threshold, and accepted parameter ranges.
 
-**CC‑A3.2‑4 (assignment/time‑free).**
-A MethodDescription **SHALL NOT** embed assignees, org units, or calendars. People/units are bound via **`U.RoleAssignment`** at run time; calendars belong to **`U.WorkPlan`**.
+The scheduled maintenance-window run is `U.WorkPlan`; tool run `W-143` is `U.Work`; metrology output becomes evidence only when an evidence pattern governs the relevant claim or use; gas-flow equations may require `C.29` or `A.6.0`.
 
-**CC‑A3.2‑5 (Structure‑free).**
-BoM, PBS, and SBS descriptions **SHALL NOT** be embedded in MethodDescriptions. Reference **interfaces and resources** and constraints instead of listing parts and assemblies.
+#### A.3.2:5.2 - Optimization model
 
-**CC‑A3.2‑6 (Role and capability requirements).**
-A MethodDescription **MAY** state **role kinds** and **capability thresholds** required for enactment. These are **requirements**, not bindings. They are checked at run time against `U.RoleAssignment` and `U.Capability`.
+A MILP model and solver configuration describe `JSScheduleV4@Plant2026` when the current claim is the method for producing a production schedule.
 
-**CC‑A3.2‑7 (Parameterization).**
-Parameters **MUST** be **declared** in the Method or MethodDescription; concrete values are **bound** when creating `U.Work`. Default values in a spec are allowed but **SHALL NOT** force a schedule or assignee.
+The same files may also carry formal-substrate claims: variables, constraints, objective, admissible solution set, and invariants. A solver run with timestamps is work. A selector mechanism, if declared, lives under `A.6.1` and `E.20`.
 
-**CC‑A3.2‑8 (Semantic equivalence).**
-Two MethodDescriptions **describe the same `U.Method`** in a given context **iff** they entail the **same preconditions**, **guarantee the same postconditions and effects**, and satisfy the **same non-functional bounds** for all admissible inputs and conditions of that context (per A.3.1 CC-A3.1-7). Differences in control flow, search, or notation do **not** break equivalence.
+Do not infer that solver search order is the project work sequence.
 
-**CC‑A3.2‑9 (Refinement).**
-`Spec₂` **refines** `Spec₁` for the same Method iff it **preserves interface**, **does not weaken** postconditions/effects, and **tightens** (or equal) non‑functional bounds under **equal or stronger** preconditions. Declare refinement explicitly in the context.
+#### A.3.2:5.3 - Proof script
 
-**CC‑A3.2‑10 (Compatibility claims).**
-Claims such as “sound but incomplete” or “complete but potentially unsound” relative to another MethodDescription **MUST** be stated explicitly and scoped to the context (e.g., solver approximations).
+A proof-assistant script may describe the method for deriving a theorem, expose a formal substrate, or serve as evidence for a claim. The method-description claim is current only when the script is used as the representation of the reusable way of deriving or checking.
 
-**CC‑A3.2‑11 (Executable specs).**
-Executability does **not** change status: an executable description (program, script) is still a **MethodDescription**. Its runs are **Work**; its semantics are the **Method** it denotes.
+A concrete proof-checking session is work. A theorem publication or source citation is publication use or evidence use. The algebraic or type-theoretic structure may require a mathematical-lens or formal-substrate declaration.
 
-**CC‑A3.2‑12 (Epistemic roles via `U.RoleAssignment`).**
-A MethodDescription **MAY** play **epistemic roles** via `U.RoleAssignment` (e.g., `ApprovedProcedureRole`, `RegulatedProcedureRole`) that classify its status. Such bindings **do not** make the spec an actor.
+#### A.3.2:5.4 - Clinical guideline
 
-**CC‑A3.2‑13 (Non‑determinism declaration).**
-If a MethodDescription permits non‑determinism (e.g., search/optimization), the **space of admissible outcomes** and **acceptance criteria** **MUST** be stated (so that Work can be judged).
+A clinical guideline describes `AcuteAppendicitisTriage@HospitalContext` when it states the triage method: inputs, exclusions, decision criteria, role kind, capability requirements, expected result, and failure response.
 
-**CC‑A3.2‑14 (Bridging across contexts).**
-If two contexts use different MethodDescriptions for “the same‑named way,” an explicit **Bridge (`U.Alignment`)** **SHOULD** be provided to map terms/assumptions. Do **not** assume cross‑context identity by name alone.
+Regulatory acceptance, authorization to use, patient-specific dated enactment, and causal-use claims are separate. If the resulting work is used for a causal claim, apply `C.28`.
 
-**CC-A3.2-15 (Causal-use work boundary).**
-A MethodDescription **MAY** describe intervention assignment, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection by naming `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` relations. It **SHALL NOT** be treated as causal-use support, causal-use admissibility, or causal-use verdict by itself. When that work is used causally, the causal-use question, rung, estimand, support basis, support verdict, supported use, and unsupported use **SHALL** be carried by `C.28`.
+#### A.3.2:5.5 - Workflow diagram
 
-### A.3.2:9 - MethodDescription mereology (epistemic composition; not method composition)
+A BPMN or object-centric process model can be a method description when it states the reusable method. It can also be a work-plan view, source data, event-log model, process-mining representation, or publication face.
 
-Keep two worlds separate:
+If the diagram is being interpreted as a route that tokens or workers must follow, check whether that route claim is truly part of the method. If it is only a diagrammatic overread of constraints, objects, events, or graph structure, use `C.2.P.DR` and the direct governing pattern.
 
-* **Method composition (design‑time semantic):** combines Methods into **new Methods** (A.3.1 §9).
-* **MethodDescription mereology (epistemic):** combines **documents/code/models** into larger specification descriptions. This is about **parts of the description**, not about the semantic method algebra.
+### A.3.2:6 - Bias-Annotation
 
-**Epistemic part relations (illustrative):**
+This pattern mainly blocks six recurring biases:
 
-* **`ConstituentOf`** — a chapter/module/snippet is a constituent of a larger spec.
-* **`Imports/Uses`** — this spec reuses a library/rule set.
-* **`VariantOf`** — this spec is a variant (e.g., for different equipment) with declared deltas.
-* **`RepresentationOf`** — this visual diagram is a representation of the textual rule set.
+* **carrier-as-description bias**: the PDF, repository, file, screen, or publication face is treated as the method description without checking what episteme it carries;
+* **description-as-method bias**: the representation is treated as the way of doing itself;
+* **description-as-work bias**: executable or operational-looking representation is treated as dated work;
+* **approval-as-proof bias**: accepted, approved, or regulated descriptions are treated as evidence, gate passage, or safe execution;
+* **notation-prestige bias**: code, formal notation, or solver files are treated as more real than SOPs, diagrams, or guidelines without field recovery;
+* **imperative-metaphor bias**: graph, query, predicate, or process-model representation is treated as an ordered work-control claim.
 
-**Didactic rule:** Do not infer that a spec with two modules **means** a Method with “two steps.” Modules are **parts of the description**, not necessarily steps of the Method.
+The repair is to recover what the representation describes, then keep neighboring method, work, plan, evidence, gate, authority, mechanism, formal-substrate, and mathematical-lens claims in their governing patterns.
 
-### A.3.2:10 - Parameterization & variability (templates, defaults, configs)
+### A.3.2:7 - Conformance Checklist
 
-**Templates.** A MethodDescription may serve as a **template** with parameters (e.g., temperature set‑points, solver tolerances, objective weights).
+**CC-A3.2-1 (Episteme).** `U.MethodDescription` is an `U.Episteme` describing a `U.Method`. It may be expressed in text, code, diagram, model, rule set, or executable form, but the publication form or representation form does not determine the current FPF claim.
 
-**Binding time.**
+**CC-A3.2-2 (Method linkage).** A method description must name or recover the `U.Method` it describes and the bounded context where the method identity is judged.
 
-* **Declare** parameters in the spec;
-* **Bind** values when creating `U.Work` (or at an agreed “compile” stage);
-* Keep bound values **visible** in the Work record (so runs can be compared).
+**CC-A3.2-3 (No automatic trigger repair).** `Algorithm`, `program`, `proof`, `solver`, `workflow`, `process`, `procedure`, `recipe`, and `model` wording must not be repaired to `U.MethodDescription` until the current slot is recovered.
 
-**Defaults and guards.**
+**CC-A3.2-4 (Description not work).** A method description is not a work occurrence. Executability does not change this: program runs, proof-checking sessions, solver runs, lab runs, and clinical applications are `U.Work` when dated occurrence fields are current.
 
-* Defaults are allowed; list **valid ranges** and **guards** (e.g., safety constraints).
-* If a default has safety impact, state it explicitly as part of **preconditions**.
+**CC-A3.2-5 (Description not plan or authority).** A method description is not a work plan, gate decision, permission, approval, external-rule authorization, or evidence relation. Those claims may cite the description but require their own governing patterns.
 
-**Variants.**
+**CC-A3.2-6 (Description not mechanism).** A method description does not close a mechanism claim. If operation algebra, law set, admissibility predicates, applicability, transport, audit, or realization relation is current, use `A.6.1` and `E.20` as needed.
 
-* When variants differ only by **parameter ranges** → keep one Method with one MethodDescription template.
-* When variants differ by **Standard** (effects/bounds) → either declare a **refinement** or introduce a **distinct Method** (context decision).
+**CC-A3.2-7 (Description not formal substrate).** A method description does not close a formal-substrate or mathematical-lens claim. If variables, equations, invariants, structure, substrate, or mathematical payoff are current, use `A.6.0`, `C.29`, or the direct mathematical pattern.
 
-### A.3.2:11 - Equivalence & compatibility (across notations and contexts)
+**CC-A3.2-8 (No people or calendars inside the description claim).** A method description may state role kinds and capability thresholds required for enactment. Named people, dates, schedules, launch values, and work witnesses belong to work planning, role assignment, or work occurrence claims.
 
-**Within one context.**
+**CC-A3.2-9 (Parameters and binding time).** Parameters may be declared in the method or method description. Concrete run values are bound in `U.WorkPlan` or `U.Work` according to the current claim.
 
-* Use **semantic equivalence** (CC‑A3.2‑8) to assert that BPMN vs code vs solver model are the **same Method**.
-* Prefer a short **equivalence note** showing parity of pre/post/bounds.
+**CC-A3.2-10 (Equivalence).** Two method descriptions describe the same `U.Method` in a bounded context only when they preserve the same method identity: accepted inputs, preconditions, effects, bounds, and acceptance criteria. Different notation, control structure, or representation style is not enough to split or merge method identity.
 
-**Across contexts.**
+**CC-A3.2-11 (Refinement).** A refinement claim must state what is preserved and what is strengthened: interface, preconditions, postconditions, effects, bounds, or accepted outcomes. Refinement is not implied by a new file version.
 
-* Treat identity as **not guaranteed**.
-* Provide **Bridges (`U.Alignment`)** that map terms, units, roles, and acceptance criteria.
-* Be explicit if one spec is only **sound** (never returns forbidden outcomes) vs **complete** (can return all allowed outcomes).
+**CC-A3.2-12 (Nondeterminism).** If the method description permits search, optimization, sampling, nondeterministic choice, or learned behavior, it must state the admissible outcome set and acceptance criteria needed to judge work results.
 
-**Observational perspective (pragmatic).**
-Two specs are observationally equivalent for stakeholders **if**, under declared conditions, they are indistinguishable by the acceptance tests of that context (even if internal strategies differ).
+**CC-A3.2-13 (Context bridge).** Cross-context reuse requires an explicit bridge or alignment relation for terms, units, roles, assumptions, and acceptance criteria. Name identity alone is insufficient.
 
-### A.3.2:12 - Anti‑patterns (and the right move)
+**CC-A3.2-14 (Declarative representation).** If a method description contains declarative representations, do not overread them as ordered work-control claims. Use `C.2.P.DR` when route, path, call, dispatch, receiver, workflow, or lifecycle language hides the represented object or direct governing pattern.
 
-* **Spec = run.** “Yesterday’s process log is our spec.” → The log is **Work**; write a **MethodDescription** and link runs to it.
-* **Who/time in the spec.** “Step 3 by Alice at 02:00 daily.” → Use **RoleAssigning** at run time; schedule via **WorkPlan**.
-* **Stuffing BoM.** Listing parts and assemblies inside the spec. -> Reference **interfaces and resources**; keep PBS and SBS separate.
-* **Algorithm‑only bias.** Treating code as “real spec” and SOPs as “notes.” → Both are **MethodDescription**; judge by Standards, not by format.
-* **Hiding non‑determinism.** Solver model with no acceptance criteria. → Declare admissible outcome set and tests.
-* **Silent parameter capture.** Hard‑coding values without declaring parameters. → Declare parameters with ranges; bind at Work creation.
-* **Undeclared variant drift.** Copy‑pasting specs and tweaking silently. → Use **VariantOf** with stated deltas or declare a refinement.
+**CC-A3.2-15 (Causal-use boundary).** A method description may describe intervention assignment, target-trial emulation, realized-counterfactual sampling, simulation, or causal-evidence collection. It does not by itself establish causal use. If causal effect, intervention success, counterfactual comparison, causal fairness, or policy effect is claimed, use `C.28`.
 
-### A.3.2:13 - Migration notes (quick wins)
+### A.3.2:8 - Common Anti-Patterns and How to Avoid Them
 
-1. **Label the descriptions.** Wherever a repo/diagram/document “is the process,” rename it **MethodDescription** and link it to a named **Method**.
-2. **Extract people and calendars.** Move all assignees to **RoleAssigning** and all schedules to **WorkPlan**.
-3. **Introduce parameter blocks.** Add a small “Parameters” section with ranges/defaults and safety guards.
-4. **Write acceptance criteria.** Especially for search/optimization or ML specs.
-5. **Declare equivalence/refinement.** Where two notations intend “the same way,” add an **equivalence note**; where the new one tightens bounds, declare **refinement**.
-6. **Bridge domains.** If two departments use different vocabularies, add a **Bridge (`U.Alignment`)** rather than forcing a single spec.
+| Anti-pattern | Repair |
+| --- | --- |
+| "The code is the method." | If the claim is about the repository or executable form, use `U.MethodDescription`; if it is about the semantic way of doing, name the `U.Method`; if it is about a run, use `U.Work`. |
+| "Yesterday's log is our procedure." | The log is work evidence or a work record. Write or cite the method description separately. |
+| "The approved protocol proves safe use." | Separate method description, approval or gate claim, safety evidence, work plan, and work occurrence. |
+| "The optimization model is the process." | Recover whether the current claim is method description, formal substrate, method, mechanism, work plan, work, or evidence. |
+| "The query plan calls the next step." | Check whether this is a database plan, method description, formal representation, or metaphorical overread; use `C.2.P.DR` when needed. |
+| "The diagram's route is the workflow." | Recover whether the route is graph path, method sequence, work plan, event trace, or diagram convention. |
+| "The new version refines the old one." | State the preserved interface and strengthened preconditions, effects, outcomes, or bounds. |
+| "SOPs are notes, code is the real spec." | Treat both as possible method descriptions; judge by recoverable method fields, not representation prestige. |
 
-### A.3.2:14 - Consequences
+### A.3.2:9 - Consequences
 
-| Benefits                                                                                                          | Trade‑offs / mitigations                                                                           |
-| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **One class for all recipes.** SOPs, code, models, proofs become peers; teams can choose the best notation.       | **A bit more ceremony.** You name the Method and the MethodDescription separately; the payoff is clarity. |
-| **Cleaner audits.** Specs vs runs vs assignments vs abilities never mix.                                         | **Discipline required.** Keep schedules and people out of specs.                                   |
-| **Easier reuse and substitution.** Equivalence/refinement rules enable swapping notations without semantic drift. | **Equivalence is a claim.** Back it with short acceptance tests.                                   |
-| **Cross‑domain coherence.** Bridges allow controlled translation between contexts.                                | **Bridge maintenance.** Someone owns the mapping; keep it short and focused.                       |
+| Benefit | Cost or caution |
+| --- | --- |
+| Method descriptions become reusable across notations. | Users must separate method identity from description form. |
+| Audits can distinguish description, plan, work, evidence, and authority. | The first repair step is slot recovery, not a vocabulary replacement. |
+| Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several governing-pattern statements. |
+| Equivalent descriptions can be declared without forcing identical notation. | Equivalence and refinement need local criteria. |
+| Declarative representations can be used without being turned into ordered work-control claims. | Route-like language needs `C.2.P.DR` or a direct governing-pattern assignment. |
 
-### A.3.2:15 - Relations
+#### A.3.2:9.1 - Quick use cards
 
-* **Builds on:** A.3.1 `U.Method` (the semantic way it describes); A.1.1 `U.BoundedContext`.
-* **Coordinates with:** A.2 `U.Role`, A.2.1 `U.RoleAssignment` (who enacts it); A.2.2 `U.Capability` (ability thresholds); A.15 Role–Method–Work (linking `isExecutionOf` to runs); `C.28` when intervention, target-trial, counterfactual-sampling, simulation, or causal-evidence work is used to support a causal-use claim.
-* **Informs:** `U.WorkPlan` (plans reference MethodDescriptions); `U.Dynamics` (models that specs may assume); Epistemic Role patterns (status of specs RoleStateGraph + State Assertion).
-* **Lexical guards:** E.10.y **L‑PROC** (do not call MethodDescription “process” when you mean Work/WorkPlan); E.10.x **L‑FUNC** (avoid “function/functionality” confusion).
+* **Written way is not the way itself.** A method description describes a `U.Method`.
+* **Executable is still not a run.** Runs are `U.Work`.
+* **Representation is not enough.** Code, proof, solver, SOP, diagram, and workflow words require slot recovery.
+* **Mechanism needs laws.** Use `A.6.1` and `E.20` when operation algebra, laws, admissibility, transport, audit, or realization is current.
+* **Math needs its own claim.** Use `A.6.0` and `C.29` when formal substrate or mathematical-lens use is current.
+* **No ordered-action overread.** Use `C.2.P.DR` when declarative representations are overread as ordered action structures.
 
-### A.3.2:16 - Didactic quick cards
+### A.3.2:10 - Rationale
 
-* **Spec ≠ Method ≠ Work.** *Written recipe* ≠ *semantic way* ≠ *dated execution*.
-* **Keep people/time out.** Assignees → **RoleAssigning**; schedules → **WorkPlan**.
-* **Declare parameters & acceptance.** Bind values at Work; state how success is judged.
-* **Same method, different specs.** BPMN/code/solver can be equivalent **if** pre/post/bounds match.
-* **Bridge, do not blur.** Cross‑team/domain differences go through **`U.Alignment`**, not wishful thinking.
+FPF needs `U.MethodDescription` because a project often works with recipes, programs, protocols, diagrams, and formal files before any dated work occurs. Those representations can be improved, versioned, compared, audited, and cited; treating them as the method itself, the run, the authorization, or the evidence destroys those distinctions.
+
+The pattern is intentionally representation-agnostic. A method description is an episteme about a way of doing, not a privileged notation. Code and solver files can be method descriptions, but so can SOPs, guidelines, lab protocols, proof scripts, and diagrams when the current claim is that they describe a method.
+
+### A.3.2:11 - SoTA-Echoing
+
+| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| --- | --- | --- | --- |
+| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adopt and adapt: descriptions are kept close to transformation claims without becoming the transformation or work occurrence. | The pattern separates method description, method, mechanism, work plan, work, and evidence across physical, informational, organizational, and mathematical examples. |
+| Current scoped-effects and handlers work | Bosman, van den Berg, Tang, and Schrijvers, "A Calculus for Scoped Effects & Handlers", LMCS 20(4), 2024, arXiv:2304.09697; Matache, Lindley, Moss, Staton, Wu, and Yang, "Scoped Effects as Parameterized Algebraic Theories", ESOP 2024 extended version, arXiv:2402.03103. | Adopt: operation syntax, semantic handling, scope, resources, equations, and type information plus effect information are separate concerns. | Executable-looking descriptions are not automatically method semantics, mechanism law, work, or proof of success. |
+| Current graph and equivalence representation work | Tiurin, Barrett, Ghica, and Hu, "Equivalence Hypergraphs: DPO Rewriting for Monoidal E-Graphs", arXiv:2406.15882, v2 revised 2025-05-20. | Adapt: graph, query, equivalence, and rewrite structures can be representations without being ordered instructions. | Declarative method-description representations are repaired with `C.2.P.DR` when wording turns them into ordered work-control claims. |
+| Historical declarative versus imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004. | Reject as current SoTA; retain only as lineage and regression contrast. | Older slogans remain useful recognition cues, but the repair recovers FPF kind and slot instead of choosing one programming-paradigm label. |
+
+Refresh this pattern when current work on process theory, effect systems, executable specifications, process modeling, graph and equivalence representations, or FPF's own method, method-description, work, mechanism, and mathematical-lens patterns changes the governing distinction.
+
+### A.3.2:12 - Relations
+
+* **Builds on:** `A.3.1 U.Method`; `A.1.1 U.BoundedContext`; episteme and publication machinery where source, edition, or publication use is current.
+* **Coordinates with:** `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.2` and `A.2.1` for role and role-assignment claims; `A.2.2` for capability thresholds; `A.10` and `B.3` for evidence and assurance; `C.28` for causal-use claims.
+* **Separates from:** `A.6.0` formal-substrate declarations; `C.29` mathematical-lens use; `A.6.1 U.Mechanism`; `E.20` mechanism-meaning introduction and revision.
+* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when method-like or representation-like wording hides the governed slot.
 
 ### A.3.2:End
 

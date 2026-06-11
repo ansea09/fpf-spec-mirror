@@ -1,32 +1,39 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.3.1"
-pattern_title: "U.Method"
+pattern_title: "U.Method: Context-Defined Way of Doing"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.1.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.1 — U.Method"
-line_start: 5908
-line_end: 6161
+  - "A.3.1 — U.Method: Context-Defined Way of Doing"
+line_start: 5910
+line_end: 6253
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.3"
-  - "B.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
+  - "C.2.P.DR"
+  - "C.29"
+  - "E.18"
+  - "E.18.1"
+  - "E.20"
   - "U.BoundedContext"
   - "U.Capability"
-  - "U.Dynamics"
-  - "U.PromiseContent"
-  - "U.Role"
   - "U.RoleAssignment"
-  - "U.WorkPlan"
 keywords:
   - "abstract process"
   - "how-to"
@@ -34,257 +41,347 @@ keywords:
   - "recipe"
 ---
 
-## A.3.1 - U.Method
+## A.3.1 - U.Method: Context-Defined Way of Doing
 
-### A.3.1:1 - Context (plain‑language motivation)
+> **Type:** Definitional pattern
+> **Status:** Stable
+> **Normativity:** Normative
 
-Teams must talk about **how** something is done without entangling:
+### A.3.1:1 - Problem frame
 
-* **Who** is assigned (that is **Role**/**RoleAssigning**),
-* **Whether** the holder can do it (that is **Capability**), and
-* **What actually happened** (that is **Work**).
+Use this pattern when a project needs to say **how something is done in principle** without prematurely treating that method claim as a document, program, workflow diagram, plan, run log, role assignment, capability statement, mechanism claim, or mathematical-model claim before those positions are recovered.
 
-`U.Method` supplies the *how*—the **abstract way of performing a transformation**, independent of a specific run, a specific assignee, or a specific notation. It works across paradigms:
+Typical moments:
 
-* **Imperative** (step‑graphs, SOPs, BPMN),
-* **Functional** (pure mappings and compositions, no “steps”),
-* **Logical/constraint/optimization** (goals, rules, admissible solutions).
+* a team says "the method is the code", "the process is the BPMN", "the workflow is the evidence", or "the solver model is the operation";
+* a procedure, protocol, proof script, optimization model, control strategy, or recipe must be reused across many runs;
+* two descriptions look different but may describe the same way of doing;
+* a graph, query, table, dashboard, checklist predicate, or mathematical representation is being interpreted as if it were an instruction sequence;
+* work planning, dated work, method description, formal substrate, mechanism, and evidence are starting to collapse into one vague "method" word.
 
-In FPF, a **system** bearing a **TransformerRole** *enacts* a `U.Method` (producing **Work**) by following a **MethodDescription**—an episteme that describes the method in some representation.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: the context-local semantic way of doing a kind of transformation or enactment.
 
-### A.3.1:2 - Problem (what goes wrong without a clean notion of “method”)
+**First useful move.** Name the context-local way of doing, the transformation or enactment it is about, and the `EntityOfConcern` whose state, result, selection, derivation, control relation, or maintained condition changes or is preserved.
 
-1. **Process soup.** “Process” gets used for recipe, execution, schedule, or org area. Planning, staffing, and audit blur together.
-2. **Spec = run fallacy.** A flowchart (or code) is taken as if execution already happened; conversely, logs get mistaken for the recipe.
-3. **Role leakage.** People encode assignments inside the recipe (“this step is the surgeon”), tying **who** to **how** and making reuse impossible.
-4. **Notation lock‑in.** When “method” is defined as “a set of steps,” functional or logical styles become second‑class citizens and cannot be modeled cleanly.
+**What goes wrong if missed.** A diagram starts authorizing work, a query plan starts looking like performed work, a program starts looking like proof of operational success, or a graph path starts looking like a route that something followed.
 
-### A.3.1:3 - Forces (what the definition must balance)
+**What this buys.** The project can reuse, compare, describe, plan, enact, and audit a way of doing without confusing the method with its descriptions, runs, mechanisms, mathematical substrates, evidence relations, gates, or authority claims.
 
-| Force                                  | Tension we resolve                                                                                        |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Universality vs. specificity**       | One notion must cover welding, ETL, proofs, and schedulers, while letting each domain keep its idioms.    |
-| **Representation vs. semantics**       | Many notations express the same “way of doing”; we need one semantic anchor across specs.                 |
-| **Reusability vs. assignment**        | The *how* should be reusable regardless of *who* is assigned this time.                                  |
-| **Compositionality vs. executability** | Methods compose (serial/parallel/choice/iteration), but execution may diverge due to conditions/failures. |
-| **Determinism vs. search**             | Methods may be deterministic algorithms or constraint problems with admissible solution sets.             |
+**Not this pattern when.** If the current claim is a method description, work plan, dated work occurrence, evidence relation, source relation, mechanism declaration, mathematical-lens use, gate decision, authority claim, or publication-use relation, use the pattern that governs that claim and link it back to the `U.Method` only when the relation is current.
 
-### A.3.1:4 - Solution — the method as an abstract, paradigm‑agnostic “way of doing”
+### A.3.1:2 - Problem
 
-#### A.3.1:4.1 - Definition
+Without a current `U.Method` distinction, FPF cannot repair method-like wording cleanly. Texts then slide among several different claims:
 
-**`U.Method`** is a **context‑defined abstract transformation type**—the **semantic “way of doing”** a kind of work.
-It is:
-**Described** (never *identical*) by one or more **`U.MethodDescription`** epistemes (code/SOP/diagram/rules),
-**Enacted** by a `U.System` bearing an appropriate **Role** (usually a **TransformerRole**) to produce **`U.Work`**, and
-**Independent** of who is assigned, what instance ran, or which notation was used.
+1. **Description as method.** A SOP, code repository, proof script, BPMN diagram, SQL query, solver model, or protocol is treated as the method itself.
+2. **Plan or run as method.** A calendar plan, access plan, run log, telemetry trace, or work-result record is called the method.
+3. **Mechanism or formal substrate as method.** A mathematical object, formal substrate, mechanism declaration, causal model, or control structure is used as if it already selected the way of doing work.
+4. **Role or capability leakage.** Named people, organizations, teams, permissions, or capability thresholds are baked into the method instead of being kept in role assignment, authorization, capability, or gate patterns.
+5. **Programming-paradigm overread.** Imperative, functional, logical, constraint, object-centric event, or effect-handler wording is taken as a direct ontology of work rather than one possible description or representation of a way of doing.
 
-**Strict Distinction (didactic):**
-* **Method** = *how in principle* (semantic Standard).
-* **MethodDescription** = *how it is described* (`U.Episteme` carried by a publication form or carrier).
-* **Work** = *how it actually went this time* (dated execution).
+The practical harm is fragile reliance. Changing a publication looks like changing the method; a run error looks like method invalidation; a mechanism declaration starts authorizing work; and a dashboard cue starts acting like evidence or permission.
 
-#### A.3.1:4.2 - Representation‑agnostic stance (specs may be imperative/functional/logical)
+### A.3.1:3 - Forces
 
-A `U.Method` does **not** require an imperative step structure. **Representations live in `U.MethodDescription`, not in the Method itself.**
-Typical **MethodDescription forms** include:
+* A method must be stable enough to compare, reuse, teach, improve, and audit across many runs.
+* Work still happens in dated situations with named systems, resources, holders, conditions, and outcomes; a method statement must not pretend that the dated work has already occurred.
+* Method descriptions can be executable, formal, graphical, procedural, declarative, or hybrid; their publication form must not decide the method ontology by itself.
+* Mechanisms and mathematical substrates often make a method explainable or constrained enough to rely on, but the mechanism claim and the method claim still answer different project questions.
+* A useful method statement must stay broad enough for welding, clinical triage, proof construction, optimization, agent orchestration, lab protocols, software execution, and organizational work without making software notation the default model of method.
 
-* **Imperative MethodDescription:** step‑graph/flow (serial/parallel/branch).
-* **Functional MethodDescription:** a composition `f ∘ g ∘ h` with typed interfaces/constraints, no “steps”.
-* **Logical/constraint MethodDescription:** a goal/constraint set with admissible solutions and search/optimization semantics.
-* **Hybrid MethodDescription:** imperative scaffolding with functional kernels and/or solver calls.
+### A.3.1:4 - Solution
 
-**Semantic identity criterion (context‑local).** Two MethodDescriptions **describe the same `U.Method`** in a given `U.BoundedContext` iff, for all admissible inputs and conditions recognized by that context, they entail the **same preconditions**, **guarantee the same postconditions/effects**, and satisfy the **same non‑functional bounds** (allowing permitted non‑determinism). Internal control‑flow/search details may differ.
+`U.Method` is the **context-defined semantic way of doing a kind of transformation or enactment**.
 
-#### A.3.1:4.3 - Method vs MethodDescription vs Work (quick litmus)
+It is not the text, code, diagram, model, plan, run, role, capability, or evidence relation that may be associated with that way of doing. A `U.Method` is:
 
-| You have in your hand…           | In FPF it is…                 | Why                                                                             |
-| -------------------------------- | ----------------------------- | ------------------------------------------------------------------------------- |
-| A flowchart/BPMN/SOP text        | **`U.MethodDescription`** (Episteme) | A description on a carrier.                                                     |
-| A git repo with code | **`U.MethodDescription`** (Episteme) | Still a description (even if executable). The Method is the semantic “way” it denotes. |
-| A log/run report with timestamps | **`U.Work`**                  | A concrete event that happened.                                                 |
-| “The way we weld seams type W”   | **`U.Method`**                | The abstract *how*, represented by one or more specs and realized by many runs. |
+* **context-defined**: its identity, admissible inputs, conditions, effects, and bounds are interpreted inside a `U.BoundedContext`;
+* **semantic**: it is the way of doing that descriptions denote and work may enact;
+* **transformation-facing**: it concerns a possible or intended transformation, enactment, or produced result, including physical, informational, organizational, mathematical, or hybrid transformations;
+* **description-independent**: one method may be described by several `U.MethodDescription` epistemes;
+* **run-independent**: one method may be enacted by many `U.Work` occurrences;
+* **assignment-independent**: method requirements may name role kinds or capability requirements, but named holders and dated assignments belong elsewhere.
 
-**Didactic rule:** when referencing *the idea* of “how”, say **Method**; when referencing *the document or code*, say **MethodDescription**; when referencing *the run*, say **Work**.
+The primary repair move is not to replace the word "method" with one better word. Recover the current slot first:
 
-#### A.3.1:4.4 - Interface and effect (conceptual descriptors)
+| If the text is really about... | Govern it as... |
+| --- | --- |
+| semantic way of doing | `A.3.1 U.Method` |
+| description of that way of doing: SOP, program, proof script, solver model, protocol, diagram, process model, recipe text | `A.3.2 U.MethodDescription` |
+| selected formal substrate or mathematical declaration | `A.6.0` and `C.29` when mathematical-lens use is current |
+| mechanism declaration or realization relation | `A.6.1` and `E.20` |
+| planned dated work or authorization to prepare work | `A.15.2 U.WorkPlan` plus the relevant gate, authority, or commitment pattern |
+| dated work occurrence, run, trace-backed execution, result record | `A.15.1 U.Work` and evidence or source patterns when an evidence relation or source relation is current |
+| evidence or provenance relation for a claim | `A.10` |
+| graph path, path slice, flow valuation, state predicate, query, table, dashboard, publication face, or pattern relation overread as a method or work sequence | `C.2.P.DR` first, then the direct governing pattern named by the recovery |
 
-When presenting a `U.Method` in a review, anchor it with these paradigm‑neutral elements (not a data schema):
+#### A.3.1:4.1 - Thin first-use record
 
-1. **Interface** — what is required and provided in general (inputs and outputs, types, resources, roles, or ports).
-2. **Preconditions** — what must already hold (guards, invariants, Standard “requires”).
-3. **Postconditions / Effects** — what is guaranteed after successful enactment (Standard “ensures”).
-4. **Non‑functional constraints** — latency, accuracy, cost, safety envelope (ties to **Capability** thresholds).
-5. **Failure modes** — known failure classes and recoverability hints.
-6. **Compositional hooks** — whether this method composes serially/parallel/choice/iteration (see §4.5).
+For ordinary first use, write only the fields needed to keep the method claim from collapsing into a description, plan, run, mechanism, or evidence relation:
 
-#### A.3.1:4.5 - Method mereology (composition without confusing it with runtime)
+```text
+Method statement:
+  MethodRef:
+  BoundedContext:
+  TransformationOrEnactmentKind:
+  EntityOfConcern:
+  Preconditions:
+  IntendedEffectsOrPreservedConditions:
+  CurrentMethodDescriptionRef:
+  WorkRelation:
+  ClaimBoundary:
+```
 
-Methods compose into bigger methods; executions compose into bigger executions—**do not conflate** the two.
+`ClaimBoundary` names the nearest stronger claim that is not carried by this method statement, such as work authorization, performed work, evidence for success, mechanism declaration, or formal-substrate adequacy. It is a boundary field, not a place to repeat every neighboring pattern.
 
-**Method composition (design‑time):** serial (`-`), parallel (`‖`), choice (`|`), iteration (`*`), refinement/substitution—yield **new `U.Method`s**.
-**Work composition (run‑time):** the corresponding **Work** may split/merge/overlap differently due to scheduling, failures, or environment, yet it is still **execution of the same Method**.
-**Mapping advice:** avoid naming run-time records or carriers inside the method definition (no “this thread”, “this person”); keep those in **Role**/**Work**.
+#### A.3.1:4.2 - Method and mechanism settlement
 
-#### A.3.1:4.6 - Constructor‑theoretic reading (why Method ≠ algorithm ≠ spec)
+Do not decide the method and mechanism question by vocabulary. When a source expression names changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-Constructor Theory views a **constructor** as a physical entity that **effects transformations**. In FPF:
+For this host, keep the local question thin: does the current claim state a `U.Method`, the context-local way of doing a transformation or enactment? If the source label also raises mechanism, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
+* In **method position**, the current claim is the context-local way of doing a transformation or enactment.
+* In **mechanism position**, the current claim is a law-governed declaration or revision of operations, laws, admissibility predicates, transport, audit surface, and monotone realizations under `A.6.1` and `E.20`.
 
-* A `U.System` with **TransformerRole** is the constructor (the performer).
-* A **`U.Method`** is the abstract **transformation type** it enacts (semantic Standard).
-* An **algorithm description** is a **`U.MethodDescription`** for an **information-transformation Method**.
-* A **universal transformer** generalizes the **Turing machine** by **executing any `U.Method` described by a physically admissible `U.MethodDescription`** (not only informational ones).
+Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits such dual typing. Slot-position labels do not create alternate ontology.
 
-Thus, welding, milling, reagent mixing, and proof construction are all **Methods**; textbooks/code/derivations are their **MethodDescriptions**; **Work** are the concrete runs.
+This gives the working distinction:
 
-#### A.3.1:4.7 - Context anchoring
+| Current question | Governing pattern | What must be recoverable |
+| --- | --- | --- |
+| What way of doing is intended or enacted? | `A.3.1 U.Method` | context, transformation or enactment kind, preconditions, effects, work-facing identity, description relation |
+| What description states the way of doing? | `A.3.2 U.MethodDescription` | episteme, representation form, method described, parameters, acceptance criteria, edition relation or source relation when current |
+| What law-governed operation structure is being declared, specialized, transported, or realized? | `A.6.1 U.Mechanism` | `SubjectBlock`, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, `Applicability`, `Transport`, `Audit`, realization relation |
+| Where should new or revised mechanism meaning be governed? | `E.20` | governing-definition assignment for mechanism meaning, suite, plan, wiring, token continuity, or local non-trigger stop |
+| What happened this time? | `A.15.1 U.Work` | performer, method enacted, method-description source relation when current, time window, parameters, resources, outcome |
 
-`U.Method` is **local to a `U.BoundedContext`**: terminology, admissible pre/postconditions, and non‑functional constraints are interpreted **inside that context**. If two teams or theories use the same name for different “ways of doing,” they are different Methods in different contexts unless bridged explicitly.
+A method may cite a mechanism, be selected by a mechanism, be constrained by a mechanism, or be one value in a mechanism's slot. A mechanism may govern an operation algebra whose operations include applying, selecting, composing, or normalizing methods. Those links do not collapse the typed values or their governing claims. If both claims are current, write both: the `U.Method` statement for the way of doing, and the `U.Mechanism` statement for the law-governed declaration or realization relation.
 
-### A.3.1:5 - Archetypal grounding (cross-paradigm examples: imperative / functional / logical)
+Fail closed when neither position can be recovered. Do not repair `algorithm`, `program`, `workflow`, `process`, `solver`, `proof`, `recipe`, or `control strategy` to `method` or `mechanism` merely because the replacement sounds more technical.
 
-#### A.3.1:5.1 - Industrial transformation (imperative flavor)
+#### A.3.1:4.3 - Method, MethodDescription, WorkPlan, Work
 
-* **Method:** `Etch_Al2O3`.
-* **MethodDescription:** SOP document; a PLC program that controls gas mix and timing.
-* **Enactment:** `Tool_42#TransformerRole:FabLine_A` produces **Work** runs W‑101, W‑102….
-* **Notes:** Step diagram exists, but a later **functional** spec may also exist (composition of gas‑flow functions). Both **specs** describe the **same Method**.
+Keep the four positions separate.
 
-#### A.3.1:5.2 - Operational planning (functional/optimization flavor)
+| Position | What it means | Common mistaken substitutes |
+| --- | --- | --- |
+| `U.Method` | how in principle, inside a bounded context | code, SOP, graph, solver model, proof script, workflow diagram |
+| `U.MethodDescription` | an episteme that describes a method in a representation | method semantics, actual run, authority to work |
+| `U.WorkPlan` | planned dated work or work preparation | timeless method, generic recipe, proof that work happened |
+| `U.Work` | dated work occurrence | method, plan, result interpretation, evidence relation |
 
-* **Method:** `JS_Schedule_v4` (job‑shop scheduling).
-* **MethodDescription:** a MILP model + solver configuration; documentation of constraints/objective.
-* **Enactment:** `PlannerService_v4#TransformerRole:PlantScheduling_2025` produces **Work** `Run_2025‑W32‑P1`.
-* **Notes:** No “steps” are visible at the method level; the solver’s search is internal. Still a `U.Method`.
+The same solver model, repository, protocol, diagram, or run packet may participate in several claims, but each claim has its own slot. A solver model can be a `U.MethodDescription`; its mathematical formulation can also expose a formal substrate for `C.29`; a solver run can be `U.Work`; a run result can be evidence for a separate claim. Those claims are not interchangeable.
 
-#### A.3.1:5.3 - Scientific proof (logical flavor)
+#### A.3.1:4.4 - Method statement fields
 
-* **Method:** `Gauss_Elimination`.
-* **MethodDescription:** formal rules in a proof assistant; textbook chapter as a second spec.
-* **Enactment:** `CAS_Alpha#TransformerRole:MathLab_2025` generates a **Work** proof instance for a concrete matrix.
-* **Notes:** The **Episteme** (spec) is not the **ability** (that belongs to the CAS system) and not the **execution** (the proof run).
+A useful `U.Method` statement can usually recover these fields in ordinary project language:
 
-### A.3.1:6 - Didactic quick grammar (for managers)
+| Field | What to name |
+| --- | --- |
+| Method name | the context-local way of doing |
+| Bounded context | the project, discipline, organization, regulatory setting, theory, or operational context that interprets the method |
+| Transformation or enactment kind | what changes, is produced, decided, derived, controlled, selected, or maintained |
+| EntityOfConcern under transformation | the material object, information object, organization, episteme, holon, or state whose transformation matters |
+| Preconditions | what must already hold for the method to be applicable |
+| Effects or postconditions | what successful enactment is meant to produce or preserve |
+| Interface or signature | inputs, outputs, ports, resources, constraints, or role-kind requirements needed to state the method without naming this run |
+| Capability requirements | thresholds or envelopes to be checked against a holder's capability, not baked into the method identity |
+| Failure and stop conditions | when the method is blocked, when a description must be revised, or when work must not start |
+| Description relation | which `U.MethodDescription` epistemes currently describe it |
+| Work relation | what kind of `U.Work` may enact it and how runs cite the description used |
 
-* **Who?** `Holder#Role:Context` (**Role assignment**)
-* **Can?** `Capability(holder)` within envelope/measures
-* **How (in principle)?** **`Method`**, described by **`MethodDescription`**
-* **Did?** **`Work`** (execution), linked by `performedBy → RoleAssigning` and `isExecutionOf → MethodDescription`
+This is not a data schema. It is the minimum recognition surface needed before method-like wording can guide work, evidence, assurance, gates, or planning.
 
-> *Keep the four words apart and plans become dependable.*
+#### A.3.1:4.5 - Representation and programming-paradigm discipline
 
-### A.3.1:7 - Bias‑Annotation (as in cluster‑E patterns)
+A `U.Method` does not require an imperative step structure.
 
-* **Lenses tested:** `Arch`, `Prag`, `Did`, `Epist`.
-* **Scope declaration:** Universal; semantics are context‑local via `U.BoundedContext`.
-* **Rationale:** Gives FPF a **paradigm‑neutral** “how” that bridges MethodDescription (knowledge on a carrier) and Work (execution), while staying independent of Role (assignment) and Capability (ability).
+Imperative procedures, functional compositions, logical rule sets, constraint models, object-centric event models, effect-handler programs, process diagrams, SQL queries, equality-saturation graphs, proof scripts, and optimization models may all help describe, represent, or analyze a way of doing. Their representation style does not by itself decide whether the current claim position is a method, a method description, a formal substrate, a mechanism, a work plan, work, evidence, or a declarative representation under `C.2.P.DR`.
 
-### A.3.1:8 - Conformance Checklist (normative)
+Use this discipline:
 
-**CC‑A3.1‑1 (Strict Distinction).**
-`U.Method` is the **semantic “way of doing”**. It is **not** a `U.MethodDescription` (an episteme carried by a publication form or carrier), **not** a `U.Work` (dated execution), **not** a `U.Role`/assignment, and **not** a `U.PromiseContent`/promise.
+* If the text states the semantic way of doing, use `A.3.1`.
+* If the text states the representation that describes that way, use `A.3.2`.
+* If the text states a formal object or mathematical representation used to reason, use `A.6.0`, `C.29`, or the direct mathematical pattern.
+* If the text states a law-governed operation structure, admissibility predicate set, transport clause, or realization relation, use `A.6.1` or `E.20`.
+* If the text states planned work, use `A.15.2`.
+* If the text states dated performed work, use `A.15.1`.
+* If the text states an evidence relation or provenance relation, use `A.10`.
+* If the text turns a graph, path, query, table, dashboard, predicate, publication face, or pattern relation into a route, call sequence, dispatch, or work procedure by metaphor, use `C.2.P.DR` before choosing the direct governing pattern.
 
-**CC‑A3.1‑2 (Context anchoring).**
-Every `U.Method` **MUST** be defined **within** a `U.BoundedContext`. Identity, admissible pre/postconditions, and non‑functional bounds are interpreted **in that context**.
+This is why "algorithm" is not repaired to "method" automatically. An algorithm-looking expression may indicate a method description, formal substrate, mechanism, control strategy, work plan, work occurrence, evidence relation, or quoted source wording. The repair must recover the slot.
 
-**CC‑A3.1‑3 (Specification linkage).**
-A `U.Method` **SHOULD** be **described by** ≥1 `U.MethodDescription`. For operational gating, at least one `MethodDescription` **MUST** be present and named. Multiple specs may coexist (imperative/functional/logic), see CC‑A3.1‑7.
+#### A.3.1:4.6 - Constructor and process-theory settlement
 
-**CC‑A3.1‑4 (assignment‑free).**
-A `U.Method` **SHALL NOT** hard‑code holders or assignments. If a step “needs a surgeon”, express that as a **role requirement** (to be satisfied via `U.RoleAssignment` at run time), not as a named person/unit inside the method.
+FPF interprets method claims through transformation first, not software notation first.
 
-**CC‑A3.1‑5 (Runtime‑free).**
-A `U.Method` **SHALL NOT** contain schedule, calendar slots, or run IDs; those belong to `U.WorkPlan` (plans) and `U.Work` (executions). Methods are timeless.
+In the constructor-theory and process-theory line selected for this campaign, claims about computation, information, dynamics, and procedure are kept close to possible or impossible transformations and their compositional realization. That gives FPF the following settlement:
 
-**CC‑A3.1‑6 (Interface & effects).**
-A `U.Method` **MUST** admit a context‑local statement of interface (inputs and outputs, or ports and resources), **preconditions**, **postconditions/effects**, and (when relevant) **non‑functional bounds**. These anchor semantic identity beyond a particular notation.
+* a system in a transformer-like role can enact a method;
+* the method is the context-local way of doing the transformation;
+* a method description is an episteme that describes that way;
+* a formal substrate or mathematical lens may make the method analyzable, but does not become the method by itself;
+* a mechanism may declare law-governed operation structure, admissibility predicates, transport, and realization relations for a method-facing transformation, but that mechanism claim is not the same claim as selecting, describing, planning, or enacting a method;
+* a work plan prepares or schedules dated work;
+* dated work is the occurrence that happened.
 
-**CC‑A3.1‑7 (Multi‑spec semantic identity).**
-Two or more `U.MethodDescription` **describe the same `U.Method`** in a given context **iff** they entail the **same admissible preconditions**, **guarantee the same effects**, and satisfy the **same non-functional bounds** for all inputs and conditions recognized by that context (allowing permitted non-determinism). Internal control-flow and search differences are irrelevant.
+This settlement covers welding, milling, reagent mixing, clinical triage, proof construction, optimization, scheduling, training, inference, and software execution without making "code" the privileged form of method.
 
-**CC‑A3.1‑8 (Composition vs execution).**
-Composition of Methods (design‑time) and composition of Work (run‑time) **MUST** be kept distinct. Method composition yields **new Methods**; Work composition yields **composed executions**. They may correspond but are not identical.
+#### A.3.1:4.7 - Semantic identity and variants
 
-**CC‑A3.1‑9 (Parameterization).**
-If a Method is parameterized, parameters are **declared** at the Method or MethodDescription level; **concrete values** are bound **at `U.Work` creation**. Avoid freezing parameter values inside the Method definition.
+Two `U.MethodDescription` epistemes may describe the same `U.Method` in a bounded context when, for the recognized inputs and conditions of that context, they preserve the same method identity:
 
-**CC‑A3.1‑10 (Dynamics ≠ Method).**
-Laws/trajectories (`U.Dynamics`) are models of state evolution and **SHALL NOT** be labeled as Methods. A Method **may** rely on a Dynamics model (e.g., for control), but a dynamics model is not a Method.
+* compatible preconditions;
+* compatible effects or postconditions;
+* compatible non-functional bounds;
+* accepted nondeterminism or search behavior;
+* the same work-facing acceptance relation.
 
-**CC‑A3.1‑11 (Capability checks are orthogonal).**
-A step may impose capability thresholds; those thresholds are checked **against the holder’s `U.Capability`** independently of assignment and independently of the Method’s description.
+Different internal control flow, search strategy, proof notation, programming paradigm, diagram notation, or textual format does not by itself make a different method. Conversely, the same name, diagram family, repository, supplier label, or workflow label does not by itself prove identity.
 
-**CC‑A3.1‑12 (Constructor‑theoretic alignment).**
-Algorithm descriptions are `U.MethodDescription` for information-transforming Methods. Physical Methods are equally valid (matter/energy transformations). A “universal transformer” is a system that can enact **any physically admissible MethodDescription**; this does **not** collapse Method into “algorithm.”
+When variants differ only by parameter ranges, equipment envelope, or local representation, keep one method with declared variation when the context accepts that identity. When variants change effects, bounds, accepted inputs, safety envelope, or work-facing acceptance criteria, declare a refinement, substitution, or distinct method.
 
-### A.3.1:9 - Method mereology (composition) — design‑time only
+#### A.3.1:4.8 - Method composition and work enactment
 
-**Operators (conceptual, context‑scoped):**
+Methods may compose into larger methods. Work occurrences may compose into larger work histories. These are related but different claims.
 
-* **Serial composition (`-`)** — do A then B → `A - B` is a new Method.
-* **Parallel composition (`‖`)** — do A and B concurrently (with declared independence/joins).
-* **Choice (`|`)** — do **one** of {A, B} under guard/selector.
-* **Iteration (`*`)** — repeat A under a loop invariant/termination condition.
-* **Refinement (`≤ₘ`)** — Method M' preserves M’s interface/effects and **strengthens** preconditions or **tightens** non‑functional bounds (context‑defined lattice).
-* **Substitution** — replace a Method factor with a semantically equivalent one (`M ≡ N` in context) without changing the whole’s Standard.
+Method composition is design-side or definition-side: serial composition, parallel composition, guarded choice, iteration, refinement, substitution, or decomposition yields a method claim about a way of doing.
 
-**Design‑time laws (intuitive, not mechanized here):**
+Work composition is occurrence-side: dated work may interleave, split, merge, retry, fail, recover, or be recorded in traces differently from the method description.
 
-* Associativity for `-` and, where admissible, for `‖`.
-* Distributivity over guarded choice under context rules.
-* Identity elements (e.g., `Skip` that preserves state and satisfies neutral bounds).
-* Monotonicity: refinement of a factor **should not** break the whole’s postconditions.
+Do not infer method composition from document modules, graph layout, table order, or source-file structure alone. A two-module description is not automatically a two-step method. A path in a graph is not automatically an execution sequence. A pipeline-looking diagram is not automatically dated work.
 
-**Run‑time mapping (do not conflate):**
-`U.Work` instances of `A - B` **may** interleave differently due to scheduling or failure‑handling and still be executions of `A - B`. The mapping is “execution semantics,” not part of Method mereology.
+### A.3.1:5 - Archetypal Grounding
 
-### A.3.1:10 - How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)
+Across the slices below, a `U.Method` is not recognized by surface form. It is recognized by a stable project answer to this question:
 
-* **Roles (assignment).** Steps stipulate **role kinds** (e.g., `IncisionOperatorRole`), not people. At run time, `U.Work` references a **`U.RoleAssignment`** that satisfies the role kind.
-* **Capability (ability).** Steps may require **thresholds** (e.g., “precision ≤ 0.2 mm”). They are checked against the **holder’s `U.Capability`** in the context/envelope.
-* **Work (execution).** Each run records `isExecutionOf → MethodDescription` (the spec used) and `performedBy → RoleAssigning`. Logs, resources, and timestamps live here.
-* **Dynamics (laws/models).** Methods may cite or assume a Dynamics model; runs may attach traces that are explained by that model. Do not label the model itself as the Method.
+```text
+In this bounded context, what way of doing changes, produces, derives, selects, controls, or preserves the EntityOfConcern under these conditions?
+```
 
-### A.3.1:11 - Anti‑patterns (and the right move)
+Manufacturing, optimization, proof, graph or query overread, and clinical triage differ in material, representation, and assurance needs, but they share the same method slot. The archetypal failure is also shared: a nearby description, plan, run, mechanism, formalism, or evidence relation takes the method name and silently changes what the project can rely on.
 
-* **Spec = Method.** “The BPMN is the Method.” → The BPMN is a **MethodDescription**; the **Method** is the semantic way it denotes.
-* **Run = Method.** “Yesterday’s process is our Method.” → Yesterday’s run is **Work**.
-* **Role leakage.** “Step 3 is done by Alice.” → Step 3 **requires** `SurgeonRole`; Alice may be assigned via **RoleAssigning**.
-* **Schedule leakage.** “Run at 02:00 daily” inside the Method. → This belongs to **WorkPlan**; Methods are timeless.
-* **BoM entanglement.** Putting parts and assemblies inside Method definition. -> Structure stays in PBS and SBS; Method references **interfaces and resources**, not a BoM.
-* **Algorithm‑only bias.** Declaring that only code counts as a Method. → Physical transformations (welding, mixing) are Methods too; their SOPs/parameters are MethodDescriptions.
-* **Hard‑coding capability.** Baking “≤ 0.2 mm” into a role name or Method name. → Keep thresholds on **steps**; **capability** lives on the **holder**.
+#### A.3.1:5.1 - Manufacturing recipe
 
-### A.3.1:12 - Migration notes (quick wins)
+`Etch_Al2O3` is the method when the bounded context uses that name for the way of transforming a wafer surface under specified conditions.
 
-1. **Rename wisely.** Where texts say “process/method” but mean a diagram or code repo, label it **MethodDescription**; where they mean the abstract “how,” label it **Method**.
-2. **Extract assignments.** Replace named people/units in specs with **role kinds**; enforce assignments via **RoleAssigning** at run time.
-3. **Pull time out.** Move calendars/schedules from specs into **WorkPlan**.
-4. **Parameter hygiene.** Declare parameters at Method or MethodDescription; bind values in **Work**.
-5. **Equivalence notes.** When two specs are intended as the same Method, write an **equivalence note** in the context (pre/post/bounds parity).
+The SOP, PLC program, calibration recipe, and supplier note are method descriptions when they describe that method. A planned maintenance-window run is a `U.WorkPlan`. Tool run `W-143` with timestamps and logs is `U.Work`. Gas-flow equations may be a formal substrate or mathematical lens input. Evidence for whether the run met a safety or quality claim is governed separately by `A.10`, `B.3`, `C.27`, or a gate pattern.
 
-### A.3.1:13 - Consequences
+#### A.3.1:5.2 - Optimization model
 
-| Benefits                                                                                                                    | Trade‑offs / mitigations                                                                           |
-| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Clarity across paradigms.** Methods are first‑class regardless of notation; teams stop arguing step‑vs‑functional.        | **One more name to learn.** Use the quick grammar card; it pays off fast.                          |
-| **Reuse without personnel lock‑in.** assignment moves to RoleAssigning; Methods remain portable.                             | **Extra role tables.** Keep role‑kind lists short and context‑local.                               |
-| **Robust audits.** Logs are Work, specs are MethodDescription, Standards are Method; no more “we thought the diagram was the run.” | **Discipline needed.** Enforce the three‑way split in reviews.                                     |
-| **Constructor‑theoretic coherence.** Physical and informational transformations are peers.                                  | **Cultural shift.** Not every team is used to seeing SOPs and code as the same class (MethodDescription). |
+`JS_Schedule_v4` may be the method when it names the project-accepted way of producing a job-shop schedule.
 
-### A.3.1:14 - Relations
+The MILP formulation, solver configuration, and acceptance tests are method descriptions or formal-substrate declarations depending on the current claim. The solver's internal search is not automatically the project work sequence. A scheduled production plan is `U.WorkPlan`; the actual scheduling run and resulting dated decision record may be `U.Work` and evidence for separate claims.
 
-* **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`.
-* **Coordinates with:** A.3 (role masks for transformers/constructors/observers); A.15 (Role–Method–Work Alignment); B.1 Γ (aggregation) for method families vs assembly of systems.
-* **Informs:** `U.WorkPlan` definitional pattern (plans reference Methods they schedule); `U.PromiseContent` definitional pattern (promises cite Methods as delivery means); `U.Dynamics` definitional pattern (models that Methods may assume).
+#### A.3.1:5.3 - Proof or derivation
 
-### A.3.1:15 - Didactic quick cards (reuse in specs and onboarding)
+`Gauss_Elimination` can be a method for deriving a result under a mathematical context.
 
-* **Method, MethodDescription, and Work** = *how in principle*, *how it is written*, and *how it went this time*.
-* **Four‑slot grammar:** Who? → **RoleAssigning**. Can? → **Capability**. How? → **Method** (via **MethodDescription**). Did? → **Work**.
-* **Design‑time vs run‑time:** Composition of Methods ≠ composition of Work.
-* **No steps required:** Functional, logical, and hybrid MethodDescriptions are first‑class.
-* **Keep time and people out:** Schedules → **WorkPlan**; assignees → **RoleAssigning**.
+A textbook explanation, proof-assistant script, and formal rule set are method descriptions. A proof run in a concrete assistant session is work. The algebraic structure may be a formal substrate. The claim that this proof is used as evidence for a project decision is an evidence or assurance claim, not part of the method merely because the method produced a derivation.
+
+#### A.3.1:5.4 - Graph or query overread
+
+A graph path, SQL-like query, checklist predicate, or dashboard table may represent a relation, state, evidence structure, provenance structure, or publication face. It becomes a method claim only if the text recovers a semantic way of doing and its work-facing relation.
+
+If the wording says the graph "routes" a project to a pattern, the query "calls" a work sequence, or the table "authorizes" action without a recovered method kind, work kind, gate claim, or authority claim, apply `C.2.P.DR` first.
+
+#### A.3.1:5.5 - Clinical triage protocol
+
+`SepsisTriage_v3` may be the method when the hospital context uses that name for the way of classifying a patient state and selecting the next clinical response.
+
+The protocol PDF, order-set screen, and decision-support rule are method descriptions or publication faces. The clinician's dated assessment is `U.Work`. The physiological model or score formula may be a formal substrate or mathematical lens. An admission policy, a treatment-release gate, and evidence that the triage reduced harm are neighboring claims. Keeping those claims separate prevents a document from becoming authorization, proof, and performed work merely because it describes the method.
+
+### A.3.1:6 - Bias-Annotation
+
+This pattern mainly blocks six recurring biases:
+
+* **description-as-method bias**: a publication, program, diagram, or protocol is treated as the method instead of a method description;
+* **run-as-method bias**: a trace, log, run, or result record is treated as the reusable way of doing;
+* **software-notation bias**: code, algorithm, workflow, or programming-paradigm language becomes the default ontology for every method;
+* **mechanism-overread bias**: law-governed mechanism or formal-substrate material is treated as if it already selected the project method;
+* **holder-as-method bias**: a team, system, supplier, or capability holder becomes the method name;
+* **semio-bias**: the discussion shifts from the way of doing to the description, publication, evidence face, or wording repair before the method slot is recovered.
+
+The repair is the same in each case: recover the `U.Method` slot when the semantic way of doing is current, and then link neighboring values through their own slots or relations.
+
+### A.3.1:7 - Conformance Checklist
+
+**CC-A3.1-1 (Method slot).** `U.Method` is the context-defined semantic way of doing a kind of transformation or enactment. A method claim is not closed by naming a method description, work plan, dated work occurrence, evidence relation, role assignment, capability, mechanism declaration, formal-substrate declaration, publication face, or pattern relation. If one of those claims is also current, state it in its governing pattern and link the positions explicitly.
+
+**CC-A3.1-2 (Context anchoring).** Every method identity is interpreted inside a `U.BoundedContext`. Same name across contexts does not prove same method.
+
+**CC-A3.1-3 (Description relation).** A method should have at least one named `U.MethodDescription` when work, assurance, gate, or audit reliance depends on it. Several descriptions may describe the same method only under a stated method-identity relation or criterion.
+
+**CC-A3.1-4 (Assignment-free method).** A method may state role-kind requirements or capability requirements. It does not bind named people, teams, organizations, or calendar slots.
+
+**CC-A3.1-5 (Runtime-free method).** Dated runs, timestamps, telemetry, logs, and work-result records belong to `U.Work` and associated evidence patterns or source patterns, not to the method identity.
+
+**CC-A3.1-6 (Plan-free method).** Work preparation, schedule, go or no-go date, work authorization, and planned work relation belong to `U.WorkPlan`, gate, authority, or commitment patterns.
+
+**CC-A3.1-7 (Mechanism and formal-substrate separation).** A formal substrate, mathematical-lens use, mechanism declaration, mechanism realization, or control model may provide constraints, invariants, or realization facts used when judging a method claim, or may be linked by typed relation-position claims under `E.10.ARCH:3.1`. It still does not close the method claim unless the current claim states the context-local semantic way of doing and its work-facing identity.
+
+**CC-A3.1-8 (Programming-paradigm neutrality).** Imperative, functional, logical, constraint, object-centric event, effect-handler, and hybrid descriptions are representation choices or description forms until the method slot is recovered.
+
+**CC-A3.1-9 (Graph and representation guard).** A graph path, path slice, query, predicate, table, dashboard, publication face, or pattern relation is not a method or work sequence by layout. Use `C.2.P.DR` when representation wording is overread as imperative action.
+
+**CC-A3.1-10 (Composition distinction).** Method composition and work-occurrence composition must stay separate even when they correspond.
+
+**CC-A3.1-11 (Parameter and variant discipline).** Parameters may be declared at method or method-description level; concrete values are bound in work planning or work occurrence. Variant identity must be justified by effects, bounds, accepted inputs, and context.
+
+**CC-A3.1-12 (Evidence and assurance boundary).** A method or method description does not by itself prove that work happened, that a result is warranted for the claimed use, that a gate is passed, or that action is authorized. Those claims use the relevant evidence, assurance, gate, temporal, authority, work-plan, or work patterns.
+
+### A.3.1:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Repair |
+| --- | --- |
+| "The code is the method." | If the claim is about the repository or executable text, use `U.MethodDescription`; if it is about the semantic way of doing, name the `U.Method` and its context. |
+| "The workflow diagram is the work." | Use `U.MethodDescription` for the diagram, `U.WorkPlan` for planned work, and `U.Work` for dated occurrence. |
+| "The graph path routes the decision." | If it is graph structure, use `E.18`; if it is overread as route or action, use `C.2.P.DR`; if a gate or authority claim is current, use the direct gate or authority pattern. |
+| "The optimization model is the process." | Recover whether the current claim is formal substrate, method description, method semantics, work plan, work, or evidence. |
+| "The protocol approval proves safe execution." | Separate publication-state claim, gate or authorization claim, evidence claim or assurance claim, work plan, and dated work. |
+| "The team is the method." | Keep holders and assignments in role assignment; keep capability in capability; keep method requirements context-local. |
+
+### A.3.1:9 - Consequences
+
+* Method-like language becomes reusable across physical, informational, organizational, and mathematical work without privileging software code or ordered instructions.
+* Teams can compare descriptions, variants, and implementations without confusing them with dated work.
+* Work planning and evidence become more reliable because a method no longer smuggles in authority, proof, schedule, or performed-work claims.
+* The cost is explicit slot recovery: when wording says "method", "algorithm", "workflow", "process", "procedure", "program", "recipe", "proof", or "solver", the user must recover which FPF object or claim position is current before relying on it.
+
+#### A.3.1:9.1 - Lowering and refresh conditions
+
+Lower confidence in a `U.Method` use when:
+
+* the text cannot state transformation or enactment kind, `EntityOfConcern`, preconditions, and intended effects;
+* the method name is only a document, repository, diagram, model, run log, team name, supplier label, or authorization claim;
+* the same typed value is assigned as both `U.Method` and `U.Mechanism` without a governing pattern admitting the dual typing;
+* the first usable move requires a long related-pattern catalogue before the method slot is visible;
+* graph, path, query, table, or predicate wording is treated as ordered execution without `C.2.P.DR` recovery;
+* a later `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, `C.29`, `E.18`, or evidence pattern changes the slot relation on which the method statement relied.
+
+The smallest useful repair is usually local: rewrite the method statement, split the neighboring value into its governing pattern, or add one `ClaimBoundary` line. Reopen the wider method family only when repeated project material shows that `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, formal substrate, or mathematical-lens use can no longer be separated by the current slot rules.
+
+### A.3.1:10 - Rationale
+
+FPF needs `U.Method` because practical work often depends on a way of doing before there is one dated work occurrence, one accepted description, one final implementation, or one verified result. Treating the method as the document, code, mechanism, plan, or run makes reuse brittle: changing the publication looks like changing the method, a run error looks like method invalidation, and a mechanism claim starts authorizing work.
+
+The distinction between method and mechanism is especially important because the same source expression or project concern can need both linked values. The method says what way of doing is intended or enacted in context. The mechanism says what law-governed operation structure, admissibility predicate set, transport, audit surface, or realization relation is being declared. These values may be linked, but they should not be made two names for one untyped value.
+
+### A.3.1:11 - SoTA-Echoing
+
+| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| --- | --- | --- | --- |
+| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adopt and adapt: method claims are interpreted through possible or intended transformations and their realization, not through software notation first. | The pattern starts from transformation or enactment kind and separates method, mechanism, description, plan, and work. |
+| Current scoped-effects and handlers work | Bosman, van den Berg, Tang, and Schrijvers, "A Calculus for Scoped Effects & Handlers", LMCS 20(4), 2024, arXiv:2304.09697; Matache, Lindley, Moss, Staton, Wu, and Yang, "Scoped Effects as Parameterized Algebraic Theories", ESOP 2024 extended version, arXiv:2402.03103. | Adopt: operation syntax, semantic handling, scope, resources, equations, and type information plus effect information are separate concerns. | The pattern refuses to repair `algorithm`, `program`, or `function` to `method` merely by programming-paradigm label. |
+| Current graph and equivalence representation work | Tiurin, Barrett, Ghica, and Hu, "Equivalence Hypergraphs: DPO Rewriting for Monoidal E-Graphs", arXiv:2406.15882, v2 revised 2025-05-20. | Adapt: graph, query, equivalence, and rewrite structures can be representations without being ordered instructions. | Graph path, query, and table overreads are repaired with `C.2.P.DR` unless a direct graph, method, work, evidence, or gate claim is recovered. |
+| Historical declarative versus imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004; Deutsch 2013; Deutsch and Marletto 2015. | Reject as current SoTA; retain only as lineage and regression contrast. | Older slogans such as "declarative versus imperative" are used only as recognition cues; the repair recovers FPF kind and slot. |
+
+Refresh this pattern when current work on constructor theory, process theory, effect systems, process modeling, graph and equivalence representations, or FPF's own method, work, and mechanism patterns changes the governing distinction among method, method description, formal substrate, mechanism, work plan, dated work, and evidence.
+
+### A.3.1:12 - Relations
+
+* **Builds on:** `A.1` holonic foundation, `A.1.1 U.BoundedContext`, `A.2` role, `A.2.1 U.RoleAssignment`, `A.2.2 U.Capability`.
+* **Coordinates with:** `A.3.2` for method descriptions; `A.3.3` for dynamics; `A.6.0` for formal-substrate declarations; `A.6.1` and `E.20` for mechanism claims; `C.29` for mathematical-lens use; `A.15.2` for work plans; `A.15.1` for dated work; `A.10` for evidence relations or provenance relations; `C.2.P.DR` for declarative representations overread as imperative routes or work sequences.
+* **Informs:** `E.18` and `E.18.1` when transduction-graph or P2W wording must keep graph representation or path representation separate from method claims and work claims.
 
 ### A.3.1:End
 

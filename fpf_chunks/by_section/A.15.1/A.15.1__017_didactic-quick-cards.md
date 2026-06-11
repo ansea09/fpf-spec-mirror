@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__017_didactic-quick-cards.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 20383
-line_end: 20391
+line_start: 20456
+line_end: 20464
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,8 +45,8 @@ keywords:
 
 * **What is Work?** *How it went this time* → dated, resourced, accountable.
 * **Four-slot grammar:** Who? **RoleAssignment**. Can? **Capability**. How? **Method or MethodDescription**. Did? **Work**.
-* **CAC checks:** **Context** (judgement), **assignment** (valid `U.RoleAssignment`), **Standard** (acceptance criteria).
+* **CAC checks:** **Context** (judgement), **assignment** (covering `U.RoleAssignment`), **Standard** (acceptance criteria).
 * **Roll‑ups:** `Γ_time = union` (utilization) or `hull` (lead time); `Γ_work` with a declared overlap policy.
 * **Episodes vs retries:** same run split vs new run; write the policy.
-* **Resource honesty:** actuals booked **only** to Work; estimates live in specs.
+* **Resource honesty:** performed values booked **only** to Work; estimates live in method descriptions or plans.
 

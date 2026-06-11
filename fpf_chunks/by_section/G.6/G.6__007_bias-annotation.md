@@ -6,12 +6,12 @@ section_id: "G.6:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__007_bias-annotation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:6 — Bias‑Annotation"
-line_start: 79670
-line_end: 79674
+line_start: 80359
+line_end: 80363
 dependencies:
   - "A.10"
   - "A.21"

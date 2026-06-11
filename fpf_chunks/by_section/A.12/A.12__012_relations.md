@@ -6,12 +6,12 @@ section_id: "A.12:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__012_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:9 — Relations"
-line_start: 19127
-line_end: 19138
+line_start: 19195
+line_end: 19206
 dependencies:
   - "A.3"
   - "B.2.5"

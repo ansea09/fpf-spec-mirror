@@ -6,12 +6,12 @@ section_id: "F.15:12"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_relations-with-other-patterns.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:12 — Relations (with other patterns)"
-line_start: 74361
-line_end: 74366
+line_start: 75048
+line_end: 75053
 dependencies:
   - "B.3"
   - "D.CTX"

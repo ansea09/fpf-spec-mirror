@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21358
-line_end: 21361
+line_start: 21458
+line_end: 21461
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
+  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"
@@ -45,5 +46,5 @@ keywords:
 
 ### A.15.4:5 - Common Anti-Patterns and How to Avoid Them
 
-- **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is used as if presentation itself carried the work-relevant source relation. First name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, then recover the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry the requested claim or effect. If that source is missing, lower only the unsupported reliance.
+- **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is used as if presentation itself carried the work-relevant source relation. First name the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair, then recover the governing pattern and governing source for the requested claim or effect. If that source is missing, lower only the unsupported reliance.
 

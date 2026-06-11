@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
-line_start: 82748
-line_end: 83060
+line_start: 83437
+line_end: 83751
 dependencies:
 keywords:
 ---
@@ -232,6 +232,8 @@ Each expanded entry-disambiguation case keeps recoverable:
 | J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
 | J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
 | J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
+
+# **Part K - Lexical Debt**
 
 ## Mandatory replacement map for measurement terms
 

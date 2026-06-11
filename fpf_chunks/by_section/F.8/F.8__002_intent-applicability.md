@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_intent-applicability.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:1 — Intent & applicability"
-line_start: 71492
-line_end: 71503
+line_start: 72179
+line_end: 72190
 dependencies:
   - "A.11"
   - "A.7"

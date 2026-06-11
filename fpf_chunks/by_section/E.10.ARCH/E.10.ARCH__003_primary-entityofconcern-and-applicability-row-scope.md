@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__003_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 60201
-line_end: 60236
+line_start: 60628
+line_end: 60663
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -54,10 +66,10 @@ A `WordingUseRestorationApplicabilityRow` is a pattern-local row over one `seman
 - `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily`;
 - the primary `EntityOfConcern` kind and encountered FPF kind or reference;
 - the relation between the encountered FPF kind or reference and the primary `EntityOfConcern`;
-- the FPF kind or relation named by value recovered when live;
-- live-claim or admissible-use classification when live;
-- source-use disposition when live;
-- state-family value or governing-pattern result when live;
+- the FPF kind or relation named by value recovered when current;
+- current-claim or admissible-use classification when current;
+- source-use disposition when current;
+- state-family value or governing-pattern result when current;
 - sentence role;
 - admissible use;
 - non-use boundary;

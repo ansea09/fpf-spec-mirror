@@ -6,12 +6,12 @@ section_id: "B.5.3:End"
 section_title: "B.5.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__010_b-5-3-end.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:End — B.5.3:End"
-line_start: 33923
-line_end: 33931
+line_start: 34030
+line_end: 34038
 dependencies:
   - "A.2"
   - "C.3"
@@ -24,7 +24,7 @@ keywords:
 
 ### B.5.3:End
 
-# **Part C — Kernel Extensions Specifications**
+# **Part C — Kernel Extension Specifications**
 
 | §                                            | Pattern                        | Tag | Scope & Exports                                                      |
 | -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |

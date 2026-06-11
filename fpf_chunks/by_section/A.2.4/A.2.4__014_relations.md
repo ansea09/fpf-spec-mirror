@@ -6,12 +6,12 @@ section_id: "A.2.4:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__014_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:13 — Relations"
-line_start: 3476
-line_end: 3486
+line_start: 3478
+line_end: 3488
 dependencies:
   - "A.10"
   - "A.2"

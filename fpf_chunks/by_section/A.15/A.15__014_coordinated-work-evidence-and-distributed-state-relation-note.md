@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 19929
-line_end: 19959
+line_start: 19998
+line_end: 20028
 dependencies:
   - "A.10"
   - "A.12"
@@ -48,7 +48,7 @@ keywords:
 
 Use A.15 first when the claim is about who acts, by which method, under which role, under which work plan, producing which work result. Coordinated work, routine skill, team alignment, tacit knowledge, and role-method fit are not quantum-like by default.
 
-Action path:
+Application moves:
 
 1. Name the role, method, and work result before naming any distributed state.
 2. State which work traces, records, events, observations, reports, metrics, or role enactments make the coordination visible.

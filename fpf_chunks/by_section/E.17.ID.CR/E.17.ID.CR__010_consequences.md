@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 65257
-line_end: 65264
+line_start: 65599
+line_end: 65606
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -41,8 +41,8 @@ keywords:
 ### E.17.ID.CR:9 - Consequences
 
 - The middle band between bridge-stance overlay over an existing Bridge Card and prompt-bearing abduction becomes reviewable rather than rhetorical.
-- Reviewers get a cleaner way to distinguish comparative interpretation from same-entity viewing, explanation rendering, ontology shift, approval, rollout, release, gate, policy, assurance, and adjudication use.
+- Reviewers get a cleaner way to distinguish comparative interpretation from the first crossed claim that would make another governing pattern primary.
 - Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
-- Guided comparative review units become easier to prepare honestly because allowed use, misuse risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
-- Users get an admissible way to keep bounded comparative review units modest: the unit can stay useful while its comparative reading remains below the boundary threshold for prompt publication, ontology-facing reframing, or gate-facing guidance.
+- Guided comparative review units become easier to prepare honestly because bounded use, overread risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
+- Users get a bounded way to keep comparative review units modest while the boundary trigger remains below the first crossed claim.
 

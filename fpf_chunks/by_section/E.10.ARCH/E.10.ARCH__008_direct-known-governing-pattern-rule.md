@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known governing-pattern rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_direct-known-governing-pattern-rule.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known governing-pattern rule"
-line_start: 60306
-line_end: 60311
+line_start: 60749
+line_end: 60754
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -46,7 +58,7 @@ keywords:
 
 ### E.10.ARCH:5 - Direct known governing-pattern rule
 
-If the governing pattern and its primary `EntityOfConcern`, relation record, or claim record are already recoverable by value, use that governing pattern directly. Do not send direct `C.30`, `C.16`, `C.29`, `E.21`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
+If the governing pattern and its primary `EntityOfConcern`, relation record, claim record, slot, or use-position are already recoverable by value, use that governing pattern directly. Do not send direct `C.30`, `C.16`, `C.29`, `E.21`, `E.18`, `A.10`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, publication-face, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
 
-Apply `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, or `A.19.SPR` only when wording hides the EntityOfConcern under repair, relation, characteristic, scale, score, quality characterization, comparison reference set, source-use disposition, state-family value, admissible use, or remaining reader move.
+Apply `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, or `A.3.1` only when wording hides the EntityOfConcern under repair, relation, characteristic, scale, score, quality characterization, comparison reference set, source-use disposition, state-family value, method-like slot, declarative-representation use, admissible use, or remaining reader move.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
-line_start: 65321
-line_end: 65616
+line_start: 65655
+line_end: 65950
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 **Plain-name.** Keep one publication unit stable enough to read honestly.
 
 **One-line summary.** `PublicationUnit Stability Discipline` is the first stability discipline for notes, memos, sheets, tables, screens, and short sections whose primary-EntityOfConcern interpretation, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim has become unstable while the unit still looks unchanged. It helps the reader decide whether the honest next repair is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison over already stable source publications, or leaving the publication-unit stability family for a neighboring non-publication-unit pattern.
-**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and routes claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and assigns claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
 **Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-lane `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-lane view is live, do not invent a `EntityOfConcernRef`; name the non-claim-bearing kind named by value, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or subject named by value by value.
 
@@ -98,7 +98,7 @@ When any of those roles is claim-bearing, record the active entry in the working
 | --- | --- | --- |
 | An episteme-publication-heavy note keeps using vague lexical heads such as `review`, `interpretation`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
 | An architecture or status memo starts about one bounded question, then quietly starts sounding like rollout, approval, go or no-go, or assignment publication | the publication unit now carries a quiet shift in primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |
-| A comparison sheet already keeps one stable primary EntityOfConcern and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `E.17.ID.CR ComparativeReading` |
+| A comparison sheet already keeps one stable primary EntityOfConcern and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
 | An onboarding explainer, dashboard card, or review note starts to act as if cleaner prose alone licensed a policy claim, assurance claim, work claim, or reliance claim that its governing FPF pattern has not made admissible | the problem situation has left publication-unit stability and entered a neighboring explanation problem or downstream claim or effect | apply the neighboring governing pattern instead of keeping the case inside publication-unit stability |
 
 **Recognition-block note.** The opening card above is the quick recognition block. The sections below carry the heavier assurance section: publication-unit boundary decisions, A.6.P unpacking, governing-pattern and project-side-reference boundary decisions, worked slices, and SoTA and domain grounding.
@@ -209,7 +209,7 @@ Use this seven-row card before you widen the repair:
 
 - If row 5 still points to one overloaded local lexical head, apply `Local Head Restoration`.
 - If row 5 shows that the whole publication unit still cannot keep one stable primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim visible, apply `PublicationUnit Primary EntityOfConcern Discipline`.
-- If the publication unit is already stable enough and the real move is bounded comparison over already available source publications, apply `E.17.ID.CR ComparativeReading`.
+- If the publication unit is already stable enough and the real move is bounded comparison over already available source publications, apply `E.17.ID.CR ComparativeReviewUnit`.
 - If the main problem situation is explanation classification over an existing face, apply the neighboring explanation pattern rather than keeping the case inside publication-unit stability by inertia.
 - If the active problem situation is publication form, bridge work, or downstream claim or effect, leave the publication-unit stability family and apply the more honest neighboring pattern or use the downstream publication.
 
@@ -247,7 +247,7 @@ A memo starts about one bounded architecture question over an inherited lineage 
 
 #### E.17.AUD:5.3 - Stable-unit comparison case
 
-A comparison sheet already keeps one stable primary EntityOfConcern and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `E.17.ID.CR ComparativeReading`.
+A comparison sheet already keeps one stable primary EntityOfConcern and one clear outside boundary to work, work planning, decision, gate, or reliance claim, but the team is using publication-unit instability language because the comparison is contentious. The honest move is not more publication-unit stabilization. It is `E.17.ID.CR ComparativeReviewUnit`.
 
 #### E.17.AUD:5.4 - Explanation-laundering case
 
@@ -265,7 +265,7 @@ Use this quick contrast set when the first interpretation is still foggy:
 | --- | --- | --- |
 | `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
 | `whole-unit interpretation shift` | the publication unit under review quietly changes primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |
-| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReading` |
+| `stable comparison -> CR` | the unit is already stable and the live problem situation is bounded comparison over pinned source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
 | `downstream claim or effect overread` | readers are inferring approval, assignment, or go or no-go claim or effect from the publication unit | leave the publication-unit stability family for the more honest downstream decision, gate, work, or reliance publication |
 | `modeling-lens hidden` | the unit only makes sense because of one unpublished model, formal substrate, or rationale | publish that substrate or rationale briefly or use a heavier publication form or neighboring pattern |
 
@@ -275,7 +275,7 @@ Use this quick contrast set when the first interpretation is still foggy:
 | --- | --- | --- |
 | Fixing one sentence while the whole unit already carries a quiet interpretation shift | local repair is asked to carry whole-unit stabilization | check primary EntityOfConcern, carried publication move, and outside boundary to work, work planning, decision, gate, or reliance claim before repairing the sentence |
 | Treating form labels as if they changed the publication unit under review | `table`, `sheet`, or `screen` is used as if it already named a different ontology or downstream claim or effect | treat those as presentation forms first; only leave this pattern when the problem situation itself changes |
-| Laundering comparison through stability language | teams keep saying the unit is unstable when the active problem situation is already bounded comparison | use the governing-pattern and project-side-reference boundary rule and apply `E.17.ID.CR ComparativeReading` |
+| Laundering comparison through stability language | teams keep saying the unit is unstable when the active problem situation is already bounded comparison | use the governing-pattern and project-side-reference boundary rule and apply `E.17.ID.CR ComparativeReviewUnit` |
 | Laundering downstream decision or reliance through clearer prose | a better-written note is over-read as if it had become an approval, gate, work, or reliance text | keep the outside boundary to work, work planning, decision, gate, or reliance claim explicit and leave this pattern when downstream claim or effect appears |
 | Letting three repair dispositions act at once | lexical-head repair, whole-unit stabilization, and neighboring governing-pattern application all get patched in parallel with no shared primary-EntityOfConcern interpretation | use the working card first and name one current repair disposition before patching the unit |
 
@@ -320,7 +320,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 4. **CC-AUD-4 — The active repair disposition is named honestly.**
    The case makes explicit whether the live problem situation is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, or another neighboring pattern rather than patching several problem situations at once under one vague stability claim.
 5. **CC-AUD-5 - Repair-disposition and governing-pattern boundary choice is explicit.**
-   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or project-side FPF kind and reference named by value is explicit rather than hidden inside broad-family wording.
+   When the problem situation belongs with `Local Head Restoration`, `PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReviewUnit`, a neighboring explanation-faithfulness pattern, or a downstream decision, gate, work, or reliance publication, that governing FPF pattern or project-side FPF kind and reference named by value is explicit rather than hidden inside broad-family wording.
 6. **CC-AUD-6 — Presentation-form labels do not launder publication-unit kind or downstream claim or effect.**
    `note`, `memo`, `sheet`, `table`, `screen`, and similar labels remain presentation-form clues and do not silently change the publication unit under review, create proof, create evidence, create release admissibility, or mint downstream claim or effect.
 7. **CC-AUD-7 - Claim-bearing modeling substrate or rationale is published or handled by a governing publication form.**
@@ -331,7 +331,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 ### E.17.AUD:11 - Relations
 
 - **Builds on:** `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `E.17`, and `C.2.1`.
-- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReading`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
+- **Coordinates with:** `E.17.AUD.LHR Local Head Restoration`, `E.17.AUD.OOTD PublicationUnit Primary EntityOfConcern Discipline`, `E.17.ID.CR ComparativeReviewUnit`, `E.17.EFP ExplanationFaithfulnessProfile`, and `E.21` when a pattern-quality card, table, status line, or generated summary is published as a bounded publication unit. `E.17.AUD` governs publication-unit honesty; `E.21` governs the underlying pattern-quality claim. Also coordinates with project-side FPF patterns such as `C.11`, `A.10`, `A.15`, `A.15.4`, `B.3`, `A.20`, and `A.21` when decision, evidence, gate, assurance, engineering-justification, work, or reliance claims become primary.
 - **Boundary consequence:** when the publication unit can no longer stay honest inside this publication-unit stability pattern, apply the neighboring FPF pattern or name the project-side FPF kind and reference named by value instead of treating publication-unit stability as a general explanation, comparison, decision, gate, work, or reliance discipline.
 
 ### E.17.AUD:End

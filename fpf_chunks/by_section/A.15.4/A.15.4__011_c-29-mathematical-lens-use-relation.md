@@ -6,12 +6,12 @@ section_id: "A.15.4:7a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__011_c-29-mathematical-lens-use-relation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:7a — C.29 mathematical-lens use relation"
-line_start: 21398
-line_end: 21401
+line_start: 21498
+line_end: 21501
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
+  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"
@@ -45,5 +46,5 @@ keywords:
 
 ### A.15.4:7a - C.29 mathematical-lens use relation
 
-> If a mathematical lens appears in work-relevant source restoration, use `C.29` only to state why the lens helps expose or bound an encountered item such as a visible item, generated wording, dashboard cue, copied phrase, publication form, MVPK face, carrier, rendering, `PublicationUnit`, or source-finding cue. `A.15.4` still governs the exact source item, visible item, restoration or reopen condition, reliance relation, and whether that item can be admissible for work. Method choice, plans, and performed work return to `A.15` and `A.15.1`; a `C.29` lens-use result does not turn a cue, rendering, or diagnostic phrase into source relation.
+> If a mathematical lens appears in work-relevant source restoration, use `C.29` only to state why the lens helps expose or bound an encountered source candidate such as generated wording, dashboard cue, copied phrase, publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, or source-finding cue. `A.15.4` still governs the source candidate, source relation named by value, restoration or reopen condition, reliance relation, and whether that candidate can guide work under a recovered source relation. Method choice, plans, and performed work remain governed by `A.15` and `A.15.1` when those claims are being made; a `C.29` lens-use result does not turn a cue, rendering, or diagnostic phrase into source relation.
 

@@ -1,32 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.2"
-pattern_title: "U.MethodDescription"
+pattern_title: "U.MethodDescription: Description Episteme for a Way of Doing"
 section_id: "A.3.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.2 — U.MethodDescription"
+  - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:intro — Intro"
-line_start: 6162
-line_end: 6163
+line_start: 6254
+line_end: 6259
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.3"
   - "A.3.1"
+  - "B.3"
+  - "C.2.P.DR"
   - "C.28"
+  - "E.10"
+  - "E.10.ARCH"
+  - "F.18"
   - "U.BoundedContext"
-  - "U.Capability"
-  - "U.Dynamics"
   - "U.Method"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "SOP"
@@ -37,5 +42,9 @@ keywords:
   - "specification"
 ---
 
-## A.3.2 - U.MethodDescription
+## A.3.2 - U.MethodDescription: Description Episteme for a Way of Doing
+
+> **Type:** Definitional pattern
+> **Status:** Stable
+> **Normativity:** Normative
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Cross-Context Checks (MethodDescription, RoleAssignment, and Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_cross-context-checks-methoddescription-roleassignment-and-work.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Cross-Context Checks (MethodDescription, RoleAssignment, and Work)"
-line_start: 20318
-line_end: 20335
+line_start: 20391
+line_end: 20408
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -49,11 +49,11 @@ When a Work is recorded, perform these **three quick checks**:
 
    * If **no**, the Work is **out‑of‑context**; either change context or add a Bridge.
 
-1. **RoleAssignment context check.** Is `performedBy`'s `U.RoleAssignment` **valid in** the same context, or bridged?
+1. **RoleAssignment interval and context check.** Does `performedBy` cover the work interval in the same context, or is it bridged?
 
-   * If **no**, the Work is **unassigned** for that context; remedy via a valid `U.RoleAssignment` or a policy exception.
+   * If **no**, the Work is **unassigned** for that context; remedy via a covering `U.RoleAssignment` or a policy exception.
 
-1. **Standard–Outcome Check.** Do the Work's inputs, outputs, and metrics satisfy the **acceptance criteria** from the spec **as interpreted in that context**?
+1. **Standard-Outcome Check.** Do the Work inputs, outputs, and metrics satisfy the **acceptance criteria** from the method-description source or declared standard **as interpreted in that context**?
 
    * If **no**, the Work **fails** or is “conditionally accepted” per context policy.
 

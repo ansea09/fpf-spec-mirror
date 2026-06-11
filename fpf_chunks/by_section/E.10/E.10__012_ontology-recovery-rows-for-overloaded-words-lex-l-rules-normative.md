@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 59891
-line_end: 60013
+line_start: 60313
+line_end: 60435
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 | **L‑SLA**    | *SLA* or *service level agreement* used for SLO, contract, or document | Unpack: (i) SLOs or acceptance thresholds -> `U.PromiseContent.acceptanceSpec`; (ii) binding obligation/penalty -> `U.Commitment`; (iii) packaged “the SLA” -> Contract Bundle (A.6.C); (iv) published terms -> `U.SpeechAct` + clause carrier (`U.Episteme`). | EntityOfConcern-side for PromiseContent/Commitment; Description episteme for clause carriers/specs; run record for Work+evidence | Kernel/Context/Discriminator | Treat “SLA” as polysemic shorthand; never store it as a single type name. |
 | **L‑SCHED**  | *schedule*, *plan*, or *calendar* as execution    | `U.WorkPlan` (intent/window) vs `U.Work` (actuals/telemetry)                                                                                                                                    | Description episteme vs run record                                                                             | Context                                     | Never attach actuals to a plan.                                                                      |
 | **L‑ACT**    | *activity*, *action*, or *task* as type           | `U.Work` (execution); **steps** belong to `U.MethodDescription` (with `requiredRoles`, capability bounds)                                                                                       | run record vs Description episteme                                                                             | Context                                     | Reserve verbs: *enact* (role/RSG), *execute* (Work), *actuate* (System), *approve* (SpeechAct Work). |
-| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | say “system **bearing** `…Role`”; use `U.AgentialRole` where needed                                                                                                                             | I                                                                                    | Kernel/Context                              | Org titles (Owner/Operator/Reviewer) live as **roles in a Context**.                                 |
+| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | say “system **bearing** `…Role`”; use `U.AgentialRole` where needed                                                                                                                             | I                                                                                    | Kernel/Context                              | Org titles (Owner/Operator/Reviewer) are **roles in a Context**.                                    |
 | **L‑OWNER**  | *owner of X* (global)                             | Ownership is a **Role** inside a `U.BoundedContext` (e.g., `OwnerRole:ITIL_2020`); SoD via `⊥`                                                                                                  | I                                                                                    | Context                                     | No global “owner” property in Kernel.                                                                |
 | **L‑CAP**    | *capability* for assignment, recipe, run, or promise | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `U.Method` or `U.MethodDescription`; runs `Work`; promises `U.PromiseContent` (service promise clause or offering)                                                       | EntityOfConcern-side vs Description episteme vs run record                                                                        | Kernel/Context                              | Holder of a Capability is a `U.System`.                                                              |
 | **L‑DYN**    | *process of diffusion, growth, or learning*       | `U.Dynamics` (law/model of change)                                                                                                                                                              | I                                                                                    | Kernel/Context                              | Reserve for uncaused change models.                                                                  |
@@ -62,7 +62,7 @@ keywords:
 
 #### E.10:9.2 - Diagnostic examples, not substitutions
 
-Use these rows as compact diagnostics for common ontology recoveries, not as a replacement table. A proposed repaired sentence is accepted only after the live `EntityOfConcern`, head kind, relation or claim kind, admissible use, and scope are recovered and the transformed sentence passes **§ 7 MG-DA**, **§ 8 LEX.Morph**, and the `KindRestorationCheck` from `E.10:10.2`. If the example row would change the kind in the local sentence, split the sentence or leave a blocker; do not copy the example as a ready-made rewrite.
+Use these rows as compact diagnostics for common ontology recoveries, not as a replacement table. A proposed repaired sentence is accepted only after the `EntityOfConcern`, head kind, relation or claim kind, admissible use, and scope under repair are recovered and the transformed sentence passes **§ 7 MG-DA**, **§ 8 LEX.Morph**, and the `KindRestorationCheck` from `E.10:10.2`. If the example row would change the kind in the local sentence, split the sentence or leave a blocker; do not copy the example as a ready-made rewrite.
 
 | **Trigger symptom**             | **Recovered ontology example**                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ A text **passes** LEX if all answers are **Green**:
 2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication-lane, and run-record uses are not conflated (cf. § 8.1 gates).
 3. **Promise vs ability vs performance.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
 4. **No anthropomorphism.** Documents/datasets/models do not “do”; **Systems** do.
-5. **Scheduling hygiene.** No actuals on `WorkPlan`; all actuals live on `Work`.
+5. **Scheduling hygiene.** No actuals on `WorkPlan`; all actuals belong on `Work`.
 6. **Cross‑context reuse.** Any reuse across Contexts cites a **Bridge id** with kind, direction, congruence level, loss, and scope. Apply **A.6.9 (RPR‑XCTX)** when the published prose uses “same”, “equivalent”, “align”, “map”, or similar bridge wording.
 7. **MG-DA ok.** New or refactored tokens pass **§ 7 MG-DA** (anchored head noun; collision check; CharacteristicSpace for enums).
 8. **Morphology ok.** Suffix/prefix/casing respect **§ 8 LEX.Morph** (e.g., `…Role`, `MethodDescription`, `Work`, reserved prefixes).

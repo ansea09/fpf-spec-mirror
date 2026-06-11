@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.CR"
-pattern_title: "ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+pattern_title: "ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
 section_id: "A.6.3.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression"
+  - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11104
-line_end: 11112
+line_start: 11208
+line_end: 11216
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -26,9 +26,6 @@ dependencies:
   - "E.17.ID.CR"
   - "F.18"
   - "F.9"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
 keywords:
 ---
 
@@ -36,8 +33,8 @@ keywords:
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 |---|---|---|
-| Treating every summary as automatically conservative | summary demand hides omission and claim shift | publish loss/provenance discipline explicitly |
+| Treating every summary as automatically conservative | summary demand hides omission and claim shift | publish loss and provenance discipline explicitly |
 | Hiding correspondence in plain paraphrase | required correspondence witness disappears into prose | declare `CorrespondenceModelRef` when needed |
-| Letting a rewrite become explanation | explanation work quietly becomes a textual “rewrite” | move to explanation governance once didactic/explanatory work dominates |
-| Letting `entityOfConcernRef` shift by topic similarity | same topic is not the same EntityOfConcern | exit to `A.6.4` if `EntityOfConcernRef` changes |
+| Letting a rewrite become explanation | explanation work quietly becomes a textual "rewrite" | apply explanation governance once didactic or explanatory work dominates |
+| Letting `entityOfConcernRef` shift by topic similarity | same topic is not the same EntityOfConcern | apply `A.6.4` if `EntityOfConcernRef` changes |
 

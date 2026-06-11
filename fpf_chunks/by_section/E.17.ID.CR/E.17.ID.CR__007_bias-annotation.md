@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: "E.17.ID.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__007_bias-annotation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:6 — Bias-Annotation"
-line_start: 65192
-line_end: 65200
+line_start: 65532
+line_end: 65540
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -41,9 +41,9 @@ keywords:
 ### E.17.ID.CR:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
-Scope: **bounded comparative review units governed under the `ComparativeReading` governing pattern inside `InterpretationDiscipline`**, not a universal claim about all review or publication forms.
+Scope: bounded comparative review units governed under `ComparativeReviewUnit` inside `InterpretationDiscipline`, not all review, all publication, or all decision work.
 
-This pattern intentionally biases toward bounded comparative reading and away from hidden bridge inflation, explanation laundering, ontology shift, action-selection pressure, and hidden policy, assurance, gate, release, or adjudication claims.
-The main mitigations are explicit primary-governing-pattern naming, visible source references, explicit interpretant-side boundedness, explicit unsupported downstream claim or effect, explicit comparison-unit surfacing, and hard boundaries to bridge, abductive-prompt, ontology-reframing, retargeting, policy, assurance, gate, release, action-selection, and adjudication patterns.
-Under the governance lens, the pattern is deliberately conservative: it helps a user prepare or review a bounded comparative review unit without letting that unit quietly become policy, assurance, gate, or action authority.
+This pattern intentionally biases toward one modest object: a bounded comparison over already available source epistemes or source publications. Its mitigation is positive before it is prohibitive: recover the source references, shared review frame, bounded lift, blocked downstream claim or effect, and boundary trigger. When the boundary trigger fires, name the crossed claim and use the governing pattern for that claim rather than extending this pattern by another warning list.
+
+The governance risk is not that a comparative review unit exists; it is that fluent comparison hides stronger use. The pattern therefore keeps reader-fit, interaction mode, and source relation visible only when they change the review unit's actual use, while keeping authority-bearing claims with their own governing patterns and project-side FPF kinds and references named by value.
 

@@ -6,12 +6,12 @@ section_id: "A.21:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:8 — Consequences"
-line_start: 28541
-line_end: 28555
+line_start: 28642
+line_end: 28656
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -47,13 +47,13 @@ keywords:
 **Benefits**
 
 * **Deterministic gating.** Join-semilattice aggregation makes decisions order-independent and idempotent (modulo declared equivalence), enabling consistent audit and replay.
-* **Clean CV/GF separation.** Activation boundary keeps profile concerns out of mechanism validity.
+* **Clean CV and GF separation.** Activation boundary keeps profile concerns out of mechanism validity.
 * **Profile clarity.** Fold policies (`error|timeout|unknown`) are explicit and profile-bound, making safety review result inspectable.
-* **Publication hygiene.** MVPK faces remain pins+refs (no new numeric claims), and DecisionLog captures rationale without procedural commitments.
+* **Publication hygiene.** MVPK faces remain pins and references (no new numeric claims), and DecisionLog captures rationale without procedural commitments.
 
 **Trade-offs**
 
-* **More decision records to publish.** Decisions are not “just pass/fail”: they require rationales, pins, and logs.
+* **More decision records to publish.** Decisions are not just binary pass-or-fail values: they require rationales, pins, and logs.
 * **Two-stage reasoning.** Users need the rule “GF does not apply until `CV.Status=pass` holds”; mitigated by explicit inapplicability rules and optional narratives only when applicable.
 * **Scope complexity.** Multi-scope merge semantics can feel heavy; mitigated by union + worst-wins + preserved rationales.
 

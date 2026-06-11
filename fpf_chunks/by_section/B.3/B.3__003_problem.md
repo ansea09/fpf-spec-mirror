@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust & Assurance Calculus (F–G–R with Congruence)"
+pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
 section_id: "B.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__003_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:2 — Problem"
-line_start: 31598
-line_end: 31606
+line_start: 31707
+line_end: 31715
 dependencies:
   - "A.10"
   - "A.12"
@@ -64,5 +64,5 @@ Without a disciplined calculus, four chronic failures appear:
 1. **Trust inflation:** Averaging or summing heterogeneous “quality” tags yields aggregates that look better than their weakest parts, violating WLNK.
 2. **Scale confusion:** Mixing ordinal and ratio scales (e.g., averaging `F` ordinal scale values with numeric reliabilities) produces meaningless numbers.
 3. **Congruence blindness:** Integration quality (how well pieces fit) is invisible; brilliantly strong parts connected by weak mappings produce overconfident wholes.
-4. **Scope drift:** Design‑time formalism and run‑time evidence are composed into a single score; dashboards then claim “assurance” for a blueprint using live data, or vice versa.
+4. **Scope drift:** Design-time formalism and run-time evidence are composed into a single score; dashboards then claim “assurance” for a blueprint using run-time data, or vice versa.
 

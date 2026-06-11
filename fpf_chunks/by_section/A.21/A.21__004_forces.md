@@ -6,12 +6,12 @@ section_id: "A.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:3 — Forces"
-line_start: 28274
-line_end: 28282
+line_start: 28381
+line_end: 28389
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -47,7 +47,7 @@ keywords:
 * **Separation vs convenience.** Keeping CV internal and GF profile-bound keeps the boundary explicit, but demands a crisp activation boundary.
 * **Determinism vs incompleteness.** Gate decisions stay deterministic even when evidence is missing or partial (`unknown`).
 * **Safety vs throughput.** Some profiles treat ambiguity as `block`, others as `degrade`.
-* **Human comprehension vs formal minimality.** Optional narratives help readers, but SHALL NOT be used as decisions.
-* **Reuse vs freshness.** Decisions may be reusable only under explicit equivalence; otherwise re-aggregation is mandatory.
+* **Human comprehension vs formal minimality.** Optional narratives help practitioners understand a gate decision, but are not used as decisions.
+* **Reuse vs freshness.** Decision reuse requires explicit equivalence; otherwise re-aggregation is mandatory.
 * **Scope granularity vs complexity.** Checks are declared with scopes (`lane|locus|subflow|profile`) and merged; duplicates preserve evidence rather than overwrite it.
 

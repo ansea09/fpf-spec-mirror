@@ -6,12 +6,12 @@ section_id: "E.10:11a"
 section_title: "SoTA-Echoing for lexical governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_sota-echoing-for-lexical-governance.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:11a — SoTA-Echoing for lexical governance"
-line_start: 60077
-line_end: 60089
+line_start: 60499
+line_end: 60511
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,7 +34,7 @@ keywords:
 
 ### E.10:11a - SoTA-Echoing for lexical governance
 
-E.10 lexical governance is not a private FPF style preference. It is a compact authoring discipline for communication, comprehension, term formation, discoverability, and error prevention. These external practice rows are admitted only where they change what an author or reviewer does in a live wording repair.
+E.10 lexical governance is not a private FPF style preference. It is a compact authoring discipline for communication, comprehension, term formation, discoverability, and error prevention. These external practice rows are admitted only where they change what an author or reviewer does in a wording repair.
 
 | Practice source | Use of source and source-currentness claim | What E.10 adopts | What E.10 rejects |
 | --- | --- | --- | --- |

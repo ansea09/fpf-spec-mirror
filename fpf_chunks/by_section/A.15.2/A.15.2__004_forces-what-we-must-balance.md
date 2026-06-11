@@ -6,12 +6,12 @@ section_id: "A.15.2:3"
 section_title: "Forces (what we must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__004_forces-what-we-must-balance.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:3 — Forces (what we must balance)"
-line_start: 20454
-line_end: 20463
+line_start: 20531
+line_end: 20540
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Universality vs. domain idioms** | One plan concept that fits hospitals, fabs, data centers, and research labs—while honoring local terms. |
 | **Commitment vs. flexibility**     | Plans must be firm enough to coordinate, yet easy to update as reality changes.                         |
-| **Intended performer vs. actual performer** | Plans may name intended performers; the actual assignment must still be checked at run time. |
-| **Budgets vs. actuals**            | Plans carry targets and reservations; only Work carries actual spend.                                   |
+| **Intended performer vs. performed-work assignee** | Plans may name intended performers; the assignment used for performed work must still be checked for the work interval. |
+| **Budgets vs. actuals**            | Plans state targets and reservations; only `U.Work` records actual spend.                                   |
 | **Decomposition vs. mapping**      | Plan tasks decompose conveniently; they do not force a shape on actual Work runs.                       |
 

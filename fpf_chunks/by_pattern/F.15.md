@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
-line_start: 74148
-line_end: 74516
+line_start: 74835
+line_end: 75203
 dependencies:
   - "B.3"
   - "D.CTX"

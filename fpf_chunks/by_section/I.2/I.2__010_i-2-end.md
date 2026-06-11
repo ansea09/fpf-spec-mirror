@@ -6,12 +6,12 @@ section_id: "I.2:End"
 section_title: "I.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__010_i-2-end.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:End — I.2:End"
-line_start: 82956
-line_end: 82996
+line_start: 83645
+line_end: 83687
 dependencies:
 keywords:
 ---
@@ -25,6 +25,8 @@ keywords:
 | J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
 | J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
 | J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
+
+# **Part K - Lexical Debt**
 
 ## Mandatory replacement map for measurement terms
 

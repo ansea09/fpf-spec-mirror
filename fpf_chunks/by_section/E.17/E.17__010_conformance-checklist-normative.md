@@ -6,12 +6,12 @@ section_id: "E.17:9"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__010_conformance-checklist-normative.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance checklist (normative)"
-line_start: 63884
-line_end: 63923
+line_start: 64335
+line_end: 64374
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -20,6 +20,7 @@ dependencies:
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -37,9 +38,9 @@ keywords:
 
 ### E.17:9 - Conformance checklist (normative)
 
-`CC-MVPK-FD` is the functional-description guard in §5.1a. It is conditional on a functional-description publication face and must not read as the first universal MVPK gate.
+`CC-MVPK-FD` is the functional-description guard in §5.1a. It is conditional on a functional-description publication face and does not function as the first universal MVPK gate.
 
-A conformance check is retained only if it changes the next admissible use of the publication face, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared admissible use.
+A conformance check is retained only if it changes the next bounded use of the publication face, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared bounded use.
 
 #### E.17:9.1 - Core ordinary checks
 
@@ -47,9 +48,9 @@ A conformance check is retained only if it changes the next admissible use of th
 | --- | --- | --- |
 | **CC‑MVPK‑1 (Viewpoint explicit)** | Each view declares its **Viewpoint** (stakeholders, concerns, conformance) as a publication `U.Viewpoint`. | Cards show `PublicationVPId` (or equivalent publication‑viewpoint field) and concerns. |
 | **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying Description epistemes, including Description epistemes admitted for specification use. | Red‑line vs Description episteme, including any exact specification-use source, shows only formatting or indexing. |
-| **CC-MVPK-4 (Pins and source references)** | Numbers and thresholds pin {...}. **Lean exception:** at MVPK-Min or MVPK-Lite profiles, EditionId MAY remain coarse; ordinal claims are admissible only as compare-only (no means or z-scores). | Validation shows pins present or compare-only mode engaged. |
+| **CC-MVPK-4 (Pins and source references)** | Numbers and thresholds pin {...}. **Lean exception:** at MVPK-Min or MVPK-Lite profiles, EditionId can remain coarse; ordinal claims stay compare-only (no means or z-scores). | Validation shows pins present or compare-only mode engaged. |
 | **CC-MVPK-4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence-bit green. |
-| **CC-MVPK-5 (Carrier reference)** | First mention includes **SCR/RSCR** ids when carrier work or rendering work is live. | SCR ids visible on the card when used. |
+| **CC-MVPK-5 (Carrier reference)** | First mention includes **SCR/RSCR** ids when carrier work or rendering work is present. | SCR ids visible on the card when used. |
 
 #### E.17:9.2 - Conditional checks
 
@@ -57,10 +58,10 @@ A conformance check is retained only if it changes the next admissible use of th
 | --- | --- | --- |
 | **CC‑MVPK‑0 (Lean publication guard)** | For Lean profiles, a minimal guard runs: (i) set‑returning selection present; (ii) ReferencePlane present; (iii) any crossing cites BridgeId+CL with penalties applied to R only. | Validation report shows presence bits; penalties apply to R only. |
 | **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
-| **CC‑MVPK‑3b (Boundary claim‑set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then any normative text on faces **MUST** be traceable to that claim set (prefer claim‑ID citations); faces **MUST NOT** become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim‑ID citations + informative commentary}. |
+| **CC-MVPK-3b (Boundary claim-set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then normative text on faces is traceable to that claim set (prefer claim-ID citations); faces do not become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim-ID citations + informative commentary}. |
 | **CC‑MVPK‑4b (Lean assurance)** | If `AssuranceLane‑Lite` is used, presence bits for {PathSliceId?, BridgeId?} suffice; full evidence-carrier lists stay with the governing evidence source. | Presence bits visible; required evidence-carrier refs stay outside Lite. |
 | **CC-MVPK-4c (Input and Output vs publication)** | Faces **do not** restate Input and Output; they carry **presence-pins, source references, and EditionId** only. | Face inspection shows no Input and Output duplication. |
-| **CC‑MVPK‑4d (Admissible orders)** | Any selection or comparison on faces **returns sets or admissible partial orders** with a **ComparatorSet** citation. | No hidden scalarization; ComparatorSetRef present. |
+| **CC-MVPK-4d (Set-returning ordering)** | Any selection or comparison on faces returns sets or declared partial orders with a **ComparatorSet** citation. | No hidden scalarization; ComparatorSetRef present. |
 | **CC‑MVPK‑4e (Signature on faces — banned)** | The term **“signature”** is **not used** on faces; use **TechName** or **PlainName**. | Token scan: no “signature” on faces. |
 | **CC‑MVPK‑4f (PC discipline)** | Any numeric or comparable publication uses **Publication characteristics** (PC) and carries pins {unit, scale, reference‑plane, edition}. | Cards show PC fields + pins; validation passes. |
 | **CC‑MVPK‑4g (No axis or dimension)** | Faces avoid “axis”, “dimension”, and “plane” metaphors except **ReferencePlane**; use CHR terms (**Characteristic**, slot, or **CharacteristicSpace**). | Lexical check flags none; only `ReferencePlane` appears. |

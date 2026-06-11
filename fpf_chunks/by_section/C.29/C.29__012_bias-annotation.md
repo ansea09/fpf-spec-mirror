@@ -6,12 +6,12 @@ section_id: "C.29:10"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__012_bias-annotation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:10 — Bias annotation"
-line_start: 51437
-line_end: 51451
+line_start: 51849
+line_end: 51863
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,7 +70,7 @@ keywords:
 
 | Bias risk | C.29 correction |
 |---|---|
-| **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseAdmissibilityValue`, and `StopCondition`. |
+| **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`. |
 | **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and governing pattern. |
 | **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
 | **Speculation laundering** | Vanchurin enters as candidate lens or SoTA-echo, not accepted fact. |

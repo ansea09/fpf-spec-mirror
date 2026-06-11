@@ -6,12 +6,12 @@ section_id: "E.11:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__014_conformance-checklist.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Conformance Checklist"
-line_start: 61188
-line_end: 61206
+line_start: 61647
+line_end: 61665
 dependencies:
   - "E.10"
   - "E.10.ARCH"

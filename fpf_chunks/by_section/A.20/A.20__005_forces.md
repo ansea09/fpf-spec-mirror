@@ -6,12 +6,12 @@ section_id: "A.20:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__005_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:3 — Forces"
-line_start: 27895
-line_end: 27902
+line_start: 27998
+line_end: 28005
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -39,9 +39,9 @@ keywords:
 
 ### A.20:3 - Forces
 
-* **Separation of concerns.** Internal mechanism laws vs. external profile fit.
-* **Auditability.** MVPK faces include pins/references only; no new numeric claims; editions and Γ are pinned where applicable.
+* **Separation of concerns.** Internal mechanism laws are distinct from external `GateProfile` fit.
+* **Auditability.** MVPK faces include pins and references only; no new numeric claims; editions and Γ are pinned where applicable.
 * **Graph discipline.** One edge kind; all crossings mediated by gates; SquareLaw on every crossing.
 * **Reproducible valuation.** Flow = valuation over `U.Transfer`, with slice‑local refresh bounded by sentinels.
-* **LEX hygiene.** ASCII Tech labels, twin Tech/Plain registers, registered tokens.
+* **LEX hygiene.** ASCII Tech labels, twin Tech and Plain registers, registered tokens.
 

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3f9a2dd65b0df9cf6bed602fb1f189162060954f`
+Commit SHA: `20c8a0a53eda448bd9d019c860be4517a6e822cc`
 
 Chunking method: `pattern-aware`
 
-Patterns: `236`
+Patterns: `238`
 
 ## Patterns
 
@@ -24,9 +24,9 @@ Patterns: `236`
 - [A.2.8 — U.Commitment (Deontic Commitment Object)](by_pattern/A.2.8.md)
 - [A.2.9 — U.SpeechAct (Communicative Work Object)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
-- [A.3.1 — U.Method](by_pattern/A.3.1.md)
-- [A.3.2 — U.MethodDescription](by_pattern/A.3.2.md)
-- [A.3.3 — U.Dynamics](by_pattern/A.3.3.md)
+- [A.3.1 — U.Method: Context-Defined Way of Doing](by_pattern/A.3.1.md)
+- [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
+- [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
 - [A.4 — Temporal Duality & Open‑Ended Evolution Principle](by_pattern/A.4.md)
 - [A.5 — Open‑Ended Kernel & Extension Layering](by_pattern/A.5.md)
 - [A.6 — Signature Stack & Boundary Discipline](by_pattern/A.6.md)
@@ -34,12 +34,12 @@ Patterns: `236`
 - [A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)](by_pattern/A.6.B.md)
 - [A.6.C — Contract Unpacking for Boundaries](by_pattern/A.6.C.md)
 - [A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType](by_pattern/A.6.0.md)
-- [A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType](by_pattern/A.6.1.md)
+- [A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
 - [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
-- [A.6.3.CR — ConservativeRetextualization — entityOfConcernRef-preserving textual re-expression](by_pattern/A.6.3.CR.md)
-- [A.6.3.RT — RepresentationTransduction — entityOfConcernRef-preserving representation-scheme transition](by_pattern/A.6.3.RT.md)
+- [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
+- [A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
@@ -55,7 +55,7 @@ Patterns: `236`
 - [A.7 — Strict Distinction (Clarity Lattice)](by_pattern/A.7.md)
 - [A.8 — Universal Core Principle (C‑1)](by_pattern/A.8.md)
 - [A.9 — Cross‑Scale Consistency (C‑3)](by_pattern/A.9.md)
-- [A.10 — Evidence Graph Referring (C‑4)](by_pattern/A.10.md)
+- [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
 - [A.11 — Ontological Parsimony (C‑5)](by_pattern/A.11.md)
 - [A.12 — External Transformer & Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
@@ -99,7 +99,7 @@ Patterns: `236`
 - [B.2.3 — Meta-Epistemic Transition (MET)](by_pattern/B.2.3.md)
 - [B.2.4 — Meta-Functional Transition (MFT)](by_pattern/B.2.4.md)
 - [B.2.5 — Supervisor-Subholon Feedback Loop](by_pattern/B.2.5.md)
-- [B.3 — Trust & Assurance Calculus (F–G–R with Congruence)](by_pattern/B.3.md)
+- [B.3 — Trust and Assurance Calculus (F-G-R with Congruence)](by_pattern/B.3.md)
 - [B.3.3 — Assurance Subtypes & Levels](by_pattern/B.3.3.md)
 - [B.3.4 — Evidence Decay & Epistemic Debt](by_pattern/B.3.4.md)
 - [B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)](by_pattern/B.3.5.md)
@@ -122,6 +122,7 @@ Patterns: `236`
 - [C.2.5 — U.LanguageStateClosureDegree](by_pattern/C.2.5.md)
 - [C.2.6 — U.LanguageStateAnchoringMode](by_pattern/C.2.6.md)
 - [C.2.7 — U.LanguageStateRepresentationFactorBundle](by_pattern/C.2.7.md)
+- [C.2.P.DR — Declarative Representation Precision Restoration](by_pattern/C.2.P.DR.md)
 - [C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)](by_pattern/C.3.md)
 - [C.3.1 — U.Kind & SubkindOf (Core)](by_pattern/C.3.1.md)
 - [C.3.2 — KindSignature (+F) & Extension/MemberOf](by_pattern/C.3.2.md)
@@ -198,7 +199,7 @@ Patterns: `236`
 - [E.17.2 — TEVB — Typical Engineering Viewpoints Bundle](by_pattern/E.17.2.md)
 - [E.17 — Multi‑View Publication Kit](by_pattern/E.17.md)
 - [E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces](by_pattern/E.17.EFP.md)
-- [E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units](by_pattern/E.17.ID.CR.md)
+- [E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units](by_pattern/E.17.ID.CR.md)
 - [E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly](by_pattern/E.17.AUD.md)
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
 - [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
@@ -209,6 +210,7 @@ Patterns: `236`
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)
 - [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
+- [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)

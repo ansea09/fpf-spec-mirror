@@ -6,12 +6,12 @@ section_id: "A.15.2:7e"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__013_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7e — Relations"
-line_start: 20623
-line_end: 20628
+line_start: 20700
+line_end: 20705
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,6 +37,6 @@ keywords:
 ### A.15.2:7e - Relations
 
 * **Builds on:** `A.15` Role-Method-Work Alignment, `A.15.1` `U.Work`, `A.2.1` `U.RoleAssignment`, `U.Method`, and `U.MethodDescription`.
-* **Coordinates with:** `A.15.3` for slot-filling plan items, `A.15.4` for work-relevant source restoration, `A.10` for evidence paths, `B.3` for assurance, `A.20` and `A.21` for gates and constraint decisions, and `E.17` for publication-use questions.
+* **Coordinates with:** `A.15.3` for `SlotFillingsPlanItem` values, `A.15.4` for work-relevant source restoration, `A.10` for evidence-provenance relations, `B.3` for assurance, `A.20` and `A.21` for gates and constraint decisions, and `E.17` for publication-use questions.
 * **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning and must keep plan, performed work, evidence, gate, and result-measurement relations separate.
 

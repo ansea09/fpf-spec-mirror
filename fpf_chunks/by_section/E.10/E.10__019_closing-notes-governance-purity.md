@@ -6,12 +6,12 @@ section_id: "E.10:15"
 section_title: "Closing notes (governance & purity)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__019_closing-notes-governance-purity.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:15 — Closing notes (governance & purity)"
-line_start: 60145
-line_end: 60155
+line_start: 60569
+line_end: 60579
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,7 +35,7 @@ keywords:
 ### E.10:15 - Closing notes *(governance & purity)*
 
 * **Notation‑agnostic.** ULR is a **language constitution**, not a scanner or template. Apply it in prose, sketches, or formal models.
-* **Where checks live.** Convenience checks belong to Tooling; ULR itself stays notation‑agnostic. Conformance code lives in **SCR‑LEX / RSCR‑LEX** as referenced above.
+* **Where checks belong.** Convenience checks belong to Tooling; ULR itself stays notation‑agnostic. Conformance code belongs in **SCR‑LEX / RSCR‑LEX** as referenced above.
 * **Acts vs tokens.** LEX applies to **tokens**; USM applies to **acts** (mint/rename/use). Conformance:
   `LEX.TokenClass(t)=c  ⇒  USM.Scope(usage) ∈ AllowedScopes(c)` (§ 7.5).
 * **Guards honoured.** DevOps Lexical Firewall and Unidirectional Dependency remain intact.

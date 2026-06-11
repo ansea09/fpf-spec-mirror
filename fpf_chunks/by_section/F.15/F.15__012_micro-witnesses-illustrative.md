@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Micro‑witnesses (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__012_micro-witnesses-illustrative.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:11 — Micro‑witnesses (illustrative)"
-line_start: 74349
-line_end: 74360
+line_start: 75036
+line_end: 75047
 dependencies:
   - "B.3"
   - "D.CTX"

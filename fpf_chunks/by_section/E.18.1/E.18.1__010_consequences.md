@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
   - "E.18.1:9 — Consequences"
-line_start: 67124
-line_end: 67133
+line_start: 67461
+line_end: 67470
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
-| The carry-through record becomes the local work product. | A practitioner can replay the move from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
+| The carry-through record becomes the local project record. | A practitioner can replay the move from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
 | Positive graph comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
 | Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source phrase. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method or work-planning material outside P2W. |

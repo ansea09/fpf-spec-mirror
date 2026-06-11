@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust & Assurance Calculus (F–G–R with Congruence)"
+pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
 section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:1 — Problem frame"
-line_start: 31578
-line_end: 31597
+line_start: 31687
+line_end: 31706
 dependencies:
   - "A.10"
   - "A.12"
@@ -64,16 +64,16 @@ Every non‑trivial result in FPF—*a composed system is safe*, *a model is cre
 * For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
 * For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of evidence relation* for a statement or model.
 
-To make such claims comparable and auditable across domains, B.3 introduces a **Trust & Assurance Calculus** that:
+To make such claims comparable and auditable across domains, B.3 introduces a **Trust and Assurance Calculus** that:
 
-* uses a **small typed assurance tuple** (**F–G–R**: **F/R** characteristics plus **G** as scope object) governed by conservative propagation rules (this is **not** a state space),
+* uses a **small typed assurance tuple** (F-G-R: `F` and `R` as characteristics plus `G` as scope value) governed by conservative propagation rules; this tuple is **not** a state space,
 * accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
-* and composes these values with **Γ‑flavours** while respecting the **Invariant Quintet** (IDEM, COMM/LOC or their replacements, WLNK, MONO).
+* and composes these values with **Gamma flavours** while respecting the **Invariant Quintet** (IDEM, COMM or LOC replacements, WLNK, MONO).
 
-B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How you improve those components (e.g., formalize, replicate, reconcile, or admissibly widen/narrow scope) is the job of KD‑CAL actions (the knowledge‑dynamics patterns; references are descriptive, not required to read here).
+B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How those components improve (for example by formalizing, replicating, reconciling, or widening or narrowing scope under declared operation rules) is handled by KD-CAL improvement moves; those knowledge-dynamics references are descriptive, not required to read here.
 
-**Mechanism linkage.** For law‑governed operation families (e.g., **USM/UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra/LawSet/AdmissibilityConditions** and the **Transport** clause (Bridge‑only, CL/CL^k/CL^plane). All such penalties **reduce `R/R_eff` only**; **F/G** remain invariant.
+**Mechanism linkage.** For law-governed operation families (for example **USM** and **UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, and the **Transport** clause (Bridge-only; `CL`, `CL^k`, and `CL^plane`). All such penalties reduce `R_eff` only; `F` and `G` remain invariant.
 
-**Working‑Model handshake (alignment with E.14 - B.3.5 - C.13).**
-Assurance consumes two inputs declared in the **Working‑Model** assertion layer (CT2R‑LOG, B.3.5): the **justification stance** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Γₘ** (Compose‑CAL) narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working‑Model wording or layout (downward‑only dependence, E.14).
+**Working-Model handshake (alignment with E.14, B.3.5, and C.13).**
+Assurance consumes two inputs declared in the **Working-Model** assertion layer (CT2R-LOG, B.3.5): the **justification declaration** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Gamma-m** (Compose-CAL) narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working-Model wording or layout; dependence remains downward-only under E.14.
 

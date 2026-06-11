@@ -6,12 +6,12 @@ section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 51196
-line_end: 51213
+line_start: 51609
+line_end: 51626
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -68,7 +68,7 @@ keywords:
 
 ### C.29:5 - Neighboring-pattern boundaries
 
-Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first admissible move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-pattern table instead of copying generic boundary prose into the neighboring pattern:
+Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first bounded move for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-pattern table instead of copying generic boundary prose into the neighboring pattern:
 
 - `A.6.P` handles relation precision restoration.
 - `A.3.3` handles dynamics semantics.
@@ -76,7 +76,7 @@ Neighboring patterns remain necessary and are not displaced. A retained neighbor
 - `F.9` handles cross-context semantics and Bridge loss.
 - `C.18.1` and `C.19.1` handle scale-law and BLP claims.
 - `C.26` handles one specific quantum-like lens family.
-- `C.28` handles causal-use admissibility.
+- `C.28` handles causal-use question and verdict.
 - `A.10` and `B.3` handle evidence and assurance.
 - `C.11`, `A.15`, `A.15.1`, and `A.15.4` handle choice results, method and work separation, work plans, performed work, and work-relevant source restoration.
 - `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.

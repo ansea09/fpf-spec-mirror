@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 20614
-line_end: 20622
+line_start: 20691
+line_end: 20699
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,8 +38,8 @@ keywords:
 
 | Source tradition | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |
-| Operations planning, scheduling, and project-control practice | Planned windows, dependencies, budgets, and baselines are declared before execution and compared against actuals after work occurs. | Treating schedule presence as execution evidence. |
-| Lean, maintenance, and service-management planning practice | Plans coordinate role requirements, assets, constraints, and reservations while leaving actual work and variance to run-time records. | Treating a plan as a method, a gate, or a result. |
-| Case-management and adaptive-work practice | Emergency and ad hoc work can be related back to planning through exception, fulfilment, and variance relations. | Forcing every actual work occurrence into the original plan shape. |
+| Operations planning, scheduling, and project-control practice | Planned windows, dependencies, budgets, and baselines are declared before work occurs and compared against actuals after work occurs. | Treating schedule presence as evidence that work occurred. |
+| Lean, maintenance, and service-management planning practice | Plans coordinate role requirements, assets, constraints, and reservations while leaving performed work and variance to work records. | Treating a plan as a method, a gate, or a result. |
+| Case-management and adaptive-work practice | Emergency and ad hoc work can be related back to planning through exception, fulfilment, and variance relations. | Forcing every performed work occurrence into the original plan shape. |
 | Audit and quality-management practice | Baseline, version, acceptance target, and change note remain explicit so deviations can be explained. | Changing the plan after the fact to make variance disappear. |
 

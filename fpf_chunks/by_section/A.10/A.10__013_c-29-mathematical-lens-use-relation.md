@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.10"
-pattern_title: "Evidence Graph Referring (C‑4)"
+pattern_title: "Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
 section_id: "A.10:10b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__013_c-29-mathematical-lens-use-relation.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.10 — Evidence Graph Referring (C‑4)"
+  - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10b — C.29 mathematical-lens use relation"
-line_start: 18903
-line_end: 18906
+line_start: 18971
+line_end: 18974
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,5 +53,5 @@ keywords:
 
 ### A.10:10b - C.29 mathematical-lens use relation
 
-> If a mathematical lens needs evidence relation, write the evidence path, source currentness, provenance, and any model-card or datasheet evidence use in `A.10`. A `C.29` output may state only `LensUseAdmissibilityValue` for the mathematical-lens use claim; it is not an evidence path, currentness proof, provenance record, or evidence-carrier substitute. Assurance or release confidence goes to `B.3`; measurement construction or comparability goes to `C.16`.
+> If a mathematical lens needs evidence relation, write the evidence path, source currentness, provenance, and any model-card or datasheet evidence use in `A.10`. A `C.29` output may state only the C.29-local lens-use value for the mathematical-lens use claim; it is not an evidence path, currentness proof, provenance record, or evidence-carrier substitute. Assurance or release confidence goes to `B.3`; measurement construction or comparability goes to `C.16`.
 

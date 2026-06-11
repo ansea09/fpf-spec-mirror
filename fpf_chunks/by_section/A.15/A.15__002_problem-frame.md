@@ -6,12 +6,12 @@ section_id: "A.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:1 — Problem frame"
-line_start: 19624
-line_end: 19638
+line_start: 19692
+line_end: 19706
 dependencies:
   - "A.10"
   - "A.12"
@@ -46,7 +46,7 @@ keywords:
 
 ### A.15:1 - Problem frame
 
-In any complex system, from a software project to a biological cell, there is a fundamental distinction between **what something is** (its structure), **what it is supposed to do** (its role and specified capability), and **what it actually does** (its work). Confusing these distinctions is a primary source of design flaws, budget overruns, and failed projects. Teams argue over a source-side "process" cue without clarifying whether the live FPF object is a `U.Method`, a `U.MethodDescription`, a `U.Capability`, a `U.WorkPlan`, or a specific `U.Work` occurrence that happened last Tuesday.
+In any complex system, from a software project to a biological cell, there is a fundamental distinction between **what something is** (its structure), **what it is supposed to do** (its role and specified capability), and **what it actually does** (its work). Confusing these distinctions is a primary source of design flaws, budget overruns, and failed projects. Teams argue over a source-side "process" cue without clarifying whether the FPF object under repair is a `U.Method`, a `U.MethodDescription`, a `U.Capability`, a `U.WorkPlan`, or a specific `U.Work` occurrence that happened last Tuesday.
 
 This pattern provides the canonical alignment for modeling contextual enactment in FPF, serving as the ultimate implementation of the **Strict Distinction Principle (A.7)**. It weaves together several foundational concepts into a single, coherent model of how intended work becomes planned and actual `U.Work`:
 *   **A.2 (Contextual Role Assignment):** Provides the `Holder#Role:Context` structure for assigning roles.
@@ -55,7 +55,7 @@ This pattern provides the canonical alignment for modeling contextual enactment 
 
 The intent of this pattern is to establish a normative, unambiguous vocabulary and set of relations for describing the passage from role and method capability to planned and actual, resource-consuming `U.Work`.
 
-To keep plan-run separation explicit, this pattern references **A.15.2 `U.WorkPlan`** for **schedules and calendars** and **A.15.1 `U.Work`** for **dated execution**. Ambiguous source terms like "process", "workflow", and "schedule" are constrained by **L-PROC**, **L-FUNC**, and **L-SCHED** (E-cluster): a _workflow_ cue normally resolves to `U.MethodDescription` unless the abstract way-of-doing itself is live as `U.Method`; a _schedule_ cue resolves to `U.WorkPlan`; what _happened_ resolves to `U.Work`.
+To keep plan-run separation explicit, this pattern references **A.15.2 `U.WorkPlan`** for **schedules and calendars** and **A.15.1 `U.Work`** for **dated execution**. Ambiguous source terms like "process", "workflow", and "schedule" are constrained by **L-PROC**, **L-FUNC**, and **L-SCHED** (E-cluster): a _workflow_ cue normally resolves to `U.MethodDescription` unless the abstract way-of-doing itself is being claimed as `U.Method`; a _schedule_ cue resolves to `U.WorkPlan`; what _happened_ resolves to `U.Work`.
 
 **Terminology note (L-ACT).** The words _action_ and _activity_ are **not normative** in the kernel. When a generic "doing" is needed, we use the didactic term **enactment** (not a type). Normative references must be to **`U.Method`**, **`U.MethodDescription`**, **`U.Work`**, or **`U.WorkPlan`**. See lexical rules **L-PROC**, **L-FUNC**, **L-SCHED**, and **L-ACT**.
 

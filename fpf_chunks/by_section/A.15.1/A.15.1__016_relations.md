@@ -6,12 +6,12 @@ section_id: "A.15.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:14 — Relations"
-line_start: 20377
-line_end: 20382
+line_start: 20450
+line_end: 20455
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -45,5 +45,5 @@ keywords:
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; **U.System**; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; A.3.1 `U.Method`; A.3.2 `U.MethodDescription`.
 * **Coordinates with:** A.15 Role-Method-Work Alignment (the "four-slot grammar"); B.1 Γ (aggregation) for resource and time operators; E-cluster lexical rules (L-PROC and L-FUNC).
-* **Informs:** reporting and KPI patterns; assurance and evidence patterns (Work as the anchor for audits); scheduling patterns (`U.WorkPlan` -> `U.Work` deltas).
+* **Informs:** reporting and KPI patterns; assurance and evidence patterns (Work as the reference occurrence for audits); scheduling patterns (`U.WorkPlan` -> `U.Work` deltas).
 

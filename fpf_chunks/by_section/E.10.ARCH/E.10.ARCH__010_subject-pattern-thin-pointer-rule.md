@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__010_subject-pattern-thin-pointer-rule.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 60329
-line_end: 60347
+line_start: 60772
+line_end: 60793
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -61,5 +73,8 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or characterization use named by value;
 - use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or governing pattern;
-- use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance.
+- use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance;
+- use `A.3.1` when method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, or programming-paradigm wording hides whether the current slot is method, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
+- use `C.2.P.DR` when a declarative representation, graph relation, evidence path, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
+- use the direct governing pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.
 

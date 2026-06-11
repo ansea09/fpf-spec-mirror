@@ -6,12 +6,12 @@ section_id: "A.15.4:3"
 section_title: "Work-Relevant Source Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_work-relevant-source-restoration.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:3 — Work-Relevant Source Restoration"
-line_start: 21142
-line_end: 21349
+line_start: 21229
+line_end: 21449
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
+  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"
@@ -46,67 +47,68 @@ keywords:
 ### A.15.4:3 - Work-Relevant Source Restoration
 
 ##### Core stress-case rule
+
 **Ordinary source-restoration note.** In ordinary use, do not build a source dossier. The first useful note is:
 
-`encountered item; live work claim or reliance claim; pattern that governs the claim being made or effect; project-side FPF kind and reference named by value needed; admissible next project move now; blocked overread`
+`encounteredSourceCandidate; work or reliance claim under repair; claim or effect needed; governing source needed; relation-governed move now; blocked overread; stop or reopen condition`
 
-The encountered item may be a tile, credential view, approval-looking memo, generated explanation, copied review, provenance mark, API wording, functional-description publication, or composed source chain. The pattern asks whether the work claim or reliance claim named by value is currently carried by a project-side FPF kind and reference named by value, not whether the item is impressive, fluent, or easy to inspect.
+The encountered source candidate may be a tile, credential view, approval-looking memo, generated explanation, copied review, provenance mark, API wording, functional-description publication, or composed source chain. The pattern asks whether the requested claim is currently carried by a project-side source named by value, not whether the source candidate is impressive, fluent, easy to inspect, or visually salient.
 
-**Conditional source-relation field set.** Use the fuller fields below only when release, safety, compliance, role, status, gate, assurance, contested source, external reliance, cross-context reuse, currentness, revocation, generated source relation, or copied source relation is live. These fields are local restoration aids, not a new record kind.
+**Conditional source-relation field set.** Use the fuller fields below only when release, safety, compliance, role, status, gate, assurance, contested source, external reliance, cross-context reuse, currentness, revocation, generated source relation, or copied source relation is being relied on for the claim under repair. These fields are local restoration aids, not a new record kind.
 
 | Field | Working question |
 | --- | --- |
-| subject or actor | Who or what would perform the work, rely on the item, hold the status, or be affected by the claim? |
-| role | Which `U.RoleAssignment` or role-context claim is live? |
-| guided action or work item | Which selected method, method of work, `U.WorkPlan`, planned work, actual `U.Work`, work result, release move, reliance move, status, or effect is being guided? |
+| subject or actor | Who or what would perform the work, rely on the source candidate, hold the status, or be affected by the claim? |
+| role | Which `U.RoleAssignment` or role-context claim is being made? |
+| guided action or work target | Which selected method, method of work, `U.WorkPlan`, planned work, dated `U.Work`, work result, release move, reliance move, source status, or effect is being guided? |
 | affected resource or claim | Which resource, claim, gate, credential, status, evidence, approval, or source finding with authority-reference relation is supposedly affected? |
-| context | Which bounded context, environment, project slice, interface setting, protocol setting, or relying situation makes the claim live? |
+| context | Which bounded context, environment, project slice, interface setting, protocol setting, or relying situation makes the claim applicable? |
 | policy or gate version | Which policy, gate profile, constraint version, method version, or register edition is supposed to govern the claim? |
-| time window | During which window is the claim, effect, source relation, or admissible-use boundary claimed to hold? |
+| time window | During which window is the claim, effect, source relation, or recovered-use boundary claimed to hold? |
 | currentness or revocation field | Is the source relation current, stale, revoked, superseded, expired, contradicted, or unknown? |
-| issuer or source | Which issuer, project-side FPF kind and reference named by value, register source, status source, speech act, gate decision, evidence path, or work-occurrence record carries the claim, effect, source relation, or admissible-use boundary? |
+| issuer or source | Which issuer, governing source, register source, source-status record, speech act, gate decision, evidence path, or work-occurrence record carries the claim, effect, source relation, or recovered-use boundary? |
 | verifier or relying context | Who is checking or relying on the claim, and in which context? |
 | evidence or attestation path | Which `A.10` evidence, provenance, or attestation path, if any, justifies the claim without itself becoming approval, gate passage, assurance, or work occurrence? |
-| sourceRelationClass | Which `E.17:5.1b` source-relation class or claim-admissibility class applies to the encountered item and required claim or use? |
+| sourceRelationClass | Which `E.17:5.1b` source-relation class or claim-use class applies to the encountered source candidate and required claim or use? |
 | unsupported effect | Which requested work claim, reliance claim, or downstream effect remains unsupported and must be narrowed, repaired, reopened, probed, or blocked? |
 
-Start with the A.15.4 working action path above when the encountered item is about to guide a work move, reliance move, or work-relevant claim. If the issue under repair is only evidence, currentness, gate validity, constraint validity, engineering justification, commitment, speech act, boundary wording, admissibility wording, credential proof, status proof, explanation, comparison, or carrier and front-end behavior, apply the pattern that governs that issue under repair and project-side FPF kind and reference named by value directly; use A.15.4 only when that source must be restored before role, method, plan, work, work result, result measurement, or another work move or reliance move can proceed.
+Start with the A.15.4 first restoration checks above when the encountered source candidate is about to guide a work move, reliance move, or work-relevant claim. If the issue under repair is only evidence, currentness, gate-passage claim, `ConstraintValidity` status, engineering justification, commitment, speech act, boundary wording, use-boundary wording, credential proof, source-status proof, explanation, comparison, or publication-carrier or front-end behavior, use the pattern governing that issue directly. Use A.15.4 only when the source must be restored before role, method, plan, work, work result, result measurement, or another work move or reliance move can proceed.
 
-**Authority-looking source-backed work or reliance case.** Use A.15.4 when an approval-, permission-, gate-, command-, credential-, delegation-, revocation-, status-, provenance-, dashboard-, copied-review-, generated-explanation-, schema-, API-, or composed-chain case is about to be used as a work cue, reliance claim source, release-reliance claim source, execution-evidence source, approval-claim source, approval-effect source, role-claim source, status-claim source, or next work-relevant move. The recognition moment is that an encountered publication, display, credential view, wording, or explanation looks like permission, prohibition, readiness, or evidence for starting work; the question under repair is still the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position plus the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect being inferred from, or through, the wording, display, publication face, carrier, or source-finding cue. It is not the wording alone. A.15.4 does not change the primary `EntityOfConcern` of `A.15`; it guides only the source-restoration step before the encountered case can guide work or reliance.
+**Authority-looking source-backed work or reliance case.** Use A.15.4 when an approval-, permission-, gate-, command-, credential-, delegation-, revocation-, status-, provenance-, dashboard-, copied-review-, generated-explanation-, schema-, API-, or composed-chain case is about to be used as a work cue, reliance claim source, release-reliance claim source, performed-work evidence source, approval-claim source, approval-effect source, role-claim source, status-claim source, or next work-relevant move. The recognition moment is that an encountered publication, display, credential view, wording, or explanation looks like permission, prohibition, readiness, or evidence for starting work. The repair question remains: which work or reliance claim is being made, and which source must carry it?
 
-Here "authority-looking case" is only a recognition phrase for the encountered situation; it is not a `U.*` kind, not an assurance tuple, not a measured value, and not a new source kind or project record. The source-backed project-side kind or record that permits, forbids, records, or carries the work-relevant claim may instead be a `GateDecision`, `SpeechAct`, `U.Commitment`, `RoleAssignment`, credential record, status record, `A.6.B`-claim being made, `A.10` evidence path, or `B.3` assurance claim. Use `E.17:5.1c` for the shared meanings of `orientation use`, `reliance use`, work claim, reliance claim, operative claim, unsupported downstream use, and `reopen trigger`; use `E.17:5.1d` when the primary question under repair may belong to another pattern that governs the claim being made or effect with its project-side FPF kind and reference named by value.
+Here "authority-looking case" is only a recognition phrase for the encountered situation. The governing source that permits, forbids, records, or carries the work-relevant claim may instead be a `GateDecision`, `SpeechAct`, `U.Commitment`, `RoleAssignment`, credential record, status record, `A.6.B`-claim being made, `A.10` evidence path, or `B.3` assurance claim. Use `E.17:5.1c` for the shared meanings of `orientation use`, `reliance use`, work claim, reliance claim, operative claim, unsupported downstream use, and `reopen trigger`; use `E.17:5.1d` when the primary question under repair belongs to another governing pattern.
 
-The central behaviour is: name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position; name the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect; keep the `U.Episteme` or `U.EpistemePublication` distinct from publication form, MVPK face, carrier, rendering, and source-finding cue; choose the minimum sufficient next move; recover only the project-side FPF kind and reference named by value needed for that move; and do not raise the claim beyond that recovered relation, source, or admissible-use boundary. If the named project record states the governing FPF relation, use that recorded relation directly rather than inferring it from wording.
+The central behaviour is: name the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair; name the source that carries the needed claim or effect; keep the `U.Episteme` or `U.EpistemePublication` distinct from publication form, MVPK face, publication carrier, rendering, and source-finding cue; choose the minimum sufficient next move; and do not raise the claim beyond the recovered relation, source relation, or recovered use boundary. If the named project record states the governing FPF relation, use that recorded relation directly rather than inferring it from wording.
 
-**Positive repaired path.** An encountered `U.Episteme` publication, publication form, MVPK face, carrier, rendering, or source-finding cue may guide work or reliance only to the claim or effect carried by the recovered project-side FPF kind and reference named by value, actor or role, live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, affected work item, context, window, and source-recoverable claim or effect. The repaired outcome is the smallest admissible work or reliance statement plus the unsupported work claim or reliance claim still blocked.
+**Positive repaired disposition.** An encountered `U.Episteme` publication, publication form, MVPK face, publication carrier, rendering, or source-finding cue may guide work or reliance only to the claim or effect carried by the recovered source, actor or role, work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair, affected work target, context, window, and source-recoverable claim or effect. The repaired outcome is the smallest relation-governed work or reliance statement plus the unsupported work claim or reliance claim still blocked.
 
-Reliance disposition by pattern that governs the claim being made or effect and project-side FPF kind and reference named by value:
+Reliance dispositions by recovered source relation:
 
 | Work or reliance disposition | Use when | Minimum useful record |
 | --- | --- | --- |
-| Orientation or source-finding note | The encountered item is only a publication face, carrier, rendering, cue, search handle, learning aid, or reversible local probe trigger. | `encountered item; required claim or effect not yet carried by a recovered source; source to reopen; stop condition`. |
-| Routine reliance note | The team needs ordinary bounded reliance without release, safety, compliance, delegated role or status claim, contested source, or cross-context reuse. | Live work claim, reliance claim, work-relevant P2W claim, or P2W chain position; required claim or effect; actor or role; affected work item, context, and window; visible source ref; and reopen condition. |
-| High-impact reliance path | The required claim or effect is external-impact, irreversible, release-bearing, gate-bearing, compliance-bearing, safety-bearing, delegated, revoked, status-claim-bearing, generated-source-mediated, copied-source-mediated, provenance-mediated, contested, or cross-context. | Exact project-side FPF kind and reference with the live `A.10`, `A.6`, `B.3`, `A.2.9`, `A.2.8`, `A.21`, `A.20`, or `A.15.1` fields needed for that claim or effect. |
+| Orientation or source-finding note | The encountered source candidate is only a publication face, publication carrier, rendering, cue, search handle, learning aid, or reversible local probe trigger. | `encounteredSourceCandidate; required claim or effect not yet carried by a recovered source; source to reopen; stop condition`. |
+| Routine reliance note | The team needs ordinary bounded reliance without release, safety, compliance, delegated role or status claim, contested source, or cross-context reuse. | Work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair; required claim or effect; actor or role; affected work target, context, effective window; source reference exposed by the encountered source candidate; and reopen condition. |
+| High-impact reliance disposition | The required claim or effect is external-impact, irreversible, release-bearing, gate-bearing, compliance-bearing, safety-bearing, delegated, revoked, status-claim-bearing, generated-source-mediated, copied-source-mediated, provenance-mediated, contested, or cross-context. | Governing source with the `A.10`, `A.6`, `B.3`, `A.2.9`, `A.2.8`, `A.21`, `A.20`, or `A.15.1` fields needed for that claim or effect. |
 
 A small A.15.4 restoration note is enough for the first disposition:
 
 | Field | Value |
 | --- | --- |
-| live work claim, reliance claim, work-relevant P2W claim, or P2W chain position | Name the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position exactly: method-family selection, selected method, method of work, work plan, planned work, actual `U.Work`, work result, result-measurement, release reliance decision, or non-work reliance claim. A planned baseline remains a `U.WorkPlan` or `U.WorkPlanning` plan record; actual execution becomes `U.Work` only after it occurs and is recorded under `A.15.1`; work-result measurement belongs with the evidence or result-measurement source. This row is a local restoration label unless it cites an existing FPF kind or governing FPF relation. |
-| pattern that governs the claim being made or effect and project-side FPF kind and reference named by value | Approval, permission, gate passage, role or status currentness, work occurrence, evidence relation, assurance claim, boundary claim, or other claim named by value or effect needed before that work claim, reliance claim, or P2W chain-position claim can be treated as carried by a recovered source. The governing relation must be carried by the named FPF pattern and recovered project-side reference, not by a new `A.15.4` kind. |
+| work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair | Name the claim or P2W chain position by value: method-family selection, selected method, method of work, work plan, planned work, dated `U.Work` occurrence, work result, result-measurement, release reliance decision, or non-work reliance claim. A planned baseline remains a `U.WorkPlan` or `U.WorkPlanning` plan record; performed work becomes `U.Work` only after it occurs and is recorded under `A.15.1`; work-result measurement belongs with the evidence or result-measurement source. This row is a local restoration label unless it cites an existing FPF kind or governing FPF relation. |
+| governing source needed | Approval, permission, gate passage, role or status currentness, work occurrence, evidence relation, assurance claim, boundary claim, or other claim named by value or effect needed before that work claim, reliance claim, or P2W chain-position claim can be treated as carried by a recovered source. The governing relation must be carried by the named FPF pattern and recovered project-side reference, not by a new `A.15.4` kind. |
 | actor or role | Who would act or rely. |
-| affected work item, context, and window | Release, service, person, role holder, work item, claim, tenant, environment, physical batch, construction element, machine state, or validity window affected by that class or claim. |
-| claim-bearing episteme or episteme publication | The claim-bearing FPF kind is `U.Episteme` or a species such as `U.EpistemePublication`; if the encountered item is only a publication form, MVPK face, carrier, rendering, `PublicationUnit`, dashboard tile, copied text, credential view, generated explanation, API wording, or cue, name that kind named by value separately. |
-| project-side FPF kind and reference named by value needed or safe next move | Source `U.Episteme`, source `U.EpistemePublication`, register entry, or project-side FPF kind and reference named by value to reopen; status to refresh; reversible probe; role assignment accountable for exposing or repairing the missing source; or narrower admissible use. |
+| affected work target, context, and window | Release, service, person, role holder, work target, claim, tenant, environment, physical batch, construction element, machine state, or effective window affected by that class or claim. |
+| claim-bearing episteme or episteme publication | The claim-bearing FPF kind is `U.Episteme` or a species such as `U.EpistemePublication`; if the encountered source candidate is only a publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, dashboard tile, copied text, credential view, generated explanation, API wording, or cue, name that kind named by value separately. |
+| source needed or safe next move | Source `U.Episteme`, source `U.EpistemePublication`, register entry, governing source, source status to refresh, reversible probe, role assignment accountable for exposing or repairing the missing source, or narrower relation-governed use. |
 | stop or reopen condition | What blocks the work claim or reliance claim and what would reopen it. |
 
-**Borrowed episteme and publication discipline.** A.15.4 borrows the `C.2.1`, `E.17`, and `A.16.0` distinction rather than minting a new generic `U.*` kind. The claim-bearing FPF kind here is `U.Episteme`; `U.EpistemePublication` is used only when that episteme is available as a published episteme with MVPK-face references. Publication forms, MVPK faces, carriers, renderings, `PublicationUnit` instances, and source-finding cues are separate kinds or roles in the case. A planned baseline remains a `U.WorkPlan` or `U.WorkPlanning` plan record such as `SlotFillingsPlanItem`; launch values and finalization values remain their own project records, decision logs remain gate or decision records, execution evidence remains evidence, and actual work occurrences remain `A.15.1` or `U.Work` matters.
+**Borrowed episteme and publication discipline.** A.15.4 borrows the `C.2.1`, `E.17`, and `A.16.0` distinction rather than minting a new generic `U.*` kind. The claim-bearing FPF kind here is `U.Episteme`; `U.EpistemePublication` is used only when that episteme is available as a published episteme with MVPK-face references. Publication forms, MVPK faces, publication carriers, renderings, `PublicationUnit` instances, and source-finding cues are separate kinds or relation positions in the case. A planned baseline remains a `U.WorkPlan` or `U.WorkPlanning` plan record such as `SlotFillingsPlanItem`; launch values and finalization values remain their own project records, decision logs remain gate or decision records, performed-work evidence remains evidence, and dated work occurrences remain `A.15.1` or `U.Work` matters.
 
-When the required project-side FPF kind and reference named by value is incomplete, choose one admissible degraded-operation move after naming the live work claim, reliance claim, work-relevant P2W claim, or P2W chain position and the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect; pick the lightest move that preserves practical work and source recoverability:
+When the required source is incomplete, choose one relation-governed source-restoration disposition after naming the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair and the source that must carry that claim or effect; pick the lightest move that preserves practical work and source recoverability:
 
-1. Use the encountered item only for orientation or source-finding.
-2. Reopen the required source `U.Episteme`, source `U.EpistemePublication`, register entry, or project-side FPF kind and reference named by value, or refresh status or currentness.
-3. Narrow actor or role, requested operation or work class, affected work item, affected resource, affected claim, context, and window until the recovered source really covers the move.
+1. Use the encountered source candidate only for orientation or source-finding.
+2. Reopen the required source `U.Episteme`, source `U.EpistemePublication`, register entry, or governing source, or refresh status or currentness.
+3. Narrow actor or role, requested operation or work class, affected work target, affected resource, affected claim, context, and effective window until the recovered source really covers the move.
 4. Run a bounded reversible probe under an explicit `U.WorkPlan` when no external-impact reliance is being made.
 5. Ask the role assignment accountable for the issuer, gate decision, evidence path, role record, status record, or boundary claim set to expose or repair the missing source.
 6. Repair the `U.WorkPlan`, `U.MethodDescription`, dashboard label, source link, or boundary wording that made the overread plausible.
@@ -115,139 +117,151 @@ When the required project-side FPF kind and reference named by value is incomple
 
 ##### Repair assignment rule
 
-**Broken-source repair assignment.** If the required project-side FPF kind and reference named by value is unavailable to the acting user, assign only prospective repair work, request work, decision work, work-plan work, or source-gap work to the role assignment accountable for the missing source relation. The acting user records the blocked work claim or reliance claim, the missing source relation, and the safe narrowed move now.
+**Broken-source repair assignment.** If the required governing source is unavailable to the acting user, assign only prospective repair work, request work, decision work, work-plan work, or source-gap work to the role assignment accountable for the missing source relation. The acting user records the blocked work claim or reliance claim, the missing source relation, and the safe narrowed move now.
 
-**Encountered-item kind check.** First name whether the encountered item is a `U.Episteme`, `U.EpistemePublication`, publication form, MVPK face, carrier, rendering, `PublicationUnit`, dashboard tile, credential view, generated wording, copied wording, or source-finding cue. If the item exposes a project-side FPF kind and reference named by value, use that exposed source directly. If only the display face, carrier, wording, or cue is named, the A.15.4 disposition is orientation, source-finding, bounded reversible probe, source-repair request, or blocked unsupported reliance until the source relation named by value is recovered.
+**Source-candidate kind check.** First name the kind of the encountered source candidate: actual `U.Episteme`, actual `U.EpistemePublication`, publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, dashboard tile, credential view, generated wording, copied wording, or source-finding cue. If the source candidate exposes the governing source, use that exposed source directly. If only the display face, publication carrier, wording, or cue is named, the A.15.4 disposition is orientation, source-finding, bounded reversible probe, source-repair request, or blocked unsupported reliance until the source relation named by value is recovered.
 
 **Pressure guard.** Release pressure, delegated pressure, compliance pressure, color, salience, copied wording, or generated wording does not replace the source relation named by value. A dashboard tile may guide release only as a current view of the relevant `GateDecision` plus evidence path, currentness path, scope, and window.
 
-##### Exact project-side FPF kind and reference lookup table
+##### Governing-source lookup table
 
-Exact project-side FPF kinds and references by required claim or effect kind:
+Governing sources by required claim or effect kind:
 
 - cue-only orientation: use only for attention, learning, source-finding, or a reversible local probe trigger; stay with `A.16`, `A.16.1`, or `A.6.A` when those claims are being made.
-- issuing, approval, authorization, delegation, or revocation act: cite `A.2.9` `U.SpeechAct` or `SpeechActRef`, including act type, actor, role, affected work item or claim, judgement context, window, carrier reference, evidence reference when currentness matters, and instituted effects if claimed. Because `U.SpeechAct <: U.Work`, it can evidence only that communicative act.
-- deontic permission, obligation, prohibition, or recommendation-as-duty: cite `A.2.8` `U.Commitment` and the instituting `SpeechActRef` when provenance matters. If the word instead names admissibility, gate passage, authorization act, role effect, status effect, credential status, cue, or advice, use the pattern that carries that kind named by value.
+- issuing, approval, authorization, delegation, or revocation act: cite `A.2.9` `U.SpeechAct` or `SpeechActRef`, including act type, actor, role, affected work target or claim, judgement context, window, publication-carrier reference, evidence reference when currentness matters, and instituted effects if claimed. Because `U.SpeechAct <: U.Work`, it can evidence only that communicative act.
+- deontic permission, obligation, prohibition, or recommendation-as-duty: cite `A.2.8` `U.Commitment` and the instituting `SpeechActRef` when provenance matters. If the word instead names claimed use boundary, gate passage, authorization act, role effect, status effect, credential status, cue, or advice, use the pattern that carries that kind named by value.
 - role or status reliance: cite `A.2.1`, `U.RoleAssignment`, a status-changing `U.SpeechAct`, a governing context-state record, a credential proof or status result under `A.10`, or an `A.21` `GateDecision` when the status is gate-governed.
 - boundary, policy, API, schema, "allowed", "authorized", "approved", "recommended", or "guaranteed" wording: split the statement through `A.6` or `A.6.B`; use `A.6.C`, `A.2.3`, `A.2.8`, and `A.2.9` for agreement-like guarantee, SLA, or promise wording before work use or reliance use.
 - gate decision or gate passage: cite `A.21` `OperationalGate(profile)`, `GateDecision`, `GateDecisionRationale`, `DecisionLogRef`, gate profile, gate version, check set, scope, window, and replay or freshness pins.
-- constraint or flow-validity witness: cite `A.20` `ConstraintValidity` status, witness, `GateCheckRef.aspect = ConstraintValidity`, path, window, sentinel, and pins where live.
-- release, deployment, repair, inspection, or rollback work occurrence: cite `A.15.1` dated `U.Work` occurrence and the `A.10` evidence carrier path when reliance on occurrence is needed.
-- evidence, provenance, authenticity, currentness, copied-source, or generated-source relation: apply `A.10` and name the claim-bound evidence path, currentness path, and admissible or non-admissible use.
+- `U.Flow.ConstraintValidity` witness: cite `A.20` `ConstraintValidity` status, witness, `GateCheckRef.aspect = ConstraintValidity`, `PathId` or `PathSliceId` when applicable, window, sentinel, and pins when those fields are needed for the claim.
+- release, deployment, repair, inspection, or rollback work occurrence: cite `A.15.1` dated `U.Work` occurrence and the `A.10` evidence or provenance relation when reliance on occurrence is needed.
+- evidence, provenance, authenticity, currentness, copied-source, or generated-source relation: apply `A.10` and name the claim-bound evidence path, currentness path, and relation-governed or blocked use.
 - assurance, readiness, safety, compliance, trust, release confidence, or `R`, `F`, `G`, or `CL` increase: apply `B.3` and name the typed assurance claim plus its limitations and reopen condition.
 - generated explanation: use `E.17.EFP` for explanation faithfulness or source-finding relation, then require `A.10` claim-bound source relation for every operative claim that will be relied on.
-- ambiguous approval, permission, or authorization wording: choose among the rows above named by value by asking what effect is claimed now: speech act, commitment, admissibility predicate, gate passage, role or status change, credential status, evidence relation, assurance claim, or work occurrence.
+- ambiguous approval, permission, or authorization wording: choose among the rows above named by value by asking what effect is claimed now: speech act, commitment, claimed use boundary, gate passage, role or status change, credential status, evidence relation, assurance claim, or work occurrence.
 
-Return products
- for loop closure:
-
-| Governing source relation used | Return product for this A.15.4 restoration | A.15.4-local use |
+Recovered source outputs for A.15.4 closure:
+| Governing source relation used | Recovered output for this A.15.4 restoration | A.15.4-local use |
 | --- | --- | --- |
-| `A.6` or `A.6.B` | Typed claim IDs (`L-*`, `A-*`, `D-*`, and `E-*`) plus the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect. | Use for wording, boundary, API, schema, or admissibility recovery before work or reliance use. |
-| `A.10` | Claim-bound evidence path, freshness field, currentness field, and admissible or non-admissible use for the attempted claim. | Use for evidence, provenance, authenticity, credential-currentness, copied-source, or generated-source recovery. |
-| `B.3` | Typed assurance claim, no-assurance-use disposition, or rejected or downgraded assurance claim. | Use only when the live project move relies on a typed assurance claim. |
+| `A.6` or `A.6.B` | Typed claim IDs (`L-*`, `A-*`, `D-*`, and `E-*`) plus the pattern that governs the claim being made or effect and the governing source for that claim or effect. | Use for wording, boundary, API, schema, or use-boundary recovery before work or reliance use. |
+| `A.10` | Claim-bound evidence path, freshness field, currentness field, and relation-governed or blocked use for the attempted claim. | Use for evidence, provenance, authenticity, credential-currentness, copied-source, or generated-source recovery. |
+| `B.3` | Typed assurance claim, no-assurance-use disposition, or rejected or downgraded assurance claim. | Use only when the project move under repair relies on a typed assurance claim. |
 | `A.21` | `OperationalGate(profile)`, `GateDecision`, `DecisionLogRef`, gate profile, gate version, scope, window, and replay or freshness pins. | Use for gate-passage reliance in the named scope and window. |
-| `A.20` | `ConstraintValidity` status, witness, path, window, sentinel, and pins where live. | Use for constraint-validity or flow-validity reliance. |
-| `A.2.9` | `SpeechActRef` with act type, actor, role, affected work item or claim, judgement context, window, and instituted effects if claimed. | Use for issued acts and, where needed, dated occurrence of that communicative act. |
-| `A.2.8` | `U.Commitment` deontic relation with accountable role, agent, referents, modality, scope, validity window, and instituting source when needed. | Use for deontic permission, obligation, prohibition, or recommendation-as-duty. |
-| `A.15.1` | Dated `U.Work` occurrence plus evidence carrier path when relied on. | Use for reliance on performed work. |
+| `A.20` | `ConstraintValidity` status, witness, `PathId` or `PathSliceId` when applicable, window, sentinel, and pins when those fields are needed for the claim. | Use for `U.Flow.ConstraintValidity` reliance. |
+| `A.2.9` | `SpeechActRef` with act type, actor, role, affected work target or claim, judgement context, window, and instituted effects if claimed. | Use for issued acts and, where needed, dated occurrence of that communicative act. |
+| `A.2.8` | `U.Commitment` deontic relation with accountable role, agent, referents, modality, scope, effective window, and instituting source when needed. | Use for deontic permission, obligation, prohibition, or recommendation-as-duty. |
+| `A.15.1` | Dated `U.Work` occurrence plus `A.10` evidence or provenance relation when relied on. | Use for reliance on performed work. |
 | `E.17.EFP` | Explanation class, source-finding relation, and faithfulness relation over the source `U.Episteme` or source `U.EpistemePublication`. | Use for generated-explanation faithfulness and source-finding before operative reliance. |
 
-High-impact
- work or reliance - especially external-impact, irreversible, release-bearing, role-bearing, status-claim-bearing, gate-bearing, compliance-bearing, safety-bearing, delegated, contested, or assurance-bearing claim or effect - is admissible only for the actor, role, live work claim, reliance claim, work-relevant P2W claim, P2W chain position, affected work item or claim, audience, scope, environment, version, policy context, operational mode, and time window for which the required FPF-governed project source, relation, evidence path, gate decision, or assurance claim is recoverable. Cue-only, source-finding, learning, and bounded reversible probes stay lightweight and do not require a full source dossier.
-
+High-impact work or reliance - especially external-impact, irreversible, release-bearing, role-bearing, status-claim-bearing, gate-bearing, compliance-bearing, safety-bearing, delegated, contested, or assurance-bearing claim or effect - may guide work only for the actor, role, work or reliance claim under repair, work-relevant P2W claim under repair, P2W chain position under repair, affected work target or claim, audience, scope, environment, version, policy context, operational mode, and time window for which the required FPF-governed project source, relation, evidence path, gate decision, or assurance claim is recoverable. Cue-only, source-finding, learning, and bounded reversible probes stay lightweight and do not require a full source dossier.
 Quick dispositions:
 
 | Encountered case | First `A.15.4` disposition |
 | --- | --- |
-| Source-backed release dashboard tile | If the tile is a current dashboard view of `A.21` `GateDecision` or `DecisionLogRef` plus release scope or work item, environment, scope, window, gate profile, gate version, and `A.10` evidence path, it may carry gate-passage reliance for that release and environment. |
-| Unsourced or stale release dashboard tile | Display or source-finding only until the current `GateDecision` or `DecisionLogRef`, release scope or work item, scope, window, gate profile, gate version, and `A.10` evidence path are recoverable; use `B.3` only if an assurance claim is live. |
+| Source-backed release dashboard tile | If the tile is a current dashboard view of `A.21` `GateDecision` or `DecisionLogRef` plus release scope or work target, environment, scope, window, gate profile, gate version, and `A.10` evidence path, it may carry gate-passage reliance for that release and environment. |
+| Unsourced or stale release dashboard tile | Display or source-finding only until the current `GateDecision` or `DecisionLogRef`, release scope or work target, scope, window, gate profile, gate version, and `A.10` evidence path are recoverable; use `B.3` only if an assurance claim is being made. |
 | Copied review summary or copied approval | Copied wording and copied-currentness cue at most; approval, authorization, permission, commitment, or work occurrence needs the original `A.2.9` `SpeechActRef`, `A.21` decision, `A.2.8` commitment, or `A.15.1` work source plus `A.10` evidence. |
-| Delegation chain with forwarded approval | Each link names delegator, delegatee, delegated operation or work class, affected work item, affected resource, affected claim, scope, window, source permitting delegation, subdelegation allowance if any, revocation source, currentness source or currentness path, and evidence path. A forwarded approval is not delegated authority by copy alone. |
+| Delegation chain with forwarded approval | Each link names delegator, delegatee, delegated operation or work class, affected work target, affected resource, affected claim, scope, window, source permitting delegation, subdelegation allowance if any, revocation source, currentness source or currentness path, and evidence path. A forwarded approval is not delegated authority by copy alone. |
 | Role, revocation, or status display | Resolve to role assignment, status-changing speech act, context-state record, credential proof or status result, or gate decision with freshness field, revocation source, or revocation record; visual status cannot defeat a higher-priority revocation or supersession source. |
 | Conflicting sources | Do not resolve by color, visual salience, copied wording, or apparent recency. Name source order, governing decision source, freshness policy, and supersession rule; the work claim, reliance claim, or effect is contested until resolved, while source-finding and bounded reversible probes remain available. |
-| Credential badge or register-backed status view | Use the display as a publication of a credential source or status source, not the source itself. Find the governing status register or issuer, trust anchor, holder binding or subject binding, verifier context, relying context, proof or status result, revocation, freshness, and validity window. If the governing register entry itself creates or changes role, status, permission, duty, or gate effect in the bounded context, cite that register or status-source entry named by value and the `A.2.1`, `A.2.8`, `A.2.9`, `A.6.B`, or `A.21` source it depends on. Otherwise rely only on credential-currentness for that holder and context. |
-| Rollback command-like cue | Treat as cue or `A.6.A`-governed invitation unless exact command, authorization, work occurrence, execution result, or gate decision is recoverable. |
-| Generated explanation says "authorized" | Explanation may help find sources; it does not issue, approve, revoke, commit, authorize, pass a gate, evidence execution, or raise assurance. A citation or source mention inside the explanation guides work use or reliance use only when the cited carrier carries that relied-on claim named by value in the relying context under `A.10`. |
-| Extracted source, rewrite, representation shift, explanation, then gate or release claim | Reopen the most directly claim-bearing project-side FPF kind and reference named by value at the first lossy or non-commutative transform step; the gate claim or release claim waits for the required transform record, evidence path, explanation relation, gate decision, or assurance claim. |
+| Credential badge or register-backed status view | Use the display as a publication of a credential source or status source, not the source itself. Find the governing status register or issuer, trust root, holder binding or subject binding, verifier context, relying context, proof or status result, revocation, freshness, and effective window. If the governing register entry itself creates or changes role, status, permission, duty, or gate effect in the bounded context, cite that register or status-source entry named by value and the `A.2.1`, `A.2.8`, `A.2.9`, `A.6.B`, or `A.21` source it depends on. Otherwise rely only on credential-currentness for that holder and context. |
+| Rollback command-like cue | Treat as cue or `A.6.A`-governed invitation unless command record, authorization, work occurrence, performed-work result, or gate decision is recoverable. |
+| Generated explanation says "authorized" | Explanation may help find sources; it does not issue, approve, revoke, commit, authorize, pass a gate, provide evidence for performed work, or raise assurance. A citation or source mention inside the explanation guides work use or reliance use only when the cited publication carrier carries that relied-on claim named by value in the relying context under `A.10`. |
+| Extracted source, rewrite, representation shift, explanation, then gate or release claim | Reopen the governing source at the first lossy or non-commutative transform step; the gate claim or release claim waits for the required transform record, evidence path, explanation relation, gate decision, or assurance claim. |
 | Repeated green-tile failures without recoverable source relation | Treat recurrence as upstream source-system repair work: expose decision refs, fix dashboard semantics, add source links and currentness, revise boundary wording, or add review cues so the acting user is not repeatedly forced to reconstruct missing source relation. |
 
 ##### Worked dashboard and approval examples
 
 Worked dashboard and approval slice:
 
-A release dashboard shows a green approval-looking tile for `Release-2026.05.08-prod`. If the tile is a current view of the relevant `GateDecisionRef` plus evidence path and currentness path, it may carry bounded gate-passage reliance for that release scope and window. Execution or deployment still requires an `A.15.1` work-occurrence source if the claim is that deployment happened. If the gate source is missing or stale, treat the tile as orientation and source-finding until the team can name the live release-work claim, live release-work position, pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect, and project-side FPF kind and reference named by value that carries the gate decision, evidence path, and currentness path.
+A release dashboard shows a green approval-looking tile for `Release-2026.05.08-prod`. If the tile is a current view of the relevant `GateDecisionRef` plus evidence path and currentness path, it may carry bounded gate-passage reliance for that release scope and window. A claim that deployment happened still requires an `A.15.1` work-occurrence source. If the gate source is missing or stale, treat the tile as orientation and source-finding until the team can name the release-work claim under repair, release-work position under repair, governing pattern for the claim or effect, and governing source for the gate decision, evidence path, and currentness path.
 
 | Step | Required move |
 | --- | --- |
 | Required project claim or effect kind | Release reliance, gate passage, compliance proof, assurance increase, evidence relation, or currentness relation. |
-| Gate decision source | Cite the current `A.21` `GateDecision` or `DecisionLogRef`, gate profile, gate version, release scope or work item, scope, window, and replay or freshness pins. Without that source, the tile is not release permission or gate passage. |
-| Constraint or flow-validity source | Cite `A.20` `ConstraintValidity` status or witness only when the claim is about constraint or flow validity, not about the gate decision itself. |
-| Evidence and currentness source | Use `A.10` for the dashboard query, carrier integrity, evidence refs, time, window, freshness field, revocation source or revocation record, verifier context, relying context, and rival explanation such as stale display or copied status. |
-| Assurance source | Use `B.3` only if the tile is being used to raise readiness, compliance, trust, safety, release confidence, `R`, `F`, `G`, or `CL`; otherwise no assurance tuple is live. |
-| Admissible repaired use | With the decision and evidence path recovered, rely on gate passage only for the named release scope or work item, environment, gate profile, gate version, time, and window; a claim that deployment happened still needs an `A.15.1` work-occurrence source. |
+| Gate decision source | Cite the current `A.21` `GateDecision` or `DecisionLogRef`, gate profile, gate version, release scope or work target, scope, window, and replay or freshness pins. Without that source, the tile is not release permission or gate passage. |
+| `U.Flow.ConstraintValidity` source | Cite `A.20` `ConstraintValidity` status or witness only when the claim is about `U.Flow.ConstraintValidity`, not about the gate decision itself. |
+| Evidence and currentness source | Use `A.10` for the dashboard query, publication-carrier integrity, evidence refs, time, window, freshness field, revocation source or revocation record, verifier context, relying context, and rival explanation such as stale display or copied status. |
+| Assurance source | Use `B.3` only if the tile is being used to raise readiness, compliance, trust, safety, release confidence, `R`, `F`, `G`, or `CL`; otherwise no assurance tuple is being claimed. |
+| Repaired gate-use reliance | With the decision and evidence path recovered, rely on gate passage only for the named release scope or work target, environment, gate profile, gate version, time, and window; a claim that deployment happened still needs an `A.15.1` work-occurrence source. |
 | Blocked overreads | The dashboard color does not create approval, permission, compliance proof, rollback success, work occurrence, or assurance by display. |
 
-Approval memo green path:
+Approval memo green-tile case:
 
-An approval memo may carry an approval claim when it exposes the `A.2.9` `SpeechActRef`, actor, role, affected release scope or work item, judgement context, time, window, carrier refs, evidence refs, and instituted effect being claimed. That carries the bounded approval claim or effect only. It does not prove that release, deployment, rollback, or other work occurred; that execution claim still needs the dated `A.15.1` work-occurrence source plus any `A.10` evidence path required for the relying context.
+An approval memo may carry an approval claim when it exposes the `A.2.9` `SpeechActRef`, actor, role, affected release scope or work target, judgement context, time, window, publication-carrier refs, evidence refs, and instituted effect being claimed. That carries the bounded approval claim or effect only. It does not prove that release, deployment, rollback, or other work occurred; that performed-work claim still needs the dated `A.15.1` work-occurrence source plus any `A.10` evidence path required for the relying context.
 
-Credential and status green path:
+Credential and status green-tile case:
 
-A credential or status response may carry holder reliance, status reliance, or currentness reliance only inside the issuer or governing status register, holder binding or subject binding, verifier context, relying context, proof result or status result, revocation source or revocation record, freshness field, and validity window that it exposes. It does not by itself carry release, work occurrence, gate passage, engineering justification, evidence for underlying operational facts, or contextual permission; those uses require the project-side FPF kind and reference named by value that governs that claim or effect.
+A credential or status response may carry holder reliance, status reliance, or currentness reliance only inside the issuer or governing status register, holder binding or subject binding, verifier context, relying context, proof result or status result, revocation source or revocation record, freshness field, and effective window that it exposes. It does not by itself carry release, work occurrence, gate passage, engineering justification, evidence for underlying operational facts, or contextual permission; those uses require the governing source for the claim or effect.
 
 Role prompts:
 
 | Role in the situation | Prompt |
 | --- | --- |
 | Acting user | What can I safely do next without turning the encountered episteme or episteme publication into unsupported work or reliance justification? |
-| Release engineer | Which `A.21` gate decision, decision log, release scope, work item, and `A.15.1` work occurrence are separate here? |
+| Release engineer | Which `A.21` gate decision, decision log, release scope, work target, and `A.15.1` work occurrence are separate here? |
 | Issuer, gate, evidence, or role source | What source, status, decision ref, or evidence path must be exposed or repaired? |
-| Auditor or reviewer | Which evidence path, decision ref, speech-act ref, commitment, work occurrence, or assurance claim must be recoverable? |
+| Audit or peer-review role | Which evidence path, decision ref, speech-act ref, commitment, work occurrence, or assurance claim must be recoverable? |
 | Boundary claimant | Which words need typed claim IDs before they can guide work or reliance? |
-| Manager | Is repeated ambiguity a source-system repair item rather than another manual check for the acting user? |
-| LLM user or tool user | Which project-side FPF kind and reference named by value does the explanation help find, and which operative claims still need an `A.10` claim-bound source relation? |
+| Manager | Is repeated ambiguity source-system repair work rather than another manual check for the acting user? |
+| LLM user or tool user | Which governing source does the explanation help find, and which operative claims still need an `A.10` claim-bound source relation? |
 | Security or compliance source | Which revocation, currentness, proof, status, source order, or supersession source must be exposed? |
 | Model or data source | Which intended use, evaluation condition, version, window, limitation, and evidence path bound the model or data documentation? |
-| Assurance reviewer | Which named claim actually has a `B.3` assurance claim, with what assurance tuple, evidence path, limitations, and reopen condition? |
-Search aliases for A.15.4 include: approval, approval-looking display, authorization, authorization-looking display, permission, permission display, allowed wording, green dashboard, release tile, release readiness, model card, datasheet, data card, provenance, provenance mark, attestation, attestation label, credential, credential badge, generated explanation, copied review, copied approval, review summary, compliance-looking mark, delegation, delegation display, revocation, revocation status, gate passed, gate passage, rollback successful, rollback cue, and assurance label. These are search handles only; decide the carrying project-side FPF kind and reference named by value and pattern or source relation that governs the claim being made or effect from the live work question or reliance question, not from the displayed word or carrier name or source name.
+| Assurance role | Which named claim actually has a `B.3` assurance claim, with what assurance tuple, evidence path, limitations, and reopen condition? |
+Search aliases for A.15.4 include: approval, approval-looking display, authorization, authorization-looking display, permission, permission display, allowed wording, green dashboard, release tile, release readiness, model card, datasheet, data card, provenance, provenance mark, attestation, attestation label, credential, credential badge, generated explanation, copied review, copied approval, review summary, compliance-looking mark, delegation, delegation display, revocation, revocation status, gate passed, gate passage, rollback successful, rollback cue, and assurance label. These are search handles only; decide the governing source and governing pattern or source relation from the work or reliance question under repair, not from the displayed word, publication-carrier name, or source name.
 
 Work and reliance disposition table for authority-looking cases:
 
-| Live question | Start in | First useful output |
+| Question under repair | Start in | First useful output |
 | --- | --- | --- |
-| Can this encountered episteme publication, publication face, carrier, rendering, or cue guide work or reliance? | `A.15.4` | Candidate next `U.WorkPlanning`, `U.Work`, or reliance move, pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect, minimum admissible next move, and project-side FPF kind and reference named by value needed. |
+| Can this encountered episteme publication, publication face, publication carrier, rendering, or cue guide work or reliance? | `A.15.4` | Candidate next `U.WorkPlanning`, `U.Work`, or reliance move; governing pattern for the claim or effect; governing source; minimum relation-governed next move. |
 | Is the problem boundary, policy, API, schema, or connector wording? | `A.6` or `A.6.B` | Typed `L-*`, `A-*`, `D-*`, and `E-*` claims before the work claim or reliance claim is used. |
-| Is the problem evidence, currentness, provenance, credential status, generated-source relation, copied-source relation, or source-chain recovery? | `A.10` | Claim-bound evidence path, currentness path, and admissible or non-admissible use. |
+| Is the problem evidence, currentness, provenance, credential status, generated-source relation, copied-source relation, or source-chain recovery? | `A.10` | Claim-bound evidence path, currentness path, and relation-governed or blocked use. |
 | Is the problem assurance, readiness, safety, compliance, trust, release confidence, or change in `R`, `F`, `G`, or `CL`? | `B.3` | Typed assurance claim, no-assurance-use disposition, or downgraded or rejected assurance use. |
 
 Display guidance for bounded status: a visible status meant to guide work should expose source type, reference or link named by value, freshness, window, scope, unsupported work claim, unsupported reliance claim, and unsupported effect. For example, prefer `Gate check passed; GateDecisionRef; release scope; environment; window; not compliance proof, rollback success, or assurance increase` over a bare approval-looking label.
 
-Incident-learning fields for authority-looking overread: encountered episteme or episteme publication, live work claim, reliance claim, work-relevant P2W claim, or P2W chain position, pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that carry that claim or effect, actor, role, affected work item or claim, context, window, missing or stale source `U.Episteme`, source `U.EpistemePublication`, register entry, or project-side FPF kind and reference named by value; governing FPF relation or role assignment accountable for exposing or repairing that missing source, plausible overread, safe disposition used now, and upstream repair item for the source, dashboard, explanation, credential view, boundary wording, publication face, or carrier.
+Incident-learning fields for authority-looking overread: encountered episteme or episteme publication, work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair, governing pattern and governing source for the claim or effect, actor, role, affected work target or claim, context, window, missing or stale source `U.Episteme`, source `U.EpistemePublication`, register entry, or governing source; governing FPF relation or role assignment accountable for exposing or repairing that missing source, plausible overread, safe disposition used now, and upstream repair work for the source, dashboard, explanation, credential view, boundary wording, publication face, or publication carrier.
 
-Contestability and redress path: when an authority-looking case affects person or team status, access, assignment, responsibility, release blockage, compliance claim, or safety-impacting work, name the review path or redress path before the work claim or reliance claim hardens. The path should name the disputed source or claim, the role assignment accountable for refreshing or correcting that source, the evidence path or status path to reopen, the safe interim disposition, and the time and window for review.
+Contestability and redress relation: when an authority-looking case affects person or team status, access, assignment, responsibility, release blockage, compliance claim, or safety-impacting work, name the review relation or redress relation before the work claim or reliance claim hardens. The relation should name the disputed source or claim, the role assignment accountable for refreshing or correcting that source, the evidence relation or status-currentness relation to reopen, the safe interim disposition, and the time and window for review.
 
 Lintable overread cues:
 
 | Lint signal | Governing relation named by value |
 
 | --- | --- |
-| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, and `A.2.9` for agreement-like wording where live. |
+| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, and `A.2.9` for agreement-like wording when agreement, commitment, or speech-act claims are being made. |
 | Dashboard tile, status color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` or `DecisionLogRef` plus `A.10` evidence path and currentness path. |
-| Credential screenshot or badge used as permission, authorization, role relation, or status relation | Require `A.10` issuer, holder, verifier, status, currentness, and relying-context fields, then exact `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` source for the required permission, authorization, role, status, gate claim, or gate effect. |
+| Credential screenshot or badge used as permission, authorization, role relation, or status relation | Require `A.10` issuer, holder, verifier, status, currentness, and relying-context fields, then the `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` source named by value for the required permission, authorization, role, status, gate claim, or gate effect. |
 | Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation relation and source-finding relation and `A.10` claim-bound source relation; issue, approval, gate, and commitment claims still need `A.2.9`, `A.21`, or `A.2.8`. |
 | Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence path. |
 | Provenance or attestation label cited as truth, safety, release, or permission | Require `A.10` bounded provenance claim or process claim plus separate evidence for truth, safety, release, permission, or assurance. |
-| Evidence, assurance, gate, or work-occurrence words without the project-side FPF kind and reference named by value that carries that claim or effect | Recover the `A.10` evidence relation, `B.3` assurance claim, `A.21` gate decision, or `A.15.1` work-occurrence record respectively before the work claim or reliance claim is used. |
+| Evidence, assurance, gate, or work-occurrence words without the governing source that carries that claim or effect | Recover the `A.10` evidence relation, `B.3` assurance claim, `A.21` gate decision, or `A.15.1` work-occurrence record respectively before the work claim or reliance claim is used. |
 
 Stress cases for practice:
 
 | Case | Expected A.15.4 disposition |
 | --- | --- |
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision or decision log plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Recover original `A.2.9` `SpeechActRef`, currentness, freshness, and any live `A.2.8` commitment or `A.21` gate source. |
-| Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer, holder, verifier, status, and revocation path and do not infer permission. |
+| Copied approval from last month. | Recover original `A.2.9` `SpeechActRef`, currentness, freshness, and any `A.2.8` commitment or `A.21` gate source needed for the claim. |
+| Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer, holder, verifier, source-status, and revocation relation and do not infer permission. |
 | Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation and source-finding and `A.10` claim-bound source relation; issuing, gate, and commitment claims still need their own sources. |
 | Boundary wording says `guaranteed approved for production`. | Split through `A.6` or `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, and `A.2.9`. |
 | Dashboard says green while decision log says blocked. | Treat as conflicting sources; name source order, governing decision source, freshness policy, and supersession rule before the work claim or reliance claim is used. |
+| CRISPR lab dashboard says the guide edit is ready. | Treat the dashboard as orientation or source-finding until the protocol, approval record or gate record, role authorization, evidence path, current lab source, and `U.WorkPlan` for the intended edit are recoverable. A ranked guide row or readiness tile does not create biological-intervention permission, safety, or performed work. |
+
+##### High-impact source-restoration slice
+
+A lab manager sees a green tile for `CRISPR-guide-G42 ready` and a copied message saying the edit is approved. `A.15.4` does not ask the manager to decide whether the tile is a good UI. It asks what work or reliance claim is about to be made.
+
+```text
+SourceRestorationNote:
+  EncounteredSourceCandidate: green guide-readiness tile plus copied approval-looking message
+  WorkOrRelianceClaimUnderRepair: proceed with the planned gene-editing work for sample batch B-17
+  ClaimOrEffectNeeded: authorization for intervention, current protocol, role authority, evidence path, and lab work plan
+  GoverningSourceNeeded: current protocol publication; approval record or gate record when required; role assignment; A.10 evidence relation and currentness relation; A.15.2 work plan
+  RelationGovernedMoveNow: source-finding and source refresh; no intervention until the needed sources are named
+  BlockedOverread: tile color and copied message do not authorize biological work or prove safety
+  StopOrReopenCondition: reopen when the protocol, approval source or gate source, evidence path, role assignment, and work plan are current for batch B-17
+```
 

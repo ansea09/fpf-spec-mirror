@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 47540
-line_end: 47657
+line_start: 47962
+line_end: 48077
 dependencies:
   - "A.3.3"
   - "B.1.4"
@@ -48,18 +48,19 @@ keywords:
 ---
 
 ### C.27:1 - Problem frame
+
 #### C.27:1.1 - Causal-use boundary
 
-`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on causal-use question, `causalInterventionSpecRef`, comparator/counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, counterfactual-sampling realizability claim, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, cite `C.28` as the governing causal-use source.
+`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on a causal-use question, `causalInterventionSpecRef`, comparator or counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, counterfactual-sampling realizability claim, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, cite `C.28` as the governing causal-use source.
 
-What changes in practice: a sentence such as "this effort changes adoption speed" may remain a `Dyn2` temporal claim, but "this intervention causes adoption speed to improve" must also declare its `C.28` causal-use class and causal-use support.
+What changes in practice: a sentence such as "this effort changes adoption speed" may remain a `Dyn2` temporal claim, but "this intervention causes adoption speed to improve" must also declare its `C.28` causal-use class, supported causal use, and unsupported causal use.
 
 What this does not authorize: `C.27` does not estimate causal effects, certify counterfactual comparisons, or judge counterfactual sampling realizability; it keeps temporal claim adequacy, rate-change, effort, inertia, rhythm, braking, coasting, and intervention-sensitive temporal wording.
 
 FPF already has established constructs and patterns for time, work, resources, measurement,
 CharacteristicSpace, dynamics laws, planning, publication, and quantum-like
 probe and frame issues. What is missing is a cheap claim-adequacy lens for authored
-temporal claims when a state/rate reading is used as if it supplied the evidence path, assumption, or pattern relation for a
+temporal claims when a state or rate reading is used as if it supplied the evidence path, assumption, or pattern relation for a
 rate-change, rhythm-change, regime-change, braking, coasting, redirection,
 recovery, or stabilization claim.
 
@@ -68,7 +69,7 @@ researcher, operator, or agentic-tool planner says that something should speed
 up, slow down, converge faster, recover sooner, sustain rhythm, improve
 throughput, accelerate learning, brake risk, or redirect effort. FPF should
 help the reader ask whether the claim is only a state reading, only a
-rate/trajectory reading, or an intervention-sensitive claim about changing a
+rate or trajectory reading, or an intervention-sensitive claim about changing a
 rate under effort, resistance, rhythm, feedback, constraint, or cost.
 
 What goes wrong if missed: the text measures or names a rate and then behaves
@@ -78,10 +79,10 @@ rhythm-as-vibe, and false QL relevance.
 
 The intended FPF gain is not "add physics metaphors". The gain is a compact
 thinking-and-action discipline for cases where speed talk hides effort,
-timing, resistance, evidence, scale, reversibility, and admissible use.
+timing, resistance, evidence, scale, reversibility, and supported use.
 
 Anti-case: if a phrase uses speed or rhythm only as ordinary explanatory prose,
-or if a state/rate reading is enough for the use, C.27 should be easy not to
+or if a state or rate reading is enough for the use, C.27 should be easy not to
 use.
 
 Use C.27 because it gives a working reader a useful pause before acting
@@ -94,7 +95,7 @@ The intended use is to stop a small set of expensive mistakes:
 - a past slope is treated as a future control model;
 - a local rate-change is projected across scale without aggregation relation or evidence;
 - rhythm or cadence is used as a vibe label with no bearer, timing reference, window,
-  proxy/evidence, or supported use;
+  proxy relation, evidence relation, or supported use;
 - a planning note becomes a `C.28`-governed causal-use claim, benchmark result, service promise, or
   assurance claim;
 - quantum-like modeling is treated as relevant merely because the text contains discreteness,
@@ -102,15 +103,15 @@ The intended use is to stop a small set of expensive mistakes:
 
 The positive reader use compact is short:
 
-1. If the statement is only a state reading, use the ordinary state/evidence
+1. If the statement is only a state reading, use the ordinary state relation or evidence
    relation.
 2. If the statement is only a rate or trajectory reading, use measurement and
    sampling-window discipline.
 3. If the statement claims that effort, policy, input, rhythm, constraint, or
-   resistance changes the rate, use the least-committing C.27 record that changes admissible use.
+   resistance changes the rate, use the least-committing C.27 record that changes supported use.
 4. If the claim crosses the local working boundary into comparison, benchmark,
    publication, gate, assurance, public promise, durable rationale,
-   reusable method, formal/control/prediction use, or cross-context transfer,
+   reusable method, formal use, control use, prediction use, or cross-context transfer,
    strengthen the C.27 record and name the existing patterns that carry the
    specialist claim questions. Local decision-use can often remain a
    `Dyn2TemporalClaimAdequacyCard`.
@@ -121,14 +122,14 @@ resource allocation, benchmark reading, supported use, or reopen trigger.
 
 Dyn2-Affordability: a correct C.27 use leaves less work behind than the ambiguity
 would have caused. If applying C.27 creates more work than the temporal
-distinction changes, exit.
+distinction changes, stop.
 
 At the point of use, the C.27 question is concrete. Before adding a C.27
 record, recover:
 
 - what rate, rhythm, trajectory, regime, or stability claim is in play;
 - whether the text is reading state, reading rate, or claiming rate-change;
-- what effort, input, policy, method, intervention actor/role assignment, or resource envelope is supposed
+- what effort, input, policy, method, intervention actor reference, role assignment, or resource envelope is supposed
   to change the temporal behavior;
 - what resists, delays, stores momentum, introduces lag, or makes reversal
   costly;
@@ -141,27 +142,24 @@ The pattern buys practical action, not a vocabulary test. A person can explain
 the check as: "A trend is not yet an intervention model; show the effort,
 window, resistance, use, and reopen condition, or keep the claim narrower."
 
-Some useful temporal observations arrive before they are claim-ready:
+Some useful temporal observations arrive before they can carry a claim:
 
 - the team may not only be slow; it may be unable to brake;
 - the problem may not be throughput but rhythm mismatch;
 - a metric may improve while operational-support load accumulates;
 - "the process sped up" may hide orders, invoices, shipments, support tickets,
-  PRs, tests, and deployments moving through different paths and interaction
+  PRs, tests, and deployments moving through different event traces and interaction
   windows;
 - more tool calls may accelerate activity traces without accelerating reasoning
   or repair.
 
 These are temporal-claim adequacy cues, not C.27 records. C.27 should preserve
 their cue-only disposition. When the reader suspects a hidden Dyn2 claim question but cannot yet
-state target, intervention, window, resistance/cost evidence or assumption, evidence or
-assumption, and supported use, the correct output is a partly-said material cue held through A.16, A.16.1, B.4.1, or B.5.2.0, with possible later C.27 record.
+state target, intervention, window, resistance or cost, evidence path or assumption relation, and
+supported use, the correct output is a partly-said material cue held through A.16, A.16.1, B.4.1, or B.5.2.0; it becomes a C.27 record only after the rate-change, rhythm-change, braking, coasting, recovery, stabilization, or intervention claim is explicit enough to name the card minimum.
 
-The cue may become a `Dyn2TemporalClaimAdequacyCard` only when a rate-change,
-rhythm-change, braking, coasting, recovery, stabilization, or intervention
-claim becomes explicit enough to name the card minimum. If the question under repair is
-not temporal-claim adequacy, use the pattern that carries that question: C.16
+If the question under repair is not temporal-claim adequacy, use the pattern that carries that question: C.16
 for measurement, C.26 for residual QL cue, E.17.AUD for publication-unit stability, or
-viability/assurance patterns when the observation has insufficient evidence, witness,
-or currentness support for staying inside a viability or assurance boundary.
+viability or assurance patterns when the observation lacks the evidence, witness,
+or currentness relation needed for the viability or assurance boundary claim.
 

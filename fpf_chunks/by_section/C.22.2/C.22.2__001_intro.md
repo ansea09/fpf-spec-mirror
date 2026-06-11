@@ -6,12 +6,12 @@ section_id: "C.22.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:intro — Intro"
-line_start: 44327
-line_end: 44346
+line_start: 44752
+line_end: 44771
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 
 **Intent.** Give a practitioner one compact problem-side record that turns a messy problem signal into a reviewable problem-side record before downstream Principles-to-Work (P2W) or selector use, while leaving claims outside the card to the governing FPF patterns that govern those claims.
 
-**Use this when.** Use this pattern when a signal, anomaly, drift, risk, hypothesis, stakeholder pressure, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request must become reviewable before task typing, method-family selection, work planning, evidence use, gate passage, autonomy control, or P2W. Also use it when P2W would otherwise use a slogan, wish, ticket-shaped task, preselected work item, or solution-shaped task as if it were reviewable problem-side output.
+**Use this when.** Use this pattern when work starts from a signal, anomaly, drift, risk, hypothesis, stakeholder demand or concern, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request, and downstream task typing, method-family selection, work planning, evidence use, gate passage, autonomy control, or P2W requires a reviewable problem-side record. Also use it when P2W would otherwise use a slogan, wish, ticket-shaped task, preselected work request, or solution-shaped task as if it were reviewable problem-side output.
 
 **Do not use this when.** Use another pattern directly when the question under repair is already work planning, method selection, evidence, provenance, assurance, gate decision, autonomy, archive, selected-set governance, mathematical-lens use, or ordinary discussion with no project-side move.
 

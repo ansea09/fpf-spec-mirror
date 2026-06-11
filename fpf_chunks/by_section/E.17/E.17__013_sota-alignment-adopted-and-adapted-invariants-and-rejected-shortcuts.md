@@ -6,12 +6,12 @@ section_id: "E.17:12"
 section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__013_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:12 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 63946
-line_end: 63958
+line_start: 64397
+line_end: 64409
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -20,6 +20,7 @@ dependencies:
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -42,9 +43,9 @@ keywords:
 | Source idea and current source | Local FPF invariant and practical local test | Adopted, adapted, or rejected shortcut |
 | --- | --- | --- |
 | Joint ISO, IEC, and IEEE 42010:2022 architecture-description practice separates architecture description, stakeholder concern, viewpoint, view, model kind, correspondence, and correspondence rule instead of letting one readable model face stand in for all of them. | MVPK publishes one source-pinned face over an existing source `U.Episteme` or `U.View`; every load-bearing face names its publication `U.Viewpoint` and the `PublicationVPId` reference when that reference is used, names concerns, keeps `U.View`, viewpoint, carrier work, rendering work, correspondence relation, concrete exchange envelope, and evidence envelope separate, and passes the no-new-claim diff before any work, evidence, gate, assurance, carrier, or bridge use is considered. | Adopt explicit source, concern, view, viewpoint, correspondence, and model-kind separation; reject the shortcut where a readable architecture or model face becomes evidence, work occurrence, gate passage, release permission, bridge relation, or concrete exchange authority by presentation alone. |
-| Profunctor and optic accounts (2017-2019; source maturity = research or theory line, not load-bearing without local witness) provide source material for compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
-| Refinement-typed ecosystems (2016+; source maturity = widely used technical practice) keep units, scales, and type-like constraints attached to values. | MVPK publication faces carry pins and CHR and CG references; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane relation and edition relation where load-bearing. | Adapt pin discipline; reject readable numbers as self-validating values. |
-| Interoperability and evidence-envelope practice (source maturity = mature standards or practice, depending on concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces may expose evidence carriers or exchange envelopes, but concrete formats live outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic authority, evidence sufficiency, work occurrence, or gate passage. |
+| Profunctor and optic accounts (2017-2019; source status = research or theory line, not load-bearing without local witness) provide source material for compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
+| Refinement-typed ecosystems (2016+; source status = widely used technical practice) keep units, scales, and type-like constraints attached to values. | MVPK publication faces carry pins and CHR and CG references; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane relation and edition relation where load-bearing. | Adapt pin discipline; reject readable numbers as self-validating values. |
+| Interoperability and evidence-envelope practice (source kind/status = stable standard or established practice, depending on the concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces can expose evidence carriers or exchange envelopes, but concrete formats belong outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic authority, evidence sufficiency, work occurrence, or gate passage. |
 
 (References are selected because they supply source material for local MVPK invariants and tests; MVPK remains notation-agnostic.)
 

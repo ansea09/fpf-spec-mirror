@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:11"
 section_title: "SoTA Alignment: Adopted Or Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__012_sota-alignment-adopted-or-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:11 — SoTA Alignment: Adopted Or Adapted Invariants And Rejected Shortcuts"
-line_start: 10705
-line_end: 10724
+line_start: 10838
+line_end: 10857
 dependencies:
   - "A.15"
   - "A.20"

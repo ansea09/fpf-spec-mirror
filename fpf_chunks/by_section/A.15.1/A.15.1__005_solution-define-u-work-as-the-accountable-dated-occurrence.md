@@ -6,12 +6,12 @@ section_id: "A.15.1:4"
 section_title: "Solution — define U.Work as the accountable, dated occurrence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-define-u-work-as-the-accountable-dated-occurrence.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — define U.Work as the accountable, dated occurrence"
-line_start: 20043
-line_end: 20096
+line_start: 20116
+line_end: 20169
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -50,12 +50,12 @@ Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlan
 
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, accountable).
 
-#### A.15.1:4.2 - Core anchors (conceptual descriptors; not a data schema)
+#### A.15.1:4.2 - Core reference descriptors (conceptual descriptors; not a data schema)
 
 When you describe a Work instance in a review, answer these prompts:
 
 1. **Window** — start and end timestamps and, where relevant, location or asset.
-2. **Spec** — `isExecutionOf → U.MethodDescription` (the description actually followed; **edition pinned** if applicable).
+2. **Method-description source** — `methodDescriptionRef -> U.MethodDescription` when the description source is live; edition pinned when reliance depends on edition.
 3. **Performer** — `performedBy → U.RoleAssignment` (which **holder#role\:context** acted).
 4. **Parameters** — concrete values bound for this run (from the **MethodDescription** parameter declarations).
 5. **Inputs and outputs** — materials, information, or product states used or produced by the Work; service delivery is judged through the Outcome row.
@@ -63,16 +63,16 @@ When you describe a Work instance in a review, answer these prompts:
 7. **Outcome** — success and failure classes, quality measures, acceptance verdicts (**map-then-compare** per **ComparatorSet** under **CG-Spec**; pin editions).
 8. **Links** — predecessor, successor, and overlap relations to other Work, plus step or run nesting if part of a bigger operation.
 9. **Context** — the bounded context under which this run is judged, normally inherited from the method-description source and `U.RoleAssignment`; see A.15 for cross-checks.
-10. **Effect (Δ)** — `affected → {referent(s)}` + **pre‑state anchor** and **post‑state anchor** (or a declared **Δ‑predicate** evaluated on evidence) on the declared state‑plane (**StatePlaneRef**).
+10. **Effect (Δ)** — `affected → {referent(s)}` + **pre-state reference** and **post-state reference** (or a declared **Δ-predicate** evaluated on evidence) on the declared state-plane (**StatePlaneRef**).
 11. **System** — `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence; **mandatory**).
-12. **Evidence and telemetry (optional)** — if the run feeds **G.11** refresh or QD and OEE archives, cite **PathId** or **PathSliceId** and the active **policy-id** used for illumination; do not elevate telemetry into dominance without CAL policy.
+12. **Evidence and telemetry (optional)** — if the run feeds **G.11** refresh or QD and OEE archives, cite **PathId** or **PathSliceId** and the current declared **policy-id** used for illumination; do not elevate telemetry into dominance without CAL policy.
 
 #### A.15.1:4.3 - Clear distinctions (the four‑slot grammar in action)
 
 | You are pointing at…                          | The right FPF concept  | Litmus                                                          |
 | --------------------------------------------- | ---------------------- | --------------------------------------------------------------- |
 | The **recipe, code artifact, or diagram**     | **MethodDescription**         | Is it an episteme or publication describing a way of doing?     |
-| The **semantic “way of doing”**               | **Method**             | Same Standard across notations?                                 |
+| The **semantic "way of doing"**               | **Method**             | Same method identity across notations?                         |
 | The **assignment** ("who is being what")     | **Role -> RoleAssignment** | Can be reassigned without changing the system?                  |
 | The **ability** (“can do within bounds”)      | **Capability**         | Would remain even if not assigned?                             |
 | The **dated occurrence** with logs, resources | **Work**               | Did it happen at (t₀, t₁), consume resources, produce outcomes? |
@@ -84,14 +84,14 @@ A `U.Work` publication projects an already declared work occurrence; it does not
 
 | Publication-use pressure | Work-local rule |
 |---|---|
-| PlainView, TechCard, InteropCard, or AssuranceLane presents work material | Project only occurrence anchors: time window, performer, enacted method-description source, parameter-binding occurrence, resource-ledger reference, state-change anchors, outcome, and acceptance-verdict reference when live. |
+| PlainView, TechCard, InteropCard, or AssuranceLane presents work material | Project only occurrence references: time window, performer, enacted method-description source, parameter-binding occurrence, resource-ledger reference, state-change references, outcome, and acceptance-verdict reference when live. |
 | numeric, comparable, aggregation, or benchmark content appears | Pin the comparator, aggregation policy, CG-Spec, reference plane, and transport edition needed by the claimed comparison; do not hide scalarization in the publication face. |
-| publication cites design-time material or cross-context material | Keep the `U.Work` occurrence run-time; cite the design-time or cross-context material through Bridge/UTS, `DesignRunTag`, reference-plane, or edition relation as needed. |
-| reconstructed records look like a run | Do not synthesize surrogate `U.Work`; a publication may cite only work occurrences that meet the occurrence anchors in this pattern. |
+| publication cites design-time material or cross-context material | Keep the `U.Work` occurrence run-time; cite the design-time or cross-context material through Bridge relation, UTS relation, `DesignRunTag`, reference-plane, or edition relation as needed. |
+| reconstructed records look like a run | Do not synthesize surrogate `U.Work`; a publication may cite only work occurrences that meet the occurrence references in this pattern. |
 
 #### A.15.1:4.5 - Crossing visibility for work publications
 
-When a work publication crosses design/run state, context, reference plane, unit, or edition, publish the crossing relation used by the publication. Penalties and reliability changes belong to the relevant comparison, bridge, publication, or evidence relation; they do not change the identity of the `U.Work` occurrence.
+When a work publication crosses design-time state, run-time state, context, reference plane, unit, or edition, publish the crossing relation used by the publication. Penalties and reliability changes belong to the relevant comparison, bridge, publication, or evidence relation; they do not change the identity of the `U.Work` occurrence.
 
-Launch values bind only at the occurrence. Plan-time proposals remain proposals; do not back-fill plan publications with run-time bindings. Pre-state and post-state anchors bind to the occurrence: pre at start, post at completion or at declared checkpoints.
+Launch values bind only at the occurrence. Plan-time proposals remain proposals; do not back-fill plan publications with run-time bindings. Pre-state and post-state references bind to the occurrence: pre at start, post at completion or at declared checkpoints.
 

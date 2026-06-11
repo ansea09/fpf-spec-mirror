@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 44592
-line_end: 44609
+line_start: 45017
+line_end: 45034
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,19 +64,19 @@ keywords:
 
 ### C.22.2:6 - Characterization, Indicators, and Comparability
 
-`ProblemCard@Context` must state either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
+`ProblemCard@Context` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
 
 The heavy content stays with existing FPF patterns:
 
 - `C.16` carries measurement characterization, backing, and comparability discipline;
-- `A.19` carries characteristic, scale, unit, polarity, and indicator admissibility discipline;
+- `A.19` carries characteristic, scale, unit, polarity, and indicator-use discipline;
 - `C.25` carries Q-bundles and quality-like multi-characteristic bundles;
 - `G.9` carries parity, comparison-window, comparator, budget, unit, repeatability, and reproducibility pins;
 - `G.0` carries comparison-frame and CG-Spec governance;
 - `G.4` carries acceptance clauses and threshold predicates;
 - `G.5` governs selected-set publication when the problem enters a selected set.
 
-Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is live instead of pretending the problem is ready for P2W.
+Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is current instead of pretending the problem is ready for P2W.
 
-The `C.22.2` candidate acceptance criterion must distinguish functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are live. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the need, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself admissible acceptance for P2W.
+The `C.22.2` candidate acceptance criterion separates functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are current. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the needed relation, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself sufficient for P2W use.
 

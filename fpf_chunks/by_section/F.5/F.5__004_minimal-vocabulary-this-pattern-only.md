@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__004_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:3 — Minimal vocabulary (this pattern only)"
-line_start: 70686
-line_end: 70693
+line_start: 71373
+line_end: 71380
 dependencies:
   - "A.11"
   - "A.7"

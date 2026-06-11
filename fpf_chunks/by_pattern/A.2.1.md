@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.1.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
-line_start: 1907
-line_end: 2467
+line_start: 1909
+line_end: 2469
 dependencies:
   - "A.1"
   - "A.1.1"

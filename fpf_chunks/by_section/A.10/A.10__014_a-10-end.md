@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.10"
-pattern_title: "Evidence Graph Referring (C‑4)"
+pattern_title: "Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
 section_id: "A.10:End"
 section_title: "A.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_a-10-end.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.10 — Evidence Graph Referring (C‑4)"
+  - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:End — A.10:End"
-line_start: 18907
-line_end: 18908
+line_start: 18975
+line_end: 18976
 dependencies:
   - "A.1"
   - "A.10"

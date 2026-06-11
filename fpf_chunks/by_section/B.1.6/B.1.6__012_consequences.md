@@ -6,12 +6,12 @@ section_id: "B.1.6:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__012_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:11 — Consequences"
-line_start: 30741
-line_end: 30755
+line_start: 30844
+line_end: 30858
 dependencies:
   - "A.12"
   - "A.14"

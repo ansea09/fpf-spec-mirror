@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how runs form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-runs-form-holarchies.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how runs form holarchies)"
-line_start: 20097
-line_end: 20155
+line_start: 20170
+line_end: 20228
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,13 +43,13 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how runs form holarchies)
 
-We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its execution anchors (spec used, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
+We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its occurrence references (method-description source when live, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
 
 #### A.15.1:5.1 - Parts and wholes of Work (design‑neutral, run‑time facts)
 
 * **Temporal‑part (`TemporalPartOf_work`).** A proper **time‑slice** of a Work (e.g., the first 10 minutes of a 2‑hour run). Useful for monitoring and SLAs.
 * **Episode‑part (`EpisodeOf_work`).** A **resumption fragment** after an interruption (same run identity if policy deems it one episode; see 5.5).
-* **Operational-part (OperationalPartOf_work).** A **sub-run** that enacts a **factor** of the Method or specification, for example, an incision run within an appendectomy run, possibly **overlapping** with others in time.
+* **Operational-part (OperationalPartOf_work).** A **sub-run** that enacts a **factor** of the Method or method-description source, for example, an incision run within an appendectomy run, possibly **overlapping** with others in time.
 * **Parallel‑part (`ConcurrentPartOf_work`).** Two sub‑runs that **overlap** in their windows, coordinated by the same higher‑level run.
 
 **Didactic rule:** **Method composition ≠ proof of Work decomposition.** Sub‑runs often map to method factors, but retries, batching, pipelining, and failures make the mapping non‑isomorphic.

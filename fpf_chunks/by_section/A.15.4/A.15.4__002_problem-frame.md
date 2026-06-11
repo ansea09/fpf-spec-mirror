@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:1 — Problem Frame"
-line_start: 21131
-line_end: 21137
+line_start: 21217
+line_end: 21224
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
+  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"
@@ -45,8 +46,9 @@ keywords:
 
 ### A.15.4:1 - Problem Frame
 
-Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source chains often look ready for action before the pattern that governs the claim being made or effect and project-side FPF kind and reference named by value that make the action or reliance admissible have been recovered. The practical problem is not to classify the item in FPF; the problem is to decide what an engineer-manager may do in the project now without turning appearance into approval, gate passage, evidence, assurance, performed work, or release permission.
+Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source chains often look ready for action before the source that carries the claim is visible. The practical problem is to decide what an engineer-manager may do now without turning appearance into approval, gate passage, evidence, assurance, performed work, role currentness, status currentness, or release permission.
 
-**Plain recognition line.** Let the visible cue point to the relation named by value, source episteme, source publication, evidence path, gate decision, role record, status record, work occurrence, or assurance claim; do not let it become the relation that permits the work or reliance move.
-**Source wording discipline.** In this pattern, `source` is not a generic kind. When the word has FPF-governed use, recover the kind named by value before allowing work or reliance: source `U.Episteme`, source `U.EpistemePublication`, project-side FPF kind and reference named by value, evidence path, gate decision, speech act, commitment, credential record, status record, role assignment, work-occurrence record, register entry, source-finding cue, source relation, repair record, or request record. If that kind named by value cannot be named, keep the encountered item at cue-only orientation or source-finding use and do not use it as a work relation or reliance relation.
+**Plain recognition line.** Let the visible cue point to a relation named by value, source episteme, source publication, evidence path, gate decision, role record, status record, work occurrence, or assurance claim. Do not let the cue become the relation that permits work or reliance.
+
+**Source wording discipline.** In this pattern, `source` is not a generic kind. `Governing source` means the project-side value, named by FPF kind and reference, that carries the claim or effect under repair: source `U.Episteme`, source `U.EpistemePublication`, evidence path, gate decision, speech act, commitment, credential record, status record, role assignment, work-occurrence record, register entry, source relation, or another named project-side value. Source-finding cues, publication faces, publication carriers, renderings, dashboards, copied wording, and generated explanations remain source candidates unless they expose that governing source. If no governing source can be named, keep the encountered source candidate at cue-only orientation or source-finding use.
 

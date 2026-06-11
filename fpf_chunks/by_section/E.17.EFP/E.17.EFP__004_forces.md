@@ -6,12 +6,12 @@ section_id: "E.17.EFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:3 — Forces"
-line_start: 64057
-line_end: 64064
+line_start: 64508
+line_end: 64515
 dependencies:
   - "A.10"
   - "A.15"
@@ -35,9 +35,9 @@ keywords:
 
 ### E.17.EFP:3 - Forces
 
-- **Clarity vs semantic restraint.** Explanation may help readers, but it must not mint new semantic commitments on publication faces.
-- **Face discipline vs reader fit.** The same source may need different renderings, but all of them still live on existing MVPK faces.
+- **Clarity vs semantic restraint.** Explanation can help readers, but it does not mint new semantic commitments on publication faces.
+- **Face discipline vs reader fit.** The same source can need different renderings, but all of them stay on existing MVPK faces.
 - **Traceability vs accessibility.** Simpler renderings are useful only if readers can still recover how they relate to the source.
-- **Didactic usefulness vs policy misuse.** A didactic or speculative retelling may help humans, but it must not masquerade as assurance or gate-bearing content.
-- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others should use interpretation, retargeting, or world or gate governing patterns or project-side FPF kinds and references named by value.
+- **Didactic usefulness vs policy misuse.** A didactic or speculative retelling can help humans, but it does not masquerade as assurance or gate-bearing content.
+- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others uses interpretation, retargeting, or world or gate governing patterns or project-side FPF kinds and references named by value.
 

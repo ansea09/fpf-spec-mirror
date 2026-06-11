@@ -6,12 +6,12 @@ section_id: "E.17.AUD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:intro — Intro"
-line_start: 65321
-line_end: 65383
+line_start: 65655
+line_end: 65717
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 **Plain-name.** Keep one publication unit stable enough to read honestly.
 
 **One-line summary.** `PublicationUnit Stability Discipline` is the first stability discipline for notes, memos, sheets, tables, screens, and short sections whose primary-EntityOfConcern interpretation, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim has become unstable while the unit still looks unchanged. It helps the reader decide whether the honest next repair is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison over already stable source publications, or leaving the publication-unit stability family for a neighboring non-publication-unit pattern.
-**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and routes claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and assigns claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
 **Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-lane `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-lane view is live, do not invent a `EntityOfConcernRef`; name the non-claim-bearing kind named by value, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or subject named by value by value.
 
@@ -99,7 +99,7 @@ When any of those roles is claim-bearing, record the active entry in the working
 | --- | --- | --- |
 | An episteme-publication-heavy note keeps using vague lexical heads such as `review`, `interpretation`, or `interpretation` | the whole unit is mostly stable, but one overloaded local lexical head is doing too much semantic work | stay local with `Local Head Restoration` |
 | An architecture or status memo starts about one bounded question, then quietly starts sounding like rollout, approval, go or no-go, or assignment publication | the publication unit now carries a quiet shift in primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |
-| A comparison sheet already keeps one stable primary EntityOfConcern and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `E.17.ID.CR ComparativeReading` |
+| A comparison sheet already keeps one stable primary EntityOfConcern and one clear boundary, but reviewers keep treating it as if it needed whole-unit rescue | the unit is stable enough; the active problem situation is bounded contrast over already available source publications | apply `E.17.ID.CR ComparativeReviewUnit` |
 | An onboarding explainer, dashboard card, or review note starts to act as if cleaner prose alone licensed a policy claim, assurance claim, work claim, or reliance claim that its governing FPF pattern has not made admissible | the problem situation has left publication-unit stability and entered a neighboring explanation problem or downstream claim or effect | apply the neighboring governing pattern instead of keeping the case inside publication-unit stability |
 
 **Recognition-block note.** The opening card above is the quick recognition block. The sections below carry the heavier assurance section: publication-unit boundary decisions, A.6.P unpacking, governing-pattern and project-side-reference boundary decisions, worked slices, and SoTA and domain grounding.

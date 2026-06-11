@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.ASAP.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
-line_start: 55398
-line_end: 55695
+line_start: 55810
+line_end: 56109
 dependencies:
   - "A.10"
   - "A.17"
@@ -343,4 +343,6 @@ The pattern adapts BLP-style scale-amenability to architecture: prefer the alter
 - **Precision-restoration relation:** source wording recovered by `E.10`, `E.10.ARCH`, or `C.30.STRAT` is governed by C.31.ASAP only when the recovered claim being made is architecture scale preference over a declared alternative set, scale variable, and scale window.
 
 ### C.31.ASAP:End
+
+# **Part D – Multi-scale Ethics & Conflict-Optimisation**
 

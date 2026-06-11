@@ -1,20 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.3"
-pattern_title: "U.Dynamics"
+pattern_title: "U.Dynamics: State-Space and Transition-Law Episteme"
 section_id: "A.3.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__013_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.3.3 — U.Dynamics"
+  - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:12 — Relations"
-line_start: 6668
-line_end: 6690
+line_start: 6826
+line_end: 6832
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
+  - "A.20"
+  - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "B.3"
   - "B.4"
+  - "C.2.P.DR"
+  - "C.27"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.20"
+  - "F.18"
+  - "U.BoundedContext"
+  - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Work"
+  - "U.WorkPlan"
 keywords:
   - "model"
   - "simulation"
@@ -24,24 +47,8 @@ keywords:
 
 ### A.3.3:12 - Relations
 
-**C.27 temporal-claim relation.**
-
-- C.27 may flag: a claim whose downstream use depends on a reusable transition law, prediction, simulation, calibrated control, or formal model.
-- This pattern keeps: state space, transition law, observation/model constraints, simulation, prediction, calibrated control, and validity discipline.
-- Non-admissible use: a `Dyn2TemporalClaimAdequacyCard` or Dyn2 classification is not a law of change, and `dynOrder` is not a property of the state space or transition law.
-- Exit: if the answer requires a reusable law, prediction, simulation, or calibrated control model, the claim belongs with `U.Dynamics`; C.27 only cites that pattern relation and keeps the temporal-claim adequacy question.
-
-* **Builds on:**
-  `A.1.1 U.BoundedContext` (local meaning/units),
-  `A.2 Role` / `A.2.1 RoleAssigning` (agents that *use* the law),
-  `A.15.1 U.Work` (run‑time evidence).
-
-* **Coordinates with:**
-  `A.3.1 U.Method` / `A.3.2 U.MethodDescription` (planning/control using the law),
-  `A.2.3 U.PromiseContent` (promises informed by predictions),
-  **KD‑CAL** (knowledge dynamics as a specialisation: belief‑update laws),
-  **Resrc‑CAL** (cost/energy models as dynamics over resources).
-
-* **Constrained by lexical rules:**
-  **E.10 L‑PROC** (process disambiguation), **L‑ACT** (activity/action), **L‑FUNC** (function).
+* **Builds on:** `A.1.1 U.BoundedContext`; `A.19 CharacteristicSpace`; episteme machinery for description, source, and publication when those claims are current.
+* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; architecture patterns when dynamics describes architecture-characteristic change.
+* **Separates from:** services and promise content; PBS and SBS structural breakdowns; causal-use claims; gate authority; assurance arguments; publication-use claims.
+* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when source labels hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics.
 

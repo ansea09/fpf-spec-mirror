@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.ID.CR"
-pattern_title: "ComparativeReading — bounded comparative reading over comparative review units"
+pattern_title: "ComparativeReviewUnit - bounded comparison over comparative review units"
 section_id: "E.17.ID.CR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__013_relations.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "E.17.ID.CR — ComparativeReading — bounded comparative reading over comparative review units"
+  - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:12 — Relations"
-line_start: 65299
-line_end: 65314
+line_start: 65641
+line_end: 65648
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -39,18 +39,10 @@ keywords:
 ---
 
 ### E.17.ID.CR:12 - Relations
-
-- **Naming-level family:** `InterpretationDiscipline` names the wider interpretation family for this governing pattern.
-- **Governing pattern:** `ComparativeReading` over comparative review units.
-- **Inherited dynamic frame:** `C.2.2a` and `A.16.0`, where what moves is a lineage of successive `U.Episteme` publications over `U.CharacteristicSpace`.
-- **Comparative-review-unit and carrier use:** the comparative review unit is one working review unit that may be carried by an admissible E.17 publication-face kind value `publication face/form` over that inherited frame; it is not the moving lineage itself, not a carrier, and not the whole review or decision work.
+- **Citation.** Cite this pattern as `E.17.ID.CR`, `ID.CR`, or `ComparativeReviewUnit` when the current object is one bounded comparative review unit. Use `A.6.3.CR` when the intended pattern is `ConservativeRetextualization`.
+- **Placement.** `ComparativeReviewUnit` sits inside the wider `InterpretationDiscipline` naming family, but the local governing object is the comparative review unit and its bounded comparison. The wider review or decision work remains outside until a crossed claim becomes primary.
 - **Builds on:** `C.2.2a`, `A.16.0`, `F.9`, `F.9.1`, Part F, `A.6.9`, and `E.14`.
-- **Mixed-case dependency rule:** in mixed cases, this pattern stays subordinate to whichever neighboring pattern still governs the base case (`A.6.3.*`, `F.9` or `F.9.1`, Part F with `A.6.9`, or `E.17.EFP`), including that pattern's source, continuity, bridge, wording-repair, and boundary constraints.
-- **Primary rule here:** this section carries the summary, checklist, worked slices, and boundary block for `ComparativeReading`; mixed-case neighboring pattern rule remains primary where the base case still belongs elsewhere.
-- **Repair-only neighbors when local instability is real:** use `E.17.AUD.LHR` (`Local Head Restoration`) when lexical-head kind or qualifier pressure is still local; use `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) when the same review unit still has unstable reviewed-source, publication-unit, comparative-move, or outside-work reading after local repair. These neighboring patterns are not always-on prerequisites for ordinary `ComparativeReading` use.
 - **Coordinates with:** `A.6.P`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `F.9.1`, Part F, `A.6.9`, `E.17.EFP`, `B.5.2.0`, `B.5.2`, `OntologicalReframing`, `A.6.4`, `C.11`, `A.15`, `A.15.4`, `A.20`, `A.21`.
-- **Nearest neighboring FPF patterns for outside work:** `A.6.P`, `A.6.3.*`, `F.9` or `F.9.1`, Part F with `A.6.9`, `E.17.EFP`, `C.11`, and `B.5.2.0` or `B.5.2`.
-- **Main neighboring-pattern boundaries:** relation-precision claims apply `A.6.P`; sameness, equivalence, alignment, mapping, substitutability, interchangeability, or attribute, entity, or profile matching across contexts applies Part F and `A.6.9` and, when bridge relation is live, `F.9` or `F.9.1`; abductive-prompt claim applies `B.5.2.0` or `B.5.2`; ontology or changed-target claim applies `OntologicalReframing` or `A.6.4`; decision-making claims and decision records apply `C.11`; downstream work or reliance, gate, assurance, and adjudication claims apply `A.15.4`, `A.15`, `A.20`, or `A.21`.
-- **Boundary notes:** same-entity transform rule stays with `A.6.3.*`; bridge-stance overlay stays with `F.9.1` over an existing `F.9` Bridge Card; "same", "equivalent", "align", or "map" wording repair and attribute, entity, or profile mismatch repair stay with Part F or `A.6.9`; explanation-face governance stays with `E.17.EFP`; reduced-use source-pinned renderings with narrower admissible use, non-admissible downstream use, and reopen discipline apply `A.6.3.CSC Controlled Semantic Coarsening`; bounded comparative reading does not by itself authorize downstream use it does not carry.
-- **Non-goal:** this pattern does not create a rival publication with named authority-reference relation, a rival bridge taxonomy, a rival sameness or equivalence repair pattern, or a rival base-case discipline of its own.
+- **Boundary map.** Use `E.17.ID.CR:4.5` when the comparison starts carrying relation precision, bridge or sameness, prompt or action selection, ontology or changed target, decision, work or reliance, gate, assurance, adjudication, or reduced-source-use claims. The neighboring pattern governs only the crossed claim it names.
+- **Local repair neighbors.** Use `E.17.AUD.LHR` only when a local lexical head or qualifier still destabilizes the same unit; use `E.17.AUD.OOTD` only when the reviewed-source, publication-unit, comparative-move, or outside-work boundary is still unstable after local repair.
 

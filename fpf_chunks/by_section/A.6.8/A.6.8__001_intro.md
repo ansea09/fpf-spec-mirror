@@ -6,12 +6,12 @@ section_id: "A.6.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:intro — Intro"
-line_start: 16137
-line_end: 16155
+line_start: 16205
+line_end: 16223
 dependencies:
   - "A.15"
   - "A.2.3"

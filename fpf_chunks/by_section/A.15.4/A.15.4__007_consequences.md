@@ -6,12 +6,12 @@ section_id: "A.15.4:5a"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_consequences.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5a — Consequences"
-line_start: 21362
-line_end: 21369
+line_start: 21462
+line_end: 21469
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
+  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"
@@ -47,7 +48,7 @@ keywords:
 
 | Consequence | Trade-off and cost | Mitigation |
 | --- | --- | --- |
-| Work can continue at the lightest admissible level instead of stopping on every suspicious display. | The practitioner must name the claim being made and project-side FPF reference before relying on the source. | Use the ordinary six-field source-restoration note first; open fuller fields only for high-impact or contested reliance. |
+| Work can continue at the lightest relation-governed level instead of stopping on every suspicious display. | The practitioner must name the claim being made and governing source reference before relying on the source. | Use the ordinary six-field source-restoration note first; use fuller fields only for high-impact or contested reliance. |
 | Appearance-based approval, evidence, assurance, gate, and work-occurrence overreads are blocked. | Some convenient dashboard or copied-text shortcuts become unusable until source currentness is recovered. | Keep orientation, source-finding, and bounded reversible probes available when no external-impact reliance is being made. |
 | Repeated ambiguity becomes source-system repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale source publications, or underspecified gate and evidence paths. | Assign only prospective repair work or source-gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
 

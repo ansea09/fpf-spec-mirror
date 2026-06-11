@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.10"
-pattern_title: "Evidence Graph Referring (C‑4)"
+pattern_title: "Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
 section_id: "A.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.10 — Evidence Graph Referring (C‑4)"
+  - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:intro — Intro"
-line_start: 18518
-line_end: 18521
+line_start: 18586
+line_end: 18591
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,7 +51,9 @@ keywords:
   - "traceability"
 ---
 
-## A.10 - Evidence Graph Referring (C‑4)
+## A.10 - Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph
 
-*“A claim without a chain is only an opinion.”*
+> **Type:** Kernel pattern
+> **Status:** Stable
+> **Normativity:** Normative
 

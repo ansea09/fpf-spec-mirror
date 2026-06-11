@@ -1,24 +1,43 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
+pattern_title: "U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.1.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law‑governed application to a SubjectKind over a BaseType"
-line_start: 9191
-line_end: 9516
+  - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+line_start: 9318
+line_end: 9649
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.19"
   - "A.2.6"
+  - "A.20"
+  - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.0"
+  - "B.3"
   - "C.16"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.10.D1"
-  - "G.10"
-  - "G.11"
+  - "E.18"
+  - "E.20"
+  - "F.18"
+  - "U.BoundedContext"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.Work"
+  - "U.WorkPlan"
 keywords:
   - "AdmissibilityConditions"
   - "Bridge‑only"
@@ -28,329 +47,335 @@ keywords:
   - "Transport"
 ---
 
-## A.6.1 - U.Mechanism - Law‑governed application to a SubjectKind over a BaseType
+## A.6.1 - U.Mechanism: Law-Governed Operation Algebra over a Subject Kind
 
-**One-line summary.** A `U.Mechanism` is a specialisation of `U.Signature` (A.6.0): its **Vocabulary** is an explicit **OperationAlgebra** whose operators publish **SlotSpecs** (A.6.5), its **Laws** are a **LawSet**, and it adds **AdmissibilityConditions** (operational guards) plus a named **Transport** clause for cross-context use. Transport is **Bridge-only** (per **F.9**) with penalties recorded only in the **Reliability** channel (**R**, or **R_eff** when distinguished) (per **B.3**); **F and G** remain invariant; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. Realizations MAY be published, but MUST be monotone with respect to the Mechanism’s **LawSet** and any imported Signature laws and MUST treat imported signatures as opaque by using `imports`, `provides`, and ClaimIds.
-
-**Status.** Normative \[A\] in **Part A (Kernel)**.
-
-**Placement.** Immediately **after A.6.0** as **A.6.1**. **USM (A.2.6)** and **UNM (A.19 and C.16)** become **instances conforming to A.6.1** (no semantic change to either).
-
-**Mint vs reuse.** This pattern mints the Kernel lexemes `U.Mechanism`, `U.MechMorph`, and `U.MechanismDeclarationTemplate`, plus the descriptive record names `MechanismDescription`, `MechFamilyDescription`, and `MechInstanceDescription`. It reuses `U.Signature` (A.6.0), `U.Type`, `U.BoundedContext`, and Part F Bridge, CL, and ReferencePlane terms without changing them; it does **not** mint new `U.Type` core types.
-
-**Type.** Architectural pattern (kernel‑level; notation‑independent).
-
-**LEX.TokenClass (E.10).** Declared here for the tokens minted by this pattern (see **E.10:7.1**).
-* `LEX.TokenClass(U.Mechanism) = KernelToken`
-* `LEX.TokenClass(U.MechMorph) = KernelToken`
-* `LEX.TokenClass(U.MechanismDeclarationTemplate) = KernelToken`
-* `LEX.TokenClass(MechanismDescription) = KernelToken`
-* `LEX.TokenClass(MechFamilyDescription) = KernelToken`
-* `LEX.TokenClass(MechInstanceDescription) = KernelToken`
-
-### A.6.1:0 - Use and boundary
-
-Use this pattern when a reusable declaration has to do more than name a signature: it must declare a law-governed operation algebra, operational admissibility predicates, context-local applicability, and explicit cross-context or cross-plane Transport for a `U.Mechanism`.
-
-Do not use this pattern when the claim being made is only a reusable declaration with no operational guards; use A.6.0. Do not use it to authorize work, pass a gate, certify evidence, choose a method, publish telemetry, or prove a result. Those claims use the work, gate, evidence, method, publication, or result patterns that cite the mechanism when needed.
-
-First useful move: write the mechanism declaration as a specialization of the four-row A.6.0 Signature Block, then add only the mechanism-specific fields: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, `Transport`, `Γ_timePolicy`, `PlaneRegime`, and `Audit`. If cross-context use is live, name the Bridge and the Reliability penalty relation before any reuse claim is made.
-
-What goes wrong if missed: an implementation recipe, a policy rule, a telemetry package, or a cross-context reuse habit can masquerade as mechanism law. Downstream work then cannot tell which operations are lawful, which admissibility predicates fail closed, and which losses affect Reliability rather than Formality or Guarantee.
-
-What this buys: USM, UNM, selection mechanisms, normalization mechanisms, scoring mechanisms, and publication mechanisms can be compared, refined, extended, transported, and realized without hiding law, guard, time, plane, or Reliability assumptions.
+> **Type:** Definitional pattern
+> **Status:** Stable
+> **Normativity:** Normative
 
 ### A.6.1:1 - Problem frame
 
-Give FPF **one uniform kernel shape** for things like **USM** (set-algebra on context slices) and **UNM** (classes of admissible normalizations with ≡\_UNM) so practitioners can **define, compare, refine, compose, and port** mechanisms **without re-inventing the mechanism language**; all cross-context use is **Bridge-only** with **CL penalties recorded in R or R_eff**, never in **F or G**.
+Use this pattern when a reusable declaration must do more than name a signature. Use it when the project needs to declare a **law-governed operation algebra**, admissibility predicates, context-local applicability, cross-context transport, and realization discipline for a `U.Mechanism`.
+
+Use it when the working question is:
+
+* which `SubjectKind` and `BaseType` the mechanism ranges over;
+* which operations are available and which SlotSpecs those operations publish;
+* which laws and invariants govern the operations;
+* which admissibility predicates fail closed before an operation can be used;
+* which bridge, reference-plane, and reliability-penalty relation governs cross-context or cross-plane use;
+* whether a realization tightens the mechanism without relaxing its laws.
+
+**Primary EntityOfConcern.** The `EntityOfConcern` is `U.Mechanism`: a specialization of `U.Signature` whose vocabulary is an `OperationAlgebra`, whose laws are a `LawSet`, and whose additional fields declare admissibility, applicability, transport, time policy, plane policy, audit surface, and monotone realization relation.
+
+**First useful move.** Write the mechanism as an A.6.0 Signature Block, then add only the mechanism-specific fields: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, `Transport`, `GammaTimePolicy`, `PlaneRegime`, and `Audit`. If cross-context use is current, name the Bridge and the Reliability penalty relation before any reuse claim is made.
+
+**What goes wrong if missed.** An implementation recipe, method name, policy rule, telemetry package, or cross-context reuse habit can masquerade as mechanism law. Downstream work then cannot tell which operations are admitted, which predicates fail closed, which realization is monotone, and which losses affect Reliability rather than Formality or Guarantee.
+
+**What this buys in practice.** Scope mechanisms, normalization mechanisms, selector mechanisms, scoring mechanisms, publication mechanisms, and comparison mechanisms can be compared, refined, extended, transported, and realized without hiding law, guard, time, plane, or Reliability assumptions.
+
+**Not this pattern when.** If the claim is only a reusable declaration with no operation algebra and no admissibility predicates, use `A.6.0`. If the claim is a semantic way of doing, use `A.3.1`. If the claim is an episteme describing that way, use `A.3.2`. If the claim is planned or dated work, use `A.15.2` or `A.15.1`. If the claim is evidence, assurance, gate authority, publication use, or result acceptance, use the governing pattern for that claim.
 
 ### A.6.1:2 - Problem
 
-Without a kernel abstraction, scope, normalization, and comparison constructs proliferate with incompatible algebras and guard predicates; cross-context reuse lacks a visible **Bridge and CL penalty relation**; comparability drifts into **illegal scalarisation** (e.g., ordinal means). FPF already curbs this via **A.6.0** (Signature discipline, `SignatureManifest`), **USM** (scope algebra and Γ_time), **UNM** (normalize-then-compare), and **CG-Spec** (lawful comparators and ScoringMethods), but lacks a **common kernel kind** for “mechanism.”
+Without a kernel mechanism pattern, scope, normalization, selection, comparison, and publication constructs proliferate with incompatible algebras, hidden guard predicates, and ungoverned reuse. Cross-context use loses its Bridge and Reliability penalty relation. Numeric comparison drifts into scale-incompatible scalarization. Realizations begin to relax laws rather than safely implement them.
+
+FPF already has the A.6.0 Signature discipline, bridge and reference-plane patterns, characteristic-space and measurement rules, and work or evidence patterns. What is missing without `U.Mechanism` is one kernel kind for reusable law-governed operation algebras with admissibility, transport, audit, and monotone realization.
 
 ### A.6.1:3 - Forces
 
-**Locality vs transport.** Semantics are **context-local**; crossing contexts is **Bridge-only** (Part F and B.3); penalties are recorded in **R or R_eff**; **F and G** stay invariant.
-
-**Expressivity vs legality.** Rich operators must stay inside **CHR legality** and **CG-Spec** constraints: no ordinal averages and no cross-unit arithmetic without lawful unit alignment.
-
-**Time determinacy.** Explicit **Γ_time**; no implicit *latest*. (Required in USM’s `ContextSlice`.)
-
-**Slot clarity vs specialisation depth.** Multi‑level specialisations require explicit **SlotSpecs** (A.6.5) and monotone refinement of **ValueKinds**; SlotKinds are stable across levels (no implicit positional parameters).
-
-**Signature hygiene.** Obey `SignatureManifest` discipline (A.6.0:4.4.1): explicit `imports` and `provides`, acyclic imports, and no redeclare. Treat imported signatures as **opaque**: reference only their `provides` symbols and ClaimIds, and keep realizations monotone.
+| Force | Tension |
+| --- | --- |
+| Locality and transport | Semantics are context-local, but mechanisms often need explicit cross-context or cross-plane use. Transport must be Bridge-only, and penalties belong in Reliability. |
+| Expressivity and compliance | Rich operation algebras must stay within characteristic-space, measurement, comparison, and unit-compliance rules. |
+| Time determinacy | Admissibility predicates often depend on time, but implicit "latest" assumptions make reuse unreplayable. |
+| Slot clarity and specialization depth | Multi-level specialization needs stable SlotKinds and monotone ValueKind narrowing; positional parameters are not enough. |
+| Signature hygiene | Imported signatures must remain opaque; mechanisms use `imports`, `provides`, and ClaimIds rather than redeclaring foreign laws. |
+| Method and mechanism proximity | The same project phrase can point to a method, method description, mechanism, work plan, dated work, or evidence value; vocabulary alone cannot decide the kind. |
 
 ### A.6.1:4 - Solution
 
-#### A.6.1:4.1 - **Mechanism Declaration**
+#### A.6.1:4.1 - Definition
 
-A `U.Mechanism` **publishes**
-        `MechanismDeclaration := ⟨DeclarationHeader, Imports,
-                SubjectBlock := ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?⟩,
-                SlotIndex, OperationAlgebra, LawSet, AdmissibilityConditions,
-                Applicability, Transport, Γ_timePolicy, PlaneRegime, Audit⟩`
-and admits Realizations that respect it. The shape is **notation‑independent** and **conceptual** (no tooling, storage, or CI metadata).
+`U.Mechanism` is a specialization of `U.Signature`. A mechanism publication includes the universal four-row Signature Block:
 
-* **A.6.0 alignment (normative).** `U.Mechanism` is a specialisation of `U.Signature` (A.6.0). A mechanism publication **SHALL** include the universal four-row Signature Block (*SubjectBlock, Vocabulary, Laws, Applicability*). The canonical mapping is:
-  – **SubjectBlock** ↔ `SubjectBlock`
-  – **Vocabulary** ↔ `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1 and A.6.5)
-  – **Laws** ↔ `LawSet`
-  – **Applicability** ↔ `Applicability`
-  `SlotIndex` is a mechanism-only **index projection** over SlotSpecs used by `OperationAlgebra` and any extra SlotSpecs used only by `AdmissibilityConditions`; it does **not** introduce a fifth Signature row and does not relax A.6.0:4.1.1.
-  Mechanism-only additions are `AdmissibilityConditions`, `Transport`, `Γ_timePolicy`, `PlaneRegime`, and `Audit`; they extend the Signature without contradicting the A.6.0 separation between declaration and realization.
+| Signature row | Mechanism realization |
+| --- | --- |
+| `SubjectBlock` | `SubjectKind`, `BaseType`, `SliceSet`, `ExtentRule`, and optional `ResultKind` |
+| `Vocabulary` | `OperationAlgebra` with SlotSpecs for operation arguments |
+| `Laws` | `LawSet` of equations and invariants |
+| `Applicability` | bounded context, plane, time, and compliance notes |
 
-* **DeclarationHeader.** `id` (PascalCase), `version` (SemVer), `publicationState` (draft, candidate, stable, or deprecated).
-  **SignatureManifest coupling (normative).** If the mechanism is intended to be imported or reused, it MUST include a `SignatureManifest` (A.6.0:4.4.1) immediately above its Signature Block. When both are present:
-  – `DeclarationHeader.id = SignatureManifest.id`
-  – `DeclarationHeader.version = SignatureManifest.version`
-  – `DeclarationHeader.publicationState = SignatureManifest.publicationState` (when `publicationState` is present)
-  – `Imports = SignatureManifest.imports`
-  and any public symbols minted by the Mechanism’s Signature Block **MUST** appear in `SignatureManifest.provides`.
-  Avoid duplicating `imports` and `provides` elsewhere: dependency edges and exported names live in the manifest; operational details live in the mechanism.
+Mechanism-only additions are `AdmissibilityConditions`, `Transport`, `GammaTimePolicy`, `PlaneRegime`, and `Audit`. They extend the Signature without creating a fifth Signature row.
 
-* **Imports.** (Optional) SignatureIds that supply non-Kernel symbols used by this mechanism’s Signature Block or this mechanism’s operation algebra. If the mechanism includes a `SignatureManifest`, then `Imports` MUST equal `SignatureManifest.imports`. If present, the list MUST be acyclic and MUST respect the stratum dependency rule in A.6.0:4.4.1 (E.5.3 and E.10).
-* **BaseType.** A `U.Type` the mechanism ranges over. CHR spaces (e.g., a `U.CharacteristicSpace` or chart family) appear here **as types**; outside CHR, use set-typed `U.Type`s. A conformant `U.Mechanism` publication **MUST NOT** mint a new core type here; it **MUST** reference existing `U.Type`s. If planes differ, state the **ReferencePlane** policy (see *PlaneRegime*).
-* **SubjectKind, SliceSet, ExtentRule, ResultKind?, and SlotIndex.**
-  • **SubjectKind.** The EntityOfConcern kind acted upon (C.3.1 and C.3.2), separate from quantification.
-  • **SliceSet.** The addressable set of Context slices (USM: **ContextSliceSet**).
-  • **ExtentRule.** A rule yielding `Extension(SubjectKind, slice)` (C.3.2), used as the quantifier’s domain.
-  • **ResultKind?** Optional output kind for outputs of `OperationAlgebra`.
-  • **SlotIndex.** A set of SlotSpecs `SlotSpec = ⟨SlotKind, ValueKind, refMode⟩` (A.6.0:4.1.1; A.6.5) covering every argument position used by **OperationAlgebra** and **AdmissibilityConditions**. SlotKinds are stable names for substitution and specialisation; parameter names and numeric indices are presentation only.
-    For **Vocabulary-level** operators, SlotSpecs remain declared **in each operator’s parameter block** (A.6.0:4.1.1). `SlotIndex` is an extracted index that **MUST** be mechanically derivable from those declarations (plus any guard-only SlotSpecs). Guard-only SlotSpecs **SHALL** be declared as part of the **AdmissibilityConditions** predicate signatures (not only as prose) so they remain mechanically extractable.
-    **Shorthand views (didactic only).** A mechanism publication MAY include a simple name-to-ValueKind list (a `ValueKindView`) as a didactic projection of SlotSpecs, but it SHALL NOT replace SlotSpecs (`SlotKind`, `ValueKind`, `refMode`) in normative Mechanism definitions. If present, it MUST be mechanically derivable from `SlotIndex` (e.g., `ValueKindView = π_value(SlotIndex)` by dropping `refMode`). The colloquial label **ParamKind** is permitted only in prose as a synonym for the `ValueKind` component of a SlotSpec; it MUST NOT be introduced as a field name, token, or type.
-* **OperationAlgebra.** Named operations whose signatures are expressed over SlotKinds from `SlotIndex` (A.6.5); **no implicit parameters**. For every n‑ary operator, its Vocabulary declaration **SHALL** publish SlotSpec triples per argument position (A.6.0:4.1.1); positional indices are presentation only. Examples:
-  • **USM:** `∈, ⊆, ∩, SpanUnion, translate, widen, narrow, refit`.
-  • **UNM:** `apply(method)`, `compose`, `quotient(≡_UNM)`; **normalize‑then‑compare**.
+#### A.6.1:4.2 - Mechanism declaration
 
-* **LawSet.** Equations and invariants (no proofs here). **Admission and eligibility tests belong under AdmissibilityConditions, not here.** Laws **MUST** be compatible with CHR legality where numeric comparison or aggregation is induced. Examples:
-  • **USM:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features or characteristics, validity window, evidence class); `translate` uses declared Bridges; **Γ_time** is mandatory.
-  • **UNM:** **scale‑appropriate** transforms — ratio→positive‑scalar; interval→affine; ordinal→monotone; nominal→categorical; `tabular:LUT(+uncertainty)`.
-  *(A conformant `U.Mechanism` publication **MUST NOT** mint a new Kernel token for “certificate” inside the mechanism definition. Any needed Kernel token requires an accepted FPF naming and kind decision under E.10 and F.18.)*
+```text
+MechanismDeclaration:
+  DeclarationHeader:
+  Imports:
+  SubjectBlock:
+    SubjectKind:
+    BaseType:
+    SliceSet:
+    ExtentRule:
+    ResultKind:
+  SlotIndex:
+  OperationAlgebra:
+  LawSet:
+  AdmissibilityConditions:
+  Applicability:
+  Transport:
+  GammaTimePolicy:
+  PlaneRegime:
+  Audit:
+```
 
-* **AdmissibilityConditions.** Deterministic, **context-local** *operational* guard predicates that **fail closed** (e.g., “Scope covers TargetSlice” with named **Γ_time**; “NormalizationMethod class + validity window named”). Predicate arguments **SHALL** be declared via SlotSpecs from `SlotIndex` (A.6.5), not as implicit positional parameters. Unknowns **→ {degrade, abstain}**; never coerce to 0 or false.
+`DeclarationHeader` states `id`, `version`, and publication state. If the mechanism is intended to be imported or reused, it includes a `SignatureManifest`; `DeclarationHeader.id`, `DeclarationHeader.version`, publication state, imports, and public symbols must match the manifest.
 
-* **Applicability.** Binding to a **`U.BoundedContext`** with stance, plane, time notes, and any **CG-Spec and MM-CHR** legality claims; cross-context use is declared via **Transport** only.
+`Imports` names signatures that supply non-kernel symbols used by the Signature Block or operation algebra. Imports are acyclic. Imported signatures are opaque: reference only their provided symbols and ClaimIds.
 
-* **Transport.** **Bridge-only** semantics for cross-context or cross-plane use: name the Bridge and channel (`Scope` or `Kind`) per **F.9**, and record **ReferencePlane**(src,tgt) per **C.2.1**. **Terminology:** this `Transport` clause is a declarative policy surface; it does **not** introduce a `U.Transfer` edge (see **E.18** term separation). The Transport clause **MUST NOT** restate CL, `CL^plane`, Φ, or Ψ policy tables; it **MUST** reference the applicable policy ids or registries instead; penalties are recorded in **R or R_eff only** and **never** mutate **F or G** (per **B.3**). Crossings are explicit; **no implicit crossings**. Where **USM** and **KindBridge** are used together, apply the **two-bridge rule**: scope CL and kind `CL^k` penalties are handled **separately** in the Reliability channel (**R** or **R_eff**).
+`SubjectKind` names the EntityOfConcern kind acted upon. `BaseType` references an existing `U.Type`. A mechanism publication does not define a new core type inside the mechanism definition.
 
-* **Γ_timePolicy.** Point, window, or policy; **no implicit “latest.”** Validity windows are **named**; **required** whenever guards reference time.
-* **PlaneRegime.** Declare `ReferencePlane` on values or paths; when planes differ, name **CL^plane** and apply a **Φ_plane** policy (Part F and B.3). Plane penalties **do not** change CL; record them in **R or R_eff** only; **F and G** stay invariant.
+`SlotIndex` is a derived index over SlotSpecs used by `OperationAlgebra` and guard-only SlotSpecs used by `AdmissibilityConditions`. It does not replace per-operator SlotSpecs and does not relax A.6.0 argument discipline.
 
-* **Audit.** Conceptual audit surface only (no data or telemetry workflow): crossings are publishable on **UTS**; cite **policy-ids** rather than copying policy tables. Edition pins and regression hooks, if any, are referenced by id; operational details remain out of scope.
-* **SignatureBlock alignment.** The referenced Signature’s four‑row Block (A.6.0) is canonical. Any mechanism rendering MUST preserve that block (or an explicit projection of it) and MUST obey A.6.5 for n‑ary argument discipline. SlotKinds and SlotSpecs in `SlotIndex` remain part of the **Vocabulary** row (A.6.0) and **MUST** obey A.6.5.
+`OperationAlgebra` names operations whose signatures use SlotKinds from the SlotIndex. Each operation publishes SlotSpec triples for argument positions; numeric indices are presentation only.
 
-* **Compatibility with A.6.\*** A.6.1 is a strict specialisation of A.6.0: the canonical four-row Signature Block remains the declaration locus; additional Mechanism fields must not introduce new semantic rows or shadow the signature's `imports` and `provides`.
+`LawSet` states equations and invariants. Admission and eligibility tests belong under `AdmissibilityConditions`, not under `LawSet`.
 
-#### A.6.1:4.2 - U.MechMorph - Refinement, Extension, Equivalence, and Composition
+`AdmissibilityConditions` are deterministic, context-local guard predicates that fail closed. Unknowns become `degrade` or `abstain`; they are not coerced to zero or false.
 
-**Intent.** Provide structure-preserving **relations and constructors** between mechanisms.
-**Definitions.**
+`Applicability` binds the mechanism to a `U.BoundedContext` with plane, time, and comparison-compliance notes.
 
-* **Refinement** `M′ ⊑ M`: narrows the **SubjectBlock** or **SlotSpecs** (`ValueKind` or `refMode` for inherited SlotKinds) and strengthens `LawSet` or `AdmissibilityConditions` (safe substitution; Liskov-style). A Refinement **MUST NOT** rename SlotKinds or add new required arguments to inherited operations.
-* **Extension** `M ⊑⁺ M″`: **adds operations** and any new SlotKinds used only by those new operations without weakening existing Laws or Guards; old programs remain valid (conservative extension).
-* **Equivalence** `M ≡ M′`: there exists a bijective mapping between Subjects and operations preserving and reflecting **LawSet** (up-to-isomorphism on **BaseType** and **OperationAlgebra**).
+`Transport` is a declarative policy surface for cross-context or cross-plane use. It names the Bridge, channel, and `ReferencePlane` relation; when planes differ it names the plane-loss policy. It does not introduce a `U.Transfer` edge and does not restate CL, Phi, Psi, or plane-policy tables. Penalties are recorded in Reliability or effective Reliability only; Formality and Guarantee stay invariant.
 
-* **Quotient** `M` by `≈`: factor by a **congruence** (e.g., **≡_UNM** for charts).
+`GammaTimePolicy` states point, window, or policy. There is no implicit latest.
 
-* **Product** `M×N`: independent **BaseTypes**; ops are component‑wise; ensures **no illegal cross‑ops** (e.g., set‑algebra discipline for `SpanUnion`). Where independence is claimed, **name and justify** the assumption (do not mint new Kernel types here).
+`PlaneRegime` declares reference-plane treatment when values, operations, or comparisons cross planes.
 
-##### A.6.1:4.2.1 - Specialisation relation chains (normative)
+`Audit` is a conceptual audit surface. It cites policy ids, crossing records, and edition pins by reference rather than embedding telemetry details or tool-specific execution details in the kernel pattern.
 
-Many families need a **generic** mechanism at the top (e.g., “select anything”) and progressively **specialised** mechanisms below (e.g., “select a method by decision theory”, “select a telemetry pack”). To keep such specialisation chains **modular** and to prevent leakage across the chain:
+#### A.6.1:4.3 - Kernel-token declarations
 
-1. **Explicit parent + morphism kind.** Any mechanism that specialises another **MUST** name its parent and declare whether the step is a **Refinement** (`⊑`) or an **Extension** (`⊑⁺`). A specialisation family **MUST** be acyclic (a DAG).
+This pattern defines these kernel tokens:
 
-2. **SlotKind invariance across levels.** For every inherited operation or guard predicate, SlotKinds are invariant (A.6.5). A specialisation step **MUST NOT** rename an inherited SlotKind, change its documented semantics, or rely on positional re-ordering instead of SlotKind identity.
+* `U.Mechanism`
+* `U.MechMorph`
+* `U.MechanismDeclarationTemplate`
+* `MechanismDescription`
+* `MechFamilyDescription`
+* `MechInstanceDescription`
 
-3. **ValueKind monotonicity.** A Refinement MAY narrow `ValueKind` (i.e., `ValueKind′ ⊑ ValueKind` in Kind-CAL) or `refMode` for an inherited SlotKind, and MAY strengthen Laws or Guards. It **MUST NOT** widen ValueKinds or relax Guards; otherwise mint a new parent mechanism or publish an adapter mechanism.
+It reuses `U.Signature`, `U.Type`, `U.BoundedContext`, Bridge, ReferencePlane, characteristic-space, measurement, and reliability-channel terms without changing their governing patterns.
 
-4. **No new mandatory inputs to inherited operations.** If a specialisation needs extra inputs, it **MUST** introduce a new operation (Extension) or an adapter mechanism; it **MUST NOT** retrofit new required parameters into an inherited operation signature.
+#### A.6.1:4.4 - Method and mechanism positions
 
-5. **No upward leakage.** A root mechanism in a specialisation chain **SHOULD** mention only the most general ValueKinds required by its SlotSpecs and Laws. Domain-specific policies, generators, and evaluation packs belong in specialised mechanisms that refine slots or add operations.
+Do not decide the method and mechanism question by vocabulary. When a source expression names changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-*Informative selector specialisation-chain sketch.* `SelectorMechanism` can declare a stable slot interface (`CandidateSetSlot`, `ComparisonResultSlot`, `CriteriaSlot`, `ContextSlot`, `SelectionSlot`) with generic ValueKinds. `SelectorMethodMechanism ⊑ SelectorMechanism` then narrows `CandidateSetSlot.ValueKind` to `U.Method` and, by Extension, adds decision-theory specific slots and operations; an OEE generator is declared as a separate mechanism that produces candidate and criteria packs consumed by the selector.
-**Transport** `Bridge⋅M`: lifts across Contexts or planes; names **CL**, **CL^k**, and **CL^plane** regimes; penalties are recorded in **`R_eff` only**; a **UTS row** may publish the crossing; **ReferencePlane(src,tgt)** is recorded. If mapping losses are material, **narrow** the mapped set or publish an **adapter**.
+For this host, keep the local question thin: is the current claim a law-governed mechanism declaration or realization over a `SubjectKind` and `BaseType`? If the source label also raises method, method-description, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 
-**Passing example.** `USM′ = USM + “publish named independence‑assumption evidence for SpanUnion”` ⇒ **Refinement** (strengthened law; substitution‑safe).
-**Normalization quotient.** `UNM` quotiented by `≡_UNM` exposes **compare-on-invariants** surfaces for CPM and USCM (normalize-then-compare).
+`U.Method` governs the context-local way of doing a transformation or enactment. `U.Mechanism` governs a law-governed declaration over a `SubjectKind` and `BaseType`: operation algebra, laws, admissibility predicates, applicability, transport, audit surface, and monotone realization relation.
 
-#### A.6.1:4.3 - U.MechanismDeclarationTemplate - Instantiation Template
+A solver-selection scheme can be a `U.Method` in one bounded context; a selector mechanism can declare operations over candidate methods; a selected method can fill a mechanism slot; and a mechanism realization can be implemented through a method description and enacted in dated work. Those links do not make `A.3.1` sufficient for a mechanism claim or `A.6.1` sufficient for a method claim.
 
-**MechanismDescription (E.8 Tell–Show–Show; strict-distinction-compliant):**
-`Mechanism: U.<Name>`  *(Kernel conceptual description; no tooling fields)*
-`Imports: <Signatures and U.Types>` - `SubjectBlock: <SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?>` - `SlotSpecs: <SlotIndex (A.6.5)>` - `OperationAlgebra: <operators with SlotKinds>` - `LawSet: <equations and invariants>` - `AdmissibilityConditions: <admission predicates with SlotKinds; Γ_time>` - `Transport: <Bridge channels; CL, CL^k, and CL^plane named; ReferencePlane(src,tgt)>` - `PlaneRegime: <world, concept, or episteme rules>`
+Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits such dual typing. Slot-position labels do not create alternate ontology.
 
-#### A.6.1:4.4 - MechFamilyDescription and MechInstanceDescription
+#### A.6.1:4.5 - Morphisms and constructors
 
-* **MechFamilyDescription**: `{MechanismDeclaration, Realizationα, Realizationβ, …}` — each Realization may **tighten** and must never relax Laws (Liskov-style).
+`U.MechMorph` provides structure-preserving relations and constructors between mechanisms:
 
-* **MechInstanceDescription**: `{MechanismDeclaration@Context, Windows, named Φ, Ψ, and Φ_plane regimes, BridgeIds}` — a **conceptual instance**; operational telemetry workflows are out of scope.
+| Relation or constructor | Meaning |
+| --- | --- |
+| Refinement `M' <= M` | narrows SubjectBlock or SlotSpecs and strengthens LawSet or AdmissibilityConditions; it must be safe for substitution |
+| Extension `M <=+ M''` | adds operations or new SlotKinds for new operations without weakening existing laws or guards |
+| Equivalence `M == M'` | maps subjects and operations bijectively while preserving and reflecting LawSet up to isomorphism |
+| Quotient | factors a mechanism by a congruence such as a normalization equivalence |
+| Product | combines independent BaseTypes componentwise and forbids hidden cross-operations |
+| Transport | lifts a mechanism across contexts or planes using Bridge-only policy and Reliability penalties |
 
-#### A.6.1:4.5 - Defaults
+For specialization chains:
 
-* **Local‑first semantics.** All judgments are **context‑local**; crossings are **explicit** and **costed** (CL→R only).
-* **Compliance-first comparability.** Numeric comparison or aggregation requires **CG-Spec** (lawful **SCP**, Γ-fold, MinimalEvidence); **partial orders return sets**; **no ordinal means**.
-* **Tri-state discipline.** `unknown → {degrade, abstain}`; `sandbox` and `probe-only` are **LOG branches** with policy-ids (no implicit `unknown→0` and no implicit `unknown→false`).
-* **R-only penalties.** **Φ**, **Ψ**, and **Φ_plane** are **monotone and bounded**; penalties are recorded in **`R_eff` only**; **F and G** stay invariant.
+* name the parent and the morphism kind;
+* keep inherited SlotKinds invariant;
+* allow ValueKind narrowing and guard strengthening in Refinement;
+* introduce extra required inputs only through new operations or adapter mechanisms;
+* keep root mechanisms general and domain-specific policies in specialized mechanisms.
 
-#### A.6.1:4.6 - Born‑via‑A.6.1 sketch (informative)
+#### A.6.1:4.6 - Description records
 
-**PTM — Publication and Telemetry Mechanism (informative)**
-**BaseType:** `SoTA-Pack(Core)`, `PathId`, `PathSliceId`, `PolicyId`. **OperationAlgebra:** emit **selector-ready** packs with parity pins and **telemetry stubs**; listen for edition or illumination bumps; trigger **slice-scoped** refresh.
-**LawSet:** **no change of dominance defaults** unless CAL policy promotes; edition-aware refresh.
-**Guards:** **GateCrossing visibility harness** blocks publication on missing crossing attestations (BridgeCard plus UTS row, ReferencePlane, CL, CL^k, CL^plane, and Φ or Ψ policy-ids), on lane-purity violations (CL penalties recorded in R only; F and G invariant), or on lexical precision violations (E.10).
-**Transport and Audit:** **G.10** and **G.11** publication and refresh semantics (CL penalties recorded in **R or R_eff**).
+`MechanismDescription` is the ordinary description episteme for a mechanism declaration. It can show:
 
-*Informative SoTA:* telemetry hooks align with post-2015 quality-diversity families (CMA-ME, MAE, DQD, and MEGA) and open-ended methods (POET-class) when monitored via illumination telemetry rather than scored.
+```text
+Mechanism:
+  Imports:
+  SubjectBlock:
+  SlotSpecs:
+  OperationAlgebra:
+  LawSet:
+  AdmissibilityConditions:
+  Transport:
+  GammaTimePolicy:
+  PlaneRegime:
+  Audit:
+```
 
-#### A.6.1:4.7 - 60‑second didactic script
+`MechFamilyDescription` groups one MechanismDeclaration with multiple realizations. Each realization may tighten laws or guards and must not relax them.
 
-> *“To mint a mechanism, fill a **MechanismDeclaration**: declare **SubjectBlock** (**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**) and **SlotSpecs** (use a `SignatureManifest` if it is reusable); then **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, and **Γ_time**; define **Transport** (Bridge and CL with penalties recorded in R only), and **Audit** (UTS plus E.18 PathId pins). USM and UNM are already such mechanisms; the same template produces comparison, scoring, and publication mechanisms safely bound to **CG-Spec** without leaving the kernel grammar.”*
+`MechInstanceDescription` records a mechanism declaration in one context with windows, named regimes, and BridgeIds. It is a conceptual instance description, not an operational telemetry record.
 
-#### A.6.1:4.8 - Mechanism Declaration Checklist
+#### A.6.1:4.7 - Defaults
 
-1. State why this Mechanism is needed, which **guard predicates** and **comparability claims** are in scope, which `DesignRunTag` or `CtxState.locus` boundary it mediates, and whether a **Γ_m (CAL)** builder is needed.
+* Local-first semantics: judgments are context-local; crossings are explicit and costed in Reliability.
+* Comparison compliance: numeric comparison or aggregation uses comparison, measurement, and characteristic-space rules; partial orders return sets.
+* Tri-state guard discipline: unknown guard results become `degrade` or `abstain`.
+* Reliability-only penalties: Bridge, kind, scope, and plane losses affect Reliability or effective Reliability, not Formality or Guarantee.
+* Opaque imports: imported signatures are referenced by provided symbols and ClaimIds.
 
-* Fill **MechanismDeclaration** (**SubjectBlock**, **SlotSpecs**, **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, **Applicability**, **Transport**, **Γ_timePolicy**, **PlaneRegime**, **Audit**).
+#### A.6.1:4.8 - USM and UNM as mechanism instances
 
-* Bind **CHR legality and CG-Spec** when comparing or aggregating (ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ-fold).
+USM can be represented as a `U.Mechanism` over `U.ContextSliceSet` with operations such as membership, subset, intersection, span union, translate, widen, narrow, and refit. Its laws include serial intersection, span union only under a named independence assumption, and mandatory time policy.
 
-Publish **UTS** and **G.10** relations; cite **G.11** telemetry when live; ensure penalties are recorded in `R_eff` only.
+UNM can be represented as a `U.Mechanism` for normalization classes and normalization equivalence. It uses normalize-then-compare discipline, scale-appropriate transforms, and comparison-compliance rules.
+
+These examples are informative. They show that scope, normalization, comparison, scoring, and publication mechanisms can share one kernel mechanism shape without changing their own governing patterns.
 
 ### A.6.1:5 - Archetypal Grounding
 
-#### A.6.1:5.1 - **U.Scope (Claim, Work, Publication) — USM as a U.Mechanism instance** (informative example)
+#### A.6.1:5.1 - Selector mechanism
 
-* **Imports:** `U.ContextSliceSet`; Part F.9 **Bridge**; **C.2.1 ReferencePlane** (noted for crossings); **C.2.2 F–G–R**; **C.2.3 U.Formality**.
-* **BaseType:** `U.ContextSliceSet`.
-* **SliceSet:** `U.ContextSliceSet` (addressable `U.ContextSlice`s).
-* **SubjectKind:** `U.Scope` with specializations `U.ClaimScope` (G), `U.WorkScope`, and `U.PublicationScope`.
-* **OperationAlgebra:** `∈, ⊆, ∩, SpanUnion, translate, widen, narrow, refit`.
-* **LawSet:** serial **intersection**; **SpanUnion** only where a **named independence assumption** is satisfied (state features or characteristics, validity window, evidence class); **translate** uses declared **Bridges**; **Γ_time** is **mandatory**.
-* **AdmissibilityConditions:** deterministic **“Scope covers TargetSlice”**; **fail-closed**; `unknown → {degrade, abstain}` (no implicit `unknown→0` and no implicit `unknown→false`).
-* **Transport:** **Bridge-only** with **CL**; penalties are recorded in **`R_eff`**; **F and G** stay invariant; publish UTS notes.
-* **Γ_timePolicy:** `point`, `window`, or `policy`; **no implicit “latest.”**
-* **PlaneRegime:** *not applicable to scope sets* (scope is set-valued over `ContextSlice`, no value-plane); **CL^plane** not applicable.
+A team needs to select one method from candidate methods. The selection method can be `U.Method`; the selector mechanism declares operations over candidate sets, criteria, comparison results, context, and selected value. It states admissibility predicates for candidate completeness, comparison availability, and time window. The selected method remains a method value; the selector mechanism is not the selected method.
 
-### A.6.1:6 - Bias-Annotation *(informative)*
+#### A.6.1:5.2 - Scope mechanism
 
-This pattern intentionally biases Mechanism declaration toward explicit signatures and laws, context-local semantics, and auditable reuse.
+A project uses context slices to decide where a claim applies. USM declares the slice set, operations, laws, admissibility predicates, bridge policy, and time policy. A source statement such as "scope covers target slice" is admissible only if the guard predicate can be evaluated in the bounded context.
 
-* **Gov (governance).** Bias toward publishable declaration rows, conformance checks, and explicit policy-ids for crossings. Risk: perceived declaration overhead. Mitigation: reuse the `MechanismDeclaration` template; keep Realizations opaque and put operational details outside the Kernel.
-* **Arch (architecture).** Bias toward locality-first semantics and **Bridge-only** transport with costs recorded in **R or R_eff**. Risk: reduced convenience for ad-hoc cross-context reuse. Mitigation: publish adapter mechanisms and make crossings explicit via `Transport` (CC-UM.3 and CC-UM.4).
-* **Onto and Epist (ontology and epistemology).** Bias toward lawful comparability (CHR legality; CG-Spec binding) and against illegal scalarisation (e.g., ordinal means). Risk: some heuristic scoring practices become non-conformant. Mitigation: represent uncertainty explicitly and use `unknown → {degrade, abstain}` rather than coercions (CC-UM.7).
-* **Prag (practice).** Bias toward notation-independence and against tool or vendor tokens in the Kernel. Risk: teams may want to inline CI or telemetry fields. Mitigation: keep audit surfaces conceptual (`Audit`) and reference operational hooks by id only (CC-UM.6).
-* **Did (didactic).** Bias toward explicit SlotKinds and SlotSpecs over positional parameters. Risk: steep learning curve. Mitigation: allow non-normative projections (`ValueKindView`) and include a “60-second” script plus a mechanism declaration checklist (A.6.1:4.7 and 4.8).
+#### A.6.1:5.3 - Normalization mechanism
 
-### A.6.1:7 - Conformance Checklist (normative)
+A benchmark group normalizes scores before comparing systems. UNM declares admissible normalization methods, equivalence, transforms by scale type, and comparison-compliance conditions. Ordinal averaging is rejected because the mechanism cannot make scale-incompatible arithmetic admissible.
 
-| ID | Requirement |
-|----|-------------|
-| **CC‑UM.0** | **A.6.0 alignment:** a conformant `U.Mechanism` publication **MUST** include the four-row `U.Signature` Block (A.6.0). `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1 and A.6.5) is the **Vocabulary** row, `LawSet` the **Laws** row, and `Applicability` the **Applicability** row; the universal block remains the comparability signature block. Any `SlotIndex` is an index projection and **MUST NOT** be treated as a fifth Signature row. |
-| **CC‑UM.1** | **Complete MechanismDeclaration:** a conformant `U.Mechanism` publication **MUST** publish: `DeclarationHeader(id, version, publicationState); Imports; SubjectBlock (SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?); SlotIndex (A.6.5); OperationAlgebra; LawSet; AdmissibilityConditions; Applicability; Transport (Bridge named; ReferencePlane); Γ_timePolicy; PlaneRegime; Audit`. `DeclarationHeader.id` **MUST** be PascalCase; `version` **MUST** follow SemVer; `publicationState ∈ {draft, candidate, stable, deprecated}`. Eligibility and admission tests **MUST** be expressed as `AdmissibilityConditions`, not as `LawSet`. If the mechanism is intended to be imported or reused, it **MUST** also include a `SignatureManifest` per **CC-A.6.0-18**, consistent with `DeclarationHeader` and `Imports` (A.6.1:4.1). |
-| **CC‑UM.2** | **Monotone realization (signature-law discipline):** if a mechanism publishes (or implies) any realization of a signature, that realization MUST satisfy the signature’s LawSet (and imported laws) and MAY only tighten (never relax) them. Realizations MUST treat imported signatures as **opaque**: reference only symbols in `provides` (A.6.0:4.4.1) and cite ClaimIds (A.6.B). Do not mint a parallel signature header; use `SignatureManifest`. |
-| **CC‑UM.3** | **Bridge-only transport:** for any cross-context or cross-plane use, `Transport` **MUST** name the BridgeId and channel (F.9) and **MUST** record `ReferencePlane(src,tgt)` (C.2.1); when planes differ it **MUST** name `CL^plane`. Implicit crossings **MUST NOT** occur. When typed reuse is involved, the two-bridge rule **MUST** apply: scope CL and kind `CL^k` penalties are recorded separately in **R** or **R_eff**. `Transport` is a declarative policy surface and **MUST NOT** be used to introduce a `U.Transfer` edge (E.18 term separation). It **MUST NOT** restate CL, Φ, Ψ, or Φ_plane policy tables; it **MUST** reference policy ids or registries. |
-| **CC‑UM.4** | **R-only penalty recording:** any CL, `CL^k`, or `CL^plane` penalties declared or incurred by `Transport` **MUST** reduce the Reliability channel only (**R**, or **R_eff** when distinguished) per **B.3**; they **MUST NOT** mutate **F or G**. |
-| **CC‑UM.5** | **CG-Spec binding:** if the Mechanism defines or induces any numeric comparison or aggregation, it **MUST** bind to **CG-Spec and MM-CHR** (lawful **SCP**, Γ-fold, MinimalEvidence; normalize-then-compare) and obey CHR legality: partial orders **MUST** return sets; ordinal means **MUST NOT** be computed; interval or ratio arithmetic **MUST** occur only with unit alignment (CSLC-proven). |
-| **CC‑UM.6** | **E.8 and E.10 compliance:** the A.6.1 publication **MUST** include Tell-Show-Show under **“Archetypal Grounding”** and **MUST** respect Plain and Tech registers plus EntityOfConcern and Description separation. Any new `U.*` token, including any new `U.Type`, **MUST** have an accepted FPF naming and kind decision plus a `LEX.TokenClass` entry; `BaseType` **MUST** reference an existing `U.Type` (no in-place minting), and any new `U.Type` required for that reference **MUST** be minted outside the mechanism definition. Non-specification surfaces **MUST** end with **“…Description”**. Core narrative **MUST NOT** include tool or vendor tokens. |
-| **CC‑UM.7** | **Unknowns tri-state:** guard predicates in `AdmissibilityConditions` **MUST** be deterministic, context-local, and fail-closed; they **MUST** define `unknown → {degrade, abstain}` and **MUST NOT** coerce unknowns to 0 or false. Sandbox and probe branches **MUST** live in **SoS-LOG** (not Acceptance). |
-| **CC‑UM.8** | **Multi‑level specialisation discipline:** if a Mechanism declares itself as `⊑` or `⊑⁺` of another Mechanism, it **MUST** satisfy A.6.1:4.2.1 (explicit parent+morphism kind; SlotKind invariance; monotone ValueKind narrowing; no new mandatory inputs to inherited ops). |
-| **CC‑UM.9** | **SlotIndex is a view:** `SlotIndex` **MUST** be mechanically derivable from (i) the per‑operator SlotSpecs in `OperationAlgebra` (A.6.0:4.1.1) plus (ii) any guard‑only SlotSpecs **declared with** `AdmissibilityConditions` predicate signatures; it **MUST NOT** contradict those SlotSpecs. Any didactic `ValueKindView` (or “ParamKind” lists) are non‑normative projections only. |
-| **CC‑UM.10 (Multiple realizations rationale).** | If multiple Realizations are published for the same MechanismDeclaration, the mechanism publication **SHOULD** provide a short trade-off rationale (why and when to choose which), without introducing new obligations beyond the referenced Signature and ClaimIds. |
+#### A.6.1:5.4 - Publication mechanism
 
-### A.6.1:8 - Common Anti-Patterns and How to Avoid Them *(informative)*
+A publication mechanism emits selector-ready packs, refresh cues, and crossing records. The mechanism declares operations and admissibility predicates; actual publication work, telemetry, evidence, and gate decisions stay with their governing patterns.
 
-| Anti-pattern | What it looks like | Remedy |
-| --- | --- | --- |
-| **SlotIndex treated as a 5th Signature row** | Reviews start comparing mechanisms by `SlotIndex` only; SlotSpecs disappear from operator declarations. | Keep SlotSpecs **inline per operator**; treat `SlotIndex` as a derived projection only (CC‑UM.0, CC‑UM.9). |
-| **Admission tests put in LawSet** | “Eligibility” and “coverage” checks appear as laws; implementations silently diverge. | Move operational guards to `AdmissibilityConditions` (CC‑UM.1). |
-| **Implicit crossings or hidden CL policy tables** | A mechanism is reused across Contexts or planes without a declared BridgeId or ReferencePlane; CL, Φ, or Ψ tables get copied into local prose. | Crossings must be explicit and **Bridge-only**; `Transport` references policy ids or registries (CC-UM.3). |
-| **Penalties leak into F or G** | A plane, kind, or scope mismatch is handled by mutating Formality or Guarantee claims. | Record penalties in **R or R_eff only**; keep **F and G** invariant (CC-UM.4). |
-| **Illegal scalarisation** | Ordinal means or cross-unit arithmetic is performed “because we need a number”. | Bind numeric comparison or aggregation to CG-Spec, MM-CHR, and CSLC; keep partial orders set-valued (CC-UM.5). |
-| **Specialisation breaks SlotKind identity** | Refinements rename SlotKinds or add mandatory parameters to inherited operations. | SlotKinds are invariant; refinements only narrow ValueKinds or guards; add new operations via Extension (CC-UM.8). |
-| **Unknown coerced to 0 or false** | Guard failures silently become “false” or scores become 0. | Use tri-state discipline: `unknown → {degrade, abstain}`; probing lives in LOG branches (CC-UM.7). |
-| **In-place minting of BaseType** | A mechanism definition introduces a new `U.Type` ad hoc. | `BaseType` references an existing `U.Type`; mint new types through an accepted FPF naming and kind decision outside the mechanism (CC-UM.6). |
+### A.6.1:6 - Bias-Annotation
 
-### A.6.1:9 - Consequences (informative)
+Typical biases:
 
-* **Uniform kernel shape.** Scope, normalization, comparison families can be declared and compared without lexical drift.
-* **Auditable reuse.** GateCrossings are UTS-visible via **CrossingBundle** (**E.18**); penalties are transparent (**R only**), with **LanePurity** and **lexical precision** (E.10) checks runnable (GateChecks in **A.21**; Bridge and UTS discipline through **F.9**, **F.17**, **E.17**, and **E.18**).
-* **Scalarisation avoids illegality.** Partial orders remain set-valued; cross-scale arithmetic is blocked by **CG-Spec and CSLC**.
+* **implementation-as-law bias**: code, workflow diagrams, or recipes are treated as mechanism law;
+* **method-as-mechanism bias**: a way of doing is treated as an operation algebra with laws and admissibility predicates;
+* **transport-by-habit bias**: cross-context reuse happens without Bridge, ReferencePlane, and Reliability penalty relation;
+* **scalarization bias**: partial orders, ordinal scales, or cross-unit values are forced into one number;
+* **slot-position bias**: parameter positions substitute for named SlotKinds and SlotSpecs;
+* **tool-binding bias**: evaluator, vendor, CI, or telemetry details are put into kernel mechanism semantics.
 
-### A.6.1:10 - Rationale (informative)
+### A.6.1:7 - Conformance Checklist
 
-Binding mechanisms to an explicit **Signature -> Realization** discipline (A.6.0 `SignatureManifest` plus CC-UM.2 monotonicity and opacity) keeps reuse safe: signatures and laws carry the boundary semantics; realizations may vary but cannot relax laws. It also makes cross-context Bridge crossings explicit and records costs in `R_eff`, never in F or G.
+**CC-UM.0 (A.6.0 alignment).** A conforming `U.Mechanism` publication includes the four-row `U.Signature` Block. `OperationAlgebra` is the Vocabulary row, `LawSet` is the Laws row, and `Applicability` is the Applicability row. `SlotIndex` is a derived index, not a fifth Signature row.
 
-### A.6.1:11 - SoTA-Echoing (post-2015 practice alignment) *(informative)*
+**CC-UM.1 (Complete declaration).** A conforming publication includes DeclarationHeader, Imports, SubjectBlock, SlotIndex, OperationAlgebra, LawSet, AdmissibilityConditions, Applicability, Transport, GammaTimePolicy, PlaneRegime, and Audit.
 
-**Purpose.** To show how the FPF concept of a *Mechanism* (law-governed signature with guards and transport) aligns with, and improves upon, leading research and engineering practices after 2015.
-All comparisons are *informative*: they serve didactic continuity, not new normative force.
+**CC-UM.2 (Manifest coupling).** If imported or reused, the mechanism includes a SignatureManifest consistent with DeclarationHeader, imports, and provided symbols.
 
-#### A.6.1:11.1 - Contemporary references (post-2015 sources)
+**CC-UM.3 (Monotone realization).** A realization satisfies the mechanism LawSet and imported laws. It may tighten laws or guards and must not relax them.
 
-**SoTA binding note (E.8:11).** This section cites primary post-2015 sources directly as the current source-use form for mechanism semantics. When a current ClaimSheet, CorpusLedger, or BridgeMatrix id is available for the same source decision, cite that id instead of repeating the source narrative.
+**CC-UM.4 (Opaque imports).** Realizations and mechanisms treat imported signatures as opaque. They reference only provided symbols and ClaimIds.
 
-1. **Algebraic effects and handlers** (post-2015 effect systems and handler implementations) — **Adopt and Adapt.** They motivate the split “operation signature vs handling”; A.6.1 keeps `OperationAlgebra` explicit and adds `LawSet`, `AdmissibilityConditions`, and `Γ_time` so legality and time are not implicit. *(e.g., Hillerström and Lindley, 2018; Multicore and OCaml-5 effect handlers, 2021–2022).*
+**CC-UM.5 (Bridge-only transport).** Cross-context or cross-plane use names BridgeId, channel, ReferencePlane, and plane policy when needed. Transport does not create a `U.Transfer` edge.
 
-2. **Typed semantic translation frameworks** (institution-style morphisms and functorial data migration) — **Adapt.** A.6.1 uses explicit refinement, extension, and quotient structure (`U.MechMorph`) but requires cross-Context transport to be **Bridge-only** with penalties recorded in **R or R_eff**. *(e.g., Spivak and Schultz, 2017; CQL practice, 2017–2023).*
+**CC-UM.6 (Reliability-only penalties).** Scope, kind, bridge, or plane penalties are recorded in Reliability or effective Reliability only. Formality and Guarantee stay invariant.
 
-3. **Policy-as-Code** (declarative guard and risk rules) — **Adapt.** A.6.1 turns runtime policies into deterministic, fail-closed `AdmissibilityConditions` with named Γ_time windows; evaluators and tool binding stay out of Core. *(e.g., Open Policy Agent and Rego, 2016+; UL 4600:2020; ISO 21448:2019).*
+**CC-UM.7 (Comparison compliance).** Numeric comparison or aggregation binds to characteristic-space, measurement, scale, and comparison rules. Partial orders remain set-valued unless a declared scorer governs the reduction.
 
-4. **Session and typestate types** (post-2015 protocol safety) — **Adapt.** Protocol constraints inform how guards can restrict legal operator sequences, but A.6.1 keeps boundary semantics as signature and laws and surfaces sequencing constraints as explicit guard predicates rather than hidden state. *(e.g., Scalas and Yoshida, 2016–2018; mainstream session-type toolchains, 2017–2024).*
+**CC-UM.8 (Tri-state guards).** Guard predicates are deterministic, context-local, and fail closed. Unknowns become `degrade` or `abstain`, not zero or false.
 
-5. **Lawful measurement and calibrated uncertainty** (monotone and calibrated learning, conformal prediction) — **Adopt and Adapt.** Modern calibrated methods show why comparability must be explicit; A.6.1 binds induced numeric operations to **CG-Spec and CSLC** and forbids illegal scalarisation (e.g., ordinal means). *(e.g., Romano et al., 2019; Angelopoulos and Bates, 2021).*
+**CC-UM.9 (SlotIndex as view).** SlotIndex is mechanically derivable from per-operator SlotSpecs plus guard-only SlotSpecs. Didactic ValueKind projections do not replace SlotSpecs.
 
-Each source corresponds to a distinct *Tradition*: formal semantics, categorical algebra, compliance automation, protocol safety, and lawful AI.
+**CC-UM.10 (Specialization chains).** A mechanism specialization names its parent and morphism kind, preserves inherited SlotKinds, narrows ValueKinds only in Refinement, and avoids new mandatory inputs to inherited operations.
 
-#### A.6.1:11.2 - Alignment with A.6.1 fields and concepts
+**CC-UM.11 (No in-place type definition).** `BaseType` references an existing `U.Type`. Any new `U.Type` requires a separate accepted naming and kind decision.
 
-| A.6.1 construct (claim) | SoTA practice (post-2015) | Primary sources (post-2015) | Alignment delta encoded by A.6.1 | Adopt, Adapt, or Reject |
-| --- | --- | --- | --- | --- |
-| **OperationAlgebra and LawSet** | Algebraic effects and handlers separate operation signatures from handlers. | Hillerström and Lindley (2018); OCaml-5 and Multicore OCaml effect handlers (2021–2022). | FPF keeps operator signatures explicit, adds an explicit `LawSet`, and treats admissibility and time as separate surfaces (no hidden context). | Adopt and Adapt |
-| **U.MechMorph** (Refine, Extend, Quotient) | Institution-style morphisms and functorial data migration provide typed signature translations and quotients. | Spivak and Schultz (2017); CQL ecosystem papers and docs (2017–2023). | FPF reuses the morphism structure but requires cross-Context use to be stated as `Transport` with an explicit `BridgeId` (F.9) and CL, CL^k, and CL^plane regimes; penalties are recorded in `R` or `R_eff` only (B.3). | Adapt |
-| **AdmissibilityConditions and Γ_timePolicy** | Policy-as-Code makes guard and risk predicates executable and reviewable. | Open Policy Agent and Rego (2016+); UL 4600:2020; ISO 21448:2019. | FPF treats policy predicates as deterministic, fail-closed guards with named validity windows; it forbids implicit “latest” and avoids embedding evaluators in Core. | Adapt |
-| **AdmissibilityConditions** (sequencing) | Session and typestate disciplines constrain legal operation sequences. | Scalas and Yoshida (2016–2018); post-2017 multiparty session type toolchains. | FPF uses guards to make sequencing constraints explicit and auditable, while leaving the kernel boundary semantics as signature and laws (no hidden automata). | Adapt |
-| **CG-Spec and MM-CHR binding** | Calibrated and monotone ML plus conformal prediction make uncertainty and monotonicity explicit. | Romano et al. (2019); Angelopoulos and Bates (2021). | FPF requires scale legality (CSLC) and forbids ordinal averaging; partial orders remain set-valued unless a lawful scorer is declared. | Adopt and Adapt |
+**CC-UM.12 (Method-position separation).** A mechanism publication does not close a method, method-description, work-plan, dated-work, evidence, gate, publication-use, or result claim. Linked values are named by their governing patterns.
 
-#### A.6.1:11.3 - Adopt, Adapt, and Reject summary
+**CC-UM.13 (No tool binding).** Kernel mechanism narrative does not depend on vendor names, CI hooks, telemetry fields, or tool-specific evaluator semantics. Such details are outside the mechanism unless another governing pattern admits them.
 
-* **Adopt.** The “explicit operations and explicit laws” stance from modern semantics work, and the calibrated and monotone stance from lawful ML, because both reduce hidden assumptions.
+### A.6.1:8 - Common Anti-Patterns and How to Avoid Them
 
-* **Adapt.** Typed translation ideas and policy‑as‑code idioms into a kernel form that is Context‑local by default, with explicit guards (`AdmissibilityConditions`) and explicit time windows (`Γ_timePolicy`) instead of implicit recency.
+| Anti-pattern | Repair |
+| --- | --- |
+| SlotIndex treated as a fifth Signature row | Keep SlotSpecs inside operator declarations; use SlotIndex only as a derived view. |
+| Admission tests put in LawSet | Move operational guards to AdmissibilityConditions. |
+| Implicit context crossing | Name BridgeId, channel, ReferencePlane, and Reliability penalty relation. |
+| Penalties leak into Formality or Guarantee | Record losses in Reliability or effective Reliability only. |
+| Scale-incompatible scalarization | Use characteristic-space, measurement, scale, and comparison rules; keep partial orders set-valued. |
+| Specialization breaks SlotKind identity | Preserve inherited SlotKinds; narrow ValueKinds only where Refinement permits it. |
+| Unknown coerced to zero or false | Use `degrade` or `abstain`. |
+| Method label treated as mechanism law | Recover the current use-position first; use A.6.1 only when operation algebra, laws, admissibility predicates, transport, audit, or realization relation are current. |
+| Tool configuration treated as mechanism declaration | Keep tool settings in the direct tooling, publication, work, or evidence pattern; put only mechanism semantics in A.6.1. |
 
-* **Reject.** Tool‑bound semantics, automatic recency heuristics, and any cross‑scale arithmetic without CSLC proof; A.6.1 also rejects implicit cross-Context or cross-plane reuse.
+### A.6.1:9 - Consequences
 
-* **Cross-Context or cross-plane delta (E.8:11).** Whenever a SoTA practice would reuse semantics across Contexts or planes, A.6.1 requires an explicit `BridgeId` (F.9) plus CL, `CL^k`, `CL^plane`, Φ, Ψ, and Φ_plane policy-ids (B.3), with penalties recorded in `R` or `R_eff` only and never mutating `F` or `G`.
+| Benefit | Cost or caution |
+| --- | --- |
+| Mechanism families share one kernel declaration shape. | Teams must name slots, laws, guards, and transport policy explicitly. |
+| Reuse becomes auditable across contexts and planes. | Bridge and Reliability penalty relations cannot be skipped for convenience. |
+| Realizations can vary without relaxing laws. | Implementations must be checked against signature and imported-law opacity. |
+| Method, mechanism, work, evidence, and gate claims stay separated. | Source labels often need `E.10.ARCH` recovery before typed assignment. |
+| Comparison and normalization mechanisms stop hiding scale-incompatible arithmetic. | Some familiar single-score practices become inadmissible until a scorer is declared. |
 
-#### A.6.1:11.4 - Holonic repeatability
+#### A.6.1:9.1 - Quick use cards
 
-The same correspondence holds at **every holonic level**:
-a part-holon declares its own `OperationAlgebra`, `LawSet`, and `AdmissibilityConditions`; a whole-holon merges them via Bridges; a meta-holon re-binds mechanisms under a new Γ-closure. All penalties remain in **R** or **R_eff**, while **F** and **G** invariants propagate intact.
+* **Mechanism = operation algebra plus laws.** Add guards, transport, time, plane, audit, and realization discipline.
+* **Method is not mechanism.** A method can use or fill a mechanism slot; it does not become the mechanism by name.
+* **Guards fail closed.** Unknown guard results become `degrade` or `abstain`.
+* **Transport is Bridge-only.** Crossings need Bridge, ReferencePlane, and Reliability penalty relation.
+* **SlotKinds travel.** Positional parameters do not replace SlotSpecs.
+* **Realizations tighten.** A realization may specialize but not relax mechanism laws.
 
-### A.6.1:12 - Relations (quick pointers)
+### A.6.1:10 - Rationale
 
-Builds on **A.6.0**; instantiates **A.2.6 USM** (ContextSlice, Γ_time, intersection, SpanUnion, translate) and **A.19** plus **C.16** UNM (classes, ≡\_UNM, validity windows); uses **Part B** (Bridges, CL, CL^k, CL^plane; **no implicit crossings**); binds **CG-Spec** for any numeric comparison or aggregation; telemetry and publication use **G.10** and **G.11**.
+Mechanisms need a kernel shape because many FPF practices declare reusable operation families: scope operations, normalization operations, selector operations, comparison operations, publication operations, and scoring operations. Without one shape, each practice invents local vocabulary for operations, laws, guards, reuse, and realization.
 
-### A.6.1:12a - P2W Mechanism Use Relation
+Binding mechanisms to A.6.0 Signature discipline keeps declaration and realization separate. The Signature carries boundary semantics; realization varies under monotonicity. Bridge-only transport and Reliability-only penalties keep cross-context losses visible without mutating Formality or Guarantee.
 
-When `E.18.1` reaches a mechanism cue, this pattern carries the mechanism meaning: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, effect realization when declared, transport, and mechanism descriptions. P2W may name the cue and governing pattern, but it does not define these mechanism relations locally.
+### A.6.1:11 - SoTA-Echoing
 
-If the issue under repair is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use the current `E.20` governing pattern when live. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
+| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
+| --- | --- | --- | --- |
+| Current scoped-effects and handlers work | Bosman, van den Berg, Tang, and Schrijvers, "A Calculus for Scoped Effects & Handlers", LMCS 20(4), 2024, arXiv:2304.09697; Matache, Lindley, Moss, Staton, Wu, and Yang, "Scoped Effects as Parameterized Algebraic Theories", ESOP 2024 extended version, arXiv:2402.03103. | Adopt and adapt: operations, equations, scopes, resources, handlers, and type information are separated rather than hidden in one implementation object. | `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and context-local applicability are explicit surfaces. |
+| Typed semantic translation and categorical data migration | Spivak and Schultz, *Seven Sketches in Compositionality* and CQL practice lines. | Adapt: typed translation and quotient ideas are useful, but cross-context use in FPF must be Bridge-only with Reliability penalties. | `U.MechMorph`, quotient, product, and transport relations are explicit and bounded. |
+| Policy-as-code and safety standards practice | Open Policy Agent and Rego practice; UL 4600:2020; ISO 21448 road-vehicle safety practice. | Adapt: guard predicates and safety conditions are reviewable only when context, window, and fail-closed behavior are explicit. | `AdmissibilityConditions` and `GammaTimePolicy` are separate from `LawSet`; evaluator tooling stays outside kernel semantics. |
+| Session, typestate, and protocol-safety practice | Contemporary session-type and typestate practice after 2015. | Adapt: operation-sequence constraints matter, but they must be expressed as guards or laws rather than hidden automata in prose. | SlotSpecs, SlotKinds, and specialization-chain rules prevent positional or hidden-state drift. |
+| Calibrated uncertainty and conformal prediction | Angelopoulos and Bates, "A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification", arXiv:2107.07511; contemporary conformal-prediction and calibrated-uncertainty practice. | Adopt and adapt: uncertainty sets and calibration show why admissible comparison must preserve scale and uncertainty conditions. | Comparison mechanisms bind to measurement, scale, and scorer rules; partial orders stay set-valued unless the scorer is declared. |
 
-### A.6.1:12b - Lowering, repair, and refresh conditions
+Refresh this pattern when current work on effect systems, typed semantic translation, policy-as-code, safety standards, protocol types, calibrated uncertainty, characteristic-space comparison, or FPF's own signature, method, work, evidence, gate, and transport patterns changes the governing distinction.
 
-A `U.Mechanism` remains usable while its MechanismDeclaration, imported signatures, SlotSpecs, LawSet, AdmissibilityConditions, Applicability, Transport, Γ_timePolicy, PlaneRegime, and Audit relations remain recoverable and monotone with respect to A.6.0.
+### A.6.1:12 - Relations
 
-Repair the mechanism, or mint a new mechanism when monotone repair is impossible, if any of these conditions holds:
+* **Builds on:** `A.6.0 U.Signature`; `A.1.1 U.BoundedContext`; SlotSpec and argument-discipline patterns; Bridge and ReferencePlane patterns.
+* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.19`; `C.16`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; `E.18`; `E.20`.
+* **Separates from:** direct method choice, implementation recipe, telemetry publication, evidence record, gate decision, result certification, and realization work.
+* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, and `F.18`; use `E.10.ARCH:3.1` when source labels such as `algorithm`, `program`, `workflow`, `process`, `procedure`, `recipe`, `solver`, or `control strategy` hide the current relation position.
+
+#### A.6.1:12.1 - P2W mechanism-use relation
+
+When `E.18.1` reaches a mechanism cue, A.6.1 carries the mechanism meaning: operation algebra, LawSet, AdmissibilityConditions, realization relation when declared, transport, and mechanism descriptions. P2W may name the cue and governing pattern, but it does not define these mechanism relations locally.
+
+If the issue under repair is new mechanism introduction, mechanism stabilization, or method-related mechanism use, use `E.20` when mechanism-governing-definition assignment is current. A P2W citation of a mechanism does not select a method, execute work, pass a gate, prove evidence, or certify a result.
+
+#### A.6.1:12.2 - Lowering, repair, and refresh conditions
+
+A `U.Mechanism` remains usable while its MechanismDeclaration, imported signatures, SlotSpecs, LawSet, AdmissibilityConditions, Applicability, Transport, GammaTimePolicy, PlaneRegime, and Audit relations remain recoverable and monotone with respect to A.6.0.
+
+Repair the mechanism, or define a new mechanism when monotone repair is impossible, if any of these conditions holds:
 
 * an inherited SlotKind is renamed, widened, or given a new required argument;
 * a realization relaxes a law, bypasses an admissibility predicate, or depends on hidden structure inside an imported signature;
-* a cross-context or cross-plane reuse claim lacks BridgeId, ReferencePlane, CL, CL^k, CL^plane, or Reliability penalty relation;
-* a numeric comparison or aggregation is no longer legal under CG-Spec, MM-CHR, CSLC, or the current characteristic-space declarations;
-* a Γ_timePolicy, validity window, or “latest” assumption changes an admissibility result;
-* a current SoTA change in algebraic effects, session types, typed semantic translation, Policy-as-Code, calibrated uncertainty, or context normalization changes the operation algebra, guard discipline, morphism relation, or transport boundary.
+* a cross-context or cross-plane reuse claim lacks BridgeId, ReferencePlane, loss policy, or Reliability penalty relation;
+* a numeric comparison or aggregation is no longer compliant with the governing characteristic-space, measurement, scale, or comparison patterns;
+* a GammaTimePolicy, applicability window, or implicit latest assumption changes an admissibility result;
+* a current SoTA change in effect systems, protocol types, typed semantic translation, policy-as-code, calibrated uncertainty, or context normalization changes the operation algebra, guard discipline, morphism relation, or transport boundary.
 
-Do not repair the mechanism merely because one work occurrence, telemetry publication, evidence record, gate decision, method choice, or realization version changed. Repair the object governed by that later relation unless the change alters the MechanismDeclaration, its imported signature relation, or the monotone relation between a realization and the MechanismDeclaration.
+Do not repair the mechanism merely because one work occurrence, telemetry publication, evidence record, gate decision, method choice, or realization version changed. Repair the object governed by that neighboring relation unless the change alters the MechanismDeclaration, its imported signature relation, or the monotone relation between a realization and the MechanismDeclaration.
 
 ### A.6.1:End
 

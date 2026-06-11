@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 65706
-line_end: 65785
+line_start: 66040
+line_end: 66119
 dependencies:
   - "A.10"
   - "A.15"
@@ -76,7 +76,7 @@ Read the card as a three-way recovery aid:
 
 The nearest worked slices for those three repair dispositions are:
 - ordinary stay-local: `E.17.AUD.LHR:5.2`;
-- admissible return to bounded comparison: `E.17.AUD.LHR:5.4`;
+- admissible bounded-comparison disposition: `E.17.AUD.LHR:5.4`;
 - admissible application of whole-unit discipline: `E.17.AUD.LHR:5.5`.
 
 #### E.17.AUD.LHR:3.3 - Load-bearing extension
@@ -106,7 +106,7 @@ Use this order when one local lexical head is carrying too much:
 4. restore the active primary entity or relation named by value/claim when one is active;
 5. restore the carried move or question under repair, if any;
 6. restore any family, governing pattern, and primary-entity/relation distinction and nearest outside-work boundary the sentence is relying on;
-7. decide which of three repair dispositions is honest: stay with local repair, return the case to bounded comparison, or apply publication-unit discipline.
+7. decide which of three repair dispositions is honest: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
 
 A narrowing qualifier alone does not count as restoration.
 Treat this order as one local repair aid, not as a canonical flow.

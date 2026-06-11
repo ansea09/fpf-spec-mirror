@@ -6,12 +6,12 @@ section_id: "E.17.EFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__003_problem.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:2 — Problem"
-line_start: 64048
-line_end: 64056
+line_start: 64499
+line_end: 64507
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 Without a dedicated profile:
 1. source-pinned rendering, reconstruction, didactic simplification, and speculation blur together;
 2. explanation prose starts behaving like a second semantic rule track;
-3. publication-side reviewers cannot tell which faces remain admissible for a given explanation class;
+3. publication-side reviewers cannot tell which faces remain bounded-use for a given explanation class;
 4. pins, provenance, and evidence binding become optional rhetorical extras instead of explicit publication conditions;
 5. explanation work quietly shifts into new claims, hidden bridge work, or gate-facing misuse.
 

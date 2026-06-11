@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.3"
-pattern_title: "Trust & Assurance Calculus (F–G–R with Congruence)"
+pattern_title: "Trust and Assurance Calculus (F-G-R with Congruence)"
 section_id: "B.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__004_forces.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
-  - "B.3 — Trust & Assurance Calculus (F–G–R with Congruence)"
+  - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:3 — Forces"
-line_start: 31607
-line_end: 31615
+line_start: 31716
+line_end: 31724
 dependencies:
   - "A.10"
   - "A.12"
@@ -61,8 +61,8 @@ keywords:
 
 | Force                                    | Tension                                                                                                                             |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| **Conservatism vs. Synthesis**           | Avoid overclaiming (WLNK) ↔ allow real gains from better integration (raise CL) or true emergence (B.2).                            |
+| **Conservatism vs. Synthesis**           | Avoid overclaiming (WLNK) ↔ recognize real gains from better integration (raise CL) or true emergence (B.2).                            |
 | **Universality vs. Domain nuance**       | One calculus for systems and epistemes ↔ physics and epistemology use different primitives; keep them comparable but not identical. |
-| **Simplicity vs. Fidelity**              | Keep the assurance tuple small and typed (A.11) ↔ capture enough structure to be informative and improvable by KD‑CAL actions.           |
+| **Simplicity vs. Fidelity**              | Keep the assurance tuple small and typed (A.11) ↔ capture enough structure to be informative and improvable by KD-CAL moves.           |
 | **Static clarity vs. Dynamic evolution** | A score must be reproducible today ↔ tomorrow it should legitimately rise after formalization, replication, or reconciliation.      |
 

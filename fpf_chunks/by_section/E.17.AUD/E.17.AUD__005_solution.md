@@ -6,12 +6,12 @@ section_id: "E.17.AUD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__005_solution.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:4 — Solution"
-line_start: 65420
-line_end: 65515
+line_start: 65754
+line_end: 65849
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,7 +111,7 @@ Use this seven-row card before you widen the repair:
 
 - If row 5 still points to one overloaded local lexical head, apply `Local Head Restoration`.
 - If row 5 shows that the whole publication unit still cannot keep one stable primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim visible, apply `PublicationUnit Primary EntityOfConcern Discipline`.
-- If the publication unit is already stable enough and the real move is bounded comparison over already available source publications, apply `E.17.ID.CR ComparativeReading`.
+- If the publication unit is already stable enough and the real move is bounded comparison over already available source publications, apply `E.17.ID.CR ComparativeReviewUnit`.
 - If the main problem situation is explanation classification over an existing face, apply the neighboring explanation pattern rather than keeping the case inside publication-unit stability by inertia.
 - If the active problem situation is publication form, bridge work, or downstream claim or effect, leave the publication-unit stability family and apply the more honest neighboring pattern or use the downstream publication.
 

@@ -6,12 +6,12 @@ section_id: "A.6.M:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__001_intro.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:intro — Intro"
-line_start: 14037
-line_end: 14042
+line_start: 14105
+line_end: 14110
 dependencies:
 keywords:
   - "are used only for pattern users"

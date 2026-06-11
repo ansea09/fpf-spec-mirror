@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 57147
-line_end: 57713
+line_start: 57563
+line_end: 58129
 dependencies:
   - "E.10"
   - "E.11"
@@ -110,7 +110,7 @@ A wording cleanup is kind-preserving by default. Before an author accepts a chan
 
 For apparatus-overwrap, follow `F.19`. `E.8` adds only the pattern-authoring placement rule: after boilerplate apparatus is removed or moved and remaining content is precision-restored under `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern when needed, pattern prose keeps only the intended user's admissible move and boundary. Process, architecture, review, quality, projection, and release evidence stay in their own carriers unless they are rewritten as that user-facing move.
 
-When an action-adjacent pattern classifies wording, a name, a publication face, an explanation class, a comparison unit, or another semio-facing object, that classification is only useful if it returns to action guidance. The pattern must say what use or action is admissible now, what related use or action is not admissible under the current pattern, and which FPF pattern governs the case when the claim is a work, evidence, gate, decision, assurance, engineering-justification, release, or reliance claim.
+When an action-adjacent pattern classifies wording, a name, a publication face, an explanation class, a comparison unit, or another semio-facing object, that classification is only useful if it connects back to action guidance. The pattern must say what use or action is admissible now, what related use or action is not admissible under the current pattern, and which FPF pattern governs the case when the claim is a work, evidence, gate, decision, assurance, engineering-justification, release, or reliance claim.
 
 `Semio-Echoing` is admissible only as a trigger-controlled auxiliary placement. Use it when `E.10`, `C.2.P`, or `E.10.ARCH` has exposed a wording-use overread whose EntityOfConcern, episteme/publication stack, alignment path, and remaining admissible reader move are recoverable by value. Do not add it as a generic warning block. In non-semio patterns the primary content remains the pattern's own `EntityOfConcern` and admissible move; semio material stays as a thin cue, related-pattern relation named by value, local recovery line, or named description and publication-use boundary section unless it changes that move or blocks a documented overread. If the material mainly says that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence item, assurance verdict, decision, gate passage, release, work occurrence, or authority source, keep it out of the subject Solution and put it in that boundary section or in the exact description-publication pattern.
 

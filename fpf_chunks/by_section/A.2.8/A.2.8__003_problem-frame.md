@@ -6,12 +6,12 @@ section_id: "A.2.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_problem-frame.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:1 — Problem frame"
-line_start: 5106
-line_end: 5123
+line_start: 5108
+line_end: 5125
 dependencies:
   - "A.15.1"
   - "A.2"

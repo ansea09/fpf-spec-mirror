@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 75947
-line_end: 76174
+line_start: 76634
+line_end: 76863
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -259,4 +259,6 @@ Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phras
 | `E.11` and `I.2` | Provide first-entry cues and expanded entry-disambiguation cases for phrase-level apparatus repair. |
 
 ### F.19:End
+
+# **Part G – Discipline SoTA Patterns Kit**
 

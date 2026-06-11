@@ -6,18 +6,26 @@ section_id: "E.10.ARCH:11"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_common-anti-patterns.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common anti-patterns"
-line_start: 60390
-line_end: 60402
+line_start: 60843
+line_end: 60855
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.19"
   - "A.19.SPR"
   - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.3.CSC"
   - "A.6.F"
   - "A.6.P"
@@ -25,6 +33,7 @@ dependencies:
   - "C.16.P"
   - "C.16.Q"
   - "C.2.P"
+  - "C.2.P.DR"
   - "C.25"
   - "C.27"
   - "C.29"
@@ -34,9 +43,12 @@ dependencies:
   - "C.30.STRAT"
   - "E.10"
   - "E.11"
+  - "E.18"
   - "E.19"
   - "E.2"
+  - "E.20"
   - "E.21"
+  - "E.24"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -55,5 +67,5 @@ keywords:
 | Shadow precision-restoration pattern | A subject pattern contains its own first-stage repair algorithm beside this distribution. | Extract repair-only material to the applicable realization pattern and leave a first-use cue. |
 | Reference boilerplate in subject pattern | A subject pattern explains where the repair belongs, why the package was split, or what this text does not contain instead of stating the subject pattern's own repaired wording or first move. | Move architecture-placement rationale to `DRR` or architecture notes; replace routing prose with a normal pattern id, citation, or `Relations` row. |
 | Apparatus-preserving paraphrase | A repair changes wording but keeps phrase-level apparatus around a recoverable kind. | Apply `F.19` first; return to `E.10.ARCH` only for remaining word/head/use precision. |
-| Legacy placement as pattern prose | Old placement or alias text explains history instead of current use. | Keep only migration or entry rows where needed; write current pattern prose in the selected live placement. |
+| Legacy placement as pattern prose | Old placement or alias text explains history instead of current use. | Keep only migration or entry rows where needed; write current pattern prose in the selected placement. |
 

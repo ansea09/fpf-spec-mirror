@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
+commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 65798
-line_end: 65916
+line_start: 66132
+line_end: 66250
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.17.AUD.LHR:5 - Worked slices
 
-**Worked-slice status.** Read the release-boundary, publication-face, episteme-publication-heavy, bounded-comparison, publication-unit stabilization move, and outside-observation cases as a heterogeneous example bank, not as one recommended repair sequence. They show different admissible repair dispositions for this local lexical-head repair pattern: some cases stabilize after one honest lexical-head repair and stop here, some apply `E.17.ID.CR`, some apply `E.17.AUD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main repair dispositions, read `E.17.AUD.LHR:5.2` as ordinary stay-local repair, `E.17.AUD.LHR:5.4` as admissible return to `E.17.ID.CR`, and `E.17.AUD.LHR:5.5` as admissible publication-unit apply `E.17.AUD.OOTD`. Then read `E.17.AUD.LHR:5.6` as the separate stop-and-reopen or neighboring governing-pattern move case after outside observation changes what the same local unit can honestly carry.
+**Worked-slice status.** Read the release-boundary, publication-face, episteme-publication-heavy, bounded-comparison, publication-unit stabilization move, and outside-observation cases as a heterogeneous example bank, not as one recommended repair sequence. They show different admissible repair dispositions for this local lexical-head repair pattern: some cases stabilize after one honest lexical-head repair and stop here, some apply `E.17.ID.CR`, some apply `E.17.AUD.OOTD`, and some stop and reopen when outside observation changes what the same local sentence can honestly carry. For quickest recovery of the three main repair dispositions, read `E.17.AUD.LHR:5.2` as ordinary stay-local repair, `E.17.AUD.LHR:5.4` as bounded-comparison application under `E.17.ID.CR`, and `E.17.AUD.LHR:5.5` as publication-unit application under `E.17.AUD.OOTD`. Then read `E.17.AUD.LHR:5.6` as the separate stop-and-reopen or neighboring governing-pattern application case after outside observation changes what the same local unit can honestly carry.
 
 **Worked-slice mini-schema.** When a case turns episteme-publication-heavy or boundary-heavy, recover the same compact output in this order: `overloaded local lexical head | lexical-head kind | active local reading | primary entity/relation | carried move or question under repair | outside work | repair disposition`.
 
@@ -83,20 +83,20 @@ This is the ordinary stay-local case. One repaired local lexical head keeps late
 A semio note says:
 `This interpretation clarifies the package.`
 
-But the same paragraph is really about one bounded comparative-reading move over one review unit, not about `InterpretationDiscipline` as a whole and not about the whole package.
+But the same paragraph is really about one bounded comparison over one review unit, not about `InterpretationDiscipline` as a whole and not about the whole package.
 
 Local repair:
 - overloaded local lexical head = `interpretation`;
 - restored lexical-head kind = bounded comparative review unit inside one episteme-publication-heavy paragraph;
-- active local reading = bounded comparative reading, not wider-family package explanation;
+- active local comparison = bounded comparison, not wider-family package explanation;
 - primary entity/relation = comparative review unit;
-- stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReading`;
-- move = bounded comparative reading;
+- stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReviewUnit`;
+- move = bounded comparison;
 - outside work = wider architecture strategy.
 
 Now the local paragraph stops pulling package-level load it never declared.
 
-#### E.17.AUD.LHR:5.4 - Local repair returns to bounded comparison
+#### E.17.AUD.LHR:5.4 - Local repair selects bounded comparison
 
 A comparison note says:
 `This review shows option A is safer than option B.`
@@ -106,14 +106,14 @@ But the unit is really one comparative review note over already pinned source ep
 Local repair:
 - overloaded local lexical head = `review`;
 - restored lexical-head kind = comparative review unit;
-- active local reading = bounded comparative-reading unit, not whole release process;
+- active local comparison = bounded comparative review unit, not whole release process;
 - primary entity/relation = the already pinned option contrast;
 - carried move = make one bounded contrast visible over already available source epistemes or publications;
 - outside work = rollout choice or approval.
 
 Once that local lexical head is repaired, do not keep thickening this pattern by habit. The admissible next pattern application is `E.17.ID.CR` for the now-stable unit, because the remaining question is one bounded contrast rather than publication-unit EntityOfConcern instability.
 
-**Recovery reading.** This is the honest return-to-bounded-comparison case: finish the local repair here, then let `E.17.ID.CR` carry the remaining bounded contrast over the now-stable unit.
+**Recovery reading.** This is the honest bounded-comparison disposition: finish the local repair here, then let `E.17.ID.CR` carry the remaining bounded contrast over the now-stable unit.
 
 #### E.17.AUD.LHR:5.5 - Local repair exposes publication-unit reading instability and must apply whole-unit discipline
 
