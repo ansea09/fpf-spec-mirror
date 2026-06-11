@@ -6,12 +6,12 @@ section_id: "F.7:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:5 — Minimal vocabulary (this pattern only)"
-line_start: 71127
-line_end: 71136
+line_start: 71264
+line_end: 71273
 dependencies:
   - "A.6.9"
   - "E.10.D1"

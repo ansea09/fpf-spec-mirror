@@ -6,12 +6,12 @@ section_id: "E.23:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__003_problem.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:2 — Problem"
-line_start: 68716
-line_end: 68721
+line_start: 68846
+line_end: 68853
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,4 +34,6 @@ keywords:
 FPF often improves artifacts by repeated review, repair, and re-evaluation. The loop is useful only when the changed object is evaluated again by the same object-under-improvement evaluation or by a declared stronger one. Without that discipline, repeated passes become checklist closure, agentic retry, source citation, or process state.
 
 The loop must also avoid the maturity-ladder trap. A floor or all-`5` result can close this loop under current use, comparison set, source state, and cost boundary; it is not proof that the object cannot improve under a new use, source, front, or payoff.
+
+The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended. Below-floor values return repair work. Above-floor improvement remains a real obligation when the frame requests it, but the target is a substantive content move: stronger positive action guidance, worked slice, case/countercase, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content move worth its cost under protected qualities.
 

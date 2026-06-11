@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 68130
-line_end: 68489
+line_start: 68253
+line_end: 68614
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -194,7 +194,7 @@ Every `E.21` evaluation of an FPF pattern of concern evaluates every coordinate 
 | `PracticalUseDeltaAndHarmPrevention` | Whether the pattern changes a real reader move, prevents a named misuse, reduces a named cost, or preserves a named boundary. |
 | `UseAffordabilityAndApparatusProportionality` | Whether ordinary first use stays affordable and heavier apparatus appears only when it buys admissible use. |
 | `RepairLocalityAndChangeImpactPredictability` | Whether repairs have the smallest locus and predictable downstream impact. |
-| `ProxyForValueSubstitutionResistance` | Whether the evaluation asks what became worse when visible quality coordinates improved. |
+| `ProxyForValueSubstitutionResistance` | Whether the evaluation asks what became worse when visible quality coordinates improved, and applies `E.13` when a visible quality value, metric, review result, or release posture is being used as the practical value itself. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Whether the claim is replayable from pinned text, scope, evidence, currentness basis, limitations, status, and stop reason. |
 | `CaseCountercaseAndTransferCoverage` | Whether positive cases, near-misses, anti-cases, and transfer cases match the breadth claimed. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Whether selected mature-pattern ingredients are present in the body or related patterns for this `EntityOfConcern` and use. |
@@ -288,7 +288,7 @@ E.21 finding:
   Closure test: <what changed pattern text would show>
 ```
 
-When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEvaluation` asks for improvements, add proposal rows for every below-target coordinate, status weakness, stop-condition weakness, or open question that can be improved within the declared scope. One proposal may cover several coordinates only when it names all affected coordinates and the shared repair.
+When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEvaluation` asks for improvements, add finding rows for every below-floor coordinate and proposal rows only for substantive non-dominated improvement opportunities inside the declared scope. Do not treat every value below `5` as a defect. For above-floor coordinates, the evaluator still searches by value when exceptional improvement is requested, but the proposal must name a content move such as stronger positive action guidance, a worked slice, case/countercase, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another content gain. A `4` can be the correct stop value only with a checked no-proposal disposition showing why further content movement is dominated, unavailable, or outside scope.
 
 ### E.21:5 - Worked slices
 
@@ -307,7 +307,7 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 
 **Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
 
-**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping.
+**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; record no-proposal only with loci showing that further content change is dominated, unavailable, or outside scope.
 
 ### E.21:6 - Conformance checklist
 
@@ -329,6 +329,7 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |
 | `CC-E21-13` | Keep quality results out of project evidence, assurance, gate, work, safety/compliance, release, and publication truth claims. |
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-carrier praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action/usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
+| `CC-E21-15` | Keep ordinal values as measurement results, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the positive subject/action spine. A no-proposal disposition must name checked loci and why no substantive content move remains. |
 
 ### E.21:7 - Common anti-patterns and repairs
 
@@ -345,8 +346,7 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 | **Quality-carrier leakage.** Corpus projection, retrieval evidence, README/ToC/E.11/I.2 alignment, monolith parity, `PatternQualityStatus`, developer/reviewer/executor correspondence, or other quality evidence is written anywhere in the pattern as method, problem, note, appendix, relation, rationale, or status content about the pattern. | Move the evidence to the `E.21` result, `E.19` run record, README/ToC/E.11/I.2, card/retrieval/projection carrier, or release/landing evidence carrier; keep only the user move or boundary that the evidence justifies. |
 | **Apparatus overwrap.** A simple FPF claim is wrapped in extra role, carrier, locus, flow, state, status, text-state, package, or process words, such as `live pattern text`, `current object`, `active record`, `field when live`, or route-like pattern talk where no real state/use-position is named, so the reader sees a bureaucratic apparatus instead of the object, relation, action, or boundary. | Apply `F.19`; record the scalar effect in `PrecisionRestorationProfile`, then lower the affected coordinates or name the completed repair. |
 | **Apparatus maximalism.** Every pattern gets evidence cards, telemetry, archives, and companions. | Keep evidence compact unless it changes value, status, stop, or candidate comparison. |
-| **Quality veto theatre.** "Not ready" has no E.21 coordinate named by value, evidence, status effect, and repair.
- | Rewrite as an `E.21` finding or remove the veto. |
+| **Quality veto theatre.** "Not ready" has no E.21 coordinate named by value, evidence, status effect, and repair. | Rewrite as an `E.21` finding or remove the veto. |
 
 ### E.21:8 - Consequences
 
@@ -368,10 +368,10 @@ The mature-pattern parity coordinate is deliberately strict because recent short
 
 | Claim | Source-use disposition | Concrete E.21 effect |
 |---|---|---|
-| Feedback connects desired state, current state, and next action. | Adopt from feedback-for-learning lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when requested. |
-| Questions and metrics derive from the goal. | Adopt from GQM-style measurement discipline. | Scope, reader, use, and window precede coordinate values. |
+| Feedback connects desired state, current state, next action, and available tactics. | Adopt from formative-assessment lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when requested, and checked no-proposal when no substantive move remains. |
+| Questions and metrics derive from the goal. | Adopt from GQM and GQM+Strategies measurement discipline. | Scope, reader, use, and window precede coordinate values. |
 | Multi-criteria improvement needs explicit trade-offs. | Adopt from MCDA, Pareto, ATAM, and current QD/OEE lines. | Dominance comparisons and protected trade-offs replace one-score closure. |
-| Proxy optimization can make intended value worse. | Adopt from Goodhart/proxy-risk lines. | `ProxyForValueSubstitutionResistance` and stop condition ask what got worse. |
+| Proxy optimization can make intended value worse. | Adopt from Goodhart/Campbell, management-accounting surrogation, reward-hacking, and specification-gaming lines. | `ProxyForValueSubstitutionResistance`, `PrecisionRestorationProfile`, `E.13`, and stop condition ask what got worse; `5`, all-`5`, discharge count, and proof apparatus cannot replace pattern content or pragmatic value. |
 | Evaluation results are not governance, safety, or compliance proof. | Adopt as non-overread boundary from current evaluation-governance practice. | Neighbour authority and status boundaries keep project claims outside `E.21`. |
 
 ### E.21:11 - Relations
@@ -384,6 +384,8 @@ The mature-pattern parity coordinate is deliberately strict because recent short
 | `E.19` | Runs admission and refresh review profiles; it can consume or request `E.21`, but it does not assign `E.21` coordinate values or replace the required pattern-quality table. |
 | `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation. |
 | `E.23` | Runs repeated improvement using `E.21` values and stop meanings for pattern versions. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` posture, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
+
 | `E.9.DA` | Evaluates upstream `DRR` decision adequacy when pattern-quality defects trace to decisions. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern scale, coordinate, and measurement legality. |
 | `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |

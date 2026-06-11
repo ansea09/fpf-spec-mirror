@@ -6,12 +6,12 @@ section_id: "E.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__005_solution.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:4 — Solution"
-line_start: 61234
-line_end: 61298
+line_start: 61256
+line_end: 61320
 dependencies:
   - "E.13"
   - "E.2"
@@ -86,6 +86,6 @@ This pattern does not weaken the formal rigor established by other ADRs; it comp
 #### E.12:9 - **Relations**
 
 *   **Implements:** Pillar `P-2 Didactic Primacy`.
-*   **Complements:** `E.13 Pragmatic Utility & Value Alignment` (which focuses on the relevance of the *problem*, while this pattern focuses on the usability of the *framework*).
+*   **Complements:** `E.13 Pragmatic Utility and Value Alignment` keeps visible measures, scores, review results, and release cues tied to intended value; this pattern focuses on the cognitive and working-reader usability of the framework.
 *   **Is constrained by:** The overall governance process (DRRs), which is the vehicle for implementing the conceptual simplifications proposed by the HF-Loop.
 

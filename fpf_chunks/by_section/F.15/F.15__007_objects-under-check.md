@@ -6,12 +6,12 @@ section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_objects-under-check.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:6 — Objects under check"
-line_start: 74061
-line_end: 74072
+line_start: 74198
+line_end: 74209
 dependencies:
   - "B.3"
   - "D.CTX"

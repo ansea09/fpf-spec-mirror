@@ -6,12 +6,12 @@ section_id: "E.17.2:7"
 section_title: "Rationale & SoTA echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__008_rationale-sota-echoing-informative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:7 — Rationale & SoTA echoing  (informative)"
-line_start: 63226
-line_end: 63253
+line_start: 63347
+line_end: 63374
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

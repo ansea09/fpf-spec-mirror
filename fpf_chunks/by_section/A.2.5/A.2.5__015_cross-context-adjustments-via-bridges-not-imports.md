@@ -6,7 +6,7 @@ section_id: "A.2.5:14"
 section_title: "Cross‑context adjustments (via Bridges, not imports)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__015_cross-context-adjustments-via-bridges-not-imports.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:14 — Cross‑context adjustments (via Bridges, not imports)"

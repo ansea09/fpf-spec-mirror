@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_relations-with-other-patterns.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:13 — Relations (with other patterns)"
-line_start: 71629
-line_end: 71639
+line_start: 71766
+line_end: 71776
 dependencies:
   - "A.11"
   - "A.7"

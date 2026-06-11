@@ -1,117 +1,230 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.13"
-pattern_title: "Pragmatic Utility & Value Alignment"
+pattern_title: "Pragmatic Utility and Value Alignment"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
-  - "E.13 — Pragmatic Utility & Value Alignment"
-line_start: 61301
-line_end: 61392
+  - "E.13 — Pragmatic Utility and Value Alignment"
+line_start: 61323
+line_end: 61513
 dependencies:
+  - "A.10"
+  - "A.21"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.25"
   - "E.12"
+  - "E.14"
+  - "E.19"
   - "E.2"
+  - "E.2.DA"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.8"
+  - "E.9.DA"
 keywords:
-  - "Goodhart's Law"
-  - "MVE"
-  - "Proxy-Audit Loop"
-  - "pragmatic"
-  - "utility"
-  - "value"
+  - "Campbell"
+  - "Goodhart"
+  - "minimally viable value slice"
+  - "pragmatic utility"
+  - "proxy-to-value alignment"
+  - "surrogation"
 ---
 
-## E.13 - Pragmatic Utility & Value Alignment
+## E.13 - Pragmatic Utility and Value Alignment
 
-### E.13:1 - **Problem Frame**
+> **Type:** Part E FPF evaluation and repair pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 
-The FPF provides a powerful engine for constructing formally correct and highly reliable holons. This power, however, introduces a subtle but profound risk: a team can create a perfectly verified and validated holon or episteme (`AssuranceLevel:L2`) that solves an irrelevant, misunderstood, or non-existent problem. The framework guarantees that the solution is *correct*, but it does not, by itself, guarantee that the solution is *useful*.
+### E.13:0 - Use This When
 
-Furthermore, many of the most important system objectives—such as "safety," "usability," or "security"—are not directly measurable. They are assessed via **proxy characteristics** (e.g., "number of reported vulnerabilities" as a proxy for security). This practice is vulnerable to Goodhart's Law: when a proxy becomes the primary target, it often ceases to be a good measure of the original goal, as teams begin to optimize the proxy at the expense of the real objective.
+Use this pattern when a project treats a visible measure, score, proxy, benchmark, dashboard, quality value, review result, release posture, or evidence volume as if it were the practical value or objective itself.
 
-### E.13:2 - **Problem**
+Typical moments:
 
-Without a formal mechanism to keep the entire assurance apparatus tethered to real-world value, FPF risks enabling two critical failure modes:
+- a metric improves, but the team cannot say what intended value improved;
+- a quality score, all-`5` posture, assurance level, citation count, source count, or review pass becomes the target;
+- a proxy is used as a gate, incentive, resource-allocation signal, reputation signal, or release argument;
+- a model, method, pattern, or system is formally better while users, operators, safety, maintainability, learning, or decision quality get worse;
+- an evaluation loop adds apparatus to satisfy the evaluator instead of improving the object of concern.
 
-1.  **Formalism for Formality's Sake:** Teams become preoccupied with achieving high epistemic scores, producing elegant but useless holons or epistemes. The framework is used to build beautiful solutions to the wrong problems.
-2.  **Proxy-Metric Distortion (Goodhart's Law):** Teams successfully optimize for a chosen proxy characteristic, but in doing so, they diverge from—or even actively undermine—the true, often qualitative, `U.Objective` that the proxy was intended to represent. The system becomes technically successful but pragmatically a failure.
+**First useful move.** Name the intended value or objective, name the proxy or visible measure, and state how that proxy is being used now: measure, target, incentive, gate, release argument, decision driver, reputation signal, repair target, or orientation cue.
 
-### E.13:3 - **Forces**
+**What goes wrong if missed.** The team optimizes the proxy and loses the value. It can produce a better score, cleaner review proof, larger source packet, or more complete record while practical utility gets worse.
+
+**What this buys.** FPF can keep measurement, evaluation, and quality loops useful without letting their visible outputs replace the value they were meant to serve.
+
+**Not this pattern when.**
+
+- If the question is whether a measurement scale is legal, use `C.16`.
+- If the question is ordinary pattern quality, use `E.21`; use `E.13` only when a visible quality value is being treated as the practical value.
+- If the question is DRR adequacy, use `E.9.DA`; use `E.13` only when DRR marks become a surrogate for decision usefulness.
+- If the question is whole-FPF Pillar adequacy, use `E.2.DA`; use `E.13` only when Pillar values become the target.
+- If the question is assurance, gate passage, evidence sufficiency, or decision authority, use the governing pattern for that claim before treating the visible proxy as value.
+
+### E.13:1 - Problem Frame
+
+Practical work often needs visible measures. Teams use scores, dashboards, quality coordinates, tests, evidence counts, source freshness rows, release checks, and worked examples because invisible value is hard to steer directly.
+
+The danger starts when the visible measure becomes the object being optimized. A proxy can be useful as a signal and harmful as a target. A pattern can become easier to defend while harder to use. A safety dashboard can look better while unmeasured hazards increase. A review result can look more complete while the decision it was meant to support becomes less decisive.
+
+`E.13` governs the proxy-to-value repair. It asks whether the visible measure still serves the intended value in the declared use, and what became worse when the measure improved.
+
+### E.13:2 - Problem
+
+Without `E.13`:
+
+1. **Measures replace objectives.** Teams speak as if the score, metric, benchmark, assurance level, or all-`5` posture is the value.
+2. **Evaluation loops become reward functions.** A reviewer asks for improvement; the author adds fields, guards, source rows, proof sketches, and relation catalogues until the visible evaluation looks better.
+3. **Unmeasured value is damaged.** Usability, safety margin, maintainability, learning, domain fit, affordability, or operator action quality gets worse while the proxy improves.
+4. **Proxy use is not typed.** The same metric is treated as orientation cue, target, incentive, gate, and release proof without saying which use is live.
+5. **No value slice exists.** The text claims practical payoff, but no minimally viable slice shows the value being realized in a case.
+
+### E.13:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Measurability vs. Meaning** | How to use quantitative, measurable proxies for progress without losing sight of the qualitative, often un-measurable, goals that truly matter. |
-| **Abstraction vs. Application** | How to build and reason with abstract models without them becoming disconnected from any concrete, practical application. |
-| **Incremental Progress vs. Global Value** | How to ensure that local optimizations and incremental improvements are genuinely contributing to the overall value proposition of the holon. |
+| --- | --- |
+| Measurement vs value | Projects need visible signals, but signals can replace the value they indicate. |
+| Local optimization vs protected qualities | A local score can improve while another value-bearing dimension worsens. |
+| Evaluation pressure vs object improvement | A reviewer-facing mark can be easier to raise than the object is to improve. |
+| Proxy affordability vs value evidence | A proxy is cheap; demonstrating value can be expensive. |
+| Release confidence vs ongoing distortion | A proxy may be safe for orientation but unsafe as a gate, incentive, or release argument. |
 
-### E.13:4 - **Solution**
+### E.13:4 - Solution
 
-FPF elevates **Pragmatic Utility (Pillar P-7)** to a normative architectural principle, operationalized through two mandatory conceptual mechanisms.
+Use `ProxyToValueAlignment` as a short repair note, not a new bureaucracy.
 
-#### E.13:4.1 - The Principle of Pragmatic Utility (Expanded Definition)
+```text
+ProxyToValueAlignment:
+  ObjectOfConcern:
+  IntendedValueOrObjective:
+  ProxyOrVisibleMeasure:
+  ProxyKind:
+  CurrentProxyUse: <orientation | measure | target | incentive | gate | release argument | decision driver | reputation signal | repair target>
+  AffectedDecisionOrWork:
+  ProtectedQualities:
+  WhatImproved:
+  WhatGotWorse:
+  MinimallyViableValueSlice:
+  AdmissibleUseNow:
+  BlockedOverread:
+  RepairOrStop:
+  ReopenCondition:
+```
 
-Any holon or episteme created within FPF is an instrument for achieving a specific, pragmatic `U.Objective`. The value of that holon or episteme is determined solely by its **utility** in achieving that objective, not by its epistemic scores in isolation.
+Keep the note as small as the case allows. The fields exist to restore the value relation, not to create another checklist target.
 
-#### E.13:4.2 - Mechanism 1: The Proxy-Audit Loop
+#### E.13:4.1 - Name the Value Before the Proxy
 
-To formally manage the risk of Goodhart's Law, FPF introduces a conceptual feedback loop to periodically review the alignment between proxy characteristics and their intended goals.
+Name the intended value, objective, or practical payoff in terms of the work it is supposed to improve. If only the proxy can be named, lower the claim: the project has a measure, not a demonstrated value relation.
 
-*   **New Normative Relation:** A new relation, `isProxyFor: U.Characteristic → U.Objective`, is introduced. This relation **MUST** be used to explicitly declare when a measurable characteristic is serving as a proxy for an often qualitative `U.Objective`.
-*   **Conceptual Audit Process:** Any characteristic marked with the `isProxyFor` relation is subject to a **periodic conceptual audit**.
-*   **Review Roles:** This audit is conceptually performed by the individual(s) in the **`Strategist`** role. They are tasked with answering the question: *"Is optimizing for this proxy still reliably driving progress toward the actual `U.Objective` it represents, or have we observed a divergence?"*
-*   **Output Concept:** If a divergence is identified, a high-priority `U.Method` for revising or replacing the proxy **MUST** be proposed.
+#### E.13:4.2 - Type the Proxy Use
 
-> **Didactic Note for Managers: Are You Climbing the Right Mountain?**
->
-> The Proxy-Audit Loop is your compass. Your team's dashboards might show all green—metrics are improving, targets are being hit. But the audit loop forces a crucial question: "Are these the *right* metrics?"
->
-> Imagine you are trying to improve "customer satisfaction" (`U.Objective`). You choose "average call handle time" as a proxy metric. Your team successfully drives this number down. But the Proxy-Audit reveals that customer satisfaction is actually *decreasing* because agents are rushing and providing poor service to meet the time target. The loop forces you to recognize this divergence and find a better proxy (e.g., "first-call resolution rate"). It ensures your team is not just climbing fast, but climbing the right mountain.
+A proxy can be harmless as an orientation cue and dangerous as a target. State the current proxy use explicitly.
 
-#### E.13:4.3 - Mechanism 2: The Minimally Viable Example (MVE) Mandate
+| Proxy use | Admissible use | Danger |
+| --- | --- | --- |
+| Orientation cue | Helps decide where to look next. | Mistaken for evidence of value. |
+| Measure | Reports one declared characteristic under `C.16`. | Treated as the whole objective. |
+| Target | Work is optimized to move the proxy. | Goodhart pressure. |
+| Incentive | People or agents are rewarded for the proxy. | Behavioral distortion and gaming. |
+| Gate or release argument | Passage depends on the proxy. | Proxy becomes authority. |
+| Reputation or status signal | People, teams, models, or patterns are ranked by the proxy. | Surrogation and status gaming. |
+| Repair target | The object is changed to raise a coordinate or score. | Apparatus is added instead of value. |
 
-To enforce a pragmatic, value-first approach from the very beginning of a project, any new `U.System` or major system component **MUST** begin its development cycle with the creation of a **Minimally Viable Example (MVE)**.
+#### E.13:4.3 - Ask What Got Worse
 
-*   **Definition:** An MVE is a simple, end-to-end, working instance of the holon that demonstrates the achievement of at least one core, user-facing objective, however trivial. It is the FPF equivalent of a "Hello, World" for a complex system.
-*   **Assurance Requirement:** The MVE **MUST** achieve a minimum of **`AssuranceLevel:L1 (Substantiated)`**. This means the MVE cannot be a mere mock-up or a purely conceptual sketch; it must be supported by at least one piece of tangible evidence (e.g., a passing test case, a formal assertion), as defined in Pattern B.3.3.
-*   **Stege transition Precedence:** The development of the full-scale holon cannot proceed to `AssuranceLevel:L2` until the MVE has been created and has met its L1 requirement.
+Whenever a proxy improves under optimization pressure, ask what became worse or more fragile. Check at least usability, affordability, safety or harm boundary, maintainability, domain fit, source preservation, decision quality, learning, and neighboring-pattern fit when they are live in the case.
 
-### E.13:5 - **Conformance Checklist**
+If nothing worsened, say which loci were checked. If no loci were checked, do not claim value alignment.
 
-*   **CC-E13.1 (Proxy Declaration Mandate):** Any `U.Characteristic` used as a primary driver for an objective **MUST** be explicitly linked to that `U.Objective` via the `isProxyFor` relation.
-*   **CC-E13.2 (Proxy-Audit Mandate):** A formal Proxy-Audit review **MUST** be conducted at regular conceptual intervals (e.g., before each major release). The outcome of this review **MUST** be a documented episteme.
-*   **CC-E13.3 (MVE Mandate):** The development of any new `U.System` **MUST** be preceded by the creation of an MVE that satisfies the `AssuranceLevel:L1` requirement.
-*   **CC-E13.4 (MVE Traceability):** The full-scale `U.System` **MUST** maintain a formal traceability link (`isEvolutionOf`) to its originating MVE.
+#### E.13:4.4 - Require a Minimally Viable Value Slice
 
-### E.13:6 - **Common Anti-Patterns and How to Avoid Them**
+Do not require every project to create a lifecycle artifact named MVE. Require a minimally viable value slice: one compact case, worked slice, observation, trial, user/operator moment, or decision replay where the intended value is visible enough for the declared use.
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Perfectly Engineered Irrelevance"** | The team delivers a technically brilliant system that is formally verified and validated, but no one wants to use it because it doesn't solve a real problem. | **CC-E13.3** forces the team to build a working, end-to-end slice of value (the MVE) *first*. This grounds the entire project in a demonstrated solution to a real user need from day one. |
-| **The "Metric Myopia"** | The team becomes obsessed with improving a specific KPI, ignoring clear indicators that this is not improving—and may even be harming—the overall user experience or business goal. | **CC-E13.2** mandates the Proxy-Audit Loop. This forces a periodic, strategic step-back, where the `Strategist` role is constitutionally required to ask, "Are we still measuring what matters?" |
-| **The "Big Design Up Front" Trap** | The team spends months creating a vast, abstract, and highly detailed model of a system before ever building a single working component. | The **MVE Mandate** prevents this. It forces an iterative, pragmatic "build-to-learn" approach, ensuring that models are always grounded in a working reality. |
+The value slice may be small. It must show the value, not merely the proxy.
 
-### E.13:7 - **Consequences**
+#### E.13:4.5 - Repair by Value Movement
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Defense Against Goodhart's Law:** The Proxy-Audit Loop is a concrete, operational defense against the common failure mode of optimizing for the wrong thing. It forces regular, strategic reflection on the meaning of metrics. | **Introduces Strategic Overhead:** The Proxy-Audit Loop and the creation of an MVE require dedicated time for strategic thinking and early implementation. *Mitigation:* This is not an expense but a strategic investment. This upfront effort is designed to prevent the far greater cost of developing the wrong system over months or years. |
-| **Ensures Value-Driven Development:** The MVE Mandate guarantees that all major development efforts are grounded in a demonstrated, working solution to a real problem, however small. This prevents teams from investing significant resources in abstract models that have no proven path to practical application. | - |
-| **Prevents "Analysis Paralysis":** By requiring an early, working example, this principle encourages an iterative, pragmatic development style. It forces teams to build and learn, rather than over-specifying in a vacuum. | - |
-| **Positions FPF as an Engineering Discipline:** This pattern firmly anchors FPF as a tool for practical engineering, not just theoretical modeling. | - |
+When the proxy has displaced the value, repair one of these:
 
-### E.13:8 - **Rationale**
+- change the proxy use from target/gate/incentive to orientation or bounded measure;
+- add a protected quality or counter-metric that names the value at risk;
+- change the work or design so the value slice improves, not only the proxy;
+- split the claim: one measure report, one value claim, one assurance or gate claim if needed;
+- stop the value claim until a value slice or better proxy relation exists.
 
-This pattern operationalizes **Pragmatic Utility (P-7)**. While Pattern E.12 protects the *agent* from the cognitive overload of the framework, this pattern protects the *problem* from being lost in a sea of formal abstraction. It provides the necessary constitutional guardrails to keep the powerful formal methods of FPF focused on delivering tangible, real-world value.
+### E.13:5 - Archetypal Grounding
 
-The **MVE Mandate** ensures that every journey starts with a destination in sight. The **Proxy-Audit Loop** ensures that the compass used on that journey remains pointed in the right direction. Together, these mechanisms guarantee that knowledge generated within FPF is not only formally correct and epistemically reliable, but also meaningful, useful, and aligned with its intended purpose.
+| Case | Proxy pressure | E.13 repair |
+| --- | --- | --- |
+| Pattern quality loop | All-`5` pattern-quality posture becomes the target. | Use `E.21` values as measurements; repair only substantive content movement and record what worsened when apparatus grew. |
+| DRR review | Source rows and selected-locus tables grow while the decision remains vague. | Use `E.9.DA`; the DRR improves only when selected answer, source payload, or first drafting move improves. |
+| Safety dashboard | A lower incident count is used as proof of safety. | Split measure, reporting behavior, unreported hazard, and safety assurance; use the safety/assurance pattern for the stronger claim. |
+| AI reward model | A model gets higher reward or judge score by exploiting the specification. | Treat the score as proxy; inspect unmeasured intended outcome and blocked value dimensions. |
+| Manufacturing throughput | Throughput rises while rework, fatigue, or latent defect risk rises. | Keep throughput as a measure; add protected qualities and a value slice for delivered usable output. |
 
-### E.13:9 - **Relations**
+### E.13:6 - Conformance Checklist
 
-*   **Implements:** Pillar `P-7 Pragmatic Utility`.
-*   **Complements:** `E.12 Didactic Primacy & Cognitive Ergonomics`.
-*   **Provides context for:** The definition of `U.Objective` and `U.Characteristic` by establishing a formal link between them.
+| Check | Requirement |
+| --- | --- |
+| `CC-E13-1` | The repair names the intended value or objective before the proxy. |
+| `CC-E13-2` | The proxy or visible measure is typed by current use: orientation, measure, target, incentive, gate, release argument, decision driver, reputation signal, or repair target. |
+| `CC-E13-3` | If a proxy improved, the repair asks what got worse and names checked loci or protected qualities. |
+| `CC-E13-4` | A minimally viable value slice shows the intended value for the declared use, or the value claim is lowered. |
+| `CC-E13-5` | The repair does not treat evaluation values, source counts, review praise, all-`5` posture, assurance level, or release status as value by itself. |
+| `CC-E13-6` | Stronger claims are sent to their governing patterns: measurement to `C.16`, quality evaluation to `E.21`/`E.9.DA`/`E.2.DA`, assurance to `B.3`, gate passage to `A.21`, decision authority to `C.11`, and value/proxy alignment here. |
+| `CC-E13-7` | The repair changes value movement, proxy use, protected qualities, claim split, or stop condition; it does not close by adding proof apparatus alone. |
+
+### E.13:7 - Common Anti-Patterns
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Score as value | A higher score is reported as practical improvement. | Name intended value, proxy use, and value slice. |
+| All-`5` targeting | A pattern or DRR is rewritten to make every coordinate defensible as `5`. | Use the evaluation as measurement; repair content movement and protected trade-offs. |
+| Source-count proof | More citations or source rows are treated as better decision quality. | Ask which decision payload changed. |
+| Dashboard myopia | A visible dashboard metric improves while unmeasured harm rises. | Add protected qualities and split measure from value. |
+| Proxy as gate authority | A proxy becomes a release or gate argument without the governing gate or assurance pattern. | Send gate or assurance claims to their governing patterns and keep proxy use bounded. |
+| Value slice missing | Practical payoff is asserted but never shown in a case. | Add a minimally viable value slice or lower the payoff claim. |
+
+### E.13:8 - Rationale
+
+FPF needs measurement, evaluation, assurance, and release checks, but those checks remain instruments. They are not the value by themselves. `E.13` keeps the visible instrument attached to the intended value and asks whether the value survives optimization pressure.
+
+The pattern is intentionally small. Goodhart-style failure is not repaired by another large audit apparatus. It is repaired by restoring the relation among value, proxy, use position, protected qualities, and a small slice where the value is visible.
+
+### E.13:9 - SoTA-Echoing
+
+| Claim | Source lineage | Local adoption |
+| --- | --- | --- |
+| A measure used for decision or control can corrupt the process it monitors. | Goodhart and Campbell indicator-pressure lines. | `CurrentProxyUse` distinguishes measure, target, incentive, gate, and release argument. |
+| Proxy optimization has distinct failure modes. | Manheim/Garrabrant Goodhart variants and later proxy-failure work. | `WhatGotWorse` and protected qualities prevent a single proxy from standing for value. |
+| Measures can replace the strategic construct in decision makers' minds. | Management-accounting surrogation work by Choi, Hecht, Tayler, and later studies. | The proxy is never named as the value; the intended value is named first. |
+| Optimizing an imperfect reward or specification can satisfy the formal signal while missing the intended outcome. | AI safety specification-gaming and reward-hacking work, including formal reward-hacking analyses and current reasoning-model specification-gaming evaluations. | Evaluation values, judge scores, and all-`5` posture are treated as proxies that require value-slice and protected-quality checks. |
+| Useful measures should be derived from goals and questions. | Goal-Question-Metric and GQM+Strategies measurement alignment. | E.13 asks for intended value/objective before proxy and asks which decision or work the proxy affects. |
+| Human values require stakeholder and use-context inquiry, not only formal metrics. | Value Sensitive Design and value-oriented design lines. | The minimally viable value slice may include user, operator, manager, safety, or affected-stakeholder evidence when those values are live. |
+
+### E.13:10 - Relations
+
+- **Implements:** `E.2` Pillar `P7 Pragmatic Utility`.
+- **Complements:** `E.12` for cognitive ergonomics and `E.14` for human-facing working models.
+- **Coordinates with:** `E.8` for authoring practical-payoff claims, `E.19` for review/admission proxy-to-value checks, `E.22`/`E.23` for improvement framing and repeated improvement loops, `C.16` for measurement legality, `C.25` for engineering quality-family endpoints, `E.21` for pattern quality, `E.9.DA` for DRR adequacy, `E.2.DA` for whole-FPF Pillar adequacy, `B.3` for assurance, `A.21` for gate passage, `C.11` for decisions, and `A.10` for evidence.
+- **Used by:** improvement loops, release checks, pattern reviews, dashboards, metric-driven work, AI reward or judge-score cases, and any project where visible performance may displace intended value.
+
+### E.13:11 - Consequences
+
+- FPF can use scores and metrics without making them the object of optimization.
+- Improvement loops gain a simple value-proxy stop condition.
+- Practical payoff claims need at least a small value slice.
+- Some attractive proxy improvements are rejected, split, or lowered.
+- The cost is a small proxy-to-value check whenever a visible measure becomes a target, incentive, gate, release argument, or repair target.
 
 ### E.13:End
 

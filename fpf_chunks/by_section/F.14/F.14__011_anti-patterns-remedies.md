@@ -6,12 +6,12 @@ section_id: "F.14:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__011_anti-patterns-remedies.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
   - "F.14:10 — Anti‑patterns & remedies"
-line_start: 73903
-line_end: 73921
+line_start: 74040
+line_end: 74058
 dependencies:
   - "F.1"
   - "F.10"

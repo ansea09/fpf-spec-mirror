@@ -6,12 +6,12 @@ section_id: "E.22:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__009_common-anti-patterns-and-repairs.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:8 — Common anti-patterns and repairs"
-line_start: 68648
-line_end: 68660
+line_start: 68775
+line_end: 68787
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,7 +38,7 @@ keywords:
 | **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its required coordinates, evidence basis, rationales, and payload fields. |
 | **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces quality movement. | Re-evaluate the changed object and classify impact. |
-| **Goodharted improvement.** Visible values rise while protected qualities worsen. | Add trade-off protection and reject dominated changes. |
+| **Goodharted improvement.** Visible values rise while protected qualities worsen, or a `5` target makes the evaluator add apparatus instead of improving content. | Frame the expected movement as a substantive content move, add trade-off protection, reject dominated changes, apply `E.13` when a visible value is replacing the intended value, and require checked `no proposal` dispositions when no worthwhile content move remains. |
 | **Recommendation as decision.** A next-move hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |
 | **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | Rewrite the row as a precision-restoration finding with pre/post kind, relation, admissible use, and scope; if no kind-preserving repair is recoverable, leave it blocking. |
 

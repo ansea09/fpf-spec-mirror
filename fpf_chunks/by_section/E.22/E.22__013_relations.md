@@ -6,12 +6,12 @@ section_id: "E.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__013_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:12 — Relations"
-line_start: 68684
-line_end: 68697
+line_start: 68812
+line_end: 68827
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,6 +38,8 @@ keywords:
 | `E.2.DA` | Supplies FPF Pillar-adequacy values. |
 | `E.19` | Supplies admission or refresh review profiles when that is the evaluation. |
 | `E.23` | Governs repeated improvement after framed evaluations return findings or proposal rows. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when framed values, visible measures, proposal counts, or all-`5` posture are being used as the intended improvement value. |
+
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by frames or findings. |
 | `C.16`, `A.17`, `A.18`, `A.19`, `C.25` | Govern characteristics, scales, measurements, characteristic spaces, and quality bundles. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD candidate, archive/front, pool, selected-set, parity, and refresh claims. |

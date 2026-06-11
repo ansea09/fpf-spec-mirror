@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__013_worked-slices.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Worked Slices"
-line_start: 61126
-line_end: 61165
+line_start: 61148
+line_end: 61187
 dependencies:
   - "E.10"
   - "E.10.ARCH"

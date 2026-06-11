@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_common-anti-patterns-and-repairs.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common anti-patterns and repairs"
-line_start: 68428
-line_end: 68445
+line_start: 68552
+line_end: 68568
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -48,6 +48,5 @@ keywords:
 | **Quality-carrier leakage.** Corpus projection, retrieval evidence, README/ToC/E.11/I.2 alignment, monolith parity, `PatternQualityStatus`, developer/reviewer/executor correspondence, or other quality evidence is written anywhere in the pattern as method, problem, note, appendix, relation, rationale, or status content about the pattern. | Move the evidence to the `E.21` result, `E.19` run record, README/ToC/E.11/I.2, card/retrieval/projection carrier, or release/landing evidence carrier; keep only the user move or boundary that the evidence justifies. |
 | **Apparatus overwrap.** A simple FPF claim is wrapped in extra role, carrier, locus, flow, state, status, text-state, package, or process words, such as `live pattern text`, `current object`, `active record`, `field when live`, or route-like pattern talk where no real state/use-position is named, so the reader sees a bureaucratic apparatus instead of the object, relation, action, or boundary. | Apply `F.19`; record the scalar effect in `PrecisionRestorationProfile`, then lower the affected coordinates or name the completed repair. |
 | **Apparatus maximalism.** Every pattern gets evidence cards, telemetry, archives, and companions. | Keep evidence compact unless it changes value, status, stop, or candidate comparison. |
-| **Quality veto theatre.** "Not ready" has no E.21 coordinate named by value, evidence, status effect, and repair.
- | Rewrite as an `E.21` finding or remove the veto. |
+| **Quality veto theatre.** "Not ready" has no E.21 coordinate named by value, evidence, status effect, and repair. | Rewrite as an `E.21` finding or remove the veto. |
 

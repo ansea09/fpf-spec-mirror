@@ -6,12 +6,12 @@ section_id: "F.6:14"
 section_title: "Didactic distillation (60‑second recap)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__015_didactic-distillation-60-second-recap.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:14 — Didactic distillation (60‑second recap)"
-line_start: 71065
-line_end: 71070
+line_start: 71202
+line_end: 71207
 dependencies:
   - "A.15"
   - "A.2.1"

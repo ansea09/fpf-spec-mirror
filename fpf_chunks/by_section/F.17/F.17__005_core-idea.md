@@ -6,12 +6,12 @@ section_id: "F.17:4"
 section_title: "Core Idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_core-idea.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:4 — Core Idea"
-line_start: 74706
-line_end: 74718
+line_start: 74843
+line_end: 74855
 dependencies:
   - "A.1.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "Row Schema (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_row-schema-normative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:6 — Row Schema (normative)"
-line_start: 74734
-line_end: 74780
+line_start: 74871
+line_end: 74917
 dependencies:
   - "A.1.1"
   - "A.11"

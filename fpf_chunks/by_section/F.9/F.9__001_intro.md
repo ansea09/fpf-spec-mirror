@@ -6,12 +6,12 @@ section_id: "F.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__001_intro.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:intro — Intro"
-line_start: 71671
-line_end: 71681
+line_start: 71808
+line_end: 71818
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

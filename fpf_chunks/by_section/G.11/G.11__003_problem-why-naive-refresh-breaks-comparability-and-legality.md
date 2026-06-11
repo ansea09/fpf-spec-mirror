@@ -6,12 +6,12 @@ section_id: "G.11:2"
 section_title: "Problem — Why naive refresh breaks comparability and legality"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__003_problem-why-naive-refresh-breaks-comparability-and-legality.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
   - "G.11:2 — Problem — Why naive refresh breaks comparability and legality"
-line_start: 81500
-line_end: 81509
+line_start: 81637
+line_end: 81646
 dependencies:
   - "B.3.4"
   - "C.18"

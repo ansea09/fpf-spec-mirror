@@ -6,12 +6,12 @@ section_id: "E.18:12"
 section_title: "SoTA‑Echoing (post‑2015, multi‑Tradition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_sota-echoing-post-2015-multi-tradition.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.18 — Transduction Graph Architecture (E.TGA)"
   - "E.18:12 — SoTA‑Echoing (post‑2015, multi‑Tradition)"
-line_start: 66627
-line_end: 66643
+line_start: 66748
+line_end: 66764
 dependencies:
   - "A.2.6"
   - "A.20"

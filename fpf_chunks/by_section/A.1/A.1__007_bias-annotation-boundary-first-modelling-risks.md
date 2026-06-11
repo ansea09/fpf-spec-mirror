@@ -6,7 +6,7 @@ section_id: "A.1:6"
 section_title: "Bias-Annotation — Boundary-first modelling risks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_bias-annotation-boundary-first-modelling-risks.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:6 — Bias-Annotation — Boundary-first modelling risks"

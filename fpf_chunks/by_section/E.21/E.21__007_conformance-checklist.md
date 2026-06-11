@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__007_conformance-checklist.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 68407
-line_end: 68427
+line_start: 68530
+line_end: 68551
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -53,4 +53,5 @@ keywords:
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |
 | `CC-E21-13` | Keep quality results out of project evidence, assurance, gate, work, safety/compliance, release, and publication truth claims. |
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-carrier praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action/usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
+| `CC-E21-15` | Keep ordinal values as measurement results, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the positive subject/action spine. A no-proposal disposition must name checked loci and why no substantive content move remains. |
 

@@ -6,12 +6,12 @@ section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:12 — Relations"
-line_start: 58475
-line_end: 58488
+line_start: 58495
+line_end: 58510
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -34,6 +34,8 @@ keywords:
 | `E.21` | Evaluates resulting pattern versions, not `DRR` adequacy. |
 | `E.22` | Frames the evaluation purpose when needed. |
 | `E.23` | Runs repeated improvement of a `DRR` after findings or proposal rows exist. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when `DRR` adequacy values, review marks, source-counts, or discharge posture become substitutes for decision usefulness. |
+
 | `E.19` | May return findings that expose upstream `DRR` defects. |
 | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern wording, relation, episteme, quality-term, and naming repair. |
 | `C.16`, `A.17`, `A.18`, `A.19`, `C.25` | Govern characteristic, scale, measurement, characteristic-space, and quality-bundle claims. |

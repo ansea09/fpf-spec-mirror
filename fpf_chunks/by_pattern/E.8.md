@@ -6,14 +6,15 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 57139
-line_end: 57700
+line_start: 57147
+line_end: 57713
 dependencies:
   - "E.10"
   - "E.11"
+  - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
@@ -79,6 +80,9 @@ A pattern can satisfy a checklist and still be practically unreadable. It may op
 **FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or related-pattern material only when the light recognition text would leave a false claim, unstable primary `EntityOfConcern`, hidden governing pattern for a specific claim/relation/boundary, unbacked practical payoff, or misleading admissible use.
 
 When an authoring pass claims quality improvement rather than ordinary drafting, keep these roles distinct: `E.22` frames the improvement-oriented quality-evaluation question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when those endpoints are claimed, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
+
+When a pattern claims practical payoff or uses a score, coordinate value, checklist result, benchmark, projection signal, review result, or release posture as evidence of value, name the intended value and the visible proxy relation. If the visible proxy is being treated as the value itself, apply `E.13` and repair the proxy-to-value substitution before the payoff claim is admitted.
+
 
 **Quality/projection evidence placement.** Pattern-quality status, corpus projection, README/ToC/E.11/I.2 alignment, card/retrieval evidence, cold-reader evidence, monolith parity, landing evidence, developer/reviewer/executor correspondence, and other quality-carrier facts belong in the evaluation result, review run record, projection carrier, or release/landing evidence carrier. They do not belong anywhere in the pattern itself, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, and checklist rows, unless the pattern's own `EntityOfConcern` and intended-reader move are that evaluation/projection work. This is a role test, not a lexical test: the same word may be user-facing content in an evaluation pattern and carrier leakage when it reports quality, landing, projection, or role-turn state for this pattern.
 
@@ -607,6 +611,8 @@ International and industry standards often speak in terms of *conformance criter
 * **Constrained by:** Guard‑Rails E.5.1–E.5.4 (lexical firewall, notation independence, etc.)
 * **Coordinates with:** `E.21` when one authored FPF pattern version is evaluated as a scoped pattern-quality claim. `E.8` governs authoring shape, recognition text, action guidance, worked cases, SoTA grounding, and conformance material; `E.21` governs the pattern-quality evaluation, required coordinate values, `PatternQualityStatus`, and stop condition. Do not import `E.21` as a mandatory authoring section or full review card.
 * **Coordinates with:** `E.23` when an authored FPF pattern body is being improved through repeated passes. `E.8` still governs the authored pattern body; `E.23` governs the repeated quality-improvement method; the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings.
+* **Coordinates with:** `E.13` when an authored pattern claims practical payoff or uses a visible quality value, metric, checklist result, review result, or release posture as if it were the intended value. `E.8` keeps the payoff in user-facing prose; `E.13` repairs proxy-to-value substitution.
+
 
 * **Constrains:** All patterns; the DRR template references the same section order.
 

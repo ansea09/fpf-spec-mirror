@@ -6,12 +6,12 @@ section_id: "F.5:10"
 section_title: "Micro‑examples (illustrative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__011_micro-examples-illustrative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:10 — Micro‑examples (illustrative)"
-line_start: 70664
-line_end: 70685
+line_start: 70801
+line_end: 70822
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "E.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_sota-echoing.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:10 — SoTA-Echoing"
-line_start: 68462
-line_end: 68471
+line_start: 68585
+line_end: 68594
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -37,9 +37,9 @@ keywords:
 
 | Claim | Source-use disposition | Concrete E.21 effect |
 |---|---|---|
-| Feedback connects desired state, current state, and next action. | Adopt from feedback-for-learning lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when requested. |
-| Questions and metrics derive from the goal. | Adopt from GQM-style measurement discipline. | Scope, reader, use, and window precede coordinate values. |
+| Feedback connects desired state, current state, next action, and available tactics. | Adopt from formative-assessment lineage such as Sadler and Hattie/Timperley. | `ShortRationale` and proposal rows are separated: value now, next improvement when requested, and checked no-proposal when no substantive move remains. |
+| Questions and metrics derive from the goal. | Adopt from GQM and GQM+Strategies measurement discipline. | Scope, reader, use, and window precede coordinate values. |
 | Multi-criteria improvement needs explicit trade-offs. | Adopt from MCDA, Pareto, ATAM, and current QD/OEE lines. | Dominance comparisons and protected trade-offs replace one-score closure. |
-| Proxy optimization can make intended value worse. | Adopt from Goodhart/proxy-risk lines. | `ProxyForValueSubstitutionResistance` and stop condition ask what got worse. |
+| Proxy optimization can make intended value worse. | Adopt from Goodhart/Campbell, management-accounting surrogation, reward-hacking, and specification-gaming lines. | `ProxyForValueSubstitutionResistance`, `PrecisionRestorationProfile`, `E.13`, and stop condition ask what got worse; `5`, all-`5`, discharge count, and proof apparatus cannot replace pattern content or pragmatic value. |
 | Evaluation results are not governance, safety, or compliance proof. | Adopt as non-overread boundary from current evaluation-governance practice. | Neighbour authority and status boundaries keep project claims outside `E.21`. |
 

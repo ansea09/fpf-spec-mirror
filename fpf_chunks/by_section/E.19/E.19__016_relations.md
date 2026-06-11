@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 67693
-line_end: 67719
+line_start: 67814
+line_end: 67842
 dependencies:
 keywords:
   - "(see H-8)"
@@ -47,7 +47,9 @@ keywords:
   * `F.15` (conceptual harness and regression framing)
   * `E.17` (MVPK / `U.View` projection discipline)
   * `E.11` (pattern-entry discoverability discipline, for `PCP-ENTRY` only as a review hook, not as a semantic prerequisite)
+  * `E.13` (pragmatic utility and proxy-to-value alignment when a pattern-quality pass, score, coordinate value, checklist result, benchmark, projection signal, or release posture is being used as value evidence)
   * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; `E.19` findings may supply evidence for a later `E.21` value only when they identify content defects or strengths in the reviewed pattern version, but final coordinate values and `PatternQualityStatus` are assigned by `E.21`, not by `E.19`)
+
   * `A.6.7` (`MechSuiteDescription` suite-level semantics)
   * `A.15.3` (`SlotFillingsPlanItem` P2W planned-baseline seam)
   * `G.11` (refresh/decay orchestration principles, where applicable)

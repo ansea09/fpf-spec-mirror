@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.DA.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
 line_start: 56051
-line_end: 56311
+line_end: 56319
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -55,6 +55,7 @@ The specific failures are:
 4. Source and SoTA rows are counted rather than checked for changes in FPF moves.
 5. Front-like words such as `all 5s`, `exceptional`, `Pareto`, `SoTA`, `NQD`, or `shortlist` become loose synonyms.
 6. Corpus-level stop claims hide what became worse.
+7. Pillar values become repair targets, so the corpus gains projection proof, entry apparatus, source rows, or review evidence while the FPF object becomes less usable, less layered, or less decisive.
 
 ### E.2.DA:3 - Forces
 
@@ -201,6 +202,8 @@ E.2.DA result:
 
 For a small release decision, the coordinate table may be compact. It is still complete. Status is not assigned from prose, a checklist count, a local-pattern average, a two-column table, or a result missing evidence loci needed by its values.
 
+When `E.22`, `E.23`, absorption, or exceptional-improvement framing asks for improvement, below-floor Pillar coordinates return findings or repair. Above-floor coordinates receive proposal rows only for substantive non-dominated FPF-level content opportunities inside the declared use: better entry recognition, governing-pattern authority, source-currentness carry-through, projection thinning, corpus-ecology repair, kind-preserving precision restoration, open-ended evolution support, or deletion/relocation of apparatus that weakens the FPF object. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further Pillar-content movement is dominated, unavailable, or outside scope.
+
 ### E.2.DA:5 - Worked slices
 
 **Broad precision cleanup.** A wording pass makes many patterns more admissible but several `Problem frame`s now explain less about why the distinction matters, or a cleaned phrase changes the governed kind while the trigger word disappears. `P2`, `P6`, and `P7` receive lower values until the affected patterns restore recognition reason, useful action, and pre/post kind evidence in admissible wording.
@@ -232,6 +235,7 @@ The bias is bounded by the object-under-improvement declaration. `E.2.DA` does n
 | `CC-E2DA-9` | State the `FPFPillarAdequacyEvidenceBasis`; if host/monolith parity, projection, README, ToC, `E.11`, `I.2`, source-currentness, relation, companion, or evaluation-result evidence is missing or unchecked, lower the Pillar coordinate that needs it. |
 | `CC-E2DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
 | `CC-E2DA-11` | When the evaluated FPF object includes broad wording, naming, or precision cleanup, state `FPFKindRestorationEvidence` for changed FPF-governed phrases. If the cleanup changes, narrows, widens, flattens, or loses the governed kind, relation, claim kind, slot or use-position when live, admissible use, or scope without accepted decision evidence and governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position, lower the affected Pillar coordinates and keep the repair blocking. |
+| `CC-E2DA-12` | Keep Pillar values as measurement results, not repair targets. Below-floor values require FPF-level findings or repair. Above-floor improvement requires substantive non-dominated proposal rows when requested; it cannot close by adding projection proof, entry apparatus, source volume, review praise, monolith parity evidence, or all-`5` posture that does not improve Pillar realization for the declared FPF use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile Pillar-content move remains. |
 
 ### E.2.DA:8 - Common anti-patterns and repairs
 
@@ -243,6 +247,7 @@ The bias is bounded by the object-under-improvement declaration. `E.2.DA` does n
 | **Projection authority.** A ToC, packet, or companion carries semantics. | Move semantics to the governing pattern and leave projection echo. |
 | **Citation shelf.** Source rows do not change FPF moves. | Lower `P11` and state the missing source contribution. |
 | **Pillar table without evidence loci.** Values are listed but not tied to corpus loci named by value. | Re-run with `Pillar coordinate | Value | ShortRationale | EvidenceLocus`; lower any Pillar whose evidence cannot be named. |
+| **Goodharted Pillar adequacy.** FPF-level values rise because more projection, source, review, or parity evidence was added, while entry recognition, layering, semantic authority, pragmatic utility, source use, or open-ended evolution becomes worse. | Reject apparatus-only improvement; apply `E.13` when Pillar values become targets replacing Pillar realization; repair the FPF-level content effect, delete or relocate proof material, and record checked no-proposal only when no non-dominated Pillar-content move remains. |
 
 ### E.2.DA:9 - Relations
 
@@ -254,6 +259,8 @@ The bias is bounded by the object-under-improvement declaration. `E.2.DA` does n
 | `E.9.DA` | Evaluates one `DRR`; may supply evidence loci. |
 | `E.22` | Frames the quality-evaluation purpose when needed. |
 | `E.23` | Runs repeated improvement after values or proposal rows exist. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when Pillar values, corpus indicators, review posture, or projection evidence become substitutes for realized FPF value. |
+
 | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern local precision and naming repair. |
 | `E.11`, `E.17`, `I.2` | Govern entry, projection, publication, description, and expanded entry-disambiguation roles that may affect Pillar adequacy. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD, pool, selected-set, parity, and refresh semantics when front-like vocabulary is live. |
@@ -267,14 +274,15 @@ The instrument is still affordable because it asks for short rationales and evid
 
 ### E.2.DA:11 - SoTA-Echoing
 
-| Source-use decision | Local adoption |
-|---|---|
-| `E.2` constitutional source | Supplies Pillar heads and prevents local redefinition. |
-| Pattern-language entry and projection discipline from `README`, `E.11`, ToC, and `I.2` | Makes entry, thin echoes, and governing-pattern authority evaluable under `P1`, `P2`, `P5`, `P7`, `P9`, and `P10`. |
-| Current pattern-quality source lines from `E.21` | Provide local pattern-quality evidence without averaging it into corpus adequacy. |
-| Current `DRR` adequacy source lines from `E.9.DA` | Provide decision-quality evidence when upstream decisions affect Pillar realization. |
-| Precision and naming source lines from `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18` | Keep wording repair distributed while evaluating FPF-level Pillar effects. |
-| MCDA, Pareto, Goodhart, and QD/OEE/NQD lines inherited through `E.21`, `E.22`, and `E.23` | Keep improvement multi-coordinate, non-scalar, and sensitive to hidden losses. |
+| Claim | Practice basis | Local adoption |
+|---|---|---|
+| Pillar meanings stay constitutional, while evaluation checks realized adequacy. | `E.2` constitutional source plus `A.19.ECS` evaluation-characteristic construction. | `E.2.DA` evaluates one scoped FPF object without redefining the Pillars locally. |
+| Whole-language adequacy needs aim, evidence, change, and learning. | Model for Improvement/PDSA-PDCA lineage carried through `E.22`/`E.23`. | The evaluation names declared FPF use, evidence basis, first repair or stop, and reopen condition rather than treating release posture as improvement. |
+| Feedback needs current state, desired state, next action, and tactics. | Sadler and Hattie/Timperley feedback traditions carried through `E.22` and `E.23`. | Values, short rationales, evidence loci, proposal rows, and checked no-proposal dispositions stay distinct. |
+| Local pattern quality is not whole-FPF adequacy. | Pattern-language entry/projection discipline from `README`, ToC, `E.11`, and `I.2`, plus current `E.21` and `E.9.DA` source lines. | `E.21` and `E.9.DA` are evidence loci only when they change Pillar realization; they are not averaged into corpus adequacy. |
+| Precision repair can improve wording while damaging use. | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18`, and `F.19` precision-restoration lines. | Broad cleanup must show pre/post kind, relation, admissible use, and FPF-level Pillar effect; lexical disappearance is not closure. |
+| Multi-coordinate improvement needs trade-offs and non-dominated alternatives. | MCDA, Pareto, ATAM, and QD/OEE/NQD lines carried through `E.22`/`E.23`. | `E.2.DA` asks what became worse and treats front-like vocabulary as governed semantics, not praise. |
+| Pillar-adequacy measures can become targets. | Goodhart/Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.2.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when the scoped FPF object better realizes Pillars for declared use, and `E.13` governs any proxy-to-value claim about those values. |
 
 ### E.2.DA:12 - Consequences
 

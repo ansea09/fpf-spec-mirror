@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 68524
-line_end: 68617
+line_start: 68649
+line_end: 68743
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -67,6 +67,7 @@ These names frame and report quality evaluation. They do not select candidates, 
 Purposes can be combined, but the result keeps them distinguishable. A floor result does not answer exceptional improvement. Absorption count is not quality movement. A proposal is not a selected work item.
 
 #### E.22:4.3 - Question frame
+An improvement aim is not a command to make every coordinate exceptional. A `5` is assigned only by the named evaluation after the changed object earns it. The frame may ask for substantive non-dominated proposals that could move named coordinates toward exceptional expression, but it must also allow `no proposal` or `stay at current value` when every plausible change would add apparatus, proof prose, boundary catalogues, or process evidence while damaging protected qualities. That no-proposal result needs checked loci; it is not a cheap refusal to improve.
 
 ```text
 QualityEvaluationQuestionFrame:

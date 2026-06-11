@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_worked-slices.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Worked slices"
-line_start: 68829
-line_end: 68838
+line_start: 68961
+line_end: 68970
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -33,7 +33,7 @@ keywords:
 
 **Affordable floor evaluation.** A pattern needs admission readiness. `E.22` frames `floorEvaluation`; `E.21` evaluates all required coordinates. If the result is admissible and no improvement aim is requested, `E.23` stays closed. If an admission, refresh, landing, or release crossing is claimed, `E.19` and the release named by value/admission process still check the gate conditions; the `E.21` status is necessary quality evidence, not the gate itself.
 
-**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. `E.22` frames exceptional improvement. `E.23` applies proposal rows, re-evaluates by `E.21`, checks what became worse, and stops locally when no non-dominated improvement remains under the declared use.
+**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. `E.22` frames optional exceptional improvement for named coordinates. `E.23` searches for substantive non-dominated content moves, applies proposal rows, re-evaluates by `E.21`, checks what became worse, and stops locally only when no worthwhile content improvement remains under the declared use. The loop may stop at `4`, but only after the missing-exceptional opportunity has been searched and discharged by value; it is not a proof-building run toward all-`5`.
 
 **DRR improvement.** A `DRR` needs drafting adequacy for multi-locus authoring. `E.9.DA` supplies coordinates; `E.23` applies decision repairs and re-evaluates. The improved object is still a decision record, not prewritten pattern prose.
 

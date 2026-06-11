@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Migration playbook — turning messy language into ULR‑clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_migration-playbook-turning-messy-language-into-ulr-clean-prose-informative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:10 — Migration playbook — turning messy language into ULR‑clean prose (informative)"
-line_start: 59992
-line_end: 60031
+line_start: 60014
+line_end: 60053
 dependencies:
   - "A.10"
   - "A.15"

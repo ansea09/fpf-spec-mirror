@@ -6,12 +6,12 @@ section_id: "I.2:section-011"
 section_title: "Affected locations and required edits (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__012_affected-locations-and-required-edits-normative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:section-011 — Affected locations and required edits (normative)"
-line_start: 82872
-line_end: 82905
+line_start: 83009
+line_end: 83042
 dependencies:
 keywords:
 ---

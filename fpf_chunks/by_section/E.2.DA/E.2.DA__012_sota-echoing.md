@@ -6,12 +6,12 @@ section_id: "E.2.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__012_sota-echoing.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:11 — SoTA-Echoing"
-line_start: 56291
-line_end: 56301
+line_start: 56298
+line_end: 56309
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -28,12 +28,13 @@ keywords:
 
 ### E.2.DA:11 - SoTA-Echoing
 
-| Source-use decision | Local adoption |
-|---|---|
-| `E.2` constitutional source | Supplies Pillar heads and prevents local redefinition. |
-| Pattern-language entry and projection discipline from `README`, `E.11`, ToC, and `I.2` | Makes entry, thin echoes, and governing-pattern authority evaluable under `P1`, `P2`, `P5`, `P7`, `P9`, and `P10`. |
-| Current pattern-quality source lines from `E.21` | Provide local pattern-quality evidence without averaging it into corpus adequacy. |
-| Current `DRR` adequacy source lines from `E.9.DA` | Provide decision-quality evidence when upstream decisions affect Pillar realization. |
-| Precision and naming source lines from `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, and `F.18` | Keep wording repair distributed while evaluating FPF-level Pillar effects. |
-| MCDA, Pareto, Goodhart, and QD/OEE/NQD lines inherited through `E.21`, `E.22`, and `E.23` | Keep improvement multi-coordinate, non-scalar, and sensitive to hidden losses. |
+| Claim | Practice basis | Local adoption |
+|---|---|---|
+| Pillar meanings stay constitutional, while evaluation checks realized adequacy. | `E.2` constitutional source plus `A.19.ECS` evaluation-characteristic construction. | `E.2.DA` evaluates one scoped FPF object without redefining the Pillars locally. |
+| Whole-language adequacy needs aim, evidence, change, and learning. | Model for Improvement/PDSA-PDCA lineage carried through `E.22`/`E.23`. | The evaluation names declared FPF use, evidence basis, first repair or stop, and reopen condition rather than treating release posture as improvement. |
+| Feedback needs current state, desired state, next action, and tactics. | Sadler and Hattie/Timperley feedback traditions carried through `E.22` and `E.23`. | Values, short rationales, evidence loci, proposal rows, and checked no-proposal dispositions stay distinct. |
+| Local pattern quality is not whole-FPF adequacy. | Pattern-language entry/projection discipline from `README`, ToC, `E.11`, and `I.2`, plus current `E.21` and `E.9.DA` source lines. | `E.21` and `E.9.DA` are evidence loci only when they change Pillar realization; they are not averaged into corpus adequacy. |
+| Precision repair can improve wording while damaging use. | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18`, and `F.19` precision-restoration lines. | Broad cleanup must show pre/post kind, relation, admissible use, and FPF-level Pillar effect; lexical disappearance is not closure. |
+| Multi-coordinate improvement needs trade-offs and non-dominated alternatives. | MCDA, Pareto, ATAM, and QD/OEE/NQD lines carried through `E.22`/`E.23`. | `E.2.DA` asks what became worse and treats front-like vocabulary as governed semantics, not praise. |
+| Pillar-adequacy measures can become targets. | Goodhart/Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.2.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when the scoped FPF object better realizes Pillars for declared use, and `E.13` governs any proxy-to-value claim about those values. |
 

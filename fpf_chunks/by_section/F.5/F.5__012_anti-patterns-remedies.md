@@ -6,12 +6,12 @@ section_id: "F.5:11"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__012_anti-patterns-remedies.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:11 — Anti‑patterns & remedies"
-line_start: 70686
-line_end: 70705
+line_start: 70823
+line_end: 70842
 dependencies:
   - "A.11"
   - "A.7"

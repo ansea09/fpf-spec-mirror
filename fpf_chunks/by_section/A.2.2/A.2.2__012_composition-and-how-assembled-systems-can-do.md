@@ -6,7 +6,7 @@ section_id: "A.2.2:11"
 section_title: "Composition and Γ (how assembled systems “can do”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_composition-and-how-assembled-systems-can-do.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:11 — Composition and Γ (how assembled systems “can do”)"

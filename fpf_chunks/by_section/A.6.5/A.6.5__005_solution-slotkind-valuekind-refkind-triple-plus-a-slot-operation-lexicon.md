@@ -6,7 +6,7 @@ section_id: "A.6.5:4"
 section_title: "Solution — SlotKind / ValueKind / RefKind triple (plus a slot‑operation lexicon)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution-slotkind-valuekind-refkind-triple-plus-a-slot-operation-lexicon.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:4 — Solution — SlotKind / ValueKind / RefKind triple (plus a slot‑operation lexicon)"

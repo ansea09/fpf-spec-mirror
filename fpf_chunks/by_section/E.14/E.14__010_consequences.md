@@ -6,12 +6,12 @@ section_id: "E.14:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__010_consequences.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:9 — Consequences"
-line_start: 61648
-line_end: 61658
+line_start: 61769
+line_end: 61779
 dependencies:
   - "B.3.5"
   - "C.13"

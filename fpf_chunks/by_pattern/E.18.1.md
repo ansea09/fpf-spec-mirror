@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.1.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.18.1 — Principles-to-Work Transduction Path"
-line_start: 66701
-line_end: 67042
+line_start: 66822
+line_end: 67163
 dependencies:
   - "A.10"
   - "A.15"

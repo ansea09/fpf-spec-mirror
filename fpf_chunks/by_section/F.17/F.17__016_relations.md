@@ -6,12 +6,12 @@ section_id: "F.17:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:15 — Relations"
-line_start: 74927
-line_end: 74932
+line_start: 75064
+line_end: 75069
 dependencies:
   - "A.1.1"
   - "A.11"

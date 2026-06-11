@@ -6,7 +6,7 @@ section_id: "A.11:10"
 section_title: "Illustrative Uses (2022 – 2025)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__011_illustrative-uses-2022-2025.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:10 — Illustrative Uses (2022 – 2025)"

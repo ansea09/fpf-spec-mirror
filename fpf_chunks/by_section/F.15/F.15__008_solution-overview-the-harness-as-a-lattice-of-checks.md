@@ -6,12 +6,12 @@ section_id: "F.15:7"
 section_title: "Solution overview — the harness as a lattice of checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__008_solution-overview-the-harness-as-a-lattice-of-checks.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:7 — Solution overview — the harness as a lattice of checks"
-line_start: 74073
-line_end: 74080
+line_start: 74210
+line_end: 74217
 dependencies:
   - "B.3"
   - "D.CTX"

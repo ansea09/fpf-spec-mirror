@@ -6,12 +6,12 @@ section_id: "F.18:17"
 section_title: "Migration notes (renames, splits, merges, retirements)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__018_migration-notes-renames-splits-merges-retirements.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:17 — Migration notes (renames, splits, merges, retirements)"
-line_start: 75608
-line_end: 75619
+line_start: 75745
+line_end: 75756
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 68898
-line_end: 68914
+line_start: 69033
+line_end: 69051
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -38,6 +38,8 @@ keywords:
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
+
 | `F.18` | Supplies durable-name evaluation for naming loops. |
 | `C.25`, `C.16.Q` | Govern engineering quality bundles and quality-word precision repair. |
 | `C.19.1` | Governs BLP and cost/risk comparison for method-family choice. |

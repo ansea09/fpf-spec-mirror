@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 68700
-line_end: 68916
+line_start: 68830
+line_end: 69053
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -50,6 +50,8 @@ FPF often improves artifacts by repeated review, repair, and re-evaluation. The 
 
 The loop must also avoid the maturity-ladder trap. A floor or all-`5` result can close this loop under current use, comparison set, source state, and cost boundary; it is not proof that the object cannot improve under a new use, source, front, or payoff.
 
+The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended. Below-floor values return repair work. Above-floor improvement remains a real obligation when the frame requests it, but the target is a substantive content move: stronger positive action guidance, worked slice, case/countercase, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content move worth its cost under protected qualities.
+
 ### E.23:3 - Forces
 
 | Force | Tension |
@@ -74,7 +76,7 @@ The loop must also avoid the maturity-ladder trap. A floor or all-`5` result can
 | `ObjectUnderImprovementEvaluationRef` | Exact evaluation pattern, characteristic space, Q-Bundle, rubric, or review profile that supplies values. |
 | `LoopEvaluationEvidenceBasis` | Evidence loci checked or named for the current loop evaluation result, including missing loci that lower values. |
 | `LoopEvaluationResultForm` | Result-row shape required by the object-under-improvement evaluation for the current pass. |
-| `ImprovementAim` | Desired movement: floor repair, exceptional improvement, trade-off inspection, absorption impact, open-question discovery, source-front reach, or another exact aim. |
+| `ImprovementAim` | Desired movement: floor repair, optional exceptional improvement, trade-off inspection, absorption impact, open-question discovery, source-front reach, or another exact aim. It names desired quality movement, not a value that the repair must prove. |
 | `MethodFamilySelection` | Selected method family for the current object and evaluation. |
 | `OperationFamilySelectionSet` | Optional operation families selected because they can move the evaluation enough to justify cost. |
 | `ObjectUnderImprovementReEvaluation` | Re-run or cited result of the evaluation on the changed object version. |
@@ -92,11 +94,11 @@ These names belong to loop method. They do not create quality values, project ev
 For one quality-improvement loop:
 
 1. Declare `ObjectUnderImprovementRef`, object version, and `ObjectUnderImprovementEvaluationRef`.
-2. Declare `ImprovementAim`, floor or target, protected trade-offs, cost and risk account, and local stop condition.
+2. Declare `ImprovementAim`, declared floor or desired substantive quality movement, protected trade-offs, cost and risk account, and local stop condition. Do not declare `5`, all-`5`, or `5-defensible` as the work target; name the content property to improve instead.
 3. Use `E.22` to frame the first quality evaluation when the purpose is not already explicit.
 4. Run the object-under-improvement evaluation in its required result form. For one FPF pattern version, this is an `E.21` result with every required coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
 5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary.
-6. Apply repairs or variants to the object. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
+6. Apply repairs or variants to the object. Repair below-floor findings first. When exceptional improvement is requested, search coordinate-by-coordinate for substantive content moves: better positive action guidance, a missing worked slice, case/countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or relocation of quality/process proof. Repairs must not add guards, boundary catalogues, relation menus, or quality proof solely to make a higher value defensible. A no-change closure is admissible only when the row gives loci and explains why no non-dominated content move is available under the protected trade-offs. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
 7. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, mandatory attention-discharge rows, and coordinate-specific payloads.
 8. Record what improved, what stayed floor-only, what was unchanged by value with loci, what became worse, and which rows moved outside the evaluation.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
@@ -104,7 +106,7 @@ For one quality-improvement loop:
 
 #### E.23:4.3 - Stop, continue, and reopen
 
-Stop when the current object version meets the declared floor or improvement aim and no feasible non-dominated proposal remains worth its cost under the current use, comparison set, source state, and protected trade-offs.
+Stop when the current object version meets the declared floor or improvement aim and no feasible non-dominated proposal remains worth its cost under the current use, comparison set, source state, and protected trade-offs. If the remaining proposal mainly makes a value easier to argue while adding apparatus or worsening use, affordability, locality, source preservation, or ecology, reject that proposal; continue searching for a substantive content move if the improvement aim is still open, and stop only with a by-value no-proposal disposition.
 
 Continue only when the next pass has an expected evaluation movement and acceptable cost/risk. Switch method when the current method family is not moving the object, is too costly, or no longer fits the evaluation. Hold when object, evaluation, authority, evidence, source condition, or comparison set is too under-specified.
 
@@ -161,7 +163,7 @@ For NQD/OEE, `E.23` can change one object version or candidate to improve declar
 
 **Affordable floor evaluation.** A pattern needs admission readiness. `E.22` frames `floorEvaluation`; `E.21` evaluates all required coordinates. If the result is admissible and no improvement aim is requested, `E.23` stays closed. If an admission, refresh, landing, or release crossing is claimed, `E.19` and the release named by value/admission process still check the gate conditions; the `E.21` status is necessary quality evidence, not the gate itself.
 
-**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. `E.22` frames exceptional improvement. `E.23` applies proposal rows, re-evaluates by `E.21`, checks what became worse, and stops locally when no non-dominated improvement remains under the declared use.
+**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. `E.22` frames optional exceptional improvement for named coordinates. `E.23` searches for substantive non-dominated content moves, applies proposal rows, re-evaluates by `E.21`, checks what became worse, and stops locally only when no worthwhile content improvement remains under the declared use. The loop may stop at `4`, but only after the missing-exceptional opportunity has been searched and discharged by value; it is not a proof-building run toward all-`5`.
 
 **DRR improvement.** A `DRR` needs drafting adequacy for multi-locus authoring. `E.9.DA` supplies coordinates; `E.23` applies decision repairs and re-evaluates. The improved object is still a decision record, not prewritten pattern prose.
 
@@ -184,6 +186,7 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only with expected evaluation movement and cost/risk reason. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
+| `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. The loop repairs below-floor results first. Exceptional-improvement work may proceed only through non-dominated proposal rows that name the expected substantive content movement, protected trade-offs, and cost/risk. A no-proposal or stay-at-current-value disposition must show the checked loci and why every plausible content move is dominated, unavailable, or outside the declared scope. If a change would only add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology, reject that change rather than counting it as improvement. |
 | `CC-E23-8` | Keep candidate generation, pool policy, selected-set publication, parity, refresh, decision, planning, work, evidence, assurance, gate, release, safety, and compliance claims with the pattern that governs each claim, relation, or boundary. State those pattern relations declaratively in loop records or `Relations`; keep loop-method and architecture-placement prose out of the object under improvement unless that prose is the object's own user-facing content. |
 | `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the selected restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair is word/head/use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or a governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: pre-repair kind/relation/slot-or-use-position/admissible use/scope, post-repair kind/relation/slot-or-use-position/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
@@ -197,7 +200,7 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | **Loop result without evaluation form.** The loop says the object improved but records only prose, applied rows, or values without the named evaluation's evidence basis. | Re-run the object-under-improvement evaluation in its required result-row shape. |
 | **Agentic retry as method law.** Repetition continues without expected movement. | Add evaluation movement, cost/risk, trade-offs, and stop/switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can move the evaluation enough to justify cost. |
-| **Goodharted pass.** Visible values rise while protected qualities worsen. | Use trade-off inspection and reject, repair, split, or hold dominated changes. |
+| **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content movement when the improvement aim is still open; record `stay at current value` only with loci showing that no non-dominated content improvement remains. |
 | **Lexical substitution closure.** A trigger word disappears, but the replacement narrows, widens, or changes the object kind; for example a graph-shaped method/workflow cue becomes a work sequence without a selected ontology decision. | Reopen the row, recover the pre/post kind through `E.10`, `F.19`, `F.18`, or the governing pattern, and leave the repair blocking if the kind cannot be preserved or explicitly changed by accepted decision. |
 | **Maturity-ceiling stop.** All-`5` is treated as end of development. | Close this loop locally and record reopen conditions. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |
@@ -219,10 +222,12 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 
 | Claim | Practice or source line | Local adoption |
 |---|---|---|
-| Improvement needs desired condition, current condition, next action, and learning. | PDSA/PDCA lineage and feedback traditions. | The loop names aim, current evaluation, applied changes, re-evaluation, and stop/continue decision. |
+| Improvement needs aim, measures, changes, learning, and adaptation. | Model for Improvement/PDSA-PDCA lineage, including aim-measure-change discipline. | The loop names aim, current evaluation, applied changes, re-evaluation, learning, and stop/continue decision. |
+| Formative feedback requires more than a score. | Sadler and Hattie/Timperley feedback traditions. | The loop requires substantive proposal rows or checked no-proposal dispositions, not value-only closure. |
 | Broad adaptive loops are useful but costly. | Ralph-like current technique signal, Reflexion/Self-Refine/ReAct/LATS/SWE-agent lineage. | General adaptive methods are selectable under `C.19.1` cost/risk and re-evaluation discipline. |
 | Fixed-performer object-version optimization is a useful current line. | SkillOpt-like work with fixed performer and mutable external skill/document object. | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily`, bounded change budget, held-out evaluation, rejected-change memory, and optimizer-memory separation. |
-| Multi-coordinate improvement needs trade-offs. | MCDA, Pareto, ATAM, Goodhart, and current proxy-failure work. | Re-evaluation includes what became worse and rejects dominated changes. |
+| Multi-coordinate improvement needs trade-offs. | MCDA, Pareto, ATAM, and current proxy-failure work. | Re-evaluation includes what became worse, rejects dominated changes, and applies `E.13` when the visible value under optimization starts replacing the intended value. |
+| Measures and specifications can be gamed under optimization pressure. | Goodhart/Campbell, surrogation, specification-gaming, and reward-hacking lines. | The loop forbids all-`5` targeting, separates floor repair from substantive exceptional proposals, rejects apparatus-only proof as dominated change, and opens `E.13` when the loop target becomes a proxy for value. |
 | OEE/NQD improvement is relative to declared `Q`, comparison sets, and fronts. | Current quality-diversity and open-ended exploration survey lines. | `NQDQualitySideImprovementFamily` changes object versions while OEE/NQD neighbours keep archive/front and selected-set authority. |
 | Source-bearing improvement must synthesize contributions. | Current source-currentness discipline in FPF plus source-composition practice. | The loop records contribution strata and `SourceComposedResultClaim` before claiming front reach or maintenance. |
 
@@ -235,6 +240,8 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
+
 | `F.18` | Supplies durable-name evaluation for naming loops. |
 | `C.25`, `C.16.Q` | Govern engineering quality bundles and quality-word precision repair. |
 | `C.19.1` | Governs BLP and cost/risk comparison for method-family choice. |

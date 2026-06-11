@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `093d30e806a1466e24032733eb020bb5a5f585cc`
+Commit SHA: `3f9a2dd65b0df9cf6bed602fb1f189162060954f`
 
 Chunking method: `pattern-aware`
 
@@ -189,7 +189,7 @@ Patterns: `236`
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
-- [E.13 — Pragmatic Utility & Value Alignment](by_pattern/E.13.md)
+- [E.13 — Pragmatic Utility and Value Alignment](by_pattern/E.13.md)
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)
 - [E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)](by_pattern/E.15.md)
 - [E.16 — RoC‑Autonomy Budget & Enforcement](by_pattern/E.16.md)

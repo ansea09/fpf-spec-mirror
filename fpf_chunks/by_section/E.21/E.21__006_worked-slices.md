@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_worked-slices.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Worked slices"
-line_start: 68388
-line_end: 68406
+line_start: 68511
+line_end: 68529
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -50,5 +50,5 @@ keywords:
 
 **Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
 
-**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping.
+**Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; record no-proposal only with loci showing that further content change is dominated, unavailable, or outside scope.
 

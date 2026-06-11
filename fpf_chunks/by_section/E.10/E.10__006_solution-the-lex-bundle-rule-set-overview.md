@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution — the LEX‑BUNDLE rule‑set (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-the-lex-bundle-rule-set-overview.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:4 — Solution — the LEX‑BUNDLE rule‑set (overview)"
-line_start: 59366
-line_end: 59378
+line_start: 59388
+line_end: 59400
 dependencies:
   - "A.10"
   - "A.15"

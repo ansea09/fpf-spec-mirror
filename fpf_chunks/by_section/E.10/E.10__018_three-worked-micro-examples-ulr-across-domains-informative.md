@@ -6,12 +6,12 @@ section_id: "E.10:14"
 section_title: "Three worked micro‑examples — ULR across domains (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__018_three-worked-micro-examples-ulr-across-domains-informative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:14 — Three worked micro‑examples — ULR across domains (informative)"
-line_start: 60097
-line_end: 60122
+line_start: 60119
+line_end: 60144
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,7 +6,7 @@ section_id: "B.2:6.5"
 section_title: "Certification Interface Example (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__008_certification-interface-example-informative.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:6.5 — Certification Interface Example (Informative)"

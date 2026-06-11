@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 58425
-line_end: 58441
+line_start: 58441
+line_end: 58458
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -41,4 +41,5 @@ keywords:
 | `CC-E9DA-8` | State what became worse if visible decision-adequacy values improved. |
 | `CC-E9DA-9` | State the `DRRDecisionAdequacyEvidenceBasis`; if source-currentness, accepted-decision inheritance, selected-locus, architecture, or comparator evidence is missing or unchecked, lower the coordinate that needs it. |
 | `CC-E9DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
+| `CC-E9DA-11` | Keep ordinal values as measurement results, not repair targets. Below-floor values require decision-content findings or repair. Above-floor improvement requires substantive non-dominated proposal rows when requested; it cannot close by adding source volume, selected-locus tables, boundary catalogues, quality proof, or process evidence that does not make the `DRR` decision more decisive for its declared authoring use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile decision-content move remains. |
 

@@ -6,12 +6,12 @@ section_id: "E.2.DA:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__010_relations.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:9 — Relations"
-line_start: 56270
-line_end: 56284
+line_start: 56275
+line_end: 56291
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -36,6 +36,8 @@ keywords:
 | `E.9.DA` | Evaluates one `DRR`; may supply evidence loci. |
 | `E.22` | Frames the quality-evaluation purpose when needed. |
 | `E.23` | Runs repeated improvement after values or proposal rows exist. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when Pillar values, corpus indicators, review posture, or projection evidence become substitutes for realized FPF value. |
+
 | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern local precision and naming repair. |
 | `E.11`, `E.17`, `I.2` | Govern entry, projection, publication, description, and expanded entry-disambiguation roles that may affect Pillar adequacy. |
 | `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD, pool, selected-set, parity, and refresh semantics when front-like vocabulary is live. |

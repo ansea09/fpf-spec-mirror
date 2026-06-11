@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.6.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
-line_start: 70816
-line_end: 71072
+line_start: 70953
+line_end: 71209
 dependencies:
   - "A.15"
   - "A.2.1"

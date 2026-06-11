@@ -6,15 +6,16 @@ section_id: "E.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_problem-frame.md"
-commit_sha: "093d30e806a1466e24032733eb020bb5a5f585cc"
+commit_sha: "3f9a2dd65b0df9cf6bed602fb1f189162060954f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:1 — Problem frame"
-line_start: 57199
-line_end: 57204
+line_start: 57210
+line_end: 57215
 dependencies:
   - "E.10"
   - "E.11"
+  - "E.13"
   - "E.19"
   - "E.21"
   - "E.23"
