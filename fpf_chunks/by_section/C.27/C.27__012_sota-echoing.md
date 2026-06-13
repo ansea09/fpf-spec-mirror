@@ -6,16 +6,19 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_sota-echoing.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:11 — SoTA-Echoing"
-line_start: 49638
-line_end: 49792
+line_start: 50142
+line_end: 50278
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -66,8 +70,9 @@ Source binding used by this section:
 | `D2-SRC-6` - object-centric process mining and object-centric event logs. | Shows why scalar throughput often hides multiple object bearers, event traces, interactions, and aggregation risks. | Adapt into `dyn2ObjectCentricTraceBlock?` and object-centric trace requirements; reject one scalar rate as whole work-cycle truth when multi-object interaction matters to the claim. |
 | `D2-SRC-7` - active inference and active sensing practice. | Reminds C.27 that measurement can be action, while ordinary FPF pattern relations remain primary. | Adapt as a local relation test for measurement, state-space, planning, evidence, control, causal, or process-log relation; reject automatic QL relevance from planned measurement or typed states. |
 | `D2-SRC-8` - rhythm, beat synchronization, groove, entrainment, and compliant-system timing work. | Disciplines rhythm claims with bearer, timing reference, window, proxy relation, evidence relation, and supported use; coupling, phase, or entrainment appear only for cross-bearer claims with explicit coupling, phase, or entrainment commitments. | Adapt into rhythm fields on `Dyn2TemporalClaimAdequacyCard`; reject a standalone `U.Rhythm` kind or decorative rhythm vocabulary. |
+| `CT-TIME-SRC` - constructor theory of time. | Separates task or bounded transformation from duration, timer and clock relations, and dynamics; a temporal claim can be about a transformation without becoming the transformation itself. | Adopt as a boundary row only: `A.3.4` carries bounded transformation, `C.27.TA` carries positive temporal aspect, `A.3.3` carries dynamics episteme, and C.27 judges the authored temporal claim's adequacy for use. |
 
-Currentness basis: as of June 2026, newer safe-learning MPC and safe-continual-RL work reinforces the existing fields rather than changing the C.27 ontology. Reopen this source use when current control, policy-evaluation, dynamic-treatment-regime, benchmark, or rhythm practice changes the required horizon, constraint, uncertainty, feedback-update, policy-overlap, nonstationarity, safety-boundary, bearer, timing-reference, evidence, or supported-use obligations.
+Currentness source set: as of June 2026, newer safe-learning MPC and safe-continual-RL work reinforces the existing fields rather than changing the C.27 ontology. Reopen this source use when current control, policy-evaluation, dynamic-treatment-regime, benchmark, or rhythm practice changes the required horizon, constraint, uncertainty, feedback-update, policy-overlap, nonstationarity, safety-boundary, bearer, timing-reference, evidence, or supported-use obligations.
 
 SoTA lesson to C.27 obligation map:
 
@@ -79,6 +84,7 @@ SoTA lesson to C.27 obligation map:
 | Performative prediction and Goodhart variants show that published targets can change behavior. | Split metric-as-measure, target or incentive use, temporal intervention, and proxy distortion. | C.16, E.13 or an assurance pattern, C.26 only for residual probe or frame cue. |
 | Object-centric process mining shows scalar throughput can hide multi-object interaction. | Recover object types, event trace, interaction note, and aggregation relation when process speed is FPF-governed. | Local process evidence and OCPM discipline plus C.27 object-centric trace block. |
 | Rhythm research treats rhythm as bearer, timing reference, window, proxy, and coupling when claimed. | Keep cadence or rhythm claims tied to bearer, timing reference, evidence, supported use, and optional coupling only when cross-bearer relation matters. | C.27 rhythm card plus C.16 or evidence relation when measured. |
+| Constructor theory of time separates task or bounded transformation from duration, timer and clock relations, and dynamics. | Do not let a temporal claim supply the transformation ontology or dynamics model. Use `A.3.4` for bounded transformation, `C.27.TA` for temporal aspect, and `A.3.3` for transition-law semantics; keep C.27 to adequacy-for-use of the authored temporal claim. | `A.3.4`, `C.27.TA`, and `A.3.3`. |
 | Scaling-law practice separates scale variable, scale window, probe, and elasticity. | Do not infer linear improvement from more data, tokens, calls, reviewers, or capacity. | C.18.1 and G.9 when compared. |
 | Benchmark practice needs parity pins, baselines, freshness, budgets, and comparator editions. | Do not read faster improvement as benchmark superiority without parity plan or report. | G.9. |
 
@@ -91,13 +97,12 @@ Source id references:
 - `D2-SRC-6`: [OCEL 2.0](https://www.ocel-standard.org/) and [Object-Centric Event Logs: Specifications, Comparative Analysis and Refinement](https://arxiv.org/html/2405.12709v1).
 - `D2-SRC-7`: [Active Inference: A Process Theory](https://activeinference.github.io/papers/process_theory.pdf) and [Embodied decisions as active inference](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013180).
 - `D2-SRC-8`: [Neural entrainment underpins sensorimotor synchronization to dynamic rhythmic stimuli](https://www.sciencedirect.com/science/article/pii/S1053811923003774), [A review of psychological and neuroscientific research on musical groove](https://www.sciencedirect.com/science/article/pii/S0149763423004918), and [Finding the rhythm](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1011478).
+- `CT-TIME-SRC`: David Deutsch and Chiara Marletto, [Constructor theory of time](https://arxiv.org/abs/2505.08692v3).
 
 Control and MPC. Control-style claims need horizon, constraints, uncertainty,
 feedback update, and stability only when a control-style claim is being made. A local
-`Dyn2TemporalClaimAdequacyCard` can say "we plan to brake rollout for two weeks to protect operational-support
-capacity" without becoming MPC. If the claim is not control-style, do not fill
+`Dyn2TemporalClaimAdequacyCard` can say "we plan to brake rollout for two weeks to protect operations-service capacity" without becoming MPC. If the claim is not control-style, do not fill
 control fields. A control claim used beyond the local working context needs the neighboring governing-pattern relation.
-
 C.27 control or policy relation: `dyn2ControlPolicyRelation?` is present only when
 `dynClaimUseClass` is `controlModel`, `policyRule`, `adaptive`, a `planningModel` with feedback relation, or an explicit C.24, C.19, or evaluation relation. The block says that
 the temporal claim has crossed into control claim-use or policy claim-use; it does not make
@@ -125,26 +130,7 @@ turn that temporal relation into a `C.28`-governed causal-use claim with estiman
 temporal-claim question; it does not estimate causal effect unless `dyn2CausalUseRelation?`
 is active and `C.28` causal-use discipline carries the causal question.
 
-Performative prediction, Goodhart, and metric-induced behavior. When a metric
-becomes a target, dashboard, incentive, gate, or public comparison, it may
-change behavior. C.27 should branch the case instead of becoming a Goodhart
-pattern.
-
-`C.27:4 - Solution` defines the `dyn2MetricTargetEffectBlock?` fields; this
-section explains why metric publication and target use must be split from
-measurement construction, comparability, proxy distortion, and residual probe or frame cue.
-
-Content split:
-- C.16 carries metric-as-measure;
-- E.13, assurance, or governance patterns carry metric-as-target, incentive,
-  proxy, utility distortion, or optimization target;
-- metric publication as temporal intervention may make C.27 relevant;
-- C.26 carries metric or probe changes to the supported state reading only if residual
-  probe, frame, order, or export cue remains after ordinary C.27, C.16, and E.13 pattern relations are
-  named.
-
-This keeps Goodhart from becoming a catch-all warning and keeps C.27 focused on
-the dynamic effect of metric publication or metric-target use.
+Metric publication and target use. When a metric becomes a target, dashboard, incentive, gate, or public comparison, it may change temporal behavior. C.27 uses `dyn2MetricTargetEffectBlock?` only for the temporal intervention and supported-use change. C.16 carries metric-as-measure, `E.13` or an assurance pattern carries target, proxy, utility-distortion, or optimization-target adequacy, and C.26 appears only for residual probe, frame, order, or export cues after ordinary C.27, C.16, and `E.13` pattern relations are named. This keeps Goodhart from becoming a C.27 mini-pattern.
 
 Process mining and object-centric process mining. Scalar throughput is often a
 thin view. Some dynamic claims need trace topology, multiple object bearers,

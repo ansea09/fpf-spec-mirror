@@ -6,12 +6,12 @@ section_id: "C.2:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__007_bias-annotation.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:6 — Bias‑Annotation"
-line_start: 34109
-line_end: 34114
+line_start: 34619
+line_end: 34624
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,6 +34,6 @@ keywords:
 ### C.2:6 - Bias‑Annotation
 
 * **Metric worship.** Treating `[F,G,R]` as ends rather than means; mitigation: require **evidence bindings** and narrative of limits in the claim scope and grounding envelope.
-* **Category slip.** Equating a notation or carrier with `ClaimGraph`, EntityOfConcern, or grounding holon; mitigation: slot-graph and carrier separation under C.2.1.
+* **Category slip.** Equating a notation or carrier with `ClaimGraph`, EntityOfConcern, or grounding holon; mitigation: slot-relation and carrier separation under C.2.1.
 * **Analogy inflation.** Presenting CL‑0/1 as identity; mitigation: always name the **CL rung** for cross‑mappings.
 

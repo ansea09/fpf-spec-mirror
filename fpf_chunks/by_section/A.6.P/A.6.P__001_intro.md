@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 12237
-line_end: 12293
+line_start: 12720
+line_end: 12776
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -93,7 +93,7 @@ RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explic
 * **A.7 Strict Distinction** (EntityOfConcern, Description episteme, specification use, publication face, form, unit, carrier, and rendering; avoid treating evidence or logs as properties of prose).
 * **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing/retargeting as disciplined slot writes).
 * **A.10 evidence discipline** (witnesses are carrier‑anchored; freshness is adjudicated in work/evidence lanes).
-* **C.2.1 `U.EpistemeSlotGraph`** (slot read/write profiles for constructor operators, when declared).
+* **C.2.1 `U.EpistemeSlotRelation`** (slot read/write profiles for constructor operators, when declared).
 * **C.3.3 `U.KindBridge` + `CL^k` discipline** (repairing endpoint kind mismatches; kind-level congruence + loss notes).
 * **E.17 MVPK and multi-view publication** (faces are views; "no new semantics"; viewpoint accountability).
 * **E.19 pattern quality gates** (review/refresh discipline for guardrails and conformance lists).

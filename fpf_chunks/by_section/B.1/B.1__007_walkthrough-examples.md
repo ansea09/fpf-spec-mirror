@@ -6,12 +6,12 @@ section_id: "B.1:6"
 section_title: "Walkthrough Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__007_walkthrough-examples.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:6 — Walkthrough Examples"
-line_start: 29164
-line_end: 29189
+line_start: 29674
+line_end: 29699
 dependencies:
   - "A.1"
   - "A.9"

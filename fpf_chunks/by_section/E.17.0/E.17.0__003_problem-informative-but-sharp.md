@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem  (informative, but sharp)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem-informative-but-sharp.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:2 — Problem  (informative, but sharp)"
-line_start: 62703
-line_end: 62726
+line_start: 63490
+line_end: 63513
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -28,7 +28,7 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
@@ -57,5 +57,5 @@ Without `U.MultiViewDescribing`:
    * we cannot give a single formal story for consistency, correspondence, and EpistemicViewing across families of descriptions.
 
 4. **No place to attach correspondence.**
-   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of Description epistemes, including Description epistemes admitted for specification use** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot graph.
+   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of Description epistemes, including Description epistemes admitted for specification use** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot relation.
 

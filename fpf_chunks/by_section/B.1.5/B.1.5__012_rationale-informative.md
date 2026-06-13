@@ -6,12 +6,12 @@ section_id: "B.1.5:11"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__012_rationale-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:11 — Rationale (informative)"
-line_start: 30584
-line_end: 30592
+line_start: 31094
+line_end: 31102
 dependencies:
   - "A.12"
   - "A.14"

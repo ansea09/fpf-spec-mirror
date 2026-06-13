@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Transduction Path"
+pattern_title: "Principles-to-Work Carry-Through"
 section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18.1 — Principles-to-Work Transduction Path"
+  - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67450
-line_end: 67460
+line_start: 68289
+line_end: 68299
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,15 +37,13 @@ dependencies:
 keywords:
   - "P2W"
   - "accepted ProblemCard@Context"
-  - "carried distinction"
   - "carry-through record"
-  - "first-principles cue"
+  - "evaluation refresh"
+  - "formal substrate"
+  - "mechanism realization"
+  - "method-family selection"
   - "principles-to-work"
-  - "result carry-through"
-  - "return trigger"
-  - "selected application"
-  - "source-currentness"
-  - "stop condition"
+  - "work planning"
 ---
 
 ### E.18.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -53,9 +51,9 @@ keywords:
 | Anti-pattern | Repair |
 |---|---|
 | **Boundary fanout.** The pattern repeats long lists of what P2W is not. | Keep relation discipline in `E.18.1:4.4`; make local sections state the next P2W action. |
-| **Path-as-procedure.** The graph is read as a required project sequence. | Treat the graph as carry-through over FPF applications; use `stop`, `split`, and `return` edges. |
+| **Carry-through-as-procedure.** A carry-through structure, diagram, or graph-shaped expression is read as a required project sequence. | Treat it as relation-governed carry-through over FPF applications; use `stop`, `split`, and `return` relations. |
 | **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, work, evidence, or result. | Write the carried distinction and next FPF-use question before selecting an application. |
 | **Math-as-authority.** A `U.Signature(profile=FormalSubstrate)` declaration, mathematical lens, or near-sameness does all downstream work. | Record preserved structure, lost structure, payoff, and stop condition; continue through the recovered relation. |
 | **Generic result token.** "Result" becomes one local kind. | Split the phrase into artifact, telemetry, acceptance, quality, measurement, refresh, source, evidence, or role-enactability relation. |
-| **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the FPF relation before continuing. |
+| **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the module-interface, signature-slot, function, architecture, work, evidence, or gate relation before continuing. |
 

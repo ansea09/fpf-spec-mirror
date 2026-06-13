@@ -6,12 +6,12 @@ section_id: "E.10.D2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__003_problem.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:2 — Problem"
-line_start: 61129
-line_end: 61136
+line_start: 61916
+line_end: 61923
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -27,7 +27,7 @@ dependencies:
   - "F.9"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
 keywords:
   - "Description episteme"
   - "DescriptionContext"

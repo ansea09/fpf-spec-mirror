@@ -6,12 +6,12 @@ section_id: "A.6.F:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__010_consequences.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:9 — Consequences"
-line_start: 14067
-line_end: 14075
+line_start: 14577
+line_end: 14585
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,8 +61,8 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Function-like prose remains usable without minting `U.Function`. | Uses that carry live FPF claims need kind or relation recovery. |
+| Function-like prose remains usable without minting `U.Function`. | Uses that carry FPF claims being made need kind or relation recovery. |
 | Functional architecture becomes a normal architecture-by-structure-kind case. | C.30 or C.30.ASV may be needed when the phrase carries an architecture claim. |
-| Capability, method, work, role, mathematical, quality, module, and interface claims stay separable. | A single familiar word may split into several records when several claim kinds are live. |
-| C.29, C.25, C.16, A.15, C.30, and `A.6.M` receive the claims they actually govern. | A conforming use stops after kind and relation recovery when no further claim kind is live, instead of opening all possible governing patterns. |
+| Capability, method, work, role, mathematical, quality, module, and interface claims stay separable. | A single familiar word may split into several records when several claim kinds are being made. |
+| C.29, C.25, C.16, A.15, C.30, and `A.6.M` receive the claims they actually govern. | A conforming use stops after kind and relation recovery when no further claim kind is being made, instead of opening all possible governing patterns. |
 

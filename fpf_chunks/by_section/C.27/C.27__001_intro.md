@@ -6,16 +6,19 @@ section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:intro — Intro"
-line_start: 47925
-line_end: 47961
+line_start: 48437
+line_end: 48462
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -49,38 +53,27 @@ keywords:
 
 ## C.27 - Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change
 
-> **Type:** Architectural (A)
+> **Type:** Claim-adequacy pattern
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Temporal claim adequacy.
 
-**Primary EntityOfConcern.** C.27 concerns authored temporal claims: descriptions in prose, plans, benchmark lines, dashboards, method notes, promises, or explanations that treat state, rate, rhythm, recovery, braking, coasting, redirection, stabilization, or rate-change as sufficient for some use.
+**Primary EntityOfConcern.** C.27 concerns authored temporal claims: prose, plans, benchmark lines, dashboards, method notes, promises, or explanations that treat state, rate, rhythm, recovery, braking, coasting, redirection, stabilization, or rate-change as sufficient for some practical use.
 
-**Described-system, description, and carrier discipline.** The described system, work, practice, method, service, or benchmark is not the C.27 record. A `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` is an authored description of temporal-claim adequacy. A document, table, page, report, or card may carry that description; it is not the temporal claim, not the dynamic system, and not the work trace.
+**Use this pattern when** a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action and therefore must name the temporal reading, effort or intervention, window, resistance or cost, evidence relation or assumption relation, supported use, unsupported use, and reopen condition.
 
-**Use-context and evidence-or-assumption discipline.** When this pattern says `supportedUse`, it means the decision, plan, diagnosis, comparison, publication, promise, assurance-facing relation, or other practical use that this C.27 record named by value can carry given its `dynClaimUseClass`, evidence path, model or planning assumption, source-use reference when that source use is being made, windows, resistance or cost statement, and reopen condition. `unsupportedUse` means one nearby downstream claim, effect, or use that this record named by value does not carry. These fields do not create permission; they state the pragmatic reach of the authored temporal-claim description.
-Bare "support" should not do hidden ontology work in C.27. Use `supportedUse` and `unsupportedUse` only for the pragmatic reach of a temporal-claim record; use an evidence path, model assumption, source-use reference, or planning assumption for the reason a reading is credible; use `PatternRelationRef` or a named FPF pattern relation when an existing FPF pattern governs the other question.
+**Do not use this pattern when** the wording is ordinary prose, a positive temporal aspect with no adequacy question, a state reading or rate reading whose measurement construction is enough, a formal `U.Dynamics` model, an actual work trace, a benchmark harness, a service promise, a quality judgement, or a residual quantum-like probe case without an intervention-sensitive temporal claim.
 
-**Boundary-crossing claim use.** The governed EntityOfConcern remains an authored temporal claim. What changes is the use context: the claim is used as citable evidence, assumption, source-use reference, or pattern-relation input outside the immediate local discussion, published, benchmarked, promised, assured, made durable rationale, repeated in a reusable method description, used in a gate, public dashboard, or Part G pack, or carried across context or scale. Casual reuse in a neighboring chat is not enough by itself. Boundary-crossing use is what can require a `Dyn2TemporalClaimProfile`.
-
-**Use this pattern when** a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is used to change action and therefore needs effort, window, resistance, evidence path or assumption relation, supported-use, unsupported-use, and reopen discipline.
-
-**Do not use this pattern when** the temporal wording is ordinary prose, a state reading or snapshot, a rate reading or trend reading whose measurement construction is enough, a formal `U.Dynamics` model, an actual work trace, a benchmark harness, a service promise, a quality judgement, or a residual quantum-like probe case without an intervention-sensitive temporal claim.
-
-**C.27 in 60 seconds.** Use C.27 only if:
+**C.27 in 60 seconds.** A trend is not yet an intervention model. Use C.27 only if:
 
 1. temporal wording is used to justify action, comparison, budget, gate, promise, assurance, or an explicit relation to another FPF pattern;
 2. the difference between state, rate, and rate-change changes supported use;
-3. the text can name at least target, intervention, window, resistance or cost, evidence path or assumption relation, supported use, and unsupported use or reopen trigger.
+3. a small card can name the temporal reading or bearer, intervention, window, resistance or cost, evidence relation or assumption relation, supported use, and unsupported downstream claim, effect, use, or reopen trigger.
 
-Otherwise stop at ordinary prose, a Dyn0 state reading, a Dyn1 rate reading or trend reading, `C.16.P` when characteristic, scale, score, metric, or proxy wording is hidden, C.16 measurement discipline when the measurement construction is already recoverable, `C.16.Q` or `C.25` when overloaded quality wording or a quality-family endpoint is the issue under repair, `U.Dynamics` model discipline, or the existing FPF pattern that governs the other question.
+For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. Boundary-crossing use can require a `Dyn2TemporalClaimProfile`, but the profile remains a pattern-local authored temporal-claim adequacy record, not the dynamic system, not the work trace, not a publication role, and not the default output.
 
-For local diagnosis or planning, C.27 usually ends with one `Dyn2TemporalClaimAdequacyCard`. Plain references are enough while the use stays local. A local card should normally fit in 5-9 short lines; if it does not, clarify the claim, narrow it, or cite the existing FPF pattern that governs the other question. `PatternRelationRef`, `C16MeasurementRelationRef`, `G9ParityPlanRef`, and similar references appear only when the use is FPF-governed beyond the local note.
+**Split boundaries.** Use `C.27.TA` to name positive temporal aspects such as time window, freshness, cadence, rhythm, trajectory, recovery timing, stabilization timing, effort over time, inertia, or refresh condition. Use `A.3.4` when the question under repair is the bounded transformation itself. C.27 may judge an authored temporal claim about a transformation, but it does not identify the `U.Transformation` value, supply its slot relation, or turn a temporal reading into evidence, permission, or work.
 
-**Quick refusals.** "Backlog is 120" is Dyn0; no C.27 record. "Backlog fell 20/week" is Dyn1, with C.16 if the measure is FPF-governed; no C.27 record unless a rate-change use appears. "This section accelerates orientation" is ordinary prose unless the `PublicationUnit` carries that acceleration claim as method-effectiveness evidence.
-
-**Dyn2 is not maturity.** Dyn2 classifies the use made of an authored temporal claim, not the system, team, method, or service being described. Higher `DynOrder` is not better; it only says what the authored temporal claim treats as sufficient for supported use.
-
-**Local refresh boundary.** A local card carries only a reopen, downgrade, or pattern-reference condition. G.11, B.3.4, and assurance refresh discipline become relevant only when the temporal claim is public, Part G-facing, assurance-facing, or otherwise durable beyond local planning or diagnosis.
+**Description and support discipline.** The described system, work, practice, method, service, or benchmark is not the C.27 record. A `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` is an authored description of temporal-claim adequacy; a document, table, page, report, or card may carry that description. `supportedUse` and `unsupportedUse` state the pragmatic reach of that authored temporal-claim description. Use an evidence relation, model assumption, source-use reference, planning assumption, or named FPF pattern relation for the reason a reading is credible; do not let bare "support" do hidden ontology work.
 

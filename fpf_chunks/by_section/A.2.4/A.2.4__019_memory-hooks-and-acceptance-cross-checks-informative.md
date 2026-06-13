@@ -6,12 +6,12 @@ section_id: "A.2.4:18"
 section_title: "Memory hooks and acceptance cross-checks (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__019_memory-hooks-and-acceptance-cross-checks-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:18 — Memory hooks and acceptance cross-checks (informative)"
-line_start: 3540
-line_end: 3557
+line_start: 3542
+line_end: 3559
 dependencies:
   - "A.10"
   - "A.2"

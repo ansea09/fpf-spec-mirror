@@ -1,24 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18"
-pattern_title: "Transduction Graph Architecture (E.TGA)"
+pattern_title: "Transformation Flow Structure"
 section_id: "E.18:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__004_problem.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18 — Transduction Graph Architecture (E.TGA)"
+  - "E.18 — Transformation Flow Structure"
   - "E.18:3 — Problem"
-line_start: 66679
-line_end: 66685
+line_start: 67492
+line_end: 67498
 dependencies:
   - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.7"
+  - "C.29"
+  - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.17"
+  - "E.18.1"
+  - "E.18.2"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -26,24 +31,19 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "CSLC normalize-then-compare"
-  - "CV⇒GF (ConstraintValidity → GateFit)"
-  - "DesignRunTag"
-  - "MVPK faces"
-  - "OperationalGate(profile)"
-  - "PathSlice/Sentinel refresh"
-  - "Set-return selection"
-  - "SquareLaw"
-  - "UNM declaration locus"
-  - "edge=U.Transfer (single-edge kind)"
-  - "nodes=morphisms"
-  - "transduction graph"
+  - "P2W support"
+  - "composition"
+  - "crossings"
+  - "flow valuation"
+  - "guards"
+  - "selected transformations"
+  - "transformation flow structure"
 ---
 
 ### E.18:3 - Problem
 
-1. **Morphisms ≠ Graph.** A catalog of morphism-scoped patterns (e.g., UNM, Selector, Work, Refresh) does not, by itself, explain **how the whole graph is built, constrained, and audited**.
-2. **Flow proliferation.** Multiple “reference flows” can be declared; practitioners need **one graph discipline** that keeps their graph relations typed and comparable **without privileging any single flow**.
+1. **Mathematical lens != selected structure.** A catalog of morphism-scoped, transformation-scoped, mechanism-scoped, work-scoped, or refresh-scoped patterns does not, by itself, explain **how the whole selected structure is built, constrained, and audited**.
+2. **Flow proliferation.** Multiple “reference flows” can be declared; practitioners need **one structure discipline** that keeps their flow relations typed and comparable **without privileging any single flow**.
 3. **Unsafe publication.** Faces re‑list I/O, hide scalarization, or omit edition/plane pins; cross‑Context reuse lacks **Bridge/CL** citation; **plane penalties** appear in F/G instead of R.
 4. **Cycles without norms.** Selection↔Planning loops run without explicit **budget (Γ_time)**, **FreshnessRequest**, or **slice‑scoped** refresh; `FinalizeLaunchValues` (launch‑value slot filling) is performed too early (outside `U.Work` (`U.WorkEnactment`)).
 

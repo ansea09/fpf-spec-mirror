@@ -6,12 +6,12 @@ section_id: "I.2:End"
 section_title: "I.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__010_i-2-end.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:End — I.2:End"
-line_start: 83645
-line_end: 83687
+line_start: 84781
+line_end: 84823
 dependencies:
 keywords:
 ---

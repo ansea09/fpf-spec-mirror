@@ -6,12 +6,12 @@ section_id: "A.6.F:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14054
-line_end: 14066
+line_start: 14564
+line_end: 14576
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,9 +64,9 @@ keywords:
 | **Root function kind** | The text treats function as a new universal FPF kind. | Use `FunctionUseRepair` and assign the use to an existing FPF kind, relation, claim record, view, or governing-pattern application. |
 | **Functional architecture exception** | Functional architecture is treated as a peer architecture ontology. | Expand to `FunctionalStructure` under `ArchitectureOf@Context` and C.30.ASV. |
 | **Capability collapse** | What the holon can do is treated as a functional dependency or vice versa. | Split capability claim from functional relation or effect claim. |
-| **Work collapse** | Work occurrence or result is described as a function. | Assign occurrence or result claims to A.15 and P2W and keep functional wording design-side unless work evidence is live. |
+| **Work collapse** | Work occurrence or result is described as a function. | Assign occurrence or result claims to A.15 and P2W and keep functional wording design-side unless a work-evidence claim is being made. |
 | **Mathematical-function import** | A mathematical function, loss, objective, or value functional becomes design ontology. | Use C.29 and state preserved and lost structure plus stop condition. |
-| **Module allocation shortcut** | A function is considered implemented because a module is named. | Add correspondence, allocation, interface-signature boundary, or `A.6.M` module-relation repair. |
+| **Module allocation shortcut** | A function is considered implemented because a module is named. | Add correspondence, allocation, module-interface/signature boundary, or `A.6.M` module-relation repair. |
 | **Functionality as quality proxy** | "Functionality" carries adequacy or quality claim without bearer and governing pattern. | Recover bearer and governing pattern through `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern. |
 | **Sterile kind repair** | The wording is typed but no useful move remains. | Restore the kind or relation assignment, functional view, alignment note, or governing-pattern application. |
 

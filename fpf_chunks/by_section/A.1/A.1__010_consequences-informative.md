@@ -6,12 +6,12 @@ section_id: "A.1:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__010_consequences-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:9 — Consequences (informative)"
-line_start: 1447
-line_end: 1454
+line_start: 1449
+line_end: 1456
 dependencies:
   - "A.1"
   - "A.1.1"

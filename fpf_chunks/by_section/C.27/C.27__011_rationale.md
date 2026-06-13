@@ -6,16 +6,19 @@ section_id: "C.27:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__011_rationale.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:10 — Rationale"
-line_start: 49595
-line_end: 49637
+line_start: 50099
+line_end: 50141
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"

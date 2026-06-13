@@ -6,12 +6,12 @@ section_id: "B.5.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__001_intro.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:intro — Intro"
-line_start: 33923
-line_end: 33924
+line_start: 34433
+line_end: 34434
 dependencies:
   - "A.2"
   - "C.3"

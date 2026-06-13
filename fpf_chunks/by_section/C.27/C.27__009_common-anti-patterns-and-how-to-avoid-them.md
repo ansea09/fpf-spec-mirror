@@ -6,16 +6,19 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49493
-line_end: 49540
+line_start: 49997
+line_end: 50044
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -90,8 +94,8 @@ that trap.
 | Premature convergence by acceleration | Faster narrowing collapses diversity, novelty, or frontier coverage. | Use C.17, C.18, and C.19 as applicable and distinguish exploitation speed from healthy search. |
 | Dyn2 profile as hidden promise | A planning note becomes a service guarantee, SLA-like statement, or public commitment. | Separate planning assumption or planning-model relation from promise content and boundary obligation. |
 | Noisy acceleration worship | Small variation is overread as meaningful rate-change. | Widen sampling, add uncertainty, downgrade, or collect higher-quality or more directly relevant evidence. |
-| Tool-call acceleration theater | More calls or more context are treated as faster reasoning. | Name the target rate-change and stop or replan trigger. |
-| Harmful acceleration | Work is accelerated while safety, ethics, legality, operational-support load, or human wellbeing becomes worse. | Use pattern-reference-only `dyn2HighStakesTemporalMoveRelation?` to name the high-stakes temporal move, window, and unsupported use and cite the assurance, ethics, legal, safety, quality, or wellbeing pattern that governs the other question. |
+| Tool-call acceleration theater | More calls or more context are treated as faster reasoning. | Name the rate-change under concern and stop or replan trigger. |
+| Harmful acceleration | Work is accelerated while safety, ethics, legality, operations-service demand, or human wellbeing becomes worse. | Use pattern-reference-only `dyn2HighStakesTemporalMoveRelation?` to name the high-stakes temporal move, window, and unsupported use and cite the assurance, ethics, legal, safety, quality, or wellbeing pattern that governs the other question. |
 | Coasting claim without evidence or assumption | Continued motion after effort stops is treated as free evidence of success. | Name coasting evidence or assumption: habit, automation, stored work, learned capability, social norm, commitment momentum, physical inertia, queue pressure, or unknown. |
 | Reversibility fantasy | Effort is removed and the system is assumed to return cleanly. | Include `dyn2DebtHysteresisBlock?` only when supported use depends on residue or reversibility; record `unknown` if needed and bound supported use, with brake or recovery relation when FPF-governed. |
 

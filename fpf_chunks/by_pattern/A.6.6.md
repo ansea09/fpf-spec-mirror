@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.6.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
-line_start: 15199
-line_end: 15763
+line_start: 15709
+line_end: 16273
 dependencies:
   - "A.10"
   - "A.14"
@@ -67,7 +67,7 @@ keywords:
 **Coordinates with.**
 – A.10 Evidence–Provenance DAG discipline (`verifiedBy`, `validatedBy`).
 – A.14 per-edge constructive grounding (`tv:groundedBy`) and `validationMode` discipline.
-– C.2.1 `U.EpistemeSlotGraph` grounding slots (`GroundingHolonSlot`, `EntityOfConcernSlot`).
+– C.2.1 `U.EpistemeSlotRelation` grounding slots (`GroundingHolonSlot`, `EntityOfConcernSlot`).
 – A.6.3 `U.EpistemicViewing` (`EntityOfConcernRef`-preserving view operators; base-relative “how” without retargeting).
 – A.6.4 `U.EpistemicRetargeting` (base-change along `KindBridge`; retargeting lexicon and continuity rules).
 – C.3.3 `U.KindBridge` & `CL^k` (explicit repair/translation when endpoint kinds or Contexts differ; no silent re-typing).

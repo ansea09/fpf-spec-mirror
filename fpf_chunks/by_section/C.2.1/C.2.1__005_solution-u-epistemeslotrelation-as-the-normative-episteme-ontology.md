@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme — Epistemes and their slot graph"
+pattern_title: "U.Episteme - Epistemes and their slot relation"
 section_id: "C.2.1:4"
-section_title: "Solution — U.EpistemeSlotGraph as the normative episteme ontology"
+section_title: "Solution - U.EpistemeSlotRelation as the normative episteme ontology"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotgraph-as-the-normative-episteme-ontology.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotrelation-as-the-normative-episteme-ontology.md"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.2.1 — U.Episteme — Epistemes and their slot graph"
-  - "C.2.1:4 — Solution — U.EpistemeSlotGraph as the normative episteme ontology"
-line_start: 34253
-line_end: 34634
+  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1:4 — Solution - U.EpistemeSlotRelation as the normative episteme ontology"
+line_start: 34764
+line_end: 35146
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -26,47 +26,47 @@ dependencies:
 keywords:
 ---
 
-### C.2.1:4 - Solution — `U.EpistemeSlotGraph` as the normative episteme ontology
+### C.2.1:4 - Solution - `U.EpistemeSlotRelation` as the normative episteme ontology
 
 #### C.2.1:4.0 - Overview
 
-For `U.Episteme`, `U.EpistemeSlotGraph` is the normative **small, typed ontology graph** and **n-ary relation view** over the core episteme positions:
+For `U.Episteme`, `U.EpistemeSlotRelation` is the normative **small, typed n-ary relation with SlotSpecs** over the core episteme positions. It is not a graph object and not a tuple object. Under `C.29`, the same slot relation may be viewed as a tuple for filled-value reasoning or as a graph/hypergraph diagram for dependency reasoning, but those are mathematical-lens views. Graph-valued fillers such as `U.ClaimGraph` remain real graph-kinds inside the relation.
 
- **Nodes / positions / slots.**
+**Positions / slots.**
   Minimal **kernel SlotKinds** (with their ValueKinds) that every episteme can refer to, following A.6.5:
-  * `EntityOfConcernSlot`  (ValueKind `U.Entity` or a declared subkind) → *“what this episteme is about”*;
-  * `GroundingHolonSlot`   (ValueKind `U.Holon`) → *“where/how this is grounded”*;
-  * `ClaimGraphSlot`       (ValueKind `U.ClaimGraph`) → *“what is being said (claim content)”*;
-  * `ReferenceSchemeSlot`  (ValueKind `U.ReferenceScheme`) → *“how we read claims as statements about entities”*;
-  * `ViewpointSlot`        (ValueKind `U.Viewpoint`) → *“under which viewpoint we read/validate this episteme”*;
-  * `ViewSlot`             (ValueKind `U.View`) → *“a view‑episteme produced under a viewpoint”*.
+  * `EntityOfConcernSlot`  (ValueKind `U.Entity` or a declared subkind) -> *"what this episteme is about"*;
+  * `GroundingHolonSlot`   (ValueKind `U.Holon`) -> *"where/how this is grounded"*;
+  * `ClaimGraphSlot`       (ValueKind `U.ClaimGraph`) -> *"what is being said (claim content)"*;
+  * `ReferenceSchemeSlot`  (ValueKind `U.ReferenceScheme`) -> *"how we read claims as statements about entities"*;
+  * `ViewpointSlot`        (ValueKind `U.Viewpoint`) -> *"under which viewpoint we read/validate this episteme"*;
+  * `ViewSlot`             (ValueKind `U.View`) -> *"a view-episteme produced under a viewpoint"*.
 
 * **Slots and signatures.**
   These positions are realised as **SlotKinds** with associated **ValueKinds** and **RefKinds** under `U.RelationSlotDiscipline` (A.6.5). An **episteme kind** (`U.EpistemeKind`) is a **signature** over these slots.
 
-* **Episteme as n‑ary relation and as holon.**
+* **Episteme as n-ary relation and as holon.**
   Each concrete episteme instance can be seen both as:
 
-  * a **tuple** filling these slots (`U.EpistemeTuple`), and
+  * a **filled value assignment** over this slot relation; when C.29 tuple reasoning is current, the assignment may be viewed as a tuple view without becoming a second episteme kind, and
   * a **holon with components** (`U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication`) whose fields correspond to those slots.
 
-`U.Episteme` is thus the holon type whose components are *disciplined* by the `U.EpistemeSlotGraph`; C.2.1 fixes that discipline.
+`U.Episteme` is thus the holon type whose components are *disciplined* by the `U.EpistemeSlotRelation`; C.2.1 fixes that discipline.
 
 * **Morphisms.**
-  Simple **epistemic morphisms** (EntityOfConcern-reference mapping, grounding, encoding, evaluation) are expressed as ordinary relations/functions between these positions. A.6.2–A.6.4 then specify general laws for effect-free morphisms over `U.Episteme`.
+  Simple **epistemic morphisms** (EntityOfConcern-reference mapping, grounding, encoding, evaluation) are expressed as ordinary relations/functions between these positions and their graph-valued or non-graph-valued fillers. A.6.2-A.6.4 then specify general laws for effect-free morphisms over `U.Episteme`.
 
 * **Symbol-Concept-Object triangle as didactic projection.**
-  The classic Symbol–Concept–Object triangle becomes a **didactic view** of this graph, not the normative ontology; it is simply the projection to:
+  The classic Symbol-Concept-Object triangle becomes a **didactic view** of this slot relation, not the normative ontology; it is simply the projection to:
 
-  * `Symbol` ≈ a subset of `U.RepresentationScheme`/`U.RepresentationToken`,
-  * `Concept` ≈ `U.ClaimGraph`,
-  * `Object` ≈ `{EntityOfConcern, ReferenceScheme}`.
+  * `Symbol` ~= a subset of `U.RepresentationScheme`/`U.RepresentationToken`,
+  * `Concept` ~= `U.ClaimGraph`,
+  * `Object` ~= `{EntityOfConcern, ReferenceScheme}`.
 
-The rest of this pattern fixes the **minimal core** needed by KD‑CAL, A.6.2–A.6.4 and E.17.\*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
+The rest of this pattern fixes the **minimal core** needed by KD-CAL, A.6.2-A.6.4 and E.17.*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
 
 #### C.2.1:4.1 - Minimal epistemic positions (nodes & slots)
 
-This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the associated **SlotKinds**. These are the positions that A.6.2–A.6.4 and E.17.* can rely on.
+This section defines the **minimal position set** for `U.EpistemeSlotRelation` and the associated **SlotKinds**. These are the positions that A.6.2-A.6.4 and E.17.* can rely on.
 
 ##### C.2.1:4.1.1 - `EntityOfConcernSlot` — “what this episteme is about”
 
@@ -215,9 +215,9 @@ This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the 
 **Didactic cue.**
 “Ask: *Given this ClaimGraph, how exactly do we treat it as talking about these entities in these contexts, and how do we test it?* That is the ReferenceScheme.”
 
-##### C.2.1:4.1.7 - Minimal node set and extension C.2.1+
+##### C.2.1:4.1.7 - Minimal slot relation and extension C.2.1+
 
-The **minimal `U.EpistemeSlotGraph` core** for C.2.1 consists of positions (the episteme core SlotKinds of A.6.5 CC‑A.6.5‑5):
+The **minimal `U.EpistemeSlotRelation` core** for C.2.1 consists of positions (the episteme core SlotKinds of A.6.5 CC-A.6.5-5):
 * `EntityOfConcernSlot` (ValueKind `U.Entity`),
 * `GroundingHolonSlot` (ValueKind `U.Holon`),
 * `ClaimGraphSlot` (ValueKind `U.ClaimGraph`),
@@ -225,7 +225,7 @@ The **minimal `U.EpistemeSlotGraph` core** for C.2.1 consists of positions (the 
 * `ViewSlot` (ValueKind `U.View`),
 * `ReferenceSchemeSlot` (ValueKind `U.ReferenceScheme`).
 
-This pattern **only fixes these positions**.
+This pattern **only fixes these positions** and their SlotSpec discipline. It does not turn every graph-valued value into a tuple and does not turn the tuple into a graph.
 The **extension C.2.1+** (second step of the refactor) adds:
 * `U.RepresentationScheme` and `RepresentationSchemeSlot`,
 * `U.RepresentationToken` and `RepresentationTokenSlot`,
@@ -235,20 +235,20 @@ The **extension C.2.1+** (second step of the refactor) adds:
 without changing:
 * the definition of `U.EpistemeKind`,
 * the minimal `U.EpistemeCard` interface,
-* or the assumptions A.6.2–A.6.4 / E.17.* make about episteme components.
+* or the assumptions A.6.2-A.6.4 / E.17.* make about episteme components.
 
 In C.2.1+ `U.PresentationCarrier`, publication face/form values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
 `U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face/form discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces/forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
 
 ##### C.2.1:4.1.8 - Attached epistemic structures (non-slot components)
 
-`U.EpistemeSlotGraph` deliberately does **not** reify every episteme-adjacent structure as a node. Several key structures remain **attached, non-slot components** of `U.Episteme`:
-* **`JustificationGraph`** — the argument/evidence graph for nodes of `U.ClaimGraph` (A.10/B.3).
-* **`EvidenceBindings`** — per-claim `U.EvidenceRole` assignments that connect claims to external `U.Work` and carriers.
-* **`EditionSeries`** — the `PhaseOf` chain of episteme editions (A.14) with change-class annotations (symbol-only vs ClaimGraph vs ReferenceScheme changes).
-* **`ScopeCard` and `U.ClaimScope`** — USM scope values (A.2.6) describing where the episteme's claims hold.
+`U.EpistemeSlotRelation` deliberately does **not** reify every episteme-adjacent structure as a slot. Several key structures remain **attached, non-slot components** of `U.Episteme`:
+* **`JustificationGraph`** - the argument/evidence graph for nodes of `U.ClaimGraph` (A.10/B.3).
+* **`EvidenceBindings`** - per-claim `U.EvidenceRole` assignments that connect claims to external `U.Work` and carriers.
+* **`EditionSeries`** - the `PhaseOf` chain of episteme editions (A.14) with change-class annotations (symbol-only vs ClaimGraph vs ReferenceScheme changes).
+* **`ScopeCard` and `U.ClaimScope`** - USM scope values (A.2.6) describing where the episteme's claims hold.
 
-These attached structures are **not extra positions** of `U.EpistemeSlotGraph`; they hang off the `U.ClaimGraph` and `U.ReferenceScheme` pair and are governed by KD-CAL (C.2), A.10, and B.3. C.2.1 only requires that an episteme which participates in KD-CAL exposes them in a way that keeps **ClaimGraph, ReferenceScheme, Evidence, EditionSeries, and `ClaimScope`** clearly distinguishable.
+These attached structures are **not extra positions** of `U.EpistemeSlotRelation`; they hang off the `U.ClaimGraph` and `U.ReferenceScheme` pair and are governed by KD-CAL (C.2), A.10, and B.3. C.2.1 only requires that an episteme which participates in KD-CAL exposes them in a way that keeps **ClaimGraph, ReferenceScheme, Evidence, EditionSeries, and `ClaimScope`** clearly distinguishable.
 
 #### C.2.1:4.2 - Episteme as n‑ary relation and as holon
 
@@ -281,28 +281,29 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
 **Didactic cue.**
 “An `EpistemeKind` is the *type* of episteme: which positions it has and what can go into them.”
 
-##### C.2.1:4.2.2 - `U.EpistemeTuple` — episteme as filled n‑ary relation
+##### C.2.1:4.2.2 - Filled episteme value assignment and C.29 tuple view
 
-**Tech:** `U.EpistemeTuple` (kernel species).
+**Tech:** filled episteme value assignment over `U.EpistemeSlotRelation`; C.29 tuple view when tuple reasoning is current.
 
-**Intent.** Model **filled instances** of an episteme’s signature, separating the n‑ary relation from any particular holonic packaging or publication.
+**Intent.** Model a filled use of an episteme's slot relation without making tuple, graph, or publication form into the ontology head.
 
 **Normative definition.**
 
-1. `U.EpistemeTuple` is a species whose instances are **pure value tuples**:
-   * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot’s **ValueKind** (or a reference value of **RefKind**, if the kind is configured as such).
-2. `U.EpistemeTuple` is **notation‑agnostic** and **carrier‑agnostic**: it does not know about files, formats, publication faces/forms, or carriers.
-   It exists to give A.6.2–A.6.4 a minimal notion of “episteme as a point in Ep”.
-3. In episteme, `U.EpistemeTuple` rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta‑information).
+1. A filled episteme value assignment supplies one governed value or reference for each asserted SlotKind in the associated `U.EpistemeKind`:
+   * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot's **ValueKind** or a reference value of **RefKind**, if the kind is configured as such.
+2. The filled assignment is **notation-agnostic** and **carrier-agnostic**: it does not know about files, formats, publication faces/forms, or carriers.
+   It exists to give A.6.2-A.6.4 a minimal notion of "episteme as a filled point over the episteme SlotRelation".
+3. Under `C.29`, the same filled assignment may be viewed as a tuple when tuple reasoning is the selected mathematical lens. That tuple view is a mathematical-lens representation of the filled SlotRelation, not a second episteme kind and not a replacement for graph-valued fillers such as `U.ClaimGraph`.
+4. In ordinary episteme work, the filled assignment rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta-information).
 
 **Didactic cue.**
-“An `EpistemeTuple` is the abstract record of *what fills which slots* — nothing more.”
+"A filled episteme assignment says *what fills which slots*; if C.29 asks for tuple reasoning, read that assignment as a tuple view."
 
 ##### C.2.1:4.2.3 - `U.EpistemeCard`, `U.EpistemePublication`, `U.EpistemeView` — holonic realisations
 
 **Tech:** `U.EpistemeCard`, `U.EpistemePublication`, `U.EpistemeView` (species of `U.Episteme`).
 
-**Intent.** Provide **holon‑level structures** that engineers can work with (components, mereology, provenance), while keeping them aligned with `U.EpistemeKind` and `U.EpistemeTuple`.
+**Intent.** Provide **holon-level structures** that engineers can work with (components, mereology, provenance), while keeping them aligned with `U.EpistemeKind` and `U.EpistemeSlotRelation`.
 
 **Normative definition.**
 

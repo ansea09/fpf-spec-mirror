@@ -1,24 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18"
-pattern_title: "Transduction Graph Architecture (E.TGA)"
+pattern_title: "Transformation Flow Structure"
 section_id: "E.18:13"
 section_title: "Bias‑Annotation (per E.8 SG‑bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18 — Transduction Graph Architecture (E.TGA)"
+  - "E.18 — Transformation Flow Structure"
   - "E.18:13 — Bias‑Annotation (per E.8 SG‑bias slot)"
-line_start: 67099
-line_end: 67108
+line_start: 67913
+line_end: 67922
 dependencies:
   - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.7"
+  - "C.29"
+  - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.17"
+  - "E.18.1"
+  - "E.18.2"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -26,27 +31,22 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "CSLC normalize-then-compare"
-  - "CV⇒GF (ConstraintValidity → GateFit)"
-  - "DesignRunTag"
-  - "MVPK faces"
-  - "OperationalGate(profile)"
-  - "PathSlice/Sentinel refresh"
-  - "Set-return selection"
-  - "SquareLaw"
-  - "UNM declaration locus"
-  - "edge=U.Transfer (single-edge kind)"
-  - "nodes=morphisms"
-  - "transduction graph"
+  - "P2W support"
+  - "composition"
+  - "crossings"
+  - "flow valuation"
+  - "guards"
+  - "selected transformations"
+  - "transformation flow structure"
 ---
 
 ### E.18:13 - Bias‑Annotation (per E.8 SG‑bias slot)
 
-* **Acyclic‑bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.TGA explicitly permits loops with budget/sentinel controls (CC‑TGA‑13,‑18).
-* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.TGA keeps declared order relations and return sets visible (CC-TGA-10, CC-TGA-12).
-* **Interop‑dominance risk.** File/format ecosystems (CWL/RO‑Crate/lineage) can be mistaken for semantic sources; E.TGA places them in **InteropCard** and keeps governing semantics in nodes/gates.
-* **Over‑formalization risk.** Category‑theoretic formalisms can obscure operational guard‑rails; E.TGA grounds crossings in Bridge/UTS/CL/Φ pins and SquareLaw audits (CC‑TGA‑11,‑17).
-* **Retrospective rewrite risk.** Global rewrites break replay; E.TGA confines them to edition bumps and slice‑local refresh (CC‑TGA‑16).
+* **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.18 explicitly permits loops with budget/sentinel controls (CC-E18-13, -18).
+* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.18 keeps declared order relations and return sets visible (CC-E18-10, CC-E18-12).
+* **Interop-dominance risk.** File/format ecosystems (CWL/RO-Crate/lineage) can be mistaken for semantic sources; E.18 places them in **InteropCard** and keeps governing semantics in loci/gates.
+* **Over-formalization risk.** Category-theoretic formalisms can obscure operational guard-rails; E.18 grounds crossings in Bridge/UTS/CL/Phi pins and SquareLaw audits (CC-E18-11, -17).
+* **Retrospective rewrite risk.** Global rewrites break replay; E.18 confines them to edition bumps and slice-local refresh (CC-E18-16).
 
 **Mitigations.** Profile‑gated publication, audit of `DecisionLog`, mandatory edition pins, Lean‑to‑Core upgrade paths, and conformance tests tied to PathSlice replay.
 

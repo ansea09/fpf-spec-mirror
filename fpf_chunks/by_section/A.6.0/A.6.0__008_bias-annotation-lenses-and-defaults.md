@@ -6,12 +6,12 @@ section_id: "A.6.0:6"
 section_title: "Bias-Annotation (lenses and defaults)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_bias-annotation-lenses-and-defaults.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:6 — Bias-Annotation (lenses and defaults)"
-line_start: 9199
-line_end: 9206
+line_start: 9682
+line_end: 9689
 dependencies:
   - "A.2.6"
   - "A.6.1"

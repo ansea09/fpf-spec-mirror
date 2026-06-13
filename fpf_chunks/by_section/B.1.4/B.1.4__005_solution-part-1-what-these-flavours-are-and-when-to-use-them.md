@@ -6,12 +6,12 @@ section_id: "B.1.4:4"
 section_title: "Solution — Part 1: What these flavours are, and when to use them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution-part-1-what-these-flavours-are-and-when-to-use-them.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:4 — Solution — Part 1: What these flavours are, and when to use them"
-line_start: 30028
-line_end: 30119
+line_start: 30538
+line_end: 30629
 dependencies:
   - "A.12"
   - "A.14"

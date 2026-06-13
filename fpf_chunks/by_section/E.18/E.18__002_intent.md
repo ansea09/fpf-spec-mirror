@@ -1,24 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18"
-pattern_title: "Transduction Graph Architecture (E.TGA)"
+pattern_title: "Transformation Flow Structure"
 section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18 — Transduction Graph Architecture (E.TGA)"
+  - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 66641
-line_end: 66664
+line_start: 67431
+line_end: 67477
 dependencies:
   - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.7"
+  - "C.29"
+  - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.17"
+  - "E.18.1"
+  - "E.18.2"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -26,41 +31,59 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "CSLC normalize-then-compare"
-  - "CV⇒GF (ConstraintValidity → GateFit)"
-  - "DesignRunTag"
-  - "MVPK faces"
-  - "OperationalGate(profile)"
-  - "PathSlice/Sentinel refresh"
-  - "Set-return selection"
-  - "SquareLaw"
-  - "UNM declaration locus"
-  - "edge=U.Transfer (single-edge kind)"
-  - "nodes=morphisms"
-  - "transduction graph"
+  - "P2W support"
+  - "composition"
+  - "crossings"
+  - "flow valuation"
+  - "guards"
+  - "selected transformations"
+  - "transformation flow structure"
 ---
 
 ### E.18:1 - Intent
 
-Provide a notation-independent architecture for transduction graphs. The EntityOfConcern is a `TransductionGraph`: a typed, editioned directed multigraph whose nodes are morphisms, whose edges are one typed `U.Transfer` relation, and whose flows are valuations over paths or path slices inside the same graph object. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge/CL notes, and refresh scope.
+Provide a notation-independent pattern for `TransformationFlowStructure`: a selected compound structure of atomic `U.Transformation` values and transformation-adjacent governed loci. The EntityOfConcern is the selected structure itself: loci for atomic transformations and adjacent governed values, one typed `U.Transfer` relation, and Eulerian/declarative valuations over paths or path slices inside the same selected structure. A locus may express, decompose, constrain, or locate a bounded transformation under `A.3.4`, or it may bind a signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, or refresh locus that participates in or constrains transformations without becoming the transformation. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge/CL notes, and refresh scope. Mathematical descriptions of this selected structure, including graph, algebra, category, tuple, path, slice, morphism, quotient, fold, refinement, factorization, or wiring expressions, are governed by `E.18.2` and `C.29` when lens adequacy matters.
 
-**Use this when.** Use E.TGA when project work needs one graph object, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer`; use neighboring patterns when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, or wording-use cue rather than the graph structure.
+**Use this when.** Use E.18 when project work needs one selected transformation-flow structure, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer`; use neighboring patterns when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure.
 
-**First useful move.** Name the graph object, the node kinds, the single `U.Transfer` edge kind, and the crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransductionGraph`, current `PathId` or `PathSliceId` when a path or slice is the EntityOfConcern, node kinds, one `U.Transfer`, and only the crossings or pins required by that application.
+**First useful move.** Name the selected transformation-flow structure, the locus kinds, the single `U.Transfer` relation, and the crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransformationFlowStructure`, current `PathId` or `PathSliceId` when a path or slice is the EntityOfConcern, locus kinds, one `U.Transfer`, and only the crossings or pins required by that application.
 
-**Graph ontology.** E.TGA keeps these distinctions primary:
+First-use slice:
+
+```text
+TransformationFlowStructure:
+  selectedStructure: cooling-loop stabilization path for one reactor subsystem review.
+  loci:
+    L1: U.Transformation, cooling-loop operating-state stabilization.
+    L2: U.Mechanism, control-law mechanism governing the stabilization.
+    L3: U.WorkPlan, planned measurement and setting-change work.
+    L4: U.Work, dated test run only after work occurs.
+  transferRelationKind: U.Transfer.
+  currentPathSlice: emergency-load-change review slice.
+  crossingOrGate: safety-review gate only where context, edition, launch, or work boundary changes.
+  mathematicalDescriptionRef?: E.18.2 only if a graph, algebra, or category expression is being used.
+```
+
+This slice names the selected structure and its governed loci first. Publication faces, TEVB viewpoint mapping, GateDecision records, and conformance rows are opened only when that use actually publishes, maps viewpoints, crosses a gate, or consumes assurance checks.
+
+**Structure ontology.** E.18 keeps these distinctions primary:
 
 | Construct | What it carries | Boundary |
 |---|---|---|
-| `TransductionGraph` | the graph object, node kinds, one `U.Transfer` edge kind, and graph-wide budgets or edition pins | not a work procedure or method sequence |
-| flow valuation | a path, path slice, state, guard, comparator, or budget over the graph | not a second graph kind |
+| `TransformationFlowStructure` | the selected compound structure, positioned locus kinds, one `U.Transfer` relation, and structure-wide budgets or edition pins | not a work procedure, method sequence, mathematical graph expression, or one `U.Transformation` |
+| transformation locus | an E.18 locus, path, path slice, substructure, or valuation used to express, decompose, constrain, or locate a bounded `U.Transformation` | governed by `A.3.4` for transformation identity and slots |
+| functional behavior in a flow | a required behavior/functioning claim grounded as one bounded `U.Transformation` or as a compound `TransformationFlowStructure`, with any selected flow position, path, slice, crossing, or valuation named by value | not identical with `FunctionalElement@Context`, not the transformer system, not a module allocation, and not a method/work occurrence by itself |
+| slot-filler locus | a structure-positioned signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, refresh, or other governed value | not a transformation merely by structure membership |
+| flow valuation | an Eulerian/declarative valuation over a path, path slice, state, guard, comparator, or budget over the selected structure | not a flowing thing, imperative route, second structure kind, or performed work |
 | crossing or gate | a context, plane, edition, launch, or work-boundary change | not internal step validity or gate-decision publication by itself |
-| MVPK face | publication of selected graph, path, or crossing material | not the graph semantics and not evidence by itself |
+| MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
 
-**Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate-decision publication, `E.20` for mechanism-governing-definition placement, the A.15 family for work planning or performed work, `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the graph, path, crossing, or flow valuation.
+When a sentence says that a system performs a functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The bounded transformation, transformer or candidate bearer, input/output or functional-port boundary, functioning relation, method/algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
+
+**Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate-decision publication, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning or performed work, `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
 
 **What goes wrong if missed.** A practitioner may treat a reference flow, a wording-use cue such as `transition`, or a tool pipeline as a new graph kind or a hidden prescribed workflow, then lose comparability, crossing evidence, and slice-local refresh boundaries.
 
-**What this buys.** E.TGA keeps graph structure, publication pins, crossings, CV/GF separation, and refresh locality in one current architecture without turning every domain-specific graph path into its own flow doctrine.
+**What this buys.** E.18 keeps selected structure, publication pins, crossings, CV/GF separation, and refresh locality in one current structure pattern without turning every domain-specific path into its own flow doctrine or every mathematical graph description into the selected structure.
 

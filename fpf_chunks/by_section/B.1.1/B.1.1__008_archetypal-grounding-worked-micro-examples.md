@@ -6,12 +6,12 @@ section_id: "B.1.1:7"
 section_title: "Archetypal grounding (worked micro‑examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__008_archetypal-grounding-worked-micro-examples.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:7 — Archetypal grounding (worked micro‑examples)"
-line_start: 29477
-line_end: 29502
+line_start: 29987
+line_end: 30012
 dependencies:
   - "A.1"
   - "A.12"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme — Epistemes and their slot graph"
+pattern_title: "U.Episteme - Epistemes and their slot relation"
 section_id: "C.2.1:10"
 section_title: "Conformance checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_conformance-checklist-normative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.2.1 — U.Episteme — Epistemes and their slot graph"
+  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:10 — Conformance checklist  (normative)"
-line_start: 34850
-line_end: 34915
+line_start: 35362
+line_end: 35427
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -72,13 +72,13 @@ Any pattern in A.6.2–A.6.4, E.17, E.TGA, or discipline packs that defines morp
 **CC-C.2.1-5a - Episteme/publication lane split for semio-facing terms.**
 Any pattern, publication-form profile, evidence-use note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is live, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 
-**CC‑C.2.1‑6 - Semantic‑triangle usage guard.**
+**CC-C.2.1-6 - Semantic-triangle usage guard.**
 
 If a semantic triangle or parallelogram diagram appears in a pattern or tutorial, there must be an explicit note that:
-* it is a didactic projection of `U.EpistemeSlotGraph`, and
-* normative laws are stated in terms of C.2.1 nodes and morphisms, not in terms of triangle corners.
+* it is a didactic projection of `U.EpistemeSlotRelation`, and
+* normative laws are stated in terms of C.2.1 slots, graph-valued fillers such as `ClaimGraph`, and morphisms, not in terms of triangle corners.
 
-**CC‑C.2.1‑7 - KD‑CAL / ReferencePlane alignment.**
+**CC-C.2.1-7 - KD-CAL / ReferencePlane alignment.**
 Any pattern that evaluates or compares epistemes (KD‑CAL/LOG‑CAL, CHR, CG‑Spec, etc.) **MUST** point out:
 * how `U.ClaimGraph` is interpreted in a ReferencePlane,
 * how `GroundingHolonSlot` figures into measurement or validation,
@@ -87,7 +87,7 @@ Any pattern that evaluates or compares epistemes (KD‑CAL/LOG‑CAL, CHR, CG‑
 Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context‑local**.  Cross‑context use **MUST** proceed via an explicit Bridge with CL / Φ‑policy (F.9/B.3), with penalties routed to R‑lanes only; F and the slot structure from C.2.1 remain unchanged.
 
 **CC‑C.2.1‑9 - Carriers and Work outside episteme content.**
-C.2.1 **inherits** A.7 and A.12 separation obligations: `U.PresentationCarrier` values, publication-side values, and `U.Work` occurrences **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotGraph`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only via `U.EvidenceRole` bindings that point to external `U.Work` occurrences and carriers (A.10 and B.3). Changing carriers or re-publishing work alone does **not** change the episteme determined by ⟨content, entityOfConcernRef, referenceScheme⟩ in its `U.BoundedContext`.
+C.2.1 **inherits** A.7 and A.12 separation obligations: `U.PresentationCarrier` values, publication-side values, and `U.Work` occurrences **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotRelation`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only via `U.EvidenceRole` bindings that point to external `U.Work` occurrences and carriers (A.10 and B.3). Changing carriers or re-publishing work alone does **not** change the episteme determined by the filled `content`, `entityOfConcernRef`, and effective `referenceScheme` positions in its `U.BoundedContext`.
 
 **CC‑C.2.1‑10 - Reflexive entityOfConcern guard.**
 When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane = episteme), or about itself (self-describing or meta-specification cases), patterns **SHALL** ensure that the resulting JustificationGraph / evaluation chains are **acyclic** along justification paths. Reflexive `describe` / citation edges may exist as literature references, but they MUST NOT form minimal justification cycles for acceptance or KD-CAL assurance decisions; the trust calculus MUST always bottom out in external evidence (`U.Work` with `U.EvidenceRole`) rather than in purely self-referential claims.

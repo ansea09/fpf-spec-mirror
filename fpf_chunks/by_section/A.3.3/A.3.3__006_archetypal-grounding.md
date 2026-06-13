@@ -6,12 +6,12 @@ section_id: "A.3.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_archetypal-grounding.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:5 — Archetypal Grounding"
-line_start: 6716
-line_end: 6737
+line_start: 6725
+line_end: 6755
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,11 +22,12 @@ dependencies:
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.1"
   - "B.3"
-  - "B.4"
   - "C.2.P.DR"
   - "C.27"
+  - "C.27.TA"
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
@@ -36,20 +37,33 @@ dependencies:
   - "U.Mechanism"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.Transformation"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "model"
+  - "calibration"
+  - "dynamics"
+  - "observation relation"
+  - "prediction"
   - "simulation"
-  - "state evolution"
   - "state space"
+  - "transition law"
 ---
 
 ### A.3.3:5 - Archetypal Grounding
 
 #### A.3.3:5.1 - Reactor control
 
-A reactor team models temperature and concentration under a nonlinear ODE with disturbances. The ODE, state space, observation relation, and operating region are `U.Dynamics`. The control policy is `U.Method`; the controller code is `U.MethodDescription` unless a dated run or mechanism claim is current. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
+A reactor team models temperature and concentration under a nonlinear ODE with disturbances. The ODE, state space, observation relation, and operating region are `U.Dynamics`. The control policy is `U.Method`; the controller code is `U.MethodDescription` when it describes the method, and dated controller runs or mechanism claims stay with their governing patterns. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
+
+Side-by-side split:
+
+| Filled question | `U.Dynamics` value | `U.Transformation` value |
+| --- | --- | --- |
+| EntityOfConcern | reactor temperature and concentration state in bounded operating context | catalyst-bed condition changed from fouled to regenerated during one maintenance intervention |
+| Core relation | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | transformed entity, bounded maintenance context, pre-state, post-state or delta, transformation relation, and boundary condition |
+| Use | prediction, simulation, conformance, drift, and gate input only when freshness or mathematical conditions are satisfied | bounded change statement about what changed under conditions; it may cite a dynamics model but is not the model |
+| Kept outside | method, controller code, dated runs, evidence, and gate authority | reusable law of state change, method description, work occurrence, evidence relation, and permission to act |
 
 #### A.3.3:5.2 - Reliability and operations
 

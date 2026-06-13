@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:8"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__009_common-anti-patterns.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:8 — Common anti-patterns"
-line_start: 56064
-line_end: 56073
+line_start: 56851
+line_end: 56860
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 6749
-line_end: 6776
+line_start: 6767
+line_end: 6794
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,11 +22,12 @@ dependencies:
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.1"
   - "B.3"
-  - "B.4"
   - "C.2.P.DR"
   - "C.27"
+  - "C.27.TA"
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
@@ -36,13 +37,17 @@ dependencies:
   - "U.Mechanism"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.Transformation"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "model"
+  - "calibration"
+  - "dynamics"
+  - "observation relation"
+  - "prediction"
   - "simulation"
-  - "state evolution"
   - "state space"
+  - "transition law"
 ---
 
 ### A.3.3:7 - Conformance Checklist
@@ -61,15 +66,15 @@ keywords:
 
 **CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
-**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or work sequence. Planning or control methods that use dynamics belong to `U.Method` and `U.MethodDescription`.
+**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. Planning or control methods that use dynamics belong to `U.Method` and `U.MethodDescription`.
 
 **CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, work logs, and telemetry attach to work, evidence, or source values. Calibration creates a new or revised dynamics episteme.
 
 **CC-A3.3-10 (Prediction use).** Predicted coordinates used for comparison or gating require fresh observation or a declared non-expansive, invariant-commuting transition map over the domain of use.
 
-**CC-A3.3-11 (C.27 boundary).** Temporal adequacy, freshness, delay, rhythm, inertia, and currentness claims stay with `C.27` unless a reusable transition law is current.
+**CC-A3.3-11 (Temporal boundary).** Positive temporal aspects stay with `C.27.TA`; temporal-claim adequacy, freshness-use, delay-use, rhythm-use, inertia-use, and currentness-use claims stay with `C.27`; reusable transition laws stay with `A.3.3`.
 
 **CC-A3.3-12 (C.29 boundary).** Contested, cross-domain, learned, speculative, scale-changing, or transferable mathematical-lens use is assigned to `C.29`; `A.3.3` keeps the dynamics semantics.
 
-**CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered.
+**CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered: method, method description, work plan, dated work, selected transformation-flow structure, transition-law claim graph, evidence relation, or another governed value.
 

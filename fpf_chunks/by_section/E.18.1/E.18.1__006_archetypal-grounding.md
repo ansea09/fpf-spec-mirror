@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Transduction Path"
+pattern_title: "Principles-to-Work Carry-Through"
 section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18.1 — Principles-to-Work Transduction Path"
+  - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 67368
-line_end: 67423
+line_start: 68181
+line_end: 68262
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,15 +37,13 @@ dependencies:
 keywords:
   - "P2W"
   - "accepted ProblemCard@Context"
-  - "carried distinction"
   - "carry-through record"
-  - "first-principles cue"
+  - "evaluation refresh"
+  - "formal substrate"
+  - "mechanism realization"
+  - "method-family selection"
   - "principles-to-work"
-  - "result carry-through"
-  - "return trigger"
-  - "selected application"
-  - "source-currentness"
-  - "stop condition"
+  - "work planning"
 ---
 
 ### E.18.1:5 - Archetypal Grounding
@@ -56,7 +54,7 @@ keywords:
 |---|---|---|
 | Tell | A manufacturing team accepts a problem card showing that a fabrication issue is caused by a missing functional constraint. | A research team accepts a problem card showing that two descriptions may be almost the same only under a declared `U.Signature(profile=FormalSubstrate)`. |
 | Show without P2W | The team treats the principle scheme as method selection, work plan, performed work, and acceptance evidence at once. | The team treats mathematical equivalence as real-world identity, measurement validation, evidence, and decision authority. |
-| Show with P2W | The team writes a carry-through record, separates method comparison from WorkPlanning, records dated `U.Work`, and unpacks result records. | The team writes a carry-through record, separates mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, bridge, measurement, evidence, and provenance relations, and keeps equivalence bounded by the declared formal relation. |
+| Show with P2W | The team writes a carry-through record, separates method comparison from `A.15.2 U.WorkPlan` and plan-item records, records dated `U.Work`, and unpacks result records. | The team writes a carry-through record, separates mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, bridge, measurement, evidence, and provenance relations, and keeps equivalence bounded by the declared formal relation. |
 
 #### E.18.1:5.1 - Worked slices
 
@@ -72,7 +70,7 @@ keywords:
 
 6. **Interface split before P2W use.** A source says a port-throughput limit makes a solution feasible after integration. P2W first splits the phrase: module-interface relation (`A.6.M`), flow or throughput relation (`E.18` or `A.6.F` when function use is being claimed), WorkPlan constraint (`A.15.2`), dated `U.Work` occurrence (`A.15.1`), evidence or gate claim (`A.10`, `G.6`, `A.20`, or `A.21`), or architecture and structural-view claim (`C.30` family). The carry-through record writes only the relation that changes the P2W move being made and leaves the other readings as stopped cues.
 
-7. **Result measurement returns to planning.** A performed `U.Work` occurrence produced telemetry and an artifact. Later measurement shows that the planned interface constraint was interpreted against the wrong reference plane. P2W splits measurement, reference-plane repair, source restoration, refresh, planning revision, and method-comparison claims. If the original `ProblemCard@Context` no longer states the right problem, the problem-side correction returns to the problem-side pattern.
+7. **Result measurement returns to planning.** A performed `U.Work` occurrence produced telemetry and an artifact. Later measurement shows that the planned module-interface constraint was interpreted against the wrong reference plane. P2W splits measurement, reference-plane repair, source restoration, refresh, planning revision, and method-comparison claims. If the original `ProblemCard@Context` no longer states the right problem, the problem-side correction returns to the problem-side pattern.
 
 #### E.18.1:5.2 - Additional worked situations
 
@@ -86,21 +84,47 @@ keywords:
 | Near-sameness under a formal declaration | A mathematical near-sameness claim preserves heat-flow structure but loses deformation factors outside the model. | P2W uses `C.29` for mathematical-lens use and `A.6.0` for `U.Signature(profile=FormalSubstrate)`, names preserved and lost structure, and prevents the lens from settling empirical truth or work authorization. |
 | FPF relation law changes after a P2W record | A governing FPF pattern changes the boundary for architecture-description, evidence, or source-restoration use. Fill the replay and currentness check: changed law, still-carried distinction, no-longer-carried cue, smallest reopened application, and next move. | The earlier carry-through record is replayed rather than trusted by age; only the affected architecture-description, evidence, source-restoration, or P2W field changes. |
 | Relation selection would over-select from one phrase | A source says "the new port contract proves integration readiness." P2W splits module-interface relation, flow relation, dated `U.Work` occurrence, evidence cue, gate cue, and architecture-description cue. | Only the relation that changes the P2W move being made is written; the remaining readings stop as named cues until their governed relations are being made. |
-| Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side material. | The mathematical phrase lowers to a reduced-use cue; P2W does not open method selection, evidence, gate, or work planning from mathematical prestige alone. |
+| Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side material. | The mathematical phrase lowers to a reduced-use cue; P2W does not open method selection, evidence, gate, or `A.15.2` planning from mathematical prestige alone. |
 | Result source becomes stale | A result-looking source is later replaced by a fresher source with a different artifact reference and measurement reference. | P2W uses `A.15.4`-style source restoration before result carry-through; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
 
 #### E.18.1:5.3 - Pilot examples for coupled development and application flows
 
-The old TGA assignment supplied a broad example bank. Use these pilots as grounding checks, not as old terminology to import. They exercise the same common shape: one graph can join several transduction flows, one flow may develop or select a usable product, another flow may apply it, and an evaluation or refresh flow may return to the smallest affected development or application locus. The joined graph does not merge the flow objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each flow. Use each pilot to check whether the P2W use being made can name the joined flows, the carried object's flow-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
+These pilots are grounding checks, not source terminology to import. They exercise the same common shape: one selected `TransformationFlowStructure` can relate several flow valuations, one flow may develop or select a usable product, another flow may apply it, and an evaluation or refresh flow may return to the smallest affected development or application locus. The selected structure does not merge the flow objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each flow. Use each pilot to check whether the P2W use being made can name the joined flows, the carried object's flow-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
 
 | Pilot | P2W use being made | What it tests |
 |---|---|---|
-| Coffee service STF | An accepted service-quality problem carries heat or mass-balance structure through `U.Signature(profile=FormalSubstrate)`, declaration-stack, mechanism-position, normalization, method-selection, WorkPlanning, dated `U.Work`, telemetry, measurement, and refresh relations. | Positive whole-chain readability, freshness, set-return selection, launch values only in performed work, and relation-local refresh. |
+| Coffee service STF | An accepted service-quality problem carries heat or mass-balance structure through `U.Signature(profile=FormalSubstrate)`, declaration-stack, mechanism-position, normalization, method-selection, `A.15.2 U.WorkPlan` or plan-item records, dated `U.Work`, telemetry, measurement, and refresh relations. | Positive whole-chain readability, freshness, set-return selection, launch values only in performed work, and relation-local refresh. |
 | Compiler design and run | Toolchain construction, compiler use, and product execution are separate applications; design and run changes pass through the gate and work relations being used. | `DesignRunTag`, launch gate, reproducible build currentness and source currentness, and no collapse of build, run, and product work. |
-| TAMP and MPC robotics | Selection and WorkPlanning may iterate under a declared progress or budget condition before performed work. | Branching and cycle use without imposing one mandatory workflow, and no launch-value binding before performed work. |
+| TAMP and MPC robotics | Method selection and `A.15.2` planning records may be revised under a declared progress or budget condition before performed work. | Branching and cycle use without imposing one mandatory work procedure, and no launch-value binding before performed work. |
 | AutoML and QD | Method selection returns a Pareto, QD, front, or archive set under comparator and descriptor editions, not a hidden scalar winner. | Set-return discipline, comparator currentness, no hidden scalarization, and retained-set refresh. |
 | Freshness or material-transport case | Work planning and performed work depend on freshness windows, transport relations, units, reference planes, and source-currentness. | No implicit `latest`, no unbridged unit or plane comparison, and smallest affected refresh. |
-| Integration under interface constraints | After assembly, a result phrase may mean role-enactability under interface constraints, evidence, gate, architecture, function, or work relation. | Result carry-through is not artifact-only or telemetry-only; interface and integration wording must recover the relation being claimed. |
-| Tool-product-use chain | A design-tagged flow makes a tool; a later run or use flow uses the tool to make a chair; another flow uses the chair as context for writing a text. | One graph can unite all flows, but the same carried object may fill a run-result position in one flow and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
+| Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function, or work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording must recover the relation being claimed. |
+| Tool-product-use chain | A design-tagged flow makes a tool; a later run or use flow uses the tool to make a chair; another flow uses the chair as context for writing a text. | One selected transformation-flow structure can relate all flows, but the same carried object may fill a run-result position in one flow and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
 | FPF pattern-development / self-evolving specification | A development flow creates or repairs a pattern, specification, or process description through drafting, quality evaluation, publication projection, and admitted publication; a later use flow applies that product to its own `EntityOfConcern`; a defect found in use returns to the smallest development slice for repair. | Development, application, and evaluation flows are joined by transfer and return relations while keeping objects and `DesignRunTag` boundaries separate; evaluation records or use-found evidence change the product through edits to the smallest development slice, not by entering the used publication's practitioner-facing prose. |
+
+#### E.18.1:5.4 - Filled P2W output records
+
+Use these as replayable outputs, not as new templates.
+
+```text
+P2W output record:
+  ProblemCardRef: ProblemCard@Context PC-COOL-017, accepted for a cooling-loop stabilization problem.
+  CarriedDistinction: the observed deformation is not one more tuning defect; a conserved heat-flow structure must survive method comparison.
+  NextFPFUseQuestion: which formal or mathematical relation is needed before method selection?
+  RecoveredFPFKindOrRelation: mathematical-lens use plus `U.Signature(profile=FormalSubstrate)` declaration.
+  SelectedApplication: `C.29` for preserved and lost structure; `A.6.0` for the formal-substrate declaration.
+  WrittenRecordOrApplication: declare the heat-flow invariant, boundary conditions, excluded deformation factors, and practical payoff for comparator selection.
+  LocalStop: method selection waits until comparator, measurement, and selected-set relations are named.
+```
+
+```text
+P2W output record:
+  ProblemCardRef: ProblemCard@Context PC-PORT-008, accepted for an integration-throughput problem.
+  CarriedDistinction: the port-throughput phrase may carry module-interface, flow, work-plan, performed-work, evidence, gate, and architecture relations, but only one relation changes this P2W move.
+  NextFPFUseQuestion: which relation is being written now?
+  RecoveredFPFKindOrRelation: `A.6.M` module-interface relation plus `E.18` flow relation; `A.15.2` planning constraint is written only if the planning record is being made.
+  SelectedApplication: `A.6.M` for the port contract; `E.18` for the selected transformation-flow relation; `A.15.2` only for the planned constraint.
+  WrittenRecordOrApplication: write the module-interface constraint and flow relation; stop evidence and gate cues until their governing relations are being made.
+  LocalStop: no readiness proof or work authorization follows from the port phrase by itself.
+```
 

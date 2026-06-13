@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
-line_start: 52151
-line_end: 52732
+line_start: 52875
+line_end: 53458
 dependencies:
   - "A.10"
   - "A.15"
@@ -116,7 +116,7 @@ Use the cue only to choose the first architecture move: described holon, bounded
 Use this when:
 
 - a practitioner says "architecture" and needs to know whether the claim being made is about a holon, selected structure, architecture description, view, carrier, decision, work, evidence, assurance, or mathematical lens;
-- downgrade an artifact to publication, diagram, carrier, source relation, or generated relation graph when it is not a Description or view;
+- an artifact is being treated as the architecture claim, and its role must be recovered as publication, diagram, carrier, source relation, generated relation graph, Description episteme, or view;
 - name the selected architecture-relevant structure and the next architecture move before writing a full architecture-description record;
 - state a minimal architecture structural view only when it changes the next move;
 - keep architecture-description machinery conditional instead of making every architecture discussion a multi-view description exercise;
@@ -129,7 +129,7 @@ What goes wrong if C.30 is missed: architecture collapses into a document, a mod
 
 What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
-Not this pattern when the EntityOfConcern under repair is only a general selected structure, a full architecture description, an architecture structural view, a TGA flow relation, an LCA/control view, a mathematical-lens use, measurement, evidence, assurance, gate, work, decision, or publication. Use `A.22`, `C.30.AD`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.29`, `C.16`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, or `E.17` respectively, and keep C.30 only for the architecture-claim portion if that portion is being claimed.
+Not this pattern when the EntityOfConcern under repair is not an architecture claim, selected architecture-relevant structure, artifact-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the direct governing pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common neighboring claim boundaries are summarized in `C.30:12`.
 
 Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or non-architecture governing-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. Keep the trigger tables in those patterns; C.30 is applied only after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
 
@@ -140,7 +140,7 @@ Engineering teams use "architecture" for several different things:
 - the selected structure of a holon;
 - a diagram, model, table, dashboard, generated relation graph, or document;
 - a module layout;
-- a TGA graph or flow description;
+- a selected transformation-flow structure, flow description, or mathematical graph description;
 - a functional, control, information, deployment, logical, or physical structure view;
 - an ADR-like publication;
 - a project-side claim carried by another governing FPF pattern.
@@ -154,7 +154,7 @@ How can FPF describe architecture without:
 - creating `U.Architecture` as a new root kind;
 - treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
 - reducing architecture to module structure or interface relation;
-- letting TGA, LCA, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
+- letting E.18 transformation-flow structures, LCA/control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
 - making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
 
 ### C.30:3 - Forces
@@ -201,7 +201,7 @@ ArchitectureOf@Context ::= {
 
 `ArchitectureOf@ContextRef` is admissible as a `DescriptionContext.EntityOfConcernRef` for architecture Description epistemes and views. The holon whose architecture is claimed remains `ArchitectureOf@Context.describedHolonRef`; it is not the DescriptionContext `EntityOfConcernRef` for those architecture descriptions unless a separate direct holon description is opened.
 
-**EntityOfConcern bridge.** In C.30, the primary `EntityOfConcern` is the `ArchitectureOf@Context` claim record, one of its selected structures, or an neighboring relation record or claim record selected by the use under repair. Selected architecture structure is dependent, non-agentive, and claim-bearing through episteme or view records, but it is not a second EntityOfConcern family beside `EntityOfConcern`. Publication faces, forms, units, carriers, and renderings publish descriptions or views; they do not become the architecture claim or the selected structure.
+**EntityOfConcern bridge.** In C.30, the primary `EntityOfConcern` is the `ArchitectureOf@Context` claim record, one of its selected structures, or a related relation record or claim record selected by the use under repair. Selected architecture structure is dependent, non-agentive, and claim-bearing through episteme or view records, but it is not a second EntityOfConcern family beside `EntityOfConcern`. Publication faces, forms, units, carriers, and renderings publish descriptions or views; they do not become the architecture claim or the selected structure.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 
@@ -288,7 +288,7 @@ If <X> is not a declared structure kind, the phrase is plain recognition wording
 
 | Phrase | Required recovery |
 | --- | --- |
-| functional architecture | `structureKindRef = FunctionalStructure`; functions, effects, capabilities, and functional dependencies named as structure content; transductions and flow paths are assigned to `FlowTransductionStructure` or `C.30.TGA-FLOW-REL`. |
+| functional architecture | `structureKindRef = FunctionalStructure`; functions, effects, capabilities, and functional dependencies named as structure content; transformation-flow structures, paths, and flow valuations are assigned to `TransformationFlowStructure` or `C.30.TGA-FLOW-REL`. |
 | modular architecture | `structureKindRef = ModuleInterfaceStructure`; module relation records, interface specifications, substitutability rule, and change policy. Full module-and-interface repair applies the module-and-interface repair pattern when that claim kind is being made. |
 | logical architecture | `structureKindRef = DeclaredLogicalStructure`; local definition says whether `logical` means information relation, functional relation, runtime relation, responsibility relation, allocation relation, or another relation class. |
 | physical architecture | `structureKindRef` in `{MaterialSpatialStructure, PlacementDeploymentStructure}` or a locally declared physical structure kind. |
@@ -335,7 +335,7 @@ ArchitectureStructuralCharacteristicQBundleRelationLine ::= {
     structuralCharacteristicPredictsQBundleSlot |
     structuralCharacteristicProxiesQBundleSlot |
     structuralCharacteristicCausalHypothesisForQBundleSlot |
-    structuralCharacteristicEvidencePathForQBundleSlot,
+    structuralCharacteristicEvidenceRelationForQBundleSlot(A.10 evidence path only when the evidence-provenance path is the claim being made),
   relationGroundingKind:
     modelBased | empirical | causalModelBased | expertJudgement |
     sourceLineageOnly | SoTAActionLineage | reportOnly,
@@ -353,7 +353,7 @@ Minimal structural-characteristic relation-line examples:
 | `InformationDataStructure` | State bearer, residence, provenance, and custody boundary. | Observability, privacy, or auditability. | Recoverable state lineage and bounded custody. | Data schema as evidence sufficiency. |
 | `MaterialSpatialStructure` | Physical separation, adjacency, or energy path. | Safety, maintainability, or energy efficiency. | Isolation, accessibility, or loss reduction. | Geometry as safety proof. |
 | `ControlStructure` | Observer-controller-plant loop with rate envelope. | Stability, controllability, or safety. | Feedback and bounded actuation relation. | Control diagram as proof. |
-| `FlowTransductionStructure` | Path crossing, bottleneck, buffer boundary, or waiting-line boundary. | Latency, throughput, or resilience. | Recoverable path, crossing, capacity, and valuation relation. | Flow graph as performance or causal proof. |
+| `TransformationFlowStructure` | Path crossing, bottleneck, buffer boundary, or waiting-line boundary. | Latency, throughput, or resilience. | Recoverable path, crossing, capacity, and valuation relation. | Flow diagram or mathematical graph description as performance or causal proof. |
 | `SecurityTrustBoundaryStructure` | Trust boundary, privilege path, or untrusted-input crossing. | Security, abuse resistance, or privacy. | Reduced exposed authority and bounded trust crossing. | Risk color or compliance label as security proof. |
 | `EvidenceAssuranceStructure` | Evidence package reused across variants. | Assurance maintainability or release readiness. | Explicit affected-structure and source-return boundary. | Evidence-structure view as assurance verdict. |
 | `WorkMethodStructure` | Method description, work plan, or work enactment relation with explicit exception path. | Operability, auditability, or maintainability. | Bounded repeatability and recoverable exception handling. | Work-method diagram as work authority or evidence sufficiency. |
@@ -376,7 +376,7 @@ ArchitectureCharacteristicQBundleRelationRecord ::= {
     structuralCharacteristicPredictsQBundleSlot |
     structuralCharacteristicProxiesQBundleSlot |
     structuralCharacteristicCausalHypothesisForQBundleSlot |
-    structuralCharacteristicEvidencePathForQBundleSlot,
+    structuralCharacteristicEvidenceRelationForQBundleSlot(A.10 evidence path only when the evidence-provenance path is the claim being made),
   participantSlots:
     structuralCharacteristicRef,
     qBundleSlotRef,
@@ -399,7 +399,7 @@ ArchitectureCharacteristicQBundleRelationRecord ::= {
 
 `C.30.ASV` governs `ArchitectureStructuralView@Context`. C.30 governs the `ArchitectureOf@Context` claim and, only when durable description use is being made, how its thin `ArchitectureDescription@Context` bridge uses structural views, with hidden or lost structure, correspondence, source or reliance relation, and source-return boundaries recoverable when those boundaries affect action. `C.30.AD` governs the full architecture-description mechanism.
 
-A diagram, model, table, TGA graph, LCA diagram, C.29 lens output, ADR, dashboard, generated explanation, or other publication face may carry an architecture description or an architecture structural view. It does not become the architecture, and it does not become a conforming view only because it looks like a view.
+A diagram, model, table, selected transformation-flow diagram, mathematical graph description, LCA diagram, C.29 lens output, ADR, dashboard, generated explanation, or other publication face may carry an architecture description or an architecture structural view. It does not become the architecture, and it does not become a conforming view only because it looks like a view.
 
 Use `AffectedArchitectureStructureNote` when the next architecture move needs to name affected structures or view losses without using an architecture decision, ADR, gate, evidence, assurance, or release record:
 
@@ -427,7 +427,7 @@ InterfaceSignatureBoundaryNote ::= {
   phraseOrArtifactRef,
   apparentClaim:
     interface | signature | port | endpoint | connector | link |
-    API | protocol | E.18 transduction relation | TGA path | mechanism reference,
+    API | protocol | E.18 transformation-flow relation | E.18 path | mechanism reference,
   recoveredKind,
   governingPatternApplicationRefs,
   admissibleUse,
@@ -440,8 +440,8 @@ ModuleRelationBoundaryNote ::= {
     module | component | package | platform | open architecture |
     recoveredModuleInterfaceSourceLabel |
     typed control-structure relation,
-  moduleInterfaceRepairClaimLive?: yes | no,
-  openOrPlatformClaimLive?: yes | no,
+  moduleInterfaceRepairClaimCurrent?: yes | no,
+  openOrPlatformClaimCurrent?: yes | no,
   exactModuleInterfaceRelationRefs?,
   variationPointRef?,
   substitutabilityPolicyRef?,
@@ -482,7 +482,7 @@ Lens use by architecture problem:
 | Architecture problem | Candidate mathematical lens | Preserved structure | Typical loss or stop |
 | --- | --- | --- | --- |
 | Hidden dependency or modularity. | Typed graph, DSM, or hypergraph. | Dependency, coupling, or clustering. | Semantics, interface law, evidence, and work remain outside unless bridged. |
-| Flow bottleneck. | TGA, network flow, or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain non-architecture claims. |
+| Flow bottleneck. | Transformation-flow structure, network flow, or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain non-architecture claims. |
 | Control-rate mismatch. | LCA, hybrid systems, assumption-guarantee relations, or control relations. | Feedback roles and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
 | Cross-scope residual. | Coarse-graining or renormalization-group-style lens. | Preserved and lost structure across scale. | Utility, causal-use claims, and selector authority remain outside unless separately grounded. |
 | Extracted structure from traces. | Epiplexity or MDL-style bounded-observer lens. | Learnable structural regularity. | Task relevance, assurance, and causal proof remain non-architecture claims. |
@@ -501,7 +501,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | Architecture description as architecture | Keep `ArchitectureDescription@Context` as Description episteme or specification-use case over `ArchitectureOf@Context`. |
 | Diagram, model, table, dashboard, or generated relation graph as architecture | Treat it as carrier, publication, description, view, source relation, or source-finding aid only when that relation is explicit. |
 | Module diagram as all architecture | Use `C.30.ASV` to recover structure kind; module structure and interface relation are only one structure family. |
-| TGA graph as architecture | Use `E.18` for graph, path, and crossing records and `C.30.TGA-FLOW-REL` for architecture-flow description. |
+| Transformation-flow structure or graph description as architecture | Use E.18 for selected transformation-flow structure, path, and crossing records; use E.18.2 and C.29 for mathematical graph descriptions; use C.30.TGA-FLOW-REL for the architecture-to-transformation-flow relation. |
 | LCA diagram or control diagram as proof | Use `C.30.LCA` for control-structure view; assign dynamics, temporal, causal, evidence, gate, safety, and assurance claims to their governing patterns. |
 | Mathematical lens as architecture ontology | Use `C.29`; cite `MathLensUseOutputRef` only through an `ArchitectureMathLensUseBoundary` or C.29 lens record and state stop condition. |
 | ADR as architecture decision | Use the project-side architecture decision pattern when a decision claim is being made; ADR is a publication form, not the decision. |
@@ -519,9 +519,9 @@ describedHolonRef: payment system
 boundedContextRef: checkout platform context
 architectureConcernCue: unclear dependency between payment orchestration and fraud scoring
 plainPromptLabel: "architecture in this diagram"
-selectedStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, FlowTransductionStructure
+selectedStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, TransformationFlowStructure
 collapseCue: diagram is being treated as architecture itself
-firstArchitectureMove: downgrade the diagram to a publication face and create a minimal architecture structural-view note
+firstArchitectureMove: recover the diagram as a publication face and create a minimal architecture structural-view note
 ordinaryNotThisPatternBoundary: no evidence, assurance, gate, or decision claim yet
 governingPatternApplicationRefs: C.30.ASV
 ```
@@ -541,7 +541,9 @@ ArchitectureStructuralCharacteristicQBundleRelationLine:
 
 Use `ArchitectureCharacteristicQBundleRelationRecord` only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case relation reliance needs the fuller record. The useful move is to decide whether a structural characteristic has a bounded relation to a maintainability slot, not to accept the slogan as architecture truth.
 
-**"We replaced the neural-network block, so the architecture improved."** Treat `block` first as a source label and apply `C.30.STRAT` unless the changed item is already recovered. The phrase is admissible architecture recognition only after the changed structure kind, flow or transduction relation, module or interface claim kind, preserved and lost structure, changed characteristic, source relation, and decision or evidence governing patterns are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
+**"The backup-pump architecture is safe because the loop is redundant."** C.30 starts with the plant holon, bounded operating context, and selected structures: control loop, material-flow structure, placement structure, module-interface relation, and maintenance-work relation. The redundancy phrase may support an architecture move, but safety proof, causal proof, evidence sufficiency, gate passage, and work authorization move to their governing patterns. The C.30 output is the selected structure and next architecture move, not a safety case by slogan.
+
+**"We replaced the neural-network block, so the architecture improved."** Treat `block` first as a source label and apply `C.30.STRAT` unless the changed value is already recovered. The phrase is admissible architecture recognition only after the changed structure kind, transformation-flow relation, module or interface claim kind, preserved and lost structure, changed characteristic, source relation, and decision or evidence governing patterns are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
 
 ### C.30:5 - Archetypal Grounding
 
@@ -578,7 +580,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, state the structural view if needed, or assign the claim to the governing pattern. |
 | **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and governing pattern before use. | Add `ArchitectureCharacteristicAssignment`, or narrow the sentence to ordinary non-FPF-governed recognition. |
 | **CC-C30-9 Non-architecture claim kind.** | Evidence, assurance, causal, gate, work, decision, publication-authority, mathematical-lens, measurement, and release claims are assigned to their governing patterns. | Name the governing FPF pattern and the claim kind being made; do not add fields to C.30 to absorb it. |
-| **CC-C30-10 Useful action.** | The repaired wording leaves a surviving admissible action: name the architecture claim, downgrade an artifact, state an architecture structural view, add a source or reliance relation, return to source, or apply the FPF pattern that governs the claim kind being made. | Restore that action, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-C30-10 Useful action.** | The repaired wording leaves a surviving admissible action: name the architecture claim, recover an artifact role, state an architecture structural view, add a source or reliance relation, return to source, or apply the FPF pattern that governs the claim kind being made. | Restore that action, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
 ### C.30:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -610,7 +612,7 @@ Architecture is most useful in FPF when it stays close to selected structure ove
 
 C.30 and C.30.ASV establish an FPF architecture kernel: architecture as selected `EntityOfConcern` structure for a described holon, with Description epistemes and structural views, structure-kind discipline, correspondence and source-return boundaries, and characteristic-relation applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the structure kind under consideration, downgrade an artifact, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
+The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the structure kind under consideration, recover an artifact role, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
 
 The DescriptionContext structure also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may be source relations for a view with different validation boundaries. C.30 keeps those variants usable without turning any one carrier into the architecture.
 
@@ -623,7 +625,7 @@ The DescriptionContext structure also preserves plurality. The same architecture
 | SEI views-and-beyond lineage plus current multi-view practice | Keep module, component-and-connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module structure or interface relation; assign structural-view claims to `C.30.ASV`. | Older view taxonomies are lineage and comparison lineage, not a second FPF ontology. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
 | Holon-architecture law-like constraint set from the architecture source | Adopt Conway mirroring, Amdahl, queueing, requisite-variety, information-hiding, effective-interface, abstraction-leakage, proxy-pressure, end-to-end, distributed-structure, and evolution-constraint sources only as architecture-relevant pressure and recognition cues. | Use them to ask which selected structure, characteristic, correspondence, flow boundary, control boundary, or architecture move is being considered; then apply `A.6.M`, `C.31`, `C.30.ASV`, `C.30.LCA`, `C.30.TGA-FLOW-REL`, `C.29`, `C.16`, `C.25`, `G.5`, `C.11`, or the governing pattern. | No law-like slogan is architecture adequacy, decision, evidence sufficiency, assurance, gate passage, or universal architecture ontology by itself. |
-| GonzoML neural-network architecture corpus as source example for general architecture-operation language | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, and latency tradeoffs. | Keep source labels as source labels through `C.30.STRAT`; after recovery, use the language for architecture-description and architecture-view recognition, TGA flow-structure source relation, module-and-interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+| GonzoML neural-network architecture corpus as source example for general architecture-operation language | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, and latency tradeoffs. | Keep source labels as source labels through `C.30.STRAT`; after recovery, use the language for architecture-description and architecture-view recognition, transformation-flow-structure source relation, module-and-interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 | Platform-engineering, MOSA, and open-systems practice | Adapt open-interface, platform extension-rule, substitution-policy, and conformance-expectation pressure as local architecture boundary discipline. | For an open-interface claim or platform claim, name the local structure, interface, variation point, substitution policy, conformance-evidence governing pattern, migration boundary, update channel, and hardening boundary that change action. | Platform design depends on project, organization, time, and place; there is no universal platform maturity scale or open-label proof. |
 | ADR and architecture-knowledge-management practice | Adopt decision-memory pressure only as a project-side decision concern governed outside C.30. | Treat ADR-like material as publication or decision-description source relation until the architecture decision claim is being made. | ADR is not the project decision itself and not a source of release authority. |
 
@@ -633,7 +635,7 @@ Builds on: `A.22`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17
 
 Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named governing patterns for architecture decision and candidate-set claims when those claim kinds are being made.
 
-Neighboring claims stay with their governing patterns: `A.22` for selected-structure EntityOfConcern, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `E.TGA` for graph, path, and crossing discipline, `C.29` for mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30` governs the grounded architecture claim, selected structures, and the next admissible architecture move.
+Neighboring claims stay with their governing patterns: `A.22` for selected-structure EntityOfConcern, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `E.18` for selected transformation-flow structure, path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30` governs the grounded architecture claim, selected structures, and the next admissible architecture move.
 
 ### C.30:End
 

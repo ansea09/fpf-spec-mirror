@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 13789
-line_end: 13814
+line_start: 14272
+line_end: 14297
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,20 +66,20 @@ The first useful move is small:
 ```text
 FunctionUseRepair:
 phrase:
-liveUse:
+claimKindUnderRepair:
 recoveredFpFKind:
 recoveredFpFReference?:
-falseFpFKindRefs:
+blockedLocalOverreadRefs:
 nextAdmissibleMove:
 stopCondition:
 ```
-Stop when the recovered FPF kind, any needed FPF reference, false FPF kind references, and the next admissible move are clear.
+Stop when the recovered FPF kind, any needed FPF reference, the one local overread that would change this repair, and the next admissible move are clear.
 
 What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
 
 What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the FPF kind or relation named by value and the governing pattern that carries any remaining claim kind.
 
-Not this pattern when the phrase is ordinary prose and carries no live FPF claim. If the issue under repair is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
+Not this pattern when the phrase is ordinary prose and carries no FPF claim being made. If the issue under repair is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
 
-**E.10.ARCH governing-pattern relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, FPF kind named by value, relation, claim record, governing pattern, or stop condition is hidden, `E.10.ARCH` sends the case to `A.6.F` only until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. `A.6.F` then exits to the governing pattern; it does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
+**E.10.ARCH governing-pattern relation.** When `E.10` encounters function-like wording whose required transformation, capability, method, work, role, mathematical-function use, quality use, module allocation, interface relation, architecture use, FPF kind named by value, relation, claim record, governing pattern, or stop condition is hidden, `E.10.ARCH` may apply `A.6.F` until those fields are recovered or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. After recovery, the next application is the governing pattern named by the recovered relation; `A.6.F` does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
 

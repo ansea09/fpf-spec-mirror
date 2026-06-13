@@ -6,12 +6,12 @@ section_id: "A.15.4:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__005_conformance-checklist.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:4 — Conformance Checklist"
-line_start: 21450
-line_end: 21457
+line_start: 21960
+line_end: 21967
 dependencies:
   - "A.10"
   - "A.15"

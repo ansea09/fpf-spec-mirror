@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme — Epistemes and their slot graph"
+pattern_title: "U.Episteme - Epistemes and their slot relation"
 section_id: "C.2.1:11"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_consequences-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.2.1 — U.Episteme — Epistemes and their slot graph"
+  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:11 — Consequences  (informative)"
-line_start: 34916
-line_end: 34967
+line_start: 35428
+line_end: 35479
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -74,7 +74,7 @@ keywords:
 * A.6.4 `U.EpistemicRetargeting` — as the substrate for EntityOfConcern-bundle retargeting transforms between epistemes (Ep→Ep with `entityOfConcernChangeMode = retarget`).
 * E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints and `EntityOfConcernClass` constraints.
 * E.17 (MVPK) — to publish episteme views through publication faces/forms and carriers.
-* E.TGA — to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well‑typed `U.EpistemeSlotGraph`.
+* E.TGA - to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well-typed `U.EpistemeSlotRelation`.
 
-Together, these relations make `U.EpistemeSlotGraph` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.
+Together, these relations make `U.EpistemeSlotRelation` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.
 

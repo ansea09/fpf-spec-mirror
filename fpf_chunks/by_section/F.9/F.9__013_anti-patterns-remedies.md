@@ -6,12 +6,12 @@ section_id: "F.9:11"
 section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__013_anti-patterns-remedies.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:11 — Anti-patterns & remedies"
-line_start: 72708
-line_end: 72723
+line_start: 73844
+line_end: 73859
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

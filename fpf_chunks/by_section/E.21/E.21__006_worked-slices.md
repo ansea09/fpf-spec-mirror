@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_worked-slices.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Worked slices"
-line_start: 68848
-line_end: 68866
+line_start: 69887
+line_end: 69905
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

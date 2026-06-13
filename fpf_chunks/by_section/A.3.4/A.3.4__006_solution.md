@@ -1,0 +1,293 @@
+---
+chunk_kind: "child"
+pattern_id: "A.3.4"
+pattern_title: "U.Transformation: Bounded Change Under Conditions"
+section_id: "A.3.4:4"
+section_title: "Solution"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.3.4/A.3.4__006_solution.md"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+heading_path:
+  - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
+  - "A.3.4:4 — Solution"
+line_start: 6943
+line_end: 7185
+dependencies:
+  - "A.1"
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.3"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.6.5"
+  - "A.6.F"
+  - "A.7"
+  - "B.3"
+  - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.29"
+  - "C.30.ASV"
+  - "E.18"
+  - "E.18.1"
+  - "E.18.2"
+  - "E.20"
+  - "E.24"
+keywords:
+  - "bounded change"
+  - "functioning"
+  - "input/output conditions"
+  - "transformation"
+  - "transformation-flow structure"
+  - "transformed entity"
+  - "transformer"
+---
+
+### A.3.4:4 - Solution
+
+#### A.3.4:4.1 - Definition
+
+`U.Transformation` is a durable FPF ontic for bounded change under conditions.
+
+A `U.Transformation` is identified by:
+
+- the transformed entity, structure, state, characteristic, episteme, work product, architecture, formal object, or other governed object;
+- the bounded context;
+- an initial condition and post-state condition, final condition, or delta predicate;
+- a transformation relation, task, transition, operation family, morphism, construction, or declared transformation predicate;
+- admissibility or boundary conditions;
+- a temporal or ordering reference when timing or ordering matters for the claim.
+
+The transformation may be possible, planned, enacted, observed, modeled, described, evidenced, or published. Those are linked-use relations around the transformation. They do not change the basic kind.
+
+#### A.3.4:4.2 - Transformation Core
+
+Use this compact filled core before examples or neighboring-pattern references. It identifies one `U.Transformation` value under concern by filling the core slots from the type-level schema in `A.3.4:4.4`. It is not a second ontology, not an episteme slot relation, not a record kind, and not a substitute for neighboring patterns.
+
+```text
+TransformationCore:
+  transformedEntityOrStructure: governed object or structure whose change is under concern; type it through A.3.4:4.3.
+  boundedContext: bounded context-of-meaning where the transformation has meaning; type it as `U.BoundedContext` or through the direct context-governing pattern when current.
+  initialCondition: starting state, structure, characteristic value, formal object, or condition set.
+  postStateConditionOrDelta: intended, observed, possible, modeled, or claimed post-state, result condition, or delta predicate.
+  transformationRelation: the relation, task, transition, operation family, morphism, construction, or predicate that makes the change one transformation rather than an unrelated before-and-after pair.
+  admissibilityOrBoundaryCondition: condition that makes the transformation possible, admissible, meaningful, blocked, or lowered.
+  temporalOrOrderingReference?: time window, duration, cadence, ordering relation, or C.27.TA temporal aspect when timing or order changes the transformation claim.
+```
+
+Filled first-use slice:
+
+```text
+TransformationCore:
+  transformedEntityOrStructure: reactor cooling loop operating state, governed as a plant subsystem state.
+  boundedContext: emergency-load-change operating review.
+  initialCondition: temperature profile oscillates after a load step.
+  postStateConditionOrDelta: oscillation is damped within the declared safety window.
+  transformationRelation: operating-state stabilization relation under the revised control setting.
+  admissibilityOrBoundaryCondition: safety-case review and measurement evidence must hold before the setting is used.
+  temporalOrOrderingReference: settling-time window and observation cadence governed through C.27.TA.
+
+Immediate linked values:
+  MethodRef?: revised operating method, governed by A.3.1.
+  DynamicsEpistemeRef?: state-space and transition-law model, governed by A.3.3.
+  WorkOccurrenceRef?: not asserted until dated plant work is recorded through A.15.1.
+  EvidenceOrSourceRef?: temperature measurement evidence, not permission by itself.
+```
+
+`TransformationCore` is the ordinary filled-core instruction for one concrete use. It does not add `U.TransformationKind`, `U.TransformationTuple`, or `U.TransformationCard`. Use those names only after a separate E.24 decision shows that dependent patterns need those levels.
+
+After the core is identified, run the participation and check slot signature in `A.3.4:4.4`. Method, method description, mechanism, work plan, work occurrence, acting system and `TransformerRole` chain when actual work is claimed, transformation-flow structure, transformation-flow mathematical description, dynamics episteme, temporal aspect, temporal-claim adequacy, mathematical lens, evidence, source, gate, decision, assurance, result, publication, and refresh or reopen slots are not all identity slots, but they are not arbitrary neighbors either. They belong to the `U.Transformation` ontic because claims about a transformation change admissible use, support, responsibility, repeatability, enactment, observation, modeling, permission, or refresh when those slot fillers change.
+
+The modularity rule is: the slot belongs to the transformation ontic, while the filler keeps its governing kind and pattern. A `MethodRef?` slot may be filled by `U.Method` under `A.3.1`; a `WorkOccurrenceRef?` slot may be filled by `U.Work` under `A.15.1`; a `MechanismRef?` slot may be filled by `U.Mechanism` under `A.6.1` and `E.20`. This prevents two bad moves at once: it does not collapse method, mechanism, and work into transformation identity, and it also does not pretend that a transformation claim can ignore the way, enactment, evidence, or description that the claim relies on.
+
+When an authored text, dashboard, proof, publication, model, or project record makes claims about the transformation, model that claim-bearing value through `C.2.1` rather than duplicating the episteme ontic here:
+
+```text
+TransformationDescriptionEpisteme (C.2.1 shorthand, only when a claim-bearing value is current):
+  EntityOfConcernSlot: the U.Transformation, one transformation slot, one slot filler, or a relation among those values, as selected by the current claim.
+  ClaimGraphSlot: claims about possibility, planning, enactment, observation, modeling, evidence, publication, acceptance, or supported use.
+  ReferenceSchemeSlot: how the claim graph is read or tested as claims about the selected transformation value or slot relation while preserving the enclosing U.Transformation context.
+```
+
+This shorthand is only a C.2.1 application. It does not add a second slot relation to `A.3.4`, and it must not make the description, publication, proof, dashboard, source span, or record into the transformation itself.
+
+#### A.3.4:4.3 - Transformed Object Discipline
+
+Do not identify transformations over untyped "things". The transformed-object slot is one slot inside the `U.Transformation` ontic. Its filler is an `EntityOfConcern` value under its governing pattern, not a string, record, dashboard, workflow label, or publication title.
+
+Minimum transformed-object record:
+
+```text
+transformedEntityOrStructure:
+  value: the named object, structure, state, characteristic, episteme, work product, formal object, or architecture-selected structure under concern.
+  governingPattern: the FPF pattern that governs that object kind or relation.
+  objectKind: Entity | Holon | System | Episteme | ArchitectureSelectedStructure | WorkProduct | FormalOrIdealObject | OtherGovernedObject
+  boundaryOrReferenceScheme: boundary, reference scheme, identity condition, or formal substrate that keeps this object recoverable.
+  levelOrScopeWhenRelevant: holon level, system scope, architecture level, formal level, publication scope, or local context when it changes the claim.
+  descriptionOrPublicationWhenRelevant: description, diagram, report, dashboard, source span, or publication only when it is being used as a description or publication of the transformed object.
+  notSelfEvidencingSource: source, publication, dashboard, or card that must not be treated as evidence merely because it names the object.
+```
+
+Use current `A.1` for the holon, entity, or system source line and the governing subject pattern for the filled object. A `U.System`, `U.Episteme`, architecture-selected structure, work product, organization, physical object, document or specification episteme, formal object, or project-world object can fill the slot. The slot does not make the filler a new kind, and the filler does not become `U.Transformation` merely by occupying the slot.
+
+#### A.3.4:4.4 - Ontic Slot Relation, Identity Slots, and Participation Checklist
+
+`U.Transformation` uses `A.6.0` and `A.6.5` slot discipline. This section is the type-level `onticSlotRelation` schema expressed through `SlotSpec` rows for `U.Transformation`. It has two slot statuses:
+
+- **identity slots** that make one bounded transformation recoverable;
+- **participation and check slots** that must be considered when claims about the transformation use method, mechanism, work, dynamics, temporal, graph, formal, evidence, result, source, publication, gate, decision, assurance, or refresh material.
+
+This is not an editor's distinction between "important" and "optional" prose. It is the ontological modularity decision for `U.Transformation`. A participation and check slot is included in this ontic when all five conditions hold:
+
+1. Claims about the transformation regularly change their admissible use, support, repeatability, responsibility, enactment, observation, modeling, permission, acceptance, or refresh when this slot's filler changes.
+2. The filler has a stable relation to the transformation: it specifies, constrains, enables, enacts, observes, models, times, evidences, publishes, authorizes, accepts, refreshes, or otherwise participates in the ontic through a stable relation.
+3. Omitting the slot would force dependent patterns to copy local negative catalogues or grow a shadow ontology around "process", "algorithm", "workflow", "mechanism", "evidence", "record", or similar source labels.
+4. Including the slot does not fuse kinds: the slot belongs to `U.Transformation`, while the filler remains governed by its own pattern.
+5. The first-use burden stays bounded: a user records a disposition for the slot, not a full neighboring pattern unless the current claim depends on that value.
+
+The `?` marker on a slot means optional in a filled use, not optional in the type-level checklist. Each use considers the slot and records one disposition: filled, unknown or not recovered, not asserted, not current for this claim, or claim lowering or blocking when a stronger claim depends on the missing value. Under open-world discipline, an unfilled slot does not assert that the value does not exist.
+
+Claims may be made about any part of this ontic: the whole transformation, an identity slot, a participation and check slot, a slot filler, or a relation among fillers. A `C.2.1` episteme carries those claims; A.3.4 supplies the transformation ontology that keeps the claims from drifting into separate ontologies.
+
+The broad recognition area is change under concern. FPF does not add a separate `U.Change` head here. `U.Transformation` is the durable ontic for an atomic bounded change under conditions; `change` remains the plain recognition gloss. `E.18` supplies `TransformationFlowStructure`: selected compound structure over transformations and adjacent governed loci. Older TGA/transduction labels are legacy family labels for earlier source-local transformation-structure use; they do not create a second ontology competing with `U.Transformation`. When a transformation-flow locus, path, path slice, substructure, crossing, or flow valuation composes, decomposes, constrains, or locates the bounded change, it fills the structural slot. When a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, or wiring expression is used to express that selected structure, it fills the mathematical-description slot instead.
+
+The A.3 transformer line is the actual-work docking for this ontic. A.3 already governs the acting side: a `U.System` bearing `TransformerRole`, a `U.MethodDescription`, a `U.Method`, and a dated `U.Work` occurrence. A.3.4 supplies the missing filled change-under-concern core and surrounding participation slots that those values can participate in. When a transformation is claimed as actual project-world change, recover the `A.3` and `A.15` chain through `WorkOccurrenceRef?`: `performedBy -> U.RoleAssignment(holder: U.System, role: TransformerRole, context, window)` and `enactsMethod -> U.Method`, with the method-description source when current. Do not introduce a separate transformer and transformation ontology for the acting side, and do not treat actual work as the whole transformation when the changed object, delta, boundary condition, or graph expression is also claim-relevant.
+
+`A.3.4` therefore needs two different linked slots, not one vague graph reference. `TransformationFlowStructureRef?` is current when an `E.18` selected compound structure, transformation locus, selected path, path slice, substructure, crossing, or flow valuation composes, decomposes, constrains, or locates the atomic bounded change. `TransformationFlowMathematicalDescriptionRef?` is current when a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, or wiring expression is used as a mathematical description or lens for that selected structure. The first keeps the transformation in-life or in-subject structure under concern; the second keeps the mathematical description from becoming the transformation, method, mechanism, work occurrence, publication, or evidence relation.
+
+`TransformationCore` in `A.3.4:4.2` is one filled use of the identity slots, not a second ontology. The participation and check slots are fixed typed positions around the transformation, not extra identity conditions and not fused neighboring kinds.
+
+Identity slots:
+
+| Identity slot | Value kind or governing pattern | Meaning |
+| --- | --- | --- |
+| `transformedEntityOrStructure` | `EntityOfConcern` value under its governing pattern | What changes or is to be changed. |
+| `boundedContext` | `U.BoundedContext` or direct context-governing pattern when current | The context-of-meaning in which this is one transformation; if the context name becomes durable, public, Core-facing, or cross-context, use `F.18` and `F.17 UTS`. |
+| `initialCondition` | state, characteristic value, structure, formal object, or condition set | The condition before the transformation or the lower boundary of the claim. |
+| `postStateConditionOrDelta` | state, characteristic value, structure, result condition, or delta predicate | The intended, observed, possible, or claimed post-state or delta. |
+| `transformationRelation` | relation, task, transition, operation family, morphism, construction, transformation-flow structural relation via E.18 when current, or declared transformation predicate | What makes this one bounded change a transformation rather than an unrelated before-and-after pair. |
+| `admissibilityOrBoundaryCondition` | condition set or governing-pattern boundary | What makes the transformation possible, admissible, meaningful, blocked, or lowered. |
+| `temporalOrOrderingReference?` | `C.27.TA` temporal aspect, time window, order relation, cadence, duration, or not-triggered | The timing or ordering reference when it changes the transformation claim. |
+
+Participation and check slots:
+
+| Participation and check slot | Filler kind or governing pattern | Consideration rule |
+| --- | --- | --- |
+| `TransformerRef?` | `U.System`, candidate system, or system-in-role locus bearing `TransformerRole@Context`; use A.7 and the role/work family when role assignment, responsibility, capability, work, or enactment is current | Consider who or what produces, enacts, carries, realizes, or sustains the transformation. A `FunctionalElement@Context` may recover this transformer locus in a functional structure view, but reactors, enzymes, control systems, service organizations, scripts, instruments, manufacturing cells, and document-editing systems can also fill it. If a legacy `transductor` cue names the device/system side, map it here plus any current signature, mechanism, capability, method, work, port, interface, or module-allocation claim; do not mint `U.Transductor`. |
+| `InputConditionOrPortRefs?` | input state, material, energy, signal, information, work product, formal object, condition, or functional-port signature; use `A.6.0`, `A.6.5`, `A.6.F`, `A.6.M`, `E.18`, `C.30.ASV`, and the domain pattern when current | Consider inputs when boundary, transfer, conservation, loss, acceptance, port, or functioning claims depend on what enters or is accepted by the transformation. Inputs may constrain identity only when the input boundary distinguishes this transformation; otherwise they are participation/check slots. |
+| `OutputConditionOrPortRefs?` | output state, produced flow, result condition, work product, formal object, or functional-port signature; use `A.6.0`, `A.6.5`, `A.6.F`, `A.6.M`, `E.18`, `C.30.ASV`, and result/evidence patterns when current | Consider outputs when the claim depends on produced state, flow, work product, condition, port, transfer, conservation, loss, acceptance, or flow boundary. Keep output distinct from result evidence and publication: an output may identify or constrain the transformation, while evidence/result patterns govern proof, observation, or acceptance claims. |
+| `FunctioningRef?` | governed relation/use value linking `FunctionalElement@Context` to `U.Transformation` or `TransformationFlowStructure`; use `A.6.F`, `C.30.ASV`, `E.17.2`, and `A.6.M` for the functional-view, viewpoint, and allocation sides | Consider when this transformation is functioning of a functional element: the bearer-system's functional behavior in a bounded functional structure view, often located inside a transformation-flow structure. The slot may name functional element, bearer, `TransformerRole`, capability, functional port signatures, flow location, module allocation, and status such as required, possible, intended, observed, degraded, or blocked when those claims are current. It is not a new `U.Functioning` root. |
+| `MethodRef?` | `U.Method` via `A.3.1` | Consider the way by which the transformation is specified, selected, guided, repeated, or compared. An algorithm may fill this slot only when the current claim is the semantic way of doing under conditions; otherwise recover method description, formal substrate, mechanism, work, or evidence through its governing slot. If no method is recovered, do not infer method absence; mark unknown or not recovered, or lower a method-dependent claim. |
+| `MethodDescriptionRef?` | `U.MethodDescription` via `A.3.2`; `C.2.1` when the description is claim-bearing | Consider an authored procedure, protocol, solver formulation, proof script, algorithm text, or other description when it is used around the transformation. This is a description episteme or source value, not the transformation and not necessarily the method itself. |
+| `MechanismRef?` | `U.Mechanism` via `A.6.1` and `E.20` | Consider a law-governed operation algebra, realization structure, admissibility predicate, or mechanism-method stabilization claim when it governs how the transformation can occur. |
+| `WorkPlanRef?` | `U.WorkPlan` via `A.15.2` | Consider planned dated work when the transformation is planned, proposed, coordinated, or carries a planned-responsibility claim. Recover role requirements or proposed `U.RoleAssignment`s when planning responsibility, performer eligibility, or cross-role coordination is current. |
+| `WorkOccurrenceRef?` | `U.Work` via `A.15.1` | Consider performed dated work when the transformation is claimed as enacted, observed through work, traced, result-producing, or responsibility-bearing. Recover `performedBy -> U.RoleAssignment`, `enactsMethod -> U.Method`, method-description source when current, affected referent, result, and evidence relation when current. |
+| `TransformationFlowStructureRef?` | `E.18` selected compound transformation-flow structure, transformation locus, path, path slice, substructure, crossing, or flow valuation | Consider when an E.18 structure composes, decomposes, constrains, orders, couples, or locates the atomic bounded change itself. Use it to fill or constrain `transformationRelation` or structural context; do not infer method, mechanism, work, publication, gate, or evidence from structural position unless the corresponding slot filler is recovered through its governing pattern. |
+| `TransformationFlowMathematicalDescriptionRef?` | `E.18.2` graph, algebra, category, tuple, morphism, path, slice, quotient, fold, refinement, factorization, or wiring expression, coordinated with `C.29` when lens choice matters | Consider when a mathematical description or lens expresses, compares, folds, decomposes, or computes over the selected transformation-flow structure. This slot is about the description/lens; it does not by itself define the in-life transformation relation or enactment. |
+| `DynamicsEpistemeRef?` | `U.Dynamics` via `A.3.3` | Consider state-space, transition-law, or control-model claims when they model, predict, or bound the transformation. |
+| `TemporalAspectRef?` | `C.27.TA` | Consider time window, rhythm, cadence, duration, synchronization, currentness, recovery, stabilization, effort, inertia, or validity window when it matters to the transformation claim. |
+| `TemporalClaimAdequacyRef?` | `C.27` | Consider temporal-claim adequacy when an authored temporal claim about the transformation is being used for action, comparison, promise, assurance, or source-currentness. |
+| `FormalOrMathLensRef?` | `A.6.0`, `C.29`, or direct formal or mathematical pattern | Consider formal substrate, invariant, morphism, construction, state-space, task, or mathematical lens when it states, constrains, or compares the transformation relation. |
+| `EvidenceOrSourceRef?` | `A.10`, `G.6`, `B.3`, `C.16`, source/currentness patterns, or the direct domain evidence pattern when current | Consider evidence, source use, provenance, measurement, model assumption, or source-currentness. Recover the exact typed value under the governing evidence, source, measurement, provenance, or currentness pattern; these are not one kind. |
+| `ResultRef?` | direct result, acceptance, or result-publication pattern when current | Consider produced result, accepted result, stop condition, lowered result, or reopened result when the claim depends on result status. |
+| `GateDecisionAssuranceRef?` | `A.20`, `A.21`, `B.3`, `G.6`, `C.11`, or the direct gate, decision, assurance, permission, or release-authority pattern when current | Consider permission, release, gate passage, assurance, responsibility, or decision. Recover the exact gate, decision, assurance, permission, responsibility, or release-authority value under its governing pattern; these are not one kind. |
+| `PublicationOrDescriptionRef?` | `C.2.1`, `E.17`, `E.17.0`, `E.17.1`, `E.17.2`, or the direct publication, view, carrier, source, or specification-use pattern when current | Consider description, dashboard, diagram, source span, proof, publication, or view when it is used around the transformation. Use `C.2.1` for a claim-bearing transformation description episteme and `E.17` family or the direct publication/source/specification-use pattern for publication, view, source-use, or publication-use claims. |
+| `RefreshOrReopenRef?` | direct refresh, currentness, or reopen pattern | Consider source refresh, validity-window change, new evidence, changed result, or reopening condition when it changes use of the transformation claim. |
+
+The functional-transformation slots form one reciprocal group, not five loose fields. `TransformerRef?`, `InputConditionOrPortRefs?`, `OutputConditionOrPortRefs?`, `FunctioningRef?`, and `TransformationFlowStructureRef?` are active when the transformation is a functional behavior, is located in a flow, crosses a port or boundary, or depends on a bearer/capability/allocation claim. They are not identity slots by default; they become identity-making only when the current transformation claim explicitly distinguishes this transformation by the bearer, input/output boundary, functioning relation, or flow position.
+
+A.3.4 does not duplicate A.15 role slots and does not add `RoleAssignmentRef?` as an identity slot. If a transformation claim depends on planned or performed work, recover the role-method-work chain through `A.15`, `A.15.1`, and `A.15.2`. If the required `U.RoleAssignment`, holder, role, context, method, work plan, or work occurrence cannot be recovered, lower or block the work-dependent transformation claim.
+
+E.18 locus labels do not automatically fill A.3.4 slots. A transformation-flow locus labelled as mechanism points to mechanism-governing content under `A.6.1` and `E.20`; it fills `MechanismRef?` only when that mechanism value is recovered. A locus labelled as work or work enactment fills `WorkOccurrenceRef?` only when a dated performed-work occurrence is current under `A.15.1`. A signature locus points to `A.6.0`; a check locus points to gate or constraint-validity claims under `A.20` or `A.21`. Method and method-description slots still use `A.3.1` and `A.3.2`; a readable structure order does not create a method.
+
+This is a weak dependency on `E.18`, not an identity dependency. Every `U.Transformation` may later receive a one-locus, path-slice, substructure, or containing-flow-structure expression, but A.3.4 does not require such a structure to identify the transformation. When the structure is current, it helps recover method, work, mechanism, publication, evidence, gate, result, or refresh slots by pointing to structure-local loci; the filled values still remain governed by their own patterns.
+
+Kinds do not collapse when associated with a transformation. `U.Method`, `U.Mechanism`, `U.WorkPlan`, and `U.Work` are not descriptions merely because they are named here. `U.MethodDescription`, `U.Dynamics`, and a transformation-description value are epistemes under their own governing patterns. Evidence, source, gate, decision, assurance, result, and publication values may support or govern claims about the transformation; they do not become identity slots unless a governing pattern explicitly makes them identity conditions.
+
+When the current object is a claim-bearing description of the transformation, use `C.2.1` explicitly:
+
+```text
+TransformationDescriptionEpisteme:
+  EntityOfConcernSlot: the U.Transformation, one transformation slot, one slot filler, or a relation among those values
+  ClaimGraphSlot: claims about possibility, planning, enactment, observation, modeling, evidence, publication, acceptance, or supported use
+  ReferenceSchemeSlot: how those claims are read or tested as claims about the selected value or slot relation while preserving the enclosing U.Transformation context
+```
+
+A dependent pattern may cite `U.Transformation`, a filled `TransformationCore`, or a specific participation and check slot without copying this slot relation.
+
+#### A.3.4:4.5 - Neighboring Distinction Table
+
+| Current claim | Governing pattern |
+| --- | --- |
+| bounded transformation under conditions | `A.3.4 U.Transformation` |
+| transformation-flow structure, path, path slice, substructure, crossing, or flow valuation as compound structure, locus, or context | `E.18`; `A.3.4` only for the atomic bounded transformation claim |
+| graph, algebra, category, tuple, morphism, path, slice, quotient, fold, refinement, factorization, or wiring expression used as mathematical description or lens | `E.18.2`, coordinated with `C.29` when lens adequacy matters |
+| semantic way of doing | `A.3.1 U.Method` |
+| description of a way of doing | `A.3.2 U.MethodDescription` |
+| state-space and transition-law episteme | `A.3.3 U.Dynamics` |
+| law-governed operation algebra with admissibility predicates | `A.6.1 U.Mechanism` and `E.20` |
+| formal declaration, substrate, invariant, morphism, construction, or postulate set | `A.6.0`, `C.29`, or the direct mathematical pattern |
+| planned dated work | `A.15.2 U.WorkPlan` |
+| dated work occurrence | `A.15.1 U.Work` |
+| positive temporal aspect | `C.27.TA` |
+| temporal claim adequacy | `C.27` |
+| problem-to-principle-to-work carry-through | `E.18.1` |
+| evidence, assurance, gate, decision, source, result, or publication use | the direct governing pattern for that claim |
+
+#### A.3.4:4.6 - Description And Publication Boundary
+
+A method description, dynamics model, transformation diagram, transformation-flow structure description, dashboard, result record, source span, publication, or proof may describe a transformation or provide evidence for a use. It is not the transformation.
+
+If the description itself is under concern, use `C.2.1`, `A.3.2`, `A.3.3`, `E.17`, `E.18`, or the direct publication or source pattern. If the transformation is under concern, keep the description as a neighboring episteme or publication value.
+
+#### A.3.4:4.7 - Formal Transformation And Project-World Realization
+
+A morphism, constructive proof, formal construction, task, or state transition can be a transformation inside a formal or mathematical object of concern. That does not make it project-world work.
+
+Use this distinction:
+
+- If the object under concern is formal or ideal, the transformation relation may be a morphism, construction, task, or transition inside the formal substrate.
+- If the object under concern is physical, organizational, architectural, documentary, or epistemic, the formal relation may specify, model, constrain, or compare the transformation, while work, realization, evidence, and result relations stay with their governing patterns.
+- If a project wants to move from formal construction to project-world change, name the realization relation, work plan, work occurrence, evidence relation, and result relation separately.
+
+#### A.3.4:4.8 - Typed Bundle Recovery Slice
+
+Use this slice when one source phrase appears to name method, mechanism, formal construction, work, evidence, and transformation at once.
+
+Source phrase:
+
+> "The workflow algorithm transforms the emergency-stop specification, and the proof shows the new plant boundary is safe."
+
+Recover the project concern first: the project is asking whether a specification episteme and an architecture-selected boundary have been changed so that an emergency-stop claim can be used safely. Then recover typed values:
+
+```text
+TransformationCore:
+  transformedEntityOrStructure:
+    value: emergency-stop specification episteme section
+    governingPattern: C.2.1 plus the specification or publication pattern that governs the section
+    objectKind: Episteme
+    boundaryOrReferenceScheme: named section and declared emergency-stop boundary
+    descriptionOrPublicationWhenRelevant: published specification revision
+    notSelfEvidencingSource: the proof and publication do not prove their own project-world use
+  boundedContext: plant-control safety specification review
+  initialCondition: ambiguous stop boundary admits two incompatible readings
+  postStateConditionOrDelta: revised boundary admits one declared interpretation under named conditions
+  transformationRelation: specification-repair relation over the episteme section
+  admissibilityOrBoundaryCondition: review condition and safety-case relation required before use
+  temporalOrOrderingReference: C.27.TA validity window for the revision and review cycle
+
+TransformationDescriptionEpisteme (C.2.1 shorthand):
+  EntityOfConcernSlot: the U.Transformation identified above
+  ClaimGraphSlot: claims that the specification section changed, that the proof relation supports one formal boundary reading, and that safety use still needs assurance or gate admission
+  ReferenceSchemeSlot: specification section reference plus formal-substrate interpretation and safety-case review scheme
+```
+
+Current neighboring relation references: method description for the repair procedure; formal substrate or mathematical lens for the proof; evidence or assurance relation for safety use. These references stay outside `TransformationCore`.
+
+This slice shows the slot-bundle rule without making the claim-bearing episteme the object. The workflow label may point to a method description, a work plan, or an E.18 transformation-flow structure. The algorithm or proof may point to a formal substrate or mathematical lens. The published revised specification is an episteme or publication value. The project-world plant change, if any, needs separate work, evidence, gate, and result relations. Do not assign one typed value as method, mechanism, transformation, work, and evidence merely because the source phrase uses one convenient label.
+

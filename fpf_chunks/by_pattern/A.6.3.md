@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
-line_start: 10079
-line_end: 10552
+line_start: 10562
+line_end: 11035
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -36,7 +36,7 @@ keywords:
 **Placement.** After **A.6.2 `U.EffectFreeEpistemicMorphing`**, before **A.6.4 `U.EpistemicRetargeting`**.
 
 **Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlotDiscipline`; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot graph`; C.2 (KD‑CAL/LOG‑CAL, `subjectRef`, ReferencePlane).
+A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlotDiscipline`; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2 (KD‑CAL/LOG‑CAL, `subjectRef`, ReferencePlane).
 
 **Used by.**
 E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.17.1/E.17.2 (Viewpoint bundle libraries, TEVB); B.5.3 (Role‑EpistemicViewing); discipline packs for architecture, safety, and ML/LLM‑based representations.
@@ -120,7 +120,7 @@ Without a dedicated pattern for EpistemicViewing:
 > * is **effect-free and conservative** (no new commitments about the EntityOfConcern),
 > * and composes functorially with other epistemic viewings.
 
-In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot graph**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `EntityOfConcernSlot` (and usually `GroundingHolonSlot`).
+In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot relation**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `EntityOfConcernSlot` (and usually `GroundingHolonSlot`).
 
 #### A.6.3:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
@@ -190,7 +190,7 @@ For any `v:X→Y` in `U.EpistemicViewing`:
    * preserve `BoundedContextRef` (unless a Bridge is explicitly cited),
    * treat `ViewpointRef` as in (2) above.
 
-**EV‑2 - Effect‑free boundary (over EpistemeSlotGraph).**
+**EV‑2 - Effect‑free boundary (over EpistemeSlotRelation).**
 EpistemicViewing remains **pure** in the EFEM sense:
 * It may change **only C.2.1 components of the codomain episteme**:
   * `content : U.ClaimGraph` (e.g. filtering, aggregation, normalisation),
@@ -387,7 +387,7 @@ both with `entityOfConcernRef` pointing to the same system holon `S`, but living
 * must publish witnesses that two different ways of composing local correspondences give the same result up to declared equivalence,
 * remains conservative: it does not assert that any requirement is covered unless that fact is recorded in `CM` and justified in `D`.
 
-This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotGraph.
+This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotRelation.
 
 ### A.6.3:6 - Consequences
 

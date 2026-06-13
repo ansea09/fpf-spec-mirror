@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 53659
-line_end: 54166
+line_start: 54385
+line_end: 54924
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,7 +115,7 @@ ArchitectureStructuralView@Context ::= {
 ```text
 ArchitectureStructureKindRef ::= one of {
   FunctionalStructure,
-  FlowTransductionStructure,
+  TransformationFlowStructure,
   ControlStructure,
   ModuleInterfaceStructure,
   RuntimeInteractionStructure,
@@ -134,7 +134,7 @@ ArchitectureStructureKindRef ::= one of {
 }
 ```
 
-The first group is the seed classifier set for ordinary architecture structural-view use. `WorkMethodStructure`, `RoleEnactorStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are neighbor-governed classifier values: ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named work and method, role-enactor, evidence and assurance, scale, characterization, or mathematical-lens patterns.
+The first group is the seed classifier set for ordinary architecture structural-view use. `SecurityTrustBoundaryStructure`, `WorkMethodStructure`, `RoleEnactorStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are classifier values over selected `U.Structure` references, not new root kinds. ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named security, work and method, role-enactor, evidence and assurance, scale, characterization, or mathematical-lens patterns.
 Do not enumerate structure kinds by default. Choose the smallest useful structure-kind set that changes the next architecture move. If no structure kind changes action, keep the phrase as ordinary recognition wording or a source note. This does not weaken kind discipline; it prevents `ArchitectureStructureKindRef` from becoming an audit checklist.
 
 Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structure-kind classifier value over `U.Structure`; it does not mint a general FPF root kind.
@@ -144,11 +144,11 @@ Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structur
 - `declaredStructureKindName`;
 - `declaredStructureKindDefinition`;
 - allowed relation families;
-- common false interpretations;
+- locally triggered overreads;
 - governing-pattern applications;
 - `boundedContextRef`.
 
-Each structure kind needs a short definition, allowed relation families, common false interpretations, typical governing-pattern applications, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `U.Structure`.
+Each structure kind needs a short definition, allowed relation families, locally triggered overreads, typical governing-pattern applications, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `U.Structure`.
 
 #### C.30.ASV:4.3 - Small triage output
 
@@ -166,7 +166,7 @@ ArchitectureStructureKindTriage@Project ::= {
   smallestUsefulStructureKindRefs,
   structureKnowledgeState?,
   primaryGoverningPatternApplicationRef,
-  temptingWrongPatternRefs?,
+  blockedLocalOverreadRefs?,
   admissibleArchitectureMove:
     inspect | split | relate | downgrade | assignNeighbor | stop |
     otherDeclared,
@@ -176,14 +176,14 @@ ArchitectureStructureKindTriage@Project ::= {
 }
 ```
 
-`primaryGoverningPatternApplicationRef` names the pattern that carries the next claim kind being made. `candidateGenerationPatternApplication?` marks that the next admissible move is candidate generation; candidate generation is not ASV work. `temptingWrongPatternRefs?` names tempting wrong first patterns when that repair is needed. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
+`primaryGoverningPatternApplicationRef` names the pattern that carries the next claim kind being made. `candidateGenerationPatternApplication?` marks that the next admissible move is candidate generation; candidate generation is not ASV work. `blockedLocalOverreadRefs?` names only the source- or view-triggered overread that would change this triage; it is not a place to list every neighboring pattern. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
 When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
 
 Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-governed records use the Tech values below:
 
 ```text
 Functional -> FunctionalStructure
-Flow -> FlowTransductionStructure
+Flow -> TransformationFlowStructure
 Control -> ControlStructure
 Module -> ModuleInterfaceStructure
 Method and work -> WorkMethodStructure
@@ -246,8 +246,8 @@ The initial set is a seed for first architecture moves, not an atlas. Use the ta
 
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | `FunctionalStructureView@Context` | function refs or effect refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, capability, work, or requirement patterns when those claims are being made. |
-| `FlowTransductionStructure` | `FlowTransductionStructureView@Context` | `transductionGraphRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs` | Use `E.18` and `C.30.TGA-FLOW-REL` for graph, path, or crossing structure input; use `C.28` for causal claims. |
+| `FunctionalStructure` | `FunctionalStructureView@Context` | `functionalBehaviorRefs`, `functionalElementRefs?`, `transformerOrCandidateBearerRefs?`, input/output or functional-port refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, `A.3.4`, capability, work, module-allocation, or requirement patterns when those claims are being made. |
+| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TGA-FLOW-REL` for selected transformation-flow structure, path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
 | `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
 | `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are being made. |
 | PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, legal, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
@@ -263,7 +263,7 @@ Externally governed classifier values remain admissible when they are the archit
 | Externally governed classifier value | ASV use | Full semantics and governing patterns |
 | --- | --- | --- |
 | `WorkMethodStructure` | Method arrangement or work arrangement changes the architecture move. | Use `MethodDescription`, `WorkPlan`, `WorkEnactment`, exception path, launch relation or gate relation, and `A.15` governing patterns; do not turn a work-method diagram into work authority. |
-| RoleEnactorStructure | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
+| `RoleEnactorStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
 | `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10`, `G.6`, or `B.3` for evidence sufficiency or assurance verdict; ASV only names the structure and loss boundary. |
 | `ScaleEvolutionStructure` | Scale window, replacement or change policy, trajectory reference, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
 | `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or externally governed values fits. | Name definition, relation families, false interpretations, governing patterns, and context; do not mint a root kind by label alone. |
@@ -273,11 +273,11 @@ Minimum useful seed examples:
 | Structure kind | Minimal example | False interpretation | First governing pattern |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern when that claim kind is being made. |
-| `FlowTransductionStructure` | Path, crossing, valuation, or transduction slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, C.29, or C.28 when a graph, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
+| `TransformationFlowStructure` | Path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
 | `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance pattern when that claim kind is being made. |
 | `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern when that claim kind is being made. |
 | `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source-return pattern when that claim or reliance use is being made. |
-| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, C.24, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
+| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, `C.24` agentic tool-use/call-planning, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
 | `MaterialSpatialStructure` | Separation, adjacency, containment, or energy path or material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal pattern when that claim kind is being made. |
 | `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or governing pattern when that relation is being claimed or a claim of that kind is being made. |
 Minimal `SecurityTrustBoundaryStructureView@Context` fields:
@@ -297,7 +297,7 @@ SecurityTrustBoundaryStructureView@Context ::= {
   detectionResponseBoundaryRefs?:
   governingPatternApplicationRefs:
     A.10 | G.6 | B.3 | C.28 | A.20 | A.21 |
-    C.16 | C.25 | C.24 when tool authority or agentic tool-use is being claimed | C.30.LCA when a control relation is being claimed
+    C.16 | C.25 | C.24 agentic tool-use/call-planning relation when tool authority is being claimed | C.30.LCA when a control relation is being claimed
   admissibleUse:
   neighboringClaimBoundary:
     compliance, risk-score, assurance, checklist-security, and zero-trust claims apply the evidence, assurance, risk, gate, or security pattern governing the claim being made
@@ -337,15 +337,29 @@ The note gives a positive first architecture move: find the loss-control structu
 
 #### C.30.ASV:4.6 - Functional structure view boundary
 
-`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. A functional element is a description-side architecture element under `VP.Functional` unless separately grounded as `U.Capability`, `U.Method`, `U.Work`, `U.Role`, or another existing FPF kind.
+`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. It may publish `FunctionalElement@Context` as the functional-view ontic locus when the view selects a bounded context, a functional behavior, and a bearer or candidate-bearer locus. The functional element is not identical with the behavior: the behavior is grounded as `U.Transformation` for one bounded required change/effect or as `TransformationFlowStructure` for compound behavior, while the functional element is the view-local locus that binds that behavior to bearer, capability, ports, and allocation claims when those claims are current.
+
+Identity for `FunctionalElement@Context` is:
+
+- selected `FunctionalStructureView@Context`;
+- bounded context;
+- functional behavior reference: `U.Transformation` or `TransformationFlowStructure`;
+- bearer or candidate-bearer locus: normally `U.System` or candidate system bearing `TransformerRole@Context`, or an explicit not-yet-allocated gap.
+
+If no bearer or candidate allocation is current, do not claim a full functional element. Record a required transformation/effect/capability gap, a functional behavior slot, or a candidate allocation question. This preserves the practical architecture move without pretending that a module, component, diagram row, or function word has already supplied the bearer.
 
 ```text
 FunctionalStructureView@Context ::= {
   architectureStructuralViewRef: ArchitectureStructuralView@ContextRef,
+  functionalElementRefs?: FunctionalElement@Context refs,
   functionOrEffectRefs?,
+  functionalBehaviorRefs?: U.Transformation | TransformationFlowStructure,
+  transformerOrCandidateBearerRefs?: U.System bearing TransformerRole@Context | candidate system | gap,
   capabilityRefs?,
+  inputConditionOrPortRefs?,
+  outputConditionOrPortRefs?,
   functionalDependencyRefs?,
-  allocationRefs?,
+  allocationOrCorrespondenceRefs?,
   nonFunctionClaimNotes?,
   flowRelationRefs?,
   moduleInterfaceRelationRefs?,
@@ -354,7 +368,7 @@ FunctionalStructureView@Context ::= {
 }
 ```
 
-A transduction graph, path slice, crossing, or flow valuation is not a functional element. When a flow relation is being used, connect the functional view to `FlowTransductionStructure` through `C.30.TGA-FLOW-REL`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind.
+A selected transformation-flow structure, mathematical graph description, path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TGA-FLOW-REL`. When a mathematical graph description is being used, connect it through `E.18.2` and `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input/output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
 
 Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
 
@@ -364,7 +378,7 @@ Composability:
   recoveredRelationOrRecordKind: ModuleAllocationRelation | InterfaceSpecification
 Quality compositionality:
   "The assembled whole preserves safety, latency, or reliability."
-  recoveredRelationOrRecordKind: QBundleSlot | structuralCharacteristicQBundleInputSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidencePathForQBundleSlot
+  recoveredRelationOrRecordKind: QBundleSlot | structuralCharacteristicQBundleInputSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidenceRelationForQBundleSlot(A.10 evidence path only when the evidence-provenance path is the claim being made)
 Non-admissible:
   successful assembly is not quality propagation
 ```
@@ -427,7 +441,7 @@ Runtime degradation slice:
     EvidenceAssuranceStructure
   first architecture move:
     recover runtime interaction topology, control relation or failover relation,
-    state custody, placement relation, locality relation, evidence path, and observability relation
+    state custody, placement relation, locality relation, evidence relation, and observability relation
   nonAdmissibleUse:
     deployment diagram as runtime proof,
     observability dashboard as evidence sufficiency,
@@ -466,7 +480,7 @@ stop condition:
 Chiplet and device architecture first recovery:
   MaterialSpatialStructure:
     packaging, adjacency, thermal path, energy path
-  FlowTransductionStructure:
+  TransformationFlowStructure:
     interconnect topology, data flow path, energy flow path, or signal flow path
   ModuleInterfaceStructure:
     interface specification, protocol, conformance boundary
@@ -524,6 +538,24 @@ Evidence reuse across product variants:
     evidence-structure view as assurance verdict
 ```
 
+**Organization service architecture.** A service organization sketch that shows teams, handoffs, escalation points, and dashboards is not the organization architecture by itself. First recovery may need:
+
+```text
+Organization service architecture first recovery:
+  describedHolonRef: service organization or service-delivery system
+  candidateStructureKindRefs:
+    WorkMethodStructure:
+      method arrangement, work-plan boundaries, exception handling, and performed-work records
+    RoleEnactorStructure:
+      role assignments, responsibility split, enactor availability, and escalation relation
+    InformationDataStructure:
+      ticket state, customer record custody, dashboard source, and source-return condition
+    EvidenceAssuranceStructure:
+      audit trail, service-level evidence relation, assurance claim, and gate or release record only when those claims are being made
+  C30ASVBoundary:
+    ASV names selected structure and view boundary; staffing decision, work authority, evidence sufficiency, assurance, and service-quality claims go to their governing patterns
+```
+
 **AI agent diagram.** A "planner-memory-tools" diagram is not the agent's architecture by itself. It may start first recovery as a structure-kind set, without minting an AI-domain ontology:
 
 ```text
@@ -551,7 +583,7 @@ governingPatternApplicationRefs:
   C.30.TGA-FLOW-REL when an E.18 flow relation is being used,
   A.6.M module-relation repair for tool, API, or interface relation claims,
   A.10, G.6, or B.3 when evidence or assurance reliance is being claimed,
-  C.24, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is being claimed
+  C.24 agentic tool-use/call-planning relation, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is being claimed
 stop condition:
   ASV contains only the structural-view record; evidence sufficiency, assurance, gate, autonomy, and tool-call authority claims are assigned to the governing patterns for those claims
 ```

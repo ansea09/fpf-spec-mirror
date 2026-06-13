@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme — Epistemes and their slot graph"
+pattern_title: "U.Episteme - Epistemes and their slot relation"
 section_id: "C.2.1:9"
 section_title: "Bias‑annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_bias-annotation-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.2.1 — U.Episteme — Epistemes and their slot graph"
+  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:9 — Bias‑annotation  (informative)"
-line_start: 34830
-line_end: 34849
+line_start: 35342
+line_end: 35361
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -38,7 +38,7 @@ C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Nov
 * distributed/latent representations (LLM embeddings, latent protocols like “DroidSpeak”, “Coconut”‑style communication),
 * hybrid ReAct‑style agent loops
 
-can all be treated as different species operating over the same `U.EpistemeSlotGraph`. There is a bias towards making these operational differences **explicit** instead of hiding them behind “the model”.
+can all be treated as different species operating over the same `U.EpistemeSlotRelation`. There is a bias towards making these operational differences **explicit** instead of hiding them behind "the model".
 
 **Viewpoint and stakeholder bias.**
 The pattern leans on the ISO‑style idea that viewpoints encode **stakeholder concerns and role‑families**, but it generalises this beyond architecture. `U.Viewpoint` is intentionally context-local and not bound to any single discipline; still, the examples are skewed toward engineering and epistemic use‑cases.

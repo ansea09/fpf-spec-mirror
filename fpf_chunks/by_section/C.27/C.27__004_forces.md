@@ -6,16 +6,19 @@ section_id: "C.27:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__004_forces.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:3 — Forces"
-line_start: 48226
-line_end: 48278
+line_start: 48727
+line_end: 48779
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -68,7 +72,7 @@ claim depends on a relation between bearers.
 
 Third, useful formalization improves replicable practice code. C.27 should help
 make a practice transferable by recording effort windows, rhythm timing references,
-bearer, resistance proxy, evidence path or assumption, and reopen condition. It should not require
+bearer, resistance proxy, evidence relation or assumption relation, and reopen condition. It should not require
 equations merely because the source analogy used dynamics language.
 
 Borrowed-frame translation:

@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:2 — Problem frame"
-line_start: 74848
-line_end: 74857
+line_start: 75984
+line_end: 75993
 dependencies:
   - "B.3"
   - "D.CTX"

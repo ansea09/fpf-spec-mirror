@@ -6,12 +6,12 @@ section_id: "C.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__005_solution.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:4 — Solution"
-line_start: 34060
-line_end: 34100
+line_start: 34570
+line_end: 34610
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.2:4 - Solution
 
-#### C.2:4.1 - Coordinates and the episteme slot graph
+#### C.2:4.1 - Coordinates and the episteme slot relation
 
 **KD‑CAL characteristics (single‑episteme, point‑values).**
 
@@ -44,7 +44,7 @@ keywords:
  **Congruence Level (CL), pairwise ladder.**
  `CL‑0` **Opposed/Disjoint** (contrastive; no substitution); `CL‑1` **Comparable / Naming‑only** (label similarity; no substitution); `CL‑2` **Translatable / RoleAssignment‑eligible** (structure‑preserving mapping in a declared fragment with **stated loss**; theorems may transport); `CL‑3` **Near‑identity / Type‑structure‑safe** (invariants match; type‑structure substitution allowed). *CL is a characteristic of a relation between two epistemes; it is not a fourth member of the F–G–R assurance tuple and it is not a characteristic space of its own.* **Norm:** substitution is permitted only if plane‑preserving and **CL ≥ 2**; substituting **type‑structure** requires **CL = 3**.
 
-**Slot-graph link.** The assurance components are stated over `U.EpistemeSlotGraph`: *F* by the internal `ClaimGraph` and formal substrate, *G* by the `ClaimScope` attached to the EntityOfConcern and assumptions, and *R* by evaluation templates and evidence bindings. Notation belongs to representation and reference-scheme structure; carriers remain outside the episteme and link through SCR/RSCR or other exact carrier relations. Multiple notations are allowed only when their relation is explicit; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
+**Slot-relation link.** The assurance components are stated over `U.EpistemeSlotRelation`: *F* by the internal `ClaimGraph` and formal substrate, *G* by the `ClaimScope` attached to the EntityOfConcern and assumptions, and *R* by evaluation templates and evidence bindings. Notation belongs to representation and reference-scheme structure; carriers remain outside the episteme and link through SCR/RSCR or other exact carrier relations. Multiple notations are allowed only when their relation is explicit; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 

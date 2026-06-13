@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Review guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_review-guidance.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:15 — Review guidance"
-line_start: 22092
-line_end: 22102
+line_start: 22602
+line_end: 22612
 dependencies:
   - "A.16"
   - "A.16.1"

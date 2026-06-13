@@ -6,12 +6,12 @@ section_id: "E.17.0:7"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_consequences-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:7 — Consequences  (informative)"
-line_start: 62993
-line_end: 63012
+line_start: 63780
+line_end: 63799
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -28,7 +28,7 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"

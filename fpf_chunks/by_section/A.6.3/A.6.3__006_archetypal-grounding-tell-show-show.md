@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Archetypal grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:5 — Archetypal grounding (Tell–Show–Show)"
-line_start: 10361
-line_end: 10439
+line_start: 10844
+line_end: 10922
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -106,5 +106,5 @@ both with `entityOfConcernRef` pointing to the same system holon `S`, but living
 * must publish witnesses that two different ways of composing local correspondences give the same result up to declared equivalence,
 * remains conservative: it does not assert that any requirement is covered unless that fact is recorded in `CM` and justified in `D`.
 
-This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotGraph.
+This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotRelation.
 

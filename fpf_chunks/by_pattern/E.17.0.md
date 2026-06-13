@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
-line_start: 62666
-line_end: 63051
+line_start: 63453
+line_end: 63838
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -27,7 +27,7 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
@@ -40,7 +40,7 @@ keywords:
 > **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of Description epistemes and specification-use Description epistemes)
 
 **Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
-**Builds on:** C.2.1 `U.EpistemeSlotGraph` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
+**Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
 **Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (E.TGA engineering viewpoint families), domain‑specific description schemes (architecture, safety cases, governance, research).
 
 **Guard (lexical).**
@@ -93,7 +93,7 @@ Without `U.MultiViewDescribing`:
    * we cannot give a single formal story for consistency, correspondence, and EpistemicViewing across families of descriptions.
 
 4. **No place to attach correspondence.**
-   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of Description epistemes, including Description epistemes admitted for specification use** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot graph.
+   ISO 42010‑style *correspondences* and modern BX/consistency relations have nowhere canonical to live. We need a **CorrespondenceModel over families of Description epistemes, including Description epistemes admitted for specification use** that integrates with `U.EpistemicViewing`, `U.EpistemicRetargeting`, and C.2.1’s slot relation.
 
 ### E.17.0:3 - Forces  *(informative)*
 
@@ -101,7 +101,7 @@ Without `U.MultiViewDescribing`:
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universality vs domain idioms**      | One pattern should handle engineering, safety, governance, research, etc. ↔ domain communities expect their own jargon (architecture description, safety case, dossier…).              |
 | **Viewpoint locality vs reuse**        | Viewpoints must be local to families of descriptions (`EntityOfConcernClass`, Context) ↔ we want reusable **viewpoint bundles** (libraries) across projects and domains.                           |
-| **EntityOfConcern and Description-episteme boundary and specification-use strictness vs pragmatics** | The EntityOfConcern for this describing use is not the produced Description episteme or its specification use, although an episteme may itself be the current EntityOfConcern; Description is an episteme use and Specification is a checkability/formality/harness-gated use or refinement of a Description episteme with `DescriptionContext` ↔ engineers think in “views over a system”, not in pure slot-graph algebra. |
+| **EntityOfConcern and Description-episteme boundary and specification-use strictness vs pragmatics** | The EntityOfConcern for this describing use is not the produced Description episteme or its specification use, although an episteme may itself be the current EntityOfConcern; Description is an episteme use and Specification is a checkability/formality/harness-gated use or refinement of a Description episteme with `DescriptionContext` ↔ engineers think in “views over a system”, not in pure slot-relation algebra. |
 | **Slot discipline vs approachability** | C.2.1 and A.6.5 give a clean SlotKind, ValueKind, and RefKind discipline ↔ working users need to talk about “functional view” and “safety view” without carrying all slot jargon in didactic explanatory text. |
 | **Epistemic versus publication-form and carrier lanes** | Views (epistemes) must be clearly separated from `publication face/form` and `interop publication form` kinds and carriers ↔ working practice often conflates “viewpoint”, “view”, and “document”.                                         |
 | **Consistency vs incremental change**  | We want tight correspondence between views ↔ views evolve asynchronously; partial inconsistency must be representable and repairable (BX‑style).                                      |
@@ -393,14 +393,14 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
   Bidirectional transformations literature treats consistency relations and repair as first‑class. `U.CorrespondenceModel` and `U.CorrespondenceEpistemicViewing` provide FPF-native correspondence objects for such relations, ensuring that consistency rules live in ClaimGraphs and respect episteme morphism invariants, rather than being buried in tool code.
 
 * **Optics and displayed categories.**
-  With C.2.1 and A.6.3, epistemes form a category fibred over EntityOfConcern values; viewings act like optics over the episteme slot graph. `U.MultiViewDescribing` is the **displayed‑category‑like** organisation of families indexed by `EntityOfConcernSlot` and `ViewpointSlot`, making later categorical reasoning (e.g. structured cospans for view composition) straightforward.
+  With C.2.1 and A.6.3, epistemes form a category fibred over EntityOfConcern values; viewings act like optics over the episteme slot relation. `U.MultiViewDescribing` is the **displayed‑category‑like** organisation of families indexed by `EntityOfConcernSlot` and `ViewpointSlot`, making later categorical reasoning (e.g. structured cospans for view composition) straightforward.
 
 * **Hybrid symbolic/latent representations.**
   By treating `U.RepresentationScheme` and `U.RepresentationOperation` as episteme components, families can mix symbolic specs, diagrams, code, and latent representations (e.g. LLM‑based summaries) while staying within the same multi‑view discipline and EpistemicViewing invariants.
 
 ### E.17.0:9 - Relations  *(informative summary)*
 
-* **Builds on C.2.1 `U.EpistemeSlotGraph`.**
+* **Builds on C.2.1 `U.EpistemeSlotRelation`.**
   Uses `EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot` as the structural backbone for descriptions, views, and correspondence.
 
 * **Builds on A.6.2–A.6.4.**
@@ -416,7 +416,7 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
   Ensures every Description episteme or Description episteme admitted for specification use in a family has a DescriptionContext, keeps “Describe and specification-use” distinct from “Publish”, and respects lexical guards around `View`, `Viewpoint`, `publication-face kind`, `ViewFamilyId`, `*Slot`, `*Ref`.
 
 * **Coordinates with B.5.* / F‑cluster.**
-  Viewpoints’ stakeholder families and concerns link naturally with RoleEnactment (B.5.\*) and Part F role descriptions, assignments, harnesses — without overloading `U.Role` as a slot value in EntityOfConcern and Description-episteme boundary and specification use or episteme slot graphs.
+  Viewpoints’ stakeholder families and concerns link naturally with RoleEnactment (B.5.\*) and Part F role descriptions, assignments, harnesses — without overloading `U.Role` as a slot value in EntityOfConcern and Description-episteme boundary and specification use or episteme slot relations.
 
 ### E.17.0:End
 

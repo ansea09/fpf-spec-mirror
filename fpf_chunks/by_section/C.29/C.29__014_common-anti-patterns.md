@@ -6,12 +6,12 @@ section_id: "C.29:12"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_common-anti-patterns.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:12 — Common anti-patterns"
-line_start: 51902
-line_end: 51929
+line_start: 52626
+line_end: 52653
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -1,24 +1,27 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture-TGA Flow-Structure Relation"
+pattern_title: "Architecture Transformation-Flow Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__007_bias-annotation.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TGA-FLOW-REL:6 — Bias-Annotation"
-line_start: 54987
-line_end: 55000
+line_start: 55775
+line_end: 55788
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -32,24 +35,25 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureFlowStructureRelation@TGA"
-  - "FlowTransductionStructure"
-  - "TGA graph relation"
-  - "architecture flow relation"
-  - "graph/path/crossing"
+  - "architecture structural view"
+  - "architecture-to-transformation-flow relation"
+  - "functional behavior"
+  - "selected structure"
+  - "transformation-flow structure"
 ---
 
 ### C.30.TGA-FLOW-REL:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-flow relations using E.18 objects.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow relations using E.18 objects.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Graph-as-architecture bias | The pattern states that grounded architecture adequacy and conditional architecture-description use stay with C.30, while structural views stay with C.30.ASV. |
-| Function-flow collapse | Functional structure and flow or transduction structure are related, not identical. |
+| Structure-or-description-as-architecture bias | The pattern states that grounded architecture adequacy and conditional architecture-description use stay with C.30, mathematical descriptions stay with E.18.2/C.29, and structural views stay with C.30.ASV. |
+| Function-flow collapse | Functional structure and transformation-flow structure are related, not identical by default. Identity requires a positive selected-structure co-reference check. |
 | Non-flow claim overread | The relation table assigns non-flow claim kinds to their governing patterns. |
 | Mathematical overread | Mathematical-lens use of a graph or valuation is governed by C.29. |
 | Check-only bias | Conformance checks include repair moves and stop conditions. |

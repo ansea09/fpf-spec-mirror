@@ -6,12 +6,12 @@ section_id: "A.2.5:10"
 section_title: "Guard design (types and discipline)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_guard-design-types-and-discipline.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:10 — Guard design (types and discipline)"
-line_start: 3744
-line_end: 3771
+line_start: 3746
+line_end: 3773
 dependencies:
   - "A.15"
   - "A.2.1"

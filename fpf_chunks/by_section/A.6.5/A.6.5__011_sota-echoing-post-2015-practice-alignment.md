@@ -6,12 +6,12 @@ section_id: "A.6.5:10"
 section_title: "SoTA‑Echoing (post‑2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__011_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:10 — SoTA‑Echoing (post‑2015 practice alignment)"
-line_start: 15136
-line_end: 15160
+line_start: 15646
+line_end: 15670
 dependencies:
   - "A.1"
   - "A.19"
@@ -26,7 +26,7 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.MultiViewDescribing"
   - "U.Signature"
 keywords:

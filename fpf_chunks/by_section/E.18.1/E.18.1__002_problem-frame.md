@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Transduction Path"
+pattern_title: "Principles-to-Work Carry-Through"
 section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18.1 — Principles-to-Work Transduction Path"
+  - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 67167
-line_end: 67194
+line_start: 67983
+line_end: 68010
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,15 +37,13 @@ dependencies:
 keywords:
   - "P2W"
   - "accepted ProblemCard@Context"
-  - "carried distinction"
   - "carry-through record"
-  - "first-principles cue"
+  - "evaluation refresh"
+  - "formal substrate"
+  - "mechanism realization"
+  - "method-family selection"
   - "principles-to-work"
-  - "result carry-through"
-  - "return trigger"
-  - "selected application"
-  - "source-currentness"
-  - "stop condition"
+  - "work planning"
 ---
 
 ### E.18.1:1 - Problem frame
@@ -57,8 +55,8 @@ The primary EntityOfConcern is the P2W carry-through relation: the relation betw
 #### E.18.1:1.1 - Use this when
 
 - an accepted `ProblemCard@Context` names a working problem and the team needs a disciplined next move toward method, planning, performed work, or result interpretation;
-- a first-principles, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism-position, method-position, WorkPlanning, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
-- a TGA graph, graph-path relation, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next move must still be recovered as an FPF kind or relation named by value;
+- a first-principles, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism-position, method-position, `A.15.2 U.WorkPlan` or plan-item, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
+- a transformation-flow structure, mathematical path relation in a graph-shaped description, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next move must still be recovered as an FPF kind or relation named by value;
 - a result artifact, telemetry line, acceptance record, quality-evaluation record, done-state update, feedback pin, or integration claim needs to be unpacked before it can guide the next move.
 
 #### E.18.1:1.2 - What goes wrong if missed

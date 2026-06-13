@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme — Epistemes and their slot graph"
+pattern_title: "U.Episteme - Epistemes and their slot relation"
 section_id: "C.2.1:7"
 section_title: "Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_alignment-with-a-6-2-a-6-4-episteme-morphisms-normative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.2.1 — U.Episteme — Epistemes and their slot graph"
+  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:7 — Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
-line_start: 34707
-line_end: 34775
+line_start: 35219
+line_end: 35287
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -27,7 +27,7 @@ keywords:
 ---
 
 ### C.2.1:7 - Alignment with A.6.2–A.6.4 (episteme morphisms)  *(normative)*
-`U.EpistemeSlotGraph` is the **slot-level substrate** for the episteme morphism patterns:
+`U.EpistemeSlotRelation` is the **slot-relation substrate** for the episteme morphism patterns:
 * A.6.2 `U.EffectFreeEpistemicMorphing`
 * A.6.3 `U.EpistemicViewing`
 * A.6.4 `U.EpistemicRetargeting`

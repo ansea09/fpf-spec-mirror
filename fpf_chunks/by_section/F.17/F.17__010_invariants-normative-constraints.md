@@ -6,12 +6,12 @@ section_id: "F.17:9"
 section_title: "Invariants (normative constraints)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_invariants-normative-constraints.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:9 — Invariants (normative constraints)"
-line_start: 75651
-line_end: 75667
+line_start: 76787
+line_end: 76803
 dependencies:
   - "A.1.1"
   - "A.11"

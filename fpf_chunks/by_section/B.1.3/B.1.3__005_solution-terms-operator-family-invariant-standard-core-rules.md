@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 29742
-line_end: 29865
+line_start: 30252
+line_end: 30375
 dependencies:
   - "A.1"
   - "A.12"
@@ -34,7 +34,7 @@ keywords:
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotGraph`: `EntityOfConcernSlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
+* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotRelation`: `EntityOfConcernSlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
 * **Evidence/Provenance Graph** — edges like **evidences**, **derivesFrom**, **usesMethod**, **isMeasuredBy** with anchors (A.10).
 * **Mapping edge** — a typed relation between conceptual vocabularies (e.g., ontology alignment, unit conversion) with a **CL** score (0…3/4 per A.15/B.3 convention).
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.

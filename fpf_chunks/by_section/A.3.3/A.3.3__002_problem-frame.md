@@ -6,12 +6,12 @@ section_id: "A.3.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__002_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:1 — Problem frame"
-line_start: 6551
-line_end: 6572
+line_start: 6553
+line_end: 6574
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,11 +22,12 @@ dependencies:
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.1"
   - "B.3"
-  - "B.4"
   - "C.2.P.DR"
   - "C.27"
+  - "C.27.TA"
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
@@ -36,13 +37,17 @@ dependencies:
   - "U.Mechanism"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.Transformation"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "model"
+  - "calibration"
+  - "dynamics"
+  - "observation relation"
+  - "prediction"
   - "simulation"
-  - "state evolution"
   - "state space"
+  - "transition law"
 ---
 
 ### A.3.3:1 - Problem frame
@@ -65,5 +70,5 @@ Use it when the working question is:
 
 **What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate methods from laws of change, and decide where mathematical-lens, temporal, evidence, assurance, or gate patterns must take over.
 
-**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If it states an episteme describing that way, use `A.3.2`. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness of a claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
+**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If it states an episteme describing that way, use `A.3.2`. If it states bounded transformation under conditions, use `A.3.4`. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:15"
 section_title: "Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__016_review-guidance.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:15 — Review Guidance"
-line_start: 36238
-line_end: 36246
+line_start: 36750
+line_end: 36758
 dependencies:
   - "A.16"
   - "A.16.0"

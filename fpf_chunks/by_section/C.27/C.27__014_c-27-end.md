@@ -5,17 +5,20 @@ pattern_title: "Temporal Claim Adequacy: State Readings, Temporal Trends, and In
 section_id: "C.27:End"
 section_title: "C.27:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.27/C.27__015_c-27-end.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+output_path: "by_section/C.27/C.27__014_c-27-end.md"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:End — C.27:End"
-line_start: 49945
-line_end: 49946
+line_start: 50397
+line_end: 50398
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"

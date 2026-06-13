@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 52157
-line_end: 52228
+line_start: 52881
+line_end: 52952
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,7 +111,7 @@ Use the cue only to choose the first architecture move: described holon, bounded
 Use this when:
 
 - a practitioner says "architecture" and needs to know whether the claim being made is about a holon, selected structure, architecture description, view, carrier, decision, work, evidence, assurance, or mathematical lens;
-- downgrade an artifact to publication, diagram, carrier, source relation, or generated relation graph when it is not a Description or view;
+- an artifact is being treated as the architecture claim, and its role must be recovered as publication, diagram, carrier, source relation, generated relation graph, Description episteme, or view;
 - name the selected architecture-relevant structure and the next architecture move before writing a full architecture-description record;
 - state a minimal architecture structural view only when it changes the next move;
 - keep architecture-description machinery conditional instead of making every architecture discussion a multi-view description exercise;
@@ -124,7 +124,7 @@ What goes wrong if C.30 is missed: architecture collapses into a document, a mod
 
 What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
-Not this pattern when the EntityOfConcern under repair is only a general selected structure, a full architecture description, an architecture structural view, a TGA flow relation, an LCA/control view, a mathematical-lens use, measurement, evidence, assurance, gate, work, decision, or publication. Use `A.22`, `C.30.AD`, `C.30.ASV`, `C.30.TGA-FLOW-REL`, `C.30.LCA`, `C.29`, `C.16`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, or `E.17` respectively, and keep C.30 only for the architecture-claim portion if that portion is being claimed.
+Not this pattern when the EntityOfConcern under repair is not an architecture claim, selected architecture-relevant structure, artifact-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the direct governing pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common neighboring claim boundaries are summarized in `C.30:12`.
 
 Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *artifact*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, carrier, source, structure, or non-architecture governing-pattern application, use `C.30.P` and `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. Keep the trigger tables in those patterns; C.30 is applied only after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
 

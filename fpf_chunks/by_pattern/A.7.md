@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.7.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
-line_start: 17944
-line_end: 18354
+line_start: 18454
+line_end: 18864
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,7 +45,7 @@ Provide a **single, didactically clear lattice of distinctions** that keeps mode
 3. **Holon vs System vs Episteme** (what can act and what cannot),
 4. **EntityOfConcern vs Description episteme, View, and Publication** (the item under concern vs epistemes and publication lanes that make claims about it; specification is a gated use or refinement of a Description episteme, not a third peer member of this distinction).
 
-It harmonizes A.12 (External Transformer), A.13 (Agential Role & Agency Spectrum), A.14 (Advanced Mereology), A.15 (Role-Method-Work Alignment), C.2.1 (`U.EpistemeSlotGraph`), E.17 (publication and view discipline), and F.9, F.17, and F.18 bridge and naming discipline.
+It harmonizes A.12 (External Transformer), A.13 (Agential Role & Agency Spectrum), A.14 (Advanced Mereology), A.15 (Role-Method-Work Alignment), C.2.1 (`U.EpistemeSlotRelation`), E.17 (publication and view discipline), and F.9, F.17, and F.18 bridge and naming discipline.
 
 ### A.7:2 - Problem frame
 

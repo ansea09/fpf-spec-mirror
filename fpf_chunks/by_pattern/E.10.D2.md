@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
-line_start: 61090
-line_end: 61371
+line_start: 61877
+line_end: 62158
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -26,7 +26,7 @@ dependencies:
   - "F.9"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -43,7 +43,7 @@ keywords:
 > **One-sentence summary.** For any `EntityOfConcern` in FPF, keep the entity under concern distinct from the `Description` episteme that describes it in a bounded context and viewpoint, and admit `...Spec` wording only for a Description episteme whose specification use is made checkable by explicit conditions. Specification is not a third peer ontology class beside the entity and its Description episteme.
 
 **Status.** Definitional pattern.
-**Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.10.D1 **D.CTX (Context is U.BoundedContext)**; C.2.1 **U.EpistemeSlotGraph**; C.2.3 **Unified Formality Characteristic (F)**; F.15 **SCR/RSCR Harness**.
+**Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.10.D1 **D.CTX (Context is U.BoundedContext)**; C.2.1 **U.EpistemeSlotRelation**; C.2.3 **Unified Formality Characteristic (F)**; F.15 **SCR/RSCR Harness**.
 **Coordinates with.** F.4 **Role Description**; F.5 **Naming Discipline**; F.12 **Service Acceptance Binding**; F.9 **Alignment & Bridge across Contexts**; F.9.1 **Bridge Stance Overlay**; F.10 **Status Families Mapping**.
 **Non-goals.** This pattern does not define editors, workflows, registries, storage formats, or publication carriers. It gives the boundary discipline that other FPF patterns use when they name an entity, its Description episteme, and any specification-use admission.
 
@@ -259,7 +259,7 @@ A safety case, DRR, pattern, or source bundle can itself be the EntityOfConcern.
 **Builds on:**
 
 * **A.7 - Strict Distinction (Clarity Lattice).** Supplies the general distinction between an EntityOfConcern and the epistemes, publications, carriers, work, decisions, evidence, and assurance claims around it.
-* **C.2.1 - U.EpistemeSlotGraph.** Supplies `DescriptionContext`, `subjectRef`, and episteme slot discipline.
+* **C.2.1 - U.EpistemeSlotRelation.** Supplies `DescriptionContext`, `subjectRef`, and episteme slot discipline.
 * **C.2.3 - Unified Formality Characteristic.** Supplies formality levels used by specification-use admission.
 * **F.15 - SCR/RSCR Harness.** Supplies check and regression-check harness discipline.
 

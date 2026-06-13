@@ -6,12 +6,12 @@ section_id: "F.16:End"
 section_title: "F.16:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__020_f-16-end.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:End — F.16:End"
-line_start: 75487
-line_end: 75488
+line_start: 76623
+line_end: 76624
 dependencies:
   - "B.3"
   - "D.CTX"

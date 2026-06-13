@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:1 — Problem frame  (informative)"
-line_start: 62685
-line_end: 62702
+line_start: 63472
+line_end: 63489
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -28,7 +28,7 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"

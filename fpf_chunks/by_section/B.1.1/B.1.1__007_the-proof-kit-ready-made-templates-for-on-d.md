@@ -6,12 +6,12 @@ section_id: "B.1.1:6"
 section_title: "The Proof Kit (ready‑made templates for Γ on D)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__007_the-proof-kit-ready-made-templates-for-on-d.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:6 — The Proof Kit (ready‑made templates for Γ on D)"
-line_start: 29411
-line_end: 29476
+line_start: 29921
+line_end: 29986
 dependencies:
   - "A.1"
   - "A.12"

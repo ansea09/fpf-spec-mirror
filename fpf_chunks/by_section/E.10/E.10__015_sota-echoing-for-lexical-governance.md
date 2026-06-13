@@ -6,12 +6,12 @@ section_id: "E.10:11a"
 section_title: "SoTA-Echoing for lexical governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_sota-echoing-for-lexical-governance.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:11a — SoTA-Echoing for lexical governance"
-line_start: 60499
-line_end: 60511
+line_start: 61286
+line_end: 61298
 dependencies:
   - "A.10"
   - "A.15"

@@ -1,24 +1,27 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture-TGA Flow-Structure Relation"
+pattern_title: "Architecture Transformation-Flow Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__003_problem.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TGA-FLOW-REL:2 — Problem"
-line_start: 54816
-line_end: 54821
+line_start: 55580
+line_end: 55585
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -32,19 +35,20 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureFlowStructureRelation@TGA"
-  - "FlowTransductionStructure"
-  - "TGA graph relation"
-  - "architecture flow relation"
-  - "graph/path/crossing"
+  - "architecture structural view"
+  - "architecture-to-transformation-flow relation"
+  - "functional behavior"
+  - "selected structure"
+  - "transformation-flow structure"
 ---
 
 ### C.30.TGA-FLOW-REL:2 - Problem
 
-Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 objects when they discuss flow or transduction structure, functional dependencies, data movement, control paths, evidence flows, neural-network dataflow, or code-agent relation graphs.
+Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 objects when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
 
-C.30.TGA-FLOW-REL prevents that collapse by requiring the selected architecture-side reference, such as `ArchitectureOf@Context`, structure ref, structural view, or conditional description use, before any E.18-governed graph, path, or crossing object gets architecture use.
+C.30.TGA-FLOW-REL prevents collapse by requiring the selected architecture-side reference, such as `ArchitectureOf@Context`, structure ref, structural view, or conditional description use, before any E.18-governed selected transformation-flow structure, path, slice, crossing, or valuation gets architecture use.
 

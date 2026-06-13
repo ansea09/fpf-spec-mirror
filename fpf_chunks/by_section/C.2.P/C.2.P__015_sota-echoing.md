@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 35542
-line_end: 35602
+line_start: 36054
+line_end: 36114
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ The current FPF corpus already has explicit governing patterns for this discipli
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
 - `F.18` gives the local-first naming protocol: Context, Kind, purpose and use-domain, local sense, candidate head families, NQD-front, semantic read-through, and lexical Q components before one label becomes a reusable head.
 - `A.6.P` gives the relation-precision restoration method: restore generic head kind, build candidate sets for endpoint kinds and relation kinds, select kind-explicit slots and qualifiers, then allow guardrailed wording.
-- `C.2.1` gives the episteme slot graph and selected `EntityOfConcern` discipline.
+- `C.2.1` gives the episteme slot relation and selected `EntityOfConcern` discipline.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
 - `A.15.4` is a good current pattern example of keeping encountered publication, display, or cue items distinct from the project-side FPF kind and reference named by value that governs work or reliance use.

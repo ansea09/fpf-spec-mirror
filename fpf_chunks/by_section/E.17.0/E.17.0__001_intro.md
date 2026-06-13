@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:intro — Intro"
-line_start: 62666
-line_end: 62684
+line_start: 63453
+line_end: 63471
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -28,7 +28,7 @@ dependencies:
   - "E.18"
   - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
   - "U.EpistemicViewing"
   - "U.ViewpointBundleLibrary"
@@ -41,7 +41,7 @@ keywords:
 > **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of Description epistemes and specification-use Description epistemes)
 
 **Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
-**Builds on:** C.2.1 `U.EpistemeSlotGraph` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
+**Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
 **Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (E.TGA engineering viewpoint families), domain‑specific description schemes (architecture, safety cases, governance, research).
 
 **Guard (lexical).**

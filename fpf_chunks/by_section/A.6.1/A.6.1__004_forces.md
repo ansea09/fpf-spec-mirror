@@ -6,12 +6,12 @@ section_id: "A.6.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__004_forces.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
   - "A.6.1:3 — Forces"
-line_start: 9353
-line_end: 9363
+line_start: 9836
+line_end: 9846
 dependencies:
   - "A.1.1"
   - "A.10"

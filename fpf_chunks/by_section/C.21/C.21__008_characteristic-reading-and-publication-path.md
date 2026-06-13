@@ -6,12 +6,12 @@ section_id: "C.21:7"
 section_title: "Characteristic reading and publication path"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_characteristic-reading-and-publication-path.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:7 — Characteristic reading and publication path"
-line_start: 44302
-line_end: 44310
+line_start: 44814
+line_end: 44822
 dependencies:
   - "A.17"
   - "A.18"

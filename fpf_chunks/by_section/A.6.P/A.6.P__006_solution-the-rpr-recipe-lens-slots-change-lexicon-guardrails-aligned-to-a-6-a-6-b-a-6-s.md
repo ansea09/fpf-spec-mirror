@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_solution-the-rpr-recipe-lens-slots-change-lexicon-guardrails-aligned-to-a-6-a-6-b-a-6-s.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:4 — Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"
-line_start: 12358
-line_end: 12723
+line_start: 12841
+line_end: 13206
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -415,7 +415,7 @@ If an RPR‑pattern is applied as an engineered relation specialisation (created
 If a ConstructorSignature is provided, it SHOULD (conceptually) declare, for each constructor operation entry:
 
 * whether it is a species of **A.6.2 / A.6.3 / A.6.4**, and
-* which **`U.EpistemeSlotGraph` slots** (C.2.1) it may read and write (SlotKind/ValueKind/RefKind profile).
+* which **`U.EpistemeSlotRelation` slots** (C.2.1) it may read and write (SlotKind/ValueKind/RefKind profile).
 
 **Publication note (recommended).**
 If the TargetSignature or relation-kind registry is published via MVPK, treat every face as a **view** (no new semantics), keep viewpoint accountability explicit, and prefer stable claim IDs (Claim Register) so downstream carriers cite claims rather than paraphrasing.

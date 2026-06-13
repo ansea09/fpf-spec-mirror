@@ -6,12 +6,12 @@ section_id: "B.1.5:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__009_conformance-checklist-normative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:8 — Conformance Checklist (normative)"
-line_start: 30544
-line_end: 30555
+line_start: 31054
+line_end: 31065
 dependencies:
   - "A.12"
   - "A.14"

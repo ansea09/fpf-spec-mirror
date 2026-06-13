@@ -6,12 +6,12 @@ section_id: "B.1.4:10"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__011_rationale-informative.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:10 — Rationale (informative)"
-line_start: 30249
-line_end: 30252
+line_start: 30759
+line_end: 30762
 dependencies:
   - "A.12"
   - "A.14"

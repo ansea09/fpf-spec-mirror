@@ -1,24 +1,27 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture-TGA Flow-Structure Relation"
+pattern_title: "Architecture Transformation-Flow Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__013_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TGA-FLOW-REL:12 — Relations"
-line_start: 55057
-line_end: 55064
+line_start: 55844
+line_end: 55851
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -32,21 +35,22 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureFlowStructureRelation@TGA"
-  - "FlowTransductionStructure"
-  - "TGA graph relation"
-  - "architecture flow relation"
-  - "graph/path/crossing"
+  - "architecture structural view"
+  - "architecture-to-transformation-flow relation"
+  - "functional behavior"
+  - "selected structure"
+  - "transformation-flow structure"
 ---
 
 ### C.30.TGA-FLOW-REL:12 - Relations
 
 Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `InterfaceSignatureBoundaryNote`, and the module-and-interface repair pattern when a module or interface claim is being made.
+Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `A.6.M` module-and-interface repair, `A.6.5` slot discipline, and `A.6.0` when a signature declaration is being made.
 
-Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for graph, path, crossing, and flow-valuation discipline, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TGA-FLOW-REL:4.3`. `C.30.TGA-FLOW-REL` governs only the architecture-TGA flow-structure relation being claimed.
+Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TGA-FLOW-REL:4.3`. `C.30.TGA-FLOW-REL` governs only the architecture-to-transformation-flow-structure relation being claimed.
 

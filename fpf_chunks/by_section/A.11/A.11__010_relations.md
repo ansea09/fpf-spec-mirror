@@ -6,12 +6,12 @@ section_id: "A.11:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__010_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:9 — Relations"
-line_start: 19053
-line_end: 19061
+line_start: 19563
+line_end: 19571
 dependencies:
   - "A.11"
   - "U.Type"

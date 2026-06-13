@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Relations"
-line_start: 61308
-line_end: 61323
+line_start: 62095
+line_end: 62110
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -27,7 +27,7 @@ dependencies:
   - "F.9"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -42,7 +42,7 @@ keywords:
 **Builds on:**
 
 * **A.7 - Strict Distinction (Clarity Lattice).** Supplies the general distinction between an EntityOfConcern and the epistemes, publications, carriers, work, decisions, evidence, and assurance claims around it.
-* **C.2.1 - U.EpistemeSlotGraph.** Supplies `DescriptionContext`, `subjectRef`, and episteme slot discipline.
+* **C.2.1 - U.EpistemeSlotRelation.** Supplies `DescriptionContext`, `subjectRef`, and episteme slot discipline.
 * **C.2.3 - Unified Formality Characteristic.** Supplies formality levels used by specification-use admission.
 * **F.15 - SCR/RSCR Harness.** Supplies check and regression-check harness discipline.
 

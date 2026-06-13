@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Transduction Path"
+pattern_title: "Principles-to-Work Carry-Through"
 section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18.1 — Principles-to-Work Transduction Path"
+  - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 67461
-line_end: 67470
+line_start: 68300
+line_end: 68309
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,15 +37,13 @@ dependencies:
 keywords:
   - "P2W"
   - "accepted ProblemCard@Context"
-  - "carried distinction"
   - "carry-through record"
-  - "first-principles cue"
+  - "evaluation refresh"
+  - "formal substrate"
+  - "mechanism realization"
+  - "method-family selection"
   - "principles-to-work"
-  - "result carry-through"
-  - "return trigger"
-  - "selected application"
-  - "source-currentness"
-  - "stop condition"
+  - "work planning"
 ---
 
 ### E.18.1:9 - Consequences
@@ -53,8 +51,8 @@ keywords:
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
 | The carry-through record becomes the local project record. | A practitioner can replay the move from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
-| Positive graph comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
+| Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
 | Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source phrase. |
-| P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method or work-planning material outside P2W. |
+| P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method material or `A.15.2` planning material outside P2W. |
 | Related patterns keep their authority. | P2W avoids duplicating evidence, gate, decision, architecture, publication, mechanism, and work-family doctrine. | Users consult the pattern named by the recovered relation when that relation is being made. |
 

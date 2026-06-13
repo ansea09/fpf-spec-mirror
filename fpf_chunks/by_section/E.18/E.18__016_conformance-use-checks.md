@@ -1,24 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18"
-pattern_title: "Transduction Graph Architecture (E.TGA)"
+pattern_title: "Transformation Flow Structure"
 section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_conformance-use-checks.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18 — Transduction Graph Architecture (E.TGA)"
+  - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 67139
-line_end: 67149
+line_start: 67953
+line_end: 67965
 dependencies:
   - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.7"
+  - "C.29"
+  - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.17"
+  - "E.18.1"
+  - "E.18.2"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -26,28 +31,25 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "CSLC normalize-then-compare"
-  - "CV⇒GF (ConstraintValidity → GateFit)"
-  - "DesignRunTag"
-  - "MVPK faces"
-  - "OperationalGate(profile)"
-  - "PathSlice/Sentinel refresh"
-  - "Set-return selection"
-  - "SquareLaw"
-  - "UNM declaration locus"
-  - "edge=U.Transfer (single-edge kind)"
-  - "nodes=morphisms"
-  - "transduction graph"
+  - "P2W support"
+  - "composition"
+  - "crossings"
+  - "flow valuation"
+  - "guards"
+  - "selected transformations"
+  - "transformation flow structure"
 ---
 
 ### E.18:15 - Conformance Use Checks
 
-1. **Model lint:** run static checks for CC‑TGA‑01…25 (edge kind, gates on crossings, CV⇒GF, guard aggregation assignment, UNM declaration locus, SquareLaw).
+1. **Model lint:** run static checks for CC-E18-01...25 (transfer relation kind, gates on crossings, CV=>GF, guard aggregation assignment, UNM declaration locus, SquareLaw).
 2. **Publication audit:** sample a commuting square and a sentinel‑bounded subflow; verify pins and DecisionLog behavior on *block/degrade*.
 3. **Replay test:** hold editions fixed; re‑run selection on a PathSlice; observe identical return‑sets; apply a bump; see only affected `PathSlice`s refresh.
 4. **StructuralReinterpretation probe:** construct a minimal reinterpretation step; confirm `CL^k` with `bridgeChannel=Kind` on UTS, a SquareLaw‑retargeting witness on UTS, `PathSliceId` pinned, **CV.ReinterpretationEquivalence=pass**, and absence of hidden scalarization.
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
-Relation boundary: `E.18` governs transduction graph architecture. When a graph use raises work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the governing pattern for that relation before relying on the graph.
+Relation boundary: `E.18` governs selected transformation-flow structures for structures of atomic `U.Transformation` values and their structure-positioned slot-filler loci. Its TGA/transduction labels are legacy family labels for earlier source-local expression, decomposition, or locus use; they are not a second ontology competing with `A.3.4 U.Transformation`. When a selected-structure use raises bounded-transformation, dynamics-episteme, temporal-aspect, temporal-claim adequacy, work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the governing pattern for that relation before relying on the structure.
+
+When a selected structure locus, selected path, path slice, substructure, or flow valuation expresses, decomposes, or constrains one bounded transformation relation, use `A.3.4` for the atomic `U.Transformation` claim and use `E.18` for the selected structure, containing locus, pins, locus kind, crossing, publication, comparability, and refresh discipline. E.18 locus kinds do not automatically fill neighboring slots: `Transformation` points to `A.3.4`, `Signature` points to `A.6.0`, `Mechanism` points to `A.6.1` and `E.20`, `WorkPlanning` and `Work` point to the A.15 work family, and `Check` points to `A.20` or `A.21` according to the current claim.
 

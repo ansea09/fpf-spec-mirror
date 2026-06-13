@@ -6,12 +6,12 @@ section_id: "A.6.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__005_solution.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:4 — Solution"
-line_start: 16276
-line_end: 16509
+line_start: 16786
+line_end: 17019
 dependencies:
   - "A.15"
   - "A.2.3"

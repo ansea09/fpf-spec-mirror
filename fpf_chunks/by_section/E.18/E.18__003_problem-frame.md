@@ -1,24 +1,29 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18"
-pattern_title: "Transduction Graph Architecture (E.TGA)"
+pattern_title: "Transformation Flow Structure"
 section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "E.18 — Transduction Graph Architecture (E.TGA)"
+  - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 66665
-line_end: 66678
+line_start: 67478
+line_end: 67491
 dependencies:
   - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.7"
+  - "C.29"
+  - "C.30.TGA-FLOW-REL"
   - "E.10"
   - "E.17"
+  - "E.18.1"
+  - "E.18.2"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -26,31 +31,26 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "CSLC normalize-then-compare"
-  - "CV⇒GF (ConstraintValidity → GateFit)"
-  - "DesignRunTag"
-  - "MVPK faces"
-  - "OperationalGate(profile)"
-  - "PathSlice/Sentinel refresh"
-  - "Set-return selection"
-  - "SquareLaw"
-  - "UNM declaration locus"
-  - "edge=U.Transfer (single-edge kind)"
-  - "nodes=morphisms"
-  - "transduction graph"
+  - "P2W support"
+  - "composition"
+  - "crossings"
+  - "flow valuation"
+  - "guards"
+  - "selected transformations"
+  - "transformation flow structure"
 ---
 
 ### E.18:2 - Problem frame
 
-Teams can produce many **well-typed flow valuations** for the same holon under `VP.Functional`, for example for a declared `U.Capability` or transduction claim. The P2W reference path is:
-`U.Signature(profile=FormalSubstrate) → U.PrincipleFrame → U.Mechanism → U.ContextNormalization (UNM) → U.SelectionAndTuning ↔ U.WorkPlanning → U.Work → U.EvaluatingAndRefreshing`
-is one **path** among many possible domain-specific graph paths. Without a common **graph architecture**:
+Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described/context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed loci. The P2W reference path is:
+`U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus (G.5/selector relation) <-> WorkPlanning locus (A.15.2 U.WorkPlan or plan-item relation) -> U.Work -> EvaluatingAndRefreshing locus (G.11/refresh relation)`
+is one **path** among many possible domain-specific transformation-flow paths. Without a common **structure discipline**:
 
-* flows look ad‑hoc and **non‑comparable**;
+* flows look ad-hoc and **non-comparable**;
 * cross‑Context **crossings** (plane/Context changes) are undocumented;
 * MVPK faces carry **hidden arithmetic** or restate I/O;
 * set‑returning selection is silently replaced by **single scores**;
 * cycles lack **budget** discipline; refresh is **out‑of‑band**.
 
-MVPK already fixes publication drift at the **single-arrow** scope; E.TGA lifts those **publication and comparability laws** to the **graph as a whole**.
+MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts those **publication and comparability laws** to the **selected transformation-flow structure as a whole**.
 

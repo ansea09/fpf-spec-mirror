@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-entityofconcernchangemode-preserve.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
-line_start: 10157
-line_end: 10360
+line_start: 10640
+line_end: 10843
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -43,7 +43,7 @@ keywords:
 > * is **effect-free and conservative** (no new commitments about the EntityOfConcern),
 > * and composes functorially with other epistemic viewings.
 
-In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot graph**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `EntityOfConcernSlot` (and usually `GroundingHolonSlot`).
+In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot relation**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `EntityOfConcernSlot` (and usually `GroundingHolonSlot`).
 
 #### A.6.3:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
@@ -113,7 +113,7 @@ For any `v:X→Y` in `U.EpistemicViewing`:
    * preserve `BoundedContextRef` (unless a Bridge is explicitly cited),
    * treat `ViewpointRef` as in (2) above.
 
-**EV‑2 - Effect‑free boundary (over EpistemeSlotGraph).**
+**EV‑2 - Effect‑free boundary (over EpistemeSlotRelation).**
 EpistemicViewing remains **pure** in the EFEM sense:
 * It may change **only C.2.1 components of the codomain episteme**:
   * `content : U.ClaimGraph` (e.g. filtering, aggregation, normalisation),

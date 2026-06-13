@@ -6,12 +6,12 @@ section_id: "A.6.5:5"
 section_title: "Archetypal Grounding (Tell‑Show‑Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:5 — Archetypal Grounding (Tell‑Show‑Show)"
-line_start: 14850
-line_end: 15011
+line_start: 15360
+line_end: 15521
 dependencies:
   - "A.1"
   - "A.19"
@@ -26,7 +26,7 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "U.EpistemeSlotGraph"
+  - "U.EpistemeSlotRelation"
   - "U.MultiViewDescribing"
   - "U.Signature"
 keywords:

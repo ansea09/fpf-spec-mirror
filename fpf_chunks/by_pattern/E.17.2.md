@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
-line_start: 63427
-line_end: 63842
+line_start: 64214
+line_end: 64629
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -43,7 +43,7 @@ It is an engineering‑level bundle over holons; it does not itself constitute a
 * **A.1 — Holon.** Holon kinds `U.System` and `U.Episteme` as the typical engineering entities of concern.
 * **A.6.2–A.6.4 — Episteme morphisms.** `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, `U.EpistemicRetargeting` as the generic morphism classes behind engineering views.
 * **A.7 and E.10.D2 - Strict Distinction: EntityOfConcern, Description episteme, and Description episteme admitted for specification use.** TEVB uses DescriptionContext; engineering descriptions and specifications under TEVB are Description epistemes and specification-use cases with explicit `ViewpointRef`.
-* **C.2.1 — `U.EpistemeSlotGraph`.** Provides `EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot` and the slot discipline (A.6.5) used by TEVB-aligned Description epistemes and specification-use Description epistemes.
+* **C.2.1 — `U.EpistemeSlotRelation`.** Provides `EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot` and the slot discipline (A.6.5) used by TEVB-aligned Description epistemes and specification-use Description epistemes.
 
 **Used by.**
 * **E.18:5.12 — E.TGA viewpoint map.** As a canonical consumer, E.TGA binds its engineering transduction families (Functional, Procedural, Role-Enactor or Device-Structure, Module-Interface) to TEVB viewpoints `VP.Functional`, `VP.Procedural`, `VP.RoleEnactor`, `VP.ModuleInterface`.
@@ -428,7 +428,7 @@ Other candidates (e.g. dedicated information, assurance, or mission viewpoints) 
 #### E.17.2:7.3 - Why TEVB stays small
 
 TEVB is deliberately *not* a complete architecture framework. It gives FPF a stable, holon‑centred engineering bundle that:
-* is small enough to keep in working memory and to govern via EpistemeSlotGraph discipline;
+* is small enough to keep in working memory and to govern via EpistemeSlotRelation discipline;
 * is expressive enough to represent mappings from SoTA architecture frameworks (4+1, domain‑specific RAs, UAF/NAF grids, SysML‑based MBSE method kits);
 * can be safely combined with additional `U.ViewpointBundle` species (safety/assurance packs, business/mission packs, information/data packs) without mutating the core four;
 * sits conceptually **below** architecture‑specific viewpoint libraries, which are introduced as separate `U.ViewpointBundle` species layering TEVB with mission/quality/business viewpoints instead of redefining TEVB.
@@ -437,7 +437,7 @@ As SoTA evolves, new bundles can be added or TEVB can gain a new edition with a 
 
 ### E.17.2:8 - Relations  *(informative)*
 
-* **Builds on.** E.17.0 (`U.MultiViewDescribing`), E.17.1 (`U.ViewpointBundleLibrary`), A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary plus specification use), C.2.1 (EpistemeSlotGraph), A.6.2-A.6.4 (episteme morphisms).
+* **Builds on.** E.17.0 (`U.MultiViewDescribing`), E.17.1 (`U.ViewpointBundleLibrary`), A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary plus specification use), C.2.1 (EpistemeSlotRelation), A.6.2-A.6.4 (episteme morphisms).
 * **Constrains.** E.18:5.12 (E.TGA viewpoint map), engineering description and specification-use patterns, MVPK engineering publication profiles.
 * **Coordinates with.** MVPK publication face, publication form, publication unit, and publication carrier discipline; F-R family (Role, RoleDescription, RoleSpec); F.18 (naming discipline for ViewFamilyId, ViewpointId, EngineeringVPId, and publication-side viewpoint ids).
 * **Non‑goals.** TEVB does not prescribe modelling notations (SysML, BPMN, IEC 61131‑3, etc.), storage formats, or tool APIs. It only fixes the **conceptual viewpoint bundle** that such tools must respect when claiming FPF alignment.

@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__017_migration-notes.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.17 — Unified Term Sheet (UTS)"
   - "F.17:16 — Migration Notes"
-line_start: 75757
-line_end: 75762
+line_start: 76893
+line_end: 76898
 dependencies:
   - "A.1.1"
   - "A.11"

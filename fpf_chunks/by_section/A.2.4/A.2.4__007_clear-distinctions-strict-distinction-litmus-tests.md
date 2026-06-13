@@ -6,12 +6,12 @@ section_id: "A.2.4:6"
 section_title: "Clear distinctions (Strict Distinction, litmus tests)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__007_clear-distinctions-strict-distinction-litmus-tests.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:6 — Clear distinctions (Strict Distinction, litmus tests)"
-line_start: 3254
-line_end: 3263
+line_start: 3256
+line_end: 3265
 dependencies:
   - "A.10"
   - "A.2"

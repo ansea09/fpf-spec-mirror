@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "ULR regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_ulr-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)"
   - "E.10:12 — ULR regression cues (concept-only “diff” triggers)"
-line_start: 60512
-line_end: 60529
+line_start: 61299
+line_end: 61316
 dependencies:
   - "A.10"
   - "A.15"

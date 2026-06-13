@@ -6,12 +6,12 @@ section_id: "C.18:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__011_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:10 — Relations"
-line_start: 43486
-line_end: 43488
+line_start: 43998
+line_end: 44000
 dependencies:
   - "A.1"
   - "A.15"

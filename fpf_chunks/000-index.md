@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `20c8a0a53eda448bd9d019c860be4517a6e822cc`
+Commit SHA: `cb17c555f343780e31e5fea236a74adc69295736`
 
 Chunking method: `pattern-aware`
 
-Patterns: `238`
+Patterns: `241`
 
 ## Patterns
 
@@ -27,6 +27,7 @@ Patterns: `238`
 - [A.3.1 — U.Method: Context-Defined Way of Doing](by_pattern/A.3.1.md)
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
 - [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
+- [A.3.4 — U.Transformation: Bounded Change Under Conditions](by_pattern/A.3.4.md)
 - [A.4 — Temporal Duality & Open‑Ended Evolution Principle](by_pattern/A.4.md)
 - [A.5 — Open‑Ended Kernel & Extension Layering](by_pattern/A.5.md)
 - [A.6 — Signature Stack & Boundary Discipline](by_pattern/A.6.md)
@@ -112,7 +113,7 @@ Patterns: `238`
 - [B.5.2.1 — Creative Abduction with NQD](by_pattern/B.5.2.1.md)
 - [B.5.3 — Role-Projection Bridge](by_pattern/B.5.3.md)
 - [C.2 — Epistemic holon composition (KD-CAL)](by_pattern/C.2.md)
-- [C.2.1 — U.Episteme — Epistemes and their slot graph](by_pattern/C.2.1.md)
+- [C.2.1 — U.Episteme - Epistemes and their slot relation](by_pattern/C.2.1.md)
 - [C.2.P — Epistemic Precision Restoration](by_pattern/C.2.P.md)
 - [C.2.2 — Reliability R in the F–G–R triad](by_pattern/C.2.2.md)
 - [C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
@@ -153,6 +154,7 @@ Patterns: `238`
 - [C.26.2 — Enacted Distributed State Evidence](by_pattern/C.26.2.md)
 - [C.26.3 — Viability-Envelope Boundary Regulation](by_pattern/C.26.3.md)
 - [C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change](by_pattern/C.27.md)
+- [C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness](by_pattern/C.27.TA.md)
 - [C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability](by_pattern/C.28.md)
 - [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
 - [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
@@ -162,7 +164,7 @@ Patterns: `238`
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
 - [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
 - [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
-- [C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
+- [C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
@@ -203,8 +205,9 @@ Patterns: `238`
 - [E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly](by_pattern/E.17.AUD.md)
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
 - [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
-- [E.18 — Transduction Graph Architecture (E.TGA)](by_pattern/E.18.md)
-- [E.18.1 — Principles-to-Work Transduction Path](by_pattern/E.18.1.md)
+- [E.18 — Transformation Flow Structure](by_pattern/E.18.md)
+- [E.18.1 — Principles-to-Work Carry-Through](by_pattern/E.18.1.md)
+- [E.18.2 — Transformation Flow Mathematical Description](by_pattern/E.18.2.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)

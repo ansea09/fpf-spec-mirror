@@ -6,12 +6,12 @@ section_id: "A.15.3:12a"
 section_title: "P2W Planned-Baseline Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__014_p2w-planned-baseline-use-relation.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12a — P2W Planned-Baseline Use Relation"
-line_start: 21155
-line_end: 21160
+line_start: 21665
+line_end: 21670
 dependencies:
   - "A.15.1"
   - "A.15.2"

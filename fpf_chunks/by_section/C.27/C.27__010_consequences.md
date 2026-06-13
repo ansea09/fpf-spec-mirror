@@ -6,16 +6,19 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 49541
-line_end: 49594
+line_start: 50045
+line_end: 50098
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -71,13 +75,13 @@ Part G, benchmark, SoTA, or public method claim:
 
 - sampling window, cadence, or time base changes;
 - effort envelope or resource budget changes;
-- intervention actor reference, role capacity, authority, or availability changes;
+- intervention actor reference, role-assignment availability, performer eligibility, authority, or holder availability changes;
 - inertia or resistance proxy changes: new tooling, team, queue topology, domain,
   work mix, constraints, or service environment;
 - metric becomes a target, incentive, gate, dashboard, or public comparison;
 - cross-scale transfer is attempted;
 - outcome reverses, overshoots, oscillates, or becomes unstable;
-- hidden queues, rework, burnout, quality loss, operational-support load, safety load, or
+- hidden queues, rework, burnout, quality loss, operations-service demand, safety demand, or
   coordination debt appear;
 - rhythm bearer, timing reference, window, proxy, or coupling changes;
 - claim use changes from assumption or diagnostic to benchmark, assurance,

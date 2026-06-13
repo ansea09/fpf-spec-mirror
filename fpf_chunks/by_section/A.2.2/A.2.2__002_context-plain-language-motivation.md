@@ -6,12 +6,12 @@ section_id: "A.2.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__002_context-plain-language-motivation.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:1 — Context (plain‑language motivation)"
-line_start: 2472
-line_end: 2480
+line_start: 2474
+line_end: 2482
 dependencies:
   - "A.1"
   - "A.1.1"

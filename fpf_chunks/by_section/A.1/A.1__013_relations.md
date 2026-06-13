@@ -6,12 +6,12 @@ section_id: "A.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__013_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:12 — Relations"
-line_start: 1479
-line_end: 1497
+line_start: 1481
+line_end: 1499
 dependencies:
   - "A.1"
   - "A.1.1"

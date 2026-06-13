@@ -6,12 +6,12 @@ section_id: "C.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__011_relations.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:10 — Relations"
-line_start: 34132
-line_end: 34137
+line_start: 34642
+line_end: 34647
 dependencies:
   - "A.1"
   - "A.10"
@@ -33,7 +33,7 @@ keywords:
 
 ### C.2:10 - Relations
 
-* **Depends on:** `U.Episteme — Epistemes and their slot graph` (C.2.1): identity invariants, slot definitions, carrier separation, and evidence bindings.
+* **Depends on:** `U.Episteme — Epistemes and their slot relation` (C.2.1): identity invariants, slot definitions, carrier separation, and evidence bindings.
 * **Peers:** **Sys‑CAL** (C.1), which composes **systems**; KD‑CAL composes **epistemes** and feeds assurance lenses in Part B.
 * **Constrained by authoring:** Architectural patterns must include Tell–Show–Show with **Archetypal Grounding** (this section).
 

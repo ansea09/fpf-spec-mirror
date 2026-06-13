@@ -1,24 +1,27 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.30.TGA-FLOW-REL"
-pattern_title: "Architecture-TGA Flow-Structure Relation"
+pattern_title: "Architecture Transformation-Flow Structure Relation"
 section_id: "C.30.TGA-FLOW-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__010_consequences.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture-TGA Flow-Structure Relation"
+  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TGA-FLOW-REL:9 — Consequences"
-line_start: 55030
-line_end: 55038
+line_start: 55817
+line_end: 55825
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.F"
+  - "A.6.M"
   - "A.7"
   - "B.3"
   - "C.16"
@@ -32,22 +35,23 @@ dependencies:
   - "E.17"
   - "E.17.0"
   - "E.18"
+  - "E.18.2"
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureFlowStructureRelation@TGA"
-  - "FlowTransductionStructure"
-  - "TGA graph relation"
-  - "architecture flow relation"
-  - "graph/path/crossing"
+  - "architecture structural view"
+  - "architecture-to-transformation-flow relation"
+  - "functional behavior"
+  - "selected structure"
+  - "transformation-flow structure"
 ---
 
 ### C.30.TGA-FLOW-REL:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 graph, path, and crossing discipline becomes usable for grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions. | A conforming use names the C.30 architecture record, selected structure ref, C.30.ASV structural-view reference, or conditional architecture-description ref that uses the TGA relation. |
-| Functional structure and flow or transduction structure stay separable. | Concise "the graph is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
-| Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the graph. |
-| The E.18:5.12 boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
+| E.18 selected structure, path, crossing, and flow-valuation discipline becomes usable for grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions. | A conforming use names the C.30 architecture record, selected structure ref, C.30.ASV structural-view reference, or conditional architecture-description ref that uses the transformation-flow relation. |
+| Functional structure and transformation-flow structure stay separable unless positive co-reference is declared. | Concise "the diagram is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
+| Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
+| The E.18 selected-structure boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
 

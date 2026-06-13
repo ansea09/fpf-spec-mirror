@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 52229
-line_end: 52252
+line_start: 52953
+line_end: 52976
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ Engineering teams use "architecture" for several different things:
 - the selected structure of a holon;
 - a diagram, model, table, dashboard, generated relation graph, or document;
 - a module layout;
-- a TGA graph or flow description;
+- a selected transformation-flow structure, flow description, or mathematical graph description;
 - a functional, control, information, deployment, logical, or physical structure view;
 - an ADR-like publication;
 - a project-side claim carried by another governing FPF pattern.
@@ -77,6 +77,6 @@ How can FPF describe architecture without:
 - creating `U.Architecture` as a new root kind;
 - treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
 - reducing architecture to module structure or interface relation;
-- letting TGA, LCA, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
+- letting E.18 transformation-flow structures, LCA/control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
 - making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
 

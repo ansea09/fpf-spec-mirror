@@ -6,16 +6,19 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 49110
-line_end: 49415
+line_start: 49613
+line_end: 49918
 dependencies:
+  - "A.10"
   - "A.3.3"
+  - "A.3.4"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.16"
   - "C.18.1"
   - "C.19"
@@ -25,6 +28,7 @@ dependencies:
   - "C.26"
   - "C.26.3"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "G.9"
   - "U.Rhythm"
@@ -53,7 +57,7 @@ Read these cases before the fuller field definitions. They show supported stoppi
 
 - no C.27 record for ordinary state, metaphor, or unsupported broad-use language;
 - Dyn1 or C.16 when the issue under repair is only measured rate;
-- `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs a bounded evidence path, model assumption, planning assumption, or neighbouring-pattern relation;
+- `Dyn2TemporalClaimAdequacyCard` when a local temporal intervention, rhythm, braking, coasting, or tool-use rate-change claim needs a bounded evidence relation, model assumption, planning assumption, or neighbouring-pattern relation;
 - `Dyn2TemporalClaimProfile` or a named FPF pattern relation only when the authored temporal claim is used beyond the local working context, benchmarks, promises, assures, becomes causal, crosses scale, or carries decision-use that affects gate, release, assurance, benchmark, or work-plan use.
 
 **Example breadth (informative).** C.27 appears across several work domains, not
@@ -71,7 +75,7 @@ only project-velocity prose.
 | Rhythm and practice | Daily drills stabilize review rhythm. | Rhythm needs bearer, timing reference, window, evidence proxy, and supported use. |
 | Scale | More tokens, data, or reviewers improve rate. | C.18.1 carries scale variable and scale-elasticity value. |
 | Cross-scale | Team throughput becomes organization agility. | Aggregation relation, bearer continuity, and mix shift must be visible. |
-| Viability | Slow rollout protects support capacity. | Braking can be the adequate temporal move; slowing down is a supported envelope-regulation outcome when acceleration would damage recovery, support load, or promise reliability. |
+| Viability | Slow rollout protects operations-service capacity. | Braking can be the adequate temporal move; slowing down is a supported envelope-regulation outcome when acceleration would damage recovery, operations-service demand, or promise reliability. |
 | QL negative | Dashboard or probe wording appears. | C.26 is relevant only for residual probe, frame, export, or coarsening cue after ordinary pattern relations. |
 
 Teaching cases:
@@ -89,7 +93,7 @@ Teaching cases:
 | False positive | "This chapter accelerates reader orientation." | Usually ordinary prose; no C.27 record unless used as a claim about method effectiveness. |
 | Causal trap | "Velocity rose after the workshop, so the workshop caused it." | C.27 marks the temporal-claim question only; `C.28` causal-use relation and evidence relation are required before causal use. |
 | Cross-scale trap | "Team throughput accelerated, so every service improved." | `dyn2CrossScaleTransferBlock?` is unsupported without source bearer, target bearer, aggregation relation, bearer continuity, mix-shift risk, and `crossScaleTransferUseBoundary`. |
-| Braking | "Slow rollout protects support capacity." | `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` depending on supported decision; the move may be a correct protection of viability, not a failure to accelerate. |
+| Braking | "Slow rollout protects operations-service capacity." | `Dyn2TemporalClaimAdequacyCard` or `Dyn2TemporalClaimProfile` depending on supported decision; the move may be a correct protection of viability, not a failure to accelerate. |
 Additional dynamic near-misses:
 
 | Case | Example | Expected classification |
@@ -100,8 +104,8 @@ Additional dynamic near-misses:
 | Metric target | "Velocity improved after becoming the quarterly target." | `dyn2MetricTargetEffectBlock?` only if target publication changes temporal behavior and supported use; C.16 carries measurement, E.13 or proxy audit carries utility distortion, and C.26 applies only for residual probe, frame, or export cue. |
 | Scale-variable fantasy | "More data, model capacity, reviewers, tokens, or parallelism will improve twice as fast." | C.18.1 carries scale variables, scale windows, scale probes, and scale-elasticity value; C.27 only names the temporal claim when the scale variable is used to make a rate-change, learning, recovery, throughput, or stabilization claim. |
 | Off-policy transfer | "The old rollout policy improved recovery, so the new rollout policy will too." | `dyn2ControlPolicyRelation?` must name `behaviorPolicyRef`, `proposedPolicyRef`, `offPolicyRisk`, and evaluation or control relation; one observed slope under policy A does not carry policy B. |
-| Object-centric process trace | "The process sped up" while orders, invoices, shipments, and support tickets move through different event traces. | `dyn2ObjectCentricTraceBlock?` recovers object types, event trace, interactions, aggregation relation, and unsupported whole work-cycle truth; one scalar throughput line is not enough. |
-| Harmful acceleration and viability | "Faster rollout improved release velocity while support load and recovery time degraded." | C.27 names acceleration, braking, throttling, recovery timing, and unsupported downstream claim, effect, or use; C.26.3, C.25, assurance, safety, legal, ethics, or wellbeing patterns carry the envelope or harm claim. |
+| Object-centric process trace | "The process sped up" while orders, invoices, shipments, and service tickets move through different event traces. | `dyn2ObjectCentricTraceBlock?` recovers object types, event trace, interactions, aggregation relation, and unsupported whole work-cycle truth; one scalar throughput line is not enough. |
+| Harmful acceleration and viability | "Faster rollout improved release velocity while operations-service demand and recovery time degraded." | C.27 names acceleration, braking, throttling, recovery timing, and unsupported downstream claim, effect, or use; C.26.3, C.25, assurance, safety, legal, ethics, or wellbeing patterns carry the envelope or harm claim. |
 
 These slices show what C.27 changes in use. They are action examples, not extra forms to fill.
 
@@ -175,7 +179,7 @@ Minimum useful questions:
 - referenced to what beat, cycle, release train, attention window, task cycle, or
   domain-local interval?
 - what effort or rate-change pattern occurs in which intervals?
-- what evidence path, measurement relation, instrument proxy, model assumption, or planning assumption supplies that reading?
+- what evidence relation, measurement relation, instrument proxy, model assumption, or planning assumption supplies that reading?
 - what use is carried: teaching orientation, replication, judging, benchmark,
   or promise?
 ```
@@ -199,7 +203,7 @@ Minimum useful note:
 - rhythm timing reference: release cycle and review window;
 - intervention regime: scheduled shift of review earlier in the cycle;
 - instrument proxy: event log, review queue cadence, rework trace, or survey
-  only if its resistance-proxy evidence path, measurement relation, model assumption, planning assumption, or explicit unknown result is stated;
+  only if its resistance-proxy evidence relation, measurement relation, model assumption, planning assumption, or explicit unknown result is stated;
 - resistance proxy: transfer delay, queue pressure, coordination lag;
 - supported use: local method adjustment;
 - unsupported use: proof of organizational agility or service promise;
@@ -230,7 +234,7 @@ Minimum useful note:
 - outcome and evaluation evidence: task success, repair success, evidence quality,
   cost, and validity window if the claim is benchmark-facing;
 - stop or replan trigger: no new evidence, conflicting evidence, timeout, rising
-  cost, expired validity window, or growing false-positive load;
+  cost, expired validity window, or growing false-positive queue pressure;
 - unsupported use: "more calls means better reasoning", "faster narrowing is
   always better", or "tool-call count proves benchmark superiority."
 ```
@@ -257,7 +261,7 @@ Minimum useful note:
 - comparable effort: planned budget and actual effort trace if relevant;
 - G.9 parity: `G9ParityPlanRef` for baseline, freshness, comparator, and bridge pins,
   and `G9ParityReportRef?` if a published or reused report exists;
-- hidden costs: rework, operational-support load, quality loss, burnout, or debt;
+- hidden costs: rework, operations-service demand, quality loss, burnout, or debt;
 - supported use: benchmark interpretation under stated parity;
 - unsupported use: causal superiority, universal method superiority, or release
   gate unless another FPF pattern governs that claim.
@@ -284,7 +288,7 @@ Minimum useful note:
   policy;
 - resistance proxy: incident mix, dependency lag, tool latency, coordination
   bottleneck;
-- receiving relation: diagnostic evidence path, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
+- receiving relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
 - supported use: local incident-response improvement claim;
 - unsupported use: formal guarantee, audit closure, release gate, or causal
   proof unless the relevant boundary, evidence, or assurance pattern carries it.
@@ -313,7 +317,7 @@ Minimum useful note:
 - mix-shift risk: easier work, hidden queues, reassigned work, changed scope, or
   invisible rework;
 - crossScaleTransferUseBoundary: local-only, supported-transfer, unsupported-transfer, or unknown;
-- supported use: local team improvement if the named evidence path carries that use;
+- supported use: local team improvement if the named evidence relation carries that use;
 - unsupported use: organization-scope agility claim unless aggregation and
   quality-bundle relations are present.
 
@@ -322,7 +326,7 @@ Minimum useful note:
 This protects multi-scale FPF reasoning: a rate-change does not transfer across
 holon levels merely because the same speed word appears at each holon level.
 
-Goodhart and performative metric:
+Metric-target temporal effect:
 
 ```text
 Claim:
@@ -342,7 +346,7 @@ Minimum useful note:
   postponed rework, selection of easier tasks;
 - process and measurement split: measurement effect, probe effect, real work change,
   gaming or selection effect, causal effect if claimed;
-- E.13 or proxy relation: proxy distortion or utility distortion if velocity diverges from the
+- `E.13` or proxy relation: proxy distortion or utility distortion if velocity diverges from the
   actual work objective;
 - C.26 relation: only if residual probe, frame, order, or export cue remains after
   C.27, C.16, and E.13 pattern relations;
@@ -351,5 +355,5 @@ Minimum useful note:
 
 ```
 
-This is the practical bridge between C.27, C.16, C.26, and evidence patterns.
+This is the practical C.27 bridge: metric publication may be a temporal intervention, while C.16 carries measurement, `E.13` carries proxy or value distortion, C.26 carries only residual probe/frame/export cues, and evidence patterns carry the evidence relation.
 

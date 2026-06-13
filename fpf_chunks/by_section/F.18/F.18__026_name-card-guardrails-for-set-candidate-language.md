@@ -6,12 +6,12 @@ section_id: "F.18:24a"
 section_title: "Name-card guardrails for set-candidate language"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__026_name-card-guardrails-for-set-candidate-language.md"
-commit_sha: "20c8a0a53eda448bd9d019c860be4517a6e822cc"
+commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:24a — Name-card guardrails for set-candidate language"
-line_start: 76590
-line_end: 76610
+line_start: 77726
+line_end: 77746
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
