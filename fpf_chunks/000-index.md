@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `cb17c555f343780e31e5fea236a74adc69295736`
+Commit SHA: `7c617d5d0fa1abf94a21bac2dd909f68ed514249`
 
 Chunking method: `pattern-aware`
 
-Patterns: `241`
+Patterns: `242`
 
 ## Patterns
 
@@ -28,6 +28,7 @@ Patterns: `241`
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
 - [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
 - [A.3.4 — U.Transformation: Bounded Change Under Conditions](by_pattern/A.3.4.md)
+- [A.3.4.P — Transformation Ontic Precision Restoration](by_pattern/A.3.4.P.md)
 - [A.4 — Temporal Duality & Open‑Ended Evolution Principle](by_pattern/A.4.md)
 - [A.5 — Open‑Ended Kernel & Extension Layering](by_pattern/A.5.md)
 - [A.6 — Signature Stack & Boundary Discipline](by_pattern/A.6.md)
@@ -40,7 +41,7 @@ Patterns: `241`
 - [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
 - [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
-- [A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
+- [A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
@@ -66,8 +67,8 @@ Patterns: `241`
 - [A.15.2 — U.WorkPlan](by_pattern/A.15.2.md)
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
 - [A.15.4 — Work-Relevant Source Restoration](by_pattern/A.15.4.md)
-- [A.16 — Language-State Transduction Coordination](by_pattern/A.16.md)
-- [A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
+- [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
+- [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
 - [A.16.1 — U.PreArticulationCuePack](by_pattern/A.16.1.md)
 - [A.16.2 — Reopen / SketchBackoff / Respecify](by_pattern/A.16.2.md)
 - [A.17 — Canonical “Characteristic” (A.CHR‑NORM)](by_pattern/A.17.md)
@@ -164,7 +165,7 @@ Patterns: `241`
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
 - [C.30.LCA — Control Structure View Adequacy (LCA)](by_pattern/C.30.LCA.md)
 - [C.30.ILC — Cross-Scope Architecture Residual Triage](by_pattern/C.30.ILC.md)
-- [C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation](by_pattern/C.30.TGA-FLOW-REL.md)
+- [C.30.TFS-REL — Architecture Transformation-Flow Structure Relation](by_pattern/C.30.TFS-REL.md)
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)

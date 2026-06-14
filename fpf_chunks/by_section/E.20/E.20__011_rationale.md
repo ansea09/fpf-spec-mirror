@@ -6,12 +6,12 @@ section_id: "E.20:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__011_rationale.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:10 — Rationale"
-line_start: 69590
-line_end: 69595
+line_start: 69917
+line_end: 69922
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -46,5 +46,5 @@ keywords:
 
 Mechanisms are high-leverage semantic units: a small change can touch suites, planned baselines, wiring modules, and audits. Without a protocol, the corpus tends toward **semantic duplication across governing loci** and **non-local correctness** (you can’t know what changed without reading everything).
 
-Governing-definition-directed authoring is a pragmatic compromise: it does not depend on tooling, yet it gives a stable governing-definition map that supports subsequent review and refresh.
+Governing-definition-directed authoring is a pragmatic compromise: it does not depend on tooling, yet it gives a stable governing-definition map that enables subsequent review and refresh.
 

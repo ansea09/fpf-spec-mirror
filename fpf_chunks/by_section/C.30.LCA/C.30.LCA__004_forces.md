@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 55055
-line_end: 55063
+line_start: 55356
+line_end: 55364
 dependencies:
   - "A.10"
   - "A.20"
@@ -27,7 +27,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.STRAT"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.18"
   - "G.6"
 keywords:
@@ -46,6 +46,6 @@ keywords:
 * The same source labels can name different things. C.30.LCA applies only to recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses are recovered with `C.30.STRAT` and then governed by their governing patterns when those claims are being made.
 * Layered and multi-rate control descriptions often need timing and dynamics claim before they can carry stability or safety claims.
 * `B.2.5` already gives FPF a supervisor-subholon feedback-loop pattern, but it does not turn every loop diagram into proof.
-* TGA graphs can describe flow and transduction relations that participate in control, but the TGA graph is still a description or view, not the control structure itself.
+* `E.18` `TransformationFlowStructure` values and their mathematical graph descriptions can describe flow, path, crossing, or transformation-flow relations that participate in control, but the transformation-flow description or graph expression is still a description or view, not the control structure itself.
 * Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records are used only when the question under repair calls for that governing pattern use.
 

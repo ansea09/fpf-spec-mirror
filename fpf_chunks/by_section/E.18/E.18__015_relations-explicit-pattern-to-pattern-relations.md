@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__015_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 67923
-line_end: 67952
+line_start: 68250
+line_end: 68279
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -19,7 +19,7 @@ dependencies:
   - "A.3.4"
   - "A.7"
   - "C.29"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.17"
   - "E.18.1"
@@ -66,7 +66,7 @@ keywords:
 * **E.18 -> coordinates with -> A.15 U.WorkEnactment (`FinalizeLaunchValuesOnlyInWork`).** Single point of `FinalizeLaunchValues`; `FreshnessUpToDate` hard at LaunchGate; acceptance/telemetry published here.
 
 **Structure & reuse**
-* **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. Legacy TGA/transduction-flow labels name older source-local family labels; they do not introduce a second change ontology beside `A.3.4 U.Transformation`.
+* **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each bounded `U.Transformation`, E.18 governs the selected compound structure over transformations and adjacent governed loci, and neighbor patterns govern method, work, mechanism, evidence, publication, gate, decision, and refresh claims when those claims are current.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
 * **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer/locus where publication occurs; Lean mode applies only as per profile.
 

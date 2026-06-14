@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16.0"
-pattern_title: "U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
+pattern_title: "U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
 section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
+  - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:4 — Solution"
-line_start: 22414
-line_end: 22521
+line_start: 22698
+line_end: 22805
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -41,7 +41,7 @@ keywords:
 ---
 
 ### A.16.0:4 - Solution
-`U.LanguageStateTransductionTrajectory` is the **optional** trajectory-account normal form that records how successive governed `U.Episteme` publications are linked across position claims in the declared language-state `U.CharacteristicSpace` chart named in `C.2.2a`.
+`U.LanguageStateMoveTrajectory` is the **optional** trajectory-account normal form that records how successive governed `U.Episteme` publications are linked across position claims in the declared language-state `U.CharacteristicSpace` chart named in `C.2.2a`.
 
 It does **not** define position semantics, move admissibility, or publication-face ontology by itself. Those remain with `C.2.2a` / `A.19`, `A.16`, and `E.17` / `E.18` respectively.
 
@@ -69,7 +69,7 @@ Early seam publications may leave some slots unknown or wide. That uncertainty i
 #### A.16.0:4.3 - Use threshold and core trajectory record
 A single local `A.16` move note is sufficient when no load-bearing branch, loss, handoff, or supersession structure needs publication.
 
-Use `U.LanguageStateTransductionTrajectory` when at least one of the following is load-bearing:
+Use `U.LanguageStateMoveTrajectory` when at least one of the following is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - multi-step loss notes or reopen conditions that would be hidden by a compressed move note;
@@ -88,7 +88,7 @@ A conforming trajectory account then keeps at least the following explicit:
 - any loss note, reopen condition, branch-specific authority note, or bridge-sensitive note that matters.
 
 #### A.16.0:4.4 - Recorded move-family discipline
-`U.LanguageStateTransductionTrajectory` records the governed `A.16` move family: `notice`, `stabilize`, `route`, `projection`, `formalize`, `operationalize`, `reopen`, `sketchBackoff`, `respecify`, and `retire`.
+`U.LanguageStateMoveTrajectory` records the governed `A.16` move family: `notice`, `stabilize`, `route`, `projection`, `formalize`, `operationalize`, `reopen`, `sketchBackoff`, `respecify`, and `retire`.
 
 The point is not that every account uses every move. The point is that forward movement, retreat, reframing, and explicit retirement belong to one governed family when that history is worth publishing.
 
@@ -124,12 +124,12 @@ A trajectory account should therefore name not only the docking governing patter
 After such a handoff, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
 
 #### A.16.0:4.7 - Effect-free moves versus work-requiring crossings
-Some `formalize` and `operationalize` steps are effect-free epistemic transformations: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
+Some `formalize` and `operationalize` steps are effect-free epistemic changes: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
 
 Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the crossing or handoff explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
 
 #### A.16.0:4.8 - Relation to `A.16` and `E.18`
-`U.LanguageStateTransductionTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
+`U.LanguageStateMoveTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
 
 - `A.19` plus `C.2.2a` govern the declared characteristic-space reading of positions;
 - `A.16` governs move kinds and move guards;

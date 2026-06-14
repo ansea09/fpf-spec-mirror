@@ -6,12 +6,12 @@ section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:intro — Intro"
-line_start: 63453
-line_end: 63471
+line_start: 63775
+line_end: 63793
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -26,7 +26,6 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
   - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
@@ -42,7 +41,7 @@ keywords:
 
 **Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
 **Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline).
-**Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (E.TGA engineering viewpoint families), domain‑specific description schemes (architecture, safety cases, governance, research).
+**Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (transformation-flow viewpoint-family map), domain‑specific description schemes (architecture, safety cases, governance, research).
 
 **Guard (lexical).**
 

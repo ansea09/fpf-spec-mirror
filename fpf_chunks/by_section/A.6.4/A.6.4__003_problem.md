@@ -6,12 +6,12 @@ section_id: "A.6.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__003_problem.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:2 — Problem"
-line_start: 12257
-line_end: 12283
+line_start: 12500
+line_end: 12526
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -35,7 +35,7 @@ Without a dedicated pattern for EpistemicRetargeting:
 2. **Invariants float untyped.**
    Fourier‑style moves, structural reinterpretations, and abstraction/refinement steps are often justified by “energy is preserved”, “this component realises that function”, or “this model summarises those data” — but these invariants are not connected to the episteme morphism class. Without a dedicated species:
 
-   * invariants live only in text,
+   * invariants remain only in prose,
    * CL‑penalties and ReferencePlane crossings cannot be tracked systematically (Part F).
 
 3. **Cross‑kind reasoning has no canonical morphism.**
@@ -45,7 +45,7 @@ Without a dedicated pattern for EpistemicRetargeting:
    * nothing connects these moves to `KindBridge` and ReferencePlane policies.
 
 4. **StructuralReinterpretation is ad‑hoc.**
-   E.TGA treats StructuralReinterpretation as a graph node, but its semantics are much closer to a generic “retargeting under a bridge” pattern than to something specific to graph‑based architectures. Without a core pattern:
+   `E.18` positions `StructuralReinterpretation` as a transformation-flow locus, but its retargeting semantics are the generic “retargeting under a bridge” relation governed here, not a special graph-position ontology. Without a core pattern:
 
    * StructuralReinterpretation risks duplicating retargeting logic,
    * other discipline packs may reinvent their own ad‑hoc re‑targetings.

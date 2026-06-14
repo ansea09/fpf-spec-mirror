@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 64691
-line_end: 65041
+line_start: 65019
+line_end: 65369
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -59,7 +59,7 @@ keywords:
     * **Presentation** = rhetorical arrangement of a published carrier; **notation-neutral**, adds no claims and is **not** a `publication-face kind`.
     * **Rendering** = display layout of a carrier, purely graphical formatting; **`U.Work` on carriers** (A.7), not a `publication-face kind`.
     * **Representation** = episteme↔referent relation (`C.2.1`, `A.6.2` through `A.6.4`); **not** a publication operation and not a `publication-face kind` operation. Use **publication** and **view** here; treat presentation and rendering as **`U.Work` on carriers** (`A.7`).
-* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication lane); **engineering viewpoint** -> `EngineeringVPId` (E.TGA E.18:5.12). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
+* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication lane); **engineering viewpoint** -> `EngineeringVPId` (`E.18:5.12` transformation-flow viewpoint-family map). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
 * **No‑mechanism equivalence:** MVPK **is not** a mechanism; any operational activity, such as build, render, or upload work, is **separate `U.Work` by a system on carriers** (A.7; see **Rule 5 — No Γ-leakage** in §6).
 * **ViewpointSpec (`U.Viewpoint`)** — a typed specification that declares stakeholders, concerns, conformance rules, declared **Publication Characteristics**, and pinning requirements per profile. The index set `Σ` consists of identifiers of `U.Viewpoint` instances, typically drawn from `U.ViewpointBundle` species (E.17.1 or E.17.2) (see §5.3).
 * **Explanation-use profile values.** Existing faces can state an explanation-use profile value as `SourcePinnedExplanation`, `SourceLinkedExplanationReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`, but those are local profile values over already existing MVPK faces rather than new face kinds, explanation kinds, or carrier-rendering kinds. Per-face pins, provenance references, and no-new-A.6.B-boundary-claims discipline still apply.
@@ -70,7 +70,7 @@ For functional-description publications, MVPK governs the publication lane only.
 
 **Publication lane.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description can help interpretation, source-finding, comparison, selected-method inspection, or work-planning preparation.
 
-**Unsupported neighboring claims.** The publication does not by itself assert performed `U.Work`, gate passage, evidence, engineering justification, supervisory relation or control relation, release permission, or a new TGA kind.
+**Unsupported neighboring claims.** The publication does not by itself assert performed `U.Work`, gate passage, evidence, engineering justification, supervisory relation or control relation, release permission, or a new transformation-flow kind.
 
 **Interface and protocol proximity.** When interface, protocol, schema, boundary, or API wording appears beside a functional-flow description, keep the operational boundary, interface, or protocol claim with its own project claim set and typed project-side value named by value and reference, governed by the relevant FPF pattern such as `A.6.B`, `A.6.C`, or `E.18`. Do not absorb it into the functional-flow publication by layout proximity.
 
@@ -177,7 +177,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the publication-facing unit being used as engineering justification, assurance, confidence, readiness, or limitations relation? | `B.3` assurance or engineering-justification claim with evidence, limits, and decay explicit. |
 | Is the publication-facing unit being used as gate passage, constraint validity, adjudication, or release decision source? | `A.20` or `A.21` project records, including gate profile, constraint profile, decision record, log reference, scope, window, replay reference and freshness reference. |
 | Is it the same EntityOfConcern with textual restatement only? | `A.6.3.CR Conservative Retextualization`. |
-| Is it the same EntityOfConcern with representation scheme or reasoning medium changed? | `A.6.3.RT Representation Transduction`. |
+| Is it the same EntityOfConcern with representation scheme or reasoning medium changed? | `A.6.3.RT Representation-Scheme Transition`. |
 | Is it deliberately reduced-use and useful only under narrower bounded use, `non-admissible downstream use`, and source-bearing reopen? | `A.6.3.CSC Controlled Semantic Coarsening`. |
 | Is the primary issue explanation-facing rendering class on an existing MVPK face? | `E.17.EFP ExplanationFaithfulnessProfile`. |
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |

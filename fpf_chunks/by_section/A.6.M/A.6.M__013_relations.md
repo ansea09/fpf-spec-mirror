@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:12 — Relations"
-line_start: 14927
-line_end: 14944
+line_start: 15211
+line_end: 15229
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -36,8 +36,9 @@ keywords:
 | `C.30` and `C.30.ASV` | Architecture claims and module-interface structural views stay architecture-governed. |
 | `A.6.F` | Function and functional wording stays distinct from module allocation. |
 | `A.15` and `A.2` | Method, work-plan, performed-work, role-assignment, role claims, enactor claims, team-boundary wording, and delivery-unit wording are governed by `A.15`, `A.2`, `VP.Procedural`, or `VP.RoleEnactor` unless a module-interface relation or correspondence is recovered; A.6.M governs only that recovered module-interface slice. |
-| `E.18` and `C.30.TGA-FLOW-REL` | E.18 transduction relations, path slices, crossings, and flow valuations are not interface specifications. |
+| `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |
 | `C.31` | Modularity and reusable-structure characteristics are governed by C.31 after relation repair when characteristic or measurement use is being made. |
 | `C.31.RSA` | Reusable-structure accounting is governed by C.31.RSA when reusable loci, bespoke residue, or report-only share claims are being made. |
 | `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub legality remain C.16-governed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, `C.11` | Evidence, assurance, gates, causal use, mechanism suites, set-return selection, and local decisions use their governing patterns; they are not A.6.M claims. |
+

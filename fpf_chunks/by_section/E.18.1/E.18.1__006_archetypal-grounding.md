@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 68181
-line_end: 68262
+line_start: 68508
+line_end: 68589
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ keywords:
 
 5. **Functional explanatory order.** A source diagram places `U.Signature(profile=FormalSubstrate)`, principle frame, mechanism, normalization, method selection, planning, performed work, and result measurement in one readable order. P2W uses the diagram to classify applications while keeping material time and performed-work chronology with their own patterns.
 
-6. **Interface split before P2W use.** A source says a port-throughput limit makes a solution feasible after integration. P2W first splits the phrase: module-interface relation (`A.6.M`), flow or throughput relation (`E.18` or `A.6.F` when function use is being claimed), WorkPlan constraint (`A.15.2`), dated `U.Work` occurrence (`A.15.1`), evidence or gate claim (`A.10`, `G.6`, `A.20`, or `A.21`), or architecture and structural-view claim (`C.30` family). The carry-through record writes only the relation that changes the P2W move being made and leaves the other readings as stopped cues.
+6. **Interface split before P2W use.** A source says a port-throughput limit makes a solution feasible after integration. P2W first splits the phrase: module-interface relation (`A.6.M`), `E.18` transformation-flow relation or `A.6.F` function/throughput relation when function use is being claimed, WorkPlan constraint (`A.15.2`), dated `U.Work` occurrence (`A.15.1`), evidence or gate claim (`A.10`, `G.6`, `A.20`, or `A.21`), or architecture and structural-view claim (`C.30` family). The carry-through record writes only the relation that changes the P2W move being made and leaves the other readings as stopped cues.
 
 7. **Result measurement returns to planning.** A performed `U.Work` occurrence produced telemetry and an artifact. Later measurement shows that the planned module-interface constraint was interpreted against the wrong reference plane. P2W splits measurement, reference-plane repair, source restoration, refresh, planning revision, and method-comparison claims. If the original `ProblemCard@Context` no longer states the right problem, the problem-side correction returns to the problem-side pattern.
 
@@ -83,13 +83,13 @@ keywords:
 | Changed unit after source restoration | Later source restoration changes only the unit and reference plane used by the planning constraint. | P2W reopens the smallest affected applications; the earlier dated `U.Work` occurrence is cited, not rewritten. |
 | Near-sameness under a formal declaration | A mathematical near-sameness claim preserves heat-flow structure but loses deformation factors outside the model. | P2W uses `C.29` for mathematical-lens use and `A.6.0` for `U.Signature(profile=FormalSubstrate)`, names preserved and lost structure, and prevents the lens from settling empirical truth or work authorization. |
 | FPF relation law changes after a P2W record | A governing FPF pattern changes the boundary for architecture-description, evidence, or source-restoration use. Fill the replay and currentness check: changed law, still-carried distinction, no-longer-carried cue, smallest reopened application, and next move. | The earlier carry-through record is replayed rather than trusted by age; only the affected architecture-description, evidence, source-restoration, or P2W field changes. |
-| Relation selection would over-select from one phrase | A source says "the new port contract proves integration readiness." P2W splits module-interface relation, flow relation, dated `U.Work` occurrence, evidence cue, gate cue, and architecture-description cue. | Only the relation that changes the P2W move being made is written; the remaining readings stop as named cues until their governed relations are being made. |
+| Relation selection would over-select from one phrase | A source says "the new port contract proves integration readiness." P2W splits module-interface relation, `E.18` transformation-flow relation, dated `U.Work` occurrence, evidence cue, gate cue, and architecture-description cue. | Only the relation that changes the P2W move being made is written; the remaining readings stop as named cues until their governed relations are being made. |
 | Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side material. | The mathematical phrase lowers to a reduced-use cue; P2W does not open method selection, evidence, gate, or `A.15.2` planning from mathematical prestige alone. |
 | Result source becomes stale | A result-looking source is later replaced by a fresher source with a different artifact reference and measurement reference. | P2W uses `A.15.4`-style source restoration before result carry-through; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
 
-#### E.18.1:5.3 - Pilot examples for coupled development and application flows
+#### E.18.1:5.3 - Pilot examples for coupled transformation-flow slices
 
-These pilots are grounding checks, not source terminology to import. They exercise the same common shape: one selected `TransformationFlowStructure` can relate several flow valuations, one flow may develop or select a usable product, another flow may apply it, and an evaluation or refresh flow may return to the smallest affected development or application locus. The selected structure does not merge the flow objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each flow. Use each pilot to check whether the P2W use being made can name the joined flows, the carried object's flow-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
+These pilots are grounding checks, not source terminology to import. They exercise the same common shape: one selected `TransformationFlowStructure` can relate several transformation-flow valuations or slices, one slice may develop or select a usable product, another slice may apply it, and an evaluation or refresh slice may return to the smallest affected development or application locus. The selected structure does not merge the slice-local objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each slice. Use each pilot to check whether the P2W use being made can name the joined transformation-flow slices, the carried object's slice-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
 
 | Pilot | P2W use being made | What it tests |
 |---|---|---|
@@ -99,8 +99,8 @@ These pilots are grounding checks, not source terminology to import. They exerci
 | AutoML and QD | Method selection returns a Pareto, QD, front, or archive set under comparator and descriptor editions, not a hidden scalar winner. | Set-return discipline, comparator currentness, no hidden scalarization, and retained-set refresh. |
 | Freshness or material-transport case | Work planning and performed work depend on freshness windows, transport relations, units, reference planes, and source-currentness. | No implicit `latest`, no unbridged unit or plane comparison, and smallest affected refresh. |
 | Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function, or work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording must recover the relation being claimed. |
-| Tool-product-use chain | A design-tagged flow makes a tool; a later run or use flow uses the tool to make a chair; another flow uses the chair as context for writing a text. | One selected transformation-flow structure can relate all flows, but the same carried object may fill a run-result position in one flow and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
-| FPF pattern-development / self-evolving specification | A development flow creates or repairs a pattern, specification, or process description through drafting, quality evaluation, publication projection, and admitted publication; a later use flow applies that product to its own `EntityOfConcern`; a defect found in use returns to the smallest development slice for repair. | Development, application, and evaluation flows are joined by transfer and return relations while keeping objects and `DesignRunTag` boundaries separate; evaluation records or use-found evidence change the product through edits to the smallest development slice, not by entering the used publication's practitioner-facing prose. |
+| Tool-product-use chain | A design-tagged transformation-flow slice makes a tool; a later run or use slice uses the tool to make a chair; another slice uses the chair as context for writing a text. | One selected `TransformationFlowStructure` can relate all slices, but the same carried object may fill a run-result position in one slice and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the `E.18` transformation-flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
+| FPF pattern-development / self-evolving specification | A development transformation-flow slice creates or repairs a pattern, specification, or process description through drafting, quality evaluation, publication projection, and admitted publication; a later use slice applies that product to its own `EntityOfConcern`; a defect found in use returns to the smallest development slice for repair. | Development, application, and evaluation slices are joined by transfer and return relations inside one selected `TransformationFlowStructure` while keeping objects and `DesignRunTag` boundaries separate; evaluation records or use-found evidence change the product through edits to the smallest development slice, not by entering the used publication's practitioner-facing prose. |
 
 #### E.18.1:5.4 - Filled P2W output records
 
@@ -120,11 +120,11 @@ P2W output record:
 ```text
 P2W output record:
   ProblemCardRef: ProblemCard@Context PC-PORT-008, accepted for an integration-throughput problem.
-  CarriedDistinction: the port-throughput phrase may carry module-interface, flow, work-plan, performed-work, evidence, gate, and architecture relations, but only one relation changes this P2W move.
+  CarriedDistinction: the port-throughput phrase may carry module-interface, `E.18` transformation-flow, work-plan, performed-work, evidence, gate, and architecture relations, but only one relation changes this P2W move.
   NextFPFUseQuestion: which relation is being written now?
-  RecoveredFPFKindOrRelation: `A.6.M` module-interface relation plus `E.18` flow relation; `A.15.2` planning constraint is written only if the planning record is being made.
+  RecoveredFPFKindOrRelation: `A.6.M` module-interface relation plus `E.18` transformation-flow relation; `A.15.2` planning constraint is written only if the planning record is being made.
   SelectedApplication: `A.6.M` for the port contract; `E.18` for the selected transformation-flow relation; `A.15.2` only for the planned constraint.
-  WrittenRecordOrApplication: write the module-interface constraint and flow relation; stop evidence and gate cues until their governing relations are being made.
+  WrittenRecordOrApplication: write the module-interface constraint and `E.18` transformation-flow relation; stop evidence and gate cues until their governing relations are being made.
   LocalStop: no readiness proof or work authorization follows from the port phrase by itself.
 ```
 

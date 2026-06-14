@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
-line_start: 66442
-line_end: 66737
+line_start: 66770
+line_end: 67065
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 - `local lexical head` = the head word or phrase inside one claim-bearing sentence or heading, such as `review`, `interpretation`, `note`, or `text`; it is not an FPF pattern head, not a package-family head, and not a language-state alternative;
 - `publication-unit repair disposition` = the current repair disposition: local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, explanation classification, representation change, controlled coarsening, changed primary EntityOfConcern, or downstream decision, gate, work, or reliance claim;
 - `governing FPF pattern or project-side FPF kind and reference named by value` = the named FPF pattern, or a project-side evidence record, gate record, decision record, work plan, work occurrence, method, action invitation, relation record, or `U.EpistemePublication` whose governing FPF pattern is named;
-- `publication-unit stability family` = the relation among `E.17.AUD`, `E.17.AUD.LHR`, `E.17.AUD.OOTD`, and neighboring comparison and explanation patterns; it is not a runtime path and not a transduction sequence;
+- `publication-unit stability family` = the relation among `E.17.AUD`, `E.17.AUD.LHR`, `E.17.AUD.OOTD`, and neighboring comparison and explanation patterns; it is not a runtime path and not a transformation-flow structure;
 - `presentation-form label` = `note`, `memo`, `sheet`, `screen`, and similar form words; these are only form clues until the publication unit under review and primary EntityOfConcern are restored.
 
 When any of those roles is claim-bearing, record the active entry in the working card rather than polishing the sentence with another generic word.

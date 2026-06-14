@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Worked “dry‑runs” (composite slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__016_worked-dry-runs-composite-slices.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:15 — Worked “dry‑runs” (composite slices)"
-line_start: 76270
-line_end: 76314
+line_start: 76596
+line_end: 76640
 dependencies:
   - "B.3"
   - "D.CTX"

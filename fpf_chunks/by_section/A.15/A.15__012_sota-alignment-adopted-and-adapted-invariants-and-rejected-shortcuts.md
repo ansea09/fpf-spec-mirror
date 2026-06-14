@@ -6,12 +6,12 @@ section_id: "A.15:11"
 section_title: "SoTA Alignment: Adopted and Adapted Invariants and Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__012_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:11 — SoTA Alignment: Adopted and Adapted Invariants and Rejected Shortcuts"
-line_start: 20460
-line_end: 20492
+line_start: 20744
+line_end: 20776
 dependencies:
   - "A.10"
   - "A.12"

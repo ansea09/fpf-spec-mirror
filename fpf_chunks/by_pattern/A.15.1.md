@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 20571
-line_end: 20990
+line_start: 20855
+line_end: 21274
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -46,15 +46,15 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.Work` when the live claim is a performed occurrence: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameter bindings, resources, affected referent, result, and evidence relations kept inspectable.
+**At a glance.** Use `U.Work` when the current claim is a performed occurrence: a dated, resource-consuming occurrence enacted by a holder under `U.RoleAssignment`, inside a `U.BoundedContext`, with method, time window, parameter bindings, resources, affected referent, result, and evidence relations kept inspectable.
 
 **Use this when.** Use this pattern when a plan, method description, schedule, log, telemetry stream, dashboard, approval-looking cue, publication face, result statement, or evidence-provenance relation is being treated as if it were performed work. `U.Work` is the occurrence; surrounding records may identify, constrain, evidence, schedule, publish, or judge it, but they do not become the occurrence by being published.
 
-**First output.** One work-occurrence record naming `performedBy -> U.RoleAssignment`, `enactsMethod -> U.Method`, `methodDescriptionRef` when the source episteme is live, `executedWithin`, time window, concrete parameter bindings, affected referent, resource ledger, pre-state and post-state references or a declared delta predicate, outcome, and the governing `U.BoundedContext`.
+**First output.** One work-occurrence record naming `performedBy -> U.RoleAssignment`, `enactsMethod -> U.Method`, `methodDescriptionRef` when the source episteme is current, `executedWithin`, time window, concrete parameter bindings, affected referent, resource ledger, pre-state and post-state references or a declared delta predicate, outcome, and the governing `U.BoundedContext`.
 
 **First-use checks.**
 1. Name the candidate occurrence and the work-facing claim that depends on it.
-2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, system or subsystem accountable for the occurrence, affected referent, parameters, resources, outcome, and evidence relation when live.
+2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, system or subsystem accountable for the occurrence, affected referent, parameters, resources, outcome, and evidence relation when current.
 3. Decide whether the encountered record, trace, or source-looking carrier is performed `U.Work`, only a plan (`A.15.2`), only a method (`A.3.1`), only a method description (`A.3.2`), only evidence for work (`A.10`), only a publication-use relation (`E.17`), only a declarative representation (`C.2.P.DR` or the direct representation pattern), or a work-relevant source-restoration case (`A.15.4`).
 4. For composite, repeated, interrupted, or overlapping occurrences, declare the work-part relation and aggregation policy before using totals or identity claims.
 5. If the required occurrence references cannot be recovered, lower the claim to a source-gap note, work-evidence note, plan note, publication-use note, declarative-representation note, or source-restoration request; do not backdate work.
@@ -69,7 +69,7 @@ keywords:
 
 **What this buys.** One dated occurrence record that keeps performer, role assignment, enacted method, method-description source, time window, affected referent, resources, outcome, evidence relation, and repair boundary inspectable.
 
-**Not this pattern when.** Not this pattern when the live claim is only a method (`A.3.1`), only a method description (`A.3.2`), only a plan or schedule (`A.15.2`), only a `SlotFillingsPlanItem` (`A.15.3`), only a visible source cue that must be restored before reliance (`A.15.4`), only evidence or assurance (`A.10` or `B.3`), only publication-use behavior (`E.17`), or only a declarative representation overread as a work-control or method claim (`C.2.P.DR` or the direct representation pattern).
+**Not this pattern when.** Not this pattern when the current claim is only a method (`A.3.1`), only a method description (`A.3.2`), only a plan or schedule (`A.15.2`), only a `SlotFillingsPlanItem` (`A.15.3`), only a visible source cue that must be restored before reliance (`A.15.4`), only evidence or assurance (`A.10` or `B.3`), only publication-use behavior (`E.17`), or only a declarative representation overread as a work-control or method claim (`C.2.P.DR` or the direct representation pattern).
 
 ### A.15.1:1 - Problem Frame
 
@@ -99,7 +99,7 @@ That concept is **`U.Work`**: the **dated run-time occurrence** of enacting a `U
 
 #### A.15.1:4.1 - Definition
 
-**`U.Work`** is a **4D occurrence holon**: a **dated run-time enactment** of a `U.Method` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System` or `U.SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes and produces resources, and leaves an auditable trace. When a method-description source is live, `methodDescriptionRef` names the `U.MethodDescription` used to identify, constrain, or justify the enacted method.
+**`U.Work`** is a **4D occurrence holon**: a **dated run-time enactment** of a `U.Method` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System` or `U.SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes and produces resources, and leaves an auditable trace. When a method-description source is current, `methodDescriptionRef` names the `U.MethodDescription` used to identify, constrain, or justify the enacted method.
 Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlaneRef`), mapping ⟨**pre‑state**, **inputs**⟩ to ⟨**post‑state**, **outputs**⟩ for one or more **affected referents**.
 
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, accountable).
@@ -109,7 +109,7 @@ Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlan
 When you describe a Work instance in a review, answer these prompts:
 
 1. **Window** — start and end timestamps and, where relevant, location or asset.
-2. **Method-description source** — `methodDescriptionRef -> U.MethodDescription` when the description source is live; edition pinned when reliance depends on edition.
+2. **Method-description source** — `methodDescriptionRef -> U.MethodDescription` when the description source is current; edition pinned when reliance depends on edition.
 3. **Performer** — `performedBy → U.RoleAssignment` (which **holder#role\:context** acted).
 4. **Parameters** — concrete values bound for this run (from the **MethodDescription** parameter declarations).
 5. **Inputs and outputs** — materials, information, or product states used or produced by the Work; service delivery is judged through the Outcome row.
@@ -138,7 +138,7 @@ A `U.Work` publication projects an already declared work occurrence; it does not
 
 | Publication-use pressure | Work-local rule |
 |---|---|
-| PlainView, TechCard, InteropCard, or AssuranceLane presents work material | Project only occurrence references: time window, performer, enacted method-description source, parameter-binding occurrence, resource-ledger reference, state-change references, outcome, and acceptance-verdict reference when live. |
+| PlainView, TechCard, InteropCard, or AssuranceLane presents work material | Project only occurrence references: time window, performer, enacted method-description source, parameter-binding occurrence, resource-ledger reference, state-change references, outcome, and acceptance-verdict reference when current. |
 | numeric, comparable, aggregation, or benchmark content appears | Pin the comparator, aggregation policy, CG-Spec, reference plane, and transport edition needed by the claimed comparison; do not hide scalarization in the publication face. |
 | publication cites design-time material or cross-context material | Keep the `U.Work` occurrence run-time; cite the design-time or cross-context material through Bridge relation, UTS relation, `DesignRunTag`, reference-plane, or edition relation as needed. |
 | reconstructed records look like a run | Do not synthesize surrogate `U.Work`; a publication may cite only work occurrences that meet the occurrence references in this pattern. |
@@ -151,7 +151,7 @@ Launch values bind only at the occurrence. Plan-time proposals remain proposals;
 
 ### A.15.1:5 - Work mereology (how runs form holarchies)
 
-We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its occurrence references (method-description source when live, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
+We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its occurrence references (method-description source when current, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
 
 #### A.15.1:5.1 - Parts and wholes of Work (design‑neutral, run‑time facts)
 
@@ -252,7 +252,7 @@ For any Work with parts, the **effect of the whole** must be the **rules-declare
 **CC‑A15.1‑2 (Required links).**
 Every `U.Work` **MUST** reference:
 (a) `enactsMethod -> U.Method` (the method enacted),
-(b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is live,
+(b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is current,
 (c) `performedBy -> U.RoleAssignment` (the assigned performer in context), and
 (d) `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence).
 
@@ -281,7 +281,7 @@ All capability thresholds stated by the Method or MethodDescription **MUST** be 
 Success and failure classes and quality grades **MUST** be determined by the acceptance criteria declared or referenced by the **MethodDescription** or **CG-Spec** **in the judgment context**. The verdict is recorded on the Work.
 
 **CC‑A15.1‑9 (Resource honesty).**
-All consumptions and costs (energy, materials, machine-time, money, tool wear) **SHALL** be booked **only** to `U.Work` (not to Method, MethodDescription, Role, or Capability). Estimates may live in method descriptions or plans; performed values live in Work.
+All consumptions and costs (energy, materials, machine-time, money, tool wear) **SHALL** be booked **only** to `U.Work` (not to Method, MethodDescription, Role, or Capability). Estimates belong in method descriptions or plans; performed values belong in Work.
 
 **CC‑A15.1‑10 (Mereology declared).**
 If a Work has parts, the chosen **part relation(s)** must be declared (temporal‑part, episode‑part, operational‑part, concurrent‑part). Ambiguous mixtures are forbidden.
@@ -314,7 +314,7 @@ If multiple `U.RoleAssignment`s jointly perform the same top-level Work (e.g., m
 (b) be modeled as a **parent Work** with child Works per `U.RoleAssignment`.
 
 **CC‑A15.1‑18 (Logs ≠ Work by themselves).**
-Logs and telemetry are **evidence** for a Work; they **do not constitute** a Work unless bound to method-description source when live, performer, time window, affected referent, and judgment context.
+Logs and telemetry are **evidence** for a Work; they **do not constitute** a Work unless bound to method-description source when current, performer, time window, affected referent, and judgment context.
 
 **CC‑A15.1‑19 (Affected referent).** Each `U.Work` **MUST** name at least one affected referent (e.g., `U.Asset`, product, batch, dataset, or document) via `affected -> {...}`.
 
@@ -374,7 +374,7 @@ Logs and telemetry are **evidence** for a Work; they **do not constitute** a Wor
 
 When a Work is recorded, perform these **three quick checks**:
 
-1. **Method-description context check.** Does `methodDescriptionRef` refer to a MethodDescription **defined in** the judgement context, or bridged to it, when that source is live?
+1. **Method-description context check.** Does `methodDescriptionRef` refer to a MethodDescription **defined in** the judgement context, or bridged to it, when that source is current?
 
    * If **no**, the Work is **out‑of‑context**; either change context or add a Bridge.
 
@@ -390,7 +390,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ### A.15.1:11 - Anti‑patterns (and the right move)
 
-* **"The log is the process."** Dumping telemetry without occurrence references (method-description source when live, performer, time window, affected referent, context) -> **Not Work**. Create a Work record and link the log as evidence.
+* **"The log is the process."** Dumping telemetry without occurrence references (method-description source when current, performer, time window, affected referent, context) -> **Not Work**. Create a Work record and link the log as evidence.
 * **Record-only transforms.** ETL or replication of records with no declared affected referent (product or dataset as product) -> **Not Work** in this context; either declare the dataset as the product referent or move it to `U.WorkPlan` or the relevant operations pattern.
 * **Silent cross‑context acceptance.** “Ops accepted it, so audit accepts it.” → Add a **Bridge** or re‑judge in audit context.
 * **Method-description edition drift in mid-run.** Swapping SOP v5->v6 without recording -> split into episodes or record method-description override.
@@ -420,7 +420,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ### A.15.1:13a - SoTA Alignment
 
-**SoTA alignment rule.** A source tradition counts here only when it preserves the local `U.Work` distinction: dated occurrence, role-assigned performer, enacted method, method-description source when live, time window, affected referent, resources, outcome, and evidence-provenance relation.
+**SoTA alignment rule.** A source tradition counts here only when it preserves the local `U.Work` distinction: dated occurrence, role-assigned performer, enacted method, method-description source when current, time window, affected referent, resources, outcome, and evidence-provenance relation.
 
 | Source tradition | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |
@@ -442,17 +442,17 @@ When a Work is recorded, perform these **three quick checks**:
 * **CAC checks:** **Context** (judgement), **assignment** (covering `U.RoleAssignment`), **Standard** (acceptance criteria).
 * **Roll‑ups:** `Γ_time = union` (utilization) or `hull` (lead time); `Γ_work` with a declared overlap policy.
 * **Episodes vs retries:** same run split vs new run; write the policy.
-* **Resource honesty:** performed values booked **only** to Work; estimates live in method descriptions or plans.
+* **Resource honesty:** performed values booked **only** to Work; estimates belong in method descriptions or plans.
 
 ### A.15.1:15a - P2W Performed-Work Use Relation
 
 When `E.18.1` reaches performed work, `U.Work` states the dated occurrence: performer, method-description source, parameters, resources, time window, pre-state, post-state, outputs, outcome, and audit trace.
 
-A `U.Work` occurrence may cite a `U.WorkPlan` or `SlotFillingsPlanItem` as planned baseline. The performed-work record states launch values, performed values, substitutions, variance, telemetry, and result-related records; comparator, transport, `PrincipleFrame`, evidence, assurance, and gate claims are separate live relations when the carry-through record names them.
+A `U.Work` occurrence may cite a `U.WorkPlan` or `SlotFillingsPlanItem` as planned baseline. The performed-work record states launch values, performed values, substitutions, variance, telemetry, and result-related records; comparator, transport, `PrincipleFrame`, evidence, assurance, and gate claims are separate current relations when the carry-through record names them.
 
 ### A.15.1:16 - Lowering, Repair, and Refresh Conditions
 
-Lower a candidate `U.Work` claim when performer, enacted method, method-description source when live, time window, `executedWithin`, affected referent, parameter bindings, resources, outcome, or state-change witness cannot be named at the granularity required by the next work move. The acceptable lowered record is a plan note, evidence note, source-gap note, source-restoration request, or method-description reference, not a backdated work occurrence.
+Lower a candidate `U.Work` claim when performer, enacted method, method-description source when current, time window, `executedWithin`, affected referent, parameter bindings, resources, outcome, or state-change witness cannot be named at the granularity required by the next work move. The acceptable lowered record is a plan note, evidence note, source-gap note, source-restoration request, or method-description reference, not a backdated work occurrence.
 
 Repair the work record when a subsequent source changes the work interval, performer, role assignment, enacted method, method-description edition, parameter binding, resource ledger, outcome, affected referent, state-plane reference, pre-state reference, post-state reference, overlap policy, or aggregation policy. Repair only the changed relation: do not rewrite the method when only evidence changed, do not rewrite evidence when only work time changed, and do not convert a plan or source-restoration request into work.
 

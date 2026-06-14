@@ -6,12 +6,12 @@ section_id: "A.6.3:7"
 section_title: "Rationale & SoTA‑echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__008_rationale-sota-echoing-informative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:7 — Rationale & SoTA‑echoing  (informative)"
-line_start: 10948
-line_end: 10969
+line_start: 11191
+line_end: 11212
 dependencies:
   - "A.6.0"
   - "A.6.2"

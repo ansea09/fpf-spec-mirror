@@ -6,12 +6,12 @@ section_id: "A.15.3:3"
 section_title: "Forces (what we must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__004_forces-what-we-must-balance.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:3 — Forces (what we must balance)"
-line_start: 21304
-line_end: 21323
+line_start: 21588
+line_end: 21607
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,6 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"

@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Reading path for engineer-managers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_reading-path-for-engineer-managers.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Reading path for engineer-managers"
-line_start: 23421
-line_end: 23496
+line_start: 23705
+line_end: 23780
 dependencies:
   - "A.17"
   - "A.18"
@@ -69,7 +69,7 @@ keywords:
   * `A.19.CHR:4.6–4.7.2` (P2W planned-baseline hook and the plan-item shape),
   * `A.19.CHR:7` (suite conformance checklist).
 * **A.15.3** — `SlotFillingsPlanItem` (planned baseline discipline: planning vs enactment).
-* **E.18 (E.TGA)** — how to express the actual pipeline/flow graph (including crossings) while keeping suite and plan artefacts refs‑only.
+* **E.18** — how to express the actual pipeline/flow graph (including crossings) while keeping suite and plan artefacts refs‑only.
 
 **Step 5 — The six CHR mechanism-governing patterns (read one at a time).**
 

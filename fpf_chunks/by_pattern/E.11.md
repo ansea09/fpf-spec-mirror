@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 62159
-line_end: 62480
+line_start: 62481
+line_end: 62802
 dependencies:
   - "E.10"
   - "E.10.ARCH"
@@ -182,7 +182,7 @@ The Preface should cover at least:
 - EntityOfConcern and description, including description episteme, publication form, carrier, and multi-view publication separation;
 - thinking-through-writing through patterns, cards, records, views, and publication forms;
 - architecture as structure and epiplexity as an architecture characteristic;
-- first-principles-to-work through TGA and P2W;
+- first-principles-to-work through E.18 transformation-flow structure and E.18.1 P2W;
 - mathematical lenses, formal-substrate declarations, mechanism import, and first-principles carry-through as distinct claims;
 - ontology-first wording repair through `E.10`, `E.10.ARCH`, `F.18`, and `F.19`;
 - evidence, assurance, gate, decision, and work separation;

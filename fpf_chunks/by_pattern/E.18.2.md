@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 68340
-line_end: 68539
+line_start: 68667
+line_end: 68866
 dependencies:
   - "A.10"
   - "A.15"
@@ -23,7 +23,7 @@ dependencies:
   - "C.2.1"
   - "C.29"
   - "C.30"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.17"
   - "E.18"
   - "E.18.1"
@@ -48,7 +48,7 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
 > **Builds on:** `E.18` Transformation Flow Structure, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
-> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, what use it supports, and where stronger project claims move to their own governing relations.
+> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, what use it supports, and which governing relation carries any stronger project claim.
 
 ### E.18.2:1 - Problem frame
 
@@ -214,7 +214,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 ### E.18.2:8 - Rationale
 
-Legacy `transduction` labels do not carry current ontology here. That simplification works only if graph-shaped and morphism-shaped content still has a clear home. E.18 keeps the selected compound structure; A.3.4 keeps the atomic bounded transformation; E.18.1 keeps P2W carry-through; E.18.2 keeps mathematical descriptions of selected transformation-flow structures.
+Graph-shaped or morphism-shaped source labels do not carry current ontology by themselves here. They remain useful only when the current EntityOfConcern is named: E.18 keeps selected compound structure, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps mathematical descriptions of selected transformation-flow structures.
 
 The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this selected transformation-flow structure, and what use does that expression support here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
 
@@ -225,7 +225,7 @@ The pattern is intentionally narrower than C.29. C.29 answers the general questi
 | Model-based systems and architecture-description practice (ISO/IEC/IEEE 42010:2022, [`iso.org/standard/74393`](https://www.iso.org/standard/74393.html); SysML v2 current specification lineage). | A diagram or model can describe a selected structure without becoming the structure or evidence. | Mathematical description names described structure, expression, preserved/lost structure, declared use, and boundary stop. | A clean model can guide inspection without authorizing action. | The selected E.18 structure, publication face, evidence relation, or architecture claim changes. |
 | Applied category theory, wiring diagrams, and graph rewriting (Fong & Spivak, arXiv [`1803.05316`](https://arxiv.org/abs/1803.05316); Spivak, arXiv [`1305.0297`](https://arxiv.org/abs/1305.0297); Baez & Fong, arXiv [`1504.05625`](https://arxiv.org/abs/1504.05625); Bonchi et al., arXiv [`1602.06771`](https://arxiv.org/abs/1602.06771); Patterson/Spivak/Vagner, arXiv [`2101.12046`](https://arxiv.org/abs/2101.12046)). | Formal expression is useful because it preserves some structure and drops other structure. | Quotient, fold, refinement, factorization, and wiring claims name what survives and what is lost. | Coarser and finer descriptions can be compared without pretending they are identical. | The preserved/lost structure, mapping mode, or C.29 lens-use adequacy changes. |
 | Digital-thread, research-object, and source-reference practice (RO-Crate paper, arXiv [`2108.06503`](https://arxiv.org/abs/2108.06503); Di Cosmo/Gruenpeter/Zacchiroli, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647); ISO 23247 digital-twin lineage). | Replay works only when record kinds remain distinct. | E.18.2 descriptions cite E.18 structures and related governed records rather than absorbing work, evidence, gate, and publication claims. | A trace graph can remain useful without becoming proof, plan, or performed work. | Source currentness, work-family law, evidence, gate, or publication-use relation changes. |
-| Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation and sends architecture adequacy to C.30/C.30.ASV/C.31. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
+| Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation; architecture adequacy remains under C.30/C.30.ASV/C.31. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
 
 ### E.18.2:10 - Relations
 

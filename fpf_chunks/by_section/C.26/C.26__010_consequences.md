@@ -6,12 +6,12 @@ section_id: "C.26:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__010_consequences.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:9 — Consequences"
-line_start: 47383
-line_end: 47406
+line_start: 47681
+line_end: 47704
 dependencies:
   - "A.10"
   - "A.15"

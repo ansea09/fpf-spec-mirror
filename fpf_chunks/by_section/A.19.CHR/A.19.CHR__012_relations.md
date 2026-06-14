@@ -6,12 +6,12 @@ section_id: "A.19.CHR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__012_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:12 — Relations"
-line_start: 26369
-line_end: 26399
+line_start: 26653
+line_end: 26683
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -24,7 +24,6 @@ dependencies:
   - "E.10"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "G.0"
   - "G.10"
   - "G.5"
@@ -55,7 +54,7 @@ keywords:
 * **A.15.3 `SlotFillingsPlanItem`** (planned baseline in WorkPlanning)
 * **A.6.1 `U.Mechanism.Intension`** and **A.6.5 slot discipline** (SlotSpecs in signatures; SlotIndex as projection)
 * **A.19 CN‑Spec** and **G.0 CG‑Spec** (governance card and legality gate)
-* **E.TGA / E.18** (P2W, crossings, UTS and Path pins)
+* **E.18 / E.18** (P2W, crossings, UTS and Path pins)
 * **E.10** (lexical and ontological discipline) and **E.19** (conformance style)
 
 #### A.19.CHR:12.2 - Coordinates with

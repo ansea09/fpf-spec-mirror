@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 70206
-line_end: 70429
+line_start: 70532
+line_end: 70755
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,7 +34,7 @@ Status: Core.
 
 ### E.23:1 - Problem frame
 
-Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE/NQD candidate, archive/front member, selected set, parity report, refresh report, or declared transduction result, if an exact evaluation supplies values and stop meanings for that object kind.
+Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE/NQD candidate, archive/front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
 
 Not this pattern when one direct quality evaluation is enough. Use `E.22` to frame one evaluation and then run the named object-under-improvement evaluation. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 

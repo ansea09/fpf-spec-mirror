@@ -6,12 +6,12 @@ section_id: "C.30.LCA:End"
 section_title: "C.30.LCA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__014_c-30-lca-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:End — C.30.LCA:End"
-line_start: 55284
-line_end: 55285
+line_start: 55585
+line_end: 55586
 dependencies:
   - "A.10"
   - "A.20"
@@ -27,7 +27,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.STRAT"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.18"
   - "G.6"
 keywords:

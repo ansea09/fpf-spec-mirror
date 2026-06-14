@@ -6,12 +6,12 @@ section_id: "E.13:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__008_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:6 — Conformance Checklist"
-line_start: 62703
-line_end: 62714
+line_start: 63025
+line_end: 63036
 dependencies:
   - "A.10"
   - "A.21"

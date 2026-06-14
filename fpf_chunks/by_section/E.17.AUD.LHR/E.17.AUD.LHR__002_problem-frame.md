@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__002_problem-frame.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:1 — Problem frame"
-line_start: 66793
-line_end: 66817
+line_start: 67121
+line_end: 67145
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.17.AUD.LHR:1 - Problem frame
 
-**Anti-single-sequence note.** The quick checks, ordinary card, worked slices, and governing-pattern and project-side-reference boundary rules in this section are local aids for one publication unit under review. They are not a canonical transduction sequence, not a mandatory sequence, and not a promise that admissible cases move through one fixed sequence. One case may stabilize after one lexical-head repair, another may reopen when outside observation changes the honest question, and another may apply `E.17.AUD.OOTD` when the publication unit still has unstable EntityOfConcern or carried-move reading.
+**Anti-single-sequence note.** The quick checks, ordinary card, worked slices, and governing-pattern and project-side-reference boundary rules in this section are local aids for one publication unit under review. They are not a canonical transformation-flow structure, not a mandatory ordered sequence, and not a promise that admissible cases move through one fixed sequence. One case may stabilize after one lexical-head repair, another may reopen when outside observation changes the honest question, and another may apply `E.17.AUD.OOTD` when the publication unit still has unstable EntityOfConcern or carried-move reading.
 
 The recurring defect is small but expensive:
 - one broad familiar word enters early;

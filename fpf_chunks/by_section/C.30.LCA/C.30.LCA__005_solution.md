@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 55064
-line_end: 55210
+line_start: 55365
+line_end: 55511
 dependencies:
   - "A.10"
   - "A.20"
@@ -27,7 +27,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.STRAT"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.18"
   - "G.6"
 keywords:
@@ -152,7 +152,7 @@ SafetyLossControlStructureNote:
     SecurityTrustBoundaryStructure | InformationDataStructure |
     EvidenceAssuranceStructure
   governingPatternApplicationRefs:
-    A.3.3 dynamics, C.27 temporal or rate,
+    A.3.3 dynamics, C.27.TA temporal aspect or rate, and C.27 authored temporal-claim adequacy,
     C.28 causal-use, A.10 or G.6 evidence,
     B.3 assurance, A.20 or A.21 gate
   nonAdmissibleUse:
@@ -175,15 +175,15 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **B.2.5 boundary.** `B.2.5` remains the supervisor-subholon feedback-loop check pattern. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon loop is part of the control view. It does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, the acting `Transformer`, publication or review practice, and publication relation, source relation, or reliance relation are named; an episteme does not sense, judge, plan, adapt, or act as an agent.
 
-**TGA boundary.** A TGA path slice may supply flow-structure or transduction-structure input to the control view when a flow or transduction relation is being used. The TGA graph remains a description or view of flow or transduction structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
+**Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 
-**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is being claimed, use `MathLensUse.FullCard` or at least `MathLensUse.MiniCard`. Dynamics, temporal adequacy, and causal claims are still assigned to `A.3.3`, `C.27`, and `C.28`.
+**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is being claimed, use `MathLensUse.FullCard` or at least `MathLensUse.MiniCard`. Dynamics, temporal aspects or rate bands, authored temporal-claim adequacy, and causal claims are still assigned to `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
 
 **Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
 
-**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Safety and assurance claims use `B.3`, evidence to `A.10` or `G.6`, temporal adequacy to `C.27`, and dynamics or stability claims use `A.3.3` or the appropriate dynamics claim.
+**Worked slice A - LCA diagram used as proof.** A safety note says: `The Layered Control Architecture proves the plant is safe because the supervisor monitors the lower controller.` A conforming repair keeps the control-structure view and names planner, controller, plant, and supervisor relations, observation and actuation boundaries, and any rate bands. Safety and assurance claims use `B.3`, evidence to `A.10` or `G.6`, temporal-aspect and rate-band claims to `C.27.TA`, authored temporal-claim adequacy to `C.27`, and dynamics or stability claims use `A.3.3` or the appropriate dynamics claim.
 
-**Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` to the case only after the stack label has been recovered as control roles, relations, and rate bands; otherwise the label is recovered first by `C.30.STRAT`. C.30.LCA does not claim rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, the next admissible move is `C.27` plus the dynamics or assurance pattern named by value when that claim kind is being made.
+**Worked slice B - multi-rate controller.** A source says a control stack has a slow planner, a faster regulator, and an observer with a different update period. Apply `C.30.LCA` to the case only after the stack label has been recovered as control roles, relations, and rate bands; otherwise the label is recovered first by `C.30.STRAT`. C.30.LCA does not claim rate adequacy. If the rate relation matters for oscillation, latency, stability, or safety, the next admissible move is `C.27.TA` for temporal aspect or rate-band structure, plus `C.27` only when an authored temporal-claim adequacy question is under repair, and the dynamics or assurance pattern named by value when that claim kind is being made.
 
 **Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller that changes allowed modes. `C.30.LCA` records the supervisor-subholon relation and may reference `B.2.5`. If the text claims that this loop authorizes work, passes a gate, or proves a policy constraint, the claim uses `A.15`, `A.20`, or `A.21`.
 

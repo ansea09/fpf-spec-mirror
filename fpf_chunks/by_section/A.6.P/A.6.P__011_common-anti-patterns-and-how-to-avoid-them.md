@@ -6,12 +6,12 @@ section_id: "A.6.P:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 13401
-line_end: 13437
+line_start: 13644
+line_end: 13680
 dependencies:
   - "A.10"
   - "A.2.4"

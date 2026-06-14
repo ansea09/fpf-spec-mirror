@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "C.30.TGA-FLOW-REL"
+pattern_id: "C.30.TFS-REL"
 pattern_title: "Architecture Transformation-Flow Structure Relation"
-section_id: "C.30.TGA-FLOW-REL:7"
+section_id: "C.30.TFS-REL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__008_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__008_conformance-checklist.md"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
-  - "C.30.TGA-FLOW-REL:7 — Conformance Checklist"
-line_start: 55789
-line_end: 55804
+  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL:7 — Conformance Checklist"
+line_start: 56109
+line_end: 56124
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,12 +46,12 @@ keywords:
   - "transformation-flow structure"
 ---
 
-### C.30.TGA-FLOW-REL:7 - Conformance Checklist
+### C.30.TFS-REL:7 - Conformance Checklist
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
 | **CC-C30TFR-1 E.18 object.** | The relation names the E.18 selected transformation-flow structure, path, slice, crossing, or flow valuation object it uses. | Add the E.18 object reference named by value or use C.30 or C.30.ASV without this relation. |
-| **CC-C30TFR-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made; otherwise keep the selected-structure claim inside E.18 or the mathematical-description claim inside E.18.2/C.29. |
+| **CC-C30TFR-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made; otherwise keep the selected-structure claim inside E.18, the mathematical-description claim inside E.18.2, or the math-lens-use claim inside C.29. |
 | **CC-C30TFR-3 Functional and flow separation.** | Functional structure and transformation-flow structure remain separate unless correspondence or positive selected-structure co-reference is declared. | Add `FunctionTransformationFlowRelationNote`, add the co-reference check, or remove the functional-architecture claim from the flow sentence. |
 | **CC-C30TFR-4 No architecture takeover.** | The selected transformation-flow structure or its mathematical description is not treated as generic architecture ontology or all architecture structure kinds. | Assign grounded architecture claims, selected architecture-relevant structures, or conditional architecture-description use to C.30 and keep this pattern to the architecture-to-transformation-flow relation. |
 | **CC-C30TFR-5 No work overread.** | A selected structure, path, or slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
@@ -60,5 +60,5 @@ keywords:
 | **CC-C30TFR-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |
 | **CC-C30TFR-9 Source return.** | Extracted, generated, coarsened, or partial relation graphs or flow diagrams state source-return conditions when hidden distinctions affect action. | Add source-return condition or narrow the admissible use. |
 | **CC-C30TFR-10 Useful action.** | The repair leaves a surviving move: name selected structure, path, or crossing relation; add correspondence; return to source; assign the claim being made to a governing pattern; or stop. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
-| **CC-C30TFR-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 semantics or pins, source observation class, architecture locus, correspondence, source return, or related governing boundary changes. | Update the affected reference, narrow admissible use, keep the selected-structure claim inside E.18, keep the mathematical-description claim inside E.18.2/C.29, apply the governing pattern to the non-flow claim, lower the relation, or block architecture-to-transformation-flow use. |
+| **CC-C30TFR-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 semantics or pins, source observation class, architecture locus, correspondence, source return, or related governing boundary changes. | Update the affected reference, narrow admissible use, keep the selected-structure claim inside E.18, keep the mathematical-description claim inside E.18.2, keep math-lens use inside C.29, apply the governing pattern to the non-flow claim, lower the relation, or block architecture-to-transformation-flow use. |
 

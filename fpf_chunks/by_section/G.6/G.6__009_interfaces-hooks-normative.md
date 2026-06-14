@@ -6,12 +6,12 @@ section_id: "G.6:7.5"
 section_title: "Interfaces & Hooks (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__009_interfaces-hooks-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
   - "G.6:7.5 — Interfaces & Hooks (normative)"
-line_start: 81521
-line_end: 81611
+line_start: 81851
+line_end: 81941
 dependencies:
   - "A.10"
   - "A.21"

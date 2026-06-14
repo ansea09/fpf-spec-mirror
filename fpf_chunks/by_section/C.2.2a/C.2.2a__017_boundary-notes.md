@@ -6,12 +6,12 @@ section_id: "C.2.2a:16"
 section_title: "Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__017_boundary-notes.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:16 — Boundary Notes"
-line_start: 36759
-line_end: 36763
+line_start: 37057
+line_end: 37061
 dependencies:
   - "A.16"
   - "A.16.0"

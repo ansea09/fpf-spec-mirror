@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_consequences-informative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:11 — Consequences  (informative)"
-line_start: 35428
-line_end: 35479
+line_start: 35726
+line_end: 35777
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -48,7 +48,7 @@ keywords:
 * **More explicit structure.**
   Pattern users and authors must declare slots, ValueKinds and references explicitly, and keep DescriptionContext consistent. This is more upfront work than writing ad‑hoc “Subject/Object” fields, but it pays off in substitution safety and cross‑pattern reuse.
 * **Migration effort.**
-  Legacy uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `…Ref` fields will need refactoring into C.2.1 slots + A.6.5 SlotSpecs. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; old wording is source/input material for repair, not a live alternate vocabulary.
+  Legacy uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `…Ref` fields will need refactoring into C.2.1 slots + A.6.5 SlotSpecs. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; old wording is source/input material for repair, not a current alternate vocabulary.
 * **Exposure of representation biases.**
   Being explicit about RepresentationSchemes and Operations may surface disagreements about which representations are “primary” in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
 
@@ -74,7 +74,7 @@ keywords:
 * A.6.4 `U.EpistemicRetargeting` — as the substrate for EntityOfConcern-bundle retargeting transforms between epistemes (Ep→Ep with `entityOfConcernChangeMode = retarget`).
 * E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints and `EntityOfConcernClass` constraints.
 * E.17 (MVPK) — to publish episteme views through publication faces/forms and carriers.
-* E.TGA - to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well-typed `U.EpistemeSlotRelation`.
+* E.18 - to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well-typed `U.EpistemeSlotRelation`.
 
 Together, these relations make `U.EpistemeSlotRelation` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.
 

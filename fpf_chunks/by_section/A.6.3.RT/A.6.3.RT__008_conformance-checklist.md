@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+pattern_title: "Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
 section_id: "A.6.3.RT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+  - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:7 — Conformance Checklist"
-line_start: 12092
-line_end: 12129
+line_start: 12335
+line_end: 12372
 dependencies:
   - "A.10"
   - "A.15"

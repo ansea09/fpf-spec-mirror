@@ -6,12 +6,12 @@ section_id: "B.1:10"
 section_title: "Anti-Patterns & Conceptual Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__011_anti-patterns-conceptual-repairs.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:10 — Anti-Patterns & Conceptual Repairs"
-line_start: 29731
-line_end: 29739
+line_start: 30014
+line_end: 30022
 dependencies:
   - "A.1"
   - "A.9"

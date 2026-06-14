@@ -6,12 +6,12 @@ section_id: "C.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__003_context.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:2 — Context"
-line_start: 38358
-line_end: 38361
+line_start: 38656
+line_end: 38659
 dependencies:
   - "A.1"
   - "A.2.6"

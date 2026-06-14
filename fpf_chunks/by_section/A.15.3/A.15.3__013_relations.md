@@ -6,12 +6,12 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
-line_start: 21652
-line_end: 21664
+line_start: 21936
+line_end: 21948
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,6 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -41,7 +40,7 @@ keywords:
   * **A.15.2 `U.WorkPlan`** — container + PlanItem discipline; baseline citeability.
   * **A.6.5 slot discipline** — SlotKind and RefKind hygiene and binding-time separation.
   * **E.10.D1 Context discipline** — explicit context and edition; no implicit “latest”.
-  * **E.18 and TGA** — keeps `FinalizeLaunchValues` strictly in WorkEnactment; pin and guard discipline.
+  * **E.18 and E.18.1** — keeps `FinalizeLaunchValues` strictly in WorkEnactment; pin and guard discipline.
 * **E.17 publication discipline** — views are projections; no new semantics on cards.
 * **Interacts with and complements:**
   * **A.6.7 `MechSuiteDescription`** — suites may require the presence of a planned-baseline reference or pin without embedding planned fillers or launch values.

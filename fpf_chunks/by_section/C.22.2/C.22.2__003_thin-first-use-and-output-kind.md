@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 45296
-line_end: 45480
+line_start: 45594
+line_end: 45778
 dependencies:
   - "A.10"
   - "A.15"
@@ -108,7 +108,7 @@ The `C.22.2` Solution is organized around practitioner moves from signal to revi
 2. Stabilize the cheap problem-side record: context grounding, scope cut, EntityOfConcern when it changes the problem-side move, primary viewpoint or role concern, and provisional problem framing.
 3. Make action possible by separating the symptom detector, improvement check, candidate acceptance criterion, optimization objective when current, monitored risk signal when current, and proxy-distortion risk when an indicator can be gamed or substitute for value; then state mandatory constraints, risk condition when current, and intended next move before downstream selection.
 4. Pay only for current complexity: add conditional fields only when their kind is current for the problem-card move; otherwise stop at the lighter card or name the governing FPF pattern to use next and the claim kind named by value.
-5. Run the representation-continuity check: if the problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or TGA path interpretation, name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reusing an inherited local cue or readiness disposition.
+5. Run the representation-continuity check: if the problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation, name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reusing an inherited local cue or readiness disposition.
 6. Close by the honest next move rather than by a completed form. A filled card without a truthful next move is not a successful `C.22.2` result.
 
 Cheap-stop rule: the smallest card that gives a truthful next move is sufficient. A conforming `C.22.2` use does not require heavier fields merely because the full field list exists.

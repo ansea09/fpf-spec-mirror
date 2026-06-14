@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-echoing account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__015_sota-echoing-account.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-echoing account"
-line_start: 52654
-line_end: 52762
+line_start: 52952
+line_end: 53060
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,6 +34,7 @@ dependencies:
   - "C.2.P"
   - "C.26"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "C.29"
   - "C.31.ASAP"
@@ -163,7 +164,7 @@ MathLensUse.OneLine@RodinP2W:
   StopCondition: mathematical-to-mathematical exactness or near-sameness does not prove observation-bound world adequacy, causal use, evidence relation, Bridge-declared lens use, or work-start condition
 ```
 
-Read the slice by relation position. `C.29` records preserved and lost structure for the mathematical-lens use. `A.6.0` declares vocabulary, laws, imports, and applicability when a `U.Signature(profile=FormalSubstrate)` declaration must be written. `E.18.1` governs P2W transduction of the accepted problem-side distinction into the next declared FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made.
+Read the slice by relation position. `C.29` records preserved and lost structure for the mathematical-lens use. `A.6.0` declares vocabulary, laws, imports, and applicability when a `U.Signature(profile=FormalSubstrate)` declaration must be written. `E.18.1` governs P2W carry-through of the accepted problem-side distinction into the next declared FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made.
 
 #### C.29:13.4 - Applied category theory
 

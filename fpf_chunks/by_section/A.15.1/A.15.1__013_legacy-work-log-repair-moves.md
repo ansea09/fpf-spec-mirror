@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Legacy work-log repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_legacy-work-log-repair-moves.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Legacy work-log repair moves"
-line_start: 20930
-line_end: 20939
+line_start: 21214
+line_end: 21223
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__015_common-anti-patterns.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Common Anti-Patterns"
-line_start: 62453
-line_end: 62467
+line_start: 62775
+line_end: 62789
 dependencies:
   - "E.10"
   - "E.10.ARCH"

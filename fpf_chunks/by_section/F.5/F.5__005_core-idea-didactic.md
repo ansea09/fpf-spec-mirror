@@ -6,12 +6,12 @@ section_id: "F.5:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_core-idea-didactic.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:4 — Core idea (didactic)"
-line_start: 72517
-line_end: 72523
+line_start: 72843
+line_end: 72849
 dependencies:
   - "A.11"
   - "A.7"

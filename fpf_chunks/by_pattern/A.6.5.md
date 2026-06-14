@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.5.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
-line_start: 14947
-line_end: 15708
+line_start: 15232
+line_end: 15993
 dependencies:
   - "A.1"
   - "A.19"
@@ -168,7 +168,7 @@ The result: **local convenience, global incoherence** — exactly what A.6.0 and
   * systems/roles/methods (A/B),
   * services and APIs (including method/service interfaces and ports),
   * cells in tables and databases,
-  * guards, bridges, and flows in E.TGA,
+  * guards, bridges, and flows in E.18,
   * and publication operations (E.17).
 
   A scheme that is too domain‑specific (e.g. “database attributes only”) won’t scale; the same discipline must underlie **all** `U.Signature`d argument/port lists.

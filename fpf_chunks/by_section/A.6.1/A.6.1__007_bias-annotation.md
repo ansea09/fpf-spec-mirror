@@ -6,12 +6,12 @@ section_id: "A.6.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__007_bias-annotation.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
   - "A.6.1:6 — Bias-Annotation"
-line_start: 10011
-line_end: 10021
+line_start: 10255
+line_end: 10265
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.17.2:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame-informative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:1 — Problem frame  (informative)"
-line_start: 64248
-line_end: 64266
+line_start: 64567
+line_end: 64585
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -22,7 +22,6 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
-  - "E.TGA"
   - "F.18"
   - "U.MultiViewDescribing"
   - "U.ViewpointBundleLibrary"
@@ -32,7 +31,7 @@ keywords:
 ### E.17.2:1 - Problem frame  *(informative)*
 
 Engineering teams almost always talk about systems and their models through a **small set of recurring “views”**:
-* *What capabilities and behaviours does the system enact?* — function‑oriented, transduction‑oriented talk.
+* *What capabilities and behaviours does the system enact?* — function‑oriented, transformation‑oriented talk.
 * *What sequences, workflows, and control logics does it realise?* — procedure/process/state‑oriented talk.
 * *Who or what enacts which roles?* — role‑enactment, organisational and socio‑technical talk.
 * *How is the system decomposed into modules and interfaces?* — physical/logical architecture talk.
@@ -44,7 +43,7 @@ In FPF, E.17.0 and E.17.1 give the **generic machinery**:
 * `U.View` as an episteme‑level view (epistema under a viewpoint),
 * `U.ViewpointBundle` / `ViewFamilyId` as reusable collections of viewpoints.
 
-E.TGA (E.18:5.12) already assumes a **canonical engineering family** with names like “Functional”, “Procedural”, “Role-Enactor (Device-Structure)”, “Module-Interface”. Without a formal bundle tying these together, those names drift and the mapping between E.TGA, MVPK, EntityOfConcern, Description-episteme boundary, and specification use becomes fragile.
+`E.18` already uses a **canonical engineering viewpoint-family map** with names like “Functional”, “Procedural”, “Role-Enactor (Device-Structure)”, “Module-Interface”. Without a formal bundle tying these together, those names drift and the mapping between `E.18`, MVPK, EntityOfConcern, Description-episteme boundary, and specification use becomes fragile.
 
 TEVB addresses this by defining a **single, explicit engineering bundle** with a fixed `ViewFamilyId` and a small set of canonical engineering viewpoints over `U.Holon`.
 

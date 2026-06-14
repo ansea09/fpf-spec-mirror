@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__007_archetypal-grounding.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:5 — Archetypal Grounding"
-line_start: 54245
-line_end: 54252
+line_start: 54543
+line_end: 54550
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,7 +34,7 @@ dependencies:
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
@@ -53,6 +53,6 @@ keywords:
 | Template element | `U.System` illustration | `U.Episteme` illustration |
 | --- | --- | --- |
 | Source-label cue | A neural-network architecture source says that an `expert block` sits above a `router layer`. | A source-publication note says that a `cache layer` keeps a diagram or view current. |
-| Recovery result | `Expert`, `block`, `router`, and `layer` stay source labels until the repair recovers module-interface, function-like, path-selection, flow, or selected-structure apparatus. | `Cache` and `layer` stay source labels until the repair recovers publication source-currentness, view, state or currentness, or ordinary non-use apparatus. |
-| Admissible move | Apply `A.6.M`, `A.6.F`, `E.18`, `C.30.TGA-FLOW-REL`, `G.5`, or `C.11` only after the ontological neighborhood is recovered by value. | Apply `C.2.P`, `E.17`, `A.19.SPR`, `A.3.3`, or `C.27` only after the publication named by value, episteme, state, or temporal claim is recovered. |
+| Recovery result | `Expert`, `block`, `router`, and `layer` stay source labels until the repair recovers module-interface, function-like, path-selection, transformation-flow, or selected-structure apparatus. | `Cache` and `layer` stay source labels until the repair recovers publication source-currentness, view, state or currentness, or ordinary non-use apparatus. |
+| Admissible move | Apply `A.6.M`, `A.6.F`, `E.18`, `C.30.TFS-REL`, `G.5`, or `C.11` only after the ontological neighborhood is recovered by value. | Apply `C.2.P`, `E.17`, `A.19.SPR`, `A.3.3`, `C.27.TA`, or `C.27` only after the publication named by value, episteme, state, temporal-aspect/rate-band claim, or authored temporal-claim adequacy is recovered. |
 

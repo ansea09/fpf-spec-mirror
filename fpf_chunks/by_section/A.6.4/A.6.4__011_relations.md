@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__011_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:10 — Relations"
-line_start: 12700
-line_end: 12717
+line_start: 12943
+line_end: 12960
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -40,7 +40,7 @@ keywords:
   * E.10 (LEX‑BUNDLE naming rules, especially on `…Slot`/`…Ref` and ban on Subject/Object in episteme tech names).
 
 * **Consumed by.**
-  * E.18 (E.TGA StructuralReinterpretation and other cross‑kind architecture transformations).
+  * E.18 (`StructuralReinterpretation` and other cross-kind transformation-flow architecture relations).
   * E.17.0/E.17 (for cases where publication needs to move between different EntityOfConcern values but preserve invariants).
   * KD‑CAL/LOG‑CAL rules that reason about retargeting and invariant preservation across different EntityOfConcern values.
 

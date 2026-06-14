@@ -6,12 +6,12 @@ section_id: "A.6.3:8"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__009_conformance-checklist-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:8 — Conformance checklist (normative)"
-line_start: 10970
-line_end: 11010
+line_start: 11213
+line_end: 11253
 dependencies:
   - "A.6.0"
   - "A.6.2"

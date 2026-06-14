@@ -6,12 +6,12 @@ section_id: "C.30.LCA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 55241
-line_end: 55250
+line_start: 55542
+line_end: 55551
 dependencies:
   - "A.10"
   - "A.20"
@@ -27,7 +27,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.STRAT"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.18"
   - "G.6"
 keywords:
@@ -47,6 +47,6 @@ keywords:
 | LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and assign proof or claim named by values to dynamics, evidence, assurance, gate, or safety patterns. |
 | Control-layer-as-generic-level | `Layer`, `level`, `tier`, or `stack` is used without a recovered control role, relation, rate band, bounded context, or `B.2.5` supervisor-subholon relation. | Apply `C.30.STRAT`; return to C.30.LCA only for a recovered control-layer or control-relation case. |
 | Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting transformer, method, work practice, publication relation, source relation, or reliance relation. |
-| TGA and LCA substitution | A TGA graph is treated as the control architecture, or an LCA diagram is treated as the flow graph. | Use `DescriptionContext` and structure kind fields to keep views distinct. |
-| Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationClaimRefs?` and assign timing claims to `C.27`. |
+| Transformation-flow and LCA substitution | A transformation-flow graph expression is treated as the control architecture, or an LCA diagram is treated as the transformation-flow graph expression. | Use `DescriptionContext` and structure kind fields to keep views distinct. |
+| Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationClaimRefs?`; assign temporal-aspect or rate-band claims to `C.27.TA` and authored temporal-claim adequacy to `C.27`. |
 

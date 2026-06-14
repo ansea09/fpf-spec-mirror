@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
-line_start: 45264
-line_end: 45912
+line_start: 45562
+line_end: 46210
 dependencies:
   - "A.10"
   - "A.15"
@@ -139,7 +139,7 @@ The `C.22.2` Solution is organized around practitioner moves from signal to revi
 2. Stabilize the cheap problem-side record: context grounding, scope cut, EntityOfConcern when it changes the problem-side move, primary viewpoint or role concern, and provisional problem framing.
 3. Make action possible by separating the symptom detector, improvement check, candidate acceptance criterion, optimization objective when current, monitored risk signal when current, and proxy-distortion risk when an indicator can be gamed or substitute for value; then state mandatory constraints, risk condition when current, and intended next move before downstream selection.
 4. Pay only for current complexity: add conditional fields only when their kind is current for the problem-card move; otherwise stop at the lighter card or name the governing FPF pattern to use next and the claim kind named by value.
-5. Run the representation-continuity check: if the problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or TGA path interpretation, name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reusing an inherited local cue or readiness disposition.
+5. Run the representation-continuity check: if the problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation, name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reusing an inherited local cue or readiness disposition.
 6. Close by the honest next move rather than by a completed form. A filled card without a truthful next move is not a successful `C.22.2` result.
 
 Cheap-stop rule: the smallest card that gives a truthful next move is sufficient. A conforming `C.22.2` use does not require heavier fields merely because the full field list exists.
@@ -290,7 +290,7 @@ For this decision, `problem` remains an ordinary word in non-FPF-governed prose.
 | Candidate problem in archive or retained candidate pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that FPF relation is being made and named by value, retention criterion, budget or window, and review cadence when the retention rule requires it. |
 | Selected problem from a set-return treatment | Selected set member or emitted problem-side record under a selection criterion | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |
 | Problem ready for selector-facing use | Problem-side record sufficient to emit or bind `TaskSignature` or `TaskKind` | `C.22` uses the typed selector reference; `C.22.2` does not expand `TaskSignature` into a problem-card dump. |
-| Downstream task or performed-work cue | Method known enough for task typing, method-family selection, planning, or performed work | Use the selector, work-family, TGA, evidence, provenance, assurance, gate, or decision pattern named by value for that claim. |
+| Downstream task or performed-work cue | Method known enough for task typing, method-family selection, planning, or performed work | Use the selector, work-family, transformation-flow, evidence, provenance, assurance, gate, or decision pattern named by value for that claim. |
 | E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |
 | E.9 DRR `Problem frame` | Decision-rationale section in a design-rationale record | Not the C.22 problem-side representation. |
 
@@ -467,7 +467,7 @@ Environment design and safe probing may appear as source signal reference, valid
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being current for P2W. |
 | `abstainOrNoChange` | No downstream project-side move is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
 
-Freshness names the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason or source, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended next move. For problem-formulation reason or source, ask whether cited sources, provenance, stated reason references, and source references are fresh enough for the problem-formulation next-move reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or relation needed for inheritance.
+Freshness names the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason or source, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended next move. For problem-formulation reason or source, ask whether cited sources, provenance, stated reason references, and source references are fresh enough for the problem-formulation next-move reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or relation needed for inheritance.
 
 A stale source or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or a governing-pattern cue for the claim, relation, or boundary that is checked.
 
@@ -483,9 +483,9 @@ Unknown-handling fields state whether they permit use, require degraded use, abs
 
 ### C.22.2:13 - Representation and Wording-Use Relation Continuity
 
-`C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, TGA paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation next-move reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
+`C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, transformation-flow paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation next-move reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
 
-Framing is not wording repair. A framing change applies when EntityOfConcern, context grounding, scope cut, viewpoint, comparison relation, use-boundary inheritance, or honest next move changes. Wording-use repair is current only when wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the carried problem-side representation, EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or governing-pattern cue. Ordinary wording cleanup does not trigger a representation-continuity relation and does not block a Thin `ProblemCard@Context`.
+Framing is not wording repair. A framing change applies when EntityOfConcern, context grounding, scope cut, viewpoint, comparison relation, use-boundary inheritance, or honest next move changes. Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the carried problem-side representation, EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or governing-pattern cue. Ordinary wording cleanup does not trigger a representation-continuity relation and does not block a Thin `ProblemCard@Context`.
 
 | Pattern or pattern family | When it matters for the card | `C.22.2` use |
 |---|---|---|
@@ -555,7 +555,7 @@ Local SoTA-to-action tests:
 
 The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. Claims beyond the problem-side record stay with their governing patterns.
 
-The archive and portfolio distinctions remain current when they matter because the card preserves `setContextRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or TGA path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain current when they matter because the card preserves `setContextRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
 
 ### C.22.2:17 - Problem-Card Use Invariants
 
@@ -573,7 +573,7 @@ The archive and portfolio distinctions remain current when they matter because t
 | Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, context, scope, improvement check or acceptance probe, and next move before any work pattern is applied. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that governs the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording becomes one local score. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and non-scalar next move. |
-| Silent retargeting | A changed EntityOfConcern, representation scheme, diagram, functional description, or TGA path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
+| Silent retargeting | A changed EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
 | Refresh dead end | Expiry or unknown handling is recorded as a passive note. | State refresh, retirement, bounded use, `abstainOrNoChange`, or the relation that is reopened. |
 
 ### C.22.2:19 - Use-Quality Checks

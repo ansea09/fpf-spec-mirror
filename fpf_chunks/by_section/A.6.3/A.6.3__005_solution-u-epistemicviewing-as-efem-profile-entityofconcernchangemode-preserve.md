@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-entityofconcernchangemode-preserve.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
-line_start: 10640
-line_end: 10843
+line_start: 10883
+line_end: 11086
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -228,7 +228,7 @@ Two recurring EntityOfConcern-preserving families can be read as specializations
 1. **`ConservativeRetextualization`.**
    Use this when the receiving item remains textual and the main change is wording, density, ordering, language, or bounded filtering of already available content. It stays in `A.6.3` only if `entityOfConcernRef` is preserved, no new claims about that entity are minted, and correspondence use does not collapse into bridge or substitution licence.
 
-2. **`RepresentationTransduction`.**
+2. **`RepresentationSchemeTransition`.**
    Use this when the receiving item changes representation scheme or reasoning medium while still preserving the same EntityOfConcern. It stays in `A.6.3` only if representation-factor delta, recoverability, loss, and preserve-vs-retarget boundaries remain explicit. Purely textual rewrites belong with `ConservativeRetextualization`; any change of `EntityOfConcernRef` belongs with `A.6.4`.
 
 These notes do not create new governing patterns. They mark recurring same-entity specialization boundaries that remain subordinate to `U.DirectEpistemicViewing` / `U.CorrespondenceEpistemicViewing` and to the general `A.6.3` invariants.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+pattern_title: "Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
 section_id: "A.6.3.RT:4"
 section_title: "Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-entityofconcernref-preserving-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+  - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
-line_start: 11783
-line_end: 12003
+line_start: 12026
+line_end: 12246
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,15 +45,15 @@ keywords:
 
 #### A.6.3.RT:4.1 - Informal definition
 
-> `RepresentationTransduction` is a named pattern specialized under `A.6.3 U.EpistemicViewing` for entityOfConcernRef-preserving transitions across declared representation schemes.
+> `RepresentationSchemeTransition` is a named pattern specialized under `A.6.3 U.EpistemicViewing` for entityOfConcernRef-preserving transitions across declared representation schemes.
 >
-> It preserves `entityOfConcernRef`, keeps the transform effect-free, and makes explicit what changes in representation factors, reasoning medium, recoverability, and loss profile.
+> It preserves `entityOfConcernRef`, keeps the representation change effect-free, and makes explicit what changes in representation factors, reasoning medium, recoverability, and loss profile.
 >
 > It may move between prose, table, diagram, structured notation, or another declared representation regime. It may not silently change the EntityOfConcern, silently import bridge semantics, or treat decode-mediated structure as if it were directly given.
 
 #### A.6.3.RT:4.1.a - Pattern, case, and published rendering distinction
 
-`RepresentationTransduction` is a **pattern description** and a named specialization under `A.6.3`. Concrete entityOfConcernRef-preserving representation changes are passive episteme cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
+`RepresentationSchemeTransition` is a **pattern description** and a named specialization under `A.6.3`. Concrete entityOfConcernRef-preserving representation changes are passive episteme cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
 
 This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review artifact, and it does not reduce review to a mechanical reformatting step.
 
@@ -80,7 +80,7 @@ Use this vocabulary only after the ordinary use field set leaves ambiguity or a 
 | `probe-bounded` or `intervention-bounded` | Bounded representation-to-property or representation-to-behavior claim. | Probe evidence, intervention evidence, or causal-abstraction relation that names the declared admissible use. | Probe confidence or intervention success becomes general ontology. |
 | `bridge-bounded-source-equivalence` | Equivalence, substitution, or bridge use only where another governing pattern supplies it. | Existing bridge, equivalence, or substitution record outside RT, with the governing pattern named. | RT itself grants source equivalence or substitution. |
 
-**Recoverability-for-use rule.** If the declared admissible use is inspection, source-finding, comparison, or technical review, `RepresentationTransduction` can close with entityOfConcernRef-preserving preservation, source-relation chain, representation-scheme delta, and loss or recoverability notes. If the declared admissible use is work-planning preparation, this pattern is admissible only for reversible preparation until `A.15` supplies the role, method, plan, and work source relation. If the declared admissible use is evidence or currentness, gate or release, assurance, commitment, bridge or substitution, or engineering justification, the case must name the downstream governing source relation; otherwise the receiving representation remains orientation or review use only.
+**Recoverability-for-use rule.** If the declared admissible use is inspection, source-finding, comparison, or technical review, `RepresentationSchemeTransition` can close with entityOfConcernRef-preserving preservation, source-relation chain, representation-scheme delta, and loss or recoverability notes. If the declared admissible use is work-planning preparation, this pattern is admissible only for reversible preparation until `A.15` supplies the role, method, plan, and work source relation. If the declared admissible use is evidence or currentness, gate or release, assurance, commitment, bridge or substitution, or engineering justification, the case must name the downstream governing source relation; otherwise the receiving representation remains orientation or review use only.
 
 These terms are local review aids. They inherit the `E.17:5.1e` local-field rule: they do not create `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `MechanismKind`, `EvidenceKind`, project-side FPF kind and reference named by value, new face family, or new ontology governing pattern.
 
@@ -107,7 +107,7 @@ Use this pattern when the EntityOfConcern stays fixed but the published result c
 - If the receiving rendering mainly teaches, narrates, or explains, apply ExplanationFaithfulnessProfile.
 - If same-EntityOfConcern continuity fails, apply A.6.4.
 - Stay here when changed representation scheme or reasoning medium remains the primary review question, even if some loss is present.
-- If the receiving representation stays honest only by carrying its own narrower-use card, declared source-loss mode, non-admissible downstream-use line, and source-bearing reopen, apply A.6.3.CSC Controlled Semantic Coarsening; do not keep the case here as ordinary representation transduction.
+- If the receiving representation stays honest only by carrying its own narrower-use card, declared source-loss mode, non-admissible downstream-use line, and source-bearing reopen, apply A.6.3.CSC Controlled Semantic Coarsening; do not keep the case here as ordinary representation-scheme transition.
 
 #### A.6.3.RT:4.2.b - What the user checks first
 
@@ -118,9 +118,9 @@ A user usually starts with five questions:
 4. Has the case quietly become explanation, bridge-bearing comparison, retargeting, or carrier work?
 5. If decoding is involved, is the evidence class adequate for the declared admissible use rather than only for readable review?
 
-If the representation shift is no longer the main review problem, and the receiving rendering instead stays honest only by carrying a narrower-use card with non-admissible downstream use and reopen duty, the case has crossed out of ordinary representation transduction even if the new form still looks like a neat table, diagram, or notation. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source-to-rendering relation.
+If the representation shift is no longer the main review problem, and the receiving rendering instead stays honest only by carrying a narrower-use card with non-admissible downstream use and reopen duty, the case has crossed out of ordinary representation-scheme transition even if the new form still looks like a neat table, diagram, or notation. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source-to-rendering relation.
 
-Here, **reopen** means return to the source-bearing content, while **changed governing-pattern claim** means that the now-attempted explanation, retargeting, bridge, work, evidence, gate, assurance, temporal, dynamics, carrier, or TGA claim is governed by a named pattern. A coarsened representation may need both.
+Here, **reopen** means return to the source-bearing content, while **changed governing-pattern claim** means that the now-attempted explanation, retargeting, bridge, work, evidence, gate, assurance, temporal, dynamics, carrier, or transformation-flow claim is governed by a named pattern. A coarsened representation may need both.
 
 Only after these questions are answered clearly does a fuller claim-bearing decision block normally become necessary.
 
@@ -134,14 +134,14 @@ Most entityOfConcernRef-preserving representation shifts stay human-usable and r
 - the representation scheme, reasoning medium, or expression-form delta;
 - the remaining admissible user action and the downstream use not made admissible by this representation shift.
 
-That ordinary field set is the default. It is admissible for inspection, source-finding, comparison, technical review, or reversible planning preparation. It does not by itself license work authority, evidence force, gate passage, assurance force, bridge substitution, abductive selection, temporal currentness, dynamics currentness, or TGA transduction currentness.
+That ordinary field set is the default. It is admissible for inspection, source-finding, comparison, technical review, or reversible planning preparation. It does not by itself license work authority, evidence force, gate passage, assurance force, bridge substitution, abductive selection, temporal currentness, dynamics currentness, or transformation-flow currentness.
 
-**Fuller continuity-witness decision block (only for claim-bearing cases).** A fuller block is warranted when the case is disputed, externally relied on, cross-context, correspondence-heavy, decode-mediated, assurance-facing, gate-adjacent, work-pressure, abductive-reopen, temporal-currentness-facing, dynamics-currentness-facing, or TGA-transduction-facing. The block may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, it makes these decision-block fields recoverable:
+**Fuller continuity-witness decision block (only for claim-bearing cases).** A fuller block is warranted when the case is disputed, externally relied on, cross-context, correspondence-heavy, decode-mediated, assurance-facing, gate-adjacent, work-pressure, abductive-reopen, temporal-currentness-facing, dynamics-currentness-facing, or transformation-flow-currentness-facing. The block may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, it makes these decision-block fields recoverable:
 
 | Field | Required interpretation in this pattern |
 | --- | --- |
-| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or exact source publication being transformed or cited. |
-| `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, decoded rendering, or TGA-facing publication rendering. |
+| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or exact source publication being re-rendered or cited. |
+| `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, decoded rendering, or transformation-flow publication rendering. |
 | `preservedEntityOfConcernRef` | The one C.2.1 `entityOfConcernRef` preserved across the representation shift. |
 | `receivingRepresentationOrRendering` | The receiving representation, diagram, table, functional description, decoded rendering, or publication rendering over that same `entityOfConcernRef`; if `entityOfConcernRef` changes, apply `A.6.4`. |
 | `groundingAndContext` | Grounding holon, bounded context, reference plane, and reference scheme as far as the intended use needs. |
@@ -155,7 +155,7 @@ That ordinary field set is the default. It is admissible for inspection, source-
 | `counterWitness` | Any fact that weakens entityOfConcernRef-preserving continuity, such as changed entity, changed predicate, changed frame, missing source-relation chain, or non-admissible decoding relation. |
 | `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability scope, recoverability evidence, and source-bearing reopen condition. |
 | `admissibleUse` | The admissible use named by value now. |
-| `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, TGA transduction, temporal, or dynamics use that is not carried by the receiving rendering. |
+| `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, transformation-flow, temporal, or dynamics use that is not carried by the receiving rendering. |
 | `neighboringGoverningPatternRef` | The FPF pattern that governs the neighboring claim being made, when the representation-shift case no longer governs that claim. |
 | `remainingAdmissibleUserAction` | One short plain line saying what the user may now do or which neighboring pattern now carries the claim being made. |
 
@@ -172,12 +172,12 @@ By default in this pattern:
 
 #### A.6.3.RT:4.4 - Direct and correspondence-mediated profiles
 
-**Direct RepresentationTransduction**
+**Direct RepresentationSchemeTransition**
 - source representation and receiving representation are representation-scheme variants over one entityOfConcernRef-preserving source line;
 - no `CorrespondenceModelRef` is required;
 - the main required admissibility relation set is explicit factor delta, reasoning-medium delta, and recoverability discipline.
 
-**CorrespondenceRepresentationTransduction**
+**CorrespondenceRepresentationSchemeTransition**
 - the receiving representation is derived through a declared correspondence between epistemes or views of the same EntityOfConcern;
 - `CorrespondenceModelRef` is required;
 - the result remains under `A.6.3` only if same-entity conservativity is still reviewable by continuity witness and the correspondence does not silently import extra claims.
@@ -202,7 +202,7 @@ When the case is more demanding, that paragraph also names whether salience, top
 #### A.6.3.RT:4.5 - Shared representation rule bundle
 
 ##### A.6.3.RT:4.5.a. Preservation rule
-`RepresentationTransduction` preserves the same EntityOfConcern line, bounded context, and declared claim-bearing source while changing the representation scheme and, often, the reasoning medium. It must state what remains preserved about the ontic scaffold, claim scope, publication scope, pins, provenance, and grounding. It must also state whether the case remains direct or correspondence-mediated.
+`RepresentationSchemeTransition` preserves the same EntityOfConcern line, bounded context, and declared claim-bearing source while changing the representation scheme and, often, the reasoning medium. It must state what remains preserved about the ontic scaffold, claim scope, publication scope, pins, provenance, and grounding. It must also state whether the case remains direct or correspondence-mediated.
 
 ##### A.6.3.RT:4.5.a.1. Local conservativity witness
 For this pattern, a new EntityOfConcern-side claim is introduced when the receiving rendering:
@@ -220,7 +220,7 @@ A reviewed case under this pattern makes explicit which distinctions, inspection
 ##### A.6.3.RT:4.5.c. Governing-pattern boundary rule
 A case reviewed under this pattern stays same-entity and representation-shift facing when the positive field spine remains visible: preserved `entityOfConcernRef`, source-relation chain, representation-scheme or reasoning-medium delta, loss or recoverability note, admissible use, and non-admissible downstream use.
 
-When the current claim is no longer that representation shift, state the claim being made and apply the governing pattern for that claim. Typical crossed claims are retargeting, bridge stance, explanation governance, carrier work, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal currentness, dynamics currentness, and TGA transduction currentness. Until that governing source relation is supplied, the shifted representation remains limited to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use.
+When the current claim is no longer that representation shift, state the claim being made and apply the governing pattern for that claim. Typical crossed claims are retargeting, bridge stance, explanation governance, carrier work, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal currentness, dynamics currentness, and transformation-flow currentness. Until that governing source relation is supplied, the shifted representation remains limited to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use.
 
 ##### A.6.3.RT:4.5.c.1. Decode-mediated entry condition
 A decode-mediated case, latent-representation case, or distributed-representation case may stay here only when the receiving rendering carries this entry set:
@@ -256,8 +256,8 @@ Use this table after the positive field spine. It is not a second catalogue of e
 | The receiving rendering is only a textual rewrite | Apply `ConservativeRetextualization`. |
 | The primary job is teaching, narration, or explanation-facing rendering | Apply `ExplanationFaithfulnessProfile` unless EntityOfConcern or ontology-frame change makes `A.6.4` primary. |
 | The work is rendering, export, upload, serialization, OCR-style extraction, parsing-style extraction, or other carrier work | Keep carrier work outside RT; start with the pattern governing carrier or extraction use, such as `A.7` when source extraction is the current question. |
-| Geometry, notation, embedding space, feature clustering, decoded output, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is being used as ontology, continuity proof, gate, work, evidence, assurance, or TGA-currentness claim | Keep RT only for the representation shift and apply the governing pattern for the stronger claim. |
-| Problem formulation, temporal claim, dynamics claim, control claim, or TGA claim becomes primary | Apply `B.5.2`, `C.27`, `A.3.3`, `E.18`, or the governing pattern for that claim. |
+| Geometry, notation, embedding space, feature clustering, decoded output, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is being used as ontology, continuity proof, gate, work, evidence, assurance, or transformation-flow currentness claim | Keep RT only for the representation shift and apply the governing pattern for the stronger claim. |
+| Problem formulation, temporal claim, dynamics claim, control claim, or transformation-flow claim becomes primary | Apply `B.5.2`, `C.27`, `A.3.3`, `E.18`, or the governing pattern for that claim. |
 | The receiving representation remains useful but the ordinary field spine cannot honestly hold | State controlled coarsening, source-bearing reopen, bridge-bounded use, report-only use, exploratory use, or the named governing pattern for the changed claim. |
 
 If recoverability depends on decoding, probing, or intervention, the evidence class bounds the admissible use. Low-evidence decode-mediated results remain bounded exploratory or report-only renderings; non-latent cases remain the default entry case until decode-mediated recoverability is made explicit.

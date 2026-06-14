@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UNM.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
-line_start: 26402
-line_end: 26823
+line_start: 26686
+line_end: 27107
 dependencies:
 keywords:
   - "CV→NCV"
@@ -301,12 +301,12 @@ When UNM is used to support comparability/acceptance:
 - If a concrete representative is needed, declare a `NormalizationFix` explicitly.
 Do not silently treat an arbitrary representative as canonical.
 
-#### A.19.UNM:4.5 - P2W / TGA integration note (normative-by-reference)
+#### A.19.UNM:4.5 - P2W and transformation-flow integration note (normative-by-reference)
 
-When UNM is used inside transduction flows/graphs (e.g., `E.18 (E.TGA)`):
+When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, UNM does not “guess a number”; it surfaces an explicit **freshness/work request** that must be planned in `U.WorkPlanning` and executed in `U.WorkEnactment`.
-- In TGA terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
+- In transformation-flow terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
 - Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and legality anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
 
 ### A.19.UNM:5 - Archetypal Grounding (Tell–Show–Show)
@@ -331,7 +331,7 @@ When UNM is used inside transduction flows/graphs (e.g., `E.18 (E.TGA)`):
 - Comparability claims are made over `[x]_{≡_UNM}` and `[y]_{≡_UNM}` (equivalence classes).
 - If reporting needs a single representative, a declared `NormalizationFix` selects it; otherwise, do not pretend a representative is canonical.
 
-**Show (P2W / TGA).** Missing/stale inputs:
+**Show (P2W and transformation flow).** Missing/stale inputs:
 - A selector (or comparator) requires comparability under `normalization-based` mode.
 - UNM finds that a required coordinate value is missing/stale for the current slice and the instance validity window.
 - UNM returns `GuardDecision = abstain` (fail‑closed) **and** emits a `FreshnessRequest` that must be handled via planned baseline + enactment (UNM does not silently proceed).
@@ -360,7 +360,7 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 - [ ] **No shadow writers:** if editioned transport/calibration anchors are used (e.g., `UNM.TransportRegistryΦ`), downstream consumers treat them as ref‑only (single‑writer discipline).
 - [ ] **P2W awareness (when used in flows):** missing/stale inputs lead to explicit `FreshnessRequest` emissions (planned via P2W), not silent coercion.
 - [ ] **SlotKind discipline:** SlotKind tokens reuse the CHR SlotKind lexicon where applicable; UNM‑specific SlotKinds are docked into the suite lexicon before use (no ad‑hoc drift).
-- [ ] **TransportRegistry key discipline:** `UNM.TransportRegistryΦ` (alias `UNM.TransportRegistryPhi`) is referenced as an edition pin key (and audited) / `TransportRegistry^Φ` in TGA terms, not introduced as a new `…Ref` kind.
+- [ ] **TransportRegistry key discipline:** `UNM.TransportRegistryΦ` (alias `UNM.TransportRegistryPhi`) is referenced as an edition pin key and audited; `TransportRegistry^Φ` remains the transformation-flow term, not a new `…Ref` kind.
 
 ### A.19.UNM:8 - Common Anti‑Patterns and How to Avoid Them
 
@@ -438,7 +438,7 @@ SoTA is connected as **wiring** (packs/extensions) while UNM’s surface remains
 - `C.16` (MM‑CHR evidence/calibration carriers)
 - `G.0` (CG-frame legality gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
-- `E.18 (E.TGA)` (when UNM is used in transduction flows/graphs; P2W freshness/work routing)
+- `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
 - `B.3` (congruence/quotient intuition, when referenced)
 
 **Used by**

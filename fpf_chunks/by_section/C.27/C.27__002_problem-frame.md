@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 48463
-line_end: 48578
+line_start: 48761
+line_end: 48876
 dependencies:
   - "A.10"
   - "A.3.3"

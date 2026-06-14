@@ -6,12 +6,12 @@ section_id: "B.3.5:12"
 section_title: "Consequences (benefits, trade‑offs, mitigations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__013_consequences-benefits-trade-offs-mitigations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:12 — Consequences (benefits, trade‑offs, mitigations)"
-line_start: 33206
-line_end: 33223
+line_start: 33489
+line_end: 33506
 dependencies:
   - "B.3"
   - "C.13"

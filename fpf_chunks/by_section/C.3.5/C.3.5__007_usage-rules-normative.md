@@ -6,12 +6,12 @@ section_id: "C.3.5:6"
 section_title: "Usage Rules (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__007_usage-rules-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:6 — Usage Rules (normative)"
-line_start: 40062
-line_end: 40075
+line_start: 40360
+line_end: 40373
 dependencies:
   - "C.3.1"
 keywords:

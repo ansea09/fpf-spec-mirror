@@ -6,12 +6,12 @@ section_id: "E.18:End"
 section_title: "E.18:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__018_e-18-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:End — E.18:End"
-line_start: 67970
-line_end: 67971
+line_start: 68297
+line_end: 68298
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -19,7 +19,7 @@ dependencies:
   - "A.3.4"
   - "A.7"
   - "C.29"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.17"
   - "E.18.1"

@@ -6,12 +6,12 @@ section_id: "A.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__010_consequences.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:8 — Consequences"
-line_start: 28722
-line_end: 28733
+line_start: 29006
+line_end: 29017
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -19,7 +19,6 @@ dependencies:
   - "C.19"
   - "E.17"
   - "E.18"
-  - "E.TGA"
   - "F.17"
   - "F.9"
   - "G.11"
@@ -33,7 +32,7 @@ keywords:
   - "PathSlice"
   - "Sentinel"
   - "SquareLaw"
-  - "TransductionFlow"
+  - "TransformationFlowStructure"
   - "flow"
 ---
 

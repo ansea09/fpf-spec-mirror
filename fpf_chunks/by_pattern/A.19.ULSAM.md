@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ULSAM.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
-line_start: 27441
-line_end: 27735
+line_start: 27725
+line_end: 28019
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -282,7 +282,7 @@ Keeping ULSAM as its own mechanism preserves:
 - CHR suite optional stage `fold_Γ?` (explicitly optional; never hidden).
 - Folding trust/assurance-like quantities (conservative Γ‑folds such as WLNK as declared defaults under trust policy).
 - Any project that requires an auditable “roll-up” measure prior to lawful comparison/selection.
-- In transduction graphs (E.18 / TGA): ULSAM appears as a mechanism instance node whose `ΓFoldRef` / `MinimalEvidenceRef` are bound in planned baseline (P2W), while Audit records the effective pins used at run time.
+- In E.18 transformation-flow structures: ULSAM appears as a mechanism instance node whose `ΓFoldRef` / `MinimalEvidenceRef` are bound in planned baseline (P2W), while Audit records the effective pins used at run time.
 
 ### A.19.ULSAM:12 - Builds on / Relates to
 

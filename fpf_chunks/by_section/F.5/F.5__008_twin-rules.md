@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Twin rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_twin-rules.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:7 — Twin rules"
-line_start: 72573
-line_end: 72579
+line_start: 72899
+line_end: 72905
 dependencies:
   - "A.11"
   - "A.7"

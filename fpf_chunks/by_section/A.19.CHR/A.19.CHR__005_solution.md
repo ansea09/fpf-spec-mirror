@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:4 — Solution"
-line_start: 25783
-line_end: 26191
+line_start: 26067
+line_end: 26475
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -24,7 +24,6 @@ dependencies:
   - "E.10"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "G.0"
   - "G.10"
   - "G.5"
@@ -71,7 +70,7 @@ Core idea:
 * **Wiring modules for method/discipline/generator specifics:** `G.*:Extensions` as `GPatternExtension` blocks (`PatternScopeId = G.x:Ext.<…>`), with explicit `GoverningPatternId`.
 * **RSCR trigger catalogue and trigger alias maps:** `G.Core` (catalogue defined there).
 * **Lexical alias docking (token drift without breaking public references):** `F.18`.
-* **Project‑level specialization and transduction graphs:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18 (E.TGA)` for flow graphs citing planned baseline instance refs.
+* **Project‑level specialization and transformation-flow structures:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18` for flow graphs citing planned baseline instance refs.
 
 #### A.19.CHR:4.1 - Objects published by this pattern
 
@@ -210,7 +209,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 * **`bridge_only_crossings`:** all cross-context and cross-plane reuse is Bridge-only (no implicit crossings).
 * **`two_bridge_rule_for_described_entity_change`:** any EntityOfConcern (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
-* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.TGA `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.18 `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.18 / gate surfaces.
 * **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
 * **`crossing_visibility_required`:** any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor (including LaunchGate and `edition_key` changes of pinned `editions{…}` vectors).
 
@@ -410,7 +409,7 @@ CHRMechanismSuiteDescription := ⟨
   * `ExpectedUSMGuards = {USM.CompareGuard, USM.LaunchGuard}`,
   * expected crossing policy pins for any cross‑context step.
 
-The executed protocol (by E.TGA/P2W) is:
+The executed protocol (by E.18/P2W) is:
 Suite-closed protocol:
 `UNM → UINDM → USCM → CPM → SelectorMechanism`.
 Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.

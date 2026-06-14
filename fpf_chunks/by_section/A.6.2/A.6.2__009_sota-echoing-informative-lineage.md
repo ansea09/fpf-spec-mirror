@@ -6,12 +6,12 @@ section_id: "A.6.2:8"
 section_title: "SoTA‑Echoing (informative, lineage)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__009_sota-echoing-informative-lineage.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:8 — SoTA‑Echoing (informative, lineage)"
-line_start: 10491
-line_end: 10508
+line_start: 10734
+line_end: 10751
 dependencies:
   - "A.1"
   - "A.6.0"

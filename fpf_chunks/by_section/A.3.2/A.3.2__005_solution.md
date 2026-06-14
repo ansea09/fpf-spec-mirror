@@ -6,12 +6,12 @@ section_id: "A.3.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:4 — Solution"
-line_start: 6305
-line_end: 6401
+line_start: 6306
+line_end: 6402
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 
 `U.MethodDescription` is an `U.Episteme` that describes a `U.Method` in a representation such as text, code, diagram, model, rule set, proof script, protocol, or executable form.
 
-A method description is not the method, not the work occurrence, not the work plan, not the performer, not the capability, not the mechanism, not the formal substrate, and not the evidence relation. A system in a transformer-like role may enact a method during `U.Work` while using a method description, but the description itself does not enact anything.
+A method description is the episteme that describes a way of doing. Associated method semantics, work occurrences, work plans, performers, capabilities, mechanisms, formal substrates, and evidence relations remain separate governed values. A system in a transformer-like role may enact a method during `U.Work` while using a method description, but the description itself does not enact anything.
 
 Working distinction:
 
@@ -107,9 +107,9 @@ When a method description is used to prepare or enact work, keep the chain expli
 
 #### A.3.2:4.5 - Method, mechanism, and formal-substrate boundary
 
-Do not decide method, mechanism, or formal substrate by the surface word. When a source expression names changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
+Do not decide method, mechanism, or formal substrate by the surface word. When a source expression or project concern appears to name changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-For this host, keep the local question thin: is the current claim an episteme that describes a method? If the same source expression also raises method, mechanism, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
+For this host, keep the local question thin: is the current claim an episteme that describes a method? If the same source expression or project concern also raises method, mechanism, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 
 The local position checks are:
 * In **method-description position**, the claim is that a representation describes a method.

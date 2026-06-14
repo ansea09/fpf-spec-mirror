@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "C.30.TGA-FLOW-REL"
+pattern_id: "C.30.TFS-REL"
 pattern_title: "Architecture Transformation-Flow Structure Relation"
-section_id: "C.30.TGA-FLOW-REL:12"
+section_id: "C.30.TFS-REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__013_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__013_relations.md"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
-  - "C.30.TGA-FLOW-REL:12 — Relations"
-line_start: 55844
-line_end: 55851
+  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL:12 — Relations"
+line_start: 56164
+line_end: 56171
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,11 +46,11 @@ keywords:
   - "transformation-flow structure"
 ---
 
-### C.30.TGA-FLOW-REL:12 - Relations
+### C.30.TFS-REL:12 - Relations
 
 Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
 Coordinates with: `C.30.STRAT`, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `A.6.M` module-and-interface repair, `A.6.5` slot discipline, and `A.6.0` when a signature declaration is being made.
 
-Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TGA-FLOW-REL:4.3`. `C.30.TGA-FLOW-REL` governs only the architecture-to-transformation-flow-structure relation being claimed.
+Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. `C.30.TFS-REL` governs only the architecture-to-transformation-flow-structure relation being claimed.
 

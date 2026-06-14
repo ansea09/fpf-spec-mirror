@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:7 — Conformance Checklist  ✱"
-line_start: 28689
-line_end: 28721
+line_start: 28973
+line_end: 29005
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -19,7 +19,6 @@ dependencies:
   - "C.19"
   - "E.17"
   - "E.18"
-  - "E.TGA"
   - "F.17"
   - "F.9"
   - "G.11"
@@ -33,7 +32,7 @@ keywords:
   - "PathSlice"
   - "Sentinel"
   - "SquareLaw"
-  - "TransductionFlow"
+  - "TransformationFlowStructure"
   - "flow"
 ---
 
@@ -45,28 +44,28 @@ keywords:
 
 **Static lint (graph and faces)**
 
-* CC‑TGA‑01: only `U.Transfer` edges; crossings appear only on gates.
-* CC‑TGA‑05: `⟨L,P,E⃗,D⟩` unchanged across raw transfers.
-* CC‑TGA‑09: MVPK faces present; edition & Γ pins where expected; no new numeric claims on faces (E.17).
+* CC-TFS‑01: only `U.Transfer` edges; crossings appear only on gates.
+* CC-TFS‑05: `⟨L,P,E⃗,D⟩` unchanged across raw transfers.
+* CC-TFS‑09: MVPK faces present; edition & Γ pins where expected; no new numeric claims on faces (E.17).
 
 **CV discipline**
 
-* Required CV classes here: {UnitsCoherence, LawSetInvariants, Admissibility, LipschitzBounds, TypeDomainRange}; **plus** `ReinterpretationEquivalence` when the node kind is `StructuralReinterpretation`. None declare or translate planes or comparators.
-* **Open‑world species.** Any node **species** binds to one of the minimal kinds; adding a new **kind** is out of scope for A.20 and belongs in an E.TGA update.
+* Required CV classes here: {UnitsCoherence, LawSetInvariants, Admissibility, LipschitzBounds, TypeDomainRange}; **plus** `ReinterpretationEquivalence` when the locus kind is `StructuralReinterpretation`. None declare or translate planes or comparators.
+* **Open‑world species.** Any locus **species** binds to one of the minimal kinds; adding a new **locus kind** is out of scope for A.20 and belongs in an `E.18` locus-baseline update.
 * Aggregated **CV.Status** computed; errors or timeouts imply `CV.Status != pass`.
 * Any wider use beyond the local step names the governing neighboring relation. `CV.Status` is not gate passage, release confidence, assurance, safety acceptance, work occurrence, or work authorization.
 
 **Gate coupling**
 
-* CC‑TGA‑07: when **`CV.Status != pass`**, all GateFit checks report **abstain**.
-* CC‑TGA‑23: SquareLaw witnesses present on crossings adjacent to CV‑checked steps.
+* CC-TFS‑07: when **`CV.Status != pass`**, all GateFit checks report **abstain**.
+* CC-TFS‑23: SquareLaw witnesses present on crossings adjacent to CV‑checked steps.
 * Any edition citation on faces includes `Bridge+UTS` through `F.9`, `F.17`, `E.17`, and `E.18`; comparator or set-return implications use `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` when those claims are present.
 
 **UNM declaration locus**
 
-* CC‑TGA‑24: `CG‑Spec`, `ComparatorSet`, and `TransportRegistryΦ` declarations are governed by UNM; CV is ref‑only.
+* CC-TFS‑24: `CG‑Spec`, `ComparatorSet`, and `TransportRegistryΦ` declarations are governed by UNM; CV is ref‑only.
 
 **Valuation & refresh**
 
-* CC‑TGA‑18 and CC‑TGA‑19: Flow publishes valuation with `PublicationScopeId` and `PathSliceId`; Γ pinned at compare and launch faces; sentinel triggers slice‑local refresh.
+* CC-TFS‑18 and CC-TFS‑19: Flow publishes valuation with `PublicationScopeId` and `PathSliceId`; Γ pinned at compare and launch faces; sentinel triggers slice‑local refresh.
 

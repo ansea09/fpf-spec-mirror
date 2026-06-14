@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: "A.16:18"
 section_title: "Authority, Route Plurality, and Fork Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__019_authority-route-plurality-and-fork-rules.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
+  - "A.16 — Language-State Move Coordination"
   - "A.16:18 — Authority, Route Plurality, and Fork Rules"
-line_start: 22269
-line_end: 22318
+line_start: 22553
+line_end: 22602
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -32,14 +32,14 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
 ### A.16:18 - Authority, Route Plurality, and Fork Rules

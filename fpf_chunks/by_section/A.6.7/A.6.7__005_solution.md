@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 16349
-line_end: 16599
+line_start: 16634
+line_end: 16884
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -20,7 +20,6 @@ dependencies:
   - "E.18"
   - "E.19"
   - "E.8"
-  - "E.TGA"
   - "G.10"
   - "G.5"
   - "U.Mechanism.Intension"
@@ -151,7 +150,7 @@ SuiteObligations := {
  * If a suite member's admissible use requires changing the EntityOfConcern (kind or identity change, `CL^k`), the crossing MUST be explicit and MUST satisfy the two-bridge rule: plane transfer or context transfer and kind transfer are distinct, both are Bridge-mediated, and both remain penalty-routed to `R/R_eff` only.
 
 1.2. **`transport_declarative_only`.**
- * Well-formedness constraint: suite obligations do not introduce any additional graph edge kind beyond E.TGA `U.Transfer` and do not embed CL/Φ/Ψ/Φ_plane tables. Any transport-related obligation is expressed only as referenced pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+ * Well-formedness constraint: suite obligations do not introduce any additional graph edge kind beyond E.18 `U.Transfer` and do not embed CL/Φ/Ψ/Φ_plane tables. Any transport-related obligation is expressed only as referenced pins/anchors whose realization is mediated by E.18 / gate surfaces.
 
 2. **`penalties_route_to_r_eff_only`.**
    Well-formedness constraint: CL/Φ/Ψ/Φ_plane penalties associated with crossing discipline route to `R/R_eff` only; suites do not define transport penalties that alter `F/G`.
@@ -283,7 +282,7 @@ This is a level error: `MechFamilyDescription` is reserved for realizations of a
 
 * The suite declares `GateDecision` values or embeds a `DecisionLog`.
 * The suite defines acceptance thresholds (“pass score ≥ 0.7”) as part of suite obligations.
-* The suite embeds Φ/CL tables or invents an additional graph edge kind beyond E.TGA `U.Transfer`.
+* The suite embeds Φ/CL tables or invents an additional graph edge kind beyond E.18 `U.Transfer`.
 
 All violate the separation between mechanism/suite descriptions and gate-level operational control.
 

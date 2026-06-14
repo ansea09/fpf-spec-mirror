@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Current repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_current-repair-moves.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Current repair moves"
-line_start: 62111
-line_end: 62123
+line_start: 62433
+line_end: 62445
 dependencies:
   - "A.7"
   - "C.2.1"

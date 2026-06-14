@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:12 — Relations"
-line_start: 18046
-line_end: 18085
+line_start: 18330
+line_end: 18369
 dependencies:
   - "A.12"
   - "A.3"
@@ -48,21 +48,21 @@ keywords:
 
 * **Depends on:**
 
-  * A.3 — Transformer quartet (MethodDescription / Method / Work / WorkEnactment separation)
+  * A.3 — Transformer quartet (MethodDescription, Method, Work, and WorkEnactment separation)
   * A.7 — Strict Distinction (object ≠ description ≠ carrier; Face ≠ Surface)
   * A.6 — Signature Stack & Boundary Discipline
   * A.6.0 — `U.Signature`
   * A.6.2 — `U.EffectFreeEpistemicMorphing` (constructor ops are EFEM species)
   * A.12 — Transformer role (enactment is by Systems, not epistemes)
   * C.2.1 — Episteme slots (`EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`) and naming deconfliction
-  * (optional) E.18 — E.TGA, if the constructor flow is represented as a transduction graph fragment
-  * E.10 / LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept off normative surfaces
+  * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
+  * E.10 and LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept off normative surfaces
   * A.6.3 — `U.EpistemicViewing`
   * A.6.4 — `U.EpistemicRetargeting`
   * A.6.5 — `U.RelationSlotDiscipline`
   * A.6.6 — `U.AnchorAndBaseDiscipline`
   * A.6.B — Boundary Norm Square & Claim Register discipline
-  * E.17 / E.17.0 — MVPK and multi‑view describing
+  * E.17 and E.17.0 — MVPK and multi‑view describing
 
 * **Strengthens:** A.6.5 and A.6.6 by making their operation vocabularies first‑class as constructor operations.
 
@@ -78,7 +78,7 @@ Grounding pointers in the current FPF draft (for alignment while integrating):
 * A.6.2 “effect‑free episteme morphisms” boundary (constructor ops are EFEM; work/mechanisms are separate).
 * A.3 transformer quartet (MethodDescription vs Method vs Work) for “constructor described vs enacted”.
 * A.7 strict distinction and Face/Surface separation (no object–description–carrier soup).
-* A.12 external transformer / transformer role discipline (enactment is by Systems; no epistemic agency).
+* A.12 external transformer and transformer-role discipline (enactment is by Systems; no epistemic agency).
 * Slot operation lexicon and naming guidance (A.6.5).
 * Base‑change operation lexicon (A.6.6).
 * MVPK faces as fixed view kinds with “no new semantics” intent (E.17).

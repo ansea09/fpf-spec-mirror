@@ -6,12 +6,12 @@ section_id: "A.6.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__007_consequences.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:6 — Consequences"
-line_start: 12596
-line_end: 12614
+line_start: 12839
+line_end: 12857
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -34,7 +34,7 @@ keywords:
   * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
 
 * **Canonical governing pattern for StructuralReinterpretation.**
-  E.TGA StructuralReinterpretation becomes a **species of `U.EpistemicRetargeting`**, not an ad‑hoc special node. This reduces duplication and clarifies how CL penalties and Bridges are used.
+  `E.18` `StructuralReinterpretation` receives semantics from `U.EpistemicRetargeting`, not from an ad-hoc special graph-position kind. This reduces duplication and clarifies how CL penalties and Bridges are used.
 
 * **Invariants become first‑class.**
   Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.

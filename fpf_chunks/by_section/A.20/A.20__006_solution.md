@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:4 — Solution"
-line_start: 28516
-line_end: 28667
+line_start: 28800
+line_end: 28951
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -19,7 +19,6 @@ dependencies:
   - "C.19"
   - "E.17"
   - "E.18"
-  - "E.TGA"
   - "F.17"
   - "F.9"
   - "G.11"
@@ -33,7 +32,7 @@ keywords:
   - "PathSlice"
   - "Sentinel"
   - "SquareLaw"
-  - "TransductionFlow"
+  - "TransformationFlowStructure"
   - "flow"
 ---
 
@@ -47,14 +46,14 @@ keywords:
 **Scope (genus).** CV covers **intra-step** properties checkable from the transformation step signature and, when the step has mechanism-governed semantics, its mechanism-governing definition. The canonical CV classes are **genus-scoped and non-exhaustive**:
 `MechanismUnitsCoherence`, `LawSetInvariants`, `AdmissibilityConditionsSatisfaction`, `LipschitzBounds`, `TypeDomainRange`, and—only for **`StructuralReinterpretation`**—`ReinterpretationEquivalence` (correspondence and reversibility witness).
 
-**Species binding (`U.TransductionFlow`).** The above classes bind to `U.Transduction(kind in {Signature, Mechanism, Work, Check, StructuralReinterpretation})` with **`OperationalGate = kind=Check`**; no additional CV classes are introduced here. Species-specific examples and broader flow specializations stay outside this CV core; `StructuralReinterpretation` semantics are received through `E.18`, `A.6.4`, and this pattern when the CV claim is present.
+**Species binding (E.18 transformation-flow family).** The above classes bind to the E.18 locus baseline `{Transformation, Signature, Mechanism, WorkPlanning, Work, Check, StructuralReinterpretation}` with **`OperationalGate = Check locus`**; no additional CV classes are introduced here. Species-specific examples and broader flow specializations stay outside this CV core; `StructuralReinterpretation` semantics are received through `E.18`, `A.6.4`, and this pattern when the CV claim is present.
 
 **Out-of-scope (CV):** declaring or translating `ReferencePlane`, `Units`, or `ComparatorSet`; CSLC comparability beyond internal step preservation; Freshness; Role and Channel; Regulated-X; `DesignRunTagConsistency`. These leave CV and use `E.18`, `A.21`, or the named comparator, selector, archive, refresh, evidence, work, safety, or temporal locus when that relation is being claimed.
 
 #### A.20:4.2 - Primary EntityOfConcern and CV classes
 
 **Genus.** `U.Flow` leaves step-kinds abstract; CV and GateFit separation applies to any declared instantiation.
-**Species (`U.TransductionFlow`).** `U.Transduction(kind) ∈ {Signature, Mechanism, Work, Check, StructuralReinterpretation}`; this set of **kinds** is a **minimum kind baseline** defined in E.TGA. The **species** space (e.g., UNM declaration and use, `SelectionAndTuning`, `WorkPlanning`, `EvaluatingAndRefreshing`, …) is **open‑world** and non‑exhaustive. `OperationalGate = U.Transduction(kind=Check)`. `StructuralReinterpretation` is **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and may retarget **EntityOfConcernRef** under CC-TGA-06-EX; see `E.18` and `A.6.4`.
+**Species (E.18 transformation-flow family).** E.18 loci bind to `{Transformation, Signature, Mechanism, WorkPlanning, Work, Check, StructuralReinterpretation}`; this set is a **minimum locus baseline** defined in `E.18`. The **species** space (e.g., UNM declaration and use, `SelectionAndTuning`, `WorkPlanning`, `EvaluatingAndRefreshing`, …) is **open-world** and non-exhaustive. `OperationalGate` is the `Check` locus. `StructuralReinterpretation` is **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and may retarget **EntityOfConcernRef** under CC-TFS-06-EX; see `E.18` and `A.6.4`.
 
 **`AdmissibilityConditionsSatisfaction`** — **If** the declared admissibility conditions hold on the step’s inputs and context, **then** the CV explanation **applies**; **otherwise** this explanation **does not apply**.
 **`LipschitzBounds`** — **If** inputs vary within the stated domain \(X\) and perturbations or noise \(≤ ε\), **then** the step’s estimate remains within **δ** of the reference; **otherwise** this explanation **does not apply**.
@@ -63,7 +62,7 @@ keywords:
 **Terminology & bindings (normative)**
 * **Status and witness lexicon (E.10 discipline).** In CV scope, publications use **Status and Witness** terminology; **GateDecision…** lexemes belong to GateFit (A.21) and do **not** apply to CV.
 * **EntityOfConcernRef = KindBridge.** Any CV mention of selected-entity retargeting is interpreted through **`KindBridge (CL^k)`** on **UTS** under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3` when the retargeting or bridge claim is present. CV **does not** declare or translate planes, units, or comparators.
-* **Retargeting witness binding.** For `U.Transduction(kind=StructuralReinterpretation)`, the CV class **`ReinterpretationEquivalence`** SHALL carry **`CV.WitnessRef := ReinterpWitness`** over the addressed `PathSliceId`; the UTS **`SquareLaw‑retargeting` witness** is referenced from MVPK and UTS material and **linked** from the CV witness without duplication.
+* **Retargeting witness binding.** For an E.18 `StructuralReinterpretation` locus, the CV class **`ReinterpretationEquivalence`** SHALL carry **`CV.WitnessRef := ReinterpWitness`** over the addressed `PathSliceId`; the UTS **`SquareLaw-retargeting` witness** is referenced from MVPK and UTS material and **linked** from the CV witness without duplication.
 * **`ReinterpWitness` record shape.** The record shape is defined once in A.20:4.7.
 
 #### A.20:4.3 - MVPK Faces (PlainView - TechCard - InteropCard - AssuranceLane)
@@ -84,7 +83,7 @@ Minimum pins on faces that carry CV outcomes (**Lean publication** under the sel
 
 #### A.20:4.4 - GateChecks (table) — CV only
 
-**Activation predicate (in E.TGA).** *Until aggregated `CV.Status=pass`, all GateFit checks return `abstain` (CV=>GF).*
+**Activation predicate (in `E.18` transformation-flow structures).** *Until aggregated `CV.Status=pass`, all GateFit checks return `abstain` (CV=>GF).*
 **Role and channel fit guard (GateFit scope).** GateFit checks that involve roles SHALL use **Kernel `U.Role` tokens** (domain = `U.System`) and SHALL NOT consume `TypicalEnactorRoleName` strings from alias tables.
 
 | CV class | Applies when | Publication minimum |
@@ -101,14 +100,14 @@ CV **SHALL NOT** declare or translate `Units`, `ReferencePlane`, or `ComparatorS
 #### A.20:4.5 - SWP matrix (declaration-locus discipline)
 
 * **Writes (faces).** `CV.Status` (and optional `CV.WitnessRef`) only.
-* **Referenced editions (ref-only).** Any `CG‑Spec`, `ComparatorSet`, or `TransportRegistryΦ` editions (when referenced); their declarations remain governed by the UNM declaration locus per CC‑TGA‑24.
+* **Referenced editions (ref-only).** Any `CG‑Spec`, `ComparatorSet`, or `TransportRegistryΦ` editions (when referenced); their declarations remain governed by the UNM declaration locus per CC-TFS‑24.
 
 #### A.20:4.6 - CtxState and GateCrossing
 
 * **Crossings only at `OperationalGate(profile)`** (plane, unit, or context) with a **strict exception** for **`StructuralReinterpretation`**: a **projection‑only retargeting** MAY occur without a gate **iff** `⟨L,P,E⃗,D⟩` is preserved, **KindBridge (`CL^k`)** and a **SquareLaw‑retargeting witness** are present on MVPK and UTS material, and the retargeting is **PathSlice‑local** (`PathSliceId` pinned).
 * **Projection and EntityOfConcernRef retargeting loci.** For `StructuralReinterpretation`, A.20 may state the CV witness needed for the step, but it does not define a second semantics of projection, published view, EntityOfConcernRef, or retargeting. Interpret those terms through `A.6.4`, `C.2.1`, `C.2.P`, and the relevant UTS `KindBridge (CL^k)` rows under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3` when the retargeting or bridge claim is present.
 * **Projection and EntityOfConcernRef retargeting normalization (CV use only).** In that imported interpretation, projection is a change of published view coordinates only, and `EntityOfConcernRef` is a Kind-channel change under `CL^k`. A “no unit or plane change” test SHALL verify that `ReferencePlane(src)=ReferencePlane(tgt)` and `CL^plane` is absent (or `= ⊤`), otherwise the step is a gated crossing.
-* **Assurance operations on edges.** `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo` reside on `U.Transfer` and do **not** alter `⟨L,P,E⃗,D⟩`; plane or unit changes occur only at gates; Φ and `CL^plane` penalties appear in **R-lane**. EntityOfConcernRef retargeting through the kind channel is recorded as **`KindBridge (CL^k)`** on **UTS** under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3`; under CC-TGA-06-EX this may appear without a gate only when it is projection-preserving and PathSlice-local.
+* **Assurance operations on edges.** `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo` reside on `U.Transfer` and do **not** alter `⟨L,P,E⃗,D⟩`; plane or unit changes occur only at gates; Φ and `CL^plane` penalties appear in **R-lane**. EntityOfConcernRef retargeting through the kind channel is recorded as **`KindBridge (CL^k)`** on **UTS** under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3`; under CC-TFS-06-EX this may appear without a gate only when it is projection-preserving and PathSlice-local.
 
 Terminology for this crossing slice is defined in A.20:4.2, and `ReinterpWitness` shape is defined in A.20:4.7; A.20:4.6 only applies those bindings to CtxState and GateCrossing.
 
@@ -169,7 +168,7 @@ Under **`StructuralReinterpretation`**, **projection changes MUST NOT introduce 
   (H3) presence of an **order-imposing coordinate** without a **CoordinatePolicy** and declared scale policy, units, or invalid-operation notes;
   (H4) cross‑plane or cross‑unit numeric combination without a **Bridge+UTS** row;
   (H5) for `StructuralReinterpretation`, any change of return **plane or units** (violates “projection‑only”).
-Failing (H1–H5) degrades or blocks per GateProfile (§4.4 and CC‑TGA‑21a).
+Failing (H1–H5) degrades or blocks per GateProfile (§4.4 and CC-TFS‑21a).
 
 #### A.20:4.10 - Γ‑windows and freshness
 
@@ -181,7 +180,7 @@ Failing (H1–H5) degrades or blocks per GateProfile (§4.4 and CC‑TGA‑21a).
 #### A.20:4.11 - Unknown, timeout, and error policy
 
 Each CV class yields one `CV.Status` value: `abstain`, `pass`, `degrade`, or `block`. Errors and timeouts at CV stage imply **`CV.Status != pass`**; therefore GateFit abstains by the global activation predicate and any GateFit‑oriented explanation **does not apply**. The aggregated `CV.Status` uses the join on `abstain <= pass <= degrade <= block` (neutral = `abstain`; absorbing = `block`).
-**Minimal default (`GateProfile`-bound, normative):** **Lean and Core ⇒ error or timeout maps to `degrade`**, **SafetyCritical and RegulatedX ⇒ error or timeout maps to `block`**; `unknown` folds per GateCheck policy (safety‑default: `degrade`). (Consistent with **CC‑TGA‑22**.)
+**Minimal default (`GateProfile`-bound, normative):** **Lean and Core ⇒ error or timeout maps to `degrade`**, **SafetyCritical and RegulatedX ⇒ error or timeout maps to `block`**; `unknown` folds per GateCheck policy (safety‑default: `degrade`). (Consistent with **CC-TFS‑22**.)
 
 #### A.20:4.12 - Idempotency and congruence discipline
 

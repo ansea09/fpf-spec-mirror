@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 56650
-line_end: 56785
+line_start: 56970
+line_end: 57105
 dependencies:
   - "A.10"
   - "A.17"
@@ -106,7 +106,7 @@ Typical architecture scale variables include:
 | `N_scopeCount` | aggregation scopes, coarse-graining scopes, or typed LCA control scopes |
 | `N_sites` | deployments, sites, markets, or jurisdictions |
 | `N_interfaceTypes` | distinct interface grammar variants |
-| `N_requiredTransductionKinds` | distinct TGA transduction kinds in the selected functional-structure view |
+| `N_requiredTransformationKinds` | distinct transformation kinds in the selected functional-structure view |
 | `N_flowRelationKinds` | flow-relation or crossing variants in the selected flow-structure view |
 | `N_moduleTypes` | module type library size |
 | `N_workRepetitions` | delivery, operation, or test repetitions |

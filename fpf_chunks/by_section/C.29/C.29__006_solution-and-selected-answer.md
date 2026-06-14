@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution and selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-and-selected-answer.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution and selected answer"
-line_start: 51647
-line_end: 52332
+line_start: 51945
+line_end: 52630
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -34,6 +34,7 @@ dependencies:
   - "C.2.P"
   - "C.26"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "C.29"
   - "C.31.ASAP"
@@ -103,7 +104,7 @@ Plain and Tech bridge:
 | What can the reader now do? | `NextLensUseMove` or `declaredLensUse`. |
 | What remains blocked? | `StopCondition` and `blockedLensOverread`. |
 
-State, scale, and dynamics trigger: if the lens use names state, transition, forecast, rate, temporal window, scale window, observation, measurement, comparison, score, intensifier or hedge wording, or causal implication, the cheapest honest output either names the minimal relevant field or names the governing FPF pattern. If characteristic, scale, coordinate, score, metric, indicator, or comparison wording is itself hidden, use `C.16.P` before relying on C.29; if a declared measurement relation is already recoverable, measurement construction and direct comparability stay with `C.16`. State and transition semantics stay with `A.3.3`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
+State and transition semantics stay with `A.3.3`; temporal aspects stay with `C.27.TA`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
 
 #### C.29:4.2a - Mathematicalization Utility Principle
 
@@ -141,7 +142,7 @@ If no next lens-use move changes, keep the text as ordinary prose, downgrade it 
 
 This table is normative as a recovery guide, not as a mandatory taxonomy. A local project may name a closer family, but it must recover the same claim-bearing structure: `CandidateMathObject` or candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition.
 
-P2W and formal-declaration boundary: when one of these families is used in a P2W transduction from accepted problem-side material into later work, `C.29` still records only the declared mathematical-lens use. A declared formal relation can make mathematical-to-mathematical exactness or near-sameness visible; it does not by itself declare a `FormalSubstrate` signature, `PrincipleFrame`, mechanism, observation-bound world claim, evidence path, causal-use relation, Bridge-declared lens use, or work. Use `A.6.0` for the `U.Signature(profile=FormalSubstrate)` declaration, `A.6.1` when mechanism import or realization is being claimed, and `E.18.1` when accepted problem-side material needs a formal declaration for later FPF use.
+P2W and formal-declaration boundary: when one of these families is used in a P2W carry-through from accepted problem-side material into later work, `C.29` still records only the declared mathematical-lens use. A declared formal relation can make mathematical-to-mathematical exactness or near-sameness visible; it does not by itself declare a `FormalSubstrate` signature, `PrincipleFrame`, mechanism, observation-bound world claim, evidence path, causal-use relation, Bridge-declared lens use, or work. Use `A.6.0` for the `U.Signature(profile=FormalSubstrate)` declaration, `A.6.1` when mechanism import or realization is being claimed, and `E.18.1` when accepted problem-side material needs a formal declaration for later FPF use.
 
 #### C.29:4.2c - Bounded-observer structural-information lens
 
@@ -177,7 +178,7 @@ Architecture work may use C.29-local descriptions for graph, flow, control, stru
 | Local C.29 description | Candidate mathematical object | Visible payoff | Stop condition |
 | --- | --- | --- | --- |
 | `MLU.Description@ArchitectureGraphDSM` | typed graph, hypergraph, DSM, DMM, or MDM matrix | dependencies, clusters, change propagation, and bottlenecks | not evidence of semantic interface correctness, compositional quality, or architecture decision by itself |
-| `MLU.Description@TGAFlowStructure` | transduction graph with morphism nodes and `U.Transfer` edges | flow topology, crossings, and path slices without hidden scalarization | not work occurrence, gate decision, or evidence by itself |
+| `MLU.Description@TransformationFlowStructure` | graph, morphism-family, wiring, matrix, or network expression over a selected `TransformationFlowStructure` | flow topology, crossings, carried relations, and path slices without hidden scalarization | not work occurrence, gate decision, or evidence by itself |
 | `MLU.Description@ArchitectureLCA` | layered control stack or multi-rate control model | planner, regulator, plant, observer, feedback timing, and externality separation | not stability or causal-use relation without dynamics, evidence, and `C.28` |
 | `MLU.Description@EpiplexityStructuralInformation` | bounded-observer structural information or two-part code | learnable reusable structure versus residual or unmodeled structure | not utility, assurance, OOD guarantee, or causal proof |
 | `MLU.Description@RGArchitecture` | scale map over architecture descriptions, fixed-point or basin metaphor, or declared coarse-graining map | scale-stability of an architecture vector and exploding exceptions | not literal physical RG unless domain theory warrants it |
@@ -315,7 +316,7 @@ MathLensUse.LensCandidateNote@ArchitectureP2W := {
   CandidateLensFamily: boundary and variational heat-flow lens,
   CandidateMathObject?: temperature field with boundary-condition relation and optional energy functional,
   WhyThisLensCouldHelp: the lens can expose whether the useful distinction is a preserved heat-flow invariant, a boundary-condition mismatch, or a deformation factor outside the model,
-  ExpectedVisiblePayoff: decide whether the next honest output is a C.29 one-line lens use, an A.6.0 FormalSubstrate signature declaration, or an E.18.1 P2W transduction use of the accepted problem-side distinction,
+  ExpectedVisiblePayoff: decide whether the next honest output is a C.29 one-line lens use, an A.6.0 FormalSubstrate signature declaration, or an E.18.1 P2W carry-through use of the accepted problem-side distinction,
   ObservableOrControllableCue?: boundary temperatures, heat-flow observations, reference-plane assignment, deformation readout,
   NextLensUseMove: write `MathLensUse.OneLine` only after mapping, preserved structure, lost structure, and stop condition are nameable; apply `A.6.0` only when `U.Signature(profile=FormalSubstrate)` must be declared; apply `E.18.1` only when the accepted problem-side distinction must be used in later FPF work,
   OrdinaryRivalOrFallback: ordinary deformation narrative plus local measurement note,
@@ -324,7 +325,7 @@ MathLensUse.LensCandidateNote@ArchitectureP2W := {
 }
 ```
 
-This filled slice is a C.29 first-use output. It does not declare the formal signature, perform the P2W transduction by itself, select the method, or create work. Those claims are governed by `A.6.0`, `E.18.1`, `A.15`, `A.15.1`, `A.15.4`, `A.10`, `C.28`, or `B.3` when those claims are being made.
+This filled slice is a C.29 first-use output. It does not declare the formal signature, complete P2W carry-through by itself, select the method, or create work. Those claims are governed by `A.6.0`, `E.18.1`, `A.15`, `A.15.1`, `A.15.4`, `A.10`, `C.28`, or `B.3` when those claims are being made.
 
 
 ```text
@@ -478,7 +479,7 @@ Candidate guidance rows are examples for first recognition. Use the row that fit
 | `ProblemStructureCue` | Cheap `CandidateLensFamily` | First bounded move and stop |
 |---|---|---|
 | waiting, backlog, bottleneck, or throughput | queue or flow network | Observe arrivals, work in progress, service time, wait time, and bottleneck candidate; do not infer obligation, motivation, or managerial authority from the queueing lens alone. |
-| state change, trajectory, stabilization, or control pressure | state-space, dynamics, Markov, ODE, or control lens | Name state, transition law, observation map, and validity window; return dynamics semantics to `A.3.3` and temporal-use claims to `C.27` when those claims are being made. |
+| state change, trajectory, stabilization, or control pressure | state-space, dynamics, Markov, ODE, or control lens | Name state, transition law, observation map, and validity window; return dynamics semantics to `A.3.3`, temporal aspects to `C.27.TA`, and temporal-use claims to `C.27` when those claims are being made. |
 | dependency, interface, composition, or transfer failure | graph, hypergraph, category, operad, or compositional lens | Expose edges, edge meaning, slots, interfaces, composition law, and failed transfer; use `F.9` when cross-context meaning or substitution is being claimed. |
 | local-to-global boundary relation, conservation across a boundary, or source balance or sink balance | Stokes-like, exterior-derivative, divergence, flux, or boundary-operator lens | Name the domain, boundary, local rule, boundary condition, and conserved or sourced quantity; do not infer mechanism, evidence, or bridge safety without the relevant governing pattern. |
 | local rule that cannot become a global solution, or a transfer blocked by topology | cohomology, closed relation, relation named by value, obstruction, or failed-extension lens | Name the local closure condition, global witness that fails, obstruction class or equivalent diagnostic boundary, and the blocked claim. |

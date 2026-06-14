@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3.RT"
-pattern_title: "RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+pattern_title: "Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
 section_id: "A.6.3.RT:12a"
 section_title: "Boundary with quantum-like state-representation shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__014_boundary-with-quantum-like-state-representation-shortcuts.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.6.3.RT — RepresentationTransduction: EntityOfConcern-Preserving Representation-Scheme Transition"
+  - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12a — Boundary with quantum-like state-representation shortcuts"
-line_start: 12173
-line_end: 12201
+line_start: 12416
+line_end: 12444
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ For ordinary use, start with the standard shortcut mini-form:
 | Mini-entry | Question |
 | --- | --- |
 | Source-loss question | Which representation scheme, state interpretation, fuller model, or evidence set loses distinctions in the shortcut? |
-| Shortcut | Which cheaper, typed, quantized, symbolic, lower-detail, or otherwise transformed representation is used? |
+| Shortcut | Which cheaper, typed, quantized, symbolic, lower-detail, or otherwise changed representation is used? |
 | Loss | Which precision, expressivity, compatibility, recoverability, or evidence relation is not carried? |
 | Admissible use | Which decision, explanation, triage, comparison, or action-selection move remains admissible for the shortcut? |
 | Reopen | Which dispute, decision change, demand for use with a higher evidence requirement, evidence gap, or recoverability failure sends the user back to the source representation or fuller model? |

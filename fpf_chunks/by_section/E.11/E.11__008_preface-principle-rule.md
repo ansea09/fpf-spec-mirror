@@ -6,12 +6,12 @@ section_id: "E.11:4.2"
 section_title: "Preface Principle Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_preface-principle-rule.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.2 — Preface Principle Rule"
-line_start: 62301
-line_end: 62341
+line_start: 62623
+line_end: 62663
 dependencies:
   - "E.10"
   - "E.10.ARCH"
@@ -41,7 +41,7 @@ The Preface should cover at least:
 - EntityOfConcern and description, including description episteme, publication form, carrier, and multi-view publication separation;
 - thinking-through-writing through patterns, cards, records, views, and publication forms;
 - architecture as structure and epiplexity as an architecture characteristic;
-- first-principles-to-work through TGA and P2W;
+- first-principles-to-work through E.18 transformation-flow structure and E.18.1 P2W;
 - mathematical lenses, formal-substrate declarations, mechanism import, and first-principles carry-through as distinct claims;
 - ontology-first wording repair through `E.10`, `E.10.ARCH`, `F.18`, and `F.19`;
 - evidence, assurance, gate, decision, and work separation;

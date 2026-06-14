@@ -6,12 +6,12 @@ section_id: "E.18.1:End"
 section_title: "E.18.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__014_e-18-1-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:End — E.18.1:End"
-line_start: 68338
-line_end: 68339
+line_start: 68665
+line_end: 68666
 dependencies:
   - "A.10"
   - "A.15"

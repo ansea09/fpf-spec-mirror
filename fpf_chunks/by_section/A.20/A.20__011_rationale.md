@@ -6,12 +6,12 @@ section_id: "A.20:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__011_rationale.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:9 — Rationale"
-line_start: 28734
-line_end: 28737
+line_start: 29018
+line_end: 29021
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -19,7 +19,6 @@ dependencies:
   - "C.19"
   - "E.17"
   - "E.18"
-  - "E.TGA"
   - "F.17"
   - "F.9"
   - "G.11"
@@ -33,11 +32,11 @@ keywords:
   - "PathSlice"
   - "Sentinel"
   - "SquareLaw"
-  - "TransductionFlow"
+  - "TransformationFlowStructure"
   - "flow"
 ---
 
 ### A.20:9 - Rationale
 
-E.TGA coordinates A.20 and A.21 as orthogonal cores: CV **inside** transformations; GF **at** gates with join‑aggregation and DecisionLog. This mirrors effects and handlers (signature vs. handler), and reproducible build vs. release or deployment criteria separation.
+`E.18` transformation-flow structure coordinates A.20 and A.21 as orthogonal neighboring cores: CV **inside** transformations; GF **at** gates with join‑aggregation and DecisionLog. This mirrors effects and handlers (signature vs. handler), and reproducible build vs. release or deployment criteria separation.
 

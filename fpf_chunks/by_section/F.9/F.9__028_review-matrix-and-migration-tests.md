@@ -6,12 +6,12 @@ section_id: "F.9:26"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__028_review-matrix-and-migration-tests.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:26 — Review Matrix and Migration Tests"
-line_start: 74184
-line_end: 74196
+line_start: 74510
+line_end: 74522
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "E.17.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__011_rationale.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:10 — Rationale"
-line_start: 63987
-line_end: 63990
+line_start: 64309
+line_end: 64312
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -38,5 +38,5 @@ keywords:
 
 ### E.17.1:10 - Rationale
 
-`U.MultiViewDescribing` already assumes that viewpoint plurality exists. `E.17.1` supplies the governing pattern for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or trajectories in `U.LanguageStateTransductionTrajectory`. Without it, every domain can only improvise locally, and long-term correspondence between viewpoint families remains fragile.
+`U.MultiViewDescribing` already assumes that viewpoint plurality exists. `E.17.1` supplies the governing pattern for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or trajectories in `U.LanguageStateMoveTrajectory`. Without it, every domain can only improvise locally, and long-term correspondence between viewpoint families remains fragile.
 

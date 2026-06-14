@@ -6,12 +6,12 @@ section_id: "A.6.7:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__007_bias-annotation.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:6 — Bias-Annotation"
-line_start: 16608
-line_end: 16616
+line_start: 16893
+line_end: 16901
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -20,7 +20,6 @@ dependencies:
   - "E.18"
   - "E.19"
   - "E.8"
-  - "E.TGA"
   - "G.10"
   - "G.5"
   - "U.Mechanism.Intension"

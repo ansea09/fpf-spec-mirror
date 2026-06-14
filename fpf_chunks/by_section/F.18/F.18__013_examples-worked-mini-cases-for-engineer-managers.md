@@ -6,12 +6,12 @@ section_id: "F.18:12"
 section_title: "Examples (worked mini‑cases for engineer‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_examples-worked-mini-cases-for-engineer-managers.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:12 — Examples (worked mini‑cases for engineer‑managers)"
-line_start: 77398
-line_end: 77431
+line_start: 77724
+line_end: 77757
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

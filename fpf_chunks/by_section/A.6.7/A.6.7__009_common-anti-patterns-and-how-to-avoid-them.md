@@ -6,12 +6,12 @@ section_id: "A.6.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16653
-line_end: 16674
+line_start: 16938
+line_end: 16959
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -20,7 +20,6 @@ dependencies:
   - "E.18"
   - "E.19"
   - "E.8"
-  - "E.TGA"
   - "G.10"
   - "G.5"
   - "U.Mechanism.Intension"
@@ -48,7 +47,7 @@ keywords:
 
 3. **Anti-pattern: “Suite contains legality tables”.**
    Duplicating CG‑Spec or embedding CL/Φ/Ψ tables in suite obligations.
-   **Fix:** publish pins and references only; keep legality content in `…Spec` and policy registries; keep crossing realization in E.TGA/gate surfaces.
+   **Fix:** publish pins and references only; keep legality content in `…Spec` and policy registries; keep crossing realization in E.18/gate surfaces.
 
 4. **Anti-pattern: “Suite is a hidden gate”.**
    Introducing thresholds, `block`, or `DecisionLog` in the suite.
@@ -56,5 +55,5 @@ keywords:
 
 5. **Anti-pattern: “Implicit calls”.**
    A protocol implies “normalize happens somewhere” without explicit member and pin visibility.
-   **Fix:** protocols enumerate steps and required pins; E.TGA `Uses` edges remain explicit.
+   **Fix:** protocols enumerate steps and required pins; E.18 `Uses` edges remain explicit.
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:11"
 section_title: "Conformance Checklist (normative, author‑facing)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__012_conformance-checklist-normative-author-facing.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:11 — Conformance Checklist (normative, author‑facing)"
-line_start: 33190
-line_end: 33205
+line_start: 33473
+line_end: 33488
 dependencies:
   - "B.3"
   - "C.13"

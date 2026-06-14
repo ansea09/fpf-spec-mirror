@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
-line_start: 28067
-line_end: 28434
+line_start: 28351
+line_end: 28718
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -51,7 +51,7 @@ keywords:
 * **Output (conceptual):** `SelectionSlot` = selected set (a singleton is allowed **only** when explicitly demanded by criteria or by an explicitly declared upstream total order).
 * **Non‑goals:** does **not** normalize (UNM), indicatorize (UINDM), score (USCM), fold (ULSAM), compare (CPM), define acceptance thresholds, publish, or emit telemetry; it is a selection step over already‑lawful inputs.
 * **P2W seam:** concrete edition/policy pin bindings (e.g., `TaskSignatureRef@edition(…)`, `CGSpecRef@edition(…)`, evidence overrides) are chosen in planned baseline plan items (`A.15.3` + `A.19.CHR:4.7.2`); executions only record effective refs/pins in `Audit`.
-* **TGA use:** when used as a node type in `E.18 (E.TGA)`, selector instances are chosen in planned baseline plan items (P2W); this pattern governs the intension that those instances cite.
+* **Transformation-flow use:** when used as a node type in `E.18`, selector instances are chosen in planned baseline plan items (P2W); this pattern governs the intension that those instances cite.
 * **Failure mode:** tri‑state guard (`pass|degrade|abstain`); missing/unknown evidence never coerces to `pass`.
 * **Mental model:** `SelectEligibility` gates the step; `Select` applies explicit criteria to set‑valued comparison outcomes; the result is a selected set whose “single winner” behavior must be explicit.
 
@@ -379,7 +379,7 @@ The set‑returning default is not a preference for large retained sets; it is a
 
   * `A.19.CHR` as the canonical `select` stage in CHR pipelines.
   * `G.5` as the primary conformance and specialization context for selector-based method dispatch and `PortfolioMode` policies.
-  * `E.18 (E.TGA)` when selector instances are used as transduction graph nodes; planned pins live in P2W, effective pins surface via `Audit`.
+  * `E.18` when selector instances are used as transformation-flow structure nodes; planned pins live in P2W, effective pins surface via `Audit`.
 * **Coordinates with**
 
   * `CPM` and other lawful comparison stages as producers of `ComparisonResultSlot`.

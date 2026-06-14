@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 16327
-line_end: 16348
+line_start: 16612
+line_end: 16633
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -20,7 +20,6 @@ dependencies:
   - "E.18"
   - "E.19"
   - "E.8"
-  - "E.TGA"
   - "G.10"
   - "G.5"
   - "U.Mechanism.Intension"
@@ -50,7 +49,7 @@ keywords:
    Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing “centers of legality” arise.
 
 4. **Transport and crossing visibility discipline.**
-   Cross-context and cross-plane steps must be visible and bridge-only; penalties must route to `R/R_eff` only; suites must not embed CL/Φ/Ψ/Φ_plane tables. Visibility is mediated via E.TGA / P2W (crossing bundles + UTS/Path pins), not by “implicit semantics”.
+   Cross-context and cross-plane steps must be visible and bridge-only; penalties must route to `R/R_eff` only; suites must not embed CL/Φ/Ψ/Φ_plane tables. Visibility is mediated via E.18 / P2W (crossing bundles + UTS/Path pins), not by “implicit semantics”.
 
 5. **Guard vs gate separation.**
    Mechanisms can output tri-state guard outcomes and explanations; **gate decisions** (including `block`) and `DecisionLog` remain gate-level (`OperationalGate(profile)`). A suite must not collapse these layers.

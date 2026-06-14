@@ -6,12 +6,12 @@ section_id: "E.17.0:3"
 section_title: "Forces  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__004_forces-informative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:3 — Forces  (informative)"
-line_start: 63514
-line_end: 63524
+line_start: 63836
+line_end: 63846
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -26,7 +26,6 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
   - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"

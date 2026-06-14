@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: "A.16:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
+  - "A.16 — Language-State Move Coordination"
   - "A.16:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22136
-line_end: 22143
+line_start: 22420
+line_end: 22427
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -32,14 +32,14 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
 ### A.16:8 - Common Anti-Patterns and How to Avoid Them

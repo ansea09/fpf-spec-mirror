@@ -6,12 +6,12 @@ section_id: "A.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.11 — Ontological Parsimony (C‑5)"
   - "A.11:2 — Problem"
-line_start: 19495
-line_end: 19504
+line_start: 19779
+line_end: 19788
 dependencies:
   - "A.11"
   - "U.Type"

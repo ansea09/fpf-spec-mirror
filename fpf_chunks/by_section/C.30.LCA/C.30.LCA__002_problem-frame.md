@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 55023
-line_end: 55048
+line_start: 55324
+line_end: 55349
 dependencies:
   - "A.10"
   - "A.20"
@@ -27,7 +27,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.STRAT"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.18"
   - "G.6"
 keywords:
@@ -46,11 +46,11 @@ Use this pattern when a selected control structure or control-structure relation
 
 The first-minute working situation is ordinary engineering talk: a diagram says the supervisor watches a subsystem, a controller regulates a plant, an observer estimates state, a planner gives references to a lower-rate controller, or a policy relation or control relation changes allowed controller behavior. The useful first move is to recover a `ControlStructureView@Context`: which architecture claim is being described, which control roles and relations are present, which rate bands or recovered control-layer relations are being claimed, which feedback or externality boundaries are named, and which governing pattern carries any additional claim being made. If the source only says `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
 
-What goes wrong if C.30.LCA is missed: a control diagram becomes proof; stratification labels bypass `C.30.STRAT` and start carrying undeclared scope; and `B.2.5`, Transduction Graph Architecture (TGA), or Layered Control Architecture (LCA) prose is overread as control adequacy.
+What goes wrong if C.30.LCA is missed: a control diagram becomes proof; stratification labels bypass `C.30.STRAT` and start carrying undeclared scope; and `B.2.5`, `E.18` transformation-flow-structure prose, or Layered Control Architecture (LCA) prose is overread as control adequacy.
 
 What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering the control-structure view and the governing pattern that carries any proof or claim named by value.
 
-Not this pattern when the issue under repair is generic stratification or source-label repair, only a TGA path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TGA-FLOW-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the assurance or evidence pattern governing the claim as appropriate.
+Not this pattern when the issue under repair is generic stratification or source-label repair, only an `E.18` transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the assurance or evidence pattern governing the claim as appropriate.
 
 The primary `EntityOfConcern` for this pattern use is the selected control structure or control-structure relation set under an `ArchitectureOf@Context`. The `ControlStructureView@Context` is a describing episteme for that selected structure; proof, safety, evidence, gate, and architecture-as-whole claims remain claim named by value refs governed by their governing patterns. Ordinary use may stop with a typed control-structure view note:
 

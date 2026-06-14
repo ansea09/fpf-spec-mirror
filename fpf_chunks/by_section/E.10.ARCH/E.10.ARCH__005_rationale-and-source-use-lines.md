@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2a"
 section_title: "Rationale and source-use lines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__005_rationale-and-source-use-lines.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2a — Rationale and source-use lines"
-line_start: 61479
-line_end: 61491
+line_start: 61801
+line_end: 61813
 dependencies:
   - "A.10"
   - "A.15.1"

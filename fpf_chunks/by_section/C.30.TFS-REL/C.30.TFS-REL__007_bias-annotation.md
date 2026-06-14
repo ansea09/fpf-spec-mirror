@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "C.30.TGA-FLOW-REL"
+pattern_id: "C.30.TFS-REL"
 pattern_title: "Architecture Transformation-Flow Structure Relation"
-section_id: "C.30.TGA-FLOW-REL:6"
+section_id: "C.30.TFS-REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__007_bias-annotation.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__007_bias-annotation.md"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
-  - "C.30.TGA-FLOW-REL:6 — Bias-Annotation"
-line_start: 55775
-line_end: 55788
+  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL:6 — Bias-Annotation"
+line_start: 56095
+line_end: 56108
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,13 +46,13 @@ keywords:
   - "transformation-flow structure"
 ---
 
-### C.30.TGA-FLOW-REL:6 - Bias-Annotation
+### C.30.TFS-REL:6 - Bias-Annotation
 
 Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow relations using E.18 objects.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Structure-or-description-as-architecture bias | The pattern states that grounded architecture adequacy and conditional architecture-description use stay with C.30, mathematical descriptions stay with E.18.2/C.29, and structural views stay with C.30.ASV. |
+| Structure-or-description-as-architecture bias | The pattern states that grounded architecture adequacy and conditional architecture-description use stay with C.30, mathematical descriptions stay with E.18.2, math-lens uses stay with C.29, and structural views stay with C.30.ASV. |
 | Function-flow collapse | Functional structure and transformation-flow structure are related, not identical by default. Identity requires a positive selected-structure co-reference check. |
 | Non-flow claim overread | The relation table assigns non-flow claim kinds to their governing patterns. |
 | Mathematical overread | Mathematical-lens use of a graph or valuation is governed by C.29. |

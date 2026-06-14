@@ -6,12 +6,12 @@ section_id: "E.17.0:End"
 section_title: "E.17.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__011_e-17-0-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:End — E.17.0:End"
-line_start: 63837
-line_end: 63838
+line_start: 64159
+line_end: 64160
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -26,7 +26,6 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
   - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"

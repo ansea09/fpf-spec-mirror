@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: "A.16:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_consequences.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
+  - "A.16 — Language-State Move Coordination"
   - "A.16:9 — Consequences"
-line_start: 22144
-line_end: 22146
+line_start: 22428
+line_end: 22430
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -32,16 +32,16 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
 ### A.16:9 - Consequences
-The benefit is a clear governing pattern for language-state transductions and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
+The benefit is a clear governing pattern for language-state moves and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
 

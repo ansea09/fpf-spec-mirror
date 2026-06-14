@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__008_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:7 — Conformance Checklist"
-line_start: 11672
-line_end: 11690
+line_start: 11915
+line_end: 11933
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -44,7 +44,7 @@ keywords:
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
    The reviewed case does not silently widen modality, remove caveats, raise reliability assessment, import bridge or substitution licence, or collapse declared alternatives beyond stated loss notes.
 7. **CC-CR-7 — Governing pattern is explicit on failure.**
-   If the case fails any of the checks above, the governing pattern for the changed claim is named explicitly (ExplanationFaithfulnessProfile, RepresentationTransduction, A.6.4, B.5.2, or another governing pattern).
+   If the case fails any of the checks above, the governing pattern for the changed claim is named explicitly (ExplanationFaithfulnessProfile, Representation-Scheme Transition, A.6.4, B.5.2, or another governing pattern).
 8. **CC-CR-8 — Working-model first remains intact.**
    Ordinary same-entity rewrites stay lightweight; fuller explicit review records are reserved for claim-bearing cases.
 

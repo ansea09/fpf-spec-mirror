@@ -6,12 +6,12 @@ section_id: "E.18.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:intro — Intro"
-line_start: 68340
-line_end: 68350
+line_start: 68667
+line_end: 68677
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,7 +24,7 @@ dependencies:
   - "C.2.1"
   - "C.29"
   - "C.30"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.17"
   - "E.18"
   - "E.18.1"
@@ -49,5 +49,5 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
 > **Builds on:** `E.18` Transformation Flow Structure, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
-> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, what use it supports, and where stronger project claims move to their own governing relations.
+> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, what use it supports, and which governing relation carries any stronger project claim.
 

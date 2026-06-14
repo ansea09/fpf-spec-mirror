@@ -6,12 +6,12 @@ section_id: "E.17.2:7"
 section_title: "Rationale & SoTA echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__008_rationale-sota-echoing-informative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:7 — Rationale & SoTA echoing  (informative)"
-line_start: 64593
-line_end: 64620
+line_start: 64921
+line_end: 64948
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -22,7 +22,6 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
-  - "E.TGA"
   - "F.18"
   - "U.MultiViewDescribing"
   - "U.ViewpointBundleLibrary"
@@ -44,8 +43,8 @@ Other candidates (e.g. dedicated information, assurance, or mission viewpoints) 
 
 * Modern architecture standards built on ISO/IEC/IEEE 42010 describe viewpoint libraries in which functional, behavioural/process, structural/deployment, and business/usage concerns are the dominant clusters; sector RAs such as IoT RA 30141 and space‑domain RAs provide explicit functional and construction/implementation viewpoints alongside business/usage and trustworthiness viewpoints. TEVB reuses the functional and construction/structural clusters as `VP.Functional` and `VP.ModuleInterface`, while treating business and trustworthiness as separate bundles.
 * Model-based systems engineering practice (INCOSE MBSE guidance, SysML v2 “views-as-queries”, UAF/NAF view grids) converges on a small set of core diagram families: structure vs behaviour vs allocation/responsibility vs requirements/mission. TEVB’s `VP.Procedural` and `VP.RoleEnactor` correspond to the behaviour and allocation/responsibility concerns, respectively, and are designed to be notation-neutral over SysML/UAF/UML/Capella-style models.
-* The FBS family of design ontologies (Function–Behaviour–Structure and extensions) provides a widely used conceptual source for separating what a system is for, what it does over time, and what it consists of. TEVB’s four viewpoints intentionally implement an FBS+R split at the holon level: `VP.Functional` ≈ Function, `VP.Procedural` ≈ Behaviour, `VP.ModuleInterface` ≈ Structure, with `VP.RoleEnactor` capturing the explicit mapping from functions/behaviours to role‑enacting carriers.
-* Within FPF itself, E.TGA’s “viewpoint families” (Functional, Procedural, Role-Enactor or Device-Structure, Module-Interface, plus assurance, interoperability, data, operational, and mission aliases) are harmonised by letting the **core four** be TEVB viewpoints and treating the rest as lexical or bundle-level overlays, not as new kernel viewpoints.
+* The FBS family of design ontologies (Function–Behaviour–Structure and extensions) provides a widely used conceptual source for separating what a system is for, what it does over time, and what it consists of. TEVB’s four viewpoints intentionally implement an FBS+R split at the holon level: `VP.Functional` ≈ Function, `VP.Procedural` ≈ Behaviour, `VP.ModuleInterface` ≈ Structure, with `VP.RoleEnactor` capturing the explicit mapping from functions/behaviours to role-enacting systems.
+* Within FPF itself, `E.18` transformation-flow “viewpoint families” (Functional, Procedural, Role-Enactor or Device-Structure, Module-Interface, plus assurance, interoperability, data, operational, and mission aliases) are harmonised by letting the **core four** be TEVB viewpoints and treating the rest as lexical or bundle-level overlays, not as new kernel viewpoints.
 
 #### E.17.2:7.3 - Why TEVB stays small
 

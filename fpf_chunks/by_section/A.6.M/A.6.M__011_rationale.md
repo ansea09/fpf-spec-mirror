@@ -6,12 +6,12 @@ section_id: "A.6.M:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__011_rationale.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:10 — Rationale"
-line_start: 14906
-line_end: 14913
+line_start: 15190
+line_end: 15197
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.6.M:10 - Rationale
 
-The central decision is to treat module as a context-sensitive and viewpoint-sensitive relation role of U.Holon, not as a new root kind. This keeps FPF compatible with many engineering contexts where the same system, episteme, method, organization, publication family, or other structured holon can be a component under one declared relation, a module under another, a functional element under another, and an evidence, assurance, source, or publication artifact under another.
+The central decision is to treat module as a context-sensitive and viewpoint-sensitive relation role of U.Holon, not as a new root kind. This keeps FPF compatible with many engineering contexts where the same system, episteme, method, organization, publication family, or other structured holon can be a component under one declared relation, a module under another, a bearer or candidate bearer recorded inside a functional-element record under another, and an evidence, assurance, source, or publication artifact under another.
 
 A.6.M follows `A.6.P`: overloaded relation language is repaired by reconstructing kind, slots, qualifiers, admissible use, and witnesses. It also follows the architecture relation discipline: boundary notes catch the first confusion, while A.6.M supplies the full repair body for module relation, interface specification, substitutability, change policy, and open-architecture conformance and admissible-use claims.
 

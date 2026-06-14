@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 58350
-line_end: 58916
+line_start: 58670
+line_end: 59236
 dependencies:
   - "E.10"
   - "E.11"
@@ -86,7 +86,7 @@ When a pattern claims practical payoff or uses a score, coordinate value, checkl
 
 **Quality/projection evidence placement.** Pattern-quality status, corpus projection, README/ToC/E.11/I.2 alignment, card/retrieval evidence, cold-reader evidence, monolith parity, landing evidence, developer/reviewer/executor correspondence, and other quality-carrier facts belong in the evaluation result, review run record, projection carrier, or release/landing evidence carrier. They do not belong anywhere in the pattern itself, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, and checklist rows, unless the pattern's own `EntityOfConcern` and intended-reader move are that evaluation/projection work. This is a role test, not a lexical test: the same word may be user-facing content in an evaluation pattern and carrier leakage when it reports quality, landing, projection, or role-turn state for this pattern.
 
-**Pattern roles across coupled flows.** In authoring guidance, speak at the pattern level. One pattern may be the pattern of concern for different roles in different flows: an author repairs it, `E.21` evaluates it, `E.19` admits or refreshes it, a practitioner selects and uses it, and a later evaluator may reopen it. Those flows may be joined in one `TransductionGraph` through transfer, feedback, return, projection, landing, edition-change, or repair relations, but their roles and `EntityOfConcern` assignments stay distinct. The pattern itself also carries its own primary `EntityOfConcern`: the subject its Problem/Solution/guidance is about. Development-flow evidence may cause rewrites, but reviewer/executor exchange, status, projection proof, landing proof, and use-found evidence remain in their carriers rather than entering the pattern as if they were guidance for the intended reader. This is the pattern-authoring instance of the broader TGA/P2W coupled-flow rule: a publication, principle scheme, work plan, or self-evolving specification flow may help create or govern later work without becoming the performed work, project evidence, gate passage, assurance, edition bump, or applied-edition content.
+**Pattern roles across coupled flows.** In authoring guidance, speak at the pattern level. One pattern may be the pattern of concern for different roles in different flows: an author repairs it, `E.21` evaluates it, `E.19` admits or refreshes it, a practitioner selects and uses it, and a later evaluator may reopen it. Those flows may be joined in one `TransformationFlowStructure` through transfer, feedback, return, projection, landing, edition-change, or repair relations, but their roles and `EntityOfConcern` assignments stay distinct. The pattern itself also carries its own primary `EntityOfConcern`: the subject its Problem/Solution/guidance is about. Development-flow evidence may cause rewrites, but reviewer/executor exchange, status, projection proof, landing proof, and use-found evidence remain in their carriers rather than entering the pattern as if they were guidance for the intended reader. This is the pattern-authoring instance of the broader transformation-flow and P2W coupled-flow rule: a publication, principle scheme, work plan, or self-evolving specification flow may help create or govern later work without becoming the performed work, project evidence, gate passage, assurance, edition bump, or applied-edition content.
 
 **Maturity rule.** Section completeness is not pattern maturity. A pattern matures when its `Problem frame`, `Solution`, worked cases, boundaries, and conformance checks all point to the same usable action guidance.
 

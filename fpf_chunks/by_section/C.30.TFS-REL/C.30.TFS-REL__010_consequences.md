@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "C.30.TGA-FLOW-REL"
+pattern_id: "C.30.TFS-REL"
 pattern_title: "Architecture Transformation-Flow Structure Relation"
-section_id: "C.30.TGA-FLOW-REL:9"
+section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__010_consequences.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
-  - "C.30.TGA-FLOW-REL:9 — Consequences"
-line_start: 55817
-line_end: 55825
+  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL:9 — Consequences"
+line_start: 56137
+line_end: 56145
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
   - "transformation-flow structure"
 ---
 
-### C.30.TGA-FLOW-REL:9 - Consequences
+### C.30.TFS-REL:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |

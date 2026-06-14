@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
-line_start: 23417
-line_end: 23856
+line_start: 23701
+line_end: 24140
 dependencies:
   - "A.17"
   - "A.18"
@@ -72,7 +72,7 @@ keywords:
   * `A.19.CHR:4.6–4.7.2` (P2W planned-baseline hook and the plan-item shape),
   * `A.19.CHR:7` (suite conformance checklist).
 * **A.15.3** — `SlotFillingsPlanItem` (planned baseline discipline: planning vs enactment).
-* **E.18 (E.TGA)** — how to express the actual pipeline/flow graph (including crossings) while keeping suite and plan artefacts refs‑only.
+* **E.18** — how to express the actual pipeline/flow graph (including crossings) while keeping suite and plan artefacts refs‑only.
 
 **Step 5 — The six CHR mechanism-governing patterns (read one at a time).**
 

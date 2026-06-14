@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
-pattern_id: "C.30.TGA-FLOW-REL"
+pattern_id: "C.30.TFS-REL"
 pattern_title: "Architecture Transformation-Flow Structure Relation"
-section_id: "C.30.TGA-FLOW-REL:End"
-section_title: "C.30.TGA-FLOW-REL:End"
+section_id: "C.30.TFS-REL:End"
+section_title: "C.30.TFS-REL:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.TGA-FLOW-REL/C.30.TGA-FLOW-REL__014_c-30-tga-flow-rel-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__014_c-30-tfs-rel-end.md"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "C.30.TGA-FLOW-REL — Architecture Transformation-Flow Structure Relation"
-  - "C.30.TGA-FLOW-REL:End — C.30.TGA-FLOW-REL:End"
-line_start: 55852
-line_end: 55853
+  - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
+  - "C.30.TFS-REL:End — C.30.TFS-REL:End"
+line_start: 56172
+line_end: 56173
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,5 +46,5 @@ keywords:
   - "transformation-flow structure"
 ---
 
-### C.30.TGA-FLOW-REL:End
+### C.30.TFS-REL:End
 

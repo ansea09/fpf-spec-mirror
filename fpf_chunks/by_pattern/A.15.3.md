@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.3.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
-line_start: 21236
-line_end: 21686
+line_start: 21520
+line_end: 21970
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -20,7 +20,6 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -42,7 +41,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → A.15 (Work & WorkPlanning)
-> **Builds on:** `U.WorkPlan` (A.15.2), performed-work occurrence discipline (A.15.1 and E.TGA), Context discipline (E.10.D1), `MechSuiteDescription` (A.6.7), and publication/view discipline (E.17; views are projections, not places of meaning)
+> **Builds on:** `U.WorkPlan` (A.15.2), performed-work occurrence discipline (A.15.1 and E.18), Context discipline (E.10.D1), `MechSuiteDescription` (A.6.7), and publication/view discipline (E.17; views are projections, not places of meaning)
 > **Used by:** planned-baseline requirements from suites or kits; P2W (selection -> WorkPlanning -> WorkEnactment); Part G universalization
 > **Purpose (one line):** provide a universal, context-explicit **planned baseline** that maps a slot-bearing description's `SlotKind`s to **planned fillers**, to be consumed by Work enactment where launch values are finalized.
 
@@ -456,7 +455,7 @@ This pattern aligns with post‑2015 practice in multiple traditions while delib
   * **A.15.2 `U.WorkPlan`** — container + PlanItem discipline; baseline citeability.
   * **A.6.5 slot discipline** — SlotKind and RefKind hygiene and binding-time separation.
   * **E.10.D1 Context discipline** — explicit context and edition; no implicit “latest”.
-  * **E.18 and TGA** — keeps `FinalizeLaunchValues` strictly in WorkEnactment; pin and guard discipline.
+  * **E.18 and E.18.1** — keeps `FinalizeLaunchValues` strictly in WorkEnactment; pin and guard discipline.
 * **E.17 publication discipline** — views are projections; no new semantics on cards.
 * **Interacts with and complements:**
   * **A.6.7 `MechSuiteDescription`** — suites may require the presence of a planned-baseline reference or pin without embedding planned fillers or launch values.

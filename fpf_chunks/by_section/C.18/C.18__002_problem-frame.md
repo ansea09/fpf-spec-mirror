@@ -6,12 +6,12 @@ section_id: "C.18:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_problem-frame.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
   - "C.18:1 — Problem frame"
-line_start: 43905
-line_end: 43907
+line_start: 44203
+line_end: 44205
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.6.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__003_problem.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:2 — Problem"
-line_start: 10593
-line_end: 10618
+line_start: 10836
+line_end: 10861
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -33,7 +33,7 @@ keywords:
 
 Without a dedicated pattern for EpistemicViewing:
 1. **Views vs retargetings blur.**
-   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **EntityOfConcern** (retargeting). A Fourier‑style transform or a StructuralReinterpretation in E.TGA can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
+   Operations that *intend* to change only representation (viewing) are easily conflated with operations that change the **EntityOfConcern** (retargeting). A Fourier‑style transform or a structural reinterpretation in E.18 can quietly drift from “view of S” into “view of a different S′”, without declaring a `KindBridge`.
 
 2. **“View” vs “viewpoint” vs rendered publication collapse.**
    In standards and tools, “view” is often used interchangeably to mean:

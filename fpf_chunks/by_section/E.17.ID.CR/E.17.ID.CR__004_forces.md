@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:3 — Forces"
-line_start: 65784
-line_end: 65798
+line_start: 66112
+line_end: 66126
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -46,7 +46,7 @@ keywords:
 | **Middle-band reality** | Some bounded comparisons are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
 | **Source tether vs interpretive lift** | The case adds a bounded interpretive lift without pretending to create a new free-floating semantics. |
 | **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct rather than sliding between them by style. |
-| **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation transduction whose main question is not bounded comparison. |
+| **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |
 | **Bridge restraint** | Interpretation does not become a second bridge taxonomy. |
 | **Explanation restraint** | Interpretation does not become a shadow face-use discipline system next to `E.17.EFP`. |
 | **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next move. |

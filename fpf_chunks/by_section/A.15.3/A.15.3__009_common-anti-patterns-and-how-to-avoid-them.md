@@ -6,12 +6,12 @@ section_id: "A.15.3:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 21602
-line_end: 21622
+line_start: 21886
+line_end: 21906
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,6 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"

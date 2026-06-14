@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: "A.16:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
+  - "A.16 — Language-State Move Coordination"
   - "A.16:4 — Solution"
-line_start: 22060
-line_end: 22113
+line_start: 22344
+line_end: 22397
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -32,24 +32,24 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
 ### A.16:4 - Solution
 `A.16` governs only admissible move kinds, their guards, and docking rules for how governed `U.Episteme` publications may be related across declared language-state positions. It does **not** govern `F`, does **not** define the trajectory-account semantics itself, and does **not** define a rival graph calculus beside `E.18`.
 
-A conforming move may be published as a local move note without any `U.LanguageStateTransductionTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing pattern handoff has governance value that should be published as an account.
+A conforming move may be published as a local move note without any `U.LanguageStateMoveTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing pattern handoff has governance value that should be published as an account.
 
 Observation itself is a precursor condition typically published through `B.4.1`. `A.16` move kinds begin once a cue is deliberately noticed, stabilized, route-published, reopened, formalized, operationalized, respecified, or retired under explicit move discipline.
 
-#### A.16:4.1 - Admissible transduction move family
+#### A.16:4.1 - Admissible language-state move family
 | Move | What it does | Typical source condition | Typical publication effect |
 |---|---|---|---|
 | `notice` | marks that a low-articulation cue is being deliberately preserved | low or unstable articulation | cue preservation becomes explicit enough for early publication work |

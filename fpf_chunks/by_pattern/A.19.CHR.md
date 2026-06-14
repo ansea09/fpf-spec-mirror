@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CHR.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
-line_start: 25719
-line_end: 26401
+line_start: 26003
+line_end: 26685
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -23,7 +23,6 @@ dependencies:
   - "E.10"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "G.0"
   - "G.10"
   - "G.5"
@@ -68,7 +67,7 @@ keywords:
 * A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
 * A.19 `CN‑Spec` (governance card)
 * G.0 `CG‑Spec` (legality gate for numeric operations)
-* E.TGA / E.18 (P2W + crossings + UTS/Path pins)
+* E.18 / E.18 (P2W + crossings + UTS/Path pins)
 * E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
 * E.19 conformance style (checklist obligations)
 
@@ -134,7 +133,7 @@ Core idea:
 * **Wiring modules for method/discipline/generator specifics:** `G.*:Extensions` as `GPatternExtension` blocks (`PatternScopeId = G.x:Ext.<…>`), with explicit `GoverningPatternId`.
 * **RSCR trigger catalogue and trigger alias maps:** `G.Core` (catalogue defined there).
 * **Lexical alias docking (token drift without breaking public references):** `F.18`.
-* **Project‑level specialization and transduction graphs:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18 (E.TGA)` for flow graphs citing planned baseline instance refs.
+* **Project‑level specialization and transformation-flow structures:** project patterns (`P.*`) for `⊑/⊑⁺` specializations; `E.18` for flow graphs citing planned baseline instance refs.
 
 #### A.19.CHR:4.1 - Objects published by this pattern
 
@@ -273,7 +272,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 * **`bridge_only_crossings`:** all cross-context and cross-plane reuse is Bridge-only (no implicit crossings).
 * **`two_bridge_rule_for_described_entity_change`:** any EntityOfConcern (kind/identity) change (`CL^k`) is explicit and satisfies the two-bridge rule.
-* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.TGA `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.TGA / gate surfaces.
+* **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane tables and does not introduce any additional graph edge kind beyond E.18 `U.Transfer`; it requires only refs/pins/anchors whose realization is mediated by E.18 / gate surfaces.
 * **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
 * **`crossing_visibility_required`:** any GateCrossing relevant to suite use publishes a `CrossingBundle` (E.18) and can be cited as an audit anchor (including LaunchGate and `edition_key` changes of pinned `editions{…}` vectors).
 
@@ -473,7 +472,7 @@ CHRMechanismSuiteDescription := ⟨
   * `ExpectedUSMGuards = {USM.CompareGuard, USM.LaunchGuard}`,
   * expected crossing policy pins for any cross‑context step.
 
-The executed protocol (by E.TGA/P2W) is:
+The executed protocol (by E.18/P2W) is:
 Suite-closed protocol:
 `UNM → UINDM → USCM → CPM → SelectorMechanism`.
 Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.
@@ -524,7 +523,7 @@ WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM 
 **Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for any Part‑G (and adjacent) use of the CHR characterization core via `CHRMechanismSuiteDescription` and the corresponding P2W planned-baseline WorkPlanning plan item.
 
 * **Gov.** Bias toward fail-closed legality and explicit auditability (Bridge-only crossings, pinned spec refs, guard–gate separation). Mitigation: the tri-state `GuardDecision` allows uncertainty to degrade or abstain without forcing gate-level blocking; exploration can still proceed via explicit SoS‑LOG policy branches.
-* **Arch.** Bias toward explicit node-level composition (E.TGA) and explicit P2W plan items (`SlotFillingsPlanItem`). Mitigation: the suite fixes only the universal core; discipline-specific generators and extensions remain separate mechanisms connected by `Uses`, keeping the suite compact.
+* **Arch.** Bias toward explicit node-level composition (E.18) and explicit P2W plan items (`SlotFillingsPlanItem`). Mitigation: the suite fixes only the universal core; discipline-specific generators and extensions remain separate mechanisms connected by `Uses`, keeping the suite compact.
 * **Onto/Epist.** Bias toward a strict separation of CN‑Spec and CG‑Spec spec refs, mechanisms (A.6.1), and planning epistemes (A.15.3). Mitigation: specialization is explicitly supported (`⊑/⊑⁺`) and does not require inventing new kernel constructs; method diversity is expressed via MethodDescription refs and ComparatorSpec refs.
 * **Prag.** Bias toward conservative uncertainty handling (unknown does not coerce to pass) may reduce decisiveness. Mitigation: “probe-only” and “sandbox” behaviors are permitted as explicit, audited degrade modes (policy-id + branch-id), not as silent coercions.
 * **Did.** Bias toward explicit terminology and pins increases authoring surface area. Mitigation: this pattern provides a canonical protocol and a single planned-baseline kind so authors can reuse a stable template rather than re-inventing local prose conventions.
@@ -704,7 +703,7 @@ This pattern aligns with several post‑2015 practice lines while adapting them 
 * **A.15.3 `SlotFillingsPlanItem`** (planned baseline in WorkPlanning)
 * **A.6.1 `U.Mechanism.Intension`** and **A.6.5 slot discipline** (SlotSpecs in signatures; SlotIndex as projection)
 * **A.19 CN‑Spec** and **G.0 CG‑Spec** (governance card and legality gate)
-* **E.TGA / E.18** (P2W, crossings, UTS and Path pins)
+* **E.18 / E.18** (P2W, crossings, UTS and Path pins)
 * **E.10** (lexical and ontological discipline) and **E.19** (conformance style)
 
 #### A.19.CHR:12.2 - Coordinates with

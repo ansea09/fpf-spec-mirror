@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 70436
-line_end: 70469
+line_start: 70762
+line_end: 70795
 dependencies:
   - "A.15"
   - "A.3.1"
@@ -60,7 +60,7 @@ Main gains:
 - it replaces long negative catalogues with positive slot discipline: name the ontic, its slots, and the governing patterns for fillers instead of repeating "not proof, not gate, not work..." across dependent patterns;
 - it gives dependent patterns a stable head to rely on without copying the whole slot relation;
 - it separates durable ontic introduction from thin relation updates, local use frames, direct governing-pattern use, and quote-only source labels;
-- it makes wording follow ontology: after the slot relation and fillers are recovered, local words such as method, mechanism, process, morphism, construction, transduction, work, or change can name the slot or filler they actually refer to.
+- it makes wording follow ontology: after the slot relation and fillers are recovered, local words such as method, mechanism, process, morphism, construction, transformation, work, or change can name the slot or filler they actually refer to.
 
 **Not this pattern when.**
 

@@ -6,12 +6,12 @@ section_id: "A.20:Appendix"
 section_title: "A — CV Class Gloss (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_a-cv-class-gloss-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.20 — U.Flow.ConstraintValidity — Eulerian"
   - "A.20:Appendix — A — CV Class Gloss (normative)"
-line_start: 28759
-line_end: 28784
+line_start: 29043
+line_end: 29068
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -19,7 +19,6 @@ dependencies:
   - "C.19"
   - "E.17"
   - "E.18"
-  - "E.TGA"
   - "F.17"
   - "F.9"
   - "G.11"
@@ -33,7 +32,7 @@ keywords:
   - "PathSlice"
   - "Sentinel"
   - "SquareLaw"
-  - "TransductionFlow"
+  - "TransformationFlowStructure"
   - "flow"
 ---
 
@@ -61,5 +60,5 @@ keywords:
 
 #### A.20:Appendix B — LEX discipline (summary)
 
-Register token classes (Tech) include: `U.TransductionFlow`, `U.TransductionGraph`, `OperationalGate`, `GateProfile`, `GateCheckKind`, `GateCheckRef`, `DecisionLog`, `FreshnessTicket`, `FinalizeLaunchValues`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `VALATA`; discriminators use `Base__P2W`, `Base__EvaluatingAndRefreshing`; Tech names are ASCII; aliases for Gamma-time rules and plane lexemes, plus `CLPlane` and `Phi`, follow E.10. A.20 references these tokens; it does not introduce additional LEX classes. **For each published CV check, `GateCheckRef.aspect` is fixed to `ConstraintValidity`.** *MVPK minima for CV faces also include `PathId` and `PathSliceId` where slice-local refresh applies through `E.18`, `A.20`, and `G.11` when refresh wiring is present.*
+Register token classes (Tech) include: `TransformationFlowStructure`, `TransformationFlowMathDescription`, `OperationalGate`, `GateProfile`, `GateCheckKind`, `GateCheckRef`, `DecisionLog`, `FreshnessTicket`, `FinalizeLaunchValues`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `VALATA`; discriminators use `Base__P2W`, `Base__EvaluatingAndRefreshing`; Tech names are ASCII; aliases for Gamma-time rules and plane lexemes, plus `CLPlane` and `Phi`, follow E.10. A.20 references these tokens; it does not introduce additional LEX classes. **For each published CV check, `GateCheckRef.aspect` is fixed to `ConstraintValidity`.** *MVPK minima for CV faces also include `PathId` and `PathSliceId` where slice-local refresh applies through `E.18`, `A.20`, and `G.11` when refresh wiring is present.*
 

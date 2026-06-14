@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 53558
-line_end: 53746
+line_start: 53856
+line_end: 54044
 dependencies:
   - "A.10"
   - "A.15"
@@ -34,7 +34,7 @@ dependencies:
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
@@ -147,7 +147,7 @@ Common architecture-description views:
 | View use | Required FPF application |
 | --- | --- |
 | Function or functionality view | `A.6.F` for function or functionality wording and `C.30.ASV` for the structural view. |
-| Flow or transduction view | `E.18` plus `C.30.TGA-FLOW-REL` when the TGA graph, path, crossing, or valuation is used by architecture. |
+| Transformation-flow view | `E.18` plus `C.30.TFS-REL` when the selected transformation-flow structure, path, crossing, valuation, or graph-shaped mathematical description is used by architecture. |
 | Control or LCA view | `C.30.LCA` when a control structure view is being used. |
 | Module or interface view | `A.6.M`, signature or interface patterns, and `C.30.ASV` when module-interface structure is being used. |
 | Mathematical-lens view | `C.29` for lens-use result and preserved and lost structure; `C.30.AD` only for the architecture-description use of the lens result. |
@@ -230,7 +230,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Grounded architecture claim, selected structures, first architecture move | `C.30` |
 | Architecture or structure wording is still overloaded | `C.30.P` |
 | Architecture structural view or structure-kind and viewpoint relation | `C.30.ASV` |
-| Flow or transduction graph relation used by architecture | `C.30.TGA-FLOW-REL` and `E.18` |
+| Transformation-flow relation or graph description used by architecture | `C.30.TFS-REL` and `E.18` |
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |

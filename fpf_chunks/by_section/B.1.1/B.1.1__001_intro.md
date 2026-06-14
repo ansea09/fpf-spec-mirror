@@ -6,12 +6,12 @@ section_id: "B.1.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:intro — Intro"
-line_start: 29751
-line_end: 29752
+line_start: 30034
+line_end: 30035
 dependencies:
   - "A.1"
   - "A.12"

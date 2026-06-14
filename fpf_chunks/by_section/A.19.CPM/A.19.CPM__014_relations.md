@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 28043
-line_end: 28064
+line_start: 28327
+line_end: 28348
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -38,7 +38,7 @@ keywords:
 * `E.19` (checks; authoring discipline)
 * `E.20` (governing-pattern discipline)
 * `F.18` (alias docking; ID continuity)
-* `E.18 (E.TGA)` (project transduction graphs consume CPM instances; CPM does not create a parallel “card deck”)
+* `E.18` (project transformation-flow structures consume CPM instances; CPM does not create a parallel “card deck”)
 
 **Relates to (typical neighbors in CHR Uses contour):**
 

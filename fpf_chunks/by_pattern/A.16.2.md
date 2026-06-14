@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.2.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
-line_start: 22904
-line_end: 23128
+line_start: 23188
+line_end: 23412
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -82,7 +82,7 @@ Every retreat or retirement move shall name:
 A retreat or retirement move shall not silently preserve operational, gate, commitment, or route authority if the retreat target form no longer supports that authority.
 
 ### A.16.2:5 - Archetypal Grounding
-**Tell.** Backoff is not regression; it is an admissible transduction when the current publication form over-commits. Retirement is not erasure; it is admissible withdrawal when continuation no longer deserves current authority.
+**Tell.** Backoff is not regression; it is an admissible language-state move when the current publication form over-commits. Retirement is not erasure; it is admissible withdrawal when continuation no longer deserves current authority.
 
 **Show (System).** A rollback cue may reopen a prior decision path instead of pretending the original operationalization still holds, or retire one branch once a better-supported successor line has taken over.
 

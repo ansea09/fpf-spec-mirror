@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CPM.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
-line_start: 27736
-line_end: 28066
+line_start: 28020
+line_end: 28350
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -344,7 +344,7 @@ A CPM publication or use is conformant if it satisfies the checks below (these c
 * `E.19` (checks; authoring discipline)
 * `E.20` (governing-pattern discipline)
 * `F.18` (alias docking; ID continuity)
-* `E.18 (E.TGA)` (project transduction graphs consume CPM instances; CPM does not create a parallel “card deck”)
+* `E.18` (project transformation-flow structures consume CPM instances; CPM does not create a parallel “card deck”)
 
 **Relates to (typical neighbors in CHR Uses contour):**
 

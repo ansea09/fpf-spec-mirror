@@ -6,12 +6,12 @@ section_id: "E.17.2:End"
 section_title: "E.17.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_e-17-2-end.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:End — E.17.2:End"
-line_start: 64628
-line_end: 64629
+line_start: 64956
+line_end: 64957
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -22,7 +22,6 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
-  - "E.TGA"
   - "F.18"
   - "U.MultiViewDescribing"
   - "U.ViewpointBundleLibrary"

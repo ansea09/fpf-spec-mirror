@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 54385
-line_end: 54924
+line_start: 54683
+line_end: 55225
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,7 +33,7 @@ dependencies:
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.P"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.10.D2"
   - "E.17"
@@ -246,8 +246,8 @@ The initial set is a seed for first architecture moves, not an atlas. Use the ta
 
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | `FunctionalStructureView@Context` | `functionalBehaviorRefs`, `functionalElementRefs?`, `transformerOrCandidateBearerRefs?`, input/output or functional-port refs, capability refs, dependency refs, allocation refs | Use `A.6.F`, `A.3.4`, capability, work, module-allocation, or requirement patterns when those claims are being made. |
-| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TGA-FLOW-REL` for selected transformation-flow structure, path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
+| `FunctionalStructure` | `FunctionalStructureView@Context` | `functionalBehaviorRefs`, `functionalElementRefs?`, `transformerSideFillerRefs?`, `candidateBearerRefs?`, input-condition refs, output-condition refs, functional-port refs, capability refs, dependency refs, allocation refs, correspondence refs | Use `A.6.F`, `A.3.4`, capability, work, module-allocation, or requirement patterns when those claims are being made. |
+| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
 | `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
 | `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are being made. |
 | PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, legal, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
@@ -273,11 +273,11 @@ Minimum useful seed examples:
 | Structure kind | Minimal example | False interpretation | First governing pattern |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern when that claim kind is being made. |
-| `TransformationFlowStructure` | Path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TGA-FLOW-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
+| `TransformationFlowStructure` | Path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TFS-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
 | `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance pattern when that claim kind is being made. |
 | `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern when that claim kind is being made. |
 | `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source-return pattern when that claim or reliance use is being made. |
-| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, `C.24` agentic tool-use/call-planning, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
+| `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, `C.24` agentic tool-use relation or call-planning relation, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
 | `MaterialSpatialStructure` | Separation, adjacency, containment, or energy path or material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal pattern when that claim kind is being made. |
 | `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or governing pattern when that relation is being claimed or a claim of that kind is being made. |
 Minimal `SecurityTrustBoundaryStructureView@Context` fields:
@@ -297,7 +297,7 @@ SecurityTrustBoundaryStructureView@Context ::= {
   detectionResponseBoundaryRefs?:
   governingPatternApplicationRefs:
     A.10 | G.6 | B.3 | C.28 | A.20 | A.21 |
-    C.16 | C.25 | C.24 agentic tool-use/call-planning relation when tool authority is being claimed | C.30.LCA when a control relation is being claimed
+    C.16 | C.25 | C.24 agentic tool-use relation or call-planning relation when tool authority is being claimed | C.30.LCA when a control relation is being claimed
   admissibleUse:
   neighboringClaimBoundary:
     compliance, risk-score, assurance, checklist-security, and zero-trust claims apply the evidence, assurance, risk, gate, or security pattern governing the claim being made
@@ -337,7 +337,7 @@ The note gives a positive first architecture move: find the loss-control structu
 
 #### C.30.ASV:4.6 - Functional structure view boundary
 
-`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. It may publish `FunctionalElement@Context` as the functional-view ontic locus when the view selects a bounded context, a functional behavior, and a bearer or candidate-bearer locus. The functional element is not identical with the behavior: the behavior is grounded as `U.Transformation` for one bounded required change/effect or as `TransformationFlowStructure` for compound behavior, while the functional element is the view-local locus that binds that behavior to bearer, capability, ports, and allocation claims when those claims are current.
+`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. It may publish `FunctionalElement@Context` as a view-local functional-structure record when the view selects a bounded context, a functional behavior, and a bearer or candidate-bearer locus. The functional element is not identical with the behavior: the behavior is grounded as `U.Transformation` for one bounded required change or required effect, or as `TransformationFlowStructure` for compound behavior, while the functional element is the view-local record that binds that behavior to bearer, capability, ports, and allocation claims when those claims are current.
 
 Identity for `FunctionalElement@Context` is:
 
@@ -346,20 +346,23 @@ Identity for `FunctionalElement@Context` is:
 - functional behavior reference: `U.Transformation` or `TransformationFlowStructure`;
 - bearer or candidate-bearer locus: normally `U.System` or candidate system bearing `TransformerRole@Context`, or an explicit not-yet-allocated gap.
 
-If no bearer or candidate allocation is current, do not claim a full functional element. Record a required transformation/effect/capability gap, a functional behavior slot, or a candidate allocation question. This preserves the practical architecture move without pretending that a module, component, diagram row, or function word has already supplied the bearer.
+If no bearer or candidate allocation is current, do not claim a full functional element. Record a required transformation gap, required effect gap, capability gap, functional behavior slot, or candidate allocation question. This preserves the practical architecture move without pretending that a module, component, diagram row, or function word has already supplied the bearer.
 
 ```text
 FunctionalStructureView@Context ::= {
   architectureStructuralViewRef: ArchitectureStructuralView@ContextRef,
   functionalElementRefs?: FunctionalElement@Context refs,
-  functionOrEffectRefs?,
-  functionalBehaviorRefs?: U.Transformation | TransformationFlowStructure,
-  transformerOrCandidateBearerRefs?: U.System bearing TransformerRole@Context | candidate system | gap,
+  sourceFunctionWordingRefs?,
+  functionalBehaviorRefs?: U.Transformation refs; TransformationFlowStructure refs,
+  transformerSideFillerRefs?: U.System bearing TransformerRole@Context,
+  candidateBearerRefs?: candidate system refs; explicit gap refs,
   capabilityRefs?,
-  inputConditionOrPortRefs?,
-  outputConditionOrPortRefs?,
+  inputConditionRefs?,
+  outputConditionRefs?,
+  functionalPortRefs?,
   functionalDependencyRefs?,
-  allocationOrCorrespondenceRefs?,
+  allocationRefs?,
+  correspondenceRefs?,
   nonFunctionClaimNotes?,
   flowRelationRefs?,
   moduleInterfaceRelationRefs?,
@@ -368,7 +371,7 @@ FunctionalStructureView@Context ::= {
 }
 ```
 
-A selected transformation-flow structure, mathematical graph description, path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TGA-FLOW-REL`. When a mathematical graph description is being used, connect it through `E.18.2` and `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input/output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
+A selected transformation-flow structure, mathematical graph description, path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input and output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
 
 Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
 
@@ -580,10 +583,10 @@ correspondenceOrLossLine:
   security boundary, module-interface, and evidence-assurance structures,
   plus any diagram or evaluation-harness loss
 governingPatternApplicationRefs:
-  C.30.TGA-FLOW-REL when an E.18 flow relation is being used,
+  C.30.TFS-REL when an E.18 flow relation is being used,
   A.6.M module-relation repair for tool, API, or interface relation claims,
   A.10, G.6, or B.3 when evidence or assurance reliance is being claimed,
-  C.24 agentic tool-use/call-planning relation, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is being claimed
+  C.24 agentic tool-use relation or call-planning relation, E.16, A.20, or A.21 when tool-call, autonomy, constraint, or gate authority is being claimed
 stop condition:
   ASV contains only the structural-view record; evidence sufficiency, assurance, gate, autonomy, and tool-call authority claims are assigned to the governing patterns for those claims
 ```

@@ -6,12 +6,12 @@ section_id: "B.1.4:6"
 section_title: "Archetypal grounding (worked micro‑examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__007_archetypal-grounding-worked-micro-examples.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:6 — Archetypal grounding (worked micro‑examples)"
-line_start: 30683
-line_end: 30718
+line_start: 30966
+line_end: 31001
 dependencies:
   - "A.12"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "A.19.UNM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__006_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:4 — Solution"
-line_start: 26485
-line_end: 26686
+line_start: 26769
+line_end: 26970
 dependencies:
 keywords:
   - "CV→NCV"
@@ -219,11 +219,11 @@ When UNM is used to support comparability/acceptance:
 - If a concrete representative is needed, declare a `NormalizationFix` explicitly.
 Do not silently treat an arbitrary representative as canonical.
 
-#### A.19.UNM:4.5 - P2W / TGA integration note (normative-by-reference)
+#### A.19.UNM:4.5 - P2W and transformation-flow integration note (normative-by-reference)
 
-When UNM is used inside transduction flows/graphs (e.g., `E.18 (E.TGA)`):
+When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, UNM does not “guess a number”; it surfaces an explicit **freshness/work request** that must be planned in `U.WorkPlanning` and executed in `U.WorkEnactment`.
-- In TGA terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
+- In transformation-flow terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
 - Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and legality anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
 

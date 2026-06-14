@@ -6,12 +6,12 @@ section_id: "C.22.2:13"
 section_title: "Representation and Wording-Use Relation Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__014_representation-and-wording-use-relation-continuity.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:13 — Representation and Wording-Use Relation Continuity"
-line_start: 45684
-line_end: 45699
+line_start: 45982
+line_end: 45997
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,9 +64,9 @@ keywords:
 
 ### C.22.2:13 - Representation and Wording-Use Relation Continuity
 
-`C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, TGA paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation next-move reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
+`C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, transformation-flow paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation next-move reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
 
-Framing is not wording repair. A framing change applies when EntityOfConcern, context grounding, scope cut, viewpoint, comparison relation, use-boundary inheritance, or honest next move changes. Wording-use repair is current only when wording, diagram, functional description, TGA path, bridge, retargeting, or representation change alters the carried problem-side representation, EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or governing-pattern cue. Ordinary wording cleanup does not trigger a representation-continuity relation and does not block a Thin `ProblemCard@Context`.
+Framing is not wording repair. A framing change applies when EntityOfConcern, context grounding, scope cut, viewpoint, comparison relation, use-boundary inheritance, or honest next move changes. Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the carried problem-side representation, EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next move, or governing-pattern cue. Ordinary wording cleanup does not trigger a representation-continuity relation and does not block a Thin `ProblemCard@Context`.
 
 | Pattern or pattern family | When it matters for the card | `C.22.2` use |
 |---|---|---|

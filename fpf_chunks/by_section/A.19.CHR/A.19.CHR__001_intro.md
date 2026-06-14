@@ -6,12 +6,12 @@ section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:intro — Intro"
-line_start: 25719
-line_end: 25750
+line_start: 26003
+line_end: 26034
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -24,7 +24,6 @@ dependencies:
   - "E.10"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "G.0"
   - "G.10"
   - "G.5"
@@ -69,7 +68,7 @@ keywords:
 * A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
 * A.19 `CN‑Spec` (governance card)
 * G.0 `CG‑Spec` (legality gate for numeric operations)
-* E.TGA / E.18 (P2W + crossings + UTS/Path pins)
+* E.18 / E.18 (P2W + crossings + UTS/Path pins)
 * E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
 * E.19 conformance style (checklist obligations)
 

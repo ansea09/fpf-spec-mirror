@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:0 — Use this when"
-line_start: 38016
-line_end: 38045
+line_start: 38314
+line_end: 38343
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ Use this pattern when a declarative representation is about to guide action, rel
 
 Use this pattern especially when:
 
-- a graph path, `PathSlice`, flow valuation, or transduction graph line is overread as a prescribed work route or workflow;
+- a graph path, `PathSlice`, flow valuation, transformation-flow structure line, or graph expression over such a structure is overread as a prescribed work route or workflow;
 - an `A.10` evidence path is overread as approval, permission, release, gate passage, or assurance;
 - a query, access path, query plan, table, dashboard, schema, checklist predicate, or API description is overread as method, work plan, performed work, gate, permission, or proof;
 - a publication face, source-chain relation, carrier file path, mathematical representation, method-description representation, or FPF pattern relation is overread as call, dispatch, invocation, send, receive, route, or pattern application;

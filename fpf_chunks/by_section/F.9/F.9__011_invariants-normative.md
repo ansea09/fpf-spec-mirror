@@ -6,12 +6,12 @@ section_id: "F.9:9"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_invariants-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:9 — Invariants (normative)"
-line_start: 73813
-line_end: 73826
+line_start: 74139
+line_end: 74152
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

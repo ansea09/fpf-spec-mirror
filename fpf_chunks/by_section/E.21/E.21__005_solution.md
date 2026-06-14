@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 69667
-line_end: 69886
+line_start: 69993
+line_end: 70212
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -169,7 +169,7 @@ Every `E.21` evaluation of an FPF pattern of concern evaluates every coordinate 
 
 Constraint, harm, safety, security, compliance, deontic, self-application, recursion, and high-assurance questions do not add a second coordinate family. Evaluate them through the coordinate that owns the content: related-pattern authority, traceability, formal legality, falsifiability, affordability, corpus ecology, or evolution/refresh.
 
-**Coupled-flow unity/separation for pattern quality.** An `E.21` run evaluates a `PatternOfConcernRef` inside a development, refresh, or admission flow. Another flow may make the same pattern a pattern of concern for a different role, for example a practitioner selecting and using it, a reviewer applying it to another text, or a later evaluator reopening it. One `TransductionGraph` may join pattern development, pattern use, use-found evaluation, and repair or refresh flows through transfer, feedback, return, edition-change, or projection relations. Keep three roles distinct in each sentence: the pattern as concern of the current flow, the intended reader addressed by the pattern, and the pattern's own primary `EntityOfConcern` inside its Problem/Solution/guidance. `E.21`, `E.19`, handoffs, ledgers, README/ToC/E.11/I.2/retrieval checks, and landing evidence are checking operations or carriers in the development or evaluation flow. They can cause edits to the pattern, but they are not automatically user-facing content for the role addressed by the pattern. `DesignRunTag` stays on the subject-context, claim, work, trace, or artifact relation inside the TGA graph; it does not decide whether a pattern is current, obsolete, under development, or being used. Treat FPF pattern development as the local pilot case: quality-loop proof changes the pattern through edits, not by being copied into the pattern.
+**Coupled-flow unity/separation for pattern quality.** An `E.21` run evaluates a `PatternOfConcernRef` inside a development, refresh, or admission flow. Another flow may make the same pattern a pattern of concern for a different role, for example a practitioner selecting and using it, a reviewer applying it to another text, or a later evaluator reopening it. One `TransformationFlowStructure` may join pattern development, pattern use, use-found evaluation, and repair or refresh flows through transfer, feedback, return, edition-change, or projection relations. Keep three roles distinct in each sentence: the pattern as concern of the current flow, the intended reader addressed by the pattern, and the pattern's own primary `EntityOfConcern` inside its Problem/Solution/guidance. `E.21`, `E.19`, handoffs, ledgers, README/ToC/E.11/I.2/retrieval checks, and landing evidence are checking operations or carriers in the development or evaluation flow. They can cause edits to the pattern, but they are not automatically user-facing content for the role addressed by the pattern. `DesignRunTag` stays on the subject-context, claim, work, trace, or artifact relation inside the transformation-flow structure; it does not decide whether a pattern is current, obsolete, under development, or being used. Treat FPF pattern development as the local pilot case: quality-loop proof changes the pattern through edits, not by being copied into the pattern.
 
 #### E.21:4.4a - Frequent 3/4/5 calibration points
 

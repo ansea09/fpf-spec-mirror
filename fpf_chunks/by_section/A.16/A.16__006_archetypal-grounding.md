@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: "A.16:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_archetypal-grounding.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
+  - "A.16 — Language-State Move Coordination"
   - "A.16:5 — Archetypal Grounding"
-line_start: 22114
-line_end: 22120
+line_start: 22398
+line_end: 22404
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -32,18 +32,18 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
 ### A.16:5 - Archetypal Grounding
-**Tell.** A language-state move is not "the episteme became better". It is a typed transduction: articulation rose, closure narrowed, route plurality was published, one route was foregrounded, a framing scaffold was replaced, or a branch was admissibly retired.
+**Tell.** A language-state move is not "the episteme became better". It is a typed language-state move: articulation rose, closure narrowed, route plurality was published, one route was foregrounded, a framing scaffold was replaced, or a branch was admissibly retired.
 
 **Show (System).** An operator alert note about a disturbance may go `notice -> stabilize -> route -> operationalize`, then later `reopen` when counter-evidence arrives, or `retire` one branch when a better-supported successor line takes over.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance checklist"
-line_start: 61609
-line_end: 61629
+line_start: 61931
+line_end: 61951
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "F.6:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_intent-applicability.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:1 — Intent & applicability"
-line_start: 72784
-line_end: 72791
+line_start: 73110
+line_end: 73117
 dependencies:
   - "A.15"
   - "A.2.1"

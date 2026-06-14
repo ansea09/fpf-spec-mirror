@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 14272
-line_end: 14297
+line_start: 14515
+line_end: 14545
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
-  - "C.30.TGA-FLOW-REL"
+  - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
   - "E.18"
@@ -66,18 +66,23 @@ The first useful move is small:
 ```text
 FunctionUseRepair:
 phrase:
+sourceCueText?:
 claimKindUnderRepair:
-recoveredFpFKind:
-recoveredFpFReference?:
+recoveredValueKindRefs?:
+recoveredRelationRecordRefs?:
+recoveredSlotRefs?:
+recoveredViewRecordRefs?:
+recoveredFpFReferenceRefs?:
+directGoverningPatternApplicationRefs?:
 blockedLocalOverreadRefs:
 nextAdmissibleMove:
 stopCondition:
 ```
-Stop when the recovered FPF kind, any needed FPF reference, the one local overread that would change this repair, and the next admissible move are clear.
+Stop when the source cue, recovered value-kind refs, relation-record refs, slot refs, view-record refs, needed FPF reference refs, direct governing-pattern applications, the one local overread that would change this repair, and the next admissible move are clear.
 
 What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
 
-What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the FPF kind or relation named by value and the governing pattern that carries any remaining claim kind.
+What A.6.F buys in practice: the practitioner can keep useful engineering language while recovering the FPF value kind, relation record, slot reference, view record, or governing pattern named by value for any remaining claim kind.
 
 Not this pattern when the phrase is ordinary prose and carries no FPF claim being made. If the issue under repair is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
 

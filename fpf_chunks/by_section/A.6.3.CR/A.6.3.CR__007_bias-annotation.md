@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__007_bias-annotation.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:6 — Bias-Annotation"
-line_start: 11667
-line_end: 11671
+line_start: 11910
+line_end: 11914
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -32,5 +32,5 @@ keywords:
 ### A.6.3.CR:6 - Bias-Annotation
 
 Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**.
-This pattern intentionally biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is to apply `ExplanationFaithfulnessProfile`, `RepresentationTransduction`, `A.6.4`, or the downstream governing pattern when the same-entity textual interpretation stops being honest.
+This pattern intentionally biases toward same-entity conservativity and away from explanation or retargeting inflation. The main mitigation is to apply `ExplanationFaithfulnessProfile`, `Representation-Scheme Transition`, `A.6.4`, or the downstream governing pattern when the same-entity textual interpretation stops being honest.
 

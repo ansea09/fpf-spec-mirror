@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.DR.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
-line_start: 38010
-line_end: 38313
+line_start: 38308
+line_end: 38611
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,7 +54,7 @@ Use this pattern when a declarative representation is about to guide action, rel
 
 Use this pattern especially when:
 
-- a graph path, `PathSlice`, flow valuation, or transduction graph line is overread as a prescribed work route or workflow;
+- a graph path, `PathSlice`, flow valuation, transformation-flow structure line, or graph expression over such a structure is overread as a prescribed work route or workflow;
 - an `A.10` evidence path is overread as approval, permission, release, gate passage, or assurance;
 - a query, access path, query plan, table, dashboard, schema, checklist predicate, or API description is overread as method, work plan, performed work, gate, permission, or proof;
 - a publication face, source-chain relation, carrier file path, mathematical representation, method-description representation, or FPF pattern relation is overread as call, dispatch, invocation, send, receive, route, or pattern application;
@@ -142,7 +142,7 @@ The note records the local repair long enough to make the next governing pattern
 
 | If recovery shows... | Use this governing pattern | Keep this boundary |
 | --- | --- | --- |
-| graph object, graph path, `PathSlice`, crossing, flow valuation, or transduction-graph relation | `E.18` or `E.18.1` when P2W carry-through is current | Graph structure or path structure is not work route, method narrative, evidence result, or pattern dispatch by layout. |
+| graph object, graph path, `PathSlice`, crossing, flow valuation, transformation-flow structure relation, or graph expression over that structure | `E.18`, `E.18.2`, or `E.18.1` when P2W carry-through is current | Graph structure or path structure is not work route, method narrative, evidence result, or pattern dispatch by layout. |
 | evidence relation or provenance relation for a claim, effect, or reliance use | `A.10` | Evidence path is not approval, permission, gate passage, release, safety, work occurrence, or assurance by itself. |
 | state, status value, readiness, validity, or predicate-like value whose bearer and value frame is hidden | `A.19.SPR` or the direct status-value or state-value pattern | A predicate or state-like value is not a workflow, gate, or proof unless the governing pattern says so. |
 | publication face, source expression, generated explanation, dashboard face, publication unit, or source-chain relation | `E.17`, `E.17.EFP`, `C.2.P`, `A.15.4`, or source-use pattern named by value | Publication and source visibility do not create work, evidence, authority, release, or gate passage. |
@@ -197,7 +197,7 @@ Use those lines as guardrails: recover the FPF kind and slot instead of replacin
 
 ### C.2.P.DR:5 - Worked slices
 
-#### C.2.P.DR:5.1 - Graph path in a transduction graph
+#### C.2.P.DR:5.1 - Graph path in a transformation-flow structure
 
 Wording: "The P2W path routes the team from principle to work."
 
@@ -205,7 +205,7 @@ Repair:
 
 ```text
 DeclarativeRepresentationRepair:
-  EncounteredRepresentation: P2W path in a TransductionGraph
+  EncounteredRepresentation: P2W path or path slice in a selected TransformationFlowStructure
   RepresentationKind: graph path or PathSlice candidate under E.18 and E.18.1
   RepresentedEntityOfConcernOrClaim: carry-through relation from accepted problem-side material to next FPF kind named by value
   SourceOrPublicationRelation: current graph or pattern publication when relevant
@@ -332,7 +332,7 @@ This pattern uses external sources only for the representation-overread repair q
 | Source or practice line | Source-use role | What it changes here |
 | --- | --- | --- |
 | `E.10`, `E.10.ARCH`, and `C.2.P` | Current FPF precision-restoration architecture. | This pattern is a bounded child realization under `C.2.P`, not a new umbrella pattern. |
-| `A.10` and `E.18` | Local FPF direct governing patterns for evidence paths, provenance paths, and transduction graph paths. | Path wording is legitimate when those kinds are current; the defect is stronger overread. |
+| `A.10` and `E.18` | Local FPF direct governing patterns for evidence paths, provenance paths, transformation-flow graph paths, and path slices. | Path wording is legitimate when those kinds are current; the defect is stronger overread. |
 | `A.3.1`, `A.3.2`, `A.6.0`, `C.29`, `A.6.1`, `E.20`, `A.15.2`, and `A.15.1` | Local FPF slot chain for method-like and algorithm-like wording. | The repair recovers slot or use-position before choosing method, method description, formal substrate, mechanism, work plan, or work occurrence. |
 | Stefano Gogioso, Vincent Wang-Mascianica, Muhammad Hamza Waseem, Carlo Maria Scandolo, and Bob Coecke, "Constructor Theory as Process Theory", arXiv:2401.05364, EPTCS 397, 2023; David Deutsch and Chiara Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Current SoTA decision payload for transformation-theory and process-theory repair of computation, method, and dynamics wording. | Computation, information, dynamics, and procedure wording is interpreted through possible or impossible transformation and compositional-process claims when that claim is current, not through software notation or ordered instruction prose first. |
 | Roger Bosman, Birthe van den Berg, Wenhao Tang, and Tom Schrijvers, "A Calculus for Scoped Effects & Handlers", Logical Methods in Computer Science 20(4), 2024, arXiv:2304.09697; Cristina Matache, Sam Lindley, Sean Moss, Sam Staton, Nicolas Wu, and Zhixuan Yang, "Scoped Effects as Parameterized Algebraic Theories", ESOP 2024 extended version, arXiv:2402.03103. | Current SoTA decision payload for effectful computation and programming-model wording. | Operation syntax, semantic handling, scope, resources, equations, and effect information remain separable; pure-function slogans and imperative-declarative slogans are not enough. |

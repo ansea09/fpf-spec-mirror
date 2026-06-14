@@ -6,12 +6,12 @@ section_id: "C.22:10"
 section_title: "Interfaces & Data Paths"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__011_interfaces-data-paths.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:10 — Interfaces & Data Paths"
-line_start: 45086
-line_end: 45091
+line_start: 45384
+line_end: 45389
 dependencies:
   - "C.16"
   - "C.18"

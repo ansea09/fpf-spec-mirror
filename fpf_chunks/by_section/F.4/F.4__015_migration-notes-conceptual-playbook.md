@@ -6,12 +6,12 @@ section_id: "F.4:13"
 section_title: "Migration notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_migration-notes-conceptual-playbook.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
   - "F.4:13 — Migration notes (conceptual playbook)"
-line_start: 72441
-line_end: 72449
+line_start: 72767
+line_end: 72775
 dependencies:
   - "A.11"
   - "A.2.1"

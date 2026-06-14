@@ -6,12 +6,12 @@ section_id: "F.11:8"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__009_invariants-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:8 — Invariants (normative)"
-line_start: 74869
-line_end: 74878
+line_start: 75195
+line_end: 75204
 dependencies:
   - "A.15"
   - "A.15.1"

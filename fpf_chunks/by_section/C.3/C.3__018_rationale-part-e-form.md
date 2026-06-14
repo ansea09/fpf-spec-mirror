@@ -6,12 +6,12 @@ section_id: "C.3:15bis"
 section_title: "Rationale (Part E form)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__018_rationale-part-e-form.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:15bis — Rationale (Part E form)"
-line_start: 39099
-line_end: 39136
+line_start: 39397
+line_end: 39434
 dependencies:
   - "A.1"
   - "A.2.6"

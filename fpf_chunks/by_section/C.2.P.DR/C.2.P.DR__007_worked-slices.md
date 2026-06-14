@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 38167
-line_end: 38255
+line_start: 38465
+line_end: 38553
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.2.P.DR:5 - Worked slices
 
-#### C.2.P.DR:5.1 - Graph path in a transduction graph
+#### C.2.P.DR:5.1 - Graph path in a transformation-flow structure
 
 Wording: "The P2W path routes the team from principle to work."
 
@@ -49,7 +49,7 @@ Repair:
 
 ```text
 DeclarativeRepresentationRepair:
-  EncounteredRepresentation: P2W path in a TransductionGraph
+  EncounteredRepresentation: P2W path or path slice in a selected TransformationFlowStructure
   RepresentationKind: graph path or PathSlice candidate under E.18 and E.18.1
   RepresentedEntityOfConcernOrClaim: carry-through relation from accepted problem-side material to next FPF kind named by value
   SourceOrPublicationRelation: current graph or pattern publication when relevant

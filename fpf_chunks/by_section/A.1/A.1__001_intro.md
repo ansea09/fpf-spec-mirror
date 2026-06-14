@@ -6,12 +6,12 @@ section_id: "A.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.1 — Holonic Foundation: Entity → Holon"
   - "A.1:intro — Intro"
-line_start: 1317
-line_end: 1323
+line_start: 1318
+line_end: 1324
 dependencies:
   - "A.1"
   - "A.1.1"

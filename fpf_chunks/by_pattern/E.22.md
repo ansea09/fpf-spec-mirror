@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.22.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
-line_start: 69991
-line_end: 70205
+line_start: 70317
+line_end: 70531
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -155,7 +155,7 @@ The absorption result is quality movement under the object-under-improvement eva
 
 #### E.22:4.6 - OEE/NQD and proposal portfolios
 
-When the object is a candidate, archive/front member, selected set, parity report, refresh report, or declared transduction result, `E.22` can frame the quality question and return proposal rows. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over candidate characteristics, archive/front semantics, pool policy, selected-set publication, parity, and refresh.
+When the object is a candidate, archive/front member, selected set, parity report, refresh report, or declared transformation result, `E.22` can frame the quality question and return proposal rows. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over candidate characteristics, archive/front semantics, pool policy, selected-set publication, parity, and refresh.
 
 ### E.22:5 - Worked slices
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:13a"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_sota-alignment.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13a — SoTA Alignment"
-line_start: 20949
-line_end: 20959
+line_start: 21233
+line_end: 21243
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### A.15.1:13a - SoTA Alignment
 
-**SoTA alignment rule.** A source tradition counts here only when it preserves the local `U.Work` distinction: dated occurrence, role-assigned performer, enacted method, method-description source when live, time window, affected referent, resources, outcome, and evidence-provenance relation.
+**SoTA alignment rule.** A source tradition counts here only when it preserves the local `U.Work` distinction: dated occurrence, role-assigned performer, enacted method, method-description source when current, time window, affected referent, resources, outcome, and evidence-provenance relation.
 
 | Source tradition | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |

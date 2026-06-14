@@ -6,12 +6,12 @@ section_id: "A.10:8"
 section_title: "Rationale and SoTA alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_rationale-and-sota-alignment.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:8 — Rationale and SoTA alignment"
-line_start: 19414
-line_end: 19424
+line_start: 19698
+line_end: 19708
 dependencies:
   - "A.1"
   - "A.10"

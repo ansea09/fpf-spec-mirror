@@ -6,12 +6,12 @@ section_id: "F.19:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__009_conformance-checklist.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:7 — Conformance checklist"
-line_start: 77929
-line_end: 77943
+line_start: 78257
+line_end: 78272
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -47,4 +47,5 @@ keywords:
 | `CC-F19-8` | Development, evaluation, projection, landing, use-found, repair, and source-management evidence stay in their own carriers unless the text's own object of concern is that flow object. |
 | `CC-F19-9` | The accepted rewrite is shorter or clearer without losing technical semantics; a longer rewrite is admissible only when it recovers a hidden kind, relation, role, slot, or claim boundary. |
 | `CC-F19-10` | The repair records any value, usability, locality, currentness, or kind-recoverability loss. |
+| `CC-F19-11` | Term-source or type annotation is used only for load-bearing wording whose source ontology can change the object, kind, relation, slot/use-position, admissible use, or governing pattern; stable ordinary prose is not expanded into type labels. |
 

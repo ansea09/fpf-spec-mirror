@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how runs form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-runs-form-holarchies.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how runs form holarchies)"
-line_start: 20680
-line_end: 20738
+line_start: 20964
+line_end: 21022
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -43,7 +43,7 @@ keywords:
 
 ### A.15.1:5 - Work mereology (how runs form holarchies)
 
-We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its occurrence references (method-description source when live, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
+We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its occurrence references (method-description source when current, performer, parameterization). This avoids double-counting and keeps aggregation sound. FPF adapts insights from BORO and constructive ontologies to Work while staying practical.
 
 #### A.15.1:5.1 - Parts and wholes of Work (design‑neutral, run‑time facts)
 

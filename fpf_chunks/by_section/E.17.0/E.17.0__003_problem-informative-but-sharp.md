@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem  (informative, but sharp)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem-informative-but-sharp.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
   - "E.17.0:2 — Problem  (informative, but sharp)"
-line_start: 63490
-line_end: 63513
+line_start: 63812
+line_end: 63835
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -26,7 +26,6 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "E.TGA"
   - "U.EffectFreeEpistemicMorphing"
   - "U.EpistemeSlotRelation"
   - "U.EpistemicRetargeting"
@@ -52,7 +51,7 @@ Without `U.MultiViewDescribing`:
 3. **Each domain reinvents multi‑view semantics.**
    Architecture, safety cases, governance frameworks, and research engineering processes all use local notions of “view”, “viewpoint”, and “consistency between views”. Without a shared pattern:
 
-   * E.TGA, MVPK, and discipline packs introduce their own “view” rules and invariants, duplicating work;
+   * `E.18`, MVPK, and discipline packs introduce their own “view” rules and invariants, duplicating work;
    * cross‑domain reasoning (e.g. mapping a safety view to an architecture view) becomes ad‑hoc;
    * we cannot give a single formal story for consistency, correspondence, and EpistemicViewing across families of descriptions.
 

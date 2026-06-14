@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.USCM.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
-line_start: 27113
-line_end: 27440
+line_start: 27397
+line_end: 27724
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -340,7 +340,7 @@ This increases both evolvability (stable interface, externalized method semantic
 
   * `A.19.CHR` (suite membership and suite protocols; USCM is the `score` stage).
   * Downstream CHR stages that require score measures as inputs (e.g., `CPM`, `SelectorMechanism`).
-  * `E.18 (E.TGA)` when USCM instances are used as transduction nodes; the selected `ScoringMethodDescriptionRef@edition(…)` and other pins live in planned baselines (P2W), while executions surface effective refs/pins via `Audit`.
+  * `E.18` when USCM instances are used as nodes in a selected `TransformationFlowStructure`; the selected `ScoringMethodDescriptionRef@edition(…)` and other pins live in planned baselines (P2W), while executions surface effective refs/pins via `Audit`.
 * **Coordinates with**
 
   * `UNM` when `CN‑Spec.comparability` requires normalization‑based comparability (explicit choreography, no hidden UNM).

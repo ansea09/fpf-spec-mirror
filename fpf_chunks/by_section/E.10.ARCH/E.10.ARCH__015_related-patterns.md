@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 61643
-line_end: 61665
+line_start: 61965
+line_end: 61987
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ keywords:
 - `A.3.2` governs `U.MethodDescription` when an episteme describes a method.
 - `A.6.0`, `C.29`, `A.6.1`, and `E.20` govern formal-substrate declarations, mathematical-lens use, mechanism meaning, and mechanism-governing-definition assignment when those claims are current.
 - `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide.
-- `E.18` governs graph paths, path slices, flow valuations, and transduction-graph relations when the graph claim is current.
+- `E.18` governs graph paths, path slices, flow valuations, and transformation-flow-structure relations when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
 - `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.
 - `C.16.P` realizes characteristic and scale wording recovery.

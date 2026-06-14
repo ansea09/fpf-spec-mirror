@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.16"
-pattern_title: "Language-State Transduction Coordination"
+pattern_title: "Language-State Move Coordination"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16 — Language-State Transduction Coordination"
-line_start: 22028
-line_end: 22374
+  - "A.16 — Language-State Move Coordination"
+line_start: 22312
+line_end: 22658
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"
@@ -31,17 +31,17 @@ dependencies:
   - "C.2.LS"
   - "E.18"
 keywords:
-  - "admissible moves"
+  - "admissible move"
   - "handoff"
   - "language-state"
+  - "move"
   - "reopen"
   - "respecify"
   - "retire"
   - "sketch-backoff"
-  - "transduction"
 ---
 
-## A.16 - Language-State Transduction Coordination
+## A.16 - Language-State Move Coordination
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -76,11 +76,11 @@ Without a dedicated coordination pattern, authors either misuse `F0-F9`, force e
 ### A.16:4 - Solution
 `A.16` governs only admissible move kinds, their guards, and docking rules for how governed `U.Episteme` publications may be related across declared language-state positions. It does **not** govern `F`, does **not** define the trajectory-account semantics itself, and does **not** define a rival graph calculus beside `E.18`.
 
-A conforming move may be published as a local move note without any `U.LanguageStateTransductionTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing pattern handoff has governance value that should be published as an account.
+A conforming move may be published as a local move note without any `U.LanguageStateMoveTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing pattern handoff has governance value that should be published as an account.
 
 Observation itself is a precursor condition typically published through `B.4.1`. `A.16` move kinds begin once a cue is deliberately noticed, stabilized, route-published, reopened, formalized, operationalized, respecified, or retired under explicit move discipline.
 
-#### A.16:4.1 - Admissible transduction move family
+#### A.16:4.1 - Admissible language-state move family
 | Move | What it does | Typical source condition | Typical publication effect |
 |---|---|---|---|
 | `notice` | marks that a low-articulation cue is being deliberately preserved | low or unstable articulation | cue preservation becomes explicit enough for early publication work |
@@ -128,7 +128,7 @@ Use `A.16.0` only when at least one of the following is load-bearing:
 If the history itself must be published as a graph publication, reuse `E.18`. `A.16` governs move admissibility; `A.16.0` packages trajectory accounts; `E.18` governs graph publication of paths.
 
 ### A.16:5 - Archetypal Grounding
-**Tell.** A language-state move is not "the episteme became better". It is a typed transduction: articulation rose, closure narrowed, route plurality was published, one route was foregrounded, a framing scaffold was replaced, or a branch was admissibly retired.
+**Tell.** A language-state move is not "the episteme became better". It is a typed language-state move: articulation rose, closure narrowed, route plurality was published, one route was foregrounded, a framing scaffold was replaced, or a branch was admissibly retired.
 
 **Show (System).** An operator alert note about a disturbance may go `notice -> stabilize -> route -> operationalize`, then later `reopen` when counter-evidence arrives, or `retire` one branch when a better-supported successor line takes over.
 
@@ -158,7 +158,7 @@ The pattern biases authors toward explicit move-typing and away from folk storie
 - **Route/fork confusion.** Several live routes in one `RoutedCueSet` are not yet a lineage fork.
 
 ### A.16:9 - Consequences
-The benefit is a clear governing pattern for language-state transductions and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
+The benefit is a clear governing pattern for language-state moves and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
 
 ### A.16:10 - Rationale
 This separation keeps `C.2.3` as the sole governing pattern of formality while `C.2.2a` / `A.19` define position semantics, `A.16.0` packages only the history that deserves publication as an account, and `A.16` defines move admissibility.
@@ -242,7 +242,7 @@ When naming a move, the author should say:
 #### A.16:15.2 - Review prompt
 A reviewer should ask:
 
-- is the move a real transduction or just rhetorical relabeling?
+- is the move a real language-state move or just rhetorical relabeling?
 - does the move preserve witnesses and route provenance appropriately?
 - is route plurality being confused with lineage fork?
 - did a governing pattern silently absorb the publication too early?
@@ -261,7 +261,7 @@ If authors find themselves using `A.16` to justify measurement admissibility, br
 
 ### A.16:17 - Move Package Discipline
 
-Publish moves as small typed transduction notes rather than as narrative adjectives.
+Publish moves as small typed move notes rather than as narrative adjectives.
 
 #### A.16:17.1 - Minimal move note
 A conforming move note should name:

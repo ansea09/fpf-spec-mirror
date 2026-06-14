@@ -6,12 +6,12 @@ section_id: "A.15.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__001_intro.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:intro — Intro"
-line_start: 21236
-line_end: 21274
+line_start: 21520
+line_end: 21558
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -21,7 +21,6 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.19"
-  - "E.TGA"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -43,7 +42,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → A.15 (Work & WorkPlanning)
-> **Builds on:** `U.WorkPlan` (A.15.2), performed-work occurrence discipline (A.15.1 and E.TGA), Context discipline (E.10.D1), `MechSuiteDescription` (A.6.7), and publication/view discipline (E.17; views are projections, not places of meaning)
+> **Builds on:** `U.WorkPlan` (A.15.2), performed-work occurrence discipline (A.15.1 and E.18), Context discipline (E.10.D1), `MechSuiteDescription` (A.6.7), and publication/view discipline (E.17; views are projections, not places of meaning)
 > **Used by:** planned-baseline requirements from suites or kits; P2W (selection -> WorkPlanning -> WorkEnactment); Part G universalization
 > **Purpose (one line):** provide a universal, context-explicit **planned baseline** that maps a slot-bearing description's `SlotKind`s to **planned fillers**, to be consumed by Work enactment where launch values are finalized.
 

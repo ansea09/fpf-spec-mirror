@@ -6,12 +6,12 @@ section_id: "F.18:7"
 section_title: "Worked triad (three short, context‑local examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__008_worked-triad-three-short-context-local-examples.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:7 — Worked triad (three short, context‑local examples)"
-line_start: 77180
-line_end: 77233
+line_start: 77506
+line_end: 77559
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

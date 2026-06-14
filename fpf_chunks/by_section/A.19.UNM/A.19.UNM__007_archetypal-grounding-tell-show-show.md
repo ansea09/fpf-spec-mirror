@@ -6,12 +6,12 @@ section_id: "A.19.UNM:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 26687
-line_end: 26713
+line_start: 26971
+line_end: 26997
 dependencies:
 keywords:
   - "CV→NCV"
@@ -47,7 +47,7 @@ keywords:
 - Comparability claims are made over `[x]_{≡_UNM}` and `[y]_{≡_UNM}` (equivalence classes).
 - If reporting needs a single representative, a declared `NormalizationFix` selects it; otherwise, do not pretend a representative is canonical.
 
-**Show (P2W / TGA).** Missing/stale inputs:
+**Show (P2W and transformation flow).** Missing/stale inputs:
 - A selector (or comparator) requires comparability under `normalization-based` mode.
 - UNM finds that a required coordinate value is missing/stale for the current slice and the instance validity window.
 - UNM returns `GuardDecision = abstain` (fail‑closed) **and** emits a `FreshnessRequest` that must be handled via planned baseline + enactment (UNM does not silently proceed).

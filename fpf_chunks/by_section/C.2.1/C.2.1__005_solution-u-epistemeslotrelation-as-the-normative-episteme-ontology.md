@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution - U.EpistemeSlotRelation as the normative episteme ontology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotrelation-as-the-normative-episteme-ontology.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:4 — Solution - U.EpistemeSlotRelation as the normative episteme ontology"
-line_start: 34764
-line_end: 35146
+line_start: 35062
+line_end: 35444
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -71,7 +71,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 ##### C.2.1:4.1.1 - `EntityOfConcernSlot` — “what this episteme is about”
 
 **Tech:** `EntityOfConcernSlot` (SlotKind), `entityOfConcernRef : U.EntityRef` (Ref slot in tuples/cards).
-**Plain:** *EntityOfConcern value*, *entity of concern*. Older *entity of concern* wording is source-standard or source-migration wording, not a live Tech head.
+**Plain:** *EntityOfConcern value*, *entity of concern*. Older *entity of concern* wording is source-standard or source-migration wording, not a current Tech head.
 
 **Intent.** Provide a **single, explicit slot** for the entity (or entities) that an episteme is about, avoiding the former conflation of Object/Reference/Context.
 

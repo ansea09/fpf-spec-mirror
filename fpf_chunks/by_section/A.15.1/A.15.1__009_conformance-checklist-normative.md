@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__009_conformance-checklist-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (normative)"
-line_start: 20775
-line_end: 20868
+line_start: 21059
+line_end: 21152
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -49,7 +49,7 @@ keywords:
 **CC‑A15.1‑2 (Required links).**
 Every `U.Work` **MUST** reference:
 (a) `enactsMethod -> U.Method` (the method enacted),
-(b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is live,
+(b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is current,
 (c) `performedBy -> U.RoleAssignment` (the assigned performer in context), and
 (d) `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence).
 
@@ -78,7 +78,7 @@ All capability thresholds stated by the Method or MethodDescription **MUST** be 
 Success and failure classes and quality grades **MUST** be determined by the acceptance criteria declared or referenced by the **MethodDescription** or **CG-Spec** **in the judgment context**. The verdict is recorded on the Work.
 
 **CC‑A15.1‑9 (Resource honesty).**
-All consumptions and costs (energy, materials, machine-time, money, tool wear) **SHALL** be booked **only** to `U.Work` (not to Method, MethodDescription, Role, or Capability). Estimates may live in method descriptions or plans; performed values live in Work.
+All consumptions and costs (energy, materials, machine-time, money, tool wear) **SHALL** be booked **only** to `U.Work` (not to Method, MethodDescription, Role, or Capability). Estimates belong in method descriptions or plans; performed values belong in Work.
 
 **CC‑A15.1‑10 (Mereology declared).**
 If a Work has parts, the chosen **part relation(s)** must be declared (temporal‑part, episode‑part, operational‑part, concurrent‑part). Ambiguous mixtures are forbidden.
@@ -111,7 +111,7 @@ If multiple `U.RoleAssignment`s jointly perform the same top-level Work (e.g., m
 (b) be modeled as a **parent Work** with child Works per `U.RoleAssignment`.
 
 **CC‑A15.1‑18 (Logs ≠ Work by themselves).**
-Logs and telemetry are **evidence** for a Work; they **do not constitute** a Work unless bound to method-description source when live, performer, time window, affected referent, and judgment context.
+Logs and telemetry are **evidence** for a Work; they **do not constitute** a Work unless bound to method-description source when current, performer, time window, affected referent, and judgment context.
 
 **CC‑A15.1‑19 (Affected referent).** Each `U.Work` **MUST** name at least one affected referent (e.g., `U.Asset`, product, batch, dataset, or document) via `affected -> {...}`.
 

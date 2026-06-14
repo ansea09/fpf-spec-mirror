@@ -6,12 +6,12 @@ section_id: "E.17.2:6"
 section_title: "Conformance checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__007_conformance-checklist-normative.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:6 — Conformance checklist  (normative)"
-line_start: 64552
-line_end: 64592
+line_start: 64880
+line_end: 64920
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -22,7 +22,6 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
-  - "E.TGA"
   - "F.18"
   - "U.MultiViewDescribing"
   - "U.ViewpointBundleLibrary"
@@ -55,13 +54,13 @@ Every Description episteme or specification-use case participating in a TEVB‑m
 Capability, Method, procedure/control, role-structure, structural-architecture, module, interface, and allocation terms in those descriptions are viewpoint concern/content unless the text explicitly declares an A.6.4 retargeting, KindBridge, and species-extension rule that changes `EntityOfConcernRef`.
 
 **CC‑TEVB‑4 (Separation from PublicationVPs).**
-`VP.*` identifiers from TEVB are engineering-viewpoint ids. They do not serve as MVPK publication-side viewpoint ids. Publication-side viewpoints live in MVPK and may **correspond** to TEVB engineering viewpoints through `CorrespondenceModel`, but they are separate symbols.
+`VP.*` identifiers from TEVB are engineering-viewpoint ids. They do not serve as MVPK publication-side viewpoint ids. Publication-side viewpoints are governed in MVPK and may **correspond** to TEVB engineering viewpoints through `CorrespondenceModel`, but they are separate symbols.
 
 **CC‑TEVB‑5 (No Role coordinate in EntityOfConcern and Description-episteme boundary or specification use).**
 TEVB-aligned descriptions and specification-use cases MAY reference `U.RoleEnactor` families in `StakeholderFamilies` but SHALL NOT add `Role` or `RoleEnactor` as characteristics in Description episteme or specification-use case signatures beyond what A.7 and E.10.D2 already provides. Role semantics stay in RoleEnactment patterns; TEVB just selects concerns.
 
 **CC‑TEVB‑6 (Alignment with consumer viewpoint maps).**
-When a pattern defines engineering viewpoint families named “Functional”, “Procedural”, “Role‑Enactor (Device‑Structure)”, or “Module‑Interface” over the same `EntityOfConcernClass` and claims TEVB alignment (for example, E.TGA E.18:5.12 viewpoint map), it MUST bind them to TEVB viewpoints as follows:
+When a pattern defines engineering viewpoint families named “Functional”, “Procedural”, “Role‑Enactor (Device‑Structure)”, or “Module‑Interface” over the same `EntityOfConcernClass` and claims TEVB alignment (for example, the `E.18:5.12` transformation-flow viewpoint-family map), it MUST bind them to TEVB viewpoints as follows:
 
 * “Functional” → `VP.Functional`,
 * “Procedural” → `VP.Procedural`,

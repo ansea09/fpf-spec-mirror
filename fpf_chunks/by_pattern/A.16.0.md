@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.16.0"
-pattern_title: "U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
+pattern_title: "U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
-  - "A.16.0 — U.LanguageStateTransductionTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 22375
-line_end: 22618
+  - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
+line_start: 22659
+line_end: 22902
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -39,13 +39,13 @@ keywords:
   - "trajectory account"
 ---
 
-## A.16.0 - `U.LanguageStateTransductionTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`
+## A.16.0 - `U.LanguageStateMoveTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Language-state transduction trajectory.
+**Plain-name.** Language-state move trajectory.
 
 **Builds on.**
 `C.2.2a`, `A.16`, `A.19`, `E.17`, `E.18`, `E.10`, `F.18`.
@@ -63,7 +63,7 @@ What must remain intelligible is therefore not a myth that one unchanged `U.Epis
 ### A.16.0:2 - Problem
 Without an explicit trajectory-account pattern for those heavier cases:
 
-1. history is mistaken for generic one-pass process story rather than for governed transduction over a declared language-state `U.CharacteristicSpace`;
+1. history is mistaken for generic one-pass process story rather than for governed move lineage over a declared language-state `U.CharacteristicSpace`;
 2. early seam publications are confused with `U.EpistemePublication` forms governed by endpoint patterns;
 3. forks, merges, route retirement, supersession, and route-sensitive loss become implicit and unverifiable;
 4. every local move is either over-wrapped in ad hoc history prose or under-wrapped in a way that hides handoff and authority change;
@@ -76,10 +76,10 @@ Without an explicit trajectory-account pattern for those heavier cases:
 | **Lineage fidelity vs readable publication** | Trajectory history must stay branch-aware without becoming unreadable bookkeeping. |
 | **Seam usefulness vs endpoint discipline** | Upstream publications must be useful while remaining visibly upstream of endpoint governance. |
 | **Account clarity vs governing pattern boundaries** | The trajectory pattern must explain heavy-history cases without taking over `A.19`, `A.16`, `E.17`, `E.18`, or endpoint semantics. |
-| **Local transduction vs bridge entry** | The same trajectory may later cross viewpoint or context boundaries, but that crossing does not redefine the local trajectory governing pattern. |
+| **Local move lineage vs bridge entry** | The same trajectory may later cross viewpoint or context boundaries, but that crossing does not redefine the local trajectory governing pattern. |
 
 ### A.16.0:4 - Solution
-`U.LanguageStateTransductionTrajectory` is the **optional** trajectory-account normal form that records how successive governed `U.Episteme` publications are linked across position claims in the declared language-state `U.CharacteristicSpace` chart named in `C.2.2a`.
+`U.LanguageStateMoveTrajectory` is the **optional** trajectory-account normal form that records how successive governed `U.Episteme` publications are linked across position claims in the declared language-state `U.CharacteristicSpace` chart named in `C.2.2a`.
 
 It does **not** define position semantics, move admissibility, or publication-face ontology by itself. Those remain with `C.2.2a` / `A.19`, `A.16`, and `E.17` / `E.18` respectively.
 
@@ -107,7 +107,7 @@ Early seam publications may leave some slots unknown or wide. That uncertainty i
 #### A.16.0:4.3 - Use threshold and core trajectory record
 A single local `A.16` move note is sufficient when no load-bearing branch, loss, handoff, or supersession structure needs publication.
 
-Use `U.LanguageStateTransductionTrajectory` when at least one of the following is load-bearing:
+Use `U.LanguageStateMoveTrajectory` when at least one of the following is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - multi-step loss notes or reopen conditions that would be hidden by a compressed move note;
@@ -126,7 +126,7 @@ A conforming trajectory account then keeps at least the following explicit:
 - any loss note, reopen condition, branch-specific authority note, or bridge-sensitive note that matters.
 
 #### A.16.0:4.4 - Recorded move-family discipline
-`U.LanguageStateTransductionTrajectory` records the governed `A.16` move family: `notice`, `stabilize`, `route`, `projection`, `formalize`, `operationalize`, `reopen`, `sketchBackoff`, `respecify`, and `retire`.
+`U.LanguageStateMoveTrajectory` records the governed `A.16` move family: `notice`, `stabilize`, `route`, `projection`, `formalize`, `operationalize`, `reopen`, `sketchBackoff`, `respecify`, and `retire`.
 
 The point is not that every account uses every move. The point is that forward movement, retreat, reframing, and explicit retirement belong to one governed family when that history is worth publishing.
 
@@ -162,12 +162,12 @@ A trajectory account should therefore name not only the docking governing patter
 After such a handoff, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
 
 #### A.16.0:4.7 - Effect-free moves versus work-requiring crossings
-Some `formalize` and `operationalize` steps are effect-free epistemic transformations: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
+Some `formalize` and `operationalize` steps are effect-free epistemic changes: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
 
 Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the crossing or handoff explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
 
 #### A.16.0:4.8 - Relation to `A.16` and `E.18`
-`U.LanguageStateTransductionTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
+`U.LanguageStateMoveTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
 
 - `A.19` plus `C.2.2a` govern the declared characteristic-space reading of positions;
 - `A.16` governs move kinds and move guards;
@@ -197,7 +197,7 @@ A trajectory may later cross a viewpoint or context boundary. When that happens:
 The pattern biases authors toward lineage-aware history accounts rather than stage stories about one magically maturing `U.Episteme` publication. That bias is intentional when branch, loss, or handoff semantics matter. The counter-bias is equally intentional: do **not** publish a trajectory account when a local move note already suffices.
 
 ### A.16.0:7 - Conformance Checklist
-- `CC-A.16.0-1` `U.LanguageStateTransductionTrajectory` **SHALL NOT** be treated as mandatory wrapper syntax around every `A.16` move.
+- `CC-A.16.0-1` `U.LanguageStateMoveTrajectory` **SHALL NOT** be treated as mandatory wrapper syntax around every `A.16` move.
 - `CC-A.16.0-2` A language-state trajectory account **SHALL** identify the current governed `U.Episteme` publication and **SHALL NOT** collapse grounds, publication forms, publication faces, carriers, and governed members into one unnamed moving thing.
 - `CC-A.16.0-3` Position claims used in the trajectory **SHALL** be published as slot-explicit claims in the declared language-state `U.CharacteristicSpace`, not as folk stage labels.
 - `CC-A.16.0-4` Fork, merge, supersession, derivation, and retirement **SHALL** be made explicit whenever the account depends on them.

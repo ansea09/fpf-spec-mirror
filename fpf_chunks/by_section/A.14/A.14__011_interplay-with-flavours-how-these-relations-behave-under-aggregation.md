@@ -6,12 +6,12 @@ section_id: "A.14:10"
 section_title: "Interplay with Γ‑flavours (how these relations behave under aggregation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__011_interplay-with-flavours-how-these-relations-behave-under-aggregation.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Interplay with Γ‑flavours (how these relations behave under aggregation)"
-line_start: 20079
-line_end: 20088
+line_start: 20363
+line_end: 20372
 dependencies:
   - "A.1"
   - "B.1.1"

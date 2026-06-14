@@ -6,12 +6,12 @@ section_id: "C.2.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__012_sota-echoing.md"
-commit_sha: "cb17c555f343780e31e5fea236a74adc69295736"
+commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:11 — SoTA-Echoing"
-line_start: 36899
-line_end: 36902
+line_start: 37197
+line_end: 37200
 dependencies:
   - "A.16"
   - "A.18"
