@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 56229
-line_end: 56423
+line_start: 56312
+line_end: 56506
 dependencies:
 keywords:
 ---

@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:1 — Problem frame"
-line_start: 55844
-line_end: 55886
+line_start: 55927
+line_end: 55969
 dependencies:
   - "A.10"
   - "A.15"

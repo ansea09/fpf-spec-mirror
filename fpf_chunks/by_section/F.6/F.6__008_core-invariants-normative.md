@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Core invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__008_core-invariants-normative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
   - "F.6:7 — Core invariants (normative)"
-line_start: 73217
-line_end: 73225
+line_start: 73907
+line_end: 73915
 dependencies:
   - "A.15"
   - "A.2.1"

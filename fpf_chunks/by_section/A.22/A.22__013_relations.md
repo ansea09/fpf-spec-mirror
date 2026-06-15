@@ -6,12 +6,12 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:12 — Relations"
-line_start: 29854
-line_end: 29861
+line_start: 29981
+line_end: 29988
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,6 +46,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.24"
+  - "E.24.PUB"
   - "F.18"
   - "G.5"
   - "G.6"
@@ -61,7 +63,7 @@ keywords:
 
 ### A.22:12 - Relations
 
-Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
+Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, `E.24`, `E.24.PUB`, and `F.18`.
 
 Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and governing patterns named for structure-information, equivalence, and synthesis claim kinds when those claim kinds are being made.
 

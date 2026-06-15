@@ -6,12 +6,12 @@ section_id: "C.17:6"
 section_title: "Conformance Checklist (first tranche)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_conformance-checklist-first-tranche.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:6 — Conformance Checklist (first tranche)"
-line_start: 43687
-line_end: 43699
+line_start: 43814
+line_end: 43826
 dependencies:
   - "A.1"
   - "A.10"

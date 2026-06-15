@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Quick reference (one‑glance map)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_quick-reference-one-glance-map.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:9 — Quick reference (one‑glance map)"
-line_start: 73797
-line_end: 73807
+line_start: 74487
+line_end: 74497
 dependencies:
   - "A.11"
   - "A.7"

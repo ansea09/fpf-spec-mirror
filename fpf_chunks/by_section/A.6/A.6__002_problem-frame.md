@@ -6,12 +6,12 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:1 — Problem frame"
-line_start: 7809
-line_end: 7830
+line_start: 7983
+line_end: 8004
 dependencies:
   - "A.10"
   - "A.15"

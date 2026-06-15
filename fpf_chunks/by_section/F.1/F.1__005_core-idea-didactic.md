@@ -6,12 +6,12 @@ section_id: "F.1:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__005_core-idea-didactic.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:4 — Core idea (didactic)"
-line_start: 71556
-line_end: 71560
+line_start: 72246
+line_end: 72250
 dependencies:
   - "A.11"
   - "A.7"

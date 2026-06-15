@@ -6,23 +6,30 @@ section_id: "A.19:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_c-29-mathematical-lens-use-relation.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12a — C.29 mathematical-lens use relation"
-line_start: 24135
-line_end: 24138
+line_start: 24255
+line_end: 24258
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
+  - "A.6.5"
   - "C.16"
   - "E.18"
+  - "E.2.DA"
+  - "E.21"
+  - "E.24"
+  - "E.24.PUB"
+  - "E.9.DA"
   - "G.0"
 keywords:
   - "CharacteristicSpace"
@@ -39,5 +46,5 @@ keywords:
 
 ### A.19:12a - C.29 mathematical-lens use relation
 
-> If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or support reusable explanation beyond local declaration, add the applicable `C.29` lens-use result for the stated lens use. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
+> If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or carry a reusable explanation claim beyond local declaration, add the applicable `C.29` lens-use result for the stated lens use. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
 

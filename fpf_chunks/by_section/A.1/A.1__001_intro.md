@@ -1,40 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1"
-pattern_title: "Holonic Foundation: Entity → Holon"
+pattern_title: "U.Holon, U.System, and U.Episteme"
 section_id: "A.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
-  - "A.1 — Holonic Foundation: Entity → Holon"
+  - "A.1 — U.Holon, U.System, and U.Episteme"
   - "A.1:intro — Intro"
-line_start: 1318
+line_start: 1319
 line_end: 1324
 dependencies:
-  - "A.1"
   - "A.1.1"
-  - "A.14"
+  - "A.15"
   - "A.2"
-  - "B.1"
-  - "U.Boundary"
-  - "U.Episteme"
-  - "U.Holon"
-  - "U.System"
+  - "A.22"
+  - "A.6.5"
+  - "A.7"
+  - "C.2.1"
+  - "C.30"
+  - "E.10.ARCH"
+  - "E.24"
+  - "E.24.PUB"
 keywords:
-  - "U.Episteme"
-  - "U.System"
-  - "entity"
-  - "holon"
-  - "part-whole composition"
-  - "system boundary"
 ---
 
-## A.1 - Holonic Foundation: Entity → Holon
-> **Type:** Architectural (A)
-> **Status:** Stable
-> **Normativity:** Normative
+## A.1 - U.Holon, U.System, and U.Episteme
 
-> *“Name the thing without smuggling in its parts.”*
+> **Type:** Part A architectural ontology pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 

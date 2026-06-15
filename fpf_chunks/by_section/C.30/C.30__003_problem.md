@@ -6,13 +6,14 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 53251
-line_end: 53274
+line_start: 53342
+line_end: 53365
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -44,6 +45,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -70,13 +72,13 @@ Engineering teams use "architecture" for several different things:
 
 These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the Description episteme or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
 
-The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module structure, interface relation, work, role relation, enactor structure, evidence relation, assurance relation, information structure, data structure, placement structure, deployment structure, scale structure, or declared logical structure? What artifact are we looking at: architecture claim, description, view, carrier, publication, decision, source relation, or mathematical lens?
+The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module structure, interface relation, work, role relation, enactor structure, evidence relation, assurance relation, information structure, data structure, placement structure, deployment structure, scale structure, or declared logical structure? What is the inspected material being used as: architecture claim, description, view, publication form, decision, source relation, or mathematical lens?
 
 How can FPF describe architecture without:
 
 - creating `U.Architecture` as a new root kind;
 - treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
 - reducing architecture to module structure or interface relation;
-- letting E.18 transformation-flow structures, LCA/control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
+- letting E.18 transformation-flow structures, LCA structures, control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
 - making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
 

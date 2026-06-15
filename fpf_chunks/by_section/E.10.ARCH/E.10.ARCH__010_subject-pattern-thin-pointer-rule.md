@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__010_subject-pattern-thin-pointer-rule.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 61881
-line_end: 61902
+line_start: 62010
+line_end: 62031
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -24,6 +24,7 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
@@ -36,6 +37,7 @@ dependencies:
   - "C.2.P.DR"
   - "C.25"
   - "C.27"
+  - "C.27.TA"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
@@ -49,6 +51,8 @@ dependencies:
   - "E.20"
   - "E.21"
   - "E.24"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -60,7 +64,7 @@ keywords:
 
 Subject patterns keep at most one local first-use cue when the EntityOfConcern under repair, relation, claim, or field is hidden, then name the selected precision-restoration pattern as a pattern through ordinary reference apparatus or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
 
-- the full `E.10` trigger registry;
+- the full `E.10` wording-recognition table;
 - this shared algorithm;
 - the `WordingUseRestorationApplicabilityTable`;
 - broad false-friend lists whose only job is first-stage repair;
@@ -69,11 +73,11 @@ Subject patterns keep at most one local first-use cue when the EntityOfConcern u
 A thin pointer is acceptable when it helps the working reader choose the right first move, for example:
 
 - use `C.30.P` when architecture or structure wording hides whether the use under repair is selected structure, architecture-description use, structural-view use, source, model, diagram, graph, dashboard, or ordinary prose;
-- use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides whether the use under repair is a control-layer relation, module-interface relation, functional-flow relation, scale or coarse-graining relation, publication relation set, gate relation, neighboring use named by value, ordinary source label, quote-only cue, or blocked use;
+- use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides whether the use under repair is a control-layer relation, module-interface relation, architecture-to-`TransformationFlowStructure` relation, scale or coarse-graining relation, publication relation set, gate relation, neighboring use named by value, ordinary source label, quote-only cue, or blocked use;
 - use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or characterization use named by value;
 - use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or governing pattern;
-- use `C.2.P` when source, publication, carrier, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance;
+- use `C.2.P` when source, publication, publication form, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance;
 - use `A.3.1` when method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, or programming-paradigm wording hides whether the current slot is method, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
 - use `C.2.P.DR` when a declarative representation, graph relation, evidence path, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
 - use the direct governing pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.

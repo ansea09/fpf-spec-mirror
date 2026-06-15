@@ -6,12 +6,12 @@ section_id: "F.9:16"
 section_title: "Acceptance tests (SCR/RSCR — concept-level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__018_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:16 — Acceptance tests (SCR/RSCR — concept-level)"
-line_start: 74365
-line_end: 74381
+line_start: 75055
+line_end: 75071
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "A.6.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__004_forces.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
   - "A.6.5:3 — Forces"
-line_start: 15342
-line_end: 15397
+line_start: 15516
+line_end: 15571
 dependencies:
   - "A.1"
   - "A.19"

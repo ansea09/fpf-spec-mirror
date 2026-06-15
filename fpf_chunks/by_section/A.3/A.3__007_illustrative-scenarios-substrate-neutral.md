@@ -6,12 +6,12 @@ section_id: "A.3:6"
 section_title: "Illustrative scenarios (substrate‑neutral)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__007_illustrative-scenarios-substrate-neutral.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:6 — Illustrative scenarios (substrate‑neutral)"
-line_start: 5793
-line_end: 5803
+line_start: 5967
+line_end: 5977
 dependencies:
   - "A.15"
   - "A.2"

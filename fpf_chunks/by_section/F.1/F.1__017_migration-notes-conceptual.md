@@ -6,12 +6,12 @@ section_id: "F.1:16"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__017_migration-notes-conceptual.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:16 — Migration notes (conceptual)"
-line_start: 71808
-line_end: 71816
+line_start: 72498
+line_end: 72506
 dependencies:
   - "A.11"
   - "A.7"

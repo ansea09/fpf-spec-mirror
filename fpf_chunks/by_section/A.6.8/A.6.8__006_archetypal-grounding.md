@@ -6,12 +6,12 @@ section_id: "A.6.8:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__006_archetypal-grounding.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:5 — Archetypal grounding"
-line_start: 17305
-line_end: 17341
+line_start: 17479
+line_end: 17515
 dependencies:
   - "A.15"
   - "A.2.3"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UNM.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
-line_start: 26686
-line_end: 27107
+line_start: 26818
+line_end: 27239
 dependencies:
 keywords:
   - "CV→NCV"

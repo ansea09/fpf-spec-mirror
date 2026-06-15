@@ -6,14 +6,15 @@ section_id: "E.24:7"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_common-anti-patterns.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:7 — Common Anti-Patterns"
-line_start: 71173
-line_end: 71185
+line_start: 71321
+line_end: 71333
 dependencies:
   - "A.15"
+  - "A.19.ECS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
@@ -21,13 +22,14 @@ dependencies:
   - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
-  - "C.29"
-  - "C.3"
   - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
+  - "E.2.DA"
   - "E.20"
   - "E.21"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "E.9.DA"
@@ -47,5 +49,5 @@ keywords:
 | New name as solution | The repair invents a smoother term while the typed values remain mixed. | Recover kinds, slots, semantic area, and ontological neighborhood first; name only after the ontology is settled. |
 | Slot-position kind inflation | A role-like, method-like, temporal, source, or publication position receives a fresh kind name only because it occupies a slot. | Keep the value's kind under its governing pattern and record the slot position separately. |
 | Interface metaphor for slots | A slot relation, SlotSpec, relation position, or filler constraint is called an interface only because that word feels familiar. | Rename to the slot-language term unless a governing boundary/interface pattern makes interface meaning current. |
-| Typed paraphrase overload | A readable subject sentence is rewritten as a full chain of kinds, slots, and source-ontology labels without changing the claim. | Keep the subject sentence and annotate only the load-bearing slot or value under decision. |
+| Typed paraphrase overload | A readable subject sentence is rewritten as a full chain of kinds, slots, and source-ontology labels without changing the claim. | Keep the subject sentence and annotate only the decision-changing slot or value under decision. |
 

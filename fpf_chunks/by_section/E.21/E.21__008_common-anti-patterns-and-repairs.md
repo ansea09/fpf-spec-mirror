@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_common-anti-patterns-and-repairs.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common anti-patterns and repairs"
-line_start: 70254
-line_end: 70270
+line_start: 70388
+line_end: 70404
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -37,16 +37,16 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
-| **Score illusion.** `Pattern quality = 87/100`. | Use ordinal coordinate values; no arithmetic aggregation. |
-| **Two-column table.** Coordinate/value table has no rationale. | Add `ShortRationale` for every coordinate. |
+| **Score illusion.** `Pattern quality = 87 out of 100`. | Use ordinal coordinate values; no arithmetic aggregation. |
+| **Two-column table.** Coordinate-and-value table has no rationale. | Add `ShortRationale` for every coordinate. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |
 | **Scope laundering.** A landing-input, corpus-facing, `Stable`, release, or external-review request is reported under an easier use, local-only use, diagnostic pass, or evaluator-selected use. | Re-evaluate under the governing scope; if it fails, return `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded` with the missed coordinates and repairs. |
 | **Administrative proxy.** "4 because landed" or "3 because not externally reviewed". | Evaluate pattern content. |
-| **Comparator-free or locus-free maturity.** `MaturePatternParity... = 4` by impression, comparator IDs only, or category list such as "frame, first move, checklist, SoTA, relations". | Name mature comparison patterns and use the maturity-discharge payload: comparator, selected ingredient, current locus, and missing/lowering item. Without that payload, cap at `3`. |
-| **Omission account as maturity.** A note explaining absence raises the value. | Add content to body/neighboring pattern governing the claim, lower value, or mark the current request `repairBeforeUse`. |
-| **Semio-biased maturity.** Non-semio pattern is judged by episteme/publication exemplars only. | Include non-epistemic mature comparators and score action on the primary `EntityOfConcern`. |
-| **Quality-carrier leakage.** Corpus projection, retrieval evidence, README/ToC/E.11/I.2 alignment, monolith parity, `PatternQualityStatus`, developer/reviewer/executor correspondence, or other quality evidence is written anywhere in the pattern as method, problem, note, appendix, relation, rationale, or status content about the pattern. | Move the evidence to the `E.21` result, `E.19` run record, README/ToC/E.11/I.2, card/retrieval/projection carrier, or release/landing evidence carrier; keep only the user move or boundary that the evidence justifies. |
-| **Apparatus overwrap.** A simple FPF claim is wrapped in extra role, carrier, locus, flow, state, status, text-state, package, or process words, such as `live pattern text`, `current object`, `active record`, `field when live`, or route-like pattern talk where no real state/use-position is named, so the reader sees a bureaucratic apparatus instead of the object, relation, action, or boundary. | Apply `F.19`; record the scalar effect in `PrecisionRestorationProfile`, then lower the affected coordinates or name the completed repair. |
+| **Comparator-free or locus-free maturity.** `MaturePatternParity... = 4` by impression, comparator IDs only, or category list such as "frame, first move, checklist, SoTA, relations". | Name mature comparison patterns and use the maturity-discharge payload: comparator, selected ingredient, current locus, and missing or lowering item. Without that payload, cap at `3`. |
+| **Omission account as maturity.** A note explaining absence raises the value. | Add content to the body or neighboring pattern governing the claim, lower value, or mark the current request `repairBeforeUse`. |
+| **Semio-biased maturity.** Non-semio pattern is judged by episteme or publication exemplars only. | Include non-epistemic mature comparators and score action on the primary `EntityOfConcern`. |
+| **Quality-evidence leakage.** Corpus projection, retrieval evidence, README, ToC, `E.11`, or `I.2` alignment, monolith parity, `PatternQualityStatus`, developer, reviewer, or executor correspondence, or other quality evidence is written anywhere in the pattern as method, problem, note, appendix, relation, rationale, or status content about the pattern. | Move the evidence to the `E.21` result, `E.19` run record, README, ToC, `E.11`, `I.2`, card, retrieval, projection, or release or landing evidence locus; keep only the user move or boundary that the evidence justifies. |
+| **Apparatus overwrap.** A simple FPF claim is wrapped in extra role, publication-form, locus, flow, state, status, text-state, package, or process words, such as `current pattern text`, `current object`, `active record`, `field used in the current pass`, or route-like pattern talk where no real state or use-position is named, so the reader sees a bureaucratic apparatus instead of the object, relation, action, or boundary. | Apply `F.19`; record the scalar effect in `PrecisionRestorationProfile`, then lower the affected coordinates or name the completed repair. |
 | **Apparatus maximalism.** Every pattern gets evidence cards, telemetry, archives, and companions. | Keep evidence compact unless it changes value, status, stop, or candidate comparison. |
 | **Quality veto theatre.** "Not ready" has no E.21 coordinate named by value, evidence, status effect, and repair. | Rewrite as an `E.21` finding or remove the veto. |
 

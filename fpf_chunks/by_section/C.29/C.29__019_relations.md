@@ -6,12 +6,12 @@ section_id: "C.29:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__019_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:15 — Relations"
-line_start: 53160
-line_end: 53170
+line_start: 53287
+line_end: 53297
 dependencies:
   - "A.1.1"
   - "A.10"

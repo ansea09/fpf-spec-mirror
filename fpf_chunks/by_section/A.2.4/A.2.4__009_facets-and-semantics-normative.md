@@ -6,12 +6,12 @@ section_id: "A.2.4:8"
 section_title: "Facets and semantics (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__009_facets-and-semantics-normative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:8 — Facets and semantics (normative)"
-line_start: 3296
-line_end: 3362
+line_start: 3470
+line_end: 3536
 dependencies:
   - "A.10"
   - "A.2"

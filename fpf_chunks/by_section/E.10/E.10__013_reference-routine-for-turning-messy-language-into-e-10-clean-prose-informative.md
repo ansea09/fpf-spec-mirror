@@ -1,0 +1,75 @@
+---
+chunk_kind: "child"
+pattern_id: "E.10"
+pattern_title: "Unified Lexical Rules for FPF"
+section_id: "E.10:10"
+section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.10/E.10__013_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+heading_path:
+  - "E.10 — Unified Lexical Rules for FPF"
+  - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
+line_start: 61643
+line_end: 61682
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.19.SPR"
+  - "A.2"
+  - "A.6.P"
+  - "A.7"
+  - "B.1"
+  - "B.3"
+  - "C.2.P"
+  - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.5"
+  - "F.18"
+  - "F.19"
+  - "F.5"
+  - "U.Types"
+keywords:
+---
+
+### E.10:10 - Reference routine for turning messy language into E.10-clean prose *(informative)*
+
+> A pragmatic **three-pass** routine. It is subordinate to `E.10:0.2` and is used only when the selected wording problem needs register, naming, morphology, or local rewrite details. It works with plain text, diagrams, or models; no tools required.
+
+#### E.10:10.1 - Pass 0 — *Pre‑flight (2 minutes per page)*
+
+0.1 **Name the Context card** you’re writing in (title, edition, scope note).
+0.2 For every new or renamed token, **declare `LEX.TokenClass`** ∈ {KernelToken, ContextToken, DiscriminatorToken}.
+0.3 Apply the **MG-DA pre-check** (anchored head noun; no metaphor heads; if enum -> declare its **CharacteristicSpace**).
+0.4 Perform **collision and uniqueness** checking: full-text grep plus Reserved-Names registry (see § 7). If collides -> rename or DRR deprecate.
+
+#### E.10:10.2 - Pass 1 — *Harvest in the Context*
+
+1.1 **Underline overloaded words** (*process, service, function, workflow, ticket, approval, spec, plan,* …).
+1.2 For each, write a **one‑line intent** in Plain register (what FPF kind or relation is meant).
+1.3 Mark any cross‑Context reuse candidates.
+
+#### E.10:10.3 - Pass 2 — *Recover Core anchors (not substitution)*
+
+Pass 2 is not a lexical replacement table. For each underlined word or phrase, first record the pre-repair object kind, relation or claim kind, slot or use-position, admissible use, and scope. Then choose one disposition: keep with a guarded-head note, split into several kinds named by value, rewrite locally, record a durable naming case under `F.18`, apply the governing pattern, or leave blocking. A replacement phrase is admissible only after the post-repair kind, relation or claim kind, slot or use-position, admissible use, and scope are recoverable and no umbrella flattening, semantic narrowing, accidental widening, or slot-as-kind substitution has occurred.
+
+2.1 Recover underlined words through **§ 9 L‑rules** table:
+ • recipe -> **`U.Method` or `U.MethodDescription`**, depending on whether the EntityOfConcern is the way of doing or its description episteme
+ • planned work window or dated occurrence -> **`U.WorkPlan`** or **`U.Work`**
+ • promise -> **`U.PromiseContent`**
+ • ability -> **`U.Capability`**
+ • actor-mask -> **`...Role`** or explicit role assignment
+ • document or evidence-bearing publication cue → **`Episteme`** with **`EvidenceRole` or `RequirementRole`**
+2.2 Apply **LEX.Morph** (§ 8): suffix gates such as `...Role`, `...Work`, `MethodDescription`, or `Service`, casing, and reserved prefixes.
+2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: the EntityOfConcern named directly; recipes and docs as Description epistemes; Spec only where the specification-granting gate is present; actuals as run records.
+2.4 Attach **Context tags** on first use; set **twin labels** (Tech and Plain) in the local Glossary.
+2.5 Record a local `KindRestorationCheck` for every changed FPF-governed phrase: pre-repair kind, relation, slot-or-use-position, use, and scope; post-repair kind, relation, slot-or-use-position, use, and scope; and preserved, split, intentionally changed, or blocker disposition. A changed word without this check remains an unresolved lexical finding. If a relation, signature, field, mathematical-lens, role, method, work, evidence, assurance, gate, or decision use-position is being used, cite the governing pattern for that position; `E.10` detects the wording-use problem and does not replace the selected ontology.
+
+#### E.10:10.4 - Pass 3 — *Stitch and publish*
+
+3.1 Add **safe rewrites** for any anti‑patterns you found (use § 9.2 quick table).
+3.2 If sameness is needed across Contexts, create a **Bridge** (F.9) with explicit kind, direction, congruence level, loss, and scope; apply **A.6.9 (RPR‑XCTX)** when quoted or imported source wording uses umbrella language such as “same”, “equivalent”, “align”, or “map”.
+3.3 Publish a one‑page **UTS** (F.17) for the Context (columns: Context, Tech label, Plain label, Kernel anchor, Warnings).
+3.4 Log a short **DRR** when renames or aliases occur (F.13), linking to grep results that motivated the change.
+

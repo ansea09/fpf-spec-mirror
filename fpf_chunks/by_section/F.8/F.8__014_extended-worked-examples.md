@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_extended-worked-examples.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
   - "F.8:12 — Extended worked examples"
-line_start: 73863
-line_end: 73914
+line_start: 74553
+line_end: 74604
 dependencies:
   - "A.11"
   - "A.7"

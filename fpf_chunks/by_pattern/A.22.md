@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 29484
-line_end: 29865
+line_start: 29616
+line_end: 29992
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,6 +45,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.24"
+  - "E.24.PUB"
   - "F.18"
   - "G.5"
   - "G.6"
@@ -66,38 +68,37 @@ keywords:
 
 ### A.22:1 - Problem frame
 
-Use this pattern when a practitioner needs to select structure as an `EntityOfConcern`: the organization, relation class, constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes a next engineering or reasoning move.
+Use this pattern when a practitioner needs to select `U.Structure` as the `EntityOfConcern`: the organization, relation class, constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes a next engineering or reasoning move.
 
-The first A.22 question is positive: what is organized, over which bounded context and substrate, what relation or constraint matters, what is preserved, what is lost, and what use or stop condition follows. Diagrams, graphs, documents, source items, mathematical-lens outputs, project records, and architecture descriptions may help expose that structure; they do not replace the selected structure.
+The first A.22 question is positive: what is organized, over which bounded context and declared substrate, which relation, constraint, invariant, or variation matters, what is preserved, what is lost or hidden, and which admissible use or stop condition follows.
+
 The first useful move is small:
 
 ```text
 StructureQuestionCard@Project:
-declared structure substrate:
-bounded context:
-candidate structure:
-relation, operation, constraint, invariant, or variation class:
-what is preserved:
-what is lost, hidden, or excluded:
-reliance relation, if being claimed: source-description, base-dependence, grounding, evidence, lens, simulation, extraction, or representation
-admissible use:
-non-admissible use:
-governingPatternApplicationRefs, if another claim is being made:
+  declared structure substrate:
+  bounded context:
+  selected structure:
+  relation, operation, constraint, invariant, or variation class:
+  preserved structure:
+  lost, hidden, or excluded structure:
+  reliance relation, if being claimed:
+  admissible use:
+  non-admissible overread:
+  governingPatternApplicationRefs, if another claim is being made:
 ```
 
-`StructureQuestionCard@Project` is a project-side triage aid for this selected-structure move. It is not a new structure kind; evidence, gate, decision, work, release, publication, source-use, or description-use claims are governed by their FPF patterns when they are being made.
+`StructureQuestionCard@Project` is a project-side triage aid for this selected-structure move. It is not a new structure kind. Fill the reliance row only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is being claimed; otherwise leave it unused and keep the move on selected structure.
 
-Ordinary minimum: name the bounded context, the candidate structure, one relation, constraint, invariant, or variation class that changes action, one non-admissible overread, and the FPF pattern application or stop. Fill preserved or lost structure, reliance-relation, and source-return fields only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is being claimed. All other fields are conditional and may be `not used`.
+Stop at this card when it makes the next structure move clear. Open heavier records only when a named description, view, publication, extraction, coarsening, comparison, mathematical-lens, architecture-description, or other neighboring claim is being made.
 
-Stop at this card when it makes the next structure move clear. Use heavier records only when a named publication, reuse, extraction, coarsening, comparison, lens, architecture-description, or other claim is being made.
+What goes wrong if A.22 is missed: the practitioner reasons from the visible diagram, source, lens output, generated representation, project record, or architecture description instead of asking which organization is selected and what loss or reliance boundary matters for action.
 
-What goes wrong if A.22 is missed: architecture becomes a document, a module diagram, a transformation-flow graph expression, a mathematical-lens output, or a project record; a source, lens output, or view becomes the structure; a coarsened or extracted representation becomes loss-free. Those collapses damage first-principles reasoning because the practitioner cannot see what is organized, what carries the claim, which reliance relation is being claimed, and where the use stops.
-
-What A.22 buys in practice: a practitioner can name selected structure, state preserved and lost structure, name source or lens reliance when it is being claimed, return to source when the loss matters, and apply the FPF pattern that governs any non-structure claim being made.
+What A.22 buys in practice: a practitioner can name selected structure, state preserved and lost structure, name source or lens reliance only when it is being claimed, add a `SourceReturnCondition` when loss matters, and apply the FPF pattern that governs any non-structure claim being made.
 
 Not this pattern when the question under repair is grounded architecture adequacy, architecture structural-view adequacy, or mathematical-lens use. Use `C.30`, `C.30.ASV`, or `C.29` respectively. For any other claim being made, use the governing FPF pattern and keep A.22 only to the selected-structure portion.
 
-Thin precision-restoration pointer: if the issue under repair is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names a structure, a structure description, an architecture description, a view, a carrier, or another governed claim or relation named by value, use `C.30.P` and `C.30.STRAT` as triggered before applying A.22. Do not copy either trigger table here; A.22 resumes only after the selected-structure claim or structure-view portion is recoverable.
+Thin precision-restoration pointer: when the wording still may name a structure, a structure description, an architecture description, a view, a publication form, or another governed claim, use `C.30.P` or `C.30.STRAT` first as triggered. Apply A.22 only after the selected-structure claim or structure-view portion is recoverable.
 
 ### A.22:2 - Problem
 
@@ -114,7 +115,7 @@ How can FPF let a practitioner name structure as an EntityOfConcern while preser
 
 - selected structure and the source, evidence path, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
 - structure and a Description episteme or view of that structure;
-- structure and a publication face, diagram, table, graph, or carrier;
+- structure and a publication face, diagram, table, graph, or publication form;
 - structure and mathematical-lens application;
 - structure and another FPF claim kind governed by its governing pattern;
 - structure in general and architecture-specific structure selected by `C.30`.
@@ -132,25 +133,17 @@ How can FPF let a practitioner name structure as an EntityOfConcern while preser
 
 ### A.22:4 - Solution
 
-Select `U.Structure` as a dependent, non-agentive EntityOfConcern:
+Select `U.Structure` as the A.22 ontic head: a dependent, non-agentive `EntityOfConcern` used when selected organization changes a next engineering or reasoning move.
 
 > `U.Structure` is the organization of typed relations, constraints, invariants, variation classes, and admissible references to operation or dynamics descriptions over a declared substrate, or declared A.6.6 base declaration when base-dependence is being claimed, inside a bounded context and admissible-use frame.
 
-The first useful A.22 move is about the selected structure itself: name the bounded context, selected structure, relation, constraint, invariant, variation class, operation or dynamics reference that matters, preserved or lost organization, and the source-return condition or governing-pattern application needed for work. Description records, views, publications, diagrams, and carriers are used only as aids that make that structure move inspectable, reusable, comparable, or safe to rely on; they do not share the center of the Solution.
+The A.22 ontic head is intentionally narrow. `U.Structure` is the selected organization under concern: typed relations, constraints, invariants, variation classes, operation or dynamics references, preserved organization, and lost organization over a declared substrate in a bounded context. The grounding object may be a `U.Holon`, `U.System`, `U.Episteme`, declared substrate, or another governed value named by the current use; the selected structure remains the structure of or over that object.
 
-`U.Structure` may fill `EntityOfConcern` for a structure description, view, or structure-claim relation. Generic description and publication-use guards belong in the boundary section below, not in the selected-structure definition.
+The first useful A.22 move is about the selected structure itself: name the bounded context, selected structure, relation, constraint, invariant, variation class, operation or dynamics reference that matters, preserved or lost organization, and the source-return condition or governing-pattern application needed for work. Description records, views, publications, diagrams, publication forms, and renderings are aids that make that structure move inspectable, reusable, comparable, or safe to rely on; they do not share the center of the Solution.
 
-**EntityOfConcern bridge.** In A.22, "EntityOfConcern" names the mode in which selected structure is treated: dependent, non-agentive, claim-bearing through descriptions or views when those description or view uses are being made, and not reducible to one physical part or one publication. It is not a second EntityOfConcern head beside `EntityOfConcern`. When a structure description or view is being used, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or relation governed by the governing pattern for that use; publication faces, forms, units, carriers, and renderings only make the episteme or view available.
+`U.Structure` may fill `EntityOfConcern` for a structure description, view, or structure-claim relation. When a structure description or view is being used, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or relation governed by the governing pattern for that use; publication forms, publication units, and renderings only make the episteme or view available.
 
-A.22 governs `U.Structure` as a dependent, non-agentive EntityOfConcern. It works first over selected-structure EntityOfConcern records and structure-claim reliance relations. Structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions are subordinate record forms used only when they preserve the selected-structure move, expose loss, enable comparison, or state a reliance boundary. A.22 does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
-
-#### A.22:4.A - Auxiliary description and publication-use boundary
-
-This subsection is the A.22 auxiliary description and publication-use boundary. It protects the selected structure from description, publication, and source overread without turning A.22 into a general pattern about descriptions.
-
-`U.Structure` is not the grounding holon, source, evidence path, lens output, simulation, generated representation, declared substrate itself, `U.Holon` by default, `U.Work`, evidence record, gate decision, project decision, architecture claim, or mathematical lens. It does not act, optimize, prove, warrant, authorize, promise, prescribe, decide, or release. When one of those publication-use or project-side claims is being made, the governing pattern is named for the evidence, assurance, causal, gate, decision, publication, work, base-declaration, source-description, lens, architecture-description, or mathematical-lens-use claim being made. A.22 keeps only the structure portion and the source-return condition that protects the structure use.
-
-Descriptions and views of structure are Description epistemes and specification-use cases under the EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline, not the structure itself. A publication, diagram, graph, table, dashboard, file, carrier, model card, or generated representation can make a structural description or view available, but it does not become the selected structure or supply evidence, assurance, gate, decision, work, release, or authority claim by appearance.
+A.22 governs `U.Structure` as a dependent, non-agentive ontic head. It works first over selected-structure EntityOfConcern records and structure-claim reliance relations. Structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-general source-return conditions are subordinate record forms used only when they preserve the selected-structure move, expose loss, enable comparison, or state a reliance boundary. A.22 does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
 
 #### A.22:4.1 - Selected Structure Object
 
@@ -190,26 +183,31 @@ The field list is a recovery aid, not a demand to fill every field. The ordinary
 
 A.22 `generalStructureAspectKindRefs` are general structure-aspect cues. C.30.ASV `ArchitectureStructureKindRef` values are architecture-local structure-kind classifiers for structures selected by `ArchitectureOf@Context`. A matching label does not imply identity. Use a declared mapping when an A.22 aspect is used as an architecture structure kind.
 
+#### A.22:4.1a - Compact auxiliary boundary
+
+Use description, publication, source, evidence, work, gate, decision, release, architecture-description, and mathematical-lens patterns when those claims are being made. A.22 keeps only the selected-structure portion and the source-return condition that protects that structure use. A publication, diagram, graph, table, dashboard, file, model card, generated representation, or lens output may make a structural description or view available; it does not become the selected structure or supply neighboring claim authority by appearance.
+
 #### A.22:4.2 - Structure claim reliance relation selection
 
-A.22 does not mint a local support-headed or basis-headed relation record. When a structure claim relies on something beyond the selected structure itself, choose the reliance relation named by value kind and governing pattern:
 
-| Live reliance relation kind | What is named | Governing ontology to apply |
+A.22 does not mint a local generic reliance record. When a structure claim relies on something beyond the selected structure itself, choose the reliance relation named by value kind and governing pattern:
+
+| Current reliance relation kind | What is named | Governing ontology to apply |
 | --- | --- | --- |
-| Source-description relation | source episteme, source view, publication or carrier where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
+| Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
 | Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
 | EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, bounded context, viewpoint, reference plane, observation or witness condition if observation or witness use is being claimed | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
-| Evidence or witness reliance | evidence path, evidence role, claim ref, witness carrier, timespan and freshness | `A.10`, `A.2.4`, `G.6` |
+| Evidence or witness reliance | evidence path, evidence role, claim ref, witness publication or observation record, timespan and freshness | `A.10`, `A.2.4`, `G.6` |
 | Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
 | Simulation, generated representation, model, or extracted trace | source or representation publication, extraction method, validation boundary, preserved structure, lost structure, source-return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or governing pattern when a claim of that kind is being made |
 
-If no reliance relation kind can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a support-headed or basis-headed record to make the claim look governed.
+If no reliance relation kind can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a generic reliance record to make the claim look governed.
 
-`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, support, or basis-headed state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
+`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, or generic reliance state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
 
 #### A.22:4.3 - Structural descriptions and views
 
-Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, carriers, or source-pin sets. Every record whose name ends in `Description@Context` here is a specialization of existing `U.Episteme` governed by `C.2.1` and `E.10.D2`. Every record whose name ends in `View@Context` here is a specialization of existing `U.View` or `U.EpistemicViewing` governed by `A.6.3` and `E.17.0`. `DescriptionContext` is imported, not locally redefined.
+Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here is a specialization of existing `U.Episteme` governed by `C.2.1` and `E.10.D2`. Every record whose name ends in `View@Context` here is a specialization of existing `U.View` or `U.EpistemicViewing` governed by `A.6.3` and `E.17.0`. `DescriptionContext` is imported, not locally redefined.
 
 ```text
 StructuralDescription@Context ::= {
@@ -313,7 +311,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 | Tempting collapse | A.22 repair |
 | --- | --- |
 | The reliance relation is treated as the structure. | Name `declaredStructureSubstrateRef` and, when source, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is being claimed, name the governing ontology named by value or FPF pattern application; keep structure as selected organization over the declared substrate and do not turn that reliance relation into structure. |
-| The diagram, graph, table, dashboard, or carrier is the structure. | Treat it as publication, description, view, carrier, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
+| The diagram, graph, table, dashboard, or publication form is the structure. | Treat it as publication, description, view, publication form, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
 | A transformation-flow graph expression is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
@@ -329,7 +327,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 declaredStructureSubstrateRef: TransformationFlowStructureRef under E.18, with mathematical graph description under E.18.2 when that expression is the current claim
 candidate structure: selected transformation-flow structure
 structure-claim reliance relation: selected reliance relation named by value(
-  sourceDescriptionOrPatternApplicationRef = SourceViewRef, E.18 selected structure/path/crossing record, or E.18.2 mathematical graph description,
+  sourceDescriptionOrPatternApplicationRef = SourceViewRef, E.18 selected structure or crossing record, or E.18.2 mathematical graph description,
   governingPatternRef = E.18, A.6.6, A.10, or C.29 when that reliance claim is being made,
   relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
   validationBoundary = path currentness boundary, slice currentness boundary, or crossing currentness boundary
@@ -368,7 +366,7 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
 | Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 remains the governing pattern for lens-use result, admissibility, and stop condition. |
 | Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. description, specification-use, and publication boundaries stay explicit. |
-| Review-only bias | Checks leave a repair move: name the structure, name the structure-claim reliance relation named by value, state a structural view, return to source, or apply the governing FPF pattern. |
+| Review-only bias | Checks leave a repair move: name the structure, name the structure-claim reliance relation named by value, state a structural view, add a `SourceReturnCondition`, or apply the governing FPF pattern. |
 | Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
@@ -378,36 +376,35 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
 | **CC-A22-1 Selected structure EntityOfConcern.** | An FPF-governed structure claim names `U.Structure` or an existing FPF kind or relation named by value record; it does not mint an architecture-adjacent root kind. | Replace the broad noun with `U.Structure` or assign the claim to the existing FPF kind or relation named by value record. |
-| **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure act, optimize, prove, decide, warrant, sense, plan, or adapt. | Move agency, proof, decision, or work claim to the governing pattern and keep A.22 to selected organization. |
+| **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure act, optimize, prove, decide, warrant, sense, plan, or adapt. | Apply the governing pattern for the agency, proof, decision, or work claim and keep A.22 to selected organization. |
 | **CC-A22-3 Structure-claim reliance relation boundary.** | When source, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, the governing A.6.6 relation ontology, source-description ontology, evidence ontology, lens ontology, assurance ontology, causal ontology, gate ontology, decision ontology, or publication ontology is named. | Add the governing pattern, relation kind where the relation is being claimed, validation boundary, admissible use, and non-admissible use, or mark the reliance phrase as carrying no admissible reliance. |
-| **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Downgrade the artifact to description, view, source-description relation, A.6.6 base declaration, carrier, or publication and name the selected structure separately only if selected organization is being claimed. |
+| **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Treat the visible form as description, view, source-description relation, A.6.6 base declaration, publication form, or publication and name the selected structure separately only if selected organization is being claimed. |
 | **CC-A22-5 DescriptionContext reuse.** | Description epistemes and specification-use cases reuse `DescriptionContext`, `U.Episteme`, `U.View`, `A.6.3`, and `E.17` machinery; no second architecture-local description and view ontology is introduced. | Replace local description and view fields with the imported DescriptionContext fields or assign the claim to the existing governing pattern. |
 | **CC-A22-6 Source return.** | `SourceReturnCondition` is present when hidden source-side distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one source-return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims are assigned to their governing patterns. | Name the governing FPF pattern and the claim kind being made; do not add fields to A.22 to absorb it. |
 | **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureOf@Context`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |
 | **CC-A22-9 Plain and Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the relevant Tech fields and FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
-| **CC-A22-10 Useful action.** | The repair leaves a surviving admissible practitioner move: name the structure, name the structure-claim reliance relation named by value, state a structural view, return to source, or apply the FPF pattern that governs the claim kind being made. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-A22-10 Useful action.** | The repair leaves a surviving admissible practitioner move: name the structure, name the structure-claim reliance relation named by value, state a structural view, add a `SourceReturnCondition`, or apply the FPF pattern that governs the claim kind being made. | Restore that move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
 ### A.22:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, carrier, description, or view relation; name the structure separately only when selected organization is being claimed. |
+| **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, publication-form, description, or view relation; name the structure separately only when selected organization is being claimed. |
 | **Reliance-interpretation-as-structure** | A source trace, benchmark, lens output, model, or simulation is treated as the structure. | Name the governing A.6.6 relation ontology, source-description ontology, evidence ontology, or lens ontology; state relation kind where the relation is being claimed, validation boundary, and non-admissible use. |
 | **Loss-free extraction** | Extracted or coarsened structure is used without lost structure or source return. | Add `preservedStructure`, `lostStructure`, `validationBoundary`, and `sourceReturnCondition`. |
 | **Architecture root-kind rebound** | Structure work reintroduces `U.Architecture` or treats architecture as parallel to structure. | Use `ArchitectureOf@Context` and C.30; keep A.22 as the upstream selected-structure EntityOfConcern. |
 | **Lens ontology import** | A mathematical lens output becomes the imported ontology. | Use C.29 for the lens, cite it through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
-| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, structure-claim reliance relation, Description or view, source return, or FPF pattern application. |
+| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, structure-claim reliance relation, Description or view, `SourceReturnCondition`, or FPF pattern application. |
 
 ### A.22:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |
 | FPF gains a reusable selected-structure EntityOfConcern without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use states context, declared substrate or reliance relation named by value, preserved and lost structure, and non-admissible use when the claim has FPF-governed use. |
-| Structural views become usable without confusing the view, carrier, publication, source relation, grounding relation, and selected structure EntityOfConcern. | Existing loose prose that says "the structure is the diagram" needs repair. |
-| C.29 mathematical lenses and E.18 transformation-flow structures can supply governed reliance relations for structure claims without becoming structure ontology. | FPF pattern applications are named by value when evidence, assurance, causal-use, gate, work, or decision claims are being made.
- |
-| Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners may need one extra C.30 application when the architecture claim or durable architecture-description use is being made. |
+| Structural views become usable without confusing the view, publication form, publication, source relation, grounding relation, and selected structure EntityOfConcern. | Existing loose prose that says "the structure is the diagram" needs repair. |
+| C.29 mathematical lenses and E.18 transformation-flow structures can supply governed reliance relations for structure claims without becoming structure ontology. | FPF pattern applications are named by value when evidence, assurance, causal-use, gate, work, or decision claims are being made. |
+| Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners can require one extra C.30 application when the architecture claim or durable architecture-description use is being made. |
 
 ### A.22:10 - Rationale
 
@@ -430,7 +427,7 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 
 ### A.22:12 - Relations
 
-Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, and `F.18`.
+Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, `E.24`, `E.24.PUB`, and `F.18`.
 
 Coordinates with: `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, and governing patterns named for structure-information, equivalence, and synthesis claim kinds when those claim kinds are being made.
 

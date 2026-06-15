@@ -6,12 +6,12 @@ section_id: "A.2.4:7"
 section_title: "Core invariants (concept level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__008_core-invariants-concept-level.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:7 — Core invariants (concept level)"
-line_start: 3267
-line_end: 3295
+line_start: 3441
+line_end: 3469
 dependencies:
   - "A.10"
   - "A.2"

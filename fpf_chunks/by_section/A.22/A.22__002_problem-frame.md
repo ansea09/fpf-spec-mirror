@@ -6,12 +6,12 @@ section_id: "A.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:1 — Problem frame"
-line_start: 29490
-line_end: 29524
+line_start: 29622
+line_end: 29655
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,6 +46,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.24"
+  - "E.24.PUB"
   - "F.18"
   - "G.5"
   - "G.6"
@@ -61,36 +63,35 @@ keywords:
 
 ### A.22:1 - Problem frame
 
-Use this pattern when a practitioner needs to select structure as an `EntityOfConcern`: the organization, relation class, constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes a next engineering or reasoning move.
+Use this pattern when a practitioner needs to select `U.Structure` as the `EntityOfConcern`: the organization, relation class, constraint, invariant, variation class, preserved arrangement, or lost arrangement that changes a next engineering or reasoning move.
 
-The first A.22 question is positive: what is organized, over which bounded context and substrate, what relation or constraint matters, what is preserved, what is lost, and what use or stop condition follows. Diagrams, graphs, documents, source items, mathematical-lens outputs, project records, and architecture descriptions may help expose that structure; they do not replace the selected structure.
+The first A.22 question is positive: what is organized, over which bounded context and declared substrate, which relation, constraint, invariant, or variation matters, what is preserved, what is lost or hidden, and which admissible use or stop condition follows.
+
 The first useful move is small:
 
 ```text
 StructureQuestionCard@Project:
-declared structure substrate:
-bounded context:
-candidate structure:
-relation, operation, constraint, invariant, or variation class:
-what is preserved:
-what is lost, hidden, or excluded:
-reliance relation, if being claimed: source-description, base-dependence, grounding, evidence, lens, simulation, extraction, or representation
-admissible use:
-non-admissible use:
-governingPatternApplicationRefs, if another claim is being made:
+  declared structure substrate:
+  bounded context:
+  selected structure:
+  relation, operation, constraint, invariant, or variation class:
+  preserved structure:
+  lost, hidden, or excluded structure:
+  reliance relation, if being claimed:
+  admissible use:
+  non-admissible overread:
+  governingPatternApplicationRefs, if another claim is being made:
 ```
 
-`StructureQuestionCard@Project` is a project-side triage aid for this selected-structure move. It is not a new structure kind; evidence, gate, decision, work, release, publication, source-use, or description-use claims are governed by their FPF patterns when they are being made.
+`StructureQuestionCard@Project` is a project-side triage aid for this selected-structure move. It is not a new structure kind. Fill the reliance row only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is being claimed; otherwise leave it unused and keep the move on selected structure.
 
-Ordinary minimum: name the bounded context, the candidate structure, one relation, constraint, invariant, or variation class that changes action, one non-admissible overread, and the FPF pattern application or stop. Fill preserved or lost structure, reliance-relation, and source-return fields only when extraction, coarsening, source-description, base-dependence, grounding, evidence, lens, simulation, representation, or action reliance is being claimed. All other fields are conditional and may be `not used`.
+Stop at this card when it makes the next structure move clear. Open heavier records only when a named description, view, publication, extraction, coarsening, comparison, mathematical-lens, architecture-description, or other neighboring claim is being made.
 
-Stop at this card when it makes the next structure move clear. Use heavier records only when a named publication, reuse, extraction, coarsening, comparison, lens, architecture-description, or other claim is being made.
+What goes wrong if A.22 is missed: the practitioner reasons from the visible diagram, source, lens output, generated representation, project record, or architecture description instead of asking which organization is selected and what loss or reliance boundary matters for action.
 
-What goes wrong if A.22 is missed: architecture becomes a document, a module diagram, a transformation-flow graph expression, a mathematical-lens output, or a project record; a source, lens output, or view becomes the structure; a coarsened or extracted representation becomes loss-free. Those collapses damage first-principles reasoning because the practitioner cannot see what is organized, what carries the claim, which reliance relation is being claimed, and where the use stops.
-
-What A.22 buys in practice: a practitioner can name selected structure, state preserved and lost structure, name source or lens reliance when it is being claimed, return to source when the loss matters, and apply the FPF pattern that governs any non-structure claim being made.
+What A.22 buys in practice: a practitioner can name selected structure, state preserved and lost structure, name source or lens reliance only when it is being claimed, add a `SourceReturnCondition` when loss matters, and apply the FPF pattern that governs any non-structure claim being made.
 
 Not this pattern when the question under repair is grounded architecture adequacy, architecture structural-view adequacy, or mathematical-lens use. Use `C.30`, `C.30.ASV`, or `C.29` respectively. For any other claim being made, use the governing FPF pattern and keep A.22 only to the selected-structure portion.
 
-Thin precision-restoration pointer: if the issue under repair is still whether wording such as *architecture*, *structure*, *diagram*, *module*, *model*, *view*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names a structure, a structure description, an architecture description, a view, a carrier, or another governed claim or relation named by value, use `C.30.P` and `C.30.STRAT` as triggered before applying A.22. Do not copy either trigger table here; A.22 resumes only after the selected-structure claim or structure-view portion is recoverable.
+Thin precision-restoration pointer: when the wording still may name a structure, a structure description, an architecture description, a view, a publication form, or another governed claim, use `C.30.P` or `C.30.STRAT` first as triggered. Apply A.22 only after the selected-structure claim or structure-view portion is recoverable.
 

@@ -6,13 +6,14 @@ section_id: "C.30:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__011_rationale.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:10 — Rationale"
-line_start: 53724
-line_end: 53733
+line_start: 53816
+line_end: 53825
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -44,6 +45,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -62,7 +64,7 @@ Architecture is most useful in FPF when it stays close to selected structure ove
 
 C.30 and C.30.ASV establish an FPF architecture kernel: architecture as selected `EntityOfConcern` structure for a described holon, with Description epistemes and structural views, structure-kind discipline, correspondence and source-return boundaries, and characteristic-relation applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
-The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the structure kind under consideration, recover an artifact role, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
+The small first card is deliberate. Architecture discussions often need one immediate move: name the holon, choose the structure kind under consideration, recover a source, description, view, or publication role, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
 
-The DescriptionContext structure also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may be source relations for a view with different validation boundaries. C.30 keeps those variants usable without turning any one carrier into the architecture.
+The DescriptionContext structure also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may be source relations for a view with different validation boundaries. C.30 keeps those variants usable without turning any one publication form into the architecture.
 

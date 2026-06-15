@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — RoleMask (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_solution-rolemask-overview.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:5 — Solution — RoleMask (overview)"
-line_start: 40082
-line_end: 40104
+line_start: 40209
+line_end: 40231
 dependencies:
   - "C.3.1"
   - "C.3.2"

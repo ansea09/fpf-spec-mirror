@@ -6,12 +6,12 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:intro — Intro"
-line_start: 37619
-line_end: 37626
+line_start: 37746
+line_end: 37753
 dependencies:
   - "A.16"
   - "A.16.0"

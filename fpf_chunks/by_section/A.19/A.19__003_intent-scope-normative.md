@@ -6,23 +6,30 @@ section_id: "A.19:1"
 section_title: "Intent & Scope (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__003_intent-scope-normative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:1 — Intent & Scope (Normative)"
-line_start: 23781
-line_end: 23801
+line_start: 23900
+line_end: 23928
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
+  - "A.6.5"
   - "C.16"
   - "E.18"
+  - "E.2.DA"
+  - "E.21"
+  - "E.24"
+  - "E.24.PUB"
+  - "E.9.DA"
   - "G.0"
 keywords:
   - "CharacteristicSpace"
@@ -39,7 +46,10 @@ keywords:
 
 ### A.19:1 - Intent & Scope (Normative)
 
-**Intent.** Establish a **kernel‑level state‑space type**—`U.CharacteristicSpace`—so that any holon’s **state changes** (e.g., a system’s condition or a role’s readiness) can be formalized as **trajectories in a space of declared Characteristics with chosen Scales**. For **epistemes**, state is governed by **ESG**; **F–G–R** are **assurance coordinates**, not a state space. This gives every `U.Dynamics` model a well‑typed `stateSpace` and enables formal state certification (using RoleStateGraph checklists) instead of narrative stage transitions.
+**Intent.** Establish `U.CharacteristicSpace` as the A.19 ontic head: a declared space of characteristics, scales, value sets, value meanings, coordinate positions, coordinate groups, optional overlays, missingness semantics, comparability boundaries, normalization boundaries, and evidence hooks where those hooks are part of the space declaration. For dynamics, `U.Dynamics.stateSpace` points to such a space so a holon's state changes can be described as trajectories in declared coordinates. For epistemes, state remains governed by ESG; F-G-R are assurance coordinates, not an episteme state space.
+
+The A.19 EoC is the characteristic space itself. It is not the filled evaluation, report, score table, dashboard, pattern-quality scale, DRR adequacy scale, FPF-level pillar scale, or improvement portfolio that uses the space.
+
 
 **Scope.** Pattern A.19 **defines**:
 
@@ -50,11 +60,16 @@ keywords:
 
 -   the **hook** `U.Dynamics.stateSpace : CharacteristicSpace` – i.e. the requirement that any dynamics model declare a CharacteristicSpace for its state space (typing only).
 
-A.19 **does not** introduce any new measurement aspects, composite metrics, or **normalization semantics** (governed by **A.19.UNM**, with evidence/calibration under **C.16 (MM‑CHR)**), and it does not define how dynamics evolve over time or any predictive laws (see **A.3.3** for dynamics semantics). The focus here is purely on the _structure of state spaces_ and their comparability.
+A.19 **does not** introduce any new measurement aspects, composite metrics, or **normalization semantics** (governed by **A.19.UNM**, with evidence and calibration under **C.16 (MM‑CHR)**), and it does not define how dynamics evolve over time or any predictive laws (see **A.3.3** for dynamics semantics). The focus here is purely on the _structure of state spaces_ and their comparability.
 
-**Space-vs-consumer boundary.** Use A.19 to declare the **`CharacteristicSpace` itself**: its slots, its optional overlays, and the `U.Dynamics.stateSpace` typing hook. Do **not** use A.19 to declare consumer-side ref positions that merely point to a declared space, and do **not** use it to declare relation kinds between several such refs. Accordingly, one field such as `...SpaceRef` is a reference to a declared `CharacteristicSpace`, not a second space kind, not a slot alias inside that space, and not a role claim. If a line needs search-side versus outcome-side positions over declared spaces, one explicit relation between those refs, one source-set relation, or one `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` reading over an already-declared substrate-bearing line, source set, or set result, declare that in the consumer pattern or consumer declaration that uses the space rather than in A.19 itself.
+**Space-vs-consumer boundary.** Use A.19 to declare the `CharacteristicSpace` itself: characteristic slots, scale bindings, value sets, value meanings, coordinate groups, optional order, topology, metric, or product overlays, comparability boundaries, normalization boundaries, missingness semantics, and the `U.Dynamics.stateSpace` typing hook. Do not use A.19 to declare consumer-side reference positions that merely point to a declared space, and do not use it to declare relation kinds between several such references.
+
+Accordingly, one field such as `...SpaceRef` is a reference to a declared `CharacteristicSpace`, not a second space kind, not a slot alias inside that space, and not a role claim. If a consumer pattern needs search-side versus outcome-side positions over declared spaces, an explicit relation between those references, a source-set relation, or an interpretive view over an already declared substrate-bearing line, source set, or set result, declare that in the consumer pattern or consumer declaration that uses the space rather than in A.19 itself.
+
+`A.19.ECS` constructs an evaluation `CharacteristicSpace` for an object kind under improvement. `E.21`, `E.9.DA`, `E.2.DA`, and other evaluation patterns consume or specialize declared spaces for their own evaluated objects. A.19 supplies the space ontology; those patterns supply object-specific evaluation use, stop conditions, and value interpretation for their users.
+
 
 **Lexical guard (“map”).** Follow the normalization lexical discipline governed by **A.19.UNM**. In this pattern, lowercase **map** is used only in the mathematical sense, while capitalized **Map** retains its Part‑G suffix meaning (e.g., `DescriptorMap`). Do not mint new normalization terminology here.
 
-**Lexical guard (“carrier”).** In kernel prose, **Carrier** (capitalized) names `U.Carrier` (a **symbol bearer**). Do **not** use “carrier” for set‑theoretic supports; prefer **ValueSet**/**underlying set**. A.19 therefore uses **ValueSet(slot)** for the set that supplies values to a slot.
+**Lexical guard for value sets.** In A.19, the set that supplies values to a slot is `ValueSet(slot)` or an underlying value set. Do not call that value set a publication form, symbol bearer, source, description, or persistence object.
 

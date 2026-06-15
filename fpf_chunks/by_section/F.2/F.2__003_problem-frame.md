@@ -6,12 +6,12 @@ section_id: "F.2:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__003_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:2 — Problem Frame"
-line_start: 71860
-line_end: 71869
+line_start: 72550
+line_end: 72559
 dependencies:
   - "A.11"
   - "A.7"

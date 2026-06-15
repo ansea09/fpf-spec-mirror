@@ -6,12 +6,12 @@ section_id: "F.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__008_bias-annotation.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:6 — Bias-Annotation"
-line_start: 78248
-line_end: 78256
+line_start: 78938
+line_end: 78946
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,10 +35,10 @@ keywords:
 
 ### F.19:6 - Bias-Annotation
 
-`F.19` deliberately biases toward shorter, reader-facing prose. The protected value is kind-preserving clarity, not brevity by itself. A rewrite that removes terms while losing object kind, relation kind, slot/use-position, source-use role, or admissible-use boundary is worse than the original.
+`F.19` deliberately biases toward shorter, reader-facing prose. The protected value is kind-preserving clarity, not brevity by itself. A rewrite that removes terms while losing object kind, relation kind, slot or use-position, source-use role, or admissible-use boundary is worse than the original.
 
 `F.19` also protects against two common reviewer biases:
 
 - **negative-catalogue bias:** explaining a class by long lists of what it is not;
-- **apparatus-preservation bias:** replacing one process, role, carrier, locus, flow, status, or quality-proof phrase with another phrase that still hides the object.
+- **apparatus-preservation bias:** replacing one process, role, record, card, table, schema, data-structure wrapper, locus, flow, status, or quality-proof phrase with another phrase that still hides the object.
 

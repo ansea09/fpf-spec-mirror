@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-entityofconcernref-preserving-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
-line_start: 12026
-line_end: 12246
+line_start: 12200
+line_end: 12420
 dependencies:
   - "A.10"
   - "A.15"

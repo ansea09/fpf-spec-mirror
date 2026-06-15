@@ -6,12 +6,12 @@ section_id: "A.2.5:21"
 section_title: "Relations (quick pointers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__022_relations-quick-pointers.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:21 — Relations (quick pointers)"
-line_start: 4147
-line_end: 4152
+line_start: 4321
+line_end: 4326
 dependencies:
   - "A.15"
   - "A.2.1"

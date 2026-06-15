@@ -6,13 +6,14 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 54672
-line_end: 54682
+line_start: 54756
+line_end: 54766
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -58,7 +60,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| View usefulness vs view overread | Views make architecture discussable, but a useful artifact can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
+| View usefulness vs view overread | Views make architecture discussable, but a useful publication form or source material can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
 | Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often travel together but are not the same kind. |
 | TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
 | Small triage vs full view record | Many cases need only the structure kind under consideration and next move; full view records are justified only when they change action. |

@@ -6,12 +6,12 @@ section_id: "A.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__013_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12 — Relations"
-line_start: 8227
-line_end: 8238
+line_start: 8401
+line_end: 8412
 dependencies:
   - "A.10"
   - "A.15"

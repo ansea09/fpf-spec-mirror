@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.6.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "G.6 — Evidence Graph & Provenance Ledger"
-line_start: 81612
-line_end: 81988
+line_start: 82303
+line_end: 82679
 dependencies:
   - "A.10"
   - "A.21"

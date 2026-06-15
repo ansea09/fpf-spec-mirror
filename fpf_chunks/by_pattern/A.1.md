@@ -1,217 +1,309 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.1"
-pattern_title: "Holonic Foundation: Entity → Holon"
+pattern_title: "U.Holon, U.System, and U.Episteme"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
-  - "A.1 — Holonic Foundation: Entity → Holon"
-line_start: 1318
-line_end: 1502
+  - "A.1 — U.Holon, U.System, and U.Episteme"
+line_start: 1319
+line_end: 1599
 dependencies:
-  - "A.1"
   - "A.1.1"
-  - "A.14"
+  - "A.15"
   - "A.2"
-  - "B.1"
-  - "U.Boundary"
-  - "U.Episteme"
-  - "U.Holon"
-  - "U.System"
+  - "A.22"
+  - "A.6.5"
+  - "A.7"
+  - "C.2.1"
+  - "C.30"
+  - "E.10.ARCH"
+  - "E.24"
+  - "E.24.PUB"
 keywords:
-  - "U.Episteme"
-  - "U.System"
-  - "entity"
-  - "holon"
-  - "part-whole composition"
-  - "system boundary"
 ---
 
-## A.1 - Holonic Foundation: Entity → Holon
-> **Type:** Architectural (A)
-> **Status:** Stable
-> **Normativity:** Normative
+## A.1 - U.Holon, U.System, and U.Episteme
 
-> *“Name the thing without smuggling in its parts.”*
+> **Type:** Part A architectural ontology pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
+
+### A.1:0 - Use This When
+
+Use this pattern when a project must say what kind of thing is under concern before it can discuss parts, boundaries, interactions, roles, work, architecture, or descriptions.
+
+Typical moments:
+
+- a team calls everything a "system" and then tries to ask physical questions about theories, documents, models, or descriptions;
+- an episteme is treated as an acting agent that performs work or makes decisions;
+- a group, organization, model, document set, machine, neural-network architecture, or research program must be treated as a whole with parts;
+- a set of items is expected to act, but no boundary, part-whole relation, or acting system has been named;
+- architecture or structure claims need a grounding holon before selected structures can be described.
+
+**First useful move.** Decide whether the subject is only a `U.Entity`, a `U.Holon`, a `U.System` holon, or a `U.Episteme` holon in the current bounded context.
+
+**What goes wrong if missed.** A theory gets ports, a document edits itself, a list becomes an acting organization, and architecture is discussed without naming the holon whose structure is being selected.
+
+**What this buys.** FPF gets one compact root for composition: identity starts at `U.Entity`; part-whole composition starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme` without making it an agent.
+
+**Not this pattern when.**
+
+- If the current question is local vocabulary, role assignment, or meaning inside one semantic frame, use `A.1.1` and the role-governing patterns.
+- If the current question is the episteme slot relation, use `C.2.1`.
+- If the current question is selected structure over a holon, use `A.22`.
+- If the current question is architecture of a holon in context, use `C.30`.
+- If the current question is work, method, or role-method-work alignment, use `A.15` and its dependent patterns.
 
 ### A.1:1 - Problem Frame
 
-The first epistemic act in any discipline is to **point**: “that thing, not the background.” Physics calls the pointed object a *system*, biology an *organism*, information science an *artifact*, philosophy an *entity*. Reusing any one of these across domains drags hidden assumptions and yields nonsense like *“What is the mass of a system of equations?”* or *“Where is the network interface of a moral theory?”*
-FPF therefore starts from a **minimal, domain‑agnostic root** that makes such category errors impossible **by construction** and gives engineers and managers a clean, uniform handle for composition, boundaries and interfaces.
+FPF cannot use `system` as its universal root. A pump, a theory, a software product, a legal code, a dashboard, a research program, and a team can all be objects under concern, but they do not all act, exchange matter, have physical ports, or execute methods.
+
+The root distinction is:
+
+- `U.Entity`: something that can be individuated and referenced;
+- `U.Holon`: an entity that is usable as a whole with parts and as a part within larger wholes;
+- `U.System`: an acting physical or operational holon;
+- `U.Episteme`: a claim-bearing, non-agentive holon.
+
+A.1 governs this holonic ontology. It lets FPF talk about composition and boundaries across systems and epistemes without building a second ontology from the words "object", "system", "document", "model", "theory", or "architecture".
 
 ### A.1:2 - Problem
 
-If FPF treats **system** as the universal root, two recurrent failure modes appear:
+Without A.1:
 
-1. **Category Error** — physical affordances get projected onto abstract epistemes (ports on theories; kilogram-mass of paradigms).
-2. **Mereological Over‑reach** — part–whole calculus is applied to genuinely atomic entities (prime numbers, elementary charges), producing meaningless “sub‑parts.”
-
-A robust kernel **separates identity from structure**: first say *what can be singled out*, then say *what has parts*.
+1. **System-bias spreads.** Physical assumptions are projected onto epistemes, descriptions, theories, and documents.
+2. **Epistemes become agents.** A document, theory, model, or pattern is said to decide, perform, authorize, promise, or edit itself.
+3. **Collections become collectives by wording.** A set of people, services, files, or claims is treated as an acting whole without a boundary and role assignment.
+4. **Architecture loses its grounding holon.** A structure or architecture claim floats free of the holon whose structure is being selected.
+5. **Part-whole reasoning is applied too early.** A bare entity is given parts, components, and aggregation before it is modeled as a holon.
 
 ### A.1:3 - Forces
 
-| Force                         | Tension                                                                                                    |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Universality vs Intuition** | Precision of a new root term (*Holon*) ↔ practitioner expectation of familiar words (*System*, *Theory*).  |
-| **Purity vs Pragmatism**      | Clean formalism ↔ immediate usability for engineers, scientists, managers.                                 |
-| **Structure vs Identity**     | Need to talk about atoms with zero parts ↔ need full mereology for composites.                             |
+| Force | Tension |
+| --- | --- |
+| Universal root vs domain comfort | Practitioners know words such as system, theory, model, product, and organization; FPF needs a cross-domain root that does not import one domain's assumptions. |
+| Identity vs composition | A thing can be individuated before FPF knows whether it has parts or belongs to a larger whole. |
+| Acting vs claim-bearing | Systems can enact roles, methods, plans, and work; epistemes can be described, revised, published, and used, but they do not act by themselves. |
+| Boundary clarity vs modeling burden | A holon needs a boundary; not every first mention needs a full decomposition. |
+| Collection vs collective | A set can be useful without being an acting system; an acting group needs a boundary and systemhood. |
 
-### A.1:4 - Solution - A three-part root (Entity -> Holon -> {System, Episteme})
+### A.1:4 - Solution
 
-FPF adopts a **three-part root ontology** refining Koestler’s “holon,” with crisp boundaries and safe composition.
+Use the A.1 holon stack:
 
-#### A.1:4.1 - `U.Entity` — Primitive of Distinction
-Anything that can be individuated and referenced. **No structural assumptions.** Use when you need to name “a something” without committing to having parts.
+```text
+U.Entity
+  U.Holon
+    U.System
+    U.Episteme
+```
 
-> **Naming note (mint vs reuse).** `U.Entity` and `U.Holon` are minted kernel terms: they reuse familiar words but intentionally diverge from domain‑specific ontologies and DDD “Entity”, so we can reason cross‑domain without importing hidden assumptions.
+This is not a publication hierarchy. It is the root ontology for cross-domain composition in FPF.
 
-#### A.1:4.2 - `U.Holon` — Unit of Composition
-A `U.Entity` that is *simultaneously* **(a)** a whole composed of parts and **(b)** a part within a larger whole. Formally, `U.Holon ⊑ U.Entity`.
-Well‑formedness constraints:
+#### A.1:4.1 - U.Entity
 
-* **WF‑A1‑1 (Single boundary).** A holon has **exactly one** `U.Boundary` that separates it from its environment.
-* **WF‑A1‑2 (Γ domain).** The universal aggregation operator **Γ** is defined **only** on sets of `U.Holon` (never on bare `U.Entity`).
-* **WF‑A1‑3 (Γ scope).** A Γ‑application is scoped to a declared context and a single declared temporal scope (design **or** run); order/time are routed to Γ\_ctx / Γ\_time (B.1.4).
+`U.Entity` is anything that can be individuated and referenced under a bounded context. It carries no part-whole assumption by itself.
 
-These constraints make composition rules uniform across domains and prevent Γ from being misapplied.
+Use `U.Entity` when the current move only needs to point to a thing: a number, a claim, a named product, a material batch, a data value, a legal clause, a role value, a source reference, or another object under concern.
 
-#### A.1:4.3 - Interface primitives: `U.Boundary` & `U.Interaction`
-Every holon is defined by **how** it is separated and **what** crosses the separation.
+Do not apply holon aggregation, membership tests, or acting-system roles to a bare `U.Entity` unless the current pattern also models it as a `U.Holon` or a subtype of `U.Holon`.
 
-* **`U.Boundary`** — physical or conceptual surface delimiting the holon’s scope.
-* **`U.Interaction`** — any flow of matter, energy, or information that crosses a boundary.
-  **Canonical boundary kinds (with twin archetypes):**
+#### A.1:4.2 - U.Holon
 
-| Kind          | Permitted exchanges             | `U.System` archetype               | `U.Episteme` archetype                                        |
-| ------------- | ------------------------------- | ---------------------------------- | ------------------------------------------------------------- |
-| **Open**      | Matter, energy, information     | Microservice exposing a public API | Public wiki editable by anyone                                |
-| **Closed**    | Energy, information (no matter) | Sealed cooling loop in a server    | Version‑locked theory accepting new evidence but fixed axioms |
-| **Permeable** | User‑filtered subset            | Cell membrane regulating ions      | Legal code allowing specific amendment classes only           |
+`U.Holon` is a `U.Entity` treated as a whole with parts and as a participant in larger wholes under a bounded context.
 
-This pair (`Boundary`, `Interaction`) makes interfaces explicit, reviewable, and testable across domains.
+The A.1 holon slot relation is:
 
-#### A.1:4.4 - Inside/Outside decision test
-To decide whether an entity **E** is *inside* a holon **H**, apply:
+```text
+HolonSlotRelation:
+  holonIdentity:
+  boundedContextRef:
+  boundaryRef:
+  partRelationSet:
+  containingWholeRef?
+  interactionSet?
+  subtypeKind?: U.System | U.Episteme | other accepted subtype
+  selectedStructureRef?
+```
 
-1. **Dependency test:** removing **E** breaks a core invariant of **H**.
-2. **Interaction test:** **E** participates in causal loops wholly within **H**’s boundary.
-3. **Emergence test:** **E** contributes to a novel collective property warranting **H** as a single unit.
-   Fail all three → **E** is *outside*. This practical triage prevents “scope creep” and forces explicit modeling of environment vs interior.
+The boundary is current for the bounded context. A holon may have several possible boundary descriptions across contexts or viewpoints, but one current holon use must say which boundary governs the claim being made.
 
-> **Collections vs collectives.** A set/collection of holons is not itself an acting unit. If a grouping is expected to act, model it as a `U.System` holon with its own boundary and attach roles/methods/work to that system (see CC‑A1.6; details in A.2 and A.15).
+`partRelationSet` names the part-whole relations current for the use. Under open-world discipline, an omitted part list means "not recovered or not current for this claim", not "there are no parts."
 
-#### A.1:4.5 - Archetypal sub‑holons
-FPF fixes two **archetypal** specializations to ground cross‑domain universality:
+#### A.1:4.3 - Boundary and Interaction
 
-| Subtype                    | Essence                                                | Governing pattern |
-| -------------------------- | ------------------------------------------------------ | ---------------- |
-| **`U.System ⊑ U.Holon`**   | Physical, operational holon obeying conservation laws. | **Sys‑CAL**      |
-| **`U.Episteme ⊑ U.Holon`** | Knowledge holon (axioms, evidence, argument graph).    | **KD‑CAL**       |
+`U.Boundary` delimits the holon from its environment in the current bounded context.
 
-> **Agency rule.** Behavioural roles and executed methods/work attach to `U.System` holons only; `U.Episteme` is non-agentive claim-bearing holon. Any change to an episteme is performed by an external system acting across a boundary (cf. CC‑A1.5 and A.2/A.15).
+`U.Interaction` names what crosses that boundary when such crossing is current: matter, energy, information, control signal, material flow, document transfer, claim update, or another governed crossing kind.
 
-*Naming guideline:* keep “**System**” and “**Episteme**” for practitioner comfort; reserve **Holon** for meta‑level discourse and formal signatures.
+Do not call every boundary an interface. Use interface language only when a governing module, signature, mechanism, architecture, or boundary pattern makes interface meaning current.
 
-### A.1:5 - Archetypal Grounding (System / Episteme)
+#### A.1:4.4 - Holon Membership Test
 
-| Holonic slot | **`U.System` — Water‑pump**            | **`U.Episteme` — Scientific theory**            |
-| ------------ | -------------------------------------- | ----------------------------------------------- |
-| **Identity** | Pump #37 stamped on the name‑plate     | “Newtonian Gravitation”, 1726 edition           |
-| **Boundary** | Cast‑iron casing; inlet/outlet flanges | Axiomatic scope and vocabulary                  |
-| **Parts**    | Motor, impeller, seals, housing        | Axioms, definitions, theorems, datasets         |
-| **Whole**    | Operable assembly that moves fluid     | Coherent body of knowledge predicting phenomena |
+When a candidate part is contested, use the holon membership test:
 
-Showing the **same structural slots** filled by a machine and a theory demonstrates the **substrate‑independent universality** of `U.Holon`. This is the didactic “Tell–Show–Show” anchor required by the Style‑Guide for architectural patterns.
+1. **Dependency:** removing the candidate breaks a core invariant of the holon.
+2. **Internal interaction:** the candidate participates in interactions within the holon boundary that matter for the current claim.
+3. **Emergence:** the candidate contributes to a collective property that justifies treating the whole as one holon.
 
-### A.1:6 - Bias-Annotation — Boundary-first modelling risks
+Passing one or more tests can justify part membership for the current claim. Failing all three keeps the candidate outside the holon boundary for that claim.
 
-This kernel distinction is intentionally **boundary‑first**: it treats “where the boundary is” as a modelling decision that shapes everything downstream. That framing is powerful, but it can also smuggle bias if boundary choices are made implicitly or for political convenience.
+#### A.1:4.5 - U.System
 
-| Lens | Typical bias risk | Mitigation in this pattern |
-|---|---|---|
-| **Gov** | Boundary decisions become “org charts”, not defensible model choices. | Record boundary rationale in the working model and require the **Inside/Outside test** (A.1:4.4) for contested cases. |
-| **Arch** | Over‑modularisation: every interaction becomes a “system” with hard edges. | Prefer **permeable boundaries** when the phenomenon is gradient‑like; keep the `U.Entity`/`U.Holon` split minimal and push dynamics into Roles (A.2) and Work (A.15). |
-| **Onto/Epist** | Category error: treating epistemes as physical actors (or vice versa). | Keep `U.Episteme` passive; model transformations as actions of a `U.System` in role, acting via explicit carriers (see A.10). |
-| **Prag** | “Holon” becomes jargon that slows teams down. | Use `U.System` / `U.Episteme` in day‑to‑day models; reserve “holon” for kernel‑level discourse (see naming guidance in A.1:4.5 and CC‑A1.8). |
-| **Didactic** | Readers infer semantics from overloaded labels or inconsistent headings. | Keep canonical titles and the `U.*` prefixes explicit; avoid informal deontic language in normative clauses (E.8). |
+`U.System` is a holon that can act physically or operationally. It can bear roles, enact methods, perform work, participate in mechanisms, maintain state, transform other entities, and produce effects.
 
-### A.1:7 - Conformance Checklist (normative)
+Use `U.System` when the current claim needs acting-system eligibility:
 
-| ID          | Requirement                                                                                                                                                                    | Purpose / Notes                                                                                                        |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| **CC‑A1.1** | Any modelled object that exhibits a part–whole structure **MUST** be typed as `U.Holon` or its subtype.                                                                        | Prevents applying Γ to atomic entities; makes aggregation well‑typed.                                                  |
-| **CC‑A1.2** | Each `U.Holon` **MUST** reference exactly one `U.Boundary` and declare its boundary kind (*open / closed / permeable*).                                                        | Enables boundary inheritance and environmental Standards; aligns with the canonical boundary kinds introduced in A.1.  |
-| **CC‑A1.3** | Domain patterns **MUST** explicitly subtype their root concept (`U.System`, `U.Episteme`, …) from `U.Holon`.                                                              | Ensures cross‑domain compatibility of aggregation and emergence patterns.                                              |
-| **CC‑A1.4** | Inside/Outside decisions for any candidate part **SHALL** be justified by the three‑step test (Dependency → Interaction → Emergence) and recorded with the boundary reference. | Makes holon membership auditable and repeatable; uses A.1’s decision test.                                        |
-| **CC‑A1.5** | Behavioural roles (**including** `TransformerRole`) **SHALL** attach only to `U.System` (the bearer), not to `U.Holon` in general and not to `U.Episteme`.                     | Preserves Strict Distinction and prevents category errors; episteme roles are classificatory only.                     |
-| **CC‑A1.6** | Do **not** model acting groups as sets. If a grouping is expected to **act**, it **SHALL** be modelled as a **collective system** (with boundary, role, Method/Work).          | Distinguishes `MemberOf` (collection) from mereology; prepares for A.14 Portions/Phases.                               |
-| **CC‑A1.7** | The universal aggregation operator **Γ** **SHALL** be applied **only** to sets of `U.Holon` within a single declared temporal scope (design **or** run) and context.           | Prevents “chimera” graphs; routes order/time to Γ\_ctx / Γ\_time (B.1.4).                                              |
-| **CC‑A1.8** | Prose and diagrams **SHALL** follow the naming guideline: use **Holon** for meta‑level discourse; prefer **System / Episteme** in practitioner‑level statements.               | Reduces jargon friction; keeps signatures precise and text readable.                                                   |
+- role assignment to a system in a bounded context;
+- method enactment or work occurrence;
+- physical or operational boundary crossing;
+- system architecture or selected structure;
+- mechanism realization or transformer participation.
 
-> *Audit tip.* CC‑A1.5 is frequently violated when authors write “holon bearing TransformerRole”. Rewrite to “**system** bearing TransformerRole” or provide the explicit `U.RoleAssignment`. See A.2/A.15 for role mechanics.
+A collective system is not the same as a set. If a group of people, machines, services, or agents is expected to act, model the acting whole as a `U.System` with a boundary and role assignments. If no acting whole is claimed, keep it as a set or collection under the governing relation.
 
-### A.1:8 - Common Anti‑Patterns and How to Avoid Them — Manager’s quick checks
+#### A.1:4.6 - U.Episteme
 
-1. **“Ports on a theory.”** Treating a proof corpus as if it had physical connectors. *Fix:* model `U.Interaction` only across **boundaries**; for epistemes, interactions are **symbolic flows** via carriers and citations (see A.10), not power or mass.
-2. **“Document edited itself.”** Assigning actions to an episteme. *Fix:* actions are executed by a **system bearing a role** (A.12/A.15); epistemes are transformed **via external transformers** acting on their **symbol carriers**.
-3. **“Parts everywhere.”** Forcing a part–whole onto atomic entities (e.g., prime numbers). *Fix:* if no meaningful parts exist, stay at `U.Entity`; apply Γ only to `U.Holon`.
-4. **“Scope ≡ section.”** Using “scope” as a text region rather than a modeled boundary. *Fix:* define a `U.Boundary` and state what crosses it (`U.Interaction`).
+`U.Episteme` is a holon whose parts are claim-bearing and interpretation-bearing values: claims, definitions, reference schemes, viewpoints, evidence relations, argument structures, model content, or other episteme components governed by `C.2.1`.
 
-> **When in doubt:** first decide **what is a holon**, then state **its boundary**, then list **what crosses**. Roles and methods come *after* (see A.2 and A.15).
+`U.Episteme` is non-agentive. It does not decide, promise, authorize, perform work, or revise itself. A system in role may write, revise, publish, compare, transform, or use an episteme. The episteme remains the claim-bearing holon under the `C.2.1` slot relation.
 
-### A.1:9 - Consequences (informative)
+An episteme can be an `EntityOfConcern`. This does not make it an acting system. It means the current description, evaluation, architecture claim, or transformation claim is about that episteme as the subject under concern.
 
-| Benefits                                                                                                                                                         | Trade‑offs / Mitigations                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Eliminates category errors** across physical and abstract realms by cleanly separating identity (Entity), structure (Holon), and behaviour (Role/Method/Work). | Introduces the unfamiliar term **Holon**; mitigated by Tell‑Show‑Show pedagogy and dual archetypal examples (System/Episteme).  |
-| **Unifies aggregation**: a single algebra Γ composes pumps, proofs, genomes, and teams under one roof.                                                           | Requires refactoring legacy “System‑only” language; addressed by A.2/A.3 role calculus and the Γ‑family in B.1.                 |
-| **Predictable extension point**: CAL/LOG/CHR patterns add constraints without touching the core types.                                                      | Imposes discipline on boundary declarations; mitigated by boundary kinds and the Inside/Outside test.                           |
+#### A.1:4.7 - Cross-Level Use
 
-### A.1:10 - Rationale — Cross‑domain corroboration (post‑2015, informative)
+The same project object can appear at different levels without changing kind by wording:
 
-The separation **Entity → Holon → {System, Episteme}** is not only ontologically clean; it is **empirically validated across domains since 2015**:
+- a system can fill `GroundingHolonSlot` in an episteme description;
+- an episteme can be the `EntityOfConcern` of another episteme;
+- a system can publish or transform an episteme;
+- a selected structure can be about a system, episteme, organization, document set, model, or research program when that object is treated as a holon.
 
-* **Compositional open systems.** Category‑theoretic treatments show that *boundaried* components compose safely (decorated cospans, open systems). This mirrors Γ’s reliance on declared boundaries. *(Fong & Spivak, 2019; Baez & Courser, 2017)*
-* **Microservices & bounded contexts.** Modern software architecture stresses explicit service boundaries and local reasoning as the means to evolvability—our `U.Boundary` and Inside/Outside test encode the same discipline. *(Newman, 2021; Vernon, 2022)*
-* **FAIR & provenance.** Data/knowledge communities require explicit distinction between **`U.Episteme`** and **carrier**, and auditable provenance—precisely the System/Episteme + SCR split used in A.1/A.10. *(Wilkinson et al., 2016; Boeckhout et al., 2018)*
-* **Digital Twin / Thread.** Engineering practice since late‑2010s emphasises the run↔design seam and boundary‑consistent aggregation of subsystems—formalised in our Γ‑family and boundary inheritance rules. *(Grieves & Vickers, 2017; NIST DT/Thread reports 2019‑2021)*
-* **Layered control of CPS.** Standard‑based, multi‑rate architectures justify explicit holon boundaries and scale transitions—feeding directly into B.2 Meta‑Holon Transition. *(Matni et al., 2024)*
+Slot position does not create a new kind. A system filling a role-assignment holder slot remains a system. An episteme filling an EntityOfConcern slot remains an episteme. A holon whose structure is described does not become the description of that structure.
 
-These streams converge on one point: **make boundaries and composition first‑class** and separate **what a thing is** from **what it is doing here‑and‑now**—the heart of A.1/A.2.
+### A.1:5 - Archetypal Grounding
 
-### A.1:11 - SoTA-Echoing (post‑2015, informative)
+#### A.1:5.1 - Water Pump as U.System
 
-This solution echoes several modern (post‑2015) research and engineering streams. We **adopt** their boundary‑and‑composition insights, but **reject** any requirement to commit to a single formalism (per Notational Independence).
+Pump #37 is a `U.System` holon in a maintenance bounded context.
 
-| Stream | Representative sources | Adopt / Adapt / Reject | What we take (and what we diverge from) |
-|---|---|---|---|
-| Compositional open systems | Baez & Courser (2017); Fong & Spivak (2019) | **Adapt** | Take the idea that composition should be explicit and typed; diverge by keeping the Core notation‑independent (no category‑theory prerequisite). |
-| Software boundaries and bounded contexts | Newman (2021); Vernon (2022) | **Adopt** | Take boundary‑scoped meaning and ownership as the default; diverge by lifting “bounded context” to a kernel boundary concept rather than a software‑only practice. |
-| FAIR and provenance for epistemes and carriers | Wilkinson et al. (2016); Boeckhout et al. (2018) | **Adopt** | Take provenance and episteme/carrier separation; diverge by modelling claim-bearing knowledge as non-agentive `U.Episteme` rather than agents. |
-| Digital twin / digital thread | Grieves & Vickers (2017); NIST DT/Thread (2019–2021) | **Adapt** | Take the run↔design seam; diverge by requiring a boundary kind at the holon level. |
-| Systems/control criteria for emergence | Matni et al. (2024) | **Adopt** | Take emergence as a criterion for systemhood; diverge by requiring explicit boundary declarations even when “obvious”. |
+```text
+HolonSlotRelation:
+  holonIdentity: Pump #37
+  boundedContextRef: plant maintenance context
+  boundaryRef: casing plus inlet and outlet flanges
+  partRelationSet: motor, impeller, seals, housing
+  containingWholeRef: cooling-water subsystem
+  interactionSet: water flow, electrical energy, control signal
+  subtypeKind: U.System
+```
+
+The pump can bear a maintenance role, enact a repair method, perform work through technicians and tools, and have selected structures such as transformation-flow, control, or module-interface structure.
+
+#### A.1:5.2 - Scientific Theory as U.Episteme
+
+Newtonian gravitation as taught in one edition is a `U.Episteme` holon in a physics-education bounded context.
+
+```text
+HolonSlotRelation:
+  holonIdentity: Newtonian gravitation in the selected edition
+  boundedContextRef: physics education context
+  boundaryRef: selected axioms, vocabulary, reference scheme, and admissible claim set
+  partRelationSet: definitions, laws, derivations, examples, evidence relations
+  containingWholeRef: mechanics curriculum episteme
+  interactionSet: citation, teaching, model-use, revision, publication
+  subtypeKind: U.Episteme
+```
+
+The theory does not teach itself or revise itself. A teacher, author, student, reviewer, or software system in role may publish, explain, compare, or modify an episteme. The episteme carries claims and relations; the acting system performs the work.
+
+#### A.1:5.3 - Team as Collection or Collective System
+
+A list of named engineers is a collection. It becomes a `U.System` only when the project claims an acting whole: boundary, membership rule, coordination structure, role assignments, decision method, and work occurrences are current.
+
+If the project says "the team approved the architecture", A.1 asks whether there is a collective system and whether a decision pattern or governance pattern makes that claim admissible. If not, name the specific system-in-role or decision relation that actually carries the claim.
+
+### A.1:6 - Bias-Annotation
+
+Lenses tested: **Onto**, **Arch**, **Epist**, **Prag**, **Gov**, **Did**.
+
+This pattern intentionally resists:
+
+- **system-bias:** treating all objects as acting physical systems;
+- **episteme-agent bias:** assigning work, authority, or decision to claim-bearing epistemes;
+- **collection-bias:** treating any set as an acting collective;
+- **boundary-bias:** choosing boundaries for convenience or politics without a membership test;
+- **publication-form bias:** treating a document, diagram, or model publication as the holon it describes.
+
+### A.1:7 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-A1-1` | A modeled object is first typed as `U.Entity`, `U.Holon`, `U.System`, `U.Episteme`, or another accepted subtype before part-whole, role, work, or architecture claims rely on it. |
+| `CC-A1-2` | Part-whole and aggregation claims apply only to holons or accepted holon subtypes. |
+| `CC-A1-3` | A current holon use names the bounded context and governing boundary for the claim. |
+| `CC-A1-4` | Contested holon membership uses dependency, internal interaction, and emergence tests. |
+| `CC-A1-5` | Acting roles, method enactment, and work occurrence claims attach to `U.System` or an accepted acting-system subtype, not to `U.Episteme`. |
+| `CC-A1-6` | A set or collection is not treated as an acting collective unless modeled as a `U.System` with boundary and role assignments. |
+| `CC-A1-7` | `U.Episteme` is non-agentive; systems may transform, publish, or use epistemes, but the episteme does not act by itself. |
+| `CC-A1-8` | Slot positions such as EntityOfConcern, grounding holon, role holder, transformed entity, or described holon do not create new kinds for their fillers. |
+| `CC-A1-9` | Publication forms and descriptions of holons are kept distinct from the holons they describe. |
+
+### A.1:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| System as universal root | A theory, document, or model receives physical system properties. | Re-type as `U.Episteme` or another holon subtype, then use the governing pattern for the claim. |
+| Document edited itself | A model, theory, or document is said to perform a revision. | Name the `U.System` in role that performed the work and the `U.Episteme` that was changed. |
+| Collection as actor | A list or set is said to decide or perform work. | Model a collective `U.System` or name the actual acting system-in-role. |
+| Boundary by section heading | A document section, org chart box, or folder is treated as a holon boundary by appearance. | Name the bounded context and boundary relation; apply membership tests. |
+| Architecture without holon | A selected structure is discussed without the holon whose structure is selected. | Use A.1 to name the holon, then `A.22` and `C.30` for selected structure and architecture. |
+
+### A.1:9 - Consequences
+
+Positive consequences:
+
+- FPF can talk about physical systems, organizations, documents, theories, models, and research programs under one composition root without making them all systems.
+- Acting work stays attached to systems in roles.
+- Epistemes can be described, compared, published, and transformed without becoming agents.
+- Architecture and selected-structure claims gain a grounding holon.
+
+Costs:
+
+- Authors must stop using "system" for every object under concern.
+- A holon boundary must be named when part-whole or architecture claims rely on it.
+- Some familiar sentences need repair: "the document decided" becomes a claim about a system in role, a decision relation, and an episteme or publication.
+
+### A.1:10 - Rationale
+
+The A.1 stack prevents category errors by separating individuation, composition, acting eligibility, and claim-bearing. `U.Entity` gives the minimal "something under concern" without part assumptions. `U.Holon` adds composition and boundary. `U.System` adds acting eligibility. `U.Episteme` adds claim-bearing structure without agentivity.
+
+This also prevents ontology duplication. A theory under concern, a theory description, a publication of that description, and the system that edits the publication can all be named without turning each slot position into a new kind. The same discipline is needed by architecture: architecture is selected structure of a holon in context, not a diagram and not a floating root kind.
+
+The older phrase "entity to holon to system or episteme" remains useful only when read as this typed stack. It is not a process sequence and not a rule that every entity must become a holon.
+
+### A.1:11 - SoTA-Echoing
+
+| Source family | Current lesson for A.1 | FPF decision |
+| --- | --- | --- |
+| Compositional open systems and boundary-based modeling. | Composable objects need explicit boundaries and typed interaction with environments. | `U.Holon` requires a current boundary and part-whole relation before aggregation or architecture claims rely on it. |
+| Domain-driven bounded-context practice. | Meaning and role assignments are local to a context; one word does not carry the same ontology everywhere. | A.1 pairs holon identity with `U.BoundedContext`; A.1.1 governs the semantic frame. |
+| FAIR, provenance, and knowledge-representation practice. | Claim-bearing knowledge objects and their publications must be separated from physical systems and publication forms. | `U.Episteme` is a non-agentive holon governed by `C.2.1`; systems in role create, publish, or use epistemes. |
+| Systems engineering and digital-twin practice. | Design and run descriptions need boundary-consistent grounding objects. | Architecture and structure patterns name the grounding holon before treating selected structure or description as current. |
+
+Source role and currentness: the compositional open-systems and systems-engineering rows are current support for boundary-consistent grounding; bounded-context practice is carried through `A.1.1`; FAIR, provenance, and knowledge-representation practice support the separation among claim-bearing epistemes, publications, and acting systems. Older named traditions under these families are lineage or background unless a governing pattern cites them by value. Reopen A.1 when accepted FPF work or current systems, KR, provenance, or digital-twin practice changes the root split among `U.Entity`, `U.Holon`, `U.System`, `U.Episteme`, boundary, or publication-form separation; do not reopen it for a new tool, notation, or diagram style that does not change that root ontology.
 
 ### A.1:12 - Relations
 
-* **Builds / Grounds:**
+- **Builds on:** `E.24` for ontic introduction discipline and `A.6.5` for slot relation discipline.
+- **Coordinates with:** `A.1.1` for bounded context, `A.22` for selected structure, `C.30` for architecture, `C.2.1` for episteme slot relation, `A.15` for role-method-work alignment, `E.24.PUB` for holon-description publication boundary, and `E.10.ARCH` for wording-use restoration.
+- **Used by:** patterns that need a grounding holon, acting system, non-agentive episteme, part-whole relation, or collection-versus-collective distinction.
 
-  * **A.2 Role Taxonomy** — A.1 provides the substantial characteristic (`Holon`), A.2 introduces the functional characteristic (`Role` and `U.RoleAssignment`). Together they prevent role/type explosion and keep agency contextual.
-  * **A.7 Strict Distinction (Clarity Lattice)** — A.1 supplies the *slots* (Entity/Holon/System/Episteme); A.7 guards their separation in prose and models, stopping EntityOfConcern ≠ Description episteme ≠ publication carrier conflations.
-  * **A.14 Advanced Mereology: Portions & Phases** — A.1’s holon substrate is the target of A.14’s edge discipline (`ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`); only mereological subtypes build holarchies.
-
-* **Interacts with the Γ‑family (B‑cluster):**
-
-  * **B.1 Universal Algebra of Aggregation** — Γ is defined **on holons** and respects CC‑A1.\*; Γ\_ctx/Γ\_time carry order and temporal composition, Γ\_work handles resource ledgers.
-  * **B.2 Meta‑Holon Transition (MHT)** — uses A.1’s boundary and Inside/Outside rules to decide when aggregation yields a **new** whole with novel properties.
-  * **B.3 Trust & Assurance Calculus** — evidence attaches to carriers (SCR/RSCR) of epistemes; assurance levels depend on A.1/A.10 alignment.
-  * **B.4 Canonical Evolution Loop** — operationalises the **design↔run** seam at holon boundaries; observation itself is an external transformation across a boundary.
-
-* **Specialised by patterns:** `U.System` (Sys‑CAL) and `U.Episteme` (KD‑CAL) are archetypal sub‑holons that supply domain‑specific invariants while inheriting A.1’s boundary and aggregation duties.
-
-*Without the holon, parts drift; without the role, purpose evaporates.* (Carry this epigraph with A.1 to cue the A.2 hand‑off.)
+### A.1:13 - Footer Marker
 
 ### A.1:End
 

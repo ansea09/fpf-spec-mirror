@@ -6,12 +6,12 @@ section_id: "C.2.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__014_rationale.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:10 — Rationale"
-line_start: 36342
-line_end: 36351
+line_start: 36469
+line_end: 36478
 dependencies:
   - "A.10"
   - "A.15"

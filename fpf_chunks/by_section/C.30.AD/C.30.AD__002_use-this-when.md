@@ -6,13 +6,14 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 53772
-line_end: 53818
+line_start: 53864
+line_end: 53910
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
 keywords:
@@ -87,7 +90,7 @@ ArchitectureDescriptionUseCard@Project:
   specificationUseBoundary?:
   admissibleUse:
   nonAdmissibleUse:
-  firstExactNeighborPatternApplication?:
+  firstNeighborPatternApplication?:
 ```
 
 The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture move or neighboring-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
@@ -98,6 +101,6 @@ The use card is a controlled first-pass slice. It can close ordinary use only wh
 - If the use under repair is a selected structure or structural description outside architecture, use `A.22`.
 - If the use under repair is one architecture structural view, use `C.30.ASV`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the use under repair is only a publication face, carrier, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the use under repair is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
 - If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the neighboring pattern governing that claim to the claim being made.
 

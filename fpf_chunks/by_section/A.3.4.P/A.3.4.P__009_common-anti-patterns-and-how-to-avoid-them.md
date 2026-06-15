@@ -6,12 +6,12 @@ section_id: "A.3.4.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7515
-line_end: 7525
+line_start: 7689
+line_end: 7699
 dependencies:
   - "A.10"
   - "A.15"

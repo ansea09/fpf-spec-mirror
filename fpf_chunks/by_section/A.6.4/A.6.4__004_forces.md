@@ -6,12 +6,12 @@ section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:3 — Forces"
-line_start: 12527
-line_end: 12551
+line_start: 12701
+line_end: 12725
 dependencies:
   - "A.6.2"
   - "A.6.3"

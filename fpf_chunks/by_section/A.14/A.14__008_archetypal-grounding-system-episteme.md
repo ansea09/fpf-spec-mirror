@@ -6,12 +6,12 @@ section_id: "A.14:7"
 section_title: "Archetypal grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__008_archetypal-grounding-system-episteme.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:7 — Archetypal grounding (System / Episteme)"
-line_start: 20271
-line_end: 20280
+line_start: 20445
+line_end: 20454
 dependencies:
   - "A.1"
   - "B.1.1"

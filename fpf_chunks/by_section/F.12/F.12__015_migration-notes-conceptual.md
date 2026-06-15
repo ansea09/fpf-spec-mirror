@@ -6,12 +6,12 @@ section_id: "F.12:14"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__015_migration-notes-conceptual.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:14 — Migration notes (conceptual)"
-line_start: 75686
-line_end: 75694
+line_start: 76376
+line_end: 76384
 dependencies:
   - "A.2.3"
   - "F.1"

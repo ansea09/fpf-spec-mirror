@@ -6,12 +6,12 @@ section_id: "B.1.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:1 — Problem frame"
-line_start: 31405
-line_end: 31417
+line_start: 31532
+line_end: 31544
 dependencies:
   - "A.12"
   - "A.14"

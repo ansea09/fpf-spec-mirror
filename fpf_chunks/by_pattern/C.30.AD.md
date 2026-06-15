@@ -6,12 +6,13 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
-line_start: 53757
-line_end: 54106
+line_start: 53849
+line_end: 54197
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -40,6 +41,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
 keywords:
@@ -64,9 +67,9 @@ keywords:
 **Intent.**
 Keep an architecture description useful without letting the description, view, diagram, publication, or tool publication face become the architecture itself.
 
-**Builds on.** `C.30`, `C.30.ASV`, `A.22`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, and `E.10.ARCH`.
+**Builds on.** `C.30`, `C.30.ASV`, `A.1`, `A.22`, `E.24.PUB`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, and `E.10.ARCH`.
 
-**Coordinates with.** `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, `E.8`, and `F.18`.
+**Coordinates with.** `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, `E.8`, `E.24.CD`, and `F.18`.
 
 ### C.30.AD:0 - Use this when
 
@@ -101,7 +104,7 @@ ArchitectureDescriptionUseCard@Project:
   specificationUseBoundary?:
   admissibleUse:
   nonAdmissibleUse:
-  firstExactNeighborPatternApplication?:
+  firstNeighborPatternApplication?:
 ```
 
 The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture move or neighboring-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
@@ -112,7 +115,7 @@ The use card is a controlled first-pass slice. It can close ordinary use only wh
 - If the use under repair is a selected structure or structural description outside architecture, use `A.22`.
 - If the use under repair is one architecture structural view, use `C.30.ASV`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the use under repair is only a publication face, carrier, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the use under repair is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
 - If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the neighboring pattern governing that claim to the claim being made.
 
 ### C.30.AD:1 - Problem frame
@@ -134,7 +137,7 @@ The first-minute practitioner can ask:
 
 How can FPF govern architecture descriptions without:
 
-- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, carrier, or rendering as the architecture itself;
+- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, publication form, or rendering as the architecture itself;
 - treating all architecture documentation as one generic description with no selected-structure recovery;
 - losing the link between a viewpoint and the architecture structure kind being described;
 - letting one attractive view hide lost structure, stale source, or missing correspondence;
@@ -147,7 +150,7 @@ How can FPF govern architecture descriptions without:
 | --- | --- |
 | Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, selected structure, decision, proof, or release authority. |
 | Multi-view richness vs selected-structure recovery | Several views can be needed, but each view names the architecture claim, viewpoint, selected structure or structure kind, and admissible use before it is relied on. |
-| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints help a role or practice inspect an architecture; they do not themselves choose the structure kind unless `C.30.ASV` or an structure-view pattern references named by value that relation. |
+| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints help a role or practice inspect an architecture; they do not choose the structure kind unless `C.30.ASV` or another governing structural-view pattern names the structure-kind relation by value. |
 | Reuse vs freshness | A reused architecture description needs source edition, structure edition, or source-return boundaries when its admissible use depends on currentness. |
 | Specification-use vs publication form | A description can be used as a specification, but specification use is a use boundary over a Description episteme or its publication form, not the architecture itself. |
 | Thin C.30 bridge vs full description mechanism | C.30 keeps the architecture move central; this pattern carries the heavier architecture-description mechanism when durable description use is being made. |
@@ -156,7 +159,7 @@ How can FPF govern architecture descriptions without:
 
 Use `ArchitectureDescription@Context` when the EntityOfConcern under repair is the description episteme or specification-use record over one `ArchitectureOf@Context`. The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`; the `DescriptionContext.EntityOfConcernRef` for the architecture description points to the architecture claim record.
 
-`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or carrier machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
+`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or publication-form machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
 
 #### C.30.AD:4.1 - Architecture-description record
 
@@ -197,7 +200,7 @@ Minimum conformance for the record:
 
 #### C.30.AD:4.1a - Traceable architecture multi-view description chain
 
-A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture. The chain is a trace obligation, not a prescribed method or work plan:
+A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture. The chain is a trace requirement, not a prescribed method or work plan:
 
 ```text
 workingConcernRef
@@ -215,7 +218,7 @@ workingConcernRef
 
 `E.17.0` carries the generic multi-view Description machinery. `C.30.ASV` carries the selected-structure-kind-to-view relation and view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which architecture claim the description is about, which structural views it uses, what correspondence or source return keeps the use honest, and which architecture move or neighboring pattern remains admissible.
 
-If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or return to the governing pattern that can recover the missing relation.
+If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation.
 
 #### C.30.AD:4.2 - View membership, viewpoint, and structure-kind binding
 
@@ -311,7 +314,7 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
     coordination | implementationGuidance | procurement |
     verificationPlanning | assuranceInput | releaseInput |
     declaredOther,
-  exactNeighborPatternRef?:
+  selectedNeighborPatternRef?:
   admissibleUse:
   nonAdmissibleUse:
 }
@@ -319,7 +322,7 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
 
 If the specification use becomes evidence, assurance, gate, work, decision, causal-use, or release authority, apply the neighboring pattern governing that claim to that authority claim. The architecture description remains the description boundary, not the authority.
 
-Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, carriers, source-current records, or renderings unless the source episteme and use boundary are explicit.
+Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, source-current records, or renderings unless the source episteme and use boundary are explicit.
 
 #### C.30.AD:4.6 - Neighboring-pattern applications
 
@@ -334,7 +337,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
 | Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5` for candidate sets, `C.11` for final local choice, and measurement or comparison patterns named by value when those claims are being made |
 
-| Generic description, view, viewpoint, publication, carrier, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
+| Generic description, view, viewpoint, publication, publication form, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
@@ -350,8 +353,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | A model card claims deployment safety. | Use `C.30.AD` only if the card describes an architecture claim or structure view. Safety assurance uses `B.3`; evidence uses `A.10`; release uses `A.21`. |
 | A generated code-agent relation graph shows modules and calls. | Treat the graph as a generated view or source publication. Recover observed, inferred, and unknown relations; use `C.30.ASV` or `C.30.TFS-REL` only when an architecture structural view or flow relation is being used. |
 | A multi-view description set has functional, deployment, control, and evidence-reuse views. | Each view has an `ArchitectureDescriptionViewMembership@Context` line and a referenced `C.30.ASV` view record. Evidence-reuse claims do not stay inside C.30.AD. |
-| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if role-enactor semantics apply.
- |
+| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if role-enactor semantics apply. |
 | A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records which architecture claim and structural views the document uses, plus source-return conditions for product variation. `A.6.M` repairs module-interface relations; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting basis are declared. |
 | A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records the description membership, correspondence, and source-return boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
 | An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5`; final local choice uses `C.11`; measurement or comparison claims use their governing patterns. |
@@ -362,12 +364,12 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 
 | Check | Requirement | Repair if failed |
 | --- | --- | --- |
-| **CC-C30AD-1 EntityOfConcern.** | The architecture description's `DescriptionContext.EntityOfConcernRef` points to one `ArchitectureOf@Context` claim record. | Add `architectureClaimRef` or return to `C.30` until the architecture claim is recoverable. |
+| **CC-C30AD-1 EntityOfConcern.** | The architecture description's `DescriptionContext.EntityOfConcernRef` points to one `ArchitectureOf@Context` claim record. | Add `architectureClaimRef` or use `C.30` until the architecture claim is recoverable. |
 | **CC-C30AD-2 Described holon recovery.** | The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`, not by replacing the description EntityOfConcern with the holon. | Restore the strict description boundary and copy only the recoverable holon ref. |
-| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers the chain from working concern or A.15 role-enactor family being used through viewpoint, selected structure or structure kind, architecture claim, ASV view, architecture description, source or publication use when source or publication use is being made, correspondence when used or source return when needed, and remaining admissible architecture move. | Add the missing reference, reduce the admissible use, or return to the governing pattern that can recover the missing relation. |
+| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers the chain from working concern or A.15 role-enactor family being used through viewpoint, selected structure or structure kind, architecture claim, ASV view, architecture description, source or publication use when source or publication use is being made, correspondence when used or source return when needed, and remaining admissible architecture move. | Add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation. |
 | **CC-C30AD-3 Viewpoint and structure kind.** | Every architecture structural view names viewpoint and selected structure or structure kind. | Use `C.30.ASV` before relying on the view. |
 | **CC-C30AD-4 Correspondence and source return.** | Cross-view, generated-view, source-derived, reused, regulated, or comparison use names correspondence or source-return condition. | Add correspondence and source-return fields or reduce the admissible use. |
-| **CC-C30AD-5 Publication boundary.** | Publication face, carrier, diagram, dashboard, card, file, or rendering is not treated as architecture, decision, evidence, assurance, gate, work, or release authority. | Assign publication or source use to `C.2.P` or `E.17` and the non-architecture claim to the neighboring pattern governing that claim. |
+| **CC-C30AD-5 Publication boundary.** | Publication face, publication form, diagram, dashboard, card, file, or rendering is not treated as architecture, decision, evidence, assurance, gate, work, or release authority. | Assign publication or source use to `C.2.P` or `E.17` and the non-architecture claim to the neighboring pattern governing that claim. |
 | **CC-C30AD-6 Specification-use boundary.** | Specification use is declared as use over a Description episteme or publication, with neighboring applications when it carries authority. | Add `ArchitectureDescriptionSpecificationUse@Project` or demote to ordinary description. |
 | **CC-C30AD-7 Remaining admissible move.** | The repaired description still tells the practitioner what architecture move, view repair, source return, or neighboring-pattern application remains. | Add the remaining move or reduce the text to source or publication use. |
 
@@ -375,7 +377,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture. | Recover `ArchitectureOf@Context` and keep the artifact as description, view, publication, carrier, or source. |
+| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture. | Recover `ArchitectureOf@Context` and keep the source material as description, view, publication form, or source relation. |
 | Viewpoint-as-structure-kind | A stakeholder, role, concern, or viewpoint label is used as if it named the selected structure. | Use `C.30.ASV` to recover structure kind and viewpoint separately. |
 | Multi-view fog | Many views are listed, but no one can tell which selected structures they describe or how they correspond. | Add architecture claim ref, selected structure refs, viewpoint refs, correspondence refs, and source-return conditions. |
 | Specification-as-authority | A specification-looking architecture description is used as work, gate, decision, assurance, evidence, or release authority. | Declare specification use and apply the neighboring pattern governing that claim to the authority claim. |
@@ -388,8 +390,8 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | --- | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 architecture-description practice separates architecture description, concern, viewpoint, view, model kind, correspondence, and conformance. | Current international standard and reference source for architecture-description and viewpoint separation. | Adopt the separation of architecture claim, description, viewpoint, view, correspondence, and conformance-to-use; translate it into FPF `EntityOfConcern`, DescriptionContext, view, publication, and neighboring-pattern applications. | Disciplines `C.30.AD:4.1`, `C.30.AD:4.1a`, `C.30.AD:4.2`, `CC-C30AD-1`, `CC-C30AD-3`, and `CC-C30AD-4`: every architecture description names the architecture claim, selected structures, viewpoints and views, correspondence when used or source return when needed, and admissible use. | ISO terminology does not override FPF ontology and does not turn a view or publication into architecture, proof, decision, or release authority. |
 | Views-and-Beyond and related architecture documentation practice treats views as stakeholder-relevant projections over architecture. | Mature reference and lineage source for view-based architecture documentation; not used as a mandatory current catalog. | Adopt view usefulness while requiring structure-kind recovery through `C.30.ASV` and description membership through `ArchitectureDescriptionViewMembership@Context`. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.2`, and the multi-view worked case: a view remains useful for a working concern without becoming the selected structure by label. | No mandatory view catalog is imported, and view adequacy remains in `C.30.ASV`. |
-| `E.17.0` and MVPK publication machinery in current FPF. | Current internal FPF governing machinery for multi-view Description epistemes, views, viewpoints, publication faces, and carrier separation. | Reuse generic multi-view and publication machinery instead of minting architecture-local copies. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.5`, `CC-C30AD-5`, and `CC-C30AD-6`: architecture description composition remains separate from publication form, carrier, face, and source-current relation. | C.30.AD specializes architecture-description use; it does not replace E.17.0, E.17.1, E.17.2, E.17, or C.2.P. |
-| C4, arc42, ADR, model-card, and system-card practice makes architecture communication practical. | Current practitioner-source family for familiar architecture publication and documentation forms. | Admit these as possible source publications, view publications, decision-description publications, transparency publications, or specification-use records. | Disciplines `C.30.AD:4.5`, worked cases, and anti-patterns: practitioners can use familiar artifacts while keeping source, publication, description, architecture claim, and neighboring authority claims separate. | Template, card, graph, or diagram quality is not architecture adequacy by itself. |
+| `E.17.0` and MVPK publication machinery in current FPF. | Current internal FPF governing machinery for multi-view Description epistemes, views, viewpoints, publication faces, and publication-form separation. | Reuse generic multi-view and publication machinery instead of minting architecture-local copies. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.5`, `CC-C30AD-5`, and `CC-C30AD-6`: architecture description composition remains separate from publication form, face, and source-current relation. | C.30.AD specializes architecture-description use; it does not replace E.17.0, E.17.1, E.17.2, E.17, or C.2.P. |
+| C4, arc42, ADR, model-card, and system-card practice makes architecture communication practical. | Current practitioner-source family for familiar architecture publication and documentation forms. | Admit these as possible source publications, view publications, decision-description publications, transparency publications, or specification-use records. | Disciplines `C.30.AD:4.5`, worked cases, and anti-patterns: practitioners can use familiar publication forms while keeping source, publication, description, architecture claim, and neighboring authority claims separate. | Template, card, graph, or diagram quality is not architecture adequacy by itself. |
 | Tool-generated architecture relation graphs and code-agent architecture probing expose useful but partial structure. | Current emerging practice and source-intake pressure for generated relation views. | Treat generated graphs as source-derived views with observed, inferred, and unknown relation boundaries. | Disciplines `C.30.AD:4.3`, `C.30.AD:5`, and `CC-C30AD-4`: a generated view can guide structure recovery, source return, and next architecture moves. | Generated relation coverage does not become proof, gate passage, safety assurance, or complete architecture. |
 
 ### C.30.AD:9 - Related patterns
@@ -399,7 +401,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 - `C.30.ASV` governs architecture structural views and structure-kind and viewpoint separation.
 - `C.30.TFS-REL`, `C.30.LCA`, and `C.30.ILC` govern architecture structure-relation subcases named by value.
 - `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, and `E.17` govern generic EntityOfConcern, Description, view, viewpoint, publication, and MVPK machinery.
-- `C.2.P` repairs source-current and publication or carrier relation-set overreads.
+- `C.2.P` repairs source-current and publication-form relation-set overreads.
 
 ### C.30.AD:End
 

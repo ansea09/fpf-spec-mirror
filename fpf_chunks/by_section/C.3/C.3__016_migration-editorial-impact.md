@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Migration & editorial impact"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_migration-editorial-impact.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:14 — Migration & editorial impact"
-line_start: 39322
-line_end: 39368
+line_start: 39449
+line_end: 39495
 dependencies:
   - "A.1"
   - "A.2.6"

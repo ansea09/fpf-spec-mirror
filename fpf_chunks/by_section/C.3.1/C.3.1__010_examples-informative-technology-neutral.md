@@ -6,12 +6,12 @@ section_id: "C.3.1:9"
 section_title: "Examples (informative, technology‑neutral)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__010_examples-informative-technology-neutral.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.3.1 — U.Kind & SubkindOf (Core)"
   - "C.3.1:9 — Examples (informative, technology‑neutral)"
-line_start: 39562
-line_end: 39569
+line_start: 39689
+line_end: 39696
 dependencies:
   - "A.1"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "E.2:9"
 section_title: "Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__010_definitions.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:9 — Definitions"
-line_start: 57541
-line_end: 57543
+line_start: 57624
+line_end: 57626
 dependencies:
   - "C.18"
   - "C.19"

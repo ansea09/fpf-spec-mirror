@@ -6,13 +6,14 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 55226
-line_end: 55233
+line_start: 55309
+line_end: 55316
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -59,6 +61,6 @@ keywords:
 | Tell-Show-Show row | Grounding |
 | --- | --- |
 | Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module-interface, information or data, placement, scale, work, evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
-| Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model may need several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
+| Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model can require several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
 | Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden structure and lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
 

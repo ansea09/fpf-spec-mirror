@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Archetypal grounding (worked examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_archetypal-grounding-worked-examples.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:6 — Archetypal grounding (worked examples)"
-line_start: 32885
-line_end: 32948
+line_start: 33012
+line_end: 33075
 dependencies:
   - "A.10"
   - "A.12"

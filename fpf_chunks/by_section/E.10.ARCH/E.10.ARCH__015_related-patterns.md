@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 61965
-line_end: 61987
+line_start: 62097
+line_end: 62119
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -24,6 +24,7 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
@@ -36,6 +37,7 @@ dependencies:
   - "C.2.P.DR"
   - "C.25"
   - "C.27"
+  - "C.27.TA"
   - "C.29"
   - "C.30"
   - "C.30.ASV"
@@ -49,6 +51,8 @@ dependencies:
   - "E.20"
   - "E.21"
   - "E.24"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "F.19"
@@ -58,7 +62,7 @@ keywords:
 
 ### E.10.ARCH:12 - Related patterns
 
-- `E.10` catches and closes local wording issues or selects the applicable row.
+- `E.10` recognizes and closes local wording issues or selects the applicable row.
 - `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
@@ -67,7 +71,7 @@ keywords:
 - `A.3.2` governs `U.MethodDescription` when an episteme describes a method.
 - `A.6.0`, `C.29`, `A.6.1`, and `E.20` govern formal-substrate declarations, mathematical-lens use, mechanism meaning, and mechanism-governing-definition assignment when those claims are current.
 - `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide.
-- `E.18` governs graph paths, path slices, flow valuations, and transformation-flow-structure relations when the graph claim is current.
+- `E.18` governs graph paths, path slices, flow valuations, and graph relations over selected `TransformationFlowStructure` when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
 - `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.
 - `C.16.P` realizes characteristic and scale wording recovery.

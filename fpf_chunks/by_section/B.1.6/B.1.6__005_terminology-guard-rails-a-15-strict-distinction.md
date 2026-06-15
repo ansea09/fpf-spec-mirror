@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Terminology guard‑rails (A.15 — Strict Distinction)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_terminology-guard-rails-a-15-strict-distinction.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.1.6 — Γ\\_work — Work as Spent Resource"
   - "B.1.6:4 — Terminology guard‑rails (A.15 — Strict Distinction)"
-line_start: 31436
-line_end: 31446
+line_start: 31563
+line_end: 31573
 dependencies:
   - "A.12"
   - "A.14"

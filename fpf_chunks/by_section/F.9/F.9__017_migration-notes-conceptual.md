@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_migration-notes-conceptual.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:15 — Migration notes (conceptual)"
-line_start: 74356
-line_end: 74364
+line_start: 75046
+line_end: 75054
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "G.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__014_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:13 — Relations"
-line_start: 82821
-line_end: 82827
+line_start: 83512
+line_end: 83518
 dependencies:
   - "A.10"
   - "A.21"

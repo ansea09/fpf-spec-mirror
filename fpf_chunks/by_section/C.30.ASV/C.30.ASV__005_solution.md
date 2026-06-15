@@ -6,13 +6,14 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 54683
-line_end: 55225
+line_start: 54767
+line_end: 55308
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -103,7 +105,7 @@ ArchitectureStructuralView@Context ::= {
 
 `DescriptionContext.EntityOfConcernRef` names the selected structure or selected structure set represented by `structureRefs`. `architectureClaimRef` names the enclosing `ArchitectureOf@Context` claim, and the described holon and bounded context are recovered through that claim record.
 
-**EntityOfConcern discipline.** C.30.ASV treats selected structure as the EntityOfConcern for this view use when the view concerns dependent, non-agentive organization rather than one publication artifact. This does not add a parallel EntityOfConcern head: `DescriptionContext.EntityOfConcernRef`, `selectedStructureEntityOfConcernRef`, and `structureRefs` must converge on the same selected structure or structure set, while `architectureClaimRef` remains the enclosing architecture-claim context.
+**EntityOfConcern discipline.** C.30.ASV treats selected structure as the EntityOfConcern for this view use when the view concerns dependent, non-agentive organization rather than one publication form or source material. This does not add a parallel EntityOfConcern head: `DescriptionContext.EntityOfConcernRef`, `selectedStructureEntityOfConcernRef`, and `structureRefs` must converge on the same selected structure or structure set, while `architectureClaimRef` remains the enclosing architecture-claim context.
 `viewpointRef` is a recovery label for `descriptionContext.ViewpointRef`, not a second independent viewpoint slot. If the implementation stores only `DescriptionContext`, the viewpoint remains recoverable there.
 
 `structureKnowledgeState?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply assurance, gate, release, causal proof, or architecture decision.
@@ -159,26 +161,25 @@ ArchitectureStructureKindTriage@Project ::= {
   architectureClaimRef?: ArchitectureOf@ContextRef,
   describedHolonRef?: U.HolonRef,
   boundedContextRef?: U.BoundedContextRef,
-  architectureConcernCue,
-  suspectedWrongCollapse,
-  plainPromptLabel,
+  architectureConcernCue?,
+  sourceMaterialRef?,
   candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef),
-  smallestUsefulStructureKindRefs,
-  structureKnowledgeState?,
-  primaryGoverningPatternApplicationRef,
-  blockedLocalOverreadRefs?,
+  smallestUsefulStructureKindRefs: FinSet(ArchitectureStructureKindRef),
+  selectedStructureRefs?,
+  hiddenOrLostStructureCueRefs?,
+  primaryGoverningPatternApplicationRef?,
   admissibleArchitectureMove:
     inspect | split | relate | downgrade | assignNeighbor | stop |
     otherDeclared,
-  candidateGenerationPatternApplication?: yes | no,
-  governingPatternApplicationRefs,
+  governingPatternApplicationRefs?,
+  nonAdmissibleOverread?,
   stopCondition
 }
 ```
 
-`primaryGoverningPatternApplicationRef` names the pattern that carries the next claim kind being made. `candidateGenerationPatternApplication?` marks that the next admissible move is candidate generation; candidate generation is not ASV work. `blockedLocalOverreadRefs?` names only the source- or view-triggered overread that would change this triage; it is not a place to list every neighboring pattern. None of these fields governs the triage record itself; C.30.ASV governs the triage record family.
-When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
+`architectureConcernCue?` and `sourceMaterialRef?` are recognition and source-reference positions; they do not create `ArchitectureStructureKindRef` values. `primaryGoverningPatternApplicationRef?` names the one neighboring pattern that carries the next non-ASV claim kind when such a claim is current. `nonAdmissibleOverread?` names only the overread that would change this triage. Candidate generation, evidence, assurance, gate, publication, decision, or work claims are named through `governingPatternApplicationRefs?` and stay with their governing patterns rather than becoming ASV fields.
 
+When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
 Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-governed records use the Tech values below:
 
 ```text
@@ -209,7 +210,7 @@ VF.TEVB.ENG core stays:
   { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
 ```
 
-TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence obligations, and governing-pattern applications.
+TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence requirements, and governing-pattern applications.
 
 ```text
 VF.ARCH.STRUCTURE : U.ViewpointBundle {
@@ -381,7 +382,7 @@ Composability:
   recoveredRelationOrRecordKind: ModuleAllocationRelation | InterfaceSpecification
 Quality compositionality:
   "The assembled whole preserves safety, latency, or reliability."
-  recoveredRelationOrRecordKind: QBundleSlot | structuralCharacteristicQBundleInputSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidenceRelationForQBundleSlot(A.10 evidence path only when the evidence-provenance path is the claim being made)
+  recoveredRelationOrRecordKind: QBundleSlot | structuralCharacteristicQBundleInputSlot | structuralCharacteristicCausalHypothesisForQBundleSlot | structuralCharacteristicEvidenceRelationForQBundleSlot(A.10-governed evidence relation only when evidence provenance is the claim being made)
 Non-admissible:
   successful assembly is not quality propagation
 ```
@@ -453,7 +454,7 @@ Runtime degradation slice:
 
 Use `C.24` only when tool-use, call planning, call graph, work execution, or budgeted agentic tool-use is the claim being made. Do not absorb those claims into architecture structure.
 
-**CPS or plant architecture.** A plant drawing, P&ID-like artifact, LCA sketch, or safety-case view is not the plant architecture by itself. First recovery may need:
+**CPS or plant architecture.** A plant drawing, P&ID-like publication form, LCA sketch, or safety-case view is not the plant architecture by itself. First recovery can require:
 
 ```text
 CPS and plant architecture first recovery:
@@ -541,7 +542,7 @@ Evidence reuse across product variants:
     evidence-structure view as assurance verdict
 ```
 
-**Organization service architecture.** A service organization sketch that shows teams, handoffs, escalation points, and dashboards is not the organization architecture by itself. First recovery may need:
+**Organization service architecture.** A service organization sketch that shows teams, handoffs, escalation points, and dashboards is not the organization architecture by itself. First recovery can require:
 
 ```text
 Organization service architecture first recovery:

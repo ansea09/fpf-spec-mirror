@@ -6,13 +6,14 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 54622
-line_end: 54656
+line_start: 54713
+line_end: 54740
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -56,36 +58,29 @@ keywords:
 
 ### C.30.ASV:1 - Problem frame
 
-Use this pattern when an architecture discussion needs to say which selected structure is being viewed, not merely that there is a diagram, model, table, dashboard, ADR, generated relation graph, or generic "view".
+Use this pattern when an architecture discussion needs a view over selected architecture-relevant `U.Structure` refs in an `ArchitectureOf@Context` claim.
 
-The first useful move is `ArchitectureStructureKindTriage@Project`:
+The first useful move is `ArchitectureStructureKindTriage@Project`: name the architecture claim or pre-claim described holon and bounded context, the smallest useful `ArchitectureStructureKindRef` set, the selected structure or structure-kind under consideration, and the next admissible architecture move.
 
 ```text
 ArchitectureStructureKindTriage@Project:
-architectureClaimRef?:
-describedHolonRef?:
-boundedContextRef?:
-
-architecture concern cue:
-suspected wrong collapse:
-practitioner prompt label:
-candidate structure kinds:
-smallest useful structure-kind set:
-primaryGoverningPatternApplicationRef:
-admissibleArchitectureMove:
-governingPatternApplicationRefs:
-stop condition:
+  architectureClaimRef?:
+  describedHolonRef?:
+  boundedContextRef?:
+  candidateStructureKindRefs:
+  smallestUsefulStructureKindRefs:
+  primaryGoverningPatternApplicationRef:
+  admissibleArchitectureMove:
+  stopCondition:
 ```
 
-Ordinary minimum: name the architecture claim being made or selected structure, or the described holon and bounded context when the claim is not yet recoverable, the one structure kind or structure-kind set that changes action, one non-admissible overread, and the next admissible architecture move or stop. All other fields are conditional and may be `not used`.
+Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a structural view over selected architecture-relevant structure changes the next move. Use a full `ArchitectureStructuralView@Context` only when the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another governing-pattern use.
 
-Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a view over selected architecture-relevant structure changes the next architecture move. Use the triage record when it names the structure kind under consideration and the next admissible architecture move. Use a full `ArchitectureStructuralView@Context` only when the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another governing-pattern use.
+What goes wrong if C.30.ASV is missed: one favored diagram, module view, TEVB viewpoint, generated relation graph, control sketch, or neural-network block diagram is treated as the architecture view or proof without naming the selected structure kind, hidden or lost structure, correspondence, and next move.
 
-What goes wrong if C.30.ASV is missed: "architecture" silently means "module diagram"; a view becomes a publication face; a viewpoint becomes a structure kind; TEVB is stretched into a full architecture ontology; a selected transformation-flow structure, mathematical graph description, Layered Control Architecture (LCA) control sketch, code-agent relation graph, or neural-network block diagram becomes the architecture by appearance.
-
-What C.30.ASV buys in practice: the practitioner can name the architecture claim, selected structures, structure kind, viewpoint, selected relation kinds, selected constraints, selected invariants, operation or dynamics descriptions being used, hidden or lost structure, correspondence, source or reliance relation, source-return condition, admissible use, and non-admissible use before relying on a view.
+What C.30.ASV buys in practice: the practitioner can bind selected structure kind to view record, viewpoint, construction mode, selected relations, hidden or lost structure, correspondence, source-return condition, and admissible use before relying on that view.
 
 Not this pattern when the question under repair is only the general architecture claim, structure as such, selected transformation-flow relation, mathematical graph description, path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim being made, use the governing pattern and keep C.30.ASV only to the view portion.
 
-Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a carrier, a source relation, or another governed claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a publication form, a source relation, or another governed claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
 

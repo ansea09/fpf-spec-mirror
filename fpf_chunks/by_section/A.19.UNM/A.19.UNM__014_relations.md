@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:12 — Relations"
-line_start: 27087
-line_end: 27105
+line_start: 27219
+line_end: 27237
 dependencies:
 keywords:
   - "CV→NCV"

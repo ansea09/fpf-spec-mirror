@@ -6,23 +6,30 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 23701
-line_end: 23704
+line_start: 23875
+line_end: 23878
 dependencies:
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
+  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.2.5"
   - "A.3.3"
+  - "A.6.5"
   - "C.16"
   - "E.18"
+  - "E.2.DA"
+  - "E.21"
+  - "E.24"
+  - "E.24.PUB"
+  - "E.9.DA"
   - "G.0"
 keywords:
   - "CharacteristicSpace"

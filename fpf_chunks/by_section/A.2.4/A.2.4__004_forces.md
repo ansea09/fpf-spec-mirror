@@ -6,12 +6,12 @@ section_id: "A.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__004_forces.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.4 — U.EvidenceRole"
   - "A.2.4:3 — Forces"
-line_start: 3166
-line_end: 3174
+line_start: 3340
+line_end: 3348
 dependencies:
   - "A.10"
   - "A.2"

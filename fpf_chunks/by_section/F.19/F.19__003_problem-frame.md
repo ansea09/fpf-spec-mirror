@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 78139
-line_end: 78158
+line_start: 78829
+line_end: 78848
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,7 +35,7 @@ keywords:
 
 ### F.19:1 - Problem frame
 
-Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-carrier evidence, pattern-reference apparatus, or repeated negative distinctions.
+Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference apparatus, or repeated negative distinctions.
 
 The repair question is:
 
@@ -44,7 +44,7 @@ The repair question is:
 Examples inside FPF:
 
 - "`A.15` handles the claim" when the text needs to say that `A.15` applies to a work-planning claim;
-- "live pattern text" when the text means "the pattern" or "the pattern of concern";
+- "pattern text" when the text means "the pattern" or "the pattern of concern";
 - "governing relation" when the named object is a pattern, not a relation;
 - long "not X, not Y, not Z" paragraphs when the text needs a positive object, action, and one stop condition;
 - corpus-projection proof written inside a pattern whose own user move is not corpus projection.

@@ -6,13 +6,14 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 54657
-line_end: 54671
+line_start: 54741
+line_end: 54755
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -56,7 +58,7 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, carriers, and renderings may publish the view; they are not the view and do not become the selected structure.
+An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, and renderings may publish the view; they are not the view and do not become the selected structure.
 
 Without this pattern:
 

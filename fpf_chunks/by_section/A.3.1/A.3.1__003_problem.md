@@ -6,12 +6,12 @@ section_id: "A.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__003_problem.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:2 — Problem"
-line_start: 5941
-line_end: 5952
+line_start: 6115
+line_end: 6126
 dependencies:
   - "A.1"
   - "A.1.1"

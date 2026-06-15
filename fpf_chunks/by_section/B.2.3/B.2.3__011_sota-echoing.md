@@ -6,12 +6,12 @@ section_id: "B.2.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__011_sota-echoing.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
   - "B.2.3:10 — SoTA-Echoing"
-line_start: 32188
-line_end: 32198
+line_start: 32315
+line_end: 32325
 dependencies:
   - "A.1"
   - "B.2"

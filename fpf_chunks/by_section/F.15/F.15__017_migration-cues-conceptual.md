@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Migration cues (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_migration-cues-conceptual.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:16 — Migration cues (conceptual)"
-line_start: 76641
-line_end: 76650
+line_start: 77331
+line_end: 77340
 dependencies:
   - "B.3"
   - "D.CTX"

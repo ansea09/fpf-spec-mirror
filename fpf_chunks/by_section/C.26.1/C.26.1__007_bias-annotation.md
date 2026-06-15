@@ -6,12 +6,12 @@ section_id: "C.26.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__007_bias-annotation.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:6 — Bias-Annotation"
-line_start: 47989
-line_end: 47994
+line_start: 48116
+line_end: 48121
 dependencies:
   - "A.1.1"
   - "A.10"

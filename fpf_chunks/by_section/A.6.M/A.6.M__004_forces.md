@@ -6,12 +6,12 @@ section_id: "A.6.M:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__004_forces.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:3 — Forces"
-line_start: 14946
-line_end: 14958
+line_start: 15120
+line_end: 15132
 dependencies:
 keywords:
   - "are used only for pattern users"

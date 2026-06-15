@@ -6,12 +6,12 @@ section_id: "E.2.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__006_worked-slices.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:5 — Worked slices"
-line_start: 57753
-line_end: 57762
+line_start: 57836
+line_end: 57847
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -28,9 +28,11 @@ keywords:
 
 ### E.2.DA:5 - Worked slices
 
-**Broad precision cleanup.** A wording pass makes many patterns more admissible but several `Problem frame`s now explain less about why the distinction matters, or a cleaned phrase changes the governed kind while the trigger word disappears. `P2`, `P6`, and `P7` receive lower values until the affected patterns restore recognition reason, useful action, and pre/post kind evidence in admissible wording.
+**Broad precision cleanup.** A wording pass makes many patterns more admissible but several `Problem frame`s now explain less about why the distinction matters, or a cleaned phrase changes the governed kind while the trigger word disappears. `P2`, `P6`, and `P7` receive lower values until the affected patterns restore recognition reason, useful action, and pre-repair and post-repair kind evidence in admissible wording.
 
-**Repeated-content/route/reference/neighbour-reference/negative-fanout cleanup that weakens content.** A corpus pass removes repeated "not proof/not gate/not work" prose, route metaphors, repeated guards, repeated mini-rules, repeated conditional neighbour-reference mappings, reference boilerplate, or architecture-placement prose, but leaves several patterns with less positive ontology, method, norm, or worked action than before. `P2`, `P5`, `P6`, `P7`, and `P10` receive lower values until the affected patterns restore their own subject content and state only live declarative governing relations.
+**Ontic architecture repair.** A campaign adds `E.24.CD`, `E.24.PUB`, or a new ontic host. Pillar values rise only if the change reduces duplicate ontology, type explosion, or shadow authority and improves FPF entry, authoring, review, or project use. Extra ontic terminology, score proof, or publication-boundary prose without better action lowers `P1`, `P2`, `P5`, `P6`, and `P7`.
+
+**Repeated content, route, reference, neighbour-reference, and negative-fanout cleanup that weakens content.** A corpus pass removes repeated "not proof", "not gate", and "not work" prose, route metaphors, repeated guards, repeated mini-rules, repeated conditional neighbour-reference mappings, reference boilerplate, or architecture-placement prose, but leaves several patterns with less positive ontology, method, norm, or worked action than before. `P2`, `P5`, `P6`, `P7`, and `P10` receive lower values until the affected patterns restore their own subject content and state only current declarative governing relations.
 
 **Projection repair.** README scenarios, ToC rows, `E.11` entry-distribution loci, and `I.2` expanded entry-disambiguation cases improve search but can start carrying pattern semantics. `P5` and `P9` fall because projections become shadow authority. The repair moves durable semantics back to governing patterns and leaves thin echoes in projections.
 

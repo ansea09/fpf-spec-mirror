@@ -6,12 +6,12 @@ section_id: "C.2.1:5"
 section_title: "Legacy semantic triangle as didactic view  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__006_legacy-semantic-triangle-as-didactic-view-informative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:5 — Legacy semantic triangle as didactic view  (informative)"
-line_start: 35445
-line_end: 35474
+line_start: 35572
+line_end: 35601
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

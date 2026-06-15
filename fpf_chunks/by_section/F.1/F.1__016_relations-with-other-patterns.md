@@ -6,12 +6,12 @@ section_id: "F.1:15"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__016_relations-with-other-patterns.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:15 — Relations (with other patterns)"
-line_start: 71792
-line_end: 71807
+line_start: 72482
+line_end: 72497
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.26:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__013_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:12 — Relations"
-line_start: 47738
-line_end: 47759
+line_start: 47865
+line_end: 47886
 dependencies:
   - "A.10"
   - "A.15"

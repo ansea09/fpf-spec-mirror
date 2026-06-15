@@ -6,12 +6,12 @@ section_id: "F.5:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_worked-examples.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.5 — Naming Discipline for U.Types & Roles"
   - "F.5:12 — Worked examples"
-line_start: 72992
-line_end: 73053
+line_start: 73682
+line_end: 73743
 dependencies:
   - "A.11"
   - "A.7"

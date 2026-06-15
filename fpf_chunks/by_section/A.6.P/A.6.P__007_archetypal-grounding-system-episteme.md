@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__007_archetypal-grounding-system-episteme.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:5 — Archetypal Grounding (System / Episteme)"
-line_start: 13450
-line_end: 13538
+line_start: 13624
+line_end: 13712
 dependencies:
   - "A.10"
   - "A.2.4"

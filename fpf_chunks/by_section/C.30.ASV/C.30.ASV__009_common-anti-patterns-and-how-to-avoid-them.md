@@ -6,13 +6,14 @@ section_id: "C.30.ASV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 55266
-line_end: 55279
+line_start: 55349
+line_end: 55362
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,7 @@ dependencies:
   - "E.17.1"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -58,7 +60,7 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Module diagram as architecture view** | One module-interface diagram is treated as the whole architecture. | Run structure-kind triage; keep module-interface as one structure kind and add other views only when they change action. |
+| **Module diagram as architecture view** | One module-interface diagram is treated as the whole architecture. | Use structure-kind triage; keep module-interface as one structure kind and add other views only when they change action. |
 | **Viewpoint as structure kind** | `VP.Functional`, `VP.ModuleInterface`, or another viewpoint is used as if it were the selected structure kind. | Recover `ArchitectureStructureKindRef` and bind it to a viewpoint through `ArchitectureStructureKindViewRecordBinding` when needed. |
 | **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use `VF.ARCH.STRUCTURE` and binding rows. |
 | **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme or source view and publication relation; use an ASV record only if the view changes action. |

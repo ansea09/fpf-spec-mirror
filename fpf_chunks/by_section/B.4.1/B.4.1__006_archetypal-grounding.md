@@ -6,12 +6,12 @@ section_id: "B.4.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__006_archetypal-grounding.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:5 — Archetypal Grounding"
-line_start: 33761
-line_end: 33767
+line_start: 33888
+line_end: 33894
 dependencies:
   - "A.15"
   - "A.16"

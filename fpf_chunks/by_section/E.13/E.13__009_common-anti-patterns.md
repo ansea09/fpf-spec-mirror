@@ -6,12 +6,12 @@ section_id: "E.13:7"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__009_common-anti-patterns.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:7 — Common Anti-Patterns"
-line_start: 63037
-line_end: 63047
+line_start: 63169
+line_end: 63179
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "E.9.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:1 — Problem frame"
-line_start: 59768
-line_end: 59779
+line_start: 59856
+line_end: 59867
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,11 +29,11 @@ keywords:
 
 Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision.
 
-Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`/`A.17`/`A.18`/`A.19` for those objects.
+Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`, `A.17`, `A.18`, and `A.19` for those objects.
 
-First useful move: name the exact `DRRVersionRef`, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
+First useful move: name `DRRVersionRef` by value, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
 
 What goes wrong if missed: a formally valid `DRR` may still be too weak for drafting. It may summarize sources instead of deciding, mention neighbours without obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 
-Primary EntityOfConcern in plain terms: the decision-adequacy claim of one exact `DRR` version for a declared FPF authoring use.
+Primary EntityOfConcern in plain terms: the decision-adequacy claim of one `DRR` version for a declared FPF authoring use.
 

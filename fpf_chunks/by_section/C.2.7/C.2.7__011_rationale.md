@@ -6,12 +6,12 @@ section_id: "C.2.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__011_rationale.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:10 — Rationale"
-line_start: 38216
-line_end: 38218
+line_start: 38343
+line_end: 38345
 dependencies:
   - "A.16"
   - "A.16.0"

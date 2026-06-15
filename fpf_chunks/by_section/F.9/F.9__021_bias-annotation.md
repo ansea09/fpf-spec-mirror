@@ -6,12 +6,12 @@ section_id: "F.9:19"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__021_bias-annotation.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.9 — Alignment & Bridge across Contexts"
   - "F.9:19 — Bias-Annotation"
-line_start: 74409
-line_end: 74423
+line_start: 75099
+line_end: 75113
 dependencies:
   - "A.6.1"
   - "A.6.3.CSC"

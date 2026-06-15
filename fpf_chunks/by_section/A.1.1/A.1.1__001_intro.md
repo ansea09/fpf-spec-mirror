@@ -1,42 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext: The Semantic Frame"
+pattern_title: "U.BoundedContext Semantic Frame"
 section_id: "A.1.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
-  - "A.1.1 — U.BoundedContext: The Semantic Frame"
+  - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:intro — Intro"
-line_start: 1503
-line_end: 1510
+line_start: 1600
+line_end: 1605
 dependencies:
   - "A.1"
-  - "A.2.1"
-  - "D.3"
-  - "D.CTX"
+  - "A.15"
+  - "A.6.5"
+  - "C.2.1"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.10.D1"
+  - "E.24"
+  - "E.24.PUB"
   - "F.0.1"
-  - "U.Boundary"
-  - "U.BoundedContext"
+  - "F.18"
+  - "F.9"
   - "U.Holon"
 keywords:
-  - "DDD"
-  - "context"
-  - "domain"
-  - "glossary"
-  - "invariants"
-  - "local meaning"
-  - "semantic boundary"
 ---
 
-## A.1.1 - `U.BoundedContext`: The Semantic Frame
+## A.1.1 - U.BoundedContext Semantic Frame
 
-> **Type:** Architectural (A)
+> **Type:** Part A architectural ontology pattern
 > **Status:** Stable
-> **Normativity:** Normative
-
-*Make meaning local; make translation explicit.*
+> **Normativity:** Normative unless a section is explicitly informative
 

@@ -6,12 +6,12 @@ section_id: "E.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:intro — Intro"
-line_start: 68299
-line_end: 68309
+line_start: 68431
+line_end: 68441
 dependencies:
   - "A.10"
   - "A.15"

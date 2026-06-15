@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__012_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 70297
-line_end: 70314
+line_start: 70431
+line_end: 70448
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -43,7 +43,7 @@ keywords:
 | `E.19` | Runs admission and refresh review profiles; it can consume or request `E.21`, but it does not assign `E.21` coordinate values or replace the required pattern-quality table. |
 | `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation. |
 | `E.23` | Runs repeated improvement using `E.21` values and stop meanings for pattern versions. |
-| `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` posture, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` result framing, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
 
 | `E.9.DA` | Evaluates upstream `DRR` decision adequacy when pattern-quality defects trace to decisions. |
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern scale, coordinate, and measurement legality. |

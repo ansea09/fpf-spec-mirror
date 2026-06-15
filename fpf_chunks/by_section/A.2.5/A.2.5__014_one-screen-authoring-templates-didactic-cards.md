@@ -6,12 +6,12 @@ section_id: "A.2.5:13"
 section_title: "One‑screen authoring templates (didactic cards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__014_one-screen-authoring-templates-didactic-cards.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.5 — U.RoleStateGraph: The Named State Space of a Role"
   - "A.2.5:13 — One‑screen authoring templates (didactic cards)"
-line_start: 3913
-line_end: 3962
+line_start: 4087
+line_end: 4136
 dependencies:
   - "A.15"
   - "A.2.1"

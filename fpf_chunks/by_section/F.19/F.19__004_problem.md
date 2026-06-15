@@ -6,12 +6,12 @@ section_id: "F.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__004_problem.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:2 — Problem"
-line_start: 78159
-line_end: 78170
+line_start: 78849
+line_end: 78860
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,9 +39,9 @@ How can FPF make technical prose plain without:
 
 - treating plain language as a synonym-replacement exercise;
 - deleting content-bearing technical terms as "jargon";
-- replacing exact terms with colourful synonyms or role nicknames;
+- replacing established terms with colourful synonyms or role nicknames;
 - letting process, review, projection, or quality proof become pattern content;
 - repeating the same boundary doctrine in every local pattern;
-- hiding slot/use-position changes under a shorter phrase;
+- hiding slot or use-position changes under a shorter phrase;
 - turning every phrase repair into a new local mini-ontology?
 

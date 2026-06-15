@@ -6,12 +6,12 @@ section_id: "A.2.2:10"
 section_title: "Time and change (calibration, drift, upgrades)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__011_time-and-change-calibration-drift-upgrades.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.2 — U.Capability"
   - "A.2.2:10 — Time and change (calibration, drift, upgrades)"
-line_start: 2642
-line_end: 2651
+line_start: 2816
+line_end: 2825
 dependencies:
   - "A.1"
   - "A.1.1"

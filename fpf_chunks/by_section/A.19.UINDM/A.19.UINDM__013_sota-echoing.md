@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__013_sota-echoing.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:11 — SoTA-Echoing"
-line_start: 27359
-line_end: 27377
+line_start: 27491
+line_end: 27509
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

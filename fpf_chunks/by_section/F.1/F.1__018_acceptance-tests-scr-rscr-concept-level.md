@@ -6,12 +6,12 @@ section_id: "F.1:17"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__018_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:17 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 71817
-line_end: 71837
+line_start: 72507
+line_end: 72527
 dependencies:
   - "A.11"
   - "A.7"

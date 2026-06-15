@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.3.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.2.3 — Meta-Epistemic Transition (MET)"
-line_start: 32058
-line_end: 32208
+line_start: 32185
+line_end: 32335
 dependencies:
   - "A.1"
   - "B.2"

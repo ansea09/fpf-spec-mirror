@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__001_intro.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:intro — Intro"
-line_start: 59237
-line_end: 59242
+line_start: 59325
+line_end: 59330
 dependencies:
   - "A.19.ECS"
   - "C.25"

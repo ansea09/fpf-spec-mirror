@@ -6,12 +6,12 @@ section_id: "E.17.2:8"
 section_title: "Relations  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__009_relations-informative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
   - "E.17.2:8 — Relations  (informative)"
-line_start: 64949
-line_end: 64955
+line_start: 65081
+line_end: 65087
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

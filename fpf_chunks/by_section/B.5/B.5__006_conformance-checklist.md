@@ -6,12 +6,12 @@ section_id: "B.5:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__006_conformance-checklist.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:5 — Conformance Checklist"
-line_start: 33960
-line_end: 33977
+line_start: 34087
+line_end: 34104
 dependencies:
   - "A.10"
   - "B.4"

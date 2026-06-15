@@ -6,12 +6,12 @@ section_id: "C.30.ILC:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__010_consequences.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:9 — Consequences"
-line_start: 55796
-line_end: 55803
+line_start: 55879
+line_end: 55886
 dependencies:
   - "A.10"
   - "A.22"

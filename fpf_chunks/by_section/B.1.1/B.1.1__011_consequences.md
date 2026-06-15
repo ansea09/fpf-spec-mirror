@@ -6,12 +6,12 @@ section_id: "B.1.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:10 — Consequences"
-line_start: 30324
-line_end: 30339
+line_start: 30451
+line_end: 30466
 dependencies:
   - "A.1"
   - "A.12"

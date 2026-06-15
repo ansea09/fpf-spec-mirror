@@ -1,233 +1,307 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext: The Semantic Frame"
+pattern_title: "U.BoundedContext Semantic Frame"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.1.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
-  - "A.1.1 — U.BoundedContext: The Semantic Frame"
-line_start: 1503
-line_end: 1702
+  - "A.1.1 — U.BoundedContext Semantic Frame"
+line_start: 1600
+line_end: 1876
 dependencies:
   - "A.1"
-  - "A.2.1"
-  - "D.3"
-  - "D.CTX"
+  - "A.15"
+  - "A.6.5"
+  - "C.2.1"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.10.D1"
+  - "E.24"
+  - "E.24.PUB"
   - "F.0.1"
-  - "U.Boundary"
-  - "U.BoundedContext"
+  - "F.18"
+  - "F.9"
   - "U.Holon"
 keywords:
-  - "DDD"
-  - "context"
-  - "domain"
-  - "glossary"
-  - "invariants"
-  - "local meaning"
-  - "semantic boundary"
 ---
 
-## A.1.1 - `U.BoundedContext`: The Semantic Frame
+## A.1.1 - U.BoundedContext Semantic Frame
 
-> **Type:** Architectural (A)
+> **Type:** Part A architectural ontology pattern
 > **Status:** Stable
-> **Normativity:** Normative
+> **Normativity:** Normative unless a section is explicitly informative
 
-*Make meaning local; make translation explicit.*
+### A.1.1:0 - Use This When
+
+Use this pattern when a term, role, rule, invariant, unit, status, or admissible inference is meaningful only inside a named semantic frame.
+
+Typical moments:
+
+- the same word means different things in engineering, finance, legal, scientific, or operations work;
+- a role assignment needs the context that defines the role and its incompatibilities;
+- an invariant is local to one standard, team, theory, regulation, product line, or edition;
+- two contexts need a bridge relation rather than an assumed global equivalence;
+- a "domain" label is too broad to decide local vocabulary or rules.
+
+**First useful move.** Name the `U.BoundedContext` that governs the current meaning, then state the local vocabulary, local invariants, role taxonomy, and bridge relations that matter for the claim.
+
+**What goes wrong if missed.** "Owner", "ticket", "service", "evidence", "role", "done", and "valid" become global labels. Integration work then appears to be about matching words, while the real problem is unspoken semantic frames.
+
+**What this buys.** FPF can keep plural meanings without contradiction: each meaning is local, and cross-context use becomes an explicit bridge relation with stated fit and loss.
+
+**Not this pattern when.**
+
+- If the question is only naming a durable term, use `F.18`.
+- If the question is role-method-work alignment after the context is known, use `A.15`.
+- If the question is episteme description context, use `C.2.1` with `BoundedContextRef`.
+- If the question is a broad field such as healthcare, physics, finance, or architecture, treat it as an informative domain family unless a specific bounded context is named.
 
 ### A.1.1:1 - Problem Frame
 
-Large systems of thought (and large engineered systems) break down when meaning is treated as globally uniform.
-The same label (e.g., “role”, “service”, “ticket”, “evidence”) routinely carries incompatible senses across teams, disciplines, standards editions, and historical eras.
+Meaning is local. The same expression can be coherent in one bounded context and misleading in another. "Service" in software, service operations, military organization, and contract law is not one global object by spelling. "Evidence" in a courtroom, a scientific review, a machine-learning benchmark, and a gate review is not one global role by spelling.
 
-FPF needs a first-class mechanism that answers a simple question with precision:
-**“In which semantic frame does this term, rule, or role-claim hold?”**
+`U.BoundedContext` is the FPF ontic for this locality of meaning. It is a `U.Holon` that holds one semantic frame: local vocabulary, local invariants, local role taxonomy, and bridge relations to other contexts.
 
-The `U.BoundedContext` is that mechanism. It makes “it depends” explicit and governable by naming *what it depends on*.
+A bounded context is not an enclosing object for all work in a domain. It is the semantic frame in which a term, rule, role assignment, or inference is interpreted.
 
 ### A.1.1:2 - Problem
 
-Absent an explicit, first-class semantic frame:
+Without `U.BoundedContext`:
 
-1. **Ambiguity becomes structural debt.** Integrations silently overwrite meanings (“process” becomes “procedure”; “role” becomes “permission”), and the resulting model cannot be audited.
-2. **Pluralism looks like contradiction.** Two valid perspectives appear mutually exclusive because the frame of reference is implicit (e.g., Pluto as `PlanetRole` vs `DwarfPlanetRole`).
-3. **Roles lose semantic footing.** A `U.Role` without a declared frame degenerates into a global label, violating the kernel’s insistence that roles are contextual masks (A.2, A.2.1).
-4. **Local rules leak globally.** Team- or theory-specific invariants are mistaken for universal laws, producing incoherent cross-domain reasoning.
+1. **Semantic drift hides in shared words.** Teams keep the same label while changing the object, role, rule, or allowed inference.
+2. **Local rules leak globally.** A policy, status, role, or invariant valid in one context is applied in another without a bridge relation.
+3. **Pluralism looks like contradiction.** Two contexts can each be coherent, but absent context they look mutually inconsistent.
+4. **Role assignments lose their footing.** A `U.Role` is used as a global label rather than a value defined in a local role taxonomy.
+5. **Domain labels pretend to govern.** "Healthcare", "AI", "architecture", or "physics" is used where a specific semantic frame is required.
 
 ### A.1.1:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Local coherence** | A context must be internally unambiguous ↔ real work crosses boundaries and needs translation. |
-| **Pluralism** | Multiple valid frames must coexist ↔ readers demand apparent “one truth”. |
-| **Governance cost** | Explicit boundaries and rules improve reliability ↔ too many contexts create overhead and fragmentation. |
-| **Evolvability** | Contexts must change over time ↔ change must remain traceable and non-destructive to prior meaning. |
-| **Familiarity** | Practitioners use domain-native vocabulary ↔ the kernel must stay universal and type-stable. |
-| **Domain-family convenience** | People want “the domain” as a handle ↔ FPF requires specific, named semantic frames. |
-
-#### A.1.1:3.1 - Prophylactic clarification — Domain family vs `U.BoundedContext`
-
-To prevent a common category error, **Domain (as used colloquially)** and **`U.BoundedContext`** are **not synonyms** in FPF, and “Domain” is not a kernel type.
-Per **E.10.D1 (D.CTX)**, **Domain is an informative family label** grouping multiple contexts; there is no “domain context”.
-
-| Characteristic | **Domain family (informative)** (e.g., Healthcare, Physics, Workflow) | **`U.BoundedContext`** (e.g., `Hospital.OR_2025`, `Theory:QuantumMechanics`, `BPMN_2_0`) |
-| :--- | :--- | :--- |
-| **Nature** | An external field of practice/knowledge; a catalog handle. | An internal FPF holon: a named semantic frame with local vocabulary and local invariants. |
-| **Role in FPF** | Groups contexts for survey, coverage, and stewardship discussions. | Localizes meaning and rules; provides a semantic firewall where words and obligations are coherent. |
-| **Relationship** | One family contains many legitimate perspectives/editions. | One context carries one such perspective with explicit `Glossary`, `Invariants`, `Roles`, and optional `Bridges`. |
-
-**Well-formedness constraint (didactic):** In any `U.RoleAssignment`, `context` is total and points to **exactly one** `U.BoundedContext` (cardinality **1..1**).
-*Think “specific room” (e.g., `Hospital.OR_2025`), not “the whole building” (e.g., “Healthcare”).*
-
-**Manager’s one-liner:** A **Domain family** is the *territory label*; a **Bounded Context** is a *purpose-made map* of one perspective on that territory.
+| --- | --- |
+| Local coherence vs cross-context work | A context must be internally coherent; real projects still exchange meanings across contexts. |
+| Pluralism vs one-truth pressure | Several valid frames may coexist; readers often want one global meaning. |
+| Explicitness vs overhead | Naming contexts and bridges costs effort; hidden context costs more when integration or review fails. |
+| Role locality vs organizational habit | Roles are defined by local rules; organizations often reuse titles as if they were global roles. |
+| Domain convenience vs semantic precision | Domain family labels help orientation; bounded contexts decide meaning. |
 
 ### A.1.1:4 - Solution
 
-FPF elevates **semantic framing** to a kernel primitive by introducing `U.BoundedContext` as a first-class holon of meaning.
-Inspired by Domain-Driven Design (DDD) but generalized beyond software, a bounded context is not a mere namespace: it is **a governable model locale** with explicit vocabulary, rules, and role taxonomy.
+Model `U.BoundedContext` as a semantic-frame holon.
 
-#### A.1.1:4.1 - Term & Definition
+```text
+BoundedContextSlotRelation:
+  contextIdentity:
+  contextBoundary:
+  localVocabulary:
+  localInvariantSet:
+  localRoleTaxonomy:
+  bridgeRelationSet?:
+  stewardingSystemOrCommunityRef?:
+  editionOrWindowRef?:
+```
 
-* **Term:** `U.BoundedContext`
-* **Definition:** A **`U.BoundedContext`** is a `U.Holon` that serves as an explicit **semantic frame of reference**. It declares a boundary within which a specific vocabulary, role taxonomy, and invariant set are coherent and authoritative. It is FPF’s kernel mechanism for localizing meaning and managing complexity by partitioning a larger conceptual space into smaller, coherent, independently governable **semantic locales** (Contexts).
+The context is the `EntityOfConcern` when the claim is about semantic locality itself. It may also fill `BoundedContextRef` in role assignments, episteme descriptions, characteristic spaces, architecture descriptions, and other patterns.
 
-**Mint vs reuse** (informative): The label "Bounded Context" is reused from DDD; `U.BoundedContext` is the FPF-defined kernel type (generalized beyond software). Cross-context sameness is never inferred from spelling; cross-context alignment is represented only via explicit `Bridge` records (F.9; E.10.U9; see CC-A1.1.5).
+#### A.1.1:4.1 - Context Identity
 
-#### A.1.1:4.2 - Core components (normative shape)
+`contextIdentity` names the semantic frame, not a territory, department, document, storage place, team, or domain family.
 
-A `U.BoundedContext` is a composite holon whose *parts* constitute the context’s local “constitution”:
+Good context names are specific enough to decide meaning:
 
-* **`Glossary` (Local Lexicon):** A set of `U.Lexeme` entries (Lang-CHR) defining the local vocabulary and its intended senses. This is where a context can state: “Inside here, `ticket` denotes `U.WorkItem`, not `U.TravelPermit`.”
-* **`Invariants` (Local Rules):** A set of `U.ConstraintRule`s (Norm-CAL) that must hold for holons and processes operating in this context. These rules define the context's local “physics”.
-  * *Example (role compatibility):* “Within this context, a `holder` cannot simultaneously play `AuditorRole` and `DeveloperRole`.”
-  * *Example (state transition):* “A `U.WorkItem` can transition from `InProgress` to `InReview`, never directly to `Done`.”
-* **`Roles` (Local Taxonomy):** A partial order of `U.Role`s that are defined and valid only within this context. It specifies the “masks” available on this stage (A.2).
-* **`Bridges` (Optional alignments):** A set of explicit cross-context relations (`U.Alignment`, formalized in F.9 / E.10.U9) describing how meaning translates when information crosses context boundaries, including loss/fit notes.
-  * *Example (alignment):* “`AgileDevelopment:UserStory` is congruent (CL=1) to `FormalEngineering:Requirement` under the stated loss policy.”
+- `Hospital.OR_2025`
+- `BPMN_2_0`
+- `Theory.SpecialRelativity.SelectedEdition`
+- `FactoryLineB.MaintenanceRules.2026`
+- `FPF.PatternQuality.E21`
 
-#### A.1.1:4.3 - Context interactions with other kernel objects (normative)
+Broad labels such as "healthcare", "physics", "software", "workflow", or "architecture" are informative domain families unless they are narrowed into a bounded context with local vocabulary, invariants, role taxonomy, and bridge relations.
 
-* **As a `U.Holon`:** A `U.BoundedContext` has a defined `U.Boundary` and internal parts (`Glossary`, `Invariants`, …). However, **contexts do not form holarchies with each other**: per E.10.D1 (D.CTX), contexts have no is‑a or containment relations; cross-context relationships are expressed only via explicit `Bridges`.
-* **As the semantic frame for `U.RoleAssignment`:** The `context` field of `U.RoleAssignment` identifies the unique semantic frame in which the holder-role assignment is interpreted (A.2.1).
-* **As the scope carrier for rules and objectives:** `U.Objective`s and `U.ConstraintRule`s are typically authored and evaluated relative to a specific context’s invariants.
-* **As a change target:** Context evolution (new invariants, revised glosses, deprecated roles) is modeled as a `U.Transformer` acting on the `U.BoundedContext` holon itself. Where time is merely stance (`design`/`run`), treat it as a TimeScope tag, not a new context (C‑7; D.CTX).
+#### A.1.1:4.2 - Context Boundary
 
-> *If meaning is local by design, then translation must be explicit by design.*
+`contextBoundary` says where local meaning holds. It can be bounded by edition, standard, organization, product line, theory, practice, regulation, contract, operating mode, or another governed boundary.
 
-**Admissibility constraints (concept-level; non-deontic).**
+The boundary is not a document boundary by default. A document may publish a context description. The context is the semantic frame that the document describes.
 
-* **BC‑1 (Holon nature).**  A `U.BoundedContext` is a `U.Holon` and declares a `U.Boundary`.
-* **BC‑2 (Flat context map).** No `U.BoundedContext` is modeled as inheriting from, containing, or being contained by another `U.BoundedContext`; cross-context relations are represented only via explicit `Bridges` (E.10.D1 / E.10.U9).
-* **BC‑3 (Role localization).** Every `U.Role` is defined in the `Roles` taxonomy of at least one `U.BoundedContext`; a "global role" is not a valid kernel object.
-* **BC‑4 (Invariant scope).** Any invariant authored in a Context applies only to holons and processes operating within that Context; cross-context reuse is mediated by Bridges and re‑stated locally.
-* **BC-5 (Bridge explicitness).** Any interaction or semantic alignment between two Contexts is represented by an explicit `Bridge` record.
-* **BC-6 (RoleAssignment context field).** A `U.RoleAssignment` references exactly one `U.BoundedContext` in its `context` field (cardinality 1..1).
-* **BC‑7 (Domain is metadata).** "Domain" denotes only an informative family label grouping multiple contexts; it is not a kernel type and does not substitute for `U.BoundedContext` (E.10.D1).
+#### A.1.1:4.3 - Local Vocabulary
+
+`localVocabulary` gives local senses for terms. It does not create global meanings.
+
+When a word crosses contexts, do not infer sameness from spelling. Use a bridge relation with direction, relation kind, fit, loss, and scope.
+
+Example: `ticket` in an airline context may denote a travel authorization; `ticket` in an IT service context may denote a work item. Those are different local meanings unless a bridge relation is declared for a specific use.
+
+#### A.1.1:4.4 - Local Invariant Set
+
+`localInvariantSet` names rules that hold inside the context.
+
+Examples:
+
+- in a hospital operating-room context, one person cannot fill surgeon and independent auditor roles for the same case;
+- in a workflow-standard context, one work item cannot move from `InProgress` to `Done` without an accepted review transition;
+- in a theory context, selected postulates constrain admissible derivations.
+
+An invariant does not become global because it is well written. Cross-context reuse requires a bridge relation or a new local declaration.
+
+#### A.1.1:4.5 - Local Role Taxonomy
+
+`localRoleTaxonomy` defines roles valid in the context. A role assignment uses one context:
+
+```text
+RoleAssignment:
+  holderRef:
+  roleRef:
+  boundedContextRef:
+  windowRef?:
+```
+
+The same holder may have different role assignments in different contexts. The same role name may denote different roles in different contexts. A "global role" is not a valid shortcut; it is either a role value defined in a selected context or a wording problem to repair.
+
+#### A.1.1:4.6 - Bridge Relation Set
+
+`bridgeRelationSet` records cross-context relations. A bridge is not a hidden merge. It states how a meaning, role, rule, unit, status, or claim in one context relates to one in another context.
+
+A bridge relation should state:
+
+```text
+BridgeRelation:
+  sourceContextRef:
+  targetContextRef:
+  sourceValueRef:
+  targetValueRef:
+  relationKind:
+  direction:
+  fit:
+  loss:
+  scope:
+```
+
+If a bridge cannot be stated, the cross-context use remains unsupported for that claim.
+
+#### A.1.1:4.7 - Non-Enclosing Boundary
+
+Do not use bounded context as an enclosing object for everything nearby. A bounded context localizes meaning; it does not automatically contain every system, document, team, work plan, source, or architecture that mentions its vocabulary.
+
+Objects can be governed by, described under, interpreted inside, or bridged across a context without being parts of the context holon. Use the relevant slot relation for each claim.
 
 ### A.1.1:5 - Archetypal Grounding
 
-The concept of a `U.BoundedContext` is universal and applies to both physical/operational domains and purely abstract/epistemic ones. Understanding these two archetypes clarifies its role as a fundamental FPF primitive.
+#### A.1.1:5.1 - Hospital Operating Room Context
 
-| Archetype | Stewarding community | `U.BoundedContext` Example | Core Components Illustrated |
-| :--- | :--- | :--- | :--- |
-| **`U.System` Archetype** | A modern software engineering team | **`AgileProject:Phoenix`** | **`Glossary`**: Defines "Story Point," "Sprint," "Velocity." <br> **`Invariants`**: "Daily stand-up must not exceed 15 minutes." "A Story cannot move to 'Done' without a linked Test Case." <br> **`Roles`**: `ProductOwnerRole`, `ScrumMasterRole`, `DeveloperRole`. <br> **`Bridges`**: Maps `Velocity` metric to the `FinanceDept` context's `CostCenter:BudgetBurnRate`. |
-| **`U.Episteme` Archetype** | A scientific community | **`Theory:SpecialRelativity`** | **`Glossary`**: Defines "Inertial Frame," "Lorentz Transformation," "Proper Time." <br> **`Invariants`**: "The speed of light in a vacuum is constant for all observers." "The laws of physics are the same in all inertial frames." <br> **`Roles`**: `Postulate#AxiomaticCoreRole`, `Experiment#EvidenceRole`. <br> **`Bridges`**: Maps its concept of "Spacetime" to the `GeneralRelativity` context's more complex concept of "Curved Spacetime." |
+`Hospital.OR_2025` is a bounded context for operating-room work in a named hospital edition.
 
-**Key takeaway from grounding:**
-This illustrates that a `U.BoundedContext` is not an abstract container but a **holon with concrete members and local rules**. For the engineering team, it's their project's "operating system." For the scientific theory, it's the "intellectual constitution." In both cases, the context defines what is true, what is possible, and what words mean *locally*.
+```text
+BoundedContextSlotRelation:
+  contextIdentity: Hospital.OR_2025
+  contextBoundary: operating-room policy and procedure edition for 2025
+  localVocabulary: case, sterile field, time-out, circulating nurse, independent auditor
+  localInvariantSet: time-out required before incision; surgeon and independent auditor roles incompatible for one case
+  localRoleTaxonomy: SurgeonRole, ScrubNurseRole, CirculatingNurseRole, IndependentAuditorRole
+  bridgeRelationSet: billing-code bridge, hospital-wide staffing bridge
+```
+
+The context does not perform surgery. Systems in roles perform work. The context defines the local meanings and constraints under which those role assignments and work claims are interpreted.
+
+#### A.1.1:5.2 - Special Relativity Context
+
+`Theory.SpecialRelativity.SelectedEdition` is a bounded context for a selected episteme tradition.
+
+```text
+BoundedContextSlotRelation:
+  contextIdentity: Theory.SpecialRelativity.SelectedEdition
+  contextBoundary: selected postulates, vocabulary, reference schemes, and admissible derivations
+  localVocabulary: inertial frame, proper time, Lorentz transformation
+  localInvariantSet: constant light speed postulate; covariance constraints
+  localRoleTaxonomy: PostulateRole, EvidenceRole, DerivedClaimRole
+  bridgeRelationSet: bridge to Newtonian mechanics under low-speed approximation; bridge to general relativity under selected assumptions
+```
+
+The context frames meaning. It does not make the theory true by itself and does not act. Systems in roles publish, teach, test, or revise epistemes that use this context.
+
+#### A.1.1:5.3 - FPF Pattern Quality Context
+
+`FPF.PatternQuality.E21` is a bounded context for evaluating FPF pattern quality. Terms such as "recognition text", "assurance text", "semio-bias resistance", and "first-use affordability" have local meanings. A different context may use "quality" for product reliability, manufacturing yield, safety assurance, or service satisfaction.
+
+Cross-context reuse of a quality term requires a bridge relation. Spelling alone does not carry the meaning.
 
 ### A.1.1:6 - Bias-Annotation
 
-This pattern is intentionally universal, but it can be misread through narrower lenses:
+Lenses tested: **Onto**, **Epist**, **Prag**, **Gov**, **Arch**, **Did**.
 
-* **Software-centrism bias:** Readers may assume “bounded context” only applies to microservices/teams. *Mitigation:* the Episteme archetype is first-class; contexts apply equally to theories, standards, and scientific practices.
-* **Boundary reification bias:** Authors may treat boundaries as “natural facts” rather than modelling choices. *Mitigation:* boundaries are declared for governance and clarity, and cross-context relations are handled via Bridges with explicit loss/fit.
-* **English-label bias:** Examples often use English visible terms, which can hide multilingual drift. *Mitigation:* language/edition discipline in D.CTX governs when to split/merge contexts; multilingual labels are metadata when semantics are truly bound.
+This pattern intentionally resists:
+
+- **global-language bias:** one spelling is treated as one meaning everywhere;
+- **domain-family bias:** a broad field label is treated as if it governed local meaning;
+- **enclosing-object bias:** the context is treated as a storage place or enclosing object for all related work;
+- **role-globalization bias:** a role name is used without the context that defines it;
+- **bridge-erasure bias:** cross-context fit and loss are hidden behind "same", "equivalent", or "mapped" language.
 
 ### A.1.1:7 - Conformance Checklist
 
-To ensure `U.BoundedContext` is used consistently and rigorously, the following normative checks apply.
-
-| ID | Requirement (Normative Predicate) | Purpose / Rationale |
-| :--- | :--- | :--- |
-| **CC-A1.1.1 (Holon Nature)** | A `U.BoundedContext` **MUST** be modeled as a `U.Holon` with a defined `U.Boundary`. | Reinforces that contexts are well-defined entities, not vague groupings. Enables reasoning about contexts themselves as systems. |
-| **CC-A1.1.2 (Flat Context Map)** | A `U.BoundedContext` **MUST NOT** be modeled as inheriting from, containing, or being contained by another `U.BoundedContext`. Cross-context relations **MUST** be expressed only via explicit `Bridges` (E.10.D1 / E.10.U9). | Prevents semantic leakage and hidden globalism; keeps cross-context translation auditable and loss-aware. |
-| **CC-A1.1.3 (Role Localization)** | Every `U.Role` **MUST** be defined within the `Roles` taxonomy of at least one `U.BoundedContext`. A "global role" is forbidden. | Ensures roles are never context-free; meaning remains local and checkable. |
-| **CC-A1.1.4 (Invariant Scope)** | An invariant defined within a context **MUST** only apply to holons and processes operating *within* that context. | Prevents local rules from leaking into global reasoning; preserves modularity. |
-| **CC-A1.1.5 (Bridge Explicitness)** | Any interaction or alignment between two `U.BoundedContext`s **MUST** be modeled as an explicit `Bridge` record. | Forbids implicit cross-context equivalences; makes dependencies visible and auditable. |
-| **CC-A1.1.6 (RoleAssignment Context Binding)** | Every `U.RoleAssignment` **MUST** reference exactly one `U.BoundedContext` in its `context` field (cardinality 1..1). | Guarantees that each assignment is interpreted in one authoritative frame of meaning. |
-| **CC-A1.1.7 (Domain family is informative)** | “Domain context” **MUST NOT** appear in normative prose; Domain labels **MAY** appear only as informative family metadata that groups multiple contexts (E.10.D1). | Prevents the domain/context conflation that breaks locality and auditability. |
+| Check | Requirement |
+| --- | --- |
+| `CC-A1.1-1` | A bounded-context claim names the `U.BoundedContext` by value; broad domain-family labels do not govern local meaning. |
+| `CC-A1.1-2` | The context has a boundary, local vocabulary, local invariant set, and local role taxonomy when those claims are current. |
+| `CC-A1.1-3` | Role assignments name exactly one bounded context for interpretation. |
+| `CC-A1.1-4` | Cross-context use is expressed through bridge relations with direction, relation kind, fit, loss, and scope. |
+| `CC-A1.1-5` | No context-to-context containment or inheritance is inferred without an explicit bridge or governing relation. |
+| `CC-A1.1-6` | Publication forms that describe a context are not treated as the context itself. |
+| `CC-A1.1-7` | Time, edition, and currentness qualifiers refine the context boundary or publication, but they do not create a new context unless local meaning changes. |
+| `CC-A1.1-8` | Objects interpreted inside a context are not automatically parts of the context holon. |
 
 ### A.1.1:8 - Common Anti-Patterns and How to Avoid Them
 
-These failure modes recur when applying `U.BoundedContext` in real programs and knowledge work.
-
-| Anti-pattern | Symptom | Why it fails | How to avoid / repair |
-| :--- | :--- | :--- | :--- |
-| **Domain-as-Context** | “Healthcare” or “Physics” is used where a specific context is required. | Violates Domain-family convenience vs precision; meaning stays ambiguous. | Use a specific context id (edition- and source-scoped), and keep the domain label as informative family metadata only. |
-| **Implicit equivalence across contexts** | The same string in two contexts is treated as “obviously the same”. | Violates local coherence; creates silent semantic overwrites. | Publish an explicit Bridge with relation kind and loss/fit note (F.9 / E.10.U9). |
-| **Context hierarchy / nesting** | Authors model “sub-contexts” as containment or is‑a between contexts. | Violates the flat context map discipline; leaks rules by inheritance. | Remove context-to-context containment; express relationships via Bridges only (E.10.D1). |
-| **Time-as-Context** | “Design context” and “Runtime context” are created as separate contexts. | Violates evolvability and clarity; multiplies frames incorrectly. | Use TimeScope tags (`design`/`run`) on descriptions, records, or carriers; keep the semantic frame fixed (C-7; D.CTX). |
-| **Glossary-only context** | A context is defined by vocabulary but has no invariants or role taxonomy. | Violates governance intent; “local truth” remains implicit. | Add at least one invariant and a minimal local role taxonomy, even if initially coarse. |
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Domain as context | "Healthcare" or "physics" is used where local meaning must be decided. | Name a specific bounded context or keep the broad label informative. |
+| Same spelling as sameness | A word used in two contexts is treated as equivalent. | Write a bridge relation or keep the meanings separate. |
+| Context as storage place | Everything mentioned in one context is treated as part of that context. | Use the appropriate slot relation: interpreted-in, governed-by, described-under, bridged-to, or part-of. |
+| Global role | "Owner", "operator", or "reviewer" is used without a context. | Name the role value and the bounded context that defines it. |
+| Time as context by reflex | Design-time and run-time become separate contexts even when meaning is unchanged. | Use temporal patterns or window patterns unless the local vocabulary or invariants actually change. |
 
 ### A.1.1:9 - Consequences
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Enables True Modularity:** By encapsulating models, FPF can support large, complex systems where different teams can work on their own bounded contexts in parallel with minimal interference. | **Modeling Overhead:** Requires architects to explicitly think about and define the boundaries of their models, which can feel like extra work initially. *Mitigation:* This upfront effort is a strategic investment that prevents the much higher cost of integration chaos and semantic ambiguity later in the project. |
-| **Resolves Ambiguity and Paradox:** Provides a formal mechanism to manage synonyms, homonyms, and conflicting models (like the Pluto example). It transforms "it depends" into a precise, queryable structure. | **Bridge Maintenance:** As contexts evolve, the bridges between them must be maintained. *Mitigation:* FPF tooling should support "link integrity" checks to automatically flag broken or outdated bridges. |
-| **Makes Rules Explicit:** The `Invariants` component of a context makes the local rules and invariants for a project or theory explicit, documented, and auditable. | - |
-| **Foundation for Scalable Autonomy:** In multi-agent systems, each agent can operate within its own bounded context, communicating with others through well-defined bridges. This is a prerequisite for building robust, decentralized systems. | - |
+Positive consequences:
+
+- Polysemy becomes governable: meaning is local and bridgeable rather than globally guessed.
+- Role assignments become inspectable because the role taxonomy is named by context.
+- Local invariants stop leaking into other contexts.
+- Domain-family labels remain useful for orientation without becoming false kernel objects.
+
+Costs:
+
+- Authors must name a context when they use polysemous terms.
+- Cross-context claims need bridge relations instead of "obvious" equivalence.
+- Some old context hierarchies need repair into explicit bridges or domain-family metadata.
 
 ### A.1.1:10 - Rationale
 
-**Lineage and fit with Domain‑Driven Design (DDD).**
-FPF generalizes the proven DDD idea of a **Bounded Context** from software into a universal modeling primitive:
+`U.BoundedContext` is the semantic companion to `U.Holon`. A holon boundary says what counts as inside or outside the whole for a claim. A bounded-context boundary says where a vocabulary, invariant, role taxonomy, and inference rule are locally coherent.
 
-| DDD concept | FPF counterpart | Generalization in FPF |
-| :--- | :--- | :--- |
-| Bounded Context | **U.BoundedContext** (a holon) | Used for systems **and** knowledge; first‑class object with explicit Glossary, Invariants, local Roles, Bridges. |
-| Ubiquitous Language | **Glossary** of the context | The shared vocabulary is an explicit component, not just narrative. |
-| Context Map | **Bridges/Alignment** between contexts | Cross‑context relations are modeled explicitly rather than assumed globally. |
+The pattern is generalized from domain-driven design but is not software-only. Scientific theories, legal standards, hospital procedures, manufacturing cells, model cards, research programs, and FPF evaluation contexts all need local meaning. FPF makes that locality an ontic rather than leaving it as "it depends."
 
-**Why this matters here.**
-`U.BoundedContext` gives `U.RoleAssignment` (A.2.1) its footing: role meanings are **local by design**, conflicts are checked **inside** the same context, and differences **across** contexts are handled by **explicit Bridges** instead of “global truth.”
+This also protects role and episteme ontology. A `U.Role` is not global; it is valid inside a bounded context. A `U.Episteme` is meaningful only when its EntityOfConcern, viewpoint, reference scheme, and bounded context are known. Bridges then make cross-context correspondence explicit instead of letting spelling decide.
 
-The introduction of `U.BoundedContext` as a first-class holon directly implements several core FPF principles and is aligned with the contemporary-practice anchors cited below.
+### A.1.1:11 - SoTA-Echoing
 
-*   **Philosophical Grounding:** The idea that meaning is always local and context-dependent is a cornerstone of late 20th-century philosophy of language (e.g., Wittgenstein's "language-games"). FPF operationalizes this insight.
-*   **Domain-Driven Design (DDD):** The concept is a direct borrowing and generalization from Eric Evans' seminal work on DDD, where the Bounded Context is the central strategic pattern for managing complexity in large-scale software. Its success over the past two decades in the software industry provides powerful empirical validation for its utility. FPF elevates it from a software design pattern to a universal ontological primitive.
-*   **Architectural Necessity:** For FPF to fulfill its promise of being an "operating system for thought," it needs a mechanism analogous to an OS's "process separation." A `U.BoundedContext` is precisely that: a protected "memory space" for a model, preventing different models from corrupting each other.
-*   **Enabler for Key Patterns:** The `Contextual Role Assignment` pattern (A.2.1) would be incoherent without a formal definition of "Context." This pattern provides that necessary foundation, making the entire role-based architecture sound.
+| Source family | Current lesson for A.1.1 | FPF decision |
+| --- | --- | --- |
+| Domain-driven design bounded-context practice. | Large models scale when meanings are local and context crossings are explicit. | Generalize bounded context beyond software into a `U.Holon` semantic frame. |
+| Team-topology and socio-technical boundary practice. | Team boundaries and cognitive limits shape which meanings can remain coherent locally. | Treat stewarding systems or communities as references for a context, but do not reduce the context to the team. |
+| Data mesh and interoperability practice. | Cross-domain data products need explicit interoperability relations rather than one enterprise meaning. | Use bridge relations for cross-context fit and loss. |
+| FAIR, provenance, and research-object practice. | Reuse depends on explicit metadata, provenance, and interpretation context. | Keep local vocabulary and invariants explicit; publication forms do not become the context. |
 
-In essence, `U.BoundedContext` is the architectural pattern that allows FPF to be both **universal** in its core principles and **specific** and **pluralistic** in its applications. It is the mechanism that tames complexity and makes large-scale, multi-paradigm modeling possible.
-
-### A.1.1:11 - SoTA-Echoing (post-2015 practice alignment)
-
-The `U.BoundedContext` concept aligns well with contemporary (post‑2015) practice in software architecture, socio-technical design, and knowledge/provenance disciplines. Where FPF differs, it does so to preserve kernel universality, explicit loss-aware translation, and auditability.
-
-| Claim (A.1.1 need) | SoTA practice (post‑2015) | Primary source (post‑2015) | Alignment with A.1.1 | Adoption status |
-| :--- | :--- | :--- | :--- | :--- |
-| Meaning boundaries must be explicit to scale development. | Modern microservice architecture stresses clear service boundaries and local reasoning to keep systems evolvable. | Newman (2021), *Building Microservices* (2nd ed.). | A.1.1 adopts the boundary-first stance but generalizes it from “service boundaries” to a universal semantic holon with explicit local invariants and roles. | **Adopt/Adapt.** Adopt boundary discipline; adapt by making the semantic frame a first-class kernel object, not only a team convention. |
-| Organizational boundaries and cognitive load shape semantic boundaries. | Socio-technical architecture practice encourages team-aligned boundaries and explicit interaction modes to prevent cognitive overload. | Skelton & Pais (2019), *Team Topologies*. | A.1.1 aligns by treating a context as governable by a stewarding community, but requires explicit Bridges when knowledge crosses boundaries (rather than relying on tacit coordination). | **Adopt.** Directly supports local autonomy; tighten with explicit cross-context Bridge records. |
-| Cross-domain data integration needs explicit interoperability records, not implicit “one truth”. | Data Mesh emphasizes domain-oriented data products and explicit interoperability records across domains. | Dehghani (2022), *Data Mesh* (book form of the 2019–2021 program). | A.1.1 matches the “data product boundary” move, but insists that interoperability is expressed as explicit Bridges with loss/fit notes, preserving pluralism instead of collapsing it. | **Adapt.** Adopt the decentralization intuition; adapt by requiring explicit semantic alignment records rather than assuming shared enterprise semantics. |
-| Epistemes and carriers must expose machine-actionable semantics and provenance. | FAIR and modern research-object packaging push for explicit metadata, provenance, and reuse conditions. | Wilkinson et al. (2016), FAIR Principles; RO-Crate community specs (2019->). | A.1.1 supports this by making local meaning explicit (Glossary + Invariants) and making cross-context translation explicit (Bridges), enabling auditable reuse without pretending to globalize semantics. | **Adopt/Adapt.** Adopt provenance and reuse intent; adapt by separating semantic frame (Context) from carriers and by making loss explicit on crossings. |
+Source role and currentness: domain-driven bounded-context practice is the selected practice lineage generalized beyond software; team-topology and socio-technical boundary practice are current support for stewarding-system and cognitive-boundary caution; data-mesh and interoperability practice support explicit bridge relations; FAIR, provenance, and research-object practice support interpretation context and publication-boundary discipline. Reopen A.1.1 when current practice or accepted FPF work changes the criteria for semantic locality, cross-context bridge fit and loss, local role taxonomy, or context-publication separation; do not reopen it for a new domain label, team structure, metadata format, or data product style that leaves those criteria unchanged.
 
 ### A.1.1:12 - Relations
 
-*   **Constitutes:** The foundational "semantic space" for patterns like `A.2 Role Taxonomy` and `A.13 The Agential Role`.
-*   **Builds on:** `A.1 Holonic Foundation`, as a `U.BoundedContext` is itself a `U.Holon`.
-*   **Constrained by:** `E.10.D1 D.CTX`, which fixes the lexical discipline for “Context”, forbids context hierarchies, and makes Domain family informative.
-*   **Interacts with:**
-    *   `Norm-CAL`: A context's `Invariants` are typically expressed as `U.ConstraintRule`s.
-    *   `Lang-CHR`: A context's `Glossary` is a collection of `U.Lexeme`s.
-    *   `Decsn-CAL`: Decisions and objectives are often scoped to a specific context.
-    *   `F.9 Alignment & Bridge`: the canonical FPF pattern for cross-context relations and loss policies.
-*   **Enables:** The resolution of conflicts as modeled in `D.3 Holonic Conflict Topology`, by showing that many conflicts are context-dependent.
+- **Builds on:** `A.1` for `U.Holon`, `E.24` for ontic discipline, and `A.6.5` for slot relation discipline.
+- **Coordinates with:** `A.15` for role-method-work alignment, `C.2.1` for episteme slot relations, `F.9` for bridge relations, `E.10` and `E.10.ARCH` for context-word repair, and `E.24.PUB` for bounded-context description and publication boundary.
+- **Used by:** role assignments, episteme descriptions, characteristic spaces, architecture descriptions, method descriptions, source interpretations, and any FPF claim whose terms depend on local meaning.
+
+### A.1.1:13 - Footer Marker
 
 ### A.1.1:End
 

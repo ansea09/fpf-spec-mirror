@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:1 — Problem Frame"
-line_start: 22011
-line_end: 22018
+line_start: 22185
+line_end: 22192
 dependencies:
   - "A.10"
   - "A.15"

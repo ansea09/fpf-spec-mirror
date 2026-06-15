@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 68731
-line_end: 68807
+line_start: 68863
+line_end: 68939
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "F.3:7"
 section_title: "Outputs (conceptual, not clerical)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__008_outputs-conceptual-not-clerical.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:7 — Outputs (conceptual, not clerical)"
-line_start: 72221
-line_end: 72234
+line_start: 72911
+line_end: 72924
 dependencies:
   - "A.11"
   - "A.7"

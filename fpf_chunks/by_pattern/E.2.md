@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.2.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.2 — The Eleven Pillars"
-line_start: 57450
-line_end: 57573
+line_start: 57533
+line_end: 57656
 dependencies:
   - "C.18"
   - "C.19"

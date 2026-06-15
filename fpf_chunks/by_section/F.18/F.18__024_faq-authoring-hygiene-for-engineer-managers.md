@@ -6,12 +6,12 @@ section_id: "F.18:23"
 section_title: "FAQ (authoring hygiene for engineer‑managers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__024_faq-authoring-hygiene-for-engineer-managers.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.18 — Local‑First Unification Naming Protocol"
   - "F.18:23 — FAQ (authoring hygiene for engineer‑managers)"
-line_start: 78031
-line_end: 78047
+line_start: 78721
+line_end: 78737
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

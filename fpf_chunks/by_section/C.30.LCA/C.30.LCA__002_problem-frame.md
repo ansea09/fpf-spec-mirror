@@ -6,12 +6,12 @@ section_id: "C.30.LCA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__002_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:1 — Problem frame"
-line_start: 55324
-line_end: 55349
+line_start: 55407
+line_end: 55432
 dependencies:
   - "A.10"
   - "A.20"

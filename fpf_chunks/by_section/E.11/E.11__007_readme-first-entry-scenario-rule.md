@@ -6,12 +6,12 @@ section_id: "E.11:4.1"
 section_title: "readme First-Entry Scenario Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_readme-first-entry-scenario-rule.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.1 — readme First-Entry Scenario Rule"
-line_start: 62565
-line_end: 62622
+line_start: 62697
+line_end: 62754
 dependencies:
   - "E.10"
   - "E.10.ARCH"

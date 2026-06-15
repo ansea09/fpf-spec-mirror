@@ -6,12 +6,12 @@ section_id: "C.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__013_relations.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:12 — Relations"
-line_start: 45397
-line_end: 45399
+line_start: 45524
+line_end: 45526
 dependencies:
   - "C.16"
   - "C.18"

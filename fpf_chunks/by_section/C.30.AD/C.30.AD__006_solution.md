@@ -6,13 +6,14 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 53856
-line_end: 54044
+line_start: 53948
+line_end: 54136
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
 keywords:
@@ -58,7 +61,7 @@ keywords:
 
 Use `ArchitectureDescription@Context` when the EntityOfConcern under repair is the description episteme or specification-use record over one `ArchitectureOf@Context`. The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`; the `DescriptionContext.EntityOfConcernRef` for the architecture description points to the architecture claim record.
 
-`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or carrier machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
+`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or publication-form machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
 
 #### C.30.AD:4.1 - Architecture-description record
 
@@ -99,7 +102,7 @@ Minimum conformance for the record:
 
 #### C.30.AD:4.1a - Traceable architecture multi-view description chain
 
-A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture. The chain is a trace obligation, not a prescribed method or work plan:
+A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture. The chain is a trace requirement, not a prescribed method or work plan:
 
 ```text
 workingConcernRef
@@ -117,7 +120,7 @@ workingConcernRef
 
 `E.17.0` carries the generic multi-view Description machinery. `C.30.ASV` carries the selected-structure-kind-to-view relation and view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which architecture claim the description is about, which structural views it uses, what correspondence or source return keeps the use honest, and which architecture move or neighboring pattern remains admissible.
 
-If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or return to the governing pattern that can recover the missing relation.
+If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation.
 
 #### C.30.AD:4.2 - View membership, viewpoint, and structure-kind binding
 
@@ -213,7 +216,7 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
     coordination | implementationGuidance | procurement |
     verificationPlanning | assuranceInput | releaseInput |
     declaredOther,
-  exactNeighborPatternRef?:
+  selectedNeighborPatternRef?:
   admissibleUse:
   nonAdmissibleUse:
 }
@@ -221,7 +224,7 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
 
 If the specification use becomes evidence, assurance, gate, work, decision, causal-use, or release authority, apply the neighboring pattern governing that claim to that authority claim. The architecture description remains the description boundary, not the authority.
 
-Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, carriers, source-current records, or renderings unless the source episteme and use boundary are explicit.
+Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, source-current records, or renderings unless the source episteme and use boundary are explicit.
 
 #### C.30.AD:4.6 - Neighboring-pattern applications
 
@@ -236,7 +239,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
 | Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5` for candidate sets, `C.11` for final local choice, and measurement or comparison patterns named by value when those claims are being made |
 
-| Generic description, view, viewpoint, publication, carrier, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
+| Generic description, view, viewpoint, publication, publication form, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |

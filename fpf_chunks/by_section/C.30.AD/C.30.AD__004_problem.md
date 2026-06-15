@@ -6,13 +6,14 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 53834
-line_end: 53844
+line_start: 53926
+line_end: 53936
 dependencies:
+  - "A.1"
   - "A.10"
   - "A.15"
   - "A.20"
@@ -41,6 +42,8 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
+  - "E.24.CD"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
 keywords:
@@ -58,7 +61,7 @@ keywords:
 
 How can FPF govern architecture descriptions without:
 
-- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, carrier, or rendering as the architecture itself;
+- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, publication form, or rendering as the architecture itself;
 - treating all architecture documentation as one generic description with no selected-structure recovery;
 - losing the link between a viewpoint and the architecture structure kind being described;
 - letting one attractive view hide lost structure, stale source, or missing correspondence;

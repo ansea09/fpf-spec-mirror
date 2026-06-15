@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.DA.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
-line_start: 59764
-line_end: 60035
+line_start: 59852
+line_end: 60130
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -32,13 +32,13 @@ Status: Core.
 
 Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision.
 
-Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`/`A.17`/`A.18`/`A.19` for those objects.
+Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`, `A.17`, `A.18`, and `A.19` for those objects.
 
-First useful move: name the exact `DRRVersionRef`, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
+First useful move: name `DRRVersionRef` by value, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
 
 What goes wrong if missed: a formally valid `DRR` may still be too weak for drafting. It may summarize sources instead of deciding, mention neighbours without obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 
-Primary EntityOfConcern in plain terms: the decision-adequacy claim of one exact `DRR` version for a declared FPF authoring use.
+Primary EntityOfConcern in plain terms: the decision-adequacy claim of one `DRR` version for a declared FPF authoring use.
 
 ### E.9.DA:2 - Problem
 
@@ -78,16 +78,18 @@ There is no partial `E.9.DA` result. Once invoked, the evaluator assigns a value
 | Local name | Kind and role |
 |---|---|
 | `DRRDecisionAdequacyEvaluation` | Authored adequacy-evaluation record for one scoped `DRR` decision-adequacy claim. |
-| `DRRVersionRef` | Exact `DRR` version being evaluated. |
+| `DRRVersionRef` | `DRR` version named by value for the evaluation. |
 | `DRRDeclaredAuthoringUse` | Downstream FPF authoring use the `DRR` is expected to carry. |
-| `DRRSelectedLocusDispositionMap` | Map from selected loci named by value to content obligations, non-obligations, sibling decisions, or outside-decision dispositions. |
+| `DRRSelectedLocusDispositionMap` | Map from selected loci named by value to selected content responsibilities, explicit non-responsibilities, sibling decisions, or outside-decision dispositions. |
 | `DRRDecisionAdequacyQualificationWindow` | Edition, source set, accepted-decision record, neighbour condition, and currentness window for which the evaluation holds. |
 | `DRRDecisionAdequacyCoordinateSet` | The required coordinates in this pattern. |
 | `DRRDecisionAdequacyEvidenceBasis` | `DRR`, source, accepted-decision, selected-locus, architecture, currentness, and neighbour loci named by value for coordinate values. |
 | `DRRCoordinateValueRationales` | Required result rows: coordinate, value, short rationale, and evidence locus named by value. |
-| `DRRCoordinateLocusRefs` | Exact `DRR` loci used as value evidence. |
-| `DRRSourceUseDischargeMap` | Source-use role, source-currentness, selected payload, rejected payload, and selected locus when source material is load-bearing. |
-| `DRRKindRestorationCheck` | Required pre-repair/post-repair object-kind, relation-or-claim-kind, slot-or-use-position, admissible-use, and scope check, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci, for any DRR wording, naming, or precision-restoration repair proposal. |
+| `DRRCoordinateLocusRefs` | `DRR` loci used as value evidence. |
+| `DRRSourceUseDischargeMap` | Source-use role, source-currentness, selected payload, rejected payload, and selected locus when source material governs a decision. |
+| `DRRPrecisionRestorationProfile` | Compact scalar profile for DRR wording-use precision: word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology. It records overall effect, affected coordinates, selected governing pattern, and no-repair disposition with loci when clean. |
+| `DRRKindRestorationCheck` | Required pre-repair and post-repair object-kind, relation-or-claim-kind, slot or use-position, admissible-use, and scope check, or `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with loci, for any DRR wording, naming, or precision-restoration repair proposal. |
+| `DRROnticCandidateDisposition` | If the `DRR` selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
 | `DRRDecisionAdequacyStatus` | Admissible-use status for the scoped `DRR` decision-adequacy claim. |
 
 These names are local evaluation fields. They are not release state, review status, project evidence, gate result, assurance, or pattern-quality values.
@@ -98,12 +100,14 @@ These names are local evaluation fields. They are not release state, review stat
 DRRDecisionAdequacyEvaluation:
   DRRVersionRef: <DRR version named by value>
 
-  DRRDeclaredAuthoringUse: <drafting | amendment | distribution | source-use carry-through | accepted-decision carry-through | split/hold decision>
-  DRRSelectedLocusDispositionMap: <locus -> obligation/non-obligation/sibling/outside>
+  DRRDeclaredAuthoringUse: <drafting | amendment | distribution | source-use carry-through | accepted-decision carry-through | split or hold decision>
+  DRRSelectedLocusDispositionMap: <locus -> selected responsibility, explicit non-responsibility, sibling decision, or outside-decision disposition>
   DRRDecisionAdequacyQualificationWindow: <source, edition, neighbour, currentness window>
   DRRDecisionAdequacyEvidenceBasis: <checked DRR, source, accepted-decision, selected-locus, architecture, currentness, and neighbour loci; missing or unchecked loci named when they affect values>
   DRRDecisionAdequacyCoordinateTable: <all coordinates, values, short rationales, evidence loci>
-  DRRKindRestorationCheck: <required for each wording/naming/precision-restoration repair proposal; pre kind/relation/claim/slot-or-use-position/admissible use/scope -> post kind/relation/claim/slot-or-use-position/admissible use/scope; not triggered | ordinary prose | already satisfied | preserved | split | intentionally changed | blocker, with loci>
+  DRRPrecisionRestorationProfile: <word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary, and pattern-application profile; overall effect, affected coordinates, selected governing pattern, and no-repair or repair disposition with loci>
+  DRRKindRestorationCheck: <required for each wording, naming, or precision-restoration repair proposal; pre kind, relation, claim, slot or use-position, admissible use, and scope -> post kind, relation, claim, slot or use-position, admissible use, and scope; not triggered | ordinary prose | already satisfied | preserved | split | intentionally changed | blocker, with loci>
+  DRROnticCandidateDisposition: <if ontic or pattern-set architecture is at issue: selected, rejected, split, or declined candidate, sufficiency rationale, rejected alternatives, candidate-universe sanity sweep if broad, slot-relation boundary, description-publication boundary, and selected pattern placement>
   DRRDecisionAdequacyStatus: <status>
   StopOrRepairCondition: <local stop, first repair, split, or architecture hold>
 ```
@@ -128,16 +132,16 @@ The value is a content evaluation of the `DRR` text and accepted source-use payl
 | Coordinate | Evaluation question |
 |---|---|
 | `BoundedDecisionQuestionRecoverability` | Can the reader recover the FPF content decision question named by value and adjacent questions outside it? |
-| `SelectedAnswerDecisiveness` | Does the `DRR` decide the selected answer now rather than defer it to drafting? |
+| `SelectedAnswerDecisiveness` | Does the `DRR` decide the selected answer now rather than leave it for drafting? |
 | `SourceUseAndDecisionInheritanceCarryThrough` | Does needed source use or accepted decision inheritance change selected answers, boundaries, obligations, cases, architecture choices, stops, or reopen conditions by value? |
 | `AlternativeDispositionCompleteness` | Are selected, rejected, inherited, lineage-only, rationale-only, and outside-decision options closed for the declared use? |
-| `SelectedLocusObligationClosure` | Are obligations and non-obligations assigned to selected loci named by value without unclassified selected loci or precision-restoration/profile defects that would become pasteable pattern prose? |
-| `FPFContentArchitectureSelectionAdequacy` | Is the selected FPF content architecture substantively adequate: existing pattern, new pattern, split, merge, selected content object, branch, and governing pattern for each outside claim, relation, or boundary? |
-| `ArchitectureSourceAndViewLossClosure` | Are affected structures, structure kinds, structural views, view losses, source-return conditions, and splits among architecture decision, architecture description, and publication decided when the decision uses them? |
-| `DraftingActionability` | Can a pattern author recover the first substantive drafting content as this pattern's positive subject-kind/action spine, without mining copied boundary doctrine, reference boilerplate, phrase apparatus, or architecture-placement rationale for pattern prose? |
+| `SelectedLocusObligationClosure` | Are selected content responsibilities and explicit non-responsibilities assigned to selected loci named by value without unclassified selected loci, hidden ontic-candidate decisions, or precision-restoration profile defects that would become pasteable pattern prose? |
+| `FPFContentArchitectureSelectionAdequacy` | Is the selected FPF content architecture substantively adequate: existing pattern, new pattern, candidate ontic, direct-pattern repair, publication-boundary repair, split, merge, selected content object, branch, and governing pattern for each outside claim, relation, or boundary? |
+| `ArchitectureSourceAndViewLossClosure` | Are affected structures, structure kinds, structural views, view losses, source-return conditions, and splits among architecture decision, architecture description, publication, and ontic description decided when the decision uses them? |
+| `DraftingActionability` | Can a pattern author recover the first substantive drafting content as this pattern's positive subject-kind and action spine, without mining copied boundary doctrine, reference boilerplate, phrase apparatus, or architecture-placement rationale for pattern prose? |
 | `LexicalAndNamingClosure` | Are durable names, trigger words, and relation-like heads repaired through `E.10`, `F.18`, `A.6.P`, `C.2.P`, or the pattern that governs the relevant kind, claim, relation, or name? |
-| `SoTAAndEvidenceUseInDecision` | Does each load-bearing source change a decision payload, and are non-SoTA source uses bounded? |
-| `ScopeBoundaryAndNonOverread` | Are outside-decision items, inadmissible overreads, source-return paths, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? |
+| `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
+| `ScopeBoundaryAndNonOverread` | Are outside-decision items, inadmissible overreads, source-return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? |
 | `ConsequencesAndRegressionCoverage` | Are consequences, costs, validation obligations, source-loss regressions, regression cases, and near-misses enough to protect drafting? |
 | `SiblingDecisionCoordination` | Is coordination with other `DRR`s, accepted decisions, or evaluation patterns explicit without duplication or weakening? |
 | `AdministrativeStateAndAuthoringHistorySeparation` | Are review logistics, packet state, landing, monolith placement, chat history, and authoring history kept out of decision evidence? |
@@ -151,18 +155,18 @@ An `E.9.DA` result uses this table shape:
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
-| `<E.9.DA coordinate>` | `<0..5>` | `<assigned-value basis; why the lower adjacent value would understate the DRR evidence; why the higher adjacent value would overstate it, or for 5 what would lower/reopen>` | `<DRR section, row, alternative, source-use row, selected-locus row, accepted-decision row, architecture decision, or missing locus named by value>` |
+| `<E.9.DA coordinate>` | `<0..5>` | `<assigned-value basis; why the lower adjacent value would understate the DRR evidence; why the higher adjacent value would overstate it, or for 5 what would lower or reopen>` | `<DRR section, row, alternative, source-use row, selected-locus row, accepted-decision row, architecture decision, or missing locus named by value>` |
 
-A prose summary, heading checklist, two-column coordinate/value table, or table without exact `EvidenceLocus` is not an `E.9.DA` result. It is draft evaluation material. Missing or unchecked evidence lowers the coordinate that needs it; it does not make the coordinate inactive.
+A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` named by value is not an `E.9.DA` result. It is draft evaluation material. Missing or unchecked evidence lowers the coordinate that needs it; it does not make the coordinate inactive.
 
 Common calibration points:
 
 | Coordinate family | `3` | `4` | `5` |
 |---|---|---|---|
-| Decision question and selected answer | The decision can guide limited drafting, but deferred or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting move without hidden deferral. |
+| Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting move without hidden unsettled branches. |
 | Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use role, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting move. |
-| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, governing pattern for outside claim/relation/boundary, and lost/source-return distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
-| Drafting actionability | A skilled author can proceed, but must infer some first move, subject spine, boundary disposition, selected-locus relation, or reference/architecture disposition from scattered material. | The first substantive drafting content is the positive subject-kind/action spine; copied distinctions owned by other patterns are classified as pointers named by value or non-carried fanout; ordinary references stay as references; architecture rationale and phrase apparatus stay out of pattern prose; and pattern application remains explicit. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogs, reference boilerplate, phrase apparatus, or architecture-memo leakage. |
+| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, governing pattern for outside claim, relation, or boundary, and lost or source-return distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
+| Drafting actionability | A skilled author can proceed, but must infer some first move, subject spine, boundary disposition, selected-locus relation, or reference or architecture disposition from scattered material. | The first substantive drafting content is the positive subject-kind and action spine; copied distinctions owned by other patterns are classified as pointers named by value or non-carried fanout; ordinary references stay as references; architecture rationale and phrase apparatus stay out of pattern prose; and pattern application remains explicit. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogs, reference boilerplate, phrase apparatus, or architecture-memo leakage. |
 
 #### E.9.DA:4.5 - Status and stop condition
 
@@ -184,6 +188,7 @@ E.9.DA result:
   Declared authoring use: <DRRDeclaredAuthoringUse>
   Qualification window: <window>
   Evidence basis checked: <DRRDecisionAdequacyEvidenceBasis>
+  Precision-restoration profile: <DRRPrecisionRestorationProfile>
   Status: <DRRDecisionAdequacyStatus>
   Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus for every required coordinate>
   First drafting move or first repair: <...>
@@ -200,21 +205,21 @@ E.9.DA finding:
   DRR version: <DRRVersionRef>
   Declared authoring use: <DRRDeclaredAuthoringUse>
   Coordinate or status affected: <coordinate | status | stop condition>
-  Exact DRR locus: <section, row, alternative, source-use row, accepted-decision row>
-  Value or status effect: <value/status/floor/stop impact>
-  Correction direction: <selected answer | selected locus | source-use payload | architecture choice | example | boundary | stop/reopen>
+  DRR locus: <section, row, alternative, source-use row, accepted-decision row>
+  Value or status effect: <value, status, floor, or stop impact>
+  Correction direction: <selected answer | selected locus | source-use payload | architecture choice | example | boundary | stop or reopen>
   Closure test: <what changed DRR text would show>
 ```
 
 Vague labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` are not findings until rewritten into this row.
 
-When `E.22`, `E.23`, absorption, or exceptional-improvement framing asks for improvement, below-floor coordinates return findings or repair. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split/merge decision, rejected-alternative closure, first drafting move, regression case, or deletion/relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
+When `E.22`, `E.23`, absorption, or exceptional-improvement framing asks for improvement, below-floor coordinates return findings or repair. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split or merge decision, rejected-alternative closure, first drafting move, regression case, or deletion or relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
 
 ### E.9.DA:5 - Worked slices
 
 **Weak precision-restoration DRR.** A `DRR` says `E.10`, `A.6.P`, and `C.2.P` are relevant, but does not decide whether a new branch exists, what name it has, which repeated prose moves, or which regression cases test the split. `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability` fall.
 
-**Adequate multi-locus DRR.** The `DRR` selects a new precision-restoration pattern, assigns exact content obligations to selected loci, states rejected alternatives, gives first drafting moves, and carries source-use payload into examples and conformance. It can be admissible for host drafting without containing final pattern prose.
+**Adequate multi-locus DRR.** The `DRR` selects a new precision-restoration pattern, assigns selected content responsibilities to selected loci, states rejected alternatives, gives first drafting moves, and carries source-use payload into examples and conformance. It can be admissible for host drafting without containing final pattern prose.
 
 **Architecture-impact DRR.** A `DRR` uses diagrams, graphs, dashboards, or architecture notes. The evaluation asks whether the `DRR` decided the architecture or structure claim, structural view relation, preserved and lost structure, source-return condition, selected loci, and publication boundary. The description locates material; it is not the FPF decision.
 
@@ -233,10 +238,11 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | `CC-E9DA-3` | Justify values from `DRR` decision content and accepted source-use payload, not administrative state or reputation. |
 | `CC-E9DA-4` | State `DRRDecisionAdequacyStatus`, first drafting move or first repair, bounded non-use, and reopen condition. |
 | `CC-E9DA-5` | Keep `DRR` adequacy distinct from pattern quality, review pass, release state, evidence, assurance, gate, and project work. |
-| `CC-E9DA-6` | Apply `E.10` to load-bearing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
-| `CC-E9DA-6a` | Apply the `F.19` kind-or-boilerplate diagnostic from `E.9`/`E.21` to proposed drafting wording and record the scalar effect as a precision-restoration profile: remaining word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or a governing pattern; phrase apparatus goes to `F.19`; boilerplate stays out of future pattern prose. |
+| `CC-E9DA-6` | Apply `E.10` to decision-governing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
+| `CC-E9DA-6a` | Record `DRRPrecisionRestorationProfile` before assigning or accepting values: word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or a governing pattern; phrase apparatus goes to `F.19`; repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology are classified by their governing pattern; boilerplate stays out of future pattern prose. |
 | `CC-E9DA-6b` | For any proposed wording, naming, or precision-restoration repair, record `DRRKindRestorationCheck`. The repair is not adequate if it only removes a trigger word or substitutes a cleaner phrase while changing, narrowing, widening, flattening, or losing the governed kind, relation, claim kind, slot or use-position, admissible use, or scope without an accepted semantic decision and governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position. |
-| `CC-E9DA-7` | State source contribution by payload mutation when a source is load-bearing. |
+| `CC-E9DA-6c` | When a `DRR` selects, rejects, splits, or declines a candidate ontic or an ontic-publication boundary, evaluate `DRROnticCandidateDisposition`: candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. Missing disposition lowers `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability`. |
+| `CC-E9DA-7` | State source contribution by payload mutation when a source governs a decision. |
 | `CC-E9DA-8` | State what became worse if visible decision-adequacy values improved. |
 | `CC-E9DA-9` | State the `DRRDecisionAdequacyEvidenceBasis`; if source-currentness, accepted-decision inheritance, selected-locus, architecture, or comparator evidence is missing or unchecked, lower the coordinate that needs it. |
 | `CC-E9DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
@@ -249,10 +255,11 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Lower selected-answer, selected-locus, and drafting-action coordinates. |
 | **Source packet in DRR clothing.** Sources are preserved but FPF decisions are absent. | State selected payload, rejected payload, and selected-locus obligations. |
 | **Address completion without architecture.** Every locus is named but the split or merge is wrong. | Repair `FPFContentArchitectureSelectionAdequacy`. |
-| **Watch item as decision.** Drafting is expected to choose the answer later. | Select, repair, split, or hold. |
+| **Watch item as decision.** Drafting is expected to choose the answer during pattern authoring. | Select, repair, split, or hold. |
+| **Ontic candidate left to drafting.** A `DRR` uses uncertain candidate phrasing for a concept cluster or pattern set but leaves candidate sufficiency, rejected alternatives, publication boundary, and placement for the pattern author. | Close `DRROnticCandidateDisposition` now: select, reject, split, or decline the candidate by value; state the direct governing pattern when no new ontic is warranted. |
 | **Review-state proxy.** Review acceptance or landing is treated as adequacy. | Use decision-content evidence only. |
-| **Adequacy table without evidence loci.** Values are listed without exact `DRR` or source loci. | Re-run the evaluation with `Coordinate | Value | ShortRationale | EvidenceLocus`; lower any coordinate whose evidence cannot be named. |
-| **Apparatus-overwrapped drafting payload.** The `DRR` offers selected-pattern wording wrapped in role/carrier/locus/flow/state/status/text/package/process apparatus without changing a recoverable kind, relation, claim kind, admissible use, evidence value, selected locus, user move, or flow role. | Classify the wording under `F.19`. If it changes a kind or claim, repair through precision restoration; if not, remove it from the future pattern payload or rewrite it as the positive subject-kind/action spine. |
+| **Adequacy table without evidence loci.** Values are listed without by-value `DRR` or source loci. | Re-run the evaluation with `Coordinate | Value | ShortRationale | EvidenceLocus`; lower any coordinate whose evidence cannot be named. |
+| **Apparatus-overwrapped drafting payload.** The `DRR` offers selected-pattern wording wrapped in role, publication-form, locus, flow, state, status, text, package, or process apparatus without changing a recoverable kind, relation, claim kind, admissible use, evidence value, selected locus, user move, or flow role. | Classify the wording under `F.19`. If it changes a kind or claim, repair through precision restoration; if not, remove it from the future pattern payload or rewrite it as the positive subject-kind and action spine. |
 | **Goodharted DRR adequacy.** A `DRR` is made easier to defend as `4` or `5` by adding source rows, selected-locus tables, boundary catalogues, or review proof, while selected answer, selected-locus obligations, source payload mutation, architecture choice, or first drafting move do not improve. | Reject apparatus-only improvement; apply `E.13` when adequacy values or review marks are replacing decision usefulness; repair the decision content, delete or relocate proof material, and record checked no-proposal only when no non-dominated decision-content move remains. |
 
 ### E.9.DA:9 - Consequences
@@ -260,7 +267,7 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | Consequence | Benefit | Cost |
 |---|---|---|
 | DRR adequacy becomes inspectable before drafting. | Pattern authors get decisions, not source summaries. | Every opened `E.9.DA` evaluation touches all coordinates. |
-| Architecture selection becomes visible. | Exact but wrong split/merge choices no longer pass as complete distribution. | Some DRRs need architecture repair before drafting. |
+| Architecture selection becomes visible. | By-value but wrong split or merge choices no longer pass as complete distribution. | Some DRRs need architecture repair before drafting. |
 | Source mutation is explicit. | SoTA, standards, reviews, audits, and accepted decisions shape decisions rather than decorate them. | Rationale-only sources cannot raise values. |
 
 ### E.9.DA:10 - Rationale
@@ -273,10 +280,10 @@ The cheapest place to repair missing FPF decisions is the `DRR`, before pattern 
 |---|---|---|
 | DRR adequacy is decision-content adequacy, not template completeness. | Architecture-description and ADR traditions keep concerns, alternatives, decisions, rationale, and consequences inspectable. | The `DRR` must carry selected answers, alternatives, consequences, and selected-locus decisions. |
 | Multi-host FPF changes need selected-locus disposition. | Lightweight ADR practice is useful but too central-record-oriented for multi-pattern FPF changes. | `DRRSelectedLocusDispositionMap` states obligations and non-obligations by locus. |
-| Feedback needs desired condition, current condition, next action, and tactics. | Sadler and Hattie/Timperley feedback traditions, carried through `E.22` and `E.23`. | `ShortRationale`, evidence locus, finding/proposal rows, and checked no-proposal dispositions stay separate. |
+| Feedback needs desired condition, current condition, next action, and tactics. | Sadler and Hattie and Timperley feedback traditions, carried through `E.22` and `E.23`. | `ShortRationale`, evidence locus, finding and proposal rows, and checked no-proposal dispositions stay separate. |
 | Source evidence must mutate the decision. | Current FPF `E.8`, `E.19`, `E.21`, and living-source discipline require non-decorative source use. | `SoTAAndEvidenceUseInDecision` checks changed decision payload, not citation presence. |
-| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD/OEE/NQD lines inherited through `E.22`/`E.23`. | The evaluation asks what became worse and keeps repeated improvement outside `E.9.DA`. |
-| Decision-adequacy measures can become targets. | Goodhart/Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.9.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when decision content becomes stronger for declared authoring use, and `E.13` governs any proxy-to-value claim about those values. |
+| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD, OEE, and NQD lines inherited through `E.22` and `E.23`. | The evaluation asks what became worse and keeps repeated improvement outside `E.9.DA`. |
+| Decision-adequacy measures can become targets. | Goodhart and Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.9.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when decision content becomes stronger for declared authoring use, and `E.13` governs any proxy-to-value claim about those values. |
 
 ### E.9.DA:12 - Relations
 
@@ -287,7 +294,7 @@ The cheapest place to repair missing FPF decisions is the `DRR`, before pattern 
 | `E.21` | Evaluates resulting pattern versions, not `DRR` adequacy. |
 | `E.22` | Frames the evaluation purpose when needed. |
 | `E.23` | Runs repeated improvement of a `DRR` after findings or proposal rows exist. |
-| `E.13` | Governs pragmatic utility and proxy-to-value alignment when `DRR` adequacy values, review marks, source-counts, or discharge posture become substitutes for decision usefulness. |
+| `E.13` | Governs pragmatic utility and proxy-to-value alignment when `DRR` adequacy values, review marks, source-counts, or discharge evidence become substitutes for decision usefulness. |
 
 | `E.19` | May return findings that expose upstream `DRR` defects. |
 | `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern wording, relation, episteme, quality-term, and naming repair. |

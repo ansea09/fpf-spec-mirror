@@ -2,17 +2,17 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `7c617d5d0fa1abf94a21bac2dd909f68ed514249`
+Commit SHA: `c092a1f2299d88d42db012f3184aeff205c13219`
 
 Chunking method: `pattern-aware`
 
-Patterns: `242`
+Patterns: `244`
 
 ## Patterns
 
 - [A.0 — Onboarding Glossary (NQD & E/E‑LOG)](by_pattern/A.0.md)
-- [A.1 — Holonic Foundation: Entity → Holon](by_pattern/A.1.md)
-- [A.1.1 — U.BoundedContext: The Semantic Frame](by_pattern/A.1.1.md)
+- [A.1 — U.Holon, U.System, and U.Episteme](by_pattern/A.1.md)
+- [A.1.1 — U.BoundedContext Semantic Frame](by_pattern/A.1.1.md)
 - [A.2 — Role Taxonomy](by_pattern/A.2.md)
 - [A.2.1 — U.RoleAssignment: Contextual Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — U.Capability](by_pattern/A.2.2.md)
@@ -186,7 +186,7 @@ Patterns: `242`
 - [E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form](by_pattern/E.8.ECSPF.md)
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
-- [E.10 — Unified Lexical Rules for FPF (LEX‑BUNDLE)](by_pattern/E.10.md)
+- [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
@@ -215,6 +215,8 @@ Patterns: `242`
 - [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
+- [E.24.CD — Ontic Candidate Detection](by_pattern/E.24.CD.md)
+- [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)

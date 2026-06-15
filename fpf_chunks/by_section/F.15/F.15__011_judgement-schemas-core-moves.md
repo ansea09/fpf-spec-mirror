@@ -6,12 +6,12 @@ section_id: "F.15:10"
 section_title: "Judgement schemas (core moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_judgement-schemas-core-moves.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.15 — SCR/RSCR Harness for Unification"
   - "F.15:10 — Judgement schemas (core moves)"
-line_start: 76473
-line_end: 76497
+line_start: 77163
+line_end: 77187
 dependencies:
   - "B.3"
   - "D.CTX"

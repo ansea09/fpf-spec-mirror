@@ -6,12 +6,12 @@ section_id: "F.0.1:7"
 section_title: "Placement & Flow"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__008_placement-flow.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:7 — Placement & Flow"
-line_start: 71344
-line_end: 71348
+line_start: 72034
+line_end: 72038
 dependencies:
   - "A.1.1"
   - "A.11"

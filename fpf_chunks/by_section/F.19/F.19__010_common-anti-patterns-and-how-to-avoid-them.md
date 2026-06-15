@@ -6,12 +6,12 @@ section_id: "F.19:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:8 — Common anti-patterns and how to avoid them"
-line_start: 78273
-line_end: 78286
+line_start: 78963
+line_end: 78977
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,11 +39,12 @@ keywords:
 |---|---|---|
 | Lexical paint | One umbrella word is replaced by another while the object kind stays hidden. | Recover the object kind and rewrite in the object's technical name. |
 | Plain-language drift | Smooth prose drops the kind named by value or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
-| Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to its carrier and keep only the resulting user move or boundary. |
+| Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to the review record, quality result, projection record, release document, or other governing evidence document and keep only the resulting user move or boundary. |
 | Role label as ontology | A role label replaces the object kind. | Name the object kind; state the role relation only when it changes the claim. |
-| Slot label as ontology | A slot, field, or use-position label replaces the object kind, or the same object in several slots is treated as several kinds. | Preserve object kind and slot/use-position separately and apply the governing pattern for the content-bearing relation, signature, lens, role, method, or work claim. |
-| Negative catalogue | The sentence defines an object by listing what it is not. | Lead with the positive object and action; keep only local documented confusion and exact stop condition. |
-| Over-annotation as precision | The rewrite replaces a clear domain sentence with type labels, source-ontology tags, or slot names that do not change the claim. | Keep the domain sentence and annotate only the load-bearing term or relation that is under repair. |
-| Overformalized precision | The rewrite preserves all terms but makes the sentence harder to think with or generalize from. | Keep the content-bearing kind and claim, drop non-load-bearing apparatus, and use a plain technical sentence plus reference named by value where needed. |
-| Apparatus-preserving paraphrase | A rewrite changes wording but keeps the same status, process, or quality-proof apparatus. | Return to the apparatus/content split and repair by value. |
+| Slot label as ontology | A slot, field, or use-position label replaces the object kind, or the same object in several slots is treated as several kinds. | Preserve object kind and slot or use-position separately and apply the governing pattern for the content-bearing relation, signature, lens, role, method, or work claim. |
+| Apparatus-looking data structure | A record, card, table, schema, dashboard, or data-structure word is kept because it sounds precise, but it does not carry the EntityOfConcern, slot relation, publication relation, admissible use, or governing pattern. | Treat it as apparatus and remove it, or use `E.24.CD`, `E.24.PUB`, or the direct governing pattern if it really carries a candidate ontic, publication boundary, or subject-pattern relation. |
+| Negative catalogue | The sentence defines an object by listing what it is not. | Lead with the positive object and action; keep only local documented confusion and named stop condition. |
+| Over-annotation as precision | The rewrite replaces a clear domain sentence with type labels, source-ontology tags, or slot names that do not change the claim. | Keep the domain sentence and annotate only the claim-governing term or relation that is under repair. |
+| Overformalized precision | The rewrite preserves all terms but makes the sentence harder to think with or generalize from. | Keep the content-bearing kind and claim, drop non-governing apparatus, and use a plain technical sentence plus reference named by value where needed. |
+| Apparatus-preserving paraphrase | A rewrite changes wording but keeps the same status, process, or quality-proof apparatus. | Return to the apparatus-and-content split and repair by value. |
 

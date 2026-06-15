@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Worked examples (context‑local only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_worked-examples-context-local-only.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:11 — Worked examples (context‑local only)"
-line_start: 71989
-line_end: 72049
+line_start: 72679
+line_end: 72739
 dependencies:
   - "A.11"
   - "A.7"

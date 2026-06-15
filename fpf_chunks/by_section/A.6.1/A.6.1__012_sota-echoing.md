@@ -6,12 +6,12 @@ section_id: "A.6.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__012_sota-echoing.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
   - "A.6.1:11 — SoTA-Echoing"
-line_start: 10335
-line_end: 10346
+line_start: 10509
+line_end: 10520
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.22:8"
 section_title: "Anti‑patterns (normative):"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__009_anti-patterns-normative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:8 — Anti‑patterns (normative):"
-line_start: 45349
-line_end: 45359
+line_start: 45476
+line_end: 45486
 dependencies:
   - "C.16"
   - "C.18"

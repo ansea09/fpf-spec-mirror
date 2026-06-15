@@ -6,12 +6,12 @@ section_id: "A.2.6:12"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_worked-examples.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:12 — Worked Examples"
-line_start: 4685
-line_end: 4738
+line_start: 4859
+line_end: 4912
 dependencies:
   - "A.1.1"
   - "A.2.2"

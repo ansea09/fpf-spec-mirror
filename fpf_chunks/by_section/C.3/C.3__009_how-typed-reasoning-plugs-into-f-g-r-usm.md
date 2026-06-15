@@ -6,12 +6,12 @@ section_id: "C.3:7.1"
 section_title: "How typed reasoning plugs into F–G–R & USM"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_how-typed-reasoning-plugs-into-f-g-r-usm.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:7.1 — How typed reasoning plugs into F–G–R & USM"
-line_start: 38792
-line_end: 39054
+line_start: 38919
+line_end: 39181
 dependencies:
   - "A.1"
   - "A.2.6"

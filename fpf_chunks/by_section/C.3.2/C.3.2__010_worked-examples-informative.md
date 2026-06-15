@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__010_worked-examples-informative.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:9 — Worked Examples (informative)"
-line_start: 39722
-line_end: 39753
+line_start: 39849
+line_end: 39880
 dependencies:
   - "C.3.1"
   - "C.3.3"

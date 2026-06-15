@@ -6,12 +6,12 @@ section_id: "C.29:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__009_rationale.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:7 — Rationale"
-line_start: 52695
-line_end: 52746
+line_start: 52822
+line_end: 52873
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_problem-frame.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
   - "C.19:1 — Problem frame"
-line_start: 44454
-line_end: 44465
+line_start: 44581
+line_end: 44592
 dependencies:
   - "B.3"
   - "C.11"

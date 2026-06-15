@@ -6,12 +6,12 @@ section_id: "B.1.1:9"
 section_title: "Anti‑pattern diagnostics (before → after)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__010_anti-pattern-diagnostics-before-after.md"
-commit_sha: "7c617d5d0fa1abf94a21bac2dd909f68ed514249"
+commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:9 — Anti‑pattern diagnostics (before → after)"
-line_start: 30313
-line_end: 30323
+line_start: 30440
+line_end: 30450
 dependencies:
   - "A.1"
   - "A.12"
