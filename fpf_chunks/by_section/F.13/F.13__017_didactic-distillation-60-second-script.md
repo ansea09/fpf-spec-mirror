@@ -6,12 +6,12 @@ section_id: "F.13:16"
 section_title: "Didactic distillation (60‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__017_didactic-distillation-60-second-script.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:16 — Didactic distillation (60‑second script)"
-line_start: 76705
-line_end: 76708
+line_start: 76442
+line_end: 76445
 dependencies:
   - "F.1"
   - "F.10"

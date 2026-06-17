@@ -6,12 +6,12 @@ section_id: "A.2.6:End"
 section_title: "A.2.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_a-2-6-end.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:End — A.2.6:End"
-line_start: 5192
-line_end: 5193
+line_start: 4780
+line_end: 4781
 dependencies:
   - "A.1.1"
   - "A.2.2"

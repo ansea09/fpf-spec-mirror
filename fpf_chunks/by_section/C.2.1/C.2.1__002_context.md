@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_context.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:1 — Context"
-line_start: 35087
-line_end: 35117
+line_start: 34638
+line_end: 34668
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.1.3"
   - "C.2"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
   - "E.17.0-E.17.2"
@@ -38,7 +39,7 @@ KD‑CAL (C.2) needs a precise notion of **what an episteme is** and **how it me
 * the contexts and systems that ground and test it, and
 * the representational machinery (notations, carriers, operations) we use to work with it.
 
-Contemporary work on **formal languages as cognitive artifacts** (Dutilh Novaes), **operational iconicity** of notations (Krӓmer), **material engagement** (Malafouris), **distributed representations** and **latent‑space communication** in ML, and **tool‑augmented reasoning** (ReAct‑style agent loops) shows that:
+Contemporary work on **formal languages as cognitive tools** (Dutilh Novaes), **operational iconicity** of notations (Krӓmer), **material engagement** (Malafouris), **distributed representations** and **latent-space communication** in ML, and **tool-augmented reasoning** (ReAct-style agent loops) shows that:
 * the relation between an episteme and its **EntityOfConcernSlot** is not a single undifferentiated “Object” vertex: it involves explicit **slots and morphisms** (EntityOfConcern-reference mapping, grounding, evaluation) typed by SlotKinds and contexts;
 * **representations** come in heterogeneous forms (symbolic, diagrammatic, latent, interactive), with very different **admissible operations**;
 * **inference** is often **mixed‑mode**: symbolic reasoning plus calls to tools, solvers, and learned models.

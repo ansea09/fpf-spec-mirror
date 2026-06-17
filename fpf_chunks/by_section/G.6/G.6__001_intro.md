@@ -1,28 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.6"
-pattern_title: "Evidence Graph & Provenance Ledger"
+pattern_title: "Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
 section_id: "G.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "G.6 — Evidence Graph & Provenance Ledger"
+  - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:intro — Intro"
-line_start: 82303
-line_end: 82310
+line_start: 81714
+line_end: 81719
 dependencies:
   - "A.10"
+  - "A.15.1"
+  - "A.2.4"
   - "A.21"
+  - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
-  - "C.18"
-  - "C.19"
-  - "C.23"
+  - "C.2.1"
+  - "C.28"
   - "E.10"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
   - "E.18"
-  - "E.5"
+  - "E.18.2"
+  - "E.24"
   - "E.5.2"
+  - "F.10"
   - "F.15"
   - "F.17"
   - "F.9"
@@ -30,11 +40,9 @@ dependencies:
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.7"
   - "G.8"
   - "G.9"
   - "G.Core"
-  - "G.Core.TriggerAliasMap.G6"
 keywords:
   - "CrossingBundle"
   - "EvidenceGraph"
@@ -49,11 +57,9 @@ keywords:
   - "Γ-fold pinning"
 ---
 
-## G.6 - Evidence Graph & Provenance Ledger
+## G.6 - Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths
 
-**Tag.** Architectural pattern
-**Stage.** design‑time (assembly) + run‑time (telemetry ingestion)
-**Primary output.** A notation‑independent `EvidenceGraph` + a stable `PathId` / `PathSliceId` citation surface + an SCR projection (“Assurance SCR”) suitable for audit, selection explainability, and refresh/RSCR wiring.
-**Primary hooks.** A.10 (evidence anchors/carriers; SCR/RSCR anchoring), B.3 (assurance lanes and `F/G/R` skeleton), F.9 (BridgeCard/CL), G.4 (CAL `EvidenceProfiles` + `ProofLedger` linkage), `G.Core` (Part‑G invariants, RSCR trigger catalogue, default-governing-definition index), E.18/A.21 (GateCrossing + CrossingBundle checks), F.17 (UTS publication), F.15 (RSCR), E.10 (LEX), E.5.* (notation‑independence discipline).
-**Non‑duplication note.** Universal Part‑G invariants (no shadow specs; Bridge‑only crossings; tri‑state discipline; penalties→`R_eff` only; P2W split; typed/id‑based RSCR causes; defaults with one governing definition; Δ‑discipline) are governed by `G.Core` and are *cited* via `CC‑GCORE‑*`. This pattern defines only the *EvidenceGraph kit* and its path‑addressable provenance surfaces.
+> **Type:** Evidence and provenance pattern
+> **Status:** Stable
+> **Normativity:** Normative where conformance rows say so; examples and SoTA rows are informative guidance.
 

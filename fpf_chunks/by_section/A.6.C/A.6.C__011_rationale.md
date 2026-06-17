@@ -6,16 +6,16 @@ section_id: "A.6.C:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__011_rationale.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:10 — Rationale"
-line_start: 9838
-line_end: 9843
+line_start: 9698
+line_end: 9703
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2.3"
-  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.6"
@@ -24,12 +24,12 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "E.10"
   - "E.17"
   - "F.12"
   - "F.18"
   - "U.Commitment"
-  - "U.EvidenceRole"
   - "U.PromiseContent"
   - "U.SpeechAct"
   - "U.Work"
@@ -48,7 +48,7 @@ keywords:
   - "contract bundle unpacking"
   - "in L/A/E claims"
   - "including common synonyms (SHALL"
-  - "phrase L as definitions/invariants (“is defined as…”"
+  - "phrase L as definitions or invariants (“is defined as…”"
   - "promise content (promise content) ≠ work"
   - "promise-act/utterance/commitment separation"
   - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
@@ -58,7 +58,7 @@ keywords:
 
 ### A.6.C:10 — Rationale
 
-FPF already distinguishes signatures, mechanisms, and work/evidence layers. Contract-language is a high-frequency linguistic entry point that collapses these layers unless a disciplined unpacking is applied.
+FPF already distinguishes signatures, mechanisms, and work and evidence layers. Contract-language is a high-frequency linguistic entry point that collapses these layers unless a disciplined unpacking is applied.
 
-F.18 provides the **naming** intuition (service/promise vs utterance vs commitment) via an NQD example; A.6.C makes that split **operational for boundaries** and extends it with the missing fourth part: **work+evidence as the adjudication substrate**. This keeps “contract” language routable under A.6.B and compatible with MVPK multi‑view discipline without relocating ontology into the naming chapter.
+F.18 may supply durable names for recovered terms when naming is current, but it does not provide the ontology. A.6.C makes the boundary split operational: promise content, speech act or utterance package, deontic commitment, performed work, and carrier-referenced evidence as the adjudication basis. This keeps “contract” language classifiable under A.6.B and compatible with MVPK multi-view discipline without relocating ontology into the naming chapter.
 

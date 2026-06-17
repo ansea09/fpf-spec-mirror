@@ -6,25 +6,31 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 70896
-line_end: 70929
+line_start: 70552
+line_end: 70589
 dependencies:
   - "A.15"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.1"
   - "A.6.5"
   - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
+  - "C.27.TA"
   - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
+  - "E.18"
   - "E.2.DA"
   - "E.20"
   - "E.21"
@@ -50,9 +56,13 @@ Typical moments:
 - a subject pattern begins to carry local slot-relation doctrine that other patterns also need;
 - a proposed term would sit across one `semanticArea`, one `ontologicalNeighborhood`, and several dependent patterns.
 
+**Primary EntityOfConcern.** The EntityOfConcern is `U.Ontic` as a durable action-facing ontology unit, together with the current ontic-introduction decision about whether a candidate becomes a durable ontic, remains a local use frame, is handled by direct governing patterns, or stays quote-only or reduced-use source wording.
+
+**Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether several nearby patterns are describing one ontic, several existing governed values, or only a compressed source label. The downstream reader is the practitioner who needs the resulting subject pattern to say what can be done, claimed, relied on, repaired, compared, or stopped.
+
 **First useful move.** Decide whether the construct is a durable ontic, a direct use of existing governing patterns, a local use frame for one bounded application family, or a source label that must remain quote-only or reduced-use.
 
-**What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then fight symptoms instead of settling the underlying kind, slot, and governing-pattern question.
+**What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then repair visible symptoms instead of settling the underlying kind, slot, and governing-pattern question.
 
 **What this buys.** A durable ontic gets an explicit slot relation like `U.EpistemeSlotRelation`, or the construct is explicitly kept as a local use frame with pointers to the typed values and governing patterns that already carry the work.
 

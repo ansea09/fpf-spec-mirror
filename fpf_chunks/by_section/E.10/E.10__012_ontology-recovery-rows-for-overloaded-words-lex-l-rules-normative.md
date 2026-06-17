@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 61520
-line_end: 61642
+line_start: 61076
+line_end: 61198
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,21 +45,21 @@ keywords:
 
 | **L‑rule**   | **Ambiguous or low-precision word (Ban)**                  | **Canonical FPF target(s)**                                                                                                                                                                     | **EntityOfConcern and Description-episteme boundary and specification-use gate**                                                                       | **TokenClass gate**                         | **Notes**                                                                                            |
 | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| **L‑PROC**   | *process*, *procedure*, *workflow*, *activity*, or process-like function step | Recover the current family before choosing the value: `A.3.4.P` for change-situation wording; `U.Method` for semantic way of doing; `U.MethodDescription` for description episteme; `U.WorkPlan` for planned work window; dated `U.Work` for occurrence; `U.Transformation` or `TransformationFlowStructure` only when the transformation or transformation-flow-structure claim is named by value. | EntityOfConcern side for `Method`, `U.Transformation`, and `TransformationFlowStructure`; Description episteme for `MethodDescription` and `WorkPlan`; dated occurrence for `Work` | Kernel or Context for types; Context for occurrences | “Industrial process” as **line role** -> model system plus `...Role`; chemistry in `U.Transformation`, `U.Dynamics`, or `Method` only after the claim is recovered. |
+| **L‑PROC**   | *process*, *procedure*, *workflow*, *activity*, process-like function step, method-algebra, method-graph, or selector-calculus wording | Recover the current family before choosing the value: `A.3.4.P` for change-situation wording; `U.Method` for semantic way of doing; `MethodRelationStructure@BoundedContext` for method-side composition, substitution, iteration, fallback, selector, or method-family relation; `U.MethodDescription` for description episteme; `U.WorkPlan` for planned work window; dated `U.Work` for occurrence; `U.Transformation` or `TransformationFlowStructure` only when the transformation or transformation-flow-structure claim is named by value; `C.29` when algebraic or graph notation is the selected lens. | EntityOfConcern side for `Method`, method relation structure, `U.Transformation`, and `TransformationFlowStructure`; Description episteme for `MethodDescription` and `WorkPlan`; dated occurrence for `Work`; lens-use for method-algebra notation | Kernel or Context for types; Context for occurrences; lens/register when representation is current | “Industrial process” as **line role** -> model system plus `...Role`; chemistry in `U.Transformation`, `U.Dynamics`, or `Method` only after the claim is recovered. |
 | **L‑FUNC**   | *function*, *functional*, *functionality*, *effect* | Apply `A.6.F` first when kind or relation is hidden. Possible recovered values include `U.Capability`, `U.PromiseContent`, `U.Method`, dated `U.Work`, mathematical function or operator under `C.29`, and functional-architecture or architecture-to-`TransformationFlowStructure` relation under `C.30`, `C.30.ASV`, or `C.30.TFS-REL`. | EntityOfConcern side for Capability, PromiseContent, Method, mathematical object, architecture relation, or transformation-flow relation; dated occurrence for Work | Kernel or Context | Never use *function* as a Core type name or as default architecture meaning. |
 | **L‑SERV**   | *service* used for team, system, API, ticket, or process | Always unpack to the facet: `U.PromiseContent` (service offering or promise clause), `U.Commitment` (SLA obligation), `U.SpeechAct` (promise or offer act), `accessSpec : U.MethodDescription` (API or interface spec), **service access point** (`SystemRef`, addressable endpoint), **service delivery system** (`SystemRef`), **service delivery method** (`U.MethodDescription`), or `U.Work` (delivery run, case, or ticket). | EntityOfConcern side for PromiseContent, Commitment, and Method; Description episteme for specs; system-side for systems; run record for Work                                        | Kernel, Context, or Discriminator, per facet | “API = service” is forbidden; name the facet head phrase (A.6.8).                                                           |
 | **L‑SLA**    | *SLA* or *service level agreement* used for SLO, contract, or document | Unpack: (i) SLOs or acceptance thresholds -> `U.PromiseContent.acceptanceSpec`; (ii) binding obligation or penalty -> `U.Commitment`; (iii) packaged “the SLA” -> Contract Bundle (A.6.C); (iv) published terms -> `U.SpeechAct` + clause carrier (`U.Episteme`). | EntityOfConcern side for PromiseContent and Commitment; Description episteme for clause carriers and specs; run record for Work plus evidence | Kernel, Context, or Discriminator | Treat “SLA” as polysemic shorthand; never store it as a single type name. |
 | **L‑SCHED**  | *schedule*, *plan*, or *calendar* as execution    | `U.WorkPlan` as intent window; `U.Work` as actuals or telemetry                                                                                                                                    | Description episteme versus run record                                                                             | Context                                     | Never attach actuals to a plan.                                                                      |
-| **L‑ACT**    | *activity*, *action*, or *task* as type           | `U.Work` (execution); **steps** belong to `U.MethodDescription` (with `requiredRoles`, capability bounds)                                                                                       | run record versus Description episteme                                                                             | Context                                     | Reserve verbs: *enact* for role and RSG, *execute* for Work, *actuate* for System, and *approve* for SpeechAct Work. |
-| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | say “system **bearing** `…Role`”; use `U.AgentialRole` where needed                                                                                                                             | I                                                                                    | Kernel or Context                              | Org titles (Owner, Operator, Reviewer) are **roles in a Context**.                                    |
-| **L‑OWNER**  | *owner of X* (global)                             | Ownership is a **Role** inside a `U.BoundedContext` (e.g., `OwnerRole:ITIL_2020`); SoD via `⊥`                                                                                                  | I                                                                                    | Context                                     | No global “owner” property in Kernel.                                                                |
+| **L‑ACT**    | *activity*, *action*, or *task* as type           | `U.Work` (execution); **steps** belong to `U.MethodDescription` (with `requiredRoles`, capability bounds)                                                                                       | run record versus Description episteme                                                                             | Context                                     | Reserve verbs: *assign* for role assignment, *admit* for role-state relation, *execute* for Work, *actuate* for System, and *approve* for SpeechAct Work. |
+| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | recover the acting system or holon as role-assignment holder and name the `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` when a work-facing role is current; use `U.AgentialRole` only where the role value itself is being named                                                                                                                             | system or holon plus role-assignment relation                                                                                    | Kernel or Context                              | Org titles (Owner, Operator, Reviewer) are role values assigned in a Context.                                    |
+| **L‑OWNER**  | *owner of X* (global)                             | Recover ownership wording as a work-facing role value plus `U.RoleAssignment` in a `U.BoundedContext` when actual responsibility is being assigned (e.g., `OwnerRole:ITIL_2020` assigned to a holder); otherwise recover commitment, authority, source-maintenance, or publication-use relation by direct governing pattern. | role value plus assignment relation, or the direct non-role relation | Context | No global “owner” property in Kernel. |
 | **L‑CAP**    | *capability* for assignment, recipe, run, or promise | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `U.Method` or `U.MethodDescription`; runs `Work`; promises `U.PromiseContent` (service promise clause or offering)                                                       | EntityOfConcern side, Description episteme, or run record                                                                        | Kernel or Context                              | Holder of a Capability is a `U.System`.                                                              |
 | **L‑DYN**    | *process of diffusion, growth, or learning*       | `U.Dynamics` (law or model of change)                                                                                                                                                              | I                                                                                    | Kernel or Context                              | Reserve for uncaused change models.                                                                  |
-| **L‑EVID**   | “paper or dataset proves or ensures”                    | `…#EvidenceRole:Context` on an **Episteme**; claims, scopes, polarity, timespan; provenance from `Work`                                                                                            | Description episteme, possibly admitted for specification use                                                                                  | Context or Discriminator                       | Evidence is a **role binding**, not an actor.                                                        |
+| **L‑EVID**   | “paper or dataset proves or ensures” | Recover the evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation under `A.10`, `B.3`, `F.10`, `G.6`, `E.17`, `C.28`, or the direct governing pattern named by value; do not route the episteme through `U.RoleAssignment` unless an acting holon is actually assigned a work-facing role. | Description episteme or admitted specification-use episteme, with claim target, scope, polarity, time, provenance, status, or publication-use slots governed by the direct pattern | Context or Discriminator | Evidence use is a relation over an episteme and claim or use; it is not a work-facing role. |
 | **L‑CTX**    | *context* (fuzzy trope)                           | `U.BoundedContext` (named card)                                                                                                                                                                 | —                                                                                    | Context                                     | Never use “depends on context” in Core; **name** the Context.                                        |
 | **L‑BRIDGE** | cross‑context equivalence “by same label” | Explicit **Bridge Card** (F.9): state kind, direction, congruence level, loss, and scope; apply **A.6.9 (RPR‑XCTX)** for disambiguation and licence-revealing name or verb choice. | — | — | Same label ≠ same concept; umbrella wording such as “same”, “equivalent”, “align”, or “map” must be repaired into a Bridge before it can justify reuse, rows, or substitution. |
 
-> **Red and Green pattern (example).** ✗ “The **process** ensures quality.” → ✓ “The **MethodDescription** defines steps; **Work** is **evaluated** against **RequirementRole**.”
+> **Red and Green pattern (example).** ✗ “The **process** ensures quality.” → ✓ “The **MethodDescription** defines steps; dated **Work** is **evaluated** against an acceptance condition or requirement relation named by the direct governing pattern.”
 
 #### E.10:9.2 - Diagnostic examples, not substitutions
 
@@ -67,13 +67,13 @@ Use these rows as compact diagnostics for common ontology recoveries, not as a r
 
 | **Trigger symptom**             | **Recovered ontology example**                                                         |
 | ------------------------------- | --------------------------------------------------------------------------------------- |
-| “the process owner approves”    | `SystemX#ApproverRole:Context` **performs a SpeechAct Work** “approve …”                |
-| “the document enforces policy”  | `Policy_vN#RequirementRole:Context` **gates** Work; enforcement = **SpeechAct** + audit |
+| “the process owner approves”    | `U.RoleAssignment(holderRef=SystemX, roleRef=ApproverRole@Context, boundedContextRef=Context)` attributes the SpeechAct Work “approve …” to SystemX under that role assignment. |
+| “the document enforces policy”  | `Policy_vN` is a policy or requirement episteme used in a gate, requirement, commitment, or evidence relation named by the direct pattern; enforcement = **SpeechAct** + audit |
 | “our service runs nightly jobs” | Nightly **Work** **claimsPromiseContent**(BatchProcessing); **promise content** defines acceptance     |
 | “the API is the service”        | API = `accessSpec : MethodDescription`; **promise content** defines acceptance           |
-| “capability assigned to team Y” | Team Y **plays** `Role`; the team (as system) **has Capability** C within envelope E    |
-| “process health green”          | StateAssertion for an `ObserverRole` KPI or `Service` KPI **passes** acceptance window            |
-| “function of component A fails” | Apply `A.6.F`; if the recovered claim is performed behavior, **Work** performed by `SystemA#Role` **failed** acceptance (observations show …). |
+| “capability assigned to team Y” | `U.RoleAssignment(holderRef=TeamY, roleRef=NamedRole@Context, boundedContextRef=ContextY)` records the work-facing role assignment; the team (as system) **has Capability** C within envelope E    |
+| “process health green”          | StateAssertion for an `ObserverRole` KPI or a service-acceptance KPI **passes** the named acceptance window            |
+| “function of component A fails” | Apply `A.6.F`; if the recovered claim is performed behavior, the `U.Work` occurrence performed by `U.RoleAssignment(holderRef=SystemA, roleRef=NamedRole@Context, boundedContextRef=Context)` failed acceptance (observations show …). |
 | “context is unclear here”       | **Name** the `U.BoundedContext`; else split and Bridge                                  |
 
 #### E.10:9.3 - Acceptance tests (LEX‑AC)
@@ -89,7 +89,7 @@ A text **passes** LEX if all answers are **Green**:
 7. **MG-DA ok.** New or refactored tokens pass **§ 7 MG-DA** (anchored head noun; collision check; CharacteristicSpace for enums).
 8. **Morphology ok.** Suffix, prefix, and casing respect **§ 8 LEX.Morph** (e.g., `…Role`, `MethodDescription`, `Work`, reserved prefixes).
 9. **Banned tokens absent or recovered.** No *process*, *function*, *task*, or *activity* in Kernel senses unless the sentence applies the selected recovery pattern (`A.3.4.P`, `A.6.F`, work patterns, method patterns, or another governing pattern) and names the recovered value by value; no tooling or file suffixes in Kernel tokens.
-10. **State gating present (when needed).** Readiness is expressed via **RSG state** + **StateAssertion**, not vague “approved” or “ready”.
+10. **State gating present (when needed).** Readiness is expressed via a role-state relation value plus **StateAssertion**, not vague “approved” or “ready”.
 
 #### E.10:9.4 - Coordination map (how LEX plugs into the rest of FPF)
 
@@ -101,7 +101,7 @@ A text **passes** LEX if all answers are **Green**:
   Speak in the **right EntityOfConcern and Description-episteme boundary and specification use**. E10-EOC-DESC-SPEC-1..3 apply (the EntityOfConcern is named directly; Description suffixes name Description-episteme use; Spec suffixes name specification use on a Description episteme; work assertions and state assertions are evaluations or occurrences). Upgrades Description to specification use only when **checkable acceptance** or another specification-granting gate named by value exists.
 
 * **With A.2 and A.15 (Role–Method–Work alignment).**
-  Role = **assignment**; Method = **way‑of‑doing**; MethodDescription = **documented recipe**; Work = **dated occurrence**. Sentences must keep this split.
+  Role = **work-facing role value**; RoleAssignment = **assignment relation**; Method = **way‑of‑doing**; MethodDescription = **documented recipe**; Work = **dated occurrence**. Sentences must keep this split.
 
 * **With F‑cluster (Unification) and UTS (F.17).**
   Harvest in one Context → **SenseCell** → **Concept‑Set row** with relation (`≡/⋈/⊂/⟂`) and losses. UTS is the human‑readable roll‑up.
@@ -115,7 +115,7 @@ A text **passes** LEX if all answers are **Green**:
 3. **LEX‑CC‑3 (EntityOfConcern and Description-episteme boundary and specification-use morphology).** Usage passes **§ 8** gates (suffix, prefix, and casing), EntityOfConcern and Description-episteme boundary checks, and specification-use checks.
 4. **LEX‑CC‑4 (Bridge).** Cross‑context reuse cites **Bridge id** and CL; same‑spelled labels without a Bridge are non‑conformant.
 5. **LEX‑CC‑5 (MG-DA).** New tokens pass **MG-DA** tests, including **full‑text collision** and **Reserved‑Names** checks.
-6. **LEX‑CC‑6 (Service and evidence).** Service acceptance computed from **Work**; evidence is an **EvidenceRole** on an **Episteme** with provenance.
+6. **LEX‑CC‑6 (Service and evidence).** Service acceptance is computed from **Work**; evidence use is a relation over an **Episteme**, target claim or use, scope, polarity, time, and provenance named by the direct governing pattern.
 7. **LEX‑CC‑7 (USM compatibility).** For each LexicalAct, `USM.Scope ∈ AllowedScopes(LEX.TokenClass)`.
 8. **LEX-CC-8 (Minting discipline).** If overload cleanup requires one local replacement phrase, the text records the repaired phrase and the governing local repair pattern. If cleanup requires one durable reusable name, the text completes the full **F.18 `MintNew` or `DocumentLegacy`** procedure; intuition-first partial Name Cards are non-conformant.
 
@@ -126,7 +126,7 @@ A text **passes** LEX if all answers are **Green**:
 ✓ `PLC_17#ObserverRole:PipelineOps` logged **Observations**;
 `CAB_Chair#ApproverRole:ChangeControl` **performed a SpeechAct** “approve restart”;
 `OpsBot#DeployerRole:CD_Pipeline_v7` **executed Work** `RestartRun‑4711` which **claimsPromiseContent**(CoolingUtility);
-post‑run **Evaluation** shows the **Service** acceptance **passed**.
+post-run **Evaluation** shows the service-acceptance condition **passed**.
 
 **Cloud.**
 ✗ “The **process owner** approved; the **API service** deployed.”
@@ -136,8 +136,8 @@ API = `accessSpec : MethodDescription#REST_v12`; **promise content** “Feature 
 
 **Research.**
 ✗ “Dataset X **proves** the theory; the **process** is reproducible.”
-✓ `DatasetX#ModelFitEvidenceRole:Theory_Context` **supports** claim C within scope S;
-reproducibility via **StateAssertions** on `ReplicationEvidenceRole`;
+✓ `DatasetX` is used in an evidence relation for claim C with model-fit scope, polarity, time, and provenance named by `A.10`, `B.3`, `G.6`, `F.10`, or the direct governing pattern;
+replication is recorded through evidence-use, source-use, status-use, or reproducibility-status relations named by the direct governing pattern;
 procedures are `U.MethodDescription`; re‑runs are **Work**.
 
 **Semioarchitecture.**

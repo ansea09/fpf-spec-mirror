@@ -6,12 +6,12 @@ section_id: "A.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__006_solution.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:4 — Solution"
-line_start: 1659
-line_end: 1757
+line_start: 1660
+line_end: 1761
 dependencies:
   - "A.1"
   - "A.15"
@@ -39,7 +39,8 @@ BoundedContextSlotRelation:
   contextBoundary:
   localVocabulary:
   localInvariantSet:
-  localRoleTaxonomy:
+  localRoleTaxonomy?:
+  localEpistemeUseAndStatusRelationSet?:
   bridgeRelationSet?:
   stewardingSystemOrCommunityRef?:
   editionOrWindowRef?:
@@ -59,7 +60,7 @@ Good context names are specific enough to decide meaning:
 - `FactoryLineB.MaintenanceRules.2026`
 - `FPF.PatternQuality.E21`
 
-Broad labels such as "healthcare", "physics", "software", "workflow", or "architecture" are informative domain families unless they are narrowed into a bounded context with local vocabulary, invariants, role taxonomy, and bridge relations.
+Broad labels such as "healthcare", "physics", "software", "workflow", or "architecture" are informative domain families unless they are narrowed into a bounded context with local vocabulary, invariants, the relevant role taxonomy or episteme-use/status relation set, and bridge relations.
 
 #### A.1.1:4.2 - Context Boundary
 
@@ -89,7 +90,7 @@ An invariant does not become global because it is well written. Cross-context re
 
 #### A.1.1:4.5 - Local Role Taxonomy
 
-`localRoleTaxonomy` defines roles valid in the context. A role assignment uses one context:
+`localRoleTaxonomy` defines `U.Role` values valid in the context when system-role assignments are current. A `U.RoleAssignment` uses one context:
 
 ```text
 RoleAssignment:
@@ -100,6 +101,8 @@ RoleAssignment:
 ```
 
 The same holder may have different role assignments in different contexts. The same role name may denote different roles in different contexts. A "global role" is not a valid shortcut; it is either a role value defined in a selected context or a wording problem to repair.
+
+Do not put postulate, evidence, derived-claim, publication, or status distinctions into `localRoleTaxonomy` merely because ordinary language calls them "roles". When the context governs epistemic use or status, record those distinctions in `localEpistemeUseAndStatusRelationSet` and apply the direct evidence-use, source-use, status-use, claim, publication, or gate pattern.
 
 #### A.1.1:4.6 - Bridge Relation Set
 

@@ -6,12 +6,12 @@ section_id: "A.2.6:16"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__017_extended-faq-informative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:16 — Extended FAQ (informative)"
-line_start: 5034
-line_end: 5065
+line_start: 4622
+line_end: 4653
 dependencies:
   - "A.1.1"
   - "A.2.2"

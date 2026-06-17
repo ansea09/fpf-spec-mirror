@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_common-anti-patterns-and-repairs.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common anti-patterns and repairs"
-line_start: 70388
-line_end: 70404
+line_start: 70044
+line_end: 70060
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

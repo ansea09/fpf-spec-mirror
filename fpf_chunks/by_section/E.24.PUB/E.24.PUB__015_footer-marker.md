@@ -6,12 +6,12 @@ section_id: "E.24.PUB:13"
 section_title: "Footer Marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__015_footer-marker.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:13 — Footer Marker"
-line_start: 71887
-line_end: 71888
+line_start: 71561
+line_end: 71562
 dependencies:
   - "A.19"
   - "A.19.ECS"

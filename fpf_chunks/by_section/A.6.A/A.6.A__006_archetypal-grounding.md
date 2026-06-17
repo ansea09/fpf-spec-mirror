@@ -6,12 +6,12 @@ section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 14428
-line_end: 14513
+line_start: 14532
+line_end: 14618
 dependencies:
   - "A.15"
   - "A.16"
@@ -49,8 +49,9 @@ keywords:
 
 If a draft says *affords*, *calls for*, *invites*, or *actionable*, the author has not yet named the action-oriented family.
 
-A conforming post-threshold rewrite publishes one explicit `actionInvitation(...)` with one `ActionInvitationSense`, one site tuple, one invited enactor tuple, one candidate action tuple, one coupling frame, one normal form, and explicit articulation, scope, time, and substrate qualifiers when they matter. Earlier action-guiding cue content may still remain outside A.6.A as cue-pack content, a `RoutedCueSet`, or another typed route-bounded upstream publication until threshold conditions are met.
-#### A.6.A:5.2 - Show (System lane)
+A conforming post-threshold rewrite publishes one explicit `actionInvitation(...)` with one `ActionInvitationSense`, one site tuple, one invited enactor tuple, one candidate action tuple, one coupling frame, one normal form, and explicit articulation, scope, time, and substrate qualifiers when they matter. Earlier action-guiding cue content may still remain outside A.6.A as cue-pack content, a `RoutedCueSet`, or another typed cue-preserving upstream publication until threshold conditions are met.
+
+#### A.6.A:5.2 - Show (System case)
 
 **Draft:** “The alarm calls for rollback.”
 
@@ -91,7 +92,7 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  witnesses = {DepthFrame_883, ContactModelRun_17}`
 `)`
 
-#### A.6.A:5.3 - Show (Episteme lane)
+#### A.6.A:5.3 - Show (Episteme case)
 
 **Draft:** “This problem asks for a better question.”
 

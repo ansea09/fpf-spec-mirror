@@ -6,12 +6,12 @@ section_id: "A.12:1"
 section_title: "Intent & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__002_intent-context.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:1 — Intent & Context"
-line_start: 20046
-line_end: 20057
+line_start: 19682
+line_end: 19693
 dependencies:
   - "A.3"
   - "B.2.5"
@@ -30,7 +30,7 @@ The principle of causality is the bedrock of engineering and scientific reasonin
 
 This pattern operationalizes the **Agent Externalization Principle (C-2)**. It builds directly upon:
 *   **A.3 (Transformer Constitution):** Which defines the core quartet of action: the `Agent` (who acts), the `MethodDescription` (the recipe), the `Method` (the capability), and the `Work` (the event).
-*   **A.2 (Contextual Role Assignment):** Which provides the universal syntax `Holder#Role:Context` for defining agents.
+*   **A.2 and A.2.1 (`U.RoleAssignment`):** Provide the holder, role value, bounded-context, and current-window slots used to state the acting-side assignment.
 
 The intent of this pattern is twofold:
 1.  To mandate that every transformation is modeled as an interaction between a distinct **Agent** (playing a `TransformerRole`) and a distinct **Target** across a defined **Boundary**.

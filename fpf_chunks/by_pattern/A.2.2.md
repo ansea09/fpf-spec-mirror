@@ -1,28 +1,20 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.2.2"
-pattern_title: "U.Capability"
+pattern_title: "U.Capability - System Ability Envelope and Measures"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.2.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.2.2 — U.Capability"
-line_start: 2647
-line_end: 2895
+  - "A.2.2 — U.Capability - System Ability Envelope and Measures"
+line_start: 2551
+line_end: 2851
 dependencies:
-  - "A.1"
-  - "A.1.1"
   - "A.15"
   - "A.2"
-  - "A.2.1"
   - "A.2.3"
-  - "A.3"
-  - "U.BoundedContext"
-  - "U.Dynamics"
-  - "U.PromiseContent"
-  - "U.RoleAssignment"
 keywords:
   - "ability"
   - "action"
@@ -32,252 +24,304 @@ keywords:
   - "work scope"
 ---
 
-## A.2.2 — U.Capability
+## A.2.2 - U.Capability - System Ability Envelope and Measures
+> **Status:** Stable
 
-### A.2.2:1 - Context (plain‑language motivation)
+`U.Capability` is the FPF object for "can do within bounds".
 
-In real projects we must answer two different questions:
+Use this pattern when a project claim says that a person, team, machine, software service, organization, composite cell, or other system can produce a kind of result, perform a class of work, or meet a performance threshold. The claim is about ability, not about who is assigned, which method is described, which work occurred, or what was promised to another party.
 
-* **“Can this system do X?”** — this is about an **ability** inherent to the system.
-* **“Is this system assigned to do X here and now?”** — this is about an **assignment** (a **Role assignment**) inside a bounded context.
+**Primary EntityOfConcern.** The EntityOfConcern is `U.Capability`: a dispositional property of a `U.System` that states the system's ability to perform or produce a class of work results within a declared envelope and measured bounds.
 
-Teams frequently blur the two, and then further mix them with **how** the work is done (the **Method**) and **what actually happened** (the **Work**). `U.Capability` isolates **ability as a first‑class concept** so that you can plan realistically, staff responsibly, and audit cleanly.
+**Primary working reader.** A manager, architect, engineer, safety assessor, scheduler, or model author who needs to decide whether a holder can be used for a work claim, method step, service promise, or architecture move without smuggling role assignment, method description, or past work into the ability claim.
 
-### A.2.2:2 - Problem (what goes wrong without this concept)
+**First useful move.** Ask: who is the holder system, what work family or result class is claimed, under what envelope, with what measures, during which qualification window, and by which current evidence or source-use relation?
 
-1. **Permission ≠ ability.** A Role assignment authorizes execution in a context; it does **not** prove the system can meet the required **WorkScope** and **WorkMeasures**.
-2. **Recipe ≠ ability.** A Method says *how* to do something; it does not guarantee that *this* holder can meet the target outcomes under the required constraints.
-3. **Execution log ≠ ability.** A past Work record does not, by itself, establish a stable ability; conditions may have been favorable or unique.
-4. **Cross‑team confusion.** Enterprise terms like “capability”, “service”, and the old “function” are used interchangeably; planning, staffing, and assurance become fragile.
+**What goes wrong if missed.** A role label becomes a hidden proof of ability, a method description is treated as if it can perform work, a single successful run is generalized into a stable ability, or a promise is made without a measured capability behind it.
 
-### A.2.2:3 - Forces (what we must balance)
+**What this buys.** Capability becomes checkable and reusable: a work-admission claim can test role assignment, role state, method requirements, and capability thresholds separately.
 
-| Force                                   | Tension we resolve                                                                                                                   |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Stability vs. change**                | Ability is a relatively stable property of a system, yet it evolves with upgrades, wear, calibration, and environment.               |
-| **Universality vs. domain‑specificity** | One universal notion must serve robots, teams, and software services, while letting each domain keep its own performance vocabulary. |
-| **Evidence vs. simplicity**             | We want an ability claim to be evidence‑backed, but the core idea must stay simple enough for planning conversations.                |
-| **Local conditions vs. reusability**    | Ability depends on conditions (inputs, environment); still, the concept must be reusable across contexts via explicit scoping.       |
+**Not this pattern when.**
 
-### A.2.2:4 - Solution — define the ability explicitly
+- If the current claim is who holds a work-facing role in a bounded context, use `A.2.1`.
+- If the current claim is whether that assignment is in an enactable state, use `A.2.5`.
+- If the current claim is a role value, role description, role name, role relation structure, or role bundle, use `A.2`, Part F role patterns, or `A.2.7`.
+- If the current claim is a way of doing, use `A.3.1`; if it is an episteme describing that way, use `A.3.2`.
+- If the current claim is dated performed work or planned work, use `A.15`, `A.15.1`, or `A.15.2`.
+- If the current claim is a promise to others, use the promise-content and commitment patterns.
+- If the current claim is evidence, source, status, assurance, publication, or description use of an episteme, use the direct episteme-use pattern. Do not make the episteme a capability holder.
 
-#### A.2.2:4.1 Definition
-**`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**. It is **not** an assignment (Role), **not** a recipe (Method), and **not** an execution (Work).
+### A.2.2:1 - Problem Frame
 
-> **One-liner to remember:** *Capability = “can do (within its **WorkScope** and measures)”*, independent of *“is assigned now”* or *“did do at time t”*.
+In ordinary work, the same sentence often carries several typed values:
 
-**Capability declaration (summary).** A capability SHALL declare, as **separate** items:
-* **`U.WorkScope`** (*Work scope*) — the set of `U.ContextSlice` under which the capability can deliver the intended `U.Work` (see **A.2.6 §6.4**);
-* **`U.WorkMeasures`** — measurable targets with units evaluated on a **JobSlice** (R‑lane facet);
-* **`U.QualificationWindow`** — the time policy that governs operational admissibility at **`Γ_time`** (R‑lane facet).
-**Note.** This separation supersedes the legacy “envelope + measures + validity interval” bundle. **Work scope is the set of conditions (USM), not a Characteristic; measures are CHR‑characteristics; capability packages both.**
+- "The welding robot is the welder on this line."
+- "The welding robot can weld seam type W at 12 seams per minute."
+- "The welding procedure says how to weld seam type W."
+- "The robot welded batch B at 10:20."
+- "The supplier promises 12 seams per minute."
 
-**Reminder (measurement & scope).** *WorkScope* is a **set‑valued USM object** (membership, set algebra) and **not** a CHR Characteristic; *WorkMeasures* are **CHR Characteristics** with declared scales/units. **Admission checks these separately** (see § 10.3 WG‑2/WG‑3).
+Only the second sentence is a `U.Capability` claim. The others may be role assignment, method description, performed work, or promise content. When FPF collapses them, project reasoning becomes brittle:
 
-#### A.2.2:4.2 Conceptual descriptors (not a data schema)
+1. **Role assignment becomes fake ability.** "Assigned as verifier" is treated as "able to verify".
+2. **Method description becomes fake ability.** A recipe or algorithm is treated as if it can execute itself.
+3. **Past work becomes fake ability.** One successful work occurrence is treated as stable capacity.
+4. **Promise content becomes fake ability.** A service promise hides the real system envelope and measured bounds.
+5. **Description becomes fake holder.** A standard, report, model card, or dashboard is said to "have capability" because it is useful in a capability argument.
+6. **Unbounded ability becomes unreviewable.** "Can machine titanium" does not name conditions, measures, version, calibration, or currentness.
 
-When you describe a capability in a model or a review, anchor it by answering these five didactic prompts:
+### A.2.2:2 - Kind and Boundary
 
-1. **Holder:** *Whose ability is this?* → a specific `U.System`.
-2. **Context:** *In which bounded context were the measures established?* → `U.BoundedContext` (recommended for clarity and comparability).
-3. **Task family:** *Ability to do **what kind** of work?* → reference the relevant **MethodDescription**(s) or method family the system can execute.
-4. **WorkScope:** *Under what conditions?* -> inputs, resources, and environment assumptions (e.g., voltage, pressure, ambient, tool head).
-5. **Performance measures:** *With what bounds?* → CHR‑style measures (throughput, precision, latency, reliability, MTBF…) with ranges/targets.
+`U.Capability` is a system-side ability claim.
 
-Optional descriptors that improve trust without adding bureaucracy:
+```text
+Capability:
+  CapabilityHolderRef: U.System
+  WorkFamilyOrResultClassRef:
+  CapabilityEnvelope:
+  CapabilityMeasureSet:
+  QualificationWindow:
+  EvidenceOrSourceUseRefs:
+  CapabilityCurrentnessPredicate:
+```
 
-* **QualificationWindow:** calibration/qualification window for the stated **WorkScope** (abilities drift).
-* **Evidence:** links to test reports, certifications, prior Work summaries (as **Episteme**).
-* **Degradation/upgrade notes:** known change points that affect the **WorkScope**.
+**CapabilityHolderRef.** The holder is a `U.System`: a physical system, cyber system, socio-technical system, organization, team, composite cell, software service as deployed system, or other acting holon admitted as system for the claim. A role assignment, method, method description, work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
 
-> **Didactic guardrail:** Capabilities are stated in **positive, measurable terms** (“can weld seam type W at ±0.2 mm up to 12/min at 18 °C–30 °C”). Avoid role words (“welder”) or recipe detail (step flows) here.
+**WorkFamilyOrResultClassRef.** The ability is about a class of work results or a method family the holder can enact. It may refer to a `U.Method`, `U.MethodDescription`, method family, result class, or work family, but the reference does not turn the method or description into the holder.
 
-#### A.2.2:4.3 Shorthand for everyday speech
+**CapabilityEnvelope.** The envelope states the bounded conditions under which the ability is claimed: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
 
-To keep discussions terse yet precise, teams often write:
+**CapabilityMeasureSet.** The measures state the achieved or required bounds with units, scales, tolerances, success predicates, reliability, throughput, latency, precision, defect rate, or other characteristics.
 
-* **“S#17 can \<MethodDescription / task family> @ \<WorkScope> → \<measures>.”**
-* Or as a bullet in a capability table scoped to a context, e.g., *AssemblyLine\_2025 Capability Sheet*.
+**QualificationWindow.** Capability is stable enough to plan with but not timeless. A claim may depend on software version, calibration horizon, team training state, wear, operating season, regulatory state, or other temporal currentness relation.
 
-This is not a formal notation—just a consistent way to keep the five prompts in view.
+**EvidenceOrSourceUseRefs.** Evidence, tests, certifications, prior work summaries, simulations, audit records, standards, and model results can justify a capability claim through direct evidence or source-use relations. They do not become the capability.
 
-### A.2.2:5 - Clear distinctions (litmus tests managers can apply)
+**CapabilityCurrentnessPredicate.** The claim states what keeps the ability current and what lowers or reopens it.
 
-| If you are talking about…                  | Use                     | Litmus test                                                                                  |
-| ------------------------------------------ | ----------------------- | -------------------------------------------------------------------------------------------- |
-| **assignment** (who is being what, where) | **Role → Role assignment** | Can you reassign to another holder without changing the system’s composition? If yes → Role. |
-| **Ability** (can do within bounds)         | **Capability**          | Would you still say “can do” even if not currently assigned? If yes → Capability.           |
-| **Recipe** (how‑to)                        | **Method or MethodDescription** | Recover whether the text means the abstract way of doing or the episteme that describes it; has inputs and outputs and steps but no date/time. |
-| **Execution** (what happened)              | **Work**                | Has a start/end, consumed resources, left a log.                                             |
-| **External promise**                       | **Promise content (service promise clause)** | Framed as “we provide/guarantee to others.”                                                  |
-| **Law/model of change**                    | **Dynamics**            | Describes state evolution, not an ability of one system.                                     |
+**Neighboring-term boundary.** When a neighboring pattern uses `U.WorkScope`, recover the set-valued condition part of `CapabilityEnvelope`: the inputs, environment, resources, configuration, and assumptions against which an intended work slice is checked. When it uses `U.WorkMeasures`, recover `CapabilityMeasureSet`. `JobSlice` names the intended work slice for a work-admission check. `QualificationWindow` names the temporal currentness relation for the capability claim. These are neighboring governed terms, not substitute names for `U.Capability`.
 
-**Two useful corollaries**
 
-* A step in a Method may **require** a Role; **optionally** it may also stipulate a **capability threshold** (e.g., precision ≤ 0.2 mm). assignment and ability are checked separately.
-* A promise content clause depends on **having** the needed capabilities **and** being **assigned/committed** to deliver under the clause’s context (bind as `U.Commitment` when it is an obligation).
 
-### A.2.2:6 - Archetypal grounding (parallel structural and organizational examples)
+### A.2.2:3 - Positive Solution
 
-#### A.2.2:6.1 Physical system on a line (structural example)
+Use `U.Capability` when the object under discussion is the holder's ability to achieve a result class within a declared envelope and measure set.
 
-* **Holder:** `RobotArm_A` (`U.System`).
-* **Task family:** seam welding per `Weld_MIG_v3` **MethodDescription**.
-* **WorkScope:** workpiece steel grades S235–S355; ambient 18–30 °C; argon mix 92–95 %; torch T‑MIG‑07.
-* **Measures:** bead width 6.0 mm ± 0.2 mm; throughput ≤ 12 seams/min; defect rate < 0.5 %.
-* **Context:** `AssemblyLine_2025`.
-* **Readable claim:** *RobotArm\_A can execute Weld\_MIG\_v3 within the stated **WorkScope** at the stated measures (AssemblyLine\_2025).*
-* **What this is not:** It is **not** “the welder”—that is a **Role assignment** when assigned on a shift. It is **not** the weld recipe— that is the **MethodDescription**.
+Minimal capability statement:
 
-#### A.2.2:6.2 Software service in operations (structural, cyber-physical)
+```text
+CapabilityStatement:
+  holder: U.System
+  canDo: WorkFamilyOrResultClass
+  envelope: CapabilityEnvelope
+  measures: CapabilityMeasureSet
+  qualificationWindow: QualificationWindow
+  evidenceOrSourceUse: EvidenceOrSourceUseRefs
+```
 
-* **Holder:** `PlannerService_v4` (deployed system).
-* **Task family:** job‑shop schedule generation per `JS_Schedule_v4` MethodDescription.
-* **WorkScope:** 50–500 jobs; 5–40 machines; hard deadlines only; network latency ≤ 20 ms.
-* **Measures:** schedule completion within 0.95 of theoretical optimum (benchmark set), 98 % on‑time delivery in simulation.
-* **Context:** `PlantScheduling_2025`.
-* **Use:** Steps that “require ScheduleGeneration capability ≥ 0.90 optimality” will only pass if the holder’s capability meets or exceeds that bound.
+Plain sentence form:
 
-#### A.2.2:6.3 Organizational unit (enterprise sense)
+```text
+<System> can perform <work family or result class>
+within <envelope>
+at <measures>
+during <qualification window>,
+with <evidence or source-use relation>.
+```
 
-* **Holder:** `FinanceDept` (`U.System` as OrgUnit).
-* **Task family:** period close per `CloseBooks_v3` MethodDescription.
-* **WorkScope:** IFRS; ERP v12; 8 legal entities; staffing ≥ 6 FTE; cut‑off rules X.
-* **Measures:** close in ≤ 5 business days; adjustment error rate < 0.2 %.
-* **Context:** `OperatingModel_2025`.
-* **Distinction:** This is **ability**; the **service promise clause** “Provide month‑end close” is the external promise derived from this ability once formally offered.
+This form is deliberately not a method description. It does not list the step order or algorithm. It also does not assign the holder to a role or assert that a work occurrence happened.
 
-### A.2.2:7 - Bias‑Annotation (as in cluster‑E patterns)
+### A.2.2:4 - Separation From Neighboring Values
 
-* **Lenses tested:** `Arch`, `Prag`, `Did`, `Epist`.
-* **Scope declaration:** Universal; holder constrained to `U.System`.
-* **Rationale:** Gives the kernel a clean, reusable **ability concept** so Role (assignment), Method (recipe), Work (execution), and promise content (external promise clause) do not collapse into each other. Keeps planning talk truthful and checkable without introducing governance machinery here. **`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**.
+| Source wording | Recovered FPF values |
+|---|---|
+| "Engineer role can approve the design." | `U.Role` and `U.RoleAssignment` for who may act; `U.Capability` only if the holder's ability to approve is being measured or qualified. |
+| "The robot is assigned as welder." | `U.RoleAssignment`; add `U.Capability` only if the claim also says the robot can meet a welding envelope and measures. |
+| "The solver has the scheduling algorithm." | `U.MethodDescription` or deployed software-system relation; `U.Capability` only for the deployed system's ability to produce schedules within bounds. |
+| "The report has evidence capability." | Evidence-use relation around an episteme; no capability holder unless a system can perform evidential work. |
+| "The team did one successful run." | `U.Work` occurrence; capability only after a separate ability claim with envelope, measures, and currentness. |
+| "We promise five-day close." | Promise content and commitment; capability is the internal holder ability that makes the promise credible. |
+| "The architecture provides resilience capability." | Architecture or structure claim plus capability claim for the relevant system or composite, with measured resilience characteristics. |
 
-### A.2.2:8 - Conformance Checklist (normative)
+### A.2.2:5 - Work-Admission Use
 
-**CC‑A2.2‑1 (Holder type).**
-A capability **belongs to** a **`U.System`** (physical, cyber, socio‑technical, or organizational). Capabilities are **not** assigned to `U.Episteme`.
+A method step or work claim may require both role and capability conditions.
 
-**CC‑A2.2‑2 (Separation of concerns).**
-A capability is **not** a Role, **not** a Method or MethodDescription, **not** a Work, and **not** a promise content clause (`U.PromiseContent`). Models **SHALL NOT** use capability declarations to stand in for assignments, recipes, executions, or promises.
+```text
+WorkAdmissionCheck:
+  roleAssignmentCurrent: A.2.1
+  roleStateAdmitsWork: A.2.5
+  methodStepRequires: A.3.1 or A.3.2
+  holderCapabilityMeets: A.2.2
+  performedWorkRecord: A.15.1 after execution
+```
 
-**CC‑A2.2‑3 (WorkScope required for operational use).**
-When a capability is used to qualify a step or to support planning, its statement **MUST** name a **WorkScope** (conditions/assumptions) and **WorkMeasures** (targets/ranges). **Guards that admit Work MUST test** that the **holder’s WorkScope covers the step’s JobSlice** (i.e., `WorkScope ⊇ JobSlice`) **and that WorkMeasures meet the step’s thresholds, with an explicit `Γ_time` window bound**. Without a WorkScope and measures, a capability is advisory and **SHALL NOT** be used for step admission or assurance claims.
+The checks are separate:
 
-**CC‑A2.2‑4 (Context anchor).**
-Capability statements that drive operational decisions **MUST** be anchored to a **`U.BoundedContext`** (the “Context” whose vocabulary and test norms apply).
+- role assignment says who is acting in which context;
+- role state says whether that assignment is in a work-admitting state;
+- method or method description says what capability threshold is required;
+- capability says whether the holder can meet that threshold within the envelope and window;
+- performed work says what actually happened.
 
-**CC‑A2.2‑5 (QualificationWindow).**
-When capabilities are used operationally (e.g., to gate Work), the statement **MUST** carry a **QualificationWindow** (calibration window, software version window, etc.) and the guard **MUST name the `Γ_time` window** used for the check. Outside the QualificationWindow, the claim is not admissible for gating.
+Do not put the threshold into the role name. Do not treat a role assignment as proof of ability. Do not let a capability claim perform the work.
 
-**CC‑A2.2‑6 (Past work remains past).**
-Updates to a capability statement **SHALL NOT** retroactively invalidate already recorded Work. Past Work is judged against the capability declaration that was valid **at the time of execution**.
+### A.2.2:6 - Worked Cases
 
-**CC‑A2.2‑7 (Threshold checks are orthogonal to roles).**
-A step that requires both a Role and a capability threshold admits a Work only if **both** are satisfied: (i) the performer’s **Role assignment** is active in the step window; (ii) the **holder’s capability** meets or exceeds the threshold **with `WorkScope ⊇ JobSlice` and within the **QualificationWindow** at the named **`Γ_time`**.**
+#### A.2.2:6.1 - Manufacturing Cell
 
-**CC‑A2.2‑8 (Derived capabilities).**
-If a capability is claimed for a **composite system** (assembled by Γ), the claim **MUST** be stated as a property of that composite holder (not of its parts) with clear dependency notes (e.g., “valid while Subsystem B meets X”). Details of derivation belong to the context’s methodology, not to this definition.
+`RobotArm_A` is assigned as `WelderRole` on `AssemblyLine_2026`. That assignment alone says who is eligible to act in the line context.
 
-**CC‑A2.2‑9 (No capability for epistemes).**
-Algorithms, standards, and documents provide **evidence** or **recipes**; they **do not** “have capability.” Only systems do.
+The capability claim is separate:
 
-**CC-A2.2-10 (`Γ_time` selector in guards).**
-Scope-sensitive guards (including Method–Work gates) **MUST** include an explicit **`Γ_time`** selector indicating the window *W* over which **ScopeCoverage** and **WorkMeasures** are evaluated.
+```text
+Capability:
+  holder: RobotArm_A
+  canDo: Weld_MIG_v3 seam family
+  envelope: steel grades S235-S355, ambient 18-30 C, argon mix 92-95 percent, torch T-MIG-07
+  measures: bead width 6.0 mm plus or minus 0.2 mm, throughput up to 12 seams per minute, defect rate below 0.5 percent
+  qualificationWindow: calibration valid through 2026-09-30
+  evidenceOrSourceUse: latest welding test report and calibration source relation
+```
 
-### A.2.2:9 - Capability thresholds on steps (how A.15 uses this concept)
+If a method step requires `WelderRole` and bead width tolerance below 0.2 mm, the role assignment and the capability are both checked. The assignment does not supply the tolerance, and the capability does not assign the robot to the shift.
 
-A step in a **Method** may define **required roles** (assignment) and **capability thresholds** (ability). A Work passes the gate if:
+#### A.2.2:6.2 - Software Service as Deployed System
 
-1. **assignment check:** the Work’s `performedBy` points to a valid **Role assignment** that covers the step window and satisfies the role relation (including specialization `≤` inside the context).
-2. **Ability check:** the **holder** of that Role assignment has a **capability** whose **WorkScope covers the step’s JobSlice** (i.e., declared superset) and whose **WorkMeasures** meet the step’s threshold(s) within `Γ_time(W)` and while the capability’s **QualificationWindow** includes *W*.
+`PlannerService_v4` is a deployed system. It may have capability to generate job-shop schedules for 50-500 jobs and 5-40 machines, with benchmark optimality above 0.95 and latency below 20 ms in `PlantScheduling_2026`.
 
-**Idioms managers can reuse (plain text):**
+The algorithm paper and method description are not the capability. The deployed system has the capability only while its version, dependencies, input range, and operational measurements keep the claim current.
 
-* *“S1 requires `IncisionOperatorRole` and Precision ≤ 0.2 mm (OR\_2025 norms) **in window W**.”*
-* *“S2 requires `PlannerRole`, **WorkScope ⊇ JobSlice\[W]**, and Optimality ≥ 0.90 on `JS_Schedule_v4`.”*
+#### A.2.2:6.3 - Organization or Team
 
-**What to avoid:**
+`FinanceDept` can close books for eight legal entities under IFRS with ERP v12, staffing at or above six qualified people, and close duration below five business days. That is a capability of the organizational system.
 
-* Putting “Precision ≤ 0.2 mm” into the Role name. Keep thresholds attached to the **step**; keep **ability** on the **holder**.
+The monthly-close service promise is a promise content claim. The actual close for March 2026 is performed work. Staff assignments and role states are neighboring role claims. The capability claim keeps the ability of the department visible and measurable.
 
-### A.2.2:10 - Time and change (calibration, drift, upgrades)
+#### A.2.2:6.4 - Episteme Anti-Case
 
-Capabilities are **stable but not static**. Three simple practices keep reasoning honest:
+"ISO 26262 has safety capability" is not a capability claim. The standard is an episteme used as source, requirement, or assurance input. A safety engineering team or toolchain may have a capability to perform safety-case work using that standard within a declared envelope.
 
-* **Qualification windows.** Abilities drift. Put a **QualificationWindow** on the statement (e.g., “valid for software v4.2; recalibration due 2025-09-30”).
-* **Change points.** Note upgrades/downgrades that affect the WorkScope or measures.
-* **Snapshot at execution.** When Work is recorded, it is implicitly tied to the **then‑current** capability statement; later edits do not rewrite history (see CC‑A2.2‑6).
+### A.2.2:7 - Capability Currentness and Lowering
 
-**Manager’s rule of thumb:** if you would reschedule a job after a tool change, the capability statement needs a new window.
+Lower or reopen a capability claim when any of these changes:
 
-### A.2.2:11 - Composition and Γ (how assembled systems “can do”)
+- the holder system changes composition, version, calibration, staffing, training state, toolchain, or environment;
+- the envelope no longer covers the intended work slice;
+- measures no longer meet the required threshold;
+- the qualification window expires or becomes contested;
+- evidence, source-use, test, audit, or simulation relations become stale or are reclassified;
+- the method or method description changes the required capability threshold;
+- the role assignment or role state changes, causing a work-admission claim to fail even though capability remains true;
+- a composite holder changes dependency conditions.
 
-Γ builds a **new holder** (a composite system). Its capability is not the algebraic sum of parts; it is an **ability of the whole** under its own WorkScope.
+Repair the smallest value that changed. A stale calibration window lowers the capability claim; it does not rewrite the role value. A failed role assignment lowers work admission; it does not by itself lower the holder's measured ability.
 
-* **Express at the whole.** “Cell\_3 can place 12 PCB/min with ±0.1 mm” — that is a capability of **Cell\_3**, not of the pick‑and‑place head alone.
-* **State dependencies.** “Valid while Feeder\_A delivers reels at ≥ X; vision subsystem calibrated ≤ 72 h ago.”
-* **Constructor vs. transformer.** The **ConstructorRole** builds the composite (Γ); the resulting **TransformerRole** may later act on products. Capability belongs to the holder relevant to the action (builder’s ability vs operator’s ability).
+### A.2.2:8 - Composite Capability
 
-### A.2.2:12 - Interaction with Service Promise Clauses (external promise content)
+A composite system may have a capability that none of its parts has alone. Treat the composite as the holder.
 
-A **service promise clause** (a `U.PromiseContent`) is a consumer‑facing **external promise statement**. It relies on capability but is not identical to it.
+```text
+Capability:
+  holder: Cell_3
+  canDo: place 12 PCB per minute
+  envelope: feeder, vision, head, controller, and operator conditions
+  measures: placement tolerance, throughput, fault rate
+  qualificationWindow: current configuration and calibration window
+  dependencyNotes: feeder and vision subsystem conditions
+```
 
-> **Note.** The bare head noun *service* is polysemic; in normative prose it is treated as an **always‑unpack** token. Use A.6.8 (RPR‑SERV) to name the intended facet (promise clause vs endpoint vs work vs commitment).
+The capability belongs to `Cell_3`, not to every part and not to the method description. Dependencies may be named, but the whole-system capability remains a property of the composite holder.
 
-* **From capability to service promise clause.** You normally **derive** a service promise clause by taking a capability and **fixing** the promise outward (e.g., “We guarantee close ≤ 5 days”).
-* **From service promise clause back to capability.** If the promise raises the bar (e.g., tighter SLA), the underlying capability must meet or exceed it under the promise clause’s context.
-* **Staffing.** Delivering on a service promise clause still requires **Role assignments**; capability alone does not authorize action.
+### A.2.2:9 - Checklist
 
-**Memory aid:** Capability = *can do*; service promise clause = *promise to others that we will do*.
+| Check | Question |
+|---|---|
+| `CC-A2.2-01` | Is the holder a `U.System` or acting holon admitted as system for this claim? |
+| `CC-A2.2-02` | Does the capability statement name the work family or result class? |
+| `CC-A2.2-03` | Does it name the envelope: inputs, environment, configuration, resources, constraints, or conditions? |
+| `CC-A2.2-04` | Does it name measurable bounds with units, scales, thresholds, or predicates? |
+| `CC-A2.2-05` | Does it name the qualification window or other currentness predicate? |
+| `CC-A2.2-06` | Are evidence and source-use relations expressed as neighboring episteme-use values, not as capability holders? |
+| `CC-A2.2-07` | Are role assignment, role state, method requirement, performed work, and promise content kept separate? |
+| `CC-A2.2-08` | For work admission, are role and capability checks both visible when both are current? |
+| `CC-A2.2-09` | For composite holders, is the capability stated at the whole whose ability is being claimed? |
+| `CC-A2.2-10` | Are lowering and reopen conditions local enough to change only the affected value? |
 
-### A.2.2:13 - Interaction with Dynamics (laws vs. abilities)
+### A.2.2:10 - Anti-Patterns and Repairs
 
-* **Dynamics** describe **how states evolve** (models, laws, trajectories).
-* **Capability** says **what this system can achieve** within an WorkScope.
-* Dynamics often serve as **evidence** or **explanatory models** for capability but are **not** the capability itself.
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| Role-as-capability | "The inspector role can detect this defect." | Keep the role value and role assignment; state capability for the holder system if measured detection ability is current. |
+| Assignment-as-capability | "Assigned, therefore able." | Use A.2.1 for assignment and A.2.2 for the ability claim. |
+| Method-description-as-capability | "The procedure has capability." | Use `U.MethodDescription` for the episteme; use `U.Capability` for the system that can enact the method within bounds. |
+| Work-as-capability | "We did it once, so we can." | Keep the work occurrence; add a separate capability claim only when envelope, measures, and currentness are justified. |
+| Promise-as-capability | "The SLA is our capability." | Use promise content or commitment for what is offered; capability is the internal measured ability that makes the promise credible. |
+| Episteme-as-holder | "The report has assessment capability." | Use evidence, source, status, or assessment relation for the episteme; capability holder remains a system. |
+| Unbounded capability | "The tool can machine titanium." | Add material grade, tolerances, feed range, environment, version, qualification window, and measurement evidence. |
+| Capability threshold in role name | `HighPrecisionWelderRole` hides a measured threshold. | Keep role name clean; put precision threshold in method requirement and holder capability. |
 
-**Physics example:** an “isothermal process” (process here as transformation) is a **Work** instance whose path is explained by a **Dynamics** episteme; a lab rig’s ability to run that path repeatably is its **capability**.
+### A.2.2:11 - Consequences
 
-### A.2.2:14 - Anti‑patterns (and the right move)
+**Benefits.**
 
-* **Role‑as‑capability.** “Welder role ensures ±0.2 mm.” → Keep **role** as assignment; put **precision** in a **capability** on the holder; put the **threshold** on the **step**.
-* **Recipe‑as‑capability.** “We have the ‘Etch\_Al2O3’ capability.” → Recipe is **Method or MethodDescription**; ability is “can execute Etch\_Al2O3 within WorkScope E at measures M.”
-* **Work‑as‑capability.** “We did it once, so we can.” → One Work log is not a stable ability; state envelope and measures if you want a capability claim.
-* **Context‑less claims.** “This tool can machine titanium.” → Say **where and under what bounds** (context + WorkScope + measures).
-* **Stuffing capabilities into BoM/PBS.** Structure lists **what it is**; capabilities belong to **what it can do** (the holder), not inside the parts list.
-* **Service‑as‑capability.** “We have the Month‑end Close capability (promise).” → Promise is a **service promise clause** (`U.PromiseContent`); ability is internal, promise is external.
+- Planning separates "can do" from "is assigned now".
+- Method steps can name capability thresholds without putting extra meaning into role names.
+- Work records can be judged against the capability claim current at the time of work.
+- Promise content becomes less magical because the internal ability and measured envelope are explicit.
+- Composite-system ability can be stated at the right holder instead of scattered across parts.
 
-### A.2.2:15 - Migration notes (quick wins for existing texts)
+**Costs.**
 
-1. **Underline WorkScopes.** For every “can do” sentence, add **conditions** and **measures**; otherwise treat it as background color, not a gate.
-2. **Pull thresholds out of roles.** Move “≤ 0.2 mm”, “≥ 0.90 optimality” from role labels into **step requirements**; leave roles clean (assignments).
-3. **Pin contexts.** Add the bounded context name to each capability table (“Capability Sheet — AssemblyLine\_2025”).
-4. **Snapshot validity.** Add a “valid through” column (software version or calibration horizon).
-5. **Separate recipe/execution.** Move flowcharts under **MethodDescription**, runs under **Work**; link the capability to the **holder** with references to those specs.
+- Capability tables need envelope, measures, and currentness fields.
+- Teams need to stop using role labels as shortcuts for ability.
+- Some old "function", "service", "process", and "algorithm" sentences need kind recovery before they can be used in FPF.
 
-### A.2.2:16 - Consequences
+The cost is intentional: without it, FPF cannot distinguish authorization, ability, method, and performance.
 
-| Benefits                                                                                           | Trade‑offs / mitigations                                                                                                      |
-| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Truthful planning.** Schedulers and managers can ask “can do?” independently of “assigned now?” | **Extra column in tables.** Adding scope, measures, and valid-through is a small authoring cost that repays itself in fewer reschedules. |
-| **Safer gating.** Steps gate on both role and ability; fewer silent failures.                      | **Two checks instead of one.** Keep the checklist simple: *badge + bounds*.                                                   |
-| **Clear service design.** Services become explicit promises built on visible abilities.            | **Temptation to over‑promise.** Keep service SLOs within demonstrated capability measures.                                    |
-| **Clean separation with Dynamics and PBS/SBS.** No more “process” or “function” soup.              | **Some retraining.** Use the litmus tables (from the lexical rules) during onboarding.                                        |
+### A.2.2:12 - SoTA-Echoing
 
-### A.2.2:17 - Relations
+| Current practice or research line | What FPF takes | Practical implication |
+|---|---|---|
+| Capability-based planning in defense and enterprise architecture keeps ability, mission need, activities, systems, and portfolio planning separate. | `U.Capability` is ability with envelope and measures; it is not a role, method, work record, or promise. | A capability claim can be compared across candidate systems without selecting the implementation too early. |
+| Current model-based systems engineering, including SysML v2 work, increases semantic precision and traceability between system model elements, requirements, measures, and stakeholder concerns. | Capability claims name holder, result class, envelope, measures, evidence, and currentness as separate typed values. | The reader can see which value changed when a requirement, holder, measure, or context changes. |
+| Current uncertainty and verification work for cyber-physical and autonomous systems treats operating conditions and currentness as first-class modeling concerns. | Qualification windows, evidence or source-use refs, and lowering triggers are part of the capability pattern, not later paperwork. | A stale calibration, changed version, or out-of-envelope input lowers the capability claim locally. |
+| Modern access-control and zero-trust practice separates subject, role or attribute relation, current state, policy decision, and resource action. | A role assignment or role state may admit a work attempt, but it does not grant capability. | "Allowed to act" and "able to achieve the measured result" remain separate checks. |
 
-* **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 Role; A.2.1 `U.RoleAssignment`.
-* **Coordinates with:** A.3 (Transformation & role masks); A.15 (Role–Method–Work Alignment).
-* **Constrains:** Step design: thresholds belong on steps; BoM/PBS must stay structural.
-* **Informs:** `U.PromiseContent` definitional pattern (external promises derive from capabilities); `U.Dynamics` definitional pattern (models used as evidence or predictors); Γ/aggregation (capability of composites is stated at the whole).
-* **Lexical guards:** E.10.x **L‑FUNC** (do not call capability “function”); E.10.y **L‑PROC** (do not call capability “process”).
+Source-currentness note: DoDAF and TOGAF are used here as stable capability-planning practice lineage, not as the full current frontier. Current pressure comes from SysML v2 and 2025-2026 MBSE work on semantic precision, uncertainty, stakeholder-context formalization, and model integration. The NIST zero-trust line is used only for the split between current authorization and measured ability.
 
-### A.2.2:18 - Didactic quick cards (reuse in specs and slides)
+### A.2.2:13 - Relations
 
-* **Capability = can do (within bounds).** assignment ≠ ability ≠ recipe ≠ execution ≠ promise.
-* **Gate every critical step with two checks:** *badge (Role assignment)* + *bounds (Capability)*.
-* **Write the Context on every claim:** context name, **WorkScope**, measures, **QualificationWindow/valid-through**.
+| Pattern | Relation |
+|---|---|
+| `A.1` | Supplies holon and system grounding. |
+| `A.2` | Governs `U.Role`; role values do not carry capability by label. |
+| `A.2.1` | Governs `U.RoleAssignment`; assignment relation can cite a holder that separately has capability. |
+| `A.2.5` | Governs role states and enactable-state admission; role state is not capability. |
+| `A.2.7` | Governs role relation structure; role-requirement substitution or incompatibility does not create capability structure. |
+| `A.3.1` | Governs `U.Method`; method may require capability thresholds. |
+| `A.3.2` | Governs `U.MethodDescription`; a method description can describe required capability. |
+| `A.3.3` | Governs `U.Dynamics`, the state-space and transition-law episteme; dynamics may explain or predict capability but is not the holder ability. |
+| `A.15`, `A.15.1`, `A.15.2` | Govern method, plan, and performed work alignment; capability is one input to work admission, not work itself. |
+| `A.6.5` | Supplies SlotSpec discipline for capability relation fields and capability-use relations. |
+| `A.6.F` | Repairs function and functionality wording that may hide capability, method, work, math function, or functional-architecture claims. |
+| `A.6.RSIR` | Recovers relation, signature, interface, role, and slot wording before capability repair when the source sentence is mixed. |
+| `C.27` | Governs temporal currentness, windows, rhythm, and drift when capability timing is material. |
+| `C.2.1`, `A.10`, `B.3`, `C.28`, `F.10`, `E.17` | Govern episteme, evidence, assurance, counterfactual, status, and publication-use relations that may justify or qualify a capability claim. |
+| Promise-content and commitment patterns | Govern outward promise and commitment relations; a promise or commitment claim may cite a capability relation, but capability does not become promise or commitment. |
+
+### A.2.2:14 - Excluded Objects
+
+Do not use `U.Capability` as the current object for:
+
+- role value, role assignment, role state, role relation structure, or role description;
+- method, method family, method description, or algorithm description;
+- work plan, work occurrence, run record, or measurement trace;
+- evidence graph, source record, model card, standard, report, dashboard, publication, or specification-use relation;
+- promise content, commitment, permission, authority relation, or policy decision;
+- structural part, module, interface, port, or functional structure unless the current claim is the ability of a holder system expressed through that structure.
+
+These values may be related to a capability claim. They do not become the capability by adjacency.
 
 ### A.2.2:End
 

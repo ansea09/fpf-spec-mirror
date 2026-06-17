@@ -1,23 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.0"
-pattern_title: "U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+pattern_title: "U.MultiViewDescribing - Viewpoints, Views & Correspondences"
 section_id: "E.17.0:5"
 section_title: "Archetypal grounding  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_archetypal-grounding-informative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+  - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:5 — Archetypal grounding  (informative)"
-line_start: 64187
-line_end: 64208
+line_start: 63835
+line_end: 63856
 dependencies:
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2"
   - "A.6.3"
   - "A.6.4"
   - "A.7"
-  - "B.5"
   - "C.2.1"
   - "E.10"
   - "E.10.D1"
@@ -38,8 +40,8 @@ keywords:
 
 1. **Engineering holon (TEVB).**
    * `EntityOfConcernClass = U.Holon` (restricted to `U.System`/`U.Episteme`).
-   * TEVB (E.17.2) supplies a viewpoint bundle with canonical engineering viewpoints: Functional, Structural, Role‑Enactor, Module‑Interface, etc.
-   * For a particular system `S` in context `C`, Description epistemes, including Description epistemes admitted for specification use include functional descriptions, structural designs, role‑enactment models, and interface specs.
+   * TEVB (E.17.2) supplies a viewpoint bundle with canonical engineering viewpoints: Functional, Structural, Allocation‑Responsibility, Module‑Interface, etc.
+   * For a particular system `S` in context `C`, Description epistemes, including Description epistemes admitted for specification use, include functional descriptions, structural designs, role-assignment and responsibility descriptions, and interface specs.
    * Views derived via EpistemicViewing include sliced safety views, performance‑focused views, and minimal runbooks.
    * `CorrespondenceModel` records how functional elements are realised structurally, where hazards map to components, etc.
 

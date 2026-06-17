@@ -1,23 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.0"
-pattern_title: "U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+pattern_title: "U.MultiViewDescribing - Viewpoints, Views & Correspondences"
 section_id: "E.17.0:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame-informative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+  - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:1 — Problem frame  (informative)"
-line_start: 63926
-line_end: 63943
+line_start: 63574
+line_end: 63591
 dependencies:
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2"
   - "A.6.3"
   - "A.6.4"
   - "A.7"
-  - "B.5"
   - "C.2.1"
   - "E.10"
   - "E.10.D1"

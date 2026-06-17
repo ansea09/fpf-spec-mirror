@@ -6,21 +6,24 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__005_solution.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:4 — Solution"
-line_start: 32482
-line_end: 32518
+line_start: 32033
+line_end: 32069
 dependencies:
   - "A.1"
-  - "A.12"
   - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.3"
+  - "A.3.4"
   - "A.7"
   - "B.2"
   - "C.30.LCA"
+  - "U.RoleAssignment"
+  - "U.Work"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -58,11 +61,11 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 
 **Proof boundary.** A conforming `B.2.5` loop is a relation, not proof. Stability and reusable state-evolution claims use `A.3.3`; rate and timing claims use `C.27`; causal-use claims use `C.28`; evidence claims use `A.10` or `G.6`; assurance claims use `B.3`; gate and constraint-validity claims use `A.20`/`A.21`; mathematical-lens transfer uses `C.29`.
 
-**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
+**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or acting holons holding `Transformer` roles. Review practices or methods describe the revision work; they do not hold the role. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
 **Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and the evidence or assurance pattern governing the claim being made.
 
-**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
+**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the research community as supervisor only when it is modeled as an acting holon or system holding the transformer role; review practices or methods describe the revision work. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; acting systems and holons do.
 
 **Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use `A.6.M`.
 

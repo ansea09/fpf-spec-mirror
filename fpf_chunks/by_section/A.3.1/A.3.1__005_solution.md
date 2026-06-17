@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:4 — Solution"
-line_start: 6135
-line_end: 6295
+line_start: 5963
+line_end: 6141
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -27,11 +27,13 @@ dependencies:
   - "A.3.3"
   - "A.6.0"
   - "A.6.1"
+  - "B.1.5"
   - "C.2.P.DR"
   - "C.29"
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.RoleAssignment"
@@ -60,6 +62,7 @@ The primary repair move is not to replace the word "method" with one better word
 | If the text is really about... | Govern it as... |
 | --- | --- |
 | semantic way of doing | `A.3.1 U.Method` |
+| relation or composition among methods, method families, or local method expressions | `A.3.1` with `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern such as `B.1.5` when current; algebraic or graph notation is only `C.29` lens or method-description representation |
 | description of that way of doing: SOP, program, proof script, solver model, protocol, diagram, process model, recipe text | `A.3.2 U.MethodDescription` |
 | selected formal substrate or mathematical declaration | `A.6.0` and `C.29` when mathematical-lens use is current |
 | mechanism declaration or realization relation | `A.6.1` and `E.20` |
@@ -93,7 +96,7 @@ Do not decide the method and mechanism question by vocabulary. When a source exp
 
 For this host, keep the local question thin: does the current claim state a `U.Method`, the context-local way of doing a transformation or enactment? If the source label also raises mechanism, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 * In **method position**, the current claim is the context-local way of doing a transformation or enactment.
-* In **mechanism position**, the current claim is a law-governed declaration or revision of operations, laws, admissibility predicates, transport, audit surface, and monotone realizations under `A.6.1` and `E.20`.
+* In **mechanism position**, the current claim is a law-governed declaration or revision of operations, laws, admissibility predicates, transport, audit relation set, and monotone realizations under `A.6.1` and `E.20`.
 
 Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits such dual typing. Slot-position labels do not create alternate ontology.
 
@@ -142,7 +145,7 @@ A useful `U.Method` statement can usually recover these fields in ordinary proje
 | Description relation | which `U.MethodDescription` epistemes currently describe it |
 | Work relation | what kind of `U.Work` may enact it and how runs cite the description used |
 
-This is not a data schema. It is the minimum recognition surface needed before method-like wording can guide work, evidence, assurance, gates, or planning.
+This is not a data schema. It is the minimum recognition field set needed before method-like wording can guide work, evidence, assurance, gates, or planning.
 
 #### A.3.1:4.5 - Representation and programming-paradigm discipline
 
@@ -167,7 +170,7 @@ This is why "algorithm" is not repaired to "method" automatically. An algorithm-
 
 FPF interprets method claims through transformation first, not software notation first.
 
-In the constructor-theory and process-theory line selected for this campaign, claims about computation, information, dynamics, and procedure are kept close to possible or impossible transformations and their compositional realization. That gives FPF the following settlement:
+In the constructor-theory and process-theory source line adopted here, claims about computation, information, dynamics, and procedure are kept close to possible or impossible transformations and their compositional realization. That gives FPF the following settlement:
 
 * a system in a transformer-like role can enact a method;
 * the method is the context-local way of doing the transformation;
@@ -193,13 +196,30 @@ Different internal control flow, search strategy, proof notation, programming pa
 
 When variants differ only by parameter ranges, equipment envelope, or local representation, keep one method with declared variation when the context accepts that identity. When variants change effects, bounds, accepted inputs, safety envelope, or work-facing acceptance criteria, declare a refinement, substitution, or distinct method.
 
-#### A.3.1:4.8 - Method composition and work enactment
+#### A.3.1:4.8 - Method relation structure, composition, and work enactment
 
 Methods may compose into larger methods. Work occurrences may compose into larger work histories. These are related but different claims.
 
-Method composition is design-side or definition-side: serial composition, parallel composition, guarded choice, iteration, refinement, substitution, or decomposition yields a method claim about a way of doing.
+When the current question is one semantic way of doing, the governed object is `U.Method`. When the current question is a relation among methods, method families, local method expressions, method-description links, or work-facing method-use relations, the governed object is `MethodRelationStructure@BoundedContext`: a context-local structure over method-side values.
 
-Work composition is occurrence-side: dated work may interleave, split, merge, retry, fail, recover, or be recorded in traces differently from the method description.
+A method relation structure may include:
 
-Do not infer method composition from document modules, graph layout, table order, or source-file structure alone. A two-module description is not automatically a two-step method. A path in a graph is not automatically an execution sequence. A pipeline-looking diagram is not automatically dated work.
+- serial composition;
+- parallel composition;
+- guarded choice;
+- iteration;
+- refinement;
+- substitution;
+- decomposition;
+- parameterization;
+- method-family membership, selection, fallback, or dispatch relation;
+- a relation from method requirement to accepted role assignment when work admission depends on it.
+
+Those relations are design-side or definition-side claims about ways of doing. They are not dated work merely because an implementation, graph, process model, or workflow-looking diagram can be executed or followed.
+
+Work composition is occurrence-side: dated work may interleave, split, merge, retry, fail, recover, or be recorded in traces differently from the method description or method relation structure.
+
+Algebraic, graph, categorical, process-calculus, effect-calculus, matrix, embedding, distributed, or neural notation may describe or analyze a selected `MethodRelationStructure@BoundedContext`. That notation is a mathematical or representation lens under `C.29` or a `U.MethodDescription` representation when the description itself is current. Do not name it `U.MethodAlgebra` or treat the lens as the method, method family, work plan, performed work, mechanism, role relation structure, or selector registry.
+
+Do not infer method composition from document modules, graph layout, table order, method-family registry rows, or source-file structure alone. A two-module description is not automatically a two-step method. A path in a graph is not automatically an execution sequence. A pipeline-looking diagram is not automatically dated work. A method-family registry may select among or compose families, but the registry entry is not the method relation structure unless the governing selector or method pattern states that relation by value.
 

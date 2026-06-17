@@ -1,31 +1,46 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.8"
-pattern_title: "Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
-section_id: "F.8:2"
-section_title: "Problem frame"
+pattern_title: "Mint-or-Reuse Decision"
+section_id: "F.8:1"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
-  - "F.8:2 — Problem frame"
-line_start: 74343
-line_end: 74351
+  - "F.8 — Mint-or-Reuse Decision"
+  - "F.8:1 — Problem Frame"
+line_start: 74139
+line_end: 74146
 dependencies:
   - "A.11"
+  - "A.15"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "A.7"
   - "A.8"
-  - "D.CTX"
-  - "E.10.D1"
+  - "C.3"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.9"
   - "F.1"
+  - "F.10"
+  - "F.13"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
   - "decision lattice"
   - "minting new types"
@@ -34,12 +49,11 @@ keywords:
   - "type explosion"
 ---
 
-### F.8:2 - Problem frame
+### F.8:1 - Problem Frame
 
-Modellers tend to **mint names** when they actually need **reuse**, **aliasing**, or **explicit Cross‑context reading**. Consequences:
+Name pressure is often a sign of unresolved ontology. A project wants one short expression, but the expression may stand for several different values: a local sense, a reusable row, a role-description label, a status value, a method name, a work occurrence label, a policy id, or a new `U.Type` candidate.
 
-1. **Name inflation.** Parallel labels for the same idea across Contexts.
-2. **senseFamily mixing.** Behavioural **Role** names that smuggle in deontic **Status** or measurement talk.
-3. **Hidden bridges.** Cross‑context sameness is implied by look‑alike words rather than declared (F.9).
-4. **Kernel sprawl.** New **U.Types** appear to plaster over local vocabulary gaps.
+The dangerous shortcut is to decide by word form. If the word contains `Role`, it is treated as a role. If the word appears in two contexts, it is treated as the same concept. If a source standard uses the name, the name is promoted. If the expression is short and readable, it becomes public vocabulary.
+
+F.8 delays naming until the current kind and use are recovered. It is the gate between local expression and durable name, not the naming style guide itself.
 

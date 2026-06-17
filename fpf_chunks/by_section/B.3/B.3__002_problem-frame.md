@@ -6,27 +6,26 @@ section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:1 — Problem frame"
-line_start: 32607
-line_end: 32626
+line_start: 32158
+line_end: 32177
 dependencies:
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.6"
   - "A.7"
   - "B.1"
   - "B.1.1"
-  - "B.1.2"
-  - "B.1.3"
-  - "B.1.4"
   - "B.3"
   - "B.3.5"
   - "B.3.x"
@@ -61,19 +60,19 @@ keywords:
 
 Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
 
-* For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
-* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of evidence relation* for a statement or model.
+* For **U.System** holons, assurance is about *capabilities and constraints* under stated conditions.
+* For **U.Episteme** holons, assurance is about the *quality of evidence relation* for a statement or model.
 
 To make such claims comparable and auditable across domains, B.3 introduces a **Trust and Assurance Calculus** that:
 
 * uses a **small typed assurance tuple** (F-G-R: `F` and `R` as characteristics plus `G` as scope value) governed by conservative propagation rules; this tuple is **not** a state space,
 * accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
-* and composes these values with **Gamma flavours** while respecting the **Invariant Quintet** (IDEM, COMM or LOC replacements, WLNK, MONO).
+* and composes these values only through current governing composition, transformation, temporal, and work operators while respecting their declared invariants.
 
 B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How those components improve (for example by formalizing, replicating, reconciling, or widening or narrowing scope under declared operation rules) is handled by KD-CAL improvement moves; those knowledge-dynamics references are descriptive, not required to read here.
 
 **Mechanism linkage.** For law-governed operation families (for example **USM** and **UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, and the **Transport** clause (Bridge-only; `CL`, `CL^k`, and `CL^plane`). All such penalties reduce `R_eff` only; `F` and `G` remain invariant.
 
 **Working-Model handshake (alignment with E.14, B.3.5, and C.13).**
-Assurance consumes two inputs declared in the **Working-Model** assertion layer (CT2R-LOG, B.3.5): the **justification declaration** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Gamma-m** (Compose-CAL) narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working-Model wording or layout; dependence remains downward-only under E.14.
+Assurance consumes two inputs declared in the **Working-Model** assertion layer (CT2R-LOG, B.3.5): the **justification declaration** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a constructive-composition narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working-Model wording or layout; dependence remains downward-only under E.14.
 

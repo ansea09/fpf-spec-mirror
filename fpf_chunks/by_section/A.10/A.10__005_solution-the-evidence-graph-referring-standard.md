@@ -6,34 +6,37 @@ section_id: "A.10:4"
 section_title: "Solution — The Evidence Graph Referring Standard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__005_solution-the-evidence-graph-referring-standard.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:4 — Solution — The Evidence Graph Referring Standard"
-line_start: 19602
-line_end: 19828
+line_start: 19237
+line_end: 19463
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3.4"
   - "A.6"
-  - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.4"
   - "C.16"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "E.17"
   - "E.17.EFP"
   - "F.9"
 keywords:
@@ -53,22 +56,22 @@ keywords:
 
 ### A.10:4 - Solution — The Evidence Graph Referring Standard
 
-The Standard is a small set of primitives applied uniformly, with **practitioner-first clarity** and **formal connection points** for proof obligations. Its primary EntityOfConcern is the evidence-provenance path for a claim: symbol or evidence carriers, external transformer roles, method traces, work traces, time stance, and evidence edges. Authority-looking reliance and causal-use evidence are specialized uses of that same evidence path; they do not redefine `A.10` as a pattern about labels, dashboard wording, or source rhetoric.
+The Standard is a small set of primitives applied uniformly, with **practitioner-first clarity** and **formal connection points** for proof obligations. Its primary EntityOfConcern is the evidence-provenance path for a claim or use: an evidence episteme or evidence record, target claim or target use, publication or carrier relation, provenance relation, evidence-producing or evidence-interpreting work occurrence, producer or source-maintenance role assignment when current, method trace when relevant, time stance, scope, polarity, relevance window, and assurance use. Authority-looking reliance and causal-use evidence are specialized uses of that same evidence path; they do not redefine `A.10` as a pattern about labels, dashboard wording, or source rhetoric.
 
-#### A.10:4.1 - EPV-DAG Evidence-Provenance DAG
-A **typed, acyclic** graph disjoint from mereology. Node types: **SymbolCarrier** (a `s.System` in **CarrierRole**, A.15), **TransformerRole** (external Transformer, A.12), **MethodDescription** (design-time blueprint of a method, A.15), **Observation** (a dated assertion or result record), **s.Episteme** (knowledge holon). Edge vocabulary is small and normative: `evidences`, `derivedFrom`, `measuredBy`, `interpretedBy`, `usedCarrier`, `happenedBefore` (temporal), etc.
-*Practitioner view:* it is the *“because‑graph”*: every claim answers “because of these carriers, by this Transformer, using that method, then.”
+#### A.10:4.1 - Evidence-provenance graph relation
+A **typed, acyclic** evidence-provenance graph relation stays disjoint from mereology. Its nodes and references are typed by their current FPF kind: claim or target use, evidence episteme or evidence record, publication or carrier reference, provenance relation, evidence-producing or evidence-interpreting `U.Work`, `U.RoleAssignment` for producer, interpreter, verifier, or source-maintenance holder when that assignment is current, `U.MethodDescription` or method trace when the evidence depends on method, observation or evaluation record, and relevance window. Edge vocabulary is small and normative: `evidences`, `derivedFrom`, `measuredBy`, `interpretedBy`, `usedCarrier`, `producedByWork`, `maintainedByRoleAssignment`, `happenedBefore` (temporal), etc.
+*Practitioner view:* it is the *“because-graph”*: every claim answers “because of these evidence items and carriers, produced or interpreted by this work under this assignment, using that method where relevant, within this time window.”
 
 #### A.10:4.2 - Evidence relations (two relations, two flavours)
 
 * `verifiedBy` — links a claim to **formal** evidence (proof obligations, static guarantees, model‑checking records).
 * `validatedBy` — links a claim to **empirical** evidence (tests, measurements, trials, observations).
-  Both evidence relations terminate in the EPV-DAG, not in the mereology graph.
+  Both evidence relations terminate in the evidence-provenance graph relation, not in the mereology graph.
 
-#### A.10:4.3 - SCR and RSCR Symbol Carrier Registers
-Every `Γ_epist` aggregation **SHALL** emit an **SCR**: an exhaustive register of **symbol carriers** substantively used in the aggregate, with id, type, version, date, source conditions, and optional `PortionOf` (A.14) for sub-carriers.
-Every `Γ_epist^compile` **SHALL** emit an **RSCR**: SCR specialised to a **bounded context** (vocabularies, units) with publication‑grade identifiers and hashes.
-*Why this matters:* it prevents “lost sources” during composition and underwrites reproducibility without mandating any specific tool.
+#### A.10:4.3 - Carrier and source-currentness records
+When an episteme composition, publication, compilation, dashboard, generated explanation, or assurance use substantively relies on source carriers, the evidence-provenance path **SHALL** keep a carrier/source-currentness record: carrier id or source reference, type, version or edition when relevant, date or relevance window, source conditions, provenance relation, and optional part-carrier relation for sub-carriers.
+When a bounded context needs publication-grade reuse, the record is adapted to that context with vocabulary, unit, identifier, and hash discipline while preserving carrier identity and carrier integrity.
+*Why this matters:* it prevents “lost sources” during composition and underwrites reproducibility without mandating any specific tool or preserving one older register name as the governing ontology.
 
 #### A.10:4.4 - Scope alignment across Role-Method-Work
 
@@ -76,16 +79,16 @@ Every `Γ_epist^compile` **SHALL** emit an **RSCR**: SCR specialised to a **boun
 * **Run-time**: dated U.Work occurrences belong here; traces reference which U.Method they enact and cite the methodDescriptionRef used to identify or constrain it and record happenedBefore.
   Bridging edges are explicit (“this run trace enacts that method under this method-description source”), so scopes never silently mix.
 
-#### A.10:4.5 - External TransformerRole
-The system that produces or interprets evidence is **external** to the holon under evaluation. If true reflexivity is essential, model a **meta‑holon** (A.12): the self‑updating holon becomes the *object* of a meta-holon external transformer (the “mirror”), restoring objectivity.
+#### A.10:4.5 - Evidence-producing work and relying context
+The work occurrence that produces, measures, interprets, verifies, publishes, or maintains evidence is modelled separately from the target claim or target use that relies on that evidence. If the same system participates on both sides, the evidence path must still name the distinct work occurrence, role assignment, carrier/provenance relation, relying context, and reopen condition. Reflexive monitoring is admissible only when those relations are explicit; it is not evidence by self-label.
 
 #### A.10:4.6 - Gamma-flavour evidence connection points
 
 * **Γ\_sys (formerly Γ\_core)**: physical properties are evidenced by measurement models, boundary conditions, calibration carriers, and dated observations.
-* **Γ\_epist**: always outputs SCR or RSCR; every evidence-provenance node resolves to an SCR or RSCR entry.
+* **Episteme composition and publication use**: every evidence-provenance node resolves to a carrier/source-currentness record or to an explicitly named evidence episteme, provenance relation, or source-maintenance relation.
 * **Γ\_method**: order-sensitive composition; at design-time a **Method Instantiation Card (MIC)** states Precedes, Choice, Join, and guards; at run-time traces record `happenedBefore` and point to the `U.Method` they enact and the `methodDescriptionRef` they used.
 * **Γ\_time**: temporal claims state interval coverage; **Monotone Coverage** with no unexplained gaps and no unexplained overlaps is required.
-* **Γ\_work**: resource spending and yield are evidenced by instrumented carriers (meters, logs) and their `methodRef` plus `methodDescriptionRef`; keep **resource rosters** separate from SCR and RSCR.
+* **Γ\_work**: resource spending and yield are evidenced by instrumented carriers (meters, logs) and their `methodRef` plus `methodDescriptionRef`; keep **resource rosters** separate from carrier/source-currentness records.
 
 > **Practitioner shortcut:** If you can answer *what carriers, which system, which method, when*, the evidence relation is likely sufficient; if any of the four is missing, it is not.
 
@@ -110,7 +113,7 @@ Minimum evidence path for routine reliance:
 | evidenced claim or effect | Approval, permission, gate passage, role or status currentness, work occurrence, evidence relation, assurance input, or other claim named by value or effect being attempted. |
 | evidence carrier | The visible or recovered carrier, with enough identity to reopen it. |
 | issuer, performer, trust root, status register, or source-maintenance role assignment | The role assignment, system, or governing register accountable for producing, updating, or verifying the carrier or source-backed content in this context. |
-| affected entity and relying context | The release, service, model, person, role holder, policy subject, work target, claim, audience, tenant, environment, or other entity for which reliance is attempted. |
+| affected entity and relying context | The release, service, model, person, role-assigned system or acting holon, policy subject, work target, claim, audience, tenant, environment, or other entity for which reliance is attempted. |
 | time window and freshness | Issue time, effective window, decay, supersession, revocation, policy or gate version, and reopen condition. |
 | evidence-producing work occurrence or method trace | The production, verification, query, generation, review, or other work that made the carrier, plus the method trace when the method matters for the claim. |
 | evidence relation and rival explanation | Which claim the carrier evidences, how it evidences it, and the principal rival explanation that remains plausible, such as stale display, spoofed badge, copied wording, generated paraphrase, context shift, carrier-only provenance, or local-only transform relation. |
@@ -125,7 +128,7 @@ Expanded fields are collected only insofar as they decide the current reliance q
 | --- | --- |
 | method trace or work trace | Provenance, attestation, generated source relation, copied source relation, dashboard source relation, rollback source relation, or work occurrence is being used. |
 | evidence-carrier integrity | The carrier may be spoofed, stale, copied, transformed, rendered, redacted, or context-shifted. |
-| identity or holder binding | The claim depends on a credential holder, role holder, issuer, performer, delegate, revoker, verifier, or relying party. |
+| identity or holder binding | The claim depends on a credential holder, role-assigned system or acting holon, issuer, performer, delegate, revoker, verifier, or relying party. |
 | verifier context, relying-party context, and acceptance rule | The evidence relation is accepted only for a verifier, audience, tenant, environment, release line, policy subject, operational mode, or consumer-side policy or gate rule that accepts the evidence for this use. |
 | proof, cryptographic-signature, or status verification result | Credential, provenance, attestation, authenticity, revocation, or currentness relation is claimed. |
 | policy version, gate version, and decision source | Permission, gate passage, release, rollback authority, policy authorization, or another bounded use boundary is attempted. |
@@ -153,7 +156,7 @@ Case repairs:
 
 If the evidence path is incomplete, A.10 reports evidence-path state and source-currentness status, not work or reliance evidence relation for the attempted claim or effect. Possible dispositions include source-finding only, reopen original carrier, request issuer or status verification, refresh dashboard query or API query, mark stale or contested, narrow the attempted P2W class or reliance claim, proceed only with a reversible local probe under an explicit work plan when a work change is being attempted, or block the unsupported work claim or reliance claim.
 
-**Broken-source repair assignment.** If the relying actor cannot recover or verify the source relation, assign the repair to the accountable project-side responsibility assignment: issuer or performer, verifier or status service, evidence-producing work role assignment or system, gate-decision source, role or status source, or boundary source. The A.10 result should name the missing source and blocked use rather than making the relying actor reconstruct a source they cannot issue or verify.
+**Broken-source repair assignment.** If the relying actor cannot recover or verify the source relation, assign the repair to the accountable project-side responsibility assignment: issuer or performer, verifier assignment, status-source relation, evidence-producing work assignment or evidence-producing system, gate-decision source, role-assignment source, status source, or boundary source. The A.10 result should name the missing source and blocked use rather than making the relying actor reconstruct a source they cannot issue or verify.
 
 | Viewpoint | Prompt |
 | --- | --- |
@@ -164,7 +167,7 @@ If the evidence path is incomplete, A.10 reports evidence-path state and source-
 | LLM user or tool user | Which generated or copied operative claims map to source passages or carriers, and which claims remain only source-finding? |
 | Model source or data source | Which intended-use, evaluation-condition, version, window, limitation, and evidence carriers bound the model documentation or data documentation? |
 
-**Repeated missing-source indicator.** If the same visible carrier family repeatedly returns stale, contested, no-source, or no-currentness A.10 results, record a source-system repair action: instrument the source, expose decision-source refs, add currentness checks and status checks, preserve claim-bound source links for generated or copied outputs, require credential views to show status windows and currentness windows, require model documentation and data documentation to expose intended-use and evaluation-condition fields, or require provenance labels and attestation labels to name their bounded claim type. Repetition is an indicator that the source relation or display needs repair; it is not a reason to make each acting user rebuild the evidence path manually.
+**Repeated missing-source indicator.** If the same visible carrier family repeatedly returns stale, contested, no-source, or no-currentness A.10 results, record a source-relation repair action: instrument the source, expose decision-source refs, add currentness checks and status checks, preserve claim-bound source links for generated or copied outputs, require credential views to show status windows and currentness windows, require model documentation and data documentation to expose intended-use and evaluation-condition fields, or require provenance labels and attestation labels to name their bounded claim type. Repetition is an indicator that the source relation or display needs repair; it is not a reason to make each acting user rebuild the evidence path manually.
 
 Display guidance for evidence and currentness: an evidence or status display should show the claim or effect, evidence carrier, source-maintenance role assignment, reference or link named by value, time window, freshness, relying context, and unsupported work use, reliance use, claim, or effect. A display that can only show source availability should say so; it must not imply approval, permission, gate passage, work occurrence, or assurance.
 
@@ -196,7 +199,7 @@ Plain move palette: `RelianceDisposition=pass` means proceed only inside the bou
 | --- | --- | --- | --- |
 | Ordinary source-backed report, record, citation, observation, model card, datasheet, data card, or publication excerpt | Name the claim, evidence carrier, producer or method trace, evidence path, currentness window, bounded evidence use, unsupported attempted use, and reopen trigger. | Open `B.3` only when an assurance claim is being made or the B.3 material-reliance threshold is met; open `A.21` for a gate decision currently being relied on, `A.15` or `A.15.1` for work, or another governing neighboring pattern only when that relation is being claimed; open `B.2.5` only when a controlled object is regulated through a feedback channel, evidence channel, cadence, window, supervisory relation, or control relation. | Evidence presence as approval, gate passage, assurance, release permission, work authority, control authority, or safety acceptance. |
 | Confidence, calibration, prediction interval, abstention reason, or selective-action cue | Name the act, context, window, calibration population, exchangeability condition, shift condition, applicability condition, and stop condition for the bounded evidence use. Use `RelianceDisposition=pass` or `RelianceDisposition=degrade` only for that bounded use, and state the unsupported attempted use beside it. | Open `C.27` or `G.11` when timing, expiry, refresh, distribution shift, monitoring, or applicability change alters the bounded act; open `B.3` when an assurance claim is being made or the B.3 material-reliance threshold is met. | Confidence as global permission, trust, readiness, safety, release reliance, or engineering justification. |
-| Generated explanation, generated summary, or didactic reconstruction | Keep the rendering in `E.17.EFP` as explanation or source-finding unless each relied-on operative claim has an `A.10` evidence path or another source relation that evidences the operative claim. | Apply `A.10`, `B.3`, `A.21`, `A.15`, or another governing pattern only for the operative claim being relied on. | Explanation wording as evidence, assurance, approval, gate passage, work occurrence, or permission. |
+| Generated explanation, generated summary, or didactic reconstruction | Keep the rendering in `E.17.EFP` as explanation or source-finding unless each relied-on operative claim has an `A.10` evidence path or another source relation that carries, supports, or exposes the source basis for the operative claim. | Apply `A.10`, `B.3`, `A.21`, `A.15`, or another governing pattern only for the operative claim being relied on. | Explanation wording as evidence, assurance, approval, gate passage, work occurrence, or permission. |
 | Conformance label, `CV.Status`, benchmark result, score, semantic-fidelity marker, or CV-looking publication near release | Recover the declared relation: measurement or marker relation, `A.20` step-local CV status, `A.21` gate check, `E.19` pattern-quality result, `C.16` characterization, or external-rule source named by value. | Open `A.21` only when an `OperationalGate(profile)` consumes effective gate-check refs and emits a `GateDecision`; open `B.3` only when an assurance claim is being made. | Conformance or score as value, adequacy, release confidence, work occurrence, safety, trust, or gate passage outside the declared relation. |
 | Provenance, authenticity, C2PA-like credential, SLSA-like attestation, build record, or status-register display | State the bounded origin, history, build method or production trace, holder, status, verifier rule, relying context, and currentness claim it evidences. | Open the source that carries truth, permission, safety, release, gate passage, work occurrence, or assurance only when that relation is being claimed by value. | Provenance, authenticity, or status-currentness as truth, safety, approval, permission, release, gate passage, or assurance. |
 | Contest, redress request, challenge, appeal, or conflicting source | Name the contested claim, evidence carrier, source order, freshness issue, currentness issue, affected use, accountable review role, allowed challenge evidence, possible disposition change, outcome record, and reopen trigger. | Open neighboring role, status, commitment, gate, control, assurance, work, or representation loci when those effects are being claimed. | Appeal-channel presence as claim truth, safety, compliance proof, social-effect acceptance, or completed redress. |
@@ -211,8 +214,8 @@ If publication or observation of a cue changes the represented situation or repr
 
 | `RelianceDisposition` | A.10 classification | Minimum A.10 statement |
 | --- | --- | --- |
-| `RelianceDisposition=pass` | The evidence relation named by value is present and current for the named use, the evidence kind is present, the source is current enough for that use, and the evidenced use is bounded. | State the evidenced claim, act, work move, review claim, or P2W receiving use, the unsupported attempted use, the evidence-provenance path, and the window. |
-| `RelianceDisposition=degrade` | The source relation evidences only a narrower claim, smaller audience, reversible local act, lower assurance input, or shorter window. | State the narrowed bounded evidence use, the unsupported attempted use, and the stop condition. |
+| `RelianceDisposition=pass` | The evidence relation named by value is present and current for the named use, the evidence kind is present, the source is current enough for that use, and the evidenced use is bounded. | State the evidenced claim, act, work move, review claim, or P2W carry-through use, the unsupported attempted use, the evidence-provenance path, and the window. |
+| `RelianceDisposition=degrade` | The source relation supports only a narrower claim, smaller audience, reversible local act, lower assurance input, or shorter window. | State the narrowed bounded evidence use, the unsupported attempted use, and the stop condition. |
 | `RelianceDisposition=abstain` | Evidence is insufficient, stale, out-of-context, uncalibrated, conflicted, or not tied to the claimed relation, while immediate rejection is not justified. | State the claim not decided and the missing evidence or relation needed before use. |
 | `RelianceDisposition=reopen` | A contest, changed representation, changed selected entity, stale source, expired window, changed profile, conflicting source, retargeting, or new evidence defeats the previous evidence path. | State the source or relation to reopen and the previous use that is no longer evidenced. |
 | `RelianceDisposition=evidence-needed` | The visible source may matter, but the required evidence kind or source-currentness path is absent. | State the missing evidence kind, governing pattern, and decision point so delay does not become indefinite. |
@@ -234,7 +237,7 @@ Worked source-overread slices:
 | Software supply-chain attestation is cited near a release conversation. | The attestation may evidence bounded origin, build method or production trace, verifier-rule, holder, and currentness claims. | Runtime safety, release approval, gate passage, or assurance unless `B.3`, `A.21`, or another relation governing the asserted use is asserted for that use. |
 | A verified provenance credential, watermark, or authenticity mark appears on a publication face. | The mark may evidence where the carrier, signature, assertion, or manifest came from under the verifier regime. | Truth of the represented world-state, safety, permission, or adequacy by provenance alone. |
 | A confidence interval or calibration result is used for one reversible act. | State the act, context, calibration condition, window, bounded evidence use, unsupported attempted use, and stop condition. | Global readiness, trust, safety, release reliance, or engineering justification. |
-| A generated explanation or summary says a result is reliable. | Treat the rendering as source-finding or explanation until the operative claim has an `A.10` evidence path or another source relation that evidences the operative claim. | Evidence, approval, gate passage, work occurrence, or assurance by fluent wording. |
+| A generated explanation or summary says a result is reliable. | Treat the rendering as source-finding or explanation until the operative claim has an `A.10` evidence path or another source relation that carries, supports, or exposes the source basis for the operative claim. | Evidence, approval, gate passage, work occurrence, or assurance by fluent wording. |
 | Contest or redress is claimed after a source is challenged. | State the disputed claim, affected use, accountable review role, allowed challenge evidence, possible disposition change, outcome record, and reopen trigger. | Claim truth, compliance proof, completed redress, or social-effect acceptance by appeal-channel presence. |
 | A harmed party gives challenge evidence that could change the disposition, but the accountable party answers "evidence insufficient" without naming the missing evidence kind or decision point. | Treat the refusal as `RelianceDisposition=reopen` or invalid `RelianceDisposition=evidence-needed`; name the missing evidence kind, decision point, accountable role, and possible disposition change. | Closed refusal, completed redress, or `RelianceDisposition=blocked-current-use` by vague insufficiency. |
 

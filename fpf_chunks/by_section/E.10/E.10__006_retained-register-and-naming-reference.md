@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Retained register and naming reference"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_retained-register-and-naming-reference.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Retained register and naming reference"
-line_start: 61017
-line_end: 61029
+line_start: 60575
+line_end: 60587
 dependencies:
   - "A.10"
   - "A.15"

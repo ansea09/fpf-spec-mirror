@@ -6,26 +6,25 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-line_start: 32588
-line_end: 33179
+line_start: 32139
+line_end: 32730
 dependencies:
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.6"
   - "A.7"
   - "B.1"
   - "B.1.1"
-  - "B.1.2"
-  - "B.1.3"
-  - "B.1.4"
   - "B.3"
   - "B.3.5"
   - "B.3.x"
@@ -63,7 +62,7 @@ keywords:
 > **Normativity:** Normative for FPF use that claims assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` for a named claim.
 
 > **Plain-English headline.**
-> B.3 defines how assurance or trust is assigned, aggregated, and reused for physical systems, epistemes, and publication or evidence records that are used to claim assurance. It uses one typed assurance tuple, F-G-R: `F` and `R` as characteristics, `G` as the scope value, plus edge-scoped `CL`; the aggregation rules stay conservative, respect the Gamma invariants, and keep the A.7 EntityOfConcern and description strict distinction. It treats the E.14 Working-Model layer as the publication-facing assertion layer for claims, with assurance inputs attached downward from Mapping, Logical, Constructive, and Empirical Validation layers.
+> B.3 defines how assurance or trust is assigned, aggregated, and reused for physical systems, epistemes, and publication or evidence records that are used to claim assurance. It uses one typed assurance tuple, F-G-R: `F` and `R` as characteristics, `G` as the scope value, plus edge-scoped `CL`; the aggregation rules stay conservative, respect the current composition, transformation, temporal, and work invariants named by their governing patterns, and keep the A.7 EntityOfConcern and description strict distinction. It treats the E.14 Working-Model layer as the publication-facing assertion layer for claims, with assurance inputs attached downward from Mapping, Logical, Constructive, and Empirical Validation layers.
 
 **Use this when.** Use `B.3` when a claim, label, dashboard, evidence bundle, model, report, gate decision, or assurance-input package is being used to raise assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` for a named claim.
 
@@ -79,21 +78,21 @@ keywords:
 
 Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
 
-* For **U.System** holons (Γ\_sys), assurance is about *capabilities and constraints* under stated conditions.
-* For **U.Episteme** holons (Γ\_epist), assurance is about the *quality of evidence relation* for a statement or model.
+* For **U.System** holons, assurance is about *capabilities and constraints* under stated conditions.
+* For **U.Episteme** holons, assurance is about the *quality of evidence relation* for a statement or model.
 
 To make such claims comparable and auditable across domains, B.3 introduces a **Trust and Assurance Calculus** that:
 
 * uses a **small typed assurance tuple** (F-G-R: `F` and `R` as characteristics plus `G` as scope value) governed by conservative propagation rules; this tuple is **not** a state space,
 * accounts for **integration quality** via **Congruence Level (CL)** along the edges of a `DependencyGraph` (B.1.1, A.14),
-* and composes these values with **Gamma flavours** while respecting the **Invariant Quintet** (IDEM, COMM or LOC replacements, WLNK, MONO).
+* and composes these values only through current governing composition, transformation, temporal, and work operators while respecting their declared invariants.
 
 B.3 is **conceptual and normative**: it defines *which assurance components must be published and how they propagate*. How those components improve (for example by formalizing, replicating, reconciling, or widening or narrowing scope under declared operation rules) is handled by KD-CAL improvement moves; those knowledge-dynamics references are descriptive, not required to read here.
 
 **Mechanism linkage.** For law-governed operation families (for example **USM** and **UNM**) authored as **mechanisms**, use A.6.1 — U.Mechanism to publish **OperationAlgebra**, **LawSet**, **AdmissibilityConditions**, and the **Transport** clause (Bridge-only; `CL`, `CL^k`, and `CL^plane`). All such penalties reduce `R_eff` only; `F` and `G` remain invariant.
 
 **Working-Model handshake (alignment with E.14, B.3.5, and C.13).**
-Assurance consumes two inputs declared in the **Working-Model** assertion layer (CT2R-LOG, B.3.5): the **justification declaration** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a **Gamma-m** (Compose-CAL) narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working-Model wording or layout; dependence remains downward-only under E.14.
+Assurance consumes two inputs declared in the **Working-Model** assertion layer (CT2R-LOG, B.3.5): the **justification declaration** `validationMode ∈ {postulate, inferential, axiomatic}` and, where present, the **grounding link** `tv:groundedBy`. Structural claims that aspire to the strongest guarantees rely on **Constructive** grounding as a constructive-composition narrative referenced via `tv:groundedBy`. No assurance record or publication **defines** Working-Model wording or layout; dependence remains downward-only under E.14.
 
 ### B.3:2 - Problem
 
@@ -148,11 +147,11 @@ We standardize **two node characteristics**, **one node scope value**, and **one
 
 > **EntityOfConcern and description strict distinction (A.7).**
 >
-> * Assurance components are recorded as **value and scope claim components**: `F` and `R` as characteristics, `G` as a scope value, while Gamma flavours fold **structure, order, and time**.
+> * Assurance components are recorded as **value and scope claim components**: `F` and `R` as characteristics, `G` as a scope value, while the governing composition, order, temporal, and work patterns keep **structure, order, and time** distinct.
 > * Do not smuggle assurance components into structural edges; keep `F`, `R`, and `CL` explicit as CHR metadata and `G` explicit as a USM scope value.
 
 > **Assurance shoulders (Working-Model split).**
-> **Mapping** raises **TA** (typing, fit, and CL). **Logical** and **Constructive** contribute to **VA** (intended relation semantics; Gamma-m extensional identity for structure). **Empirical Validation** contributes to **LA** (evidence in a bounded context). These assurance inputs attach **downward** from the Working-Model assertion layer (E.14).
+> **Mapping** raises **TA** (typing, fit, and CL). **Logical** and **Constructive** contribute to **VA** (intended relation semantics; constructive-composition identity for structure when the governing pattern admits it). **Empirical Validation** contributes to **LA** (evidence in a bounded context). These assurance inputs attach **downward** from the Working-Model assertion layer (E.14).
 
 #### B.3:4.2 - Assurance as a typed claim
 
@@ -164,7 +163,7 @@ Assurance(H, C | K, S) = ⟨F_eff, G_eff, R_eff, Notes⟩
 
 * `C` examples: *meets load L*, *argument Q holds*, *model M predicts within δ*.
 * `K` binds assumptions (environment, usage, priors).
-* `Notes` include the **SCR** (all sources, B.1.3), **OrderSpec** or **TimeWindow** where applicable (B.1.4), cutsets, and evidence citations (A.10).
+* `Notes` include carrier/source-currentness records, evidence-provenance references (A.10), **OrderSpec** or **TimeWindow** where applicable, cutsets, and evidence citations.
 
 This tuple gives practitioners an at-a-glance assurance result while preserving the pieces needed for audit and improvement.
 
@@ -173,7 +172,7 @@ Each published Working-Model assertion declares **`validationMode ∈ {postulate
 
 * *postulate* -> pragmatic working claim; **Empirical Validation** is required for audit.
 * *inferential* -> reasoned consequence; **Logical** assurance carries the reasoning requirement.
-* *axiomatic* -> constructive identity; **structural** edges provide a Gamma-m narrative and a **`tv:groundedBy`** pointer (C.13, B.3.5).
+* *axiomatic* -> constructive identity; **structural** edges provide a constructive-composition narrative and a **`tv:groundedBy`** pointer (C.13, B.3.5).
 
 **Design versus run (no chimeras).** Assurance tuples for **design-time** and **run-time** are reported **separately** and are not composed into a single score; see the *Scope drift* hazard in B.3:2 and the obligations in B.3:4.6.
 
@@ -228,7 +227,7 @@ If those fields are missing, the encountered publication face, rendering, or cue
 Constructive assurance moves:
 
 - narrow `G` to the evidenced or rule-bounded scope;
-- raise `F` by formalizing argument structure or method structure;
+- raise `F` by formalizing argument structure, method-description fields, or `MethodRelationStructure@BoundedContext` when method composition, fallback, selection, or method-family relation is current;
 - raise `R` by adding validation, replication, more probative, repeated, current, or more relevant evidence;
 - improve `CL` by repairing mappings, units, interfaces, or integration edges;
 - separate design assurance from run assurance;
@@ -256,7 +255,7 @@ Use this B.3 section when the B.3 material-reliance threshold is met: reliance o
 
 `RelianceSafetyCase` is the local Tech label for this B.3 assurance-record form. The plain phrase is **minimum reliance safety assurance record**. The label is not a new FPF pattern, Core kind, safety authority, gate, policy source, approval, certificate, compliance method, or general safety-case ontology.
 
-Assurance-record role: the trigger and non-trigger table is a B.3 recognition aid, the minimum assurance-record table is a minimum local record aid, and the worked reliance-threshold slices are examples for users of the pattern. They are not a universal project checklist, sign-off sequence, untyped status vocabulary, or replacement for `Assurance(H, C | K, S)`; use them only when the named material reliance trigger is met. This local section keeps the attempted reliance inside the B.3 assurance relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
+Assurance-record use: the trigger and non-trigger table is a B.3 recognition aid, the minimum assurance-record table is a minimum local record aid, and the worked reliance-threshold slices are examples for users of the pattern. They are not a universal project checklist, sign-off sequence, untyped status vocabulary, or replacement for `Assurance(H, C | K, S)`; use them only when the named material reliance trigger is met. This local section keeps the attempted reliance inside the B.3 assurance relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
 Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or selected governing pattern.
 
@@ -269,7 +268,7 @@ Trigger and non-trigger cases:
 | Encountered source use | B.3 disposition | Minimum response |
 | --- | --- | --- |
 | Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no met B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, source record or publication face, evidence path, window, bounded evidence use, unsupported attempted use, and reopen trigger. |
-| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another source relation that evidences the operative claim. |
+| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another source relation that carries, supports, or exposes the source basis for the operative claim. |
 | Local conformance label, `CV.Status`, benchmark result, or score near a release conversation but not used to raise assurance | No B.3 assurance use. | Keep `CV.Status` in `A.20`, gate-decision publication in `A.21`, pattern-quality result in `E.19`, measurement or marker relation in `C.16` or `A.10`, and no assurance tuple unless an assurance claim is being made. |
 | Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration condition, stop condition, bounded evidence use, and unsupported attempted use; use `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the move. |
 | Safety-looking note, compliance-looking label, public warning, dashboard value, generated operational explanation, or status-value display is intended or reasonably foreseeable to meet the B.3 material-reliance threshold: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence path and any relevant `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation and retargeting dependency. |
@@ -355,9 +354,9 @@ Any Γ‑flavour that claims an **Assurance** result **must** adopt the followin
    * `Φ` is **monotone decreasing** and **bounded** (never makes negative values).
    * *Monotone:* increasing any `R_i` or any `CL` cannot lower `R_eff`.
 
-4. **SCR and Notes:**
-   * The aggregate produces an SCR listing all contributing nodes and edges, with their F, G, R, CL, scopes, and evidence links (A.10).
-   * The SCR also displays the **EntityOfConcernRef** (`entityOfConcernRef and groundingHolonRef`) and the **ReferencePlane** for the claim, and presents a separable TA, VA, and LA table of evidence contributions with valid-until or decay marks and the **Epistemic-Debt** per § B.3.4.
+4. **Evidence-source notes:**
+   * The aggregate produces an assurance source-currentness record listing all contributing nodes and edges, with their F, G, R, CL, scopes, and evidence links (A.10).
+   * The record also displays the **EntityOfConcernRef** (`entityOfConcernRef and groundingHolonRef`) and the **ReferencePlane** for the claim, and presents a separable TA, VA, and LA table of evidence contributions with valid-until or decay marks and the **Epistemic-Debt** per § B.3.4.
    * If order or time mattered for the claim, attach the OrderSpec or TimeWindow identifiers (B.1.4).
 
 This skeleton is **mandatory**. Domain‑specific patterns may add **refinements** (e.g., separate epistemic “replicability” vs. “calibration”) as long as they **do not violate** WLNK or MONO and preserve scale kinds.
@@ -395,7 +394,7 @@ B.3 remains neutral about *how* improvement happens, but for didactic clarity:
 * **Raise R:** replicate, calibrate, tighten measurement error, reduce bias.
 * **Raise CL:** reconcile vocabularies, align units, formalize mappings, verify interface Standards.
 
-Each of these corresponds to recognizable **Transformer roles** and KD‑CAL moves (design‑time); their **run‑time** counterparts are covered by Γ\_time (phase evidence) and Γ\_work (cost of obtaining assurance).
+Each of these corresponds to recognizable `U.RoleAssignment` values, `U.Method` or `U.MethodDescription` changes, evidence-producing `U.Work`, and improvement moves. Their run-time counterparts are covered by temporal evidence and work-cost evidence under the governing temporal and work patterns.
 
 #### B.3:4.8 - Prohibition (normative) — F–G–R is not a CharacteristicSpace
 
@@ -444,8 +443,8 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 * **ASS‑CL (Congruence path).**
   Identify the **relevant integration path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
 
-* **ASS‑MAN (SCR).**
-  Produce a **SCR** listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time affect the claim, include the **OrderSpec** or **TimeWindow** identifiers from **B.1.4**.
+* **ASS‑MAN (evidence-source record).**
+  Produce an assurance source-currentness record listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time affect the claim, include the **OrderSpec** or **TimeWindow** identifiers from the governing temporal or order pattern.
 
 * **ASS‑MONO (Declared monotone characteristics).**
   List the characteristics along which local improvement cannot reduce the aggregate (this is used by future evolution, B.4).
@@ -499,7 +498,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   * `R_eff = max(0, R_raw − Φ(CL_min=CL1))`.
   * `G_eff`: union of evidence-covered (L,T) rectangles, dropping regions lacking validated thermal data.
   * `F_eff = min(F_cell=F1, F_module=F2) = F1`.
-* **SCR:** Evidence for calibration, test campaigns, BIC.
+* **Evidence/source record:** Evidence for calibration, test campaigns, BIC.
 * **Improvement move:** raise `CL` (better thermal interface verification), raise `F` (formal thermal model), add evidenced envelope -> **R_eff** and **G_eff** increase monotonically.
 
 #### B.3:6.2 - Episteme archetype — **Meta-analysis claim**
@@ -518,20 +517,20 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   * `F_eff = F2` from the weakest study-design evidence relation in the synthesis.
   * `R_eff = max(0, min(R_RCT1, R_RCT2, R_OBS) - Φ(CL_min=CL1))`.
   * `G_eff`: union of evidence-covered sub-populations; out-of-scope groups excluded.
-  * `CL_min = CL1` for scale mappings; record the mapping witness and weakest-link study in the SCR.
-* **SCR:** Data provenance, scale mappings, bias assessment, and proof-term hash for the effect-model equivalence when it is used constructively.
+  * `CL_min = CL1` for scale mappings; record the mapping witness and weakest-link study in the assurance source-currentness record.
+* **Evidence/source record:** Data provenance, scale mappings, bias assessment, and proof-term hash for the effect-model equivalence when it is used constructively.
 * **Improvement move:** upgrade mapping verification to CL2 or CL3; increase `F` via registered analysis plan; replicate lagging study.
 
-#### B.3:6.3 - Order and process-sequence archetype - **Manufacturing process-sequence assurance**
+#### B.3:6.3 - Order-sensitive manufacturing-sequence assurance
 
-* **Claim `C`:** *ProcessSequence R meets output defect rate ≤ ε.*
+* **Claim `C`:** *The domain manufacturing sequence `R`, mapped to an order-sensitive Method/Work sequence with an `OrderSpec`, meets output defect rate <= epsilon.*
 * **Context `K`:** Materials, equipment class; `S = run`.
-* **Γ\_ctx records:** `σ` order; declared independent branches; join conditions at inspection.
+* **Γ_ctx records:** `OrderSpec σ` for the method/work sequence; declared independent branches; join conditions at inspection.
 * **Assurance:**
 
-  * `R_raw = min R_step` along the **critical path** (includes inspection effectiveness).
+  * `R_raw = min R_step` along the declared order-sensitive dependency path (including inspection effectiveness).
   * Penalty from poor join soundness `CL_min`.
-  * Improvement via faster but **verified** inspection (↑R\_step) or tighter join spec (↑CL).
+  * Improvement via faster but **verified** inspection (increase `R_step`) or tighter join spec (increase `CL`).
 
 #### B.3:6.4 - Temporal archetype — **Versioned model credibility**
 
@@ -553,7 +552,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 | **CC-B3.3** | Congruence Level (`CL`) is assigned to edges; the penalty `Φ(CL)` is monotone decreasing and bounded (`R_eff ≥ 0`). | Make integration quality first-class. |
 | **CC-B3.4** | `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
 | **CC-B3.5** | For `G`, essential dependency paths compose by intersection; `SpanUnion` applies only across explicitly independent evidence lines to the same claim and only over evidenced slices. | Prevent over-generalization. |
-| **CC-B3.6** | An Assurance SCR lists node and edge values, Evidence Graph Ref, and any OrderSpec or TimeWindow identifiers; it also displays the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared ReferencePlane value of world, concept, or episteme, a separable TA, VA, and LA evidence breakdown per **CC-KD-08**, decay or valid-until indicators on empirical bindings, and the Epistemic-Debt tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
+| **CC-B3.6** | An assurance source-currentness record lists node and edge values, Evidence Graph Ref, and any OrderSpec or TimeWindow identifiers; it also displays the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared ReferencePlane value of world, concept, or episteme, a separable TA, VA, and LA evidence breakdown per **CC-KD-08**, decay or valid-until indicators on empirical bindings, and the Epistemic-Debt tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
 | **CC-B3.7** | Agency-CHR values (A.13) do not override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a Meta-Holon Transition. | Preserve safety; keep agency separate. |
 | **CC-B3.8** | Design-time assurance and run-time assurance are kept in separate tuples and compared side by side when both matter. | Avoid design-time and run-time mixing. |
 | **CC-B3.9** | If an assurance claim depends on a `C.28` causal-use verdict, it consumes `CausalUseSupportVerdict`, `CausalEvidenceSupportBasis`, and relevant profile refs from `C.28` or `A.10`; a causal-use claim whose C.28 verdict is unsupported degrades, blocks, or abstains rather than raising `R`. | Prevent assurance prose from certifying unsupported causal claims. |
@@ -604,8 +603,8 @@ This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with
 
 ### B.3:11 - Relations
 
-* **Builds on:** B.1 (Universal Γ), B.1.1 (Proof Kit), B.1.2 (Γ_sys and BIC), B.1.3 (Γ_epist and SCR), B.1.4 (Γ_ctx and Γ_time), A.12 (Transformer), A.14 (Mereology), A.7 (EntityOfConcern and Description strict distinction) and A.15 (role, method, and work alignment), **C.13 (Compose-CAL)**.
-* **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation aliasing and grounding (`tv:*`, `validationMode`).
+* **Builds on:** B.1 where its current composition invariants are named by value, B.1.1 (Proof Kit), current system-composition, context, temporal, and work patterns when those operators are active, A.14 (Mereology), A.7 (EntityOfConcern and Description strict distinction), A.10 (evidence-provenance and carrier/source-currentness relations), A.15 (role, method, work-plan, and work alignment), A.2 and A.2.1 (role values and role assignments), A.3.4 (Transformation when actual change is current), and **C.13 (Compose-CAL)**.
+* **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation label-meaning and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for `CausalUseSupportVerdict`, `CausalityLadderRung`, `CausalEvidenceSupportBasis`, identification profile refs, realizability profile refs, supported causal use, and unsupported causal use; `A.10` for the evidence graph path carrying causal-evidence refs.
 * **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers stay with the source relation that governs them when assurance is not being claimed.
 * **Used by:** KD-CAL improvement patterns (to plan improvements), B.4 (Evolution loops that raise `F`, `G`, `R`, or `CL` over time).

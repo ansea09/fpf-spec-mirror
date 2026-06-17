@@ -6,16 +6,19 @@ section_id: "A.6:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:6 — Bias‑Annotation"
-line_start: 8323
-line_end: 8330
+line_start: 8184
+line_end: 8191
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.1"
   - "A.6.3"
   - "A.6.B"
+  - "A.6.C"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -48,7 +52,10 @@ dependencies:
 keywords:
   - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
+  - "MUST"
   - "Rewrite as declarative predicate"
+  - "SHOULD"
+  - "and MAY)"
   - "authority-wording split"
   - "boundary"
   - "boundary claim-classification fields"
@@ -64,9 +71,9 @@ keywords:
 
 ### A.6:6 - Bias‑Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
+Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
 
 * **Arch bias:** Biases toward separation of concerns and explicit layering; mitigated by allowing multiple faces (views) so audiences are not forced into the same amount of detail.
-* **Onto/Epist bias:** Treats signatures/mechanisms as epistemes that must not be conflated with work; mitigated by explicit evidence carriers and evidence records.
+* **Ontological and Epistemic bias:** Treats signatures and mechanisms as epistemes that must not be conflated with work; mitigated by explicit evidence carriers and evidence records.
 * **Gov bias:** Prefers auditable responsibility (viewpoint accountability and commitment unpacking); mitigated by keeping the stack conceptual and tool‑agnostic.
 

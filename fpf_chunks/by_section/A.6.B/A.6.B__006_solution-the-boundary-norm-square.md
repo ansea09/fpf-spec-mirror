@@ -6,14 +6,17 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 8941
-line_end: 8978
+line_start: 8802
+line_end: 8839
 dependencies:
   - "A.10"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -28,25 +31,31 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "F.18"
+  - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
+  - "U.SpeechAct"
 keywords:
-  - "(MUST/SHALL/SHOULD/MAY) as operators inside the law/definition itself"
-  - "(ii) claim that evidence/carriers exist (that is E-)"
+  - "(MUST"
+  - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "(“MUST/SHALL/…”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
   - "Keeps modalities separated and audit‑ready"
   - "L/A/D/E claim classification"
   - "MAY"
+  - "MUST"
   - "MUST NOT"
   - "MUST NOT hide a gate predicate (that is A-)"
+  - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
   - "admissible use"
+  - "and MAY"
   - "and MUST NOT cite D-*"
+  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -55,14 +64,20 @@ keywords:
   - "boundary norm square"
   - "claim IDs"
   - "laws vs gates vs commitments vs evidence"
+  - "may"
   - "non-admissible use"
   - "not a duty.)"
   - "not normative"
-  - "or (iii) assert evidence existence/measurement outcomes (those are E-*)"
-  - "or (iii) assign responsibility/enforcement (that is D-*)"
-  - "they describe adjudicable effects/evidence)"
+  - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
+  - "or (iii) assign responsibility or enforcement (that is D-*)"
+  - "or MAY) as operators inside the law or definition itself"
+  - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
-  - "“the interface/system promises” does not)"
+  - "“commits to”)"
+  - "“is admissible”"
+  - "“is blocked”"
+  - "“the interface or system promises” does not)"
+  - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:4 - Solution — the Boundary Norm Square
@@ -80,15 +95,15 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 
 |                                | **Truth‑conditional** (definitions & invariants) | **Governance** (governance conditions & obligations) |
 | ------------------------------ | ------------------------------------------------ | ------------------------------------------ |
-| **In‑description / in‑theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
+| **In-description or in-theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
 | **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
 
 **Clarification (do not conflate).** The Governance column includes two different “normative” roles:
-* **D** is **`U.Agent` or `U.Role` governance** (duties, commitments, prohibitions).
+* **D** is **role-assignment, `U.Role`, or admitted acting-system governance** (duties, commitments, prohibitions).
 * **A** is **mechanism governance** (admissibility predicates: what the mechanism admits at application time).
 `A-*` is not an obligation on an actor; obligations belong in `D-*` and may reference `A-*`.
 
-**Normative rule (single quadrant).** Each **atomic** claim **MUST** be routable to exactly one quadrant **L/A/D/E**.
+**Normative rule (single quadrant).** Each **atomic** claim **MUST** be classifiable under exactly one quadrant **L/A/D/E**.
 
 **Normative rule (no mixed sentences).** A conforming boundary text **SHALL** decompose any sentence that bundles multiple quadrants (typical form: “MUST … if … then … and it is logged …”) into multiple atomic claims before those claims are treated as normative.
 
@@ -98,8 +113,8 @@ The quadrants have canonical placements in the boundary stack:
 
 * **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
 * **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime admissibility predicates).
-* **D → Norms & commitments layer:** role‑anchored duties, commitments, publication/accountability duties (often rendered inside MVPK `TechCard`).
-* **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence/Carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
+* **D → Norms & commitments layer:** role-bound duties, commitments, publication and accountability duties (often rendered inside MVPK `TechCard`).
+* **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence-and-carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
 
 A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.
 

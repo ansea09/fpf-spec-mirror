@@ -6,22 +6,27 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__010_anti-patterns-with-fixes.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 19226
-line_end: 19260
+line_start: 18858
+line_end: 18892
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.13"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
+  - "A.2.1"
   - "A.21"
   - "A.3"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "E.10"
   - "E.17"
   - "E.18"
@@ -40,7 +45,7 @@ keywords:
    **Fix:** Name the **role**, **Method**, and **Work** explicitly.
 
 2. **Episteme‑as‑system** — “the model routed traffic”.
-   **Fix:** Name the **system** (or Transformer as a system bearing AgentialRole) that used the model; list **carriers** touched.
+   **Fix:** Name the **system or acting holon**, its `U.RoleAssignment` when a work-facing role is current, the Work that used the model, and the carriers touched.
 
 3. **Triad everywhere** — omitting **Work** entirely.
    **Fix:** Add the Work lane: timestamps, outcomes, Γ\_time coverage.
@@ -52,7 +57,7 @@ keywords:
    **Fix:** Model a **collective system** with coordination Method.
 
 6. **Evidence without carrier references** — citing ideas without carriers.
-   **Fix:** Add **SCR/RSCR** ids; tie claims to carriers.
+   **Fix:** Add A.10 carrier/source-currentness refs and tie claims to evidence or source relations.
 
 7. **Holon/system drift** — “holon maintains temperature”.
    **Fix:** Say **system**; reserve “holon” for neutral mereology.

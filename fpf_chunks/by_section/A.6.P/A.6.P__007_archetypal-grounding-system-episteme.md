@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__007_archetypal-grounding-system-episteme.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:5 — Archetypal Grounding (System / Episteme)"
-line_start: 13624
-line_end: 13712
+line_start: 13490
+line_end: 13578
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -56,7 +56,7 @@ keywords:
 
 ### A.6.P:5 — Archetypal Grounding (System / Episteme)
 
-A.6.P requires Tell–Show–Show grounding in both System and Episteme lanes.
+A.6.P requires Tell-Show-Show grounding in both System and Episteme cases.
 
 #### A.6.P:5.1 — System archetype: “same system across environments”
 
@@ -65,17 +65,17 @@ An operations note says: “Staging is the same service as Production.” Months
 
 **Show.**
 Treat “same” as a red-flag umbrella token. Rewrite into an explicit cross-Context relation kind,
-typed to the facet the draft actually uses (service delivery system sameness for actuals/evidence aggregation; not about promise contents).
+typed to the facet the draft actually uses (service delivery system sameness for actuals and evidence aggregation; not about promise contents).
 
 **Show (candidate‑set note; endpoint facet restoration).**
 
 ```
-CandidateSetNote(triggerSpan="service" in "same service", role=endpointFacet(p₁)):
+CandidateSetNote(triggerSpan="service" in "same service", position=endpointFacet(p₁)):
 - candidates: {promiseContent, serviceAccessPoint, serviceProviderPrincipal, serviceDeliverySystem}
 - selected:   serviceDeliverySystem
-- why:        the claim is later used to justify mixing operational actuals/evidence (metrics + incident logs);
-  local cues point to delivery records/carriers (manifests/config/test runs), not clause carriers
-- consequence: endpoints typecheck as `DeliverySystemRef` participants; clause/provider facets are explicitly out-of-scope
+- why:        the claim is later used to justify mixing operational actuals and evidence (metrics + incident logs);
+  local cues point to delivery records or carriers (manifests, config, and test runs), not clause carriers
+- consequence: endpoints typecheck as `DeliverySystemRef` participants; clause or provider facets are explicitly out-of-scope
 
 sameDeliverySystemUnder(
   leftDeliverySystemRef  = SystemRef(staging_delivery_system),
@@ -96,7 +96,7 @@ aggregationAdmissibleIff(
 
 **Show.**
 Now the relation is auditable: aggregation is admissible only if the relation kind’s admissibility
-claims say it preserves the needed characteristics under the declared scope/time, and if witnesses exist.
+claims say it preserves the needed characteristics under the declared scope and time, and if witnesses exist.
 Cross-Context reuse is explicit and cannot piggyback on label identity.
 
 #### A.6.P:5.2 — Episteme archetype: “the models are synced”
@@ -121,7 +121,7 @@ entityMatchedBy(
 ```
 
 **Show (change narration).**
-Two weeks later, the mapping publication is replaced and the witness set is refreshed. In decision/publication lanes, represent this as a new edition and narrate the change via change classes (not via “re‑synced”):
+Two weeks later, the mapping publication is replaced and the witness set is refreshed. In decision or publication use, represent this as a new edition and narrate the change via change classes (not via “re‑synced”):
 
 ```
 withdrawRelation( relationRef = RelationRef(entityMatchedBy, leftRef, rightRef, ed=12) )

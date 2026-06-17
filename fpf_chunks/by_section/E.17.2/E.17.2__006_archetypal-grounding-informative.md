@@ -1,19 +1,22 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.2"
-pattern_title: "TEVB — Typical Engineering Viewpoints Bundle"
+pattern_title: "TEVB - Typical Engineering Viewpoints Bundle"
 section_id: "E.17.2:5"
 section_title: "Archetypal grounding  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_archetypal-grounding-informative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
+  - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:5 — Archetypal grounding  (informative)"
-line_start: 64981
-line_end: 65011
+line_start: 64636
+line_end: 64666
 dependencies:
   - "A.1"
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2-A.6.4"
   - "A.7"
   - "C.2.1"
@@ -37,14 +40,14 @@ TEVB.EngBundle :
   U.ViewpointBundle {
     viewFamilyId   = VF.TEVB.ENG
     EntityOfConcernClassSpec   = { h : U.Holon | HolonKind(h) ∈ {System, Episteme} }
-    viewpoints     = { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
+    viewpoints     = { VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface }
     LibraryRef     = FPF.Core.Viewpoints
   }
 ```
 
 Each `VP.*` viewpoint is a `U.Viewpoint` as in E.17.0, with:
 
-* `viewpointId ∈ {VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface}`,
+* `viewpointId ∈ {VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`,
 * `EntityOfConcernClassSpec` inherited from `TEVB.EngBundle`,
 * `StakeholderFamilies`, `Concerns`, `AllowedEpistemeKinds`, `ConformanceRules` aligned with the subsections above.
 
@@ -52,9 +55,9 @@ Each `VP.*` viewpoint is a `U.Viewpoint` as in E.17.0, with:
 
 Let `Plant_X : U.System` be a production plant, and `ControlStack_X : U.Episteme` be its control and optimisation stack as a holon.
 
-* Under `VP.Functional`, `Plant_X` is viewed as a bundle of capabilities, functional behaviors, and required transformations: material/energy/product flows, optimisation functions, safety envelopes.
-* Under `VP.Procedural`, `Plant_X` is viewed as sets of procedures and control sequences: startup/shutdown, normal operation, emergency handling.
-* Under `VP.RoleEnactor`, `Plant_X` is viewed as networks of role‑enactors: human operators, controllers, subsystems enacting roles in SOPs and safety cases.
+* Under `VP.Functional`, `Plant_X` is viewed as a bundle of capabilities, functional behaviors, and required transformations: material, energy, and product flows, optimisation functions, safety envelopes.
+* Under `VP.Procedural`, `Plant_X` is viewed as sets of procedures and control sequences: startup and shutdown, normal operation, emergency handling.
+* Under `VP.AllocationResponsibility`, `Plant_X` is viewed as role-assignment and responsibility structures: human operators, controllers, and subsystems assigned work-facing roles in SOPs and safety cases.
 * Under `VP.ModuleInterface`, `Plant_X` is viewed as modules and interfaces: equipment units, pipelines, control modules, buses, and their interfaces and specifications.
 
 Each of these is a **family of Description epistemes and specification-use cases** with `DescriptionContext = ⟨EntityOfConcernRef(Plant_X or ControlStack_X), BoundedContextRef, ViewpointRef=VP.*⟩` and TEVB ensures that `E.18` and MVPK can rely on this common structure.

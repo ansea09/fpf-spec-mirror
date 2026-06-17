@@ -1,20 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.5"
-pattern_title: "U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
+pattern_title: "U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
 section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
+  - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 15424
-line_end: 15458
+line_start: 15534
+line_end: 15547
 dependencies:
   - "A.1"
-  - "A.19"
   - "A.6.0"
   - "A.6.2"
   - "A.6.4"
@@ -23,7 +22,6 @@ dependencies:
   - "C.2.1"
   - "C.3"
   - "E.10"
-  - "E.17"
   - "E.17.0"
   - "E.8"
   - "U.EpistemeSlotRelation"
@@ -42,36 +40,15 @@ keywords:
 
 ### A.6.5:1 - Problem frame
 
-FPF relies heavily on **n‑ary relations and morphisms**:
+FPF relies on n-ary relations and operators throughout the corpus: episteme slot relations, role assignments, method and method-description signatures, evidence-use relations, status-use relations, service-access descriptions, interface specifications, architecture structures, view relations, transformation-flow structures, and formal-substrate declarations.
 
-* episteme component layouts (`U.EpistemeKind` in C.2.1),
-* role enactment and assignment,
-* method/service signatures,
-* guards and bridges in Part B/C,
-* publication and view operators in Part E, and any other `U.Signature` whose **Vocabulary** row declares n‑ary relations or operators across Part A/B/C/E.
+The same local phrase can hide three different things:
 
-In practice, existing episteme and drafts **frequently conflate**:
+1. a named position in one relation-bearing structure;
+2. the kind of value admitted at that position;
+3. the reference or embedded value placed in one filled relation instance.
 
-1. the **place/position** in a signatured structure (relation/operator/record/port bundle; e.g. “the 2nd argument, named Subject”),
-2. the **kind of value** that may fill that position (`U.Entity`, `U.Holon`, …), and
-3. the **reference/identifier** we actually store there (`…Id`, `…Ref`).
+For example, `EntityOfConcernSlot`, `U.Entity`, and `entityOfConcernRef` are not three spellings for one thing. The first names a slot position. The second names a filler kind. The third is a filled reference field in an instance. When these layers are blurred, substitutions, retargetings, interface claims, role assignments, evidence-use relations, and episteme morphisms become hard to review.
 
-This produces subtle bugs (elaborated in A.6.5:2):
-
-* misuse of “Subject/Object” as SlotKind‑like names for very different ValueKinds (explicitly banned for episteme Tech names by E.10),
-* the `…Ref` suffix attached to both conceptual values and reference fields, erasing ValueKind vs RefKind,
-* mixed reasoning about “role”, “slot”, and “filler” as if they were the same layer,
-* fragile substitution questions (“can I plug this module here?”) that depend on informal judgement rather than SlotSpec laws.
-
-A second, subtler conflation appears in prose: authors mix **binding / initialization / assignment / substitution / retargeting / mutation / passing** as if they were synonyms for “put something in a slot”. This blurs the intended discipline precisely in the places where FPF must be crisp (signatures, morphisms, bridges, and viewing operators).
-
-`U.RelationSlotDiscipline` pins a **single, reusable discipline** over `U.Signature` so that **every position in an n‑ary signature** is described with:
-
-* a **SlotKind** — *where* in the signature,
-* a **ValueKind** — *what sort of thing* may fill that place, and
-* a **RefKind** — *how we point at it* in episteme (identifier / handle), if at all,
-
-**and** it standardises the **lexicon for operations over slots** so that extension texts can describe “early vs late binding”, “retargeting”, and “by‑value edits” without collapsing layers.
-
-This pattern makes slot discipline explicit and shareable across **epistemes, roles, methods, services, bridges, guards, and all other `U.Signature`d calculi**: any “parameter list”, “port list”, “field set”, or “coordinate tuple” for an n‑ary signature in FPF **is** a set of SlotSpecs governed by this discipline.
+The governing distinction is important: `A.6.5` supplies relation-slot discipline. It does not decide what a relation is in general, and it does not replace `U.Signature`. Relation identity remains with the pattern that governs the relation. Signature identity remains with `A.6.0`. `A.6.5` gives both of them a disciplined way to talk about positions and fillers.
 

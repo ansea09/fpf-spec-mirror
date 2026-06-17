@@ -6,12 +6,12 @@ section_id: "C.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:3 — Forces"
-line_start: 35178
-line_end: 35188
+line_start: 34729
+line_end: 34739
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.1.3"
   - "C.2"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
   - "E.17.0-E.17.2"

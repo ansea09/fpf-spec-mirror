@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:0 — Use This When"
-line_start: 1606
-line_end: 1630
+line_start: 1607
+line_end: 1631
 dependencies:
   - "A.1"
   - "A.15"
@@ -41,7 +41,7 @@ Typical moments:
 - two contexts need a bridge relation rather than an assumed global equivalence;
 - a "domain" label is too broad to decide local vocabulary or rules.
 
-**First useful move.** Name the `U.BoundedContext` that governs the current meaning, then state the local vocabulary, local invariants, role taxonomy, and bridge relations that matter for the claim.
+**First useful move.** Name the `U.BoundedContext` that governs the current meaning, then state the local vocabulary, local invariants, role taxonomy when role assignments are current, episteme-use/status relations when epistemic-use or status claims are current, and bridge relations that matter for the claim.
 
 **What goes wrong if missed.** "Owner", "ticket", "service", "evidence", "role", "done", and "valid" become global labels. Integration work then appears to be about matching words, while the real problem is unspoken semantic frames.
 

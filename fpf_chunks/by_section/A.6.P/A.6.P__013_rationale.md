@@ -6,12 +6,12 @@ section_id: "A.6.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_rationale.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:10 — Rationale"
-line_start: 13870
-line_end: 13878
+line_start: 13736
+line_end: 13744
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -56,10 +56,10 @@ keywords:
 
 ### A.6.P:10 — Rationale
 
-Upper/foundational ontologies optimise for broad applicability via sparse commitments. FPF’s recurring, high-cost failures are often elsewhere: **under‑specified relations** in prose, where ambiguity hides in arity, kind selection, viewpoint, and change semantics.
+Upper and foundational ontologies optimise for broad applicability via sparse commitments. FPF’s recurring, high-cost failures are often elsewhere: **under‑specified relations** in prose, where ambiguity hides in arity, kind selection, viewpoint, and change semantics.
 
 A.6.P is orthogonal to “add a global taxonomy”:
 
 * It provides a repeatable method to **restore relational precision** without requiring any external formalism or auxiliary authoring apparatus.
-* It operationalises A.6’s boundary discipline by ensuring relation talk can be cleanly separated into signature invariants, admissibility, deontics, and evidence/work (A.6.B), rather than becoming one undifferentiated boundary claim.
+* It operationalises A.6’s boundary discipline by ensuring relation talk can be cleanly separated into signature invariants, admissibility, deontics, and evidence and work (A.6.B), rather than becoming one undifferentiated boundary claim.
 

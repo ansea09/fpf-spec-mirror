@@ -1,31 +1,34 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "Role Assignment & Enactment Cycle (Six-Step)"
+pattern_title: "RoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.6 — Role Assignment & Enactment Cycle (Six-Step)"
+  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:intro — Intro"
-line_start: 73792
-line_end: 73799
+line_start: 73451
+line_end: 73456
 dependencies:
   - "A.15"
+  - "A.15.1"
+  - "A.2"
   - "A.2.1"
-  - "D.CTX"
-  - "E.10.D1"
-  - "F.1"
-  - "F.10"
-  - "F.2"
-  - "F.3"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "E.10"
+  - "E.10.ARCH"
+  - "F.18"
   - "F.4"
   - "F.5"
-  - "F.7"
-  - "F.8"
   - "F.9"
+  - "U.Role"
   - "U.RoleAssignment"
 keywords:
   - "asserting status"
@@ -34,11 +37,9 @@ keywords:
   - "role assignment"
 ---
 
-## F.6 - Role Assignment & Enactment Cycle (Six-Step)
+## F.6 - RoleAssignment and Performed-Work Attribution Check
 
-**“Assign only what you can later justify by local meaning and observable facts.”**
-**Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description**; F.5 **Naming Discipline**.
-**Coordinates with.** F.7 **Concept‑Set Table**; F.8 **Mint or Reuse?**; F.9 **Alignment & Bridge**; F.10 **Epistemic Status Mapping**; A.2.1 **U.RoleAssignment**; A.15.\* **Role–Method–Work alignment**; KD‑CAL (observations, results).
-**Aliases (informative).** *Assign-and-verify mental loop*; *six-step role cycle*.
+> **Type:** Boundary and use pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__007_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:6 — Bias-Annotation"
-line_start: 14514
-line_end: 14528
+line_start: 14619
+line_end: 14633
 dependencies:
   - "A.15"
   - "A.16"
@@ -48,7 +48,7 @@ keywords:
 Lenses tested: **Gov**, **Arch**, **Ontology and episteme**, **Prag**, **Did**. Scope: **Universal** for overloaded affordance-like and action-first language in FPF-governed wording.
 
 * **Gov bias:** this pattern may tempt authors to smuggle decisions into invitation language.
-  *Mitigation:* explicit A.6.B routing and obligation barrier.
+  *Mitigation:* explicit A.6.B claim classification and obligation barrier.
 * **Arch bias:** this pattern prefers one stable relation family over loose action talk.
   *Mitigation:* allow Plain exploratory prose before Tech prose or normative publication.
 * **Ontology and episteme bias:** this pattern insists on separating invitation from evaluation, capability, commitment, and work.

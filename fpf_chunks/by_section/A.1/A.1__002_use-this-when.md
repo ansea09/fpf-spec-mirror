@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.1 — U.Holon, U.System, and U.Episteme"
   - "A.1:0 — Use This When"
-line_start: 1325
-line_end: 1350
+line_start: 1326
+line_end: 1351
 dependencies:
   - "A.1.1"
   - "A.15"

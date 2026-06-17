@@ -1,20 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.5"
-pattern_title: "U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
+pattern_title: "U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
 section_id: "A.6.5:6"
-section_title: "Bias‑Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__007_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
-  - "A.6.5:6 — Bias‑Annotation"
-line_start: 15981
-line_end: 16001
+  - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
+  - "A.6.5:6 — Bias-Annotation"
+line_start: 15718
+line_end: 15725
 dependencies:
   - "A.1"
-  - "A.19"
   - "A.6.0"
   - "A.6.2"
   - "A.6.4"
@@ -23,7 +22,6 @@ dependencies:
   - "C.2.1"
   - "C.3"
   - "E.10"
-  - "E.17"
   - "E.17.0"
   - "E.8"
   - "U.EpistemeSlotRelation"
@@ -40,24 +38,11 @@ keywords:
   - "value"
 ---
 
-### A.6.5:6 - Bias‑Annotation
+### A.6.5:6 - Bias-Annotation
 
-**Lenses tested and scope.** This pattern was read through all five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`) and is intended as a **universal** discipline for n‑ary relation and morphism signatures across Parts A/B/C/E. It leans toward the `Arch` and `Onto/Epist` lenses (typed signatures, explicit kinds), but mitigates this by (a) keeping the discipline notation‑agnostic, (b) aligning with existing tooling rather than prescribing any, and (c) grounding the rules in System/Episteme examples with clear didactic intent. No domain‑specific scope limitation is claimed.
+This pattern has a typed-structure bias: it prefers explicit positions and filler kinds over conversational shorthand. That bias is intentional because relation-bearing FPF prose must remain reusable across epistemes, signatures, roles, interfaces, methods, evidence, status, and architecture.
 
-* **Typed‑language bias.**
+This pattern also has an episteme-example bias because `C.2.1` is the mature precedent for slot relation discipline. The Solution generalizes beyond epistemes and explicitly includes work-facing role assignments, evidence-use relations, status-use relations, interfaces, ports, and transformation-flow structures.
 
-  * The pattern leans on intuitions from typed programming languages (parameter types, records, references). This is intentional: it aligns FPF signatures with mainstream tooling and with post‑2015 typed effect/row systems. The pattern remains **notation‑agnostic** and does not commit to any specific PL or logic.
-
-* **Slot‑first bias.**
-
-  * We treat *slot* as the primary abstraction and discourage role‑style or object‑style naming for argument positions. This favours structural clarity over conversational metaphors (“subject/object/role”) and keeps `U.Role` free for RoleEnactment rather than param‑slots.
-
-* **By‑value/by‑ref honesty.**
-  We explicitly separate ValueKind and RefKind instead of hiding “by‑reference” behind the type system. This increases verbosity but makes reasoning about edition pinning, caching, and re‑targeting more robust, and keeps EntityOfConcern / Description / specification-use distinctions visible inside signatures.
-
-* **Lexicon bias (precision over metaphor).**
-  We standardise the slot‑operation lexicon (bind/fill/initialize/assign/retarget/resolve/mutate) and discourage metaphors that smuggle role semantics back into SlotKinds. This increases didactic load, but directly reduces cross‑pattern ambiguity, especially in “binding time” discussions.
-
-* **Episteme‑first entityOfConcern.**
-  The examples and cross‑references prioritise episteme use‑cases (C.2.1, A.6.2–A.6.4) where entityOfConcern and retargeting are subtle. System‑only usages (e.g. method signatures) are absolutely allowed but not the driving case; they inherit the same discipline without additional obligations.
+The anti-bias guard is that `A.6.5` never makes description or publication the center unless the current EntityOfConcern is itself a description or publication relation. It starts from the relation-bearing EntityOfConcern and only then describes how its slots may be specified or published.
 

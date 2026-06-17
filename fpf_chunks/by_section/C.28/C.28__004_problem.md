@@ -6,12 +6,12 @@ section_id: "C.28:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__004_problem.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:2 — Problem"
-line_start: 51244
-line_end: 51255
+line_start: 50799
+line_end: 50810
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ Causal language is easy to overclaim because ordinary prose hides the difference
 
 Three collapses are especially dangerous:
 
-1. **Rung collapse.** Observational association, interventional action/effect, and counterfactual comparison are treated as one causality-ladder rung.
+1. **Rung collapse.** Observational association, interventional action or effect, and counterfactual comparison are treated as one causality-ladder rung.
 2. **Support collapse.** Observed data, experimental data, direct counterfactual-rung samples, identified estimates, and simulations are treated as one evidence basis.
 3. **Use collapse.** A result that supports one use, such as association reporting, is reused for another use, such as causal fairness, policy optimality, or method superiority.
 

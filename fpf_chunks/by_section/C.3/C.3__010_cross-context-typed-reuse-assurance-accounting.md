@@ -6,12 +6,12 @@ section_id: "C.3:8"
 section_title: "Cross‑context typed reuse & assurance accounting"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__010_cross-context-typed-reuse-assurance-accounting.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:8 — Cross‑context typed reuse & assurance accounting"
-line_start: 39182
-line_end: 39219
+line_start: 38735
+line_end: 38772
 dependencies:
   - "A.1"
   - "A.2.6"

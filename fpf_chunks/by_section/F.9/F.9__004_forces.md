@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
+pattern_title: "Alignment and Bridge across Contexts"
 section_id: "F.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
+  - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:3 — Forces"
-line_start: 74689
-line_end: 74697
+line_start: 74531
+line_end: 74540
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -48,10 +52,11 @@ keywords:
 
 ### F.9:3 - Forces
 
-| Force                           | Tension to resolve                                                                       |
-| ------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Locality vs reuse**           | Senses are context-local, yet people need a common label to talk across Contexts.              |
-| **Simplicity vs fidelity**      | Few Bridge kinds are teachable; too few will hide real mismatches.                       |
-| **Safety vs utility**           | Support bounded substitution when the bridge kind and `CL` license it; leave substitution unsupported when loss is unbounded. |
-| **senseFamily purity vs explanation** | Substitution must preserve **senseFamily**; explanation may span **senseFamilies** without implying sameness. |
+| Force | Tension to resolve |
+| --- | --- |
+| Locality versus reuse | Senses are context-local, yet people need common labels and comparison points across contexts. |
+| Simplicity versus fidelity | Few bridge kinds are teachable; too few hide material mismatches. |
+| Admissibility versus usefulness | Cross-context reuse should be possible, but only at the use level the bridge actually admits. |
+| `senseFamily` purity versus explanation | Substitution must preserve `senseFamily`; explanation may cross `senseFamily` boundaries without implying sameness. |
+| Bridge discipline versus direct governing patterns | F.9 can bound cross-context sense alignment, but it must not create role assignments, work records, evidence relations, or status relations by itself. |
 

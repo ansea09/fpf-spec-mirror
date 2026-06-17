@@ -6,12 +6,12 @@ section_id: "A.6.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:1 — Problem frame"
-line_start: 13215
-line_end: 13236
+line_start: 13078
+line_end: 13099
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -61,7 +61,7 @@ FPF repeatedly encounters a predictable precision failure mode:
 Authors describe a situation with an apparently simple relational phrase:
 
 * “X **is the same as** Y”, “X **is linked to** Y”, “X **is synced with** Y”
-* “X **depends on** Y”, “X **is grounded/anchored** in Y”
+* “X **depends on** Y”, “X **is grounded or anchored** in Y”
 * “X **maps to** Y”, “X **aligns with** Y”, “X **is connected to** Y”
 * “X **supports** Y”, “X is **supported by** Y”, “X gives **support for** Y”
 
@@ -70,9 +70,9 @@ Authors describe a situation with an apparently simple relational phrase:
 1. **Hidden multiarity.** The claim requires additional participant positions: scope, time selector, witness carriers, policy, direction or inverse, reference scheme, representation scheme, mediator publication form, or mediator carrier.
 2. **Kind elision.** The umbrella verb stands in for an unstated set of relation kinds (different invariants; different admissibility; different evidence, source, or authority requirements).
 3. **Viewpoint fights.** Different stakeholders describe “the same” relation from incompatible viewpoints, creating polarity flips and silent re‑typing.
-4. **Unnameable change semantics.** Authors say “update/bind/anchor/sync”, but mean distinct semantic change classes (retarget vs revise vs rescope vs retime vs witness refresh).
+4. **Unnameable change semantics.** Authors say “update, bind, anchor, or sync”, but mean distinct semantic change classes (retarget vs revise vs rescope vs retime vs witness refresh).
 5. **Regression via prose.** Even after ontology repairs, umbrella language re‑enters and collapses distinctions unless structural precision is coupled to lexical guardrails.
-6. **Pronominal/metonymic endpoints.** Even when the relation verb is fixed, endpoints may be referred to via pronoun‑like or umbrella tokens (or metonymic pointers), so the relation cannot be typed or audited until endpoint facets/kinds are restored from context.
+6. **Pronominal and metonymic endpoints.** Even when the relation verb is fixed, endpoints may be referred to via pronoun‑like or umbrella tokens (or metonymic pointers), so the relation cannot be typed or audited until endpoint facets and endpoint kinds are restored from context.
 
 A.6.P defines a **repeatable precision restoration recipe** that makes this defect repairable and reusable across additional admitted A.6.x patterns.
 

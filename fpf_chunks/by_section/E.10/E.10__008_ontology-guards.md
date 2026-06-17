@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 61047
-line_end: 61134
+line_start: 60605
+line_end: 60690
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 #### E.10:6.1 - Tech register ontology guards
 
-> **Purpose.** This section stabilises the Tech register of the kernel lexicon by enforcing head‑anchored naming, explicit kind naming, EntityOfConcern and Description-episteme boundary and specification-use morphology, disciplined treatment of **Role and Holder**, and Domain usage consistent with **D.CTX** and **UTS**. It aligns with **F.4 Role Description (RCS and RSG)**, **F.11 Method Quartet Harmonisation**, and **F.17 UTS**. **Scope:** Guidance is **register‑agnostic** and applies to the whole FPF; examples are illustrative and MUST pass Minimal Generality and Domain Anchoring (MG-DA) and other rules of lexical governance pattern E*. This guidance applies to kernel and non‑kernel components (including Part G and patterns in Part C) and SHOULD be reused across extensions.
+> **Purpose.** This section stabilises the Tech register of the kernel lexicon by enforcing head‑anchored naming, explicit kind naming, EntityOfConcern and Description-episteme boundary and specification-use morphology, disciplined treatment of **Role and Holder**, and Domain usage consistent with **D.CTX** and **UTS**. It aligns with **F.4 Role Description**, **A.2.5 role-state relation**, **A.2.7 role relation structure**, **F.11 Method Quartet Harmonisation**, and **F.17 UTS**. **Scope:** Guidance is **register‑agnostic** and applies to the whole FPF; examples are illustrative and MUST pass Minimal Generality and Domain Anchoring (MG-DA) and other rules of lexical governance pattern E*. This guidance applies to kernel and non‑kernel components (including Part G and patterns in Part C) and SHOULD be reused across extensions.
 >
 **Onto1 — Head‑anchoring**  *(use Kernel heads + pass LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification-use gates)*
 * **Rule:** The **head noun of a term MUST explicitly signal the kind** (`System`, `Holon`, `Role`, `Work`, `Episteme`, `Tradition`, `Lineage`, `Characteristic`, `Method`, `Profile`, `Description`, `Spec`, `TransformationFlowStructure`, `Card`, `Pack`, `Dashboard`, …).
@@ -51,19 +51,18 @@ keywords:
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `TransformationFlowStructureDescription`, `TransformationFlowStructureSpec`, `SystemDescription`, and `SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
 * **Don’t:** `SamplingAlgorithm` (when it is just prose), `SamplingProcessSpec` (head not signalling kind).
-**Onto3 — Roles, Holders, and Carriers (holonic)**  *(ref. F.4 and F.5)*
-* **Rule:** The playable intention is named **`…Role`** and described through **F.4 Role Description** (RCS and RSG), e.g., `SafetyOfficerRole`, `ReviewerRole`. The party **assuming a role** is the **Holder**. Use the **`Holder#Role:Context`** pattern to type the assumption (where `Context` is a `U.BoundedContext`), e.g., `Team‑Alpha (U.Holon) is Holder#SafetyOfficerRole:Plant‑Ops`. **Carrier** is **reserved for a system that bears a symbol of episteme** (`U.Episteme`, `Tradition`, `Lineage`, `Profile`, repertoire) **independent of any concrete role assumption**, e.g., `LeanTraditionCarrier`, `CalibrationLineageCarrier`. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between a Carrier (e.g., document), a system “made by” some transformer, or an episteme abstracted from its carrier.
-* **Register note:** Job titles (`Reviewer`, `Owner`, `Lead`) belong in the **Plain** register and MUST twin‑map to explicit Tech `…Role` tokens.
-* **Why:** This resolves the inconsistent “role carrier” and “role holder” usage: **use “Holder” for holonic role assumption**, keep **“Carrier”** for the *system that bears a symbol of episteme*.
-* **Rewrite note.** `…CarrierRole` used for a role holder **MUST be rewritten** to `Holder#…Role:Context`. Use SCR-LEX to enforce the rewrite.
-* **Do:** `ReviewerRole` (or `AssessorRole`), `Holder#ReviewerRole:Journal‑Issue‑42` (or `Holder#AssessorRole:Procurement‑Lot‑42`); `LeanTraditionCarrier (U.Holon)`, independent of any particular role.
-**Don’t:** `Reviewer` (as a kernel type), `ReviewerCarrier` (to mean a role holder), `SystemReviewer` (role collapsed into a type).
-
+**Onto3 — Roles, RoleAssignments, and episteme-symbol carriers (holonic)**  *(ref. A.2, A.2.1, F.4, and F.5)*
+* **Rule:** A work-facing role value may use a Tech label ending in **`…Role`** and is described through **F.4 Role Description**, e.g., `SafetyOfficerRole`, `ReviewerRole`. Role-characteristic spaces, role-state relations, and role relation structures are neighboring governed values; they are not hidden inside the role name. The concrete assignment relation is a **`U.RoleAssignment`** with explicit `holderRef`, `roleRef`, `boundedContextRef`, and optional `windowRef`; do not use a compact role-assignment display string as the normative model. **Carrier** is **reserved for a system that carries or makes available a symbol of episteme** (`U.Episteme`, `Tradition`, `Lineage`, `Profile`, repertoire) **independent of any concrete role assignment**, e.g., `LeanTraditionCarrier`, `CalibrationLineageCarrier`. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between an episteme-symbol carrier, a system made by a transformer, or an episteme abstracted from its carrier.
+* **Register note:** Job titles (`Reviewer`, `Owner`, `Lead`) belong in the **Plain** register and MUST twin-map to explicit Tech `…Role` tokens.
+* **Why:** This resolves inconsistent “role carrier” and “role-assigned holon/system” usage: use **`U.RoleAssignment`** for the contextual assignment of a holon/system to a `…Role`; keep **“Carrier”** for the system that carries or makes available a symbol of episteme.
+* **Rewrite note.** `…CarrierRole` used for a role-assigned holon/system **MUST be rewritten** to an explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`. Use SCR-LEX to enforce the rewrite.
+* **Do:** `ReviewerRole` (or `AssessorRole`), `U.RoleAssignment(holderRef=TeamAlpha, roleRef=ReviewerRole, boundedContextRef=JournalIssue42Context)`; `LeanTraditionCarrier (U.Holon)`, independent of any particular role assignment.
+**Don’t:** `Reviewer` (as a kernel type), `ReviewerCarrier` (to mean a role-assigned holon/system), `SystemReviewer` (role collapsed into a type).
 **Onto4 — Domain only as a catalog mark**  *(ref. E.10.D1 D.CTX; publish stitching on UTS)*
 * **Rule:** `Domain` is **not a kernel kind** and carries **no semantics, inheritance, or reasoning rights**. It is a **catalog mark** that groups several `U.BoundedContext` entries.
 * **Required stitching (see D.CTX and UTS).** Any use of `Domain` **MUST** present: 1. the enumerated list of `ContextId` in **D.CTX**, and 2. the corresponding **UTS strings** (F.17) with twin labels.
 * **“Discipline ≠ Domain.”** _Domain_ labels are **catalog‑only (D.CTX + UTS)**; **Discipline** is a **CG‑Spec‑governed holon** (`U.Discipline`). Cross‑use requires **Bridge (F.9) + CL**; **LexicalCheck** MUST fail texts that equate Domain with Discipline.
-* **Governance.** **No “Domain … governance”.** Rules of comparability and aggregation belong to **Discipline** or **CG‑Spec** (ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ‑fold, CL‑routing), *not* to `Domain`. Prefer `DomainFamily` + stitching over inventing new “Domain” types.
+* **Governance.** **No “Domain … governance”.** Rules of comparability and aggregation belong to **Discipline** or **CG‑Spec** (ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ‑fold, CL policy), *not* to `Domain`. Prefer `DomainFamily` + stitching over inventing new “Domain” types.
 * **Do:** `DomainBundle: ClinicalSafety → {ContextId: AdverseEvents, DeviceLabelling, …} + UTS twins`.
 * **Don’t:** `ClinicalSafetyDomain` as a type with inheritance; `Domain Governance` sections in Tech.
 
@@ -73,36 +72,35 @@ keywords:
 * **Don’t:** “Reviewer — a person who …” (blurs the kind named).
 
 **Onto6 — Bans and ontology recovery hints**  *(mirror E.10 § 9 L-rules; do not duplicate tables; not a substitution table)*
-* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`; possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, `U.Transformation`, and `TransformationFlowStructure` only after the governing kind and use-position are named by value.
+* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`; possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, `U.Transformation`, and `TransformationFlowStructure` only after the governing kind, relation position, use relation, or claim kind is named by value.
 * `Tradition` → **`Tradition`** (Tech); leave “Tradition” only as a Plain twin with an adjacent Tech label.
 * `domain` → **`DomainFamily` + {ContextId list} + UTS twins**.
-* `…CarrierRole` used for a role holder -> **`Holder#…Role:Context`**.
+* `…CarrierRole` used for a role-assigned holon/system -> **explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`**.
 * ambiguous `Owner` in role names → prefer **`StewardRole`**, **`CustodianRole`**, or an explicit responsibility head.
-* job titles (`owner`, `lead`, `champion`) in the kernel → **use explicit `…Role` names**; keep titles in Plain with twin‑labels.
-* **Do:** `ReturnsTransformationFlowStructureDescription`, `Tradition: Test-Driven`, `Holder#CustodianRole:Asset-Ledger`.
+* job titles (`owner`, `lead`, `champion`) in the kernel → **use explicit `…Role` names**; keep titles in Plain with twin-labels.
+* **Do:** `ReturnsTransformationFlowStructureDescription`, `Tradition: Test-Driven`, `U.RoleAssignment(holderRef=LedgerTeam, roleRef=CustodianRole, boundedContextRef=AssetLedgerContext)`.
 * **Don’t:** `Returns Process`, `TDD Tradition` (kernel), `Ledger Owner` (underspecified).
 
-**Worked mini‑examples across arenas**
-1. **Software engineering:** `BuildTransformationFlowStructureDescription`, `CIHarnessSpec`; `Holder#MaintainerRole:Repo-X`. Avoid `Build Process`, `Repo Owner`.
-2. **Applied research and experimentation:** `SamplingMethodSpec`, `CalibrationLineageCarrier`; `Holder#ReviewerRole:Grant‑Call‑Y`.  Avoid `Sampling Algorithm` (if prose), `Lab Owner`.
-3. **Production and service management:** `ShiftWork`, `SafetyOfficerRole`; `Holder#SafetyOfficerRole:Plant‑Ops`.  Avoid `Safety Officer` as a type, `SafetyDomain Governance`.
-4. **Operations research and optimisation:**  `RoutingMethodDescription`, `CostCharacteristic`; `Holder#ModelStewardRole:OR‑Program`.  Avoid `Routing Function`, `Model Owner`.
-5. **Healthcare and clinical ops:** `CarePathwayTransformationFlowStructureDescription`, `MedicationAdministrationWork`; `Holder#AttendingPhysicianRole:Ward-12`. Avoid `Care Process`, `Ward Owner`.
-6. **Finance and accounting:** `ReconciliationMethodSpec`, `JournalPostingWork`; `Holder#TreasuryStewardRole:Liquidity‑Book`. Avoid `Reconciliation Process`, `Account Owner` (underspecified).
-7. **Legal and compliance:** `RetentionPolicySpec`, `InvestigationWork`; `Holder#DataProtectionOfficerRole:Org‑X`. Avoid `Compliance Function`, `Data Owner` (underspecified).
-8. **Cloud and IT operations:** `IncidentTransformationFlowStructureDescription`, `RunbookMethodSpec`; `Holder#OnCallEngineerRole:Service-Y`. Avoid `Incident Process`, `Service Owner` (underspecified).
-9. **Logistics and supply chain:** `PickingWork`, `RoutingMethodSpec`; `Holder#DispatcherRole:Hub‑Z`. Avoid `Picking Process`, `Fleet Owner`.
-10. **Construction and civil engineering:** `PermitAcquisitionTransformationFlowStructureDescription`, `InspectionMethodSpec`; `Holder#SiteStewardRole:Project-Lot-17`. Avoid `Inspection Process`, `Site Owner`.
-11. **Emergency response:** `TriageMethodDescription`, `EvacuationTransformationFlowStructureDescription`; `Holder#IncidentCommanderRole:Event-R`. Avoid `Triage Function`, `Incident Owner`.
-12. **Agriculture:** `IrrigationTransformationFlowStructureDescription`, `SoilSamplingMethodSpec`; `Holder#FieldStewardRole:Plot-17`. Avoid `Irrigation Process`, `Field Owner`.
-
+**Worked mini-examples across arenas**
+1. **Software engineering:** `BuildTransformationFlowStructureDescription`, `CIHarnessSpec`; `U.RoleAssignment(holderRef=RepoTeam, roleRef=MaintainerRole, boundedContextRef=RepoXContext)`. Avoid `Build Process`, `Repo Owner`.
+2. **Applied research and experimentation:** `SamplingMethodSpec`, `CalibrationLineageCarrier`; `U.RoleAssignment(holderRef=ReviewPanel, roleRef=ReviewerRole, boundedContextRef=GrantCallYContext)`.  Avoid `Sampling Algorithm` (if prose), `Lab Owner`.
+3. **Production and service management:** `ShiftWork`, `SafetyOfficerRole`; `U.RoleAssignment(holderRef=TeamAlpha, roleRef=SafetyOfficerRole, boundedContextRef=PlantOpsContext)`.  Avoid `Safety Officer` as a type, `SafetyDomain Governance`.
+4. **Operations research and optimisation:**  `RoutingMethodDescription`, `CostCharacteristic`; `U.RoleAssignment(holderRef=AnalysisGroup, roleRef=ModelStewardRole, boundedContextRef=ORProgramContext)`.  Avoid `Routing Function`, `Model Owner`.
+5. **Healthcare and clinical ops:** `CarePathwayTransformationFlowStructureDescription`, `MedicationAdministrationWork`; `U.RoleAssignment(holderRef=DrK, roleRef=AttendingPhysicianRole, boundedContextRef=Ward12Context)`. Avoid `Care Process`, `Ward Owner`.
+6. **Finance and accounting:** `ReconciliationMethodSpec`, `JournalPostingWork`; `U.RoleAssignment(holderRef=TreasuryTeam, roleRef=TreasuryStewardRole, boundedContextRef=LiquidityBookContext)`. Avoid `Reconciliation Process`, `Account Owner` (underspecified).
+7. **Legal and compliance:** `RetentionPolicySpec`, `InvestigationWork`; `U.RoleAssignment(holderRef=PrivacyOffice, roleRef=DataProtectionOfficerRole, boundedContextRef=OrgXContext)`. Avoid `Compliance Function`, `Data Owner` (underspecified).
+8. **Cloud and IT operations:** `IncidentTransformationFlowStructureDescription`, `RunbookMethodSpec`; `U.RoleAssignment(holderRef=OnCallRotation, roleRef=OnCallEngineerRole, boundedContextRef=ServiceYContext)`. Avoid `Incident Process`, `Service Owner` (underspecified).
+9. **Logistics and supply chain:** `PickingWork`, `RoutingMethodSpec`; `U.RoleAssignment(holderRef=DispatchDesk, roleRef=DispatcherRole, boundedContextRef=HubZContext)`. Avoid `Picking Process`, `Fleet Owner`.
+10. **Construction and civil engineering:** `PermitAcquisitionTransformationFlowStructureDescription`, `InspectionMethodSpec`; `U.RoleAssignment(holderRef=SiteOffice, roleRef=SiteStewardRole, boundedContextRef=ProjectLot17Context)`. Avoid `Inspection Process`, `Site Owner`.
+11. **Emergency response:** `TriageMethodDescription`, `EvacuationTransformationFlowStructureDescription`; `U.RoleAssignment(holderRef=IncidentLead, roleRef=IncidentCommanderRole, boundedContextRef=EventRContext)`. Avoid `Triage Function`, `Incident Owner`.
+12. **Agriculture:** `IrrigationTransformationFlowStructureDescription`, `SoilSamplingMethodSpec`; `U.RoleAssignment(holderRef=FieldTeam, roleRef=FieldStewardRole, boundedContextRef=Plot17Context)`. Avoid `Irrigation Process`, `Field Owner`.
 **Checklist before minting a KernelToken**
 * Head noun signals kind (Onto1).
 * EntityOfConcern and Description-episteme boundary and specification-use morphology correct (Onto2).
-* If role‑related: **Role, Holder, and Carrier** separation observed; holonic scope explicit (Onto3).
+* If role-related: **Role, RoleAssignment, and episteme-symbol carrier** separation observed; holonic scope explicit (Onto3).
 * Any Domain mention stitched to D.CTX and UTS; **no norms on Domain** (Onto4, Onto6).
 * Object‑of‑talk declared (Onto5).
-* SCR-LEX rewrites checked for current role-holder and carrier separation (Onto6).
+* SCR-LEX rewrites checked for current role-assignment and episteme-symbol carrier separation (Onto6).
 > **Note on registers.** Keep figurative or business-casual terms in the **Plain** register only, with strict **twin-label** links to the Tech token under current `E.10`. In the **Tech** register, speak in KL-CAL: **episteme-about-epistemes** (Tradition, Lineage, Profile), not in catalogue-admin idioms.
 
 * **Onto‑Deon — Deontic lexicon guard (Core register)**
@@ -117,7 +115,7 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
  `publication Standard` → `publication standard`;
  `frame Standard` → `frame standard`;
  `measurement Standard` → `measurement standard`;
- `Method Interface Standard (MIC)` → `Method Interface Standard (MIS)` *(alias acceptable during transition)*;
- `Boundary‑Inheritance Standard (BIC)` → `Boundary‑Inheritance Standard (BIS)` *(alias acceptable during transition)*.
+ `Method Interface Standard (MIC)` → `Method Interface Standard (MIS)`;
+ `Boundary-Inheritance Standard (BIC)` → `Boundary-Inheritance Standard (BIS)`.
  **Rationale.** Keeps Core prose centred on EntitiesOfConcern and their boundary invariants; reserves deontic obligations for governance contexts and **U.PromiseContent**‑like promises. Do **not** misuse “plane”: deontic speech‑acts are analysed via the **Gov** lens, while **ReferencePlane** remains `{world | concept | episteme}`.
 

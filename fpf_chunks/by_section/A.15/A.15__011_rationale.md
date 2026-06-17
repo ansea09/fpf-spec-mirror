@@ -6,16 +6,16 @@ section_id: "A.15:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__011_rationale.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:10 — Rationale"
-line_start: 20908
-line_end: 20917
+line_start: 20550
+line_end: 20559
 dependencies:
   - "A.10"
   - "A.12"
-  - "A.15.1"
+  - "A.15"
   - "A.15.1-A.15.4"
   - "A.15.4"
   - "A.2"
@@ -28,9 +28,14 @@ dependencies:
   - "B.3"
   - "C.24"
   - "C.26.2"
+  - "C.28"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.16"
   - "E.17"
   - "E.17.EFP"
+  - "E.18.1"
 keywords:
   - "U.Method"
   - "U.MethodDescription"
@@ -52,5 +57,5 @@ This pattern solves a problem that has plagued systems modeling for decades: the
 *   **Process-theory source tradition:** Formalisms like the Pi-calculus or Petri Nets model dynamic interactions under terms often translated as processes. A.15 does not import `process` as a new FPF object; it maps the useful local use to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. The `U.Work` entity can be seen as an occurrence recognized by such a source tradition, but FPF adds the crucial context of the `Role`, `Capability`, enacted `U.Method`, and `MethodDescription` source that make the occurrence inspectable.
 *   **Pragmatism and Practice:** The framework is deeply pragmatic. The distinctions it makes (e.g., between a `MethodDescription` and `U.Work`) are precisely the ones that matter in the real world of project management, compliance, and debugging. When a failure occurs, a manager needs to know: was the recipe wrong (`MethodDescription`), did the chef lack the skill (`Capability`), or did they just make a mistake this one time (`U.Work`)? This framework provides the vocabulary to ask and answer that question precisely.
 
-By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for all of its more advanced patterns, from resource management (`Resrc-CAL`) and decision theory (`Decsn-CAL`) to ethics (`Norm-CAL`).
+By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for downstream resource accounting, decision, constraint, gate, evidence, assurance, ethics, and transformation patterns without letting any one of those neighboring claims collapse into A.15.
 

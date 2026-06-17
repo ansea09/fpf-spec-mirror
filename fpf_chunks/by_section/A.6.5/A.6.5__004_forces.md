@@ -1,20 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.5"
-pattern_title: "U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
+pattern_title: "U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
 section_id: "A.6.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.6.5 — U.RelationSlotDiscipline - SlotKind / ValueKind / RefKind discipline for n‑ary relations (with slot‑operation lexicon)"
+  - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:3 — Forces"
-line_start: 15516
-line_end: 15571
+line_start: 15562
+line_end: 15572
 dependencies:
   - "A.1"
-  - "A.19"
   - "A.6.0"
   - "A.6.2"
   - "A.6.4"
@@ -23,7 +22,6 @@ dependencies:
   - "C.2.1"
   - "C.3"
   - "E.10"
-  - "E.17"
   - "E.17.0"
   - "E.8"
   - "U.EpistemeSlotRelation"
@@ -42,57 +40,12 @@ keywords:
 
 ### A.6.5:3 - Forces
 
-* **F1 - Simplicity vs expressiveness.**
-  Engineers need a **small number of concepts** they can hold in mind while reading a signature; yet we must express:
-
-  * where a parameter sits,
-  * which kinds it can take,
-  * whether it’s by value/by reference,
-  * how substitution behaves,
-  * and (in prose) what kind of slot‑operation is being described.
-
-* **F2 - Cross‑disciplinary reuse.**
-  Slot discipline must work for:
-
-  * logical relations (KD‑CAL, LOG‑CAL),
-  * episteme structures (C.2.1),
-  * systems/roles/methods (A/B),
-  * services and APIs (including method/service interfaces and ports),
-  * cells in tables and databases,
-  * guards, bridges, and flows in E.18,
-  * and publication operations (E.17).
-
-  A scheme that is too domain‑specific (e.g. “database attributes only”) won’t scale; the same discipline must underlie **all** `U.Signature`d argument/port lists.
-
-* **F3 - Alignment with existing tooling.**
-  Tooling stacks already operate with:
-
-  * typed parameters and records,
-  * identifiers vs values vs references,
-  * and (in modern typed settings) explicit distinctions between *binding*, *store update*, and *mutation*.
-
-  FPF must line up with this practice enough that signatures can be implemented without inventing a parallel type system.
-
-* **F4 - EntityOfConcern / Description / specification-use discipline.**
-  Strict distinction (A.7, E.10.D2) already separates **entities of concern**, their **Description epistemes**, and **specification uses**. The same discipline is needed inside relations:
-
-  * slot ≠ value ≠ reference,
-  * system role ≠ slot name,
-  * entityOfConcern ≠ guard,
-  * and “change the reference” ≠ “change the thing referred to”.
-
-* **F5 - Didactic primacy and naming discipline.**
-  E.8 and E.10 demand patterns that are:
-
-  * teachable (Tell‑Show‑Show examples, explicit biases),
-  * lexically guarded (Tech/Plain split, explicit head‑nouns).
-
-  Slot discipline must integrate seamlessly with that.
-
-* **F6 - Binding‑time talk must be unambiguous.**
-  “Early binding / late binding” is meaningful only if the author states **what is being fixed when**. FPF needs a canonical way to speak about:
-
-  * early/late **slot filling**,
-  * early/late **reference resolution / dispatch**,
-  * and (where a language expression is in play) early/late **name binding**.
+| Force | Tension |
+|---|---|
+| Simplicity vs expressiveness | Practitioners need a small vocabulary, but relation-bearing structures must still expose positions, filler kinds, reference modes, and change operations. |
+| Reuse vs false unification | The same SlotSpec discipline should serve epistemes, signatures, role assignments, evidence-use relations, status-use relations, interfaces, services, and transformation-flow structures without pretending those relations are one relation kind. |
+| Role ontology vs slot discipline | `U.Role` must stay a real work-facing role value, while relation positions must not be named as roles merely because they participate in a relation. |
+| Description boundary vs instance filling | A pattern may describe a slot relation, while a project instance fills it. Description, publication, and filled relation values must stay distinct. |
+| Tool alignment vs FPF ontology | Programming, database, type-system, and API practices already use parameters, fields, references, and updates, but FPF must recover their kinds before borrowing their words. |
+| Binding-time clarity vs metaphor | "Early binding", "late binding", "assignment", and "update" are useful only when the affected link is named: name to slot, slot to content, or reference to referent. |
 

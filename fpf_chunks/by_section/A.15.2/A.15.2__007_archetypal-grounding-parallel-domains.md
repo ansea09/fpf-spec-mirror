@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 21600
-line_end: 21622
+line_start: 21240
+line_end: 21262
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,14 +39,14 @@ keywords:
 #### A.15.2:6.1 - Hospital OR day plan (shift rota + cases)
 
 * **WorkPlan:** `OR_DayPlan_2025‑08‑12`.
-* **`PlanItem` values:** `Case#1 Appendectomy`, `Case#2 Hernia`, with windows, context assignments, and surgeon **role kinds**; anesthetist intended `U.RoleAssignment` provided.
+* **`PlanItem` values:** `Case_1_Appendectomy`, `Case_2_Hernia`, with windows, context assignments, and surgeon `U.Role` values; anesthetist intended `U.RoleAssignment` provided.
 * **Budgets:** OR time blocks, consumables envelopes.
 * **Fulfilment:** Each surgery Work links to its `PlanItem`; variances computed (over-run time, substitutions).
 
 #### A.15.2:6.2 - Fab maintenance weekend (asset reservations)
 
 * **WorkPlan:** `Fab_Maintenance_W36`.
-* **`PlanItem` values:** `Tool_42 chamber clean`, `Tool_13 calibration`; **MutuallyExclusive\_pl** with production slots.
+* **`PlanItem` values:** `Tool_42 chamber clean`, `Tool_13 calibration`; **MutuallyExclusive\_pl** with production windows.
 * **Reservations:** nitrogen, DI water, metrology window.
 * **Fulfilment:** Actual clean Work happens earlier; variance logged as **early** with cost underrun.
 

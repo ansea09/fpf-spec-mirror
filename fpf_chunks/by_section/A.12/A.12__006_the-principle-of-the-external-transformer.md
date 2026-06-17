@@ -6,12 +6,12 @@ section_id: "A.12:4.1"
 section_title: "The Principle of the External Transformer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_the-principle-of-the-external-transformer.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:4.1 — The Principle of the External Transformer"
-line_start: 20078
-line_end: 20096
+line_start: 19714
+line_end: 19732
 dependencies:
   - "A.3"
   - "B.2.5"
@@ -28,7 +28,7 @@ keywords:
 
 Every transformation in FPF is a `U.Work` event that is the result of an **Agent** acting upon a **Target**.
 
-*   **The Agent:** The agent is a **Contextual Role Assignment** of the form `System#TransformerRole:Context`. This is the cause, the "doer."
+*   **The acting-side assignment:** the acting side is a `U.RoleAssignment` with `holderRef` naming a `U.System` or admitted acting holon, `roleRef=TransformerRole@Context`, and `boundedContextRef` naming the context. This is the causal/work side, not a compact holder-role shorthand.
 *   **The Target:** The target is the `U.Holon` being changed. This can be another `U.System` or the **symbol carrier** of a `U.Episteme`.
 *   **The Boundary:** The agent and the target are always separated by a `U.Boundary` and interact through a `U.Interaction`.
 

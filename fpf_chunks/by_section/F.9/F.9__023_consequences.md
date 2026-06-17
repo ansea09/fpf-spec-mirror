@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
-section_id: "F.9:21"
+pattern_title: "Alignment and Bridge across Contexts"
+section_id: "F.9:22"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
-  - "F.9:21 — Consequences"
-line_start: 75136
-line_end: 75143
+  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9:22 — Consequences"
+line_start: 74978
+line_end: 74985
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -46,11 +50,11 @@ keywords:
   - "weakest-link scope"
 ---
 
-### F.9:21 - Consequences
+### F.9:22 - Consequences
 
-**Benefits.**
-F.9 lets FPF compare, translate, and partially reuse ideas across Contexts without collapsing them into one vocabulary. It gives downstream rows, claims, and assurance reasoning an explicit Bridge Card record instead of relying on prose intuition.
+**Benefits.** F.9 lets FPF compare, translate, and partially reuse ideas across contexts without collapsing them into one vocabulary. It gives downstream rows, claims, and assurance reasoning an explicit Bridge Card instead of relying on prose similarity.
 
-**Trade-offs / mitigations.**
-The pattern adds explicit bridge declaration and may feel heavier than informal comparison. Mitigation: use Naming-only scope when explanation is enough, and reserve higher-scope uses for Bridges that carry the required `CL` and invariants.
+**Costs.** The pattern adds explicit bridge declaration and can feel heavier than informal comparison. Mitigation: use Naming-only or Explanation-only when that is enough, and reserve higher-scope uses for Bridges that carry the required `CL`, invariants, and direct-pattern boundaries.
+
+**Failure mode avoided.** A Bridge can no longer be used as a quiet substitute for role assignment, status transfer, evidence authority, publication authority, or performed-work attribution.
 

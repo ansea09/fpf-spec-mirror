@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0 — Use this when"
-line_start: 35913
-line_end: 35942
+line_start: 35466
+line_end: 35495
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ The practical partition is episteme-slot or publication-construction use, but it
 | --- | --- | --- |
 | Ordinary source text needs more precise language | Source-expression clarification: source-local clarification, candidate kinds and relations, wording preservation by value when needed, clarified phrase, candidate-set note, epistemic precision-restoration note, or use disposition. | `E.10`, `A.6.P`, `A.6.6`, `F.18`, `A.7`, `E.17`, or another governing pattern as a repair lens only for the selected claim being made or declared-use-boundary question. |
 | Wording has FPF-governed use | FPF-governed use: recovered FPF kind named by value, relation record, relation phrase, tuple-like record, project-side FPF kind and reference named by value, or explicit non-use disposition. | `E.10` plus the governing pattern for each recovered claim being made or declared-use-boundary question. |
-| Claim-bearing episteme, EntityOfConcern, grounding relation, publication, view, face, carrier, publication unit, source-side relation, receiving-side relation, or bounded publication-unit wording is current | Recover the kind and relation set, relation construction, and publication construction before accepting the sentence. | `C.2.1`, `A.7`, `E.17.0`, `E.17`, MVPK, and local episteme and publication patterns. |
+| Claim-bearing episteme, EntityOfConcern, grounding relation, publication, view, face, carrier, publication unit, source-side relation, source-use target relation, or bounded publication-unit wording is current | Recover the kind and relation set, relation construction, and publication construction before accepting the sentence. | `C.2.1`, `A.7`, `E.17.0`, `E.17`, MVPK, and local episteme and publication patterns. |
 | Relation, comparison, dependency, support, sameness, grounding, mapping, endpoint, declared-use-boundary, or project-side reliance is current | Recover the relation, claim being made, or declared-use boundary before treating the wording as FPF-governed. | `A.6.P`, retained A.6.P specializations, `A.6.B`, and the evidence named by value, work, decision, assurance, causal-use, mathematical-lens, or quality pattern when current. |
 | A reusable term or stable local head is being chosen | Prevent a broad replacement from becoming a new FPF term by taste. | `F.18`, with `E.10:0.2` replacement-candidate anti-umbrella rule. |
 | The repair would leave correct typing but no useful reader action | Treat the rewrite as incomplete. | `E.2`, `E.8`, `E.10:6.2`, `E.12`, and the FPF pattern named by value that carries the claim being made. |

@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
-section_id: "F.9:19"
-section_title: "Bias-Annotation"
+pattern_title: "Alignment and Bridge across Contexts"
+section_id: "F.9:20"
+section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__021_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
-  - "F.9:19 — Bias-Annotation"
-line_start: 75099
-line_end: 75113
+  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9:20 — Bias annotation"
+line_start: 74955
+line_end: 74964
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -46,18 +50,13 @@ keywords:
   - "weakest-link scope"
 ---
 
-### F.9:19 - Bias-Annotation
+### F.9:20 - Bias annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for cross-context correspondence and reuse.
+Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
 
-* **Gov bias:** F.9 raises the declaration bar by requiring explicit Bridge Cards.
-  *Mitigation:* keep the card compact and teach weakest-link discipline as the default review heuristic.
-* **Arch bias:** the pattern prefers typed bridge declarations over friendly synonym prose.
-  *Mitigation:* allow Naming-only scope and explanatory Interpretation Bridges so useful comparisons are not blocked.
-* **Onto/Epist bias:** F.9 is local-first and resists global meaning claims.
-  *Mitigation:* reuse remains possible, but only through explicit correspondence, direction, and Loss Notes.
-* **Prag bias:** conservative `CL` assignment may feel slower than informal reuse.
-  *Mitigation:* the pattern still supports bounded substitution when the evidence is good enough; it only blocks silent overreach.
-* **Did bias:** the didactic script can make Bridge Cards look simpler than they are.
-  *Mitigation:* Conformance, counter-examples, and weakest-link rules keep the teaching explanation tied to real constraints.
+* **Governance bias.** F.9 raises the declaration bar by requiring explicit Bridge Cards. Mitigation: keep the card compact and use weakest-link discipline as the default review heuristic.
+* **Architecture bias.** The pattern prefers typed bridge declarations over friendly synonym prose. Mitigation: allow Naming-only and Explanation-only cases so useful comparisons are not blocked.
+* **Ontology and episteme bias.** F.9 is local-first and resists global meaning claims. Mitigation: reuse remains possible through explicit correspondence, direction, and Loss Notes.
+* **Pragmatic bias.** Conservative `CL` assignment may feel slower than informal reuse. Mitigation: F.9 permits bounded use when the Bridge earns it; it blocks only silent overreach.
+* **Didactic bias.** The short script can make Bridge Cards look simpler than they are. Mitigation: conformance tests, counter-examples, and weakest-link rules keep the teaching explanation tied to constraints.
 

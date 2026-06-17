@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 13137
-line_end: 13193
+line_start: 12998
+line_end: 13056
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -81,25 +81,27 @@ RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explic
 * **A.6.B `U.BoundaryNormSquare`** (L, A, D, and E classification; claim atomicity; cross-quadrant references).
 * **A.6.S `U.SignatureEngineeringPair`** (TargetSignature vs ConstructorSignature; canonical constructor verb mapping; effect‑free constructor ops).
 * **A.6.0 `U.Signature`** (SlotSpec requirement for argument positions).
-* **A.6.5 `U.RelationSlotDiscipline`** (SlotKind/ValueKind/RefKind stratification + canonical slot verbs; `bind` reserved for name binding).
+* **A.6.5 `U.RelationSlotDiscipline`** (SlotKind, ValueKind, and RefKind stratification + canonical slot verbs; `bind` reserved for name binding).
+* **A.6.RSIR** (interface cue, signature, role, slot, and relation precision restoration; selects the governing interface-like case before generic RPR is allowed).
+
 * **E.8** (pattern authoring discipline; Tell–Show–Show; SoTA echoing hygiene).
-* **F.18** (local-first reusable naming after relation kind and use recovery: minting decisions, reuse decisions, legacy-name documentation decisions, collision checks, lineage notes, and durable-name discipline).
-* **E.10** (LEX‑BUNDLE discipline; EntityOfConcern versus Description epistemes and specification-use cases plus publication face, form, unit, carrier, and rendering lanes; publication-face or publication-form token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
+* **F.18** (local-first reusable naming after relation kind and use recovery: minting decisions, reuse decisions, externally fixed name documentation decisions, collision checks, lineage notes, and durable-name discipline).
+* **E.10** (LEX‑BUNDLE discipline; EntityOfConcern versus Description epistemes and specification-use cases plus publication face, form, unit, carrier, and rendering discipline; publication-face or publication-form token discipline; reserved primitives; Tech↔Plain pairing). *(Referenced conceptually; no extra authoring apparatus implied.)*
 
 **Coordinates with.**
 
-* **A.2.4 `U.EvidenceRole`** (witness semantics: role, timespan, and freshness metadata for decision-relevant witness sets).
-* **A.2.6 scope + `Γ_time` discipline** (avoid implicit “current/latest”; make time selectors explicit when time matters).
+* **A.10, B.3, F.10, and E.17 evidence, status, and source-use discipline** (carrier-referenced evidence use, assurance use, status-source use, publication use, timespan, and freshness when decision-relevant).
+* **A.2.6 scope + `Γ_time` discipline** (avoid implicit “current” or “latest”; make time selectors explicit when time matters).
 * **A.7 Strict Distinction** (EntityOfConcern, Description episteme, specification use, publication face, form, unit, carrier, and rendering; avoid treating evidence or logs as properties of prose).
-* **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing/retargeting as disciplined slot writes).
-* **A.10 evidence discipline** (witnesses are carrier‑anchored; freshness is adjudicated in work/evidence lanes).
-* **C.2.1 `U.EpistemeSlotRelation`** (slot read/write profiles for constructor operators, when declared).
+* **A.6.2–A.6.4** (effect‑free episteme morphisms, epistemic viewing and retargeting as disciplined slot writes).
+* **A.10 evidence discipline** (witnesses are carrier-referenced; freshness is adjudicated in work and evidence relations).
+* **C.2.1 `U.EpistemeSlotRelation`** (slot read and write profiles for constructor operators, when declared).
 * **C.3.3 `U.KindBridge` + `CL^k` discipline** (repairing endpoint kind mismatches; kind-level congruence + loss notes).
 * **E.17 MVPK and multi-view publication** (faces are views; "no new semantics"; viewpoint accountability).
-* **E.19 pattern quality gates** (review/refresh discipline for guardrails and conformance lists).
+
 * **F.17 `UTS`** (when ambiguity clusters become recurring vocabulary: publish stable `RelationKind` tokens and facet head phrases as UTS and LEX-UTS term assets, so rewrites do not live only inside A-patterns).
 * **F.9 Bridges + CL** for cross-Context or cross-plane reuse (no silent sameness).
-* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state seam: language-state chart positions, admissible moves, pre-threshold cue preservation, next-pattern publication, admissible retreat or reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account.
+* **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for the language-state boundary: language-state chart positions, admissible moves, pre-threshold cue preservation, next-pattern publication, admissible retreat or reopen, and prompt-shaped continuations that are not yet stable relation publication; use **A.16.0** only when lineage, branch, loss, or responsibility-transfer history itself must be published as an explicit trajectory account.
 * **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance: articulation explicitness, closure degree, language-state anchoring mode, and the language-state representation-factor bundle may be cited by RPR patterns but are not governed here.
 
 **Specialisations already in Core.**

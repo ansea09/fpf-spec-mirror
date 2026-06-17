@@ -1,31 +1,46 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.8"
-pattern_title: "Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
+pattern_title: "Mint-or-Reuse Decision"
 section_id: "F.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
+  - "F.8 — Mint-or-Reuse Decision"
   - "F.8:intro — Intro"
-line_start: 74322
-line_end: 74330
+line_start: 74100
+line_end: 74105
 dependencies:
   - "A.11"
+  - "A.15"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "A.7"
   - "A.8"
-  - "D.CTX"
-  - "E.10.D1"
+  - "C.3"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.9"
   - "F.1"
+  - "F.10"
+  - "F.13"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
   - "decision lattice"
   - "minting new types"
@@ -34,12 +49,9 @@ keywords:
   - "type explosion"
 ---
 
-## F.8 - Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)
+## F.8 - Mint-or-Reuse Decision
 
-**“Name only what thinking **requires**, and reuse everything else.”**
-
-**Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; A.8 **Universal Core**.
-**Coordinates with.** F.1 **Contexts (Contexts)**; F.2 **Harvest**; F.3 **SenseCells**; F.4 **Role Description**; F.5 **Naming Discipline**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge**.
-**Aliases (informative).** *Mint‑vs‑Reuse gate*; *Naming governor*.
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_related-patterns.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Related patterns"
-line_start: 62097
-line_end: 62119
+line_start: 61665
+line_end: 61689
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,9 @@ keywords:
 ### E.10.ARCH:12 - Related patterns
 
 - `E.10` recognizes and closes local wording issues or selects the applicable row.
+- `A.6.RSIR` realizes first-level recovery for the relation, signature, interface, role, and slot cluster only until the direct governing pattern is clear.
 - `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
+
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
 - `C.2.P.DR` realizes declarative representation and imperative-metaphor overread repair.

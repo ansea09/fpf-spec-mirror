@@ -1,19 +1,22 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.2"
-pattern_title: "TEVB — Typical Engineering Viewpoints Bundle"
+pattern_title: "TEVB - Typical Engineering Viewpoints Bundle"
 section_id: "E.17.2:End"
 section_title: "E.17.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_e-17-2-end.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.2 — TEVB — Typical Engineering Viewpoints Bundle"
+  - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:End — E.17.2:End"
-line_start: 65088
-line_end: 65089
+line_start: 64743
+line_end: 64744
 dependencies:
   - "A.1"
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2-A.6.4"
   - "A.7"
   - "C.2.1"

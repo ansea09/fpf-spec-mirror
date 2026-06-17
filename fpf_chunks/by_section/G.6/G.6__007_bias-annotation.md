@@ -1,28 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.6"
-pattern_title: "Evidence Graph & Provenance Ledger"
+pattern_title: "Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
 section_id: "G.6:6"
-section_title: "Bias‑Annotation"
+section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__007_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "G.6 — Evidence Graph & Provenance Ledger"
-  - "G.6:6 — Bias‑Annotation"
-line_start: 82516
-line_end: 82520
+  - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
+  - "G.6:6 — Bias Annotation"
+line_start: 81945
+line_end: 81957
 dependencies:
   - "A.10"
+  - "A.15.1"
+  - "A.2.4"
   - "A.21"
+  - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
-  - "C.18"
-  - "C.19"
-  - "C.23"
+  - "C.2.1"
+  - "C.28"
   - "E.10"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
   - "E.18"
-  - "E.5"
+  - "E.18.2"
+  - "E.24"
   - "E.5.2"
+  - "F.10"
   - "F.15"
   - "F.17"
   - "F.9"
@@ -30,11 +40,9 @@ dependencies:
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.7"
   - "G.8"
   - "G.9"
   - "G.Core"
-  - "G.Core.TriggerAliasMap.G6"
 keywords:
   - "CrossingBundle"
   - "EvidenceGraph"
@@ -49,8 +57,16 @@ keywords:
   - "Γ-fold pinning"
 ---
 
-### G.6:6 - Bias‑Annotation
+### G.6:6 - Bias Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
-Scope: Universal for the EvidenceGraph kit; any method‑specific telemetry / `PortfolioMode` wiring is modularized as Extensions and cited to its governing patterns.
+Biases guarded here:
+
+| Bias | Guard |
+| --- | --- |
+| Role ontology drift | No `U.EvidenceRole`; evidence/status/source use is relation-slot work. |
+| Semio-bias | The path addresses evidence provenance for a claim; publication faces and displays are only source nodes or cues unless direct patterns admit stronger use. |
+| Imperative metaphor drift | `PathId` cites declared provenance graph structure; actual work and transformation-flow claims are governed by `A.15.1` and `E.18`. |
+| Ledger process drift | Provenance ledger is content evidence, not work-progress state. |
+| Proxy-for-value substitution | Badges, dashboards, scores, confidence phrases, and provenance labels do not become assurance, release, or truth. |
+| Fanout by repetition | Neighbor boundaries are named once in the path record and direct-pattern table, not repeated as boilerplate in every example. |
 

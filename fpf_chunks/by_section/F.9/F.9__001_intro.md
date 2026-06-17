@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
+pattern_title: "Alignment and Bridge across Contexts"
 section_id: "F.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
+  - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:intro — Intro"
-line_start: 74647
-line_end: 74657
+line_start: 74483
+line_end: 74496
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -46,14 +50,17 @@ keywords:
   - "weakest-link scope"
 ---
 
-## F.9 - Alignment & Bridge across Contexts
+## F.9 - Alignment and Bridge across Contexts
+> **Status:** Stable
 
-**“Translate across Contexts; never collapse them.”**
+**"Translate across contexts; never collapse them."**
+
 **Type.** Architectural pattern.
 **Status.** Stable.
 **Normativity.** Normative.
-**Builds on:** E.10.D1 (Context discipline: Context = U.BoundedContext); **F.0.1 (senseFamily & StatusModality guard; Bridge-only crossing)**; F.1 (Contexts fixed); F.2/F.3 (Cells exist); F.7 (rows depend on Bridges); F.8 (thresholds and reuse choice).
+**Builds on:** E.10.D1 (context discipline: Context = `U.BoundedContext`); F.0.1 (`senseFamily` and status-modality guard; bridge-only crossing); F.1 (contexts fixed); F.2 and F.3 (SenseCells exist); F.7 (Concept-Set rows depend on bridges); F.8 (mint-or-reuse decision consumes bridge results without strengthening them).
 
-**Coordinates with:** B.3 **Trust & Assurance Calculus** (uses CL penalties); **A.6.1 U.Mechanism** (Transport clause for cross-context use; penalties feed **R/R_eff** only; **F/G** invariant); Part C patterns (apply Bridges in formal claims); A.6.9 (RPR-XCTX for repairing umbrella “same/equivalent/align/map” prose into explicit Bridge Cards).
-**Aliases (informative).** *Context-to-Context translator*; *Sense bridge*.
+**Coordinates with:** A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role, role-description, role-assignment, and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; B.3 for assurance penalties; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
+
+**Plain entry cues (informative).** Context-to-context translator; sense bridge.
 

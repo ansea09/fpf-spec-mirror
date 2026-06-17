@@ -6,12 +6,12 @@ section_id: "E.10:6.2"
 section_title: "Twin‑Register Discipline (Tech and Plain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_twin-register-discipline-tech-and-plain.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6.2 — Twin‑Register Discipline (Tech and Plain)"
-line_start: 61135
-line_end: 61210
+line_start: 60691
+line_end: 60766
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,10 +77,10 @@ A plain twin **MUST** bind to the **same SenseCell** as its Tech name in that Co
 **CC‑TWIN‑3 - Head‑term discipline (HND).**
 The plain twin **MUST** preserve the **head term** of the Tech name, or append an explicit bracketed head on **first use**:
 
-* Roles keep **“(role)”**, Services keep **“(service)”**, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
+* Roles keep **“(role)”**, service-facet labels keep **“(service promise/access)”** after the direct governed value is recovered, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
   *Examples:*
   `TransformerRole` → “**Transformer (role)**”,
-  `U.PromiseContent` → “**Service (service)**”,
+  `U.PromiseContent` → “**post-op monitoring service promise**”; service-access publication or access relation → “**service access**”,
   `U.Work` → “**work (work record)**”.
 
 **CC‑TWIN‑4 - Kind‑consistent.**
@@ -95,7 +95,7 @@ Plain twins are **not portable**. Reuse in another `U.BoundedContext` requires a
 
 **CC‑TWIN‑7 - First‑use gloss.**
 At first occurrence in a document or screen, a plain twin **MUST** be shown as **“Plain twin \[Tech name] — Context gloss”**, e.g.:
-“**Transformer (role)** \[**TransformerRole**] — *mask borne by a system to enact a method step in OR\_2025*”.
+“**Transformer (role)** \[**TransformerRole**] — *work-facing role value assigned through `U.RoleAssignment` to a system or acting holon for method-enacting work in OR\_2025*”.
 
 **CC-TWIN-8 - Normative publication-form overread ban.**
 Plain twins **MUST NOT** appear in **Conformance Checklists, predicates, type signatures, or acceptance clauses**. Only Tech names are normative. (Plain twins are strictly didactic.)

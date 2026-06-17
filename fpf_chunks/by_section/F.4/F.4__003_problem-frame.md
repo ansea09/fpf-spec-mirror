@@ -1,35 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description (RCS + RoleStateGraph + Checklists)"
-section_id: "F.4:2"
-section_title: "Problem frame"
+pattern_title: "Role Description - Description Episteme for U.Role"
+section_id: "F.4:1"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
-  - "F.4:2 — Problem frame"
-line_start: 73171
-line_end: 73179
+  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4:1 — Problem Frame"
+line_start: 72866
+line_end: 72873
 dependencies:
-  - "A.11"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
   - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "A.7"
-  - "B.3"
-  - "D.CTX"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
-  - "F.1"
-  - "F.2"
+  - "E.24"
+  - "F.10"
+  - "F.14"
+  - "F.15"
+  - "F.18"
   - "F.3"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.RoleAssignment"
-  - "U.Types"
 keywords:
   - "Role Characterisation Space (RCS)"
   - "RoleStateGraph (RSG)"
@@ -38,12 +42,11 @@ keywords:
   - "status template"
 ---
 
-### F.4:2 - Problem frame
+### F.4:1 - Problem Frame
 
-Without explicit Role Descriptions:
+Role descriptions are useful because a role value needs a recognizable description before people can assign it, name it, compare it, or use it in a method requirement. A role such as `InspectorRole` is not self-explanatory. The project needs to know which bounded context gives it meaning, what kind of holder can bear it, which role invariants matter, and which neighboring checks may become current.
 
-1. **Role/status conflation.** Access **role** (RBAC) treated as behavioural **mask** (BPMN participant); deontic **duty** treated as runtime **effect**.
-2. **Context drift.** A “role” quietly starts meaning different things across canons; later assignments contradict each other.
-3. **Hidden commitments.** We name a role assignment or status assertion but never state what **must hold** when it is assigned; downstream reasoning becomes arbitrary.
-4. **Premature unification.** A single template tries to straddle several Contexts; losses remain implicit.
+The recurring failure is to make the role description carry too much. A compact card is tempting: put role, status, permission, evidence, capability, method, assignment, work, and publication cues into one "assignable" template. That looks convenient but creates duplicate ontology. A standard used as a requirement source becomes a "standard role"; a report used as evidence becomes an "evidence role"; an access-control label becomes a behavioral role; a role name becomes proof of capability or proof that work occurred.
+
+F.4 therefore treats a role description as a description episteme about a work-facing `U.Role`. It may mention neighboring relations, but it does not absorb them.
 

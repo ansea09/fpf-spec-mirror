@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 21509
-line_end: 21584
+line_start: 21149
+line_end: 21224
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 
 #### A.15.2:4.1 - Definition
 
-**`U.WorkPlan`** is an **`U.Episteme`** that **declares intended `U.Work` occurrences** over a horizon, with **planned windows**, **dependencies**, **intended performers** as role kinds or proposed `U.RoleAssignment`s, **resource budgets and reservations**, and **acceptance targets** within a `U.BoundedContext`.
+**`U.WorkPlan`** is an **`U.Episteme`** that **declares intended `U.Work` occurrences** over a horizon, with **planned windows**, **dependencies**, **intended performer requirements** as `U.Role` values or proposed `U.RoleAssignment`s, **resource budgets and reservations**, and **acceptance targets** within a `U.BoundedContext`.
 
 > **Strict distinction (memory aid):**
 > **Method** = *how in principle*. **MethodDescription** = *how it is written*.
@@ -51,9 +51,9 @@ A `U.WorkPlan` **contains `PlanItem` values** (think: scheduled tasks or operati
 
 1. **Target Method and specification** — the **Method** to be enacted and the **MethodDescription** intended for enactment.
 2. **Planned window** — e.g., earliest start and latest finish, timebox, recurrence (cron-like), blackout periods.
-3. **Role requirements** — **role kinds** required (not people), optional proposed `U.RoleAssignment`s if pre-assignment is allowed in the context.
+3. **Role requirements** — required `U.Role` values, not people; optional proposed `U.RoleAssignment`s if pre-assignment is admitted in the context.
 4. **Capability thresholds** — minimal abilities required of the performer, checked for the performed-work interval.
-5. **Resource budgets and reservations** — planned energy, materials, machine slots, money, and reservations on assets.
+5. **Resource budgets and reservations** — planned energy, materials, machine windows, money, and reservations on assets.
 6. **Dependencies** — precedence, overlap permissions, required gate references, and required approval references.
 7. **Acceptance targets** — quality windows and SLA targets to be judged when Work completes.
 8. **Location and asset constraints** — where the run is expected to take place.
@@ -89,7 +89,7 @@ Keep three separations crystal‑clear:
 * **`Refines_pl`** — a child `PlanItem` tightens windows and budgets of a parent.
 * **`Alternative_pl`** — planned alternatives (e.g., backup rig, backup team).
 
-**Didactic rule:** A `PlanItem` **does not force** an identical Work shape; mapping is via **fulfilment** and **variance** (see §6).
+**Didactic rule:** A `PlanItem` **does not force** an identical Work shape; its relation to performed Work is via **fulfilment** and **variance** (see §6).
 
 #### A.15.2:4.5 - How `WorkPlan` Meets `Work` (Fulfilment and Variance)
 
@@ -98,7 +98,7 @@ When reality happens, each `U.Work` may:
 * **Fulfil** a `PlanItem` — link `plannedAs → PlanItem`.
 * **Partially fulfil** — multiple Work instances share one `PlanItem` (e.g., split run), or one Work fulfils several `PlanItem` values (e.g., consolidated batch).
 * **Deviate** - occur with method or method-description substitution, different window, different performer, or policy exception.
-* **Be unplanned** — Work with no `PlanItem` (emergency or ad hoc); must be labeled as such.
+* **Be unplanned** — Work with no `PlanItem` (emergency or ad hoc); record it as unplanned when that relation matters for variance, audit, or improvement.
 
 **Variance dimensions** the plan expects to report on:
 

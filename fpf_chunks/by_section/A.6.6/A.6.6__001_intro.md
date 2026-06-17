@@ -6,12 +6,12 @@ section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:intro — Intro"
-line_start: 16168
-line_end: 16206
+line_start: 15796
+line_end: 15835
 dependencies:
   - "A.10"
   - "A.14"
@@ -49,6 +49,7 @@ keywords:
 ---
 
 ## A.6.6 - U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)
+> **Status:** Stable
 
 **Plain-name.** Scoped witnessed base declaration discipline.
 
@@ -60,7 +61,7 @@ keywords:
 – A.6.0 `U.Signature` (universal signature carrier).
 – A.6.5 `U.RelationSlotDiscipline` (SlotKind/ValueKind/RefKind stratification + slot-operation lexicon).
 – A.2.6 (Scope discipline; explicit `Γ_time`; implicit “latest/current” is forbidden).
-– A.2.4 `U.EvidenceRole` (timespan + evidence-role discipline for decision-relevant witness sets).
+– A.2.4 evidence-use and status-use relation discipline for decision-relevant witness sets, including timespan, provenance, scope, polarity, and freshness constraints.
 - A.7 (Strict Distinction; EntityOfConcern vs Description-episteme and specification-use cases vs publication face, form, unit, carrier, and rendering lanes).
 – E.8 (pattern authoring order & SoTA discipline).
 – E.10 (LEX‑BUNDLE discipline; D.CTX lexical guardrails).
@@ -74,10 +75,10 @@ keywords:
 – C.3.3 `U.KindBridge` & `CL^k` (explicit repair/translation when endpoint kinds or Contexts differ; no silent re-typing).
 – E.18 assurance-operations on `U.Transfer` (`CalibrateTo`, `CiteEvidence`, `AttributeTo`, `ConstrainTo`, …).
 – F.9 Bridges & CL (cross-context and cross-plane base declarations cite Bridge ids + CL policy).
-– F.15 F‑Suite validation harness (SCR/RSCR pins and refresh governance).
+– F.15 F-Suite validation harness (carrier/source-currentness, provenance, and refresh governance).
 - F.18 naming governance (Tech/Plain twins and publication-lane naming boundaries).
 
-**Aliases (informative; discouraged for normative prose).**
+**Source phrases and red-flag cues (informative; not normative vocabulary).**
 – “anchoring / anchor” (source umbrella colloquial; a red-flag token for *under-described dependence*). **Prohibited in Tech register** as a meaning-surrogate; treat it as a defect to be rewritten into an explicit `baseRelation(dependent, base)` form. Allowed only when referring to a **pattern-defined primitive** that already reserves the word (e.g., E.10 MG‑DA *Domain Anchoring*; evidence/pin “anchors” where the term is explicitly reserved), or inside quoted source text that is immediately followed by a conformant rewrite.
 – “Qualified statement / attributed edge” (knowledge-graph colloquial).
 – “support / supported by / support basis / support relation” (ordinary umbrella support wording). Diagnostic for possible basedness only when the phrase asserts that a dependent content is admissible, usable, interpretable, comparable, publishable, or actionable relative to an explicit base. Otherwise classify the live reading and apply the governing ontology named by value: source-description, evidence, assurance, causal-use, mathematical-lens, work/resource, publication/navigation, or ordinary help.
@@ -85,5 +86,5 @@ keywords:
 
 **Mint‑or‑Reuse note (informative).**
 This pattern **mints** the record shape name `U.ScopedWitnessedBaseDeclaration` (SWBD) and the **base‑change lexicon** operation class names (`declareBase`, `rebase`, `retime`, …) as canonical labels for semantic change classes.
-It **reuses** A.6.5 SlotSpec discipline (SlotKind/ValueKind/RefMode), A.2.6 Scope discipline (`U.Scope`, explicit `Γ_time` when time matters), and A.2.4 witness semantics (`U.EvidenceRole`) as the enforcement substrate.
+It **reuses** A.6.5 SlotSpec discipline (SlotKind/ValueKind/RefMode), A.2.6 Scope discipline (`U.Scope`, explicit `Γ_time` when time matters), and A.2.4 evidence-use relation discipline as the enforcement substrate for witness use.
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Interaction with EntityOfConcern and Description-episteme boundary, specification use/refinement, and DescriptionContext  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_interaction-with-entityofconcern-and-description-episteme-boundary-specification-use-refinement-and-descriptioncontext-normative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:6 — Interaction with EntityOfConcern and Description-episteme boundary, specification use/refinement, and DescriptionContext  (normative)"
-line_start: 35602
-line_end: 35643
+line_start: 35153
+line_end: 35196
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.1.3"
   - "C.2"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
   - "E.17.0-E.17.2"
@@ -39,8 +40,8 @@ DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩
 
 where:
 * `EntityOfConcernRef : U.EntityRef` — fills `EntityOfConcernSlot` (ValueKind `U.Entity`, species often constrained via EntityOfConcernClass ⊑ `U.Entity`).
-* `BoundedContextRef : U.BoundedContextRef` — points to the context that fixes vocabulary, units, and legal inferences for this description (E.10.D1).
-* `ViewpointRef : U.ViewpointRef` — fills `ViewpointSlot` (ValueKind `U.Viewpoint`) and determines which concerns, role-bearing system families, stakeholder groups, and conformance rules apply.
+* `BoundedContextRef : U.BoundedContextRef` — points to the context that fixes vocabulary, units, and admissible inferences for this description (E.10.D1).
+* `ViewpointRef : U.ViewpointRef` — fills `ViewpointSlot` (ValueKind `U.Viewpoint`) and determines which concerns, system or acting-holon families with current role assignments, stakeholder groups, and conformance rules apply.
 
 **Normative requirement (DESCCTX-13).**
 For every `…Description` episteme, and every `…Spec` use admitted by neighbouring specification use/refinement gates:
@@ -51,7 +52,9 @@ For every `…Description` episteme, and every `…Spec` use admitted by neighbo
 EntityOfConcern values such as `U.System`, `U.Method`, `U.Role`, or `U.Episteme` appear in C.2.1 as values of `EntityOfConcernSlot` when an episteme describes, views, or retargets them. They are not the Description episteme produced by that use. The `EntityOfConcern` / Description-episteme boundary separates the EntityOfConcern value from the Description episteme; specification use/refinement is a separate gated use or refinement of that Description episteme, not a third peer ontology class. This boundary does not ban epistemes from being EntityOfConcern values.
 
 **Example.** A formal postulate theorem in physics can be a Description episteme about the behaviour of a physical grounding holon. Its `EntityOfConcernSlot` points to the physical grounding holon, or to the exact behavior, method, or work entity only when a governing pattern has selected that entity under concern; its claim graph carries the theorem, postulates, and derivation; its formal language belongs to formality and publication-expression discipline. It becomes a specification only if a bounded use assigns specification force, such as acceptance criteria, harness checks, normative invariants, C.16 measurement criteria, or verification use. Formal notation alone does not change the slot relation into a third `Specification` ontology class.
-#### C.2.1:6.2 - EntityOfConcern-to-Description morphism and specification-use exit over C.2.1
+
+#### C.2.1:6.2 - EntityOfConcern-to-Description morphism and specification-use boundary over C.2.1
+
 
 * **Describing (`Describe_EoC_DescEp : EntityOfConcern -> DescriptionEpisteme`).**
   Produces an episteme whose:

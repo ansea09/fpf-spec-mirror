@@ -1,28 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.6"
-pattern_title: "Evidence Graph & Provenance Ledger"
+pattern_title: "Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
 section_id: "G.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "G.6 — Evidence Graph & Provenance Ledger"
+  - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:3 — Forces"
-line_start: 82331
-line_end: 82340
+line_start: 81755
+line_end: 81765
 dependencies:
   - "A.10"
+  - "A.15.1"
+  - "A.2.4"
   - "A.21"
+  - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
-  - "C.18"
-  - "C.19"
-  - "C.23"
+  - "C.2.1"
+  - "C.28"
   - "E.10"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
   - "E.18"
-  - "E.5"
+  - "E.18.2"
+  - "E.24"
   - "E.5.2"
+  - "F.10"
   - "F.15"
   - "F.17"
   - "F.9"
@@ -30,11 +40,9 @@ dependencies:
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.7"
   - "G.8"
   - "G.9"
   - "G.Core"
-  - "G.Core.TriggerAliasMap.G6"
 keywords:
   - "CrossingBundle"
   - "EvidenceGraph"
@@ -51,11 +59,12 @@ keywords:
 
 ### G.6:3 - Forces
 
-| Force                        | Tension                                                                             |
-| ---------------------------- | ----------------------------------------------------------------------------------- |
-| **Provenance vs agility**    | Fine‑grained audit trails ↔ friction for authors.                                   |
-| **Lane purity vs synthesis** | Keep TA/VA/LA separable ↔ publish a unified justification surface.                  |
-| **Notation independence**    | Semantics in prose/math ↔ teams want diagrams/tables (informative only).            |
-| **Design vs run**            | Design‑time evidence assembly ↔ run‑time telemetry ingestion must not be conflated. |
-| **Crossings and planes**     | Crossings must be explicit and penalised correctly ↔ authors want “just reuse it”.  |
+| Force | Tension this pattern resolves |
+| --- | --- |
+| Citable provenance versus local evidence use | `A.10` and `A.2.4` can state evidence use; G.6 adds stable path identity only when downstream citation or refresh needs it. |
+| Graph path and work claims stay distinct | A graph path is a declarative relation in an evidence-provenance DAG; actual work and transformation-flow claims stay with `A.15.1` and `E.18`. |
+| Detail versus affordability | A path needs enough nodes, edges, windows, and constraints to replay reliance, but not every neighboring pattern boundary repeated in prose. |
+| Typed downstream use versus one citation | The downstream citation may be one `PathId`, while verification, validation, lineage, assurance, status, causal-use, and source-currentness relations remain typed. |
+| Bridge visibility versus reuse convenience | Cross-context or cross-plane reuse needs explicit bridge/currentness refs; label equality is not enough. |
+| Refresh locality versus stale evidence | Path-level addresses let one changed source, bridge, edition, or policy reopen only the affected evidence paths. |
 

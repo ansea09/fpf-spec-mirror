@@ -6,22 +6,27 @@ section_id: "A.7:6"
 section_title: "Archetypal Grounding (Tell-Show-Show; System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_archetypal-grounding-tell-show-show-system-and-episteme.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:6 — Archetypal Grounding (Tell-Show-Show; System and Episteme)"
-line_start: 19148
-line_end: 19188
+line_start: 18780
+line_end: 18820
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.13"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
+  - "A.2.1"
   - "A.21"
   - "A.3"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "E.10"
   - "E.17"
   - "E.18"
@@ -38,7 +43,7 @@ keywords:
 
 #### A.7:6.1 - System and Episteme example
 **System archetype — “Digital‑twin vs asset”.**
-*Claim:* *The twin (episteme) does not “act”; the **system** bearing TransformerRole enacts Work on the asset; evidence binds to carriers.*
+*Claim:* *The twin (episteme) does not “act”; the system or acting holon under a current `U.RoleAssignment` enacts Work on the asset; evidence binds through A.10 carrier/source-currentness and evidence-provenance relations.*
 *Show:* A maintenance **MethodDescription** (tech card) lives at design‑time; a **Work** record (assurance face) lists Γ_time, Γ_work, PathId and **carrier** ids for telemetry. The twin’s update is **Work on the carrier**, not the asset; CL^plane penalties are disclosed when twin–asset crossings are analysed.
 
 **Episteme archetype — “Peer‑review vs manuscript”.**
@@ -51,7 +56,7 @@ keywords:
 
 * **Substance (system):** Centrifugal pump P‑12.
 * **Role:** **Cooling‑CirculatorRole**.
-* **MethodDescription:** “Loop Circulation v3” (**TechCard**, cited through SCR carriers).
+* **MethodDescription:** “Loop Circulation v3” (**TechCard**, cited through A.10 carrier/source-currentness refs when evidence or source use is current).
 * **Method:** ordered way-of-doing: start → ramp → hold → stop (Γ\_method).
 * **Capability:** P-12 control-unit ability/envelope to enact that Method under stated roles, conditions, resources, and constraints.
 * **Work:** run on 2025‑08‑09 10:00–10:45; energy ledger via Γ\_work; log via Γ\_time.
@@ -61,9 +66,9 @@ keywords:
 **Example 2 — Standard document cited in a design**
 
 * **Episteme:** “Safety Standard S‑174”.
-* **Carriers:** PDF (SCR id: scr://std/S‑174/2025‑07), printed volume (scr://print/S‑174/2e).
-* **Role:** **ReferenceRole** in the valve selection activity.
-* **System bearing TransformerRole:** design team’s selection service.
+* **Carriers:** PDF and printed volume with A.10 carrier/source-currentness refs when the standard is used as source or evidence.
+* **Use relation:** reference-use or constraint-source-use relation for the valve selection activity, named by its direct governing pattern.
+* **Role assignment for work:** `U.RoleAssignment(holderRef=DesignTeamSelectionSystem, roleRef=TransformerRole@ValveSelectionContext, boundedContextRef=ValveSelectionContext)` when the selection work needs a work-facing transformer role value.
 * **MethodDescription:** “Valve Selection SOP v5”.
 * **Method:** abstract valve-selection way-of-doing described by that SOP.
 * **Capability:** design team's selection-service ability/envelope to enact the Method under the project conditions.
@@ -72,6 +77,6 @@ keywords:
 **Example 3 — Set vs team**
 
 * **Set (MemberOf):** {Alice, Bob, 3.14} — a collection; **no behaviour** implied.
-* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can bear **AgentialRole** (A.13).
-* **Safe phrasing:** *“Team T plays **Cooling‑MaintenanceRole** and executed Work W…”*
+* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can hold a current `U.RoleAssignment` for a work-facing role value such as `CoolingMaintenanceRole@Context`.
+* **Safe phrasing:** *“`U.RoleAssignment(holderRef=TeamT, roleRef=CoolingMaintenanceRole@Context, boundedContextRef=ContextT)` is current for Work W…”*
 

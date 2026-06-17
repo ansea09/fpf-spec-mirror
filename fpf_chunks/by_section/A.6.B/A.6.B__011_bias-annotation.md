@@ -6,14 +6,17 @@ section_id: "A.6.B:9"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__011_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:9 — Bias‑Annotation"
-line_start: 9446
-line_end: 9453
+line_start: 9307
+line_end: 9314
 dependencies:
   - "A.10"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -28,25 +31,31 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "F.18"
+  - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
+  - "U.SpeechAct"
 keywords:
-  - "(MUST/SHALL/SHOULD/MAY) as operators inside the law/definition itself"
-  - "(ii) claim that evidence/carriers exist (that is E-)"
+  - "(MUST"
+  - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "(“MUST/SHALL/…”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
   - "Keeps modalities separated and audit‑ready"
   - "L/A/D/E claim classification"
   - "MAY"
+  - "MUST"
   - "MUST NOT"
   - "MUST NOT hide a gate predicate (that is A-)"
+  - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
   - "admissible use"
+  - "and MAY"
   - "and MUST NOT cite D-*"
+  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -55,21 +64,27 @@ keywords:
   - "boundary norm square"
   - "claim IDs"
   - "laws vs gates vs commitments vs evidence"
+  - "may"
   - "non-admissible use"
   - "not a duty.)"
   - "not normative"
-  - "or (iii) assert evidence existence/measurement outcomes (those are E-*)"
-  - "or (iii) assign responsibility/enforcement (that is D-*)"
-  - "they describe adjudicable effects/evidence)"
+  - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
+  - "or (iii) assign responsibility or enforcement (that is D-*)"
+  - "or MAY) as operators inside the law or definition itself"
+  - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
-  - "“the interface/system promises” does not)"
+  - "“commits to”)"
+  - "“is admissible”"
+  - "“is blocked”"
+  - "“the interface or system promises” does not)"
+  - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:9 — Bias‑Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions.
+Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions.
 
-* **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments routed and referenced by ID.
-* **Gov bias:** makes accountability explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier‑anchored rather than tool‑specific.
-* **Onto/Epist bias:** insists on EntityOfConcern / Description episteme / carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
+* **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments classified and referenced by ID.
+* **Gov bias:** makes accountability explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier-referenced rather than tool-specific.
+* **Ontological and Epistemic bias:** insists on EntityOfConcern, Description episteme, and carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
 

@@ -1,23 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.0"
-pattern_title: "U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+pattern_title: "U.MultiViewDescribing - Viewpoints, Views & Correspondences"
 section_id: "E.17.0:8"
 section_title: "Rationale & SoTA‑echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_rationale-sota-echoing-informative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+  - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:8 — Rationale & SoTA‑echoing  (informative)"
-line_start: 64254
-line_end: 64270
+line_start: 63902
+line_end: 63918
 dependencies:
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2"
   - "A.6.3"
   - "A.6.4"
   - "A.7"
-  - "B.5"
   - "C.2.1"
   - "E.10"
   - "E.10.D1"
@@ -46,8 +48,8 @@ keywords:
   Bidirectional transformations literature treats consistency relations and repair as first‑class. `U.CorrespondenceModel` and `U.CorrespondenceEpistemicViewing` provide FPF-native correspondence objects for such relations, ensuring that consistency rules live in ClaimGraphs and respect episteme morphism invariants, rather than being buried in tool code.
 
 * **Optics and displayed categories.**
-  With C.2.1 and A.6.3, epistemes form a category fibred over EntityOfConcern values; viewings act like optics over the episteme slot relation. `U.MultiViewDescribing` is the **displayed‑category‑like** organisation of families indexed by `EntityOfConcernSlot` and `ViewpointSlot`, making later categorical reasoning (e.g. structured cospans for view composition) straightforward.
+  With C.2.1 and A.6.3, epistemes form a category fibred over EntityOfConcern values; viewings act like optics over the episteme slot relation. `U.MultiViewDescribing` is the **displayed‑category‑like** organisation of families indexed by `EntityOfConcernSlot` and `ViewpointSlot`, which makes categorical reasoning, including structured cospans for view composition, reviewable without turning the lens into the governed ontology.
 
-* **Hybrid symbolic/latent representations.**
+* **Hybrid symbolic and latent representations.**
   By treating `U.RepresentationScheme` and `U.RepresentationOperation` as episteme components, families can mix symbolic specs, diagrams, code, and latent representations (e.g. LLM‑based summaries) while staying within the same multi‑view discipline and EpistemicViewing invariants.
 

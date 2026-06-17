@@ -6,16 +6,19 @@ section_id: "A.6:End"
 section_title: "A.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__015_a-6-end.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:End — A.6:End"
-line_start: 8446
-line_end: 8447
+line_start: 8307
+line_end: 8308
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.1"
   - "A.6.3"
   - "A.6.B"
+  - "A.6.C"
   - "A.6.P"
   - "A.7"
   - "B.3"
@@ -48,7 +52,10 @@ dependencies:
 keywords:
   - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
+  - "MUST"
   - "Rewrite as declarative predicate"
+  - "SHOULD"
+  - "and MAY)"
   - "authority-wording split"
   - "boundary"
   - "boundary claim-classification fields"

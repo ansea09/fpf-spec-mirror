@@ -1,23 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.0"
-pattern_title: "U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+pattern_title: "U.MultiViewDescribing - Viewpoints, Views & Correspondences"
 section_id: "E.17.0:6"
 section_title: "Conformance checklist (author’s quick use)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__007_conformance-checklist-author-s-quick-use-normative.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "E.17.0 — U.MultiViewDescribing — Viewpoints, Views & Correspondences"
+  - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:6 — Conformance checklist (author’s quick use)  (normative)"
-line_start: 64209
-line_end: 64233
+line_start: 63857
+line_end: 63881
 dependencies:
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
   - "A.6.2"
   - "A.6.3"
   - "A.6.4"
   - "A.7"
-  - "B.5"
   - "C.2.1"
   - "E.10"
   - "E.10.D1"
@@ -42,7 +44,7 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
    *Explicitly state `EntityOfConcernClass ⊑ U.Entity` and ensure all families restrict `EntityOfConcernSlot` accordingly.*
 
 2. **Define the viewpoint set Σ.**
-   *List `U.Viewpoint` instances (possibly via a `U.ViewpointBundle`) with stakeholders, concerns, allowed EpistemeKinds, and conformance rules.*
+   *List `U.Viewpoint` instances (possibly via a `U.ViewpointBundle`) with stakeholder families, concern entries, allowed EpistemeKinds, and conformance rules.*
 
 3. **Require DescriptionContext for Description-episteme and specification-use cases.**
    *Ensure every `…Description`/`…Spec` episteme in the family has `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` and that `ViewpointRef ∈ Σ`.*
@@ -56,6 +58,6 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
 6. **Separate describing from publication.**
    *Check that pattern text does not treat EntityOfConcern-to-Description or specification-use refinement as “publication”, and that any talk of `publication face/form`/`interop publication form` kind or carriers is clearly delegated to MVPK/publication-face/form discipline.*
 
-7. **Respect SlotKind/ValueKind/RefKind discipline.**
-   *Use `*Slot` only for SlotKinds, `*Ref` only for RefKinds/fields; avoid `Subject`/`Object` roots in episteme types; use `EntityOfConcernSlot` and `viewpointRef` instead.*
+7. **Respect SlotKind, ValueKind, and RefKind discipline.**
+   *Use `*Slot` only for SlotKinds, `*Ref` only for RefKinds and fields; avoid `Subject`/`Object` roots in episteme types; use `EntityOfConcernSlot` and `viewpointRef` instead.*
 

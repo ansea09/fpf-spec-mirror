@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__003_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 61835
-line_end: 61870
+line_start: 61393
+line_end: 61428
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -74,7 +74,7 @@ A `WordingUseRestorationApplicabilityRow` is a pattern-local row over one `seman
 - current-claim or admissible-use classification when current;
 - source-use disposition when current;
 - state-family value or governing-pattern result when current;
-- sentence role;
+- sentence function;
 - admissible use;
 - non-use boundary;
 - remaining reader move;

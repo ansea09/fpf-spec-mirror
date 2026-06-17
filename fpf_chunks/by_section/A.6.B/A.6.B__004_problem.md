@@ -6,14 +6,17 @@ section_id: "A.6.B:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__004_problem.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:2 — Problem"
-line_start: 8918
-line_end: 8931
+line_start: 8779
+line_end: 8792
 dependencies:
   - "A.10"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -28,25 +31,31 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "F.18"
+  - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
+  - "U.SpeechAct"
 keywords:
-  - "(MUST/SHALL/SHOULD/MAY) as operators inside the law/definition itself"
-  - "(ii) claim that evidence/carriers exist (that is E-)"
+  - "(MUST"
+  - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "(“MUST/SHALL/…”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
   - "Keeps modalities separated and audit‑ready"
   - "L/A/D/E claim classification"
   - "MAY"
+  - "MUST"
   - "MUST NOT"
   - "MUST NOT hide a gate predicate (that is A-)"
+  - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
   - "admissible use"
+  - "and MAY"
   - "and MUST NOT cite D-*"
+  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -55,14 +64,20 @@ keywords:
   - "boundary norm square"
   - "claim IDs"
   - "laws vs gates vs commitments vs evidence"
+  - "may"
   - "non-admissible use"
   - "not a duty.)"
   - "not normative"
-  - "or (iii) assert evidence existence/measurement outcomes (those are E-*)"
-  - "or (iii) assign responsibility/enforcement (that is D-*)"
-  - "they describe adjudicable effects/evidence)"
+  - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
+  - "or (iii) assign responsibility or enforcement (that is D-*)"
+  - "or MAY) as operators inside the law or definition itself"
+  - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
-  - "“the interface/system promises” does not)"
+  - "“commits to”)"
+  - "“is admissible”"
+  - "“is blocked”"
+  - "“the interface or system promises” does not)"
+  - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:2 — Problem
@@ -76,6 +91,6 @@ When authors cannot reliably answer two questions—
 
 A boundary needs a minimal, stable classification that:
 
-* routes every **atomic** statement to a unique quadrant, and
+* classifies every **atomic** statement into a unique quadrant, and
 * forces any cross‑quadrant dependencies to be **explicitly referenced**, not smuggled by paraphrase.
 

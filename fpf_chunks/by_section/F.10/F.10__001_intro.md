@@ -1,27 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.10"
-pattern_title: "Status Families Mapping (Evidence • Standard • Requirement)"
+pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
 section_id: "F.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.10 — Status Families Mapping (Evidence • Standard • Requirement)"
+  - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:intro — Intro"
-line_start: 75412
-line_end: 75418
+line_start: 75252
+line_end: 75257
 dependencies:
+  - "A.2.4"
   - "B.3"
-  - "D.CTX"
-  - "E.10.D1"
   - "F.1"
-  - "F.2"
+  - "F.18"
   - "F.3"
-  - "F.4"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -31,10 +28,9 @@ keywords:
   - "status"
 ---
 
-## F.10 - Status Families Mapping (Evidence • Standard • Requirement)
+## F.10 - Status Families Mapping: Evidence, Standard, and Requirement Status
 
-**“Keep statuses in their native modality; translate between Contexts explicitly.”**
-**Status.** Architectural pattern.
-**Builds on:** E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); F.1 (Contexts), F.2 (Seeds), F.3 (Local‑Senses → SenseCells), F.4 (Role Description **Status** templates), F.9 (Bridges).
-**Coordinates with.** B.3 **Trust & Assurance Calculus** (interprets CL penalties); Part C patterns: **KD‑CAL** (measurement semantics), **Norm‑CAL** (deontic logic), **Method‑CAL** (DesignRunTag).
+> **Type:** Boundary and relation-use pattern
+> **Status:** Stable
+> **Normativity:** Normative
 

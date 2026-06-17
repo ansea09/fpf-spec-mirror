@@ -6,21 +6,24 @@ section_id: "B.2.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__010_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:9 — Consequences"
-line_start: 32557
-line_end: 32562
+line_start: 32108
+line_end: 32113
 dependencies:
   - "A.1"
-  - "A.12"
   - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.3"
+  - "A.3.4"
   - "A.7"
   - "B.2"
   - "C.30.LCA"
+  - "U.RoleAssignment"
+  - "U.Work"
 keywords:
   - "control architecture"
   - "feedback loop"

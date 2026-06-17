@@ -6,14 +6,17 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 9466
-line_end: 9476
+line_start: 9327
+line_end: 9337
 dependencies:
   - "A.10"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -28,25 +31,31 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "F.18"
+  - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
+  - "U.SpeechAct"
 keywords:
-  - "(MUST/SHALL/SHOULD/MAY) as operators inside the law/definition itself"
-  - "(ii) claim that evidence/carriers exist (that is E-)"
+  - "(MUST"
+  - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "(“MUST/SHALL/…”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
   - "Keeps modalities separated and audit‑ready"
   - "L/A/D/E claim classification"
   - "MAY"
+  - "MUST"
   - "MUST NOT"
   - "MUST NOT hide a gate predicate (that is A-)"
+  - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
   - "admissible use"
+  - "and MAY"
   - "and MUST NOT cite D-*"
+  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -55,23 +64,29 @@ keywords:
   - "boundary norm square"
   - "claim IDs"
   - "laws vs gates vs commitments vs evidence"
+  - "may"
   - "non-admissible use"
   - "not a duty.)"
   - "not normative"
-  - "or (iii) assert evidence existence/measurement outcomes (those are E-*)"
-  - "or (iii) assign responsibility/enforcement (that is D-*)"
-  - "they describe adjudicable effects/evidence)"
+  - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
+  - "or (iii) assign responsibility or enforcement (that is D-*)"
+  - "or MAY) as operators inside the law or definition itself"
+  - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
-  - "“the interface/system promises” does not)"
+  - "“commits to”)"
+  - "“is admissible”"
+  - "“is blocked”"
+  - "“the interface or system promises” does not)"
+  - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:11 - Common Anti‑Patterns and How to Avoid Them
 
 | Anti‑pattern                 | Symptom                                            | Why it fails                                                | Repair (square‑consistent)                                                                  |
 | ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature/mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
-| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth/admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
-| **Interface‑as‑promiser**    | “The API promises/guarantees …”                    | Category error (F.18): epistemes don’t promise              | Identify committing role (`D-*`), measured property (`E-*`), and metric definition (`L-*`). |
+| **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature or mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
+| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth or admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
+| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Identify committing role assignment or admitted acting system (`D-*`), measured property (`E-*`), and metric definition (`L-*`); use `A.6.C` when contract or promise-content unpacking is live. |
 | **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing                         | Create `E-*` with carriers + conditions; link commitment as `D-* → E-*`.                    |
 | **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use IDs; faces cite IDs; optional Claim Register.                                           |
 | **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Move new claim into canonical layer (L/A/D/E) or mark as informative only.                  |

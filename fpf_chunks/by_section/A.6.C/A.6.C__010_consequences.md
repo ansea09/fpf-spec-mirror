@@ -6,16 +6,16 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 9825
-line_end: 9837
+line_start: 9685
+line_end: 9697
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2.3"
-  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.6"
@@ -24,12 +24,12 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "E.10"
   - "E.17"
   - "F.12"
   - "F.18"
   - "U.Commitment"
-  - "U.EvidenceRole"
   - "U.PromiseContent"
   - "U.SpeechAct"
   - "U.Work"
@@ -48,7 +48,7 @@ keywords:
   - "contract bundle unpacking"
   - "in L/A/E claims"
   - "including common synonyms (SHALL"
-  - "phrase L as definitions/invariants (“is defined as…”"
+  - "phrase L as definitions or invariants (“is defined as…”"
   - "promise content (promise content) ≠ work"
   - "promise-act/utterance/commitment separation"
   - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
@@ -64,8 +64,8 @@ keywords:
 * Commitments become accountable (named roles) and adjudicable (evidence expectations).
 * Boundaries remain evolvable: laws, gates, governance, and evidence can evolve with controlled coupling.
 
-**Trade-offs / mitigations**
+**Trade-offs and mitigations**
 
-* Additional authoring effort; mitigated by applying the unpacking only when contract-language appears or when a claim is used for decision/publication.
+* Additional authoring effort; mitigated by applying the unpacking only when contract-language appears or when a claim is used for decision or publication.
 * Some stakeholders prefer “one sentence contract”; mitigated by MVPK faces that present curated projections while keeping the underlying claim set coherent.
 

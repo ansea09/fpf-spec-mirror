@@ -3,24 +3,36 @@ chunk_kind: "child"
 pattern_id: "A.15.3"
 pattern_title: "SlotFillingsPlanItem"
 section_id: "A.15.3:12a"
-section_title: "P2W Planned-Baseline Use Relation"
+section_title: "P2W planned-baseline use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__014_p2w-planned-baseline-use-relation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
-  - "A.15.3:12a — P2W Planned-Baseline Use Relation"
-line_start: 22123
-line_end: 22128
+  - "A.15.3:12a — P2W planned-baseline use relation"
+line_start: 21673
+line_end: 21678
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.20"
+  - "A.21"
   - "A.6.5"
   - "A.6.7"
+  - "B.3"
+  - "C.27.TA"
   - "E.10.D1"
+  - "E.10.D2"
   - "E.17"
   - "E.18"
+  - "E.18.1"
   - "E.19"
+  - "E.20"
+  - "G.11"
+  - "G.6"
+  - "U.RelationSlotDiscipline"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -34,9 +46,9 @@ keywords:
   - "Γ_time selector"
 ---
 
-### A.15.3:12a - P2W Planned-Baseline Use Relation
+### A.15.3:12a - P2W planned-baseline use relation
 
-When `E.18.1` reaches a planned-baseline question, `SlotFillingsPlanItem` records the planned mapping from a slot-bearing description and `SlotKind`s to planned fillers. It may include evidence-reference hooks, edition pins, assumptions, dependencies, and freshness requests needed before work is enacted.
+When `E.18.1` reaches a planned-baseline question, `SlotFillingsPlanItem` records the planned relation between one slot-bearing description's SlotKinds and the fillers intended for a future work-planning move.
 
-If the same phrase also carries launch-value, run-time actual, evidence, gate, or result meaning, the carry-through record names that separate relation before the PlanItem is used downstream.
+If the same source phrase also carries launch-value, performed-work, evidence, gate, result, measurement, publication-use, source-restoration, or refresh meaning, name that separate current relation before using the PlanItem downstream.
 

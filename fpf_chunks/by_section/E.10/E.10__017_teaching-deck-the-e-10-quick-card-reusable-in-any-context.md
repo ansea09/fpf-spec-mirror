@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Teaching deck — the E.10 quick card (reusable in any Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_teaching-deck-the-e-10-quick-card-reusable-in-any-context.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Teaching deck — the E.10 quick card (reusable in any Context)"
-line_start: 61737
-line_end: 61749
+line_start: 61293
+line_end: 61305
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,12 +36,12 @@ keywords:
 ### E.10:13 - Teaching deck — the E.10 quick card *(reusable in any Context)*
 
 > **Say it cleanly, once (memorise):**
-> **Role** = assignment (mask) - **Method** = way‑of‑doing - **MethodDescription** = recipe (document) - **Work** = run (dated)
-> **Capability** = can‑do within bounds (envelope + measures) - **Service** = promise (access + acceptance)
+> **Role** = role value - **RoleAssignment** = assignment relation - **Method** = way-of-doing - **MethodDescription** = recipe (document) - **Work** = run (dated)
+> **Capability** = can-do within bounds (envelope + measures) - service wording = recover promise, access, acceptance, delivery work, or publication/API-description facet before naming
 > **EntityOfConcern and Description-episteme boundary separates the EntityOfConcern from Description epistemes; specification use is a gated use of a Description episteme**; **publication faces, forms, units, and carriers do not act**; meaning use is interpreted within named Contexts; Bridge records state cross-context correspondence, direction, loss, and scope.
 
 **Name forms (allowed morphology):**
-• **Types and roles:** `<Noun><Role>` for roles and `<Noun><Type>` for types (`IncidentCommanderRole`, `NormativeStandardRole`, `WorkItemType`).
+• **Types and roles:** `<Noun><Role>` for work-facing roles and `<Noun><Type>` for types (`IncidentCommanderRole`, `ShiftOperatorRole`, `WorkItemType`). Standards, evidence, requirements, and status labels do not become roles by suffix.
 • **Statuses:** `<Noun>Status` inside the Context’s role space (`ApprovedStatus`) — status‑only; not enactable.
 • **No suitcase nouns:** avoid the words `and`, `plus`, and `&` in names; use **bundles** (A.2) or separate roles.
 • **Acronyms:** first expansion + register; short‑form registered per **§ 7.7**.

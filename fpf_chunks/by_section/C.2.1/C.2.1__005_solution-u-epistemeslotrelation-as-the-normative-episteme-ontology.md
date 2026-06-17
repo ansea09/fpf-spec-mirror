@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution - U.EpistemeSlotRelation as the normative episteme ontology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotrelation-as-the-normative-episteme-ontology.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:4 — Solution - U.EpistemeSlotRelation as the normative episteme ontology"
-line_start: 35189
-line_end: 35571
+line_start: 34740
+line_end: 35122
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -19,6 +19,7 @@ dependencies:
   - "A.7"
   - "B.1.3"
   - "C.2"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
   - "E.17.0-E.17.2"
@@ -62,7 +63,7 @@ For `U.Episteme`, `U.EpistemeSlotRelation` is the normative **small, typed n-ary
   * `Concept` ~= `U.ClaimGraph`,
   * `Object` ~= `{EntityOfConcern, ReferenceScheme}`.
 
-The rest of this pattern fixes the **minimal core** needed by KD-CAL, A.6.2-A.6.4 and E.17.*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
+The rest of this pattern fixes the **minimal core** needed by KD-CAL, A.6.2-A.6.4 and E.17.*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the slot-relation boundary and profile defined here.
 
 #### C.2.1:4.1 - Minimal epistemic positions (nodes & slots)
 
@@ -71,9 +72,9 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 ##### C.2.1:4.1.1 - `EntityOfConcernSlot` — “what this episteme is about”
 
 **Tech:** `EntityOfConcernSlot` (SlotKind), `entityOfConcernRef : U.EntityRef` (Ref slot in tuples/cards).
-**Plain:** *EntityOfConcern value*, *entity of concern*. Older *entity of concern* wording is source-standard or source-migration wording, not a current Tech head.
+**Plain:** *EntityOfConcern value*, *entity of concern*. The plain phrase helps readers name the slot value; it is not a current Tech head.
 
-**Intent.** Provide a **single, explicit slot** for the entity (or entities) that an episteme is about, avoiding the former conflation of Object/Reference/Context.
+**Intent.** Provide a **single, explicit slot** for the entity (or entities) that an episteme is about, preventing conflation of Object/Reference/Context.
 
 **Normative definition.**
 
@@ -82,7 +83,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
    * Its **ValueKind** is `U.Entity`.
    * Its **RefKind** is `U.EntityRef` (or a species thereof) and **MUST** be realised in data as a field named `entityOfConcernRef : U.EntityRef` (E.10 discipline).
 1. Species of `U.EpistemeKind` **MAY** constrain the ValueKind to a subtype `EntityOfConcernClass ⊑ U.Entity` (for example, “the entity of concern is always a `U.Holon` and, more specifically, a `U.System` or `U.Episteme`”). The subtype **MUST NOT** be named `U.EntityOfConcern`; “EntityOfConcern value” is a local slot-use phrase, not a kernel type.
-2. Wherever episteme previously used `U.EpistemicObject` as a separate type, it is re-interpreted as **“`U.Entity` filling `EntityOfConcernSlot`”** and is retained only as source-migration wording governed by E.10/F.18.
+2. When source wording or a draft uses `U.EpistemicObject` as a separate type, repair it as **“`U.Entity` filling `EntityOfConcernSlot`”** and keep the source wording only as source wording governed by E.10/F.18.
 
 **Didactic cue.**
 “Ask: *What, exactly, is this description about?* That is the EntityOfConcern.”
@@ -143,7 +144,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 
 1. `U.Viewpoint` is the type of **viewpoint specifications**:
 
-   * role-bearing system families and stakeholder groups the viewpoint speaks for,
+   * system or acting-holon families with current role assignments and stakeholder groups the viewpoint speaks for,
    * their **concerns**,
    * allowed **kinds of Description epistemes and Description epistemes admitted for specification use**,
    * and **conformance rules** for views under this viewpoint.
@@ -161,13 +162,13 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 
 ##### C.2.1:4.1.5 - `U.EpistemeView` / `U.View` and `ViewSlot` — episteme‑level views
 
-**Tech:** `U.EpistemeView` (kernel species of `U.Episteme`), alias `U.View`; `ViewSlot` (SlotKind); `viewRef : U.ViewRef`.
+**Tech:** `U.EpistemeView` (kernel species of `U.Episteme`), selected short form `U.View`; `ViewSlot` (SlotKind); `viewRef : U.ViewRef`.
 **Plain:** *view*, *epistemic view*.
 
 **Intent.** Distinguish **view‑epistemes** (views **of** Description epistemes or Description epistemes admitted for specification use) from both:
 
 * the underlying Description epistemes or Description epistemes admitted for specification use themselves, and
-* the MVPK `publication face/form`/`interop publication form` `publication-face kind` values and the external carriers/renderings on which views are made available (E.17, publication-face/form discipline, SCR/RSCR).
+* the MVPK `publication face/form`/`interop publication form` `publication-face kind` values and the publication-side carriers/renderings on which views are made available (E.17, publication-face/form discipline, and A.10 carrier/source-currentness relations when evidence or reliance use is current).
 
 **Normative definition.**
 
@@ -177,7 +178,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
    * one `EntityOfConcernSlot`,
    * one `ViewpointSlot`,
    * and appropriate `ReferenceSchemeSlot`.
-2. `U.View` is an **alias** for `U.EpistemeView` in E‑cluster patterns (especially E.17.\*), used where the word “view” is conventional.
+2. `U.View` is the **selected short form** for `U.EpistemeView` in E-cluster patterns (especially E.17.*), used where the word “view” is conventional.
 3. `ViewSlot` is a **SlotKind** whose:
 
    * **ValueKind** is `U.View`,
@@ -244,7 +245,7 @@ In C.2.1+ `U.PresentationCarrier`, publication face/form values, MVPK face, carr
 
 `U.EpistemeSlotRelation` deliberately does **not** reify every episteme-adjacent structure as a slot. Several key structures remain **attached, non-slot components** of `U.Episteme`:
 * **`JustificationGraph`** - the argument/evidence graph for nodes of `U.ClaimGraph` (A.10/B.3).
-* **`EvidenceBindings`** - per-claim `U.EvidenceRole` assignments that connect claims to external `U.Work` and carriers.
+* **`EvidenceBindings`** - per-claim evidence-use bindings, A.10 evidence-provenance refs, or B.3 assurance-evidence refs that connect claims to evidence-producing or evidence-interpreting `U.Work` occurrences, role assignments when current, carrier/source-currentness records, and publication or carrier relations.
 * **`EditionSeries`** - the `PhaseOf` chain of episteme editions (A.14) with change-class annotations (symbol-only vs ClaimGraph vs ReferenceScheme changes).
 * **`ScopeCard` and `U.ClaimScope`** - USM scope values (A.2.6) describing where the episteme's claims hold.
 
@@ -348,9 +349,9 @@ When the same claim-bearing unit is available to readers, tools, or downstream w
 
 * **publication form** — the concrete form in which the episteme is made available for some use, such as a cue pack, transfer-prepared claim set, prompt form, partial normal form, record, card, table, or profile;
 * **view, including MVPK face** — `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
-* **carrier or rendering** — the SCR/RSCR, document, dashboard, generated screen, trace file, transport envelope, or display that bears or renders a publication;
+* **carrier or rendering** — the document, dashboard, generated screen, trace file, transport envelope, display, or A.10 carrier/source-currentness record that bears or renders a publication;
 * **source-finding cue** — a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
-* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
+* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, decision record, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
 
 No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own P2W lanes rather than storing them inside the episteme or its carrier.
 
@@ -369,7 +370,7 @@ C.2.1 adopts **A.6.5 `U.RelationSlotDiscipline`** wholesale. For the two key pos
    * `RefKind = U.HolonRef`;
    * normative field name: `groundingHolonRef? : U.HolonRef`.
      There is no kernel type `U.GroundingHolon`; “grounding holon” is a **slot-filler phrase**.
-Any episteme that previously mixed slot/value/ref concepts (e.g., using `EntityOfConcernRef` as if it were a type) **MUST** be migrated to this discipline over time; C.2.1 provides the normative reference, and F.18 / discipline packs provide the migration guide.
+Any episteme text that mixes slot/value/ref concepts (e.g., using `EntityOfConcernRef` as if it were a type) **MUST** be repaired to this discipline when the claim is current; C.2.1 provides the normative reference, and F.18 or the relevant discipline pattern governs any naming decision.
 
 #### C.2.1:4.3 - Minimal epistemic morphisms (informal schema)
 

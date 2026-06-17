@@ -1,33 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Types & Roles"
+pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
 section_id: "F.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.5 — Naming Discipline for U.Types & Roles"
+  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
   - "F.5:intro — Intro"
-line_start: 73498
-line_end: 73504
+line_start: 73158
+line_end: 73163
 dependencies:
-  - "A.11"
-  - "A.7"
-  - "D.CTX"
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "E.10"
-  - "E.10.D1"
-  - "E.10.D2"
-  - "F.0.1"
-  - "F.1"
+  - "E.10.ARCH"
+  - "F.10"
   - "F.13"
-  - "F.2"
-  - "F.3"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
+  - "U.Type"
 keywords:
   - "U.Type naming"
   - "lexical rules"
@@ -36,10 +41,9 @@ keywords:
   - "twin registers"
 ---
 
-## F.5 - Naming Discipline for U.Types & Roles
+## F.5 - Naming Discipline for U.Type Names and RoleDescription Labels
 
-**Status.** Definitional pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 EntityOfConcern, Description Episteme, and Specification-Use**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description Definition**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; F.0.1 **context‑local Lexicon Principle (RLP)**.
-**Coordinates with.** F.7 **Concept‑Set Table**; F.8 **Mint or Reuse?**; F.9 **Alignment & Bridge**; F.13 **Term Registry & Deprecation**.
-**Aliases (informative).** *Context‑true naming*; *Two‑register labels*.
+> **Type:** Definitional (D)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 

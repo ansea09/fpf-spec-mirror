@@ -6,16 +6,16 @@ section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:3 — Forces"
-line_start: 20685
-line_end: 20693
+line_start: 20323
+line_end: 20331
 dependencies:
   - "A.10"
   - "A.12"
-  - "A.15.1"
+  - "A.15"
   - "A.15.1-A.15.4"
   - "A.15.4"
   - "A.2"
@@ -28,9 +28,14 @@ dependencies:
   - "B.3"
   - "C.24"
   - "C.26.2"
+  - "C.28"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
   - "E.16"
   - "E.17"
   - "E.17.EFP"
+  - "E.18.1"
 keywords:
   - "U.Method"
   - "U.MethodDescription"
@@ -48,7 +53,7 @@ keywords:
 
 | Force | Tension |
 | :--- | :--- |
-| **Structure vs. Function** | The need to model the stable, physical structure of a system (`mereology`) vs. the need to model its dynamic, functional behavior (`roles`, methods, plans, and work occurrences). |
+| **Structure vs. Contextual Enactment** | The need to model stable structural decomposition (`mereology`) vs. the need to model holder-in-role assignment, capability expectation, method, plan, and dated work occurrence. |
 | **Design vs. Run** | The need for a timeless, reusable description of a capability (`design-time`) vs. the need for a specific, dated record of its execution (`run-time`). |
 | **Clarity vs. Jargon** | The need for a precise, formal vocabulary to prevent ambiguity vs. the reality that teams use informal, domain-specific source cues like "process" or "workflow." |
 | **Accountability vs. Complexity** | The need for a complete, end-to-end audit trail for every decision-relevant work occurrence vs. the desire to keep models simple and avoid excessive documentation. |

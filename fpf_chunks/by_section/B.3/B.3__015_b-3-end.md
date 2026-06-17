@@ -6,27 +6,26 @@ section_id: "B.3:End"
 section_title: "B.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_b-3-end.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:End — B.3:End"
-line_start: 33178
-line_end: 33179
+line_start: 32729
+line_end: 32730
 dependencies:
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.6"
   - "A.7"
   - "B.1"
   - "B.1.1"
-  - "B.1.2"
-  - "B.1.3"
-  - "B.1.4"
   - "B.3"
   - "B.3.5"
   - "B.3.x"

@@ -6,16 +6,16 @@ section_id: "A.6.C:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:3 — Forces"
-line_start: 9590
-line_end: 9600
+line_start: 9451
+line_end: 9461
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2.3"
-  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.6"
@@ -24,12 +24,12 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "E.10"
   - "E.17"
   - "F.12"
   - "F.18"
   - "U.Commitment"
-  - "U.EvidenceRole"
   - "U.PromiseContent"
   - "U.SpeechAct"
   - "U.Work"
@@ -48,7 +48,7 @@ keywords:
   - "contract bundle unpacking"
   - "in L/A/E claims"
   - "including common synonyms (SHALL"
-  - "phrase L as definitions/invariants (“is defined as…”"
+  - "phrase L as definitions or invariants (“is defined as…”"
   - "promise content (promise content) ≠ work"
   - "promise-act/utterance/commitment separation"
   - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
@@ -61,7 +61,7 @@ keywords:
 | Force                      | Tension                                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Conversational convenience | People will keep saying “contract”; banning the term is unrealistic.                                                                              |
-| Ontological correctness    | “Contract” is a metaphor unless we explicitly locate who promises/commits and what can be evidenced.                                              |
+| Ontological correctness    | “Contract” is a metaphor unless we explicitly locate who promises or commits and what can be evidenced.                                              |
 | Boundary diversity         | Software APIs, hardware connectors, protocols, and SLAs share the “contract” word but differ in what is adjudicated and how.                      |
 | Multi-view publication     | Faces are necessary for audience fit, but rephrasing easily creates new commitments.                                                              |
 | Adjudicability             | “Guarantee” claims must either be (i) semantic truths, (ii) deontic commitments, or (iii) evidenced properties—otherwise they are empty rhetoric. |

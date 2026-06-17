@@ -6,12 +6,12 @@ section_id: "A.1.1:13"
 section_title: "Footer Marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__015_footer-marker.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:13 — Footer Marker"
-line_start: 1873
-line_end: 1874
+line_start: 1878
+line_end: 1879
 dependencies:
   - "A.1"
   - "A.15"

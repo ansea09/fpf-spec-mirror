@@ -6,12 +6,12 @@ section_id: "A.6.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:intro — Intro"
-line_start: 9870
-line_end: 9877
+line_start: 9730
+line_end: 9738
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -33,6 +33,7 @@ keywords:
 ---
 
 ## A.6.0 - U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType
+> **Status:** Stable
 
 **Status.** Architectural pattern, kernel‑level and universal.
 **Placement.** Part A (Kernel), **before A.6.1** (“U.Mechanism”).

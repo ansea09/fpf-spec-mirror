@@ -1,30 +1,45 @@
 ---
 chunk_kind: "parent"
 pattern_id: "F.8"
-pattern_title: "Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
+pattern_title: "Mint-or-Reuse Decision"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.8.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)"
-line_start: 74322
-line_end: 74646
+  - "F.8 — Mint-or-Reuse Decision"
+line_start: 74100
+line_end: 74482
 dependencies:
   - "A.11"
+  - "A.15"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "A.7"
   - "A.8"
-  - "D.CTX"
-  - "E.10.D1"
+  - "C.3"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.9"
   - "F.1"
+  - "F.10"
+  - "F.13"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.18"
   - "F.2"
   - "F.3"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
   - "decision lattice"
   - "minting new types"
@@ -33,328 +48,386 @@ keywords:
   - "type explosion"
 ---
 
-## F.8 - Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias)
+## F.8 - Mint-or-Reuse Decision
 
-**“Name only what thinking **requires**, and reuse everything else.”**
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 
-**Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; A.8 **Universal Core**.
-**Coordinates with.** F.1 **Contexts (Contexts)**; F.2 **Harvest**; F.3 **SenseCells**; F.4 **Role Description**; F.5 **Naming Discipline**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge**.
-**Aliases (informative).** *Mint‑vs‑Reuse gate*; *Naming governor*.
+### F.8:0 - Use This When
 
-### F.8:1 - Intent & applicability
+**Plain name.** Name admission decision.
 
-**Intent.** Provide a **minimal, conceptual decision lattice** that answers, for any modelling need:
+Use this pattern when a project has a candidate expression and must decide whether it should stay local, reuse an existing name, become an alias, reuse a Concept-Set row, name a role-description episteme, introduce a new Concept-Set row, introduce a policy id, or become a rare `U.Type` candidate.
 
-> “Do I **reuse** an existing label, add an **alias**, reference a **Concept‑Set row**, define a **Role Description**, or mint a **new U.Type**?”
+Typical moments:
 
-The lattice enforces **locality of meaning** (Contexts), **senseFamily separation** (A.7), and **parsimony** (A.11) while remaining didactically simple.
+- a role-like expression such as `ReviewerRole`, `AccessRole`, `EvidenceRole`, `RequirementRole`, `ProviderRole`, or "actor" appears and the project must decide whether it names a work-facing `U.Role`, a status-use relation, an evidence-use relation, an access or policy term, a relation position, or only a local phrase;
+- a source tradition uses a convenient name, but the name would import one context's ontology if promoted as an FPF name;
+- a Concept-Set row seems reusable, but its scope may be only naming, not substitution, role assignment, measurement, or structural inference;
+- a project wants a new `U.Type`, policy id, role-description label, or public term because no existing name feels comfortable;
+- an `E.10` repair discovers that a smoother word would still hide the current kind or relation.
 
-**Applicability.** Use whenever a new name seems “needed” in any FPF pattern thread (**Role Assignment & Enactment**, Sys-CAL, KD-CAL, Kind-CAL, Method-CAL, LCA-CAL…).
+**Primary EntityOfConcern.** The EntityOfConcern is one mint-or-reuse decision for one candidate expression or proposed durable name. The pattern governs the decision relation. It does not define the named `U.Type`, does not describe the `U.Role`, does not assign a holder, does not assert status, does not provide evidence, and does not make a publication authoritative.
 
-**Non‑goals.** No workflows, no roles, no storage. This is **thinking discipline**, not process guidance.
+**Primary working reader.** The first reader is an engineer-manager, analyst, method author, pattern author, or terminology steward deciding whether a candidate expression deserves durable FPF treatment.
 
-### F.8:2 - Problem frame
+**First useful move.** Recover what the candidate expression is trying to name in the current bounded context. Then choose the smallest admissible decision: local phrase, alias, local name reuse, Concept-Set row reuse, RoleDescription label, direct-pattern name, policy id, new row, or rare `U.Type` candidate.
 
-Modellers tend to **mint names** when they actually need **reuse**, **aliasing**, or **explicit Cross‑context reading**. Consequences:
+**What goes wrong if missed.** A convenient label becomes a new ontology. A source word becomes global. A status, evidence, access, requirement, source, publication, or relation-position use gets named as a role. A Concept-Set row is used beyond the scope admitted by its bridge evidence. FPF then accumulates duplicate kinds where it needed a smaller decision.
 
-1. **Name inflation.** Parallel labels for the same idea across Contexts.
-2. **senseFamily mixing.** Behavioural **Role** names that smuggle in deontic **Status** or measurement talk.
-3. **Hidden bridges.** Cross‑context sameness is implied by look‑alike words rather than declared (F.9).
-4. **Kernel sprawl.** New **U.Types** appear to plaster over local vocabulary gaps.
+**What this buys.** Teams can reuse names without growing FPF by accident. Durable names become harder to mint, but easier to trust. Role expressions become work-facing role names only when the role ontology is actually current; other expressions go to their direct patterns before any durable naming.
+
+**Not this pattern when.**
+
+- If the issue is ordinary phrase repair with no durable name, use `E.10`, `E.10.ARCH`, `A.6.P`, or the direct governing pattern.
+- If the issue is choosing a good label after the mint-or-reuse decision is already made, use `F.5` for the local name family and `F.18` for the fuller public naming protocol.
+- If the issue is describing one work-facing role, use `F.4`.
+- If the issue is assigning a holder to a role or attributing performed work, use `A.2.1`, `F.6`, and `A.15.1`.
+- If the issue is cross-context sameness, use `F.9` and `F.7`.
+- If the issue is status, evidence, source, standard, requirement, publication, assurance, gate, or decision use, use the direct pattern before naming.
+
+### F.8:1 - Problem Frame
+
+Name pressure is often a sign of unresolved ontology. A project wants one short expression, but the expression may stand for several different values: a local sense, a reusable row, a role-description label, a status value, a method name, a work occurrence label, a policy id, or a new `U.Type` candidate.
+
+The dangerous shortcut is to decide by word form. If the word contains `Role`, it is treated as a role. If the word appears in two contexts, it is treated as the same concept. If a source standard uses the name, the name is promoted. If the expression is short and readable, it becomes public vocabulary.
+
+F.8 delays naming until the current kind and use are recovered. It is the gate between local expression and durable name, not the naming style guide itself.
+
+### F.8:2 - Problem
+
+Without this pattern:
+
+1. **Local phrases become durable names.** A temporary phrase outlives its context and looks like FPF vocabulary.
+2. **Source names capture FPF.** One tradition's word becomes the selected FPF name before cross-context fit is shown.
+3. **Role expressions become role ontology.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is promoted without checking whether a work-facing `U.Role` exists.
+4. **Role names hide assignments.** A RoleDescription label is treated as proof that a holder has the role.
+5. **Concept-Set rows overreach.** A row admitted for naming is reused for assignment, measurement, or structural inference.
+6. **Aliases change meaning.** A prettier label is introduced but silently changes kind, scope, or use.
+7. **Kernel inflation follows comfort.** A new `U.Type` is proposed because existing names feel awkward.
+8. **Policy ids appear as strings.** A policy identifier is reused or introduced without a resolvable policy specification and decision trace.
 
 ### F.8:3 - Forces
 
-| Force                       | Tension to resolve                                                                            |
-| --------------------------- | --------------------------------------------------------------------------------------------- |
-| **Parsimony vs coverage**   | Avoid new names unless necessary, yet cover recurring Cross‑context readings.                    |
-| **Locality vs unification** | Keep senses **in‑Context**; when reading across, do it **explicitly** and only as far as needed. |
-| **Didactics vs fidelity**   | Give readers one label to hold, but never over‑state sameness (respect CL and scope).         |
+| Force | Tension |
+| --- | --- |
+| Parsimony vs coverage | Avoid new durable names while still giving teams enough vocabulary for real recurring work. |
+| Local sense vs cross-context reuse | A name can be obvious inside one bounded context and unsafe across contexts. |
+| Human readability vs ontology | Short names help use; they also hide kind, scope, and relation if admitted too early. |
+| Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF name. |
+| Naming speed vs downstream cost | Quick minting is cheap now and expensive when every subsequent pattern must repair it. |
+| Open-world use vs false completeness | A missing durable name may mean "not current", not "new type required". |
+
+### F.8:4 - Solution
+
+Treat mint-or-reuse as a typed decision over a recovered candidate, not as a vote on wording. Use this compact relation:
+
+```text
+MintReuseDecision:
+  CandidateExpressionSlot:
+  BoundedContextSlot:
+  RecoveredKindOrRelationSlot:
+  LocalSenseRefSlot:
+  ProposedUseSlot:
+  ReuseCandidateRefSlot:
+  DecisionKindSlot:
+  DirectPatternRefs:
+  NameDisciplineRefs:
+  NonAdmissibleOverreadSlot:
+  ReopenConditionSlot:
+```
+
+`DecisionKindSlot` is a local field for the result of this pattern. It does not create a new `U.*` kind.
+
+Admissible decision kinds:
+
+- `localPhraseOnly`;
+- `reuseLocalSenseLabel`;
+- `aliasOnly`;
+- `reuseConceptSetRow`;
+- `nameRoleDescription`;
+- `nameDirectPatternValue`;
+- `introducePolicyId`;
+- `proposeConceptSetRow`;
+- `proposeUTypeCandidate`;
+- `blockOrLowerUse`.
+
+#### F.8:4.1 - Decision Targets
+
+| If the candidate expression names... | F.8 decision | Direct governing pattern |
+| --- | --- | --- |
+| A one-off phrase after local repair | `localPhraseOnly` | `E.10` or direct governing pattern |
+| An existing local sense inside one bounded context | `reuseLocalSenseLabel` | `F.1`, `F.2`, `F.3`, `F.5` |
+| A wording variant for the same recovered meaning | `aliasOnly` | `F.5`, `F.13`, `F.18` |
+| A cross-context reading already admitted by bridges | `reuseConceptSetRow` | `F.7`, `F.9` |
+| A label for a role-description episteme describing one `U.Role` | `nameRoleDescription` | `F.4`, `F.5`, `F.18` |
+| A status, evidence, source, requirement, publication, assurance, gate, decision, method, work, relation-position, characteristic, or architecture value | `nameDirectPatternValue` only after the direct pattern recovers the value | Direct governing pattern, then `F.5` or `F.18` if durable naming is current |
+| A policy identifier | `introducePolicyId` or reuse with resolvable refs | `F.8:8.1`, plus the pattern governing the policy use |
+| A recurring cross-context row not yet present | `proposeConceptSetRow` | `F.7`, `F.9` |
+| A missing cross-family primitive | `proposeUTypeCandidate` | `A.8`, `C.3`, `E.9`, `F.18` |
+
+#### F.8:4.2 - Decision Sequence
+
+Use this order. Stop at the first result that fits the recovered kind and use.
+
+1. **Recover the current claim.** Name the bounded context, local sense if known, and the kind or relation being claimed.
+2. **Split mixed candidates.** If one expression covers role, status, evidence, work, method, measurement, or structure at once, split it before deciding.
+3. **Check local reuse.** If one bounded context already has the needed local sense, reuse its label inside that context.
+4. **Check role expression.** If the candidate describes one work-facing `U.Role`, use `F.4` and `F.5`. If it asserts assignment or performed work, use `A.2.1`, `F.6`, or `A.15.1`. If it is evidence, status, access, requirement, source, publication, assurance, gate, decision, or relation-position use, use the direct pattern.
+5. **Check cross-context reuse.** If more than one context is current, use `F.9` bridge discipline and `F.7` Concept-Set row discipline. Reuse a row only for the row's admitted use.
+6. **Check alias.** If the meaning is the same and only wording changes, use alias discipline. Do not let an alias change kind or scope.
+7. **Check policy id.** If the candidate is a policy identifier, require `PolicyIdRef` discipline in `F.8:8.1`.
+8. **Propose new row.** If the need recurs across contexts and bridges admit the intended use but no row exists, propose a small Concept-Set row.
+9. **Propose new `U.Type` only rarely.** Use this only when the candidate is cross-family, irreducible to existing FPF values, and governed by an accepted decision record.
+10. **Block or lower.** If none of the above is true, keep the expression local, quote it as source wording, or lower the claim.
+
+#### F.8:4.3 - Role Expression Boundary
+
+A role expression becomes a durable role name only when it names one work-facing `U.Role` or the role-description episteme for that role in one bounded context.
+
+| Source expression | Recovered case | F.8 result |
+| --- | --- | --- |
+| `ReviewerRole` in a review method | Work-facing role value needs a description and label | `nameRoleDescription`; use `F.4`, `F.5`, `F.18` when public |
+| `Alice as reviewer` | Holder assigned to role for a window | Not a name decision until `A.2.1` recovers the assignment |
+| `review happened` | Performed work | Use `A.15.1`; durable naming only if the work-kind name itself is current |
+| `EvidenceRole` | Episteme used as evidence | Use evidence-use patterns; only then name the evidence-use relation if durable |
+| `AccessRole` | Permission or policy grouping | Use access, policy, status, or deontic pattern; do not mint a `U.Role` by suffix |
+| `ProviderRole` in a signature | Relation position | Use `A.6.5` SlotSpec discipline; name a slot if needed |
+| `RoleEnactment` in source prose | Source wording around assignment plus work occurrence | Use `F.6`; do not mint `U.RoleEnactment` |
+
+#### F.8:4.4 - Row Scope Consumption
+
+F.8 consumes row scope; it does not define bridge strength. `F.9` declares bridges and `F.7` declares Concept-Set rows. F.8 asks whether the row's declared use is enough for the proposed name.
+
+| Row use | F.8 admissible naming use | Non-admissible overread |
+| --- | --- | --- |
+| Naming-only | Shared prose label, glossary text, teaching label | assignment, performed work, structural inference, measurement equivalence |
+| Role-description naming | RoleDescription label can cite the row as a comparison aid when one local `U.Role` remains primary | cross-context role assignment by row alone |
+| Measurement naming | Shared measurement label where units and procedure constraints remain visible | procedure interchange without the measurement pattern |
+| Type-structure naming | Name for an admitted structural relation under the row's invariants | universal `U.Type` without the Type and decision patterns |
+
+If the row does not admit the intended use, lower the name's use or open the direct bridge or row repair. Do not strengthen a name because the wording is attractive.
+
+### F.8:5 - Invariants
+
+1. **Kind before name.** The candidate's recovered kind or relation comes before the label decision.
+2. **One decision, one current use.** Mixed uses are split into separate decisions.
+3. **Local before cross-context.** Reuse local sense labels before proposing cross-context rows or new `U.Types`.
+4. **Aliases are meaning-preserving.** An alias cannot change kind, scope, use, or authority.
+5. **Role names are work-facing.** A role name or RoleDescription label must point to a work-facing `U.Role`; status, evidence, access, source, publication, requirement, assurance, gate, decision, and relation-position uses are direct-pattern names.
+6. **Role assignment is not naming.** A name does not assign a holder or prove performed work.
+7. **Rows do not exceed their admitted use.** F.8 may reuse a row only at the use declared by `F.7` and admitted by `F.9`.
+8. **New `U.Type` candidates are rare.** Cross-family recurrence and irreducibility are necessary; an accepted decision record governs the change.
+9. **Policy ids are resolvable.** A policy id needs a policy specification reference and, when introduced, a mint decision reference.
+10. **Source labels are not semantic authority.** A source term can be evidence for a local sense or alias, not automatic FPF vocabulary.
 
-### F.8:4 - Minimal vocabulary (used in this pattern only)
+### F.8:6 - Reasoning Primitives
+
+```text
+Candidate expression E has no recovered kind or relation
+  -> do not mint; run E.10 or direct precision restoration first.
+```
+
+```text
+E names one local sense in context C
+  -> reuse local label in C unless durable public use is current.
+```
+
+```text
+E names one work-facing Role R in context C
+  -> use F.4 and F.5 for RoleDescription naming; use A.2.1 for assignment.
+```
+
+```text
+E names an episteme-use, status-use, policy-use, source-use, or relation-position case
+  -> recover the direct pattern before any durable name is selected.
+```
+
+```text
+E needs cross-context reuse
+  -> use F.9 bridge plus F.7 row; F.8 only consumes the admitted row use.
+```
+
+```text
+E is a proposed new U.Type
+  -> require irreducibility, cross-family recurrence, and an accepted decision record.
+```
+
+### F.8:7 - Worked Cases
+
+#### F.8:7.1 - Reviewer Role vs Review Report
 
-* **Context** — `U.BoundedContext` (per D.CTX).
-* **SenseCell** — address of a **local sense** produced by F.3 (one context × one clustered sense).
-* **Concept‑Set row** — a **licensed Cross‑context reading** (F.7) of cells in one senseFamily with a declared **Row Scope** and **Row CL(min)**.
-* **senseFamily** — as defined in **F.0.1**; here used as the **typed discriminator for rows** restricted to {Role | Status | Measurement | Type‑structure | Method | Execution}.
-* **Role Description** — a **Role or Status** template anchored to a **single SenseCell** (F.4).
-* **Alias** — an **additional label** for an existing FPF label (within F.5), no new semantics.
-* **CL threshold τ(scope)** — the **minimum congruence level** needed for a row’s scope (e.g., τ(Naming-only) < τ(Assignment-eligibility) < τ(Type-structure)).
+The expression `ReviewerRole` in `PatternReview_2026` names a work-facing role value. F.8 admits `nameRoleDescription`: use `F.4` for the role-description episteme and `F.5` or `F.18` for the label.
+
+The expression "review report has reviewer role" is different. The report is an episteme. It may be used as evidence or source for an adequacy claim about the reviewed pattern; it does not hold the work-facing role. F.8 does not mint a role name for the report. It sends the case to evidence-use, source-use, or publication-use patterns.
+
+#### F.8:7.2 - Actor Across BPMN and PROV
+
+A manager wants one word, "actor", for BPMN participant and PROV agent in a diagram. F.8 asks for the intended use. If the Bridge Card and Concept-Set row admit only naming use, the result is `reuseConceptSetRow` for prose and diagram labels only.
+
+No role assignment follows. If the project subsequently needs a work-facing role in one context, it creates or reuses the local role-description episteme for that context.
+
+#### F.8:7.3 - Access Role
+
+An access-control source says `ApproverRole`. In that source, the expression may name a permission grouping. F.8 first recovers the access or policy relation. Only if the project also defines a work-facing `U.Role` for approval work in a bounded context does a RoleDescription label become current.
+
+Otherwise the durable name, if needed, belongs to the access, policy, status, or gate pattern, not to role ontology.
+
+#### F.8:7.4 - Policy Id
+
+A gate profile introduces `Aut-Guard-2026`. F.8 treats this as a policy-id decision. Reuse requires a resolvable `PolicySpecRef`. New introduction also needs a `MintDecisionRef` or equivalent accepted decision record.
+
+The policy id is not a role, method, gate result, evidence value, or source authority by itself. It is a reference to a policy specification used by the pattern that governs the policy claim.
+
+#### F.8:7.5 - New U.Type Candidate
+
+A team proposes `U.InfluenceEdge` because many documents use "influence". F.8 blocks immediate minting. The team must show the candidate is not an existing relation, causal claim, evidence relation, characteristic, method relation, or bridge relation under current patterns. If it is still cross-family, irreducible, and needed by several domain families, the proposal goes to `A.8`, `C.3`, `E.9`, and `F.18`.
+
+#### F.8:7.6 - Filled Decision Records
+
+```text
+MintReuseDecision:
+  CandidateExpressionSlot: ReviewerRole
+  BoundedContextSlot: PatternReview_2026
+  RecoveredKindOrRelationSlot: U.Role described by one RoleDescription episteme
+  LocalSenseRefSlot: review-work role in PatternReview_2026
+  ProposedUseSlot: durable local RoleDescription label
+  ReuseCandidateRefSlot: no existing local role-description label fits
+  DecisionKindSlot: nameRoleDescription
+  DirectPatternRefs: F.4, F.5; F.18 if public reuse becomes current
+  NameDisciplineRefs: role label must not encode assignment, capability, method, work, evidence, or status
+  NonAdmissibleOverreadSlot: this decision does not assign Alice, prove review work, or make a review report evidence
+  ReopenConditionSlot: reopen if the label is used for evidence, status, access, source, publication, or cross-context row claims
+```
 
-### F.8:5 - The decision lattice (conceptual, notation‑free)
+```text
+MintReuseDecision:
+  CandidateExpressionSlot: EvidenceRole
+  BoundedContextSlot: PatternReview_2026
+  RecoveredKindOrRelationSlot: evidence-use relation around a review-report episteme
+  LocalSenseRefSlot: review report used as evidence for an adequacy claim about the reviewed pattern
+  ProposedUseSlot: durable name requested for repeated evidence-use wording
+  ReuseCandidateRefSlot: no U.Role candidate, because the episteme is not a role holder
+  DecisionKindSlot: nameDirectPatternValue or blockOrLowerUse
+  DirectPatternRefs: A.10, B.3, G.6, or direct evidence-use pattern
+  NameDisciplineRefs: F.5 or F.18 only after the evidence-use relation is recovered
+  NonAdmissibleOverreadSlot: do not mint EvidenceRole as RoleDescription or U.Role
+  ReopenConditionSlot: reopen if the evidence-use relation changes target claim, polarity, provenance, assurance use, or validity window
+```
 
-> Read top‑to‑bottom; the **first satisfied** branch decides. At every step, **state the senseFamily** (Role, Status, Measurement, Type-structure, Method, or Execution) before you proceed.
+### F.8:8 - Conformance Checklist
 
-#### F.8:5.1 - Q0 — What is the **senseFamily** of your need?
+| Check | Pass condition |
+| --- | --- |
+| `CC-F8-01` | Candidate expression, bounded context, proposed use, and recovered kind or relation are named. |
+| `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, work, measurement, or structure uses are split. |
+| `CC-F8-03` | A local existing sense is reused before proposing a row or `U.Type`. |
+| `CC-F8-04` | Role expressions become durable role names only after `U.Role` and RoleDescription ontology are recovered. |
+| `CC-F8-05` | Assignment and performed-work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
+| `CC-F8-06` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names go to direct governing patterns. |
+| `CC-F8-07` | Concept-Set row reuse stays within the row's admitted use. |
+| `CC-F8-08` | Aliases preserve meaning and carry lineage when durable. |
+| `CC-F8-09` | New `U.Type` candidates cite cross-family recurrence, irreducibility, and accepted decision record. |
+| `CC-F8-10` | Policy ids carry `PolicyIdRef` discipline when introduced or reused. |
+| `CC-F8-11` | The decision states what overread is not admitted and what condition reopens the decision. |
 
-* If **uncertain**, return to F.1/F.3: stabilise the Context(s) and the local sense.
-* If **mixed**, split the need: one decision **per senseFamily** (A.7).
+#### F.8:8.1 - Policy-Id Mint-or-Reuse Discipline
 
-#### F.8:5.2 - Q1 — Is there a **single Context** whose SenseCell already expresses it?
+FPF treats policy ids such as `Phi(CL)`, `Phi_plane`, `Psi(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, insertion-policy ids, and acceptance-clause ids as versioned identifiers whose meaning must be recoverable. They are not "just strings", role names, or gate decisions.
 
-* **Yes →** **Reuse** the **SenseCell**’s label **inside that Context**.
+```text
+PolicyIdRef:
+  PolicyId:
+  PolicySpecRef:
+  MintDecisionRef?:
+  ScopeOrNamespaceRef:
+```
 
-  * If you need assignable behaviour or deontics on that sense: **define a Role Description** **anchored to that SenseCell** (F.4).
-* **No →** go to Q2.
+`PolicySpecRef` is a resolvable reference to the policy definition. It identifies the policy id, pins an edition or equivalent digest when needed, and can be found from the same publication family or cited source relation.
 
-> *Example (engineer).* You want “**task execution**” in control software. In `IEC 61131‑3` there is a clear SenseCell for **task execution**. **Reuse** that label; if you need responsibilities (“who monitors runs”), define a **Role Description** anchored to this SenseCell.
+`MintDecisionRef` is a resolvable reference to the decision that introduced the policy id in the declared namespace. For FPF normative policy ids this is usually an accepted `E.9` decision record. For local non-exported policy ids, the governing gate, decision, or publication pattern may admit a smaller decision record when the local scope is explicit.
 
-#### F.8:5.3 - Q2 — Do you need to **read across Contexts** (same senseFamily)?
+Rules:
 
-* **No →** stay within one context; if your desire is merely a nicer label, consider an **Alias** (Q3).
-* **Yes →** check F.7 for a **Concept‑Set row** covering your cells **in this senseFamily** with adequate **Row Scope** and **Row CL(min)**.
+1. **No silent policy-id introduction.** A newly introduced policy id carries both `PolicySpecRef` and `MintDecisionRef`.
+2. **Reuse is reference use.** Reusing an existing policy id cites `PolicySpecRef`; it does not restate policy semantics as if a new policy had been introduced.
+3. **Gate checkability.** A gate, crossing, bridge, assurance, or publication claim that depends on policy ids includes `PolicyIdRef` or an equivalent resolvable structure admitted by its governing pattern.
+4. **Policy authority stays with the governing pattern.** F.8 decides introduction or reuse of the identifier; it does not decide whether the policy permits work, passes a gate, or gives evidence.
 
-  * **Found & sufficient →** **Reuse the row’s FPF label** at that scope.
-  * **Not found or insufficient →** either (a) **publish a contrast** (teach difference), or (b) propose a **new row** but only after F.9 Bridges exist at **τ(scope)**.
+### F.8:9 - Common Anti-Patterns and Repairs
 
-> *Example (manager).* You want one label for the **actor** in workflow and provenance prose. F.7 has a **Naming‑only** row mapping *BPMN Participant* ↔ *PROV Agent* at CL = 2. **Reuse** “actor” **at Naming‑only** scope; do **not** infer identity in models.
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover kind and use first; send to direct pattern. |
+| Evidence role revival | `EvidenceRole` becomes a role-name family. | Recover evidence-use relation; name it only through direct evidence naming. |
+| Status-role fusion | `ReadyReviewerRole` or `ApprovedRole` names a role plus state. | Separate role from state or status-use relation. |
+| Row overuse | Naming row justifies role assignment or structural inference. | Lower use to row scope or repair the row and bridges. |
+| Alias with payload | Alias changes kind, scope, or authority. | Treat as a new decision; use `F.5` and `F.18`. |
+| Source prestige minting | Standard or framework term becomes FPF selected name by source prestige. | Use source term as evidence or alias; select FPF name only after recovered meaning fits. |
+| U.Type comfort minting | New `U.Type` proposed because existing names feel awkward. | Attempt reduction to local sense, row, role description, direct relation, or existing type. |
+| Policy id as magic word | Policy id used without resolvable specification or mint decision. | Add `PolicyIdRef` or lower the claim. |
 
-#### F.8:5.4 - Q3 — Is this **only a wording preference** for an existing FPF label?
+### F.8:10 - Consequences
 
-* **Yes →** add an **Alias** in F.5 (Tech register and/or Plain register), no semantics changed.
-* **No →** go to Q4.
+Good consequences:
 
-> *Example (researcher).* You prefer “**is‑a**” to “**subclass‑of**” in Type pages. That is an **Alias** for the same concept; no new row, no new U.Type.
+- durable vocabulary grows more slowly and with clearer justification;
+- role, status, evidence, access, source, requirement, publication, and slot-position cases stop forming duplicate role ontology;
+- Concept-Set rows keep their declared scope;
+- F.5 and F.18 are used with better naming inputs because mint-or-reuse has already settled the decision kind;
+- policy identifiers become checkable references instead of decorative strings.
 
-#### F.8:5.5 - Q4 — Does your need recur across Contexts in a way **not captured** by current rows, **with Bridges** already available at the required CL?
+Costs:
 
-* **Yes →** propose a **new Concept‑Set row** (F.7): small (2–4 Contexts), **one senseFamily**, declare **Row Scope** and **Row CL(min)**, include a **counter‑example** if any Bridge has loss notes.
-* **No →** go to Q5.
+- authors must do kind recovery before naming;
+- some attractive names remain local phrases or aliases;
+- public and cross-context names may require bridge, row, naming, and decision records;
+- a new `U.Type` becomes harder to justify.
 
-> *Example (engineer).* You repeatedly compare **runtime occurrence** in PROV with **PLC task runs**. F.9 Bridges exist at CL = 2. Propose **row “execution-occurrence”** at **assignment/enactment-eligibility** scope (not Type-structure).
+Reopen F.8 when `A.2`, `A.2.1`, `F.4`, `F.5`, `F.6`, `F.7`, `F.9`, `F.18`, `A.6.5`, `E.10`, `E.9`, `A.8`, or policy-id publication discipline changes enough that the decision kinds or boundaries would change.
 
-#### F.8:5.6 - Q5 — Are you describing a **kernel‑level notion** missing from the catalogue, **not** reducible to existing rows or Role Descriptions, and **present across ≥ 3 domain families** (A.8)?
+### F.8:11 - Rationale
 
-* **Yes →** propose a **new U.Type** (rare). Supply:
-  (i) the minimal **intensional definition**; (ii) cross‑family evidence (≥ 3 Contexts, **distinct families**); (iii) how it **doesn’t** duplicate an existing U.Type.
-* **No →** you **do not mint** a new type. Re‑express the need in terms of **Context reuse**, **row reuse**, **Alias**, or a **Role Description**.
+F.8 is placed before naming style because a naming mistake is often a kind mistake. A project should not ask "what name should we use?" until it has asked "what kind of value or relation is this, and does it deserve durable naming?"
 
-> *Example (researcher).* You think we need **U.InfluenceEdge** (causal tendency). If it appears as a stable, **senseFamily‑specific** notion across **control**, **epistemic inference**, and **methods** (≥ 3 families), and cannot be formed from existing `U.Relation` subtypes, it **may** qualify. Otherwise, treat it as a **pattern** or a **row**.
+The pattern is intentionally narrower than `F.18`. `F.18` can run a full candidate search, Name Card, public term sheet, lineage, and bridge-facing naming protocol. F.8 supplies the prior admission decision: should this expression become a durable name at all, and if so, under which direct governing pattern?
 
-### F.8:6 - Scope thresholds (default τ) — **how much sameness** you’re allowed to claim
+The strict role decision is central. A role expression names a work-facing role only when `U.Role` is recovered. Epistemes, publications, standards, requirements, evidence, statuses, permissions, gates, decisions, methods, work, and relation positions may need names, but they do not become roles because a source phrase used "role".
 
-| Row / Use Scope     | What it licenses                                                                              | Default τ (minimum CL) | Typical consumers                         |
-| ------------------- | --------------------------------------------------------------------------------------------- | ---------------------: | ----------------------------------------- |
-| **Naming‑only**     | Shared label in prose, diagrams, and primers; **no inference**.                               |                  **1** | Pedagogy, glossary, didactic figures.     |
-| **Assignment-eligibility** | Safe to reference the row’s target as the **thing a `U.RoleAssignment` may point to** (e.g., a run, a value). | **2** | F.4 Role Description, acceptance narratives. |
-| **KD‑metric**       | Treat cells as the **same measured outcome** (unit‑compatible, procedure‑compatible).         |                  **2** | Measurement summaries, SLO tables.        |
-| **Type‑structure**  | Treat cells as the **same structural relation** (e.g., subtyping) with inheritance semantics. |                  **3** | Kind-CAL pages, structural proofs.        |
+### F.8:12 - SoTA-Echoing and Source-Use
 
-> **Guard.** You may **tighten** scope (e.g., from Naming-only → Assignment-eligibility) **only** if the **Row CL(min)** meets the **higher τ**.
+| Practice line | What FPF adopts | Practical implication |
+| --- | --- | --- |
+| Controlled-vocabulary and terminology practice | Preferred labels, aliases, definitions, scope notes, and deprecated labels are separate fields. | F.8 decides admission; F.5 and F.18 then name without confusing alias with meaning change. |
+| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing relations, contexts, and constraints. | New `U.Type` candidates require irreducibility and decision record, not comfort. |
+| Domain-driven bounded-context practice | Meaning is local before it is shared. | Reuse local sense labels first; cross-context reuse needs bridge and row discipline. |
+| Authorization and policy-reference practice | Policy identifiers must resolve to definitions and governance decisions. | Policy ids use `PolicyIdRef`; the id is not itself permission, gate passage, or evidence. |
+| FPF role and episteme ontology | Work-facing roles, role descriptions, assignments, work, evidence use, and status use are distinct. | Role-like source expressions are split by kind before durable naming. |
 
-### F.8:7 - Micro‑examples (didactic triad)
+Source-use boundary: a source tradition may supply candidate words and current practice pressure. It does not select the FPF decision kind. The decision kind follows the recovered value or relation and the direct governing pattern.
 
-#### F.8:7.1 - For engineers — “Do we need a new **Execution** label?”
+### F.8:13 - Relations
 
-* **Need.** “We want to refer to **what actually happened** in both provenance logs and PLC runtime.”
-* **senseFamily.** Execution - **stance.** run.
-* **Contexts.** `PROV‑O` (Activity), `IEC 61131‑3` (task run).
-* **Row?** F.7 has **execution-occurrence** at **assignment/enactment-eligibility**, CL = 2.
-* **Decision.** **Reuse** that row’s label at **Assignment-eligibility**; **no** new U.Type; define Role Descriptions **anchored to each Context** as needed.
+**Builds on.** `A.7`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.1`, `F.2`, `F.3`, `F.5`, `F.7`, `F.9`, and `F.18`.
 
-#### F.8:7.2 - For managers — “Can we call them all **actors**?”
+**Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.15`, `A.15.1`, `F.4`, `F.6`, `F.10`, `F.13`, `F.14`, `F.15`, `F.17`, `C.3`, `E.9`, and direct status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, decision, method, work, characteristic, and architecture patterns.
 
-* **Need.** A single everyday word in the spec to denote “the responsible party”.
-* **senseFamily.** Role (behavioural mask in prose).
-* **Contexts.** `BPMN 2.0` (Participant), `PROV‑O` (Agent).
-* **Row?** **Naming‑only** row “actor”, CL = 2.
-* **Decision.** **Reuse** “actor” **in prose only**; keep Context‑loyal labels in formal sections. No Role Description minted unless tied to one context.
+**Constrains.**
 
-#### F.8:7.3 - For researchers — “New **U.Type** for ‘Work Scope’?”
+- `F.5` names only after F.8 has decided what kind of naming case is current.
+- `F.4` governs only work-facing role-description naming cases.
+- `F.9` and `F.7` govern cross-context row admission before F.8 reuses the row label.
+- `F.18` expands durable public naming after F.8 has admitted the name decision.
+- `F.14` and `F.15` use F.8 to avoid role, status, row, and alias explosion.
 
-* **Need.** Kernel notion capturing **feasible performance region** across systems.
-* **Test A.8.** Appears in **control** (reachable sets), **services** (operating envelope), **measurement** (confidence bands): **≥ 3 families?**
-* **Reduction test.** Can it be expressed as a **row** + existing `U.Relation` + KD‑CAL constructs?
-* **Decision.** If **not reducible** and **cross‑family stable**, propose **new U.Type** with minimal definition; otherwise, prefer a **row** or a **pattern**.
-
-### F.8:8 - Invariants (normative, lightweight)
+**Does not replace.** Direct governing patterns for the named value, role assignment, performed work, status, evidence, source, publication, requirement, assurance, gate, decision, method, work, relation-slot, characteristic, architecture, or mathematical-lens claims.
 
-1. **Context‑first.** Every decision cites at least one **Context**; no global senses.
-2. **senseFamily purity.** A single decision covers **one senseFamily**. Mixed needs are split.
-3. **Row honesty.** Any Cross‑context reuse occurs **via a Concept‑Set row** at or above **τ(scope)**; no stealth equivalence.
-4. **Role Description anchoring.** Role Descriptions are **single-Context**, **single-cell** anchors (F.4).
-5. **Alias modesty.** Aliases **never** change semantics and live under F.5.
-6. **Kernel restraint.** New **U.Types** are **rare**; A.8 **(≥ 3 families)** is mandatory, and duplication with existing U.Types must be ruled out.
+### F.8:14 - Didactic Memory
 
-### F.8:8.1 - Mint/Reuse discipline for **policy-ids** (normative addendum)
+Do not ask for a better name first. Ask what the expression is trying to name, whether that value already exists locally, whether any cross-context row admits the intended use, and whether the expression is really a role, status, evidence, policy, source, slot, method, work, or type case. Mint only after reuse, alias, direct-pattern naming, and row options have failed.
 
-FPF treats **policy-ids** (e.g., `Φ(CL)`, `Φ_plane`, `Ψ(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, `InsertionPolicyRef`, Acceptance clause ids) as **first-class, versioned tokens**. They are not “just strings”, and they are not governed by tier ladders or implied authority.
-
-**PolicySpecRef.** A **resolvable reference** to the normative definition of a policy-id (“what does this policy-id mean?”). At minimum it:
-* identifies the policy-id,
-* pins an immutable edition (or equivalent digest), and
-* can be located from the same publication bundle (MVPK / UTS / EvidenceGraph anchors).
-
-**MintDecisionRef.** A **resolvable reference** to the decision record that introduced (minted) a policy-id into a declared namespace/registry. For **normative** policy-ids this is typically a **DRR id** (E.9) or an equivalent change decision record. For **purely local, non-exported** policy-ids it MAY be a Gate `DecisionLog` entry (A.21) if that local-only scope is explicit.
-
-**PolicyIdRef (canonical bundle).**
-`PolicyIdRef := { policy_id, PolicySpecRef, MintDecisionRef? }`.
-
-**Rules.**
-1. **No silent policy-id minting.** If a publication introduces a *new* policy-id (not previously present in the declared namespace/registry), it **MUST** surface a `PolicyIdRef` whose:
-   * `PolicySpecRef` is edition-pinned, and
-   * `MintDecisionRef` is resolvable from the publication’s DRR/DecisionLog links.
-2. **Reuse is reference-only.** If a publication **reuses** an existing policy-id, it **MUST** surface a `PolicySpecRef` (and **SHOULD** preserve the prior mint decision link where available). It **MUST NOT** restate policy semantics *as if* minting a new policy-id.
-3. **GateCrossing checkability.** Any GateCrossing/CrossingBundle that surfaces policy-ids **MUST** include `PolicyIdRef` (or an equivalent “policy-id + resolvable refs” structure) so GateChecks can verify resolvability and pin consistency (E.18/A.21/G.6:7.5.8).
-4. **Authority is policy, not tiers.** “Who may mint” vs “who may reuse” is expressed by the referenced **policy specs** and **mint decisions** (and enforced by the active GateProfile/GateChecks), not by fixed tier labels.
-
-### F.8:9 - Quick reference (one‑glance map)
-
-| You feel you need…                          | Likely action                  | Why                                              |
-| ------------------------------------------- | ------------------------------ | ------------------------------------------------ |
-| A convenient everyday word across two Contexts | **Reuse a Naming‑only row**    | Keeps prose simple without smuggling inference.  |
-| An assignable mask with invariants          | **Role Description (single Context)** | Roles or Statuses attach to **local** senses.       |
-| The same measured outcome across Contexts      | **Reuse a KD‑metric row**      | Units/procedures aligned at CL ≥ 2.              |
-| A unifying schema relation (e.g., is‑a)     | **Reuse a Type‑structure row** | Structural inference preserved at CL ≥ 3.        |
-| A nicer label for the same FPF concept      | **Alias in F.5**               | Style only; zero semantics.                      |
-| A brand‑new primitive concept               | **New U.Type (rare)**          | Only if cross‑family, irreducible, kernel‑level. |
-
-### F.8:10 - Anti‑patterns & remedies
-
-| #         | Anti‑pattern               | Symptom                                                                            | Why it harms thinking                              | Remedy (conceptual move)                                                                                                                         |
-| --------- | -------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **AP‑1**  | **Row‑less sameness**      | Declaring “these mean the same” across Contexts without citing a **Concept‑Set row**. | Imports meaning implicitly; no CL guard.           | If Cross‑context reuse is desired, **reuse an existing row** at a declared **scope** (F.7), else **publish the contrast** and apply F.9 Bridges only when the bridge relation is live. |
-| **AP-2**  | **Scope creep**            | Using a **Naming-only** row to justify **Assignment-eligibility** or structural inferences. | Over-claims sameness; breaks τ(scope).             | Respect **scope thresholds** (τ). Upgrade only when **Row CL(min) ≥ τ(new scope)**; otherwise stay Naming-only.                                  |
-| **AP‑3**  | **Alias with payload**     | Introducing an Alias that subtly changes intent or senseFamily.                          | Hides semantics behind wording; confuses senseFamilies.   | Aliases (F.5) are **style only**. If semantics change, choose **row reuse** or **Role Description** instead.                                         |
-| **AP-4**  | **Role-Description-to-row anchoring** | Role Description points to a **row** rather than a **single SenseCell**.       | Masks locality; **assignments** become cross-context by stealth. | Role Descriptions **must anchor to one SenseCell** (F.4). Use rows only in prose or aggregated views.                                                |
-| **AP‑5**  | **Kernel inflation**       | Proposing a new **U.Type** because a convenient label is missing.                  | Duplicates the kernel; violates parsimony.         | Apply A.8: require **≥ 3 domain families** and **irreducibility**; otherwise **Alias** or **row**.                                               |
-| **AP‑6**  | **senseFamily mixing**           | One name that conflates Role, Status, Measurement, or Type‑structure.              | Collapses A.7 Strict Distinction.                  | **Split by senseFamily** first (Q0). Decide **per senseFamily**.                                                                                             |
-| **AP‑7**  | **Bridge‑by‑string**       | Treating identical lexical forms as equivalent senses across Contexts.                | Homonym trap; ignores local sense.                 | Equivalence only via **F.9 Bridge** + **row**; never by string.                                                                                  |
-| **AP‑8**  | **Row without loss notes** | Publishing a row where Bridges indicate mismatches, but row text is silent.        | Readers assume full equivalence.                   | Include **counter‑example** and **loss sketch** in the row’s narrative (F.7).                                                                    |
-| **AP‑9**  | **CL laundering**          | Citing a high-scope row based on old high `CL` while the relevant Bridge `CL` has since dropped.    | Invalidates downstream claims.                     | When `CL` falls below `τ(scope)`, **downgrade row scope** (e.g., to Naming-only) or **split row**.                                                   |
-| **AP‑10** | **Global normal form**     | Seeking one canonical wording across all Contexts **as if** meaning were global.      | Erases locality; fuels hidden merges.              | Keep normalisation **per Context** (F.2/F.3). Cross‑context sameness lives in **rows** with scope.                                                     |
-
-### F.8:11 - Reasoning primitives (judgement schemas, notation‑free)
-
-> Each item states a **mental entailment**. No storage, no roles, no workflows. Symbols: `C` = Context, `σ` = SenseCell, `R` = Concept‑Set row, `SF` = senseFamily, `τ` = scope threshold, `CL` = congruence level.
-
-1. **senseFamily split**
-   `need(n) ∧ mixedSF(n) ⊢ split(n) into {n₁…nₖ} by senseFamily`
-   *You cannot decide for mixed senseFamilies; decide per senseFamily.*
-
-2. **Cell reuse**
-   `∃ C,σ : expresses(n,SF)@σ ⊢ reuseLabel(σ) in C`
-   *If a single Context’s SenseCell already says it, reuse it locally.*
-
-3. **Assignment-eligibility**
-   `reuseLabel(σ) ∧ needAssignable(SF ∈ {Role,Status}) ⊢ mintRoleDescription(σ)`
-   *When you need assignable behaviour/deontics for a local sense, mint a Role Description anchored to that sense.*
-
-4. **Row reuse**
-   `crossContexts(n,SF) ∧ ∃ R: covers(R,SF) ∧ CL(R) ≥ τ(scope) ⊢ reuseRow(R,scope)`
-   *For Cross‑context readings, reuse a row at a scope whose τ is met.*
-
-5. **Alias suffices**
-   `sameIntent(n,label₀) ∧ stylePreference(n,label₁) ⊢ alias(label₀,label₁)`
-   *If it’s only wording, add an Alias; no semantics move.*
-
-6. **Row proposal**
-   `recurrentCross(n,SF) ∧ bridgesCL(cells(n)) ≥ τ(scope) ∧ ¬∃R ⊢ proposeRow(cells,scope)`
-   *If the need recurs and Bridges support the scope, propose a new row.*
-
-7. **Kernel minting (rare)**
-   `kernelCandidate(n) ∧ crossFamily≥3 ∧ irreducible(n) ⊢ proposeUType(n)`
-   *Only if the notion is cross‑family and cannot be reduced to cells+rows+existing U.Types.*
-
-8. **Scope downgrade**
-   `reuseRow(R,scope) ∧ CL(R)↓ < τ(scope) ⊢ downgradeScope(R)`
-   *If CL falls, lower the row’s licensed scope.*
-
-9. **Row rejection**
-   `conflictEvidence(rowCells) ∧ lossUnbounded ⊢ rejectRow`
-   *If bridges show open‑ended loss, do not publish a row; teach the contrast.*
-
-### F.8:12 - Extended worked examples
-
-#### F.8:12.1 - **Execution, observation, and acceptance** (engineers)
-
-**Need.** A reusable label for “what actually happened and how it was checked against the promise”.
-**senseFamilies.** Execution (stance: run); Measurement (KD); Status (accept/reject).
-
-**Contexts.**
-`IEC 61131‑3` (task run), `PROV‑O` (Activity), `SOSA/SSN` (Observation), `ITIL 4` (SLO/SLA).
-
-**Reasoning.**
-
-* `Execution`: `IEC` SenseCell (task run) and `PROV` SenseCell (Activity). There exists a **row** *execution-occurrence* at **Assignment-eligibility** with CL = 2 → **reuse row** at **Assignment-eligible** scope; do not infer Type-structure.
-* `Measurement`: `SOSA` Observation cell; no Cross‑context needed → **reuse cell**.
-* `Status`: `ITIL` SLO/SLA cell; **Role Description** “SLO‑Target” anchored to ITIL cell.
-
-**Outcome.** Prose may say: “This **execution-occurrence** (row\@assignment/enactment-eligibility) was **observed** (SOSA cell) and **evaluated against the SLO** (ITIL cell).” No new U.Type; no hidden merges.
-
-#### F.8:12.2 - **Actor across workflow and provenance** (managers)
-
-**Need.** A single everyday label for “the responsible party” in diagrams.
-**senseFamily.** Role (behavioural mask in prose/diagrams).
-
-**Contexts.** `BPMN 2.0` (Participant), `PROV‑O` (Agent).
-
-**Reasoning.** A **Naming‑only** row “actor” exists, CL = 2. **Reuse the row** at Naming‑only.
-If assignable behaviour is needed in a model, **mint Role Description** anchored to **BPMN Participant** (not to the row).
-
-**Outcome.** Diagrams show “actor”; formal sections reference `Participant` or `Agent` as appropriate.
-
-#### F.8:12.3 - **Accuracy across metrology and data quality** (researchers)
-
-**Need.** Treat “accuracy” consistently across ISO 80000 (metrology) and ISO/IEC 25024 (data quality).
-**senseFamily.** Measurement.
-
-**Contexts.** `ISO 80000‑1` (quantity/units), `ISO/IEC 25024` (data quality).
-
-**Reasoning.** Bridges indicate **related but not identical** definitions; procedures differ. Existing **KD‑metric** row “accuracy” has CL = 2 with **loss note**: *population vs instrument focus*. **Reuse row** at KD‑metric scope for dashboards; **do not** use the row to justify interchange of procedures.
-
-**Outcome.** One label in reports; method sections still cite the context‑local procedure.
-
-#### F.8:12.4 **Subtype relation across OWL and a curated taxonomy** (formalists)
-
-**Need.** Present “is‑a” uniformly across OWL 2 classes and a domain taxonomy.
-**senseFamily.** Type‑structure.
-
-**Contexts.** `OWL 2` (SubClassOf), `Taxonomy_X` (curated “is‑a” edges).
-
-**Reasoning.** F.7 row “subtype‑order” exists at **Type‑structure scope** with CL = 3 (only after verifying acyclicity & anti‑symmetry in `Taxonomy_X`). If the curated taxonomy contains cycles, **downgrade** to Naming‑only or reject the row.
-
-**Outcome.** When CL≥3, you may **reuse row** for structural proofs; else teach differences.
-
-### F.8:13 - Relations (with other patterns)
-
-* **Builds on:** E.10.D1 (D.CTX) **Context ≡ U.BoundedContext**; F.1 Contexts; F.2 Harvest; F.3 SenseCells.
-* **Constrains:**
-
-  * **F.4 Role Description:** **one SenseCell per Role Description**; no row anchoring.
-  * **F.5 Naming:** Aliases are style‑only; no semantics movement.
-  * **F.7 Concept‑Set:** rows must declare **Scope** & **Row CL(min)** and carry **loss notes**.
-  * **F.9 Bridges:** any row proposal presupposes Bridges at or above τ(scope).
-* **Used by.** All patterns (Part C) whenever new labels are contemplated.
-
-### F.8:14 - Migration notes (conceptual)
-
-1. **Old “anchor” language.** Replace legacy “anchor” with: **SenseCell** (local sense) + **Role Description** (assignable Standard) + (optionally) **Concept‑Set row** (Cross‑context reading).
-2. **Overclaiming rows.** If a row was used for **assignment/enactment-eligibility** or **Type-structure** but **CL drops**, **downgrade row scope** to **Naming-only** in prose; adjust examples.
-3. **Split rows.** If one row covers cells whose Bridges diverge, **split** into two narrower rows with explicit loss notes.
-4. **Alias proliferation.** Collapse redundant Aliases under a single F.5 entry; keep both registers (Tech/Plain).
-5. **Proto‑types.** Suspect kernel inflation? Attempt **reduction**: SenseCell + row + existing U.Type. Only if irreducible across ≥ 3 families, reopen as a U.Type candidate.
-
-### F.8:15 - Acceptance tests (SCR/RSCR — concept‑level)
-
-#### F.8:15.1 - Static conformance (SCR)
-
-* **SCR‑F8‑S01 (senseFamily purity).** Every decision record names **one senseFamily**; mixed needs are split.
-* **SCR‑F8‑S02 (Proper anchoring).** Every Role Description cites **one SenseCell**; **no row** is used as a assignment/enactment anchor.
-* **SCR‑F8‑S03 (Row scope).** Whenever a row is reused, its **Scope** is stated and **Row CL(min) ≥ τ(scope)** holds.
-* **SCR‑F8‑S04 (Alias modesty).** Aliases introduced in F.5 do **not** claim new semantics or change senseFamily.
-* **SCR‑F8‑S05 (Kernel restraint).** Any new U.Type proposal includes **≥ 3 domain families** of evidence and an **irreducibility** note.
-
-#### F.8:15.2 - Regression (RSCR)
-
-* **RSCR‑F8‑E01 (CL drift).** If any Bridge’s CL changes, re‑evaluate dependent rows; **downgrade or split** where τ(scope) is no longer met.
-* **RSCR-F8-E02 (Row overuse).** Scan examples: no case uses **Naming-only** rows to justify **Assignment-eligibility** or **Type-structure** claims.
-* **RSCR‑F8‑E03 (Alias creep).** Ensure no Alias has accreted senseFamily‑specific semantics; if it has, migrate to a **row** or **Role Description**.
-* **RSCR‑F8‑E04 (Kernel hygiene).** New U.Type proposals are rejected if a **SenseCell + row** construction suffices.
-
-### F.8:16 - Didactic distillation (90‑second teaching script)
-
-> “When you feel like coining a new name, pause. **Which senseFamily** are you in—Role, Status, Measurement, Type‑structure, Method, or Execution? If a **single Context’s SenseCell** already says it, **reuse** that label. If you need an assignable Standard, **mint a Role Description** anchored to that SenseCell. If you must read **across Contexts**, reuse a **Concept‑Set row**—but only **at a stated scope** and only if its **CL meets the threshold** (τ). If it’s just a nicer wording, add an **Alias** (style only). Only in the rare case of a cross‑family, **irreducible** notion do you **mint a new U.Type**. Never let Naming‑only rows justify  **Assignment-eligibility** or structural inference, and never let identical strings force equivalence. This is not process—it’s **discipline of thought**: reuse what exists, declare scope when you bridge, and mint new primitives only when the kernel truly needs them.”
+### F.8:15 - Footer Marker
 
 ### F.8:End
 

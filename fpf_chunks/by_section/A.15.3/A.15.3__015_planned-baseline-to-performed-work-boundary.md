@@ -3,24 +3,36 @@ chunk_kind: "child"
 pattern_id: "A.15.3"
 pattern_title: "SlotFillingsPlanItem"
 section_id: "A.15.3:12b"
-section_title: "Planned-Baseline To Performed-Work Boundary"
+section_title: "Planned-baseline to performed-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__015_planned-baseline-to-performed-work-boundary.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
-  - "A.15.3:12b — Planned-Baseline To Performed-Work Boundary"
-line_start: 22129
-line_end: 22134
+  - "A.15.3:12b — Planned-baseline to performed-work boundary"
+line_start: 21679
+line_end: 21684
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.20"
+  - "A.21"
   - "A.6.5"
   - "A.6.7"
+  - "B.3"
+  - "C.27.TA"
   - "E.10.D1"
+  - "E.10.D2"
   - "E.17"
   - "E.18"
+  - "E.18.1"
   - "E.19"
+  - "E.20"
+  - "G.11"
+  - "G.6"
+  - "U.RelationSlotDiscipline"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -34,9 +46,9 @@ keywords:
   - "Γ_time selector"
 ---
 
-### A.15.3:12b - Planned-Baseline To Performed-Work Boundary
+### A.15.3:12b - Planned-baseline to performed-work boundary
 
-A performed `U.Work` occurrence may cite a `SlotFillingsPlanItem` as the planned baseline for slot fillers. The performed-work record states variance, substitution, and launch-value finalization under the current gate relation and work-governing patterns.
+A performed `U.Work` occurrence may cite a `SlotFillingsPlanItem` as the planned baseline for slot fillers. The performed-work record states launch values, actual fillers, substitutions, variance, telemetry, and result-related records under A.15.1 and the current gate or evidence relation.
 
-This preserves the P2W split: WorkPlanning places the baseline, while performed work records what happened.
+The work-planning record preserves what was intended. The performed-work record preserves what happened.
 

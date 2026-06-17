@@ -1,29 +1,40 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti‑Explosion Control (Roles & Statuses)"
+pattern_title: "Anti-Explosion Control for Role and Status Name Families"
 section_id: "F.14:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
+  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:2 — Problem frame"
-line_start: 76728
-line_end: 76739
+line_start: 76488
+line_end: 76500
 dependencies:
-  - "F.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "B.3"
+  - "E.10.D2"
+  - "E.17"
   - "F.10"
-  - "F.11"
-  - "F.12"
-  - "F.13"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
-  - "F.7"
   - "F.8"
+  - "F.9"
+  - "U.Role"
+  - "U.RoleAssignment"
 keywords:
   - "bundles"
   - "guard-rails"
@@ -34,13 +45,14 @@ keywords:
 
 ### F.14:2 - Problem frame
 
-Left unchecked, Role and Status vocabularies tend to **diverge**:
+Name explosion usually begins with a helpful shortcut:
 
-1. **Synonym stacks.** *Reviewer*, *Approver*, *Validator*, *Verifier* minted separately despite overlapping responsibilities.
-2. **Modifier creep.** *Night‑Operator*, *Shift‑Operator*, *Remote‑Operator* proliferate where one Role plus a window would suffice.
-3. **SoD leakage.** New names invented to **evade** an intended separation (*Requestor‑Approver* as one Role).
-4. **Status paintjobs.** *Compliant*, *At‑Risk*, *Grace*, *Waived*, *Temporarily‑Breached*—labels multiply where a **single Status × window** model would be clearer.
-5. **Context blending.** A control‑Context *Actuator* gets treated as an Enactment *Execution* Role; a deontic *Duty* becomes a runtime *Status*.
+1. **Hybrid role shortcut.** `RequestApproverRole`, `DevOpsEngineerRole`, or `IncidentLeadOnCall` is minted because several roles often appear together.
+2. **Modifier-as-role shortcut.** `NightOperatorRole`, `RemoteOperatorRole`, or `APIApproverRole` is minted because a qualifier is visible.
+3. **Status-as-type shortcut.** `AtRisk`, `Grace`, `PreValidated`, or `TemporarilyBreached` is minted as if time stance or status value were a new essence.
+4. **Source-suffix shortcut.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is minted because a source tradition uses role-like language.
+5. **Prestige shortcut.** `SeniorReviewer` or `LeadApprover` is minted to bypass a separation or assurance question.
+6. **Cross-context shortcut.** The same label in two contexts is treated as one durable name without an F.9 bridge.
 
-Explosion harms didactics and increases alignment cost (F.9).
+F.14 prevents those shortcuts from becoming durable ontology.
 

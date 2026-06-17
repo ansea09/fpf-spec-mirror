@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
-section_id: "F.9:14"
+pattern_title: "Alignment and Bridge across Contexts"
+section_id: "F.9:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__016_relations.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
-  - "F.9:14 — Relations"
-line_start: 75033
-line_end: 75045
+  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9:15 — Relations"
+line_start: 74891
+line_end: 74904
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -46,16 +50,17 @@ keywords:
   - "weakest-link scope"
 ---
 
-### F.9:14 - Relations
+### F.9:15 - Relations
 
-**Builds on:** E.10.D1 (Context discipline: Context = U.BoundedContext); **F.0.1 (senseFamily guard; Bridge-only crossing)**; F.1 (Contexts fixed); F.2/F.3 (Cells exist); F.7 (rows depend on Bridges); F.8 (thresholds and reuse choice).
+**Builds on:** E.10.D1, F.0.1, F.1, F.2, F.3, F.7, and F.8.
 
-**Coordinates with:** `F.9.1` for stance overlays that remain subordinate to bridge cards; `E.17.1` when viewpoint bundles need explicit cross-family correspondence; `C.16.Q` / `C.25` when evaluative endpoints or bundle-shaped quality families cite bridge cards without absorbing bridge semantics.
+**Coordinates with:**
 
-**Constrains:**
-
-* **F.7 Concept-Set Table:** each cross-context row must name supporting **Bridges**; row scope <= the weakest supporting Bridge.
-* **F.8 Mint or Reuse:** reuse choices reference **CL** and **kind**; no reuse without a Bridge.
-* **Part C patterns:** formal claims that span Contexts cite Bridges and respect senseFamily/StatusModality & CL constraints.
-* **B.3 Trust & Assurance Calculus:** may interpret **CL** as a penalty factor in Cross-context reasoning.
+* **F.4 and F.5.** RoleDescription labels and durable names may cite F.9, but only after the local `U.Role` remains clear.
+* **A.2.1, F.6, and A.15.1.** Role assignment, required-role satisfaction, and performed-work attribution are direct work-role claims, not bridge results.
+* **F.8.** Mint-or-reuse decisions consume Bridge Cards and choose local phrase, alias, row, RoleDescription label, policy id, direct-pattern name, or block-or-lower decision without strengthening the Bridge.
+* **A.6.5.** Relation-position labels and SlotSpec claims are governed by slot discipline, not by F.9.
+* **C.29.** Mathematical-lens use may cite F.9 when the lens crosses contexts; C.29 still governs the mathematical object, preserved structure, lost structure, and lens-use admissibility.
+* **B.3.** Assurance may apply `CL` penalties to cross-context claims.
+* **A.6.3.CSC, C.26.1, and C.26.2.** Coarsened renderings and quantum-like state export need these patterns when export loss, probe effects, or no faithful-enough report becomes the live concern.
 

@@ -1,21 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.4"
-pattern_title: "U.EvidenceRole"
+pattern_title: "Episteme Evidence-Use and Status-Use Relations"
 section_id: "A.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.2.4 — U.EvidenceRole"
+  - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:intro — Intro"
-line_start: 3318
-line_end: 3321
+line_start: 3274
+line_end: 3279
 dependencies:
   - "A.10"
   - "A.2"
+  - "A.2.1"
+  - "A.2.4"
+  - "A.6.5"
   - "B.3"
+  - "C.2.1"
+  - "C.28"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
+  - "F.10"
+  - "G.6"
+  - "U.Role"
+  - "U.RoleAssignment"
 keywords:
   - "claim"
   - "episteme"
@@ -24,7 +38,9 @@ keywords:
   - "support"
 ---
 
-## A.2.4 - `U.EvidenceRole`
+## A.2.4 - Episteme Evidence-Use and Status-Use Relations
 
-> *This pattern defines how a `U.Episteme` serves as **evidence** for a specific claim or theory **inside a bounded context**. It is a **non-behavioural** role enacted via `U.RoleAssignment`; the evidence-role assignment **must** declare the **target claim**, the **claim-scope**, and a **timespan of relevance**. Evidence is a classificatory status of an episteme; it is not an action and it is not an assignment of an actor.*
+> **Type:** Boundary and relation-use pattern
+> **Status:** Stable
+> **Normativity:** Normative
 

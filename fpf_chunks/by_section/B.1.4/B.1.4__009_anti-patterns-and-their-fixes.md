@@ -6,12 +6,12 @@ section_id: "B.1.4:8"
 section_title: "Anti‑patterns and their fixes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_anti-patterns-and-their-fixes.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
   - "B.1.4:8 — Anti‑patterns and their fixes"
-line_start: 31142
-line_end: 31152
+line_start: 30692
+line_end: 30702
 dependencies:
   - "A.12"
   - "A.14"

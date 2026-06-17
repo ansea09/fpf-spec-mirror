@@ -6,12 +6,12 @@ section_id: "A.6.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__005_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:3 — Forces"
-line_start: 13247
-line_end: 13257
+line_start: 13110
+line_end: 13120
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -59,9 +59,9 @@ keywords:
 | Force                                 | Tension                                                                                                |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | Universality vs precision             | The repair must be reusable across domains, but must not hide the distinctions it is meant to recover. |
-| Prose convenience vs relation-specification clarity | Humans want short verbs; engineering/assurance needs declared kinds, slots, and invariants.            |
+| Prose convenience vs relation-specification clarity | Humans want short verbs; engineering and assurance needs declared kinds, slots, and invariants.            |
 | Kernel minimality vs safety           | Few primitives are good; umbrella relations are cross‑Context safety hazards.                          |
 | Multi‑view reality vs coherence       | Viewpoints must be expressible without silent polarity flips or re‑typing.                             |
 | Evolution vs auditability             | Relations change; edits must not rewrite meaning invisibly.                                            |
-| Stack discipline                      | Signature invariants, admissibility, deontics, and evidence/work must not be mixed (A.6 + A.6.B).                      |
+| Stack discipline                      | Signature invariants, admissibility, deontics, and evidence and work must not be mixed (A.6 + A.6.B).                      |
 

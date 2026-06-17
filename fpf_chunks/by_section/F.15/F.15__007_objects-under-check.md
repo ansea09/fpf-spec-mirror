@@ -1,25 +1,46 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.15"
-pattern_title: "SCR/RSCR Harness for Unification"
+pattern_title: "Static and Regression Conformance Harness for Unification"
 section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_objects-under-check.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.15 — SCR/RSCR Harness for Unification"
+  - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:6 — Objects under check"
-line_start: 77037
-line_end: 77048
+line_start: 76852
+line_end: 76867
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "B.3"
-  - "D.CTX"
   - "E.10.D1"
-  - "F.0.1"
+  - "E.10.D2"
+  - "E.17"
   - "F.1"
   - "F.1-F.14"
+  - "F.10"
+  - "F.13"
   - "F.14"
+  - "F.17"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
+  - "F.7"
+  - "F.8"
+  - "F.9"
+  - "U.BoundedContext"
+  - "U.Role"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -30,13 +51,17 @@ keywords:
 
 ### F.15:6 - Objects under check
 
-1. **Contexts** — `U.BoundedContext` cards (F.1).
-2. **Local‑Sense** — clustered sense inside one context (F.3).
-3. **SenseCell** — *(Context × Local‑Sense)* address (F.3/F.4).
-4. **Concept‑Set row** — a cross-context alignment hypothesis with explicit Bridge support (F.7).
-5. **Role Description** — Role or Status definition pointing to **one** SenseCell (F.4).
-6. **Bridge** — explicit Cross‑context relation with CL and loss notes (F.9).
-7. **Windows** — temporal/scale views for a Status family (F.10).
-8. **Aliases** — name continuity commitments (F.13).
-9. **Bundles & SoD** — reuse levers that replace hybrid roles (F.14).
+F.15 may check these values together, but does not redefine them:
+
+1. `U.BoundedContext` cards from F.1.
+2. Local-Senses from F.2 and F.3.
+3. SenseCells, meaning `(Context, Local-Sense)`.
+4. Concept-Set rows from F.7.
+5. RoleDescriptions from F.4, each describing one local `U.Role` through one SenseCell.
+6. Bridge Cards from F.9.
+7. Status families, values, confidence, and windows from F.10 or the direct status pattern.
+8. Aliases from F.13.
+9. Candidate names and durable names from F.5, F.8, F.14, F.17, and F.18.
+
+If the slice contains role assignments, performed work, evidence use, source use, publication use, assurance, gate, decision, method, capability, or policy claims, F.15 records that those claims leave the harness for direct governing patterns. It does not absorb them.
 

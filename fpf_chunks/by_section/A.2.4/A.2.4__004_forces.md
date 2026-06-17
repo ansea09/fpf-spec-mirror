@@ -1,21 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.4"
-pattern_title: "U.EvidenceRole"
+pattern_title: "Episteme Evidence-Use and Status-Use Relations"
 section_id: "A.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.2.4 — U.EvidenceRole"
+  - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:3 — Forces"
-line_start: 3340
-line_end: 3348
+line_start: 3316
+line_end: 3326
 dependencies:
   - "A.10"
   - "A.2"
+  - "A.2.1"
+  - "A.2.4"
+  - "A.6.5"
   - "B.3"
+  - "C.2.1"
+  - "C.28"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
+  - "F.10"
+  - "G.6"
+  - "U.Role"
+  - "U.RoleAssignment"
 keywords:
   - "claim"
   - "episteme"
@@ -26,10 +40,12 @@ keywords:
 
 ### A.2.4:3 - Forces
 
-| Force                                     | Tension to resolve                                                                                |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Universality versus domain practice**   | One role must cover proofs, datasets, replications, benchmarks, model fits, calibrations.         |
-| **Static truth versus ageing confidence** | Axiomatic proofs are stable relative to a theory; empirical evidence decays and requires refresh. |
-| **Local meaning versus reuse**            | Meaning is context‑local; reuse must pass through explicit bridges, not tacit “global truth.”     |
-| **Clarity versus brevity**                | Kernel must stay expressive without importing domain governance or tooling procedures.            |
+| Force | Tension this pattern resolves |
+| --- | --- |
+| Episteme identity versus episteme use | The same episteme can be used for several claims without becoming several epistemes or several role-assignment holders. |
+| Compact evidence statement versus full evidence graph | Users need a small evidence-use statement first; `A.10` still owns full evidence-provenance graph detail. |
+| Formal proof versus empirical evidence | A proof can be stable inside one theory version; empirical evidence usually needs relevance windows, freshness, and provenance constraints. |
+| Status display versus status assertion | A visible badge, cell, or label can cue status but does not by itself create permission, gate passage, assurance, or work evidence. |
+| Local acceptance versus cross-context reuse | Evidence and status use are context-bound; reuse needs bridge, source-currentness, publication-use, or assurance-use relations. |
+| Causal evidence classes versus ordinary evidence relation | Causal-use evidence classes need `C.28`; A.2.4 only keeps the evidence-use relation from becoming a role assignment. |
 

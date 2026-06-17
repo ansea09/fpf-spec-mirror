@@ -6,20 +6,23 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
-line_start: 32446
-line_end: 32587
+line_start: 31996
+line_end: 32138
 dependencies:
   - "A.1"
-  - "A.12"
   - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.3"
+  - "A.3.4"
   - "A.7"
   - "B.2"
   - "C.30.LCA"
+  - "U.RoleAssignment"
+  - "U.Work"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -33,11 +36,12 @@ keywords:
 > **Type:** Architectural pattern
 > **Status:** Stable
 > **Normativity:** Normative for FPF use that claims a supervisor-subholon feedback-loop relation.
+
 ### B.2.5:1 - Problem frame
 
 Use this pattern when a holon is described as being supervised, regulated, steered, corrected, constrained, or coordinated through a feedback loop between a supervisor role and one or more subordinate holons.
 
-The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which `Transformer` or transformer-bearing system plays the supervisor role, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
+The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which acting system or acting holon holds the supervisor role in the bounded context, which transformation relation or supervised work is being governed, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
 
 What goes wrong if B.2.5 is missed: the supervised holon, supervisor transformer, shared medium, returned influence, and loop-closure condition remain unnamed; then layer labels, diagrams, publication channels, or supervisor words start carrying claims that belong elsewhere.
 
@@ -51,7 +55,7 @@ The primary EntityOfConcern is one supervisor-subholon feedback-loop relation. S
 Layered supervision is useful across engineered, biological, organizational, and epistemic cases, but it is easy to model incorrectly. The common error is to collapse three different structures into one drawing:
 
 1. Structural composition: part-whole or structural composition of a holon.
-2. Supervisory relation: a `Transformer` or transformer-bearing system playing a supervisor role over one or more subordinate holons.
+2. Supervisory relation: an acting system or acting holon holding the supervisor role through current `U.RoleAssignment` in a bounded context, the supervised holon set, and the transformation, work, or constraint relation being governed.
 3. Interaction or publication network: observation, signal, command, constraint, report, review, or publication channels through which the loop is enacted, observed, constrained, or revised.
 
 When these are confused, a functional or supervisory layer is treated as a physical part, a publication is treated as an acting agent, a diagram is treated as proof, or a controller label is treated as a gate or assurance result.
@@ -93,11 +97,11 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 
 **Proof boundary.** A conforming `B.2.5` loop is a relation, not proof. Stability and reusable state-evolution claims use `A.3.3`; rate and timing claims use `C.27`; causal-use claims use `C.28`; evidence claims use `A.10` or `G.6`; assurance claims use `B.3`; gate and constraint-validity claims use `A.20`/`A.21`; mathematical-lens transfer uses `C.29`.
 
-**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or practices bearing `Transformer` roles. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
+**Episteme case boundary.** In an episteme case, the acting and revising work is performed by systems or acting holons holding `Transformer` roles. Review practices or methods describe the revision work; they do not hold the role. The `U.Episteme` is the knowledge-bearing object being reviewed, revised, stabilized, cited, or published. It does not itself sense, judge, plan, or act.
 
 **Worked slice A - robotic swarm.** A drone fleet has individual drones, a shared communication medium, and a fleet-scope controller or distributed consensus method. `B.2.5` records each drone as supervised holon, the controller or consensus system as supervisor transformer, telemetry as observation side, and waypoint or mode commands as influence side. Claims about exponential convergence, delay tolerance, or disturbance damping use `A.3.3`, `C.27`, and the evidence or assurance pattern governing the claim being made.
 
-**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the community/review practice as transformer-bearing supervisor. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; the acting systems and practices do.
+**Worked slice B - scientific theory.** A scientific theory is revised when labs publish findings and a research community reviews anomalies and accepted revisions. `B.2.5` records the theory or its constituent epistemes as supervised objects and the research community as supervisor only when it is modeled as an acting holon or system holding the transformer role; review practices or methods describe the revision work. Journals, conferences, datasets, and review records are publication or interaction channels. The theory does not perform the sensing or judging; acting systems and holons do.
 
 **Worked slice C - product supervisor loop.** A product platform constrains component teams through published interface rules and release gates. `B.2.5` records the supervising platform policy role, component/subproduct holons, report channels, and constraint returns. Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use `A.6.M`.
 
@@ -106,7 +110,7 @@ SupervisorSubholonFeedbackLoop@Context ::= {
 | Archetype | Without B.2.5 | With B.2.5 |
 |---|---|---|
 | System | A control diagram mixes physical parts, roles, and commands, then claims coordination is obvious. | The supervised systems, supervisor transformer, shared medium, feedback relation, and returned influence are named. |
-| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems and review practices play the transformer role; the episteme is reviewed, revised, cited, or published. |
+| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems or acting holons may hold a transformer role through current `U.RoleAssignment`; review practices or methods describe how the episteme is reviewed, revised, cited, or published. |
 
 ### B.2.5:6 - Bias-Annotation
 
@@ -149,7 +153,7 @@ The cost is that `B.2.5` no longer lets a layered-control diagram establish stro
 
 Supervisor-subholon feedback loops are a recurring architecture form. The form is most useful when it is separated from structural mereology and from proof. That separation preserves the engineering insight from layered control architecture while keeping FPF's EntityOfConcern and Description-episteme boundary and specification use and role/transformer distinctions intact.
 
-The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications, source objects, or reliance objects, but acting systems and practices play the transformer role. This lets the same pattern cover systems and epistemes without agentive overread.
+The same separation also keeps the epistemic case precise. Scientific theories, documents, models, and other epistemes can participate in feedback loops as reviewed or revised objects and as publications, source objects, or reliance objects, but acting systems or acting holons hold the transformer role through current `U.RoleAssignment`, while practices or methods describe how the transformation is performed. This lets the same pattern cover systems and epistemes without agentive overread.
 
 ### B.2.5:11 - SoTA-Echoing
 
@@ -162,7 +166,7 @@ The same separation also keeps the epistemic case precise. Scientific theories, 
 
 ### B.2.5:12 - Relations
 
-* Builds on `B.2`, `A.1`, `A.2`, `A.3`, `A.7`, `A.12`, and `A.15`.
+* Builds on `B.2`, `A.1`, `A.2`, `A.2.1`, `A.3`, `A.3.4`, `A.7`, and `A.15`; work-facing transformer responsibility is represented through current `U.RoleAssignment`, `U.Work`, and transformation discipline, without bypassing those current relations.
 * Coordinates with `C.30.LCA` for control-structure view adequacy.
 * Applies `A.3.3` for reusable dynamics or stability claims, `C.27` for temporal/rate adequacy, `C.28` for causal-use claims, `A.10`/`G.6` for evidence claim, `B.3` for assurance, `A.20`/`A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` for mathematical-lens transfer.
 

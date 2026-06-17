@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:12 — Relations"
-line_start: 16699
-line_end: 16730
+line_start: 16328
+line_end: 16359
 dependencies:
   - "A.10"
   - "A.14"
@@ -59,8 +59,8 @@ SWBD introduces a structured record with slots; those slots must be SlotKind/Val
 **Constrains A.10 evidence admissibility links.**
 `verifiedBy` and `validatedBy` are treated as baseRelation tokens; their scope/time and witnesses become explicit when used for decisions.
 
-**Aligns with A.2.4 `U.EvidenceRole`.**
-Decision-relevant witness sets should be representable as EvidenceRoles with explicit timespans and provenance discipline, not as ad‑hoc prose references.
+**Aligns with A.2.4 evidence-use relation discipline.**
+Decision-relevant witness sets should be represented through evidence-use relations or pinned witness records with explicit timespans and provenance discipline, not as ad-hoc prose references and not as roles held by epistemes.
 
 **Aligns with A.14 constructive grounding (`tv:groundedBy`).**
 Constructive grounding is one specific declared `baseRelation` reading: dependent is a model edge, base is a constructor trace; witnesses pin the trace and `U.Work` records.

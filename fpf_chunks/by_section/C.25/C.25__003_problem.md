@@ -6,12 +6,12 @@ section_id: "C.25:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__003_problem.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:2 — Problem"
-line_start: 46907
-line_end: 46921
+line_start: 46460
+line_end: 46474
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -54,6 +54,6 @@ Without a normal form for engineering quality families:
    Presence of redundancy, certification, or audit controls is described as if it were itself a measurement value.
 4. **Guards become unstable.**
    Admission checks silently mix scope coverage, numerical thresholds, mechanism presence, and evidence freshness in one phrase.
-5. **Evaluative routing remains underspecified.**
+5. **Evaluative governing-pattern selection remains underspecified.**
    After `C.16.Q` repairs a bare quality term, or `C.16.P` repairs characteristic, scale, score, metric, or proxy wording inside that term, the admissible endpoint is unclear unless FPF distinguishes single-CHR cases from bundle-shaped quality families.
 

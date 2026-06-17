@@ -6,12 +6,12 @@ section_id: "C.28:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__011_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:9 — Consequences"
-line_start: 51884
-line_end: 51903
+line_start: 51441
+line_end: 51460
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,8 +57,8 @@ Positive consequences:
 - Causal claims become inspectable by rung, support basis, and admissible use.
 - Counterfactual sampling realizability becomes operational rather than merely philosophical.
 - Identification and realizability no longer collapse.
-- Fairness, policy, and benchmark claims stop borrowing causal force beyond what their evidence supports.
-- Neighbor patterns receive narrow causal hooks without becoming general causal authorities.
+- Fairness, policy, and benchmark claims stop borrowing causal-use authority beyond what their evidence supports.
+- Adjacent patterns use narrow causal hooks without becoming general causal authorities.
 
 Costs:
 

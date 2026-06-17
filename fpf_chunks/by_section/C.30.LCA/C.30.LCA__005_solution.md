@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 55448
-line_end: 55594
+line_start: 55003
+line_end: 55149
 dependencies:
   - "A.10"
   - "A.20"
@@ -116,7 +116,7 @@ ControlStructureView@Context ::= {
   rateSeparationClaimRefs? : FinSet(C27TemporalClaimRef | TemporalAdequacyClaimRef),
   dynamicsClaimRefs?       : FinSet(A3_3DynamicsRef),
   gateDecisionRefs?          : FinSet(A20ConstraintValidityRef | A21GateDecisionRef),
-  TGAPathSliceRefs?        : FinSet(PathSliceId),
+  transformationFlowPathSliceRefs? : FinSet(PathSliceId),
   stabilityClaimRefs?    : FinSet(DynamicsRef | StabilityEvidenceRef),
   evidenceClaimRefs?     : FinSet(A10EvidenceGraphRef | G6EvidenceRef),
   assuranceClaimRefs?    : FinSet(B3AssuranceRef),

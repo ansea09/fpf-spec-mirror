@@ -6,21 +6,24 @@ section_id: "B.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:1 — Problem frame"
-line_start: 32451
-line_end: 32463
+line_start: 32002
+line_end: 32014
 dependencies:
   - "A.1"
-  - "A.12"
   - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.3"
+  - "A.3.4"
   - "A.7"
   - "B.2"
   - "C.30.LCA"
+  - "U.RoleAssignment"
+  - "U.Work"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -33,7 +36,7 @@ keywords:
 
 Use this pattern when a holon is described as being supervised, regulated, steered, corrected, constrained, or coordinated through a feedback loop between a supervisor role and one or more subordinate holons.
 
-The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which `Transformer` or transformer-bearing system plays the supervisor role, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
+The first-minute working situation is familiar: a fleet controller supervises drones, a plant supervisor changes allowed operating modes, a policy role constrains teams, or a scientific community reviews and revises a theory. The useful first move is to recover the feedback-loop relation: who or what is the supervised holon, which acting system or acting holon holds the supervisor role in the bounded context, which transformation relation or supervised work is being governed, what signal or publication channel carries state or observations, what influence or constraint returns, and what objective or constraint the loop is trying to maintain.
 
 What goes wrong if B.2.5 is missed: the supervised holon, supervisor transformer, shared medium, returned influence, and loop-closure condition remain unnamed; then layer labels, diagrams, publication channels, or supervisor words start carrying claims that belong elsewhere.
 

@@ -6,12 +6,12 @@ section_id: "C.16.P:11"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__014_related-patterns.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:11 — Related patterns"
-line_start: 42808
-line_end: 42819
+line_start: 42361
+line_end: 42372
 dependencies:
   - "A.10"
   - "A.15"

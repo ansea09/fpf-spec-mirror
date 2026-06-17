@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__005_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:3 — Forces"
-line_start: 38490
-line_end: 38499
+line_start: 38043
+line_end: 38052
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ keywords:
 | --- | --- |
 | Representation usefulness and action overread | Graphs, queries, predicates, and dashboards are useful precisely because they expose structure; their shape does not supply hidden work, permission, or release. |
 | Legitimate path words and metaphor repair | `A.10 evidence path`, `E.18` graph path, and carrier file paths may be legitimate; `path` becomes a defect only when it carries a stronger action or authority claim by metaphor. |
-| Method generality and slot discipline | Algorithms, programs, solver models, proofs, SOPs, and process models can all be useful, but the current slot or use-position is recovered before `method`, `method description`, `mechanism`, or `work` is selected. |
-| Declarative and imperative labels are too crude | Current programming and process practice includes effects, handlers, constraint models, object-centric events, e-graphs, and process theories; the repair recovers FPF kind and slot or use-position rather than choosing one programming-paradigm slogan. |
+| Method generality and slot discipline | Algorithms, programs, solver models, proofs, SOPs, and process models can all be useful, but the current ontic slot, relation position, use relation, or claim kind is recovered before `method`, `method description`, `mechanism`, or `work` is selected. |
+| Declarative and imperative labels are too crude | Current programming and process practice includes effects, handlers, constraint models, object-centric events, e-graphs, and process theories; the repair recovers FPF kind, current ontic slot, relation position, use relation, or claim kind rather than choosing one programming-paradigm slogan. |
 | Direct governing pattern and local repair | When `E.18`, `A.10`, `A.3.1`, `A.3.2`, `A.6.1`, `A.15.2`, `A.15.1`, `E.17`, or another pattern already governs the current claim, this pattern names only the overread and leaves the next claim to that pattern rather than duplicating it. |
 

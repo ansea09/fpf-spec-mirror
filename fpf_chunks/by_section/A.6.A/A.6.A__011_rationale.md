@@ -6,12 +6,12 @@ section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 14619
-line_end: 14645
+line_start: 14724
+line_end: 14750
 dependencies:
   - "A.15"
   - "A.16"
@@ -51,7 +51,7 @@ A.6.A makes one strategic move:
 
 This bridge interpretation is intentionally neutral: in ecological settings the site is **not** treated as a literal speaker or norm-giver. "Invitation" is the stable publishable FPF lens for situated opportunity-to-act talk, not a claim that all source traditions use that word or share one ontology.
 
-This gives FPF an admissible path for:
+This gives FPF an admissible treatment for:
 
 * ecological and embodied affordances,
 * interface and operator prompts,
@@ -65,7 +65,7 @@ It also keeps the larger architecture clean:
 
 * **C.16.Q** governs evaluative repairs,
 * **A.6.A** governs action-invitation repairs,
-* **A.6.B** governs boundary routing,
+* **A.6.B** governs boundary claim classification,
 * **A.15** governs enactment and work,
 * **A.16** governs articulation and closure progression and admissible moves,
 * **C.2.3** remains the sole governing pattern for formality characteristic **F**.

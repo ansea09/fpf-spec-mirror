@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.12.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
-line_start: 20044
-line_end: 20176
+line_start: 19680
+line_end: 19812
 dependencies:
   - "A.3"
   - "B.2.5"
@@ -31,7 +31,7 @@ The principle of causality is the bedrock of engineering and scientific reasonin
 
 This pattern operationalizes the **Agent Externalization Principle (C-2)**. It builds directly upon:
 *   **A.3 (Transformer Constitution):** Which defines the core quartet of action: the `Agent` (who acts), the `MethodDescription` (the recipe), the `Method` (the capability), and the `Work` (the event).
-*   **A.2 (Contextual Role Assignment):** Which provides the universal syntax `Holder#Role:Context` for defining agents.
+*   **A.2 and A.2.1 (`U.RoleAssignment`):** Provide the holder, role value, bounded-context, and current-window slots used to state the acting-side assignment.
 
 The intent of this pattern is twofold:
 1.  To mandate that every transformation is modeled as an interaction between a distinct **Agent** (playing a `TransformerRole`) and a distinct **Target** across a defined **Boundary**.
@@ -61,7 +61,7 @@ The solution is a two-part architectural mandate: **(1)** all transformations mu
 
 Every transformation in FPF is a `U.Work` event that is the result of an **Agent** acting upon a **Target**.
 
-*   **The Agent:** The agent is a **Contextual Role Assignment** of the form `System#TransformerRole:Context`. This is the cause, the "doer."
+*   **The acting-side assignment:** the acting side is a `U.RoleAssignment` with `holderRef` naming a `U.System` or admitted acting holon, `roleRef=TransformerRole@Context`, and `boundedContextRef` naming the context. This is the causal/work side, not a compact holder-role shorthand.
 *   **The Target:** The target is the `U.Holon` being changed. This can be another `U.System` or the **symbol carrier** of a `U.Episteme`.
 *   **The Boundary:** The agent and the target are always separated by a `U.Boundary` and interact through a `U.Interaction`.
 
@@ -101,11 +101,11 @@ The Reflexive Split formalizes this. The "Doer" is the **Regulated** subsystem. 
 
 The principle of external causality and the Reflexive Split pattern are universal. They apply equally to physical systems, epistemes, and socio-technical organizations.
 
-| Scenario | Naive Description ("Self-Magic") | FPF Model with Reflexive Split | `Agent` & `Target` |
+| Scenario | Naive Description ("Self-Magic") | FPF Model with Reflexive Split | Acting-side assignment and target |
 | :--- | :--- | :--- | :--- |
-| **System Archetype** | "The robot calibrates itself." | The robot is modeled as a composite holon containing two subsystems: <br> 1. **`CalibrationController`** (`U.System`) <br> 2. **`SensorSuite`** (`U.System`) <br> They interact across an internal data bus (`U.Boundary`). | **Agent:** `CalibrationController#TransformerRole:RobotInternals` <br> **Target:** `SensorSuite` |
-| **Episteme Archetype** | "The document automatically updates its cross-references." | The "document" is a system comprising: <br> 1. **`UpdateScript`** (a `U.System` that executes code) <br> 2. **`DocumentFile.xml`** (a `U.System` acting as a symbol carrier) <br> They interact via the file system (`U.Boundary`). | **Agent:** `UpdateScript#TransformerRole:DocumentSystem` <br> **Target:** `DocumentFile.xml` (the carrier of the `U.Episteme`) |
-| **Socio-Technical Archetype** | "The team reviews its own performance." | The team is modeled as a collective `U.System` that enacts two roles at different times: <br> 1. **`ExecutionTeam`** (doing the sprint work) <br> 2. **`ReviewTeam`** (conducting the retrospective) <br> The "boundary" is the formal separation created by the retrospective ceremony. | **Agent:** `Team#ReviewerRole:RetrospectiveContext` <br> **Target:** The `U.Work` logs and evidence carriers produced by the `Team#ExecutionRole`. |
+| **System Archetype** | "The robot calibrates itself." | The robot is modeled as a composite holon containing two subsystems: <br> 1. **`CalibrationController`** (`U.System`) <br> 2. **`SensorSuite`** (`U.System`) <br> They interact across an internal data bus (`U.Boundary`). | **Acting-side assignment:** `U.RoleAssignment(holderRef=CalibrationController, roleRef=TransformerRole@RobotInternals, boundedContextRef=RobotInternals)` <br> **Target:** `SensorSuite` |
+| **Episteme Archetype** | "The document automatically updates its cross-references." | The "document" is a system comprising: <br> 1. **`UpdateScript`** (a `U.System` that executes code) <br> 2. **`DocumentFile.xml`** (a `U.System` acting as a symbol carrier) <br> They interact via the file system (`U.Boundary`). | **Acting-side assignment:** `U.RoleAssignment(holderRef=UpdateScript, roleRef=TransformerRole@DocumentSystem, boundedContextRef=DocumentSystem)` <br> **Target:** `DocumentFile.xml` (the carrier of the `U.Episteme`) |
+| **Socio-Technical Archetype** | "The team reviews its own performance." | The team is modeled as a collective `U.System` that enacts two roles at different times: <br> 1. **`ExecutionTeam`** (doing the sprint work) <br> 2. **`ReviewTeam`** (conducting the retrospective) <br> The "boundary" is the formal separation created by the retrospective ceremony. | **Acting-side assignment:** `U.RoleAssignment(holderRef=Team, roleRef=ReviewerRole@RetrospectiveContext, boundedContextRef=RetrospectiveContext)` <br> **Target:** the `U.Work` logs and evidence carriers produced under `U.RoleAssignment(holderRef=Team, roleRef=ExecutionRole@SprintContext, boundedContextRef=SprintContext)` |
 
 **Key takeaway from grounding:**
 These examples demonstrate that there is *no such thing as self-action* in a well-formed model. Every action, even an internal one, can and must be decomposed into an external interaction between a distinct agent and a distinct target. This makes the causal chain explicit and auditable in all domains.

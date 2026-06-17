@@ -1,35 +1,51 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.18"
-pattern_title: "Local‑First Unification Naming Protocol"
+pattern_title: "Local-First Unification Naming Protocol"
 section_id: "F.18:0"
-section_title: "Use this when"
+section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.18 — Local‑First Unification Naming Protocol"
-  - "F.18:0 — Use this when"
-line_start: 77938
-line_end: 77945
+  - "F.18 — Local-First Unification Naming Protocol"
+  - "F.18:0 — Use This When"
+line_start: 77751
+line_end: 77763
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.RSIR"
   - "C.2.P"
   - "E.10"
   - "F.0.1"
+  - "F.1"
   - "F.1-F.17"
+  - "F.13"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.8"
+  - "F.9"
   - "G.10"
   - "G.2"
   - "G.6"
 keywords:
 ---
 
-### F.18:0 - Use this when
+### F.18:0 - Use This When
 
-Use `F.18` when a name must become stable and reusable across one local context, a concept set, a bridge, or a durable FPF/publication vocabulary. Use it when the issue is not merely one overloaded local phrase, but a name that must carry context, kind, local sense, use-domain, bridge relation or F.9.1 bridge stance when live, and lineage without smuggling global sameness.
+Use `F.18` when a name must become stable, public, Core-facing, reusable across contexts, or durable enough that later work can cite it without guessing. Typical cases:
 
-**First useful move.** Ask whether the live work is durable naming. If yes, make the name local-first by naming its context, kind, purpose/use-domain, local sense, and bridge relation or F.9.1 bridge stance when live. If no, use the lighter governing pattern: local phrase repair under `E.10` or `C.2.P`, relation precision under `A.6.P`, or the domain pattern that governs the named object.
+- a local expression becomes a durable name for a role, relation, slot, method, work, characteristic, status value, architecture element, or other already governed value;
+- two teams use different words for the same candidate sense and need one reusable term plus preserved local wording;
+- one tempting head word is useful in one context but misleading in another;
+- a role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
 
-**Cheap stop.** If the wording is one-off local repair and does not create a reusable name, stop after the local repair with recovered kind and use. Do not open a full Name Card, mint a new head, or create lineage entries just because a phrase was clarified.
+First useful move: recover the governed object or governed value before choosing the name. Ask: what already-governed value is being named, in which bounded context, by which governing pattern, for which use, and with which local sense? Only then decide whether a `NameCard` and, when public or cross-context use is current, a `UnifiedTermRow` are needed.
+
+Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the governing pattern for the object being named.
 

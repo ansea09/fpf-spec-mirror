@@ -6,12 +6,12 @@ section_id: "C.28:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51871
-line_end: 51883
+line_start: 51428
+line_end: 51440
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 | --- | --- | --- |
 | Fill-all-cards default | Every mention of "cause", "effect", or "counterfactual" triggers a durable dossier. | Start with `CausalUseTriageRecord`; escalate only when the claimed use requires it. |
 | Causal certification theater | Every field is filled, but no reader action, evidence design, downgrade, or unsupported use changes. | Remove fields or downgrade their claim-use until each remaining field changes a decision or blocks an overclaim. |
-| Association as intervention | "Users who received intervention X did better" is published as effect of X without action/assignment support. | Publish association or build identification/evidence design. |
+| Association as intervention | "Users who received intervention X did better" is published as effect of X without action support or assignment support. | Publish association, build identification work, or design evidence. |
 | Interventional proxy as counterfactual fairness | A policy-change metric is called counterfactual fairness. | Declare interventional-action rung unless counterfactual estimand plus identification or realizability is present. |
 | Simulation as realized counterfactual sample | Model output is described as realized counterfactual-rung support without direct sampling or validation. | Use `simulationOnlyCounterfactualOutputBasis` and name supported model use and unsupported model use. |
 | Graph-only causality | A DAG or SCM diagram is treated as sufficient support. | Add assumptions, data regime, graph representation kind, calculus, and admissible use. |

@@ -6,21 +6,24 @@ section_id: "B.2.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_archetypal-grounding.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:5 — Archetypal Grounding"
-line_start: 32519
-line_end: 32525
+line_start: 32070
+line_end: 32076
 dependencies:
   - "A.1"
-  - "A.12"
   - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.3"
+  - "A.3.4"
   - "A.7"
   - "B.2"
   - "C.30.LCA"
+  - "U.RoleAssignment"
+  - "U.Work"
 keywords:
   - "control architecture"
   - "feedback loop"
@@ -34,5 +37,5 @@ keywords:
 | Archetype | Without B.2.5 | With B.2.5 |
 |---|---|---|
 | System | A control diagram mixes physical parts, roles, and commands, then claims coordination is obvious. | The supervised systems, supervisor transformer, shared medium, feedback relation, and returned influence are named. |
-| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems and review practices play the transformer role; the episteme is reviewed, revised, cited, or published. |
+| Episteme | A theory or model is said to sense, judge, plan, or adapt. | Acting systems or acting holons may hold a transformer role through current `U.RoleAssignment`; review practices or methods describe how the episteme is reviewed, revised, cited, or published. |
 

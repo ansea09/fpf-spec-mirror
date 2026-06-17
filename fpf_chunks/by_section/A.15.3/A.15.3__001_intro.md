@@ -6,21 +6,33 @@ section_id: "A.15.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__001_intro.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:intro — Intro"
-line_start: 21694
-line_end: 21732
+line_start: 21334
+line_end: 21372
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.20"
+  - "A.21"
   - "A.6.5"
   - "A.6.7"
+  - "B.3"
+  - "C.27.TA"
   - "E.10.D1"
+  - "E.10.D2"
   - "E.17"
   - "E.18"
+  - "E.18.1"
   - "E.19"
+  - "E.20"
+  - "G.11"
+  - "G.6"
+  - "U.RelationSlotDiscipline"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -37,39 +49,39 @@ keywords:
 ## A.15.3 - SlotFillingsPlanItem
 
 > **Tech-name:** `SlotFillingsPlanItem`
-> **Plain-name:** planned slot-fillings baseline item (planned baseline)
-> **Type:** Architectural (A)
+> **Plain-name:** planned slot-fillings baseline item
+> **Short code:** `SFPI`
+> **Pattern type:** Definitional WorkPlanning pattern
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A → A.15 (Work & WorkPlanning)
-> **Builds on:** `U.WorkPlan` (A.15.2), performed-work occurrence discipline (A.15.1 and E.18), Context discipline (E.10.D1), `MechSuiteDescription` (A.6.7), and publication/view discipline (E.17; views are projections, not places of meaning)
-> **Used by:** planned-baseline requirements from suites or kits; P2W (selection -> WorkPlanning -> WorkEnactment); Part G universalization
-> **Purpose (one line):** provide a universal, context-explicit **planned baseline** that maps a slot-bearing description's `SlotKind`s to **planned fillers**, to be consumed by Work enactment where launch values are finalized.
+> **Normativity:** Normative unless explicitly marked informative
+> **Placement:** Part A -> A.15 work family
+> **Builds on:** `A.15.2 U.WorkPlan`, `A.15.1 U.Work`, `A.6.5 U.RelationSlotDiscipline`, `E.10.D2`, `E.17`, `E.18.1`, and `E.20`
+> **Used by:** P2W work-planning slices, suite or kit planned baselines, Part G planned-baseline references, and performed-work variance records
+> **One-line purpose:** name one planned baseline item that states which planned fillers are intended for which SlotKinds of one slot-bearing description before performed work occurs.
 
-**At a glance.** Use `SlotFillingsPlanItem` when a `U.WorkPlan` needs a planned baseline saying which planned fillers will occupy which `SlotKind`s of one slot-bearing description before work is enacted.
+**At a glance.** Use `SlotFillingsPlanItem` when a `U.WorkPlan` needs more than a date, budget, or intended method: it needs a reproducible planned baseline saying which planned fillers are intended for one slot-bearing description's SlotKinds.
 
-**Use this when.** Use this pattern when planned references, policies, spec pins, method-description references, evidence pin refs, or crossing-policy pins must be fixed for a P2W work-planning slice, and the plan must stay distinct from launch values, gate decisions, evidence, and performed work.
+**Use this when.** Use this pattern when a P2W or work-planning slice needs planned references, policy pins, method-description refs, edition pins, evidence-reference pins, guard-preparation refs, or crossing-policy refs to stay fixed before performed `U.Work`.
 
-**First output.** One `SlotFillingsPlanItem` with exactly one `target_slot_bearing_description_ref`, explicit `bounded_context_ref`, EntityOfConcern ref, time selector or time rule, authoritative planned-filling rows, and any expected guard, evidence, edition, or crossing pins needed before work enactment.
+**First output.** One `SlotFillingsPlanItem` naming exactly one `target_slot_bearing_description_ref`, one `bounded_context_ref`, the EntityOfConcern under planning, a time selector or time rule, authoritative planned-filling rows, and any guard-preparation, evidence-reference, edition, or crossing-policy refs needed before performed work.
 
-**Working action path.**
-1. Name the slot-bearing description whose `SlotKind` set is being filled.
-2. Name the EntityOfConcern and grounding holon or reference plane when needed.
-3. Name context, time selector or time rule, and any P2W slice or publication scope needed for reproducibility.
-4. Fill the authoritative rows by `SlotKind`, using ByValue or ByRef with concrete RefKinds and edition pins when needed.
-5. Keep derived indices, views, guard pins, evidence pins, and crossing pins as projections or expectations; do not turn them into execution, gate, evidence, or launch-value claims.
+**Working use order.**
 
-**Ordinary use.** For a minimal baseline, context, time selector, target slot-bearing description, EntityOfConcern ref, and planned-filling rows are enough.
+1. Confirm that the current claim is a planned baseline inside a `U.WorkPlan`, not the slot-bearing description itself and not performed work.
+2. Name the target slot-bearing description and use its SlotSpecs from the governing description pattern, with A.6.5 slot discipline.
+3. Name the EntityOfConcern under planning and the bounded context; add a grounding holon only when the current claim needs one.
+4. Write planned-filling rows from SlotKind to planned filler, with ByValue or concrete RefKind mode and edition pins when reproducibility depends on them.
+5. Keep projections, views, evidence-reference pins, guard-preparation refs, and crossing-policy refs as secondary references. They do not add rows, create evidence, pass a gate, or finalize launch values.
 
-**Reliance-bearing use.** Use the fuller record when reproducibility, launch guard preparation, crossing expectations, suite or kit reuse, Part G universalization, or P2W carry-through depends on the baseline.
+**Ordinary use.** For a minimal baseline, use context, time selector, target slot-bearing description, EntityOfConcern ref, and planned-filling rows.
 
-**Stop condition.** Stop once planned fillers are explicit enough for the intended WorkPlanning move, or lower the claim to a plan cue, source-gap note, relation governed by another FPF pattern, or blocked kind-definition gap without claiming a conforming planned baseline.
+**Reliance-bearing use.** Use the fuller record when reproducibility, launch-guard preparation, crossing expectations, suite or kit reuse, Part G universalization, publication-view projection, or P2W carry-through depends on the baseline.
 
-**Not this pattern when.** Not this pattern when the live object is the slot-bearing description itself, a mechanism definition, a performed-work occurrence, a gate decision, a launch-value witness, evidence, assurance, or a publication view. Use the corresponding governing pattern and return here only for the planned slot-filling baseline.
+**Stop condition.** Stop once the planned rows are explicit enough for the work-planning move, or lower the claim to a plan cue, source-gap note, relation governed by another FPF pattern, or blocked kind-definition gap without claiming a conforming planned baseline.
 
-**Name and reference discipline (informative)**
-* **Kind reuse:** This pattern uses the kind name `SlotFillingsPlanItem`. It reuses existing Core terms and disciplines (e.g., `U.WorkPlan.PlanItem`, SlotKind, ValueKind, RefKind, and refMode discipline, edition pinning, `U.BoundedContext`, and the P2W split between WorkPlanning and WorkEnactment).
-* **`SlotFillingsPlanItem` (kind name):** keep the suffix `PlanItem` to preserve the WorkPlanning placement. Do not mint aliases like *SlotBinding…* (conflicts with the A.6.5 binding discipline) or *SlotValue…* (ambiguous slot-bearing description or context).
-* **Anchor names:** if a §4.2 anchor is materialized as a formal field name, keep `…_ref` only for fields whose values are concrete RefKind handles, and keep `…_id` only for identifiers. Avoid introducing generic placeholders such as `SpecRef`, `PolicyRef`, or `GateRef` inside this pattern; use existing concrete ref kinds. When no concrete ref kind exists, the planned-baseline claim is blocked until a governing FPF pattern defines the kind.
-* **Row vocabulary:** treat `SlotFillingRow` and `PlannedFiller` as internal names of this pattern. Do not treat them as shared tokens outside this pattern unless a governing FPF pattern defines them.
+**What goes wrong if missed.** Teams hide planned choices in mechanism prose, suite descriptions, generated cards, "latest" references, local checklists, or execution logs. Later nobody can tell what was planned, what was performed, which edition changed, or which variance belongs to performed work.
+
+**What this buys.** A small planned-baseline record that lets later performed work cite the intended slot fillings and record variance without rewriting the plan after the fact.
+
+**Not this pattern when.** Not this pattern when the current claim is the slot-bearing description itself (`A.6.5` plus the governing description pattern), a mechanism definition (`A.6.1` or `E.20`), a performed work occurrence (`A.15.1`), an ordinary work plan without slot-filling rows (`A.15.2`), evidence or assurance (`A.10` or `B.3`), a gate or constraint decision (`A.20` or `A.21`), publication-use behavior (`E.17`), or a declarative representation overread as work control (`C.2.P.DR`).
 

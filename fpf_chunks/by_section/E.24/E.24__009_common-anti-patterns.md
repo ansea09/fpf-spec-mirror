@@ -6,25 +6,31 @@ section_id: "E.24:7"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__009_common-anti-patterns.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:7 — Common Anti-Patterns"
-line_start: 71321
-line_end: 71333
+line_start: 70995
+line_end: 71007
 dependencies:
   - "A.15"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.1"
   - "A.6.5"
   - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
+  - "C.27.TA"
   - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
+  - "E.18"
   - "E.2.DA"
   - "E.20"
   - "E.21"
@@ -42,7 +48,7 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Shadow-kind by repetition | The same local record appears in several patterns and starts being cited as an object. | Apply E.24; either write a durable ontic pattern or rename it as a local use frame. |
+| Shadow-kind by repetition | The same local record appears in several patterns and starts being cited as an object. | Apply E.24; either write a durable ontic pattern or lower the construct to a local use frame. |
 | Draft locus as authority | A ToC row is cited as if it supplied current governing text. | Treat it as investigation cue only; use current governing patterns until the pattern exists. |
 | Slot list without identity | A pattern lists fields but never says what identifies the ontic. | Add stable identity criteria or lower the construct to a local use frame. |
 | Pattern nest as ontology | The numbering area is treated as the semantic unit. | Declare `semanticArea`, `ontologicalNeighborhood`, and primary `EntityOfConcern` separately. |

@@ -1,33 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Types & Roles"
-section_id: "F.5:2"
-section_title: "Problem frame"
+pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
+section_id: "F.5:1"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.5 — Naming Discipline for U.Types & Roles"
-  - "F.5:2 — Problem frame"
-line_start: 73513
-line_end: 73524
+  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
+  - "F.5:1 — Problem Frame"
+line_start: 73201
+line_end: 73212
 dependencies:
-  - "A.11"
-  - "A.7"
-  - "D.CTX"
+  - "A.15"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "E.10"
-  - "E.10.D1"
-  - "E.10.D2"
-  - "F.0.1"
-  - "F.1"
+  - "E.10.ARCH"
+  - "F.10"
   - "F.13"
-  - "F.2"
-  - "F.3"
+  - "F.14"
+  - "F.15"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
+  - "U.Type"
 keywords:
   - "U.Type naming"
   - "lexical rules"
@@ -36,15 +41,15 @@ keywords:
   - "twin registers"
 ---
 
-### F.5:2 - Problem frame
+### F.5:1 - Problem Frame
 
-Naming errors cause structural errors:
+FPF needs names that humans can use without dragging the wrong ontology behind them. A good name is short enough to be used in documents and conversations, but it is not free-floating. It belongs to a recovered meaning.
 
-1. **Context denial.** A label hides its Context, inviting Cross‑context misuse (*“process”* used for both BPMN and PROV senses).
-2. **senseFamily blur.** Names conflate **Role** (behavioural mask) with **Status** (epistemic/deontic badge).
-3. **Over‑reach.** U.Types inherit jargon from one canon and sound global while being parochial.
-4. **Under-reach.** Role Description labels sound so generic that they pretend to be U.Types.
-5. **Unstable synonyms.** Labels drift to placate readers rather than reflect meaning fixed in SenseCells.
+This pattern keeps two recurrent naming families separate.
 
-This code resolves these by **Context fidelity**, **senseFamily‑aware morphology**, and **two‑register pedagogy**.
+First, a `U.Type` or similar cross-context concept gets its name from a Concept-Set row. The name should be neutral with respect to the witnesses and should name the least shared kind that the row actually admits.
+
+Second, a role-description episteme labels one work-facing `U.Role` in one bounded context. The label should fit the local idiom and make the role recognizable. It should not make a holder assignment, capability, method, work occurrence, status, evidence relation, permission, publication, or relation slot look like part of the role value.
+
+The tempting shortcut is to make "Role Description" cover both roles and statuses because both need labels. That is convenient wording, but it creates duplicate ontology. Statuses and evidence uses need names too; they do not become roles because they are named.
 

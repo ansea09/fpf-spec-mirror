@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
-section_id: "F.9:18"
-section_title: "Archetypal Grounding"
+pattern_title: "Alignment and Bridge across Contexts"
+section_id: "F.9:19"
+section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_archetypal-grounding.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
-  - "F.9:18 — Archetypal Grounding"
-line_start: 75079
-line_end: 75098
+  - "F.9 — Alignment and Bridge across Contexts"
+  - "F.9:19 — Archetypal grounding"
+line_start: 74937
+line_end: 74954
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -46,23 +50,21 @@ keywords:
   - "weakest-link scope"
 ---
 
-### F.9:18 - Archetypal Grounding
+### F.9:19 - Archetypal grounding
 
-#### F.9:18.1 - Tell
+#### F.9:19.1 - Tell
 
-A Bridge is not a synonym claim and not an enactment edge. It is a context-bounded correspondence record that tells a reader what may be reused, what may only be explained, and what is lost when meaning is transported.
+A Bridge is not a synonym claim and not an enactment edge. It is a context-bounded correspondence record that tells a reader what may be named, compared, or inferred, and what is lost when a sense crosses context.
 
-#### F.9:18.2 - Show (System lane)
+#### F.9:19.2 - Show: service lane
 
-A service team may reuse the word *availability* across monitoring, SLO review, and architecture discussion. F.9 requires the team to publish Bridge Cards that separate observation, status target, and architectural concern rather than treating the shared label as silent sameness. The benefit is that naming convenience survives while substitution rights stay bounded by `senseFamily`, `CL`, and Loss Notes.
+A service team may reuse the word `availability` across monitoring, SLO review, and architecture discussion. F.9 requires Bridge Cards that separate observation, status target, and architectural concern rather than treating the shared label as silent sameness. The practical gain is that naming convenience survives while substitution rights stay bounded by `senseFamily`, `CL`, and Loss Notes.
 
-#### F.9:18.3 - Show (Episteme lane)
+#### F.9:19.3 - Show: role lane
 
-A comparative bundle may say that two traditions both discuss *readiness* or *capability*. Under F.9, that statement is only explanatory until the author publishes the two SenseCells, the Bridge kind, direction, `CL`, and the counter-example that marks where the comparison stops. The Bridge then becomes an auditable correspondence rather than a rhetorical shortcut.
+A process team and an access-control team both use `operator`. F.9 can admit a Naming-only row and may admit RoleDescription naming when the local `U.Role` remains clear. It cannot assign the access-control role to a work occurrence. That claim requires A.2.1 and F.6.
 
-#### F.9:18.4 - Coarsened cross-context note is not yet a Bridge Card
+#### F.9:19.4 - Show: episteme lane
 
-A service or review bundle may circulate a short cross-context note such as `the vendor bulletin is basically the same readiness signal as our rollback worksheet`. That note may be useful as informal orientation talk, but it is not yet an admissible Bridge Card and not yet a formal `F.9` `Naming-only` row.
-
-Before any substitution, equivalence, `Naming-only` row, or interoperability claim is made, the source-bearing episteme or source publication needed for the Bridge Card must be reopened and an explicit Bridge Card must publish the two SenseCells, bridge kind, direction, `CL`, Loss Notes, and admissible use. Friendly summary prose does not carry bridge-bearing use by itself.
+A comparative bundle may say that two traditions both discuss `readiness`. Under F.9, that statement remains explanatory until the author publishes the cells, bridge kind, direction, `CL`, Loss Notes, and counter-example. The Bridge then becomes auditable correspondence rather than rhetorical shortcut.
 

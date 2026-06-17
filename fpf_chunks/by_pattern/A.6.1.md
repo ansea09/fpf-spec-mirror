@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.1.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
-line_start: 10219
-line_end: 10550
+line_start: 10080
+line_end: 10411
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.3:15"
 section_title: "Extended rationale & design notes  \\[I]"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__017_extended-rationale-design-notes-i.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:15 — Extended rationale & design notes  \\[I]"
-line_start: 39496
-line_end: 39523
+line_start: 39049
+line_end: 39076
 dependencies:
   - "A.1"
   - "A.2.6"

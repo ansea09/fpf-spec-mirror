@@ -6,34 +6,37 @@ section_id: "A.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__006_archetypal-grounding.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:5 — Archetypal Grounding"
-line_start: 19829
-line_end: 19838
+line_start: 19464
+line_end: 19473
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3.4"
   - "A.6"
-  - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.4"
   - "C.16"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "E.17"
   - "E.17.EFP"
   - "F.9"
 keywords:
@@ -53,11 +56,11 @@ keywords:
 
 ### A.10:5 - Archetypal Grounding
 
-| Aspect | `s.System` — Autonomous Brake | `s.Episteme` — Meta-analysis |
+| Aspect | System claim — Autonomous Brake | Episteme claim — Meta-analysis |
 | --- | --- | --- |
 | **Claim**                    | “Stop within 50 m from 100 km/h.”                                                                   | “Drug A outperforms control on endpoint E.”                                                                              |
 | **Evidence relation**                   | `verifiedBy`: static‑analysis proof of no overflow; `validatedBy`: instrumented track tests.        | `verifiedBy`: power‑analysis proof of sample size; `validatedBy`: pooled effect sizes with bias checks.                  |
-| **Carriers (SCR and RSCR)** | Scale logs, calibration certificates, test track telemetry; SCR lists all; RSCR adds context units. | PDFs of studies, data tables, analysis code; SCR lists carriers; RSCR adapts vocabularies and units for the target audience. |
-| **External TransformerRole** | Independent test team / metrology lab.                                                              | Independent synthesis team / statistician.                                                                               |
+| **Carrier and source-currentness records** | Scale logs, calibration certificates, test track telemetry; context reuse adds unit, identifier, hash, and relevance-window discipline. | PDFs of studies, data tables, analysis code; context reuse adapts vocabularies and units while preserving carrier identity and carrier integrity. |
+| **Evidence-producing or interpreting work** | Independent test run, calibration work, or interpretation work by a metrology team under a named role assignment. | Synthesis work or statistical interpretation work by a named team or statistician under a named role assignment. |
 | **Temporal**                 | Dated runs; `happenedBefore` between setup → test → teardown.                                       | Publication dates; dataset versions; monotone coverage of included studies.                                              |
 

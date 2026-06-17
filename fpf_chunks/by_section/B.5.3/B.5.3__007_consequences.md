@@ -6,12 +6,12 @@ section_id: "B.5.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__007_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.5.3 — Role-Projection Bridge"
   - "B.5.3:6 — Consequences"
-line_start: 34929
-line_end: 34937
+line_start: 34480
+line_end: 34488
 dependencies:
   - "A.2"
   - "C.3"

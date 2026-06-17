@@ -6,14 +6,17 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 9084
-line_end: 9161
+line_start: 8945
+line_end: 9022
 dependencies:
   - "A.10"
+  - "A.2.3"
+  - "A.2.8"
+  - "A.2.9"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -28,25 +31,31 @@ dependencies:
   - "E.17.0"
   - "E.8"
   - "F.18"
+  - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
   - "U.Signature"
+  - "U.SpeechAct"
 keywords:
-  - "(MUST/SHALL/SHOULD/MAY) as operators inside the law/definition itself"
-  - "(ii) claim that evidence/carriers exist (that is E-)"
+  - "(MUST"
+  - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "(“MUST/SHALL/…”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
   - "Keeps modalities separated and audit‑ready"
   - "L/A/D/E claim classification"
   - "MAY"
+  - "MUST"
   - "MUST NOT"
   - "MUST NOT hide a gate predicate (that is A-)"
+  - "SHALL"
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
   - "admissible use"
+  - "and MAY"
   - "and MUST NOT cite D-*"
+  - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
@@ -55,14 +64,20 @@ keywords:
   - "boundary norm square"
   - "claim IDs"
   - "laws vs gates vs commitments vs evidence"
+  - "may"
   - "non-admissible use"
   - "not a duty.)"
   - "not normative"
-  - "or (iii) assert evidence existence/measurement outcomes (those are E-*)"
-  - "or (iii) assign responsibility/enforcement (that is D-*)"
-  - "they describe adjudicable effects/evidence)"
+  - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
+  - "or (iii) assign responsibility or enforcement (that is D-*)"
+  - "or MAY) as operators inside the law or definition itself"
+  - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
-  - "“the interface/system promises” does not)"
+  - "“commits to”)"
+  - "“is admissible”"
+  - "“is blocked”"
+  - "“the interface or system promises” does not)"
+  - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
 ### A.6.B:6 — Cross‑quadrant link discipline
@@ -83,7 +98,7 @@ These patterns are valid (and common). The square becomes operational when these
 
 When governance requires someone to comply with a gate:
 
-* `D-*`: “Role **MUST** satisfy/enforce `A-*`.”
+* `D-*`: “Role **MUST** satisfy or enforce `A-*`.”
 
 This separates **what is admissible** (A) from **who is responsible** (D).
 
@@ -91,41 +106,41 @@ This separates **what is admissible** (A) from **who is responsible** (D).
 
 When gate decisions must be observable:
 
-* `E-*`: “On rejection/acceptance due to `A-*`, carrier `C` is produced/observable under conditions …”
+* `E-*`: “On rejection or acceptance due to `A-*`, carrier `C` is produced or observable under conditions …”
 
 This separates **gate semantics** (A) from **evidence semantics** (E).
 
 ##### A.6.B:6.2.3 - (D → E) Duty-to-evidence linkage
 
-When governance requires evidence production/retention/exposure or commits to measured properties:
+When governance requires evidence production, retention, or exposure or commits to measured properties:
 
-* `D-*`: “Role **MUST** retain/expose carrier class `C` used by `E-*` …”
+* `D-*`: “Role **MUST** retain or expose carrier class `C` used by `E-*` …”
 * `D-*`: “Provider **SHALL** meet `E-*` under exclusions …”
 
-This separates **obligation/commitment** (D) from **adjudication** (E).
+This separates **obligation or commitment** (D) from **adjudication** (E).
 
 ##### A.6.B:6.2.4 - (A/E → L) Semantic grounding linkage
 
-When a gate predicate or measurement relies on definitions/invariants:
+When a gate predicate or measurement relies on definitions or invariants:
 
-* `A-*` / `E-*` references `L-*` that define terms/metrics.
+* `A-*` / `E-*` references `L-*` that define terms or metrics.
 
 This prevents “metric drift” and “definition drift” across views.
 
 ##### A.6.B:6.2.5 - (D → L) Governance-to-definition linkage
 
-When an obligation/commitment relies on precise term or metric meanings:
+When an obligation or commitment relies on precise term or metric meanings:
 
-* `D-*` references `L-*` that define the terms/metrics it uses.
+* `D-*` references `L-*` that define the terms or metrics it uses.
 
 This keeps governance text from accidentally redefining semantics in prose.
 
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
-**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy/enforce it, and (iii) an observability expectation into the three quadrants:
+**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy or enforce it, and (iii) an observability expectation into the three quadrants:
 
 * **A:** admissibility predicate (`A-*`)
-* **D:** duty/commitment referencing the gate (`D-* → A-*`)
+* **D:** duty or commitment referencing the gate (`D-* → A-*`)
 * **E:** evidence binding referencing the gate (and carriers) (`E-* → A-*`)
 
 This is the canonical repair for “contract soup” around validity, authorization, compliance, audit, and security boundaries.
@@ -137,9 +152,9 @@ The square is intended to preserve **layered modularity**: semantics should not 
 **Normative rule (no upward dependencies).**
 
 * `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
-* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms/invariants.)
-* `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric/term meanings.)
-* `D-*` claims **MAY** reference `L-*`, `A-*`, and/or `E-*` claims as needed, and **SHOULD** do so by ID rather than restating content.
+* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms or invariants.)
+* `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric or term meanings.)
+* `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID rather than restating content.
 
 **Rationale (informative).** This keeps foundational meaning stable (L), keeps runtime gates independent of governance prose (A), and keeps evidence semantics independent of enforcement policy (E). Governance (D) is the place where “who must do what, using which gates and which evidence” is assembled.
 

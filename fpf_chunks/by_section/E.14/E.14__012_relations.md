@@ -6,12 +6,12 @@ section_id: "E.14:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__012_relations.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:11 — Relations"
-line_start: 63490
-line_end: 63511
+line_start: 63134
+line_end: 63155
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -37,13 +37,13 @@ keywords:
 
 **Coordinates with.**
 
-* **CT2R‑LOG — Working‑Model Relations & Grounding** — alias rules and `tv:groundedBy` Standard for edges grounded in Γₘ.
+* **CT2R‑LOG — Working‑Model Relations & Grounding** — label-meaning rules and `tv:groundedBy` Standard for edges grounded in Γₘ.
 * **Compose‑CAL (Constructional Mereology)** — provides the constructive shoulder (Γₘ: **sum | set | slice**) used to ground structural edges.
 * **E.10 Lexical Discipline & Stratification** — ensures naming discipline and register hygiene when the human layer is published.
 
 **Constrains:**
 
-* All architectural patterns that publish relations **SHALL** present them in the Working‑Model layer and **MAY** attach assurance only as needed, preserving plane separation and notational independence. (Template conformance as per E.8.)
+* All architectural patterns that publish relations **SHALL** present them in the Working-Model layer and **MAY** attach assurance only as needed, preserving relation-family separation and notational independence. (Template conformance as per E.8.)
 
 **Informs.**
 

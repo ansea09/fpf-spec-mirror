@@ -6,27 +6,26 @@ section_id: "B.3:6"
 section_title: "Archetypal grounding (worked examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_archetypal-grounding-worked-examples.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:6 — Archetypal grounding (worked examples)"
-line_start: 33012
-line_end: 33075
+line_start: 32563
+line_end: 32626
 dependencies:
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.6"
   - "A.7"
   - "B.1"
   - "B.1.1"
-  - "B.1.2"
-  - "B.1.3"
-  - "B.1.4"
   - "B.3"
   - "B.3.5"
   - "B.3.x"
@@ -76,7 +75,7 @@ keywords:
   * `R_eff = max(0, R_raw − Φ(CL_min=CL1))`.
   * `G_eff`: union of evidence-covered (L,T) rectangles, dropping regions lacking validated thermal data.
   * `F_eff = min(F_cell=F1, F_module=F2) = F1`.
-* **SCR:** Evidence for calibration, test campaigns, BIC.
+* **Evidence/source record:** Evidence for calibration, test campaigns, BIC.
 * **Improvement move:** raise `CL` (better thermal interface verification), raise `F` (formal thermal model), add evidenced envelope -> **R_eff** and **G_eff** increase monotonically.
 
 #### B.3:6.2 - Episteme archetype — **Meta-analysis claim**
@@ -95,20 +94,20 @@ keywords:
   * `F_eff = F2` from the weakest study-design evidence relation in the synthesis.
   * `R_eff = max(0, min(R_RCT1, R_RCT2, R_OBS) - Φ(CL_min=CL1))`.
   * `G_eff`: union of evidence-covered sub-populations; out-of-scope groups excluded.
-  * `CL_min = CL1` for scale mappings; record the mapping witness and weakest-link study in the SCR.
-* **SCR:** Data provenance, scale mappings, bias assessment, and proof-term hash for the effect-model equivalence when it is used constructively.
+  * `CL_min = CL1` for scale mappings; record the mapping witness and weakest-link study in the assurance source-currentness record.
+* **Evidence/source record:** Data provenance, scale mappings, bias assessment, and proof-term hash for the effect-model equivalence when it is used constructively.
 * **Improvement move:** upgrade mapping verification to CL2 or CL3; increase `F` via registered analysis plan; replicate lagging study.
 
-#### B.3:6.3 - Order and process-sequence archetype - **Manufacturing process-sequence assurance**
+#### B.3:6.3 - Order-sensitive manufacturing-sequence assurance
 
-* **Claim `C`:** *ProcessSequence R meets output defect rate ≤ ε.*
+* **Claim `C`:** *The domain manufacturing sequence `R`, mapped to an order-sensitive Method/Work sequence with an `OrderSpec`, meets output defect rate <= epsilon.*
 * **Context `K`:** Materials, equipment class; `S = run`.
-* **Γ\_ctx records:** `σ` order; declared independent branches; join conditions at inspection.
+* **Γ_ctx records:** `OrderSpec σ` for the method/work sequence; declared independent branches; join conditions at inspection.
 * **Assurance:**
 
-  * `R_raw = min R_step` along the **critical path** (includes inspection effectiveness).
+  * `R_raw = min R_step` along the declared order-sensitive dependency path (including inspection effectiveness).
   * Penalty from poor join soundness `CL_min`.
-  * Improvement via faster but **verified** inspection (↑R\_step) or tighter join spec (↑CL).
+  * Improvement via faster but **verified** inspection (increase `R_step`) or tighter join spec (increase `CL`).
 
 #### B.3:6.4 - Temporal archetype — **Versioned model credibility**
 

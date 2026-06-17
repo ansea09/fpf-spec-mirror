@@ -6,22 +6,27 @@ section_id: "A.7:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:2 — Problem frame"
-line_start: 18925
-line_end: 18935
+line_start: 18555
+line_end: 18565
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.13"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.2"
+  - "A.2.1"
   - "A.21"
   - "A.3"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "E.10"
   - "E.17"
   - "E.18"
@@ -36,10 +41,10 @@ keywords:
 
 ### A.7:2 - Problem frame
 
-* **Holons (A.1) and systems.** All holons are part-whole units; **only systems** can enact behaviour.
-* **Externalization (A.12).** Every change is performed by a **system bearing TransformerRole** across a boundary; there is no “self‑magic”.
-* **Quartet backbone (A.3, A.15).** We separate **MethodDescription** (description), **Method** (abstract way-of-doing), **Capability** (a system's ability or envelope to enact a Method under conditions), and **Work** (run‑time occurrence), with the **system bearing TransformerRole** as the acting side.
-* **Evidence (A.10).** Knowledge claims cite **Symbol-Carrier Register (SCR)** carriers; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
+* **Holons (A.1) and systems.** All holons are part-whole units; **systems or acting holons** enact behaviour through work-facing role assignments in a bounded context.
+* **Transformation (A.3.4) and role assignment (A.2/A.2.1).** Every claimed change names the transformation or work occurrence, the affected entity, and any current `U.RoleAssignment` for the acting system or holon; there is no “self-magic”.
+* **Method/work backbone (A.3.1, A.3.2, A.15).** We separate **MethodDescription** (description), **Method** (abstract way-of-doing), **Capability** (a system's ability or envelope to enact a Method under conditions), **WorkPlan** (intent window), and **Work** (run-time occurrence), with the acting side expressed through `U.RoleAssignment` when a work-facing role is current.
+* **Evidence (A.10).** Knowledge claims cite evidence-provenance and carrier/source-currentness relations; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
 
 Practitioner check: if a sentence could be read as “the document decided” or “the process executed itself”, it violates A.7.
 

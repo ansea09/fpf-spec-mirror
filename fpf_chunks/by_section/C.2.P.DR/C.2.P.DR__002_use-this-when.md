@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:0 — Use this when"
-line_start: 38441
-line_end: 38470
+line_start: 37994
+line_end: 38023
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ Use this pattern especially when:
 
 **What goes wrong if missed.** The representation appears to do work it cannot do. A path "routes" a decision, a query "calls" a pattern, a dashboard "authorizes" release, a checklist predicate "runs" a process, an evidence path "permits" action, or a program-looking text becomes "the method" without recovering method semantics, method description, formal substrate, mechanism, work plan, work, evidence, or source-use relation.
 
-**What this buys.** The working reader keeps the representation useful without making it magical. Graph paths remain graph paths, evidence paths remain evidence paths or provenance paths, queries remain representations, pattern relations remain declarative relations, and method-like wording is assigned to the slot, use-position, or governing pattern named by value before it guides work, evidence, gate, release, assurance, or method claims.
+**What this buys.** The working reader keeps the representation useful without making it magical. Graph paths remain graph paths, evidence paths remain evidence paths or provenance paths, queries remain representations, pattern relations remain declarative relations, and method-like wording is assigned to the current ontic slot, relation position, use relation, claim kind, or governing pattern named by value before it guides work, evidence, gate, release, assurance, or method claims.
 
 **Not this pattern when.**
 

@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution — Define U.Signature once, reuse everywhere"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_solution-define-u-signature-once-reuse-everywhere.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
   - "A.6.0:4 — Solution — Define U.Signature once, reuse everywhere"
-line_start: 9918
-line_end: 10080
+line_start: 9779
+line_end: 9941
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -57,7 +57,7 @@ The **four conceptual rows** (“SubjectBlock, Vocabulary, Laws, and Applicabili
 * **Vocabulary and Laws** = *principles and laws* (postulates and constraints),
 * **Applicability** = *where they hold in practice* (bounded context and time).
 
-Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names are universal; family‑specific aliases are mapped below):
+Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names are universal; family-specific projections are stated below):
 
 1. **SubjectBlock** — ⟨**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**⟩.
    *SubjectKind* names the EntityOfConcern kind declared by the signature (C.3); *BaseType* is the `U.Type` the signature ranges over (CHR Spaces appear here **as types**, not as field names); *SliceSet* addresses the quantification domain (USM; e.g., **ContextSliceSet**); *ExtentRule* computes `Extension(SubjectKind, slice)` (C.3.2); *ResultKind?* (optional) is the output kind when outputs differ from the SubjectKind.
@@ -77,7 +77,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
 
 4. **Applicability (Scope and Context)** — conditions under which the laws are valid (bounded context, plane, stance, time notions). Applicability **MUST** bind a **`U.BoundedContext`** (D.CTX). Applicability here is the *context of meaning* for the Signature’s vocabulary and laws; it **MUST NOT** be used to encode claim‑level applicability, which remains a **Scope** on claims (`USM` and `C.3.2`). Cross‑context use **MUST NOT** be implicit; if intended, **name** the Bridge (conceptual reference only). When numeric comparability is implied, **bind** legality to **CG‑Spec and MM‑CHR** (normalize‑then‑compare; lawful scales and units).
 
-*Mapping to existing families (normative aliases).*
+*Mapping to existing families (normative projection correspondences).*
 — **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind, BaseType, and the remaining SubjectBlock fields**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).
 — **Task, Problem, and Discipline signatures (C.22, G-cluster).** These **SHALL** be introduced as **species of `U.Signature`** that reuse the same four-row Block (SubjectBlock, Vocabulary, Laws, and Applicability); any extra per-family views are projections only (no new conceptual rows).
 
@@ -133,7 +133,7 @@ To enable first‑principles signature specializations without minting new Kerne
   **Vocabulary:** **PostulateSet** (in the calculus imported), **CHR-Binding presence** (ref-only to characteristic or observation profiles), **Ontology references** (ref-only to ontology types or morphisms used to name subject-matter entities).
   **Laws:** timeless and order-free invariants; **no operational admissions**.
   **Applicability:** binds a `U.BoundedContext`; **Signatures SHALL NOT publish units, ReferencePlane, ComparatorSet, or Transport** (first mention is in **UNM**).
-  **MVPK pins:** **`NoReferencePlaneOnSignature`** (alias: **`NoReferencePlaneOnPF`**) and **`UNM‑priority`** (units, planes, comparators, and Transport are declared only by **`U.ContextNormalization`** and cited by edition or ref-id where needed).
+  **MVPK pins:** **`NoReferencePlaneOnSignature`** and **`UNM-priority`** (units, planes, comparators, and Transport are declared only by **`U.ContextNormalization`** and cited by edition or ref-id where needed). Do not mint profile-local pin synonyms.
 
 **Profile morphism discipline.** See §4.6 for the **structure‑preserving morphism** requirements for profile application.
 

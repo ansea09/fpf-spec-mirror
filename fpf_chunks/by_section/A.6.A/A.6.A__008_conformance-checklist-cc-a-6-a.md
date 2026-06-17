@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 14529
-line_end: 14594
+line_start: 14634
+line_end: 14699
 dependencies:
   - "A.15"
   - "A.16"
@@ -49,7 +49,7 @@ A text or pattern conforms to A.6.A iff:
 
 1. **CC-A.6.A-1 — Explicit post-threshold relation family and explicit sense.**
    Every in-scope post-threshold action-first use resolves to one declared `actionInvitation(...)` instance and one declared `ActionInvitationSense`; earlier cue-like content stays under `A.16.1` or `B.4.1` instead of being forced into A.6.A prematurely.
-2. **CC-A.6.A-2 — Explicit site and site-facet docking.**
+2. **CC-A.6.A-2 — Explicit site and site-facet relation binding.**
    The site tuple is explicit; when ambiguous or mixed, the site classification over the EntityOfConcern and Description-episteme boundary is explicit, and publication or carrier participation is stated separately when live.
 
 3. **CC-A.6.A-3 — Explicit invited enactor.**
@@ -104,8 +104,8 @@ A text or pattern conforms to A.6.A iff:
     Bare action-first trigger tokens are absent from Tech prose and normative prose except as quoted metalinguistic discussion.
 
 20. **CC-A.6.A-20 — `actionInvitation` relation specification skeleton is published.**
-    The family-specific `RelationKind` token resolves to a relation specification skeleton with SlotSpecs, enactor and site discipline, qualifier expectations, repair paths, witness discipline, admissible change classes, and cross-context policy.
+    The family-specific `RelationKind` token resolves to a relation specification skeleton with SlotSpecs, enactor and site discipline, qualifier expectations, repair sequences, witness discipline, admissible change classes, and cross-context policy.
 
 21. **CC-A.6.A-21 — Candidate-Set Note is used when ambiguity is live.**
-    If the site classification, publication or carrier participation, enactor lane, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
+    If the site classification, publication or carrier participation, enactor classification, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
 

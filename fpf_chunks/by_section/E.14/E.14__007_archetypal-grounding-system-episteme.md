@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_archetypal-grounding-system-episteme.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:6 — Archetypal Grounding (System / Episteme)"
-line_start: 63377
-line_end: 63395
+line_start: 63021
+line_end: 63039
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -34,15 +34,15 @@ keywords:
 #### E.14:6.1 - `U.System` — Working‑Model first, Constructive grounding available
 
 * **Publication (Working‑Model).** Authors state structure using familiar relations (e.g., *Impeller* **ut\:ComponentOf** *Pump*; *Pump* **ut\:ComponentOf** *Skid*). Nothing else is required for readers to follow the design.
-* **Assurance (downward grounding).** When a higher-assurance claim is sought, the same author **narrates** the constructive story of the whole as a composition of parts and, where appropriate, attaches a downward grounding to that narrative (sum / set / slice). The narrative remains concept‑level and notation‑neutral; order and time stay out of structure and are expressed in their own planes.
+* **Assurance (downward grounding).** When a higher-assurance claim is sought, the same author **narrates** the constructive story of the whole as a composition of parts and, where appropriate, attaches a downward grounding to that narrative (sum, set, or slice). The narrative remains concept-level and notation-neutral; order and time stay out of structure and are expressed in their own relation families.
 * **Canonization move.** Readers continue to see Working‑Model relations as the primary Working-Model text; the constructive story is *supporting*, not *defining*.
 
-#### E.14:6.2 - `U.Episteme` — Working‑Model first; Logical/Mapping preferred; Empirical evidence as appropriate
+#### E.14:6.2 - `U.Episteme` - Working-Model first; Logical and Mapping preferred; Empirical evidence as appropriate
 
 * **Publication (Working‑Model).** Authors connect meaning-bearing epistemes or publications using knowledge relations (e.g., **RepresentationOf**, **UsageOf**) in the same human‑oriented style.
-* **Assurance (downward grounding).** Here assurance typically flows to the **Logical** or **Mapping** shoulders (reasoned argument; type/lexical alignment). **Empirical Validation** is used where observation is the right currency (status‑only roles on epistemes); Constructive grounding is optional and used only where a structural interpretation is genuinely intended.
+* **Assurance (downward grounding).** Here assurance typically uses the **Logical** or **Mapping** shoulders (reasoned argument; type/lexical alignment). **Empirical Validation** is used where observation is the right currency: an episteme, observation, or work result is used in an evidence-use relation for a target claim with explicit scope, context, time, and provenance. Constructive grounding is optional and used only where a structural interpretation is genuinely intended.
 * **Canonization move.** Again, Working‑Model text is the public form; assurance is attached deliberately and separately, without leaking method or time semantics into structure.
 
 **6.3 - Pattern lesson (both cases)**
-The **Working‑Model layer remains the canonical publication face** for authors and reviewers; **assurance layers** (Mapping / Logical / Constructive) are **opt‑in** and used purposefully, with grounding flowing **downwards** from the Working‑Model to the appropriate shoulder. This presentation respects the authoring template’s *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
+The **Working-Model layer remains the canonical publication face** for authors and reviewers; **assurance layers** (Mapping, Logical, and Constructive) are **opt-in** and used purposefully, with grounding flowing **downwards** from the Working-Model to the appropriate shoulder. This presentation respects the authoring template's *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
 

@@ -6,12 +6,12 @@ section_id: "A.15.2:7d"
 section_title: "SoTA Alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__012_sota-alignment.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7d — SoTA Alignment"
-line_start: 21659
-line_end: 21667
+line_start: 21299
+line_end: 21307
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,8 +38,8 @@ keywords:
 
 | Source tradition | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |
-| Operations planning, scheduling, and project-control practice | Planned windows, dependencies, budgets, and baselines are declared before work occurs and compared against actuals after work occurs. | Treating schedule presence as evidence that work occurred. |
-| Lean, maintenance, and service-management planning practice | Plans coordinate role requirements, assets, constraints, and reservations while leaving performed work and variance to work records. | Treating a plan as a method, a gate, or a result. |
-| Case-management and adaptive-work practice | Emergency and ad hoc work can be related back to planning through exception, fulfilment, and variance relations. | Forcing every performed work occurrence into the original plan shape. |
-| Audit and quality-management practice | Baseline, version, acceptance target, and change note remain explicit so deviations can be explained. | Changing the plan after the fact to make variance disappear. |
+| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025) | A plan is an intended-work coordination episteme: horizon, selected delivery approach or method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed work and compared with actuals after performed work. | Treating a schedule, ticket, or baseline as evidence that the work already occurred. |
+| ISO 55000:2024 asset-management practice | Asset reservations, maintenance windows, lifecycle objectives, risk, and value expectations belong in planning until actual work changes asset state or resource use. | Treating planned asset availability or reserved capacity as actual asset intervention or actual resource consumption. |
+| ISO 9001:2015 with Amendment 1:2024 quality-management practice | Planned quality objectives, acceptance targets, change notes, and performance evaluation stay replayable so variance can drive improvement. | Editing the plan after the fact so that quality, cost, or schedule variance disappears. |
+| Case-management and adaptive-work notation practice such as OMG CMMN 1.1 | Weakly structured or ad hoc work can still be related to a plan through case, exception, fulfilment, and variance relations. | Forcing every emergency, adaptive, or consolidated work occurrence into the original plan shape. |
 

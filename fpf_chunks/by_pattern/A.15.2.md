@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.2.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.2 — U.WorkPlan"
-line_start: 21449
-line_end: 21693
+line_start: 21089
+line_end: 21333
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 **At a glance.** Use `U.WorkPlan` when the current claim is intended work: horizon, planned window, intended role requirements, planned constraints, resource budgets, dependencies, acceptance targets, and baselines for subsequent variance against performed `U.Work`.
 
-**Use this when.** Use this pattern when a schedule, calendar, rota, Kanban ticket, Gantt bar, shift plan, rollout plan, reservation, planning cue, or P2W preparation note is being treated as a method, method description, performed work, evidence, approval, gate result, publication cue, query-plan representation, or database access-path representation. `U.WorkPlan` is an episteme for intended `U.Work`; it can coordinate action, but it does not make work happen.
+**Use this when.** Use this pattern when a schedule, calendar, rota, Kanban ticket, Gantt bar, shift plan, rollout plan, reservation, planning cue, or P2W preparation note is being treated as a method, method description, performed work, evidence, approval, gate result, publication cue, query-plan representation, or database query-optimizer representation. `U.WorkPlan` is an episteme for intended `U.Work`; it can coordinate action, but it does not make work happen.
 
 **First output.** One plan record or `PlanItem` naming horizon, cadence, target `U.Method`, method-description source when current, planned window, intended role requirements or proposed `U.RoleAssignment`, planned constraints, resource budgets, dependencies, acceptance targets, planned baseline, and the variance relation expected when `U.Work` occurs.
 
@@ -66,7 +66,7 @@ keywords:
 
 ### A.15.2:1 - Context (plain‑language motivation)
 
-Operations happen in **time**. Even with perfect roles, abilities, and methods, nothing ships unless we **decide when and by whom** concrete runs **should** happen, under what **constraints** and **budgets**. Teams need a first-class concept for **plans and schedules** that does **not** get confused with:
+Operations happen in **time**. Even with perfect roles, abilities, and methods, nothing ships unless teams decide when and by whom concrete runs are intended to happen, under what **constraints** and **budgets**. Teams need a first-class concept for **plans and schedules** that does **not** get confused with:
 
 * the **semantic “way of doing”** (that is `U.Method`),
 * the **written recipe** (that is `U.MethodDescription`),
@@ -83,21 +83,21 @@ Operations happen in **time**. Even with perfect roles, abilities, and methods, 
 4. **No variance model.** Without planned baselines, deviations in time, cost, and quality cannot be explained or improved.
 5. **Structure entanglement.** BoM and org charts get baked into “process” views; plans become brittle and unmaintainable.
 
-### A.15.2:3 - Forces (what we must balance)
+### A.15.2:3 - Forces (what the definition balances)
 
 | Force                              | Tension we resolve                                                                                      |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Universality vs. domain idioms** | One plan concept that fits hospitals, fabs, data centers, and research labs—while honoring local terms. |
-| **Commitment vs. flexibility**     | Plans must be firm enough to coordinate, yet easy to update as reality changes.                         |
-| **Intended performer vs. performed-work assignee** | Plans may name intended performers; the assignment used for performed work must still be checked for the work interval. |
+| **Commitment vs. flexibility**     | Plans need enough firmness to coordinate, while remaining easy to update as reality changes.                         |
+| **Intended performer vs. performed-work assignee** | Plans may name intended performers; the assignment used for performed work is still checked for the work interval. |
 | **Budgets vs. actuals**            | Plans state targets and reservations; only `U.Work` records actual spend.                                   |
-| **Decomposition vs. mapping**      | Plan tasks decompose conveniently; they do not force a shape on actual Work runs.                       |
+| **Decomposition vs. fulfilment**  | Plan tasks decompose conveniently; they do not force a shape on actual Work runs.                       |
 
 ### A.15.2:4 - Solution - `U.WorkPlan` as the time-bound intention for `U.Work`
 
 #### A.15.2:4.1 - Definition
 
-**`U.WorkPlan`** is an **`U.Episteme`** that **declares intended `U.Work` occurrences** over a horizon, with **planned windows**, **dependencies**, **intended performers** as role kinds or proposed `U.RoleAssignment`s, **resource budgets and reservations**, and **acceptance targets** within a `U.BoundedContext`.
+**`U.WorkPlan`** is an **`U.Episteme`** that **declares intended `U.Work` occurrences** over a horizon, with **planned windows**, **dependencies**, **intended performer requirements** as `U.Role` values or proposed `U.RoleAssignment`s, **resource budgets and reservations**, and **acceptance targets** within a `U.BoundedContext`.
 
 > **Strict distinction (memory aid):**
 > **Method** = *how in principle*. **MethodDescription** = *how it is written*.
@@ -110,9 +110,9 @@ A `U.WorkPlan` **contains `PlanItem` values** (think: scheduled tasks or operati
 
 1. **Target Method and specification** — the **Method** to be enacted and the **MethodDescription** intended for enactment.
 2. **Planned window** — e.g., earliest start and latest finish, timebox, recurrence (cron-like), blackout periods.
-3. **Role requirements** — **role kinds** required (not people), optional proposed `U.RoleAssignment`s if pre-assignment is allowed in the context.
+3. **Role requirements** — required `U.Role` values, not people; optional proposed `U.RoleAssignment`s if pre-assignment is admitted in the context.
 4. **Capability thresholds** — minimal abilities required of the performer, checked for the performed-work interval.
-5. **Resource budgets and reservations** — planned energy, materials, machine slots, money, and reservations on assets.
+5. **Resource budgets and reservations** — planned energy, materials, machine windows, money, and reservations on assets.
 6. **Dependencies** — precedence, overlap permissions, required gate references, and required approval references.
 7. **Acceptance targets** — quality windows and SLA targets to be judged when Work completes.
 8. **Location and asset constraints** — where the run is expected to take place.
@@ -148,7 +148,7 @@ Keep three separations crystal‑clear:
 * **`Refines_pl`** — a child `PlanItem` tightens windows and budgets of a parent.
 * **`Alternative_pl`** — planned alternatives (e.g., backup rig, backup team).
 
-**Didactic rule:** A `PlanItem` **does not force** an identical Work shape; mapping is via **fulfilment** and **variance** (see §6).
+**Didactic rule:** A `PlanItem` **does not force** an identical Work shape; its relation to performed Work is via **fulfilment** and **variance** (see §6).
 
 #### A.15.2:4.5 - How `WorkPlan` Meets `Work` (Fulfilment and Variance)
 
@@ -157,7 +157,7 @@ When reality happens, each `U.Work` may:
 * **Fulfil** a `PlanItem` — link `plannedAs → PlanItem`.
 * **Partially fulfil** — multiple Work instances share one `PlanItem` (e.g., split run), or one Work fulfils several `PlanItem` values (e.g., consolidated batch).
 * **Deviate** - occur with method or method-description substitution, different window, different performer, or policy exception.
-* **Be unplanned** — Work with no `PlanItem` (emergency or ad hoc); must be labeled as such.
+* **Be unplanned** — Work with no `PlanItem` (emergency or ad hoc); record it as unplanned when that relation matters for variance, audit, or improvement.
 
 **Variance dimensions** the plan expects to report on:
 
@@ -175,7 +175,7 @@ Use this as a human-facing checklist (not a rigid schema):
 
 1. **Horizon & cadence** (e.g., “W36 surgeries, daily ETL”).
 2. **`PlanItem` values** with: target Method and MethodDescription, planned windows, dependencies.
-3. **Role requirements** (kinds) and **intended assignments** (optional, context‑lawful).
+3. **Role requirements** (`U.Role` values) and **intended assignments** (optional, context-admitted).
 4. **Capability thresholds** and **safety envelopes**.
 5. **Resource budgets** and **reservations** on assets.
 6. **Acceptance targets** (SLA and quality windows).
@@ -189,14 +189,14 @@ Use this as a human-facing checklist (not a rigid schema):
 #### A.15.2:6.1 - Hospital OR day plan (shift rota + cases)
 
 * **WorkPlan:** `OR_DayPlan_2025‑08‑12`.
-* **`PlanItem` values:** `Case#1 Appendectomy`, `Case#2 Hernia`, with windows, context assignments, and surgeon **role kinds**; anesthetist intended `U.RoleAssignment` provided.
+* **`PlanItem` values:** `Case_1_Appendectomy`, `Case_2_Hernia`, with windows, context assignments, and surgeon `U.Role` values; anesthetist intended `U.RoleAssignment` provided.
 * **Budgets:** OR time blocks, consumables envelopes.
 * **Fulfilment:** Each surgery Work links to its `PlanItem`; variances computed (over-run time, substitutions).
 
 #### A.15.2:6.2 - Fab maintenance weekend (asset reservations)
 
 * **WorkPlan:** `Fab_Maintenance_W36`.
-* **`PlanItem` values:** `Tool_42 chamber clean`, `Tool_13 calibration`; **MutuallyExclusive\_pl** with production slots.
+* **`PlanItem` values:** `Tool_42 chamber clean`, `Tool_13 calibration`; **MutuallyExclusive\_pl** with production windows.
 * **Reservations:** nitrogen, DI water, metrology window.
 * **Fulfilment:** Actual clean Work happens earlier; variance logged as **early** with cost underrun.
 
@@ -207,9 +207,9 @@ Use this as a human-facing checklist (not a rigid schema):
 * **`PlanItem` values:** `Deploy Service A`, `Pen-test A`; dependencies across contexts.
 * **Fulfilment:** Deployment Work passes ops targets; audit Work passes after the deployment work, with variance reported per context.
 
-### A.15.2:7 - Bias‑Annotation (as in E‑cluster)
+### A.15.2:7 - Scope Declaration and Rationale
 
-* **Lenses tested:** `Did`, `Prag`, `Arch`, `Epist`.
+* **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions; when the current claim is performed work, evidence, assurance, publication-use, source restoration, or declarative representation, apply the governing pattern for that claim.
 * **Scope declaration:** Universal; meanings of windows, budgets, and permissions are **context-local** via `U.BoundedContext`.
 * **Rationale:** Elevates **planning and scheduling** to a first-class episteme that coordinates Methods, `U.RoleAssignment`s, and Work without conflation.
 
@@ -247,16 +247,16 @@ Use this as a human-facing checklist (not a rigid schema):
 
 | Source tradition | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- |
-| Operations planning, scheduling, and project-control practice | Planned windows, dependencies, budgets, and baselines are declared before work occurs and compared against actuals after work occurs. | Treating schedule presence as evidence that work occurred. |
-| Lean, maintenance, and service-management planning practice | Plans coordinate role requirements, assets, constraints, and reservations while leaving performed work and variance to work records. | Treating a plan as a method, a gate, or a result. |
-| Case-management and adaptive-work practice | Emergency and ad hoc work can be related back to planning through exception, fulfilment, and variance relations. | Forcing every performed work occurrence into the original plan shape. |
-| Audit and quality-management practice | Baseline, version, acceptance target, and change note remain explicit so deviations can be explained. | Changing the plan after the fact to make variance disappear. |
+| ISO 21502:2020 project-management guidance and PMBOK Guide Eighth Edition (2025) | A plan is an intended-work coordination episteme: horizon, selected delivery approach or method family, baseline, dependencies, resource expectations, and acceptance targets are declared before performed work and compared with actuals after performed work. | Treating a schedule, ticket, or baseline as evidence that the work already occurred. |
+| ISO 55000:2024 asset-management practice | Asset reservations, maintenance windows, lifecycle objectives, risk, and value expectations belong in planning until actual work changes asset state or resource use. | Treating planned asset availability or reserved capacity as actual asset intervention or actual resource consumption. |
+| ISO 9001:2015 with Amendment 1:2024 quality-management practice | Planned quality objectives, acceptance targets, change notes, and performance evaluation stay replayable so variance can drive improvement. | Editing the plan after the fact so that quality, cost, or schedule variance disappears. |
+| Case-management and adaptive-work notation practice such as OMG CMMN 1.1 | Weakly structured or ad hoc work can still be related to a plan through case, exception, fulfilment, and variance relations. | Forcing every emergency, adaptive, or consolidated work occurrence into the original plan shape. |
 
 ### A.15.2:7e - Relations
 
 * **Builds on:** `A.15` Role-Method-Work Alignment, `A.15.1` `U.Work`, `A.2.1` `U.RoleAssignment`, `U.Method`, and `U.MethodDescription`.
 * **Coordinates with:** `A.15.3` for `SlotFillingsPlanItem` values, `A.15.4` for work-relevant source restoration, `A.10` for evidence-provenance relations, `B.3` for assurance, `A.20` and `A.21` for gates and constraint decisions, and `E.17` for publication-use questions.
-* **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning and must keep plan, performed work, evidence, gate, and result-measurement relations separate.
+* **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning and keeps plan, performed work, evidence, gate, and result-measurement relations separate.
 
 ### A.15.2:8 - P2W WorkPlanning Use Relation
 

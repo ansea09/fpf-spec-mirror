@@ -6,12 +6,12 @@ section_id: "A.6.P:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_bias-annotation.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:6 — Bias‑Annotation"
-line_start: 13713
-line_end: 13722
+line_start: 13579
+line_end: 13588
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -56,11 +56,11 @@ keywords:
 
 ### A.6.P:6 — Bias‑Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
+Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
 
-* **Gov bias:** prefers explicit admissibility and evidence-role explicitness; increases auditability but raises authoring cost.
-* **Arch bias:** favours reusable structural lenses (records/hyperedges) over narrative prose.
-* **Onto/Epist bias:** pushes kind‑explicit relations and polarity discipline; discourages metaphor-first modeling.
+* **Gov bias:** prefers explicit admissibility and evidence-use and witness-relation explicitness; increases auditability but raises authoring cost.
+* **Arch bias:** favours reusable structural lenses (records and hyperedges) over narrative prose.
+* **Ontological and Epistemic bias:** pushes kind‑explicit relations and polarity discipline; discourages metaphor-first modeling.
 * **Prag bias:** reduces rework and cross-team misinterpretation; may feel heavy in exploratory notes.
 * **Did bias:** enforces teachable rewrite guides; can be perceived as prescriptive.
 

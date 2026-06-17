@@ -6,12 +6,12 @@ section_id: "A.3.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__008_conformance-checklist.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:7 — Conformance Checklist"
-line_start: 6349
-line_end: 6374
+line_start: 6195
+line_end: 6220
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -27,11 +27,13 @@ dependencies:
   - "A.3.3"
   - "A.6.0"
   - "A.6.1"
+  - "B.1.5"
   - "C.2.P.DR"
   - "C.29"
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.RoleAssignment"
@@ -62,7 +64,7 @@ keywords:
 
 **CC-A3.1-9 (Graph and representation guard).** A graph path, path slice, query, predicate, table, dashboard, publication face, or pattern relation is not a method or work sequence by layout. Use `C.2.P.DR` when representation wording is overread as imperative action.
 
-**CC-A3.1-10 (Composition distinction).** Method composition and work-occurrence composition must stay separate even when they correspond.
+**CC-A3.1-10 (Method relation structure and work composition distinction).** Method composition, method-family selection, fallback, refinement, substitution, iteration, decomposition, and work-occurrence composition must stay separate even when they correspond. When method-side relations are current, recover `MethodRelationStructure@BoundedContext`; algebraic, graph, categorical, process-calculus, effect-calculus, matrix, embedding, distributed, or neural notation is a lens or representation over that structure unless a governing pattern states a different object by value.
 
 **CC-A3.1-11 (Parameter and variant discipline).** Parameters may be declared at method or method-description level; concrete values are bound in work planning or work occurrence. Variant identity must be justified by effects, bounds, accepted inputs, and context.
 

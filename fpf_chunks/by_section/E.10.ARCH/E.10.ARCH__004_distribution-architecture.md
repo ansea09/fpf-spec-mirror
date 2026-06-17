@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__004_distribution-architecture.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 61871
-line_end: 61926
+line_start: 61429
+line_end: 61487
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ The standing construction is:
 
 1. `E.10` recognizes an FPF-governed wording use and either closes it locally or selects a governing pattern, controlled precision-reduction pattern, durable-name application, or fail-closed non-use disposition.
 2. `E.10.ARCH` maintains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
-3. A realization pattern or retained governing pattern such as `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `A.3.1`, or a direct evidence, graph, method, mechanism, work, gate, authority, release, or publication-use governing pattern unpacks the wording according to the shared algorithm for one named `semanticArea` and its `ontologicalNeighborhood`.
+3. A realization pattern or retained governing pattern such as `A.6.RSIR`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `A.3.1`, or a direct evidence, graph, method, mechanism, work, gate, authority, release, or publication-use governing pattern unpacks the wording according to the shared algorithm for one named `semanticArea` and its `ontologicalNeighborhood`.
 4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move that no existing governing pattern already carries.
 5. `E.8` governs publication-form and placement wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the governing `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. `E.19` checks that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
@@ -84,7 +84,7 @@ For wording such as `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `D
 - `F.18` carries durable naming, selected head settlement, and source-string and durable-name discipline after the kind under repair and use are recovered.
 - `E.17.AUD.OOTD` carries `publicationUnitPrimaryEntityOfConcern` for one bounded publication unit with one carried move and one outside-work boundary; it must not create a second C.2.1 slot.
 - `A.6.3`, its retained `entityOfConcernRef`-preserving specializations, and `A.6.4` carry preservation or retargeting of the EntityOfConcern across episteme morphisms.
-- Evidence, assurance, gate, work, decision, architecture, characteristic, mathematical-lens, or project-side patterns receive their own claim being made or admissible-use boundary directly when it is already recoverable.
+- Evidence, assurance, gate, work, decision, architecture, characteristic, mathematical-lens, or project-side patterns govern their own claim being made or admissible-use boundary directly when it is already recoverable.
 
 This selected-family case is the standing example for recurring hidden-field architecture. When a new hidden-field family recurs, it is not solved by adding local warning prose to every subject pattern. It either uses an existing governing pattern, gets one applicability row in this table, or justifies a new realization pattern only when the hidden field set, recovery apparatus, and remaining reader move recur across FPF-governed texts.
 
@@ -94,7 +94,10 @@ Use this distribution before adding or specializing a wording-use precision-rest
 
 `E.10` is the shared recognition scan. It recognizes an FPF-governed wording-use problem and selects the first applicable restoration or governing pattern. `E.10.ARCH` owns the distribution rule. A specialized restoration pattern owns only the stable ontological recovery for one selected ontic, semantic area, or high-pressure facet.
 
-Use a direct governing pattern when the current kind, relation, claim, slot, or use-position is already recoverable by value. A direct `A.3.4`, `A.6.F`, `C.29`, `E.18`, `C.30`, `A.15`, `A.10`, gate, decision, publication, or evidence use does not need a restoration detour only because a familiar trigger word appears.
+Use a direct governing pattern when the current kind, relation, claim, current ontic slot, relation position, use relation, or claim kind is already recoverable by value. A direct `A.3.4`, `A.6.F`, `C.29`, `E.18`, `C.30`, `A.15`, `A.10`, gate, decision, publication, or evidence use does not need a restoration detour only because a familiar trigger word appears.
+
+`A.6.RSIR` is the selected first-level realization pattern for the relation-signature-interface-role-slot cluster. Use it only when wording such as relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest hides which governed object or claim kind is current. The first-level product is not a new ontology; it is a compact recovery of project concern, current EntityOfConcern or claim kind, selected direct governing pattern, slot-discipline need, retained source-label use, and blocked overread. After that selection, the direct pattern owns the repair.
+
 
 Use an ontic-level restoration pattern only when recurring wording hides a small ontic or ontic-neighborhood: several linked slots, adjacent governed fillers, and admissible neighboring patterns must be recovered before ordinary wording repair is possible. The pattern should recover the ontic, its current slot or filler, and the governing pattern that applies to the recovered value; it should not become a second copy of every slot-specific repair table.
 
@@ -111,7 +114,7 @@ A conforming specialized restoration pattern states:
 
 - the ontic, semantic area, or facet-neighborhood under repair;
 - the recognition wording family selected by `E.10`;
-- the recovered kind, slot or use-position, filler, relation, and governing pattern;
+- the recovered kind, current ontic slot, relation position, use relation, filler, claim kind, and governing pattern;
 - any direct governing pattern that should apply instead when the value is already recoverable;
 - any facet restoration pattern that owns a narrower recurring ambiguity;
 - the temporary recovery product and the retained user-facing move after wording repair.

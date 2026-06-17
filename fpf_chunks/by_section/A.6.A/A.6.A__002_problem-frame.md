@@ -6,12 +6,12 @@ section_id: "A.6.A:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__002_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:1 — Problem frame"
-line_start: 13999
-line_end: 14034
+line_start: 14103
+line_end: 14138
 dependencies:
   - "A.15"
   - "A.16"
@@ -60,7 +60,7 @@ Authors say:
 …but the intended meaning is actually one of several different **action-oriented families**, for example:
 
 1. **Physical affordance** — a physical or environmental configuration offers a bodily action to an embodied agent.
-2. **Interface affordance** — an interface face, operator panel, alarm, or publication face presents an operator move.
+2. **Interface affordance** — an operator-interface element, operator panel, alarm, or publication face presents an operator move.
 3. **Social affordance** — another agent or interactional setting invites a response or coordination move.
 4. **Epistemic probe move** — a problem situation invites asking, comparing, measuring, testing, or instrumenting.
 5. **Closure-advance move** — a situation invites naming, rescoping, proxy declaration, or formalization.

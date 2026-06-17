@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 37746
-line_end: 37919
+line_start: 37299
+line_end: 37472
 dependencies:
   - "A.16"
   - "A.16.0"

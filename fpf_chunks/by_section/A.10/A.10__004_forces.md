@@ -6,34 +6,37 @@ section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:3 — Forces"
-line_start: 19592
-line_end: 19601
+line_start: 19227
+line_end: 19236
 dependencies:
   - "A.1"
   - "A.10"
-  - "A.12"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3.4"
   - "A.6"
-  - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.4"
   - "C.16"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "E.17"
   - "E.17.EFP"
   - "F.9"
 keywords:
@@ -56,7 +59,7 @@ keywords:
 | Force                           | Tension                                                                                                                                           |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universality vs. evidence-relation cost** | One Standard must fit systems and epistemes ↔ Evidence producers and maintainers need proportionate evidence records.                                                           |
-| **Externality vs. reflexivity** | Evidence must be produced by an external TransformerRole (A.12) ↔ Some systems adapt themselves (need reflexive modelling without self‑evidence). |
+| **Independent provenance vs. reflexivity** | Evidence needs a separated producer, interpreter, carrier/provenance relation, or source-maintenance role assignment for the target claim ↔ Some systems observe or adapt themselves, so the model must separate the target claim from the evidence-producing work and relying context without pretending that reflexivity is automatically evidence. |
 | **Atemporal vs. temporal**      | Many claims are state‑like ↔ Many others are histories; evidence must respect order and coverage (Γ\_time).                                       |
 | **Rigor vs. cadence**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental evidence relations.                                 |
 | **Mereology vs. provenance**    | Part‑whole edges build holarchies ↔ Evidence edges never do; the two graphs must interlock without leaking semantics.                             |

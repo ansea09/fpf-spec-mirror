@@ -6,12 +6,12 @@ section_id: "A.6.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__012_consequences.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:9 — Consequences"
-line_start: 13855
-line_end: 13869
+line_start: 13721
+line_end: 13735
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -59,9 +59,9 @@ keywords:
 **Benefits**
 
 * **Predictable precision upgrades.** Umbrella relational prose becomes systematically expandable into explicit structure.
-* **Viewpoint conflict becomes repairable.** Differences are shown as explicit roles/kinds/qualifiers, not silent rewrites.
+* **Viewpoint conflict becomes repairable.** Differences are shown as explicit role values, kinds, and qualifiers, not silent rewrites.
 * **Change becomes speakable.** “What changed?” is a named semantic change class, reducing folklore.
-* **Cross‑Context safety improves.** “Same/synced/linked” becomes boundary-bearing relation specification and auditable, not rhetorical.
+* **Cross‑Context safety improves.** “Same, synced, or linked” becomes boundary-bearing relation specification and auditable, not rhetorical.
 
 **Trade‑offs / mitigations**
 

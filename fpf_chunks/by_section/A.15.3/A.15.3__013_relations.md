@@ -6,21 +6,33 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
-line_start: 22110
-line_end: 22122
+line_start: 21667
+line_end: 21672
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.20"
+  - "A.21"
   - "A.6.5"
   - "A.6.7"
+  - "B.3"
+  - "C.27.TA"
   - "E.10.D1"
+  - "E.10.D2"
   - "E.17"
   - "E.18"
+  - "E.18.1"
   - "E.19"
+  - "E.20"
+  - "G.11"
+  - "G.6"
+  - "U.RelationSlotDiscipline"
+  - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "P2W seam"
@@ -36,14 +48,7 @@ keywords:
 
 ### A.15.3:12 - Relations
 
-* **Builds on and is governed by:**
-  * **A.15.2 `U.WorkPlan`** — container + PlanItem discipline; baseline citeability.
-  * **A.6.5 slot discipline** — SlotKind and RefKind hygiene and binding-time separation.
-  * **E.10.D1 Context discipline** — explicit context and edition; no implicit “latest”.
-  * **E.18 and E.18.1** — keeps `FinalizeLaunchValues` strictly in WorkEnactment; pin and guard discipline.
-* **E.17 publication discipline** — views are projections; no new semantics on cards.
-* **Interacts with and complements:**
-  * **A.6.7 `MechSuiteDescription`** — suites may require the presence of a planned-baseline reference or pin without embedding planned fillers or launch values.
-  * **A.15.1 Work and WorkEnactment discipline** — fulfilment and variance are recorded downstream against this baseline.
-  * **C3.2-S-02 Time discipline** — time selection policy may be pinned by ref; run-time `Γ_time` stays in Work evidence.
+- **Builds upon:** `A.15.2` for `U.WorkPlan` and PlanItem discipline; `A.15.1` for performed `U.Work`; `A.6.5` for SlotKind, ValueKind, RefKind, and SlotSpec discipline; `E.10.D2` for EntityOfConcern vs Description episteme vs specification-use; `E.17` for publication-use and view-use projection; `E.18.1` for P2W carry-through; `E.20` for mechanism-introduction boundaries.
+- **Coordinates with:** `A.20` and `A.21` for gates and constraint decisions; `A.10`, `B.3`, and `G.6` for evidence, assurance, and provenance; `C.27.TA` and `G.11` for currentness and refresh; Part G patterns when planned baselines are used by kits, packs, or refresh plans.
+- **Does not replace:** target description patterns, mechanism definitions, suite definitions, gate records, evidence relations, publication views, performed work, or source restoration.
 

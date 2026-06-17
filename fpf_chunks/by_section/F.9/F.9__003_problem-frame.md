@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9"
-pattern_title: "Alignment & Bridge across Contexts"
+pattern_title: "Alignment and Bridge across Contexts"
 section_id: "F.9:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__003_problem-frame.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.9 — Alignment & Bridge across Contexts"
+  - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:2 — Problem frame"
-line_start: 74677
-line_end: 74688
+line_start: 74519
+line_end: 74530
 dependencies:
-  - "A.6.1"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.16.Q"
-  - "C.25"
   - "C.26"
   - "C.26.1"
+  - "C.26.2"
+  - "C.29"
   - "E.10.D1"
-  - "E.17.1"
   - "E.17.ID.CR"
   - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
   - "U.BoundedContext"
-  - "U.Mechanism"
 keywords:
   - "Bridge-supported use"
   - "CL"
@@ -50,11 +54,11 @@ keywords:
 
 Cross-context work fails in predictable ways:
 
-1. **String-equals fallacy.** Identical spellings (“process”, “role”, “accuracy”) taken as identical meaning.
-2. **Scope creep.** A naming convenience is stretched to assignment or structural claims.
-3. **DesignRunTag jumping.** Design artefacts are substituted for run-time occurrences (or vice-versa).
-4. **Direction amnesia.** Narrower/broader relations treated as symmetric.
-5. **Loss blindness.** Differences (units, granularity, preconditions) are left unstated, contaminating downstream reasoning.
+1. **String-equals fallacy.** Identical spellings such as "process", "role", "accuracy", or "ready" are taken as identical meaning.
+2. **Scope creep.** A naming convenience is stretched into role assignment, status transfer, work attribution, evidence use, or structural inference.
+3. **Design-run jumping.** Design artefacts are substituted for run-time occurrences, or run-time occurrences are treated as design definitions.
+4. **Direction amnesia.** Narrower and broader relations are treated as symmetric.
+5. **Loss blindness.** Differences in unit, granularity, precondition, time stance, enforcement locus, or viewpoint are left unstated.
 
-Bridges cure these by **making relation, direction, loss, and `CL` explicit**.
+F.9 answers these failures by making relation, direction, loss, `CL`, and admitted use explicit.
 

@@ -1,28 +1,39 @@
 ---
 chunk_kind: "parent"
 pattern_id: "F.14"
-pattern_title: "Anti‑Explosion Control (Roles & Statuses)"
+pattern_title: "Anti-Explosion Control for Role and Status Name Families"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.14.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.14 — Anti‑Explosion Control (Roles & Statuses)"
-line_start: 76711
-line_end: 76986
+  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+line_start: 76448
+line_end: 76767
 dependencies:
-  - "F.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "B.3"
+  - "E.10.D2"
+  - "E.17"
   - "F.10"
-  - "F.11"
-  - "F.12"
-  - "F.13"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
-  - "F.7"
   - "F.8"
+  - "F.9"
+  - "U.Role"
+  - "U.RoleAssignment"
 keywords:
   - "bundles"
   - "guard-rails"
@@ -31,279 +42,323 @@ keywords:
   - "vocabulary growth"
 ---
 
-## F.14 - Anti‑Explosion Control (Roles & Statuses)
+## F.14 - Anti-Explosion Control for Role and Status Name Families
+> **Status:** Stable
 
-**“Name less, express more.”**
+**"Name less; recover the kinds first."**
 
-**Status.** Architectural pattern.
-**Depends on.** F.1 **context of meaning**; F.2 **Harvesting**; F.3 **Local Sense Clustering**; F.4 **Role Description**; F.5 **Naming Discipline**; F.7 **Concept‑Set Table**; F.8 **Mint‑or‑Reuse**.
-**Coordinates with.** F.10 **Status Windows & Mapping**; F.11 **Method Quartet Harmonisation**; F.12 **Service Acceptance Binding**; F.13 **Lexical Continuity**.
-**Aliases (informative).** *Role and Status economy*; *Explosion guard*.
+**Type.** Architectural pattern.
+**Status.** Stable.
+**Normativity.** Normative.
+**Builds on:** `A.2` for work-facing `U.Role`; `A.2.1` for `U.RoleAssignment`; `A.2.5` for role state; `A.2.7` for context-local role relation structure; `A.15.1` for performed work; `F.4` for RoleDescription; `F.5` for local naming discipline; `F.8` for mint-or-reuse decisions; `F.9` for cross-context bridges; `F.10` for status families and windows; `F.18` for durable naming; `A.6.5` for relation-slot discipline.
 
-### F.14:1 - Intent & applicability
+**Coordinates with:** `A.2.2` for capability, `A.3.1` and `A.3.2` for method and method-family naming, `A.10` and `B.3` for evidence and assurance use, `E.17` and `E.10.D2` for publication and description use, and `F.17` only when public or cross-context term-sheet reuse is current.
 
-**Intent.** Prevent the uncontrolled growth of **Roles** and **Statuses** by privileging **reuse**, **bundling**, **explicit separation‑of‑duties (SoD)**, and **applicability windows** over minting new names. Keep the vocabulary **small, crisp, and composable** while remaining faithful to local meanings fixed by Contexts (F.1) and SenseCells (F.3).
+**Plain entry cues (informative).** Name explosion guard; role-name economy; status-name economy.
 
-**Applicability.** Whenever a new Role or Status is proposed, a team merges two lines of work, or a domain shifts its jargon. Use this pattern before adding rows to the Concept‑Set Table (F.7) or new Role Descriptions (F.4).
+### F.14:1 - Intent and applicability
 
-**Non‑goals.** No org charts, no RBAC policies, no process roles. This pattern describes **mental moves** for architectural naming, not governance machinery.
+**Intent.** Keep role-like and status-like vocabularies small without losing real distinctions. F.14 is a control pass over candidate names and local name families. It does not define `U.Role`, does not define status ontology, and does not assign a holder. It asks what each proposed name is trying to name and blocks new durable names when the needed value is already a role value, role-relation expression, status family, status value, status window, qualifier, direct-pattern value, local phrase, or alias.
+
+**Applicability.** Use F.14 when a project proposes several new role, status, access, evidence, requirement, source, method, capability, or work-like labels and the vocabulary starts to grow faster than the underlying distinctions. Use it before adding RoleDescriptions, Concept-Set rows, public names, cross-context rows, or role-relation names.
+
+**Primary EntityOfConcern in plain terms.** One anti-explosion control pass over a candidate family of names in a bounded context or bridge family. The EoC is not the role value, not the status value, not the holder, not the work occurrence, and not a publication.
+
+**Admissible move in plain terms.** Recover the kind of each candidate name, choose reuse or direct-pattern naming where possible, and record why no new durable role or status name is needed unless F.8 and F.18 admit it.
+
+**Primary working reader.** A method author, terminology steward, architect, manager, or checker who sees names such as `NightOperatorRole`, `EvidenceRole`, `SeniorReviewer`, `AtRiskStatus`, `PreValidated`, `AccessRole`, or `RequestApproverRole` and must stop the vocabulary from becoming a second ontology.
+
+**Use this when.** Use F.14 when name growth hides one of these questions:
+
+1. Is this one work-facing `U.Role`, a RoleDescription label, a role-relation expression, a role assignment, a capability requirement, a method name, a work name, or only a local phrase?
+2. Is this one status family, status value, status window, status-use relation, evidence-use relation, source-use relation, requirement-use relation, or presentation label?
+3. Is the candidate cross-context and therefore dependent on F.9 or F.17 before durable reuse?
+
+**What goes wrong if missed.** Role labels become capability models, status labels become role families, access-control labels become work roles, and role-relation expressions become fake holders. The corpus then gets many small near-duplicate names that look precise but hide different kinds.
+
+**What this buys.** A smaller vocabulary with stronger type separation: fewer durable names, clearer role relation structure, cleaner status families, fewer aliases with hidden claims, and more reliable F.8 and F.18 naming decisions.
+
+**Not this pattern when.** Not F.14 when the question is one candidate expression only; use F.8. Not F.14 when the question is assigning a holder or attributing performed work; use A.2.1, F.6, and A.15.1. Not F.14 when the question is a status-use or evidence-use claim; use F.10, A.10, B.3, or the direct governing pattern. Not F.14 when the question is public terminology publication; use F.17 and F.18 after kind recovery.
+
+**Recognition versus assurance note.** The recognition block is the name-growth situation plus the first kind-recovery move. The assurance block is the record, invariants, role-relation and status-family boundaries, conformance tests, and SoTA note. Assurance text tightens the same anti-explosion control pass; it must not turn F.14 into role ontology, status ontology, or naming authority for every value.
 
 ### F.14:2 - Problem frame
 
-Left unchecked, Role and Status vocabularies tend to **diverge**:
+Name explosion usually begins with a helpful shortcut:
 
-1. **Synonym stacks.** *Reviewer*, *Approver*, *Validator*, *Verifier* minted separately despite overlapping responsibilities.
-2. **Modifier creep.** *Night‑Operator*, *Shift‑Operator*, *Remote‑Operator* proliferate where one Role plus a window would suffice.
-3. **SoD leakage.** New names invented to **evade** an intended separation (*Requestor‑Approver* as one Role).
-4. **Status paintjobs.** *Compliant*, *At‑Risk*, *Grace*, *Waived*, *Temporarily‑Breached*—labels multiply where a **single Status × window** model would be clearer.
-5. **Context blending.** A control‑Context *Actuator* gets treated as an Enactment *Execution* Role; a deontic *Duty* becomes a runtime *Status*.
+1. **Hybrid role shortcut.** `RequestApproverRole`, `DevOpsEngineerRole`, or `IncidentLeadOnCall` is minted because several roles often appear together.
+2. **Modifier-as-role shortcut.** `NightOperatorRole`, `RemoteOperatorRole`, or `APIApproverRole` is minted because a qualifier is visible.
+3. **Status-as-type shortcut.** `AtRisk`, `Grace`, `PreValidated`, or `TemporarilyBreached` is minted as if time stance or status value were a new essence.
+4. **Source-suffix shortcut.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is minted because a source tradition uses role-like language.
+5. **Prestige shortcut.** `SeniorReviewer` or `LeadApprover` is minted to bypass a separation or assurance question.
+6. **Cross-context shortcut.** The same label in two contexts is treated as one durable name without an F.9 bridge.
 
-Explosion harms didactics and increases alignment cost (F.9).
+F.14 prevents those shortcuts from becoming durable ontology.
 
 ### F.14:3 - Forces
 
-| Force                           | Tension to resolve                                                                                     |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Expressiveness vs parsimony** | We must name real distinctions, but each new name increases cognitive load.                            |
-| **Locality vs uniformity**      | Roles or Statuses are **context‑local**; yet we need a stable Cross‑context story through Concept‑Set rows.     |
-| **Safety vs convenience**       | SoD constraints protect systems, but people seek convenience through composite roles.                  |
-| **Temporal honesty**            | Many “new” Statuses are actually the **same** Status seen in different **windows** (design, run, or grace). |
+| Force | Tension to resolve |
+| --- | --- |
+| Parsimony versus real difference | A small vocabulary is useful only if real distinctions remain recoverable. |
+| Locality versus public reuse | Role and status names start in bounded contexts; some later need public or cross-context reuse. |
+| Recognition versus assignment | A good role name helps recognition; it does not assign a holder or prove work. |
+| Role relation structure versus new role | Role-requirement substitution, incompatibility, qualification, and bundle expressions are useful, but they do not automatically mint a new `U.Role`. |
+| Status family versus status name | Time windows, values, confidence, and presentation labels should not multiply status families. |
+| Qualifier visibility versus kind discipline | A visible qualifier may belong to role state, work plan, capability, method, status window, evidence, source, or publication rather than the role name. |
 
-### F.14:4 - Minimal vocabulary (this pattern only)
+### F.14:4 - Core idea
+
+Use the anti-explosion sequence before minting a durable role or status name.
 
-* **Role Description** (F.4): a **Role** (behavioural mask) or **Status** (epistemic/deontic standing) tied to a **SenseCell**.
-* **Concept‑Set row** (F.7): a Cross‑context **intent** (“what we count as one thing”) aligned by SenseCells.
-* **Bundle** (this pattern): a **named composition** of Role Descriptions that are meant to be used together by design (e.g., {Requester, Approver} for change control). A Bundle is a **concept**, not a package.
-* **SoD Constraint** (this pattern): a **conceptual rule** stating that two Roles **must not** be played by the same Holder in the **same window**.
-* **Window** (F.10): an **claim scope** (time stance, holon level, run segment) that delimits when a Role or Status holds.
+1. **Recover kind first.** Split the candidate family into role values, RoleDescription labels, role-relation expressions, assignments, work, capability, method, status, evidence, source, publication, requirement, policy, bridge, and local-phrase cases.
+2. **Reuse existing values.** If a role value, status family, Concept-Set row, local sense, or public term already admits the current use, reuse it and record aliases where needed.
+3. **Use role relation structure instead of hybrid roles.** If one role can satisfy another role requirement, two roles conflict, or roles travel together, use A.2.7 role relation structure. Do not mint a fused role unless the bounded context deliberately creates a new `U.Role` with RoleDescription and F.8 and F.18 admission.
+4. **Use assignment checks instead of prestige names.** If the issue is who may hold a role, whether a separation holds, or whether work occurred, use A.2.1, F.6, A.15.1, and role state checks.
+5. **Use status families and windows instead of status-name sprawl.** If the issue is time stance, evaluation state, grace, confidence, or presentation, use F.10 or the direct status pattern.
+6. **Use direct patterns for qualifiers.** Capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers stay with their direct patterns. They may inform a name later; they do not become role or status ontology by suffix.
 
-### F.14:5 - Core idea (didactic)
+### F.14:5 - Minimal vocabulary
 
-**Use four levers before minting a name:**
+* **Anti-explosion control pass** - one review of a candidate family of related names to prevent unnecessary durable names.
+* **Candidate name family** - a local set of proposed names that appear to cover related work, role, status, evidence, source, capability, method, or policy concerns.
+* **Recovered value** - the typed FPF value or relation that the candidate name is trying to name.
+* **Role-relation expression** - a context-local role-requirement substitution, incompatibility, qualification, or bundle expression governed by A.2.7.
+* **Status-family expression** - a status family, value, window, confidence, or status-use relation governed by F.10 or a direct status pattern.
+* **Qualifier value** - a value governed by a direct pattern that narrows use without becoming part of the role or status kind.
+* **Blocked minting** - a decision that the candidate name remains an alias, local phrase, qualifier, role-relation expression, or direct-pattern name rather than a new durable role or status name.
 
-1. **Reuse the row.** If the intent matches an existing Concept‑Set row and the local SenseCell is already present, **use it**.
-2. **Bundle, don’t blur.** When two Roles must travel together, **name the Bundle**, not a new hybrid Role.
-3. **Declare SoD, don’t fuse.** When Roles must stay apart, **state the SoD** instead of minting a “super‑role.”
-4. **Window, don’t multiply.** When a Status looks different across time/scale, keep **one Status** with **explicit windows**.
+### F.14:6 - Anti-explosion record
 
-### F.14:6 - Solution — the control cabinet (conceptual, notation‑free)
+Use this record when more than one related candidate name is under pressure.
 
-#### F.14:6.1 - Reuse by row (first lever)
+```text
+AntiExplosionControlRecord:
+  BoundedContextRef:
+  CandidateNameFamily:
+  CandidateExpressionRefs:
+  RecoveredValues:
+  ExistingValueOrRowRefs:
+  RoleRelationStructureRefs:
+  AssignmentOrWorkRefs:
+  StatusFamilyOrWindowRefs:
+  QualifierOrDirectPatternRefs:
+  BridgeOrPublicTermRefs:
+  BlockedMinting:
+  DurableNamingRefs:
+  RemainingLocalAliases:
+  ReopenTrigger:
+```
 
-* **Move.** If a proposal matches the **intension** of an existing row (F.7), adopt its Role Description or add a local SenseCell **inside that row**.
-* **Pay‑off.** Names don’t proliferate; Cross‑context tables stay thin.
+`RecoveredValues` is the center of the record. Each candidate expression is mapped to the value or relation it is trying to name. If no typed value is recovered, the expression stays local or goes to F.8 for a mint-or-reuse decision. `DurableNamingRefs` cites F.5, F.17, or F.18 only after the relevant value is recovered.
 
-**Example (services).** *Service‑availability‑compliance* already exists as a row. New labels *SLO‑Met* / *Uptime‑OK* **reuse** that row; SOSA/SSN Observations later feed it (F.12).
+### F.14:7 - Levers
 
-#### F.14:6.2 - Bundle instead of hybrid (second lever)
+#### F.14:7.1 - Recover kind before naming
 
-* **Move.** When practice always pairs two Roles, define a **Bundle** `{RoleA, RoleB}`.
-* **Not a hybrid.** Do **not** coin *RoleAB*; you’ll erase SoD options and obscure responsibilities.
+Ask what the candidate expression is trying to name.
 
-**Example (enactment).** `{Requester, Approver}` is a Bundle. *Request‑Approver* (one Role) is **not** allowed; it contradicts intended checks.
+| Candidate shape | Likely recovery | Direct pattern |
+| --- | --- | --- |
+| `ReviewerRole`, `OperatorRole` | work-facing role value or RoleDescription label | A.2, F.4, F.5, F.18 |
+| `AliceAsReviewer` | role assignment or performed-work attribution | A.2.1, F.6, A.15.1 |
+| `SeniorReviewer` | role value plus qualifier, role state, capability, or assurance claim | A.2, A.2.2, A.2.5, B.3, F.18 |
+| `RequestApproverRole` | role-bundle expression or forbidden hybrid | A.2.7, F.8 |
+| `AtRisk`, `Grace`, `PreValidated` | status value, window, confidence, or presentation label | F.10 or direct status pattern |
+| `EvidenceRole`, `RequirementRole`, `AccessRole` | evidence-use, requirement-use, policy or access, or source-use relation | A.10, E.10.D2, E.17, policy or access patterns |
+| same label in two contexts | cross-context bridge or public term | F.9, F.17, F.18 |
 
-#### F.14:6.3 - Separate by SoD, don’t evade (third lever)
+#### F.14:7.2 - Reuse before minting
 
-* **Move.** Record **SoD constraints** where separation matters (“Requester ⟂ Approver in run window”).
-* **Why here.** SoD belongs to **semantics**, not org policy; it protects structure across Contexts and times.
+Reuse a value when the recovered value, bounded context, and admitted use match. Use F.9 when reuse crosses context. Use F.8 when a candidate appears new. Use F.18 only when a durable name is needed after kind recovery.
 
-**Example (methods).** `{Author ⟂ Reviewer}` in the **review window**. A proposal *Senior‑Reviewer* to “do both” is rejected; the **Bundle** remains `{Author, Reviewer}` with SoD.
+#### F.14:7.3 - Role Relation Structure Before Hybrid Role
 
-#### F.14:6.4 - Window the Status (fourth lever)
+If two roles often appear together, state a role-bundle expression in A.2.7. If two roles must stay apart, state an incompatibility relation in A.2.7 and check assignments with A.2.1 and F.6. If one role value can satisfy another role requirement, state a role-requirement substitution relation in A.2.7. The role-relation expression does not assign a holder and does not become a role value by itself.
 
-* **Move.** Keep a single Status and attach **windows** for *grace*, *evaluation*, *active*, *archival*.
-* **Avoid.** *Compliant*, *At‑Risk*, *Grace* as separate Status types.
+#### F.14:7.4 - Status window before status family multiplication
 
-**Example (acceptance).** **Compliance** Status has readings per window:
+If the proposed name marks evaluation, active use, grace, archival state, confidence, or presentation, keep the status family and use F.10 windows, values, or direct status-use relations. A new status family needs a recovered value difference, not a new adjective.
 
-* *evaluation window:* “pending check”,
-* *active window:* “met / breached”,
-* *grace window:* “temporarily tolerated breach”.
-  One Status; clear windows.
+#### F.14:7.5 - Qualifier before role-name clone
 
-#### F.14:6.5 - Factor modifiers as facets, not names
+If the proposed role name adds time, location, object type, seniority, permission, method, capability, evidence, or source, recover the qualifier's direct pattern. Only keep it in a durable role name if F.18 admits that the bounded context truly needs a separate role value.
 
-* **Move.** Treat qualifiers (shift, locality, domain) as **facets** of the same Role or Status or as **windows**, not new types.
+### F.14:8 - Invariants
 
-**Example (operations).** *Operator* with **window facet** `timeOfDay = night`—not a new Role *Night‑Operator*.
+1. **Kind first.** A candidate name is not admitted as a durable role or status name until its recovered value is named.
+2. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become work-facing roles by suffix.
+3. **No assignment by name.** A RoleDescription label or role-relation expression does not assign a holder and does not prove performed work.
+4. **No hybrid role by convenience.** Role-bundle and incompatibility expressions stay in A.2.7 unless a bounded context deliberately creates a new role value with F.8 and F.18 admission.
+5. **No capability by role label.** Role names do not prove capability, skill, permission, assurance, or method validity.
+6. **Status windows stay status-side.** Time, confidence, grace, or presentation variation stays with F.10 or the direct status pattern unless a new status family is recovered.
+7. **Cross-context reuse needs a bridge.** Shared labels across contexts use F.9 before any Concept-Set row, public name, or durable cross-context reuse.
+8. **Lineage labels do not preserve ontology.** A historical label may be recorded as lineage or source wording, but it does not carry its old fused ontology forward.
 
-### F.14:7 - Invariants (normative)
+### F.14:9 - Reasoning primitives
 
-1. **context‑locality.** Each Role Description remains tied to a **SenseCell** in a **single Context** (F.3, F.4).
-2. **Row preference.** New Role Descriptions **SHOULD** map to an existing row; new rows (F.7) require F.8 justification.
-3. **No hybrid Roles.** If two Roles are conceptually distinct, they **must not** be fused into one to bypass SoD. Use **Bundle + SoD**.
-4. **Windowed statuses.** Status proliferation across time/scale **MUST** be expressed as **windows** of a single Status family (F.10).
-5. **Bundle clarity.** A Bundle **names only composition**; it does not inherit or redefine member semantics.
-6. **Minimal modifier naming.** Adding a modifier to a label **MUST** pass F.5 tests; prefer facets/windows over new Role or Status names.
-7. **Concept‑first.** No invariant relies on organization charts or access policies; **semantics precede governance**.
+```text
+candidateName(e) and recoveredValue(e, v)
+  -> name decision must be made for v, not for e as a string.
+```
 
-### F.14:8 - Reasoning primitives (judgement schemas)
+Interpretation: the expression is a cue. The recovered value governs the naming decision.
 
-> Pure mental moves; no tools, no workflows.
+```text
+roleBundleExpression(R1, R2, C)
+  -> not(newRoleValue(R1R2)).
+```
 
-Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`** its SenseCell, **`win(τ)`** its window set.
+Interpretation: a bundle expression may be named as an expression, but it does not mint a fused `U.Role`.
 
-1. **Row reuse admissibility**
-   `intent(τₙ) ≡ intent(row r) ∧ ∃σ: senseOf(σ) in r ⊢ reuseRow(τₙ → r)`
-   *Reading:* If the proposed template’s intent matches an existing row with a local SenseCell, reuse the row.
+```text
+roleIncompatibility(R1, R2, C, W)
+  -> assignment check must consider holder and overlapping window.
+```
 
-2. **Bundle recommendation**
-   `alwaysTogether{α,β} ∧ distinct(α,β) ⊢ bundle({α,β})`
-   *Reading:* If two distinct Roles occur together by design, name the Bundle.
+Interpretation: separation questions need A.2.1 and F.6 checks, not prestige names.
 
-3. **SoD necessity**
-   `conflictRisk{α,β} ∧ sameHolder ∧ sameWindow ⊢ SoD(α ⟂ β)`
-   *Reading:* If the same Holder in the same window would create a conflict, require SoD.
+```text
+statusVariant(S, windowOrValue)
+  -> keep status family S unless F.10 recovers a new family.
+```
 
-4. **Hybrid rejection**
-   `SoD(α ⟂ β) ⊢ forbid(hybrid(α,β))`
-   *Reading:* A SoD pair cannot be fused into one Role.
+Interpretation: status values and windows do not multiply status families by default.
 
-5. **Windowing over multiplication**
-   `status σ showsVariantsAcross(w₁,…,wₖ) ⊢ keepOneStatus(σ) ∧ win(σ)={w₁,…,wₖ}`
-   *Reading:* Variants across time/scale become windows, not new Status names.
+```text
+qualifier(q) governedBy(P)
+  -> q may constrain a name only after P recovers the qualifier value.
+```
 
-6. **Facet over rename**
-   `modifier m changes circumstance ¬ essence ⊢ preferFacet(τ,m)`
-   *Reading:* If a modifier alters circumstances only, represent it as a facet/window.
+Interpretation: capability, method, work, evidence, source, publication, policy, and assurance qualifiers must not hide inside role or status names.
 
-### F.14:9 - Micro‑examples (engineer, manager, and researcher lenses)
+### F.14:10 - Worked cases
 
-#### F.14:9.1 - Enactment (change control)
+#### F.14:10.1 - Requester and approver
 
-* **Proposal.** *Requester‑Approver* as a single Role “to move faster.”
-* **Moves.** SoD(`Requester ⟂ Approver`) + **Bundle** `{Requester, Approver}`.
-* **Result.** Same throughput, preserved checks, no hybrid Role.
+Candidate family: `RequesterRole`, `ApproverRole`, `RequestApproverRole`, `SeniorApprover`.
 
-#### F.14:9.2 - Services (SLO evaluation)
+Result:
 
-* **Proposal.** New Status *At‑Risk*.
-* **Moves.** Keep **Compliance** Status; add **grace window** and a **forecast facet** (informative) if needed.
-* **Result.** One Status with windows; fewer names, clearer timelines.
+* `RequesterRole` and `ApproverRole` are work-facing role values with RoleDescriptions.
+* `RequestApproverRole` is blocked as a fused role. Use an A.2.7 role-bundle expression when the two roles travel together.
+* If the same holder must not carry both assignments in the same change window, use A.2.7 incompatibility plus A.2.1 and F.6 assignment checks.
+* `SeniorApprover` is not proof of independence or assurance. Recover role state, capability, assurance, or local policy before durable naming.
 
-#### F.14:9.3 - KD‑CAL (evidence)
+#### F.14:10.2 - Operators across shifts
 
-* **Proposal.** *Pre‑validated* between *Verified* and *Validated*.
-* **Moves.** Use **Status chain** within one family: `Verified → Validated`; represent uncertainty as **confidence** (F.10), not another Status.
-* **Result.** Clean ladder; no extra label.
+Candidate family: `OperatorRole`, `NightOperatorRole`, `RemoteOperatorRole`, `OnCallOperatorRole`.
 
-#### F.14:9.4 - Sys‑CAL (plant ops)
+Result:
 
-* **Proposal.** *Night‑Operator*, *Remote‑Operator*.
-* **Moves.** **Role:** Operator; **facets/windows:** `timeOfDay`, `presenceMode`.
-* **Result.** One Role, portable qualifiers.
+* `OperatorRole` is the role value.
+* `night`, `remote`, and `on-call` are recovered as schedule, location, role-state, work-plan, or policy qualifiers.
+* A new role is blocked unless the bounded context shows a distinct role value with different RoleDescription, assignment predicates, and method or work implications.
 
-#### F.14:9.5 - Method quartet (reviews)
+#### F.14:10.3 - SLO compliance labels
 
-* **Proposal.** *Senior‑Reviewer* to bypass `{Author ⟂ Reviewer}`.
-* **Moves.** Keep SoD; if seniority matters, introduce **Assurance Level** facet (F.10) on the **review decision**, not a new Role.
-* **Result.** Separation preserved; trust expressed as a Status property, not a Role type.
+Candidate family: `Compliant`, `AtRisk`, `Grace`, `Breached`, `Waived`.
 
-### F.14:10 - Anti‑patterns & remedies
+Result:
 
-| #       | Anti‑pattern                             | Symptom in models                                                                            | Why it harms thinking                                             | Remedy (conceptual move)                                                                                                          |
-| ------- | ---------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **A1**  | **Hybrid Role minting**                  | *Request‑Approver*, *Dev‑Ops‑Engineer* as one Role.                                          | Erases intended checks; conceals distinct responsibilities.       | **Bundle** `{Requester, Approver}` + **SoD** (`Requester ⟂ Approver`). Keep Roles distinct; name the cooperation, not the fusion. |
-| **A2**  | **Modifier‑as‑type**                     | *Night‑Operator*, *Remote‑Operator*, *On‑call‑Reviewer*.                                     | Name proliferation for circumstantial qualifiers.                 | Keep **Role = Operator/Reviewer**; express *night/remote/on‑call* as **facets or windows** (F.10).                                |
-| **A3**  | **Window‑as‑type**                       | *Compliant*, *At‑Risk*, *Grace*, *Breached* as separate Status types.                        | Paints temporal phases as different essences; breaks comparisons. | One **Status family** (e.g., **Compliance**) with **windows**: *evaluation / active / grace / archival* (F.10).                   |
-| **A4**  | **Row drift**                            | New Concept‑Set row for *Uptime‑OK* when **Service‑Availability‑Compliance** already exists. | Splits one intent across rows; Cross‑context tables get wide.        | **Reuse the row** (F.7) if intent matches; add local **SenseCell** if needed.                                                     |
-| **A5**  | **SoD evasion via “trusted” super‑role** | *Senior‑Reviewer* allowed to both author and review.                                         | Conflicts of interest reintroduced under prestige.                | Keep **SoD(Author ⟂ Reviewer)**; if trust matters, attach **Assurance Level** to the *decision* (Status facet), not a new Role.   |
-| **A6**  | **cross-context fusion**                    | One Role Description mixes *Execution (IEC)* with *Duty (ODRL)* semantics.                       | Violates locality; meanings leak across Contexts.                    | Keep each **Role Description** tied to a **SenseCell** (F.4). cross-context reasoning uses **Bridge** (F.9).         |
-| **A7**  | **Synonym carousel**                     | *Validator* vs *Verifier* vs *Checker* minted separately in the same Context.                   | Cognitive noise; ambiguous separation.                            | Choose **one label** via F.5; keep others as **aliases** in **Lexical Continuity** (F.13), not new templates.                     |
-| **A8**  | **Org-chart mirroring**                  | Roles cloned from a company chart (*Squad-Lead*, *Tribe-Lead*) as generic **Role Descriptions**. | Organisation-specific names masquerade as semantics.              | Map local titles to **Bundles** of generic Roles (e.g., `{Planner, Coordinator}`), or treat as **aliases** (F.13). |
-| **A9**  | **KPI‑as‑Status inflation**              | *Latency‑Good*, *Latency‑Bad*, *Latency‑Poor* as Status types.                               | Encodes numeric thresholds as separate essences; brittle.         | One **Quality Status** with **metric threshold** in its window definition (F.10/F.12); keep adjectives out of type names.         |
-| **A10** | **Traffic‑light mania**                  | *Red/Amber/Green* Status types reused across unrelated families.                             | False unification across different intents; color ≠ meaning.      | Keep canonical **Status name** (e.g., **Compliance**); use **presentation** as a separate concern; colors are not types.          |
-| **A11** | **Bundle masquerading as Role**          | *Change‑Manager* invented to hide `{Requester, Approver, Implementer}`.                      | Collapses structure; SoD becomes optional.                        | Name the **Bundle** and its **SoD** explicitly; keep Roles atomic.                                                                |
-| **A12** | **State‑as‑Status sprawl**           | *Pre‑validated*, *Validated*, *Re‑validated*, *De‑validated*.                                | States are temporal positions on one ladder.                      | Define one **Validation Status** with **state ladder** and **windows**; use **Assurance Level** as a facet if needed.             |
-| **A13** | **Contextless Role Description**            | Role Description without a SenseCell anchor.                                                     | Floating meaning; later bridges cannot be made explicit.          | Tie every **Role Description** to a **SenseCell** (F.4). If none fits, use F.8 to decide: **new row** or **rename/reuse**.        |
-| **A14** | **Profile‑driven clones**                | *API‑Approver*, *Data‑Approver*, *Model‑Approver* as different Roles.                        | Scales by surface area; loses the shared essence.                 | One **Approver** Role with a **scope facet** (`objectType=API/Data/Model`).                                                       |
+* These are not role names.
+* F.10 recovers status family, status value, status window, confidence, or deontic or policy use.
+* Presentation labels may stay local or be named by the direct status pattern. They do not become `U.Role`, RoleDescription, or role relation structure.
 
-### F.14:11 - Worked examples
+#### F.14:10.4 - Evidence and requirement suffixes
 
-#### F.14:11.1 - Enactment + Services + KD‑CAL — “SLO compliance without label sprawl”
+Candidate family: `EvidenceRole`, `RequirementRole`, `StandardRole`, `SourceRole`.
 
-**Contexts.** ITIL 4 (services), SOSA/SSN (sensing), PROV‑O (run).
-**Intent.** Track SLO compliance with minimal Status vocabulary.
+Result:
 
-* **Naïve proposal.** Statuses: *Compliant*, *At‑Risk*, *Breached*, *Grace*, *Waived*.
-* **Moves (F.14).** Keep **Compliance** as one **Status family**; define **windows**: *evaluation* (prediction against forecast), *active* (actuals vs target), *grace* (tolerated breach). **Waiver** becomes a **deontic Status** in ODRL Context, not part of Compliance.
-* **Outcome.** One Status + windows; observations (SOSA) and provenance (PROV) feed the *active* window; service policy (ITIL/ODRL) defines *grace*.
+* No work-facing role is recovered from suffix alone.
+* Evidence, requirement, standard, and source uses go to A.10, B.3, E.10.D2, E.17, or the direct requirement or source pattern.
+* A durable name may be admitted for the recovered relation, but not as a role value.
 
-#### F.14:11.2 - Method‑CAL + Enactment — “Reviews with SoD and Bundle”
+#### F.14:10.5 - Cross-context role labels
 
-**Contexts.** SPEM/ISO 24744 (methods), Enactment lexicon.
-**Intent.** Prevent authors reviewing their own work while keeping names lean.
+Two contexts both use `Operator`. One is a plant-control role; the other is an access-control permission grouping.
 
-* **Naïve proposal.** Roles: *Author*, *Self‑Reviewer*, *Peer‑Reviewer*, *Senior‑Reviewer*.
-* **Moves.** Roles **Author**, **Reviewer** only; **SoD(Author ⟂ Reviewer)** in the **review window**. If practice needs two reviewers, mint **Bundle** `{Reviewer, Reviewer₂}`; express **seniority** as a **facet** on the *decision* (Assurance Level), not a new Role.
-* **Outcome.** Two Roles, one Bundle, one SoD; no hybrid Role; assurance is visible as a property of the review result.
+Result:
 
-#### F.14:11.3 - Sys‑CAL + LCA‑CAL + Services — “Operations without role fragments”
+* F.9 Bridge Card first.
+* The bridge may admit Naming-only or RoleDescription naming for a local work-facing role when the role value is recovered.
+* The bridge does not import access permission as `U.RoleAssignment`, capability, or performed work.
 
-**Contexts.** IEC 61131‑3 (execution), state‑space control texts (actuation), ITIL 4 (services).
-**Intent.** Staff coverage across shifts and locations without ten operator types.
+#### F.14:10.6 - Ordinary composite role names
 
-* **Naïve proposal.** *Night‑Operator*, *Remote‑Operator*, *Local‑Operator*, *Shift‑Lead*, *On‑call‑Operator*.
-* **Moves.** **Role** = **Operator**; add **facets/windows**: `timeOfDay`, `presenceMode`, `dutyCycle`. If coordination is distinct, mint **Coordinator** Role; when both occur together, **Bundle** `{Operator, Coordinator}`; keep **SoD** where needed (e.g., `Operator ⟂ Approver` for production change).
-* **Outcome.** One Role + small facet set + Bundle; clean hooks to execution and actuation semantics.
+A project says: "Vasya is an engineer, he works on musical robots, and he is also a musician who teaches robots to play music."
 
-#### F.14:11.4 - KD‑CAL + Kind-CAL — “Evidence ladder without new labels”
+Result:
 
-**Contexts.** KD‑CAL (evidence), OWL 2/FCA (types).
-**Intent.** Express proof maturity without inflating Status names.
+* The ordinary phrase may remain "robotics engineer and musician" or "robotics engineer-musician" when the reader can recover it without ambiguity. FPF does not require a `Role` suffix in ordinary prose.
+* Recover at least two work-facing role values when they are current: `EngineerRole@RobotEngineeringContext` and `MusicianRole@MusicPracticeContext`. If the engineering work is specifically robotics engineering, use a role qualifier, RoleDescription, or A.2.7 role-relation expression rather than minting `EngineerRoboticistRole` automatically.
+* If "robotics engineer" is a stable local bundle or qualification relation, record it as `RoleRelationStructure@BoundedContext` under A.2.7. The relation structure may be named for local use, but it is not a new role value by itself.
+* Recover method and work values separately: engineering method, robotics-engineering method family, music teaching method, robot-training work, and performed music work stay under the method and work patterns. They may motivate a role name only after F.8 and F.18 admission.
+* A durable role value is selected only when the bounded context needs different assignment predicates, capability expectations, incompatibilities, method/work implications, or public naming. Otherwise keep the ordinary composite phrase and cite the recovered role relation, method, work, and capability values where they matter.
 
-* **Naïve proposal.** *Candidate‑Evidence*, *Preliminary‑Evidence*, *Verified‑Evidence*, *Validated‑Evidence*.
-* **Moves.** Keep one **Evidence Status** ladder (`Collected → Verified → Validated`); use **Assurance Level** facet (numeric or ordinal) and **windows** for in‑review vs active. Align *types* in a **row**; do not mint new Status names for granularity.
-* **Outcome.** Short vocabulary, clear ladder, quantitative facet where nuance is needed.
+### F.14:11 - Anti-patterns and repairs
 
-### F.14:12 - Relations (with other patterns)
 
-* **Builds on:** F.1 (Contexts), F.2 (Harvesting), F.3 (Local Clustering), F.4 (Role Description), F.5 (Naming).
-* **Constrains:**
+| ID | Anti-pattern | Symptom | Why it breaks thinking | Repair |
+| --- | --- | --- | --- | --- |
+| AP-1 | Hybrid role minting | `RequestApproverRole` becomes one role. | Erases role relation structure and separation checks. | Use A.2.7 bundle or incompatibility relation; create a role only after F.8 and F.18 admission. |
+| AP-2 | Modifier-as-role | `NightOperatorRole` or `RemoteOperatorRole` appears for every circumstance. | Circumstances become kinds. | Recover schedule, location, role state, work-plan, or policy qualifier. |
+| AP-3 | Status role | `ReadyReviewerRole` or `EvidenceRole` becomes a role-name family. | Status or evidence use becomes role ontology. | Use F.10, A.10, B.3, E.10.D2, or direct status and evidence patterns. |
+| AP-4 | Prestige bypass | `SeniorReviewer` bypasses incompatibility or assignment checks. | Trust label substitutes for assurance or separation. | Keep role relation; use B.3, capability, role state, or assignment checks. |
+| AP-5 | Row duplication | New row or public term for a name already admitted by a bridge and row. | Concept-Set table widens without new meaning. | Reuse the row; record the old term as lineage or source wording when needed. |
+| AP-6 | Assignment hidden in role name | `AliceReviewerRole` looks like a role value. | Holder assignment is hidden in a name. | Use A.2.1 and F.6; keep the role value separate. |
+| AP-7 | Method hidden in role name | `PressureTestReviewerRole` mixes method requirement and role. | Method and role become one ontology. | Use A.3.1 and A.3.2 for method, A.2 for role, F.18 only after recovery. |
+| AP-8 | Presentation as status family | Red, amber, and green become status types. | Display colors substitute for status values and criteria. | Use direct status or presentation pattern; keep status family explicit. |
 
-  * **F.7 (Concept‑Set Table):** prefer **row reuse**; new rows require F.8 justification.
-  * **F.8 (Mint‑or‑Reuse):** apply **four levers** (reuse, bundle, SoD, window) before minting.
-  * **F.10 (Status Windows & Mapping):** encode temporal/scale variation as **windows**, not new Status types.
-  * **F.12 (Service Acceptance Binding):** bind acceptance to the **Compliance** Status family; avoid ad‑hoc status labels.
-  * **F.13 (Lexical Continuity):** prior names become **aliases**; do not carry forward inflated vocabularies as new types.
-* **Used by.** FPF patterns to keep Role and Status vocabularies tight.
+### F.14:12 - Conformance checklist
 
-### F.14:13 - Migration notes (conceptual playbook)
+| Check | Question |
+| --- | --- |
+| CC-F14-01 | Is each candidate name tied to a recovered value or explicitly left as a local phrase? |
+| CC-F14-02 | Are role values, RoleDescription labels, role-relation expressions, role assignments, and performed work kept separate? |
+| CC-F14-03 | Are status family, status value, status window, status-use relation, and presentation label kept separate? |
+| CC-F14-04 | Are capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers handled by direct patterns? |
+| CC-F14-05 | Are role-bundle and incompatibility cases sent to A.2.7 rather than minted as hybrid roles? |
+| CC-F14-06 | Are public and cross-context names backed by F.9, F.17, or F.18 only after value recovery? |
+| CC-F14-07 | Are lineage labels recorded without carrying old fused ontology forward? |
+| CC-F14-08 | Is every durable new role or status name justified by F.8 and F.18 or by the direct status or naming pattern? |
 
-1. **Map to rows.** For each existing Role or Status, identify its **Concept‑Set row**; if two names share an intent, **collapse** to one row (keep other names as **aliases**, F.13).
-2. **Extract SoD.** Replace “super‑roles” with **Bundles** plus explicit **SoD**; where conflict exists, SoD is **normative**, not cultural.
-3. **Demote modifiers.** Convert adjectival Role types into **U.Facet** (per Compose‑CAL) or **windows** on the base Role.
-4. **Window statuses.** Merge Status families split by time/scale into **one Status + windows**; move waived/exempt notions to the **deontic Context** if applicable.
-5. **Re‑use before minting.** When encountering a gap, scan rows for a near‑match; only if intent genuinely differs, open a **new row** (F.8).
-6. **Preserve continuity.** Keep historic labels as **aliases** under the consolidated template (F.13); do not rewrite past texts.
-7. **Rehearse the cut.** After consolidation, you should be able to recite the entire Role and Status vocabulary **from memory**; if not, reduce again.
+### F.14:13 - Regression checks
 
-### F.14:14 - Acceptance tests (SCR/RSCR — concept‑level)
+| Check | Reopen condition |
+| --- | --- |
+| RSCR-F14-01 | Reopen when candidate names grow faster than recovered values. |
+| RSCR-F14-02 | Reopen when a role name starts carrying assignment, capability, method, work, evidence, status, source, or publication claims. |
+| RSCR-F14-03 | Reopen when a status label starts carrying role, holder, assignment, or work claims. |
+| RSCR-F14-04 | Reopen when a public or cross-context name is reused without F.9, F.17, or F.18 admission. |
+| RSCR-F14-05 | Reopen when role-relation expressions become fake holders, fake capabilities, or fake method families. |
 
-#### F.14:14.1 - SCR — Static conformance
+### F.14:14 - Relations
 
-* **SCR‑F14‑S01 (Row reuse).** Every newly proposed Role Description either **references an existing row** or includes a clear **F.8 justification** for a new row.
-* **SCR‑F14‑S02 (No hybrids).** No Role Description’s label or definition **conflates** two Roles that stand in a declared **SoD** relation.
-* **SCR‑F14‑S03 (Windowed statuses).** Each Status family that shows temporal/scale variation is expressed as **one Status + windows** (not multiple Status types).
-* **SCR‑F14‑S04 (Facet over modifier).** Role names do not encode circumstantial modifiers; such modifiers appear only as **facets/windows**.
-* **SCR‑F14‑S05 (Context locality).** Every Role Description is anchored to **exactly one SenseCell**; no Cross‑context semantics inside a single template.
-* **SCR‑F14‑S06 (Bundles are pure).** Every **Bundle** is a **set of templates** with **no additional semantics** beyond membership and referenced **SoD**.
+* **A.2.** Governs the work-facing role value; F.14 only prevents unnecessary role-name growth.
+* **A.2.1 and F.6.** Govern assignment and performed-work attribution; F.14 blocks names that hide those relations.
+* **A.2.5.** Governs role state and enactable-state admission; F.14 blocks role-state qualifiers from becoming unexamined new roles.
+* **A.2.7.** Governs role-requirement substitution, incompatibility, qualification, and bundle expressions; F.14 chooses that expression before hybrid-role minting.
+* **F.4 and F.5.** Govern RoleDescription and local naming; F.14 supplies pressure to keep names few.
+* **F.8.** Governs one candidate mint-or-reuse decision; F.14 uses F.8 when a family-level pass leaves a candidate unresolved.
+* **F.9 and F.17.** Govern bridge and public term-sheet reuse; F.14 does not admit cross-context durable names by label alone.
+* **F.10.** Governs status families, status values, windows, and status-use relations; F.14 prevents status-name sprawl.
+* **F.18.** Governs durable naming after value recovery.
+* **A.10, B.3, E.17, and E.10.D2.** Govern evidence, assurance, publication, source, description, and specification-use cases that often arrive with role-like suffixes.
 
-#### F.14:14.2 - RSCR — Regression (evolution)
+### F.14:15 - SoTA-Echoing
 
-* **RSCR‑F14‑E01 (Vocabulary slope).** Over a given interval, the count of distinct Role or Status templates **does not increase** unless matched by **row justifications** (F.8).
-* **RSCR‑F14‑E02 (SoD integrity).** Adding templates does not introduce a label that **circumvents** any existing **SoD** relation.
-* **RSCR‑F14‑E03 (Window integrity).** When windows are refined, **Status type count** remains constant; only window definitions change.
-* **RSCR‑F14‑E04 (Alias discipline).** When labels change, prior names are recorded as **aliases** (F.13); no silent type multiplication.
+**SoTA note.** F.14 does not import access-control, policy, terminology, or status taxonomies as FPF ontology. It uses their shared discipline: separate the named value from assignment, permission, status, evidence, and currentness claims before making a durable name.
 
-### F.14:15 - Didactic distillation (90‑second script)
+| Current pressure | Practice line | F.14 adoption |
+| --- | --- | --- |
+| Role labels alone are too weak for authorization, work attribution, or capability claims. | RBAC lineage, ABAC, zero-trust, and policy-as-code practice separate role-like attributes, current context, policy decision, resource action, and evidence. | Keep role names separate from holder assignment, capability, policy, and work; use A.2.1, A.2.2, A.2.5, A.15.1, and direct policy and evidence patterns. |
+| Terminology work distinguishes terms, concepts, designations, and contexts. | Current terminology and ontology practice treats a shared term as insufficient for identity. | Recover the value first; use F.9, F.17, and F.18 before public or cross-context reuse. |
+| Status dashboards and presentation labels often hide criteria. | Operational monitoring and assurance practice separates indicator, threshold, time window, status value, evidence, and decision. | Keep status family, status value, window, evidence, and presentation separate; use F.10, A.10, B.3, and E.17. |
 
-> **Name less, express more.** Before minting a new Role or Status, try **four levers**:
-> **(1) Reuse the row** — if the intent already exists, adopt it and add your local SenseCell.
-> **(2) Bundle, don’t blur** — when two Roles travel together, **Bundle** them; keep **SoD** if they must stay apart.
-> **(3) Declare SoD, don’t fuse** — conflicts of interest are solved with **SoD**, not with “trusted” super‑roles.
-> **(4) Window, don’t multiply** — one **Status** can wear different **windows** (evaluation/active/grace); that’s not four Status types.
-> Keep modifiers as **facets**, not names; keep every Role Description **context‑local** via its SenseCell. If your vocabulary no longer fits in a thoughtful mind, you have an **explosion**—return to the levers and reduce.
+### F.14:16 - Didactic distillation
+
+When names multiply, do not ask for a better name first. Ask what values are being named. Reuse existing roles and status families when they already admit the use. Use role relation structure for role-requirement substitution, incompatibility, qualification, and bundles. Use status windows and values for temporal or evaluative variation. Send capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers to their direct patterns. Mint durable names only after the recovered value deserves one.
 
 ### F.14:End
 

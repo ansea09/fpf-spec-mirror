@@ -6,12 +6,12 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:3 — Forces"
-line_start: 20066
-line_end: 20073
+line_start: 19702
+line_end: 19709
 dependencies:
   - "A.3"
   - "B.2.5"

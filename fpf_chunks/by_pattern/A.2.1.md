@@ -1,26 +1,20 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment: Contextual Role Assignment"
+pattern_title: "U.RoleAssignment - Contextual Work-Role Assignment"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.1.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "A.2.1 — U.RoleAssignment: Contextual Role Assignment"
-line_start: 2086
-line_end: 2646
+  - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
+line_start: 2207
+line_end: 2550
 dependencies:
-  - "A.1"
-  - "A.1.1"
-  - "A.13"
   - "A.15"
   - "A.2"
-  - "D.CTX"
-  - "E.10.D1"
-  - "E.10.D2"
-  - "U.BoundedContext"
+  - "A.2.1"
 keywords:
   - "RCS/RSG"
   - "RoleEnactment"
@@ -30,564 +24,347 @@ keywords:
   - "role"
 ---
 
-## A.2.1 - U.RoleAssignment: Contextual Role Assignment
+## A.2.1 - U.RoleAssignment - Contextual Work-Role Assignment
 
 > **Type:** Definitional (D)
 > **Status:** Stable
-> **Normativity:** Normative
+> **Normativity:** Normative unless marked informative
 
-*with `Role Performance View`, `U.RoleStateGraph (RSG)`, and `Role Characterisation Space (RCS)` hooks*
+### A.2.1:0 - Use This When
 
-**Builds on:** A.1 **Holonic Foundation**, A.1.1 **`U.BoundedContext`**, A.2 **Role Taxonomy**.
-**Coordinates with:** A.13 **Agential Role & Agency Spectrum**, A.15 **Role–Method–Work Alignment**, E.10.D1 **D.CTX (Context discipline)**, E.10.D2 **Strict Distinction**.
-**Lexical discipline.** *Context* ≡ `U.BoundedContext` (E.10.D1). *Appointment* is **colloquial only**; the canonical term in this specification is **Role Assignment** (see **CC‑LX‑1**).
+**Plain name.** Work-role assignment.
 
-**Mint vs reuse.** This pattern defines `U.RoleAssignment` and `U.RoleEnactment` and introduces the labels `Role Characterisation Space (RCS)` and `Role State Graph (RSG)` as intensional facets recorded in `RoleDescription` / `RoleSpec`. It reuses existing kernel terms (`U.Holon`, `U.System`, `U.Episteme`, `U.BoundedContext`, `U.Work`, `U.Method`) without changing their meanings.
+Use this pattern when a project must say which system, organization, person, team, service, agent, device, or other acting holon holds which `U.Role` in which bounded context, and when that assignment is current enough to admit, check, plan, or attribute work.
 
-### A.2.1:1 - Problem frame
+Typical moments:
 
-**Intent.** Provide one, universal, **context-local** way to say *who is being what, where (and when)* without altering what the thing **is**. The same grammar works for people, machines, software, teams, and **also** for epistemes when they hold **statuses** rather than perform actions.
+- a work record says that "Alice reviewed", "Robot-7 inspected", "CI bot deployed", or "the operations team approved" and the role, holder, bounded context, or assignment window is missing;
+- a method or method description names required roles, but the project has not linked those roles to concrete performers;
+- a role state, capability requirement, separation-of-duties rule, or work gate depends on who holds the role now;
+- an old source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be repaired without making epistemes into work performers;
+- a local notation such as `Holder#Role:Context@Window` is useful, but the notation must not replace the typed relation it abbreviates.
 
-**Scope.**
+**Primary EntityOfConcern.** The EntityOfConcern is `U.RoleAssignment`: a typed work-facing assignment relation value. It links an admitted acting holder, a `U.Role`, a `U.BoundedContext`, and any assignment-currentness window or assignment source that is current for the claim.
 
-* Defines **`U.RoleAssignment`** (binding a **holder** holon to a **role** inside a **bounded context**, optionally within a **time window**).
-* Separates that binding from **`U.RoleEnactment`** (the run‑time fact that a piece of **Work** was performed under that assignment).
-* Names the **Role Characterisation Space (RCS)** and the **Role State Graph (RSG)** as **intensional** facets of a Role (recorded in its `RoleDescription`, upgraded to `RoleSpec` only after tests exist).
-* Declares **eligibility** constraints so Roles apply to the right holon kinds, **without badge‑of‑badge chains** like “TransformerRole is assigned to be AgentRole”. If a Context intends taxonomic inheritance between role names, that relation is expressed in‑Context via role algebra (`≤`), not via chained assignments.
+**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who needs work attribution, role admission, role-state checks, method requirements, or responsibility language to remain inspectable across contexts and editions.
 
-**Non‑goals.** No storage models, no workflows, no org charts. This is a **thinking Standard**; all semantics are notation‑free.
+**First useful move.** Recover the four core slots of the assignment relation: holder, role value, bounded context, and assignment window when current. Then recover any direct work-role qualifier, role-state admission, capability requirement, method requirement, work-plan relation, or work occurrence through its governing pattern.
+
+**What goes wrong if missed.** Role labels float without holders or contexts. A method appears to have been enacted by a document. A work record names a person but not the role under which the work was admitted. A report or standard is treated as if it held a role because it is used as evidence or requirement source. The corpus then grows one role ontology for work and a second role ontology for epistemes.
+
+**What this buys.** `U.RoleAssignment` gives one narrow relation for work-facing role holding. It keeps role values reusable, work attribution replayable, method requirements checkable, and episteme evidence or status uses outside the role-assignment relation.
+
+**Not this pattern when.**
+
+- If the current claim is the role value itself, role taxonomy, or role relation-neighborhood, use `A.2`.
+- If the current claim is ability or operating envelope, use `A.2.2`.
+- If the current claim is role state, role-state predicate, or enactable-state admission, use `A.2.5`.
+- If the current claim is role-requirement substitution, incompatibility, qualification, or role bundle, use `A.2.7`.
+- If the current claim is method, method description, work plan, performed work, or role-method-work alignment, use `A.15` and the direct A.15 subpattern.
+- If the current claim is evidence, source, standard, requirement, definition, explanation, publication, status, assurance, gate, or decision use of an episteme, use the direct pattern for that relation. Do not make the episteme a `U.RoleAssignment` holder.
+- If "role" means a relation position, use `A.6.5` SlotSpec discipline.
+
+### A.2.1:1 - Problem Frame
+
+Work-facing roles are useful only after they are connected to concrete holders in a bounded context. "Reviewer", "operator", "deployer", "inspector", "authorizer", and "coordinator" are not enough by themselves. The project needs to know which holder bears the role, in which context, for which window or current claim, and under which neighboring role-state, capability, method, plan, and work relations.
+
+The assignment relation must be narrow. It should not absorb capability, method, work, evidence, status, or publication use. A standard used as a requirement source can constrain work, but it does not hold a work-facing role. A report can be used as evidence, but it does not perform the review that produced it. A method description can require `ReviewerRole`, but the method description is not the reviewer.
+
+A.2.1 therefore defines `U.RoleAssignment` as a typed relation value using `A.6.5` SlotSpec discipline. The relation is work-facing: its holder is a `U.System` or acting holon admitted as system-like performer by the governing work or method pattern. Epistemes stay in evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, gate-use, or decision-use relations.
 
 ### A.2.1:2 - Problem
 
-1. **Type explosion.** Baking transient function into rigid types (“CoolingPump”, “AuditDeveloper”) violates parsimony and makes change brittle.
-2. **Context drift.** Labels like *Operator*, *Process Owner*, *Standard* slide in meaning across teams/years when not tied to a **Context**.
-3. **Actor vagueness.** Work logs state that things happened but not **who, in what capacity**, under which **local rules**.
-4. **Category leaks.** Documents “do” tasks; deontic statuses are treated like run‑time states; capabilities are confused with permissions.
-5. **Role chains.** Attempting “System ↦ TransformerRole ↦ AgentRole” hides intent and smuggles taxonomy into the data plane.
+Without this pattern:
+
+1. **Role labels do not identify performers.** Work records name a role-like word, but not the holder and context needed for attribution.
+2. **Assignment and role collapse.** The role value, the holder, the bounded context, and the assignment window become one label.
+3. **Assignment and capability collapse.** A role assignment is treated as evidence of ability, even though capability has its own envelope and evidence.
+4. **Assignment and method collapse.** Holding a role is treated as if the holder automatically has a method or has already performed work.
+5. **Episteme-role drift returns.** Standards, reports, datasets, definitions, requirements, and model cards are described as role holders instead of being related through evidence, status, source, publication, requirement, or assurance relations.
+6. **RoleEnactment becomes a second run-time object.** A derived performed-by fact is mistaken for a durable U-kind beside `U.Work`.
+7. **Slot discipline is lost.** Holder, role value, context, window, justification, provenance, and qualifier positions are not recoverable as distinct SlotKinds.
 
 ### A.2.1:3 - Forces
 
-| Force                            | Resolution in this pattern                                                                                                        |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs locality**     | One mechanism (`U.RoleAssignment`), but every meaning is **context‑local** (Context); cross‑context sameness only via **Bridge** (F.9). |
-| **Stability vs change**          | **Identity of holder** stable; **assignments** come/go via windows; **enactments** are punctual facts attached to Work.           |
-| **Clarity vs brevity**           | Full definition + the mnemonic shorthand `Holder#Role:Context@Window`.                                                            |
-| **Behavior vs status**           | **Only systems enact behavior**; epistemes **hold statuses**. Keep role taxonomies explicit; never chain assignments.             |
-| **Specification vs description** | Role **RCS/RSG** are recorded in **RoleDescription**; upgrade to **RoleSpec** only after a test harness exists (E.10.D2).         |
+| Force | Tension |
+| --- | --- |
+| Local meaning vs corpus reuse | Role assignments must be local to one bounded context, while the pattern must remain reusable across engineering, organizations, software, AI agents, laboratories, and governance work. |
+| Traceability vs relation overreach | Work attribution needs a concrete assignment relation, but the assignment must not swallow method, capability, evidence, status, or publication semantics. |
+| Open-world use vs heavy forms | Some assignment claims need only holder, role, and context; other claims need window, state assertion, assignment source, capability, or method details. Missing optional-in-use slots must not force dummy values. |
+| Role state vs work occurrence | A role assignment can be current while the holder is not in an enactable role state; work occurrence is still a separate dated occurrence. |
+| Ordinary notation vs ontology | `Holder#Role:Context@Window` is memorable, but it is notation for a typed assignment relation, not the relation's ontology. |
+| Episteme use vs work performance | Epistemes can be used as evidence, standard, requirement, definition, explanation, status bearer, publication, or assurance input; they do not perform work by holding work-facing roles. |
 
 ### A.2.1:4 - Solution
 
-#### A.2.1:4.1 - Canonical definition (notation‑free)
+Use `U.RoleAssignment` for the typed relation that assigns a work-facing `U.Role` to an admitted acting holder in one bounded context.
 
-**`U.RoleAssignment`** is a **context-local assignment**:
-
-```
-RoleAssignment ::=
-  〈holder: U.Holon,
-   role: U.Role,
-   context: U.BoundedContext,
-   window?: U.Window,
-   justification?: U.Episteme,
-   provenance?: U.Method〉
+```text
+RoleAssignmentCoreSlotSpec:
+  HolderSlot:
+  RoleValueSlot:
+  BoundedContextSlot:
+  AssignmentWindowSlot:
+  AssignmentJustificationSlot:
+  AssignmentProvenanceSlot:
 ```
 
-**Admissibility constraints (concept‑level; non‑deontic).**
+This is a relation value. A record, registry row, publication, diagram, or file may describe, cite, or store the relation value. It is not the assignment itself by default.
 
-* **Invariant RA‑1 (Locality).** `role ∈ Roles(context)`. The role’s meaning is exactly the one recorded in that Context’s RoleDescription/RoleSpec.
-* **Invariant RA‑2 (No role‑of‑role).** `holder : U.Holon` and `holder ∉ {U.Role, U.RoleAssignment}`. (Roles/assignments are never holders.)
-* **Invariant RA‑3 (Eligibility by role kind).**
-  * **Behavioural roles** (agential/transformer/observer/speech and their refinements): `holder` is a `U.System`. Only systems can enact Methods and produce Work.
-  * **Status roles** (epistemic‑status / normative‑status / service‑governance): `holder` is a `U.Episteme`. Epistemes never enact Work; they gate and justify.
-  * Context refinements may tighten eligibility (e.g., “Approver must be human”) but are restrictions of the System/Episteme split (they do not weaken it).
-* **Invariant RA‑4 (Window discipline).** If `window` is present, enactments occur within it. If `window` is absent, interpret the assignment as open‑ended **from an assignment time that is still traceable** (e.g., via an issuing `U.RoleAssigning` SpeechAct Work or other evidence).
-* **Invariant RA‑5 (Separation).** A RoleAssignment confers **the capacity/authorization to act** (or the status to be recognised), but it is **not behaviour** (no Work implied), **not capability** (intrinsic ability lives elsewhere), and **not structure** (it does not participate in BoM / part‑of structure).
+#### A.2.1:4.1 - Core SlotSpecs
 
-**Governance metadata (optional but first‑class when present).**
+| SlotKind | ValueKind | Slot-use disposition | Meaning |
+| --- | --- | --- | --- |
+| `HolderSlot` | `U.System` or acting holon admitted as system-like performer by the governing work or method pattern | identity slot | The holder that bears the role in the bounded context. `U.Episteme` is not admitted here merely because it is used as evidence, source, standard, requirement, explanation, status bearer, publication, or assurance input. |
+| `RoleValueSlot` | `U.Role` | identity slot | The context-bound role value governed by `A.2`. It is not a SlotKind and not a capability. |
+| `BoundedContextSlot` | `U.BoundedContext` | identity slot | The context that gives the role value its local meaning. |
+| `AssignmentWindowSlot` | assignment-currentness window, role-state window, or temporal-validity value governed by the temporal pattern current in the project | optional-in-use; currentness-required when the claim depends on current assignment validity | Missing window means not recovered or not current for the claim, not that no window exists. |
+| `AssignmentJustificationSlot` | source, speech act, policy, gate, decision, rule, or evidence relation governed by its direct pattern | currentness-required when the assignment admission is challenged or relied upon | This slot points to why the assignment claim is admitted; it does not replace the governing speech-act, gate, policy, or evidence pattern. |
+| `AssignmentProvenanceSlot` | provenance relation for issuing, recording, or refreshing the assignment claim | consideration slot; currentness-required when auditability or source order is current | This slot is not a bucket for target claim, evidence polarity, status value, evidence window, or publication form. |
 
-* `justification` carries *why* the assignment is valid in this Context (policy, standard, evidence Episteme).
-* `provenance` carries *how* the assignment was issued or verified (method reference; may link to a `U.RoleAssigning` work step in the evidence graph).
+Direct work-role patterns may declare additional work-role qualifier SlotSpecs. Evidence-use and status-use relation slots are not assignment qualifiers unless a direct work-role pattern explicitly makes that work-role claim.
 
-**Didactic read.** Think **badge** (*who wears which mask, where, when*). The rules for the mask live **in the room** (Context).
+#### A.2.1:4.2 - Well-Formedness Constraints
 
-**Two assignment modes.**
-A RoleAssignment can be:
-(a) Authoritative — issued by an authority or policy in the Context (often via a `U.RoleAssigning` SpeechAct Work); it can open a Green‑Gate for steps that require explicit authorization.
-(b) Observational — an evidence‑backed classification that the holder occupies a Role in this Context (e.g., “Moon as SatelliteRole:IAU_2006”). Observational assignments never by themselves open operational Green‑Gates; they can gate decisions and analysis.
+Use these constraints as predicates over a filled assignment relation.
 
-#### A.2.1:4.2 - Role Enactment (distinct from the assignment)
+```text
+Invariant RA-S1 (Local role):
+  RoleValueSlot content is a U.Role admitted in the BoundedContextSlot content.
 
-**`U.RoleEnactment`** captures the *run‑time* fact that **a specific piece of Work** was performed under **a specific Role Assignment**:
+Invariant RA-S2 (Holder admission):
+  HolderSlot content is a U.System or an acting holon admitted as system-like performer by the governing work or method pattern.
 
+Invariant RA-S3 (No role-as-holder):
+  HolderSlot content is not U.Role and not U.RoleAssignment.
+
+Invariant RA-S4 (No episteme holder by use):
+  U.Episteme is not admitted as HolderSlot content merely because the episteme is used as evidence, source, standard, requirement, definition, explanation, publication, status bearer, or assurance input.
+
+Invariant RA-S5 (Context locality):
+  Cross-context assignment reuse requires a named bridge or direct context relation; shared labels do not create sameness.
+
+Invariant RA-S6 (Window honesty):
+  A claim that depends on current assignment validity names AssignmentWindowSlot content, inherits a declared bounded-context default, or states that the window is unknown, not recovered, not asserted, or blocking for the stronger claim.
 ```
-RoleEnactment ::= 〈work: U.Work, by: U.RoleAssignment〉
+
+Do not express these predicates with RFC-style deontics unless the sentence is imposing a duty on an author, validator, or published record.
+
+#### A.2.1:4.3 - Open-World Slot Disposition
+
+The SlotSpecs are a thinking discipline, not a demand to fill a form for every casual use.
+
+Use these dispositions:
+
+- **filled:** the relation instance names the slot filler or reference;
+- **inherited:** the role definition or bounded-context rule fixes the value for the current claim;
+- **unknown or not recovered:** the slot is relevant, but the project has not recovered it;
+- **not asserted:** the text deliberately makes no claim about this slot;
+- **not current for this claim:** the slot exists in the model, but the present claim does not depend on it;
+- **claim lowering or blocker:** a stronger claim depends on the slot, so missing content lowers or blocks that claim.
+
+For example, a quick staffing note may only need holder, role, and context. A safety-critical work attribution claim needs the assignment window, role-state admission, and method or work relation that the note omitted.
+
+#### A.2.1:4.4 - Role State and Role-Description Characterization Hooks
+
+`U.RoleAssignment` does not contain a role-state relation or a role-state description. The `U.Role` and its role description may be linked to:
+
+- RoleCharacteristicSpace, the characteristic space used to describe role variants or role requirements in one bounded context;
+- Role State Relation, the state-family relation used to decide whether a role assignment is in an enactable state;
+- state assertions or evaluations governed by `A.2.5` and the relevant evidence or evaluation pattern.
+
+A work attribution claim may depend on those neighboring values. The assignment relation names the holder, role, context, and window; `A.2.5` governs whether the assignment is in an enactable state for the current work.
+
+#### A.2.1:4.5 - Role Assignment and Work
+
+Work is not performed by the role value. Work is performed by the holder under a role assignment.
+
+Use the direct relation:
+
+```text
+Work.performedBy = RoleAssignment
 ```
 
-**Admissibility constraints (concept‑level; non‑deontic).**
+Then check neighboring claims:
 
-* **Invariant RE‑1 (Actor reality).** `by.holder : U.System`. (Epistemes never enact Work.)
-* **Invariant RE‑2 (Temporal fit).** `work.window` overlaps `by.window` (or `by.window` is open and contains `work.window`).
-* **Invariant RE‑3 (Method gate).** For the `MethodStep` realised by `work`, `by.role` satisfies the step’s `requiredRoles` in that **same Context** (directly or via `≤` specialization inside the Context).
-* **Invariant RE‑4 (Traceability shape).** `U.Work` records cite the performer as `performedBy = some U.RoleAssignment`. `U.RoleEnactment` is the conceptual (or derived) association `〈work, work.performedBy〉`; if a system persists it explicitly, it is 1:1 with Work.
+- the work occurrence is governed by `A.15.1`;
+- the selected method is governed by `A.3.1`;
+- the method description or required-role declaration is governed by `A.3.2` and `A.15`;
+- the work plan is governed by `A.15.2`;
+- role-state admission is governed by `A.2.5`;
+- capability is governed by `A.2.2`.
 
-*Reading:* **Assignments authorize; enactments happen.** That single sentence prevents months of muddled logs.
+A `U.Work` record may cite `performedBy = some U.RoleAssignment`. That citation does not make the work record the assignment and does not make the assignment a work occurrence.
 
-Role Enactment is the occurrence of `U.Work` performed by a `holder` while a valid `U.RoleAssignment` for the required Role is in an enactable state of its RoleStateGraph (A.2.5) within the same Context. Enactment is generic: it includes operational work (e.g., actuation) and communicative work (speech acts such as approvals).
+#### A.2.1:4.6 - RoleEnactmentFact
 
-#### A.2.1:4.3 - Role Characterisation Space (RCS) & Role State Graph (RSG)
+Older FPF text used `U.RoleEnactment`. Current FPF treats role enactment as a derived relation or fact over `U.Work` and `U.RoleAssignment`, not as a durable U-kind.
 
-These are **intensional facets** of a **Role**, not containers “inside” the Role. They are **recorded in** the **RoleDescription** (or **RoleSpec** once harnessed), per E.10.D2.
+Use this named fact only when a named relation is clearer than direct `performedBy` wording:
 
-* **RCS (Role Characterisation Space).** A set of named characteristics that parameterise how the Role is understood in a Context (e.g., *AgencyLevel ∈ {None, Assisted, Delegated, Autonomous}*; *SafetyCriticality ∈ {SC0…SC3}*).
-* **RSG (Role State Graph).** A directed graph of **named states** (nodes) and **admissible transitions** (edges) for the Role **within the Context** (e.g., *{Eligible → Authorized → Active → Suspended → Revoked}*).
-
-  * Each **state** has a **Conformance Checklist** (set of observable cues) supporting **Evaluations** (“X ∈ *Authorized*@context in W”).
-  * RSG governs **role state transitions**, independent of any Work instance.
-
-**Discipline.** Prefer the phrasing *“Role is **characterised by** RCS/RSG recorded in RoleDescription”*; avoid “Role **contains** its states.”
-
-#### A.2.1:4.4 - Shorthand & reading
-
-The canonical compact form used in prose and diagrams is:
-
+```text
+RoleEnactmentFact:
+  workOccurrence: U.Work
+  performedBy: U.RoleAssignment
+  methodTrace?: U.Method or U.MethodDescription reference when current
+  window?: inherited from work occurrence or role assignment when current
 ```
+
+If a database, log, table, or publication stores a role-enactment entry, it stores a record of the fact unless a direct governing pattern admits record-as-value for that use.
+
+#### A.2.1:4.7 - Episteme Evidence, Status, Source, and Publication Uses
+
+Do not use `U.RoleAssignment` for an episteme merely because the episteme is useful in a project relation.
+
+| Source phrase | Recover as |
+| --- | --- |
+| "this report has evidence role for Claim A" | evidence-use relation with evidence episteme, target claim, claim scope, polarity, and relevance window when current. |
+| "the standard has normative role" | standard-use, requirement-use, source-use, publication-use, or status-use relation under the direct pattern. |
+| "the dataset plays the role of benchmark" | dataset-use, evidence-use, measurement, benchmark, or source-use relation under the direct pattern. |
+| "the model card is the approver" | publication, evidence, assurance, or source relation for the model card; any approving work is performed by a system or acting holon through a role assignment. |
+| "the dashboard role is monitoring" | publication or interface description use for the dashboard; observing work belongs to an observer holder under a role assignment. |
+
+The repair is not to find a nicer role word. The repair is to recover the current relation and its slot fillers.
+
+#### A.2.1:4.8 - Shorthand Notation
+
+The compact notation is:
+
+```text
 Holder#Role:Context@Window
 ```
 
+Use it only as a readable notation for the typed assignment relation.
+
 Examples:
 
-* `PLC_17#Transformer:PipelineOps@2025‑04‑01..2025‑06‑30`
-* `ISO_26262v2018#NormativeStandard:AutoSafetyCase` *(status role on an Episteme; no enactment)*
+- `Robot_7#InspectorRole:MaintenanceLine_A@2026-06-15T09:00..2026-06-15T11:00`
+- `OpsTeam#IncidentCommanderRole:PlantIncident_2026@open`
+- `CI_Service#DeployerRole:ReleaseTrain_2026@2026-Q2`
 
-*The shorthand is didactic; the semantics are those of §§4.1–4.3.*
+If the notation is missing the window, the current text must still say whether the window is inherited, unknown, not asserted, or not current for this claim when the claim depends on assignment currentness.
 
-#### A.2.1:4.5 - No role chains (use algebra, not badge‑of‑badge)
+### A.2.1:5 - Archetypal Grounding
 
-Chained assignments are ill‑formed for encoding taxonomy (see **Invariant RA‑2** and **CC‑ELIG‑3**). Chaining hides intent and defeats validation.
+#### A.2.1:5.1 - Industrial Inspection Work
 
-Taxonomic inheritance between role names is declared explicitly in the Context’s role algebra. For example, if (per A.13) your Context treats every transformer as a kind of agent, state:
+A maintenance line assigns an inspection role to a robot for one shift.
 
-* `TransformerRole ≤ AgentialRole` *(in that Context’s role algebra)*
+```text
+Robot_7#InspectorRole:MaintenanceLine_A@2026-06-15T09:00..2026-06-15T11:00
+```
 
-When a MethodStep requires two independent roles, express the conjunction where it belongs:
+The holder is a system. The role value is `InspectorRole`. The bounded context is `MaintenanceLine_A`. The assignment window covers the planned inspection shift.
 
-* the **MethodStep** requires both roles; the holder **wears two badges**, not a badge‑of‑a‑badge.
+This does not assert that the robot has the required sensor capability. Capability stays under `A.2.2`. It does not assert that inspection work already occurred. Performed work stays under `A.15.1`. It only gives later method, plan, role-state, and work-attribution claims a typed assignment relation to cite.
 
-#### A.2.1:4.6 - Eligibility across holon kinds (normative matrix)
+#### A.2.1:5.2 - Software Deployment
 
-A Role’s **family** constrains **who can wear its badge**. Eligibility is part of **didactic hygiene** and prevents chains like “Transformer → Agent”.
+A release train has a deployment method description with a step requiring `DeployerRole`.
 
-##### A.2.1:4.6.1 - Holder kinds (recap)
+```text
+CI_Service#DeployerRole:ReleaseTrain_2026@2026-Q2
+Work DeploymentRun_418 performedBy CI_Service#DeployerRole:ReleaseTrain_2026
+```
 
-* **`U.System`** — any acting holon (person, device, software service, team, organization, socio‑technical unit).
-* **`U.Episteme`** — any knowledge unit (document, dataset, model, standard, Standard).
-* **`U.Holon`** — supertype; only **Systems** enact Work; **Epistemes** can only hold **status** roles.
+The assignment relation admits a candidate performer. The work occurrence still needs the method or method-description relation, the assignment window, and any enactable role-state assertion required by `A.2.5`. A green test suite, ticket approval, or policy rule may justify the assignment or the work gate, but those are neighboring evidence, gate, or policy relations, not hidden role values.
 
-##### A.2.1:4.6.2 - Role‑kind × holder matrix
+#### A.2.1:5.3 - Review Report and Reviewer
 
-| Role kind (examples)                                                     | May be held by `U.System` | May be held by `U.Episteme` | Notes (eligibility refinements live in Context)                                                                                |
-| ------------------------------------------------------------------------ | :-----------------------: | :-------------------------: | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Agential** (e.g., *Agent*, *Decision‑Maker*, *Approver*)               |           **✓**           |              ✗              | Requires an RCS characteristic such as *AgencyLevel*; RSG should expose *Authorized/Active* states.                            |
-| **Transformer/Constructor** (e.g., *Welder*, *ETL‑Runner*)               |           **✓**           |              ✗              | Performs Methods; produces Work; often requires *Capability* evidence.                                                         |
-| **Observer/Measurer** (e.g., *Observer*, *Monitor*)                      |           **✓**           |              ✗              | Produces `U.Observation`; may be passive (probe) or active (test rig).                                                         |
-| **Communicator/Speech** (e.g., *Authorizer*, *Notifier*)                 |           **✓**           |              ✗              | A behavioural role; produces `U.Work` typed as SpeechAct.                                                                      |
-| **Service‑Governance** (e.g., *ServiceOffering*, *SLO‑ClauseCarrier*)    |             ✗             |            **✓**            | **Episteme** (catalog entry, policy). If a System “offers”, the *offer* is a SpeechAct; the *offering* is an Episteme.         |
-| **Epistemic‑Status** (e.g., *Evidence*, *Definition*, *AxiomaticCore*)   |             ✗             |            **✓**            | Status roles for knowledge; never enact Work.                                                                                  |
-| **Normative‑Status / Deontic** (e.g., *Requirement*, *Standard*)         |             ✗             |            **✓**            | Source of obligations; Work is checked **against** them, not enacted by them.                                                  |
+A human reviewer or review service can hold `ReviewerRole` in a review context. The review report produced by that work is an episteme.
 
-**Invariant — RA‑3 (eligibility)** *(restated)*: RoleAssignments are ill‑formed if they violate this matrix. A Context may **tighten** (e.g., “Approver must be human”), never loosen.
+Later, another team may use the report as evidence for a claim. That later relation is evidence-use around the report. The report does not hold `ReviewerRole`; the reviewer holder did.
 
-**Conformance checks (easy to remember).**
+#### A.2.1:5.4 - Standard Used in Safety Work
 
-* **CC‑ELIG‑1.** If `role.family ∈ {Agential, Transformer, Observer, Speech}`, then `holder : U.System`.
-* **CC‑ELIG‑2.** If `role.family ∈ {Epistemic‑Status, Normative‑Status, Service‑Governance}`, then `holder : U.Episteme`.
-* **CC‑ELIG‑3.** No “role of a role”: `role` is bound to a **holder**, not to another role or assignment.
+The source sentence "ISO 26262 has the normative standard role in this safety case" is repaired as a standard-use or requirement-use relation around an episteme. If a safety engineer performs work using that standard, the engineer or engineering team may hold a work-facing role assignment. The standard constrains, defines, or supplies source material; it does not perform work and does not become a holder in `U.RoleAssignment`.
 
-#### A.2.1:4.7 - Role algebra within a single Context (meaning relations)
+### A.2.1:6 - Bias Annotation
 
-Role algebra
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Semio-bias | The pattern starts talking mainly about reports, standards, records, cards, and publication forms. | Keep `U.RoleAssignment` as the primary EntityOfConcern. Treat descriptions and publications as neighboring epistemes. |
+| Episteme-as-agent drift | A standard, report, dataset, proof, or model card is treated as if it performed work. | Use direct evidence-use, source-use, status-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, gate-use, or decision-use relations. |
+| Slot-role drift | Holder, role value, context, window, justification, or provenance words become untyped fields. | Use `A.6.5` SlotSpec discipline and keep the filled values under their governing patterns. |
+| Work-admission shortcut | A role assignment is treated as permission, gate passage, capability, or completed work. | Recover the direct work-admission, gate, capability, method, plan, or work claim before acting. |
+| Notation bias | `Holder#Role:Context@Window` is treated as the ontology. | Use the notation only after the assignment relation and core slots are recoverable. |
 
-The in‑Context role algebra relates **role types** inside **one** `U.BoundedContext`. It is **not** mereology. Its operators (`≤`, `⊥`, `⊗`) is specified normatively in **A.2.7 `U.RoleAlgebra`**.
+### A.2.1:7 - Conformance Checklist
 
-A.2.1 relies on it for (i) `requiredRoles` substitution checks (`≤`), (ii) separation‑of‑duties validation (`⊥`), and (iii) conjunctive bundles (`⊗`), but does not restate the operator semantics here.
-
-#### A.2.1:4.8 - Time & state transition calculus (windows, RSG, enactability)
-
-**Assignments authorize**, **enactments happen** — in time. RSG governs the **role’s** state transitions; `window` governs the **binding’s** validity.
-
-##### A.2.1:4.8.1 - Windows and overlap
-
-* **Window form:** `@t_start..t_end` (ends may be open).
-* **RE‑2 (temporal fit)** *(restated)*: `work.window` lies within (or overlaps appropriately with) `assignment.window`.
-* **Handover pattern:** Close `A#Role@..t` and open `B#Role@t..` — history is preserved by closing windows rather than deletion.
-* **(Conformance hook.)** See **CC‑WIN‑1**: preserve history by closing windows rather than erasing RoleAssignments.
-
-##### A.2.1:4.8.2 - RSG gating of enactment
-
-Each Role’s **RoleDescription/RoleSpec** defines an **RSG** with named states; some states are **enactable**.
-
-* **Delegation.** Normative author‑facing requirements for `U.RoleStateGraph` structure (including enactability marking and per‑state checklists) and the shape of `StateAssertion` evidence are defined in **A.2.5**; A.2.1 only relies on the resulting enactment gate.
-* **Invariant RE‑5 (RSG gate).** A `U.RoleEnactment` is valid **iff** at enactment time the `U.RoleAssignment` can be supported by a **valid StateAssertion** that the holder is in an **enactable** state of the Role’s RSG **in this Context**.
-* **(A.2.5 hook.)** The Role’s `U.RoleStateGraph` (A.2.5) identifies enactable states and attaches a Conformance Checklist to each state; checklist verdicts can be recorded as `StateAssertion`s (see SCR‑A2.5‑S02/S03).
-* **Example.** *SurgeonRole* states: *Eligible → Authorized → Active → Suspended → Revoked*. Only **Active** is enactable. A pre‑op checklist produces `StateAssertion(SurgeonRole, Active)`.
-
-**Practical reading.** *Badge valid* (window) ∧ *state is right* (RSG) ⇒ you may act.
-
-##### A.2.1:4.8.3 - Suspensions, revocations, probation
-
-* **Suspend:** transition to a **non‑enactable** state (e.g., *Suspended*). Keep the assignment’s window open; enactment is blocked by **RE‑5**.
-* **Revoke:** either (a) close the window, or (b) transition to *Revoked* (non‑enactable).
-* **Probation:** a dedicated RSG state with limited enactability (e.g., only under supervision, modelled as an extra required role on Method steps).
-* **Discipline (A.2.5).** RSG transitions are explicit; no implicit “back to Active”.
-
-##### A.2.1:4.8.4 - Typical temporal patterns (didactic)
-
-* **Shift rotation.** `A#Role@08:00..16:00`, `B#Role@16:00..24:00` — clean handover, no `⊥` issues.
-* **Shadowing.** `Trainee#Role@..` + `Mentor#SupervisorRole@..`; Method steps require **both** roles.
-* **Emergency bundle.** `SoloOperator := Incision ⊗ Hemostasis ⊗ Suturing`; activate only under declared emergency (Context‑level policy).
-
-#### A.2.1:4.9 - Integration with A.15 (Role–Method–Work alignment)
-
-> **One line.** A `U.MethodDescription` names the roles it needs; a `U.Work` cites the concrete `U.RoleAssignment` that enacted the step; the RSG state + window gates that enactment.
-
-##### A.2.1:4.9.1 - Design‑time Standard (inside `U.MethodDescription`)
-
-For every **MethodStep**:
-
-* **`requiredRoles`** — a list of `U.Role` **from the same Context as the step**.
-  *Example.* In `Hospital.OR_2025`, step “Make incision” has `requires: [IncisionOperatorRole]`.
-* Role algebra in‑Context applies: if the Context defines `IncisionOperatorRole ≤ SurgeonRole`, then `requires: [SurgeonRole]` also admits holders of `IncisionOperatorRole`.
-* **Separation of concerns.** Capability checks (does the holder *can*?) belong to `U.Capability` and resource limits; **authorization** belongs to `U.RoleAssignment` + RSG.
-
-##### A.2.1:4.9.2 - Run‑time check (inside `U.Work`)
-
-A `U.Work` record provides (or allows derivation of) the fields needed to satisfy **CC‑ENACT‑1..3**:
-
-* **`performedBy` =** a concrete **`U.RoleAssignment`** (not just a person/system name).
-* **Window gate.** The Work timestamp falls inside the assignment’s `@Window`.
-* **State gate.** At that timestamp, an **enactable** state for the assignment is proven by a **`StateAssertion`** (the checklist verdict for a named RSG state).
-* **Role algebra gate.** The assignment’s `role` is either one of `requiredRoles` or a **specialization (`≤`)** thereof; bundles (`⊗`) expand to conjunctions; incompatibilities (`⊥`) forbid overlaps on the same holder.
-
-##### A.2.1:4.9.3 - Evaluation & acceptance (link to services & deontics)
-
-* **Observation.** The Work produces `U.Observation`(s).
-* **Evaluation.** A `U.Evaluation` compares Observations with **AcceptanceClause**(s) referenced by a **promise content clause** (`U.PromiseContent`) or a **RequirementRole**.
-* **SoD hook.** If the step or evaluation demands independence (e.g., “not performed by its reviewer”), enforce via `⊥` between `PerformerRole` and `ReviewerRole` **in the same Context**.
-
-##### A.2.1:4.9.4 - Planning & scheduling (design‑time “who will enact”)
-
-* **`U.WorkPlan`** (aka “WorkDescription” in prose) binds forthcoming steps to **candidate RoleAssignments** and time windows.
-* **Checks before the fact.** Validate windows (no gaps/overlaps where disallowed), enforce `⊥`, ensure expected RSG state will be **enactable** at scheduled time (or flag a pre‑flight checklist).
-
-> **Didactic cue.** Think **“Step asks for badges; Run cites a badge; Badge must be valid & green.”**
-> (Badge = RoleAssignment; valid = window; green = RSG state with a fresh StateAssertion.)
-
-#### A.2.1:4.10 - Cross‑Context bridges in practice (with CL penalties)
-
-Cross‑Context role substitution is **Bridge‑only** and is specified in **F.9** (with CL/waiver regimes) and **B.3** (CL‑penalty routing).
-
-A.2.1’s only rule is *no substitution by label*: any “`Role_B@B` satisfies `Role_A@A`” claim used for checking or enactment **MUST** cite an explicit Bridge (direction, CL, loss notes) and **MUST NOT** override in‑Context `≤`, `⊥`, or `⊗`.
-
-#### A.2.1:4.11 - Everyday pattern snippets (didactic moves)
-
-> **Use these micro‑moves to think and speak cleanly; no tooling required.**
-
-1. **“Who can do this step?”**
-   On a `MethodStep`, write `requires: [RoleX]`. In your head, expand: “Any `performedBy` whose `role ≤ RoleX`, with a **valid window** and **enactable RSG state**.”
-   *Example:* `requires: [SurgeonRole]` and `IncisionOperatorRole ≤ SurgeonRole` ⇒ `Dr.Kim#IncisionOperatorRole:Hospital.OR_2025` is admissible **iff** Active.
-
-2. **Handover without history loss.**
-   Close one window, open another. Never delete.
-   `Alex#IncidentCommander:SRE_Prod@08:00..12:00`
-   `Riya#IncidentCommander:SRE_Prod@12:00..20:00`
-
-3. **Independence by construction (SoD).**
-   Declare `Developer ⊥ IndependentAuditor`. Then it’s **impossible** (by validation) to have overlapping windows on one holder for both roles.
-
-4. **Supervision as bundle.**
-   Model apprenticeship by requiring `Trainee ⊗ Supervisor` on sensitive steps, or by RSG state **Probation** that flips `enactable` only if `SupervisorRole` is also present.
-
-5. **Same badge name in two Contexts.**
-   `LeadEngineer:ProjectPhoenix` ≠ `LeadEngineer:DivisionR&D`. If you must relate, create a **Bridge** with CL & loss notes; never rely on the name.
-
-6. **Documents don’t act; they frame.**
-   Replace “the SOP executed X” with: `SOP_v4#RequirementRole:SafetyCase` and a `SpeechAct` “approve run” by `QA_Officer#AuthorizerRole:Plant_2025`.
-
-7. **Window + state ⇒ permission.**
-   Quick mental check: *badge valid?* (window) ∧ *state OK?* (RSG) ⇒ **go**; else **no‑go**.
-
-8. **Communicative enactment (approval)**
-`CAB_Chair#ApproverRole:ChangeControl@2026-05-01T10:05` performs a SpeechAct Work “Approve Change-4711”. Effect: moves ApproverRole’s RSG state from Authorized?→Approved and
-   opens the Green‑Gate for the operational step “Deploy Change-4711” (performed by a different RoleAssignment).
-
-### A.2.1:5 - Archetypal Grounding (three disparate arenas)
-
-**Goal.** Show that the same assignment **`Holder#Role:Context@Window`**, plus **RCS** (Role-Characterisation Space) and **RSG** (Role-State Graph), works uniformly for **operational systems**, **software/service operations**, and **knowledge governance**.
-
-Natural systems note. Spontaneous physical phenomena (e.g., Moon orbiting Earth) are modeled as `U.Dynamics`, not as `U.Work`. An observational RoleAssignment like `Moon#SatelliteRole:IAU_2006` is valid classification but does not imply enactment of a method.
-
-#### A.2.1:5.1 - Industrial operations (welding cell)
-
-**Role (family).** `WelderRole` *(Transformer)*
-\**RCS (illustrative characteristics).*
-
-* `ProcessClass ∈ {MIG, TIG, Spot}`
-* `QualifiedMaterial ∈ {Al, SS, Ti, …}`
-* `MaxCurrentAmp ∈ ℝ⁺`
-* `SafetyProfile ∈ {Standard, HotWork, ConfinedSpace}`
-
-**RSG (named states).**
-`Unqualified → Qualified → Authorized → Active → Suspended → Revoked`
-(*enactable*: **Active** only)
-
-**Assignments.**
-
-* `Robot_SN789#WelderRole:AssemblyLine_2025@2025‑02‑01..open`
-* `Robot_SN790#WelderRole:AssemblyLine_2025@2025‑02‑01..open`
-
-**StateAssertions (via checklists).**
-
-* `StateAssertion(WelderRole, Qualified, AssemblyLine_2025, @2025‑02‑01..2026‑02‑01)` — training & test weld coupons.
-* `StateAssertion(WelderRole, Active, AssemblyLine_2025, @2025‑03‑01..open)` — daily pre‑shift checks + gas/torch inspection.
-
-**Enactment (gated by RSG).**
-A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderRole:AssemblyLine_2025` and an **Active** `StateAssertion` covers the timestamp. If the torch‑health checklist fails, RSG transitions `Active → Suspended`; further seams are blocked by **RE‑5**.
-
-#### A.2.1:5.2 - Software & cloud operations (continuous delivery / SRE)
-
-**Roles (families).**
-
-* `DeployerRole` *(Transformer)* — authorises execution of deployment Methods.
-* `IncidentCommanderRole` *(Agential/Speech)* — directs response and issues SpeechActs (declares incident states).
-
-**RCS (illustrative).**
-
-* `DeployerRole`: `Env ∈ {staging, prod}`, `ChangeWindow`, `RollbackAuthority ∈ {self, peer, CAB}`.
-* `IncidentCommanderRole`: `OnCallTier ∈ {L1,L2,L3}`, `ServiceScope`, `PageDuty ∈ {primary, secondary}`.
-
-**RSGs (named states).**
-
-* `DeployerRole`: `Eligible → Authorized → Active → Suspended` (*enactable*: **Active**).
-* `IncidentCommanderRole`: `OnCall → Engaged → Handover → Rest` (*enactable*: **Engaged**).
-
-**Assignments.**
-
-* `sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7@2025‑04‑01..open`
-* `Alex#IncidentCommanderRole:SRE_Prod@2025‑04‑10T08:00..2025‑04‑10T20:00`
-
-**StateAssertions (via checklists).**
-
-* `DeployerRole/Active`: completed change ticket, green pre‑deploy tests, peer‑review check mark.
-* `IncidentCommanderRole/Engaged`: accepted page, situational brief read, comms‑channel opened.
-
-**Enactment.**
-
-* A deployment `Work` is valid only with `performedBy: sCG‑Spec_ci_bot#DeployerRole:CD_Pipeline_v7` **and** `Active` state asserted for the moment of start.
-* Declaring `Incident SEV‑1` is a **SpeechAct Work** performed by `Alex#IncidentCommanderRole:SRE_Prod` in **Engaged** state; it changes deontic conditions (e.g., elevates `RollbackAuthority`).
-
-#### A.2.1:5.3 - Knowledge governance (standards & requirements)
-
-**Roles (families).**
-
-* `NormativeStandardRole` *(Normative‑Status Episteme)* — a document that is *the* standard **in this Context**.
-* `RequirementRole` *(Deontic‑Status Episteme)* — a statement that **binds** behaviour in this Context.
-
-**RCS (illustrative).**
-
-* `NormativeStandardRole`: `Scope`, `Edition`, `ApplicabilityWindow`.
-* `RequirementRole`: `BindingClass ∈ {shall, should, may}`, `TargetRole`, `AcceptanceClauseRef`.
-
-**RSGs (named states).**
-
-* `NormativeStandardRole`: `Proposed → Adopted → Effective → Superseded` (*enactable*: N/A — Episteme roles are **non‑enactable**; they gate others).
-* `RequirementRole`: `Draft → Approved → Effective → Retired` (non‑enactable).
-
-**Assignments.**
-
-* `ISO_26262_ed2.pdf#NormativeStandardRole:AutoSafetyCase_2025@2025‑01‑01..open`
-* `REQ‑BRAKE‑001.md#RequirementRole:AutoSafetyCase_2025@2025‑03‑05..open`
-
-**Effects (gating, not acting).**
-
-* A system’s **Work** (e.g., HIL test run) is **evaluated** against clauses referenced by `RequirementRole`.
-* An **Approval SpeechAct** (by a CAB chair who is a `U.System`) may transition `RequirementRole: Draft → Approved`. The Episteme does not “act”; **Systems** act, **Epistemes** hold status.
-
-### A.2.1:6 - Bias-Annotation
-
-Lenses tested: **Arch**, **Onto/Epist**, **Socio‑tech**, **Prag**, **Did**. Scope: **Kernel** (A‑cluster).
-
-* **Architecture bias (Arch):** treating roles/assignments as structural parts can smuggle function into mereology and break holarchies.
-  *Mitigation:* keep roles out of BoM/structure trees; close windows instead of deleting history.
-
-* **Onto/Epist bias (Onto/Epist):** anthropomorphising epistemes collapses evidence into agency (“the SOP approved”).
-  *Mitigation:* only Systems enact Work; Epistemes may justify, constrain, and gate; enforce RE‑1 and CC‑SD‑2.
-
-* **Socio‑technical bias (Socio‑tech):** role eligibility rules can silently encode exclusion, power asymmetries, or discrimination (e.g., “Approver must be X” with no rationale).
-  *Mitigation:* keep eligibility refinements explicit in the Context, recorded as Episteme policy, and review them under D.2/D.* ethics patterns; prefer capability/competence evidence over demographic proxies.
-
-* **Pragmatic bias (Prag):** over‑localising role labels can fragment reuse and create naming drift.
-  *Mitigation:* require explicit `:Context` binding and explicit Bridges with CL/loss notes instead of silent equivalence.
-
-* **Didactic bias (Did):** metaphors (“badge”, “mask”, “green gate”) may be misread as informal or security‑only.
-  *Mitigation:* bind obligations to the Conformance Checklist; keep metaphors as mnemonic only.
-
-### A.2.1:7 - Conformance Checklist (normative)
-
-#### A.2.1:7.1 - SCR (compact, memorable)
-
-> **Pass these and your RoleAssignments are sound.**
-
-**Anchoring & locality**
-
-1. **CC‑CTX‑1.** A conformant model/record **MUST** ensure that every RoleAssignment’s `role` names a role defined in the same `U.BoundedContext` as that assignment.
-2. **CC‑CTX‑2.** Authors and validators **MUST NOT** assume cross‑Context equivalence by label; any cross‑Context relation used for substitution or checking **MUST** be represented only in **Bridges** (F.9).
-
-**Eligibility & families**
-3\. **CC‑ELIG‑1.** Validators **MUST** reject any RoleAssignment record where `role.family ∈ {Agential, Transformer, Observer, Speech}` but `holder :̸ U.System`.
-4\. **CC‑ELIG‑2.** Validators **MUST** reject any RoleAssignment record where `role.family ∈ {Epistemic‑Status, Normative‑Status, Service‑Governance}` but `holder :̸ U.Episteme`.
-5\. **CC‑ELIG‑3.** Validators **MUST** reject any RoleAssignment record whose `holder ∈ {U.Role, U.RoleAssignment}` (no badge‑of‑badge chains).
-
-**Role algebra (in‑Context)**
-See **A.2.7 `U.RoleAlgebra`** (CC‑ALG‑1, 2, 3).
-
-**Time & gating**
-9\. **CC‑WIN‑1.** Record‑keeping systems and models **MUST NOT** delete historic RoleAssignment records; they close windows instead. If `window` is absent, the record **MUST** retain a traceable assignment start time (e.g., via a `U.RoleAssigning` SpeechAct Work or other evidence).
-10\. **CC‑ENACT‑1.** Conformant Work records **MUST** cite `performedBy = some U.RoleAssignment`; validators **MUST** be able to check that the Work interval fits the assignment window (or that an open‑ended window contains it).
-11\. **CC‑ENACT‑2.** At the Work time, validators **MUST** be able to (a) locate/derive a **StateAssertion** supporting an **enactable** RSG state for the cited assignment, and (b) verify that the assignment’s `role` satisfies the executed MethodStep’s `requiredRoles` in that **same Context** (directly or via `≤`; `⊗` expands to conjunctions).
-12\. **CC‑ENACT‑3.** Runtime gates and validators **MUST** block enactment while the assignment lacks a supporting **StateAssertion** for an enactable state (e.g., during **Suspended**).
-
-**Strict distinction & category hygiene**
-13\. **CC‑SD‑1.** Models and tools **MUST NOT** place Roles into BoM/structure trees; roles do not participate in mereology.
-14\. **CC‑SD‑2.** Models and tools **MUST NOT** treat Epistemes as Work actors; validators **MUST** enforce **RE‑1** (`by.holder : U.System`).
-
-**Lexical hygiene**
-15\. **CC‑LX‑1.** Authors **MUST NOT** use *appointment* as a synonym for *Role Assignment* in normative clauses.
-
-**Traceability**
-16\. **CC‑TRC‑1.** From any `U.Work`, reviewers **MUST** be able to trace **performedBy → RoleAssignment → Role → (RCS,RSG) → Context** and retrieve supporting **StateAssertion** evidence.
-
-#### A.2.1:7.2 - RSCR (regression harness)
-
-> **Run these mental “diff checks” whenever you change roles, contexts, or states.**
-
-**RSG & gating**
-
-* **RSCR‑RSG‑E01.** After editing an RSG, verify that each enactable state still has a live **Conformance Checklist** and that historic **StateAssertions** remain interpretable (no silent renames).
-* **RSCR‑RSG‑E02.** If a state flips *enactable⇄non‑enactable*, re‑evaluate pending or recurring `U.Work` plans (no hidden authorisations).
-
-**SoD & windows**
-
-* **RSCR‑SOD‑E01.** On adding `⊥` constraints, scan for overlapping assignments that newly violate SoD; schedule revocations or rescheduling.
-* **RSCR‑SOD‑E02.** On removing `⊥`, confirm that governance rationale is recorded elsewhere (policy change Episteme).
-
-**Context churn**
-
-* **RSCR‑CTX‑E01.** When a Context edition updates, freeze prior RoleAssignments; create **new** assignments in the new Context rather than mutating old ones.
-* **RSCR‑CTX‑E02.** Bridges referencing affected roles are reviewed for CL/loss adjustments.
-
-**Eligibility drift**
-
-* **RSCR‑ELIG‑E01.** If a role family changes (e.g., reclassifying *Offerer* from behavioral to status), audit all assignments for holder‑type violations.
-
-**Trace continuity**
-
-* **RSCR‑TRC‑E01.** Spot‑check that `U.Work → RoleAssignment → StateAssertion` chains still resolve after refactors.
-* **RSCR‑TRC‑E02.** Randomly sample old incidents/runs to ensure reproducible authorisation verdicts.
-
-**Name stability**
-
-* **RSCR‑NAME‑E01.** If a role label changes, maintain the **role identity**; treat renamed labels as aliases inside the same Context rather than minting a new role unless RCS/RSG changed materially.
+| ID | Check |
+| --- | --- |
+| `CC-A2.1-1` | A `U.RoleAssignment` identifies holder, role value, and bounded context. |
+| `CC-A2.1-2` | The holder is a `U.System` or acting holon admitted as system-like performer by the governing work or method pattern. |
+| `CC-A2.1-3` | No `U.Role`, `U.RoleAssignment`, or `U.Episteme` is used as holder merely because source language says "role". |
+| `CC-A2.1-4` | Any claim depending on current assignment validity names the assignment window, inherits a declared bounded-context default, or lowers or blocks the stronger claim. |
+| `CC-A2.1-5` | The assignment relation is not used as evidence of capability, selected method, planned work, performed work, gate passage, commitment, permission, or evidence-use relation. |
+| `CC-A2.1-6` | `Work.performedBy` points to a concrete `U.RoleAssignment` when work attribution depends on role holding. |
+| `CC-A2.1-7` | Any named `RoleEnactmentFact` is stated as derived over `U.Work` and `U.RoleAssignment`, not as a durable U-kind. |
+| `CC-A2.1-8` | Evidence-use and status-use of epistemes are expressed through direct evidence, status, source, publication, requirement, definition, explanation, assurance, gate, or decision relations, not through `U.RoleAssignment`. |
+| `CC-A2.1-9` | Role state and enactable-state admission are governed by `A.2.5`; role relation structure is governed by `A.2.7`; capability is governed by `A.2.2`; method and work are governed by `A.15` and A.15 subpatterns. |
+| `CC-A2.1-10` | Shorthand notation is not used unless the typed relation and any current missing-slot disposition are recoverable. |
 
 ### A.2.1:8 - Common Anti-Patterns and How to Avoid Them
 
-| #      | Anti‑pattern          | Symptom                                    | Why it’s harmful                   | FPF fix (conceptual move)                                         |
-| ------ | --------------------- | ------------------------------------------ | ---------------------------------- | ----------------------------------------------------------------- |
-| **A1** | **Global role label** | “Alice is Lead Engineer” (nowhere)         | Meaning drifts; untestable         | Always anchor to Context: `Alice#LeadEngineer:ProjectPhoenix`      |
-| **A2** | **Role as part**      | BoM lists “Cooling Function”               | Category error (structure vs role) | Keep BoM structural; model `Pump#Cooling:ThermalMgmt`              |
-| **A3** | **Document acts**     | “The SOP closed the ticket”                | Epistemes don’t enact Work         | Give the doc a status role; make a System enact the step           |
-| **A4** | **Role chains**       | “Transformer assigned to be Agent”         | Hides taxonomy; defeats checks     | Use role algebra (`≤`) and/or require both roles on the Method step |
-| **A5** | **Hidden state**      | Acting while *Authorized? Active?* unclear | Safety & audit gaps                | Use RSG with StateAssertions gating enactment                      |
-| **A6** | **Edition blur**      | Context “ITIL” with no version             | Sense slippage                     | Context card must carry edition (E.10.D1/F.1)                      |
-| **A7** | **Bridge‑by‑name**    | Equating roles across Contexts by label    | Cross‑context drift                | Use F.9 Bridge with CL & loss notes                                |
+| Anti-pattern | Why it fails | Repair |
+| --- | --- | --- |
+| Contextless assignment: "Alice is reviewer" | No bounded context, role identity, or assignment window is recoverable. | Recover `Alice#ReviewerRole:ReviewContext` and state window disposition when current. |
+| Episteme as holder: "The report has EvidenceRole" | The report is being used in an evidence relation, not holding a work-facing role. | Use evidence-use relation with target claim, scope, polarity, and relevance window when current. |
+| Assignment as capability | The role assignment is treated as evidence that the holder can perform the work. | Use `A.2.2` for capability and connect capability evidence only when the claim depends on it. |
+| Assignment as work | The assignment is treated as if work already happened. | Use `A.15.1` for dated work and cite `performedBy = RoleAssignment`. |
+| `U.RoleEnactment` as root object | A derived performed-by fact becomes a second run-time ontology. | Use `RoleEnactmentFact` only as a named fact over work and assignment, or write direct `Work.performedBy` relation. |
+| Window omitted in a time-sensitive claim | Currentness is assumed by silence. | Fill, inherit, mark unknown, mark not asserted, or lower the stronger claim. |
+| Evidence and status slots hidden in assignment provenance | Evidence polarity, target claim, status value, or status window is buried under assignment source. | Use direct evidence-use or status-use SlotSpecs; keep assignment provenance only for the assignment claim. |
 
 ### A.2.1:9 - Consequences
 
-**Benefits**
+`A.2.1` makes work attribution and role admission replayable. A reader can ask: who is the holder, what role value is assigned, which bounded context gives that role meaning, and which window or source is current for the claim?
 
-1. **No type explosion.** Structure stays stable; function lives in RoleAssignments with small, local lattices.
-2. **Traceable authority.** Every `U.Work` has a clean chain: **performedBy → RoleAssignment → Role → (RCS,RSG) → Context**.
-3. **Safe heterogeneity.** Different Contexts can use the same badge name differently; conflicts are dissolved by locality and explicit Bridges.
-4. **Didactic economy.** One mental form — `Holder#Role:Context@Window` — covers factories, clouds, labs, and libraries.
-5. **Strict SoD.** Incompatibilities (`⊥`) and bundles (`⊗`) are first‑class; audits become mechanical.
-6. **Assurance‑ready.** RSG + StateAssertions convert checklists into **explicit gates**; CL penalties quantify Cross‑context risk.
-7. **Temporal honesty.** Windows encode the ebb and flow of assignments without history loss.
+The benefit is compactness. FPF can keep one role-assignment relation for work-facing roles instead of multiplying role kinds for documents, standards, reports, dashboards, interfaces, method descriptions, and relation arguments.
 
-**Costs / discipline required**
+The cost is discipline. Authors must recover neighboring claims instead of putting them into assignment prose. Capability, role state, method, work plan, performed work, evidence, status, publication, assurance, gate, and decision claims each keep their governing pattern.
 
-1. **RoleDescription work.** Each Context needs a minimal RoleDescription (name, RCS, RSG, checklists).
-2. **Bridge authorship.** Cross‑context work requires explicit Bridges with CL & loss notes.
-3. **Vocabulary hygiene.** Teams must stop using context‑less role labels.
-
-#### A.2.1:9.1 - Teaching distillation (60‑second recap)
-
-> “Give every action a badge with a Context. The badge is a `U.RoleAssignment`: `Holder#Role:Context@Window`.
-> The badge is valid in time (window) and green in state (RSG + StateAssertion).
-> A Method step names the badges it needs; a Work cites the exact badge that enacted it.
-> If a badge comes from another Context, cross with a Bridge and respect its CL penalty.
-> Keep SoD with `⊥`, reuse expertise with `≤`, and require combos with `⊗`.
-> Documents don’t act — they hold status roles; only systems enact Work.
-> With this, factories, clouds, and knowledge all speak the same, small grammar.”
-
-#### A.2.1:9.2 - So what? Adoption test (1 minute)
-
-If a team claims to “use A.2.1”, a random audit sample should pass all of these in minutes:
-
-1. **Badge locality:** every role label is always read as `Role:Context` (or explicitly bridged), never as a global name.
-2. **Work attribution:** each sampled `U.Work` cites a concrete `performedBy = U.RoleAssignment`, not just a person/system string.
-3. **Window + state gate:** at the Work time, the assignment window fits and an enactable RSG `StateAssertion` exists (or the run is correctly blocked/exceptioned).
-4. **No badge‑of‑badge:** no assignment ever binds a `U.Role` or `U.RoleAssignment` as its holder.
-5. **Status hygiene:** no Episteme (Standard/Requirement/Evidence) is ever an actor of Work; it only gates/justifies/evaluates.
+Reopen `A.2.1` only when the core assignment relation changes: admitted holder kinds, SlotSpecs, assignment-currentness discipline, direct work-role qualifiers, or the treatment of `RoleEnactmentFact`. Reopen neighboring patterns when the dispute is about capability, role state, method, work, evidence, status, source, publication, assurance, gate, or decision use.
 
 ### A.2.1:10 - Rationale
 
-* **Strict Distinction (A.7).** Keeps **identity** (Holon) separate from **assignment** (RoleAssignment), **behaviour** (Method/Work), and **knowledge** (Episteme).
-* **Ontological Parsimony (A.11).** One universal binding, three tiny in‑Context relations (`≤, ⊥, ⊗`), no global role types.
-* **Universal core (A.8).** The same mechanism works across systems (machines, software, teams) and epistemes (standards, requirements), demonstrated in §5.
-* **Lexical discipline (E.10.D1 & E.10.D2).** Roles are **context‑local**; descriptions (RCS, RSG) are **descriptions of intensional roles**, not the roles themselves.
-* **Assurance posture.** Windows + RSG + StateAssertions make authorisation explicit and reviewable; Bridges + CL make cross‑Context reuse explicit and risk‑graded (B.3).
+The role `ontologicalNeighborhood` needs both role values and assignment relations. `A.2` keeps `U.Role` as a compact context-bound value. `A.2.1` gives that value a typed relation to a holder and context. `A.15` then lets work cite the assignment.
 
-### A.2.1:11 - SoTA-Echoing (notes)
+The selected ontology prevents two common explosions. First, it prevents every context-local role from becoming a system subtype. Second, it prevents every evidence or status use of an episteme from becoming another role assignment.
 
-| Topic this pattern leans on | Post‑2015 anchor (example) | How A.2.1 uses it | Status |
-| --- | --- | --- | --- |
-| Context‑local meaning boundaries | Vernon (2016) *DDD Distilled*; Newman (2021) *Building Microservices* | `role ∈ Roles(context)`; no equivalence by label; cross‑Context reuse via Bridges | Adopt/Adapt |
-| Roles as context‑dependent (anti‑rigid) types | Guizzardi et al. (2018–2022) work on roles in OntoUML/UFO | Separates holder identity from contextual function; prevents type explosion | Adopt |
-| Separation of duties & traceable responsibility | NIST SP 800‑53 Rev. 5 (2020); ISO/IEC 27001:2022 | `⊥` incompatibilities; auditable windows; reviewer independence hooks | Adopt |
-| Continuous authorisation / policy enforcement | NIST SP 800‑207 (2020) Zero Trust Architecture | Window + RSG state as explicit gates; “green gate” as a checkable condition | Adapt |
-| Checklist‑based state progression | OMG Essence 1.2 (2019) | RSG states with explicit checklists and StateAssertions | Adapt |
-| Requirements and standards as first-class normative epistemes | ISO/IEC/IEEE 29148:2018; ISO 26262:2018 | Epistemes hold Normative-Status/Requirement roles; Systems act; Work is evaluated against them | Adopt |
+The open-world slot model is deliberate. FPF should not require dummy windows or provenance entries for low-risk recognition text. It should also not permit stronger claims to rely on missing windows, missing role-state admission, or missing assignment source. The slot is considered when the claim needs it.
+
+### A.2.1:11 - SoTA-Echoing
+
+| Practice line | Current source line | FPF adoption |
+| --- | --- | --- |
+| OntoUML and UFO role modeling treat roles as context-dependent classifications rather than intrinsic substance kinds. | UFO and OntoUML work through the 2020s, including the 2026 gUFO line, keeps role-like and relation-like structures explicit rather than turning every slot filling, relation position, or use relation into a new object kind. | Adopt the holder-role separation: the same holder can bear different roles in different contexts without becoming a new system kind. |
+| Bounded-context practice in domain-driven design and distributed-system architecture treats names as local to a context and requires explicit translation across boundaries. | Modern DDD and microservice architecture practice keeps role names local to a model boundary and treats cross-boundary sameness as a bridge, not as label equality. | Adopt context-local role meaning and require bridges or direct context relations for cross-context role reuse. |
+| Modern identity, access-management, zero-trust, and policy-as-code practice separates subject, role or attribute relation, policy decision, and resource action. | NIST SP 800-207 (2020) separates authentication and authorization functions before resource access; NIST SP 800-53 Rev. 5 and its 2025 update expose control, assessment, authorization, and control-currentness material explicitly. | Adapt this separation: `U.RoleAssignment` is not capability, permission, gate passage, policy decision, or performed work; those claims stay in direct neighboring patterns. |
+| Safety, quality, and security assurance practice uses traceable responsibility and separation-of-duties checks rather than role labels alone. | Current security and assurance control practice keeps accountability, assessment, authorization, and monitoring as checkable relations over systems and records rather than as names alone. | Adopt the replay chain from work occurrence to role assignment, role value, context, role-state admission, and evidence when current. |
+| Provenance and evidence graph practice separates the work that produced a report from later evidence-use of the report. | Contemporary provenance and evidence-graph practice distinguishes event or work occurrence, produced episteme, and later evidence or assurance use. | Adopt the episteme boundary: reports, standards, datasets, and model cards participate through evidence, status, source, publication, requirement, or assurance relations, not as role-assignment holders. |
 
 ### A.2.1:12 - Relations
 
-**Builds on / depends on**
+**Builds on.**
 
-* **A.1 Holonic Foundation** — `U.Holon` (holders).
-* **A.1.1 `U.BoundedContext`** — the Context of meaning.
-* **A.2 Role Taxonomy** — role kinds for Systems vs Epistemes; context‑local naming.
-* **A.2.7 `U.RoleAlgebra`** — in‑Context `≤/⊥/⊗` relations used for substitution, SoD, and bundles.
-* **E.10.D1 (D.CTX)** & **E.10.D2 (Strict Distinction of intensional vs description)** — locality & description discipline.
+- `A.1` and `A.1.1` for holons, systems, and bounded contexts.
+- `A.2` for `U.Role` identity, taxonomy, and role relation-neighborhood.
+- `A.6.5` for SlotSpec discipline.
 
-**Enables / instantiated by**
+**Coordinates with.**
 
-* **A.15 Role–Method–Work Alignment** — step gating, performer linking, evaluation hooks.
-* **B.1 Γ‑algebra** — constructors/observers are simply roles enacted by systems.
-* **B.3 Trust & Assurance Calculus** — CL penalties on Bridges; evidence from StateAssertions.
-* **D.2 Multi‑Scale Ethics** — duties attach to roles; SoD encoded via `⊥`.
-* **F‑cluster (Unification Method)** — Context definitions (F.1–F.4) and Bridges (F.9) consumed here.
+- `A.2.2` for capability.
+- `A.2.5` for role state, role-state relation, role characterization, and enactable-state admission.
+- `A.2.7` for context-local role relation structure.
+- `A.15`, `A.15.1`, and `A.15.2` for method, work plan, work occurrence, and performed-by relation.
+- `A.3.1` and `A.3.2` for method and method-description required-role relations.
+- `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, and `E.10.D2` for evidence-use, status-use, source-use, publication-use, assurance, causal-use, and description-boundary cases that older text tried to express as episteme roles.
 
-**Interacts with**
+**Does not replace.**
 
-* **C.\* Patterns** (Sys‑CAL, KD‑CAL, Method‑CAL, CHR‑CAL) — enactment hooks, measurement via Observations.
-* **Service & Deontics (Part D/E)** — obligations and acceptance evaluated against role‑gated Work.
+- `U.Work`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Capability`, evidence relations, status assertions, gate decisions, commitments, permissions, or publication forms.
+- `A.6.5` relation-slot discipline. A.2.1 uses it for this assignment relation; it does not become a second slot discipline.
 
 ### A.2.1:End
 

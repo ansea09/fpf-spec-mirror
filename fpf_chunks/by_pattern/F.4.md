@@ -1,34 +1,38 @@
 ---
 chunk_kind: "parent"
 pattern_id: "F.4"
-pattern_title: "Role Description (RCS + RoleStateGraph + Checklists)"
+pattern_title: "Role Description - Description Episteme for U.Role"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.4 — Role Description (RCS + RoleStateGraph + Checklists)"
-line_start: 73150
-line_end: 73497
+  - "F.4 — Role Description - Description Episteme for U.Role"
+line_start: 72824
+line_end: 73157
 dependencies:
-  - "A.11"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2"
   - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.6.5"
   - "A.7"
-  - "B.3"
-  - "D.CTX"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
-  - "F.1"
-  - "F.2"
+  - "E.24"
+  - "F.10"
+  - "F.14"
+  - "F.15"
+  - "F.18"
   - "F.3"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.RoleAssignment"
-  - "U.Types"
 keywords:
   - "Role Characterisation Space (RCS)"
   - "RoleStateGraph (RSG)"
@@ -37,351 +41,337 @@ keywords:
   - "status template"
 ---
 
-## F.4 - Role Description (RCS + RoleStateGraph + Checklists)
+## F.4 - Role Description - Description Episteme for U.Role
 
-**“Name the mask or the badge — and say what it commits to — but only inside a Context.”**
-**Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 EntityOfConcern, Description Episteme, and Specification-Use Discipline**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering**; A.2.1 **`U.RoleAssignment`**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
-**Coordinates with.** F.5 **Naming Discipline for U.Types & Roles**; F.7 **Concept‑Set Table**; F.9 **Alignment & Bridge Across Contexts**; B.3 **Trust & Assurance Calculus** (for later status evaluation).
-**Aliases (informative).** *Mask/Badge card*; *role card* (plain only).
+> **Type:** Definitional (D)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 
-### F.4:1 - Intent & applicability
+### F.4:0 - Use This When
 
-**Intent.** Provide a **conceptual template** for two kinds of assignables:
+**Plain name.** Role-description episteme.
 
-* **Role Template** — a **behavioural mask** that a holder can wear **in a specific Context** (U.BoundedContext), shaping how it **acts** (via Method/Execution relations).
-* **Status Template** — an **epistemic or deontic badge** that a holder (or artefact, event, claim) can **bear** inside a Context, shaping how it is **treated** (evaluation, permission, standing).
+Use this pattern when a project needs a short, reusable description that makes one work-facing `U.Role` recognizable, teachable, and checkable inside one `U.BoundedContext`.
 
-Each template is **grounded in a SenseCell** `⟨Context, Local‑Sense⟩` from F.3 and declares **minimal invariants** that later **assignments** must satisfy. No Cross‑context meaning is imported here.
+Typical moments:
 
-**Applicability.** Whenever you need to **speak precisely** about what it means to be *a Participant (BPMN)*, *hold an access‑role (RBAC)*, *be an Incident (ITIL)*, or *carry a Verified status (evidence line)*, before minting U.Types or drawing Cross‑context bridges.
+- a project has a role name such as `ReviewerRole`, `OperatorRole`, `InspectorRole`, `TransformerRole`, `ShipyardCoordinatorRole`, or `ModelCardReviewerRole`, but the bounded context, admissible holder kind, role invariants, capability expectations, or work-facing boundary are unclear;
+- a method description names required roles, but readers cannot tell what role value is required before a `U.RoleAssignment` can be checked;
+- a role name is starting to carry method, capability, work, permission, evidence, publication, or status claims that belong to neighboring patterns;
+- a former source phrase says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a "role" and the text must decide whether that phrase is a real work-facing role description or a direct episteme-use relation.
 
-**Non‑goals.** No workflows, no storage, no editors. No equations for assurance or control; those live in Part B/C. This pattern describes **how to think and speak** about assignables — not how to manage files.
+**Primary EntityOfConcern.** The EntityOfConcern is the role-description episteme: a `U.Episteme` that describes one `U.Role` value in one bounded context. It is not the role value itself, not the holder, not a role assignment, not a capability, not a method description, not performed work, not a status-use relation, and not a publication form.
 
-### F.4:2 - Problem frame
+**Primary working reader.** The first reader is an engineer-manager, analyst, method author, or pattern author who must let people recognize a role while keeping role value, holder, assignment, capability, method, work, evidence use, status use, and publication use distinct.
 
-Without explicit Role Descriptions:
+**First useful move.** Name the role value being described, the bounded context that gives it meaning, the kind of holder admitted for role assignment, and the smallest set of role invariants that matters for the next assignment, method, work, naming, or bridge claim.
 
-1. **Role/status conflation.** Access **role** (RBAC) treated as behavioural **mask** (BPMN participant); deontic **duty** treated as runtime **effect**.
-2. **Context drift.** A “role” quietly starts meaning different things across canons; later assignments contradict each other.
-3. **Hidden commitments.** We name a role assignment or status assertion but never state what **must hold** when it is assigned; downstream reasoning becomes arbitrary.
-4. **Premature unification.** A single template tries to straddle several Contexts; losses remain implicit.
+**What goes wrong if missed.** A role-description card becomes a hidden method, access policy, permission badge, evidence relation, status assertion, staffing plan, or work log. Then FPF grows one role ontology for acting holons and a second role-like ontology for epistemes, publications, statuses, and relation positions.
+
+**What this buys.** A project can publish a compact, human-readable role description while keeping operational claims in their direct patterns. The role remains recognizable; the assignment remains checkable; capability, method, work, evidence, status, and publication claims stay inspectable instead of being smuggled into the role name.
+
+**Not this pattern when.**
+
+- If the current claim is the role value itself or role taxonomy, use `A.2`.
+- If the current claim is which holder bears which role in which context and window, use `A.2.1`.
+- If the current claim is role state or enactable-state admission, use `A.2.5`.
+- If the current claim is role-requirement substitution, role incompatibility, role-factor qualification, or bundle expression, use `A.2.7`.
+- If the current claim is capability, use `A.2.2`.
+- If the current claim is method, method description, work plan, or performed work, use `A.15` and its neighbors.
+- If the current claim is evidence use, status use, source use, standard use, requirement use, publication use, assurance use, gate use, or decision use of an episteme, use the direct pattern for that relation. Do not call that episteme a role holder.
+- If the current issue is only a durable name, use `F.18`.
+- If the current issue is cross-context sameness or translation, use `F.9`.
+- If "role" means a relation position, use `A.6.5` SlotSpec discipline.
+
+### F.4:1 - Problem Frame
+
+Role descriptions are useful because a role value needs a recognizable description before people can assign it, name it, compare it, or use it in a method requirement. A role such as `InspectorRole` is not self-explanatory. The project needs to know which bounded context gives it meaning, what kind of holder can bear it, which role invariants matter, and which neighboring checks may become current.
+
+The recurring failure is to make the role description carry too much. A compact card is tempting: put role, status, permission, evidence, capability, method, assignment, work, and publication cues into one "assignable" template. That looks convenient but creates duplicate ontology. A standard used as a requirement source becomes a "standard role"; a report used as evidence becomes an "evidence role"; an access-control label becomes a behavioral role; a role name becomes proof of capability or proof that work occurred.
+
+F.4 therefore treats a role description as a description episteme about a work-facing `U.Role`. It may mention neighboring relations, but it does not absorb them.
+
+### F.4:2 - Problem
+
+Without this pattern:
+
+1. **Role description and role value collapse.** The description is treated as if it were the `U.Role` value.
+2. **Role description and assignment collapse.** A role name or card is treated as proof that a holder has the role.
+3. **Role description and capability collapse.** A role name is treated as evidence that the holder can do the work.
+4. **Role description and method collapse.** Role invariants become a hidden procedure or method description.
+5. **Role description and performed work collapse.** A role card is treated as evidence that work happened.
+6. **Status and evidence uses become roles.** Epistemes, publications, standards, datasets, and claims are put into role language because they are used in project reasoning.
+7. **Relation positions become roles.** Slot positions in signatures, interfaces, evidence relations, or status-use relations are called roles.
+8. **Cross-context labels overreach.** The same role-like word in two contexts is treated as one role description without a bridge.
 
 ### F.4:3 - Forces
 
-| Force                         | Tension to resolve                                                                                                           |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Behaviour vs knowledge**    | A role changes how the holder **acts**; a status changes how the holder is **treated/assessed**. Keep **EntityOfConcern, Description episteme, and specification-use positions** distinct (E.10.D2; A.7). |
-| **Locality vs reuse**         | We want reusable templates, yet meanings are **context‑local** (E.10.D1, F.1).                                                   |
-| **Minimality vs sufficiency** | Invariants must be **few** and **decisive**; too many become pseudo‑procedures.                                              |
-| **Didactics vs fidelity**     | A one‑screen card must be **teachable** without betraying the canon.                                                         |
+| Force | Tension |
+| --- | --- |
+| Recognition vs ontology | A role description must be easy to read, but it cannot replace the role value, assignment relation, capability, method, or work occurrence. |
+| Local meaning vs reuse | Role descriptions are context-bound, while role names may need subsequent durable naming or cross-context comparison. |
+| Compactness vs completeness | A useful card is small, but the current claim may require neighboring checks for state, capability, method, assignment, evidence, or status. |
+| Open-world use vs form burden | Some uses need only a role gloss; stronger uses need slot dispositions and neighboring references without pretending every slot is always filled. |
+| Work-facing role ontology vs episteme-use ontology | Acting holons can hold work-facing roles. Epistemes are used through evidence, status, source, publication, requirement, explanation, assurance, or gate relations. |
+
+### F.4:4 - Solution
+
+Use a role-description episteme to describe one `U.Role` in one bounded context. The description gives readers enough to recognize and check the role, while sending neighboring claims to their governing patterns.
+
+```text
+RoleDescriptionCore:
+  DescribedRoleSlot:
+  BoundedContextSlot:
+  HolderAdmissionSlot:
+  RecognitionTextSlot:
+  RoleInvariantSetSlot:
+  RoleStateRequirementRefs:
+  CapabilityRequirementRefs:
+  MethodRequirementRefs:
+  WorkUseBoundarySlot:
+  NamingRefs:
+  BridgeRefs:
+  NonRoleUseBoundarySlot:
+```
+
+This is a description episteme shape, not a new assignment relation. Its publication may be a card, table row, method appendix, standard clause, or pattern section. The publication form is not the role description by default; it publishes or carries the description episteme.
+
+#### F.4:4.1 - Core Slot Meanings
+
+| Slot | Admitted value | Meaning |
+| --- | --- | --- |
+| `DescribedRoleSlot` | `U.Role` | The role value being described. |
+| `BoundedContextSlot` | `U.BoundedContext` | The context that gives the role value local meaning. |
+| `HolderAdmissionSlot` | Holder kind or admission statement governed by `A.2` and `A.2.1` | What kind of acting holon may fill `RoleHolderSlot` in a role assignment. |
+| `RecognitionTextSlot` | Short description episteme content | The first-minute description that lets a reader recognize the role. |
+| `RoleInvariantSetSlot` | Small set of role invariants | Conditions that remain true of the role value in the bounded context. |
+| `RoleStateRequirementRefs` | `A.2.5` references when current | Role-state or enactable-state requirements. |
+| `CapabilityRequirementRefs` | `A.2.2` references when current | Ability or operating-envelope requirements; not created by the role name. |
+| `MethodRequirementRefs` | `A.15`, `A.3.1`, or `A.3.2` references when current | Method or method-description requirements linked to the role. |
+| `WorkUseBoundarySlot` | Boundary statement | What the role description does and does not say about performed work. |
+| `NamingRefs` | `F.18` or local naming references when current | Durable role-name settlement and aliases. |
+| `BridgeRefs` | `F.9` bridge references when current | Cross-context comparison or reuse of role-like senses. |
+| `NonRoleUseBoundarySlot` | Boundary statement | Directs evidence, status, source, publication, requirement, definition, explanation, assurance, gate, and slot-position uses to their patterns. |
+
+The slot list is an open-world discipline. A quick local description may fill only the role, context, recognition text, holder admission, and non-role boundary. A safety-critical work-admission use may need role-state, capability, method, assignment-window, and evidence references through neighboring patterns.
+
+#### F.4:4.2 - Role Description vs Neighboring Values
+
+Keep these distinctions:
+
+| Current claim | Governing pattern |
+| --- | --- |
+| What role value is this? | `A.2` |
+| Which holder bears the role in which context and window? | `A.2.1` |
+| Is the assignment in an admitted role state? | `A.2.5` |
+| Can the holder do the relevant work? | `A.2.2` |
+| Which method, method description, plan, or work occurrence is current? | `A.15`, `A.15.1`, `A.15.2`, `A.3.1`, `A.3.2` |
+| How do role values satisfy requirements, conflict, qualify, or bundle inside one context? | `A.2.7` |
+| What durable name should this role have? | `F.18` |
+| How do role-like senses compare across contexts? | `F.9` |
+| How is an episteme used as evidence, source, standard, requirement, status bearer, publication, or assurance input? | Direct episteme-use, evidence-use, status-use, source-use, publication-use, requirement-use, or assurance pattern |
+| Which relation position admits which filler kind? | `A.6.5` |
+
+F.4 may point to these patterns; it does not copy their ontology.
+
+#### F.4:4.3 - Positive Construction Rule
+
+Write a role description in this order:
+
+1. Name the described `U.Role` and bounded context.
+2. State the admitted holder kind for role assignment.
+3. Give one short recognition paragraph.
+4. List the role invariants that make the role different from neighboring roles.
+5. State the non-role boundary: what this description does not say about assignment, capability, method, work, evidence, status, permission, publication, or slot positions.
+6. Add neighboring references only when the current use depends on them.
+7. If the name is durable, public, cross-context, or Core-facing, settle it through `F.18`; if the sense crosses contexts, use `F.9`.
+
+### F.4:5 - Invariants
+
+1. **One described role.** A role description describes exactly one `U.Role` value in the current application.
+2. **One bounded context.** The role description is local to one `U.BoundedContext`; cross-context reuse needs `F.9`.
+3. **Description boundary.** The role description is a `U.Episteme`; it is not the role value, assignment relation, holder, capability, method, work, or status-use relation.
+4. **Work-facing holder boundary.** The holder admitted by a role assignment is a system or acting holon admitted by the governing work or method pattern. An episteme is not a role holder because it is used as evidence, source, standard, requirement, definition, explanation, status bearer, publication, or assurance input.
+5. **No hidden capability.** Capability requirements may be referenced, but the role description does not prove capability.
+6. **No hidden method.** Method requirements may be referenced, but the role description is not a method description.
+7. **No hidden work.** A role description may enable work attribution checks, but it is not evidence that work occurred.
+8. **No status-template fusion.** Status-use and evidence-use relations are direct relations, not a second branch of role description.
+9. **Slot discipline.** If a source says "role" for a relation position, recover `SlotKind`, `ValueKind`, and `RefKind` through `A.6.5`.
+10. **Name after meaning.** Durable naming follows `F.18` only after role value, context, and local sense are recovered.
+
+### F.4:6 - Reasoning Primitives
+
+Use these judgement schemas as thinking checks.
+
+```text
+RoleDescription RD describes Role R in Context C
+  -> RD is a description episteme about R, not R itself.
+```
 
-### F.4:4 - Minimal vocabulary (this pattern only)
+```text
+RoleDescription RD admits holder kind HK for Role R
+  -> A RoleAssignment may use a holder of HK only if A.2.1 and neighboring checks admit it.
+```
 
-* **Context** — **U.BoundedContext** (per E.10.D1).
-* **Local‑Sense** — a consolidated sense in a Context (F.3).
-* **SenseCell** — the address `⟨Context, Local‑Sense⟩`.
-* **Role Template** — behavioural mask defined **in** a Context, later bound by **`U.RoleAssignment`**.
-* **Status Template** — epistemic/deontic badge defined **in** a Context, later asserted as a **claim** about a holder/artefact.
-* **Holder** — the thing that may wear a mask or carry a badge (e.g., a **U.System**, **U.MethodDescription**, **U.Work**, **U.Episteme**).
+```text
+RoleDescription RD lists capability requirement CapReq
+  -> capability claim is governed by A.2.2, not by RD.
+```
 
-### F.4:5 - Core idea (didactic)
+```text
+RoleDescription RD lists method requirement MReq
+  -> method or method-description claim is governed by A.15, A.3.1, or A.3.2.
+```
 
-**A Role Description is a small card that says:**
-**(i)** *which Context’s sense it relies on* (**SenseCell**),
-**(ii)** *what label we use to speak about it* (Tech & Plain), and
-**(iii)** *what must hold* when someone **wears** the mask (Role) or **bears** the badge (Status).
+```text
+Source says "X has role Y" and X is an episteme
+  -> recover direct episteme-use relation before considering U.Role.
+```
 
-It is **not** a definition by prose alone; it is a **pledge of invariants** — minimal, Context‑true, and later checkable.
+### F.4:7 - Worked Cases
 
-### F.4:6 - The Role Description Card (one‑screen sketch)
+#### F.4:7.1 - Pump Inspector Role
 
-> Each bullet is a **thought‑item**, not a file field.
+```text
+RoleDescription:
+  DescribedRoleSlot: PumpInspectorRole
+  BoundedContextSlot: PlantMaintenance_2026
+  HolderAdmissionSlot: maintenance technician, inspection robot, or service team admitted as acting holon by the maintenance context
+  RecognitionTextSlot: the role used for inspecting pump condition before maintenance work is admitted
+  RoleInvariantSetSlot:
+    - concerns inspection of pump condition in PlantMaintenance_2026
+    - does not perform repair work by itself
+    - requires current assignment before work attribution
+  CapabilityRequirementRefs: PumpInspectionCapability when the work claim depends on ability
+  MethodRequirementRefs: PumpInspectionMethodDescription when the work claim depends on method
+  NonRoleUseBoundarySlot: inspection report is evidence use, not a role holder
+```
 
-**Header**
+The description makes `PumpInspectorRole` recognizable. It does not say that Robot-7 holds the role, can inspect, followed the method, or performed work. Those claims go to `A.2.1`, `A.2.2`, `A.15`, and evidence patterns.
 
-* **Template kind:** **Role** | **Status**
-* **Label pair:** **Tech** (idiomatic) - **Plain** (didactic)  *(naming discipline in F.5)*
-* **SenseCell:** `⟨ContextId, Local‑Sense label⟩`
+#### F.4:7.2 - Reviewer Role and Review Report
 
-**Applicability**
+`ReviewerRole` in `PatternReview_2026` may have a role description with invariants about checking a pattern against declared scales. A review report produced by a reviewer is an episteme used as evidence or source for a pattern-quality claim. The report is not the role holder and does not hold an evidence role.
 
-* **Holder scope:** what can wear/bear it (e.g., *U.System*, *U.Work*, *U.MethodDescription*, *U.Episteme*).
-* **Time stance:** **design** / **run** aligned to the Context (F.1).
-* **Preconditions (Context‑true):** crisp conditions that must already be true in the Context’s idiom.
+Use:
 
-**Invariants (minimal)**
+- `A.2` for `ReviewerRole`;
+- `F.4` for the role-description episteme;
+- `A.2.1` for `Alice#ReviewerRole:PatternReview_2026@Window`;
+- `A.15.1` for the review work occurrence;
+- `A.10`, `B.3`, `G.6`, or a direct evidence-use pattern for the review report as evidence.
 
-* **Behavioural invariants (Role)** *or* **Evaluation invariants (Status)** — 2–5 short lines stating what **must** hold after assignment/assertion, using the Context’s vocabulary and SenseCells where needed.
-* **Separation guard:** a one‑line reminder of what this template **does not** imply (prevents senseFamily mixing).
+#### F.4:7.3 - Standard Used as Requirement Source
 
-**Consequences (informative)**
+The sentence "ISO 42010 has the architecture-standard role in this work" is unsafe if it makes the standard a role holder.
 
-* **Typical interactions:** which **Method/Execution/Observation** constructs (by SenseCell) this template usually touches — *names only*.
-* **Common misreads (trip‑wire):** 1–2 bullets to prevent known confusions.
+Repair it as:
 
-> **Memory rule:** If your card can’t be read in **under two minutes**, you are writing a manual, not a template.
+```text
+ISO/IEC/IEEE 42010 is used as a standard-use or requirement-use episteme
+for architecture-description claims in this bounded context.
+```
 
-**Autonomy hooks (when Role may act autonomously)**
-* **RCS additions (illustrative):** `AgencyLevel ∈ {None, Assisted, Delegated, Autonomous}`, `SafetyCriticality ∈ {SC0..SC3}`.
-* **RSG gate:** mark which **states are enactable under autonomy** (cf. A.2.5); link to `AutonomyBudgetDeclRef`.
-* **References:** If autonomy is claimed for this Role, the Role Description **MUST** reference: `AutonomyBudgetDeclRef` (id, version), `Aut-Guard policy-id (PolicyIdRef)`, `OverrideProtocolRef`.
-* **Checklist:** include a **pre‑enactment** checklist item “Autonomy Green‑Gate passed” (guard verdicts present).
+Only a system or acting holon can hold a work-facing role. The standard may constrain, evidence, or source a claim through direct episteme-use relations.
 
-### F.4:7 - Normative invariants (template discipline)
+#### F.4:7.4 - Access Role Is Not Automatically Work-Facing Role
 
-1. **context‑local grounding.** Every Role Description **MUST** cite exactly one **SenseCell** as its semantic anchor.
-2. **EntityOfConcern / Description / specification-use separation.**
-   * A **Role Template** **MUST NOT** encode deontic, access, or measurement rules.
-   * A **Status Template** **MUST NOT** encode behaviour or control flow.
-3. **Time honesty.** The card’s stance (**DesignRunTag**) **MUST** match the Context’s stance (F.1).
-4. **Minimality.** Invariants **SHOULD** be the **fewest that decide** the assignment; avoid procedural sequences.
-5. **No Cross‑context smuggling.** A single card **MUST NOT** import foreign semantics; if two Contexts are needed, the relation is handled later in **F.9**.
-6. **Label fidelity.** **Tech** label **MUST** be idiomatic to the Context; **Plain** label **MUST** not widen the sense (F.3).
-7. **Binding Standard (roles).** A **Role Template** is the **design‑time mask**; at run‑time, a **`U.RoleAssignment`** creates **System‑in‑Role** instances that are subject to the card’s invariants.
-8. **Assertion Standard (statuses).** A **Status Template** is a **badge**; asserting it **commits** to the card’s evaluation invariants and to the Context’s way of checking them (later anchored via SenseCells, not formulas here).
-
-### F.4:8 - Reasoning primitives (judgement schemas, notation‑free)
-
-> Conceptual moves only; no APIs, no data stores.
+RBAC "role" often names a permission grouping. If the current claim is permission or access standing, use the status, policy, or deontic governing pattern. Do not describe it as `U.Role` unless the bounded context explicitly introduces a work-facing role value and the holder, assignment, method, and work claims are current.
 
-1. **Template grounding**
-   `Template T cites SenseCell ⟨C,σ⟩ ⊢ meaning(T) is local to C`
-   *Reading:* The template’s meaning is **context‑local**.
-
-2. **Role assignability**
-   `holder h, RoleTemplate T, preconds_T(h) ⊢ assignable(h,T)`
-   *Reading:* If the **preconditions** hold for **h**, it is **eligible** to wear the mask **T**.
-
-3. **Role assignment obligation**
-   `assignable(h,T) ∧ bind(h,T: C) ⊢ invariants_T(h) must hold`
-   *Reading:* Once bound (via **`U.RoleAssignment`**), **h** must satisfy **T**’s behavioural invariants.
-
-4. **Status assertability**
-   `StatusTemplate S, evidence_in_C supports S for x ⊢ assertable(x,S)`
-   *Reading:* If evidence **in the Context C** supports **S** for **x**, the badge is **assertable** (details of evidence logic live in Part B).
-
-5. **Status consequence**
-   `assertable(x,S) ∧ assert(x,S) ⊢ evaluation_invariants_S(x)`
-   *Reading:* Once asserted, **S**’s evaluation invariants constrain how **x** is treated.
-
-6. **Separation guard**
-   `RoleTemplate T ⊢ not(deontic_implied(T))` - `StatusTemplate S ⊢ not(behaviour_implied(S))`
-   *Reading:* Wearing a mask doesn’t grant permissions; carrying a badge doesn’t define behaviour.
-
-7. **Bridge embargo**
-   `T cites ⟨C,σ⟩ ∧ C≠C′ ⊢ no‑equivalence(T@C, −) inside F.4`
-   *Reading:* No Cross‑context equivalence is asserted here; use **F.9** later.
-
-### F.4:9 - Worked examples (Context‑true)
-
-> Illustrative cards only; names are **tech/plain labels**, not final U.Type IDs (F.5 will govern naming).
-
-#### F.4:9.1 - **Role Template:** *participant (workflow actor)* — Context: **BPMN 2.0 (2011)**
-
-* **Kind:** Role
-* **Label:** Tech **participant** - Plain **workflow actor**
-* **SenseCell:** `⟨BPMN_2_0, participant (actor in workflow)⟩`
-* **Holder scope:** **U.System** (organisation, team, service)
-* **Time stance:** **design**
-* **Preconditions:** Holder is addressable as a **lane/pool** in the workflow model.
-* **Behavioural invariants:**
-
-  1. Activities **assigned to** the participant appear in its lane/pool.
-  2. The participant **interacts** through message flows at its boundaries.
-  3. The participant **does not** define run‑time occurrence; it **structures** the model.
-* **Separation guard:** No permissions implied; no execution logs implied.
-* **Typical interactions (informative):** BPMN **process (graph)**; message **event (node)**.
-* **Common misreads:** ≠ **RBAC role**; ≠ **PROV Activity**.
+### F.4:8 - Anti-Patterns and Repairs
 
-#### F.4:9.2 - **Status Template:** *access‑role membership* — Context: **NIST RBAC (2004)**
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Role-description as assignment | A card says "the inspector is assigned" without holder, context, and window. | Use `A.2.1`; keep F.4 for description of the role value. |
+| Role-description as capability proof | "ReviewerRole can verify formal models." | Put capability under `A.2.2`; F.4 may reference the requirement. |
+| Role-description as method | A role description contains a procedure. | Move the procedure to method or method-description patterns. |
+| Role-description as work evidence | A role card is cited as proof that review occurred. | Use `U.Work` and evidence-use patterns. |
+| Episteme as role holder | A report, standard, dataset, theorem, dashboard, or publication is said to hold a role. | Recover evidence-use, source-use, standard-use, requirement-use, publication-use, status-use, or assurance-use relation. |
+| Status-template fusion | A status, permission, or evidence standing is made a second kind of role description. | Use direct status-use, policy, or evidence patterns. |
+| Slot position as role | "The subject role in this relation..." | Use `A.6.5` SlotKind and ValueKind wording. |
+| Bridge by label | Same role-like label in two contexts is treated as one role. | Use `F.9` Bridge and `F.18` naming discipline. |
 
-* **Kind:** Status
-* **Label:** Tech **access‑role** - Plain **permission role**
-* **SenseCell:** `⟨NIST_RBAC_2004, role (permission grouping)⟩`
-* **Holder scope:** **U.System** (user/session)
-* **Time stance:** **run**
-* **Preconditions:** A defined set of **permissions** exists for the role.
-* **Evaluation invariants:**
+### F.4:9 - Consequences
 
-  1. If **x** carries this badge, **x**’s session inherits exactly the role’s **permissions**.
-  2. The badge **does not** describe behaviour in a workflow; it determines **access**.
-* **Separation guard:** No commitment about BPMN assignment; no deontic duties.
-* **Typical interactions (informative):** **permission**, **session** (RBAC).
-* **Common misreads:** ≠ **participant (BPMN)**; ≠ **person** as an ontological type.
+**Benefits.**
 
-#### F.4:9.3 - **Status Template:** *incident (service disruption)* — Context: **ITIL 4 (2020)**
+- Role descriptions become short enough for practical use while preserving ontology.
+- Part F naming and bridge patterns can rely on role descriptions without inheriting assignment, capability, method, work, evidence, or status claims.
+- Episteme-use relations stay direct and do not become a parallel role ontology.
+- Method and work checks can cite role descriptions without treating them as work evidence.
 
-* **Kind:** Status
-* **Label:** Tech **incident** - Plain **service disruption**
-* **SenseCell:** `⟨ITIL4_2020, incident (service quality drop)⟩`
-* **Holder scope:** **U.Work** (recorded occurrence affecting a service)
-* **Time stance:** **run**
-* **Preconditions:** A **service** exists with declared **SLOs/quality metrics**.
-* **Evaluation invariants:**
+**Costs.**
 
-  1. The occurrence **reduces** service quality below acceptable levels.
-  2. It triggers **restoration activities** per service practice (names only).
-* **Separation guard:** Not a plant **fault**; not a BPMN **event node**.
-* **Typical interactions:** **SLO** (ITIL), **Observation** (SOSA) — names only.
-* **Common misreads:** ≠ **problem** (root cause category).
+- Former "role-or-status template" material must move to F.10, A.2.4, B.3, A.10, E.17, G.6, or direct use patterns.
+- A stronger claim may require several neighboring patterns instead of one overloaded role card.
+- Durable names require `F.18` when the role name is public, Core-facing, or cross-context.
 
-#### F.4:9.4 - **Role Template:** *task runner (control runtime)* — Context: **IEC 61131‑3**
+### F.4:10 - SoTA-Echoing and Source-Use
 
-* **Kind:** Role
-* **Label:** Tech **task** - Plain **program runner**
-* **SenseCell:** `⟨IEC_61131_3, task (runtime execution unit)⟩`
-* **Holder scope:** **U.System** (controller CPU/task scheduler)
-* **Time stance:** **run**
-* **Preconditions:** A program is **registered** for cyclic/event execution.
-* **Behavioural invariants:**
+| Practice line | What FPF takes | Practical implication |
+| --- | --- | --- |
+| Role modeling in organizations, access-control, safety, and method engineering separates role labels, assigned holders, permissions, responsibilities, and performed work. | F.4 keeps only the role-description episteme and sends assignment, permission, capability, method, and work to direct patterns. | A readable role description does not become an access policy, staffing record, or work log. |
+| Modern context and interoperability practice treats local meanings as bounded and compares them by explicit mappings, not by shared labels. | F.4 role descriptions stay local to one bounded context; cross-context reuse goes through `F.9`. | Same label does not make the same role. |
+| FPF episteme and publication ontology separates the described entity, description episteme, and publication form. | A role description is a description episteme about `U.Role`; a card or table may publish it. | Editing the publication is not automatically changing the role value or assignment relation. |
+| FPF slot discipline separates relation positions from fillers. | "Role" in a relation-position phrase is repaired to SlotKind or ValueKind when no work-facing `U.Role` is current. | Slot names do not create role values. |
 
-  1. Invokes assigned program according to **cycle/trigger**.
-  2. Provides **schedule constraints** (period/priority) to its program.
-* **Separation guard:** No claim about **deontic** guarantees or **service** targets.
-* **Typical interactions:** **Execution** (A.15 family), **Actuation** (Sys‑CAL).
-* **Common misreads:** ≠ **workflow task**; ≠ **algorithm** (design).
+Current best-known pressure for this problem is not a larger universal role taxonomy. It is explicit separation of local role value, assignment, attributes or capability, permission or policy standing, performed work, and evidence or status use. RBAC, ABAC, zero-trust authorization, safety independence practice, method engineering, and FPF slot discipline all push in that direction, while F.4 keeps only the role-description episteme and hands the neighboring claims to direct patterns.
 
-### F.4:10 - Anti‑patterns & remedies
+Currentness and reopen condition: reopen this pattern when `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, `A.6.5`, `C.2.1`, `F.9`, `F.10`, `F.18`, or the accepted episteme-use and status-use discipline changes enough that role-description, holder admission, or non-role-use boundaries would be stated differently.
 
-| #       | Anti‑pattern            | Symptom (in a card)                                                       | Why it harms thinking                                    | Remedy (conceptual move)                                                                                        |
-| ------- | ----------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **A1**  | **Role⇄Status blur**    | A Role card says “grants permission”; a Status card dictates behaviour.   | **senseFamily mixing (Role vs Status)**; incoherent assignments.              | Move permission talk to a **Status**; keep Role invariants purely behavioural. Add a **separation guard** line. |
-| **A2**  | **Pan‑Context template**   | One card cites several canons implicitly (“BPMN/PROV process”).           | Imports meaning across Contexts; hides losses.              | Keep **one SenseCell per card**. If Cross‑context relation is needed, apply **F.9 Bridge**.                     |
-| **A3**  | **Silent time flip**    | Card defined in a **design** Context asserts run‑time facts (or vice versa). | Violates F.1 time stance; produces category errors.      | Align **Time stance** to the Context; relocate run‑facts to status/evidence lines or to another Context.              |
-| **A4**  | **Procedural template** | Long “steps” instead of minimal invariants.                               | Becomes a method recipe, not an assignable mask/badge.   | Replace sequences with **decisive invariants** (2–5 lines) that must hold regardless of procedure.              |
-| **A5**  | **Permission leakage**  | A BPMN Role claims access rights “by wearing the mask”.                   | Conflates access with behaviour; misstates RBAC semantics. | State explicitly: **no permissions implied**. Bind access via a **Status** in the RBAC Context.                    |
-| **A6**  | **Evidence bake‑in**    | Status card encodes metrics/formulas.                                     | Smuggles Part B maths; reduces portability.              | Keep only **evaluation invariants** in Context language; actual checks live in Part B/C via SenseCells.            |
-| **A7**  | **Global label**        | Tech label chosen for cross‑discipline appeal (“Actor”) not Context idiom.   | Loses local meaning; harms F.3 clustering.               | Use **Context‑idiomatic Tech label**; provide a Plain label for teaching (F.5 governs labels).                     |
-| **A8**  | **Concept inflation**   | Multiple near‑duplicate cards for the same SenseCell.                     | Noise; brittle naming.                                   | Prefer **refinement** (see §11) or a single card with tighter invariants; avoid duplicates.                     |
-| **A9**  | **Holder sprawl**       | Holder scope lists unrelated kinds (“U.System or U.Work or U.Episteme”).  | Ambiguity at binding time.                               | Shrink **Holder scope** to the real carriers; if truly different, split cards.                                  |
-| **A10** | **Anchor relapse**      | Card talks about “anchors” or “global context.”                           | Re‑introduces banned jargon; confuses D.CTX.             | Replace with **Context** / **SenseCell**; never use “anchor”.                                                      |
-| **A11** | **Tooling creep**       | Mentions manifests, pipelines, editors.                                   | Violates E.5 guard‑rails; notational dependency.         | Remove all process/tool talk; keep card **concept‑only**.                                                       |
-| **A12** | **Bridge‑by‑label**     | Using identical labels to imply Cross‑context sameness.                      | Stealth equivalence; no loss policy.                     | Labels do not bridge. Any Cross‑context claim goes to **F.9** with a declared CL policy.                           |
+### F.4:11 - Relations
 
-### F.4:11 - Concept‑level operators (refinement & compatibility)
+**Builds on.** `A.2`, `A.2.1`, `A.6.5`, `A.7`, `C.2.1`, `E.10.D2`, and `E.24`.
 
-> **Judgement schemas** — pure reasoning moves over cards. No APIs, no storage, no workflow.
+**Coordinates with.** `A.2.2`, `A.2.5`, `A.2.7`, `A.15`, `A.15.1`, `A.15.2`, `F.9`, `F.10`, `F.14`, `F.15`, `F.18`, evidence-use, status-use, source-use, publication-use, requirement-use, and assurance patterns.
 
-Let **`sense(T)`** denote the **SenseCell** cited by template **T**.
-Let **`inv(T)`** denote the set of **invariants** on T.
-Let **`senseFamily(T)`** ∈ {**Role**, **Status**}.
-Let **`stance(T)`** ∈ {**design**, **run**} (from the Context).
+**Constrains.**
 
-#### F.4:11.1 - Same‑Context equivalence
+- `F.5` must name role descriptions after the described `U.Role`, bounded context, and local sense are recovered.
+- `F.8` must decide durable role-name minting or reuse without turning status-use or episteme-use relations into role descriptions.
+- `F.14` must treat bundles and separation-of-duties as role relation structure or neighboring role-description claims, not as hybrid role descriptions.
+- `F.15` must check role-description single-role and non-role-use boundaries.
 
-**Form.**
-`sense(T₁) = sense(T₂) ∧ inv(T₁) ⇔ inv(T₂) ⊢ T₁ ≡ T₂`
+### F.4:12 - Conformance Checklist
 
-**Reading.** Two cards in the **same Context** with logically equivalent invariants **co‑designate** the same assignable.
+| Check | Question |
+| --- | --- |
+| `CC-F4-01` | Is exactly one described `U.Role` named? |
+| `CC-F4-02` | Is exactly one `U.BoundedContext` named? |
+| `CC-F4-03` | Is the description kept separate from the role value and any publication form? |
+| `CC-F4-04` | Is the admitted holder kind system-like or acting-holon-like under the governing work or method pattern? |
+| `CC-F4-05` | Are assignment claims sent to `A.2.1`? |
+| `CC-F4-06` | Are capability claims sent to `A.2.2`? |
+| `CC-F4-07` | Are method, plan, and work claims sent to `A.15` and neighboring patterns? |
+| `CC-F4-08` | Are evidence, source, standard, requirement, publication, assurance, and status uses sent to direct episteme-use patterns? |
+| `CC-F4-09` | Are relation-position "role" words sent to `A.6.5`? |
+| `CC-F4-10` | Are durable or cross-context names sent to `F.18` and `F.9` when current? |
+| `CC-F4-11` | Are open-world missing slots treated as unknown, not recovered, not asserted, or not current rather than false? |
 
-*Tech cue.* Use this to **merge duplicates** conceptually without changing labels.
+### F.4:13 - Phrasebook
 
-#### F.4:11.2 - Refinement (strictness order)
+Prefer:
 
-**Form.**
-`sense(T₁) = sense(T₂) ∧ inv(T₁) ⇒ inv(T₂) ⊢ T₁ ⪯ T₂`
+- "role-description episteme describing `ReviewerRole` in `PatternReview_2026`";
+- "holder admission for `ReviewerRole` is governed by `A.2.1`";
+- "capability requirement referenced by the role description";
+- "method requirement referenced by the role description";
+- "review report used as evidence for the claim";
+- "standard used as requirement source";
+- "relation position governed by SlotSpec discipline".
 
-**Reading.** **T₁** is a **refinement** of **T₂** if its invariants **imply** those of **T₂** (same Context).
+Avoid as live vocabulary:
 
-*Effects.* Assigning **T₁** automatically satisfies **T₂**; the converse need not hold.
+- "evidence role" for an episteme;
+- "status role" for a badge or status-use relation;
+- "standard role" for a standard used as source;
+- "holder" for a publication, report, standard, dataset, or theorem unless a direct pattern admits an acting holon holder;
+- "role" for a SlotKind;
+- "role description" for a method, capability, work record, access policy, or status-use relation.
 
-#### F.4:11.3 - Incompatibility (mutual exclusion)
+### F.4:14 - Didactic Memory
 
-**Form.**
-`sense(T₁) = sense(T₂) ∧ (inv(T₁) ∧ inv(T₂) ⇒ ⊥) ⊢ incompatible(T₁,T₂)`
-
-**Reading.** Two cards in the same Context are **mutually exclusive** if their invariants cannot co‑hold.
-
-*Use.* A conceptual **Separation‑of‑Duty** signal without governance.
-
-#### F.4:11.4 - Co‑wearability / co‑bearability
-
-**Form.**
-`senseFamily(T₁)=senseFamily(T₂)=Role ∧ stance(T₁)=stance(T₂) ∧ ¬incompatible(T₁,T₂) ⊢ coWearable(T₁,T₂)`
-`senseFamily(T₁)=senseFamily(T₂)=Status ∧ ¬incompatible(T₁,T₂) ⊢ stackable(T₁,T₂)`
-
-**Reading.** Within a Context, two Roles can be worn together (or two Statuses carried) when they **do not** conflict.
-
-#### F.4:11.5 - Time‑stance alignment
-
-**Form.**
-`stance(T)=design ⊢ inv(T) may not assert run‑facts`
-`stance(T)=run ⊢ inv(T) may not assert design‑commitments`
-
-**Reading.** Invariants must **respect** the Context’s DesignRunTag (F.1).
-
-#### F.4:11.6 - Binding/Assertion admissibility
-
-**Form. (Roles)**
-`holder h ∧ preconds_T(h) ⊢ assignable(h,T)`
-`assignable(h,T) ∧ bind(h,T) ⊢ inv(T)(h)`
-
-**Form. (Statuses)**
-`evidence_in_Context(C) supports S for x ∧ sense(S)=⟨C,σ⟩ ⊢ assertable(x,S)`
-`assertable(x,S) ∧ assert(x,S) ⊢ inv(S)(x)`
-
-**Reading.** Preconditions and evidence **gate** the act of wearing a mask or bearing a badge; once done, **invariants apply**.
-
-### F.4:11.7 - Cross‑context embargo (inside F.4)
-
-**Form.**
-`sense(T₁)=⟨C,−⟩, sense(T₂)=⟨C′,−⟩, C≠C′ ⊢ no‑relation(T₁,T₂) here`
-
-**Reading.** **F.4** never asserts Cross‑context relations. If a relation is desired, it becomes a **Bridge** in **F.9**.
-
-### F.4:12 - Relations (where this card sits)
-
-**Builds on:**
-E.10.D1 **D.CTX** (Context ≡ U.BoundedContext); F.1 (Contexts cut); F.2 (harvested terms); F.3 (Local‑Sense → **SenseCell**); A.2.1 **`U.RoleAssignment`**; A.7 **Strict Distinction**.
-
-**Constrains:**
-**F.5** (Naming): pairs **Tech/Plain** must reflect the **Context idiom** and avoid Cross‑context overreach.
-**F.7** (Concept-Set Table): rows reference **SenseCells**; Role Description cards **point to** those rows but never **create** cross-context identity.
-**F.8** (Mint or Reuse?): prefer **refinement (⪯)** over new cards; split cards rather than mixing senseFamilies.
-**F.9** (Alignment & Bridge): any relation across Contexts is **declared there**; Role Description cards remain context-local.
-
-**Is used by.**
-A.15 family (Role–Method–Work alignment) to interpret **System‑in‑Role** and **Work**; Part B evidence/status checks to interpret **evaluation invariants**.
-
-### F.4:13 - Migration notes (conceptual playbook)
-
-1. **Context update (edition split).** If the Context’s Local‑Sense changes, **fork** the card per new SenseCell; keep the old card as historically valid.
-2. **Family correction (Role and Status).** If a card mixes behaviour and deontics, **split** into one Role and one Status; move permission language to the Status.
-3. **Tighten by refinement.** When practice reveals a stricter understanding, prefer **T′ ⪯ T** over replacing **T**; this preserves existing assignments conceptually.
-4. **Rename safely (labels only).** If F.5 revises labels, change **Tech/Plain** wording; **SenseCell** and **invariants** remain untouched.
-5. **Scope correction.** If Holder scope was too wide, split into **parallel cards** with disjoint Holder scopes; avoid complex conditional invariants.
-6. **Bridge discovery.** Do **not** inject Cross‑context text into cards; record the relation as an **F.9 Bridge** (with CL policy), leaving the cards as they are.
-
-### F.4:14 - Acceptance tests (SCR/RSCR — concept‑level)
-
-#### F.4:14.1 - Static conformance (SCR)
-
-* **SCR‑F4‑S01 (Uni‑Context grounding).** Each card cites **exactly one SenseCell**.
-* **SCR‑F4‑S02 (Family honesty).** `senseFamily(T)` is **either** Role **or** Status; invariants match the family; a **separation guard** line is present.
-* **SCR‑F4‑S03 (Time honesty).** `stance(T)` matches the Context’s stance; no opposing‑stance claims appear.
-* **SCR‑F4‑S04 (Minimality).** Card lists **2–5** invariants; none are procedural step lists.
-* **SCR‑F4‑S05 (Label fidelity).** Tech label is **idiomatic to the Context**; Plain label does not widen meaning.
-* **SCR‑F4‑S06 (No Cross‑context import).** Invariants reference only the Context’s idiom or other **SenseCells** by **name** (no identity claims).
-* **SCR‑F4‑S07 (Holder clarity).** Holder scope is a **single coherent kind** (e.g., `U.System` or `U.Work`), not a grab‑bag.
-* **SCR‑F4‑S08 (No tooling/governance).** Card contains **no** mentions of manifests, pipelines, editors, or workflows.
-
-#### F.4:14.2 - Regression (RSCR)
-
-* **RSCR‑F4‑E01 (Edition churn).** When a Context edition changes, existing cards are **not overwritten**; new cards are added per SenseCell.
-* **RSCR‑F4‑E02 (Refinement safety).** If **T′ ⪯ T** is introduced, prior usages of **T** remain conceptually valid; no backward contradictions arise.
-* **RSCR‑F4‑E03 (senseFamily integrity).** No card changes senseFamily across revisions (Role↔Status) without an explicit **split** noted.
-* **RSCR-F4-E04 (Bridge discipline).** After adding an **F.9 Bridge**, Role Description cards remain **unchanged**; cross-context meanings do not seep back into cards.
-* **RSCR‑F4‑E05 (Label updates).** Label changes per **F.5** preserve SenseCell and invariants; tests treat them as **renames**, not semantic edits.
-
-### F.4:15 - Didactic distillation (60‑second close)
-
-> A Role Description card is a **Context-true** way to speak about an assignable: a **Role** (behavioural mask) or a **Status** (epistemic/deontic badge).
-> Each card names **one SenseCell**, gives a **Tech/Plain** label, states **minimal invariants**, and declares what it **does not** imply.
-> Cards never mix **Role and Status senseFamilies** and never cross **EntityOfConcern, Description episteme, and specification-use positions**, never flip time stance, and never import other Contexts.
-> Inside one context, you can compare cards by **equivalence** (≡), **refinement** (⪯), **incompatibility**, and **co‑wearability**.
-> across Contexts, say nothing in the card; use a **Bridge** later.
-> Keep cards **one‑screen simple**: enough to decide assignments; nothing procedural; no tools; just clear thought.
+A role description is the readable episteme that tells people what a role value means in a bounded context. It helps someone assign, check, name, or compare the role. It does not assign the role, prove capability, define the method, perform the work, grant permission, carry evidence, publish itself, or turn every useful episteme into a role holder.
 
 ### F.4:End
 

@@ -1,38 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.17"
-pattern_title: "Unified Term Sheet (UTS)"
+pattern_title: "Unified Term Sheet"
 section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_forces.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
-  - "F.17 — Unified Term Sheet (UTS)"
+  - "F.17 — Unified Term Sheet"
   - "F.17:3 — Forces"
-line_start: 77673
-line_end: 77681
+line_start: 77521
+line_end: 77531
 dependencies:
-  - "A.1.1"
-  - "A.11"
-  - "A.15"
-  - "A.7"
-  - "A.8"
+  - "A.10"
+  - "A.15.1"
+  - "A.19.SPR"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.7"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.2.P"
   - "E.10"
-  - "E.10.D1"
-  - "E.10.P"
+  - "E.10.D2"
+  - "E.17"
   - "F.1"
   - "F.1-F.12"
   - "F.10"
-  - "F.12"
+  - "F.14"
   - "F.15"
+  - "F.18"
+  - "F.2"
   - "F.3"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
   - "UTS"
   - "Unified Term Sheet"
@@ -44,10 +51,12 @@ keywords:
 
 ### F.17:3 - Forces
 
-| Force                             | Constraint in UTS                                                                                                   |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Didactic primacy vs. fidelity** | UTS keeps **two names** (Tech/Plain) and **one‑line rationale**, but never misstates a source meaning.              |
-| **Parsimony vs. recall**          | Each row is one concept; the UTS as a whole demonstrates heterogeneity across ≥ 3 domain families (A.8). Rows may cite fewer Contexts when the concept truly appears in fewer.                   |
-| **Locality vs. comparability**    | Senses are **Context‑scoped** (E.10.D1). Cross‑context relations are shown only as **explicit bridges** (F.9) with **CL**. |
-| **General usability**             | Sheet must be **legible on paper** and **memorisable** (block structure, stable row order).                         |
+| Force | F.17 settlement |
+| --- | --- |
+| Reader memory vs full provenance | Keep one compact row for use, but require enough references to reopen the sense, bridge, and name decision. |
+| Local meaning vs cross-context reuse | Sense cells stay bounded-context local; bridge claims are explicit and governed by `F.9`. |
+| Naming neutrality vs recognizability | `F.18` and `F.5` choose names that readers can use without smuggling one context's commitments into the row. |
+| Didactic grouping vs ontology | Blocks help memory; blocks do not create subtypes, roles, statuses, or families. |
+| Row stability vs edition change | Row ids survive reblocking and wording updates; edition-sensitive fields show what changed. |
+| Compact table vs semio-bias | The table is a publication about term decisions; it must not replace the direct pattern that governs the object. |
 

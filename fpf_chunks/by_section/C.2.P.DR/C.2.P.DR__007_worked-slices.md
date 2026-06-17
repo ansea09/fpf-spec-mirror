@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 38592
-line_end: 38680
+line_start: 38145
+line_end: 38233
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -88,7 +88,7 @@ Repair: if the current relation is "use `A.10` when an evidence relation or prov
 
 Wording: "The solver algorithm is the mechanism."
 
-Repair: recover the current slot or use-position. The solver configuration may be `U.MethodDescription`; the accepted semantic way of solving may be `U.Method`; the MILP formulation may expose formal substrate and mathematical-lens use; a reusable operation algebra with laws and admissibility predicates may be `U.Mechanism`; a solver run may be `U.Work`; a run result may be evidence for another claim. Select `A.6.1` and `E.20` only when mechanism fields are present in the current claim.
+Repair: recover the current ontic slot, relation position, use relation, or claim kind. The solver configuration may be `U.MethodDescription`; the accepted semantic way of solving may be `U.Method`; the MILP formulation may expose formal substrate and mathematical-lens use; a reusable operation algebra with laws and admissibility predicates may be `U.Mechanism`; a solver run may be `U.Work`; a run result may be evidence for another claim. Select `A.6.1` and `E.20` only when mechanism fields are present in the current claim.
 
 #### C.2.P.DR:5.7 - Reactor-cooling flow graph
 

@@ -6,16 +6,18 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how runs form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-runs-form-holarchies.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how runs form holarchies)"
-line_start: 21138
-line_end: 21196
+line_start: 20772
+line_end: 20830
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
@@ -23,6 +25,10 @@ dependencies:
   - "A.3.2"
   - "B.1"
   - "B.1.6"
+  - "B.3"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
@@ -59,7 +65,7 @@ We adopt a **4D extensional** stance for occurrences: a Work is identified prima
 * **`precedes` or `happensBefore`** — strict partial order on Work windows.
 * **`overlaps`** — intervals intersect but neither contains the other.
 * **`contains` or `within`** — one Work's window contains another's.
-* **`causedBy` or `causes`** — pragmatic causal links (e.g., a rework caused by a failed inspection run).
+* **Causal-use relation reference** — if one work occurrence is claimed to explain, trigger, or cause another, keep the work-occurrence link separate from the causal-use claim governed by `C.28` or another causal-use pattern named by value.
 * **`retryOf`** — a new Work instance re‑attempting the same MethodDescription with revised parameters.
 * **`resumptionOf`** — a Work episode that **continues** an interrupted run (policy decides identity; see 5.5).
 
@@ -92,11 +98,11 @@ If any of these differ (or the context declares equivalence absent), they are **
 
 * **Retry:** **new Work** with its own window and parameters; link via `retryOf`.
 * **Resumption:** **same Work identity** split into **episodes** if the context’s **episode policy** declares so (e.g., “power loss under 5 minutes keeps identity”).
-* **Rework:** **new Work** caused by a failure in earlier Work; link via `causedBy`.
+* **Rework:** **new Work** initiated after a failure in earlier Work; link the occurrences and put any causal attribution in the governing causal-use pattern.
 
 **Why it matters:** plans, costs, and quality stats depend on whether you treat a disruption as **one episode** or **a new run**. Declare the policy **in the bounded context**.
 
 #### A.15.1:5.6 - Compositionality of effects (Δ)
 
-For any Work with parts, the **effect of the whole** must be the **rules-declared composition** of the effects of its parts plus any declared overheads and residuals. Composition must align with the overlap rules used by `Γ_work` (e.g., no double-count of shared fixed costs, and consistent attribution of variable deltas).
+For any work occurrence with parts, the **effect of the whole** is the rules-declared composition of the effects of its parts plus any declared overheads and residuals. Composition aligns with the overlap rules used by `Gamma_work`, such as no double-count of shared fixed costs and consistent attribution of variable deltas.
 

@@ -6,16 +6,18 @@ section_id: "A.15.1:End"
 section_title: "A.15.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_a-15-1-end.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:End — A.15.1:End"
-line_start: 21447
-line_end: 21448
+line_start: 21087
+line_end: 21088
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
@@ -23,6 +25,10 @@ dependencies:
   - "A.3.2"
   - "B.1"
   - "B.1.6"
+  - "B.3"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"

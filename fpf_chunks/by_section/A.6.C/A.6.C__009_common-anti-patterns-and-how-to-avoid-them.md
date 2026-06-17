@@ -6,16 +6,16 @@ section_id: "A.6.C:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c092a1f2299d88d42db012f3184aeff205c13219"
+commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9813
-line_end: 9824
+line_start: 9673
+line_end: 9684
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2.3"
-  - "A.2.4"
   - "A.2.8"
   - "A.2.9"
   - "A.6"
@@ -24,12 +24,12 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "E.10"
   - "E.17"
   - "F.12"
   - "F.18"
   - "U.Commitment"
-  - "U.EvidenceRole"
   - "U.PromiseContent"
   - "U.SpeechAct"
   - "U.Work"
@@ -48,7 +48,7 @@ keywords:
   - "contract bundle unpacking"
   - "in L/A/E claims"
   - "including common synonyms (SHALL"
-  - "phrase L as definitions/invariants (“is defined as…”"
+  - "phrase L as definitions or invariants (“is defined as…”"
   - "promise content (promise content) ≠ work"
   - "promise-act/utterance/commitment separation"
   - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
@@ -60,11 +60,11 @@ keywords:
 
 | Anti-pattern                                        | Why it fails                                                   | Repair                                                                                      |
 | --------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Interface-as-promiser** (“the API promises…”)     | Epistemes are descriptions; they do not commit                 | Name the committing `U.Role` or `U.Agent`; route as D claim; keep the signature as utterance substrate |
+| **Interface-as-promiser** (“the API promises…”)     | Epistemes and publication carriers are descriptions; they do not commit                 | Name the committing role assignment or admitted acting system; classify as a D claim; keep the API, signature, or interface description as description episteme or publication carrier |
 | **Guarantee-without-substrate**                     | “Guarantee” is empty unless it is L, D, or E                   | Decide: semantic law (L), deontic commitment (D), or evidenced property (E)                 |
 | **SLA smuggled into laws**                          | Mixes governance with semantics; breaks substitution reasoning | Put SLA targets as D claims referencing L-defined metrics and E evidence                    |
 | **Gate written as obligation**                      | Confuses admissibility predicates with duties                  | Write predicate as A; write duty-to-gate as D→A reference                                   |
-| **Evidence as prose property** (“document proves…”) | Violates EntityOfConcern / Description episteme / carrier                            | State evidence as E claims about carriers produced/observed in work                         |
+| **Evidence as prose property** (“document proves…”) | Violates EntityOfConcern, Description episteme, and carrier                            | State evidence as E claims about carriers produced or observed in work                         |
 | **Face-level paraphrase drift**                     | Creates multiple incompatible contracts                        | Faces should reference canonical claims; keep commitments centralized                       |
 | **Cross‑scale contract collapse**                   | Different agents claim incompatible “contracts” at different scales or contexts | Represent each as separate, scoped `D-*` claims (with accountable roles + Context); apply conflict or mediation patterns rather than collapsing them into one “contract”. |
 
