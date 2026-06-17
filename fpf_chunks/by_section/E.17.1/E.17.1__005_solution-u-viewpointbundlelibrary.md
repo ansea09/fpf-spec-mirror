@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - U.ViewpointBundleLibrary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-u-viewpointbundlelibrary.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:4 — Solution - U.ViewpointBundleLibrary"
-line_start: 63988
-line_end: 64048
+line_start: 64003
+line_end: 64063
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -38,7 +38,7 @@ keywords:
 
 ### E.17.1:4 - Solution - `U.ViewpointBundleLibrary`
 
-`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, publication unit, publication form, face, or carrier only through the usual E.17 publication lane.
+`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, `PublicationUnit`, publication form, face, or carrier only through the usual E.17 publication relation positions.
 
 #### E.17.1:4.1 - Core role
 
@@ -76,7 +76,7 @@ Minimal structure:
 - `viewpoints : FinSet(U.Viewpoint)`
 - optional `ArchetypalCards : FinSet(U.ArchetypalGroundingRef)`
 - optional `AlignmentNotes` for ISO 42010 or domain-standard correspondences
-- optional typed annex references for lexical, bridge, routing, example, or SoTA companion material
+- optional typed annex references for lexical, bridge, A.16 move-publication, example, or SoTA companion material
 
 `ViewFamilyId` names the bundle. It does **not** name a `U.View`, a publication face, or a file-system carrier.
 

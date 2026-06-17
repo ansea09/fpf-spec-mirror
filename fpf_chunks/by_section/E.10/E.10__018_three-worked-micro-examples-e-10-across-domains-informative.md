@@ -6,12 +6,12 @@ section_id: "E.10:14"
 section_title: "Three worked micro-examples — E.10 across domains (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__018_three-worked-micro-examples-e-10-across-domains-informative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:14 — Three worked micro-examples — E.10 across domains (informative)"
-line_start: 61306
-line_end: 61331
+line_start: 61321
+line_end: 61346
 dependencies:
   - "A.10"
   - "A.15"

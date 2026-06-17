@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 64807
-line_end: 65157
+line_start: 64822
+line_end: 65172
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -50,25 +50,25 @@ keywords:
 
 #### E.17:5.1 - Terminology (normative)
 
-* **View** (`U.View`): an episteme-lane view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-lane view, EntityOfConcern, or claim relation named by the source.
+* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
   Every MVPK `U.View` declares:
-  `publication-face kind ∈ {publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
+  `publication-face kind ∈ {literal publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
   Any carrier rendering is separate **`U.Work` over carrier or rendering infrastructure**, with A.10 carrier and source-currentness records when reliance is current, and is not part of `U.View`.
 * **Publication vs presentation vs rendering vs representation (guard):**
-    * **Publication** = typed projection from existing source epistemes or episteme-lane views into a `U.View` governed by a `publication face/form` or `interop publication form` `publication-face kind` via species of `U.EpistemicViewing` (`A.6.3`). In the morphism profile, the source epistemes are Description epistemes about a morphism, possibly under specification use when A.6.2, C.2.3, A.21, C.16, E.10, or another neighboring pattern governing the claiming gate grants that use. A.7 supplies the EntityOfConcern and Description-episteme boundary; publication expression does not turn that boundary into a three-member strict-distinction ontology.
+    * **Publication** = typed projection from existing source epistemes or episteme-side views into a `U.View` governed by the literal `publication face/form` or `interop publication form` value of `publication-face kind` via species of `U.EpistemicViewing` (`A.6.3`). In the morphism profile, the source epistemes are Description epistemes about a morphism, possibly under specification use when A.6.2, C.2.3, A.21, C.16, E.10, or another neighboring pattern governing the claiming gate grants that use. A.7 supplies the EntityOfConcern and Description-episteme boundary; publication expression does not turn that boundary into a three-member strict-distinction ontology.
     * **Presentation** = rhetorical arrangement of a published carrier; **notation-neutral**, adds no claims and is **not** a `publication-face kind`.
     * **Rendering** = display layout of a carrier, purely graphical formatting; **`U.Work` on carriers** (A.7), not a `publication-face kind`.
     * **Representation** = episteme↔referent relation (`C.2.1`, `A.6.2` through `A.6.4`); **not** a publication operation and not a `publication-face kind` operation. Use **publication** and **view** here; treat presentation and rendering as **`U.Work` on carriers** (`A.7`).
-* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication lane); **engineering viewpoint** -> `EngineeringVPId` (`E.18:5.12` transformation-flow viewpoint-family map). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
+* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication relation position); **engineering viewpoint** -> `EngineeringVPId` (`E.18:5.12` transformation-flow viewpoint-family map). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
 * **No‑mechanism equivalence:** MVPK **is not** a mechanism; any operational activity, such as build, render, or upload work, is **separate `U.Work` by a system on carriers** (A.7; see **Rule 5 — No Γ-leakage** in §6).
 * **ViewpointSpec (`U.Viewpoint`)** — a typed specification that declares stakeholders, concerns, conformance rules, declared **Publication Characteristics**, and pinning requirements per profile. The index set `Σ` consists of identifiers of `U.Viewpoint` instances, typically drawn from `U.ViewpointBundle` species (E.17.1 or E.17.2) (see §5.3).
 * **Explanation-use profile values.** Existing faces can state an explanation-use profile value as `SourcePinnedExplanation`, `SourceLinkedExplanationReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`, but those are local profile values over already existing MVPK faces rather than new face kinds, explanation kinds, or carrier-rendering kinds. Per-face pins, provenance references, and no-new-A.6.B-boundary-claims discipline still apply.
 
-#### E.17:5.1a - Episteme-publication lane binding  *(normative)*
+#### E.17:5.1a - Episteme-publication relation-position binding  *(normative)*
 
-For functional-description publications, MVPK governs the publication lane only.
+For functional-description publications, MVPK governs only the publication relation position.
 
-**Publication lane.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description can help interpretation, source-finding, comparison, selected-method inspection, or work-planning preparation.
+**Publication relation position.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description can help interpretation, source-finding, comparison, selected-method inspection, or work-planning preparation.
 
 **Unsupported neighboring claims.** The publication does not by itself assert performed `U.Work`, gate passage, evidence, engineering justification, supervisory relation or control relation, release permission, or a new transformation-flow kind.
 
@@ -93,11 +93,11 @@ For functional-description publications, MVPK governs the publication lane only.
 
 Ordinary orientation and source-finding can stay as an inline note.
 
-**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication face separates the source `U.Episteme` or episteme-lane `U.View`, the MVPK face, any present carrier or rendering work, the bounded engineering use, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
+**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication face separates the source `U.Episteme` or episteme-side `U.View`, the MVPK face, any present carrier or rendering work, the bounded engineering use, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
 
 MVPK inherits the C.2.1 distinction between `U.Episteme`, `U.EpistemePublication`, publication form, `U.View`, carrier, and authority-reference relation. MVPK does not introduce a generic semio kind and does not let a publication face act as `governingPatternRef`, `authoritySourceRef`, or the source claim for a claim.
 
-When a morphism publication is encountered or reused, name the relevant lane before relying on it:
+When a morphism publication is encountered or reused, name the relevant relation position before relying on it:
 
 * the underlying `U.Episteme`, `D` episteme, or `S` episteme whose ClaimGraph is being projected;
 * the `U.EpistemePublication` or source `U.Episteme` publication when the episteme is available as a published episteme;
@@ -160,7 +160,7 @@ Use these terms when a publication face, rendering, narrower-use rendering, expl
 
 #### E.17:5.1d - Compact boundary aid for the present claim or effect
 
-When a publication-facing unit, publication face, rendering, narrower-use rendering, explanation, comparison note, dashboard tile, credential view, status view, carrier, or generated unit creates more than one possible interpretation, separate the claim being made or effect being used now and cite the source relation that carries, supports, or exposes the source basis for the operative claim for that claim or effect. This compact boundary aid governs the present claim or effect only; it does not classify the whole encountered unit. The same encountered unit can expose several typed records; handle one claim being made or effect at a time instead of pretending there is one overall governing relation for the encountered unit.
+When a publication-facing unit, publication face, rendering, narrower-use rendering, explanation, comparison note, dashboard tile, credential view, status view, carrier, or generated unit creates more than one possible interpretation, separate the claim being made or effect being used now and cite the source relation that makes the operative claim recoverable by value for that claim or effect. This compact boundary aid governs the present claim or effect only; it does not classify the whole encountered unit. The same encountered unit can expose several typed records; handle one claim being made or effect at a time instead of pretending there is one overall governing relation for the encountered unit.
 
 **Mixed-case precedence.** When several publication-use patterns appear possible, repair the smallest unstable interpretation that changes the current bounded use before applying a neighboring pattern whose claim or effect is present:
 
@@ -223,7 +223,7 @@ Use the FPF pattern that governs the claim being made or effect under use. Keep 
 
 **Modality and deontic-force preservation.** Publication-facing transformations preserve possibility, obligation, permission, recommendation status, decision status, confidence, scope, and temporal window when those values change the claim or use. If one of these changes, narrow the bounded use or apply the governing pattern that carries the changed claim or effect. Comparison does not become recommendation or decision; explanation does not become evidence; a publication face does not become authority; a publication unit does not smuggle a downstream effect; source-linked does not mean source-available for reliance; ready-looking does not mean gate-passed.
 
-This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that carries, supports, or exposes the source basis for the operative claim and source pins survive in the new publication-facing unit.
+This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that makes the operative claim recoverable by value and source pins survive in the new publication-facing unit.
 
 **Reader position is not project role.** Reader position, audience, target user model, verifier position, reviewer position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
 
@@ -248,7 +248,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 - **Green dashboard tile.** A tile says `Model ready`. Treat the tile as the `PublicationUnit` when that tile carries the present release overread. The useful publication use is source-finding and status orientation unless an exact `GateDecisionRef`, gate profile, source relation, and evidence or currentness relation are recoverable. Without those, the tile is not release permission or gate passage by green color or placement.
 - **Generated explanation with source links.** A generated text explains a method and cites sources. The explanation rendering is not source replacement. Source links carry only the pinned operative claims they actually carry. If work or reliance is present, use `A.10` for the evidence path named by value or keep the rendering as reader help; if the rendering is deliberately reduced-use, use `A.6.3.CSC`.
 - **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or bridge relation needs `F.9` or `F.9.1`.
-- **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind stack instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side value named by value and reference.
+- **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind and relation positions instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side value named by value and reference.
 - **Translated tutorial.** A translated tutorial can improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads can need `E.17.AUD.LHR` or `C.2.P`, and `F.18` is present only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
 
 **Practical harm prevented by neighboring pattern.** Use this map when the reader asks what the discipline buys in practice:
@@ -278,14 +278,14 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 #### E.17:5.2 - Declared `publication-face kind` values at Part E
 
-Part E restricts `publication-face kind` values to **publication face/form** and **interop publication form**. Concrete publication faces use names ending in **...View**, **...Card**, or **...Lane**.
+Part E restricts `publication-face kind` values to the literals **publication face/form** and **interop publication form**. Concrete publication faces use names ending in **...View**, **...Card**, or **...Lane**.
 
 **USM linkage (normative).** Every `U.View` declares a `U.PublicationScope` (USM §6.5).
 For a view **about an episteme** `E`: `PublicationScope(view_E) ⊆ ClaimScope(E)`.
 For a view **about a capability** `C`: `PublicationScope(view_C) ⊆ WorkScope(C)`. This is the publication scope of a capability description, not permission to perform work and not evidence that work occurred. Work-use reliance still requires `A.15.4` source restoration when the view is used for work or reliance, and the `A.15` role, method, plan, and work source relation for the actor, target, context, scope, and time window in use.
 Cross-context views cite Bridge + CL; CL penalties apply to R only (scope membership unchanged).
 
-**Publication face/form naming discipline.**
+**Publication-face-kind naming discipline.**
 * Declared `publication-face kind` values: **publication face/form**, **interop publication form**.
 * Concrete faces use names ending in **...View**, **...Card**, or **...Lane**.
 * The tokens **carrier, bearer, and holder** do not name a `U.View` or any publication entity.
@@ -297,10 +297,10 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 **MVPK-Max viewpoints (normative; exactly four; governed by the MVPK profile):**
 * `PlainView` (explanatory prose view)
 * `TechCard` (typed catalog card)
-* `AssuranceLane` (evidence bindings and lanes)
+* `AssuranceLane` (evidence bindings)
 * `InteropCard` (conceptual interoperability view; mapping to concrete exchange formats lives in the interop annex; Part E does not specify schemas)
 
-`AssuranceLane` can expose evidence bindings, evidence-carrier references, pins, and presence bits. It is not a `B.3` assurance claim, readiness or confidence verdict, engineering-justification record, or evidence-sufficiency result. When a published face is used to raise or lower assurance, readiness, confidence, limitation, or engineering-justification result, the governing source relation is `B.3`; the lane only helps recover the cited evidence bindings.
+`AssuranceLane` can expose evidence bindings, evidence-carrier references, pins, and presence bits. It is not a `B.3` assurance claim, readiness or confidence verdict, engineering-justification record, or evidence-sufficiency result. When a published face is used to raise or lower assurance, readiness, confidence, limitation, or engineering-justification result, the governing source relation is `B.3`; the face only helps recover the cited evidence bindings.
 
 **Lean profiles (small-team friendly, optional; as MVPK kit profiles):**
 * **MVPK-Min (F0-F1):** Σ = {`PlainView`, `TechCard-Lite`}. `AssuranceLane` omitted. No interop face.
@@ -326,7 +326,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 3. **Signature reserved to signature-governed entities.** Use **Signature** only for entities already governed by signature patterns, such as `U.Signature`. On faces, use **TechName** or **PlainName**.
 4. **Set-returning comparison.** Whenever a face shows selection or comparison, it returns sets or declared partial orders and does not hide scalarization; cite a `ComparatorSetRef` for any total order.
 5. **Bridge crossing penalties.** Crossings cite Bridge and CL; publish `Φ(CL)` and `Φ_plane` ids; penalties apply to R only (never F or G).
-6. **Carrier references and lanes.** On first mention, name carrier references and any A.10/G.6 source-currentness or provenance records when downstream reliance is current; keep `U.Work` occurrences distinct from epistemic claims via lanes.
+6. **Carrier references and relation positions.** On first mention, name carrier references and any A.10/G.6 source-currentness or provenance records when downstream reliance is current; keep `U.Work` occurrences distinct from epistemic claims via relation positions.
 7. **Publication is not execution.** Faces carry no time or resource semantics; any build, render, or upload work is separate **`U.Work`**.
 
 #### E.17:5.5 - Pin & Publication characteristics (normative; never "axes")
@@ -336,7 +336,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 **Terminology (aligned with CHR-MM & UNM).**
 * **Characteristic** (`U.Characteristic`): a measured aspect as defined in CHR-MM (entity characteristic or relation characteristic with a chosen **Scale**).
 * **CharacteristicSpace** (`U.CharacteristicSpace`): a CHR-typed product of slots used by dynamics and measurement theories (A.19).
-* **Publication characteristic** (`U.PubCharacteristic`, **PC**): a **declarative facet** that a view, card, or lane can expose *about a morphism* under a stated **Viewpoint**. Each PC is grounded by CHR and CG-Spec publications and pinned by unit, scale, reference-plane, and edition. PCs are not geometry and do not define axes.
+* **Publication characteristic** (`U.PubCharacteristic`, **PC**): a **declarative facet** that a view, card, or `AssuranceLane` face can expose *about a morphism* under a stated **Viewpoint**. Each PC is grounded by CHR and CG-Spec publications and pinned by unit, scale, reference-plane, and edition. PCs are not geometry and do not define axes.
 
 **PC catalog (initial set).** MVPK defines a minimal open set of PCs that are frequently shown on publication faces:
 * **PC.Number** - numeric or comparable entries (thresholds, budgets, counts). **Pins required:** unit, scale, reference-plane, edition.
@@ -374,7 +374,7 @@ The catalog is open to extension through `U.PubCharacteristic`. PCs remain decla
 * **E17-PC-Ext-4 (Edition discipline).** If a PC depends on a definition or specification publication, edition-pin the reference (`...Ref.edition`) and document edition-change rules.
 
 **Adding invariants.**
-1. Place **new invariants** for PCs in **CG-Spec** (specification lane), not on faces; supply acceptance tests.
+1. Place **new invariants** for PCs in **CG-Spec** (specification-use relation position), not on faces; supply acceptance tests.
 2. Version any affected **CharacteristicSpace**; publish embeddings if semantics change; never mutate slots in place.
 3. Update the relevant **GateChecks** or **GateProfiles** (`A.21`, including GateCrossing checks and crossing-visibility checks from `E.18`, `F.9`, and relevant Part G bridge or crossing wiring) to warn or block on invariant violations; never weaken functorial invariants.
 4. State edition and edition-change rules; name the conformance check that detects the changed invariant and state the **Lean-profile downgrade** result (advisory vs block) where applicable.

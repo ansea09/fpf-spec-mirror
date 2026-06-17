@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 59686
-line_end: 61344
+line_start: 59699
+line_end: 61359
 dependencies:
   - "A.10"
   - "A.15"
@@ -125,11 +125,13 @@ Classification is not closure. A conforming result must end in one of these by-v
 | Durable reusable head, lineage label, concept-set row, cross-context name-use, or UTS-facing name | Apply `F.18` after the selected repair has recovered what the name would name. | Name card or naming row only for durable naming need; one-off local wording closes locally. |
 | Trigger found but kind, relation, substrate, governing pattern, admissible use, or remaining reader move cannot be recovered | Fail closed. | Quote-only wording, reduced-use cue, blocked use, incomplete rewrite, ordinary prose, or not FPF-governed wording. |
 
-`reading`, `read`, and `quality-read` are trigger wording only when the sentence uses the word to carry interpretation, publication use, source-use assignment, evaluation, comparison, evidence, gate, work, decision, release, assurance, or admissibility claim. Do not create `ReadingPrecisionRestoration`. Recover the actual EntityOfConcern, publication lane, evaluation claim or bundle, relation, or work-side kind and apply `C.2.P`, `E.17.ID.CR`, `E.22` plus object-under-improvement evaluation named by value, `A.6.P`, or the neighboring FPF pattern governing that claim.
+`reading`, `read`, and `quality-read` are trigger wording only when the sentence uses the word to carry interpretation, publication use, source-use assignment, evaluation, comparison, evidence, gate, work, decision, release, assurance, or admissibility claim. Do not create `ReadingPrecisionRestoration`. Recover the actual EntityOfConcern, publication relation position, evaluation claim or bundle, relation, or work-side kind and apply `C.2.P`, `E.17.ID.CR`, `E.22` plus object-under-improvement evaluation named by value, `A.6.P`, or the neighboring FPF pattern governing that claim.
 
 `function`, `functional`, `functionality`, and `effect` are trigger wording when the FPF kind named by value, relation, claim, view, or governing-pattern application is hidden. Do not assign the wording by architecture default. `A.6.F` remains the function-like wording unpacker; mathematical function, mapping, relation, loss, objective, value functional, or operator goes to `C.29` when mathematical-lens use is being claimed. Functional-architecture use goes to `C.30` or `C.30.ASV` when the architecture or structural-view claim is recovered by value; architecture-to-`TransformationFlowStructure` use goes to the current Architecture Transformation-Flow Structure Relation (`C.30.TFS-REL`).
 
 `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, and `gate` are source labels when they first arrive from engineering, mathematical, publication, or project prose without a recovered FPF kind. Do not mint `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, or a universal stratification kind. Use `C.30.STRAT` to recover the governing pattern, or go directly to the governing pattern when the FPF kind under repair, relation, claim-use, or source-use disposition is already recovered by value: `C.30.LCA` for control-layer relations, `A.6.M` for module-interface relations, the current Architecture Transformation-Flow Structure Relation (`C.30.TFS-REL`) for architecture-to-`TransformationFlowStructure` claims, `E.18` for selected transformation-flow structure, `C.16.P` or `C.29` for scale relation, coarse-graining relation, or mathematical use, `C.2.P` for publication relation set or source-use relation, and gate patterns, work patterns, or decision patterns when those claims are being made.
+
+Description, publication, and representation mediation source words need the same recovery discipline. Treat `stack`, `lane`, `profile`, `mediation`, `binding`, `representation`, `publication`, `model`, `space`, `graph`, `latent`, `weights`, `embedding`, `vector store`, `carrier`, `dashboard`, `posture`, `route`, `path`, `surface`, and close compounds as trigger wording when the sentence has FPF-governed use and the relation position is hidden. Recover the current EntityOfConcern, relation position, direct governing pattern, admissible use, blocked overread, and remaining reader move before writing the final phrase. Do not replace the trigger with another umbrella head; do not mint a durable name unless `F.18` is explicitly selected.
 
 Local patterns may cite the relevant `E.10` recognition row, but they must not reproduce the wording-recognition table or create local lexical registries unless a named local application profile has its own primary `EntityOfConcern`, first useful move, and governing-pattern boundary. Specialized restoration patterns carry the detailed ontology when the problem is no longer lexical.
 
@@ -155,7 +157,7 @@ After kind and governing pattern recovery, state the remaining admissible reader
 
 Tool-assisted trigger inventories may help find candidate spans, but they cannot close ontological precision repair. Closure remains recovered kind, recovered relation or substrate, admissible use, non-admissible overread, and remaining reader move by value.
 
-**Replacement-candidate closure.** A repair that replaces one trigger word with another word or phrase is not closed until the replacement candidate itself passes the same `E.10` trigger scan. If the candidate is another umbrella word, quasi-scale, process metaphor, role-free deontic word, or untyped head, recover the kind named by value, relation, admissible use, and governing pattern, send a durable naming case to `F.18`, or fail closed. A bounded repair may therefore require repeated `E.10` passes until the candidate wording reaches a stable closure point: ordinary wording with no FPF-governed use, local repair with recovered kind and use, governing-pattern application, `F.18` durable-name result, controlled precision-reduction result, or explicit blocker. Do not accept a smoother synonym as repair evidence.
+**Replacement-candidate closure.** A repair that replaces one trigger word with another word or phrase is not closed until the replacement candidate itself passes the same `E.10` trigger scan. If the candidate is another umbrella word, quasi-scale, process metaphor, role-free deontic word, or untyped head, recover the kind named by value, relation, admissible use, and governing pattern, apply `F.18` when a durable name is being minted, or fail closed. A bounded repair may therefore require repeated `E.10` passes until the candidate wording reaches a stable closure point: ordinary wording with no FPF-governed use, local repair with recovered kind and use, governing-pattern application, `F.18` durable-name result, controlled precision-reduction result, or explicit blocker. Do not accept a smoother synonym as repair evidence.
 
 #### E.10:0.2b - Wording-Use Trigger Check Registry
 
@@ -1186,7 +1188,7 @@ Do **not** mint *ETLService* at kernel level. Model ETL as `MethodDescription`; 
 
 > **Principle.** Form follows the **FPF kind being named**. A token’s morphology (suffix, prefix, and casing) must (a) express **what kind of thing** it names, (b) respect **MG-DA** (Minimal Generality and Domain Anchoring), and (c) pass **LEX.TokenClass** gates:
 > `LEX.TokenClass(token) ∈ {KernelToken | ContextToken | DiscriminatorToken}`.
-> Morphological choices never override **EntityOfConcern, Description episteme, specification use, and publication lanes** or **CHR\:ReferencePlane** semantics.
+> Morphological choices never override **EntityOfConcern, Description episteme, specification use, publication faces, publication forms, `PublicationUnit`s, carriers, renderings,** or **CHR\:ReferencePlane** semantics.
 
 #### E.10:8.0 - Casing and basic forms
 
@@ -1198,7 +1200,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 
 #### E.10:8.1 - Reserved suffixes (gated by LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification use)
 
-> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. The EntityOfConcern and Description-episteme boundary and specification-use gate prevents EntityOfConcern, Description episteme, specification use, and publication-lane confusion; “Examples” are illustrative.
+> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. The EntityOfConcern and Description-episteme boundary and specification-use gate prevents EntityOfConcern, Description episteme, specification use, and publication-relation confusion; “Examples” are illustrative.
 
 | **Suffix**              | **Kind named by suffix**                   | **EntityOfConcern and Description-episteme boundary and specification-use gate**                       | **LEX.TokenClass gate**         | **Examples**                                      | **Forbidden misuses (typical)**                                       |
 | ----------------------- | ------------------------------------------ | ------------------------------------ | ------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
@@ -1248,11 +1250,11 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 * Suffixes are closely related to kinds and **should** be clearly guarded by MG-DA.
 * Other morphemes (not only suffixes) also **must** respect kinds. For example, **Space is a geometric concept** — **never** use it as a suffix (`…Space…`) or other morpheme in beginning or in the middle of a term to name non‑geometric entities (e.g. prefer **Set**, **Kid**, or **Kit** instead of **Space** where membership is intended).
 
-**L-EPI-PUB — episteme, publication, view, carrier, and authority-reference lane discipline**
+**L-EPI-PUB — episteme, publication, view, carrier, and authority-reference relation-position discipline**
 * Use `U.Episteme` for the claim-bearing unit. Use `U.EpistemePublication` or governed `U.Episteme` publication only when that episteme is available as a published episteme under C.2.1 and E.17 discipline.
-* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, typed route-bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
-* Name the carrier or rendering lane separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
+* Name the carrier or rendering relation separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
 * Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign wording, generic episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the P2W chain element being used: intended method family, selected method or method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
@@ -1426,11 +1428,11 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge or a
 
 > **What this section does.** LEX L-rules standardise **how we recover kind and use** in Core and Context when overloaded everyday words hide FPF concepts.
 > **What this section does not do.** It does **not** restate naming (see **§ 7 MG-DA**) or morphology, casing, and suffix rules (see **§ 8 LEX.Morph**); it **depends** on them.
-> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs a granting gate named by value; publication faces, forms, units, carriers, and renderings stay in publication lanes. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
+> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs a granting gate named by value; publication faces, publication forms, `PublicationUnit`s, carriers, and renderings stay separate. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
 
 #### E.10:9.1 - Hard bans and ontology recovery rows (single table; normative)
 
-> **Use this table mechanically.** “Ban” means the listed phrase is **not allowed** in Core prose, identifiers, or diagrams unless the **canonical** appears alongside it (or as a registered Context alias). EntityOfConcern and Description-episteme boundary, specification-use gates, and token gates prevent EntityOfConcern, Description episteme, specification use, publication-lane, and TokenClass leaks (cf. § 8.1).
+> **Use this table mechanically.** “Ban” means the listed phrase is **not allowed** in Core prose, identifiers, or diagrams unless the **canonical** appears alongside it (or as a registered Context alias). EntityOfConcern and Description-episteme boundary, specification-use gates, and token gates prevent EntityOfConcern, Description episteme, specification use, publication-position, and TokenClass leaks (cf. § 8.1).
 
 | **L‑rule**   | **Ambiguous or low-precision word (Ban)**                  | **Canonical FPF target(s)**                                                                                                                                                                     | **EntityOfConcern and Description-episteme boundary and specification-use gate**                                                                       | **TokenClass gate**                         | **Notes**                                                                                            |
 | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -1470,7 +1472,7 @@ Use these rows as compact diagnostics for common ontology recoveries, not as a r
 A text **passes** LEX if all answers are **Green**:
 
 1. **Context named.** Polysemous terms appear **inside a named `U.BoundedContext`** (or the page declares a local context card).
-2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication-lane, and run-record uses are not conflated (cf. § 8.1 gates).
+2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication relation, and run-record uses are not conflated (cf. § 8.1 gates).
 3. **Promise, ability, and performance split.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
 4. **No anthropomorphism.** Documents, datasets, and models do not “do”; **Systems** do.
 5. **Scheduling hygiene.** No actuals on `WorkPlan`; all actuals belong on `Work`.
@@ -1685,7 +1687,7 @@ The platform records an object-storage service promise (access = `S3_API_Spec_vX
 * **Acts and tokens.** LEX applies to **tokens**; USM applies to **acts**: mint, rename, and use. Conformance:
   `LEX.TokenClass(t)=c  ⇒  USM.Scope(usage) ∈ AllowedScopes(c)` (§ 7.5).
 * **Guards honoured.** DevOps Lexical Firewall and Unidirectional Dependency remain intact.
-* **Reserved “plane”.** Only **`CHR:ReferencePlane`** uses the bare word *plane*. E.10.D2 is the EntityOfConcern and Description-episteme boundary plus specification-use gates, with publication lanes kept separate; all other category talk is expressed as **Characteristics** in a **CharacteristicSpace** when scale semantics are declared.
+* **Reserved “plane”.** Only **`CHR:ReferencePlane`** uses the bare word *plane*. E.10.D2 is the EntityOfConcern and Description-episteme boundary plus specification-use gates, with publication faces, publication forms, `PublicationUnit`s, carriers, and renderings kept separate; all other category talk is expressed as **Characteristics** in a **CharacteristicSpace** when scale semantics are declared.
 
 > **One-line memory:** *“E.10 keeps words honest so ideas stay composable.”*
 

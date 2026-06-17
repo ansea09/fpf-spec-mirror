@@ -6,12 +6,12 @@ section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 64255
-line_end: 64277
+line_start: 64270
+line_end: 64292
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -54,7 +54,7 @@ This sequence preserves provenance and avoids pretending that the reusable famil
 
 #### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
-If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those roles explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
+If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those positions explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
 
 #### E.17.1:17.4 - Boundary to annex growth
 

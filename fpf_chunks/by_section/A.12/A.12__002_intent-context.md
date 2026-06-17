@@ -6,12 +6,12 @@ section_id: "A.12:1"
 section_title: "Intent & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__002_intent-context.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:1 — Intent & Context"
-line_start: 19682
-line_end: 19693
+line_start: 19689
+line_end: 19700
 dependencies:
   - "A.3"
   - "B.2.5"

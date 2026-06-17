@@ -6,12 +6,12 @@ section_id: "E.18.2:5"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__006_conformance-checklist.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:5 — Conformance checklist"
-line_start: 68596
-line_end: 68608
+line_start: 68613
+line_end: 68625
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,6 +50,6 @@ keywords:
 - `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, and wiring language stays mathematical-description language unless another governing pattern explicitly makes the selected structure current.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
 - `CC-E18.2-8` Publication faces are separated from mathematical description and handled through `E.17` when publication is current.
-- `CC-E18.2-9` Work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are sent to their governing patterns.
+- `CC-E18.2-9` When work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the direct pattern governing that claim. E.18.2 records only the mathematical-description relation for the selected transformation-flow structure.
 - `CC-E18.2-10` A source artifact that carries several claims is split into records by current EntityOfConcern and relation position, not by the artifact's name.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
-line_start: 31996
-line_end: 32138
+line_start: 32003
+line_end: 32145
 dependencies:
   - "A.1"
   - "A.15"

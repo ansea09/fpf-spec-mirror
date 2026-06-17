@@ -6,12 +6,12 @@ section_id: "C.16.P:6"
 section_title: "Governing-Pattern Exits Named by Value"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__008_governing-pattern-exits-named-by-value.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6 — Governing-Pattern Exits Named by Value"
-line_start: 42281
-line_end: 42301
+line_start: 42290
+line_end: 42310
 dependencies:
   - "A.10"
   - "A.15"

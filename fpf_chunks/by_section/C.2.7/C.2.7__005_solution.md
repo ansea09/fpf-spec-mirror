@@ -6,12 +6,12 @@ section_id: "C.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__005_solution.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:4 — Solution"
-line_start: 37843
-line_end: 37871
+line_start: 37853
+line_end: 37882
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,18 +45,19 @@ A Context may publish a local alias such as `EncodingBasis`, but it shall dock b
 | Factor | Question it answers | Typical values |
 |---|---|---|
 | `LocalityDistribution` | Is the representation concentrated in local units or distributed across many units? | local / mixed / distributed |
-| `Sparsity` | How concentrated is activation or descriptive support? | sparse / mixed / dense |
+| `Sparsity` | How concentrated are activation, representation use, or descriptive marks? | sparse / mixed / dense |
 | `Symbolicity` | How explicit are the symbolic structures and tokens? | symbolic / mixed / subsymbolic |
 
 #### C.2.7:4.2 - Non-collapse rules
+
 `LanguageStateRepresentationFactorBundle` is not:
 
 - `LanguageStateAnchoringMode`;
-- `Formality`;
 - `ArticulationExplicitness`;
-- `LanguageStateClosureDegree`.
+- `LanguageStateClosureDegree`;
+- evidence, source-currentness, publication authority, work permission, or gate readiness.
 
-A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible.
+A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible. A model-state, embedding, vector-store relation, or operator-facing publication face may fill one or more representation factors, but the factor bundle does not decide the episteme, carrier, evidence, bridge, work, or gate relation by itself.
 
 #### C.2.7:4.3 - Extension rule
 Contexts may add extra representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.

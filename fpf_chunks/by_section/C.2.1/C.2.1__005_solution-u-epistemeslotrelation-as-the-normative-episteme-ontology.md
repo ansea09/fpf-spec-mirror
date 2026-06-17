@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution - U.EpistemeSlotRelation as the normative episteme ontology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotrelation-as-the-normative-episteme-ontology.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:4 — Solution - U.EpistemeSlotRelation as the normative episteme ontology"
-line_start: 34740
-line_end: 35122
+line_start: 34747
+line_end: 35131
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -168,7 +168,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 **Intent.** Distinguish **view‑epistemes** (views **of** Description epistemes or Description epistemes admitted for specification use) from both:
 
 * the underlying Description epistemes or Description epistemes admitted for specification use themselves, and
-* the MVPK `publication face/form`/`interop publication form` `publication-face kind` values and the publication-side carriers/renderings on which views are made available (E.17, publication-face/form discipline, and A.10 carrier/source-currentness relations when evidence or reliance use is current).
+* the MVPK literal `publication face/form` and `interop publication form` values of `publication-face kind`, plus the publication-side carriers and renderings on which views are made available (E.17, publication-face-kind discipline, and A.10 carrier/source-currentness relations when evidence or reliance use is current).
 
 **Normative definition.**
 
@@ -184,7 +184,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
    * **ValueKind** is `U.View`,
    * **RefKind** is `U.ViewRef` (or `U.EpistemeViewRef` species),
    * intended usage is **in meta‑structures** such as `U.MultiViewDescribing` families and MVPK.
-4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `publication-face kind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label or publication-form profile, `publication face/form` kind or `interop publication form` kind, and carrier or rendering remain separate lanes.
+4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `publication-face kind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label, publication-form profile, literal `publication face/form` or `interop publication form` `publication-face kind` value, and carrier or rendering remain separate relation positions.
 
 **Didactic cue.**
 “Ask: *Which particular slice of the description under this viewpoint are we talking about?* That is the View.”
@@ -238,8 +238,8 @@ without changing:
 * the minimal `U.EpistemeCard` interface,
 * or the assumptions A.6.2-A.6.4 / E.17.* make about episteme components.
 
-In C.2.1+ `U.PresentationCarrier`, publication face/form values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
-`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face/form discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces/forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
+In C.2.1+ `U.PresentationCarrier`, publication-face-kind values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
+`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face-kind discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces, publication forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
 
 ##### C.2.1:4.1.8 - Attached epistemic structures (non-slot components)
 
@@ -292,7 +292,7 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
 
 1. A filled episteme value assignment supplies one governed value or reference for each asserted SlotKind in the associated `U.EpistemeKind`:
    * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot's **ValueKind** or a reference value of **RefKind**, if the kind is configured as such.
-2. The filled assignment is **notation-agnostic** and **carrier-agnostic**: it does not know about files, formats, publication faces/forms, or carriers.
+2. The filled assignment is **notation-agnostic** and **carrier-agnostic**: it does not know about files, formats, publication faces, publication forms, or carriers.
    It exists to give A.6.2-A.6.4 a minimal notion of "episteme as a filled point over the episteme SlotRelation".
 3. Under `C.29`, the same filled assignment may be viewed as a tuple when tuple reasoning is the selected mathematical lens. That tuple view is a mathematical-lens representation of the filled SlotRelation, not a second episteme kind and not a replacement for graph-valued fillers such as `U.ClaimGraph`.
 4. In ordinary episteme work, the filled assignment rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta-information).
@@ -319,9 +319,9 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
    * `meta : Edition/Provenance/Status…`.
      Minimal episteme identity is the pair `⟨content, entityOfConcernRef⟩` within a `U.BoundedContext`; all other fields are optional at the genus level but may be mandatory in species. Changes that alter `content` or the effective `referenceScheme` (or that intentionally re-identify `entityOfConcernRef`) **SHALL** be realised as new phases in an `U.EditionSeries` (PhaseOf chain) under A.14 and A.7. Changes confined to `U.PresentationCarrier`, publication-side values, MVPK face, carrier, or rendering relations **do not** create a new episteme; they are captured as publication work over the same `U.Episteme`.
 2. **`U.EpistemePublication`.**
-   A species representing **epistemes that have been published** through publication faces/forms or MVPK relations. It:
+   A species representing **epistemes that have been published** through publication faces, publication forms, or MVPK relations. It:
    * has at least the components of `U.EpistemeCard`,
-   * plus references to MVPK `U.View`, face identity, `publication face/form` and `interop publication form` `publication-face kind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and publication-face/form discipline,
+   * plus references to MVPK `U.View`, face identity, literal `publication face/form` or `interop publication form` `publication-face kind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and publication-face-kind discipline,
 
    * but **does not** re-interpret face labels, `publication-face kind` values, or carriers/renderings as parts of the episteme; carriers remain external.
 
@@ -341,19 +341,21 @@ This ensures that A.6.2–A.6.4 can treat any `U.Episteme*` uniformly as both:
 * a category-theory object in the category **Ep**, and
 * a structured holon with components.
 
-##### C.2.1:4.2.3a - Episteme, publication, view, carrier, cue, and authority-reference lanes  *(normative)*
+##### C.2.1:4.2.3a - Episteme, publication, view, carrier, cue, and authority-reference relation positions  *(normative)*
 
 C.2.1 is the default FPF pattern for claim-bearing units. Do not mint a generic `U.SemioObject`, `U.SemioticObject`, `U.SignObject`, `U.WorkingObject`, or `U.SourceMaterial` when the claim-bearing unit in question should be modeled as an episteme. Use `U.Episteme` or a declared species of `U.Episteme`.
 
-When the same claim-bearing unit is available to readers, tools, or downstream work as a published episteme, name that lane as `U.EpistemePublication` or as a governed `U.Episteme` publication. Then keep the adjacent lanes separate:
+When the same claim-bearing unit is available to readers, tools, or downstream work as a published episteme, name that relation position as `U.EpistemePublication` or as a governed `U.Episteme` publication. Then keep the adjacent relation positions separate:
 
-* **publication form** — the concrete form in which the episteme is made available for some use, such as a cue pack, transfer-prepared claim set, prompt form, partial normal form, record, card, table, or profile;
-* **view, including MVPK face** — `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
-* **carrier or rendering** — the document, dashboard, generated screen, trace file, transport envelope, display, or A.10 carrier/source-currentness record that bears or renders a publication;
-* **source-finding cue** — a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
-* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, decision record, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
+* **publication form** - the concrete form in which the episteme is made available for some use, such as a cue pack, transfer-prepared claim set, prompt form, partial normal form, record, card, table, or local C.29 output;
+* **view, including MVPK face** - `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
+* **carrier or rendering** - the document, dashboard, generated screen, trace file, transport envelope, display, or A.10 carrier/source-currentness record that bears or renders a publication;
+* **source-finding cue** - a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
+* **governing pattern reference and authority-reference field** - `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, decision record, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
 
-No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own P2W lanes rather than storing them inside the episteme or its carrier.
+For latent, distributed, reconstructed, or model-state material, do not call the encountered material a `U.Episteme` merely because it can be decoded into prose, embedded in a vector space, or shown as a dashboard cue. It becomes an episteme only when the needed C.2.1 positions are recoverable for the current use: at least the `EntityOfConcernSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot` or equivalent interpretation rule, and any current grounding, viewpoint, view, publication, carrier, source-use, evidence, or authority-reference relation named by the direct governing pattern.
+
+No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own work-side patterns rather than storing them inside the episteme or its carrier.
 
 ##### C.2.1:4.2.4 - SlotKind / ValueKind / RefKind discipline for EntityOfConcern & GroundingHolon
 

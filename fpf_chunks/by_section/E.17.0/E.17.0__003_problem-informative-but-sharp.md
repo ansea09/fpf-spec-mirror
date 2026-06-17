@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem  (informative, but sharp)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem-informative-but-sharp.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:2 — Problem  (informative, but sharp)"
-line_start: 63592
-line_end: 63615
+line_start: 63607
+line_end: 63630
 dependencies:
   - "A.15"
   - "A.2"
@@ -40,10 +40,10 @@ keywords:
 
 Without `U.MultiViewDescribing`:
 
-1. **Viewpoints, views, `publication face/form` and `interop publication form` kinds, and carrier renderings collapse.**
+1. **Viewpoints, views, publication-face-kind values, and carrier renderings collapse.**
    In practice, “architecture view”, “diagram”, “spec”, and “published deck” are used interchangeably. This:
 
-   * confuses *episteme* (`U.View`) with `publication face/form` or `interop publication form` kind or with a concrete carrier rendering,
+   * confuses *episteme* (`U.View`) with publication-face-kind values (`publication face/form` or `interop publication form`) or with a concrete carrier rendering,
    * hides which **concerns and stakeholders** a description is written for,
    * makes it impossible to check whether a given description family is “complete enough” for a chosen viewpoint library.
 

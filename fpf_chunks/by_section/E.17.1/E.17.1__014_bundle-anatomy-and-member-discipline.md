@@ -6,12 +6,12 @@ section_id: "E.17.1:13"
 section_title: "Bundle Anatomy and Member Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__014_bundle-anatomy-and-member-discipline.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:13 — Bundle Anatomy and Member Discipline"
-line_start: 64106
-line_end: 64143
+line_start: 64121
+line_end: 64158
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -68,7 +68,7 @@ If the member viewpoints do not share that family-level purpose, the result is n
 
 - lexical discipline notes,
 - bridge overlays,
-- routing notes,
+- A.16 move-publication notes,
 - worked examples,
 - or SoTA references
 

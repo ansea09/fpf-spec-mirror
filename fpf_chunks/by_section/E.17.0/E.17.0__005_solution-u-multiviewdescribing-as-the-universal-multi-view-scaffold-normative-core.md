@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution — U.MultiViewDescribing as the universal multi‑view scaffold  (normative core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution-u-multiviewdescribing-as-the-universal-multi-view-scaffold-normative-core.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:4 — Solution — U.MultiViewDescribing as the universal multi‑view scaffold  (normative core)"
-line_start: 63627
-line_end: 63834
+line_start: 63642
+line_end: 63849
 dependencies:
   - "A.15"
   - "A.2"
@@ -43,7 +43,7 @@ keywords:
 `U.MultiViewDescribing` organises **families of Description epistemes and specification-use Description epistemes** for a shared entity of concern into a multi‑view structure with:
 
 * **explicit viewpoints** (`U.Viewpoint`) as specifications of stakeholder families, concern entries, allowed Description kinds and specification-use gates, and conformance rules;
-* **episteme-lane views** (`U.View = U.EpistemeView`) as view-epistemes over those Description epistemes and specification-use cases;
+* **episteme-side views** (`U.View = U.EpistemeView`) as view-epistemes over those Description epistemes and specification-use cases;
 * a **CorrespondenceModel** capturing correspondences between Description epistemes, including Description epistemes admitted for specification use and their views across viewpoints.
 
 The pattern's EntityOfConcern class is explicit:
@@ -101,7 +101,7 @@ A `U.Viewpoint` is a viewpoint specification:
 * `ViewpointSlot` has ValueKind `U.Viewpoint`, RefKind `U.ViewpointRef`; episteme fields are named `viewpointRef : U.ViewpointRef?`.
 * For Description epistemes, including Description epistemes admitted for specification use in a `U.MultiViewDescribing` family, `viewpointRef` is **mandatory** as part of `DescriptionContext`.
 
-##### E.17.0:4.2.3 - `U.View` (episteme-lane views)
+##### E.17.0:4.2.3 - `U.View` (episteme-side views)
 
 `U.View` is the selected short form for `U.EpistemeView`, a species of `U.Episteme` whose kind includes:
 
@@ -210,12 +210,12 @@ When views or Description epistemes, including Description epistemes admitted fo
 `U.MultiViewDescribing` is purely **epistemic**:
 
 * Description epistemes, Description epistemes admitted for specification use, and views live entirely in Ep-space (`U.Episteme`);
-* it does **not** define `publication face/form`/`interop publication form` kind, carriers, or rendering;
+* it does **not** define publication-face-kind values, carriers, or rendering;
 * MVPK (E.17) sits **on top**:
 
   * taking morphisms, Description epistemes, or both, including Description epistemes admitted for specification use as input,
   * using `U.EpistemicViewing` plus publication‑specific viewpoints,
-  * emitting `U.View` instances declared against `publication face/form`/`interop publication form` kind via publication-face/form discipline.
+  * emitting `U.View` instances declared against literal `publication face/form` or `interop publication form` `publication-face kind` values via publication-face-kind discipline.
 
 MultiViewDescribing therefore **does not re‑define EntityOfConcern-to-Description or specification-use refinement** (`Describe_EoC_DescEp` plus `specificationUseRef` when a neighbouring gate grants specification force) and does not introduce any `U.Work` on carriers; A.7 carries the describing boundary, A.6.2 and neighboring pattern governing the claiming gates carry specification-use refinement, and E.17 carries publication.
 
@@ -233,7 +233,7 @@ For any `U.MultiViewDescribing` instance:
 2. Viewings and correspondence operations **must not**:
 
    * collapse the EntityOfConcern for this describing use into the produced Description episteme or Description episteme admitted for specification use,
-   * confuse Description epistemes or Description epistemes admitted for specification use with `publication face/form`/`interop publication form` kind or carrier rendering,
+   * confuse Description epistemes or Description epistemes admitted for specification use with publication-face-kind values or carrier rendering,
    * reinterpret EntityOfConcern without going through A.6.4 retargeting.
 
 #### E.17.0:4.3.7 - MVD‑7 - Slot discipline

@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_worked-cases.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Worked cases"
-line_start: 77083
-line_end: 77141
+line_start: 77100
+line_end: 77158
 dependencies:
   - "A.10"
   - "A.15.1"

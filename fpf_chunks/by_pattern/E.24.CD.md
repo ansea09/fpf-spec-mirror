@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.CD.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
-line_start: 71023
-line_end: 71322
+line_start: 71040
+line_end: 71339
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.24.CD:0 - Use This When
 
-Use this pattern when a recurring FPF construct is an ontic candidate, but the current evidence is still a tangle of names, fields, cards, records, tables, schemas, diagrams, views, examples, or nearby pattern fragments.
+Use this pattern when a recurring FPF construct is an ontic candidate, but the current source material is still a tangle of names, fields, cards, records, tables, schemas, diagrams, views, examples, or nearby pattern fragments.
 
 Typical moments:
 
@@ -269,8 +269,8 @@ The mitigation is concrete: recover the recognizable concern, typed values, curr
 | `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
 | `CC-E24CD-6` | Durable ontic candidates carry a sufficiency rationale with identity hint, possible slot relation, semantic area, ontological neighborhood, dependent-pattern need, duplicate-ontology risk, first-use gain, and non-use boundary. |
 | `CC-E24CD-7` | Local use frames are explicitly non-`U.*` and do not become registries, evidence records, gate records, methods, mechanisms, work plans, or work occurrences. |
-| `CC-E24CD-8` | Publication-form confusion is sent to `E.24.PUB` rather than solved by declaring the form to be the ontic. |
-| `CC-E24CD-9` | Contested comparison of architecture alternatives is sent to `A.19.ECS` rather than built into E.24.CD. |
+| `CC-E24CD-8` | When publication-form confusion is current, apply `E.24.PUB` rather than solving the confusion by declaring the form to be the ontic. |
+| `CC-E24CD-9` | When contested comparison of architecture alternatives is current, apply `A.19.ECS` rather than building the comparison into E.24.CD. |
 | `CC-E24CD-10` | The stop condition names one next governing pattern or reduced-use disposition. |
 
 ### E.24.CD:8 - Common Anti-Patterns and How to Avoid Them

@@ -6,12 +6,12 @@ section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
   - "F.5:5 — Archetypal Grounding"
-line_start: 73317
-line_end: 73354
+line_start: 73334
+line_end: 73371
 dependencies:
   - "A.15"
   - "A.2"

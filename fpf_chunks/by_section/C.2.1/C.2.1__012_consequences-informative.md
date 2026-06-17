@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_consequences-informative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:11 — Consequences  (informative)"
-line_start: 35406
-line_end: 35457
+line_start: 35415
+line_end: 35466
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -51,7 +51,7 @@ keywords:
 * **Repair effort.**
   Uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `...Ref` fields need repair into C.2.1 slots + A.6.5 SlotSpecs when the claim is current. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; such wording is source material for repair, not a current alternate vocabulary.
 * **Exposure of representation biases.**
-  Being explicit about RepresentationSchemes and Operations may surface disagreements about which representations are “primary” in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
+  Being explicit about RepresentationSchemes and Operations may make disagreements visible about which representations are "primary" in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
 
 #### C.2.1:12 - Relations  *(overview)*
 
@@ -74,7 +74,7 @@ keywords:
 * A.6.3 `U.EpistemicViewing` — as the substrate for entityOfConcern‑preserving projections (views).
 * A.6.4 `U.EpistemicRetargeting` — as the substrate for EntityOfConcern-bundle retargeting transforms between epistemes (Ep→Ep with `entityOfConcernChangeMode = retarget`).
 * E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints and `EntityOfConcernClass` constraints.
-* E.17 (MVPK) — to publish episteme views through publication faces/forms and carriers.
+* E.17 (MVPK) — to publish episteme views through publication faces, publication forms, and carriers.
 * E.18 - to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well-typed `U.EpistemeSlotRelation`.
 
 Together, these relations make `U.EpistemeSlotRelation` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.

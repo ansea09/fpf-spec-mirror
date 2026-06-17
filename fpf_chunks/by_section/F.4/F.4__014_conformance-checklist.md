@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:12 — Conformance Checklist"
-line_start: 73115
-line_end: 73130
+line_start: 73132
+line_end: 73147
 dependencies:
   - "A.15"
   - "A.15.1"

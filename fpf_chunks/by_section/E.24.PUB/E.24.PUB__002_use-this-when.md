@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:0 — Use This When"
-line_start: 71329
-line_end: 71353
+line_start: 71346
+line_end: 71370
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -55,5 +55,5 @@ Typical moments:
 - If the current question is whether a construct deserves a durable ontic, use `E.24.CD` and then `E.24`.
 - If the current question is generic multi-view publication or viewpoint packaging, use `E.17` and its dependent patterns.
 - If the current question is wording-use repair, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
-- If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary between the ontic and its publication-facing description stack.
+- If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary among the ontic, its ontic-description episteme, the publication, and the publication form.
 

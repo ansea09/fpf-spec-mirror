@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 66943
-line_end: 67022
+line_start: 66959
+line_end: 67038
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,18 +39,18 @@ keywords:
 
 > `Local Head Restoration` repairs the overloaded local lexical head before the rest of the publication unit is allowed to inherit it.
 >
-> It restores lexical-head kind, active local reading, carried move or question under repair, and any family, governing-pattern, and primary-entity/relation stack that the sentence is quietly relying on.
+> It restores lexical-head kind, active local reading, carried move or question under repair, and any family, governing-pattern, primary entity, and active relation that the sentence is quietly relying on.
 
 #### E.17.AUD.LHR:3.1 - Pairwise plain glosses
 
 - **Pressured local lexical head** = the word doing more work than the sentence has honestly restored.
 - **Lexical-head kind** = what FPF kind or locally declared head that word names here: for example description, carrier, publication unit, EntityOfConcern, relation record, face, or view.
-- **Active lane** = where the local work is happening here: for example review, publication, comparison, process, or authority.
-- **Active primary entity or relation named by value/claim** = what the local sentence or publication unit is actually about here, when such an object is active.
-- **Move or question under repair** = what the sentence is doing with the active primary entity, relation named by value/claim, or local lexical-head repair object, if anything.
-- **Family, governing-pattern, and primary-entity/relation stack** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity or relation named by value/claim, carried move or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
+- **Active local work position** = where the local work is happening here: for example review, publication, comparison, process, or authority.
+- **Active primary entity or relation** = what the local sentence or publication unit is actually about here, when such an object or relation is active.
+- **Move or question under repair** = what the sentence is doing with the active primary entity, active relation, or local lexical-head repair object, if anything.
+- **Family, governing pattern, primary entity, and active relation set** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity, active relation, carried move or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
 
-**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication-form lane, publication-face lane, and carrier lane, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which lane is primary, what active primary entity or relation named by value/claim is in play, what carried move or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
+**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication form, publication face, and carrier relation, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which local work position is primary, what active primary entity or relation is in play, what carried move or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
 
 #### E.17.AUD.LHR:3.2 - Ordinary working card
 
@@ -61,7 +61,7 @@ Use this five-row card for ordinary cases:
 | 1 | Which trigger word is carrying unresolved semantic load? |
 | 2 | What lexical-head kind is it honestly naming here? |
 | 3 | Which local reading is actually primary here? |
-| 4 | What active primary entity or relation named by value/claim, carried move or question under repair, and outside work are actually in play here? |
+| 4 | What active primary entity or relation, carried move or question under repair, and outside work are actually in play here? |
 | 5 | After one honest repair, is local restoration enough, or does another governing FPF pattern or project-side FPF kind and reference named by value now govern the case? |
 
 Treat that card as the recognition block. It is a local repair aid, not a universal sequence rail.
@@ -70,7 +70,7 @@ Use it while one overloaded local lexical head remains the main defect.
 When family or governing-pattern language is load-bearing, add one explicit conditional output line next to the card: `repair disposition = ... | governing pattern = ... | primary entity/relation = ... | move = ... | outside work = ...`.
 
 Read the card as a three-way recovery aid:
-- if rows 1-5 stabilize around one repaired local lexical head, one restored lane, one active primary entity or relation named by value/claim, and one honest local question, stay here;
+- if rows 1-5 stabilize around one repaired local lexical head, one restored local work position, one active primary entity or relation, and one honest local question, stay here;
 - if rows 1-5 stabilize locally and the remaining question is one bounded comparative review move over already pinned source epistemes or publications, apply `E.17.ID.CR` rather than thickening this local lexical-head repair pattern;
 - if rows 2-5 still cannot stay stable because the same publication unit keeps borrowing a different object, move, or outside-work boundary from the same local lexical head, apply `E.17.AUD.OOTD` instead of pretending one more qualifier will rescue the same unit.
 
@@ -85,10 +85,10 @@ If the local case is close to a neighbouring-pattern boundary and the ordinary c
 - overloaded local lexical head;
 - restored lexical-head kind;
 - restored active local reading;
-- restored primary entity or relation named by value/claim;
+- restored active primary entity or relation;
 - restored carried move or question under repair;
 - restored outside-work boundary;
-- any family, governing pattern, and primary-entity/relation distinction now made explicit;
+- any family, governing pattern, primary entity, and active relation distinction now made explicit;
 - governing-pattern and project-side-reference decision.
 
 Use that extension as the assurance section only when ordinary repair is already holding and the remaining risk is misuse at a neighboring-pattern boundary.
@@ -103,9 +103,9 @@ Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
 3. restore the active local reading;
-4. restore the active primary entity or relation named by value/claim when one is active;
+4. restore the active primary entity or relation when one is active;
 5. restore the carried move or question under repair, if any;
-6. restore any family, governing pattern, and primary-entity/relation distinction and nearest outside-work boundary the sentence is relying on;
+6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. decide which of three repair dispositions is honest: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
 
 A narrowing qualifier alone does not count as restoration.

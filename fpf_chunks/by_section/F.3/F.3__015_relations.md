@@ -6,12 +6,12 @@ section_id: "F.3:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__015_relations.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:14 — Relations"
-line_start: 72775
-line_end: 72789
+line_start: 72792
+line_end: 72806
 dependencies:
   - "A.11"
   - "A.7"

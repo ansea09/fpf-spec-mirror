@@ -6,12 +6,12 @@ section_id: "E.17.0:7"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_consequences-informative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:7 — Consequences  (informative)"
-line_start: 63882
-line_end: 63901
+line_start: 63897
+line_end: 63916
 dependencies:
   - "A.15"
   - "A.2"
@@ -51,7 +51,7 @@ keywords:
   Consistency and traceability between views are expressed via ClaimGraphs in `U.CorrespondenceModel`, not as scattered hyperlinks or spreadsheet columns.
 
 * **Clean separation of describing vs publishing.**
-  `U.MultiViewDescribing` ends the long‑standing conflation between describing (EntityOfConcern-to-Description plus specification-use) and publication (Description episteme or Description episteme admitted for specification use -> `publication face/form` or `interop publication form` kind plus carrier rendering). MVPK becomes a clean specialisation on top, not a second EntityOfConcern and Description-episteme boundary and specification-use refinement discipline.
+  `U.MultiViewDescribing` ends the long-standing conflation between describing (EntityOfConcern-to-Description plus specification-use) and publication (Description episteme or Description episteme admitted for specification use -> literal `publication face/form` or `interop publication form` `publication-face kind` value plus carrier rendering). MVPK becomes a clean specialisation on top, not a second EntityOfConcern and Description-episteme boundary and specification-use refinement discipline.
 
 * **Slot-specific interoperability.**
   C.2.1/A.6.5 slot discipline applies uniformly; new domains can introduce viewpoint bundles and multi‑view families without inventing new ontologies for view positions or relation positions.

@@ -6,12 +6,12 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 64782
-line_end: 64790
+line_start: 64797
+line_end: 64805
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -41,7 +41,7 @@ keywords:
 * Teams routinely need several **faces** of the *same* arrow: a **`TechCard`** for the catalog, an **`InteropCard`** for machine exchange, a **`PlainView`** for narrative, and an **`AssuranceLane`** for evidence.
 * Informal “renderings” quietly **drift semantics**; **composite arrows** are often published piecemeal, breaking traceability; **evidence** forgets unit, scale, and edition pins.
 * “View” and “viewpoint” are **blurred** in practice; authors conflate **publication** with **mechanism**.
-* publication-face/form discipline requires **`publication-face kind` token discipline**; Core allows only **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad‑hoc `...Surface` kinds).
+* publication-face-kind discipline requires **`publication-face kind` token discipline**; Core allows only literal values **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad-hoc `...Surface` kinds).
 
-**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-lane views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
+**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-side views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
 

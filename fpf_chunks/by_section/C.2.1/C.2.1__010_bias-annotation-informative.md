@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Bias‑annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_bias-annotation-informative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:9 — Bias‑annotation  (informative)"
-line_start: 35320
-line_end: 35339
+line_start: 35329
+line_end: 35348
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -30,7 +30,7 @@ keywords:
 ### C.2.1:9 - Bias‑annotation  *(informative)*
 
 **Episteme‑first and pragmatics‑first.**
-The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: entityOfConcern and concerns are not afterthoughts but part of the core structure. The graph is therefore built around slots for EntityOfConcern, GroundingHolon, Viewpoint and ClaimGraph, not around abstract “propositions in the void”.
+The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: EntityOfConcern and concerns are not afterthoughts but part of the core structure. The slot relation is organized around EntityOfConcern, GroundingHolon, Viewpoint, and ClaimGraph positions, while graph-valued fillers such as `ClaimGraph` and `JustificationGraph` remain distinct values inside those positions.
 
 **Operational/representational bias.**
 C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Novaes’ sense (admitting direct syntactic inference, like pen-and-paper arithmetic or proof states) while others are **purely notational**. The pattern remains neutral on which schemes are used but bakes in a place for operations and carriers so that:

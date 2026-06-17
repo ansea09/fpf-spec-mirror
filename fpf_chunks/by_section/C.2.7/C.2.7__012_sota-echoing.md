@@ -6,12 +6,12 @@ section_id: "C.2.7:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__012_sota-echoing.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:11 — SoTA-Echoing"
-line_start: 37899
-line_end: 37901
+line_start: 37910
+line_end: 37912
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,5 +33,5 @@ keywords:
 ---
 
 ### C.2.7:11 - SoTA-Echoing
-This factorization fits current work on sparse distributed representations, symbolic/neuro-symbolic stacks, and interpretability practice.
+This factorization fits current work on sparse distributed representations, hybrid symbolic/neuro-symbolic representation practices, and interpretability practice.
 

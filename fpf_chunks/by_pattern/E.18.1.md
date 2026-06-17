@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.1.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
-line_start: 68087
-line_end: 68454
+line_start: 68103
+line_end: 68470
 dependencies:
   - "A.10"
   - "A.15"

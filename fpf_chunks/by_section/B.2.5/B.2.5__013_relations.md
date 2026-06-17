@@ -6,12 +6,12 @@ section_id: "B.2.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__013_relations.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Loop"
   - "B.2.5:12 — Relations"
-line_start: 32129
-line_end: 32136
+line_start: 32136
+line_end: 32143
 dependencies:
   - "A.1"
   - "A.15"

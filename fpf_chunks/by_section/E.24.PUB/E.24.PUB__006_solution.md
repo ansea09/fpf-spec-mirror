@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:4 — Solution"
-line_start: 71387
-line_end: 71463
+line_start: 71404
+line_end: 71480
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -34,29 +34,29 @@ keywords:
 
 ### E.24.PUB:4 - Solution
 
-Use the ontic-description stack before writing or revising publication-facing text:
+Use a local relation-position field set before writing or revising publication-facing text. The field set names four different objects and the bounded use; it is not a new `U.*` kind, reusable record family, or coordination pattern.
 
 ```text
-OnticDescriptionStack:
+Ontic-description publication relation positions:
   OnticEoC:
   OnticDescriptionEpisteme:
   DescriptionClaims:
   Publication:
   PublicationForm:
   GovernedUse:
-  NonOverread:
+  BlockedOverread:
   NeighboringPatternIfCurrent:
 ```
 
-Read the stack this way:
+Read the field set this way:
 
 - `OnticEoC` is the ontic itself: for example `U.Ontic`, `U.Episteme`, `U.Structure`, `U.CharacteristicSpace`, `U.BoundedContext`, or another accepted ontic.
 - `OnticDescriptionEpisteme` is the claim structure that describes the ontic and its slot relation.
 - `DescriptionClaims` are the specific claims about identity, slots, admissible values, dependent patterns, invariants, examples, and use boundary.
 - `Publication` is the made-available expression of that episteme.
-- `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another form.
+- `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another publication form.
 - `GovernedUse` says what a user may do with the publication in the current pattern.
-- `NonOverread` blocks the main confusion without listing every generic semio boundary.
+- `BlockedOverread` blocks the main confusion without listing every generic semio boundary.
 - `NeighboringPatternIfCurrent` names the governing neighboring pattern when the current claim belongs elsewhere.
 
 #### E.24.PUB:4.1 - Minimal Boundary Formula
@@ -103,7 +103,7 @@ In a subject pattern, keep the positive subject spine first:
 1. name the EoC and practical situation;
 2. state identity, slot relation, invariants, first-use move, and governed use;
 3. add one compact publication boundary only where needed;
-4. send description-use or publication-use claims to neighboring semio patterns.
+4. when a description-use or publication-use claim is current, recover that claim and apply the neighboring pattern that governs it.
 
 This prevents semio-bias. A pattern about architecture should teach architecture first. A pattern about structure should teach structure first. A pattern about characteristic space should teach characteristic space first. Publication and description boundaries protect those patterns; they do not become their main subject unless the pattern EoC is itself a description or publication.
 

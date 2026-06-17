@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__002_problem-frame.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:1 — Problem frame"
-line_start: 66909
-line_end: 66933
+line_start: 66925
+line_end: 66949
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 The recurring defect is small but expensive:
 - one broad familiar word enters early;
-- the word is never restored to one kind or lane;
+- the word is never restored to one kind or local work position;
 - later sentences inherit its ambiguity as if nothing happened.
 
 Typical load-bearing local heads include:
@@ -58,5 +58,5 @@ Typical load-bearing local heads include:
 - `interpretation`
 - `reading`
 
-These words are not uniformly wrong. They become risky when one of them starts carrying primary-entity/relation load, lane load, move load, or governing-pattern boundary load without being restored first.
+These words are not uniformly wrong. They become risky when one of them starts carrying primary entity, active relation, local work position, move, or governing-pattern boundary load without being restored first.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
-line_start: 44085
-line_end: 44438
+line_start: 44094
+line_end: 44447
 dependencies:
   - "B.3"
   - "C.11"

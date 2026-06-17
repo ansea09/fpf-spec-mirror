@@ -6,12 +6,12 @@ section_id: "E.24.PUB:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__011_consequences.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:9 — Consequences"
-line_start: 71522
-line_end: 71536
+line_start: 71539
+line_end: 71553
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -43,7 +43,7 @@ Positive consequences:
 
 Costs:
 
-- Authors must name the stack explicitly when publication and ontology are easy to confuse.
+- Authors must name the ontic, ontic-description episteme, publication, publication form, and bounded use explicitly when publication and ontology are easy to confuse.
 - Some familiar phrases such as "the diagram shows the architecture" need a more careful interpretation: the diagram publishes an architecture description, and the description concerns an `ArchitectureOf@Context` claim or selected `U.Structure` refs for the described holon in context.
 - Generic semio warnings must be moved out of subject spines.
 

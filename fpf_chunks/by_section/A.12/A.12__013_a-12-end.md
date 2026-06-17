@@ -6,12 +6,12 @@ section_id: "A.12:End"
 section_title: "A.12:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__013_a-12-end.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "A.12 — External Transformer & Reflexive Split"
   - "A.12:End — A.12:End"
-line_start: 19811
-line_end: 19812
+line_start: 19818
+line_end: 19819
 dependencies:
   - "A.3"
   - "B.2.5"

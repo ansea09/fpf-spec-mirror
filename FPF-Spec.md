@@ -12157,7 +12157,7 @@ That ordinary field set is the default. It is admissible for inspection, source-
 
 | Field | Required interpretation in this pattern |
 | --- | --- |
-| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or exact source publication being re-rendered or cited. |
+| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-side `U.View`, or exact source publication being re-rendered or cited. |
 | `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, decoded rendering, or transformation-flow publication rendering. |
 | `preservedEntityOfConcernRef` | The one C.2.1 `entityOfConcernRef` preserved across the representation shift. |
 | `receivingRepresentationOrRendering` | The receiving representation, diagram, table, functional description, decoded rendering, or publication rendering over that same `entityOfConcernRef`; if `entityOfConcernRef` changes, apply `A.6.4`. |
@@ -12248,7 +12248,8 @@ A decode-mediated case, latent-representation case, or distributed-representatio
 - admissible-use value;
 - remaining user action.
 
-Readable decoded output is useful only inside that entry set. If the entry set is missing, keep the use report-only, exploratory, source-bearing reopen, or blocked transfer; if another claim is being made, state the governing pattern for that claim.
+Readable decoded output is useful only inside that entry set. The source expression, latent region, distributed activation pattern, embedding, probe result, or decoded rendering may point to the representation-transition case as a whole or to one relation position inside it; recover the same `entityOfConcernRef`, source claim or publication, decoding or access relation, recoverability evidence, admissible use, and remaining user action separately. If the entry set is missing, keep the use report-only, exploratory, source-bearing reopen, or blocked transfer; if another claim is being made, state the governing pattern for that claim.
+
 
 ##### A.6.3.RT:4.5.d. Composition and reopen rule
 Repeated same-regime normalization may be idempotent, but heterogeneous regime shifts are generally order-sensitive. Multi-publication chains are checked pairwise, but the final use must preserve accumulated loss rather than restarting as if each pair erased earlier losses.
@@ -12471,7 +12472,7 @@ For ordinary use, start with the standard shortcut mini-form:
 | Shortcut | Which cheaper, typed, quantized, symbolic, lower-detail, or otherwise changed representation is used? |
 | Loss | Which precision, expressivity, compatibility, recoverability, or evidence relation is not carried? |
 | Admissible use | Which decision, explanation, triage, comparison, or action-selection move remains admissible for the shortcut? |
-| Reopen | Which dispute, decision change, demand for use with a higher evidence requirement, evidence gap, or recoverability failure sends the user back to the source representation or fuller model? |
+| Reopen | Which dispute, decision change, demand for use with a higher evidence requirement, evidence gap, or recoverability failure requires source-representation return or a fuller model? |
 
 Use a fuller C.26 coarsening record only when the shortcut becomes reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability claims. In that fuller record, add the mechanism, baseline relation, non-admissible use, and QL cue needed for the additional-admissibility claim.
 
@@ -18548,7 +18549,7 @@ Provide a **single, didactically clear lattice of distinctions** that keeps mode
 1. **Role vs Function** (mask vs behaviour),
 2. **MethodDescription vs Method vs Capability vs Work** (description vs abstract way-of-doing vs system ability/envelope vs performed occurrence),
 3. **Holon vs System vs Episteme** (what can act and what cannot),
-4. **EntityOfConcern vs Description episteme, View, and Publication** (the item under concern vs epistemes and publication lanes that make claims about it; specification is a gated use or refinement of a Description episteme, not a third peer member of this distinction).
+4. **EntityOfConcern vs Description episteme, View, and Publication** (the item under concern vs epistemes and publication relation positions that make it available; specification is a gated use or refinement of a Description episteme, not a third peer member of this distinction).
 
 It harmonizes A.2 and A.2.1 (role values and role-assignment relations), A.3.4 (transformation), A.10 (evidence-provenance and carrier/source-currentness relations), A.14 (Advanced Mereology), A.15 (Role-Method-Work Alignment), C.2.1 (`U.EpistemeSlotRelation`), E.17 (publication and view discipline), and F.9, F.17, and F.18 bridge and naming discipline.
 
@@ -18587,11 +18588,11 @@ When documents blur the above lines, three classes of defects appear:
 • **EntityOfConcern and Description-episteme boundary** — the item under concern is separated from Description epistemes (E.10.D2, C.2.1). Specification use is a gated use or refinement of a Description episteme; the exact gate must name checkability, formality plus checkable constraint, harness, acceptance condition, C.16 measurement criterion, verification use, or another specification-granting neighbouring pattern. Specification is not a third member of the strict distinction.
 • **DesignRunTag** — the design vs run DesignRunTag. It is not a temporal “plane”, generic layer, or stance.
 • **Publication face, form, unit, carrier, and rendering boundary** — Description epistemes, including Description epistemes admitted for specification use, may be made available through publication units, publication forms, faces, renderings, and carriers. These publication values are not the `EntityOfConcern` value, not the Description episteme itself, not the specification-use gate or refinement, and not evidence, gate passage, work, assurance, or decision force by readable form. The ordinary didactic faces for architectural patterns in FPF are:
-  {**PlainView** (explanatory prose), **TechCard** (typed cards and IDs), **NormsCard** (TechCard profile for checklists), **AssuranceLane** (evidence bindings and lanes)}. Publication faces and forms are orthogonal to the `EntityOfConcern` and Description-episteme boundary, to specification-use gates and refinements, and to DesignRunTag.
+  {**PlainView** (explanatory prose), **TechCard** (typed cards and IDs), **NormsCard** (TechCard profile for checklists), **AssuranceLane** (evidence bindings)}. Publication faces and forms are orthogonal to the `EntityOfConcern` and Description-episteme boundary, to specification-use gates and refinements, and to DesignRunTag.
 • **Typed describing morphism and specification-use boundary** — `Describe_EoC_DescEp : EntityOfConcern -> DescriptionEpisteme` describes an `EntityOfConcern` value into a Description episteme under a declared construction/reference trace; it is **not** a mechanism and does not execute work. A later refinement, formalisation, or specification-use claim over that Description episteme is governed by the neighboring pattern governing the claim whose force is live: A.6.2 for effect-free episteme refinement, C.2.3 for formality and checkability, A.21 or the relevant gate/acceptance pattern for harness and acceptance force, C.16 for measurement criteria, E.17 for publication expression, and E.10 for suffix discipline. A.7 keeps those boundaries visible but does not turn them into a second strict-distinction member.
   **Laws (normative for A.7):** (DESC-1) *Non-extensibility of content* and (DESC-2) *identity and meaning-preserving composition*. Specification-use/refinement laws are enforced by the neighboring pattern governing the claim that selects the gate and value set.
 
-• **EntityOfConcern / episteme / publication boundary** — `EntityOfConcern` wording names the item under concern under the declared construction/reference trace; it does not name a document, publication face, carrier, or unspecified referent. `Describe_EoC_DescEp` yields a Description-side `U.Episteme` about that `EntityOfConcern` value. A Description episteme may later be used as a specification only when a bounded use declares formality plus checkable constraint, harness, acceptance condition, C.16 measurement criterion, verification use, or another specification-granting gate. Publication faces, cards, views, lanes, records, and carriers remain orthogonal lanes: they can make Description epistemes available, but they do not become the EntityOfConcern value, the Description episteme, specification-use gate/refinement, evidence, gate passage, work, assurance, or decision force by appearing in a publication form.
+• **EntityOfConcern / episteme / publication boundary** — `EntityOfConcern` wording names the item under concern under the declared construction/reference trace; it does not name a document, publication face, carrier, or unspecified referent. `Describe_EoC_DescEp` yields a Description-side `U.Episteme` about that `EntityOfConcern` value. A Description episteme may later be used as a specification only when a bounded use declares formality plus checkable constraint, harness, acceptance condition, C.16 measurement criterion, verification use, or another specification-granting gate. Publication faces, cards, views, publication relation positions, records, and carriers remain orthogonal relation positions: they can make Description epistemes available, but they do not become the EntityOfConcern value, the Description episteme, specification-use gate/refinement, evidence, gate passage, work, assurance, or decision force by appearing in a publication form.
 
 A.7 establishes the following **pairs and triplets**. Use their **names** and **scope** exactly as below.
 
@@ -18667,7 +18668,7 @@ Use this split when the text needs to say whether two descriptions or views are 
 
 | Case | A.7 relation case | Admissible move |
 | --- | --- | --- |
-| same referent by value | the localized `EntityOfConcern` or relation named by value/claim/reference case and the resolved `entityOfConcernRef`, where live, refer to the same item by declared reference discipline | same-entity work inside the declared use |
+| same referent by value | the localized `EntityOfConcern` or relation named by value, carried by the current claim, or selected by a reference case and the resolved `entityOfConcernRef`, where live, refer to the same item by declared reference discipline | same-entity work inside the declared use |
 | preserved by viewing | A.6.3 viewing preserves `entityOfConcernRef` while changing content, representation, viewpoint, or other episteme slots | same-`EntityOfConcern` Description, Specification, or view transformation |
 | publication-unit primary only | a bounded publication unit states what it is mainly about, plus its carried move and outside-work boundary, without establishing a claim-bearing episteme trace by itself | publication-unit stability only |
 | bridge-conditional near identity | F.9, F.17, or F.18 admits bounded near-identity or substitution under bridge kind, CL, direction, loss, and bridge-admissible use | bridge-scoped reuse only |
@@ -18676,6 +18677,12 @@ Use this split when the text needs to say whether two descriptions or views are 
 | different entity | no admissible sameness or near-sameness path exists for the intended use | keep entities distinct |
 
 If the same or near-same relation needs mathematical or postulate-theory justification, A.7 stops at the strict-distinction boundary instead of pretending to prove it: use C.29 for the mathematical lens, E.18 and E.18.1 where transformation-flow, carry-through, and postulate-theory work supply the required justification, E.18 where a gate crossing is the live relation, or the relevant architecture pattern where the comparison is about structure, graph, flow, or architecture description.
+
+#### A.7:5.8b - Compact relation-position recovery aid
+
+When one visible source object, such as a diagram, dashboard, card, model output, `PublicationUnit`, carrier, or generated artifact, can be read as several FPF values at once, use A.7 only to recover the current relation position. Name the current `EntityOfConcern`, Description episteme, view, publication face, publication form, `PublicationUnit`, carrier, rendering, mathematical-lens use, evidence relation, gate decision, work occurrence, authority-reference relation, source-currentness relation, or source-use claim, then apply the direct governing pattern for that position.
+
+This aid is not a reusable object, local record, table, or master checklist. If the direct governed claim is already clear, do not add an A.7 recovery note; cite the direct pattern.
 
 #### A.7:5.9 - Typed describing morphism and specification-use boundary (normative)
 
@@ -18827,11 +18834,11 @@ unitOfDelivery := {
 | **CC‑A7.3 (Episteme non‑agency)**        | An **episteme SHALL NOT** be described as acting or holding work-facing roles. Changes to epistemes are governed through publication, carrier, work, evidence-provenance, and source-currentness relations: work on carriers, publication updates, evidence-provenance relations, and source-currentness records governed by A.10/E.17/A.15. | Text contains the acting system or holon, Work occurrence, and carrier/publication/evidence relation when change or evidence is claimed. |
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** (description episteme), **Method** (abstract way-of-doing), **Capability** (system ability/envelope to enact a Method under conditions), and **Work** (performed occurrence) **SHALL** be kept distinct in wording and modelling.                                                                                                                                                          | Ask: is there a MethodDescription or design-time publication, a Method, a Capability claim about a system, or a dated occurrence? Each live MethodDescription, Method, Capability claim, and dated Work occurrence must be named separately.                                         |
 | **CC‑A7.5 (Operator fit)**               | Use **Γ\_method** only for composing **Method**; **Γ\_time** only for **Work** histories; **Γ\_work** only for resource spend/yields; **Γ\_sys** for systemic properties of systems.                                                                                                           | No sentence should use a single generic “process operator” for all three.                                                                 |
-| **CC-A7.6 (Carrier/source-currentness reference)** | Any knowledge claim that references documents or data **SHALL** cite publication carriers or A.10 carrier/source-currentness refs when evidence, source, or reliance use is current. | First mention names the carrier or source-currentness reference and the evidence/source relation it supports. |
+| **CC-A7.6 (Carrier/source-currentness reference)** | Any knowledge claim that references documents or data **SHALL** cite publication carriers or A.10 carrier/source-currentness refs when evidence, source, or reliance use is current. | First mention names the carrier or source-currentness reference and the evidence/source relation made recoverable by that reference. |
 | **CC‑A7.7 (Collective vs set)**          | If a grouping is expected to **act**, it **MUST** be modelled as a **collective system** (boundary + coordination Method + Work), not as a **MemberOf** set.                                                                                                                                   | Presence of boundary, Method, Work for the group.                                                                                         |
 | **CC‑A7.8 (Diagram legend)**             | When domain idioms use **“process”**, diagrams or text **MUST** map them to FPF terms on first occurrence: *process (domain) ≡ Method at design time or Work at run time.*                                                                                                                           | Legend or parenthetical present at first use.                                                                                             |
 | **CC‑A7.9 (Substance ⧧ Role wording)**   | The safe formula is **“System or acting holon is holder in `U.RoleAssignment`; under that assigned role value it has Method/Capability; its execution is Work.”** | Sentences follow this order; “function” used only as synonym for **behaviour**, never for the **role**. |
-| **CC‑A7.10 (Quartet clarity)**           | Any “triad” picture **MAY** be used only as a **design-time stand-in** (role-assignment holder + MethodDescription + Method) and **MUST** be accompanied by an explicit **Capability** and **Work** lane elsewhere in the same section. “quartet of quartets” headings **SHALL** be avoided; use **“work-facing chain”** instead. | Diagram has visible **Capability** and **Work** lanes/timeline or separate boxes within the same section. |
+| **CC-A7.10 (Quartet clarity)**           | Any “triad” picture **MAY** be used only as a **design-time stand-in** (role-assignment holder + MethodDescription + Method) and **MUST** be accompanied by explicit **Capability** and **Work** positions elsewhere in the same section. “quartet of quartets” headings **SHALL** be avoided; use **“work-facing chain”** instead. | Diagram has visible **Capability** and **Work** positions/timeline or separate boxes within the same section. |
 | **CC‑A7.11 (Terminology hygiene)**       | Avoid **“actor”** as a bare core term. Use the exact acting system or holon plus `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` when a work-facing role is current. | Plain text scan: no bare “actor” in normative core claims; any local role shorthand is bound through A.2/A.2.1. |
 | **CC‑A7.12 (Role domain guards)**        | Work-facing role assignments have systems or acting holons as holders. Epistemes may be used through reference-use, constraint-source-use, evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, or gate-use relations, but those uses are not roles. | Role declarations name holder, role value, bounded context, and window when current; episteme uses name the direct relation. |
 | **CC-A7.13 (EntityOfConcern-to-Description visibility)**          | Conforming `EntityOfConcern` and Description-episteme use makes `Describe_EoC_DescEp` recoverable and does not conflate it with MVPK, transformation-flow structure, specification use or refinement, or Work steps. If a flow shows only publication faces and forms, the underlying `EntityOfConcern` and Description episteme are recoverable.       | EntityOfConcern and Description episteme are visible in text and diagrams; audit shows the describing operation and its construction/reference trace.                                                             |
@@ -18864,7 +18871,7 @@ unitOfDelivery := {
    **Fix:** Name the **system or acting holon**, its `U.RoleAssignment` when a work-facing role is current, the Work that used the model, and the carriers touched.
 
 3. **Triad everywhere** — omitting **Work** entirely.
-   **Fix:** Add the Work lane: timestamps, outcomes, Γ\_time coverage.
+   **Fix:** Add the Work position: timestamps, outcomes, Γ_time coverage.
 
 4. **Operator blur** — using one “process operator” for everything.
    **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
@@ -18914,7 +18921,7 @@ unitOfDelivery := {
 * **Active Inference (2017→2024):** separates a **generative model** (episteme) from **actions** by the agent (system), with explicit perception–action cycles — mirroring A.7’s “who can act” and stance separation. **Adopt**
 * **Constructor Theory (2016→):** frames knowledge and work as **possible transformations** enacted by constructors (systems), not by informational states — reinforcing “episteme ≠ actor”. **Adopt**
 * **Quality‑Diversity (MAP‑Elites family, 2015-2024):** archives are **sets on typed spaces** (descriptions) whose **occurrences** are runs; selection returns **sets** under admissible orders, consonant with A.7 and A.15’s set-returning discipline. **Adopt and adapt**.
-* **Refinement-typed specs (2016->):** modern stacks (e.g., Liquid Haskell, Dafny's post-2017 refinements, Rust's `uom` type-level units) treat formalization as **monotonic refinement with pinned units and scales**. A.7 uses them only to motivate the specification-use boundary; the refinement laws belong to the neighboring pattern governing the claiming specification, formality, measurement-criterion, and publication patterns. **Adapt** (terminology; pinning discipline).
+* **Refinement-typed specs (2016->):** modern refinement-typed specification toolchains (e.g., Liquid Haskell, Dafny's post-2017 refinements, Rust's `uom` type-level units) treat formalization as **monotonic refinement with pinned units and scales**. A.7 uses them only to motivate the specification-use boundary; the refinement laws belong to the neighboring pattern governing the claiming specification, formality, measurement-criterion, and publication patterns. **Adapt** (terminology; pinning discipline).
 
 ### A.7:12 - Rationale (informal)
 
@@ -34718,7 +34725,7 @@ Thus we have problems of:
 * **EntityOfConcern drift.**
  Specifications and models accumulate without a stable notion of **which EntityOfConcernSlot value they carry**; fields like `SubjectRef` carry too many distinct meaning-kinds and resist safe refactoring.
 * **Viewpoint confusion.**
-  Engineering, publication and governance views are mixed, making it hard to maintain consistency across publication faces/forms or to reason about conformity of descriptions under different viewpoints.
+  Engineering, publication and governance views are mixed, making it hard to maintain consistency across publication faces and publication forms or to reason about conformity of descriptions under different viewpoints.
 * **Representation mismatches.**
   Trade‑offs between neural vs symbolic, diagrammatic vs textual, or interactive vs batch representations cannot be expressed at the episteme level; they leak into ad‑hoc tool descriptions.
 * **Broken modularity.**
@@ -34878,7 +34885,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
 **Intent.** Distinguish **view‑epistemes** (views **of** Description epistemes or Description epistemes admitted for specification use) from both:
 
 * the underlying Description epistemes or Description epistemes admitted for specification use themselves, and
-* the MVPK `publication face/form`/`interop publication form` `publication-face kind` values and the publication-side carriers/renderings on which views are made available (E.17, publication-face/form discipline, and A.10 carrier/source-currentness relations when evidence or reliance use is current).
+* the MVPK literal `publication face/form` and `interop publication form` values of `publication-face kind`, plus the publication-side carriers and renderings on which views are made available (E.17, publication-face-kind discipline, and A.10 carrier/source-currentness relations when evidence or reliance use is current).
 
 **Normative definition.**
 
@@ -34894,7 +34901,7 @@ This section defines the **minimal position set** for `U.EpistemeSlotRelation` a
    * **ValueKind** is `U.View`,
    * **RefKind** is `U.ViewRef` (or `U.EpistemeViewRef` species),
    * intended usage is **in meta‑structures** such as `U.MultiViewDescribing` families and MVPK.
-4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `publication-face kind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label or publication-form profile, `publication face/form` kind or `interop publication form` kind, and carrier or rendering remain separate lanes.
+4. `ViewSlot` **MUST NOT** be confused with publication-face labels, `publication-face kind` declarations, or carrier slots: a concrete MVPK face that is a view is represented as `U.View` or `U.EpistemeView`, while the face label, publication-form profile, literal `publication face/form` or `interop publication form` `publication-face kind` value, and carrier or rendering remain separate relation positions.
 
 **Didactic cue.**
 “Ask: *Which particular slice of the description under this viewpoint are we talking about?* That is the View.”
@@ -34948,8 +34955,8 @@ without changing:
 * the minimal `U.EpistemeCard` interface,
 * or the assumptions A.6.2-A.6.4 / E.17.* make about episteme components.
 
-In C.2.1+ `U.PresentationCarrier`, publication face/form values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
-`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face/form discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces/forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
+In C.2.1+ `U.PresentationCarrier`, publication-face-kind values, MVPK face, carrier, and rendering relations remain **publication-side carriers, faces, forms, units, or rendering relations**, not semantic parts of the episteme:
+`U.PresentationCarrier` values are linked to `U.Episteme` and `U.View` via MVPK and publication-face-kind discipline relations, such as `isCarriedBy` and MVPK face relations, and **MUST NOT** be counted as components when reasoning about episteme identity, EntityOfConcernSlot filling, GroundingHolonSlot filling, or KD-CAL morphisms. Changing carriers, publication faces, publication forms, units, or renderings alone **never** changes the `U.Episteme` instance determined by C.2.1; it only produces `U.Work` occurrences that publish or republish the same `U.Episteme`.
 
 ##### C.2.1:4.1.8 - Attached epistemic structures (non-slot components)
 
@@ -35002,7 +35009,7 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
 
 1. A filled episteme value assignment supplies one governed value or reference for each asserted SlotKind in the associated `U.EpistemeKind`:
    * for each SlotKind in the associated `U.EpistemeKind`, a value of the slot's **ValueKind** or a reference value of **RefKind**, if the kind is configured as such.
-2. The filled assignment is **notation-agnostic** and **carrier-agnostic**: it does not know about files, formats, publication faces/forms, or carriers.
+2. The filled assignment is **notation-agnostic** and **carrier-agnostic**: it does not know about files, formats, publication faces, publication forms, or carriers.
    It exists to give A.6.2-A.6.4 a minimal notion of "episteme as a filled point over the episteme SlotRelation".
 3. Under `C.29`, the same filled assignment may be viewed as a tuple when tuple reasoning is the selected mathematical lens. That tuple view is a mathematical-lens representation of the filled SlotRelation, not a second episteme kind and not a replacement for graph-valued fillers such as `U.ClaimGraph`.
 4. In ordinary episteme work, the filled assignment rarely appears directly; it is typically **induced** by `U.EpistemeCard` and `U.EpistemeView` (which add component structure and meta-information).
@@ -35029,9 +35036,9 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
    * `meta : Edition/Provenance/Status…`.
      Minimal episteme identity is the pair `⟨content, entityOfConcernRef⟩` within a `U.BoundedContext`; all other fields are optional at the genus level but may be mandatory in species. Changes that alter `content` or the effective `referenceScheme` (or that intentionally re-identify `entityOfConcernRef`) **SHALL** be realised as new phases in an `U.EditionSeries` (PhaseOf chain) under A.14 and A.7. Changes confined to `U.PresentationCarrier`, publication-side values, MVPK face, carrier, or rendering relations **do not** create a new episteme; they are captured as publication work over the same `U.Episteme`.
 2. **`U.EpistemePublication`.**
-   A species representing **epistemes that have been published** through publication faces/forms or MVPK relations. It:
+   A species representing **epistemes that have been published** through publication faces, publication forms, or MVPK relations. It:
    * has at least the components of `U.EpistemeCard`,
-   * plus references to MVPK `U.View`, face identity, `publication face/form` and `interop publication form` `publication-face kind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and publication-face/form discipline,
+   * plus references to MVPK `U.View`, face identity, literal `publication face/form` or `interop publication form` `publication-face kind` values, publication-scope fields, profile fields, and external carrier or rendering refs as required by E.17 and publication-face-kind discipline,
 
    * but **does not** re-interpret face labels, `publication-face kind` values, or carriers/renderings as parts of the episteme; carriers remain external.
 
@@ -35051,19 +35058,21 @@ This ensures that A.6.2–A.6.4 can treat any `U.Episteme*` uniformly as both:
 * a category-theory object in the category **Ep**, and
 * a structured holon with components.
 
-##### C.2.1:4.2.3a - Episteme, publication, view, carrier, cue, and authority-reference lanes  *(normative)*
+##### C.2.1:4.2.3a - Episteme, publication, view, carrier, cue, and authority-reference relation positions  *(normative)*
 
 C.2.1 is the default FPF pattern for claim-bearing units. Do not mint a generic `U.SemioObject`, `U.SemioticObject`, `U.SignObject`, `U.WorkingObject`, or `U.SourceMaterial` when the claim-bearing unit in question should be modeled as an episteme. Use `U.Episteme` or a declared species of `U.Episteme`.
 
-When the same claim-bearing unit is available to readers, tools, or downstream work as a published episteme, name that lane as `U.EpistemePublication` or as a governed `U.Episteme` publication. Then keep the adjacent lanes separate:
+When the same claim-bearing unit is available to readers, tools, or downstream work as a published episteme, name that relation position as `U.EpistemePublication` or as a governed `U.Episteme` publication. Then keep the adjacent relation positions separate:
 
-* **publication form** — the concrete form in which the episteme is made available for some use, such as a cue pack, transfer-prepared claim set, prompt form, partial normal form, record, card, table, or profile;
-* **view, including MVPK face** — `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
-* **carrier or rendering** — the document, dashboard, generated screen, trace file, transport envelope, display, or A.10 carrier/source-currentness record that bears or renders a publication;
-* **source-finding cue** — a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
-* **governing pattern reference and authority-reference field** — `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, decision record, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
+* **publication form** - the concrete form in which the episteme is made available for some use, such as a cue pack, transfer-prepared claim set, prompt form, partial normal form, record, card, table, or local C.29 output;
+* **view, including MVPK face** - `U.View` or `U.EpistemeView` under a declared `U.Viewpoint`, including MVPK faces such as `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane`;
+* **carrier or rendering** - the document, dashboard, generated screen, trace file, transport envelope, display, or A.10 carrier/source-currentness record that bears or renders a publication;
+* **source-finding cue** - a badge, tile, heading, signature-looking mark, credential display, generated explanation, or other cue that helps find a source but does not by itself create an authority-reference relation;
+* **governing pattern reference and authority-reference field** - `governingPatternRef` when one FPF pattern governs admissible interpretation or use; `authoritySourceRef` when a non-pattern authority-source referent such as an external standard, editioned register, decision record, gate decision, policy source, or role-assignment or status register carries the relevant authority. The publication records this reference; it does not become the referenced authority.
 
-No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own P2W lanes rather than storing them inside the episteme or its carrier.
+For latent, distributed, reconstructed, or model-state material, do not call the encountered material a `U.Episteme` merely because it can be decoded into prose, embedded in a vector space, or shown as a dashboard cue. It becomes an episteme only when the needed C.2.1 positions are recoverable for the current use: at least the `EntityOfConcernSlot`, `ClaimGraphSlot`, `ReferenceSchemeSlot` or equivalent interpretation rule, and any current grounding, viewpoint, view, publication, carrier, source-use, evidence, or authority-reference relation named by the direct governing pattern.
+
+No publication form, view, face, carrier, rendering, source-finding cue, dashboard signal, credential display, generated explanation, FPF pattern file, or FPF pattern section is itself a substitute for a governed `U.Episteme`, an evidence relation, an assurance claim, a gate decision, a permission, a role claim, a status claim, or a `U.Work` occurrence. If the next move concerns work, keep candidate reliance, `U.WorkPlanning`, planned work, actual `U.Work`, work result, and work-result measurement in their own work-side patterns rather than storing them inside the episteme or its carrier.
 
 ##### C.2.1:4.2.4 - SlotKind / ValueKind / RefKind discipline for EntityOfConcern & GroundingHolon
 
@@ -35301,12 +35310,12 @@ From the C.2.1 perspective:
 
 MVPK treats `U.View` (i.e. `U.EpistemeView`) as its primary input:
 * it uses `U.EpistemicViewing` species (A.6.3) to generate publication‑oriented views from engineering or logical views;
-* it then publishes these `U.View` epistemes through publication face/form values with declared publication viewpoints and faces.
+* it then publishes these `U.View` epistemes through declared publication-face-kind values with declared publication viewpoints and faces.
 
 C.2.1’s distinction between:
 
 * `U.Viewpoint` (epistemic perspective specification) and
-* `U.PresentationCarrier` (carrier in C.2.1+ and publication-face/form discipline)
+* `U.PresentationCarrier` (carrier in C.2.1+ and publication-face-kind discipline)
 
 keeps **epistemic perspective and physical medium separate**:
 * MVPK operates on `U.View` epistemes and then on carriers;
@@ -35320,7 +35329,7 @@ Any MVPK species that claims to be C.2.1‑conformant **MUST**:
 ### C.2.1:9 - Bias‑annotation  *(informative)*
 
 **Episteme‑first and pragmatics‑first.**
-The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: entityOfConcern and concerns are not afterthoughts but part of the core structure. The graph is therefore built around slots for EntityOfConcern, GroundingHolon, Viewpoint and ClaimGraph, not around abstract “propositions in the void”.
+The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: EntityOfConcern and concerns are not afterthoughts but part of the core structure. The slot relation is organized around EntityOfConcern, GroundingHolon, Viewpoint, and ClaimGraph positions, while graph-valued fillers such as `ClaimGraph` and `JustificationGraph` remain distinct values inside those positions.
 
 **Operational/representational bias.**
 C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Novaes’ sense (admitting direct syntactic inference, like pen-and-paper arithmetic or proof states) while others are **purely notational**. The pattern remains neutral on which schemes are used but bakes in a place for operations and carriers so that:
@@ -35380,7 +35389,7 @@ Any pattern in A.6.2–A.6.4, E.17, E.18, or discipline packs that defines morph
 * name which SlotKinds it reads and writes,
 * state its behaviour on `entityOfConcernRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`.
 
-**CC-C.2.1-5a - Episteme/publication lane split for semio-facing terms.**
+**CC-C.2.1-5a - Episteme/publication relation-position split for semio-facing terms.**
 Any pattern, publication-form profile, evidence-use note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is current, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 
 **CC-C.2.1-6 - Semantic-triangle usage guard.**
@@ -35395,7 +35404,7 @@ Any pattern that evaluates or compares epistemes (KD‑CAL/LOG‑CAL, CHR, CG‑
 * how `GroundingHolonSlot` figures into measurement or validation,
 
 **CC‑C.2.1‑8 - Context locality and Bridges.**
-Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context‑local**.  Cross‑context use **MUST** proceed via an explicit Bridge with CL / Φ‑policy (F.9/B.3), with penalties applied to R-lanes only; F and the slot structure from C.2.1 remain unchanged.
+Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context-local**.  Cross-context use **MUST** proceed via an explicit Bridge with CL / Φ-policy (F.9/B.3), with penalties applied to the R component only; F and the slot structure from C.2.1 remain unchanged.
 
 **CC‑C.2.1‑9 - Carriers and Work outside episteme content.**
 C.2.1 **inherits** the current A.7 strict distinction plus C.2.1 slot-relation, E.17 publication/carrier, A.10 evidence-use and provenance, B.3 assurance, A.2/A.2.1 role-assignment, A.15 work, and A.3.4 transformation discipline: `U.PresentationCarrier` values, publication-side values, `U.Work` occurrences, and role assignments **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotRelation`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only through an A.10 evidence-provenance graph relation or B.3 assurance-evidence input that points to evidence-producing or evidence-interpreting `U.Work` occurrences, carrier/source-currentness records, and role assignments when those are current. Changing carriers or re-publishing work alone does **not** change the episteme determined by the filled `content`, `entityOfConcernRef`, and effective `referenceScheme` positions in its `U.BoundedContext`.
@@ -35427,7 +35436,7 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 * **Repair effort.**
   Uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `...Ref` fields need repair into C.2.1 slots + A.6.5 SlotSpecs when the claim is current. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; such wording is source material for repair, not a current alternate vocabulary.
 * **Exposure of representation biases.**
-  Being explicit about RepresentationSchemes and Operations may surface disagreements about which representations are “primary” in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
+  Being explicit about RepresentationSchemes and Operations may make disagreements visible about which representations are "primary" in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
 
 #### C.2.1:12 - Relations  *(overview)*
 
@@ -35450,7 +35459,7 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 * A.6.3 `U.EpistemicViewing` — as the substrate for entityOfConcern‑preserving projections (views).
 * A.6.4 `U.EpistemicRetargeting` — as the substrate for EntityOfConcern-bundle retargeting transforms between epistemes (Ep→Ep with `entityOfConcernChangeMode = retarget`).
 * E.17.0 `U.MultiViewDescribing`, E.17.1, E.17.2 — to organise families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints and `EntityOfConcernClass` constraints.
-* E.17 (MVPK) — to publish episteme views through publication faces/forms and carriers.
+* E.17 (MVPK) — to publish episteme views through publication faces, publication forms, and carriers.
 * E.18 - to interpret StructuralReinterpretation and other engineering projections as episteme morphisms over a well-typed `U.EpistemeSlotRelation`.
 
 Together, these relations make `U.EpistemeSlotRelation` the **single normative core** for thinking about epistemes, their EntityOfConcern mapping, their representations, and their transformations across FPF.
@@ -37690,13 +37699,16 @@ Without an explicit anchoring-mode declaration, embodiment and source anchoring 
 | `AM.Mixed` | more than one anchoring mode matters substantively | explicit component list and why the mix matters |
 
 #### C.2.6:4.2 - Governing boundary
-`U.LanguageStateAnchoringMode` is not a representation factor bundle, not a closure state, and not a truth status. If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
+
+`U.LanguageStateAnchoringMode` is an anchoring-mode characteristic for one governed `U.Episteme` claim. It is not a representation factor bundle, closure state, truth status, evidence relation, source-currentness relation, work claim, gate claim, or reliance permission by itself. Model-latent, operator-loop, embodied, trace, and document-mediated cases name where the episteme is anchored for the current claim; any publication face, carrier, source-currentness, bridge-loss, work, evidence, or gate claim stays with the direct governing pattern.
+
+If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
 
 #### C.2.6:4.3 - Mixed-mode rule
 `AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not be a lazy escape from deciding whether the key anchor is bodily, trace-based, model-latent, document-mediated, or operator-loop based.
 
 #### C.2.6:4.4 - Bridge implications
-Bridge work over governed `U.Episteme` publications in the declared language-state chart should pay attention to anchoring shifts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, often requires explicit loss notes in `F.9` and often justifies a stance annotation in `F.9.1`.
+Bridge work over governed `U.Episteme` publications in the declared language-state chart should pay attention to anchoring shifts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, often requires explicit loss notes in `F.9` and may require a bridge-use note in `F.9.1`.
 
 ### C.2.6:5 - Archetypal Grounding
 **Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
@@ -37709,7 +37721,7 @@ Bridge work over governed `U.Episteme` publications in the declared language-sta
 The pattern pushes authors to declare anchoring rather than hide it in metaphors such as "the system wants" or "the note suggests".
 
 ### C.2.6:7 - Conformance Checklist
-- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for routing, trust, or bridge interpretation.
+- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for source use, reliance, or bridge interpretation.
 - `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the embodiment or operator anchor explicitly.
 - `CC-C.2.6-3` `U.LanguageStateAnchoringMode` **MUST NOT** be collapsed into `U.LanguageStateRepresentationFactorBundle`.
 - `CC-C.2.6-4` Mixed-mode declarations **SHALL** list their component modes explicitly.
@@ -37732,7 +37744,6 @@ The facet is motivated by embodied cognition, operator-facing interaction practi
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9.1`.
 - Constrains: cue publication and bridge loss notes.
-
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
 #### C.2.6:13.1 - Embodied-to-document shift
@@ -37742,7 +37753,7 @@ A bodily felt cue later published as prose usually changes from `AM.EmbodiedFelt
 A latent probe score may first be `AM.ModelLatent`, then later feed an operator-facing alert face where the working publication becomes `AM.OperatorLoop`. A conforming account should keep both anchoring modes visible rather than pretending the later publication wording fully captures the model-side cue.
 
 #### C.2.6:13.3 - Mixed-mode publication
-A routed alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. But the mix must be named explicitly rather than used as a catch-all escape.
+An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. But the mix must be named explicitly rather than used as a catch-all escape.
 
 ### C.2.6:14 - Authoring and Review Guidance
 
@@ -37770,7 +37781,6 @@ Statements like "the system wants", "the note suggests", or "the operator-facing
 
 #### C.2.6:15.3 - Boundary reminder
 `U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
-
 ### C.2.6:16 - Anchoring Publication Package Discipline
 
 #### C.2.6:16.1 - Minimal anchoring package
@@ -37794,7 +37804,7 @@ Distinguish the anchoring mode of the source cue from the anchoring mode of the 
 #### C.2.6:17.1 - Shift declaration rule
 When an episteme crosses from one anchoring mode to another, state whether the shift is merely publication-level or whether it changes what can be preserved, compared, or trusted. A move from operator-loop enactment to report prose, for example, often drops timing, bodily load, and enactment friction.
 
-#### C.2.6:17.2 - Bridge-loss handoff
+#### C.2.6:17.2 - Bridge-loss governing relation
 If an anchoring shift matters across contexts, `F.9` or `F.9.1` should govern the loss or stance note. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
 
 #### C.2.6:17.3 - Same-content illusion test
@@ -37853,18 +37863,19 @@ A Context may publish a local alias such as `EncodingBasis`, but it shall dock b
 | Factor | Question it answers | Typical values |
 |---|---|---|
 | `LocalityDistribution` | Is the representation concentrated in local units or distributed across many units? | local / mixed / distributed |
-| `Sparsity` | How concentrated is activation or descriptive support? | sparse / mixed / dense |
+| `Sparsity` | How concentrated are activation, representation use, or descriptive marks? | sparse / mixed / dense |
 | `Symbolicity` | How explicit are the symbolic structures and tokens? | symbolic / mixed / subsymbolic |
 
 #### C.2.7:4.2 - Non-collapse rules
+
 `LanguageStateRepresentationFactorBundle` is not:
 
 - `LanguageStateAnchoringMode`;
-- `Formality`;
 - `ArticulationExplicitness`;
-- `LanguageStateClosureDegree`.
+- `LanguageStateClosureDegree`;
+- evidence, source-currentness, publication authority, work permission, or gate readiness.
 
-A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible.
+A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible. A model-state, embedding, vector-store relation, or operator-facing publication face may fill one or more representation factors, but the factor bundle does not decide the episteme, carrier, evidence, bridge, work, or gate relation by itself.
 
 #### C.2.7:4.3 - Extension rule
 Contexts may add extra representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.
@@ -37897,13 +37908,12 @@ The benefit is cleaner comparison across schools, substrates, and publication fo
 The factor-bundle design keeps the representation basis-slot family in the declared language-state chart over `U.CharacteristicSpace` orthogonal to articulation, closure, and anchoring.
 
 ### C.2.7:11 - SoTA-Echoing
-This factorization fits current work on sparse distributed representations, symbolic/neuro-symbolic stacks, and interpretability practice.
+This factorization fits current work on sparse distributed representations, hybrid symbolic/neuro-symbolic representation practices, and interpretability practice.
 
 ### C.2.7:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9.1`.
 - Constrains: language-state position publication and bridge loss notes around representation shifts.
-
 ### C.2.7:13 - Worked Examples and Factor Interaction Notes
 
 #### C.2.7:13.1 - Distributed but explicit
@@ -37912,7 +37922,7 @@ A model-side summary may be representation-wise distributed and still highly exp
 #### C.2.7:13.2 - Symbolic but still low-articulation
 A glossary-like note may be fully symbolic while still low in `AE` because the semantic anchors are not yet stabilized. This blocks the opposite myth: symbolic therefore explicit.
 
-#### C.2.7:13.3 - Mixed-stack publication
+#### C.2.7:13.3 - Mixed representation publication
 An operator-facing publication face may combine sparse alert codes, symbolic method-description text, and distributed back-end model summaries. The representation-factor bundle should make that mixture visible instead of compressing it into one label.
 
 ### C.2.7:14 - Authoring and Review Guidance
@@ -37937,18 +37947,17 @@ Reviewers should also watch for silent replacement of `LanguageStateAnchoringMod
 Contexts may add extra factors, but each added factor should answer a distinct question rather than duplicating locality, sparsity, or symbolicity under another label.
 
 #### C.2.7:15.2 - Migration from alias-heavy prose
-Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for routing, comparison, or bridge claims.
+Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for comparison, bridge claims, or downstream use.
 
 #### C.2.7:15.3 - Boundary reminder
-`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine route authority, closure, or anchoring by itself.
-
+`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine admissible use, closure, or anchoring by itself.
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package
 A publishable `U.LanguageStateRepresentationFactorBundle` should normally show the current factor settings for locality/distribution, sparsity/density, and symbolicity/subsymbolicity, together with any declared extra factor. If a factor is intentionally omitted, say so rather than hiding the omission under a compact alias.
 
 #### C.2.7:16.2 - No hidden scalar rule
-Compact overlays such as "sparse-symbolic" are admissible only when they dock to the underlying factor bundle. No compact label may behave as a hidden master score for routing, bridge comparison, or stage/progression talk.
+Compact overlays such as "sparse-symbolic" are admissible only when they dock to the underlying factor bundle. No compact label may behave as a hidden master score for comparison, bridge comparison, or stage/progression talk.
 
 #### C.2.7:16.3 - Alias docking rule
 Local aliases such as `EncodingBasis` are admissible only when their docking to the governed factors is explicit and stable. If an alias compresses several factors, the compression should remain visible.
@@ -51736,7 +51745,7 @@ Architecture work may use C.29-local descriptions for graph, flow, control, stru
 | --- | --- | --- | --- |
 | `MLU.Description@ArchitectureGraphDSM` | typed graph, hypergraph, DSM, DMM, or MDM matrix | dependencies, clusters, change propagation, and bottlenecks | not evidence of semantic interface correctness, compositional quality, or architecture decision by itself |
 | `MLU.Description@TransformationFlowStructure` | graph, morphism-family, wiring, matrix, or network expression over a selected `TransformationFlowStructure` | flow topology, crossings, carried relations, and path slices without hidden scalarization | not work occurrence, gate decision, or evidence by itself |
-| `MLU.Description@ArchitectureLCA` | layered control stack or multi-rate control model | planner, regulator, plant, observer, feedback timing, and externality separation | not stability or causal-use relation without dynamics, evidence, and `C.28` |
+| `MLU.Description@ArchitectureLCA` | layered control structure or multi-rate control model | planner, regulator, plant, observer, feedback timing, and externality separation | not stability or causal-use relation without dynamics, evidence, and `C.28` |
 | `MLU.Description@EpiplexityStructuralInformation` | bounded-observer structural information or two-part code | learnable reusable structure versus residual or unmodeled structure | not utility, assurance, OOD guarantee, or causal proof |
 | `MLU.Description@RGArchitecture` | scale map over architecture descriptions, fixed-point or basin metaphor, or declared coarse-graining map | scale-stability of an architecture vector and exploding exceptions | not literal physical RG unless domain theory warrants it |
 | `MLU.Description@MultilevelLearningFrustration` | multilevel learning over structurally renormalizable descriptions, frustrated optimization landscape, or variational residual model | residual-reducing architecture moves across declared scopes or holon levels | not proof that the project literally optimizes one global function |
@@ -52115,6 +52124,10 @@ Positive claim kind:
 
 Boundary application rule: when the claim being made is a choice result, work plan, evidence path, assurance tuple, explanation rendering, comparative review unit, representation shift, temporal claim, bridge, causal-use claim, measurement claim, scale-law claim, selector, or benchmark, the `NeighborGoverningPatternNote` names the governing FPF pattern and project-side record. A C.29 application can contribute a lens-bounded prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that the governing record can cite; it does not create that neighboring record.
 
+Mathematical object or learned representation read as world structure: if a model state, embedding, simulator, category, graph, tensor object, vector-store relation, or learned representation is being used as a mathematical lens for a phenomenon, C.29 records only the declared mathematical-lens use. The output must name `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue` or validation boundary, declared lens use, and `StopCondition`. Measurement, evidence, assurance, dynamics, causal-use, formal-substrate, characteristic-space, publication, benchmark, selector, work, gate, release, or decision claims remain with the direct governing pattern named in the table below.
+
+
+
 | Object or claim being made | Governing FPF pattern | C.29 contribution |
 |---|---|---|
 | mathematical-lens use | `C.29` | Names the C.29 discipline: candidate mathematical object, lens mapping mode, preserved structure and lost structure, invariant or distinction, `LensUseBoundaryValue`, declared lens use, blocked overread, and stop condition. |
@@ -52280,7 +52293,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 
 | Field | Meaning selected for `C.29` | Boundary guard |
 |---|---|---|
-| `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | Not a `U.Kind`, not a EntityOfConcern slot, and not a publication-lane item. |
+| `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | Not a `U.Kind`, not a EntityOfConcern slot, and not a publication relation-position item. |
 | `entityOfConcernRef?` | EntityOfConcern reference named by value when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
 | `BoundedContext` | Context in which the lens is claimed to work. | Cross-context use cites `F.9`. |
 | `CandidateMathObject` | Concrete mathematical object, structure, formal role, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
@@ -52450,7 +52463,7 @@ C.29 output-change conditions:
 | validation slice fails, degrades, or no longer matches the stated regime | Change `LensUseBoundaryValue` to the updated boundary value, update the failure case, narrow the declared lens use, or block prediction-facing use. |
 | a principal rival lens changes the next lens-use move | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the lens for that use. |
 | the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or governing FPF pattern. |
-| source-use role becomes outdated, contradicted, or demoted to background only | Change the `SourceUseRole`, update the lens-use boundary value, or retire the lens from claim-bearing use. |
+| source-use relation becomes outdated, contradicted, or demoted to background only | Change the `SourceUseRelation`, update the lens-use boundary value, or retire the lens from claim-bearing use. |
 | bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim is being made | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
 | abstraction, compression, coarse-graining, or latent representation drops a distinction now needed for the declared use | Add `SourceReturnCondition?`, narrow the use, or block the compressed-lens claim. |
 
@@ -52458,8 +52471,8 @@ Smallest source-return and output-change conditions:
 
 | Condition | Required result |
 |---|---|
-| source material or a source family changes the lens family, validation boundary, limitation, or stated use used by this C.29 output | Update `SourceUseRole`, `LensUseBoundaryValue`, and `OutputChangeCondition?`; narrow, replace, or retire claim-bearing use when the new source-use row no longer fits the declared use. |
-| a later source supersedes or contradicts the source-use decision that bounded the lens use | Mark the source-use decision as superseded or contradicted for that use, then select a new source-use role, lower the output class, or block claim-bearing use. |
+| source material or a source family changes the lens family, validation boundary, limitation, or stated use used by this C.29 output | Update `SourceUseRelation`, `LensUseBoundaryValue`, and `OutputChangeCondition?`; narrow, replace, or retire claim-bearing use when the new source-use row no longer fits the declared use. |
+| a later source supersedes or contradicts the source-use decision that bounded the lens use | Mark the source-use decision as superseded or contradicted for that use, then select a new source-use relation, lower the output class, or block claim-bearing use. |
 | a neighboring governing pattern changes the declared lens-use boundary for measurement, evidence, causal use, assurance, Bridge semantics, scale law, selector, benchmark, decision, or work | Keep C.29 only for the declared lens-use part and apply the changed governing pattern to the neighboring claim before the C.29 output is reused. |
 | the same lens family starts carrying validation, causal-use, evidence, assurance, selector, benchmark, release, or work claim | Add the governing-pattern application, or narrow the C.29 result to lens-bounded prediction, distinction, obstruction, diagnostic boundary, or stop condition only. |
 | preserved structure or lost structure can no longer be replayed from the source-side variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
@@ -52589,7 +52602,7 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 | `CC-C29-9a Temporal use boundary` | If the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not being claimed. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
 | `CC-C29-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is being claimed, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison bounded for use. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
 | `CC-C29-10a Validation regime` | If the lens is used for prediction, publication, assurance input, benchmark, model selection, or scientific claim or model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
-| `CC-C29-10b Source-use role` | If a source changes C.29 declared lens use, name its `SourceUseRole`; do not let source prestige silently become evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates the source-use role from source-use disposition. |
+| `CC-C29-10b Source-use relation` | If a source changes C.29 declared lens use, name its `SourceUseRelation`; do not let source prestige silently become evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law. | Separates the source-use relation from source-use disposition. |
 | `CC-C29-10c Source-currentness and return condition` | If source material, source-use family, source-use decision, or a neighboring governing pattern changes the declared lens-use boundary for this output, state `SourceReturnCondition?` or `OutputChangeCondition?` and narrow, demote, replace, retire, or block the claim-bearing use. | Keeps SoTA currentness and neighboring-pattern currentness tied to the declared C.29 output rather than to source prestige or process evidence. |
 | `CC-C29-11 LensUseBoundaryValue` | Label `LensUseBoundaryValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with a matching declared-use boundary. | Prevents evidence laundering. |
 | `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and governing pattern. | Protects FPF from metaphysical collapse. |
@@ -52635,9 +52648,9 @@ Vanchurin-style universe-as-learning is not an ordinary first grounding archetyp
 
 SoTA source use for `C.29` is accepted only when it changes action guidance. A citation that only decorates the file does not establish `C.29` use.
 
-`C.29` separates source-use roles from source-use disposition. `Adopt`, `Adapt`, `Reject`, and candidate-stress-test disposition say what FPF does with the source; `SourceUseRole` says what work the source may perform inside a C.29 application.
+`C.29` separates source-use relations from source-use disposition. `Adopt`, `Adapt`, `Reject`, and candidate-stress-test disposition say what FPF does with the source; `SourceUseRelation` says what work the source may perform inside a C.29 application.
 
-| `SourceUseRole` | Declared `C.29` use | Blocked `C.29` use |
+| `SourceUseRelation` | Declared `C.29` use | Blocked `C.29` use |
 |---|---|---|
 | `recognitionCue` | Help the reader notice an invariant, obstruction, symmetry, duality, state variable, scale cue, or comparison cue. | Supply evidence, truth, ontology, causal-use verdict, assurance, or release confidence. |
 | `candidateLensPrompt` | Suggest a first candidate lens family or mathematical object to test against the problem cue being repaired. | Require a lens before the candidate changes the next move. |
@@ -52653,7 +52666,7 @@ SoTA source use for `C.29` is accepted only when it changes action guidance. A c
 |---|---|---|
 | Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |
 | Obstructions to compositionality | Treat failures and obstructions as first-class `LostStructure` and `StopCondition` material. | **Adapt.** A lens can be useful because it names where transfer fails. |
-| Plural foundations of mathematics | Allow multiple structural families with local adequacy, declared mapping, and declared loss. | **Adopt.** Source-use role: plural-foundations source-use decision. |
+| Plural foundations of mathematics | Allow multiple structural families with local adequacy, declared mapping, and declared loss. | **Adopt.** Source-use relation: plural-foundations source-use decision. |
 | Geometric deep learning, invariance, and equivariance | Use symmetry, group action, invariance, and equivariant representation as lens-discovery cues when generic feature lists hide the relevant sameness under transformations. Ask which transformations are declared as preserved or invariant, which distinctions are preserved, and which coordinate details can be lost. | **Adapt as lens-discovery source.** Not evidence for domain law, causal mechanism, or coordinate-free truth. |
 | Optimal transport and distribution geometry | Use transport plans, couplings, Wasserstein-like geometry, and declared movement cost as lens-discovery cues for population, distribution, shape, shift, or allocation questions. Ask what moves, under which cost, and what structure or mass is lost. | **Adapt as lens-discovery source.** Not evidence for causality, fairness, mechanism, or policy effect. |
 | Model reporting and responsible modeling practice | Intended use, evaluation conditions, limitations, validation regime, failure cases, uncertainty, and domain of applicability become C.29 validation fields for prediction, publication, assurance-input, benchmark, model-selection, and scientific or model uses. | **Adapt.** Turns reporting practice into fields and repair moves. |
@@ -52672,7 +52685,7 @@ SoTA source use for `C.29` is accepted only when it changes action guidance. A c
 
 #### C.29:13.1 - Sandberg Thread and Structural Sameness Examples
 
-Adopt the Sandberg thread as a recognition cue, with two distinct source roles retained: the original X post is the **source identity locator**, while the Axis of Ordinary `Math` section is the checked text carrier used here.
+Adopt the Sandberg thread as a recognition cue, with two distinct source-use functions retained: the original X post is the **source identity locator**, while the Axis of Ordinary `Math` section is the checked text carrier used here.
 
 The source examples are not a proof source and not an exhaustive taxonomy. They are a checked example carrier for `InvariantsExposed`: generalized Stokes and boundary-exterior derivative duality; de Rham, cohomology, and topological obstruction; CLT as RG or fixed-point viewpoint; Lawvere-style diagonal family; Noether and symmetry-conservation; and Legendre, potential-duality, and tropical-limit family.
 
@@ -52712,7 +52725,7 @@ Known limitations from the checked source-use disposition remain material for ma
 
 Adopt the plural-foundations source-use decision: several structural families can be reusable across domains, and their adequacy depends on declared mapping, local use, mutual interpretability, and recoverable loss.
 
-Source-use role: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 records this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
+Source-use relation: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 records this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
 
 Rodin/P2W micro-slice:
 
@@ -52742,7 +52755,7 @@ Adapt the obstructions and failures-of-compositionality perspective into `LostSt
 
 ### C.29:13a - Source locators and source-use guard
 
-SoTA materials are not nameless background. Decision grounds and governing inheritance remain recoverable by value, and SoTA rows shape action guidance rather than decorate the file. The source locators and the source-use role of each external source are retained here.
+SoTA materials are not nameless background. Decision grounds and governing inheritance remain recoverable by value, and SoTA rows shape action guidance rather than decorate the file. The source locators and the source-use relation of each external source are retained here.
 
 #### Source locators and governing-use rows
 
@@ -59776,11 +59789,13 @@ Classification is not closure. A conforming result must end in one of these by-v
 | Durable reusable head, lineage label, concept-set row, cross-context name-use, or UTS-facing name | Apply `F.18` after the selected repair has recovered what the name would name. | Name card or naming row only for durable naming need; one-off local wording closes locally. |
 | Trigger found but kind, relation, substrate, governing pattern, admissible use, or remaining reader move cannot be recovered | Fail closed. | Quote-only wording, reduced-use cue, blocked use, incomplete rewrite, ordinary prose, or not FPF-governed wording. |
 
-`reading`, `read`, and `quality-read` are trigger wording only when the sentence uses the word to carry interpretation, publication use, source-use assignment, evaluation, comparison, evidence, gate, work, decision, release, assurance, or admissibility claim. Do not create `ReadingPrecisionRestoration`. Recover the actual EntityOfConcern, publication lane, evaluation claim or bundle, relation, or work-side kind and apply `C.2.P`, `E.17.ID.CR`, `E.22` plus object-under-improvement evaluation named by value, `A.6.P`, or the neighboring FPF pattern governing that claim.
+`reading`, `read`, and `quality-read` are trigger wording only when the sentence uses the word to carry interpretation, publication use, source-use assignment, evaluation, comparison, evidence, gate, work, decision, release, assurance, or admissibility claim. Do not create `ReadingPrecisionRestoration`. Recover the actual EntityOfConcern, publication relation position, evaluation claim or bundle, relation, or work-side kind and apply `C.2.P`, `E.17.ID.CR`, `E.22` plus object-under-improvement evaluation named by value, `A.6.P`, or the neighboring FPF pattern governing that claim.
 
 `function`, `functional`, `functionality`, and `effect` are trigger wording when the FPF kind named by value, relation, claim, view, or governing-pattern application is hidden. Do not assign the wording by architecture default. `A.6.F` remains the function-like wording unpacker; mathematical function, mapping, relation, loss, objective, value functional, or operator goes to `C.29` when mathematical-lens use is being claimed. Functional-architecture use goes to `C.30` or `C.30.ASV` when the architecture or structural-view claim is recovered by value; architecture-to-`TransformationFlowStructure` use goes to the current Architecture Transformation-Flow Structure Relation (`C.30.TFS-REL`).
 
 `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, and `gate` are source labels when they first arrive from engineering, mathematical, publication, or project prose without a recovered FPF kind. Do not mint `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, or a universal stratification kind. Use `C.30.STRAT` to recover the governing pattern, or go directly to the governing pattern when the FPF kind under repair, relation, claim-use, or source-use disposition is already recovered by value: `C.30.LCA` for control-layer relations, `A.6.M` for module-interface relations, the current Architecture Transformation-Flow Structure Relation (`C.30.TFS-REL`) for architecture-to-`TransformationFlowStructure` claims, `E.18` for selected transformation-flow structure, `C.16.P` or `C.29` for scale relation, coarse-graining relation, or mathematical use, `C.2.P` for publication relation set or source-use relation, and gate patterns, work patterns, or decision patterns when those claims are being made.
+
+Description, publication, and representation mediation source words need the same recovery discipline. Treat `stack`, `lane`, `profile`, `mediation`, `binding`, `representation`, `publication`, `model`, `space`, `graph`, `latent`, `weights`, `embedding`, `vector store`, `carrier`, `dashboard`, `posture`, `route`, `path`, `surface`, and close compounds as trigger wording when the sentence has FPF-governed use and the relation position is hidden. Recover the current EntityOfConcern, relation position, direct governing pattern, admissible use, blocked overread, and remaining reader move before writing the final phrase. Do not replace the trigger with another umbrella head; do not mint a durable name unless `F.18` is explicitly selected.
 
 Local patterns may cite the relevant `E.10` recognition row, but they must not reproduce the wording-recognition table or create local lexical registries unless a named local application profile has its own primary `EntityOfConcern`, first useful move, and governing-pattern boundary. Specialized restoration patterns carry the detailed ontology when the problem is no longer lexical.
 
@@ -59806,7 +59821,7 @@ After kind and governing pattern recovery, state the remaining admissible reader
 
 Tool-assisted trigger inventories may help find candidate spans, but they cannot close ontological precision repair. Closure remains recovered kind, recovered relation or substrate, admissible use, non-admissible overread, and remaining reader move by value.
 
-**Replacement-candidate closure.** A repair that replaces one trigger word with another word or phrase is not closed until the replacement candidate itself passes the same `E.10` trigger scan. If the candidate is another umbrella word, quasi-scale, process metaphor, role-free deontic word, or untyped head, recover the kind named by value, relation, admissible use, and governing pattern, send a durable naming case to `F.18`, or fail closed. A bounded repair may therefore require repeated `E.10` passes until the candidate wording reaches a stable closure point: ordinary wording with no FPF-governed use, local repair with recovered kind and use, governing-pattern application, `F.18` durable-name result, controlled precision-reduction result, or explicit blocker. Do not accept a smoother synonym as repair evidence.
+**Replacement-candidate closure.** A repair that replaces one trigger word with another word or phrase is not closed until the replacement candidate itself passes the same `E.10` trigger scan. If the candidate is another umbrella word, quasi-scale, process metaphor, role-free deontic word, or untyped head, recover the kind named by value, relation, admissible use, and governing pattern, apply `F.18` when a durable name is being minted, or fail closed. A bounded repair may therefore require repeated `E.10` passes until the candidate wording reaches a stable closure point: ordinary wording with no FPF-governed use, local repair with recovered kind and use, governing-pattern application, `F.18` durable-name result, controlled precision-reduction result, or explicit blocker. Do not accept a smoother synonym as repair evidence.
 
 #### E.10:0.2b - Wording-Use Trigger Check Registry
 
@@ -60837,7 +60852,7 @@ Do **not** mint *ETLService* at kernel level. Model ETL as `MethodDescription`; 
 
 > **Principle.** Form follows the **FPF kind being named**. A token’s morphology (suffix, prefix, and casing) must (a) express **what kind of thing** it names, (b) respect **MG-DA** (Minimal Generality and Domain Anchoring), and (c) pass **LEX.TokenClass** gates:
 > `LEX.TokenClass(token) ∈ {KernelToken | ContextToken | DiscriminatorToken}`.
-> Morphological choices never override **EntityOfConcern, Description episteme, specification use, and publication lanes** or **CHR\:ReferencePlane** semantics.
+> Morphological choices never override **EntityOfConcern, Description episteme, specification use, publication faces, publication forms, `PublicationUnit`s, carriers, renderings,** or **CHR\:ReferencePlane** semantics.
 
 #### E.10:8.0 - Casing and basic forms
 
@@ -60849,7 +60864,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 
 #### E.10:8.1 - Reserved suffixes (gated by LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification use)
 
-> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. The EntityOfConcern and Description-episteme boundary and specification-use gate prevents EntityOfConcern, Description episteme, specification use, and publication-lane confusion; “Examples” are illustrative.
+> **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. The EntityOfConcern and Description-episteme boundary and specification-use gate prevents EntityOfConcern, Description episteme, specification use, and publication-relation confusion; “Examples” are illustrative.
 
 | **Suffix**              | **Kind named by suffix**                   | **EntityOfConcern and Description-episteme boundary and specification-use gate**                       | **LEX.TokenClass gate**         | **Examples**                                      | **Forbidden misuses (typical)**                                       |
 | ----------------------- | ------------------------------------------ | ------------------------------------ | ------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
@@ -60899,11 +60914,11 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 * Suffixes are closely related to kinds and **should** be clearly guarded by MG-DA.
 * Other morphemes (not only suffixes) also **must** respect kinds. For example, **Space is a geometric concept** — **never** use it as a suffix (`…Space…`) or other morpheme in beginning or in the middle of a term to name non‑geometric entities (e.g. prefer **Set**, **Kid**, or **Kit** instead of **Space** where membership is intended).
 
-**L-EPI-PUB — episteme, publication, view, carrier, and authority-reference lane discipline**
+**L-EPI-PUB — episteme, publication, view, carrier, and authority-reference relation-position discipline**
 * Use `U.Episteme` for the claim-bearing unit. Use `U.EpistemePublication` or governed `U.Episteme` publication only when that episteme is available as a published episteme under C.2.1 and E.17 discipline.
-* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, typed route-bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
+* Name the publication form separately from the episteme: for example `U.PreArticulationCuePack`, `U.AbductivePrompt`, typed bounded projection, partial normal form, endpoint-pattern-governed publication, or another declared form. A publication form is not itself the governing FPF source.
 * Name `U.View` and MVPK face separately from the publication form. A `PlainView`, `TechCard`, `InteropCard`, or `AssuranceLane` is an episteme-level view or publication face, not the source claim, not the publication form itself, and not the SCR or RSCR carrier.
-* Name the carrier or rendering lane separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
+* Name the carrier or rendering relation separately. Documents, dashboards, generated screens, trace files, cards, and transport formats hold or render a publication; they are not the `U.Episteme`, not the claim or effect being relied on, and not the governing pattern.
 * Name source-finding cues separately from source epistemes. A cue, badge, credential view, dashboard tile, heading, signature-looking mark, or generated explanation may help find a source; it does not by itself create an `authoritySourceRef` target, evidence relation, gate decision, assurance claim, role assignment, status assertion, work occurrence, or permission.
 * Use `governingPatternRef` for a named FPF pattern that governs admissible interpretation or use. Use `authoritySourceRef` when a non-pattern `authoritySourceRef` target such as an external standard, editioned register, DRR, gate decision, policy source, or role-assignment or status register carries the relevant authority. Do not use generic sign wording, generic episteme-publication wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 * When a published episteme is used for work, name the P2W chain element being used: intended method family, selected method or method of work, `U.WorkPlanning` baseline, planned work, actual `U.Work` or `U.WorkEnactment`, work result, result measurement, or non-work reliance on a claim or effect. Do not let generic `action`, `use`, or `material` hide that distinction.
@@ -61077,11 +61092,11 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge or a
 
 > **What this section does.** LEX L-rules standardise **how we recover kind and use** in Core and Context when overloaded everyday words hide FPF concepts.
 > **What this section does not do.** It does **not** restate naming (see **§ 7 MG-DA**) or morphology, casing, and suffix rules (see **§ 8 LEX.Morph**); it **depends** on them.
-> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs a granting gate named by value; publication faces, forms, units, carriers, and renderings stay in publication lanes. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
+> **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*. E.10.D2 names the boundary between EntityOfConcern and Description epistemes with `DescriptionContext`; specification use needs a granting gate named by value; publication faces, publication forms, `PublicationUnit`s, carriers, and renderings stay separate. Enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
 
 #### E.10:9.1 - Hard bans and ontology recovery rows (single table; normative)
 
-> **Use this table mechanically.** “Ban” means the listed phrase is **not allowed** in Core prose, identifiers, or diagrams unless the **canonical** appears alongside it (or as a registered Context alias). EntityOfConcern and Description-episteme boundary, specification-use gates, and token gates prevent EntityOfConcern, Description episteme, specification use, publication-lane, and TokenClass leaks (cf. § 8.1).
+> **Use this table mechanically.** “Ban” means the listed phrase is **not allowed** in Core prose, identifiers, or diagrams unless the **canonical** appears alongside it (or as a registered Context alias). EntityOfConcern and Description-episteme boundary, specification-use gates, and token gates prevent EntityOfConcern, Description episteme, specification use, publication-position, and TokenClass leaks (cf. § 8.1).
 
 | **L‑rule**   | **Ambiguous or low-precision word (Ban)**                  | **Canonical FPF target(s)**                                                                                                                                                                     | **EntityOfConcern and Description-episteme boundary and specification-use gate**                                                                       | **TokenClass gate**                         | **Notes**                                                                                            |
 | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -61121,7 +61136,7 @@ Use these rows as compact diagnostics for common ontology recoveries, not as a r
 A text **passes** LEX if all answers are **Green**:
 
 1. **Context named.** Polysemous terms appear **inside a named `U.BoundedContext`** (or the page declares a local context card).
-2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication-lane, and run-record uses are not conflated (cf. § 8.1 gates).
+2. **Right EntityOfConcern and Description-episteme boundary and specification use.** EntityOfConcern, Description-episteme, specification-use, publication relation, and run-record uses are not conflated (cf. § 8.1 gates).
 3. **Promise, ability, and performance split.** `PromiseContent` (promise clause), `Capability` (ability), `Work` (performance) are not conflated.
 4. **No anthropomorphism.** Documents, datasets, and models do not “do”; **Systems** do.
 5. **Scheduling hygiene.** No actuals on `WorkPlan`; all actuals belong on `Work`.
@@ -61336,7 +61351,7 @@ The platform records an object-storage service promise (access = `S3_API_Spec_vX
 * **Acts and tokens.** LEX applies to **tokens**; USM applies to **acts**: mint, rename, and use. Conformance:
   `LEX.TokenClass(t)=c  ⇒  USM.Scope(usage) ∈ AllowedScopes(c)` (§ 7.5).
 * **Guards honoured.** DevOps Lexical Firewall and Unidirectional Dependency remain intact.
-* **Reserved “plane”.** Only **`CHR:ReferencePlane`** uses the bare word *plane*. E.10.D2 is the EntityOfConcern and Description-episteme boundary plus specification-use gates, with publication lanes kept separate; all other category talk is expressed as **Characteristics** in a **CharacteristicSpace** when scale semantics are declared.
+* **Reserved “plane”.** Only **`CHR:ReferencePlane`** uses the bare word *plane*. E.10.D2 is the EntityOfConcern and Description-episteme boundary plus specification-use gates, with publication faces, publication forms, `PublicationUnit`s, carriers, and renderings kept separate; all other category talk is expressed as **Characteristics** in a **CharacteristicSpace** when scale semantics are declared.
 
 > **One-line memory:** *“E.10 keeps words honest so ideas stay composable.”*
 
@@ -63558,17 +63573,17 @@ If no **ScaleLensPolicy** is declared, selection remains **neutral** with respec
 > **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of Description epistemes and specification-use Description epistemes)
 
 **Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
-**Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier lanes), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification-use refinement discipline).
+**Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier relation positions), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification-use refinement discipline).
 **Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (transformation-flow viewpoint-family map), domain‑specific description schemes (architecture, safety cases, governance, research).
 
 **Kind, relation, and use guard.**
 
 **Family indexing rule.** `U.MultiViewDescribing` indexes families by `EntityOfConcernClass`, `EntityOfConcernRef`, bounded context, and viewpoint. `EoIClass*` and `DescribedEntity*` wording does not create a second view-family ontology; use the EntityOfConcern family.
 
-**C.2.1 lane binding.** `U.MultiViewDescribing` does not mint a generic semio kind. When the family describes or views knowledge claims, the claim-bearing value is `U.Episteme`; when that episteme is made available as a published episteme, use `U.EpistemePublication` or governed `U.Episteme` publication. Publication forms, episteme-lane `U.View` values, MVPK faces, source-finding cues, and SCR and RSCR carriers remain separate lanes. If a family crosses into another FPF pattern or a non-pattern `authoritySourceRef` destination, name `governingPatternRef` or `authoritySourceRef` rather than a container label.
+**C.2.1 relation-position binding.** `U.MultiViewDescribing` does not mint a generic semio kind. When the family describes or views knowledge claims, the claim-bearing value is `U.Episteme`; when that episteme is made available as a published episteme, use `U.EpistemePublication` or governed `U.Episteme` publication. Publication forms, episteme-side `U.View` values, MVPK faces, source-finding cues, SCR and RSCR carriers remain separate relation positions. If a family crosses into another FPF pattern or a non-pattern `authoritySourceRef` destination, name `governingPatternRef` or `authoritySourceRef` rather than a container label.
 
 * `U.Viewpoint` is the ValueKind of `ViewpointSlot` and denotes **viewpoint specifications**, not `publication-face kind` values or carriers.
-* `U.View` is the selected short form for `U.EpistemeView`, i.e. an **episteme-lane view**, not a document or file. Views are epistemes; `publication face/form` and `interop publication form` are publication-face/form discipline `publication-face kind` values; concrete renderings and carriers remain A.7, SCR, and RSCR concerns.
+* `U.View` is the selected short form for `U.EpistemeView`, i.e. an **episteme-side view**, not a document or file. Views are epistemes; literal `publication face/form` and `interop publication form` are accepted `publication-face kind` values under publication-face-kind discipline; concrete renderings and carriers remain A.7, SCR, and RSCR concerns.
 * `ViewFamilyId` is a lexical tag for **families of viewpoints** (e.g. TEVB), never for view kinds, MVPK `U.View` values, `U.ViewFamily(-)` bundles, or `publication-face kind` values. MVPK face kinds remain `{PlainView, TechCard, InteropCard, AssuranceLane}`.
 
 ### E.17.0:1 - Problem frame  *(informative)*
@@ -63585,7 +63600,7 @@ In FPF terms:
 
 * the things we talk about — systems, methods, services, epistemes — are `U.Entity` or `U.Holon` values in `EntityOfConcernSlot`;
 * descriptions and specifications of those things are `U.Episteme` instances (`…Description` or `…Spec`) with a **DescriptionContext** = `⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`;
-* episteme-lane views are `U.View` (`U.EpistemeView`) that slice ClaimGraphs under specific viewpoints and representation schemes.
+* episteme-side views are `U.View` (`U.EpistemeView`) that slice ClaimGraphs under specific viewpoints and representation schemes.
 
 What we lack without this pattern is a **universal way to organise families of Description epistemes and specification-use Description epistemes under multiple viewpoints** — for any entity of concern, not only for architecture, and without collapsing “view” into “document” or “diagram”.
 
@@ -63593,10 +63608,10 @@ What we lack without this pattern is a **universal way to organise families of D
 
 Without `U.MultiViewDescribing`:
 
-1. **Viewpoints, views, `publication face/form` and `interop publication form` kinds, and carrier renderings collapse.**
+1. **Viewpoints, views, publication-face-kind values, and carrier renderings collapse.**
    In practice, “architecture view”, “diagram”, “spec”, and “published deck” are used interchangeably. This:
 
-   * confuses *episteme* (`U.View`) with `publication face/form` or `interop publication form` kind or with a concrete carrier rendering,
+   * confuses *episteme* (`U.View`) with publication-face-kind values (`publication face/form` or `interop publication form`) or with a concrete carrier rendering,
    * hides which **concerns and stakeholders** a description is written for,
    * makes it impossible to check whether a given description family is “complete enough” for a chosen viewpoint library.
 
@@ -63621,7 +63636,7 @@ Without `U.MultiViewDescribing`:
 | **Viewpoint locality vs reuse**        | Viewpoints must be local to families of descriptions (`EntityOfConcernClass`, Context) ↔ we want reusable **viewpoint bundles** (libraries) across projects and domains.                           |
 | **EntityOfConcern and Description-episteme boundary and specification-use strictness vs pragmatics** | The EntityOfConcern for this describing use is not the produced Description episteme or its specification use, although an episteme may itself be the current EntityOfConcern; Description is an episteme use and Specification is a checkability-gated, formality-gated, or harness-gated use or refinement of a Description episteme with `DescriptionContext` ↔ engineers think in “views over a system”, not in pure slot-relation algebra. |
 | **Slot discipline vs approachability** | C.2.1 and A.6.5 give a clean SlotKind, ValueKind, and RefKind discipline ↔ working users need to talk about “functional view” and “safety view” without carrying all slot jargon in didactic explanatory text. |
-| **Epistemic versus publication-form and carrier lanes** | Views (epistemes) must be clearly separated from `publication face/form` and `interop publication form` kinds and carriers ↔ working practice often conflates “viewpoint”, “view”, and “document”.                                         |
+| **Epistemic versus publication-form and carrier relation positions** | Views (epistemes) must be clearly separated from publication-face-kind values (`publication face/form`, `interop publication form`) and carriers <-> working practice often conflates "viewpoint", "view", and "document".                                         |
 | **Consistency vs incremental change**  | We want tight correspondence between views ↔ views evolve asynchronously; partial inconsistency must be representable and repairable (BX‑style).                                      |
 
 ### E.17.0:4 - Solution — `U.MultiViewDescribing` as the universal multi‑view scaffold  *(normative core)*
@@ -63631,7 +63646,7 @@ Without `U.MultiViewDescribing`:
 `U.MultiViewDescribing` organises **families of Description epistemes and specification-use Description epistemes** for a shared entity of concern into a multi‑view structure with:
 
 * **explicit viewpoints** (`U.Viewpoint`) as specifications of stakeholder families, concern entries, allowed Description kinds and specification-use gates, and conformance rules;
-* **episteme-lane views** (`U.View = U.EpistemeView`) as view-epistemes over those Description epistemes and specification-use cases;
+* **episteme-side views** (`U.View = U.EpistemeView`) as view-epistemes over those Description epistemes and specification-use cases;
 * a **CorrespondenceModel** capturing correspondences between Description epistemes, including Description epistemes admitted for specification use and their views across viewpoints.
 
 The pattern's EntityOfConcern class is explicit:
@@ -63689,7 +63704,7 @@ A `U.Viewpoint` is a viewpoint specification:
 * `ViewpointSlot` has ValueKind `U.Viewpoint`, RefKind `U.ViewpointRef`; episteme fields are named `viewpointRef : U.ViewpointRef?`.
 * For Description epistemes, including Description epistemes admitted for specification use in a `U.MultiViewDescribing` family, `viewpointRef` is **mandatory** as part of `DescriptionContext`.
 
-##### E.17.0:4.2.3 - `U.View` (episteme-lane views)
+##### E.17.0:4.2.3 - `U.View` (episteme-side views)
 
 `U.View` is the selected short form for `U.EpistemeView`, a species of `U.Episteme` whose kind includes:
 
@@ -63798,12 +63813,12 @@ When views or Description epistemes, including Description epistemes admitted fo
 `U.MultiViewDescribing` is purely **epistemic**:
 
 * Description epistemes, Description epistemes admitted for specification use, and views live entirely in Ep-space (`U.Episteme`);
-* it does **not** define `publication face/form`/`interop publication form` kind, carriers, or rendering;
+* it does **not** define publication-face-kind values, carriers, or rendering;
 * MVPK (E.17) sits **on top**:
 
   * taking morphisms, Description epistemes, or both, including Description epistemes admitted for specification use as input,
   * using `U.EpistemicViewing` plus publication‑specific viewpoints,
-  * emitting `U.View` instances declared against `publication face/form`/`interop publication form` kind via publication-face/form discipline.
+  * emitting `U.View` instances declared against literal `publication face/form` or `interop publication form` `publication-face kind` values via publication-face-kind discipline.
 
 MultiViewDescribing therefore **does not re‑define EntityOfConcern-to-Description or specification-use refinement** (`Describe_EoC_DescEp` plus `specificationUseRef` when a neighbouring gate grants specification force) and does not introduce any `U.Work` on carriers; A.7 carries the describing boundary, A.6.2 and neighboring pattern governing the claiming gates carry specification-use refinement, and E.17 carries publication.
 
@@ -63821,7 +63836,7 @@ For any `U.MultiViewDescribing` instance:
 2. Viewings and correspondence operations **must not**:
 
    * collapse the EntityOfConcern for this describing use into the produced Description episteme or Description episteme admitted for specification use,
-   * confuse Description epistemes or Description epistemes admitted for specification use with `publication face/form`/`interop publication form` kind or carrier rendering,
+   * confuse Description epistemes or Description epistemes admitted for specification use with publication-face-kind values or carrier rendering,
    * reinterpret EntityOfConcern without going through A.6.4 retargeting.
 
 #### E.17.0:4.3.7 - MVD‑7 - Slot discipline
@@ -63845,7 +63860,7 @@ All constructs in this pattern **must** respect `U.RelationSlotDiscipline`:
    * `EntityOfConcernClass = U.Morphism`.
    * Description epistemes, including Description epistemes admitted for specification use capture the semantic characterisation of morphisms (pre‑/post‑conditions, CG‑Specs, CHR pins).
    * Viewpoints are publication‑oriented (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`); views are MVPK faces over those morphisms.
-   * CorrespondenceModel states how the same morphism appears as a simple narrative, a typed card with units, an interoperability card, and an assurance lane with evidence bindings — all without new claims.
+   * CorrespondenceModel states how the same morphism appears as a simple narrative, a typed card with units, an interoperability card, and an `AssuranceLane` face with evidence bindings - all without new claims.
 
 3. **Safety case vs architecture vs operations.**
    * `EntityOfConcernClass = U.Holon`.
@@ -63874,7 +63889,7 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
    *Whenever cross‑view consistency matters, introduce a `U.CorrespondenceModel` episteme and reference it from any `U.CorrespondenceEpistemicViewing`.*
 
 6. **Separate describing from publication.**
-   *Check that pattern text does not treat EntityOfConcern-to-Description or specification-use refinement as “publication”, and that any talk of `publication face/form`/`interop publication form` kind or carriers is clearly delegated to MVPK/publication-face/form discipline.*
+   *Check that pattern text does not treat EntityOfConcern-to-Description or specification-use refinement as “publication”, and that any talk of literal `publication face/form` or `interop publication form` `publication-face kind` values or carriers is clearly delegated to MVPK/publication-face-kind discipline.*
 
 7. **Respect SlotKind, ValueKind, and RefKind discipline.**
    *Use `*Slot` only for SlotKinds, `*Ref` only for RefKinds and fields; avoid `Subject`/`Object` roots in episteme types; use `EntityOfConcernSlot` and `viewpointRef` instead.*
@@ -63894,7 +63909,7 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
   Consistency and traceability between views are expressed via ClaimGraphs in `U.CorrespondenceModel`, not as scattered hyperlinks or spreadsheet columns.
 
 * **Clean separation of describing vs publishing.**
-  `U.MultiViewDescribing` ends the long‑standing conflation between describing (EntityOfConcern-to-Description plus specification-use) and publication (Description episteme or Description episteme admitted for specification use -> `publication face/form` or `interop publication form` kind plus carrier rendering). MVPK becomes a clean specialisation on top, not a second EntityOfConcern and Description-episteme boundary and specification-use refinement discipline.
+  `U.MultiViewDescribing` ends the long-standing conflation between describing (EntityOfConcern-to-Description plus specification-use) and publication (Description episteme or Description episteme admitted for specification use -> literal `publication face/form` or `interop publication form` `publication-face kind` value plus carrier rendering). MVPK becomes a clean specialisation on top, not a second EntityOfConcern and Description-episteme boundary and specification-use refinement discipline.
 
 * **Slot-specific interoperability.**
   C.2.1/A.6.5 slot discipline applies uniformly; new domains can introduce viewpoint bundles and multi‑view families without inventing new ontologies for view positions or relation positions.
@@ -63958,7 +63973,7 @@ When defining a new `U.MultiViewDescribing` species or using it in a discipline 
 
 `U.MultiViewDescribing` lets a description family state that one entity of concern is rendered through several viewpoints with declared correspondences. In practice many such viewpoint families recur across projects and schools: engineering teams reuse functional / procedural / structural / interface viewpoints; governance teams reuse risk / control / compliance / operations viewpoints; research teams reuse theory / experiment / inference / limitation viewpoints.
 
-FPF therefore needs one explicit governing pattern for reusable viewpoint families so that authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels and publication faces/forms.
+FPF therefore needs one explicit governing pattern for reusable viewpoint families so that authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels, publication faces, and publication forms.
 
 ### E.17.1:2 - Problem
 
@@ -63987,7 +64002,7 @@ Without a viewpoint-bundle library pattern:
 
 ### E.17.1:4 - Solution - `U.ViewpointBundleLibrary`
 
-`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, publication unit, publication form, face, or carrier only through the usual E.17 publication lane.
+`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, `PublicationUnit`, publication form, face, or carrier only through the usual E.17 publication relation positions.
 
 #### E.17.1:4.1 - Core role
 
@@ -64025,7 +64040,7 @@ Minimal structure:
 - `viewpoints : FinSet(U.Viewpoint)`
 - optional `ArchetypalCards : FinSet(U.ArchetypalGroundingRef)`
 - optional `AlignmentNotes` for ISO 42010 or domain-standard correspondences
-- optional typed annex references for lexical, bridge, routing, example, or SoTA companion material
+- optional typed annex references for lexical, bridge, A.16 move-publication, example, or SoTA companion material
 
 `ViewFamilyId` names the bundle. It does **not** name a `U.View`, a publication face, or a file-system carrier.
 
@@ -64050,7 +64065,7 @@ If more than one bundle is used, the family shall make the partition explicit ra
 
 **Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces that later realize it.
 
-**Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.RoleEnactor`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
+**Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
 
 **Show (Episteme).** A governance-oriented bundle can package `VP.Risk`, `VP.Control`, `VP.Compliance`, and `VP.Operations` as one reusable family for service or program descriptions. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
 
@@ -64084,7 +64099,7 @@ The pattern biases FPF toward bundle-first reuse and against ad hoc local re-inv
 | **Reusable viewpoint families.** Stable bundle ids let many projects reuse the same family without restating it. | Libraries need governance and edition discipline. |
 | **Cleaner `U.MultiViewDescribing`.** A family can import a reviewed bundle instead of spelling out every viewpoint locally. | Local exceptions must be made explicit rather than hidden in prose. |
 | **Better architectural alignment.** ISO 42010-style viewpoint-library practice gains a native FPF catalogue episteme. | Initial bundle authoring requires care in naming and grounding. |
-| **Lexical hygiene.** Bundle ids, viewpoint ids, views, and publication faces/forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
+| **Lexical hygiene.** Bundle ids, viewpoint ids, views, publication faces, and publication forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
 
 ### E.17.1:10 - Rationale
 
@@ -64092,16 +64107,16 @@ The pattern biases FPF toward bundle-first reuse and against ad hoc local re-inv
 
 ### E.17.1:11 - SoTA-Echoing
 
-The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, and publication faces/forms.
+The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, publication faces, and publication forms.
 
 ### E.17.1:12 - Relations
 - **Builds on:** `C.2.1` slot discipline through `ViewpointSlot` / `ViewSlot`, `A.6.2-A.6.4`, `A.7`, `E.7`, and `E.10`.
 - **Constrains:** `E.17.0 U.MultiViewDescribing` whenever it imports viewpoint families from reusable bundles.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and any domain-specific viewpoint family that needs stable reuse.
-- **Protects:** lexical and ontological separation between viewpoint families, concrete views, and publication faces/forms.
+- **Protects:** lexical and ontological separation between viewpoint families, concrete views, publication faces, and publication forms.
 #### E.17.1:12.1 - Typed annex manifests for thin bundles
 
-`VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `routing`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing routing notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
+`VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `movePublication`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing A.16 move-publication notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
 
 ### E.17.1:13 - Bundle Anatomy and Member Discipline
 
@@ -64135,7 +64150,7 @@ If the member viewpoints do not share that family-level purpose, the result is n
 
 - lexical discipline notes,
 - bridge overlays,
-- routing notes,
+- A.16 move-publication notes,
 - worked examples,
 - or SoTA references
 
@@ -64188,7 +64203,7 @@ A TEVB engineering bundle for holons may include viewpoints such as:
 
 - `VP.Functional`,
 - `VP.Procedural`,
-- `VP.RoleEnactor`,
+- `VP.AllocationResponsibility`,
 - `VP.ModuleInterface`.
 
 The important point is not the vocabulary alone. The bundle states that these viewpoints are intended to recur together for one engineering family of concerns. A later description family then imports that engineering bundle rather than re-inventing a local list of "roughly similar" viewpoints.
@@ -64216,9 +64231,9 @@ A research-method bundle may include viewpoints such as:
 
 A local inquiry note might import only three of these viewpoints, but the import remains legible because the omitted ones still belong to a reviewed family rather than disappearing into ad hoc prose.
 
-#### E.17.1:15.4 - Cross-family description stack
+#### E.17.1:15.4 - Cross-family description relation positions
 
-A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public publication faces/forms. `E.17.1` keeps this stack admissible for review by preserving which bundle each viewpoint came from and by preventing the final publication face/form from masquerading as the viewpoint library itself.
+A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public publication faces and publication forms. `E.17.1` keeps these relation positions reviewable by preserving which bundle each viewpoint came from and by preventing the final publication face or publication form from masquerading as the viewpoint library itself.
 
 ### E.17.1:16 - Authoring and Review Guidance
 
@@ -64270,7 +64285,7 @@ This sequence preserves provenance and avoids pretending that the reusable famil
 
 #### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
-If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those roles explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
+If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those positions explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
 
 #### E.17.1:17.4 - Boundary to annex growth
 
@@ -64745,13 +64760,13 @@ As SoTA evolves, new bundles can be added or TEVB can gain a new edition with a 
 ## E.17 - Multi‑View Publication Kit
 > **Status:** Stable
 
-**At a glance.** Use `E.17` when one source-backed episteme, episteme-lane view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
+**At a glance.** Use `E.17` when one source-backed episteme, episteme-side view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
 
-**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or assurance lane that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
+**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or `AssuranceLane` face that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
 
 **First output.** One source-pinned publication face with the underlying `U.Episteme`, Description episteme, or Description episteme selected for specification use, publication scope, face kind, bounded publication use, and any present downstream typed value named only as far as the current use needs, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 
-**Working publication move.** Publish one source-pinned face; separate source episteme or episteme-lane view, face, carrier, bounded publication use, and any present downstream typed value plus its governing FPF pattern and reference; use the face for inspection, source-finding, review, exchange, or planning preparation; apply the neighboring FPF pattern governing that claim if work, evidence, gate, engineering-justification, control, or release use is present.
+**Working publication move.** Publish one source-pinned face; separate source episteme or episteme-side view, face, carrier, bounded publication use, and any present downstream typed value plus its governing FPF pattern and reference; use the face for inspection, source-finding, review, exchange, or planning preparation; apply the neighboring FPF pattern governing that claim if work, evidence, gate, engineering-justification, control, or release use is present.
 
 **Ordinary formality rule.** If the face is used only for orientation, source-finding, review, comparison, or planning preparation, keep the publication light: one pinned face or compact card plus a clear bounded-publication-use line is enough.
 
@@ -64771,22 +64786,22 @@ Here in the first-screen interpretation, keep only the MVPK publication move: on
 
 > **Tech-name:** `U.MultiViewPublicationKit` (**MVPK**)
 
-> **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-lane `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side value or reference that carry that downstream use, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
+> **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-side `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side value or reference that carry that downstream use, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 > **USM binding (overview):** `PublicationScope` is a **USM‑class** object that parameterizes MVPK; see §5.0.
-> **Episteme lane.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-lane `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : U.Morphism`. In a non-morphism publication, the face names the source episteme named by value, episteme-lane view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
+> **Episteme-side view position.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-side `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : U.Morphism`. In a non-morphism publication, the face names the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
 
 ### E.17:1 - Intent
 
-Provide a disciplined way to publish one source episteme or episteme-lane view across multiple didactic faces without adding semantics, while keeping publication viewpoints explicit and auditable. The canonical formal profile is morphism publication: a small view-pack applied to any `U.Morphism`, including compositions, yields a family of views that commute with arrow composition and respect edition and measurement pinning.
+Provide a disciplined way to publish one source episteme or episteme-side view across multiple didactic faces without adding semantics, while keeping publication viewpoints explicit and auditable. The canonical formal profile is morphism publication: a small view-pack applied to any `U.Morphism`, including compositions, yields a family of views that commute with arrow composition and respect edition and measurement pinning.
 
 ### E.17:2 - Problem frame
 
 * Teams routinely need several **faces** of the *same* arrow: a **`TechCard`** for the catalog, an **`InteropCard`** for machine exchange, a **`PlainView`** for narrative, and an **`AssuranceLane`** for evidence.
 * Informal “renderings” quietly **drift semantics**; **composite arrows** are often published piecemeal, breaking traceability; **evidence** forgets unit, scale, and edition pins.
 * “View” and “viewpoint” are **blurred** in practice; authors conflate **publication** with **mechanism**.
-* publication-face/form discipline requires **`publication-face kind` token discipline**; Core allows only **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad‑hoc `...Surface` kinds).
+* publication-face-kind discipline requires **`publication-face kind` token discipline**; Core allows only literal values **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad-hoc `...Surface` kinds).
 
-**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-lane views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
+**MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-side views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
 
 ### E.17:3 - Problem
 
@@ -64818,25 +64833,25 @@ Provide a disciplined way to publish one source episteme or episteme-lane view a
 
 #### E.17:5.1 - Terminology (normative)
 
-* **View** (`U.View`): an episteme-lane view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-lane view, EntityOfConcern, or claim relation named by the source.
+* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
   Every MVPK `U.View` declares:
-  `publication-face kind ∈ {publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
+  `publication-face kind ∈ {literal publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
   Any carrier rendering is separate **`U.Work` over carrier or rendering infrastructure**, with A.10 carrier and source-currentness records when reliance is current, and is not part of `U.View`.
 * **Publication vs presentation vs rendering vs representation (guard):**
-    * **Publication** = typed projection from existing source epistemes or episteme-lane views into a `U.View` governed by a `publication face/form` or `interop publication form` `publication-face kind` via species of `U.EpistemicViewing` (`A.6.3`). In the morphism profile, the source epistemes are Description epistemes about a morphism, possibly under specification use when A.6.2, C.2.3, A.21, C.16, E.10, or another neighboring pattern governing the claiming gate grants that use. A.7 supplies the EntityOfConcern and Description-episteme boundary; publication expression does not turn that boundary into a three-member strict-distinction ontology.
+    * **Publication** = typed projection from existing source epistemes or episteme-side views into a `U.View` governed by the literal `publication face/form` or `interop publication form` value of `publication-face kind` via species of `U.EpistemicViewing` (`A.6.3`). In the morphism profile, the source epistemes are Description epistemes about a morphism, possibly under specification use when A.6.2, C.2.3, A.21, C.16, E.10, or another neighboring pattern governing the claiming gate grants that use. A.7 supplies the EntityOfConcern and Description-episteme boundary; publication expression does not turn that boundary into a three-member strict-distinction ontology.
     * **Presentation** = rhetorical arrangement of a published carrier; **notation-neutral**, adds no claims and is **not** a `publication-face kind`.
     * **Rendering** = display layout of a carrier, purely graphical formatting; **`U.Work` on carriers** (A.7), not a `publication-face kind`.
     * **Representation** = episteme↔referent relation (`C.2.1`, `A.6.2` through `A.6.4`); **not** a publication operation and not a `publication-face kind` operation. Use **publication** and **view** here; treat presentation and rendering as **`U.Work` on carriers** (`A.7`).
-* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication lane); **engineering viewpoint** -> `EngineeringVPId` (`E.18:5.12` transformation-flow viewpoint-family map). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
+* **ISO mapping note.** ISO **viewpoint** -> `PublicationVPId` (publication relation position); **engineering viewpoint** -> `EngineeringVPId` (`E.18:5.12` transformation-flow viewpoint-family map). An ISO **view** can be a single MVPK face; “bundles” are packaging only.
 * **No‑mechanism equivalence:** MVPK **is not** a mechanism; any operational activity, such as build, render, or upload work, is **separate `U.Work` by a system on carriers** (A.7; see **Rule 5 — No Γ-leakage** in §6).
 * **ViewpointSpec (`U.Viewpoint`)** — a typed specification that declares stakeholders, concerns, conformance rules, declared **Publication Characteristics**, and pinning requirements per profile. The index set `Σ` consists of identifiers of `U.Viewpoint` instances, typically drawn from `U.ViewpointBundle` species (E.17.1 or E.17.2) (see §5.3).
 * **Explanation-use profile values.** Existing faces can state an explanation-use profile value as `SourcePinnedExplanation`, `SourceLinkedExplanationReconstruction`, `DidacticRetelling`, or `SpeculativeRetelling`, but those are local profile values over already existing MVPK faces rather than new face kinds, explanation kinds, or carrier-rendering kinds. Per-face pins, provenance references, and no-new-A.6.B-boundary-claims discipline still apply.
 
-#### E.17:5.1a - Episteme-publication lane binding  *(normative)*
+#### E.17:5.1a - Episteme-publication relation-position binding  *(normative)*
 
-For functional-description publications, MVPK governs the publication lane only.
+For functional-description publications, MVPK governs only the publication relation position.
 
-**Publication lane.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description can help interpretation, source-finding, comparison, selected-method inspection, or work-planning preparation.
+**Publication relation position.** A principle scheme, functional diagram, comparison table, screen, export, scenario, explanation, or code-like method description can help interpretation, source-finding, comparison, selected-method inspection, or work-planning preparation.
 
 **Unsupported neighboring claims.** The publication does not by itself assert performed `U.Work`, gate passage, evidence, engineering justification, supervisory relation or control relation, release permission, or a new transformation-flow kind.
 
@@ -64861,11 +64876,11 @@ For functional-description publications, MVPK governs the publication lane only.
 
 Ordinary orientation and source-finding can stay as an inline note.
 
-**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication face separates the source `U.Episteme` or episteme-lane `U.View`, the MVPK face, any present carrier or rendering work, the bounded engineering use, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
+**Functional-description guard (`CC-MVPK-FD`).** A functional-description publication face separates the source `U.Episteme` or episteme-side `U.View`, the MVPK face, any present carrier or rendering work, the bounded engineering use, and unsupported neighboring use. The guard applies only when a functional-description face is present; it is not the first universal MVPK conformance gate.
 
 MVPK inherits the C.2.1 distinction between `U.Episteme`, `U.EpistemePublication`, publication form, `U.View`, carrier, and authority-reference relation. MVPK does not introduce a generic semio kind and does not let a publication face act as `governingPatternRef`, `authoritySourceRef`, or the source claim for a claim.
 
-When a morphism publication is encountered or reused, name the relevant lane before relying on it:
+When a morphism publication is encountered or reused, name the relevant relation position before relying on it:
 
 * the underlying `U.Episteme`, `D` episteme, or `S` episteme whose ClaimGraph is being projected;
 * the `U.EpistemePublication` or source `U.Episteme` publication when the episteme is available as a published episteme;
@@ -64928,7 +64943,7 @@ Use these terms when a publication face, rendering, narrower-use rendering, expl
 
 #### E.17:5.1d - Compact boundary aid for the present claim or effect
 
-When a publication-facing unit, publication face, rendering, narrower-use rendering, explanation, comparison note, dashboard tile, credential view, status view, carrier, or generated unit creates more than one possible interpretation, separate the claim being made or effect being used now and cite the source relation that carries, supports, or exposes the source basis for the operative claim for that claim or effect. This compact boundary aid governs the present claim or effect only; it does not classify the whole encountered unit. The same encountered unit can expose several typed records; handle one claim being made or effect at a time instead of pretending there is one overall governing relation for the encountered unit.
+When a publication-facing unit, publication face, rendering, narrower-use rendering, explanation, comparison note, dashboard tile, credential view, status view, carrier, or generated unit creates more than one possible interpretation, separate the claim being made or effect being used now and cite the source relation that makes the operative claim recoverable by value for that claim or effect. This compact boundary aid governs the present claim or effect only; it does not classify the whole encountered unit. The same encountered unit can expose several typed records; handle one claim being made or effect at a time instead of pretending there is one overall governing relation for the encountered unit.
 
 **Mixed-case precedence.** When several publication-use patterns appear possible, repair the smallest unstable interpretation that changes the current bounded use before applying a neighboring pattern whose claim or effect is present:
 
@@ -64991,7 +65006,7 @@ Use the FPF pattern that governs the claim being made or effect under use. Keep 
 
 **Modality and deontic-force preservation.** Publication-facing transformations preserve possibility, obligation, permission, recommendation status, decision status, confidence, scope, and temporal window when those values change the claim or use. If one of these changes, narrow the bounded use or apply the governing pattern that carries the changed claim or effect. Comparison does not become recommendation or decision; explanation does not become evidence; a publication face does not become authority; a publication unit does not smuggle a downstream effect; source-linked does not mean source-available for reliance; ready-looking does not mean gate-passed.
 
-This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that carries, supports, or exposes the source basis for the operative claim and source pins survive in the new publication-facing unit.
+This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that makes the operative claim recoverable by value and source pins survive in the new publication-facing unit.
 
 **Reader position is not project role.** Reader position, audience, target user model, verifier position, reviewer position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
 
@@ -65016,7 +65031,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 - **Green dashboard tile.** A tile says `Model ready`. Treat the tile as the `PublicationUnit` when that tile carries the present release overread. The useful publication use is source-finding and status orientation unless an exact `GateDecisionRef`, gate profile, source relation, and evidence or currentness relation are recoverable. Without those, the tile is not release permission or gate passage by green color or placement.
 - **Generated explanation with source links.** A generated text explains a method and cites sources. The explanation rendering is not source replacement. Source links carry only the pinned operative claims they actually carry. If work or reliance is present, use `A.10` for the evidence path named by value or keep the rendering as reader help; if the rendering is deliberately reduced-use, use `A.6.3.CSC`.
 - **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or bridge relation needs `F.9` or `F.9.1`.
-- **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind stack instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side value named by value and reference.
+- **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind and relation positions instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side value named by value and reference.
 - **Translated tutorial.** A translated tutorial can improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads can need `E.17.AUD.LHR` or `C.2.P`, and `F.18` is present only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
 
 **Practical harm prevented by neighboring pattern.** Use this map when the reader asks what the discipline buys in practice:
@@ -65046,14 +65061,14 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 #### E.17:5.2 - Declared `publication-face kind` values at Part E
 
-Part E restricts `publication-face kind` values to **publication face/form** and **interop publication form**. Concrete publication faces use names ending in **...View**, **...Card**, or **...Lane**.
+Part E restricts `publication-face kind` values to the literals **publication face/form** and **interop publication form**. Concrete publication faces use names ending in **...View**, **...Card**, or **...Lane**.
 
 **USM linkage (normative).** Every `U.View` declares a `U.PublicationScope` (USM §6.5).
 For a view **about an episteme** `E`: `PublicationScope(view_E) ⊆ ClaimScope(E)`.
 For a view **about a capability** `C`: `PublicationScope(view_C) ⊆ WorkScope(C)`. This is the publication scope of a capability description, not permission to perform work and not evidence that work occurred. Work-use reliance still requires `A.15.4` source restoration when the view is used for work or reliance, and the `A.15` role, method, plan, and work source relation for the actor, target, context, scope, and time window in use.
 Cross-context views cite Bridge + CL; CL penalties apply to R only (scope membership unchanged).
 
-**Publication face/form naming discipline.**
+**Publication-face-kind naming discipline.**
 * Declared `publication-face kind` values: **publication face/form**, **interop publication form**.
 * Concrete faces use names ending in **...View**, **...Card**, or **...Lane**.
 * The tokens **carrier, bearer, and holder** do not name a `U.View` or any publication entity.
@@ -65065,10 +65080,10 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 **MVPK-Max viewpoints (normative; exactly four; governed by the MVPK profile):**
 * `PlainView` (explanatory prose view)
 * `TechCard` (typed catalog card)
-* `AssuranceLane` (evidence bindings and lanes)
+* `AssuranceLane` (evidence bindings)
 * `InteropCard` (conceptual interoperability view; mapping to concrete exchange formats lives in the interop annex; Part E does not specify schemas)
 
-`AssuranceLane` can expose evidence bindings, evidence-carrier references, pins, and presence bits. It is not a `B.3` assurance claim, readiness or confidence verdict, engineering-justification record, or evidence-sufficiency result. When a published face is used to raise or lower assurance, readiness, confidence, limitation, or engineering-justification result, the governing source relation is `B.3`; the lane only helps recover the cited evidence bindings.
+`AssuranceLane` can expose evidence bindings, evidence-carrier references, pins, and presence bits. It is not a `B.3` assurance claim, readiness or confidence verdict, engineering-justification record, or evidence-sufficiency result. When a published face is used to raise or lower assurance, readiness, confidence, limitation, or engineering-justification result, the governing source relation is `B.3`; the face only helps recover the cited evidence bindings.
 
 **Lean profiles (small-team friendly, optional; as MVPK kit profiles):**
 * **MVPK-Min (F0-F1):** Σ = {`PlainView`, `TechCard-Lite`}. `AssuranceLane` omitted. No interop face.
@@ -65094,7 +65109,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 3. **Signature reserved to signature-governed entities.** Use **Signature** only for entities already governed by signature patterns, such as `U.Signature`. On faces, use **TechName** or **PlainName**.
 4. **Set-returning comparison.** Whenever a face shows selection or comparison, it returns sets or declared partial orders and does not hide scalarization; cite a `ComparatorSetRef` for any total order.
 5. **Bridge crossing penalties.** Crossings cite Bridge and CL; publish `Φ(CL)` and `Φ_plane` ids; penalties apply to R only (never F or G).
-6. **Carrier references and lanes.** On first mention, name carrier references and any A.10/G.6 source-currentness or provenance records when downstream reliance is current; keep `U.Work` occurrences distinct from epistemic claims via lanes.
+6. **Carrier references and relation positions.** On first mention, name carrier references and any A.10/G.6 source-currentness or provenance records when downstream reliance is current; keep `U.Work` occurrences distinct from epistemic claims via relation positions.
 7. **Publication is not execution.** Faces carry no time or resource semantics; any build, render, or upload work is separate **`U.Work`**.
 
 #### E.17:5.5 - Pin & Publication characteristics (normative; never "axes")
@@ -65104,7 +65119,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 **Terminology (aligned with CHR-MM & UNM).**
 * **Characteristic** (`U.Characteristic`): a measured aspect as defined in CHR-MM (entity characteristic or relation characteristic with a chosen **Scale**).
 * **CharacteristicSpace** (`U.CharacteristicSpace`): a CHR-typed product of slots used by dynamics and measurement theories (A.19).
-* **Publication characteristic** (`U.PubCharacteristic`, **PC**): a **declarative facet** that a view, card, or lane can expose *about a morphism* under a stated **Viewpoint**. Each PC is grounded by CHR and CG-Spec publications and pinned by unit, scale, reference-plane, and edition. PCs are not geometry and do not define axes.
+* **Publication characteristic** (`U.PubCharacteristic`, **PC**): a **declarative facet** that a view, card, or `AssuranceLane` face can expose *about a morphism* under a stated **Viewpoint**. Each PC is grounded by CHR and CG-Spec publications and pinned by unit, scale, reference-plane, and edition. PCs are not geometry and do not define axes.
 
 **PC catalog (initial set).** MVPK defines a minimal open set of PCs that are frequently shown on publication faces:
 * **PC.Number** - numeric or comparable entries (thresholds, budgets, counts). **Pins required:** unit, scale, reference-plane, edition.
@@ -65142,7 +65157,7 @@ The catalog is open to extension through `U.PubCharacteristic`. PCs remain decla
 * **E17-PC-Ext-4 (Edition discipline).** If a PC depends on a definition or specification publication, edition-pin the reference (`...Ref.edition`) and document edition-change rules.
 
 **Adding invariants.**
-1. Place **new invariants** for PCs in **CG-Spec** (specification lane), not on faces; supply acceptance tests.
+1. Place **new invariants** for PCs in **CG-Spec** (specification-use relation position), not on faces; supply acceptance tests.
 2. Version any affected **CharacteristicSpace**; publish embeddings if semantics change; never mutate slots in place.
 3. Update the relevant **GateChecks** or **GateProfiles** (`A.21`, including GateCrossing checks and crossing-visibility checks from `E.18`, `F.9`, and relevant Part G bridge or crossing wiring) to warn or block on invariant violations; never weaken functorial invariants.
 4. State edition and edition-change rules; name the conformance check that detects the changed invariant and state the **Lean-profile downgrade** result (advisory vs block) where applicable.
@@ -65188,7 +65203,7 @@ For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_v
      * Any numeric or comparable content in a view pins {UnitType, ScaleKind, ReferencePlane}. **EditionId can be coarse at Lean profiles**; if units and scale are unknown, the face declares ordinal compare-only and keeps arithmetic outside the face until CHR pins are available. Pins upgrade monotonically with profile and risk.
 5. **No Γ‑leakage (publication independence).**
     Publication morphisms carry **no** Γ\_method, Γ\_time, or Γ_work semantics. Any build, render, or upload activity is **separate `U.Work` by a system or acting holon under current `U.RoleAssignment` over carrier/rendering infrastructure** (`A.7`, `A.15`, `A.10`).
-     **Lean assurance lane:** `AssuranceLane-Lite` exposes only presence bits for {PathId or PathSlice?, Γ_time window?, BridgeId?}; unknowns propagate (tri-state) with an explicit {degrade|abstain|sandbox} policy note.
+     **Lean `AssuranceLane` face:** `AssuranceLane-Lite` exposes only presence bits for {PathId or PathSlice?, Γ_time window?, BridgeId?}; unknowns propagate (tri-state) with an explicit {degrade|abstain|sandbox} policy note.
 6. **Carrier provenance.**
     Every emitted view records carrier references and any A.10/G.6 source-currentness or provenance record ids on first occurrence when reliance, evidence, or replay is current.
 7. **Isomorphism preservation.**
@@ -65228,7 +65243,7 @@ Read these examples as local tests for MVPK invariants, not as source citations 
     `f: Parse → Normalize`, `g: Normalize → Score`.
     `InteropCard(g∘f)` is an interoperability **view** whose path set equals the **relational composition** of the two cards; `AssuranceLane(g∘f)` cites test records as evidence **carriers** with edition pins. (Carriers, not semantics; concrete envelope formats are outside Part E.)
 2. **Control loop morphism (`TechCard` + `PlainView`).**
-    * For `h: Setpoint → Actuation`, `TechCard(h)` is a typed card with units; `PlainView(h)` narrates the same mapping with no new claims. (Monotone formalization echoes refinement‑typed stacks.)
+    * For `h: Setpoint → Actuation`, `TechCard(h)` is a typed card with units; `PlainView(h)` narrates the same mapping with no new claims. (Monotone formalization echoes refinement‑typed specification toolchains.)
 3. **Optics-informed composition witness.**
     * Profunctor and optic accounts are useful only as a source idea for why compositional publication matters. The local FPF test is still the MVPK witness: emit the face for `g∘f`, compose the emitted faces for `f` and `g`, and compare them. If the comparison is not supplied or fails, the face stays non-compositional or explanatory-only; optics vocabulary does not carry the rule by analogy.
 
@@ -65269,7 +65284,7 @@ A conformance check is retained only if it changes the next bounded use of the p
 | **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | CI shows proof records or witness records; gate validation passes. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
-| **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only **publication face/form** or **interop publication form** are used; faces are named **...View** or **...Card**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
+| **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View** or **...Card**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
 | **CC‑MVPK‑9 (Reindexing naturality)** | Reindexing coercions `PromoteView[s→t]` exist, are total, and commute with composition. | Witness shows `PromoteView[s→t]_Z ∘ Emit_s(g∘f) = (Emit_t(g) ∘ Emit_t(f)) ∘ PromoteView[s→t]_X`. |
 | **CC‑MVPK‑10 (Iso‑preservation)** | Isomorphisms in `U` remain isomorphisms under each viewpoint. | Cards show mapped inverses or an iso‑witness. |
 | **CC‑MVPK‑11 (Typing & totality)** | Ill‑typed composites are rejected at `ViewObj_s` rather than weakening functoriality. | Type‑check fails early; no “best‑effort” composition in cards. |
@@ -65294,8 +65309,8 @@ A conformance check is retained only if it changes the next bounded use of the p
 | --- | --- | --- |
 | **Arrow traceability.** | Composition preserved across views enables chain‑of‑evidence on pipelines. | Slight authoring overhead → MVPK templates. |
 | **Review-ready faces.** | Pins plus CHR references make numeric claims verifiable. | Declared publication checks perform MVPK checks; project gates stay with the relevant `OperationalGate(profile)` or `GateDecision` source when the gate claim is present. |
-| **Terminology hygiene.** | Clear View vs Viewpoint, Publication vs Presentation. | Enforce publication-face/form discipline tokens in CI. |
-| **Notation independence.** | Viewpoints talk concerns, not tools. | Provide adapters to local stacks. |
+| **Terminology hygiene.** | Clear View vs Viewpoint, Publication vs Presentation. | Enforce publication-face-kind discipline tokens in CI. |
+| **Notation independence.** | Viewpoints talk concerns, not tools. | Provide adapters to local publication toolchains. |
 
 ### E.17:12 - SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts
 
@@ -66566,26 +66581,27 @@ The gain is practical: a team can compare available source epistemes or source p
 **Plain-name.** Keep one publication unit stable enough to read honestly.
 
 **One-line summary.** `PublicationUnit Stability Discipline` is the first stability discipline for notes, memos, sheets, tables, screens, and short sections whose primary-EntityOfConcern interpretation, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim has become unstable while the unit still looks unchanged. It helps the reader decide whether the honest next repair is local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison over already stable source publications, or leaving the publication-unit stability family for a neighboring non-publication-unit pattern.
-**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and assigns claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or episteme-lane `U.View`. When no claim-bearing episteme or episteme-lane view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
+**Primary EntityOfConcern discipline.** Publication-unit stability uses `primary EntityOfConcern` as the plain head and assigns claim-bearing cases to `publicationUnitPrimaryEntityOfConcern` when the bounded unit exposes a `U.Episteme` or an episteme-side `U.View`. When no claim-bearing episteme or episteme-side view is live, the pattern names the non-claim-bearing kind named by value, topic, or subject without creating a false `EntityOfConcernRef`.
 
-**Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-lane `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-lane view is live, do not invent a `EntityOfConcernRef`; name the non-claim-bearing kind named by value, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or subject named by value by value.
+**Publication unit under review in plain terms.** The publication unit under review is the publication unit itself: one note, memo, sheet, table, screen, or short section that people are expected to read as one readable unit. When the unit carries or exposes a claim-bearing episteme or episteme-side `U.View`, the primary EntityOfConcern is the EntityOfConcern value of that carried item. When no claim-bearing episteme or episteme-side view is live, do not invent a `EntityOfConcernRef`; name the non-claim-bearing kind named by value, or use plain topic or subject only in non-normative explanatory prose. Keep those relations separate: this pattern keeps the unit stable as a readable unit, while the whole-unit repair pattern checks whether that unit still keeps one stable primary EntityOfConcern or subject named by value.
 
 **Minimal lens in plain terms.** Use a four-part interpretation: one publication unit under review, one primary EntityOfConcern, one carried publication move over that primary EntityOfConcern, and one outside boundary to work, work planning, decision, gate, or reliance claim. That outside boundary usually needs one light boundary type too: neighboring pattern application, downstream claim or effect, or ongoing engineering-process continuation. If any of those interpretation relations changes quietly, the unit is no longer honest enough to read as one unchanged publication unit.
 
 **Local working vocabulary.**
 - `publication unit under review` = the note, memo, sheet, table, screen, or short section being kept honest as one unit;
-- `primary EntityOfConcern` = the primary EntityOfConcern named by value of the claim-bearing episteme or episteme-lane view that the unit carries or exposes when such an item is live; otherwise use non-claim-bearing kind named by value, topic, or subject without creating a `EntityOfConcernRef`;
+- `primary EntityOfConcern` = the primary EntityOfConcern named by value of the claim-bearing episteme or episteme-side view that the unit carries or exposes when such an item is live; otherwise use non-claim-bearing kind named by value, topic, or subject without creating a `EntityOfConcernRef`;
 - `carried publication move` = the publication-side claim, interpretation, comparison, or explanation move that the unit performs over that primary EntityOfConcern;
 - `outside work boundary` = downstream `U.Work`, `U.WorkPlanning`, decision, gate, or reliance claim that still remains outside the unit;
 - `downstream claim or effect` = an approval, assignment, go or no-go, gate, work, or reliance claim or effect that readers infer from the unit but that belongs outside this pattern unless explicitly handled by its governing pattern or by the project-side FPF kind and reference named by value that governs that claim or effect.
-**A.6.P unpacking of overloaded local words.** This pattern does not use `route`, `branch`, `head`, or `unit` as hidden ontology. Use these roles instead:
+
+**A.6.P unpacking of overloaded local words.** This pattern does not use `route`, `branch`, `head`, or `unit` as hidden ontology. Use these local entries instead:
 - `local lexical head` = the head word or phrase inside one claim-bearing sentence or heading, such as `review`, `interpretation`, `note`, or `text`; it is not an FPF pattern head, not a package-family head, and not a language-state alternative;
 - `publication-unit repair disposition` = the current repair disposition: local lexical-head repair, whole-unit primary-EntityOfConcern stabilization, bounded comparison, explanation classification, representation change, controlled coarsening, changed primary EntityOfConcern, or downstream decision, gate, work, or reliance claim;
 - `governing FPF pattern or project-side FPF kind and reference named by value` = the named FPF pattern, or a project-side evidence record, gate record, decision record, work plan, work occurrence, method, action invitation, relation record, or `U.EpistemePublication` whose governing FPF pattern is named;
 - `publication-unit stability family` = the relation among `E.17.AUD`, `E.17.AUD.LHR`, `E.17.AUD.OOTD`, and neighboring comparison and explanation patterns; it is not a runtime path and not a transformation-flow structure;
 - `presentation-form label` = `note`, `memo`, `sheet`, `screen`, and similar form words; these are only form clues until the publication unit under review and primary EntityOfConcern are restored.
 
-When any of those roles is claim-bearing, record the active entry in the working card rather than polishing the sentence with another generic word.
+When any of those entries carries a claim, record the active entry in the working card rather than polishing the sentence with another generic word.
 
 **Use this when.** Use this pattern when one note, memo, sheet, screen, table, or short section is no longer trustworthy as one stable interpretation unit. Use it when people keep arguing about a paragraph, but the real question is simpler: repair one local lexical head, stabilize the whole unit, treat the unit as bounded comparison, or stop using this pattern because another FPF pattern or project publication governs the claim being made.
 
@@ -66605,7 +66621,7 @@ When any of those roles is claim-bearing, record the active entry in the working
 
 **Primary working reader.** The first working reader is an author or reviewer who needs to stop one memo, note, sheet, table, screen, or short section from quietly changing its primary EntityOfConcern, carried publication move, or downstream claim or effect. Architects, managers, and program leads are important secondary readers when they need the same governing-pattern and project-side-reference boundary signal, but they are not the first-minute reader for this opening recognition block.
 
-**Quick kind stack.** `PublicationUnit Stability Discipline` keeps the current publication-unit problem from being repaired at the wrong level. `E.17.AUD.LHR` governs the local lexical-head repair case: one word or phrase inside the unit is carrying too much semantic work while the unit otherwise stays stable. `E.17.AUD.OOTD` governs the whole-unit stabilization case: the same publication unit no longer keeps one primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim visible. `E.17.ID.CR` governs the bounded-comparison case once the publication unit is stable and the primary move is comparison over available source publications. Other explanation, representation, bridge, gate, approval, work, or reliance problem situations belong to their own governing FPF patterns, or to project-side records and publications whose governing FPF pattern is named. This pattern names that working distinction; it does not create a path, call chain, fixed process, or runtime control path.
+**Quick kind positions.** `PublicationUnit Stability Discipline` keeps the current publication-unit problem from being repaired at the wrong level. `E.17.AUD.LHR` governs the local lexical-head repair case: one word or phrase inside the unit is carrying too much semantic work while the unit otherwise stays stable. `E.17.AUD.OOTD` governs the whole-unit stabilization case: the same publication unit no longer keeps one primary EntityOfConcern, one carried publication move, and one outside boundary to work, work planning, decision, gate, or reliance claim visible. `E.17.ID.CR` governs the bounded-comparison case once the publication unit is stable and the primary move is comparison over available source publications. Other explanation, representation, bridge, gate, approval, work, or reliance problem situations belong to their own governing FPF patterns, or to project-side records and publications whose governing FPF pattern is named. This pattern names that working distinction; it does not create a path, call chain, fixed process, or runtime control path.
 
 **Quick recognition matrix.**
 
@@ -66863,7 +66879,7 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 
 **One-line summary.** `Local Head Restoration` is a narrow local lexical-head repair pattern for cases where one locally familiar word such as `text`, `document`, `surface`, `review`, or `interpretation` is being asked to carry more meaning than the sentence has honestly restored.
 
-**Local lexical-head repair object in plain terms.** The local repair object here is one local lexical head inside one publication unit: the load-bearing word or phrase whose kind is no longer recoverable from the sentence. The local repair move is to restore the lexical-head kind, active local reading, active primary entity or relation named by value/claim when one is active, carried move or question under repair, and nearest outside-work boundary before the rest of the publication unit inherits ambiguity.
+**Local lexical-head repair object in plain terms.** The local repair object here is one local lexical head inside one publication unit: the load-bearing word or phrase whose kind is no longer recoverable from the sentence. The local repair move is to restore the lexical-head kind, active local reading, active primary entity or relation when one is active, carried move or question under repair, and nearest outside-work boundary before the rest of the publication unit inherits ambiguity.
 
 **Use this when.** Use this section when one note, memo, review unit, table, or episteme-publication-heavy paragraph starts leaning on one broad familiar word and you can no longer tell which FPF kind or locally declared head that word names here. Use it when the local lexical head has become the overload point, but the publication unit has not yet proved that it needs full EntityOfConcern stabilization.
 
@@ -66873,9 +66889,9 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 
 **What this buys you in practice.** It lets a team stabilize the smallest honest unit first. You repair the overloaded local lexical head, keep local reading and question under repair visible, and avoid escalating into publication-unit stability review too early.
 
-**Naming boundary.** `F.18` is nearby because a repaired head may sometimes become durable reusable naming work. It is not the default output here. If the local sentence becomes honest after one head repair and no durable cross-context name, UTS row, Core-facing name, reusable FPF head, or high-risk label is being minted, do not open a full Name Card. Keep the LHR output as the repaired local head plus its recovered local kind, active local reading, active primary entity or relation named by value/claim when one is active, carried move or question under repair, and outside-work boundary.
+**Naming boundary.** `F.18` is nearby because a repaired head may sometimes become durable reusable naming work. It is not the default output here. If the local sentence becomes honest after one head repair and no durable cross-context name, UTS row, Core-facing name, reusable FPF head, or high-risk label is being minted, do not open a full Name Card. Keep the LHR output as the repaired local head plus its recovered local kind, active local reading, active primary entity or relation when one is active, carried move or question under repair, and outside-work boundary.
 
-**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, active primary entity or relation named by value/claim when one is active, carried move or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when the whole publication unit still cannot keep one primary entity of concern, one carried move, and one outside boundary stable after the local repair.
+**Success condition.** LHR succeeds when a careful reader can identify the local lexical-head kind, active primary entity or relation when one is active, carried move or question under repair, and outside-work boundary for this sentence or small unit. If that is enough and the publication unit no longer shifts, stop. Apply `E.17.AUD.OOTD` only when the whole publication unit still cannot keep one primary entity of concern, one carried move, and one outside boundary stable after the local repair.
 
 **Ordinary-output claim inventory.** After LHR, the author has claimed only that this local head now has one recovered kind or locally declared head, one active local reading, and one admissible local use inside this publication unit. The author has not claimed that the whole publication unit is stable, that the name is reusable globally, that the term is admitted to FPF Core, that a `Name Card` is open, or that any downstream evidence path, gate decision, work record, decision result, approval effect, or reliance basis exists.
 
@@ -66895,14 +66911,14 @@ The pattern stays intentionally narrow. It does not turn every publication-unit 
 1. Which trigger word is carrying unresolved semantic load?
 2. What lexical-head kind is that word honestly naming here?
 3. Which local reading is actually primary here?
-4. What active primary entity or relation named by value/claim, carried move or question under repair, and outside work are actually in play here?
+4. What active primary entity or relation, carried move or question under repair, and outside work are actually in play here?
 5. After one honest repair, does the unit stabilize locally, or does its reading still shift into a neighboring reading?
 
-**Local-repair threshold.** One honest local repair should restore the overloaded local lexical head, its lexical-head kind, the active local reading, the active primary entity or relation named by value/claim when one is active, and the carried move or question under repair the sentence is actually carrying. If the next sentence still borrows a different kind, a different local reading, or a different outside-work boundary from the same local lexical head, local repair is no longer the only primary question.
+**Local-repair threshold.** One honest local repair should restore the overloaded local lexical head, its lexical-head kind, the active local reading, the active primary entity or relation when one is active, and the carried move or question under repair the sentence is actually carrying. If the next sentence still borrows a different kind, a different local reading, or a different outside-work boundary from the same local lexical head, local repair is no longer the only primary question.
 
 **Neighboring comparison-unit boundary check.** If one honest local repair stabilizes the unit and the remaining question is one bounded comparison over already pinned source epistemes or publications, apply `E.17.ID.CR` (`ComparativeReviewUnit`) rather than thickening this local lexical-head repair pattern. If the same publication unit still cannot keep one stable primary entity of concern, one carried move, and one outside-work boundary visible after local repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) instead of stacking more qualifiers onto the overloaded local lexical head.
 
-**Quick kind stack.** `PublicationUnit Stability Discipline` names the wider publication-unit stability discipline. `Local Head Restoration` names the local lexical-head repair pattern used when one overloaded local lexical head inside one publication unit still needs its lexical-head kind, active local reading, active primary entity or relation named by value/claim, carried move or question under repair, and any family and governing-pattern stack restored before the rest of the unit inherits ambiguity. When that broader stack is doing real work, write one explicit output line: `repair disposition = ... | governing pattern = ... | primary entity/relation = ... | move = ... | outside work = ...`. This local repair works over the inherited frame; it does not redefine the moving lineage, carrier, face, or publication architecture that sits outside the current publication-unit repair. Publication-unit stability remains outside until local repair fails, in which case the case should apply `E.17.AUD.OOTD`. The canonical publication-unit rule and check section remains `E.17.AUD.OOTD`; this section governs only the narrower local lexical-head repair pattern.
+**Quick kind positions.** `PublicationUnit Stability Discipline` names the wider publication-unit stability discipline. `Local Head Restoration` names the local lexical-head repair pattern used when one overloaded local lexical head inside one publication unit still needs its lexical-head kind, active local reading, active primary entity or relation, carried move or question under repair, and any family and governing-pattern relation set restored before the rest of the unit inherits ambiguity. When that broader relation set is doing real work, write one explicit output line: `repair disposition = ... | governing pattern = ... | primary entity = ... | active relation = ... | move = ... | outside work = ...`. This local repair works over the inherited frame; it does not redefine the moving lineage, carrier, face, or publication architecture that sits outside the current publication-unit repair. Publication-unit stability remains outside until local repair fails, in which case the case should apply `E.17.AUD.OOTD`. The canonical publication-unit rule and check section remains `E.17.AUD.OOTD`; this section governs only the narrower local lexical-head repair pattern.
 
 If those five questions are the right questions, start here.
 
@@ -66912,7 +66928,7 @@ If those five questions are the right questions, start here.
 
 The recurring defect is small but expensive:
 - one broad familiar word enters early;
-- the word is never restored to one kind or lane;
+- the word is never restored to one kind or local work position;
 - later sentences inherit its ambiguity as if nothing happened.
 
 Typical load-bearing local heads include:
@@ -66929,7 +66945,7 @@ Typical load-bearing local heads include:
 - `interpretation`
 - `reading`
 
-These words are not uniformly wrong. They become risky when one of them starts carrying primary-entity/relation load, lane load, move load, or governing-pattern boundary load without being restored first.
+These words are not uniformly wrong. They become risky when one of them starts carrying primary entity, active relation, local work position, move, or governing-pattern boundary load without being restored first.
 
 ### E.17.AUD.LHR:2 - Problem
 
@@ -66944,18 +66960,18 @@ Without a named local restoration move:
 
 > `Local Head Restoration` repairs the overloaded local lexical head before the rest of the publication unit is allowed to inherit it.
 >
-> It restores lexical-head kind, active local reading, carried move or question under repair, and any family, governing-pattern, and primary-entity/relation stack that the sentence is quietly relying on.
+> It restores lexical-head kind, active local reading, carried move or question under repair, and any family, governing-pattern, primary entity, and active relation that the sentence is quietly relying on.
 
 #### E.17.AUD.LHR:3.1 - Pairwise plain glosses
 
 - **Pressured local lexical head** = the word doing more work than the sentence has honestly restored.
 - **Lexical-head kind** = what FPF kind or locally declared head that word names here: for example description, carrier, publication unit, EntityOfConcern, relation record, face, or view.
-- **Active lane** = where the local work is happening here: for example review, publication, comparison, process, or authority.
-- **Active primary entity or relation named by value/claim** = what the local sentence or publication unit is actually about here, when such an object is active.
-- **Move or question under repair** = what the sentence is doing with the active primary entity, relation named by value/claim, or local lexical-head repair object, if anything.
-- **Family, governing-pattern, and primary-entity/relation stack** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity or relation named by value/claim, carried move or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
+- **Active local work position** = where the local work is happening here: for example review, publication, comparison, process, or authority.
+- **Active primary entity or relation** = what the local sentence or publication unit is actually about here, when such an object or relation is active.
+- **Move or question under repair** = what the sentence is doing with the active primary entity, active relation, or local lexical-head repair object, if anything.
+- **Family, governing pattern, primary entity, and active relation set** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity, active relation, carried move or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
 
-**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication-form lane, publication-face lane, and carrier lane, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which lane is primary, what active primary entity or relation named by value/claim is in play, what carried move or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
+**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication form, publication face, and carrier relation, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which local work position is primary, what active primary entity or relation is in play, what carried move or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
 
 #### E.17.AUD.LHR:3.2 - Ordinary working card
 
@@ -66966,7 +66982,7 @@ Use this five-row card for ordinary cases:
 | 1 | Which trigger word is carrying unresolved semantic load? |
 | 2 | What lexical-head kind is it honestly naming here? |
 | 3 | Which local reading is actually primary here? |
-| 4 | What active primary entity or relation named by value/claim, carried move or question under repair, and outside work are actually in play here? |
+| 4 | What active primary entity or relation, carried move or question under repair, and outside work are actually in play here? |
 | 5 | After one honest repair, is local restoration enough, or does another governing FPF pattern or project-side FPF kind and reference named by value now govern the case? |
 
 Treat that card as the recognition block. It is a local repair aid, not a universal sequence rail.
@@ -66975,7 +66991,7 @@ Use it while one overloaded local lexical head remains the main defect.
 When family or governing-pattern language is load-bearing, add one explicit conditional output line next to the card: `repair disposition = ... | governing pattern = ... | primary entity/relation = ... | move = ... | outside work = ...`.
 
 Read the card as a three-way recovery aid:
-- if rows 1-5 stabilize around one repaired local lexical head, one restored lane, one active primary entity or relation named by value/claim, and one honest local question, stay here;
+- if rows 1-5 stabilize around one repaired local lexical head, one restored local work position, one active primary entity or relation, and one honest local question, stay here;
 - if rows 1-5 stabilize locally and the remaining question is one bounded comparative review move over already pinned source epistemes or publications, apply `E.17.ID.CR` rather than thickening this local lexical-head repair pattern;
 - if rows 2-5 still cannot stay stable because the same publication unit keeps borrowing a different object, move, or outside-work boundary from the same local lexical head, apply `E.17.AUD.OOTD` instead of pretending one more qualifier will rescue the same unit.
 
@@ -66990,10 +67006,10 @@ If the local case is close to a neighbouring-pattern boundary and the ordinary c
 - overloaded local lexical head;
 - restored lexical-head kind;
 - restored active local reading;
-- restored primary entity or relation named by value/claim;
+- restored active primary entity or relation;
 - restored carried move or question under repair;
 - restored outside-work boundary;
-- any family, governing pattern, and primary-entity/relation distinction now made explicit;
+- any family, governing pattern, primary entity, and active relation distinction now made explicit;
 - governing-pattern and project-side-reference decision.
 
 Use that extension as the assurance section only when ordinary repair is already holding and the remaining risk is misuse at a neighboring-pattern boundary.
@@ -67008,9 +67024,9 @@ Use this order when one local lexical head is carrying too much:
 1. name the overloaded word;
 2. restore the lexical-head kind;
 3. restore the active local reading;
-4. restore the active primary entity or relation named by value/claim when one is active;
+4. restore the active primary entity or relation when one is active;
 5. restore the carried move or question under repair, if any;
-6. restore any family, governing pattern, and primary-entity/relation distinction and nearest outside-work boundary the sentence is relying on;
+6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. decide which of three repair dispositions is honest: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
 
 A narrowing qualifier alone does not count as restoration.
@@ -67087,7 +67103,7 @@ Local repair:
 - restored lexical-head kind = bounded comparative review unit inside one episteme-publication-heavy paragraph;
 - active local comparison = bounded comparison, not wider-family package explanation;
 - primary entity/relation = comparative review unit;
-- stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReviewUnit`;
+- restored relation set = family `InterpretationDiscipline`, governing pattern `ComparativeReviewUnit`;
 - move = bounded comparison;
 - outside work = wider architecture strategy.
 
@@ -67193,10 +67209,10 @@ Used badly, it can become one more vocabulary exercise. If the publication unit 
 
 | Claim this pattern needs | Relevant practice | Primary source | Practitioner implication here | Popular shortcut rejected | Nearest recovery section | Adoption status |
 | --- | --- | --- | --- | --- | --- | --- |
-| One overloaded word should not silently switch concerns, viewpoints, or object readings inside one publication unit. | Architecture-description practice treats explicit concerns and consistency across descriptions as first-class obligations. | Joint ISO, IEC, and IEEE 42010:2022 | In `E.17.AUD.LHR:5.2` and `E.17.AUD.LHR:5.5`, repair the local lexical head by making explicit whether the sentence names a publication unit, an active primary entity or relation named by value/claim, or outside work before later sentences inherit the wrong local reading. | Reject the shortcut that a familiar word can carry several concerns merely because the surrounding document feels coherent. | `E.17.AUD.LHR:3.2 Rows 2-4`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.5` | **Adopt and adapt.** Adopt viewpoint accountability; adapt it to one overloaded local lexical head inside one publication unit. |
+| One overloaded word should not silently switch concerns, viewpoints, or object readings inside one publication unit. | Architecture-description practice treats explicit concerns and consistency across descriptions as first-class obligations. | Joint ISO, IEC, and IEEE 42010:2022 | In `E.17.AUD.LHR:5.2` and `E.17.AUD.LHR:5.5`, repair the local lexical head by making explicit whether the sentence names a publication unit, an active primary entity or relation, or outside work before later sentences inherit the wrong local reading. | Reject the shortcut that a familiar word can carry several concerns merely because the surrounding document feels coherent. | `E.17.AUD.LHR:3.2 Rows 2-4`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.5` | **Adopt and adapt.** Adopt viewpoint accountability; adapt it to one overloaded local lexical head inside one publication unit. |
 | One local lexical head should not be repaired by synonym taste alone. | Terminology work separates designation, concept, definition, and term-formation practice. | ISO 704:2022 and ISO 1087:2019 | In `E.17.AUD.LHR:5.1` and `E.17.AUD.LHR:5.3`, repair the local head by naming the FPF kind or locally declared head it designates here, without importing an ISO concept system as FPF ontology. | Reject synonym substitution, dictionary taste, and global vocabulary rows as local head restoration. | `E.17.AUD.LHR:3.2 Rows 1-3`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.3` | **Adapt lightly.** Use designation discipline, not a new global vocabulary. |
 | The common sense of a word is not enough when the local context points to a rarer or narrower reading. | Word-sense disambiguation practice treats sense recovery as context-sensitive; long-tail WSD work shows why common-sense defaulting fails. | Blevins and Zettlemoyer (2020); Blevins et al. (2021); source maturity = analogy-only source use | In `E.17.AUD.LHR:5.2` and `E.17.AUD.LHR:5.4`, do not assume that `review`, `interpretation`, `text`, or `document` has its common local reading when the FPF context selects a narrower kind or neighboring pattern. | Reject common-usage defaulting as proof that the local FPF sense has been recovered. | `E.17.AUD.LHR:3.2 Row 2`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.4` | **Adapt as analogy.** Do not import machine-learning benchmarks as authoring rules. |
-| Human-readable local heads should improve comprehension rather than merely sound tidy. | Identifier and label clarity practice treats names as comprehension aids whose bad choices can mislead readers. | Hofmeister et al. (2017), identifier-name comprehension study; source maturity = empirical analogy only | In `E.17.AUD.LHR:5.1` and `E.17.AUD.LHR:5.6`, choose the lightest local head that lets the reader recover kind, active local reading, active primary entity or relation named by value/claim, move, and outside work. | Reject a nicer label when it changes kind, scope, authority, or downstream use. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.6` | **Adapt lightly.** Use clarity to aid local repair, not to justify renaming stable FPF heads. |
+| Human-readable local heads should improve comprehension rather than merely sound tidy. | Identifier and label clarity practice treats names as comprehension aids whose bad choices can mislead readers. | Hofmeister et al. (2017), identifier-name comprehension study; source maturity = empirical analogy only | In `E.17.AUD.LHR:5.1` and `E.17.AUD.LHR:5.6`, choose the lightest local head that lets the reader recover kind, active local reading, active primary entity or relation, move, and outside work. | Reject a nicer label when it changes kind, scope, authority, or downstream use. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.6` | **Adapt lightly.** Use clarity to aid local repair, not to justify renaming stable FPF heads. |
 | A working pattern should make the first useful move teachable and critique-ready, not merely correct in hindsight. | Pattern-writing practice emphasizes clear template usage, concrete consequences, and critique-ready worked guidance. | Iba (2021), “How to Write Patterns …” (PLoP 2021) | The ordinary card and worked slices are here so a practitioner can repair one overloaded local lexical head in `E.17.AUD.LHR:5.1` or `E.17.AUD.LHR:5.4` without opening publication-unit discipline too early. | Reject a skeleton-only pattern that leaves the actual local repair move to reviewer intuition. | `E.17.AUD.LHR:3.2`; `E.17.AUD.LHR:5.1`; `E.17.AUD.LHR:5.4` | **Adopt.** Keep the move teachable through one small card plus concrete slices. |
 | Review quality improves when criteria are explicit instead of left to taste. | Pattern-validation practice pushes toward explicit criteria and documented review checks. | Riehle et al. (2020), "Pattern Discovery and Validation Using Scientific Research Methods". | The local-repair threshold and the three repair dispositions keep review from collapsing into style debate: see `E.17.AUD.LHR:5.2` for stay-local, `E.17.AUD.LHR:5.4` for bounded-comparison disposition, and `E.17.AUD.LHR:5.5` for governing-pattern application. | Reject style-debate closure when the repair disposition is still not named. | local-repair threshold; `E.17.AUD.LHR:3.2 Row 5`; `E.17.AUD.LHR:5.2`; `E.17.AUD.LHR:5.4`; `E.17.AUD.LHR:5.5`; `E.17.AUD.LHR:5.6` | **Adopt.** Keep the criteria lightweight but explicit. |
 
@@ -68461,7 +68477,7 @@ The design puts the positive move table first because repeated negative distinct
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
 > **Builds on:** `E.18` Transformation Flow Structure, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
-> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, what use it supports, and which governing relation carries any stronger project claim.
+> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, which declared use it serves, and which governing relation carries any stronger project claim.
 
 ### E.18.2:1 - Problem frame
 
@@ -68567,7 +68583,8 @@ If the claim evaluates the mathematical lens use, use C.29 with an E.18.2 refere
 If the claim publishes a view, diagram, card, table, or equation face, use E.17 and the governing view or architecture-description pattern.
 ```
 
-The same source may require several records. A refrigerator principle scheme may include a publication face, a functional-architecture view, a selected transformation-flow structure, a thermodynamic mechanism claim, and a mathematical graph or equation description. E.18.2 writes only the mathematical-description relation.
+The same source may require several records. A refrigerator principle scheme may include a publication face, a functional-architecture view, a selected `TransformationFlowStructure`, a thermodynamic mechanism claim, and a mathematical graph or equation description. E.18.2 writes only the mathematical-description relation. If the same expression is also used as a mathematical lens for world-side adequacy, C.29 governs the lens-use adequacy; if it is only a published face, E.17 governs publication use.
+
 
 #### E.18.2:4.4 - Related governed claims
 
@@ -68589,7 +68606,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 **P2W carry-through.** A P2W source may draw a graph-shaped path from formal substrate to principle frame, mechanism position, method selection, work planning, work, and evaluation. The graph-shaped expression can be an E.18.2 description of the selected carry-through structure. The P2W move itself remains `E.18.1`; work planning remains A.15; dated work remains `U.Work`.
 
-**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and routing through a graph-like expression. If the current claim is the compound transformation organization, use E.18 or C.30 when it is an architecture claim. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes that organization, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
+**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim is the compound transformation organization, use E.18 or C.30 when it is an architecture claim. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes that organization, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred.
 
@@ -68603,7 +68620,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 - `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, and wiring language stays mathematical-description language unless another governing pattern explicitly makes the selected structure current.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
 - `CC-E18.2-8` Publication faces are separated from mathematical description and handled through `E.17` when publication is current.
-- `CC-E18.2-9` Work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are sent to their governing patterns.
+- `CC-E18.2-9` When work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the direct pattern governing that claim. E.18.2 records only the mathematical-description relation for the selected transformation-flow structure.
 - `CC-E18.2-10` A source artifact that carries several claims is split into records by current EntityOfConcern and relation position, not by the artifact's name.
 
 ### E.18.2:6 - Common anti-patterns
@@ -68629,7 +68646,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 Graph-shaped or morphism-shaped source labels do not carry current ontology by themselves here. They remain useful only when the current EntityOfConcern is named: E.18 keeps selected compound structure, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps mathematical descriptions of selected transformation-flow structures.
 
-The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this selected transformation-flow structure, and what use does that expression support here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
+The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this selected transformation-flow structure, and which declared use does that expression serve here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
 
 ### E.18.2:9 - SoTA-Echoing
 
@@ -70989,7 +71006,7 @@ Lower the decision before use when E.24 cannot decide among durable ontic, local
 | `CC-E24-11` | Slot-position labels, including role-like labels, method-like labels, mechanism-like labels, temporal labels, source labels, and publication labels, do not create alternate ontology; `U.Role` is not a SlotKind, SlotKind is not a role, and role participation uses a slot-disciplined `U.RoleAssignment` only when `A.2`, `A.2.1`, and `A.15` role-governing patterns govern the case. |
 | `CC-E24-12` | Ontic slot talk uses slot-language (`onticSlotRelation`, `SlotSpec`, `SlotKind`, `ValueKind`, `RefKind`, slot discipline, slot boundary, relation boundary); `interface` is used only when a governing boundary, module, signature, mechanism, or architecture pattern makes interface meaning current. |
 | `CC-E24-13` | Source-ontology annotation is proportional: decision-changing kind, slot, relation, admissible-use, and governing-pattern differences are recovered, while stable domain prose is not expanded into type labels. |
-| `CC-E24-14` | Candidate detection, publication-form discipline, and contested evaluation are sent to `E.24.CD`, `E.24.PUB`, and `A.19.ECS` respectively; E.24 itself stays centered on `U.Ontic` identity, slot relation, semantic area, ontological neighborhood, and dependent-pattern obligations. |
+| `CC-E24-14` | When candidate detection, publication-form discipline, or contested evaluation is current, apply `E.24.CD`, `E.24.PUB`, or `A.19.ECS` respectively; E.24 itself stays centered on `U.Ontic` identity, slot relation, semantic area, ontological neighborhood, and dependent-pattern obligations. |
 
 
 ### E.24:7 - Common Anti-Patterns
@@ -71028,7 +71045,7 @@ Lower the decision before use when E.24 cannot decide among durable ontic, local
 
 ### E.24.CD:0 - Use This When
 
-Use this pattern when a recurring FPF construct is an ontic candidate, but the current evidence is still a tangle of names, fields, cards, records, tables, schemas, diagrams, views, examples, or nearby pattern fragments.
+Use this pattern when a recurring FPF construct is an ontic candidate, but the current source material is still a tangle of names, fields, cards, records, tables, schemas, diagrams, views, examples, or nearby pattern fragments.
 
 Typical moments:
 
@@ -71260,8 +71277,8 @@ The mitigation is concrete: recover the recognizable concern, typed values, curr
 | `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
 | `CC-E24CD-6` | Durable ontic candidates carry a sufficiency rationale with identity hint, possible slot relation, semantic area, ontological neighborhood, dependent-pattern need, duplicate-ontology risk, first-use gain, and non-use boundary. |
 | `CC-E24CD-7` | Local use frames are explicitly non-`U.*` and do not become registries, evidence records, gate records, methods, mechanisms, work plans, or work occurrences. |
-| `CC-E24CD-8` | Publication-form confusion is sent to `E.24.PUB` rather than solved by declaring the form to be the ontic. |
-| `CC-E24CD-9` | Contested comparison of architecture alternatives is sent to `A.19.ECS` rather than built into E.24.CD. |
+| `CC-E24CD-8` | When publication-form confusion is current, apply `E.24.PUB` rather than solving the confusion by declaring the form to be the ontic. |
+| `CC-E24CD-9` | When contested comparison of architecture alternatives is current, apply `A.19.ECS` rather than building the comparison into E.24.CD. |
 | `CC-E24CD-10` | The stop condition names one next governing pattern or reduced-use disposition. |
 
 ### E.24.CD:8 - Common Anti-Patterns and How to Avoid Them
@@ -71349,7 +71366,7 @@ Typical moments:
 - If the current question is whether a construct deserves a durable ontic, use `E.24.CD` and then `E.24`.
 - If the current question is generic multi-view publication or viewpoint packaging, use `E.17` and its dependent patterns.
 - If the current question is wording-use repair, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
-- If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary between the ontic and its publication-facing description stack.
+- If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary among the ontic, its ontic-description episteme, the publication, and the publication form.
 
 ### E.24.PUB:1 - Problem Frame
 
@@ -71386,29 +71403,29 @@ Without this discipline:
 
 ### E.24.PUB:4 - Solution
 
-Use the ontic-description stack before writing or revising publication-facing text:
+Use a local relation-position field set before writing or revising publication-facing text. The field set names four different objects and the bounded use; it is not a new `U.*` kind, reusable record family, or coordination pattern.
 
 ```text
-OnticDescriptionStack:
+Ontic-description publication relation positions:
   OnticEoC:
   OnticDescriptionEpisteme:
   DescriptionClaims:
   Publication:
   PublicationForm:
   GovernedUse:
-  NonOverread:
+  BlockedOverread:
   NeighboringPatternIfCurrent:
 ```
 
-Read the stack this way:
+Read the field set this way:
 
 - `OnticEoC` is the ontic itself: for example `U.Ontic`, `U.Episteme`, `U.Structure`, `U.CharacteristicSpace`, `U.BoundedContext`, or another accepted ontic.
 - `OnticDescriptionEpisteme` is the claim structure that describes the ontic and its slot relation.
 - `DescriptionClaims` are the specific claims about identity, slots, admissible values, dependent patterns, invariants, examples, and use boundary.
 - `Publication` is the made-available expression of that episteme.
-- `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another form.
+- `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another publication form.
 - `GovernedUse` says what a user may do with the publication in the current pattern.
-- `NonOverread` blocks the main confusion without listing every generic semio boundary.
+- `BlockedOverread` blocks the main confusion without listing every generic semio boundary.
 - `NeighboringPatternIfCurrent` names the governing neighboring pattern when the current claim belongs elsewhere.
 
 #### E.24.PUB:4.1 - Minimal Boundary Formula
@@ -71455,7 +71472,7 @@ In a subject pattern, keep the positive subject spine first:
 1. name the EoC and practical situation;
 2. state identity, slot relation, invariants, first-use move, and governed use;
 3. add one compact publication boundary only where needed;
-4. send description-use or publication-use claims to neighboring semio patterns.
+4. when a description-use or publication-use claim is current, recover that claim and apply the neighboring pattern that governs it.
 
 This prevents semio-bias. A pattern about architecture should teach architecture first. A pattern about structure should teach structure first. A pattern about characteristic space should teach characteristic space first. Publication and description boundaries protect those patterns; they do not become their main subject unless the pattern EoC is itself a description or publication.
 
@@ -71479,7 +71496,7 @@ If the score table is unclear, fix the publication. If the scale meanings are un
 
 An architecture description is an episteme about one `ArchitectureOf@Context` claim or about selected `U.Structure` refs for a described `U.Holon` in a `U.BoundedContext`. A diagram, view, document, or pattern section may publish that episteme. The publication form is not the `ArchitectureOf@Context` claim, not the selected `U.Structure`, and not the described holon's structure by itself.
 
-`C.30` stays centered on the `ArchitectureOf@Context` claim and the selected structures that matter for the current architectural question. `A.22` stays centered on `U.Structure`. `C.30.AD` centers architecture description as its own EoC. E.24.PUB supplies the bridge: know which object is being described before deciding whether the publication, view, or source row is current.
+`C.30` stays centered on the `ArchitectureOf@Context` claim and the selected structures that matter for the current architectural question. `A.22` stays centered on `U.Structure`. `C.30.AD` centers architecture description as its own EoC. E.24.PUB supplies the boundary discipline: know which object is being described before deciding whether the publication, view, or source row is current.
 
 #### E.24.PUB:5.4 - Problem Card
 
@@ -71516,7 +71533,7 @@ This pattern intentionally resists semio-bias inside subject patterns. It does n
 | Pattern host as ontic | The file or section is cited as if it were the object it describes. | Name the ontic EoC and the ontic-description episteme separately. |
 | Diagram as architecture claim | A diagram is treated as the `ArchitectureOf@Context` claim or as the selected `U.Structure` itself. | Treat the diagram as a publication form of an architecture-description episteme; use `C.30` for the `ArchitectureOf@Context` claim or `A.22` for selected `U.Structure`. |
 | Score table as characteristic space | A table of scores is treated as the characteristic-space ontology. | Separate the table, filled evaluation, and `U.CharacteristicSpace`. |
-| Generic guard pile-up | A subject pattern opens with a long list of what a description is not. | Keep one non-overread sentence and send neighboring claims to their patterns. |
+| Generic guard pile-up | A subject pattern opens with a long list of what a description is not. | Keep one non-overread sentence; when evidence, gate, work, publication-use, or source-use is current, apply the direct pattern governing that claim. |
 | View variant as duplicate ontology | Several views of one subject are treated as several subjects. | Use `E.17` for view or publication packaging and keep the ontic identity stable. |
 
 ### E.24.PUB:9 - Consequences
@@ -71530,7 +71547,7 @@ Positive consequences:
 
 Costs:
 
-- Authors must name the stack explicitly when publication and ontology are easy to confuse.
+- Authors must name the ontic, ontic-description episteme, publication, publication form, and bounded use explicitly when publication and ontology are easy to confuse.
 - Some familiar phrases such as "the diagram shows the architecture" need a more careful interpretation: the diagram publishes an architecture description, and the description concerns an `ArchitectureOf@Context` claim or selected `U.Structure` refs for the described holon in context.
 - Generic semio warnings must be moved out of subject spines.
 
@@ -71538,15 +71555,15 @@ Costs:
 
 FPF needs E.24.PUB because ontics are normally encountered through descriptions and publications. Without a separate publication discipline, the same subject pattern is pulled in two directions: it must teach the subject, but it also tries to guard every possible misuse of descriptions. The result is semio-bias.
 
-The remedy is not to ignore descriptions. The remedy is to type the stack. Once the ontic, description episteme, publication, and publication form are separated, subject patterns can carry a short local boundary and then continue the subject treatment. Publication-heavy questions use publication patterns. Wording-use questions use wording-use patterns. Multi-view questions use multi-view patterns.
+The remedy is not to ignore descriptions. The remedy is to type the relation positions. Once the ontic, description episteme, publication, and publication form are separated, subject patterns can carry a short local boundary and then continue the subject treatment. Publication-heavy questions use publication patterns. Wording-use questions use wording-use patterns. Multi-view questions use multi-view patterns.
 
 ### E.24.PUB:11 - SoTA-Echoing
 
 | Source family | Current lesson for E.24.PUB | FPF decision |
 | --- | --- | --- |
-| Shimizu and Hitzler 2024, Eells, Dave, Hitzler, and Shimizu 2024, plus modular ODP practice. | Current modular-ontology support: reusable ontology structure and its documentation or publication form are different objects. | Separate ontic, ontic-description episteme, publication, and publication form; do not let reusable form or documentation style become the ontology decision. |
-| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ODP support: implicit ontology may be carried by process-like publications and needs explicit representation for domain experts. | Distinguish the implicit ontology from the card, table, workflow notation, diagram, or process document that happened to carry it. |
-| Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG support: schemas, extraction, entailment or hierarchy structuring, provenance, validation, and RDF serialization can reveal ontology candidates but can also hide publication-form overread. | Keep schema, data structure, ontology description, serialization, publication form, and ontic distinct; require bounded scope and validation before a publication form influences ontic selection. |
+| Shimizu and Hitzler 2024, Eells, Dave, Hitzler, and Shimizu 2024, plus modular ODP practice. | Current modular-ontology source alignment: reusable ontology structure and its documentation or publication form are different objects. | Separate ontic, ontic-description episteme, publication, and publication form; do not let reusable form or documentation style become the ontology decision. |
+| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ODP source alignment: implicit ontology may be carried by process-like publications and needs explicit representation for domain experts. | Distinguish the implicit ontology from the card, table, workflow notation, diagram, or process document that happened to carry it. |
+| Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG source alignment: schemas, extraction, entailment or hierarchy structuring, provenance, validation, and RDF serialization can reveal ontology candidates but can also hide publication-form overread. | Keep schema, data structure, ontology description, serialization, publication form, and ontic distinct; require bounded scope and validation before a publication form influences ontic selection. |
 | OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: labels, concept schemes, axioms, published documents, serializations, and queries play different roles. | Use them as expression and publication caution only; they do not substitute for `U.Ontic` and do not prove that labels, tables, or pattern sections decide ontology by appearance. |
 | FPF episteme and publication machinery. | `C.2.1` and `E.17` already govern epistemes and publication kits. | E.24.PUB specializes that machinery only for ontic descriptions and avoids duplicating generic semio doctrine. |
 

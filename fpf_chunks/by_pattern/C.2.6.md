@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
-line_start: 37658
-line_end: 37821
+line_start: 37667
+line_end: 37831
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -67,13 +67,16 @@ Without an explicit anchoring-mode declaration, embodiment and source anchoring 
 | `AM.Mixed` | more than one anchoring mode matters substantively | explicit component list and why the mix matters |
 
 #### C.2.6:4.2 - Governing boundary
-`U.LanguageStateAnchoringMode` is not a representation factor bundle, not a closure state, and not a truth status. If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
+
+`U.LanguageStateAnchoringMode` is an anchoring-mode characteristic for one governed `U.Episteme` claim. It is not a representation factor bundle, closure state, truth status, evidence relation, source-currentness relation, work claim, gate claim, or reliance permission by itself. Model-latent, operator-loop, embodied, trace, and document-mediated cases name where the episteme is anchored for the current claim; any publication face, carrier, source-currentness, bridge-loss, work, evidence, or gate claim stays with the direct governing pattern.
+
+If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
 
 #### C.2.6:4.3 - Mixed-mode rule
 `AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not be a lazy escape from deciding whether the key anchor is bodily, trace-based, model-latent, document-mediated, or operator-loop based.
 
 #### C.2.6:4.4 - Bridge implications
-Bridge work over governed `U.Episteme` publications in the declared language-state chart should pay attention to anchoring shifts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, often requires explicit loss notes in `F.9` and often justifies a stance annotation in `F.9.1`.
+Bridge work over governed `U.Episteme` publications in the declared language-state chart should pay attention to anchoring shifts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, often requires explicit loss notes in `F.9` and may require a bridge-use note in `F.9.1`.
 
 ### C.2.6:5 - Archetypal Grounding
 **Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
@@ -86,7 +89,7 @@ Bridge work over governed `U.Episteme` publications in the declared language-sta
 The pattern pushes authors to declare anchoring rather than hide it in metaphors such as "the system wants" or "the note suggests".
 
 ### C.2.6:7 - Conformance Checklist
-- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for routing, trust, or bridge interpretation.
+- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for source use, reliance, or bridge interpretation.
 - `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the embodiment or operator anchor explicitly.
 - `CC-C.2.6-3` `U.LanguageStateAnchoringMode` **MUST NOT** be collapsed into `U.LanguageStateRepresentationFactorBundle`.
 - `CC-C.2.6-4` Mixed-mode declarations **SHALL** list their component modes explicitly.
@@ -109,7 +112,6 @@ The facet is motivated by embodied cognition, operator-facing interaction practi
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9.1`.
 - Constrains: cue publication and bridge loss notes.
-
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
 #### C.2.6:13.1 - Embodied-to-document shift
@@ -119,7 +121,7 @@ A bodily felt cue later published as prose usually changes from `AM.EmbodiedFelt
 A latent probe score may first be `AM.ModelLatent`, then later feed an operator-facing alert face where the working publication becomes `AM.OperatorLoop`. A conforming account should keep both anchoring modes visible rather than pretending the later publication wording fully captures the model-side cue.
 
 #### C.2.6:13.3 - Mixed-mode publication
-A routed alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. But the mix must be named explicitly rather than used as a catch-all escape.
+An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. But the mix must be named explicitly rather than used as a catch-all escape.
 
 ### C.2.6:14 - Authoring and Review Guidance
 
@@ -147,7 +149,6 @@ Statements like "the system wants", "the note suggests", or "the operator-facing
 
 #### C.2.6:15.3 - Boundary reminder
 `U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
-
 ### C.2.6:16 - Anchoring Publication Package Discipline
 
 #### C.2.6:16.1 - Minimal anchoring package
@@ -171,7 +172,7 @@ Distinguish the anchoring mode of the source cue from the anchoring mode of the 
 #### C.2.6:17.1 - Shift declaration rule
 When an episteme crosses from one anchoring mode to another, state whether the shift is merely publication-level or whether it changes what can be preserved, compared, or trusted. A move from operator-loop enactment to report prose, for example, often drops timing, bodily load, and enactment friction.
 
-#### C.2.6:17.2 - Bridge-loss handoff
+#### C.2.6:17.2 - Bridge-loss governing relation
 If an anchoring shift matters across contexts, `F.9` or `F.9.1` should govern the loss or stance note. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
 
 #### C.2.6:17.3 - Same-content illusion test

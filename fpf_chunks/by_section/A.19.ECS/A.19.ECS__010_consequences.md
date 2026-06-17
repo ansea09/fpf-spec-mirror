@@ -6,12 +6,12 @@ section_id: "A.19.ECS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__010_consequences.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:9 — Consequences"
-line_start: 24044
-line_end: 24049
+line_start: 24051
+line_end: 24056
 dependencies:
   - "A.17-A.19"
   - "C.16"

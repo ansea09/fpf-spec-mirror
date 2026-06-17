@@ -6,12 +6,12 @@ section_id: "B.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__007_conformance-checklist.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:6 — Conformance Checklist"
-line_start: 33311
-line_end: 33318
+line_start: 33318
+line_end: 33325
 dependencies:
   - "A.12"
   - "A.4"

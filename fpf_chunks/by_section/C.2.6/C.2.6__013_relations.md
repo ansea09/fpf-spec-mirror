@@ -6,12 +6,12 @@ section_id: "C.2.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__013_relations.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:12 — Relations"
-line_start: 37731
-line_end: 37735
+line_start: 37743
+line_end: 37746
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,4 +37,3 @@ keywords:
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9.1`.
 - Constrains: cue publication and bridge loss notes.
-

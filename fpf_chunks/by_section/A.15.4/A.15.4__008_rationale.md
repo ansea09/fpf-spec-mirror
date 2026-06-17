@@ -6,12 +6,12 @@ section_id: "A.15.4:5b"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_rationale.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5b — Rationale"
-line_start: 21988
-line_end: 21993
+line_start: 21995
+line_end: 22000
 dependencies:
   - "A.10"
   - "A.15"

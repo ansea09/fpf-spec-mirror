@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 68143
-line_end: 68295
+line_start: 68159
+line_end: 68311
 dependencies:
   - "A.10"
   - "A.15"

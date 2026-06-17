@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_core-concepts-informative-summary-authoritative-norms-live-in-c-3-1-c-3-5.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)"
   - "C.3:6 — Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)"
-line_start: 38386
-line_end: 38469
+line_start: 38395
+line_end: 38478
 dependencies:
   - "A.1"
   - "A.2.6"

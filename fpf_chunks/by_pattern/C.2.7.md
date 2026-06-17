@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 37822
-line_end: 37987
+line_start: 37832
+line_end: 37996
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -65,18 +65,19 @@ A Context may publish a local alias such as `EncodingBasis`, but it shall dock b
 | Factor | Question it answers | Typical values |
 |---|---|---|
 | `LocalityDistribution` | Is the representation concentrated in local units or distributed across many units? | local / mixed / distributed |
-| `Sparsity` | How concentrated is activation or descriptive support? | sparse / mixed / dense |
+| `Sparsity` | How concentrated are activation, representation use, or descriptive marks? | sparse / mixed / dense |
 | `Symbolicity` | How explicit are the symbolic structures and tokens? | symbolic / mixed / subsymbolic |
 
 #### C.2.7:4.2 - Non-collapse rules
+
 `LanguageStateRepresentationFactorBundle` is not:
 
 - `LanguageStateAnchoringMode`;
-- `Formality`;
 - `ArticulationExplicitness`;
-- `LanguageStateClosureDegree`.
+- `LanguageStateClosureDegree`;
+- evidence, source-currentness, publication authority, work permission, or gate readiness.
 
-A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible.
+A representation may be distributed yet have high trace anchoring; symbolic yet low-articulation; sparse yet low-closure. Those combinations shall remain visible. A model-state, embedding, vector-store relation, or operator-facing publication face may fill one or more representation factors, but the factor bundle does not decide the episteme, carrier, evidence, bridge, work, or gate relation by itself.
 
 #### C.2.7:4.3 - Extension rule
 Contexts may add extra representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.
@@ -109,13 +110,12 @@ The benefit is cleaner comparison across schools, substrates, and publication fo
 The factor-bundle design keeps the representation basis-slot family in the declared language-state chart over `U.CharacteristicSpace` orthogonal to articulation, closure, and anchoring.
 
 ### C.2.7:11 - SoTA-Echoing
-This factorization fits current work on sparse distributed representations, symbolic/neuro-symbolic stacks, and interpretability practice.
+This factorization fits current work on sparse distributed representations, hybrid symbolic/neuro-symbolic representation practices, and interpretability practice.
 
 ### C.2.7:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.6`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `F.9.1`.
 - Constrains: language-state position publication and bridge loss notes around representation shifts.
-
 ### C.2.7:13 - Worked Examples and Factor Interaction Notes
 
 #### C.2.7:13.1 - Distributed but explicit
@@ -124,7 +124,7 @@ A model-side summary may be representation-wise distributed and still highly exp
 #### C.2.7:13.2 - Symbolic but still low-articulation
 A glossary-like note may be fully symbolic while still low in `AE` because the semantic anchors are not yet stabilized. This blocks the opposite myth: symbolic therefore explicit.
 
-#### C.2.7:13.3 - Mixed-stack publication
+#### C.2.7:13.3 - Mixed representation publication
 An operator-facing publication face may combine sparse alert codes, symbolic method-description text, and distributed back-end model summaries. The representation-factor bundle should make that mixture visible instead of compressing it into one label.
 
 ### C.2.7:14 - Authoring and Review Guidance
@@ -149,18 +149,17 @@ Reviewers should also watch for silent replacement of `LanguageStateAnchoringMod
 Contexts may add extra factors, but each added factor should answer a distinct question rather than duplicating locality, sparsity, or symbolicity under another label.
 
 #### C.2.7:15.2 - Migration from alias-heavy prose
-Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for routing, comparison, or bridge claims.
+Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for comparison, bridge claims, or downstream use.
 
 #### C.2.7:15.3 - Boundary reminder
-`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine route authority, closure, or anchoring by itself.
-
+`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine admissible use, closure, or anchoring by itself.
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package
 A publishable `U.LanguageStateRepresentationFactorBundle` should normally show the current factor settings for locality/distribution, sparsity/density, and symbolicity/subsymbolicity, together with any declared extra factor. If a factor is intentionally omitted, say so rather than hiding the omission under a compact alias.
 
 #### C.2.7:16.2 - No hidden scalar rule
-Compact overlays such as "sparse-symbolic" are admissible only when they dock to the underlying factor bundle. No compact label may behave as a hidden master score for routing, bridge comparison, or stage/progression talk.
+Compact overlays such as "sparse-symbolic" are admissible only when they dock to the underlying factor bundle. No compact label may behave as a hidden master score for comparison, bridge comparison, or stage/progression talk.
 
 #### C.2.7:16.3 - Alias docking rule
 Local aliases such as `EncodingBasis` are admissible only when their docking to the governed factors is explicit and stable. If an alias compresses several factors, the compression should remain visible.

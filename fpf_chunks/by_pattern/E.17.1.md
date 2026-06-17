@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
-line_start: 63941
-line_end: 64312
+line_start: 63956
+line_end: 64327
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"
@@ -55,7 +55,7 @@ keywords:
 
 `U.MultiViewDescribing` lets a description family state that one entity of concern is rendered through several viewpoints with declared correspondences. In practice many such viewpoint families recur across projects and schools: engineering teams reuse functional / procedural / structural / interface viewpoints; governance teams reuse risk / control / compliance / operations viewpoints; research teams reuse theory / experiment / inference / limitation viewpoints.
 
-FPF therefore needs one explicit governing pattern for reusable viewpoint families so that authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels and publication faces/forms.
+FPF therefore needs one explicit governing pattern for reusable viewpoint families so that authors can import them, name them stably, review them once, and keep viewpoint-family identity separate from document labels, publication faces, and publication forms.
 
 ### E.17.1:2 - Problem
 
@@ -84,7 +84,7 @@ Without a viewpoint-bundle library pattern:
 
 ### E.17.1:4 - Solution - `U.ViewpointBundleLibrary`
 
-`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, publication unit, publication form, face, or carrier only through the usual E.17 publication lane.
+`E.17.1` introduces `U.ViewpointBundleLibrary` as the reusable catalogue `U.Episteme` for reusable viewpoint families. The library is an episteme-record species: it packages named bundles of `U.Viewpoint` values and related metadata, but it does not define new kernel episteme kinds, new publication forms, or new publication carriers. A published library is a `U.EpistemePublication`, `PublicationUnit`, publication form, face, or carrier only through the usual E.17 publication relation positions.
 
 #### E.17.1:4.1 - Core role
 
@@ -122,7 +122,7 @@ Minimal structure:
 - `viewpoints : FinSet(U.Viewpoint)`
 - optional `ArchetypalCards : FinSet(U.ArchetypalGroundingRef)`
 - optional `AlignmentNotes` for ISO 42010 or domain-standard correspondences
-- optional typed annex references for lexical, bridge, routing, example, or SoTA companion material
+- optional typed annex references for lexical, bridge, A.16 move-publication, example, or SoTA companion material
 
 `ViewFamilyId` names the bundle. It does **not** name a `U.View`, a publication face, or a file-system carrier.
 
@@ -147,7 +147,7 @@ If more than one bundle is used, the family shall make the partition explicit ra
 
 **Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces that later realize it.
 
-**Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.RoleEnactor`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
+**Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
 
 **Show (Episteme).** A governance-oriented bundle can package `VP.Risk`, `VP.Control`, `VP.Compliance`, and `VP.Operations` as one reusable family for service or program descriptions. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
 
@@ -181,7 +181,7 @@ The pattern biases FPF toward bundle-first reuse and against ad hoc local re-inv
 | **Reusable viewpoint families.** Stable bundle ids let many projects reuse the same family without restating it. | Libraries need governance and edition discipline. |
 | **Cleaner `U.MultiViewDescribing`.** A family can import a reviewed bundle instead of spelling out every viewpoint locally. | Local exceptions must be made explicit rather than hidden in prose. |
 | **Better architectural alignment.** ISO 42010-style viewpoint-library practice gains a native FPF catalogue episteme. | Initial bundle authoring requires care in naming and grounding. |
-| **Lexical hygiene.** Bundle ids, viewpoint ids, views, and publication faces/forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
+| **Lexical hygiene.** Bundle ids, viewpoint ids, views, publication faces, and publication forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
 
 ### E.17.1:10 - Rationale
 
@@ -189,16 +189,16 @@ The pattern biases FPF toward bundle-first reuse and against ad hoc local re-inv
 
 ### E.17.1:11 - SoTA-Echoing
 
-The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, and publication faces/forms.
+The pattern aligns with post-2015 multi-view practice: ISO 42010 viewpoint libraries, model-based systems engineering viewpoint catalogues, assurance-oriented viewpoint families, and reusable concern bundles in architecture and governance work. FPF adopts the reusable-library idea, but keeps the ontology stricter by separating bundle ids, viewpoint ids, views, publication faces, and publication forms.
 
 ### E.17.1:12 - Relations
 - **Builds on:** `C.2.1` slot discipline through `ViewpointSlot` / `ViewSlot`, `A.6.2-A.6.4`, `A.7`, `E.7`, and `E.10`.
 - **Constrains:** `E.17.0 U.MultiViewDescribing` whenever it imports viewpoint families from reusable bundles.
 - **Coordinates with:** `C.2.2a`, `A.16.0`, `E.17`, `E.17.2`, `E.18:5.12`, `F.9`, `F.9.1`, and any domain-specific viewpoint family that needs stable reuse.
-- **Protects:** lexical and ontological separation between viewpoint families, concrete views, and publication faces/forms.
+- **Protects:** lexical and ontological separation between viewpoint families, concrete views, publication faces, and publication forms.
 #### E.17.1:12.1 - Typed annex manifests for thin bundles
 
-`VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `routing`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing routing notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
+`VF.*` and other reusable viewpoint bundles may reference typed `AnnexManifestRef` assets with roles such as `lexical`, `bridge`, `movePublication`, `examples`, optional `sota`, and optional `pilotTrace`. This keeps the bundle itself thin while allowing A.16 move-publication notes, lexical baggage, and bridge annexes to remain explicit and typed rather than folded into the bundle core.
 
 ### E.17.1:13 - Bundle Anatomy and Member Discipline
 
@@ -232,7 +232,7 @@ If the member viewpoints do not share that family-level purpose, the result is n
 
 - lexical discipline notes,
 - bridge overlays,
-- routing notes,
+- A.16 move-publication notes,
 - worked examples,
 - or SoTA references
 
@@ -285,7 +285,7 @@ A TEVB engineering bundle for holons may include viewpoints such as:
 
 - `VP.Functional`,
 - `VP.Procedural`,
-- `VP.RoleEnactor`,
+- `VP.AllocationResponsibility`,
 - `VP.ModuleInterface`.
 
 The important point is not the vocabulary alone. The bundle states that these viewpoints are intended to recur together for one engineering family of concerns. A later description family then imports that engineering bundle rather than re-inventing a local list of "roughly similar" viewpoints.
@@ -313,9 +313,9 @@ A research-method bundle may include viewpoints such as:
 
 A local inquiry note might import only three of these viewpoints, but the import remains legible because the omitted ones still belong to a reviewed family rather than disappearing into ad hoc prose.
 
-#### E.17.1:15.4 - Cross-family description stack
+#### E.17.1:15.4 - Cross-family description relation positions
 
-A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public publication faces/forms. `E.17.1` keeps this stack admissible for review by preserving which bundle each viewpoint came from and by preventing the final publication face/form from masquerading as the viewpoint library itself.
+A serious project may use TEVB engineering viewpoints for the design family, a governance bundle for program oversight, and a publication-oriented family for public publication faces and publication forms. `E.17.1` keeps these relation positions reviewable by preserving which bundle each viewpoint came from and by preventing the final publication face or publication form from masquerading as the viewpoint library itself.
 
 ### E.17.1:16 - Authoring and Review Guidance
 
@@ -367,7 +367,7 @@ This sequence preserves provenance and avoids pretending that the reusable famil
 
 #### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
-If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those roles explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
+If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those positions explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
 
 #### E.17.1:17.4 - Boundary to annex growth
 

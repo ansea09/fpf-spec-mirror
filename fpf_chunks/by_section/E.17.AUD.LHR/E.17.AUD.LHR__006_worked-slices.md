@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__006_worked-slices.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:5 — Worked slices"
-line_start: 67035
-line_end: 67153
+line_start: 67051
+line_end: 67169
 dependencies:
   - "A.10"
   - "A.15"
@@ -90,7 +90,7 @@ Local repair:
 - restored lexical-head kind = bounded comparative review unit inside one episteme-publication-heavy paragraph;
 - active local comparison = bounded comparison, not wider-family package explanation;
 - primary entity/relation = comparative review unit;
-- stack restored = family `InterpretationDiscipline`, governing pattern `ComparativeReviewUnit`;
+- restored relation set = family `InterpretationDiscipline`, governing pattern `ComparativeReviewUnit`;
 - move = bounded comparison;
 - outside work = wider architecture strategy.
 

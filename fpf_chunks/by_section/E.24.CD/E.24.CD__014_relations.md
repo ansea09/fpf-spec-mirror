@@ -6,12 +6,12 @@ section_id: "E.24.CD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__014_relations.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:12 — Relations"
-line_start: 71313
-line_end: 71318
+line_start: 71330
+line_end: 71335
 dependencies:
   - "A.19"
   - "A.19.ECS"

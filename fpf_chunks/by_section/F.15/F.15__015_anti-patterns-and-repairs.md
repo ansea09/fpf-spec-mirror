@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_anti-patterns-and-repairs.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14 — Anti-patterns and repairs"
-line_start: 77142
-line_end: 77155
+line_start: 77159
+line_end: 77172
 dependencies:
   - "A.10"
   - "A.15.1"

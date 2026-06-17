@@ -6,12 +6,12 @@ section_id: "C.2.1:10"
 section_title: "Conformance checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_conformance-checklist-normative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:10 — Conformance checklist  (normative)"
-line_start: 35340
-line_end: 35405
+line_start: 35349
+line_end: 35414
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -70,7 +70,7 @@ Any pattern in A.6.2–A.6.4, E.17, E.18, or discipline packs that defines morph
 * name which SlotKinds it reads and writes,
 * state its behaviour on `entityOfConcernRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`.
 
-**CC-C.2.1-5a - Episteme/publication lane split for semio-facing terms.**
+**CC-C.2.1-5a - Episteme/publication relation-position split for semio-facing terms.**
 Any pattern, publication-form profile, evidence-use note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is current, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
 
 **CC-C.2.1-6 - Semantic-triangle usage guard.**
@@ -85,7 +85,7 @@ Any pattern that evaluates or compares epistemes (KD‑CAL/LOG‑CAL, CHR, CG‑
 * how `GroundingHolonSlot` figures into measurement or validation,
 
 **CC‑C.2.1‑8 - Context locality and Bridges.**
-Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context‑local**.  Cross‑context use **MUST** proceed via an explicit Bridge with CL / Φ‑policy (F.9/B.3), with penalties applied to R-lanes only; F and the slot structure from C.2.1 remain unchanged.
+Any `U.Episteme` species that is consumed by KD‑CAL / LOG‑CAL / CHR‑based patterns **SHALL** declare a `U.BoundedContextRef`; all F–G–R computations and C.2.1 slot interpretations are **context-local**.  Cross-context use **MUST** proceed via an explicit Bridge with CL / Φ-policy (F.9/B.3), with penalties applied to the R component only; F and the slot structure from C.2.1 remain unchanged.
 
 **CC‑C.2.1‑9 - Carriers and Work outside episteme content.**
 C.2.1 **inherits** the current A.7 strict distinction plus C.2.1 slot-relation, E.17 publication/carrier, A.10 evidence-use and provenance, B.3 assurance, A.2/A.2.1 role-assignment, A.15 work, and A.3.4 transformation discipline: `U.PresentationCarrier` values, publication-side values, `U.Work` occurrences, and role assignments **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotRelation`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only through an A.10 evidence-provenance graph relation or B.3 assurance-evidence input that points to evidence-producing or evidence-interpreting `U.Work` occurrences, carrier/source-currentness records, and role assignments when those are current. Changing carriers or re-publishing work alone does **not** change the episteme determined by the filled `content`, `entityOfConcernRef`, and effective `referenceScheme` positions in its `U.BoundedContext`.

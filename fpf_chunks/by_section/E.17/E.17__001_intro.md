@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 64745
-line_end: 64777
+line_start: 64760
+line_end: 64792
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -39,13 +39,13 @@ keywords:
 ## E.17 - Multi‑View Publication Kit
 > **Status:** Stable
 
-**At a glance.** Use `E.17` when one source-backed episteme, episteme-lane view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
+**At a glance.** Use `E.17` when one source-backed episteme, episteme-side view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
 
-**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or assurance lane that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
+**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or `AssuranceLane` face that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
 
 **First output.** One source-pinned publication face with the underlying `U.Episteme`, Description episteme, or Description episteme selected for specification use, publication scope, face kind, bounded publication use, and any present downstream typed value named only as far as the current use needs, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 
-**Working publication move.** Publish one source-pinned face; separate source episteme or episteme-lane view, face, carrier, bounded publication use, and any present downstream typed value plus its governing FPF pattern and reference; use the face for inspection, source-finding, review, exchange, or planning preparation; apply the neighboring FPF pattern governing that claim if work, evidence, gate, engineering-justification, control, or release use is present.
+**Working publication move.** Publish one source-pinned face; separate source episteme or episteme-side view, face, carrier, bounded publication use, and any present downstream typed value plus its governing FPF pattern and reference; use the face for inspection, source-finding, review, exchange, or planning preparation; apply the neighboring FPF pattern governing that claim if work, evidence, gate, engineering-justification, control, or release use is present.
 
 **Ordinary formality rule.** If the face is used only for orientation, source-finding, review, comparison, or planning preparation, keep the publication light: one pinned face or compact card plus a clear bounded-publication-use line is enough.
 
@@ -65,7 +65,7 @@ Here in the first-screen interpretation, keep only the MVPK publication move: on
 
 > **Tech-name:** `U.MultiViewPublicationKit` (**MVPK**)
 
-> **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-lane `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side value or reference that carry that downstream use, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
+> **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-side `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side value or reference that carry that downstream use, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 > **USM binding (overview):** `PublicationScope` is a **USM‑class** object that parameterizes MVPK; see §5.0.
-> **Episteme lane.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-lane `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : U.Morphism`. In a non-morphism publication, the face names the source episteme named by value, episteme-lane view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
+> **Episteme-side view position.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-side `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : U.Morphism`. In a non-morphism publication, the face names the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
 

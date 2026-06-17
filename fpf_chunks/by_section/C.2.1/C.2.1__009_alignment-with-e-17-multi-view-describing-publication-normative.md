@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_alignment-with-e-17-multi-view-describing-publication-normative.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:8 — Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
-line_start: 35266
-line_end: 35319
+line_start: 35275
+line_end: 35328
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -65,12 +65,12 @@ From the C.2.1 perspective:
 
 MVPK treats `U.View` (i.e. `U.EpistemeView`) as its primary input:
 * it uses `U.EpistemicViewing` species (A.6.3) to generate publication‑oriented views from engineering or logical views;
-* it then publishes these `U.View` epistemes through publication face/form values with declared publication viewpoints and faces.
+* it then publishes these `U.View` epistemes through declared publication-face-kind values with declared publication viewpoints and faces.
 
 C.2.1’s distinction between:
 
 * `U.Viewpoint` (epistemic perspective specification) and
-* `U.PresentationCarrier` (carrier in C.2.1+ and publication-face/form discipline)
+* `U.PresentationCarrier` (carrier in C.2.1+ and publication-face-kind discipline)
 
 keeps **epistemic perspective and physical medium separate**:
 * MVPK operates on `U.View` epistemes and then on carriers;

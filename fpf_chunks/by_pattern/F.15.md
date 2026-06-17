@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "205de763b710fe9f2baecbcdae132ec8fdbbe38c"
+commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
-line_start: 76768
-line_end: 77195
+line_start: 76785
+line_end: 77212
 dependencies:
   - "A.10"
   - "A.15.1"
