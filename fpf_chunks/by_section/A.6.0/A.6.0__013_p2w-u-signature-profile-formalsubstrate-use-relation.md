@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.0"
-pattern_title: "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+pattern_title: "U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
 section_id: "A.6.0:10a"
 section_title: "P2W U.Signature(profile=FormalSubstrate) Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_p2w-u-signature-profile-formalsubstrate-use-relation.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+  - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:10a — P2W U.Signature(profile=FormalSubstrate) Use Relation"
-line_start: 10027
-line_end: 10045
+line_start: 10106
+line_end: 10124
 dependencies:
   - "A.2.6"
   - "A.6.1"

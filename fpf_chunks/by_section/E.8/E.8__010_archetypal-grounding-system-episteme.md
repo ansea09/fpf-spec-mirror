@@ -6,12 +6,12 @@ section_id: "E.8:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__010_archetypal-grounding-system-episteme.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:5 — Archetypal Grounding (System / Episteme)"
-line_start: 58744
-line_end: 58753
+line_start: 58108
+line_end: 58117
 dependencies:
   - "E.10"
   - "E.11"

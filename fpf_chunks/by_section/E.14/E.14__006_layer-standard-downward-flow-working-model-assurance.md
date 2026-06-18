@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__006_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 62970
-line_end: 63035
+line_start: 62334
+line_end: 62399
 dependencies:
   - "B.3.5"
   - "C.13"

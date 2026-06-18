@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
-line_start: 74500
-line_end: 75075
+line_start: 74153
+line_end: 74728
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -119,7 +119,7 @@ A Bridge is a declared correspondence between two local senses. It always names:
 6. counter-example or invariant evidence,
 7. admitted use.
 
-Some Bridges admit naming or bounded substitution of sense. Interpretation Bridges admit explanation only. A Bridge never creates a `U.RoleAssignment`, never attributes performed work, never turns an episteme into evidence by itself, and never mints a universal type.
+Some Bridges admit naming or bounded substitution of sense. Interpretation Bridges admit explanation only. A Bridge never creates a `U.RoleAssignment`, never attributes performed work, never turns an episteme into evidence by itself, and never admits a durable U-kind.
 
 ### F.9:5 - Minimal vocabulary
 
@@ -132,7 +132,7 @@ Some Bridges admit naming or bounded substitution of sense. Interpretation Bridg
 * **Role-description naming** - a row or label may inform a `RoleDescription` name for one local `U.Role`; it does not assign that role and does not attribute performed work.
 * **Type-structure** - structural inference across contexts; admissible only at `CL = 3` with named invariants.
 * **Explanation-only** - interpretation relation across sense families; no row substitution and no direct role, status, work, evidence, gate, or decision effect.
-* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable `U.Type` by itself.
+* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable U-kind by itself.
 
 ### F.9:6 - Bridge kinds
 
@@ -258,7 +258,7 @@ A lighter cross-context note may orient readers, but it is not a Bridge Card. Be
 7. **No role-assignment by bridge.** A Bridge may inform RoleDescription naming or comparison; `U.RoleAssignment`, required-role satisfaction, and performed-work attribution remain with A.2.1, F.6, and A.15.1.
 8. **No interpretation bridge substitution.** Interpretation Bridges cannot justify substitution rows.
 9. **Design-run honesty.** If a context fixes a design-run distinction, the Bridge respects it or explicitly uses a design-spec-to-run-occurrence interpretation bridge.
-10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a new `U.Type`; A.11 and F.8 govern that decision.
+10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a durable U-kind; E.24.UK, A.11, and F.8 govern that decision.
 11. **Non-inheritance of contexts.** Bridges do not imply is-a relations between contexts.
 
 ### F.9:11 - Micro-examples
@@ -359,7 +359,7 @@ The result is didactic contrast or Naming-only orientation, not substitution in 
 | AP-6 | CL without counter-example | "These are CL=3" with no invariant check. | Inflates row scope. | For `CL = 3`, cite invariants; otherwise demote and add a counter-example. |
 | AP-7 | Bridge inflation | Many near-duplicate Bridges between the same contexts. | Noise hides material alignments. | Prefer one Bridge per pair of cells per relevant `senseFamily`; fold variants into Loss Notes. |
 | AP-8 | Row outruns Bridge | A Concept-Set row claims stronger use than the weakest participating Bridge admits. | Row scope exceeds the stated evidence. | Apply weakest-link discipline: row admitted use is no stronger than the weakest Bridge. |
-| AP-9 | Bridge as new `U.Type` | A Bridge is used to justify a new universal type. | Re-globalizes meaning. | Keep types context-local unless A.11 and F.8 admit a durable type candidate. |
+| AP-9 | Bridge as durable U-kind | A Bridge is used to justify a new universal kind. | Re-globalizes meaning. | Keep kinds context-local unless E.24.UK, A.11, and F.8 admit a durable U-kind candidate. |
 | AP-10 | Silent unit or scale mismatch | Measurements cross contexts without unit and scale notes. | Hidden dimensional error. | Put units and scales in Loss Notes; if they cannot be related, use Disjoint or Partial-overlap. |
 | AP-11 | Coarsened note treated as Bridge Card | A summary or redacted comparison is used as if it made substitution admissible. | A bridge claim is smuggled through a lighter rendering. | Reopen the source-bearing episteme or publication and write the Bridge Card before bridge-bearing use. |
 

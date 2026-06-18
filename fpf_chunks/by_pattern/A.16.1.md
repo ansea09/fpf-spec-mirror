@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 22634
-line_end: 22918
+line_start: 22732
+line_end: 23020
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -71,6 +71,10 @@ Without an explicit cue-pack publication form, such epistemes either disappear, 
 `U.PreArticulationCuePack` is a typed publishable episteme form that serves as the earliest durable seam publication form inside the language-state cluster. It is not a claim, not a characteristic, not a method, not work, and not a route record. When rendered, it appears on an ordinary MVPK face; cue-pack status is a property of the publication form, not a rival face kind.
 
 A cue pack may exist before any route is selected and even before route-candidate hints can yet be named clearly. When route plurality or route authority becomes explicit enough to publish, the successor publication is governed by `B.4.1` and `RoutedCueSet`.
+
+#### A.16.1:4.0a - E.24.UK settlement
+
+`U.PreArticulationCuePack` is retained as a dependent durable publication-form value under the `U.Episteme` and language-state publication settlement, not as a root U-kind. Its governed identity is the preservable cue-pack form for pre-threshold episteme content. A cue, trace, witness, anchor, route hint, carrier, or local note does not become this value merely because it appears inside a pack.
 
 #### A.16.1:4.1 - Core shape
 A conforming cue pack may publish:
@@ -222,7 +226,7 @@ Older prose often says merely "there is a signal" or "something suggests a work 
 Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.
 
 #### A.16.1:15.3 - Boundary reminder
-If a cue pack begins to carry route decision, stable endpoint authority, relation slots, method semantics, work semantics, or other later-pattern authority or signature conditions, the publication is ready to exit this governing pattern.
+If a cue pack begins to carry route decision, stable endpoint authority, relation slots, method semantics, work semantics, or other later-pattern authority or signature conditions, this pattern no longer governs the publication by itself; open the pattern that owns the later claim.
 
 ### A.16.1:16 - Cue-Pack Package Discipline
 

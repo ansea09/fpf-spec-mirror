@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.2.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
-line_start: 10412
-line_end: 10839
+line_start: 10493
+line_end: 10923
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -32,6 +32,7 @@ keywords:
 ---
 
 ## A.6.2 - `U.EffectFreeEpistemicMorphing` — Effect‑free morphisms of epistemes
+> **Status:** Stable
 
 **One‑line summary.** `U.EffectFreeEpistemicMorphing` (EFEM) is the universal class of **effect-free, law-constrained morphisms between epistemes**. An EFEM morphism rewrites episteme components (ClaimGraph, `entityOfConcernRef`, optional `groundingHolonRef`, `viewpointRef`, `referenceScheme`, and—where C.2.1+ is in use—`representationSchemeRef` and related slots, plus meta) in a **conservative, functorial, reproducible** way, with an explicit mode for what happens to the **EntityOfConcernSlot** (`EntityOfConcernChangeMode ∈ {preserve, retarget}`) as defined by `C.2.1 U.EpistemeSlotRelation`.
 
@@ -44,6 +45,8 @@ A.6.0 `U.Signature` (subject/vocabulary/laws/applicability); A.6.1 `U.Mechanism`
 A.6.3 `U.EpistemicViewing`; A.6.4 `U.EpistemicRetargeting`; E.17.0 `U.MultiViewDescribing`; E.17 (MVPK); E.18 (structural reinterpretation over transformation-flow structure).
 
 **EntityOfConcern change-mode discipline.** EFEM uses `EntityOfConcernChangeMode` for the preserve/retarget characteristic over C.2.1's EntityOfConcernSlot / entityOfConcernRef family. Earlier source-side spellings must be normalized to the EntityOfConcern family before conformant use and do not define a second EntityOfConcern ontology.
+
+**Body-level U-kind settlement.** `U.EffectFreeEpistemicMorphing` is the governed durable value in this host. `U.Episteme` is reused from C.2.1; episteme species such as episteme card, view, and publication are dependent episteme or publication values only when C.2.1/E.17 governs them. `ClaimGraph`, `ReferenceScheme`, `Viewpoint`, and related names are ValueKinds or SlotKinds inside the C.2.1 episteme slot relation and A.6.5 SlotSpec discipline. `SubjectRef` is source-migration wiring that decodes through `DescriptionContext`; it is not a second EntityOfConcern ontology. `EpMorphism` below is the local mathematical-lens arrow value for the episteme category, not a root U-kind. Claims about performed work, mechanism application, or presentation carriers leave EFEM and use A.15, A.6.1, E.17, or the direct publication pattern.
 
 ### A.6.2:1 - Problem frame
 
@@ -83,7 +86,7 @@ The result: engineers and tool builders can no longer tell **when they are allow
 ### A.6.2:3 - Forces
 
 * **Epistemic purity vs operational power.**
-  Effect‑free episteme transforms are attractive precisely because they can be reasoned about algebraically and composed freely. But the more operational power they are given (IO, solver calls, measurements), the less they remain “pure” and the more they belong under `U.Mechanism` / `U.WorkEnactment`.
+  Effect‑free episteme transforms are attractive precisely because they can be reasoned about algebraically and composed freely. But the more operational power they are given (IO, solver calls, measurements), the less they remain “pure” and the more they belong under `U.Mechanism` or performed `U.Work` governed by A.15.
 
 * **Preserve vs retarget.**
   Viewing is entityOfConcern‑preserving; reinterpretation along a KindBridge is entityOfConcern-retargeting. Both are important, but **they must be distinguished and witnessed differently**.
@@ -125,30 +128,30 @@ As a `U.Signature`, EFEM publishes the following **SubjectBlock** and the standa
 ```
 SubjectBlock
   SubjectKind   = U.EffectFreeEpistemicMorphing
-  BaseType      = ⟨X : U.Episteme, Y : U.Episteme⟩        // episteme pair (domain,codomain)
-  Quantification= SliceSet:=U.ContextSliceSet;
+  RangedValueKind = ⟨X : U.Episteme, Y : U.Episteme⟩        // episteme pair (domain,codomain)
+  Quantification= SliceSet:=ContextSliceSet;
   ExtentRule:=admissibleEpistemeMorphisms // Context slices & admissible EFEM per slice
-  ResultKind?   = U.Morphism                               // typed morphism f : X→Y
+  ResultKind?   = EpMorphism                               // local typed arrow f : X->Y in the Ep category
 ```
 
-This says: EFEM is “about” **morphisms between epistemes**, indexed by Context slices; its results are morphisms of a declared type `U.Morphism` in the `Ep` category.
+This says: EFEM is “about” **morphisms between epistemes**, indexed by Context slices; its results are local `EpMorphism` arrow values in the `Ep` category.
 
 **Vocabulary (core operators & kinds)**
 
 * **Types**
   * `U.Episteme` (as holon; realised via species `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` under C.2.1).
   * `U.EpistemeKind` (episteme n‑ary relation signature; slots per A.6.5 / C.2.1).
-  * `U.SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
-  * `U.Morphism` (arrow in `Ep`).
+  * `SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
+  * `EpMorphism` (local arrow value in `Ep`, governed by this morphism pattern and C.29 when the mathematical lens is current).
   * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new Kernel type for “EntityOfConcern”).
 
 * **Operators (arrow algebra)**
 
-  * `id_X : U.Morphism(X→X)` for any episteme `X`.
-  * `compose(g,f) : U.Morphism(X→Z)` where `f : X→Y`, `g : Y→Z`.
+  * `id_X : EpMorphism(X->X)` for any episteme `X`.
+  * `compose(g,f) : EpMorphism(X->Z)` where `f : X->Y`, `g : Y->Z`.
   * `apply(f, x:U.Episteme) : U.Episteme`.
   * `dom(f), cod(f) : U.Episteme`.
-  * `subjectRef(E) : U.SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
+  * `subjectRef(E) : SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
   * `entityOfConcernChangeMode(f) : U.EntityOfConcernChangeMode`  // EFEM‑level characteristic from C.2.1.
 
 Each operator that takes epistemes as arguments obeys **SlotSpec discipline** from A.6.5: in particular, laws below are phrased in terms of the **named SlotKinds** (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, `ViewSlot`, and—when the C.2.1+ extension is used—`RepresentationSchemeSlot`) and their associated ValueKind/RefKind; we never speak of “field 1/2/3”.
@@ -188,8 +191,8 @@ For any EFEM morphism `f : X→Y`:
 EFEM morphisms are **pure functions on epistemes**:
 * Applying `f : X→Y` **does not**:
   * change any `U.System` or `U.Holon` state;
-  * execute Work (`U.WorkEnactment`) or run a `U.Mechanism` (A.6.1) with operational guards;
-  * mutate `U.PresentationCarrier` (files, databases, message buses, IDEs).
+  * perform `U.Work` or run a `U.Mechanism` (A.6.1) with operational guards;
+  * create, update, or mutate a presentation carrier, publication carrier, file, database, message bus, or IDE artifact.
 * The **only** state change introduced by EFEM is the replacement of input epistemes by output epistemes according to `apply(f, X) = Y`, with all component changes governed by P2–P5.
 
 Any operation that requires **measurements, simulations, solver calls, or tool use with external side-effects** is modelled as a `U.Mechanism`/`U.Work` that **produces new epistemes**, which may then be related by EFEM morphisms.
@@ -380,7 +383,7 @@ In later A.6.3/A.6.4/E.17.\* patterns, concrete EpistemeKinds (for specific engi
 | ID                                                  | Requirement                                                                                                                                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑EFEM.1 (Typed episteme objects).**             | Every morphism advertised as `U.EffectFreeEpistemicMorphing` SHALL have domain and codomain epistemes whose kinds (`U.EpistemeKind`) publish SlotKinds/ValueKinds/RefKinds according to C.2.1 and A.6.5 (at least `EntityOfConcernSlot` and `ClaimGraphSlot`; other slots as declared).                                                                                                               |
-| **CC‑EFEM.2 (Declared EntityOfConcernChangeMode).** | Each EFEM **species** SHALL declare the `EntityOfConcernChangeMode` characteristic `entityOfConcernChangeMode : U.Morphism → {preserve, retarget}` as per C.2.1. For every instance `f`, `entityOfConcernChangeMode(f)` MUST be either `preserve` (⇒ `entityOfConcernRef` unchanged) or `retarget` (⇒ a KindBridge and invariant are explicitly named; see A.6.4 / F.9).                                                                                         |
+| **CC‑EFEM.2 (Declared EntityOfConcernChangeMode).** | Each EFEM **species** SHALL declare the `EntityOfConcernChangeMode` characteristic `entityOfConcernChangeMode : EpMorphism -> {preserve, retarget}` as per C.2.1. For every instance `f`, `entityOfConcernChangeMode(f)` MUST be either `preserve` (=> `entityOfConcernRef` unchanged) or `retarget` (=> a KindBridge and invariant are explicitly named; see A.6.4 / F.9).                                                                                         |
 | **CC‑EFEM.3 (Purity).**                             | EFEM morphisms SHALL be effect‑free: they MUST NOT directly perform Work or run mechanisms with operational guards; they only read input epistemes and construct output epistemes consistent with P2–P5. Any use of external solvers/measurements MUST be modelled as separate Mechanisms/Work that feed new epistemes into EFEM.                                                                     |
 | **CC‑EFEM.4 (Conservativity).**                     | Laws for EFEM species SHALL state their conservativity regime: claims in the output MUST be logical consequences of input claims under declared ReferenceSchemes and any CorrespondenceModels/KindBridges. If an operation may strengthen claims (e.g. add commitments not entailed by inputs), it is **not** EFEM and MUST be modelled separately.                                                   |
 | **CC‑EFEM.5 (Functoriality & idempotence).**        | EFEM species SHALL satisfy identity and composition with the usual category laws, and SHALL specify any structural equivalence under which idempotence holds. Non‑deterministic or order‑sensitive behaviour (beyond declared structural equivalences) is non‑conformant.                                                                                                                             |
@@ -412,7 +415,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
   All effect-free transforms of knowledge epistemes, across KD‑CAL, MVPK, E.18, discipline packs, can now be defined as species of EFEM, instead of each family re‑inventing its own law set.
 
 * **Clear separation from mechanisms & work.**
-  Anything that touches the world (measurements, execution, simulation) is forced into `U.Mechanism` / `U.WorkEnactment`, with CL‑penalised Bridges and Γ_time; EFEM remains pure and compositional.
+  Anything that touches the world (measurements, execution, simulation) is forced into `U.Mechanism` or performed `U.Work`, with CL‑penalised Bridges and Γ_time; EFEM remains pure and compositional.
 
 * **Stable backbone for Viewing & Retargeting.**
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.18 structural reinterpretation) can depend on EFEM as a stable base.

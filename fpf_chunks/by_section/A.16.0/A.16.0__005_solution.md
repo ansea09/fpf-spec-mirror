@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:4 — Solution"
-line_start: 22429
-line_end: 22536
+line_start: 22523
+line_end: 22634
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -46,6 +46,10 @@ keywords:
 It does **not** define position semantics, move admissibility, or publication-face ontology by itself. Those remain with `C.2.2a` / `A.19`, `A.16`, and `E.17` / `E.18` respectively.
 
 It answers the question: `when history itself matters, which governed publication is current, which members precede or branch from it, which admissible moves relate them, which publication forms carry them, what was lost, and who now governs the next responsibility?`
+
+#### A.16.0:4.0a - E.24.UK settlement
+
+`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The host title is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
 
 #### A.16.0:4.1 - Ontological subject and role lanes
 In this cluster, keep six roles distinct:

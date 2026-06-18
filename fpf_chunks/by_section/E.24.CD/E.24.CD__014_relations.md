@@ -6,12 +6,12 @@ section_id: "E.24.CD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__014_relations.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:12 — Relations"
-line_start: 71330
-line_end: 71335
+line_start: 70696
+line_end: 70701
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -32,7 +33,7 @@ keywords:
 
 ### E.24.CD:12 - Relations
 
-- **Builds on:** `E.24`, `A.6.5`, `C.2.1`, `E.10`, `E.10.ARCH`, `F.18`, `F.19`, and `A.19.ECS`.
+- **Builds on:** `E.24`, `E.24.UK`, `A.6.5`, `C.2.1`, `E.10`, `E.10.ARCH`, `F.18`, `F.19`, and `A.19.ECS`.
 - **Coordinates with:** `E.24.PUB` for ontic-description and publication-form boundary, `A.19` for `U.CharacteristicSpace`, `A.19.ECS` for evaluation-characteristic construction, and the governing subject patterns for values recovered in the candidate cluster.
 - **Used by:** DRRs and authoring passes that need to decide whether a recurring construct should become a durable ontic, remain a local use frame, use existing governing patterns, or stay as quote-only or reduced-use source wording.
 

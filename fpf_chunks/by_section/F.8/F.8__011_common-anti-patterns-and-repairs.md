@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_common-anti-patterns-and-repairs.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:9 — Common Anti-Patterns and Repairs"
-line_start: 74424
-line_end: 74436
+line_start: 74077
+line_end: 74089
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -59,6 +62,6 @@ keywords:
 | Row overuse | Naming row justifies role assignment or structural inference. | Lower use to row scope or repair the row and bridges. |
 | Alias with payload | Alias changes kind, scope, or authority. | Treat as a new decision; use `F.5` and `F.18`. |
 | Source prestige minting | Standard or framework term becomes FPF selected name by source prestige. | Use source term as evidence or alias; select FPF name only after recovered meaning fits. |
-| U.Type comfort minting | New `U.Type` proposed because existing names feel awkward. | Attempt reduction to local sense, row, role description, direct relation, or existing type. |
+| U-kind comfort minting | New U-kind proposed because existing names feel awkward. | Attempt reduction to local sense, Concept-Set row, role-description label, direct relation, existing U-kind, or direct subject pattern; use `E.24.UK` before minting. |
 | Policy id as magic word | Policy id used without resolvable specification or mint decision. | Add `PolicyIdRef` or lower the claim. |
 

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__014_relations.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:12 — Relations"
-line_start: 71572
-line_end: 71577
+line_start: 70944
+line_end: 70949
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -26,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"
@@ -34,7 +35,7 @@ keywords:
 
 ### E.24.PUB:12 - Relations
 
-- **Builds on:** `E.24`, `C.2.1`, `E.17`, `E.17.0`, `E.8`, `E.10`, `E.10.ARCH`, and `F.19`.
-- **Coordinates with:** `E.24.CD` for candidate detection, `A.19` and `A.19.ECS` for characteristic-space descriptions and evaluation construction, `A.22` for structure, `C.30` for architecture, and `C.30.AD` for architecture descriptions.
+- **Builds on:** `E.24`, `E.24.UK`, `C.2.1`, `E.17`, `E.17.0`, `E.8`, `E.10`, `E.10.ARCH`, and `F.19`.
+- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.UK` for U-kind admission and structural-name U-kind settlement, `A.19` and `A.19.ECS` for characteristic-space descriptions and evaluation construction, `A.22` for structure, `C.30` for architecture, and `C.30.AD` for architecture descriptions.
 - **Used by:** subject patterns that need a thin boundary between the subject ontic, its description, and the publication form without turning the pattern into generic semio instruction.
 

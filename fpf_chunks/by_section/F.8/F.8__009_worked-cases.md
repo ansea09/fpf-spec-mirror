@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_worked-cases.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:7 — Worked Cases"
-line_start: 74323
-line_end: 74384
+line_start: 73976
+line_end: 74037
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -75,9 +78,9 @@ A gate profile introduces `Aut-Guard-2026`. F.8 treats this as a policy-id decis
 
 The policy id is not a role, method, gate result, evidence value, or source authority by itself. It is a reference to a policy specification used by the pattern that governs the policy claim.
 
-#### F.8:7.5 - New U.Type Candidate
+#### F.8:7.5 - New U-kind Candidate
 
-A team proposes `U.InfluenceEdge` because many documents use "influence". F.8 blocks immediate minting. The team must show the candidate is not an existing relation, causal claim, evidence relation, characteristic, method relation, or bridge relation under current patterns. If it is still cross-family, irreducible, and needed by several domain families, the proposal goes to `A.8`, `C.3`, `E.9`, and `F.18`.
+A team proposes `U.InfluenceEdge` because many documents use "influence". F.8 blocks immediate minting. The team must show the candidate is not an existing relation, causal claim, evidence relation, characteristic, method relation, bridge relation, structural name, publication form, or local frame under current patterns. If it is still cross-family, irreducible, and needed by several domain families, the proposal goes to `E.24.UK`, `A.8`, `A.11`, `C.3`, `E.9`, and `F.18`.
 
 #### F.8:7.6 - Filled Decision Records
 
@@ -92,7 +95,7 @@ MintReuseDecision:
   DecisionKindSlot: nameRoleDescription
   DirectPatternRefs: F.4, F.5; F.18 if public reuse becomes current
   NameDisciplineRefs: role label must not encode assignment, capability, method, work, evidence, or status
-  NonAdmissibleOverreadSlot: this decision does not assign Alice, prove review work, or make a review report evidence
+  NonAdmissibleOverreadSlot: this decision does not assign Alice, show that review work occurred, or make a review report evidence
   ReopenConditionSlot: reopen if the label is used for evidence, status, access, source, publication, or cross-context row claims
 ```
 

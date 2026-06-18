@@ -6,12 +6,12 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 61091
-line_end: 61213
+line_start: 60455
+line_end: 60577
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "F.18"
   - "F.19"
   - "F.5"
-  - "U.Types"
 keywords:
 ---
 
@@ -55,7 +54,7 @@ keywords:
 | **L‑OWNER**  | *owner of X* (global)                             | Recover ownership wording as a work-facing role value plus `U.RoleAssignment` in a `U.BoundedContext` when actual responsibility is being assigned (e.g., `OwnerRole:ITIL_2020` assigned to a holder); otherwise recover commitment, authority, source-maintenance, or publication-use relation by direct governing pattern. | role value plus assignment relation, or the direct non-role relation | Context | No global “owner” property in Kernel. |
 | **L‑CAP**    | *capability* for assignment, recipe, run, or promise | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `U.Method` or `U.MethodDescription`; runs `Work`; promises `U.PromiseContent` (service promise clause or offering)                                                       | EntityOfConcern side, Description episteme, or run record                                                                        | Kernel or Context                              | Holder of a Capability is a `U.System`.                                                              |
 | **L‑DYN**    | *process of diffusion, growth, or learning*       | `U.Dynamics` (law or model of change)                                                                                                                                                              | I                                                                                    | Kernel or Context                              | Reserve for uncaused change models.                                                                  |
-| **L‑EVID**   | “paper or dataset proves or ensures” | Recover the evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation under `A.10`, `B.3`, `F.10`, `G.6`, `E.17`, `C.28`, or the direct governing pattern named by value; do not route the episteme through `U.RoleAssignment` unless an acting holon is actually assigned a work-facing role. | Description episteme or admitted specification-use episteme, with claim target, scope, polarity, time, provenance, status, or publication-use slots governed by the direct pattern | Context or Discriminator | Evidence use is a relation over an episteme and claim or use; it is not a work-facing role. |
+| **L‑EVID**   | “paper or dataset proves or ensures” | Recover the evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation under `A.10`, `B.3`, `F.10`, `G.6`, `E.17`, `C.28`, or the direct governing pattern named by value; use `U.RoleAssignment` only when an acting holon is actually assigned a work-facing role. | Description episteme or admitted specification-use episteme, with claim target, scope, polarity, time, provenance, status, or publication-use slots governed by the direct pattern | Context or Discriminator | Evidence use is a relation over an episteme and claim or use; it is not a work-facing role. |
 | **L‑CTX**    | *context* (fuzzy trope)                           | `U.BoundedContext` (named card)                                                                                                                                                                 | —                                                                                    | Context                                     | Never use “depends on context” in Core; **name** the Context.                                        |
 | **L‑BRIDGE** | cross‑context equivalence “by same label” | Explicit **Bridge Card** (F.9): state kind, direction, congruence level, loss, and scope; apply **A.6.9 (RPR‑XCTX)** for disambiguation and licence-revealing name or verb choice. | — | — | Same label ≠ same concept; umbrella wording such as “same”, “equivalent”, “align”, or “map” must be repaired into a Bridge before it can justify reuse, rows, or substitution. |
 

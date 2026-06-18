@@ -6,12 +6,12 @@ section_id: "F.1:10"
 section_title: "Micro‑examples (illustrative only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__011_micro-examples-illustrative-only.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:10 — Micro‑examples (illustrative only)"
-line_start: 72024
-line_end: 72048
+line_start: 71677
+line_end: 71701
 dependencies:
   - "A.11"
   - "A.7"
@@ -35,7 +35,7 @@ keywords:
 
 ### F.1:10 - Micro‑examples (illustrative only)
 
-*One unification line: Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing and execution.*
+*One unification line: role assignment and performed-work attribution with sensing and execution.*
 
 * **BPMN 2.0 (2011)** — *workflow family*.
   *Scope gist:* flow nodes, sequence flows, participants (design‑time).

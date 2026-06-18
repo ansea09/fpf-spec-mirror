@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:0 — Use This When"
-line_start: 71046
-line_end: 71071
+line_start: 70404
+line_end: 70430
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -37,7 +38,7 @@ Use this pattern when a recurring FPF construct is an ontic candidate, but the c
 Typical moments:
 
 - one word such as "process", "source", "quality", "architecture", "problem", "view", "role", "function", "mechanism", or "method" keeps pointing to several FPF values at once;
-- several patterns repeat a similar slot list, field list, boundary formula, or "not proof, not gate, not work" warning;
+- several patterns repeat a similar slot list, field list, boundary formula, or generic semio warning;
 - a project data structure looks concept-shaped, but it may only be a publication form or local record;
 - a draft ToC row or older source label names a family that no current pattern yet governs;
 - a proposed new `U.*` kind feels useful, but it might duplicate existing governing patterns.
@@ -51,6 +52,7 @@ Typical moments:
 **Not this pattern when.**
 
 - If the durable ontic is already selected and its identity and slot relation must be governed, use `E.24`.
+- If the current question is whether a `U.*` spelling in a heading, title, filename, ToC row, table, or source passage should be retained, demoted, or repaired, recover the concern and use `E.24.UK`.
 - If the current problem is only confusion between an ontic, its description, and publication forms, use `E.24.PUB`.
 - If an existing subject pattern already governs the claim, use that pattern directly.
 - If the issue is one wording-use repair, use `E.10`, `E.10.ARCH`, or the relevant precision-restoration pattern.

@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 64822
-line_end: 65172
+line_start: 64186
+line_end: 64536
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -50,7 +50,7 @@ keywords:
 
 #### E.17:5.1 - Terminology (normative)
 
-* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
+* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a governed morphism value, typically `EpMorphism` under A.6.2; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
   Every MVPK `U.View` declares:
   `publication-face kind ∈ {literal publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
   Any carrier rendering is separate **`U.Work` over carrier or rendering infrastructure**, with A.10 carrier and source-currentness records when reliance is current, and is not part of `U.View`.
@@ -313,7 +313,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 
 1. **Object component** `ViewObj_s` for each viewpoint (see §5.1), to make types explicit.
 2. **Viewpoint set** `Σ : FinSet(U.Viewpoint)` with declared **partial order** `⪯` for formality or refinement (default chain: `PlainView ⪯ TechCard ⪯ InteropCard`; `AssuranceLane` is an **independent evidence-binding face** and not ordered with respect to others).
-3. **Emitters** `Emit_s(-) : U.Morphism → U.ViewMorph_s` (one per `s ∈ Σ`).
+3. **Emitters** `Emit_s(-) : EpMorphism -> ViewMorph_s` (one per `s ∈ Σ`, when the morphism profile is current).
 4. **Coherence** (rules and invariants §6) + **Pin Characteristics** policy (UnitType, ScaleKind, ReferencePlane, and EditionId) for any numeric or comparable content, grounded in CHR and UNM.
 5. **Interop concern references (conceptual)** for `InteropCard` (concerns and semantics only); any concrete schema or exchange mapping is outside Part E (Annex or Interop).
 

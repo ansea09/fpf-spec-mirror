@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.6.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-line_start: 3917
-line_end: 4781
+line_start: 3941
+line_end: 4810
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -26,10 +26,15 @@ keywords:
 ---
 
 ## A.2.6 - Unified Scope Mechanism (USM): Context Slices & Scopes
+> **Status:** Stable
+
+### E.24.UK settlement
+
+`U.ContextSlice` and `U.Scope` are retained as root durable USM values under this scope settlement. `U.ClaimScope`, `U.WorkScope`, and `U.PublicationScope` are retained as C.3-governed scope specializations under `U.Scope`, not as independent root ontics. `ContextSliceSet` is the set-valued scope value over addressable `U.ContextSlice`s, not an independent root kind. `GammaTimePolicy`, work-measure target sets, qualification-window policies, formality thresholds, detail values, abstraction-tier values, scope profiles, coverage metrics, guards, reports, and publication views remain policy values, characteristic values, non-U records, lenses, guard facets, or publication forms unless a direct governing pattern admits them. Dotted forms such as `U.Mechanism.Intension` name the intension slot/form governed by `U.Mechanism` and A.6.1; they do not admit a separate structural U-kind.
 
 > **One-line summary.** Introduces a single, context-local **scope mechanism** for all holons: **`U.ContextSlice`** (where we reason and measure) and a family of **set-valued scope types** (**USM scope objects, `U.Scope`**), specialized as **`U.ClaimScope`** for epistemes (**G** in **F–G–R**), **`U.WorkScope`** for system capabilities, and **`U.PublicationScope`** for publication carriers; with one algebra (∩ / SpanUnion / translate / widen / narrow / refit) and uniform Cross-context handling (Bridge + CL).
 
-**Replaces / deprecates.**
+**Replaces and deprecates.**
 This pattern **supersedes** the scattered use of labels *applicability*, *envelope*, *generality*, *universality* and *capability envelope* where they tried to stand in for the one scope mechanism. From now on:
 
 * For epistemes, the only **scope type** is **`U.ClaimScope`** (nick **G** in F–G–R).
@@ -37,7 +42,7 @@ This pattern **supersedes** the scattered use of labels *applicability*, *envelo
 * For publication carriers (views, cards, and lanes), the only **scope type** is **`U.PublicationScope`**.
 * The abstract architectural notion is **`U.Scope`** — a **set-valued USM object** over `ContextSliceSet` with its own algebra (∩ / SpanUnion / translate / widen / narrow / refit); it is **not** a `U.Characteristic` and MUST NOT appear in any `CharacteristicSpace`.
 
-Legacy words (*applicability / envelope / generality / capability envelope*) MAY appear **only** as explanatory aliases in non‑normative notes.
+Older source words (*applicability*, *envelope*, *generality*, and *capability envelope*) MAY appear **only** as explanatory aliases in non-normative notes.
 
 **Cross‑references.**
 — **C.2.3** (Unified Formality **F**) and **C.2.2** (F–G–R): this pattern **defines G** as `U.ClaimScope`.
@@ -129,12 +134,12 @@ without changing USM’s meaning.
 
 **USM Mechanism.Intension (normative; A.6.1 decomposition).**
 
-* **Imports (USM).** `U.ContextSlice`, `U.ContextSliceSet`, Part B **Bridge/CL** (`U.Bridge`, `U.CongruenceLevel`), and `U.GammaTimePolicy`.
-* **BaseType (USM).** `U.ContextSliceSet` (set‑valued scope objects range over sets of addressable `U.ContextSlice`).
-* **SliceSet (USM).** `U.ContextSliceSet` (addressable `U.ContextSlice`s; see §6.1).
+* **Imports (USM).** `U.ContextSlice`, `ContextSliceSet`, Part B **Bridge/CL** (`U.Bridge`, `U.CongruenceLevel`), and `GammaTimePolicy`.
+* **RangedValueKind (USM).** `ContextSliceSet` (set-valued scope objects range over sets of addressable `U.ContextSlice`).
+* **SliceSet (USM).** `ContextSliceSet` (addressable `U.ContextSlice`s; see §6.1).
 * **SubjectKind (USM).** `U.Scope` with kind specialisations:
   `U.ClaimScope ⊑ U.Scope`, `U.WorkScope ⊑ U.Scope`, `U.PublicationScope ⊑ U.Scope`.
-* **ExtentRule (USM).** The quantifier domain is the set of **well‑formed scope objects** over the SliceSet: `Extension(U.Scope, slice) = { S | S ⊆ U.ContextSliceSet }`.
+* **ExtentRule (USM).** The quantifier domain is the set of **well‑formed scope objects** over the SliceSet: `Extension(U.Scope, slice) = { S | S subsetOf ContextSliceSet }`.
 * **ResultKind? (USM).** `U.Scope` (for operators that return scopes, e.g., `∩`, `SpanUnion`, `translate`).
 
 **SlotIndex (USM) for operators/guards (normative; A.6.0:4.1.1 + A.6.5).**
@@ -147,10 +152,10 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 | `RightScopeSlot`     | `U.Scope`              | byRef    | Right scope operand (binary ops/relations) |
 | `ScopeFamilySlot`    | `Set[U.Scope]`          | byRef    | Finite family of scopes (for `SpanUnion`) |
 | `SliceSlot`          | `U.ContextSlice`       | byValue  | A single addressable slice (membership target) |
-| `SliceSetSlot`       | `U.ContextSliceSet`    | byRef    | A finite target set of slices (coverage target) |
+| `SliceSetSlot`       | `ContextSliceSet`      | byRef    | A finite target set of slices (coverage target) |
 | `BridgeRef`          | `U.Bridge`             | byRef    | Bridge used for `translate` / Cross‑context guards |
 | `CLSlot`             | `U.CongruenceLevel`    | byValue  | Congruence Level bound in Cross‑context guards |
-| `GammaTimeSlot`      | `U.GammaTimePolicy`    | byValue  | Explicit `Γ_time` selector/policy bound in guards |
+| `GammaTimeSlot`      | `GammaTimePolicy`      | byValue  | Explicit `Γ_time` selector/policy bound in guards |
 
 **OperationAlgebra (USM) with SlotSpecs (normative).**
 
@@ -182,7 +187,7 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 
 **PlaneRegime (USM).** Not applicable to set‑valued scope objects (no `CL^plane` effect on scopes).
 
-**Mechanism specialisation (USM; A.6.1:4.2.1).** A bounded context MAY publish a specialisation of USM as either a refinement `USM′ ⊑ USM` (tighten LawSet/AdmissibilityConditions) or an extension `USM ⊑⁺ USM′` (add new operators/slots). Any such specialisation SHALL (i) name its parent (`USM`), (ii) declare the morphism kind (`⊑` vs `⊑⁺`), (iii) preserve the same BaseType and SlotKinds for inherited operators (no renaming), (iv) avoid adding new mandatory inputs to inherited signatures. It MAY narrow ValueKinds/refModes monotonically and add admissibility constraints, but MUST remain substitutable for the inherited USM operators.
+**Mechanism specialisation (USM; A.6.1:4.2.1).** A bounded context MAY publish a specialisation of USM as either a refinement `USM′ ⊑ USM` (tighten LawSet/AdmissibilityConditions) or an extension `USM ⊑⁺ USM′` (add new operators/slots). Any such specialisation SHALL (i) name its parent (`USM`), (ii) declare the morphism kind (`⊑` vs `⊑⁺`), (iii) preserve the same RangedValueKind and SlotKinds for inherited operators (no renaming), (iv) avoid adding new mandatory inputs to inherited signatures. It MAY narrow ValueKinds/refModes monotonically and add admissibility constraints, but MUST remain substitutable for the inherited USM operators.
 
 #### A.2.6:6.1 - `U.ContextSlice` — where scope is evaluated
 
@@ -243,8 +248,8 @@ These SlotKinds are stable names for signatures, substitution laws, and guard te
 **Meaning.** The set of `U.ContextSlice` (conditions, Standards, platforms, operating parameters, `Γ_time`) under which the capability can **deliver the intended Work** at the declared **measures**, within declared **qualification windows**.
 
 **Expression.** Capability owners SHALL declare **`U.WorkScope`** as explicit **conditions/constraints over `U.ContextSlice` only** (environment, platforms, Standards by version, resource regimes, `Γ_time`). Quantitative deliverables and operation windows are **not** part of the scope value:
-* Declare targets as **`U.WorkMeasures`** (e.g., latency ≤ L, throughput ≥ T, tolerance ≤ ε) bound in guards (WG‑2).
-* Declare inspection/recertification policies as **`U.QualificationWindow`** bound in guards (WG‑3).
+* Declare targets as **work-measure target sets** (e.g., latency <= L, throughput >= T, tolerance <= epsilon) bound in guards (WG‑2).
+* Declare inspection/recertification policies as **qualification-window policies** bound in guards (WG‑3).
 The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `QualificationWindow holds`.
 
 **Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
@@ -254,8 +259,8 @@ The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND*
 **Separation from knowledge.** Work scope does **not** assert a proposition about the world; it asserts **deliverability** of Work under conditions. Evidence for deliverability feeds **R** (Reliability) via measurements and monitoring.
 
 **Required guard facets (capabilities).**
-* **`U.WorkMeasures` (mandatory).** A set of measurable targets with units and tolerated ranges, evaluated on the JobSlice.
-* **`U.QualificationWindow` (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.
+* **Work-measure target set (mandatory).** A set of measurable targets with units and tolerated ranges, evaluated on the JobSlice.
+* **Qualification-window policy (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.
 These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (assurance). They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3).
 
 #### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
@@ -292,7 +297,7 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
 **Tri‑state admissibility under unknowns (normative; aligns A.6.1).**
 
 * If any required input to a membership/coverage check is **unknown** (missing slice selector, unknown Standard version, unmappable Bridge leg, unspecified `Γ_time`, etc.), the check result is **unknown**, not `false`.
-* Guards MUST either **abstain** (fail closed) or explicitly route the outcome through an **R‑lane degradation** policy; unknown MUST NOT be coerced to `false/0`.
+* Guards MUST either **abstain** (fail closed) or handle the outcome under an explicit **R‑lane degradation** policy; unknown MUST NOT be coerced to `false/0`.
 
 #### A.2.6:7.2 - Serial Composition (Intersection)
 
@@ -330,13 +335,13 @@ Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U
 USM already fixes composition: along a **dependent path** use **intersection**; across **independent support lines** publish **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
 
 **3) A G ladder drags in “abstraction level,” which is orthogonal.**
-Early “G ladders” effectively encoded **abstraction/typing** (instances → patterns → formal classes/types → up‑to‑iso). That is valuable **didactics**, but **not applicability**. We have already separated these concerns: **abstraction** is captured, if needed, by **`U.AbstractionTier (AT)`** as an optional facet; **applicability** is **`U.ClaimScope (G)`**.
+Early “G ladders” effectively encoded **abstraction/typing** (instances -> patterns -> formal classes/types -> up-to-iso). That is valuable **didactics**, but **not applicability**. We have already separated these concerns: **abstraction** is captured, if needed, by **`AbstractionTier (AT)`** as an optional facet; **applicability** is **`U.ClaimScope (G)`**.
 
 **4) A G ladder breaks locality and Bridge semantics.**
 Cross‑context transfer maps a **set** `Scope` via a **Bridge** and penalizes **R** by **CL**. There is no canonical way to “translate” an **ordinal G level** between Contexts: the mapped area may be **strictly narrower** or differently factored. Level numbers would become non‑portable, causing hidden loss or inflation of trust. With USM, we **translate sets** and keep the CL penalty where it belongs—**in R**, not in G.
 
 **5) A G ladder duplicates ESG guards without adding decision power.**
-What teams often want to “compress into a G number” is actually (a) the **quality of expression** and (b) the **completeness** of the declared scope. The first is an **F threshold** (e.g., require **`U.Formality ≥ F4`** so the scope is predicate‑like and addressable); the second is handled by explicit **ESG guards**: “**Scope covers TargetSlice**,” “**`Γ_time` is specified**,” and “**freshness window holds**” (R‑lane). A ladder for G adds confusion but no additional control.
+What teams often want to “compress into a G number” is actually (a) the **quality of expression** and (b) the **completeness** of the declared scope. The first is an **F threshold** (e.g., require **`Formality >= F4`** so the scope is predicate-like and addressable); the second is handled by explicit **ESG guards**: “**Scope covers TargetSlice**,” “**`Γ_time` is specified**,” and “**freshness window holds**” (R-lane). A ladder for G adds confusion but no additional control.
 
 **Normative directive.**
 `U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, bridge semantics, or CL routing. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
@@ -446,7 +451,7 @@ U.ClaimScope(episteme) covers TargetSlice
 When rigor is gated, the guard MUST reference C.2.3:
 
 ```
-U.Formality(episteme) ≥ F_k
+Formality(episteme) >= F_k
 ```
 
 **EG‑3 - Evidence freshness (R‑lane).**
@@ -482,14 +487,14 @@ A capability can be used to deliver a Work step only if:
 U.WorkScope(capability) covers JobSlice
 ```
 
-**WG‑2 - `U.WorkMeasures` satisfied** (mandatory for deliverables).
+**WG‑2 - work-measure target set satisfied** (mandatory for deliverables).
 Guards MUST bind quantitative measures that the capability promises in the JobSlice:
 
 ```
 SLO/target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
 ```
 
-**WG‑3 - `U.QualificationWindow` holds** (mandatory for operational use).
+**WG‑3 - qualification-window policy holds** (mandatory for operational use).
 Operational guards MUST assert that qualification windows (qualification/inspection/recert intervals) hold **at `Γ_time`**:
 
 ```
@@ -565,7 +570,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Episteme:** claim “Adhesive X retains ≥85 % tensile strength on Al6061 for 2 h at 120–150 °C.”
 * **Claim scope (G):** `{substrate=Al6061, temp∈[120,150]°C, dwell≤2h, Γ_time = window(1y), rig=Calib‑v3}`.
 * **Target slice:** `{substrate=Al6061, temp=140 °C, dwell=90 min, Γ_time=2026‑04‑02, rig=Calib‑v3}`.
-* **Guard (EG‑1, EG‑2):** `covers(TargetSlice)` **true**; `U.Formality ≥ F4` **true** (predicates in spec).
+* **Guard (EG‑1, EG‑2):** `covers(TargetSlice)` **true**; `Formality >= F4` **true** (predicates in spec).
 * **Outcome:** state transition allowed (freshness checked separately under R).
 
 #### A.2.6:12.2 - Cross‑context use of the research claim
@@ -615,7 +620,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 
 1. **Name the TargetSlice.** Write the tuple (Context, versions, environment params, `Γ_time`).
 2. **Check scope coverage.** “Claim/Work scope covers TargetSlice?” If **no**, either **ΔG+** (publish wider scope with support) or **decline**.
-3. **Check rigor if gated.** If ESG requires it, ensure `U.Formality ≥ F_k`.
+3. **Check rigor if gated.** If ESG requires it, ensure `Formality >= F_k`.
 4. **Check evidence freshness (R).** Validate windows/decay policies; do not conflate with coverage.
 5. **Bridge if Cross‑context.** Require declared Bridge, CL, and loss notes; accept **R** penalties.
 6. **Record the decision.** Keep the slice and guard outcomes with the StateAssertion (auditability).
@@ -713,7 +718,7 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 #### A.2.6:15.2 - With Formality (C.2.3)
 
 * **No conflation.** Raising **F** does not change **G** unless scope predicates change.
-* **Guarding rigor.** ESG may use `U.Formality ≥ F_k` alongside scope coverage.
+* **Guarding rigor.** ESG may use `Formality >= F_k` alongside scope coverage.
 
 #### A.2.6:15.3 - With Work & Run (A.15)
 
@@ -776,7 +781,7 @@ It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is co
 | operational applicability           | **Work scope**                                           |
 | publication/view applicability      | **Publication scope**                                    |
 
-*(Use legacy terms only in explanatory notes; not in guards or conformance text.)*
+*(Use older source terms only in explanatory notes; not in guards or conformance text.)*
 
 #### A.2.6:17.2 - Minimal data model hints
 
@@ -857,7 +862,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
 | Serial dependency               | **Intersection**                                | **Intersection of scopes**           | —                    | ordinal “more/less general” language                                  |
 | Scope edits                     | **ΔG+ (widen), ΔG− (narrow), Refit, Translate** | **Widen, narrow, refit, translate**  | —                    | stealth widening (“it’s obvious”)                                     |
-| Optional didactics              | **`U.Detail (D)`, `U.AbstractionTier (AT)`**    | **Detail / abstraction tier**        | **D / AT**           | using AT/D as G substitutes                                           |
+| Optional didactics              | **`Detail (D)`, `AbstractionTier (AT)`**        | **Detail and abstraction tier**      | **D / AT**           | using AT/D as G substitutes                                           |
 
 **Why these names (decision grounds):**
 
@@ -883,7 +888,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 | “Operating modes/situations” (ISO 26262)   | **Work scope** with measures & qualification windows             |
 | “Target (class/shape)” (SHACL/OWL)         | **Claim scope predicates** (membership)                     |
 | “Architecture view context” (42010)        | **Context slice** + **Scope** checks inside the view        |
-| “Capability envelope” (legacy safety docs) | **Work scope**                                              |
+| “Capability envelope” (older safety documents) | **Work scope**                                              |
 | “Domain” (informal)                        | **Context slice** elements; not acceptable as a guard input |
 
 **Outcome.** The UTS shows clear convergence across SoTA Contexts on **addressable context** and **set‑valued applicability**. F.18 therefore fixes: **Context slice**, **Scope**, **Claim scope (G)**, **Work scope**, **Publication scope** with the algebra and guard clauses mandated in A.2.6. This closes synonym drift while remaining readable for engineering managers and precise for assurance tooling.

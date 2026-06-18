@@ -6,12 +6,12 @@ section_id: "C.21:11"
 section_title: "SoTA-Echoing and rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_sota-echoing-and-rationale.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:11 — SoTA-Echoing and rationale"
-line_start: 44847
-line_end: 44858
+line_start: 44208
+line_end: 44219
 dependencies:
   - "A.17"
   - "A.18"

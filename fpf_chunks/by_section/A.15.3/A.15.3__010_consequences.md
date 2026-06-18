@@ -6,12 +6,12 @@ section_id: "A.15.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__010_consequences.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:9 — Consequences"
-line_start: 21647
-line_end: 21656
+line_start: 21741
+line_end: 21750
 dependencies:
   - "A.10"
   - "A.15.1"

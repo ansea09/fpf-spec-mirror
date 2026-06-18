@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_consequences.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:10 — Consequences"
-line_start: 74437
-line_end: 74455
+line_start: 74090
+line_end: 74108
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -64,7 +67,7 @@ Costs:
 - authors must do kind recovery before naming;
 - some attractive names remain local phrases or aliases;
 - public and cross-context names may require bridge, row, naming, and decision records;
-- a new `U.Type` becomes harder to justify.
+- a new U-kind becomes harder to justify because minting now waits for `E.24.UK` and the relevant admission law rather than naming comfort.
 
-Reopen F.8 when `A.2`, `A.2.1`, `F.4`, `F.5`, `F.6`, `F.7`, `F.9`, `F.18`, `A.6.5`, `E.10`, `E.9`, `A.8`, or policy-id publication discipline changes enough that the decision kinds or boundaries would change.
+Reopen F.8 when `E.24.UK`, `A.2`, `A.2.1`, `F.4`, `F.5`, `F.6`, `F.7`, `F.9`, `F.18`, `A.6.5`, `E.10`, `E.9`, `A.8`, `A.11`, or policy-id publication discipline changes enough that the decision kinds or boundaries would change.
 

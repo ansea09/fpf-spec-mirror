@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.CD.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
-line_start: 71040
-line_end: 71339
+line_start: 70398
+line_end: 70705
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -22,6 +22,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -42,7 +43,7 @@ Use this pattern when a recurring FPF construct is an ontic candidate, but the c
 Typical moments:
 
 - one word such as "process", "source", "quality", "architecture", "problem", "view", "role", "function", "mechanism", or "method" keeps pointing to several FPF values at once;
-- several patterns repeat a similar slot list, field list, boundary formula, or "not proof, not gate, not work" warning;
+- several patterns repeat a similar slot list, field list, boundary formula, or generic semio warning;
 - a project data structure looks concept-shaped, but it may only be a publication form or local record;
 - a draft ToC row or older source label names a family that no current pattern yet governs;
 - a proposed new `U.*` kind feels useful, but it might duplicate existing governing patterns.
@@ -56,6 +57,7 @@ Typical moments:
 **Not this pattern when.**
 
 - If the durable ontic is already selected and its identity and slot relation must be governed, use `E.24`.
+- If the current question is whether a `U.*` spelling in a heading, title, filename, ToC row, table, or source passage should be retained, demoted, or repaired, recover the concern and use `E.24.UK`.
 - If the current problem is only confusion between an ontic, its description, and publication forms, use `E.24.PUB`.
 - If an existing subject pattern already governs the claim, use that pattern directly.
 - If the issue is one wording-use repair, use `E.10`, `E.10.ARCH`, or the relevant precision-restoration pattern.
@@ -103,6 +105,7 @@ OnticCandidateCluster:
   PossibleSlotRelation:
   ExistingGoverningPatterns:
   HiddenFormClassification:
+  UKindPressure:
   FirstUseGain:
   NonUseDisposition:
   NextPattern:
@@ -118,9 +121,10 @@ Read the rows this way:
 - `PossibleSlotRelation` sketches the candidate relation only enough to decide whether E.24 should open.
 - `ExistingGoverningPatterns` lists direct patterns that may already close the case.
 - `HiddenFormClassification` selects one of the dispositions below.
+- `UKindPressure` names any `U.*`, type, kind, subkind, title, filename, heading, ToC row, or structural name whose public shape could over-admit durable FPF kindhood.
 - `FirstUseGain` says what becomes easier, safer, or more action-facing if the candidate becomes an ontic.
 - `NonUseDisposition` blocks the main overread if no durable ontic is selected.
-- `NextPattern` names the next governing pattern: usually `E.24`, `E.24.PUB`, `A.19.ECS`, a direct subject pattern, or `E.10.ARCH`.
+- `NextPattern` names the next governing pattern: usually `E.24`, `E.24.UK`, `E.24.PUB`, `A.19.ECS`, a direct subject pattern, or `E.10.ARCH`.
 
 #### E.24.CD:4.1 - Detection Signals
 
@@ -135,7 +139,8 @@ Useful signals include:
 5. **Weak identity in current text.** The concern is used as if it has identity, but the identity criterion is missing or inconsistent.
 6. **Direct-pattern strain.** Existing governing patterns carry the values, but users still need a stable relation among them.
 7. **Publication-form temptation.** A card, record, table, schema, diagram, view, source row, or data structure is treated as the object because it is visible.
-8. **Dependent-pattern burden.** Nearby patterns need a shared settlement and would otherwise copy the same local ontology.
+8. **U-kind pressure.** A `U.*` spelling, earlier type/kind wording, heading, title, filename, or ToC row appears to claim kindhood before the governed object is recovered.
+9. **Dependent-pattern burden.** Nearby patterns need a shared settlement and would otherwise copy the same local ontology.
 
 If the signals do not cohere around one concern, do not open E.24.CD only to collect them. Use the direct governing pattern, `E.10.ARCH`, `E.24.PUB`, or a local-use disposition.
 
@@ -146,6 +151,7 @@ Classify the detected construct before opening E.24:
 | Classification | Meaning | Next move |
 | --- | --- | --- |
 | Durable ontic candidate | The concern appears to need stable identity, a type-level slot relation, semantic area, ontological neighborhood, and dependent-pattern reliance. | Open `E.24`. |
+| U-kind admission pressure | The remaining question is whether a visible `U.*` spelling or earlier type/kind wording should survive in a structural location or public name. | Recover the concern and typed values, then use `E.24.UK`; candidate detection does not admit the U-kind. |
 | Local use frame | The relation is useful in one bounded use family, but all filled values are already governed elsewhere and no dependent pattern needs a reusable ontic. | Keep local; cite governing patterns for fillers. |
 | Direct governing-pattern use | One existing pattern already carries the claim. | Use that pattern directly. |
 | Publication-form-only case | The visible object is a card, record, table, schema, diagram, view, packet, or source form that publishes or organizes another EoC. | Use `E.24.PUB` or the relevant publication pattern. |
@@ -192,6 +198,7 @@ Example: an "ArchitectureDecisionRecord" may carry an architecture move, selecte
 Stop E.24.CD when one of these dispositions is reached:
 
 - **Open E.24:** durable ontic candidate is selected for a full ontic-introduction decision.
+- **Open E.24.UK:** the concern is recovered and the remaining decision is root or dependent U-kind admission, C.3 typed-reasoning governance, non-U disposition, or structural-name repair.
 - **Use existing pattern:** a direct governing pattern carries the claim.
 - **Keep local:** a bounded local use frame is enough and is explicitly non-`U.*`.
 - **Use publication discipline:** the problem is confusion among the ontic, its description, and publication form.
@@ -218,7 +225,7 @@ E.24.CD asks what is under concern:
 - If the claim is about problematization and problem statement adequacy, use the problematization pattern.
 - If several patterns need a reusable problem ontology with stable identity and slot relation, open E.24.
 
-The stress case prevents a common overread: a record form named "ProblemCard" does not by itself prove that FPF needs a root `U.Problem`.
+The stress case prevents a common overread: a record form named "ProblemCard" does not by itself show that FPF needs a root `U.Problem`.
 
 #### E.24.CD:5.3 - Project Schema With Ontology-Looking Fields
 
@@ -266,8 +273,9 @@ The mitigation is concrete: recover the recognizable concern, typed values, curr
 | `CC-E24CD-2` | Visible source forms are listed as source forms, not treated as the candidate ontic. |
 | `CC-E24CD-3` | Compressed typed values are separated and each is pointed to its current governing pattern when such a pattern exists. |
 | `CC-E24CD-4` | Detection records a sufficiency judgement: several signals cohere around one recognizable concern and possible slot relation; repeated wording or one useful form alone is not enough. |
-| `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
+| `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, U-kind admission pressure, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
 | `CC-E24CD-6` | Durable ontic candidates carry a sufficiency rationale with identity hint, possible slot relation, semantic area, ontological neighborhood, dependent-pattern need, duplicate-ontology risk, first-use gain, and non-use boundary. |
+| `CC-E24CD-6a` | `U.*`, type, kind, subkind, title, filename, heading, and ToC pressure is sent to `E.24.UK` after concern recovery; detection alone does not admit a durable U-kind. |
 | `CC-E24CD-7` | Local use frames are explicitly non-`U.*` and do not become registries, evidence records, gate records, methods, mechanisms, work plans, or work occurrences. |
 | `CC-E24CD-8` | When publication-form confusion is current, apply `E.24.PUB` rather than solving the confusion by declaring the form to be the ontic. |
 | `CC-E24CD-9` | When contested comparison of architecture alternatives is current, apply `A.19.ECS` rather than building the comparison into E.24.CD. |
@@ -278,11 +286,12 @@ The mitigation is concrete: recover the recognizable concern, typed values, curr
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Card-to-kind jump | A useful card is promoted into a `U.*` kind because it has repeated fields. | Recover the EoC and typed values; use `E.24.PUB` for publication form. |
+| Structural U-kind jump | A heading, title, filename, or ToC row keeps `U.*` because it is convenient for search. | Recover the governed object and use `E.24.UK`; repair the structural name when the primary EoC is not that U-kind. |
 | Table ontology by appearance | A table or schema field list is treated as a slot relation. | Ask whether the fields are publication columns, local record fields, or type-level slots with claim-impact. |
 | One-word candidate | A broad word is renamed and treated as settled. | Use `E.10.ARCH` and E.24.CD together: recover typed values and slot relation before naming. |
 | Registry trap | The author keeps a growing list of possible ontics without disposition. | Stop at one of the E.24.CD classifications and move to the next governing pattern. |
 | Scoring before identity | A score form compares alternatives before the candidate EoC and slot relation are clear. | First write the sufficiency rationale; use `A.19.ECS` only when evaluation construction is actually current. |
-| Negative-catalogue repair | The text says "not proof, not gate, not evidence..." instead of naming positive values and boundaries. | Name the positive EoC, typed values, and governing patterns; keep the blocked overread to one row. |
+| Negative-catalogue repair | The text lists neighboring EoCs only as things the candidate is not instead of naming positive values and boundaries. | Name the positive EoC, typed values, and governing patterns; keep the blocked overread to one row. |
 
 ### E.24.CD:9 - Consequences
 
@@ -312,16 +321,16 @@ This also preserves the distinction among EoC, description, and publication. A c
 | Source family | Current lesson for E.24.CD | FPF decision |
 | --- | --- | --- |
 | Shimizu and Hitzler 2024, and Eells, Dave, Hitzler, and Shimizu 2024. | Current modular-ontology and micropattern support: useful ontology units are understandable, extensible, aligned, reusable, and small enough to be assembled. | Detect coherent ontology modules, repeated relation shape, slot-relation density, and dependent-pattern copying; do not treat word frequency, common nouns, or every record field as an ontic decision. |
-| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ontology ODP extraction support: process-like and workflow-like forms can hide implicit design patterns that need explicit publication for domain experts. | Inspect process-like, record-like, card-like, and field-list forms for hidden slot relations; do not reopen the transformation-flow settlement and do not import imperative route metaphors. |
+| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ontology ODP extraction support: process-like and workflow-like forms can hide implicit design patterns that need explicit publication for domain experts. | Inspect process-like, record-like, card-like, and field-list forms for hidden slot relations; do not reopen the transformation-flow settlement and do not import imperative motion metaphors. |
 | Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG support: schemas, documentation, relations, domain ontologies, extraction, hierarchy structuring, provenance, and validation can expose ontology candidates while also producing overreads. | Treat project databases, tables, schemas, and enterprise data models as ontology-signal sources requiring bounded scope, semantic alignment, slot-relation discipline, expert validation, and a blocked-overread row. |
 | CYC microtheory line. | Lineage-only caution: context-bounded knowledge modules are a useful analogy for contradiction locality and scope-bounded ontology fragments. | Do not cite CYC as current decisive support for FPF ontic design and do not import CYC architecture as FPF law. |
-| OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: these lines carry ontology descriptions, vocabulary links, queries, and serialization forms. | Use them as expression and publication caution only; they do not substitute for `U.Ontic`, do not prove that labels are ontology, and do not answer FPF ontic modularization by themselves. |
+| OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: these lines carry ontology descriptions, vocabulary links, queries, and serialization forms. | Use them as expression and publication caution only; they do not substitute for `U.Ontic`, do not show that labels are ontology, and do not answer FPF ontic modularization by themselves. |
 
 Smallest source-currentness reopen trigger: reopen this SoTA slice when a newer ontology-engineering or data-model-to-ontology source changes the selected detection criteria for coherent modules, hidden slot relations, bounded scope, validation, or source-form overread; do not reopen it merely because a new vocabulary, serialization, or KG tooling paper appears.
 
 ### E.24.CD:12 - Relations
 
-- **Builds on:** `E.24`, `A.6.5`, `C.2.1`, `E.10`, `E.10.ARCH`, `F.18`, `F.19`, and `A.19.ECS`.
+- **Builds on:** `E.24`, `E.24.UK`, `A.6.5`, `C.2.1`, `E.10`, `E.10.ARCH`, `F.18`, `F.19`, and `A.19.ECS`.
 - **Coordinates with:** `E.24.PUB` for ontic-description and publication-form boundary, `A.19` for `U.CharacteristicSpace`, `A.19.ECS` for evaluation-characteristic construction, and the governing subject patterns for values recovered in the candidate cluster.
 - **Used by:** DRRs and authoring passes that need to decide whether a recurring construct should become a durable ontic, remain a local use frame, use existing governing patterns, or stay as quote-only or reduced-use source wording.
 

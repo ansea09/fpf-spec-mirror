@@ -6,12 +6,12 @@ section_id: "E.24.PUB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__004_problem.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:2 — Problem"
-line_start: 71384
-line_end: 71393
+line_start: 70751
+line_end: 70760
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -26,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"
@@ -40,5 +41,5 @@ Without this discipline:
 2. **Subject patterns become semio-heavy.** A pattern about a subject begins with long warnings about what descriptions are not, while identity, slots, invariants, and first-use moves come late.
 3. **Descriptions become authority by appearance.** A source row, standard, table, or pattern section is treated as governing because it looks formal.
 4. **Publication variants become duplicate ontology.** Several views or forms of one ontic description are treated as several different ontics.
-5. **Generic semio guards repeat everywhere.** Each subject pattern copies the same "not proof, not decision, not permission" catalogue instead of using the governing semio patterns.
+5. **Generic semio guards repeat everywhere.** Each subject pattern copies the same catalogue of blocked neighboring EoCs instead of using the governing semio patterns.
 

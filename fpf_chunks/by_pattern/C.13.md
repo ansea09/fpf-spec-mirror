@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.13.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
-line_start: 41547
-line_end: 41741
+line_start: 40870
+line_end: 41075
 dependencies:
   - "A.14"
   - "B.3.5"
@@ -25,6 +25,17 @@ keywords:
 ---
 
 ## C.13 — Constructional Mereology (Compose‑CAL)
+> **Status:** Stable
+
+**At a glance.** Use C.13 when a structural identity claim needs a constructive trace showing how a whole, collection-as-whole, or aspect is obtained from parts.
+
+**Use this when.** Use this pattern when `sum`, `set`, or `slice` construction can witness the structural claim that a Working-Model relation will publish through A.14/B.3.5.
+
+**What goes wrong if missed.** Structural relation names become declarations without constructive identity: a component, member, or aspect edge may be readable but not reconstructible when challenged.
+
+**What this buys.** A compact constructive trace discipline, `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice`, that grounds structural claims while leaving public relation names to the Working-Model layer.
+
+**Not this pattern when.** Not this pattern when the claim is epistemic representation, evidence, assurance without structural composition, a method or work occurrence, temporal phase without a structural slice claim, or a U-kind admission decision outside structural grounding.
 
 ### C.13:1 - Intent
 
@@ -40,7 +51,7 @@ Compose‑CAL introduces a **single construction operator Γₘ** with exactly t
 
 ### C.13:2 - Problem frame & Problem
 
-FPF presents a unified structural backbone used across disciplines. Historically, sub‑relations like *ComponentOf* or *MemberOf* were **declared** directly. This maximised usability but provided no generative guarantee that a new subtype was extensionally well‑behaved or reducible to common mereology.
+FPF presents a unified structural backbone used across disciplines. If sub-relations like *ComponentOf* or *MemberOf* are only **declared** directly, they may stay usable but lack a generative guarantee that a new subtype is extensionally well-behaved or reducible to common mereology.
 
 Declared lists of part‑of sub‑relations **scale poorly** and **lack identity guarantees**. Engineers ask for a *single dial* (“is x part of y?”), while ontologists need a principled foundation that (a) avoids Kernel bloat and (b) proves that wholes are nothing over and above their parts. Adding yet another bespoke relation (e.g., *PortionOf*) should not entail schema surgery or ad‑hoc rules.
 
@@ -49,8 +60,8 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 * **Parsimony (C‑5).** Add no core types if composition suffices; keep the constructor set minimal.
 * **Minimal Kernel (P‑1).** Generativity must live in a calculus pattern, not in Kernel axioms and postulates.
 * **Cognitive asymmetry.** Everyday users want “one part‑of query”; specialists accept complexity backstage.
-* **Trans‑disciplinary unification.** Every pattern that needs mereology should reuse one *generative* basis.
-* **Green‑field strictness.** With no legacy to break, we can require grounding for new structural edges.
+* **Trans-disciplinary unification.** Every pattern that needs mereology should reuse one *generative* calculus.
+* **Constructive strictness.** New structural edges can require grounding because the constructive trace is part of the structural claim, not an after-the-fact decoration.
 
 ### C.13:4 - Solution
 
@@ -106,7 +117,7 @@ Use Compose-CAL whenever a claim concerns **structural containment** of entities
 Narrate a *sum* of parts: “Skid = sum{Pump, Motor, Baseframe, Manifold}.” This uses **`Γ_m.sum`** to obtain a whole whose parts stand in **KernelPartOf**; the resulting Working‑Model relation engineers publish is **`ut:ComponentOf`** on each edge from part to whole. The mapping “*sum → ComponentOf*” reflects the intended aliasing between constructive traces and human‑facing mereology.
 
 **Facets and collections.**
-Need the **inspection surface**? Narrate **`Γₘ.slice(Skid, "spatial")`** and publish **`ut:AspectOf`**. Need a group of **Transfer interactions**? Narrate **`Γₘ.set{…}`** and publish **`ut:MemberOf`**—this is a **collection-as-whole**, not a sub‑assembly; no component identity is implied without a separate **`Γₘ.sum`** narrative.
+Need the **inspection aspect**? Narrate **`Γₘ.slice(Skid, "spatial")`** and publish **`ut:AspectOf`**. Need a group of **Transfer interactions**? Narrate **`Γₘ.set{…}`** and publish **`ut:MemberOf`**—this is a **collection-as-whole**, not a sub-assembly; no component identity is implied without a separate **`Γₘ.sum`** narrative.
 
 **Plane separation.**
 Assembly **order** and **time** are *not* encoded here: parallel lines and schedules live in method/time families and are described adjacent to, not inside, the part‑tree.
@@ -120,7 +131,7 @@ Here the Working‑Model relation (e.g., **RepresentationOf**) is **epistemic**.
 
 #### C.13:5.3 - Scope justification
 
-* **Universality.** The trio **sum / set / slice** appears across mechanical assemblies, biological complexes, and organizational artifacts; aliasing to **ComponentOf / MemberOf / AspectOf** provides a stable Working‑Model surface for those domains.
+* **Universality.** The trio **sum / set / slice** appears across mechanical assemblies, biological complexes, and organizational artifacts; aliasing to **ComponentOf / MemberOf / AspectOf** provides a stable Working-Model relation layer for those domains.
 * **Parsimony.** No “parallel” or “temporal slice” constructor is added; time slices belong in the temporal calculus, and parallelism is modelled as a **set** plus method metadata.
 
 ### C.13:6 - Bias‑Annotation *(cognitive anti‑patterns and counter‑moves)*
@@ -129,7 +140,7 @@ Here the Working‑Model relation (e.g., **RepresentationOf**) is **epistemic**.
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | **Constructor‑centrism**          | Treating the trace as “the real thing” and the Working‑Model edge (e.g., **ComponentOf**) as merely decorative. | Re‑affirm **Working‑Model first** (publish in `ut:*Of`), then attach constructive narratives only when assurance demands it. | B.3.5 (Working‑Model relations & grounding) |
 | **Collection ↔ Composition swap** | Using **MemberOf** to stand in for **PartOf**, then inferring structural identity.                              | Keep **set** outputs as *collections*; use **sum** for wholes with extensional identity.                                     | A.14 (Advanced Mereology)                   |
-| **Temporal leakage**              | Smuggling sequence/phase into part‑trees.                                                                       | Route order/time to their planes; **no** “temporal slice” constructor in Compose‑CAL.                                        | B.1.\* (Γ\_method and Γ\_time)                |
+| **Temporal leakage**              | Smuggling sequence/phase into part‑trees.                                                                       | Assign order/time to their governing planes; **no** “temporal slice” constructor in Compose‑CAL.                                        | B.1.\* (Γ\_method and Γ\_time)                |
 | **Over‑slicing**                  | Multiplying aspects until identity becomes opaque.                                                              | Declare the **facet** explicitly; stop when aspects no longer aid recognition of the same whole.                             | A.14 (Aspect/Phase distinction)             |
 | **Feature creep**                 | Proposing a new constructor for a special case.                                                                 | Reduce to **sum / set / slice**; if reduction fails across ≥ 3 domains, reconsider the modelling plane before adding power.  | C‑5 (Parsimony)                             |
 | **Axiomatic inflation**           | Demanding constructive traces for epistemic links by default.                                                   | Use *inferential* / *postulate* where appropriate; reserve *axiomatic* for structural identity.                              | B.3.5 (validation modes)                    |
@@ -146,11 +157,11 @@ The following regulate **how to think and write** when invoking Compose‑CAL. T
 | **CC‑C13‑4 (No order/time in mereology).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage via constructors; such concerns belong to method/time planes and are stated adjacent to structure.             | Maintain the plane firewall.                                            |
 | **CC‑C13‑5 (Narratability).**              | Each constructive trace **SHALL** be narratable in plain language **without introducing new primitives**.                                                                                      | Enforce human‑first clarity; uphold C‑5.                                |
 | **CC‑C13‑6 (Alias alignment).**            | When Publishing Working‑Model relations for structural content, authors **SHOULD** align “sum→ComponentOf”, “set→MemberOf (or pattern‑specific)”, “slice→AspectOf” in their explanatory prose. | Keep alias semantics stable across Contexts.                               |
-| **CC-C13-7 (CT2R-LOG handshake).**     | For every **structural** edge on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and point **`tv:groundedBy`** to exactly **one** Γₘ trace (`sum|set|slice`). *Legacy “Tier-1” wording deprecated; express formality via **F** per C.2.3.* | Clean bridge to the Working-Model alias layer; decouples relation kind from legacy “tiers”. |
+| **CC-C13-7 (CT2R-LOG handshake).**     | For every **structural** edge on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and point **`tv:groundedBy`** to exactly **one** Γₘ trace (`sum|set|slice`). Express formality via **F** per C.2.3. | Clean bridge to the Working-Model alias layer; decouples relation kind from formality scoring. |
 | **CC‑C13‑8 (Member ≠ Component).**         | A **set** output remains a *collection*; authors **SHALL NOT** infer **ComponentOf** from **MemberOf**. When an integrated assembly is intended, provide a separate **`Γ_m.sum`** narrative.   | Prevent membership→component conflation.                                 |
 | **CC‑C13‑9 (Facet explicitness).**         | **Slice** narratives **SHALL** name the **facet** used; temporal facets are excluded (handled elsewhere).                                                                                      | Keep aspects precise and non‑temporal.                                  |
 | **CC‑C13‑10 (No roles in mereology).** | Do not apply Γₘ to `U.Role`, `U.Method`, or `U.Work`; these are outside mereology (A.12/A.15). | Preserve the plane firewall. |
-| **CC‑C13‑11 (Member non‑transitive).** | When publishing `MemberOf`, do not rely on transitive closure across collection‑of‑collections; surface semantics remain non‑transitive per A.14. | Prevent Member→Component drift. |
+| **CC-C13-11 (Member non-transitive).** | When publishing `MemberOf`, do not rely on transitive closure across collection-of-collections; published relation semantics remain non-transitive per A.14. | Prevent Member→Component drift. |
 
 > **Author’s note.** Compose‑CAL is a calculus for **constructive** reasoning about structure. Publishing remains in the **Working‑Model** layer (see B.3.5); constructive narratives are attached when the team seeks an assurance record with additional constructive evidence, never as a substitute for clear human‑facing relations.
 
@@ -171,7 +182,7 @@ The following regulate **how to think and write** when invoking Compose‑CAL. T
 * **Over‑use risk.** Temptation to treat collections as integrated assemblies. *Mitigation:* keep **MemberOf** distinct from **ComponentOf**; both `set` and `sum` yield wholes, but only **`sum`** establishes **component** structure and assembly identity.
 * **Temporal leakage risk.** Authors may try to smuggle time into structure via “temporal slices.” *Mitigation:* use `Γ_time` for temporal statements and `slice` only for intensional aspects, not for time windows.
 
-> **One‑line takeaway.** Compose‑CAL gives a minimal, universal *how‑it‑was‑built* story for any structural edge, without disturbing the human‑first publication surface defined in B.3.5.
+> **One-line takeaway.** Compose-CAL gives a minimal, universal *how-it-was-built* story for any structural edge, without disturbing the human-first relation layer defined in B.3.5.
 
 ### C.13:9 - Rationale (informative)
 
@@ -186,7 +197,7 @@ All three moves create new entities; **sum** is the only move that establishes *
 
 This separation mirrors long‑standing distinctions between composition, collection, and aspect, while enforcing **parsimony**: no additional constructors are introduced into the Kernel (C‑5). The calculus remains **notation‑agnostic**: its meanings are given in prose and mathematics; any diagrams are illustrative only, in line with the Notational‑Independence guard‑rail (E.5).
 
-**Why constructive grounding lives outside the publication surface.**
+**Why constructive grounding lives outside the public relation layer.**
 FPF privileges **Working‑Model** relations as the canonical form for communication and design. Compose‑CAL supplies the **constructive shoulder** of the **Assurance Layer**: when authors choose `validationMode = axiomatic`, they narrate the whole as a `sum` of parts (with optional `set` and `slice` scaffolding) and point to that narrative via `tv:groundedBy`. This keeps the text readable while preserving a path to an assurance record with additional constructive evidence (B.3 family, Authoring Template).
 
 **Why order/time are out of scope.**
@@ -202,7 +213,7 @@ Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**
 * **E.8 Authoring Conventions.** Conforms to the canonical pattern template (Grounding section for architectural patterns; CC placement).
 
 **Coordinates with**
-* **B.3.5 CT2R‑LOG.** `tv:groundedBy` refers (conceptually) to Compose‑CAL traces when `validationMode = axiomatic`; **Working‑Model** relations remain the publication interface.
+* **B.3.5 CT2R-LOG.** `tv:groundedBy` refers (conceptually) to Compose-CAL traces when `validationMode = axiomatic`; **Working-Model** relations remain the public relation layer.
 * **B.1 flavours.** Keeps order (`Γ_method`) and time (`Γ_time`) outside structure; may co‑appear in narratives when relevant but never as constructors.
 * **Kind-CAL / Lang‑CHR.** Provide the Mapping shoulder of assurance (labels, type alignment) that complements constructive narratives in this pattern.
 * **KD‑CAL.** Provides the Logical shoulder when authors justify relations inferentially instead of constructively.
@@ -214,8 +225,8 @@ Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**
 * Introducing new structural constructors requires a separate parsimony argument and is discouraged unless the triad cannot narrate the case without ambiguity.
 
 **Provides**
-* A minimal generative basis (`Γ_m.sum | Γ_m.set | Γ_m.slice`) and the corresponding reading discipline for constructive narratives.
-* A stable interface with CT2R‑LOG for `tv:groundedBy` links under `validationMode = axiomatic`.
+* A minimal generative calculus (`Γ_m.sum | Γ_m.set | Γ_m.slice`) and the corresponding reading discipline for constructive narratives.
+* A stable CT2R-LOG relation for `tv:groundedBy` links under `validationMode = axiomatic`.
 
 ### C.13:End
 

@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define U.EffectFreeEpistemicMorphing once"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-u-effectfreeepistemicmorphing-once.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:4 — Solution — define U.EffectFreeEpistemicMorphing once"
-line_start: 10478
-line_end: 10662
+line_start: 10562
+line_end: 10746
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -60,30 +60,30 @@ As a `U.Signature`, EFEM publishes the following **SubjectBlock** and the standa
 ```
 SubjectBlock
   SubjectKind   = U.EffectFreeEpistemicMorphing
-  BaseType      = ⟨X : U.Episteme, Y : U.Episteme⟩        // episteme pair (domain,codomain)
-  Quantification= SliceSet:=U.ContextSliceSet;
+  RangedValueKind = ⟨X : U.Episteme, Y : U.Episteme⟩        // episteme pair (domain,codomain)
+  Quantification= SliceSet:=ContextSliceSet;
   ExtentRule:=admissibleEpistemeMorphisms // Context slices & admissible EFEM per slice
-  ResultKind?   = U.Morphism                               // typed morphism f : X→Y
+  ResultKind?   = EpMorphism                               // local typed arrow f : X->Y in the Ep category
 ```
 
-This says: EFEM is “about” **morphisms between epistemes**, indexed by Context slices; its results are morphisms of a declared type `U.Morphism` in the `Ep` category.
+This says: EFEM is “about” **morphisms between epistemes**, indexed by Context slices; its results are local `EpMorphism` arrow values in the `Ep` category.
 
 **Vocabulary (core operators & kinds)**
 
 * **Types**
   * `U.Episteme` (as holon; realised via species `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` under C.2.1).
   * `U.EpistemeKind` (episteme n‑ary relation signature; slots per A.6.5 / C.2.1).
-  * `U.SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
-  * `U.Morphism` (arrow in `Ep`).
+  * `SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
+  * `EpMorphism` (local arrow value in `Ep`, governed by this morphism pattern and C.29 when the mathematical lens is current).
   * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new Kernel type for “EntityOfConcern”).
 
 * **Operators (arrow algebra)**
 
-  * `id_X : U.Morphism(X→X)` for any episteme `X`.
-  * `compose(g,f) : U.Morphism(X→Z)` where `f : X→Y`, `g : Y→Z`.
+  * `id_X : EpMorphism(X->X)` for any episteme `X`.
+  * `compose(g,f) : EpMorphism(X->Z)` where `f : X->Y`, `g : Y->Z`.
   * `apply(f, x:U.Episteme) : U.Episteme`.
   * `dom(f), cod(f) : U.Episteme`.
-  * `subjectRef(E) : U.SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
+  * `subjectRef(E) : SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
   * `entityOfConcernChangeMode(f) : U.EntityOfConcernChangeMode`  // EFEM‑level characteristic from C.2.1.
 
 Each operator that takes epistemes as arguments obeys **SlotSpec discipline** from A.6.5: in particular, laws below are phrased in terms of the **named SlotKinds** (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, `ViewSlot`, and—when the C.2.1+ extension is used—`RepresentationSchemeSlot`) and their associated ValueKind/RefKind; we never speak of “field 1/2/3”.
@@ -123,8 +123,8 @@ For any EFEM morphism `f : X→Y`:
 EFEM morphisms are **pure functions on epistemes**:
 * Applying `f : X→Y` **does not**:
   * change any `U.System` or `U.Holon` state;
-  * execute Work (`U.WorkEnactment`) or run a `U.Mechanism` (A.6.1) with operational guards;
-  * mutate `U.PresentationCarrier` (files, databases, message buses, IDEs).
+  * perform `U.Work` or run a `U.Mechanism` (A.6.1) with operational guards;
+  * create, update, or mutate a presentation carrier, publication carrier, file, database, message bus, or IDE artifact.
 * The **only** state change introduced by EFEM is the replacement of input epistemes by output epistemes according to `apply(f, X) = Y`, with all component changes governed by P2–P5.
 
 Any operation that requires **measurements, simulations, solver calls, or tool use with external side-effects** is modelled as a `U.Mechanism`/`U.Work` that **produces new epistemes**, which may then be related by EFEM morphisms.

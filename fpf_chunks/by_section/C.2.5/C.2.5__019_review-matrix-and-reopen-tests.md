@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 37645
-line_end: 37664
+line_start: 37775
+line_end: 37794
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,7 +43,7 @@ A reviewer should ask:
 - whether the publication distinguishes local closure from whole-context finality.
 
 #### C.2.5:18.2 - False-finality test
-Words such as "final", "settled", or "decided" should be challenged unless the route/guard package is explicit. Final-sounding rhetoric often overstates actual closure.
+Words such as "final", "settled", or "decided" should be challenged unless the route-governance and guard package is explicit. Final-sounding rhetoric often overstates actual closure.
 
 #### C.2.5:18.3 - Cross-facet reminder
 Low `CD` does not imply low articulation, low anchoring, or poor representation. Reviewers should not treat openness as low seriousness.

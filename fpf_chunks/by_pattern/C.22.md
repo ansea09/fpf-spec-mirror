@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-line_start: 44887
-line_end: 45101
+line_start: 44248
+line_end: 44465
 dependencies:
   - "C.16"
   - "C.18"
@@ -32,8 +32,11 @@ keywords:
 ---
 
 ## C.22 - Problem Typing & TaskSignature Assignment (Problem-CHR)
+> **Status:** Stable
 
 **Purpose.** Give FPF an **admissible, minimal, and portable** way to type a problem for downstream selector-facing use after the problem-side representation is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2`-selector-facing use carries the first problem-framing record for a messy signal; `C.22`-selector-facing use attaches the stabilized problem to CHR-grounded traits and a minimal `TaskSignature (S2)` record for downstream selector-facing use. The `TaskSignature` attachment is **Context-local**, evidence-relation-traceable, tri-state-aware, and bridge-visible. TaskSignature is *minimal* but sufficient for **eligibility**, **acceptance**, and **policy-governed** choice.
+
+**Body-level U-kind settlement.** `TaskSignature` is a context-bound typed attachment record governed by this pattern, not a durable root U-kind. `ProblemCard@Context` is the C.22.2 problem-side record used before selector-facing binding, not an ontic-context suffix and not a separate root kind. `KindSet` contains C.3 `U.Kind` values for selected entities. `DescriptorMap`, telemetry hooks, policy ids, and selector input/output fields are local record fields unless a direct governing pattern admits them. `PathSliceId` is an E.18 path-slice reference only when a transformation-flow path slice is current; otherwise it is a telemetry field id with no path ontology.
 
 **Status & placement.** Part C (Kernel Extensions Specifications) → Cluster C.I (Core CHRs/CALs).
 **Depends on:** **C.16 MM‑CHR** (measurement admissibility), **G.5** (selector S2/S3), **G.0** (CG‑Spec invariants).
@@ -53,7 +56,7 @@ Operationalise No-Free-Lunch discipline in selection by making every run-time de
   - the work-measure threshold target used in specialization claims is only the declared success mark for the current task family or work target
 #### C.22:1.2 - ProblemCard@Context relation
 
-`ProblemCard@Context` is the `C.22.2`-problem-side record-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
+`ProblemCard@Context` is the `C.22.2` problem-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
 
 A `ProblemCard@Context` record can be used to prepare `ProblemProfile`, `TaskKind`, or candidate `TaskSignature` material for later use. Binding to one `TaskSignature` is admissible only when the downstream selector-facing object is ready. If several downstream signatures remain plausible, keep them as candidate signatures rather than binding one chosen `TaskSignature`.
 
@@ -100,7 +103,7 @@ Without typed descriptors, **Eligibility and Acceptance** degenerate into prose;
 * `Size/Scale` — size and condition proxies (**n, m, κ, sparsity**) with **declared units**; unit mismatch ⇒ {sandbox|refuse}.
 * **`Freshness`** — validity window for descriptors.
 * `Missingness` — **MCAR, MAR, or MNAR** (or mapped equivalents) per **CHR.Missingness**; MUST be honoured by Acceptance and Flows.
-* `KindSet` — **`U.Kind[]`** for the selected entities addressed by the TaskKind; separates **EntityOfConcern kind** from **Scope (USM)**.
+* `KindSet` — selected C.3 `U.Kind` values for the entities addressed by the TaskKind; separates **EntityOfConcern kind** from **Scope (USM)**.
 
 **QD and Illumination extensions (normative; ties to C.18 and C.19).**
 
@@ -114,14 +117,14 @@ Use this extension block only when QD, illumination archive, set-return, or OEE 
 * **`IlluminationMap`** *(parity‑run)* — required **IlluminationMap publication** (grid, CVT, or graph per `ArchiveConfig`) recording coverage per niche or cell with `DescriptorMapRef` and `DistanceDefRef.edition`. **Leaderboards as single‑score lists are forbidden**; comparisons **MUST** be under CG‑frames.
 * **`PortfolioMode`** — `{Pareto | Archive}`. **Default = `Archive`**: selectors preserve retained archive evidence (QD archives) rather than a single “best” set; ε‑fronts remain admissible for local decisions under CG‑Spec.
 * **`Budgeting`** — evaluation, time, and batch **budgets**, including **E/E‑LOG exploration budget** id; units declared (CG‑Spec).
-* **`TelemetryHooks`** — **PathSliceId**, **decay and refresh policy ids**, and **edition counters** to record **U.DescriptorMap** and **policy‑id** updates upon illumination gains.
+* **`TelemetryHooks`** — `PathSliceId` only when an E.18 path-slice reference is current, plus **decay and refresh policy ids**, **edition counters**, descriptor-map updates, and **policy-id** updates upon illumination gains.
 * **`GeneratorIntent`** (OEE) — optional intent to use a registered **`GeneratorFamily`** (G.5), with pointers to **`EnvironmentValidityRegion`**, **`TransferRulesRef`**, and **coverage and regret** reporting expectations.
 
 **Admissibility.** Before any numeric comparison or aggregation, **prove CSLC admissibility** (Scale, Unit, Polarity) and **cite CG‑Spec.Characteristics**; record **ReferencePlane**. **Unknowns** propagate as {degrade|abstain|sandbox}; **no `unknown→0/false` coercions**.
 
 #### C.22:5.2 - TaskSignature (S2) — attachment definition (design‑time + run‑time).
 A TaskSignature is the minimal typed record consumed by selector-facing use:
-`⟨Context, TaskKind, TaskFamilyRef?, KindSet:U.Kind[], DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?⟩`
+`<Context, TaskKind, TaskFamilyRef?, KindSet:C3KindValueSet, DataShape, NoiseModel, ObjectiveProfile, Constraints{incl. Resource/Risk Envelopes}, ScopeSlice(G), EvidenceGraphRef, Size/Scale, Freshness, Missingness, ShiftClass?, BehaviorSpaceRef?, ArchiveConfig?, EmitterPolicyRef?, DominanceRegime?, PortfolioMode?, Budgeting?, TelemetryHooks?, GeneratorIntent?>`
 
 **Minimality rule.** S2 carries only fields required for **Eligibility→Acceptance→admissible selection**; any additional traits derived at design‑time are recorded as provenance (UTS) but **do not expand S2**.
 
@@ -178,7 +181,7 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 
 ### C.22:7 - Bias‑Annotation (LEX/discipline guards)
 
-* **No minted `U.Type` “Strategy”.** Strategy and policy remain roles inside `G.5`; keep “strategy” as Plain-register wording where it helps recognition, but do not introduce a new `U.Type` or strategy head.
+* **No minted durable `Strategy` kind.** Strategy and policy remain roles inside `G.5`; keep “strategy” as Plain-register wording where it helps recognition, but do not introduce a new durable U-kind or strategy head.
 * **Transdiscipline vs domain.** Comparability flows through **`U.Discipline` CG‑Spec**; “Domain” is a catalog mark stitched to D.CTX + UTS; do **not** attach norms to Domain labels.
 * **Plain twins and head selection.** Use Description and Spec morphology correctly (I, D, S; E.10.D2).
 
@@ -217,10 +220,10 @@ If the problem requires **open‑ended generation** of tasks or environments, S2
 
 19. **Specialization claims referenced.** Any declared specialization on this TaskSignature **SHALL** name the task family/work target, named work-measure threshold target, adaptation budget, freshness or provenance basis for reuse, and enough attachment detail for the same claim to remain admissible in `C.22.1`, `G.5`, and `G.9` use.
 
-### C.22:10 - Interfaces & Data Paths
+### C.22:10 - Selector Fields And Evidence Relations
 
 *Inputs.* `ProblemProfile` (...Description), CG-Spec ids, Evidence Graph Ref (A.10), D.CTX; CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef configs when QD is live; GeneratorIntent when OEE is live.
-*Produces.* `TaskSignature` under a declared `Context` field (S2) with provenance; **SCR-visible** fields; UTS Name Cards for any minted traits; archive, `PortfolioMode` semantics, and telemetry hooks declared when QD is live. Do not introduce `TaskSignature@Context` as a separate kind.
+*Produces.* `TaskSignature` under a declared `Context` field (S2) with provenance; **SCR-visible** fields; UTS Name Cards for any minted traits; archive, `PortfolioMode` semantics, and telemetry hooks declared when QD is current. Do not introduce `TaskSignature@Context` as a separate kind.
 *Used by.* **G.5** (Eligibility and Selection kernel), **G.4** (Acceptance and Evidence), **C.23** (admit, degrade, and abstain rules and method-family maturity checks).
 
 ### C.22:11 - Consequences (informative)

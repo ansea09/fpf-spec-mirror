@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.PUB.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
-line_start: 71340
-line_end: 71583
+line_start: 70706
+line_end: 70953
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -25,6 +25,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"
@@ -45,7 +46,7 @@ Typical moments:
 
 - a pattern file is treated as if it were the ontic rather than a publication of an ontic-description episteme;
 - a card, record, table, schema, diagram, or view is cited as if its form created the governed object;
-- an ontic description starts to grow generic warnings about proof, promise, authority, permission, gate, source, evidence, decision, or work instead of staying centered on the ontic;
+- an ontic description starts to grow generic warnings about neighboring EoCs instead of staying centered on the ontic;
 - a subject pattern about architecture, structure, characteristic space, transformation, episteme, or bounded context begins with publication-use guards while the subject matter becomes background;
 - a source packet or review packet is used as if it carried ontology authority by appearance.
 
@@ -58,8 +59,9 @@ Typical moments:
 **Not this pattern when.**
 
 - If the current question is whether a construct deserves a durable ontic, use `E.24.CD` and then `E.24`.
+- If the current question is whether a `U.*` spelling in a title, filename, heading, ToC row, table, or visible publication structure should be retained, governed by C.3 typed reasoning, or renamed, use `E.24.UK`.
 - If the current question is generic multi-view publication or viewpoint packaging, use `E.17` and its dependent patterns.
-- If the current question is wording-use repair, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
+- If the current question is phrase-level precision restoration, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
 - If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary among the ontic, its ontic-description episteme, the publication, and the publication form.
 
 ### E.24.PUB:1 - Problem Frame
@@ -73,7 +75,7 @@ Those objects have different kinds:
 - the publication is the made-available expression of that episteme;
 - the publication form is the format, layout, or medium shape used by that publication.
 
-E.24.PUB governs this distinction for ontic descriptions. It does not replace `C.2.1` for epistemes, `E.17` for multi-view publication, `E.8` for pattern form, or `E.10` for wording-use repair.
+E.24.PUB governs this distinction for ontic descriptions. It does not replace `C.2.1` for epistemes, `E.17` for multi-view publication, `E.8` for pattern form, or `E.10` for phrase-level precision restoration.
 
 ### E.24.PUB:2 - Problem
 
@@ -83,7 +85,7 @@ Without this discipline:
 2. **Subject patterns become semio-heavy.** A pattern about a subject begins with long warnings about what descriptions are not, while identity, slots, invariants, and first-use moves come late.
 3. **Descriptions become authority by appearance.** A source row, standard, table, or pattern section is treated as governing because it looks formal.
 4. **Publication variants become duplicate ontology.** Several views or forms of one ontic description are treated as several different ontics.
-5. **Generic semio guards repeat everywhere.** Each subject pattern copies the same "not proof, not decision, not permission" catalogue instead of using the governing semio patterns.
+5. **Generic semio guards repeat everywhere.** Each subject pattern copies the same catalogue of blocked neighboring EoCs instead of using the governing semio patterns.
 
 ### E.24.PUB:3 - Forces
 
@@ -106,6 +108,7 @@ Ontic-description publication relation positions:
   DescriptionClaims:
   Publication:
   PublicationForm:
+  StructuralNamePressure:
   GovernedUse:
   BlockedOverread:
   NeighboringPatternIfCurrent:
@@ -118,6 +121,7 @@ Read the field set this way:
 - `DescriptionClaims` are the specific claims about identity, slots, admissible values, dependent patterns, invariants, examples, and use boundary.
 - `Publication` is the made-available expression of that episteme.
 - `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another publication form.
+- `StructuralNamePressure` names any `U.*`, type or kind wording, title, filename, heading, ToC row, table column, or record field whose visible publication position could over-admit kindhood.
 - `GovernedUse` says what a user may do with the publication in the current pattern.
 - `BlockedOverread` blocks the main confusion without listing every generic semio boundary.
 - `NeighboringPatternIfCurrent` names the governing neighboring pattern when the current claim belongs elsewhere.
@@ -133,7 +137,7 @@ Use it for [governed use].
 Use [neighboring pattern] when the current claim is about [neighboring EoC].
 ```
 
-Do not expand that local formula into a general catalogue of all things a description is not. If proof, permission, gate, source, evidence, authority-bearing record, decision, or work is current, name the governing neighboring pattern and apply it for that neighboring EoC or claim.
+Do not expand that local formula into a general catalogue of all things a description is not. If a neighboring EoC or claim is current, name the governing neighboring pattern and apply it for that EoC or claim.
 
 #### E.24.PUB:4.2 - Description Claims Stay About the Ontic
 
@@ -158,6 +162,7 @@ Use this test:
 2. If changing a description claim changes what the ontic is asserted to be, inspect the ontic-description episteme through `C.2.1`.
 3. If changing a slot relation or identity criterion changes the ontic itself, apply the governing ontic pattern or `E.24`.
 4. If changing viewpoint or publication packaging changes which reader concern is served, use `E.17` or the relevant view or publication pattern.
+5. If the publication form's title, filename, heading, ToC row, table column, or visible structural name carries `U.*` force while the primary EoC is not that U-kind, recover the governed object and use `E.24.UK` for structural-name U-kind settlement.
 
 #### E.24.PUB:4.4 - Subject Pattern Placement
 
@@ -219,6 +224,7 @@ This pattern intentionally resists semio-bias inside subject patterns. It does n
 | `CC-E24PUB-6` | Subject patterns keep the positive EoC spine before publication-boundary text. |
 | `CC-E24PUB-7` | Patterns whose EoC is a description still keep publication of that description and descriptions of that description distinct. |
 | `CC-E24PUB-8` | The local non-overread sentence blocks the current confusion without becoming a long negative catalogue. |
+| `CC-E24PUB-9` | Visible `U.*`, title, filename, heading, ToC, table-column, and record-field pressure is governed by `E.24.UK` when the pressure is about U-kind admission rather than publication boundary. |
 
 ### E.24.PUB:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -227,6 +233,7 @@ This pattern intentionally resists semio-bias inside subject patterns. It does n
 | Pattern host as ontic | The file or section is cited as if it were the object it describes. | Name the ontic EoC and the ontic-description episteme separately. |
 | Diagram as architecture claim | A diagram is treated as the `ArchitectureOf@Context` claim or as the selected `U.Structure` itself. | Treat the diagram as a publication form of an architecture-description episteme; use `C.30` for the `ArchitectureOf@Context` claim or `A.22` for selected `U.Structure`. |
 | Score table as characteristic space | A table of scores is treated as the characteristic-space ontology. | Separate the table, filled evaluation, and `U.CharacteristicSpace`. |
+| Structural name as U-kind | A title, filename, heading, ToC row, table column, or record field keeps `U.*` even though the publication form is not the primary EoC. | Use E.24.PUB to separate form from subject, then `E.24.UK` to decide whether the structural name survives. |
 | Generic guard pile-up | A subject pattern opens with a long list of what a description is not. | Keep one non-overread sentence; when evidence, gate, work, publication-use, or source-use is current, apply the direct pattern governing that claim. |
 | View variant as duplicate ontology | Several views of one subject are treated as several subjects. | Use `E.17` for view or publication packaging and keep the ontic identity stable. |
 
@@ -258,20 +265,18 @@ The remedy is not to ignore descriptions. The remedy is to type the relation pos
 | Shimizu and Hitzler 2024, Eells, Dave, Hitzler, and Shimizu 2024, plus modular ODP practice. | Current modular-ontology source alignment: reusable ontology structure and its documentation or publication form are different objects. | Separate ontic, ontic-description episteme, publication, and publication form; do not let reusable form or documentation style become the ontology decision. |
 | Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ODP source alignment: implicit ontology may be carried by process-like publications and needs explicit representation for domain experts. | Distinguish the implicit ontology from the card, table, workflow notation, diagram, or process document that happened to carry it. |
 | Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG source alignment: schemas, extraction, entailment or hierarchy structuring, provenance, validation, and RDF serialization can reveal ontology candidates but can also hide publication-form overread. | Keep schema, data structure, ontology description, serialization, publication form, and ontic distinct; require bounded scope and validation before a publication form influences ontic selection. |
-| OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: labels, concept schemes, axioms, published documents, serializations, and queries play different roles. | Use them as expression and publication caution only; they do not substitute for `U.Ontic` and do not prove that labels, tables, or pattern sections decide ontology by appearance. |
+| OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: labels, concept schemes, axioms, published documents, serializations, and queries play different roles. | Use them as expression and publication caution only; they do not substitute for `U.Ontic` and do not show that labels, tables, or pattern sections decide ontology by appearance. |
 | FPF episteme and publication machinery. | `C.2.1` and `E.17` already govern epistemes and publication kits. | E.24.PUB specializes that machinery only for ontic descriptions and avoids duplicating generic semio doctrine. |
 
 Smallest source-currentness reopen trigger: reopen this SoTA slice when newer ontology-publication, data-model-to-ontology, or enterprise-KG work changes the selected distinction among ontology module, ontology-description episteme, serialization, publication form, and source-form overread. Do not reopen it merely because a new serialization format, graph store, or documentation style becomes popular.
 
 ### E.24.PUB:12 - Relations
 
-- **Builds on:** `E.24`, `C.2.1`, `E.17`, `E.17.0`, `E.8`, `E.10`, `E.10.ARCH`, and `F.19`.
-- **Coordinates with:** `E.24.CD` for candidate detection, `A.19` and `A.19.ECS` for characteristic-space descriptions and evaluation construction, `A.22` for structure, `C.30` for architecture, and `C.30.AD` for architecture descriptions.
+- **Builds on:** `E.24`, `E.24.UK`, `C.2.1`, `E.17`, `E.17.0`, `E.8`, `E.10`, `E.10.ARCH`, and `F.19`.
+- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.UK` for U-kind admission and structural-name U-kind settlement, `A.19` and `A.19.ECS` for characteristic-space descriptions and evaluation construction, `A.22` for structure, `C.30` for architecture, and `C.30.AD` for architecture descriptions.
 - **Used by:** subject patterns that need a thin boundary between the subject ontic, its description, and the publication form without turning the pattern into generic semio instruction.
 
 ### E.24.PUB:13 - Footer Marker
 
 ### E.24.PUB:End
-
-# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 

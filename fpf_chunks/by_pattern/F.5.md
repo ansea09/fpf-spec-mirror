@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.5.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
-line_start: 73175
-line_end: 73467
+  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+line_start: 72828
+line_end: 73120
 dependencies:
   - "A.15"
   - "A.2"
@@ -21,6 +21,7 @@ dependencies:
   - "A.6.5"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.UK"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -31,16 +32,16 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "U.Type"
 keywords:
-  - "U.Type naming"
+  - "U-kind naming"
   - "lexical rules"
   - "morphology"
   - "naming conventions"
+  - "role-description labels"
   - "twin registers"
 ---
 
-## F.5 - Naming Discipline for U.Type Names and RoleDescription Labels
+## F.5 - Naming Discipline for U-kind Names and RoleDescription Labels
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -52,7 +53,7 @@ keywords:
 
 Use this pattern when a project needs a durable name for either:
 
-- a `U.Type` or other cross-context concept admitted through a Concept-Set row; or
+- a U-kind or other cross-context concept admitted through `E.24.UK`, a Concept-Set row, or a direct governing pattern; or
 - a label used by a role-description episteme for one work-facing `U.Role` in one `U.BoundedContext`.
 
 Typical moments:
@@ -60,21 +61,22 @@ Typical moments:
 - a Concept-Set row has enough witnesses to admit a reusable FPF name, but the candidate names import one source tradition too strongly;
 - a role-description episteme names a role such as `ReviewerRole`, `OperatorRole`, `InspectorRole`, or `TransformerRole`, and the label must stay faithful to the bounded context without smuggling capability, permission, method, work, evidence, or status;
 - a role-like external phrase must be named for local use, but the project has not yet decided whether it is a work-facing `U.Role`, a status-use relation, an access or policy term, a relation slot, or only a local phrase;
-- two similar names threaten to make a `U.Type`, a `U.Role`, a status value, a method, and a work occurrence look like one object.
+- two similar names threaten to make a U-kind, a `U.Role`, a status value, a method, and a work occurrence look like one object.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these two name families. It governs the relation between a recovered meaning and its Tech and Plain labels. It does not define the named `U.Type`, does not define the described `U.Role`, does not assign a holder to a role, does not assert status, does not provide evidence, and does not make a publication form authoritative.
+**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these two name families. It governs the relation between a recovered meaning and its Tech and Plain labels. It does not define the named U-kind, does not define the described `U.Role`, does not assign a holder to a role, does not assert status, does not provide evidence, and does not make a publication form authoritative.
 
 **Primary working reader.** The first reader is an engineer-manager, analyst, pattern author, or terminology steward who already has a candidate meaning and must choose a name that remains usable by readers without creating a second ontology.
 
-**First useful move.** Before choosing the label, recover the named value kind and its source of meaning: Concept-Set row for a `U.Type`; role-description episteme, described `U.Role`, bounded context, and local sense for a role label. Then choose Tech and Plain labels whose morphology matches that kind and whose scope does not exceed the recovered meaning.
+**First useful move.** Before choosing the label, recover the named value kind and its source of meaning: `E.24.UK`, Concept-Set row, or direct governing pattern for a U-kind; role-description episteme, described `U.Role`, bounded context, and local sense for a role label. Then choose Tech and Plain labels whose morphology matches that kind and whose scope does not exceed the recovered meaning.
 
-**What goes wrong if missed.** Names become arguments. A role label starts implying permission or capability. A status phrase becomes a role. A `U.Type` name imports one context's private ontology. A pretty global word hides that the Concept-Set witnesses do not agree. Downstream patterns then repair "semantics" that were actually broken at naming time.
+**What goes wrong if missed.** Names become arguments. A role label starts implying permission or capability. A status phrase becomes a role. A U-kind name imports one context's private ontology. A pretty global word hides that the Concept-Set witnesses do not agree. Downstream patterns then repair "semantics" that were actually broken at naming time.
 
-**What this buys.** Readers can use short names without guessing the ontology. `U.Type` names stay neutral across their witnesses. RoleDescription labels stay local to their bounded context and point to work-facing roles. Status, evidence, access, requirement, source, publication, assurance, and gate names remain governed by their direct patterns instead of becoming "roles" by naming accident.
+**What this buys.** Readers can use short names without guessing the ontology. U-kind names stay neutral across their witnesses. RoleDescription labels stay local to their bounded context and point to work-facing roles. Status, evidence, access, requirement, source, publication, assurance, and gate names remain governed by their direct patterns instead of becoming "roles" by naming accident.
 
 **Not this pattern when.**
 
 - If the current problem is ordinary phrase repair rather than a durable name, use `E.10`, `E.10.ARCH`, `A.6.P`, or the direct governing pattern.
+- If the current issue is whether a `U.*` spelling or structural name should survive as a durable U-kind, use `E.24.UK` before F.5.
 - If the current issue is the broader local-first naming protocol, Name Cards, candidate fronts, lineage, or public naming governance, use `F.18`.
 - If the current issue is a role-description episteme itself, use `F.4`.
 - If the current issue is role assignment, holder, context, window, or performed-work attribution, use `A.2.1`.
@@ -89,7 +91,7 @@ FPF needs names that humans can use without dragging the wrong ontology behind t
 
 This pattern keeps two recurrent naming families separate.
 
-First, a `U.Type` or similar cross-context concept gets its name from a Concept-Set row. The name should be neutral with respect to the witnesses and should name the least shared kind that the row actually admits.
+First, a U-kind or similar cross-context concept gets its name only after the value is admitted by `E.24.UK`, a Concept-Set row, or a direct governing pattern. The name should be neutral with respect to the witnesses and should name the least shared kind that the admission source actually admits.
 
 Second, a role-description episteme labels one work-facing `U.Role` in one bounded context. The label should fit the local idiom and make the role recognizable. It should not make a holder assignment, capability, method, work occurrence, status, evidence relation, permission, publication, or relation slot look like part of the role value.
 
@@ -99,12 +101,12 @@ The tempting shortcut is to make "Role Description" cover both roles and statuse
 
 Without this pattern:
 
-1. **Context-local terms look global.** A name such as `Observation`, `Activity`, or `Process` is promoted to a `U.Type` name even though it carries one witness tradition's private commitments.
-2. **Role names become hidden assignments.** A label such as `ReviewerRole` is treated as proof that someone holds the role.
+1. **Context-local terms look global.** A name such as `Observation`, `Activity`, or `Process` is promoted to a U-kind name even though it carries one witness tradition's private commitments.
+2. **Role names become hidden assignments.** A label such as `ReviewerRole` is treated as if someone already holds the role.
 3. **Role names become capability claims.** A holder is assumed able because the role label sounds competent.
 4. **Role names become methods.** A noun label hides a method or method family.
 5. **Status names become roles.** `Approved`, `AccessRole`, `ModelFitEvidenceRole`, or `RequirementRole` becomes a role-name family instead of a status-use, evidence-use, access-policy, requirement-use, or source-use relation.
-6. **Relation positions become roles.** Signature or interface slot names borrow role morphology and collide with `U.Role`.
+6. **Relation positions become roles.** Signature, relation, or argument-position names borrow role morphology and collide with `U.Role`; interface wording is used only when a governing boundary or interface pattern makes that meaning current.
 7. **Names carry editions or contexts.** Labels such as `Task-IEC61131` or `Participant-BPMN` fossilize provenance inside the label instead of using Context, SenseCell, or Concept-Set evidence.
 8. **Aliases become silent renames.** Several labels circulate for one meaning without lineage or bridge discipline.
 
@@ -112,7 +114,7 @@ Without this pattern:
 
 | Force | Tension |
 | --- | --- |
-| Local idiom vs cross-context neutrality | RoleDescription labels must sound right inside one context; `U.Type` names must not privilege one witness context. |
+| Local idiom vs cross-context neutrality | RoleDescription labels must sound right inside one context; U-kind names must not privilege one witness context. |
 | Brevity vs kind recovery | Names must be usable, but the reader must still recover whether the named value is a type, role, status, method, work, relation, or episteme-use relation. |
 | Teaching vs widening | Plain labels should help readers, not broaden the Tech label's meaning. |
 | Stability vs changed meaning | Names should remain stable across edition or publication changes, but real sense change must split or rename with lineage. |
@@ -144,13 +146,13 @@ This record is not a registry requirement. It is the smallest relation a reader 
 
 | Name family | Meaning source | Naming rule |
 | --- | --- | --- |
-| `U.Type` or cross-context concept name | Concept-Set row, witness contexts, accepted invariants | Use a neutral Tech label at minimal generality. Do not use one witness context's private term when a neutral head exists. |
+| U-kind or cross-context concept name | `E.24.UK` admission, Concept-Set row, direct governing pattern, witness contexts, accepted invariants | Use a neutral Tech label at minimal generality. Do not use one witness context's private term when a neutral head exists. |
 | RoleDescription label for one `U.Role` | Role-description episteme, described `U.Role`, bounded context, local sense | Use context-faithful role morphology. Do not smuggle assignment, capability, method, work, evidence, status, permission, or publication into the label. |
 | Role-relation, role-expression, or role-method expression name | `A.2.7` role relation structure in one bounded context, plus `A.3.1`, `A.3.2`, or `A.15` when method or work is current | Ordinary labels may name qualified role expressions or role-bundle expressions without a `Role` suffix. Hyphenation can mark a recovered factor, domain, practice, method-family qualification, or combined expression; it must not mechanically concatenate operands or hide independent assignments. |
 | Method, method-family, method relation structure, work-plan, or work name | Direct method and work patterns: `A.3.1`, `A.3.2`, `A.15`, `G.5`, and any direct method-composition pattern when current | Do not make the name a role-relation result because it shares words with role labels. Name the method value, method family, method relation structure, work plan, or work value directly and cite the role relation separately when it constrains use. |
 | Mathematical or representation lens name | Lens or representation description over a selected role relation structure, method relation structure, transformation-flow structure, or other governed structure | Name the lens only when it is the governed value. Otherwise name the recovered role relation, method relation structure, method, work, or assignment. |
 | Status, evidence, requirement, source, standard, publication, assurance, gate, or decision name | Direct governing status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, or decision pattern | Do not treat it as a RoleDescription branch. Use `F.18` for durable naming only after the direct relation is recovered. |
-| Relation slot or interface position name | `A.6.5` SlotSpec discipline and the governing relation, signature, or interface pattern | Name the slot as a slot or argument position, not as a `U.Role`, unless a direct role-assignment relation is truly current. |
+| Relation slot or argument-position name | `A.6.5` SlotSpec discipline and the governing relation or signature pattern; use an interface-governing pattern only when interface meaning is current | Name the slot as a slot or argument position, not as a `U.Role`, unless a direct role-assignment relation is truly current. |
 
 #### F.5:4.2 - Tech and Plain Labels
 
@@ -166,14 +168,14 @@ For a role-description label, the Tech label may be an agentive noun, local role
 
 For a coupled role-method label, recover the role expression and the method value or work value separately before naming. `RoboticsEngineerRole` may be a durable Tech label for a robotics-qualified engineering role value. `RobotEngineeringMethod` names a method or method family. The ordinary label "engineer-roboticist" can be useful when the context makes the coupled role-method meaning recoverable, but it must not replace the method record or work record.
 
-For a `U.Type`, the Tech label should be neutral enough that no witness context wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, the admitted name may be `Result`, `Reading`, or another head only if the Concept-Set row admits it by value.
+For a U-kind, the Tech label should be neutral enough that no witness context wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, the admitted name may be `Result`, `Reading`, or another head only if the Concept-Set row admits it by value.
 
 #### F.5:4.3 - Positive Naming Rules
 
 Use these rules when choosing or checking a name.
 
-1. **Recover kind first.** State whether the named value is a `U.Type`, `U.Role`, role-description episteme, role-relation expression, method, work, status-use value, evidence-use relation, relation slot, lens description, or another named kind.
-2. **Recover meaning source.** Use Concept-Set row for `U.Type`; role-description episteme and bounded context for role labels; `A.2.7` for role-relation expressions; `A.3.1`, `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern for method, method-family, method relation structure, or work names; direct governing pattern for statuses, evidence, source, requirement, publication, assurance, gate, decision, and relation slots.
+1. **Recover kind first.** State whether the named value is a U-kind, `U.Role`, role-description episteme, role-relation expression, method, work, status-use value, evidence-use relation, relation slot, lens description, or another named kind.
+2. **Recover meaning source.** Use `E.24.UK`, Concept-Set row, or a direct governing pattern for U-kind admission; role-description episteme and bounded context for role labels; `A.2.7` for role-relation expressions; `A.3.1`, `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern for method, method-family, method relation structure, or work names; direct governing pattern for statuses, evidence, source, requirement, publication, assurance, gate, decision, and relation slots.
 3. **Use minimal generality.** The name's scope stays no wider than the admitted invariants.
 4. **Keep context out of the label string.** Context, edition, source, and witness provenance belong in Context, SenseCell, Concept-Set row, or Name Card fields, not inside the main label.
 5. **Make morphology kind-sensitive.** Agentive role names fit work-facing roles. State or level forms fit statuses. Verbal or gerund forms fit methods only when the method pattern admits them. Slot names should say `Slot`, `Argument`, `Endpoint`, or another declared slot or position head when current.
@@ -210,7 +212,7 @@ A Concept-Set row compares:
 - ML practice `metric reading`;
 - a dashboard value exported for subsequent comparison.
 
-The row does not justify naming the `U.Type` `Observation` merely because one source tradition uses that word. It also does not justify `DashboardValue` if the dashboard is only one publication form. A name such as `Reading` or `Result` is admissible only if the row shows the shared invariant: produced value or record admitted for comparison in the declared context.
+The row does not justify naming the U-kind `Observation` merely because one source tradition uses that word. It also does not justify `DashboardValue` if the dashboard is only one publication form. A name such as `Reading` or `Result` is admissible only if the row shows the shared invariant: produced value or record admitted for comparison in the declared context.
 
 #### F.5:5.2 - Work-Facing Role Label
 
@@ -235,7 +237,7 @@ The durable name, if needed, is a name for that evidence-use relation or status-
 
 #### F.5:5.4 - Relation Position Is Not a Role Name
 
-In a relation signature, "provider role" may mean "the provider argument position". F.5 does not make `ProviderRole` a `U.Role` name. Use `A.6.5` to recover `ProviderSlot`, its admitted `ValueKind`, and its reference mode. If a provider system also has a work-facing role in a method, that is a separate `U.Role`/`U.RoleAssignment` claim.
+In a relation signature, "provider role" may mean "the provider argument position". F.5 does not make `ProviderRole` a `U.Role` name. Use `A.6.5` to recover `ProviderSlot`, its admitted `ValueKind`, and its reference mode. If a provider system also has a work-facing role in a method, that is a separate `U.Role` claim and, when assigned, a separate `U.RoleAssignment` claim.
 
 ### F.5:6 - Bias-Annotation
 
@@ -255,15 +257,14 @@ Use this checklist on each durable name governed by F.5.
 | Check | Pass condition |
 | --- | --- |
 | `CC-F5-1` | The named value kind is explicit. |
-| `CC-F5-2` | The meaning source is explicit: Concept-Set row, role-description episteme, or direct governing pattern. |
+| `CC-F5-2` | The meaning source is explicit: `E.24.UK` admission, Concept-Set row, role-description episteme, or direct governing pattern. |
 | `CC-F5-3` | The Tech label scope is no wider than the recovered meaning. |
 | `CC-F5-4` | The Plain label teaches without widening the sense. |
 | `CC-F5-5` | Context, edition, source, and witness provenance are not baked into the main label. |
-| `CC-F5-6` | A `U.Type` name is neutral with respect to witness contexts unless the Concept-Set row proves that the source term is genuinely shared. |
+| `CC-F5-6` | A U-kind name is neutral with respect to witness contexts unless the Concept-Set row shows that the source term is genuinely shared. |
 | `CC-F5-7` | A RoleDescription label names a work-facing `U.Role`; it does not encode assignment, capability, method, work, status, evidence, permission, or publication. |
 | `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, and relation-slot names are sent to direct governing patterns before durable naming. |
 | `CC-F5-9` | Alias, symbol, previous term, or translation use is marked as alias or lineage, not a second Tech label. |
-
 | `CC-F5-10` | Public or cross-context reuse invokes `F.18`, `F.17`, or `F.9` as needed. |
 
 ### F.5:8 - Common Anti-Patterns and How to Avoid Them
@@ -286,7 +287,7 @@ Good consequences:
 
 - durable names become shorter because the ontology is carried by the right pattern, not by compound labels;
 - role-description labels stay usable without becoming assignment, capability, method, or evidence claims;
-- `U.Type` names become easier to bridge because their Concept-Set row is explicit;
+- U-kind names become easier to bridge because their Concept-Set row is explicit;
 
 - E.10 repair cases that uncover durable naming issues use the direct `F.5` or `F.18` naming discipline instead of inventing ad hoc word replacements.
 
@@ -297,7 +298,7 @@ Costs:
 - public or cross-context names may require `F.18`, `F.17`, and `F.9` even when the local name looks obvious;
 - source text that used `Role` for status, evidence, access, or relation position must be repaired by ontology, not by suffix editing.
 
-Reopen F.5 when role-description label morphology, `U.Type` neutrality rules, Tech and Plain label relation, alias lineage, or cross-context naming boundaries change. Reopen neighboring patterns when the dispute is about the named object itself.
+Reopen F.5 when role-description label morphology, U-kind neutrality rules, Tech and Plain label relation, alias lineage, or cross-context naming boundaries change. Reopen neighboring patterns when the dispute is about the named object itself.
 
 ### F.5:10 - Rationale
 
@@ -305,7 +306,7 @@ Naming is late ontology, not early decoration. FPF can tolerate many local phras
 
 The key design choice is to split naming by meaning source rather than by source spelling. `Role` in a source phrase may refer to a work-facing role, a policy term, a status label, an evidence-use relation, a relation position, or ordinary English. F.5 does not decide by suffix. It recovers the current value and then applies naming discipline.
 
-This also keeps F.5 smaller than F.18. F.18 governs the fuller local-first naming protocol, Name Cards, candidate fronts, lineage, and public naming. F.5 supplies the special discipline needed by `U.Type` names and RoleDescription labels so that Part F does not preserve role and status fusion.
+This also keeps F.5 smaller than F.18. F.18 governs the fuller local-first naming protocol, Name Cards, candidate fronts, lineage, and public naming. F.5 supplies the special discipline needed by U-kind names and RoleDescription labels so that Part F does not preserve role and status fusion.
 
 ### F.5:11 - SoTA-Echoing and Source-Use
 
@@ -317,15 +318,15 @@ This also keeps F.5 smaller than F.18. F.18 governs the fuller local-first namin
 | Human-centered technical writing | A teaching gloss helps only when it does not change the underlying concept. | Plain labels explain; they do not widen the Tech label. |
 | Morphology-aware naming practice | Word form affects reader expectations about actor, action, state, result, and relation position. | Role, method, work, status, and slot names use different morphology when the kind differs. |
 
-Source-use boundary: external labels are evidence for local meaning or common practice, not automatic FPF Tech labels. A source term becomes the selected label only after the governing Concept-Set row, role-description episteme, or direct relation pattern admits it.
+Source-use boundary: external labels are evidence for local meaning or common practice, not automatic FPF Tech labels. A source term becomes the selected label only after `E.24.UK`, the governing Concept-Set row, role-description episteme, or direct relation pattern admits it.
 
 ### F.5:12 - Relations
 
 **Builds on.** `A.2`, `F.4`, `F.7`, `F.18`, `E.10`, and `E.10.ARCH`.
 
-**Coordinates with.** `A.2.1` for role assignment; `A.2.2` for capability; `A.2.5` for role state; `A.2.7` for role relation structure and role-algebra lens use; `A.6.5` for relation-slot names; `A.15` for role-method-work alignment; `F.8` for mint-or-reuse; `F.9` for cross-context bridges; `F.10` for status mapping; `F.13` for aliases and continuity; `F.14` for anti-explosion; `F.15` for harness checks; `F.17` for public term-sheet use.
+**Coordinates with.** `E.24.UK` for U-kind admission and structural `U.*` repair; `A.2.1` for role assignment; `A.2.2` for capability; `A.2.5` for role state; `A.2.7` for role relation structure and role-algebra lens use; `A.6.5` for relation-slot names; `A.15` for role-method-work alignment; `F.8` for mint-or-reuse; `F.9` for cross-context bridges; `F.10` for status mapping; `F.13` for aliases and continuity; `F.14` for anti-explosion; `F.15` for harness checks; `F.17` for public term-sheet use.
 
-**Used by.** Part F unification patterns, role-description authors, Concept-Set authors, E.10 repairs that uncover naming rather than only phrase-use issues, and any FPF pattern that creates a durable local name for a `U.Type` or work-facing role label.
+**Used by.** Part F unification patterns, role-description authors, Concept-Set authors, E.10 repairs that uncover naming rather than only phrase-use issues, and any FPF pattern that creates a durable local name for a U-kind or work-facing role label.
 
 **Does not replace.** Direct evidence-use, status-use, requirement-use, source-use, publication-use, assurance, gate, decision, relation-signature, method, work, or architecture patterns.
 

@@ -6,12 +6,12 @@ section_id: "B.3.5:10"
 section_title: "Bias‑Annotation (auditable, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_bias-annotation-auditable-human-first.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:10 — Bias‑Annotation (auditable, human‑first)"
-line_start: 33142
-line_end: 33157
+line_start: 33272
+line_end: 33287
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.3.5:10 - Bias‑Annotation (auditable, human‑first)
 
-The purpose of this section is to make **typical cognitive slips** visible and name the **counter‑moves** an author (or reviewer) should apply **in thought**—not with tools. These biases are generic; the remedies point to earlier FPF guard‑rails and neighbouring patterns.
+The purpose of this section is to make **typical cognitive slips** visible and name the **counter-moves** an author (or reviewer) should apply **in thought**—not with tools. These biases are generic; the remedies point to neighboring FPF guard-rails and patterns.
 
 | Bias (name)                     | Symptom in the model                                                                                                          | Cognitive counter‑move (conceptual only)                                                                                                                                                                          | Where to check                                                       |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |

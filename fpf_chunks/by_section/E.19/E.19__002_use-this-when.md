@@ -6,13 +6,23 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 68678
-line_end: 68685
+line_start: 68042
+line_end: 68049
 dependencies:
+  - "A.6.P"
+  - "C.2.P"
+  - "E.10"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.8"
+  - "E.9"
+  - "F.18"
+  - "F.19"
 keywords:
   - "(see H-8)"
   - "MUST NOT modify modeled-world entities (e.g"

@@ -1,35 +1,39 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.8"
-pattern_title: "Universal Core Principle (C‑1)"
-section_id: "A.8:6"
+pattern_title: "Universal Core Principle"
+section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__007_conformance-checklist.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.8 — Universal Core Principle (C‑1)"
-  - "A.8:6 — Conformance Checklist"
-line_start: 19027
-line_end: 19037
+  - "A.8 — Universal Core Principle"
+  - "A.8:4 — Conformance Checklist"
+line_start: 19151
+line_end: 19161
 dependencies:
-  - "A.8"
-  - "U.Types"
+  - "A.11"
+  - "C.3"
+  - "C.3.1"
+  - "E.24.UK"
+  - "F.18"
+  - "F.8"
 keywords:
   - "domain-agnostic"
-  - "generalization"
+  - "kernel-level U-kind admission"
   - "transdisciplinary"
   - "universality"
 ---
 
-### A.8:6 - Conformance Checklist
+### A.8:4 - Conformance Checklist
 
-| ID          | Requirement                                                                                                                            | Purpose                                                 |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| **CC‑UC 1** | A proposed `U.Type` **SHALL** include ≥ 3 Role‑Projection records, each taken from a *different* domain family.                        | Enforces the Three‑Domain Test.                         |
-| **CC‑UC 2** | Each Role‑Projection **MUST** explain in ≤ 30 words how the domain notion fulfils the *same Role* as the proposed `U.Type`. | Blocks superficial analogies.                           |
-| **CC‑UC 3** | No single exemplar may serve for more than one domain projection.                                                          | Prevents contrived “triple duty” examples.              |
-| **CC‑UC 4** | A **specialised** `U.SubType` inherits its parent’s projections **and** adds ≥ 1 new domain projection, never fewer.                   | Keeps refinements as universal as their parents.        |
-| **CC‑UC 5** | While the U‑Index > 0.05, authors **SHALL** prioritise supplying missing projections over adding new core concepts.                    | Maintains kernel health without procedural bureaucracy. |
-| **CC‑UC‑2‑QD‑triad.** | The three Role‑Projections come from **different domain‑families** AND the triad PUBLISHES: `{FamilyCoverage, MinInterFamilyDistance, Diversity_P, IlluminationSummary}` with `MinInterFamilyDistance ≥ δ_family` (per **F1‑Card** DistanceDef & edition). + Provenance MUST cite `DescriptorMapRef` (incl. `DistanceDef`/edition), `F1‑Card id+edition`, and the grid/binning policy used for `IlluminationSummary`.  | quality diversity of domains |
+| Check | Requirement |
+| --- | --- |
+| `CC-A8-1` | The candidate has an `E.24.UK` durable U-kind admission basis before A.8 is applied. |
+| `CC-A8-2` | The A.8 claim is kernel-level universal-core admission, not C.3 typed reasoning. |
+| `CC-A8-3` | At least three domain-family projections are recorded. |
+| `CC-A8-4` | Each projection states the same abstract contribution in that domain. |
+| `CC-A8-5` | Differences and losses are explicit; same-word evidence alone is insufficient. |
+| `CC-A8-6` | A failed A.8 test lowers the candidate to local use, dependent value, Concept-Set row, C.3 `U.Kind`, or direct governing pattern rather than preserving a universal U-kind by name. |
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__009_admission-and-extraction-criterion.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 61572
-line_end: 61588
+line_start: 60936
+line_end: 60952
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.ARCH"
   - "E.11"
   - "E.18"
   - "E.19"

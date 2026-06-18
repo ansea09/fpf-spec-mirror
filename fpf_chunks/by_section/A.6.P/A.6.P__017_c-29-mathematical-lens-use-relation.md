@@ -6,12 +6,12 @@ section_id: "A.6.P:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__017_c-29-mathematical-lens-use-relation.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12b — C.29 mathematical-lens use relation"
-line_start: 13819
-line_end: 13822
+line_start: 13909
+line_end: 13912
 dependencies:
   - "A.10"
   - "A.2.4"

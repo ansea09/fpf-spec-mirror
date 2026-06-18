@@ -6,12 +6,12 @@ section_id: "F.9.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__012_sota-echoing.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:11 — SoTA-Echoing"
-line_start: 75160
-line_end: 75175
+line_start: 74813
+line_end: 74828
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

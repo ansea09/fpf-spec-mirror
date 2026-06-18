@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.4.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
-line_start: 3274
-line_end: 3586
+line_start: 3294
+line_end: 3606
 dependencies:
   - "A.10"
   - "A.2"
@@ -32,9 +32,10 @@ dependencies:
 keywords:
   - "claim"
   - "episteme"
-  - "evidence"
-  - "justification"
-  - "support"
+  - "evidence-use"
+  - "provenance"
+  - "source-use"
+  - "status-use"
 ---
 
 ## A.2.4 - Episteme Evidence-Use and Status-Use Relations

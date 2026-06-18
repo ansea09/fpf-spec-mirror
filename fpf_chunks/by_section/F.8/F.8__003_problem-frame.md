@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:1 — Problem Frame"
-line_start: 74156
-line_end: 74163
+line_start: 73809
+line_end: 73816
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -51,7 +54,7 @@ keywords:
 
 ### F.8:1 - Problem Frame
 
-Name pressure is often a sign of unresolved ontology. A project wants one short expression, but the expression may stand for several different values: a local sense, a reusable row, a role-description label, a status value, a method name, a work occurrence label, a policy id, or a new `U.Type` candidate.
+Name pressure is often a sign of unresolved ontology. A project wants one short expression, but the expression may stand for several different values: a local sense, a reusable row, a role-description label, a status value, a method name, a work occurrence label, a policy id, or a new U-kind candidate.
 
 The dangerous shortcut is to decide by word form. If the word contains `Role`, it is treated as a role. If the word appears in two contexts, it is treated as the same concept. If a source standard uses the name, the name is promoted. If the expression is short and readable, it becomes public vocabulary.
 

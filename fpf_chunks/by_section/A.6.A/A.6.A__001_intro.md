@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__001_intro.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:intro — Intro"
-line_start: 14063
-line_end: 14103
+line_start: 14153
+line_end: 14195
 dependencies:
   - "A.15"
   - "A.16"
@@ -43,13 +43,15 @@ keywords:
   - "post-threshold classification"
 ---
 
-## A.6.A - `U.ActionInvitationPrecisionRestoration` - Affordance and Action-Invitation Precision Restoration (ACT-INV)
+## A.6.A - Action-Invitation Precision Restoration (ACT-INV)
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative (Core)
 
 **Plain-name.** Affordance and action-invitation precision restoration.
+
+**E.24.UK settlement.** A.6.A does not admit `U.ActionInvitationPrecisionRestoration` as a durable U-kind. The pattern governs action-invitation precision restoration for affordance-like and action-first wording. The durable values it may recover are the explicit `actionInvitation(...)` relation, its sense family, normal form, candidate action, site, would-be enactor, and neighboring method, work, capability, commitment, evidence, gate, or publication values when those claims are current.
 
 **Intent.**
 Provide a reusable discipline for repairing overloaded **affordance-like and action-first** language in FPF texts.

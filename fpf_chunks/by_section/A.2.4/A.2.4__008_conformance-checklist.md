@@ -6,12 +6,12 @@ section_id: "A.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__008_conformance-checklist.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:7 — Conformance Checklist"
-line_start: 3523
-line_end: 3539
+line_start: 3543
+line_end: 3559
 dependencies:
   - "A.10"
   - "A.2"
@@ -33,9 +33,10 @@ dependencies:
 keywords:
   - "claim"
   - "episteme"
-  - "evidence"
-  - "justification"
-  - "support"
+  - "evidence-use"
+  - "provenance"
+  - "source-use"
+  - "status-use"
 ---
 
 ### A.2.4:7 - Conformance Checklist

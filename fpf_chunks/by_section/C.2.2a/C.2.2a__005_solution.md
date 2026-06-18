@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 36524
-line_end: 36638
+line_start: 36658
+line_end: 36772
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,6 +44,10 @@ keywords:
 
 It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots are the language-state facets used in this cluster.
 
+#### C.2.2a:4.0a - E.24.UK settlement
+
+`U.LanguageStateSpace` is retained as a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state settlement, not as a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
+
 #### C.2.2a:4.1 - Core role
 `U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
 
@@ -74,7 +78,7 @@ The language-state chart is coordinated by explicit facet governing patterns rat
 #### C.2.2a:4.4 - Ontological role lanes
 Within this cluster, keep five roles distinct:
 
-- **occupant** - the governed `U.Episteme` publication whose current position is being claimed;
+- **positioned episteme publication** - the governed `U.Episteme` publication whose current position is being claimed;
 - **grounds / witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, exemplars, or contrasts that justify the current reading;
 - **publication forms** - cue packs, routed cue sets, prompt forms, typed route-bounded projection publications, partial normal forms, and endpoint-bound records through which the episteme is published;
 - **publication faces** - the existing MVPK faces on which those publication forms are rendered when face typing matters;
@@ -85,24 +89,20 @@ Within this cluster, keep five roles distinct:
 #### C.2.2a:4.5 - Position publication rule
 A published position claim in `U.LanguageStateSpace` should normally make at least the following explicit:
 
-- the occupant whose position is being described;
+- the positioned `U.Episteme` publication whose position is being described;
 - the relevant slot values, `ValueSet` claims, or intervals;
 - the current publication form and, when it matters, the MVPK face carrying it;
-- the load-bearing grounds, witnesses, or carriers that explain those values;
-- any local threshold declarations if the position is being used for a routing or gate decision;
-- any note that distinguishes source anchoring from current publication-face anchoring.
+- the carrier or SCR/RSCR lane if physical or digital preservation/distribution matters;
+- the grounds, witnesses, or inherited pins that justify the current reading;
+- any local threshold note that makes one region, corridor, or endpoint claim admissible for the next move.
 
-A position claim may be partial when some slots are intentionally unknown, but the unknowns should be declared rather than hidden under a broad readiness label.
-
-#### C.2.2a:4.5.a - Local position-reading witness
 For this pattern, a position claim is reviewable when:
 
-- the occupant is named or inherited by an already pinned upstream publication;
+- the positioned `U.Episteme` publication is named or inherited by an already pinned upstream publication;
 - the slot values, intervals, or `ValueSet` claims are explicit enough to show where the publication stands;
-- the grounds, witnesses, or inherited pins that support those values remain visible;
+- the grounds, witnesses, or inherited pins that justify those values remain visible;
 - any threshold-bearing use states the local threshold note or the pinned threshold source it inherits;
-- and the text keeps the occupant, publication form, publication face, and carrier in distinct role lanes.
-
+- and the text keeps the positioned episteme publication, publication form, publication face, and carrier in distinct role lanes.
 A polished note, a carrier with more preservation or distribution support, or a more formal face does not by itself prove a new position. The chart claim remains admissible only when those role lanes and slot claims stay visible.
 
 #### C.2.2a:4.6 - Non-substitution of `F`

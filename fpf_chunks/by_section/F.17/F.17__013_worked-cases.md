@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_worked-cases.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Worked cases"
-line_start: 77695
-line_end: 77714
+line_start: 77346
+line_end: 77365
 dependencies:
   - "A.10"
   - "A.15.1"

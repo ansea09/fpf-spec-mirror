@@ -6,12 +6,12 @@ section_id: "C.16.P:6a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__009_refresh-and-reopen-conditions.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6a — Refresh and reopen conditions"
-line_start: 42311
-line_end: 42322
+line_start: 41645
+line_end: 41656
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,5 +49,5 @@ Reopen or narrow `C.16.P` when current pattern-language ecology changes the firs
 - a governing pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;
 - `C.16.P` begins to act as a metrics catalog, maturity scheme, or CHR super-pattern rather than a wording-use repair pattern for hidden construction.
 
-The refresh action is to remove, narrow, or redirect the first-stage row. It is not to preserve old exits as history.
+The refresh action is to remove, narrow, or reassign the first-stage row. It is not to preserve old routing language as history.
 

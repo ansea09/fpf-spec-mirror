@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:4 — Solution"
-line_start: 71404
-line_end: 71480
+line_start: 70771
+line_end: 70850
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -26,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"
@@ -43,6 +44,7 @@ Ontic-description publication relation positions:
   DescriptionClaims:
   Publication:
   PublicationForm:
+  StructuralNamePressure:
   GovernedUse:
   BlockedOverread:
   NeighboringPatternIfCurrent:
@@ -55,6 +57,7 @@ Read the field set this way:
 - `DescriptionClaims` are the specific claims about identity, slots, admissible values, dependent patterns, invariants, examples, and use boundary.
 - `Publication` is the made-available expression of that episteme.
 - `PublicationForm` is the selected form: pattern host, card, record, table, schema, diagram, view, source packet, or another publication form.
+- `StructuralNamePressure` names any `U.*`, type or kind wording, title, filename, heading, ToC row, table column, or record field whose visible publication position could over-admit kindhood.
 - `GovernedUse` says what a user may do with the publication in the current pattern.
 - `BlockedOverread` blocks the main confusion without listing every generic semio boundary.
 - `NeighboringPatternIfCurrent` names the governing neighboring pattern when the current claim belongs elsewhere.
@@ -70,7 +73,7 @@ Use it for [governed use].
 Use [neighboring pattern] when the current claim is about [neighboring EoC].
 ```
 
-Do not expand that local formula into a general catalogue of all things a description is not. If proof, permission, gate, source, evidence, authority-bearing record, decision, or work is current, name the governing neighboring pattern and apply it for that neighboring EoC or claim.
+Do not expand that local formula into a general catalogue of all things a description is not. If a neighboring EoC or claim is current, name the governing neighboring pattern and apply it for that EoC or claim.
 
 #### E.24.PUB:4.2 - Description Claims Stay About the Ontic
 
@@ -95,6 +98,7 @@ Use this test:
 2. If changing a description claim changes what the ontic is asserted to be, inspect the ontic-description episteme through `C.2.1`.
 3. If changing a slot relation or identity criterion changes the ontic itself, apply the governing ontic pattern or `E.24`.
 4. If changing viewpoint or publication packaging changes which reader concern is served, use `E.17` or the relevant view or publication pattern.
+5. If the publication form's title, filename, heading, ToC row, table column, or visible structural name carries `U.*` force while the primary EoC is not that U-kind, recover the governed object and use `E.24.UK` for structural-name U-kind settlement.
 
 #### E.24.PUB:4.4 - Subject Pattern Placement
 

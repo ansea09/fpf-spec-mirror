@@ -6,12 +6,12 @@ section_id: "C.31:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 56113
-line_end: 56123
+line_start: 55477
+line_end: 55487
 dependencies:
 keywords:
 ---

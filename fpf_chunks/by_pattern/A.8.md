@@ -1,140 +1,129 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.8"
-pattern_title: "Universal Core Principle (C‑1)"
+pattern_title: "Universal Core Principle"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.8 — Universal Core Principle (C‑1)"
-line_start: 18962
-line_end: 19078
+  - "A.8 — Universal Core Principle"
+line_start: 19068
+line_end: 19169
 dependencies:
-  - "A.8"
-  - "U.Types"
+  - "A.11"
+  - "C.3"
+  - "C.3.1"
+  - "E.24.UK"
+  - "F.18"
+  - "F.8"
 keywords:
   - "domain-agnostic"
-  - "generalization"
+  - "kernel-level U-kind admission"
   - "transdisciplinary"
   - "universality"
 ---
 
-## A.8 - Universal Core Principle (C‑1)
+## A.8 - Universal Core Principle
 
-*“A principle that works in only one world is local folklore; a first principle architects every world.”*
+> **Type:** Kernel admission discipline pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
+
+### A.8:0 - Use This When
+
+Use this pattern when a candidate durable U-kind is proposed as a kernel-level universal primitive rather than as a local concept, C.3 `U.Kind`, direct subject-pattern value, Concept-Set row, slot, relation, record, publication form, or dependent durable value.
+
+Typical moments:
+
+- a candidate U-kind is proposed because several domains use similar words;
+- a local subject value starts being treated as universal because it is useful in one field;
+- `E.24.UK` admits a durable U-kind candidate, and the remaining question is whether it belongs in the universal core;
+- source or draft type wording claims kernel-level status and must be recovered into current U-kind governance.
+
+**Primary EntityOfConcern.** The EntityOfConcern is the universal-core admission claim for one candidate U-kind.
+
+**First useful move.** Apply `E.24.UK` first. If the candidate survives as a durable U-kind and claims kernel-level status, test whether it makes the same abstract contribution in at least three foundationally different domain families.
+
+**Not this pattern when.**
+
+- If the issue is C.3 typed claim quantification, use `C.3` and `C.3.1`.
+- If the issue is whether the public `U.*` spelling should survive at all, use `E.24.UK`.
+- If the candidate can be expressed by composition, dependent value, slot relation, or direct subject pattern, use `A.11` and the direct pattern before A.8.
 
 ### A.8:1 - Problem Frame
 
-FPF aspires to be an **operating system for thought** that engineers, biologists, economists, and AI agents can all use without translation layers. That promise rests on the **universality** of its core primitives (`U.Type`s).  History is littered with “upper ontologies” that proclaimed universality yet smuggled in the biases of a single discipline; once deployed beyond their birthplace, they cracked or ballooned.  Rule C‑1 turns “universal” from a marketing word into a measurable criterion: *cross‑domain congruence*.
+FPF needs some universal primitives. It also needs to avoid turning a field's favorite vocabulary into the kernel. A word that works in software, finance, biology, or physics may still be local. A kernel-level U-kind must survive contact with different foundational domains without changing what kind of work it does in the model.
+
+When source wording uses kind force for this admission question, recover it as kernel-level U-kind admission: `E.24.UK` decides durable U-kind pressure, and A.8 tests universal-core force.
 
 ### A.8:2 - Problem
 
-| Pathology                 | Manifestation                                                                                       |
-| ------------------------- | --------------------------------------------------------------------------------------------------- |
-| **Parochial Drift**       | A “universal” `U.Resource` works for ERP bills of materials but collapses for ATP in cell biology.  |
-| **Alienated Communities** | Subject‑matter experts recognise the bias and abandon the framework, fracturing knowledge silos.    |
-| **Kernel Bloat**          | Competing “almost‑universal” types are added to patch gaps, violating Ontological Parsimony (A 11). |
+Without A.8:
 
-### A.8:3 - Forces
+1. **Parochial drift.** A local domain concept enters the kernel and later cracks outside its home domain.
+2. **Kernel bloat.** Near-universal values accumulate because each domain asks for its own core noun.
+3. **False universality.** Search frequency, source prestige, or familiar spelling replaces cross-domain evidence.
+4. **C.3 confusion.** A context-local `U.Kind` is mistaken for a universal FPF U-kind.
 
-| Force                           | Tension                                                                              |
-| ------------------------------- | ------------------------------------------------------------------------------------ |
-| **Generality vs Specificity**   | Primitives must stretch across physics ↔ social science yet keep actionable meaning. |
-| **Rigor vs Pragmatism**         | Proof of universality must be checkable, not philosophical hand‑waving.              |
-| **Inclusivity vs Coherence**    | Welcoming new ideas should not swamp the kernel with domain jargon.                  |
-| **Cognitive Load vs Grounding** | Examples help readers, but too many examples obscure the essence.                    |
+### A.8:3 - Solution
 
-### A.8:4 - Solution — *The Three‑Domain Falsification Test*
+Use the three-domain falsification test only after `E.24.UK` has admitted the candidate as a durable U-kind candidate.
 
-> **Normative Rule (C‑1)** A `U.Type` **enters the kernel only if** it is shown to play the **same Role** in **at least three foundationally distinct domains**.
+The candidate passes A.8 only when all four conditions hold:
 
- **Heterogeneity & QD‑triad guarantee (C‑1.QD).**
- In addition to distinct **domain‑families** (choose from: *Exact Sciences - Natural Sciences - Engineering & Technology - Formal Sciences - Social & Behavioural Sciences*), the **triad** SHALL demonstrate **quality diversity**:
-(a) **Hetero‑test.** Each projection adds at least one non‑trivial **DescriptorMap** signal or Bridge path not subsumed by the other two (no aliasing by mere renaming).
-(b) **QD evidence.** Publish **Creativity‑CHR / NQD‑CAL** evidence for the triad: `Diversity_P` (set‑level) and its **IlluminationSummary** telemetry metric with ≥3 non‑empty cells and `occupancyEntropy > 0` under the declared grid.
-(c) **Policy disclosure.** Declare the Context‑local `QD_policy` (binning/grid, kernel, time‑window) used to compute the telemetry metrics.
-(References: **C.17** `Diversity_P` & illumination Summary as telemetry metric; **C.18** `U.DescriptorMap`, `U.IlluminationSummary`.)
+1. **Distinct domain families.** At least three projections come from foundationally different domain families.
+2. **Same abstract contribution.** Each projection shows the same kernel contribution, not merely a similar word.
+3. **Non-trivial diversity.** Each projection adds a non-trivial signal or bridge evidence not subsumed by the other two.
+4. **Recorded losses.** Differences, losses, and bridge risks are visible enough that readers can tell what is shared and what is local.
 
-Implementation steps (Domain Families):
+Use this compact record:
 
-1. source domain‑families from the active F1‑Card (taxonomyRef/embeddingRef edition). The five coarse families {Exact, Natural & Life, Engineering & Tech, Formal, Social & Behavioural} are informative only; if used for pedagogy, publish an explicit mapping to the F1‑Card taxonomy. The triad gate is measured by MinInterFamilyDistance ≥ δ_family (per F1‑Card), not by labels alone.
+```text
+UniversalCoreProjection:
+  CandidateUKind:
+  E24UKDecisionRef:
+  DomainFamily:
+  DomainTerm:
+  LocalEoC:
+  SameAbstractContribution:
+  DifferenceOrLoss:
+  EvidenceRef:
+```
 
-2. **Role‑Projection Records** For each domain, author a short **`Role‑Projection`** tuple: `{domain, indigenous term, Role, exemplar}`.
-   *Example:* `{physics, "Free Energy", extremum driver, closed gas system}`.
+Three records are the minimum evidence. They are not an analogy. They are a falsification attempt: if one projection changes the candidate's abstract contribution, the candidate is not universal in the proposed form.
 
-3. **Congruence Check** All three exemplars must satisfy the **same abstract intent**; superficial analogy is rejected.
+### A.8:3.1 - Worked Grounding And Diversity Evidence
 
-4. **Living Index** Track the ratio
+For busy readers: one idea, three worlds. A candidate that cannot keep the same abstract contribution across three different domain families should stay local, dependent, or subject-pattern governed.
 
-   $$
-     U\text{-Index}=\frac{\text{\# kernel types lacking 3 projections}}{\text{\# kernel types}}
-   $$
+| Candidate under test | Domain-family projections | What must stay the same | What may differ |
+| --- | --- | --- | --- |
+| `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | bounded interacting whole that can be treated as acting or being affected under conditions | boundary physics, substrate, observability, and control style |
+| `U.Episteme` | theorem or proof text; clinical guideline; model card or safety case | claim-bearing non-agentive knowledge object that can be used, cited, revised, or published | carrier, notation, authority source, and assurance regime |
+| `U.Work` | machining run; lab assay; review or approval act | performed occurrence under a method, role assignment, context, and time window | physical medium, institutional form, measurement trace, and evidence carrier |
 
-   as a health signal; target ≤ 0.05 (not a bureaucratic gate).
+These rows are grounding examples, not automatic admissions. The projection record still needs an `E.24.UK` basis and must state losses and bridge risks.
 
-*Rule of thumb for busy managers:* “**One idea, three worlds.** If you can’t point to the trio, park it in a Extention Pattern.”
+When diversity evidence is load-bearing, record domain-family coverage, non-trivial difference, and bridge evidence. Quality-diversity telemetry such as `Diversity_P` or `IlluminationSummary` can support the projection record only through its governing C.17, C.19, or direct pattern; it is not a standalone gate.
 
-### A.8:5 - Archetypal Grounding (System / Episteme)
+### A.8:4 - Conformance Checklist
 
-| Universal `U.Type` | **Domain 1 - Physics**                  | **Domain 2 - Life Sci.**            | **Domain 3 - Tech & Soc.**       | Congruent Role                |
-| ------------------ | --------------------------------------- | ----------------------------------- | -------------------------------- | ----------------------------- |
-| `U.Objective`      | *Free Energy* minimum in thermodynamics | *Fitness* maximisation in evolution | *Loss* minimisation in ML        | Extremum driver of change     |
-| `U.System`         | Thermodynamic control volume            | Biological organism (cell membrane) | Cyber‑physical system (IoT edge) | Bounded interacting whole     |
-| `U.Resource`       | Joules of energy                        | ATP molecules                       | Budget dollars                   | Conserved, spendable quantity |
+| Check | Requirement |
+| --- | --- |
+| `CC-A8-1` | The candidate has an `E.24.UK` durable U-kind admission basis before A.8 is applied. |
+| `CC-A8-2` | The A.8 claim is kernel-level universal-core admission, not C.3 typed reasoning. |
+| `CC-A8-3` | At least three domain-family projections are recorded. |
+| `CC-A8-4` | Each projection states the same abstract contribution in that domain. |
+| `CC-A8-5` | Differences and losses are explicit; same-word evidence alone is insufficient. |
+| `CC-A8-6` | A failed A.8 test lowers the candidate to local use, dependent value, Concept-Set row, C.3 `U.Kind`, or direct governing pattern rather than preserving a universal U-kind by name. |
 
-These juxtapositions give engineer‑managers an immediate sense of *why* each primitive is worth learning.
+### A.8:5 - Relations
 
-### A.8:6 - Conformance Checklist
-
-| ID          | Requirement                                                                                                                            | Purpose                                                 |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| **CC‑UC 1** | A proposed `U.Type` **SHALL** include ≥ 3 Role‑Projection records, each taken from a *different* domain family.                        | Enforces the Three‑Domain Test.                         |
-| **CC‑UC 2** | Each Role‑Projection **MUST** explain in ≤ 30 words how the domain notion fulfils the *same Role* as the proposed `U.Type`. | Blocks superficial analogies.                           |
-| **CC‑UC 3** | No single exemplar may serve for more than one domain projection.                                                          | Prevents contrived “triple duty” examples.              |
-| **CC‑UC 4** | A **specialised** `U.SubType` inherits its parent’s projections **and** adds ≥ 1 new domain projection, never fewer.                   | Keeps refinements as universal as their parents.        |
-| **CC‑UC 5** | While the U‑Index > 0.05, authors **SHALL** prioritise supplying missing projections over adding new core concepts.                    | Maintains kernel health without procedural bureaucracy. |
-| **CC‑UC‑2‑QD‑triad.** | The three Role‑Projections come from **different domain‑families** AND the triad PUBLISHES: `{FamilyCoverage, MinInterFamilyDistance, Diversity_P, IlluminationSummary}` with `MinInterFamilyDistance ≥ δ_family` (per **F1‑Card** DistanceDef & edition). + Provenance MUST cite `DescriptorMapRef` (incl. `DistanceDef`/edition), `F1‑Card id+edition`, and the grid/binning policy used for `IlluminationSummary`.  | quality diversity of domains |
-
-### A.8:7 - Consequences
-
-| Benefit                                                                                                    | Trade‑off                                     | Mitigation                                                 |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------- |
-| **Lean, trusted kernel** – every primitive earns its place by real work in three worlds.                   | Authoring effort for projections.             | Patterns A 5/A 6 provide templates and exemplar libraries. |
-| **Cross‑disciplinary recognition/adoption** – physicists, managers, and biologists see their own language reflected.     | Some novel ideas wait to gather evidence.     | They live safely in Extention Patterns until mature.                 |
-| **Resilience to domain drift** – if one field’s jargon changes, the other two anchors preserve continuity. | Possible oversimplification of niche nuances. | Domain‑specific elaborations belong in FPF patterns.      |
-
-### A.8:8 - Rationale
-
-Deep research over the last decade shows *structural homologies* across domains:
-
-* Free‑energy minimisation ↔ negative log‑likelihood ↔ Bayesian surprise (Friston 2023).
-* Conservation laws in physics mirror budget balancing in economics (Rayo 2024).
-
-By demanding three independent manifestations, FPF captures these convergences *without privileging* any single vocabulary.  The principle operationalises **Popperian falsifiability** for universality: a concept that cannot survive a three‑domain cross‑examination is, by definition, not a first principle.  This guards Pillars **P‑1 (Cognitive Elegance)** and **P‑4 (Open‑Ended Kernel)** simultaneously.
-
-### A.8:9 - Relations
-
-| Relation             | Linked Pattern                       | Contribution                                                          |
-| -------------------- | ------------------------------------ | --------------------------------------------------------------------- |
-| **Supports**         | A 11 Ontological Parsimony           | Filters candidates before sunset reviews.                             |
-| **Prerequisite for** | A 9 Cross‑Scale Consistency          | Only universal types can propagate invariants up and down holarchies. |
-| **Complementary**    | A 7 Strict Distinction               | Together provide clarity (A 7) and breadth (A 8).                     |
-| **Enables**          | B 1 Universal Algebra of Aggregation | Γ‑operators rely on domain‑agnostic operands.                         |
-
-### A.8:10 - Known Uses
-
-* **Energy ↔ Budget ↔ Attention** – Engineering teams reused `U.Resource` to reason about battery charge, project funds, and user‑attention minutes with one algebra, cutting integration effort by half (2024 pilot).
-* **Objective unification** – An AI lab mapped *loss functions*, a bio‑lab mapped *Darwinian fitness*, and a factory mapped *scrap‑rate* all to `U.Objective`, enabling shared optimisation tooling.
-
-These cases validated that the Three‑Domain Test is achievable in practice, not theoretical paperwork.
-
-### A.8:11 - Open Questions
-
-1. **Domain taxonomy stability** – Should the five domain families be versioned as science evolves (e.g., quantum‑bio‑tech)?
-2. **Automated congruence checks** – Can category‑theoretic tooling semi‑automate the functional‑role equivalence test?
-3. **Edge‑case hybrids** – How are bio‑cyber‑physical chimera systems counted: a new domain or a composite projection?
+- **Builds on:** `E.24.UK`, `A.11`, `C.3`, `C.3.1`, `F.8`, and `F.18`.
+- **Coordinates with:** Concept-Set and bridge patterns when domain-family projections require cross-context naming or translation.
+- **Does not replace:** `E.24.UK` for U-kind admission, `A.11` for parsimony, or `C.3` for typed claim quantification.
 
 ### A.8:End
 

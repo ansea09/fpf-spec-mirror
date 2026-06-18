@@ -6,12 +6,12 @@ section_id: "E.11:4.6"
 section_title: "Projection and Authority Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_projection-and-authority-boundary.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.6 — Projection and Authority Boundary"
-line_start: 62490
-line_end: 62505
+line_start: 61854
+line_end: 61869
 dependencies:
   - "E.10"
   - "E.10.ARCH"

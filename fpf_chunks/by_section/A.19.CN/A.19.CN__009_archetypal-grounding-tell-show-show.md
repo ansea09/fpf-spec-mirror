@@ -6,12 +6,12 @@ section_id: "A.19.CN:8"
 section_title: "Archetypal Grounding (Tell‑Show‑Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__009_archetypal-grounding-tell-show-show.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:8 — Archetypal Grounding (Tell‑Show‑Show)"
-line_start: 25470
-line_end: 25590
+line_start: 25576
+line_end: 25696
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -76,7 +76,7 @@ keywords:
 * `normalization`: case‑mix adjustment (propensity score); invariant = adjusted ΔBP
 * `comparability`: **normalization‑based (UNM)** (post‑adjustment)
 * `aggregation`: LOC on subcohorts; WLNK on safety outcomes
-* **RSG hook**: `EvidenceRole.Validated` admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
+* **RSG hook**: evidence-use validation of an admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
 
 #### A.19.CN:8.4 - Worked mini-schemas (entity/relational mixtures across CN‑frames, informative)
 

@@ -6,12 +6,12 @@ section_id: "F.9:13"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_anti-patterns-and-repairs.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:13 — Anti-patterns and repairs"
-line_start: 74798
-line_end: 74813
+line_start: 74451
+line_end: 74466
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -62,7 +62,7 @@ keywords:
 | AP-6 | CL without counter-example | "These are CL=3" with no invariant check. | Inflates row scope. | For `CL = 3`, cite invariants; otherwise demote and add a counter-example. |
 | AP-7 | Bridge inflation | Many near-duplicate Bridges between the same contexts. | Noise hides material alignments. | Prefer one Bridge per pair of cells per relevant `senseFamily`; fold variants into Loss Notes. |
 | AP-8 | Row outruns Bridge | A Concept-Set row claims stronger use than the weakest participating Bridge admits. | Row scope exceeds the stated evidence. | Apply weakest-link discipline: row admitted use is no stronger than the weakest Bridge. |
-| AP-9 | Bridge as new `U.Type` | A Bridge is used to justify a new universal type. | Re-globalizes meaning. | Keep types context-local unless A.11 and F.8 admit a durable type candidate. |
+| AP-9 | Bridge as durable U-kind | A Bridge is used to justify a new universal kind. | Re-globalizes meaning. | Keep kinds context-local unless E.24.UK, A.11, and F.8 admit a durable U-kind candidate. |
 | AP-10 | Silent unit or scale mismatch | Measurements cross contexts without unit and scale notes. | Hidden dimensional error. | Put units and scales in Loss Notes; if they cannot be related, use Disjoint or Partial-overlap. |
 | AP-11 | Coarsened note treated as Bridge Card | A summary or redacted comparison is used as if it made substitution admissible. | A bridge claim is smuggled through a lighter rendering. | Reopen the source-bearing episteme or publication and write the Bridge Card before bridge-bearing use. |
 

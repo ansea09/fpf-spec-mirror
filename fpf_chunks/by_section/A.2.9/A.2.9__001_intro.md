@@ -6,12 +6,12 @@ section_id: "A.2.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__001_intro.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:intro — Intro"
-line_start: 5413
-line_end: 5426
+line_start: 5466
+line_end: 5469
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,15 +35,5 @@ keywords:
 
 ## A.2.9 — `U.SpeechAct` (Communicative Work Object)
 
-> **Type:** Definitional (D)
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A → **A.2 Roles & Agency Kernel**
-> **Refines:** A.2 (Role Taxonomy)
-> **Builds on:** A.2.1 (RoleAssignment), A.2.6 (`Γ_time` / windows), A.7 (EntityOfConcern / Description episteme / carrier), A.10 (SCR/RSCR carrier discipline), A.15.1 (`U.Work`)
-> **Purpose (one line):** Provide a minimal, lintable kernel object for **communicative enactments** (approvals, authorizations, revocations, notices, declarations, publications) as **`U.Work`**, explicitly separating the **act** from its **utterance descriptions** and **evidence carriers**, so governance and gating can cite `SpeechActRef` without “contract soup” or episteme‑as‑agent mistakes.
-
-> FPF already treats communicative acts as observable events used in role-state checklists and grounding (“presence of act: AuthorizationSpeechAct exists…”, and `U.SpeechAct` is listed as an observable basis for state assertions).
-> The spec’s micro-examples and conformance gates distinguish **communicative Work** (“performed a SpeechAct”) from **operational Work** (“executed Work”) while keeping both inside `U.Work` (cf. CC‑A15‑10 GateSplit).
-> F.18 currently frames `U.SpeechAct` as the “utterance” label in the promise/utterance/commitment triad; A.2.9 keeps that as **naming intuition** while putting the ontology and conformance discipline in Part A where it can be linted and reused.
 

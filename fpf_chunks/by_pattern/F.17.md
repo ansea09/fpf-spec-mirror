@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.17 — Unified Term Sheet"
-line_start: 77498
-line_end: 77763
+line_start: 77151
+line_end: 77414
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,8 +50,6 @@ keywords:
 
 ## F.17 - Unified Term Sheet
 > **Status:** Stable
-
-Status: stable pattern.
 
 Use this when a term decision must become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and must be shown as one reviewed term row.
 
@@ -132,7 +130,7 @@ The row may cite several local senses and several bridges, but it does not fuse 
 
 `ThreadContextRef` names the bounded context and edition in which the sheet is current.
 
-`GovernedObjectKindOrValueRef` names the specified kind, local concept, relation, slot kind, status family, role, or other governed value being named. Use `U.Type` only when the row really names a U-kind. Do not force local concepts, slot kinds, relation kinds, status values, or role assignments into `U.Type`.
+`GovernedObjectKindOrValueRef` names the specified kind, local concept, relation, slot kind, status family, role, or other governed value being named. Use an admitted durable U-kind, C.3 `U.Kind`, or direct governed value kind only when that is the recovered object. Do not force local concepts, slot kinds, relation kinds, status values, or role assignments into a generic kind container.
 
 `DirectGoverningPatternRef` names the pattern that owns the underlying object or claim. `F.17` owns the term-row publication, not the object.
 

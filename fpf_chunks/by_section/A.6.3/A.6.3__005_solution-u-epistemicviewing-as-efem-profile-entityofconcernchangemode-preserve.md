@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-entityofconcernchangemode-preserve.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
-line_start: 10918
-line_end: 11121
+line_start: 11005
+line_end: 11208
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -48,25 +48,25 @@ In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the epistem
 #### A.6.3:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
 **Signature header.**
-`U.EpistemicViewing` is a **Morphism‑kind** under A.6.0:
+`U.EpistemicViewing` is a morphism profile under A.6.0:
 
 ```
 SubjectBlock
   SubjectKind    = U.EpistemicViewing
-  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
-  Quantification = SliceSet := U.ContextSliceSet;
+  RangedValueKind = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
+  Quantification = SliceSet := ContextSliceSet;
                    ExtentRule := admissible view morphisms
-  ResultKind     = U.Morphism                        // an instance v
+  ResultKind     = EpMorphism                        // local typed arrow v in the Ep category
 ```
 
 **Vocabulary (re‑uses A.6.2).**
-* **Types.** `U.Episteme`, `U.SubjectRef`, `U.Morphism`, `U.EpistemicViewing`.
+* **Types.** `U.Episteme`, `SubjectRef`, `EpMorphism`, `U.EpistemicViewing`.
 * **Operators.**
-  * `id    : U.Morphism(X→X)`
-  * `compose(g,f) : U.Morphism(X→Z)` where `f:X→Y`, `g:Y→Z`
+  * `id    : EpMorphism(X->X)`
+  * `compose(g,f) : EpMorphism(X->Z)` where `f:X->Y`, `g:Y->Z`
   * `apply(v, x:U.Episteme) : U.Episteme`
   * `dom(v), cod(v) : U.Episteme`
-  * `subjectRef(-) : U.SubjectRef`
+  * `subjectRef(-) : SubjectRef`
 **SlotKind-specific discipline.**
 Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
   * `EntityOfConcernSlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`),
@@ -121,8 +121,8 @@ EpistemicViewing remains **pure** in the EFEM sense:
   * `representationSchemeRef` and `ReferenceScheme` (within a fixed representation family or under a declared `CorrespondenceModel`),
   * meta‑components (edition, provenance, status flags).
 * It **MUST NOT**:
-  * invoke `U.Mechanism` or `U.WorkEnactment` (measure, execute, actuate),
-  * create or modify `U.PresentationCarrier` (no direct publication rendering or carrier writing),
+  * invoke `U.Mechanism` or perform `U.Work` (measure, execute, actuate),
+  * create or modify a presentation carrier, publication carrier, file, database, or rendered artifact,
   * cross ReferencePlanes implicitly (plane crossings go through Bridges with CL penalties in Part F).
 
 Any operational machinery (e.g. SAT/SMT solving, simulation, LLM tool‑use) MUST be modelled as a **separate `U.Mechanism`** that produces input epistemes or auxiliary epistemes or carriers consumed by the EpistemicViewing morphism.

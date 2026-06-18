@@ -6,12 +6,12 @@ section_id: "E.24.PUB:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__005_forces.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:3 — Forces"
-line_start: 71394
-line_end: 71403
+line_start: 70761
+line_end: 70770
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -26,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"

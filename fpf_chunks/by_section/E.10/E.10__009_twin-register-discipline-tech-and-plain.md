@@ -6,12 +6,12 @@ section_id: "E.10:6.2"
 section_title: "Twin‑Register Discipline (Tech and Plain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_twin-register-discipline-tech-and-plain.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6.2 — Twin‑Register Discipline (Tech and Plain)"
-line_start: 60706
-line_end: 60781
+line_start: 60070
+line_end: 60145
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,13 +29,12 @@ dependencies:
   - "F.18"
   - "F.19"
   - "F.5"
-  - "U.Types"
 keywords:
 ---
 
 ### E.10:6.2 - Twin‑Register Discipline (Tech and Plain)
 
-**Plain twin (LEX).** A registry entry pairing the **authoritative Tech label** with a **display‑only Plain label** for one `U.Type` **in one `U.BoundedContext`**; governed by **PTG (Plain Twin Governance; in the LEX registry)** and referenced by `Twin‑Map ID (LEX)`. *“Plain twin” ≠ the **Plain register** (the register is where twins may be used; the twin is the 1:1 mapping).*
+**Plain twin (LEX).** A registry entry pairing the **authoritative Tech label** with a **display-only Plain label** for one governed Tech meaning in one `U.BoundedContext`: an admitted durable U-kind, C.3 `U.Kind`, Concept-Set row, imported signature symbol, or other directly governed value. Governed by **PTG (Plain Twin Governance; in the LEX registry)** and referenced by `Twin-Map ID (LEX)`. *“Plain twin” ≠ the **Plain register** (the register is where twins may be used; the twin is the 1:1 mapping).*
 **Convention.** In this spec, **Plain** (capitalized) names the register; **plain twin** (lowercase) names the 1:1 mapping entry.
 
 > **Rule R‑0 (Registers).** Every Kernel and Extenstion patterns concept has a **Tech label** (the testable semantic token) and an optional **Plain label** (didactic synonym). The **Tech label is authoritative**; the Plain label is permitted *only* in expository text and must map 1:1 to the Tech meaning inside the current **Context**.

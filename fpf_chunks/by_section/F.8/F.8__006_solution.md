@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:4 — Solution"
-line_start: 74188
-line_end: 74277
+line_start: 73841
+line_end: 73930
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -80,7 +83,7 @@ Admissible decision kinds:
 - `nameDirectPatternValue`;
 - `introducePolicyId`;
 - `proposeConceptSetRow`;
-- `proposeUTypeCandidate`;
+- `proposeUKindCandidate`;
 - `blockOrLowerUse`.
 
 #### F.8:4.1 - Decision Targets
@@ -95,7 +98,7 @@ Admissible decision kinds:
 | A status, evidence, source, requirement, publication, assurance, gate, decision, method, work, relation-position, characteristic, or architecture value | `nameDirectPatternValue` only after the direct pattern recovers the value | Direct governing pattern, then `F.5` or `F.18` if durable naming is current |
 | A policy identifier | `introducePolicyId` or reuse with resolvable refs | `F.8:8.1`, plus the pattern governing the policy use |
 | A recurring cross-context row not yet present | `proposeConceptSetRow` | `F.7`, `F.9` |
-| A missing cross-family primitive | `proposeUTypeCandidate` | `A.8`, `C.3`, `E.9`, `F.18` |
+| A missing cross-family primitive | `proposeUKindCandidate` | `E.24.UK`, `A.8`, `A.11`, `C.3`, `E.9`, `F.18` |
 
 #### F.8:4.2 - Decision Sequence
 
@@ -109,7 +112,7 @@ Use this order. Stop at the first result that fits the recovered kind and use.
 6. **Check alias.** If the meaning is the same and only wording changes, use alias discipline. Do not let an alias change kind or scope.
 7. **Check policy id.** If the candidate is a policy identifier, require `PolicyIdRef` discipline in `F.8:8.1`.
 8. **Propose new row.** If the need recurs across contexts and bridges admit the intended use but no row exists, propose a small Concept-Set row.
-9. **Propose new `U.Type` only rarely.** Use this only when the candidate is cross-family, irreducible to existing FPF values, and governed by an accepted decision record.
+9. **Propose new U-kind only rarely.** Use this only when the candidate is cross-family, irreducible to existing FPF values, governed by `E.24.UK`, and then accepted under the relevant A.8, A.11, C.3, E.9, and F.18 law.
 10. **Block or lower.** If none of the above is true, keep the expression local, quote it as source wording, or lower the claim.
 
 #### F.8:4.3 - Role Expression Boundary
@@ -135,7 +138,7 @@ F.8 consumes row scope; it does not define bridge strength. `F.9` declares bridg
 | Naming-only | Shared prose label, glossary text, teaching label | assignment, performed work, structural inference, measurement equivalence |
 | Role-description naming | RoleDescription label can cite the row as a comparison aid when one local `U.Role` remains primary | cross-context role assignment by row alone |
 | Measurement naming | Shared measurement label where units and procedure constraints remain visible | procedure interchange without the measurement pattern |
-| Type-structure naming | Name for an admitted structural relation under the row's invariants | universal `U.Type` without the Type and decision patterns |
+| Type-structure naming | Name for an admitted structural relation under the row's invariants | universal U-kind without `E.24.UK` and direct decision-pattern admission |
 
 If the row does not admit the intended use, lower the name's use or open the direct bridge or row repair. Do not strengthen a name because the wording is attractive.
 

@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 60851
-line_end: 61090
+line_start: 60215
+line_end: 60454
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "F.18"
   - "F.19"
   - "F.5"
-  - "U.Types"
 keywords:
 ---
 
@@ -117,7 +116,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 
 **L-Space - Disciplined use of *Space***
 * Use *Space* only for **CHR‑grounded measurement and state constructs** such as `CharacteristicSpace` per A.19. Do **not** coin generic `…Space` for sets, portfolios, or publication forms. Publish portfolios and archives as **sets** via admissible selectors; publish them on UTS as **views** or **cards**, not as spaces.
-* **Field‑name guard (Kernel blocks).** In **Kernel conceptual blocks** (e.g., A.6.0 and A.6.1 lists), **do not** name a field `…Space`; reserve *Space* to the **types** (CHR and ReferencePlane families). Use **BaseType** as the field name and let the referenced `U.Type` carry `…Space` where appropriate; otherwise, for set‑valued universes, use `…Set`.
+* **Field-name guard (Kernel blocks).** In **Kernel conceptual blocks** (e.g., A.6.0 and A.6.1 lists), **do not** name a field `…Space`; reserve *Space* to CHR-grounded measurement and ReferencePlane constructs when those are the governed value kinds. Use **RangedValueKind** as the field name in A.6 SubjectBlock declarations and let the referenced C.3 kind, admitted durable U-kind, Concept-Set row, or imported signature symbol carry `…Space` where appropriate; otherwise, for set-valued universes, use `…Set`.
 * Space is a geometric concept. Do not use it as a suffix or morpheme for non-geometric sets, portfolios, or publication forms; use `Set`, `Kit`, `Bundle`, `Portfolio`, or another direct governed kind when that is the current object.
 
 **L‑ROLE — disciplined use of *Role***
@@ -177,7 +176,7 @@ Keep it instead in:
 * or one bounded lexical-query record governed by `F.17`, `UTS`, or `F.18`.
 
 This block remains one editorial lexical-query set.
-It does not mint names, aliases, `U.Types`, bridges, or semantic equivalences
+It does not mint names, aliases, durable U-kinds, bridges, or semantic equivalences
 by itself.
 When visible, it should distinguish at least:
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
-line_start: 71901
-line_end: 72224
+line_start: 71554
+line_end: 71877
 dependencies:
   - "A.11"
   - "A.7"
@@ -45,7 +45,7 @@ keywords:
 
 **Intent.** Establish a **finite set of U.BoundedContext** (“**context of meaning**”), each tied to an authoritative source or canon within a **domain family**, so that all later moves (term harvesting, clustering, role naming, cross‑context bridges) operate on **local meanings** rather than on drifting, globalised words.
 
-**Applicability.** Use **at the start** of any unification effort for **any FPF pattern** (Enactment (`U.RoleAssignment` + `U.RoleEnactment`), Sys-CAL, KD-CAL, Kind-CAL, LCA-CAL…) and **whenever** a discipline canon materially changes (new edition, re-framing, seminal result).
+**Applicability.** Use **at the start** of any unification effort for **any FPF pattern** (role assignment and performed-work attribution, Sys-CAL, KD-CAL, Kind-CAL, LCA-CAL…) and **whenever** a discipline canon materially changes (new edition, re-framing, seminal result).
 
 **Non‑goals.** No tooling, workflow, or editorial roles. No global ontology. No cross‑context equations. This pattern describes **how to think**, not how to store.
 
@@ -157,7 +157,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 ### F.1:10 - Micro‑examples (illustrative only)
 
-*One unification line: Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing and execution.*
+*One unification line: role assignment and performed-work attribution with sensing and execution.*
 
 * **BPMN 2.0 (2011)** — *workflow family*.
   *Scope gist:* flow nodes, sequence flows, participants (design‑time).
@@ -200,7 +200,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 > Each example shows **the cut** (the Contexts you keep in view) and the **thinking pay‑off** you get *before* any harvesting, clustering, or bridging.
 
-#### F.1:12.1 Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing & execution (service acceptance)
+#### F.1:12.1 Role assignment and performed-work attribution with sensing and execution (service acceptance)
 
 **Unification line.** Enactment + KD‑CAL (sensing) + Sys‑CAL (execution).
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.5.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
-line_start: 37482
-line_end: 37666
+line_start: 37610
+line_end: 37796
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,7 +33,7 @@ keywords:
 ## C.2.5 - `U.LanguageStateClosureDegree`
 
 > **Type:** Definitional (D)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state closure degree.
@@ -53,6 +53,10 @@ Closure is often hidden inside vague words such as "ready", "settled", or "open"
 
 ### C.2.5:4 - Solution
 `U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
+
+#### C.2.5:4.0a - E.24.UK settlement
+
+`U.LanguageStateClosureDegree` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -102,7 +106,7 @@ The pattern makes closure explicit, which resists hidden overconfidence but may 
 
 ### C.2.5:8 - Common Anti-Patterns and How to Avoid Them
 - **Closure by mood.** A sentence sounds decisive, so teams assume high closure. Publish `CD` explicitly.
-- **Irreversible drift.** Closure rises informally but no reopen path exists. Use `A.16.2`.
+- **Irreversible drift.** Closure rises informally but no reopening condition exists. Use `A.16.2`.
 - **Authority smuggling.** High closure is treated as if it were automatically a gate or obligation. Route those consequences through the proper governing patterns.
 
 ### C.2.5:9 - Consequences
@@ -118,7 +122,6 @@ The facet aligns with iterative design, open-world reasoning, and exploratory se
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
 - Coordinates with: `C.2.4`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`.
 - Constrains: reopen, backoff, and endpoint docking guards.
-
 ### C.2.5:13 - Worked Examples and Retreat Cases
 
 #### C.2.5:13.1 - Explicit but still open
@@ -155,8 +158,7 @@ Contexts may refine the starter closure anchors, but shall keep the ordinal prog
 Words such as "settled", "closed", "final", or "open" should be treated as migration prompts into explicit `CD` claims and, where needed, into named `A.16.2` moves.
 
 #### C.2.5:15.3 - Boundary reminder
-`CD` is not warrant strength and not a gate decision. It speaks only about the local fixity of the current episteme/publication path and its candidate space.
-
+`CD` is not warrant strength and not a gate decision. It speaks only about the local fixity of the current episteme or publication position and its candidate space.
 ### C.2.5:16 - Closure Publication Package Discipline
 
 #### C.2.5:16.1 - Minimal closure package
@@ -205,7 +207,7 @@ A reviewer should ask:
 - whether the publication distinguishes local closure from whole-context finality.
 
 #### C.2.5:18.2 - False-finality test
-Words such as "final", "settled", or "decided" should be challenged unless the route/guard package is explicit. Final-sounding rhetoric often overstates actual closure.
+Words such as "final", "settled", or "decided" should be challenged unless the route-governance and guard package is explicit. Final-sounding rhetoric often overstates actual closure.
 
 #### C.2.5:18.3 - Cross-facet reminder
 Low `CD` does not imply low articulation, low anchoring, or poor representation. Reviewers should not treat openness as low seriousness.

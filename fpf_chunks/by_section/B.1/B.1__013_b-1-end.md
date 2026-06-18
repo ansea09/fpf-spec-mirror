@@ -6,12 +6,12 @@ section_id: "B.1:End"
 section_title: "B.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__013_b-1-end.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.1 — Universal Algebra of Aggregation (Γ)"
   - "B.1:End — B.1:End"
-line_start: 29716
-line_end: 29717
+line_start: 29824
+line_end: 29825
 dependencies:
   - "A.1"
   - "A.9"

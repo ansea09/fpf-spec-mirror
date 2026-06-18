@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "U.Flow.ConstraintValidity — Eulerian"
+pattern_title: "Flow Constraint Validity — Eulerian"
 section_id: "A.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__001_intro.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.20 — U.Flow.ConstraintValidity — Eulerian"
+  - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:intro — Intro"
-line_start: 28408
-line_end: 28416
+line_start: 28514
+line_end: 28524
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -36,12 +36,14 @@ keywords:
   - "flow"
 ---
 
-## A.20 - U.Flow.ConstraintValidity — Eulerian
+## A.20 - Flow Constraint Validity — Eulerian
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative for flow valuations used by `E.18` `TransformationFlowStructure` under the Eulerian operational interpretation.
 
-**Tech-name.** `U.Flow.ConstraintValidity` (`U.Flow` genus)
+**Tech-name.** `FlowConstraintValidity` for transformation-flow valuations
 **Plain-name.** Flow constraint validity (Eulerian interpretation)
+
+**E.24.UK settlement.** A.20 does not admit `U.Flow` or `U.Flow.ConstraintValidity` as durable U-kinds. It governs the non-U constraint-validity relation for E.18 transformation-flow valuations. `U.Transfer` remains the single relation kind selected by E.18; `FlowConstraintValidity` is a pattern-local technical label for the step-local CV claim, status, and witness discipline.
 

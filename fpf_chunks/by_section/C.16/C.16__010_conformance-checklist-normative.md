@@ -6,12 +6,12 @@ section_id: "C.16:9"
 section_title: "Conformance Checklist (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__010_conformance-checklist-normative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:9 — Conformance Checklist (Normative)"
-line_start: 42001
-line_end: 42014
+line_start: 41335
+line_end: 41348
 dependencies:
   - "A.10"
   - "A.17"
@@ -43,7 +43,7 @@ keywords:
 **CC‑MCHR‑3 - Unit coherence.** Claims that compare or combine values are **grounded in unit coherence** (or declared conversions for interval or ratio).
 **CC‑MCHR‑4 - Comparability honesty.** Ordered comparisons are asserted **only** when **R‑CMP‑1** holds (same‑template direct comparability) or when a **named and cited** transformation basis is provided per **R‑CMP‑2**; otherwise authors use qualitative/set‑level language.
 **CC‑MCHR‑5 - Evidence sufficiency.** Where evidence is required by the template, the measure’s grounds are **conceptually sufficient** to retrace the claim; composition respects **Σ‑1…Σ‑4**.
-**CC‑MCHR‑6 - RSG alignment.** If a measure gates a **state** in an RSG, the checklist criteria **respect scale semantics** and the **EntityOfConcern vs Description-episteme** split. No lifecycle phrasing; use RSG open‑ended moves.
+**CC‑MCHR‑6 - Role-state-relation alignment.** If a measure gates a **state** in `RoleStateRelation@BoundedContext`, the checklist criteria **respect scale semantics** and the **EntityOfConcern vs Description-episteme** split. No lifecycle phrasing; use state assertions and checklist-governed state changes.
 **CC‑MCHR‑7 - Dynamics awareness.** Where discussions involve change, the **CharacteristicSpace** is **named** (characteristics, units, topology) and separated from the **transition law**.
 **CC‑MCHR‑8 - Lexical guard‑rails.** Tech identifiers and headings use **Characteristic, Scale, Level, Value, Score, Unit, and ScoringMethod**; aliases (axis, dimension, points, or stars) appear **only** in explanatory Plain register with a first‑mention mapping to the Tech canon.
 **CC‑MCHR‑9 - Causal-use metric boundary.** A measurement, metric disparity, score, dashboard reading, or benchmark value that reaches `CausalUseActivation` SHALL keep measurement construction, scale legality, comparability, and evidence-stub repair in `C.16`, and SHALL carry causal-use question, causal-ladder rung, causal estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.

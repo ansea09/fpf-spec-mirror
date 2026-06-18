@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.0"
-pattern_title: "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+pattern_title: "U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
 section_id: "A.6.0:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__011_rationale.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+  - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:9 — Rationale"
-line_start: 10005
-line_end: 10018
+line_start: 10084
+line_end: 10097
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.6.0:9 - Rationale
 
-**Why “SubjectBlock”?** A.6.1 showed that making the **ranged-over type explicit** (here: *BaseType*) avoids category mistakes when moving between domains (e.g., *set‑algebra on context slices* vs *equivalence‑classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
+**Why “SubjectBlock”?** A.6.1 showed that making the **ranged-over value kind explicit** (here: *RangedValueKind*) avoids category mistakes when moving between domains (e.g., *set-algebra on context slices* vs *equivalence-classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
 **Why one universal Block?** Experience with extension and mechanism signatures shows the value of a single canonical shape for Vocabulary, Laws, Applicability, and Alignment; A.6.0 factors that universal core so other families can add headers and views without fragmenting the Kernel.
 
 **Informative echoes (post‑2015 SoTA).**

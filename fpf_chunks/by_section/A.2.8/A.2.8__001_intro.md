@@ -6,12 +6,12 @@ section_id: "A.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__001_intro.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:intro — Intro"
-line_start: 5095
-line_end: 5104
+line_start: 5128
+line_end: 5131
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -28,6 +28,8 @@ keywords:
   - ") but makes the structure explicit"
   - "BCP‑14 (RFC 2119/8174)"
   - "adjudication hooks"
+  - "are cues for the modality field after the deontic relation is recovered"
+  - "by themselves"
   - "commitment"
   - "deontics"
   - "evidenceRefs"
@@ -36,15 +38,10 @@ keywords:
   - "permission"
   - "prohibition"
   - "scope+validity window"
+  - "they are not the governed object of this pattern"
 ---
 
 ## A.2.8 - `U.Commitment` (Deontic Commitment Object)
 
-> **Type:** Definitional (D)
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
-> **Placement:** Part A → **A.2 Roles & Agency Kernel**
-> **Refines:** A.2 (Role Taxonomy)
-> **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (EntityOfConcern / Description episteme / carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
-> **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
 

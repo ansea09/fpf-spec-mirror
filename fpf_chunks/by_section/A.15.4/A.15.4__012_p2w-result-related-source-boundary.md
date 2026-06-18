@@ -6,12 +6,12 @@ section_id: "A.15.4:7b"
 section_title: "P2W Result-Related Source Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_p2w-result-related-source-boundary.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:7b — P2W Result-Related Source Boundary"
-line_start: 22027
-line_end: 22032
+line_start: 22121
+line_end: 22126
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,7 +29,6 @@ dependencies:
   - "C.2.1"
   - "E.17"
   - "E.17.EFP"
-  - "U.Flow.ConstraintValidity"
   - "U.Work"
 keywords:
   - "P2W load and position"

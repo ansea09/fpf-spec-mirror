@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 81169
-line_end: 81575
+line_start: 80820
+line_end: 81227
 dependencies:
   - "C.11"
   - "C.18"
@@ -48,7 +48,6 @@ keywords:
 ---
 
 ### G.5:4 - Solution
-
 #### G.5:4.6a - Causal method dispatch declarations
 
 Method selection involving causal methods must declare whether a compared method is an observational predictor, an intervention optimizer, a counterfactual strategy, a causal fairness estimator, a causal-RL policy, or a simulation-only method.
@@ -57,7 +56,7 @@ Optional `MethodFamily.causalUseDispatchSpec?`:
 
 ```text
 MethodFamily.causalUseDispatchSpec? {
-  causalUseQuestionRef?: U.CausalUseQuestion
+  causalUseQuestionRef?: CausalUseQuestionRef
   targetCausalityLadderRung: CausalityLadderRung
   causalUseClaimKind: CausalUseClaimKind
   causalActionPolicyClass?: CausalActionPolicyClass
@@ -75,6 +74,8 @@ MethodFamily.causalUseDispatchSpec? {
   unsupportedUse: CausalUseUnsupportedStatement
 }
 ```
+
+`CausalUseQuestionRef` is a local reference to the causal-use question governed by the causal, evidence, intervention, or simulation pattern current for the case. It is not admitted here as a durable root U-kind.
 
 `causalMethodUseClassification` is a selector-facing method-use classification, not a `U.Role`, role assignment, responsibility, or actor position. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
 
@@ -138,13 +139,13 @@ A registry row represents *a family*, not a single implementation. Minimal field
 A registry row for families that generate tasks/environments and/or co‑evolve solver families. G.5 carries the registry-entry shape, not the generator semantics:
 
 * `Identity`: `GeneratorFamilyId`, `ContextId`, `UTSRowId`.
-* `GeneratorSignatureRef`: conceptual I/O and budget semantics.
+* `GeneratorSignatureRef`: conceptual input/output and budget semantics.
 * `EnvironmentValidityRegionRef?`: pinned constraints for generated environments/tasks.
 * `TransferRulesRef.edition?`: required when the Open-Ended mode is enabled (semantics come from the cited extension refs).
 * `CouplerRefs?`: which `MethodFamilyId[]` can be coupled with this generator family.
 
 **S2 — `TaskSignature` façade (design‑time + run‑time).**
-A minimal typed record the dispatcher consumes. Its role is **pinning and auditability**, not over‑specification. It must be CHR/CAL‑typed and provenance‑aware.
+A minimal typed record the dispatcher consumes. Its function is **pinning and auditability**, not over-specification. It must be CHR/CAL-typed and provenance-aware.
 G.5 treats `TaskSignatureRef` as an input record; it does not define CHR/CAL semantics.
 
 **S3 — `Selection kernel façade` (run‑time; policy‑governed).**
@@ -161,15 +162,15 @@ When the real selector question is acquisition of usable specialization on a dec
 
 The profile should therefore cite one `AdaptationSignatureRef` or equivalent pinned field set carrying the declared `TaskFamilyRef` or `TaskSignature`, the work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, any declared transfer or retention claim, any downside cost or downside on adjacent tasks, and any specialization-entry baseline, specialization-entry evidence, or stepping-stone evidence item that materially affects comparison.
 
-Admission rule for `SpecialistHandoff`: use that handoff kind only when the truthful published result is one heterogeneous handoff bundle whose members occupy different specialization roles that still need to travel together. Do not use it when one ordinary `Shortlist`, `RankedShortlist`, `ExplorationArchive`, or another narrower named result kind already states the result more precisely.
+Admission rule for `SpecialistHandoff`: use that handoff kind only when the truthful published result is one heterogeneous handoff bundle whose members occupy different specialization positions that still need to travel together. Do not use it when one ordinary `Shortlist`, `RankedShortlist`, `ExplorationArchive`, or another narrower named result kind already states the result more precisely.
 
 When the declared task family is heterogeneous, the selector may return one `SpecialistHandoff`, one other narrowed handoff plan, or one small admissible set that preserves rival specialists rather than collapsing them into a fake single winner. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit.
 
 **S4 — `Composition & fallbacks` templates (design‑time).**
-A library of composition shapes (preconditioner → solver → verifier; cascades; meta‑selectors) **as templates**, legality‑checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template.
+A library of composition shapes (preconditioner -> solver -> verifier; cascades; meta-selectors) **as templates**, legality-checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, or selected-set result. When the current object is the method-side relation itself, use `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, or the direct method-composition pattern; a G.5 registry row or selector outcome is not that structure by default. Algebraic, graph, matrix, embedding, or neural selector notation is a mathematical or representation lens when that representation is current.
 
-**S5 — `Publication & telemetry` interface (run‑time).**
-A standard publication interface to publish:
+**S5 — `Publication & telemetry` record boundary (run-time).**
+A standard publication boundary publishes:
 
 * `DRR` (decision rationale) + `SCR` (evidence/confidence citation) with explicit pins,
 * declared selector / selected-set records,
@@ -177,7 +178,7 @@ A standard publication interface to publish:
 
 When the current publication question is selected-set publication rather than one generic registry trace, `Shortlist` is the public selected-set label, `RankedShortlist` is the ordered specialization when order materially belongs to the published result, `ShortlistId` is the emitted public identity, and `ChoiceSet` stays one mathematical gloss rather than the public selected-set label.
 
-**S6 — `Governance & evolution` interface (design‑time).**
+**S6 — `Governance & evolution` declaration boundary (design-time).**
 Versioning, deprecation, and registry evolution discipline (UTS publication; continuity), without minting new Part‑G‑wide types.
 
 #### G.5:4.3 - Selector head and narrower selector families
@@ -186,9 +187,9 @@ Selection/dispatch stays one generic selector head. Narrower selector families m
 
 Method- and generator-specific pressures such as `QD` archives, open-ended declared sets, explore/exploit lenses, or preference comparators do not become part of the selector head. They arrive only through explicit extension declarations and the pins those extensions require.
 
-#### G.5:4.4 - Interfaces (minimal I/O record)
+#### G.5:4.4 - Selector Relation Fields
 
-| Interface                         | Consumes                                                                                                                                                     | Produces                                                                                                                                                                                                                                                   |
+| Selector relation                 | Consumes                                                                                                                                                     | Produces                                                                                                                                                                                                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **G.5‑1 RegisterFamily**          | `SoTA` family cards (from `G.2`), CHR/CAL pins (from `G.3/G.4`), `CNSpecRef.edition`, `CGSpecRef.edition`, `ContextId`                                       | A `MethodFamily` registry row (`MethodFamilyId`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, pinned refs)                                                                                                                                 |
 | **G.5‑2 RegisterGeneratorFamily** | `SoTA` generator family cards (from `G.2`), `ContextId`, pinned refs (including `TransferRulesRef.edition` when applicable)                                  | A `GeneratorFamily` registry row (`GeneratorFamilyId`, `GeneratorSignatureRef`, `UTSRowId`, pinned refs)                                                                                                                                                   |
@@ -355,7 +356,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
   * `EELensPolicyRef` *(or equivalent lens/policy id carried by `C.19`)*
   * `RiskBudgetRef?`
   * `ProbeAccountingRef?`
-  * `FailureBehaviorPolicyId?` *(if degrade behavior is routed through policy)*
+  * `FailureBehaviorPolicyId?` *(if degrade behavior is governed by policy)*
 * `RSCRTriggerKindIds`: `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
 * `Notes (extension discipline; semantics cited):`
 
@@ -401,7 +402,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 * `Notes (extension discipline; semantics cited):`
 
   * G.5 core remains QD‑agnostic; QD semantics are governed by `C.18`.
-  * Post‑2015 families that typically dock here: MAP‑Elites‑class QD (incl. later archive‑centric refinements), CMA‑ME‑class hybrids, modern illumination/coverage telemetry regimes where legality and edition pinning matter.
+  * Post-2015 families that typically use this extension declaration: MAP-Elites-class QD (incl. later archive-centric refinements), CMA-ME-class hybrids, modern illumination/coverage telemetry regimes where legality and edition pinning matter.
 
 **GPatternExtension block: `G.5:Ext.OpenEndedFamilyWiring`**
 

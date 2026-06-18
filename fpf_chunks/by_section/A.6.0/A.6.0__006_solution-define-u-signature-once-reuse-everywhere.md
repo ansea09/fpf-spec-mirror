@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.0"
-pattern_title: "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+pattern_title: "U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
 section_id: "A.6.0:4"
 section_title: "Solution — Define U.Signature once, reuse everywhere"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_solution-define-u-signature-once-reuse-everywhere.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+  - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:4 — Solution — Define U.Signature once, reuse everywhere"
-line_start: 9779
-line_end: 9941
+line_start: 9856
+line_end: 10020
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -34,13 +34,13 @@ keywords:
 
 ### A.6.0:4 - Solution — **Define `U.Signature` once, reuse everywhere**
 
-**Definition.** A **`U.Signature`** is a **public, law-governed declaration** for a named **SubjectKind** on a declared **BaseType**. The Signature **SHALL** expose an explicit **SliceSet** and **ExtentRule**; if quantification is context-independent, the declaration **MUST** use a trivial `SliceSet` (e.g., a singleton) and a constant `ExtentRule` rather than omitting these fields. A Signature (i) introduces a **vocabulary** (types, relations, operators), (ii) states **laws** (axioms and invariants; no operational admissions), and (iii) records **applicability** (where and under which contextual assumptions the declarations hold). Dependencies (**imports**) and exported names (**provides**) are declared in a `SignatureManifest` (see §4.4.1) and are **not** part of the four-row Signature Block. **Discipline for argument-position typing is delegated to A.6.5 `U.RelationSlotDiscipline`: whenever the Vocabulary declares an n-ary relation or operator, SlotSpecs for its parameter positions SHALL be provided as in §4.1.1 and A.6.5.**
+**Definition.** A **`U.Signature`** is a **public, law-governed declaration** for a named **SubjectKind** over a declared **RangedValueKind**. The Signature **SHALL** expose an explicit **SliceSet** and **ExtentRule**; if quantification is context-independent, the declaration **MUST** use a trivial `SliceSet` (e.g., a singleton) and a constant `ExtentRule` rather than omitting these fields. A Signature (i) introduces a **vocabulary** (value kinds, relations, operators), (ii) states **laws** (axioms and invariants; no operational admissions), and (iii) records **applicability** (where and under which contextual assumptions the declarations hold). Dependencies (**imports**) and exported names (**provides**) are declared in a `SignatureManifest` (see §4.4.1) and are **not** part of the four-row Signature Block. **Discipline for argument-position typing is delegated to A.6.5 `U.RelationSlotDiscipline`: whenever the Vocabulary declares an n-ary relation or operator, SlotSpecs for its parameter positions SHALL be provided as in §4.1.1 and A.6.5.**
 
 Where the **Vocabulary** introduces an **n‑ary relation or morphism**, the Signature **SHALL**, for each parameter position `i`, declare a `SlotSpec_i = ⟨SlotKind_i, ValueKind_i, refMode_i⟩` as defined in **A.6.5 `U.RelationSlotDiscipline`**. SlotSpecs live inside the per‑relation parameter block of the **Vocabulary** row and **MUST NOT** introduce additional rows beyond the four‑row Signature Block.
 
 **Arrow form (typing for MVPK).** Express a Signature as a **morphism**
 `SigDecl : ⟨SubjectBlock⟩ → ⟨Vocabulary × Laws × Applicability⟩`
-where `SubjectBlock = ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?⟩`. This makes `U.Signature` directly consumable by **E.17 MVPK** (publication of morphisms) without adding semantics on faces (no new claims; pins for any numeric content).
+where `SubjectBlock = ⟨SubjectKind, RangedValueKind, SliceSet, ExtentRule, ResultKind?⟩`. This makes `U.Signature` directly consumable by **E.17 MVPK** (publication of morphisms) without adding semantics on faces (no new claims; pins for any numeric content).
 
 *Guard clarification (normative).* **Operational guard predicates** (run‑time or admission guards) **BELONG ONLY** to **A.6.1 Mechanisms**. A Signature may express **domain and type constraints** as declaration-level constraints (e.g., restricting an operator’s domain) but **SHALL NOT** encode operational admissions.
 
@@ -59,13 +59,13 @@ The **four conceptual rows** (“SubjectBlock, Vocabulary, Laws, and Applicabili
 
 Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names are universal; family-specific projections are stated below):
 
-1. **SubjectBlock** — ⟨**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**⟩.
-   *SubjectKind* names the EntityOfConcern kind declared by the signature (C.3); *BaseType* is the `U.Type` the signature ranges over (CHR Spaces appear here **as types**, not as field names); *SliceSet* addresses the quantification domain (USM; e.g., **ContextSliceSet**); *ExtentRule* computes `Extension(SubjectKind, slice)` (C.3.2); *ResultKind?* (optional) is the output kind when outputs differ from the SubjectKind.
-   **Editorial split (allowed).** Authors **MAY** render the **SubjectBlock** as two adjacent lines — **Subject** *(SubjectKind, BaseType)* and **Quantification** *(SliceSet, ExtentRule, ResultKind?)* — **without changing semantics**. Even when visually split, SubjectBlock counts as **one** conceptual row.
+1. **SubjectBlock** — ⟨**SubjectKind**, **RangedValueKind**, **SliceSet**, **ExtentRule**, **ResultKind?**⟩.
+   *SubjectKind* names the EntityOfConcern kind declared by the signature (C.3); *RangedValueKind* names the kind of values or entities ranged over through C.3 typed reasoning, admitted U-kind governance, Concept-Set evidence, or an imported signature symbol; *SliceSet* addresses the quantification domain (USM; e.g., **ContextSliceSet**); *ExtentRule* computes `Extension(SubjectKind, slice)` (C.3.2); *ResultKind?* (optional) is the output kind when outputs differ from the SubjectKind.
+   **Editorial split (allowed).** Authors **MAY** render the **SubjectBlock** as two adjacent lines — **Subject** *(SubjectKind, RangedValueKind)* and **Quantification** *(SliceSet, ExtentRule, ResultKind?)* — **without changing semantics**. Even when visually split, SubjectBlock counts as **one** conceptual row.
 
    **Semantic functions of the SubjectBlock kinds (informative)**
    * **SubjectKind (EntityOfConcern kind).** The EntityOfConcern kind declared by the signature (C.3.1), ordered by `⊑`. It carries no Scope.
-   * **BaseType (ranged-over type).** The `U.Type` over which values or entities are ranged. In CHR regimes this may be a `U.CharacteristicSpace` **type**; elsewhere it is a set‑typed `U.Type`.
+   * **RangedValueKind (ranged-over value kind).** The value kind over which values or entities are ranged. It is not a separate durable kind or type ontology; use C.3 `U.Kind`, an admitted durable U-kind, a Concept-Set row, or an imported signature symbol as the meaning source.
    * **SliceSet (addressability).** The addressable set of `U.ContextSlice`s (USM). It identifies where **extent** is computed; it is not a “space” unless CHR.
    * **ExtentRule (extent).** A rule yielding `Extension(SubjectKind, slice)` (C.3.2); this is the quantifier’s domain, computed per slice.
    * **ResultKind? (outputs).** Optional: the output kind for operations declared in *Vocabulary* (use when outputs differ in kind from the SubjectKind).
@@ -78,7 +78,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
 4. **Applicability (Scope and Context)** — conditions under which the laws are valid (bounded context, plane, stance, time notions). Applicability **MUST** bind a **`U.BoundedContext`** (D.CTX). Applicability here is the *context of meaning* for the Signature’s vocabulary and laws; it **MUST NOT** be used to encode claim‑level applicability, which remains a **Scope** on claims (`USM` and `C.3.2`). Cross‑context use **MUST NOT** be implicit; if intended, **name** the Bridge (conceptual reference only). When numeric comparability is implied, **bind** legality to **CG‑Spec and MM‑CHR** (normalize‑then‑compare; lawful scales and units).
 
 *Mapping to existing families (normative projection correspondences).*
-— **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind, BaseType, and the remaining SubjectBlock fields**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).
+— **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind, RangedValueKind, and the remaining SubjectBlock fields**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).
 — **Task, Problem, and Discipline signatures (C.22, G-cluster).** These **SHALL** be introduced as **species of `U.Signature`** that reuse the same four-row Block (SubjectBlock, Vocabulary, Laws, and Applicability); any extra per-family views are projections only (no new conceptual rows).
 
 *Optional projection views (normative).* Publications MAY include additional **projection views** (e.g., a Dependency View listing `imports` and `provides`, or an Assurance View listing audit and evidence hooks), but such views:
@@ -95,10 +95,12 @@ SlotSpec_i := ⟨SlotKind_i, ValueKind_i, refMode_i⟩
 
 where:
 * **SlotKind_i** is a named position in the relation or operator (Tech name with `…Slot` suffix) whose semantics are documented (see A.6.5).
-* **ValueKind_i** is the FPF type (`U.Kind` or kernel‑level type) of admissible values at that position.
+* **ValueKind_i** is the FPF kind of admissible values at that position: a C.3 `U.Kind`, an admitted durable U-kind, a direct governing-pattern value kind, or an imported signature symbol.
 * **refMode_i** is either `ByValue` or a **RefKind** (e.g., `U.EntityRef`, `U.HolonRef`), indicating whether the episteme stores values directly or references or identifiers.
 
 Full discipline and lexical rules for **SlotKind, ValueKind, and RefKind** are given in A.6.5 `U.RelationSlotDiscipline` and E.10 (§8.1). A.6.0 requires that every vocabulary‑level relation or operator that takes arguments **declare** these SlotSpecs; downstream patterns MAY provide templates for common shapes (e.g., episteme slots in C.2.1).
+
+**Settlement for the `U.*` names in this example.** The example below does not admit new durable U-kinds. Names ending in `Ref`, such as `U.MethodRef`, `U.EntityRef`, `U.CharacteristicRef`, and `U.HolonRef`, are RefKind examples governed by A.6.5 and the direct pattern for the referenced value. `U.ClaimGraph` is used only as a ValueKind for `ClaimGraphSlot`, governed by the episteme slot relation in C.2.1 and A.6.5. A.6.0 only requires the SlotSpec form; if a project needs a new durable `U.*` value, E.24.UK and the direct governing pattern must admit it outside this signature example.
 
 **Mini‑example (informative).** For an episteme kind `ModelEvaluationResultKind`, a simplified episteme might expose:
 * `entityOfConcernRef : U.MethodRef`
@@ -167,12 +169,12 @@ A `U.Signature` MAY be prefixed with a lightweight manifest that makes boundary 
 - **Acyclicity.** The directed graph induced by `imports` MUST be acyclic.
 - **Stratum dependency.** `imports` **MUST** respect **E.5.3** (Unidirectional Dependency) and **E.10** strata and token-class discipline; do not import from a lower stratum or across a forbidden dependency direction.
 - **No redeclare.** `provides(S)` MUST NOT re‑declare any symbol already provided by any transitive import of `S`.
-- **No ghost dependencies (vocabulary symbols).** Any non-Kernel **SymbolId** referenced in the **SubjectBlock** or **Vocabulary** rows (including `BaseType`, `ResultKind?`, operator names, SlotKinds, ValueKinds, RefKinds) that is **not** provided by this signature MUST be provided by some imported signature. ClaimIds, BridgeIds, policy-ids, and EditionIds are exempt because they identify claims, bridges, policies, or editions rather than vocabulary symbols exported by this Signature.
+- **No ghost dependencies (vocabulary symbols).** Any non-Kernel **SymbolId** referenced in the **SubjectBlock** or **Vocabulary** rows (including `RangedValueKind`, `ResultKind?`, operator names, SlotKinds, ValueKinds, RefKinds) that is **not** provided by this signature MUST be provided by some imported signature. ClaimIds, BridgeIds, policy-ids, and EditionIds are exempt because they identify claims, bridges, policies, or editions rather than vocabulary symbols exported by this Signature.
 - **Law reference.** When downstream text depends on laws or constraints from an imported signature, it SHOULD cite the corresponding **ClaimId** (A.6.B), not paraphrase prose.
 
 The A.6.0 four-row Block remains the canonical meaning locus for Vocabulary, Laws, and Applicability. The manifest only declares dependency edges and exported names.
 
-* **Token hygiene.** Do **not** mint new `U.*` tokens inside a Signature without an accepted FPF naming and kind decision; prefer referencing existing Kernel or Extension `U.Type`s.
+* **Token hygiene.** Do **not** mint new `U.*` tokens inside a Signature without an accepted FPF naming and kind decision; prefer referencing existing governed U-kinds, C.3 `U.Kind` values, Concept-Set rows, or imported signature symbols.
 
 *MVPK publication discipline for Signatures (normative).* When publishing a `U.Signature` via MVPK (E.17), faces **SHALL** be typed projections that add **no new claims**; any numeric or comparable statement **MUST** pin unit, scale, reference-plane, and **EditionId** to **CG-Spec and MM-CHR** where applicable. For `profile=FormalSubstrate` signatures, faces **MUST** carry a **No-Realization pin** (handlers and realizers absent). For Principle-level signatures, faces **MUST NOT** introduce units, ReferencePlane, or Transport (first mention occurs in UNM).
 
@@ -188,7 +190,7 @@ A.6.0 exposes **three** conceptual knobs; downstream patterns (A.6.1, method or 
 
 #### A.6.0:4.6 - Profile‑specialisation as a structure‑preserving morphism (normative)
 Profile application `ι_profile : U.Signature → U.Signature(profile=…)` **SHALL** be a **structure‑preserving morphism**:
-— **SubjectBlock** is preserved up to α‑renaming (SubjectKind and BaseType unchanged; ResultKind? only added when it exists in the universal intent).
+— **SubjectBlock** is preserved up to α-renaming (SubjectKind and RangedValueKind unchanged; ResultKind? only added when it exists in the universal intent).
 — **Vocabulary** is **monotone** (adds or refines names and sorts without contradicting existing ones).
 — **Laws** are **monotone** (add or strengthen axioms; never weaken).
 — **Applicability** is **restrictive** (binds or tightens `U.BoundedContext`; never widens implicitly).

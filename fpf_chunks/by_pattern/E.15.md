@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
-line_start: 63173
-line_end: 63358
+line_start: 62537
+line_end: 62722
 dependencies:
   - "A.10"
   - "B.3"
@@ -66,7 +66,7 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 3. **Fix acceptance targets** (see §4.4 Quality & SoTA metrics).
 
 **Stage B — Generate candidates (SoTA + NQD)**
-4. **Harvest SoTA** inputs (standards, rival patterns, lived domain idioms) and **bind** them as *evidence* via `U.EvidenceRole` with **claim/claim‑scope/timespan** (empirical vs deductive lines).
+4. **Harvest SoTA** inputs (standards, rival patterns, lived domain idioms) and **bind** them as evidence through evidence-use relations with **claim/claim‑scope/timespan** and polarity (empirical vs deductive lines).
 5. **Generate candidate variants** using **NQD‑CAL** engines (Novelty/Quality/Diversity) with an **E/E policy** (explore↔exploit governor) to populate a **Pareto front** of pattern phrasings/structures. *(No single shot; multiple candidate clauses compete.)*
 
 **Stage C — Shape & Align (Structure, Bridges, USM)**
@@ -93,7 +93,7 @@ A LAT is **not** “we ran a script.” It is a **structured episteme** that let
 
 1. **Context & version** (pattern id, context, SemVer, Delta‑Class).
 2. **Objective vector** (what we tried to improve: clarity, universality, assurance cost, etc.).
-3. **SoTA pack** (sources bound as `U.EvidenceRole` with claim/scope/time and polarity).
+3. **SoTA pack** (sources bound through evidence-use relations with claim/scope/time and polarity).
 4. **NQD settings** (emitters/lenses, diversity characteristics) + **E/E policy** used.
 5. **Candidate set** (top K variants with NQD scores + short deltas from baseline).
 6. **Bridge ledger** (all cross‑context imports with **CL** and loss notes).
@@ -153,7 +153,7 @@ Classify the intended change **before** work starts (declare it in the DRR frami
 Every authoring run **MUST** declare a `U.BoundedContext`, Delta‑Class, objectives, and acceptance lenses **before** generating candidates.
 
 **CC‑LA‑2 (SoTA as evidence).**
-External inputs **MUST** be bound as `U.EvidenceRole` epistemes with **claim, claim‑scope, polarity, timespan** (formal/empirical lines). No raw links.
+External inputs **MUST** be bound through evidence-use relations around source epistemes with **claim, claim‑scope, polarity, timespan** (formal/empirical lines). No raw links.
 
 **CC‑LA‑3 (Open‑ended generation).**
 At least **K≥3** candidate variants **MUST** be generated via **NQD‑CAL** with a declared **E/E policy**; single‑shot edits violate LEX‑AUTH.
@@ -186,7 +186,7 @@ Some ceremony (LAT/DRR, NQD lenses) and maintenance (evidence refresh, bridge up
 
 ### E.15:7 - Rationale & Links (informative)
 
-LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** via `U.EvidenceRole` and **KD‑CAL**, drives **candidate generation** with **C.18 NQD‑CAL** under **C.19 E/E‑LOG**, enforces **lexical discipline** via **E.10 LEX‑BUNDLE**, and validates with **F.15** regression harnesses. Cross‑context safety is carried by **F.9 Bridges** with **CL penalties** in **B.3 Trust**. The whole remains **notation‑independent** (E.5.2) and stays within the **Core → Tooling → Pedagogy** dependency rule (E.5.3).
+LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** through evidence-use relations and **KD‑CAL**, drives **candidate generation** with **C.18 NQD‑CAL** under **C.19 E/E‑LOG**, enforces **lexical discipline** via **E.10 LEX‑BUNDLE**, and validates with **F.15** regression harnesses. Cross‑context safety is carried by **F.9 Bridges** with **CL penalties** in **B.3 Trust**. The whole remains **notation‑independent** (E.5.2) and stays within the **Core → Tooling → Pedagogy** dependency rule (E.5.3).
 
 ### E.15:8 - Operators (authoring deltas you are allowed to apply)
 

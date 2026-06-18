@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__002_intent.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 44895
-line_end: 44916
+line_start: 44259
+line_end: 44280
 dependencies:
   - "C.16"
   - "C.18"
@@ -46,7 +46,7 @@ Operationalise No-Free-Lunch discipline in selection by making every run-time de
   - the work-measure threshold target used in specialization claims is only the declared success mark for the current task family or work target
 #### C.22:1.2 - ProblemCard@Context relation
 
-`ProblemCard@Context` is the `C.22.2`-problem-side record-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
+`ProblemCard@Context` is the `C.22.2` problem-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
 
 A `ProblemCard@Context` record can be used to prepare `ProblemProfile`, `TaskKind`, or candidate `TaskSignature` material for later use. Binding to one `TaskSignature` is admissible only when the downstream selector-facing object is ready. If several downstream signatures remain plausible, keep them as candidate signatures rather than binding one chosen `TaskSignature`.
 

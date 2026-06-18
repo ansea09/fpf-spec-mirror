@@ -6,12 +6,12 @@ section_id: "E.24.CD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__003_problem-frame.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:1 — Problem Frame"
-line_start: 71072
-line_end: 71079
+line_start: 70431
+line_end: 70438
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"

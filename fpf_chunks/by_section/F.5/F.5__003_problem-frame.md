@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
 section_id: "F.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:1 — Problem Frame"
-line_start: 73218
-line_end: 73229
+line_start: 72872
+line_end: 72883
 dependencies:
   - "A.15"
   - "A.2"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.5"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.UK"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -32,12 +33,12 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "U.Type"
 keywords:
-  - "U.Type naming"
+  - "U-kind naming"
   - "lexical rules"
   - "morphology"
   - "naming conventions"
+  - "role-description labels"
   - "twin registers"
 ---
 
@@ -47,7 +48,7 @@ FPF needs names that humans can use without dragging the wrong ontology behind t
 
 This pattern keeps two recurrent naming families separate.
 
-First, a `U.Type` or similar cross-context concept gets its name from a Concept-Set row. The name should be neutral with respect to the witnesses and should name the least shared kind that the row actually admits.
+First, a U-kind or similar cross-context concept gets its name only after the value is admitted by `E.24.UK`, a Concept-Set row, or a direct governing pattern. The name should be neutral with respect to the witnesses and should name the least shared kind that the admission source actually admits.
 
 Second, a role-description episteme labels one work-facing `U.Role` in one bounded context. The label should fit the local idiom and make the role recognizable. It should not make a holder assignment, capability, method, work occurrence, status, evidence relation, permission, publication, or relation slot look like part of the role value.
 

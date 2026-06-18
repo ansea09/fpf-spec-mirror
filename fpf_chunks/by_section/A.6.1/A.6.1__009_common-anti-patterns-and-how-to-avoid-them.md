@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
 section_id: "A.6.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 10331
-line_end: 10344
+line_start: 10412
+line_end: 10425
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,6 +59,6 @@ keywords:
 | Scale-incompatible scalarization | Use characteristic-space, measurement, scale, and comparison rules; keep partial orders set-valued. |
 | Specialization breaks SlotKind identity | Preserve inherited SlotKinds; narrow ValueKinds only where Refinement permits it. |
 | Unknown coerced to zero or false | Use `degrade` or `abstain`. |
-| Method label treated as mechanism law | Recover the current use-position first; use A.6.1 only when operation algebra, laws, admissibility predicates, transport, audit, or realization relation are current. |
+| Method label treated as mechanism law | Recover the current governed claim and relation position first; use A.6.1 only when operation algebra, laws, admissibility predicates, transport, audit, or realization relation are current. |
 | Tool configuration treated as mechanism declaration | Keep tool settings in the direct tooling, publication, work, or evidence pattern; put only mechanism semantics in A.6.1. |
 

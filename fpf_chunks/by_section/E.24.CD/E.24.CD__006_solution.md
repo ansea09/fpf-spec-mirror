@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:4 — Solution"
-line_start: 71100
-line_end: 71210
+line_start: 70459
+line_end: 70574
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -44,6 +45,7 @@ OnticCandidateCluster:
   PossibleSlotRelation:
   ExistingGoverningPatterns:
   HiddenFormClassification:
+  UKindPressure:
   FirstUseGain:
   NonUseDisposition:
   NextPattern:
@@ -59,9 +61,10 @@ Read the rows this way:
 - `PossibleSlotRelation` sketches the candidate relation only enough to decide whether E.24 should open.
 - `ExistingGoverningPatterns` lists direct patterns that may already close the case.
 - `HiddenFormClassification` selects one of the dispositions below.
+- `UKindPressure` names any `U.*`, type, kind, subkind, title, filename, heading, ToC row, or structural name whose public shape could over-admit durable FPF kindhood.
 - `FirstUseGain` says what becomes easier, safer, or more action-facing if the candidate becomes an ontic.
 - `NonUseDisposition` blocks the main overread if no durable ontic is selected.
-- `NextPattern` names the next governing pattern: usually `E.24`, `E.24.PUB`, `A.19.ECS`, a direct subject pattern, or `E.10.ARCH`.
+- `NextPattern` names the next governing pattern: usually `E.24`, `E.24.UK`, `E.24.PUB`, `A.19.ECS`, a direct subject pattern, or `E.10.ARCH`.
 
 #### E.24.CD:4.1 - Detection Signals
 
@@ -76,7 +79,8 @@ Useful signals include:
 5. **Weak identity in current text.** The concern is used as if it has identity, but the identity criterion is missing or inconsistent.
 6. **Direct-pattern strain.** Existing governing patterns carry the values, but users still need a stable relation among them.
 7. **Publication-form temptation.** A card, record, table, schema, diagram, view, source row, or data structure is treated as the object because it is visible.
-8. **Dependent-pattern burden.** Nearby patterns need a shared settlement and would otherwise copy the same local ontology.
+8. **U-kind pressure.** A `U.*` spelling, earlier type/kind wording, heading, title, filename, or ToC row appears to claim kindhood before the governed object is recovered.
+9. **Dependent-pattern burden.** Nearby patterns need a shared settlement and would otherwise copy the same local ontology.
 
 If the signals do not cohere around one concern, do not open E.24.CD only to collect them. Use the direct governing pattern, `E.10.ARCH`, `E.24.PUB`, or a local-use disposition.
 
@@ -87,6 +91,7 @@ Classify the detected construct before opening E.24:
 | Classification | Meaning | Next move |
 | --- | --- | --- |
 | Durable ontic candidate | The concern appears to need stable identity, a type-level slot relation, semantic area, ontological neighborhood, and dependent-pattern reliance. | Open `E.24`. |
+| U-kind admission pressure | The remaining question is whether a visible `U.*` spelling or earlier type/kind wording should survive in a structural location or public name. | Recover the concern and typed values, then use `E.24.UK`; candidate detection does not admit the U-kind. |
 | Local use frame | The relation is useful in one bounded use family, but all filled values are already governed elsewhere and no dependent pattern needs a reusable ontic. | Keep local; cite governing patterns for fillers. |
 | Direct governing-pattern use | One existing pattern already carries the claim. | Use that pattern directly. |
 | Publication-form-only case | The visible object is a card, record, table, schema, diagram, view, packet, or source form that publishes or organizes another EoC. | Use `E.24.PUB` or the relevant publication pattern. |
@@ -133,6 +138,7 @@ Example: an "ArchitectureDecisionRecord" may carry an architecture move, selecte
 Stop E.24.CD when one of these dispositions is reached:
 
 - **Open E.24:** durable ontic candidate is selected for a full ontic-introduction decision.
+- **Open E.24.UK:** the concern is recovered and the remaining decision is root or dependent U-kind admission, C.3 typed-reasoning governance, non-U disposition, or structural-name repair.
 - **Use existing pattern:** a direct governing pattern carries the claim.
 - **Keep local:** a bounded local use frame is enough and is explicitly non-`U.*`.
 - **Use publication discipline:** the problem is confusion among the ontic, its description, and publication form.

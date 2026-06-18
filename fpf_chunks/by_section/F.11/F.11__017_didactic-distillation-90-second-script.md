@@ -6,12 +6,12 @@ section_id: "F.11:16"
 section_title: "Didactic distillation (90‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__017_didactic-distillation-90-second-script.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:16 — Didactic distillation (90‑second script)"
-line_start: 75832
-line_end: 75840
+line_start: 75485
+line_end: 75493
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -46,5 +46,5 @@ keywords:
 > Keep **design** and **run** as distinct **stances**. Plans and approvals live in the **design stance**; measurements and obligations live in the **run stance** within **Windows**.
 > Words like *process*, *task*, *activity*, *command* are **context‑local**—say *process (BPMN)*, *activity (PROV)*, *task (IEC)*. If you must relate them, draw a **Bridge** and declare its **kind**, **CL**, and **Loss**.
 > For compliance, don’t point at the plan—point at **Work**, show **Observations**, and judge clauses in **F.10**.
-> Hold this quartet in your head and you’ll stop mixing plans with facts, signals with outcomes, and names across Contexts. + Everything else—naming (F.5), `U.RoleDescription` (F.4) and `U.RoleAssignment`/`U.RoleEnactment` (A.2.1/F.6), Bridges (F.7/F.9)—falls into place.
+> Hold this quartet in your head and you’ll stop mixing plans with facts, signals with outcomes, and names across Contexts. Everything else—naming (F.5), `U.RoleDescription` (F.4), `U.RoleAssignment`, and performed-work attribution (A.2.1/F.6)—falls into place.
 

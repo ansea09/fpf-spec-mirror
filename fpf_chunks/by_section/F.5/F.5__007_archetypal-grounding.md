@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
 section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:5 — Archetypal Grounding"
-line_start: 73334
-line_end: 73371
+line_start: 72988
+line_end: 73025
 dependencies:
   - "A.15"
   - "A.2"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.5"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.UK"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -32,12 +33,12 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "U.Type"
 keywords:
-  - "U.Type naming"
+  - "U-kind naming"
   - "lexical rules"
   - "morphology"
   - "naming conventions"
+  - "role-description labels"
   - "twin registers"
 ---
 
@@ -52,7 +53,7 @@ A Concept-Set row compares:
 - ML practice `metric reading`;
 - a dashboard value exported for subsequent comparison.
 
-The row does not justify naming the `U.Type` `Observation` merely because one source tradition uses that word. It also does not justify `DashboardValue` if the dashboard is only one publication form. A name such as `Reading` or `Result` is admissible only if the row shows the shared invariant: produced value or record admitted for comparison in the declared context.
+The row does not justify naming the U-kind `Observation` merely because one source tradition uses that word. It also does not justify `DashboardValue` if the dashboard is only one publication form. A name such as `Reading` or `Result` is admissible only if the row shows the shared invariant: produced value or record admitted for comparison in the declared context.
 
 #### F.5:5.2 - Work-Facing Role Label
 
@@ -77,5 +78,5 @@ The durable name, if needed, is a name for that evidence-use relation or status-
 
 #### F.5:5.4 - Relation Position Is Not a Role Name
 
-In a relation signature, "provider role" may mean "the provider argument position". F.5 does not make `ProviderRole` a `U.Role` name. Use `A.6.5` to recover `ProviderSlot`, its admitted `ValueKind`, and its reference mode. If a provider system also has a work-facing role in a method, that is a separate `U.Role`/`U.RoleAssignment` claim.
+In a relation signature, "provider role" may mean "the provider argument position". F.5 does not make `ProviderRole` a `U.Role` name. Use `A.6.5` to recover `ProviderSlot`, its admitted `ValueKind`, and its reference mode. If a provider system also has a work-facing role in a method, that is a separate `U.Role` claim and, when assigned, a separate `U.RoleAssignment` claim.
 

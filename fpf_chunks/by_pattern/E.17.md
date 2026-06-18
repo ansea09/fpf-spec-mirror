@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 64760
-line_end: 65346
+line_start: 64124
+line_end: 64710
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -66,11 +66,11 @@ Here in the first-screen interpretation, keep only the MVPK publication move: on
 
 > **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-side `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side value or reference that carry that downstream use, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 > **USM binding (overview):** `PublicationScope` is a **USM‑class** object that parameterizes MVPK; see §5.0.
-> **Episteme-side view position.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-side `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : U.Morphism`. In a non-morphism publication, the face names the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
+> **Episteme-side view position.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-side `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : EpMorphism` governed by A.6.2. In a non-morphism publication, the face names the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
 
 ### E.17:1 - Intent
 
-Provide a disciplined way to publish one source episteme or episteme-side view across multiple didactic faces without adding semantics, while keeping publication viewpoints explicit and auditable. The canonical formal profile is morphism publication: a small view-pack applied to any `U.Morphism`, including compositions, yields a family of views that commute with arrow composition and respect edition and measurement pinning.
+Provide a disciplined way to publish one source episteme or episteme-side view across multiple didactic faces without adding semantics, while keeping publication viewpoints explicit and auditable. The canonical formal profile is morphism publication: a small view-pack applied to a governed morphism value, typically `EpMorphism` under A.6.2, yields a family of views that commute with arrow composition and respect edition and measurement pinning.
 
 ### E.17:2 - Problem frame
 
@@ -111,7 +111,7 @@ Provide a disciplined way to publish one source episteme or episteme-side view a
 
 #### E.17:5.1 - Terminology (normative)
 
-* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a `U.Morphism`; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
+* **View** (`U.View`): an episteme-side view (`U.EpistemeView` in the sense of C.2.1 and E.17.0) produced under a publication viewpoint. In MVPK each face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) is such a `U.View`. In the morphism profile its `EntityOfConcernSlot` and `DescriptionContext` target is a governed morphism value, typically `EpMorphism` under A.6.2; in a non-morphism publication, the target is the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation named by the source.
   Every MVPK `U.View` declares:
   `publication-face kind ∈ {literal publication face/form, interop publication form}`, `PublicationVPId : U.ViewpointRef`, references to the underlying Description epistemes, including any Description episteme admitted for specification use selected by neighbouring gates, and a `U.PublicationScope` (USM §6.5).
   Any carrier rendering is separate **`U.Work` over carrier or rendering infrastructure**, with A.10 carrier and source-currentness records when reliance is current, and is not part of `U.View`.
@@ -374,7 +374,7 @@ Cross-context views cite Bridge + CL; CL penalties apply to R only (scope member
 
 1. **Object component** `ViewObj_s` for each viewpoint (see §5.1), to make types explicit.
 2. **Viewpoint set** `Σ : FinSet(U.Viewpoint)` with declared **partial order** `⪯` for formality or refinement (default chain: `PlainView ⪯ TechCard ⪯ InteropCard`; `AssuranceLane` is an **independent evidence-binding face** and not ordered with respect to others).
-3. **Emitters** `Emit_s(-) : U.Morphism → U.ViewMorph_s` (one per `s ∈ Σ`).
+3. **Emitters** `Emit_s(-) : EpMorphism -> ViewMorph_s` (one per `s ∈ Σ`, when the morphism profile is current).
 4. **Coherence** (rules and invariants §6) + **Pin Characteristics** policy (UnitType, ScaleKind, ReferencePlane, and EditionId) for any numeric or comparable content, grounded in CHR and UNM.
 5. **Interop concern references (conceptual)** for `InteropCard` (concerns and semantics only); any concrete schema or exchange mapping is outside Part E (Annex or Interop).
 
@@ -598,7 +598,7 @@ A conformance check is retained only if it changes the next bounded use of the p
 | --- | --- | --- |
 | Joint ISO, IEC, and IEEE 42010:2022 architecture-description practice separates architecture description, stakeholder concern, viewpoint, view, model kind, correspondence, and correspondence rule instead of letting one readable model face stand in for all of them. | MVPK publishes one source-pinned face over an existing source `U.Episteme` or `U.View`; every face used for downstream reliance names its publication `U.Viewpoint` and the `PublicationVPId` reference when that reference is used, names concerns, keeps `U.View`, viewpoint, carrier work, rendering work, correspondence relation, concrete exchange envelope, and evidence envelope separate, and passes the no-new-claim diff before any work, evidence, gate, assurance, carrier, or bridge use is considered. | Adopt explicit source, concern, view, viewpoint, correspondence, and model-kind separation; reject the shortcut where a readable architecture or model face becomes evidence, work occurrence, gate passage, release permission, bridge relation, or concrete exchange authority by presentation alone. |
 | Profunctor and optic accounts (2017-2019; source classification = research or theory line, not admissible for downstream reliance without local witness) provide source material for compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
-| Refinement-typed ecosystems (2016+; source classification = widely used technical practice) keep units, scales, and type-like constraints attached to values. | MVPK publication faces carry pins and CHR and CG references; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane relation and edition relation when relied on downstream. | Adapt pin discipline; reject readable numbers as self-validating values. |
+| Refinement-governed ecosystems (2016+; source classification = widely used technical practice) keep units, scales, and value-kind constraints attached to values. | MVPK publication faces carry pins and CHR and CG references; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane relation and edition relation when relied on downstream. | Adapt pin discipline; reject readable numbers as self-validating values. |
 | Interoperability and evidence-envelope practice (source classification = stable standard or established practice, depending on the concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces can expose evidence carriers or exchange envelopes, but concrete formats belong outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic authority, evidence sufficiency, work occurrence, or gate passage. |
 
 (References are selected because they supply source material for local MVPK invariants and tests; MVPK remains notation-agnostic.)

@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_worked-cases.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Worked cases"
-line_start: 77100
-line_end: 77158
+line_start: 76753
+line_end: 76811
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -79,7 +79,7 @@ F.15 result:
 
 #### F.15:13.3 - Rename a RoleDescription without changing meaning
 
-Slice: `IncidentStatusRoleDescription` is renamed to `ServiceIncidentRoleDescription`, while the described local `U.Role` and SenseCell stay the same.
+Slice: `IncidentReviewerRoleDescription` is renamed to `ServiceIncidentReviewerRoleDescription`, while the described local `U.Role` and SenseCell stay the same.
 
 F.15 result:
 

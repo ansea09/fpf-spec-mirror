@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U.Type Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
 section_id: "F.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "F.5 — Naming Discipline for U.Type Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 73401
-line_end: 73414
+line_start: 73054
+line_end: 73067
 dependencies:
   - "A.15"
   - "A.2"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.5"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.UK"
   - "F.10"
   - "F.13"
   - "F.14"
@@ -32,12 +33,12 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
-  - "U.Type"
 keywords:
-  - "U.Type naming"
+  - "U-kind naming"
   - "lexical rules"
   - "morphology"
   - "naming conventions"
+  - "role-description labels"
   - "twin registers"
 ---
 

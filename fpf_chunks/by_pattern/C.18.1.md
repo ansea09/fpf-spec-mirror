@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.1.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
-line_start: 43992
-line_end: 44093
+line_start: 43326
+line_end: 43427
 dependencies:
   - "C.16"
   - "C.17"
@@ -67,7 +67,7 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 ### C.18.1:4 - Solution — *binding lens for generator/selector profiles* (normative)
 
 #### C.18.1:4.1 - Types (aliases; ΔKernel = 0).
-`SLL.Profile` is an **annotation** on a `MethodFamily/Generator` or a `Selector` profile; **no new U.Types** are minted (LEX discipline).
+`SLL.Profile` is an **annotation** on a `MethodFamily/Generator` or a `Selector` profile; no durable U-kinds are minted (LEX discipline).
 
 #### C.18.1:4.2 - Fields (conceptual descriptors).
 
@@ -75,7 +75,7 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 * **ScaleWindow.** Declared range of `S` values for which behaviour claims hold (editioned). This is **distinct from** **FreshnessWindow** used by parity.
 * **Scale‑Probe.** At least **two** (preferably **≥ 3**) **parity‑respecting** points in `S` within the ScaleWindow, recorded with **replicates/seeds** and **CI/error bars** to support elasticity classification. Pick points via a **small factorial or Latin‑hypercube** when multiple knobs vary.
 * **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class; numeric exponents/fits live in domain annexes, not Core.
-* **ParityNotes.** `iso‑scale parity?` flag (and **loss notes** if not achieved), plus **Bridge/Φ/Ψ** IDs when crossing contexts (penalties **route to R only**).
+* **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus **Bridge**, **Φ**, and **Ψ** IDs when crossing contexts; penalties affect `R` only.
 
 #### C.18.1:4.3 - Norms (SLL).
 
@@ -94,14 +94,14 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 5) **Record invariants** (pinned knobs, safety envelope) and publish **SLL.Card@Context**.
 6) **If χ changes** across the window, split the ScaleWindow and re‑classify per segment.
 
-### C.18.1:5 - Interfaces — minimal I/O (conceptual)
+### C.18.1:5 - Consumer relation fields - minimal inputs and outputs (conceptual)
 
-**G.9 Plan/Run Parity** consumes `S`/ScaleWindow to align budgets, **pin editions**, and perform **UNM/NormalizationMethod‑based mapping**; **G.11** carries **policy‑id**, **PathSliceId**, seeds/replicates, CI level, and edition pins per parity CC.
+**G.9 parity planning and run evidence** consumes `S` and `ScaleWindow` to align budgets, **pin editions**, and perform **UNM** or **NormalizationMethod** mapping; **G.11** carries **policy-id**, **PathSliceId**, seeds and replicates, CI level, and edition pins per parity CC.
 
 ### C.18.1:6 - Conformance Checklist (CC‑SLL)
 
 1. `S` declared **or** `S = N/A` with rationale.
-2. **Scale‑probe** performed; **χ** recorded with **replicates/CI**; invariants disclosed.
+2. **Scale‑probe** performed; **χ** recorded with **replicates and CI**; invariants disclosed.
 3. **iso‑scale parity** or **loss notes** + penalties **→ R only**; editions/seeds pinned; ComparatorSet cited.
 4. If used as tie‑breaker, the selector cites **χ** and **lens id** in **E/E‑LOG** provenance.
 5. Knee claims cite the **policy threshold** and CI level used.
@@ -129,9 +129,9 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a claim that more review capacity, tool calls, tokens, data, model capacity, parallelism, freedom of action, sprints, or another declared scale variable changes rate, learning, recovery, throughput, stabilization, or improvement.
-- This pattern keeps: scale variable, scale window, scale probes, and elasticity posture.
+- This pattern keeps: scale variable, scale window, scale probes, and elasticity value.
 - Non-admissible use: more scale is not linear improvement, and a scale word does not create a C.27 rate-change claim by itself.
-- Exit: if comparison or benchmark use is live, cite G.9 for parity; if the statement is only a linear effort fantasy, name the scale variable and scale window or downgrade.
+- Neighboring-pattern use: if comparison or benchmark use is current, cite G.9 for parity; if the statement is only a linear effort fantasy, name the scale variable and scale window or downgrade.
 
 **Builds on:** C.16/17/18. **Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; UNM/NormalizationMethod‑based mapping), **G.10** (shipping).
 

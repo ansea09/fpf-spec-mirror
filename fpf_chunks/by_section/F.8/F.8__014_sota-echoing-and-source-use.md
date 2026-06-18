@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "SoTA-Echoing and Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_sota-echoing-and-source-use.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:12 — SoTA-Echoing and Source-Use"
-line_start: 74464
-line_end: 74475
+line_start: 74117
+line_end: 74128
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -54,7 +57,7 @@ keywords:
 | Practice line | What FPF adopts | Practical implication |
 | --- | --- | --- |
 | Controlled-vocabulary and terminology practice | Preferred labels, aliases, definitions, scope notes, and deprecated labels are separate fields. | F.8 decides admission; F.5 and F.18 then name without confusing alias with meaning change. |
-| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing relations, contexts, and constraints. | New `U.Type` candidates require irreducibility and decision record, not comfort. |
+| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing relations, contexts, and constraints. | New U-kind candidates require `E.24.UK` admission, irreducibility, and decision basis, not comfort. |
 | Domain-driven bounded-context practice | Meaning is local before it is shared. | Reuse local sense labels first; cross-context reuse needs bridge and row discipline. |
 | Authorization and policy-reference practice | Policy identifiers must resolve to definitions and governance decisions. | Policy ids use `PolicyIdRef`; the id is not itself permission, gate passage, or evidence. |
 | FPF role and episteme ontology | Work-facing roles, role descriptions, assignments, work, evidence use, and status use are distinct. | Role-like source expressions are split by kind before durable naming. |

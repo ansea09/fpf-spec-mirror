@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
-line_start: 10840
-line_end: 11313
+line_start: 10924
+line_end: 11400
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -29,6 +29,7 @@ keywords:
 ---
 
 ## A.6.3 - `U.EpistemicViewing` — EntityOfConcern-preserving morphism
+> **Status:** Stable
 
 **One‑line summary.** `U.EpistemicViewing` is the **EntityOfConcern-preserving** species of `U.EffectFreeEpistemicMorphing`: an effect‑free projection between epistemes that may change content and representation, but **never changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1).
 **EntityOfConcern preservation discipline.** A.6.3 names the preserve branch of the C.2.1 EntityOfConcern preservation law: `entityOfConcernRef(Y) = entityOfConcernRef(X)` and `EntityOfConcernSlot` is read-only. Earlier source-side spellings are source-migration wording only; conformant text normalizes them to `EntityOfConcern*` before use.
@@ -40,6 +41,8 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlo
 
 **Used by.**
 E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.17.1/E.17.2 (Viewpoint bundle libraries, TEVB); B.5.3 (Role‑EpistemicViewing); discipline packs for architecture, safety, and ML/LLM‑based representations.
+
+**Body-level U-kind settlement.** `U.EpistemicViewing` is the governed durable value in this host. It reuses `U.EffectFreeEpistemicMorphing` and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source-migration wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for viewing, not a root U-kind.
 
 ### A.6.3:1 - Problem frame
 
@@ -125,25 +128,25 @@ In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the epistem
 #### A.6.3:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
 **Signature header.**
-`U.EpistemicViewing` is a **Morphism‑kind** under A.6.0:
+`U.EpistemicViewing` is a morphism profile under A.6.0:
 
 ```
 SubjectBlock
   SubjectKind    = U.EpistemicViewing
-  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
-  Quantification = SliceSet := U.ContextSliceSet;
+  RangedValueKind = ⟨X:U.Episteme, Y:U.Episteme⟩      // domain/codomain episteme pair
+  Quantification = SliceSet := ContextSliceSet;
                    ExtentRule := admissible view morphisms
-  ResultKind     = U.Morphism                        // an instance v
+  ResultKind     = EpMorphism                        // local typed arrow v in the Ep category
 ```
 
 **Vocabulary (re‑uses A.6.2).**
-* **Types.** `U.Episteme`, `U.SubjectRef`, `U.Morphism`, `U.EpistemicViewing`.
+* **Types.** `U.Episteme`, `SubjectRef`, `EpMorphism`, `U.EpistemicViewing`.
 * **Operators.**
-  * `id    : U.Morphism(X→X)`
-  * `compose(g,f) : U.Morphism(X→Z)` where `f:X→Y`, `g:Y→Z`
+  * `id    : EpMorphism(X->X)`
+  * `compose(g,f) : EpMorphism(X->Z)` where `f:X->Y`, `g:Y->Z`
   * `apply(v, x:U.Episteme) : U.Episteme`
   * `dom(v), cod(v) : U.Episteme`
-  * `subjectRef(-) : U.SubjectRef`
+  * `subjectRef(-) : SubjectRef`
 **SlotKind-specific discipline.**
 Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
   * `EntityOfConcernSlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`),
@@ -198,8 +201,8 @@ EpistemicViewing remains **pure** in the EFEM sense:
   * `representationSchemeRef` and `ReferenceScheme` (within a fixed representation family or under a declared `CorrespondenceModel`),
   * meta‑components (edition, provenance, status flags).
 * It **MUST NOT**:
-  * invoke `U.Mechanism` or `U.WorkEnactment` (measure, execute, actuate),
-  * create or modify `U.PresentationCarrier` (no direct publication rendering or carrier writing),
+  * invoke `U.Mechanism` or perform `U.Work` (measure, execute, actuate),
+  * create or modify a presentation carrier, publication carrier, file, database, or rendered artifact,
   * cross ReferencePlanes implicitly (plane crossings go through Bridges with CL penalties in Part F).
 
 Any operational machinery (e.g. SAT/SMT solving, simulation, LLM tool‑use) MUST be modelled as a **separate `U.Mechanism`** that produces input epistemes or auxiliary epistemes or carriers consumed by the EpistemicViewing morphism.
@@ -475,7 +478,7 @@ For each species, the definition SHALL provide:
 
 **CC‑A.6.3‑6 - Separation from Retargeting and Mechanisms.**
 * Any species that may change `entityOfConcernRef` is **not** a conformant EpistemicViewing; it MUST be treated as `U.EpistemicRetargeting` (A.6.4) or as a different pattern.
-* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicViewing.
+* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`, performed `U.Work`, or another directly governed work/effect value and cannot be an EpistemicViewing.
 
 ### A.6.3:9 - Mini-checklist (for defining a view)
 

@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_invariants.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:10 — Invariants"
-line_start: 74698
-line_end: 74711
+line_start: 74351
+line_end: 74364
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -61,6 +61,6 @@ keywords:
 7. **No role-assignment by bridge.** A Bridge may inform RoleDescription naming or comparison; `U.RoleAssignment`, required-role satisfaction, and performed-work attribution remain with A.2.1, F.6, and A.15.1.
 8. **No interpretation bridge substitution.** Interpretation Bridges cannot justify substitution rows.
 9. **Design-run honesty.** If a context fixes a design-run distinction, the Bridge respects it or explicitly uses a design-spec-to-run-occurrence interpretation bridge.
-10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a new `U.Type`; A.11 and F.8 govern that decision.
+10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a durable U-kind; E.24.UK, A.11, and F.8 govern that decision.
 11. **Non-inheritance of contexts.** Bridges do not imply is-a relations between contexts.
 

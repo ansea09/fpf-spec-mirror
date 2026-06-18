@@ -6,12 +6,12 @@ section_id: "A.3.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__002_problem-frame.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:1 — Problem frame"
-line_start: 6588
-line_end: 6609
+line_start: 6663
+line_end: 6686
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,6 +63,8 @@ Use it when the working question is:
 * whether a prediction can be used for comparison, gating, assurance, planning, or control.
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is `U.Dynamics`: an `U.Episteme` that specifies a state space and a state-transition law for one or more EntitiesOfConcern in a bounded context.
+
+**E.24.UK settlement.** `U.Dynamics` is retained as a dependent durable U-kind under the `U.Episteme` settlement. Its durable value is the reusable state-space and transition-law episteme for changing state in a bounded context. It is not a root change kind, not the changed EntityOfConcern, not a work occurrence, and not a flow structure; components such as `stateSpace`, `transitionLaw`, `observationRelation`, and `calibrationOrParameterSource` remain slots or claim graphs inside the dynamics episteme unless another governing pattern makes one of them separately addressable.
 
 **First useful move.** Name the changing EntityOfConcern, the bounded context, the state-space characteristics, the transition law, the observation relation, and the applicability window. If these cannot be named, the current claim is not yet ready for prediction, conformance, or gate use.
 

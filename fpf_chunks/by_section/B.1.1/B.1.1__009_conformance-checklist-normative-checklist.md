@@ -6,12 +6,12 @@ section_id: "B.1.1:8"
 section_title: "Conformance Checklist (normative checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist-normative-checklist.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.1.1 — Dependency Graph & Proofs"
   - "B.1.1:8 — Conformance Checklist (normative checklist)"
-line_start: 29980
-line_end: 29996
+line_start: 30088
+line_end: 30104
 dependencies:
   - "A.1"
   - "A.12"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
-line_start: 3587
-line_end: 3916
+line_start: 3607
+line_end: 3940
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -31,6 +31,10 @@ keywords:
 ### A.2.5:0 - Use This When
 
 **Plain name.** Role-state space.
+
+### E.24.UK settlement
+
+A.2.5 does not admit `U.RoleStateGraph` as a durable U-kind. The governed object is `RoleStateRelation@BoundedContext`: a selected context-local relation structure over `U.Role`, `U.BoundedContext`, role-state values, state predicates, state assertions, and work-admission relations. State-machine or graph notation is a mathematical or representation lens over that relation structure, not the object itself and not a new root beside `U.Role`.
 
 Use this pattern when a project needs to decide whether a role assignment is currently in a state that admits a work claim, a method-step claim, an incompatibility claim, or a role-readiness claim.
 

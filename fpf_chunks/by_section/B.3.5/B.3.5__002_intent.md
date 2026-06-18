@@ -6,12 +6,12 @@ section_id: "B.3.5:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__002_intent.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:1 — Intent"
-line_start: 32945
-line_end: 32959
+line_start: 33075
+line_end: 33089
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,10 +27,10 @@ keywords:
 
 ### B.3.5:1 - Intent
 
-*Provide a single, human-facing family of **Working-Model** relations as the **publication surface**, with explicit hooks for (G) grounding and (R) reliability, without exposing constructor jargon or overloading day-to-day authors.*
+*Provide a single, human-facing family of **Working-Model** relations as the **public relation layer**, with explicit hooks for (G) grounding and (R) reliability, without exposing constructor jargon or overloading day-to-day authors.*
 
 **What you get (manager/engineer view).**
- The same relations you already know (e.g., **ComponentOf**) remain the **public interface**.
+ The same relations you already know (e.g., **ComponentOf**) remain the **public relation vocabulary**.
 
 **What changes (auditor/ontologist view).**
 * Each published edge carries two additional commitments:

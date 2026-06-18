@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Promotion Record & proof obligations (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_promotion-record-proof-obligations-normative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:5 — Promotion Record & proof obligations (normative)"
-line_start: 31488
-line_end: 31538
+line_start: 31607
+line_end: 31657
 dependencies:
   - "A.1"
   - "A.12"
@@ -42,32 +42,32 @@ To declare an MHT you MUST create a **Promotion Record** that makes identity, bo
 MHT.PromotionRecord
   id:                unique identifier
   eventType:         one of {Fusion | Fission | PhasePromotion | Role‑Lift | ContextReframe}
-  transformer:       U.TransformerRole (who/what enacted the transition)
+  transformerRoleRef: role value or role-assignment reference for the system or acting holon that enacted the transition; governed by A.2, A.2.1, A.13, A.15, and transformation patterns
   identityStance:    one of {4D | 3D+1}
   preConfig:
     nodes:           list of holons (ids, kinds) involved before MHT
     edges:           list of relations & their types (A.14), including CL on integration edges
     Γflavour:        active Γ-flavour(s) prior to MHT
     assurance:       Assurance tuples for relevant claims before MHT (B.3)
-    boundedContext:  name or description (vocabulary/units/policy) before MHT
+    boundedContext:  name or description of vocabulary, units, and policy before MHT
   triggers:
     BOSC:            {B? O? S? C?} with measurements and evidence carriers
-    A?               Agency-CHR grade & context (A.13)
+    A?               Agency-CHR profile, threshold predicate, and context (A.13, A.19)
     T?               Γ\_time phase boundary details (coverage, carrier identity/continuation)
     X?               context mapping summary (old↔new)
-  postHolon (H⁺):
+  postHolon:
     boundary:        explicit BIC or equivalent boundary statement (B.1.2)
-    objective:       objective(s) and evaluation basis for H⁺
-    supervision:     supervisory/feedback structure present in H⁺ (if any)
-    Γflavour:        Γ-flavour(s) intended for H⁺
-    assurance:       initial Assurance(H⁺, C | K, S) with F/G/R & CL baselines
+    objective:       objective(s) and evaluation criterion for postHolon
+    supervision:     supervisory/feedback structure present in postHolon (if any)
+    Γflavour:        Γ-flavour(s) intended for postHolon
+    assurance:       initial Assurance(postHolon, C | K, S) with F/G/R and CL baselines
     boundedContext:  new context; mapping to previous (with CL for mappings)
   identityMapping:
-    4D:              continuity/cut specification (precursors→H⁺ tube start)
+    4D:              continuity/cut specification (precursors -> postHolon tube start)
     3D+1:            predecessor(s) and creation event; any PhaseOf segments preserved
   notes:
     alternativesConsidered:   why not modelled as non‑MHT Γ improvement
-    EvidenceGraphRef:          references to measurements, specs, interface Standards, tests
+    EvidenceGraphRef:          references to measurements, specs, port or boundary standards, tests
     orderTimeRefs:            OrderSpec/TimeWindow if Γ\_ctx/Γ\_time material
 ```
 

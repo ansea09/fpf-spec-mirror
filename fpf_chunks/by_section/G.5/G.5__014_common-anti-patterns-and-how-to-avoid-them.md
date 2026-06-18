@@ -6,12 +6,12 @@ section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 81650
-line_end: 81679
+line_start: 81302
+line_end: 81331
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,7 +51,7 @@ keywords:
 
 * **Anti‑pattern: “Selector as a shadow spec.”**
   *Symptom:* local acceptance/legality rules appear in selector prose/code, diverging from CN/CG/CAL.
-  *Avoid:* route all constraint semantics via `CNSpecRef/CGSpecRef` and pinned CAL records; keep G.5 core as a facade.
+  *Avoid:* govern constraint semantics through `CNSpecRef/CGSpecRef` and pinned CAL records; keep G.5 core as a facade.
 
 * **Anti‑pattern: “Implicit crossings.”**
   *Symptom:* cross‑Context reuse is claimed without Bridge/CL pins, or without cited `CrossingBundle`.

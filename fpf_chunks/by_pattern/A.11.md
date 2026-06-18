@@ -1,122 +1,120 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.11"
-pattern_title: "Ontological Parsimony (C‑5)"
+pattern_title: "Ontological Parsimony"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.11.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.11 — Ontological Parsimony (C‑5)"
-line_start: 19588
-line_end: 19686
+  - "A.11 — Ontological Parsimony"
+line_start: 19679
+line_end: 19769
 dependencies:
-  - "A.11"
-  - "U.Type"
+  - "A.8"
+  - "C.3"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.18"
+  - "F.8"
 keywords:
-  - "Occam's razor"
-  - "essential concepts"
-  - "minimalism"
-  - "simplicity"
+  - "U-kind admission"
+  - "composition"
+  - "kernel growth"
+  - "non-redundancy"
+  - "parsimony"
 ---
 
-## A.11 - Ontological Parsimony (C‑5)
+## A.11 - Ontological Parsimony
 
-*“Add only what you cannot subtract.”*
+> **Type:** Kernel parsimony and admission discipline pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 
-### A.11:1 - Context
+### A.11:0 - Use This When
 
-The FPF kernel aspires to remain **small enough to learn in a week** yet **broad enough** to model engines, proofs and budgets alike. Unchecked growth of primitives—well‑known from earlier “enterprise ontologies”—bloats diagrams, stalls tooling and intimidates new adopters. C‑5 therefore demands *minimal‑sufficiency*: a new core concept enters the kernel **only** when all routes of composition, refinement or role‑projection fail to express it without semantic loss.
+Use this pattern when FPF work proposes a new U-kind, core relation, dependent durable value, or public structural name and the current question is whether existing ontology can express the claim without creating a new kind.
 
-### A.11:2 - Problem
+Typical moments:
 
-| Pathology         | Real‑world symptom                                                                 |
-| ----------------- | ---------------------------------------------------------------------------------- |
-| **Concept creep** | Near‑synonyms proliferate (`U.Worker`, `U.Employee`, `U.Staff`), breaking queries. |
-| **Zombie types**  | Legacy primitives linger unused yet block name space.                              |
-| **Tool churn**    | Every fresh primitive forces IDE, validator and dashboard updates.                 |
+- a new U-kind feels useful after `E.24.UK`;
+- a proposed root kind may actually be a dependent value, slot, relation, record, publication form, lens, local frame, or C.3 `U.Kind`;
+- two candidates overlap strongly;
+- a name is convenient but the ontology may already be expressible through existing patterns.
 
-Result: steep learning curves, fragile integrations, eroded trust in “first‑principles” promises.
+**Primary EntityOfConcern.** The EntityOfConcern is the parsimony claim for one candidate ontology addition.
 
-### A.11:3 - Forces
+**First useful move.** Recover the candidate with `E.24.UK` or the direct governing pattern, then ask what current FPF values, slots, relations, and patterns can already express.
 
-| Force                            | Tension                                                            |
-| -------------------------------- | ------------------------------------------------------------------ |
-| **Expressiveness vs Simplicity** | Fine granularity helps static checks ↔ fewer nouns aid cognition.  |
-| **Inclusivity vs Purity**        | New domains want vocabulary ↔ kernel must not be a dumping ground. |
-| **Evolution vs Stability**       | Framework grows ↔ users depend on a stable core.                   |
-| **Prestige vs Utility**          | Authors enjoy naming things ↔ every name tcharacteristics everyone else.      |
+### A.11:1 - Problem Frame
 
-### A.11:4 - Solution — Four‑Gate **Minimal‑Sufficiency Protocol**
+FPF needs enough primitives to be useful, but every new primitive creates learning cost, bridge cost, and future repair cost. Ontological parsimony is not anti-growth. It is the rule that FPF adds a new kind only when composition, reuse, dependent-value settlement, and direct governing patterns cannot express the action-facing claim without material loss.
 
-A proposal to add a `U.Type` or core relation **MUST** clear **all four gates** before admission and survives under a **Sunset Timer** thereafter.
+When source or draft wording proposes a candidate durable value with kind force, treat that as U-kind admission pressure. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
 
-| Gate                      | Test question                                                                                         | Rationale                                             |
-| ------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **G‑1 Composition**       | *Can existing primitives + roles/attributes express the concept without material loss?*               | Follows “composition over creation.”                  |
-| **G‑2 Non‑Redundancy**    | *Does the proposal overlap ≥ 80 % with anything already live?*                                        | Blocks synonyms.                                      |
-| **G‑3 Functional Naming** | *Does the chosen name state **what the thing does**, not what it *is made of*?*                       | Prevents vague catch‑alls; supports didactic clarity. |
-| **G‑4 Sharp Boundary**    | *Is there a one‑sentence litmus test that unambiguously includes or excludes any candidate instance?* | Ensures crisp taxonomy edges.                         |
+### A.11:2 - Solution
 
-**Sunset timer — provisional-type review**
-A cleared type enters the kernel **provisionally** with a timer (default = 4 quarters). If usage count remains zero at expiry, the type faces *Sunset Review*: delete, demote to Extention Pattern, or renew with fresh evidence.
+Use four gates before admitting the new ontology addition:
 
-> *Manager’s mnemonic:* **“Compose, Unique, Functional, Crisp — or sunset.”**
+| Gate | Test question | Pass condition |
+| --- | --- | --- |
+| Composition | Can existing U-kinds, slots, relations, dependent values, or direct patterns express the claim? | Pass only when expression by composition loses a reviewable distinction. |
+| Non-redundancy | Does the candidate overlap an existing governed value or relation? | Pass only when overlap is bounded and the remaining difference changes admissible claims. |
+| Action-facing contribution | What can users claim, compare, repair, stop, rely on, or do because this addition exists? | Pass only when the contribution is not merely naming comfort or source prestige. |
+| Sharp boundary | Is there a one-sentence inclusion and exclusion test? | Pass only when readers can distinguish included and excluded cases without private author intent. |
 
-### A.11:5 - Archetypal Grounding
+Use this compact record:
 
-| Gate    | **Rejected candidate** (why)                                                                                                                                                                               | **Accepted approach**           |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| **G‑1** | `U.CoolantPump` – expressible as `U.System:Pump` + `CoolingCirculatorRole`.                                                                                                                                | Composition via Role.           |
-| **G‑2** | `U.Actuator` vs existing `U.Transformer` (90 % overlap).                                                                                                                                                   | Retain broader `U.Transformer`. |
-| **G‑3** | `U.MiscellaneousObject` – name signals no function.                                                                                                                                                        | Reject; unclear purpose.        |
-| **G‑4** | `U.SmallPart` – boundary depends on subjective size.                                                                                                                                                       | Reject; fails crisp test.       |
-| —       | **`U.ProvenanceChain`** – required to record immutable evidence lineage; cannot be composed; functionally named; crisp membership rule (*“ordered list of Evidence Graph Ref with forward integrity hash”*). | Accepted, timer started.        |
+```text
+ParsimonyAdmissionRecord:
+  Candidate:
+  RecoveredGovernedObject:
+  E24UKDecisionRef:
+  ExistingExpressionAttempt:
+  MaterialLossIfComposed:
+  OverlapWithExistingValues:
+  ActionFacingContribution:
+  BoundaryTest:
+  Disposition:
+```
 
-### A.11:6 - Conformance Checklist
+Possible dispositions:
 
-| ID          | Requirement                                                                                                                                               | Didactic aim                                                 |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **CC‑OP 1** | A *Minimal‑Sufficiency Form* (≤ 1 page) **MUST** accompany every new kernel‑type proposal, documenting answers to Gates G‑1…G‑4 and a draft Sunset‑Timer. | Forces authors to think compositionally before adding nouns. |
-| **CC‑OP 2** | Kernel inventory tooling **SHALL** stamp each admitted type with `sunset_due: <date>` (default = +4 quarters).                                            | Schedules later pruning; no forgotten zombies.               |
-| **CC‑OP 3** | A quarterly *Usage Scan* **MUST** flag any core type with reference‑count = 0; flagged items enter Sunset Review automatically.                           | Turns parsimony into a living maintenance loop.              |
-| **CC‑OP 4** | Renaming, aliasing, or splitting an existing type **REQUIRES** re‑passing all four gates and documenting a migration note.                                | Prevents redundancy re‑entering via back door.               |
-| **CC‑OP 5** | Patterns **SHOULD** favour `Role` + attributes over proposing new domain types; proposals rejected when Gate G‑1 answer is “yes.”          | Extends parsimony culture beyond the kernel.                 |
+- retain as root U-kind;
+- retain as dependent durable value under a root settlement;
+- apply C.3 typed reasoning;
+- express as slot, relation, record, publication form, lens, local frame, or direct governed value;
+- keep as source wording or local name.
 
-### A.11:7 - Consequences
+### A.11:2.1 - Worked Slices And Maintenance
 
-| Benefit                            | Impact for engineer‑managers                                                   | Trade‑off / Mitigation                                                                   |
-| ---------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Lean kernel**                    | Fewer primitives → faster onboarding & clearer mental map.                     | Initial author effort to fill Minimal‑Sufficiency Form; template wizard auto‑fills 70 %. |
-| **Reduced tool churn**             | Stable set of nouns keeps dashboards, linters, reasoners in sync for years.    | Occasionally slows acceptance of niche concepts; Extention Patterns layer absorbs urgency.          |
-| **Automatic house‑cleaning**       | Sunset cycle prevents accrual of deadwood.                                     | Rare risk of deleting a sleeper hit; renewal path allows appeal.                         |
-| **Encultured composition mindset** | Teams default to roles & attributes, boosting reuse and cross‑domain dialogue. | Requires role libraries and attribute taxonomies; provided in Part C.                    |
+| Candidate pressure | Parsimony result | Why |
+| --- | --- | --- |
+| `CoolingPump` as a new root U-kind | Express as a `U.System` or holon holding `CoolingCirculatorRole@Context`, with capability, method, and work claims added only when current. | The useful distinction is role, capability, method, and work around an existing system, not a new universal kind. |
+| `Actuator` or another transformer-like noun | Recover the system or holon that participates as transformer in a `U.Transformation`; admit a durable value only if `E.24.UK` shows irreducible action-facing gain. | The bearer of change and the transformation relation are already governed; the noun alone does not create a kind. |
+| Provenance-chain wording | Try G.6 evidence-graph and provenance addressing first; admit a new durable value only if the direct evidence or provenance patterns cannot express the needed claim without material loss. | Parsimony tries direct governing patterns before minting a kernel addition. |
+| `SmallPart` or similar vague size class | Reject or keep local. | The boundary depends on private scale expectations unless a direct measurement or classification pattern supplies a crisp rule. |
 
-### A.11:8 - Rationale
+A retained addition also needs a reopen condition. Reopen or lower the admission when usage collapses, overlap with an existing value is discovered, composition becomes adequate, the boundary becomes fuzzy, or the name starts hiding a slot, relation, record, publication form, lens, or local frame. This is maintenance discipline, not a fixed calendar ritual.
 
-**Cognitive science** shows working memory tops out around 4 ± 1 unfamiliar chunks (Cowan 2021). Combining that with Gate discipline keeps kernel size tractable (≈ 40 primitives). **Software metrics** from lean DSLs (Rust traits, Kubernetes CRDs) reveal that compositional modelling reduces change propagation cost by \~30 %. The Sunset Timer borrows from Kubernetes feature gate “alpha/beta/GA” progression model — proved effective at pruning half‑baked APIs.
+### A.11:3 - Conformance Checklist
 
-### A.11:9 - Relations
+| Check | Requirement |
+| --- | --- |
+| `CC-A11-1` | The candidate's governed object is recovered before parsimony is judged. |
+| `CC-A11-2` | If the candidate uses `U.*` force, `E.24.UK` is applied before F.5, F.8, or F.18 naming. |
+| `CC-A11-3` | Existing expression by composition, slots, relations, dependent values, and direct governing patterns is attempted by value. |
+| `CC-A11-4` | Material loss is stated as a lost claim, lost distinction, lost boundary, or lost admissible use, not as naming discomfort. |
+| `CC-A11-5` | Strong overlap lowers or rejects the candidate unless the difference changes claims. |
+| `CC-A11-6` | The final disposition is one of the allowed ontology outcomes, not a vague approval to keep the word. |
 
-| Relation          | Pattern                 | Interaction                                               |
-| ----------------- | ----------------------- | --------------------------------------------------------- |
-| **Builds on**     | A 8 Universal Core      | A candidate must already pass the Three‑Domain Test.      |
-| **Supports**      | A 7 Strict Distinction  | Prevents near‑duplicate roles that blur layer boundaries. |
-| **Feeds**         | B 5 Kernel Change‑Log   | Records admissions, renames, sunsets.                     |
-| **Complementary** | A 10 Evidence Graph Referring | Proposals cite evidence of irreducibility.                |
+### A.11:4 - Relations
 
-### A.11:10 - Illustrative Uses (2022 – 2025)
-
-* **Robotics CAL 2023** – `U.LiDARSensor` rejected (Gate G‑1 passed via role composition), saving three schema migrations.
-* **Green‑Finance CAL 2024** – `U.CarbonCredit` admitted provisionally, but Sunset Review (usage = 0) demoted it to sector pattern, avoiding kernel noise.
-* **Neuro‑informatics 2025** – `U.ProvenanceChain` accepted; by Q3 its heavy reuse in three patterns lifted timer and marked it *established*.
-
-### A.11:11 - Open Questions
-
-1. **Hard size cap** — should the kernel enforce an absolute limit (e.g., 64 live types) beyond which any new entry-selection effects retirement of an old one?
-2. **Semantic similarity tooling** — can embedding models automate Gate G‑2 overlap detection reliably across domains?
-3. **Gate calibration** — is default Sunset Timer (4 quarters) optimal for research‑oriented patterns with slower adoption and evidence accumulation?
+- **Builds on:** `E.24.UK`, `A.8`, `C.3`, `F.8`, `F.18`, and direct subject patterns.
+- **Coordinates with:** `E.24.CD` for candidate detection and `E.24.PUB` when a publication form or structural name created the pressure.
+- **Does not replace:** universal-core testing in `A.8`, typed claim quantification in `C.3`, or naming discipline in Part F.
 
 ### A.11:End
 

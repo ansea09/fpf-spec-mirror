@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.0"
-pattern_title: "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+pattern_title: "U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
 section_id: "A.6.0:6"
 section_title: "Bias-Annotation (lenses and defaults)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_bias-annotation-lenses-and-defaults.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+  - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:6 — Bias-Annotation (lenses and defaults)"
-line_start: 9961
-line_end: 9968
+line_start: 10040
+line_end: 10047
 dependencies:
   - "A.2.6"
   - "A.6.1"

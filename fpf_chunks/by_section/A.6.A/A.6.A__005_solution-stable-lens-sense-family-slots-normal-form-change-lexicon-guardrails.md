@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.A"
-pattern_title: "U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
+pattern_title: "Action-Invitation Precision Restoration (ACT-INV)"
 section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)"
+  - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 14162
-line_end: 14532
+line_start: 14254
+line_end: 14624
 dependencies:
   - "A.15"
   - "A.16"
@@ -125,7 +125,7 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `  normalForm               : CuePack | ActionOption | OptionSet | PolicyHook,`
 `  articulationHint?        : open-cue | sketched | option-explicit | hook-explicit,`
 `  scope?                   : U.Scope,`
-`  Γ_time?                  : U.GammaTimePolicy,`
+`  Γ_time?                  : GammaTimePolicy,`
 `  representationSubstrate? : ecological-world-coupled | embodied-kinesthetic | latent-distributed | symbolic-local | hybrid,`
 `  bridgeRef?               : BridgeId,`
 `  witnesses?               : EvidenceRefSet`

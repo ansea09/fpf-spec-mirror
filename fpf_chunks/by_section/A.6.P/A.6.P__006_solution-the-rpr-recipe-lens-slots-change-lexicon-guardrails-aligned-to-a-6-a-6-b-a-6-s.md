@@ -6,12 +6,12 @@ section_id: "A.6.P:4"
 section_title: "Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_solution-the-rpr-recipe-lens-slots-change-lexicon-guardrails-aligned-to-a-6-a-6-b-a-6-s.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:4 — Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"
-line_start: 13122
-line_end: 13490
+line_start: 13212
+line_end: 13580
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -256,7 +256,7 @@ QualifiedRelationRecord :=
 
   // qualifier kit (pattern-specific; relation specification selects subset)
   scope?       : SlotContent(U.Scope, ByValue | RefKind),
-  Γ_time?      : SlotContent(U.GammaTimePolicy, ByValue), // time selector or policy; not an evidence freshness proxy
+  Γ_time?      : SlotContent(GammaTimePolicy, ByValue), // time selector or policy; not an evidence freshness proxy
   viewpoint?   : SlotContent(U.Viewpoint, ByValue | RefKind),
   view?        : SlotContent(U.View, ByValue | RefKind),
   refScheme?   : SlotContent(U.ReferenceScheme, ByValue | RefKind),

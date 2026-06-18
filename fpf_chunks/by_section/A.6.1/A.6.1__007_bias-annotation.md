@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
 section_id: "A.6.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__007_bias-annotation.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:6 — Bias-Annotation"
-line_start: 10290
-line_end: 10300
+line_start: 10371
+line_end: 10381
 dependencies:
   - "A.1.1"
   - "A.10"

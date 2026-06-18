@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 12999
-line_end: 13824
+line_start: 13089
+line_end: 13914
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -116,7 +116,7 @@ These retained specialisations are current because they each carry one stable re
 
 This pattern reserves the following tokens in Tech and normative prose:
 
-* **RPR** — *Relational Precision Restoration* (the governing repair discipline; not a new `U.Type`).
+* **RPR** — *Relational Precision Restoration* (the governing repair discipline; not a durable U-kind).
 * **RelationKind** — a Context-local vocabulary token (signature-level) that fixes polarity and SlotSpecs for participant and qualifier positions. It is a *registry entry token*, not a relation instance.
 * **QualifiedRelationRecord** — the slot-explicit relation instance record kind (Context-local episteme or record kind); instances carry a `relationKind` token reference plus explicit participant and qualifier slots.
 
@@ -378,7 +378,7 @@ QualifiedRelationRecord :=
 
   // qualifier kit (pattern-specific; relation specification selects subset)
   scope?       : SlotContent(U.Scope, ByValue | RefKind),
-  Γ_time?      : SlotContent(U.GammaTimePolicy, ByValue), // time selector or policy; not an evidence freshness proxy
+  Γ_time?      : SlotContent(GammaTimePolicy, ByValue), // time selector or policy; not an evidence freshness proxy
   viewpoint?   : SlotContent(U.Viewpoint, ByValue | RefKind),
   view?        : SlotContent(U.View, ByValue | RefKind),
   refScheme?   : SlotContent(U.ReferenceScheme, ByValue | RefKind),
@@ -819,7 +819,7 @@ These echoes justify why A.6.P is structured as: **stable lens -> explicit slots
 **Specialised by**
 
 * **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
-* **A.6.6 `U.BaseDeclarationDiscipline`** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
+* **A.6.6 Base Declaration Discipline** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation and facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
 * **A.6.9 (RPR-XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
 * **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole, part, integrity, or complete”) into boundary, typed parthood, explicit Γ selection, order and time classification, and A.15 completeness and coverage claims.

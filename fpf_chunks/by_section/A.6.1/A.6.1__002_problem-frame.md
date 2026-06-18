@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
 section_id: "A.6.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__002_problem-frame.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:1 — Problem frame"
-line_start: 10086
-line_end: 10108
+line_start: 10165
+line_end: 10187
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ Use this pattern when a reusable declaration must do more than name a signature.
 
 Use it when the working question is:
 
-* which `SubjectKind` and `BaseType` the mechanism ranges over;
+* which `SubjectKind` and `RangedValueKind` the mechanism ranges over;
 * which operations are available and which SlotSpecs those operations publish;
 * which laws and invariants govern the operations;
 * which admissibility predicates fail closed before an operation can be used;

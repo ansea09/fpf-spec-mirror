@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Archetypal cases (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-cases-worked-didactic.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
   - "B.2:6 — Archetypal cases (worked, didactic)"
-line_start: 31539
-line_end: 31578
+line_start: 31658
+line_end: 31697
 dependencies:
   - "A.1"
   - "A.12"
@@ -36,13 +36,13 @@ keywords:
 
 #### B.2:6.1 - System — **Closed‑loop regulation emerges from components** (Fusion / Role‑Lift)
 
-* **Pre‑config:** Plant, sensor, actuator exist; analyses show performance capped by **WLNK** path through the slowest actuator; interfaces calibrated at CL2. No supervisory closure.
+* **Pre-config:** Plant, sensor, actuator exist; analyses show performance capped by **WLNK** path through the slowest actuator; ports and relation links are calibrated at CL2. No supervisory closure.
 
-* **Trigger:** **S** (supervisory structure closes a feedback loop) and **B** (boundary now exports a single regulated interface; internal ports encapsulated). Capability exceeds prior WLNK bound without any part upgrade.
+* **Trigger:** **S** (supervisory structure closes a feedback loop) and **B** (boundary now exports a single regulated port; internal ports encapsulated). Capability exceeds prior WLNK bound without any part upgrade.
 
-* **MHT:** Declare **Fusion** (or **Role‑Lift** if the controller plays AgentialRole). Create `H⁺ = RegulatedSystem` with BIC exposing the regulated port and supervisory objective (“maintain y≈r”).
+* **MHT:** Declare **Fusion** (or **Role-Lift** if the controller plays AgentialRole). Create `postSystem = RegulatedSystem` with BIC exposing the regulated port and supervisory objective ("maintain y≈r").
 
-* **After:** Γ‑invariants re‑start for `H⁺`. **B.3** assurance uses a new cutset; congruence on controller–plant mapping is part of `CL_min`.
+* **After:** Γ-invariants restart for `RegulatedSystem`. **B.3** assurance uses a new cutset; congruence on controller-plant mapping is part of `CL_min`.
 
 * **Why not within‑Γ?** The performance jump is not due to improved parts or raised CL on existing edges; it stems from **new closure**.
 
@@ -52,9 +52,9 @@ keywords:
 
 * **Trigger:** **O** (a unifying explanatory **objective**: predict & explain class Q), **C** (explanatory success beyond min of parts), **X** (terminology reframed around new primitives with verified mapping at CL2/CL3).
 
-* **MHT:** **Fusion** + **ContextReframe** to `H⁺ = Theory_T` with an explanatory objective; mappings to the prior compendium are documented.
+* **MHT:** **Fusion** + **ContextReframe** to `postEpisteme = Theory_T` with an explanatory objective; mappings to the prior compendium are documented.
 
-* **After:** Assurance for “explains Q within δ” starts at `H⁺` with its own `F_eff` (may rise if formalized), `G_eff` (supported domain), and `R_eff` penalized by the **new** mapping CL.
+* **After:** Assurance for "explains Q within δ" starts at `Theory_T` with its own `F_eff` (may rise if formalized), `G_eff` (claimed domain), and `R_eff` penalized by the **new** mapping CL.
 
 #### B.2:6.3 - Temporal — **Commissioning → Operations** (PhasePromotion)
 
@@ -62,7 +62,7 @@ keywords:
 
 * **Trigger:** **T** (phase boundary) plus **B** (boundary type changes: open commissioning ports are encapsulated) and **O** (objective shifts from “achieve acceptance tests” to “deliver service SLA”).
 
-* **MHT:** **PhasePromotion** creates `H⁺ = System‑in‑Operation`. Past phases remain as documented temporal parts; design‑time assurance is not mixed with run‑time assurance.
+* **MHT:** **PhasePromotion** creates `postSystem = System-in-Operation`. Past phases remain as documented temporal parts; design-time assurance is not mixed with run-time assurance.
 
 #### B.2:6.4 - Context — **Prototype → Certified product** (ContextReframe)
 
@@ -70,5 +70,5 @@ keywords:
 
 * **Trigger:** **X** (bounded context shifts to regulated environment), **F rises** (formal safety case), **CL** for unit/requirement mappings vetted.
 
-* **MHT:** **ContextReframe** to `H⁺ = CertifiedProduct`; new **BIC** and regulatory vocabulary become the baseline; earlier lab claims are not silently “ported”.
+* **MHT:** **ContextReframe** to `postProduct = CertifiedProduct`; new **BIC** and regulatory vocabulary become the baseline; earlier lab claims are not silently "ported".
 

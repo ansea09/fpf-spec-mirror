@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 58413
-line_end: 58743
+line_start: 57777
+line_end: 58107
 dependencies:
   - "E.10"
   - "E.11"
@@ -230,7 +230,7 @@ A **third didactic-content role** means enough didactic and operational content 
 - reviewer guidance that tells what to inspect first and which neighboring FPF pattern governs the failure mode and which project-side FPF kind and reference named by value carries the claim or effect;
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
 
-Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review path is required.
+Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review profile is required.
 
 #### E.8:4.2.2 - Package-form and governing-pattern relation role-word discipline
 

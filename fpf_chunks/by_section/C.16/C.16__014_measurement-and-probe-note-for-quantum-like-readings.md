@@ -6,12 +6,12 @@ section_id: "C.16:12a"
 section_title: "Measurement and probe note for quantum-like readings"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__014_measurement-and-probe-note-for-quantum-like-readings.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:12a — Measurement and probe note for quantum-like readings"
-line_start: 42116
-line_end: 42147
+line_start: 41450
+line_end: 41481
 dependencies:
   - "A.10"
   - "A.17"
@@ -38,7 +38,7 @@ keywords:
 
 Use C.16 first when the question under repair concerns a measure, metric, score, survey, dashboard, sensor, coordinate, scale, or characteristic. A metric is not quantum-like because it is noisy, probabilistic, discrete, gamed, or difficult to interpret. Metric gaming is not QL; a metric-caused state update may be QL only when the publication, probe, order, frame, or export changes what the result can admissibly support.
 
-Action path:
+Measurement/probe check sequence:
 
 1. Name the Characteristic, Scale, Coordinate or Value, Unit when relevant, and EvidenceStub.
 2. Separate the observable, probe method, measurement scheme, emitted output or result record, state update, and evidence carrier.
@@ -62,7 +62,7 @@ Minimum measurement and probe note:
 Useful outputs:
 
 - a C.16 measure/template repair when the issue is metric legality;
-- an A.10/B.3 route when the issue is evidence or assurance;
-- a C.26.1 route when the probe changes the state it reports;
+- an A.10 or B.3 application when the issue is evidence or assurance;
+- a C.26.1 application when the probe changes the state it reports;
 - no QL wording when noise, uncertainty, discreteness, or metric gaming is the whole issue.
 

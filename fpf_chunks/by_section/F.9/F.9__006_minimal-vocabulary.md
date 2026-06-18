@@ -6,12 +6,12 @@ section_id: "F.9:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_minimal-vocabulary.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:5 — Minimal vocabulary"
-line_start: 74572
-line_end: 74584
+line_start: 74225
+line_end: 74237
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -61,5 +61,5 @@ keywords:
 * **Role-description naming** - a row or label may inform a `RoleDescription` name for one local `U.Role`; it does not assign that role and does not attribute performed work.
 * **Type-structure** - structural inference across contexts; admissible only at `CL = 3` with named invariants.
 * **Explanation-only** - interpretation relation across sense families; no row substitution and no direct role, status, work, evidence, gate, or decision effect.
-* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable `U.Type` by itself.
+* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable U-kind by itself.
 

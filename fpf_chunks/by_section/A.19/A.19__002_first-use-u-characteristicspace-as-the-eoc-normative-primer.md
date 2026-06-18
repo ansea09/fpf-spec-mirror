@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "First use: U.CharacteristicSpace as the EoC (normative primer)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_first-use-u-characteristicspace-as-the-eoc-normative-primer.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — First use: U.CharacteristicSpace as the EoC (normative primer)"
-line_start: 23436
-line_end: 23456
+line_start: 23538
+line_end: 23558
 dependencies:
   - "A.17"
   - "A.18"
@@ -54,7 +54,7 @@ Core boundary: the `CharacteristicSpace` is the EoC here. Consumer patterns may 
 
 Informative CHR pointer: when the question moves from the space to normalization, indicatorization, scoring, aggregation, comparison, or selection mechanisms, use the corresponding `A.19.<MechId>` pattern (`A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`) and `A.19.CHR`. `C.16` carries measurement and evidence backing; `G.0` carries legality gates for numeric operations. A.19 may cite those patterns, but it does not govern their mechanism vocabulary.
 
-Reader path for a CHR-enabled plan or audit, when orientation is needed:
+Reader orientation sequence for a CHR-enabled plan or audit, when orientation is needed:
 
 - measurement vocabulary: use `A.17`, `A.18`, and `C.16` for characteristic, scale, coordinate, unit, measure, and evidence backing;
 - characteristic-space object: use this pattern for the declared `CharacteristicSpace`, basis slots, optional overlays, comparability boundaries, missingness, and `U.Dynamics.stateSpace` hook;

@@ -6,12 +6,12 @@ section_id: "E.23:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__007_bias-annotation.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:6 — Bias annotation"
-line_start: 70480
-line_end: 70485
+line_start: 69844
+line_end: 69849
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

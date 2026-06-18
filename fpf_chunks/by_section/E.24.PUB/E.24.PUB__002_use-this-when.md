@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:0 — Use This When"
-line_start: 71346
-line_end: 71370
+line_start: 70712
+line_end: 70737
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -26,6 +26,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.CD"
+  - "E.24.UK"
   - "E.8"
   - "E.9.DA"
   - "F.19"
@@ -40,7 +41,7 @@ Typical moments:
 
 - a pattern file is treated as if it were the ontic rather than a publication of an ontic-description episteme;
 - a card, record, table, schema, diagram, or view is cited as if its form created the governed object;
-- an ontic description starts to grow generic warnings about proof, promise, authority, permission, gate, source, evidence, decision, or work instead of staying centered on the ontic;
+- an ontic description starts to grow generic warnings about neighboring EoCs instead of staying centered on the ontic;
 - a subject pattern about architecture, structure, characteristic space, transformation, episteme, or bounded context begins with publication-use guards while the subject matter becomes background;
 - a source packet or review packet is used as if it carried ontology authority by appearance.
 
@@ -53,7 +54,8 @@ Typical moments:
 **Not this pattern when.**
 
 - If the current question is whether a construct deserves a durable ontic, use `E.24.CD` and then `E.24`.
+- If the current question is whether a `U.*` spelling in a title, filename, heading, ToC row, table, or visible publication structure should be retained, governed by C.3 typed reasoning, or renamed, use `E.24.UK`.
 - If the current question is generic multi-view publication or viewpoint packaging, use `E.17` and its dependent patterns.
-- If the current question is wording-use repair, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
+- If the current question is phrase-level precision restoration, use `E.10`, `E.10.ARCH`, `F.19`, or the relevant precision-restoration pattern.
 - If the current question is an architecture description as its own subject matter, use `C.30.AD`; E.24.PUB supplies only the boundary among the ontic, its ontic-description episteme, the publication, and the publication form.
 

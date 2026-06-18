@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.20"
-pattern_title: "U.Flow.ConstraintValidity — Eulerian"
+pattern_title: "Flow Constraint Validity — Eulerian"
 section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.20 — U.Flow.ConstraintValidity — Eulerian"
+  - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:4 — Solution"
-line_start: 28489
-line_end: 28640
+line_start: 28597
+line_end: 28748
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -41,7 +41,7 @@ keywords:
 #### A.20:4.1 - Intent and scope
 **Method and mechanism slot guard.** In A.20, `mechanism` names the law-governed operation structure for the step: signature, operation algebra, law set, applicability, guards, transport, audit, and realization relation. `method` appears only when a method-position claim is being made or when a bound-derivation technique or method description is being cited. A shared source label, project-side name, or recognizable change concern may require linked method and mechanism typed values, but CV records the step-local mechanism constraint, `CV.Status`, and witness or refusal; `A.3.1` and `A.3.2` govern the method claim or method-description claim.
 
-**Intent.** Establish the **ConstraintValidity core** for the **`U.Flow` genus**: the normative set of **internal step constraints** and how their status and witnesses are carried and aggregated, **independent of `GateProfile` fit** (publication follows MVPK without adding new numeric claims). Where CV refers to mechanism `AdmissibilityConditions`, phrase criteria **counterfactually**: *“If the admissibility conditions hold, then the CV explanation applies; otherwise this explanation does not apply.”* Avoid duty verbs unless stating the **normative** CC minima.
+**Intent.** Establish the **ConstraintValidity core** for E.18 transformation-flow valuations: the normative set of **internal step constraints** and how their status and witnesses are carried and aggregated, **independent of `GateProfile` fit** (publication follows MVPK without adding new numeric claims). Where CV refers to mechanism `AdmissibilityConditions`, phrase criteria **counterfactually**: *“If the admissibility conditions hold, then the CV explanation applies; otherwise this explanation does not apply.”* Avoid duty verbs unless stating the **normative** CC minima.
 
 **Scope (genus).** CV covers **intra-step** properties checkable from the transformation step signature and, when the step has mechanism-governed semantics, its mechanism-governing definition. The canonical CV classes are **genus-scoped and non-exhaustive**:
 `MechanismUnitsCoherence`, `LawSetInvariants`, `AdmissibilityConditionsSatisfaction`, `LipschitzBounds`, `TypeDomainRange`, and—only for **`StructuralReinterpretation`**—`ReinterpretationEquivalence` (correspondence and reversibility witness).
@@ -52,7 +52,7 @@ keywords:
 
 #### A.20:4.2 - Primary EntityOfConcern and CV classes
 
-**Genus.** `U.Flow` leaves step-kinds abstract; CV and GateFit separation applies to any declared instantiation.
+**Flow-valuation scope.** A.20 leaves step kinds abstract; CV and GateFit separation applies to any declared E.18 transformation-flow valuation instantiation.
 **Species (E.18 transformation-flow family).** E.18 loci bind to `{Transformation, Signature, Mechanism, WorkPlanning, Work, Check, StructuralReinterpretation}`; this set is a **minimum locus baseline** defined in `E.18`. The **species** space (e.g., UNM declaration and use, `SelectionAndTuning`, `WorkPlanning`, `EvaluatingAndRefreshing`, …) is **open-world** and non-exhaustive. `OperationalGate` is the `Check` locus. `StructuralReinterpretation` is **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and may retarget **EntityOfConcernRef** under CC-TFS-06-EX; see `E.18` and `A.6.4`.
 
 **`AdmissibilityConditionsSatisfaction`** — **If** the declared admissibility conditions hold on the step’s inputs and context, **then** the CV explanation **applies**; **otherwise** this explanation **does not apply**.

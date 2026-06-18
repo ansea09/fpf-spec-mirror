@@ -6,12 +6,12 @@ section_id: "A.14:9"
 section_title: "Validation patterns (author’s decision procedure)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_validation-patterns-author-s-decision-procedure.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Validation patterns (author’s decision procedure)"
-line_start: 20154
-line_end: 20179
+line_start: 20248
+line_end: 20273
 dependencies:
   - "A.1"
   - "B.1.1"
@@ -41,7 +41,7 @@ If yes, pick **PhaseOf**. Verify identity criteria and non‑overlap (CC‑PHA�
 **Step 4 — Is it a membership statement?**
 Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a **collection as a whole**, use **C.13** (`Γ_m.set`) for constructive grounding. If you need **collective action**, apply **A.15**.
 
-**Quick spot‑tests (repair kit).**
+**Quick spot-tests.**
 
 | Smell                          | Likely error                      | Fix                                                                                                                          |
 | ------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |

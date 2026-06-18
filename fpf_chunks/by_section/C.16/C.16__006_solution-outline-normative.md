@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution Outline (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-outline-normative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution Outline (Normative)"
-line_start: 41797
-line_end: 41954
+line_start: 41133
+line_end: 41288
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
 
 **S3 — Evidence stance.** A measure that, by its template, **requires** evidence, is **inadmissible** without a meaningful `U.EvidenceStub`. C.16 defines **what it means conceptually** for evidence to “connect” the subject, the Characteristic, and its symbolic description; mechanisms are out of scope. (Details: §9 below.)
 
-**S4 — RSG framing (open‑endedness).** Readiness, calibration, and revision of metric notions are expressed as **RSG node moves with checklists** (e.g., “characteristic bound”, “Scale typed”, “Unit coherent”, “ScoringMethod declared”), allowing **re‑entry** when distinctions change; there is no terminal “lifecycle”. (Details: §10 below.)
+**S4 — Role-state-relation framing (open‑endedness).** Readiness, calibration, and revision of metric notions are expressed as role-state-relation assertions and checklist-governed state changes (e.g., “characteristic bound”, “Scale typed”, “Unit coherent”, “ScoringMethod declared”), allowing **re‑entry** when distinctions change; there is no terminal “lifecycle”. (Details: §10 below.)
 
 #### C.16:5.1 - Lexical Discipline & Registers (Normative)
 
@@ -69,15 +69,13 @@ keywords:
 
 > **Position.** MM‑CHR does **not** redefine kernel terms; it **binds** them to an FPF‑level Standard that every metric must satisfy. Canonical vocabulary and CSLC duties are inherited from **A.17** and **A.18** and referenced here without duplication.
 >
-> **Governing references.** A.17 and A.18 govern Canon and CSLC; C.16 **adopts by reference** and keeps restatements of their definitions out of scope. C.16 only **exports** `U.*` constructs, comparability stance, evidence semantics, and RSG touch‑points.
+> **Governing references.** A.17 and A.18 govern Canon and CSLC; C.16 **adopts by reference** and keeps restatements of their definitions out of scope. C.16 only **exports** `U.*` constructs, comparability stance, evidence semantics, and role-state-relation touch-points.
 >
 > **CHR boundary reminder.** Any notion that belongs to characterization mechanisms (normalization, indicatorization, scoring, aggregation, comparison, selection) appears in C.16 only as a **pointer** to its governing FPF pattern or specification record. C.16 MUST NOT become a shadow governing pattern for any such terminology or laws.
 
-##### C.16:5.3.1 - `U.DHCMethod` — the metric definition (normative)
-
 ##### C.16:5.3.1 - `U.DHCMethod` — the measurement template (normative)
 
-**Role.** A measurement-template **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References** to this template use `U.DHCMethodRef`. *(Didactic: think “the meaning declaration for a reading”.)*
+**Function.** A measurement-template **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References** to this template use `U.DHCMethodRef`. *(Didactic: think “the meaning declaration for a reading”.)*
 
 **R-MT-1 (CSLC binding).** A DHCMethod **SHALL** bind to **exactly one** `U.Characteristic` and **exactly one** **Scale‑form** admissible for that Characteristic (cf. A.18). Level is **optional** (used when the scale is enumerated); otherwise values are given directly as Coordinates.
 
@@ -97,7 +95,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 
 ##### C.16:5.3.2 - `U.Measure` — the recorded reading (normative)
 
-**Role.** A **claim** that a subject occupies a **Coordinate** (or named **Level**) on the template’s scale, backed by a minimal pointer to its grounds.
+**Function.** A **claim** that a subject occupies a **Coordinate** (or named **Level**) on the template’s scale, backed by a minimal pointer to its grounds.
 
 **R‑ME‑1 (Template binding).** Every Measure **SHALL** reference exactly one DHCMethodRef; its **Value or Coordinate** must be **valid** for that template’s scale (type, range, category).
 
@@ -115,7 +113,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 
 ##### C.16:5.3.3 - `U.Unit` — semantics of quantities (normative)
 
-**Role.** A conceptual marker of **quantity kind** and admissible **conversions** within that kind; not every scale requires it.
+**Function.** A conceptual marker of **quantity kind** and admissible **conversions** within that kind; not every scale requires it.
 
 **R‑UN‑1 (Quantity kind).** Where units apply, the template **SHALL** indicate the **quantity kind** (e.g., Time, Length, Dimensionless‑Score). Units are meaningful only **within** one kind.
 
@@ -127,7 +125,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
 
 ##### C.16:5.3.4 - `U.EvidenceStub` — pointer to grounds (normative)
 
-**Role.** A compact **tie** from a Measure to the grounds sufficient for **reasoned audit** (not a repository prescription).
+**Function.** A compact **tie** from a Measure to the grounds sufficient for **reasoned audit** (not a repository prescription).
 
 **R‑EV‑1 (Minimal sufficiency).** An EvidenceStub **SHALL** carry, at minimum, a **type‑of‑ground** and an **identifier** sufficient to retrieve or reconstruct the grounds in the appropriate Context of meaning.
 
@@ -166,9 +164,9 @@ C.16 does not define scoring methods; it only requires that a score be interpret
 
 **R‑ER‑3 (Bridge to CG‑frames).** In architectural CG‑frames, **Coupling/Cohesion** are Characteristics over **modules** (structure) or **roles** (function). Their measures are relational (**Coupling**) or unary (**Cohesion** within an element), but both live in the same MM‑CHR substrate. (Alignment hinted in the old mapping rows across contexts. )
 
-#### C.16:5.6 - Acceptance (conceptual, RSG‑aware)
+#### C.16:5.6 - Acceptance (conceptual, role-state-relation aware)
 
-> Acceptance here is **thought‑level**. It uses the **Role‑State Graph (A.2.5)** pattern to organise mental checks—no “lifecycle” narratives.
+> Acceptance here is **thought‑level**. It uses the `RoleStateRelation@BoundedContext` (A.2.5) pattern to organise mental checks—no “lifecycle” narratives.
 
 **SCR‑C16‑A (Template sufficiency).** You can check—without invoking tooling—that the template has:
 (i) a fixed **Characteristic** (A.17),

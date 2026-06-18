@@ -6,12 +6,12 @@ section_id: "E.24.CD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__009_conformance-checklist.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:7 — Conformance Checklist"
-line_start: 71269
-line_end: 71283
+line_start: 70633
+line_end: 70648
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -38,8 +39,9 @@ keywords:
 | `CC-E24CD-2` | Visible source forms are listed as source forms, not treated as the candidate ontic. |
 | `CC-E24CD-3` | Compressed typed values are separated and each is pointed to its current governing pattern when such a pattern exists. |
 | `CC-E24CD-4` | Detection records a sufficiency judgement: several signals cohere around one recognizable concern and possible slot relation; repeated wording or one useful form alone is not enough. |
-| `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
+| `CC-E24CD-5` | The hidden-form classification is explicit: durable ontic candidate, U-kind admission pressure, local use frame, direct governing-pattern use, publication-form-only case, source wording only, or evaluation-construction case. |
 | `CC-E24CD-6` | Durable ontic candidates carry a sufficiency rationale with identity hint, possible slot relation, semantic area, ontological neighborhood, dependent-pattern need, duplicate-ontology risk, first-use gain, and non-use boundary. |
+| `CC-E24CD-6a` | `U.*`, type, kind, subkind, title, filename, heading, and ToC pressure is sent to `E.24.UK` after concern recovery; detection alone does not admit a durable U-kind. |
 | `CC-E24CD-7` | Local use frames are explicitly non-`U.*` and do not become registries, evidence records, gate records, methods, mechanisms, work plans, or work occurrences. |
 | `CC-E24CD-8` | When publication-form confusion is current, apply `E.24.PUB` rather than solving the confusion by declaring the form to be the ontic. |
 | `CC-E24CD-9` | When contested comparison of architecture alternatives is current, apply `A.19.ECS` rather than building the comparison into E.24.CD. |

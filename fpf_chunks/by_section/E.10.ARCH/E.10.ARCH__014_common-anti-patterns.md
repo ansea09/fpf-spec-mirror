@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_common-anti-patterns.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common anti-patterns"
-line_start: 61665
-line_end: 61679
+line_start: 61029
+line_end: 61043
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,7 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "E.10"
+  - "E.10.ARCH"
   - "E.11"
   - "E.18"
   - "E.19"

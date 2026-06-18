@@ -6,12 +6,12 @@ section_id: "A.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__012_rationale.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.1 — U.Holon, U.System, and U.Episteme"
   - "A.1:10 — Rationale"
-line_start: 1572
-line_end: 1579
+line_start: 1571
+line_end: 1578
 dependencies:
   - "A.1.1"
   - "A.15"

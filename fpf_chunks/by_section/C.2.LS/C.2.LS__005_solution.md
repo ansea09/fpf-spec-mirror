@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:4 — Solution"
-line_start: 37085
-line_end: 37134
+line_start: 37209
+line_end: 37262
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,6 +51,10 @@ keywords:
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
 `C.2.LS` is therefore a **profile-bundle governing pattern**, not a characteristic governing pattern and not a trajectory governing pattern. Characteristic semantics remain with `A.18/A.19`; admissible moves remain with `A.16`; explicit path publication remains with `E.18`.
+
+#### C.2.LS:4.0a - E.24.UK settlement
+
+`U.LanguageStateFacetProfile` is retained as a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
 
 #### C.2.LS:4.1 - Governing boundary
 `C.2.LS` governs only the profile composition and the rule that the language-state facets must remain explicit and non-collapsed. It does **not**:

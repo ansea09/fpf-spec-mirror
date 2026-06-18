@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__010_conformance-checklist.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8 — Conformance Checklist"
-line_start: 74385
-line_end: 74423
+line_start: 74038
+line_end: 74076
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -55,13 +58,13 @@ keywords:
 | --- | --- |
 | `CC-F8-01` | Candidate expression, bounded context, proposed use, and recovered kind or relation are named. |
 | `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, work, measurement, or structure uses are split. |
-| `CC-F8-03` | A local existing sense is reused before proposing a row or `U.Type`. |
+| `CC-F8-03` | A local existing sense is reused before proposing a row or U-kind. |
 | `CC-F8-04` | Role expressions become durable role names only after `U.Role` and RoleDescription ontology are recovered. |
 | `CC-F8-05` | Assignment and performed-work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
 | `CC-F8-06` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names go to direct governing patterns. |
 | `CC-F8-07` | Concept-Set row reuse stays within the row's admitted use. |
 | `CC-F8-08` | Aliases preserve meaning and carry lineage when durable. |
-| `CC-F8-09` | New `U.Type` candidates cite cross-family recurrence, irreducibility, and accepted decision record. |
+| `CC-F8-09` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK` admission, and the accepted A.8, A.11, C.3, E.9, and F.18 decision basis. |
 | `CC-F8-10` | Policy ids carry `PolicyIdRef` discipline when introduced or reused. |
 | `CC-F8-11` | The decision states what overread is not admitted and what condition reopens the decision. |
 

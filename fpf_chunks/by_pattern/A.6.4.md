@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.4.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-line_start: 12487
-line_end: 12998
+line_start: 12574
+line_end: 13088
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -26,6 +26,7 @@ keywords:
 ---
 
 ## A.6.4 - `U.EpistemicRetargeting` — EntityOfConcern retargeting morphism
+> **Status:** Stable
 
 **One‑line summary.** `U.EpistemicRetargeting` is the **EntityOfConcern retargeting** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
 **EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Earlier source-side spellings are source-migration wording only; conformant text normalizes them to `EntityOfConcern*` before use.
@@ -37,6 +38,8 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicVi
 
 **Used by.**
 E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
+
+**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the governed durable value in this host. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source-migration wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
 
 **Retargeting in plain terms.** One effect-free episteme-to-episteme retargeting where the source episteme and receiving episteme intentionally describe different but bridge-related values of `EntityOfConcernSlot`.
 
@@ -165,7 +168,7 @@ When a retargeting claim has FPF-governed use, the receiving text makes these de
 | `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability goal, recoverability evidence, and source-bearing reopen condition. |
 | `admissibleUse` | The admissible use named by value now. |
 | `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, transformation-flow path, temporal, or dynamics use that is not carried by the current item. |
-| `neighboringPatternHandoff` | The FPF pattern that carries the neighboring claim being made, when one is present. |
+| `neighboringGoverningPatternRef` | The FPF pattern that governs the neighboring claim being made, when one is present. |
 | `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the claim being made. |
 
 The decision block is not a new FPF kind, record, profile, publication form, or hidden evidence or justification object. It is a recoverable field set for retargeting cases. Ordinary local retargeting can stay compact when the source EntityOfConcern, receiving EntityOfConcern, bridge, invariant, and remaining reader action are already explicit.
@@ -175,27 +178,27 @@ If the bridge or invariant is insufficient for the intended use, the receiving i
 #### A.6.4:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
 **Signature header.**
-`U.EpistemicRetargeting` is a **Morphism‑kind** under A.6.0, specialised from EFEM:
+`U.EpistemicRetargeting` is a morphism profile under A.6.0, specialised from EFEM:
 
 ```
 SubjectBlock
   SubjectKind    = U.EpistemicRetargeting
-  BaseType       = ⟨X:U.Episteme, Y:U.Episteme⟩      // episteme pair
-  Quantification = SliceSet := U.ContextSliceSet;
+  RangedValueKind = ⟨X:U.Episteme, Y:U.Episteme⟩      // episteme pair
+  Quantification = SliceSet := ContextSliceSet;
                    ExtentRule := admissible retargeting morphisms
-  ResultKind     = U.Morphism                        // an instance r
+  ResultKind     = EpMorphism                        // local typed arrow r in the Ep category
 ```
 
 **Vocabulary (re‑uses A.6.2).**
 
-* **Types.** `U.Episteme`, `U.SubjectRef`, `U.Morphism`, `U.EpistemicRetargeting`.
+* **Types.** `U.Episteme`, `SubjectRef`, `EpMorphism`, `U.EpistemicRetargeting`.
 * **Operators.**
 
-  * `id    : U.Morphism(X→X)`
-  * `compose(g,f) : U.Morphism(X→Z)` where `f:X→Y`, `g:Y→Z`
+  * `id    : EpMorphism(X->X)`
+  * `compose(g,f) : EpMorphism(X->Z)` where `f:X->Y`, `g:Y->Z`
   * `apply(r, x:U.Episteme) : U.Episteme`
   * `dom(r), cod(r) : U.Episteme`
-  * `subjectRef(-) : U.SubjectRef`
+  * `subjectRef(-) : SubjectRef`
 * **Slot‑level discipline.**
   Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
 
@@ -484,7 +487,7 @@ For retargetings over `…Description`/`…Spec` epistemes:
 
 **CC‑A.6.4‑6 - Separation from Viewing and Mechanisms.**
 * Any species that leaves `entityOfConcernRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
-* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicRetargeting.
+* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`, performed `U.Work`, or another directly governed work/effect value and cannot be an EpistemicRetargeting.
 
 **CC-A.6.4-7 - Retargeting witness and reopen discipline.**
 For every FPF-governed retargeting use, the source EntityOfConcern, receiving EntityOfConcern, `KindBridge`, invariant, preserved commitments, withdrawn or new commitments, admissible predicate changes, admissibility value, retargeting witness, and source-bearing reopen condition are recoverable. If bridge or invariant witnessing is insufficient for the intended use, the case records source-bearing reopen, bridge-only comparison, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff.

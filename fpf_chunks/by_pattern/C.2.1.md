@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
-line_start: 34626
-line_end: 35468
+line_start: 34760
+line_end: 35602
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -390,7 +390,7 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
    The kind determines:
 
    * which **SlotKinds** appear (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`, …),
-   * the **ValueKind** for each slot (always a subtype of `U.Type`),
+   * the **ValueKind** for each slot (declared through C.3 `U.Kind`, an admitted durable U-kind, a direct governed value kind, a Concept-Set row, or an imported signature symbol),
    * the **RefKind** used to store it in episteme (when applicable).
 1. `U.EpistemeKind` is a **special case** of `U.Signature` (A.6.0), with its slots governed by `U.RelationSlotDiscipline` (A.6.5). C.2.1 **MUST NOT** define an alternative slot discipline.
 2. For the minimal core, every `U.EpistemeKind` **MUST** include:
@@ -400,7 +400,7 @@ To prevent confusion between **EntityOfConcern values**, their **descriptions**,
      Inclusion of `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot` **MAY** be species-level constraints (mandatory for Description epistemes, including Description epistemes admitted for specification use, optional for others).
 
 **Didactic cue.**
-“An `EpistemeKind` is the *type* of episteme: which positions it has and what can go into them.”
+“An `EpistemeKind` is the *kind declaration* for an episteme: which positions it has and what can go into them.”
 
 ##### C.2.1:4.2.2 - Filled episteme value assignment and C.29 tuple view
 

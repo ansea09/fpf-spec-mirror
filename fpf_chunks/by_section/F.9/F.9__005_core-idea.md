@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Core idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__005_core-idea.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:4 — Core idea"
-line_start: 74558
-line_end: 74571
+line_start: 74211
+line_end: 74224
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -62,5 +62,5 @@ A Bridge is a declared correspondence between two local senses. It always names:
 6. counter-example or invariant evidence,
 7. admitted use.
 
-Some Bridges admit naming or bounded substitution of sense. Interpretation Bridges admit explanation only. A Bridge never creates a `U.RoleAssignment`, never attributes performed work, never turns an episteme into evidence by itself, and never mints a universal type.
+Some Bridges admit naming or bounded substitution of sense. Interpretation Bridges admit explanation only. A Bridge never creates a `U.RoleAssignment`, never attributes performed work, never turns an episteme into evidence by itself, and never admits a durable U-kind.
 

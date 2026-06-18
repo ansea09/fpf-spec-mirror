@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:0 — Use This When"
-line_start: 74123
-line_end: 74155
+line_start: 73776
+line_end: 73808
 dependencies:
   - "A.11"
   - "A.15"
@@ -26,6 +26,9 @@ dependencies:
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "E.9"
   - "F.1"
   - "F.10"
@@ -43,7 +46,7 @@ dependencies:
   - "F.9"
 keywords:
   - "decision lattice"
-  - "minting new types"
+  - "minting new U-kinds"
   - "parsimony"
   - "reuse"
   - "type explosion"
@@ -53,21 +56,21 @@ keywords:
 
 **Plain name.** Name admission decision.
 
-Use this pattern when a project has a candidate expression and must decide whether it should stay local, reuse an existing name, become an alias, reuse a Concept-Set row, name a role-description episteme, introduce a new Concept-Set row, introduce a policy id, or become a rare `U.Type` candidate.
+Use this pattern when a project has a candidate expression and must decide whether it should stay local, reuse an existing name, become an alias, reuse a Concept-Set row, name a role-description episteme, introduce a new Concept-Set row, introduce a policy id, or become a rare U-kind candidate.
 
 Typical moments:
 
 - a role-like expression such as `ReviewerRole`, `AccessRole`, `EvidenceRole`, `RequirementRole`, `ProviderRole`, or "actor" appears and the project must decide whether it names a work-facing `U.Role`, a status-use relation, an evidence-use relation, an access or policy term, a relation position, or only a local phrase;
 - a source tradition uses a convenient name, but the name would import one context's ontology if promoted as an FPF name;
 - a Concept-Set row seems reusable, but its scope may be only naming, not substitution, role assignment, measurement, or structural inference;
-- a project wants a new `U.Type`, policy id, role-description label, or public term because no existing name feels comfortable;
+- a project wants a new U-kind, policy id, role-description label, or public term because no existing name feels comfortable;
 - an `E.10` repair discovers that a smoother word would still hide the current kind or relation.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one mint-or-reuse decision for one candidate expression or proposed durable name. The pattern governs the decision relation. It does not define the named `U.Type`, does not describe the `U.Role`, does not assign a holder, does not assert status, does not provide evidence, and does not make a publication authoritative.
+**Primary EntityOfConcern.** The EntityOfConcern is one mint-or-reuse decision for one candidate expression or proposed durable name. The pattern governs the decision relation. It does not define the named U-kind, does not describe the `U.Role`, does not assign a holder, does not assert status, does not provide evidence, and does not make a publication authoritative.
 
 **Primary working reader.** The first reader is an engineer-manager, analyst, method author, pattern author, or terminology steward deciding whether a candidate expression deserves durable FPF treatment.
 
-**First useful move.** Recover what the candidate expression is trying to name in the current bounded context. Then choose the smallest admissible decision: local phrase, alias, local name reuse, Concept-Set row reuse, RoleDescription label, direct-pattern name, policy id, new row, or rare `U.Type` candidate.
+**First useful move.** Recover what the candidate expression is trying to name in the current bounded context. Then choose the smallest admissible decision: local phrase, alias, local name reuse, Concept-Set row reuse, RoleDescription label, direct-pattern name, policy id, new row, or rare U-kind candidate.
 
 **What goes wrong if missed.** A convenient label becomes a new ontology. A source word becomes global. A status, evidence, access, requirement, source, publication, or relation-position use gets named as a role. A Concept-Set row is used beyond the scope admitted by its bridge evidence. FPF then accumulates duplicate kinds where it needed a smaller decision.
 

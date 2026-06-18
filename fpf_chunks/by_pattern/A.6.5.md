@@ -6,23 +6,24 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.5.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
-line_start: 15515
-line_end: 15796
+line_start: 15607
+line_end: 15892
 dependencies:
   - "A.1"
+  - "A.2.1"
   - "A.6.0"
   - "A.6.2"
   - "A.6.4"
   - "A.7"
-  - "B.5"
   - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.17.0"
   - "E.8"
+  - "F.6"
   - "U.EpistemeSlotRelation"
   - "U.MultiViewDescribing"
   - "U.Signature"
@@ -44,6 +45,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain name.** Relation slot discipline.
+
+### E.24.UK settlement
+
+`U.RelationSlotDiscipline` is retained as a root durable relation-slot discipline kind. It governs the reusable SlotSpec discipline for relation-bearing structures: local SlotKinds, admitted ValueKinds, and by-value or RefKind filling. It is not `U.Relation`, not a generic interface kind, not a slot position, not a record form, and not a publication form.
 
 **Use this when.** Use this pattern when a relation, operator, record, episteme slot relation, signature vocabulary item, interface specification, method description, service-access description, role assignment, evidence-use relation, status-use relation, or transformation-flow structure needs named positions and typed fillers rather than a loose parameter list.
 

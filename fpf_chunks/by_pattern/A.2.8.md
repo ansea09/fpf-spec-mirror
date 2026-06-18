@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-line_start: 5095
-line_end: 5412
+line_start: 5128
+line_end: 5465
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -27,6 +27,8 @@ keywords:
   - ") but makes the structure explicit"
   - "BCP‑14 (RFC 2119/8174)"
   - "adjudication hooks"
+  - "are cues for the modality field after the deontic relation is recovered"
+  - "by themselves"
   - "commitment"
   - "deontics"
   - "evidenceRefs"
@@ -35,31 +37,53 @@ keywords:
   - "permission"
   - "prohibition"
   - "scope+validity window"
+  - "they are not the governed object of this pattern"
 ---
 
 ## A.2.8 - `U.Commitment` (Deontic Commitment Object)
 
-> **Type:** Definitional (D)
 > **Status:** Stable
+
+### E.24.UK settlement
+
+This structural `U.*` title is retained by E.24.UK as a root durable deontic-relation value; its source may cite speech acts and descriptions, but the commitment is not the utterance description, carrier, gate, or performed work.
+
+### A.2.8:0 - Use This When
+
+Use this pattern when a project needs to state who is accountable for what, under which modality, scope, and time window, without pretending that the words in a specification, contract, ticket, API description, or standard are themselves the accountable actor.
+
+Typical moments:
+
+- a promise content, policy clause, requirement, SLA, protocol rule, or standard clause must become an accountable commitment;
+- source wording says "MUST", "SHALL", "guarantees", "is responsible for", or "legally binding", and the project must recover the deontic relation rather than normalize keywords by themselves;
+- evidence or gates are being attached to a duty and the model must keep commitment content, adjudication evidence, and performed work distinct.
+
+**Primary EntityOfConcern.** The EntityOfConcern is `U.Commitment`: a deontic relation linking an accountable subject to referents under explicit modality, scope, validity window, and optional adjudication hooks.
+
+**First useful move.** Name the accountable subject and the referents first. Then state modality, scope, validity window, and adjudication only if the commitment is meant to be checked or enforced.
+
+**Not this pattern when.** If the current EntityOfConcern is the promised content, use `A.2.3`; if it is the communicative act that instituted or revoked the commitment, use `A.2.9`; if it is a gate or admissibility claim, use the gate or boundary pattern; if it is performed work, use `A.15.1`.
+
+> **Type:** Definitional (D)
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
 > **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (EntityOfConcern / Description episteme / carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
 > **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
 
-### A.2.8:0 - Terminology: “binding” is overloaded (normative)
+### A.2.8:0.1 - Terminology: “binding” is overloaded (normative)
 
 The word family “bind/binding” is used throughout FPF for **technical binding** (name/slot binding, parameter binding, etc.). This pattern introduces a narrower lexical constraint: **do not use “binding” as the Tech-level term for deontic governance relations.** Use **commitment** and model it as `U.Commitment`. If source wording uses “binding contract/promise” rhetoric, rewrite it into explicit `U.Commitment` fields (`subject`, `modality`, `scope/window`, `referents`, and—when auditable—`adjudication`).
 
 This pattern therefore treats **commitment** as the canonical Tech-level term and uses `U.Commitment` as the kernel object.
 
-If your source wording uses “binding” rhetoric (e.g., “binding contract”, “legally binding promise”), treat it as Plain-level phrasing that **MUST** be rewritten into explicit `U.Commitment` fields (`subject`, `modality`, `scope/window`, `referents`, and—when auditable—`adjudication`).
+If source wording uses “binding” rhetoric (e.g., “binding contract”, “legally binding promise”), treat it as Plain-level phrasing that must be recovered into explicit `U.Commitment` fields (`subject`, `modality`, `scope/window`, `referents`, and, when auditable, `adjudication`). Deontic keywords are cues for the modality field after the deontic relation is recovered; they are not the governed object of this pattern.
 
 ### A.2.8:1 - Problem frame
 
 FPF needs to express boundary governance and socio-technical obligations in a way that is:
 
-* **grounded in accountable `U.Role` or `U.Agent`** (someone is accountable),
+* **grounded in an accountable role, role assignment, or party** (someone is accountable),
 * **scope-and-window explicit** (where/when the commitment holds),
 * **reference-based** (no paraphrase drift; refer to claim IDs),
 * **adjudicable** (if intended to be checkable, it has an evidence story).
@@ -78,7 +102,7 @@ A.6.B provides L/A/D/E claim-classification discipline, and A.6.C provides contr
 How can FPF represent a deontic commitment relation so that:
 
 1. **The accountable subject is explicit** (role or role-enactor; not “the spec/interface/service”),
-2. **Modality is explicit and lintable** (obligation / permission / prohibition / strength),
+2. **Modality is explicit and lintable** (obligation, permission, prohibition, and strength),
 3. **Scope and validity window are explicit** (bounded context + time + conditions),
 4. **The content is referenceable** via stable referent claim IDs (promise contents, gates, evidence targets, etc.),
 5. **Adjudication hooks exist** when the binding is meant to be testable/auditable (links to evidence claims and carrier expectations),
@@ -90,14 +114,14 @@ How can FPF represent a deontic commitment relation so that:
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Minimality                     | The object must be small enough to use routinely, not a full legal-contract model.                                                                  |
 | Generality                     | It must work for software specs, protocols, hardware boundaries, and socio-technical governance.                                                    |
-| Layering discipline            | It must not collapse “law, gate, duty, and evidence”; it should enable routing rather than replace it.                                               |
+| Layering discipline            | It must not collapse law, gate, duty, and evidence; it should make the neighboring governing pattern explicit without replacing it.                  |
 | Local meaning                  | Defaults should be bounded-context local; cross-context bindings must be explicit.                                                                  |
 | Auditability                   | Some commitments are aspirational; others are auditable. The representation must support both, without implying auditability by default.            |
 | Multi-issuer governance reality | People, organizations, and states can issue incompatible commitments; the model must represent issuer, authority relation, and priority without “solving politics” inside Part A. |
 
 ### A.2.8:4 - Solution
 
-`U.Commitment` is the **kernel object** representing a **deontic commitment relation**: it links an accountable subject (role/role-enactor) to one or more referents via an explicit modality within an explicit scope/window, optionally with adjudication hooks.
+`U.Commitment` is the **kernel object** representing a **deontic commitment relation**: it links an accountable subject (role or role-enactor) to one or more referents via an explicit modality within an explicit scope/window, optionally with adjudication hooks.
 
 This pattern defines:
 
@@ -124,7 +148,7 @@ U.Commitment ::=
     owedTo: optional<set<CounterpartyRef>>, // who the commitment is owed to / intended beneficiary (optional; governance-facing, not required)
     modality: DeonticModalityToken,     // deontic modality (normalized; lintable)
     scope: U.ClaimScope,               // bounded context for applicability + non-temporal delimiters (same primitive as claim scopes; commitments are not epistemes)
-    validityWindow: U.QualificationWindow, // Γ_time slice + conditions under which it applies / is in force
+    validityWindow: QualificationWindowPolicy, // Γ_time slice + conditions under which it applies / is in force
     referents: set<ReferentRef>,        // what is being bound (by reference, not paraphrase)
     adjudication: optional<AdjudicationHooks>, // evidence hooks if auditable
     source: optional<CommitmentSource>, // what instituted/authorized it (issuer + instituting act + utterance description), when provenance matters
@@ -144,9 +168,8 @@ CounterpartyRef ::=
 
 DeonticModalityToken ::=
   MUST | MUST_NOT | SHOULD | SHOULD_NOT | MAY
-  // Interpreted as in RFC 8174 keyword discipline when used normatively.
-  // **Normalization rule:** if authors use synonyms (e.g., SHALL, REQUIRED, RECOMMENDED, OPTIONAL),
-  // they MUST be mapped to this normalized set for linting and comparison.
+  // FPF deontic-modality values for the `modality` slot.
+  // RFC words and their synonyms are source expressions; map them only after the commitment relation is recovered.
   //
   // **Normalization mapping (normative; illustrative table):**
   // - SHALL, REQUIRED        -> MUST
@@ -193,7 +216,7 @@ CommitmentSource ::=
 
 **Normative constraints:**
 
-* **(C1) Subject must be accountable.** `subject` **MUST** resolve to an accountable role/party; it **MUST NOT** be “the interface/spec/service/system” as an episteme.
+* **(C1) Subject must be accountable.** `subject` **MUST** resolve to an accountable role or party; it **MUST NOT** be “the interface, spec, service, or system” as an episteme.
 * **(C2) Modality must be explicit and normalized.** `modality` **MUST** be present for normative commitments and **MUST** be normalized to `DeonticModalityToken`.
 * **(C3) Scope + validity must be explicit.** `scope` and `validityWindow` **MUST** be present. Defaults are allowed only when an explicit context policy is cited as the source of those defaults (do not rely on “implied defaults”). `validityWindow` expresses *in-force* conditions; per-action admissibility gates belong in referenced `A-*` predicates.
 * **(C4) Referents must be non-empty.** `referents` **MUST** contain at least one referent (what is being obligated, permitted, or prohibited).
@@ -224,7 +247,7 @@ CommitmentSource ::=
 When using the A.6 stack, represent each **D-quadrant** atomic claim as a `U.Commitment` payload with:
 
 * `id = D-*`,
-* `subject = accountable role/party`,
+* `subject = accountable role or party`,
 * `modality = DeonticModalityToken` (normalized from RFC-keyword family usage),
 * `referents = {PromiseContentRef, MethodDescriptionRef, L-*, A-* … as needed}` (content/targets),
 * `adjudication.evidenceRefs = {E-* …}` when the commitment is meant to be checkable.
@@ -239,7 +262,7 @@ A deontic statement becomes stable and reviewable when it is represented as a `U
 
 A production org states: “Severity‑1 incidents must be responded to within 4 hours.”
 
-A routable commitment:
+A commitment with explicit references:
 
 * `subject`: `RoleAssignmentRef(OpsTeam as ProviderRole)` (or at least `RoleRef(ProviderRole)`),
 * `modality`: `MUST`,
@@ -285,7 +308,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 
 2. **CC‑A.2.8‑2 (Explicit modality).** A normative `U.Commitment` **MUST** specify `modality` as `DeonticModalityToken` (with any RFC-keyword synonyms normalized to it).
 
-3. **CC‑A.2.8‑3 (Scope & validity explicit).** A normative `U.Commitment` **MUST** specify `scope` (`U.ClaimScope`) and `validityWindow` (`U.QualificationWindow`), or explicitly cite the context policy that supplies defaults (do not rely on “implied defaults”).
+3. **CC‑A.2.8‑3 (Scope & validity explicit).** A normative `U.Commitment` **MUST** specify `scope` (`U.ClaimScope`) and `validityWindow` (qualification-window policy), or explicitly cite the context policy that supplies defaults (do not rely on “implied defaults”).
 
 4. **CC‑A.2.8‑4 (Referents present and by ID).** `referents` **MUST** be non‑empty. If the bound content exists as claim IDs, the commitment **SHOULD** reference those IDs in `referents` rather than restating their content.
 
@@ -296,7 +319,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 
 | Anti-pattern                                        | Why it fails                                               | Repair                                                                                |
 | --------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| **Episteme-as-subject** (“the API SHALL…”)          | assigns agency to descriptions                             | use an accountable role/party as `subject`; keep the spec as `source.descriptionRef`  |
+| **Episteme-as-subject** (“the API SHALL…”)          | assigns agency to descriptions                             | use an accountable role or party as `subject`; keep the spec as `source.descriptionRef`  |
 | **Missing scope/window**                            | commitments become unreviewable (“always/never” ambiguity) | declare `scope` + `validityWindow`; if global, say so explicitly via a policy/default |
 | **Paraphrase drift**                                | drift across faces and docs                                | reference via `referents` using claim IDs; avoid restating the same constraint        |
 | **Auditable rhetoric** (“guaranteed”) without hooks | not adjudicable                                            | add `adjudication.evidenceRefs` pointing to `E-*` claims and carrier expectations     |
@@ -307,7 +330,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 **Benefits**
 
 * Makes deontic statements **first-class and lintable** (subject/modality/scope/referents/hooks).
-* Enables clean integration with boundary routing (A.6.B) and contract unpacking (A.6.C) without embedding ontology in naming patterns.
+* Enables clean integration with boundary claim classification (A.6.B) and contract unpacking (A.6.C) without embedding ontology in naming patterns.
 * Improves auditability by making evidence expectations explicit *only when intended*.
 
 **Trade-offs / mitigations**
@@ -317,7 +340,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 
 ### A.2.8:10 - Rationale
 
-The triad “promise / utterance / commitment” is useful for language discipline, but deontic ontology should not be anchored in a naming-focused pattern. A kernel object:
+The triad “promise, utterance, and commitment” is useful for language discipline, but deontic ontology should not be anchored in a naming-focused pattern. A kernel object:
 
 * stabilizes what a “commitment” structurally is,
 * ensures “MUST/SHALL” talk is representable without category mistakes,
@@ -329,7 +352,7 @@ The triad “promise / utterance / commitment” is useful for language discipli
 
 * **BCP 14 (RFC 2119 + RFC 8174) / modern spec-language discipline (2017+).** Treating modality tokens as a controlled family is standard; `U.Commitment.modality` makes this family explicit and lintable.
 * **Policy-as-code ecosystems (2016+).** Modern governance stacks often encode gates as code (e.g., Kubernetes admission controls, OPA/Rego-style policy evaluation) and obligations as process controls; the `U.Commitment` structure helps keep “gate predicates” separate from “actor duties”, while still linking them by reference.
-* **ODRL-style duty, permission, and prohibition modeling (W3C ODRL 2.2, 2018).** The minimal “subject + modality + constraint/window + target” shape is widely used; `U.Commitment` adopts the kernel of that idea while keeping FPF’s boundary routing and evidence discipline.
+* **ODRL-style duty, permission, and prohibition modeling (W3C ODRL 2.2, 2018).** The minimal “subject + modality + constraint/window + target” shape is widely used; `U.Commitment` adopts the kernel of that idea while keeping FPF’s boundary claim classification and evidence discipline.
 * **Trace-based compliance and audit (2018+ supply-chain / reproducibility practice).** “Compliance is evidenced by evidence carriers and records” is mainstream; `adjudication.evidenceRefs` captures this without turning evidence into semantics.
 * **Supply-chain attestations (2021+).** Attestation-oriented schemes (e.g., SLSA-style provenance, transparency logs) operationalize “claims + evidence carriers”; `adjudication.evidenceRefs` is the bridge point without collapsing evidence into truth.
 
@@ -338,13 +361,13 @@ The triad “promise / utterance / commitment” is useful for language discipli
 **Uses / builds on**
 
 * A.2.1 for identifying accountable roles vs role-enactors (role assignments).
-* A.2.6 for expressing scope and time/window (`U.ClaimScope`, `U.QualificationWindow`).
+* A.2.6 for expressing scope and time/window (`U.ClaimScope`, qualification-window policy).
 * A.7 for keeping “binding” distinct from “utterance” and from “carriers”.
 
 **Used by**
 
 * A.6.B (Quadrant D) as the canonical payload shape for deontic statements.
-* A.6.C (Contract Unpacking) as the formal anchor for the “Commitment” component of the bundle.
+* A.6.C (Contract Unpacking) as the formal governing pattern for the “Commitment” component of the bundle.
 * Part D governance/ethics patterns (future work) for expressing layered, conflicting, multi-authority commitments.
 
 **Coordinates with**

@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 71211
-line_end: 71254
+line_start: 70575
+line_end: 70618
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.24"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.9.DA"
   - "F.18"
   - "F.19"
@@ -48,7 +49,7 @@ E.24.CD asks what is under concern:
 - If the claim is about problematization and problem statement adequacy, use the problematization pattern.
 - If several patterns need a reusable problem ontology with stable identity and slot relation, open E.24.
 
-The stress case prevents a common overread: a record form named "ProblemCard" does not by itself prove that FPF needs a root `U.Problem`.
+The stress case prevents a common overread: a record form named "ProblemCard" does not by itself show that FPF needs a root `U.Problem`.
 
 #### E.24.CD:5.3 - Project Schema With Ontology-Looking Fields
 

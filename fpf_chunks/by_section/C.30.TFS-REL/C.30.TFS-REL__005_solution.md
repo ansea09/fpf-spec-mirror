@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 55555
-line_end: 55737
+line_start: 54919
+line_end: 55101
 dependencies:
   - "A.10"
   - "A.15"
@@ -89,7 +89,7 @@ Use this pattern only when a `ArchitectureOf@Context` claim being made, selected
 - `TransformationFlowStructureRef`;
 - `PathId` or `PathSliceId`;
 - `CrossingBundleRef`;
-- `U.Transfer` flow valuation;
+- flow valuation over the `U.Transfer` relation;
 - edition, plane, or context pin;
 - no-hidden-scalarization or set-return discipline;
 - correspondence between functional structure and transformation-flow structure;

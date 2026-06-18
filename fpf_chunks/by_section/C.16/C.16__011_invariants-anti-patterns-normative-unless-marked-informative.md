@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_invariants-anti-patterns-normative-unless-marked-informative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Invariants & Anti‑Patterns (Normative unless marked “Informative”)"
-line_start: 42015
-line_end: 42077
+line_start: 41349
+line_end: 41411
 dependencies:
   - "A.10"
   - "A.17"
@@ -60,8 +60,8 @@ If a template requires it, each Measure includes an **EvidenceStub** that concep
 **N‑7 — Arity clarity.**
 If the Characteristic is relational (applies to a pair or tuple), the subject of measurement is the relation itself; the reading must not be re‑described as a unary property of either participant.
 
-**N‑8 — Open‑ended evolution; graph, not lifecycle.**
-When MM‑CHR is used in change reasoning, movement happens in a **CharacteristicSpace** and along a **Role‑State Graph (RSG)**. There is no lifecycle terminal; revisions may re‑enter earlier framing nodes as per A.17. *(Conceptual control structure only.)*
+**N‑8 — Open‑ended evolution; role-state relation, not lifecycle.**
+When MM‑CHR is used in change reasoning, movement happens in a **CharacteristicSpace** and is admitted by current `RoleStateRelation@BoundedContext` state assertions and checklists. There is no lifecycle terminal; revisions may re‑enter earlier framing states as per A.17. *(Conceptual control structure only.)*
 
 #### C.16:10.2 - Anti‑Patterns (A‑rules) — with cures
 

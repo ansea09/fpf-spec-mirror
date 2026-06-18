@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `646b0b9b164f7c13258633a33b92d2d0a569da28`
+Commit SHA: `cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6`
 
 Chunking method: `pattern-aware`
 
-Patterns: `245`
+Patterns: `246`
 
 ## Patterns
 
@@ -35,8 +35,8 @@ Patterns: `245`
 - [A.6.RSIG — Recognition Signatures for Descriptions](by_pattern/A.6.RSIG.md)
 - [A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)](by_pattern/A.6.B.md)
 - [A.6.C — Contract Unpacking for Boundaries](by_pattern/A.6.C.md)
-- [A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType](by_pattern/A.6.0.md)
-- [A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind](by_pattern/A.6.1.md)
+- [A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind](by_pattern/A.6.0.md)
+- [A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
 - [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
@@ -45,21 +45,21 @@ Patterns: `245`
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
-- [A.6.A — U.ActionInvitationPrecisionRestoration - Affordance and Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
+- [A.6.A — Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
 - [A.6.M — Module Relation Repair](by_pattern/A.6.M.md)
 - [A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline](by_pattern/A.6.5.md)
-- [A.6.6 — U.BaseDeclarationDiscipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
+- [A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
 - [A.6.8 — Service Polysemy Unpacking (RPR‑SERV)](by_pattern/A.6.8.md)
-- [A.6.9 — U.CrossContextSamenessDisambiguation - Repairing cross-context “same / equivalent / align” via explicit Bridges (RPR‑XCTX)](by_pattern/A.6.9.md)
+- [A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)](by_pattern/A.6.9.md)
 - [A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature](by_pattern/A.6.S.md)
 - [A.6.H — Wholeness Language Unpacking — RPR-WHOLE](by_pattern/A.6.H.md)
 - [A.7 — Strict Distinction (Clarity Lattice)](by_pattern/A.7.md)
-- [A.8 — Universal Core Principle (C‑1)](by_pattern/A.8.md)
+- [A.8 — Universal Core Principle](by_pattern/A.8.md)
 - [A.9 — Cross‑Scale Consistency (C‑3)](by_pattern/A.9.md)
 - [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
-- [A.11 — Ontological Parsimony (C‑5)](by_pattern/A.11.md)
+- [A.11 — Ontological Parsimony](by_pattern/A.11.md)
 - [A.12 — External Transformer & Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
 - [A.14 — Advanced Mereology: Components, Portions, Aspects & Phases](by_pattern/A.14.md)
@@ -87,7 +87,7 @@ Patterns: `245`
 - [A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)](by_pattern/A.19.ULSAM.md)
 - [A.19.CPM — Unified Comparison Mechanism (CPM)](by_pattern/A.19.CPM.md)
 - [A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism](by_pattern/A.19.SelectorMechanism.md)
-- [A.20 — U.Flow.ConstraintValidity — Eulerian](by_pattern/A.20.md)
+- [A.20 — Flow Constraint Validity — Eulerian](by_pattern/A.20.md)
 - [A.21 — GateProfilization: OperationalGate(profile) (GateFit core)](by_pattern/A.21.md)
 - [A.22 — Structure and Structural Views (STRUCT-CAL)](by_pattern/A.22.md)
 - [B.1 — Universal Algebra of Aggregation (Γ)](by_pattern/B.1.md)
@@ -126,8 +126,8 @@ Patterns: `245`
 - [C.2.6 — U.LanguageStateAnchoringMode](by_pattern/C.2.6.md)
 - [C.2.7 — U.LanguageStateRepresentationFactorBundle](by_pattern/C.2.7.md)
 - [C.2.P.DR — Declarative Representation Precision Restoration](by_pattern/C.2.P.DR.md)
-- [C.3 — Kinds, Intent/Extent, and Typed Reasoning (Kind‑CAL)](by_pattern/C.3.md)
-- [C.3.1 — U.Kind & SubkindOf (Core)](by_pattern/C.3.1.md)
+- [C.3 — Kinds, Intent and Extent, and Typed Reasoning](by_pattern/C.3.md)
+- [C.3.1 — U.Kind and U.SubkindOf Core](by_pattern/C.3.1.md)
 - [C.3.2 — KindSignature (+F) & Extension/MemberOf](by_pattern/C.3.2.md)
 - [C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds](by_pattern/C.3.3.md)
 - [C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)](by_pattern/C.3.4.md)
@@ -218,12 +218,13 @@ Patterns: `245`
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
 - [E.24.CD — Ontic Candidate Detection](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
+- [E.24.UK — U-kind Governance and Ontic Settlement Coupling](by_pattern/E.24.UK.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)
 - [F.3 — Intra‑Context Sense Clustering](by_pattern/F.3.md)
 - [F.4 — Role Description - Description Episteme for U.Role](by_pattern/F.4.md)
-- [F.5 — Naming Discipline for U.Type Names and RoleDescription Labels](by_pattern/F.5.md)
+- [F.5 — Naming Discipline for U-kind Names and RoleDescription Labels](by_pattern/F.5.md)
 - [F.6 — RoleAssignment and Performed-Work Attribution Check](by_pattern/F.6.md)
 - [F.7 — Concept‑Set Table](by_pattern/F.7.md)
 - [F.8 — Mint-or-Reuse Decision](by_pattern/F.8.md)

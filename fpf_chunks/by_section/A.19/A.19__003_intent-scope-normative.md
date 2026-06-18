@@ -6,12 +6,12 @@ section_id: "A.19:1"
 section_title: "Intent & Scope (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__003_intent-scope-normative.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:1 — Intent & Scope (Normative)"
-line_start: 23457
-line_end: 23485
+line_start: 23559
+line_end: 23589
 dependencies:
   - "A.17"
   - "A.18"
@@ -48,12 +48,14 @@ keywords:
 
 **Intent.** Establish `U.CharacteristicSpace` as the A.19 ontic head: a declared space of characteristics, scales, value sets, value meanings, coordinate positions, coordinate groups, optional overlays, missingness semantics, comparability boundaries, normalization boundaries, and evidence hooks where those hooks are part of the space declaration. For dynamics, `U.Dynamics.stateSpace` points to such a space so a holon's state changes can be described as trajectories in declared coordinates. For epistemes, state remains governed by ESG; F-G-R are assurance coordinates, not an episteme state space.
 
+**E.24.UK settlement.** `U.CharacteristicSpace` is retained as the root durable value for a declared multi-characteristic space. Its slots bind `U.Characteristic` values to scale/value-set declarations under A.17 and A.18; optional overlays, topology, metric or distance structures, normalization boundaries, comparability boundaries, and missingness semantics are dependent declarations over the space, not separate U-kinds by label. C.16 measurement values may cite the space, but a score table, dashboard, evaluation result, or dynamics law is not the characteristic space.
+
 The A.19 EoC is the characteristic space itself. It is not the filled evaluation, report, score table, dashboard, pattern-quality scale, DRR adequacy scale, FPF-level pillar scale, or improvement portfolio that uses the space.
 
 
 **Scope.** Pattern A.19 **defines**:
 
--   the **type** `U.CharacteristicSpace` as a finite product of **slot value sets** (per A.18),
+-   the declared `U.CharacteristicSpace` value as a finite product of **slot value sets** (per A.18),
 -   the **slot** construct for each factor (a pairing of a **Characteristic** with a chosen **Scale**),
 
 -   minimal **structural overlays** (optional **order**, **topology**, **metric** hooks) that downstream patterns _may_ attach to a space, and

@@ -6,12 +6,12 @@ section_id: "C.2.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:4 — Solution"
-line_start: 37688
-line_end: 37712
+line_start: 37818
+line_end: 37846
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,6 +35,10 @@ keywords:
 
 ### C.2.6:4 - Solution
 `U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the governed `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. If source anchoring and current publication-face anchoring differ, both shall be distinguished rather than collapsed.
+
+#### C.2.6:4.0a - E.24.UK settlement
+
+`U.LanguageStateAnchoringMode` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for governed episteme publication positions. Evidence, source-currentness, publication face, carrier, work, gate, and reliance claims remain with their direct governing patterns.
 
 #### C.2.6:4.1 - Starter family
 | Mode | Reading | Typical evidence anchor |

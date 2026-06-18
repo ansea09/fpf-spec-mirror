@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.3.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
-line_start: 2852
-line_end: 3273
+line_start: 2851
+line_end: 3293
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -49,12 +49,33 @@ keywords:
 ---
 
 ## A.2.3 - `U.PromiseContent` (Promise Content)
+> **Status:** Stable
+
+### E.24.UK settlement
+
+This structural `U.*` title is retained by E.24.UK as a dependent durable promised-outcome episteme under the episteme settlement; not a root beside U.Episteme, not a commitment, not work, and not a carrier.
+
+### A.2.3:0 - Use This When
+
+Use this pattern when a project needs to state what is promised to a consumer before asking who is obligated, what work was done, which system exposes access, or how evidence will judge fulfilment.
+
+Typical moments:
+
+- an SLA, service catalog, product offer, public API promise, utility offer, or government service description says what a consumer may rely on;
+- a team says "the service" but might mean promise content, provider organization, API, access point, delivery system, method, ticket, or performed work;
+- a promise must be judged by acceptance criteria against work evidence, without turning the promise clause into the work or the system.
+
+**Primary EntityOfConcern.** The EntityOfConcern is `U.PromiseContent`: a consumer-facing promise-content episteme that states promised outcome, access or eligibility, and acceptance criteria inside one bounded context.
+
+**First useful move.** Write the promise content as a clause: what outcome is promised, who may use it, how access is described when relevant, and how fulfilment will be judged from work evidence. Then use `U.Commitment` only when an accountable subject is bound to that content.
+
+**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is the performed delivery work, use `A.15.1`; if it is the access point or delivery system, use system and architecture patterns plus A.6.8 service wording repair; if it is contract-bundle unpacking, use `A.6.C`.
 
 ### A.2.3:1 - Context
 
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech but toxic in a normative model.
 
-FPF therefore reserves **`U.PromiseContent`** for exactly one kernel meaning: **promise content** — a **promise content** (a consumer‑facing promise statement). Any other “service” sense MUST be modeled explicitly as `U.System`, `U.RoleAssignment`/principal, `U.MethodDescription`, or `U.Work` inside an appropriate `U.BoundedContext` and, in normative prose, MUST be written with an explicit **facet head phrase** per **A.6.8 (RPR‑SERV)**.
+FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. Any other “service” sense MUST be modeled explicitly as `U.System`, `U.RoleAssignment` or principal, `U.MethodDescription`, or `U.Work` inside an appropriate `U.BoundedContext` and, in normative prose, MUST be written with an explicit **facet head phrase** per **A.6.8 (RPR-SERV)**.
 
 This keeps the kernel minimal while keeping the prose readable to non‑mathematicians: the canonical symbol is `U.PromiseContent`, and the head kind in normative text is always *promise content*.
 
@@ -67,11 +88,11 @@ In the Role–Method–Work alignment, the **promise content** must say somethin
 
 **Lexical note (L‑SERV / RPR‑SERV)**
 
-The lexical forms *service/service‑level/service use/service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.PromiseContent`** is reserved for promise content only and is written in prose as a **promise content**.
+The lexical forms *service*, *service-level*, *service use*, and *service access* (and the adjacent cluster *service provider*, *server*) are **ambiguous** across domains. In the kernel, **`U.PromiseContent`** is reserved for the consumer-facing promised-outcome statement.
 
 Normative prose therefore SHALL treat the bare head noun **service** as **always‑unpack** (PTG=Guarded): every head‑noun occurrence MUST be rewritten to a facet head phrase (promise content, service provider principal, service access point, service delivery system, and so on) or to the correct underlying EntityOfConcern or project-side FPF kind (team, ticket, endpoint host, procedure, work item), per **A.6.8 (RPR‑SERV)**.
 
-E.10’s lexical anchor **L‑SERV** SHOULD be implemented as “pointer + lint rule” to A.6.8: the short rule names the hazard, while A.6.8 provides the full rewrite recipe and the facet head phrase set.
+E.10’s lexical trigger **L-SERV** SHOULD be implemented as “pointer + lint rule” to A.6.8: the short rule names the hazard, while A.6.8 provides the full rewrite recipe and the facet head phrase set.
 
 ### A.2.3:2 - Problem
 
@@ -134,7 +155,7 @@ U.PromiseContent {
 
 #### A.2.3:4.1.1 - Promised outcome spec (disambiguation: work vs post-work result)
 
-`promisedOutcomeSpecRef` points to an `U.OutcomeSpec` episteme that makes explicit **what exactly is promised** — in *kind/spec* form — without collapsing it into either:
+`promisedOutcomeSpecRef` points to an `U.OutcomeSpec` episteme that makes explicit **what is promised** — in *kind/spec* form — without collapsing it into either:
 
 * the **promise content clause** itself (`U.PromiseContent`),
 * the **delivery work** that happens at run‑time (`U.Work`), or
@@ -192,7 +213,7 @@ The head noun **outcome** is intentionally broad. Do **not** replace it with **r
 
 #### A.2.3:4.1.2 - Recommended `acceptanceSpec` mini‑schema *(informative, non‑kernel)*
 
-`acceptanceSpec : U.Episteme` is intentionally open‑ended in Core. However, to keep acceptance **computable** (and to avoid the legacy “pass verdict separate from delivery” mistake), Contexts are encouraged to express `acceptanceSpec` as a small bundle of references:
+`acceptanceSpec : U.Episteme` is intentionally open-ended in Core. However, to keep acceptance **computable** (and to avoid the older “pass verdict separate from delivery” mistake), Contexts are encouraged to express `acceptanceSpec` as a small bundle of references:
 
 ```
 AcceptanceSpec (recommended) ::= {
@@ -236,7 +257,7 @@ This mini-schema is a **recommendation only**: it is not a kernel object and may
 
   (Terminology note: use `…RoleAssignment` consistently for the run‑time enactor relation; avoid the “RoleAssigning” variant unless it is a separately defined kind in the Context.)
 
-> **Memory hook:** *Promise content promises, Method describes, Work proves.*
+> **Memory hook:** *Promise content promises, Method describes, Work occurs and is evidenced.*
 
 #### A.2.3:4.4 - Didactic card: The service delivery chain (clause → commitment → situation → work → acceptance)
 
@@ -281,14 +302,14 @@ flowchart LR
 ```
 
 **Reading guide (one breath).**
-* The **promise content** is *what is promised* (promise content).
+* The **promise content** is the consumer-facing outcome and acceptance statement.
 * The **commitment** is *who is bound* (deontic accountability) and it **references** the clause.
 * The **provider role assignment** is the accountable subject *that can act* in a given Context/window.
 * `serviceSituation(...)` (A.6.8) is a **facet‑binding lens** that names the common “service talk” participants (access spec / access point / delivery system / delivery method) **without** collapsing them into the clause.
 * **Work + evidence** is what happened; the **acceptance verdict** is computed by applying the clause’s `acceptanceSpec` to work evidence (not by reading the clause, and not by “looking at the service” as a system).
 
 **Litmus rule (addressability).**
-If you can *call / connect to / visit / restart / scale* it, you are talking about a **service access point** (system facet), not the **promise content** (promise content).
+If you can call it, connect to it, visit it, restart it, or scale it, you are talking about a **service access point** (system facet), not the promised-outcome statement.
 
 ### A.2.3:5 - Archetypal grounding (engineer‑manager friendly)
 
@@ -352,7 +373,7 @@ If the context requires provider abilities, it **MUST** express them as `bindsCa
 Promise contents **MAY** carry `version`/`timespan`. A `U.Work` that claims/fulfils a promise content **MUST** record which service‑clause version it used.
 
 **CC‑A2.3‑10 (Lexical rule).**
-Unqualified head‑noun uses of *service* (and the co‑moving cluster *service provider* / *server*) in normative prose **MUST** be disambiguated per **A.6.8 (RPR‑SERV)** and its lexical anchor **L‑SERV** (E.10).
+Unqualified head-noun uses of *service* (and the co-moving cluster *service provider* or *server*) in normative prose **MUST** be disambiguated per **A.6.8 (RPR-SERV)** and its lexical trigger **L-SERV** (E.10).
 
 **CC‑A2.3‑11 (No mereology).**
 Do **not** place a promise content clause in PBS/SBS or treat it as a part/component. Structural assemblies live in PBS/SBS; the promise clause is an episteme (A.2.3) and “service” talk must be facet‑unpacked (A.6.8).
@@ -364,7 +385,7 @@ Windows and calendars belong to `U.WorkPlan` (A.15.2). Fulfilment evidence belon
 Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appear as names for scope objects in guards or conformance blocks. Use **`U.ClaimScope (G)`** for epistemes and **`U.WorkScope`** for capabilities (A.2.6/A.2.2). Scope-sensitive guards **MUST** use **ScopeCoverage** with explicit **Γ_time** selectors.
 
 **CC-A2.3-14 (Bridges & CL).**
-Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
+Cross-context mappings via Bridges keep **F** and **G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
 
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST resolve to `U.OutcomeSpec` (A.7:5.10). It MUST NOT be used to point at a concrete `U.Work` episode or at an extensional delivered-result referent.
@@ -421,10 +442,10 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 ### A.2.3:9 - Anti‑patterns (and the right move)
 
 * **“The microservice **is** the service.”**
-  Rewrite to facet‑explicit terms (A.6.8): the microservice is typically a **service delivery system** (`U.System`) and/or a **service access point** (`U.System`). Keep the **promise content** as a **promise content** in `U.PromiseContent`, and bind accountability via `U.Commitment` if needed.
+  Rewrite to facet-explicit terms (A.6.8): the microservice is typically a **service delivery system** (`U.System`), a **service access point** (`U.System`), or both. Keep the consumer-facing promised-outcome statement in `U.PromiseContent`, and bind accountability via `U.Commitment` if needed.
 
 * **“The API **is** the service.”**
-  The API is typically a **service access spec** (`accessSpec : MethodDescription`) (and systems playing interface roles). The **promise content** is the promise content judged by `acceptanceSpec`.
+  The API is typically a **service access spec** (`accessSpec : MethodDescription`) (and systems playing interface roles). The **promise content** is the promised outcome and acceptance statement judged by `acceptanceSpec`.
 
 * **“Our **process** is the service.”**
   Process/recipe is `U.Method or U.MethodDescription`; schedule is `U.WorkPlan`. The **promise content** is **what is promised to the consumer**.
@@ -446,7 +467,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 1. **Name the promises.** List 5–15 consumer‑facing promises your context lives by; reify each as `U.PromiseContent` with `acceptanceSpec` and, if needed, `accessSpec` and `unitOfDelivery`.
 2. **Separate provider from promise content.** Keep systems/teams as `U.System`; make them providers via `…#ServiceProviderRole:Context`.
 3. **Wire evidence.** Ensure every relevant `U.Work` has `claimsPromiseContent` (and `fulfilsPromiseContent` post‑verdict).
-4. **Choose metrics.** For each Service/promise content, define 2–4 KPIs and the **exact** Work-based formulas (availability, lead-time, rejection rate, cost-to-serve), declare the **Claim scope (G)** and **Γ_time** policy used for each KPI, and—when KPIs are numeric/comparable—define the underlying `U.Characteristic` + measurement procedure and evidence (C.16/C.25) and pin `{UnitType, ScaleKind, ReferencePlane, EditionId}`.
+4. **Choose metrics.** For each Service/promise content, define 2-4 KPIs and the declared Work-based formulas (availability, lead-time, rejection rate, cost-to-serve), declare the **Claim scope (G)** and **Γ_time** policy used for each KPI, and—when KPIs are numeric/comparable—define the underlying `U.Characteristic` + measurement procedure and evidence (C.16/C.25) and pin `{UnitType, ScaleKind, ReferencePlane, EditionId}`.
    → For each **promise content**, define 2–4 KPIs and the Work-based formulas named by value
 , with explicit `Γ_time`.
 5. **Bridge domains.** If a business ontology already exists (“business/technical/internal service”), keep it in its own context and map to FPF Kinds via Bridges.

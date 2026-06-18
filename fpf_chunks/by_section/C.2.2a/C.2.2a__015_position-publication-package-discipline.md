@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_position-publication-package-discipline.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 36725
-line_end: 36736
+line_start: 36859
+line_end: 36874
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,12 +42,16 @@ keywords:
 ### C.2.2a:14 - Position Publication Package Discipline
 A publishable position claim should normally identify:
 
-- the occupant whose position is being described;
+- the positioned `U.Episteme` publication whose position is being described;
 - the relevant slot values, `ValueSet` claims, or intervals;
 - the current publication form and, if relevant, the MVPK face and carrier;
-- any source-versus-face anchoring distinction that matters;
-- the thresholds, if any, being invoked;
-- and the next governing pattern or move family that depends on the claim.
+- the grounds, witnesses, or inherited pins behind the current position;
+- any threshold note or endpoint-readiness condition used by the next pattern.
 
-This keeps the claim operationally useful without pretending that the position is itself a full trajectory or endpoint form.
+Minimum self-check:
 
+1. Is the author naming a position claim in the chart, or only a folk stage label?
+2. Is `F` being used as a surrogate for another slot?
+3. Are source phenomena, publication forms, publication faces, and carriers being confused with the positioned episteme publication?
+4. Are threshold claims explicit enough for the next move or endpoint decision?
+5. If the text compares two contexts, is there a real bridge or only a lexical resemblance?

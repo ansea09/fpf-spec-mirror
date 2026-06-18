@@ -6,12 +6,12 @@ section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:5 — Trigger split"
-line_start: 42275
-line_end: 42289
+line_start: 41609
+line_end: 41623
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,6 +51,6 @@ keywords:
 | `robust` | Robust to what perturbation, under which scale, comparison, loss, or preserved-structure and lost-structure? | Robust as general praise. |
 | `level` | Level on which declared scale or abstraction, not a free hierarchy. | Level as undefined scale or maturity status. |
 | `indicator` | Indicator of what characteristic or claim, with what proxy relation and distortion risk? | Indicator as the indicated property. |
-| `threshold` | Threshold on which scale, with what comparison reference or comparator set, gate relation, and non-use boundary? | Threshold as decision by itself. |
+| `threshold` | Predicate over which characteristic space coordinates, with what comparison operator, cut value, band, region, dominance condition, scalarization policy if any, comparison reference or comparator set, gate or acceptance relation, and non-use boundary? | Threshold as characteristic, measure, scalar score, decision, or proof by itself. |
 | `benchmark` | Benchmark for which characteristic, comparison set, front, archive, or harness? | Benchmark result as proof or release. |
 

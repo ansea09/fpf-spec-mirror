@@ -6,12 +6,12 @@ section_id: "B.2.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__010_rationale.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "B.2.2 — Meta-System Transition (MST)"
   - "B.2.2:9 — Rationale"
-line_start: 31728
-line_end: 31733
+line_start: 31847
+line_end: 31852
 dependencies:
   - "A.1"
   - "B.2"

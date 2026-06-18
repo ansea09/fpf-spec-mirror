@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.0"
-pattern_title: "U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+pattern_title: "U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
 section_id: "A.6.0:11"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__018_lowering-repair-and-refresh-conditions.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.0 — U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType"
+  - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:11 — Lowering, repair, and refresh conditions"
-line_start: 10064
-line_end: 10077
+line_start: 10143
+line_end: 10156
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -42,7 +42,7 @@ Repair the signature, or mint a new signature when monotone repair is impossible
 * a downstream use depends on a symbol, law, policy, or edition not exported by this signature or by an imported signature;
 * a profile application weakens a law, widens Applicability, or adds operational admission;
 * a current SoTA change in algebraic effects, session types, typed effect systems, `profile=FormalSubstrate` signatures, or context normalization changes the declared operation vocabulary, inference kinds, law shape, or no-realization boundary;
-* a renamed SubjectKind, BaseType, SlotKind, RefKind, or exported SymbolId no longer recovers the same FPF kind under E.10 and F.18.
+* a renamed SubjectKind, RangedValueKind, SlotKind, RefKind, or exported SymbolId no longer recovers the same FPF kind under E.10 and F.18.
 
 Do not repair the signature merely because a later realization, work plan, measurement run, bridge, or evidence record changed. Repair the object governed by that later relation unless the change alters the signature declaration itself or the exact dependency relation by which the later object cites the signature.
 

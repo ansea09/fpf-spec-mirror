@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 70569
-line_end: 70606
+line_start: 69933
+line_end: 69970
 dependencies:
   - "A.15"
   - "A.19.ECS"
@@ -23,19 +23,24 @@ dependencies:
   - "A.3.4"
   - "A.6.1"
   - "A.6.5"
+  - "B.3.5"
+  - "C.13"
   - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.27.TA"
+  - "C.29"
   - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
+  - "E.14"
   - "E.18"
   - "E.2.DA"
   - "E.20"
   - "E.21"
   - "E.24.CD"
   - "E.24.PUB"
+  - "E.24.UK"
   - "E.8"
   - "E.9"
   - "E.9.DA"
@@ -69,7 +74,7 @@ Typical moments:
 Main gains:
 
 - it prevents duplicate ontology: one project concern is recovered into typed FPF values and slots instead of becoming a different local object in each nearby pattern;
-- it replaces long negative catalogues with positive slot discipline: name the ontic, its slots, and the governing patterns for fillers instead of repeating "not proof, not gate, not work..." across dependent patterns;
+- it replaces long negative catalogues with positive slot discipline: name the ontic, its slots, and the governing patterns for fillers instead of repeating generic semio warnings across dependent patterns;
 - it gives dependent patterns a stable head to rely on without copying the whole slot relation;
 - it separates durable ontic introduction from thin relation updates, local use frames, direct governing-pattern use, and quote-only source labels;
 - it makes wording follow ontology: after the slot relation and fillers are recovered, local words such as method, mechanism, process, morphism, construction, transformation, work, or change can name the slot or filler they actually refer to.

@@ -1,28 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.11"
-pattern_title: "Ontological Parsimony (C‑5)"
+pattern_title: "Ontological Parsimony"
 section_id: "A.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__001_intro.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.11 — Ontological Parsimony (C‑5)"
+  - "A.11 — Ontological Parsimony"
   - "A.11:intro — Intro"
-line_start: 19588
-line_end: 19591
+line_start: 19679
+line_end: 19684
 dependencies:
-  - "A.11"
-  - "U.Type"
+  - "A.8"
+  - "C.3"
+  - "E.24.CD"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.18"
+  - "F.8"
 keywords:
-  - "Occam's razor"
-  - "essential concepts"
-  - "minimalism"
-  - "simplicity"
+  - "U-kind admission"
+  - "composition"
+  - "kernel growth"
+  - "non-redundancy"
+  - "parsimony"
 ---
 
-## A.11 - Ontological Parsimony (C‑5)
+## A.11 - Ontological Parsimony
 
-*“Add only what you cannot subtract.”*
+> **Type:** Kernel parsimony and admission discipline pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 

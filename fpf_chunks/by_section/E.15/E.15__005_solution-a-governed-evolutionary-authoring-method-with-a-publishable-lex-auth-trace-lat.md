@@ -6,12 +6,12 @@ section_id: "E.15:4"
 section_title: "Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__005_solution-a-governed-evolutionary-authoring-method-with-a-publishable-lex-auth-trace-lat.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:4 — Solution — A governed evolutionary authoring method with a publishable LEX‑AUTH Trace (LAT)"
-line_start: 63199
-line_end: 63292
+line_start: 62563
+line_end: 62656
 dependencies:
   - "A.10"
   - "B.3"
@@ -41,7 +41,7 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 3. **Fix acceptance targets** (see §4.4 Quality & SoTA metrics).
 
 **Stage B — Generate candidates (SoTA + NQD)**
-4. **Harvest SoTA** inputs (standards, rival patterns, lived domain idioms) and **bind** them as *evidence* via `U.EvidenceRole` with **claim/claim‑scope/timespan** (empirical vs deductive lines).
+4. **Harvest SoTA** inputs (standards, rival patterns, lived domain idioms) and **bind** them as evidence through evidence-use relations with **claim/claim‑scope/timespan** and polarity (empirical vs deductive lines).
 5. **Generate candidate variants** using **NQD‑CAL** engines (Novelty/Quality/Diversity) with an **E/E policy** (explore↔exploit governor) to populate a **Pareto front** of pattern phrasings/structures. *(No single shot; multiple candidate clauses compete.)*
 
 **Stage C — Shape & Align (Structure, Bridges, USM)**
@@ -68,7 +68,7 @@ A LAT is **not** “we ran a script.” It is a **structured episteme** that let
 
 1. **Context & version** (pattern id, context, SemVer, Delta‑Class).
 2. **Objective vector** (what we tried to improve: clarity, universality, assurance cost, etc.).
-3. **SoTA pack** (sources bound as `U.EvidenceRole` with claim/scope/time and polarity).
+3. **SoTA pack** (sources bound through evidence-use relations with claim/scope/time and polarity).
 4. **NQD settings** (emitters/lenses, diversity characteristics) + **E/E policy** used.
 5. **Candidate set** (top K variants with NQD scores + short deltas from baseline).
 6. **Bridge ledger** (all cross‑context imports with **CL** and loss notes).

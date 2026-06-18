@@ -1,0 +1,42 @@
+---
+chunk_kind: "child"
+pattern_id: "C.3.1"
+pattern_title: "U.Kind and U.SubkindOf Core"
+section_id: "C.3.1:4"
+section_title: "Decision Split"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.3.1/C.3.1__006_decision-split.md"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+heading_path:
+  - "C.3.1 — U.Kind and U.SubkindOf Core"
+  - "C.3.1:4 — Decision Split"
+line_start: 38579
+line_end: 38587
+dependencies:
+  - "A.1"
+  - "A.11"
+  - "A.2.6"
+  - "A.8"
+  - "C.2.3"
+  - "C.3"
+  - "C.3.2"
+  - "C.3.3"
+  - "E.24.UK"
+  - "F.5"
+  - "F.8"
+keywords:
+  - "kind"
+  - "partial order"
+  - "subkind"
+  - "type hierarchy"
+---
+
+### C.3.1:4 - Decision Split
+
+| Source pressure | C.3.1 disposition |
+| --- | --- |
+| "This claim ranges over cooling pumps." | Create or cite the context-local `U.Kind` for cooling pump. |
+| "Cooling pump is a subkind of pump." | Declare `U.SubkindOf(CoolingPumpKind, PumpKind)` in the context. |
+| "CoolingPump should become a public FPF U-kind." | Use `E.24.UK`, `A.11`, and `A.8` as needed. |
+| "`U.WorkPlan` depends on `U.Work`." | Do not encode as `U.SubkindOf` unless C.3 typed reasoning actually claims a subkind order. Use the governing work or E.24.UK settlement. |
+

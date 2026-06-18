@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
 section_id: "A.6.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__005_solution.md"
-commit_sha: "646b0b9b164f7c13258633a33b92d2d0a569da28"
+commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
 heading_path:
-  - "A.6.1 — U.Mechanism: Law-Governed Operation Algebra over a Subject Kind"
+  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:4 — Solution"
-line_start: 10126
-line_end: 10271
+line_start: 10205
+line_end: 10352
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 | Signature row | Mechanism realization |
 | --- | --- |
-| `SubjectBlock` | `SubjectKind`, `BaseType`, `SliceSet`, `ExtentRule`, and optional `ResultKind` |
+| `SubjectBlock` | `SubjectKind`, `RangedValueKind`, `SliceSet`, `ExtentRule`, and optional `ResultKind` |
 | `Vocabulary` | `OperationAlgebra` with SlotSpecs for operation arguments |
 | `Laws` | `LawSet` of equations and invariants |
 | `Applicability` | bounded context, plane, time, and compliance notes |
@@ -71,7 +71,7 @@ MechanismDeclaration:
   Imports:
   SubjectBlock:
     SubjectKind:
-    BaseType:
+    RangedValueKind:
     SliceSet:
     ExtentRule:
     ResultKind:
@@ -90,7 +90,7 @@ MechanismDeclaration:
 
 `Imports` names signatures that supply non-kernel symbols used by the Signature Block or operation algebra. Imports are acyclic. Imported signatures are opaque: reference only their provided symbols and ClaimIds.
 
-`SubjectKind` names the EntityOfConcern kind acted upon. `BaseType` references an existing `U.Type`. A mechanism publication does not define a new core type inside the mechanism definition.
+`SubjectKind` names the EntityOfConcern kind acted upon. `RangedValueKind` references an existing C.3 `U.Kind`, admitted durable U-kind, Concept-Set row, or imported signature symbol. A mechanism publication does not define a new core kind inside the mechanism definition.
 
 `SlotIndex` is a derived index over SlotSpecs used by `OperationAlgebra` and guard-only SlotSpecs used by `AdmissibilityConditions`. It does not replace per-operator SlotSpecs and does not relax A.6.0 argument discipline.
 
@@ -110,26 +110,28 @@ MechanismDeclaration:
 
 `Audit` is a conceptual audit surface. It cites policy ids, crossing records, and edition pins by reference rather than embedding telemetry details or tool-specific execution details in the kernel pattern.
 
-#### A.6.1:4.3 - Kernel-token declarations
+#### A.6.1:4.3 - U-kind and local declaration settlement
 
-This pattern defines these kernel tokens:
+This pattern retains `U.Mechanism` as the durable U-kind governed by this host. The other names in the mechanism declaration are local relation, record, or description values, not additional root U-kinds admitted by this sentence.
 
-* `U.Mechanism`
-* `U.MechMorph`
-* `U.MechanismDeclarationTemplate`
-* `MechanismDescription`
-* `MechFamilyDescription`
-* `MechInstanceDescription`
+| Name | Disposition |
+| --- | --- |
+| `U.Mechanism` | Durable U-kind: law-governed specialization of `U.Signature` over `SubjectKind` and `RangedValueKind`, with operation algebra, laws, admissibility, transport, audit, and monotone realization. |
+| `MechanismMorphismRelation` | Mechanism-local relation constructor for refinement, extension, equivalence, quotient, product, and transport relations among mechanisms. It is governed here and by A.6.5 SlotSpec discipline; it is not a root U-kind. |
+| `MechanismDeclarationTemplate` | Local record form for publishing a mechanism declaration. It is a description/publication aid, not a durable U-kind. |
+| `MechanismDescription` | Description episteme for a mechanism declaration, governed by the episteme and publication patterns when description or publication claims are current. |
+| `MechanismFamilyDescription` | Description form grouping one mechanism declaration with several monotone realizations; it does not admit a separate family U-kind here. |
+| `MechanismInstanceDescription` | Context-local description of one mechanism declaration with windows, regimes, and BridgeIds; it is not an operational telemetry record and not a root U-kind. |
 
-It reuses `U.Signature`, `U.Type`, `U.BoundedContext`, Bridge, ReferencePlane, characteristic-space, measurement, and reliability-channel terms without changing their governing patterns.
+It reuses `U.Signature`, C.3 kind values, admitted durable U-kinds, `U.BoundedContext`, Bridge, ReferencePlane, characteristic-space, measurement, and reliability-channel terms without changing their governing patterns.
 
 #### A.6.1:4.4 - Method and mechanism positions
 
-Do not decide the method and mechanism question by vocabulary. When a source expression names changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
+Do not decide the method and mechanism question by vocabulary. When a source expression or project concern appears to name changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-For this host, keep the local question thin: is the current claim a law-governed mechanism declaration or realization over a `SubjectKind` and `BaseType`? If the source label also raises method, method-description, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
+For this host, keep the local question thin: is the current claim a law-governed mechanism declaration or realization over a `SubjectKind` and `RangedValueKind`? If the source label also raises method, method-description, formal-substrate, work-plan, dated-work, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 
-`U.Method` governs the context-local way of doing a transformation or enactment. `U.Mechanism` governs a law-governed declaration over a `SubjectKind` and `BaseType`: operation algebra, laws, admissibility predicates, applicability, transport, audit surface, and monotone realization relation.
+`U.Method` governs the context-local way of doing a transformation or enactment. `U.Mechanism` governs a law-governed declaration over a `SubjectKind` and `RangedValueKind`: operation algebra, laws, admissibility predicates, applicability, transport, audit surface, and monotone realization relation.
 
 A solver-selection scheme can be a `U.Method` in one bounded context; a selector mechanism can declare operations over candidate methods; a selected method can fill a mechanism slot; and a mechanism realization can be implemented through a method description and enacted in dated work. Those links do not make `A.3.1` sufficient for a mechanism claim or `A.6.1` sufficient for a method claim.
 
@@ -137,7 +139,7 @@ Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a
 
 #### A.6.1:4.5 - Morphisms and constructors
 
-`U.MechMorph` provides structure-preserving relations and constructors between mechanisms:
+`MechanismMorphismRelation` provides structure-preserving relations and constructors between mechanisms:
 
 | Relation or constructor | Meaning |
 | --- | --- |
@@ -145,7 +147,7 @@ Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a
 | Extension `M <=+ M''` | adds operations or new SlotKinds for new operations without weakening existing laws or guards |
 | Equivalence `M == M'` | maps subjects and operations bijectively while preserving and reflecting LawSet up to isomorphism |
 | Quotient | factors a mechanism by a congruence such as a normalization equivalence |
-| Product | combines independent BaseTypes componentwise and forbids hidden cross-operations |
+| Product | combines independent RangedValueKinds componentwise and forbids hidden cross-operations |
 | Transport | lifts a mechanism across contexts or planes using Bridge-only policy and Reliability penalties |
 
 For specialization chains:
@@ -188,7 +190,7 @@ Mechanism:
 
 #### A.6.1:4.8 - USM and UNM as mechanism instances
 
-USM can be represented as a `U.Mechanism` over `U.ContextSliceSet` with operations such as membership, subset, intersection, span union, translate, widen, narrow, and refit. Its laws include serial intersection, span union only under a named independence assumption, and mandatory time policy.
+USM can be represented as a `U.Mechanism` over `ContextSliceSet` with operations such as membership, subset, intersection, span union, translate, widen, narrow, and refit. Its laws include serial intersection, span union only under a named independence assumption, and mandatory time policy.
 
 UNM can be represented as a `U.Mechanism` for normalization classes and normalization equivalence. It uses normalize-then-compare discipline, scale-appropriate transforms, and comparison-compliance rules.
 
