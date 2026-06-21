@@ -6,12 +6,12 @@ section_id: "A.6.A:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__012_sota-echoing.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:11 — SoTA-Echoing"
-line_start: 14844
-line_end: 14856
+line_start: 15107
+line_end: 15119
 dependencies:
   - "A.15"
   - "A.16"
@@ -54,5 +54,5 @@ Current active-inference work frames generative models in **action-perception lo
 Current robotics work increasingly uses affordances as **intermediate representations** between perception-language representations and concrete action, including compact keypoint or staged affordance plans. A.6.A adopts this as evidence that affordance publication can be an admissible intermediate publication form; it adapts it into `ActionOption`, `OptionSet`, and `PolicyHook`, and rejects silent promotion of such representations into deontic obligation, proof of correctness, or objective value. ([Robotics: Science and Systems][4])
 
 **Coverage note.**
-This section already covers the claim-bearing relational and action-oriented stance. Operator-facing interface practice should also cite explicit operator-interaction, operator-alarm, and incident-response source lines so that its evidence path is as direct as the current ecology, active-inference, and robotics branch.
+This section already covers the claim-bearing relational and action-oriented stance. Operator-facing interface practice should also cite explicit operator-interaction, operator-alarm, and incident-response source lines so that its evidence relation is as direct as the current ecology, active-inference, and robotics branch.
 

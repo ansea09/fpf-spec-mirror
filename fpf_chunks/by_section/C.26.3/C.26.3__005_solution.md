@@ -6,12 +6,12 @@ section_id: "C.26.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:4 — Solution"
-line_start: 47511
-line_end: 47697
+line_start: 49107
+line_end: 49293
 dependencies:
   - "A.10"
   - "A.15"
@@ -99,7 +99,7 @@ Treat sensors, probes, dashboards, alerts, and metrics as possible participants 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Metric-as-envelope | A proxy is treated as the whole envelope. | Recover bearer, protected promise, full envelope, unmeasured dimensions, and admissible use. |
-| Goodharted viability | Actors optimize measured slots while damaging unmeasured survivor relations or future adaptability. | Route probe-caused behavior through `C.26.1`; add evidence for unmeasured envelope dimensions. |
+| Goodharted viability | Actors optimize measured slots while damaging unmeasured survivor relations or future adaptability. | Treat probe-caused behavior with `C.26.1`; add evidence for unmeasured envelope dimensions. |
 | Actuator overfit | An action preserves one parameter while pushing another cost, latency, boundary relation, or promise outside bounds. | Add trade-off condition, actuator authority, latency, adaptation cost, and failure mode. |
 
 #### C.26.3:4.4 - Conditional dynamics detail
@@ -121,7 +121,7 @@ The primary EntityOfConcern is a viability-envelope claim or plan. It is not a g
 
 The first useful move is to turn a one-scalar stability story into an inspectable envelope-regulation decision.
 
-Action path:
+Envelope-regulation sequence:
 
 1. Name the viability bearer and the promise or function being preserved; if service or market language is used, declare whether the bearer is a collective `U.System`, delivery system, trace population, evidence set, or relevant `A.6.8` facet-binding before treating the situation as a bearer.
 2. Name the envelope variables and the viable range or qualitative boundary for each.
@@ -157,7 +157,7 @@ failure mode: ...
 re-probe or destabilization condition: ...
 ```
 
-The record is not `U.ViabilityEnvelopeRegulation`, not a new kernel kind, and not a universal architecture constructor. It is a pattern-local normal form for writing envelope work clearly.
+The record is not `U.ViabilityEnvelopeRegulation`, not a new U-kind, and not a universal architecture constructor. It is a pattern-local normal form for writing envelope work clearly.
 
 Well-formedness constraints:
 
@@ -220,7 +220,7 @@ Allostasis, active inference, FEP, Markov blankets, and computational-boundary s
 | Homeostasis | Keep one parameter or bundle inside viable bounds. |
 | Allostasis | Preserve function by changing settings, environment, boundary condition, actuation, or operating regime. |
 | Active inference / perception as action | Measurement, sensor placement, and action have cost and can change later state estimates. |
-| Markov blanket / computational boundary | Boundary as a statistical or functional separation for measure/model/act; not a new substance. |
+| Markov blanket or computational boundary | Statistical or probabilistic boundary-lens cue only after recovery. Accepted local Markov dynamics stay with `A.3.3`; lens use stays with `C.29`, and C.26 or C.26.3 stays current only when quantum-like, probe, frame, viability, or measure-model-act claims remain. Physical boundary, interface module, component, functional element, boundary description or publication, and agency threshold require their direct owners; Markov wording does not admit them by itself. |
 | Criticality / metastability | Stability may be regime-bounded and fluctuation-bearing, not one final fixed point. |
 | Expected free energy / precision control | Information gathering, action, and confidence have cost; use only when those costs change the architecture decision. |
 

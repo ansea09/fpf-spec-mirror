@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:7 — Conformance Checklist"
-line_start: 75100
-line_end: 75114
+line_start: 77794
+line_end: 77808
 dependencies:
   - "A.2.4"
   - "B.3"
@@ -41,5 +41,5 @@ keywords:
 | `CC-F10-07` Bridge | Does any cross-context comparison, explanation, or substitution cite an `F.9` bridge with kind, direction, congruence level, and loss? |
 | `CC-F10-08` Substitution | If one status is substituted for another, do bridge kind, congruence level, window alignment, target kind, and local evaluation rule admit that substitution? |
 | `CC-F10-09` No role ontology drift | Is there no claim that an episteme holds an evidence role, status role, standard role, or requirement role merely because it is used? |
-| `CC-F10-10` Direct-pattern boundary | Are evidence provenance, assurance, causal use, source use, publication use, gate passage, permission, performed work, and work-role assignment sent to their direct governing patterns when those claims are current? |
+| `CC-F10-10` Direct-pattern boundary | Are evidence provenance, assurance, causal use, source use, publication use, gate passage, permission, performed work, and work-role assignment governed by their direct patterns when those claims are current? |
 

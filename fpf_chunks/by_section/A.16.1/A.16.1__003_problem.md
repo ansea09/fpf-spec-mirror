@@ -6,12 +6,12 @@ section_id: "A.16.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:2 — Problem"
-line_start: 22753
-line_end: 22755
+line_start: 23345
+line_end: 23347
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### A.16.1:2 - Problem
-Without an explicit cue-pack publication form, such epistemes either disappear, are prematurely forced into `AnomalyStatement` or `Characteristic`, or leak into prose as vague cue or signal language, loose evaluative talk, fit-talk, premature work-possibility pressure, or premature reliance-possibility pressure.
+Without an explicit cue-pack publication form, such epistemes either disappear, are prematurely forced into `AnomalyStatement` or `Characteristic`, or leak into prose as vague cue or signal language, loose evaluative talk, fit-talk, premature work-possibility claim, or premature reliance-possibility claim.
 

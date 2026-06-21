@@ -6,12 +6,12 @@ section_id: "A.19.CHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:1 — Problem frame"
-line_start: 25830
-line_end: 25848
+line_start: 26471
+line_end: 26489
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,9 +34,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"
@@ -49,11 +49,11 @@ keywords:
 ### A.19.CHR:1 - Problem frame
 
 Part G (and adjacent patterns that operate on measurable slot coordinates, e.g. Q-bundles) repeatedly needs the same *lawful characterization core*:
-normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit legality constraints.
+normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit admissibility constraints.
 
 In the current corpus, many G patterns interleave:
 
-* universal CHR legality mechanics (CN‑Spec/CG‑Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
+* universal CHR admissibility mechanics (CN-Spec/CG-Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
 * CG-frame and crossing obligations (ReferencePlane, Bridge-only transport visibility, edition-sensitive pins), and
 * discipline/method/generator specifics (method families, candidate/criteria emitters, packaging concerns),
 

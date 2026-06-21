@@ -6,12 +6,12 @@ section_id: "A.6.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:intro — Intro"
-line_start: 10924
-line_end: 10939
+line_start: 11124
+line_end: 11146
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -31,9 +31,16 @@ keywords:
 
 ## A.6.3 - `U.EpistemicViewing` — EntityOfConcern-preserving morphism
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
 **One‑line summary.** `U.EpistemicViewing` is the **EntityOfConcern-preserving** species of `U.EffectFreeEpistemicMorphing`: an effect‑free projection between epistemes that may change content and representation, but **never changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1).
-**EntityOfConcern preservation discipline.** A.6.3 names the preserve branch of the C.2.1 EntityOfConcern preservation law: `entityOfConcernRef(Y) = entityOfConcernRef(X)` and `EntityOfConcernSlot` is read-only. Earlier source-side spellings are source-migration wording only; conformant text normalizes them to `EntityOfConcern*` before use.
+**Use this pattern when** a project needs a view, query, projection, normalization, or representation change over an episteme while preserving the same EntityOfConcern.
+
+**What goes wrong if missed.** A view becomes a retargeting, a publication rendering becomes the episteme relation, or a representation lens silently changes what the episteme is about.
+
+**What this buys.** A.6.3 gives the preserve branch of EFEM: `EntityOfConcernSlot` is read-only, slot changes are declared, and publication, retargeting, mechanism, and work claims stay outside viewing.
+
+**EntityOfConcern preservation discipline.** A.6.3 names the preserve branch of the C.2.1 EntityOfConcern preservation law: `entityOfConcernRef(Y) = entityOfConcernRef(X)` and `EntityOfConcernSlot` is read-only. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
 
 **Placement.** After **A.6.2 `U.EffectFreeEpistemicMorphing`**, before **A.6.4 `U.EpistemicRetargeting`**.
 
@@ -43,5 +50,5 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlo
 **Used by.**
 E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.17.1/E.17.2 (Viewpoint bundle libraries, TEVB); B.5.3 (Role‑EpistemicViewing); discipline packs for architecture, safety, and ML/LLM‑based representations.
 
-**Body-level U-kind settlement.** `U.EpistemicViewing` is the governed durable value in this host. It reuses `U.EffectFreeEpistemicMorphing` and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source-migration wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for viewing, not a root U-kind.
+**Body-level U-kind settlement.** `U.EpistemicViewing` is the governed durable value in this pattern. It reuses `U.EffectFreeEpistemicMorphing` and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for viewing, not a root U-kind.
 

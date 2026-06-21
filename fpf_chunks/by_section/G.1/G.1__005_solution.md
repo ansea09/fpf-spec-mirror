@@ -6,12 +6,12 @@ section_id: "G.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:4 — Solution"
-line_start: 78946
-line_end: 79228
+line_start: 81706
+line_end: 81988
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 52869
-line_end: 52879
+line_start: 54491
+line_end: 54501
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD.BA"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"

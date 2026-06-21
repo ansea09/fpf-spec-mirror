@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
-line_start: 30860
-line_end: 31189
+line_start: 31484
+line_end: 31813
 dependencies:
   - "A.12"
   - "A.14"
@@ -349,7 +349,7 @@ Method Interface Standard (MIC)
 
 ### B.1.5:12 - Relations
 
-* **Builds on:** A.12 (Transformer Role), A.14 (Mereology Extension), A.15 (Strict Distinction); B.1.1 (Proof Kit), B.1.4 (Γ\_ctx/Γ\_time).
+* **Builds on:** A.12 (Transformer Role), A.14 (Mereology Extension), A.15 (Strict Distinction); B.1.1 dependency-structure and relation-grounding checks; B.1.4 (Γ\_ctx/Γ\_time).
 * **Coordinates with:** B.1.6 (Γ\_work) for resource accounting; B.3 (Assurance) for WLNK cutsets and CL penalties.
 * **Triggers/Complements:** B.2 (MHT) when new closure/supervision or context re‑base appears at method level.
 * **Used by:** Later domain patterns that define canonical methods in specific disciplines (without altering Γ\_method).

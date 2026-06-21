@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
-line_start: 62045
-line_end: 62235
+line_start: 64596
+line_end: 64790
 dependencies:
   - "A.10"
   - "A.21"
@@ -63,7 +63,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the question is whether a measurement scale is legal, use `C.16`.
+- If the question is whether a measurement scale is admissible, use `C.16`.
 - If the question is ordinary pattern quality, use `E.21`; use `E.13` only when a visible quality value is being treated as the practical value.
 - If the question is DRR adequacy, use `E.9.DA`; use `E.13` only when DRR marks become a surrogate for decision usefulness.
 - If the question is whole-FPF Pillar adequacy, use `E.2.DA`; use `E.13` only when Pillar values become the target.
@@ -82,7 +82,7 @@ The danger starts when the visible measure becomes the object being optimized. A
 Without `E.13`:
 
 1. **Measures replace objectives.** Teams speak as if the score, metric, benchmark, assurance level, or all-`5` posture is the value.
-2. **Evaluation loops become reward functions.** A reviewer asks for improvement; the author adds fields, guards, source rows, proof sketches, and relation catalogues until the visible evaluation looks better.
+2. **Evaluation loops become reward functions.** A checking reader asks for improvement; the author adds fields, guards, source rows, proof sketches, and relation catalogues until the visible evaluation looks better.
 3. **Unmeasured value is damaged.** Usability, safety margin, maintainability, learning, domain fit, affordability, or operator action quality gets worse while the proxy improves.
 4. **Proxy use is not typed.** The same metric is treated as orientation cue, target, incentive, gate, and release proof without saying which use is live.
 5. **No value slice exists.** The text claims practical payoff, but no minimally viable slice shows the value being realized in a case.
@@ -93,7 +93,7 @@ Without `E.13`:
 | --- | --- |
 | Measurement vs value | Projects need visible signals, but signals can replace the value they indicate. |
 | Local optimization vs protected qualities | A local score can improve while another value-bearing dimension worsens. |
-| Evaluation pressure vs object improvement | A reviewer-facing mark can be easier to raise than the object is to improve. |
+| Evaluation signal vs object improvement | A visible evaluation mark can be easier to raise than the object is to improve. |
 | Proxy affordability vs value evidence | A proxy is cheap; demonstrating value can be expensive. |
 | Release confidence vs ongoing distortion | A proxy may be safe for orientation but unsafe as a gate, incentive, or release argument. |
 
@@ -171,7 +171,11 @@ When the proxy has displaced the value, repair one of these:
 | AI reward model | A model gets higher reward or judge score by exploiting the specification. | Treat the score as proxy; inspect unmeasured intended outcome and blocked value dimensions. |
 | Manufacturing throughput | Throughput rises while rework, fatigue, or latent defect risk rises. | Keep throughput as a measure; add protected qualities and a value slice for delivered usable output. |
 
-### E.13:6 - Conformance Checklist
+### E.13:6 - Bias-Annotation
+
+E.13 blocks proxy-for-value bias: the visible measure, score, evidence volume, review result, release posture, or dashboard state is treated as the practical value itself. It also blocks evaluator-satisfaction bias: adding apparatus to satisfy an evaluation signal while the governed object, user work, safety, maintainability, or decision quality does not improve.
+
+### E.13:7 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
@@ -180,10 +184,10 @@ When the proxy has displaced the value, repair one of these:
 | `CC-E13-3` | If a proxy improved, the repair asks what got worse and names checked loci or protected qualities. |
 | `CC-E13-4` | A minimally viable value slice shows the intended value for the declared use, or the value claim is lowered. |
 | `CC-E13-5` | The repair does not treat evaluation values, source counts, review praise, all-`5` posture, assurance level, or release status as value by itself. |
-| `CC-E13-6` | Stronger claims are sent to their governing patterns: measurement to `C.16`, quality evaluation to `E.21`/`E.9.DA`/`E.2.DA`, assurance to `B.3`, gate passage to `A.21`, decision authority to `C.11`, and value/proxy alignment here. |
+| `CC-E13-6` | Stronger claims are governed by their direct patterns: measurement by `C.16`; quality evaluation by `E.21`, `E.9.DA`, or `E.2.DA`; assurance by `B.3`; gate passage by `A.21`; decision authority by `C.11`; and value and proxy alignment here. |
 | `CC-E13-7` | The repair changes value movement, proxy use, protected qualities, claim split, or stop condition; it does not close by adding proof apparatus alone. |
 
-### E.13:7 - Common Anti-Patterns
+### E.13:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -191,16 +195,24 @@ When the proxy has displaced the value, repair one of these:
 | All-`5` targeting | A pattern or DRR is rewritten to make every coordinate defensible as `5`. | Use the evaluation as measurement; repair content movement and protected trade-offs. |
 | Source-count proof | More citations or source rows are treated as better decision quality. | Ask which decision payload changed. |
 | Dashboard myopia | A visible dashboard metric improves while unmeasured harm rises. | Add protected qualities and split measure from value. |
-| Proxy as gate authority | A proxy becomes a release or gate argument without the governing gate or assurance pattern. | Send gate or assurance claims to their governing patterns and keep proxy use bounded. |
+| Proxy as gate authority | A proxy becomes a release or gate argument without the governing gate or assurance pattern. | Use the governing gate or assurance pattern for gate or assurance claims and keep proxy use bounded. |
 | Value slice missing | Practical payoff is asserted but never shown in a case. | Add a minimally viable value slice or lower the payoff claim. |
 
-### E.13:8 - Rationale
+### E.13:12 - Consequences
+
+- FPF can use scores and metrics without making them the object of optimization.
+- Improvement loops gain a simple value-proxy stop condition.
+- Practical payoff claims need at least a small value slice.
+- Some attractive proxy improvements are rejected, split, or lowered.
+- The cost is a small proxy-to-value check whenever a visible measure becomes a target, incentive, gate, release argument, or repair target.
+
+### E.13:9 - Rationale
 
 FPF needs measurement, evaluation, assurance, and release checks, but those checks remain instruments. They are not the value by themselves. `E.13` keeps the visible instrument attached to the intended value and asks whether the value survives optimization pressure.
 
 The pattern is intentionally small. Goodhart-style failure is not repaired by another large audit apparatus. It is repaired by restoring the relation among value, proxy, use position, protected qualities, and a small slice where the value is visible.
 
-### E.13:9 - SoTA-Echoing
+### E.13:10 - SoTA-Echoing
 
 | Claim | Source lineage | Local adoption |
 | --- | --- | --- |
@@ -211,20 +223,12 @@ The pattern is intentionally small. Goodhart-style failure is not repaired by an
 | Useful measures should be derived from goals and questions. | Goal-Question-Metric and GQM+Strategies measurement alignment. | E.13 asks for intended value/objective before proxy and asks which decision or work the proxy affects. |
 | Human values require stakeholder and use-context inquiry, not only formal metrics. | Value Sensitive Design and value-oriented design lines. | The minimally viable value slice may include user, operator, manager, safety, or affected-stakeholder evidence when those values are live. |
 
-### E.13:10 - Relations
+### E.13:11 - Relations
 
 - **Implements:** `E.2` Pillar `P7 Pragmatic Utility`.
 - **Complements:** `E.12` for cognitive ergonomics and `E.14` for human-facing working models.
-- **Coordinates with:** `E.8` for authoring practical-payoff claims, `E.19` for review/admission proxy-to-value checks, `E.22`/`E.23` for improvement framing and repeated improvement loops, `C.16` for measurement legality, `C.25` for engineering quality-family endpoints, `E.21` for pattern quality, `E.9.DA` for DRR adequacy, `E.2.DA` for whole-FPF Pillar adequacy, `B.3` for assurance, `A.21` for gate passage, `C.11` for decisions, and `A.10` for evidence.
+- **Coordinates with:** `E.8` for authoring practical-payoff claims, `E.19` for review/admission proxy-to-value checks, `E.22`/`E.23` for improvement framing and repeated improvement loops, `C.16` for measurement admissibility, `C.25` for engineering quality-family endpoints, `E.21` for pattern quality, `E.9.DA` for DRR adequacy, `E.2.DA` for whole-FPF Pillar adequacy, `B.3` for assurance, `A.21` for gate passage, `C.11` for decisions, and `A.10` for evidence.
 - **Used by:** improvement loops, release checks, pattern reviews, dashboards, metric-driven work, AI reward or judge-score cases, and any project where visible performance may displace intended value.
-
-### E.13:11 - Consequences
-
-- FPF can use scores and metrics without making them the object of optimization.
-- Improvement loops gain a simple value-proxy stop condition.
-- Practical payoff claims need at least a small value slice.
-- Some attractive proxy improvements are rejected, split, or lowered.
-- The cost is a small proxy-to-value check whenever a visible measure becomes a target, incentive, gate, release argument, or repair target.
 
 ### E.13:End
 

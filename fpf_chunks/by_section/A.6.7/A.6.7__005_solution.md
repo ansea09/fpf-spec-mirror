@@ -6,12 +6,12 @@ section_id: "A.6.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:4 — Solution"
-line_start: 16536
-line_end: 16786
+line_start: 16806
+line_end: 17056
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -101,7 +101,7 @@ MechSuiteDescription := ⟨
 * **WF‑MS‑4 (Suite ≠ Mechanism).** `MechSuiteDescription` contains no `OperationAlgebra`/`LawSet`/execution semantics and is not admissible where a `U.Mechanism.*` node is required.
 
 * **Membership is by mechanism intension (order-free).**
-  `mechanisms` MUST denote a duplicates-free set of distinct `U.Mechanism.Intension` members. Membership order has no semantics; any intended ordering is expressed only in `suite_protocols`. A suite is **not** defined by a shared `BaseType`.
+  `mechanisms` MUST denote a duplicates-free set of distinct `U.Mechanism.Intension` members. Membership order has no semantics; any intended ordering is expressed only in `suite_protocols`. A suite is defined by declared mechanism intensions and suite protocols.
 
 * **No substitution by `MechFamilyDescription`.**
   A suite MUST NOT be encoded as a `MechFamilyDescription`.
@@ -115,7 +115,7 @@ MechSuiteDescription := ⟨
 
 #### A.6.7:4.2 SuiteObligations (canonical obligation vocabulary)
 
-`MechSuiteDescription` MAY declare any obligations, but the following obligation vocabulary is **canonical** and is intended to be reused across the universalization of Part G and legality-gated characterization stacks.
+`MechSuiteDescription` MAY declare any obligations, but the following obligation vocabulary is **canonical** and is intended to be reused across the universalization of Part G and admissibility-gated characterization stacks.
 
 `SuiteObligations` SHOULD be written as an explicit clause set, e.g.:
 
@@ -165,7 +165,7 @@ SuiteObligations := {
    Well-formedness constraint: `USM.CompareGuard` and `USM.LaunchGuard` denote gate-owned guard events/pins; member mechanisms and suite protocols use `…Admissibility` / `…Eligibility` for guard predicates, not the reserved gate lexemes.
 
 6. **`cg_spec_cite_required_for_numeric_ops`.**
-   Well-formedness constraint: any member operation that performs numeric comparison/aggregation/legality-sensitive scoring cites the applicable `CG‑Spec` (and relevant subrefs) as spec pins, rather than embedding equivalent “local legality” content.
+   Well-formedness constraint: any member operation that performs numeric comparison/aggregation/admissibility-sensitive scoring cites the applicable `CG-Spec` (and relevant subrefs) as spec pins, rather than embedding equivalent local admissibility content.
 
 7. **`no_silent_scalarisation_of_partial_orders` and `no_silent_totalisation`.**
    Well-formedness constraint: if a member mechanism induces a partial order, it preserves set-/relation-valued semantics; it does not silently reduce to a scalar/total order. Any totalization is explicit and policy-bound.
@@ -199,7 +199,7 @@ SuiteSpecPins := ⟨
 
 **Norms.**
 
-* If the suite is legality-gated for characterization, `CNSpecRef` and `CGSpecRef` MUST be required (as references/pins).
+* If the suite is admissibility-gated for characterization, `CNSpecRef` and `CGSpecRef` MUST be required (as references/pins).
 * Spec pins are citations and anchors. They do not replace the underlying `…Spec` objects.
 * A suite MAY require the presence of a planned-baseline WorkPlanning plan item in P2W (e.g., a WorkPlanning plan item such as `…SlotFillingsPlanItem` that pins chosen refs/editions), but MUST treat it as a **reference/pin requirement**, not as a place to store launch values or gate decisions.
   When required, the planned-baseline WorkPlanning plan item is authored in `WorkPlanning` and is citeable by downstream `U.Work.Audit`; any `FinalizeLaunchValues` witness remains `U.WorkEnactment`-only.
@@ -211,7 +211,7 @@ A suite MAY describe allowed protocols (pipelines) as descriptive constraints on
 
 * MUST name the member mechanisms it uses (explicitly; no “implicit use”),
 * MAY mark steps as optional,
-* MUST NOT introduce hidden crossings or hidden legality steps,
+* MUST NOT introduce hidden crossings or hidden admissibility steps,
 * MUST treat “publish/telemetry” as an external protocol step that is realized through existing publication surfaces (e.g., Part G shipping), rather than as a hidden tail inside a mechanism.
 
 A canonical shape for protocols:
@@ -247,7 +247,7 @@ A suite MAY require that downstream use provide certain audit anchors. These are
 
 #### A.6.7:4.6 Examples (tell–show–show discipline)
 
-**Example 1 (conformant).** A characterization legality suite:
+**Example 1 (conformant).** A characterization admissibility suite:
 
 ```
 CHRMechanismSuiteDescription : MechSuiteDescription :=

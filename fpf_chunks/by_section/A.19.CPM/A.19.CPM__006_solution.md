@@ -6,12 +6,12 @@ section_id: "A.19.CPM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:4 — Solution"
-line_start: 27890
-line_end: 27990
+line_start: 28531
+line_end: 28631
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -27,15 +27,15 @@ keywords:
 
 CPM is specified as a canonical `U.Mechanism.Intension` whose core commitments are:
 
-* **Comparator legality is declared and gated** (`CG‑Spec.ComparatorSet`, and `CG‑Spec.SCP` when numeric operations are involved; scale lawfulness via CSLC).
+* **Comparator admissibility is declared and gated** (`CG-Spec.ComparatorSet`, and `CG-Spec.SCP` when numeric operations are involved; scale lawfulness via CSLC).
 * **Results are set‑valued relation/poset tokens**; partial orders remain partial; no silent scalarization or totalization.
-* **Admissibility is tri‑state and fail‑closed** on missing legality/evidence; unknown never coerces into a fabricated outcome.
+* **Admissibility is tri‑state and fail‑closed** on missing admissibility/evidence; unknown never coerces into a fabricated outcome.
 * **Comparison remains distinct from selection**; CPM produces relation outcomes; `SelectorMechanism` consumes them.
 
 This pattern defines (governing-pattern, wiring‑friendly):
 1. a **stable mechanism boundary** for lawful comparison: `Compare(...) → ComparisonResultSlot` plus a tri‑state `CompareEligibility` guard;
 2. a **stable SlotKind surface** (by suite lexicon tokens) that downstream selection and Part‑G wiring can rely on without SlotKind drift;
-3. a **legality/evidence responsibility split**: legality is gated by `CG‑Spec` (and CSLC), while admission/comparability routing is cited from `CN‑Spec`;
+3. an **admissibility/evidence responsibility split**: admissibility is gated by `CG-Spec` (and CSLC), while admission/comparability routing is cited from `CN-Spec`;
 4. a minimal **audit-pin requirement**: what pins/editions MUST be recorded to make a comparison replay‑grade;
 5. explicit **P2W separation**: planned baseline binds editions/policies; CPM records effective bindings in `Audit`.
 
@@ -61,7 +61,7 @@ This is the canonical `U.Mechanism.Intension` for `CPM.IntensionRef`. It is inte
 * **SubjectBlock:**
 
   * **SubjectKind:** `Comparison`.
-  * **BaseType:** CHR‑typed measures in a CG‑Frame (see `CG‑Spec.ComparatorSet`).
+  * **GovernedValueDomain:** CHR-typed measures in a CG-Frame (see `CG-Spec.ComparatorSet`).
   * **SliceSet:** `U.ContextSliceSet`.
   * **ExtentRule:** comparison ranges over admitted left/right profiles under the active context slice, using a declared comparator from `CG‑Spec.ComparatorSet`.
   * **ResultKind?:** `U.Set` (relation/poset token set; set‑valued by default).
@@ -83,14 +83,14 @@ This is the canonical `U.Mechanism.Intension` for `CPM.IntensionRef`. It is inte
 
 * **LawSet** (minimum; set‑valued comparison, no hidden scalarization):
 
-  1. **ComparatorSet gate:** `ComparatorSpecSlot` MUST be an element of `CGSpecSlot.ComparatorSet` (legality gate; cite `G.0`).
+  1. **ComparatorSet gate:** `ComparatorSpecSlot` MUST be an element of `CGSpecSlot.ComparatorSet` (admissibility gate; cite `G.0`).
   2. **Set‑valued semantics:** `ComparisonResultSlot` is set‑valued (parity/poset tokens); partial orders remain partial — no silent totalization/scalarization.
-  3. **CSLC+SCP legality:** any numeric ops implied by the comparator MUST be admissible under `CGSpecSlot.SCP` and CSLC‑lawful (cite `G.0` + `A.18`).
+  3. **CSLC+SCP lawfulness:** any numeric ops implied by the comparator MUST be admissible under `CGSpecSlot.SCP` and CSLC‑lawful (cite `G.0` + `A.18`).
   4. **Unknown is not coerced:** missing/unknown evidence MUST NOT be mapped to a comparison outcome; use tri‑state guards.
   5. **No hidden thresholds/tie‑breakers:** any thresholds, epsilons, priority orders, or tie‑break logic MUST live in the declared `ComparatorSpecSlot` (or in `CNSpecSlot.acceptance` as explicit acceptance clauses), edition‑pinned and auditable; CPM MUST NOT smuggle constants.
   6. **No implicit UNM:** CPM MUST NOT perform normalization/alignment internally. If `CNSpecSlot.comparability` routes comparison through normalization‑based invariants, `CompareEligibility` MUST treat “inputs are already normalized to the declared invariants” as a precondition for `pass` (otherwise `degrade|abstain` per policy). Any UNM dependence MUST be explicit upstream and auditable.
 
-* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing legality/evidence):
+* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
 
   * `CompareEligibility(LeftProfileSlot, RightProfileSlot, CNSpecSlot, CGSpecSlot, ComparatorSpecSlot, ContextSlot, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
   * `pass` requires: (i) `ComparatorSpecSlot ∈ CGSpecSlot.ComparatorSet`, (ii) any comparator‑implied numeric ops are admissible under `CGSpecSlot.SCP` and CSLC‑lawful for the effective measure scales, (iii) both profiles are admitted/comparable under `CNSpecSlot.comparability` and `CNSpecSlot.acceptance` for the given `ContextSlot`, and (iv) evidence satisfies the **effective** MinimalEvidence policy (explicit override via `MinimalEvidenceSlot?`, otherwise `CGSpecSlot.MinimalEvidence`).
@@ -100,7 +100,7 @@ This is the canonical `U.Mechanism.Intension` for `CPM.IntensionRef`. It is inte
 * **Applicability:**
 
   * Intended to be used as the CHR stage `compare`: it may follow indicatorization/scoring and optional folding **when those stages are present**, and it precedes selection wherever selection occurs; MUST remain distinct from selection (no embedded “pick best”).
-  * Applicable only when legality/evidence surfaces are present via `CGSpecSlot` (fail‑closed otherwise).
+  * Applicable only when admissibility/evidence surfaces are present via `CGSpecSlot` (fail‑closed otherwise).
   * When used inside the CHR suite, stage ordering/optionality is determined only by `A.19.CHR:4.5 (suite_protocols)`; CPM does not infer order from `mechanisms[]`.
 
 * **Transport:** Bridge+CL/ReferencePlane only; penalties route to **`R_eff` only**.

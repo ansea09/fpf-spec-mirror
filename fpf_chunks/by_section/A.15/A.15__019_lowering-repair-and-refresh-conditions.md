@@ -6,12 +6,12 @@ section_id: "A.15:12f"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__019_lowering-repair-and-refresh-conditions.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12f — Lowering, Repair, and Refresh Conditions"
-line_start: 20754
-line_end: 20761
+line_start: 21300
+line_end: 21307
 dependencies:
   - "A.10"
   - "A.12"
@@ -53,7 +53,7 @@ keywords:
 
 Lower an `A.15` claim when the role, holder, bounded context, method, method description, work plan, performed work occurrence, or capability check cannot be named at the granularity required by the next work move. A weaker but admissible result is a separation note, source-gap note, source-restoration request, decision-request record for the next decision, or prospective work-plan entry.
 
-Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence path changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
+Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence relation changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
 
 Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new evidence, assurance, gate, source-restoration, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the remaining `A.15` separation here.
 

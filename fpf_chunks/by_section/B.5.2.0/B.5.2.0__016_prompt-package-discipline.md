@@ -6,12 +6,12 @@ section_id: "B.5.2.0:14"
 section_title: "Prompt package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__016_prompt-package-discipline.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:14 — Prompt package discipline"
-line_start: 34288
-line_end: 34317
+line_start: 35561
+line_end: 35590
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 
 ### B.5.2.0:14 - Prompt package discipline
 
-A prompt becomes reusable in `B.5.2` only when its initiating question is explicit enough to remain stable across later hypothesis work.
+A prompt becomes reusable in `B.5.2` only when its initiating question is explicit enough to remain stable across downstream hypothesis work.
 
 #### B.5.2.0:14.1 - Minimal prompt package
 
@@ -52,7 +52,7 @@ A robust abductive prompt should make explicit:
 - the **scope** in which the question is being asked,
 - and the **witnesses or cue grounds** that justify beginning abduction.
 
-This package lets later conjectures be tested against the same question rather than against a later paraphrase.
+This package lets downstream conjectures be tested against the same question rather than against a rewritten paraphrase.
 
 For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
 
@@ -64,6 +64,6 @@ A prompt may cue one explanation, but it remains a question-bearing entry form. 
 
 Route provenance, cue provenance, and witness provenance are part of prompt admission, not optional history.
 
-#### B.5.2.0:14.4 - Review prompt against silent promotion
-A reviewer should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either rewrite it back into a real question or explicitly apply the governing pattern that carries the asserted answer.
+#### B.5.2.0:14.4 - Check prompt against silent promotion
+An assurance reader should watch for the common mistake where authors silently upgrade a prompt into a hypothesis merely because the prose sounds explanatory. If the text already leans on one preferred answer as settled, either rewrite it back into a real question or explicitly apply the governing pattern that carries the asserted answer.
 

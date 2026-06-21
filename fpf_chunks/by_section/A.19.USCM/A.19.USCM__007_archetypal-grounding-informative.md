@@ -6,12 +6,12 @@ section_id: "A.19.USCM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__007_archetypal-grounding-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:5 — Archetypal Grounding — informative"
-line_start: 27364
-line_end: 27393
+line_start: 28005
+line_end: 28034
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -27,12 +27,12 @@ keywords:
 
 #### A.19.USCM:5.1 - Tell
 
-Think of USCM as **legality‑gated scoring**:
+Think of USCM as **admissibility‑gated scoring**:
 
-* Input: “an admitted profile of measures, in this context slice, plus CN-Spec governance card and CG-Spec legality gate”
+* Input: “an admitted profile of measures, in this context slice, plus CN-Spec governance card and CG-Spec admissibility gate”
 * Output: “a set of score measures that downstream steps may compare/select on”
 
-The key didactic boundary is: **USCM is allowed to transform measures only within the legality surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
+The key didactic boundary is: **USCM is allowed to transform measures only within the admissibility surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
 
 #### A.19.USCM:5.2 - Show — U.System
 

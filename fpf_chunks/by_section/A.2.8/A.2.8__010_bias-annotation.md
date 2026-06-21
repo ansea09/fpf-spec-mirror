@@ -6,12 +6,12 @@ section_id: "A.2.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:6 — Bias-Annotation"
-line_start: 5380
-line_end: 5389
+line_start: 5536
+line_end: 5545
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -43,11 +43,11 @@ keywords:
 
 ### A.2.8:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** (any place FPF needs deontic binding).
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** (any place FPF needs deontic commitment relations).
 
 * **Gov bias:** prioritizes accountable subjects and adjudication hooks; may increase authoring overhead.
 * **Arch bias:** pushes reference-by-ID and explicit scope/window to preserve evolvability and reduce drift.
-* **Onto/Epist bias:** enforces “descriptions don’t promise”; commitments bind agents/roles.
+* **Onto/Epist bias:** enforces “descriptions don’t promise”; commitments name accountable subjects.
 * **Prag bias:** aligns with common spec-language practice (RFC keywords) but makes the structure explicit.
 * **Did bias:** favors a small record that can be taught and linted.
 

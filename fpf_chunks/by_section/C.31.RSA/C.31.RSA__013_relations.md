@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 55915
-line_end: 55929
+line_start: 57775
+line_end: 57789
 dependencies:
 keywords:
 ---
@@ -24,7 +24,7 @@ keywords:
 | `C.31` | Supplies modularity characteristics under evaluation; RSA does not duplicate the characteristic taxonomy. |
 | `A.6.M` | Supplies module-interface relation repair for reusable interface and platform-grammar claims. |
 | `C.30` and `C.30.ASV` | Supply architecture claim and structural-view context for the structures being accounted over. |
-| `C.16`, `A.17`, `A.18`, `A.19` | Govern measurement, scale, unit, comparability, score, and characteristic legality when RSA shares are used beyond report-only. |
+| `C.16`, `A.17`, `A.18`, `A.19` | Govern measurement, scale, unit, comparability, score, and characteristic admissibility when RSA shares are used beyond report-only. |
 | `C.25` | Governs broader quality-family bundles when reusable structure is used in a quality claim. |
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |

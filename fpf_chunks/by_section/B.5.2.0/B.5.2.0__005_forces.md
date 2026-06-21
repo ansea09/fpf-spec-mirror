@@ -6,12 +6,12 @@ section_id: "B.5.2.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:3 — Forces"
-line_start: 34194
-line_end: 34200
+line_start: 35467
+line_end: 35473
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,5 +42,5 @@ keywords:
 |---|---|
 | **Breadth vs discipline** | Admit more than anomaly, but keep a bounded family of admissible prompt species. |
 | **Reuse vs type inflation** | Introduce a clean entry form without exploding the number of heavy publication kinds. |
-| **Prompt vs hypothesis** | Keep the initiating prompt distinct from the later abductive outcome. |
+| **Prompt vs hypothesis** | Keep the initiating prompt distinct from the downstream abductive outcome. |
 

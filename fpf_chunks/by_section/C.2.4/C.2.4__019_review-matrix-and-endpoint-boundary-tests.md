@@ -6,12 +6,12 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 37592
-line_end: 37607
+line_start: 38893
+line_end: 38908
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,7 +35,7 @@ keywords:
 ### C.2.4:18 - Review Matrix and Endpoint Boundary Tests
 
 #### C.2.4:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - are the named anchors genuinely present rather than merely presupposed;
 - does the claimed articulation level rest on structure rather than tone;
@@ -43,7 +43,7 @@ A reviewer should ask:
 - if `AE` is used to justify a route-governance transfer, is the destination governing pattern actually ready to receive the publication.
 
 #### C.2.4:18.2 - Endpoint-boundary test
-High `AE` does not by itself authorize endpoint claims, gate pressure, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
+High `AE` does not by itself authorize endpoint claims, gate claims, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
 
 #### C.2.4:18.3 - Migration note for false precision
 Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Migration should therefore test whether anchors and slots are really present; if not, the articulation level should drop.

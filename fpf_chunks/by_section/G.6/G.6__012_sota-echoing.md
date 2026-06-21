@@ -6,12 +6,12 @@ section_id: "G.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__012_sota-echoing.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:11 — SoTA-Echoing"
-line_start: 81677
-line_end: 81689
+line_start: 84437
+line_end: 84449
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -64,7 +64,7 @@ keywords:
 | Verifiable-credential, content-provenance, and supply-chain attestation practice | Keep subject, issuer or producer, verifier or relying context, proof or signature check, status/currentness relation, policy, time, and input evidence or attestation refs separate. A summary attestation may be useful only when the underlying path or input attestations remain recoverable. | A provenance credential, content credential, or verification summary can feed a `PathId`; stronger downstream uses still need their governing patterns. |
 | Current provenance, attestation, credential, and content-authenticity practice | Separate subject, issuer or producer, proof check, status check, time window, verifier or relying context, and source-currentness relation. | A provenance mark or credential view may evidence bounded origin or status; stronger downstream uses are not created by display. |
 | Reproducible research, data lineage, model-card, datasheet, and benchmark governance practice | Keep dataset, metric, method description, evaluation condition, version, limitation, and run evidence addressable. | A benchmark or model report can be replayed and refreshed by path slice instead of becoming a frozen story. |
-| Assurance-case and safety-case practice | Keep evidence paths citable by assurance claims without letting evidence presence equal assurance. | `B.3` can consume a `PathId`, but still needs its own assurance tuple, limitations, decay, and reopen relation. |
+| Assurance-case and safety-case practice | Keep evidence-provenance paths citable by assurance claims without letting evidence presence equal assurance. | `B.3` can consume a `PathId`, but still needs its own assurance tuple, limitations, decay, and reopen relation. |
 | Temporal and source-currentness practice | Treat windows, expiry, supersession, and source-order changes as path-local reopen events. | Stale or contested evidence lowers or reopens the path; it does not silently continue to carry reliance. |
 | Declarative graph and provenance-graph practice | Use graph paths for addressability and replay, while keeping work execution and transformation-flow structures separate. | A path can be checked without telling a worker to follow it as a route. |
 

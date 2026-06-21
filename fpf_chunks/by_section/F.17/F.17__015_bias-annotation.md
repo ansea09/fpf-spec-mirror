@@ -1,0 +1,55 @@
+---
+chunk_kind: "child"
+pattern_id: "F.17"
+pattern_title: "Unified Term Sheet"
+section_id: "F.17:12.5"
+section_title: "Bias-Annotation"
+source_path: "FPF-Spec.md"
+output_path: "by_section/F.17/F.17__015_bias-annotation.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "F.17 — Unified Term Sheet"
+  - "F.17:12.5 — Bias-Annotation"
+line_start: 80100
+line_end: 80103
+dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.19.SPR"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.7"
+  - "A.6.5"
+  - "A.6.P"
+  - "B.3"
+  - "C.2.P"
+  - "E.10"
+  - "E.10.D2"
+  - "E.17"
+  - "F.1"
+  - "F.1-F.12"
+  - "F.10"
+  - "F.14"
+  - "F.15"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.4"
+  - "F.5"
+  - "F.6"
+  - "F.7"
+  - "F.8"
+  - "F.9"
+keywords:
+  - "UTS"
+  - "Unified Term Sheet"
+  - "glossary"
+  - "human-readable output"
+  - "publication"
+  - "summary table"
+---
+
+### F.17:12.5 - Bias-Annotation
+
+F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the direct pattern, bounded-context sense, bridge, admissible-use statement, or currentness condition.
+

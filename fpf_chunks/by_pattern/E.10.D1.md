@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
-line_start: 61101
-line_end: 61279
+line_start: 63652
+line_end: 63830
 dependencies:
   - "A.4"
   - "A.7"
@@ -74,7 +74,7 @@ keywords:
 * **`SenseCell := (U.BoundedContext, Local‑Sense)`** — the *cell of meaning* inside a specific Context; or
 * a **`ConceptSet.Row`** + column reference (see E.10.U7).
 
-**D‑CTX‑3 (Domain is informative).** **Domain** (workflow, provenance, services, access, sensing, …) is **not** a U.Type. It is an **informative family label** grouping several `U.BoundedContext`s. There is no “domain context”.
+**D-CTX-3 (Domain is informative).** **Domain** (workflow, provenance, services, access, sensing, ...) is an informative family label grouping several `U.BoundedContext`s, not an admitted U-kind. There is no "domain context".
 
 **D‑CTX‑4 (Narrative is Problem Frame).** Use **Problem Frame** (or **Frame**) for situational narrative in patterns. Do **not** use “context” for narrative sections.
 

@@ -6,23 +6,28 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 60146
-line_end: 60214
+line_start: 62574
+line_end: 62642
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -44,8 +49,8 @@ It is **not** a USM scope and carries **no** truth or validity semantics.
 #### E.10:7.2 - `KernelToken` — Minimal Generality (MG‑K)
 **MG‑K1 (Tri‑domain witness, MUST).** Maintain a DRR note or Glossary note with **≥ 3 heterogeneous arenas** where the invariants hold (e.g., manufacturing, healthcare, cloud ops). If you cannot, narrow to a Context name or move qualifiers into **RoleCharacteristicSpace**.
 **MG‑K2 (No parochial nouns, MUST).** Kernel names **MUST NOT** contain domain nouns (*Ticket, Microservice, Patient, Developer*). Such nouns belong in **Context** or as **RoleCharacteristicSpace characteristics**.
-**MG‑K3 (No vacuity, MUST).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use existing kernel heads (`U.Holon`, `U.Work`, `U.Method`, `U.Resrc`, …).
-**MG‑K4 (Intent over mechanism, MUST).** Kernel type and role names encode **intent**, not mechanism. Mechanisms (algorithms, hardware form, recipe flavors) belong in **RoleCharacteristicSpace** or **Capability**.
+**MG‑K3 (No vacuity, MUST).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use existing U-kind heads such as `U.Holon`, `U.Work`, and `U.Method`.
+**MG‑K4 (Intent over mechanism, MUST).** U-kind names and role-description labels encode **intent**, not mechanism. Mechanisms (algorithms, hardware form, recipe flavors) belong in **RoleCharacteristicSpace** or **Capability**.
 **MG‑K5 (Notation independence, SHOULD).** The EntityOfConcern-side kind criterion is separable from any one notation or toolchain.
 **MG‑K6 (Refactoring safety, MUST).** If a name fails MG, do **not** mutate it silently. Record a DRR and apply F.13 **Lexical Continuity and Deprecation** (aliases; Bridges for Cross‑context mappings).
 

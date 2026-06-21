@@ -1,28 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Role-Projection Bridge"
+pattern_title: "Domain-Concept Bridge"
 section_id: "B.5.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.5.3 — Role-Projection Bridge"
+  - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:1 — Problem Frame"
-line_start: 34537
-line_end: 34540
+line_start: 35810
+line_end: 35815
 dependencies:
+  - "A.13"
+  - "A.15"
   - "A.2"
+  - "A.2.1"
+  - "A.6.5"
+  - "A.7"
+  - "B.3.3"
+  - "C.2.1"
   - "C.3"
+  - "E.17"
+  - "E.24.UK"
+  - "F.1"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.7"
+  - "F.8"
+  - "F.9"
 keywords:
+  - "bounded context"
+  - "bridge scope"
   - "concept bridge"
-  - "domain-specific vocabulary"
-  - "mapping"
-  - "terminology"
+  - "domain vocabulary"
+  - "local sense"
+  - "role assignment boundary"
 ---
 
 ### B.5.3:1 - **Problem Frame**
 
-The FPF is built upon a small set of universal, domain-agnostic concepts (`U.Types`) like `U.System`, `U.Objective`, and `U.State`. This universality is the source of its power, allowing it to be applied to any domain, from thermodynamics to software engineering. However, practitioners in these domains do not speak in terms of `U.Types`; they use their own rich, specialized vocabularies. A thermodynamicist talks about a "Thermodynamic System" and its "Macrostate," not a `U.System` and its `U.State`.
+FPF keeps a small set of admitted U-kinds, ontics, slot relations, mechanisms, characteristics, methods, work values, epistemes, and publication-use relations. Working domains use their own words. A thermodynamicist says "system", "macrostate", "control volume", and "free energy"; a safety engineer says "hazard", "mitigation", and "assurance case"; a software team says "service", "endpoint", and "release".
+
+Those words are useful. The problem starts when one local word is silently treated as a new root kind, a role assignment, a characteristic, a method, a work occurrence, an evidence relation, or a publication claim without saying which FPF value the claim uses.
 

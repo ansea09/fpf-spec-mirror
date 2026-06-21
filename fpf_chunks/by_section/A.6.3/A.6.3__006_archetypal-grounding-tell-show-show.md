@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6.3"
 pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
 section_id: "A.6.3:5"
-section_title: "Archetypal grounding (Tell–Show–Show)"
+section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
-  - "A.6.3:5 — Archetypal grounding (Tell–Show–Show)"
-line_start: 11209
-line_end: 11287
+  - "A.6.3:5 — Archetypal Grounding (Tell-Show-Show)"
+line_start: 11416
+line_end: 11494
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -29,7 +29,7 @@ dependencies:
 keywords:
 ---
 
-### A.6.3:5 - Archetypal grounding (Tell–Show–Show)
+### A.6.3:5 - Archetypal Grounding (Tell-Show-Show)
 
 #### A.6.3:5.1 - Engineering system description → safety officer view (DirectEpistemicViewing)
 
@@ -57,7 +57,7 @@ A system team maintains a rich `SystemDescription` episteme for a plant holon `S
 * KD‑CAL/LOG‑CAL checks show that every hazard/mitigation claim in `Y` is entailed by `X`,
 * view is idempotent and deterministic given `X` and the selected safety profile.
 
-This is the canonical “engineering view” archetype that later species in E.17.2/TEVB refer back to.
+This is the canonical “engineering view” archetype used by E.17.2/TEVB species.
 
 #### A.6.3:5.2 - MVPK publication view normalisation (DirectEpistemicViewing)
 

@@ -6,12 +6,12 @@ section_id: "A.6.P:0"
 section_title: "TERM and LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__002_term-and-lex-token-guards-local-first.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:0 — TERM and LEX token guards (local-first)"
-line_start: 13148
-line_end: 13168
+line_start: 13404
+line_end: 13424
 dependencies:
   - "A.10"
   - "A.2.4"

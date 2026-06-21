@@ -6,12 +6,12 @@ section_id: "G.0:4"
 section_title: "Solution — CG‑Spec as the design-time legality gate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__005_solution-cg-spec-as-the-design-time-legality-gate.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:4 — Solution — CG‑Spec as the design-time legality gate"
-line_start: 78581
-line_end: 78785
+line_start: 81341
+line_end: 81545
 dependencies:
   - "A.10"
   - "A.17"
@@ -43,8 +43,8 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
+  - "admissibility gate"
   - "edition pins"
-  - "legality gate"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"

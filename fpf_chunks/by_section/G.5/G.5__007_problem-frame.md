@@ -6,12 +6,12 @@ section_id: "G.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__007_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:1 — Problem frame"
-line_start: 80785
-line_end: 80797
+line_start: 83545
+line_end: 83557
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,12 +51,12 @@ keywords:
 
 A `CG‑FrameContext` (from **G.1**) and a `SoTA Synthesis Pack@CG‑Frame` (from **G.2**) expose multiple rival, internally coherent **method families** (and sometimes **generator families**) that can plausibly act on the same `EntityOfConcernRef` and ReferencePlane.
 
-At the same time, the typed slot/scale/coordinate definitions from **G.3/G.4** yield admissible calculi and acceptance clauses—enough to formulate *eligibility*, *assurance*, and *legality* constraints, but not enough to pick “the method” without collapsing plurality.
+At the same time, the typed slot, scale, and coordinate definitions from **G.3** and **G.4** yield admissible calculi and acceptance clauses - enough to formulate *eligibility*, *assurance*, and *admissibility* constraints, but not enough to pick "the method" without collapsing plurality.
 
 You need a **notation‑independent** way to:
 
-1. register method/generator families as *auditable, versioned* entries,
-2. select/compose/fallback among them at run time for a concrete task instance,
+1. register method families and generator families as *auditable, versioned* entries,
+2. select, compose, or fall back among them at run time for a concrete task instance,
 3. publish stable selected-set results and stable identities to UTS, and
 4. emit RSCR‑relevant triggers and pins without inventing new “shadow specs”.
 

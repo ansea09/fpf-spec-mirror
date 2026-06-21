@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem Frame"
-line_start: 61651
-line_end: 61672
+line_start: 64202
+line_end: 64223
 dependencies:
   - "E.10"
   - "E.10.ARCH"

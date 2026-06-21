@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:4 — Solution"
-line_start: 26965
-line_end: 27050
+line_start: 27606
+line_end: 27691
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -29,7 +29,7 @@ UINDM is the **canonical indicatorization mechanism** in the CHR suite. It defin
 * a stable **mechanism boundary** (“indicatorize” is a stage with its own operation and eligibility predicate),
 * a stable **SlotKind surface** (via the suite lexicon),
 * a strict **selection‑only law set** (no implicit UNM; no unit, scale, or polarity changes),
-* a **tri‑state admissibility guard** (fail‑closed on missing policy, legality, or evidence), and
+* a **tri‑state admissibility guard** (fail‑closed on missing policy, admissibility, or evidence), and
 * an **audit minimum** (edition pins + crossing policy ids when transport occurs).
 
 UINDM also preserves the CHR suite obligations by construction: it does not embed GateDecision/GateLog, it does not perform publish/telemetry steps, and it keeps Transport declarative (refs/pins only).
@@ -49,7 +49,7 @@ This is the canonical `U.Mechanism.Intension` for `UINDM.IntensionRef` and is in
 * **SubjectBlock:**
 
   * **SubjectKind:** `Indicatorization`.
-  * **BaseType:** `U.CharacteristicSpace`.
+  * **GovernedValueDomain:** `U.CharacteristicSpace`.
   * **SliceSet:** `U.ContextSliceSet`.
   * **ExtentRule:** indicatorization ranges over the declared characteristic-space basis `CNSpecSlot.cs_basis` (within `CNSpecSlot.chart`) for the active Context slice; it never enlarges the declared characteristic-space basis.
   * **ResultKind?:** `U.Set`.
@@ -72,7 +72,7 @@ This is the canonical `U.Mechanism.Intension` for `UINDM.IntensionRef` and is in
   3. **No implicit NCV⇒indicator:** measurability/NCV is not sufficient; indicators exist only via `IndicatorChoicePolicySlot` (cites `A.19.CN` `indicator_policy`).
   4. **Edition‑determinism (with slice locality):** for fixed editions of all **ByRef** inputs (`CharacteristicSpaceRef`, `CNSpecRef`, `IndicatorChoicePolicyRef`, and—when evidence‑gated—`CGSpecRef` plus optional `MinimalEvidenceRef`) and a fixed active Context slice, the `IndicatorSetSlot` result is stable.
   5. **No silent evidence coercion:** if evidence is insufficient/unknown under the chosen policy, the result MUST NOT be “silently emptied” nor silently treated as “pass”; use tri‑state guards.
-* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing legality/evidence):
+* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
 
   * `IndicatorizeEligibility(CharacteristicSpaceSlot, CNSpecSlot, IndicatorChoicePolicySlot, ContextSlot, CGSpecSlot?, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
   * `pass` requires: (i) `CNSpecSlot.indicator_policy` is present, (ii) `IndicatorChoicePolicySlot` is consistent with that policy reference (same `…PolicyRef` + edition pins), and (iii) `CharacteristicSpaceSlot` matches the declared characteristic-space basis implied by `CNSpecSlot` (within the active chart and Context slice).

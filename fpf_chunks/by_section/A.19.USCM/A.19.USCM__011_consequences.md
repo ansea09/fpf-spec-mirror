@@ -6,12 +6,12 @@ section_id: "A.19.USCM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__011_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:9 — Consequences"
-line_start: 27448
-line_end: 27461
+line_start: 28089
+line_end: 28102
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -27,13 +27,13 @@ keywords:
 
 **Benefits**
 
-* Makes scoring a first‑class, legality‑gated CHR step, reducing illicit arithmetic and silent assumptions.
+* Makes scoring a first‑class, admissibility‑gated CHR step, reducing illicit arithmetic and silent assumptions.
 * Improves auditability and reproducibility via explicit edition pins and explicit evidence policy selection (override vs default).
 * Preserves evolvability: scoring method families can change via SoTA wiring without changing the USCM intension.
 * Supports correctness under uncertainty via tri‑state guards and explicit unknown handling.
 
 **Costs / trade‑offs**
 
-* Requires explicit CG‑Spec legality surfaces (SCP) and explicit evidence policies to achieve `pass`; this can feel slower than “just compute a score.”
+* Requires explicit CG‑Spec admissibility surfaces (SCP) and explicit evidence policies to achieve `pass`; this can feel slower than "just compute a score."
 * Vector scores can be less immediately comfortable than a single number; downstream comparison/selection must be explicit about how vector scores are used.
 

@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46669
-line_end: 46735
+line_start: 48261
+line_end: 48327
 dependencies:
   - "A.10"
   - "A.15"
@@ -96,10 +96,10 @@ QL can also generate better design options:
 
 | Problem | QL-inspired design option |
 | --- | --- |
-| Dashboard changes behavior destructively. | Delay publication, split private/public metrics, add independent sampling, or publish confidence/loss boundaries. |
+| Dashboard changes behavior destructively. | Delay publication, split private and public metrics, add independent sampling, or publish confidence and loss boundaries. |
 | Workshop creates alignment but masquerades as discovery. | Record pre-workshop hypotheses, post-workshop commitments, and created boundary meaning separately. |
 | API read disturbs state. | Add non-mutating read, shadow read, sampling window, idempotence declaration, or separate observation channel. |
-| Metrics in two contexts are not comparable. | Build a bridge/coupling record or stop comparison. |
+| Metrics in two contexts are not comparable. | Build a bridge or coupling record or stop comparison. |
 | Summary is overused as source. | Add admissible-use label and return-to-source trigger. |
 | Viability scalar hides damage. | Build envelope variables and actuators; add a failure-mode sensor. |
 

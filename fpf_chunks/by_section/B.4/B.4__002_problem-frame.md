@@ -6,12 +6,12 @@ section_id: "B.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:1 — Problem Frame"
-line_start: 33368
-line_end: 33371
+line_start: 34622
+line_end: 34625
 dependencies:
   - "A.12"
   - "A.4"
@@ -26,5 +26,5 @@ keywords:
 
 ### B.4:1 - **Problem Frame**
 
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**. This is not merely a philosophical stance, but a pragmatic recognition that any useful holon—whether a physical system, a scientific theory, or a method—is in a perpetual state of becoming. A static model is a dead model. The framework, therefore, requires a universal, repeatable method that governs how holons adapt and improve over time. This process must bridge the abstract world of `design-time` blueprints with the concrete, messy reality of `run-time` operations, as mandated by the **Temporal Duality principle (Pattern A.4)**.
+The FPF is built on the **Principle of Open-Ended Evolution (P-10)**. This is not merely a philosophical stance, but a pragmatic recognition that a useful holon, whether a physical `U.System` or a knowledge-bearing `U.Episteme`, can change under continuing contact with evidence, use, and context. A static model is a dead model when the project keeps relying on it after the situation changes. The framework therefore requires a shared evolution loop for holons. Methods, work plans, and work occurrences participate through method descriptions, work use, and evidence relations; they are not treated as holons by default.
 

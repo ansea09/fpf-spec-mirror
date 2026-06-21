@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.31.ASAP"
 pattern_title: "Architecture Scale-Amenability Preference"
 section_id: "C.31.ASAP:5"
-section_title: "Archetypal grounding"
+section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
-  - "C.31.ASAP:5 — Archetypal grounding"
-line_start: 56121
-line_end: 56160
+  - "C.31.ASAP:5 — Archetypal Grounding"
+line_start: 57981
+line_end: 58020
 dependencies:
   - "A.10"
   - "A.17"
@@ -47,7 +47,7 @@ keywords:
   - "waiver reason"
 ---
 
-### C.31.ASAP:5 - Archetypal grounding
+### C.31.ASAP:5 - Archetypal Grounding
 
 | Archetype | Without C.31.ASAP | With C.31.ASAP |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ Lowering replay:
 - The platform label is a source cue, not scale-preference evidence; recover variability slots, extension rules, exception curve, and source-return condition first.
 - The 82 percent reusable-structure share stays report-only under C.31.RSA until the scale variable, scale window, accounting basis, comparator admission, and admissible comparison relation are declared.
 - The RG-like phrase stays with C.29 unless the mathematical-lens fields, preserved structure, lost structure, payoff, admissible use, and stop condition are recoverable.
-- The "bespoke debt" label is lowered to waiver review when safety, legal, mission, assurance, or scale-probe overturn reasons may justify the local variant.
+- The "bespoke debt" label is lowered to waiver review when safety, law-domain, mission, assurance, or scale-probe overturn reasons may justify the local variant.
 
 Stop C.31.ASAP use when the scale window, probe evidence or no-probe reason, comparator admission, or source-return condition is absent. Reopen it only after those fields are recoverable and the platform-label, share, lens, and waiver claims have their governing patterns.
 

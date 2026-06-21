@@ -1,134 +1,260 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.2.4"
-pattern_title: "Meta-Functional Transition (MFT)"
+pattern_title: "Capability and Functioning Whole Reidentification"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.2.4 — Meta-Functional Transition (MFT)"
-line_start: 32012
-line_end: 32121
+  - "B.2.4 — Capability and Functioning Whole Reidentification"
+line_start: 33043
+line_end: 33266
 dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.2.2"
+  - "A.22"
   - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.F"
+  - "A.6.M"
   - "B.2"
-  - "B.2.1"
+  - "B.2.P"
+  - "C.16"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.30.TFS-REL"
+  - "E.18"
 keywords:
-  - "adaptive workflow"
-  - "capability emergence"
-  - "functional emergence"
-  - "new process"
 ---
 
-## B.2.4 - Meta-Functional Transition (MFT)
+## B.2.4 - Capability and Functioning Whole Reidentification
 
-### B.2.4:1 - **Problem Frame**
+> **Type:** Part B holonic construction pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 
-The FPF framework provides distinct patterns for the emergence of new systems (`MST` for `U.System`s) and the synthesis of new knowledge (`MET` for `U.Episteme`s). However, a third, equally critical form of emergence occurs in the operational domain: the evolution of **capability**. Holons, particularly `Transformer`s executing `AgentialRole`s, do not just exist or represent knowledge; they *act*. These actions are guided by `Method`s, which represent their capabilities.
+### B.2.4:0 - Use This When
 
-Initially, an organization or an autonomous system might possess a portfolio of simple, disconnected methods—individual skills or atomic operational procedures. For example, a software team has separate methods for writing code, running tests, and deploying release carriers. A manufacturing system has distinct methods for milling, drilling, and painting. These are executed as discrete tasks, often with manual hand-offs and coordination.
+Use this pattern when capability-envelope evidence, functioning-relation evidence, or transformation-flow-structure evidence creates or reveals a B.2 whole-reidentification question.
 
-However, through learning, automation, and process refinement, a collection of these simple functions can crystallize into a single, cohesive, and often adaptive composite `U.Method`. This emergent capability is more than just a sequence of the original steps; it possesses its own internal logic, objectives, and regulatory mechanisms. FPF formally calls this event a **Meta-Functional Transition (MFT)**. It is the birth of a new, integrated operational capability.
+The first useful question is:
 
-### B.2.4:2 - **Problem**
+```text
+Does this capability or functioning evidence show that the existing whole
+is no longer the right EntityOfConcern, or is this only a direct capability,
+functioning, transformation, method, work, module, characteristic, or
+architecture claim?
+```
 
-If we lack a formal concept to describe the emergence of integrated capabilities, our models of complex operations remain fundamentally incomplete. We can describe the parts and the raw materials, but not the "well-oiled machine" itself. This conceptual gap leads to several severe, practical problems:
+Use `B.2.4` only for the first case. Use direct owners for the second.
 
-1.  **Capability Blindness:** The model cannot distinguish between a "bucket of skills" and a true "integrated capability." A team that can perform tasks A, B, and C independently is modeled identically to a high-performance team that has mastered a new, synergistic workflow combining A, B, and C. The emergent value created by integration remains invisible and unmanageable.
-2.  **Siloed Optimization and Global Sub-optimization:** Without a formal representation of the composite `U.Method`, improvement efforts inevitably focus on the individual steps. A team might spend weeks making `Method_A` 10% faster, while the real bottleneck lies in the manual, error-prone hand-off between `Method_A` and `Method_B`. The team is locally efficient but globally ineffective.
-3.  **Implicit Coordination and "Tribal Knowledge":** The critical coordination logic that weaves simple methods into a complex, adaptive workflow remains unstated. It lives in the heads of a few key individuals or is buried in un-documented scripts. This "tribal knowledge" is impossible to audit, transfer to new team members, or reliably improve. When a key person leaves, the emergent capability dissolves.
-4.  **Inability to Govern Complex Workflows:** Without a formal holon representing the entire workflow, it is impossible to assign a clear responsible role, define end-to-end performance objectives, or create an assurance case for the workflow's reliability as a whole.
+**What goes wrong if missed.** A genuine new whole is hidden under ordinary capability improvement; or every impressive capability, function, method chain, module allocation, or metric gain is overclaimed as emergence.
 
-### B.2.4:3 - **Forces**
+**What this buys.** The pattern keeps capability and functioning evidence available for B.2 while preventing B.2.4 from becoming a generic capability, function, method, work, module, or emergence pattern.
+
+**Not this pattern when.**
+
+- If the claim is ordinary capability, use `A.2.2` and `C.16`.
+- If the claim is function-like wording or functioning relation without whole reidentification, use `A.6.F`.
+- If the claim is transformation or transformation-flow structure, use `A.3.4`, `E.18`, and `C.30.TFS-REL`.
+- If the claim is method, method relation, method description, work plan, or work occurrence, use `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1`.
+- If the claim is module allocation or bearer allocation, use `A.6.M` and architecture owners.
+- If the claim is measurement, threshold, score, robustness, quality, or whole-level characteristic, use `C.16`, `A.19`, and evidence owners.
+- If the wording is ambiguous emergence, synergy, or title-mnemonic language, use `B.2.P` before selecting B.2.4.
+
+### B.2.4:1 - Problem Frame
+
+A new capability is not automatically a new whole. A function-like relation is not automatically a part-whole relation. A transformation-flow structure is not automatically MHT.
+
+B.2.4 is the narrow B.2 specialization for cases where capability, functioning, or transformation-flow evidence makes the existing whole explanation fail and points to a reidentified holon. It is not a pattern for all capabilities or all functions.
+
+### B.2.4:2 - Problem
+
+Without this specialization:
+
+1. **Capability becomes generic emergence.** A threshold crossing or new envelope is treated as a new whole without B.2 checks.
+2. **Function becomes ontology.** Function-like wording creates `U.Function` or a hidden peer kind.
+3. **Method and work collapse.** The way of doing, description of doing, planned work, and performed work are compressed into one vague operational claim.
+4. **Module allocation becomes functional truth.** A module label is treated as evidence for the required behavior or selected structure.
+5. **Transformation-flow description replaces in-life structure.** A graph, diagram, or publication of a flow is treated as the flow structure or whole.
+6. **Whole reidentification is missed.** A real result whole is left as "just a better capability".
+
+### B.2.4:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Component Skills vs. Integrated Capability** | How to represent the qualitative leap from a set of individual, executable functions to a single, coherent, and often adaptive composite `U.Method` that possesses properties not found in any of its parts. |
-| **Prescription vs. Performance** | The `MethodDescription` (the "recipe") describes how a method *should* be performed, but the MFT is about the emergence of the *actual, reliable capability* to perform it at run-time, often in ways that are more adaptive than the static recipe. |
-| **Decomposition vs. Synergy** | How to model a composite `U.Method` that is demonstrably more than the sum of its parts, possessing new regulatory and synergistic properties, without violating the conservative Weakest-Link principle where it still applies. |
-| **Explicit Design vs. Emergent Order** | Is the new meta-method a result of a deliberate, top-down design effort, or did it emerge bottom-up from the interactions of agents adapting to their environment? The framework must be able to model both pathways. |
+| --- | --- |
+| Capability evidence vs whole identity | Capability evidence can reveal a new whole, but most capability claims stay with A.2.2 and C.16. |
+| Functioning relation vs part-whole relation | Functioning often crosses parts and bearers; it is not parthood by wording. |
+| Transformation-flow structure vs mathematical description | Flow structure may enter architecture claims; graphs and diagrams remain lenses or publications unless selected as objects. |
+| Method composition vs performed work | A method relation can describe possible doing, while work occurrence evidence concerns dated performance. |
+| New whole vs local improvement | The pattern must preserve real novelty without turning every improvement into MHT. |
 
-### B.2.4:4 - **Solution**
+### B.2.4:4 - Solution
 
-An MFT is a formal promotion of a set of `U.Method`s into a new, composite **`U.Method`**. This new `U.Method` is often referred to descriptively as a **"meta-method"** because of its supervisory role, but it remains a `U.Method` in type, preserving ontological parsimony. The transition is a change in the **operational reality** of a `Transformer` or a collective of `Transformers`. It is declared when the performance of the methods satisfies the B-O-S-C triggers, adapted for function and capability.
+Use B.2.4 as a decision bridge from capability and functioning evidence to B.2 whole reidentification.
 
-#### B.2.4:4.1 - The B-O-S-C Triggers for Methods/Functions
+#### B.2.4:4.1 - Capability-Functioning Whole-Reidentification Slice
 
-The four triggers from the parent MHT pattern are interpreted in the operational context of methods and functions:
+Use this slice only when B.2 remains current after direct-owner explanations are checked.
 
-| Trigger | Functional Interpretation | Manager's View: The "Go/No-Go" Question for Declaring a New Capability |
-| :--- | :--- | :--- |
-| **B - Boundary Closure**| The set of methods now exposes a single, unified **functional interface**. An external agent can invoke the entire workflow via a single, well-defined call (e.g., "initiate deployment"), without needing to know about or coordinate the individual internal steps. | "Can I now ask the team to 'run the deployment process' as a single, black-box service, or do I still have to personally manage the hand-offs between coding, testing, and release?" |
-| **O - Objective Emergence**| A new, **operational objective** for the entire workflow emerges, which is not merely the sum of the objectives of the individual steps. This is often a holistic, end-to-end performance goal (e.g., "achieve a 99.9% success rate for the entire process"). | "Is the team now optimizing for the success of the *entire workflow*, even if it means one individual step has to run 'sub-optimally' (e.g., slower) for the good of the whole?" |
-| **S - Supervisor Emergence**| A new **coordination and control logic** (the "supervisor") appears. This mechanism orchestrates the execution of the individual methods based on the state of the overall workflow. This "meta"-property is modeled via `controls` or `supervises` relations. | "Is there a concrete mechanism—whether it's a CI/CD orchestrator, a formal team protocol, or a project manager's explicit control board—that is now actively managing the flow and making decisions between the steps?" |
-| **C - Complexity Threshold** | The cognitive or coordination overhead of manually managing the individual methods becomes a significant bottleneck. The cost of *not* integrating outweighs the cost of creating and maintaining the new, integrated workflow. | "Have we reached the point where the time we spend in meetings coordinating the hand-offs is taking more time and energy than the actual work itself?" |
+```text
+CapabilityFunctioningWholeReidentificationSlice@Context:
+  existingWholeRef: U.Holon
+  boundedContextRef:
+  capabilityEnvelopeRef?
+  functioningRelationRef?
+  transformationFlowStructureRef?
+  functionalStructureViewRef?
+  candidateBearerRefs?
+  methodRelationRefs?
+  methodDescriptionRefs?
+  workPlanRefs?
+  workOccurrenceRefs?
+  moduleAllocationRefs?
+  characteristicOrThresholdRefs?
+  evidenceOrMeasurementRefs:
+  existingWholeExplanationCheckRef: ExistingWholeExplanationCheck@Context
+  candidateB2RecordRef:
+  blockedDirectOwnerOverreads:
+```
 
-When a `Transformer`'s performance demonstrates sustained evidence for all four triggers, an MFT has occurred. The `Transformer` now possesses a new, emergent composite `U.Method`.
+This slice is not a U-kind and not a capability object. It carries the evidence needed to decide whether B.2 whole reidentification is current.
 
-> **Didactic Note on "Meta-" vs. "Supra-":**
-> We use the prefix "Meta-" descriptively (as in a "meta-method") to signify the emergence of a new **layer of control and reflection**. A `U.Method` resulting from an MFT is not just a larger method; it is a method that *manages and orchestrates* other methods. This supervisory property is modeled through relations, not by creating a new `U.MetaMethod` type. This preserves ontological parsimony (Pillar C-5) by recognizing that the position in a control hierarchy is a relational property, not a change in fundamental type.
+#### B.2.4:4.2 - Direct-Owner Test
 
-> **Didactic Note on Terminology: "Process," "Workflow," "Function" vs. FPF's `Method` and `Work`**
->
-> The terms "process," "workflow," "function," and "work process" are notoriously overloaded. FPF resolves this ambiguity by mapping these common terms to its precise, distinct concepts, in alignment with Pattern A.15.
->
-> | Your Domain's Term | How FPF Models It | The Core Distinction |
-> | :--- | :--- | :--- |
-> | **Workflow, Work Process, Function (as a sequence of steps)** | As a **`U.Method`** | This is the `run-time` **capability** or "role-mask" for work, enacted by a `Transformer`. It describes *how* an action is performed. |
-> | **The description of a workflow, a Standard Operating Procedure (SOP), an algorithm** | As a **`U.MethodDescription`** | This is the `design-time` **episteme** that documents the `Method`. It is the recipe, not the cooking. |
-> | **The actual execution of the workflow, an operation, a job** | As a **`U.Work`** | This is the `run-time` **occurrence**—the event of the `Method` being performed, which consumes resources. |
->
-> The **Meta-Functional Transition (MFT)** described in this pattern is about the emergence of a new, composite **`U.Method`**. It is a transition in the *capability to act*, not just in the documentation or in a single execution.
+Before using B.2.4 for whole reidentification, test whether a direct owner explains the evidence:
 
-### B.2.4:5 - **Archetypal Grounding**
+| Evidence under concern | Direct owner if sufficient | B.2.4 becomes current only when |
+| --- | --- | --- |
+| Capability envelope | `A.2.2`, `C.16`, `A.10` | the envelope belongs to a result whole that cannot be explained by the existing whole |
+| Function or functioning relation | `A.6.F`, `A.3.4`, `C.16` | the relation creates or reveals a new whole-level EntityOfConcern |
+| Transformation-flow structure | `C.30.TFS-REL`, `E.18`, `A.3.4`, `C.29` when mathematical lens is current | the flow structure changes the identity of the whole under B.2 |
+| Method relation or method family | `A.15`, `A.3.1`, `G.5`, `C.29` when lens is current | method evidence changes the whole, not merely the way of doing |
+| Method description or procedure text | `A.3.2` and `C.2.1`; use publication-use or source-use owners when publication or source reliance is current | description is not enough; in-life whole reidentification must be recovered |
+| Work plan or work occurrence | `A.15.2`, `A.15.1` | performed or planned work is evidence for a result whole, not the whole by label |
+| Module, component, or bearer allocation | `A.6.M`, `C.30`, `A.22`, `C.30.ASV` | allocation evidence changes the whole under concern |
+| Metric, score, threshold, robustness, quality | `C.16`, `A.19`, `A.10` | the characteristic shift defeats existing-whole explanation |
 
-The emergence of a new, composite `U.Method` is a universal pattern of learning and organization. It can be observed in technical, biological, and social domains.
+#### B.2.4:4.3 - Existing-Whole Explanation
 
-| Domain | Constituent `U.Method`s | Emergent Composite `U.Method` ("Meta-Method") | Key Trigger Evidence (B-O-S-C) |
-| :--- | :--- | :--- | :--- |
-| **Software Engineering** | A set of discrete developer methods: `WriteCode`, `RunUnitTests`, `CommitToCG‑SpecS`, `ManualDeploy`. | An **automated Continuous Integration/Continuous Delivery (CI/CD) Pipeline**. | **B:** A single interface ("trigger pipeline") now executes the entire sequence. **O:** A new objective emerges: "maintain the main branch in a perpetually deployable state." **S:** The CI/CD orchestrator (e.g., GitHub Actions, Jenkins) acts as the supervisor, automatically sequencing steps and handling failures. **C:** The overhead of manual coordination became a bottleneck to frequent releases. |
-| **Cognitive Science (Learning)** | A novice driver's individual methods: `CheckMirrors`, `PressClutch`, `ChangeGear`, `Steer`. | The expert driver's fluid, integrated **`Method` of "Driving"**. | **B:** The actions become a single, seamless behavior. **O:** A new, holistic objective appears: "navigate traffic smoothly and safely," replacing the focus on individual mechanical steps. **S:** The driver's cerebellum and basal ganglia form a "supervisor," coordinating the motor actions subconsciously. **C:** Conscious management of each step is too slow for real-world traffic. |
-| **Organizational Design**| Separate, siloed methods in a company: `MarketingCampaign`, `SalesPitch`, `CustomerOnboarding`. | An **Integrated "Go-to-Market" `Method`**. | **B:** A single cross-functional team is responsible for the entire customer journey from lead to active user. **O:** A new objective is set: "maximize customer lifetime value (LTV)." **S:** A shared set of KPIs and a weekly cross-functional sync meeting act as the supervisory loop. **C:** The "leaky bucket" problem, where customers were lost in the hand-offs between departments, became too costly. |
+Use `ExistingWholeExplanationCheck@Context` before claiming whole reidentification.
 
-### B.2.4:6 - **Conformance Checklist**
+Direct-owner explanations that often stop B.2.4:
 
-*   **CC-B2.4.1 (MFT Declaration Mandate):** The emergence of a composite `U.Method` with supervisory properties **MUST** be declared as an MFT and justified with a **Promotion Record** (Pattern B.2) that provides evidence for the B-O-S-C triggers.
-*   **CC-B2.4.2 (Method-Holon Mandate):** Both the constituent functions and the resulting composite function **MUST** be modeled as `U.Method`s, documented by `U.MethodDescription`s, and enacted as `U.Work`. They are not `U.System`s.
-*   **CC-B2.4.3 (Supervisor Relation Mandate):** The "meta" nature of the emergent `U.Method` **MUST** be modeled through explicit relations, such as `controls` or `supervises`, linking the `Transformer` enacting the composite `Method` to the execution of the constituent `Method`s. A new `U.MetaMethod` type **SHALL NOT** be created.
-*   **CC-B2.4.4 (Interface Standard):** The emergent `U.Method` **MUST** have a formally documented interface Standard (`Method Interface Standard` or MIC, see Pattern B.1.5), which specifies how the external world interacts with it and how the internal methods are encapsulated.
+- better measurement or benchmark normalization;
+- improved component capability;
+- corrected function-like wording;
+- a clearer method relation or method family selection;
+- a new method description without performed capability evidence;
+- better work coordination inside the same whole;
+- module allocation repair;
+- architecture-view or transformation-flow-structure repair;
+- evidence or source-currentness improvement.
 
-### B.2.4:7 - **Common Anti-Patterns and How to Avoid Them**
+If one of these explanations is sufficient, do not use B.2.4. Use the direct owner.
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Process on Paper" Fallacy** | A team creates a beautiful, complex workflow diagram (`MethodDescription`) but continues to operate in the old, siloed way. The new capability exists only in documentation. | An MFT is a transition in **operational reality** (`U.Method` enactment), not just in `design-time` artifacts (`MethodDescription`). **CC-B2.4.1** requires evidence for the B-O-S-C triggers, which are based on observed behavior, not just documented intent. |
-| **The "Micromanaging Supervisor"** | A new "meta-process" is introduced, but it's just a manager manually coordinating the old, separate steps. There is no new, emergent logic or automation. | **CC-B2.4.3** requires the supervisory function to be modeled as an explicit mechanism with `controls` relations. If the "supervisor" is just a person doing the same old coordination, no new, persistent `U.Method` has emerged. |
-| **The "Capability by Fiat"** | A leader declares that a new, integrated capability now exists, but the underlying methods, tools, and objectives of the team have not actually changed. The "synergy" is aspirational. | An MFT is an observable, bottom-up phenomenon. The B-O-S-C triggers provide a falsifiable checklist. If there is no new boundary, no new objective, and no new supervisory loop, no MFT has occurred, regardless of declarations. |
+#### B.2.4:4.4 - When B.2.4 Returns To B.2
 
-### B.2.4:8 - **Consequences**
+Return to B.2 when the evidence shows that the current object must be reidentified as a result holon. Examples:
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Makes Capability Tangible:** The MFT provides a formal way to represent and manage integrated capabilities as first-class holons (`U.Method`s), making them visible, auditable, and optimizable. | **Modeling Effort:** Identifying and documenting an MFT requires analytical effort. *Mitigation:* This effort is an investment in creating a more robust and scalable operational model, preventing the much higher long-term cost of managing "tribal knowledge." |
-| **Enables True Process Improvement:** It shifts the focus of optimization from local, component-level efficiencies to the performance of the end-to-end value stream. | - |
-| **Fosters Organizational Learning:** The pattern provides a language for describing how teams and systems learn to work together more effectively, transforming implicit learning into an explicit, reusable asset. | - |
-| **Improves Assurance and Governance:** By formalizing the emergent "meta-method," it becomes possible to create an assurance case for the entire workflow and assign clear responsibility and accountability for its performance. | - |
+- a production cell now has a capability envelope, coordination relation, transformation-flow structure, and assurance claim that cannot be explained by individual machines;
+- a service platform now has a functioning relation and external commitments that cannot be assigned to one service or module;
+- a team, toolchain, and method family now operate as one result system with new capability and work evidence;
+- an episteme or standard now has a capability for explanation, prediction, or specification use that requires result-episteme reidentification.
 
-### B.2.4:9 - **Rationale**
+After the return, B.2 owns the MHT record and result-kind admission. B.2.4 carries only the capability and functioning evidence slice.
 
-This pattern extends the FPF's theory of emergence into the crucial domain of action and capability. It recognizes that the most significant leaps in performance often come not from improving individual components, but from inventing new and better ways to coordinate them. The MFT is FPF's formal name for this act of organizational or operational creativity.
+### B.2.4:5 - Archetypal Grounding (Worked Cases)
 
-By defining the transition in terms of the observable B-O-S-C triggers and tying it to the rigorous `Method`/`Work`/`MethodDescription` distinction from Pattern A.15, the MFT provides a bridge between the abstract principles of cybernetics and the concrete realities of managing a project, a team, or an autonomous system. It ensures that when we talk about a "new way of working," we are referring to a precise, verifiable, and architecturally significant event.
+#### B.2.4:5.1 - Production Cell Capability
 
-### B.2.4:10 - **Relations**
+A milling machine, robot arm, fixture, inspection station, and scheduling rule can remain a collection of assets. A new production-cell whole becomes current only when capability and functioning evidence shows one bounded result whole: cell-level cycle time, tolerance, transformation-flow structure, coordination, and assurance cannot be explained by any single component or old aggregate.
 
-*   **Is a specialization of:** `B.2 Meta-Holon Transition (MHT)`.
-*   **Is complemented by:** `B.2.2 MST (Sys)` and `B.2.3 MET (KD)`.
-*   **Is the emergent result of:** The execution of a `MethodDescription` created during a `B.2.3 MET (KD)`.
-*   **Creates the context for:** The application of `B.2.5 Supervisor–Subsystem Feedback Loop`, which describes the internal architecture of the new composite `U.Method`.
-*   **Relies on:** The conceptual distinctions defined in `A.15 Role–Method–Work Alignment`.
+Use A.6.F for function-like wording, A.3.4 for transformations, C.30.TFS-REL for transformation-flow structure, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 only when the cell whole must be reidentified.
+
+#### B.2.4:5.2 - CI/CD Capability
+
+A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use method and work owners for the method relations and performed release work.
+
+B.2.4 becomes current only if the capability evidence points to a result holon: a platform, team-system, or work occurrence whole with new delimitation, coordination, external commitments, evidence, and assurance. An automated delivery sequence label does not decide the ontology.
+
+#### B.2.4:5.3 - Theory Explains New Phenomena
+
+A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can carry the explanatory-capability evidence, but B.2.3 owns the episteme-result MHT if the result is `U.Episteme`; C.2.1 owns the episteme slot relation; C.29 owns mathematical-lens use when the lens is relied on for the current claim.
+
+### B.2.4:5.1 - Bias-Annotation
+
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Capability as emergence | A new capability label declares a new whole. | Test direct capability, characteristic, evidence, and existing-whole explanations first. |
+| Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
+| Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with direct owners. |
+| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use mathematical, description, publication, and selected-structure owners before B.2. |
+| Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Use C.16, A.19, A.10, and B.2 existing-whole explanation before MHT. |
+
+### B.2.4:6 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-B2.4-1` | B.2.4 is used only when capability, functioning, or transformation-flow evidence creates or reveals a B.2 whole-reidentification question. |
+| `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to direct owners. |
+| `CC-B2.4-3` | No generic `U.Emergence`, `U.Function`, `U.MetaMethod`, or capability-root kind is created. |
+| `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
+| `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
+| `CC-B2.4-6` | If B.2 remains current, B.2 owns the MHT record and result-kind admission. |
+
+### B.2.4:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Capability by declaration | A leader names a new capability, but evidence remains component-level. | Use A.2.2, C.16, and A.10; use B.2.4 only if the existing whole explanation fails. |
+| Function as part | A function block is treated as a physical or organizational part. | Use A.6.F, C.30.TFS-REL, A.6.M, and architecture allocation owners. |
+| Method chain as whole | A sequence of methods is called a new holon. | Recover method relation and work occurrence; return to B.2 only when a result holon is current. |
+| Diagram as flow structure | A diagram or graph is treated as the transformation-flow structure itself. | Use C.29, E.17, C.30.AD, or publication owners unless the selected structure is recovered. |
+| Metric jump as whole | A KPI improves and MHT is declared. | Use C.16, A.10, and existing-whole explanation first. |
+
+### B.2.4:8 - Consequences
+
+Positive consequences:
+
+- Capability and functioning evidence can bear on real whole reidentification without becoming a generic emergence owner.
+- Direct owners remain visible, so local improvements are not overclaimed.
+- Method, work, function, module, and architecture distinctions survive high-pressure capability language; each claim remains with its governing pattern.
+
+Costs:
+
+- Teams must do the direct-owner test before using B.2.4.
+- Many impressive capability claims will stay outside MHT.
+- B.2.4 depends on B.2 for the final whole-reidentification record.
+
+### B.2.4:9 - Rationale
+
+Capabilities and functioning relations are often where new wholes first become visible. But the evidence is mixed: it may belong to capability measurement, function-like wording, architecture structure, transformation flow, method relation, work occurrence, module allocation, or whole reidentification.
+
+B.2.4 exists to keep that mixed evidence disciplined. It does not rename all of it as "meta-function". It asks whether the evidence defeats the existing whole explanation and, only then, returns to B.2.
+
+### B.2.4:10 - SoTA-Echoing
+
+| Source line | Practical implication for this pattern |
+| --- | --- |
+| Capability and functioning approaches | A capability envelope is evidence about what a holon can do under conditions; it is not automatically a new whole. |
+| Functional architecture and transformation-flow practice | Functioning and flow structures can expose a result whole, but descriptions and diagrams remain distinct from selected in-life structures. |
+| Method and work ontology in FPF | Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted. |
+| TAME and agency-as-characteristic-space work | Agency-like evidence is multi-characteristic and thresholded by concern; B.2.4 does not create a binary agency kind. |
+
+### B.2.4:11 - Relations
+
+- **Specializes:** `B.2` for cases where capability, functioning, or transformation-flow evidence creates or reveals whole reidentification.
+- **Uses:** `B.2.P` when emergence-family or title-mnemonic wording hides the claim kind.
+- **Coordinates with:** `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `E.18`, `C.30.TFS-REL`, `A.15`, `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `A.6.M`, `C.30`, `A.22`, `C.30.ASV`, `C.29`, `A.10`, and source-use patterns.
+- **Contrasts with:** `B.2.2` for system-result MHT and `B.2.3` for episteme-result MHT.
 
 ### B.2.4:End
 

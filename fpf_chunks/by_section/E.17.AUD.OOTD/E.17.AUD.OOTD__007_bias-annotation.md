@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:6 — Bias-Annotation"
-line_start: 66832
-line_end: 66837
+line_start: 69471
+line_end: 69476
 dependencies:
   - "A.10"
   - "A.15"

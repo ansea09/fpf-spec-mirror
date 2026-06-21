@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
-line_start: 29281
-line_end: 29657
+line_start: 29940
+line_end: 30316
 dependencies:
   - "A.1"
   - "A.10"
@@ -113,7 +113,7 @@ FPF needs a selected-structure EntityOfConcern that is useful before any one dom
 
 How can FPF let a practitioner name structure as an EntityOfConcern while preserving the distinction between:
 
-- selected structure and the source, evidence path, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
+- selected structure and the source relation, evidence relation, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
 - structure and a Description episteme or view of that structure;
 - structure and a publication face, diagram, table, graph, or publication form;
 - structure and mathematical-lens application;
@@ -197,13 +197,13 @@ A.22 does not mint a local generic reliance record. When a structure claim relie
 | Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
 | Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
 | EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, bounded context, viewpoint, reference plane, observation or witness condition if observation or witness use is being claimed | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
-| Evidence or witness reliance | evidence-use relation, evidence-provenance path when the evidence graph is current, claim ref, witness publication or observation record, timespan and freshness | `A.10`, `A.2.4`, `G.6` |
+| Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
 | Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
 | Simulation, generated representation, model, or extracted trace | source or representation publication, extraction method, validation boundary, preserved structure, lost structure, source-return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or governing pattern when a claim of that kind is being made |
 
 If no reliance relation kind can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a generic reliance record to make the claim look governed.
 
-`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, or generic reliance state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
+`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, or generic reliance state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence relation, SWBD, or lens output.
 
 #### A.22:4.3 - Structural descriptions and views
 
@@ -214,7 +214,7 @@ StructuralDescription@Context ::= {
   descriptionId,
   descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   structureRefs: FinSet(U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   describingEpistemeRef,
   admissibleUse,
   nonAdmissibleUse
@@ -272,7 +272,7 @@ StructuralAspectDescription@Context ::= {
   descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   aspectKindRef,
   structureRefs: FinSet(U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   admissibleUse,
   nonAdmissibleUse
 }
@@ -330,7 +330,7 @@ structure-claim reliance relation: selected reliance relation named by value(
   sourceDescriptionOrPatternApplicationRef = SourceViewRef, E.18 selected structure or crossing record, or E.18.2 mathematical graph description,
   governingPatternRef = E.18, A.6.6, A.10, or C.29 when that reliance claim is being made,
   relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
-  validationBoundary = path currentness boundary, slice currentness boundary, or crossing currentness boundary
+  validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
 )
 next FPF pattern application: C.30.TFS-REL when this selected structure is used in an architecture-to-transformation-flow relation
 non-admissible use: graph as whole architecture, work, evidence, gate, or decision
@@ -423,7 +423,7 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 | C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and source-return discipline. | Lens output is not structure, evidence, assurance, causal-use relation, or decision. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and source-return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus source-return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
 | Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `SourceReturnCondition` before relying on a coarsened structure for action. | RG, epiplexity, structural information, and equivalence reasoning are governed by C.29, C.16, or another governing pattern named for the claim being made. |
-| GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source relation, base-dependence relation, evidence path, lens output, preserved structure, lost structure, and FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+| GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source relation, base-dependence relation, evidence relation, lens output, preserved structure, lost structure, and FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 
 ### A.22:12 - Relations
 

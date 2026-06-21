@@ -6,12 +6,12 @@ section_id: "A.19.ECS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:4 — Solution"
-line_start: 23994
-line_end: 24089
+line_start: 24629
+line_end: 24724
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -54,7 +54,7 @@ Construct an evaluation `CharacteristicSpace` by declaring the evaluated object 
 | `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another payload named by value. | Not administrative burden, not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
 | `ProtectedTradeoffSet` | Qualities or neighbour claims that must be checked when visible coordinates improve. | Not a hidden veto without a declared evaluation pattern or value meaning. |
 | `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope when coordinate wording or evaluation wording is repaired, with a governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position. | Not a lexical substitution table and not permission to change object kind or slot, relation position, use relation, or claim kind by cleaner wording. |
-| `StatusValueSet` | Local admissible-use result values for the evaluation. | Not release state, gate status, or reviewer praise. |
+| `StatusValueSet` | Local admissible-use result values for the evaluation. | Not release state, gate status, or evaluator praise. |
 | `E23StartCondition` | Minimum condition for using this evaluation inside `E.23`. | Not the improvement loop itself. |
 
 These names are local to this pattern. They do not mint kernel `U.*` kinds, measurement templates, gate states, evidence kinds, or release states.
@@ -72,7 +72,7 @@ Use these moves when constructing or repairing an evaluation. They are not a man
 7. **State preferred movement and trade-offs.** For each declared coordinate, state the preferred direction or explain why no simple direction exists. Name the protected trade-offs that must be checked when the coordinate improves.
 8. **Define result form, evidence basis, and calibration.** State the required result row shape, evidence basis, adjacent-value rationale rule, calibration points for common disagreements, and any coordinate-specific payload needed for high or floor-reaching values.
 9. **Define floor, exceptional, status, and stop.** State the viable-for-use floor, exceptional-for-use meaning, status values, and local stop or reopen condition.
-10. **Record governing-neighbour relations.** Name the FPF pattern that governs evidence, assurance, gate, work, decision, publication, naming, quality-bundle, measurement, OEE/NQD, or mathematical-lens claims when those become live. This is a declarative relation after the coordinate/value/evidence content, not route, receiver, owner, host, home, handoff, exit prose, "go there/not here" reference boilerplate, or architecture-placement rationale.
+10. **Record governing-pattern relations.** Name the FPF pattern that governs evidence, assurance, gate, work, decision, publication, naming, quality-bundle, measurement, OEE/NQD, or mathematical-lens claims when the coordinate depends on them. This is a declarative relation after the coordinate, value, and evidence content; write it as "claim C is governed by pattern P", not as routing or package-placement prose.
 11. **Start `E.23` only after evaluation values exist.** A repeated improvement loop can start only when the evaluated object version, evidence basis, result form, and evaluation are recoverable enough for re-evaluation.
 
 #### A.19.ECS:4.3 - Evaluation specification minimum
@@ -119,7 +119,7 @@ Use `E.23` for the repeated improvement method over the scale set when the impro
 - `E.9.DA` when the decision record selecting the scale set is the `DRR` decision-adequacy object being evaluated;
 - `E.2.DA` when the scale set changes FPF-level Pillar adequacy;
 - `F.18` when the live problem is name choice for the scale-set heads;
-- `C.16`, `A.17`, `A.18`, or `A.19` when the live problem is measurement or characteristic-space legality.
+- `C.16`, `A.17`, `A.18`, or `A.19` when the live problem is measurement admissibility, scale lawfulness, or characteristic-space admissibility.
 
 Do not improve an evaluated object by silently changing its evaluation. If the evaluation changes, the loop record names the changed evaluation version and states whether earlier object-version values remain comparable, need a bridge, or must be retired for the new use.
 

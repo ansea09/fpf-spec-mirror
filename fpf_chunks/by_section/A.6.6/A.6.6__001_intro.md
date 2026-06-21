@@ -6,12 +6,12 @@ section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:intro — Intro"
-line_start: 15893
-line_end: 15934
+line_start: 16156
+line_end: 16204
 dependencies:
   - "A.10"
   - "A.14"
@@ -50,10 +50,17 @@ keywords:
 
 ## A.6.6 - Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)
 > **Status:** Stable
+> **Type:** Definitional relation-discipline pattern
 
 **Plain-name.** Scoped witnessed base declaration discipline.
 
-**E.24.UK settlement.** A.6.6 does not admit `U.BaseDeclarationDiscipline` as a durable U-kind. The pattern governs base-declaration discipline. It retains `U.ScopedWitnessedBaseDeclaration` only as a dependent durable declaration value under the A.6 signature/slot-relation settlement: a scoped declaration that relates dependent content to an explicit base through a declared base relation, scope/time, and witnesses. Local support wording, anchor wording, source pointers, publication records, and witness carriers do not become U-kinds by appearing in this discipline.
+**Use this pattern when** a dependent content is admissible, usable, interpretable, comparable, publishable, or actionable only relative to an explicit base through a declared base relation, scope and time condition, and witness set.
+
+**What goes wrong if missed.** Umbrella words such as anchor, support, ground, attach, or based-on hide the relation kind, endpoint kinds, scope, time, and witness discipline; authors then rename endpoints or flip directions instead of repairing the relation.
+
+**What this buys.** The project gets a scoped witnessed base declaration with typed dependent and base slots, explicit baseRelation, scope and time condition, witnesses or pins, and named change classes for rebasing, retiming, or withdrawing the declaration.
+
+**E.24.UK settlement.** A.6.6 does not admit `U.BaseDeclarationDiscipline` as a durable U-kind. The pattern governs base-declaration discipline. It retains `U.ScopedWitnessedBaseDeclaration` only as a dependent durable declaration value under the A.6 signature and slot-relation settlement: a scoped declaration that relates dependent content to an explicit base through a declared base relation, scope and time condition, and witnesses. Local support wording, anchor wording, source pointers, publication records, and witness carriers do not become U-kinds by appearing in this discipline.
 
 **Status.** Normative (Core).
 

@@ -6,12 +6,12 @@ section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 33920
-line_end: 33954
+line_start: 35186
+line_end: 35220
 dependencies:
   - "A.10"
   - "A.16"
@@ -59,7 +59,7 @@ The filtering step is local and context-sensitive, but the criteria used **SHALL
 - **Parsimony.** Does the candidate introduce only the additional structure that the prompt requires?
 - **Explanatory reach.** How much of the prompt does the candidate actually account for?
 - **Consistency with established constraints.** Does the candidate avoid collision with already trusted pillars, mechanisms, or scope declarations?
-- **Falsifiability / probeability.** Does the candidate create a path for deduction, testing, contrast, or evidence acquisition?
+- **Falsifiability / probeability.** Does the candidate create an admissible next check, deduction, contrast, or evidence-acquisition relation?
 - **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
 
 No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.

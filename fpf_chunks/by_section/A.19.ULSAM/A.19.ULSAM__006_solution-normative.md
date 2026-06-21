@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:4"
 section_title: "Solution (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__006_solution-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:4 — Solution (normative)"
-line_start: 27602
-line_end: 27686
+line_start: 28243
+line_end: 28327
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -34,7 +34,7 @@ keywords:
 ULSAM is the **canonical scale‑aggregation mechanism** in the CHR suite. It defines:
 * a stable **mechanism boundary** (`fold_Γ?` is a stage with its own operation and eligibility predicate),
 * a stable **SlotKind surface** (via the suite lexicon),
-* a **tri‑state admissibility guard** (fail‑closed on missing legality/evidence),
+* a **tri‑state admissibility guard** (fail‑closed on missing admissibility/evidence),
 * and an **audit minimum** (edition pins + effective Γ‑fold identity + crossing policy ids when transport occurs).
 
 Method semantics (“which aggregation family to use”) remain out of suite core: they belong in SoTA packs (`G.2`) and wiring‑only extension modules (`GPatternExtension` blocks), while ULSAM remains the stable mechanism boundary.
@@ -55,9 +55,9 @@ This is the canonical `U.Mechanism.Intension` for `ULSAM.IntensionRef` and is in
 
 * **SubjectBlock:**
   * **SubjectKind:** `ScaleAggregation` (Γ‑fold).
-  * **BaseType:** `U.Measure`.
+  * **GovernedValueDomain:** `U.Measure`.
   * **SliceSet:** `U.ContextSliceSet`.
-  * **ExtentRule:** aggregation ranges over **admitted** measure sets in the active context slice (admission routed by `CNSpecSlot.acceptance`); legality is delegated to `CG‑Spec.Γ_fold` and `CG‑Spec.SCP`.
+  * **ExtentRule:** aggregation ranges over **admitted** measure sets in the active context slice (admission routed by `CNSpecSlot.acceptance`); admissibility is delegated to `CG-Spec.Γ_fold` and `CG-Spec.SCP`.
   * **ResultKind?:** `U.Measure`.
 
 * **SlotIndex** (derived projection from `SlotSpecs` / guard SlotSpecs; uses `A.19.CHR:4.2.1` SlotKind tokens; no independent semantics):
@@ -76,20 +76,20 @@ This is the canonical `U.Mechanism.Intension` for `ULSAM.IntensionRef` and is in
 * **LawSet** (minimum; explicit, scale‑lawful folding only):
   1. **No hidden aggregation:** any Γ‑fold MUST be explicit as `Fold_Γ` (no folding hidden inside `Score/Compare/Select`).
   2. **Scale‑lawfulness:** aggregation MUST be CSLC‑lawful and admissible under `CGSpecSlot.SCP`; ordinal arithmetic (e.g., means on ordinal ranks) is forbidden unless explicitly allowed by the relevant CSLC fragment.
-  3. **Γ‑fold legality:** `GammaFoldSlot` MUST resolve to either `CGSpecSlot.Γ_fold` or an explicitly pinned override (CAL policy) — never an implicit “implementation default”.
+  3. **Γ‑fold admissibility:** `GammaFoldSlot` MUST resolve to either `CGSpecSlot.Γ_fold` or an explicitly pinned override (CAL policy) -- never an implicit "implementation default".
   4. **Evidence‑gated folding:** if evidence is insufficient/unknown, folding MUST follow tri‑state guard behavior and MUST NOT silently coerce.
   5. **Contributor accountability (when produced):** when `ContributorSetSlot?` is produced, it MUST be a subset of the admitted portion of `MeasureSetSlot`, and `AggregatedMeasureSlot` MUST be the result of applying the effective Γ‑fold to that contributor subset (no “hidden contributors”).
   6. **No implicit UNM:** ULSAM MUST NOT silently normalize/rescale to “force comparability.” If establishing a compare‑on‑invariants surface requires UNM for the measures being folded, UNM MUST appear as an explicit stage (Uses + pins) upstream; ULSAM itself remains folding‑only.
 
-* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing legality/evidence):
+* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
   * `FoldEligibility_Γ(MeasureSetSlot, CNSpecSlot, CGSpecSlot, GammaFoldSlot, ContextSlot, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
-  * `pass` requires: (i) `CGSpecSlot` provides the legality surface (`SCP` and `Γ_fold`), (ii) `GammaFoldSlot` is admissible under `CGSpecSlot.Γ_fold` routing (or explicit override), and (iii) the measure set is admitted (per `CNSpecSlot.acceptance`) and scale‑compatible for the intended fold.
+  * `pass` requires: (i) `CGSpecSlot` provides the admissibility surface (`SCP` and `Γ_fold`), (ii) `GammaFoldSlot` is admissible under `CGSpecSlot.Γ_fold` routing (or explicit override), and (iii) the measure set is admitted (per `CNSpecSlot.acceptance`) and scale‑compatible for the intended fold.
   * Define `EffectiveMinimalEvidence := (MinimalEvidenceSlot if present, else CGSpecSlot.MinimalEvidence)`; the guard MUST evaluate evidence against `EffectiveMinimalEvidence`.
   * If evidence is missing/unknown under `EffectiveMinimalEvidence`, the guard MUST NOT return `pass` (return `degrade` or `abstain` per the effective failure behavior; record the basis in Audit).
 
 * **Applicability:**
   * Intended to be used only when a fold is explicitly required (and never as a hidden sub‑step of scoring/comparison/selection).
-  * Applicable only when `CGSpecSlot` provides the legality surface (`Γ_fold` and `SCP`) (fail‑closed otherwise).
+  * Applicable only when `CGSpecSlot` provides the admissibility surface (`Γ_fold` and `SCP`) (fail‑closed otherwise).
   * If comparability routing for the measures being folded is UNM‑based, applicability presumes an explicit upstream UNM stage; ULSAM does not “make measures comparable” by itself.
 
 * **Transport:** Bridge+CL/ReferencePlane only; penalties route to **`R_eff` only**.

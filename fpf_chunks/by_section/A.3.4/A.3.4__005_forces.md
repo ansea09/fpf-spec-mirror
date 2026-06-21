@@ -6,12 +6,12 @@ section_id: "A.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:3 — Forces"
-line_start: 7045
-line_end: 7054
+line_start: 7206
+line_end: 7215
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 | --- | --- |
 | Generality and specificity | The pattern must cover physical, biological, software, organizational, documentary, architectural, formal, and epistemic changes without reducing them to software algorithms. |
 | Possible, planned, actual, modeled, and claimed transformation | A transformation may be physically possible, planned, enacted, observed, modeled, claimed, or published. Those use relations must stay distinct. |
-| Neighboring value pressure | Methods, mechanisms, dynamics, work, temporal aspects, evidence, and results all look like "the thing that changes things". Each must keep its own kind. |
+| Neighboring value competition | Methods, mechanisms, dynamics, work, temporal aspects, evidence, and results all look like "the thing that changes things". Each must keep its own kind. |
 | Time and order | Many transformations need a time window, cadence, duration, ordering relation, or refresh condition, but time wording alone does not define the transformation. |
 | Mathematical strength and practical use | Formal task, morphism, state-space, constructor-theory, or dynamics language can make transformations precise, while practical permission, evidence, work, and responsibility stay with their governing patterns. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 68036
-line_end: 68716
+line_start: 70695
+line_end: 71375
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -78,7 +78,7 @@ FPF already contains many checklists and constraints, but they are distributed a
 
 Without a unified, explicit review pattern:
 
-* Different reviewers optimize for formal/template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable Conformance Checklist.
+* Different reviewers optimize for formal or template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable Conformance Checklist.
 * Authors “optimize for the visible checklist” and miss hidden requirements (lexical discipline, Bridge hygiene, SoTA‑Echoing quality, scope claims, delta‑class impact).
 * Older patterns accumulate conceptual staleness and diverge from current practice, current terminology, or current internal invariants.
 * The specification's normative content becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.
@@ -122,7 +122,7 @@ If the aim is repeated improvement against an object-under-improvement evaluatio
 
 **Misuse guard.** A pattern-quality caution, return-for-repair result, or selected pattern-quality boundary result cannot be reused as project refusal or project approval unless a project-side governing relation states admissible and non-admissible use for that relation.
 
-Formal/template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic/ontological defects or non-SoTA Solutions, but they also **MUST** be recorded with the active repair boundary named.
+Formal or template defects (e.g. non-compliance with E.8 structure or not conforming to RFC deontic terminology) have lower review priority than semantic or ontological defects or non-SoTA Solutions, but they also **MUST** be recorded with the active repair boundary named.
 
 E.g. if the header block is missing or incomplete, **continue with ontology and semantic review first**. Treat missing header fields as one mechanical defect to record with concrete repair direction (PCP-BASE #7), not as a reason to stop.
 
@@ -147,9 +147,9 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 5. **Didactic grounding**
    Archetypal Grounding is present and teaches the concept with concrete cases or references, not only abstractions.
 6. **Reader-fit**
-   The pattern body stays addressed to the intended FPF user rather than to FPF developers, package architects, reviewers, evaluators, or release/projection carriers. FPF-governed sections explain admissible use, costs, boundaries, FPF governing patterns named by value, project-side FPF kinds and references named by value, and related relation named by values in user terms. Architecture-placement, freeze/merge state, package-boundary rationale, reference boilerplate, quality/projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` run record, README/ToC/E.11/I.2, cards, retrieval/projection carriers, release/landing evidence carriers, companions, or ordinary reference apparatus unless they change the working reader's first admissible move.
+   The pattern body stays addressed to the intended FPF user rather than to FPF developers, package architects, reviewers, evaluators, or release/projection carriers. FPF-governed sections explain admissible use, costs, boundaries, FPF governing patterns named by value, project-side FPF kinds and references named by value, and related relation named by values in user terms. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` run record, README, ToC, `E.11`, `I.2`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary reference apparatus unless they change the working reader's first admissible move.
 7. **Template & section integrity**
-   This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology/semantics/modularity/slots/SoTA checks.
+   This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology, semantics, modularity, slot discipline, or SoTA checks.
 8. **Modularity & contradiction hygiene**
    The pattern **SHOULD NOT** be overloaded or significantly expand requirements or dependencies without an explicit reason and impact record.
    Checks include: scope containment, split/refactor recommendations when warranted, and contradiction scans against neighbor patterns in Relations.
@@ -163,7 +163,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 PQG is meant to increase *semantic and ontological trust*, not to turn every review into an exhaustive editorial audit on form. To keep reviews feasible while improving the important parts:
 
 * Treat **FPF-governed sections and deontic requirements** as the primary depth loci:
-  * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family/profile/specialization would otherwise be intelligible only from project context,
+  * the pattern’s **Problem frame**, **Rationale**, and **worked slices** when a new family, profile, or specialization would otherwise be intelligible only from project context,
   * reader fit in **Problem**, **Solution**, **Consequences**, **Rationale**, and worked slices whenever the draft risks mixing user guidance with package-development rationale,
   * the pattern’s **Conformance Checklist** (the enforceable conformance check set): keep items universal, cognitively ergonomic, not overly prohibitive, and avoid duplicating checks that belong to other patterns (modularity),
   * **deontic clauses** (`MUST/SHALL/SHOULD/MAY`) that define requirements on the authoring/validation plane (not laws of nature or mathematical facts; ensure an explicit conformance subject),
@@ -236,7 +236,7 @@ Checks include:
 Checks include:
 
 * explicit Bridge usage where required (no silent identity by spelling),
-* Congruence / loss is made explicit where applicable,
+* Congruence and loss are made explicit where applicable,
 * any cross-plane reuse is explicitly acknowledged and its penalties do not leak into unrelated assurances.
 
 **PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the reviewed pattern or subset introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite requirements, conformance pins, or suite protocols.
@@ -551,7 +551,7 @@ When one common hardening concern has FPF-governed use, is disputed, or is expli
 Use triggered accounts only for the selected entry-recognition function:
 
 1. **Usability and working-reader fit.** Record this when first-reading recognition text, assurance text, first-minute working-reader usability, practical payoff, worked slices, primary-reader fit, or `E.8` / `E.12` / `E.13` / `E.14` / `E.17.*` / `F.16` checks carry the finding or acceptance decision.
-2. **Scenario / anti-case / utility-fit source set.** Record this when a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous source is actually used or substantively disputed.
+2. **Scenario, anti-case, and utility-fit source set.** Record this when a scenario pack, anti-case corpus, pilot bank, utility tree, fitness catalog, or analogous source is actually used or substantively disputed.
 3. **Packaging, governing-pattern relation, package relation, and shipping-fit.** Record this before any send-facing, landing-facing, monolith-facing, or governing-pattern relation or package-relation state claim. Do not require it for ordinary local wording repairs.
 4. **Domain-tightened profile depth.** Record this when a domain-specific profile-depth note actually tightens a selected profile or resolves a finding.
 5. **Accepted-decision or accepted source-material carry-through.** Record this when the review work states that accepted decisions from an accepted `DRR`, returned-finding set, accepted intake, architecture source material, or other accepted source material named by value are implemented in or discharged by the `E.19` reviewed pattern or subset. The run record assigns accepted decisions and conformance subjects to loci inside that reviewed pattern or subset or to a named governing FPF pattern, companion document, record, or accepted source material, and classifies each as expressed sufficiently, expressed partially, not expressed and blocking, carried by a direct accepted-source-material consultation condition, correctly absent because rejected or not triggered, inherited unchanged, or outside the reviewed pattern or subset with a named governing FPF pattern, companion document, record, or accepted source material. This account does not rename an `E.17.ID.CR` comparative review unit, `PublicationUnit`, publication form or face, source-pinned interpretation case, document whose accepted-source-material, evidence-source-material, architecture-source-material, or review-source-material function is named, or project-side review relation as an `E.19` reviewed pattern or subset; when those are present, name the governing-pattern kind and reference and assign carry-through to it or to a named governing FPF pattern, companion document, record, or accepted source material.
@@ -642,7 +642,7 @@ Bias risks and mitigations:
 | **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |
 | **Lexical substitution accepted as repair** | The reviewed text no longer contains the trigger word, but the replacement changes the FPF kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, or scope. | The review rewards surface cleanup while ontology drift remains or gets worse. | Require a `KindRestorationCheck`; if pre/post kinds or slots, relation positions, use relations, or claim kinds do not match or an accepted split/change decision is absent, keep the finding blocking. |
 | **Form-only review** | Review time goes to formatting and micro-edits while the normative content, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat FPF-governed sections as depth loci and keep mechanical cleanup subordinate to semantic correction. |
-| **Checklist-clean but content-wrong** | The named profiles, lexical checks, and conformance rows are marked complete, but the repaired text no longer solves the stated problem, sends a claim to the wrong locus, creates shadow authority, loses a selected companion or projection function, or adds needless apparatus. | Review accepts a locally tidy pattern while weakening the actual `FPF` guidance. | Apply substantive solution and locus adequacy: name local content questions, check the actual problem and governing loci named by value, ask what became worse, and widen the declared boundary by value when the fix belongs outside the initial reviewed pattern or subset. |
+| **Checklist-clean but content-wrong** | The named profiles, lexical checks, and conformance rows are marked complete, but the repaired text no longer solves the stated problem, assigns a claim to the wrong locus, creates shadow authority, loses a selected companion or projection function, or adds needless apparatus. | Review accepts a locally tidy pattern while weakening the actual `FPF` guidance. | Apply substantive solution and locus adequacy: name local content questions, check the actual problem and governing loci named by value, ask what became worse, and widen the declared boundary by value when the fix belongs outside the initial reviewed pattern or subset. |
 | **Architecturally right, didactically thin** | The family is admissible, but readers still need project notes to understand what the pattern really governs. | Trust in the monolith depends on external context rather than the pattern text. | Add the missing problem frame, worked slices, local definitions, and governing-pattern or project-side FPF kind and reference named by value guidance before admission. |
 | **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication actually look like. | Readers cannot tell why the case stays in the family or where it leaves the family. | Add concrete source and resulting-publication slices, especially for transform families and easy boundary confusions. |
 | **Generic-head underspecification** | An FPF-governed phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is even stable. | Restore the head kind first in pattern-local terms before accepting or comparing the sentence. |
@@ -658,7 +658,7 @@ Bias risks and mitigations:
 
 ### E.19:9 - Consequences
 
-| Benefits                                                                         | Trade-offs / Mitigations                                                                   |
+| Benefits                                                                         | Trade-offs and mitigations                                                                   |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common review language.     | More explicit editorial work; mitigated by a small baseline and risk-selected profiles.        |
 | **Higher trust in normative content** — CC becomes the enforceable conformance check set. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |

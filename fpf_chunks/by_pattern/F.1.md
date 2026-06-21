@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
-line_start: 71554
-line_end: 71877
+line_start: 74243
+line_end: 74566
 dependencies:
   - "A.11"
   - "A.7"
@@ -57,7 +57,7 @@ Without explicit context of meaning:
 2. **Scope mirages.** One influential standard is mistaken for *the* domain.
 3. **Retro‑lock.** Old editions become the implicit truth simply because they were “there first”.
 4. **Category bleed.** Behavioural roles, epistemic statuses, deontic permissions mix because their contexts were never fixed.
-5. **Name inflation.** New U.Types appear just to “stabilise” unstable words.
+5. **Name inflation.** Convenience root kind labels or global names appear just to "stabilise" unstable words.
 
 ### F.1:3 - Forces
 
@@ -234,7 +234,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 **Thinking pay‑off.**
 
 * You keep **Method** (abstract how‑to) separate from **MethodDescription** (epistemic recipe) and **Execution** (run) because the Contexts already split design vs run.
-* You avoid treating **FCA “concept”** as a **U.Type**; later F.9 can bridge OWL classes to FCA concepts with cautions.
+* You avoid treating **FCA "concept"** as a root kind; later F.9 can bridge OWL classes to FCA concepts with cautions.
 
 #### F.1:12.3 Control & actuation with services (operational SLOs in plants)
 

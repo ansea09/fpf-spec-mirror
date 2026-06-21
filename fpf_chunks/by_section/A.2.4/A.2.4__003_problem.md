@@ -6,12 +6,12 @@ section_id: "A.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:2 — Problem"
-line_start: 3322
-line_end: 3335
+line_start: 3415
+line_end: 3428
 dependencies:
   - "A.10"
   - "A.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.2.4:2 - Problem
 
-Older FPF text used `U.EvidenceRole` for a useful need but chose the wrong ontology. The need was real: an episteme can be used as evidence for a claim inside a bounded context, with scope, polarity, time, assurance use, weight, and provenance constraints. The error was to model that use as a non-behavioral role held by the episteme through `U.RoleAssignment`.
+Source text may name `U.EvidenceRole` or evidence-like role labels for a real need: an episteme can be used as evidence for a claim inside a bounded context, with scope, polarity, time, assurance use, weight, and provenance constraints. The FPF repair is to model that use as an evidence-use relation, not as a non-behavioral role held by the episteme through `U.RoleAssignment`.
 
 That creates several failures:
 

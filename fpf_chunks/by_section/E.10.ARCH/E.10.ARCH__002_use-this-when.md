@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.10.ARCH"
 pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
 section_id: "E.10.ARCH:0"
-section_title: "Use this when"
+section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-  - "E.10.ARCH:0 — Use this when"
-line_start: 60741
-line_end: 60771
+  - "E.10.ARCH:0 — Use This When"
+line_start: 63243
+line_end: 63277
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,9 +61,13 @@ dependencies:
 keywords:
 ---
 
-### E.10.ARCH:0 - Use this when
+### E.10.ARCH:0 - Use This When
 
 Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move.
+
+**Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
+
+**Early gain cue.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the row, this pattern selects the recovery architecture, and the governing subject pattern stays centered on its own object.
 
 Use it especially when a subject or adequacy pattern contains repeated first-stage repair prose such as:
 
@@ -75,13 +79,13 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 - method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control strategy, or programming-paradigm wording before its current ontic slot, relation position, use relation, or claim kind is recovered as method, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
 - relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording before the current governed object or claim kind is recovered and before the direct governing pattern can carry the recovered claim;
 
-- graph, path, query, table, dashboard, checklist predicate, publication face, evidence path, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
+- graph, path, query, table, dashboard, checklist predicate, publication face, evidence-path wording, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
 - source, publication, publication form, face, `PublicationUnit`, dashboard, documentation, or source-return wording whose project-side use is not yet recovered;
 - relation-like, function-like, evidence-like, assurance-like, gate-like, work-like, decision-like, causal-use, release, or naming wording whose governing pattern is already known or must be recovered before the sentence is admitted.
 
-**What goes wrong if missed.** FPF accumulates many small local wording-recognition lists. One pattern says "architecture is not a diagram", another says "metric is not proof", another says "quality is not one scalar", another says "a path is not a route", and a reviewer cannot tell which pattern carries the repair. The text looks more precise, but the reader does not get a stable first move.
+**Failure shape.** FPF accumulates many small local wording-recognition lists. One pattern says "architecture is not a diagram", another says "metric is not proof", another says "quality is not one scalar", another says "a path is not a route", and a reader cannot tell which pattern carries the repair. The text looks more precise, but the reader does not get a stable first move.
 
-**What this buys.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the wording-use row; `E.10.ARCH` selects the row and extraction criterion; a realization pattern or governing neighboring pattern recovers the ontology; the governing subject pattern carries its own primary `EntityOfConcern` and first useful move.
+**Architecture gain.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the wording-use row; `E.10.ARCH` selects the row and extraction criterion; a realization pattern or governing neighboring pattern recovers the ontology; the governing subject pattern carries its own primary `EntityOfConcern` and first useful move.
 
 **First useful move.** Decide whether the wording can close locally under `E.10`, already has a governing pattern, or needs one applicability row with stable `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `ontologicalNeighborhood`, recovery apparatus, and remaining reader move.
 
@@ -89,6 +93,6 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 
 - If a sentence is repaired locally under `E.10`, stop there.
 - If the governing pattern and primary `EntityOfConcern`, relation record, or claim record are already recoverable by value, use that governing pattern directly.
-- If the kind under repair is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, method, mechanism, method description, formal substrate, graph path, evidence path, publication face, or another FPF kind named by value, the governing pattern governs its own invariant. `E.10.ARCH` only governs the wording-use restoration distribution.
+- If the kind under repair is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, method, mechanism, method description, formal substrate, graph path, evidence or provenance relation, publication face, or another FPF kind named by value, the governing pattern governs its own invariant. `E.10.ARCH` only governs the wording-use restoration distribution.
 - If the wording problem is phrase-level apparatus around an already recoverable kind, use `F.19` rather than creating a new wording-use restoration row.
 

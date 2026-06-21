@@ -6,12 +6,12 @@ section_id: "A.6.8:7"
 section_title: "Conformance Checklist (CC‑A.6.8)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__008_conformance-checklist-cc-a-6-8.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:7 — Conformance Checklist (CC‑A.6.8)"
-line_start: 17254
-line_end: 17296
+line_start: 17524
+line_end: 17566
 dependencies:
   - "A.15"
   - "A.2.3"

@@ -6,12 +6,12 @@ section_id: "C.3.3:5"
 section_title: "Solution — The KindBridge object (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-the-kindbridge-object-overview.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:5 — Solution — The KindBridge object (overview)"
-line_start: 38856
-line_end: 38868
+line_start: 40287
+line_end: 40299
 dependencies:
   - "A.2.6"
   - "C.2.2"

@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__009_authoring-review-guidance-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:8 — Authoring & Review Guidance (informative)"
-line_start: 38709
-line_end: 38733
+line_start: 40140
+line_end: 40164
 dependencies:
   - "C.3.1"
   - "C.3.3"

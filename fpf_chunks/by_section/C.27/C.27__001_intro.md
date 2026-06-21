@@ -6,12 +6,12 @@ section_id: "C.27:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:intro — Intro"
-line_start: 47790
-line_end: 47815
+line_start: 49387
+line_end: 49414
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -62,6 +62,8 @@ keywords:
 **Primary EntityOfConcern.** C.27 concerns authored temporal claims: prose, plans, benchmark lines, dashboards, method notes, promises, or explanations that treat state, rate, rhythm, recovery, braking, coasting, redirection, stabilization, or rate-change as sufficient for some practical use.
 
 **Use this pattern when** a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action and therefore must name the temporal reading, effort or intervention, window, resistance or cost, evidence relation or assumption relation, supported use, unsupported use, and reopen condition.
+
+**What this buys.** The reader can separate state readings, rate readings, and intervention-sensitive temporal-change claims before a trend, cadence, benchmark, or speed claim starts authorizing work, gates, promises, budgets, or comparisons.
 
 **Do not use this pattern when** the wording is ordinary prose, a positive temporal aspect with no adequacy question, a state reading or rate reading whose measurement construction is enough, a formal `U.Dynamics` model, an actual work trace, a benchmark harness, a service promise, a quality judgement, or a residual quantum-like probe case without an intervention-sensitive temporal claim.
 

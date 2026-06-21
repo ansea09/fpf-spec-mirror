@@ -6,12 +6,12 @@ section_id: "F.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:6 — Bias-Annotation"
-line_start: 73026
-line_end: 73036
+line_start: 75715
+line_end: 75725
 dependencies:
   - "A.15"
   - "A.2"

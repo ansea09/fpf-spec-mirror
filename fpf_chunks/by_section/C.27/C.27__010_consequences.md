@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 49398
-line_end: 49451
+line_start: 50997
+line_end: 51050
 dependencies:
   - "A.10"
   - "A.3.3"

@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 44413
-line_end: 44436
+line_start: 45982
+line_end: 46005
 dependencies:
   - "C.16"
   - "C.18"
@@ -35,11 +35,11 @@ keywords:
 ### C.22:9 - Conformance Checklist (normative)
 
 0. **Minimal S2.** S2 contains only fields necessary for Eligibility, Acceptance, and selection; any extra derived traits remain provenance.
-1. **TaskSignature present (S2).** Every exported TaskKind has a TaskSignature with all fields declared and **CHR‑typed**; `unknown` is an admissible value for each.
-2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG‑Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
+1. **TaskSignature present (S2).** Every exported TaskKind has a TaskSignature with all fields declared and **CHR-typed**; `unknown` is an admissible value for each.
+2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns propagate.** Unknowns **must** map to {pass|degrade|abstain} in **Acceptance** and **Eligibility**; no implicit coercions; behavior recorded in **SCR**.
-4. **Evidence lanes.** **A.10 evidence relations** + **Assurance lanes (TA/VA/LA)** + **freshness windows** recorded; **Γ‑fold** default=weakest‑link unless proved otherwise.
-5. **ReferencePlane guarded.**  ReferencePlane noted **per value and per ObjectiveProfile head**; on crossings apply **CL** (and **CL^plane** if planes differ); **Φ(CL)/Φ_plane** are **monotone, bounded, table‑backed and documented in the `CG‑Spec`**; penalties → **R_eff only** (F/G invariant).
+4. **Evidence lanes.** **A.10 evidence relations** + **Assurance lanes (TA/VA/LA)** + **freshness windows** recorded; **Γ-fold** default=weakest-link unless proved otherwise.
+5. **ReferencePlane guarded.** ReferencePlane noted **per value and per ObjectiveProfile head**; on crossings apply **CL** (and **CL^plane** if planes differ); **Φ(CL)/Φ_plane** are **monotone, bounded, table-backed and documented in the `CG-Spec`**; penalties → **R_eff only** (F/G invariant).
 6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector admissibility.** Selection uses **admissible (possibly partial) orders**; **weighted sums across mixed scale types are forbidden**; return a **Pareto set** when appropriate.
 8. **Crossings visible.** Any cross-stance/cross-Context reuse records **BridgeCard/BridgeDescription + UTS row** with CL notes and (if planes differ) CL^plane + Φ_plane.
@@ -51,7 +51,7 @@ keywords:
 14. **GeneratorIntent (when OEE is in scope).** `GeneratorIntent` **SHALL** cite **`EnvironmentValidityRegion`** and **`TransferRulesRef`** (ids resolvable in G.5/C.23); absence => `Abstain` for OEE generator-family use.
 15. **Budgets.** `Budgeting` (evaluation, time, and batch) **SHALL** declare units and E/E-LOG exploration budget id when used.
 16. **Archive admissibility.** `DistanceDefRef.edition` and any novelty measures **SHALL** be CSLC-admissible and **editioned**; inadmissible operations => **Abstain**.
-17. **Planes.** **ReferencePlane** **SHALL** be declared for all QD heads or characteristics; plane crossings apply **Phi\_plane** (penalty to **R** only).
+17. **Planes.** **ReferencePlane** **SHALL** be declared for all QD heads or characteristics; plane crossings apply **Phi_plane** (penalty to **R** only).
 18. **Unknowns.** Unknown QD fields **map** to `{degrade|abstain|sandbox}`; no coercions.
 
 19. **Specialization claims referenced.** Any declared specialization on this TaskSignature **SHALL** name the task family/work target, named work-measure threshold target, adaptation budget, freshness or provenance basis for reuse, and enough attachment detail for the same claim to remain admissible in `C.22.1`, `G.5`, and `G.9` use.

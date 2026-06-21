@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 29352
-line_end: 29569
+line_start: 30011
+line_end: 30228
 dependencies:
   - "A.1"
   - "A.10"
@@ -127,13 +127,13 @@ A.22 does not mint a local generic reliance record. When a structure claim relie
 | Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source pins or source-return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
 | Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
 | EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, bounded context, viewpoint, reference plane, observation or witness condition if observation or witness use is being claimed | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
-| Evidence or witness reliance | evidence-use relation, evidence-provenance path when the evidence graph is current, claim ref, witness publication or observation record, timespan and freshness | `A.10`, `A.2.4`, `G.6` |
+| Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
 | Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
 | Simulation, generated representation, model, or extracted trace | source or representation publication, extraction method, validation boundary, preserved structure, lost structure, source-return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or governing pattern when a claim of that kind is being made |
 
 If no reliance relation kind can be selected, keep the material as source-finding, recognition, ordinary help, quote-only wording, or reduced-use cue. Do not create a generic reliance record to make the claim look governed.
 
-`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, or generic reliance state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence path, SWBD, or lens output.
+`U.Structure` does not carry description, representation, extraction, mathematical-lens, simulation, or generic reliance state as an internal structure field. Those are source-description, base-dependence, evidence, lens, extraction, simulation, or publication relations about a structure. `PublicationRef` is not an admissible substitute for the source episteme, source view, evidence relation, SWBD, or lens output.
 
 #### A.22:4.3 - Structural descriptions and views
 
@@ -144,7 +144,7 @@ StructuralDescription@Context ::= {
   descriptionId,
   descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   structureRefs: FinSet(U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   describingEpistemeRef,
   admissibleUse,
   nonAdmissibleUse
@@ -202,7 +202,7 @@ StructuralAspectDescription@Context ::= {
   descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
   aspectKindRef,
   structureRefs: FinSet(U.StructureRef),
-  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidencePathRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
+  structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | SourceReturnConditionRef | NamedClaimGoverningPatternRef),
   admissibleUse,
   nonAdmissibleUse
 }
@@ -260,7 +260,7 @@ structure-claim reliance relation: selected reliance relation named by value(
   sourceDescriptionOrPatternApplicationRef = SourceViewRef, E.18 selected structure or crossing record, or E.18.2 mathematical graph description,
   governingPatternRef = E.18, A.6.6, A.10, or C.29 when that reliance claim is being made,
   relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
-  validationBoundary = path currentness boundary, slice currentness boundary, or crossing currentness boundary
+  validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary
 )
 next FPF pattern application: C.30.TFS-REL when this selected structure is used in an architecture-to-transformation-flow relation
 non-admissible use: graph as whole architecture, work, evidence, gate, or decision

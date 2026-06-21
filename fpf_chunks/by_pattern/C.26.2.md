@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
-line_start: 47121
-line_end: 47463
+line_start: 48713
+line_end: 49055
 dependencies:
   - "A.10"
   - "A.15"
@@ -205,7 +205,7 @@ This pattern is useful because many real work states are enacted before they are
 
 #### C.26.2:4.7 - Operational evidence sequence
 
-Action path:
+Operational evidence sequence:
 
 1. Name the collective bearer as a declared `U.System` boundary, not a bare social label.
 2. Name the coordinated work, behavior, or trace pattern being read through `A.15`: actions, routines, commitments, role-work, service behavior, market participant traces, artifacts, or timing.

@@ -6,12 +6,12 @@ section_id: "C.2.LS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:intro — Intro"
-line_start: 37188
-line_end: 37195
+line_start: 38477
+line_end: 38490
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,4 +46,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state facet profile.
+
+**Use this pattern when.** Use C.2.LS when a governed `U.Episteme` publication needs one explicit profile that keeps formality, articulation, closure, anchoring, representation factors, and local thresholds visible together.
+
+**What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then route, reopen, bridge, or govern the publication from a label that hides the actual facet values.
+
+**What this buys.** A thin, decomposable profile bundle: each facet stays governed by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish threshold-relevant language-state position.
 

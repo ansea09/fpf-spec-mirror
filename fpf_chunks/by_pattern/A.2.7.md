@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.7.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-line_start: 4811
-line_end: 5127
+line_start: 4927
+line_end: 5278
 dependencies:
   - "A.15"
   - "A.2"
@@ -26,8 +26,16 @@ keywords:
 
 ## A.2.7 - RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary
 > **Status:** Stable
+> **Type:** Ontic relation-structure pattern
 
-### E.24.UK settlement
+
+### A.2.7:0.1 - Kind Settlement
+
+**Use this pattern when** a project needs context-local role substitution, incompatibility, factor, qualification, or bundle relations without turning labels or role-algebra notation into a second ontology.
+
+**What goes wrong if missed.** Role labels start carrying type, capability, method, work, evidence, or permission claims, and a representation lens starts replacing the role relation structure in life.
+
+**What this buys.** Role-relation claims stay small, local, and inspectable while role assignment, capability, method, work, evidence, source, status, publication, and lens claims keep their own governing patterns.
 
 A.2.7 does not admit `U.RoleAlgebra` as a durable U-kind. The governed object is `RoleRelationStructure@BoundedContext`: a selected context-local relation structure over role descriptions, `U.Role` values, role expressions, substitution, incompatibility, and bundle-expression relations. A role algebra, graph, matrix, embedding, distributed model, or neural representation is a mathematical or representation lens over that structure, not the structure itself and not an operation on holder systems.
 
@@ -56,7 +64,13 @@ Use this pattern when a method, work-admission rule, staffing rule, safety case,
 - If the current claim is cross-context naming or translation, use F-family context and naming patterns such as `F.9` and `F.18`.
 - If the current claim is evidence, source, status, assurance, publication, or description use, use `C.2.1`, `A.10`, `B.3`, `E.17.*`, `E.24.PUB`, or `A.7` as the direct governing pattern for that episteme-use claim.
 
-### A.2.7:1 - Problem Frame
+### A.2.7:1 - Problem frame
+
+**Use this when** a method, work-admission rule, staffing rule, safety case, governance rule, or role description needs a declared context-local relation among role values, role expressions, or role-bundle expressions.
+
+**What goes wrong if missed.** Role labels act as type hierarchy, org chart, permission, capability, method family, staffing plan, or cross-context equivalence; mathematical notation then starts replacing the role relation structure in life.
+
+**What this buys.** Role-requirement substitution, incompatibility, role factors, and role bundles become inspectable local relations while role assignment, capability, method, work, evidence, source, status, and publication claims stay with their governing patterns.
 
 Work governed by role values and role assignments often needs three small claims:
 
@@ -74,7 +88,20 @@ Without a local role relation structure, teams usually encode those claims in th
 
 A.2.7 keeps the role relation structure small and local. It says how role values, role descriptions, and role expressions relate; it does not say who holds them, whether holders are able, whether work happened, or whether an episteme proves something. Algebraic, graph, factor, embedding, distributed, neural, or other mathematical descriptions are optional lenses over that structure.
 
-### A.2.7:2 - Core Role-Relation Structure
+### A.2.7:1.0 - Problem
+
+A combined role expression such as engineer-roboticist, inspector-auditor, or musician-teacher can hide several different claims: a local role-requirement substitution, a role bundle, an incompatibility, a holder assignment, a capability claim, or a method/work coupling. The problem is to recover the local role relation structure without minting a new universal role kind or treating an algebraic, graph, factor, embedding, or neural description as the role structure itself.
+
+### A.2.7:1.1 - Forces
+
+| Force | Tension |
+|---|---|
+| Local relation vs universal type | A role-requirement substitution is valid inside one bounded context; it must not become kind subsumption or a universal role taxonomy. |
+| Life structure vs representation lens | Algebra, graph, matrix, embedding, or neural representation may describe the selected role relation structure; the lens is not the holder, role assignment, capability, method, or work. |
+| Compact naming vs hidden bundle | Ordinary names such as engineer-roboticist can help when the context declares the relation or bundle; they hide work when they silently combine independent roles or methods. |
+| Role-method coupling vs collapse | Role and method relation structures often appear together, but method, method family, work plan, and performed work keep their direct governing patterns. |
+
+### A.2.7:2 - Solution - Core Role-Relation Structure
 
 `RoleRelationStructure@BoundedContext` is a relation structure declared inside one `U.BoundedContext`. A role-algebra description may be attached when notation helps inspection, but the structure remains the governed object.
 
@@ -191,7 +218,7 @@ Hyphenation is not algebra by itself. Use a hyphenated ordinary label when it he
 
 The math-lens boundary is narrow. A role-algebra, graph, matrix, embedding, distributed, or neural representation is a lens over role values, role-requirement substitution relations, incompatibility relations, role-factor or qualification expressions, and role-bundle expressions. The lens is not itself the role, holder, assignment, method, work, or capability. The name attaches to the recovered object or expression, not to the notation that helped recover it.
 
-### A.2.7:5 - Worked Cases
+### A.2.7:5 - Archetypal Grounding - Worked Cases
 
 #### A.2.7:5.1 - Role-Requirement Substitution Without Capability Smuggling
 
@@ -256,7 +283,11 @@ Role relation structure is context-local. Matching role labels across contexts a
 
 `ArticleAssessorRole:JournalContext` and `SafetyAssessorRole:SafetyCaseContext` may share a source label, but a role-requirement substitution or incompatibility relation in one context does not transfer to the other context by label. Cross-context reuse, bridge, translation, public naming, or semantic alignment uses F-family context and naming patterns.
 
-### A.2.7:7 - Checklist
+### A.2.7:6.1 - Bias-Annotation
+
+A.2.7 blocks two biases. The first is role nominalism: a convenient role label starts carrying ability, permission, method, work, evidence, or status claims that belong elsewhere. The second is representation bias: a role algebra, graph, matrix, embedding, or neural representation is mistaken for the role relation structure in life. Recover the relation in the bounded context first; then use a representation lens only for the properties it preserves.
+
+### A.2.7:7 - Conformance Checklist
 
 | Check | Question |
 |---|---|
@@ -265,13 +296,13 @@ Role relation structure is context-local. Matching role labels across contexts a
 | `CC-A2.7-03` | Is each `<=` claim framed as same-context role-requirement substitution rather than kind hierarchy or generic specialization? |
 | `CC-A2.7-04` | Is incompatibility checked over role assignments, holders, and overlapping windows rather than over labels alone? |
 | `CC-A2.7-05` | Is a bundle expression kept separate from holder, capability, method, and performed work? |
-| `CC-A2.7-06` | Are capability requirements sent to A.2.2? |
-| `CC-A2.7-07` | Are assignment and state checks sent to A.2.1 and A.2.5? |
-| `CC-A2.7-08` | Are method claims sent to A.3 patterns and work claims sent to A.15 patterns? |
-| `CC-A2.7-09` | Are cross-context equivalence and translation sent to F-family patterns? |
-| `CC-A2.7-10` | Is any evidence, source, approval, status, assurance, publication, description, or strict-distinction claim sent to `C.2.1`, `A.10`, `B.3`, `E.17.*`, `E.24.PUB`, or `A.7` rather than expressed as role relation structure or a lens over it? |
+| `CC-A2.7-06` | Do capability requirements use A.2.2? |
+| `CC-A2.7-07` | Do assignment and state checks use A.2.1 and A.2.5? |
+| `CC-A2.7-08` | Do method claims use A.3 patterns and work claims use A.15 patterns? |
+| `CC-A2.7-09` | Do cross-context equivalence and translation claims use F-family patterns? |
+| `CC-A2.7-10` | Does any evidence, source, approval, status, assurance, publication, description, or strict-distinction claim use `C.2.1`, `A.10`, `B.3`, `E.17.*`, `E.24.PUB`, or `A.7` rather than expressed as role relation structure or a lens over it? |
 
-### A.2.7:8 - Anti-Patterns and Repairs
+### A.2.7:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
@@ -298,7 +329,11 @@ Role relation structure is context-local. Matching role labels across contexts a
 - Some role-like source labels need F-family cross-context repair before role relation structure can be reused.
 - Capability and method requirements need separate claims when role labels used to hide them.
 
-### A.2.7:10 - SoTA-Echoing
+### A.2.7:10 - Rationale
+
+A.2.7 keeps role relation structure as a selected relation structure rather than a new U-kind because the durable object is still `U.Role` and its contextual use through assignments, states, methods, and work claims. This preserves ordinary role naming while preventing algebraic notation or organizational labels from becoming a second ontology.
+
+### A.2.7:10.1 - SoTA-Echoing
 
 | Practice line | What FPF takes | Practical implication |
 |---|---|---|
@@ -307,7 +342,7 @@ Role relation structure is context-local. Matching role labels across contexts a
 | Organizational design and safety practice uses separation of duties and independence constraints beyond IT. | Incompatibility is stated over role assignments and windows in any bounded context. | Safety, audit, laboratory, governance, and operations examples do not become software-only. |
 | Current FPF slot-relation and ontic discipline keeps relation positions from becoming kinds. | Role relation structure relates role values; it does not create a new role-slot ontic or reduce role to SlotKind. | A.2.7 can cite A.6.5 and E.24 without duplicating them. |
 
-Source-currentness note: RBAC and separation-of-duties are stable lineage, not the full current frontier. Current pressure comes from attribute and zero-trust authorization, context and currentness checking, policy-as-code practice, and FPF's newer slot-relation discipline. A.2.7 therefore keeps only the role-relation part and leaves currentness, policy decision, capability, method, work, and evidence to their direct patterns.
+Source-currentness note: RBAC and separation-of-duties are stable lineage, not the full current frontier. Current practice adds attribute and zero-trust authorization, context and currentness checking, policy-as-code practice, and FPF's newer slot-relation discipline. A.2.7 therefore keeps only the role-relation part and leaves currentness, policy decision, capability, method, work, and evidence to their direct patterns.
 
 ### A.2.7:11 - Relations
 

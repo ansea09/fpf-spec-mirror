@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
-line_start: 46821
-line_end: 47120
+line_start: 48413
+line_end: 48712
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -163,7 +163,7 @@ The boundary interaction under concern is a boundary interaction used as evidenc
 
 The pattern governs one move: convert an apparently passive boundary read into a typed probe-coupled boundary decision. That decision says what the interaction read, what it changed, what the output can support, what it cannot support, and which neighboring FPF pattern takes over if the question is really bridge, measurement, evidence, work, decision, or viability.
 
-Action path:
+Operational sequence:
 
 1. Name the boundary or relation being crossed.
 2. Name the probe lane, including the concrete artifact or work act that produced the output.

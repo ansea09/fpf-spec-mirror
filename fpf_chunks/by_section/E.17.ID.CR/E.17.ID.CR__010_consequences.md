@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 65881
-line_end: 65888
+line_start: 68520
+line_end: 68527
 dependencies:
   - "A.15"
   - "A.15.4"

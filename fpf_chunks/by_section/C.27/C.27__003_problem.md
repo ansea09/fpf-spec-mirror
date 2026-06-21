@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 47932
-line_end: 48079
+line_start: 49531
+line_end: 49678
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -194,7 +194,7 @@ C.27 does not introduce:
   dances, learning, or work cycles;
 - physical quantum ontology or quantum-like superiority;
 - mandatory ODE, PDE, or calculus formalism for all temporal claims;
-- new Kernel types for force, mass, acceleration, rhythm, or practice;
+- new U-kinds for force, mass, acceleration, rhythm, or practice;
 - a new publication role, separate pattern, law sheet, or MVPK face;
 - default C.27 profiling for every temporal word;
 - thin C.27 echo records when a local C.27 card or profile can cite the FPF pattern that governs the other question.

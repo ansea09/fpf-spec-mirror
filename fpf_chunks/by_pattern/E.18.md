@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 66918
-line_end: 67466
+line_start: 69557
+line_end: 70115
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -87,7 +87,7 @@ This slice names the selected structure and its governed loci first. Publication
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
 
-When a sentence says that a system performs a functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The bounded transformation, transformer or candidate bearer, input/output or functional-port boundary, functioning relation, method/algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
+When a sentence says that a system performs a functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The bounded transformation, transformer or candidate bearer, input and output boundary, functional-port boundary, functioning relation, method or algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
 
 **Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate-decision publication, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning or performed work, `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
 
@@ -98,7 +98,7 @@ When a sentence says that a system performs a functional transformation at one p
 ### E.18:2 - Problem frame
 
 Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described/context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed loci. The P2W reference path is:
-`U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus (G.5/selector relation) <-> WorkPlanning locus (A.15.2 U.WorkPlan or plan-item relation) -> U.Work -> EvaluatingAndRefreshing locus (G.11/refresh relation)`
+`U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus (selector relation governed by G.5) <-> WorkPlanning locus (A.15.2 U.WorkPlan or plan-item relation) -> U.Work -> EvaluatingAndRefreshing locus (refresh relation governed by G.11)`
 is one **path** among many possible domain-specific transformation-flow paths. Without a common **structure discipline**:
 
 * flows look ad-hoc and **non-comparable**;
@@ -121,9 +121,9 @@ MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts t
 | Force                                            | Tension                                                                                                                                                                    |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universality vs specialization**               | One architecture covers supply chains, water networks, ML functionals, and the P2W first-principles-to-work path, **without** baking in any one morphism set. |
-| **Publication neutrality vs auditability**       | Keep faces notation‑neutral and non‑mechanistic ↔ require **pins**, **ComparatorSet**, **Bridge/CL**, and **PublicationScope**.                                            |
+| **Publication neutrality vs auditability**       | Keep faces notation‑neutral and non‑mechanistic while requiring **pins**, **ComparatorSet**, **Bridge and CL**, and **PublicationScope**.                                            |
 | **Set-return discipline vs business pressure for totals** | Preserve **return sets and declared partial orders** ↔ stakeholders demand single numbers.                                                                                     |
-| **Cross‑Context reuse vs safety**                | Enable reuse across `U.BoundedContext` ↔ require **Bridge/CL** with **R‑only penalties**.                                                                                  |
+| **Cross‑Context reuse vs safety**                | Enable reuse across `U.BoundedContext` while requiring **Bridge and CL** with **R‑only penalties**.                                                                                  |
 | **Agility vs reproducibility**                   | Permit evolving CG‑Spec/UNM/Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
 | **Cycles vs convergence**                        | Allow Selection↔Planning iteration ↔ impose **budget** and **slice‑scoped** refresh to prevent thrash.                                                                     |
 
@@ -137,7 +137,7 @@ Define a **typed, editioned transformation-flow structure**
 with:
 
 * **Loci:** structure-positioned loci or bindings to governed FPF values (open world). Common specialisations **include but are not limited to** the P2W illustrative set: bounded `U.Transformation`, `U.Signature(profile=FormalSubstrate)`, `U.PrincipleFrame`, `U.Mechanism`, `U.ContextNormalization (UNM)`, `SelectionAndTuning` locus governed by current selector/comparator patterns, `WorkPlanning` locus governed by `A.15.2 U.WorkPlan` or a plan-item relation, `U.Work`, and `EvaluatingAndRefreshing` locus governed by current refresh/evaluation patterns. This list is **illustrative**, not exhaustive. A locus may be expressed by a morphism, graph vertex, tuple position, or category-theoretic object under a mathematical lens when that lens is current, but E.18 does not make every locus a `U.Morphism`, graph vertex, or `U.Transformation`.
-* **Transfer relation:** a **single relation kind `U.Transfer`** (typed) carrying carrier refs and token refs; all **plane/Context/edition** changes occur **only at loci via `OperationalGate(profile)`** with **Bridge + CL** annotations; penalties **-> R only**. Transport conversions pin **Phi-policies** and editions.
+* **Transfer relation:** a **single relation kind `U.Transfer`** (typed) carrying carrier refs and token refs; all **plane, Context, and edition** changes occur **only at loci via `OperationalGate(profile)`** with **Bridge and CL** annotations; penalties **-> R only**. Transport conversions pin **Phi-policies** and editions.
 * **Scopes:** `Gamma_time` (budgets, horizons), `PublicationScope` for faces (E.17), and **slice ids** for refresh (G.11).
 
  **CtxState (PS‑projection; closed slots):** `CtxState = ⟨L, P, E⃗, D⟩` is the **projection of E.17 Publication Scope**.
@@ -148,7 +148,7 @@ with:
   • `D := DesignRunTag` — `design(T^D)` or `run(T^R)`, used by **LaunchGate** and acceptance/telemetry duties.
  **Invariants.** Raw `U.Transfer` preserves `CtxState` (`⟨L,P,E⃗,D⟩`): it does **not** write/update any CtxState slot; any CtxState write/update (or entry to `U.WorkEnactment`) occurs at `OperationalGate(profile)`.
  **Extension discipline.** A conforming use registers any extra slot beyond ⟨L,P,E⃗,D⟩ in the **E.17/LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order law (neutral/absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
- **Data-shape location.** E.18 names the structure and valuation obligations for `PathId`, `PathSliceId`, Gamma pins, and lineage: flow is a valuation over `U.Transfer`, raw transfer preserves `CtxState`, and path or slice evidence is carried through this pattern plus `A.20`, with `G.6` or `G.11` for cases involving evidence-path visibility or refresh wiring. These are the current structure loci for path and slice currentness.
+ **Data-shape location.** E.18 names the structure and valuation obligations for `PathId`, `PathSliceId`, Gamma pins, and lineage: flow is a valuation over `U.Transfer`, raw transfer preserves `CtxState`, and path or slice evidence is carried through this pattern plus `A.20`, with `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. These are the current structure loci for path and slice currentness.
 
  * **Locus kinds:** `Transformation`, `Signature`, `Mechanism`, `WorkPlanning`, `Work`, `Check`, and `StructuralReinterpretation` are the current minimal structure-positioned locus baseline. Domain-specific species are open-world and non-exhaustive, but each species binds to one of the locus kinds or requires an explicit E.18 update. These are positioned loci in the selected structure, not a local taxonomy of new FPF kinds.
   **Exact identification (no local ontology):**
@@ -185,7 +185,7 @@ with:
 **Term separation.** **Transfer** denotes the sole relation kind `U.Transfer` in the selected structure. **Transport** denotes Phi-governed conversion **policies/registries** (**`TransportRegistry^Phi`** under UNM). Wording "reuse via Transport" refers to registries/policies, not to an additional transfer relation.
 
 #### E.18:5.2 - S2 - Flows as valuations (paths + state + guards)
-* A **Flow** is a **valuation** `nu` over `U.Transfer` relations and cut-sets, paired with an **admissible path** `p = v0 -> ... -> vk` in the selected structure. The valuation maps transfer relations or cut-sets to token/state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
+* A **Flow** is a **valuation** `nu` over `U.Transfer` relations and cut-sets, paired with an **admissible path** `p = v0 -> ... -> vk` in the selected structure. The valuation maps transfer relations or cut-sets to token/state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
 * **Multiple coupled flows.** One `TransformationFlowStructure` may contain several coupled flow valuations: a development-flow valuation over work that creates or repairs a specification, pattern, process description, mechanism description, method set, tool, or work plan; an application-flow valuation over use of that product for another `EntityOfConcern`; and an evaluation or refresh-flow valuation over evidence that identifies a problem and a repair return to the smallest affected development or application locus. The selected structure relates those flow valuations through `U.Transfer`, `PathSlice`, edition-change, refresh, return, or feedback relations, but it does not merge their governed objects, records, launch values, evidence, gates, or performed work. The same product may be a run result of one flow and a design-side input, tool, or contextual object for another flow; that flow-local relation-position change is recorded by the current flow relation and any current `DesignRunTag` crossing, not by silently changing the object kind.
 * **Admissible path (definition).** A path `p` is **admissible** iff:
   (a) locus/transfer types match the declared `tau_L, tau_Transfer`;
@@ -224,7 +224,7 @@ E.18 **does not re-specify** these laws; it only adds **structure-scope obligati
 
 **Lean publish‑mode (AssuranceLane‑Lite).** Lean changes **publication faces only** (`PlainView`/`AssuranceLane` minimal), not checks; publication shows `GateProfile`, `GateCheckRef[]`, and `DecisionLogRef`; the underlying GateChecks list remains unchanged.
 
-**Decision stability & idempotency (gate-local).** Gate decisions are stable under a declared equivalence relation over the pins used by `A.21`; the witness is recorded as `DecisionLog` or `EquivalenceWitnessRef`, with `G.6` or `G.11` used for cases involving evidence-path visibility or refresh implications. E.18 **does not** prescribe storage formats, key shapes, or hashing schemes.
+**Decision stability & idempotency (gate-local).** Gate decisions are stable under a declared equivalence relation over the pins used by `A.21`; the witness is recorded as `DecisionLog` or `EquivalenceWitnessRef`, with `G.6` used for evidence-provenance path visibility and `G.11` for refresh implications. E.18 **does not** prescribe storage formats, key shapes, or hashing schemes.
 
 **KindBridge admissibility (publication).**
 Treat a step as a **EntityOfConcernRef/kind** transition (including `StructuralReinterpretation` under CC-E18‑06‑EX) **iff** the **UTS row**:
@@ -393,7 +393,7 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 
 *Show-B (Neural-net functional).* Loci: `U.Signature(profile=FormalSubstrate)` declaration (typed tensor-operation declaration) -> mechanism (combinator algebra) -> UNM (dataset normalization; **TransportRegistry^Phi**) -> selection (architecture/hyperparam set; Pareto set over accuracy@ratio and FLOPs@ratio) <-> planning (compute budget horizon) -> Work (training runs; Delta recorded) -> refresh (parity inserts; slice-scoped). Faces pin **DescriptorMapRef.edition** and **DistanceDefRef.edition** when QD telemetry values are shown; illumination remains **report-only telemetry** by default.
 
-*Show-C (Developed product, then application).* One flow valuation represents development work that produces a specification, pattern, process description, mechanism description, method set, or tool through drafting, checks, projection, build, or publication. A later flow valuation represents use of that product in project work or analysis. A further flow valuation may represent another use of the result: a tool is made, then used to make a chair, then the chair supports a person writing a text. The selected structure can relate all these valuations through transfers and feedback, while each flow keeps its own governed object, `DesignRunTag`, flow-local relation position for the carried object, work occurrence, evidence, and reopened slice.
+*Show-C (Developed product, then application).* One flow valuation represents development work that produces a specification, pattern, process description, mechanism description, method set, or tool through drafting, checks, projection, build, or publication. A later flow valuation represents use of that product in project work or analysis. A further flow valuation may represent another use of the result: a tool is made, then used to make a chair, then a person sits on the chair while writing a text. The selected structure can relate all these valuations through transfers and feedback, while each flow keeps its own governed object, `DesignRunTag`, flow-local relation position for the carried object, work occurrence, evidence, and reopened slice.
 
 *Show-D (FPF pattern development and use).* A development-flow valuation represents pattern development work: creation, evaluation, projection, publication, and later repair of a pattern. A use-flow valuation represents application of that pattern to its own `EntityOfConcern`. An evaluation or use-found defect can select the smallest development slice for repair. E.18 keeps the common selected structure visible while separating the developed pattern, the use of the pattern, the evidence found during use, and the edition or slice that is reopened.
 
@@ -401,7 +401,17 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 
 > *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites / QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator/archive, coupled development/application flows, and refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
 
-### E.18:7 - Conformance — **Unified checklist (normative)**
+### E.18:13 - Bias-Annotation (per E.8 SG-bias slot)
+
+* **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.18 explicitly permits loops with budget/sentinel controls (CC-E18-13, -18).
+* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.18 keeps declared order relations and return sets visible (CC-E18-10, CC-E18-12).
+* **Interop-dominance risk.** File/format ecosystems (CWL/RO-Crate/lineage) can be mistaken for semantic sources; E.18 places them in **InteropCard** and keeps governing semantics in loci/gates.
+* **Over-formalization risk.** Category-theoretic formalisms can obscure operational guard-rails; E.18 grounds crossings in Bridge/UTS/CL/Phi pins and SquareLaw audits (CC-E18-11, -17).
+* **Retrospective rewrite risk.** Global rewrites break replay; E.18 confines them to edition bumps and slice-local refresh (CC-E18-16).
+
+**Mitigations.** Profile-gated publication, audit of `DecisionLog`, mandatory edition pins, Lean-to-Core upgrade conditions, and conformance tests tied to PathSlice replay.
+
+### E.18:7 - Conformance Checklist — **Unified checklist (normative)**
 
 **Conformance use.** This checklist is evidence for the selected-structure, flow-valuation, and crossing action guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; an item is applied only when its corresponding structure, crossing, publication, gate, refresh, or assurance move is current. Before applying any item, name the Solution move it tests; if no such practitioner move is current, treat the item as auxiliary-only or not applicable rather than expanding the applied assurance or conformance material.
 
@@ -469,6 +479,16 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 * *GateCrossing* - a typed locus transition that writes/updates a CtxState slot or the kind-channel; see **S1.b** for the normative list and required pins.
 * *Admissible path* - a typed path obeying the GateCrossing discipline (no hidden crossings; witnesses present), Gamma-pinned on compare/launch, and `T^D<->T^R` only at `LaunchGate`; see **S2**.
 
+### E.18:7.1 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Graph expression as selected structure | A mathematical graph, morphism chain, or tool pipeline is treated as the `TransformationFlowStructure` itself. | Separate selected structure from mathematical description; use `E.18.2` and `C.29` when lens adequacy is live. |
+| Flow as performed work | A valuation or path is treated as a work occurrence or work procedure. | Keep work planning and performed work with the A.15 family. |
+| Gate everywhere | Internal step validity, crossing, launch, and gate-decision publication are collapsed. | Use `A.20` for internal constraint validity and `A.21` for gate fit, aggregation, decision, and publication. |
+| Publication face as evidence | An MVPK face or dashboard view is treated as evidence, gate passage, or release permission. | Use `E.17`, `A.10`, `A.21`, or release patterns according to the claim being made. |
+| Whole-flow refresh | Any small edition or source change triggers a whole-structure rewrite. | Refresh the smallest affected path slice, crossing, edition pin, or publication face. |
+
 ### E.18:8 - Gating Profiles (applied to E.18)
 This table is a selected-structure coverage table for E.18 crossings and path slices. It is not the source of `GateProfile` semantics. `A.21` governs gate decision semantics, folds, `DecisionLog` minima, and the GateFit check-catalog boundary.
 
@@ -512,7 +532,7 @@ E.18 states **strict separation of concerns** (selected-structure scope only); *
 
 This arrangement gives checkable conditions for **functorial publication** (commuting squares on crossings) and **orthogonality** of inner technical validity (ConstraintValidity) to context fit (GateFit), which in turn keeps gate aggregation **order-independent** under the CV=>GF activation predicate.
 
-### E.18:12 - SoTA‑Echoing (post‑2015, multi‑Tradition)
+### E.18:12 - SoTA-Echoing (post-2015, multi-Tradition)
 
 > Each row states the source idea, the FPF invariant E.18 adopts, the practitioner move it changes, and the shortcut it rejects. Vendor, tool, and literature tokens are informative; the invariant and practitioner move carry the pattern explanatory work.
 
@@ -529,23 +549,13 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 *Cross-tradition note.* Rows 1-3 (compositional graph practice), rows 4-5 (publication and reproducibility practice), row 6 (controls/robotics), row 7 (evolutionary search), and row 8 (PL/semantics) jointly position E.18 across multiple traditions per E.8, but each row is retained only because it changes a practitioner move or rejected overread.
 
-### E.18:13 - Bias‑Annotation (per E.8 SG‑bias slot)
-
-* **Acyclic-bias risk.** Tooling accustomed to DAGs may discourage admissible feedback loops; E.18 explicitly permits loops with budget/sentinel controls (CC-E18-13, -18).
-* **Scalarization-bias risk.** Cultural defaults to single-score rankings can suppress Pareto/QD sets; E.18 keeps declared order relations and return sets visible (CC-E18-10, CC-E18-12).
-* **Interop-dominance risk.** File/format ecosystems (CWL/RO-Crate/lineage) can be mistaken for semantic sources; E.18 places them in **InteropCard** and keeps governing semantics in loci/gates.
-* **Over-formalization risk.** Category-theoretic formalisms can obscure operational guard-rails; E.18 grounds crossings in Bridge/UTS/CL/Phi pins and SquareLaw audits (CC-E18-11, -17).
-* **Retrospective rewrite risk.** Global rewrites break replay; E.18 confines them to edition bumps and slice-local refresh (CC-E18-16).
-
-**Mitigations.** Profile‑gated publication, audit of `DecisionLog`, mandatory edition pins, Lean‑to‑Core upgrade paths, and conformance tests tied to PathSlice replay.
-
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
 
-> Relation rows are typed as **builds_on / constrains / coordinates / specializes / publishes_on / requires / provides_checks_for**.
+> Relation rows use the named relation kinds **builds_on**, **constrains**, **coordinates**, **specializes**, **publishes_on**, **requires**, and **provides_checks_for**.
 
 **Foundations**
 * **E.18 -> builds_on -> E.17 MVPK (for publications of selected structure material).** Faces, pins, lanes, functorial publication, Lean/Core/Regulated profiles.
-* **E.18 -> builds_on -> A.6.0 U.Signature / A.6.1 U.Mechanism.** Locus kinds and governing-definition content boundaries.
+* **E.18 -> builds_on -> A.6.0 U.Signature and A.6.1 U.Mechanism.** Locus kinds and governing-definition content boundaries.
 * **E.18 -> builds_on -> A.7 Strict Distinction (EntityOfConcern, Description episteme, Description episteme admitted for specification use, and publication/carrier separation).** No new claims on faces; publication faces project selected structure, crossing, or flow-valuation information without becoming the governed selected structure, Description episteme, specification use, evidence, gate decision, work occurrence, or carrier.
 
 **Flow semantics & checks**

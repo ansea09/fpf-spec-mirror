@@ -6,12 +6,12 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:intro — Intro"
-line_start: 30288
-line_end: 30295
+line_start: 30987
+line_end: 30994
 dependencies:
   - "A.1"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.2"
 keywords:
   - "KD-CAL"

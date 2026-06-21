@@ -6,12 +6,12 @@ section_id: "C.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:2 — Problem"
-line_start: 34810
-line_end: 34869
+line_start: 36068
+line_end: 36127
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -34,7 +34,7 @@ Without a shared **episteme constitution**, teams fall into recurring failure mo
 1. **EntityOfConcern-Description episteme-publication carrier soup.** Diagrams and files are treated as *the theory itself*. Changes to a PDF are confused with theoretical change.
 2. **EntityOfConcern blur.** A spec seems to describe “everything in general”. The **EntityOfConcernSlot** - what exactly this knowledge describes - is implicit and drifts, while the **GroundingHolonSlot** that would say where the claim is grounded is also missing.
 3. **Proof vs program confusion.** Algorithms, specifications, and proofs are mixed: a “proof” is used as if it were a tested routine; a “program” is cited as if it entailed a theorem (Curry–Howard misunderstood).
-4. **Trust without evidence path.** Claims accumulate with no explicit **justification graph** or **evidence freshness**, so assurance degrades invisibly.
+4. **Trust without evidence relation.** Claims accumulate with no explicit **justification graph** or **evidence freshness**, so assurance degrades invisibly.
 5. **Category errors at execution.** Epistemes appear as *actors* (“the standard enforces…”) instead of **systems** acting *with* or *on* epistemes such as data sets or algorithms.
 
 The coarse Symbol-Concept-Object semantic triangle is useful only as a didactic projection over the richer slot relation: **Concept** approximates `ClaimGraph`, **Object** approximates `EntityOfConcern` plus `ReferenceScheme`, and **Symbol** approximates notation or representation tokens.
@@ -51,7 +51,7 @@ But the projection has structural blind spots when used as ontology:
    * the **ReferenceScheme** used to read claims as statements about that thing.
 
 2. **Grounding collapses into Object.**
-   Material and organisational contexts (labs, infrastructures, organisations) that **ground** an episteme (in Malafouris’ sense) are hidden in the Object/Reference Map. KD‑CAL and Bridges need explicit **GroundingHolon** positions.
+   Material and organisational contexts (labs, infrastructures, organisations) that **ground** an episteme (in Malafouris' sense) are hidden in the Object and Reference map. KD-CAL and Bridges need explicit **GroundingHolon** positions.
 
 3. **Viewpoints are not first‑class.**
    ISO‑style **viewpoints** (families of stakeholders, concerns, conformance rules) and their induced **views** appear only indirectly, via KD‑CAL or MVPK. There is no explicit `U.Viewpoint` / `U.View` pair at the episteme core, which makes it hard to:
@@ -70,7 +70,7 @@ But the projection has structural blind spots when used as ontology:
      There is no place to say “this representation admits **syntactic inference** of such‑and‑such kind” vs “this is just a **passive label**”.
 
 5. **No explicit signature discipline.**
-   The triangle speaks of “Object/Concept/Symbol” but not of **slots** and **references** in the sense of A.6.5 `U.RelationSlotDiscipline`. In episteme this leads to:
+   The triangle speaks of "Object", "Concept", and "Symbol" but not of **slots** and **references** in the sense of A.6.5 `U.RelationSlotDiscipline`. In episteme this leads to:
    * names where **slot, value and ref** are conflated (`EntityOfConcernRef` used as if it were a slot),
    * ambiguity between the **EntityOfConcern value** (what the episteme describes) and the **episteme** (the description),
    * fragile interoperability with signatures for roles, methods, services.

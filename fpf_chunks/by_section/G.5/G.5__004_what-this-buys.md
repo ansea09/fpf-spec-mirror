@@ -6,12 +6,12 @@ section_id: "G.5:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__004_what-this-buys.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:0.2 — What this buys"
-line_start: 80757
-line_end: 80765
+line_start: 83517
+line_end: 83525
 dependencies:
   - "C.11"
   - "C.18"
@@ -51,8 +51,8 @@ keywords:
 
 - one registry that keeps rival method families disjoint but dispatchable
 - one selector result form that can publish candidate sets, `Shortlist`, `RankedShortlist`, one `SpecialistHandoff`, narrowed handoff plans, or abstain outcomes honestly
-- one `DRR/SCR`-addressable trace with explicit basis pins instead of one hidden selector rationale
+- one trace addressable by DRR and SCR records with explicit basis pins instead of one hidden selector rationale
 - one explicit publication closure so the declared outcome kind, any applicable public selected-set label, retained members or handoff content, ordering status, and basis pins are stated directly in the emitted result
 
-Registry and dispatch remain the primary registry/dispatch selector question here; selected-set publication is the explicit closure record for that selector question, not a replacement for it.
+Registry and dispatch remain the primary selector question here; selected-set publication is the explicit closure record for that selector question, not a replacement for it.
 

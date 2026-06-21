@@ -6,12 +6,12 @@ section_id: "C.30.ILC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54797
-line_end: 54810
+line_start: 56655
+line_end: 56668
 dependencies:
   - "A.10"
   - "A.22"
@@ -49,8 +49,8 @@ keywords:
 | Frustration-as-ontology | `Frustration` is treated as a new FPF kind, psychological state, physics kind, biology kind, assurance score, or proof. | Keep frustration as an entry label; recover `FrustrationResidual`, conflict carriers, residual-bearing locus, and governing patterns for `C.29`, evidence, assurance, causal, mediation, or synthesis claims when those claim kinds are being made. |
 | Optimization-as-global-proof | A local optimization claim is treated as proof that the whole architecture optimizes one global objective. | Record local and wider-scope claims separately; use `C.29` only for an admissible mathematical lens with recoverable level mapping or scale mapping and use candidate-generation, comparison, or decision patterns for synthesis and selection. |
 | Measurement-first conflict | The team starts measuring before declaring what is in conflict. | Run ILC triage first; apply `C.16` or the characteristic pattern governing the characteristic under evaluation only when the measured characteristic is under evaluation. |
-| Risk color as cross-scope decision | A red, yellow, or green risk cell, risk matrix, or maturity score decides the cross-scope architecture move or resource-allocation priority. | Recover declared holon levels or declared scopes, structure kind under considerations, the residual, the loss, hazard, or threat path, selected source, evidence, or relation interpretation, characteristic scale, comparator, gate pattern, and first admissible architecture move; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation priority, or gate passage. |
-| Stakeholder-only conflict | A structural residual is treated as mediation with no architecture move. | Use `D.3` or `D.4` only when values, stakeholder negotiation, or ethical mediation is being claimed. |
+| Risk color as cross-scope decision | A red, yellow, or green risk cell, risk matrix, or maturity score decides the cross-scope architecture move or resource-allocation priority. | Recover declared holon levels or declared scopes, structure kind under considerations, the residual, the loss, hazard, or threat relation, selected source, evidence, or relation interpretation, characteristic scale, comparator, gate pattern, and first admissible architecture move; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation priority, or gate passage. |
+| Mediation-only conflict | A structural residual is treated as ethical mediation with no architecture move. | Use `D.3` only when interlevel ethical conflict structure is current and `D.4` only when mediation or decision use of that structure is current. |
 | Hidden candidate generation | The residual immediately spawns many designs. | State the first admissible move; apply `G.5` to a residual-reducing candidate set only when candidate generation is being claimed. |
 | Scope word without scope record | The text says `level`, `layer`, `scale`, or `scope` without a declared field. | Recover the declared holon level or declared scope named by value, or demote the phrase to ordinary recognition. |
 

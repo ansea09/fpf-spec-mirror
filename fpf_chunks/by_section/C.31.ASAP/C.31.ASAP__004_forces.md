@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:3 — Forces"
-line_start: 55974
-line_end: 55984
+line_start: 57834
+line_end: 57844
 dependencies:
   - "A.10"
   - "A.17"
@@ -52,7 +52,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Fast architecture choice vs scale evidence | Practitioners often need a scale-aware preference before a full scale study exists. |
-| Reusable structure vs useful exception | Reuse can improve scale behavior, but some bespoke residue is justified by safety, legal, mission, or context constraints. |
+| Reusable structure vs useful exception | Reuse can improve scale behavior, but some bespoke residue is justified by safety, law-domain, mission, or context constraints. |
 | Platform label vs scale mechanism | A platform or product-line name does not say which variability slots, extension rules, exception curve, or refactor trigger makes scale behavior better. |
 | Coarse view vs source distinctions | Coarse-grained architecture descriptions can expose stable structure, but they can also hide lower-scope hazards. |
 | Preference guidance vs selection authority | A scale preference can inform a candidate set or decision, but selection and choice remain with their governing patterns. |

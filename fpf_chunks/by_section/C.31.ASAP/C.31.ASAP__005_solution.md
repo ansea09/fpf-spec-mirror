@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 55985
-line_end: 56120
+line_start: 57845
+line_end: 57980
 dependencies:
   - "A.10"
   - "A.17"
@@ -92,7 +92,7 @@ The triage is complete enough when it states the next admissible architecture mo
 
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
-When architecture alternatives satisfy the same safety boundary, legal boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
+When architecture alternatives satisfy the same safety boundary, law-domain boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
 This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern. C.31.ASAP governs only the scale-preference claim and its boundary.
 
@@ -154,13 +154,13 @@ ArchitectureScaleAuditRecord@Project:
 ```text
 ASAPWaiverReason:
   deontic constraint
-  safety or legal boundary
+  safety or law-domain boundary
   scale-probe overturn
   assurance infeasibility
   context-specific bounded exception
 ```
 
-Not every non-scale-amenable choice is debt. A deontic constraint, safety boundary, legal boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
+Not every non-scale-amenable choice is debt. A deontic constraint, safety boundary, law-domain boundary, mission constraint, assurance infeasibility, or scale-probe overturn can justify a bounded exception without creating `ArchitectureHeuristicDebt`.
 
 `ArchitectureHeuristicDebt` remains report-only unless tied to a decision, risk, work, evidence, assurance, or selected-set record through its governing pattern.
 

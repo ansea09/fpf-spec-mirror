@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 53699
-line_end: 54240
+line_start: 55553
+line_end: 56094
 dependencies:
   - "A.1"
   - "A.10"
@@ -129,14 +129,14 @@ ArchitectureStructureKindRef ::= one of {
   DeclaredLogicalStructure,
 
   WorkMethodStructure,
-  RoleEnactorStructure,
+  AllocationResponsibilityStructure,
   EvidenceAssuranceStructure,
   ScaleEvolutionStructure,
   OtherDeclaredStructureKind
 }
 ```
 
-The first group is the seed classifier set for ordinary architecture structural-view use. `SecurityTrustBoundaryStructure`, `WorkMethodStructure`, `RoleEnactorStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are classifier values over selected `U.Structure` references, not new root kinds. ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named security, work and method, role-enactor, evidence and assurance, scale, characterization, or mathematical-lens patterns.
+The first group is the seed classifier set for ordinary architecture structural-view use. `SecurityTrustBoundaryStructure`, `WorkMethodStructure`, `AllocationResponsibilityStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are classifier values over selected `U.Structure` references, not new root kinds. ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named security, work and method, allocation-responsibility, evidence and assurance, scale, characterization, or mathematical-lens patterns.
 Do not enumerate structure kinds by default. Choose the smallest useful structure-kind set that changes the next architecture move. If no structure kind changes action, keep the phrase as ordinary recognition wording or a source note. This does not weaken kind discipline; it prevents `ArchitectureStructureKindRef` from becoming an audit checklist.
 
 Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structure-kind classifier value over `U.Structure`; it does not mint a general FPF root kind.
@@ -188,7 +188,7 @@ Flow -> TransformationFlowStructure
 Control -> ControlStructure
 Module -> ModuleInterfaceStructure
 Method and work -> WorkMethodStructure
-Role -> RoleEnactorStructure
+Role -> AllocationResponsibilityStructure
 Evidence -> EvidenceAssuranceStructure
 Scale -> ScaleEvolutionStructure
 Security -> SecurityTrustBoundaryStructure
@@ -207,7 +207,7 @@ This subsection is the C.30.ASV structural-view publication-use boundary. C.30.A
 
 ```text
 VF.TEVB.ENG core stays:
-  { VP.Functional, VP.Procedural, VP.RoleEnactor, VP.ModuleInterface }
+  { VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface }
 ```
 
 TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence requirements, and governing-pattern applications.
@@ -248,10 +248,10 @@ The initial set is a seed for first architecture moves, not an atlas. Use the ta
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | `FunctionalStructureView@Context` | `functionalBehaviorRefs`, `functionalElementRefs?`, `transformerSideFillerRefs?`, `candidateBearerRefs?`, input-condition refs, output-condition refs, functional-port refs, capability refs, dependency refs, allocation refs, correspondence refs | Use `A.6.F`, `A.3.4`, capability, work, module-allocation, or requirement patterns when those claims are being made. |
-| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
+| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, transformation-flow path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
 | `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
 | `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are being made. |
-| PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, legal, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
+| PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, law-domain, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
 | `InformationDataStructure` | `InformationDataStructureView@Context` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are being made. |
 | `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView@Context` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when the corresponding claim is being made | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
 | `ControlStructure` | `ControlStructureView@Context` | control role refs, declared control-rate refs, observer, estimator, controller, planner, and supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are being made. |
@@ -263,8 +263,8 @@ Externally governed classifier values remain admissible when they are the archit
 
 | Externally governed classifier value | ASV use | Full semantics and governing patterns |
 | --- | --- | --- |
-| `WorkMethodStructure` | Method arrangement or work arrangement changes the architecture move. | Use `MethodDescription`, `WorkPlan`, `WorkEnactment`, exception path, launch relation or gate relation, and `A.15` governing patterns; do not turn a work-method diagram into work authority. |
-| `RoleEnactorStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
+| `WorkMethodStructure` | Method arrangement or work arrangement changes the architecture move. | Use `MethodDescription`, `WorkPlan`, `WorkEnactment`, exception-handling relation, launch relation or gate relation, and `A.15` governing patterns; do not turn a work-method diagram into work authority. |
+| `AllocationResponsibilityStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
 | `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10`, `G.6`, or `B.3` for evidence sufficiency or assurance verdict; ASV only names the structure and loss boundary. |
 | `ScaleEvolutionStructure` | Scale window, replacement or change policy, trajectory reference, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
 | `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or externally governed values fits. | Name definition, relation families, false interpretations, governing patterns, and context; do not mint a root kind by label alone. |
@@ -274,7 +274,7 @@ Minimum useful seed examples:
 | Structure kind | Minimal example | False interpretation | First governing pattern |
 | --- | --- | --- | --- |
 | `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern when that claim kind is being made. |
-| `TransformationFlowStructure` | Path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TFS-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, path, crossing, mathematical-lens, or causal-use claim kind is being made. |
+| `TransformationFlowStructure` | Transformation-flow path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TFS-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, transformation-flow path, crossing, mathematical-lens, or causal-use claim kind is being made. |
 | `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance pattern when that claim kind is being made. |
 | `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern when that claim kind is being made. |
 | `InformationDataStructure` | State bearer, residence, provenance, and custody. | Database label. | Evidence, privacy, or source-return pattern when that claim or reliance use is being made. |
@@ -372,7 +372,7 @@ FunctionalStructureView@Context ::= {
 }
 ```
 
-A selected transformation-flow structure, mathematical graph description, path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input and output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
+A selected transformation-flow structure, mathematical graph description, transformation-flow path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input and output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
 
 Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
 
@@ -403,9 +403,9 @@ Correspondence examples:
 | "This requirement constrains that structure." | `RequirementToStructureConstraint` or a constraint record named by value. |
 | "This scale window changes the structure kind." | `ScaleWindowToStructureKindCorrespondence`; assign scale-lens claims to `C.29` when those claims are being made. |
 
-Use `SourceReturnCondition` when compression, extraction, coarsening, evidence reuse, ML evaluation, bounded exception, many-to-many allocation, publication, or decision claim hides a distinction needed for action, assurance, causal use, legal review, regulatory review, comparison, or reopening.
+Use `SourceReturnCondition` when compression, extraction, coarsening, evidence reuse, ML evaluation, bounded exception, many-to-many allocation, publication, or decision claim hides a distinction needed for action, assurance, causal use, law-domain review, regulatory review, comparison, or reopening.
 
-If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, legal or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is needed.
+If `viewConstruction` is `query`, `extraction`, `coarsening`, `correspondenceSlice`, or `sourceReturnSlice`, and omitted structure changes action, assurance, causal use, law-domain or regulatory review, or subsequent decision reopening, `SourceReturnCondition` is needed.
 
 When the view is used to name affected structures for a next move but no decision record is being used, use C.30 `AffectedArchitectureStructureNote`: affected structure kinds, affected structure refs when known, affected ASV refs, accepted or suspected view loss, source-return condition, and the next admissible move. The note is not an architecture decision, ADR, gate passage, evidence sufficiency, or release authority.
 
@@ -421,13 +421,13 @@ SourceReturnAction:
   because:
     hiddenRelation | lostConstraint | coarsenedScale |
     ambiguousExtraction | staleEdition | crossViewMismatch |
-    legalOrRegulatoryUse | assuranceOrDecisionUse
+    lawDomainOrRegulatoryUse | assuranceOrDecisionUse
   nextMove:
     inspect | split | downgradeUse | addCorrespondence |
     openNeighborPattern | stop
 ```
 
-Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected reliance relation, assurance, legal, comparison, causal, gate, or decision commitment. The condition is needed only when the repaired text still relies on the hidden source-side distinction.
+Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected reliance relation, assurance, law-domain, comparison, causal, gate, or decision commitment. The condition is needed only when the repaired text still relies on the hidden source-side distinction.
 
 Model cards, system cards, and evaluation harness reports may publish or substantiate an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when that mismatch is being claimed, and the evidence or assurance governing pattern when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release claim or gate claim by publication alone.
 
@@ -505,10 +505,10 @@ stop condition:
 
 ```text
 Organization and operating-model architecture first recovery:
-  RoleEnactorStructure:
+  AllocationResponsibilityStructure:
     responsibility allocation and enactment boundary
   WorkMethodStructure:
-    repeatable work method and exception path
+    repeatable work method and exception-handling relation
   InformationDataStructure:
     information custody, state residence, provenance
   EvidenceAssuranceStructure:
@@ -550,7 +550,7 @@ Organization service architecture first recovery:
   candidateStructureKindRefs:
     WorkMethodStructure:
       method arrangement, work-plan boundaries, exception handling, and performed-work records
-    RoleEnactorStructure:
+    AllocationResponsibilityStructure:
       role assignments, responsibility split, enactor availability, and escalation relation
     InformationDataStructure:
       ticket state, customer record custody, dashboard source, and source-return condition
@@ -572,7 +572,7 @@ AI-agent architecture first recovery:
   SecurityTrustBoundaryStructure:
     untrusted content channels, prompt-injection or instruction boundary,
     tool authority, secret-bearing contexts, memory custody crossing and data custody crossing,
-    output handling, supply-chain or update path
+    output handling, supply-chain or update channel
   ModuleInterfaceStructure:
     tool specs, API specs, and interface specs and substitutability limits
   EvidenceAssuranceStructure:

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.LCA.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
-line_start: 54333
-line_end: 54601
+line_start: 56187
+line_end: 56455
 dependencies:
   - "A.10"
   - "A.20"
@@ -82,7 +82,7 @@ FPF needs a pattern that preserves the useful recognition of control architectur
 * Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
 * The same source labels can name different things. C.30.LCA applies only to recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses are recovered with `C.30.STRAT` and then governed by their governing patterns when those claims are being made.
 * Layered and multi-rate control descriptions often need timing and dynamics claim before they can carry stability or safety claims.
-* `B.2.5` already gives FPF a supervisor-subholon feedback-loop pattern, but it does not turn every loop diagram into proof.
+* `B.2.5` already gives FPF a supervisor-subholon feedback relation, but it does not turn every feedback or loop diagram into proof.
 * `E.18` `TransformationFlowStructure` values and their mathematical graph descriptions can describe flow, path, crossing, or transformation-flow relations that participate in control, but the transformation-flow description or graph expression is still a description or view, not the control structure itself.
 * Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records are used only when the question under repair calls for that governing pattern use.
 
@@ -213,13 +213,13 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 |---|---|
 | Plant or controlled holon | `U.Holon` whose state evolves; reusable state-evolution claims use `A.3.3`. |
 | Regulator or controller | System in a control role enacting a method over observations and actuations. |
-| Planner | Upstream role or method producing setpoints, plans, references, or allowed regions for regulators. |
-| Observer or estimator | Role or method producing state estimates, observations, or evidence-facing readouts. |
-| Supervisor | Role or method governing subordinate holons, gates, policy changes, or control-mode changes. |
+| Planner | Acting system in a planner role; the enacted method may structure setpoint, plan, reference, or allowed-region production. |
+| Observer or estimator | Acting system in an observer or estimator role; the enacted method may structure state estimates, observations, or evidence-facing readouts. |
+| Supervisor | Acting system in a supervisor role; the enacted method or policy may structure work that constrains subordinate holons, gates, policy changes, or control-mode changes. |
 
 **Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-specific item: `controlLayerRef`, `controlRoleRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, and, where the supervisor-subholon relation is being claimed, `B.2.5` supervisor-subholon relation. Generic system level, aggregation scope, organization level, work or evidence scope, scale window, coarse-graining, deployment tier, and publication section do not stay in C.30.LCA. A layer label is not a control structure, not a system level, not a rate band, and not evidence of separation by itself.
 
-**B.2.5 boundary.** `B.2.5` remains the supervisor-subholon feedback-loop check pattern. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon loop is part of the control view. It does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, the acting `Transformer`, publication or review practice, and publication relation, source relation, or reliance relation are named; an episteme does not sense, judge, plan, adapt, or act as an agent.
+**B.2.5 boundary.** `B.2.5` remains the owner for the supervisor-subholon feedback relation. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon relation is part of the control view. Loop wording stays in C.30.LCA only when the current control view explicitly recovers a control-loop or dynamics claim under its direct owner. `C.30.LCA` does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, name the acting system in the relevant role, the A.3.4 transformer-position only when a transformation claim is current, and any publication, review record, publication relation, source relation, or reliance relation. An episteme does not sense, judge, plan, adapt, or act as an agent.
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 
@@ -244,7 +244,7 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 * **Diagram authority bias.** A neat feedback diagram can look more persuasive than the source relation, reliance relation, or claim pattern it actually uses. Repair by naming that relation named by value and the governing pattern that carries the claim kind being made.
 * **Stratification-label bias.** A `layer`, `level`, `tier`, or `stack` label can hide whether it names a control relation, rate band, aggregation, scale, organization, work scope or evidence scope, deployment, or publication section. Repair with `C.30.STRAT`; C.30.LCA applies only to the recovered control-specific case.
-* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting transformer, method, or work practice.
+* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting system in role, the method it enacts when current, and the work or review practice when current.
 * **Transformation-flow and LCA conflation.** A transformation-flow graph expression and a control view can inform each other, but neither replaces the other. Repair by naming the description context and structure kind for each view.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
@@ -258,7 +258,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | CC-LCA-3 | A conforming use recovers `layer`, `level`, `tier`, or `stack` wording with `C.30.STRAT` unless the text already recovers a control-specific `controlLayerRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, or `B.2.5` supervisor-subholon relation. | Prevents pseudo-level or pseudo-layer overread inside C.30.LCA. |
 | CC-LCA-4 | A conforming use records observation, actuation, feedback, and externality boundaries when they are used in the view. | Makes the control relation inspectable. |
 | CC-LCA-5 | Stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing patterns. | Prevents LCA-as-proof. |
-| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback-loop relation or check pattern, not as proof of stability, safety, evidence, gate validity, or assurance. | Keeps existing FPF control relation bounded. |
+| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback relation, not as proof of stability, safety, evidence, gate validity, or assurance. Loop claims use the control or dynamics owner named by value. | Keeps existing FPF control relation bounded. |
 | CC-LCA-7 | An `E.18` transformation-flow path slice used by the control view remains a transformation-flow description or relation governed by E.18, not the control structure itself. | Keeps transformation-flow and LCA relations distinct. |
 | CC-LCA-8 | A C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens use. |
 | CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition. | Prevents narrowed recognition from becoming unchecked reliance. |
@@ -269,7 +269,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 |---|---|---|
 | LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and assign proof or claim named by values to dynamics, evidence, assurance, gate, or safety patterns. |
 | Control-layer-as-generic-level | `Layer`, `level`, `tier`, or `stack` is used without a recovered control role, relation, rate band, bounded context, or `B.2.5` supervisor-subholon relation. | Apply `C.30.STRAT`; return to C.30.LCA only for a recovered control-layer or control-relation case. |
-| Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting transformer, method, work practice, publication relation, source relation, or reliance relation. |
+| Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting system in role, the method it enacts when current, the work or review practice when current, and any publication relation, source relation, or reliance relation. |
 | Transformation-flow and LCA substitution | A transformation-flow graph expression is treated as the control architecture, or an LCA diagram is treated as the transformation-flow graph expression. | Use `DescriptionContext` and structure kind fields to keep views distinct. |
 | Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationClaimRefs?`; assign temporal-aspect or rate-band claims to `C.27.TA` and authored temporal-claim adequacy to `C.27`. |
 
@@ -300,11 +300,11 @@ This also protects the architecture ontology's EntityOfConcern and Description-e
 * Builds on `C.30` for grounded architecture and selected-structure adequacy and `C.30.ASV` for structural-view adequacy.
 * Uses `A.22` for structure and structural-view kind discipline.
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before any control-specific use enters C.30.LCA.
-* Coordinates with `B.2.5` for supervisor-subholon feedback-loop recognition.
+* Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
 * Coordinates with `E.18` and `C.30.TFS-REL` when transformation-flow path slices supply structure input to the control view.
 * Applies `A.3.3` for dynamics and stability claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal-use claims, `A.10` or `G.6` for evidence claim, `B.3` for assurance, `A.20` or `A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` when LCA is used as a transferable mathematical lens.
 
-Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification and source-label precision restoration, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `B.2.5` for supervisor-subholon feedback-loop discipline, `E.18` for graph, path, and crossing discipline, `A.3.3` for dynamics claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, `A.10` or `G.6` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate and constraint-validity records, `A.15` for work, and `C.29` for mathematical-lens use. `C.30.LCA` governs only the control-structure view relation being claimed.
+Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification and source-label precision restoration, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `B.2.5` for supervisor-subholon feedback relation, `E.18` for graph, path, and crossing discipline, `A.3.3` for dynamics claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, `A.10` or `G.6` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate and constraint-validity records, `A.15` for work, and `C.29` for mathematical-lens use. `C.30.LCA` governs only the control-structure view relation being claimed.
 
 ### C.30.LCA:End
 

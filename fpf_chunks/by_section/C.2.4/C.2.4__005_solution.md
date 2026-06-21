@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 37455
-line_end: 37490
+line_start: 38756
+line_end: 38791
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,9 +35,9 @@ keywords:
 ### C.2.4:4 - Solution
 `U.ArticulationExplicitness` is an ordinal characteristic over how explicit the semantic shape is in a published position claim in the declared language-state chart over `U.CharacteristicSpace`, for publication, route-governance claims, and repair.
 
-#### C.2.4:4.0a - E.24.UK settlement
+#### C.2.4:4.0a - Kind and characteristic boundary
 
-`U.ArticulationExplicitness` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the articulation-explicitness basis slot and ordinal scale discipline for governed episteme publication positions. Local thresholds, route labels, and score-table columns may reference it, but they do not create a separate U-kind.
+`U.ArticulationExplicitness` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the articulation-explicitness basis slot and ordinal scale discipline for governed episteme publication positions. Local thresholds, route labels, and score-table columns may reference it, but they do not create a separate U-kind.
 
 #### C.2.4:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -55,7 +55,7 @@ keywords:
 | `AE2` | candidate anchors or partial roles are visible | cue pack with candidate anchors and route candidates |
 | `AE3` | minimally relation-like skeleton exists | entry to `A.6.P` becomes possible if local threshold allows |
 | `AE4` | slot-explicit normal form is publishable | explicit relation or characteristic form |
-| `AE5` | articulation is explicit enough for stable endpoint classification and later bridge work | endpoint-pattern-governed publication becomes straightforward |
+| `AE5` | articulation is explicit enough for stable endpoint classification and downstream bridge work | endpoint-pattern-governed publication becomes straightforward |
 
 The anchors are a starter set; a Context may refine them locally, but it shall keep the ordinal direction and the distinction from `F` intact.
 

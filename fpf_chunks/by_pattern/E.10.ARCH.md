@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-line_start: 60724
-line_end: 61070
+line_start: 63216
+line_end: 63621
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,13 +73,27 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 `E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover what kind of thing is being talked about, which adjacent EntityOfConcern values, relation records, claim records, current ontic slots, relation positions, use relations, claim kinds, and FPF kinds named by value or references are admissibly involved, which relation, source-use disposition, or state-family value is current, and, when plain ontology is not enough, which mathematical lens under `C.29` or which pattern-defined formal apparatus makes the candidate structure checkable. The output returns to wording only after that kind, position, and use structure is recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
 
+**Use this pattern when** a recurring wording-use problem hides stable ontological recovery work that should be shared instead of copied into each subject pattern.
+
+**What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.
+
+**What this pattern buys.** One distribution architecture keeps recognition in `E.10`, recovery architecture in `E.10.ARCH`, and object-specific ontology in the direct governing or realization pattern.
+
+**Rationale.** Precision restoration needs an ontology-first distribution rule because a recurring trigger word may hide different kinds, slots, relations, claims, publications, or mathematical lenses in different places.
+
+**SoTA-Echoing.** The pattern follows FPF's current ontology-first restoration practice: typed object recovery, direct governing-pattern use when available, and thin pointers in subject patterns instead of repeated repair doctrine.
+
 **Builds on.** `E.10`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, `E.24`, `E.24.CD`, `E.24.PUB`, `F.18`, `E.8`, `E.19`, and `E.2`.
 
 **Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27.TA`, `C.27`, `C.29`, `A.3.1`, `A.3.2`, `A.3.3`, `A.3.4`, `A.6.0`, `A.6.1`, `E.18`, `E.20`, `E.24`, `E.24.CD`, `E.24.PUB`, `A.15.2`, `A.15.1`, `A.10`, `F.19`, `E.21`, `E.11`, `I.2`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns governing those claims when those claims are being made.
 
-### E.10.ARCH:0 - Use this when
+### E.10.ARCH:0 - Use This When
 
 Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move.
+
+**Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
+
+**Early gain cue.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the row, this pattern selects the recovery architecture, and the governing subject pattern stays centered on its own object.
 
 Use it especially when a subject or adequacy pattern contains repeated first-stage repair prose such as:
 
@@ -91,13 +105,13 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 - method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control strategy, or programming-paradigm wording before its current ontic slot, relation position, use relation, or claim kind is recovered as method, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
 - relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording before the current governed object or claim kind is recovered and before the direct governing pattern can carry the recovered claim;
 
-- graph, path, query, table, dashboard, checklist predicate, publication face, evidence path, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
+- graph, path, query, table, dashboard, checklist predicate, publication face, evidence-path wording, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
 - source, publication, publication form, face, `PublicationUnit`, dashboard, documentation, or source-return wording whose project-side use is not yet recovered;
 - relation-like, function-like, evidence-like, assurance-like, gate-like, work-like, decision-like, causal-use, release, or naming wording whose governing pattern is already known or must be recovered before the sentence is admitted.
 
-**What goes wrong if missed.** FPF accumulates many small local wording-recognition lists. One pattern says "architecture is not a diagram", another says "metric is not proof", another says "quality is not one scalar", another says "a path is not a route", and a reviewer cannot tell which pattern carries the repair. The text looks more precise, but the reader does not get a stable first move.
+**Failure shape.** FPF accumulates many small local wording-recognition lists. One pattern says "architecture is not a diagram", another says "metric is not proof", another says "quality is not one scalar", another says "a path is not a route", and a reader cannot tell which pattern carries the repair. The text looks more precise, but the reader does not get a stable first move.
 
-**What this buys.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the wording-use row; `E.10.ARCH` selects the row and extraction criterion; a realization pattern or governing neighboring pattern recovers the ontology; the governing subject pattern carries its own primary `EntityOfConcern` and first useful move.
+**Architecture gain.** `E.10.ARCH` gives one architecture for distributing wording-use repair: `E.10` recognizes the wording-use row; `E.10.ARCH` selects the row and extraction criterion; a realization pattern or governing neighboring pattern recovers the ontology; the governing subject pattern carries its own primary `EntityOfConcern` and first useful move.
 
 **First useful move.** Decide whether the wording can close locally under `E.10`, already has a governing pattern, or needs one applicability row with stable `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `ontologicalNeighborhood`, recovery apparatus, and remaining reader move.
 
@@ -105,8 +119,30 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 
 - If a sentence is repaired locally under `E.10`, stop there.
 - If the governing pattern and primary `EntityOfConcern`, relation record, or claim record are already recoverable by value, use that governing pattern directly.
-- If the kind under repair is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, method, mechanism, method description, formal substrate, graph path, evidence path, publication face, or another FPF kind named by value, the governing pattern governs its own invariant. `E.10.ARCH` only governs the wording-use restoration distribution.
+- If the kind under repair is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, method, mechanism, method description, formal substrate, graph path, evidence or provenance relation, publication face, or another FPF kind named by value, the governing pattern governs its own invariant. `E.10.ARCH` only governs the wording-use restoration distribution.
 - If the wording problem is phrase-level apparatus around an already recoverable kind, use `F.19` rather than creating a new wording-use restoration row.
+
+### E.10.ARCH:0.1 - Problem Frame
+
+Precision restoration in FPF is ontology-first, not word-substitution-first. A recurring wording family is important only when it hides a stable governed object, relation position, claim kind, ontic slot, publication-use relation, source-use disposition, mathematical lens, or neighboring-pattern boundary.
+
+### E.10.ARCH:0.2 - Problem
+
+Without a shared distribution architecture, subject patterns collect first-stage repair catalogues and lose their object focus. The same false friend is then repaired differently in architecture, characteristic, evidence, publication, method, relation, and state-family patterns.
+
+### E.10.ARCH:0.3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Shared repair vs subject-pattern focus | FPF needs recurring trigger recognition, but each subject pattern must stay centered on its own EntityOfConcern. |
+| Ontology-first repair vs lexical cleanup | The repair must recover kind, slot, relation, and use before choosing wording. |
+| Direct governing pattern vs restoration detour | A direct pattern should govern when the object is already recoverable by value. |
+| Local cue vs duplicated doctrine | Subject patterns may need one first-use cue, not a copied repair table. |
+| Semantic area vs placement nest | A semantic area, ontological neighborhood, and pattern nest are different objects. |
+
+### E.10.ARCH:0.4 - Solution
+
+Use `E.10` for recognition, `E.10.ARCH` for the shared distribution architecture, and a direct governing or realization pattern for the recovered ontology. Add a new applicability row only when the recurring wording hides a stable field set, recovery apparatus, and remaining reader move that no direct governing pattern already carries.
 
 ### E.10.ARCH:1 - Primary EntityOfConcern and applicability-row scope
 
@@ -203,19 +239,6 @@ A conforming specialized restoration pattern states:
 - any facet restoration pattern that owns a narrower recurring ambiguity;
 - the temporary recovery product and the retained user-facing move after wording repair.
 
-### E.10.ARCH:2a - Rationale and source-use lines
-
-This distribution is selected because the recurring failure is not "too few word rules". The failure is that repair-only trigger prose migrates into subject patterns and begins to compete with their primary `EntityOfConcern` and first useful moves. A common symptom is a non-semio pattern whose Solution mainly teaches that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence record, assurance verdict, decision, gate passage, release, work occurrence, or authority source. Those guards are often correct, but their ontology is publication pragmatics, description pragmatics, and neighboring-pattern assignment, not the subject matter of the architecture, method, role, evidence, or characterization pattern. A workable FPF answer therefore needs three separations at once: a cheap shared trigger scan in `E.10`, a shared recovery architecture in `E.10.ARCH`, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a remaining reader move.
-
-| Source or practice line | Source-use function or relation | What the line changes in `E.10.ARCH` |
-| --- | --- | --- |
-| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, assigns relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
-| Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin governing-pattern pointers and blocks local wording-recognition-table copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
-| Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
-| Current governing-pattern coverage in FPF. | Applicability boundary for this architecture, not evidence that E.10.ARCH owns every wording-use case. | Uses the direct governing pattern when that pattern can carry the EntityOfConcern under repair, relation, claim, or local field directly; reopens E.10.ARCH only when the shared distribution rule itself no longer fits. |
-
-The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new governing pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
-
 ### E.10.ARCH:3 - Shared recovery algorithm
 
 #### E.10.ARCH:3.1 - Method, work, and P2W governing-pattern constellation in wording restoration
@@ -239,7 +262,7 @@ Use this recovery order for FPF-relevant wording-use restoration cases. Each rea
 2. **Cheap local closure.** Check whether the wording has no FPF-governed use or only a small local head, register, or morphology repair. If yes, repair locally under `E.10`, state the remaining reader move, and stop.
 3. **Head kind and candidate ontology.** Recover the head kind, register classification, EntityOfConcern and Description-episteme boundary, specification-use gate when specification use is current, candidate referents, candidate EntityOfConcern values, relation records named by value, claim records, candidate relations, candidate ontic slots, candidate relation positions, candidate use relations, candidate carriers or publications, and scope, time, viewpoint, or context facets. Include literal and intended candidates when metonymy or compression is plausible.
 4. **Semantic area, ontological neighborhood, and governing-pattern selection.** State `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily`; then select the `ontologicalNeighborhood` and first applicable governing pattern by primary `EntityOfConcern` kind and admissible adjacent FPF kinds, references, or relations: relation construction, function-like kind and relation recovery, episteme, publication, source-use, selected structure or architecture description, characteristic or scale construction, quality characterization, evidence, assurance, gate, work, decision, causal-use, naming, controlled coarsening, or another governing FPF pattern.
-5. **Formal apparatus or stable substrate.** State the stable apparatus that makes the repair checkable: relation or signature slots under `A.6.0`, `A.6.5`, and `A.6.P`; publication relation set; source-use disposition; selected structure; architecture question; characteristic or scale construction; quality bundle; mathematical lens under `C.29`; evidence path; gate record; work occurrence; decision record; assurance argument; causal-use record; or governing-pattern field set. When the same object is used in several relation, signature, or lens positions, record the object kind and current ontic slot, relation position, or use relation separately and cite the governing pattern; `E.10.ARCH` selects the restoration architecture rather than duplicating that pattern's ontology.
+5. **Formal apparatus or stable substrate.** State the stable apparatus that makes the repair checkable: relation or signature slots under `A.6.0`, `A.6.5`, and `A.6.P`; publication relation set; source-use disposition; selected structure; architecture question; characteristic or scale construction; quality bundle; mathematical lens under `C.29`; evidence or provenance relation; gate record; work occurrence; decision record; assurance argument; causal-use record; or governing-pattern field set. When the same object is used in several relation, signature, or lens positions, record the object kind and current ontic slot, relation position, or use relation separately and cite the governing pattern; `E.10.ARCH` selects the restoration architecture rather than duplicating that pattern's ontology.
 6. **Normalized ontology and lexical projection.** Produce the repaired wording, compact repair note, record-shaped value, governing-pattern application, or non-use disposition. Do not replace one umbrella word with another. The replacement candidate is itself a bounded wording use until it passes the `E.10` trigger scan or is demoted to ordinary wording, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite.
 7. **Admissible use and remaining reader move.** State the admissible use, non-admissible claim escalation or adjacent use, and one useful reader move. If the wording is type-correct but inert, the repair is incomplete.
 
@@ -258,7 +281,7 @@ The sequence is shared; each wording-use restoration case differs by `semanticAr
 | Ontic candidate and publication-form confusion; primary recoverable use is a candidate ontic, slot relation, semantic area, ontological neighborhood, ontic-description episteme, or publication form hidden behind record, card, schema, table, data-structure, view, or source-material wording | `E.24.CD` for candidate detection; `E.24.PUB` for ontic-description and publication-form boundary; direct subject pattern when the ontic or governing pattern is already recovered | ontic, concept cluster, semantic area, ontological neighborhood, slot relation, slot-relation expression, schema, record, card, table, data structure, publication form, description, view, or source-material wording. | candidate EntityOfConcern, reusable slot relation, stable semantic area, ontological neighborhood, publication-form boundary, direct subject pattern, admissible use, blocked overread, and remaining reader move. | ontic-candidate note, direct `E.24` or subject-pattern application, `E.24.PUB` boundary note, ordinary-prose demotion, quote-only cue, reduced-use cue, blocked-use disposition, or stop. |
 | Admissibility-like, legality-like, authority, validity, readiness, pass-looking, fail-looking, and conformance wording; primary recoverable use is bearer, claim kind, source relation, value frame, bounded use, and governing pattern, not a generic admissibility object | Direct governing pattern when the claim is recoverable by value; `A.19.SPR` only when a hidden state-family bearer and value frame are the problem; `A.6.P` only when relation construction is hidden | `admissible`, `lawful`, `legal`, `legality`, `allowed`, `permitted`, `authorized`, `valid`, `pass`, `fail`, `ready`, `conformant`, `eligible`, and close compounds. | bearer, claim kind, source relation, value frame, admissible use, non-admissible overread, validity window or reopen condition when current, and direct governing pattern for mechanism admissibility predicate, signature applicability, evidence, assurance, gate, work, decision, authority-bearing record, release, temporal validity, or source-use disposition. | direct governing-pattern application; state-family repair note only when hidden state wording is current; recovered gate, evidence, authority, temporal, mechanism, or source-use boundary; quote-only cue; reduced-use cue; blocked-use disposition; or stop. |
 | Method, algorithm, program, solver, proof, recipe, workflow, process, procedure, access path, query plan, control strategy, method algebra, method graph, selector calculus, or programming-paradigm wording; primary recoverable use is a current ontic slot, relation position, use relation, claim kind, or method relation structure in the method-description-work-mechanism chain | `A.3.1` first when method-like wording hides the slot, relation position, use relation, claim kind, or method relation structure; direct governing pattern after recovery; `C.2.P.DR` first when representation overread is the current problem | algorithm, program, solver, proof, recipe, method, workflow, process, procedure, access path, query plan, control strategy, imperative, functional, logical, constraint, object-centric event, effect-handler, pipeline, orchestration, method algebra, method graph, selector calculus, fallback composition, or similar wording. | current ontic slot, relation position, use relation, claim kind, or method-side relation: context-local semantic way of doing (`A.3.1`), `MethodRelationStructure@BoundedContext` when composition, refinement, substitution, iteration, guarded choice, decomposition, parameterization, method-family membership, selector relation, or fallback relation is current, episteme describing a method or method relation structure (`A.3.2`), formal-substrate declaration (`A.6.0`) and mathematical-lens use (`C.29`) when current, mechanism declaration or realization governed by `A.6.1` and `E.20`, planned work (`A.15.2`), dated work (`A.15.1`), method-family registry or selector outcome (`G.5`), evidence relation (`A.10`), source relation, gate relation, result relation, direct governing pattern, or quote-only source wording. If one source label or project-side name points to changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern` rather than to one typed value, use the existing method, work, and P2W governing-pattern constellation through `E.10.ARCH:3.1`; then recover linked typed FPF values separately. Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits such dual typing. Do not mint `U.MethodAlgebra`; algebraic or graph notation is a lens or representation unless the governing pattern states a different object by value. Ontic-slot labels and relation-position labels do not create alternate ontology. | `U.Method` statement, `MethodRelationStructure@BoundedContext` statement, `U.MethodDescription` relation, formal-substrate or mathematical-lens application, `U.Mechanism` or MIP application, WorkPlan or Work application, G.5 selector or registry application, evidence relation, source relation, gate relation, or result relation, direct governing-pattern application, quote-only cue, reduced-use cue, blocked-use disposition, or stop. |
-| Declarative representation and imperative-metaphor overread; primary recoverable use is a representation, relation, predicate, graph object, publication face, evidence relation, or pattern relation being treated as action, route, call, dispatch, permission, release, work, or evidence result | `C.2.P.DR` when no direct governing pattern already closes the claim; direct governing pattern when recovered by value | graph path, `PathSlice`, flow valuation, state predicate, checklist predicate, SQL-like query, table, dashboard, publication face, evidence path, pattern relation, representation, route, path, workflow, lifecycle, dispatch, exit, receiver, call, invoke, run, flow, send, move, or `EvidencePath` wording. | encountered representation, representation kind, represented object or claim, source-expression or publication relation when current, tempting imperative overread, recovered governing pattern, admissible use now, non-admissible overread, stop or reopen condition, and graph, evidence, publication, method, work, gate, or authority pattern named by value when current. | `DeclarativeRepresentationRepair`, graph or path application under `E.18`, evidence or provenance relation under `A.10`, state-family repair under `A.19.SPR`, publication-face use under `E.17`, mathematical-lens use under `C.29`, method, method-description, work, gate, or authority direct application, quote-only cue, reduced-use cue, blocked-use disposition, or stop. |
+| Declarative representation and imperative-metaphor overread; primary recoverable use is a representation, relation, predicate, graph object, publication face, evidence relation, or pattern relation being treated as action, route, call, dispatch, permission, release, work, or evidence result | `C.2.P.DR` when no direct governing pattern already closes the claim; direct governing pattern when recovered by value | graph path, `PathSlice`, flow valuation, state predicate, checklist predicate, SQL-like query, table, dashboard, publication face, evidence-path wording, pattern relation, representation, route, path, workflow, lifecycle, dispatch, exit, receiver, call, invoke, run, flow, send, move, or `EvidencePath` wording. | encountered representation, representation kind, represented object or claim, source-expression or publication relation when current, tempting imperative overread, recovered governing pattern, admissible use now, non-admissible overread, stop or reopen condition, and graph, evidence, publication, method, work, gate, or authority pattern named by value when current. | `DeclarativeRepresentationRepair`, graph or path application under `E.18`, evidence or provenance relation under `A.10`, state-family repair under `A.19.SPR`, publication-face use under `E.17`, mathematical-lens use under `C.29`, method, method-description, work, gate, or authority direct application, quote-only cue, reduced-use cue, blocked-use disposition, or stop. |
 | Architecture and structure; primary recoverable use is selected structure, `ArchitectureOf@Context` relation, conditional `ArchitectureDescription@Context` use, structural view, or named C.30 subcase | `C.30.P` | Architecture-heavy or structure-heavy wording whose EntityOfConcern under repair, relation, or claim is not yet recoverable. | `A.22` selected structure and structural-view discipline, `C.30` `ArchitectureOf@Context`, `C.30.ASV` structural-view and structure-kind discipline, named C.30 subpattern applications, and `C.30.AD` only when full architecture-description mechanism is current. | architecture-structure repair note, repaired wording, selected-structure naming, architecture question, source-return condition, governing-pattern result, ordinary-prose demotion, or stop. |
 | Stratification and source labels; primary recoverable use is hidden behind `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or close engineering source labels | `C.30.STRAT` when the governing pattern is not already recovered; direct governing pattern when it is recovered by value | Engineering, mathematical, publication, project, control, module, neural-network, or architecture prose uses a source label as if it named the FPF kind directly. | Source label, literal source wording, candidate primary EntityOfConcern, recovered FPF kind, recovered relation, recovered claim-use, recovered source-use disposition, governing-pattern selection, admissible use, non-use boundary, and adjacent governing-pattern applications to `C.30.P`, `C.30.LCA`, `A.6.M`, current Architecture Transformation-Flow Structure Relation (`C.30.TFS-REL`), `E.18`, `C.16.P`, `C.29`, `C.2.P`, gate, work, or decision patterns, or ordinary source label. | `StratificationSourceLabelRepairNote`, direct governing-pattern application, ordinary-prose demotion, quote-only, reduced-use, or blocked-use disposition, or stop. |
 | Characteristic and scale; primary recoverable use is characteristic, scale, coordinate, score, comparison, indicator role, or characteristic-space construction | `C.16.P` | Characteristic, scale, coordinate, value, score, indicator, threshold, comparison, metric, axis, dimension, feature, property, level, strong, weak, robust, or benchmark wording whose construction is not yet recoverable. | `A.17` Characteristic, `A.18` CSLC, `C.16` measurement, unit, evidence stub, `A.19` `CharacteristicSpace`, `C.25` Q-bundle, `C.29` mathematical-lens boundary, and `E.21` pattern-quality coordinate discipline. | characteristic-scale repair note, declared `Characteristic`, `Scale`, `Coordinate`, `Value`, and `Score` construction, non-comparability, non-measurement, blocked-gate disposition, governing-pattern result, ordinary-prose demotion, or stop. |
@@ -268,7 +291,7 @@ The sequence is shared; each wording-use restoration case differs by `semanticAr
 
 ### E.10.ARCH:5 - Direct known governing-pattern rule
 
-If the governing pattern and its primary `EntityOfConcern`, relation record, claim record, current ontic slot, relation position, use relation, or claim kind are already recoverable by value, use that governing pattern directly. Do not send direct `C.30`, `C.16`, `C.29`, `E.21`, `E.18`, `A.10`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, publication-face, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
+If the governing pattern and its primary `EntityOfConcern`, relation record, claim record, current ontic slot, relation position, use relation, or claim kind are already recoverable by value, use that governing pattern directly. Do not put direct `C.30`, `C.16`, `C.29`, `E.21`, `E.18`, `A.10`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, evidence, assurance, gate, work, decision, causal-use, release, naming, controlled-coarsening, action-invitation, `A.6.M` module-interface, publication-face, or mathematical-lens cases through a restoration pattern only because a familiar trigger word appears.
 
 Apply `A.6.RSIR`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, or `A.3.1` only when wording hides the EntityOfConcern under repair, relation, role assignment, signature, interface claim, slot, characteristic, scale, score, quality characterization, comparison reference set, source-use disposition, state-family value, method-like slot, declarative-representation use, admissible use, or remaining reader move.
 
@@ -310,7 +333,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `A.3.1` when method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, method-algebra, method-graph, selector-calculus, or programming-paradigm wording hides whether the current slot is method, method relation structure, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
 - use `A.6.RSIR` when relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording hides the current governed object or claim kind and no direct governing pattern is yet clear;
 
-- use `C.2.P.DR` when a declarative representation, graph relation, evidence path, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
+- use `C.2.P.DR` when a declarative representation, graph relation, evidence-path wording, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
 - use the direct governing pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.
 
 ### E.10.ARCH:8 - Name and placement discipline
@@ -341,7 +364,19 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | "Read this pattern for improvement proposals." | Recover whether the current FPF-governed use is source-publication use, bounded comparative review unit, or improvement-oriented evaluation. Use `E.22` only for improvement-oriented quality review under a declared pattern-under-improvement evaluation. | generic reading as a pattern. |
 | "This summary is enough for action." | `E.10` checks whether the wording is precision restoration or controlled precision reduction. If coarsened source-to-rendering use is current, `A.6.3.CSC` names source-bearing side, loss mode, narrower admissible use, non-admissible downstream use, and reopen condition. | summary-as-full source; coarsening without declared loss. |
 
-### E.10.ARCH:10 - Conformance checklist
+### E.10.ARCH:9.1 - Archetypal Grounding
+
+| Situation | E.10.ARCH move | Boundary |
+| --- | --- | --- |
+| Architecture text repeatedly says diagrams, ADRs, dashboards, and views are not architecture. | Use the architecture/structure row and `C.30.P`/`C.30.AD` boundary. | C.30 remains about architecture and selected structures, not a generic diagram-warning pattern. |
+| Method text uses algorithm, workflow, solver, proof, and program as one family. | Use the method/work/P2W constellation row and recover method, method description, formal substrate, mechanism, work plan, dated work, or evidence relation separately. | Do not assign one typed value to several kinds because one source label was shared. |
+| A dashboard or evidence-path wording is treated as permission or release. | Use the declarative-representation row or the direct evidence, gate, authority, or release pattern. | Graph and provenance relations remain legitimate when they are not overread as routes, calls, permissions, or releases. |
+
+### E.10.ARCH:9.2 - Bias-Annotation
+
+This pattern blocks semio-bias in two directions. It prevents subject patterns from becoming patterns about descriptions, records, and wording guards. It also prevents word-replacement bias by requiring recovery of the ontological neighborhood, direct governing pattern, and admissible reader move before a new term is selected.
+
+### E.10.ARCH:10 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
@@ -356,7 +391,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` recognizes the wording-use row, `C.30.STRAT` realizes recurring source-label repair, and governing patterns carry already-recovered control-layer, module-interface, architecture-to-`TransformationFlowStructure`, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. |
 | `CC-E10ARCH-6d` | Admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, and authority wording does not mint a generic admissibility object. The repair recovers bearer, claim kind, source relation, value frame, admissible use, non-admissible overread, and the direct governing pattern; `A.19.SPR` is used only when hidden state-family wording remains. |
 | `CC-E10ARCH-6e` | Method-like and algorithm-like wording first recovers the project concern and then recovers separately governed typed values through the existing method, work, and P2W governing-pattern constellation. `A.3.1` governs the semantic way of doing, `A.3.2` governs descriptions of that way, `A.6.0` and `C.29` govern formal-substrate and mathematical-lens use, `A.6.1` and `E.20` govern mechanism meaning, and work, plan, evidence relation, source relation, gate relation, result relation, or quote-only cases go to their direct governing patterns. One source label may link several typed values, but no typed value is both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits dual typing. Slot-position labels do not create alternate ontology. |
-| `CC-E10ARCH-6f` | Declarative representation overread follows `C.2.P.DR` unless a direct graph, evidence, publication, method, work, gate, authority, or pattern-relation pattern already governs the recovered claim by value. Graph paths and evidence paths remain legitimate graph or provenance relations when that is the current claim; they become repair triggers only when read as routes, calls, dispatches, permissions, releases, work sequences, or evidence results by metaphor. |
+| `CC-E10ARCH-6f` | Declarative representation overread follows `C.2.P.DR` unless a direct graph, evidence, publication, method, work, gate, authority, or pattern-relation pattern already governs the recovered claim by value. Graph paths remain legitimate graph relations when that is the current claim; evidence-path wording is legitimate only after recovery as an evidence or provenance relation. They become repair triggers when read as routes, calls, dispatches, permissions, releases, work sequences, or evidence results by metaphor. |
 | `CC-E10ARCH-6g` | Terminology-source audit is bounded: source-ontology labels are recovered when they affect object, kind, relation, current ontic slot, relation position, use relation, admissible use, or governing-pattern selection; otherwise stable ordinary prose stays ordinary. Slot-shaped material follows `E.24` slot-language, and `interface` is used only under a governing boundary, module-interface, signature, port, publication, or source-label disposition. |
 | `CC-E10ARCH-6h` | Relation-signature-interface-role-slot wording follows the selected two-level architecture: `E.10` recognizes the trigger row, `E.10.ARCH` places the row, `A.6.RSIR` recovers project concern and current EntityOfConcern or claim kind only until a direct governing pattern is clear, and the direct pattern owns the final repair. Do not mint generic `U.Interface`, a standalone role-slot ontic, `U.Concern`, `U.Interest`, or episteme-role ontology. |
 
@@ -365,7 +400,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | `CC-E10ARCH-9` | Repair removes overread and preserves one useful admissible reader move. Type-correct but inert wording is not recovered by value. |
 | `CC-E10ARCH-10` | Validation checks cover duplicate wording-recognition tables, stale quality-term-restoration links, broad `U.*` heads, shadow restoration apparatus, and entry or index drift. |
 
-### E.10.ARCH:11 - Common anti-patterns
+### E.10.ARCH:11 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -380,7 +415,31 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 | Apparatus-preserving paraphrase | A repair changes wording but keeps phrase-level apparatus around a recoverable kind. | Apply `F.19` first; return to `E.10.ARCH` only for remaining word, head, or use precision. |
 | History placement as pattern prose | Past placement or old naming text explains history instead of current use. | Keep only current entry or repair rows where needed; write current pattern prose in the selected placement. |
 
-### E.10.ARCH:12 - Related patterns
+### E.10.ARCH:9.3 - Consequences
+
+**Benefits.** Wording-use restoration stays distributed but coherent; subject patterns stay object-centered; recurring hidden-field families get one recovery architecture instead of many local catalogues.
+
+**Costs.** Authors must decide whether the current case is local `E.10`, a direct governing pattern, an existing restoration row, or a new row with a stable recovery apparatus.
+
+**Risks avoided.** The main avoided risks are semio-bias in subject patterns, lexical substitution without kind recovery, and pattern-nest or placement language masquerading as semantic-area architecture.
+
+### E.10.ARCH:2a - Rationale
+
+This distribution is selected because the recurring failure is not "too few word rules". The failure is that repair-only trigger prose migrates into subject patterns and begins to compete with their primary `EntityOfConcern` and first useful moves. A common symptom is a non-semio pattern whose Solution mainly teaches that a description, view, publication, record, card, diagram, source, or file is not a permission, promise, prescription, evidence record, assurance verdict, decision, gate passage, release, work occurrence, or authority source. Those guards are often correct, but their ontology is publication pragmatics, description pragmatics, and neighboring-pattern assignment, not the subject matter of the architecture, method, role, evidence, or characterization pattern. A workable FPF answer therefore needs three separations at once: a cheap shared trigger scan in `E.10`, a shared recovery architecture in `E.10.ARCH`, and local realization only where a named `semanticArea` has stable row identity, a stable field set, an `ontologicalNeighborhood`, and a remaining reader move.
+
+
+### E.10.ARCH:2a.1 - SoTA-Echoing
+
+| Source or practice line | Source-use function or relation | What the line changes in `E.10.ARCH` |
+| --- | --- | --- |
+| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, assigns relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
+| Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin governing-pattern pointers and blocks local wording-recognition-table copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
+| Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
+| Current governing-pattern coverage in FPF. | Applicability boundary for this architecture, not evidence that E.10.ARCH owns every wording-use case. | Uses the direct governing pattern when that pattern can carry the EntityOfConcern under repair, relation, claim, or local field directly; reopens E.10.ARCH only when the shared distribution rule itself no longer fits. |
+
+The selected architecture is lowered or reopened when one of those source lines changes: if `E.10` can close the issue locally, if a new governing pattern removes the need for a restoration row, if a realization pattern needs a different stable field set, or if subject patterns again start carrying duplicated first-stage trigger registries.
+
+### E.10.ARCH:12 - Relations
 
 - `E.10` recognizes and closes local wording issues or selects the applicable row.
 - `A.6.RSIR` realizes first-level recovery for the relation, signature, interface, role, and slot cluster only until the direct governing pattern is clear.
@@ -403,7 +462,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - `F.19` governs phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
-- `E.11` governs entry-distribution and sends broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.
+- `E.11` governs entry-distribution and assigns broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.
 
 ### E.10.ARCH:End
 

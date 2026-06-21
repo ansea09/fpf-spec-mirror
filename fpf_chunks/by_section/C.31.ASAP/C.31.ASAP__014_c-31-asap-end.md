@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:End"
 section_title: "C.31.ASAP:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__014_c-31-asap-end.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:End — C.31.ASAP:End"
-line_start: 56228
-line_end: 56231
+line_start: 58088
+line_end: 58091
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,5 +49,5 @@ keywords:
 
 ### C.31.ASAP:End
 
-# **Part D – Multi-scale Ethics & Conflict-Optimisation**
+# **Part D - Multi-scale Ethics and Conflict Optimization**
 

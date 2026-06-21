@@ -6,12 +6,12 @@ section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:9 — Consequences"
-line_start: 16368
-line_end: 16385
+line_start: 16638
+line_end: 16655
 dependencies:
   - "A.10"
   - "A.14"
@@ -64,5 +64,5 @@ keywords:
 A team has adopted A.6.6 if, for any decision-relevant “relative-to” statement, it can produce a resolvable tuple
 `〈dependent, base, baseRelation, scope, Γ_time?, witnesses?〉`
 and can classify any update as one of:
-`declareBase / withdrawBaseDecl / rebase / repointDependent / rescope / retime / refreshWitnesses / changeBaseRelation`.
+`declareBase`, `withdrawBaseDecl`, `rebase`, `repointDependent`, `rescope`, `retime`, `refreshWitnesses`, and `changeBaseRelation`.
 

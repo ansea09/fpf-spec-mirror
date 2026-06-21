@@ -6,12 +6,12 @@ section_id: "C.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:2 — Problem"
-line_start: 40203
-line_end: 40220
+line_start: 41634
+line_end: 41643
 dependencies:
   - "A.13"
   - "A.18"
@@ -51,12 +51,4 @@ One question is still generating candidate options, variants, or open-ended sear
 A second distortion appears when decision theory is reduced to one thin slogan about expected utility. Real choosers face evidential and causal distinctions, subjunctive or success-first cases, probe costs, information value, computation value, and situations where the chooser is not just one isolated individual.
 
 Without one explicit place for choice calculus, search, candidate-pool policy, and planning rush into the same question, while the actual doctrine of choosing among live options disappears behind generic talk about rationality.
-
-| Force | Tension |
-| --- | --- |
-| Choice doctrine versus option generation | `C.11` must govern choice among already-available options without swallowing `C.18` search and candidate-generation work. |
-| Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
-| Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
-| Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
-| Minimal mathematical floor versus premature heavy formalism | The pattern needs a stable object stack for disciplined reasoning and inspection, but it should not pretend that one full quantum-like or geometry-heavy package is already settled. |
 

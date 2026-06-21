@@ -6,12 +6,12 @@ section_id: "C.29:6"
 section_title: "Naming, ontology, and epistemic precision-restoration account"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__008_naming-ontology-and-epistemic-precision-restoration-account.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:6 — Naming, ontology, and epistemic precision-restoration account"
-line_start: 51708
-line_end: 51753
+line_start: 53317
+line_end: 53362
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -109,7 +109,7 @@ When one `C.29` application needs a mathematical-lens name to become reusable ou
 | Source compound fields that merge dynamics reference and transition-law reference | Rewritten as separate `DynamicsRef?` and `TransitionLawRef?` fields. |
 | Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `CausalUseSupportRecordRef` only when that neighboring-pattern application or causal-use record ref is being cited. |
 | `ExportPolicy` | Split into `declaredLensUse`, `blockedLensOverread`, and optional `ExportPolicyRef?`. |
-| free intensity qualifier | Replace with named adequacy fields, evidence path, scale construction, comparability construction, lens-use boundary value, and stop-condition wording. |
+| free intensity qualifier | Replace with named adequacy fields, evidence relation, scale construction, comparability construction, lens-use boundary value, and stop-condition wording. |
 | `model`, `lens`, `math` as prestige heads | Recovered as `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, and `LensUseBoundaryValue`. |
 | Causal or assurance implications | Recovered as `CausalUseDisposition?` and `AssuranceUseDisposition?`, with `C.28`, `A.10`, `B.3`, and G-patterns as neighboring governors. |
 

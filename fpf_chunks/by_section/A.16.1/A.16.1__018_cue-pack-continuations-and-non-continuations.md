@@ -6,12 +6,12 @@ section_id: "A.16.1:17"
 section_title: "Cue-Pack Continuations and Non-Continuations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__018_cue-pack-continuations-and-non-continuations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:17 — Cue-Pack Continuations and Non-Continuations"
-line_start: 22947
-line_end: 22975
+line_start: 23539
+line_end: 23567
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -60,8 +60,8 @@ Those are not just later stages of the same text. They are different governing f
 #### A.16.1:17.3 - Multi-direction state versus lineage fork
 Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one governed publication.
 
-A fork happens only after distinct successor publications are actually issued, each with distinct authority or handoff consequences. Reviewers should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
+A fork happens only after distinct successor publications are actually issued, each with distinct authority or successor-publication consequences. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
 
 #### A.16.1:17.4 - Split and merge cases
-One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Both cases are admissible if the continuity and later route consequences are published explicitly.
+One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Both cases are admissible if the continuity and later successor-publication consequences are published explicitly.
 

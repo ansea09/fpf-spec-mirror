@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
-line_start: 72828
-line_end: 73120
+line_start: 75517
+line_end: 75807
 dependencies:
   - "A.15"
   - "A.2"
@@ -115,7 +115,7 @@ Without this pattern:
 | Force | Tension |
 | --- | --- |
 | Local idiom vs cross-context neutrality | RoleDescription labels must sound right inside one context; U-kind names must not privilege one witness context. |
-| Brevity vs kind recovery | Names must be usable, but the reader must still recover whether the named value is a type, role, status, method, work, relation, or episteme-use relation. |
+| Brevity vs kind recovery | Names must be usable, but the reader must still recover whether the named value is a kind, role, status, method, work, relation, or episteme-use relation. |
 | Teaching vs widening | Plain labels should help readers, not broaden the Tech label's meaning. |
 | Stability vs changed meaning | Names should remain stable across edition or publication changes, but real sense change must split or rename with lineage. |
 | Morphology vs ontology | Word form should hint at kind, but suffixes are not ontology. A word ending in `Role` does not create `U.Role`. |
@@ -263,7 +263,7 @@ Use this checklist on each durable name governed by F.5.
 | `CC-F5-5` | Context, edition, source, and witness provenance are not baked into the main label. |
 | `CC-F5-6` | A U-kind name is neutral with respect to witness contexts unless the Concept-Set row shows that the source term is genuinely shared. |
 | `CC-F5-7` | A RoleDescription label names a work-facing `U.Role`; it does not encode assignment, capability, method, work, status, evidence, permission, or publication. |
-| `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, and relation-slot names are sent to direct governing patterns before durable naming. |
+| `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, and relation-slot names remain governed by direct patterns before durable naming. |
 | `CC-F5-9` | Alias, symbol, previous term, or translation use is marked as alias or lineage, not a second Tech label. |
 | `CC-F5-10` | Public or cross-context reuse invokes `F.18`, `F.17`, or `F.9` as needed. |
 
@@ -308,7 +308,7 @@ The key design choice is to split naming by meaning source rather than by source
 
 This also keeps F.5 smaller than F.18. F.18 governs the fuller local-first naming protocol, Name Cards, candidate fronts, lineage, and public naming. F.5 supplies the special discipline needed by U-kind names and RoleDescription labels so that Part F does not preserve role and status fusion.
 
-### F.5:11 - SoTA-Echoing and Source-Use
+### F.5:11 - SoTA-Echoing - Source-Use
 
 | Practice line | What FPF adopts | Practical implication |
 | --- | --- | --- |
@@ -329,8 +329,6 @@ Source-use boundary: external labels are evidence for local meaning or common pr
 **Used by.** Part F unification patterns, role-description authors, Concept-Set authors, E.10 repairs that uncover naming rather than only phrase-use issues, and any FPF pattern that creates a durable local name for a U-kind or work-facing role label.
 
 **Does not replace.** Direct evidence-use, status-use, requirement-use, source-use, publication-use, assurance, gate, decision, relation-signature, method, work, or architecture patterns.
-
-### F.5:13 - Footer Marker
 
 ### F.5:End
 

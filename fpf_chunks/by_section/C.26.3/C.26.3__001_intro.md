@@ -6,12 +6,12 @@ section_id: "C.26.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:intro — Intro"
-line_start: 47464
-line_end: 47469
+line_start: 49056
+line_end: 49061
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ## C.26.3 - Viability-Envelope Boundary Regulation
 
-> Type: Architectural pattern
-> Status: Stable
-> Normativity: Normative unless explicitly marked informative
+> **Type:** Architectural pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
 

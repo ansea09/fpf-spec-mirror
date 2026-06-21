@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
-line_start: 71878
-line_end: 72174
+line_start: 74567
+line_end: 74863
 dependencies:
   - "A.11"
   - "A.7"
@@ -67,7 +67,7 @@ F.2 prevents these by **localising** meaning and **naming** strictly **inside** 
 ### F.2:4 - Core idea (didactic)
 
 **Harvest *inside* each Context; name *in that Context’s idiom*; do not cross Contexts.**
-For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought‑cues*, choose a **Local Normal Form (LNF)** that matches the Context’s idiom, attach a **two‑register label** (Tech/Plain), and write a **one‑sentence gloss**. That’s all. You do **not** claim sameness with any other Context; you do **not** embed behaviour or deontics; you do **not** mint U.Types here. These *local lexical units* will become **Local‑Senses** in F.3 and later addressable **SenseCells** (Context × Local‑Sense).
+For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought-cues*, choose a **Local Normal Form (LNF)** that matches the Context's idiom, attach a **two-register label** (Tech/Plain), and write a **one-sentence gloss**. That's all. These *local lexical units* become **Local-Senses** in F.3 and later addressable **SenseCells** (Context x Local-Sense). Cross-context sameness, behavioural claims, deontics, and durable kindhood are handled by F.9, A.15, E/E-LOG, or admission under E.24.UK and C.3 when those claims are being made.
 
 ### F.2:5 - Minimal vocabulary (this pattern only)
 
@@ -233,7 +233,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
   **Tech:** `procedure` - **Plain:** `measurement recipe`
   **Gloss:** “Specification guiding how an observation is produced.”
 
-*Thinking pay‑off:* discourages treating an FCA “concept” as a `U.Type`, or a **procedure** as a **method** without later proof.
+*Thinking pay-off:* discourages treating an FCA "concept" as a root kind, or a **procedure** as a **method** without later proof.
 
 ### F.2:12 - Reasoning primitives (judgement schemas, notation‑free)
 

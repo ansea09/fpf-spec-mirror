@@ -1,39 +1,33 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.5"
-pattern_title: "Bias-Audit & Ethical Assurance"
-section_id: "D.5:2"
+pattern_title: "Bias Audit and Ethical Assurance"
+section_id: "D.5:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "D.5 — Bias-Audit & Ethical Assurance"
-  - "D.5:2 — Problem"
-line_start: 56246
-line_end: 56253
+  - "D.5 — Bias Audit and Ethical Assurance"
+  - "D.5:1.0 — Problem"
+line_start: 58667
+line_end: 58670
 dependencies:
+  - "A.10"
   - "B.3"
-  - "B.3.3"
+  - "C.16"
   - "C.28"
+  - "D.1"
+  - "D.2"
+  - "D.3"
+  - "D.4"
+  - "E.13"
+  - "E.17"
   - "E.5.4"
 keywords:
-  - "AI ethics"
-  - "assurance"
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "responsible AI"
-  - "review cycle"
-  - "taxonomy"
 ---
 
-### D.5:2 - **Problem**
+### D.5:1.0 - Problem
 
-Without a formal, repeatable method for surfacing and mitigating these biases, FPF models risk becoming "flawed by design." This leads to three critical failure modes:
-
-1.  **Systemic Harm:** The deployed holon, despite meeting all its technical specifications, causes unintended negative consequences for certain groups or in certain contexts.
-2.  **Eroded Trust:** Stakeholders or the public lose trust in the system (and its creators) when its inherent biases are exposed after deployment.
-3.  **Hidden Risk:** The assurance case looks well-supported on paper, but it is built on a foundation of unexamined and potentially dangerous assumptions, creating a significant hidden risk.
+Bias, fairness, human-impact, causal-fairness, and ethical-assurance concerns can remain invisible after ordinary technical verification. The failure is to let the model, metric, policy, publication, method, work plan, system, or holon be treated as admissible for use while the audited EntityOfConcern, intended use, affected people or groups, evidence, mitigation, and residuals are not explicit.
 

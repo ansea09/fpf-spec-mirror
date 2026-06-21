@@ -1,41 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.6"
-pattern_title: "Γ\\_work — Work as Spent Resource"
-section_id: "B.1.6:3"
+pattern_title: "Work-Resource Aggregation"
+section_id: "B.1.6:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.6 — Γ\\_work — Work as Spent Resource"
-  - "B.1.6:3 — Forces"
-line_start: 31219
-line_end: 31227
+  - "B.1.6 — Work-Resource Aggregation"
+  - "B.1.6:1.1 — Forces"
+line_start: 31838
+line_end: 31847
 dependencies:
-  - "A.12"
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "B.1"
-  - "B.1.2"
   - "B.1.4"
-  - "B.1.5"
-  - "C.5"
+  - "B.2"
+  - "B.2-family"
+  - "B.2.P"
+  - "C.13"
+  - "C.16"
+  - "C.27"
+  - "C.29"
+  - "E.17"
 keywords:
-  - "Resrc-CAL"
-  - "cost"
-  - "energy consumption"
-  - "resource aggregation"
-  - "work"
 ---
 
-### B.1.6:3 - Forces
+### B.1.6:1.1 - Forces
 
-| Force                                               | Tension                                                                                                                        |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Conservation vs. Abstraction**                    | Totals must obey material/energy/information conservation ↔ models must stay simple and readable.                              |
-| **Run‑time measurability vs. Design‑time planning** | We need measurable deltas at run‑time ↔ we also need ex‑ante yields from MethodDescription to plan.                                   |
-| **Heterogeneous units vs. Unified sums**            | Resources come in different units (joules, kg, bits) ↔ we still need composite statements (vectors, typed sums).               |
-| **Safety vs. Synergy**                              | Weakest‑link bounds must cap availability ↔ redundancy or substitution can improve feasibility but belongs to emergence (B.2). |
+| Force | Tension |
+| --- | --- |
+| Measured work vs. planned work | Expected yield, duration, or resource use helps planning, but cannot prove performed-work resource use. |
+| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume, and attention can be compared only after their basis and conversion relation are declared. |
+| Boundary accounting vs. local convenience | Resource values are useful only when the holon delimitation, boundary-crossing relation, stock relation, and time window are named. |
+| Additivity vs. shared stocks | Disjoint partitions can be added; shared meters, tools, people, inventories, data, or ports need overlap and deduplication policy. |
+| Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
 section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 17678
-line_end: 17745
+line_start: 17956
+line_end: 18023
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -70,7 +70,7 @@ Didactic hook: “Overlap only: share labels; do not substitute without guards/r
 **Show B (change narration, later evidence):**
 After hard constraints are added (e.g., “human‑verified email”, “not a service account”), a team wants higher-licence reuse in the ticketing integration.
 
-*Do not write:* “Now they are equivalent / now the mapping is fixed.”
+*Do not write:* “Now they are equivalent” or “now the mapping is fixed.”
 *Write:*
 
 0. Keep the broad Bridge **as‑is** (Naming‑only, overlap): it remains the correct “shared label” relation for the unguarded endpoints.

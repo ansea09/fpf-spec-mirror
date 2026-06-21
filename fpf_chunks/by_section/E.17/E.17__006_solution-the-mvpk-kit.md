@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 64186
-line_end: 64536
+line_start: 66817
+line_end: 67167
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -172,7 +172,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 
 | Present claim or effect question | Apply or recover |
 | --- | --- |
-| Is the publication-facing unit being used to guide a work or reliance move by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the question under repair, use it directly. |
+| Is the publication-facing unit being used to guide a work or reliance move by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the live question, use it directly. |
 | Is the publication-facing unit being used as evidence, provenance, attestation, currentness, freshness, or claim-bound evidence relation? | `A.10` evidence, provenance, or currentness path for the claim named by value. |
 | Is the publication-facing unit being used as engineering justification, assurance, confidence, readiness, or limitations relation? | `B.3` assurance or engineering-justification claim with evidence, limits, and decay explicit. |
 | Is the publication-facing unit being used as gate passage, constraint validity, adjudication, or release decision source? | `A.20` or `A.21` project records, including gate profile, constraint profile, decision record, log reference, scope, window, replay reference and freshness reference. |
@@ -183,7 +183,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |
 | Did the EntityOfConcern, target, ontology frame, or claim or relation record named by value change? | `A.6.4`, `OntologicalReframing`, or the retargeting or reframing pattern named by value. |
 | Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` for repairing "same", "equivalent", "align", or "map" wording into explicit bridge work; use `F.9` or `F.9.1` for Bridge Cards, bridge kind, direction, `CL`, loss notes, bounded use, and stance overlays. Comparison alone is not a bridge. |
-| Is the question under repair carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
+| Is the live question carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
 
 **Evidence-path boundary.** An `A.10` evidence, provenance, attestation, freshness, or currentness path carries only the claim named by value it instantiates. It does not approve or authorize work, pass a gate, perform work, supply release permission, or raise assurance or engineering-justification use unless the typed project-side value named by value and reference that carries that downstream claim is also instantiated, such as `A.15.4`, `A.15`, `A.20`, `A.21`, or `B.3`.
 
@@ -197,7 +197,7 @@ Local review fields and values in CR, RT, CSC, EFP, ID.CR, or a neighboring publ
 
 Use the FPF pattern that governs the claim being made or effect under use. Keep any local review field local, preserve reduced bounded use, and assign only the unsupported wider claim or effect to its governing source relation.
 
-**Source-relation minimality.** Name the smallest FPF source relation named by value sufficient for the use under repair. A source pointer, source-exposure relation, evidence path, engineering-justification record, gate decision, and release decision are different FPF relations; choosing one does not license another. Do not apply `A.10`, `B.3`, `A.20`, or `A.21` when the use under repair only needs source finding, orientation, or inspection of an existing source `U.Episteme`, source `U.EpistemePublication`, or status-register entry.
+**Source-relation minimality.** Name the smallest FPF source relation named by value sufficient for the live use. A source pointer, source-exposure relation, evidence path, engineering-justification record, gate decision, and release decision are different FPF relations; choosing one does not license another. Do not apply `A.10`, `B.3`, `A.20`, or `A.21` when the live use only needs source finding, orientation, or inspection of an existing source `U.Episteme`, source `U.EpistemePublication`, or status-register entry.
 
 **Local repair vs publication redesign.** A local epistemic precision repair is enough only when it can preserve the current publication face or `PublicationUnit` while fixing one head, boundary, source relation, bounded use, explanation class, or unsupported downstream claim. If layout, grouping, visual emphasis, comparison arrangement, generated explanation, hidden source limitation, or mixed EntityOfConcern packaging still induces overread after the local relation is repaired, create a redesigned publication face or `PublicationUnit` instead of adding warning text around the misleading form.
 
@@ -225,7 +225,7 @@ Use the FPF pattern that governs the claim being made or effect under use. Keep 
 
 This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that makes the operative claim recoverable by value and source pins survive in the new publication-facing unit.
 
-**Reader position is not project role.** Reader position, audience, target user model, verifier position, reviewer position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
+**Reader position is not project role.** Reader position, audience, target user model, verifier position, review-reader position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
 
 **Source-gap states.** When the source relation is missing, say which source gap is present: source not named; source named but unavailable; source available but not used; source used but insufficient; source stale or outside its window; source contradicted; source accountable role or register mismatch. Block only the unsupported effect and keep any reduced bounded use available.
 

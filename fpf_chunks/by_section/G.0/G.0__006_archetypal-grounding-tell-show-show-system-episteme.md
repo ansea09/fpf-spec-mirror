@@ -6,12 +6,12 @@ section_id: "G.0:5"
 section_title: "Archetypal Grounding — Tell–Show–Show; System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:5 — Archetypal Grounding — Tell–Show–Show; System / Episteme"
-line_start: 78786
-line_end: 78814
+line_start: 81546
+line_end: 81574
 dependencies:
   - "A.10"
   - "A.17"
@@ -43,8 +43,8 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
+  - "admissibility gate"
   - "edition pins"
-  - "legality gate"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"

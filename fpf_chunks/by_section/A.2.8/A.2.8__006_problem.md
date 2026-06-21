@@ -6,12 +6,12 @@ section_id: "A.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__006_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:2 — Problem"
-line_start: 5185
-line_end: 5195
+line_start: 5341
+line_end: 5351
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -49,6 +49,6 @@ How can FPF represent a deontic commitment relation so that:
 2. **Modality is explicit and lintable** (obligation, permission, prohibition, and strength),
 3. **Scope and validity window are explicit** (bounded context + time + conditions),
 4. **The content is referenceable** via stable referent claim IDs (promise contents, gates, evidence targets, etc.),
-5. **Adjudication hooks exist** when the binding is meant to be testable/auditable (links to evidence claims and carrier expectations),
+5. **Adjudication hooks exist** when the commitment is meant to be testable/auditable (links to evidence claims and carrier expectations),
 6. **Conflicts can be represented** (without requiring this pattern to solve them).
 

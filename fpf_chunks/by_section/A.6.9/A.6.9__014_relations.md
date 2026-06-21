@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
 section_id: "A.6.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:12 — Relations"
-line_start: 17840
-line_end: 17846
+line_start: 18118
+line_end: 18124
 dependencies:
   - "A.6.6"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:intro — Intro"
-line_start: 20764
-line_end: 20794
+line_start: 21310
+line_end: 21340
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -61,7 +61,7 @@ keywords:
 
 **First-use checks.**
 1. Name the candidate occurrence and the work-facing claim that depends on it.
-2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, system or subsystem accountable for the occurrence, affected referent, parameters, resources, outcome, and evidence relation when current.
+2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, accountable `U.System` or system in subsystem position, affected referent, parameters, resources, outcome, and evidence relation when current.
 3. Decide whether the encountered record, trace, or source candidate or display is performed `U.Work`, only a plan (`A.15.2`), only a method (`A.3.1`), only a method description (`A.3.2`), only evidence for work (`A.10`), only a publication-use relation (`E.17`), only a declarative representation (`C.2.P.DR` or the direct representation pattern), or a work-relevant source-restoration case (`A.15.4`).
 4. For composite, repeated, interrupted, or overlapping occurrences, declare the work-part relation and aggregation policy before using totals or identity claims.
 5. If the required occurrence references cannot be recovered, lower the claim to a source-gap note, work-evidence note, plan note, publication-use note, declarative-representation note, or source-restoration request; do not backdate work.

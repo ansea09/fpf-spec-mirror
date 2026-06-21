@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
-line_start: 2206
-line_end: 2549
+line_start: 2268
+line_end: 2611
 dependencies:
   - "A.15"
   - "A.2"
@@ -42,7 +42,7 @@ Typical moments:
 - a work record says that "Alice reviewed", "Robot-7 inspected", "CI bot deployed", or "the operations team approved" and the role, holder, bounded context, or assignment window is missing;
 - a method or method description names required roles, but the project has not linked those roles to concrete performers;
 - a role state, capability requirement, separation-of-duties rule, or work gate depends on who holds the role now;
-- an old source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be repaired without making epistemes into work performers;
+- a source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be normalized without making epistemes into work performers;
 - a local notation such as `Holder#Role:Context@Window` is useful, but the notation must not replace the typed relation it abbreviates.
 
 **Primary EntityOfConcern.** The EntityOfConcern is `U.RoleAssignment`: a typed work-facing assignment relation value. It links an admitted acting holder, a `U.Role`, a `U.BoundedContext`, and any assignment-currentness window or assignment source that is current for the claim.
@@ -199,7 +199,7 @@ A `U.Work` record may cite `performedBy = some U.RoleAssignment`. That citation 
 
 #### A.2.1:4.6 - RoleEnactmentFact
 
-Older FPF text used `U.RoleEnactment`. Current FPF treats role enactment as a derived relation or fact over `U.Work` and `U.RoleAssignment`, not as a durable U-kind.
+Source text may name `U.RoleEnactment` or `RoleEnactment`. In FPF, role enactment is a derived relation or fact over `U.Work` and `U.RoleAssignment`, not a durable U-kind.
 
 Use this named fact only when a named relation is clearer than direct `performedBy` wording:
 
@@ -280,7 +280,7 @@ Later, another team may use the report as evidence for a claim. That later relat
 
 The source sentence "ISO 26262 has the normative standard role in this safety case" is repaired as a standard-use or requirement-use relation around an episteme. If a safety engineer performs work using that standard, the engineer or engineering team may hold a work-facing role assignment. The standard constrains, defines, or supplies source material; it does not perform work and does not become a holder in `U.RoleAssignment`.
 
-### A.2.1:6 - Bias Annotation
+### A.2.1:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
@@ -360,7 +360,7 @@ The open-world slot model is deliberate. FPF should not require dummy windows or
 - `A.2.7` for context-local role relation structure.
 - `A.15`, `A.15.1`, and `A.15.2` for method, work plan, work occurrence, and performed-by relation.
 - `A.3.1` and `A.3.2` for method and method-description required-role relations.
-- `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, and `E.10.D2` for evidence-use, status-use, source-use, publication-use, assurance, causal-use, and description-boundary cases that older text tried to express as episteme roles.
+- `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, and `E.10.D2` for evidence-use, status-use, source-use, publication-use, assurance, causal-use, and description-boundary cases that source text tries to express as episteme roles.
 
 **Does not replace.**
 

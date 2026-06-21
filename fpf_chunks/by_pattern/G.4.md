@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
-line_start: 80263
-line_end: 80733
+line_start: 83023
+line_end: 83493
 dependencies:
   - "A.10"
   - "A.18"
@@ -41,9 +41,9 @@ keywords:
   - "CAL authoring"
   - "RSCRTriggerKindId"
   - "acceptance clauses"
+  - "admissibility gates"
   - "edition pins"
   - "evidence profiles"
-  - "legality gates"
   - "operators"
   - "tri-state admissibility"
   - "Γ-fold hooks"

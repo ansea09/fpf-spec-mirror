@@ -6,23 +6,28 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 59984
-line_end: 60069
+line_start: 62412
+line_end: 62497
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -56,7 +61,7 @@ keywords:
 * **Why:** This resolves inconsistent “role carrier” and “role-assigned holon/system” usage: use **`U.RoleAssignment`** for the contextual assignment of a holon/system to a `…Role`; keep **“Carrier”** for the system that carries or makes available a symbol of episteme.
 * **Rewrite note.** `…CarrierRole` used for a role-assigned holon/system **MUST be rewritten** to an explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`. Use SCR-LEX to enforce the rewrite.
 * **Do:** `ReviewerRole` (or `AssessorRole`), `U.RoleAssignment(holderRef=TeamAlpha, roleRef=ReviewerRole, boundedContextRef=JournalIssue42Context)`; `LeanTraditionCarrier (U.Holon)`, independent of any particular role assignment.
-**Don’t:** `Reviewer` (as a kernel type), `ReviewerCarrier` (to mean a role-assigned holon/system), `SystemReviewer` (role collapsed into a type).
+**Don’t:** `Reviewer` (as a U-kind), `ReviewerCarrier` (to mean a role-assigned holon/system), `SystemReviewer` (role collapsed into a system kind).
 **Onto4 — Domain only as a catalog mark**  *(ref. E.10.D1 D.CTX; publish stitching on UTS)*
 * **Rule:** `Domain` is **not a kernel kind** and carries **no semantics, inheritance, or reasoning rights**. It is a **catalog mark** that groups several `U.BoundedContext` entries.
 * **Required stitching (see D.CTX and UTS).** Any use of `Domain` **MUST** present: 1. the enumerated list of `ContextId` in **D.CTX**, and 2. the corresponding **UTS strings** (F.17) with twin labels.

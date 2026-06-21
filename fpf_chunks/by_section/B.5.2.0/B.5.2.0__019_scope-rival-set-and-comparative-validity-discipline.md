@@ -6,12 +6,12 @@ section_id: "B.5.2.0:17"
 section_title: "Scope, rival-set, and comparative-validity discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__019_scope-rival-set-and-comparative-validity-discipline.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:17 — Scope, rival-set, and comparative-validity discipline"
-line_start: 34336
-line_end: 34358
+line_start: 35609
+line_end: 35631
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 
 ### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
 
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If scope remains unbounded, rival hypotheses will later become incomparable because they are answering different questions.
+A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If scope remains unbounded, rival hypotheses become incomparable because they are answering different questions.
 
 A prompt need not list full hypotheses yet, but it should make visible whether rival answer types are already imaginable. If no rival answer space is even latent, the publication may still be a cue or orientation note rather than a true abductive prompt.
 
@@ -47,16 +47,16 @@ A prompt may be narrowed to become more discriminating, but the narrowing must n
 
 Prompts may be compared across contexts only when their species, scope, and provenance are explicit. A probe-shaped question and an opportunity-shaped question are not the same kind of abductive entry merely because both invite explanation.
 
-One note may legitimately contain a bundle of closely related prompts. If so, the bundle members should be distinguishable and still allow later rival comparison without confusion.
+One note may legitimately contain a bundle of closely related prompts. If so, the bundle members should be distinguishable and still allow downstream rival comparison without confusion.
 
-A reviewer can test prompt readiness with three questions:
+An assurance reader can test prompt readiness with three questions:
 
 1. **Is there a real open question?** If the text already asserts the answer, it is no longer a prompt.
-2. **Is the prompt species plausible?** If the initiating pressure is opportunity-shaped or probe-shaped, forcing anomaly species is a category error.
+2. **Is the prompt species plausible?** If the initiating cue shape is opportunity-shaped or probe-shaped, forcing anomaly species is a category error.
 3. **Could rival hypotheses now be compared against this prompt?** If not, the prompt candidate probably needs more stabilization before entering `B.5.2`.
 
 Add three follow-up checks:
 
-- **Is the scope tight enough for later comparison?**
+- **Is the scope tight enough for downstream comparison?**
 - **Is there an imaginable rival-set, even if not yet fully written?**
 - **Is the narrowing still a question rather than a disguised answer?**

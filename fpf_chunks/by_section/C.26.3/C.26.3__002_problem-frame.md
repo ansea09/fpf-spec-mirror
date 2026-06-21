@@ -6,12 +6,12 @@ section_id: "C.26.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:1 — Problem frame"
-line_start: 47470
-line_end: 47492
+line_start: 49062
+line_end: 49088
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,10 @@ keywords:
 ### C.26.3:1 - Problem frame
 
 Use this pattern when architecture work is maintaining, recovering, or changing viable operating ranges across boundaries. The working problem is not "optimize one metric"; it is "keep a bundle of characteristics inside a viable region while disturbances, probes, actuators, boundary conditions, and operating regimes change."
+
+**What goes wrong if missed.** The team treats one dashboard value, stability slogan, or local metric as viability, while another envelope variable, actuator cost, boundary condition, or failure mode is already breaking the protected promise or function.
+
+**What this buys.** The viability claim becomes an inspectable envelope-regulation decision: bearer, protected promise or function, variables, disturbances, sensors or probes, actuators, boundary condition, adaptation cost, and failure mode are all named before acting.
 
 Most envelope work covered by this pattern is ordinary control, quality, SRE, causal, or work discipline, not QL. FEP, allostasis, and active inference are source analogies for envelope discipline, sensor and action coupling, and partial observability; ordinary control, SRE, quality-bundle, causal, and work patterns remain primary unless probe, order, export, or coarsening cue remains load-bearing after ordinary viability, quality, dynamics, measurement, boundary, and work patterns have carried their part.
 

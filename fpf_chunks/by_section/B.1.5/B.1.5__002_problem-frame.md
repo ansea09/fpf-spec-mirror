@@ -6,12 +6,12 @@ section_id: "B.1.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:1 — Problem frame"
-line_start: 30867
-line_end: 30879
+line_start: 31491
+line_end: 31503
 dependencies:
   - "A.12"
   - "A.14"

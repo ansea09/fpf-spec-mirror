@@ -6,12 +6,12 @@ section_id: "A.2.8:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__009_archetypal-grounding-tell-show-show.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 5340
-line_end: 5379
+line_start: 5496
+line_end: 5535
 dependencies:
   - "A.15.1"
   - "A.2"

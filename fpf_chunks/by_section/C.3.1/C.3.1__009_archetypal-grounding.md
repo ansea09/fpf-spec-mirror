@@ -1,0 +1,41 @@
+---
+chunk_kind: "child"
+pattern_id: "C.3.1"
+pattern_title: "U.Kind and U.SubkindOf Core"
+section_id: "C.3.1:7"
+section_title: "Archetypal Grounding"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "C.3.1 — U.Kind and U.SubkindOf Core"
+  - "C.3.1:7 — Archetypal Grounding"
+line_start: 39983
+line_end: 39990
+dependencies:
+  - "A.1"
+  - "A.11"
+  - "A.2.6"
+  - "A.8"
+  - "C.2.3"
+  - "C.3"
+  - "C.3.2"
+  - "C.3.3"
+  - "E.24.UK"
+  - "F.5"
+  - "F.8"
+keywords:
+  - "kind"
+  - "partial order"
+  - "subkind"
+  - "type hierarchy"
+---
+
+### C.3.1:7 - Archetypal Grounding
+
+| Situation | C.3.1 move | Boundary |
+| --- | --- | --- |
+| "Cooling pump is a pump." | Declare a context-local `U.SubkindOf(CoolingPumpKind, PumpKind)` relation. | Do not infer a durable `U.CoolingPump` root kind. |
+| "WorkPlan depends on Work." | Use the governing work or E.24.UK relation. | Do not encode dependency as `U.SubkindOf` unless a real kind partial order is being claimed. |
+| "Safety-critical function is a kind of function." | Use a local `U.Kind` and subkind order for the current claim. | Membership and intent detail go to C.3.2; public FPF naming goes to Part F after U-kind admission. |
+

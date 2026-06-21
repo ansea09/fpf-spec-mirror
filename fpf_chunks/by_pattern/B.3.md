@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-line_start: 32265
-line_end: 32856
+line_start: 33481
+line_end: 34082
 dependencies:
   - "A.10"
   - "A.14"
@@ -65,6 +65,10 @@ keywords:
 > B.3 defines how assurance or trust is assigned, aggregated, and reused for physical systems, epistemes, and publication or evidence records that are used to claim assurance. It uses one typed assurance tuple, F-G-R: `F` and `R` as characteristics, `G` as the scope value, plus edge-scoped `CL`; the aggregation rules stay conservative, respect the current composition, transformation, temporal, and work invariants named by their governing patterns, and keep the A.7 EntityOfConcern and description strict distinction. It treats the E.14 Working-Model layer as the publication-facing assertion layer for claims, with assurance inputs attached downward from Mapping, Logical, Constructive, and Empirical Validation layers.
 
 **Use this when.** Use `B.3` when a claim, label, dashboard, evidence bundle, model, report, gate decision, or assurance-input package is being used to raise assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` for a named claim.
+
+**What goes wrong if missed.** Labels, dashboards, model cards, credentials, provenance marks, gate decisions, or evidence bundles start raising trust or readiness without one typed assurance claim, named evidence, scope, limitations, decay, and relying context.
+
+**What this buys.** Assurance becomes a conservative typed claim over `F`, `G`, `R`, and edge-scoped `CL`, with explicit evidence, scope, time, limitations, contestability, and stop or reopen conditions.
 
 **First output.** Write one typed `Assurance(H, C | K, S)` claim per named assurance claim `C`, or write an explicit no-assurance-claim disposition when the encountered publication face, rendering, cue, evidence pointer, wording issue, gate decision, role assertion, status-value assertion, commitment, or work occurrence does not carry an assurance claim.
 
@@ -198,32 +202,32 @@ Build a `B.3` assurance claim only when the next work move or reliance move depe
 | Claim and assurance use carried by the tuple | The claim named by value `C` and the assurance use the tuple carries: readiness, release, audit, compliance, safety, model credibility, or another named assurance use. |
 | Holon, context, and scope | `H`, `K`, and `S` plus audience or relying context when the label is human-facing. |
 | Evaluation condition | What was evaluated, under which method, policy, test, audit, measurement, or assurance case. |
-| Evidence relation and evidence refs | The `A.10` evidence path, scoped evidence refs, source-maintenance role assignments, windows, verifier rule, relying-party rule, and proof results or status-value results that evidence the assurance tuple. |
+| Evidence relation and evidence refs | The `A.10` evidence-provenance path, scoped evidence refs, source-maintenance role assignments, windows, verifier rule, relying-party rule, and proof results or status-value results that evidence the assurance tuple. |
 | Argument and assurance rationale | The argument pattern, assurance case, or reason why the evidence relation evidences claim `C` under `K` and `S`, including assumptions, defeaters, and contestable challenges. |
 | Limitations and rival explanations | Scope limits, claims or uses not carried by the assurance tuple, stale display, spoofing, copied text, generated text, proxy-for-value substitution, provenance-only source relation, context shift, and known failure conditions. |
 | Decay and reopen condition | Valid-until, revocation, policy version, gate version, model version drift, monitoring change, incident signal, evidence refresh, and contest or redress relation. |
 
-**Assurance evidence minimization.** A typed assurance result cites the minimum `A.10` evidence path needed for the named assurance claim and relying context. Use redacted, hashed, scoped, or role-mediated evidence refs when raw evidence records would expose personal data, secrets, privileged logs, tenant identifiers, security-sensitive traces, incident details, or unnecessary identities; do not build a full assurance dossier when pointers preserve enough recoverability.
+**Assurance evidence minimization.** A typed assurance result cites the minimum `A.10` evidence-provenance path needed for the named assurance claim and relying context. Use redacted, hashed, scoped, or role-mediated evidence refs when raw evidence records would expose personal data, secrets, privileged logs, tenant identifiers, security-sensitive traces, incident details, or unnecessary identities; do not build a full assurance dossier when pointers preserve enough recoverability.
 
 Viewpoint prompts for assurance use:
 
 | Role in the situation | Prompt |
 | --- | --- |
 | Assurance steward | Which named `Assurance(H, C &#124; K, S)` claim is being made or revised? |
-| Audit role | Which evidence path, argument, limitation, decay condition, reopen condition, and relying context must be recoverable? |
+| Audit role | Which evidence-provenance path, argument, limitation, decay condition, reopen condition, and relying context must be recoverable? |
 | Manager or release role | Which desired decision or work or reliance use is outside B.3 and must instead use `A.15`, `A.21`, `A.10`, or another named source? |
 | Model or data steward | Which documented bounded-use statement or external intended-use field, evaluation condition, version, window, limitation, drift, and incident condition bound the model or data documentation? |
 | Evidence source-maintenance role assignment | What evidence ref or scoped pointer must be exposed without turning documentation presence into an assurance claim? |
 
-Display guidance for assurance labels: a readiness, safety, compliance, trust, release-confidence, or assurance display should show the named assurance claim, assurance use carried by the assurance tuple or relying context, evaluation condition, evidence-path ref, scope, window, limitation, decay condition, reopen condition, and assurance, work, or reliance claims not carried by the assurance tuple. A label that only points to documentation should remain a source pointer, not an assurance result.
+Display guidance for assurance labels: a readiness, safety, compliance, trust, release-confidence, or assurance display should show the named assurance claim, assurance use carried by the assurance tuple or relying context, evaluation condition, evidence-provenance ref, scope, window, limitation, decay condition, reopen condition, and assurance, work, or reliance claims not carried by the assurance tuple. A label that only points to documentation should remain a source pointer, not an assurance result.
 
-Incident-learning fields for assurance overread: visible label, documentation record, attempted assurance claim, missing tuple or evidence-path field, assurance claim, work claim, or reliance claim not carried by the assurance tuple, limitation or decay condition that defeated the claim, next legitimate formalization, evidence repair, scope narrowing, or claim narrowing move, and upstream repair record for documentation, evidence refs, assurance label wording, monitoring, or reopen trigger.
+Incident-learning fields for assurance overread: visible label, documentation record, attempted assurance claim, missing tuple or evidence-provenance field, assurance claim, work claim, or reliance claim not carried by the assurance tuple, limitation or decay condition that defeated the claim, next legitimate formalization, evidence repair, scope narrowing, or claim narrowing move, and upstream repair record for documentation, evidence refs, assurance label wording, monitoring, or reopen trigger.
 
-Contestability and redress relation: when the B.3 material-reliance threshold is met, the B.3 result should name the claim being contested, evidence path, limitation or decay condition, contest forum or decision forum, safe interim disposition, and what evidence or scope change would reopen the assurance claim.
+Contestability and redress relation: when the B.3 material-reliance threshold is met, the B.3 result should name the claim being contested, evidence-provenance path, limitation or decay condition, contest forum or decision forum, safe interim disposition, and what evidence or scope change would reopen the assurance claim.
 
 If those fields are missing, the encountered publication face, rendering, or cue remains an orientation label, source pointer, evidence pointer, documentation record, or unsubstantiated confidence cue. Use `A.15` when the question is whether that lane may guide work or reliance, `A.10` when the question is evidence, currentness, or provenance, and `A.6` when the question is mixed policy, API, or schema wording.
 
-**Positive repaired assurance statement.** When the assurance use being claimed and the required assurance fields are present, write the smallest typed assurance result that can guide work or reliance: the named claim, context, scope, evaluation condition, evidence path, argument, limitations, decay condition, and reopen condition. That result may improve or justify assurance only for the stated claim and scope; other gate, evidence, work-occurrence, or compliance uses still need their own named sources.
+**Positive repaired assurance statement.** When the assurance use being claimed and the required assurance fields are present, write the smallest typed assurance result that can guide work or reliance: the named claim, context, scope, evaluation condition, evidence-provenance path, argument, limitations, decay condition, and reopen condition. That result may improve or justify assurance only for the stated claim and scope; other gate, evidence, work-occurrence, or compliance uses still need their own named sources.
 Constructive assurance moves:
 
 - narrow `G` to the evidenced or rule-bounded scope;
@@ -238,16 +242,16 @@ Negative controls:
 
 | Visible source or publication face | Bounded source or assurance use | Unsupported use without a typed assurance claim |
 | --- | --- | --- |
-| Source-backed release dashboard tile | If the tile is a current view of `A.21` `GateDecision` or `DecisionLogRef` plus an `A.10` evidence path, it may carry gate-passage reliance outside B.3 for the named release and environment. B.3 is used only when the tile is also asked to raise readiness, safety, compliance, trust, or release-confidence assurance. | Release approval by display, compliance proof, rollback success, work occurrence, or assurance increase without a typed assurance claim. |
+| Source-backed release dashboard tile | If the tile is a current view of `A.21` `GateDecision` or `DecisionLogRef` plus an `A.10` evidence-provenance path, it may carry gate-passage reliance outside B.3 for the named release and environment. B.3 is used only when the tile is also asked to raise readiness, safety, compliance, trust, or release-confidence assurance. | Release approval by display, compliance proof, rollback success, work occurrence, or assurance increase without a typed assurance claim. |
 | Credential, compliance, or provenance label | Bounded source, holder, status value, history, or documentation source relation when evidenced. | Safety, truth, permission, gate passage, readiness, or assurance claim by label presence. |
 | Model card, datasheet, data card, assurance document, or assurance-looking note | Scoped documentation for a named claim, documented bounded-use statement or external intended-use field, evaluated condition, limitation, version, and window. | Higher `R`, broader `G`, higher `F`, better `CL`, readiness, compliance, safety, or release confidence by document presence. |
 | Generated confidence phrase | Source-finding or explanation relation when grounded. | Assurance increase, authority, approval, or evidence by wording alone. |
 
 Model cards, datasheets, data cards, assurance documents, and assurance-looking notes are external documentation records or source records unless they are mapped into existing `FPF` claims and publication faces. They do not add MVPK face kinds and do not bypass `B.3` when the use under repair is an assurance claim.
 
-**Lint trigger.** A model card, datasheet, or data card cited as readiness, safety, compliance, release confidence, or assurance proof requires documented intended-use match, evaluation condition, limitations, an `A.10` evidence path, and one typed `Assurance(H, C \| K, S)` claim for the named assurance claim. Without those, classify the use as `no assurance use` or as a rejected or downgraded assurance claim.
+**Lint trigger.** A model card, datasheet, or data card cited as readiness, safety, compliance, release confidence, or assurance proof requires documented intended-use match, evaluation condition, limitations, an `A.10` evidence-provenance path, and one typed `Assurance(H, C \| K, S)` claim for the named assurance claim. Without those, classify the use as `no assurance use` or as a rejected or downgraded assurance claim.
 
-Positive repaired example: a model card plus documented bounded-use statement or external intended-use field, evaluation condition, version, window, limitations, an `A.10` evidence path, and a typed `Assurance(H, C \| K, S)` claim may carry assurance for that named model claim in that evaluated context. The same documentation still does not carry another deployment context, gate passage, release work occurrence, or compliance proof unless those sources are separately present.
+Positive repaired example: a model card plus documented bounded-use statement or external intended-use field, evaluation condition, version, window, limitations, an `A.10` evidence-provenance path, and a typed `Assurance(H, C \| K, S)` claim may carry assurance for that named model claim in that evaluated context. The same documentation still does not carry another deployment context, gate passage, release work occurrence, or compliance proof unless those sources are separately present.
 
 #### B.3:4.2b - Minimum reliance safety assurance record
 
@@ -259,19 +263,19 @@ Assurance-record use: the trigger and non-trigger table is a B.3 recognition aid
 
 Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or selected governing pattern.
 
-Common wrong first classification: a safety-looking note, safety case, compliance-looking label, or dashboard warning is a certificate, approval, or gate. First honest entry: state one typed B.3 assurance claim with A.10 evidence path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use.
+Common wrong first classification: a safety-looking note, safety case, compliance-looking label, or dashboard warning is a certificate, approval, or gate. First honest entry: state one typed B.3 assurance claim with A.10 evidence-provenance path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use.
 
-First B.3 move: name the reliance use, the assurance claim, the affected context or audience, the trigger that meets the B.3 material-reliance threshold, the A.10 evidence path, the argument, limitations, defeaters, contest and redress relation, stop or monitoring condition, bounded assurance use, and unsupported attempted use. If those pieces are absent, use `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation that actually governs the source use rather than inventing assurance by label.
+First B.3 move: name the reliance use, the assurance claim, the affected context or audience, the trigger that meets the B.3 material-reliance threshold, the A.10 evidence-provenance path, the argument, limitations, defeaters, contest and redress relation, stop or monitoring condition, bounded assurance use, and unsupported attempted use. If those pieces are absent, use `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation that actually governs the source use rather than inventing assurance by label.
 
 Trigger and non-trigger cases:
 
 | Encountered source use | B.3 disposition | Minimum response |
 | --- | --- | --- |
-| Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no met B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, source record or publication face, evidence path, window, bounded evidence use, unsupported attempted use, and reopen trigger. |
-| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence paths or another source relation that carries, supports, or exposes the source basis for the operative claim. |
+| Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no met B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, source record or publication face, evidence-provenance path, window, bounded evidence use, unsupported attempted use, and reopen trigger. |
+| Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence-provenance paths or another source relation that carries or exposes the source basis for the operative claim. |
 | Local conformance label, `CV.Status`, benchmark result, or score near a release conversation but not used to raise assurance | No B.3 assurance use. | Keep `CV.Status` in `A.20`, gate-decision publication in `A.21`, pattern-quality result in `E.19`, measurement or marker relation in `C.16` or `A.10`, and no assurance tuple unless an assurance claim is being made. |
 | Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration condition, stop condition, bounded evidence use, and unsupported attempted use; use `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the move. |
-| Safety-looking note, compliance-looking label, public warning, dashboard value, generated operational explanation, or status-value display is intended or reasonably foreseeable to meet the B.3 material-reliance threshold: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence path and any relevant `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation and retargeting dependency. |
+| Safety-looking note, compliance-looking label, public warning, dashboard value, generated operational explanation, or status-value display is intended or reasonably foreseeable to meet the B.3 material-reliance threshold: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence-provenance path and any relevant `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation and retargeting dependency. |
 
 Minimum assurance record:
 
@@ -280,14 +284,14 @@ Minimum assurance record:
 | Reliance use and assurance claim | The behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation that would materially change, and the assurance claim being made about that change. |
 | Context, audience, and affected role | The bounded context, environment, user group, team, public audience, relying role, affected role, tenant, release line, service, or work occurrence being guided. |
 | Source record and evidence kind | The visible source, publication face, record, cue, marker, conformance label, dashboard, explanation rendering, score, warning, or status-value display, plus the evidence kind being used. |
-| A.10 evidence path | Claim, source record or source relation, producer or method trace, currentness and window, source-maintenance role assignment, evidence relation, rival explanation, bounded evidence use, unsupported attempted use, and reopen trigger. |
-| Argument and assurance relation | Why this evidence path carries the assurance claim under the context; include assumptions, limitations, defeaters, residual uncertainty, and unacceptable-harm or risk-tolerance condition when relevant. |
+| A.10 evidence-provenance path | Claim, source record or source relation, producer or method trace, currentness and window, source-maintenance role assignment, evidence relation, rival explanation, bounded evidence use, unsupported attempted use, and reopen trigger. |
+| Argument and assurance relation | Why this evidence-provenance path carries the assurance claim under the context; include assumptions, limitations, defeaters, residual uncertainty, and unacceptable-harm or risk-tolerance condition when relevant. |
 | Dependencies | Any relevant `A.20` CV status, `A.21` gate decision, `E.19` pattern-quality result, `C.27` temporal claim, `G.11` refresh and decay relation, `B.2.5` control relation, or representation and retargeting relation. |
 | Monitoring, rollback, or stop condition | What observation, incident, drift, contest, expiry, changed C.28 identification or realizability profile, changed A.21 gate profile, changed evaluation condition, changed source record, or failed check stops, narrows, reopens, or withdraws the reliance. |
 | Contest and redress | The disputed claim or disposition, affected use or harm, accountable review role, challenge evidence admitted by the contest relation, possible disposition change, outcome record, and reopen trigger. |
 | Public and protected evidence boundary | Public summary, protected evidence reserved for an accountable review role, affected-party contestable minimum, and any scoped, redacted, hashed, or role-mediated evidence ref needed to preserve recoverability without overexposure. |
 
-Positive repaired assurance result: when the threshold is met and the assurance record is sufficient, write the smallest typed assurance result that can guide the reliance: named assurance claim, reliance use, context, evidence path, argument, limitations, dependencies, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use. When the record is insufficient, narrow the reliance, degrade the assurance use, abstain, require evidence, reopen the source, or block the attempted assurance use; do not convert a polished source into safety acceptance.
+Positive repaired assurance result: when the threshold is met and the assurance record is sufficient, write the smallest typed assurance result that can guide the reliance: named assurance claim, reliance use, context, evidence-provenance path, argument, limitations, dependencies, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use. When the record is insufficient, narrow the reliance, degrade the assurance use, abstain, require evidence, reopen the source, or block the attempted assurance use; do not convert a polished source into safety acceptance.
 
 A safety case is accepted only as a bounded assurance argument for the named reliance use. It remains contestable by defeaters, changed evidence, changed context, monitoring failure, residual-uncertainty breach, or affected-party challenge admitted by the contest relation. Stop when the named reliance use, unsupported attempted use, limitations, defeaters, contest and redress relation, monitoring or rollback condition, and reopen condition are sufficient for this threshold trigger; do not expand the record into a general safety dossier.
 
@@ -306,7 +310,7 @@ Worked reliance-threshold slices:
 | A public warning or synthetic-content label changes perceived meaning but there is no evidence that it changed the behavior claimed to change, release risk, safety claim, or control relation. | Keep the label as A.10 evidence or source-finding and orientation cue; require audience-effect or behavior-effect evidence before B.3 reliance. | Do not infer safety, compliance, behavior change, or control effect from label presence alone. |
 | A manufacturing conformance label appears near release. | Keep local CV or conformance evidence in `A.20`, `A.21`, `C.16`, or `A.10`; use B.3 only when assurance, safety, compliance, or release-confidence reliance is being claimed. | Conformance presence is not safety acceptance or release permission. |
 | A software supply-chain attestation is cited as runtime safety. | Use `A.10` for origin, build, and process claims and B.3 only for the named assurance claim with argument, limitations, defeaters, and stop condition. | Build provenance is not runtime safety or operational permission. |
-| A people or team status-value badge changes permissions, resources, or review priority. | Require an assurance record that names affected role, relying role, evidence path, contest relation, and disposition change condition. | The badge issuer cannot self-clear the people or team-status-value-changing reliance by issuing the badge. |
+| A people or team status-value badge changes permissions, resources, or review priority. | Require an assurance record that names affected role, relying role, evidence-provenance path, contest relation, and disposition change condition. | The badge issuer cannot self-clear the people or team-status-value-changing reliance by issuing the badge. |
 | A standards-document clause is reused as approval. | Use `A.10` for evidence of the clause; use the named approval, commitment, gate, or assurance relation only when that relation is being claimed by value. | A cited clause is not project approval, gate passage, or assurance by quotation. |
 
 Do not treat the assurance record as a graded scale, standalone status value, universal assurance checklist, release certificate, or new safety-case disposition family. B.3 consumes the assurance record only as typed assurance input for the named claim and reliance use.
@@ -421,13 +425,13 @@ Verdict consequences:
 | `unsupported` | The causal-use claim cannot raise `R`; it becomes `CausalUseUnsupportedStatement`, is downgraded, removed, or blocks the assurance claim when the causal use is necessary. | "Causal use unsupported for this assurance claim; use association-only, metric-only, or simulation-only wording or block the causal assurance claim." |
 | `abstain` | No causal-use conclusion contributes to `R`; the assurance tuple either proceeds only on named non-causal grounds or abstains from the affected causal claim. | "No causal-use conclusion is used; assurance proceeds only on named non-causal grounds or abstains from this causal claim." |
 
-What changes in practice: assurance prose cannot say "high confidence that the policy caused improvement" when the evidence path only evidences association or simulation-only counterfactual output; the unsupported causal-use step must degrade, abstain, or block the causal-use claim.
+What changes in practice: assurance prose cannot say "high confidence that the policy caused improvement" when the evidence-provenance path only evidences association or simulation-only counterfactual output; the unsupported causal-use step must degrade, abstain, or block the causal-use claim.
 
-What this does not authorize: `B.3` does not determine the `C.28` target `CausalityLadderRung`, estimand, causal identification, evidence design, or realizability profile; it applies assurance consequences to the `CausalUseSupportVerdict` supplied by `C.28` and the evidence path supplied by `A.10`.
+What this does not authorize: `B.3` does not determine the `C.28` target `CausalityLadderRung`, estimand, causal identification, evidence design, or realizability profile; it applies assurance consequences to the `CausalUseSupportVerdict` supplied by `C.28` and the evidence-provenance path supplied by `A.10`.
 
 ### B.3:5 Proof obligations (attach these when producing an Assurance tuple)
 
-These obligations refine the generic Proof Kit from **B.1.1 §6** for **assurance** outputs. Each Γ-flavour that emits an *Assurance(H, C | K, S)* tuple attaches the applicable obligations below.
+These obligations adapt the current B.1 and B.1.1 dependency-structure and relation-grounding checks for **assurance** outputs. Each Γ-flavour that emits an *Assurance(H, C | K, S)* tuple attaches the applicable obligations below.
 
 #### B.3:5.1 - Common obligations (all Γ‑flavours)
 
@@ -440,8 +444,8 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 * **ASS‑WLNK (Weakest‑link evidence).**
   Identify the **cutset** (node or edge set) that caps `F`, `G`, and `R` for the claim (the proof spine for epistemes, the structural or assurance bottleneck for systems).
 
-* **ASS‑CL (Congruence path).**
-  Identify the **relevant integration path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
+* **ASS‑CL (Congruence on integration dependency).**
+  Identify the **relevant integration dependency path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
 
 * **ASS‑MAN (evidence-source record).**
   Produce an assurance source-currentness record listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time affect the claim, include the **OrderSpec** or **TimeWindow** identifiers from the governing temporal or order pattern.
@@ -543,6 +547,10 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
   * penalty if v2–v3 interface had low calibration congruence;
   * improvement via re‑calibration (↑CL) or new validation campaign (↑R\_v3).
 
+### B.3:6.1 - Bias-Annotation
+
+B.3 deliberately biases assurance toward conservative aggregation and explicit reliance use. This prevents dashboards, labels, badges, credentials, model cards, provenance marks, or generated confidence phrases from raising trust by appearance. The cost is that assurance claims need typed evidence, scope, limitations, decay, and contestability when they are used for readiness, safety, compliance, release confidence, or other material reliance.
+
 ### B.3:7 - Conformance checklist
 
 | ID | Requirement | Purpose |
@@ -550,17 +558,17 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 | **CC-B3.1** | An assurance result is a typed claim `Assurance(H, C &#124; K, S)` with `S ∈ {design, run}`. | Prevent scope drift and chimeras. |
 | **CC-B3.2** | `F` is ordinal and uses thresholds or `min`; `G` is a USM scope value and uses membership, intersection along essential paths, and `SpanUnion` only across independent evidence lines; `R` is ratio and uses `min` plus conservative operations. | Preserve scale integrity (CHR and USM). |
 | **CC-B3.3** | Congruence Level (`CL`) is assigned to edges; the penalty `Φ(CL)` is monotone decreasing and bounded (`R_eff ≥ 0`). | Make integration quality first-class. |
-| **CC-B3.4** | `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
+| **CC-B3.4** | `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration dependency paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
 | **CC-B3.5** | For `G`, essential dependency paths compose by intersection; `SpanUnion` applies only across explicitly independent evidence lines to the same claim and only over evidenced slices. | Prevent over-generalization. |
 | **CC-B3.6** | An assurance source-currentness record lists node and edge values, Evidence Graph Ref, and any OrderSpec or TimeWindow identifiers; it also displays the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared ReferencePlane value of world, concept, or episteme, a separable TA, VA, and LA evidence breakdown per **CC-KD-08**, decay or valid-until indicators on empirical bindings, and the Epistemic-Debt tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
 | **CC-B3.7** | Agency-CHR values (A.13) do not override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a Meta-Holon Transition. | Preserve safety; keep agency separate. |
 | **CC-B3.8** | Design-time assurance and run-time assurance are kept in separate tuples and compared side by side when both matter. | Avoid design-time and run-time mixing. |
 | **CC-B3.9** | If an assurance claim depends on a `C.28` causal-use verdict, it consumes `CausalUseSupportVerdict`, `CausalEvidenceSupportBasis`, and relevant profile refs from `C.28` or `A.10`; a causal-use claim whose C.28 verdict is unsupported degrades, blocks, or abstains rather than raising `R`. | Prevent assurance prose from certifying unsupported causal claims. |
 | **CC-B3.10** | A local `C.28` downgrade, redirection to the relation governing the asserted use, or abstain disposition is not a new assurance tuple trigger unless the claim is assurance-bearing, publication-bearing, release-bearing, or reused as an assurance input. | Keeps cheap causal triage from becoming assurance ceremony. |
-| **CC-B3.11** | A conforming `B.3` use does not treat a label, badge, dashboard tile, credential display, provenance mark, compliance-looking mark, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase as raising `F`, `G`, `R`, `CL`, readiness, safety, compliance, trust, release confidence, or assurance unless a typed `Assurance(H, C &#124; K, S)` claim and `A.10` evidence path name the claim, assurance use stated by the assurance tuple or relying context, scope, evaluation condition, evidence refs, argument and assurance rationale, limitations, decay condition, reopen condition, and relying context. | Blocks visible authority-looking labels from supplying false assurance relation. |
+| **CC-B3.11** | A conforming `B.3` use does not treat a label, badge, dashboard tile, credential display, provenance mark, compliance-looking mark, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase as raising `F`, `G`, `R`, `CL`, readiness, safety, compliance, trust, release confidence, or assurance unless a typed `Assurance(H, C &#124; K, S)` claim and `A.10` evidence-provenance path name the claim, assurance use stated by the assurance tuple or relying context, scope, evaluation condition, evidence refs, argument and assurance rationale, limitations, decay condition, reopen condition, and relying context. | Blocks visible authority-looking labels from supplying false assurance relation. |
 | **CC-B3.12** | When reliance on a source may materially change behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation, the B.3 result provides a minimum reliance safety assurance record or explicitly rejects, narrows, degrades, abstains, or reopens the attempted assurance use. The local Tech label `RelianceSafetyCase` is not a certificate, approval, gate, policy source, Core kind, release permission, or general safety-case ontology. | Keeps safety-bearing reliance relation concrete without turning every source or publication face into a dossier or a new authority system. |
 
-### B.3:8 - Anti-patterns and repairs
+### B.3:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -571,7 +579,7 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 | **DesignRunTag chimera** | “One score” mixing blueprint and telemetry | Split into `S=design` and `S=run` tuples; compare explicitly. |
 | **Agency override** | Claiming higher assurance because a controller is “clever” | Agency may justify how improvements are achieved; it cannot remove WLNK or `Φ`. |
 | **MemberOf as stock** | Using `MemberOf` to sum reliabilities | Keep `MemberOf` for collections; reliability comes from the relevant Γ composition, such as the Γ_sys cutset. |
-| **False assurance relation** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence path make the intended assurance use bounded and evidenced. |
+| **False assurance relation** | Badge, dashboard color, credential display, compliance mark, provenance label, model card, datasheet, data card, assurance document, attestation label, or generated confidence phrase is used as an assurance claim. | Keep it as orientation or source pointer unless a typed assurance claim and `A.10` evidence-provenance path make the intended assurance use bounded and evidenced. |
 | **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the assurance record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the trigger that meets the B.3 material-reliance threshold. If the trigger is absent, use `A.10`, `E.17.EFP`, `A.20`, `A.21`, `E.19`, or the local relation that actually governs the use. If the threshold is met, write only the minimum assurance record and contest and redress relation needed for the named reliance use. |
 
 ### B.3:9 - Consequences
@@ -587,25 +595,27 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 * **More explicit metadata.** You must state scale kinds, cutsets, and mapping congruence; this is intentional transparency.
 * **Conservatism may feel pessimistic.** True synergy appears only via **MHT** or after raising CL—never by arithmetic optimism.
 
-### B.3:10 - Rationale (informative)
+### B.3:10 - Rationale
 
 B.3 distills mature post‑2015 practice across several fields into a single, small calculus:
+
+### B.3:10.1 - SoTA-Echoing
 
 * **Assurance by weakest link** reflects reliability engineering and safety cases in complex systems; composing assurance evidence by minima prevents over‑statement.
 * **Formality and verifiability** mirror advances in model‑based engineering and formal verification, where raising F turns subjective arguments into verifiable records.
 * **Coverage as set and measure** follows evidence synthesis and validation practice that treat applicability as a domain region, not a scalar to “average.”
 * **Congruence on edges** captures what meta‑analysis, interface control, and ontology alignment have repeatedly shown: integration quality is often the real bottleneck. Penalizing low‑CL is a principled way to prevent silent over‑confidence while rewarding verified reconciliation.
-* **Assurance documentation, provenance, and release-status practice** treats labels, model cards, datasheets, C2PA provenance marks, SLSA and in-toto attestations, credential displays, generated confidence phrases, and dashboards as scoped documentation or source pointers, not automatic assurance claims. B.3 adopts claim, argument, and evidence discipline and scoped assurance-documentation use, adapts model cards, datasheets, data cards, attestations, provenance marks, dashboards, and generated confidence phrases as possible documentation or evidence inputs for a named assurance claim, and rejects visible-label promotion into readiness, compliance, safety, trust, `R`, `F`, `G`, `CL`, or release confidence without a typed tuple and A.10 evidence path.
+* **Assurance documentation, provenance, and release-status practice** treats labels, model cards, datasheets, C2PA provenance marks, SLSA and in-toto attestations, credential displays, generated confidence phrases, and dashboards as scoped documentation or source pointers, not automatic assurance claims. B.3 adopts claim, argument, and evidence discipline and scoped assurance-documentation use, adapts model cards, datasheets, data cards, attestations, provenance marks, dashboards, and generated confidence phrases as possible documentation or evidence inputs for a named assurance claim, and rejects visible-label promotion into readiness, compliance, safety, trust, `R`, `F`, `G`, `CL`, or release confidence without a typed tuple and A.10 evidence-provenance path.
 
-Practical result from that safety-case and assurance-documentation practice: safety notes, compliance-looking labels, assurance documents, dashboards, provenance marks, model cards, datasheets, data cards, and generated confidence phrases do not become certificates, approvals, gates, safety acceptance, or assurance by appearance. The local B.3 result is one typed assurance claim or minimum reliance safety assurance record for the named reliance use, with `A.10` evidence path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, unsupported attempted use, and reopen when evidence, source record, context, C.28 identification or realizability profile, A.21 gate profile, evaluation condition, monitoring, or challenge evidence admitted by the contest relation materially changes the disposition.
+Practical result from that safety-case and assurance-documentation practice: safety notes, compliance-looking labels, assurance documents, dashboards, provenance marks, model cards, datasheets, data cards, and generated confidence phrases do not become certificates, approvals, gates, safety acceptance, or assurance by appearance. The local B.3 result is one typed assurance claim or minimum reliance safety assurance record for the named reliance use, with `A.10` evidence-provenance path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, unsupported attempted use, and reopen when evidence, source record, context, C.28 identification or realizability profile, A.21 gate profile, evaluation condition, monitoring, or challenge evidence admitted by the contest relation materially changes the disposition.
 
 This arrangement preserves **A.11 Parsimony** (few characteristics), aligns with **A.14**, **A.7**, and **A.15** (clear separation of structure, order, time, cost, values), and leaves Context for domain-specific refinements that do not break the invariants.
 
 ### B.3:11 - Relations
 
-* **Builds on:** B.1 where its current composition invariants are named by value, B.1.1 (Proof Kit), current system-composition, context, temporal, and work patterns when those operators are active, A.14 (Mereology), A.7 (EntityOfConcern and Description strict distinction), A.10 (evidence-provenance and carrier/source-currentness relations), A.15 (role, method, work-plan, and work alignment), A.2 and A.2.1 (role values and role assignments), A.3.4 (Transformation when actual change is current), and **C.13 (Compose-CAL)**.
+* **Builds on:** B.1 where its current composition invariants are named by value, B.1.1 dependency-structure and relation-grounding checks, current system-composition, context, temporal, and work patterns when those operators are active, A.14 (Mereology), A.7 (EntityOfConcern and Description strict distinction), A.10 (evidence-provenance and carrier/source-currentness relations), A.15 (role, method, work-plan, and work alignment), A.2 and A.2.1 (role values and role assignments), A.3.4 (Transformation when actual change is current), and **C.13 (Compose-CAL)**.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation label-meaning and grounding (`tv:*`, `validationMode`).
-* **Coordinates with:** `C.28` for `CausalUseSupportVerdict`, `CausalityLadderRung`, `CausalEvidenceSupportBasis`, identification profile refs, realizability profile refs, supported causal use, and unsupported causal use; `A.10` for the evidence graph path carrying causal-evidence refs.
+* **Coordinates with:** `C.28` for `CausalUseSupportVerdict`, `CausalityLadderRung`, `CausalEvidenceSupportBasis`, identification profile refs, realizability profile refs, supported causal use, and unsupported causal use; `A.10` for the evidence-provenance graph path carrying causal-evidence refs.
 * **Coordinates with:** `A.15` for work disposition and reliance disposition, `A.6` for mixed authority wording, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, and `A.15.1` for release or deployment work occurrence. B.3 only handles typed assurance use; labels and evidence pointers stay with the source relation that governs them when assurance is not being claimed.
 * **Used by:** KD-CAL improvement patterns (to plan improvements), B.4 (Evolution loops that raise `F`, `G`, `R`, or `CL` over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
@@ -622,7 +632,7 @@ Assurance-relation checks:
 
 1. Decide the claim-assurance requirement before building assurance machinery.
 2. If the QL note only prevents a local misinterpretation, keep it as QL-lite with ordinary evidence.
-3. If the claim will be reused, state the governing FPF pattern, local stop condition, and evidence relation or evidence-path condition.
+3. If the claim will be reused, state the governing FPF pattern, local stop condition, and evidence relation or evidence-provenance condition.
 4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing work or reliance, build the B.3 assurance claim over named evidence refs and scope.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, claimed mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-evidenced assurance claim does not silently stay current after new validation observations, changed source records, changed evidence refs, or scope change.
@@ -630,8 +640,8 @@ Assurance-relation checks:
 | Claim-use requirement | B.3 expectation | Output |
 | --- | --- | --- |
 | Local modeling note | No assurance tuple beyond the ordinary pattern and evidence note | QL-lite note with local stop |
-| Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-path condition | Reusable example with source relation |
-| Decision, release, audit, readiness, or compliance use | Provide `F`, `G`, `R`, congruence relation, evidence refs, confidence, rival explanations, and decay or reopen conditions | Assurance tuple and evidence path |
+| Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-provenance condition | Reusable example with source relation |
+| Decision, release, audit, readiness, or compliance use | Provide `F`, `G`, `R`, congruence relation, evidence refs, confidence, rival explanations, and decay or reopen conditions | Assurance tuple and evidence-provenance path |
 | Comparative superiority claim | Add rival-model comparison, baseline, claimed mechanism, and scope limits | Bounded superiority claim or apply the FPF pattern that governs the comparison being claimed |
 
 Useful outputs:
@@ -643,7 +653,7 @@ Useful outputs:
 
 ### B.3:11b - C.29 mathematical-lens use relation
 
-> If a mathematical lens is used as input to assurance, readiness, reliability, release confidence, safety, trust, or engineering justification, write the assurance relation in `B.3` with the relevant evidence path and residual-use limits. A `C.29` output may be cited only as a lens-use result; mathematical elegance, validation regime, or a declared structure-preserving mapping does not raise assurance by itself. Evidence paths remain `A.10`; measurement construction and comparability remain `C.16`.
+> If a mathematical lens is used as input to assurance, readiness, reliability, release confidence, safety, trust, or engineering justification, write the assurance relation in `B.3` with the relevant evidence-provenance path and residual-use limits. A `C.29` output may be cited only as a lens-use result; mathematical elegance, validation regime, or a declared structure-preserving mapping does not raise assurance by itself. Evidence-provenance paths remain `A.10`; measurement construction and comparability remain `C.16`.
 
 ### B.3:End
 

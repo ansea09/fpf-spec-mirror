@@ -6,12 +6,12 @@ section_id: "C.31:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:intro — Intro"
-line_start: 55189
-line_end: 55194
+line_start: 57047
+line_end: 57052
 dependencies:
 keywords:
 ---

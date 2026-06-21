@@ -6,12 +6,12 @@ section_id: "C.31:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:3 — Forces"
-line_start: 55233
-line_end: 55243
+line_start: 57091
+line_end: 57101
 dependencies:
 keywords:
 ---
@@ -20,7 +20,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Fast architecture repair vs measurement legality | Practitioners often need the next modularity move before a full measurement template exists. |
+| Fast architecture repair vs measurement admissibility | Practitioners often need the next modularity move before a full measurement template exists. |
 | Characteristic plurality vs scalar pressure | Different modularity interpretations have different subjects, scales, evidence, declared measurement or comparison basis, governing-pattern needs, and risks; one score hides that plurality. |
 | Useful proxy vs proxy substitution | A cheap share, count, or graph interpretation can guide local repair, but it may become a false quality, evidence, or decision claim. |
 | Module-interface view vs broader structure | Modularity can involve functions, flows, control, work, evidence, data, placement, or scale, not only modules. |

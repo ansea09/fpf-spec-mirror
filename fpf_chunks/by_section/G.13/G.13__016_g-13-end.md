@@ -6,12 +6,12 @@ section_id: "G.13:End"
 section_title: "G.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__016_g-13-end.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:End — G.13:End"
-line_start: 84594
-line_end: 84612
+line_start: 87354
+line_end: 87372
 dependencies:
   - "A.18"
   - "A.19"
@@ -50,7 +50,7 @@ keywords:
 
 | §   | ID & Title                     | Concise reminder                                               |
 | --- | ------------------------------ | -------------------------------------------------------------- |
-| H.1 | Alphabetic Glossary            |  Every `U.Type`, relation & operator with four‑register naming. |
+| H.1 | Alphabetic Glossary            |  Every admitted U-kind, relation, operator, and term-sheet name with four-register naming. |
 | H.2 | Definitional Pattern Catalogue |  One‑page micro‑stubs of every definitional pattern for quick lookup.  |
 | H.3 | Cross‑Reference Maps           |  Bidirectional links: Part A ↔ Part C ↔ Part B terms.           |
 

@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution — the Discipline holon and Γ_disc"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_solution-the-discipline-holon-and-disc.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:4 — Solution — the Discipline holon and Γ_disc"
-line_start: 43938
-line_end: 43969
+line_start: 45484
+line_end: 45515
 dependencies:
   - "A.19"
   - "C.2"
@@ -39,10 +39,10 @@ keywords:
 
 #### C.20:4.1 - U-kind settlement and registers
 * **`U.Discipline`** — a **Holon** that composes an **EpistemeCanon**, **Standards/Practices**, and **Organisational Carriers** into a durable field-level EntityOfConcern.
-* **`U.AppliedDiscipline`**, **`U.Transdiscipline`** — C.3-governed subkind/species values under `U.Discipline`; they are not separate root ontics.
+* **`U.AppliedDiscipline`**, **`U.Transdiscipline`** — C.3-governed subkind values under `U.Discipline`; they are not separate root ontics.
 * **Tradition and lineage values** — auxiliary holon-like values that organise variants or editions within a `U.Discipline`; write them without `U.` unless a direct governing pattern admits `U.Tradition` or `U.Lineage` by E.24.UK settlement.
 
-**Placement and naming.** `U.Discipline` is retained by this pattern as the direct root durable U-kind. Its subkinds follow C.3/C.3.1 and F.5 naming discipline, E.10/F.17 register discipline, and A.11 parsimony. C.20 does not treat discipline names as candidate U-kinds merely because they appear in discipline-composition prose; a retained discipline kind needs the C.20 settlement plus ordinary U-kind admission evidence.
+**Placement and naming.** `U.Discipline` is governed by this pattern as the direct root durable U-kind. Its subkinds follow C.3/C.3.1 and F.5 naming discipline, E.10/F.17 register discipline, and A.11 parsimony. C.20 does not treat discipline names as candidate U-kinds merely because they appear in discipline-composition prose; a discipline kind needs the C.20 settlement plus ordinary U-kind admission evidence.
 
 #### C.20:4.2 - What a `U.Discipline` is / is not
 * A `U.Discipline` is **not** a `U.BoundedContext` and **not** a **Domain**. **Domain** remains a *catalog label* (stitched to D.CTX + UTS): **Discipline ≠ Domain** is enforceable via **E.10 LexicalCheck**; any cross-domain or cross-context reuse cites a **Bridge (F.9)** with **CL** and loss notes; penalties apply to **R** only; **F** and **G** remain invariant (USM/KD‑CAL).
@@ -56,7 +56,7 @@ keywords:
 *Intent.* Fold the three constituents into a `U.Discipline`, **preserving provenance**, publishing UTS cards, and enabling admissible comparability via referenced **CG‑Spec** rows.
 *Obligations.*
 1) **Provenance & lanes.** Each imported episteme/standard declares **A.10 anchors** and lane tags **{TA, VA, LA}**; freshness windows are recorded.
-2) **Assurance fold.** Use KD‑CAL weakest‑link on R with **Φ(CL)** (and, where applicable, **Φ_plane** for ReferencePlane crossings) **table‑backed and monotone**; publish policy ids. For any justification **path P**, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for parallel independent lines to the *same* claim take **`R(Γ) = max_P R_eff(P)`**; **`F(Γ)=min`** along used paths. No thresholds inside CHR/CAL (Acceptance‑only). Unknowns propagate as {pass|degrade|abstain} to Acceptance.
+2) **Assurance fold.** Use KD‑CAL weakest‑link on R with **Φ(CL)** (and, where applicable, **Φ_plane** for ReferencePlane crossings) **table‑backed and monotone**; publish policy ids. For any independent justification line **P**, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for parallel independent lines to the *same* claim take **`R(Γ) = max_P R_eff(P)`**; **`F(Γ)=min`** along the used lines. No thresholds inside CHR/CAL (Acceptance‑only). Unknowns propagate as {pass|degrade|abstain} to Acceptance.
 3) **CG-Spec guard.** Any numeric comparison or aggregation in Discipline reports **MUST** cite the discipline’s **CG-Spec** with **ScaleComplianceProfile (SCP)**, **Γ-fold**, and **MinimalEvidence**; units, scale, and polarity admissibility via **MM-CHR/CSLC** precedes aggregation.
 4) **Scale, unit, and polarity admissibility.** Before any comparison/aggregation, **establish admissibility via MM‑CHR/CSLC** and cite **CG‑Spec characteristic ids** used in the fold (A.17–A.19).
 5) **ReferencePlane guard.** When crossings touch the world, concept, or episteme plane, apply **CL_meta** penalties to **R** only; record **plane** on the UTS row.

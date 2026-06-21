@@ -6,15 +6,25 @@ section_id: "A.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:intro — Intro"
-line_start: 20054
-line_end: 20066
+line_start: 20592
+line_end: 20605
 dependencies:
   - "A.1"
+  - "A.15"
+  - "A.15.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.7"
+  - "B.1"
   - "B.1.1"
+  - "B.2"
+  - "B.3.5"
+  - "C.13"
 keywords:
   - "ComponentOf"
   - "PhaseOf"
@@ -25,6 +35,7 @@ keywords:
 ---
 
 ## A.14 - Advanced Mereology: Components, Portions, Aspects & Phases
+> **Type:** Kernel mereology and part-whole relation discipline pattern
 > **Status:** Stable
 
 **At a glance.** Use A.14 when a part-whole claim must distinguish component, member, portion, aspect, or phase before downstream architecture, work, assurance, or U-kind admission relies on that claim.

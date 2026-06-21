@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.21.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
-line_start: 69124
-line_end: 69487
+line_start: 71783
+line_end: 72153
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -34,11 +34,12 @@ keywords:
 
 ## E.21 - FPF Pattern-Quality Evaluation CharacteristicSpace
 
+> **Type:** Pattern
 > **Status:** Stable
 
 ### E.21:1 - Problem frame
 
-Use `E.21` when one authored FPF pattern of concern must be evaluated for quality under the use required by the governing evaluation frame: ordinary practitioner use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or another explicitly requested pattern-quality use. The evaluator does not replace the required `ClaimScope` with an easier one. If the pattern fails the required use, the result is `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded`; a different use needs a different evaluation frame and does not rescue the current result.
+Use this when one authored FPF pattern of concern must be evaluated for quality under the use required by the governing evaluation frame: ordinary practitioner use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or another explicitly requested pattern-quality use. The evaluator does not replace the required `ClaimScope` with an easier one. If the pattern fails the required use, the result is `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded`; a different use needs a different evaluation frame and does not rescue the current result.
 
 Not this pattern when the evaluated object is one `DRR`, an FPF-level corpus object, a single wording repair, a source-use decision, or a project-side evidence, assurance, gate, release, safety, compliance, work, or decision claim. Use `E.9.DA`, `E.2.DA`, `E.10` and precision-restoration neighboring patterns named by value, or the project-side pattern governing the claim for those objects.
 
@@ -47,6 +48,8 @@ First useful move: recover the required scope from the governing request, `E.22`
 `floorEvaluation` changes the declared floor and expected evidence economy. It never creates a partial `E.21`, inactive coordinates, overlay-trigger shortcuts, narrowing to an easier use, blocker-only substitution, or a permission to skip precision-restoration discharge. Fragmentary, wrong-shaped, or weak pattern text is still evaluated under the required scope; weakness receives low coordinate values, repair status, architecture hold, or refresh status.
 
 What goes wrong if missed: pattern quality becomes taste, checklist closure, source count, review state, landing state, or length. Short patterns can pass while missing mature content; long patterns can pass while hiding the first user move; semio material can take over a non-semio pattern.
+
+What this pattern buys: one scoped quality claim over one pattern of concern, one complete coordinate set, explicit evidence basis, adjacent-value rationales, and a visible stop, repair, hold, or refresh status.
 
 Primary EntityOfConcern in plain terms: the quality claim of one governing FPF pattern of concern for a declared use.
 
@@ -292,7 +295,7 @@ E.21 finding:
 
 When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEvaluation` asks for improvements, add finding rows for every below-floor coordinate and proposal rows only for substantive non-dominated improvement opportunities inside the declared scope. Do not treat every value below `5` as a defect. For above-floor coordinates, the evaluator still searches by value when exceptional improvement is requested, but the proposal must name a content move such as stronger positive action guidance, a worked slice, case or countercase, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another content gain. A `4` can be the correct stop value only with a checked no-proposal disposition showing why further content movement is dominated, unavailable, or outside scope.
 
-### E.21:5 - Worked slices
+### E.21:5 - Archetypal Grounding - worked slices
 
 **Names named by value, no first move.** A pattern has precise Tech names and current source rows but no first user move. `WorkingSituation...`, `PatternApplicationGuidance`, and `PracticalUseDelta...` fall; source currentness does not rescue ordinary use.
 
@@ -310,6 +313,10 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 **Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
 
 **Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; record no-proposal only with loci showing that further content change is dominated, unavailable, or outside scope.
+
+### E.21:5.1 - Bias-Annotation
+
+`E.21` resists Goodhart-style quality substitution: a high value is not produced by length, source count, approval state, checklist closure, or elegant phrasing when the required coordinate evidence is absent. It also blocks semio-bias by checking whether the evaluated pattern leads with its own `EntityOfConcern` and user move rather than with description, publication, source, review, or repair apparatus.
 
 ### E.21:6 - Conformance checklist
 
@@ -333,7 +340,7 @@ When `E.22`, `E.23`, returned-finding absorption, or `exceptionalImprovementEval
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-result praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action and usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
 | `CC-E21-15` | Keep ordinal values as measurement results, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the positive subject-and-action spine. A no-proposal disposition must name checked loci and why no substantive content move remains. |
 
-### E.21:7 - Common anti-patterns and repairs
+### E.21:7 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Repair |
 |---|---|
@@ -389,7 +396,7 @@ The mature-pattern parity coordinate is deliberately strict because recent short
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` result framing, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
 
 | `E.9.DA` | Evaluates upstream `DRR` decision adequacy when pattern-quality defects trace to decisions. |
-| `C.16`, `A.17`, `A.18`, `A.19` | Govern scale, coordinate, and measurement legality. |
+| `C.16`, `A.17`, `A.18`, `A.19` | Govern scale, coordinate, and measurement admissibility. |
 | `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern project evidence, assurance, local CV state, gates, and work authority. |
 | `E.11` and `I.2` | Govern entry-distribution and expanded entry-disambiguation cues; `E.21` supplies only the scoped quality result. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.8.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
-line_start: 73770
-line_end: 74152
+line_start: 76457
+line_end: 76841
 dependencies:
   - "A.11"
   - "A.15"
@@ -120,7 +120,7 @@ Without this pattern:
 | Human readability vs ontology | Short names help use; they also hide kind, scope, and relation if admitted too early. |
 | Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF name. |
 | Naming speed vs downstream cost | Quick minting is cheap now and expensive when every subsequent pattern must repair it. |
-| Open-world use vs false completeness | A missing durable name may mean "not current", not "new type required". |
+| Open-world use vs false completeness | A missing durable name may mean "not current", not "new U-kind required". |
 
 ### F.8:4 - Solution
 
@@ -257,13 +257,13 @@ E is a proposed new U-kind
   -> require irreducibility, cross-family recurrence, and an accepted decision record.
 ```
 
-### F.8:7 - Worked Cases
+### F.8:7 - Archetypal Grounding - worked cases
 
 #### F.8:7.1 - Reviewer Role vs Review Report
 
 The expression `ReviewerRole` in `PatternReview_2026` names a work-facing role value. F.8 admits `nameRoleDescription`: use `F.4` for the role-description episteme and `F.5` or `F.18` for the label.
 
-The expression "review report has reviewer role" is different. The report is an episteme. It may be used as evidence or source for an adequacy claim about the reviewed pattern; it does not hold the work-facing role. F.8 does not mint a role name for the report. It sends the case to evidence-use, source-use, or publication-use patterns.
+The expression "review report has reviewer role" is different. The report is an episteme. It may be used as evidence or source for an adequacy claim about the reviewed pattern; it does not hold the work-facing role. F.8 does not mint a role name for the report. The evidence-use, source-use, or publication-use claim remains governed by its direct pattern.
 
 #### F.8:7.2 - Actor Across BPMN and PROV
 
@@ -319,21 +319,9 @@ MintReuseDecision:
   ReopenConditionSlot: reopen if the evidence-use relation changes target claim, polarity, provenance, assurance use, or validity window
 ```
 
-### F.8:8 - Conformance Checklist
+### F.8:8.0 - Bias-Annotation
 
-| Check | Pass condition |
-| --- | --- |
-| `CC-F8-01` | Candidate expression, bounded context, proposed use, and recovered kind or relation are named. |
-| `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, work, measurement, or structure uses are split. |
-| `CC-F8-03` | A local existing sense is reused before proposing a row or U-kind. |
-| `CC-F8-04` | Role expressions become durable role names only after `U.Role` and RoleDescription ontology are recovered. |
-| `CC-F8-05` | Assignment and performed-work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
-| `CC-F8-06` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names go to direct governing patterns. |
-| `CC-F8-07` | Concept-Set row reuse stays within the row's admitted use. |
-| `CC-F8-08` | Aliases preserve meaning and carry lineage when durable. |
-| `CC-F8-09` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK` admission, and the accepted A.8, A.11, C.3, E.9, and F.18 decision basis. |
-| `CC-F8-10` | Policy ids carry `PolicyIdRef` discipline when introduced or reused. |
-| `CC-F8-11` | The decision states what overread is not admitted and what condition reopens the decision. |
+F.8 blocks minting-bias: the existence of a convenient candidate expression, suffix, title, source term, or memorable public phrase does not prove that FPF needs a new name, row, policy id, or U-kind. The decision starts from the recovered governed object, admissible use, bounded context, and direct pattern. Naming is allowed only after the smallest adequate decision target is found.
 
 #### F.8:8.1 - Policy-Id Mint-or-Reuse Discipline
 
@@ -358,11 +346,27 @@ Rules:
 3. **Gate checkability.** A gate, crossing, bridge, assurance, or publication claim that depends on policy ids includes `PolicyIdRef` or an equivalent resolvable structure admitted by its governing pattern.
 4. **Policy authority stays with the governing pattern.** F.8 decides introduction or reuse of the identifier; it does not decide whether the policy permits work, passes a gate, or gives evidence.
 
-### F.8:9 - Common Anti-Patterns and Repairs
+### F.8:8 - Conformance Checklist
+
+| Check | Pass condition |
+| --- | --- |
+| `CC-F8-01` | Candidate expression, bounded context, proposed use, and recovered kind or relation are named. |
+| `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, work, measurement, or structure uses are split. |
+| `CC-F8-03` | A local existing sense is reused before proposing a row or U-kind. |
+| `CC-F8-04` | Role expressions become durable role names only after `U.Role` and RoleDescription ontology are recovered. |
+| `CC-F8-05` | Assignment and performed-work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
+| `CC-F8-06` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names go to direct governing patterns. |
+| `CC-F8-07` | Concept-Set row reuse stays within the row's admitted use. |
+| `CC-F8-08` | Aliases preserve meaning and carry lineage when durable. |
+| `CC-F8-09` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK` admission, and the accepted A.8, A.11, C.3, E.9, and F.18 decision basis. |
+| `CC-F8-10` | Policy ids carry `PolicyIdRef` discipline when introduced or reused. |
+| `CC-F8-11` | The decision states what overread is not admitted and what condition reopens the decision. |
+
+### F.8:9 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover kind and use first; send to direct pattern. |
+| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover kind and use first; apply the direct governing pattern. |
 | Evidence role revival | `EvidenceRole` becomes a role-name family. | Recover evidence-use relation; name it only through direct evidence naming. |
 | Status-role fusion | `ReadyReviewerRole` or `ApprovedRole` names a role plus state. | Separate role from state or status-use relation. |
 | Row overuse | Naming row justifies role assignment or structural inference. | Lower use to row scope or repair the row and bridges. |
@@ -398,7 +402,7 @@ The pattern is intentionally narrower than `F.18`. `F.18` can run a full candida
 
 The strict role decision is central. A role expression names a work-facing role only when `U.Role` is recovered. Epistemes, publications, standards, requirements, evidence, statuses, permissions, gates, decisions, methods, work, and relation positions may need names, but they do not become roles because a source phrase used "role".
 
-### F.8:12 - SoTA-Echoing and Source-Use
+### F.8:12 - SoTA-Echoing - Source-Use
 
 | Practice line | What FPF adopts | Practical implication |
 | --- | --- | --- |
@@ -428,9 +432,7 @@ Source-use boundary: a source tradition may supply candidate words and current p
 
 ### F.8:14 - Didactic Memory
 
-Do not ask for a better name first. Ask what the expression is trying to name, whether that value already exists locally, whether any cross-context row admits the intended use, and whether the expression is really a role, status, evidence, policy, source, slot, method, work, or type case. Mint only after reuse, alias, direct-pattern naming, and row options have failed.
-
-### F.8:15 - Footer Marker
+Do not ask for a better name first. Ask what the expression is trying to name, whether that value already exists locally, whether any cross-context row admits the intended use, and whether the expression is really a role, status, evidence, policy, source, slot, method, work, or kind case. Mint only after reuse, alias, direct-pattern naming, and row options have failed.
 
 ### F.8:End
 

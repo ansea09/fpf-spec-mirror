@@ -6,12 +6,12 @@ section_id: "A.6.M:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__008_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:7 — Conformance Checklist"
-line_start: 15519
-line_end: 15533
+line_start: 15782
+line_end: 15796
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -36,5 +36,5 @@ keywords:
 | `CC-A6M-7` | A failed check gives a repair move or governing-pattern application, not only a rejection. |
 | `CC-A6M-8` | A current `G.2` source row for MOSA, open systems, platform practice, Conway correspondence, team-boundary correspondence, or Amdahl-style decomposition limits appears before guidance from that source is used for practitioner-facing claims being made. |
 | `CC-A6M-9` | RFC keywords are used only for pattern users, records, claims, conformance items, or publication records, evidence records, or assurance records. Modeled modules and interfaces are not written as agents with duties. |
-| `CC-A6M-10` | Lower or reopen the repair when whole holon, module holon, boundary, interface specification, interface gap, substitutability policy, change policy, platform grammar, conformance expectation, relied-on evidence path, source-label recovery, team-to-work correspondence, or neighboring governing pattern changes. |
+| `CC-A6M-10` | Lower or reopen the repair when whole holon, module holon, boundary, interface specification, interface gap, substitutability policy, change policy, platform grammar, conformance expectation, relied-on evidence relation, relied-on source relation, source-label recovery, team-to-work correspondence, or neighboring governing pattern changes. |
 

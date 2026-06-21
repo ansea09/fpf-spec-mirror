@@ -6,12 +6,12 @@ section_id: "C.2.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:6 — Bias-Annotation"
-line_start: 37854
-line_end: 37856
+line_start: 39167
+line_end: 39169
 dependencies:
   - "A.16"
   - "A.16.0"

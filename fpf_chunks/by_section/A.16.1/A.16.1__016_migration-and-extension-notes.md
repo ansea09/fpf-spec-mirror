@@ -6,12 +6,12 @@ section_id: "A.16.1:15"
 section_title: "Migration and Extension Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__016_migration-and-extension-notes.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:15 — Migration and Extension Notes"
-line_start: 22914
-line_end: 22924
+line_start: 23506
+line_end: 23516
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,8 +38,8 @@ keywords:
 
 ### A.16.1:15 - Migration and Extension Notes
 
-#### A.16.1:15.1 - Migration from vague cue / signal language
-Older prose often says merely "there is a signal" or "something suggests a work move". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then turns the passage into a cue pack with explicit cue nucleus, primary witness or anchor, and route-candidate hints only if those hints are already visible.
+#### A.16.1:15.1 - Migration from vague cue or signal language
+Source prose often says merely "there is a signal" or "something suggests a work move". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then turns the passage into a cue pack with explicit cue nucleus, primary witness or anchor, and route-candidate hints only if those hints are already visible.
 
 #### A.16.1:15.2 - Local extension rule
 Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.

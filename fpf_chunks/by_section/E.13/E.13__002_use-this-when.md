@@ -6,12 +6,12 @@ section_id: "E.13:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:0 — Use This When"
-line_start: 62051
-line_end: 62076
+line_start: 64602
+line_end: 64627
 dependencies:
   - "A.10"
   - "A.21"
@@ -58,7 +58,7 @@ Typical moments:
 
 **Not this pattern when.**
 
-- If the question is whether a measurement scale is legal, use `C.16`.
+- If the question is whether a measurement scale is admissible, use `C.16`.
 - If the question is ordinary pattern quality, use `E.21`; use `E.13` only when a visible quality value is being treated as the practical value.
 - If the question is DRR adequacy, use `E.9.DA`; use `E.13` only when DRR marks become a surrogate for decision usefulness.
 - If the question is whole-FPF Pillar adequacy, use `E.2.DA`; use `E.13` only when Pillar values become the target.

@@ -6,12 +6,12 @@ section_id: "A.6.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__011_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:10 — Rationale"
-line_start: 16875
-line_end: 16885
+line_start: 17145
+line_end: 17155
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -37,7 +37,7 @@ keywords:
 
 ### A.6.7:10 - Rationale
 
-Characterization and legality-gated selection pipelines are not unified by a single shared `BaseType`; they are unified by:
+Characterization and admissibility-gated selection pipelines are unified by:
 
 * shared governing spec refs (e.g., CN‑Spec / CG‑Spec),
 * shared transport and crossing discipline (Bridge-only; penalties to `R_eff`),

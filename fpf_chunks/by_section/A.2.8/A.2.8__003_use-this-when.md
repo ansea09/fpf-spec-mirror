@@ -6,12 +6,12 @@ section_id: "A.2.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:0 — Use This When"
-line_start: 5136
-line_end: 5158
+line_start: 5288
+line_end: 5314
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -45,6 +45,10 @@ keywords:
 
 Use this pattern when a project needs to state who is accountable for what, under which modality, scope, and time window, without pretending that the words in a specification, contract, ticket, API description, or standard are themselves the accountable actor.
 
+**What goes wrong if missed.** A specification, interface, dashboard, contract text, or ticket is treated as the accountable party; evidence, gate admission, performed work, and commitment content collapse into one deontic-looking sentence.
+
+**What this buys.** The accountable subject, modality, referent, scope, time window, and adjudication hooks become inspectable without turning publications, evidence, gates, or work occurrences into commitment holders.
+
 Typical moments:
 
 - a promise content, policy clause, requirement, SLA, protocol rule, or standard clause must become an accountable commitment;
@@ -62,5 +66,5 @@ Typical moments:
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
 > **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (EntityOfConcern / Description episteme / carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
-> **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
+> **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and governance patterns.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 54241
-line_end: 54248
+line_start: 56095
+line_end: 56102
 dependencies:
   - "A.1"
   - "A.10"

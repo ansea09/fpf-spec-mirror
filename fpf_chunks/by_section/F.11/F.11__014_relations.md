@@ -6,12 +6,12 @@ section_id: "F.11:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:13 — Relations"
-line_start: 75445
-line_end: 75458
+line_start: 78139
+line_end: 78152
 dependencies:
   - "A.15"
   - "A.15.1"

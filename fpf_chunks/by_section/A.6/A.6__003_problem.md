@@ -6,12 +6,12 @@ section_id: "A.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:2 — Problem"
-line_start: 7942
-line_end: 7956
+line_start: 8116
+line_end: 8130
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,7 +78,7 @@ When boundaries are described without an L/A/D/E claim-classification discipline
 
 2. **Admissibility vs deontics.** The RFC keywords `MUST`, `SHOULD`, and `MAY` are used both for role-assignment or acting-system obligations and for world‑state admissibility predicates. E.8 already demands keeping deontics distinct from admissibility and definitions and recommends predicate‑style constraints for admissibility rather than RFC keywords.
 
-3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, and delivered work are different FPF objects: promise content is governed by A.2.3, a speech act is work governed by A.2.9, a commitment is a deontic binding governed by A.2.8, and a running service is delivered work with evidence. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
+3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, and delivered work are different FPF objects: promise content is governed by A.2.3, a speech act is work governed by A.2.9, a commitment is a deontic commitment relation governed by A.2.8, and a running service is delivered work with evidence. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
 
 4. **Effects without evidence or carriers.** Effects happen only in work; therefore, “effect claims” must be anchored to observation and carriers. Without A.7’s EntityOfConcern and Description-episteme / publication-carrier discipline, writers conflate the published description with runtime traces or treat a file as the system itself.
 

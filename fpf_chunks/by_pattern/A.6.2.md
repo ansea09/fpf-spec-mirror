@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
-line_start: 10493
-line_end: 10923
+line_start: 10677
+line_end: 11123
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -33,8 +33,15 @@ keywords:
 
 ## A.6.2 - `U.EffectFreeEpistemicMorphing` — Effect‑free morphisms of epistemes
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
 **One‑line summary.** `U.EffectFreeEpistemicMorphing` (EFEM) is the universal class of **effect-free, law-constrained morphisms between epistemes**. An EFEM morphism rewrites episteme components (ClaimGraph, `entityOfConcernRef`, optional `groundingHolonRef`, `viewpointRef`, `referenceScheme`, and—where C.2.1+ is in use—`representationSchemeRef` and related slots, plus meta) in a **conservative, functorial, reproducible** way, with an explicit mode for what happens to the **EntityOfConcernSlot** (`EntityOfConcernChangeMode ∈ {preserve, retarget}`) as defined by `C.2.1 U.EpistemeSlotRelation`.
+
+**Use this pattern when** a project needs to transform an episteme into another episteme while preserving the distinction between episteme-only change, EntityOfConcern retargeting, publication rendering, mechanism application, and performed work.
+
+**What goes wrong if missed.** A view, retargeting, refinement, representation change, publication rendering, mechanism application, or work occurrence is treated as the same operation, so the project can no longer tell whether the EntityOfConcern changed or only the episteme changed.
+
+**What this buys.** EFEM gives one law-constrained episteme-to-episteme morphism discipline with explicit preserve/retarget mode, slot/ref boundaries, conservativity, and composition conditions.
 
 **Placement.** After **A.6.1 `U.Mechanism`** and before any specialisations (`A.6.3 U.EpistemicViewing`, `A.6.4 U.EpistemicRetargeting`).
 
@@ -46,7 +53,7 @@ A.6.3 `U.EpistemicViewing`; A.6.4 `U.EpistemicRetargeting`; E.17.0 `U.MultiViewD
 
 **EntityOfConcern change-mode discipline.** EFEM uses `EntityOfConcernChangeMode` for the preserve/retarget characteristic over C.2.1's EntityOfConcernSlot / entityOfConcernRef family. Earlier source-side spellings must be normalized to the EntityOfConcern family before conformant use and do not define a second EntityOfConcern ontology.
 
-**Body-level U-kind settlement.** `U.EffectFreeEpistemicMorphing` is the governed durable value in this host. `U.Episteme` is reused from C.2.1; episteme species such as episteme card, view, and publication are dependent episteme or publication values only when C.2.1/E.17 governs them. `ClaimGraph`, `ReferenceScheme`, `Viewpoint`, and related names are ValueKinds or SlotKinds inside the C.2.1 episteme slot relation and A.6.5 SlotSpec discipline. `SubjectRef` is source-migration wiring that decodes through `DescriptionContext`; it is not a second EntityOfConcern ontology. `EpMorphism` below is the local mathematical-lens arrow value for the episteme category, not a root U-kind. Claims about performed work, mechanism application, or presentation carriers leave EFEM and use A.15, A.6.1, E.17, or the direct publication pattern.
+**Body-level U-kind settlement.** `U.EffectFreeEpistemicMorphing` is the governed durable value in this pattern. `U.Episteme` is reused from C.2.1; episteme species such as episteme card, view, and publication are dependent episteme or publication values only when C.2.1/E.17 governs them. `ClaimGraph`, `ReferenceScheme`, `Viewpoint`, and related names are ValueKinds or SlotKinds inside the C.2.1 episteme slot relation and A.6.5 SlotSpec discipline. `SubjectRef` is source wiring that decodes through `DescriptionContext`; it is not a second EntityOfConcern ontology. `EpMorphism` below is the local mathematical-lens arrow value for the episteme category, not a root U-kind. Claims about performed work, mechanism application, or presentation carriers leave EFEM and use A.15, A.6.1, E.17, or the direct publication pattern.
 
 ### A.6.2:1 - Problem frame
 
@@ -110,7 +117,7 @@ The result: engineers and tool builders can no longer tell **when they are allow
 > * are **effect‑free** (no Work, no Mechanism application, no mutation of systems or carriers);
 > * are **conservative** in what they claim about the EntityOfConcern: no new EntityOfConcern commitment may appear unless it is a logical consequence under the declared ReferenceScheme, correspondence, or bridge invariant;
 > * are **functorial** (identities and composition behave as expected on the category of epistemes);
-> * declare an explicit **EntityOfConcernChangeMode ∈ {preserve, retarget}**, controlling how `EntityOfConcernSlot` behaves, and how source-migration `subjectRef` decodes through `DescriptionContext` when that older wiring name is still present.
+> * declare an explicit **EntityOfConcernChangeMode ∈ {preserve, retarget}**, controlling how `EntityOfConcernSlot` behaves, and how source `subjectRef` decodes through `DescriptionContext` when that wiring name is present.
 
 The category-theory **objects** of the EFEM universe are epistemes of some `U.EpistemeKind` (typically realised as `U.EpistemeCard` / `U.EpistemeView` / `U.EpistemePublication`). The **arrows** are EFEM morphisms `f : X → Y` satisfying the P0–P5 laws below.
 
@@ -141,9 +148,9 @@ This says: EFEM is “about” **morphisms between epistemes**, indexed by Conte
 * **Types**
   * `U.Episteme` (as holon; realised via species `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` under C.2.1).
   * `U.EpistemeKind` (episteme n‑ary relation signature; slots per A.6.5 / C.2.1).
-  * `SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
+  * `SubjectRef` (source wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
   * `EpMorphism` (local arrow value in `Ep`, governed by this morphism pattern and C.29 when the mathematical lens is current).
-  * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new Kernel type for “EntityOfConcern”).
+  * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new durable U-kind named “EntityOfConcern”).
 
 * **Operators (arrow algebra)**
 
@@ -151,7 +158,7 @@ This says: EFEM is “about” **morphisms between epistemes**, indexed by Conte
   * `compose(g,f) : EpMorphism(X->Z)` where `f : X->Y`, `g : Y->Z`.
   * `apply(f, x:U.Episteme) : U.Episteme`.
   * `dom(f), cod(f) : U.Episteme`.
-  * `subjectRef(E) : SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
+  * `subjectRef(E) : SubjectRef` as source projection from `DescriptionContext`, when source wiring exposes that name.
   * `entityOfConcernChangeMode(f) : U.EntityOfConcernChangeMode`  // EFEM‑level characteristic from C.2.1.
 
 Each operator that takes epistemes as arguments obeys **SlotSpec discipline** from A.6.5: in particular, laws below are phrased in terms of the **named SlotKinds** (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, `ViewSlot`, and—when the C.2.1+ extension is used—`RepresentationSchemeSlot`) and their associated ValueKind/RefKind; we never speak of “field 1/2/3”.
@@ -183,8 +190,8 @@ For any EFEM morphism `f : X→Y`:
    * if `entityOfConcernChangeMode(f) = preserve`, then `entityOfConcernRef(Y) = entityOfConcernRef(X)` (and usually `groundingHolonRef(Y) = groundingHolonRef(X)` unless an explicit Grounding Bridge is declared);
    * if `entityOfConcernChangeMode(f) = retarget`, then `entityOfConcernRef(Y) ≠ entityOfConcernRef(X)` in general and the record names a **KindBridge** between the two EntityOfConcern values (A.6.4 / F.9).
 
-4. **SubjectRef source-migration discipline.**
-   For Description epistemes, including Description epistemes admitted for specification use (`…Description` / `…Spec`), `subjectRef(E)` is a `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` (E.10.D2). EFEM species state how source-migration `subjectRef` transforms in terms of these components (usually: preserve or explicitly adjust `ViewpointRef` while preserving `EntityOfConcernRef` and `BoundedContextRef`).
+4. **SubjectRef source discipline.**
+   For Description epistemes, including Description epistemes admitted for specification use (`…Description` / `…Spec`), `subjectRef(E)` is a `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` (E.10.D2). EFEM species state how source `subjectRef` transforms in terms of these components (usually: preserve or explicitly adjust `ViewpointRef` while preserving `EntityOfConcernRef` and `BoundedContextRef`).
 
 ##### A.6.2:4.4.2 - P1 — Purity (no external effects)
 
@@ -353,7 +360,7 @@ To make the SlotKind/ValueKind/RefKind discipline and EFEM laws concrete, consid
 | `ViewpointSlot`       | `U.Viewpoint`                                 | `U.ViewpointRef`    | engineering viewpoint (e.g. from TEVB) under which Description epistemes, including Description epistemes admitted for specification use, are validated |
 | `ReferenceSchemeSlot` | `U.ReferenceScheme`                           | ByValue             | how the ClaimGraph is interpreted against EntityOfConcern and grounding     |
 
-This table is an instance of A.6.5 `U.RelationSlotDiscipline`: each row is a SlotSpec triple ⟨SlotKind, ValueKind, refMode/RefKind⟩; no additional kernel types are introduced, and C.2.1’s constraints on `EntityOfConcernSlot`/`GroundingHolonSlot` are preserved.
+This table is an instance of A.6.5 `U.RelationSlotDiscipline`: each row is a SlotSpec triple ⟨SlotKind, ValueKind, refMode/RefKind⟩; no additional U-kinds are introduced, and C.2.1’s constraints on `EntityOfConcernSlot`/`GroundingHolonSlot` are preserved.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — a `EntityOfConcernChangeMode = preserve` species that:
@@ -366,9 +373,9 @@ Two typical EFEM species over this kind are:
   * is idempotent and deterministic (P4) and pure (P1);
   * is conservative (P2) by construction: it never introduces new atoms about the selected system.
 
-In later A.6.3/A.6.4/E.17.\* patterns, concrete EpistemeKinds (for specific engineering description and specification-useification idioms) are expected to provide SlotSpecs of this general shape and to state explicitly, per CC‑C.2.1‑5 / CC‑EFEM.\*, which slots their EFEM species read and write.
+Concrete A.6.3/A.6.4/E.17.\* patterns for specific engineering description and specification-use idioms provide SlotSpecs of this general shape and state explicitly, per CC‑C.2.1‑5 / CC‑EFEM.\*, which slots their EFEM species read and write.
 
-### A.6.2:6 - Bias & Defaults (informative)
+### A.6.2:6 - Bias-Annotation
 
 * **Episteme‑first, world‑second.** EFEM is strictly about **epistemes as objects**; any world contact (measurements, executions) lives in `U.Mechanism`/`U.Work` and produces new epistemes that EFEM may subsequently relate.
 
@@ -391,23 +398,14 @@ In later A.6.3/A.6.4/E.17.\* patterns, concrete EpistemeKinds (for specific engi
 | **CC‑EFEM.7 (EntityOfConcern and Description-episteme boundary, specification use/refinement, and `subjectRef` discipline).**      | For any episteme that is a `…Description`/`…Spec` (E.10.D2), EFEM laws SHALL be phrased in terms of `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` and MUST respect the EntityOfConcern and Description-episteme boundary, specification use/refinement gates, and DescriptionContext invariants (including DESCCTX-13 Viewpoint-locality as defined in E.10.D2/C.2.1): `Describe_EoC_DescEp` lives in A.7; `Specify_DescEp_SpecDesc` MAY be species of EFEM only as an episteme→episteme refinement and MUST preserve the `EntityOfConcern`. |
 | **CC‑EFEM.8 (Slot‑level read/write declaration).**  | Any EFEM species that defines morphisms between epistemes SHALL also satisfy C.2.1 checkpoint CC‑C.2.1‑5: it MUST state whether it is a species of `U.EffectFreeEpistemicMorphing`/`U.EpistemicViewing`/`U.EpistemicRetargeting`, declare its `entityOfConcernChangeMode`, name which SlotKinds it reads and writes, and state its behaviour on `entityOfConcernRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`. |
 
-### A.6.2:8 - SoTA‑Echoing (informative, lineage)
+### A.6.2:7.1 - Common Anti-Patterns and How to Avoid Them
 
-EFEM is intentionally “thin”: it provides a **minimal categorical and slot‑based discipline** for episteme→episteme morphisms, making it easy to align with several post‑2015 lines of work:
-
-* **Categorical semantics & displayed categories.**
-  Treating `Ep` as a category over `Ref` via a functor `α : Ep → Ref` (mapping each episteme to its EntityOfConcern) matches the *displayed categories* view on fibrations: EFEM arrows are those morphisms in `Ep` that are “vertical” (preserve α) or “structured reindexings” (retarget under a KindBridge). This is exactly the intended alignment with C.2.1’s subjectRef/ReferencePlane picture.
-
-* **Optics as universal projections.**
-  Viewing operations (`U.EpistemicViewing`) refine EFEM in a way analogous to **lenses/prisms/traversals** in the optics literature: effect‑free, compositional accessors for parts of a larger structure. EFEM captures the laws that underlie those projections (purity, conservation, functoriality); optics‑style constructions can then be used inside discipline packs without modifying the core.
-
-* **Structured cospans & correspondences.**
-  Many correspondence‑based multi‑view patterns (ISO 42010 correspondences, model synchronisation, traceability links) can be seen as spans/cospans between epistemes. EFEM ensures that the legs of such cospans are effect‑free and conservative, while CorrespondenceModels carry the extra structure needed for consistency management.
-
-* **Bidirectional transformations (BX).**
-  The “no new commitments” and “functorial & idempotent” constraints mirror modern BX practice around **consistency restoration**: EFEM is the universal core that BX‑like constructions (view updates, synchronisers) must respect when instantiated for epistemes.
-
-EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent‑space), nor a specific representation (symbolic vs distributed); those choices are captured in `U.ClaimGraph`, `U.RepresentationScheme` and discipline‑level patterns. EFEM only says what it means to transform epistemes **legally** in that chosen substrate.
+| Anti-pattern | Why it fails | Correct move |
+|---|---|---|
+| EFEM as performed work | An episteme rewrite is treated as measurement, actuation, or work occurrence. | Use EFEM only for episteme-to-episteme morphisms; use A.15 when work in the world is current. |
+| EFEM as publication rendering | A face, carrier, or rendering change is treated as the episteme morphism itself. | Use E.17 for publication forms and use EFEM only for the episteme relation being represented. |
+| Retargeting as harmless view | EntityOfConcern changes without a declared bridge or retargeting witness. | State `EntityOfConcernChangeMode=retarget` and use the relevant KindBridge or retargeting pattern. |
+| Representation lens as ontology | A category arrow, graph, or mapping notation is treated as a new root U-kind. | Keep the mathematical object as the lens over the EFEM relation and keep U-kind settlement in E.24/C.3. |
 
 ### A.6.2:9 - Consequences
 
@@ -424,7 +422,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
   By formulating EFEM laws in terms of SlotKinds/ValueKinds/RefKinds (A.6.5) and the EpistemeSlotRelation (C.2.1), it becomes much harder for Episteme to confuse “EntityOfConcern”, “slot in a relation”, and “reference to that entity”.
 
 * **Better didactics.**
-  The old “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotRelation: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, referent), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
+  The traditional “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotRelation: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, referent), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
 
 ### A.6.2:10 - Rationale
 
@@ -444,8 +442,26 @@ Because almost all subtle errors in multi‑view reasoning show up as **silent r
 FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) across relations, methods, roles, and now epistemes. Re‑using that discipline here:
 
 * aligns episteme morphisms with the rest of the framework;
-* enables later mechanised checks (e.g., that a viewing only touches slots it promised to touch);
+* enables mechanised checks (e.g., that a viewing only touches slots it promised to touch);
 * avoids minting yet another notion of “parameter” or “role in a relation”.
+
+### A.6.2:10.1 - SoTA-Echoing (informative, lineage)
+
+EFEM is intentionally “thin”: it provides a **minimal categorical and slot‑based discipline** for episteme→episteme morphisms, making it easy to align with several post‑2015 lines of work:
+
+* **Categorical semantics & displayed categories.**
+  Treating `Ep` as a category over `Ref` via a functor `α : Ep → Ref` (mapping each episteme to its EntityOfConcern) matches the *displayed categories* view on fibrations: EFEM arrows are those morphisms in `Ep` that are “vertical” (preserve α) or “structured reindexings” (retarget under a KindBridge). This is exactly the intended alignment with C.2.1’s subjectRef/ReferencePlane picture.
+
+* **Optics as universal projections.**
+  Viewing operations (`U.EpistemicViewing`) refine EFEM in a way analogous to **lenses/prisms/traversals** in the optics literature: effect‑free, compositional accessors for parts of a larger structure. EFEM captures the laws that underlie those projections (purity, conservation, functoriality); optics‑style constructions can then be used inside discipline packs without modifying the core.
+
+* **Structured cospans & correspondences.**
+  Many correspondence‑based multi‑view patterns (ISO 42010 correspondences, model synchronisation, traceability links) can be seen as spans/cospans between epistemes. EFEM ensures that the legs of such cospans are effect‑free and conservative, while CorrespondenceModels carry the extra structure needed for consistency management.
+
+* **Bidirectional transformations (BX).**
+  The “no new commitments” and “functorial & idempotent” constraints mirror modern BX practice around **consistency restoration**: EFEM is the universal core that BX‑like constructions (view updates, synchronisers) must respect when instantiated for epistemes.
+
+EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent‑space), nor a specific representation (symbolic vs distributed); those choices are captured in `U.ClaimGraph`, `U.RepresentationScheme` and discipline‑level patterns. EFEM only says what it means to transform epistemes **admissibly** in that chosen substrate.
 
 ### A.6.2:11 - Relations
 

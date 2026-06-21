@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:12 — Relations"
-line_start: 28490
-line_end: 28511
+line_start: 29131
+line_end: 29152
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -27,7 +27,7 @@ keywords:
 
   * `A.6.1` and `CC‑UM.*` for the mechanism intension shape and specialisation-chain discipline.
   * `A.19.CHR` for suite membership, suite protocol closure, SlotKind lexicon, and threshold and default discipline.
-  * `G.0` for `CG‑Spec` legality and evidence surfaces.
+  * `G.0` for `CG‑Spec` admissibility and evidence surfaces.
   * `A.19.CN` for `CN‑Spec` governance card used as an explicit input.
   * `C.22` for `TaskSignature` as a policy-routing artifact when used.
   * `A.6.5` for slot discipline (SlotIndex as projection; SlotKind invariance).

@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12a"
 section_title: "Boundary with quantum-like state-representation coarsening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__014_boundary-with-quantum-like-state-representation-coarsening.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:12a — Boundary with quantum-like state-representation coarsening"
-line_start: 11714
-line_end: 11756
+line_start: 11950
+line_end: 11992
 dependencies:
   - "A.15"
   - "A.20"
@@ -48,7 +48,7 @@ keywords:
 
 Use CSC first when one source-bearing side, model, state representation, or evidence set is made less detailed for a narrower use, or when review discovers that a coarsened rendering already in circulation can be retained only under a narrower-use card: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
 
-Action path:
+Application sequence:
 
 1. Name the source-bearing side and the coarsened version.
 2. State the use scope of the coarsened version before stating what it means.
@@ -67,7 +67,7 @@ For ordinary use, start with the standard shortcut mini-form:
 | Shortcut | Which less detailed rendering or working shortcut is used instead? |
 | Loss | Which distinction, evidence path, comparability, uncertainty, state dimension, or alternative is not carried? |
 | Admissible use | Which triage, orientation, explanation, or local decision use remains admissible? |
-| Reopen | Which dispute, decision change, admissible-use shift, threshold crossing, or non-admissible-use demand sends the reader back to the source-bearing side? |
+| Reopen | Which dispute, decision change, admissible-use shift, threshold crossing, or non-admissible-use demand requires return to the source-bearing side? |
 
 Use a fuller CSC and `C.26` coarsening boundary record only when the coarsened state representation will be reused, formalized, empirically compared, used in a high-stakes decision, or tied to a comparative performance claim:
 

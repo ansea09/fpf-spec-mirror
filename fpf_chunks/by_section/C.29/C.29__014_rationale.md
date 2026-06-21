@@ -1,0 +1,121 @@
+---
+chunk_kind: "child"
+pattern_id: "C.29"
+pattern_title: "Mathematical Lens Use"
+section_id: "C.29:12"
+section_title: "Rationale"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.29/C.29__014_rationale.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "C.29 — Mathematical Lens Use"
+  - "C.29:12 — Rationale"
+line_start: 53568
+line_end: 53619
+dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.4"
+  - "A.19"
+  - "A.3.3"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.6.3.CSC"
+  - "A.6.3.RT"
+  - "A.6.P"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.16.P"
+  - "C.18.1"
+  - "C.19.1"
+  - "C.2.P"
+  - "C.26"
+  - "C.27"
+  - "C.27.TA"
+  - "C.28"
+  - "C.29"
+  - "C.31.ASAP"
+  - "E.10"
+  - "E.17.EFP"
+  - "E.17.ID.CR"
+  - "E.18.1"
+  - "E.19"
+  - "E.8"
+  - "E.9"
+  - "F.9"
+  - "G.10"
+  - "G.2"
+  - "G.5"
+  - "G.9"
+keywords:
+  - "LensUseAdmissibilityValue"
+  - "coarse-graining"
+  - "invariants"
+  - "learned lens"
+  - "lens mapping mode"
+  - "lost structure"
+  - "mathematical lens"
+  - "ontology smuggling"
+  - "preserved structure"
+  - "rival lens"
+  - "scale window"
+  - "stop condition"
+  - "structure-preserving representation"
+  - "validation boundary"
+---
+
+### C.29:12 - Rationale
+
+#### C.29:7.1 - Why this improves FPF
+
+The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next move follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation object, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, lens-use boundary value, and stop condition.
+
+First-principles mathematical structures can come from several families without turning any one family into an FPF-wide foundation: signatures, logics, axioms, type or abstraction distinctions, symmetries, invariants, compositional structure, local-global relations, scale relations, boundary conditions, variational principles, action, energy, free-energy, loss, or value functionals, constrained optimization structure, probability, information, typicality, algorithmic construction, resource bounds, implementation constraints, consistency boundaries, causal or intervention-preservation questions, operator or function-space mappings, and declared observation maps. Each use still needs declared mapping, preserved structure, lost structure, validation regime or lens-use boundary value, and stop condition.
+
+This fits FPF because FPF already commits to state explicitness, bounded contexts, evidence and assurance, cross-context bridges, open-ended evolution, SoTA alignment, notational independence, and avoidance of ornamental formalism.
+
+`C.29` makes an existing discipline explicit: when FPF uses a `CandidateMathObject`, local formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use, the `C.29` application declares what that use preserves, what it loses, what it makes visible, which rival lenses still change the next lens-use move, and where its declared lens use stops.
+
+The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist record the FPF commitments named by value.
+
+#### C.29:7.2 - Alternatives rejected
+
+| Alternative | Why rejected |
+|---|---|
+| Keep only local math-lens hooks | Leaves no general conformance pattern; `C.26`-style guardrails do not transfer to non-QL lenses. |
+| Add only a paragraph to `A.6.P` | Overloads relational precision restoration with general modeling adequacy. |
+| Add only a paragraph to `F.9` | Bridge discipline is about cross-context semantics; C.29 also governs within-context mathematical representation. |
+| Treat Vanchurin as a new FPF foundation | Too speculative and ontology-bearing; selected source-use disposition is candidate-lens stress test only. |
+| Treat Sandberg thread as a foundations list | Useful recognition cue, but not a proof source, closed taxonomy, or FPF law. |
+| Require a fixed list of permitted lens families | Would make first repair depend on list membership instead of declared structure, loss, and declared lens use. |
+| Make mechanized proof mandatory for every C.29 output | Too narrow. Mechanized proof can be one `LensUseBoundaryValue` value, but adequacy can also rest on accepted domain theory, formal derivation, simulation, or empirical fit. |
+
+#### C.29:7.3 - Pillar impact analysis
+
+| Pillar | Impact |
+|---|---|
+| `P‑1 Cognitive Elegance` | Positive: first-principles structure becomes visible without ornamental formalism; one lens-use card replaces many prestige metaphors while example rows stay subordinate to declared fields and declared lens use. |
+| `P‑2 Didactic Primacy` | Positive: first-minute use starts with the useful question "what structure changes the next move?", then Plain wording remains backed by recoverable Tech fields. |
+| `P-3 Scalable Formality` | Positive: admits maturation from ordinary cue to candidate lens, one-line repair, formal derivation, validation regime, or evidence-backed domain theory. |
+| `P‑4 Open‑Ended Kernel` | Positive if placed in Part C, not Kernel; avoids making any mathematical family or foundation a kernel axiom. |
+| `P‑5 FPF Layering` | Positive: `C.29` becomes a modular parent pattern or coordinator for specific mathematical lenses while neighboring patterns keep their own authority. |
+| `P‑6 Lexical Stratification` | Positive: separates Plain "lens" from technical `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `StopCondition`, and evidence fields. |
+| `P‑7 Pragmatic Utility` | Positive if every mathematical-lens use result changes a lens-bounded prediction, distinction, obstruction, model choice, diagnostic boundary, or stop condition. |
+| `P‑8 Cross‑Scale Consistency` | Positive: scale windows, coarse-graining, local-global relations, composition, dynamics, symmetry, and boundary conditions become declared rather than assumed. |
+| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, lens-use boundary value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when those claims are being made. |
+| `P‑10 Open‑Ended Evolution` | Positive: new lens families and first-principles modeling structures can be added without destabilizing Core. |
+| `P‑11 SoTA Alignment` | Positive: admits current mathematical modeling, applied category theory, scientific machine learning, causal abstraction, learning-dynamics research, and plural foundations without over-adopting them. |
+
+#### C.29:7.4 - Principle-taxonomy balance
+
+| Pillar | C.29 effect |
+|---|---|
+| `Gov` | New mathematical-lens use norms require `E.9` design-rationale discipline and SoTA discipline when they alter FPF norms. |
+| `Arch` | Wrong governing-pattern assignment is blocked; `C.29` coordinates but does not replace neighboring patterns. |
+| ontology and episteme distinction | Representation, mapping, preservation, loss, and `LensUseBoundaryValue` are explicit. |
+| `Prag` | A useful lens produces a useful prediction, distinction, obstruction, or stop condition; otherwise it remains didactic prose. |
+| `Did` | The card gives a small first-use check while experts can inspect field meanings named by value. |
+

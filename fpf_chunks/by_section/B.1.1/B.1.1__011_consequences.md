@@ -1,50 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.1"
-pattern_title: "Dependency Graph & Proofs"
-section_id: "B.1.1:10"
+pattern_title: "Dependency Structure and Relation Grounding"
+section_id: "B.1.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.1 — Dependency Graph & Proofs"
-  - "B.1.1:10 — Consequences"
-line_start: 30116
-line_end: 30131
+  - "B.1.1 — Dependency Structure and Relation Grounding"
+  - "B.1.1:8 — Consequences"
+line_start: 30723
+line_end: 30737
 dependencies:
   - "A.1"
-  - "A.12"
+  - "A.10"
   - "A.14"
-  - "A.15"
+  - "A.15.1"
+  - "A.22"
+  - "A.6.5"
   - "B.1"
-  - "B.1.2"
-  - "B.1.3"
   - "B.1.4"
-  - "B.1.5"
-  - "B.1.6"
+  - "B.3.5"
+  - "C.13"
+  - "C.29"
+  - "C.30"
+  - "C.30.AD"
+  - "C.30.AD.BA"
 keywords:
-  - "dependency graph"
-  - "proofs"
-  - "set"
-  - "slice"
-  - "structural aggregators"
-  - "sum"
 ---
 
-### B.1.1:10 - Consequences
+### B.1.1:8 - Consequences
 
-**Benefits**
+Positive consequences:
 
-* **Predictable composition:** Γ‑folds are reproducible and auditable across domains.
-* **Cross‑scale clarity:** Resource and time additivity are preserved by routing to Γ\_work and Γ\_time.
-* **Safer modelling:** WLNK cutsets surface true constraints; emergence is not “smuggled in”.
-* **Didactic simplicity:** A small, fixed edge vocabulary makes reviews and onboarding faster.
+- Dependency views become useful without becoming hidden ontology.
+- External influences can be discussed without corrupting parthood.
+- Graph checks keep their value and their limits.
+- B.1 aggregation receives cleaner part-whole inputs.
 
-**Trade‑offs / mitigations**
+Costs:
 
-* **Up‑front discipline:** Declaring boundaries and independence requires effort.
-  *Mitigation:* reuse the Proof Kit templates; keep small, local graphs and compose.
-* **Refactoring legacy edges:** Replacing “generic part‑of” with precise relations can be noisy.
-  *Mitigation:* use the decision guide (4.4) and anti‑pattern table (9) as a script.
+- A diagram alone is no longer enough; relation kinds and owners must be named.
+- Some compact dependency graphs need multiple relation layers or views.
+- Graph-based checks may need C.29 when the mathematical lens is relied on.
 

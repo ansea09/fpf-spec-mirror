@@ -1,0 +1,52 @@
+---
+chunk_kind: "child"
+pattern_id: "E.18.2"
+pattern_title: "Transformation Flow Mathematical Description"
+section_id: "E.18.2:4.5"
+section_title: "Archetypal Grounding (Worked Slices)"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.18.2/E.18.2__006_archetypal-grounding-worked-slices.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "E.18.2 — Transformation Flow Mathematical Description"
+  - "E.18.2:4.5 — Archetypal Grounding (Worked Slices)"
+line_start: 70616
+line_end: 70625
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.20"
+  - "A.21"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.5"
+  - "B.3"
+  - "C.2.1"
+  - "C.29"
+  - "C.30"
+  - "C.30.TFS-REL"
+  - "E.17"
+  - "E.18"
+  - "E.18.1"
+  - "U.Episteme"
+  - "U.Signature"
+  - "U.Transformation"
+keywords:
+  - "C.29 boundary"
+  - "algebraic description"
+  - "graph expression"
+  - "mathematical description"
+  - "path expression"
+  - "transformation-flow math"
+---
+
+### E.18.2:4.5 - Archetypal Grounding (Worked Slices)
+
+**Refrigerator principle scheme.** A vapor-compression diagram can be a publication face. The cooling cycle can be a selected `TransformationFlowStructure`. The thermodynamic laws are mechanism or formal-substrate claims. The graph or equation set that describes the cycle is an E.18.2 mathematical description. It may preserve transformation order, heat-transfer constraints, and cycle closure while losing maintenance work, sensor uncertainty, and installation context. It does not prove the refrigerator works or authorize a repair.
+
+**P2W carry-through.** A P2W source may draw a graph-shaped path from formal substrate to principle frame, mechanism position, method selection, work planning, work, and evaluation. The graph-shaped expression can be an E.18.2 description of the selected carry-through structure. The P2W move itself remains `E.18.1`; work planning remains A.15; dated work remains `U.Work`.
+
+**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim is the compound transformation organization, use E.18 or C.30 when it is an architecture claim. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes that organization, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
+
+**Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred.
+

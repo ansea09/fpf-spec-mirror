@@ -6,15 +6,25 @@ section_id: "A.14:4"
 section_title: "Solution — extend the mereology catalogue, keep it clean"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__005_solution-extend-the-mereology-catalogue-keep-it-clean.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:4 — Solution — extend the mereology catalogue, keep it clean"
-line_start: 20105
-line_end: 20115
+line_start: 20644
+line_end: 20654
 dependencies:
   - "A.1"
+  - "A.15"
+  - "A.15.1"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.7"
+  - "B.1"
   - "B.1.1"
+  - "B.2"
+  - "B.3.5"
+  - "C.13"
 keywords:
   - "ComponentOf"
   - "PhaseOf"
@@ -30,8 +40,8 @@ keywords:
 
 1. **PortionOf** — for *measured* parts of a whole (stuffs and other extensives).
 2. **PhaseOf** — for *temporal* parts of the same carrier.
-3. **No Roles/Methods in mereology.** `U.Role` and `U.Method` are **never** parts (A.15). A `U.MethodDescription` is an **Episteme** and may be versioned/structured; that does not make the described `U.Method` a part.
-4. **MemberOf stays, but constructive aggregation and agency live elsewhere.** `MemberOf` remains available to state collections and collectives; a **collection‑as‑whole** may be constructed via `Γ_m.set` (Compose‑CAL, C.13), while **collective agency/composition** is handled in **B.1.7 Γ_collective** and **A.15** (not in A.14).
+3. **No role or method values in mereology by label.** `U.Role` and `U.Method` are not A.14 parts merely because a sentence talks about a role, method, or position. A `U.MethodDescription` is an **Episteme** and may be versioned or structured; `U.Work` occurrences may have work-occurrence parts under A.15.1; neither case makes the described `U.Method` a part.
+4. **MemberOf stays, but collection-as-whole and acting-collective claims use direct owners.** `MemberOf` remains available to state collections and collectives. A **collection‑as‑whole** may be constructed via `Γ_m.set` under C.13 and grounded with B.3.5 when assurance is current. An acting collective system uses `U.System` admission plus role, method, work, and evidence owners. Whole reidentification uses B.2 only when existing-whole explanations fail.
 
 The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** (conceptual, logical/epistemic) remain as in the kernel; A.14 only clarifies **how to tell them apart from Portion/Phase** (§ 6).
 

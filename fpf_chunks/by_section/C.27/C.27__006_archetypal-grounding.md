@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 48966
-line_end: 49271
+line_start: 50565
+line_end: 50870
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -288,7 +288,7 @@ Minimum useful note:
   policy;
 - resistance proxy: incident mix, dependency lag, tool latency, coordination
   bottleneck;
-- receiving relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
+- governing relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
 - supported use: local incident-response improvement claim;
 - unsupported use: formal guarantee, audit closure, release gate, or causal
   proof unless the relevant boundary, evidence, or assurance pattern carries it.

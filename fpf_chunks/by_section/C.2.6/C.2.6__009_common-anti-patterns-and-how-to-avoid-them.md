@@ -6,12 +6,12 @@ section_id: "C.2.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37863
-line_end: 37867
+line_start: 39176
+line_end: 39180
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,7 +34,7 @@ keywords:
 ---
 
 ### C.2.6:8 - Common Anti-Patterns and How to Avoid Them
-- **Text-only illusion.** Treating every cue as document-mediated because it was written down later.
+- **Text-only illusion.** Treating every cue as document-mediated because it has been written down.
 - **Representation capture.** Using symbolic/distributed labels to hide world-anchoring distinctions.
 - **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication.
 

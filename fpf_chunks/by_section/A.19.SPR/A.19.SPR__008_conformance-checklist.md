@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:6 — Conformance checklist"
-line_start: 24337
-line_end: 24351
+line_start: 24978
+line_end: 24992
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 22484
-line_end: 22731
+line_start: 23062
+line_end: 23317
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -53,6 +53,12 @@ keywords:
 **Used by.**
 `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`, `E.17.1`.
 
+**Use this when.** Use this pattern when a local language-state move is no longer enough because the history of governed `U.Episteme` publications, branches, retirements, losses, or handoffs must be visible as one reviewable account.
+
+**What goes wrong if missed.** Readers treat a sequence of cue packs, routed cue sets, endpoint-bound publications, and handoffs as one magically moving publication; forks, losses, authority changes, and work-requiring crossings become implicit.
+
+**What this buys.** One optional trajectory account that records lineage, position claims, move kinds, publication forms, losses, and next governing responsibility without wrapping every local A.16 move in heavy history machinery.
+
 ### A.16.0:1 - Problem frame
 In engineering, inquiry, operator, and management practice, teams sometimes need more than a local move note. When branch structure, supersession, retirement, handoff, bridge-sensitive loss, or multi-step governing pattern change matters, readers need one place where the history of successive governed `U.Episteme` publications is made explicit.
 
@@ -87,10 +93,10 @@ It answers the question: `when history itself matters, which governed publicatio
 
 #### A.16.0:4.0a - E.24.UK settlement
 
-`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The host title is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
+`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
 
-#### A.16.0:4.1 - Ontological subject and role lanes
-In this cluster, keep six roles distinct:
+#### A.16.0:4.1 - Ontological subject and slot groups
+In this cluster, keep six slot groups distinct:
 
 - **current governed member** - the current `U.Episteme` publication under language-state governance;
 - **lineage links** - explicit `derivedFrom`, `supersedes`, `forkedFrom`, `mergedFrom`, and retirement / no-successor links among governed members;
@@ -102,6 +108,8 @@ In this cluster, keep six roles distinct:
 A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or handoff semantics.
 
 A trajectory step may add a new lineage member, revise the current member, or relate several members through fork, merge, supersession, or retirement. It does **not** mean that the source phenomenon itself has moved through the language-state chart.
+
+Here `route` names an `A.16` move-family label or a typed upstream publication-form cue. It is not an action route, work sequence, workflow, or transformation-flow path.
 
 #### A.16.0:4.2 - Position-account discipline
 The position read by this pattern is the slot-explicit claim defined in `C.2.2a`: a partial coordinate publication in the declared language-state `U.CharacteristicSpace`, where each basis slot publishes a `ValueSet(slot)`, interval, or other admissible set-valued claim.
@@ -270,8 +278,8 @@ A publishable trajectory account should normally identify:
 
 If these are missing, the publication is usually only plain sequence prose, not a conforming trajectory account.
 
-### A.16.0:15 - Review guidance
-A reviewer should ask:
+### A.16.0:15 - Practitioner check
+A practitioner should ask:
 
 1. Is the author really describing history over the declared language-state `U.CharacteristicSpace`, or only narrating progress informally?
 2. Is the current governed member distinct from the grounds, publication form, publication face, and carrier?

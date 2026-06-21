@@ -6,12 +6,12 @@ section_id: "E.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__013_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:9 — Consequences"
-line_start: 68658
-line_end: 68666
+line_start: 71317
+line_end: 71325
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.19:9 - Consequences
 
-| Benefits                                                                         | Trade-offs / Mitigations                                                                   |
+| Benefits                                                                         | Trade-offs and mitigations                                                                   |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Repeatable admission decisions** — reviewers share a common review language.     | More explicit editorial work; mitigated by a small baseline and risk-selected profiles.        |
 | **Higher trust in normative content** — CC becomes the enforceable conformance check set. | Authors must align prose and CC carefully; mitigated by coherence checks.                  |

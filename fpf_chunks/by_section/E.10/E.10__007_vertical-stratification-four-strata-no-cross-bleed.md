@@ -6,23 +6,28 @@ section_id: "E.10:5"
 section_title: "Vertical Stratification (four strata; no cross-bleed)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 59967
-line_end: 59983
+line_start: 62395
+line_end: 62411
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -36,7 +41,7 @@ keywords:
 
 > **Rule V‑0 (Strata).** Every lexical item in a conformant text belongs to exactly one **stratum**:
 
-1. **Kernel** — `U.*` types, kernel relations, invariants (e.g., `U.Holon`, `U.Role`, `U.Method`, `U.Work`, `U.PromiseContent`).
+1. **Kernel** — admitted `U.*` names, core relation kinds, invariants (e.g., `U.Holon`, `U.Role`, `U.Method`, `U.Work`, `U.PromiseContent`).
 2. **Extension patterns** — CAL, LOG, and CHR exports (e.g., **Sys‑CAL**, **KD‑CAL**, **Agency‑CHR**) that **extend** but do not override Kernel.
 3. **Context** — a **`U.BoundedContext`** with its **Glossary, Invariants, Roles**, and **Bridges** (local Context of meaning).
 4. **Instance** — concrete identifiers (holders, role assignments, works, carriers).

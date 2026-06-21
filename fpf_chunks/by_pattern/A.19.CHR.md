@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.CHR.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
-line_start: 25798
-line_end: 26480
+line_start: 26439
+line_end: 27121
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -33,9 +33,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"
@@ -66,7 +66,7 @@ keywords:
 * A.6.1 `U.Mechanism.Intension` (mechanism norm-form)
 * A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
 * A.19 `CN‑Spec` (governance card)
-* G.0 `CG‑Spec` (legality gate for numeric operations)
+* G.0 `CG-Spec` (admissibility gate for numeric operations)
 * E.18 / E.18 (P2W + crossings + UTS/Path pins)
 * E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
 * E.19 conformance style (checklist obligations)
@@ -80,11 +80,11 @@ keywords:
 ### A.19.CHR:1 - Problem frame
 
 Part G (and adjacent patterns that operate on measurable slot coordinates, e.g. Q-bundles) repeatedly needs the same *lawful characterization core*:
-normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit legality constraints.
+normalization, indicatorization, scoring, lawful aggregation, comparison, and selection under explicit admissibility constraints.
 
 In the current corpus, many G patterns interleave:
 
-* universal CHR legality mechanics (CN‑Spec/CG‑Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
+* universal CHR admissibility mechanics (CN-Spec/CG-Spec citation, set-return semantics, tri-state uncertainty handling, penalties routing),
 * CG-frame and crossing obligations (ReferencePlane, Bridge-only transport visibility, edition-sensitive pins), and
 * discipline/method/generator specifics (method families, candidate/criteria emitters, packaging concerns),
 
@@ -114,7 +114,7 @@ This pattern applies when a workflow (especially in Part G) needs lawful charact
 This pattern defines a single, canonical **CHR mechanism suite** as a *description object* (not a mechanism, not a pack), so that:
 
 1. the CHR core is reusable across all Part‑G patterns (not only G.5),
-2. legality is centralized via **spec pins** (`CN‑Spec`, `CG‑Spec`) and **Transport discipline**,
+2. admissibility is centralized via **spec pins** (`CN-Spec`, `CG-Spec`) and **Transport discipline**,
 3. P2W integration is made explicit by requiring a standard **planned slot fillings** plan item in `WorkPlanning`, while keeping **FinalizeLaunchValues** exclusively in `WorkEnactment`.
 
 Core idea:
@@ -187,7 +187,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 **Membership semantics note (normative).**
 `mechanisms` denotes a duplicates-free **set**; order carries no semantics. Any intended ordering is expressed only in `suite_protocols`.
 
-**Rationale.** This suite is unified by **governance card, legality gate, and Transport discipline** (CN‑Spec + CG‑Spec + Transport), not by a single BaseType.
+**Rationale.** This suite is unified by **governance card, admissibility gate, and Transport discipline** (CN-Spec + CG-Spec + Transport), with membership by declared mechanism intension.
 
 #### A.19.CHR:4.2.1 - CHR SlotKind Lexicon (suite‑wide minimum)
 
@@ -229,7 +229,7 @@ CHRMechanismSuiteDescription.mechanisms :=
   - `TaskSignatureSlot` *(optional)*
   - `SelectionSlot`
 
-- **Evidence / legality (optional, policy‑bound)**
+- **Evidence / admissibility (optional, policy‑bound)**
   - `MinimalEvidenceSlot` *(optional)*
 
 **Note.** This lexicon is intentionally small and role‑based: it constrains naming, not method semantics. Method/discipline specifics belong in SoTA packs (G.2) and wiring‑only `GPatternExtension` modules, not in the suite core.
@@ -284,7 +284,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 * **Gate decision separation:** mechanisms and suite objects MUST NOT publish `GateDecision` nor `DecisionLog`. `block` is gate‑only (OperationalGate(profile)).
 * **Guard lexeme reservations:** `USM.CompareGuard` / `USM.LaunchGuard` are gate‑level pins; mechanism predicates use suffixes `…Admissibility` / `…Eligibility`.
 
-##### A.19.CHR:4.3.3 - Numeric legality and order semantics
+##### A.19.CHR:4.3.3 - Numeric admissibility and order lawfulness
 
 * **CG‑Spec citation required:** any numeric scoring/aggregation/comparison MUST cite CG‑Spec (SCP + ComparatorSet + MinimalEvidence + Γ_fold + Φ/CL pins), and MUST NOT embed a “shadow CG‑Spec” inside mechanisms/suite.
 * **No silent scalarisation of partial orders:** partial order comparisons remain set‑valued; any scalar summary is report‑only unless explicitly declared as a lawful comparator/policy.
@@ -477,7 +477,7 @@ Suite-closed protocol:
 `UNM → UINDM → USCM → CPM → SelectorMechanism`.
 Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.
 
-**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as legality remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
+**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as admissibility remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
 
 ##### A.19.CHR:4.8.2 - Example — archive `PortfolioMode` with report-only illumination
 
@@ -516,13 +516,13 @@ WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM 
 
 **Show.** The episteme’s planned baseline pins `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence, Γ_fold). The suite runs `UINDM` to select indicators, `USCM` to compute lawful score measures under SCP, `ULSAM` only when Γ_fold is explicitly selected, and `CPM` to compare without scalarizing partial orders. The selector returns a selected set rather than forcing a single winner.
 
-**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s legality discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
+**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s admissibility discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
 
 ### A.19.CHR:6 - Bias-Annotation
 
 **Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for any Part‑G (and adjacent) use of the CHR characterization core via `CHRMechanismSuiteDescription` and the corresponding P2W planned-baseline WorkPlanning plan item.
 
-* **Gov.** Bias toward fail-closed legality and explicit auditability (Bridge-only crossings, pinned spec refs, guard–gate separation). Mitigation: the tri-state `GuardDecision` allows uncertainty to degrade or abstain without forcing gate-level blocking; exploration can still proceed via explicit SoS‑LOG policy branches.
+* **Gov.** Bias toward fail-closed admissibility and explicit auditability (Bridge-only crossings, pinned spec refs, guard–gate separation). Mitigation: the tri-state `GuardDecision` allows uncertainty to degrade or abstain without forcing gate-level blocking; exploration can still proceed via explicit SoS‑LOG policy branches.
 * **Arch.** Bias toward explicit node-level composition (E.18) and explicit P2W plan items (`SlotFillingsPlanItem`). Mitigation: the suite fixes only the universal core; discipline-specific generators and extensions remain separate mechanisms connected by `Uses`, keeping the suite compact.
 * **Onto/Epist.** Bias toward a strict separation of CN‑Spec and CG‑Spec spec refs, mechanisms (A.6.1), and planning epistemes (A.15.3). Mitigation: specialization is explicitly supported (`⊑/⊑⁺`) and does not require inventing new kernel constructs; method diversity is expressed via MethodDescription refs and ComparatorSpec refs.
 * **Prag.** Bias toward conservative uncertainty handling (unknown does not coerce to pass) may reduce decisiveness. Mitigation: “probe-only” and “sandbox” behaviors are permitted as explicit, audited degrade modes (policy-id + branch-id), not as silent coercions.
@@ -674,13 +674,13 @@ This pattern deliberately fixes the CHR core as a **description object** rather 
 
 1. **Level separation stays clean.** The suite is a D-episteme that enumerates mechanisms and obligations; the mechanisms remain `U.Mechanism.Intension` nodes with their own SlotSpecs, laws, guards, transport and audit. This prevents a “god object” that re-implements A.6.1 inside a new container.
 
-2. **Spec refs remain centralized.** CN‑Spec and CG‑Spec already define the governance card and legality gate that own comparability, normalization, indicatorization policy, and numeric legality. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
+2. **Spec refs remain centralized.** CN-Spec and CG-Spec already define the governance card and admissibility gate that own comparability, normalization, indicatorization policy, and numeric admissibility. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
 
 3. **P2W integration becomes explicit without turning planning into execution.** A planned-baseline `SlotFillingsPlanItem` is the minimal, reusable way to record “what will fill which slots under which CG-frame and path slice” while preserving the rule that only WorkEnactment witnesses launch values.
 
 4. **Uncertainty handling is made safe by construction.** Tri-state guard decisions are a minimal guard-decision form that supports admissible abstention and degradation while keeping gate decisions and decision logs in their proper place (OperationalGate(profile)).
 
-In short: *governing specs are cited, not copied; plans are declared, not executed; and legality is a first-class surface, not a hidden tail.*
+In short: *governing specs are cited, not copied; plans are declared, not executed; and admissibility is a first-class surface, not a hidden tail.*
 
 ### A.19.CHR:11 - SoTA-Echoing
 
@@ -690,7 +690,7 @@ This pattern aligns with several post‑2015 practice lines while adapting them 
 |---|---|---|---|
 | Architecture description standards emphasize explicit viewpoints, explicit views, and view consistency rules. | ISO/IEC/IEEE 42010:2022 | “Views are projections of existing content” is mirrored by MVPK faces that do not add meaning beyond the underlying episteme. | **Adopt/Adapt:** adopt the viewpoint discipline; adapt terminology to FPF’s `U.View` projections. |
 | Selective classification work formalizes abstention/deferral under uncertainty as a first-class outcome. | Geifman & El‑Yaniv (SelectiveNet, 2019) | A first-class “abstain/defer” outcome is mirrored by tri-state `GuardDecision` where unknown does not coerce to pass. | **Adapt:** integrate abstention into guard outputs while keeping gate decisions/logs gate-only (SoS‑LOG for degrade branches). |
-| Quality-diversity research treats diverse retained sets/archives as first-class outputs rather than forcing a single optimum. | Pugh, Soros, Stanley (Quality Diversity, 2016) | Treating retained sets/archives as primary outputs aligns with set-return selection and Archive mode, with illumination treated as report-only unless promoted by policy-id. | **Adapt:** preserve legality pins and forbid hidden scalarization/totalization; allow promotion only via explicit policy-id. |
+| Quality-diversity research treats diverse retained sets/archives as first-class outputs rather than forcing a single optimum. | Pugh, Soros, Stanley (Quality Diversity, 2016) | Treating retained sets/archives as primary outputs aligns with set-return selection and Archive mode, with illumination treated as report-only unless promoted by policy-id. | **Adapt:** preserve admissibility pins and forbid hidden scalarization/totalization; allow promotion only via explicit policy-id. |
 | Open-endedness research emphasizes continual retained-set maintenance and explicit task/environment generation separate from the selector kernel. | Wang et al. (POET, 2019) | The separation “universal core vs generators via Uses” mirrors the need to keep method/task generation separate from the selector kernel. | **Adapt:** add explicit edition pins and crossing visibility pins so maintenance remains auditable across contexts or planes. |
 
 **Terminology drift and deltas.** Many contemporary sources speak in terms of “pipelines” and “provenance”. FPF’s delta is the explicit separation of (a) planned baseline in WorkPlanning, (b) execution witnesses in WorkEnactment, and (c) audit pins that remain conceptual anchors rather than tooling formats. Where external practice sometimes relies on implicit transfer assumptions, FPF requires cross-context reuse to be explicit as Bridge-only transport with visible pins (`BridgeId`, `CL` or `CL^k`, and the relevant Φ/Ψ/Φ_plane policy-ids), with penalties routed to `R_eff` only.
@@ -702,7 +702,7 @@ This pattern aligns with several post‑2015 practice lines while adapting them 
 * **A.6.7 `MechSuiteDescription`** (the base suite description kind and obligations surface)
 * **A.15.3 `SlotFillingsPlanItem`** (planned baseline in WorkPlanning)
 * **A.6.1 `U.Mechanism.Intension`** and **A.6.5 slot discipline** (SlotSpecs in signatures; SlotIndex as projection)
-* **A.19 CN‑Spec** and **G.0 CG‑Spec** (governance card and legality gate)
+* **A.19 CN-Spec** and **G.0 CG-Spec** (governance card and admissibility gate)
 * **E.18 / E.18** (P2W, crossings, UTS and Path pins)
 * **E.10** (lexical and ontological discipline) and **E.19** (conformance style)
 
@@ -722,7 +722,7 @@ This pattern aligns with several post‑2015 practice lines while adapting them 
 
 **Tell.** This pattern is intended as a universal core anchor for the Part‑G:
 
-* G patterns not mixing universal CHR legality mechanics with CG-frame specifics, discipline-specific method content, and packaging concerns in one construct.
+* G patterns not mixing universal CHR admissibility mechanics with CG-frame specifics, discipline-specific method content, and packaging concerns in one construct.
 * Instead, they cite `CHRMechanismSuiteDescription` (universal node set and obligations) and keep specifics in explicit specializations or separate `Uses` providers.
 * P2W integration is performed uniformly via `CHRMechanismSuiteSlotFillingsPlanItem` planned baselines, preserving the rule that only WorkEnactment witnesses launch values.
 

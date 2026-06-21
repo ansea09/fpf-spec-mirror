@@ -6,12 +6,12 @@ section_id: "A.1.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__008_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:6 — Bias-Annotation"
-line_start: 1802
-line_end: 1813
+line_start: 1864
+line_end: 1875
 dependencies:
   - "A.1"
   - "A.15"

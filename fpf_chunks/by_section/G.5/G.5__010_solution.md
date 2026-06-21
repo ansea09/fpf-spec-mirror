@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 80820
-line_end: 81227
+line_start: 83580
+line_end: 83987
 dependencies:
   - "C.11"
   - "C.18"
@@ -87,7 +87,7 @@ What this does not authorize: `G.5` does not identify causal effects, decide fai
 
 **Builds on:** `G.Core` (Part‑G core invariants; Default Governing Definition Index citation)
 
-**GCoreLinkageManifest (normative; size‑controlled via profiles/sets).**
+**GCoreLinkageManifest (normative; size-controlled via profiles and sets).**
 Effective obligations/pins/triggers are computed by union expansion of the referenced ids (per `G.Core:4.2.1`). Profiles/sets + explicit deltas; `Nil‑elision` applies.
 
 * `CoreConformanceProfileIds :=`
@@ -100,7 +100,7 @@ Effective obligations/pins/triggers are computed by union expansion of the refer
 
   * `GCorePinSetId.PartG.AuthoringMinimal`
   * `GCorePinSetId.PartG.CrossingVisibilityPins` *(crossing‑aware use; pins from this set may be intentionally strengthened (optional→required) via `CorePinsRequired`)*
-* `CorePinsRequired :=` *(delta over PinSets; pins/refs are id‑only; prefer strengthening optional→required over restating pins already covered by PinSets)*
+* `CorePinsRequired :=` *(delta over PinSets; pins and refs are id-only; prefer strengthening optional-to-required over restating pins already covered by PinSets)*
 
   * `TaskSignatureRef` *(see `G.5:4.2` / S2)*
   * `MethodFamilyId[]` *(registry keys in scope)*
@@ -127,16 +127,16 @@ G.5 defines the **object-set components** below. Their purpose is to make dispat
 **S1 — `MethodFamily Registry` (design‑time; per CG‑Frame).**
 A registry row represents *a family*, not a single implementation. Minimal fields (conceptual, notationally independent):
 
-* `Identity`: `MethodFamilyId`, `ContextId`, lineage/Tradition notes, `UTSRowId` (twin labels where applicable).
+* `Identity`: `MethodFamilyId`, `ContextId`, lineage and Tradition notes, `UTSRowId` (twin labels where applicable).
 * `EligibilityStandardRef`: a typed predicate record (tri‑state per `G.Core`), expressed in CHR/CAL terms and pinned to the relevant editions.
 * `AssuranceProfileRef`: evidence‑lane expectations and assurance-lane pins (SCR‑addressable).
-* `LegalityBindings`: explicit references to the **single** governance card and legality gate (`CNSpecRef`, `CGSpecRef`) and to any required legality constraints (e.g., scale/unit legality via CSLC).
-* `EvidencePins`: citations to `G.6` (`PathId/PathSliceId`) for claims/guarantees where such claims are asserted.
+* `AdmissibilityBindings`: explicit references to the **single** governance card and admissibility gate (`CNSpecRef`, `CGSpecRef`) and to any required admissibility constraints, for example scale and unit admissibility via CSLC.
+* `EvidencePins`: citations to `G.6` (`PathId`, `PathSliceId`) for claims or guarantees where such claims are asserted.
 * `CrossingAllowance`: explicit Bridge/CL allowance pins **only** if cross‑Context operation is claimed.
 * `PolicyHooksRef?`: optional pointers to policy records (not defined here; wired via Extensions).
 
 **S1′ — `GeneratorFamily Registry` (design‑time; optional; per CG‑Frame).**
-A registry row for families that generate tasks/environments and/or co‑evolve solver families. G.5 carries the registry-entry shape, not the generator semantics:
+A registry row for families that generate tasks and environments, and may co-evolve solver families. G.5 carries the registry-entry shape, not the generator semantics:
 
 * `Identity`: `GeneratorFamilyId`, `ContextId`, `UTSRowId`.
 * `GeneratorSignatureRef`: conceptual input/output and budget semantics.
@@ -152,13 +152,13 @@ G.5 treats `TaskSignatureRef` as an input record; it does not define CHR/CAL sem
 A notation‑independent selector that:
 
 * consumes `TaskSignatureRef` + registry entries + pinned spec refs,
-* applies eligibility/assurance gating (tri‑state),
+* applies eligibility and assurance gating (tri-state),
 * computes an admissible (possibly partial) order,
 * returns one declared selector outcome: most often one set-result outcome such as `Shortlist` or `RankedShortlist`, but sometimes one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
-* emits audit records (DRR/SCR‑addressable pins).
+* emits audit records with pins addressable by DRR and SCR records.
 
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
-When the real selector question is acquisition of usable specialization on a declared task family, the selector may publish one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new kernel type and not a generic narrative profile. `G.5` carries this selector-time specialization question here; it does not re-govern the adaptation-signature field vocabulary from `C.22.1`.
+When the real selector question is acquisition of usable specialization on a declared task family, the selector may publish one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. `G.5` carries this selector-time specialization question here; it does not re-govern the adaptation-signature field vocabulary from `C.22.1`.
 
 The profile should therefore cite one `AdaptationSignatureRef` or equivalent pinned field set carrying the declared `TaskFamilyRef` or `TaskSignature`, the work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, any declared transfer or retention claim, any downside cost or downside on adjacent tasks, and any specialization-entry baseline, specialization-entry evidence, or stepping-stone evidence item that materially affects comparison.
 
@@ -167,7 +167,7 @@ Admission rule for `SpecialistHandoff`: use that handoff kind only when the trut
 When the declared task family is heterogeneous, the selector may return one `SpecialistHandoff`, one other narrowed handoff plan, or one small admissible set that preserves rival specialists rather than collapsing them into a fake single winner. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit.
 
 **S4 — `Composition & fallbacks` templates (design‑time).**
-A library of composition shapes (preconditioner -> solver -> verifier; cascades; meta-selectors) **as templates**, legality-checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, or selected-set result. When the current object is the method-side relation itself, use `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, or the direct method-composition pattern; a G.5 registry row or selector outcome is not that structure by default. Algebraic, graph, matrix, embedding, or neural selector notation is a mathematical or representation lens when that representation is current.
+A library of composition shapes (preconditioner -> solver -> verifier; cascades; meta-selectors) **as templates**, admissibility-checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, or selected-set result. When the current object is the method-side relation itself, use `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, or the direct method-composition pattern; a G.5 registry row or selector outcome is not that structure by default. Algebraic, graph, matrix, embedding, or neural selector notation is a mathematical or representation lens when that representation is current.
 
 **S5 — `Publication & telemetry` record boundary (run-time).**
 A standard publication boundary publishes:
@@ -183,7 +183,7 @@ Versioning, deprecation, and registry evolution discipline (UTS publication; con
 
 #### G.5:4.3 - Selector head and narrower selector families
 
-Selection/dispatch stays one generic selector head. Narrower selector families may refine it, but they do not redefine the universal invariants pinned through `G.Core`, do not add hidden mandatory inputs beyond pinned policy or edition refs, and do not mutate SlotKinds.
+Selection and dispatch stay one generic selector head. Narrower selector families may refine it, but they do not redefine the universal invariants pinned through `G.Core`, do not add hidden mandatory inputs beyond pinned policy or edition refs, and do not mutate SlotKinds.
 
 Method- and generator-specific pressures such as `QD` archives, open-ended declared sets, explore/exploit lenses, or preference comparators do not become part of the selector head. They arrive only through explicit extension declarations and the pins those extensions require.
 
@@ -193,21 +193,21 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **G.5‑1 RegisterFamily**          | `SoTA` family cards (from `G.2`), CHR/CAL pins (from `G.3/G.4`), `CNSpecRef.edition`, `CGSpecRef.edition`, `ContextId`                                       | A `MethodFamily` registry row (`MethodFamilyId`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, pinned refs)                                                                                                                                 |
 | **G.5‑2 RegisterGeneratorFamily** | `SoTA` generator family cards (from `G.2`), `ContextId`, pinned refs (including `TransferRulesRef.edition` when applicable)                                  | A `GeneratorFamily` registry row (`GeneratorFamilyId`, `GeneratorSignatureRef`, `UTSRowId`, pinned refs)                                                                                                                                                   |
-| **G.5‑3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` (in scope), pinned `CNSpecRef/CGSpecRef` (editions), policy refs (if any), audit citation pins (`PathId/PathSliceId`) | `CandidateSet` (set‑returning), declared selector result with `PortfolioMode` recorded, `DRR + SCR` pins; if no admissible candidate exists: return `CandidateSet=∅` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
-| **G.5‑4 Compose**                 | `CandidateSet`, composition template refs, pinned legality constraints                                                                                       | Composite strategy template (template‑level; legality‑checked; pinned)                                                                                                                                                                                      |
+| **G.5-3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` (in scope), pinned `CNSpecRef` and `CGSpecRef` editions, policy refs if any, audit citation pins (`PathId` and `PathSliceId`) | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, `DRR + SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
+| **G.5-4 Compose**                 | `CandidateSet`, composition template refs, pinned admissibility constraints                                                                                       | Composite strategy template (template-level; admissibility-checked; pinned)                                                                                                                                                                                      |
 | **G.5‑5 Telemetry**               | run outcomes + citations + policy/edition pins                                                                                                               | refresh cues (typed RSCR causes + payload pins), parity deltas (if parity harness is in use), telemetry pins (selector‑side; orchestration governing definition is `G.11`)                                                                                              |
 
 #### G.5:4.4a - Worked selector slice
 
 - A catalyst-search team is choosing among three method families for the same declared `TaskSignature` and `C.22.1` adaptation signature.
 - The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must abstain.
-- An admissible `G.5` result therefore publishes a set-return shortlist or a narrowed handoff plan, with `DRR/SCR` citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
+- An admissible `G.5` result therefore publishes a set-return shortlist or a narrowed handoff plan, with DRR and SCR records citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
 - When one upstream `C.19` pass has already narrowed the live pool to one internal retained subset over registered families, `G.5` may publish that result as one `Shortlist` with one `ShortlistId` and explicit basis pins only when selector-facing publication is now the question. Until that emission occurs, the internal retained subset is not yet one public shortlist result.
 - When one upstream `C.11` pass has already fixed one local choice over one declared source set, or one `C.24` pass has already produced one enactment-facing narrowed handoff, `G.5` may publish the selected-set or narrowed-handoff result only when selector-facing publication is now the question. Until this `G.5` emission occurs, the `ChoiceResult`, `CallPlan`, or `CheckpointReturn` is not itself one public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing result.
 
 #### G.5:4.4b - Published selected-set result and closure rule
 
-A finished `G.5` pass should publish one explicit selected-set result from the dispatcher/registry question rather than one selector trace that leaves the public result implicit.
+A finished `G.5` pass should publish one explicit selected-set result from the dispatcher and registry question rather than one selector trace that leaves the public result implicit.
 
 Publication here is the closure record for selector work over registered families. It does not replace registry maintenance, dispatcher comparison law, or the upstream pool-policy and local-choice pattern authorities that supplied the retained members.
 
@@ -293,7 +293,7 @@ If the card does not already state what was published, who survived, whether ord
 - If selector work consumes one declared source set such as `Front`, `Archive`, or one source-set composition through one derived tradition view such as `TraditionFront` or `TraditionArchive`, treat that derived view as one interpretation view over one declared `SoTAPaletteDescription`, not as the default meaning of `Tradition` or of the palette itself.
 - When `SelectorOutcomeKind = SetResultOutcome`, the public selected-set label still closes as `Shortlist` or `RankedShortlist`; when `SelectorOutcomeKind = HandoffOutcome`, the result closes as one `SpecialistHandoff` or one other narrowed handoff. The derived tradition view disciplines the source, not the emitted outcome family.
 - When such a derived tradition view is active, publish `SourceSetFamily`, use `DerivedViewKind` when the distinction matters to interpretation or later shipping, use `SourceSetComposition` only when several source-set families were genuinely composed, and keep `BasePaletteRef=SoTAPaletteDescriptionId` recoverable alongside the emitted result.
-- If the derivation depends on one declared `Q` or one reachability/coverage rule, cite that declared basis directly in `DRR/SCR` or equivalent basis pins rather than leaving the derivation implicit.
+- If the derivation depends on one declared `Q` or one reachability or coverage rule, cite that declared basis directly in DRR and SCR records or equivalent basis pins rather than leaving the derivation implicit.
 - If no derived tradition view is active, stay with the declared palette, front, archive, or shortlist families already named by the selector record.
 
 #### G.5:4.4d - Worked publication closure slice
@@ -327,7 +327,7 @@ RankedShortlist(
 ```
 
 **No admissible candidate survives.**
-When no family clears the pinned legality or evidence gates, `G.5` should close as one abstain or escalation result rather than as one empty shortlist pretending to be progress:
+When no family clears the pinned admissibility or evidence gates, `G.5` should close as one abstain or escalation result rather than as one empty shortlist pretending to be progress:
 
 ```text
 Abstain(
@@ -402,7 +402,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 * `Notes (extension discipline; semantics cited):`
 
   * G.5 core remains QD‑agnostic; QD semantics are governed by `C.18`.
-  * Post-2015 families that typically use this extension declaration: MAP-Elites-class QD (incl. later archive-centric refinements), CMA-ME-class hybrids, modern illumination/coverage telemetry regimes where legality and edition pinning matter.
+  * Post-2015 families that typically use this extension declaration: MAP-Elites-class QD including later archive-centric refinements, CMA-ME-class hybrids, modern illumination and coverage telemetry regimes where admissibility and edition pinning matter.
 
 **GPatternExtension block: `G.5:Ext.OpenEndedFamilyWiring`**
 
@@ -438,7 +438,7 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 - `ShortlistId` is the emitted public token when the shortlist publication must be carried or cited.
 - `ChoiceSet` may be used only as the mathematical set gloss for that shortlist when the set object itself is under analysis; it does not replace the public shortlist head.
 - `PortfolioMode` states how the selector operated; it does not rename the emitted set result.
-- The default `PortfolioMode=Archive` means that an unspecified selector/generator operating mode must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetResultFamily`, and does not change the declared `DominanceSet`.
+- The default `PortfolioMode=Archive` means that an unspecified selector or generator operating mode must preserve retained exploration evidence rather than pretending one current front or selected shortlist has already been emitted. It does not make every returned object an `Archive`, does not override `SetResultFamily`, and does not change the declared `DominanceSet`.
 - If one selector consumes both a front and an archive, say so explicitly rather than blurring them into one generic portfolio.
 - If one selector consumes one derived tradition view, keep that derived view explicit rather than silently treating it as the default meaning of `Tradition`.
 - `SetResultFamily`, `SourceSetFamily`, `SourceSetComposition`, `SubjectKind`, `DerivedViewKind`, `BasePaletteRef`, `PromotionPolicy`, and `RetentionIntent=steppingStone` are declaration fields, refs, or policy pins around the returned outcome; they are not additional emitted set results.
@@ -452,6 +452,6 @@ All blocks below are extension declarations: they declare `Uses` and required pi
 - `PromotionPolicy` is required when tie-break or telemetry signals are promoted into dominance.
 - The selector may consume one declared source set and one declared choice lens without trying to explain the whole reason why another probe was worth its cost.
 - When `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, `backstop_confidence`, or sequencing pressures matter, keep them explicit in the surrounding choice doctrine instead of smuggling them into set-result declaration fields.
-- Selector-facing results should name the set-result kind, source-set kind, derived-view declaration when needed, the emitted shortlist family, and promotion/default declaration.
+- Selector-facing results should name the set-result kind, source-set kind, derived-view declaration when needed, the emitted shortlist family, and promotion or default declaration.
 - Those selector-facing field values should use controlled tokens, cited ids, or already-declared head labels rather than selector-local prose values.
 

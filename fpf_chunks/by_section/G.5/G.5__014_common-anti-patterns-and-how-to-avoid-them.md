@@ -6,12 +6,12 @@ section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 81302
-line_end: 81331
+line_start: 84062
+line_end: 84091
 dependencies:
   - "C.11"
   - "C.18"
@@ -50,7 +50,7 @@ keywords:
 ### G.5:8 - Common Anti-Patterns and How to Avoid Them
 
 * **Anti‑pattern: “Selector as a shadow spec.”**
-  *Symptom:* local acceptance/legality rules appear in selector prose/code, diverging from CN/CG/CAL.
+  *Symptom:* local acceptance or admissibility rules appear in selector prose or code, diverging from CN, CG, and CAL.
   *Avoid:* govern constraint semantics through `CNSpecRef/CGSpecRef` and pinned CAL records; keep G.5 core as a facade.
 
 * **Anti‑pattern: “Implicit crossings.”**
@@ -62,7 +62,7 @@ keywords:
   *Avoid:* return declared sets; make dominance regimes explicit; keep telemetry report‑only unless promoted by explicit policy.
 
 * **Anti‑pattern: “Method specifics in the selector head.”**
-  *Symptom:* QD/OEE/preference models become mandatory for basic dispatch.
+  *Symptom:* QD, OEE, or preference models become mandatory for basic dispatch.
   *Avoid:* keep them in `G.5:Ext.*` blocks with explicit pins and `Uses`.
 
 * **Anti‑pattern: “Churn by meaning.”**

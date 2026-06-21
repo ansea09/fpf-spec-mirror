@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:3 — Forces"
-line_start: 73830
-line_end: 73840
+line_start: 76517
+line_end: 76527
 dependencies:
   - "A.11"
   - "A.15"
@@ -61,5 +61,5 @@ keywords:
 | Human readability vs ontology | Short names help use; they also hide kind, scope, and relation if admitted too early. |
 | Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF name. |
 | Naming speed vs downstream cost | Quick minting is cheap now and expensive when every subsequent pattern must repair it. |
-| Open-world use vs false completeness | A missing durable name may mean "not current", not "new type required". |
+| Open-world use vs false completeness | A missing durable name may mean "not current", not "new U-kind required". |
 

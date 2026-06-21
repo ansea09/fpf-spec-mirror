@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 46323
-line_end: 46633
+line_start: 47915
+line_end: 48225
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 Start with the ordinary FPF pattern. Add this lens only when ordinary wording would falsely treat a probe, question, metric, dashboard, API read, workshop, bridge, comparison frame, or coarsened representation as passive, stable, jointly comparable, or faithfully exportable. The main entry question for the whole cluster is: "What should the user do with this lens so that the representational mistake does not arise here?"
 
-Action path:
+Application sequence:
 
 1. Name the ordinary FPF pattern that already carries the baseline question.
 2. Name the concrete representational mistake: passive read, shared comparison frame, false faithful-enough export claim for the intended use, exact-state shortcut, or unsupported coarsened representation.
@@ -107,7 +107,7 @@ QL boundary selection:
 
 | Gate question | Applicable FPF pattern |
 | --- | --- |
-| Is this ordinary boundary, interface, API, or protocol ambiguity? | `A.6` and boundary/interface patterns. |
+| Is this ordinary boundary, interface, API, or protocol ambiguity? | `A.6` and the direct boundary or interface pattern. |
 | Is this ordinary bridge, export, substitution, or loss across contexts? | `F.9` / `F.9.1`. |
 | Is this ordinary measurement, metric gaming, scale, coordinate, or noise? | `C.16`. |
 | Is this ordinary evidence, provenance, method, or carrier issue? | `A.10` and, when assurance-bearing, `B.3`. |
@@ -152,7 +152,7 @@ Use the `C.11` mini-output discipline across the cluster: finish with one next m
 
 | Mini-output | Cluster meaning |
 | --- | --- |
-| Use / choose now | The low-recoverability reading is enough for the declared local action or decision. |
+| Use or choose now | The low-recoverability reading is enough for the declared local action or decision. |
 | Probe again | One named probe, order/frame test, measurement, source check, or bridge check could still change the result. |
 | Reroute | The question under repair belongs to another FPF pattern rather than QL-lite. |
 | No QL wording | Ordinary uncertainty, measurement, work, bridge, quality, or search patterns carry the case. |
@@ -165,7 +165,7 @@ Canonical cue grammar:
 
 | Cue family | QL only if |
 | --- | --- |
-| Probe / order / frame | The operation changes the admissible reading of the output, comparison, or represented state. |
+| Probe, order, or frame | The operation changes the admissible reading of the output, comparison, or represented state. |
 | Export or bridge | The export is not faithful enough for the intended use, and ordinary bridge and loss discipline does not fully carry the remaining export/use issue. |
 | Distributed-state reading | Coordinated behavior, trace pattern, or work result supports a low-recoverability state reading no single carrier faithfully exports, after ordinary rivals are checked. |
 | Viability envelope | Probe, sensor, actuator, export, boundary condition, or coarsening changes the admissible viability reading. |
@@ -193,35 +193,35 @@ Child patterns inherit `QL-NQ`. They should not restate the global boundary as l
 #### C.26:4.2 - Pattern selector
 ##### C.26:4.2.1 - Causal-use exit before QL retention
 
-Before retaining `QL-lite`, `QL-NQ`, or a quantum-like framing for a claim being made, check whether the actual question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data. If so, redirect the claim/question to `C.28` before any quantum-like retention.
+Before retaining `QL-lite`, `QL-NQ`, or a quantum-like framing for a claim being made, check whether the actual question is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data. If so, redirect the claim or question to `C.28` before any quantum-like retention.
 
 ```text
 CC-C26-CAUSAL-EXIT:
 If the question under repair is intervention, counterfactual comparison,
 causal effect, causal fairness, causal policy, or realizability of counterfactual-rung data,
-redirect the claim/question to C.28 before retaining QL-lite or QL-NQ.
+redirect the claim or question to C.28 before retaining QL-lite or QL-NQ.
 ```
 
 What changes in practice: "the model is quantum-like" cannot be used to skip causality-ladder rung declaration, causal identification, causal evidence support basis, or counterfactual sampling realizability.
 
-What this does not authorize: `C.26` does not become a causal-use pattern and does not treat counterfactual material as a quantum-like subcase; it keeps quantum-like modeling discipline and sends causal-use support to `C.28`.
+What this does not authorize: `C.26` does not become a causal-use pattern and does not treat counterfactual material as a quantum-like subcase; it keeps quantum-like modeling discipline, while causal-use support remains governed by `C.28`.
 
 Use this as a diagnostic sequence before retaining QL wording. DDD, microservice domain analysis, and ordinary boundary/bridge patterns stay first for bounded contexts, service cuts, integration points, and exported meaning; QL is retained only when a workshop, probe, export, or frame changes what can admissibly be inferred.
 
 1. Measurement, metric, scale, method, evidence, or assurance load goes first to measurement and evidence patterns: `C.16`, `A.10`, or `B.3`.
 2. Bridge, translation, publication, rendering, or exported-loss question goes first to bridge and publication patterns: `F.9`, `E.17`, or `E.17.EFP`.
 3. Causal intervention, command, work enactment, role alignment, or routine question goes first to work and authority patterns: `A.15` and the relevant neighboring pattern.
-4. Boundary/interface wording, service-interface typing, bridge endpoint, relation precision, or lexeme-collision question goes first to boundary and language patterns: `A.6`, `A.6.B`, `A.6.P`, `A.7`, `E.10`, or `F.18`.
+4. Boundary or interface wording, service-interface typing, bridge endpoint, relation precision, or lexeme-collision question goes first to the direct owner: `A.1` for holon delimitation or boundary crossing, `A.6.P`, `A.6.0`, or `A.6.5` for relation, signature, or slot claims, `A.6.M` for module-interface claims, `A.6.F` for functional ports or elements, `A.6.C` or `A.6.8` for service, protocol, or agreement-like claims, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, and `A.7`, `E.10`, or `F.18` for wording-use repair.
 5. Quality, viability, feedback, or control-tuning question goes first to quality, dynamics, and measurement patterns: `C.25`, `U.Dynamics`, and `C.16`.
 6. Suspect option menu, unknown alternative, local plateau, basin movement, or candidate-generation question goes first to search and regime patterns: `B.5.2`, `C.18`, `C.19`, or `A.19`.
 7. Retain QL only for the remaining declared state, probe, export, frame, open-information-system, or coarsening cue.
 
-C.26 does not choose among options, generate missing alternatives, or settle `C.11` decision quality. It can mark that the available readings sit in non-shared comparison frames or lack a declared admissible joint comparison route; the choice/search output still belongs to `C.11`, `B.5.2`, `C.18`, `C.19`, or `A.19`.
+C.26 does not choose among options, generate missing alternatives, or settle `C.11` decision quality. It can mark that the available readings sit in non-shared comparison frames or lack a declared admissible joint comparison relation; the choice or search output still belongs to `C.11`, `B.5.2`, `C.18`, `C.19`, or `A.19`.
 
 | If the question under repair is mainly... | First FPF pattern | Add QL only when... |
 | --- | --- | --- |
 | Choice, comparison, or question order | `C.11` | incompatible probes, order effects, non-shared comparison frames, or no declared admissible joint comparison route change the choice-state reading. |
-| Boundary interaction or interface reading | `A.6`, `A.6.B`, `A.6.P` | the probe or interaction changes the represented state, export validity, or viability decision. |
+| Boundary interaction or interface reading | `A.1`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `A.6.C`, `A.6.8`, or `A.6.B` only for L/A/D/E boundary-package classification | the probe or interaction changes the represented state, export validity, or viability decision. |
 | Cross-context bridge or publication export | `F.9`, `E.17`, `E.17.EFP` | the exported state is not faithful under the current probe and bridge conditions. |
 | Work enactment or coordinated behavior | `A.15`, with `A.10` / `B.3` for evidence | coordinated work evidences a low-recoverability distributed-state reading not faithfully exportable as one representation. |
 | Measurement, metric, score, or dashboard | `C.16`, `A.10`, `B.3` | the measurement regime, publication act, or operational use functions as a probe interaction that updates the represented state. |
@@ -270,7 +270,7 @@ Evidence-use class scales by use:
 | `QLP-0` recognition | Example, teaching case, or local recognition prompt. | Claim, example, ordinary FPF pattern, QL cue, and local stop. |
 | `QLP-1` local working use | Local architecture discussion, triage, or provisional design reasoning. | `QLP-0` content plus evidence carrier, time window, uncertainty/confidence statement, and stop/reroute condition. |
 | `QLP-2` decision-bearing use | Boundary decision, bridge/export use, viability move, work claim, or representation shortcut changes what the team should do. | `QLP-1` content plus rival explanations, export/loss note when live, minimal admissible output, selected applicable pattern body, admissible use, and non-admissible use. |
-| `QLP-3` assurance or reusable guidance use | The claim is used for assurance, audit, durable pattern action guidance or conformance text, reusable relation/name/measure, or high-stakes decision support. | `QLP-2` content plus `A.10` and `B.3` assurance result, `C.16` template if measured, documented bridge and loss path, source-support role, and explicit local stop or inherited-boundary note. |
+| `QLP-3` assurance or reusable guidance use | The claim is used for assurance, audit, durable pattern action guidance or conformance text, reusable relation, name, or measure, or high-stakes decision support. | `QLP-2` content plus `A.10` and `B.3` assurance result, `C.16` template if measured, documented bridge and loss relation, source-support role, and explicit local stop or inherited-boundary note. |
 
 #### C.26:4.4 - Recognition case matrix
 
@@ -281,7 +281,7 @@ Evidence-use class scales by use:
 | Organization acts from a latent decision | `A.15`, `A.10`, `B.3`, `C.26.2` | Coordinated role-work, records, commitments, traces, and routines evidence a low-recoverability state no participant faithfully reports. | Do not infer a group mind or timeless culture. |
 | Survey, dashboard, policy, or API read of culture | `C.16`, `A.10`, `F.9`, `C.26.1`, `C.26.2` | The probe may change the state it evidences, and the export may lose load-bearing structure. | Treat the output as carrier/probe, not as the state itself. |
 | Service boundary under load | `C.25`, `A.6`, `A.15`, `C.26.3` | Viability depends on changing caching, throttling, routing, staffing, protocol, bridge, or context split. | Do not reduce viability to one green metric. |
-| Moving body or sensor to see the missing face | active/embodied inference routes, `C.26:4.5` state-representation coarsening card | The system spends energy, time, risk, attention, or coordination to obtain a discriminating observation. | Do not call ordinary sensing or active inference quantum-like without a QL cue. |
+| Moving body or sensor to see the missing face | active or embodied inference accounts, `C.26:4.5` state-representation coarsening card | The system spends energy, time, risk, attention, or coordination to obtain a discriminating observation. | Do not call ordinary sensing or active inference quantum-like without a QL cue. |
 | Glass memory / hysteresis | `C.26.1`, `C.26.3`, `U.Dynamics` | Prior state constrains current response; state history or retained trace changes admissible reading. | Do not force dynamics variables unless load-bearing. |
 | Cell-like service situation | service, boundary, work, viability patterns first | Cell-like criteria may clarify boundary, controlled exchange, protected invariants, repair, state-continuity, and resource analogue. | Retain analogy only when it changes a decision beyond ordinary service-facet language. |
 | Suspect option menu | `B.5.2`, `C.18`, `C.19`, `A.19` | Current options may be products of the current measurement frame. | QL only marks suspicion; search patterns generate alternatives. |
@@ -313,7 +313,7 @@ Start with this coarsening mini-card:
 | Shortcut | Which smaller representation is being used instead, and for which bounded decision or action class? |
 | Loss | Which precision, distinction, uncertainty, comparability, traceability, or relation structure is lost? |
 | Admissible use | Which bounded decision, probe, comparison, time-window reading, or action class remains admissible for this reduced-detail state representation? |
-| Reopen trigger | Which dispute, drift, failure, threshold crossing, bridge demand, or decision change sends the team back to the source-bearing episteme or source publication? |
+| Reopen trigger | Which dispute, drift, failure, threshold crossing, bridge demand, or decision change requires return to the source-bearing episteme or source publication? |
 
 For the representation shortcut itself, fill this coarsening card:
 
@@ -327,8 +327,8 @@ For the representation shortcut itself, fill this coarsening card:
 | Loss budget | How much loss is accepted for this decision, probe, comparison, route, or time window? |
 | Admissible use | For which decisions, probes, comparisons, candidate-route selections, or time windows does the shortcut preserve the required distinctions? |
 | Non-admissible use | For which claims, audits, bridges, comparisons, future actions, or high-stakes decisions does the shortcut lack the required distinctions, source support, or recoverability? |
-| Ordinary routes still active | Which ordinary abstraction, causal abstraction / approximate causal abstraction, state aggregation, representation learning, POMDP simplification, heuristic compression, CSC, RT, or low-bit implementation route remains sufficient if the QL cue is absent? |
-| Evidence / formal source | Which model, trace, experiment, source, or formal argument supports the shortcut rather than merely naming it quantum-like? |
+| Ordinary explanations still active | Which ordinary abstraction, causal abstraction, approximate causal abstraction, state aggregation, representation learning, POMDP simplification, heuristic compression, CSC, RT, or low-bit implementation account remains sufficient if the QL cue is absent? |
+| Evidence or formal source | Which model, trace, experiment, source, or formal argument supports the shortcut rather than merely naming it quantum-like? |
 | Reopen trigger | Which dispute, drift, threshold crossing, failure, audit, bridge demand, or decision change requires returning to the source representation or ordinary FPF pattern? |
 
 If the text claims that the shortcut is faster, cheaper, more compressed, more linear, more stable, or more tractable, add this claim declaration. The claim is separate from the coarsening card: the card controls the reduced-detail state representation; the declaration controls the performance or tractability assertion.
@@ -339,11 +339,11 @@ If the text claims that the shortcut is faster, cheaper, more compressed, more l
 | New representation | Which changed representation creates the claimed gain? |
 | Mechanism | Which compression, linearization, operator-state update, reduced information-state encoding, shortcut, or approximation mechanism creates the gain? |
 | Claimed gain | What exactly becomes faster, cheaper, more stable, smaller, or more tractable? |
-| Loss / error budget | Which precision, expressivity, compatibility, comparability, evidence-support class, traceability, or future-use loss is accepted for the intended use? |
+| Loss or error budget | Which precision, expressivity, compatibility, comparability, evidence-support class, traceability, or future-use loss is accepted for the intended use? |
 | Admissible use | For which decisions, probes, comparisons, candidate-route selections, time windows, or action classes does the declared gain meet the required threshold? |
 | Non-admissible use | For which claims, audits, bridges, comparisons, future actions, or high-stakes decisions does the declared gain fail the required threshold? |
 | Ordinary alternatives | Which ordinary compression, approximation, abstraction, feature-engineering, active-inference, search, POMDP, or low-bit route was tried or remains sufficient? |
-| Evidence / formal source | Which source, model, trace, worked case, benchmark, or formal analogy supports the claimed mechanism? |
+| Evidence or formal source | Which source, model, trace, worked case, benchmark, or formal analogy supports the claimed mechanism? |
 | Reopen trigger | Which dispute, drift, threshold crossing, failure, audit, bridge demand, or decision change requires returning to the source representation or ordinary FPF pattern? |
 
 No speed, compression, linearity, or tractability claim follows merely from the words `linear`, `operator`, `quantum-like`, `quantized`, `tokenized`, `low-bit`, `finite-dimensional`, `compressed`, or `symbolic`.
@@ -352,9 +352,9 @@ If the shortcut carries a transition-speed, stabilization, or control claim, add
 
 | Dynamics field | Question |
 | --- | --- |
-| Rate / acceleration | Which transition, inference, recovery, sensing, routing, or stabilization rate matters? |
+| Rate or acceleration | Which transition, inference, recovery, sensing, routing, or stabilization rate matters? |
 | Inertia | What makes the represented state, work routine, boundary condition, or model slow to change? |
-| Damping / resistance | What absorbs, slows, filters, or resists the transition? |
+| Damping or resistance | What absorbs, slows, filters, or resists the transition? |
 | Effort or actuator capacity | Which action, probe, resource, or authority relation can change the transition fast enough? |
 | Evidence | Which trace, model, experiment, or operational observation supports the dynamic reading? |
 

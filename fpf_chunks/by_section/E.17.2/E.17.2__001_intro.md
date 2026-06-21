@@ -6,12 +6,12 @@ section_id: "E.17.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:intro — Intro"
-line_start: 63692
-line_end: 63732
+line_start: 66279
+line_end: 66326
 dependencies:
   - "A.1"
   - "A.15"
@@ -32,10 +32,17 @@ keywords:
 ---
 
 ## E.17.2 - `TEVB` - Typical Engineering Viewpoints Bundle
+> **Type:** Part E viewpoint-bundle species pattern
 > **Status:** Stable
 **Use this when.** A team needs a small reusable set of engineering viewpoints for a holon so that functional, procedural, allocation-responsibility, and module-interface descriptions stay comparable across diagrams, models, cards, and architecture-description bundles.
 
 **First output.** One TEVB bundle use naming `VF.TEVB.ENG`, the selected holon as `EntityOfConcernRef`, the active `VP.*` viewpoint, and the bounded description or specification-use case being written or checked.
+
+**What goes wrong if missed.** Engineering views, publication faces, diagrams, and architecture-specific views collapse into one label, so functional, procedural, allocation-responsibility, and module-interface material cannot be compared safely.
+
+**What this buys.** TEVB gives a compact engineering viewpoint bundle for holons while leaving architecture-specific view adequacy, publication form, role assignment, method, work, and module-interface claims with their direct owners.
+
+**Not this pattern when.** If the current question is architecture structural-view adequacy, architecture description adequacy, publication-form behavior, role assignment, method or work alignment, or module-interface relation repair, use the governing pattern and keep TEVB only as the viewpoint-bundle reference when current.
 
 > **Tech‑name:** `TEVB` (Typical Engineering Viewpoints Bundle, bundle id `VF.TEVB.ENG`)
 > **Plain‑name:** typical engineering viewpoints bundle for holons

@@ -6,12 +6,12 @@ section_id: "A.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:intro — Intro"
-line_start: 19284
-line_end: 19289
+line_start: 19606
+line_end: 19611
 dependencies:
   - "A.1"
   - "A.10"

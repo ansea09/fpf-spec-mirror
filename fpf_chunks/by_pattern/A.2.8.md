@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-line_start: 5128
-line_end: 5465
+line_start: 5279
+line_end: 5621
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -43,14 +43,19 @@ keywords:
 ## A.2.8 - `U.Commitment` (Deontic Commitment Object)
 
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
-### E.24.UK settlement
+### A.2.8:0.1 - Kind Settlement
 
-This structural `U.*` title is retained by E.24.UK as a root durable deontic-relation value; its source may cite speech acts and descriptions, but the commitment is not the utterance description, carrier, gate, or performed work.
+`U.Commitment` is a durable deontic-relation value. Its source may cite speech acts and descriptions, but the commitment is not the utterance description, carrier, gate, or performed work.
 
 ### A.2.8:0 - Use This When
 
 Use this pattern when a project needs to state who is accountable for what, under which modality, scope, and time window, without pretending that the words in a specification, contract, ticket, API description, or standard are themselves the accountable actor.
+
+**What goes wrong if missed.** A specification, interface, dashboard, contract text, or ticket is treated as the accountable party; evidence, gate admission, performed work, and commitment content collapse into one deontic-looking sentence.
+
+**What this buys.** The accountable subject, modality, referent, scope, time window, and adjudication hooks become inspectable without turning publications, evidence, gates, or work occurrences into commitment holders.
 
 Typical moments:
 
@@ -69,7 +74,7 @@ Typical moments:
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
 > **Builds on:** E.8 (authoring template), A.2.1 (RoleAssignment), A.2.6 (Scope & `Γ_time`), A.7 (EntityOfConcern / Description episteme / carrier), A.2.3 (`U.PromiseContent` as promise), A.15.1 (`U.Work`)
-> **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and later governance patterns.
+> **Purpose (one line):** Provide a minimal, reusable kernel object for deontic commitments (who is accountable, under what modality, in what scope/window, with respect to which referents, with which adjudication hooks), **explicitly separating the commitment object from its utterance descriptions** (A.7), so deontics stop “living” in naming patterns and become stable across A.6 and governance patterns.
 
 ### A.2.8:0.1 - Terminology: “binding” is overloaded (normative)
 
@@ -88,7 +93,7 @@ FPF needs to express boundary governance and socio-technical obligations in a wa
 * **reference-based** (no paraphrase drift; refer to claim IDs),
 * **adjudicable** (if intended to be checkable, it has an evidence story).
 
-In practice, texts use “MUST/SHALL/should”, “commits to”, “guarantees”, “SLA”, “contract”, etc. Without a stable kernel object for “the deontic binding”, authors either:
+In practice, texts use “MUST/SHALL/should”, “commits to”, “guarantees”, “SLA”, “contract”, etc. Without a stable kernel object for the deontic commitment relation, authors either:
 
 * assign agency to descriptions (“the API guarantees…”),
 * smuggle admissibility gates into deontics (or vice versa),
@@ -105,7 +110,7 @@ How can FPF represent a deontic commitment relation so that:
 2. **Modality is explicit and lintable** (obligation, permission, prohibition, and strength),
 3. **Scope and validity window are explicit** (bounded context + time + conditions),
 4. **The content is referenceable** via stable referent claim IDs (promise contents, gates, evidence targets, etc.),
-5. **Adjudication hooks exist** when the binding is meant to be testable/auditable (links to evidence claims and carrier expectations),
+5. **Adjudication hooks exist** when the commitment is meant to be testable/auditable (links to evidence claims and carrier expectations),
 6. **Conflicts can be represented** (without requiring this pattern to solve them).
 
 ### A.2.8:3 - Forces
@@ -115,7 +120,7 @@ How can FPF represent a deontic commitment relation so that:
 | Minimality                     | The object must be small enough to use routinely, not a full legal-contract model.                                                                  |
 | Generality                     | It must work for software specs, protocols, hardware boundaries, and socio-technical governance.                                                    |
 | Layering discipline            | It must not collapse law, gate, duty, and evidence; it should make the neighboring governing pattern explicit without replacing it.                  |
-| Local meaning                  | Defaults should be bounded-context local; cross-context bindings must be explicit.                                                                  |
+| Local meaning                  | Defaults should be bounded-context local; cross-context commitments must be explicit.                                                               |
 | Auditability                   | Some commitments are aspirational; others are auditable. The representation must support both, without implying auditability by default.            |
 | Multi-issuer governance reality | People, organizations, and states can issue incompatible commitments; the model must represent issuer, authority relation, and priority without “solving politics” inside Part A. |
 
@@ -152,7 +157,7 @@ U.Commitment ::=
     referents: set<ReferentRef>,        // what is being bound (by reference, not paraphrase)
     adjudication: optional<AdjudicationHooks>, // evidence hooks if auditable
     source: optional<CommitmentSource>, // what instituted/authorized it (issuer + instituting act + utterance description), when provenance matters
-    notes: optional<InformativeText>    // explicitly informative; not part of the binding
+    notes: optional<InformativeText>    // explicitly informative; not part of the commitment relation
   }
 
 CommitmentSubject ::=
@@ -294,11 +299,11 @@ This mirrors common post‑2015 “protocols as types” practice: semantics and
 
 ### A.2.8:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** (any place FPF needs deontic binding).
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** (any place FPF needs deontic commitment relations).
 
 * **Gov bias:** prioritizes accountable subjects and adjudication hooks; may increase authoring overhead.
 * **Arch bias:** pushes reference-by-ID and explicit scope/window to preserve evolvability and reduce drift.
-* **Onto/Epist bias:** enforces “descriptions don’t promise”; commitments bind agents/roles.
+* **Onto/Epist bias:** enforces “descriptions don’t promise”; commitments name accountable subjects.
 * **Prag bias:** aligns with common spec-language practice (RFC keywords) but makes the structure explicit.
 * **Did bias:** favors a small record that can be taught and linted.
 
@@ -344,7 +349,7 @@ The triad “promise, utterance, and commitment” is useful for language discip
 
 * stabilizes what a “commitment” structurally is,
 * ensures “MUST/SHALL” talk is representable without category mistakes,
-* and provides the missing bridge between governance claims and adjudication (via explicit hooks), which is essential for boundary engineering and for later ethics/governance work.
+* and provides the bridge between governance claims and adjudication (via explicit hooks), which is essential for boundary engineering and ethics/governance work.
 
 ### A.2.8:11 - SoTA-Echoing (informative; post‑2015 alignment)
 
@@ -362,17 +367,17 @@ The triad “promise, utterance, and commitment” is useful for language discip
 
 * A.2.1 for identifying accountable roles vs role-enactors (role assignments).
 * A.2.6 for expressing scope and time/window (`U.ClaimScope`, qualification-window policy).
-* A.7 for keeping “binding” distinct from “utterance” and from “carriers”.
+* A.7 for keeping source “binding” wording distinct from utterance descriptions and carriers.
 
 **Used by**
 
 * A.6.B (Quadrant D) as the canonical payload shape for deontic statements.
 * A.6.C (Contract Unpacking) as the formal governing pattern for the “Commitment” component of the bundle.
-* Part D governance/ethics patterns (future work) for expressing layered, conflicting, multi-authority commitments.
+* Part D governance/ethics patterns, when current, for expressing layered, conflicting, multi-authority commitments.
 
 **Coordinates with**
 
-* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments bind accountable subjects to those clauses.
+* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments assign accountable subjects to those clauses.
 * **A.2.9 (`U.SpeechAct`)**: `U.Commitment.source.speechActRef` points to the instituting communicative work occurrence when provenance matters.
 * A.15.1 (`U.Work`) and evidence patterns: adjudication hooks refer to evidence in work, not to text.
 

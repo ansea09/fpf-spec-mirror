@@ -6,12 +6,12 @@ section_id: "A.6.2:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__008_conformance-checklist-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:7 — Conformance Checklist (normative)"
-line_start: 10840
-line_end: 10852
+line_start: 11031
+line_end: 11043
 dependencies:
   - "A.1"
   - "A.6.0"

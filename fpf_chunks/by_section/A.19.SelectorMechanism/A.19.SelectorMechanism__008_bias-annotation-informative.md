@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__008_bias-annotation-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:6 — Bias-Annotation — informative"
-line_start: 28393
-line_end: 28404
+line_start: 29034
+line_end: 29045
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -23,7 +23,7 @@ keywords:
 
 ### A.19.SelectorMechanism:6 - Bias-Annotation — informative
 
-This pattern intentionally biases selection authoring toward explicitness and legality.
+This pattern intentionally biases selection authoring toward explicitness and admissibility.
 
 * **Governance bias.** Bias toward explicit criteria and policy-routing records rather than implicit constants. Risk: perceived overhead. Mitigation: keep criteria records minimal, and centralize defaults via `TaskSignatureSlot` when used.
 * **Architecture bias.** Bias toward set‑return semantics and against forced total orders. Risk: consumers may expect a single winner. Mitigation: make single‑winner selection an explicit criterion or a declared comparator outcome, not an implicit kernel behavior.

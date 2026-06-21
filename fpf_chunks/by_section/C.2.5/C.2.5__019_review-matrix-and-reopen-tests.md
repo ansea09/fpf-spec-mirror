@@ -6,12 +6,12 @@ section_id: "C.2.5:18"
 section_title: "Review Matrix and Reopen Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__019_review-matrix-and-reopen-tests.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:18 — Review Matrix and Reopen Tests"
-line_start: 37775
-line_end: 37794
+line_start: 39082
+line_end: 39101
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,7 +34,7 @@ keywords:
 ### C.2.5:18 - Review Matrix and Reopen Tests
 
 #### C.2.5:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - what was narrowed;
 - by what `governingPatternRef`, `authoritySourceRef`, or guard it was narrowed;

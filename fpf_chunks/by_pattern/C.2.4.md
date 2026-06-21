@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 37434
-line_end: 37609
+line_start: 38729
+line_end: 38910
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,11 +39,17 @@ keywords:
 
 **Plain-name.** Articulation explicitness.
 
+**Use this pattern when.** Use C.2.4 when a governed `U.Episteme` publication must say how explicit its semantic shape already is before routing, repair, prompt entry, or endpoint classification.
+
+**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or `F` is misused as a proxy for whether anchors, slots, and relation-like structure are explicit enough.
+
+**What this buys.** A separate ordinal characteristic for articulation explicitness, so teams can publish early cues, threshold entry into `A.6.P`, and keep articulation distinct from formality, closure, trust, and endpoint authority.
+
 ### C.2.4:1 - Problem frame
 A governed `U.Episteme` can already matter while its semantic shape is not yet fully explicit. The declared language-state chart over `U.CharacteristicSpace` therefore needs one basis-slot governing pattern for how explicit that shape already is, without confusing articulation with rigor, truth, or closure.
 
 ### C.2.4:2 - Problem
-When articulation explicitness stays implicit, authors either overstate readiness for later repair or endpoint classification, or hide early cue structure entirely. Reusing `F` for this judgement creates a category error: formality is about rigor of expression, not about whether the semantic shape is already explicit enough for repair or endpoint classification.
+When articulation explicitness stays implicit, authors either overstate readiness for downstream repair or endpoint classification, or hide early cue structure entirely. Reusing `F` for this judgement creates a category error: formality is about rigor of expression, not about whether the semantic shape is already explicit enough for repair or endpoint classification.
 
 ### C.2.4:3 - Forces
 | Force | Tension |
@@ -55,9 +61,9 @@ When articulation explicitness stays implicit, authors either overstate readines
 ### C.2.4:4 - Solution
 `U.ArticulationExplicitness` is an ordinal characteristic over how explicit the semantic shape is in a published position claim in the declared language-state chart over `U.CharacteristicSpace`, for publication, route-governance claims, and repair.
 
-#### C.2.4:4.0a - E.24.UK settlement
+#### C.2.4:4.0a - Kind and characteristic boundary
 
-`U.ArticulationExplicitness` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the articulation-explicitness basis slot and ordinal scale discipline for governed episteme publication positions. Local thresholds, route labels, and score-table columns may reference it, but they do not create a separate U-kind.
+`U.ArticulationExplicitness` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the articulation-explicitness basis slot and ordinal scale discipline for governed episteme publication positions. Local thresholds, route labels, and score-table columns may reference it, but they do not create a separate U-kind.
 
 #### C.2.4:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -75,7 +81,7 @@ When articulation explicitness stays implicit, authors either overstate readines
 | `AE2` | candidate anchors or partial roles are visible | cue pack with candidate anchors and route candidates |
 | `AE3` | minimally relation-like skeleton exists | entry to `A.6.P` becomes possible if local threshold allows |
 | `AE4` | slot-explicit normal form is publishable | explicit relation or characteristic form |
-| `AE5` | articulation is explicit enough for stable endpoint classification and later bridge work | endpoint-pattern-governed publication becomes straightforward |
+| `AE5` | articulation is explicit enough for stable endpoint classification and downstream bridge work | endpoint-pattern-governed publication becomes straightforward |
 
 The anchors are a starter set; a Context may refine them locally, but it shall keep the ordinal direction and the distinction from `F` intact.
 
@@ -144,7 +150,7 @@ To assign `AE`, ask:
 - is a normal form actually publishable, or only hinted?
 
 #### C.2.4:14.2 - Review prompt
-A reviewer should reject `AE` claims that rely only on rhetorical confidence. The claimed level should be supported by anchors, slots, contrasts, exemplars, or explicit normal-form structure.
+An assurance reader should reject `AE` claims that rely only on rhetorical confidence. The claimed level should be supported by anchors, slots, contrasts, exemplars, or explicit normal-form structure.
 
 #### C.2.4:14.3 - Threshold publication reminder
 If `AE` determines whether an episteme stays in `A.16.1`, passes through `B.4.1`, or enters `A.6.P`, that threshold should be published explicitly and locally.
@@ -192,7 +198,7 @@ If one note contains a high-`AE` fragment and a low-`AE` remainder, split the pu
 ### C.2.4:18 - Review Matrix and Endpoint Boundary Tests
 
 #### C.2.4:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - are the named anchors genuinely present rather than merely presupposed;
 - does the claimed articulation level rest on structure rather than tone;
@@ -200,7 +206,7 @@ A reviewer should ask:
 - if `AE` is used to justify a route-governance transfer, is the destination governing pattern actually ready to receive the publication.
 
 #### C.2.4:18.2 - Endpoint-boundary test
-High `AE` does not by itself authorize endpoint claims, gate pressure, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
+High `AE` does not by itself authorize endpoint claims, gate claims, or quality ascriptions. If such consequences appear, show which downstream governing pattern takes over.
 
 #### C.2.4:18.3 - Migration note for false precision
 Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articulation. Migration should therefore test whether anchors and slots are really present; if not, the articulation level should drop.

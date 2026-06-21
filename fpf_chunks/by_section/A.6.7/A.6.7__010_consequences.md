@@ -6,12 +6,12 @@ section_id: "A.6.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:9 — Consequences"
-line_start: 16862
-line_end: 16874
+line_start: 17132
+line_end: 17144
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -41,7 +41,7 @@ keywords:
 
 * Eliminates level confusion between “family of realizations” vs “bundle of mechanisms”.
 * Provides a Kernel governing pattern for universal obligations reused across multiple patterns (notably Part G universalization).
-* Makes legality/transport/audit obligations shared and explicit, reducing semantic drift across member mechanisms.
+* Makes admissibility/transport/audit obligations shared and explicit, reducing semantic drift across member mechanisms.
 
 **Costs.**
 

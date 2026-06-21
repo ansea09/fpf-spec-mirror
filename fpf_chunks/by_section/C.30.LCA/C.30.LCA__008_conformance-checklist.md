@@ -6,12 +6,12 @@ section_id: "C.30.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__008_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:7 — Conformance Checklist"
-line_start: 54543
-line_end: 54556
+line_start: 56397
+line_end: 56410
 dependencies:
   - "A.10"
   - "A.20"
@@ -49,7 +49,7 @@ keywords:
 | CC-LCA-3 | A conforming use recovers `layer`, `level`, `tier`, or `stack` wording with `C.30.STRAT` unless the text already recovers a control-specific `controlLayerRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, or `B.2.5` supervisor-subholon relation. | Prevents pseudo-level or pseudo-layer overread inside C.30.LCA. |
 | CC-LCA-4 | A conforming use records observation, actuation, feedback, and externality boundaries when they are used in the view. | Makes the control relation inspectable. |
 | CC-LCA-5 | Stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing patterns. | Prevents LCA-as-proof. |
-| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback-loop relation or check pattern, not as proof of stability, safety, evidence, gate validity, or assurance. | Keeps existing FPF control relation bounded. |
+| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback relation, not as proof of stability, safety, evidence, gate validity, or assurance. Loop claims use the control or dynamics owner named by value. | Keeps existing FPF control relation bounded. |
 | CC-LCA-7 | An `E.18` transformation-flow path slice used by the control view remains a transformation-flow description or relation governed by E.18, not the control structure itself. | Keeps transformation-flow and LCA relations distinct. |
 | CC-LCA-8 | A C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens use. |
 | CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition. | Prevents narrowed recognition from becoming unchecked reliance. |

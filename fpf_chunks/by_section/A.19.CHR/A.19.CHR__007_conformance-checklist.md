@@ -6,12 +6,12 @@ section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__007_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 26281
-line_end: 26399
+line_start: 26922
+line_end: 27040
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,9 +34,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"

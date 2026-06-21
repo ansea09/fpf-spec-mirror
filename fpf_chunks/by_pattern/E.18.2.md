@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 67835
-line_end: 68035
+line_start: 70484
+line_end: 70694
 dependencies:
   - "A.10"
   - "A.15"
@@ -138,7 +138,7 @@ TransformationFlowMathematicalDescription@Context:
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
 | quotient, fold, coarsening, refinement, or factorization | coarser/finer partitioning, aggregation, retained/lost structure, and alternative decomposition | not an identity claim without preserved/lost structure and return condition |
-| algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | not a mechanism, formal substrate, or empirical law unless A.6.0/A.6.1 and evidence patterns are current |
+| algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | not a mechanism, formal substrate, or empirical law unless `A.6.0` governs the formal substrate, `A.6.1` governs the postulate or principle frame, and the relevant evidence pattern is current |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow material | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
 
 These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names one selected structure, one current described slice or locus when relevant, and the declared use.
@@ -171,7 +171,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | architecture, structural view, functional structure, module interface, or reusable-structure claim | `C.30`, `C.30.ASV`, `A.6.F`, `A.6.M`, or `C.31` |
 | publication face or publication use | `E.17` or `E.17.EFP` |
 
-#### E.18.2:4.5 - Worked slices
+### E.18.2:4.5 - Archetypal Grounding (Worked Slices)
 
 **Refrigerator principle scheme.** A vapor-compression diagram can be a publication face. The cooling cycle can be a selected `TransformationFlowStructure`. The thermodynamic laws are mechanism or formal-substrate claims. The graph or equation set that describes the cycle is an E.18.2 mathematical description. It may preserve transformation order, heat-transfer constraints, and cycle closure while losing maintenance work, sensor uncertainty, and installation context. It does not prove the refrigerator works or authorize a repair.
 
@@ -180,6 +180,16 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 **Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim is the compound transformation organization, use E.18 or C.30 when it is an architecture claim. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes that organization, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred.
+
+### E.18.2:4.6 - Bias-Annotation
+
+| Bias | How E.18.2 prevents it |
+| --- | --- |
+| Graph-as-world bias | The selected structure stays with `E.18`; a graph or algebraic object is only the mathematical description unless another governing pattern says otherwise. |
+| Path-as-procedure bias | A mathematical path or path slice can express reachability or locality; method and work-plan claims stay with method and work-plan patterns. |
+| Diagram-as-architecture bias | Architecture adequacy stays with `C.30`, `C.30.ASV`, and related architecture patterns; E.18.2 records only the mathematical-description relation. |
+| Math-as-authority bias | No mathematical expression authorizes work, passes a gate, settles evidence, grants release, or proves assurance by itself. |
+| Publication-as-description bias | Publication faces and rendered diagrams stay with `E.17` unless the current EntityOfConcern is the mathematical description itself. |
 
 ### E.18.2:5 - Conformance checklist
 
@@ -194,7 +204,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 - `CC-E18.2-9` When work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the direct pattern governing that claim. E.18.2 records only the mathematical-description relation for the selected transformation-flow structure.
 - `CC-E18.2-10` A source artifact that carries several claims is split into records by current EntityOfConcern and relation position, not by the artifact's name.
 
-### E.18.2:6 - Common anti-patterns
+### E.18.2:6 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Repair |
 |---|---|
@@ -202,7 +212,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | **Path-as-procedure.** A mathematical path or path slice is read as a required project procedure. | Keep it as a mathematical relation over a selected structure; use method or work-plan patterns for procedures. |
 | **Algebra-as-mechanism.** An operation law or equation system is treated as a realized mechanism. | Use A.6.0 for formal substrate and A.6.1 for mechanism claims; keep E.18.2 to the expression relation. |
 | **Fold-as-identity.** A quotient, fold, or coarsening erases detail and is then used as if nothing was lost. | State preserved structure, lost structure, and return condition; use C.29 when the adequacy of the fold matters. |
-| **Diagram-as-architecture adequacy.** A clean diagram is treated as proof that the architecture is good. | Use C.30/C.30.ASV/C.31 for architecture and reusable-structure claims; E.18.2 only describes selected structure mathematically. |
+| **Diagram-as-architecture adequacy.** A clean diagram is treated as proof that the architecture is good. | Use `C.30` for the architecture claim, `C.30.ASV` for architecture structural-view adequacy, and `C.31` for reusable-structure characteristics; `E.18.2` only describes selected structure mathematically. |
 
 ### E.18.2:7 - Consequences
 
@@ -226,7 +236,7 @@ The pattern is intentionally narrower than C.29. C.29 answers the general questi
 | Model-based systems and architecture-description practice (ISO/IEC/IEEE 42010:2022, [`iso.org/standard/74393`](https://www.iso.org/standard/74393.html); SysML v2 current specification lineage). | A diagram or model can describe a selected structure without becoming the structure or evidence. | Mathematical description names described structure, expression, preserved/lost structure, declared use, and boundary stop. | A clean model can guide inspection without authorizing action. | The selected E.18 structure, publication face, evidence relation, or architecture claim changes. |
 | Applied category theory, wiring diagrams, and graph rewriting (Fong & Spivak, arXiv [`1803.05316`](https://arxiv.org/abs/1803.05316); Spivak, arXiv [`1305.0297`](https://arxiv.org/abs/1305.0297); Baez & Fong, arXiv [`1504.05625`](https://arxiv.org/abs/1504.05625); Bonchi et al., arXiv [`1602.06771`](https://arxiv.org/abs/1602.06771); Patterson/Spivak/Vagner, arXiv [`2101.12046`](https://arxiv.org/abs/2101.12046)). | Formal expression is useful because it preserves some structure and drops other structure. | Quotient, fold, refinement, factorization, and wiring claims name what survives and what is lost. | Coarser and finer descriptions can be compared without pretending they are identical. | The preserved/lost structure, mapping mode, or C.29 lens-use adequacy changes. |
 | Digital-thread, research-object, and source-reference practice (RO-Crate paper, arXiv [`2108.06503`](https://arxiv.org/abs/2108.06503); Di Cosmo/Gruenpeter/Zacchiroli, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647); ISO 23247 digital-twin lineage). | Replay works only when record kinds remain distinct. | E.18.2 descriptions cite E.18 structures and related governed records rather than absorbing work, evidence, gate, and publication claims. | A trace graph can remain useful without becoming proof, plan, or performed work. | Source currentness, work-family law, evidence, gate, or publication-use relation changes. |
-| Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation; architecture adequacy remains under C.30/C.30.ASV/C.31. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
+| Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation; architecture adequacy remains under `C.30`, architecture structural-view adequacy remains under `C.30.ASV`, and reusable-structure characteristics remain under `C.31`. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
 
 ### E.18.2:10 - Relations
 

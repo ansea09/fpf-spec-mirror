@@ -1,33 +1,51 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Role-Projection Bridge"
+pattern_title: "Domain-Concept Bridge"
 section_id: "B.5.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__007_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.5.3 — Role-Projection Bridge"
+  - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:6 — Consequences"
-line_start: 34621
-line_end: 34629
+line_start: 35882
+line_end: 35889
 dependencies:
+  - "A.13"
+  - "A.15"
   - "A.2"
+  - "A.2.1"
+  - "A.6.5"
+  - "A.7"
+  - "B.3.3"
+  - "C.2.1"
   - "C.3"
+  - "E.17"
+  - "E.24.UK"
+  - "F.1"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.7"
+  - "F.8"
+  - "F.9"
 keywords:
+  - "bounded context"
+  - "bridge scope"
   - "concept bridge"
-  - "domain-specific vocabulary"
-  - "mapping"
-  - "terminology"
+  - "domain vocabulary"
+  - "local sense"
+  - "role assignment boundary"
 ---
 
 ### B.5.3:6 - **Consequences**
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
-| **Semantic Richness and Precision:** The pattern allows domain-specific constraints and rules to be formally integrated into the model, enabling much more powerful automated checking and reasoning. | **Increased Modeling Granularity:** It introduces a layer of indirection (`Entity → Role → U.Type`) that modelers must learn. *Mitigation:* Tooling can automate much of this, suggesting relevant roles based on the context or domain. |
-| **Multi-Domain Integration:** The pattern provides a clean and robust mechanism for a single model to incorporate concepts from multiple, diverse domains without conflict. | - |
-| **Preserves a Lean Kernel:** The FPF kernel remains small and universal, with all domain-specific complexity handled in a modular, plug-in fashion via `Role` libraries. | - |
-| **Enhanced Traceability and Clarity:** The roles an entity plays are explicit assertions. This makes the model's intent clear and auditable. | - |
+| **Domain language stays usable:** Experts keep familiar words without forcing every word into the kernel. | **Bridge overhead:** Load-bearing local terms need a small bridge record. Keep it short and reopen stronger patterns only when a claim becomes load-bearing. |
+| **Kernel stays lean:** New kinds require explicit admission and ontic support. | **More precise modeling choices:** The bridge may reveal that one local word hides several FPF values. That is the point: split them before they drive work. |
+| **Cross-document clarity:** Requirements, diagrams, dashboards, simulations, and reports can be compared without pretending they are the same artifact. | **Need for current context:** Bridges are context-scoped; do not move them across projects without checking scope and loss. |
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
-line_start: 3607
-line_end: 3940
+line_start: 3704
+line_end: 4037
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -32,7 +32,7 @@ keywords:
 
 **Plain name.** Role-state space.
 
-### E.24.UK settlement
+### A.2.5:0.1 - Kind Settlement
 
 A.2.5 does not admit `U.RoleStateGraph` as a durable U-kind. The governed object is `RoleStateRelation@BoundedContext`: a selected context-local relation structure over `U.Role`, `U.BoundedContext`, role-state values, state predicates, state assertions, and work-admission relations. State-machine or graph notation is a mathematical or representation lens over that relation structure, not the object itself and not a new root beside `U.Role`.
 
@@ -52,7 +52,7 @@ Typical moments:
 
 **First useful move.** Name the role and bounded context, list the states that matter for the current claim, mark which states admit work, and state what observation, evaluation, speech act, work record, or source relation can justify a `StateAssertion` for the relevant window.
 
-**What goes wrong if missed.** A role label becomes a permission slip. A role assignment is treated as ability. A certificate, report, standard, status marker, or dashboard is treated as if it held a work-facing role. Separation-of-duties checks operate on labels instead of states. Old source phrases such as "approved evidence role" or unlabeled readiness marks create a second role ontology.
+**What goes wrong if missed.** A role label becomes a permission slip. A role assignment is treated as ability. A certificate, report, standard, status marker, or dashboard is treated as if it held a work-facing role. Separation-of-duties checks operate on labels instead of states. Source phrases such as "approved evidence role" or unlabeled readiness marks create a second role ontology.
 
 **What this buys.** Role admission becomes inspectable without making forms heavy. The same role value can have different current states in different contexts and windows; method and work claims can ask only for the state evidence they need; episteme evidence and status uses stay with their direct patterns.
 
@@ -83,7 +83,7 @@ Without this pattern:
 4. **State and source collapse.** A certificate, report, standard, model card, dashboard, or publication is treated as the state itself rather than as a source or evidence relation for a state assertion.
 5. **Label-only incompatibility appears.** Incompatibility checks block or admit work by role names rather than by enactable states in a window.
 6. **Context drift returns.** "Approved" or "Ready" travels across contexts without named state predicates or loss.
-7. **Old enactment ontology survives.** `RoleEnactment` becomes a durable root value even though performed work is governed by `U.Work` and `U.RoleAssignment`.
+7. **Enactment reification survives.** `RoleEnactment` becomes a durable root value even though performed work is governed by `U.Work` and `U.RoleAssignment`.
 
 ### A.2.5:3 - Forces
 
@@ -259,7 +259,7 @@ A source may say that a standard has an "approved role" or a dataset has an "evi
 
 **Episteme side.** A role-state relation may be described by an episteme, and evidence for a state assertion may be an episteme. That does not make the episteme a role holder. If the EntityOfConcern is a report, standard, dataset, requirement, proof, model card, or publication, the current relation is usually evidence-use, status-use, source-use, requirement-use, definition-use, explanation-use, publication-use, assurance-use, or admission-use.
 
-### A.2.5:7 - Bias Annotation
+### A.2.5:7 - Bias-Annotation
 
 This pattern resists four common biases:
 
@@ -279,8 +279,8 @@ This pattern resists four common biases:
 | `CC-A2.5-05` | Does every work-admission claim name or inherit a current `StateAssertion` window? |
 | `CC-A2.5-06` | Do state predicates use observable or reviewable values, evaluations, work records, speech acts, or source relations? |
 | `CC-A2.5-07` | Are state-change predicates kept separate from method order and work planning? |
-| `CC-A2.5-08` | Are capability requirements sent to `A.2.2`, with method claims and work claims sent to `A.15` and A.15 subpatterns? |
-| `CC-A2.5-09` | Are evidence use, status use, source use, and publication use around epistemes sent to their direct patterns instead of becoming work-facing role states? |
+| `CC-A2.5-08` | Are capability requirements governed by `A.2.2`, with method claims and work claims governed by `A.15` and A.15 subpatterns? |
+| `CC-A2.5-09` | Do evidence use, status use, source use, and publication use around epistemes remain governed by their direct patterns instead of becoming work-facing role states? |
 | `CC-A2.5-10` | Do role-relation hooks preserve state-sensitive role-requirement substitution, incompatibility, and bundle boundaries without product-state explosion by default? |
 
 ### A.2.5:9 - Common Anti-Patterns and How to Avoid Them

@@ -6,12 +6,12 @@ section_id: "A.2.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__012_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:10 — Rationale"
-line_start: 2508
-line_end: 2515
+line_start: 2570
+line_end: 2577
 dependencies:
   - "A.15"
   - "A.2"

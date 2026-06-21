@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:12 — Relations"
-line_start: 15584
-line_end: 15604
+line_start: 15847
+line_end: 15867
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -41,6 +41,6 @@ keywords:
 | `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |
 | `C.31` | Modularity and reusable-structure characteristics are governed by C.31 after relation repair when characteristic or measurement use is being made. |
 | `C.31.RSA` | Reusable-structure accounting is governed by C.31.RSA when reusable loci, bespoke residue, or report-only share claims are being made. |
-| `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub legality remain C.16-governed. |
+| `C.16` | Measurement, score, scale, unit, comparability, and evidence-stub admissibility remain C.16-governed. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, `C.11` | Evidence, assurance, gates, causal use, mechanism suites, set-return selection, and local decisions use their governing patterns; they are not A.6.M claims. |
 

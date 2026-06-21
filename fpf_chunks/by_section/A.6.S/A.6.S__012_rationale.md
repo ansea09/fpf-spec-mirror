@@ -6,12 +6,12 @@ section_id: "A.6.S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__012_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:10 — Rationale"
-line_start: 18210
-line_end: 18225
+line_start: 18494
+line_end: 18509
 dependencies:
   - "A.12"
   - "A.3"
@@ -58,5 +58,5 @@ Connecting signature engineering to A.6.2–A.6.4 provides a principled way to s
 
 Finally, classifying claims through A.6.B makes “contract” talk ontologically safe: laws, gates, norms, and evidence stop competing for the same paragraph.
 
-**SoTA binding note (informative).** The separation between an operation signature and its effectful realization is adopted from modern algebraic effects/handlers; the `U.View` and `U.Viewpoint` responsibility discipline is adapted from ISO/IEC/IEEE 42010; and the “preservation under change” intuition is adapted from categorical optics (see A.6.S:11).
+**SoTA source note (informative).** The separation between an operation signature and its effectful realization is adopted from modern algebraic effects/handlers; the `U.View` and `U.Viewpoint` responsibility discipline is adapted from ISO/IEC/IEEE 42010; and the “preservation under change” intuition is adapted from categorical optics (see A.6.S:11).
 

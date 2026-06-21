@@ -6,12 +6,12 @@ section_id: "G.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:3 — Forces"
-line_start: 81425
-line_end: 81435
+line_start: 84185
+line_end: 84195
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,5 +66,5 @@ keywords:
 | Detail versus affordability | A path needs enough nodes, edges, windows, and constraints to replay reliance, but not every neighboring pattern boundary repeated in prose. |
 | Typed downstream use versus one citation | The downstream citation may be one `PathId`, while verification, validation, lineage, assurance, status, causal-use, and source-currentness relations remain typed. |
 | Bridge visibility versus reuse convenience | Cross-context or cross-plane reuse needs explicit bridge/currentness refs; label equality is not enough. |
-| Refresh locality versus stale evidence | Path-level addresses let one changed source, bridge, edition, or policy reopen only the affected evidence paths. |
+| Refresh locality versus stale evidence | Path-level addresses let one changed source, bridge, edition, or policy reopen only the affected evidence-provenance paths. |
 

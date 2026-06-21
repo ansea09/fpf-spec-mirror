@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define U.EffectFreeEpistemicMorphing once"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-u-effectfreeepistemicmorphing-once.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:4 — Solution — define U.EffectFreeEpistemicMorphing once"
-line_start: 10562
-line_end: 10746
+line_start: 10753
+line_end: 10937
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -42,7 +42,7 @@ keywords:
 > * are **effect‑free** (no Work, no Mechanism application, no mutation of systems or carriers);
 > * are **conservative** in what they claim about the EntityOfConcern: no new EntityOfConcern commitment may appear unless it is a logical consequence under the declared ReferenceScheme, correspondence, or bridge invariant;
 > * are **functorial** (identities and composition behave as expected on the category of epistemes);
-> * declare an explicit **EntityOfConcernChangeMode ∈ {preserve, retarget}**, controlling how `EntityOfConcernSlot` behaves, and how source-migration `subjectRef` decodes through `DescriptionContext` when that older wiring name is still present.
+> * declare an explicit **EntityOfConcernChangeMode ∈ {preserve, retarget}**, controlling how `EntityOfConcernSlot` behaves, and how source `subjectRef` decodes through `DescriptionContext` when that wiring name is present.
 
 The category-theory **objects** of the EFEM universe are epistemes of some `U.EpistemeKind` (typically realised as `U.EpistemeCard` / `U.EpistemeView` / `U.EpistemePublication`). The **arrows** are EFEM morphisms `f : X → Y` satisfying the P0–P5 laws below.
 
@@ -73,9 +73,9 @@ This says: EFEM is “about” **morphisms between epistemes**, indexed by Conte
 * **Types**
   * `U.Episteme` (as holon; realised via species `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` under C.2.1).
   * `U.EpistemeKind` (episteme n‑ary relation signature; slots per A.6.5 / C.2.1).
-  * `SubjectRef` (source-migration wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
+  * `SubjectRef` (source wiring name only; for Description epistemes, including Description epistemes admitted for specification use, it decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` per C.2.1 §6.1 / E.10.D2). It does not define another EntityOfConcern family.
   * `EpMorphism` (local arrow value in `Ep`, governed by this morphism pattern and C.29 when the mathematical lens is current).
-  * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new Kernel type for “EntityOfConcern”).
+  * `U.EntityOfConcernChangeMode = {preserve, retarget}` (enumeration; no new durable U-kind named “EntityOfConcern”).
 
 * **Operators (arrow algebra)**
 
@@ -83,7 +83,7 @@ This says: EFEM is “about” **morphisms between epistemes**, indexed by Conte
   * `compose(g,f) : EpMorphism(X->Z)` where `f : X->Y`, `g : Y->Z`.
   * `apply(f, x:U.Episteme) : U.Episteme`.
   * `dom(f), cod(f) : U.Episteme`.
-  * `subjectRef(E) : SubjectRef` as source-migration projection from `DescriptionContext`, when old wiring still exposes that name.
+  * `subjectRef(E) : SubjectRef` as source projection from `DescriptionContext`, when source wiring exposes that name.
   * `entityOfConcernChangeMode(f) : U.EntityOfConcernChangeMode`  // EFEM‑level characteristic from C.2.1.
 
 Each operator that takes epistemes as arguments obeys **SlotSpec discipline** from A.6.5: in particular, laws below are phrased in terms of the **named SlotKinds** (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, `ViewSlot`, and—when the C.2.1+ extension is used—`RepresentationSchemeSlot`) and their associated ValueKind/RefKind; we never speak of “field 1/2/3”.
@@ -115,8 +115,8 @@ For any EFEM morphism `f : X→Y`:
    * if `entityOfConcernChangeMode(f) = preserve`, then `entityOfConcernRef(Y) = entityOfConcernRef(X)` (and usually `groundingHolonRef(Y) = groundingHolonRef(X)` unless an explicit Grounding Bridge is declared);
    * if `entityOfConcernChangeMode(f) = retarget`, then `entityOfConcernRef(Y) ≠ entityOfConcernRef(X)` in general and the record names a **KindBridge** between the two EntityOfConcern values (A.6.4 / F.9).
 
-4. **SubjectRef source-migration discipline.**
-   For Description epistemes, including Description epistemes admitted for specification use (`…Description` / `…Spec`), `subjectRef(E)` is a `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` (E.10.D2). EFEM species state how source-migration `subjectRef` transforms in terms of these components (usually: preserve or explicitly adjust `ViewpointRef` while preserving `EntityOfConcernRef` and `BoundedContextRef`).
+4. **SubjectRef source discipline.**
+   For Description epistemes, including Description epistemes admitted for specification use (`…Description` / `…Spec`), `subjectRef(E)` is a `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` (E.10.D2). EFEM species state how source `subjectRef` transforms in terms of these components (usually: preserve or explicitly adjust `ViewpointRef` while preserving `EntityOfConcernRef` and `BoundedContextRef`).
 
 ##### A.6.2:4.4.2 - P1 — Purity (no external effects)
 

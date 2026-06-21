@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.6.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
-line_start: 37797
-line_end: 37965
+line_start: 39104
+line_end: 39278
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,6 +40,12 @@ keywords:
 
 **Plain-name.** Language-state anchoring mode.
 
+**Use this pattern when.** Use C.2.6 when a governed `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
+
+**What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
+
+**What this buys.** A nominal anchoring-mode characteristic that keeps source anchoring, publication face, carrier, bridge loss, evidence, and reliance claims separate while still letting teams compare language-state positions.
+
 ### C.2.6:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the governed `U.Episteme` in that claim is anchored to bodies, traces, model states, documents, or operator loops.
 
@@ -56,9 +62,9 @@ Without an explicit anchoring-mode declaration, embodiment and source anchoring 
 ### C.2.6:4 - Solution
 `U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the governed `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. If source anchoring and current publication-face anchoring differ, both shall be distinguished rather than collapsed.
 
-#### C.2.6:4.0a - E.24.UK settlement
+#### C.2.6:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateAnchoringMode` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for governed episteme publication positions. Evidence, source-currentness, publication face, carrier, work, gate, and reliance claims remain with their direct governing patterns.
+`U.LanguageStateAnchoringMode` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for governed episteme publication positions. Evidence, source-currentness, publication face, carrier, work, gate, and reliance claims remain with their direct governing patterns.
 
 #### C.2.6:4.1 - Starter family
 | Mode | Reading | Typical evidence anchor |
@@ -87,7 +93,7 @@ Bridge work over governed `U.Episteme` publications in the declared language-sta
 
 **Show (System).** An alert tied to an operator console is `AM.OperatorLoop`, not just "text".
 
-**Show (Episteme).** A model-probe cue grounded in latent state is `AM.ModelLatent` even if it is later paraphrased into prose.
+**Show (Episteme).** A model-probe cue grounded in latent state is `AM.ModelLatent` even when rendered into prose.
 
 ### C.2.6:6 - Bias-Annotation
 The pattern pushes authors to declare anchoring rather than hide it in metaphors such as "the system wants" or "the note suggests".
@@ -99,7 +105,7 @@ The pattern pushes authors to declare anchoring rather than hide it in metaphors
 - `CC-C.2.6-4` Mixed-mode declarations **SHALL** list their component modes explicitly.
 
 ### C.2.6:8 - Common Anti-Patterns and How to Avoid Them
-- **Text-only illusion.** Treating every cue as document-mediated because it was written down later.
+- **Text-only illusion.** Treating every cue as document-mediated because it has been written down.
 - **Representation capture.** Using symbolic/distributed labels to hide world-anchoring distinctions.
 - **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication.
 
@@ -119,10 +125,10 @@ The facet is motivated by embodied cognition, operator-facing interaction practi
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
 #### C.2.6:13.1 - Embodied-to-document shift
-A bodily felt cue later published as prose usually changes from `AM.EmbodiedFelt` toward `AM.DocumentMediated`. That shift is not harmless; it often introduces bridge loss and should be treated as such when cross-context equivalence is claimed.
+A bodily felt cue published as prose usually changes from `AM.EmbodiedFelt` toward `AM.DocumentMediated`. That shift is not harmless; it often introduces bridge loss and should be treated as such when cross-context equivalence is claimed.
 
 #### C.2.6:13.2 - Model-latent to operator-loop case
-A latent probe score may first be `AM.ModelLatent`, then later feed an operator-facing alert face where the working publication becomes `AM.OperatorLoop`. A conforming account should keep both anchoring modes visible rather than pretending the later publication wording fully captures the model-side cue.
+A latent probe score may first be `AM.ModelLatent`, then feed an operator-facing alert face where the working publication becomes `AM.OperatorLoop`. A conforming account should keep both anchoring modes visible rather than pretending the downstream publication wording fully captures the model-side cue.
 
 #### C.2.6:13.3 - Mixed-mode publication
 An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. But the mix must be named explicitly rather than used as a catch-all escape.
@@ -138,7 +144,7 @@ When declaring anchoring mode, ask:
 - if multiple modes matter, which ones and why?
 
 #### C.2.6:14.2 - Review prompt
-A reviewer should watch for the common mistake where later prose formatting tricks authors into forgetting the original anchoring mode.
+An assurance reader should watch for the common mistake where prose formatting tricks authors into forgetting the original anchoring mode.
 
 #### C.2.6:14.3 - Bridge note
 If anchoring changes across publication or translation, `F.9` and `F.9.1` should often carry explicit loss or stance notes rather than silent equivalence language.
@@ -166,7 +172,7 @@ A publishable `U.LanguageStateAnchoringMode` claim should normally identify:
 This is especially important when the final wording is prose, because prose often hides the anchoring regime.
 
 #### C.2.6:16.2 - Source-versus-face rule
-Distinguish the anchoring mode of the source cue from the anchoring mode of the current publication face. A bodily cue later written into a document may still require `AM.EmbodiedFelt` as source mode and `AM.DocumentMediated` as publication face.
+Distinguish the anchoring mode of the source cue from the anchoring mode of the current publication face. A bodily cue written into a document may still require `AM.EmbodiedFelt` as source mode and `AM.DocumentMediated` as publication face.
 
 #### C.2.6:16.3 - Mixed-mode decomposition rule
 `AM.Mixed` is admissible only when its component modes are named and the reason for the mixture is operationally real. It must not become a convenience label for an episteme that has not yet been analyzed.
@@ -185,7 +191,7 @@ Two cues may be paraphrased into the same sentence while remaining differently a
 ### C.2.6:18 - Review Matrix and Extension Tests
 
 #### C.2.6:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - what the original anchoring regime was;
 - what the current publication regime is;

@@ -6,12 +6,12 @@ section_id: "A.19.CPM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__007_archetypal-grounding-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:5 — Archetypal Grounding — informative"
-line_start: 27991
-line_end: 28022
+line_start: 28632
+line_end: 28663
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,7 +29,7 @@ keywords:
 
 Think of CPM as an **auditable relation‑builder**:
 
-* Input: “two admitted profiles + an explicit comparator spec + declared legality/evidence surfaces”
+* Input: "two admitted profiles + an explicit comparator spec + declared admissibility/evidence surfaces"
 * Output: “a **set‑valued** relation outcome that preserves incomparability and uncertainty”
 
 The key didactic boundary is: **CPM compares; it does not decide.**

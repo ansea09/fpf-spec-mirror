@@ -6,12 +6,12 @@ section_id: "E.17.AUD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:3 — Forces"
-line_start: 66027
-line_end: 66036
+line_start: 68666
+line_end: 68675
 dependencies:
   - "A.10"
   - "A.15"

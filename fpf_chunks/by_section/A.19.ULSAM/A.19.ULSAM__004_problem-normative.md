@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:2"
 section_title: "Problem (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__004_problem-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:2 — Problem (normative)"
-line_start: 27580
-line_end: 27590
+line_start: 28221
+line_end: 28231
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -33,7 +33,7 @@ keywords:
 
 How do we define an aggregation step that:
 1) is **explicit** (separate from scoring/comparison/selection),
-2) is **scale-lawful** and legality-gated (`CSLC` + `CG‑Spec.SCP`),
+2) is **scale-lawful** and admissibility-gated (`CSLC` + `CG-Spec.SCP`),
 3) is **Γ‑fold-policy-bound** (`CG‑Spec.Γ_fold` or explicit override),
 4) is **evidence-gated** with tri‑state guards (no `unknown → 0/false` coercions),
 5) is **auditable** (editions, effective fold, contributor surface),

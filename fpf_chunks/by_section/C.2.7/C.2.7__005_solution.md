@@ -6,12 +6,12 @@ section_id: "C.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:4 — Solution"
-line_start: 37987
-line_end: 38020
+line_start: 39306
+line_end: 39339
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,9 +41,9 @@ keywords:
 
 A Context may publish a local alias such as `EncodingBasis`, but it shall dock back to the underlying factor bundle instead of replacing it.
 
-#### C.2.7:4.0a - E.24.UK settlement
+#### C.2.7:4.0a - Kind and factor-bundle boundary
 
-`U.LanguageStateRepresentationFactorBundle` is retained as a dependent durable factor-bundle value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the bundle of representation factors used for governed episteme publication positions. Individual factors, aliases, dashboards, model probes, or publication forms do not become separate U-kinds unless another governing pattern admits them.
+`U.LanguageStateRepresentationFactorBundle` is a dependent durable factor-bundle value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the bundle of representation factors used for governed episteme publication positions. Individual factors, aliases, dashboards, model probes, or publication forms do not become separate U-kinds unless another governing pattern admits them.
 
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |

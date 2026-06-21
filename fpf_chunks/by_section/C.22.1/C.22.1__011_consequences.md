@@ -6,12 +6,12 @@ section_id: "C.22.1:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__011_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:10 — Consequences"
-line_start: 44551
-line_end: 44556
+line_start: 46139
+line_end: 46144
 dependencies:
   - "A.15"
   - "C.19.1"

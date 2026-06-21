@@ -6,12 +6,12 @@ section_id: "C.16.P:6a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__009_refresh-and-reopen-conditions.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6a — Refresh and reopen conditions"
-line_start: 41645
-line_end: 41656
+line_start: 43133
+line_end: 43144
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,10 +44,10 @@ keywords:
 Reopen or narrow `C.16.P` when current pattern-language ecology changes the first characteristic and scale entry:
 
 - a new characteristic named by value, scale, evaluation, benchmark, proxy or indicator, gate or decision, mathematical-lens, quality, OEE, NQD, or publication pattern can receive one row directly;
-- current best-known practice changes comparability, proxy-risk, threshold, measurement, scoring-method, or benchmark-harness discipline adopted in `C.16.P:8`;
+- current best-known practice changes comparability, proxy-risk, threshold, measurement, scoring-method, or benchmark-harness discipline adopted in the SoTA-Echoing section;
 - README, ToC, `E.11`, retrieval, or local Problem-frame entry cues change the first practical entry for hidden characteristic and scale wording;
 - a governing pattern starts copying first-stage `metric`, `score`, `axis`, `strong`, or `indicator` trigger lists that belong here;
 - `C.16.P` begins to act as a metrics catalog, maturity scheme, or CHR super-pattern rather than a wording-use repair pattern for hidden construction.
 
-The refresh action is to remove, narrow, or reassign the first-stage row. It is not to preserve old routing language as history.
+The refresh action is to remove, narrow, or reassign the first-stage row. It is not to preserve stale routing language as history.
 

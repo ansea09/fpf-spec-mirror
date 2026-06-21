@@ -6,12 +6,12 @@ section_id: "B.5.2.1:7"
 section_title: "Cognitive Load & Kernel Growth Budget"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__009_cognitive-load-kernel-growth-budget.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:7 — Cognitive Load & Kernel Growth Budget"
-line_start: 34470
-line_end: 34481
+line_start: 35743
+line_end: 35754
 dependencies:
   - "A.17"
   - "A.18"

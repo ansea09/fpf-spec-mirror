@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:12"
 section_title: "Builds on / Relates to"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__014_builds-on-relates-to.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:12 — Builds on / Relates to"
-line_start: 27776
-line_end: 27790
+line_start: 28417
+line_end: 28431
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -35,7 +35,7 @@ keywords:
 - `A.6.1` (`U.Mechanism.Intension` shape; `U.MechAuthoring`; CC‑UM discipline).
 - `A.6.5` (slot discipline; SlotIndex as a projection).
 - `A.19.CHR` (CHR suite boundary; stage `fold_Γ?`; CHR SlotKind Lexicon).
-- `G.0` (`CG‑Spec.Γ_fold`, `CG‑Spec.SCP`, `CG‑Spec.MinimalEvidence`; legality gate).
+- `G.0` (`CG-Spec.Γ_fold`, `CG-Spec.SCP`, `CG-Spec.MinimalEvidence`; admissibility gate).
 - `A.18` (CSLC).
 - `B.3` (Γ‑fold defaults for `R_eff`, including WLNK; trust skeleton).
 

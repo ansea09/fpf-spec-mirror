@@ -6,12 +6,12 @@ section_id: "B.1.5:6"
 section_title: "Method Interface Standard (MIC) — template & examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__007_method-interface-standard-mic-template-examples.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:6 — Method Interface Standard (MIC) — template & examples"
-line_start: 31056
-line_end: 31110
+line_start: 31680
+line_end: 31734
 dependencies:
   - "A.12"
   - "A.14"

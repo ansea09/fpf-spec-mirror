@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 5881
-line_end: 5917
+line_start: 6042
+line_end: 6078
 dependencies:
   - "A.15"
   - "A.2"
@@ -29,13 +29,13 @@ keywords:
 
 ### A.3:7 - Conformance Checklist (normative)
 
-**CC‑A3‑0 - U.RoleAssgnment presence.**
+**CC‑A3‑0 - U.RoleAssignment presence.**
 Every claim that a holon “performs a transformation” MUST be backed by at least one **RoleAssignment** triple:
 `U.RoleAssignment(holder: U.Holon, role: U.Role=TransformerRole, context: U.BoundedContext, timespan?)`.
 This is the canonical way to say *who acts, in which role, where (semantically), and when*. See **A.2.1** for the universal **`U.RoleAssignment`** Standard and its invariants.
 
 **CC‑A3‑1 - External transformer discipline.**
-The **bearer** of `TransformerRole` MUST NOT be the same model instance as the **object‑under‑change** within the same assignment. Self-modification is modelled via two **`U.RoleAssignment`s** (same holder playing two roles) or via an explicit controller–plant split. This upholds **Agent Externalization** (A.12).
+The **bearer** of `TransformerRole` MUST NOT be the same model instance as the **object-under-change** within the same assignment. Self-modification is modelled via two **`U.RoleAssignment`s** (same holder playing two roles) or via an explicit controller-plant split. This upholds **acting-side externalization** (A.12).
 
 **CC‑A3‑2 - Design–Run separation.**
 `U.MethodDescription` (recipe, definition) is a design-time `U.Episteme`; `U.Method` (mask-of-work) and `U.Work` (executed work) are run-time kinds. It is non-conformant to mutate a `MethodDescription` inside a `Work` log or to treat a `Work` as a `MethodDescription`. This enforces the kernel’s **Temporal Duality** (A.4) and the A.15 alignment.

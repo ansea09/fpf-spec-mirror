@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6"
 pattern_title: "Signature Stack & Boundary Discipline"
 section_id: "A.6:11"
-section_title: "SoTA‑Echoing (post‑2015 practice alignment)"
+section_title: "SoTA-Echoing (post-2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__012_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
-  - "A.6:11 — SoTA‑Echoing (post‑2015 practice alignment)"
-line_start: 8318
-line_end: 8338
+  - "A.6:11 — SoTA-Echoing (post-2015 practice alignment)"
+line_start: 8492
+line_end: 8512
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
   - "“MUST” appears inside Definition: blocks"
 ---
 
-### A.6:11 - SoTA‑Echoing (post‑2015 practice alignment)
+### A.6:11 - SoTA-Echoing (post-2015 practice alignment)
 
 > **Informative.** Alignment notes; not normative requirements.
 
@@ -88,5 +88,5 @@ keywords:
 * **Adapt — Zero Trust, dynamic authorization, and policy-as-code practice.** Current authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice references for this split: the wording is not the decision. A.6 keeps policy, API, or schema wording in classified `L-*`, `A-*`, `D-*`, and `E-*` claims and returns work use or reliance use to `A.15` rather than letting "allowed" or "authorized" wording decide by itself.
 * **Adopt, adapt, and reject stance for authority-looking boundary wording.** A.6 adopts policy-as-code separation of policy text from evaluated decision, adapts credential, register-backed status, provenance, and attestation practice as source, evidence, and currentness support rather than as the `L/A/D/E` split itself, and rejects visible wording, schema cues, credential displays, register excerpts, or provenance labels as permission, gate passage, work occurrence, evidence, or assurance by themselves.
 
-* **Adapt — Markov blankets / active inference as probabilistic boundary views.** Markov‑blanket thinking can help pick observables and diagnose “boundary leaks”, but it does not replace deontics, invariants, or admissibility gates; therefore it is a complementary *view* under a viewpoint, not the primary boundary-description object.
+* **Adapt — Markov blankets and active inference as probabilistic boundary views only after restoration.** Markov-blanket thinking can help pick observables and diagnose boundary-condition failures, but the source phrase must be restored before it carries an A.6 boundary claim. It may name accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or crossing relation, an interface, an interface module, a physical component, a boundary description, or an agency-threshold claim. A.6 uses the phrase only after the boundary claim set is recovered; it does not replace deontics, invariants, admissibility gates, or the direct owner of the physical or mathematical claim.
 

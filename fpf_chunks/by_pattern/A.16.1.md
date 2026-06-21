@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
-line_start: 22732
-line_end: 23020
+line_start: 23318
+line_end: 23612
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,27 +43,33 @@ keywords:
 
 **Plain-name.** Pre-articulation cue pack.
 
+**Use this when.** Use this pattern when the first honest publication is a preserve-worthy cue nucleus that should remain visible before it becomes a claim, selected route, method, work record, anomaly statement, or endpoint-governed publication.
+
+**What goes wrong if missed.** Early cues either vanish, become vague "signals", or get promoted too soon into route decisions, claims, evaluations, methods, invitations, or work records.
+
+**What this buys.** One admissible preservation form for low-articulation but meaningful cue content, with enough witness, anchor, and route-candidate discipline for later successor publication without pretending the endpoint already exists.
+
 **Start here when.** Your first honest content is a preserve-worthy cue nucleus that should not yet be forced into a claim, route decision, method, or work record.
 
 **First output.** One `U.PreArticulationCuePack` with an explicit cue nucleus, preservation rationale, primary witness or anchor when one is load-bearing, and any early lane candidates or route-candidate hints that are already visible.
 
 **Typical next governing patterns.** `B.4.1` when route plurality or route authority becomes publishable, `B.5.2.0` for cue-derived abductive prompting, `A.6.P`, `A.6.A`, or `C.16.Q` once endpoint articulation threshold is actually met, and `A.16.2` when reopening or retirement becomes the truthful move.
 
-**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the governing pattern and its named publication form; if backoff or retirement is the active problem pressure, use `A.16.2`.
+**Common neighboring-pattern mistakes.** Do not publish a cue pack as a selected-route decision, anomaly statement, evaluative ascription, `A.6.A`-governed invitation, or work record; if route authority is already explicit, use `B.4.1`; if endpoint semantics are already stable, apply the governing pattern and its named publication form; if backoff or retirement is the active problem, use `A.16.2`.
 
 ### A.16.1:1 - Problem frame
-Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method work, or endpoint governance through governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
+Early governed `U.Episteme` publications can be worth preserving before route publication, prompt publication, relation repair, evaluative repair, `A.6.A`-governed invitation repair, method, work, or endpoint governance through governing patterns. `U.PreArticulationCuePack` therefore exists as the earliest durable seam publication form for such pre-threshold cue content.
 
 The cue pack is deliberately earlier than `RoutedCueSet`. It may carry early directional hints, but it is not yet the governing form for route selection, route authority, or route rationale.
 
 ### A.16.1:2 - Problem
-Without an explicit cue-pack publication form, such epistemes either disappear, are prematurely forced into `AnomalyStatement` or `Characteristic`, or leak into prose as vague cue or signal language, loose evaluative talk, fit-talk, premature work-possibility pressure, or premature reliance-possibility pressure.
+Without an explicit cue-pack publication form, such epistemes either disappear, are prematurely forced into `AnomalyStatement` or `Characteristic`, or leak into prose as vague cue or signal language, loose evaluative talk, fit-talk, premature work-possibility claim, or premature reliance-possibility claim.
 
 ### A.16.1:3 - Forces
 | Force | Tension |
 |---|---|
 | **Low-articulation shape vs publishability** | Preserve early cues without pretending they are already late `U.EpistemePublication` forms governed by endpoint patterns. |
-| **Pre-route preservation vs later routing** | Let cue preservation stand independently before route publication is justified. |
+| **Pre-route preservation vs later `B.4.1` publication** | Let cue preservation stand independently before route publication is justified. |
 | **Carrier awareness vs stack duplication** | Respect traces, bodies, and model states without creating a second carrier stack beside `A.7`. |
 | **Plurality vs auditability** | Allow several plausible continuations without collapsing the cue pack into a route record. |
 
@@ -105,7 +111,7 @@ A conforming cue pack may publish:
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** selected route, route rationale, or route authority state. Those belong to `RoutedCueSet` under `B.4.1`.
 
-The cue pack governs none of the facets it references. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly support `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
+The cue pack governs none of the facets it references. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
 In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains evidence, not yet a cue.
 
@@ -164,7 +170,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - **Cue as carrier zoo.** Do not make `U.PreArticulationCuePack` a replacement for `A.7` carrier discipline.
 
 ### A.16.1:9 - Consequences
-The benefit is an admissible preservation form for early cues and a cleaner seam into routing and endpoint governing patterns. The trade-off is one more explicit publication form that must be named and maintained.
+The benefit is an admissible preservation form for early cues and a cleaner seam into `B.4.1` route publication and endpoint governing patterns. The trade-off is one more explicit publication form that must be named and maintained.
 
 ### A.16.1:10 - Rationale
 `U.PreArticulationCuePack` is the earliest durable seam publication in the cluster. It keeps pre-threshold cues visible before route selection and without overloading `A.6.P`, `B.4.1`, or `B.5.2`.
@@ -196,7 +202,7 @@ An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored 
 #### A.16.1:13.3 - Invalid publication to reject
 It is invalid to publish a cue pack and then cite it as if it were already an anomaly statement, a routed cue set, an explanatory bundle, or a control obligation. The cue pack is only the preservation form.
 
-### A.16.1:14 - Authoring and Review Guidance
+### A.16.1:14 - Authoring and Practitioner Checks
 
 #### A.16.1:14.1 - Author prompt
 A cue pack should answer four questions:
@@ -206,8 +212,8 @@ A cue pack should answer four questions:
 - which witness or anchor currently carries the primary load?
 - which downstream directions, if any, are already visible without pretending that a route has been selected?
 
-#### A.16.1:14.2 - Review prompt
-A reviewer should check:
+#### A.16.1:14.2 - Practitioner check
+A practitioner should check:
 
 - whether the pack has a clear cue nucleus;
 - whether primary witness or primary anchor triage is explicit when needed;
@@ -219,8 +225,8 @@ The cue pack may cite traces, embodiment, and model-state refs, but it should no
 
 ### A.16.1:15 - Migration and Extension Notes
 
-#### A.16.1:15.1 - Migration from vague cue / signal language
-Older prose often says merely "there is a signal" or "something suggests a work move". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then turns the passage into a cue pack with explicit cue nucleus, primary witness or anchor, and route-candidate hints only if those hints are already visible.
+#### A.16.1:15.1 - Migration from vague cue or signal language
+Source prose often says merely "there is a signal" or "something suggests a work move". A conforming migration first asks whether the source is truly signal-like in the narrow telemetry or trace sense, or whether the load-bearing phenomenon is a broader cue nucleus, work-possibility hint, reliance-possibility hint, contrast, or figure-against-background shift. It then turns the passage into a cue pack with explicit cue nucleus, primary witness or anchor, and route-candidate hints only if those hints are already visible.
 
 #### A.16.1:15.2 - Local extension rule
 Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.
@@ -239,7 +245,7 @@ A robust cue pack should make visible:
 - the **preservation rationale**,
 - the **primary witness or primary anchor** when one is load-bearing,
 - the **candidate anchors / contrasts / exemplars** that keep the nucleus non-arbitrary,
-- the **secondary witnesses or carriers** that support it,
+- the **secondary witnesses or carriers** that corroborate or enrich it,
 - and the **lane candidates or route-candidate hints**, if such directional hints are already visible.
 
 This is what turns early cues into an admissible preservation form.
@@ -274,21 +280,21 @@ Those are not just later stages of the same text. They are different governing f
 #### A.16.1:17.3 - Multi-direction state versus lineage fork
 Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one governed publication.
 
-A fork happens only after distinct successor publications are actually issued, each with distinct authority or handoff consequences. Reviewers should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
+A fork happens only after distinct successor publications are actually issued, each with distinct authority or successor-publication consequences. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
 
 #### A.16.1:17.4 - Split and merge cases
-One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Both cases are admissible if the continuity and later route consequences are published explicitly.
+One cue pack may later split into several route-bearing continuations if its preserved cue nucleus actually contains several tensions. Several cue packs may also merge if later stabilization reveals that they were fragments of one more coherent cue complex. Both cases are admissible if the continuity and later successor-publication consequences are published explicitly.
 
-### A.16.1:18 - Worked Cue Complexes and Review Tests
+### A.16.1:18 - Worked Cue Complexes and Practitioner Tests
 
 #### A.16.1:18.1 - Mixed-source cue complex
 A cue pack may combine trace refs, embodiment refs, model-state refs, and exemplar fragments. This is admissible provided the pack still identifies what unifies those grounds into one cue nucleus rather than using the pack as an unstructured container for unrelated fragments.
 
-#### A.16.1:18.2 - Review test for under-specified packs
-A reviewer may ask: if all candidate anchors and witnesses were removed, would anything remain that justifies preserving this pack at all? If the answer is still unclear what is being preserved, the pack is under-specified and should be rewritten, retired, or not published yet.
+#### A.16.1:18.2 - Practitioner test for under-specified packs
+A practitioner may ask: if all candidate anchors and witnesses were removed, would anything remain that justifies preserving this pack at all? If the answer is still unclear what is being preserved, the pack is under-specified and should be rewritten, retired, or not published yet.
 
-#### A.16.1:18.3 - Review test for covert endpoint capture
-A reviewer should also ask whether any sentence in the pack would become false if the endpoint governing pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
+#### A.16.1:18.3 - Practitioner test for covert endpoint capture
+A practitioner should also ask whether any sentence in the pack would become false if the endpoint governing pattern and its governed publication form were denied. If yes, the cue pack is already carrying endpoint semantics and needs either an explicit move out of `A.16.1` or a rewrite back into preservation language.
 
 ### A.16.1:19 - Cue-Pack Continuation and Comparative Preservation Rule
 
@@ -304,7 +310,7 @@ Compare cue packs only when nuclei, primary witness choice, primary anchor choic
 ### A.16.1:20 - Witness and Carrier Triage
 
 #### A.16.1:20.1 - Witness priority rule
-Not all witnesses play the same role. Authors should distinguish the witness that anchors the cue nucleus from secondary witnesses that only enrich or corroborate it. Without that distinction, cue packs become hard to route because everything in the pack starts looking equally load-bearing.
+Not all witnesses play the same role. Authors should distinguish the witness that anchors the cue nucleus from secondary witnesses that only enrich or corroborate it. Without that distinction, cue packs become hard to carry into `B.4.1` route publication because everything in the pack starts looking equally load-bearing.
 
 #### A.16.1:20.2 - Carrier overload boundary
 A cue pack may cite traces, embodiment, model-state refs, or document fragments, but it should not absorb their full carrier semantics. When carrier analysis itself becomes central, `A.7` or another carrier governing pattern should be cited explicitly rather than silently embedded into the pack.
@@ -312,15 +318,15 @@ A cue pack may cite traces, embodiment, model-state refs, or document fragments,
 #### A.16.1:20.3 - Early directional plurality rule
 Plural lane candidates or plural route-candidate hints are not a flaw. If the same cue nucleus pulls toward several governing patterns, the pack should keep that plurality visible until `B.4.1` narrows it into explicit route publication. The error is not plurality; the error is hiding plurality under a single convenient gloss.
 
-### A.16.1:21 - Review Matrix and Migration Tests
+### A.16.1:21 - Practitioner Check Matrix and Migration Tests
 
-A reviewer can test a cue pack with four questions:
+A practitioner can test a cue pack with four questions:
 
 1. **What exactly is being preserved?** If the nucleus is unclear, the pack is under-specified.
 2. **Why this pack rather than a receiving governing form with a more closed state, route authority state, or endpoint authority claim?** If the answer is only habit, the pack may be redundant.
 3. **Which witness or anchor is primary?** If none can be named where triage matters, the pack may be storage rather than preservation.
-4. **Which downstream directions remain live, if any?** If the publication hides them, later routing will be distorted.
+4. **Which downstream directions remain live, if any?** If the publication hides them, later `B.4.1` route publication will be distorted.
 
-Migration from legacy signal language should therefore reconstruct not just a vague "signal", but the preserved cue nucleus, its primary witness or anchor, and any directional hints that are already honestly visible.
+Migration from loose signal language should therefore reconstruct not just a vague "signal", but the preserved cue nucleus, its primary witness or anchor, and any directional hints that are already honestly visible.
 ### A.16.1:End
 

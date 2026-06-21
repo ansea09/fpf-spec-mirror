@@ -6,12 +6,12 @@ section_id: "C.30.AD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:intro — Intro"
-line_start: 52781
-line_end: 52795
+line_start: 54400
+line_end: 54414
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD.BA"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -70,5 +71,5 @@ Keep an architecture description useful without letting the description, view, d
 
 **Builds on.** `C.30`, `C.30.ASV`, `A.1`, `A.22`, `E.24.PUB`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, and `E.10.ARCH`.
 
-**Coordinates with.** `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, `E.8`, `E.24.CD`, and `F.18`.
+**Coordinates with.** `C.30.AD.BA`, `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, `E.8`, `E.24.CD`, and `F.18`.
 

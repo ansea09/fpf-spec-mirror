@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 36658
-line_end: 36772
+line_start: 37947
+line_end: 38061
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,9 +44,9 @@ keywords:
 
 It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots are the language-state facets used in this cluster.
 
-#### C.2.2a:4.0a - E.24.UK settlement
+#### C.2.2a:4.0a - Kind and chart boundary
 
-`U.LanguageStateSpace` is retained as a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state settlement, not as a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
+`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
 
 #### C.2.2a:4.1 - Core role
 `U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
@@ -75,8 +75,8 @@ The language-state chart is coordinated by explicit facet governing patterns rat
 
 `C.2.2a` states that these basis slots together define the chart. It does **not** govern the internal scale semantics of the individual facets.
 
-#### C.2.2a:4.4 - Ontological role lanes
-Within this cluster, keep five roles distinct:
+#### C.2.2a:4.4 - Ontological slot groups
+Within this cluster, keep five slot groups distinct:
 
 - **positioned episteme publication** - the governed `U.Episteme` publication whose current position is being claimed;
 - **grounds / witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, exemplars, or contrasts that justify the current reading;
@@ -102,8 +102,8 @@ For this pattern, a position claim is reviewable when:
 - the slot values, intervals, or `ValueSet` claims are explicit enough to show where the publication stands;
 - the grounds, witnesses, or inherited pins that justify those values remain visible;
 - any threshold-bearing use states the local threshold note or the pinned threshold source it inherits;
-- and the text keeps the positioned episteme publication, publication form, publication face, and carrier in distinct role lanes.
-A polished note, a carrier with more preservation or distribution support, or a more formal face does not by itself prove a new position. The chart claim remains admissible only when those role lanes and slot claims stay visible.
+- and the text keeps the positioned episteme publication, publication form, publication face, and carrier in distinct slot groups.
+A polished note, a carrier with more preservation or distribution support, or a more formal face does not by itself prove a new position. The chart claim remains admissible only when those slot groups and slot claims stay visible.
 
 #### C.2.2a:4.6 - Non-substitution of `F`
 `F` remains one basis slot in the chart, not the whole chart.
@@ -113,7 +113,7 @@ A conforming account shall not infer:
 - closure from formality alone;
 - anchoring from publication-face format alone;
 - representation factors from articulation alone;
-- or routing legality from a lone `F` statement.
+- or routing admissibility from a lone `F` statement.
 
 Where operationally meaningful thresholds exist, they must publish on the relevant slots rather than being disguised as informal `F` sublevels.
 
@@ -125,12 +125,12 @@ A position claim in `U.LanguageStateSpace` is distinct from:
 - the current publication form,
 - the MVPK face that renders that publication,
 - the carrier that stores or displays it,
-- or the endpoint-pattern-governed publication that may later result from it.
+- or the endpoint-pattern-governed publication that may result from it.
 
 Those roles are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without collapsing it into any one bearer lane.
 
 #### C.2.2a:4.8 - Threshold publication discipline
-If a threshold is used to justify a move, a handoff, or an endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
+If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
 
 #### C.2.2a:4.9 - Comparison and bridge note
 Comparisons inside one context may use the shared chart and local thresholds. Comparisons across contexts require explicit bridge discipline. Label similarity or stage-language similarity does not establish sameness of charts, positions, or thresholds.

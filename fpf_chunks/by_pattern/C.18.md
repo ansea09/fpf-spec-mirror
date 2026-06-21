@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
-line_start: 43215
-line_end: 43325
+line_start: 44723
+line_end: 44833
 dependencies:
   - "A.1"
   - "A.15"
@@ -64,7 +64,7 @@ Without a disciplined NQD calculus, contexts (a) conflate illumination telemetry
 • Reproducibility vs. adaptivity — budgets, ε, K, and InsertionPolicy must be edition‑tracked.
 
 ### C.18:4 - Solution
-Provide Γ_nqd.* operators and U.Types for DescriptorMap, Archive/Niche, policies, and illumination telemetry summaries; bind measurement legality to MM‑CHR and policy control to E/E‑LOG. (Exports/Type notes/Operator specs below are normative parts of this Solution.)
+Provide Γ_nqd.* operators and governed values for DescriptorMap, Archive/Niche, policies, and illumination telemetry summaries; bind measurement admission to MM-CHR and policy control to E/E-LOG. (Exports, value notes, and operator specs below are normative parts of this Solution.)
 
 - Operators (Γ):
   - `Γ_nqd.generate(seed?, EmitterPolicyRef, Budget, DescriptorMapRef, QualityMeasuresRef, NoveltyMetricRef, CoverageGrid, CellCapacity K=1, EpsilonDominance ε=0, DedupThreshold?, InsertionPolicyRef?) → CandidateSet<U.Hypothesis>`

@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 55532
-line_end: 55549
+line_start: 57392
+line_end: 57409
 dependencies:
 keywords:
 ---
@@ -24,7 +24,7 @@ keywords:
 | `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
 | `C.31.ASAP` | Governs architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |
-| `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement legality. |
+| `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement admissibility. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |
 | `C.30.ILC` | Governs cross-scope residual and frustration recognition when architecture move triage is being made. |

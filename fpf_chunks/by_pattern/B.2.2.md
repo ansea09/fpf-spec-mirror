@@ -1,118 +1,292 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.2.2"
-pattern_title: "Meta-System Transition (MST)"
+pattern_title: "Meta-System Transition - System Specialization of MHT"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.2.2 — Meta-System Transition (MST)"
-line_start: 31766
-line_end: 31860
+  - "B.2.2 — Meta-System Transition - System Specialization of MHT"
+line_start: 32557
+line_end: 32809
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.12"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.19"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.22"
+  - "A.3.4"
+  - "A.6.F"
+  - "B.1.2"
   - "B.2"
-  - "B.2.1"
+  - "B.2.5"
+  - "B.3"
+  - "B.3.5"
+  - "C.13"
+  - "C.16"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.30.TFS-REL"
 keywords:
-  - "physical emergence"
-  - "super-system"
-  - "system emergence"
 ---
 
-## B.2.2 - Meta-System Transition (MST)
+## B.2.2 - Meta-System Transition - System Specialization of MHT
 
-### B.2.2:1 - **Problem Frame**
+> **Type:** Part B holonic construction pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 
-The universal pattern for emergence, **Meta-Holon Transition (MHT, Pattern B.2)**, describes how a collection of holons can become a new, coherent whole. This sub-pattern, `MST (Sys)`, details the specific case where the constituent parts are **physical or cyber-physical systems (`U.System`)**. This is the classic scenario of emergence in engineering and nature: a collection of robots forming a swarm, a group of servers becoming a self-healing cloud platform, or a set of components assembling into a functioning engine.
+### B.2.2:0 - Use This When
 
-While the general principles of MHT apply, `U.System`s have unique properties—such as physical boundaries, energy flows, and operational interfaces—that make their transitions distinct and require specific triggers and Standards.
+Use this pattern when a Meta-Holon Transition result is an acting physical or operational holon admitted as `U.System`: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another operating whole that now has system participation slots of its own.
 
-### B.2.2:2 - **Problem**
+The first useful question is not "is there emergence?" but:
 
-When a collection of systems begins to coordinate, managers and engineers face a critical decision point. If they continue to treat the aggregate as just a "bag of parts," they fall victim to several pathologies:
+```text
+Is the MHT-result whole a U.System whose delimitation, objective,
+supervision or coordination, capability envelope, role assignments,
+methods, work occurrences, transformations, functioning, evidence,
+assurance, and temporal claims must be re-declared for the result whole?
+```
 
-1.  **Reductive Blindness:** They miss emergent, system-level hazards (like cascade failures or swarm oscillations) because their analysis remains focused on individual component reliability.
-2.  **Accountability Vacuum:** There is no clear responsible role for the *collective's* behavior. When the swarm fails, who is responsible? The operator of drone A or drone B?
-3.  **Invalid Assurance Transfer:** A safety case or performance guarantee that was valid for an individual system may be silently invalidated by its interactions within the collective, but this goes unnoticed.
+Use `B.2` first to decide whether whole reidentification is needed. Use `B.2.2` only after the result-kind question points to `mhtResultSystemRef`.
 
-### B.2.2:3 - **Forces**
+**What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without system participation evidence.
+
+**What this buys.** The system MHT keeps the useful meta-system-transition intuition while preserving FPF's direct owners for system participation, architecture, capability, transformation, work, evidence, and assurance.
+
+**Not this pattern when.**
+
+- If the result whole is claim-bearing and non-agentive, use `B.2.3` and the episteme family.
+- If the evidence is only a capability or functioning gain without whole reidentification, use `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `C.30.TFS-REL`, and `A.10`.
+- If the claim is ordinary system aggregation or delimitation, use `B.1.2`, `A.1`, `A.14`, and `C.13`.
+- If the claim is a mathematical, simulation, graph, benchmark, or scaling expression, use `C.29` and the relevant description or publication pattern before returning to B.2.
+- If the claim is only supervisor-subholon feedback relation inside an already admitted system whole, use `B.2.5`.
+
+### B.2.2:1 - Problem Frame
+
+`B.2` is holon-general. `B.2.2` is its system-result specialization.
+
+A system-result MHT occurs when the result of whole reidentification is an acting physical or operational holon. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but the current claim now needs a result system with its own selected delimitation, objective, supervision or coordination, capability envelope, functioning relation, architecture claims, transformation participation, work occurrences, evidence, assurance, and temporal claims.
+
+The pattern does not say that every collection of systems is a system MHT. It says how to carry the system ontic when B.2 has already left a whole-reidentification question and the result-kind admission is `U.System`.
+
+### B.2.2:2 - Problem
+
+Without this specialization:
+
+1. **System identity stays on old parts.** The project keeps component assurance, component responsibilities, and component interfaces after the operating whole has changed.
+2. **System claims become rhetoric.** A group gets a collective name, but no result-system delimitation, objective, coordination, or capability evidence is named.
+3. **Supervision is overread.** A coordination mechanism is treated as a super-holon, safety evidence, or a complete system admission.
+4. **Transformation is confused with containment.** One system changing another holon is treated as part-whole construction instead of transformation and work.
+5. **Architecture description replaces architecture.** Dashboards, diagrams, simulations, bills, and digital twins are treated as the operating system rather than descriptions of it.
+
+### B.2.2:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Local Autonomy vs. Global Coherence** | How to allow individual systems to operate efficiently while ensuring their actions contribute to a stable and predictable collective goal. |
-| **Bottom-up Emergence vs. Top-down Design**| Is the new meta-system an unplanned, emergent phenomenon to be managed, or a deliberately designed system-of-systems to be constructed? |
-| **Performance vs. Predictability** | Tightly coupled coordination can unlock new capabilities, but it can also introduce complex, hard-to-predict failure modes. |
+| --- | --- |
+| Component assurance vs result-system assurance | Old component claims may still matter, but they do not automatically cover the new operating whole. |
+| Delimitation vs external participation | The result system needs an admitted delimitation while external acting systems, resources, and environments remain outside it. |
+| Coordination vs whole identity | Coordination can be evidence for system MHT, but coordination alone does not admit a new system whole. |
+| Capability gain vs identity change | A new capability envelope can reveal a result system, but some gains remain ordinary capability or functioning claims. |
+| System architecture vs system description | Architecture claims concern the operating whole; diagrams and records are description epistemes or publication forms. |
 
-### B.2.2:4 - **Solution**
+### B.2.2:4 - Solution
 
-An MST (Sys) is a formal promotion of an aggregate of `U.System`s to a new, single `U.System` holon. This promotion is not a subjective decision; it is a **mandatory modeling step** triggered when the aggregate demonstrably satisfies the **B-O-S-C** criteria, adapted for systems.
+After `B.2` leaves an MHT question open, admit the system-result case with a system-focused slice of the `HolonReidentificationRecord@Context`.
 
-#### B.2.2:4.1 - The B-O-S-C Triggers for Systems
+#### B.2.2:4.1 - System-Result MHT Slice
 
-The four triggers from the parent MHT pattern are interpreted in the context of physical and cyber-physical systems:
+Use this slice when `mhtResultSystemRef` is selected.
 
-| Trigger | System-Specific Interpretation | Manager's View: The "Go/No-Go" Question |
-| :--- | :--- | :--- |
-| **B - Boundary Closure**| The aggregate now exposes a single, unified **operational interface** (e.g., a single API gateway, a master control port). Internal system-to-system interactions are encapsulated and hidden from the outside world. | "Can I now operate this entire collection through a single dashboard or Standard, without having to talk to each individual part?" |
-| **O - Objective Emergence**| The collective pursues a new, measurable **operational objective** that did not exist for any individual system (e.g., maintaining a formation, maximizing fleet-wide energy efficiency, minimizing global latency). | "Is this group now working towards a shared goal that is fundamentally different from what each member was doing alone?" |
-| **S - Supervisor Emergence**| A new **control loop** appears. The collective state is measured, and this information is used to actively regulate the behavior of the individual systems to achieve the new objective. | "Is there a mechanism—whether a central brain or a distributed consensus—that is actively steering the parts to work together?" |
-| **C - Complexity Threshold** | The number and intensity of interactions between systems cross a point where reasoning about them as a whole is simpler and more predictive than tracking every pairwise interaction. | "Have we reached the point where trying to manage every individual interaction is causing more problems than it solves?" |
+```text
+SystemMHTSlice@Context:
+  existingWholeRef: U.Holon
+  mhtResultSystemRef: U.System
+  boundedContextRef:
+  selectedTriggerProfileRef: MHTTriggerProfile@Context
+  existingWholeExplanationCheckRef: ExistingWholeExplanationCheck@Context
+  systemKindAdmissionRef: A.1 or B.1.2 admission
+  resultDelimitationRelationRef:
+  resultBoundaryCrossingRelationRefs:
+  objectiveOrEvaluationRelationRef?
+  supervisionOrCoordinationRelationRef?
+  capabilityEnvelopeRef?
+  roleAssignmentRefs?
+  methodOrMechanismRefs?
+  transformationParticipationRefs?
+  workOccurrenceRefs?
+  functioningRelationRefs?
+  architectureClaimRefs?
+  evidenceOrAssuranceRefs?
+  temporalOrDynamicsRefs?
+  blockedOverreads:
+```
 
-When all four conditions are met, the collection **must be** re-identified as a new `U.System` via the `emergesAs` relation.
+This slice is not a U-kind. It is the system-result part of the B.2 record, written so that every system-dependent claim can return to its direct owner.
 
-> **Didactic Note for Managers: From "A Bunch of Drones" to "The Swarm"**
->
-> An MST is the formal moment when you stop managing a collection of individual assets and start managing a new, single capability.
->
-> *   **Before MST:** You have ten individual drones. You manage ten maintenance schedules, ten flight plans, ten risk assessments. Your primary concern is the reliability of each drone.
-> *   **After MST:** You have **one** search-and-rescue swarm. You manage **one** mission objective (e.g., "cover this area"), **one** collective health metric, and **one** set of swarm-level risks (e.g., "risk of collective oscillation").
->
-> Declaring an MST is an act of architectural honesty. It forces you to update your management, assurance, and governance models to match the new reality that has emerged.
+#### B.2.2:4.2 - System Participation Re-Basing
 
-### B.2.2:5 - **Archetypal Grounding**
+When the result is `U.System`, re-base system participation slots for the result system:
 
-| Domain | Constituent `U.System`s | Emergent Meta-System (`U.System`) | Key Trigger Evidence (B-O-S-C) |
-| :--- | :--- | :--- | :--- |
-| **Cloud Computing** | A set of independent, containerized microservices. | An **autonomous cloud platform**. | **B:** A single API gateway and control plane now mediate all external traffic. **O:** A new system-wide SLO (Service Level Objective) for end-to-end latency is enforced. **S:** A Kubernetes-like orchestrator (the supervisor) actively schedules, scales, and heals the microservices based on global metrics. **C:** The number of services exceeds a threshold where manual pairwise management is no longer feasible. |
-| **Robotics** | A group of individual, autonomous drones with local navigation rules. | A **search-and-rescue swarm**. | **B:** The swarm communicates with the operator via a single command channel. **O:** A new objective emerges: "collaboratively map and cover a designated area," which no single drone pursued. **S:** A distributed leader-election and formation-control algorithm acts as the supervisor. **C:** Swarm behavior becomes stable and predictable only above a certain number of drones (e.g., > 7). |
-| **Socio-Technical** | A group of engineers from Development, QA, and Operations working in separate silos. | A cohesive **DevOps team**. | **B:** The team now presents a single interface to the business: a unified backlog and a single "definition of done." **O:** A new collective objective appears: "reduce the cycle time from idea to deployment to less than 24 hours." **S:** The daily stand-up and CI/CD pipeline act as a supervisory feedback loop, regulating the work of all members. **C:** The complexity of coordinating the three functions separately became a bottleneck. |
+- role assignments through `A.2.1` and role-relation owners;
+- capabilities through `A.2.2` and `C.16`;
+- methods and mechanisms through `A.15`, `A.6.1`, and their current direct owners;
+- transformations through `A.3.4`;
+- work occurrences through `A.15.1`;
+- functioning and functional structure through `A.6.F` and `C.30.TFS-REL`;
+- architecture through `C.30`, `A.22`, and `C.30.ASV`;
+- evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
+- temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal owners.
 
-### B.2.2:6 - **Conformance Checklist**
+Do not reuse old component evidence as if it automatically covered the result system. Carry continuities by explicit relation; re-declare changed slots for the result system.
 
-*   **CC-B2.2.1 (Trigger Mandate):** An `emergesAs` relation for a set of `U.System`s **MUST** be justified by a **Promotion Record** (Pattern B.2) that provides evidence for all four B-O-S-C triggers.
-*   **CC-B2.2.2 (System-Holon Mandate):** Both the constituent parts and the resulting meta-system **MUST** be modeled as `U.System` holons, not as abstract `U.Episteme`s or `U.Method`s.
-*   **CC-B2.2.3 (Supervisor Mandate):** The emergent meta-system **MUST** contain an identifiable **supervisory component** or mechanism that implements the feedback loop. The architecture of this loop is further detailed in Pattern B.2.5.
-*   **CC-B2.2.4 (Boundary Inheritance):** The boundary of the new meta-system **MUST** be formally derived from the boundaries of its constituent systems, following a declared **Boundary-Inheritance Standard** (Pattern B.2.3, forthcoming).
+#### B.2.2:4.3 - System Trigger Interpretation
 
-### B.2.2:7 - **Common Anti-Patterns and How to Avoid Them**
+The B.2 trigger profile can be interpreted for systems as follows:
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It (Conceptually) |
-| :--- | :--- | :--- |
-| **The "Big Bag of Parts"** | A collection of systems is given a collective name (e.g., "The Platform"), but there is no unified interface, no shared objective, and no active coordination. | **CC-B2.2.1** requires evidence for all four B-O-S-C triggers. A simple collection without boundary closure or a supervisory loop does not qualify for MST. It remains an aggregate, not a meta-system. |
-| **The "Emergence by Fiat"** | A manager declares that a new, synergistic capability has emerged, but there is no underlying mechanism to sustain it. The "improvement" is a temporary artifact of heroic effort, not a stable property of the system. | **CC-B2.2.3** mandates the existence of an identifiable supervisor. If there is no feedback loop to maintain the new behavior, no MST has occurred. |
-| **The "Hidden God-Controller"** | A system appears to be a self-organizing swarm, but its behavior is actually dictated by a hidden, external, centralized controller that is not part of the model. | The FPF's **Transformer Principle (A.12)** and **Boundary rules (A.1)** require that all external influences are made explicit. The controller must either be modeled as part of the meta-system (and thus inside its new boundary) or as an external `Transformer`. |
+| Trigger family in `MHTTriggerProfile@Context` | System-result reading | Direct owner kept visible |
+| --- | --- | --- |
+| Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
+| Objective or evaluation change | The whole is now evaluated by a system-level objective, mission, SLO, safety case, or viability claim. | `C.16`, `E.13`, `A.10`, decision or assurance owners |
+| Supervision or coordination change | A controller, protocol, governance relation, or distributed coordination relation regulates constituent behavior for the result whole. | `B.2.5`, `A.12`, `A.3.4`, `A.15.1` |
+| Capability or closure evidence | The capability envelope belongs to the result system, not to any one constituent alone. | `A.2.2`, `C.16`, `B.2.4` when whole reidentification is current |
+| Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
+| Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal owners |
+| Context reframe | The relevant bounded context changes the operating whole under concern. | `A.1`, bounded-context owners, architecture owners |
 
-### B.2.2:8 - **Consequences**
+No single row is enough by itself. The row names evidence to inspect. B.2 decides whether the whole must be reidentified.
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Makes Emergence Manageable:** The pattern transforms emergence from a mysterious, unpredictable phenomenon into an explicit, auditable architectural event. This allows managers to assign responsibility, budget, and assurance targets to the new meta-system. | **Modeling Overhead:** Formally documenting an MST and its new Standards requires deliberate modeling effort. *Mitigation:* This effort is an investment that pays off by preventing the much higher cost of managing the risks associated with un-recognized emergence. |
-| **Enables Scalable Assurance:** By re-applying the FPF's assurance calculus at the new meta-level, the framework can provide meaningful safety and reliability guarantees for complex systems-of-systems. | - |
-| **Provides a Language for Innovation:** The pattern gives architects and strategists a formal language for designing and reasoning about adaptive, self-organizing, and resilient systems. | - |
+#### B.2.2:4.4 - Delimitation and External Acting Systems
 
-### B.2.2:9 - **Rationale**
+For system-result MHT, distinguish:
 
-This pattern provides the concrete instantiation of the universal MHT principle for the domain of systems. It is grounded in decades of research in cybernetics (Ashby's law of requisite variety), complexity science, and modern systems-of-systems engineering. By demanding evidence of **Boundary Closure**, a **Novel Objective**, and a **Supervisory Loop**, the pattern provides a robust, falsifiable filter that separates true emergence from mere aggregation.
+- a part of the result system;
+- an external acting system that changes the result system or a constituent;
+- an environment or resource that participates in work;
+- a description, dashboard, twin, model, diagram, or publication about the result system.
 
-It ensures that when we claim a system has "emergent properties," we are not making a vague, philosophical statement, but a precise, testable, architectural one. This rigor is essential for building trustworthy and manageable complex systems.
+A lathe making a workpiece, a controller steering a plant, or a teacher changing a learner does not become a super-holon merely because it changes another holon. Use `A.12`, `A.3.4`, and `A.15.1` for acting side, transformation, and work. Use part-whole owners only when parthood itself is admitted.
 
-### B.2.2:10 - **Relations**
+#### B.2.2:4.5 - Assurance Re-Basing
 
-*   **Is a specialization of:** `B.2 Meta-Holon Transition (MHT)`.
-*   **Is complemented by:** `B.2.3 MET (KD)` (for epistemic emergence).
-*   **Provides the context for:** `B.2.5 Supervisor–Subsystem Feedback Loop`, which details the architecture of the supervisory mechanism.
+When `mhtResultSystemRef` is admitted, old assurance must be tested against the result system.
+
+Ask:
+
+- Which component evidence still applies unchanged?
+- Which evidence applies only through explicit correspondence or source-use relation?
+- Which assurance claims must be rewritten for the result system?
+- Which architecture, capability, functioning, work, temporal, or evidence claims now have different owners?
+
+The result system can inherit evidence only through named relations. It does not inherit safety, reliability, responsibility, or performance claims by label.
+
+### B.2.2:5 - Archetypal Grounding (Worked Cases)
+
+#### B.2.2:5.1 - Search-And-Rescue Swarm
+
+Before MHT, the project has individual drones with local navigation and maintenance records. After MHT, the current object may be one search-and-rescue swarm if the result whole has its own mission objective, coordination relation, external command relation, capability envelope, and swarm-level risks.
+
+```text
+SystemMHTSlice@Rescue:
+  existingWholeRef: drone fleet as managed aggregate
+  mhtResultSystemRef: search-and-rescue swarm
+  resultDelimitationRelationRef: command-and-operating-area delimitation
+  supervisionOrCoordinationRelationRef: formation and coverage coordination
+  capabilityEnvelopeRef: area-search coverage under wind and battery conditions
+  evidenceOrAssuranceRefs: swarm-level test evidence, not only drone certificates
+```
+
+The old drone evidence remains relevant, but it is not enough for the swarm-level assurance claim.
+
+#### B.2.2:5.2 - Cloud Platform
+
+Independent services become a platform only if the current claim concerns a result system: a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments.
+
+If the only change is a better dashboard or one more service, use architecture-description, publication, measurement, or component owners. Use B.2.2 only when `mhtResultSystemRef` is the operating platform itself.
+
+#### B.2.2:5.3 - Production Cell
+
+A machine, robot, fixture, workpiece carrier, and inspection station can become a production cell when the cell has its own delimitation, objective, coordination, transformation structure, work occurrence evidence, and capability envelope.
+
+The fixture being manufactured is not part of the machine merely because the machine changes it. The production cell claim needs a result system; the manufacturing relation remains transformation and work.
+
+### B.2.2:5.1 - Bias-Annotation
+
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Named aggregate as system | A fleet, platform, or cell name is treated as system admission. | Require result-system delimitation, objective, coordination, capability, and evidence refs. |
+| Component evidence transfer | Component certificates are read as result-system assurance. | Re-base assurance and evidence for `mhtResultSystemRef`. |
+| Coordination as whole | A controller, protocol, or coordination relation is treated as automatic system MHT. | Keep supervision evidence visible, but require B.2 whole reidentification and system admission. |
+| Description as system | Dashboard, simulation, model, twin, or bill is treated as the operating system. | Use episteme, publication, source-use, and architecture-description owners for description objects. |
+| Transformation as containment | An external system changes a holon and is treated as its super-holon. | Use A.12, A.3.4, A.15.1, B.2.5, and part-whole owners separately. |
+
+### B.2.2:6 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
+| `CC-B2.2-2` | The result kind is admitted as `U.System` and recorded as `mhtResultSystemRef`. |
+| `CC-B2.2-3` | `SystemMHTSlice@Context` does not act; it carries refs to direct owners. |
+| `CC-B2.2-4` | Result-system delimitation and crossing relations are named without creating `U.Boundary` or `U.Interaction`. |
+| `CC-B2.2-5` | Supervision or coordination evidence is not treated as automatic system admission or safety evidence. |
+| `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
+| `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |
+| `CC-B2.2-8` | Descriptions, dashboards, simulations, and digital twins remain epistemes or publications unless the operating system itself is the EoC. |
+
+### B.2.2:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Named aggregate as system | "The platform" or "the fleet" is treated as a system because it has a name. | Recover `SystemMHTSlice@Context`; require result-system delimitation, objective, coordination, capability, and evidence refs. |
+| Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence owners. |
+| Controller as super-holon | A controller or external system is treated as the new whole because it changes the parts. | Use A.12, A.3.4, B.2.5, and part-whole owners separately. |
+| Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description owners. |
+| Capability jump as system MHT | A metric improves and the result is called a new system. | Use `ExistingWholeExplanationCheck@Context`; return to capability, characteristic, method, work, or architecture owners if sufficient. |
+
+### B.2.2:8 - Consequences
+
+Positive consequences:
+
+- Meta-system transition remains usable for engineering and organizational systems without making B.2 system-only.
+- System ontic preservation becomes explicit: system slots are re-based rather than replaced by generic whole language.
+- Assurance, responsibility, architecture, work, and evidence claims are kept with their direct owners.
+
+Costs:
+
+- A system-result MHT cannot be declared by name, diagram, dashboard, or metric jump alone.
+- Teams must separate old component evidence from result-system evidence.
+- Some apparent emergence claims return to ordinary system aggregation, capability, measurement, or architecture repair.
+
+### B.2.2:9 - Rationale
+
+Valentin Turchin's meta-system transition remains a useful intuition for the system case: components can become a higher operating whole when coordination and control create a new object of management and assurance. FPF generalizes that intuition in B.2, then uses B.2.2 to keep the classical system case precise.
+
+The key distinction is ontological, not lexical. A result system is not a trigger profile, coordination mechanism, graph, description, dashboard, or process label. It is an admitted `U.System` whose system participation slots must be available and, where changed, re-declared.
+
+### B.2.2:10 - SoTA-Echoing
+
+| Source family | Lesson for B.2.2 | FPF decision |
+| --- | --- | --- |
+| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | B.2 owns whole reidentification; B.2.2 specializes it for `mhtResultSystemRef`. |
+| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the result-system level. | B.2.2 requires result-system slot re-basing rather than component evidence transfer. |
+| Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate owners. |
+| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Dashboards, models, twins, and publications use episteme and description owners unless the operating system is recovered as EoC. |
+
+### B.2.2:11 - Relations
+
+- **Specializes:** `B.2` for MHT-result holons admitted as `U.System`.
+- **Builds on:** `A.1`, `B.1.2`, `A.14`, and `C.13` for holon and system delimitation and part-whole grounding.
+- **Coordinates with:** `A.12`, `A.3.4`, `A.15`, `A.15.1`, `A.2.1`, `A.2.2`, `C.16`, `A.6.F`, `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `A.10`, `B.3`, and `B.3.5`.
+- **Uses:** `B.2.5` when supervisor-subholon feedback relation is part of the system-result evidence.
+- **Contrasts with:** `B.2.3` for MHT-result holons admitted as `U.Episteme` and `B.2.4` for capability and functioning whole-reidentification evidence.
 
 ### B.2.2:End
 

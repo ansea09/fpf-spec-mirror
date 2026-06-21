@@ -6,12 +6,12 @@ section_id: "A.19.UNM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:12 — Relations"
-line_start: 26882
-line_end: 26900
+line_start: 27523
+line_end: 27541
 dependencies:
 keywords:
   - "CV→NCV"
@@ -36,7 +36,7 @@ keywords:
 - `A.19.CHR` (CHR suite boundary; slot lexicon; suite protocols)
 - `A.19.CN` (CN_Spec normalization + comparability routing)
 - `C.16` (MM‑CHR evidence/calibration carriers)
-- `G.0` (CG-frame legality gates used downstream)
+- `G.0` (CG-frame admissibility gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
 - `B.3` (congruence/quotient intuition, when referenced)

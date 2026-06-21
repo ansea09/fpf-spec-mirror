@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__011_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:10 — Rationale"
-line_start: 56205
-line_end: 56210
+line_start: 58065
+line_end: 58070
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,5 +51,5 @@ keywords:
 
 C.31.ASAP is added because `C.31` and `C.31.RSA` can expose scale-sensitive characteristics and reusable-structure residue, but they should not themselves decide which architecture alternative is preferable under scale. C.31.ASAP governs this architecture scale-preference claim family; it is narrower than general BLP and broader than one measurement card.
 
-The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, legality, and assurance boundaries are comparable. It also blocks the common shortcut that treats modularity, reuse, platform practice, or mathematical coarse-graining as scale-preference evidence by itself.
+The pattern adapts BLP-style scale-amenability to architecture: prefer the alternative that preserves or improves reusable structure over a declared scale window when safety, law-domain, and assurance boundaries are comparable. It also blocks the common shortcut that treats modularity, reuse, platform practice, or mathematical coarse-graining as scale-preference evidence by itself.
 

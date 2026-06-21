@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
-line_start: 69927
-line_end: 70397
+line_start: 72593
+line_end: 73062
 dependencies:
   - "A.15"
   - "A.19.ECS"
@@ -408,7 +408,7 @@ The same test applies to any draft-only locus. If the label has no current gover
 | `E.10.ARCH` | wording-use restoration architecture that uses existing subject ontology before sending wording symptoms to the governing precision-restoration pattern | `E.24:4.1`, `E.24:4.5`, `E.24:5.2`, `E.24:7` | Lower if a local use frame is treated as a durable ontic or if a wording trigger alone creates a new ontology unit. |
 | `F.18` | durable naming after ontology is settled | `E.24:4.4`, `E.24:6`, `E.24:7` | Lower if a new name substitutes for identity, slot, and dependent-pattern settlement. |
 
-#### E.24:5.6 - Bias-Annotation
+### E.24:5.6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
 Scope: the authoring decision for a durable ontic, direct governing-pattern use, or local use frame, not the subject matter governed by the resulting pattern.
@@ -423,7 +423,50 @@ This pattern intentionally biases toward explicit identity, typed slots, and gov
 
 The mitigation is the same in each case: recover the primary `EntityOfConcern`, stable identity, typed slot relation, selected `semanticArea`, selected `ontologicalNeighborhood`, and governing-pattern reuse before naming, placement, dependent pattern reliance, or publication form starts governing the decision.
 
-#### E.24:5.7 - Rationale
+### E.24:6 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-E24-1` | The authoring decision names the primary `EntityOfConcern`, bounded context, and current claim before proposing a durable ontic. |
+| `CC-E24-2` | Existing governing patterns are checked by value before a new ontic is selected. |
+| `CC-E24-3` | A durable ontic publishes stable identity criteria and says what does and does not change identity. |
+| `CC-E24-4` | A durable `onticSlotRelation` names SlotKinds, ValueKinds, RefKinds, relation set, species or record forms, non-slot components, description boundary, and publication boundary. |
+| `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their governing pattern. |
+| `CC-E24-5` | The decision declares the selected `ontic` components by value: `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `onticSlotRelation`, selected `ontologicalNeighborhood`, pattern nest, and dependent-pattern obligations, without treating any of them as synonyms. |
+| `CC-E24-5a` | The pattern keeps ontic root identity, type-level `onticSlotRelation`, filled value assignment or ordinary-use core, description episteme, publication form, and neighboring relation references distinct; a filled core or neighbor list is not treated as a second ontology. |
+| `CC-E24-6` | Draft-only loci are marked non-governing until a current governing pattern is written or a bounded local frame states the claims it carries and does not carry by value. |
+| `CC-E24-7` | A local use frame is explicitly non-`U.*`, non-ontic, and points typed values to their governing patterns. |
+| `CC-E24-8` | The selected name passes `F.18`; the name does not hide a second ontology or one umbrella for several kinds. |
+| `CC-E24-8a` | Durable `U.*` names, reusable SlotKind heads, species or record-form names, public ids, Core-facing heads, and cross-context labels use `F.18`; `F.17 UTS` and Name Card material is opened only when that name becomes public, Core-facing, or cross-context, and never replaces `A.6.5` SlotSpec discipline. |
+| `CC-E24-8b` | A `U.*` spelling, type or kind wording, structural heading, title, filename, or ToC row that claims U-kind force is governed by `E.24.UK` before naming patterns are asked to choose or keep a public term. |
+| `CC-E24-9` | Pattern-quality and DRR-adequacy checks stay in `E.21` and `E.9.DA`; they are not copied as user-facing ontic or subject-matter content. |
+| `CC-E24-10` | Dependent patterns state how they rely on the head ontic or local use frame without duplicating the whole slot relation. |
+| `CC-E24-11` | Slot-position labels, including role-like labels, method-like labels, mechanism-like labels, temporal labels, source labels, and publication labels, do not create alternate ontology; `U.Role` is not a SlotKind, SlotKind is not a role, and role participation uses a slot-disciplined `U.RoleAssignment` only when `A.2`, `A.2.1`, and `A.15` role-governing patterns govern the case. |
+| `CC-E24-12` | Ontic slot talk uses slot-language (`onticSlotRelation`, `SlotSpec`, `SlotKind`, `ValueKind`, `RefKind`, slot discipline, slot boundary, relation boundary); `interface` is used only when a governing boundary, module, signature, mechanism, or architecture pattern makes interface meaning current. |
+| `CC-E24-13` | Source-ontology annotation is proportional: decision-changing kind, slot, relation, admissible-use, and governing-pattern differences are recovered, while stable domain prose is not expanded into type labels. |
+| `CC-E24-14` | When candidate detection, publication-form discipline, or contested evaluation is current, apply `E.24.CD`, `E.24.PUB`, or `A.19.ECS` respectively; E.24 itself stays centered on `U.Ontic` identity, slot relation, semantic area, ontological neighborhood, and dependent-pattern obligations. |
+
+### E.24:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Shadow-kind by repetition | The same local record appears in several patterns and starts being cited as an object. | Apply E.24; either write a durable ontic pattern or lower the construct to a local use frame. |
+| Draft locus as authority | A ToC row is cited as if it supplied current governing text. | Treat it as investigation cue only; use current governing patterns until the pattern exists. |
+| Slot list without identity | A pattern lists fields but never says what identifies the ontic. | Add stable identity criteria or lower the construct to a local use frame. |
+| Pattern nest as ontology | The numbering area is treated as the semantic unit. | Declare `semanticArea`, `ontologicalNeighborhood`, and primary `EntityOfConcern` separately. |
+| New name as solution | The repair invents a smoother term while the typed values remain mixed. | Recover kinds, slots, semantic area, and ontological neighborhood first; name only after the ontology is settled. |
+| Slot-position kind inflation | A role-like, method-like, temporal, source, or publication position receives a fresh kind name only because it occupies a slot. | Keep the value's kind under its governing pattern and record the slot position separately. |
+| Interface metaphor for slots | A slot relation, SlotSpec, relation position, or filler constraint is called an interface only because that word feels familiar. | Rename to the slot-language term unless a governing boundary/interface pattern makes interface meaning current. |
+| Typed paraphrase overload | A readable subject sentence is rewritten as a full chain of kinds, slots, and source-ontology labels without changing the claim. | Keep the subject sentence and annotate only the decision-changing slot or value under decision. |
+
+### E.24:9 - Consequences
+
+- FPF can introduce rich ontology units without letting every local use frame become a new ontology.
+- Draft-only loci stop acting like current governing patterns.
+- Dependent patterns get a stable slot relation when a durable ontic is selected.
+- The cost is a short ontic-introduction decision before writing or relying on a durable ontic.
+
+### E.24:5.7 - Rationale
 
 FPF needs a pattern for ontic introduction because many important FPF ontology units are not one term, one field, one taxonomy branch, or one U-kind. They are small typed slot relations with identity criteria, slots, admissible values, record or publication species, dependent patterns, and action-facing use boundaries.
 
@@ -439,7 +482,7 @@ Without E.24, FPF ontology development oscillates between two bad moves. One mov
 
 The pattern is deliberately about the introduction decision. It does not define every ontic and does not become a registry of system, episteme, method, mechanism, architecture, source, quality, temporal, dynamics, or change objects. Each accepted subject matter still needs its own governing pattern or accepted local frame.
 
-#### E.24:5.8 - SoTA-Echoing and Currentness
+### E.24:5.8 - SoTA-Echoing
 
 E.24 does not claim to replace ontology engineering, OWL-style formal ontology, or UFO-style foundational ontology. Its governing reason is the current FPF need for action-facing ontology compactness, plus a narrow SoTA echo:
 
@@ -467,55 +510,11 @@ Treat E.24 as current for ontic-introduction decisions only while the current FP
 
 Lower the decision before use when E.24 cannot decide among durable ontic, local use frame, existing governing-pattern use, quote-only source label, or reduced-use source label. A failed decision is not resolved by adding more fields; it is resolved by returning to `E.24:4.1` and settling which object, slot relation, semantic area, ontological neighborhood, and governing patterns actually govern the decision.
 
-### E.24:6 - Conformance Checklist
-
-| Check | Requirement |
-| --- | --- |
-| `CC-E24-1` | The authoring decision names the primary `EntityOfConcern`, bounded context, and current claim before proposing a durable ontic. |
-| `CC-E24-2` | Existing governing patterns are checked by value before a new ontic is selected. |
-| `CC-E24-3` | A durable ontic publishes stable identity criteria and says what does and does not change identity. |
-| `CC-E24-4` | A durable `onticSlotRelation` names SlotKinds, ValueKinds, RefKinds, relation set, species or record forms, non-slot components, description boundary, and publication boundary. |
-| `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their governing pattern. |
-| `CC-E24-5` | The decision declares the selected `ontic` components by value: `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, `onticSlotRelation`, selected `ontologicalNeighborhood`, pattern nest, and dependent-pattern obligations, without treating any of them as synonyms. |
-| `CC-E24-5a` | The pattern keeps ontic root identity, type-level `onticSlotRelation`, filled value assignment or ordinary-use core, description episteme, publication form, and neighboring relation references distinct; a filled core or neighbor list is not treated as a second ontology. |
-| `CC-E24-6` | Draft-only loci are marked non-governing until a current governing pattern is written or a bounded local frame states the claims it carries and does not carry by value. |
-| `CC-E24-7` | A local use frame is explicitly non-`U.*`, non-ontic, and points typed values to their governing patterns. |
-| `CC-E24-8` | The selected name passes `F.18`; the name does not hide a second ontology or one umbrella for several kinds. |
-| `CC-E24-8a` | Durable `U.*` names, reusable SlotKind heads, species or record-form names, public ids, Core-facing heads, and cross-context labels use `F.18`; `F.17 UTS` and Name Card material is opened only when that name becomes public, Core-facing, or cross-context, and never replaces `A.6.5` SlotSpec discipline. |
-| `CC-E24-8b` | A `U.*` spelling, type or kind wording, structural heading, title, filename, or ToC row that claims U-kind force is governed by `E.24.UK` before naming patterns are asked to choose or keep a public term. |
-| `CC-E24-9` | Pattern-quality and DRR-adequacy checks stay in `E.21` and `E.9.DA`; they are not copied as user-facing ontic or subject-matter content. |
-| `CC-E24-10` | Dependent patterns state how they rely on the head ontic or local use frame without duplicating the whole slot relation. |
-| `CC-E24-11` | Slot-position labels, including role-like labels, method-like labels, mechanism-like labels, temporal labels, source labels, and publication labels, do not create alternate ontology; `U.Role` is not a SlotKind, SlotKind is not a role, and role participation uses a slot-disciplined `U.RoleAssignment` only when `A.2`, `A.2.1`, and `A.15` role-governing patterns govern the case. |
-| `CC-E24-12` | Ontic slot talk uses slot-language (`onticSlotRelation`, `SlotSpec`, `SlotKind`, `ValueKind`, `RefKind`, slot discipline, slot boundary, relation boundary); `interface` is used only when a governing boundary, module, signature, mechanism, or architecture pattern makes interface meaning current. |
-| `CC-E24-13` | Source-ontology annotation is proportional: decision-changing kind, slot, relation, admissible-use, and governing-pattern differences are recovered, while stable domain prose is not expanded into type labels. |
-| `CC-E24-14` | When candidate detection, publication-form discipline, or contested evaluation is current, apply `E.24.CD`, `E.24.PUB`, or `A.19.ECS` respectively; E.24 itself stays centered on `U.Ontic` identity, slot relation, semantic area, ontological neighborhood, and dependent-pattern obligations. |
-
-
-### E.24:7 - Common Anti-Patterns
-
-| Anti-pattern | Symptom | Repair |
-| --- | --- | --- |
-| Shadow-kind by repetition | The same local record appears in several patterns and starts being cited as an object. | Apply E.24; either write a durable ontic pattern or lower the construct to a local use frame. |
-| Draft locus as authority | A ToC row is cited as if it supplied current governing text. | Treat it as investigation cue only; use current governing patterns until the pattern exists. |
-| Slot list without identity | A pattern lists fields but never says what identifies the ontic. | Add stable identity criteria or lower the construct to a local use frame. |
-| Pattern nest as ontology | The numbering area is treated as the semantic unit. | Declare `semanticArea`, `ontologicalNeighborhood`, and primary `EntityOfConcern` separately. |
-| New name as solution | The repair invents a smoother term while the typed values remain mixed. | Recover kinds, slots, semantic area, and ontological neighborhood first; name only after the ontology is settled. |
-| Slot-position kind inflation | A role-like, method-like, temporal, source, or publication position receives a fresh kind name only because it occupies a slot. | Keep the value's kind under its governing pattern and record the slot position separately. |
-| Interface metaphor for slots | A slot relation, SlotSpec, relation position, or filler constraint is called an interface only because that word feels familiar. | Rename to the slot-language term unless a governing boundary/interface pattern makes interface meaning current. |
-| Typed paraphrase overload | A readable subject sentence is rewritten as a full chain of kinds, slots, and source-ontology labels without changing the claim. | Keep the subject sentence and annotate only the decision-changing slot or value under decision. |
-
 ### E.24:8 - Relations
 
 - **Builds on:** `E.8`, `E.9`, `E.9.DA`, `E.10`, `E.10.ARCH`, `E.20`, `E.21`, `F.18`, `A.6.5`, `C.2.1`, `E.24.CD`, and `E.24.PUB`.
 - **Coordinates with:** `E.24.UK` for durable U-kind admission and structural-name U-kind settlement; `C.29` when the mathematical lens itself is current; `E.14`, `B.3.5`, and `C.13` for structural constructive grounding; governing patterns that describe durable ontics or their filled values, especially `C.2.1` for epistemes; `A.2`, `A.2.1`, `A.2.2`, and `A.15` for role participation, role assignment, capability, and role-method-work alignment; `A.6.1` and `E.20` for mechanisms; `A.3.1` and `A.3.2` for method and method description; `A.3.4`, `E.18`, and `C.27.TA` for transformation, transformation-flow, and temporal-aspect examples; and precision-restoration patterns such as `C.2.P`, `C.2.P.DR`, and `C.30.STRAT`.
 - **Used by:** DRRs and pattern authors when repeated slot-relation-shaped material is being considered as either a durable ontic or a local use frame.
-
-### E.24:9 - Consequences
-
-- FPF can introduce rich ontology units without letting every local use frame become a new ontology.
-- Draft-only loci stop acting like current governing patterns.
-- Dependent patterns get a stable slot relation when a durable ontic is selected.
-- The cost is a short ontic-introduction decision before writing or relying on a durable ontic.
 
 ### E.24:End
 

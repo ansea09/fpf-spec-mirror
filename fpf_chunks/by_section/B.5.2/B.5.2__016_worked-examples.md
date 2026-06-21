@@ -6,12 +6,12 @@ section_id: "B.5.2:15"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__016_worked-examples.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:15 — Worked Examples"
-line_start: 34093
-line_end: 34130
+line_start: 35359
+line_end: 35396
 dependencies:
   - "A.10"
   - "A.16"
@@ -41,7 +41,7 @@ The candidate set includes:
 - a time-window interaction with backup traffic,
 - and a recent mechanism regression in cache invalidation.
 
-The prime hypothesis is not selected because it sounds most familiar. It is selected because it best fits the observed window, remains consistent with known mechanism declarations, and generates a concrete next probe: isolate backup traffic and compare the latency shape against prior windows. The resulting conjecture becomes an `L0` hypothesis with one explicit evidence path.
+The prime hypothesis is not selected because it sounds most familiar. It is selected because it best fits the observed window, remains consistent with known mechanism declarations, and generates a concrete next probe: isolate backup traffic and compare the latency shape against prior windows. The resulting conjecture becomes an `L0` hypothesis with one explicit evidence-acquisition relation.
 
 #### B.5.2:15.2 - Opportunity-driven materials inquiry
 

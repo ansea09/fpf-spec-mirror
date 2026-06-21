@@ -6,12 +6,12 @@ section_id: "A.2.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:0 — Use This When"
-line_start: 2212
-line_end: 2245
+line_start: 2274
+line_end: 2307
 dependencies:
   - "A.15"
   - "A.2"
@@ -37,7 +37,7 @@ Typical moments:
 - a work record says that "Alice reviewed", "Robot-7 inspected", "CI bot deployed", or "the operations team approved" and the role, holder, bounded context, or assignment window is missing;
 - a method or method description names required roles, but the project has not linked those roles to concrete performers;
 - a role state, capability requirement, separation-of-duties rule, or work gate depends on who holds the role now;
-- an old source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be repaired without making epistemes into work performers;
+- a source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be normalized without making epistemes into work performers;
 - a local notation such as `Holder#Role:Context@Window` is useful, but the notation must not replace the typed relation it abbreviates.
 
 **Primary EntityOfConcern.** The EntityOfConcern is `U.RoleAssignment`: a typed work-facing assignment relation value. It links an admitted acting holder, a `U.Role`, a `U.BoundedContext`, and any assignment-currentness window or assignment source that is current for the claim.

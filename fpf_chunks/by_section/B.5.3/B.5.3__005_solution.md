@@ -1,52 +1,61 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Role-Projection Bridge"
+pattern_title: "Domain-Concept Bridge"
 section_id: "B.5.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.5.3 — Role-Projection Bridge"
+  - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:4 — Solution"
-line_start: 34557
-line_end: 34584
+line_start: 35829
+line_end: 35846
 dependencies:
+  - "A.13"
+  - "A.15"
   - "A.2"
+  - "A.2.1"
+  - "A.6.5"
+  - "A.7"
+  - "B.3.3"
+  - "C.2.1"
   - "C.3"
+  - "E.17"
+  - "E.24.UK"
+  - "F.1"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.7"
+  - "F.8"
+  - "F.9"
 keywords:
+  - "bounded context"
+  - "bridge scope"
   - "concept bridge"
-  - "domain-specific vocabulary"
-  - "mapping"
-  - "terminology"
+  - "domain vocabulary"
+  - "local sense"
+  - "role assignment boundary"
 ---
 
 ### B.5.3:4 - **Solution**
 
-FPF solves this with the **Role-Projection Pattern**, a mechanism that creates a robust, semantically rich **Concept-Bridge** between the universal kernel and domain-specific vocabularies. This pattern is built on three core components:
+Use a **Domain-Concept Bridge**. Start with the local word in its `U.BoundedContext`, then recover the FPF value that the project is actually using.
 
-#### B.5.3:4.1 - The `Role` Concept
+1. Establish the bounded context and local sense: use `F.1` to identify the domain family and authoritative sources, `F.2` to harvest terms with provenance, and `F.3` to cluster the local sense or SenseCell with counter-examples.
+2. Ask what the local word is doing in the current claim: naming an entity, admitted U-kind, ontic slot filler, relation, characteristic coordinate, method, mechanism, work plan, performed work, role assignment, episteme, publication-use relation, evidence-use relation, or other governed value.
+3. If the claim needs durable kindhood, use admission under `E.24.UK` and `C.3` and supply the ontic and slot relation that make the kind reviewable.
+4. If the claim is only local vocabulary, keep it as a LocalSense or SenseCell and bridge it with scope and loss notes.
+5. Use role vocabulary for system or holon role assignments in bounded work-facing contexts. Express meaning, status, evidence use, publication use, and domain interpretation through their own FPF values and relations.
 
-*   **Description:** FPF introduces a new universal type, `U.Role`. A `Role` is not a concrete thing but an **abstract, context-dependent role** that an entity can play. It represents the domain-specific *interpretation* of a universal concept.
-*   **Example:** "Thermodynamic System" is not modeled as a new subtype of `U.System`. Instead, it is modeled as a `Role` that a `U.System` can *play* when it is being analyzed from a thermodynamic perspective.
+The bridge record is therefore not an alias. It is a small typed settlement saying which FPF value the claim uses, what local wording points to it, where the bridge is admissible, and when the stronger source or direct governing pattern must be reopened.
 
-#### B.5.3:4.2 - The `refinesType` Relation**
+Practical difference from an alias:
 
-*   **Description:** Every `Role` **MUST** declare which universal `U.Type` it refines or specializes. This is done via the `refinesType` relation.
-*   **Example:** The `ThermodynamicSystemRole` would have the relation `refinesType: U.System`. This creates a formal, unbreakable link to the kernel. It guarantees that any entity playing this role still inherits all the fundamental properties and invariants of a `U.System`. This is a many-to-one relationship: many different roles (e.g., `EconomicSystemRole`, `BiologicalSystemRole`) can all refine the same `U.System` type.
-
-#### B.5.3:4.3 - The `plays_role_of` Relation**
-
-*   **Description:** This relation connects a **concrete entity** in a model to a `Role`. It is the assertion that "this specific thing is currently playing that specific role."
-*   **Example:** In a model of a steam engine, we would assert that our specific engine instance `plays_role_of: ThermodynamicSystemRole`. This assertion signals to all tools and reviewers that this engine should be interpreted as a `U.System` and that the rules and constraints associated with the `ThermodynamicSystemRole` now apply to it.
-
-> **Didactic Note for Managers: From "Alias" to "Job Description"**
->
-> The Role-Projection pattern is the difference between giving someone an alias and giving them a job description.
->
-> *   **An Alias (the old way):** Simply says "Bob is also known as The Manager." It's just a name swap.
-> *   **A Role (the FPF way):** Says "Bob `plays_role_of` Manager." This is much richer. It implies that Bob has specific responsibilities, authorities, and performance expectations that come with the "Manager" role. He might also play other roles, like "Mentor" or "Team Lead."
->
-> Similarly, when we say a component `plays_role_of` "Sensor," we are not just renaming it. We are activating a rich set of expectations and rules that come with being a sensor (e.g., it must have an output port, it must have a defined accuracy, etc.). This makes our models smarter, safer, and more precise.
+* An alias says "`L` is another name for `V`."
+* A Domain-Concept Bridge says: in bounded context `K`, local wording `L` is being used for FPF value or relation `V` in the current claim; the bridge carries the constraints, units, role assignments, loss notes, and return conditions that make that use reviewable.
+* If a component is called "sensor", the bridge can point to a system, a functional element, a measurement capability, a signal publication, or a role assignment. The claim decides which value is being used; the word "sensor" alone does not.
 

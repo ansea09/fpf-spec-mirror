@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:7 — Conformance Checklist"
-line_start: 73037
-line_end: 73053
+line_start: 75726
+line_end: 75742
 dependencies:
   - "A.15"
   - "A.2"
@@ -55,7 +55,7 @@ Use this checklist on each durable name governed by F.5.
 | `CC-F5-5` | Context, edition, source, and witness provenance are not baked into the main label. |
 | `CC-F5-6` | A U-kind name is neutral with respect to witness contexts unless the Concept-Set row shows that the source term is genuinely shared. |
 | `CC-F5-7` | A RoleDescription label names a work-facing `U.Role`; it does not encode assignment, capability, method, work, status, evidence, permission, or publication. |
-| `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, and relation-slot names are sent to direct governing patterns before durable naming. |
+| `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, and relation-slot names remain governed by direct patterns before durable naming. |
 | `CC-F5-9` | Alias, symbol, previous term, or translation use is marked as alias or lineage, not a second Tech label. |
 | `CC-F5-10` | Public or cross-context reuse invokes `F.18`, `F.17`, or `F.9` as needed. |
 

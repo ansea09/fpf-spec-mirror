@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 25751
-line_end: 25791
+line_start: 26392
+line_end: 26432
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -37,7 +37,7 @@ keywords:
 
 ### A.19.CN:13 - Minimal CN‑Spec template (copy/paste, informational)
 
-**Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; legality/evidence gates belong to G.0.
+**Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; admissibility/evidence gates belong to G.0.
 
 ```
 CN‑frame: <Name>      Context: <Context/Edition>
@@ -58,7 +58,7 @@ Indicators (optional):
   resulting_indicators: [<IndicatorId>… ] // selection is policy‑defined; NCVs alone do not make an Indicator (see A.19.UINDM)
 Comparability:
   mode: coordinatewise | normalization-based
-  minimal_evidence: <what must be observed to compare>  # legality/evidence gate surface (see G.0 and C.16)
+  minimal_evidence: <what must be observed to compare>  # admissibility/evidence gate surface (see G.0 and C.16)
 Aggregation:
   fold: <Γ_fold expr>   time_policy: <window, statistic>
   WLNK/COMM/LOC/MONO: <declared choices>

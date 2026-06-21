@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:4 — Solution"
-line_start: 22523
-line_end: 22634
+line_start: 23107
+line_end: 23220
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -49,10 +49,10 @@ It answers the question: `when history itself matters, which governed publicatio
 
 #### A.16.0:4.0a - E.24.UK settlement
 
-`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The host title is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
+`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
 
-#### A.16.0:4.1 - Ontological subject and role lanes
-In this cluster, keep six roles distinct:
+#### A.16.0:4.1 - Ontological subject and slot groups
+In this cluster, keep six slot groups distinct:
 
 - **current governed member** - the current `U.Episteme` publication under language-state governance;
 - **lineage links** - explicit `derivedFrom`, `supersedes`, `forkedFrom`, `mergedFrom`, and retirement / no-successor links among governed members;
@@ -64,6 +64,8 @@ In this cluster, keep six roles distinct:
 A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or handoff semantics.
 
 A trajectory step may add a new lineage member, revise the current member, or relate several members through fork, merge, supersession, or retirement. It does **not** mean that the source phenomenon itself has moved through the language-state chart.
+
+Here `route` names an `A.16` move-family label or a typed upstream publication-form cue. It is not an action route, work sequence, workflow, or transformation-flow path.
 
 #### A.16.0:4.2 - Position-account discipline
 The position read by this pattern is the slot-explicit claim defined in `C.2.2a`: a partial coordinate publication in the declared language-state `U.CharacteristicSpace`, where each basis slot publishes a `ValueSet(slot)`, interval, or other admissible set-valued claim.

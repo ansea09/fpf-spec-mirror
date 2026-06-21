@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
-line_start: 3294
-line_end: 3606
+line_start: 3387
+line_end: 3703
 dependencies:
   - "A.10"
   - "A.2"
@@ -53,7 +53,7 @@ Use it when the working question is:
 * which episteme is being used;
 * which claim, theory statement, status assertion, use, or causal-use question the episteme is being used for;
 * which bounded context, claim scope, grounding holon, polarity, relevance window, assurance use, weight model, and provenance constraints are current;
-* whether old source wording such as "evidence role", "status role", "standard role", or "the report plays a role" hides an evidence-use, status-use, source-use, publication-use, assurance-use, gate-use, or causal-use relation;
+* whether source wording such as "evidence role", "status role", "standard role", or "the report plays a role" hides an evidence-use, status-use, source-use, publication-use, assurance-use, gate-use, or causal-use relation;
 * whether the evidence-use or status-use relation is sufficiently specified for the intended reliance, or only enough for orientation, source-finding, a reversible probe, or a narrowed use.
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme. It is not `U.Role`, not `U.RoleAssignment`, and not a system performing work.
@@ -68,7 +68,7 @@ Use it when the working question is:
 
 ### A.2.4:2 - Problem
 
-Older FPF text used `U.EvidenceRole` for a useful need but chose the wrong ontology. The need was real: an episteme can be used as evidence for a claim inside a bounded context, with scope, polarity, time, assurance use, weight, and provenance constraints. The error was to model that use as a non-behavioral role held by the episteme through `U.RoleAssignment`.
+Source text may name `U.EvidenceRole` or evidence-like role labels for a real need: an episteme can be used as evidence for a claim inside a bounded context, with scope, polarity, time, assurance use, weight, and provenance constraints. The FPF repair is to model that use as an evidence-use relation, not as a non-behavioral role held by the episteme through `U.RoleAssignment`.
 
 That creates several failures:
 
@@ -180,11 +180,11 @@ Episteme status-use statement:
   UnsupportedOverread:
 ```
 
-If the status is used for a gate, release, work-plan readiness, assurance, or admission decision, apply the direct governing pattern for that use. A.2.4 only keeps the status-use relation typed and prevents old role-holder grammar from returning.
+If the status is used for a gate, release, work-plan readiness, assurance, or admission decision, apply the direct governing pattern for that use. A.2.4 only keeps the status-use relation typed and prevents role-holder grammar from returning where an episteme-use relation is needed.
 
 #### A.2.4:4.5 - Formal, Empirical, and Causal Evidence Uses
 
-Older labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `ReplicationEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` become evidence-use classifications or local evidence-use labels, not `U.Role` values.
+Source labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `ReplicationEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` become evidence-use classifications or local evidence-use labels, not `U.Role` values.
 
 Formal line:
 
@@ -221,7 +221,7 @@ When the source-currentness, publication-use, view, explanation, or specificatio
 
 The baseline is the direct governing pattern: full `A.10` for evidence-provenance graph relations, full `B.3` for assurance, full `C.28` for causal use, full `F.10` for status families, full `E.17` or `E.10.D2` for publication-use and description-use cases, and full `A.15.1` when the producing work is current.
 
-A.2.4 is the weaker first-use representation. It saves effort by writing only the relation positions needed to stop old role wording from collapsing evidence, status, work, assurance, source, and publication claims. The loss budget is narrow: A.2.4 may name the evidence-use or status-use relation, preserve the named direct governing pattern, and state unsupported overread. It may not decide assurance value, gate passage, causal identification, source-currentness order, publication interpretation, or performed-work truth.
+A.2.4 is the weaker first-use representation. It saves effort by writing only the relation positions needed to stop role-like source wording from collapsing evidence, status, work, assurance, source, and publication claims. The loss budget is narrow: A.2.4 may name the evidence-use or status-use relation, preserve the named direct governing pattern, and state unsupported overread. It may not decide assurance value, gate passage, causal identification, source-currentness order, publication interpretation, or performed-work truth.
 
 Open the direct governing pattern when the attempted use depends on assurance, safety, release, compliance, causal effect, gate decision, permission, performed work, source freshness, publication use, status currentness, or a contested provenance relation.
 
@@ -274,7 +274,7 @@ A simulation output mentions a counterfactual. That output may be an episteme us
 
 If the current `C.28` value is `simulationOnlyCounterfactualOutputBasis`, the evidence-use relation cannot be relabelled as `realizedCounterfactualSampleSupportBasis` or `interventionalActionSupportBasis` by evidence wording, validation wording, or role wording alone.
 
-### A.2.4:6 - Bias Annotation
+### A.2.4:6 - Bias-Annotation
 
 This pattern mainly blocks six biases:
 
@@ -301,10 +301,10 @@ The repair is to recover the episteme first, then recover the evidence-use, stat
 | `CC-A2.4-8` Causal boundary | Causal-use and counterfactual claims go to `C.28`; A.2.4 does not mint causal evidence kinds. |
 | `CC-A2.4-9` Work boundary | The producing work remains `U.Work`; the episteme use remains evidence-use or status-use. |
 | `CC-A2.4-10` Publication boundary | Publication face, source citation, generated explanation, credential view, or dashboard display is not treated as evidence-use or status-use until the relation is recoverable. |
-| `CC-A2.4-11` No old role ontology | Live prose does not teach `U.EvidenceRole`, status role for epistemes, episteme role holder, or evidence-role assignment through `U.RoleAssignment`. |
+| `CC-A2.4-11` No evidence/status role ontology drift | Live prose does not teach `U.EvidenceRole`, status role for epistemes, episteme role holder, or evidence-role assignment through `U.RoleAssignment`. |
 | `CC-A2.4-12` Direct governing pattern | The statement names the direct pattern that owns the current use: `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, `E.10.D2`, or another governing pattern named by value. |
 
-### A.2.4:8 - Anti-Patterns and Repairs
+### A.2.4:8 - Common Anti-Patterns and How to Avoid Them
 
 | Source wording | Failure | Repair |
 | --- | --- | --- |
@@ -323,7 +323,11 @@ The cost is explicit relation recovery. A phrase such as "evidence role", "statu
 
 The payoff is that one episteme can be reused honestly across many claims. Each use can have a different target claim, grounding holon, scope, polarity, relevance window, assurance use, weight model, or provenance constraint without multiplying role kinds.
 
-### A.2.4:10 - Rationale and SoTA-Echoing
+### A.2.4:10 - Rationale
+
+Evidence-use and status-use are kept as relation positions because an episteme can support, constrain, display, attest, or refresh different claims without becoming a work-facing role holder. This avoids multiplying role kinds for every publication, credential, dataset, proof, status display, source, and explanation use.
+
+### A.2.4:10.1 - SoTA-Echoing
 
 | SoTA line | Adopted or adapted move | FPF consequence |
 | --- | --- | --- |
@@ -339,7 +343,7 @@ Refresh this pattern's source use when those provenance, credential, attestation
 * **Builds on:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `A.6.5` for SlotSpec discipline, and `C.2.1` for episteme slot relation and episteme identity.
 * **Coordinates with:** `A.10` for evidence-provenance graph relation; `B.3` for assurance; `C.28` for causal-use evidence classes; `F.10` for status families; `G.6` for evidence graph and provenance ledgers; `E.17`, `E.17.0`, `E.17.2`, and `E.17.EFP` for publication, view, and explanation-use cases; `E.10.D2` for EntityOfConcern, description episteme, and specification-use discipline.
 * **Separates from:** `A.15.1` for producing work; `A.15.2` for planned work; gate patterns for gate passage; `A.2.8` and `A.2.9` for commitments and speech acts; source-currentness patterns for source freshness and source order.
-* **Feeds:** `A.6.RSIR` and `E.10.ARCH` as the current repair target when source wording says "evidence role", "status role", "standard role", or another role-shaped phrase around an episteme.
+* **Precision-restoration owners:** When source wording says "evidence role", "status role", "standard role", or another role-shaped phrase around an episteme, use `A.6.RSIR` for relation-slot or role-like slot recovery and `E.10.ARCH` for ontology-first repair architecture.
 
 ### A.2.4:12 - Lowering, Repair, and Refresh
 

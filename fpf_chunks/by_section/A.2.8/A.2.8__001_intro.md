@@ -6,12 +6,12 @@ section_id: "A.2.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:intro — Intro"
-line_start: 5128
-line_end: 5131
+line_start: 5279
+line_end: 5283
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -44,4 +44,5 @@ keywords:
 ## A.2.8 - `U.Commitment` (Deontic Commitment Object)
 
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 

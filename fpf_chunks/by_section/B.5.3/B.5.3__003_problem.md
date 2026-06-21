@@ -1,32 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Role-Projection Bridge"
+pattern_title: "Domain-Concept Bridge"
 section_id: "B.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.5.3 — Role-Projection Bridge"
+  - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:2 — Problem"
-line_start: 34541
-line_end: 34548
+line_start: 35816
+line_end: 35819
 dependencies:
+  - "A.13"
+  - "A.15"
   - "A.2"
+  - "A.2.1"
+  - "A.6.5"
+  - "A.7"
+  - "B.3.3"
+  - "C.2.1"
   - "C.3"
+  - "E.17"
+  - "E.24.UK"
+  - "F.1"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.7"
+  - "F.8"
+  - "F.9"
 keywords:
+  - "bounded context"
+  - "bridge scope"
   - "concept bridge"
-  - "domain-specific vocabulary"
-  - "mapping"
-  - "terminology"
+  - "domain vocabulary"
+  - "local sense"
+  - "role assignment boundary"
 ---
 
 ### B.5.3:2 - **Problem**
 
-How can FPF bridge this gap between its universal core and the specific language of a domain without either polluting the kernel with domain-specific terms or forcing experts to abandon their familiar vocabulary? A simple alias mechanism (e.g., a dictionary mapping `U.System` to "Thermodynamic System") is insufficient because:
-
-1.  **It's brittle:** It assumes a one-to-one mapping, which often breaks down. A single domain concept can play multiple universal roles in different contexts.
-2.  **It's semantically poor:** It only captures naming, not the rich constraints and relationships that a domain-specific concept entails. We can't express that a "Thermodynamic System" is a *special kind* of `U.System` with specific properties related to temperature and pressure.
-3.  **It's not integrated:** The mappings live outside the formal model, making them difficult to govern, version, and use in automated reasoning.
+How can FPF let project teams keep domain vocabulary while preserving the current FPF ontology? A dictionary-style alias is too weak because it only says that two labels are being associated. It does not say whether the claim concerns an entity, a kind, a slot filler, a characteristic coordinate, a role assignment, a method, a mechanism, a work plan, a performed work occurrence, an episteme, a publication-use relation, or an evidence-use relation.
 

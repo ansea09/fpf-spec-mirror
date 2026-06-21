@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
-line_start: 70954
-line_end: 71236
+line_start: 73615
+line_end: 73925
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -273,6 +273,10 @@ A passage that says a proposed type must pass A.8 or A.11 is a kernel-level U-ki
 
 A C.2.1 heading such as `U.ClaimGraph` or `U.Viewpoint` does not admit kindhood by heading shape. The heading must be read through the episteme slot relation: retain as dependent value or slot component only if C.2.1 states the settlement; otherwise rename the heading to the actual slot, relation, or publication object.
 
+### E.24.UK:5.6 - Bias-Annotation
+
+This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. First recover the governed object, its current use, the owning ontic or typed-reasoning law, and the slot or relation position. Only then decide whether the public name should be a root U-kind, dependent durable value, C.3 `U.Kind`, Concept-Set row, slot name, relation structure, record, publication form, lens, or local frame.
+
 ### E.24.UK:6 - Conformance Checklist
 
 | Check | Requirement |
@@ -286,11 +290,15 @@ A C.2.1 heading such as `U.ClaimGraph` or `U.Viewpoint` does not admit kindhood 
 | `CC-E24UK-7` | F.8, F.5, F.18, and F.17 are used only after the recovered value and admission decision are stable. |
 | `CC-E24UK-8` | E.24 remains the head ontic pattern; this pattern owns detailed U-kind law and does not duplicate it back into E.24. |
 
-### E.24.UK:7 - Relations
+### E.24.UK:6.1 - Common Anti-Patterns and How to Avoid Them
 
-- **Specializes:** `E.24` for durable U-kind admission and structural-name U-kind settlement.
-- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.PUB` for publication and structural-name pressure, `C.3` and `C.3.1` for typed reasoning, `A.8` and `A.11` for kernel admission constraints, `F.8` and `F.5` for naming decisions, `E.10` and `E.10.ARCH` for source wording outside current FPF use.
-- **Does not replace:** direct subject patterns for method, work, role, episteme, transformation, relation, characteristic, view, measurement, publication, evidence, gate, source, or decision claims.
+| Anti-pattern | Failure | Repair |
+| --- | --- | --- |
+| **U-dot by punctuation.** A heading or filename contains `U.` and therefore survives as a kind. | Public spelling outruns admission. | Apply the durable U-kind test; otherwise rename to the governed object. |
+| **Slot becomes kind.** `EvidenceRole`, `MethodRole`, or `DescriptionRole` is admitted because a value fills a relation position. | Slot-position label becomes a false ontology branch. | Keep SlotKind, ValueKind, RefKind, and governing pattern separate. |
+| **Source type import.** A BFO, ISO, OWL, database, or programming-language type is copied as an FPF U-kind. | Source ontology and FPF ontic law become mixed. | Use the source conversion guide and name the FPF governed object. |
+| **Searchable title wins.** A memorable heading remains public even though the body governs a record, publication form, relation structure, or local frame. | Discoverability replaces ontology. | Keep the searchable phrase in entry or retrieval material if useful, and put the governed object in the public pattern name. |
+| **Dependent value promoted.** A value that depends on an existing ontic settlement is admitted as an independent root U-kind. | FPF grows duplicate roots for one ontological neighborhood. | Keep the root settlement and state the dependent durable value relation explicitly. |
 
 ### E.24.UK:8 - Consequences
 
@@ -306,6 +314,26 @@ Costs:
 - pattern authors must read the governed object before keeping a convenient `U.*` spelling;
 - some familiar host filenames, headings, and ToC rows must be renamed;
 - structural inventory work becomes part of U-kind governance, not an afterthought.
+
+### E.24.UK:5.7 - Rationale
+
+FPF needs U-kind names to stay rare and load-bearing because they orient many patterns at once. Without a separate U-kind governance rule, ordinary type words, source-ontology classes, slot labels, filenames, and memorable headings create a second ontology beside E.24 ontic settlement and C.3 typed reasoning.
+
+The coupling rule keeps the architecture compact: a durable U-kind needs an E.24-compatible settlement or an explicit C.3 typed-reasoning status; dependent durable values remain dependent on their root settlement; non-U objects keep their ordinary governing patterns. This lets FPF reuse source ontologies and discipline vocabularies without importing their taxonomy as FPF U-kinds.
+
+### E.24.UK:5.8 - SoTA-Echoing
+
+| Source line | Use in this pattern | Practical implication |
+| --- | --- | --- |
+| Foundational and applied ontology distinguish classes, individuals, relations, roles, qualities, functions, and representation forms. | Adapt: FPF does not copy one source taxonomy as U-kind law; it recovers the governed object and its admission basis. | A source `type`, `class`, or `category` becomes an FPF U-kind only after FPF admission, not by translation. |
+| Modular ontology and ontology-design-pattern practice use reusable fragments rather than one flat taxonomy. | Adopt for E.24 coupling: public durable names are backed by ontic settlement and neighboring-pattern obligations. | A durable U-kind must be usable across patterns without forcing a new taxonomy branch for every slot position. |
+| Naming and controlled-vocabulary practice separate labels from the objects they label. | Adopt through F.5, F.8, F.17, and F.18 after the governed value is recovered. | A good title can remain searchable while the body names the actual governed object and avoids false U-kind admission. |
+
+### E.24.UK:7 - Relations
+
+- **Specializes:** `E.24` for durable U-kind admission and structural-name U-kind settlement.
+- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.PUB` for publication and structural-name pressure, `C.3` and `C.3.1` for typed reasoning, `A.8` and `A.11` for kernel admission constraints, `F.8` and `F.5` for naming decisions, `E.10` and `E.10.ARCH` for source wording outside current FPF use.
+- **Does not replace:** direct subject patterns for method, work, role, episteme, transformation, relation, characteristic, view, measurement, publication, evidence, gate, source, or decision claims.
 
 ### E.24.UK:End
 

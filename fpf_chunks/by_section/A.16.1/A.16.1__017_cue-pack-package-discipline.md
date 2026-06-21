@@ -6,12 +6,12 @@ section_id: "A.16.1:16"
 section_title: "Cue-Pack Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-package-discipline.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:16 — Cue-Pack Package Discipline"
-line_start: 22925
-line_end: 22946
+line_start: 23517
+line_end: 23538
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,7 +47,7 @@ A robust cue pack should make visible:
 - the **preservation rationale**,
 - the **primary witness or primary anchor** when one is load-bearing,
 - the **candidate anchors / contrasts / exemplars** that keep the nucleus non-arbitrary,
-- the **secondary witnesses or carriers** that support it,
+- the **secondary witnesses or carriers** that corroborate or enrich it,
 - and the **lane candidates or route-candidate hints**, if such directional hints are already visible.
 
 This is what turns early cues into an admissible preservation form.

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__010_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:10 — Rationale"
-line_start: 26421
-line_end: 26434
+line_start: 27062
+line_end: 27075
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,9 +34,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"
@@ -52,11 +52,11 @@ This pattern deliberately fixes the CHR core as a **description object** rather 
 
 1. **Level separation stays clean.** The suite is a D-episteme that enumerates mechanisms and obligations; the mechanisms remain `U.Mechanism.Intension` nodes with their own SlotSpecs, laws, guards, transport and audit. This prevents a “god object” that re-implements A.6.1 inside a new container.
 
-2. **Spec refs remain centralized.** CN‑Spec and CG‑Spec already define the governance card and legality gate that own comparability, normalization, indicatorization policy, and numeric legality. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
+2. **Spec refs remain centralized.** CN-Spec and CG-Spec already define the governance card and admissibility gate that own comparability, normalization, indicatorization policy, and numeric admissibility. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
 
 3. **P2W integration becomes explicit without turning planning into execution.** A planned-baseline `SlotFillingsPlanItem` is the minimal, reusable way to record “what will fill which slots under which CG-frame and path slice” while preserving the rule that only WorkEnactment witnesses launch values.
 
 4. **Uncertainty handling is made safe by construction.** Tri-state guard decisions are a minimal guard-decision form that supports admissible abstention and degradation while keeping gate decisions and decision logs in their proper place (OperationalGate(profile)).
 
-In short: *governing specs are cited, not copied; plans are declared, not executed; and legality is a first-class surface, not a hidden tail.*
+In short: *governing specs are cited, not copied; plans are declared, not executed; and admissibility is a first-class surface, not a hidden tail.*
 

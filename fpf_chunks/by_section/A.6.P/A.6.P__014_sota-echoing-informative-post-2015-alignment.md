@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6.P"
 pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:11"
-section_title: "SoTA‑Echoing (informative; post‑2015 alignment)"
+section_title: "SoTA-Echoing (informative; post-2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-  - "A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)"
-line_start: 13836
-line_end: 13849
+  - "A.6.P:11 — SoTA-Echoing (informative; post-2015 alignment)"
+line_start: 14092
+line_end: 14105
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -54,7 +54,7 @@ keywords:
   - "under-specified relational language"
 ---
 
-### A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)
+### A.6.P:11 — SoTA-Echoing (informative; post-2015 alignment)
 
 A.6.P echoes contemporary practice across independent traditions, while remaining notation-neutral and Context-local. A row is retained only when it changes the A.6.P solution, checklist, boundary, worked case, or reopen condition.
 

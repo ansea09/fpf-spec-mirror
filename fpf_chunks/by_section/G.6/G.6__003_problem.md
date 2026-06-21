@@ -6,12 +6,12 @@ section_id: "G.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:2 — Problem"
-line_start: 81412
-line_end: 81424
+line_start: 84172
+line_end: 84184
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ The common failures are:
 1. **Narrative provenance.** A report says "because the evidence carries the claim" but does not expose the graph path from claim to evidence relations, sources, checks, and work occurrences.
 2. **Hidden crossing.** Evidence accepted in one bounded context, reference plane, edition, or status window is reused in another as if no bridge or currentness relation were needed.
 3. **Role drift.** A proof, dataset, status cell, report, or benchmark result is treated as if it held an evidence role, instead of being a value in an evidence-use, status-use, source-use, or provenance relation.
-4. **Path metaphor drift.** A graph path is read as an action route or workflow. The pattern then starts teaching how work flows, rather than how a provenance graph is addressed.
+4. **Path metaphor drift.** A graph path is read as an action route or workflow. The pattern then starts teaching work planning or performed work, rather than how a provenance graph is addressed.
 5. **Ledger process drift.** A provenance ledger is confused with work-progress, review-comment, or process evidence. The pattern then records development status instead of citable evidence-provenance facts.
-6. **Refresh fanout.** A source edit, edition change, decay event, bridge change, or policy change forces a broad "rerun everything" because the affected evidence paths were never addressable.
+6. **Refresh fanout.** A source edit, edition change, decay event, bridge change, or policy change forces a broad "rerun everything" because the affected evidence-provenance paths were never addressable.
 

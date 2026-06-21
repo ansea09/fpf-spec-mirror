@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_alignment-with-e-17-multi-view-describing-publication-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:8 — Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
-line_start: 35409
-line_end: 35462
+line_start: 36667
+line_end: 36720
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -50,7 +50,7 @@ Within this pattern:
 
 C.2.1 thus supplies the **per‑episteme** structure that E.17.0 rearranges into multi‑view families.
 
-#### C.2.1:8.2 - Viewpoint bundles (E.17.1/E.17.2)
+#### C.2.1:8.2 - Viewpoint bundles (E.17.1 and E.17.2)
 
 `U.ViewpointBundleLibrary` and TEVB specialise the `U.Viewpoint` node:
 * A ViewpointBundle is a **set of `U.Viewpoint` instances** tailored to a class of entities of concern (e.g., holons in engineering contexts).
@@ -78,6 +78,6 @@ keeps **epistemic perspective and physical medium separate**:
 
 Any MVPK species that claims to be C.2.1‑conformant **MUST**:
 * treat `U.View` as a `U.EpistemeView` with a valid C.2.1 core,
-* document which C.2.1 slots it reads/writes (typically only representation/carrier‑related ones, leaving `EntityOfConcernSlot` and `GroundingHolonSlot` untouched),
+* document which C.2.1 slots it reads and writes (typically only representation-related and carrier-related ones, leaving `EntityOfConcernSlot` and `GroundingHolonSlot` untouched),
 * refrain from introducing new claims about the EntityOfConcern value beyond what is in the source `U.View`’s ClaimGraph.
 

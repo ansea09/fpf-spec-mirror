@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12 — Relations"
-line_start: 13850
-line_end: 13875
+line_start: 14106
+line_end: 14131
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -61,7 +61,7 @@ keywords:
 * **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
 * **A.6.6 Base Declaration Discipline** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation and facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
-* **A.6.9 (RPR-XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
+* **A.6.9 (RPR-XCTX)** - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
 * **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole, part, integrity, or complete”) into boundary, typed parthood, explicit Γ selection, order and time classification, and A.15 completeness and coverage claims.
 
 **Coordinates with**

@@ -6,12 +6,12 @@ section_id: "C.26:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:9 — Consequences"
-line_start: 46736
-line_end: 46759
+line_start: 48328
+line_end: 48351
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ Cluster success criteria:
 | Fewer false passive reads | Dashboards, workshops, API reads, and reports are less often treated as neutral state copies. |
 | Fewer invalid comparisons | Same-named metrics from different contexts are not silently compared. |
 | Better bridge records | `F.9` records more often include admissible export use and non-admissible export use. |
-| Better release/evidence discipline | `B.3` / `A.10` are invoked only when the claim’s evidence or authority demand requires them. |
+| Better release and evidence discipline | `B.3` and `A.10` are invoked only when the claim’s evidence or authority demand requires them. |
 | Less metaphorical leakage | Fewer `field`, `collapse`, `entanglement`, and `group mind` phrases appear in normative text. |
 | Faster local notes | Practitioners can write QL-lite notes without full audit cards. |
 | More retirements | QL wording is removed when ordinary FPF patterns carry the claim. |

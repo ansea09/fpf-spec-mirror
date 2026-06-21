@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Worked examples (context‑local only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_worked-examples-context-local-only.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:11 — Worked examples (context‑local only)"
-line_start: 72023
-line_end: 72083
+line_start: 74712
+line_end: 74772
 dependencies:
   - "A.11"
   - "A.7"
@@ -89,5 +89,5 @@ keywords:
   **Tech:** `procedure` - **Plain:** `measurement recipe`
   **Gloss:** “Specification guiding how an observation is produced.”
 
-*Thinking pay‑off:* discourages treating an FCA “concept” as a `U.Type`, or a **procedure** as a **method** without later proof.
+*Thinking pay-off:* discourages treating an FCA "concept" as a root kind, or a **procedure** as a **method** without later proof.
 

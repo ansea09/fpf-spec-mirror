@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
-line_start: 21796
-line_end: 22136
+line_start: 22356
+line_end: 22714
 dependencies:
   - "A.10"
   - "A.15"
@@ -91,11 +91,23 @@ Dashboards, credential views, generated explanations, copied approvals, provenan
 
 **Source wording discipline.** In this pattern, `source` is not a generic kind. `Governing source` means the project-side value, named by FPF kind and reference, that carries the claim or effect under repair: source `U.Episteme`, source `U.EpistemePublication`, evidence path, gate decision, speech act, commitment, credential record, status record, role assignment, work-occurrence record, register entry, source relation, or another named project-side value. Source-finding cues, publication faces, publication carriers, renderings, dashboards, copied wording, and generated explanations remain source candidates unless they expose that governing source. If no governing source can be named, keep the encountered source candidate at cue-only orientation or source-finding use.
 
-### A.15.4:2 - Cluster Boundary
+Here `evidence path` and `currentness path` mean `A.10` evidence-provenance, attestation, or currentness relations named by value. They are not action routes, workflows, or permission pipelines.
+
+### A.15.4:2 - Problem - Cluster Boundary
 
 A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when an encountered source candidate begins to justify a work claim or reliance claim and the team needs to recover the source that carries that claim, effect, or relation. If the governing pattern and project-side reference are already known, use them directly and keep A.15.4 as the bounded restoration step.
 
-### A.15.4:3 - Work-Relevant Source Restoration
+### A.15.4:2.1 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Work momentum vs. source recoverability | Teams need to keep work moving, but an appearance-based source can make the wrong claim carry work authority. |
+| Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, status, and gate cases need more fields. |
+| Publication face vs. governing source | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side source named by value. |
+| Neighboring authority vs. local restoration | A.15.4 can recover the missing source relation, but evidence, gate, assurance, speech-act, commitment, boundary, status, and work-occurrence claims must return to their governing patterns. |
+| Repeated ambiguity vs. individual burden | Repeated source ambiguity should become source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
+
+### A.15.4:3 - Solution - Work-Relevant Source Restoration
 
 #### Core stress-case rule
 
@@ -172,7 +184,7 @@ When the required source is incomplete, choose one relation-governed source-rest
 
 **Source-candidate kind check.** First name the kind of the encountered source candidate: actual `U.Episteme`, actual `U.EpistemePublication`, publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, dashboard tile, credential view, generated wording, copied wording, or source-finding cue. If the source candidate exposes the governing source, use that exposed source directly. If only the display face, publication carrier, wording, or cue is named, the A.15.4 disposition is orientation, source-finding, bounded reversible probe, source-repair request, or blocked unsupported reliance until the source relation named by value is recovered.
 
-**Pressure guard.** Release pressure, delegated pressure, compliance pressure, color, salience, copied wording, or generated wording does not replace the source relation named by value. A dashboard tile may guide release only as a current view of the relevant `GateDecision` plus evidence path, currentness path, scope, and window.
+**Source-relation guard.** Release urgency, delegated-claim urgency, compliance concern, color, salience, copied wording, or generated wording does not replace the source relation named by value. A dashboard tile may guide release only as a current view of the relevant `GateDecision` plus evidence path, currentness path, scope, and window.
 
 #### Governing-source lookup table
 
@@ -221,7 +233,7 @@ Quick dispositions:
 | Extracted source, rewrite, representation shift, explanation, then gate or release claim | Reopen the governing source at the first lossy or non-commutative transform step; the gate claim or release claim waits for the required transform record, evidence path, explanation relation, gate decision, or assurance claim. |
 | Repeated green-tile failures without recoverable source relation | Treat recurrence as upstream source-relation repair work: expose decision refs, fix dashboard semantics, add source links and currentness, revise boundary wording, or add review cues so the acting user is not repeatedly forced to reconstruct missing source relation. |
 
-#### Worked dashboard and approval examples
+### A.15.4:3.1 - Archetypal Grounding - Worked Dashboard And Approval Examples
 
 Worked dashboard and approval slice:
 
@@ -301,7 +313,7 @@ Stress cases for practice:
 | Dashboard says green while decision log says blocked. | Treat as conflicting sources; name source order, governing decision source, freshness policy, and supersession rule before the work claim or reliance claim is used. |
 | CRISPR lab dashboard says the guide edit is ready. | Treat the dashboard as orientation or source-finding until the protocol, approval record or gate record, role-assignment source, evidence path, current lab source, and `U.WorkPlan` for the intended edit are recoverable. A ranked guide row or readiness tile does not create biological-intervention permission, safety, or performed work. |
 
-#### High-impact source-restoration slice
+### A.15.4:3.2 - Archetypal Grounding - High-Impact Source-Restoration Slice
 
 A lab manager sees a green tile for `CRISPR-guide-G42 ready` and a copied message saying the edit is approved. `A.15.4` does not ask the manager to decide whether the tile is a good UI. It asks what work or reliance claim is about to be made.
 
@@ -316,6 +328,12 @@ SourceRestorationNote:
   StopOrReopenCondition: reopen when the protocol, approval source or gate source, evidence path, role assignment, and work plan are current for batch B-17
 ```
 
+### A.15.4:4.1 - Bias-Annotation
+
+A.15.4 corrects source-appearance bias. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look like a work source before the governing project-side source is named. The pattern keeps the encountered source candidate separate from the source relation that carries the claim.
+
+It also corrects over-restoration bias. Not every source-looking case needs a full dossier. The source-restoration note names the claim, governing source, relation-governed next move, blocked overread, and reopen condition at the smallest useful depth for the work or reliance question.
+
 ### A.15.4:4 - Conformance Checklist
 
 | ID | Requirement (Normative Predicate) | Purpose and Rationale |
@@ -328,7 +346,7 @@ SourceRestorationNote:
 
 - **Appearance as source relation.** A dashboard tile, credential display, copied approval, generated explanation, provenance label, command-like cue, or composed source chain is used as if presentation itself carried the work-relevant source relation. First name the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair, then recover the governing pattern and governing source for the requested claim or effect. If that source is missing, lower only the unsupported reliance.
 
-### A.15.4:5a - Consequences
+### A.15.4:6 - Consequences
 
 | Consequence | Trade-off and cost | Mitigation |
 | --- | --- | --- |
@@ -336,13 +354,13 @@ SourceRestorationNote:
 | Appearance-based approval, evidence, assurance, gate, and work-occurrence overreads are blocked. | Some convenient dashboard or copied-text shortcuts become unusable until source currentness is recovered. | Keep orientation, source-finding, and bounded reversible probes available when no external-impact reliance is being made. |
 | Repeated ambiguity becomes source-relation repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale source publications, or underspecified gate and evidence paths. | Assign only prospective repair work or source-gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
 
-### A.15.4:5b - Rationale
+### A.15.4:7 - Rationale
 
 A.15.4 exists because work often meets sources through displays, publication faces, generated explanations, copied statements, credential views, dashboard tiles, schema wording, API wording, or composed source chains before the governing source is visible. The pattern protects work momentum and source recoverability together: it lets the practitioner use the encountered source candidate for orientation or bounded source-finding, while preventing the source candidate from becoming approval, evidence, assurance, gate passage, performed work, release permission, role-assignment currentness, or status currentness by appearance.
 
 The pattern is deliberately a restoration relation, not a new authority source. Once the evidence, gate, assurance, speech-act, commitment, role-assignment, status, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim carries it directly.
 
-### A.15.4:6 - SoTA Alignment
+### A.15.4:8 - SoTA-Echoing
 
 **SoTA alignment rule.** Interpret each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and relations of this pattern.
 
@@ -357,24 +375,24 @@ The pattern is deliberately a restoration relation, not a new authority source. 
 
 The nearest recovery references are the worked dashboard and approval examples, `CC-A15.4-1`, `CC-A15.4-2`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, and `A.15.1`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15.4` rule.
 
-### A.15.4:7 - Relations
+### A.15.4:9 - Relations
 
 * **Cluster relation:** `A.15.4` is a cluster member under `A.15` for work-relevant source restoration; it does not replace the A.15 role, method, plan, and work kernel.
 * **Uses:** `E.17`, `E.17:5.1b`, `E.17:5.1c`, and `E.17:5.1d` for source-relation, use-boundary, and neighboring-pattern publication-use vocabulary, `E.17.EFP` for generated-explanation faithfulness and source-finding, `A.16.0` for source-transfer and publication discipline, `A.6`, `A.6.B`, and `A.6.C` for boundary, policy, API, and schema wording, `A.10` for evidence, currentness, provenance, and credential status, `B.3` for engineering justification claims, `A.20` for flow constraint validity, `A.21` for gate decisions, `A.2.1` for role-assignment or context-state relations when they carry the source claim, `A.2.8` for commitments, `A.2.9` for speech acts, and `A.15.1` for dated `U.Work` occurrences.
 * **E.10.ARCH relation-selection rule:** When `E.10` encounters source-relation, authority, permission, approval, role, status, green-tile, generated-explanation, copied-review, credential, provenance, or dashboard wording that is about to guide work or reliance, `E.10.ARCH` selects `A.15.4` only after excluding or assigning direct evidence (`A.10`), assurance (`B.3`), gate (`A.21`), constraint (`A.20`), boundary or use-boundary wording (`A.6` and `A.6.B`), role-assignment or context-state relation (`A.2.1`), speech act (`A.2.9`), commitment (`A.2.8`), work occurrence (`A.15.1`), and publication-face, publication-use, source-transfer, or explanation questions (`E.17`, `A.16.0`, and `E.17.EFP`). `A.15.4` records the work-relevant source-restoration relation named by value; it does not replace those governing patterns.
 * **A.15 boundary relation:** use `A.15` directly when the remaining question under repair is role, method, plan, and work alignment rather than source restoration.
 
-### A.15.4:7a - C.29 mathematical-lens use relation
+### A.15.4:9.1 - C.29 mathematical-lens use relation
 
 > If a mathematical lens appears in work-relevant source restoration, use `C.29` only to state why the lens helps expose or bound an encountered source candidate such as generated wording, dashboard cue, copied phrase, publication form, MVPK face, publication carrier, rendering, `PublicationUnit`, or source-finding cue. `A.15.4` still governs the source candidate, source relation named by value, restoration or reopen condition, reliance relation, and whether that candidate can guide work under a recovered source relation. Method choice, plans, and performed work remain governed by `A.15` and `A.15.1` when those claims are being made; a `C.29` lens-use result does not turn a cue, rendering, or diagnostic phrase into source relation.
 
-### A.15.4:7b - P2W Result-Related Source Boundary
+### A.15.4:9.2 - P2W Result-Related Source Boundary
 
 When a P2W use under `E.18.1` produces result wording, use this pattern only when an encountered source candidate such as publication, dashboard, generated explanation, copied statement, provenance mark, schema wording, API wording, or composed source chain is about to justify a work-result or reliance claim by appearance. No generic `WorkResult` kind is admitted.
 
 Recover the governing source before relying on any result-related cue: result artifact, resource ledger, launch-values-bound record, substitution record, telemetry, acceptance record, quality-evaluation record, done-state update, feedback pin, result measurement, evidence path, assurance claim, parity relation, refresh relation, or role-assignment enactability claim. If the governing pattern or relation is missing, use the encountered source candidate only for orientation or source-finding and block only the unsupported result or reliance claim.
 
-### A.15.4:7c - Lowering, Repair, and Refresh Conditions
+### A.15.4:9.3 - Lowering, Repair, and Refresh Conditions
 
 Lower an `A.15.4` use when the work or reliance claim under repair, work-relevant P2W claim under repair, P2W chain position under repair, governing pattern, governing source, relying context, time window, source-currentness relation, revocation relation, evidence path, gate decision, assurance claim, speech-act ref, commitment, role assignment, status record, or work-occurrence source cannot be named for the intended use. The lowered use is orientation, source-finding, contested use, bounded reversible probe, source-repair request, or blocked unsupported claim.
 

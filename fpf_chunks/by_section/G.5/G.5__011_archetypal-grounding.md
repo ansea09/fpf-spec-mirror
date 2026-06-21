@@ -6,12 +6,12 @@ section_id: "G.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:5 — Archetypal Grounding"
-line_start: 81228
-line_end: 81244
+line_start: 83988
+line_end: 84004
 dependencies:
   - "C.11"
   - "C.18"
@@ -50,17 +50,17 @@ keywords:
 ### G.5:5 - Archetypal Grounding
 
 **Tell (archetype).**
-**System** must choose among rival families without lying about measurement legality, crossings, or evidence. **Episteme** insists that what is chosen must remain comparable, auditable, and stable under refresh.
+**System** must choose among rival families without lying about measurement admissibility, crossings, or evidence. **Episteme** insists that what is chosen must remain comparable, auditable, and stable under refresh.
 
 **Show 1 (multi-Tradition dispatch; unordered shortlist).**
 A `CG-Frame` includes multiple decision-theoretic families with different admissibility assumptions. Evidence for some CHR traits is incomplete.
-System registers families (S1), then runs `Select` (S3) on a pinned `TaskSignatureRef`. Eligibility is tri-state; some families **abstain** due to missing minimal-evidence pins. Among remaining candidates, only a partial order is admissible, so the selector publishes one `Shortlist` with explicit `basisPins` instead of inventing one scalar winner. No shadow acceptance logic appears in the selector; it consumes pinned acceptance and legality records.
+System registers families (S1), then runs `Select` (S3) on a pinned `TaskSignatureRef`. Eligibility is tri-state; some families **abstain** due to missing minimal-evidence pins. Among remaining candidates, only a partial order is admissible, so the selector publishes one `Shortlist` with explicit `basisPins` instead of inventing one scalar winner. No shadow acceptance logic appears in the selector; it consumes pinned acceptance and admissibility records.
 
 **Show 2 (specialist handoff; ranked publication).**
 A bounded-specialization comparison keeps two method families live, but downstream handoff now requires one ordered public result rather than one merely unordered retained set.
 The admissible `G.5` result is therefore one `RankedShortlist` with explicit ordering, `ShortlistId`, and handoff-facing `nextUse`, so the publication itself states whether the order is public.
 
 **Show 3 (no admissible survivor; abstain or escalation).**
-A frame fails one legality gate and one minimal-evidence gate at the same time.
+A frame fails one admissibility gate and one minimal-evidence gate at the same time.
 The truthful `G.5` result is one abstain or escalation publication that names the blocking pins and the next downstream use boundary, not one empty shortlist that leaves downstream users unsure whether selection silently failed or admissibly stopped.
 

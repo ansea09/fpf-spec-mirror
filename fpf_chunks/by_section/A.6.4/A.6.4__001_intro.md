@@ -6,12 +6,12 @@ section_id: "A.6.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:intro — Intro"
-line_start: 12574
-line_end: 12601
+line_start: 12810
+line_end: 12838
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -28,9 +28,10 @@ keywords:
 
 ## A.6.4 - `U.EpistemicRetargeting` — EntityOfConcern retargeting morphism
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
 **One‑line summary.** `U.EpistemicRetargeting` is the **EntityOfConcern retargeting** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
-**EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Earlier source-side spellings are source-migration wording only; conformant text normalizes them to `EntityOfConcern*` before use.
+**EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
 
 **Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 `U.RelationSlotDiscipline`**.
 
@@ -40,7 +41,7 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicVi
 **Used by.**
 E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
 
-**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the governed durable value in this host. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source-migration wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
+**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the governed durable value in this pattern. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
 
 **Retargeting in plain terms.** One effect-free episteme-to-episteme retargeting where the source episteme and receiving episteme intentionally describe different but bridge-related values of `EntityOfConcernSlot`.
 

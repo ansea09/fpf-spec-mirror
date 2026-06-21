@@ -1,164 +1,260 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.1.2"
-pattern_title: "System‑specific Aggregation Γ\\_sys"
+pattern_title: "System Aggregation and Holon Delimitation"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.2 — System‑specific Aggregation Γ\\_sys"
-line_start: 30151
-line_end: 30287
+  - "B.1.2 — System Aggregation and Holon Delimitation"
+line_start: 30761
+line_end: 30986
 dependencies:
   - "A.1"
-  - "A.3"
+  - "A.12"
+  - "A.14"
+  - "A.15.1"
+  - "A.19"
+  - "A.22"
+  - "A.3.4"
+  - "A.6.5"
+  - "A.6.F"
+  - "A.6.M"
   - "B.1"
-  - "C.1"
+  - "C.13"
+  - "C.16"
+  - "C.29"
+  - "C.30"
+  - "C.30.AD"
+  - "C.30.AD.BA"
 keywords:
-  - "Sys-CAL"
-  - "boundary rules"
-  - "energy"
-  - "mass"
-  - "physical systems"
-  - "system aggregation"
 ---
 
-## B.1.2 - System‑specific Aggregation Γ\_sys
+## B.1.2 - System Aggregation and Holon Delimitation
 
-**► decided‑by: A.14 Advanced Mereology**
-**A.14 compliance —** Treat **PortionOf** as Σ‑additive stocks; **ComponentOf** must respect boundary integration (BIC); **PhaseOf** is *not* aggregated here (handled by Γ\_time); mapping/representations are *not* parthood.
+> **Type:** Part B holonic construction pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 
-#### B.1.2:1 - Purpose
+### B.1.2:0 - Use This When
 
-`Γ\_sys` is the **default flavour of the universal aggregation operator** for everything that engineers can touch, weigh or wire‑up: bridges, battery packs, data‑centre racks, container clusters.
-It translates the abstract Invariant Quintet into three **physically meaningful fold rules**—*additive, limiting, boolean*—and a **Boundary‑Inheritance Standard** (BIC) that keeps external interfaces tidy. Together they guarantee that holons built with `Γ\_sys` obey conservation laws, expose a clean API surface and pass safety audits without manual patching.
+Use this pattern when a physical, operational, organizational, cyber-physical, or socio-technical system is treated as a whole made from parts, and the aggregation claim depends on how the system is delimited from its environment.
 
-#### B.1.2:2 - Context
+Typical moments:
 
-Kernel § 6 defines `U.System` and states that only a **Calculus** may own an aggregation operator. *Sys‑CAL* (Part C.1) exports `Γ\_sys` as its single builder; other CALs (KD‑CAL, Method‑CAL …) reuse the same quintet but swap in domain rules.
-Draft 20 Jul 25 already lists default fold policies (Σ, min, ∨/∧) and a cut‑stable axiom; this pattern turns those snippets into a teachable Standard for day‑to‑day system design.
+- a machine, plant, robot, vehicle, building asset, service organization, or operating unit is aggregated from components or subholons;
+- a system-level characteristic is rolled up from component characteristics;
+- an external signal, supply, measurement, control, source, or publication relation is being mistaken for a part;
+- a functional element must be allocated to candidate physical or organizational bearers;
+- a boundary-interface-compatibility check is needed for a system aggregate.
 
-#### B.1.2:3 - Problem (seen on real projects)
+**First useful move.** Name the candidate system whole, the candidate part relations, and the holon delimitation relation. Then decide which crossing relations remain external, which become internal after aggregation, and which are represented in a view or publication.
 
-| Field failure                                                           | Algebraic root cause                                                 |
-| ----------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **“Phantom megawatts”** — energy sums higher than fuel input            | Temperatures averaged, masses summed; operator ignored conservation. |
-| **Interface Medusa** — hundreds of dangling ports after integration     | No rule for boundary promotion vs encapsulation.                     |
-| **Safety inversion** — upgraded actuator lowered SIL rating of the skid | Intensive property (safety) aggregated by average, not min.          |
-| **Audit hairball** — inspector cannot trace which crane load went where | Boundary cuts not stable; provenance leaks.                          |
+**What goes wrong if missed.** System aggregation becomes a drawing exercise. Ports, suppliers, documents, digital twins, dashboards, source records, and measuring instruments become components by placement. Functional parts become physical parts by label. External change or measurement is read as containment.
 
-All four break Pillars *Cross‑Scale Consistency* and *State Explicitness*.
+**What this buys.** B.1.2 makes system aggregation usable for engineering while keeping part-whole, holon delimitation, boundary crossing, functional structure, module allocation, and mathematical expression distinct.
 
-#### B.1.2:4 - Forces
+**Not this pattern when.**
 
-| Force                     | Pull                          | Push                                                         |
-| ------------------------- | ----------------------------- | ------------------------------------------------------------ |
-| **Physical plausibility** | Sum masses, conserve energy   | **Abstraction** — keep rules domain‑agnostic                 |
-| **Interface clarity**     | Present one clean API         | **Fidelity** — expose every critical port                    |
-| **Safety conservatism**   | Take worst‑case rating        | **Performance** — allow redundancy gains (via MHT later)     |
-| **Parallel build**        | Shard assembly, cache results | **Boundary realism** — stress must still balance across cuts |
+- If the object is not an admitted `U.System` or candidate system, use `A.1` first.
+- If the question is generic part-whole vocabulary, use `A.14`.
+- If the question is constructive grounding, use `C.13`.
+- If the question is functional behavior or functional element, use `A.6.F` and architecture structural-view owners.
+- If the question is module or bearer allocation, use `A.6.M` and architecture owners.
+- If the question is a mathematical aggregation lens, use `C.29`.
 
-#### B.1.2:5 - Solution (conceptual core)
+### B.1.2:1 - Problem Frame
 
-##### B.1.2:5.1 - Operator signature
+B.1.2 specializes B.1 for system holons. It keeps the useful engineering concerns from system-specific aggregation: physical plausibility, system delimitation, external crossing relations, component integration, whole-level characteristics, and boundary-interface compatibility.
 
+It does not make `Gamma_sys` the pattern head. It does not create generic boundary or interaction U-kinds. It does not say that a system changing another holon becomes the changed holon's super-holon.
+
+### B.1.2:2 - Problem
+
+Without B.1.2:
+
+1. **Boundary by drawing.** A box in a diagram is accepted as system delimitation.
+2. **External relations become parts.** Suppliers, grids, sensors, controllers, teachers, measuring instruments, or digital twins are placed inside the system because they interact with it.
+3. **Functional and physical structures collapse.** A resistor symbol, control function, chassis function, or service role is treated as a physical component by label.
+4. **Whole-level characteristics lack grounding.** Mass, capacity, reliability, safety, throughput, assurance, or agency-like characteristics are rolled up without saying which part relations and scales are used.
+5. **Transformation becomes containment.** A tool, teacher, actuator, script, or controller changes a holon and is then treated as that holon's containing whole.
+
+### B.1.2:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Engineering concreteness vs broad FPF holon scope | System aggregation must be practical for systems without making all holons systems. |
+| System delimitation vs external dependency | A system has a boundary in context, but many critical relations cross it. |
+| Component structure vs functional structure | Physical or organizational bearers may realize multiple functions, and one function may require multiple bearers. |
+| Conservative roll-up vs redundancy | Weakest-link and conservation checks are useful, but redundancy or substitution may require B.2 whole reidentification. |
+| Description vs in-life system | Diagrams, BIM models, digital twins, and dashboards describe systems; they are not the system by appearance. |
+
+### B.1.2:4 - Solution
+
+Use B.1.2 to recover a system aggregation relation and its delimitation discipline.
+
+#### B.1.2:4.1 - System Aggregation Relation
+
+```text
+SystemAggregationRelation@Context:
+  candidateSystemWholeRef: U.System
+  boundedContextRef:
+  identityOrRecognitionRule:
+  componentRelationRefs?
+  portionRelationRefs?
+  phaseRelationRefs?
+  memberRelationRefs?
+  holonDelimitationRelationRef:
+  externalBoundaryCrossingRelationRefs?
+  internalizedBoundaryCrossingRelationRefs?
+  functionalElementRefs?
+  moduleOrBearerAllocationRefs?
+  wholeLevelCharacteristicRefs?
+  constructionBasisRef?
+  evidenceRelationRefs?
+  mathLensOrRepresentationRef?
 ```
-Γ\_sys : (D : DependencyGraph\[U.System\], T : U.TransformerRole (plays `AssemblerRole`)) → E\_eff : U.System
+
+This relation is not a U-kind and not the system itself. It states which relations must be named before a system aggregation claim is relied on.
+
+#### B.1.2:4.2 - Delimitation And Boundary-Crossing
+
+Use `HolonDelimitationRelation@Context` for the current system delimitation: identity rule, included parts, excluded environment, selected structure, and context boundary conditions.
+
+Use `HolonBoundaryCrossingRelation@Context` or a direct owner for relations that cross that delimitation: material flow, energy flow, signal, control, measurement, source use, publication use, evidence relation, transformation, probe relation, supply relation, commitment relation, A.6.C contract-language unpacking, or coupling.
+
+Do not recast crossing relations as parthood merely because the relation is important.
+
+#### B.1.2:4.3 - Boundary-Interface Compatibility Check
+
+When a system aggregate exposes or hides crossing relations, record the compatibility choice:
+
+```text
+BoundaryInterfaceCompatibilityCheck@Context:
+  systemAggregationRelationRef:
+  crossingRelationRef:
+  compatibilityDecision: expose | namespace | internalize | exclude | useDirectOwner
+  ownerPatternRef:
+  evidenceRelationRef?
 ```
 
-* **D** – finite acyclic graph whose nodes share one temporal scope and obey the four DG rules (Pattern B .1.1).
-* **T** – physically real external system playing `TransformerRole` (e.g., crane, welding rig).
+This check is a system-aggregation aid, not a new ontology. It prevents silent loss of external obligations and unmanaged endpoint explosion.
 
-##### B.1.2:5.2 - Three attribute classes
+#### B.1.2:4.4 - Whole-Level Characteristics
 
-| Class                    | Fold rule                                  | Typical examples                        | Invariants touched       |
-| ------------------------ | ------------------------------------------ | --------------------------------------- | ------------------------ |
-| **Extensive**            | **Σ** (sum)                                | Mass, energy, cost                      | IDEM - COMM - LOC - MONO |
-| **Intensive / Risk**     | **min** (weakest‑link)                     | Temperature limit, SIL, encryption bits | WLNK - MONO              |
-| **Boolean / Capability** | **∨ / ∧** (OR for vuln, AND for must‑hold) | CVE exposure, “Has EmergencyStop”       | WLNK                     |
+Roll up system-level characteristics only after the relation and scale are selected.
 
-*Rule of thumb for managers:* *If it adds up in your spreadsheet → Σ; if it caps the system → min; if it is yes/no → logic gate*. Defaults match kernel table “Additive flow / Capacity / Boolean capability” .
+Useful families include:
 
-##### B.1.2:5.3 - Boundary‑Inheritance Standard (BIC)
+- additive quantities such as mass, cost, energy stock, or material amount;
+- limiting quantities such as pressure rating, weakest connector, safety class, or availability bottleneck;
+- logical or capability claims such as emergency-stop availability or vulnerability exposure;
+- architecture characteristics that depend on selected structure.
 
-For **every external interaction** of every part, `Γ\_sys` forces a deliberate choice:
+Use `C.16`, `A.19`, and `C.29` when characteristic space, scale, threshold, or mathematical lens is relied on for the current claim. Use B.2 when redundancy, closure, or coordination creates or reveals a whole that must be reidentified.
 
-1. **Promote** — port becomes part of the new system boundary.
-2. **Forward** — port remains on the child but is namespaced by the parent.
-3. **Encapsulate** — port becomes internal and disappears from public view.
+#### B.1.2:4.5 - Functional Elements And Bearers
 
-BIC is the antidote to *Interface Medusa*: it prevents silent loss of obligations or explosion of unmanaged endpoints.
+A functional element in a functional view is not automatically a system part.
 
-##### B.1.2:5.4 - Cut‑Stable Boundary Axiom (reminder)
+Recover separately:
 
-> Given any declared boundary 𝔅, `Γ\_sys(D,C)` **MUST** leave every across‑𝔅 interaction either identical or transformed by a rule that still satisfies the Quintet.
+- functional behavior or functional element under `A.6.F`;
+- physical, organizational, software, or operational bearer under `A.6.M`, A.14, C.13, and architecture owners;
+- allocation or correspondence between function and bearer;
+- system aggregation only when bearer parthood is independently admitted.
 
-#### B.1.2:6 - Step‑by‑Step Aggregation Recipe
+One bearer may realize several functions. One function may require several bearers. This is allocation and correspondence before it is part-whole.
 
-> **Audience:** lead engineer planning a multi‑team build; QA manager preparing an audit; analyst running a quick what‑if.
-> **Goal:** fold a ready Dependency Graph into one coherent system in **five repeatable moves**.
+### B.1.2:5 - Archetypal Grounding (Worked Cases)
 
-| Step                             | What you do                                                                                                                  | Why it matters                                                                    |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| **1 - Verify the graph**         | Run Pattern B .1.1 checklist (acyclic, typed edges, same scope, boundary tags).                                              | Avoid paradoxes before they snowball.                                             |
-| **2 - Label attributes**         | For every property in every node, mark it **Extensive**, **Intensive**, or **Boolean**. Defaults are in Sys‑CAL cheat‑sheet. | The fold rule depends on this label.                                              |
-| **3 - Decide the BIC**           | For each external port, pick **Promote / Forward / Encapsulate**. Record choice in the interface table.                      | Keeps APIs intentional and auditable.                                             |
-| **4 - Execute Γ\_sys** | *Extensive* → parallel Σ; *Intensive* → propagate min; *Boolean* → ∧/∨ logic.                                                | Implements the Invariant Quintet.                                                 |
-| **5 - Run Cut‑Stable test**      | For each declared boundary 𝔅, compare across‑𝔅 interactions before & after fold.                                           | Confirms that sharding or outsourced work didn’t shift loads or responsibilities. |
+#### B.1.2:5.1 - Pump Skid
 
-If the min rule is exceeded by design (e.g., triple redundancy boosts SIL beyond any part), stop here and initiate **Meta‑Holon Transition** (Pattern B .2) to formalise emergence.
+A pump skid is a candidate `U.System` whole. Pumps, frame, valves, controller, and connectors may be components after A.14 and C.13 admit the part-whole relation.
 
-#### B.1.2:7 - Worked Example — Battery‑Electric Bus Pack (2025 model year)
+The power grid, maintenance crew, telemetry dashboard, and supplier are not skid components merely because the skid depends on them. They are external systems, epistemes, publications, or source-use objects connected through direct relations.
 
-| Step                | Snapshot                                                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Graph**           | 16 modules → 4 strings → pack. Edges `ComponentOf`. All nodes `scope=design`.                                                  |
-| **Attribute label** | *Extensive*: energy (kWh), cost; *Intensive*: cell voltage limit, fire rating (SIL 2); *Boolean*: “Has self‑heating”.          |
-| **BIC decisions**   | Main DC output ‑ Promote; per‑string fuse access ‑ Forward; cell balancing ports ‑ Encapsulate.                                |
-| **Fold**            | Σ energy = 628 kWh; min voltage limit = 4.25 V; ∧ self‑heating = true.                                                         |
-| **Cut‑Stable**      | Across‑string current same pre/post fold. Pass.                                                                                |
-| **Outcome**         | Pack spec delivered to vehicle OEM; audit shows WLNK bound 4.25 V, MONO intact; financial model reads energy Σ for range calc. |
+#### B.1.2:5.2 - Resistor In A Circuit
 
-#### B.1.2:8 - Conformance Checklist (author‑facing)
+A resistor symbol in a circuit diagram is a functional or design-description element. The physical bearer may be a packaged resistor, a length of wire, a transistor region, or a module allocation. B.1.2 admits system aggregation only for the chosen physical or operational bearer relation, not for the symbol by label.
 
-| ID           | Question                                          | Pass if…                           |
-| ------------ | ------------------------------------------------- | ---------------------------------- |
-| **CHK‑GC‑1** | All properties classified?                        | No “unknown” label remains.        |
-| **CHK‑GC‑2** | Any property violate its fold rule?               | None; else declare MHT.            |
-| **CHK‑GC‑3** | BIC table complete?                               | Every external port accounted for. |
-| **CHK‑GC‑4** | Cut‑Stable test green on all declared boundaries? | Yes.                               |
-| **CHK‑GC‑5** | Provenance hash stamped?                          | `E_eff.meta.provenance` populated. |
+#### B.1.2:5.3 - Digital Twin Of A Building Asset
 
-Failing a line means the operator must **refactor the graph or escalate to Meta‑Holon** before reuse.
+A BIM model, asset register, dashboard, or digital twin may describe the built asset and its systems. It is not the asset's part by being linked in a model. Use architecture-description, publication, evidence, source-use, and designation owners for the description side; use B.1.2 only for admitted system parts of the built asset.
 
-#### B.1.2:9 - Consequences
+#### B.1.2:5.4 - Lathe And Workpiece
 
-| Benefit for project leadership                                                                 | Secondary effect                                      |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **Plausible mass‑energy books** — no “phantom capacity” during tender negotiations.            | Vendor bids align faster; fewer change orders.        |
-| **Single-page interface sheet** - the BIC doubles as hand-over Standard to the next supply-chain supplier. | Interface churn caught early; legal exposure shrinks. |
-| **Safety‑first roll‑up** — weakest‑link bound surfaces brittle parts immediately.              | QA budget aimed at right module; no gold‑plating.     |
-| **Seamless parallel builds** — COMM + LOC proven once, reused by every subStandardor.          | Integration rehearsals shortened by weeks.            |
+The lathe can change the workpiece through a bounded transformation and work occurrence. That relation does not make the workpiece a lathe component, nor the lathe the workpiece's super-holon. Use A.3.4, A.15.1, A.12, and boundary-crossing owners before any part-whole claim.
 
-#### B.1.2:10 - Rationale (link to modern practice)
+### B.1.2:5.1 - Bias-Annotation
 
-* **Model‑Based Systems Engineering (MBSE 2023‑2025):** Tools like Cameo Systems Modeler automated Σ/min logic via “Property Kind” stereotypes—Γ\_sys formalises the same trick.
-* **Safety audits:** ISO 26262‑2 Ed 3 explicitly adopts “minimum of ASIL ratings” rule; our min fold embeds it by design.
-* **Interface control:** Aerospace ICDs (NASA‑7120.5E updates 2024) require a promotion/forward/encapsulate decision tree identical to BIC.
-* **Cloud operations:** Kubernetes 1.30 resource quotas implement additive CPU/memory and min PodDisruptionBudget—industrial proof that the schema scales.
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Box as ontology | A diagram boundary becomes system delimitation by appearance. | Name identity rule, holon delimitation relation, and part relations. |
+| Interface as part | Supply, signal, measurement, control, publication, or evidence relation becomes a component. | Keep boundary-crossing and direct-owner relations separate from parthood. |
+| Function as bearer | A functional block or symbol is treated as a physical or organizational component. | Recover function, bearer, allocation, and system part-whole claims separately. |
+| Description as system | BIM model, dashboard, digital twin, register, or source record is treated as the system. | Use description, publication, evidence, source-use, and designation owners for the description side. |
+| Transformation as containment | A tool or teacher changes a holon and is read as that holon's super-holon. | Use A.3.4, A.15.1, A.12, and boundary-crossing owners before part-whole admission. |
 
-Real‑world convergence across steel, silicon and software shows the rules are not theory nice‑to‑haves; they are what successful projects already do—Γ\_sys just makes it explicit, automatic and auditable.
+### B.1.2:6 - Conformance Checklist
 
-#### B.1.2:11 - Relations
+| Check | Requirement |
+| --- | --- |
+| `CC-B1.2-1` | The candidate whole is an admitted `U.System` or candidate system under A.1. |
+| `CC-B1.2-2` | System aggregation names bounded context, identity or recognition rule, part relation, and holon delimitation relation. |
+| `CC-B1.2-3` | External supply, signal, control, measurement, source, publication, evidence, transformation, or coupling relations are kept as boundary-crossing or direct-owner relations unless parthood is separately admitted. |
+| `CC-B1.2-4` | Functional elements and physical or organizational bearers are separated before allocation or parthood claims. |
+| `CC-B1.2-5` | Whole-level characteristic roll-up names the characteristic, scale, relation owner, and mathematical lens when current. |
+| `CC-B1.2-6` | A system changing another holon is not treated as that holon's super-holon by transformation, manufacturing, teaching, measurement, repair, or control relation alone. |
+| `CC-B1.2-7` | Description artifacts, models, dashboards, digital twins, and registers are kept distinct from the system holon they describe. |
 
-* **Builds on:** Dependency Graph (B .1.1); Transformer Principle (A.3).
-* **Enables:** Meta‑Holon Transition (B .2); Calculus of Trust (B .3).
-* **Refined by:** Γ<sub>epist</sub> (B .1.3) for knowledge epistemes or publications; Γ<sub>time</sub> / Γ<sub>ctx</sub> (B .1.4) for temporal or context‑sensitive domains.
-* **Exemplifies:** Pillars P‑8 Cross‑Scale Consistency, P‑9 State Explicitness.
+### B.1.2:7 - Common Anti-Patterns and How to Avoid Them
 
-> **Take‑away for engineering managers:** *“Classify, Standard, fold—then sleep easy knowing the numbers and the interfaces will still match tomorrow.”*
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Box as boundary | A diagram rectangle determines system membership. | Name holon delimitation, identity rule, and part relations. |
+| Supplier as component | External supplier or grid is treated as part of the system. | Use boundary-crossing relation, supply relation, commitment relation, A.6.C contract-language unpacking, evidence relation, or source-use relation. |
+| Function block as module | A functional block is treated as a physical component. | Recover functional element, candidate bearer, and allocation relation separately. |
+| Digital twin as part | Model or dashboard appears inside the system aggregate. | Use architecture-description, publication, evidence, or source-use owners. |
+| Redundancy as arithmetic | Redundancy is averaged into a better system score. | Check characteristic scale and existing-whole explanation; use B.2 when the whole must be reidentified. |
+
+### B.1.2:8 - Consequences
+
+Positive consequences:
+
+- System aggregation remains practical for engineering systems and organizations.
+- Boundary and interface concerns become explicit relation work without false U-kinds.
+- Functional architecture, module allocation, and physical parthood stop collapsing into one diagram.
+- Digital-twin and publication artifacts stay on the description side unless another direct pattern admits a stronger relation.
+
+Costs:
+
+- Engineering diagrams need relation-owner annotations when used for decisions.
+- Some familiar component lists must be split into physical parts, functional elements, external systems, sources, and descriptions.
+- Whole-level characteristic claims need scale and relation discipline.
+
+### B.1.2:9 - Rationale
+
+System aggregation is the place where holonic thinking is most tempting and most useful. It is also where false parthood is easy: anything connected, measured, represented, or controlled can be drawn inside a system box.
+
+B.1.2 preserves the engineering payoff while requiring holon delimitation, boundary-crossing relation discipline, and direct owners for function, module, characteristic, evidence, and publication claims.
+
+### B.1.2:10 - SoTA-Echoing
+
+| Source family | Current lesson for B.1.2 | FPF decision |
+| --- | --- | --- |
+| Systems engineering and digital engineering practice | System breakdowns, interfaces, allocations, views, and digital twins must be coordinated but not identified with one another. | B.1.2 separates system aggregation, functional view, bearer allocation, description, and publication claims. |
+| Reliability and safety engineering | System-level claims need conservative relation and scale discipline. | Whole-level characteristic roll-up returns to C.16, A.19, and C.29 when those claims are relied on for the current use. |
+| Applied ontology and constructional mereology | External dependence and part-whole construction are different relations. | Boundary-crossing relations do not become parthood without A.14 and C.13 admission. |
+| Holonic and cyber-physical systems practice | Coordination and closure can create useful whole-level objects. | B.2 owns whole reidentification when existing system aggregation is insufficient. |
+
+### B.1.2:11 - Relations
+
+- **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, and `A.6.5`.
+- **Coordinates with:** `A.6.F` for functional elements, `A.6.M` for module and bearer allocation, `A.22` and `C.30` for selected structure and architecture, `C.16` and `A.19` for characteristics, `C.29` for mathematical lenses, `A.3.4` and `A.12` for transformation and acting-side externalization, and `C.30.AD` or `C.30.AD.BA` for architecture-description cases.
+- **Can contribute evidence to:** `B.2` when system aggregation no longer explains the whole-level claim and whole reidentification is needed.
 
 ### B.1.2:End
 

@@ -6,12 +6,12 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 23534
-line_end: 23537
+line_start: 24126
+line_end: 24136
 dependencies:
   - "A.17"
   - "A.18"
@@ -46,5 +46,12 @@ keywords:
 
 ## A.19 - CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)
 
+> **Type:** Kernel characteristic-space and dynamics-typing pattern
 > **Status:** Stable
+
+**Use this when.** Use this pattern when the current object is the declared `CharacteristicSpace` itself: characteristics, scales, value sets, coordinate slots, optional overlays, comparability boundaries, normalization boundaries, missingness, and the `U.Dynamics.stateSpace` hook.
+
+**What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, smuggle method sequences into checklists, or give consumer patterns their own private space kinds.
+
+**What this buys.** One declared space that makes state, threshold, comparability, normalization, and dynamics-typing claims inspectable without turning A.19 into a scoring, dashboard, evidence, gate, or evaluation pattern.
 

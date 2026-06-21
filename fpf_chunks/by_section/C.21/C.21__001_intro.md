@@ -6,12 +6,12 @@ section_id: "C.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:intro — Intro"
-line_start: 44015
-line_end: 44024
+line_start: 45564
+line_end: 45571
 dependencies:
   - "A.17"
   - "A.18"
@@ -40,12 +40,10 @@ keywords:
 ---
 
 ## C.21 - Field Health & Structure (Discipline-CHR)
+> **Status:** Stable
+> **Type:** Pattern
 
-> *Purpose.* Give FPF a **typed, reviewable** way to characterize the *health, maturity, and structure* of a scientific or engineering **discipline**, without collapsing into taste, anecdotes, dashboard views, audit labels, or single-number scores. The pattern defines a **portable set of Characteristics** and guards (legality, freshness, scope) that any Context can specialize.
+> *Purpose.* Give FPF a **typed, reviewable** way to characterize the *health, maturity, and structure* of a scientific or engineering **discipline**, without collapsing into taste, anecdotes, dashboard views, audit labels, or single-number scores. The pattern defines a **portable set of Characteristics** and guards (scale admissibility, freshness, scope) that any Context can specialize.
 
 *This pattern supplies the CHR vocabulary of health for disciplines. C.20 composes the discipline; C.21 declares discipline-health characteristics and admissible readings; Part G may publish SoTA palettes or time-series views; Bridges keep cross-context meaning honest; penalties touch **R** only.*
-
- **Status & placement.** Part C (Kernel Extention Specifications) → Cluster C.I (Core CHRs/CALs).
-  **Depends on:** **MM-CHR** (C.16), **KD-CAL** (C.2), **USM/Scope** (A.2.6), **Trust & Assurance** (B.3), **E.10 (LEX‑BUNDLE)**.
-  **Coordinates with:** **C.20 Discipline‑CAL** (what a `U.Discipline` is), **G.2** (SoTA palette), **G.12** (dashboard), **G.0** (CG‑Spec registry).
 

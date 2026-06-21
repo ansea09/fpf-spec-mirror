@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:10 — Relations"
-line_start: 5945
-line_end: 5987
+line_start: 6106
+line_end: 6148
 dependencies:
   - "A.15"
   - "A.2"
@@ -33,11 +33,11 @@ keywords:
 A.3 operationalises A.7 by keeping **target EntityOfConcern ≠ MethodDescription ≠ observation/log Work**:
 *target EntityOfConcern* = target holon; *MethodDescription* = design description; *observation/log Work* = `Work` evidence or record. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
 
-**A.12 Agent Externalization & External Transformer.**
-A.3’s CC‑A3‑1 is the mechanical guard‑rail for A.12: even in self‑modification, the *modelling split* keeps the agent (transformer bearer) distinct from the object‑under‑change.
+**A.12 Acting-Side Externalization & External Transformer.**
+A.3's CC-A3-1 is the mechanical guard-rail for A.12: even in self-modification, the *modelling split* keeps the acting-side holder distinct from the object-under-change.
 
 **A.13 Agential Role.**
-When the bearer is an **Agent**, A.3 keeps identity and states management in Agent‑CAL (`U.Agent`, `U.Intent`, `U.Action`), while still requiring `RoleAssigning` + Γ compatibility. This is where policy/plan/action pipelines live.
+When the bearer is an acting system or collective system with an agential role assignment, A.3 keeps identity, role assignment, method, plan, work, and evidence separate while A.13 supplies the agency-characteristic profile. This is where policy, plan, and action pipelines remain tied to explicit role assignments and Γ compatibility.
 
 **A.15 Role–Method–Work Alignment.**
 A.3 relies on A.15’s vocabulary guard‑rails (roles are not parts; methods are masks of work; specs are recipes). CC‑A3‑2/‑4 are enforceable precisely because A.15 fixes the naming discipline.

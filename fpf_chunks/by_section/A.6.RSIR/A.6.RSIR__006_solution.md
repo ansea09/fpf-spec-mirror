@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:4 — Solution"
-line_start: 13974
-line_end: 14054
+line_start: 14230
+line_end: 14311
 dependencies:
   - "A.10"
   - "A.15"
@@ -94,8 +94,9 @@ The note is complete when the current object or claim kind is clear enough to ap
 | role description or durable role name | `F.4`, `F.5`, `F.18`, and `F.17` when public or cross-context reuse is current | Do not hide capability, method, or work inside the name. |
 | role enactment wording | `A.15`, `A.15.1`, and `A.2.1` | Use direct work relation or `RoleEnactmentFact`; do not create a root enactment ontic. |
 | module interface or architecture interface | `A.6.M` for module-interface claims; `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.TFS-REL` for architecture-of, structural-view, architecture-description, or transformation-flow-structure claims; `A.6.0` and `A.6.5` for signature or slot claims | Do not create generic `U.Interface`. |
+| Markov blanket, Markov border, computational boundary, boundary leak, or active-inference boundary | Recover the current claim before choosing a pattern: accepted local Markov dynamics (`A.3.3`), mathematical or probabilistic lens (`C.29`, sometimes `C.26`), viability or measure-model-act envelope (`C.26.3`), holon delimitation or boundary crossing (`A.1` plus the direct relation owner), relation precision (`A.6.P` after a relation-bearing case is recovered), signature or slot claim (`A.6.0`, `A.6.5`), module-interface or interface-specification claim (`A.6.M`), functional port or functional element (`A.6.F`), physical component (`A.14`, `C.13`, `B.3.5`), boundary description or publication (`C.30.AD`, `E.17`), agency-threshold claim (`A.13`, `A.19`, `C.16`), or boundary-package statement classification (`A.6.B`) only when L, A, D, or E classification is the recovered object. | Do not create `U.MarkovBlanket`, generic `U.Boundary`, generic `U.Interface`, or binary `U.Agent`; do not treat a statistical separation, interface, interface module, physical component, description, and boundary-package classification as the same object. |
 | functional port or functional structure | `A.6.F`, `A.3.4`, `E.18`, `C.30.TFS-REL` | Do not equate port, function, module interface, and signature by vocabulary alone. |
-| API, protocol, connector, service-access wording | Recover the governed object first: `E.17` for API or interface-description publication; `A.6.0` and `A.6.5` for signature or relation-position claims; `A.6.M` for module-interface claims; `A.6.B`, `A.6.C`, or `A.6.8` for boundary, agreement-like, protocol, SLA, service, or service-access cases. | API may be description, boundary, protocol, service relation, signature, or publication. |
+| API, protocol, connector, service-access wording | Recover the governed object first: `E.17` for API or interface-description publication; `A.6.0` and `A.6.5` for signature or relation-position claims; `A.6.M` for module-interface claims; `A.6.C` or `A.6.8` for agreement-like, protocol, SLA, service, or service-access cases; `A.6.B` only for L, A, D, or E statement classification inside a boundary package. | API may be description, protocol, service relation, signature, publication, module interface, or boundary-package statement classification. |
 | capability | `A.2.2`; method, work, or gate patterns only when they name capability requirements | Role labels and interface labels do not create or demonstrate capability. |
 | affordance or action invitation | `A.6.A` | Do not rename affordance as role, interface, or capability until the direct pattern admits it. |
 | method, method description, work plan, or dated work | `A.3.1`, `A.3.2`, `A.15`, `A.15.1`, `A.15.2` | Method, description, plan, and work are distinct even when source wording says process. |

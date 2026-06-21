@@ -6,12 +6,12 @@ section_id: "C.2.7:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__019_review-matrix-and-extension-tests.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:18 — Review Matrix and Extension Tests"
-line_start: 38114
-line_end: 38132
+line_start: 39433
+line_end: 39451
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -35,7 +35,7 @@ keywords:
 ### C.2.7:18 - Review Matrix and Extension Tests
 
 #### C.2.7:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - are all claimed factors visible in the publication or cited source;
 - does any alias hide the factor bundle;
@@ -45,8 +45,8 @@ A reviewer should ask:
 #### C.2.7:18.2 - Local extension test
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
 
-#### C.2.7:18.3 - Migration test for legacy terminology
-Legacy vocabularies often use "symbolic", "distributed", or "encoding basis" as if one term solved the whole classification problem. A conforming migration unpacks the term into explicit factor dockings and then checks whether any cross-facet claims were smuggled into the old label.
+#### C.2.7:18.3 - Migration test for source terminology
+Source vocabularies often use "symbolic", "distributed", or "encoding basis" as if one term solved the whole classification problem. A conforming migration unpacks the term into explicit factor dockings and then checks whether any cross-facet claims were smuggled into the source label.
 
 #### C.2.7:18.4 - Bundle-comparison reminder
 Representation bundles may be compared across contexts only after the compared factors are explicit. If one context uses a compact local alias and another publishes the full factor bundle, require explicit docking before treating the two descriptions as commensurable.

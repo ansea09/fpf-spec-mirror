@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6.P"
 pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:8"
-section_title: "Common Anti‑Patterns and How to Avoid Them"
+section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-  - "A.6.P:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 13775
-line_end: 13811
+  - "A.6.P:8 — Common Anti-Patterns and How to Avoid Them"
+line_start: 14031
+line_end: 14067
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -54,7 +54,7 @@ keywords:
   - "under-specified relational language"
 ---
 
-### A.6.P:8 — Common Anti‑Patterns and How to Avoid Them
+### A.6.P:8 — Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 | ---------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |

@@ -6,12 +6,12 @@ section_id: "C.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:1 — Problem Frame"
-line_start: 38462
-line_end: 38465
+line_start: 39785
+line_end: 39788
 dependencies:
   - "A.1"
   - "A.11"
@@ -37,5 +37,5 @@ keywords:
 
 ### C.3:1 - Problem Frame
 
-Across contexts, "type" can mean ontology class, programming type, schema shape, category, source label, or public FPF U-kind. C.3 provides a smaller discipline: `U.Kind` is a context-local value used for typed reasoning about claims. It is not automatically a durable FPF U-kind and it does not by itself admit a `U.*` structural name. A C.3 `U.Kind` may be backed by construction, recognition, membership, or extent criteria in its bounded context, but that basis remains local typed-reasoning law until E.24.UK admits durable FPF kindhood.
+Across contexts, "type" can mean ontology class, programming type, schema shape, category, source label, or public FPF U-kind. C.3 provides a smaller discipline: `U.Kind` is a context-local value used for typed reasoning about claims. It is not automatically a durable FPF U-kind and it does not by itself admit a `U.*` structural name. A C.3 `U.Kind` may be backed by construction, recognition, membership, or extent criteria in its bounded context, but that basis remains local typed-reasoning law until `E.24.UK` admits durable FPF kindhood.
 

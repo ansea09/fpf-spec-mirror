@@ -6,12 +6,12 @@ section_id: "A.6:4"
 section_title: "Solution — A stack + a classification matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__005_solution-a-stack-a-classification-matrix.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:4 — Solution — A stack + a classification matrix"
-line_start: 7969
-line_end: 8195
+line_start: 8143
+line_end: 8369
 dependencies:
   - "A.10"
   - "A.15"
@@ -182,7 +182,7 @@ Action outputs after classification:
 - assign, remove, or clarify an accountable role assignment or commitment when the claim being made is `D-*`;
 - add, repair, or expose evidence-carrier instrumentation when the claim being made is `E-*`;
 - publish or update an MVPK face that cites L/A/D/E claim IDs rather than paraphrasing them;
-- reopen an `A.21` gate decision, `A.20` constraint-validity witness, `A.2.9` speech act, `A.2.8` commitment, `A.10` evidence path, or `B.3` assurance claim when the L/A/D/E-classified statement is being used beyond boundary wording;
+- reopen an `A.21` gate decision, `A.20` constraint-validity witness, `A.2.9` speech act, `A.2.8` commitment, `A.10` evidence relation, or `B.3` assurance claim when the L/A/D/E-classified statement is being used beyond boundary wording;
 - downgrade the visible wording to cue use or source-finding only when the exact source is missing;
 - keep the work claim or reliance claim local, reversible, or blocked only for the unsupported work claim or reliance claim while the source is repaired.
 
@@ -197,7 +197,7 @@ Action outputs after classification:
 
 > **Informative example.** Example rewrite (guarantee + SLA + measurement + enforcement):
 >
-> *Before (mixed, contract soup):* “The service **guarantees** 99.9% availability per calendar month and **MUST** keep p95 latency under 200ms; breaches are penalized; operators **SHALL** alert on violations.”
+> *Before (mixed contract prose):* “The service **guarantees** 99.9% availability per calendar month and **MUST** keep p95 latency under 200ms; breaches are penalized; operators **SHALL** alert on violations.”
 >
 > *After (classifiable + adjudicable):*
 > * `D-SLA-1` (Quadrant D, Commitments and SLA): “Provider **SHALL** meet `E-SLA-AVAIL-1` and `E-SLA-LAT-1` under the stated exclusions.”
@@ -222,12 +222,12 @@ These examples are informative. They show how to keep mixed authority prose from
 
 Then:
 - if a user is deciding whether the wording may guide action, enter `A.15`;
-- if evidence, currentness, or provenance is live, attach the `A.10` path;
+- if evidence, currentness, or provenance is live, attach the `A.10` evidence relation;
 - if trust, readiness, compliance, or release confidence is being raised, build the `B.3` assurance tuple;
 - if an actual gate decision or gate passage is asserted, cite `A.21` `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`;
 - if a flow witness or constraint witness is asserted, cite `A.20` `ConstraintValidity` status or witness;
-- if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier path;
-- if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the kind under repair.
+- if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier relation;
+- if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the current kind.
 
 Policy-as-code, dynamic authorization, credential, register-backed status, provenance, attestation, and assurance practices support complementary parts of this split: policy engines support bounded authorization decisions; credentials support issuer, holder, verifier, and status claims; governing registers or status-source entries may carry role effects, status effects, permission, duty, or gate-state effects only when the bounded context gives that source such force; provenance and attestation support bounded origin or process claims; assurance practice supports claim-argument-evidence confidence claims. None of them lets wording, a displayed credential, a register excerpt, a provenance label, or a schema cue stand in for the subject named by value, requested policy operation or work class, affected resource or work target, context, policy or gate version, evidence refs, validity or revocation window, gate decision, or work occurrence needed for work use or reliance use.
 
@@ -248,7 +248,7 @@ When practitioners say “the API contract”, they usually compress multiple di
 
 * **Promise content (promise content; `U.PromiseContent`, A.2.3):** what is promised to be made available to eligible consumers — **a promise, not execution** (`U.Work`).
 * **Utterance package (published descriptions + instituting act):** what is said and published and versioned (signature or mechanism descriptions plus MVPK faces), plus the `U.SpeechAct <: U.Work` that published or approved it when provenance matters (A.2.9).
-* **Commitment (deontic binding; `U.Commitment`, A.2.8):** what an accountable role assignment, `U.Role`, or admitted acting system is obligated, permitted, or prohibited to do (often: to satisfy a promise content).
+* **Commitment (deontic commitment relation; `U.Commitment`, A.2.8):** what an accountable role assignment, `U.Role`, or admitted acting system is obligated, permitted, or prohibited to do (often: to satisfy a promise content).
 * **Work + Evidence (adjudication substrate; `U.Work` + carriers):** what actually happens and what carriers and traces can adjudicate whether commitments and operational guarantees were met.
 
 In A.6 terms:

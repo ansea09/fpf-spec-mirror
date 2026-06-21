@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.3.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
-line_start: 79825
-line_end: 80262
+line_start: 82585
+line_end: 83022
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -41,7 +41,7 @@ dependencies:
 keywords:
   - "CHR Pack@CG-Frame"
   - "CHR authoring"
-  - "CSLC legality"
+  - "CSLC lawfulness"
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "characteristics"
@@ -480,7 +480,7 @@ This pattern aligns with post‑2015 best practice by:
 * treating abstention/defer and set‑valued outcomes as first‑class design objects (consistent with modern selective prediction and set‑valued reporting practice),
 * keeping multiobjective and archive‑based reasoning set‑returning rather than silently scalarizing (consistent with QD/illumination and open‑ended evaluation practice after 2015),
 * making evaluation semantics reproducible through explicit edition/policy pinning (aligned with the modern emphasis on reproducibility and “specifying the evaluation surface” rather than only reporting metrics),
-* modularizing method‑family specifics (QD/OEE, explore‑exploit) via explicit wiring and governing-definition assignment rather than embedding method semantics into universal measurement legality.
+* modularizing method‑family specifics (QD/OEE, explore‑exploit) via explicit wiring and governing-definition assignment rather than embedding method semantics into universal measurement admissibility.
 
 ### G.3:12 - Relations
 

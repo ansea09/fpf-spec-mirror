@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 53370
-line_end: 53638
+line_start: 55222
+line_end: 55490
 dependencies:
   - "A.10"
   - "A.15"
@@ -139,11 +139,11 @@ StratificationSourceLabelRepairNote:
 
 #### C.30.STRAT:4.1 - Recovery sequence
 
-1. **Bound the text and label.** Name the sentence, table row, diagram label, publication unit, or source span; copy the source label; and state the local sentence role.
+1. **Bound the text and label.** Name the sentence, table row, diagram label, publication unit, or source span; copy the source label; and state the local sentence function.
 2. **Check cheap closure.** If there is no FPF-governed use, keep ordinary prose or quote-only wording and stop. If one small local rewrite restores the intended non-FPF use, close locally under `E.10`.
 3. **Recover candidate ontology.** Recover candidate primary `EntityOfConcern` kinds, candidate encountered FPF kinds or references, relation candidates, claim-use candidates, source-use candidates, scope, time, viewpoint, and context facets. Include literal and intended candidates when metonymy or compression is plausible.
 4. **Select the ontological neighborhood.** Select the first applicable neighborhood by recovered relation, claim-use, source-use disposition, formal apparatus, or governing-pattern field set, not by the source label.
-5. **State the apparatus that makes the repair checkable.** Use relation slots, control roles and rate bands, module-interface fields, flow fields, transformation-flow fields, characteristic and scale construction, publication relation set, source-use disposition, mathematical-lens fields, evidence path, assurance argument, gate record, work occurrence, decision record, causal-use record, or ordinary non-use disposition, with scope, time, viewpoint, and context facets only where the recovered claim or use needs them.
+5. **State the apparatus that makes the repair checkable.** Use relation slots, control roles and rate bands, module-interface fields, flow fields, transformation-flow fields, characteristic and scale construction, publication relation set, source-use disposition, mathematical-lens fields, evidence relation, assurance argument, gate record, work occurrence, decision record, causal-use record, or ordinary non-use disposition, with scope, time, viewpoint, and context facets only where the recovered claim or use needs them.
 6. **Project back to wording.** Produce the repaired wording, compact note, direct governing-pattern application, or non-use disposition. The replacement candidate is accepted only after it passes `E.10`.
 7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader move. If no move remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
 
@@ -215,13 +215,13 @@ StratificationSourceLabelRepairNote:
   semanticAreaSenseFamily: cache/state/buffer/reuse source-label wording
   selectedOntologicalNeighborhood:
     cache label: state or currentness, module-interface, or flow-buffer neighborhood only after apparatus is recovered
-    proves wording: evidence or assurance neighborhood only if an evidence path or assurance argument is present
+    proves wording: evidence or assurance neighborhood only if an evidence relation or assurance argument is present
     scales wording: characteristic, scale, architecture scale-preference, or mathematical-lens neighborhood only if those fields are present
   primaryEntityOfConcernKind: ArchitectureOf@ServiceContext with a cache-related selected structure or state-bearing module candidate
   encounteredFPFKindOrReference: source label only; no `U.Cache`, no proof record, and no scale claim by word shape
   relationToPrimaryEntityOfConcern: cache is a candidate architecture-relevant structure or state-bearing item; proof and scale are adjacent claim uses
   recoveredKindRelationOrClaimUse: split into cache-structure/state candidate, evidence or assurance overread, and scale or lens-use candidate
-  sourceUseDisposition: keep `cache` as source label until the field set named by value is recoverable; lower `proves` if no evidence path is present
+  sourceUseDisposition: keep `cache` as source label until the field set named by value is recoverable; lower `proves` if no evidence relation is present
   governingPatternRef: `A.6.M`, `A.6.F`, `E.18`, `A.19.SPR`, or `A.3.3` for cache apparatus when recovered; `C.16.P`, `C.29`, or `C.31.ASAP` for scale or lens use when recovered; `A.10`, `B.3`, or `G.6` for evidence or assurance only when that claim is being made
   admissibleUse: use the sentence to start the field split and then cite only the recovered governing pattern results
   neighboringClaimBoundary: proof, assurance, scale-success, module-substitutability, and architecture-quality claims apply the governing pattern for the recovered claim being made
@@ -277,7 +277,7 @@ This pattern intentionally biases away from lexical replacement and toward ontol
 | Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by label. | Complete the `StratificationSourceLabelRepairNote` and select the governing pattern from the recovered neighborhood. |
 | C.30 takeover | Any structure-like word is treated as governed by C.30 because it sounds architectural. | Choose by selected `ontologicalNeighborhood`; non-source-label claims are governed by the patterns named in `C.30.STRAT:4.2`. |
 | Local trigger fanout | `A.6.M`, `C.30.LCA`, `C.31`, or another subject pattern copies a growing label table. | Keep one thin pointer to `C.30.STRAT` and keep the subject pattern to its own invariant. |
-| Expert-as-role false positive | `expert` in MoE prose becomes an `A.2` role-enactor claim by word alone. | Treat as source label for submodel, transformation, path selection, or candidate selection unless an `A.2` or `A.15` role or work claim is actually being made. |
+| Expert-as-role false positive | `expert` in MoE prose becomes an `A.2` role-assignment or A.15 work-responsibility claim by word alone. | Treat as source label for submodel, transformation, path selection, or candidate selection unless an `A.2`, `A.2.1`, or `A.15` role-assignment, responsibility, or work claim is actually being made. |
 | Gate-as-gate-decision false positive | A gating function, UI label, or source word becomes gate passage. | Use `A.20` or `A.21` only for actual constraint-validity or gate-decision claims; otherwise use the function, flow, publication, or ordinary-label disposition named by value. |
 
 ### C.30.STRAT:9 - Consequences

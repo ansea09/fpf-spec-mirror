@@ -6,12 +6,12 @@ section_id: "A.6.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__011_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:10 — Rationale"
-line_start: 10888
-line_end: 10908
+line_start: 11070
+line_end: 11090
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -50,6 +50,6 @@ Because almost all subtle errors in multi‑view reasoning show up as **silent r
 FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) across relations, methods, roles, and now epistemes. Re‑using that discipline here:
 
 * aligns episteme morphisms with the rest of the framework;
-* enables later mechanised checks (e.g., that a viewing only touches slots it promised to touch);
+* enables mechanised checks (e.g., that a viewing only touches slots it promised to touch);
 * avoids minting yet another notion of “parameter” or “role in a relation”.
 

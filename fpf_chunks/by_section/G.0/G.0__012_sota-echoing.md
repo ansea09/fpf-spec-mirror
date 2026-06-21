@@ -6,12 +6,12 @@ section_id: "G.0:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__012_sota-echoing.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:11 — SoTA‑Echoing"
-line_start: 78870
-line_end: 78879
+line_start: 81630
+line_end: 81639
 dependencies:
   - "A.10"
   - "A.17"
@@ -43,8 +43,8 @@ keywords:
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "ScaleComplianceProfile (SCP)"
+  - "admissibility gate"
   - "edition pins"
-  - "legality gate"
   - "Γ-fold"
   - "Φ(CL)"
   - "Φ_plane"

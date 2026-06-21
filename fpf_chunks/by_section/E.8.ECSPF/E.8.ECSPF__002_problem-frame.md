@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:1 — Problem frame"
-line_start: 58263
-line_end: 58282
+line_start: 60686
+line_end: 60705
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,7 +28,7 @@ keywords:
 
 ### E.8.ECSPF:1 - Problem frame
 
-Use `E.8.ECSPF` when an evaluation `CharacteristicSpace` constructed or repaired under `A.19.ECS` must be published as an FPF pattern. The question is not "what values should this evaluated object be judged by?" but "how do we write the FPF pattern publication form so those values remain usable, reviewable, and bounded?"
+Use this pattern when an evaluation `CharacteristicSpace` constructed or repaired under `A.19.ECS` must be published as an FPF pattern. The question is not "what values should this evaluated object be judged by?" but "how do we write the FPF pattern publication form so those values remain usable, reviewable, and bounded?"
 
 `A.19.ECS` governs the evaluation characteristic-space specification: evaluated object kind, use scope, contrast cases, coordinate set, value meanings, evidence basis, result-row shape, calibration points, coordinate-specific payloads, missingness, protected trade-offs, status meanings, and stop or reopen conditions. `E.8` governs ordinary FPF authoring form. `E.8.ECSPF` governs their intersection: an FPF pattern whose main payload is a reusable evaluation.
 

@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 14055
-line_end: 14074
+line_start: 14312
+line_end: 14331
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 
 **System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If the claim is only a signature declaration for the exchanged medium and boundary conditions, use `A.6.0` plus `A.6.5`. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
 
-**Role case: API provider role.** A source says "the API role is provider." RSIR splits the project concern. If "provider" is a work-facing role, recover `ProviderRole`, a `U.RoleAssignment`, `HolderSlot`, bounded context, and assignment window. If the API is a publication or protocol description, use `E.17` for publication and `A.6.8` or `A.6.C` for service, protocol, SLA, or agreement-like boundary wording. If a provider or consumer commitment is current, use `A.2.3` or `A.6.C`; if boundary semantics are current, use `A.6.B` or `A.6.M`. Do not assign a work role to the API description.
+**Role case: API provider role.** A source says "the API role is provider." RSIR splits the project concern. If "provider" is a work-facing role, recover `ProviderRole`, a `U.RoleAssignment`, `HolderSlot`, bounded context, and assignment window. If the API is a publication or protocol description, use `E.17` for publication and `A.6.8` or `A.6.C` for service, protocol, SLA, or agreement-like boundary wording. If a provider or consumer commitment is current, use `A.2.3` or `A.6.C`; if module-interface semantics are current, use `A.6.M`; if boundary-package statement classification is current, use `A.6.B`. Do not assign a work role to the API description.
 
 **Evidence case: reviewer evidence role.** A report says "reviewer evidence role approved the gate." RSIR blocks the composite. A reviewer may be a role value assigned to a system or acting holon under `A.2` and `A.2.1`. A report episteme may be used in an evidence-use relation under `A.10`, `B.3`, `F.10`, or `E.17`. A gate approval may be a gate decision under `A.21` or a speech-act case under `A.2.9`. No episteme gets a work role by being evidence.
 

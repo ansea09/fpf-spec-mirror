@@ -1,60 +1,78 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.5.3"
-pattern_title: "Role-Projection Bridge"
+pattern_title: "Domain-Concept Bridge"
 section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.5.3 — Role-Projection Bridge"
+  - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 34585
-line_end: 34620
+line_start: 35847
+line_end: 35881
 dependencies:
+  - "A.13"
+  - "A.15"
   - "A.2"
+  - "A.2.1"
+  - "A.6.5"
+  - "A.7"
+  - "B.3.3"
+  - "C.2.1"
   - "C.3"
+  - "E.17"
+  - "E.24.UK"
+  - "F.1"
+  - "F.18"
+  - "F.2"
+  - "F.3"
+  - "F.5"
+  - "F.7"
+  - "F.8"
+  - "F.9"
 keywords:
+  - "bounded context"
+  - "bridge scope"
   - "concept bridge"
-  - "domain-specific vocabulary"
-  - "mapping"
-  - "terminology"
+  - "domain vocabulary"
+  - "local sense"
+  - "role assignment boundary"
 ---
 
 ### B.5.3:5 - **Archetypal Grounding**
 
-To illustrate the pattern in action, let's consider how we would bridge the domain of **classical thermodynamics** to the FPF kernel.
+A thermodynamics team models a heat engine.
 
-1.  **Define the Roles:** A domain expert creates a set of `Role`s, each refining a core `U.Type`:
-    *   A `U.Role` named `ThermodynamicSystemRole` with `refinesType: U.System`. It might have a description: "A region of the universe under study, separated by a boundary."
-    *   A `U.Role` named `MacrostateRole` with `refinesType: U.State`. Its description could specify that it is defined by variables (P, V, T, N).
-    *   A `U.Role` named `ControlVolumeRole` with `refinesType: U.Boundary`.
-    *   A `U.Role` named `FreeEnergyObjectiveRole` with `refinesType: U.Objective`.
+* "Thermodynamic system" names the engine as the entity under thermodynamic concern in the current bounded context. The bridge points to the same system or holon already used elsewhere, plus the thermodynamic boundary and state variables that matter here. It is not automatically a role.
+* "Macrostate" names a state description or characteristic bundle over pressure, volume, temperature, and particle amount. The bridge records the reference scheme and units.
+* "Control volume" may name a boundary or region relation. The bridge must say which entity is bounded and which exchanges cross the boundary.
+* "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The bridge must say which FPF value the decision uses.
+* If the engine control system is assigned the role of heat-source controller in a work context, that is a separate `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` claim.
 
-2.  **Apply the Roles in a Model:** An engineer modeling a heat engine would then use these roles:
-    *   They create an instance of `U.System` representing the engine and assert: `HeatEngine_Instance plays_role_of: ThermodynamicSystemRole`.
-    *   They model the engine's state and assert: `EngineState_Instance plays_role_of: MacrostateRole`.
-    *   They define the system's goal and assert: `EngineObjective_Instance plays_role_of: FreeEnergyObjectiveRole`.
+What this achieves:
 
-**What this achieves:**
+* Domain constraints become reviewable without turning every domain word into a root kind.
+* Verification can use the governing pattern for the recovered value: boundary discipline for a control volume, characteristic-space discipline for state variables, role-assignment discipline for controller work, and publication-use or evidence-use discipline for reports and dashboards.
+* The heat engine remains the same system or holon when a power-plant architecture, finance model, safety case, and thermodynamics model all discuss it. Bridges record which local meanings travel across those contexts and which losses block substitution.
 
-*   The model is now **semantically rich**. Tools can now understand that `HeatEngine_Instance` is not just any system, but one that should be analyzed using the laws of thermodynamics.
-*   The model is **verifiable**. A tool could now check if an entity playing the `MacrostateRole` actually has attributes for Pressure and Temperature, enforcing domain-specific consistency.
-*   The model remains **universally compatible**. Because `ThermodynamicSystemRole` refines `U.System`, the heat engine can still be reasoned about as a generic system in a wider context (e.g., in a model of the entire power plant).
+The same local word can be reused in an architecture view, a requirements document, and a simulation model only after the bridge states whether those uses point to the same entity, the same characteristic, the same role assignment, or merely related descriptions.
 
 **Conformance Checklist**
 
-*   **CC-B5.3.1 (Role Grounding Mandate):** Every `U.Role` **MUST** be linked to exactly one universal `U.Type` via the `refinesType` relation. Orphaned roles are forbidden.
-*   **CC-B5.3.2 (Explicit Role Assertion):** A domain-specific concept **SHALL NOT** be treated as a subtype of a `U.Type` directly. Its relationship **MUST** be expressed using the `plays_role_of` relation to a `U.Role`.
-*   **CC-B5.3.3 (Multi-Role Flexibility):** A single entity **MAY** `play_role_of` multiple `Role`s simultaneously, even from different domains.
-*   **CC-B5.3.4 (Semantic Integrity):** A `Role` **MAY** introduce additional constraints or required attributes that are more specific than those of the `U.Type` it refines, but it **SHALL NOT** contradict them.
+* **CC-B5.3.1 (Recover the FPF value used by the claim):** A bridge row names the current FPF value or slot relation before naming the preferred wording.
+* **CC-B5.3.2 (No kindhood by spelling):** A local term, dotted name, table row, or diagram label does not become a U-kind unless admission under `E.24.UK` and `C.3` supplies the ontic and the needed slot relation.
+* **CC-B5.3.3 (Role boundary):** Role language is used for system or holon role assignments in bounded work and method contexts; other uses are expressed through their own FPF values or relations.
+* **CC-B5.3.4 (Scope and loss):** A bridge records context, scope, loss, and return conditions; it does not claim lossless sameness by name alone.
+* **CC-B5.3.5 (Description boundary):** If the local word appears in a requirement, diagram, dashboard, report, or publication, the bridge keeps the described entity distinct from the description and publication form.
 
 **Common Anti-Patterns and How to Avoid Them**
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
+| Anti-Pattern | What it looks like | Better FPF move |
 | :--- | :--- | :--- |
-| **The "Subtype Explosion"** | The list of system "types" in the project grows endlessly: `ThermodynamicSystem`, `EconomicSystem`, `SoftwareSystem`, etc. The ontology becomes bloated and unmanageable. | **CC-B5.3.2** forbids this. There is only one `U.System`. Different perspectives on it are modeled as `Role`s, which keeps the core ontology lean. |
-| **The "Magic Synonym"** | A developer simply renames `U.System` to "Thermodynamic System" in their diagrams, but there are no formal rules or constraints attached. The term is just an alias. | The FPF pattern requires a formal `Role` with a `refinesType` link. This is a rich, structural connection, not just a cosmetic name change. |
-| **The "One-Hat Fallacy"** | The model forces an entity to be only one thing. An asset can be a "Physical Component" or a "Financial Asset," but not both, leading to duplicated models. | **CC-B5.3.3** explicitly allows an entity to play multiple roles. A single server in your data center can simultaneously `play_role_of` "PhysicalComponent" (for Sys-CAL) and "DepreciableAsset" (for a financial mechanisms). |
+| **Subtype explosion** | Every domain term becomes a new root kind. | Keep the local term in its context unless admission under `E.24.UK` and `C.3` proves durable kindhood. |
+| **Magic synonym** | A table says "sensor = component" with no scope or loss. | Write a bridge row naming the FPF value used by the claim, context, admissible use, and return trigger. |
+| **Role-for-everything** | Evidence, status, domain interpretation, and document use are all called roles. | Use role assignment only for systems or holons in work-facing contexts; use episteme, publication, evidence-use, status-use, characteristic, method, or work vocabulary for the value being claimed. |
+| **Description collapse** | A diagram label is treated as the entity, interface, or method itself. | Keep entity, description episteme, representation scheme, and publication form distinct. |
 

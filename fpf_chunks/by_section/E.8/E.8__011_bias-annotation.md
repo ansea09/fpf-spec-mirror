@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.8"
 pattern_title: "FPF Authoring Conventions & Style Guide"
 section_id: "E.8:6"
-section_title: "Bias‑Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__011_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-  - "E.8:6 — Bias‑Annotation"
-line_start: 58118
-line_end: 58121
+  - "E.8:6 — Bias-Annotation"
+line_start: 60541
+line_end: 60544
 dependencies:
   - "E.10"
   - "E.11"
@@ -52,7 +52,7 @@ keywords:
   - "“is required to”) in normative clauses"
 ---
 
-### E.8:6 - Bias‑Annotation
+### E.8:6 - Bias-Annotation
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
 This guidance biases toward **Did** (readability, narrative flow) and **Arch** (template regularity) by design; the mitigation is content-bearing reduced sections and justification through the smallest grounding, misuse, boundary, or reduced-case statement, not omission placeholders.
 

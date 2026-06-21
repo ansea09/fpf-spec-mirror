@@ -6,12 +6,12 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 81597
-line_end: 81614
+line_start: 84357
+line_end: 84374
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,13 +65,13 @@ A braking-system claim says the vehicle stops within a declared distance under d
 
 #### G.6:5.2 - Benchmark Parity Claim
 
-A model-family report says a method reaches parity on a benchmark. `G.6` cites the path through dataset version, evaluation protocol, result record, source publication, method description, and replication work. If the dataset edition, metric policy, or source-currentness relation changes, the affected `PathSliceId` reopens without rerunning unrelated evidence paths.
+A model-family report says a method reaches parity on a benchmark. `G.6` cites the path through dataset version, evaluation protocol, result record, source publication, method description, and replication work. If the dataset edition, metric policy, or source-currentness relation changes, the affected `PathSliceId` reopens without rerunning unrelated evidence-provenance paths.
 
 #### G.6:5.3 - Dashboard Status Cue
 
-A dashboard cell shows `Ready`. `F.10` governs status-family mapping and status-use. `A.10` governs the evidence relation to the governing register or source. `G.6` is used only when a downstream release package, selector, assurance record, or audit needs a stable path from the visible cue to source, status-use relation, query time, window, issuer, and currentness policy.
+A dashboard cell shows `Ready`. `F.10` governs status-family mapping and status-use. `A.10` governs the evidence relation to the governing register or source. `G.6` is used only when a downstream release package, selector, assurance record, or audit needs a stable evidence-provenance path from the visible cue to source, status-use relation, query time, window, issuer, and currentness policy.
 
 #### G.6:5.4 - Causal Policy Result
 
-A policy report says an intervention caused improvement. `C.28` governs causal-use support basis, identification, and realizability. `A.10` records evidence relation. `G.6` only gives a citable path from the policy claim to the causal-use refs, data sources, assumptions, work occurrences, time window, and bridge refs needed for later audit.
+A policy report says an intervention caused improvement. `C.28` governs causal-use support basis, identification, and realizability. `A.10` records evidence relation. `G.6` only gives a citable evidence-provenance path from the policy claim to the causal-use refs, data sources, assumptions, work occurrences, time window, and bridge refs needed for later audit.
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6"
 pattern_title: "Signature Stack & Boundary Discipline"
 section_id: "A.6:6"
-section_title: "Bias‑Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
-  - "A.6:6 — Bias‑Annotation"
-line_start: 8261
-line_end: 8268
+  - "A.6:6 — Bias-Annotation"
+line_start: 8435
+line_end: 8442
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
   - "“MUST” appears inside Definition: blocks"
 ---
 
-### A.6:6 - Bias‑Annotation
+### A.6:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
 

@@ -6,12 +6,12 @@ section_id: "C.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:intro — Intro"
-line_start: 37434
-line_end: 37441
+line_start: 38729
+line_end: 38742
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,4 +39,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Articulation explicitness.
+
+**Use this pattern when.** Use C.2.4 when a governed `U.Episteme` publication must say how explicit its semantic shape already is before routing, repair, prompt entry, or endpoint classification.
+
+**What goes wrong if missed.** A formal-looking sentence is treated as semantically ready, a real early cue is discarded as too vague, or `F` is misused as a proxy for whether anchors, slots, and relation-like structure are explicit enough.
+
+**What this buys.** A separate ordinal characteristic for articulation explicitness, so teams can publish early cues, threshold entry into `A.6.P`, and keep articulation distinct from formality, closure, trust, and endpoint authority.
 

@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.19.ECS"
 pattern_title: "Evaluation CharacteristicSpace Construction"
-section_id: "A.19.ECS:9"
+section_id: "A.19.ECS:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
-  - "A.19.ECS:9 — Consequences"
-line_start: 24157
-line_end: 24162
+  - "A.19.ECS:8 — Consequences"
+line_start: 24780
+line_end: 24785
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -27,7 +27,7 @@ dependencies:
 keywords:
 ---
 
-### A.19.ECS:9 - Consequences
+### A.19.ECS:8 - Consequences
 
 A conforming `A.19.ECS` result lets `E.22` ask a useful improvement-oriented quality-evaluation question and lets `E.23` run a repeated improvement loop without inventing values during the loop. It also gives object-specific evaluation patterns such as `E.21`, `E.9.DA`, `E.2.DA`, and `F.18` a common construction shape: evaluated object kind, use, contrast cases, coordinates, value meanings, evidence basis, result-row shape, calibration points, coordinate-specific payloads, protected trade-offs, status meanings, and local stop or reopen condition.
 

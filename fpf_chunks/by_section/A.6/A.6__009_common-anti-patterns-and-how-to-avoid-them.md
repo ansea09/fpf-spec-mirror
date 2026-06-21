@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6"
 pattern_title: "Signature Stack & Boundary Discipline"
 section_id: "A.6:8"
-section_title: "Common Anti‑Patterns and How to Avoid Them"
+section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
-  - "A.6:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 8282
-line_end: 8295
+  - "A.6:8 — Common Anti-Patterns and How to Avoid Them"
+line_start: 8456
+line_end: 8469
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
   - "“MUST” appears inside Definition: blocks"
 ---
 
-### A.6:8 - Common Anti‑Patterns and How to Avoid Them
+### A.6:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

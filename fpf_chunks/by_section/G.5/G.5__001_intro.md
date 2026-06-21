@@ -6,12 +6,12 @@ section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
   - "G.5:intro — Intro"
-line_start: 80734
-line_end: 80743
+line_start: 83494
+line_end: 83503
 dependencies:
   - "C.11"
   - "C.18"
@@ -55,5 +55,5 @@ keywords:
 
 **Plain-name.** Multi-method dispatcher and method-family registry.
 
-**Intent.** Govern the dispatcher/registry object set for rival method families and publish selector-facing retained-set outcomes without collapsing plurality into one hidden scalar winner.
+**Intent.** Govern the dispatcher and registry object set for rival method families and publish selector-facing retained-set outcomes without collapsing plurality into one hidden scalar winner.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.8 — Universal Core Principle"
-line_start: 19068
-line_end: 19169
+line_start: 19352
+line_end: 19491
 dependencies:
   - "A.11"
   - "C.3"
@@ -35,6 +35,10 @@ keywords:
 
 Use this pattern when a candidate durable U-kind is proposed as a kernel-level universal primitive rather than as a local concept, C.3 `U.Kind`, direct subject-pattern value, Concept-Set row, slot, relation, record, publication form, or dependent durable value.
 
+**What goes wrong if missed.** A local domain noun enters the kernel as if it were universal, or a genuinely universal primitive is rejected because its domain projections use different words.
+
+**What this buys.** Kernel admission becomes a falsifiable cross-domain claim: the candidate must keep the same abstract contribution across diverse domain families while losses and local differences stay visible.
+
 Typical moments:
 
 - a candidate U-kind is proposed because several domains use similar words;
@@ -56,7 +60,7 @@ Typical moments:
 
 FPF needs some universal primitives. It also needs to avoid turning a field's favorite vocabulary into the kernel. A word that works in software, finance, biology, or physics may still be local. A kernel-level U-kind must survive contact with different foundational domains without changing what kind of work it does in the model.
 
-When source wording uses kind force for this admission question, recover it as kernel-level U-kind admission: `E.24.UK` decides durable U-kind pressure, and A.8 tests universal-core force.
+When source wording uses kind force for this admission question, recover it as kernel-level U-kind admission: `E.24.UK` decides durable U-kind admission basis, and A.8 tests universal-core claim force.
 
 ### A.8:2 - Problem
 
@@ -66,6 +70,15 @@ Without A.8:
 2. **Kernel bloat.** Near-universal values accumulate because each domain asks for its own core noun.
 3. **False universality.** Search frequency, source prestige, or familiar spelling replaces cross-domain evidence.
 4. **C.3 confusion.** A context-local `U.Kind` is mistaken for a universal FPF U-kind.
+
+### A.8:2.1 - Forces
+
+| Force | Tension |
+|---|---|
+| Universality vs parsimony | FPF needs a small kernel, but some concepts really do carry the same modeling work across domains. |
+| Domain familiarity vs abstract contribution | Familiar words and prestigious sources can hide that the candidate only works in one tradition. |
+| Same word vs same work | Different domains may use different words for the same abstract contribution, and the same word may name different local objects. |
+| Stable kernel vs evolving FPF | A kernel primitive must survive new pattern families without forcing every local distinction into U-kind status. |
 
 ### A.8:3 - Solution
 
@@ -94,7 +107,7 @@ UniversalCoreProjection:
 
 Three records are the minimum evidence. They are not an analogy. They are a falsification attempt: if one projection changes the candidate's abstract contribution, the candidate is not universal in the proposed form.
 
-### A.8:3.1 - Worked Grounding And Diversity Evidence
+### A.8:3.1 - Archetypal Grounding - Diversity Evidence
 
 For busy readers: one idea, three worlds. A candidate that cannot keep the same abstract contribution across three different domain families should stay local, dependent, or subject-pattern governed.
 
@@ -108,6 +121,10 @@ These rows are grounding examples, not automatic admissions. The projection reco
 
 When diversity evidence is load-bearing, record domain-family coverage, non-trivial difference, and bridge evidence. Quality-diversity telemetry such as `Diversity_P` or `IlluminationSummary` can support the projection record only through its governing C.17, C.19, or direct pattern; it is not a standalone gate.
 
+### A.8:3.2 - Bias-Annotation
+
+A.8 intentionally biases against kernel growth by name familiarity. This is useful because every admitted universal primitive raises the cost of FPF reasoning. The counter-bias is the three-domain falsification test: do not reject a candidate merely because domains spell it differently when the same abstract contribution is visible and losses are recorded.
+
 ### A.8:4 - Conformance Checklist
 
 | Check | Requirement |
@@ -118,6 +135,27 @@ When diversity evidence is load-bearing, record domain-family coverage, non-triv
 | `CC-A8-4` | Each projection states the same abstract contribution in that domain. |
 | `CC-A8-5` | Differences and losses are explicit; same-word evidence alone is insufficient. |
 | `CC-A8-6` | A failed A.8 test lowers the candidate to local use, dependent value, Concept-Set row, C.3 `U.Kind`, or direct governing pattern rather than preserving a universal U-kind by name. |
+
+### A.8:4.1 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails | Correct move |
+|---|---|---|
+| Same-word admission | A term is admitted because many domains use the same word. | Require three domain-family projection records that show the same abstract contribution. |
+| Prestige admission | A famous source or standard is treated as universal-core evidence by itself. | Record the candidate's role in multiple domain families and state difference/loss. |
+| Local success as kernel status | A local pattern works well and is therefore promoted to universal primitive. | Try dependent value, Concept-Set row, C.3 `U.Kind`, or direct subject-pattern value first. |
+| False demotion by vocabulary mismatch | A universal candidate is rejected because domains use different names. | Compare abstract contribution, not spelling; use bridges and F.18 naming only after the ontic test. |
+
+### A.8:4.2 - Consequences
+
+A passed A.8 test strengthens the case for kernel placement but does not bypass E.24.UK, A.11 parsimony, or direct pattern ownership. A failed test is still useful: it tells the project where to keep the candidate local, dependent, or subject-pattern governed. The cost is evidence work across at least three domain families.
+
+### A.8:4.3 - Rationale
+
+Universal core primitives are expensive because every downstream pattern can rely on them. A.8 therefore treats universality as a claim about repeated abstract contribution across different foundational domains, not as a claim about lexical frequency, popularity, or early convenience.
+
+### A.8:4.4 - SoTA-Echoing
+
+The pattern adapts three current practice lines. Ontology engineering distinguishes upper-level commitments from domain ontology terms; A.8 turns that distinction into a falsification test for FPF U-kinds. Cross-domain modeling practice uses multiple heterogeneous cases to test whether a construct travels; A.8 records those projections with losses rather than treating analogy as proof. Quality-diversity practice helps surface non-trivial diversity, but A.8 keeps telemetry as evidence for projection records, not as an admission gate.
 
 ### A.8:5 - Relations
 

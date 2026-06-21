@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.15.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
-line_start: 76438
-line_end: 76865
+line_start: 79132
+line_end: 79590
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,13 +49,14 @@ keywords:
 ---
 
 ## F.15 - Static and Regression Conformance Harness for Unification
+> **Type:** Pattern
 > **Status:** Stable
 
 **"Prove locality and parsimony first; only then prove composition."**
 
-**Type.** Architectural pattern.
-**Status.** Stable.
-**Normativity.** Normative.
+**Type:** Architectural pattern.
+**Status:** Stable.
+**Normativity:** Normative.
 **Builds on:** E.10.D1 for `U.BoundedContext` discipline; F.1 for context selection; F.2 and F.3 for term harvesting, Local-Sense, and SenseCell formation; F.4 for RoleDescription as description episteme for one local `U.Role`; F.5 for local naming discipline; F.7 and F.8 for Concept-Set rows and mint-or-reuse decisions; F.9 for Bridge Cards and `CL`; F.10 for status families, values, and windows; F.13 for aliases; F.14 for anti-explosion control; F.18 for durable naming.
 
 **Coordinates with:** A.2, A.2.1, A.2.5, A.2.7, F.6, and A.15.1 for work-facing role, assignment, role state, role relation structure, and performed-work claims; A.10, B.3, E.17, and E.10.D2 for evidence, assurance, publication, source, and description-use claims; A.6.5 for relation-slot discipline.
@@ -103,6 +104,10 @@ Unification work fails when composition is claimed before locality and continuit
 
 F.15 catches these failures before the slice is used for cross-context reuse, naming, assurance, or downstream claims.
 
+### F.15:2.1 - Problem
+
+A unification slice can look stable because labels, rows, bridges, aliases, role descriptions, status windows, or public names are already arranged in one table. The problem is that reuse may still outrun locality, bridge strength, edition continuity, direct governing patterns, or witness evidence; F.15 makes the static and regression checks explicit before the slice is used downstream.
+
 ### F.15:3 - Forces
 
 | Force | Tension to resolve |
@@ -113,7 +118,7 @@ F.15 catches these failures before the slice is used for cross-context reuse, na
 | Clarity versus apparatus | The check must be teachable in minutes and still precise enough to catch kind drift. |
 | Composition versus direct patterns | F.15 checks a combined slice; it must not replace F.4, F.9, F.10, F.17, F.18, A.2.1, F.6, or A.15.1. |
 
-### F.15:4 - Core idea
+### F.15:4 - Solution
 
 The harness has two families of rules.
 
@@ -363,7 +368,7 @@ bridgeAdmitsUse(beta, use)
 
 Interpretation: a Bridge may admit naming, explanation, or type-structure use. It does not admit role assignment, work attribution, or evidence use by itself.
 
-### F.15:13 - Worked cases
+### F.15:13 - Archetypal Grounding - worked cases
 
 #### F.15:13.1 - Activity and task in two run contexts
 
@@ -422,7 +427,21 @@ F.15 result:
 * F.10 governs the status-family and window claim.
 * F.14 and F.18 block a new durable name unless a new recovered status family is present.
 
-### F.15:14 - Anti-patterns and repairs
+### F.15:13.6 - Bias-Annotation
+
+F.15 blocks unification-bias: the temptation to treat one shared label, one table row, one bridge, one alias, or one changed edition as if it already proved a common meaning. It also blocks kind-transfer bias: a role description, status window, evidence claim, publication-use claim, or source relation inside a slice does not become governed by F.15 merely because the slice mentions it. The failed claim returns to the direct governing pattern.
+
+### F.15:14.5 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-F15-1` | Name the unification slice and the current or changed moving parts before applying SCR or RSCR rows. |
+| `CC-F15-2` | Check local contexts, Local-Senses, SenseCells, rows, RoleDescriptions, bridges, status windows, aliases, and public names under their direct patterns. |
+| `CC-F15-3` | Treat a failed rule as a return to the direct governing pattern, not as permission for F.15 to absorb that pattern's object. |
+| `CC-F15-4` | Require bridge kind, direction, `CL`, loss, admitted use, and witness before cross-context reuse. |
+| `CC-F15-5` | Recheck only the changed moving parts when an edition, row, bridge, role description, alias, name, or status window changes. |
+
+### F.15:14 - Common Anti-Patterns and How to Avoid Them
 
 | Code | Anti-pattern | Symptom | Why it breaks | Harness catch and repair |
 | --- | --- | --- | --- | --- |
@@ -448,16 +467,17 @@ A unification slice is locally admissible for reuse when:
 
 Closure is local to the slice and current use. A later context edition, row change, Bridge endpoint change, RoleDescription change, public-name change, or status-window change reopens the relevant RSCR rows.
 
-### F.15:16 - Relations
+### F.15:15.1 - Consequences
 
-* **F.1, F.2, F.3.** Provide contexts, terms, Local-Senses, and SenseCells checked by SCR-F15-S1 through S6.
-* **F.4, A.2, A.2.1, F.6, A.15.1.** Govern RoleDescription, role assignment, and performed-work claims that F.15 must not absorb.
-* **F.7 and F.8.** Govern rows and mint-or-reuse decisions checked by SCR-F15-S9 through S11 and RSCR-F15-E5 through E6.
-* **F.9 and B.3.** Govern Bridge Cards, `CL`, loss, and assurance penalties.
-* **F.10.** Governs status family, value, confidence, and window claims.
-* **F.13, F.17, F.18.** Govern aliases, public term sheets, and durable names.
-* **F.14.** Governs anti-explosion before names are minted for role-like and status-like families.
-* **A.10, E.17, E.10.D2.** Govern evidence, publication, source, and description-use claims when they appear inside a slice.
+**Benefits.** F.15 makes locality, bridge strength, and edition continuity visible before a slice is reused. It lets terminology, role-description, status-window, bridge, and naming patterns remain direct owners of their objects while still giving the combined slice one checkable harness.
+
+**Costs.** A slice that looks unified by label or table shape may fail until witness rows, bridge cards, local contexts, and direct-governing-pattern returns are explicit.
+
+**Failure avoided.** F.15 prevents row-shaped local notes, alias-only rewrites, bridge optimism, role/status inflation, and source/evidence/publication claims from becoming hidden global meanings.
+
+### F.15:15.2 - Rationale
+
+Unification needs a harness because cross-context reuse is useful only after locality, parsimony, bridge strength, and regression continuity are preserved. F.15 therefore checks the joint slice without becoming a new ontology for contexts, roles, statuses, bridges, evidence, publications, or names.
 
 ### F.15:17 - SoTA-Echoing
 
@@ -469,6 +489,17 @@ Closure is local to the slice and current use. A later context edition, row chan
 | FPF role and status repair | Source labels often hide role, status, evidence, or publication claims. | F.15 keeps each failed claim under its direct pattern instead of becoming a second ontology. |
 
 Currentness rule: treat the current Part F and role-method-work patterns named in `Builds on` and `Coordinates with` as the source of governing interpretation. If F.4, F.9, F.10, F.17, F.18, A.2.1, F.6, A.15.1, A.10, B.3, E.17, or E.10.D2 changes a governed value, relation, admitted use, or boundary, recheck only the affected SCR or RSCR rows and the worked case that exercises the changed boundary.
+
+### F.15:16 - Relations
+
+* **F.1, F.2, F.3.** Provide contexts, terms, Local-Senses, and SenseCells checked by SCR-F15-S1 through S6.
+* **F.4, A.2, A.2.1, F.6, A.15.1.** Govern RoleDescription, role assignment, and performed-work claims that F.15 must not absorb.
+* **F.7 and F.8.** Govern rows and mint-or-reuse decisions checked by SCR-F15-S9 through S11 and RSCR-F15-E5 through E6.
+* **F.9 and B.3.** Govern Bridge Cards, `CL`, loss, and assurance penalties.
+* **F.10.** Governs status family, value, confidence, and window claims.
+* **F.13, F.17, F.18.** Govern aliases, public term sheets, and durable names.
+* **F.14.** Governs anti-explosion before names are minted for role-like and status-like families.
+* **A.10, E.17, E.10.D2.** Govern evidence, publication, source, and description-use claims when they appear inside a slice.
 
 ### F.15:18 - Didactic distillation
 

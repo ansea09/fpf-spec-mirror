@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53593
-line_end: 53602
+line_start: 55445
+line_end: 55454
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,6 +55,6 @@ keywords:
 | Source label as ontology | `layer`, `block`, `expert`, `cache`, or `gate` is treated as a kind by label. | Complete the `StratificationSourceLabelRepairNote` and select the governing pattern from the recovered neighborhood. |
 | C.30 takeover | Any structure-like word is treated as governed by C.30 because it sounds architectural. | Choose by selected `ontologicalNeighborhood`; non-source-label claims are governed by the patterns named in `C.30.STRAT:4.2`. |
 | Local trigger fanout | `A.6.M`, `C.30.LCA`, `C.31`, or another subject pattern copies a growing label table. | Keep one thin pointer to `C.30.STRAT` and keep the subject pattern to its own invariant. |
-| Expert-as-role false positive | `expert` in MoE prose becomes an `A.2` role-enactor claim by word alone. | Treat as source label for submodel, transformation, path selection, or candidate selection unless an `A.2` or `A.15` role or work claim is actually being made. |
+| Expert-as-role false positive | `expert` in MoE prose becomes an `A.2` role-assignment or A.15 work-responsibility claim by word alone. | Treat as source label for submodel, transformation, path selection, or candidate selection unless an `A.2`, `A.2.1`, or `A.15` role-assignment, responsibility, or work claim is actually being made. |
 | Gate-as-gate-decision false positive | A gating function, UI label, or source word becomes gate passage. | Use `A.20` or `A.21` only for actual constraint-validity or gate-decision claims; otherwise use the function, flow, publication, or ordinary-label disposition named by value. |
 

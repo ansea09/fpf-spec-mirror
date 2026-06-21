@@ -6,12 +6,12 @@ section_id: "C.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:3 — Forces"
-line_start: 34870
-line_end: 34880
+line_start: 36128
+line_end: 36138
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -33,8 +33,8 @@ keywords:
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **Geometry vs. operations**                    | Simple geometric pictures (triangles) are memorable; real epistemic work is **slot-relation disciplined** and often contains real graph-valued claim, evidence, or dependency structures. |
 | **Universality vs. representation regimes**    | One ontology must accommodate symbolic calculi, diagrams, DSLs, interactive notebooks, and latent vectors.                             |
-| **EntityOfConcern vs. Description episteme and specification use/refinement** | The `EntityOfConcern` value is not the Description episteme produced by this describing, viewing, or morphing use; however, the EntityOfConcern value may itself be a `U.Episteme` when an episteme is the current `EntityOfConcern`. Specification is not a third peer class in C.2.1; it is a gated use or refinement of a Description episteme selected by neighbouring formality plus checkable constraint, harness, acceptance, C.16 measurement criterion, suffix, verification, or publication-expression discipline for an already admitted specification use. |
-| **Viewpoint locality vs. reuse**               | Viewpoints should be **local** to families of descriptions, yet we want reusable **viewpoint bundles** across domains (E.17.1/E.17.2). |
+| **EntityOfConcern vs. Description episteme and specification use and refinement** | The `EntityOfConcern` value is not the Description episteme produced by this describing, viewing, or morphing use; however, the EntityOfConcern value may itself be a `U.Episteme` when an episteme is the current `EntityOfConcern`. Specification is not a third peer class in C.2.1; it is a gated use or refinement of a Description episteme selected by neighbouring formality plus checkable constraint, harness, acceptance, C.16 measurement criterion, suffix, verification, or publication-expression discipline for an already admitted specification use. |
+| **Viewpoint locality vs. reuse**               | Viewpoints should be **local** to families of descriptions, yet we want reusable **viewpoint bundles** across domains (E.17.1 and E.17.2). |
 | **Slot discipline vs. usability**              | A clean `SlotKind`/`ValueKind`/`RefKind` discipline is vital for reasoning, but must not render engineering episteme unreadable.             |
 | **Stability vs. SoTA evolution**               | The core must remain stable while integrating evolving practices: LLM tool‑use, ReAct‑style loops, structured cospans, optics, etc.    |
 

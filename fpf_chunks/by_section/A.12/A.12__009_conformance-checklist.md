@@ -1,38 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.12"
-pattern_title: "External Transformer & Reflexive Split"
+pattern_title: "Acting-Side Externalization and Reflexive Split"
 section_id: "A.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__009_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.12 — External Transformer & Reflexive Split"
+  - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:6 — Conformance Checklist"
-line_start: 19857
-line_end: 19868
+line_start: 20378
+line_end: 20390
 dependencies:
-  - "A.3"
+  - "A.1"
+  - "A.10"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.7"
+  - "A.3.4"
+  - "B.2"
   - "B.2.5"
-  - "U.Interaction"
+  - "C.13"
+  - "C.2.1"
+  - "C.30"
+  - "E.17"
 keywords:
-  - "agency"
-  - "causality"
-  - "control loop"
-  - "external agent"
-  - "self-modification"
 ---
 
 ### A.12:6 - Conformance Checklist
 
-To enforce the principles of externalization and causal clarity, all FPF models must adhere to the following normative checks.
-
-| ID | Requirement (Normative Predicate) | Purpose / Rationale |
-| :--- | :--- | :--- |
-| **CC-A12.1 (External Agent Mandate)** | Every transformation (`U.Work`) **MUST** be attributed to an Agent (`U.RoleAssignment`) whose `holder` is distinct from the target holon. | This is the core rule that forbids self-magic. It ensures every action has an identifiable, external cause. |
-| **CC-A12.2 (Reflexive Split for Self-Action)** | Any narrative of "self-modification" (e.g., self-repair, self-configuration) **MUST** be modeled using the Reflexive Split pattern. | Forces the modeler to make internal control loops explicit by identifying the distinct `Regulator` (Agent) and `Regulated` (Target) subsystems. |
-| **CC-A12.3 (Boundary Explicitness)** | The `U.Boundary` and `U.Interaction` between the Agent and the Target **MUST** be explicitly modeled. | Makes interfaces a first-class citizen of the model. Prevents hidden dependencies and ensures interactions are auditable. |
-| **CC-A12.4 (Episteme Carrier as Target)** | When a `U.Episteme` is modified, the `Target` of the transformation **MUST** be its **symbol carrier** (`U.System`), not the `U.Episteme` itself. | Reinforces **Strict Distinction (A.7)**. Knowledge doesn't change by magic; a physical agent must act on its physical representation. |
-| **CC-A12.5 (No Self-Evidence)** | The Agent that performs a transformation **cannot** be the sole source of evidence for the success or properties of that transformation. Evidence **MUST** be anchored via an independent `Observer`. | Prevents conflicts of interest in assurance. The `Transformer` does the work; a separate `Observer` (another RoleAssignment) validates it. This aligns with **A.10 (Evidence Graph Referring)**. |
+| Check | Requirement |
+| --- | --- |
+| `CC-A12-1` | A self-action or passive change claim names the changed holon and the acting system or candidate acting system separately. |
+| `CC-A12-2` | A reflexive case uses distinct acting and changed positions inside a containing holon for the current claim. |
+| `CC-A12-3` | A.12 does not create `U.Transformer`, `U.Boundary`, or `U.Interaction`. |
+| `CC-A12-4` | Bounded transformation claims return to `A.3.4`; method and work claims return to `A.15` and `A.15.1`. |
+| `CC-A12-5` | Role assignment and role-relation claims return to `A.2.1` and `A.2.7`. |
+| `CC-A12-6` | Evidence and assurance claims return to `A.10` or the direct evidence or assurance owner. |
+| `CC-A12-7` | Episteme and publication cases do not assign agency to the episteme or publication form. |
+| `CC-A12-8` | A system changing another holon is not treated as that holon's super-holon unless a separate part-whole relation is admitted. |
 

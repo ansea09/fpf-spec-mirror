@@ -2,16 +2,16 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6`
+Commit SHA: `fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e`
 
 Chunking method: `pattern-aware`
 
-Patterns: `246`
+Patterns: `252`
 
 ## Patterns
 
 - [A.0 — Onboarding Glossary (NQD & E/E‑LOG)](by_pattern/A.0.md)
-- [A.1 — U.Holon, U.System, and U.Episteme](by_pattern/A.1.md)
+- [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
 - [A.1.1 — U.BoundedContext Semantic Frame](by_pattern/A.1.1.md)
 - [A.2 — Role Taxonomy](by_pattern/A.2.md)
 - [A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment](by_pattern/A.2.1.md)
@@ -52,7 +52,7 @@ Patterns: `246`
 - [A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
 - [A.6.8 — Service Polysemy Unpacking (RPR‑SERV)](by_pattern/A.6.8.md)
-- [A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)](by_pattern/A.6.9.md)
+- [A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)](by_pattern/A.6.9.md)
 - [A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature](by_pattern/A.6.S.md)
 - [A.6.H — Wholeness Language Unpacking — RPR-WHOLE](by_pattern/A.6.H.md)
 - [A.7 — Strict Distinction (Clarity Lattice)](by_pattern/A.7.md)
@@ -60,7 +60,7 @@ Patterns: `246`
 - [A.9 — Cross‑Scale Consistency (C‑3)](by_pattern/A.9.md)
 - [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
 - [A.11 — Ontological Parsimony](by_pattern/A.11.md)
-- [A.12 — External Transformer & Reflexive Split](by_pattern/A.12.md)
+- [A.12 — Acting-Side Externalization and Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
 - [A.14 — Advanced Mereology: Components, Portions, Aspects & Phases](by_pattern/A.14.md)
 - [A.15 — Role–Method–Work Alignment (Contextual Enactment)](by_pattern/A.15.md)
@@ -90,18 +90,19 @@ Patterns: `246`
 - [A.20 — Flow Constraint Validity — Eulerian](by_pattern/A.20.md)
 - [A.21 — GateProfilization: OperationalGate(profile) (GateFit core)](by_pattern/A.21.md)
 - [A.22 — Structure and Structural Views (STRUCT-CAL)](by_pattern/A.22.md)
-- [B.1 — Universal Algebra of Aggregation (Γ)](by_pattern/B.1.md)
-- [B.1.1 — Dependency Graph & Proofs](by_pattern/B.1.1.md)
-- [B.1.2 — System‑specific Aggregation Γ\_sys](by_pattern/B.1.2.md)
+- [B.1 — Holon Aggregation and Part-Whole Construction](by_pattern/B.1.md)
+- [B.1.1 — Dependency Structure and Relation Grounding](by_pattern/B.1.1.md)
+- [B.1.2 — System Aggregation and Holon Delimitation](by_pattern/B.1.2.md)
 - [B.1.3 — Γ_epist - Knowledge‑Specific Aggregation](by_pattern/B.1.3.md)
-- [B.1.4 — Contextual & Temporal Aggregation (Γ\_ctx & Γ\_time)](by_pattern/B.1.4.md)
+- [B.1.4 — Contextual and Temporal Aggregation](by_pattern/B.1.4.md)
 - [B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment](by_pattern/B.1.5.md)
-- [B.1.6 — Γ\_work — Work as Spent Resource](by_pattern/B.1.6.md)
-- [B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes](by_pattern/B.2.md)
-- [B.2.2 — Meta-System Transition (MST)](by_pattern/B.2.2.md)
-- [B.2.3 — Meta-Epistemic Transition (MET)](by_pattern/B.2.3.md)
-- [B.2.4 — Meta-Functional Transition (MFT)](by_pattern/B.2.4.md)
-- [B.2.5 — Supervisor-Subholon Feedback Loop](by_pattern/B.2.5.md)
+- [B.1.6 — Work-Resource Aggregation](by_pattern/B.1.6.md)
+- [B.2 — Meta-Holon Transition - Whole Reidentification](by_pattern/B.2.md)
+- [B.2.P — Emergence and MHT Precision Restoration](by_pattern/B.2.P.md)
+- [B.2.2 — Meta-System Transition - System Specialization of MHT](by_pattern/B.2.2.md)
+- [B.2.3 — Meta-Holon Transition With Episteme Result](by_pattern/B.2.3.md)
+- [B.2.4 — Capability and Functioning Whole Reidentification](by_pattern/B.2.4.md)
+- [B.2.5 — Supervisor-Subholon Feedback Relation](by_pattern/B.2.5.md)
 - [B.3 — Trust and Assurance Calculus (F-G-R with Congruence)](by_pattern/B.3.md)
 - [B.3.3 — Assurance Subtypes & Levels](by_pattern/B.3.3.md)
 - [B.3.4 — Evidence Decay & Epistemic Debt](by_pattern/B.3.4.md)
@@ -113,7 +114,7 @@ Patterns: `246`
 - [B.5.2 — Abductive Loop](by_pattern/B.5.2.md)
 - [B.5.2.0 — U.AbductivePrompt](by_pattern/B.5.2.0.md)
 - [B.5.2.1 — Creative Abduction with NQD](by_pattern/B.5.2.1.md)
-- [B.5.3 — Role-Projection Bridge](by_pattern/B.5.3.md)
+- [B.5.3 — Domain-Concept Bridge](by_pattern/B.5.3.md)
 - [C.2 — Epistemic holon composition (KD-CAL)](by_pattern/C.2.md)
 - [C.2.1 — U.Episteme - Epistemes and their slot relation](by_pattern/C.2.1.md)
 - [C.2.P — Epistemic Precision Restoration](by_pattern/C.2.P.md)
@@ -161,6 +162,7 @@ Patterns: `246`
 - [C.29 — Mathematical Lens Use](by_pattern/C.29.md)
 - [C.30 — Grounded Architecture and Selected-Structure Adequacy](by_pattern/C.30.md)
 - [C.30.AD — Architecture Description Adequacy](by_pattern/C.30.AD.md)
+- [C.30.AD.BA — Built-Asset Architecture Description and Reference Designation](by_pattern/C.30.AD.BA.md)
 - [C.30.P — Architecture and Structure Precision Restoration](by_pattern/C.30.P.md)
 - [C.30.STRAT — Stratification Wording Precision Restoration](by_pattern/C.30.STRAT.md)
 - [C.30.ASV — Architecture Structural View Adequacy (ASV)](by_pattern/C.30.ASV.md)
@@ -170,7 +172,11 @@ Patterns: `246`
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
-- [D.5 — Bias-Audit & Ethical Assurance](by_pattern/D.5.md)
+- [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)
+- [D.2 — Multilevel Ethics For Holon Work](by_pattern/D.2.md)
+- [D.3 — Interlevel Ethical Conflict Structure](by_pattern/D.3.md)
+- [D.4 — Ethical Mediation and Decision Use](by_pattern/D.4.md)
+- [D.5 — Bias Audit and Ethical Assurance](by_pattern/D.5.md)
 - [E.1 — Vision & Mission: “Operating System for Thought”](by_pattern/E.1.md)
 - [E.2 — The Eleven Pillars](by_pattern/E.2.md)
 - [E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace](by_pattern/E.2.DA.md)

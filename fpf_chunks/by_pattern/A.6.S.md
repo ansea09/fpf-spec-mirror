@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.S.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
-line_start: 17849
-line_end: 18281
+line_start: 18127
+line_end: 18565
 dependencies:
   - "A.12"
   - "A.3"
@@ -50,7 +50,13 @@ keywords:
 > **Normativity:** Mixed (normative where RFC 2119 keywords appear; quadrant classification is governed by A.6.B)
 > **One-liner:** **explicitly modelling signature engineering as a two-signature arrangement** (TargetSignature + ConstructorSignature), with strict separation between **operator description** and **enactment as Work by systems or acting holons under current role assignment**.
 
-**E.24.UK settlement.** `U.SignatureEngineeringPair` is retained as a dependent durable arrangement value under the `U.Signature` and A.6 slot-relation settlement, not as a root U-kind. Its identity is the paired TargetSignature and ConstructorSignature relation used to engineer one boundary signature while keeping operator descriptions, enacted work, publication faces, and role assignments separate. A local pair of documents, workflow, or editing practice does not become `U.SignatureEngineeringPair` unless the two signature epistemes and their constructor relation are named.
+**E.24.UK settlement.** `U.SignatureEngineeringPair` is retained as a dependent durable arrangement value under the `U.Signature` and A.6 slot-relation settlement, not as a root U-kind. Its identity is the paired TargetSignature and ConstructorSignature relation used to engineer one boundary signature while keeping operator descriptions, enacted work, publication faces, and role assignments separate. A local pair of documents, work procedure, or editing practice does not become `U.SignatureEngineeringPair` unless the two signature epistemes and their constructor relation are named.
+
+**Use this pattern when** a boundary signature is being engineered through a TargetSignature and a ConstructorSignature, and the project must keep operator descriptions, enacted work, publication faces, and role assignments separate.
+
+**What goes wrong if missed.** The signature being engineered, the constructor operation description, and the work that enacts publication or edition change collapse into one “contract/editing” story.
+
+**What this buys.** The TargetSignature/ConstructorSignature relation becomes explicit: constructor operators stay effect-free episteme morphisms, while work records, role assignments, carriers, and publication faces stay with their own governing patterns.
 
 ### A.6.S:0 - PCP-TERM/LEX token guards (local-first)
 
@@ -118,7 +124,7 @@ This pattern relies on **Strict Distinction** (A.7), transformation discipline (
 
 * **Enactor (capability) vs enactment (world-contact).**
   A system or acting holon with a current `U.RoleAssignment` uses a **Method** or **MethodDescription** that realises the constructor operations, and enacts particular steps as dated **Work** on carriers (repos, releases, pins, carrier/source-currentness references).
-  This is where traces, review records, evidence bindings, and publication carriers appear.
+  This is where traces, review records, evidence refs, and publication carriers appear.
 
 Therefore:
 
@@ -208,7 +214,7 @@ Make base declarations and their evolution explicit via base‑change verbs such
 A ConstructorSignature does not need *all* of these in every use, but it must provide enough to express “what changed” when the SoI’s grounding base, scope, or anchoring assumptions shift.
 
 **Witness refresh note.**
-`refreshWitnesses` is an **edit of witness bindings**, not the generation of new evidence: producing/collecting new witness carriers is **Work**; `refreshWitnesses` only updates the base declaration to reference them.
+`refreshWitnesses` is an **edit of witness references**, not the generation of new evidence: producing/collecting new witness carriers is **Work**; `refreshWitnesses` only updates the base declaration to reference them.
 
 **Optional but common: view construction operations (A.6.3)**
 
@@ -377,12 +383,12 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 | **CC‑A.6.S‑2** | The ConstructorSignature **SHALL** use (or explicitly map to) the canonical **slot operation verbs** from A.6.5 and the **base‑change lexicon** from A.6.6 (`declareBase`, `rebase`, `rescope`, `retime`, …). It **MUST NOT** use umbrella metaphors (e.g., `anchor*`) or “bind/binding” as substitutes for explicit baseRelation/base‑change talk, and it **MUST NOT** collapse distinct meanings (e.g., using “edit” for both by‑value updates and ref retargeting). Context‑specific shorthands MAY exist, but they MUST have an explicit mapping entry to the canonical verb classes and be registered per LEX discipline. | Keeps change semantics explicit and reviewable.                       |
 | **CC‑A.6.S‑3** | Any TargetSignature change that alters TargetSignature meaning **SHALL** mint a **new TargetSignature edition** and downstream references **SHALL** be updated via explicit **ref retargeting** (A.6.5), not by silent in‑place mutation. Use A.6.4 retargeting only when `EntityOfConcernRef` changes under a `KindBridge`. | Makes semantic evolution explicit without confusing editioning with described‑entity retargeting. |
 | **CC‑A.6.S‑4** | If MVPK is used, each published face (`U.View`) **SHALL** be constructed as a **view** of the canonical L/A/D/E-classified claim set and **MUST NOT** introduce new semantic commitments. `AssuranceLane` MAY add procedural adjudication guidance and evidence pointers, but any normative criteria MUST be stated as canonical `E-*` claims and be cited by ID. | Prevents parallel Contract Bundles or rival canonical claim sets emerging from views.                    |
-| **CC‑A.6.S‑5** | Claims about laws, admissibility, deontics, and work evidence **SHALL** be classified using A.6.B’s quadrant discipline and (where used) recorded with stable claim IDs in a claim register.                                                                                  | Prevents quadrant mixing and “contract soup”.                         |
+| **CC‑A.6.S‑5** | Claims about laws, admissibility, deontics, and work evidence **SHALL** be classified using A.6.B’s quadrant discipline and (where used) recorded with stable claim IDs in a claim register.                                                                                  | Prevents quadrant mixing in contract prose.                           |
 | **CC‑A.6.S‑6** | The TargetSignature **SHALL NOT** contain operational gate predicates or deontic obligations; such constraints belong to mechanisms and agent norms respectively (A.6.1, A.6.B).                                                                                         | Preserves the signature/mechanism boundary.                           |
 | **CC‑A.6.S‑7** | Constructor operations described by the ConstructorSignature **SHALL** be expressible as **effect‑free epistemic morphisms** (A.6.2). For each EFEM constructor operation family, the ConstructorSignature **MUST** declare `entityOfConcernChangeMode` and the `C.2.1` slot read/write profile. Any step that performs measurements, actuation, validation runs, or other side‑effects **MUST** be modeled as Work or Mechanism application and cannot be a constructor op. | Prevents smuggling mechanisms/work into “signature editing”.          |
 | **CC‑A.6.S‑8** | Any concrete change to a TargetSignature edition or its MVPK faces **SHALL** be represented as Work enacted by a system or acting holon under current `U.RoleAssignment`, with A.10/E.17 carrier and publication relations where current; normative text **MUST NOT** ascribe agency to epistemes (“the signature constructs/validates itself”). | Aligns with “no epistemic agency” and current work, role-assignment, evidence, and publication discipline. |
 
-### A.6.S:8 - Common Anti‑Patterns and How to Avoid Them — Failure Modes
+### A.6.S:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern                                    | Symptom                                                                                                   | Why it fails                                                                | How to avoid or repair                                                                       |
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -390,7 +396,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 | **Silent semantic edits**                       | A law or applicability quietly changes; consumers discover it through breakage.                           | Treats a new TargetSignature edition as the same TargetSignature edition.                                 | Require retargeting to a new SoI edition for semantic changes.                              |
 | **Retargeting disguised as “editing”**          | Ref changes and by‑value edits are described with the same verb.                                          | Loses the slot discipline stratification and review clarity.                | Use A.6.5 canonical verbs and `Edit<SlotQualifier>` vs `Retarget<SlotQualifier>`.           |
 | **Views become “alternative truths”**           | PlainView says one thing, TechCard says another, and nobody knows which is canonical.                     | A view gained semantics rather than projecting them.                        | Treat MVPK faces as viewings; put canonical semantics in the SoI and reference it.          |
-| **Contract talk without quadrant discipline**   | “The interface promises…” is used to state invariants, obligations, and entry conditions interchangeably. | Blends laws, deontics, admissibility, and evidence.                         | Use A.6.B tags and claim register entries; rewrite claims into the proper quadrant.         |
+| **Contract talk without quadrant discipline**   | “The interface promises…” is used to state invariants, obligations, and entry conditions interchangeably. | Blends laws, deontics, admissibility, and evidence.                         | Use A.6.B claim classes and claim register entries; rewrite claims into the proper quadrant. |
 | **Episteme‑as‑actor**                           | Text says “the ConstructorSignature builds/validates/publishes the SoI”.                                 | Violates “no epistemic agency”; hides the enacting system or acting holon, role assignment, and Work. | Rewrite: constructor ops are described by epistemes; enactment is Work by a system or acting holon under role assignment; publish traces/pins explicitly. |
 
 ### A.6.S:9 - Consequences
@@ -418,7 +424,7 @@ Connecting signature engineering to A.6.2–A.6.4 provides a principled way to s
 
 Finally, classifying claims through A.6.B makes “contract” talk ontologically safe: laws, gates, norms, and evidence stop competing for the same paragraph.
 
-**SoTA binding note (informative).** The separation between an operation signature and its effectful realization is adopted from modern algebraic effects/handlers; the `U.View` and `U.Viewpoint` responsibility discipline is adapted from ISO/IEC/IEEE 42010; and the “preservation under change” intuition is adapted from categorical optics (see A.6.S:11).
+**SoTA source note (informative).** The separation between an operation signature and its effectful realization is adopted from modern algebraic effects/handlers; the `U.View` and `U.Viewpoint` responsibility discipline is adapted from ISO/IEC/IEEE 42010; and the “preservation under change” intuition is adapted from categorical optics (see A.6.S:11).
 
 ### A.6.S:11 - SoTA-Echoing
 
@@ -450,7 +456,7 @@ Finally, classifying claims through A.6.B makes “contract” talk ontologicall
   * A.6.3 — `U.EpistemicViewing`
   * A.6.4 — `U.EpistemicRetargeting`
   * A.6.5 — `U.RelationSlotDiscipline`
-  * A.6.6 — `U.AnchorAndBaseDiscipline`
+  * A.6.6 — Base Declaration Discipline
   * A.6.B — Boundary Norm Square & Claim Register discipline
   * E.17 and E.17.0 — MVPK and multi‑view describing
 

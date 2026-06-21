@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.20.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
-line_start: 43888
-line_end: 44014
+line_start: 45429
+line_end: 45563
 dependencies:
   - "A.19"
   - "C.2"
@@ -36,10 +36,11 @@ keywords:
 
 ## C.20 - Composition of `U.Discipline` (Discipline‑CAL)
 > **Status:** Stable
+> **Type:** Pattern
 
 ### E.24.UK settlement
 
-`U.Discipline` is retained as a root durable holon kind. Its EntityOfConcern is a field-level practice-and-knowledge holon that lets FPF users talk about a discipline as one reusable object without collapsing it into a domain label, bounded context, organization, publication set, or tradition name.
+`U.Discipline` is the root durable holon kind used for field-level practice-and-knowledge wholes. Its EntityOfConcern lets FPF users talk about a discipline as one reusable object without collapsing it into a domain label, bounded context, organization, publication set, or tradition name.
 
 The identity of a `U.Discipline` is held by a composition relation over five required positions:
 
@@ -53,13 +54,17 @@ This makes `U.Discipline` a `U.Holon`: it is a whole with epistemic, organizatio
 
 Boundary: a **domain** names a subject area or catalog stitch; a **bounded context** names a local meaning frame; a **discipline** names the composed field-level holon that carries canon, practices, carriers, bridges, and comparison governance. Similar words across domains do not make one discipline; bridge and loss notes are required.
 
-`U.AppliedDiscipline` and `U.Transdiscipline` are retained only as C.3-governed subkind/species values under `U.Discipline`, not as separate root ontics. `U.Tradition` and `U.Lineage` are not admitted in this pass because they name variant, edition, school, or provenance structures inside or across disciplines; they can be written as ordinary auxiliary values or C.3 local kinds until a direct governing pattern supplies their own identity relation, admissible use, and E.24.UK settlement.
+`U.AppliedDiscipline` and `U.Transdiscipline` are C.3-governed subkind values under `U.Discipline`, not separate root ontics. `U.Tradition` and `U.Lineage` are not root U-kinds in C.20 because they name variant, edition, school, or provenance structures inside or across disciplines; write them as ordinary auxiliary values or C.3 local kinds unless a direct governing pattern supplies their own identity relation, admissible use, and E.24.UK settlement.
 
 **Builds on.** **C.2 KD-CAL** (F-G-R and the CL-to-R penalty rule), **A.19/G.0 CG-Spec** (comparability), **F.9 Bridges** (cross-context alignment), **E.10 LEX** (registers & twin labels). **Coordinates with.** **C.21** (Discipline-CHR, field health), **C.23** (Method-SoS-LOG), **F.17-F.18** (UTS).
 
 ### C.20:0 - Use This When
 
 Use this pattern when a project must treat a discipline as a durable field-level object, not as a loose domain label or a list of documents. Typical cases include comparing safety engineering traditions, moving a practice across bounded contexts, judging whether a method family belongs to a field, or keeping a discipline edition stable while its canon and standards change.
+
+**What goes wrong if missed.** A field name starts doing the work of canon, practice, institutional carrier, bridge, and comparison governance at once; cross-context reuse then looks valid while meanings, evidence lanes, and comparison rules have already drifted.
+
+**What this buys.** The discipline name becomes a reviewable holon with named composition positions, bridges, and comparison rules, so users can compare, transport, steward, or edition a field without turning it into a document list or a domain label.
 
 **Primary EntityOfConcern.** The EntityOfConcern is `U.Discipline`: a field-level practice-and-knowledge holon composed by canon epistemes, accepted practices and standards, organizational carriers, bridges, and comparison governance.
 
@@ -88,10 +93,10 @@ Without a **composition calculus** for disciplines:
 
 #### C.20:4.1 - U-kind settlement and registers
 * **`U.Discipline`** — a **Holon** that composes an **EpistemeCanon**, **Standards/Practices**, and **Organisational Carriers** into a durable field-level EntityOfConcern.
-* **`U.AppliedDiscipline`**, **`U.Transdiscipline`** — C.3-governed subkind/species values under `U.Discipline`; they are not separate root ontics.
+* **`U.AppliedDiscipline`**, **`U.Transdiscipline`** — C.3-governed subkind values under `U.Discipline`; they are not separate root ontics.
 * **Tradition and lineage values** — auxiliary holon-like values that organise variants or editions within a `U.Discipline`; write them without `U.` unless a direct governing pattern admits `U.Tradition` or `U.Lineage` by E.24.UK settlement.
 
-**Placement and naming.** `U.Discipline` is retained by this pattern as the direct root durable U-kind. Its subkinds follow C.3/C.3.1 and F.5 naming discipline, E.10/F.17 register discipline, and A.11 parsimony. C.20 does not treat discipline names as candidate U-kinds merely because they appear in discipline-composition prose; a retained discipline kind needs the C.20 settlement plus ordinary U-kind admission evidence.
+**Placement and naming.** `U.Discipline` is governed by this pattern as the direct root durable U-kind. Its subkinds follow C.3/C.3.1 and F.5 naming discipline, E.10/F.17 register discipline, and A.11 parsimony. C.20 does not treat discipline names as candidate U-kinds merely because they appear in discipline-composition prose; a discipline kind needs the C.20 settlement plus ordinary U-kind admission evidence.
 
 #### C.20:4.2 - What a `U.Discipline` is / is not
 * A `U.Discipline` is **not** a `U.BoundedContext` and **not** a **Domain**. **Domain** remains a *catalog label* (stitched to D.CTX + UTS): **Discipline ≠ Domain** is enforceable via **E.10 LexicalCheck**; any cross-domain or cross-context reuse cites a **Bridge (F.9)** with **CL** and loss notes; penalties apply to **R** only; **F** and **G** remain invariant (USM/KD‑CAL).
@@ -105,7 +110,7 @@ Without a **composition calculus** for disciplines:
 *Intent.* Fold the three constituents into a `U.Discipline`, **preserving provenance**, publishing UTS cards, and enabling admissible comparability via referenced **CG‑Spec** rows.
 *Obligations.*
 1) **Provenance & lanes.** Each imported episteme/standard declares **A.10 anchors** and lane tags **{TA, VA, LA}**; freshness windows are recorded.
-2) **Assurance fold.** Use KD‑CAL weakest‑link on R with **Φ(CL)** (and, where applicable, **Φ_plane** for ReferencePlane crossings) **table‑backed and monotone**; publish policy ids. For any justification **path P**, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for parallel independent lines to the *same* claim take **`R(Γ) = max_P R_eff(P)`**; **`F(Γ)=min`** along used paths. No thresholds inside CHR/CAL (Acceptance‑only). Unknowns propagate as {pass|degrade|abstain} to Acceptance.
+2) **Assurance fold.** Use KD‑CAL weakest‑link on R with **Φ(CL)** (and, where applicable, **Φ_plane** for ReferencePlane crossings) **table‑backed and monotone**; publish policy ids. For any independent justification line **P**, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for parallel independent lines to the *same* claim take **`R(Γ) = max_P R_eff(P)`**; **`F(Γ)=min`** along the used lines. No thresholds inside CHR/CAL (Acceptance‑only). Unknowns propagate as {pass|degrade|abstain} to Acceptance.
 3) **CG-Spec guard.** Any numeric comparison or aggregation in Discipline reports **MUST** cite the discipline’s **CG-Spec** with **ScaleComplianceProfile (SCP)**, **Γ-fold**, and **MinimalEvidence**; units, scale, and polarity admissibility via **MM-CHR/CSLC** precedes aggregation.
 4) **Scale, unit, and polarity admissibility.** Before any comparison/aggregation, **establish admissibility via MM‑CHR/CSLC** and cite **CG‑Spec characteristic ids** used in the fold (A.17–A.19).
 5) **ReferencePlane guard.** When crossings touch the world, concept, or episteme plane, apply **CL_meta** penalties to **R** only; record **plane** on the UTS row.
@@ -126,7 +131,7 @@ Export a **Discipline.ESG** with named states and guarded transitions (e.g., *Em
 | **Γ_disc assembly** | Fold {line‑specific standard, plant procedures, certifying unit} into **`Discipline: Safety‑Plant‑A`** | Fold {canon papers, formal models, journals/committee} into **`Discipline: Safety‑Engineering`** with **Traditions** (e.g., system safety vs resilience engineering) |
 | **Evidence lanes** | LA test campaigns (freshness windows), VA design proofs, TA tool quals | VA proofs over kinds, LA replications/meta‑analyses; TA for checkers |
 
-### C.20:6 - Bias‑Annotation
+### C.20:6 - Bias-Annotation
 **Lenses:** Governance (naming/UTS), Architecture (CAL+CHR split), Onto/Epist (discipline ≠ domain; triangle fidelity), Pragmatic (authoring/editions), Didactic (twin labels; System/Episteme scenes). **Scope:** context‑local; no “global discipline”.
 
 ### C.20:7 - Conformance Checklist (normative)
@@ -142,7 +147,7 @@ Export a **Discipline.ESG** with named states and guarded transitions (e.g., *Em
 | **CC-C20-8 (Discipline column is didactic).** | Any use of a “discipline column” in tables is **didactic only**; semantics are carried by **UTS rows and Bridges**; **Domain** remains a catalog stitch (**E.10/F.17**). | Prevent table headings from becoming hidden ontology. |
 | **CC-C20-9 (Lexical firewall).** | Normative sections remain **notation-neutral and tool-neutral**; vendor/tool tokens are avoided (see **E.5.1**). | Keep discipline composition independent from one notation or tool family. |
 
-#### C.20:7.1 - Canonical rewrites (anti‑ambiguity)
+### C.20:7.1 - Common Anti-Patterns and How to Avoid Them
 * “TDD discipline” → **`Tradition: Test‑Driven`** *(Plain twin keeps “Tradition”)*.
 * “Safety Discipline Owner” → **`Holder#DisciplineStewardRole:Safety‑Context`**.
 * “ClinicalSafetyDomain Governance” → **`DisciplineSpec: Clinical‑Safety`** with comparability in **CG‑Spec**; the **Domain** mention remains a **D.CTX + UTS** catalog stitch.
@@ -153,6 +158,9 @@ Export a **Discipline.ESG** with named states and guarded transitions (e.g., *Em
 
 ### C.20:9 - Rationale
 The calculus keeps **entityOfConcern local**, **comparability admissible**, and **assurance explicit**. It aligns with KD‑CAL’s weak‑link folds and CL-to-R penalty rule, with CG‑Spec’s **ScaleComplianceProfile (SCP)** and **Γ‑fold** rules, and with LEX twin‑label governance. It avoids “phlogiston disciplines” by tying fields to measurable CHRs (C.21) and evidence lanes.
+
+### C.20:9.1 - SoTA-Echoing
+Discipline-composition practice is used here only when it preserves plural traditions, explicit bridges, characteristic health readings, and evidence lanes. C.20 adopts weak-link composition, scale-compliance, and bridge hygiene; it rejects universal field scores, charisma labels, and discipline names that cannot return to measurable CHRs and source evidence.
 
 ### C.20:10 - Relations
 **Builds on.** KD‑CAL (C.2); CG‑Spec (A.19/G.0); Bridges (F.9); LEX (E.10).

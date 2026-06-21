@@ -6,12 +6,12 @@ section_id: "B.3.3:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__009_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:8 — Relations"
-line_start: 32933
-line_end: 32938
+line_start: 34159
+line_end: 34164
 dependencies:
   - "A.10"
   - "A.4"
@@ -34,5 +34,5 @@ keywords:
 
 *   **Builds on:** `B.3.1 Characteristic & Epistemic Spaces`, `A.10 Evidence Graph Referring`, `A.4 Temporal Duality`.
 *   **Constrains:** The computation and interpretation of `AssuranceLevel` for all holons.
-*   **Enables:** Objective quality gates in the Canonical Evolution Loop (B.4) and reliable inputs for the Trust-Aware Mediation Calculus (D.4).
+*   **Enables:** Objective quality gates in the Canonical Evolution Loop (B.4) and reliable inputs for D.4 Ethical Mediation and Decision Use.
 

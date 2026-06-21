@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
-line_start: 64124
-line_end: 64710
+line_start: 66750
+line_end: 67349
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -37,10 +37,15 @@ keywords:
 
 ## E.17 - Multi‑View Publication Kit
 > **Status:** Stable
+> **Type:** Pattern
 
 **At a glance.** Use `E.17` when one source-backed episteme, episteme-side view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
 
 **Use this when.** The engineering team needs a plain view, technical card, interoperability card, or `AssuranceLane` face that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
+
+**What goes wrong if missed.** A readable face, card, dashboard tile, export, generated explanation, or comparison view starts acting as evidence, work, gate passage, release permission, authority, or source relation merely because it is readable and well placed.
+
+**What this buys.** The publication face remains useful for orientation, inspection, exchange, and citation while the underlying episteme, publication scope, face kind, source relation, and any downstream typed value stay separately recoverable.
 
 **First output.** One source-pinned publication face with the underlying `U.Episteme`, Description episteme, or Description episteme selected for specification use, publication scope, face kind, bounded publication use, and any present downstream typed value named only as far as the current use needs, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 
@@ -233,7 +238,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 
 | Present claim or effect question | Apply or recover |
 | --- | --- |
-| Is the publication-facing unit being used to guide a work or reliance move by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the question under repair, use it directly. |
+| Is the publication-facing unit being used to guide a work or reliance move by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the live question, use it directly. |
 | Is the publication-facing unit being used as evidence, provenance, attestation, currentness, freshness, or claim-bound evidence relation? | `A.10` evidence, provenance, or currentness path for the claim named by value. |
 | Is the publication-facing unit being used as engineering justification, assurance, confidence, readiness, or limitations relation? | `B.3` assurance or engineering-justification claim with evidence, limits, and decay explicit. |
 | Is the publication-facing unit being used as gate passage, constraint validity, adjudication, or release decision source? | `A.20` or `A.21` project records, including gate profile, constraint profile, decision record, log reference, scope, window, replay reference and freshness reference. |
@@ -244,7 +249,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |
 | Did the EntityOfConcern, target, ontology frame, or claim or relation record named by value change? | `A.6.4`, `OntologicalReframing`, or the retargeting or reframing pattern named by value. |
 | Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` for repairing "same", "equivalent", "align", or "map" wording into explicit bridge work; use `F.9` or `F.9.1` for Bridge Cards, bridge kind, direction, `CL`, loss notes, bounded use, and stance overlays. Comparison alone is not a bridge. |
-| Is the question under repair carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
+| Is the live question carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
 
 **Evidence-path boundary.** An `A.10` evidence, provenance, attestation, freshness, or currentness path carries only the claim named by value it instantiates. It does not approve or authorize work, pass a gate, perform work, supply release permission, or raise assurance or engineering-justification use unless the typed project-side value named by value and reference that carries that downstream claim is also instantiated, such as `A.15.4`, `A.15`, `A.20`, `A.21`, or `B.3`.
 
@@ -258,7 +263,7 @@ Local review fields and values in CR, RT, CSC, EFP, ID.CR, or a neighboring publ
 
 Use the FPF pattern that governs the claim being made or effect under use. Keep any local review field local, preserve reduced bounded use, and assign only the unsupported wider claim or effect to its governing source relation.
 
-**Source-relation minimality.** Name the smallest FPF source relation named by value sufficient for the use under repair. A source pointer, source-exposure relation, evidence path, engineering-justification record, gate decision, and release decision are different FPF relations; choosing one does not license another. Do not apply `A.10`, `B.3`, `A.20`, or `A.21` when the use under repair only needs source finding, orientation, or inspection of an existing source `U.Episteme`, source `U.EpistemePublication`, or status-register entry.
+**Source-relation minimality.** Name the smallest FPF source relation named by value sufficient for the live use. A source pointer, source-exposure relation, evidence path, engineering-justification record, gate decision, and release decision are different FPF relations; choosing one does not license another. Do not apply `A.10`, `B.3`, `A.20`, or `A.21` when the live use only needs source finding, orientation, or inspection of an existing source `U.Episteme`, source `U.EpistemePublication`, or status-register entry.
 
 **Local repair vs publication redesign.** A local epistemic precision repair is enough only when it can preserve the current publication face or `PublicationUnit` while fixing one head, boundary, source relation, bounded use, explanation class, or unsupported downstream claim. If layout, grouping, visual emphasis, comparison arrangement, generated explanation, hidden source limitation, or mixed EntityOfConcern packaging still induces overread after the local relation is repaired, create a redesigned publication face or `PublicationUnit` instead of adding warning text around the misleading form.
 
@@ -286,7 +291,7 @@ Use the FPF pattern that governs the claim being made or effect under use. Keep 
 
 This preservation rule also applies across extraction, translation, screenshotting, summary, and generated retelling. A translated permission is not wider permission, a screenshot of approval-looking display is not an approval record, a summary of evidence is not an evidence path, and a generated retelling of a decision is not the decision record unless the source relation that makes the operative claim recoverable by value and source pins survive in the new publication-facing unit.
 
-**Reader position is not project role.** Reader position, audience, target user model, verifier position, reviewer position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
+**Reader position is not project role.** Reader position, audience, target user model, verifier position, review-reader position, and learner position do not become project roles, role assignments, decision authority, gate authority, issuer roles, or work roles unless a typed project-side value and reference instantiates that role relation.
 
 **Source-gap states.** When the source relation is missing, say which source gap is present: source not named; source named but unavailable; source available but not used; source used but insufficient; source stale or outside its window; source contradicted; source accountable role or register mismatch. Block only the unsupported effect and keep any reduced bounded use available.
 
@@ -513,7 +518,7 @@ U :  X ──f──▶ Y ──g──▶ Z    X ──f──▶ Y ──g─�
 * **MVPK** emits `U.ViewFamily(f)` for each arrow `f`.
 * **Declared publication checks** verify that pins, source references, and IDs are present and that MVPK invariants are respected. Use `OperationalGate(profile)` GateChecks only when a present project gate profile actually governs the next project move.
 
-### E.17:8 - Examples (SoTA-aligned Local Tests)
+### E.17:8 - Archetypal Grounding (SoTA-aligned Local Tests)
 
 Read these examples as local tests for MVPK invariants, not as source citations by reputation.
 
@@ -528,11 +533,15 @@ Read these examples as local tests for MVPK invariants, not as source citations 
 4. **Functional-description publication (`PlainView` + `TechCard`).**
     A principle scheme or functional diagram can publish a readable relation from signature or principle episteme content to method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, and result measurement. The MVPK faces can help a team inspect that relation and prepare a work plan, but they do not turn the diagram, table, screen, or export into work occurrence, gate passage, evidence, engineering justification, or supervisory or control architecture. For those uses, the team first recovers the existing typed project-side value named by value and reference that carries the claim when available: work-relevant source restoration under `A.15.4`, project `U.Method`, `U.WorkPlan`, and dated `U.Work` occurrence under `A.15` and `A.15.1`, evidence or provenance path under `A.10`, engineering-justification record under `B.3`, gate or constraint decision under `A.20` or `A.21`, or supervisory or control architecture record under `B.2.5`. If no existing source carries the needed claim, create only a prospective repair request, prospective decision request, prospective work-plan entry, or explicit source-gap note; do not backdate evidence, gate passage, work occurrence, release permission, engineering justification, or assurance for the earlier claim.
 
-### E.17:9 - Conformance checklist (normative)
+### E.17:8.1 - Bias-Annotation
+
+E.17 blocks publication-face bias: a face, card, view, rendering, source link, dashboard tile, or generated explanation is treated as if readability or layout created the underlying claim, evidence, work, gate, authority, or release relation. It also blocks source-proximity bias: a source-looking face points near a source, but the operative source relation still has to be recoverable by value.
+
+### E.17:9 - Conformance Checklist (normative)
 
 `CC-MVPK-FD` is the functional-description guard in §5.1a. It is conditional on a functional-description publication face and does not function as the first universal MVPK gate.
 
-A conformance check is retained only if it changes the next bounded use of the publication face, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared bounded use.
+A conformance check is kept only if it changes the next bounded use of the publication face, blocks a concrete overclaim, or preserves a source reference or reopen condition needed for the declared bounded use.
 
 #### E.17:9.1 - Core ordinary checks
 
@@ -568,7 +577,7 @@ A conformance check is retained only if it changes the next bounded use of the p
 | **CC‑MVPK‑11 (Typing & totality)** | Ill‑typed composites are rejected at `ViewObj_s` rather than weakening functoriality. | Type‑check fails early; no “best‑effort” composition in cards. |
 | **CC‑MVPK‑12 (Bridge+CL on crossings)** | Any cross‑Context view or ReferencePlane-crossing view cites **Bridge + CL** policy ids. | IDs present on `TechCard` or `AssuranceLane`. |
 
-### E.17:10 - Anti‑patterns (with fixes)
+### E.17:10 - Common Anti-Patterns and How to Avoid Them
 
 1. **“Presentation logic” as semantics.**
     *Fix:* Move any logic to `Describe_EoC_DescEp`, an exact specification-use or episteme-refinement gate, CG‑Spec, or KD‑CAL; keep views declarative; publication adds **zero** claims.
@@ -590,7 +599,11 @@ A conformance check is retained only if it changes the next bounded use of the p
 | **Terminology hygiene.** | Clear View vs Viewpoint, Publication vs Presentation. | Enforce publication-face-kind discipline tokens in CI. |
 | **Notation independence.** | Viewpoints talk concerns, not tools. | Provide adapters to local publication toolchains. |
 
-### E.17:12 - SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts
+### E.17:11.5 - Rationale
+
+Multi-view publication is needed because one description can serve several concerns without one view becoming the whole object. A publication unit, viewpoint, correspondence relation, freshness condition, and source-use relation must be explicit enough that practitioners can rely on the right face for the current use while returning evidence, assurance, decision, architecture, and release claims to their direct owners.
+
+### E.17:12 - SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts
 
 **SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 

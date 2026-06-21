@@ -6,12 +6,12 @@ section_id: "A.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:9 — Consequences"
-line_start: 3571
-line_end: 3578
+line_start: 3664
+line_end: 3671
 dependencies:
   - "A.10"
   - "A.2"

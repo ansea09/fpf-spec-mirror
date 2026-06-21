@@ -6,12 +6,12 @@ section_id: "A.6.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:3 — Forces"
-line_start: 16514
-line_end: 16535
+line_start: 16784
+line_end: 16805
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -46,7 +46,7 @@ keywords:
    It must not capture a particular domain (e.g., CHR) in the Kernel name.
 
 3. **Governing spec ref centrality (CN‑Spec and CG‑Spec).**
-   Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing “centers of legality” arise.
+   Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.
 
 4. **Transport and crossing visibility discipline.**
    Cross-context and cross-plane steps must be visible and bridge-only; penalties must route to `R/R_eff` only; suites must not embed CL/Φ/Ψ/Φ_plane tables. Visibility is mediated via E.18 / P2W (crossing bundles + UTS/Path pins), not by “implicit semantics”.

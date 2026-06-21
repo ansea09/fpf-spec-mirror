@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
-line_start: 74153
-line_end: 74728
+line_start: 76842
+line_end: 77422
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -50,13 +50,14 @@ keywords:
 ---
 
 ## F.9 - Alignment and Bridge across Contexts
+> **Type:** Pattern
 > **Status:** Stable
 
 **"Translate across contexts; never collapse them."**
 
-**Type.** Architectural pattern.
-**Status.** Stable.
-**Normativity.** Normative.
+**Type:** Architectural pattern.
+**Status:** Stable.
+**Normativity:** Normative.
 **Builds on:** E.10.D1 (context discipline: Context = `U.BoundedContext`); F.0.1 (`senseFamily` and status-modality guard; bridge-only crossing); F.1 (contexts fixed); F.2 and F.3 (SenseCells exist); F.7 (Concept-Set rows depend on bridges); F.8 (mint-or-reuse decision consumes bridge results without strengthening them).
 
 **Coordinates with:** A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role, role-description, role-assignment, and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; B.3 for assurance penalties; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
@@ -97,6 +98,10 @@ Cross-context work fails in predictable ways:
 
 F.9 answers these failures by making relation, direction, loss, `CL`, and admitted use explicit.
 
+### F.9:2.1 - Problem
+
+A shared label across contexts can look like identity, substitution permission, status transfer, evidence authority, role assignment, work attribution, or structural equivalence before any bridge relation is declared. The problem is to preserve useful cross-context comparison while stating the local senses, bridge kind, direction, confidence level, losses, and admitted use so the bridge does not silently become another governed claim.
+
 ### F.9:3 - Forces
 
 | Force | Tension to resolve |
@@ -107,7 +112,7 @@ F.9 answers these failures by making relation, direction, loss, `CL`, and admitt
 | `senseFamily` purity versus explanation | Substitution must preserve `senseFamily`; explanation may cross `senseFamily` boundaries without implying sameness. |
 | Bridge discipline versus direct governing patterns | F.9 can bound cross-context sense alignment, but it must not create role assignments, work records, evidence relations, or status relations by itself. |
 
-### F.9:4 - Core idea
+### F.9:4 - Solution
 
 A Bridge is a declared correspondence between two local senses. It always names:
 
@@ -347,7 +352,48 @@ If a project wants an RBAC role to count for a work step, it must open A.2.1 or 
 
 The result is didactic contrast or Naming-only orientation, not substitution in control or service calculations.
 
-### F.9:13 - Anti-patterns and repairs
+### F.9:19 - Archetypal Grounding
+
+#### F.9:19.1 - Tell
+
+A Bridge is not a synonym claim and not an enactment edge. It is a context-bounded correspondence record that tells a reader what may be named, compared, or inferred, and what is lost when a sense crosses context.
+
+#### F.9:19.2 - Show: service lane
+
+A service team may reuse the word `availability` across monitoring, SLO review, and architecture discussion. F.9 requires Bridge Cards that separate observation, status target, and architectural concern rather than treating the shared label as silent sameness. The practical gain is that naming convenience survives while substitution rights stay bounded by `senseFamily`, `CL`, and Loss Notes.
+
+#### F.9:19.3 - Show: role lane
+
+A process team and an access-control team both use `operator`. F.9 can admit a Naming-only row and may admit RoleDescription naming when the local `U.Role` remains clear. It cannot assign the access-control role to a work occurrence. That claim requires A.2.1 and F.6.
+
+#### F.9:19.4 - Show: episteme lane
+
+A comparative bundle may say that two traditions both discuss `readiness`. Under F.9, that statement remains explanatory until the author publishes the cells, bridge kind, direction, `CL`, Loss Notes, and counter-example. The Bridge then becomes auditable correspondence rather than rhetorical shortcut.
+
+### F.9:20 - Bias-Annotation
+
+Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
+
+* **Governance bias.** F.9 raises the declaration bar by requiring explicit Bridge Cards. Mitigation: keep the card compact and use weakest-link discipline as the default review heuristic.
+* **Architecture bias.** The pattern prefers typed bridge declarations over friendly synonym prose. Mitigation: allow Naming-only and Explanation-only cases so useful comparisons are not blocked.
+* **Ontology and episteme bias.** F.9 is local-first and resists global meaning claims. Mitigation: reuse remains possible through explicit correspondence, direction, and Loss Notes.
+* **Pragmatic bias.** Conservative `CL` assignment may feel slower than informal reuse. Mitigation: F.9 permits bounded use when the Bridge earns it; it blocks only silent overreach.
+* **Didactic bias.** The short script can make Bridge Cards look simpler than they are. Mitigation: conformance tests, counter-examples, and weakest-link rules keep the teaching explanation tied to constraints.
+
+### F.9:21 - Conformance Checklist
+
+A Bridge publication conforms to F.9 iff:
+
+1. **CC-F.9-1 - Well-typed Bridge declaration.** Every Bridge names two `SenseCells` bound to declared contexts and publishes kind, direction when needed, `CL`, Loss Notes, and admitted use.
+2. **CC-F.9-2 - Substitution discipline.** Same-family substitution comes only from a substitution Bridge on the same `senseFamily`; Type-structure use requires `CL = 3` plus matched invariants.
+3. **CC-F.9-3 - Interpretation embargo.** Interpretation Bridges remain Explanation-only and are not used to justify substitution or Concept-Set rows.
+4. **CC-F.9-4 - CL honesty and loss visibility.** `CL <= 2` needs a counter-example or boundary case; `CL = 3` needs invariants; every Bridge has Loss Notes.
+5. **CC-F.9-5 - Weakest-link row discipline.** Cross-context rows never claim a broader use or higher row-level `CL` than their Bridges admit.
+6. **CC-F.9-6 - Role-boundary discipline.** Role-facing Bridges may inform RoleDescription naming or comparison, but actual `U.RoleAssignment`, required-role satisfaction, and performed-work attribution stay with A.2.1, F.6, and A.15.1.
+7. **CC-F.9-7 - Registry-reference discipline.** `BridgeId` and cited policy pins are registry references, not signature-exported semantic symbols.
+8. **CC-F.9-8 - Coarsened-note boundary.** A lighter note, summary, or comparison aid is not treated as a Bridge Card until the source-bearing episteme or publication needed for the Bridge Card is reopened and the Bridge is published.
+
+### F.9:13 - Common Anti-Patterns and How to Avoid Them
 
 | ID | Anti-pattern | Symptom | Why it breaks thinking | Repair |
 | --- | --- | --- | --- | --- |
@@ -457,20 +503,6 @@ B -> C with Loss L2
 
 Interpretation: chained cross-context substitution is rare. If used, loss and `CL` degrade rather than disappear.
 
-### F.9:15 - Relations
-
-**Builds on:** E.10.D1, F.0.1, F.1, F.2, F.3, F.7, and F.8.
-
-**Coordinates with:**
-
-* **F.4 and F.5.** RoleDescription labels and durable names may cite F.9, but only after the local `U.Role` remains clear.
-* **A.2.1, F.6, and A.15.1.** Role assignment, required-role satisfaction, and performed-work attribution are direct work-role claims, not bridge results.
-* **F.8.** Mint-or-reuse decisions consume Bridge Cards and choose local phrase, alias, row, RoleDescription label, policy id, direct-pattern name, or block-or-lower decision without strengthening the Bridge.
-* **A.6.5.** Relation-position labels and SlotSpec claims are governed by slot discipline, not by F.9.
-* **C.29.** Mathematical-lens use may cite F.9 when the lens crosses contexts; C.29 still governs the mathematical object, preserved structure, lost structure, and lens-use admissibility.
-* **B.3.** Assurance may apply `CL` penalties to cross-context claims.
-* **A.6.3.CSC, C.26.1, and C.26.2.** Coarsened renderings and quantum-like state export need these patterns when export loss, probe effects, or no faithful-enough report becomes the live concern.
-
 ### F.9:16 - Revision law
 
 1. **Edition shift in a context.** Re-evaluate affected cells; if sense moved, split the Bridge or lower `CL`.
@@ -502,47 +534,6 @@ Interpretation: chained cross-context substitution is rare. If used, loss and `C
 ### F.9:18 - Didactic distillation
 
 A Bridge translates between local senses from different contexts. It declares relation kind, direction, `CL`, loss, and admitted use. Substitution of sense requires the same `senseFamily` and enough `CL`; Type-structure use needs `CL = 3` with invariants; interpretation Bridges explain but do not substitute. Rows obey the weakest Bridge. Role-description naming is not role assignment. Translate across contexts; never collapse them.
-
-### F.9:19 - Archetypal grounding
-
-#### F.9:19.1 - Tell
-
-A Bridge is not a synonym claim and not an enactment edge. It is a context-bounded correspondence record that tells a reader what may be named, compared, or inferred, and what is lost when a sense crosses context.
-
-#### F.9:19.2 - Show: service lane
-
-A service team may reuse the word `availability` across monitoring, SLO review, and architecture discussion. F.9 requires Bridge Cards that separate observation, status target, and architectural concern rather than treating the shared label as silent sameness. The practical gain is that naming convenience survives while substitution rights stay bounded by `senseFamily`, `CL`, and Loss Notes.
-
-#### F.9:19.3 - Show: role lane
-
-A process team and an access-control team both use `operator`. F.9 can admit a Naming-only row and may admit RoleDescription naming when the local `U.Role` remains clear. It cannot assign the access-control role to a work occurrence. That claim requires A.2.1 and F.6.
-
-#### F.9:19.4 - Show: episteme lane
-
-A comparative bundle may say that two traditions both discuss `readiness`. Under F.9, that statement remains explanatory until the author publishes the cells, bridge kind, direction, `CL`, Loss Notes, and counter-example. The Bridge then becomes auditable correspondence rather than rhetorical shortcut.
-
-### F.9:20 - Bias annotation
-
-Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
-
-* **Governance bias.** F.9 raises the declaration bar by requiring explicit Bridge Cards. Mitigation: keep the card compact and use weakest-link discipline as the default review heuristic.
-* **Architecture bias.** The pattern prefers typed bridge declarations over friendly synonym prose. Mitigation: allow Naming-only and Explanation-only cases so useful comparisons are not blocked.
-* **Ontology and episteme bias.** F.9 is local-first and resists global meaning claims. Mitigation: reuse remains possible through explicit correspondence, direction, and Loss Notes.
-* **Pragmatic bias.** Conservative `CL` assignment may feel slower than informal reuse. Mitigation: F.9 permits bounded use when the Bridge earns it; it blocks only silent overreach.
-* **Didactic bias.** The short script can make Bridge Cards look simpler than they are. Mitigation: conformance tests, counter-examples, and weakest-link rules keep the teaching explanation tied to constraints.
-
-### F.9:21 - Conformance checklist
-
-A Bridge publication conforms to F.9 iff:
-
-1. **CC-F.9-1 - Well-typed Bridge declaration.** Every Bridge names two `SenseCells` bound to declared contexts and publishes kind, direction when needed, `CL`, Loss Notes, and admitted use.
-2. **CC-F.9-2 - Substitution discipline.** Same-family substitution comes only from a substitution Bridge on the same `senseFamily`; Type-structure use requires `CL = 3` plus matched invariants.
-3. **CC-F.9-3 - Interpretation embargo.** Interpretation Bridges remain Explanation-only and are not used to justify substitution or Concept-Set rows.
-4. **CC-F.9-4 - CL honesty and loss visibility.** `CL <= 2` needs a counter-example or boundary case; `CL = 3` needs invariants; every Bridge has Loss Notes.
-5. **CC-F.9-5 - Weakest-link row discipline.** Cross-context rows never claim a broader use or higher row-level `CL` than their Bridges admit.
-6. **CC-F.9-6 - Role-boundary discipline.** Role-facing Bridges may inform RoleDescription naming or comparison, but actual `U.RoleAssignment`, required-role satisfaction, and performed-work attribution stay with A.2.1, F.6, and A.15.1.
-7. **CC-F.9-7 - Registry-reference discipline.** `BridgeId` and cited policy pins are registry references, not signature-exported semantic symbols.
-8. **CC-F.9-8 - Coarsened-note boundary.** A lighter note, summary, or comparison aid is not treated as a Bridge Card until the source-bearing episteme or publication needed for the Bridge Card is reopened and the Bridge is published.
 
 ### F.9:22 - Consequences
 
@@ -622,6 +613,20 @@ A reader can test bridge integrity with seven questions:
 7. If a role, status, evidence, source, publication, assurance, gate, decision, method, work, or mathematical-lens claim appears, has the direct governing pattern been opened instead of letting F.9 carry that claim?
 
 Repair from same, equivalent, align, and map prose should therefore recover the Bridge Card first, then any row use, then any optional stance overlay. Doing it in the opposite order recreates silent equivalence under new vocabulary.
+
+### F.9:15 - Relations
+
+**Builds on:** E.10.D1, F.0.1, F.1, F.2, F.3, F.7, and F.8.
+
+**Coordinates with:**
+
+* **F.4 and F.5.** RoleDescription labels and durable names may cite F.9, but only after the local `U.Role` remains clear.
+* **A.2.1, F.6, and A.15.1.** Role assignment, required-role satisfaction, and performed-work attribution are direct work-role claims, not bridge results.
+* **F.8.** Mint-or-reuse decisions consume Bridge Cards and choose local phrase, alias, row, RoleDescription label, policy id, direct-pattern name, or block-or-lower decision without strengthening the Bridge.
+* **A.6.5.** Relation-position labels and SlotSpec claims are governed by slot discipline, not by F.9.
+* **C.29.** Mathematical-lens use may cite F.9 when the lens crosses contexts; C.29 still governs the mathematical object, preserved structure, lost structure, and lens-use admissibility.
+* **B.3.** Assurance may apply `CL` penalties to cross-context claims.
+* **A.6.3.CSC, C.26.1, and C.26.2.** Coarsened renderings and quantum-like state export need these patterns when export loss, probe effects, or no faithful-enough report becomes the live concern.
 
 ### F.9:End
 

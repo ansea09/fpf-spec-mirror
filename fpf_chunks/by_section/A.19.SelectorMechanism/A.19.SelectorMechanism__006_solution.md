@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:4 — Solution"
-line_start: 28236
-line_end: 28345
+line_start: 28877
+line_end: 28986
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -28,7 +28,7 @@ keywords:
 * a stable mechanism boundary for `select`,
 * a stable SlotKind surface (via the CHR lexicon),
 * a minimum law set that preserves set‑valued semantics and forbids hidden thresholds and hidden scalarization,
-* a tri‑state admissibility guard that is fail‑closed under missing legality or evidence,
+* a tri‑state admissibility guard that is fail‑closed under missing admissibility or evidence,
 * an audit minimum that records effective editions and policy routing.
 
 Method semantics and SoTA algorithm families do not live inside the kernel: they connect via `G.2` SoTA packs and wiring modules, and via lawful specializations `⊑/⊑⁺` that obey the specialisation-chain discipline (`A.6.1:4.2.1`).
@@ -48,12 +48,12 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
 
 * **Purpose:** universal set‑returning selection kernel over candidates and criteria; defaults remain policy‑bound; **no hidden thresholds**.
 
-* **Imports:** `A.6.1:4.2.1 (specialisation relation chains)`, `A.6.5 (slot discipline; SlotIndex as projection)`, `A.19.CN (CN‑Spec governance card)`, `C.22 (TaskSignature as a policy-routing artifact when used)`, `G.5 (selector conformance and default routing)`, `G.0 (CG‑Spec legality and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
+* **Imports:** `A.6.1:4.2.1 (specialisation relation chains)`, `A.6.5 (slot discipline; SlotIndex as projection)`, `A.19.CN (CN‑Spec governance card)`, `C.22 (TaskSignature as a policy-routing artifact when used)`, `G.5 (selector conformance and default routing)`, `G.0 (CG‑Spec admissibility and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
 
 * **SubjectBlock:**
 
   * **SubjectKind:** `Selection`.
-  * **BaseType:** `U.Set (candidates) + U.RelationTokenSet (lawful comparison outcomes)`.
+  * **GovernedValueDomain:** candidate set plus lawful comparison-outcome relation token set.
   * **SliceSet:** `U.ContextSliceSet`.
   * **ExtentRule:** selection ranges over admitted candidates in the active context slice, constrained by explicit criteria/policies and by lawful comparison outcomes.
   * **ResultKind?:** `U.Set`.
@@ -82,7 +82,7 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
   4. **Evidence gating is explicit:** when selection depends on evidence, it MUST cite either `MinimalEvidenceSlot` (override) or the effective policy `CGSpecSlot.MinimalEvidence`, and it MUST route the operation through tri‑state guards (no unknown coercion). Any candidate‑level ineligibility handling MUST be explicit (criteria and/or upstream outputs) and auditable (no silent dropping); the kernel MUST NOT invent new evidence thresholds.
   5. **No competing defaults:** `PortfolioMode`/dominance defaults (when relevant) MUST be sourced from their declared governing patterns (typically via `TaskSignatureSlot` routing and/or the selector conformance/default rules in `G.5`), and MUST NOT be re‑declared inside the kernel.
 
-* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing legality or evidence)
+* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility or evidence)
 
   * `SelectEligibility(CandidateSetSlot, ComparisonResultSlot, CriteriaSlot, CNSpecSlot, CGSpecSlot, ContextSlot, TaskSignatureSlot?, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
   * `pass` requires at minimum: (i) `ComparisonResultSlot` is compatible with `CandidateSetSlot` (same candidate universe), (ii) all selection criteria and any tie‑breakers are explicit (via `CriteriaSlot` and/or `TaskSignatureSlot`), (iii) admissibility/acceptance gates (`CNSpecSlot.acceptance`, evidence) do not fail, and (iv) `CNSpecSlot` and `CGSpecSlot` are coherent for the comparison tokens being consumed (no mixed CN-Spec/CG-Spec pairings).
@@ -92,7 +92,7 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
 * **Applicability:**
 
   * Intended as the last stage of CHR selection after lawful comparison, producing a selected-set-valued result.
-  * Cross‑context selection is allowed only via explicit Transport (Bridge+CL/ReferencePlane) and cannot bypass CG‑Spec legality.
+  * Cross‑context selection is allowed only via explicit Transport (Bridge+CL/ReferencePlane) and cannot bypass CG‑Spec admissibility.
 
 * **Transport:** declarative‑only: no embedded CL/Φ/Ψ tables and no new transport edges; crossings are via cited Bridge+CL/ReferencePlane surfaces; penalties route to **`R_eff` only**.
 

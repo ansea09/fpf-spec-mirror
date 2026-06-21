@@ -6,12 +6,12 @@ section_id: "A.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:3 — Forces"
-line_start: 19927
-line_end: 19935
+line_start: 20465
+line_end: 20473
 dependencies:
   - "A.12"
   - "A.2"
@@ -31,7 +31,7 @@ keywords:
 | Force | Tension |
 | :--- | :--- |
 | **Scientific Fidelity vs. Simplicity** | Contemporary science (e.g., Active Inference) models agency as a continuous, scale-free spectrum. FPF needs to honor this rigor while providing a simple, teachable model for practitioners. |
-| **Role vs. Type** | The intuition is to think of an "Agent" as a *type* of thing. FPF's architecture demands that it be modeled as a *role* to preserve dynamism and ontological hygiene. |
+| **Role vs. Type** | The intuition is to think of "agent" as a *type* of thing. FPF's architecture demands role assignment plus agency characteristics to preserve dynamism and ontological hygiene. |
 | **Measurement vs. Label** | Engineers and managers need a quick, intuitive label (e.g., "this is a Level 3 agent"), while formal assurance requires a detailed, multi-dimensional, evidence-backed measurement. |
 | **System-only Action vs. Collective Action**| How does agency apply to groups like teams or swarms? This requires a clear link to the rule from A.1 that any *acting group* must be modeled as a `U.System`. |
 

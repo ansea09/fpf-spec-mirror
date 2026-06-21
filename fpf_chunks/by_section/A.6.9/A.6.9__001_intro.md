@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
 section_id: "A.6.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:intro — Intro"
-line_start: 17422
-line_end: 17423
+line_start: 17692
+line_end: 17701
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -41,5 +41,13 @@ keywords:
   - "weakest-link"
 ---
 
-## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)
+## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)
+> **Type:** Relational precision-restoration pattern
+> **Status:** Stable
+
+**Use this pattern when** a document, table row, boundary statement, or publication claim says “same”, “equivalent”, “aligned”, “mapped”, or “corresponding” across contexts, reference planes, A.7 lanes, or SenseCells.
+
+**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or substitution license; direction, loss, scope, edition, and admissible use disappear.
+
+**What this buys.** The sameness claim becomes an explicit Bridge claim with direction, BridgeKind, CL, loss, scope, time basis, witness refs, and a boundary between interpretation and substitution.
 

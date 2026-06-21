@@ -6,12 +6,12 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:intro — Intro"
-line_start: 76438
-line_end: 76451
+line_start: 79132
+line_end: 79146
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,13 +50,14 @@ keywords:
 ---
 
 ## F.15 - Static and Regression Conformance Harness for Unification
+> **Type:** Pattern
 > **Status:** Stable
 
 **"Prove locality and parsimony first; only then prove composition."**
 
-**Type.** Architectural pattern.
-**Status.** Stable.
-**Normativity.** Normative.
+**Type:** Architectural pattern.
+**Status:** Stable.
+**Normativity:** Normative.
 **Builds on:** E.10.D1 for `U.BoundedContext` discipline; F.1 for context selection; F.2 and F.3 for term harvesting, Local-Sense, and SenseCell formation; F.4 for RoleDescription as description episteme for one local `U.Role`; F.5 for local naming discipline; F.7 and F.8 for Concept-Set rows and mint-or-reuse decisions; F.9 for Bridge Cards and `CL`; F.10 for status families, values, and windows; F.13 for aliases; F.14 for anti-explosion control; F.18 for durable naming.
 
 **Coordinates with:** A.2, A.2.1, A.2.5, A.2.7, F.6, and A.15.1 for work-facing role, assignment, role state, role relation structure, and performed-work claims; A.10, B.3, E.17, and E.10.D2 for evidence, assurance, publication, source, and description-use claims; A.6.5 for relation-slot discipline.

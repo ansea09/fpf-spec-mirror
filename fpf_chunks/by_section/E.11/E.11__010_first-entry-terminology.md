@@ -6,12 +6,12 @@ section_id: "E.11:4.4"
 section_title: "First-Entry Terminology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__010_first-entry-terminology.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.4 — First-Entry Terminology"
-line_start: 61833
-line_end: 61847
+line_start: 64384
+line_end: 64398
 dependencies:
   - "E.10"
   - "E.10.ARCH"

@@ -1,0 +1,43 @@
+---
+chunk_kind: "child"
+pattern_id: "A.12"
+pattern_title: "Acting-Side Externalization and Reflexive Split"
+section_id: "A.12:7"
+section_title: "Common Anti-Patterns and How to Avoid Them"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.12/A.12__010_common-anti-patterns-and-how-to-avoid-them.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "A.12 — Acting-Side Externalization and Reflexive Split"
+  - "A.12:7 — Common Anti-Patterns and How to Avoid Them"
+line_start: 20391
+line_end: 20401
+dependencies:
+  - "A.1"
+  - "A.10"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.7"
+  - "A.3.4"
+  - "B.2"
+  - "B.2.5"
+  - "C.13"
+  - "C.2.1"
+  - "C.30"
+  - "E.17"
+keywords:
+---
+
+### A.12:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Self-action literalism | "The system fixed itself" is accepted as one undivided claim. | Use `ReflexiveSplit@Context` and recover acting and changed positions. |
+| Transformer kind inflation | The acting side is modeled as `U.Transformer` or as a special system kind. | Keep `TransformerRole@Context` as role value or role assignment material under direct owners; the acting holder remains a system or candidate acting system. |
+| Boundary as object by word | Boundary or interaction words become durable root objects. | Use holon delimitation, boundary-crossing relation, transformation, signal, evidence, source-use, publication-use, or another direct owner. |
+| Work success by action | Because a system acted, the work is treated as successful. | Use A.15.1 and evidence owners for performed work and success. |
+| Evidence by producer | The acting system's own output is accepted as enough evidence. | Use A.10 or stronger evidence and assurance owners. |
+| Manufacturing as containment | A tool or teacher changing another holon is treated as its containing whole. | Keep transformation and part-whole claims separate. |
+

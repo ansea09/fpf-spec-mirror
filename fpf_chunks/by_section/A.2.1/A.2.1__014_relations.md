@@ -6,12 +6,12 @@ section_id: "A.2.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:12 — Relations"
-line_start: 2526
-line_end: 2547
+line_start: 2588
+line_end: 2609
 dependencies:
   - "A.15"
   - "A.2"
@@ -41,7 +41,7 @@ keywords:
 - `A.2.7` for context-local role relation structure.
 - `A.15`, `A.15.1`, and `A.15.2` for method, work plan, work occurrence, and performed-by relation.
 - `A.3.1` and `A.3.2` for method and method-description required-role relations.
-- `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, and `E.10.D2` for evidence-use, status-use, source-use, publication-use, assurance, causal-use, and description-boundary cases that older text tried to express as episteme roles.
+- `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, and `E.10.D2` for evidence-use, status-use, source-use, publication-use, assurance, causal-use, and description-boundary cases that source text tries to express as episteme roles.
 
 **Does not replace.**
 

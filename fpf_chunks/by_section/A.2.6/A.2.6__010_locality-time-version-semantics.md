@@ -6,12 +6,12 @@ section_id: "A.2.6:8"
 section_title: "Locality, Time & Version Semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__010_locality-time-version-semantics.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:8 — Locality, Time & Version Semantics"
-line_start: 4296
-line_end: 4317
+line_start: 4400
+line_end: 4421
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -38,7 +38,7 @@ Every scope declaration and every guard MUST specify a **`Γ_time` selector** (p
 
 #### A.2.6:8.3 - Standards, versions & notations
 
-Scope predicates SHALL name Standards/interfaces/schemas **by version**. Changing symbols/notations with a faithful mapping does not change **G** (it may change **CL** for the mapping and thus affect **R**).
+Scope predicates SHALL name Standards, interfaces, or schemas **by version**. Changing symbols or notations with a faithful mapping does not change **G** (it may change **CL** for the mapping and thus affect **R**).
 
 #### A.2.6:8.4 - Determinism of evaluation
 

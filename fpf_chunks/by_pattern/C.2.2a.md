@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2a.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
-line_start: 36619
-line_end: 36876
+line_start: 37902
+line_end: 38165
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,8 +52,14 @@ keywords:
 **Used by.**
 `C.2.LS`, `C.2.3`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `F.9.1`, `A.6.P`, `C.16.Q`, `A.6.A`.
 
+**Use this pattern when.** Use C.2.2a when a governed `U.Episteme` publication needs a language-state position before an endpoint pattern can honestly govern it.
+
+**What goes wrong if missed.** Teams flatten articulation, closure, anchoring, representation factors, route-bearing publication forms, faces, and carriers into one vague maturity label such as `early`, `ready`, or `settled`.
+
+**What this buys.** A slot-explicit chart position for the episteme publication, with threshold notes and role-lane distinctions kept visible before routing, prompt entry, bridge comparison, or endpoint use.
+
 ### C.2.2a:1 - Problem frame
-In engineering, inquiry, operator, and management practice, teams often need to say where a governed `U.Episteme` publication currently stands before it has reached a late endpoint governing pattern. That governed publication may later appear through several cue-bearing, route-bearing, or endpoint-bound publication forms, but the chart claim remains about the governed `U.Episteme` publication rather than about a local alias or a carrier lane.
+In engineering, inquiry, operator, and management practice, teams often need to say where a governed `U.Episteme` publication currently stands before it has reached an endpoint governing pattern. That governed publication may appear through several cue-bearing, route-bearing, or endpoint-bound publication forms, but the chart claim remains about the governed `U.Episteme` publication rather than about a local alias or a carrier lane.
 
 Cue packs, routed cue sets, abductive prompts, typed route-bounded projection publications, partial normal forms, and endpoint-bound records are not rival positioned items in the space. They are publication forms through which a current position claim is made visible. MVPK faces may render those forms, but faces are not themselves the forms. By contrast, a service disturbance, a model-vs-observation discrepancy, a bodily tension, a telemetry trace, a model output, or a carrier document may trigger, witness, or carry that episteme, but none of those is itself a coordinate in the space.
 
@@ -82,9 +88,9 @@ Without an explicit language-state chart:
 
 It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots are the language-state facets used in this cluster.
 
-#### C.2.2a:4.0a - E.24.UK settlement
+#### C.2.2a:4.0a - Kind and chart boundary
 
-`U.LanguageStateSpace` is retained as a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state settlement, not as a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
+`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
 
 #### C.2.2a:4.1 - Core role
 `U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
@@ -113,8 +119,8 @@ The language-state chart is coordinated by explicit facet governing patterns rat
 
 `C.2.2a` states that these basis slots together define the chart. It does **not** govern the internal scale semantics of the individual facets.
 
-#### C.2.2a:4.4 - Ontological role lanes
-Within this cluster, keep five roles distinct:
+#### C.2.2a:4.4 - Ontological slot groups
+Within this cluster, keep five slot groups distinct:
 
 - **positioned episteme publication** - the governed `U.Episteme` publication whose current position is being claimed;
 - **grounds / witnesses** - disturbances, discrepancies, traces, model outputs, bodily tensions, exemplars, or contrasts that justify the current reading;
@@ -140,8 +146,8 @@ For this pattern, a position claim is reviewable when:
 - the slot values, intervals, or `ValueSet` claims are explicit enough to show where the publication stands;
 - the grounds, witnesses, or inherited pins that justify those values remain visible;
 - any threshold-bearing use states the local threshold note or the pinned threshold source it inherits;
-- and the text keeps the positioned episteme publication, publication form, publication face, and carrier in distinct role lanes.
-A polished note, a carrier with more preservation or distribution support, or a more formal face does not by itself prove a new position. The chart claim remains admissible only when those role lanes and slot claims stay visible.
+- and the text keeps the positioned episteme publication, publication form, publication face, and carrier in distinct slot groups.
+A polished note, a carrier with more preservation or distribution support, or a more formal face does not by itself prove a new position. The chart claim remains admissible only when those slot groups and slot claims stay visible.
 
 #### C.2.2a:4.6 - Non-substitution of `F`
 `F` remains one basis slot in the chart, not the whole chart.
@@ -151,7 +157,7 @@ A conforming account shall not infer:
 - closure from formality alone;
 - anchoring from publication-face format alone;
 - representation factors from articulation alone;
-- or routing legality from a lone `F` statement.
+- or routing admissibility from a lone `F` statement.
 
 Where operationally meaningful thresholds exist, they must publish on the relevant slots rather than being disguised as informal `F` sublevels.
 
@@ -163,12 +169,12 @@ A position claim in `U.LanguageStateSpace` is distinct from:
 - the current publication form,
 - the MVPK face that renders that publication,
 - the carrier that stores or displays it,
-- or the endpoint-pattern-governed publication that may later result from it.
+- or the endpoint-pattern-governed publication that may result from it.
 
 Those roles are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without collapsing it into any one bearer lane.
 
 #### C.2.2a:4.8 - Threshold publication discipline
-If a threshold is used to justify a move, a handoff, or an endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
+If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
 
 #### C.2.2a:4.9 - Comparison and bridge note
 Comparisons inside one context may use the shared chart and local thresholds. Comparisons across contexts require explicit bridge discipline. Label similarity or stage-language similarity does not establish sameness of charts, positions, or thresholds.
@@ -197,7 +203,7 @@ This note gives readers one corridor map only. It does not relocate articulation
 
 **Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance; its position claim may be moderately formal, low-closure, high in operator-loop anchoring, and mixed in representation because terse codes and natural-language hints coexist.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when later written into prose.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
 
 ### C.2.2a:6 - Bias-Annotation
 The pattern deliberately biases authors toward decomposable coordinate claims and away from folk stage vocabularies. That costs some brevity, but it prevents collapse of genuinely different state facets into one adjective.
@@ -233,7 +239,7 @@ Language-state work needs one explicit statement of what this chart is before in
 
 | Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.2a` | Adoption status |
 |---|---|---|---|---|
-| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source architecture description, view, viewpoint, and correspondence evidence instead of letting one visible adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` adopts this by keeping chart position, publication form, face, and carrier in distinct role lanes and by rejecting stage-language as a surrogate coordinate system. | **Adopt.** |
+| Complex technical state should be published through explicit views, viewpoints, and model distinctions rather than one implicit maturity word. | Contemporary architecture-description governance separates source architecture description, view, viewpoint, and correspondence evidence instead of letting one visible adjective stand in for the whole state. | ISO/IEC/IEEE 42010:2022 | `C.2.2a` adopts this by keeping chart position, publication form, face, and carrier in distinct slot groups and by rejecting stage-language as a surrogate coordinate system. | **Adopt.** |
 | Rich engineering state is better represented through typed properties and relations than through one maturation progression. | Recent MBSE practice favours explicit model elements, properties, and cross-view consistency over one implicit readiness staircase. | OMG SysML v2 (2025) | `C.2.2a` adapts this into a declared language-state chart with named basis facets, slot-explicit values, and local thresholds instead of one maturity rail. | **Adapt.** |
 | Governance-relevant readiness requires context-local profiles and thresholds, not one global adjective. | Current governance and risk frameworks use explicit profiles, thresholds, and scoped conditions rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.2a` adopts the threshold-publication discipline and rejects the popular shortcut where `ready`, `early`, or `mature` replaces explicit slot conditions. | **Adopt/Reject-popular-shortcut.** |
 

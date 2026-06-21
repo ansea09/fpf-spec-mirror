@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:4 — Solution"
-line_start: 37209
-line_end: 37262
+line_start: 38504
+line_end: 38557
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,11 +50,11 @@ keywords:
 - `thresholdRefs?` -> context-local threshold declarations over the governed facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` is therefore a **profile-bundle governing pattern**, not a characteristic governing pattern and not a trajectory governing pattern. Characteristic semantics remain with `A.18/A.19`; admissible moves remain with `A.16`; explicit path publication remains with `E.18`.
+`C.2.LS` is therefore a **profile-bundle governing pattern**, not a characteristic governing pattern and not a trajectory governing pattern. Characteristic semantics remain with `A.18/A.19`; admissible moves remain with `A.16`; explicit transition-structure publication remains with `E.18`.
 
-#### C.2.LS:4.0a - E.24.UK settlement
+#### C.2.LS:4.0a - Kind and profile-bundle boundary
 
-`U.LanguageStateFacetProfile` is retained as a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
+`U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
 
 #### C.2.LS:4.1 - Governing boundary
 `C.2.LS` governs only the profile composition and the rule that the language-state facets must remain explicit and non-collapsed. It does **not**:
@@ -91,5 +91,5 @@ A conforming profile makes this decomposition visible rather than hiding it unde
 #### C.2.LS:4.4 - Corridor map note
 `C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but only as the thin governing pattern of the facet-profile bundle. Readers who need one map of the full language-state governing-pattern set should read the corridor note in `C.2.2a`.
 
-That map does not change the governing boundary here: `C.2.LS` still does not govern cue preservation, route-bearing publication, prompt entry, or downstream endpoint handoff.
+That map does not change the governing boundary here: `C.2.LS` still does not govern cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
 

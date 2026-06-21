@@ -6,12 +6,12 @@ section_id: "A.6.0:0"
 section_title: "Use and boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__002_use-and-boundary.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:0 — Use and boundary"
-line_start: 9816
-line_end: 9827
+line_start: 9991
+line_end: 10002
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.6.0:0 - Use and boundary
 
-Use this pattern when you need to publish or check a reusable `U.Signature` declaration for a theory, mechanism family, method family, discipline vocabulary, `U.Signature(profile=FormalSubstrate)`, or `PrincipleFrame`, and the question under repair is: what subject kind is declared, over what ranged value kind, with which vocabulary, laws, and applicability?
+Use this pattern when you need to publish or check a reusable `U.Signature` declaration for a theory, mechanism family, method family, discipline vocabulary, `U.Signature(profile=FormalSubstrate)`, or `PrincipleFrame`, and the current question is: what subject kind is declared, over what ranged value kind, with which vocabulary, laws, and applicability?
 
 Do not use this pattern when the claim being made is that some implementation runs, a handler realizes an effect, a method is authorized for work, a gate has passed, evidence supports a result claim, a measurement is comparable, or a bridge preserves enough structure across contexts. Those claims use A.6.1, A.15, gate, evidence, characterization, normalization, bridge, or decision patterns after the signature declaration is stable.
 

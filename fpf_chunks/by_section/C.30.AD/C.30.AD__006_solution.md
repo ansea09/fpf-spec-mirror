@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 52880
-line_end: 53068
+line_start: 54502
+line_end: 54693
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD.BA"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -59,9 +60,11 @@ keywords:
 
 ### C.30.AD:4 - Solution
 
-Use `ArchitectureDescription@Context` when the EntityOfConcern under repair is the description episteme or specification-use record over one `ArchitectureOf@Context`. The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`; the `DescriptionContext.EntityOfConcernRef` for the architecture description points to the architecture claim record.
+Use `ArchitectureDescription@Context` when the current EntityOfConcern is the description episteme or specification-use record over one `ArchitectureOf@Context`. The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`; the `DescriptionContext.EntityOfConcernRef` for the architecture description points to the architecture claim record.
 
 `C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or publication-form machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
+
+Built-asset architecture-description, BIM, IFC, asset-information, digital-twin, and ISO/IEC 81346 reference-designation detail is governed by `C.30.AD.BA`. C.30.AD keeps the general architecture-description bridge and does not absorb that built-asset specialization.
 
 #### C.30.AD:4.1 - Architecture-description record
 
@@ -106,7 +109,7 @@ A full architecture description is traceable only when the reader can recover th
 
 ```text
 workingConcernRef
-  or A15RoleEnactorFamilyRef when A.15 role-enactor semantics apply
+  or A15AllocationResponsibilityFamilyRef when A.15 allocation-responsibility semantics apply
 -> viewpointRef
 -> selectedStructureRef or structureKindRef
 -> ArchitectureOf@ContextRef
@@ -143,7 +146,7 @@ ArchitectureDescriptionViewMembership@Context ::= {
 }
 ```
 
-Use `C.30.ASV` when the question under repair is whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return. Use `A.22` when the question under repair is structure as such. Use `C.30` when the question under repair is the grounded architecture claim. Use `C.30.AD` only for the description's membership, composition, correspondence, source-return, freshness, specification-use, publication-use, or remaining-move boundary.
+Use `C.30.ASV` when the current question is whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return. Use `A.22` when the current question is structure as such. Use `C.30` when the current question is the grounded architecture claim. Use `C.30.AD` only for the description's membership, composition, correspondence, source-return, freshness, specification-use, publication-use, or remaining-move boundary.
 
 Common architecture-description views:
 
@@ -154,6 +157,7 @@ Common architecture-description views:
 | Control or LCA view | `C.30.LCA` when a control structure view is being used. |
 | Module or interface view | `A.6.M`, signature or interface patterns, and `C.30.ASV` when module-interface structure is being used. |
 | Mathematical-lens view | `C.29` for lens-use result and preserved and lost structure; `C.30.AD` only for the architecture-description use of the lens result. |
+| Boundary, interface, or Markov-blanket view | `A.1`, `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `C.26`, `C.26.3`, and `C.29` according to the recovered claim; `A.6.B` only when the recovered object is L, A, D, or E statement classification inside a boundary package; `C.30.AD` records only the architecture-description membership, use boundary, correspondence, source return, freshness, or publication use. |
 | Evidence or assurance reuse view | `A.10`, `B.3`, or assurance or evidence pattern governing the claim for the non-architecture claim. |
 | Architecture residual view | `C.30.ILC` when the view is about a cross-scope or interlevel architecture residual. If the view uses conflict wording or frustration wording, C.30.AD records only membership, correspondence, and source return; C.30.ILC governs the residual. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
@@ -195,7 +199,7 @@ ArchitectureDescriptionFreshnessCue:
   knownRefreshTrigger:
     sourceChange | deploymentChange | interfaceChange |
     controlRateChange | modelEditionChange | evidenceDecay |
-    toolApiChange | legalRegulatoryChange |
+    toolApiChange | regulatoryChange |
     incidentFinding | declaredOther | unknown,
   admissibleUseUntil?:
   sourceReturnCondition:

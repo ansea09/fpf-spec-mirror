@@ -6,12 +6,12 @@ section_id: "C.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:intro — Intro"
-line_start: 37610
-line_end: 37617
+line_start: 38911
+line_end: 38924
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,4 +38,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state closure degree.
+
+**Use this pattern when.** Use C.2.5 when a governed `U.Episteme` publication must say how fixed its candidate space, route space, or frame space has become before endpoint use, reopening, or retreat.
+
+**What goes wrong if missed.** A confident tone is mistaken for closure, closure is mistaken for truth or gate authority, or a closure drop leaves endpoint expectations and route commitments silently hanging.
+
+**What this buys.** A separate ordinal characteristic for closure degree, so teams can distinguish exploration, stabilization, selected route, guarded fixation, and admissible retreat without collapsing closure into formality, articulation, warrant, or obligation.
 

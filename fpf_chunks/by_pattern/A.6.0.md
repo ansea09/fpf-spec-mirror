@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.0.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
-line_start: 9807
-line_end: 10158
+line_start: 9981
+line_end: 10342
 dependencies:
   - "A.2.6"
   - "A.6.1"
@@ -33,6 +33,7 @@ keywords:
 
 ## A.6.0 - U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
 **Status.** Architectural pattern, kernel‑level and universal.
 **Placement.** Part A (Kernel), **before A.6.1** (“U.Mechanism”).
@@ -42,7 +43,7 @@ keywords:
 
 ### A.6.0:0 - Use and boundary
 
-Use this pattern when you need to publish or check a reusable `U.Signature` declaration for a theory, mechanism family, method family, discipline vocabulary, `U.Signature(profile=FormalSubstrate)`, or `PrincipleFrame`, and the question under repair is: what subject kind is declared, over what ranged value kind, with which vocabulary, laws, and applicability?
+Use this pattern when you need to publish or check a reusable `U.Signature` declaration for a theory, mechanism family, method family, discipline vocabulary, `U.Signature(profile=FormalSubstrate)`, or `PrincipleFrame`, and the current question is: what subject kind is declared, over what ranged value kind, with which vocabulary, laws, and applicability?
 
 Do not use this pattern when the claim being made is that some implementation runs, a handler realizes an effect, a method is authorized for work, a gate has passed, evidence supports a result claim, a measurement is comparable, or a bridge preserves enough structure across contexts. Those claims use A.6.1, A.15, gate, evidence, characterization, normalization, bridge, or decision patterns after the signature declaration is stable.
 
@@ -300,6 +301,15 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | **CC‑A.6.0‑22 (Realization opacity).** | If a family publishes any Realization of a `U.Signature`, that Realization **MUST** treat imported Signatures as **opaque** (depend only on their `provides` symbols and cited ClaimIds), and **MUST NOT** reference internal structure of imported Signatures. |
 | **CC‑A.6.0‑23 (Monotone Realization).** | A Realization **MAY** tighten but **MUST NOT** relax the Signature’s Laws; if weaker laws are needed, publish a new Signature (or publish an explicit refinement morphism) rather than weakening the existing Signature Laws. |
 
+### A.6.0:7.1 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails | Correct move |
+|---|---|---|
+| Signature as implementation manual | Build steps, CI checks, vendors, or work authorization are placed before the public declaration. | State SubjectKind, RangedValueKind, Vocabulary, Laws, and Applicability first; put realization, tooling, work, and evidence in their governing patterns. |
+| Signature as operational gate | Runtime admission predicates are treated as signature laws. | Keep declaration-level constraints in A.6.0 and put operational admissibility conditions in A.6.1 mechanisms. |
+| Signature as measurement or bridge proof | Measurement comparability, cross-context transport, or bridge policy is treated as part of the declared law. | Keep the signature declaration stable and use measurement, bridge, evidence, gate, or decision patterns for those relations. |
+| Signature as U-kind minting shortcut | A vocabulary symbol is treated as a durable U-kind because it appears in the declaration. | Use C.3, E.24.UK, and the relevant ontic pattern before admitting a durable U-kind. |
+
 ### A.6.0:8 - Consequences
 
 * **Uniform kernel shape.** Practitioners can define **theory**, **mechanism**, **method**, **discipline**, or other family signatures without inventing new templates.
@@ -313,7 +323,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 **Why “SubjectBlock”?** A.6.1 showed that making the **ranged-over value kind explicit** (here: *RangedValueKind*) avoids category mistakes when moving between domains (e.g., *set-algebra on context slices* vs *equivalence-classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
 **Why one universal Block?** Experience with extension and mechanism signatures shows the value of a single canonical shape for Vocabulary, Laws, Applicability, and Alignment; A.6.0 factors that universal core so other families can add headers and views without fragmenting the Kernel.
 
-**Informative echoes (post‑2015 SoTA).**
+### A.6.0:9.1 - SoTA-Echoing
 — **Algebraic effects and handlers** (OCaml 5, Koka, Effekt, Links): *operation signatures and handler laws* mirror **Vocabulary and Laws** while keeping implementations separate.
 — **Session and behavioural types** (2016–2024): protocol and admissibility laws parallel the **Laws** row (at mechanism level).
 — **Graded and row-polymorphic effects** (Granule, row-effects): inform the **EffectDiscipline** vocabulary and equational laws.

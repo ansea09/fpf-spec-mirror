@@ -6,12 +6,12 @@ section_id: "A.6.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:intro — Intro"
-line_start: 13089
-line_end: 13147
+line_start: 13343
+line_end: 13403
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -66,6 +66,8 @@ keywords:
 RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation.
 
 **Use this when.** Use `A.6.P` when wording hides a relation-bearing use: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole or part, service, cross-context bridge wording, endpoint compression, qualifier-carried claim, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
+
+**What goes wrong if missed.** An umbrella verb or noun starts acting like a relation ontology: endpoints, slot kinds, direction, scope, time, admissible use, and neighboring governing patterns disappear behind a familiar phrase.
 
 **What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the neighboring FPF pattern governing that claim to compose with it.
 

@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.2.4"
 pattern_title: "Episteme Evidence-Use and Status-Use Relations"
 section_id: "A.2.4:6"
-section_title: "Bias Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
-  - "A.2.4:6 — Bias Annotation"
-line_start: 3530
-line_end: 3542
+  - "A.2.4:6 — Bias-Annotation"
+line_start: 3623
+line_end: 3635
 dependencies:
   - "A.10"
   - "A.2"
@@ -39,7 +39,7 @@ keywords:
   - "status-use"
 ---
 
-### A.2.4:6 - Bias Annotation
+### A.2.4:6 - Bias-Annotation
 
 This pattern mainly blocks six biases:
 

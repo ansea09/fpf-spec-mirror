@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 4330
-line_end: 4455
+line_start: 4434
+line_end: 4559
 dependencies:
   - "A.1.1"
   - "A.2.2"
@@ -103,7 +103,7 @@ U.WorkScope(capability) covers JobSlice
 Guards MUST bind quantitative measures that the capability promises in the JobSlice:
 
 ```
-SLO/target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
+SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance ≤ ε, … )
 ```
 
 **WG‑3 - qualification-window policy holds** (mandatory for operational use).

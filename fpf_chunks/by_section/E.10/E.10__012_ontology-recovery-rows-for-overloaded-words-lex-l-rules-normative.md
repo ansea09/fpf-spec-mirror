@@ -6,23 +6,28 @@ section_id: "E.10:9"
 section_title: "Ontology recovery rows for overloaded words (LEX L-rules; normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_ontology-recovery-rows-for-overloaded-words-lex-l-rules-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:9 — Ontology recovery rows for overloaded words (LEX L-rules; normative)"
-line_start: 60455
-line_end: 60577
+line_start: 62883
+line_end: 63005
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -50,7 +55,7 @@ keywords:
 | **L‑SLA**    | *SLA* or *service level agreement* used for SLO, contract, or document | Unpack: (i) SLOs or acceptance thresholds -> `U.PromiseContent.acceptanceSpec`; (ii) binding obligation or penalty -> `U.Commitment`; (iii) packaged “the SLA” -> Contract Bundle (A.6.C); (iv) published terms -> `U.SpeechAct` + clause carrier (`U.Episteme`). | EntityOfConcern side for PromiseContent and Commitment; Description episteme for clause carriers and specs; run record for Work plus evidence | Kernel, Context, or Discriminator | Treat “SLA” as polysemic shorthand; never store it as a single type name. |
 | **L‑SCHED**  | *schedule*, *plan*, or *calendar* as execution    | `U.WorkPlan` as intent window; `U.Work` as actuals or telemetry                                                                                                                                    | Description episteme versus run record                                                                             | Context                                     | Never attach actuals to a plan.                                                                      |
 | **L‑ACT**    | *activity*, *action*, or *task* as type           | `U.Work` (execution); **steps** belong to `U.MethodDescription` (with `requiredRoles`, capability bounds)                                                                                       | run record versus Description episteme                                                                             | Context                                     | Reserve verbs: *assign* for role assignment, *admit* for role-state relation, *execute* for Work, *actuate* for System, and *approve* for SpeechAct Work. |
-| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | recover the acting system or holon as role-assignment holder and name the `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` when a work-facing role is current; use `U.AgentialRole` only where the role value itself is being named                                                                                                                             | system or holon plus role-assignment relation                                                                                    | Kernel or Context                              | Org titles (Owner, Operator, Reviewer) are role values assigned in a Context.                                    |
+| **L‑AGENT**  | *agent, actor, or doer* (bare)                     | recover the acting system or holon as role-assignment holder and name the `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` when a work-facing role is current; use `AgentialRole@Context` only where the role value itself is being named                                                                                                                        | system or holon plus role-assignment relation                                                                                    | Kernel or Context                              | Org titles (Owner, Operator, Reviewer) are role values assigned in a Context.                                    |
 | **L‑OWNER**  | *owner of X* (global)                             | Recover ownership wording as a work-facing role value plus `U.RoleAssignment` in a `U.BoundedContext` when actual responsibility is being assigned (e.g., `OwnerRole:ITIL_2020` assigned to a holder); otherwise recover commitment, authority, source-maintenance, or publication-use relation by direct governing pattern. | role value plus assignment relation, or the direct non-role relation | Context | No global “owner” property in Kernel. |
 | **L‑CAP**    | *capability* for assignment, recipe, run, or promise | `U.Capability` only = ability with envelope; assignments are `…Role`; recipes `U.Method` or `U.MethodDescription`; runs `Work`; promises `U.PromiseContent` (service promise clause or offering)                                                       | EntityOfConcern side, Description episteme, or run record                                                                        | Kernel or Context                              | Holder of a Capability is a `U.System`.                                                              |
 | **L‑DYN**    | *process of diffusion, growth, or learning*       | `U.Dynamics` (law or model of change)                                                                                                                                                              | I                                                                                    | Kernel or Context                              | Reserve for uncaused change models.                                                                  |

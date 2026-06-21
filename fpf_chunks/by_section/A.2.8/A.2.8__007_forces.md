@@ -6,12 +6,12 @@ section_id: "A.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__007_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:3 — Forces"
-line_start: 5196
-line_end: 5206
+line_start: 5352
+line_end: 5362
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -48,7 +48,7 @@ keywords:
 | Minimality                     | The object must be small enough to use routinely, not a full legal-contract model.                                                                  |
 | Generality                     | It must work for software specs, protocols, hardware boundaries, and socio-technical governance.                                                    |
 | Layering discipline            | It must not collapse law, gate, duty, and evidence; it should make the neighboring governing pattern explicit without replacing it.                  |
-| Local meaning                  | Defaults should be bounded-context local; cross-context bindings must be explicit.                                                                  |
+| Local meaning                  | Defaults should be bounded-context local; cross-context commitments must be explicit.                                                               |
 | Auditability                   | Some commitments are aspirational; others are auditable. The representation must support both, without implying auditability by default.            |
 | Multi-issuer governance reality | People, organizations, and states can issue incompatible commitments; the model must represent issuer, authority relation, and priority without “solving politics” inside Part A. |
 

@@ -6,12 +6,12 @@ section_id: "C.29:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:3 — Forces"
-line_start: 50988
-line_end: 50999
+line_start: 52595
+line_end: 52606
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -77,5 +77,5 @@ keywords:
 | **General pattern vs local precision** | `C.29` stays non-duplicative with `A.6.P`, `F.9`, `C.26`, `C.28`, `A.3.3`, and `A.19`; its contribution is coordination around declared mathematical-lens use. |
 | **Didactic usability vs formal rigor** | The first user needs one small card; expert use needs lens mapping mode, invariant claims, loss, `LensUseBoundaryValue`, rival lenses, and stop conditions. |
 | **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while fields named by value recover FPF claim-bearing use or use-boundary claim. |
-| **Transfer reach vs domain fit** | Category, RG, variational, quantum-like, and learning lenses are useful because they travel; that same transfer reach makes misuse easy. |
+| **Transfer reach vs domain fit** | Category, RG, variational, quantum-like, and learning lenses are useful because they transfer across domains; that same transfer reach makes misuse easy. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.ECS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:intro — Intro"
-line_start: 23936
-line_end: 23941
+line_start: 24569
+line_end: 24576
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -32,4 +32,6 @@ keywords:
 > **Type:** Method pattern
 > **Status:** Stable
 > **Normativity:** Normative
+
+**Use this pattern when.** Use this pattern when an object version is to be improved or judged, but the evaluation that says what "better" means is not yet available, not yet explicit, or not yet adequate for the object.
 

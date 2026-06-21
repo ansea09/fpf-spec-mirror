@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
-line_start: 20336
-line_end: 20763
+line_start: 20882
+line_end: 21309
 dependencies:
   - "A.10"
   - "A.12"
@@ -281,9 +281,9 @@ This side-by-side comparison reveals the power of the framework. A seemingly dif
 
 #### A.15:5.1.a - Briefing guides orientation, not execution
 
-**Source set.** A release team has one deployment method description, one current work plan, one approval or decision record when required, and the evidence records and evidence paths used to decide whether the rollout may proceed. A short rollout briefing is prepared for the daily stand-up.
+**Source set.** A release team has one deployment method description, one current work plan, one approval or decision record when required, and the evidence records and evidence relations used to decide whether the rollout may proceed. A short rollout briefing is prepared for the daily stand-up.
 
-**Briefing slice.** `Status briefing only: rollback procedure appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence path.`
+**Briefing slice.** `Status briefing only: rollback procedure appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence relation.`
 
 This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern governing the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
 
@@ -301,7 +301,7 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the selected `A.15` selected-method, work-plan, or work-occurrence record named by value. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence path, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
+The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the selected `A.15` selected-method, work-plan, or work-occurrence record named by value. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence relation, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only a source-restoration request, decision-request record, prospective work-plan entry, or source-gap note.
 
 ### A.15:6 - Bias-Annotation
 
@@ -373,7 +373,7 @@ This pattern solves a problem that has plagued systems modeling for decades: the
 
 By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for downstream resource accounting, decision, constraint, gate, evidence, assurance, ethics, and transformation patterns without letting any one of those neighboring claims collapse into A.15.
 
-### A.15:11 - SoTA Alignment: Adopted and Adapted Invariants and Rejected Shortcuts
+### A.15:11 - SoTA-Echoing: Adopted and Adapted Invariants and Rejected Shortcuts
 
 **SoTA alignment rule.** Read each row here as source idea -> local FPF invariant -> practical local test -> popular shortcut rejected. A source citation governs nothing by reputation; it counts only when the cited idea is translated into the Solution, conformance checks, boundary rules, worked slices, and Relations of this pattern.
 
@@ -441,7 +441,7 @@ Useful outputs:
 
 - an A.15 work-alignment claim when work roles explain the case;
 - a C.26.2 low-recoverability distributed-state reading when coordination evidence survives ordinary rivals;
-- an `A.10` evidence path or `B.3` assurance claim path when the distributed-state reading will be used as evidence or assurance for a work claim or reliance claim;
+- an `A.10` evidence relation or `B.3` assurance claim relation when the distributed-state reading will be used as evidence or assurance for a work claim or reliance claim;
 - no distributed-state reading when evidence sources, rivals, or time window cannot be named.
 
 ### A.15:12b - C.29 mathematical-lens use relation
@@ -470,7 +470,7 @@ If the same phrase also raises connected artifacts, telemetry, acceptance record
 
 Lower an `A.15` claim when the role, holder, bounded context, method, method description, work plan, performed work occurrence, or capability check cannot be named at the granularity required by the next work move. A weaker but admissible result is a separation note, source-gap note, source-restoration request, decision-request record for the next decision, or prospective work-plan entry.
 
-Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence path changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
+Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, status-currentness record, or source-currentness window was wrong for the claimed move. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence relation changed, and do not treat a source-restoration request as carrying a non-A.15 claim.
 
 Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new evidence, assurance, gate, source-restoration, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the remaining `A.15` separation here.
 

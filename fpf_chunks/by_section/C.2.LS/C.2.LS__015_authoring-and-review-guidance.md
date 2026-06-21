@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 37346
-line_end: 37366
+line_start: 38641
+line_end: 38661
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,8 +49,8 @@ When publishing a language-state facet profile:
 3. add threshold refs only when a threshold changes routing, repair, or governance;
 4. avoid global labels such as "mature", "raw", or "ready" unless the profile decomposition is already visible.
 
-#### C.2.LS:14.2 - For reviewers
-A reviewer should ask:
+#### C.2.LS:14.2 - For assurance readers
+An assurance reader should ask:
 
 - is any facet silently replaced by `F`?
 - is a threshold published on an explicit facet rather than on a poetic surrogate?

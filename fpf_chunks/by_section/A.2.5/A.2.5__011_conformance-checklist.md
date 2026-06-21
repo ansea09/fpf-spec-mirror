@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:8 — Conformance Checklist"
-line_start: 3853
-line_end: 3867
+line_start: 3950
+line_end: 3964
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -34,7 +34,7 @@ keywords:
 | `CC-A2.5-05` | Does every work-admission claim name or inherit a current `StateAssertion` window? |
 | `CC-A2.5-06` | Do state predicates use observable or reviewable values, evaluations, work records, speech acts, or source relations? |
 | `CC-A2.5-07` | Are state-change predicates kept separate from method order and work planning? |
-| `CC-A2.5-08` | Are capability requirements sent to `A.2.2`, with method claims and work claims sent to `A.15` and A.15 subpatterns? |
-| `CC-A2.5-09` | Are evidence use, status use, source use, and publication use around epistemes sent to their direct patterns instead of becoming work-facing role states? |
+| `CC-A2.5-08` | Are capability requirements governed by `A.2.2`, with method claims and work claims governed by `A.15` and A.15 subpatterns? |
+| `CC-A2.5-09` | Do evidence use, status use, source use, and publication use around epistemes remain governed by their direct patterns instead of becoming work-facing role states? |
 | `CC-A2.5-10` | Do role-relation hooks preserve state-sensitive role-requirement substitution, incompatibility, and bundle boundaries without product-state explosion by default? |
 

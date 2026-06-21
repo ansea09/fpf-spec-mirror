@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "G.6"
 pattern_title: "Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
 section_id: "G.6:6"
-section_title: "Bias Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
-  - "G.6:6 — Bias Annotation"
-line_start: 81615
-line_end: 81627
+  - "G.6:6 — Bias-Annotation"
+line_start: 84375
+line_end: 84387
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,7 +57,7 @@ keywords:
   - "Γ-fold pinning"
 ---
 
-### G.6:6 - Bias Annotation
+### G.6:6 - Bias-Annotation
 
 Biases guarded here:
 

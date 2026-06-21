@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.4.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
-line_start: 12574
-line_end: 13088
+line_start: 12810
+line_end: 13342
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -27,9 +27,10 @@ keywords:
 
 ## A.6.4 - `U.EpistemicRetargeting` — EntityOfConcern retargeting morphism
 > **Status:** Stable
+> **Type:** Definitional ontic pattern
 
 **One‑line summary.** `U.EpistemicRetargeting` is the **EntityOfConcern retargeting** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
-**EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Earlier source-side spellings are source-migration wording only; conformant text normalizes them to `EntityOfConcern*` before use.
+**EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
 
 **Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 `U.RelationSlotDiscipline`**.
 
@@ -39,7 +40,7 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicVi
 **Used by.**
 E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
 
-**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the governed durable value in this host. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source-migration wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
+**Body-level U-kind settlement.** `U.EpistemicRetargeting` is the governed durable value in this pattern. It reuses `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, and `U.Episteme`; episteme card, view, and publication names are dependent C.2.1/E.17 values when those patterns govern them. `ClaimGraph`, `Viewpoint`, `ReferenceScheme`, and `RepresentationScheme` are C.2.1/A.6.5 slot fillers or ValueKinds. `SubjectRef` is source wiring through `DescriptionContext`. `EpMorphism` is the local mathematical-lens arrow value for retargeting, not a root U-kind.
 
 **Retargeting in plain terms.** One effect-free episteme-to-episteme retargeting where the source episteme and receiving episteme intentionally describe different but bridge-related values of `EntityOfConcernSlot`.
 
@@ -387,7 +388,7 @@ Boundary rules:
 
 `StructuralReinterpretation` in `E.18` receives retargeting semantics from this pattern. It is not an `E.18`-local retargeting kind and not proof that the source and receiving items preserve the same `entityOfConcernRef`.
 
-### A.6.4:5 - Archetypal grounding (Tell-Show-Show)
+### A.6.4:5 - Archetypal Grounding (Tell-Show-Show)
 
 **Tell.**
 EpistemicRetargeting captures **“same invariant, different EntityOfConcern”** moves:
@@ -416,42 +417,11 @@ In each case, what remains stable is an **invariant** (behaviour, energy, likeli
 * `KindBridge(S_data, S_model)` encodes the intended data→model relation (e.g. MLE, Bayesian posterior).
 * The invariant is likelihood or predictive performance; the retargeting laws ensure `Y` does not claim more about this invariant than is warranted by `X`.
 
-### A.6.4:6 - Consequences
+### A.6.4:5.1 - Bias-Annotation
 
-* **Clear separation of Viewing vs Retargeting.**
-  A.6.3 and A.6.4 now jointly distinguish:
-  * **views**: same `EntityOfConcernRef`, possible representation/viewpoint changes;
-  * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
+A.6.4 deliberately biases the reader away from “same thing in another form” when the EntityOfConcern changes. The safe default is to assume retargeting needs a KindBridge, invariant, loss boundary, and admissible-use statement. Publication rendering, graph/path notation, and functional diagrams may help express the relation, but they do not by themselves prove retargeting admissibility or carry work authority.
 
-* **Canonical governing pattern for StructuralReinterpretation.**
-  `E.18` `StructuralReinterpretation` receives semantics from `U.EpistemicRetargeting`, not from an ad-hoc special graph-position kind. This reduces duplication and clarifies how CL penalties and Bridges are used.
-
-* **Invariants become first‑class.**
-  Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.
-
-* **Safer cross‑plane reasoning.**
-  ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
-
-* **Better integration with EntityOfConcern and Description-episteme boundary and specification-use gate.**
-  For `…Description`/`…Spec` epistemes, retargeting is the only place where `EntityOfConcernRef` in `DescriptionContext` is allowed to change; all other EntityOfConcern and Description-episteme boundary and specification-use operations (Describe, specification-use refinement, Viewing) keep it fixed.
-
-### A.6.4:7 - Rationale & SoTA‑echoing  *(informative)*
-* **Fibrations and base‑change (displayed categories, 2017+).**
-  With epistemes forming a category `Ep` fibred over `Ref` via `α : Ep → Ref` (C.2 / A.6.2), EpistemicViewing corresponds to **vertical morphisms** (`α(v) = id`), while EpistemicRetargeting corresponds to **reindexing along base reference arrows** (`α(r) = b : R₁→R₂`). This lines up with base‑change and transport along fibrations in category theory.
-
-* **Structured cospans and reinterpretation.**
-  Modern work on structured cospans and open systems uses cospans and their morphisms to move between different presentations of a system while preserving a notion of interface/behaviour. Retargeting plays a similar role: it moves from one entity kind to another while preserving a declared invariant.
-
-* **Fourier‑style dualities.**
-  In signal processing and physics, Fourier and related transforms are often treated as isometries between function spaces, preserving energy while changing the domain of discourse. `U.EpistemicRetargeting` abstracts this pattern: the invariant is codified in KD‑CAL/LOG‑CAL; the morphism explicitly changes the EntityOfConcern along a `KindBridge`.
-
-* **Data/model duality in ML.**
-  Contemporary ML practice cycles between data and models; invariants such as likelihood, risk, and calibration matter more than raw equality of ClaimGraphs. Retargeting gives a structured way to talk about data→model (and, potentially, model→data) moves as episteme morphisms, rather than untyped “training” steps.
-
-* **Consistency management and abstraction.**
-  In model‑driven and bidirectional transformation literature, abstraction and refinement transfers information between models with different subject domains. Treating these as retargetings with explicit Bridges and invariants makes their assumptions amenable to CL accounting and KD‑CAL reasoning, instead of hiding them in tooling.
-
-### A.6.4:8 - Conformance checklist (normative)
+### A.6.4:8 - Conformance Checklist (normative)
 
 **CC‑A.6.4‑1 - EFEM species and EntityOfConcernChangeMode.**
 Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
@@ -497,6 +467,54 @@ Retargeting wording does not carry work authority, evidence force, assurance for
 
 **CC-A.6.4-9 - StructuralReinterpretation boundary.**
 When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. `StructuralReinterpretation` receives retargeting semantics from `A.6.4`; it is not proof of `entityOfConcernRef` continuity and not an `E.18`-local retargeting kind.
+
+### A.6.4:5.2 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails | Correct move |
+|---|---|---|
+| Retargeting as viewing | A changed EntityOfConcern is treated as the same object under another viewpoint. | Use A.6.3 only when `EntityOfConcernRef` is preserved; use A.6.4 when it changes. |
+| Retargeting as publication rendering | A diagram, export, or face is treated as the retargeting relation. | Keep publication forms in E.17 and state the A.6.4 bridge/invariant relation separately. |
+| Bridge as proof of all claims | A KindBridge is used to inherit gates, evidence, work authority, or temporal currentness. | State which commitments are preserved, lost, or non-admissible and return other claims to their governing patterns. |
+| Mathematical notation as retargeting object | Fourier, graph, path, or category notation is treated as the retargeting itself. | Use C.29 for the lens and A.6.4 for the episteme retargeting relation it expresses. |
+
+### A.6.4:6 - Consequences
+
+* **Clear separation of Viewing vs Retargeting.**
+  A.6.3 and A.6.4 now jointly distinguish:
+  * **views**: same `EntityOfConcernRef`, possible representation/viewpoint changes;
+  * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
+
+* **Canonical governing pattern for StructuralReinterpretation.**
+  `E.18` `StructuralReinterpretation` receives semantics from `U.EpistemicRetargeting`, not from an ad-hoc special graph-position kind. This reduces duplication and clarifies how CL penalties and Bridges are used.
+
+* **Invariants become first‑class.**
+  Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.
+
+* **Safer cross‑plane reasoning.**
+  ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
+
+* **Better integration with EntityOfConcern and Description-episteme boundary and specification-use gate.**
+  For `…Description`/`…Spec` epistemes, retargeting is the only place where `EntityOfConcernRef` in `DescriptionContext` is allowed to change; all other EntityOfConcern and Description-episteme boundary and specification-use operations (Describe, specification-use refinement, Viewing) keep it fixed.
+
+### A.6.4:7 - Rationale
+
+A.6.4 exists because some episteme transforms preserve an invariant while changing the EntityOfConcern. That move is neither ordinary viewing nor performed work: it needs a declared KindBridge, invariant, loss boundary, admissible use, and retargeting witness before downstream claims may rely on it.
+
+### A.6.4:7.1 - SoTA-Echoing
+* **Fibrations and base‑change (displayed categories, 2017+).**
+  With epistemes forming a category `Ep` fibred over `Ref` via `α : Ep → Ref` (C.2 / A.6.2), EpistemicViewing corresponds to **vertical morphisms** (`α(v) = id`), while EpistemicRetargeting corresponds to **reindexing along base reference arrows** (`α(r) = b : R₁→R₂`). This lines up with base‑change and transport along fibrations in category theory.
+
+* **Structured cospans and reinterpretation.**
+  Modern work on structured cospans and open systems uses cospans and their morphisms to move between different presentations of a system while preserving a notion of interface/behaviour. Retargeting plays a similar role: it moves from one entity kind to another while preserving a declared invariant.
+
+* **Fourier‑style dualities.**
+  In signal processing and physics, Fourier and related transforms are often treated as isometries between function spaces, preserving energy while changing the domain of discourse. `U.EpistemicRetargeting` abstracts this pattern: the invariant is codified in KD‑CAL/LOG‑CAL; the morphism explicitly changes the EntityOfConcern along a `KindBridge`.
+
+* **Data/model duality in ML.**
+  Contemporary ML practice cycles between data and models; invariants such as likelihood, risk, and calibration matter more than raw equality of ClaimGraphs. Retargeting gives a structured way to talk about data→model (and, potentially, model→data) moves as episteme morphisms, rather than untyped “training” steps.
+
+* **Consistency management and abstraction.**
+  In model‑driven and bidirectional transformation literature, abstraction and refinement transfers information between models with different subject domains. Treating these as retargetings with explicit Bridges and invariants makes their assumptions amenable to CL accounting and KD‑CAL reasoning, instead of hiding them in tooling.
 
 ### A.6.4:9 - Mini-checklist (for use)
 

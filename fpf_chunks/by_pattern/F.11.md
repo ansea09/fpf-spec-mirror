@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.11.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
-line_start: 75174
-line_end: 75495
+line_start: 77868
+line_end: 78189
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -194,7 +194,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 | **A8**  | **Recipe-as-Role**             | “The Spec assigns responsibility” (mixes MethodDescription with Role constructs — `U.RoleDescription`/`U.RoleAssignment`).  | Conflates the `U.MethodDescription` episteme with behavioural masks.         | Use **F.4 Role Description**; let **MethodDescription** only **describe** a Method.                                                                            |
 | **A9**  | **One‑Context Scope**        | A single Context (e.g., BPMN) used as if it covered control/measurement. | Scope mirage; silent cross‑domain generalisation.                           | Re‑cut Contexts (F.1) to include control and sensing. Re‑express statements with the quartet across those Contexts.                                                                                                        |
 | **A10** | **Lossless Bridge Assumption** | Claiming “equivalent” across Contexts without Loss.                      | Hides mismatches; unsafe transfer of inferences.                            | In **F.7/F.9** declare Bridge **kind**, **CL**, and explicit **Loss** notes.                                                                                                                                         |
-| **A11** | **Recipe‑as‑Type**             | Treating a MethodDescription vocabulary as a type taxonomy.                  | Category error; misuses Kind-CAL.                                           | If a stable hierarchy of **kinds** of Methods is needed, mint **U.Type** nodes in Kind-CAL; keep MethodDescription as *description* only.                                                                                   |
+| **A11** | **Recipe-as-Kind**             | Treating a MethodDescription vocabulary as a method-kind taxonomy.                  | Category error; confuses description wording with method kindhood.                                           | If a stable hierarchy of **kinds** of Methods is needed, use admission under E.24.UK and C.3 with an ontic and bridge record; keep MethodDescription as *description* only.                                                                                   |
 | **A12** | **Actuation Outside Work**     | Commands modeled without enclosing Work.                              | Severs signal from enactment context; breaks traceability.                  | Embed **Actuation** **within** **Work** intervals; relate to the enacting Role and Method or MethodDescription references.                                                                                                     |
 
 ### F.11:11 - Worked examples (extended)

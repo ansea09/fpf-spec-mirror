@@ -6,12 +6,12 @@ section_id: "E.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:2 — Problem"
-line_start: 68076
-line_end: 68084
+line_start: 70735
+line_end: 70743
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -39,7 +39,7 @@ keywords:
 
 Without a unified, explicit review pattern:
 
-* Different reviewers optimize for formal/template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable Conformance Checklist.
+* Different reviewers optimize for formal or template compliance and miss deeper ontological, semantic, and naming issues, producing bureaucratic output that does not improve the enforceable Conformance Checklist.
 * Authors “optimize for the visible checklist” and miss hidden requirements (lexical discipline, Bridge hygiene, SoTA‑Echoing quality, scope claims, delta‑class impact).
 * Older patterns accumulate conceptual staleness and diverge from current practice, current terminology, or current internal invariants.
 * The specification's normative content becomes harder to trust: compliance becomes a matter of reviewer taste rather than a repeatable gate.

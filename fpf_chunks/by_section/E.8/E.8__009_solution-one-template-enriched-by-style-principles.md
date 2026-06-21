@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 57777
-line_end: 58107
+line_start: 60200
+line_end: 60530
 dependencies:
   - "E.10"
   - "E.11"
@@ -109,7 +109,7 @@ The colon (`:`) is **reserved** for section paths and **MUST NOT** appear in pat
 **H-4 (Ordinals).** Ordinals in section paths **SHOULD** track the canonical template numbering (**1 = Problem frame**, …, **13 = Footer marker**) to maximise cross‑pattern comparability. During refactors or in previously authored patterns, ordinals **MAY** be local. In that case, the **canonical section title at the start of `<Title>`** is the semantic key; readers and tools **MUST NOT** infer section semantics from the ordinal alone.
 *Note:* the Footer marker itself is exempt from ordinal encoding; it uses the reserved token `:End` (see **H-9**).
 
-**H-5 (Where kind and normativity are declared).** Pattern **kind** (e.g., Architectural / Definitional) **MUST** be declared in the **Header block**, not encoded into the heading text. Normativity (**normative** / **informative**) **MUST** also be declared in the Header block when it deviates from the default. If a reminder is needed for readers, authors **MAY** add a short parenthetical note at the end of the heading (e.g., `(informative)` / `(non‑normative)`), but headings **MUST NOT** use square‑bracket tags.
+**H-5 (Where kind and normativity are declared).** Pattern **kind** (for example, Architectural or Definitional) **MUST** be declared in the **Header block**, not encoded into the heading text. Normativity (**normative** or **informative**) **MUST** also be declared in the Header block when it deviates from the default. If a reminder is needed for readers, authors **MAY** add a short parenthetical note at the end of the heading, for example `(informative)` or `(non‑normative)`, but headings **MUST NOT** use square‑bracket tags.
 
 **H-6 (Heading levels).** Heading levels **MUST** preserve a fixed offset between structural layers (Part or Cluster (flat) → Pattern → Pattern sections):
 * Part and Cluster headings **MUST** use `#` (level 1) across the file.
@@ -123,14 +123,14 @@ The colon (`:`) is **reserved** for section paths and **MUST NOT** appear in pat
 
 **Deontics vs admissibility.** Use RFC keywords only for **deontic obligations** (requirements on authors, reviewers, implementers/tooling, or published pattern or companion texts) — i.e., things an agent can choose to do or omit. Do **not** use RFC keywords to state **definitions**, **structural invariants**, **typing rules**, or other **admissibility conditions** of the modeled world.
 
-When you need an enforceable constraint that is *mathematical* rather than *deontic*, express it as a non‑deontic predicate using one of: `Definition:`, `Invariant:`, or `Well‑formedness constraint:` (optionally with formal quantifiers). Prefer mathematical terms like `cardinality 1..1 (total)` / `0..1 (partial)` / `0..n` over deontic adjectives like “mandatory or optional” when the intent is cardinality, not duty.
+When you need an enforceable constraint that is *mathematical* rather than *deontic*, express it as a non‑deontic predicate using one of: `Definition:`, `Invariant:`, or `Well‑formedness constraint:` (optionally with formal quantifiers). Prefer mathematical terms like `cardinality 1..1 (total)`, `0..1 (partial)`, or `0..n` over deontic adjectives like “mandatory or optional” when the intent is cardinality, not duty.
 
 **Admissibility predicate discipline (recommended shape).**
-When expressing admissibility/validity constraints as predicates (`Definition:` / `Invariant:` / `Well‑formedness constraint:`):
+When expressing admissibility or validity constraints as predicates (`Definition:`, `Invariant:`, or `Well‑formedness constraint:`):
 * Authors **MUST NOT** use RFC keywords inside the predicate block.
 * Authors **SHOULD** give each predicate a stable identifier and short name (e.g., `RA‑1 (Locality)`, `RE‑3 (Method gate)`), so that Conformance Checklist items can reference it without re‑authoring the rule.
 * Authors **SHOULD** write the constraint as a declarative predicate (optionally quantified), e.g., `role ∈ Roles(context)`, rather than as “X MUST …”.
-* If the constraint needs to be checked as part of pattern conformance, authors **SHOULD** reference the predicate identifier from the Conformance Checklist (and/or call out validator behaviour), rather than duplicating the predicate with RFC keywords.
+* If the constraint needs to be checked as part of pattern conformance, authors **SHOULD** reference the predicate identifier from the Conformance Checklist, and call out validator behaviour when relevant, rather than duplicating the predicate with RFC keywords.
 
 **H-9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags):
 `### <PatternId>:End`
@@ -161,7 +161,7 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
 | S-17 | Self-contained monolith prose | A merged pattern must explain itself inside the monolith; planning shorthand and review-context dependencies are not admissible in pattern prose. |
-| S-18 | Reader-role discipline | Keep every pattern host or monolith section addressed to the intended FPF user; move package-development, architecture-placement rationale, developer/reviewer/executor correspondence, and quality/projection evidence to separate companion, evaluation, review, projection, or release carriers unless the sentence has been rewritten as the user's admissible move or boundary. |
+| S-18 | Reader-role discipline | Keep every pattern host or monolith section addressed to the intended FPF user; move package-development, architecture-placement rationale, developer, reviewer, and executor correspondence, and quality or projection evidence to separate companion, evaluation, review, projection, or release carriers unless the sentence has been rewritten as the user's admissible move or boundary. |
 | S-19 | Precision before relaxation | In FPF-governed prose, restore the head kind named by a generic phrase before treating any qualifier as trustworthy claim guidance; then restore the claim kind or admissible-use boundary hidden in the qualifier before allowing any later plain, didactic, or coarsened restatement. |
 
 Authors use the principles as a *scaffold*, not a straitjacket: the goal
@@ -176,7 +176,7 @@ Brief explanations:
 | **Hook**   | Open attention with a vivid but bounded image or paradox that maps back to the primary `EntityOfConcern` and claim. |
 | **Frame**  | State the specific question or problem space.              |
 | **Weave**  | Connect to earlier patterns or Pillars.                    |
-| **Ground** | Tie to a concrete System/Episteme or physical process.     |
+| **Ground** | Tie to a concrete system, episteme, or physical process.     |
 | **Bridge** | Show the implication for the upcoming claim or rule.       |
 | **Flow**   | Deliver the formal content or argument.                    |
 | **Close**  | End with a quotable line or payoff that reinforces memory. |
@@ -189,7 +189,7 @@ Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation 
 If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, relation record, or claim record is actually in play, what move is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
 Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
-The earlier provisional `recognition shell / assurance shell` wording is retired.
+The earlier provisional `recognition shell` and `assurance shell` wording is retired.
 These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new `authoritySourceRef` targets, governing-pattern relations, publication-form/face kinds, `publication-face kind`s, or a second face family.
 A third didactic-content role remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
@@ -210,7 +210,7 @@ It carries the heavier FPF-governed material that makes the pattern reviewable a
 - declaration blocks and typed fields when those are part of the pattern's declared conformance or boundary claim;
 - representation ontology, EntityOfConcern discipline, or primary-EntityOfConcern discipline;
 - any minimal modeling or mathematical lens that keeps the primary `EntityOfConcern`, relation record, or claim record stable;
-- guidance/check, invariants, admissibility, and stop or neighbouring-pattern conditions;
+- guidance or check material, invariants, admissibility, and stop or neighbouring-pattern conditions;
 - `SoTA-Echoing` when it carries explanatory work;
 - and the review hooks that let a broader or more consequential interpretation or use be checked explicitly.
 
@@ -219,7 +219,7 @@ It must **not** silently replace, strengthen, or universalize the claim that the
 If the recognition text says “this pattern helps with a bounded working situation”, the assurance text must not quietly turn that into an unbacked carrier claim, unbacked guarantee, or broader universality claim.
 
 If a pattern claims **universal** or **transdisciplinary** status, that claim must already be visible in the recognition text.
-It is not enough for universality to appear only later in a guidance/check sheet, declaration block, or `SoTA-Echoing` rationale.
+It is not enough for universality to appear only later in a guidance or check sheet, declaration block, or `SoTA-Echoing` rationale.
 A broad claim should therefore be demonstrated in the recognition text through at least **three heterogeneous reader or domain situations**.
 When a compact matrix helps, `F.16` is the preferred template for showing that breadth.
 If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
@@ -238,8 +238,8 @@ FPF pattern prose is not free-form descriptive English. When authors name a *pac
 
 Use the following distinctions explicitly:
 
-This is a cross-cutting review discipline, not a replacement for local pattern lexica. For example, `A.6.7` / `A.19.CHR` already carry the suite/kit/pack distinction, and `E.17.1` already carries the viewpoint bundle/family/library distinction.
-- **governing pattern** = the pattern that carries the primary guidance/check authority of the family;
+This is a cross-cutting review discipline, not a replacement for local pattern lexica. For example, `A.6.7` and `A.19.CHR` already carry the suite, kit, and pack distinction, and `E.17.1` already carries the viewpoint bundle, family, and library distinction.
+- **governing pattern** = the pattern that carries the primary guidance or check authority of the family;
 - **specialization** = a named refinement under an existing governing pattern;
 - **overlay** = a cross-cutting governance role or reading-order projection over existing governing patterns;
 - **profile** = a declarative review/use role derived from a governing pattern rather than a replacement pattern;
@@ -287,7 +287,7 @@ If architecture-placement commentary is still helpful, the default place is a se
 A pattern may include a short optional informative subsection such as `Architectural placement note (informative)` only when that placement materially helps users avoid misuse; even then, it must stay clearly separated from the user-facing solution and rationale rather than replacing them.
 
 #### E.8:4.2.4 - Human-facing fit beyond role correctness
-Human-facing fit is also subject-domain fit. A recognition text that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later guidance/check text is correct. When a broader umbrella name and a narrower operative branch are both used, the recognition text should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
+Human-facing fit is also subject-domain fit. A recognition text that starts from internal taxonomy, pattern-placement convenience, or package-architecture wording before the problem-domain moment is still under-authored even if its later guidance or check text is correct. When a broader umbrella name and a narrower operative branch are both used, the recognition text should also tell the reader which stack is actually active rather than leaving that reconstruction to a later declaration block or companion note.
 
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, primary `EntityOfConcern`, non-use boundary, or first action-guiding move visible enough.
@@ -351,13 +351,13 @@ Old pre-template top:
 ```text
 Start here when the dominant question is API, protocol, SLA, published boundary, or compliance wording.
 First output: Claim Register.
-Neighboring pattern relations / entry-recognition reclassifications: A.6.B, A.6.C.
+Neighboring pattern relations and entry-recognition reclassifications: A.6.B, A.6.C.
 ```
 
 Repaired Problem-frame recognition signature:
 
 ```text
-Use this pattern when boundary-facing language - API, protocol, SLO/SLA, compliance clause, or other published boundary description - mixes guidance/check clauses, admissibility gates, duties, and evidence into one sentence or published boundary description.
+Use this pattern when boundary-facing language - API, protocol, SLO/SLA, compliance clause, or other published boundary description - mixes guidance or check clauses, admissibility gates, duties, and evidence into one sentence or published boundary description.
 
 If missed, the text becomes boundary-claim soup: runtime behavior, governance, and evidence are treated as one undifferentiated promise.
 
@@ -373,7 +373,7 @@ Pattern prose must keep its referent index explicit. In ordinary body sections, 
 Design-time and development-state referents are different objects. The current draft, current body, current pass, author, reviewer, handoff, packet, governing companion, landing choice, or other writing-process objects must not be smuggled in as the hidden truth-condition of pattern prose. A quick test is: what makes this sentence true? If the sentence is true because the current text is arranged a certain way, because the author or reviewer must do something next, or because the current development state says so, then it is design-time residue, not pattern content.
 
 Move that material to the authored-slice carrier, handoff, `DRR`, or companion architecture note. If a sentence is kept in the pattern, rewrite it so that its truth depends on the governed run-time/domain object or on the standard's declared normative claim set rather than on the current writing pass.
-If a pattern or example claims **autonomy** for any Role/Method/Service:
+If a pattern or example claims **autonomy** for any Role, Method, or Service:
 1) Add a subsection **“Autonomy (RoC‑E.16)”** that lists:
    * `AutonomyBudgetDeclRef` (id, version, Scope (G), Γ_time),
    * `Aut-Guard policy-id (PolicyIdRef)`,
@@ -381,5 +381,5 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
    * pointer to where **Green‑Gate** applies in the Method steps,
    * where **AutonomyLedgerEntry** is recorded on `U.Work`.
 2) Include one **Tell‑Show‑Show** vignette that demonstrates **depletion** and **override** handling.
-3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role, Method, and Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to kernel types.
+3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role, Method, and Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to admitted U-kinds or direct governing patterns.
 

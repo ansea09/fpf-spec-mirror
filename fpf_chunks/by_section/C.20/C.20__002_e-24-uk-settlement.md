@@ -6,12 +6,12 @@ section_id: "C.20:section-001"
 section_title: "E.24.UK settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__002_e-24-uk-settlement.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:section-001 — E.24.UK settlement"
-line_start: 43891
-line_end: 43910
+line_start: 45433
+line_end: 45452
 dependencies:
   - "A.19"
   - "C.2"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.24.UK settlement
 
-`U.Discipline` is retained as a root durable holon kind. Its EntityOfConcern is a field-level practice-and-knowledge holon that lets FPF users talk about a discipline as one reusable object without collapsing it into a domain label, bounded context, organization, publication set, or tradition name.
+`U.Discipline` is the root durable holon kind used for field-level practice-and-knowledge wholes. Its EntityOfConcern lets FPF users talk about a discipline as one reusable object without collapsing it into a domain label, bounded context, organization, publication set, or tradition name.
 
 The identity of a `U.Discipline` is held by a composition relation over five required positions:
 
@@ -51,7 +51,7 @@ This makes `U.Discipline` a `U.Holon`: it is a whole with epistemic, organizatio
 
 Boundary: a **domain** names a subject area or catalog stitch; a **bounded context** names a local meaning frame; a **discipline** names the composed field-level holon that carries canon, practices, carriers, bridges, and comparison governance. Similar words across domains do not make one discipline; bridge and loss notes are required.
 
-`U.AppliedDiscipline` and `U.Transdiscipline` are retained only as C.3-governed subkind/species values under `U.Discipline`, not as separate root ontics. `U.Tradition` and `U.Lineage` are not admitted in this pass because they name variant, edition, school, or provenance structures inside or across disciplines; they can be written as ordinary auxiliary values or C.3 local kinds until a direct governing pattern supplies their own identity relation, admissible use, and E.24.UK settlement.
+`U.AppliedDiscipline` and `U.Transdiscipline` are C.3-governed subkind values under `U.Discipline`, not separate root ontics. `U.Tradition` and `U.Lineage` are not root U-kinds in C.20 because they name variant, edition, school, or provenance structures inside or across disciplines; write them as ordinary auxiliary values or C.3 local kinds unless a direct governing pattern supplies their own identity relation, admissible use, and E.24.UK settlement.
 
 **Builds on.** **C.2 KD-CAL** (F-G-R and the CL-to-R penalty rule), **A.19/G.0 CG-Spec** (comparability), **F.9 Bridges** (cross-context alignment), **E.10 LEX** (registers & twin labels). **Coordinates with.** **C.21** (Discipline-CHR, field health), **C.23** (Method-SoS-LOG), **F.17-F.18** (UTS).
 

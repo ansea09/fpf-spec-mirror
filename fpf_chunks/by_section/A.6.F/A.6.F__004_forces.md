@@ -6,12 +6,12 @@ section_id: "A.6.F:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:3 — Forces"
-line_start: 14935
-line_end: 14945
+line_start: 15198
+line_end: 15208
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.19.CHR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:4 — Solution"
-line_start: 25862
-line_end: 26270
+line_start: 26503
+line_end: 26911
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,9 +34,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"
@@ -51,7 +51,7 @@ keywords:
 This pattern defines a single, canonical **CHR mechanism suite** as a *description object* (not a mechanism, not a pack), so that:
 
 1. the CHR core is reusable across all Part‑G patterns (not only G.5),
-2. legality is centralized via **spec pins** (`CN‑Spec`, `CG‑Spec`) and **Transport discipline**,
+2. admissibility is centralized via **spec pins** (`CN-Spec`, `CG-Spec`) and **Transport discipline**,
 3. P2W integration is made explicit by requiring a standard **planned slot fillings** plan item in `WorkPlanning`, while keeping **FinalizeLaunchValues** exclusively in `WorkEnactment`.
 
 Core idea:
@@ -124,7 +124,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 **Membership semantics note (normative).**
 `mechanisms` denotes a duplicates-free **set**; order carries no semantics. Any intended ordering is expressed only in `suite_protocols`.
 
-**Rationale.** This suite is unified by **governance card, legality gate, and Transport discipline** (CN‑Spec + CG‑Spec + Transport), not by a single BaseType.
+**Rationale.** This suite is unified by **governance card, admissibility gate, and Transport discipline** (CN-Spec + CG-Spec + Transport), with membership by declared mechanism intension.
 
 #### A.19.CHR:4.2.1 - CHR SlotKind Lexicon (suite‑wide minimum)
 
@@ -166,7 +166,7 @@ CHRMechanismSuiteDescription.mechanisms :=
   - `TaskSignatureSlot` *(optional)*
   - `SelectionSlot`
 
-- **Evidence / legality (optional, policy‑bound)**
+- **Evidence / admissibility (optional, policy‑bound)**
   - `MinimalEvidenceSlot` *(optional)*
 
 **Note.** This lexicon is intentionally small and role‑based: it constrains naming, not method semantics. Method/discipline specifics belong in SoTA packs (G.2) and wiring‑only `GPatternExtension` modules, not in the suite core.
@@ -221,7 +221,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 * **Gate decision separation:** mechanisms and suite objects MUST NOT publish `GateDecision` nor `DecisionLog`. `block` is gate‑only (OperationalGate(profile)).
 * **Guard lexeme reservations:** `USM.CompareGuard` / `USM.LaunchGuard` are gate‑level pins; mechanism predicates use suffixes `…Admissibility` / `…Eligibility`.
 
-##### A.19.CHR:4.3.3 - Numeric legality and order semantics
+##### A.19.CHR:4.3.3 - Numeric admissibility and order lawfulness
 
 * **CG‑Spec citation required:** any numeric scoring/aggregation/comparison MUST cite CG‑Spec (SCP + ComparatorSet + MinimalEvidence + Γ_fold + Φ/CL pins), and MUST NOT embed a “shadow CG‑Spec” inside mechanisms/suite.
 * **No silent scalarisation of partial orders:** partial order comparisons remain set‑valued; any scalar summary is report‑only unless explicitly declared as a lawful comparator/policy.
@@ -414,7 +414,7 @@ Suite-closed protocol:
 `UNM → UINDM → USCM → CPM → SelectorMechanism`.
 Downstream continuation (outside `suite_protocols`): publication/telemetry via `G.10` and/or `PTM`.
 
-**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as legality remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
+**SoTA note (illustrative, non-normative).** A `ScoringMethodDescription` here can represent a post‑2015 monotone model family (e.g., monotone lattice / constrained monotone learning) or a set‑valued scoring family (e.g., conformalized score intervals), as long as admissibility remains SCP‑bound and uncertainty is handled via tri‑state guards rather than being suppressed into a scalar.
 
 ##### A.19.CHR:4.8.2 - Example — archive `PortfolioMode` with report-only illumination
 
@@ -453,5 +453,5 @@ WorkEnactment witnesses `FinalizeLaunchValues` and runs `UNM → UINDM → USCM 
 
 **Show.** The episteme’s planned baseline pins `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence, Γ_fold). The suite runs `UINDM` to select indicators, `USCM` to compute lawful score measures under SCP, `ULSAM` only when Γ_fold is explicitly selected, and `CPM` to compare without scalarizing partial orders. The selector returns a selected set rather than forcing a single winner.
 
-**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s legality discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
+**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, the pattern’s admissibility discipline forces the author either to (a) re-express the step as a lawful comparator declared in CG‑Spec, or (b) keep the result as report-only telemetry, not a dominance driver.
 

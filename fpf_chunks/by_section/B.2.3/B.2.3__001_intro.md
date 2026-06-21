@@ -1,31 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2.3"
-pattern_title: "Meta-Epistemic Transition (MET)"
+pattern_title: "Meta-Holon Transition With Episteme Result"
 section_id: "B.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.2.3 — Meta-Epistemic Transition (MET)"
+  - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:intro — Intro"
-line_start: 31861
-line_end: 31866
+line_start: 32810
+line_end: 32815
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.3.CSC"
+  - "A.6.4"
   - "B.2"
-  - "B.2.1"
+  - "B.2.P"
+  - "B.3"
+  - "B.3.5"
+  - "C.2.1"
+  - "C.2.P"
+  - "C.2.P.DR"
+  - "C.29"
+  - "E.17"
+  - "E.24.UK"
+  - "F.18"
+  - "F.19"
+  - "U.EpistemeSlotRelation"
 keywords:
-  - "knowledge emergence"
-  - "meta-theory"
-  - "paradigm shift"
-  - "scientific revolution"
 ---
 
-## B.2.3 - Meta-Epistemic Transition (MET)
+## B.2.3 - Meta-Holon Transition With Episteme Result
 
-> **Type:** Architectural (A)
+> **Type:** Part B holonic construction pattern
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
+> **Normativity:** Normative unless a section is explicitly informative
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.7 — Concept‑Set Table"
-line_start: 73497
-line_end: 73769
+line_start: 76184
+line_end: 76456
 dependencies:
   - "A.6.9"
   - "E.10.D1"
@@ -46,7 +46,7 @@ keywords:
 
 **Intent.** Provide a **single, didactic page** where each **row** presents **one Concept‑Set**—a *set of SenseCells from different Contexts that we are licensed (by explicit Bridges) to treat as “the same for a stated scope”*. Columns are **Contexts**; cells carry **local labels**. The table **does not invent equivalences**: it **summarises** already declared **F.9 Bridges**, exposing *scope, losses, and counter‑examples* at a glance.
 
-**Applicability.** Use whenever cross-context reading is necessary (naming U.Types, teaching contrasts, assignment/enactment-adjacent terminology). It is a **reading lens**, not a data model: **notation-free**, **governance-free**, **Context-loyal**.
+**Applicability.** Use whenever cross-context reading is necessary (naming admitted U-kinds, roles, methods, characteristic terms, teaching contrasts, assignment/enactment-adjacent terminology). It is a **reading lens**, not a data model: **notation-free**, **governance-free**, **Context-loyal**.
 
 **Non‑goals.** No hidden merges. No “global terms”. No workflows or tool schemas. The table is a **conceptual display** of *licensed sameness* and *honest non‑sameness*.
 
@@ -56,7 +56,7 @@ Without a disciplined Cross‑context view:
 
 1. **Silent equivalence.** Readers assume sameness by name alone (e.g., *process*).
 2. **Loss denial.** Mappings hide what is dropped (DesignRunTag, units, agency).
-3. **Name inflation.** New U.Types are coined to avoid facing heterogeneity.
+3. **Name inflation.** Convenience root kind labels are coined to avoid facing heterogeneity.
 4. **Cognitive scatter.** Concepts drift across documents without one compact, teachable “where‑what‑how‑same” view.
 
 ### F.7:3 - Forces

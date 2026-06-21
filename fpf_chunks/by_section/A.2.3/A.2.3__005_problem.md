@@ -6,12 +6,12 @@ section_id: "A.2.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__005_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:2 — Problem"
-line_start: 2897
-line_end: 2906
+line_start: 2964
+line_end: 2973
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -54,8 +54,8 @@ keywords:
 Without a first‑class `U.PromiseContent`, models drift into five recurring errors:
 
 1. **Provider = Service.** Calling the **system** or **team** “the service” collapses structure with promise.
-2. **API = Service.** Treating an **interface/endpoint** as the service hides the consumer‑oriented promise (effect + acceptance).
-3. **Process = Service.** Mapping a **procedure/Method** (or a WorkPlan) to “service” confuses recipe/schedule with the external commitment.
-4. **Run = Service.** Logging **Work** as “a service” erases the Standard/promise layer and breaks SLA reasoning.
+2. **API = Service.** Treating an **interface or endpoint** as the service hides the consumer-oriented promise (effect plus acceptance).
+3. **Process = Service.** Mapping a **procedure or Method** (or a WorkPlan) to "service" confuses recipe or schedule with the external commitment.
+4. **Run = Service.** Logging **Work** as "a service" erases the standard and promise layer and breaks SLA reasoning.
 5. **Business ontology lock‑in.** Large domain schemes (e.g., “business service” stacks) are imported wholesale, losing FPF’s universality and comparability across contexts.
 

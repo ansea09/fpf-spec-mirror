@@ -6,12 +6,12 @@ section_id: "F.2:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__005_core-idea-didactic.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:4 — Core idea (didactic)"
-line_start: 71913
-line_end: 71917
+line_start: 74602
+line_end: 74606
 dependencies:
   - "A.11"
   - "A.7"
@@ -33,5 +33,5 @@ keywords:
 ### F.2:4 - Core idea (didactic)
 
 **Harvest *inside* each Context; name *in that Context’s idiom*; do not cross Contexts.**
-For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought‑cues*, choose a **Local Normal Form (LNF)** that matches the Context’s idiom, attach a **two‑register label** (Tech/Plain), and write a **one‑sentence gloss**. That’s all. You do **not** claim sameness with any other Context; you do **not** embed behaviour or deontics; you do **not** mint U.Types here. These *local lexical units* will become **Local‑Senses** in F.3 and later addressable **SenseCells** (Context × Local‑Sense).
+For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought-cues*, choose a **Local Normal Form (LNF)** that matches the Context's idiom, attach a **two-register label** (Tech/Plain), and write a **one-sentence gloss**. That's all. These *local lexical units* become **Local-Senses** in F.3 and later addressable **SenseCells** (Context x Local-Sense). Cross-context sameness, behavioural claims, deontics, and durable kindhood are handled by F.9, A.15, E/E-LOG, or admission under E.24.UK and C.3 when those claims are being made.
 

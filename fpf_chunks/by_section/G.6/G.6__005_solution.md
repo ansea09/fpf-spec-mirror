@@ -6,12 +6,12 @@ section_id: "G.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:4 — Solution"
-line_start: 81436
-line_end: 81596
+line_start: 84196
+line_end: 84356
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ Create a citable `EvidenceGraph` and `PathCitationRecord` set when a local evide
 | Current value or relation | Governing pattern |
 | --- | --- |
 | compact episteme evidence-use or status-use relation | `A.2.4` |
-| evidence carrier, source-currentness, evidence-producing work relation, and evidence-provenance path basics | `A.10` |
+| evidence carrier, source-currentness, evidence-producing work relation, evidence relation, and evidence-provenance addressing basics | `A.10` |
 | assurance, trust, safety, compliance, readiness, or release-confidence claim | `B.3` |
 | causal-use support basis, identification profile, causal-use verdict, or realizability profile | `C.28` |
 | status family, status cell, status-use statement, or cross-context status mapping | `F.10` |
@@ -76,7 +76,7 @@ Create a citable `EvidenceGraph` and `PathCitationRecord` set when a local evide
 | transformation-flow structure, gate crossing, or work occurrence used as evidence source | `E.18`, `A.21`, or `A.15.1` as applicable |
 | publication, view, explanation, source-use, or specification-use relation | `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, or `E.10.D2` |
 
-Do not add a local `EvidenceRole` value set. Older labels such as "proof role", "measurement role", "benchmark role", or "status role" are repair prompts. Recover the direct evidence-use, status-use, source-use, causal-use, assurance, work, or publication-use relation first.
+Do not add a local `EvidenceRole` value set. Source labels such as "proof role", "measurement role", "benchmark role", or "status role" are repair prompts. Recover the direct evidence-use, status-use, source-use, causal-use, assurance, work, or publication-use relation first.
 
 #### G.6:4.2 - EvidenceGraph
 

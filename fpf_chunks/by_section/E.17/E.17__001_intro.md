@@ -6,12 +6,12 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 64124
-line_end: 64156
+line_start: 66750
+line_end: 66787
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -38,10 +38,15 @@ keywords:
 
 ## E.17 - Multi‑View Publication Kit
 > **Status:** Stable
+> **Type:** Pattern
 
 **At a glance.** Use `E.17` when one source-backed episteme, episteme-side view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
 
 **Use this when.** The engineering team needs a plain view, technical card, interoperability card, or `AssuranceLane` face that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, engineering justification, control architecture, or release permission by presentation alone.
+
+**What goes wrong if missed.** A readable face, card, dashboard tile, export, generated explanation, or comparison view starts acting as evidence, work, gate passage, release permission, authority, or source relation merely because it is readable and well placed.
+
+**What this buys.** The publication face remains useful for orientation, inspection, exchange, and citation while the underlying episteme, publication scope, face kind, source relation, and any downstream typed value stay separately recoverable.
 
 **First output.** One source-pinned publication face with the underlying `U.Episteme`, Description episteme, or Description episteme selected for specification use, publication scope, face kind, bounded publication use, and any present downstream typed value named only as far as the current use needs, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
 

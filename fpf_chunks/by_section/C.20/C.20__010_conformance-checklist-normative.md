@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__010_conformance-checklist-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:7 — Conformance Checklist (normative)"
-line_start: 43983
-line_end: 44000
+line_start: 45529
+line_end: 45541
 dependencies:
   - "A.19"
   - "C.2"
@@ -47,9 +47,4 @@ keywords:
 | **CC-C20-7 (Crossing visibility hooks).** | Any **cross-stance, cross-context, or cross-plane** reference in Discipline materials **SHALL** publish a **CrossingBundle** for the crossing (**E.18**; Bridge and UTS through **F.9**, **F.17**, **E.17**, and **E.18**) and expose it via `Expose_CrossingHooks` (**G.10-3**). Published crossings **MUST** be checkable for **LanePurity** (CL to R only; F and G invariant; Φ tables present) and **Lexical SD** (**E.10**) under the active GateProfile and GateChecks (**A.21**). | Prevents implied crossings; makes provenance auditable and replayable. |
 | **CC-C20-8 (Discipline column is didactic).** | Any use of a “discipline column” in tables is **didactic only**; semantics are carried by **UTS rows and Bridges**; **Domain** remains a catalog stitch (**E.10/F.17**). | Prevent table headings from becoming hidden ontology. |
 | **CC-C20-9 (Lexical firewall).** | Normative sections remain **notation-neutral and tool-neutral**; vendor/tool tokens are avoided (see **E.5.1**). | Keep discipline composition independent from one notation or tool family. |
-
-#### C.20:7.1 - Canonical rewrites (anti‑ambiguity)
-* “TDD discipline” → **`Tradition: Test‑Driven`** *(Plain twin keeps “Tradition”)*.
-* “Safety Discipline Owner” → **`Holder#DisciplineStewardRole:Safety‑Context`**.
-* “ClinicalSafetyDomain Governance” → **`DisciplineSpec: Clinical‑Safety`** with comparability in **CG‑Spec**; the **Domain** mention remains a **D.CTX + UTS** catalog stitch.
 

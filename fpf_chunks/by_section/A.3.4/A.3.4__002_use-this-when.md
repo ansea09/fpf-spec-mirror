@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 6971
-line_end: 7004
+line_start: 7132
+line_end: 7165
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -80,5 +80,5 @@ Use it when the working question is:
 - If the issue is the selected compound transformation-flow structure, its locus, path, path slice, crossing, or flow valuation, use `E.18`.
 - If the issue is a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, or wiring expression used to describe that structure mathematically, use `E.18.2` and `C.29`.
 - If the issue is a positive temporal aspect of an object or claim, use `C.27.TA`.
-- If the issue is adequacy or supported use of a temporal claim, use `C.27`.
+- If the issue is adequacy or admissible use of a temporal claim, use `C.27`.
 

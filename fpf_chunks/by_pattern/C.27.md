@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.27.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
-line_start: 47790
-line_end: 49751
+line_start: 49387
+line_end: 51350
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -61,6 +61,8 @@ keywords:
 **Primary EntityOfConcern.** C.27 concerns authored temporal claims: prose, plans, benchmark lines, dashboards, method notes, promises, or explanations that treat state, rate, rhythm, recovery, braking, coasting, redirection, stabilization, or rate-change as sufficient for some practical use.
 
 **Use this pattern when** a claim about speed, rhythm, throughput, recovery, convergence, rollout, adoption, braking, coasting, redirection, or stabilization is being used to change action and therefore must name the temporal reading, effort or intervention, window, resistance or cost, evidence relation or assumption relation, supported use, unsupported use, and reopen condition.
+
+**What this buys.** The reader can separate state readings, rate readings, and intervention-sensitive temporal-change claims before a trend, cadence, benchmark, or speed claim starts authorizing work, gates, promises, budgets, or comparisons.
 
 **Do not use this pattern when** the wording is ordinary prose, a positive temporal aspect with no adequacy question, a state reading or rate reading whose measurement construction is enough, a formal `U.Dynamics` model, an actual work trace, a benchmark harness, a service promise, a quality judgement, or a residual quantum-like probe case without an intervention-sensitive temporal claim.
 
@@ -335,7 +337,7 @@ C.27 does not introduce:
   dances, learning, or work cycles;
 - physical quantum ontology or quantum-like superiority;
 - mandatory ODE, PDE, or calculus formalism for all temporal claims;
-- new Kernel types for force, mass, acceleration, rhythm, or practice;
+- new U-kinds for force, mass, acceleration, rhythm, or practice;
 - a new publication role, separate pattern, law sheet, or MVPK face;
 - default C.27 profiling for every temporal word;
 - thin C.27 echo records when a local C.27 card or profile can cite the FPF pattern that governs the other question.
@@ -388,7 +390,7 @@ Design alternatives:
 | Put the whole question in `C.16` | Wrong primary EntityOfConcern | Measurement construction is necessary but does not govern effort windows, planning, inertia proxies, promises, or intervention adequacy. |
 | Put the whole question in `C.24` | Too narrow | Agentic tool-use is one application, not the general pattern for temporal claim adequacy. |
 | Put the whole question in `C.26` | Wrong residual QL relation | This would make quantum-like modeling relevant too early; C.26 remains residual for probe, frame, export, or coarsening cues. |
-| Add new Kernel types such as `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess` | Wrong ontology | The repeated value is a claim-adequacy lens, not a stable Kernel ontology. |
+| Add new U-kinds such as `U.Force`, `U.Mass`, `U.Acceleration`, `U.Rhythm`, `U.Practice`, or `U.SecondOrderProcess` | Wrong ontology | The repeated value is a claim-adequacy lens, not a stable Kernel ontology. |
 | Create a new publication role or separate pattern for C.27 cards | Wrong EntityOfConcern kind | Dyn2 temporal-claim records are pattern-local records, not publication roles or separate patterns. |
 | Use C.27 with explicit references to the FPF patterns that govern the other questions | Chosen C.27 shape | One C-pattern can govern the adequacy lens while preserving measurement, dynamics-law, work, benchmark, promise, quality, viability, and QL relations in the patterns that carry them. |
 | Duplicate C.27 claim-adequacy content across every related pattern | Too broad | Broad distribution would make ordinary temporal wording expensive. A C.27 card or profile cites the FPF pattern that governs the other question instead of creating a duplicate temporal record. |
@@ -1088,7 +1090,7 @@ intervention relation that changes supported use, no entry here applies.
 | Coasting | Coasting needs evidence or an assumption when continued movement or stability after effort changes or stops carries the claim. |
 | High-stakes temporal move | Pattern-reference-only relation: high-stakes acceleration, braking, or redirection claims name the temporal move, window, and unsupported use and cite the harm, resource, quality envelope, assurance, ethics, legal, safety, financial, or human-wellbeing pattern that governs the other question. |
 | C.26 residual relation | C.27 does not add QL relation. If a Dyn2 claim also depends on probe, frame, order, export, or coarsening residue that ordinary FPF patterns cannot carry, C.26 carries the residue after ordinary C.27, C.24, C.16, G.9, and E.13 pattern relations are named. |
-| No new publication role | `Dyn2TemporalClaimAdequacyCard` and `Dyn2TemporalClaimProfile` are pattern-local records or cards, not new Part G publication roles, MVPK faces, primary EntityOfConcern values of related FPF patterns, or Kernel types. |
+| No new publication role | `Dyn2TemporalClaimAdequacyCard` and `Dyn2TemporalClaimProfile` are pattern-local records or cards, not new Part G publication roles, MVPK faces, primary EntityOfConcern values of related FPF patterns, or U-kinds. |
 | Use-triggered lint | Useful lint requires temporal-improvement wording plus decision, comparison, budget, benchmark, gate, promise, publication, assurance, or intervention-plan use. |
 
 Plain words may remain didactic. Tech prose must name the FPF pattern that carries the FPF-governed question.
@@ -1463,7 +1465,7 @@ Minimum useful note:
   policy;
 - resistance proxy: incident mix, dependency lag, tool latency, coordination
   bottleneck;
-- receiving relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
+- governing relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
 - supported use: local incident-response improvement claim;
 - unsupported use: formal guarantee, audit closure, release gate, or causal
   proof unless the relevant boundary, evidence, or assurance pattern carries it.

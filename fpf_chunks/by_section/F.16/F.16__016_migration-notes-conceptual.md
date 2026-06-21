@@ -6,12 +6,12 @@ section_id: "F.16:15"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__016_migration-notes-conceptual.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:15 — Migration notes (conceptual)"
-line_start: 77117
-line_end: 77125
+line_start: 79842
+line_end: 79850
 dependencies:
   - "B.3"
   - "D.CTX"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
-line_start: 63692
-line_end: 64123
+line_start: 66279
+line_end: 66749
 dependencies:
   - "A.1"
   - "A.15"
@@ -31,10 +31,17 @@ keywords:
 ---
 
 ## E.17.2 - `TEVB` - Typical Engineering Viewpoints Bundle
+> **Type:** Part E viewpoint-bundle species pattern
 > **Status:** Stable
 **Use this when.** A team needs a small reusable set of engineering viewpoints for a holon so that functional, procedural, allocation-responsibility, and module-interface descriptions stay comparable across diagrams, models, cards, and architecture-description bundles.
 
 **First output.** One TEVB bundle use naming `VF.TEVB.ENG`, the selected holon as `EntityOfConcernRef`, the active `VP.*` viewpoint, and the bounded description or specification-use case being written or checked.
+
+**What goes wrong if missed.** Engineering views, publication faces, diagrams, and architecture-specific views collapse into one label, so functional, procedural, allocation-responsibility, and module-interface material cannot be compared safely.
+
+**What this buys.** TEVB gives a compact engineering viewpoint bundle for holons while leaving architecture-specific view adequacy, publication form, role assignment, method, work, and module-interface claims with their direct owners.
+
+**Not this pattern when.** If the current question is architecture structural-view adequacy, architecture description adequacy, publication-form behavior, role assignment, method or work alignment, or module-interface relation repair, use the governing pattern and keep TEVB only as the viewpoint-bundle reference when current.
 
 > **Tech‑name:** `TEVB` (Typical Engineering Viewpoints Bundle, bundle id `VF.TEVB.ENG`)
 > **Plain‑name:** typical engineering viewpoints bundle for holons
@@ -75,7 +82,7 @@ It is an engineering‑level bundle over holons; it does not itself constitute a
 
 Engineering teams almost always talk about systems and their models through a **small set of recurring “views”**:
 * *What capabilities and behaviours does the system enact?* — function‑oriented, transformation‑oriented talk.
-* *What sequences, workflow structures, and control logics does it realise?* — procedure-, process-, and state-oriented talk.
+* *What method descriptions, procedure structures, and control-logic descriptions does it realize?* — procedure-, method-, and state-oriented talk.
 * *Which systems or acting holons are assigned which work-facing roles, responsibilities, or allocation expectations?* — role-assignment, organisational and socio-technical talk.
 * *How is the system decomposed into modules and interfaces?* — physical and logical architecture talk.
 
@@ -229,7 +236,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
 
 ##### E.17.2:4.2.2 - `VP.Procedural` — process & control viewpoint
 
-**Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: workflow structures, state machines, operational procedures, and control logic.
+**Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: method-description structures, state machines, operational procedures, and control logic.
 
 * **viewpointId.**
 
@@ -263,7 +270,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
   * carry E.10.D2-conformant DescriptionContext with `ViewpointRef = VP.Procedural`.
 
 * **ConformanceRules (examples).**
-  * Preconditions and postconditions at step boundaries are explicit and type‑checked (A.3.1/A.3.2, Γ_method).
+  * Preconditions and postconditions at step boundaries are explicit and type-checked. Use `A.3.1` for the method as semantic way of doing, `A.3.2` for the method description, and `Gamma_method` only as notation over the recovered method claim.
   * No embedding of Work or calendars inside procedural descriptions (A.7 and E.10.D2).
   * Failure modes and recovery actions are declared and traceable to safety analyses (F.15 harnesses where relevant).
 
@@ -348,7 +355,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
 * **ConformanceRules (examples).**
   * Interfaces are typed and explicitly bound to standards or signature declarations where applicable (`A.6.0`, `A.6.M`, A.6.5).
   * Functional ports are not treated as module interfaces unless the module-interface or substitutability claim is current.
-  * No inlining of methods, work, or functional behavior into module structure; use A.3.4/A.6.F/A.15 for those claims.
+  * No inlining of methods, work, or functional behavior into module structure. Use `A.3.4` for transformation claims, `A.6.F` for function-allocation claims, and `A.15` for work and role-method-work alignment claims.
   * Reinterpretations from functional views into structure respect the applicable `U.EpistemicRetargeting`/Bridge constraints.
 
 * **SoTA echo (informative).** `VP.ModuleInterface` matches structural, implementation, construction, deployment, and interface-focused families in architecture descriptions, IoT and space reference architectures, UAF, NAF, RASDS, SysML-based MBSE, and 4+1 development and physical views, while keeping functional behavior and module-interface claims distinct.
@@ -383,6 +390,16 @@ Let `Plant_X : U.System` be a production plant, and `ControlStack_X : U.Episteme
 * Under `VP.ModuleInterface`, `Plant_X` is viewed as modules and interfaces: equipment units, pipelines, control modules, buses, and their interfaces and specifications.
 
 Each of these is a **family of Description epistemes and specification-use cases** with `DescriptionContext = ⟨EntityOfConcernRef(Plant_X or ControlStack_X), BoundedContextRef, ViewpointRef=VP.*⟩` and TEVB ensures that `E.18` and MVPK can rely on this common structure.
+
+### E.17.2:5.1 - Bias-Annotation
+
+| Bias | How E.17.2 prevents it |
+| --- | --- |
+| Viewpoint-as-publication-face bias | `VP.*` ids are engineering viewpoint ids, not publication faces, publication forms, files, cards, or carriers. |
+| Architecture-framework import bias | TEVB is an engineering viewpoint bundle over holons; architecture-specific viewpoint bundles remain separate species that may import TEVB. |
+| Role-coordinate leakage | `VP.AllocationResponsibility` names a viewpoint, not a new `U.Role`, `U.RoleAssignment`, or allocation-responsibility root kind inside Description episteme signatures. |
+| Viewpoint proliferation bias | Assurance, information, mission, deployment, and business labels remain separate bundle species or lexical family labels unless a new `U.ViewpointBundle` species is explicitly introduced. |
+| EntityOfConcern drift | TEVB-aligned descriptions keep the selected holon as `EntityOfConcernRef` unless a governed retargeting pattern changes it. |
 
 ### E.17.2:6 - Conformance checklist  *(normative)*
 
@@ -425,7 +442,29 @@ When a pattern defines engineering viewpoint families named “Functional”, �
 
 Any deviation must be explicitly documented as a species‑level extension and must not reuse `VF.TEVB.ENG`.
 
-### E.17.2:7 - Rationale & SoTA echoing  *(informative)*
+### E.17.2:6.1 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Correction |
+| --- | --- | --- |
+| Functional view means the diagram | A functional diagram, card, or dashboard is treated as `VP.Functional` itself. | Keep `VP.Functional` as the viewpoint; model the diagram or card through Description, view, publication face, or publication form machinery. |
+| Architecture framework becomes TEVB | A 4+1, UAF, NAF, SysML, or local framework is imported as the FPF viewpoint bundle. | Map it to TEVB or to a separate architecture-specific `U.ViewpointBundle` species. |
+| Responsibility view becomes role assignment | A responsibility-oriented view adds `U.Role` or `U.RoleAssignment` as a Description-episteme coordinate. | Keep responsibility as viewpoint content; use `A.2`, `A.2.1`, and `A.15` when a work-facing role assignment is actually claimed. |
+| Extra viewpoint by label | Information, assurance, mission, or deployment labels are added directly to `TEVB.EngBundle.viewpoints`. | Introduce a separate bundle species or keep the label as a transformation-flow family label where appropriate. |
+
+### E.17.2:6.2 - Consequences
+
+Positive consequences:
+
+- Engineering descriptions can reuse one compact viewpoint bundle across systems, epistemes, and architecture-description bundles.
+- Functional, procedural, allocation-responsibility, and module-interface views stay comparable without importing one architecture framework as FPF law.
+- Publication faces, architecture-specific views, role assignments, methods, work, and module-interface claims keep their direct owners.
+
+Costs:
+
+- Teams must declare when a local framework maps to TEVB and when it needs a separate viewpoint-bundle species.
+- TEVB intentionally does not absorb every useful engineering or stakeholder viewpoint; specialized bundles remain necessary.
+
+### E.17.2:7 - Rationale  *(informative)*
 
 #### E.17.2:7.1 - NQD‑grounded choice of the core four
 
@@ -436,7 +475,7 @@ Part G's NQD discipline treats candidate viewpoint families as points in an N, U
 
 Other candidates (e.g. dedicated information, assurance, or mission viewpoints) remain important but either duplicate concerns already captured by TEVB (when specialised to engineering holons) or are better modelled as orthogonal quality bundles (C.25) or non-engineering viewpoint bundles (business and governance viewpoint bundles). TEVB therefore pins only the core four and leaves the rest to specialised families.
 
-#### E.17.2:7.2 - Alignment with post‑2015 engineering practice
+### E.17.2:7.2 - SoTA-Echoing - Alignment with post-2015 engineering practice
 
 * Modern architecture standards built on ISO/IEC/IEEE 42010 describe viewpoint libraries in which functional, behavioural and process, structural and deployment, and business and usage concerns are the dominant clusters; sector RAs such as IoT RA 30141 and space‑domain RAs provide explicit functional and construction and implementation viewpoints alongside business and usage and trustworthiness viewpoints. TEVB reuses the functional and construction and structural clusters as `VP.Functional` and `VP.ModuleInterface`, while treating business and trustworthiness as separate bundles.
 * Model-based systems engineering practice (INCOSE MBSE guidance, SysML v2 “views-as-queries”, UAF/NAF view grids) converges on a small set of core diagram families: structure, behaviour, allocation and responsibility, requirements and mission. TEVB’s `VP.Procedural` and `VP.AllocationResponsibility` correspond to the behaviour and allocation-and-responsibility concerns, respectively, and are designed to be notation-neutral over SysML-, UAF-, UML-, and Capella-style models.

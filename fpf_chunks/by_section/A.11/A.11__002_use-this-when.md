@@ -6,12 +6,12 @@ section_id: "A.11:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:0 — Use This When"
-line_start: 19685
-line_end: 19699
+line_start: 20026
+line_end: 20046
 dependencies:
   - "A.8"
   - "C.3"
@@ -34,7 +34,7 @@ Use this pattern when FPF work proposes a new U-kind, core relation, dependent d
 
 Typical moments:
 
-- a new U-kind feels useful after `E.24.UK`;
+- a new U-kind seems useful after `E.24.UK`;
 - a proposed root kind may actually be a dependent value, slot, relation, record, publication form, lens, local frame, or C.3 `U.Kind`;
 - two candidates overlap strongly;
 - a name is convenient but the ontology may already be expressible through existing patterns.
@@ -42,4 +42,10 @@ Typical moments:
 **Primary EntityOfConcern.** The EntityOfConcern is the parsimony claim for one candidate ontology addition.
 
 **First useful move.** Recover the candidate with `E.24.UK` or the direct governing pattern, then ask what current FPF values, slots, relations, and patterns can already express.
+
+**What goes wrong if missed.** FPF grows duplicate kinds for slot positions, local names, publication forms, mathematical lenses, and records. Later patterns then argue over words instead of recovering the EntityOfConcern, relation, slot, and admissible claim.
+
+**What this buys.** A small ontology can still express rich project situations: the pattern either admits a new durable value with a boundary, or shows exactly which existing kind, slot, relation, record, publication form, lens, or direct pattern already carries the claim.
+
+**Not this pattern when.** Not this pattern when the current question is only a local display name, publication title, naming taste, or ordinary glossary cleanup. Use the relevant Part F naming pattern unless the name is being asked to carry durable ontology.
 

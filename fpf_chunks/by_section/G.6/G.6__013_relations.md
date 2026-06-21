@@ -6,12 +6,12 @@ section_id: "G.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__013_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:12 — Relations"
-line_start: 81690
-line_end: 81696
+line_start: 84450
+line_end: 84456
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ keywords:
 
 ### G.6:12 - Relations
 
-* **Builds on:** `A.10` for evidence-provenance graph relation and evidence paths; `A.2.4` for compact evidence-use and status-use relation slots; `A.6.5` and `A.6.RSIR` for relation-slot discipline; `C.2.1` for episteme slot relation; `E.24` for ontic and slot-relation concept discipline.
+* **Builds on:** `A.10` for evidence-provenance graph relation, evidence relation, and source-currentness basics; `A.2.4` for compact evidence-use and status-use relation slots; `A.6.5` and `A.6.RSIR` for relation-slot discipline; `C.2.1` for episteme slot relation; `E.24` for ontic and slot-relation concept discipline.
 * **Coordinates with:** `B.3` for assurance; `C.28` for causal-use evidence content; `F.10` for status-family mapping; `F.9` for bridge and loss; `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, and `E.10.D2` for publication, view, explanation, and specification-use; `A.15.1` for work occurrences; `E.18` and `E.18.2` for transformation-flow structures and their mathematical descriptions; `A.21` for gate decisions when those are the downstream use.
 * **Used by:** selector, benchmark, parity, refresh, assurance, maturity, and release patterns that need stable evidence-provenance path citation, including `G.5`, `G.9`, and `G.11`.
 * **Does not govern:** stronger downstream uses named in `NotCarried`, work occurrence, source publication identity, or transformation-flow structure; those remain with their direct governing patterns.

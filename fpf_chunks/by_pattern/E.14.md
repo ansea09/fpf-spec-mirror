@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.14.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
-line_start: 62236
-line_end: 62536
+line_start: 64791
+line_end: 65123
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -28,6 +28,15 @@ keywords:
 
 ## E.14 - Human‑Centric Working‑Model
 > **Status:** Stable
+> **Type:** Pattern
+
+### E.14:0 - Use This When
+
+Use this pattern when FPF text needs to stay readable as one human working model while heavier mapping, logical, constructive, or empirical assurance remains recoverable underneath it.
+
+**What goes wrong if missed.** The working text either drifts into local jargon and slash labels or calcifies into proof machinery that practitioners cannot use in ordinary design, review, or management work.
+
+**What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
 ### E.14:1 - Intent
 
@@ -36,12 +45,12 @@ Each statement **declares a justification stance** (`validationMode`) and, when 
 
 Put bluntly: *one model people work in; three assurance shoulders — plus empirical checks when the world is the judge.*
 
-### E.14:2 - Problem & Context
+### E.14:2 - Problem Frame
 
-Teams need **one shared Working‑Model** to make decisions at speed. Historically this shared model either:
+Teams need **one shared Working-Model** to make decisions at speed. Historically this shared model either:
 
-* **drifts into jargon**—different terms for one shared working-model value, slash‑labels, partial overlaps; or
-* **calcifies into machinery**—too formal for day‑to‑day design and review.
+* **drifts into jargon** - different terms for one shared working-model value, slash-labels, partial overlaps; or
+* **calcifies into machinery** - too formal for day-to-day design and review.
 
 Both failure modes create friction between two audiences:
 (1) **working users** (engineers, programme managers, policy owners) who need a **small, stable Working-Model text**, and
@@ -49,10 +58,14 @@ Both failure modes create friction between two audiences:
 
 E.14 resolves the impasse by **separating concerns**:
 
-* A **Working‑Model layer**: curated kinds and relations expressed in plain terms, governed by simple human rules.
+* A **Working-Model layer**: curated kinds and relations expressed in plain terms, governed by simple human rules.
 * An **Assurance stack** beneath it - **Mapping**, **Logical**, **Constructive** - that carries the heavy arguments (concept alignment, relational semantics, generative traces) and **never leaks back** into the Working-Model narrative.
 
-This pattern dovetails with the framework’s unification stance (**small Working‑Model text, rigorous foundations**) and with our constructional mereology commitments (**sum/set/slice** provide extensional identity), while keeping the Kernel minimal and meta‑only.
+This pattern dovetails with the framework's unification stance (**small Working-Model text, rigorous foundations**) and with our constructional mereology commitments (**sum/set/slice** provide extensional identity), while keeping the Kernel minimal and meta-only.
+
+### E.14:2.1 - Problem
+
+A reader may need to decide, design, review, or coordinate with FPF terms before they are ready to inspect mapping tables, constructive traces, evidence records, or proof arguments. If the working text exposes all of that machinery first, the model becomes unusable; if it hides the machinery completely, the model becomes arbitrary. E.14 keeps one human-facing Working-Model visible while making the assurance shoulders recoverable beneath it.
 
 ### E.14:3 - Forces
 
@@ -89,7 +102,7 @@ These names refer to two reading-order text blocks inside one pattern, not to ne
 
 For human-facing canonical patterns, Working-Model-first discipline should appear in a two-part reading order.
 The **recognition text** is the working text that a cold practitioner, manager, or researcher should be able to understand first: what situation this pattern is for, what it buys, what it is not for, and what ordinary mistake it helps prevent.
-The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, reroute conditions, and other review work.
+The **assurance text** is the heavier text that carries declaration, object discipline, modeling lens, law, return conditions, and other assurance work.
 
 The assurance text may justify, tighten, or audit the working text, but it must not silently replace or strengthen the recognition-text claim.
 Where episteme-publication-heavy or transform-heavy patterns need a compact ontological account, the assurance text should expose three things explicitly:
@@ -143,11 +156,11 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 * Every Working‑Model edge and node is **grounded downward** (see below).
 * The Working‑Model **does not display** constructor jargon, proof terminology, or evidence identifiers; those live in Assurance and are **available on demand**.
 
-#### E.14:5.2 - Assurance‑1: Mapping (from words to kinds)
+#### E.14:5.2 - Assurance-1: Mapping (from words to chosen governed values)
 
-**Purpose.** Consolidate human labels from varied sources and **bind them to the chosen kinds** used on the Working-Model.
+**Purpose.** Consolidate human labels from varied sources and **bind them to the chosen governed values** used on the Working-Model, including admitted U-kinds where kindhood is live.
 
-**Guarantee.** For any Working‑Model label, there exists a **stable alignment** to exactly one kind; synonyms, abbreviations, locales and registers are recorded here, **not** in the displayed Working-Model. Mapping primarily raises **Typing Assurance (TA)** by consolidating synonyms/registers and binding tokens/labels to **one chosen kind**; calculus‑level metrics live outside Part E.
+**Guarantee.** For any Working-Model label, there exists a **stable alignment** to exactly one chosen governed value in the current scope; synonyms, abbreviations, locales, and registers are recorded here, **not** in the displayed Working-Model. Mapping primarily raises **Concept-Bridge Assurance (CBA)** by consolidating synonyms/registers and binding tokens/labels to the chosen governed value; calculus-level metrics live outside Part E.
 
 **Deliverable.** A compact alignment table per scope that makes it obvious which **one label** the Working‑Model will show and which background source labels are recognized only as source wording.
 
@@ -159,7 +172,7 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 **Guarantee.** A Working‑Model edge such as *Component‑of* or *Aspect‑of* **carries one intended reading** (transitivity/antisymmetry expectations, scope notes), sufficient for auditors to assess whether the **use is legitimate** in a given context.
 
-**Deliverable.** A short set of label-meaning rules: “When an edge is labeled *Component‑of* in the Working-Model text, it intends the structural reading that is later verified by construction.” The Logical layer is **the Standard** that ties human labels to accepted meanings (CT2R label rules); it primarily contributes **Verification Assurance (VA)**. Calculus-level symbols are not used in E-patterns.
+**Deliverable.** A short set of label-meaning rules: “When an edge is labeled *Component‑of* in the Working-Model text, it intends the structural reading that construction can verify when assurance is live.” The Logical layer is **the Standard** that ties human labels to accepted meanings (CT2R label rules); it primarily contributes **Verification Assurance (VA)**. Calculus-level symbols are not used in E-patterns.
 
 *(Rationale: logical label alignment protects the small Working-Model text from relation proliferation while keeping meanings crisp.)*
 
@@ -207,9 +220,9 @@ Together, these assurance shoulders and empirical evidence-use relation **ground
 * **Canonization move.** Again, Working‑Model text is the public form; assurance is attached deliberately and separately, without leaking method or time semantics into structure.
 
 **6.3 - Pattern lesson (both cases)**
-The **Working-Model layer remains the canonical publication face** for authors and reviewers; **assurance layers** (Mapping, Logical, and Constructive) are **opt-in** and used purposefully, with grounding flowing **downwards** from the Working-Model to the appropriate shoulder. This presentation respects the authoring template's *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
+The **Working-Model layer remains the canonical publication face** for authors and assurance readers; **assurance layers** (Mapping, Logical, and Constructive) are **opt-in** and used purposefully, with grounding flowing **downwards** from the Working-Model to the appropriate shoulder. This presentation respects the authoring template's *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
 
-### E.14:7 - Bias‑Annotation *(what to watch for, and the counter‑moves)*
+### E.14:7 - Bias-Annotation *(what to watch for, and the counter-moves)*
 
 | Bias (name)                       | Symptom in drafts                                                                           | Conceptual counter‑move                                                                                                                        | Where this is governed                                               |
 | --------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -275,25 +288,35 @@ The **Working-Model layer remains the canonical publication face** for authors a
 **Invariants you must preserve**
 
 * **Parsimony of constructors.** Build wholes by summing parts; build banks by gathering elements; focus facets by carving aspects. Do not invent extra generative acts for parallelism or time‑slicing; those concerns belong to other conceptual services.
-* **Two-relation-kind justification.** Structural talk rides on construction; epistemic talk rides on evidence or proof. Keep the boundary sharp so that later reasoning (about reliability, compliance, or policy) remains clear.
+* **Two-relation-kind justification.** Structural talk rides on construction; epistemic talk rides on evidence or proof. Keep the boundary sharp so that downstream reasoning (about reliability, compliance, or policy) remains clear.
 
 **Known consequences**
 
 * **Stable queries, fewer surprises.** Because working labels are backed by shared constructions, teams from different disciplines can interoperate without renegotiating meanings at hand-off.
 * **Audit trail without jargon.** Reviewers can trace every structural claim to a prior constructional choice, while everyday collaborators keep using familiar relation names.
 
-### E.14:9 - Consequences
+### E.14:9 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Machinery-first working text | The reader meets constructor traces, proof apparatus, or evidence ids before the working model. | Put the recognition text and chosen Working-Model labels first; keep assurance below. |
+| Assurance leakage upward | Mapping, proof, or empirical records rename the public working vocabulary. | Preserve downward grounding: Working-Model terms are not back-defined by assurance publications. |
+| Slash-label compromise | Several source labels are displayed because no chosen governed value was selected. | Use Mapping to record source labels and show one chosen Working-Model label. |
+| Structure-time collapse | Order, phase, or execution is encoded as part-whole structure. | Keep time and order in their governing relation families. |
+| Forever-light prose | Human-facing prose becomes so small that the reader cannot recover the problem, payoff, or assurance boundary. | Keep recognition text concise but still include problem framing, rationale, and worked slices. |
+
+### E.14:10 - Consequences
 
 | Benefits                                                                                                                                                      | Trade‑offs / Mitigations                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Human‑first clarity.** Readers see the **Working‑Model layer** as the canonical publication form; Assurance layers remain optional and purpose‑driven.      | **Extra author discipline.** Declaring the stance and (when needed) a short grounding narrative takes effort; mitigated by the authoring template and style guide.           |
-| **Progressive assurance.** Teams can start light and raise strictness deliberately (Mapping → Logical → Constructive) without changing the visible relations. | **Risk of “forever‑light.”** Some models may remain in low‑assurance stances; mitigated by formal maturity checks and reviewer prompts to escalate where risk warrants.  |
+| **Progressive assurance.** Teams can start light and raise strictness deliberately (Mapping → Logical → Constructive) without changing the visible relations. | **Risk of “forever‑light.”** Some models may remain in low‑assurance stances; mitigated by formal maturity checks and assurance prompts to escalate where risk warrants.  |
 | **Layer hygiene.** Order/time remain outside mereology; structural identity is neither overloaded nor diluted.                                                | **Split attention.** Authors must learn to keep relation families distinct; mitigated by the Tell-Show-Show pedagogy across architectural patterns.                                             |
 | **Spec cohesion.** The same section order and safety subsections (Bias‑Annotation, Conformance Checklist) keep patterns comparable and auditable.             | **Tighter prose.** Patterns grow by a few concise checks; mitigated by the canonical template.                                                                               |
 
 > **Quotable closer.** *“One layer to speak, three layers to justify—only when needed.”*
 
-### E.14:10 - Rationale
+### E.14:11 - Rationale
 
 **Why Working-Model is canonical.** FPF privileges **human-oriented relations** as the primary language and working representation for thinking and communication. This satisfies didactic primacy while preserving conceptual integrity: formal work serves the human layer, not the other way around. The canonical template and style principles institutionalise this choice without inviting notation lock-in.
 
@@ -303,7 +326,16 @@ The **Working-Model layer remains the canonical publication face** for authors a
 
 **Why no notation talk in Core.** Guard‑rails and the style guide prohibit tool jargon and notation dependence inside normative prose; meanings are given in words and mathematics, with any renderings treated as illustrative only. This preserves longevity and cross‑disciplinary portability.
 
-### E.14:11 - Relations
+### E.14:12 - SoTA-Echoing
+
+| Source line | What E.14 adopts | Boundary |
+| --- | --- | --- |
+| Human-centered design and cognitive ergonomics | Working readers need a small, usable model before assurance apparatus. | Usability does not license vague or under-explained prose. |
+| Formal methods and model-based assurance | Heavy justification can remain available below the working text. | Assurance artifacts do not define the public Working-Model vocabulary. |
+| Ontology engineering and mapping practice | Source labels, synonyms, and registers are captured in mapping rather than shown as slash labels. | Mapping is not a second public vocabulary. |
+| Constructive ontology and constructional mereology | Structural claims can be grounded by construction when identity matters. | Construction is used when structure is live, not as a default for every epistemic relation. |
+
+### E.14:13 - Relations
 
 **Builds on:**
 

@@ -6,12 +6,12 @@ section_id: "A.6.M:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:4 — Solution"
-line_start: 15332
-line_end: 15496
+line_start: 15595
+line_end: 15759
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -51,7 +51,7 @@ moduleIn(
   substitutabilityPolicyRef?: EpistemeRef,
   changePolicyRef?: EpistemeRef,
   variabilitySlotRefs?: FinSet(SlotRef),
-  evidencePathRefs?: FinSet(EvidencePathRef),
+  evidenceOrSourceRelianceRefs?: FinSet(EvidenceRef | SourceRelationRef | RelianceRelationRef),
   admissibleUse,
   nonAdmissibleUse
 )
@@ -75,11 +75,11 @@ InterfaceSpecificationRef:
   versionPolicyRef?:
   changePolicyRef?:
   conformanceExpectationRefs?:
-  evidencePathRefs?:
+  evidenceOrSourceRelianceRefs?:
   nonAdmissibleUse:
 ```
 
-A signature declares vocabulary, laws, and applicability. A slot or endpoint record names positions and field structure. A protocol or schema constrains interaction. A mechanism reference can substantiate a realization relation. Evidence paths and conformance expectations can substantiate reliance only when an evidence path named by value or an assurance claim is being made. None of these, alone, is the module interface.
+A signature declares vocabulary, laws, and applicability. A slot or endpoint record names positions and field structure. A protocol or schema constrains interaction. A mechanism reference can substantiate a realization relation. Evidence relations, source relations, reliance relations, and conformance expectations substantiate reliance only when the corresponding evidence, source-use, assurance, or conformance claim is being made. None of these, alone, is the module interface.
 
 #### A.6.M:4.3 - Repair applications for overloaded words
 
@@ -97,7 +97,7 @@ A signature declares vocabulary, laws, and applicability. A slot or endpoint rec
 | `E.18 transformation-flow relation` or `path` | Keep under `E.18` and `C.30.TFS-REL`; it may inform an architecture-to-transformation-flow relation, but it is not an interface specification. |
 | `platform` | Recover `PlatformGrammarRef`: extension rules, variability slots, interface specifications, substitution policy, and conformance expectations when platform extension, variation, substitution, or conformance use is being claimed. |
 | stratification or architecture-operation source label | Apply `C.30.STRAT` first. Use A.6.M only when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface claim. Otherwise apply `C.30.LCA`, `C.30.ASV`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, `C.2.P`, or use ordinary source-label disposition when no FPF-governed claim remains. |
-| `open architecture` | Recover `OpenArchitectureClaim@Context`: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the open-architecture claim, and conformance expectations or evidence paths when reliance is being claimed. |
+| `open architecture` | Recover `OpenArchitectureClaim@Context`: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the open-architecture claim, and conformance expectations or evidence, source, or reliance relations when reliance is being claimed. |
 
 #### A.6.M:4.4 - First repair sequence
 
@@ -128,7 +128,7 @@ ModuleRelationRepairNote:
   changePolicyRef: missing
   claimBoundary: interface-spec repair; no evidence or gate claim yet
   notAModuleBecause: port labels alone do not establish implemented interface compatibility
-  governedNonModuleClaimPatternRefs: A.6.5, A.6.B, then A.6.M only if a substitution claim remains
+  governedNonModuleClaimPatternRefs: A.6.5 for endpoint slots; A.6.B only if L, A, D, or E boundary-package statement classification is current; A.6.M only if a module-interface or substitution claim remains
   stopCondition: endpoint slots and missing interface-spec fields are visible
 ```
 
@@ -146,7 +146,7 @@ OpenArchitectureClaim@Context:
   substitutabilityPolicyRef:
   changePolicyRef:
   conformanceExpectationRefs:
-  evidencePathRefs?:
+  evidenceOrSourceRelianceRefs?:
   nonAdmissibleUse:
     "open" does not by itself prove substitutability, interoperability,
     assurance, procurement suitability, or architecture quality
@@ -178,13 +178,13 @@ ModuleRelationRepairNote:
 
 The third slice uses Conway-like mirroring as a diagnostic prompt. It does not make organization structure, communication relations, or delivery responsibility into module-interface structure by identity.
 
-Proxy-cost replay: if a repair proposes more modules, more open interfaces, or more parallel paths, name what may get worse before claiming improvement. Synchronization work, communication overhead, conformance work, shared-resource pressure, hidden exception cost, or cross-boundary change cost can become the claim being made. A.6.M repairs only the module-interface relation; speedup, bottleneck, modularity, measurement, work, and quality tradeoffs are governed by `C.29`, `E.18`, `C.31`, `C.16`, `A.15`, or the related governing pattern named by value when that related claim is being made.
+Proxy-cost replay: if a repair proposes more modules, more open interfaces, or more parallel transformation-flow paths, name what may get worse before claiming improvement. Synchronization work, communication overhead, conformance work, shared-resource pressure, hidden exception cost, or cross-boundary change cost can become the claim being made. A.6.M repairs only the module-interface relation; speedup, bottleneck, modularity, measurement, work, and quality tradeoffs are governed by `C.29`, `E.18`, `C.31`, `C.16`, `A.15`, or the related governing pattern named by value when that related claim is being made.
 
 #### A.6.M:4.6 - Lowering and Reopen Conditions
 
 Lower an A.6.M repair to reduced-use cue, quote-only wording, blocked use, or incomplete rewrite when the module-interface relation, interface specification, admissibility conditions, substitutability policy, or change policy cannot be stated by value.
 
-Reopen the repair when any of these change: the whole holon, candidate module holon, boundary, interface specification, explicit interface gap, substitutability policy, change policy, platform grammar, conformance expectation, evidence path relied on, source-label recovery from `C.30.STRAT`, team-boundary correspondence, work correspondence, or the governing pattern for a related claim being made.
+Reopen the repair when any of these change: the whole holon, candidate module holon, boundary, interface specification, explicit interface gap, substitutability policy, change policy, platform grammar, conformance expectation, relied-on evidence relation, relied-on source relation, source-label recovery from `C.30.STRAT`, team-boundary correspondence, work correspondence, or the governing pattern for a related claim being made.
 
 If the reopened material is no longer a module-interface relation, A.6.M keeps only the previous repair as source context and the claim being made is governed by the pattern named in `A.6.M:12`.
 

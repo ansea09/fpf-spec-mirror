@@ -1,37 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.5"
-pattern_title: "Bias-Audit & Ethical Assurance"
+pattern_title: "Bias Audit and Ethical Assurance"
 section_id: "D.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "D.5 — Bias-Audit & Ethical Assurance"
+  - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1 — Problem Frame"
-line_start: 56240
-line_end: 56245
+line_start: 58661
+line_end: 58666
 dependencies:
+  - "A.10"
   - "B.3"
-  - "B.3.3"
+  - "C.16"
   - "C.28"
+  - "D.1"
+  - "D.2"
+  - "D.3"
+  - "D.4"
+  - "E.13"
+  - "E.17"
   - "E.5.4"
 keywords:
-  - "AI ethics"
-  - "assurance"
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "responsible AI"
-  - "review cycle"
-  - "taxonomy"
 ---
 
-### D.5:1 - **Problem Frame**
+### D.5:1 - Problem Frame
 
-FPF is designed to produce reliable, objective, and trustworthy holons. However, formal correctness (`FV` score) and empirical validation (`EV` score) are not sufficient on their own. Any record, model, metric, policy, or decision system designed by humans or trained on human-generated data is susceptible to hidden cognitive, cultural, and algorithmic biases. A perfectly verified control system can still be unsafe if its requirements were based on a biased assumption about operator behavior. A highly accurate machine learning model can be deeply unfair if its training data was not representative.
+Bias and fairness failures often survive ordinary verification. A metric may be accurate while hiding subgroup harm. A model may be predictive while reproducing past exclusion. A policy may look neutral while moving cost to people or groups who were not represented in the evidence. A publication may look technically clear while licensing a harmful use.
 
-A fairness claim can also be unsafe by causal overclaim. "This policy is fair because a metric improved" is not the same claim as causal fairness, counterfactual fairness, or path-specific fairness. `D.5` therefore brings causal fairness into the audit entry section: the audit must distinguish metric disparity, associative fairness evidence, interventional fairness proxy, and counterfactual fairness claim before the ethical assurance record is treated as supported.
+`D.5` keeps this audit and assurance question explicit. It does not replace multilevel ethics. It asks whether the current object and its intended use are ethically unsafe because of bias, unfairness, impact, causal fairness without the required C.28 evidence value, or assurance without the required assurance relation.
 

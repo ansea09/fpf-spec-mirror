@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.2.7"
 pattern_title: "RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
 section_id: "A.2.7:1"
-section_title: "Problem Frame"
+section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-  - "A.2.7:1 — Problem Frame"
-line_start: 4843
-line_end: 4860
+  - "A.2.7:1 — Problem frame"
+line_start: 4967
+line_end: 4990
 dependencies:
   - "A.15"
   - "A.2"
@@ -25,7 +25,13 @@ keywords:
   - "specialization (≤)"
 ---
 
-### A.2.7:1 - Problem Frame
+### A.2.7:1 - Problem frame
+
+**Use this when** a method, work-admission rule, staffing rule, safety case, governance rule, or role description needs a declared context-local relation among role values, role expressions, or role-bundle expressions.
+
+**What goes wrong if missed.** Role labels act as type hierarchy, org chart, permission, capability, method family, staffing plan, or cross-context equivalence; mathematical notation then starts replacing the role relation structure in life.
+
+**What this buys.** Role-requirement substitution, incompatibility, role factors, and role bundles become inspectable local relations while role assignment, capability, method, work, evidence, source, status, and publication claims stay with their governing patterns.
 
 Work governed by role values and role assignments often needs three small claims:
 

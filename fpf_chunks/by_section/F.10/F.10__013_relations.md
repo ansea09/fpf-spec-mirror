@@ -6,12 +6,12 @@ section_id: "F.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__013_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:12 — Relations"
-line_start: 75156
-line_end: 75171
+line_start: 77850
+line_end: 77865
 dependencies:
   - "A.2.4"
   - "B.3"
@@ -42,5 +42,5 @@ keywords:
 * `A.2`, `A.2.1`, and `A.15` when a system or acting holon holds a work-facing role or performs work.
 * Gate, release, standard-use, requirement-use, decision, and source-currentness patterns when status is consumed for those stronger uses.
 
-**Feeds:** `A.6.RSIR` and `E.10.ARCH` as the repair destination when source wording says "status role", "approved role", "standard role", "validated means compliant", "green means ready", or another status-shaped phrase hides target kind, status family, window, bridge, source, or direct-pattern use.
+* **Precision-restoration owners:** When source wording says "status role", "approved role", "standard role", "validated means compliant", "green means ready", or another status-shaped phrase hides target kind, status family, window, bridge, source, or direct-pattern use, use `A.6.RSIR` for relation-slot or role-like slot recovery and `E.10.ARCH` for ontology-first repair architecture.
 

@@ -6,12 +6,12 @@ section_id: "A.6.M:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__006_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:5 — Archetypal Grounding"
-line_start: 15497
-line_end: 15506
+line_start: 15760
+line_end: 15769
 dependencies:
 keywords:
   - "are used only for pattern users"
@@ -29,7 +29,7 @@ keywords:
 
 **Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can become module-like in a project only when the relation record says what whole it belongs to, what boundary it offers, what interface specification governs use, what substitutability policy makes replacement admissible, and what change policy governs separate change.
 
-**Show.** A port label, API endpoint or route label, flow edge, or function name may be a useful clue. It can substantiate a module-interface claim only after the relevant signature, slot, protocol, semantic condition, correspondence, mechanism, and evidence, conformance, source relation, or reliance relation named by value are declared.
+**Show.** A port label, API endpoint label, source-local route label, flow edge, or function name may be a useful clue. It can substantiate a module-interface claim only after the relevant signature, slot, protocol, semantic condition, correspondence, mechanism, evidence relation, conformance expectation, source relation, or reliance relation named by value is declared.
 
-Holon and episteme: the candidate module and whole are described holons under a module relation; they may be systems, epistemes, methods, organizations, publication families, or other structured holons. The module relation, interface specification, platform grammar, and open-architecture claim are Description epistemes, specification-use descriptions, or relation records about those holons. Stratification and architecture-operation labels named by `C.30.STRAT` remain source labels unless `C.30.STRAT` recovers a module-interface relation that A.6.M can use.
+Holon and episteme: the candidate module and whole are described holons under a module relation; they may be admitted systems, organizations-as-systems, epistemes, work occurrences, bounded contexts, disciplines, or other admitted holon kinds. Publication-family material enters through episteme and publication owners; method descriptions enter as epistemes; method values enter through their method owner and relation slots. The module relation, interface specification, platform grammar, and open-architecture claim are Description epistemes, specification-use descriptions, or relation records about those holons. Stratification and architecture-operation labels named by `C.30.STRAT` remain source labels unless `C.30.STRAT` recovers a module-interface relation that A.6.M can use.
 

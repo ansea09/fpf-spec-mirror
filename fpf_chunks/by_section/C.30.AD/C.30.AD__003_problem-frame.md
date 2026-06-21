@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 52843
-line_end: 52857
+line_start: 54465
+line_end: 54479
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD.BA"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -59,7 +60,7 @@ keywords:
 
 ### C.30.AD:1 - Problem frame
 
-Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 role-enactor semantics apply only when a project role relation itself is being governed.
+Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 allocation-responsibility semantics apply only when a project role relation itself is being governed.
 
 The difficulty is that the description is not the architecture. The same architecture can have several descriptions. The same description set can contain several views. Each view is written from one viewpoint or concern-framed practice and can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
 

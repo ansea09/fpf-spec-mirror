@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
-line_start: 28514
-line_end: 28867
+line_start: 29155
+line_end: 29517
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -52,7 +52,7 @@ keywords:
 
 **Operational interpretation.** **Eulerian** interpretation: **flow = valuation** over `U.Transfer`; **CV is attached to transformations (steps)** and evaluated **before any GateFit**; edges carry **assurance‑only operations**; no token‑passing semantics are assumed.
 
-**Use this when.** Use A.20 when the question under repair is whether one transformation step internally satisfies its declared constraints before any `GateProfile` fit is evaluated.
+**Use this when.** Use A.20 when the current question is whether one transformation step internally satisfies its declared constraints before any `GateProfile` fit is evaluated.
 **First useful move.** Name the step, the CV class being checked, the `CV.Status`, and the witness or missing witness. Stop there unless a gate, comparator, bridge, freshness, or work-boundary question is actually being made.
 
 **Smallest sufficient CV guidance.** Use the lightest CV guidance that preserves the next practitioner move made available by the local CV result. Add publication lexemes, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`, `RSCR`, or MIP-run material only when the CV claim being made would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
@@ -67,7 +67,7 @@ keywords:
 
 Repaired anti-case: a manufacturing conformance label near release may carry only the local CV or conformance relation it actually records. If release permission, safety acceptance, or work authorization is attempted, state the attempted stronger use without a governing relation and name and use the governing relation for that attempted claim rather than treating the label as release authority.
 
-**Same problem, different question under repair.** For a transformation-flow-looking problem, use `E.18` for graph value, flow valuation, or crossing relation, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not apply the other three until their own claim is present.
+**Same problem, different current question.** For a transformation-flow-looking problem, use `E.18` for graph value, flow valuation, or crossing relation, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not apply the other three until their own claim is present.
 
 **Semantic repair return.** When A.20 blocks a misleading word, face, alias, or source label, the repair must return to the enabled CV action: name `CV.Status`, the applicable CV class, and the witness or refusal available for the local CV use. Do not stop at a classification of vocabulary or publication faces.
 
@@ -87,11 +87,11 @@ Repaired anti-case: a manufacturing conformance label near release may carry onl
 
 **Anti-Goodhart guard.** CV completeness is not a substitute for the governed step result: the step must still satisfy the applicable internal constraint, and CV conformance does not create gate fit, freshness, comparator-use claim, or launch readiness.
 
-**Generative side.** A.20 preserves open-ended action by letting internally valid steps, set publications, and archives remain usable without premature gate, ranking, or launch claims; CV supplies a local applicability relation plus `CV.Status` for later neighboring claims, not only an assurance stop.
+**Generative side.** A.20 preserves open-ended action by letting internally valid steps, set publications, and archives remain usable without premature gate, ranking, or launch claims; CV supplies a local applicability relation plus `CV.Status` for neighboring claims, not only an assurance stop.
 
 **What goes wrong if missed.** A practitioner may treat internal constraint satisfaction as gate passage, launch readiness, freshness, comparator-use claim, or decision reuse. That collapses CV into GateFit and hides the `A.21` gate decision relation.
 
-**What this buys.** A.20 lets a practitioner keep the step-local mechanism constraint and `CV.Status` local to the step and use `A.21` only when gate fit or gate decision aggregation is really the question under repair.
+**What this buys.** A.20 lets a practitioner keep the step-local mechanism constraint and `CV.Status` local to the step and use `A.21` only when gate fit or gate decision aggregation is really the current question.
 
 **Not this pattern when.** If the question is `GateProfile` fit, gate decision, gate-decision reuse, gate explanation, or pass or fail gate publication, use `A.21`. If the question is graph crossing or flow valuation, use `E.18`. If the question is comparator use, set-return, archive, or refresh policy, use the current neighboring loci named in Relations.
 
@@ -154,7 +154,7 @@ Minimum pins on faces that carry CV outcomes (**Lean publication** under the sel
 * **CtxState pins.** `⟨L,P,E⃗,D⟩` on ports and tokens; raw `U.Transfer` preserves them.
 * **Path pins.** `PathId` and `PathSliceId` appear where slice-local refresh or reinterpretation witnesses are relevant; valuation semantics are carried by `E.18` plus `A.20`, with `G.11` when refresh wiring is present.
 * **CV pins.** `CV.Status ∈ {abstain, pass, degrade, block}`, `CV.WitnessRef?` (refs only).
-* **Edition pins.** If a face cites `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi`, the face **includes** the compatibility reference (`BridgeCard + UTS row`, with `CL` and `CL^plane`) under `F.9`, `F.17`, `E.17`, and `E.18` for later use. A.20 references this requirement; it does not introduce or modify Bridge and UTS formats.
+* **Edition pins.** If a face cites `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi`, the face **includes** the compatibility reference (`BridgeCard + UTS row`, with `CL` and `CL^plane`) under `F.9`, `F.17`, `E.17`, and `E.18` for neighboring use. A.20 references this requirement; it does not introduce or modify Bridge and UTS formats.
 * **Face scope.** Each face includes `PublicationScopeId` with an **MVPK profile** value of `Min`, `Lite`, `SetReady`, or `Max` — no new publication-face kinds.
 * **Register discipline.** Tech names ASCII; twin labels; required LEX tokens follow E.10 (e.g., `SentinelId`, `PathSliceId`, `SliceRefresh`).
 
@@ -266,7 +266,7 @@ Each CV class yields one `CV.Status` value: `abstain`, `pass`, `degrade`, or `bl
 
 #### A.20:4.12 - Idempotency and congruence discipline
 
-Any publication consumed by an `A.21` gate decision uses the `A.21` decision-stability witness for input equivalence and idempotency; use `G.6` or `G.11` when an A.10 evidence path visibility or refresh-implication claim is present. A.20 does not introduce keys, hashes, or cache policies.
+Any publication consumed by an `A.21` gate decision uses the `A.21` decision-stability witness for input equivalence and idempotency; use `G.6` or `G.11` when an A.10 evidence relation visibility or refresh-implication claim is present. A.20 does not introduce keys, hashes, or cache policies.
 
 **Minimal lexeme set for CV‑adjacent equivalence (normative).** Where an `A.21` gate decision consumes CV outcomes, the **equivalence witness** SHALL identify at least: `{PathSliceId, GateProfileId, Γ selector (+window bounds if interval), E⃗ editions vector for cited registries, ReturnShape kind (if comparable), CV class and kind set considered}`. Changing any of these breaks equivalence and triggers re-aggregation.
 
@@ -287,11 +287,11 @@ A mechanism emits a **set** (`Front`, `Archive`, or another declared set publica
 
 **Practice references.** Algebraic effects and handlers separate signatures from handlers (Koka and Effekt, 2015+); reproducible pipelines isolate mechanism constraints from release or deployment criteria (Bazel and Nix); optics, profunctors, and open hypergraph categories motivate composition on open graphs without adding facts on faces; QD, MAP-Elites, CMA-ME, and DQD motivate **set-return and declared order relations** (2015-2022).
 
-### A.20:6 - Bias‑Annotation
+### A.20:6 - Bias-Annotation
 
 The pattern constrains *how* CV status and witnesses are carried; it does not encode `GateProfile`-bound thresholds or role and channel fit — those sit in GateFit. This separation keeps GateFit criteria out of mechanism semantics.
 
-### A.20:7 - Conformance Checklist  ✱
+### A.20:7 - Conformance Checklist - Constraint-validity checks
 
 **Conformance use.** This checklist is evidence for the internal-step CV guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; a checklist row is applied only when its corresponding CV class, witness, publication face, or neighboring relation is present. Before applying any row, name the Solution move it tests; if no such Solution move is present, treat the row as orientation-only or not applicable rather than expanding the applied assurance or conformance material.
 
@@ -323,6 +323,15 @@ The pattern constrains *how* CV status and witnesses are carried; it does not en
 **Valuation & refresh**
 
 * CC-TFS‑18 and CC-TFS‑19: Flow publishes valuation with `PublicationScopeId` and `PathSliceId`; Γ pinned at compare and launch faces; sentinel triggers slice‑local refresh.
+
+### A.20:7.1 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails | Correct move |
+|---|---|---|
+| CV as gate passage | Internal step validity is treated as release, safety, launch, or admission readiness. | Keep `CV.Status` local to the step and use `A.21` when gate fit or gate decision is current. |
+| CV as scalar ranking | A valid set return is folded into one best item without a comparator relation. | Keep set, archive, and comparator claims with the neighboring loci named in Relations. |
+| CV as evidence freshness | A witness that supports internal validity is treated as current evidence for a different claim. | Use `A.10`, `G.6`, or the source-currentness pattern when freshness or provenance is current. |
+| Publication face as CV object | A dashboard or MVPK face is treated as the constraint-validity relation itself. | Keep publication use in `E.17` and cite A.20 only for the step-local CV relation. |
 
 ### A.20:8 - Consequences
 
@@ -358,7 +367,7 @@ A.20 result in local-constraint and reproducible-pipeline practice: `CV.Status`,
 * **E.18 (flow valuation and PathSlice currentness).** Declares the graph and valuation semantics used by this flow family.
 * **F.9, F.17, E.17, and E.18 (Bridge+UTS loci).** Boundary-publication requirement whenever faces cite editions.
 * **A.19.SelectorMechanism, C.18, C.19, G.5, and G.11.** Comparability, set-return, archive, and refresh discipline; CV does not compare; it only checks internal readiness for declared comparison.
-* **A.21, G.6, and G.11.** Gate decision stability, equivalence witness references, A.10 evidence path visibility, and refresh implications when gate decisions consume CV-adjacent publications.
+* **A.21, G.6, and G.11.** Gate decision stability, equivalence witness references, A.10 evidence relation visibility, and refresh implications when gate decisions consume CV-adjacent publications.
 * **E.10 (LEX).** Token classes and ASCII Tech names; twin labels and aliasing for Γ, CL, and Φ as per LEX‑BUNDLE.
 
 ### A.20:Appendix A — CV Class Gloss (normative)

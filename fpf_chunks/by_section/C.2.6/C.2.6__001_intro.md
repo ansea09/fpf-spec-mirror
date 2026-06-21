@@ -6,12 +6,12 @@ section_id: "C.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:intro — Intro"
-line_start: 37797
-line_end: 37804
+line_start: 39104
+line_end: 39117
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,4 +40,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state anchoring mode.
+
+**Use this pattern when.** Use C.2.6 when a governed `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
+
+**What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
+
+**What this buys.** A nominal anchoring-mode characteristic that keeps source anchoring, publication face, carrier, bridge loss, evidence, and reliance claims separate while still letting teams compare language-state positions.
 

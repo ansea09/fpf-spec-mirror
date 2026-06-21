@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.3.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
-line_start: 30288
-line_end: 30574
+line_start: 30987
+line_end: 31273
 dependencies:
   - "A.1"
   - "A.12"
@@ -20,6 +20,7 @@ dependencies:
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.2"
 keywords:
   - "KD-CAL"
@@ -91,7 +92,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 
 ```
 Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme >,
-                  T      : U.TransformerRole ) → U.Episteme
+                  TA     : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
 ```
 
 * **Domain.** `D_know` uses **ConstituentOf**, **UsageOf/ReferenceTo**, **evidences/derivesFrom**, optional **MemberOf** for collections.
@@ -102,7 +103,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 ```
 Γ_epist^compile : ( E_synth : U.Episteme,
                     Ctx     : BoundedContext,
-                    T       : U.TransformerRole ) → U.Episteme
+                    TA      : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
 ```
 
 * **Domain.** A synthesized episteme and a **target context** (journal, standard, program spec).
@@ -307,9 +308,9 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 ### B.1.3:11 - Relations
 
 * **Builds on:** A.12 (Transformer Role—compilers/editors enact), A.14 (Mereology Extension—ConstituentOf/MemberOf/PhaseOf usage), A.15 (Strict Distinction).
-* **Coordinates with:** B.1.1 (Proof kit), B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
+* **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
 * **Triggers/Complements:** B.2 (MHT) when explanatory closure or context re‑base creates a **new whole** (theory, standard).
-* **Feeds:** B.3 (Assurance) — `F/G/R` and **CL** baselines computed here become inputs to trust calculations.
+* **Used by:** B.3 assurance uses `F/G/R` and **CL** baselines computed here as inputs to trust calculations.
 
 > **One‑sentence takeaway.**
 > **Γ\_epist** preserves provenance, penalizes poor conceptual fit, forbids reliability averaging, and makes context explicit—so that knowledge aggregates are conservative, auditable, and genuinely coherent.

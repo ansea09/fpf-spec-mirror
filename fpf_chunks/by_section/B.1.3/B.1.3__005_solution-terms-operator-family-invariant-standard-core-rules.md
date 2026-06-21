@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 30327
-line_end: 30450
+line_start: 31026
+line_end: 31149
 dependencies:
   - "A.1"
   - "A.12"
@@ -21,6 +21,7 @@ dependencies:
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.3"
   - "C.2"
 keywords:
   - "KD-CAL"
@@ -53,7 +54,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 
 ```
 Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme >,
-                  T      : U.TransformerRole ) → U.Episteme
+                  TA     : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
 ```
 
 * **Domain.** `D_know` uses **ConstituentOf**, **UsageOf/ReferenceTo**, **evidences/derivesFrom**, optional **MemberOf** for collections.
@@ -64,7 +65,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 ```
 Γ_epist^compile : ( E_synth : U.Episteme,
                     Ctx     : BoundedContext,
-                    T       : U.TransformerRole ) → U.Episteme
+                    TA      : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
 ```
 
 * **Domain.** A synthesized episteme and a **target context** (journal, standard, program spec).

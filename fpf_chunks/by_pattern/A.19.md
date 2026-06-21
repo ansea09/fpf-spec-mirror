@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
-line_start: 23534
-line_end: 23935
+line_start: 24126
+line_end: 24568
 dependencies:
   - "A.17"
   - "A.18"
@@ -45,9 +45,16 @@ keywords:
 
 ## A.19 - CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)
 
+> **Type:** Kernel characteristic-space and dynamics-typing pattern
 > **Status:** Stable
 
-### A.19:0 - First use: `U.CharacteristicSpace` as the EoC (normative primer)
+**Use this when.** Use this pattern when the current object is the declared `CharacteristicSpace` itself: characteristics, scales, value sets, coordinate slots, optional overlays, comparability boundaries, normalization boundaries, missingness, and the `U.Dynamics.stateSpace` hook.
+
+**What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, smuggle method sequences into checklists, or give consumer patterns their own private space kinds.
+
+**What this buys.** One declared space that makes state, threshold, comparability, normalization, and dynamics-typing claims inspectable without turning A.19 into a scoring, dashboard, evidence, gate, or evaluation pattern.
+
+### A.19:0 - Problem frame - First use: `U.CharacteristicSpace` as the EoC (normative primer)
 
 Use `A.19` when the current question is the space of characteristics itself: which characteristics are in scope, which scale is bound to each characteristic, what values are admissible, how coordinates are grouped, which optional order, topology, or metric overlays are declared, and where comparability, normalization, missingness, and evidence hooks belong.
 
@@ -55,13 +62,13 @@ First move: name the `CharacteristicSpace`, then write its basis as slot declara
 
 Core boundary: the `CharacteristicSpace` is the EoC here. Consumer patterns may refer to it through `...SpaceRef` fields, use it for evaluation or CHR mechanisms, or publish views over it, but those consumer references, mechanism steps, publication forms, and source-set relations are not second space kinds.
 
-Informative CHR pointer: when the question moves from the space to normalization, indicatorization, scoring, aggregation, comparison, or selection mechanisms, use the corresponding `A.19.<MechId>` pattern (`A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`) and `A.19.CHR`. `C.16` carries measurement and evidence backing; `G.0` carries legality gates for numeric operations. A.19 may cite those patterns, but it does not govern their mechanism vocabulary.
+Informative CHR pointer: when the question moves from the space to normalization, indicatorization, scoring, aggregation, comparison, or selection mechanisms, use the corresponding `A.19.<MechId>` pattern (`A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`) and `A.19.CHR`. `C.16` carries measurement and evidence backing; `G.0` carries admissibility gates for numeric operations. A.19 may cite those patterns, but it does not govern their mechanism vocabulary.
 
 Reader orientation sequence for a CHR-enabled plan or audit, when orientation is needed:
 
 - measurement vocabulary: use `A.17`, `A.18`, and `C.16` for characteristic, scale, coordinate, unit, measure, and evidence backing;
 - characteristic-space object: use this pattern for the declared `CharacteristicSpace`, basis slots, optional overlays, comparability boundaries, missingness, and `U.Dynamics.stateSpace` hook;
-- legality of numeric operations: use `G.0` and the relevant `A.19.<MechId>` mechanism pattern; do not let A.19 become a second mechanism vocabulary;
+- admissibility of numeric operations: use `G.0` and the relevant `A.19.<MechId>` mechanism pattern; do not let A.19 become a second mechanism vocabulary;
 - suite and planning boundary: use `A.19.CHR`, `A.15.3`, and `E.18` when a planned baseline, suite slot filling, or transformation-flow structure is current;
 - one mechanism at a time: read `A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, or `A.19.SelectorMechanism` only for the mechanism claim being made;
 - specialization and reuse: use `E.20` when a project-specific mechanism variant is introduced.
@@ -342,9 +349,23 @@ The left side of this chain is A.19-facing: declared space, normalization refere
 - If one selector or comparison reads one derived tradition view through one typed set view, keep the underlying declared source set recoverable at the same time.
 - Different typed set views may coexist for the same source set; keep that plurality visible rather than pretending one metric or transition formalism already settles every neighboring comparison.
 
+### A.19:6.1 - Archetypal Grounding
+
+**System state.** A pump readiness state uses temperature, vibration, pressure, and calibration-window coordinates. A.19 declares the space, slot basis, scale bindings, threshold predicates, window, and normalization references. Gate permission, work enactment, and evidence remain with their neighboring patterns.
+
+**Episteme evaluation.** A method-description review uses clarity, evidence recoverability, source currentness, and relation precision coordinates. A.19 supplies the declared characteristic space; the evaluation pattern owns the stop condition, rating interpretation, and improvement decision.
+
+**Cross-context comparison.** A built-asset team wants to compare readiness in two contexts with different measurement conventions. A.19 requires a declared bridge or normalization relation before coordinatewise comparison; the bridge and assurance implications stay with their governing patterns.
+
+### A.19:6.2 - Bias-Annotation
+
+A.19 corrects feature-vector bias: a list of numbers, labels, or dashboard fields is not yet a `CharacteristicSpace`. The space exists only when each slot binds a `U.Characteristic` to a scale and value set with declared meaning, comparability, missingness, and optional overlays.
+
+It also corrects consumer-pattern bias. A gate, evaluation, selector, assurance, dashboard, or portfolio may use a declared space, but that use does not create another space kind. The consumer pattern owns its predicate, score, decision, assurance, or publication use; A.19 owns only the characteristic-space side.
+
 ### A.19:6 - Conformance Checklist (normative) — **CC‑A19**
 
-**Formality references and operational segregation (normative).** A.19 aligns with **C.2.3 Unified Formality Characteristic (F)**. The legacy tier labels **T0**, **T1**, and **T2** are deprecated; speak **F** directly and treat operations separately (see **E.10** for registers).
+**Formality references and operational segregation (normative).** A.19 aligns with **C.2.3 Unified Formality Characteristic (F)**. Use **F** directly instead of tier labels such as **T0**, **T1**, and **T2**, and treat operations separately (see **E.10** for registers).
 — **F-Declaration baseline (recommended F ≥ F3).** Obligations are **declarability** and **arguability**: the author can **name** the CharacteristicSpace (basis and slots as *(Characteristic, Scale)* pairs), **state** the comparability regime (coordinatewise or normalization-based), and **express** a state’s checklist in observable coordinates. No persistence formats, identifiers, or operational provenance are required.
 — **F-Predicates (F ≥ F4 when predicate-like).** As above, plus **explicit slot and NormalizationMethod names** and **stated overlays** (order or metric). When acceptance conditions are written as **typed predicates over coordinates**, declare **F ≥ F4**. Remains **notation-neutral** and **persistence-agnostic**.
 — **Operational bindings (not part of F).** When automatic checking or assurance is required, use **A.19.CN**, **C.16**, and **B.3** for identifiers, validity windows, waivers, and logs. These raise **R** and **TA** in the trust calculus and **do not change F** unless the **expression form** changes (see C.2.3 orthogonality).
@@ -367,7 +388,7 @@ The following checklist summarizes the normative requirements introduced by Patt
 **CC‑A19.6.** When a neighboring `StateAssertion`, checklist, gate, assurance, or decision claim uses a `CharacteristicSpace`, A.19 requires only the space-facing references: the state or coordinate set, the associated checklist or criteria set, the observation window, and any `NormalizationMethodInstance` or Bridge used for cross-space mapping. The assertion, evidence, gate, assurance, and decision claims remain governed by their own patterns; A.19 does not mandate any identifier or persistence scheme.
 
 **CC‑A19.7.** If a Green-Gate or enactment rule uses coordinates from a `CharacteristicSpace`, the gate pattern and role-method-work pattern govern permission to act; A.19 only requires that any translated state or coordinate claim cite declared Embeddings and Bridges rather than untracked inferences.
-**CC‑A19.8.** Checklist definitions that use a `CharacteristicSpace` must use observable predicates over declared coordinates and context events. If temporal order or multi-step processes matter, use explicit method and work patterns or aggregation logic outside A.19 rather than hiding a workflow inside the state-space declaration. **Use of Indicators in any checklist MUST cite an IndicatorChoicePolicy edition; treating any NCV as an Indicator without policy is forbidden.**
+**CC‑A19.8.** Checklist definitions that use a `CharacteristicSpace` must use observable predicates over declared coordinates and context events. If temporal order or multi-step processes matter, use explicit method and work patterns or aggregation logic outside A.19 rather than hiding a method sequence inside the state-space declaration. **Use of Indicators in any checklist MUST cite an IndicatorChoicePolicy edition; treating any NCV as an Indicator without policy is forbidden.**
 
 **Anti‑drift**
 **CC‑A19.9.** If a **NormalizationMethod** or **UNM** declaration, space overlay, or state checklist is updated or calibrated differently in a new version, previous StateAssertions are not retroactively modified by A.19. The governing assertion or record pattern closes or versions those claims; A.19 requires only that the old and new space-facing referents remain inspectable.
@@ -394,7 +415,7 @@ The following checklist summarizes the normative requirements introduced by Patt
 **Operators (OP)**
 **CC‑A19.21.** Use of `Align_B` in a gate or assurance claim must declare the Bridge used; the assurance pattern owns CL propagation and penalties. Cross-context comparison without a Bridge remains inadmissible for A.19 space comparability. A.19 imposes no requirement to store an identifier.
 
-### A.19:7 - Anti‑patterns → safe rewrites
+### A.19:7 - Common Anti-Patterns and How to Avoid Them
 
 _The following are common modeling mistakes (“anti-patterns”) related to measurement spaces, and how to correct them:_
 
@@ -406,7 +427,7 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
     ✗ Comparing values directly across different scales, e.g. _Drift\_A = 5°C vs Drift\_B = 5°F_ as if they were the same.
   ✓ **Normalize to common units first:** e.g., apply the Fahrenheit-to-Celsius **NormalizationMethod** _m_(T_F) = (T_F - 32) × 5/9 to convert all data to °C, **then** compare the drift values. Always **normalize into one space** before comparing magnitudes.
 
--   **“Checklist = workflow.”**
+-   **“Checklist = method sequence.”**
     ✗ Defining a state’s checklist with an implied sequence: _“State ‘Ready’ requires doing Step 1 then Step 2…”_
     ✓ **Keep checklists declarative:** A **Checklist** should represent a state of the system (a condition) – essentially **state evidence** – not a sequence of actions. If order or process matters, model that explicitly via a **MethodDescription** or by using a **Γ** (Gamma) aggregator for process logic. In other words, state = “Ready” might require conditions A and B to be true (regardless of how you got there), whereas the procedure to get ready (do Step1 then Step2) should be a separate method or playbook.
 
@@ -427,17 +448,37 @@ _The following are common modeling mistakes (“anti-patterns”) related to mea
 - A.19.ECS governs the construction of one object-under-improvement evaluation `CharacteristicSpace` for an object being improved. It is used before `E.22` and `E.23` when no adequate object-under-improvement evaluation exists.
 - Existing object-under-improvement evaluation patterns such as `E.21`, `E.9.DA`, `E.2.DA`, and the naming vector inside `F.18` are examples of this construction shape for object kinds under improvement. They keep their own coordinate, value-meaning, and stop-condition definitions.
 
-### A.19:12a - C.29 mathematical-lens use relation
+### A.19:8 - Consequences
+
+| Consequence | Benefit | Cost or boundary |
+| --- | --- | --- |
+| Coordinate claims become inspectable | A reader can recover slot, characteristic, scale, value set, missingness, window, and normalization references. | Declaring the space takes more work than naming a feature vector or dashboard column. |
+| Consumer patterns stay bounded | Gates, evaluations, assurance claims, dashboards, and selectors use declared spaces without becoming space-defining patterns. | A.19 must refuse attractive shortcuts where a consumer label looks like a coordinate kind. |
+| Dynamics has a typed state space | A dynamics model can say which space its state belongs to without letting A.19 define the dynamic law or time base. | Dynamic laws, evidence, and work consequences must still be governed elsewhere. |
+
+### A.19:9 - Rationale
+
+A characteristic space is the minimal object that keeps multi-characteristic claims from becoming loose feature lists. The pattern binds each characteristic to a scale and value set, then lets neighboring patterns consume the declared space for state predicates, thresholds, comparisons, gates, evaluations, assurance, dashboards, and dynamics models.
+
+The separation matters because thresholds, scores, dashboards, and decisions are not the space. They are predicates, computations, publications, or consumer claims over a declared space. A.19 keeps the coordinate ontology stable while allowing different consumers to state their own admissible use and evidence obligations.
+
+### A.19:10 - SoTA-Echoing
+
+Measurement and evaluation practice requires explicit variable definitions, scales, units, value ranges, missingness treatment, normalization, and comparability before multi-criteria comparison is meaningful. A.19 adapts that discipline to FPF by treating the characteristic space as the declared ontic object and by moving scoring, indicator choice, normalization, and assurance use to their governing patterns.
+
+Dynamical-systems and state-space practice supplies the useful hook: a dynamics model needs a declared state space, but the state space does not itself define the law, time base, observation model, or intervention. FPF keeps that boundary so that characteristic-space declarations can be reused across system, episteme, evaluation, and architecture work without smuggling consumer semantics into the space.
+
+### A.19:12.1 - C.29 mathematical-lens use relation
 
 > If topology, order, distance, product, subspace, embedding, or metric is only a `CharacteristicSpace` overlay, stay in `A.19` and write the space, coordinate, normalization, and comparability declaration there. If the overlay is used as a mathematical lens to explain, predict, bridge, assure, publish, compare across contexts, or carry a reusable explanation claim beyond local declaration, add the applicable `C.29` lens-use result for the stated lens use. Do not move the space declaration out of `A.19`; `C.29` names only what the mathematical lens preserves, loses, makes visible, and cannot license.
 
-### A.19:12b - Source Role and Currentness
+### A.19:12.2 - Source Role and Currentness
 
 A.19 is primarily internal-kernel doctrine, not an external SoTA-import pattern. Its authority for `U.CharacteristicSpace` comes from the accepted FPF chain: `A.17` for `U.Characteristic`, `A.18` for scale and value discipline, `C.16` for measurement and coordinate evidence, `A.19.UNM` for normalization methods, `C.29` when a mathematical lens is being used beyond local space declaration, and `E.24` for ontic-head and slot-relation discipline.
 
 Currentness is therefore inherited through that chain. Reopen A.19 when any governing pattern in that chain changes characteristic identity, scale semantics, value-set meaning, missingness semantics, normalization admissibility, comparability, bridge discipline, mathematical-lens boundary, or ontic slot discipline. Do not reopen A.19 merely because one consumer pattern adds a new score table, dashboard, evaluation report, certification interface, or portfolio view that uses a declared `CharacteristicSpace`.
 
-### A.19:12c - Ontic Relations and Consumer Boundary
+### A.19:13 - Relations - Ontic Relations and Consumer Boundary
 
 - **Builds on:** `E.24` for ontic-head discipline, `A.6.5` for slot relation discipline, `A.17` and `A.18` for characteristic and scale discipline, and `C.16` for measurement and coordinate evidence.
 - **Coordinates with:** `A.19.ECS` for constructing evaluation characteristic spaces for object kinds under improvement; `E.21`, `E.9.DA`, and `E.2.DA` for pattern, DRR, and FPF-level evaluation use; `E.24.PUB` when a score table, dashboard, report, or publication form is confused with the characteristic space itself.

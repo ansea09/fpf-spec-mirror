@@ -6,12 +6,12 @@ section_id: "A.19.UNM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:4 — Solution"
-line_start: 26564
-line_end: 26765
+line_start: 27205
+line_end: 27406
 dependencies:
 keywords:
   - "CV→NCV"
@@ -91,13 +91,13 @@ Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 - `A.19.CHR:4.2.1` (CHR SlotKind Lexicon)
 - `A.19.CHR:4.5` (suite protocols: ordering/optionality; suite closure)
 - `A.19.CN` (CN-frame routing: `normalization`, `comparability.mode`)
-- `G.0` (CG-frame legality gates where required downstream)
+- `G.0` (CG-frame admissibility gates where required downstream)
 - `C.16` (evidence carriers; calibration/validity for normalization legitimacy)
 - `A.17/A.18` (measurement meaning & scale lawfulness; not redefined here)
 
 **SubjectBlock**
 - `SubjectKind`: `NormalizationMethod classes` (with induced `≡_UNM` over charts/views)
-- `BaseType`: chart/`U.CharacteristicSpace` family in a CN‑frame (one `U.BoundedContext`), where normalization acts on coordinate values (`CV`) for measurable slots (UNM normalizes **values**, not characteristics)
+- `GovernedValueDomain`: chart/`U.CharacteristicSpace` family in a CN-frame (one `U.BoundedContext`), where normalization acts on coordinate values (`CV`) for measurable slots (UNM normalizes **values**, not characteristics)
 - `SliceSet`: `U.ContextSliceSet` (context is explicit; no implicit “global normalization”)
 - `ExtentRule`: “coordinate values admitted for normalization within the declared context and the method instance validity window”
 - `ResultKinds`:
@@ -143,7 +143,7 @@ UNM‑specific slots (must be alias‑docked into the CHR SlotKind lexicon if us
 **LawSet (UNM laws; identifiers are stable)**
 - **UNM‑L0 (Values, not characteristics).** UNM produces `NCV` as a **value** under declared invariants; it does not redefine the underlying characteristic meaning (measurement meaning remains governed by A.17/A.18 and evidence by C.16).
 - **UNM‑L1 (Declared method class gate).** A normalization method instance is admissible only if its method is declared in the allowed method class set: `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}`.
-- **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent “extra” legality.
+- **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent extra admissibility.
 - **UNM‑L2 (Congruence is first-class).** Each chosen method instance induces `≡_UNM` over charts/views; equality/comparability decisions that rely on normalization are defined on the quotient (or on a declared fix), not on raw labels.
 - **UNM‑L2a (Context-local by default).** `≡_UNM` is context‑local; cross‑context reuse requires explicit transport declarations (Bridge-only).
 - **UNM‑L3 (Fail‑closed).** If admissibility/evidence is insufficient (or required inputs are missing/stale), UNM does not silently coerce; it yields `abstain` or `degrade` (tri‑state guard discipline) and may surface an explicit freshness/work request (see A.19.UNM:4.5).
@@ -225,5 +225,5 @@ When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, UNM does not “guess a number”; it surfaces an explicit **freshness/work request** that must be planned in `U.WorkPlanning` and executed in `U.WorkEnactment`.
 - In transformation-flow terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
-- Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and legality anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
+- Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and admissibility anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
 

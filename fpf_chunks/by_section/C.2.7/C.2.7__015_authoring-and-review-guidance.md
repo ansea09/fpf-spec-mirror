@@ -6,12 +6,12 @@ section_id: "C.2.7:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__015_authoring-and-review-guidance.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:14 — Authoring and Review Guidance"
-line_start: 38066
-line_end: 38081
+line_start: 39385
+line_end: 39400
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,8 +43,8 @@ To publish a representation-factor bundle, ask separately:
 - which additional factor, if any, genuinely matters enough to publish?
 
 #### C.2.7:14.2 - Review prompt
-A reviewer should reject any attempt to use one factor as if it summarized the rest. The factor bundle exists precisely to block that reduction.
+An assurance reader should reject any attempt to use one factor as if it summarized the rest. The factor bundle exists precisely to block that reduction.
 
 #### C.2.7:14.3 - Cross-facet reminder
-Reviewers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
+Assurance readers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
 

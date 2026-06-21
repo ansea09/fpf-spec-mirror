@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
-line_start: 7851
-line_end: 8385
+line_start: 8019
+line_end: 8559
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,6 +81,12 @@ keywords:
 >
 **Canonical companion.** The square itself (quadrant definitions, form constraints, and cross‑quadrant dependency discipline) is specified normatively in **A.6.B — Boundary Norm Square**. This overview only (i) maps quadrants onto the Signature Stack, and (ii) explains how MVPK faces project the canonical L/A/D/E-classified claim set. If anything in this overview conflicts with A.6.B, **A.6.B is authoritative**.
 
+**Use this pattern when.** Use A.6 when a boundary package, API, protocol, contract, compliance statement, SLO/SLA, connector, interface, or publication boundary mixes definitions, admissibility predicates, duties, evidence, and work effects into one account.
+
+**What goes wrong if missed.** Boundary prose starts doing too many jobs at once: invariants become permissions, permissions become duties, evidence becomes gate passage, and publication faces start acting as if they were the governed boundary object.
+
+**What this buys.** The project gets an L/A/D/E-classified claim set with stable claim IDs, source references, stack placement, and publication-face citations, so work, reliance, evidence, commitment, and gate uses can return to their governing patterns.
+
 **Start here when.** The dominant question is an API, protocol, contract, compliance, SLO or SLA, connector, interface, or publication boundary package whose statements are mixing runtime behaviour, governance, and evidence into one undifferentiated boundary account.
 
 **First output.** One Claim Register or equivalent L/A/D/E-classified atomic claim set with stable `L-*`, `A-*`, `D-*`, and `E-*` identifiers, stack placement, and face citations by ID rather than paraphrase.
@@ -89,15 +95,15 @@ keywords:
 
 **Typical neighboring governing patterns and authority-reference repairs.** `A.6.B` for the quadrant semantics, `A.6.C` for contract unpacking, `A.6.P`, `C.16.Q`, or `A.6.A` for lexical repair, and `E.17` faces for audience-specific publication of the same decomposed claim set.
 
-**Common neighboring-pattern mistakes.** If the real object is still cue preservation or an early unresolved cue, use `A.16` or `A.16.1`; if a qualified relation, quality term, or action invitation is itself being repaired, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if duties, commitments, promise content, work effects, and evidence are being mixed into one contract sentence, split them through `A.6.B` and `A.6.C` rather than minting one more contract-soup paragraph.
+**Common neighboring-pattern mistakes.** If the real object is still cue preservation or an early unresolved cue, use `A.16` or `A.16.1`; if a qualified relation, quality term, or action invitation is itself being repaired, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if duties, commitments, promise content, work effects, and evidence are being mixed into one contract sentence, split them through `A.6.B` and `A.6.C` rather than minting one more undifferentiated contract paragraph.
 
 **Causal/deontic split.** A mixed boundary sentence such as "deploy because it would reduce harm" is not settled by one hidden pattern. `C.28` carries the causal-use question, `CausalityLadderRung`, estimand, support basis, support verdict, and supported causal use and unsupported causal use. `A.6.B` classifies deontic duties, boundary admissibility gates, and work-effects as atomic `L/A/D/E` claims. `A.6.C` unpacks contract, promise, commitment, utterance, and boundary-publication language when the sentence is agreement-like or release-facing. A causal-use record does not by itself create a duty, commitment, promise, release gate, or boundary admissibility predicate.
 
-**Authority wording split (subordinate boundary-claim stress case).** When a boundary, policy, API, schema, connector, or compliance statement uses "approved", "allowed", "authorized", "guaranteed", "certified", "recommended", or equivalent wording, do not decide by the word. The object under repair is still the L/A/D/E-classified boundary claim set: split the statement into `A.6.B` `L-*` definition or invariant claims, `A-*` admissibility or gate claims, `D-*` commitment claims, and `E-*` evidence or work-effect claims before treating it as action guidance. When "guaranteed", "promise", "contract", "SLA", "SLO", or certified-under-agreement wording is agreement-like, service-facing, promise-bearing, or release-facing, unpack promise content, utterance package, deontic commitment, and work or evidence substrate through `A.6.C`, `A.2.3`, `A.2.8`, and `A.2.9` before using the L/A/D/E-classified claims. When "recommended" wording is cue preservation, advice, or action invitation, apply `A.16`, `A.16.1`, or `A.6.A` according to the kind under repair; when it is an admissibility criterion, use the `A-*` claim and any live `A.21` gate decision; when it is evidence-supported advice, use the `E-*` claim plus `A.10`; only recommendation-as-duty uses a `D-*` claim and `A.2.8`. If the encountered item is a dashboard or status display rather than boundary prose, do not turn color, label, or visible status into an `A-*` admissibility claim; return through `A.15`, `A.10`, and, when a gate decision is live, `A.21`. If the split result will guide work, release, permission, role or status reliance, evidence reliance, or assurance, return through `A.15` to the governing FPF pattern and project-side FPF kind and reference named by value that carry the claim being made or effect.
+**Authority wording split (subordinate boundary-claim stress case).** When a boundary, policy, API, schema, connector, or compliance statement uses "approved", "allowed", "authorized", "guaranteed", "certified", "recommended", or equivalent wording, do not decide by the word. The current object is still the L/A/D/E-classified boundary claim set: split the statement into `A.6.B` `L-*` definition or invariant claims, `A-*` admissibility or gate claims, `D-*` commitment claims, and `E-*` evidence or work-effect claims before treating it as action guidance. When "guaranteed", "promise", "contract", "SLA", "SLO", or certified-under-agreement wording is agreement-like, service-facing, promise-bearing, or release-facing, unpack promise content, utterance package, deontic commitment, and work or evidence substrate through `A.6.C`, `A.2.3`, `A.2.8`, and `A.2.9` before using the L/A/D/E-classified claims. When "recommended" wording is cue preservation, advice, or action invitation, apply `A.16`, `A.16.1`, or `A.6.A` according to the current kind; when it is an admissibility criterion, use the `A-*` claim and any live `A.21` gate decision; when it is evidence-supported advice, use the `E-*` claim plus `A.10`; only recommendation-as-duty uses a `D-*` claim and `A.2.8`. If the encountered item is a dashboard or status display rather than boundary prose, do not turn color, label, or visible status into an `A-*` admissibility claim; return through `A.15`, `A.10`, and, when a gate decision is live, `A.21`. If the split result will guide work, release, permission, role or status reliance, evidence reliance, or assurance, return through `A.15` to the governing FPF pattern and project-side FPF kind and reference named by value that carry the claim being made or effect.
 
 **Positive repaired result.** A repaired boundary statement is not merely "less vague"; it is an L/A/D/E-classified claim set that tells the user which statement is definitional, which is an admissibility predicate, which is a deontic commitment, which is an evidence or work-effect claim, and which FPF pattern or project-side FPF kind and reference named by value must be cited before the work claim or reliance claim is used.
 
-**Credential-currentness boundary.** A displayed credential can substantiate only issuer, holder, verifier, status, and currentness claims after an `A.10` evidence path verifies it for the relying context. Boundary permission, admissibility, authorization, deontic commitment, role or status effect, or gate passage still needs the governing `A.6.B`, `A.2.8`, `A.2.9`, `A.2.1`, or `A.21` source named by value.
+**Credential-currentness boundary.** A displayed credential can substantiate only issuer, holder, verifier, status, and currentness claims after an `A.10` evidence relation verifies it for the relying context. Boundary permission, admissibility, authorization, deontic commitment, role or status effect, or gate passage still needs the governing `A.6.B`, `A.2.8`, `A.2.9`, `A.2.1`, or `A.21` source named by value.
 
 **Register-backed status boundary.** A pass, badge, dashboard cell, API response, certificate view, or other status-looking item may be only a publication of a governing register entry or status-source entry. If that register entry is the source that creates or changes permission, role or status, duty, or gate state in the bounded context, cite that register entry or status-source named by value entry and split the created claims through `A.6.B`, `A.2.1`, `A.2.8`, `A.2.9`, or `A.21`. If the item is only an extract, cache, screenshot, certificate view, or convenience display, keep it as source-finding or currentness support under `A.10` until the exact source is recoverable.
 
@@ -116,7 +122,7 @@ Role prompts for boundary wording use:
 | Boundary author | Which words need L/A/D/E claim IDs before they can guide work or reliance? |
 | Policy, API, or schema maintainer | Which `L-*`, `A-*`, `D-*`, and `E-*` claims must be separated, and which source carries each one? |
 | Acting user | Is the wording only a cue or source-finding handle, or is there support relation named by value for the required source-backed claim or effect? |
-| Gate, commitment, or evidence source | Which gate decision, commitment, speech act, evidence path, or work-effect source must be exposed or repaired? |
+| Gate, commitment, or evidence source | Which gate decision, commitment, speech act, evidence relation, or work-effect source must be exposed or repaired? |
 | Auditor or reviewer | Which L/A/D/E claim IDs are cited by each publication face, and where would paraphrase drift change the allowed use? |
 
 **Recurring boundary ambiguity repair.** If the same boundary, API, schema, or interface wording repeatedly needs the same split or source recovery, repair the boundary package rather than making each user reinterpret it: replace misleading labels, expose L/A/D/E claim IDs, cite the gate source, commitment source, evidence source, or work-effect source, add currentness or supersession refs, or remove the phrase that invites unsupported work claims or reliance claims. Repetition is a signal that the boundary source or publication face needs repair, not a normal per-use task.
@@ -146,7 +152,7 @@ Boundaries are where architecture lives: at the edge of a theory, an API, a prot
 * Multi‑view publication discipline via `U.MultiViewDescribing` (views + viewpoints).
 * Strict separation of **EntityOfConcern vs Description episteme vs publication carrier** so we do not accidentally attribute agency or work to an episteme, or treat a file as the entity, claim, work, evidence, or decision.
 
-Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one “contract soup”. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier and evidence story.
+Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one undifferentiated contract paragraph. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier and evidence story.
 
 This cluster overview makes one disciplined move:
 
@@ -168,7 +174,7 @@ When boundaries are described without an L/A/D/E claim-classification discipline
 
 2. **Admissibility vs deontics.** The RFC keywords `MUST`, `SHOULD`, and `MAY` are used both for role-assignment or acting-system obligations and for world‑state admissibility predicates. E.8 already demands keeping deontics distinct from admissibility and definitions and recommends predicate‑style constraints for admissibility rather than RFC keywords.
 
-3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, and delivered work are different FPF objects: promise content is governed by A.2.3, a speech act is work governed by A.2.9, a commitment is a deontic binding governed by A.2.8, and a running service is delivered work with evidence. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
+3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, and delivered work are different FPF objects: promise content is governed by A.2.3, a speech act is work governed by A.2.9, a commitment is a deontic commitment relation governed by A.2.8, and a running service is delivered work with evidence. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
 
 4. **Effects without evidence or carriers.** Effects happen only in work; therefore, “effect claims” must be anchored to observation and carriers. Without A.7’s EntityOfConcern and Description-episteme / publication-carrier discipline, writers conflate the published description with runtime traces or treat a file as the system itself.
 
@@ -299,7 +305,7 @@ Action outputs after classification:
 - assign, remove, or clarify an accountable role assignment or commitment when the claim being made is `D-*`;
 - add, repair, or expose evidence-carrier instrumentation when the claim being made is `E-*`;
 - publish or update an MVPK face that cites L/A/D/E claim IDs rather than paraphrasing them;
-- reopen an `A.21` gate decision, `A.20` constraint-validity witness, `A.2.9` speech act, `A.2.8` commitment, `A.10` evidence path, or `B.3` assurance claim when the L/A/D/E-classified statement is being used beyond boundary wording;
+- reopen an `A.21` gate decision, `A.20` constraint-validity witness, `A.2.9` speech act, `A.2.8` commitment, `A.10` evidence relation, or `B.3` assurance claim when the L/A/D/E-classified statement is being used beyond boundary wording;
 - downgrade the visible wording to cue use or source-finding only when the exact source is missing;
 - keep the work claim or reliance claim local, reversible, or blocked only for the unsupported work claim or reliance claim while the source is repaired.
 
@@ -314,7 +320,7 @@ Action outputs after classification:
 
 > **Informative example.** Example rewrite (guarantee + SLA + measurement + enforcement):
 >
-> *Before (mixed, contract soup):* “The service **guarantees** 99.9% availability per calendar month and **MUST** keep p95 latency under 200ms; breaches are penalized; operators **SHALL** alert on violations.”
+> *Before (mixed contract prose):* “The service **guarantees** 99.9% availability per calendar month and **MUST** keep p95 latency under 200ms; breaches are penalized; operators **SHALL** alert on violations.”
 >
 > *After (classifiable + adjudicable):*
 > * `D-SLA-1` (Quadrant D, Commitments and SLA): “Provider **SHALL** meet `E-SLA-AVAIL-1` and `E-SLA-LAT-1` under the stated exclusions.”
@@ -339,12 +345,12 @@ These examples are informative. They show how to keep mixed authority prose from
 
 Then:
 - if a user is deciding whether the wording may guide action, enter `A.15`;
-- if evidence, currentness, or provenance is live, attach the `A.10` path;
+- if evidence, currentness, or provenance is live, attach the `A.10` evidence relation;
 - if trust, readiness, compliance, or release confidence is being raised, build the `B.3` assurance tuple;
 - if an actual gate decision or gate passage is asserted, cite `A.21` `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`;
 - if a flow witness or constraint witness is asserted, cite `A.20` `ConstraintValidity` status or witness;
-- if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier path;
-- if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the kind under repair.
+- if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier relation;
+- if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the current kind.
 
 Policy-as-code, dynamic authorization, credential, register-backed status, provenance, attestation, and assurance practices support complementary parts of this split: policy engines support bounded authorization decisions; credentials support issuer, holder, verifier, and status claims; governing registers or status-source entries may carry role effects, status effects, permission, duty, or gate-state effects only when the bounded context gives that source such force; provenance and attestation support bounded origin or process claims; assurance practice supports claim-argument-evidence confidence claims. None of them lets wording, a displayed credential, a register excerpt, a provenance label, or a schema cue stand in for the subject named by value, requested policy operation or work class, affected resource or work target, context, policy or gate version, evidence refs, validity or revocation window, gate decision, or work occurrence needed for work use or reliance use.
 
@@ -365,7 +371,7 @@ When practitioners say “the API contract”, they usually compress multiple di
 
 * **Promise content (promise content; `U.PromiseContent`, A.2.3):** what is promised to be made available to eligible consumers — **a promise, not execution** (`U.Work`).
 * **Utterance package (published descriptions + instituting act):** what is said and published and versioned (signature or mechanism descriptions plus MVPK faces), plus the `U.SpeechAct <: U.Work` that published or approved it when provenance matters (A.2.9).
-* **Commitment (deontic binding; `U.Commitment`, A.2.8):** what an accountable role assignment, `U.Role`, or admitted acting system is obligated, permitted, or prohibited to do (often: to satisfy a promise content).
+* **Commitment (deontic commitment relation; `U.Commitment`, A.2.8):** what an accountable role assignment, `U.Role`, or admitted acting system is obligated, permitted, or prohibited to do (often: to satisfy a promise content).
 * **Work + Evidence (adjudication substrate; `U.Work` + carriers):** what actually happens and what carriers and traces can adjudicate whether commitments and operational guarantees were met.
 
 In A.6 terms:
@@ -478,7 +484,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 This episteme is a boundary because it mediates between theory (“metric definitions”) and work (“a run produced a report”). The signature stack provides the stable interface for that mediation.
 
-### A.6:6 - Bias‑Annotation
+### A.6:6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
 
@@ -491,7 +497,7 @@ Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did
 | ID                                       | Requirement                                                                                                                                                                                                                                                                                    | Purpose                                                             |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | **CC‑A.6.1 (Stack declaration).**        | A conforming boundary description **SHALL** identify its stack layers (Signature, Mechanism, realization and work evidence, Publication faces) and state which boundary publication forms or sections belong to which layer.                                                                                                    | Prevents “one doc contains everything” ambiguity.                   |
-| **CC‑A.6.2 (Square discipline).**        | A conforming boundary description **SHALL** conform to **A.6.B** (Boundary Norm Square), including atomicity, quadrant classification, and explicit cross‑quadrant references by claim ID.                                                                                                           | Makes the stack operational; prevents “contract soup” drift. |
+| **CC‑A.6.2 (Square discipline).**        | A conforming boundary description **SHALL** conform to **A.6.B** (Boundary Norm Square), including atomicity, quadrant classification, and explicit cross‑quadrant references by claim ID.                                                                                                           | Makes the stack operational; prevents claim-kind mixing in contract prose. |
 | **CC‑A.6.5 (A.7 separation).**           | A conforming boundary description **SHALL** respect EntityOfConcern and Description-episteme and publication-carrier separation; statements about logs or metrics **SHALL** be written as carrier-referenced evidence claims or policies, not as properties of the text itself. | Prevents category errors and improves auditability.                 |
 | **CC‑A.6.6 (Viewpoint accountability).** | Every published MVPK face (`U.View`) **SHALL** specify `viewRef` and `viewpointRef`. Faces **SHALL** be projections of the boundary’s canonical L/A/D/E-classified claim set (A.6.B); normative content on faces **MUST** be expressed as citations to L/A/D/E claim IDs (not re‑stated prose), and faces **MUST NOT** introduce new semantic commitments beyond the underlying signature or mechanism description (per **E.17** “no new semantics”). | Preserves viewpoint discipline and prevents view‑forking.    |
 | **CC‑A.6.6a (MVPK face‑kind discipline).**  | A publication that claims MVPK alignment **MUST** conform to **E.17 and publication-face or publication-form discipline** face‑kind closure (i.e., use only `{PlainView, TechCard, InteropCard, AssuranceLane}` and **MUST NOT** mint additional face kinds). Local “cards” may exist only as headings or sections inside those face kinds. | Aligns with MVPK and publication-face or publication-form discipline; prevents new‑face drift.            |
@@ -499,7 +505,7 @@ Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did
 | **CC‑A.6.8 (Causal/deontic split).**     | A boundary description that mixes causal support with duty, promise, commitment, release, or admissibility language SHALL split the sentence into atomic claims: causal-use support to `C.28`, deontic and boundary-gate claims to `A.6.B`, and contract, promise, and utterance unpacking to `A.6.C`. A `CausalUseSupportVerdict` does not by itself create a duty, commitment, promise, release gate, or boundary admissibility predicate. | Prevents causal evidence from being recast as boundary authority or deontic obligation. |
 | **CC-A.6.9 (Authority-wording split).** | A conforming boundary description SHALL split boundary, policy, API, schema, connector, or compliance prose using "approved", "allowed", "authorized", "guaranteed", "certified", "recommended", or equivalent wording into atomic `L-*`, `A-*`, `D-*`, and `E-*` claims before work use or reliance use. Any evidence, assurance, role effect, status effect, gate use, release use, commitment, speech-act, or work-occurrence use beyond the L/A/D/E-classified wording SHALL cite the exact `governingPatternRef` or `authoritySourceRef` rather than the wording itself. | Prevents boundary wording from becoming authority, evidence, assurance, gate passage, or work by slogan. |
 
-### A.6:8 - Common Anti‑Patterns and How to Avoid Them
+### A.6:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -535,7 +541,7 @@ If these are mixed, evolution becomes impossible to reason about: every change b
 
 The stack creates a default **direction of dependence**: higher layers constrain lower layers, not vice versa. The matrix creates a default **classification** that is not reliant on word choice alone and therefore survives natural‑language variation (“must”, “guarantee”, “valid”, “allowed”).
 
-### A.6:11 - SoTA‑Echoing (post‑2015 practice alignment)
+### A.6:11 - SoTA-Echoing (post-2015 practice alignment)
 
 > **Informative.** Alignment notes; not normative requirements.
 
@@ -554,7 +560,7 @@ The stack creates a default **direction of dependence**: higher layers constrain
 * **Adapt — Zero Trust, dynamic authorization, and policy-as-code practice.** Current authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice references for this split: the wording is not the decision. A.6 keeps policy, API, or schema wording in classified `L-*`, `A-*`, `D-*`, and `E-*` claims and returns work use or reliance use to `A.15` rather than letting "allowed" or "authorized" wording decide by itself.
 * **Adopt, adapt, and reject stance for authority-looking boundary wording.** A.6 adopts policy-as-code separation of policy text from evaluated decision, adapts credential, register-backed status, provenance, and attestation practice as source, evidence, and currentness support rather than as the `L/A/D/E` split itself, and rejects visible wording, schema cues, credential displays, register excerpts, or provenance labels as permission, gate passage, work occurrence, evidence, or assurance by themselves.
 
-* **Adapt — Markov blankets / active inference as probabilistic boundary views.** Markov‑blanket thinking can help pick observables and diagnose “boundary leaks”, but it does not replace deontics, invariants, or admissibility gates; therefore it is a complementary *view* under a viewpoint, not the primary boundary-description object.
+* **Adapt — Markov blankets and active inference as probabilistic boundary views only after restoration.** Markov-blanket thinking can help pick observables and diagnose boundary-condition failures, but the source phrase must be restored before it carries an A.6 boundary claim. It may name accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or crossing relation, an interface, an interface module, a physical component, a boundary description, or an agency-threshold claim. A.6 uses the phrase only after the boundary claim set is recovered; it does not replace deontics, invariants, admissibility gates, or the direct owner of the physical or mathematical claim.
 
 ### A.6:12 - Relations
 

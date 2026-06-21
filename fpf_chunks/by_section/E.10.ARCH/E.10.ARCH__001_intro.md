@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 60724
-line_end: 60740
+line_start: 63216
+line_end: 63242
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,6 +73,16 @@ keywords:
 Keep FPF wording-use precision restoration distributed without letting every pattern of concern or subject pattern grow its own first-stage wording-recognition table. `E.10` recognizes overloaded wording use; `E.10.ARCH` says which applicability rows exist, how one row selects the first applicable restoration or governing pattern, and when repeated repair-only prose should be extracted from a subject pattern.
 
 `E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover what kind of thing is being talked about, which adjacent EntityOfConcern values, relation records, claim records, current ontic slots, relation positions, use relations, claim kinds, and FPF kinds named by value or references are admissibly involved, which relation, source-use disposition, or state-family value is current, and, when plain ontology is not enough, which mathematical lens under `C.29` or which pattern-defined formal apparatus makes the candidate structure checkable. The output returns to wording only after that kind, position, and use structure is recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
+
+**Use this pattern when** a recurring wording-use problem hides stable ontological recovery work that should be shared instead of copied into each subject pattern.
+
+**What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.
+
+**What this pattern buys.** One distribution architecture keeps recognition in `E.10`, recovery architecture in `E.10.ARCH`, and object-specific ontology in the direct governing or realization pattern.
+
+**Rationale.** Precision restoration needs an ontology-first distribution rule because a recurring trigger word may hide different kinds, slots, relations, claims, publications, or mathematical lenses in different places.
+
+**SoTA-Echoing.** The pattern follows FPF's current ontology-first restoration practice: typed object recovery, direct governing-pattern use when available, and thin pointers in subject patterns instead of repeated repair doctrine.
 
 **Builds on.** `E.10`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, `E.24`, `E.24.CD`, `E.24.PUB`, `F.18`, `E.8`, `E.19`, and `E.2`.
 

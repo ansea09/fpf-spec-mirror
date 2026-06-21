@@ -6,12 +6,12 @@ section_id: "C.2.2a:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:intro — Intro"
-line_start: 36619
-line_end: 36632
+line_start: 37902
+line_end: 37921
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,4 +52,10 @@ keywords:
 
 **Used by.**
 `C.2.LS`, `C.2.3`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `F.9.1`, `A.6.P`, `C.16.Q`, `A.6.A`.
+
+**Use this pattern when.** Use C.2.2a when a governed `U.Episteme` publication needs a language-state position before an endpoint pattern can honestly govern it.
+
+**What goes wrong if missed.** Teams flatten articulation, closure, anchoring, representation factors, route-bearing publication forms, faces, and carriers into one vague maturity label such as `early`, `ready`, or `settled`.
+
+**What this buys.** A slot-explicit chart position for the episteme publication, with threshold notes and role-lane distinctions kept visible before routing, prompt entry, bridge comparison, or endpoint use.
 

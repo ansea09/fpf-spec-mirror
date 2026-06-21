@@ -6,12 +6,12 @@ section_id: "A.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1 — Problem Frame"
-line_start: 19700
-line_end: 19705
+line_start: 20047
+line_end: 20052
 dependencies:
   - "A.8"
   - "C.3"
@@ -32,5 +32,5 @@ keywords:
 
 FPF needs enough primitives to be useful, but every new primitive creates learning cost, bridge cost, and future repair cost. Ontological parsimony is not anti-growth. It is the rule that FPF adds a new kind only when composition, reuse, dependent-value settlement, and direct governing patterns cannot express the action-facing claim without material loss.
 
-When source or draft wording proposes a candidate durable value with kind force, treat that as U-kind admission pressure. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
+When source or draft wording proposes a candidate durable value in `U.*` form, treat that as an admission claim. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
 

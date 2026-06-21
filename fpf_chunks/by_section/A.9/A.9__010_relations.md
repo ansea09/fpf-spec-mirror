@@ -6,12 +6,12 @@ section_id: "A.9:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__010_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:9 — Relations"
-line_start: 19259
-line_end: 19268
+line_start: 19581
+line_end: 19590
 dependencies:
   - "A.1"
   - "A.8"
@@ -32,6 +32,6 @@ keywords:
 | **Builds on**      | A 1 Holonic Foundation               | Supplies part/whole semantics.                            |
 | **Reinforces**     | A 7 Strict Distinction               | Prevents layer‑mixing during folds.                       |
 | **Enabled by**     | A 8 Universal Core                   | Guarantees operands share truly universal meaning.        |
-| **Foundation for** | B 1 Universal Algebra of Aggregation | B‑section implements operators that satisfy this pattern. |
+| **Foundation for** | B.1 Holon Aggregation and Part-Whole Construction | B-section part-whole construction uses this universal-core discipline. |
 | **Triggers**       | B 2 Meta‑Holon Transition            | When invariants fail through synergy, an MHT is invoked.  |
 

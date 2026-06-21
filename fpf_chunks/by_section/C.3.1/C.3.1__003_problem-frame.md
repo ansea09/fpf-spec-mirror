@@ -6,12 +6,12 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:1 — Problem Frame"
-line_start: 38557
-line_end: 38560
+line_start: 39935
+line_end: 39938
 dependencies:
   - "A.1"
   - "A.11"
@@ -33,5 +33,5 @@ keywords:
 
 ### C.3.1:1 - Problem Frame
 
-C.3.1 gives FPF a small object for typed reasoning without importing a full ontology stack. `U.Kind` names a kind of thing in one context. `U.SubkindOf` orders such kinds. This is different from durable FPF U-kind admission. A C.3 `U.Kind` can later become part of a U-kind admission question, but it is not admitted merely by being a `U.Kind`.
+C.3.1 gives FPF a small object for typed reasoning without importing a full ontology stack. `U.Kind` names a kind of thing in one context. `U.SubkindOf` orders such kinds. This is different from durable FPF U-kind admission. A C.3 `U.Kind` can become part of a U-kind admission question, but it is not admitted merely by being a `U.Kind`.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 37713
-line_end: 37728
+line_start: 39020
+line_end: 39035
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ To assign `CD`, ask:
 - what would count as an admissible reopen trigger?
 
 #### C.2.5:14.2 - Review prompt
-A reviewer should ask whether closure is being inferred from tone, from hierarchy, or from social pressure rather than from an explicit narrowing of route or frame space.
+An assurance reader should ask whether closure is being inferred from tone, from hierarchy, or from social force rather than from an explicit narrowing of route or frame space.
 
 #### C.2.5:14.3 - Governance note
 Whenever `CD` substantively affects gates, commitments, or late endpoint authority, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.

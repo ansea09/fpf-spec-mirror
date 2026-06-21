@@ -6,12 +6,12 @@ section_id: "A.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:1 — Problem frame"
-line_start: 7920
-line_end: 7941
+line_start: 8094
+line_end: 8115
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,7 +78,7 @@ Boundaries are where architecture lives: at the edge of a theory, an API, a prot
 * Multi‑view publication discipline via `U.MultiViewDescribing` (views + viewpoints).
 * Strict separation of **EntityOfConcern vs Description episteme vs publication carrier** so we do not accidentally attribute agency or work to an episteme, or treat a file as the entity, claim, work, evidence, or decision.
 
-Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one “contract soup”. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier and evidence story.
+Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one undifferentiated contract paragraph. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier and evidence story.
 
 This cluster overview makes one disciplined move:
 

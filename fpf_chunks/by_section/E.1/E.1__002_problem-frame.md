@@ -6,12 +6,12 @@ section_id: "E.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:1 — Problem frame"
-line_start: 56407
-line_end: 56409
+line_start: 58830
+line_end: 58832
 dependencies:
   - "E.2"
 keywords:

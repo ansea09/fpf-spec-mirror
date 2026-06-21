@@ -6,12 +6,12 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 40870
-line_end: 40882
+line_start: 42305
+line_end: 42318
 dependencies:
   - "A.14"
   - "B.3.5"
@@ -27,6 +27,7 @@ keywords:
 
 ## C.13 — Constructional Mereology (Compose‑CAL)
 > **Status:** Stable
+> **Type:** Pattern
 
 **At a glance.** Use C.13 when a structural identity claim needs a constructive trace showing how a whole, collection-as-whole, or aspect is obtained from parts.
 

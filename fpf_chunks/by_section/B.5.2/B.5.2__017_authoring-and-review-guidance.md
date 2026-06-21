@@ -6,12 +6,12 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 34131
-line_end: 34159
+line_start: 35397
+line_end: 35425
 dependencies:
   - "A.10"
   - "A.16"
@@ -31,7 +31,7 @@ keywords:
 
 ### B.5.2:16 - Authoring and Review Guidance
 
-#### B.5.2:16.1 - For authors
+#### B.5.2:16.1 - For abductive-publication authors
 
 Authors should treat the abductive loop as a **selection discipline**, not as a prose genre. The minimal questions are:
 
@@ -42,14 +42,14 @@ Authors should treat the abductive loop as a **selection discipline**, not as a 
 
 If those answers cannot be given, the publication is probably not yet at `B.5.2` and should return to prompt-shaping or lexical repair.
 
-#### B.5.2:16.2 - For reviewers
+#### B.5.2:16.2 - For hypothesis reviewers
 
-Reviewers should not ask only whether the chosen hypothesis looks plausible. They should also ask:
+Hypothesis reviewers should not ask only whether the chosen hypothesis looks plausible. They should also ask:
 
 - whether the prompt was typed in an admissible way,
 - whether at least one real rival was preserved,
 - whether the filters named at selection time actually discriminate among candidates,
-- whether the selected hypothesis has a credible downstream path,
+- whether the selected hypothesis has a credible downstream test, deduction, or evidence-acquisition relation,
 - and whether any scope inflation occurred during selection.
 
 A polished hypothesis with no visible rivals is usually less trustworthy than a rougher hypothesis whose rival space is explicit.

@@ -6,12 +6,12 @@ section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:12 — Relations"
-line_start: 27495
-line_end: 27517
+line_start: 28136
+line_end: 28158
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -30,7 +30,7 @@ keywords:
   * `A.6.1` / `CC‑UM.*` (mechanism intension shape and authoring checks).
   * `A.19.CHR:4.2.1` (CHR SlotKind lexicon).
   * `G.0` (CG‑Spec, specifically `SCP` and `MinimalEvidence`).
-  * `A.18` (CSLC legality discipline).
+  * `A.18` (CSLC lawfulness discipline).
   * `C.16` (ScoringMethod disclosure; polarity/monotonicity discipline for score mappings).
   * `A.15.3` + `A.19.CHR:4.7.2` (P2W planned baseline seam for edition/policy pin bindings; cited as seam, not duplicated in Intension).
   * `A.19.CN` (CN‑Spec, specifically `comparability` routing and normalization‑based comparability expectations).

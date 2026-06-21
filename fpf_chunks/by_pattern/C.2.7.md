@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 37966
-line_end: 38134
+line_start: 39279
+line_end: 39453
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,6 +39,12 @@ keywords:
 
 **Plain-name.** Language-state representation-factor bundle.
 
+**Use this pattern when.** Use C.2.7 when a governed `U.Episteme` publication needs to describe how its representation is organized through locality/distribution, sparsity/density, symbolicity/subsymbolicity, or an explicit local factor bundle.
+
+**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, anchoring, bridge loss, or comparison assumptions.
+
+**What this buys.** A factor-bundle account of representation that keeps representation organization separate from anchoring, articulation, closure, evidence, carrier, and admissible-use claims.
+
 ### C.2.7:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` must distinguish representation factors such as locality, sparsity, and symbolicity without pretending they form one master factor.
 
@@ -61,9 +67,9 @@ Terms such as `EncodingBasis` collapse several independent choices. That makes c
 
 A Context may publish a local alias such as `EncodingBasis`, but it shall dock back to the underlying factor bundle instead of replacing it.
 
-#### C.2.7:4.0a - E.24.UK settlement
+#### C.2.7:4.0a - Kind and factor-bundle boundary
 
-`U.LanguageStateRepresentationFactorBundle` is retained as a dependent durable factor-bundle value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the bundle of representation factors used for governed episteme publication positions. Individual factors, aliases, dashboards, model probes, or publication forms do not become separate U-kinds unless another governing pattern admits them.
+`U.LanguageStateRepresentationFactorBundle` is a dependent durable factor-bundle value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the bundle of representation factors used for governed episteme publication positions. Individual factors, aliases, dashboards, model probes, or publication forms do not become separate U-kinds unless another governing pattern admits them.
 
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
@@ -142,10 +148,10 @@ To publish a representation-factor bundle, ask separately:
 - which additional factor, if any, genuinely matters enough to publish?
 
 #### C.2.7:14.2 - Review prompt
-A reviewer should reject any attempt to use one factor as if it summarized the rest. The factor bundle exists precisely to block that reduction.
+An assurance reader should reject any attempt to use one factor as if it summarized the rest. The factor bundle exists precisely to block that reduction.
 
 #### C.2.7:14.3 - Cross-facet reminder
-Reviewers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
+Assurance readers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
 
 ### C.2.7:15 - Extension and Migration Notes
 
@@ -182,7 +188,7 @@ If a representation shift matters in transport across contexts, note that the sh
 ### C.2.7:18 - Review Matrix and Extension Tests
 
 #### C.2.7:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - are all claimed factors visible in the publication or cited source;
 - does any alias hide the factor bundle;
@@ -192,8 +198,8 @@ A reviewer should ask:
 #### C.2.7:18.2 - Local extension test
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
 
-#### C.2.7:18.3 - Migration test for legacy terminology
-Legacy vocabularies often use "symbolic", "distributed", or "encoding basis" as if one term solved the whole classification problem. A conforming migration unpacks the term into explicit factor dockings and then checks whether any cross-facet claims were smuggled into the old label.
+#### C.2.7:18.3 - Migration test for source terminology
+Source vocabularies often use "symbolic", "distributed", or "encoding basis" as if one term solved the whole classification problem. A conforming migration unpacks the term into explicit factor dockings and then checks whether any cross-facet claims were smuggled into the source label.
 
 #### C.2.7:18.4 - Bundle-comparison reminder
 Representation bundles may be compared across contexts only after the compared factors are explicit. If one context uses a compact local alias and another publishes the full factor bundle, require explicit docking before treating the two descriptions as commensurable.

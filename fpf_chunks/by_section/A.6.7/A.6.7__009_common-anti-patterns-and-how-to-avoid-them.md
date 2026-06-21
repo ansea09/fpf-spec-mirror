@@ -6,12 +6,12 @@ section_id: "A.6.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16840
-line_end: 16861
+line_start: 17110
+line_end: 17131
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -45,9 +45,9 @@ keywords:
    Naming/using the suite as a `Pack`.
    **Fix:** reserve `Pack` for publication/shipping bundling; use `Suite` for mechanism bundles.
 
-3. **Anti-pattern: “Suite contains legality tables”.**
+3. **Anti-pattern: “Suite contains admissibility tables”.**
    Duplicating CG‑Spec or embedding CL/Φ/Ψ tables in suite obligations.
-   **Fix:** publish pins and references only; keep legality content in `…Spec` and policy registries; keep crossing realization in E.18/gate surfaces.
+   **Fix:** publish pins and references only; keep admissibility content in `...Spec` and policy registries; keep crossing realization in E.18/gate surfaces.
 
 4. **Anti-pattern: “Suite is a hidden gate”.**
    Introducing thresholds, `block`, or `DecisionLog` in the suite.

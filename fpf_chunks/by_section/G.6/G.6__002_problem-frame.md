@@ -6,12 +6,12 @@ section_id: "G.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:1 — Problem Frame"
-line_start: 81390
-line_end: 81411
+line_start: 84150
+line_end: 84171
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,8 +66,8 @@ Use it when the working question is:
 * which evidence-use relations, source records, work occurrences, method descriptions, proof checks, measurements, status-use relations, or causal-use references make the claim traceable;
 * that the evidence relation is a graph path in a declared provenance graph, while actual work and transformation-flow claims remain governed by `A.15.1` and `E.18`;
 * which time window, bounded context, reference plane, bridge, edition, policy, or source-currentness relation changes the admissible use;
-* which downstream selector record, assurance record, release package, benchmark record, audit record, or refresh record may cite the evidence path without copying the whole evidence table;
-* what stronger downstream use is not carried by the evidence path and which direct pattern governs that use.
+* which downstream selector record, assurance record, release package, benchmark record, audit record, or refresh record may cite the evidence-provenance path without copying the whole evidence table;
+* what stronger downstream use is not carried by the evidence-provenance path and which direct pattern governs that use.
 
 **Primary EntityOfConcern.** The primary `EntityOfConcern` is addressable evidence provenance: an `EvidenceGraph`, its graph-path addresses `PathId` and `PathSliceId`, and the provenance ledger entries that make those paths replayable. The pattern governs addressable provenance. It does not create `U.EvidenceRole`, does not make an episteme hold a work-facing role, and does not replace `A.10`, `A.2.4`, `B.3`, `C.28`, or `F.10`.
 
@@ -75,7 +75,7 @@ Use it when the working question is:
 
 **What goes wrong if missed.** Evidence is summarized as a story, badge, confidence phrase, benchmark score, proof label, or dashboard tile; downstream users cannot find which sources and checks carried the claim; context crossings are hidden; refresh becomes a global rerun instead of a local path update.
 
-**What this buys.** A selector, auditor, assurance user, benchmark consumer, or refresh process can cite one stable path and later replay exactly the sources, relations, windows, and constraints that made the claim admissible.
+**What this buys.** A selector, auditor, assurance user, benchmark consumer, or refresh record can cite one stable path and later replay exactly the sources, relations, windows, and constraints that made the claim admissible.
 
 **Not this pattern when.** If only one episteme is being used as evidence or status before a full path is needed, use `A.2.4`. If the current question is ordinary evidence relation and source-currentness without Part-G path addressing, use `A.10`. If the claim is assurance, use `B.3`. If the claim is causal use, use `C.28`. If the question is status-family mapping, use `F.10`. If the question is publication, view, source-use, explanation-use, or specification-use, use `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, or `E.10.D2`. If the question is performed work, use `A.15.1`.
 

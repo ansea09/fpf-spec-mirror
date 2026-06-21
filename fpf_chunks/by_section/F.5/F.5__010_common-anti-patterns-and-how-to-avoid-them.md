@@ -6,12 +6,12 @@ section_id: "F.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 73054
-line_end: 73067
+line_start: 75743
+line_end: 75756
 dependencies:
   - "A.15"
   - "A.2"

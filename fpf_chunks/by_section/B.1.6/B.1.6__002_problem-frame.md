@@ -1,45 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.6"
-pattern_title: "Γ\\_work — Work as Spent Resource"
+pattern_title: "Work-Resource Aggregation"
 section_id: "B.1.6:1"
-section_title: "Problem frame"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.6 — Γ\\_work — Work as Spent Resource"
-  - "B.1.6:1 — Problem frame"
-line_start: 31197
-line_end: 31209
+  - "B.1.6 — Work-Resource Aggregation"
+  - "B.1.6:1 — Problem Frame"
+line_start: 31828
+line_end: 31833
 dependencies:
-  - "A.12"
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "B.1"
-  - "B.1.2"
   - "B.1.4"
-  - "B.1.5"
-  - "C.5"
+  - "B.2"
+  - "B.2-family"
+  - "B.2.P"
+  - "C.13"
+  - "C.16"
+  - "C.27"
+  - "C.29"
+  - "E.17"
 keywords:
-  - "Resrc-CAL"
-  - "cost"
-  - "energy consumption"
-  - "resource aggregation"
-  - "work"
 ---
 
-### B.1.6:1 - Problem frame
+### B.1.6:1 - Problem Frame
 
-FPF distinguishes **what is done** from **what it costs** to do it.
+Practitioners need to roll up work-resource claims across runs, phases, teams, devices, stations, model-training epochs, or evidence-production episodes. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed work.
 
-* **Method, MethodDescription, and design-time process:**
-  A **Method** is the abstract **way‑of‑doing** inside a bounded context (A.15). A **MethodDescription** is a design‑time `U.Episteme` that describes a Method (SOP, algorithm, proof, simulator configuration, etc.).
-  A **Process** is a *view* that represents a MethodDescription as an ordered/partially‑ordered composition (steps, branches, synchronization). In Cluster B, that ordering/coordination is handled by **Γ\_method** (B.1.5). **Not every MethodDescription admits a step decomposition**; Γ\_method applies only when a step/process view is chosen.
-
-* **Work (run‑time; this pattern focuses on the resource facet):**
-  **Work** is the dated run‑time **occurrence** of enacting a MethodDescription by a performer under a `U.RoleAssignment` (A.15). In this pattern we treat Work under its **spent‑resource facet**: the typed delta we can account for across a declared boundary and time window. Γ\_work defines how those deltas compose across parts and phases.
-
-This separation makes models auditable and prevents category errors: **Γ\_method** composes *design‑time coordination* (a process view); **Γ\_work** composes *run‑time Work ledgers* (and never smuggles order semantics).
+`B.1.6` governs the work-resource aggregation claim. It keeps dated work occurrence, method, method description, work plan, resource ledger, holon delimitation, transformation, evidence, and whole reidentification in their own owners.
 

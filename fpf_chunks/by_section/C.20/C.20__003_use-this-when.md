@@ -6,12 +6,12 @@ section_id: "C.20:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__003_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:0 — Use This When"
-line_start: 43911
-line_end: 43920
+line_start: 45453
+line_end: 45466
 dependencies:
   - "A.19"
   - "C.2"
@@ -38,6 +38,10 @@ keywords:
 ### C.20:0 - Use This When
 
 Use this pattern when a project must treat a discipline as a durable field-level object, not as a loose domain label or a list of documents. Typical cases include comparing safety engineering traditions, moving a practice across bounded contexts, judging whether a method family belongs to a field, or keeping a discipline edition stable while its canon and standards change.
+
+**What goes wrong if missed.** A field name starts doing the work of canon, practice, institutional carrier, bridge, and comparison governance at once; cross-context reuse then looks valid while meanings, evidence lanes, and comparison rules have already drifted.
+
+**What this buys.** The discipline name becomes a reviewable holon with named composition positions, bridges, and comparison rules, so users can compare, transport, steward, or edition a field without turning it into a document list or a domain label.
 
 **Primary EntityOfConcern.** The EntityOfConcern is `U.Discipline`: a field-level practice-and-knowledge holon composed by canon epistemes, accepted practices and standards, organizational carriers, bridges, and comparison governance.
 

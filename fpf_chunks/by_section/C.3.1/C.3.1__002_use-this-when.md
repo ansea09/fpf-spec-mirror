@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 38544
-line_end: 38556
+line_start: 39918
+line_end: 39934
 dependencies:
   - "A.1"
   - "A.11"
@@ -34,6 +34,10 @@ keywords:
 ### C.3.1:0 - Use This When
 
 Use this pattern when a context needs a minimal kind value and subkind order for typed claim reasoning.
+
+**What goes wrong if missed.** A local kind order is confused with durable FPF U-kind governance: subkind links start standing in for construction, ontic admission, naming, scope, or dependency relations.
+
+**What this buys.** The user gets a small, inspectable typed-reasoning core: `U.Kind` values stay context-local, `U.SubkindOf` remains a partial order, and durable U-kind admission stays with `E.24.UK`.
 
 Typical moments:
 

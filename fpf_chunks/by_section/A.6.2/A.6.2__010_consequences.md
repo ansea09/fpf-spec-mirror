@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:9 — Consequences"
-line_start: 10871
-line_end: 10887
+line_start: 11053
+line_end: 11069
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -47,5 +47,5 @@ keywords:
   By formulating EFEM laws in terms of SlotKinds/ValueKinds/RefKinds (A.6.5) and the EpistemeSlotRelation (C.2.1), it becomes much harder for Episteme to confuse “EntityOfConcern”, “slot in a relation”, and “reference to that entity”.
 
 * **Better didactics.**
-  The old “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotRelation: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, referent), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
+  The traditional “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotRelation: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, referent), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
 

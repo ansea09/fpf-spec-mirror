@@ -6,12 +6,12 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:4 — Solution"
-line_start: 2277
-line_end: 2425
+line_start: 2339
+line_end: 2487
 dependencies:
   - "A.15"
   - "A.2"
@@ -129,7 +129,7 @@ A `U.Work` record may cite `performedBy = some U.RoleAssignment`. That citation 
 
 #### A.2.1:4.6 - RoleEnactmentFact
 
-Older FPF text used `U.RoleEnactment`. Current FPF treats role enactment as a derived relation or fact over `U.Work` and `U.RoleAssignment`, not as a durable U-kind.
+Source text may name `U.RoleEnactment` or `RoleEnactment`. In FPF, role enactment is a derived relation or fact over `U.Work` and `U.RoleAssignment`, not a durable U-kind.
 
 Use this named fact only when a named relation is clearer than direct `performedBy` wording:
 

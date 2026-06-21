@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.9.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
-line_start: 5466
-line_end: 5779
+line_start: 5622
+line_end: 5940
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,14 +35,19 @@ keywords:
 ## A.2.9 — `U.SpeechAct` (Communicative Work Object)
 
 > **Status:** Stable
+> **Type:** Definitional work-ontic pattern
 
-### E.24.UK settlement
+### A.2.9:0.1 - Kind Settlement
 
-This structural `U.*` title is retained by E.24.UK as a dependent durable communicative-work value under U.Work; a speech act is work with communicative effect, not the utterance description, carrier, commitment, or evidence record.
+`U.SpeechAct` is a dependent durable communicative-work value under `U.Work`; a speech act is work with communicative effect, not the utterance description, carrier, commitment, or evidence record.
 
 ### A.2.9:0 - Use This When
 
 Use this pattern when a communicative event must be modeled as performed work: an approval, authorization, revocation, notice, declaration, publication, or similar act whose occurrence changes what a project can claim or do.
+
+**What goes wrong if missed.** A document, interface, ticket, message, or log is treated as if it performed the act; approval, utterance content, evidence carrier, commitment, and performed work collapse into one governance phrase.
+
+**What this buys.** Communicative acts become inspectable `U.Work` occurrences with performer, context, time window, affected referents, and evidence links while utterance descriptions and carriers stay separate.
 
 Typical moments:
 
@@ -322,7 +327,7 @@ This also improves modularity:
 * **F.18** can remain a **lexical entry point** for naming (why “SpeechAct” and “utterance” are useful labels),
 * while **A.2.9** carries the ontology and conformance discipline for how speech acts behave as objects and how they connect to commitments and evidence.
 
-### A.2.9:11 — SoTA‑Echoing (informative; post‑2015 alignment)
+### A.2.9:11 — SoTA-Echoing (informative; post-2015 alignment)
 
 > **Informative.** Alignment notes; not normative requirements.
 

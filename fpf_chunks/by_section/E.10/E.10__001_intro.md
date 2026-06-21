@@ -6,23 +6,28 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:intro — Intro"
-line_start: 59063
-line_end: 59071
+line_start: 61486
+line_end: 61495
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -33,6 +38,7 @@ keywords:
 ---
 
 ## E.10 - Unified Lexical Rules for FPF
+> **Type:** Part E lexical-governance pattern
 > **Status:** Stable
 *Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.*
 

@@ -6,12 +6,12 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__008_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:4 — Solution"
-line_start: 5207
-line_end: 5339
+line_start: 5363
+line_end: 5495
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -74,7 +74,7 @@ U.Commitment ::=
     referents: set<ReferentRef>,        // what is being bound (by reference, not paraphrase)
     adjudication: optional<AdjudicationHooks>, // evidence hooks if auditable
     source: optional<CommitmentSource>, // what instituted/authorized it (issuer + instituting act + utterance description), when provenance matters
-    notes: optional<InformativeText>    // explicitly informative; not part of the binding
+    notes: optional<InformativeText>    // explicitly informative; not part of the commitment relation
   }
 
 CommitmentSubject ::=

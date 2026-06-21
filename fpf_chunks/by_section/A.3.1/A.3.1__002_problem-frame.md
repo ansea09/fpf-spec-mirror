@@ -6,12 +6,12 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:1 — Problem frame"
-line_start: 5996
-line_end: 6017
+line_start: 6157
+line_end: 6178
 dependencies:
   - "A.1"
   - "A.1.1"

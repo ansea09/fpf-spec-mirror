@@ -6,12 +6,12 @@ section_id: "G.3:End"
 section_title: "G.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__014_g-3-end.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:End — G.3:End"
-line_start: 80261
-line_end: 80262
+line_start: 83021
+line_end: 83022
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -42,7 +42,7 @@ dependencies:
 keywords:
   - "CHR Pack@CG-Frame"
   - "CHR authoring"
-  - "CSLC legality"
+  - "CSLC lawfulness"
   - "RSCRTriggerKindId"
   - "ReferencePlane"
   - "characteristics"

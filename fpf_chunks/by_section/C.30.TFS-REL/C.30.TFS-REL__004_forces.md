@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:3 — Forces"
-line_start: 54908
-line_end: 54918
+line_start: 56766
+line_end: 56776
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,6 +54,6 @@ keywords:
 | Functional view vs transformation-flow view | A functional structure view may need a transformation-flow relation, but a path, crossing, valuation, or mathematical description is not a functional element by itself. |
 | Structure precision vs work overread | E.18 gives selected structure, path, and flow-valuation objects; work occurrence and work results remain outside this relation unless their own pattern governs the claim being made. |
 | No-hidden-scalarization vs architecture scoring | E.18 set-return and no-hidden-scalarization discipline can inform architecture reasoning, but it does not become a general architecture score. |
-| Small relation vs unneeded non-architecture apparatus | A project often needs one relation record, not a full C.29 lens card, evidence path, assurance case, or decision record. |
+| Small relation vs unneeded non-architecture apparatus | A project often needs one relation record, not a full C.29 lens card, evidence relation, assurance case, or decision record. |
 | E.18 stability vs C.30 integration | An architecture claim, selected transformation-flow structure, architecture structural view, or conditional architecture-description use needs a relation to E.18 without rewriting E.18 as generic architecture adequacy theory. |
 

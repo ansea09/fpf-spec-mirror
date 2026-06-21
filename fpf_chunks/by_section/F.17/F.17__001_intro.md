@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:intro — Intro"
-line_start: 77151
-line_end: 77159
+line_start: 79876
+line_end: 79889
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,11 +50,16 @@ keywords:
 ---
 
 ## F.17 - Unified Term Sheet
+> **Type:** Pattern
 > **Status:** Stable
 
 Use this when a term decision must become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and must be shown as one reviewed term row.
 
 First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed FPF kind or governed object kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying object. Then publish only the term-row facts that are already governed there.
+
+What goes wrong if missed: a public term sheet becomes a global glossary, a row turns into an ontology claim, a block name becomes a subtype, or a familiar label smuggles role, status, evidence, publication, or source authority into reuse.
+
+What this pattern buys: a compact reader-facing row that preserves the governed object, direct pattern, local senses, bridge, selected names, admissible use, blocked use, and currentness condition without redoing the whole unification argument.
 
 Do not use this pattern for one sentence repair, one private glossary note, one local synonym choice, or one attempt to make an object real by putting it into a table. Use `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the direct domain pattern first when the kind, relation, slot position, admissible use, or name-card decision is still unsettled.
 

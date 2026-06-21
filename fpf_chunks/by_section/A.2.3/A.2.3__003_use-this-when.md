@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__003_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0 — Use This When"
-line_start: 2858
-line_end: 2873
+line_start: 2921
+line_end: 2940
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -61,7 +61,11 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern is `U.PromiseContent`: a consumer-facing promise-content episteme that states promised outcome, access or eligibility, and acceptance criteria inside one bounded context.
 
-**First useful move.** Write the promise content as a clause: what outcome is promised, who may use it, how access is described when relevant, and how fulfilment will be judged from work evidence. Then use `U.Commitment` only when an accountable subject is bound to that content.
+**First useful move.** Write the promise content as a clause: what outcome is promised, who may use it, how access is described when relevant, and how fulfilment will be judged from work evidence. Then use `U.Commitment` only when an accountable subject is assigned to that content.
+
+**What goes wrong if missed.** The word "service" starts naming provider, API, method, ticket, work, department, and promise at once. Teams then judge work against an implicit promise, treat access systems as obligations, or count performed work without knowing which promised outcome it was meant to satisfy.
+
+**What this buys.** One consumer-facing promise-content episteme that can be linked to commitments, role assignments, access descriptions, work evidence, acceptance criteria, and outcome specs without collapsing those neighboring objects into one "service" bundle.
 
 **Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is the performed delivery work, use `A.15.1`; if it is the access point or delivery system, use system and architecture patterns plus A.6.8 service wording repair; if it is contract-bundle unpacking, use `A.6.C`.
 

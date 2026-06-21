@@ -6,12 +6,12 @@ section_id: "C.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:intro — Intro"
-line_start: 37966
-line_end: 37973
+line_start: 39279
+line_end: 39292
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,4 +39,10 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Language-state representation-factor bundle.
+
+**Use this pattern when.** Use C.2.7 when a governed `U.Episteme` publication needs to describe how its representation is organized through locality/distribution, sparsity/density, symbolicity/subsymbolicity, or an explicit local factor bundle.
+
+**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, anchoring, bridge loss, or comparison assumptions.
+
+**What this buys.** A factor-bundle account of representation that keeps representation organization separate from anchoring, articulation, closure, evidence, carrier, and admissible-use claims.
 

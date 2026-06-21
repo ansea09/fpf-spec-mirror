@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 13089
-line_end: 13914
+line_start: 13343
+line_end: 14170
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -65,6 +65,8 @@ keywords:
 RPR patterns turn “umbrella relations” into **kind‑explicit, slot‑explicit, qualified relation records** with an explicit **change-class lexicon** and **lexical guardrails**, while respecting the **A.6 Signature Stack** and **A.6.B Boundary Norm Square** separation.
 
 **Use this when.** Use `A.6.P` when wording hides a relation-bearing use: sameness, linkage, grounding, support, basedness, mapping, comparison, dependency, whole or part, service, cross-context bridge wording, endpoint compression, qualifier-carried claim, or another relation-bearing phrase that must be used for FPF guidance, publication, comparison, gating, assurance, decision, or reuse.
+
+**What goes wrong if missed.** An umbrella verb or noun starts acting like a relation ontology: endpoints, slot kinds, direction, scope, time, admissible use, and neighboring governing patterns disappear behind a familiar phrase.
 
 **What this buys.** The relation becomes reviewable: head kind, endpoints, slots, qualifiers, scope, time, viewpoint, admissible use, non-admissible overread, and relation record are made explicit enough for the neighboring FPF pattern governing that claim to compose with it.
 
@@ -634,7 +636,7 @@ declareRelation(
 **Show.**
 Different “sync meanings” become different **RelationKind tokens** (e.g., `entityMatchedBy`, `schemaAlignedUnder`), not adjectives. Subsequent changes become narratable as `retargetParticipant`, `rescope`, `retime`, or `refreshWitnesses`, rather than “we updated the sync”.
 
-### A.6.P:6 — Bias‑Annotation
+### A.6.P:6 — Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
 
@@ -739,7 +741,7 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
   - If the sentence answers "what selected set was emitted for downstream use?", repair toward `Shortlist`, `RankedShortlist`, and optional `ShortlistId`.
   - If the sentence answers "which goal, capability, or learning frontier might widen next?", repair toward `GoalSpaceExpansionCue`, `LearningProgressSignal`, or `CompetenceModelRef`, and keep those outside default dominance unless one policy promotes them.
 
-### A.6.P:8 — Common Anti‑Patterns and How to Avoid Them
+### A.6.P:8 — Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 | ---------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -800,7 +802,7 @@ A.6.P is orthogonal to “add a global taxonomy”:
 * It provides a repeatable method to **restore relational precision** without requiring any external formalism or auxiliary authoring apparatus.
 * It operationalises A.6’s boundary discipline by ensuring relation talk can be cleanly separated into signature invariants, admissibility, deontics, and evidence and work (A.6.B), rather than becoming one undifferentiated boundary claim.
 
-### A.6.P:11 — SoTA‑Echoing (informative; post‑2015 alignment)
+### A.6.P:11 — SoTA-Echoing (informative; post-2015 alignment)
 
 A.6.P echoes contemporary practice across independent traditions, while remaining notation-neutral and Context-local. A row is retained only when it changes the A.6.P solution, checklist, boundary, worked case, or reopen condition.
 
@@ -821,7 +823,7 @@ These echoes justify why A.6.P is structured as: **stable lens -> explicit slots
 * **A.6.5 `U.RelationSlotDiscipline`** — slot precision restoration for n‑ary relations.
 * **A.6.6 Base Declaration Discipline** — base‑dependence precision restoration (SWBD + base‑change lexicon + `anchor*` red‑flags).
 * **A.6.8 (RPR‑SERV)** — service polysemy unpacking as a relation and facet precision restoration discipline (serviceSituation lens + canonical rewrites + service‑specific tests and change narration).
-* **A.6.9 (RPR-XCTX)** - U.CrossContextSamenessDisambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
+* **A.6.9 (RPR-XCTX)** - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", "align", or "map" via explicit Bridges
 * **A.6.H (RPR‑WHOLE)** — wholeness language unpacking (“whole, part, integrity, or complete”) into boundary, typed parthood, explicit Γ selection, order and time classification, and A.15 completeness and coverage claims.
 
 **Coordinates with**

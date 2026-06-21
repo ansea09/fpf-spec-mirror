@@ -6,12 +6,12 @@ section_id: "B.5.2.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:intro — Intro"
-line_start: 34176
-line_end: 34183
+line_start: 35441
+line_end: 35456
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,4 +44,12 @@ keywords:
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Abductive prompt.
+
+**Use this when.** Use this pattern when a stabilized cue, opportunity, probe need, or anomaly must enter abduction as a typed question-bearing publication form rather than as an already chosen hypothesis.
+
+**What goes wrong if missed.** A cue is forced into anomaly form, an opportunity is treated as a hypothesis, or a prompt-like sentence silently smuggles in the preferred answer before rival hypotheses can be compared.
+
+**What this buys.** A small admission form for abduction: prompt species, open question, scope, and provenance stay explicit while the downstream abductive loop remains free to compare rival answers.
+
+**Not this pattern when.** Not this pattern when the object is still a raw cue (`B.4.1`), a language-state threshold claim (`C.2.4`, `C.2.5`), a chosen hypothesis (`B.5.2`), or a selector decision about methods, substrates, or portfolios.
 

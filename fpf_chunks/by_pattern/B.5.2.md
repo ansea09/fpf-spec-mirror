@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
-line_start: 33877
-line_end: 34175
+line_start: 35143
+line_end: 35440
 dependencies:
   - "A.10"
   - "A.16"
@@ -101,7 +101,7 @@ The filtering step is local and context-sensitive, but the criteria used **SHALL
 - **Parsimony.** Does the candidate introduce only the additional structure that the prompt requires?
 - **Explanatory reach.** How much of the prompt does the candidate actually account for?
 - **Consistency with established constraints.** Does the candidate avoid collision with already trusted pillars, mechanisms, or scope declarations?
-- **Falsifiability / probeability.** Does the candidate create a path for deduction, testing, contrast, or evidence acquisition?
+- **Falsifiability / probeability.** Does the candidate create an admissible next check, deduction, contrast, or evidence-acquisition relation?
 - **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
 
 No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.
@@ -125,14 +125,14 @@ This pattern biases authors toward visible candidate plurality, explicit plausib
 - `CC-B.5.2-3` Selection of a prime hypothesis **SHALL** cite at least two explicit plausibility filters.
 - `CC-B.5.2-4` The selected prime hypothesis **SHALL** be published as a new `U.Episteme` with `AssuranceLevel:L0`.
 - `CC-B.5.2-5` The prime hypothesis record **SHALL** preserve a link to the initiating prompt and to the filtering rationale that justified selection.
-- `CC-B.5.2-6` A hypothesis that cannot support any downstream deduction, probe design, or evidence path **SHALL NOT** be presented as a conforming abductive result.
+- `CC-B.5.2-6` A hypothesis that cannot support any downstream deduction, probe design, or evidence-acquisition relation **SHALL NOT** be presented as a conforming abductive result.
 
 ### B.5.2:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What it looks like | How FPF prevents it |
 |---|---|---|
 | **Authority candidate** | One favored conjecture is advanced immediately, with no rival set and no explicit filtering. | `CC-B.5.2-2` and `CC-B.5.2-3` require candidate plurality and visible plausibility grounds. |
-| **Untestable grand conjecture** | The candidate sounds deep or comprehensive, but it creates no admissible next step for checking, probing, or deduction. | `CC-B.5.2-6` rejects prime hypotheses that cannot open a downstream path. |
+| **Untestable grand conjecture** | The candidate sounds deep or comprehensive, but it creates no admissible next step for checking, probing, or deduction. | `CC-B.5.2-6` rejects prime hypotheses that cannot open a downstream checking, probing, deduction, or evidence-acquisition relation. |
 | **Prompt amnesia** | A later reader can see the conjecture but not the initiating anomaly, opportunity, or probe pressure. | `CC-B.5.2-1` and `CC-B.5.2-5` keep prompt provenance attached. |
 | **Symptom patching** | The selected candidate only redescribes a visible symptom and leaves the actual prompt unresolved. | The explicit plausibility filter for explanatory reach forces the candidate to be compared against the whole prompt. |
 
@@ -142,7 +142,7 @@ This pattern biases authors toward visible candidate plurality, explicit plausib
 |---|---|
 | **Disciplined generativity.** Abduction stays inventive without collapsing into formless conjecturing. | Requires explicit prompt and filter publication; mitigation: the required record can remain lightweight. |
 | **Traceable hypothesis origin.** Later review can reconstruct why a conjecture entered the reasoning cycle. | Adds a small provenance-support load; mitigation: reuse prompt and candidate-set notes from adjacent patterns. |
-| **Cleaner downstream handoff.** Deduction and evidence work begin from an `AssuranceLevel:L0` `U.Episteme` publication with explicit scope and rationale. | Some early conjectures will be rejected sooner; that is a feature, not a defect. |
+| **Cleaner downstream use.** Deduction and evidence work begin from an `AssuranceLevel:L0` `U.Episteme` publication with explicit scope and rationale. | Some early conjectures will be rejected sooner; that is a feature, not a defect. |
 | **Admissible reopening.** Rival candidates can be revisited when later work undermines the selected prime hypothesis. | Demands editorial discipline so that abandoned rivals remain legible rather than silently vanishing. |
 
 ### B.5.2:10 - Rationale
@@ -159,7 +159,7 @@ Contemporary inquiry practice in science, engineering, design, and diagnosis tre
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
 - **Produces:** hypothesis-bearing `U.Episteme` publications at `AssuranceLevel:L0`.
-- **Feeds:** downstream deduction, probe design, and evidence acquisition in the later reasoning cycle.
+- **Provides inputs for:** downstream deduction, probe design, and evidence acquisition in the reasoning cycle.
 
 #### B.5.2:12.1 - Prompt-entry broadening via `U.AbductivePrompt`
 
@@ -204,7 +204,7 @@ A selected prime hypothesis should preserve more than the hypothesis sentence it
 - the **next admissible downstream move** (deduction, probe design, targeted evidence acquisition, or explicit reopening criteria),
 - and any **known fragilities** already visible at selection time.
 
-This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit handoff terms.
+This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit downstream-use terms.
 
 ### B.5.2:14 - Admissible Transitions, Abort Paths, and Reopening
 
@@ -212,7 +212,7 @@ The abductive loop is iterative, but it is not formless. Several transition case
 
 #### B.5.2:14.1 - Relation to `B.4.1` and `A.16`
 
-`B.4.1` and `A.16` often supply the pre-abductive seam. They help preserve, stabilize, and route upstream publications before they are fit for explicit conjecture. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
+`B.4.1` and `A.16` often supply the pre-abductive seam. They help preserve and stabilize upstream publications, including route-bearing publication forms when those forms are explicitly governed, before the publication is fit for explicit conjecture. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
 - **premature abduction**, where a low-articulation cue is treated as if it had already earned hypothesis form;
 - **delayed abduction**, where a now-stable prompt is kept indefinitely in early cue form even though rival conjectures should already be compared.
@@ -256,7 +256,7 @@ The candidate set includes:
 - a time-window interaction with backup traffic,
 - and a recent mechanism regression in cache invalidation.
 
-The prime hypothesis is not selected because it sounds most familiar. It is selected because it best fits the observed window, remains consistent with known mechanism declarations, and generates a concrete next probe: isolate backup traffic and compare the latency shape against prior windows. The resulting conjecture becomes an `L0` hypothesis with one explicit evidence path.
+The prime hypothesis is not selected because it sounds most familiar. It is selected because it best fits the observed window, remains consistent with known mechanism declarations, and generates a concrete next probe: isolate backup traffic and compare the latency shape against prior windows. The resulting conjecture becomes an `L0` hypothesis with one explicit evidence-acquisition relation.
 
 #### B.5.2:15.2 - Opportunity-driven materials inquiry
 
@@ -284,7 +284,7 @@ The selected prime hypothesis is the mediating construct, but the scope-restrict
 
 ### B.5.2:16 - Authoring and Review Guidance
 
-#### B.5.2:16.1 - For authors
+#### B.5.2:16.1 - For abductive-publication authors
 
 Authors should treat the abductive loop as a **selection discipline**, not as a prose genre. The minimal questions are:
 
@@ -295,14 +295,14 @@ Authors should treat the abductive loop as a **selection discipline**, not as a 
 
 If those answers cannot be given, the publication is probably not yet at `B.5.2` and should return to prompt-shaping or lexical repair.
 
-#### B.5.2:16.2 - For reviewers
+#### B.5.2:16.2 - For hypothesis reviewers
 
-Reviewers should not ask only whether the chosen hypothesis looks plausible. They should also ask:
+Hypothesis reviewers should not ask only whether the chosen hypothesis looks plausible. They should also ask:
 
 - whether the prompt was typed in an admissible way,
 - whether at least one real rival was preserved,
 - whether the filters named at selection time actually discriminate among candidates,
-- whether the selected hypothesis has a credible downstream path,
+- whether the selected hypothesis has a credible downstream test, deduction, or evidence-acquisition relation,
 - and whether any scope inflation occurred during selection.
 
 A polished hypothesis with no visible rivals is usually less trustworthy than a rougher hypothesis whose rival space is explicit.
@@ -323,7 +323,6 @@ Legacy prose that describes abduction as a flash, leap, or raw creative moment m
 
 #### B.5.2:17.3 - Boundary to deduction and evidence
 
-`B.5.2` ends when one conjecture is published as a prime `L0` hypothesis or when the run is explicitly aborted, deferred, or split. Deduction, evidence acquisition, and later assurance do not belong to the abductive loop itself, even though the loop must prepare a clean handoff to them.
-
+`B.5.2` ends when one conjecture is published as a prime `L0` hypothesis or when the run is explicitly aborted, deferred, or split. Deduction, evidence acquisition, and later assurance do not belong to the abductive loop itself, even though the loop must prepare a clear downstream-use boundary for them.
 ### B.5.2:End
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.SelectorMechanism.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
-line_start: 28146
-line_end: 28513
+line_start: 28787
+line_end: 29154
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -117,7 +117,7 @@ If selection is not a first‑class mechanism boundary with stable semantics, th
 * a stable mechanism boundary for `select`,
 * a stable SlotKind surface (via the CHR lexicon),
 * a minimum law set that preserves set‑valued semantics and forbids hidden thresholds and hidden scalarization,
-* a tri‑state admissibility guard that is fail‑closed under missing legality or evidence,
+* a tri‑state admissibility guard that is fail‑closed under missing admissibility or evidence,
 * an audit minimum that records effective editions and policy routing.
 
 Method semantics and SoTA algorithm families do not live inside the kernel: they connect via `G.2` SoTA packs and wiring modules, and via lawful specializations `⊑/⊑⁺` that obey the specialisation-chain discipline (`A.6.1:4.2.1`).
@@ -137,12 +137,12 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
 
 * **Purpose:** universal set‑returning selection kernel over candidates and criteria; defaults remain policy‑bound; **no hidden thresholds**.
 
-* **Imports:** `A.6.1:4.2.1 (specialisation relation chains)`, `A.6.5 (slot discipline; SlotIndex as projection)`, `A.19.CN (CN‑Spec governance card)`, `C.22 (TaskSignature as a policy-routing artifact when used)`, `G.5 (selector conformance and default routing)`, `G.0 (CG‑Spec legality and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
+* **Imports:** `A.6.1:4.2.1 (specialisation relation chains)`, `A.6.5 (slot discipline; SlotIndex as projection)`, `A.19.CN (CN‑Spec governance card)`, `C.22 (TaskSignature as a policy-routing artifact when used)`, `G.5 (selector conformance and default routing)`, `G.0 (CG‑Spec admissibility and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
 
 * **SubjectBlock:**
 
   * **SubjectKind:** `Selection`.
-  * **BaseType:** `U.Set (candidates) + U.RelationTokenSet (lawful comparison outcomes)`.
+  * **GovernedValueDomain:** candidate set plus lawful comparison-outcome relation token set.
   * **SliceSet:** `U.ContextSliceSet`.
   * **ExtentRule:** selection ranges over admitted candidates in the active context slice, constrained by explicit criteria/policies and by lawful comparison outcomes.
   * **ResultKind?:** `U.Set`.
@@ -171,7 +171,7 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
   4. **Evidence gating is explicit:** when selection depends on evidence, it MUST cite either `MinimalEvidenceSlot` (override) or the effective policy `CGSpecSlot.MinimalEvidence`, and it MUST route the operation through tri‑state guards (no unknown coercion). Any candidate‑level ineligibility handling MUST be explicit (criteria and/or upstream outputs) and auditable (no silent dropping); the kernel MUST NOT invent new evidence thresholds.
   5. **No competing defaults:** `PortfolioMode`/dominance defaults (when relevant) MUST be sourced from their declared governing patterns (typically via `TaskSignatureSlot` routing and/or the selector conformance/default rules in `G.5`), and MUST NOT be re‑declared inside the kernel.
 
-* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing legality or evidence)
+* **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility or evidence)
 
   * `SelectEligibility(CandidateSetSlot, ComparisonResultSlot, CriteriaSlot, CNSpecSlot, CGSpecSlot, ContextSlot, TaskSignatureSlot?, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
   * `pass` requires at minimum: (i) `ComparisonResultSlot` is compatible with `CandidateSetSlot` (same candidate universe), (ii) all selection criteria and any tie‑breakers are explicit (via `CriteriaSlot` and/or `TaskSignatureSlot`), (iii) admissibility/acceptance gates (`CNSpecSlot.acceptance`, evidence) do not fail, and (iv) `CNSpecSlot` and `CGSpecSlot` are coherent for the comparison tokens being consumed (no mixed CN-Spec/CG-Spec pairings).
@@ -181,7 +181,7 @@ Archetypal Grounding — **Mechanism.Intension** (normative).
 * **Applicability:**
 
   * Intended as the last stage of CHR selection after lawful comparison, producing a selected-set-valued result.
-  * Cross‑context selection is allowed only via explicit Transport (Bridge+CL/ReferencePlane) and cannot bypass CG‑Spec legality.
+  * Cross‑context selection is allowed only via explicit Transport (Bridge+CL/ReferencePlane) and cannot bypass CG‑Spec admissibility.
 
 * **Transport:** declarative‑only: no embedded CL/Φ/Ψ tables and no new transport edges; crossings are via cited Bridge+CL/ReferencePlane surfaces; penalties route to **`R_eff` only**.
 
@@ -269,7 +269,7 @@ When comparisons are partial or set‑valued, selection must not pretend there i
 
 ### A.19.SelectorMechanism:6 - Bias-Annotation — informative
 
-This pattern intentionally biases selection authoring toward explicitness and legality.
+This pattern intentionally biases selection authoring toward explicitness and admissibility.
 
 * **Governance bias.** Bias toward explicit criteria and policy-routing records rather than implicit constants. Risk: perceived overhead. Mitigation: keep criteria records minimal, and centralize defaults via `TaskSignatureSlot` when used.
 * **Architecture bias.** Bias toward set‑return semantics and against forced total orders. Risk: consumers may expect a single winner. Mitigation: make single‑winner selection an explicit criterion or a declared comparator outcome, not an implicit kernel behavior.
@@ -332,7 +332,7 @@ This pattern intentionally biases selection authoring toward explicitness and le
 
 Selection is where many systems accidentally convert lawful but nuanced information into an unjustified scalar decision. Making selection a separate, explicit mechanism boundary achieves two things that matter for engineering management:
 
-1. **Technical integrity:** it enforces legality and evidence discipline at the decision boundary without smuggling heuristics.
+1. **Technical integrity:** it enforces admissibility and evidence discipline at the decision boundary without smuggling heuristics.
 2. **Organizational clarity:** it makes defaults and thresholds discussable, reviewable, and maintainable as explicit policy surfaces.
 
 The set‑returning default is not a preference for large retained sets; it is a correctness safeguard when the order is not total. Single‑winner outcomes remain possible, but only by explicit criteria or declared lawful comparators.
@@ -359,7 +359,7 @@ The set‑returning default is not a preference for large retained sets; it is a
 * **Selected-set-as-output (QD framing):** adopt the *decision framing* (declared selected set as a first-class result) while keeping concrete QD/retained-set algorithms out of the kernel; they belong in `G.2` packs and wiring modules, preserving evolvability.
 * **Archive retained sets (diversity as result):** adapt archive thinking by keeping diversity/illumination signals report‑only unless an explicit CAL/policy promotes them to dominance; this prevents silent scalarization and preserves governing-pattern defaults (typically `G.5` and CAL).
 * **Open‑ended environment–method pairing:** keep the kernel unchanged; open‑ended pairing is expressed by shaping candidates/criteria (and, when needed, lawful specializations `⊑/⊑⁺`) with explicit edition pins and transfer/validity rules in planned baseline, not by mutating `Select`.
-* **Reject/abstain under uncertainty:** adopt the rejection‑option stance as a tri‑state guard with fail‑closed semantics; explicit abstain is preferable to forced choice under missing legality/evidence.
+* **Reject/abstain under uncertainty:** adopt the rejection‑option stance as a tri‑state guard with fail‑closed semantics; explicit abstain is preferable to forced choice under missing admissibility/evidence.
 * **Governing-pattern architecture discipline:** adopt governing-pattern + Tell‑and‑Cite to keep the spec teachable and reviewable; this directly reduces drift and “second centers of gravity”.
 
 ---
@@ -370,7 +370,7 @@ The set‑returning default is not a preference for large retained sets; it is a
 
   * `A.6.1` and `CC‑UM.*` for the mechanism intension shape and specialisation-chain discipline.
   * `A.19.CHR` for suite membership, suite protocol closure, SlotKind lexicon, and threshold and default discipline.
-  * `G.0` for `CG‑Spec` legality and evidence surfaces.
+  * `G.0` for `CG‑Spec` admissibility and evidence surfaces.
   * `A.19.CN` for `CN‑Spec` governance card used as an explicit input.
   * `C.22` for `TaskSignature` as a policy-routing artifact when used.
   * `A.6.5` for slot discipline (SlotIndex as projection; SlotKind invariance).

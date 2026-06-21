@@ -6,12 +6,12 @@ section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:intro — Intro"
-line_start: 25798
-line_end: 25829
+line_start: 26439
+line_end: 26470
 dependencies:
   - "A.15.3"
   - "A.19"
@@ -34,9 +34,9 @@ keywords:
   - "CN-Spec"
   - "P2W seam"
   - "SlotFillingsPlanItem"
+  - "admissibility gate"
   - "characterization core"
   - "crossing visibility"
-  - "legality gate"
   - "no hidden scalarization"
   - "no hidden thresholds"
   - "penalties→R_eff"
@@ -67,7 +67,7 @@ keywords:
 * A.6.1 `U.Mechanism.Intension` (mechanism norm-form)
 * A.6.5 slot discipline (`SlotSpec := ⟨SlotKind, ValueKind, refMode⟩`; `SlotIndex` is a projection)
 * A.19 `CN‑Spec` (governance card)
-* G.0 `CG‑Spec` (legality gate for numeric operations)
+* G.0 `CG-Spec` (admissibility gate for numeric operations)
 * E.18 / E.18 (P2W + crossings + UTS/Path pins)
 * E.10 lexical/ontological rules (strict distinction, suffix discipline, minimal specificity)
 * E.19 conformance style (checklist obligations)

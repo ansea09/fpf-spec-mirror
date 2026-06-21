@@ -1,311 +1,244 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.1.6"
-pattern_title: "Γ\\_work — Work as Spent Resource"
+pattern_title: "Work-Resource Aggregation"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.6 — Γ\\_work — Work as Spent Resource"
-line_start: 31190
-line_end: 31469
+  - "B.1.6 — Work-Resource Aggregation"
+line_start: 31814
+line_end: 32021
 dependencies:
-  - "A.12"
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.15.2"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "B.1"
-  - "B.1.2"
   - "B.1.4"
-  - "B.1.5"
-  - "C.5"
+  - "B.2"
+  - "B.2-family"
+  - "B.2.P"
+  - "C.13"
+  - "C.16"
+  - "C.27"
+  - "C.29"
+  - "E.17"
 keywords:
-  - "Resrc-CAL"
-  - "cost"
-  - "energy consumption"
-  - "resource aggregation"
-  - "work"
 ---
 
-## B.1.6 - Γ\_work — Work as Spent Resource
+## B.1.6 - Work-Resource Aggregation
 
+> **Type:** B-family aggregation pattern
 > **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
 
-> **► decided‑by: A.14 Advanced Mereology**
-**A.14 compliance —** Only **Work** carries resource deltas; quantitative splits/consumption use **PortionOf** against pre‑consumption stocks; run histories use **PhaseOf** on Work; `MemberOf` MUST NOT be used for resource mereology; SCR/RSCR stay outside (use EPV‑DAG anchors).
+**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over dated work occurrences, phase slices, boundary partitions, or comparable work-resource ledgers.
 
-### B.1.6:1 - Problem frame
+**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether work occurred, use `A.15.1`. If it is temporal phase aggregation without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family owner.
 
-FPF distinguishes **what is done** from **what it costs** to do it.
+**What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
 
-* **Method, MethodDescription, and design-time process:**
-  A **Method** is the abstract **way‑of‑doing** inside a bounded context (A.15). A **MethodDescription** is a design‑time `U.Episteme` that describes a Method (SOP, algorithm, proof, simulator configuration, etc.).
-  A **Process** is a *view* that represents a MethodDescription as an ordered/partially‑ordered composition (steps, branches, synchronization). In Cluster B, that ordering/coordination is handled by **Γ\_method** (B.1.5). **Not every MethodDescription admits a step decomposition**; Γ\_method applies only when a step/process view is chosen.
+**What this buys.** The practitioner can aggregate resources over performed work while avoiding double counting and returning method, plan, transformation, evidence, and MHT claims to their direct owners.
 
-* **Work (run‑time; this pattern focuses on the resource facet):**
-  **Work** is the dated run‑time **occurrence** of enacting a MethodDescription by a performer under a `U.RoleAssignment` (A.15). In this pattern we treat Work under its **spent‑resource facet**: the typed delta we can account for across a declared boundary and time window. Γ\_work defines how those deltas compose across parts and phases.
+### B.1.6:1 - Problem Frame
 
-This separation makes models auditable and prevents category errors: **Γ\_method** composes *design‑time coordination* (a process view); **Γ\_work** composes *run‑time Work ledgers* (and never smuggles order semantics).
+Practitioners need to roll up work-resource claims across runs, phases, teams, devices, stations, model-training epochs, or evidence-production episodes. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed work.
 
-### B.1.6:2 - Problem
+`B.1.6` governs the work-resource aggregation claim. It keeps dated work occurrence, method, method description, work plan, resource ledger, holon delimitation, transformation, evidence, and whole reidentification in their own owners.
 
-Without a dedicated algebra for spent resources, models drift into four errors:
+### B.1.6:1.0 - Problem
 
-1. **Process–Work conflation:** Time‑ordered steps and resource spending are mixed, producing ambiguous or double‑counted totals.
-2. **Conservation violations:** Totals appear that exceed inputs or create “free” resource, contradicting physical and informational conservation.
-3. **Boundary blindness:** Spending is reported without specifying the boundary across which it is measured, making numbers non‑comparable.
-4. **Category errors in mereology:** Collection membership (MemberOf) is misused as if it were parthood for resource stocks, polluting Γ proofs (B.1).
+Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
 
-### B.1.6:3 - Forces
+### B.1.6:1.1 - Forces
 
-| Force                                               | Tension                                                                                                                        |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Conservation vs. Abstraction**                    | Totals must obey material/energy/information conservation ↔ models must stay simple and readable.                              |
-| **Run‑time measurability vs. Design‑time planning** | We need measurable deltas at run‑time ↔ we also need ex‑ante yields from MethodDescription to plan.                                   |
-| **Heterogeneous units vs. Unified sums**            | Resources come in different units (joules, kg, bits) ↔ we still need composite statements (vectors, typed sums).               |
-| **Safety vs. Synergy**                              | Weakest‑link bounds must cap availability ↔ redundancy or substitution can improve feasibility but belongs to emergence (B.2). |
+| Force | Tension |
+| --- | --- |
+| Measured work vs. planned work | Expected yield, duration, or resource use helps planning, but cannot prove performed-work resource use. |
+| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume, and attention can be compared only after their basis and conversion relation are declared. |
+| Boundary accounting vs. local convenience | Resource values are useful only when the holon delimitation, boundary-crossing relation, stock relation, and time window are named. |
+| Additivity vs. shared stocks | Disjoint partitions can be added; shared meters, tools, people, inventories, data, or ports need overlap and deduplication policy. |
+| Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 
-### B.1.6:4 - Terminology guard‑rails (A.15 — Strict Distinction)
+### B.1.6:2 - Solution
 
-> These rules are normative in this pattern; they exist to prevent the recurring confusion noted in prior drafts.
+Recover a `WorkResourceAggregation@Context`:
 
-* **Method (U.Method)** — design‑time, abstract **way‑of‑doing** inside a bounded context; **not** an execution; it may be described by multiple MethodDescriptions and may or may not admit any step decomposition.
-* **MethodDescription (U.MethodDescription)** — a design‑time `U.Episteme` that describes a Method (SOP/algorithm/proof/simulator/solver configuration, control law, or other viewpoint). A step/workflow graph is only one possible representation.
-* **Process (view)** — a chosen representation of a MethodDescription as an ordered/partially‑ordered structure (steps, branches, synchronization); composed by **Γ\_method**.
-* **Work (U.Work)** — a run‑time **occurrence**: dated enactment of a MethodDescription by a performer under a `U.RoleAssignment`. In this pattern, **Work** is treated under its *spent‑resource ledger* facet; composed by **Γ\_work**.
-* **Transformer (T)** — a `U.System` playing the executing and/or auditing role for Work’s accounting (A.12); transformer identity belongs in the **Boundary Ledger**.
-* **Mereology for resources (A.14):** use `PortionOf` for **quantitative splits** and `PhaseOf` for **time‑slices**; **do not** use `MemberOf` for resource stocks.
-
-### B.1.6:5 - Solution — The Γ\_work Operator
-
-**Intent.** Provide a universal, conservative way to compose resource spending across parts and steps, without talking about control‑flow (that is Γ\_method’s job).
-
-#### B.1.6:5.1 - Operator signature
-
-```
-Γ_work : (S : Set[U.Work], M_spec : U.MethodDescription?) → W_tot : U.Work
-```
-
-* **S — Work set.** A finite set of `U.Work` instances to be rolled up (parts, phases, episodes, or boundary partitions). Each Work MUST carry (or reference) a **Boundary Ledger** (§5.3) and a typed resource ledger on an explicit basis. Where a stock is subdivided, the split uses `PortionOf`; where a run is time‑sliced, the slices use `PhaseOf` (A.14).
-
-  If `S` contains overlaps (shared stocks, shared ports, or overlapping time windows), the fold MUST apply an explicit **overlap / de‑duplication policy** declared in the relevant `U.BoundedContext` (A.15.1:5.3); otherwise the result is undefined (double counting).
-
-* **M_spec — optional.** If present, it provides *ex‑ante* yield/efficiency (η) and declared equivalence maps for **planning** or **basis normalization**. It MUST NOT overwrite measured deltas; planned and measured Work MUST be reported separately (CC‑B1.6.8).
-
-* **Result W_tot — U.Work.** A composite Work whose **resource ledger** is the Γ_work fold of the input ledgers (plus any declared overheads/residuals). It is accompanied by a **Boundary Ledger** (see §5.3) and references its parts for auditability.
-
-> **Do not confuse:** Γ\_work neither schedules nor orders steps; it composes **resource deltas attached to Work**. If you need order, use Γ\_method at design‑time and Work’s run‑time relations (`precedes`, `PhaseOf`, `overlaps`) with Γ\_time for temporal coverage.
-
-#### B.1.6:5.2 - What counts as “Work”
-
-Work is defined **with respect to a declared boundary** of the holon being transformed or assembled:
-
-* **Boundary‑relative delta (conservative form):**
-  For any resource type *q* measured on boundary *B* during a run,
-
-  ```
-  Work_B(q) = Inflow_B(q) − Outflow_B(q) − ΔStock_inside(q)
-  ```
-
-  where **ΔStock\_inside(q)** is the change of internal stock over the run (positive when the stock grows).
-
-* **Embodiment split:**
-  Work can be split into **Dissipation** (lost to environment) and **Embodied** (retained in produced holons as state). Both are part of the same Work vector; the split is a reporting choice, not a second algebra.
-
-* **Heterogeneous vectors:**
-  Γ\_work treats different resource types as a **typed vector space** (no implicit conversion). Equivalences (e.g., joules↔bits via a declared model) are allowed only if **declared in M\_spec** or in a domain CAL; otherwise vectors remain multi‑dimensional.
-
-#### B.1.6:5.3 - Boundary Ledger (normative output metadata)
-
-Every Γ\_work result **MUST** include a **Boundary Ledger**:
-
-* **(i) Boundary scope:** which `U.Boundary` was used (source holon, ports).
-* **(ii) Time window:** start/stop or `PhaseOf` slice identifiers.
-* **(iii) Basis:** the ordered list of resource types and units.
-* **(iv) Method context & lineage:** reference(s) to the governing `U.MethodDescription`(s) (and, if known, `U.Method`), plus the Work lineage (which Work IDs were folded to produce `W_tot`).
-* **(v) Accounting authority:** identity of the system(s) that executed, metered, and/or audited the reported ledgers (often the performer/transformer per Work part, plus the aggregator for a roll‑up).
-
-This ledger is what makes cross‑model Work totals comparable and auditable (A.10).
-
-#### B.1.6:5.4 - The invariant quintet instantiated (overview)
-
-Γ\_work preserves B.1 invariants; the detailed proofs and corner cases are in Part 2.
-
-* **IDEM (idempotence):** Folding a singleton zero‑delta Work (or adding a zero‑delta Work to any fold) does not change totals; the zero‑delta ledger is the identity element.
-* **COMM / LOC (local commutativity / locality):** For **independent** boundary/stock partitions, composed Work is additive and independent of local fold order.
-* **WLNK (weakest‑link bound):** Effective Work is capped by the scarcest **critical** input on the boundary (no Work can exceed available supply).
-* **MONO (monotonicity):** Increasing an available resource cannot decrease Work (for the same boundary and time window); decreasing dissipation or improving η cannot reduce feasibility.
-
-#### B.1.6:5.5 - How Γ\_work relates to Methods (and to Γ\_method)
-
-* **Design‑time:** `M_spec` (a `U.MethodDescription`) may declare an intended yield **η** and admissible equivalences between resource types (e.g., heat→mechanical). These are **assumptions** until validated by run‑time Work.
-* **Run‑time:** A `U.Work` instance (enacting a MethodDescription under a `U.RoleAssignment`) produces measured deltas across its declared boundary/time window. Γ\_work composes those deltas; it does not speculate nor retroactively “fix” measurements.
-* **Sequencing:** If multiple MethodDescriptions are ordered/branched (process view), use **Γ\_method** to define that coordination at design‑time. At run‑time, model the corresponding segments as Work parts and fold them with Γ\_work (Work adds in serial and parallel), while time coverage is handled by Γ\_time.
-
-> **Didactic tip:** Think of **Γ\_method** as the **coordination story**, and **Γ\_work** as the **receipt of what it cost**, both anchored to the same boundary and time window.
-
-### B.1.6:6 - Fold rules (how Γ\_work composes)
-
-#### B.1.6:6.1 - Boundary partition (across parts of a whole)
-Let the system‑level boundary **B** be covered by a finite family of pairwise‑disjoint sub‑boundaries **{Bᵢ}** (ports, surfaces, interfaces) that together exhaust **B**. For any resource type *q* in the basis:
-
-* **Partition additivity (normative):**
-
-  ```
-  Work_B(q) = Σ_i Work_Bi(q)
-  ```
-
-  Preconditions: (i) `Bi` are disjoint except for measure‑zero interfaces, (ii) meters are aligned (same units, same time window), (iii) internal stock changes ΔStock\_inside(q) are measured for the *same* closed region bounded by B.
-  *Why it matters:* this is the cross‑scale rule that lets part‑level Work totals roll up to the whole without double counting.
-
-#### B.1.6:6.2 - Time slicing (serial runs / phases)
-Let the run be split by a set of non‑overlapping intervals **{τⱼ}** that cover the window **τ** (use `PhaseOf` to tag the slices). Then:
-
-```
-Work_B(q, τ) = Σ_j Work_B(q, τ_j)
+```text
+WorkResourceAggregation@Context:
+  aggregationConcernRef
+  parentWorkOccurrenceRef?
+  workOccurrenceRefs
+  boundedContextRef
+  transformedOrAffectedEntityRef?
+  holonDelimitationRefs
+  boundaryCrossingRelationRefs?
+  timeWindowRef
+  phaseRelationRefs?
+  resourceBasisRefs
+  resourceMeasureRefs
+  resourceLedgerRefs
+  overlapOrDeduplicationPolicyRef?
+  methodRefs?
+  methodDescriptionRefs?
+  workPlanRefs?
+  evidenceOrMeasurementRefs
+  aggregationRuleRef
+  aggregatedResourceValueRef
+  admissibleUse
+  nonAdmissibleOverread
+  strongerSourceReturnCondition
 ```
 
-This is the **temporal additivity** of Work. It is the Γ\_work analogue of Γ\_time’s coverage rule: we never “smear” or reorder; we sum non‑overlapping slices.
+The record is a resource-aggregation relation over work evidence. It is not a method, not a method description, not proof that planned work happened, not a new holon level, and not a whole reidentification claim.
 
-#### B.1.6:6.3 - Concurrent branches (parallel activity)
-When two independent sub‑boundaries **B₁**, **B₂** are active over overlapping time, total Work still **adds**:
+#### B.1.6:2.1 - Direct Owner Map
 
-```
-Work_B(q) = Work_B1(q) + Work_B2(q)
-```
+| Current claim | Direct owner |
+| --- | --- |
+| Semantic way of doing | `A.3.1` |
+| Description of the way of doing, including algorithm text or SOP | `A.3.2` |
+| Planned work window or planned assignment | `A.15.2` |
+| Dated performed work occurrence and occurrence evidence | `A.15.1` |
+| Work-resource aggregation over dated work occurrences | `B.1.6` |
+| Holon delimitation, ports, interfaces, or part-whole boundary used for accounting | `A.1`, `B.1`, `A.14`, `C.13`, or the direct relation owner named by value |
+| Boundary-crossing change under conditions | `A.3.4` |
+| Phase relation or temporal coverage | `B.1.4` and `A.14`; use `C.27` when temporal claim adequacy is current |
+| Measurement construction, units, scales, thresholds, or comparability | `C.16`, `C.16.P`, or `C.29` |
+| Evidence provenance, source currentness, or source-use relation | Use `A.10` for evidence-use relations. Use `E.17` for publication and publication-use relations. Use the direct publication or source owner when a more specific source-use claim is being made. |
+| Apparent free efficiency, synergy, or whole reidentification | `B.2.P`, then B.2-family owner only if recovered |
 
-Independence here means: no shared port, no shared stock variable, no hidden transfer between B₁ and B₂ that bypasses the declared meters. If a shared internal stock exists, it must be accounted in ΔStock\_inside(q) for **B** to keep conservation exact.
+### B.1.6:3 - Optional `Gamma_work` Notation
 
-> **Didactic contrast:** Γ\_method handles **duration** (Σ for serial, max for parallel). Γ\_work handles **resource** (Σ in both serial and parallel), because resource spending composes additively across disjoint boundary parts and disjoint time slices.
+`Gamma_work` is optional notation for a recovered `WorkResourceAggregation@Context`.
 
-#### B.1.6:6.4 - Multi‑resource vectors and declared equivalences
-Γ\_work never implicitly converts units. If a planning model needs an exchange (e.g., heat→mechanical, memory→compute), it must be **declared** in `M_spec` (or a domain CAL) as an **equivalence map** `E` applied **before** folding, yielding a new typed basis **E(basis)**. Absent such declaration, vectors remain multi‑dimensional and are added component‑wise.
-
-#### B.1.6:6.5 - Availability gates (weakest‑link discipline)
-Many runs require **critical** inputs (a subset **Q\*** of the basis) to be present at or above a threshold. Let `Avail_B(q*)` be the measurable availability for `q* ∈ Q*` on boundary B during τ. Then feasibility is constrained by:
-
-```
-Work_B(q*) ≤ Avail_B(q*),  for all q* ∈ Q*
-```
-
-If any inequality is violated, the fold **must fail** or the modeller must declare a **Meta‑Holon Transition (B.2)** that introduces redundancy/substitution as a new structural capability (changing Q\* or the equivalence map). This is WLNK in resource form.
-
-### B.1.6:7 - Embodiment and dissipation (reporting scheme)
-
-Every Work vector **MAY** be split into two projections, both defined on the **same basis** and the **same boundary/time window**:
-
-* **Embodied\_B(q)** — the part of Work retained **inside** B as *state change* of produced holons (e.g., latent heat stored, material incorporated, committed data).
-* **Dissipated\_B(q)** — the part of Work irreversibly exported beyond B (e.g., heat loss, scrap, discarded packets).
-
-By norm:
-
-```
-Work_B(q) = Embodied_B(q) + Dissipated_B(q)
+```text
+Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationRule)
+  -> aggregated resource value plus ledger
 ```
 
-This split is **informative**, not a second algebra: Γ\_work always folds the **total** Work; the split is attached in the **Boundary Ledger** for transparency.
+The notation applies only after the work occurrence refs, resource basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
 
-### B.1.6:8 - Invariants — edge cases and proof sketches
+### B.1.6:4 - Ledger Discipline
 
-#### B.1.6:8.1 - IDEM (idempotence)
-Let `S = {W}` be a singleton Work set. If the resource ledger carried by `W` satisfies `Work_B(q)=0` for all basis components *q* (i.e., no net delta across the declared boundary over the window), then
+A conforming `WorkResourceAggregation@Context` includes a work-resource ledger with:
 
-```
-Γ_work(S) = 0  (the zero vector)
-```
+- work occurrence refs or parent and child work occurrence refs;
+- resource basis and unit refs;
+- time window and phase refs when time slicing is used;
+- holon delimitation refs and any boundary-crossing relation refs used for accounting;
+- method, method-description, and work-plan refs only when those objects are actually used;
+- evidence, measurement, or source refs for the resource values;
+- overlap or deduplication policy when work occurrences share resources, time windows, ports, stocks, people, tools, or data;
+- admissible use and non-admissible overread.
 
-Trivial by definition: no measured boundary‑relative delta implies zero spent‑resource Work.
+For any resource type in the selected basis, the ledger should say whether the value is measured, estimated, normalized, or converted. If the value is measured, it names the measurement or evidence relation. If the value is planned, it stays marked as expected work-resource use and does not become performed-work evidence.
 
-#### B.1.6:8.2 - COMM/LOC (local commutativity / locality)
-Let `S` be partitioned into independent subsets `{Sᵢ}` whose boundary partitions `{Bᵢ}` are disjoint and cover **B** (6.1). Since each subset’s ledger is evaluated with its own meters and time slices (6.2), and vector addition is commutative/associative, any local fold order yields the same `Σ_i Γ_work(Sᵢ)`. Hence Γ\_work inherits commutativity/locality **under independence**.
-*Note:* If subsets share a stock variable (or an undeclared transfer), independence fails and the modeller must either (i) refactor boundaries / Work decomposition to restore independence, or (ii) model the shared stock explicitly in ΔStock\_inside(q) for the **parent** B.
+When the aggregation divides a stock or resource amount, use `PortionOf` or the direct quantitative relation owner. When the aggregation slices one work occurrence or one carrier over time, use `PhaseOf` or the direct phase owner. Do not use `MemberOf` for resource stock, resource portion, or time-slice composition.
 
-#### B.1.6:8.3 - WLNK (weakest‑link)
-Let **Q\*** be the critical input set with availability caps `Avail_B(q*)`. Since the delta definition measures **net** consumption across B (inflow–outflow–Δstock), and no external creation is allowed, each `Work_B(q*)` cannot exceed `Avail_B(q*)`. If the plan suggests more, you have either (a) a measurement error, (b) a missing equivalence declaration in `M_spec`, or (c) a true emergent synergy that must be modelled as **MHT** (new redundancy/substitution capability).
+### B.1.6:5 - Aggregation Rules
 
-#### B.1.6:8.4 - MONO (monotonicity)
-Monotonicity is interpreted along three characteristics; in all cases “improvement” never makes the whole **worse** (i.e., never increases required Work nor decreases feasibility):
+**Resource vectors stay typed.** Add joules to joules, hours to hours, kilograms to kilograms, and bytes to bytes. A conversion or equivalence relation needs its governing measurement, model, or mathematical-lens owner.
 
-* **Availability monotonicity:** Increasing `Avail_B(q)` for any non‑critical q leaves `Work_B(q)` unchanged (availability is not auto‑consumed); increasing it for a critical q cannot increase `Work_B(q)` and weakly increases feasibility.
-* **Yield monotonicity (η):** For a fixed output target, increasing declared or measured **η** weakly **decreases** the required `Work_B(q)` in the inputs, never increases it.
-* **Loss monotonicity:** Decreasing dissipation (better insulation, better compression) weakly **decreases** `Dissipated_B(q)`; total Work cannot go up as a result.
+**Partition additivity requires declared partitions.** Resource values may be added across disjoint boundary partitions only after the boundary and stock relation are named. Shared stock, shared meters, shared people, shared tools, or overlapping time windows require an overlap or deduplication policy.
 
-#### B.1.6:8.5 - Compatibility with Γ\_method
-Let a process be composed by Γ\_method from steps `{S_k}`, each with its own boundary partition `{B_k}` and time slice `{τ_k}`. If independence holds between steps at the resource boundary level (no hidden cross‑leaks), the summed Work
+**Time slicing requires temporal coverage.** A resource roll-up over phases uses non-overlapping phase refs and a time window. If a missing phase matters, the admissible use is narrowed or `B.1.4`/`C.27` supplies the temporal owner.
 
-```
-Σ_k Work_Bk(q, τ_k)
-```
+**Plan and result stay separate.** A method description or work plan may provide expected yield, expected duration, or expected resource use. Measured work-resource aggregation uses dated work occurrence evidence. Do not overwrite one with the other.
 
-is invariant to any topological sort consistent with Γ\_method’s order (Γ\_method may change *when* costs are incurred; Γ\_work adds *how much* is spent).
+**B.1 invariant carry-through.** `B.1.6` keeps B.1 invariants only for recovered work-resource ledgers. A singleton zero-resource occurrence is idempotent for the selected basis. Addition is commutative only for independent partitions, non-overlapping slices, or explicitly deduplicated overlaps. Weakest-link claims must name the critical resource, availability, or threshold; monotonicity claims must name the resource characteristic being improved. Apparent "free" gains remain measurement, equivalence, or whole-reidentification questions until their direct owner is recovered.
 
-**Manager note.** When reviewing a plan, inspect **Γ\_method** (is the order/capability sound?). When reviewing results, inspect **Γ\_work** (do the boundary‑relative deltas and units make sense?). Use **PhaseOf** to align both views over time.
+**Proof-sketch obligations.** For idempotence, show the zero-resource or singleton ledger under the selected basis. For commutativity or locality, show disjoint boundary partitions, disjoint time slices, or the declared deduplication relation. For weakest-link, name the critical resource and availability condition. For monotonicity, name the exact resource characteristic that cannot get worse under the selected improvement. These are user-facing obligations for the aggregation claim, not a separate proof package.
 
-### B.1.6:9 - Archetypal grounding (System / Episteme)
+#### B.1.6:5.1 - Compact Obligation Rows
 
-| Facet                       | **U.System — Assembling a heat‑treated frame**                                                                      | **U.Episteme — Training and publishing a model**                                                                                     |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Boundary**                | The enclosure boundary of the frame workstation; ports for electricity, gas, material in/out.                       | The boundary of the knowledge publication unit: data ingress, model-publication egress, compute energy ingress.                                 |
-| **Work definition**         | Electricity and fuel inflows minus outflows minus Δstock of materials and thermal content retained in the frame.    | Energy spent (compute) + data‑read deltas; Embodied work includes the stored parameters (as committed bytes) and archived SCRs. |
-| **Embodied vs Dissipated**  | Embodied: material incorporated, latent heat retained; Dissipated: heat loss, scrap.                                | Embodied: parameter file written, proof carriers; Dissipated: energy to heat, discarded intermediate data.                          |
-| **Additivity across parts** | Ports on furnace, press, conveyor are `Bᵢ`; total frame‑level Work is Σ over `Bᵢ`.                                  | Data‑read over dataset shards are `Bᵢ`; total training Work adds per‑shard deltas.                                                   |
-| **Time slicing**            | Heat → dwell → quench phases are `PhaseOf`; Work adds: Σ over phases.                                               | Epochs are `PhaseOf`; Work adds across epochs.                                                                                       |
-| **WLNK**                    | Gas supply cap limits feasible heat cycles (critical input); if redundancy is added (dual supply), model it as MHT. | Storage bandwidth caps data‑read; adding a cache hierarchy is MHT (new structural capability), not “free” efficiency.                |
+| Obligation | What must be named | Why it matters |
+| --- | --- | --- |
+| Typed resource vector | Resource basis, unit, measure, evidence refs, and source refs for each component. | Prevents hours, energy, material, cost, and data volume from becoming one undifferentiated total. |
+| Disjoint partition | Boundary partition, stock relation, time window, and work occurrence refs. | Allows addition only where the partitions are actually disjoint for the selected resource basis. |
+| Shared-stock handling | Shared meter, shared tool, shared person, shared data, shared inventory, or overlap policy. | Prevents double counting and false savings. |
+| Critical resource cap | The capacity, availability, threshold, or bottleneck resource whose limit governs the claim. | Makes weakest-link and capacity claims inspectable. |
+| Yield relation | Input resource refs, output result refs, loss refs, and measurement basis. | Keeps efficiency from being asserted without a result relation. |
+| Embodied and dissipated split | Which resource remains embodied in the changed entity and which is dissipated, consumed, wasted, or externalized. | Keeps conservation, loss, and waste claims from being collapsed into one spent-resource label. |
+| Loss monotonicity | The exact loss, waste, delay, cost, risk, or degradation characteristic being bounded or reduced. | Allows monotone improvement claims only for a named characteristic. |
+| Plan-result separation | Expected resource use from method description or work plan versus measured resource use from dated work evidence. | Prevents a plan or algorithm from proving performed-work resource use. |
 
-### B.1.6:10 - Conformance Checklist (complete)
+### B.1.6:6 - Archetypal Grounding (Worked Slices)
 
-| ID            | Requirement                                                                                                                                     | Purpose                                               |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **CC‑B1.6.1** | Every Γ\_work result SHALL include a **Boundary Ledger**: boundary, time window, basis, method context, transformer identity.                   | Make Work statements comparable and auditable (A.10). |
-| **CC‑B1.6.2** | Resource vectors SHALL be **typed**; no implicit unit conversions. Any equivalence MUST be declared in `M_spec` (or a domain-specific mechanisms).      | Prevent silent inflation/deflation.                   |
-| **CC‑B1.6.3** | Resource stocks SHALL be structured with `PortionOf` and `PhaseOf`; `MemberOf` MUST NOT be used for resource mereology.                         | Align with A.14 and prevent category errors.          |
-| **CC‑B1.6.4** | For partitioned boundaries `{Bᵢ}` the fold MUST satisfy partition additivity and document the partition.                                        | Enable cross‑scale roll‑ups.                          |
-| **CC‑B1.6.5** | For time slicing `{τⱼ}` the fold MUST satisfy temporal additivity with non‑overlapping slices (Γ\_time‑compatible).                             | Keep history coherent.                                |
-| **CC‑B1.6.6** | Critical inputs **Q\*** and their availability caps MUST be explicit; any violation SHALL cause the fold to fail or require an MHT declaration. | Enforce WLNK conservatism.                            |
-| **CC‑B1.6.7** | If a shared internal stock exists between sub‑boundaries, it MUST be modelled in ΔStock\_inside(q) at the **parent** boundary level.            | Preserve conservation and COMM/LOC preconditions.     |
-| **CC‑B1.6.8** | When `M_spec` declares a yield η, the report SHALL separate **planned** (ex‑ante) and **measured** (ex‑post) Work.                              | Keep planning distinct from accounting (A.15).        |
-| **CC‑B1.6.9** | Γ\_work SHALL provide proofs of the invariant quintet under the independence assumptions used, or explicitly state where MHT is required.       | Maintain B.1 guarantees.                              |
+**Manufacturing cell.** A frame is welded and painted in two dated work occurrences. `B.1.6` records electricity, gas, consumables, and labor-hour ledgers with their time windows and meters. The step order belongs to `B.1.4` or the method owner; the state change of the frame belongs to `A.3.4`.
 
-### B.1.6:11 - Consequences
+**Model training.** A model-training run has epochs as dated work slices. `B.1.6` aggregates compute energy, storage reads, and operator time from work evidence. The algorithm text is `A.3.2`; the trained model publication and source-use claims use episteme and publication owners; fairness or ethical assurance uses D-patterns when current.
 
-**Benefits**
+**Architecture documentation effort.** A team records work spent building a multi-view architecture description. `B.1.6` can aggregate the work-resource ledger. The architecture description itself remains `C.30.AD`; the usefulness or adequacy of a view remains `C.30.ASV` or its direct owner.
 
-* **Audit‑ready costing:** A single definition of Work makes multi‑scale totals consistent and comparable.
-* **Separation of concerns:** Control‑flow (Γ\_method) never contaminates cost accounting (Γ\_work).
-* **Cross‑scale reliability:** Partition/time additivity gives predictable roll‑ups from parts and phases.
-* **Safety by design:** WLNK gates reveal feasibility limits early; emergence is explicit via MHT.
+### B.1.6:6.1 - Bias-Annotation
 
-**Trade‑offs / mitigations**
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Plan becomes evidence | Expected yield or expected resource use is read as performed work. | Keep planned and measured values separate and name the work occurrence evidence. |
+| Boundary word carries accounting | A port, interface, team, device, or phase label is used without a holon delimitation or boundary-crossing relation. | Name the delimitation, stock, time window, and measurement relation before aggregating. |
+| Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a measurement, model, or mathematical-lens owner admits conversion. |
+| Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
+| Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence owners first; return to `B.2.P` only when whole reidentification remains current. |
 
-* **Boundary modelling effort:** Requires explicit ports and stock deltas. *Mitigation:* use A.14 templates for common boundary patterns.
-* **Vector heterogeneity:** Mixed units can be hard to read. *Mitigation:* keep vectors typed; add equivalence maps only when justified in `M_spec`.
-* **Independence discipline:** Shared stocks complicate additivity. *Mitigation:* elevate stock accounting to the parent boundary per CC‑B1.6.7.
+### B.1.6:7 - Conformance Checklist
 
-### B.1.6:12 - Rationale (informative)
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| CC-B1.6-1 | The aggregation names dated work occurrence refs or explicitly narrows use to planned estimates. | Prevents plans and method descriptions from masquerading as performed work. |
+| CC-B1.6-2 | Resource basis, units, measurement refs, evidence refs, and source refs are named. | Keeps resource values comparable and reviewable. |
+| CC-B1.6-3 | Holon delimitation and any boundary-crossing relation used for accounting are named by value. | Prevents an unexplained boundary word from carrying the claim. |
+| CC-B1.6-4 | Time windows, phase refs, and overlap and deduplication policy are present when slices or shared resources are aggregated. | Prevents double counting and missing epochs. |
+| CC-B1.6-5 | Method, method-description, work-plan, transformation, and whole-reidentification claims use their direct owners. | Keeps work-resource aggregation from absorbing neighboring objects. |
+| CC-B1.6-6 | `Gamma_work` is used only as notation over a recovered aggregation record. | Keeps algebraic notation from becoming ontology by spelling. |
 
-Γ\_work is a conservative algebra of **spent resources**. It respects physical conservation (mass/energy), supports information‑centric resources without conflation, and keeps the **design‑time** (MethodDescription) separate from **run‑time** (Work) facts (A.15). Additivity over disjoint boundaries and non‑overlapping phases is the minimal set of rules that yields stable cross‑scale accounting while remaining faithful to the universal invariants of B.1. Emergent efficiency (redundancy, substitution) is not “free”: it is made structural via **Meta‑Holon Transition** (B.2), after which the same algebra applies at the new level.
+### B.1.6:8 - Common Anti-Patterns and How to Avoid Them
 
-### B.1.6:13 - Relations
+| Overread | Repair |
+| --- | --- |
+| A method or algorithm is treated as the work-resource roll-up. | Use `A.3.1` or `A.3.2`; use `B.1.6` only for the resource aggregation claim. |
+| A work plan is treated as measured work. | Use `A.15.2` for the plan and `A.15.1` for performed work evidence. |
+| A phase label or timeline is treated as a resource ledger. | Use `B.1.4` for phase aggregation and add `B.1.6` only when resource values are being aggregated. |
+| A resource gain is treated as emergence. | Use measurement and evidence owners first; use `B.2.P` only if whole reidentification remains current. |
+| A dashboard or report total is treated as proof. | Recover publication-use, source-use, and evidence relations before using the total. |
 
-**C.27 temporal-claim relation.**
+### B.1.6:9 - Consequences
 
-- C.27 may flag: an authored claim that planned effort, actual effort trace, resource burn, effort window, resistance, or cost changes a temporal outcome.
-- This pattern keeps: `Gamma_work` actual work/resource aggregation; `Gamma_time` declared temporal slices and phase composition remain separate.
-- Non-admissible use: work logs, resource aggregation, or phase names do not by themselves infer acceleration, transition law, causal proof, or benchmark result.
-- Exit: use C.27 only for the temporal-claim adequacy question; use work/resource patterns for actual work evidence and cite dynamics, causal/evaluation, or benchmark patterns when those other questions are live.
+This pattern gives FPF a conservative place for work-resource aggregation without turning it into a general method algebra. It makes resource claims usable across levels, phases, and contexts while keeping performed work evidence, measurement, temporal coverage, and transformation separate.
 
-* **Builds on:** A.12 **Transformer Principle**; A.14 **Mereology Extension** (PortionOf, PhaseOf); A.15 **Strict Distinction** (MethodDescription / Method / Work).
-* **Coordinates with:** B.1.5 **Γ\_method** (order and concurrency), B.1.4 **Γ\_time** (temporal coverage), B.1.2 **Γ\_sys** (system assembly).
-* **Triggers:** B.2 **Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes** when feasibility constraints (WLNK) are beaten by structural redundancy/substitution.
-* **Feeds:** B.3 **Trust & Assurance Calculus (F–G–R with Congruence)** (cost‑aware confidence overlays) — informative only, without altering Γ\_work’s conservation semantics.
+The cost is explicit accounting discipline. The gain is that resource roll-ups become comparable without claiming more than the evidence and boundary relation allow.
 
-> **Summary for practitioners.**
-> Use **Γ\_method** to say **what happens and in which order**.
-> Use **Γ\_work** to say **what it costs across a boundary**.
-> Keep boundaries, time windows, units, yields, and transformers explicit.
-> When apparent “free gains” appear, declare the structural change (MHT) and apply the same algebra one level up.
+### B.1.6:9.1 - Rationale
+
+`B.1.6` exists because work-resource accounting is easy to confuse with method, plan, phase, transformation, evidence, and whole reidentification. The governed object is the resource aggregation claim over dated work occurrences or explicitly narrowed estimates. That claim needs a ledger discipline: typed resource basis, holon delimitation, time window, stock and boundary-crossing relation, measurement or evidence relation, and overlap policy.
+
+The pattern keeps the useful old `Gamma_work` notation, but only as notation over a recovered aggregation record. It also preserves the old planned-versus-measured warning: a method description or work plan can declare expected yield or expected resource use, but measured aggregation depends on dated work evidence.
+
+### B.1.6:9.2 - SoTA-Echoing
+
+| Source line | Practical implication for this pattern |
+| --- | --- |
+| Conservation and engineering accounting practice | Resource roll-ups need a selected basis, boundary, stock relation, and time window before addition is meaningful. |
+| Constructive mereology and phase discipline | Resource portions, work phases, and collection membership are different relations; `PortionOf`, `PhaseOf`, and `MemberOf` cannot substitute for one another. |
+| Measurement and mathematical-lens discipline | Unit conversion, normalization, efficiency, and typed vectors need their measurement, model, or mathematical-lens owner. |
+| Work/method distinction in FPF | A method, method description, or work plan can guide expected resource use, but performed-work aggregation requires dated work occurrence evidence. |
+
+### B.1.6:10 - Relations
+
+- Builds on `A.15.1` for dated work occurrence and on `A.15` for role-method-work alignment.
+- Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
+- Coordinates with `B.1.4` and `C.27` for phase and temporal-claim adequacy.
+- Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, phase, and constructive grounding.
+- Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
+- Coordinates with `C.16`, `C.29`, and `A.10` for measurement, mathematical lens, and evidence relations; source-use and publication-use relations remain with `E.17` or the direct source owner.
 
 ### B.1.6:End
 

@@ -1,36 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
+pattern_title: "Contextual and Temporal Aggregation"
 section_id: "B.1.4:1"
-section_title: "Problem frame"
+section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
-  - "B.1.4:1 — Problem frame"
-line_start: 30586
-line_end: 30594
+  - "B.1.4 — Contextual and Temporal Aggregation"
+  - "B.1.4:1 — Problem Frame"
+line_start: 31288
+line_end: 31293
 dependencies:
-  - "A.12"
+  - "A.1.1"
   - "A.14"
-  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "B.1"
-  - "B.1.1"
+  - "B.1.6"
+  - "B.2-family"
+  - "B.2.P"
+  - "C.13"
+  - "C.27"
+  - "C.27.TA"
+  - "C.29"
+  - "E.18"
+  - "E.18.2"
 keywords:
-  - "composition"
-  - "order-sensitive"
-  - "temporal aggregation"
-  - "time-series"
 ---
 
-### B.1.4:1 - Problem frame
+### B.1.4:1 - Problem Frame
 
-The universal algebra **Γ** (B.1) assumes local commutativity and locality for most structures. But many real‑world compositions are **not** order‑indifferent (recipes, proofs that unfold by steps, manufacturing routes), and many composites are **nothing but** a history (asset history, model revisions, experiment runs). For these cases FPF offers two universal flavours:
+Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine, paper, or dataset may be considered as the same carrier across phases. In these cases the aggregation is about contextual order or temporal coverage, not about a new level, a generic boundary, or a hidden interaction kind.
 
-* **Γ\_ctx** — **procedural composition** (where SerialStepOf / ParallelFactorOf edges are present; see B.1.5 Γ_method for typing and joins; A.14 governs only mereological edges such as PortionOf/PhaseOf).
-**Γ\_time** — *temporal* aggregation for **phase composition of the same carrier** (where `PhaseOf` edges from **A.14** are present).
-
-Both flavours **inherit WLNK and MONO** from the Quintet (B.1) and remain compatible with **A.12** (Transformer Principle) and **A.15** (Strict Distinction): they do *order* and *time*, not structure, mapping, or cost.
+`B.1.4` governs the aggregation claim. It asks which EntityOfConcern is being aggregated, which context or time window bounds the claim, which ordered or phase relation is being used, what the aggregate may be used for, and which neighboring owner must carry stronger claims.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
-line_start: 37610
-line_end: 37796
+line_start: 38911
+line_end: 39103
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,6 +38,12 @@ keywords:
 
 **Plain-name.** Language-state closure degree.
 
+**Use this pattern when.** Use C.2.5 when a governed `U.Episteme` publication must say how fixed its candidate space, route space, or frame space has become before endpoint use, reopening, or retreat.
+
+**What goes wrong if missed.** A confident tone is mistaken for closure, closure is mistaken for truth or gate authority, or a closure drop leaves endpoint expectations and route commitments silently hanging.
+
+**What this buys.** A separate ordinal characteristic for closure degree, so teams can distinguish exploration, stabilization, selected route, guarded fixation, and admissible retreat without collapsing closure into formality, articulation, warrant, or obligation.
+
 ### C.2.5:1 - Problem frame
 A governed `U.Episteme` may already be explicit enough for publication while its declared position claim remains intentionally open to rival routes or frames. The declared language-state chart over `U.CharacteristicSpace` therefore needs a separate basis-slot governing pattern for how fixed or closed the current candidate space has become.
 
@@ -54,9 +60,9 @@ Closure is often hidden inside vague words such as "ready", "settled", or "open"
 ### C.2.5:4 - Solution
 `U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
 
-#### C.2.5:4.0a - E.24.UK settlement
+#### C.2.5:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateClosureDegree` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
+`U.LanguageStateClosureDegree` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.
@@ -144,7 +150,7 @@ To assign `CD`, ask:
 - what would count as an admissible reopen trigger?
 
 #### C.2.5:14.2 - Review prompt
-A reviewer should ask whether closure is being inferred from tone, from hierarchy, or from social pressure rather than from an explicit narrowing of route or frame space.
+An assurance reader should ask whether closure is being inferred from tone, from hierarchy, or from social force rather than from an explicit narrowing of route or frame space.
 
 #### C.2.5:14.3 - Governance note
 Whenever `CD` substantively affects gates, commitments, or late endpoint authority, the supporting guard, `governingPatternRef`, or `authoritySourceRef` should be visible.
@@ -177,10 +183,10 @@ Closure may rise because evidence eliminates rivals, governance temporarily bind
 #### C.2.5:16.3 - Partial-closure rule
 Closure may be local rather than global. A note can be closed enough for one route while remaining open about broader explanation or classification; a prompt may be fixed enough to hold one question steady while still open enough that rival answers remain live. Publish that locality explicitly.
 
-### C.2.5:17 - Retained and Withdrawn Authority Handling
+### C.2.5:17 - Continuing and Withdrawn Authority Handling
 
 #### C.2.5:17.1 - Authority retention rule
-If higher `CD` carried endpoint expectations, guard pressure, or route commitments, a later closure drop must say which consequences remain and which are withdrawn.
+If higher `CD` carried endpoint expectations, guard claims, or route commitments, a closure drop must say which consequences remain and which are withdrawn.
 
 #### C.2.5:17.2 - Admissible retreat record
 An admissible retreat through `reopen`, `sketchBackoff`, or `respecify` should retain:
@@ -198,7 +204,7 @@ High `CD` may coexist with obligations, but `CD` is not itself an obligation-bea
 ### C.2.5:18 - Review Matrix and Reopen Tests
 
 #### C.2.5:18.1 - Review matrix
-A reviewer should ask:
+An assurance reader should ask:
 
 - what was narrowed;
 - by what `governingPatternRef`, `authoritySourceRef`, or guard it was narrowed;

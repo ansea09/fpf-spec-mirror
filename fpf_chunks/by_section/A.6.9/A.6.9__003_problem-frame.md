@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
 section_id: "A.6.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__003_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:1 — Problem frame"
-line_start: 17441
-line_end: 17457
+line_start: 17719
+line_end: 17735
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -51,9 +51,9 @@ In FPF terms, this is almost never a single claim. It is a *Bridge situation* th
 * a potentially hidden **direction** (A→B is not B→A);
 * a hidden **degree of fit** (≈ vs ⊑/⊒ vs ⋂ vs ⊥, or interpretation‑only);
 * near‑inevitable **loss/distortion** on transfer;
-* a (usually implicit) **edition / time‑slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
+* a (usually implicit) **edition or time-slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
 * a usually implicit **facet span** (`facetSpan`; “which aspects are being aligned?”) — the correspondence is often a *partial lens*, not whole‑cell sameness;
-* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
+* a critical ambiguity between **lexical synonymy or translation** (“same word or label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ-normalization or unit conversion”).
 * a critical ambiguity between **explaining** a correspondence and **licensing substitution**.
 
 A.6.9 is the RPR specialisation that makes this structure explicit and prevents accidental “global identity” claims when the author’s intent is merely naming convenience or interpretive help.

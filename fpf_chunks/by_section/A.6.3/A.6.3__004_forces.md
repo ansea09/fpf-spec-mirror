@@ -6,12 +6,12 @@ section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:3 — Forces"
-line_start: 10984
-line_end: 11004
+line_start: 11191
+line_end: 11211
 dependencies:
   - "A.6.0"
   - "A.6.2"

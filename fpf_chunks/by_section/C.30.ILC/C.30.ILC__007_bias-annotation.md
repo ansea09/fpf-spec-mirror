@@ -6,12 +6,12 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 54770
-line_end: 54782
+line_start: 56628
+line_end: 56640
 dependencies:
   - "A.10"
   - "A.22"
@@ -48,7 +48,7 @@ keywords:
 * **Frustration-ontology bias.** A useful conflict or frustration entry label becomes a new first-order architecture kind, physics ontology, biology ontology, or psychology claim. Repair by recovering declared holon levels or declared scopes, the level-bearing structure, conflict carriers, residual-bearing locus, and the governing pattern for any lens, proof, evidence, mediation, or synthesis claim.
 * **Global-optimizer bias.** Local optimization in one declared holon level or declared scope is used as if the architecture literally optimizes one global function. Repair by keeping the local optimization claim as a triage input unless `C.29` supplies an admissible mathematical-lens use with recoverable level mapping or scale mapping and the candidate-set or decision pattern carries any synthesis or selection claim.
 * **Measurement-first bias.** A residual is measured before its level-bearing structure and scope grounding are declared. Repair by applying `C.16` or the characteristic pattern governing the characteristic under evaluation only after triage names the affected characteristic or measurement relation.
-* **Mediation-default bias.** Every conflict is treated as stakeholder conflict. Repair by checking whether the use under repair is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
+* **Mediation-default bias.** Every conflict is treated as ethical mediation or negotiation. Repair by checking whether the use under repair is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before applying `G.5` to a residual-reducing candidate set.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.

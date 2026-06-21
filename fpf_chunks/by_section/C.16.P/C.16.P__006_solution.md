@@ -6,12 +6,12 @@ section_id: "C.16.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:4 — Solution"
-line_start: 41566
-line_end: 41608
+line_start: 43054
+line_end: 43096
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ Use the full note only when the repair must remain inspectable. Use a local rewr
 #### C.16.P:4.1 - Recovery sequence
 
 1. **Capture the trigger.** Copy the exact word or phrase and the sentence that uses it.
-2. **Recover the bearer.** Name what is being characterized: holon, pattern, DRR, architecture description, structure, model, method, work result, publication, candidate, relation, decision option, evidence path, or another FPF kind named by value.
+2. **Recover the bearer.** Name what is being characterized: holon, pattern, design-rationale record, architecture description, structure, model, method, work result, publication, candidate, relation, decision option, evidence relation, or another FPF kind named by value.
 3. **Recover the construction.** Decide whether the trigger means `Characteristic`, `Scale`, coordinate, value, score, unit, scoring method, indicator, threshold, comparison reference or comparator set, proxy, Q-bundle, mathematical lens, gate, evidence, decision, or ordinary prose.
 4. **Select direct governing pattern when possible.** If `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or another governing pattern is already recoverable, use it directly.
 5. **Repair hidden characteristic and scale construction.** When construction is hidden, recover the minimal needed set: characteristic, scale, value set, score, unit, scoring method, indicator role, comparison reference or comparator set, threshold rule or reference, admissible use, and non-admissible use.

@@ -6,12 +6,12 @@ section_id: "E.17.2:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:1 — Problem frame  (informative)"
-line_start: 63733
-line_end: 63751
+line_start: 66327
+line_end: 66345
 dependencies:
   - "A.1"
   - "A.15"
@@ -35,7 +35,7 @@ keywords:
 
 Engineering teams almost always talk about systems and their models through a **small set of recurring “views”**:
 * *What capabilities and behaviours does the system enact?* — function‑oriented, transformation‑oriented talk.
-* *What sequences, workflow structures, and control logics does it realise?* — procedure-, process-, and state-oriented talk.
+* *What method descriptions, procedure structures, and control-logic descriptions does it realize?* — procedure-, method-, and state-oriented talk.
 * *Which systems or acting holons are assigned which work-facing roles, responsibilities, or allocation expectations?* — role-assignment, organisational and socio-technical talk.
 * *How is the system decomposed into modules and interfaces?* — physical and logical architecture talk.
 

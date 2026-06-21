@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 46234
-line_end: 46304
+line_start: 47822
+line_end: 47896
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,10 @@ FPF already has local patterns for decisions, boundaries, bridges, work, measure
 
 Use this pattern when the ordinary FPF pattern remains active but misses one extra representational issue: the act of probing, framing, exporting, comparing, or coarsening changes what can admissibly be inferred from the represented state. The useful move is small. Add a quantum-like mathematical lens only where it tells the user how to avoid a concrete representational mistake.
 
+**What goes wrong if missed.** A dashboard, workshop, metric, bridge, export, or coarsened model is treated as a passive faithful readout even when the probe, frame, publication, or representation shortcut changes what can be inferred.
+
+**What this buys.** The user keeps the ordinary FPF pattern in charge and adds only the minimum quantum-like lens needed to prevent that concrete representational mistake.
+
 This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in role to probability, calculus, optimization, or state-space modeling. It is cheap as a QL-lite note and expensive only when the claim becomes reusable law, assurance evidence, empirical superiority, formal reconstruction, or ontology.
 
 Unifying principle: use QL to cheapen the first correct move, not to make the first mention more expensive.
@@ -77,7 +81,7 @@ What this lens buys in practice:
 | Admissible coarsening use | Use a cheaper state representation when it helps, while keeping source, loss, admissible use, non-admissible use, and reopen condition visible. |
 
 Plain glosses:
-- `quantum-like`: a detached mathematical / representational lens, not a claim about what the target is made of.
+- `quantum-like`: a detached mathematical or representational lens, not a claim about what the target is made of.
 - `probe`: an operation that both produces an output and may change the represented state or admissible use of the output.
 - `frame`: a probe frame, measurement frame, comparison frame, or model frame. If the text means FPF semantic context, say `U.BoundedContext` or bounded context explicitly.
 - `state`: the represented condition relevant to the current decision, not a generic new `U.State` kind.
@@ -109,11 +113,11 @@ Example style:
 
 Informative bilingual translation note:
 
-| English | Prefer in Russian / bilingual use | Risk |
+| English | Prefer in Russian or bilingual use | Risk |
 | --- | --- | --- |
 | `probe` | probe / пробное воздействие / считывающее взаимодействие | "измерение" is too narrow; "зонд" sounds too physical. |
 | `state reading` | чтение состояния / state-reading claim | "состояние" without reading sounds ontological. |
-| `frame` | рамка сравнения / probe frame / model frame | "контекст" can collide with bounded context. |
+| `frame` | рамка сравнения, probe frame, or model frame | "контекст" can collide with bounded context. |
 | `instrument` | instrument-like operation / операция-инструмент | "прибор" sounds too physical. |
 | `distributed state` | distributed-state reading | "распределённое состояние" sounds like a new object. |
 | `faithful-enough export` | достаточно верный перенос для заявленного use | "копия" suggests an impossible-copy ideal. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 20764
-line_end: 21189
+line_start: 21310
+line_end: 21749
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -60,7 +60,7 @@ keywords:
 
 **First-use checks.**
 1. Name the candidate occurrence and the work-facing claim that depends on it.
-2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, system or subsystem accountable for the occurrence, affected referent, parameters, resources, outcome, and evidence relation when current.
+2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, accountable `U.System` or system in subsystem position, affected referent, parameters, resources, outcome, and evidence relation when current.
 3. Decide whether the encountered record, trace, or source candidate or display is performed `U.Work`, only a plan (`A.15.2`), only a method (`A.3.1`), only a method description (`A.3.2`), only evidence for work (`A.10`), only a publication-use relation (`E.17`), only a declarative representation (`C.2.P.DR` or the direct representation pattern), or a work-relevant source-restoration case (`A.15.4`).
 4. For composite, repeated, interrupted, or overlapping occurrences, declare the work-part relation and aggregation policy before using totals or identity claims.
 5. If the required occurrence references cannot be recovered, lower the claim to a source-gap note, work-evidence note, plan note, publication-use note, declarative-representation note, or source-restoration request; do not backdate work.
@@ -105,7 +105,7 @@ That concept is **`U.Work`**: the **dated run-time occurrence** of enacting a `U
 
 #### A.15.1:4.1 - Definition
 
-**`U.Work`** is a **4D occurrence holon**: a **dated run-time enactment** of a `U.Method` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System` or `U.SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes and produces resources, and leaves an auditable trace. When a method-description source is current, `methodDescriptionRef` names the `U.MethodDescription` used to identify, constrain, or justify the enacted method.
+**`U.Work`** is a **4D occurrence holon**: a **dated run-time enactment** of a `U.Method` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System`**, including a system in subsystem position when the larger-holon part relation is current, inside a `U.BoundedContext`, that binds concrete parameters, consumes and produces resources, and leaves an auditable trace. When a method-description source is current, `methodDescriptionRef` names the `U.MethodDescription` used to identify, constrain, or justify the enacted method.
 When the current claim needs a formal state-change witness, represent the occurrence through a **morphism** `Δ` on a declared **state-plane** (`StatePlaneRef`), mapping pre-state plus inputs to post-state plus outputs for one or more **affected referents**. The work itself remains the dated occurrence; the morphism is the selected mathematical-lens expression for its delta claim.
 
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, accountable).
@@ -124,7 +124,7 @@ When you describe a Work instance in a review, answer these prompts:
 8. **Links** — predecessor, successor, and overlap relations to other Work, plus step or run nesting if part of a bigger operation.
 9. **Context** — the bounded context under which this run is judged, normally inherited from the method-description source and `U.RoleAssignment`; see A.15 for cross-checks.
 10. **Effect (Δ)** — `affected → {referent(s)}` + **pre-state reference** and **post-state reference** (or a declared **Δ-predicate** evaluated on evidence) on the declared state-plane (**StatePlaneRef**).
-11. **System** — `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence; required for admitting the performed-work claim).
+11. **System** — `executedWithin -> U.System`; if ordinary speech says subsystem, name the `U.System` in subsystem position plus the part relation to the larger holon under A.1, A.14, or B.1.2 (required for admitting the performed-work claim).
 12. **Evidence and telemetry references (when current)** — if the run feeds G.11 refresh or QD and OEE archives, cite the telemetry, evidence, archive, and policy references declared by the governing comparison, archive, evidence, or refresh pattern; do not elevate telemetry into dominance without the governing comparison or archive policy.
 
 #### A.15.1:4.3 - Clear distinctions (the four‑slot grammar in action)
@@ -244,6 +244,16 @@ For any work occurrence with parts, the **effect of the whole** is the rules-dec
 * **Work identity:** the occurrence is identified by the run interval plus occurrence references; the thermodynamic state-plane trace is a dynamics or geometry relation used to describe the change, not a work-control relation or ordered instruction sequence.
 * **Γ\_time:** straightforward interval; **Γ\_work:** integrates energy exchange; no “steps” required.
 
+### A.15.1:6.4 - Bias-Annotation
+
+| Bias | How A.15.1 prevents it |
+| --- | --- |
+| Plan-as-work bias | `U.WorkPlan`, schedules, method descriptions, and intended parameter bindings stay separate from the dated occurrence. |
+| Log-as-work bias | Telemetry, dashboards, provenance rows, and work publications can evidence or describe a work occurrence; they do not become the occurrence. |
+| Method-as-occurrence bias | `U.Method` and `U.MethodDescription` identify or constrain the way of doing; `U.Work` records the run-time enactment. |
+| Evidence-as-authority bias | Evidence, assurance, gate, release, and causal-use claims keep their governing patterns and do not follow from a work record by appearance. |
+| Record-only transformation bias | Record manipulation qualifies as `U.Work` only when the context declares the record or dataset as the affected product referent. |
+
 ### A.15.1:7 - Scope Declaration and Rationale
 
 * **Applicability:** Use the same occurrence test for pragmatic costing, architectural accountability, teaching examples, and source or evidence questions; when the current claim is only about a description, publication, source, or evidence relation, apply the governing pattern for that claim.
@@ -260,7 +270,7 @@ A conforming `U.Work` claim names:
 (a) `enactsMethod -> U.Method` (the method enacted),
 (b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is current,
 (c) `performedBy -> U.RoleAssignment` (the assigned performer in context), and
-(d) `executedWithin -> U.System` or `executedWithin -> U.SubSystem` (the operational system or subsystem accountable for the occurrence).
+(d) `executedWithin -> U.System`; if ordinary speech says subsystem, name the `U.System` in subsystem position plus the part relation to the larger holon under A.1, A.14, or B.1.2.
 
 **CC-A15.1-3 (Time window).**
 A conforming `U.Work` claim carries a closed interval `[t_start, t_end]`, or an explicitly marked open end for in-flight work, and, where relevant, location or asset.
@@ -326,7 +336,7 @@ Each `U.Work` claim carries either explicit pre-state and post-state references 
 A run whose only effect is copying or reformatting records qualifies as `U.Work` only when the judgement context declares those records to be the product referent, such as data-product manufacture.
 
 **CC-A15.1-22 (Executed-within declaration).**
-Each `U.Work` claim names `executedWithin -> U.System` or `executedWithin -> U.SubSystem`; when that system differs from the asset of change, keep `affected` explicit.
+Each `U.Work` claim names `executedWithin -> U.System`; when the accountable system is a subsystem in ordinary speech, name the system and its part relation to the larger holon. When that system differs from the asset of change, keep `affected` explicit.
 
 **CC-A15.1-23 (Compositionality of delta).**
 For composite work, the parent effect is the declared composition of child effects under the same overlap policy as `Gamma_work`.
@@ -399,7 +409,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 > **Manager’s mnemonic:** Context, assignment, Standard → **CAC**. Fail any → the Work is not acceptable *here* (perhaps acceptable elsewhere).
 
-### A.15.1:11 - Anti‑patterns (and the right move)
+### A.15.1:11 - Common Anti-Patterns and How to Avoid Them
 
 * **"The log is the performed run."** Dumping telemetry without occurrence references (method-description source when current, performer, time window, affected referent, context) -> **Not Work**. Create a work-occurrence record and link the log as evidence.
 * **Record-only transforms.** ETL or replication of records with no declared affected referent (product or dataset as product) -> **Not Work** in this context; either declare the dataset as the product referent or move it to `U.WorkPlan` or the relevant operations pattern.
@@ -429,14 +439,18 @@ When a Work is recorded, perform these **three quick checks**:
 | **Cross‑context clarity.** CAC checks prevent silent model drift; bridges make acceptance explicit.                      | **Bridge upkeep.** Keep mappings short and focused; review at releases.                    |
 | **4D extensional coherence.** Parts, overlaps, and retries stop double-counting and identity confusion.                  | **Learning curve.** Teach episode vs retry; include examples in onboarding.                |
 
-### A.15.1:13a - SoTA Alignment
+### A.15.1:13.0 - Rationale
+
+`U.Work` is kept as a dated occurrence because method, method description, work plan, and result are different FPF objects. The same source phrase can point to several of them, but performed-work claims need occurrence evidence, time bounds, role assignment, and affected EntityOfConcern rather than a convenient method or plan label. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
+
+### A.15.1:13.1 - SoTA-Echoing
 
 **SoTA alignment rule.** A source tradition counts here only when it preserves the local `U.Work` distinction: dated occurrence, role-assigned performer, enacted method, method-description source when current, time window, affected referent, resources, outcome, and evidence-provenance relation. Historical occurrence modeling is used as lineage only when a current standard or current practice still needs the same distinction.
 
 | Source tradition | Current source reference and status | Local invariant adopted | Shortcut rejected |
 | --- | --- | --- | --- |
 | Occurrent and 4D occurrence ontology | ISO/IEC 21838-2:2021 / BFO 2020; BORO-style extensionalism used as historical lineage for identity criteria. | `U.Work` is an occurrence with temporal extent and occurrence references; parts, retries, resumptions, and overlaps stay explicit. | Treating a method factor, diagram, role label, or log entry as proof of a performed occurrence. |
-| Object-centric event logging and process mining | OCEL 2.0 Specification (2024) and object-centric process-mining practice. | Event records can support evidence/provenance use for work only after they are bound to involved objects, performer or role-assignment relation, method, time window, context, and affected referent. | Treating telemetry or event rows alone as `U.Work`. |
+| Object-centric event logging and process mining | OCEL 2.0 Specification (2024) and object-centric process-mining practice. | Event records can enter an evidence or provenance relation for work only after they are bound to involved objects, performer or role-assignment relation, method, time window, context, and affected referent. | Treating telemetry or event rows alone as `U.Work`. |
 | Observability and telemetry practice | OpenTelemetry Specification 1.57.0 and current traces, metrics, and logs practice. | Telemetry is an evidence relation or archive input. It can replay, measure, or diagnose a work occurrence, but the occurrence still needs performer, method, context, time window, affected referent, resources, and outcome. | Counting trace, metric, or log existence as the performed work or as dominance evidence without the governing comparison or archive policy. |
 | Provenance and evidence-provenance practice | W3C PROV mature recommendation plus 2024 PROV-O/BFO alignment work. | Work records state evidence-provenance relation references and currentness notes without letting evidence, assurance, gate, or provenance claims replace the occurrence. | Using a provenance relation, assurance statement, or gate result as if it were the performed work. |
 | Temporal-interval and aggregation practice | Interval-algebra lineage plus current operations-management use of utilization, lead-time, and resource-ledger roll-ups. | Roll-ups require declared `Gamma_time`, `Gamma_work`, and overlap policy; partial order and overlap are not hidden in step labels. | Mixing union, hull, parent cost, child cost, and ordinal comparison without a declared policy. |

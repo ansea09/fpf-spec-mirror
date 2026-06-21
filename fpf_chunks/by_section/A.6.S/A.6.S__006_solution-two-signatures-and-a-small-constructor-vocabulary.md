@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution — two signatures and a small constructor vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-two-signatures-and-a-small-constructor-vocabulary.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:4 — Solution — two signatures and a small constructor vocabulary"
-line_start: 17908
-line_end: 18093
+line_start: 18192
+line_end: 18377
 dependencies:
   - "A.12"
   - "A.3"
@@ -60,7 +60,7 @@ This pattern relies on **Strict Distinction** (A.7), transformation discipline (
 
 * **Enactor (capability) vs enactment (world-contact).**
   A system or acting holon with a current `U.RoleAssignment` uses a **Method** or **MethodDescription** that realises the constructor operations, and enacts particular steps as dated **Work** on carriers (repos, releases, pins, carrier/source-currentness references).
-  This is where traces, review records, evidence bindings, and publication carriers appear.
+  This is where traces, review records, evidence refs, and publication carriers appear.
 
 Therefore:
 
@@ -150,7 +150,7 @@ Make base declarations and their evolution explicit via base‑change verbs such
 A ConstructorSignature does not need *all* of these in every use, but it must provide enough to express “what changed” when the SoI’s grounding base, scope, or anchoring assumptions shift.
 
 **Witness refresh note.**
-`refreshWitnesses` is an **edit of witness bindings**, not the generation of new evidence: producing/collecting new witness carriers is **Work**; `refreshWitnesses` only updates the base declaration to reference them.
+`refreshWitnesses` is an **edit of witness references**, not the generation of new evidence: producing/collecting new witness carriers is **Work**; `refreshWitnesses` only updates the base declaration to reference them.
 
 **Optional but common: view construction operations (A.6.3)**
 

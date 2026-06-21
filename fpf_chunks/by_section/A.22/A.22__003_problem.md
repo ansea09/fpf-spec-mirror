@@ -6,12 +6,12 @@ section_id: "A.22:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:2 — Problem"
-line_start: 29321
-line_end: 29340
+line_start: 29980
+line_end: 29999
 dependencies:
   - "A.1"
   - "A.10"
@@ -74,7 +74,7 @@ FPF needs a selected-structure EntityOfConcern that is useful before any one dom
 
 How can FPF let a practitioner name structure as an EntityOfConcern while preserving the distinction between:
 
-- selected structure and the source, evidence path, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
+- selected structure and the source relation, evidence relation, lens output, simulation, generated representation, or declared substrate from which it was inferred or declared;
 - structure and a Description episteme or view of that structure;
 - structure and a publication face, diagram, table, graph, or publication form;
 - structure and mathematical-lens application;

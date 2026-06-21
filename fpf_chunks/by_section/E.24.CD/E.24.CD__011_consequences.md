@@ -6,12 +6,12 @@ section_id: "E.24.CD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__011_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:9 — Consequences"
-line_start: 70661
-line_end: 70675
+line_start: 73326
+line_end: 73340
 dependencies:
   - "A.19"
   - "A.19.ECS"

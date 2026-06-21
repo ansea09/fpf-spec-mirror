@@ -1,0 +1,48 @@
+---
+chunk_kind: "child"
+pattern_id: "A.2.4"
+pattern_title: "Episteme Evidence-Use and Status-Use Relations"
+section_id: "A.2.4:11"
+section_title: "Relations"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.2.4/A.2.4__013_relations.md"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+heading_path:
+  - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
+  - "A.2.4:11 — Relations"
+line_start: 3687
+line_end: 3693
+dependencies:
+  - "A.10"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.4"
+  - "A.6.5"
+  - "B.3"
+  - "C.2.1"
+  - "C.28"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.0"
+  - "E.17.2"
+  - "E.17.EFP"
+  - "F.10"
+  - "G.6"
+  - "U.Role"
+  - "U.RoleAssignment"
+keywords:
+  - "claim"
+  - "episteme"
+  - "evidence-use"
+  - "provenance"
+  - "source-use"
+  - "status-use"
+---
+
+### A.2.4:11 - Relations
+
+* **Builds on:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `A.6.5` for SlotSpec discipline, and `C.2.1` for episteme slot relation and episteme identity.
+* **Coordinates with:** `A.10` for evidence-provenance graph relation; `B.3` for assurance; `C.28` for causal-use evidence classes; `F.10` for status families; `G.6` for evidence graph and provenance ledgers; `E.17`, `E.17.0`, `E.17.2`, and `E.17.EFP` for publication, view, and explanation-use cases; `E.10.D2` for EntityOfConcern, description episteme, and specification-use discipline.
+* **Separates from:** `A.15.1` for producing work; `A.15.2` for planned work; gate patterns for gate passage; `A.2.8` and `A.2.9` for commitments and speech acts; source-currentness patterns for source freshness and source order.
+* **Precision-restoration owners:** When source wording says "evidence role", "status role", "standard role", or another role-shaped phrase around an episteme, use `A.6.RSIR` for relation-slot or role-like slot recovery and `E.10.ARCH` for ontology-first repair architecture.
+

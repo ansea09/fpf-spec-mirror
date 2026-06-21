@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.7.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
-line_start: 16461
-line_end: 16901
+line_start: 16731
+line_end: 17171
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -47,12 +47,12 @@ keywords:
 
 **Builds on.** E.8 (pattern template discipline), A.6.1 (`U.Mechanism.Intension` canonical form), A.6.5 (slot/ref discipline), E.10 (lexical + ontological rules; strict distinction; minimal specificity; kind suffixes), E.19 (conformance checks), E.18 (transformation-flow structure and P2W carry-through discipline; crossing visibility), A.21 (OperationalGate(profile) and gate-level decisions).
 
-**Used by.** Any framework area that needs a stable “universal kernel” shared across multiple mechanisms (notably the universalization of Part G patterns, including but not limited to G.5), and any “mechanism stack” whose correctness is defined by **shared legality + transport + audit obligations** rather than by a single shared `BaseType`.
+**Used by.** Any framework area that needs a stable universal kernel shared across multiple mechanisms (notably the universalization of Part G patterns, including but not limited to G.5), and any mechanism stack whose correctness is defined by **shared admissibility + transport + audit obligations** and declared mechanism intensions.
 
 **Mint vs reuse.**
 
 * **Mints:** `MechSuiteDescription` (KernelToken, Description) and the record names used by its canonical form: `MechSuiteId`, `SuiteObligation`, `SuiteObligations`, `SuiteSpecPins`, `SuiteProtocol`, `ProtocolStep`, `SuiteAuditObligations`.
-* **Reuses (by reference):** `U.Mechanism.Intension` (members), `MechFamilyDescription` / `MechInstanceDescription` (optional citations), existing pinned references such as `CN‑Spec` / `CG‑Spec` (as pins), and E.18/P2W notions (as obligations/pins), without introducing new `U.*` kernel types.
+* **Reuses (by reference):** `U.Mechanism.Intension` (members), `MechFamilyDescription` / `MechInstanceDescription` (optional citations), existing pinned references such as `CN‑Spec` / `CG‑Spec` (as pins), and E.18/P2W notions (as obligations/pins), without introducing new U-kinds.
 
 **LEX.TokenClass.**
 * `LEX.TokenClass(MechSuiteDescription) = KernelToken.`
@@ -63,11 +63,11 @@ keywords:
 * `LEX.TokenClass(SuiteAuditObligations) = KernelToken.`
 
 **EntityOfConcern / Description / specification-use.** Description (D); Tech name ends with `…Description`.
-Lexical note: do **not** prefix this token with `U.` — `U.*` is reserved for Kernel **types**, while `MechSuiteDescription` is a Kernel **descriptor** (Description token).
+Lexical note: do **not** prefix this token with `U.`. The `U.*` namespace is for admitted U-kinds and governed kernel values; `MechSuiteDescription` is a description value for a suite of mechanism intensions, not a root kind.
 
 ### A.6.7:1 - Problem frame
 
-In FPF, a **mechanism** is a node-level `U.Mechanism.Intension` with explicit SlotSpecs inside operator signatures, and a declared LawSet/guards/transport/audit (A.6.1, A.6.5). Many architectures, however, require **a stable bundle of multiple different mechanisms** that are intended to be used together under shared legality and crossing discipline (e.g., a characterization chain, a legality-gated selection pipeline, or a universal Part‑G kernel that multiple G.* patterns must reuse).
+In FPF, a **mechanism** is a node-level `U.Mechanism.Intension` with explicit SlotSpecs inside operator signatures, and a declared LawSet/guards/transport/audit (A.6.1, A.6.5). Many architectures, however, require **a stable bundle of multiple different mechanisms** that are intended to be used together under shared admissibility and crossing discipline (e.g., a characterization chain, an admissibility-gated selection pipeline, or a universal Part-G kernel that multiple G.* patterns must reuse).
 
 FPF already has `MechFamilyDescription`, but its meaning is: **many realizations of one and the same `U.Mechanism.Intension`**. That construct cannot correctly represent a bundle of different mechanisms (different intensions), and trying to overload it creates a level error.
 
@@ -78,7 +78,7 @@ Additionally, FPF reserves “Pack” for publication/shipping bundling (e.g., G
 We need a Kernel-level descriptor that can:
 
 1. represent a **set of distinct mechanisms** (distinct `U.Mechanism.Intension`),
-2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, legality citation discipline, guard decision format, penalty routing),
+2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, admissibility-citation discipline, guard decision format, penalty routing),
 3. provide **shared spec pins** (e.g., “this suite is governed by CN-Spec and CG-Spec”), without duplicating those spec contents,
 4. constrain **allowed protocols** of use (allowed pipelines / permitted ordering), without turning the suite into a mechanism, and
 5. preserve strict distinction among:
@@ -98,7 +98,7 @@ We need a Kernel-level descriptor that can:
    It must not capture a particular domain (e.g., CHR) in the Kernel name.
 
 3. **Governing spec ref centrality (CN‑Spec and CG‑Spec).**
-   Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing “centers of legality” arise.
+   Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.
 
 4. **Transport and crossing visibility discipline.**
    Cross-context and cross-plane steps must be visible and bridge-only; penalties must route to `R/R_eff` only; suites must not embed CL/Φ/Ψ/Φ_plane tables. Visibility is mediated via E.18 / P2W (crossing bundles + UTS/Path pins), not by “implicit semantics”.
@@ -175,7 +175,7 @@ MechSuiteDescription := ⟨
 * **WF‑MS‑4 (Suite ≠ Mechanism).** `MechSuiteDescription` contains no `OperationAlgebra`/`LawSet`/execution semantics and is not admissible where a `U.Mechanism.*` node is required.
 
 * **Membership is by mechanism intension (order-free).**
-  `mechanisms` MUST denote a duplicates-free set of distinct `U.Mechanism.Intension` members. Membership order has no semantics; any intended ordering is expressed only in `suite_protocols`. A suite is **not** defined by a shared `BaseType`.
+  `mechanisms` MUST denote a duplicates-free set of distinct `U.Mechanism.Intension` members. Membership order has no semantics; any intended ordering is expressed only in `suite_protocols`. A suite is defined by declared mechanism intensions and suite protocols.
 
 * **No substitution by `MechFamilyDescription`.**
   A suite MUST NOT be encoded as a `MechFamilyDescription`.
@@ -189,7 +189,7 @@ MechSuiteDescription := ⟨
 
 #### A.6.7:4.2 SuiteObligations (canonical obligation vocabulary)
 
-`MechSuiteDescription` MAY declare any obligations, but the following obligation vocabulary is **canonical** and is intended to be reused across the universalization of Part G and legality-gated characterization stacks.
+`MechSuiteDescription` MAY declare any obligations, but the following obligation vocabulary is **canonical** and is intended to be reused across the universalization of Part G and admissibility-gated characterization stacks.
 
 `SuiteObligations` SHOULD be written as an explicit clause set, e.g.:
 
@@ -239,7 +239,7 @@ SuiteObligations := {
    Well-formedness constraint: `USM.CompareGuard` and `USM.LaunchGuard` denote gate-owned guard events/pins; member mechanisms and suite protocols use `…Admissibility` / `…Eligibility` for guard predicates, not the reserved gate lexemes.
 
 6. **`cg_spec_cite_required_for_numeric_ops`.**
-   Well-formedness constraint: any member operation that performs numeric comparison/aggregation/legality-sensitive scoring cites the applicable `CG‑Spec` (and relevant subrefs) as spec pins, rather than embedding equivalent “local legality” content.
+   Well-formedness constraint: any member operation that performs numeric comparison/aggregation/admissibility-sensitive scoring cites the applicable `CG-Spec` (and relevant subrefs) as spec pins, rather than embedding equivalent local admissibility content.
 
 7. **`no_silent_scalarisation_of_partial_orders` and `no_silent_totalisation`.**
    Well-formedness constraint: if a member mechanism induces a partial order, it preserves set-/relation-valued semantics; it does not silently reduce to a scalar/total order. Any totalization is explicit and policy-bound.
@@ -273,7 +273,7 @@ SuiteSpecPins := ⟨
 
 **Norms.**
 
-* If the suite is legality-gated for characterization, `CNSpecRef` and `CGSpecRef` MUST be required (as references/pins).
+* If the suite is admissibility-gated for characterization, `CNSpecRef` and `CGSpecRef` MUST be required (as references/pins).
 * Spec pins are citations and anchors. They do not replace the underlying `…Spec` objects.
 * A suite MAY require the presence of a planned-baseline WorkPlanning plan item in P2W (e.g., a WorkPlanning plan item such as `…SlotFillingsPlanItem` that pins chosen refs/editions), but MUST treat it as a **reference/pin requirement**, not as a place to store launch values or gate decisions.
   When required, the planned-baseline WorkPlanning plan item is authored in `WorkPlanning` and is citeable by downstream `U.Work.Audit`; any `FinalizeLaunchValues` witness remains `U.WorkEnactment`-only.
@@ -285,7 +285,7 @@ A suite MAY describe allowed protocols (pipelines) as descriptive constraints on
 
 * MUST name the member mechanisms it uses (explicitly; no “implicit use”),
 * MAY mark steps as optional,
-* MUST NOT introduce hidden crossings or hidden legality steps,
+* MUST NOT introduce hidden crossings or hidden admissibility steps,
 * MUST treat “publish/telemetry” as an external protocol step that is realized through existing publication surfaces (e.g., Part G shipping), rather than as a hidden tail inside a mechanism.
 
 A canonical shape for protocols:
@@ -321,7 +321,7 @@ A suite MAY require that downstream use provide certain audit anchors. These are
 
 #### A.6.7:4.6 Examples (tell–show–show discipline)
 
-**Example 1 (conformant).** A characterization legality suite:
+**Example 1 (conformant).** A characterization admissibility suite:
 
 ```
 CHRMechanismSuiteDescription : MechSuiteDescription :=
@@ -375,7 +375,7 @@ Common biases this pattern guards against:
 * **Overloading “family”.** Treating “many different mechanisms” as “many realizations of one mechanism” destroys level hygiene and encourages semantic drift across members.
 * **Publication conflation.** Using “pack” semantics to smuggle publication/shipping obligations into the meaning of a mechanism bundle.
 * **Gate conflation.** Treating suite-level obligations as gate decisions (“block”) instead of keeping `block` at the gate layer.
-* **Convenience totalization.** Collapsing partial orders into scalars “for ease of selection”, which undermines set-return semantics and legality gating.
+* **Convenience totalization.** Collapsing partial orders into scalars “for ease of selection”, which undermines set-return semantics and admissibility gating.
 
 ### A.6.7:7 - Conformance Checklist
 
@@ -389,9 +389,9 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 **CC‑A.6.7‑4 (No gate decisions).** The suite MUST NOT define `GateDecision`, MUST NOT publish `DecisionLog`, and MUST preserve gate/mechanism separation.
 
-**CC‑A.6.7‑5 (Spec pins, not duplication).** If the suite is legality-gated for numeric comparison/aggregation/scoring, it MUST require `CG‑Spec` citation pins (and SHOULD require `CN‑Spec` pins where applicable). It MUST NOT duplicate spec content as “local CG‑Spec”.
+**CC‑A.6.7‑5 (Spec pins, not duplication).** If the suite is admissibility-gated for numeric comparison/aggregation/scoring, it MUST require `CG-Spec` citation pins (and SHOULD require `CN-Spec` pins where applicable). It MUST NOT duplicate spec content as “local CG-Spec”.
 
-**CC‑A.6.7‑5a (CN+CG pins for legality-gated characterization).** If the suite is legality-gated for characterization, it MUST require both `CNSpecRef` and `CGSpecRef` as pins (references), consistent with A.6.7:4.3.
+**CC‑A.6.7‑5a (CN+CG pins for admissibility-gated characterization).** If the suite is admissibility-gated for characterization, it MUST require both `CNSpecRef` and `CGSpecRef` as pins (references), consistent with A.6.7:4.3.
 
 **CC‑A.6.7‑6 (Transport discipline preserved).** The suite MUST NOT introduce transport exceptions. Any crossing obligations must remain Bridge-only and must route penalties to `R/R_eff` only.
 
@@ -423,9 +423,9 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
    Naming/using the suite as a `Pack`.
    **Fix:** reserve `Pack` for publication/shipping bundling; use `Suite` for mechanism bundles.
 
-3. **Anti-pattern: “Suite contains legality tables”.**
+3. **Anti-pattern: “Suite contains admissibility tables”.**
    Duplicating CG‑Spec or embedding CL/Φ/Ψ tables in suite obligations.
-   **Fix:** publish pins and references only; keep legality content in `…Spec` and policy registries; keep crossing realization in E.18/gate surfaces.
+   **Fix:** publish pins and references only; keep admissibility content in `...Spec` and policy registries; keep crossing realization in E.18/gate surfaces.
 
 4. **Anti-pattern: “Suite is a hidden gate”.**
    Introducing thresholds, `block`, or `DecisionLog` in the suite.
@@ -441,7 +441,7 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 * Eliminates level confusion between “family of realizations” vs “bundle of mechanisms”.
 * Provides a Kernel governing pattern for universal obligations reused across multiple patterns (notably Part G universalization).
-* Makes legality/transport/audit obligations shared and explicit, reducing semantic drift across member mechanisms.
+* Makes admissibility/transport/audit obligations shared and explicit, reducing semantic drift across member mechanisms.
 
 **Costs.**
 
@@ -450,7 +450,7 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 ### A.6.7:10 - Rationale
 
-Characterization and legality-gated selection pipelines are not unified by a single shared `BaseType`; they are unified by:
+Characterization and admissibility-gated selection pipelines are unified by:
 
 * shared governing spec refs (e.g., CN‑Spec / CG‑Spec),
 * shared transport and crossing discipline (Bridge-only; penalties to `R_eff`),

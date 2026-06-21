@@ -1,39 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "D.5"
-pattern_title: "Bias-Audit & Ethical Assurance"
+pattern_title: "Bias Audit and Ethical Assurance"
 section_id: "D.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "D.5 — Bias-Audit & Ethical Assurance"
+  - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:intro — Intro"
-line_start: 56232
-line_end: 56239
+line_start: 58647
+line_end: 58660
 dependencies:
+  - "A.10"
   - "B.3"
-  - "B.3.3"
+  - "C.16"
   - "C.28"
+  - "D.1"
+  - "D.2"
+  - "D.3"
+  - "D.4"
+  - "E.13"
+  - "E.17"
   - "E.5.4"
 keywords:
-  - "AI ethics"
-  - "assurance"
-  - "audit"
-  - "bias"
-  - "ethics"
-  - "fairness"
-  - "responsible AI"
-  - "review cycle"
-  - "taxonomy"
 ---
 
-## D.5 - Bias-Audit & Ethical Assurance
+## D.5 - Bias Audit and Ethical Assurance
 
-**Use this when.** Use this pattern when a holon, model, metric, decision system, policy, or authored FPF claim may create unfair, biased, or ethically unsafe effects for people or groups. If the fairness claim is causal — for example "this intervention is fair", "this policy would have prevented harm", "this model is counterfactually fair", or "this practice causally reduces disparity" — keep the ethical audit in `D.5` and cite `C.28` for causal-use question, causality-ladder rung, estimand, causal evidence support basis, identification, realizability, evidence design, support record, and support verdict.
+> **Type:** D-family bias-audit and ethical-assurance boundary pattern
+> **Status:** Stable
+> **Pattern role:** This compact pattern owns bias, fairness, impact-audit, causal-fairness audit consumption, and ethical-assurance boundary use; it does not replace D.1 through D.4.
 
-**Not this pattern when.** If the question under repair is only measurement construction, use `C.16`; if it is only causal-use support without fairness or ethical audit, use `C.28`; if it is only an assurance claim or assurance input/result, use `B.3`. Metric disparity alone is not yet causal fairness.
+**Use this when.** Use this pattern when a model, metric, policy, publication, decision system, recommendation, method, work plan, system, holon, or FPF claim may create bias, unfairness, human or group impact, causal-fairness overclaim, or ethical assurance risk.
 
-**Causal-fairness boundary.** A local `C.28` causal-fairness repair, such as adding a causal-use question, estimand, support basis, support record, or supported-fairness-use and unsupported-fairness-use pair, is not by itself the Bias-Audit Cycle. It remains a local support repair until the claim, model, metric, policy, or decision system is in a `D.5` project, release, assurance, or human/group-impact audit condition.
+**Not this pattern when.** If the ethical value frame is missing, use `D.1`. If the current question is multilevel ethics entry, use `D.2`. If the current question is interlevel ethical conflict structure, use `D.3`. If the current question is mediation or decision use of that conflict, use `D.4`. If the current question is only evidence, causality, assurance, measurement, or architecture residual without bias, fairness, human or group impact, or ethical assurance, use the direct owner.
+
+**What goes wrong if missed.** A model, metric, policy, publication, or decision system passes ordinary evidence or assurance checks while representation, proxy, visibility, metric, language, or human-impact bias remains hidden.
+
+**What this buys.** Bias, fairness, human-impact, causal-fairness, and ethical-assurance concerns become auditable without replacing `D.1` through `D.4`, evidence, causal, measurement, or architecture owners.
 

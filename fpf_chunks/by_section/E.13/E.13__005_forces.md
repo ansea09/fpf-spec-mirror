@@ -6,12 +6,12 @@ section_id: "E.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:3 — Forces"
-line_start: 62095
-line_end: 62104
+line_start: 64646
+line_end: 64655
 dependencies:
   - "A.10"
   - "A.21"
@@ -44,7 +44,7 @@ keywords:
 | --- | --- |
 | Measurement vs value | Projects need visible signals, but signals can replace the value they indicate. |
 | Local optimization vs protected qualities | A local score can improve while another value-bearing dimension worsens. |
-| Evaluation pressure vs object improvement | A reviewer-facing mark can be easier to raise than the object is to improve. |
+| Evaluation signal vs object improvement | A visible evaluation mark can be easier to raise than the object is to improve. |
 | Proxy affordability vs value evidence | A proxy is cheap; demonstrating value can be expensive. |
 | Release confidence vs ongoing distortion | A proxy may be safe for orientation but unsafe as a gate, incentive, or release argument. |
 

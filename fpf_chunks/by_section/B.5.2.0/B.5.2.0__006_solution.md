@@ -6,12 +6,12 @@ section_id: "B.5.2.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:4 — Solution"
-line_start: 34201
-line_end: 34237
+line_start: 35474
+line_end: 35510
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,7 +38,7 @@ keywords:
 ---
 
 ### B.5.2.0:4 - Solution
-`U.AbductivePrompt` is a narrow supertype for the prompt forms that may admissibly seed `B.5.2` after admissible cue preservation and governing-pattern selection under `A.16`, `A.16.1`, and `B.4.1`. `A.16.0` is used only when the cue-to-prompt history itself has governance value as an explicit trajectory account. When rendered, a prompt uses ordinary MVPK faces; prompt status is a property of the publication form, not a rival face ontology.
+`U.AbductivePrompt` is a narrow family head for the prompt forms that may admissibly seed `B.5.2` after admissible cue preservation and governing-pattern selection under `A.16`, `A.16.1`, and `B.4.1`. `A.16.0` is used only when the cue-to-prompt history itself has governance value as an explicit trajectory account. When rendered, a prompt uses ordinary MVPK faces; prompt status is a property of the publication form, not a rival face ontology.
 
 #### B.5.2.0:4.1 - Starter canonical species and conditional extension species
 - starter canonical species:
@@ -55,7 +55,7 @@ keywords:
 ##### B.5.2.0:4.1.1 - Specialization-sensitive prompt species
 These extension species are admissible only when cue provenance or trajectory account already carries the bounded-specialization evidence requirement by value; they are not the starter canonical entry set for ordinary abduction.
 
-`TaskFamilySpecializationPrompt` asks what narrower higher-fit specialist option should be acquired for the declared task family, where that option may later resolve into one specialist method, portfolio, or competence bundle. `AdaptationProbePrompt` asks which bounded probe would most cheaply reveal whether threshold-reaching specialization is actually attainable. `NonHumanUtilityPrompt` asks whether a low-human-overlap approach may still satisfy the declared utility target better than the current familiar repertoire. `SubstrateDiversificationPrompt` asks whether the current substrate is too narrow and a broader or different substrate should be tested before later commitment.
+`TaskFamilySpecializationPrompt` asks what narrower higher-fit specialist option should be acquired for the declared task family, where that option may resolve into one specialist method, portfolio, or competence bundle. `AdaptationProbePrompt` asks which bounded probe would most cheaply reveal whether threshold-reaching specialization is actually attainable. `NonHumanUtilityPrompt` asks whether a low-human-overlap approach may still satisfy the declared utility target better than the current familiar repertoire. `SubstrateDiversificationPrompt` asks whether the current substrate is too narrow and a broader or different substrate should be tested before commitment.
 
 #### B.5.2.0:4.2 - Core shape
 A conforming abductive prompt may publish:

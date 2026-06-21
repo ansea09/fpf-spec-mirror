@@ -6,12 +6,12 @@ section_id: "A.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:3 — Forces"
-line_start: 2907
-line_end: 2916
+line_start: 2974
+line_end: 2983
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -56,6 +56,6 @@ keywords:
 | **External promise vs internal capability** | Promise content must be consumer‑facing, while capability is provider‑internal.                               |
 | **Specification vs execution**              | Promise content is a **specifiable** clause; value is **realised** only by runs of Work.                     |
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
-| **Measurability vs privacy**                | Consumers need SLO/SLA and outcomes; providers want implementation freedom (Method autonomy).                 |
+| **Measurability vs privacy**                | Consumers need SLO, SLA, and outcomes; providers want implementation freedom (Method autonomy).                 |
 | **Stability vs evolution**                  | Services version and change without invalidating prior Work evidence.                                         |
 

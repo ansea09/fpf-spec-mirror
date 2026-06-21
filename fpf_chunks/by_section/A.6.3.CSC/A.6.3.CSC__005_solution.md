@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
-line_start: 11471
-line_end: 11600
+line_start: 11707
+line_end: 11836
 dependencies:
   - "A.15"
   - "A.20"
@@ -149,7 +149,7 @@ A coarsening chain may not silently reset provenance. If one coarsened rendering
 
 Aggregation or quotient-like coarsening remains inside this pattern only while the coarsened rendering keeps one bounded selected set, slice, case bundle, or alternative bundle explicit as the EntityOfConcern or selected set. If several entities, alternatives, or slices become one new class-level EntityOfConcern or proxy EntityOfConcern, apply `A.6.4`.
 
-#### A.6.3.CSC:4.6 - Neighbor exits
+#### A.6.3.CSC:4.6 - Neighboring-pattern boundaries
 
 | If the primary question is now... | Use this governing FPF pattern or `authoritySourceRef` destination |
 | --- | --- |

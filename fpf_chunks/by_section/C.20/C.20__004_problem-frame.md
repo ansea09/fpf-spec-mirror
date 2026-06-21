@@ -6,12 +6,12 @@ section_id: "C.20:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__004_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:1 — Problem Frame"
-line_start: 43921
-line_end: 43923
+line_start: 45467
+line_end: 45469
 dependencies:
   - "A.19"
   - "C.2"

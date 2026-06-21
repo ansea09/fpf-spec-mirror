@@ -6,12 +6,12 @@ section_id: "G.11:5"
 section_title: "Archetypal Grounding — System / Episteme (informative; Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_archetypal-grounding-system-episteme-informative-tell-show-show.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh & Decay Orchestrator"
   - "G.11:5 — Archetypal Grounding — System / Episteme (informative; Tell–Show–Show)"
-line_start: 83741
-line_end: 83748
+line_start: 86501
+line_end: 86508
 dependencies:
   - "B.3.4"
   - "C.18"

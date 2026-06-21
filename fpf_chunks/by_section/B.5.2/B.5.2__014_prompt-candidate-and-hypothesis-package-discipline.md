@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 34014
-line_end: 34054
+line_start: 35280
+line_end: 35320
 dependencies:
   - "A.10"
   - "A.16"
@@ -68,5 +68,5 @@ A selected prime hypothesis should preserve more than the hypothesis sentence it
 - the **next admissible downstream move** (deduction, probe design, targeted evidence acquisition, or explicit reopening criteria),
 - and any **known fragilities** already visible at selection time.
 
-This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit handoff terms.
+This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit downstream-use terms.
 

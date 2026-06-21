@@ -6,23 +6,28 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 60215
-line_end: 60454
+line_start: 62643
+line_end: 62882
 dependencies:
   - "A.10"
   - "A.15"
   - "A.19.SPR"
   - "A.2"
+  - "A.6.0"
+  - "A.6.5"
   - "A.6.P"
   - "A.7"
   - "B.1"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.17"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
@@ -63,7 +68,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 | **`Dynamics`**          | **Law or model of change**                    | EntityOfConcern side                              | KernelToken or ContextToken        | `LotkaVolterraDynamics`                           | Using for abilities (`Capability`) or recipes (`Method`).             |
 | **`Observation`**       | **Observation record or kind**                | (run record; not EntityOfConcern and Description-episteme or specification use)            | ContextToken or DiscriminatorToken | `VibrationObservation`                            | Mixing with `MethodDescription` or `Evaluation`.                      |
 | **`Evaluation`**        | **Evaluation episteme or evaluation record**        | Description episteme or Description episteme admitted for specification use              | ContextToken or DiscriminatorToken | `CalibrationEvaluation`                           | Using to name roles or methods.                                       |
-| **`EvidenceRole`** (retired trigger only) | Old evidence-role wording; recover evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation. | Trigger wording, not a role kind | Trigger wording | evidence-use relation, status-use relation, source-use relation, or publication-use relation named by the direct governing pattern | Using as `U.Role`, `U.RoleAssignment`, or generic evidence. |
+| **`EvidenceRole`** (retired trigger only) | Source evidence-role wording; recover evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation. | Trigger wording, not a role kind | Trigger wording | evidence-use relation, status-use relation, source-use relation, or publication-use relation named by the direct governing pattern | Using as `U.Role`, `U.RoleAssignment`, or generic evidence. |
 | **`Episteme`**          | **Epistemic knowledge unit** (structural)  | Description episteme or Description episteme admitted for specification use                            | KernelToken or ContextToken        | `TraceabilityEpisteme`                            | Colliding with CHR **ReferencePlane** (never suffix “Plane”).         |
 | **`System` or `Holon`**    | **Substantial entity**                     | EntityOfConcern side                              | KernelToken or ContextToken        | `AnesthesiaSystem`, `OrderFulfillmentHolon`       | Using to denote Context or run record.                              |
 | **`Boundary`**          | **System boundary**                        | EntityOfConcern side                              | KernelToken or ContextToken        | `SterileFieldBoundary`                            | Using as a role or method.                                            |
@@ -131,7 +136,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 
 #### E.10:8.3 - Prefix discipline
 
-**M‑P1 (Reserved prefixes).** `U.` reserved for **Kernel types**; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. Never mint `U.*` inside a Context.
+**M‑P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and governed dependent `U.*` forms; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. Never mint `U.*` inside a Context.
 
 **M‑P2 (Edition markers).** Apply explicit edition and version markers to **Contexts** and to `MethodDescription`, service-description epistemes, service-access publications, or service-offer records named by their direct governing pattern—**not** to `Method` and not to bare `Service` as a head kind (e.g., `BPMN_2.0_BoundedContext`, `JS_Schedule_v4_MethodDescription`, `PassportIssuanceOfferRef.edition`). Authors MAY annotate context-local service labels for didactics after the governed value is recoverable.
 **Norms (edition, release, and version).**
@@ -153,7 +158,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 
 **M‑5 (Kernel parochiality).** KernelToken names carry **no domain nouns**; push domain markers to Context or RoleCharacteristicSpace.
 
-**M‑6 (Vacuity ban).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use established kernel heads (`U.Holon`, `U.Work`, `U.Method`, `U.Resrc`, …).
+**M‑6 (Vacuity ban).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use established U-kind heads such as `U.Holon`, `U.Work`, and `U.Method`.
 
 **M-7 (Notation independence).** The EntityOfConcern-side meaning survives notation and tool swaps.
 

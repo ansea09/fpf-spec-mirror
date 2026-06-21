@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:1"
 section_title: "Problem frame (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__003_problem-frame-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:1 — Problem frame (normative)"
-line_start: 27571
-line_end: 27579
+line_start: 28212
+line_end: 28220
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -35,6 +35,6 @@ Within CHR, teams frequently need an **explicit aggregation step** (Γ‑fold) t
 - leak into scoring (“the score function also averages everything”),
 - leak into selection (“the selector silently computes a scalar”),
 - become an “implementation default” rather than a declared policy,
-- violate scale legality (especially via ordinal arithmetic or unit-mixing),
+- violate scale lawfulness (especially via ordinal arithmetic or unit-mixing),
 - become unauditable (“what exactly got folded, and under what evidence posture?”).
 

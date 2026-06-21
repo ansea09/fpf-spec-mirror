@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 38445
-line_end: 38461
+line_start: 39764
+line_end: 39784
 dependencies:
   - "A.1"
   - "A.11"
@@ -38,6 +38,10 @@ keywords:
 ### C.3:0 - Use This When
 
 Use this pattern when a claim needs to say what kind of thing it quantifies over, which instances belong to that kind in a context slice, how intent and extent are related, and how typed compatibility affects composition.
+
+**What goes wrong if missed.** A source type, local category, programming class, schema shape, or public `U.*` name starts doing several jobs at once: membership, scope, construction basis, public kind admission, and cross-context sameness all blur.
+
+**What this buys.** Typed reasoning becomes reviewable before naming or ontology growth: the user can separate local `U.Kind` values, intent, extent, claim scope, bridge loss, and durable FPF U-kind admission.
 
 Typical moments:
 

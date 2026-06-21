@@ -6,12 +6,12 @@ section_id: "B.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:intro — Intro"
-line_start: 32265
-line_end: 32283
+line_start: 33481
+line_end: 33503
 dependencies:
   - "A.10"
   - "A.14"
@@ -66,6 +66,10 @@ keywords:
 > B.3 defines how assurance or trust is assigned, aggregated, and reused for physical systems, epistemes, and publication or evidence records that are used to claim assurance. It uses one typed assurance tuple, F-G-R: `F` and `R` as characteristics, `G` as the scope value, plus edge-scoped `CL`; the aggregation rules stay conservative, respect the current composition, transformation, temporal, and work invariants named by their governing patterns, and keep the A.7 EntityOfConcern and description strict distinction. It treats the E.14 Working-Model layer as the publication-facing assertion layer for claims, with assurance inputs attached downward from Mapping, Logical, Constructive, and Empirical Validation layers.
 
 **Use this when.** Use `B.3` when a claim, label, dashboard, evidence bundle, model, report, gate decision, or assurance-input package is being used to raise assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` for a named claim.
+
+**What goes wrong if missed.** Labels, dashboards, model cards, credentials, provenance marks, gate decisions, or evidence bundles start raising trust or readiness without one typed assurance claim, named evidence, scope, limitations, decay, and relying context.
+
+**What this buys.** Assurance becomes a conservative typed claim over `F`, `G`, `R`, and edge-scoped `CL`, with explicit evidence, scope, time, limitations, contestability, and stop or reopen conditions.
 
 **First output.** Write one typed `Assurance(H, C | K, S)` claim per named assurance claim `C`, or write an explicit no-assurance-claim disposition when the encountered publication face, rendering, cue, evidence pointer, wording issue, gate decision, role assertion, status-value assertion, commitment, or work occurrence does not carry an assurance claim.
 

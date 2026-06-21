@@ -6,12 +6,12 @@ section_id: "F.9.1:16"
 section_title: "Overlay Declaration Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__017_overlay-declaration-discipline.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:16 — Overlay Declaration Discipline"
-line_start: 74867
-line_end: 74886
+line_start: 77561
+line_end: 77580
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

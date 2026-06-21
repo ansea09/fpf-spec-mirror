@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 66927
-line_end: 66973
+line_start: 69566
+line_end: 69612
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -79,7 +79,7 @@ This slice names the selected structure and its governed loci first. Publication
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
 
-When a sentence says that a system performs a functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The bounded transformation, transformer or candidate bearer, input/output or functional-port boundary, functioning relation, method/algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
+When a sentence says that a system performs a functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The bounded transformation, transformer or candidate bearer, input and output boundary, functional-port boundary, functioning relation, method or algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
 
 **Not this pattern when.** Use `A.20` for internal step validity, `A.21` for gate-decision publication, `E.20` for mechanism-governing-definition placement, `A.3.4` for bounded transformation under conditions, `E.18.2` for mathematical descriptions of the selected structure, `C.27.TA` for temporal aspects, `C.27` for temporal-claim adequacy or supported-use claims, the A.15 family for work planning or performed work, `E.17` for publication faces, and `E.10` for wording-use repair when the current EntityOfConcern is not the selected structure, path, crossing, or flow valuation.
 

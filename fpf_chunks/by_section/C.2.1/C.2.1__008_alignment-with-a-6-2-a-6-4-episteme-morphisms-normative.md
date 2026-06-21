@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_alignment-with-a-6-2-a-6-4-episteme-morphisms-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:7 — Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
-line_start: 35340
-line_end: 35408
+line_start: 36598
+line_end: 36666
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"
@@ -49,18 +49,18 @@ For any `f : X → Y` that is an instance of `U.EffectFreeEpistemicMorphing`:
   Any additional C.2.1+ components (RepresentationScheme, Tokens, Carriers, Operations) are visible to A.6.2 only through their declared SlotKinds (A.6.5).
 * **EntityOfConcernChangeMode characteristic.**
   `f` **MUST** declare a **`entityOfConcernChangeMode ∈ {preserve, retarget}`**:
-  * `preserve` — `entityOfConcernRef(Y) = entityOfConcernRef(X)` and any change to `groundingHolonRef`/`viewpointRef` must be justified by Bridges/CorrespondenceModel, without changing the EntityOfConcernSlot value;
+  * `preserve` - `entityOfConcernRef(Y) = entityOfConcernRef(X)` and any change to `groundingHolonRef` or `viewpointRef` must be justified by Bridges or CorrespondenceModel, without changing the EntityOfConcernSlot value;
   * `retarget` — permitted only for A.6.4 species; see below; in this case the characteristic records an intentional change in the pair `<entityOfConcernRef, groundingHolonRef>` under a declared `KindBridge` in the appropriate ReferencePlane.
 
   This **EntityOfConcernChangeMode** is a CHR-style *characteristic* (A.17) on episteme morphisms, which points directly to `EntityOfConcernSlot`. Avoid introducing a separate “entityOfConcern” term alongside `EntityOfConcern`.
 
 * **Component discipline.**
   P0–P5 from A.6.2 are read **directly** in terms of C.2.1 components:
-  * purity ⇒ only C.2.1 components of Y may change; no Work/Mechanism side‑effects;
+  * purity => only C.2.1 components of Y may change; no Work or Mechanism side-effects;
   * conservativity ⇒ claims in `content_Y` read via `referenceScheme_Y` about the new `<EntityOfConcern, GroundingHolon>` do not go beyond what already follows from `content_X` via `referenceScheme_X` under the declared EntityOfConcernChangeMode and Bridges;
   * functoriality ⇒ composition of such transformations respects the slot structure and ReferenceSchemes.
 
-Any Ep→Ep pattern that operates on `U.Episteme` **MUST** state which C.2.1 slots it reads and which it may write, in terms of SlotKinds/ValueKinds/RefKinds (A.6.5), and then declare itself a species of A.6.2/3/4 as appropriate.
+Any Ep-to-Ep pattern that operates on `U.Episteme` **MUST** state which C.2.1 slots it reads and which it may write, in terms of SlotKinds, ValueKinds, and RefKinds (A.6.5), and then declare itself a species of A.6.2, A.6.3, or A.6.4 as appropriate.
 
 #### C.2.1:7.2 - EpistemicViewing (A.6.3) as entityOfConcern‑preserving projections
 
@@ -77,7 +77,7 @@ Typical examples:
 * rendering a behavioural specification into a tabular or diagrammatic episteme under a publication viewpoint;
 * normalising a logic‑heavy episteme into a more operational one, while keeping the same system EntityOfConcern and context.
 
-In terms of SoTA, EpistemicViewing behaves like a **lens** or **optic** over C.2.1: a focus (SlotKinds for content/representation) is manipulated while the EntityOfConcern is fixed.
+In terms of SoTA, EpistemicViewing behaves like a **lens** or **optic** over C.2.1: a focus (SlotKinds for content and representation) is manipulated while the EntityOfConcern is fixed.
 
 #### C.2.1:7.3 - EpistemicRetargeting (A.6.4) as EntityOfConcern-bundle retargeting on episteme morphisms
 

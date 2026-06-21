@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution-tevb-as-a-core-u-viewpointbundle-for-holons-normative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:4 — Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
-line_start: 63775
-line_end: 64014
+line_start: 66369
+line_end: 66608
 dependencies:
   - "A.1"
   - "A.15"
@@ -147,7 +147,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
 
 ##### E.17.2:4.2.2 - `VP.Procedural` — process & control viewpoint
 
-**Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: workflow structures, state machines, operational procedures, and control logic.
+**Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: method-description structures, state machines, operational procedures, and control logic.
 
 * **viewpointId.**
 
@@ -181,7 +181,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
   * carry E.10.D2-conformant DescriptionContext with `ViewpointRef = VP.Procedural`.
 
 * **ConformanceRules (examples).**
-  * Preconditions and postconditions at step boundaries are explicit and type‑checked (A.3.1/A.3.2, Γ_method).
+  * Preconditions and postconditions at step boundaries are explicit and type-checked. Use `A.3.1` for the method as semantic way of doing, `A.3.2` for the method description, and `Gamma_method` only as notation over the recovered method claim.
   * No embedding of Work or calendars inside procedural descriptions (A.7 and E.10.D2).
   * Failure modes and recovery actions are declared and traceable to safety analyses (F.15 harnesses where relevant).
 
@@ -266,7 +266,7 @@ The subsections below fix the **normative intent and minimal field sets** for ea
 * **ConformanceRules (examples).**
   * Interfaces are typed and explicitly bound to standards or signature declarations where applicable (`A.6.0`, `A.6.M`, A.6.5).
   * Functional ports are not treated as module interfaces unless the module-interface or substitutability claim is current.
-  * No inlining of methods, work, or functional behavior into module structure; use A.3.4/A.6.F/A.15 for those claims.
+  * No inlining of methods, work, or functional behavior into module structure. Use `A.3.4` for transformation claims, `A.6.F` for function-allocation claims, and `A.15` for work and role-method-work alignment claims.
   * Reinterpretations from functional views into structure respect the applicable `U.EpistemicRetargeting`/Bridge constraints.
 
 * **SoTA echo (informative).** `VP.ModuleInterface` matches structural, implementation, construction, deployment, and interface-focused families in architecture descriptions, IoT and space reference architectures, UAF, NAF, RASDS, SysML-based MBSE, and 4+1 development and physical views, while keeping functional behavior and module-interface claims distinct.

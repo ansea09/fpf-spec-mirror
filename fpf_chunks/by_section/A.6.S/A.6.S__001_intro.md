@@ -6,12 +6,12 @@ section_id: "A.6.S:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:intro — Intro"
-line_start: 17849
-line_end: 17857
+line_start: 18127
+line_end: 18141
 dependencies:
   - "A.12"
   - "A.3"
@@ -51,5 +51,11 @@ keywords:
 > **Normativity:** Mixed (normative where RFC 2119 keywords appear; quadrant classification is governed by A.6.B)
 > **One-liner:** **explicitly modelling signature engineering as a two-signature arrangement** (TargetSignature + ConstructorSignature), with strict separation between **operator description** and **enactment as Work by systems or acting holons under current role assignment**.
 
-**E.24.UK settlement.** `U.SignatureEngineeringPair` is retained as a dependent durable arrangement value under the `U.Signature` and A.6 slot-relation settlement, not as a root U-kind. Its identity is the paired TargetSignature and ConstructorSignature relation used to engineer one boundary signature while keeping operator descriptions, enacted work, publication faces, and role assignments separate. A local pair of documents, workflow, or editing practice does not become `U.SignatureEngineeringPair` unless the two signature epistemes and their constructor relation are named.
+**E.24.UK settlement.** `U.SignatureEngineeringPair` is retained as a dependent durable arrangement value under the `U.Signature` and A.6 slot-relation settlement, not as a root U-kind. Its identity is the paired TargetSignature and ConstructorSignature relation used to engineer one boundary signature while keeping operator descriptions, enacted work, publication faces, and role assignments separate. A local pair of documents, work procedure, or editing practice does not become `U.SignatureEngineeringPair` unless the two signature epistemes and their constructor relation are named.
+
+**Use this pattern when** a boundary signature is being engineered through a TargetSignature and a ConstructorSignature, and the project must keep operator descriptions, enacted work, publication faces, and role assignments separate.
+
+**What goes wrong if missed.** The signature being engineered, the constructor operation description, and the work that enacts publication or edition change collapse into one “contract/editing” story.
+
+**What this buys.** The TargetSignature/ConstructorSignature relation becomes explicit: constructor operators stay effect-free episteme morphisms, while work records, role assignments, carriers, and publication faces stay with their own governing patterns.
 

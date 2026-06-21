@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "A.6.P"
 pattern_title: "Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
 section_id: "A.6.P:6"
-section_title: "Bias‑Annotation"
+section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-  - "A.6.P:6 — Bias‑Annotation"
-line_start: 13670
-line_end: 13679
+  - "A.6.P:6 — Bias-Annotation"
+line_start: 13926
+line_end: 13935
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -54,7 +54,7 @@ keywords:
   - "under-specified relational language"
 ---
 
-### A.6.P:6 — Bias‑Annotation
+### A.6.P:6 — Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for RPR‑style precision restoration in the A.6 cluster.
 

@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 20701
-line_end: 20731
+line_start: 21247
+line_end: 21277
 dependencies:
   - "A.10"
   - "A.12"
@@ -77,6 +77,6 @@ Useful outputs:
 
 - an A.15 work-alignment claim when work roles explain the case;
 - a C.26.2 low-recoverability distributed-state reading when coordination evidence survives ordinary rivals;
-- an `A.10` evidence path or `B.3` assurance claim path when the distributed-state reading will be used as evidence or assurance for a work claim or reliance claim;
+- an `A.10` evidence relation or `B.3` assurance claim relation when the distributed-state reading will be used as evidence or assurance for a work claim or reliance claim;
 - no distributed-state reading when evidence sources, rivals, or time window cannot be named.
 

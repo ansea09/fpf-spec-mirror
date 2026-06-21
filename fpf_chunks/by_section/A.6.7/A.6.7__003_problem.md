@@ -6,12 +6,12 @@ section_id: "A.6.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__003_problem.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:2 — Problem"
-line_start: 16500
-line_end: 16513
+line_start: 16770
+line_end: 16783
 dependencies:
   - "A.21"
   - "A.6.1"
@@ -40,7 +40,7 @@ keywords:
 We need a Kernel-level descriptor that can:
 
 1. represent a **set of distinct mechanisms** (distinct `U.Mechanism.Intension`),
-2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, legality citation discipline, guard decision format, penalty routing),
+2. declare **shared obligations** that must hold across the set (e.g., crossing visibility, admissibility-citation discipline, guard decision format, penalty routing),
 3. provide **shared spec pins** (e.g., “this suite is governed by CN-Spec and CG-Spec”), without duplicating those spec contents,
 4. constrain **allowed protocols** of use (allowed pipelines / permitted ordering), without turning the suite into a mechanism, and
 5. preserve strict distinction among:

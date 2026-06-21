@@ -1,28 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.12"
-pattern_title: "External Transformer & Reflexive Split"
+pattern_title: "Acting-Side Externalization and Reflexive Split"
 section_id: "A.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.12 — External Transformer & Reflexive Split"
+  - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:intro — Intro"
-line_start: 19770
-line_end: 19771
+line_start: 20166
+line_end: 20171
 dependencies:
-  - "A.3"
+  - "A.1"
+  - "A.10"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.7"
+  - "A.3.4"
+  - "B.2"
   - "B.2.5"
-  - "U.Interaction"
+  - "C.13"
+  - "C.2.1"
+  - "C.30"
+  - "E.17"
 keywords:
-  - "agency"
-  - "causality"
-  - "control loop"
-  - "external agent"
-  - "self-modification"
 ---
 
-## A.12 - External Transformer & Reflexive Split
+## A.12 - Acting-Side Externalization and Reflexive Split
+
+> **Type:** Part A architectural ontology pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 

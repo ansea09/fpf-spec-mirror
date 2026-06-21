@@ -1,175 +1,269 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.2.3"
-pattern_title: "Meta-Epistemic Transition (MET)"
+pattern_title: "Meta-Holon Transition With Episteme Result"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.3.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.2.3 — Meta-Epistemic Transition (MET)"
-line_start: 31861
-line_end: 32011
+  - "B.2.3 — Meta-Holon Transition With Episteme Result"
+line_start: 32810
+line_end: 33042
 dependencies:
   - "A.1"
+  - "A.10"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.3.CSC"
+  - "A.6.4"
   - "B.2"
-  - "B.2.1"
+  - "B.2.P"
+  - "B.3"
+  - "B.3.5"
+  - "C.2.1"
+  - "C.2.P"
+  - "C.2.P.DR"
+  - "C.29"
+  - "E.17"
+  - "E.24.UK"
+  - "F.18"
+  - "F.19"
+  - "U.EpistemeSlotRelation"
 keywords:
-  - "knowledge emergence"
-  - "meta-theory"
-  - "paradigm shift"
-  - "scientific revolution"
 ---
 
-## B.2.3 - Meta-Epistemic Transition (MET)
+## B.2.3 - Meta-Holon Transition With Episteme Result
 
-> **Type:** Architectural (A)
+> **Type:** Part B holonic construction pattern
 > **Status:** Stable
-> **Normativity:** Normative (unless explicitly marked informative)
+> **Normativity:** Normative unless a section is explicitly informative
 
-### B.2.3:1 - Problem frame
+### B.2.3:0 - Use This When
 
-A library is not a theory.
+Use this pattern when a Meta-Holon Transition result is admitted as `U.Episteme`: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
 
-`Γ_epist` (B.1.3) can reliably aggregate and audit evidence, but aggregation alone does not create a supervising core. A MET names the point where a `Transformer` re‑identifies a portfolio as *one* higher‑order episteme with an explicit boundary, objective, and supervisory principles.
+Use `B.2` first to decide whether whole reidentification is current. Use `B.2.3` only when the result-kind question points to `mhtResultEpistemeRef`.
 
-Teams often accumulate a large portfolio of reliable knowledge epistemes or publications—papers, models, datasets, design notes, incident reviews, forecasts—and assume that “more” automatically becomes “better understanding”. But at scale, portfolios fracture into incompatible vocabularies, duplicated assumptions, and local optimisations. Decision-makers then face a choice: keep managing a tangled collection, or deliberately synthesize it into a single, higher-order episteme.
+**First useful move.** Recover the episteme result as a `U.Episteme` holon with its C.2.1 slot relation: EntityOfConcern, grounding holon, claim graph, reference scheme, viewpoint, view, and publication or source-use relations when current.
 
-FPF names that synthesis event a **Meta‑Epistemic Transition (MET)**: the formal moment when a collection of `U.Episteme`s is promoted to a new `U.Episteme` holon that has its own boundary, objective, and supervisory principles.
+**What goes wrong if missed.** A catalogue, literature review, dashboard, model repository, or vocabulary is called a new theory without claim-graph reidentification; or a real new episteme whole is treated as a pile of publications.
+
+**What this buys.** The pattern preserves B.2 whole reidentification while keeping episteme ontology with C.2.1 and the episteme family. It prevents episteme-result MHT from becoming episteme agency, publication authority, generic emergence, or a second episteme ontology.
+
+**Not this pattern when.**
+
+- If the result whole is an acting physical or operational holon, use `B.2.2`.
+- If the question is episteme slot relation, publication, source use, view, viewpoint, claim graph, reference scheme, or description use without MHT, use `C.2.1`, `C.2.P`, `C.2.P.DR`, `E.17`, and the episteme family directly.
+- If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
+- If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.
+- If the wording is ambiguous emergence-family language, use `B.2.P` before selecting B.2.3.
+
+### B.2.3:1 - Problem Frame
+
+A library is not a theory, and a theory is not its publication.
+
+A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. It becomes an MHT-result episteme only when the current claim needs one reidentified claim-bearing holon whose C.2.1 slot relation can be filled and governed as one episteme.
+
+B.2.3 does not introduce a special episteme ontology. It uses `mhtResultEpistemeRef` in the B.2 record and then returns episteme structure to C.2.1.
 
 ### B.2.3:2 - Problem
 
-Without a formal concept of a Meta‑Epistemic Transition, knowledge programs tend to fall into predictable failure modes:
+Without this specialization:
 
-1. **The “List of Facts” illusion.** A collection of well‑validated epistemes is mistaken for a coherent theory. The “whole” is treated as the sum of parts, and the opportunity for a unifying insight is missed.
-2. **Hidden incoherence.** Contradictions between epistemes are ignored, averaged away, or left unresolved. The result is a fragile collage, not a durable framework.
-3. **Flat explanatory power.** The portfolio can describe phenomena, but cannot explain them through shared principles. There is no “supervisor” that tells the parts how to compose.
+1. **Catalogues become theories.** Aggregated publications or dashboards are treated as a new episteme because they are stored together.
+2. **Theory becomes publication.** The paper, report, standard document, model card, or dashboard is used as the episteme itself.
+3. **Episteme receives agency.** The theory, standard, or doctrine is described as if it performs work or enforces behavior by itself.
+4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as a new episteme whole.
+5. **Assurance is inherited silently.** Trust in constituent sources is treated as trust in the reidentified episteme whole.
+6. **Generic emergence replaces claim structure.** "Emergent theory" hides the actual claim graph, reference scheme, and grounding relation.
 
 ### B.2.3:3 - Forces
 
-| Force                         | Tension                                                                                                                           |
-| :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| **Synthesis vs. aggregation** | A true synthesis creates new meaning ↔ a mere aggregation is an index, review, or catalog.                                        |
-| **Purity vs. integration**    | Preserve the integrity and local reliability of each episteme ↔ integrate across different assumptions, scopes, and vocabularies. |
-| **Creativity vs. rigor**      | A unifying theory is an abductive leap ↔ it must remain auditable and bound to evidence (no “narrative by fiat”).                 |
+| Force | Tension |
+| --- | --- |
+| Synthesis vs aggregation | A new episteme whole can integrate claims, but many collections remain indexes, reviews, or portfolios. |
+| Episteme identity vs publication form | The episteme may be published in many forms; no publication form is the episteme by appearance. |
+| Claim organization vs agency | An episteme can organize claims and guide use, but systems perform work with or on it. |
+| Constituent evidence vs result assurance | Evidence for parts may bear on the result, but the result episteme needs its own claim and assurance relations. |
+| Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current object is B.2, C.2.1, A.6, E.17, or source-use. |
 
 ### B.2.3:4 - Solution
 
-A Meta‑Epistemic Transition is modeled as a **Meta‑Holon Transition (B.2)** specialized to knowledge epistemes or publications (typically starting from a `Γ_epist` portfolio and ending in a new `U.Episteme` holon).
+Use B.2.3 as the episteme-result specialization of B.2.
 
-#### B.2.3:4.1 - Definition (normative)
+#### B.2.3:4.1 - Episteme-Result MHT Slice
 
-A **MET** is a declared MHT event in which a configuration of `U.Episteme`s (often managed as a `Γ_epist` portfolio) is **promoted** to a new, single `U.Episteme` holon via the `emergesAs` relation.
+When `mhtResultEpistemeRef` is selected, use:
 
-* A MET is an act of **creation**, not passive drift. Therefore the `emergesAs` relation **MUST** be attributed to an explicit external `Transformer` (A.12) that performed the synthesis.
-* A MET declaration **MUST** be supported by a **Promotion Record** (B.2:5.1) containing explicit evidence for the B‑O‑S‑C triggers (B.2.1), interpreted for epistemes as below. The record still carries the parent schema fields (`eventType`, `identityStance`, and the explicit `preConfig/postHolon` deltas); do not “compress” MET into a narrative paragraph.
-* If the synthesis introduces new primitives/terms (i.e., it reframes the vocabulary rather than only summarising), the Promotion Record **SHOULD** treat the event as a `ContextReframe` (or, where the local taxonomy permits paired types, `Fusion + ContextReframe`) and **MUST** satisfy `MHT‑CTX‑MAP`: include the context mapping summary (`triggers.X?`) and record the new `boundedContext` plus its CL baseline in `postHolon.boundedContext` (B.2:5.1, B.2:5.2).
-* Post‑MET trust/assurance for the new meta‑episteme **MUST** be evaluated as a claim about a *new holon*, not silently inherited from the constituents: satisfy `MHT‑ASS‑REBAS` and apply congruence penalties when composing evidence across constituents (see B.2:5.2 and B.3).
+```text
+EpistemeResultMHTSlice@Context:
+  existingWholeRef: U.Holon
+  mhtResultEpistemeRef: U.Episteme
+  boundedContextRef:
+  selectedTriggerProfileRef: MHTTriggerProfile@Context
+  existingWholeExplanationCheckRef: ExistingWholeExplanationCheck@Context
+  epistemeKindAdmissionRef: C.2.1
+  epistemeSlotRelationRef: U.EpistemeSlotRelation
+  entityOfConcernSlotRef:
+  groundingHolonSlotRef:
+  claimGraphSlotRef:
+  referenceSchemeSlotRef:
+  viewpointSlotRef?
+  viewSlotRef?
+  publicationOrSourceUseRefs?
+  constituentEpistemeRefs:
+  synthesisWorkRefs?
+  evidenceOrAssuranceRefs:
+  mathematicalLensUseRefs?
+  blockedOverreads:
+```
 
-#### B.2.3:4.2 - The B-O-S-C triggers for epistemes
+This slice is not a U-kind and not a second episteme ontology. It is the B.2 record slice that says the MHT result is an episteme and names the C.2.1 relation that governs it.
 
-The four B‑O‑S‑C triggers are interpreted in the context of knowledge epistemes or publications.
+#### B.2.3:4.2 - Episteme Slot Re-Basing
 
-**C note.** Across the MHT family, **C** appears in two adjacent readings: (i) **Complexity threshold** (manageability of a growing patchwork), and (ii) **capability/explanatory excess beyond a WLNK bound** (the core MHT narrative). This MET pattern uses the **Complexity threshold** reading by default; if you claim explanatory/predictive super‑additivity, record it explicitly as the `triggers.BOSC.C` evidence and tie it to the emergent objective (**O**) and supervisor (**S**) (do not treat it as a shortcut around assurance rebasing).
+For the result episteme, re-base at least these C.2.1 slots when current:
 
-| Trigger                      | Epistemic-specific interpretation                                                                                                                                                        | Manager’s view: the “Go/No-Go” question                                                                  |
-| :--------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| **B — Boundary closure**     | The collection is presented under a single conceptual boundary: a name, a unified vocabulary, stable definitions, and a shared symbolic representation. It becomes citable as one meta-episteme. | “Can we refer to this with a single name and reliably mean the same meta-episteme across the organisation?”      |
-| **O — Objective emergence**  | A unifying explanatory or predictive objective emerges that none of the individual epistemes could satisfy alone. The whole answers a bigger question.                                   | “Does this synthesis let us explain or predict something that the parts could not?”                      |
-| **S — Supervisor emergence** | A set of meta-principles, axioms, invariants, or core values is introduced that *governs* how constituent epistemes are interpreted and composed.                                        | “Is there now a ‘golden rule’ that tells us how the pieces fit together?”                                |
-| **C — Complexity threshold** | The web of parts, exceptions, and interrelations becomes more complex to manage than a unifying abstraction. The meta‑episteme is simpler than the patchwork.                            | “Are we drowning in edge cases and local fixes, such that a single framework is now the simpler option?” |
+- `EntityOfConcernSlot`: what the result episteme is about;
+- `GroundingHolonSlot`: where the result claim is grounded or tested;
+- `ClaimGraphSlot`: what the result episteme says as a claim structure;
+- `ReferenceSchemeSlot`: how claims are read as about their entities;
+- `ViewpointSlot` and `ViewSlot`: when the result episteme has viewpoint-governed views;
+- publication, source-use, and representation relations when the result episteme is published, cited, carried, or represented.
 
-When a `Transformer` can provide evidence for all four triggers, it can formally declare a MET, creating a new `U.Episteme` via `emergesAs`.
+Do not infer these slots from the existence of a publication set. Fill them as episteme slots.
 
-In practice, many METs also involve **X (context rebase)** when vocabulary or definitions change. When that happens, the Promotion Record **MUST** carry `triggers.X?` and satisfy `MHT‑CTX‑MAP` (B.2:5.2).
+#### B.2.3:4.3 - Episteme Trigger Interpretation
 
-#### B.2.3:4.3 - Didactic note for managers (informative)
+Interpret `MHTTriggerProfile@Context` for epistemes without giving agency to epistemes:
 
-> **From a pile of bricks to a cathedral**
-> Before a MET, you have a pile of valuable bricks: reports, models, datasets. Each brick is useful, but they do not yet form a structure.
-> After a MET, a `Transformer` has built a cathedral: a coherent framework with a name (**Boundary**), a purpose (**Objective**), and guiding architectural principles (**Supervisor**).
-> A portfolio becomes capital only when it can be reused as one thing.
+| Trigger family in `MHTTriggerProfile@Context` | Episteme-result reading | Direct owner kept visible |
+| --- | --- | --- |
+| Delimitation change | The knowledge body now has a stable EntityOfConcern, scope, reference scheme, and claim scope. | `C.2.1`, `A.7`, source-use owners |
+| Objective or evaluation change | The result episteme answers or evaluates a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation owner |
+| Supervision or coordination change | Principles, axioms, invariants, reference schemes, or claim-graph constraints organize how constituent claims are interpreted. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
+| Capability or closure evidence | The result episteme enables a new explanatory, predictive, specification, or coordination use. | `C.2.1`, `C.16`, `A.10`, use-specific owner |
+| Agency threshold | Usually not applicable to the episteme itself; if agency is claimed, recover the acting system in role. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16` |
+| Temporal consolidation | A field, standard, or theory becomes one current knowledge body after phase consolidation or source-currentness change. | `C.27`, `E.17`, source-use owners |
+| Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
 
-#### B.2.3:4.4 - Common anti-patterns and how to avoid them (informative)
+B.2.3 uses these rows as evidence to inspect. B.2 decides whether whole reidentification is admitted.
 
-| Anti-pattern                           | What it looks like                                                                                                        | How FPF prevents it                                                                                                                                                                                                             |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **“Grand unifying narrative” fallacy** | A broad summary write-up is called a “new theory”, but it adds no new explanatory principle and no new predictive objective. | The MET declaration requires evidence for **O** and **S**, not just summarisation. Without those triggers, the collection remains an aggregate.                                                                                 |
-| **“Forced marriage” of ideas**         | Conflicting epistemes are merged into an incoherent hybrid.                                                               | A MET is not a mechanical merge. The `Transformer` must supply a supervisory principle that reconciles or contextualises the constituents, and the trust model (B.3) penalises incoherent integration via congruence penalties. |
-| **“Ivory tower theory”**               | A beautiful synthesis is detached from evidence; it produces no testable constraints.                                     | The resulting `U.Episteme` is subject to the same assurance discipline as any other: explicit rebasing (`MHT‑ASS‑REBAS`) and congruence penalties apply; speculative synthesis remains low‑`R_eff` until supported.          |
+#### B.2.3:4.4 - Blocked Readings
 
-### B.2.3:5 - Archetypal Grounding
+Do not use B.2.3 as:
 
-#### B.2.3:5.1 - System vignette (Tell–Show–Show)
+- a name for generic emergence;
+- an authority claim for a publication;
+- an agentive claim about a theory, standard, or doctrine;
+- an effect-free episteme morphism, view, retargeting, or coarsening;
+- a second episteme ontic beside C.2.1;
+- a shortcut from source synthesis to high trust;
+- a replacement for source-use, evidence, assurance, or publication patterns.
 
-**Tell.** A programme team has many operational dashboards, runbooks, and service metrics. Leaders call it “observability”, but each service still uses incompatible definitions and locally optimised alerts.
+### B.2.3:5 - Archetypal Grounding (Worked Cases)
 
-**Show A (pre‑MET).** Each team maintains its own “SLO”, “incident”, and “error budget” episteme; cross-team comparisons are mostly rhetorical, and improvements do not transfer reliably.
+#### B.2.3:5.1 - Reliability Doctrine
 
-**Show B (post‑MET).** A `Transformer` (a standards group inside the organisation) publishes a single, named reliability doctrine with shared definitions, a unified objective (“predict and reduce user‑visible harm”), and a small set of invariants that govern interpretation (“measure what users experience”, “alerts must be actionable”). The doctrine is treated as one `U.Episteme` that supervises and constrains the constituent local practices.
+Before MHT, teams have local runbooks, incident reports, dashboards, and reliability definitions. They may be useful, but they are not yet one episteme.
 
-#### B.2.3:5.2 - Episteme vignette (cross-domain table)
+After MHT, the result may be a reliability doctrine if it has one EntityOfConcern, one reference scheme for service harm and reliability claims, a claim graph with principles and definitions, grounding relations to operating services, publication relations, and source-use relations for its standards and training materials.
 
-| Domain                           | Constituent `U.Episteme`s                                                                                              | Emergent meta-episteme (`U.Episteme`)                                                             | Key trigger evidence (B‑O‑S‑C)                                                                                                                                                                                                                                  |
-| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Physics**                      | Lorentz transformations; equivalence principle; Mercury perihelion anomalies; Maxwell’s equations.                     | **General Relativity**.                                                                           | **B:** A single name + coherent formalism. **O:** Gravity as spacetime geometry. **S:** Covariance + equivalence act as supervisory axioms. **C:** Patching classical mechanics became untenable.                                                               |
-| **Software development**         | Iterative development; user stories; daily coordination rituals; continuous integration; pair programming.             | **Agile** as a coherent body of practice.                                                         | **B:** Shared “Agile” boundary and vocabulary. **O:** A unifying objective around adaptability and feedback. **S:** Manifesto values/principles supervise local practices. **C:** Waterfall coordination costs exceeded a threshold.                            |
-| **Business strategy**            | Market analysis; competitor intelligence; capability assessments; technology forecasts.                                | A cohesive **multi‑year corporate strategy**.                                                     | **B:** Single authoritative strategy publication. **O:** One overarching objective (e.g., leadership in a segment). **S:** Strategic pillars supervise execution plans. **C:** Disconnected departmental plans created unmanageable complexity.                    |
-| **Machine learning (post‑2015)** | Self‑supervised representation learning; attention mechanisms; large‑scale pretraining; prompt‑conditioning practices. | The **foundation‑model paradigm** (general‑purpose pretrained models with downstream adaptation). | **B:** A stable shared name and vocabulary. **O:** General-purpose representations enabling many tasks. **S:** Scaling laws and adaptation protocols supervise model development and use. **C:** Bespoke task-by-task pipelines became too complex to maintain. |
+```text
+EpistemeResultMHTSlice@Reliability:
+  mhtResultEpistemeRef: reliability doctrine
+  epistemeSlotRelationRef: U.EpistemeSlotRelation
+  entityOfConcernSlotRef: user-visible service harm and reliability
+  groundingHolonSlotRef: operating service systems
+  claimGraphSlotRef: doctrine claims and invariants
+  referenceSchemeSlotRef: shared reliability vocabulary
+  publicationOrSourceUseRefs: handbook and standard publication forms
+```
 
-### B.2.3:6 - Bias-Annotation
+The doctrine does not enforce anything by itself. Systems in role use it, cite it, train with it, and work according to it.
 
-**Lenses tested:** `Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`. **Scope:** Universal for MET declarations over `U.Episteme` holons (knowledge synthesis events), not for all MHT types.
+#### B.2.3:5.2 - Model Family Becomes Theory
 
-* **Gov.** Bias toward explicit responsibility: a named `Transformer` is responsible for the synthesis claim. Mitigation: require a Promotion Record with evidence, so responsibility is auditable rather than merely social.
-* **Arch.** Bias toward structural comparability: MET is forced through the same BOSC trigger skeleton as other MHTs. Mitigation: the trigger interpretations are explicitly epistemic and do not pretend to be operational or physical.
-* **Onto/Epist.** Bias toward clarity about “what the new thing is”: the meta‑episteme is a first‑class `U.Episteme` holon with a supervisory core. Mitigation: avoid implying that synthesis increases truth; it only changes organisation and explanatory structure until evidence raises trust.
-* **Prag.** Bias toward actionability: the “Go/No‑Go” questions are framed for managers who need to allocate funding and responsibility. Mitigation: conformance criteria still force evidence binding and do not reduce MET to a narrative decision.
-* **Did.** Bias toward teachability: the “bricks→cathedral” metaphor may over‑romanticise synthesis. Mitigation: anti‑patterns explicitly warn against rhetoric without BOSC evidence.
+A model family can remain a toolbox. It becomes an episteme-result MHT only if the result has a unified claim graph, reference scheme, grounding holons, and admissible explanatory or predictive use that the collection did not carry as one whole.
 
-### B.2.3:7 - Conformance Checklist
+If the change is only a new model publication or benchmark score, use publication, source-use, measurement, evidence, and mathematical-lens owners instead.
 
-* **CC-B2.3.1 (Transformer mandate):** A Meta‑Epistemic Transition **MUST** attribute the `emergesAs` relation to an explicit external `Transformer` (e.g., a research team, a standards body, a synthesis agent). Constituent epistemes do not self‑organise into a promoted holon.
-* **CC-B2.3.2 (Trigger mandate):** The `Transformer` **MUST** provide a **Promotion Record** (B.2) containing evidence for all four epistemic B‑O‑S‑C triggers.
-* **CC-B2.3.3 (Episteme-holon mandate):** Both the constituents and the resulting meta‑episteme **MUST** be modeled as `U.Episteme` holons.
-* **CC-B2.3.4 (Supervisory principle mandate):** The emergent meta‑episteme **MUST** contain one or more identifiable supervisory principles (axioms, invariants, core values) that govern how its constituents are interpreted and composed.
-* **CC-B2.3.5 (Assurance re-baseline):** Any trust/assurance statement about the post‑MET meta‑episteme **MUST** be evaluated as a claim about a new holon and **MUST NOT** be asserted by silent inheritance from constituent `R` values.
-* **CC-B2.3.6 (Context reframe mapping):** If the MET introduces new primitives/terms or changes definitions, the Promotion Record **MUST** satisfy `MHT‑CTX‑MAP` (B.2:5.2): list concept/unit/terminology mappings with CL levels and record the new `boundedContext` and its CL baseline.
+#### B.2.3:5.3 - Standard Body
+
+A set of clauses, examples, and annexes can become a standard episteme when the result is one claim-bearing whole with terms, references, scope, conformance claims, and publication forms.
+
+The standard is not the committee, not the PDF, and not the work of enforcement. The committee is an acting system or role-bearing system; the PDF is a publication form; enforcement is work by systems in role.
+
+### B.2.3:5.1 - Bias-Annotation
+
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Fill C.2.1 slots and use B.2.3 only when whole reidentification remains current. |
+| Publication as episteme | A PDF, report, standard document, model card, or dashboard is treated as the episteme itself. | Keep publication forms with E.17 and source-use owners. |
+| Episteme agency | A theory, standard, or doctrine is described as performing work or enforcement. | Recover acting systems, role assignments, methods, work, and evidence separately. |
+| Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism owners unless B.2 whole reidentification remains current. |
+| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Rebuild assurance and source-use relations for the result episteme. |
+
+### B.2.3:6 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
+| `CC-B2.3-2` | The result kind is admitted as `U.Episteme` and recorded as `mhtResultEpistemeRef`. |
+| `CC-B2.3-3` | `EpistemeResultMHTSlice@Context` names `U.EpistemeSlotRelation` and does not create a second episteme ontic. |
+| `CC-B2.3-4` | Publication, source-use, view, viewpoint, claim-bearing, and representation questions return to C.2.1, E.17, C.2.P, C.2.P.DR, and direct episteme-family owners. |
+| `CC-B2.3-5` | The episteme is non-agentive; acting systems, synthesis work, and enforcement work use A.12, A.2, A.15, A.15.1, or work owners. |
+| `CC-B2.3-6` | Assurance for the result episteme is not silently inherited from constituent epistemes or publications. |
+| `CC-B2.3-7` | Effect-free morphing, viewing, retargeting, and controlled coarsening are not treated as B.2.3 unless whole reidentification is current. |
+
+### B.2.3:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Library as theory | A repository or reading list is treated as one episteme. | Fill C.2.1 slots; use B.2.3 only if one result episteme whole is recovered. |
+| PDF as episteme | A publication form is used as the theory itself. | Use E.17 and publication owners; keep `mhtResultEpistemeRef` for the episteme. |
+| Doctrine receives agency | "The standard enforces..." or "the theory decides..." | Recover the acting system, role, method, work, evidence, or decision claim. |
+| Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
+| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | Rebuild assurance for the result episteme through A.10, B.3, B.3.5, C.2.1, and source-use owners. |
 
 ### B.2.3:8 - Consequences
 
-| Benefits                                                                                                                              | Trade-offs / mitigations                                                                                                                                               |
-| :------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Raises epistemic leverage.** A coherent meta‑episteme makes future reasoning and reuse cheaper and safer than managing a patchwork. | **High cognitive effort.** A MET is not routine. Mitigation: the trigger checklist is intentionally strict so the label is reserved for real synthesis.                |
-| **Creates stable foundations.** A well‑formed meta‑episteme can become a high‑`R_eff` platform for incremental work.                  | **Early fragility.** New syntheses are initially more speculative. Mitigation: conservative assurance and explicit congruence penalties keep trust inflation in check. |
-| **Improves governance.** Responsibility, maintenance, and change control become assignable to a single promotion record.                           | **Modeling overhead.** Promotion Records take time. Mitigation: the cost is paid once, and prevents repeated “reinvent the framework” cycles.                          |
-| **Guides innovation.** BOSC becomes a deliberate target for R&D teams (“what would count as a unifying supervisor?”).                 | **Risk of rhetoric.** Synthesis can be oversold. Mitigation: anti‑patterns and conformance criteria explicitly block narrative‑only declarations.                      |
+Positive consequences:
+
+- Episteme-result MHT becomes usable without preserving title mnemonics as ontology.
+- C.2.1 remains the episteme ontic owner.
+- Publications, source use, synthesis work, evidence, assurance, and acting systems remain separate.
+
+Costs:
+
+- A claimed synthesis must fill episteme slots, not only cite a portfolio.
+- Result-episteme assurance requires fresh relation work.
+- Some "new theory" claims return to publication, source-use, morphism, benchmark, or evidence owners.
 
 ### B.2.3:9 - Rationale
 
-The most important leaps in human capability often come from re‑organising knowledge, not from adding more facts. MET is the architectural name for that re‑organisation.
+Knowledge synthesis can create a new holon, but only when the result is a reidentified claim-bearing episteme. B.2.3 keeps that useful case and removes the drift toward episteme agency, publication authority, generic emergence, and duplicate episteme ontology.
 
-By defining a Meta‑Epistemic Transition using observable triggers and an explicit `Transformer`, FPF gives a rigorous, non‑mystical account of paradigm‑level synthesis. It ensures that “unification” is not merely a rhetorical flourish, but a declared event with auditability and downstream governance consequences.
+This pattern is deliberately thin. B.2 owns whole reidentification; C.2.1 owns episteme slot relation; E.17 and source-use patterns own publications; A.6 episteme-morphism patterns own morphing and retargeting; A.15 and A.12 own synthesis work and acting systems.
 
 ### B.2.3:10 - SoTA-Echoing
 
-This section aligns MET with post‑2015 state‑of‑the‑art practice in evidence synthesis, knowledge representation, and science‑of‑science.
-
-| Claim (MET need)                                                | SoTA practice                                                                             | Primary source (post‑2015)                                                                                 | Alignment with MET                                                                                                                                                                             | Adoption status                                                                                                    |
-| :-------------------------------------------------------------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| Synthesis must be auditable, not rhetorical.                    | Structured evidence-synthesis reporting and traceability norms.                           | PRISMA 2020 / PRISMA 2020 Statement (Page et al., 2021).                                                   | MET’s Promotion Record mirrors the idea that a synthesis claim needs explicit evidence and structure, but goes beyond reporting by requiring BOSC triggers and a supervising core.             | **Adopt/Adapt.** Adopt traceability discipline; adapt by adding BOSC and explicit `Transformer` attribution.       |
-| A synthesis should be continuously maintainable, not “one‑off”. | Living systematic reviews / living guidelines (continuous updating under evidence drift). | Living systematic review methodology (e.g., Elliott et al., 2017; and later living-review guidance).       | MET’s governance consequence (“assign responsibility and maintenance”) matches the living-review premise: the synthesis is a managed asset, not a static report.                                    | **Adapt.** Same maintenance intent; MET is broader than health-science review protocols.                           |
-| Knowledge should be representable as composable claim networks. | Scholarly knowledge graphs capturing claims, evidence, and relations.                     | Open Research Knowledge Graph (ORKG) work (e.g., Jaradeh et al., 2019 and follow-on primary publications). | MET treats the resulting synthesis as a new `U.Episteme` holon that supervises constituents; claim‑graph representations are compatible as carriers, but MET adds explicit emergence criteria. | **Adopt/Adapt.** Adopt claim-network representation; adapt by requiring BOSC evidence for promotion.               |
-| Paradigm-level shifts have measurable structural signatures.    | Science‑of‑science models of how fields reorganise and consolidate.                       | “Science of science” synthesis (Fortunato et al., 2018).                                                   | MET’s **C** trigger (“complexity threshold”) and **B** trigger (“boundary closure”) correspond to consolidation signatures, while MET insists on explicit responsibility via `Transformer`.    | **Adapt.** Use the descriptive lens as grounding, but keep the MET declaration normative and responsibility‑bound. |
+| Source family | Lesson for B.2.3 | FPF decision |
+| --- | --- | --- |
+| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relation, currentness, and maintenance rather than narrative authority. | B.2.3 requires result-episteme slots, assurance relations, and source-use relations. |
+| Knowledge-graph and claim-network practice | A knowledge body can be represented as related claims, evidence, and sources. | `ClaimGraphSlot` remains C.2.1 material; graph representation does not declare MHT by itself. |
+| Science-of-science and paradigm-change studies | Fields and theories can consolidate into named bodies with new scope and organizing principles. | B.2.3 treats consolidation as possible evidence for episteme-result MHT, not as automatic admission. |
+| Publication and standards practice | Standards, reports, models, and dashboards are carriers and publication forms. | E.17 and source-use owners remain separate from the episteme whole. |
 
 ### B.2.3:11 - Relations
 
-* **Is a specialization of:** `B.2 Meta-Holon Transition (MHT)`.
-* **Builds on:** `B.2.1 BOSC Triggers` and the `B.2` Promotion Record.
-* **Is complemented by:** `B.2.2 MST (Sys)` (system emergence) and `B.2.4 MFT` (capability emergence).
-* **Is performed by:** An external `Transformer` (A.12) executing an abductive synthesis (see B.5.2 for abductive moves).
-* **Produces:** A new `U.Episteme` whose trust/assurance is governed by `B.3 Trust & Assurance Calculus`.
+- **Specializes:** `B.2` for MHT-result holons admitted as `U.Episteme`.
+- **Builds on:** `C.2.1` for `U.EpistemeSlotRelation`, `A.1` for holon admission, and `E.24.UK` for result-kind admission discipline.
+- **Coordinates with:** `C.2.P`, `C.2.P.DR`, `E.17`, `E.17.*`, `A.6.2`, `A.6.3`, `A.6.4`, `A.6.3.CSC`, `A.10`, `B.3`, `B.3.5`, `C.29`, `F.18`, and `F.19`.
+- **Uses:** `B.2.P` when source wording such as emergence-family or title-mnemonic wording hides the claim kind.
+- **Contrasts with:** `B.2.2` for system-result MHT and `B.2.4` for capability and functioning whole-reidentification evidence.
 
 ### B.2.3:End
 

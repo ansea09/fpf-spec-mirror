@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.17 — Unified Term Sheet"
-line_start: 77151
-line_end: 77414
+line_start: 79876
+line_end: 80174
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,11 +49,16 @@ keywords:
 ---
 
 ## F.17 - Unified Term Sheet
+> **Type:** Pattern
 > **Status:** Stable
 
 Use this when a term decision must become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and must be shown as one reviewed term row.
 
 First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed FPF kind or governed object kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying object. Then publish only the term-row facts that are already governed there.
+
+What goes wrong if missed: a public term sheet becomes a global glossary, a row turns into an ontology claim, a block name becomes a subtype, or a familiar label smuggles role, status, evidence, publication, or source authority into reuse.
+
+What this pattern buys: a compact reader-facing row that preserves the governed object, direct pattern, local senses, bridge, selected names, admissible use, blocked use, and currentness condition without redoing the whole unification argument.
 
 Do not use this pattern for one sentence repair, one private glossary note, one local synonym choice, or one attempt to make an object real by putting it into a table. Use `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the direct domain pattern first when the kind, relation, slot position, admissible use, or name-card decision is still unsettled.
 
@@ -86,6 +91,10 @@ The damage is practical:
 
 `F.17` fixes this by making the term row itself reviewable. Each row says what kind of thing is being named, where the local senses came from, what bridge is claimed, which name was selected, and which direct pattern owns the underlying object.
 
+### F.17:2.1 - Problem
+
+A public term row can make a local word look reusable while hiding the governed object, bounded context, bridge, direct pattern, admissible use, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology or authority source.
+
 ### F.17:3 - Forces
 
 | Force | F.17 settlement |
@@ -97,7 +106,7 @@ The damage is practical:
 | Row stability vs edition change | Row ids survive reblocking and wording updates; edition-sensitive fields show what changed. |
 | Compact table vs semio-bias | The table is a publication about term decisions; it must not replace the direct pattern that governs the object. |
 
-### F.17:4 - Core idea
+### F.17:4 - Solution
 
 A Unified Term Sheet is a table of term rows for one bounded unification thread.
 
@@ -243,7 +252,7 @@ Recheck only the rows affected by the changed object, name, bridge, or source.
 | UTS-RSCR-05 | Row movement between blocks | Keep row id stable and state that block movement has no ontological force. |
 | UTS-RSCR-06 | A role, status, evidence, source, publication, or description row is reused in another context | Recheck the direct governing pattern and the bridge before reuse. |
 
-### F.17:12 - Worked cases
+### F.17:12 - Archetypal Grounding - worked cases
 
 #### F.17:12.1 - Role name becomes public across two project contexts
 
@@ -263,7 +272,21 @@ An architecture pattern needs public names for `interfaceSlot`, `providedPort`, 
 
 A sheet has a row labelled `Evidence role`. F.17 repairs the row by recovering the governed object instead of treating that label as a U-kind. If the claim is that an episteme is being used as evidence for another claim, `A.10`, `B.3`, or `A.2.4` governs the evidence relation. If the claim is that a system performs evidence-producing work, `A.2.1`, `F.6`, and `A.15.1` govern role assignment and performed work. The UTS may publish names for these values, but it must not keep a generic evidence-role row that fuses them.
 
-### F.17:13 - Anti-patterns and repairs
+### F.17:12.5 - Bias-Annotation
+
+F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the direct pattern, bounded-context sense, bridge, admissible-use statement, or currentness condition.
+
+### F.17:13.5 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-F17-1` | The row names the governed kind or value and the direct governing pattern before naming choices are published. |
+| `CC-F17-2` | Local senses are bounded-context and edition scoped; cross-context use names the bridge and loss. |
+| `CC-F17-3` | Tech and Plain names are selected under naming patterns after the governed value is stable. |
+| `CC-F17-4` | Admissible use, blocked use, row edition, and currentness condition are present. |
+| `CC-F17-5` | Role, status, evidence, source, publication, description, method, work, relation, slot, interface, and characteristic claims remain under direct patterns. |
+
+### F.17:13 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
@@ -287,13 +310,17 @@ A UTS row is ready for ordinary reuse only when:
 - currentness conditions are stated;
 - any role, status, evidence, source, publication, description, method, work, relation, slot, interface, or characteristic claim remains under its direct pattern.
 
-### F.17:15 - Relations
+### F.17:14.1 - Consequences
 
-Builds on: `F.1`, `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18`.
+**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and cross-context comparison while preserving local senses and direct pattern authority.
 
-Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17`, `F.4`, `F.6`, `F.10`, and `F.14`.
+**Costs.** A tempting public label may wait until local sense, bridge, naming, admissible use, and currentness conditions are settled.
 
-Constrains: any public, Core-facing, durable, or cross-context term sheet row that cites FPF vocabulary, local concepts, relation names, slot names, role names, status names, or bridgeable sense clusters.
+**Failure avoided.** F.17 prevents global glossary drift, row-shaped ontology claims, block-as-subtype mistakes, label-based sameness, and evidence or role authority smuggled through a public term.
+
+### F.17:14.2 - Rationale
+
+Terms travel farther than the reasoning that produced them. F.17 keeps that travel safe by making the term-row publication carry the minimum reopening hooks: governed object, direct pattern, local senses, bridge, names, admitted use, blocked use, and currentness. The row is compact because the direct patterns still own the underlying objects.
 
 ### F.17:16 - SoTA-Echoing
 
@@ -305,6 +332,14 @@ Constrains: any public, Core-facing, durable, or cross-context term sheet row th
 | Safety and assurance writing | Reader-facing labels must not overclaim authority, evidence, or admissible use. | Each row states admissible use and the tempting misuse it blocks. |
 
 Currentness rule: when `F.5`, `F.8`, `F.9`, `F.10`, `F.15`, `F.18`, `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.10`, `B.3`, `E.17`, or `E.10.D2` changes the governed value, admissible use, bridge, source-use boundary, status-family boundary, role boundary, or naming decision, recheck only the affected UTS rows and examples.
+
+### F.17:15 - Relations
+
+Builds on: `F.1`, `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18`.
+
+Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17`, `F.4`, `F.6`, `F.10`, and `F.14`.
+
+Constrains: any public, Core-facing, durable, or cross-context term sheet row that cites FPF vocabulary, local concepts, relation names, slot names, role names, status names, or bridgeable sense clusters.
 
 ### F.17:17 - Didactic distillation
 

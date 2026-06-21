@@ -6,12 +6,12 @@ section_id: "A.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:0 — Use This When"
-line_start: 3613
-line_end: 3616
+line_start: 3710
+line_end: 3713
 dependencies:
   - "A.15"
   - "A.2.1"

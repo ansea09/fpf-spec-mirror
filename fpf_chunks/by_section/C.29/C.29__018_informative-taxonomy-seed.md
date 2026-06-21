@@ -6,12 +6,12 @@ section_id: "C.29:14"
 section_title: "Informative taxonomy seed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__018_informative-taxonomy-seed.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:14 — Informative taxonomy seed"
-line_start: 52199
-line_end: 52218
+line_start: 53808
+line_end: 53827
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -76,7 +76,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 | **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed relation and relation named by value splits, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
 | **Obstruction-first and failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without the neighboring-pattern result named by value. | `F.9`, `A.6.P`, `A.10`, `E.19` |
 | **Symmetry, invariance, equivariance, and Noether** | Group actions, invariants, equivariant representations, conservation-like constraints, and geometric-deep-learning regularities. | If the problem depends on sameness under transformations or a conservation-like claim, ask which transformations are declared as preserved or invariant, what remains invariant, and which distinctions are lost. | Does not transfer physical conservation law, causal mechanism, or coordinate-free truth without domain evidence. | `A.10`, `C.16`, `A.19`, domain pattern |
-| **Variational, action, optimization, and Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, constrained variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence-path claims are governed by their neighboring patterns. | `A.3.3`, `C.28`, `A.10` |
+| **Variational, action, optimization, and Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, constrained variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence-provenance claims are governed by their neighboring patterns. | `A.3.3`, `C.28`, `A.10`, `G.6` |
 | **Diagonal, self-reference, and no-go** | Self-application, universal evaluators, closure limits, diagonal constructions, and impossibility boundaries. | Use when the payoff is to block a tempting universal claim or expose a closure boundary. | Does not prove every recursive-looking case is a diagonal or no-go case. | `B.3`, `E.19`, local domain pattern |
 | **RG, coarse-graining, fixed point, and universality** | Why different micromodels yield one macropattern; fixed points, basins, scale windows, universality classes, or stable-law-like alternatives. | Use for scale transitions, abstraction, domain compression, and macropattern claims that require a declared scale variable and coarse-graining rule. | Does not assert micro-mechanism identity or universal applicability outside `ScaleWindow`. | `C.18.1`, `C.19.1`, `A.3.3` |
 | **Category, compositionality, optics, and semiring-limit** | Composition, interfaces, views, transformations, algebraic laws, limit transforms, and cases where changing algebra changes what is preserved. | Multi-view architecture, bridges, system composition, and classical or tropical or Fourier-Laplace or Legendre-style transform cues. | Does not imply all target objects are categories or that every functor-like transfer preserves the needed structure. | `F.9`, `A.6.P`, `A.19` |

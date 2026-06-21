@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.12.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
-line_start: 61957
-line_end: 62044
+line_start: 64508
+line_end: 64595
 dependencies:
   - "E.13"
   - "E.2"
@@ -50,7 +50,7 @@ FPF elevates **Didactic Primacy (Pillar P-2)** to a normative architectural prin
 
 #### E.12:4.1 - The Principle of Didactic Primacy (Expanded Definition)
 
-The primary purpose of the FPF is to enhance the cognitive capabilities (`U.Capability`/`Mastery`) of an Agent (`U.Agent`) in service of its Objectives (`U.Objective`). The creation of assurance-bearing epistemes or publications with high assurance levels and epistemic scores is a *means to that end, not the end itself*. Any architectural decision that increases formal rigor at the cost of clarity or usability must be explicitly justified by a demonstrable gain in the agent's ability to reason effectively.
+The primary purpose of the FPF is to enhance the cognitive capabilities (`U.Capability`/`Mastery`) of a reasoning system, team, organization, or other acting holon in service of its objectives. The creation of assurance-bearing epistemes or publications with high assurance levels and epistemic scores is a *means to that end, not the end itself*. Any architectural decision that increases formal rigor at the cost of clarity or usability must be explicitly justified by a demonstrable gain in that holder's ability to reason effectively.
 
 #### E.12:4.2 - Mechanism 1: The Rationale Mandate
 

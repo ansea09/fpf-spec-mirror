@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 52796
-line_end: 52842
+line_start: 54415
+line_end: 54464
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD.BA"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -59,7 +60,7 @@ keywords:
 
 ### C.30.AD:0 - Use this when
 
-Use this pattern when an architecture description is the EntityOfConcern under repair: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
+Use this pattern when an architecture description is the current EntityOfConcern: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
 
 Use `C.30.AD` when the practitioner needs to know:
 
@@ -93,14 +94,17 @@ ArchitectureDescriptionUseCard@Project:
   firstNeighborPatternApplication?:
 ```
 
+`@Project` guard: in this card name, `@Project` marks a project-side use card for first-pass triage or specification-use control. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
+
 The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture move or neighboring-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
 
 **Not this pattern when.**
 
-- If the use under repair is a grounded architecture claim or one first architecture question, use `C.30`.
-- If the use under repair is a selected structure or structural description outside architecture, use `A.22`.
-- If the use under repair is one architecture structural view, use `C.30.ASV`.
+- If the current use is a grounded architecture claim or one first architecture question, use `C.30`.
+- If the current use is a selected structure or structural description outside architecture, use `A.22`.
+- If the current use is one architecture structural view, use `C.30.ASV`.
+- If the current use is built-asset architecture-description, BIM, IFC, asset-information, digital-twin, or reference-designation specialization, use `C.30.AD.BA`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the use under repair is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the current use is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
 - If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the neighboring pattern governing that claim to the claim being made.
 

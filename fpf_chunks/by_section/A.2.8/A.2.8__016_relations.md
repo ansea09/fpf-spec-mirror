@@ -6,12 +6,12 @@ section_id: "A.2.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__016_relations.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:12 — Relations"
-line_start: 5444
-line_end: 5463
+line_start: 5600
+line_end: 5619
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -47,17 +47,17 @@ keywords:
 
 * A.2.1 for identifying accountable roles vs role-enactors (role assignments).
 * A.2.6 for expressing scope and time/window (`U.ClaimScope`, qualification-window policy).
-* A.7 for keeping “binding” distinct from “utterance” and from “carriers”.
+* A.7 for keeping source “binding” wording distinct from utterance descriptions and carriers.
 
 **Used by**
 
 * A.6.B (Quadrant D) as the canonical payload shape for deontic statements.
 * A.6.C (Contract Unpacking) as the formal governing pattern for the “Commitment” component of the bundle.
-* Part D governance/ethics patterns (future work) for expressing layered, conflicting, multi-authority commitments.
+* Part D governance/ethics patterns, when current, for expressing layered, conflicting, multi-authority commitments.
 
 **Coordinates with**
 
-* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments bind accountable subjects to those clauses.
+* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments assign accountable subjects to those clauses.
 * **A.2.9 (`U.SpeechAct`)**: `U.Commitment.source.speechActRef` points to the instituting communicative work occurrence when provenance matters.
 * A.15.1 (`U.Work`) and evidence patterns: adjudication hooks refer to evidence in work, not to text.
 

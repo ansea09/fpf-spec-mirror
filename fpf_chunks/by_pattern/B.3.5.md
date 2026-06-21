@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
-line_start: 33059
-line_end: 33365
+line_start: 34285
+line_end: 34609
 dependencies:
   - "B.3"
   - "C.13"
@@ -26,6 +26,7 @@ keywords:
 
 ## B.3.5 - Working-Model Relations & Grounding (CT2R-LOG)
 > **Status:** Stable
+> **Type:** Pattern
 
 **At a glance.** Use B.3.5 when a human-facing Working-Model relation such as `ut:ComponentOf`, `ut:MemberOf`, `ut:PortionOf`, or `ut:AspectOf` needs an assurance grounding relation without exposing constructive machinery as the public vocabulary.
 
@@ -55,17 +56,21 @@ keywords:
 
 This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the trace; **CT2R‑LOG** declares the alias pattern and links it; **Lang‑CHR** supplies the labels.
 
-### B.3.5:2 - Problem frame & forces (why this pattern exists)
+### B.3.5:2 - Problem Frame
 
-* **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
-* **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
-* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative calculus** and **one alias façade**.
+B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The EntityOfConcern is not a notation, trace file, or tool output. It is the relation-use discipline that keeps the public relation layer and assurance grounding layer distinct.
 
 ### B.3.5:3 - Problem
 
 Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self‑justifying**: nothing in their declaration shows *why* a given edge should be trusted, or how to **re‑derive** it if challenged. Conversely, exposing constructor traces everywhere makes the graph unreadable to non‑specialists.
 
 **We need**: a stable **public relation layer** for relations *and* a mandatory, **reconstructible** **grounding channel**—plus a visible **validation intent** that downstream assurance can reason about.
+
+### B.3.5:3.1 - Forces
+
+* **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
+* **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
+* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative calculus** and **one alias façade**.
 
 ### B.3.5:4 - Solution (thumbnail)
 
@@ -108,7 +113,7 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 * **Validation flag.**
  `tv:validationMode ∈ {postulate, inferential, axiomatic}` is **required** on every declared edge or aggregation rule; **for structural edges `postulate` is disallowed**.
 
-### B.3.5:6 - Running example (didactic)
+### B.3.5:6 - Archetypal Grounding - Running example
 
 > **Story.** A refinery team publishes `:PumpA ut:ComponentOf :Skid12`.
 
@@ -237,9 +242,9 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑4.** Keep *order/time* adjacent, not embedded: if you need “assembled in two parallel lines”, write that as a **method/time** statement next to the structure, not as a part‑of edge.
 **M‑5.** Stop when the *reader can follow without guessing*. This is the stopping rule for Quarter 2: clarity before formality. (Didactic primacy.)
 
-### B.3.5:10 - Bias‑Annotation (auditable, human‑first)
+### B.3.5:10 - Bias-Annotation (auditable, human-first)
 
-The purpose of this section is to make **typical cognitive slips** visible and name the **counter-moves** an author (or reviewer) should apply **in thought**—not with tools. These biases are generic; the remedies point to neighboring FPF guard-rails and patterns.
+The purpose of this section is to make **typical cognitive slips** visible and name the **counter-moves** an author or assurance reader should apply **in thought**—not with tools. These biases are generic; the remedies point to neighboring FPF guard-rails and patterns.
 
 | Bias (name)                     | Symptom in the model                                                                                                          | Cognitive counter‑move (conceptual only)                                                                                                                                                                          | Where to check                                                       |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -251,9 +256,9 @@ The purpose of this section is to make **typical cognitive slips** visible and n
 | **Collection/composition swap** | Using **MemberOf** to stand in for **PartOf** (or vice versa), then carrying over reliability as if it were a structural sum. | Re‑separate **MemberOf** (collections) from **part‑whole** mereology; read A.14 notes in Γ\_epist context.                                                                                                        | Γ\_epist context / A.14 compliance.                                  |
 | **DesignRunTag chimera**          | Mixing design‑time and run‑time evidence into one “assurance” line.                                                           | Split the **scope** of the claim: `S ∈ {design, run}`; compare side‑by‑side rather than merging.                                                                                                                  | B.3 typed claim tuple & anti‑pattern “DesignRunTag chimera”.           |
 
-> **Reviewer reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
+> **Reader reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
 
-### B.3.5:11 - Conformance Checklist (normative, author‑facing)
+### B.3.5:11 - Conformance Checklist (normative, author-facing)
 
 The following obligations regulate **how to think and write** CT2R content. They are **notation‑agnostic** and purely conceptual.
 
@@ -269,7 +274,16 @@ The following obligations regulate **how to think and write** CT2R content. They
 | **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
 | **CC‑CT2R‑9 (Scope split).**                    | When assurance is discussed, authors **SHALL** state the **typed claim** and **scope** `S ∈ {design, run}` and keep them distinct in reasoning.                                                                                               | Prevent DesignRunTag chimeras.                                              |
 
-### B.3.5:12 - Consequences (benefits, trade‑offs, mitigations)
+### B.3.5:12 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | What goes wrong | Repair |
+| --- | --- | --- |
+| Constructive-trace replacement | A `Gamma_m` trace is treated as the public relation, so engineers lose the readable Working-Model edge. | Keep the Working-Model relation canonical and attach the trace only as grounding. |
+| Unchecked relation label | A familiar part-whole label is published without naming the intended relation kind or validation mode. | Declare the Working-Model relation, `validationMode`, and the grounding or evidence relation that makes the edge reviewable. |
+| Order/time leakage | Assembly sequence, phase, or parallel work is encoded as a part-whole edge. | Keep order, method, and temporal claims adjacent to the structural edge; do not turn them into mereology. |
+| Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Treat representations as publication forms; keep the relation claim, grounding relation, and validation mode explicit. |
+
+### B.3.5:13 - Consequences (benefits, trade-offs, mitigations)
 
 **Benefits**
 
@@ -287,7 +301,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 > **One‑line takeaway for managers.**
 > CT2R lets you **talk in natural, domain‑meaningful relations** while preserving a clear, optional path to formal grounding and empirical checking—so confidence can grow deliberately without dragging your model into tooling or syntax.
 
-### B.3.5:13 - Rationale (informative)
+### B.3.5:14 - Rationale (informative)
 
 **13.1 Why canonical‑first?**
 CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers **ground** that form; they do not replace it. This is consistent with the authoring Standard in Part E (pattern template and style guide), which privileges **clarity, purpose and didactics** over premature formalism in the body text. Authors write *for people first*, then point to the kind of assurance they are invoking.
@@ -307,7 +321,11 @@ Three constructive moves—**sum, set, slice**—are sufficient to narrative‑r
 **13.6 Why mental obligations rather than process mandates?**
 Part E requires that patterns govern **thinking** and **authoring**; enforcement and automation, if any, are external concerns. CT2R‑LOG therefore states obligations as **self‑contained cognitive checks**: declare your mode; tell the constructive story only when you claim *axiomatic* strength; keep order/time in their places. This keeps the core specification **evergreen and tool‑agnostic**, as required.
 
-### B.3.5:14 - Relations
+### B.3.5:14.7 - SoTA-Echoing
+
+Constructive mereology, assurance-case practice, and model-based engineering all separate a readable working statement from the justification that supports it. B.3.5 carries that separation into FPF: relation names remain usable at the publication layer, while grounding and validation mode preserve the constructive or evidential basis needed for assurance.
+
+### B.3.5:15 - Relations
 
 **Builds on**
 • **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes roles/recipes and distinguishes Portion/Phase/Component/Constituent; CT2R‑LOG preserves these distinctions at publication time.

@@ -1,48 +1,53 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.2"
-pattern_title: "Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
-section_id: "B.2:9"
+pattern_title: "Meta-Holon Transition - Whole Reidentification"
+section_id: "B.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__011_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.2 — Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes"
-  - "B.2:9 — Consequences"
-line_start: 31732
-line_end: 31745
+  - "B.2 — Meta-Holon Transition - Whole Reidentification"
+  - "B.2:8 — Consequences"
+line_start: 32259
+line_end: 32273
 dependencies:
   - "A.1"
+  - "A.10"
   - "A.12"
-  - "A.13"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.19"
+  - "A.3.4"
   - "B.1"
-  - "B.1.x"
-  - "B.2.x"
-  - "B.3"
-  - "B.4"
+  - "B.2"
+  - "B.2.2"
+  - "B.2.3"
+  - "B.2.4"
+  - "B.2.P"
+  - "C.13"
+  - "C.16"
+  - "C.29"
+  - "C.30.ILC"
+  - "E.24.UK"
+  - "U.Episteme"
 keywords:
-  - "MHT"
-  - "emergence"
-  - "meta-system"
-  - "new whole"
-  - "synergy"
-  - "system of systems"
 ---
 
-### B.2:9 - Consequences
+### B.2:8 - Consequences
 
-**Benefits**
+Positive consequences:
 
-* **Clarity & auditability.** Distinguishes **improvement within a level** from **creation of a new whole**.
-* **Invariant integrity.** WLNK and CL penalties are preserved; when a new whole appears, invariants restart cleanly.
-* **Method‑agnostic synergy.** Works with both **4D** and **3D+1** readings; dovetails with DDD’s **bounded contexts** and event‑centric modelling.
-* **Easier assurance management.** Pre/post claims are comparable without being conflated; teams can plan targeted moves (raise CL, formalize, reframe context).
+- MHT becomes a precise whole-reidentification move rather than a synonym for improvement.
+- System, episteme, work, bounded-context, and discipline result cases share one B.2 spine while keeping their direct owners.
+- Trigger language remains useful without becoming ontology.
+- Mathematical and benchmark evidence can be used without replacing the holon claim.
 
-**Trade‑offs**
+Costs:
 
-* **Extra documentation at the right time.** Declaring MHT is deliberate; it requires a Promotion Record and evidence.
-* **Identity bookkeeping.** Teams must choose an identity stance and be consistent; this cost buys cross‑scale coherence.
+- Users must try existing-whole explanations before declaring MHT.
+- MHT records require explicit result-kind admission and evidence.
+- Some attractive emergence claims will return to ordinary characteristic, method, work, architecture, or measurement repair.
 

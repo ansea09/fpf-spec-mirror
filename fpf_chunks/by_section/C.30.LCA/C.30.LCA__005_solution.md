@@ -6,12 +6,12 @@ section_id: "C.30.LCA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:4 — Solution"
-line_start: 54380
-line_end: 54526
+line_start: 56234
+line_end: 56380
 dependencies:
   - "A.10"
   - "A.20"
@@ -167,13 +167,13 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 |---|---|
 | Plant or controlled holon | `U.Holon` whose state evolves; reusable state-evolution claims use `A.3.3`. |
 | Regulator or controller | System in a control role enacting a method over observations and actuations. |
-| Planner | Upstream role or method producing setpoints, plans, references, or allowed regions for regulators. |
-| Observer or estimator | Role or method producing state estimates, observations, or evidence-facing readouts. |
-| Supervisor | Role or method governing subordinate holons, gates, policy changes, or control-mode changes. |
+| Planner | Acting system in a planner role; the enacted method may structure setpoint, plan, reference, or allowed-region production. |
+| Observer or estimator | Acting system in an observer or estimator role; the enacted method may structure state estimates, observations, or evidence-facing readouts. |
+| Supervisor | Acting system in a supervisor role; the enacted method or policy may structure work that constrains subordinate holons, gates, policy changes, or control-mode changes. |
 
 **Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-specific item: `controlLayerRef`, `controlRoleRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, and, where the supervisor-subholon relation is being claimed, `B.2.5` supervisor-subholon relation. Generic system level, aggregation scope, organization level, work or evidence scope, scale window, coarse-graining, deployment tier, and publication section do not stay in C.30.LCA. A layer label is not a control structure, not a system level, not a rate band, and not evidence of separation by itself.
 
-**B.2.5 boundary.** `B.2.5` remains the supervisor-subholon feedback-loop check pattern. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon loop is part of the control view. It does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, the acting `Transformer`, publication or review practice, and publication relation, source relation, or reliance relation are named; an episteme does not sense, judge, plan, adapt, or act as an agent.
+**B.2.5 boundary.** `B.2.5` remains the owner for the supervisor-subholon feedback relation. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon relation is part of the control view. Loop wording stays in C.30.LCA only when the current control view explicitly recovers a control-loop or dynamics claim under its direct owner. `C.30.LCA` does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, name the acting system in the relevant role, the A.3.4 transformer-position only when a transformation claim is current, and any publication, review record, publication relation, source relation, or reliance relation. An episteme does not sense, judge, plan, adapt, or act as an agent.
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 

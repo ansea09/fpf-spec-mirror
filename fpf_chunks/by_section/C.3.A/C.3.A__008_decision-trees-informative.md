@@ -6,12 +6,12 @@ section_id: "C.3.A:7"
 section_title: "Decision Trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:7 — Decision Trees (informative)"
-line_start: 39613
-line_end: 39636
+line_start: 41044
+line_end: 41067
 dependencies:
   - "A.2.6"
   - "C.3.x"

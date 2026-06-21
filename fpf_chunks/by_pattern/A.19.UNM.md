@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.UNM.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
-line_start: 26481
-line_end: 26902
+line_start: 27122
+line_end: 27543
 dependencies:
 keywords:
   - "CV→NCV"
@@ -87,7 +87,7 @@ FPF’s CHR family explicitly separates stages (normalize → indicatorize → s
 
 Without an explicit UNM governing pattern:
 
-1) **Normalization drifts into hidden places.** It gets embedded inside scoring, comparison, or selection, making legality and governance non-local.
+1) **Normalization drifts into hidden places.** It gets embedded inside scoring, comparison, or selection, making admissibility and governance non-local.
 
 2) **Comparability becomes rhetorical.** People say “we normalize” but cannot answer:
    *Which method? Which invariants? Which validity window? Which evidence? Which transport/plane regime?*
@@ -173,13 +173,13 @@ Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 - `A.19.CHR:4.2.1` (CHR SlotKind Lexicon)
 - `A.19.CHR:4.5` (suite protocols: ordering/optionality; suite closure)
 - `A.19.CN` (CN-frame routing: `normalization`, `comparability.mode`)
-- `G.0` (CG-frame legality gates where required downstream)
+- `G.0` (CG-frame admissibility gates where required downstream)
 - `C.16` (evidence carriers; calibration/validity for normalization legitimacy)
 - `A.17/A.18` (measurement meaning & scale lawfulness; not redefined here)
 
 **SubjectBlock**
 - `SubjectKind`: `NormalizationMethod classes` (with induced `≡_UNM` over charts/views)
-- `BaseType`: chart/`U.CharacteristicSpace` family in a CN‑frame (one `U.BoundedContext`), where normalization acts on coordinate values (`CV`) for measurable slots (UNM normalizes **values**, not characteristics)
+- `GovernedValueDomain`: chart/`U.CharacteristicSpace` family in a CN-frame (one `U.BoundedContext`), where normalization acts on coordinate values (`CV`) for measurable slots (UNM normalizes **values**, not characteristics)
 - `SliceSet`: `U.ContextSliceSet` (context is explicit; no implicit “global normalization”)
 - `ExtentRule`: “coordinate values admitted for normalization within the declared context and the method instance validity window”
 - `ResultKinds`:
@@ -225,7 +225,7 @@ UNM‑specific slots (must be alias‑docked into the CHR SlotKind lexicon if us
 **LawSet (UNM laws; identifiers are stable)**
 - **UNM‑L0 (Values, not characteristics).** UNM produces `NCV` as a **value** under declared invariants; it does not redefine the underlying characteristic meaning (measurement meaning remains governed by A.17/A.18 and evidence by C.16).
 - **UNM‑L1 (Declared method class gate).** A normalization method instance is admissible only if its method is declared in the allowed method class set: `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}`.
-- **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent “extra” legality.
+- **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent extra admissibility.
 - **UNM‑L2 (Congruence is first-class).** Each chosen method instance induces `≡_UNM` over charts/views; equality/comparability decisions that rely on normalization are defined on the quotient (or on a declared fix), not on raw labels.
 - **UNM‑L2a (Context-local by default).** `≡_UNM` is context‑local; cross‑context reuse requires explicit transport declarations (Bridge-only).
 - **UNM‑L3 (Fail‑closed).** If admissibility/evidence is insufficient (or required inputs are missing/stale), UNM does not silently coerce; it yields `abstain` or `degrade` (tri‑state guard discipline) and may surface an explicit freshness/work request (see A.19.UNM:4.5).
@@ -307,7 +307,7 @@ When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, UNM does not “guess a number”; it surfaces an explicit **freshness/work request** that must be planned in `U.WorkPlanning` and executed in `U.WorkEnactment`.
 - In transformation-flow terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
-- Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and legality anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
+- Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and admissibility anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
 
 ### A.19.UNM:5 - Archetypal Grounding (Tell–Show–Show)
 
@@ -352,7 +352,7 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 - [ ] **Terminology:** uses `NormalizationMethodId`, `NormalizationMethodInstanceId`, `NormalizationMethodDescription(Ref)`, `CV`, `NCV`, `≡_UNM`, `NormalizationInvariant[*]`, `NormalizationFixSpec`; avoids “map” wording (esp. `Map`); κ‑notation is retired.
 - [ ] **CN routing:** uses `CN_Spec.comparability.mode` and the `CN_Spec.normalization` surface; does not embed “shadow CN-spec”.
 - [ ] **Fail-closed:** eligibility is tri-state and never coerces unknown to pass.
-- [ ] **Legality classes declared:** method class is one of `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}` and the instance’s validity window is named.
+- [ ] **Lawfulness classes declared:** method class is one of `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}` and the instance's validity window is named.
 - [ ] **No indicator conflation:** does not treat NCV as automatically implying indicator status.
 - [ ] **Transport discipline:** cross-context or cross-plane reuse is Bridge-only, explicit, audited; penalties route to `R`/`R_eff` only.
 - [ ] **Quotient/fix discipline:** if a representative is required, `NormalizationFix` is declared; otherwise quotient semantics remain abstract.
@@ -394,7 +394,7 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 - Makes “normalize-then-compare” a first-class governance choice.
 - Centralizes governing-pattern assignment, improving usability and reducing drift.
 - Supports evolvability: method families can evolve via packs/extensions without mutating the mechanism surface.
-- Prevents silent illegality (unit, scale, and plane errors) by fail-closed guards.
+- Prevents silent inadmissibility (unit, scale, and plane errors) by fail-closed guards.
 
 **Costs**
 - Requires explicit declarations (method instance, invariants, validity window, evidence pins).
@@ -418,7 +418,7 @@ UNM does not prescribe algorithms, but it is designed to wire in SoTA normalizat
   *Typical citations:* Guo et al., 2017; Kull et al., 2019.
 - **Shift-/validity-region-aware normalization** where “validity window/region” is explicit and shift detection enters as *evidence*, not as hidden branching.
   *Typical citations:* Lipton et al., 2018 (shift estimation); Ovadia et al., 2019 (uncertainty under shift) — as evidence motifs.
-- **Order-preserving transforms** for ordinal regimes (normalization constrained to monotone transforms; legality forbids arithmetic).
+- **Order-preserving transforms** for ordinal regimes (normalization constrained to monotone transforms; scale lawfulness forbids arithmetic).
   *Typical citations:* modern monotonic modeling toolkits (post‑2017) used as *method families*, not as silent arithmetic.
 - **Set-valued / uncertainty-aware normalization outputs** where uncertainty is preserved as a first-class outcome (tri‑state guards + set-valued uncertainty carriers, rather than coerced point values).
   *Typical citations:* conformal-style families (post‑2018+) used as evidence/uncertainty carriers.
@@ -436,7 +436,7 @@ SoTA is connected as **wiring** (packs/extensions) while UNM’s surface remains
 - `A.19.CHR` (CHR suite boundary; slot lexicon; suite protocols)
 - `A.19.CN` (CN_Spec normalization + comparability routing)
 - `C.16` (MM‑CHR evidence/calibration carriers)
-- `G.0` (CG-frame legality gates used downstream)
+- `G.0` (CG-frame admissibility gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
 - `B.3` (congruence/quotient intuition, when referenced)

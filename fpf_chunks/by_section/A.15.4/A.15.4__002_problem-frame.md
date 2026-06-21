@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:1 — Problem Frame"
-line_start: 21836
-line_end: 21843
+line_start: 22396
+line_end: 22405
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,4 +51,6 @@ Dashboards, credential views, generated explanations, copied approvals, provenan
 **Plain recognition line.** Let the visible cue point to a relation named by value, source episteme, source publication, evidence path, gate decision, role-assignment record, status record, work occurrence, or assurance claim. Do not let the cue become the relation that permits work or reliance.
 
 **Source wording discipline.** In this pattern, `source` is not a generic kind. `Governing source` means the project-side value, named by FPF kind and reference, that carries the claim or effect under repair: source `U.Episteme`, source `U.EpistemePublication`, evidence path, gate decision, speech act, commitment, credential record, status record, role assignment, work-occurrence record, register entry, source relation, or another named project-side value. Source-finding cues, publication faces, publication carriers, renderings, dashboards, copied wording, and generated explanations remain source candidates unless they expose that governing source. If no governing source can be named, keep the encountered source candidate at cue-only orientation or source-finding use.
+
+Here `evidence path` and `currentness path` mean `A.10` evidence-provenance, attestation, or currentness relations named by value. They are not action routes, workflows, or permission pipelines.
 

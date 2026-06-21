@@ -1,199 +1,263 @@
 ---
 chunk_kind: "parent"
 pattern_id: "B.1"
-pattern_title: "Universal Algebra of Aggregation (Γ)"
+pattern_title: "Holon Aggregation and Part-Whole Construction"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1 — Universal Algebra of Aggregation (Γ)"
-line_start: 29658
-line_end: 29825
+  - "B.1 — Holon Aggregation and Part-Whole Construction"
+line_start: 30317
+line_end: 30550
 dependencies:
   - "A.1"
-  - "A.9"
-  - "B.1.x"
+  - "A.14"
+  - "A.15"
+  - "A.15.1"
+  - "A.22"
   - "B.2"
+  - "B.3.5"
+  - "C.13"
+  - "C.16"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
 keywords:
-  - "COMM"
-  - "IDEM"
-  - "LOC"
-  - "MONO"
-  - "WLNK"
-  - "aggregation"
-  - "composition"
-  - "gamma operator"
-  - "holon"
-  - "invariants"
 ---
 
-## B.1 - Universal Algebra of Aggregation (Γ)
+## B.1 - Holon Aggregation and Part-Whole Construction
+
+> **Type:** Part B holonic construction pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
+
+### B.1:0 - Use This When
+
+Use this pattern when a project needs to say how several admitted objects are considered as a whole, or when a whole-level claim depends on parts, membership, component structure, constructional grounding, or a selected aggregation rule.
+
+Typical moments:
+
+- a product, plant, dataset, paper, model family, organization, fleet, batch, or research program is discussed as a whole;
+- a dashboard rolls part measurements into a whole-level characteristic;
+- a team says that a method, role, graph, or algebra "decomposes" something and may be smuggling part-whole claims;
+- a collection needs whole-level characteristics without becoming an acting collective system;
+- an aggregation claim is being used for architecture, assurance, evidence, or MHT reasoning.
+
+**First useful move.** Recover the claim kind before choosing notation: part-whole construction, membership, collection-as-whole grounding, role relation structure, method relation structure, work occurrence holarchy, selected architecture structure, or mathematical description.
+
+**What goes wrong if missed.** Γ, graph, algebra, decomposition, factor, component, step, phase, and collection wording become one universal composition language. Roles and methods become parts; work occurrence evidence is inferred from method structure; a graph is mistaken for the structure; a collection becomes an acting whole by label.
+
+**What this buys.** B.1 gives one doorway into part-whole construction while keeping its neighbors clean: A.14 owns relation vocabulary, C.13 owns constructional grounding, B.3.5 owns Working-Model assurance grounding, A.15.1 owns work-occurrence holarchy, and C.29 owns mathematical-lens use.
+
+**Not this pattern when.**
+
+- If the question is the local relation word, use `A.14`.
+- If the question is constructive part-whole grounding, use `C.13`.
+- If the question is assurance grounding for a working model, use `B.3.5`.
+- If the question is role or method relation structure, use the role or method owner and `C.29` when a mathematical lens is relied on for the current claim.
+- If the question is performed-work occurrence parts, use `A.15.1`.
+- If the question is whole reidentification or emergence-family wording, use `B.2` or `B.2.P`.
 
 ### B.1:1 - Problem Frame
 
-FPF views reality as a **nested holarchy**: parts -> assemblies -> systems -> ecosystems; axioms -> lemmas -> theories -> paradigms (this is only example; the exact holarchy of holons is project-dependent). Each level is a **`U.Holon`** that becomes part of a wider holon only **after** an explicit act of construction has glued the parts together. That act is performed by a physical *Transformer* playing `TransformerRole` executing a method over an explicit **Dependency Graph**. Without a domain-neutral *law of composition* binding these moves, the logical relation between scales would break, violating the core rule **Cross-Scale Consistency**.
+B.1 is not a universal algebra pattern. It is the holonic construction doorway for part-whole and collection-as-whole claims.
+
+The older Γ material remains useful only after the ontology-side claim has been recovered. Γ, graph, algebra, tuple, matrix, embedding, and neural representation can express or check a selected structure; they do not decide by spelling that the current object is a holon, that the relation is parthood, or that a role, method, step, or work occurrence is a part of a holon.
 
 ### B.1:2 - Problem
 
-If each discipline (or project team) invents its own way of “adding things up”, four lethal pathologies appear:
+Without B.1:
 
-1. **Compositional Chaos** — identical parts aggregated by two tools yield different wholes; parallel work becomes impossible.
-2. **Brittle Dashboards** — system‑level KPIs lie because the roll‑up silently hides the weakest component.
-3. **Invalid Extrapolation** — proofs that hold locally break globally; safety cases collapse on integration day.
-4. **Emergence as Magic** — genuine synergy (“whole > sum parts”) is indistinguishable from a modelling error.
+1. **Mereology and notation collapse.** A graph or algebra is treated as the part-whole structure itself.
+2. **Roles and methods become parts.** Role factors, method parameters, guards, steps, and compositions are read as holonic parts because the same word "decomposition" appears.
+3. **Work occurrence is inferred from plan.** A method decomposition or schedule is treated as evidence that performed work had those parts.
+4. **Collections become acting systems.** A set, list, batch, fleet, or community receives agency, responsibility, or capability without A.1 and role-method-work admission.
+5. **Emergence becomes rhetoric.** A whole-level gain is explained by "synergy" or "more than the sum" without checking existing-whole explanations or B.2 whole reidentification.
 
-All four are witnessed in post‑2015 incidents, from micro‑service outages to meta‑analysis retractions.
+### B.1:3 - Forces
 
-### B.1:3 -  Forces
+| Force | Tension |
+| --- | --- |
+| Part-whole usefulness vs ontology explosion | FPF needs whole-level reasoning without minting a U-kind for every composed expression. |
+| Constructional grounding vs math convenience | Algebra and graphs can make checks precise, but only after the ontology-side object and relation are selected. |
+| Collection value vs false collective agency | Collections can have useful whole-level characteristics without becoming acting systems. |
+| Method planning vs performed work | A method can guide expected decomposition; work occurrence parts require actual occurrence identity, timing, and evidence. |
+| Emergence recognition vs ordinary repair | Some whole-level gains require B.2; many are explained inside the existing whole by ordinary part, method, measurement, or architecture repair. |
 
-| Force                           | Tension                                                                                    |   |
-| ------------------------------- | ------------------------------------------------------------------------------------------ | - |
-| **Universality vs Specificity** | One algebra must work for pumps, proofs and policies ↔ each domain owns quirky edge‑cases. |   |
-| **Determinism vs Emergence**    | Predictable, order‑free folds ↔ need to legitimise authentic novelty.                      |   |
-| **Safety vs Synergy**           | Conservative *Weakest‑Link* bound ↔ modelling genuine redundancy wins.                     |   |
-| **Simplicity vs Fidelity**      | Five rules managers can remember ↔ enough depth for formal proof.                          |   |
-| **Auditability vs Overhead**    | Machine‑checkable Standard ↔ authors must show their invariants.                           |   |
+### B.1:4 - Solution
 
-### B.1:4 - Solution — **The Invariant Quintet Standard**
+Use B.1 as a discriminator and construction frame.
 
-> *FPF freezes one universal operator, **Γ**, and binds it to five non‑negotiable invariants. Compliance with the quintet is the ticket that lets any calculus, in any future discipline, plug into the holarchy.*
+#### B.1:4.1 - Holon Aggregation Claim Frame
 
-#### B.1:4.1 - The Universal Aggregation Operator
+When part-whole construction is current, recover:
 
+```text
+HolonAggregationClaim@Context:
+  candidateWholeRef: U.Holon
+  candidatePartRefs:
+  boundedContextRef:
+  identityOrRecognitionRule:
+  partRelationRefs:
+  constructionBasisRef?
+  selectedStructureRef?
+  wholeLevelCharacteristicRefs?
+  assuranceGroundingRef?
+  neighboringNonPartRelationRefs?
+  mathLensOrRepresentationRef?
 ```
-Γ : (D : DependencyGraph, T : U.TransformerRole) → U.Holon
-```
 
-* **`D`** — a finite, acyclic graph of sibling holons at level *k*.
-* **`T`** — an external `U.TransformerRole` (not a node of `D`); see A.12.
-*Result:* a new holon at level *k + 1* whose boundary encloses every node of `D`.
+This is a claim frame, not a U-kind and not an acting record. It says what must be named before the aggregation claim is relied on.
 
-Because Γ is *externalised* through `T`, the provenance chain stays intact, satisfying the **Transformer Principle**;
+Use:
 
-#### B.1:4.2 - The Five Grounding Invariants
+- `A.14` for `ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`, `MemberOf`, aspect, and related vocabulary;
+- `C.13` for constructional grounding such as sum, set, slice, or another accepted construction;
+- `B.3.5` when a working model relies on the part-whole claim for assurance or evidence;
+- `C.16` when the current output is a whole-level characteristic;
+- `A.1` and `A.15` when the whole is claimed to be an acting collective system.
 
-| Code     | Invariant             | Plain‑English headline                            | Why it matters                               |   |
-| -------- | --------------------- | ------------------------------------------------- | -------------------------------------------- | - |
-| **IDEM** | *Idempotence*         | One part alone stays itself.                      | Anchors recursion; stops base‑case drift.    |   |
-| **COMM** | *Local Commutativity* | Swap independent parts, nothing changes.          | Enables divide‑and‑conquer builds.           |   |
-| **LOC**  | *Locality*            | Which worker or rack runs the fold is irrelevant. | Guarantees reproducible distributed runs.    |   |
-| **WLNK** | *Weakest‑Link Bound*  | No claim may exceed the frailest part.            | Keeps dashboards honest; caps hidden risk.   |   |
-| **MONO** | *Monotonicity*        | Improving any part never hurts the whole.         | Justifies “fix the bottleneck” optimisation. |   |
+#### B.1:4.2 - Didactic Firewall
 
-*Mnemonic for managers:* **S‑O‑L‑I‑D** → Same, Order‑free, Location‑free, Inferior‑cap, Don’t‑regress.
+| Source claim | Ontology-side recovery | Direct owner |
+| --- | --- | --- |
+| "This object is made of these parts." | Part-whole construction over admitted holons. | `A.1`, `A.14`, `C.13`, `B.3.5` when assurance is current. |
+| "These members form a collection." | Membership or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for whole-level characteristic. |
+| "This role is combined from role factors." | Role relation structure or role naming; not holonic parthood by default. | `A.2.7`, role patterns, `C.29` if mathematical lens is selected. |
+| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, method owners, `C.29` if mathematical lens is selected. |
+| "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal owner, evidence owner. |
+| "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `C.29`, `A.22`, architecture or description owner. |
+| "The whole shows emergence." | Existing-whole explanation first; B.2 only when the whole itself must be reidentified. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or work owner. |
 
-**Archetypal Grounding**
+#### B.1:4.3 - Work Occurrence Holarchy
 
-The Invariant Quintet is not an abstract mathematical construct; it is a formalization of common-sense physical and logical realities that manifest across all domains.
+Performed work is different from structural composition.
 
-| Invariant | `U.System` — Pump Skid Assembly | `U.Episteme` — Scientific Meta-Analysis |
-| :--- | :--- | :--- |
-| **IDEM** | An assembly of a single pump is just that pump, with its original specifications. | A review of a single study is just that study, with its original conclusions and evidence level. |
-| **COMM / LOC** | Welding two independent pump modules to the skid in a different order or in different assembly bays results in an identical final product. | The conclusions of a meta-analysis are independent of the order in which two unrelated studies were added to the evidence pool. |
-| **WLNK** | The maximum pressure rating of the entire pump skid is limited by the pressure rating of its weakest pump or connector. | The overall reliability of a synthesized theory is capped by the reliability of its least-supported foundational claim. |
-| **MONO** | Replacing a standard motor with a more powerful, efficient one can only improve or maintain the skid's overall performance; it cannot make it worse. | Adding a new, high-quality study to a meta-analysis can only strengthen or maintain the overall confidence in its conclusion, never weaken it (unless it introduces a conflict). |
+A work occurrence can have temporal parts, episode parts, operational parts, concurrent sub-runs, retries, resource roll-ups, and effect composition. That is a work-occurrence holarchy governed by `A.15.1`, not evidence that the method or role expression is a holonic part-whole structure.
 
-#### B.1:4.3 - Why only five?  (A didactic sidebar)
+Use A.15.1 when the claim needs occurrence identity, temporal coverage, `Gamma_time`, `Gamma_work`, episode policy, overlap policy, resource aggregation, or performed-work evidence.
 
-* Post‑2015 physics shows that renormalisation flows stabilise if and **only if** idempotence, locality and monotone bounds hold (Goldenfeld & Ho 2018).
-* Distributed‑data research (Spark 3, Flink 1.19) proves COMM + LOC are prerequisites for deterministic sharding.
-* Safety cases in aviation and ISO 26262 rewrote their risk roll‑ups around *Weakest‑Link* after 2021 audit failures.
+#### B.1:4.4 - Mathematical And Representation Apparatus
 
-Thus the quintet is simultaneously **empirically vetted**, **mathematically minimal**, and **cognitively teachable**.
+Use Γ, graph, algebra, tuple, matrix, embedding, or neural representation only after the object under concern and selected relation are named.
 
-#### B.1:4.4 - Emergence Without Cheating
+Acceptable uses:
 
-Real redundancy can push a system above the WLNK ceiling (e.g., RAID 6 survives two disk deaths). FPF treats this not as a rule break but as a **Meta-Holon Transition (MHT)**: the redundant set is promoted to a fresh holon at a new scale, and the quintet re-applies there. The algebra stays pure; emergence becomes explicit, auditable design space. Details live in Pattern **B.2 Meta-Holon Transition (MHT): Recognizing Emergence and Re-identifying Wholes** (next in cluster).
+- a mathematical lens for a selected structure;
+- a constructional expression for a part-whole claim already admitted by A.14 and C.13;
+- a representation of dependency relations;
+- a checking apparatus for invariants or conservative bounds.
 
-### B.1:5 - Domain‑Specific “Flavours” of Γ
+Blocked uses:
 
-The core signature of Γ never changes, but each discipline supplies a **flavour** that instantiates the quintet with domain‑appropriate mathematics and measurement units.
+- graph wording as parthood admission;
+- algebraic factorization as role, method, or work parthood admission;
+- source notation as a new U-kind;
+- one fold rule as a universal replacement for the direct owner.
 
-| Flavour      | Typical domain                                               | Dropped / relaxed invariants   | Added compensating rules                                                            | Canonical reference model (post‑2015)                                  |
-| ------------ | ------------------------------------------------------------ | ------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **Γ\_sys**  | Physical & cyber‑physical systems                            | *None*                         | –                                                                                   | ISO 15926‑2024 *Plant Data* roll‑up; NASA 2023 Integrated Hazard Model |
-| **Γ\_epist** | Knowledge graphs, meta‑analysis                              | *None*                         | Provenance weighting (PW‑1), Citation transparency (PW‑2)                           | OntoCommons 2024 audit trail                                           |
-| **Γ\_time**  | Time‑series forecasting, digital twins                       | COMM → **partial**; LOC waived | Coverage completeness (TS‑1), Temporal alignment (TS‑2)                             | EU Battery Passport 2025 reliability stack                             |
-| **Γ\_ctx**   | Order‑sensitive processes, quantum pipelines, social surveys | COMM & LOC waived              | Reproducibility hash (CTX‑1), Partial‑order soundness (CTX‑2), Observer log (CTX‑3) | CERN HL‑LHC workflow 2024                                              |
+#### B.1:4.5 - Existing-Whole Before MHT
 
-> **Didactic hint for managers:** choose the flavour whose examples look like your own dashboards; then verify your tooling honours its extra rules.
+Before declaring B.2 whole reidentification, ask whether the whole-level gain can be explained inside the existing whole:
 
-### B.1:6 - Walkthrough Examples
+- better parts;
+- corrected part relation;
+- improved measurement;
+- role or method relation repair;
+- work occurrence evidence repair;
+- functional or architecture selected-structure repair;
+- source, publication, or representation correction.
 
-#### B.1:6.1 - `Γ\_sys` — Offshore Wind Farm (2025 build)
+Use B.2 only when the whole itself must be reidentified.
 
-1. **Parts**: 72 nacelles, 72 towers, 1 export cable set.
-2. **Graph**: acyclic; each nacelle depends on its own tower, all depend on cable.
-3. **Fold**: Any parallel assembly order is legal → COMM, LOC.
-4. **WLNK check**: weakest nacelle (load factor = 0.91) bounds farm output ≤ 0.91 × rated.
-5. **Upgrade test**: swapping one nacelle to 0.95 raises farm bound — satisfies MONO.
+### B.1:5 - Archetypal Grounding (Worked Cases)
 
-*Result*: farm holon inherits predictable capacity curve; financiers can quote risk‑adjusted yield without bespoke simulation.
+#### B.1:5.1 - Pump Skid
 
-#### B.1:6.2 - `Γ_epist` — Living Systematic Review on mRNA Therapies (2024–2025)
+A pump skid can be a `U.System` holon whose parts include pumps, valves, controller, frame, and connectors.
 
-1. **Parts**: 38 peer‑reviewed trials, 12 preprints.
-2. **Graph**: dependency edges encode shared cohorts; no cycles.
-3. **Fold**: trials merged irrespective of ingestion order → COMM; distributed evaluators may differ, but provenance hashes equalise weighting → LOC.
-4. **WLNK**: overall certainty cannot exceed the lowest GRADE score among included trials.
-5. **Emergence**: discovery of a consistent age‑interaction effect violates WLNK; reviewers declare **MHT**, elevating the combined dataset to a new holon “Evidence v2” with age‑stratified potency as a *novel attribute*.
+B.1 recovers the holon aggregation claim. A.14 names component or portion relations. C.13 gives constructional grounding. C.16 carries whole-level characteristics such as maximum flow or pressure envelope. If a graph is drawn, it represents a selected dependency or structure; the graph is not the skid.
 
-*Result*: regulators see a transparent promotion of evidence-support status rather than a hidden statistical artefact.
+#### B.1:5.2 - Evidence Corpus
 
-#### B.1:6.3 - `Γ\_time` — National Grid Frequency Forecast (2025‑2030)
+A corpus can be a collection-as-whole under `MemberOf` and C.13 set construction. Its whole-level characteristics may include coverage, source freshness, bias exposure, or evidential diversity.
 
-*COMM* holds only across non‑overlapping windows; *LOC* is waived because regional sensors differ in latency.  Additional TS‑1/TS‑2 rules ensure gaps are filled before aggregation.  Engineers iterate locally yet obtain one coherent five‑year projection.
+The corpus does not become an acting system. A review board, script, or research team may be an acting system in role. The corpus may be an episteme or publication-side object under direct owners.
 
-### B.1:7 - Conformance Checklist (for pattern adopters)
+#### B.1:5.3 - Method With Steps
 
-| ID       | Check                                        | How to demonstrate (engineer‑manager view)                      | Typical evidence carrier                    |
-| -------- | -------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- |
-| **CL‑1** | **Declare flavour** (`Γ\_sys`, `Γ_epist`, …) | Front‑page spec line                                            | Pattern header                              |
-| **CL‑2** | **Show quintet proof**                       | Table mapping each invariant → test or theorem                  | PDF appendix, automated notebook            |
-| **CL‑3** | **Graph acyclicity**                         | Static analysis or domain rule                                  | Screenshot of tool report / manual argument |
-| **CL‑4** | **External Transformer**                         | Name the role (Standardor, editorial board, orchestration node) | Organogram, RACI sheet                      |
-| **CL‑5** | **Emergence pathway**                        | State MHT trigger criteria                                      | Flowchart, decision table                   |
+A machining method has ordered steps and parameters. Those steps are method relation or method-description material. They do not prove that a performed machining run occurred, nor that the run had the same parts.
 
-A proposal that skips any line of the checklist **fails** pattern B.1 and must iterate before peer review.
+If the current claim is the method structure, use method owners and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
+
+### B.1:5.1 - Bias-Annotation
+
+| Bias risk | Failure | Mitigation |
+| --- | --- | --- |
+| Apparatus as ontology | Graph, algebra, tuple, matrix, embedding, or Gamma notation decides the object kind by spelling. | Recover the holon, relation, selected structure, and mathematical-lens use separately. |
+| Decomposition as parthood | Role factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use the direct owner for role, method, temporal, work, or part-whole claims. |
+| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover collection grounding, whole-level characteristic, or acting collective system under direct owners. |
+| Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Test measurement, architecture, role, method, work, and evidence explanations before B.2 whole reidentification. |
+
+### B.1:6 - Conformance Checklist
+
+| Check | Requirement |
+| --- | --- |
+| `CC-B1-1` | The current claim identifies whether it is part-whole, membership, collection-as-whole, role relation, method relation, work occurrence holarchy, selected structure, or mathematical description. |
+| `CC-B1-2` | Part-whole claims name admitted holons, bounded context, identity or recognition rule, part relation, and constructional owner. |
+| `CC-B1-3` | A.14 and C.13 remain direct owners for relation vocabulary and constructive grounding. |
+| `CC-B1-4` | Role and method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. |
+| `CC-B1-5` | Performed work occurrence parts return to A.15.1. |
+| `CC-B1-6` | Mathematical and representation apparatus is named as lens or expression, not as ontology by spelling. |
+| `CC-B1-7` | B.2 is used only when the whole itself must be reidentified after existing-whole explanations fail. |
+| `CC-B1-8` | No generic `U.Boundary`, `U.Interaction`, `U.Level`, `U.Emergence`, or `U.Frustration` is introduced by aggregation wording. |
+
+### B.1:7 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| Gamma as head ontology | Γ is treated as the thing that makes all wholes. | Recover the ontology-side claim first; use Γ only as constructional or mathematical apparatus when selected. |
+| Graph as structure | A diagram or graph is treated as the part-whole structure. | Name the selected structure and relation owner; keep the graph as representation or math lens. |
+| Method as work | A method decomposition is used as evidence that work occurred. | Use A.15.1 for performed-work occurrence and evidence. |
+| Collection as acting whole | A list or pool decides, acts, or bears responsibility. | Recover membership, collection-as-whole, whole-level characteristic, or acting collective system under direct owners. |
+| Emergence by narrative | "More than the sum" replaces existing-whole analysis. | Check existing-whole explanations before B.2. |
 
 ### B.1:8 - Consequences
 
-| Benefit (managerial)                                     | Pay‑off path          | Trade‑off                       | Mitigation                            |
-| -------------------------------------------------------- | --------------------- | ------------------------------- | ------------------------------------- |
-| Clear *risk ceiling* at every roll‑up (WLNK)             | Faster go/no‑go gates | May look pessimistic            | Highlight redundancy, then invoke MHT |
-| **Parallel engineering** without merge hell (COMM + LOC) | Shorter critical path | Requires origin hash discipline | Provide reference script templates    |
-| **Continuous improvement** strategies justified by MONO  | Lean upgrade budgets  | Cannot model negative synergies | Attach incentive to detect MHT events |
-| **Audit trail** readable by non‑experts                  | Easier certification  | Extra documentation overhead    | Auto‑generate provenance footers      |
+Positive consequences:
+
+- B.1 can still use useful aggregation apparatus without letting apparatus choose the ontology.
+- Holonic part-whole claims become reviewable.
+- Role, method, work, math-lens, and publication descriptions stop leaking into mereology.
+- B.2 has a cleaner entry condition: whole reidentification, not ordinary improvement rhetoric.
+
+Costs:
+
+- Users must identify the claim kind before choosing a notation.
+- Some Gamma-heavy examples require a direct owner before the notation is used: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
+- Work occurrence analysis requires evidence and timing, not just a method plan.
 
 ### B.1:9 - Rationale
 
-The Invariant Quintet is the "renormalisation law" of FPF. It translates deep principles from physics, computer science, and engineering into a universal, algebraic Standard that governs composition in any domain.
+The practical force of B.1 is conservative. Whole-level reasoning is useful, but it must be grounded in accepted part-whole relations, constructional discipline, and direct pattern ownership. This lets FPF speak across physical systems, epistemes, work occurrences, bounded contexts, disciplines, and collections without growing a new type for every composed expression.
 
-**Physics & Renormalisation:** The invariants mirror the laws of renormalisation group (RG) flows. IDEM, COMM, and LOC ensure that the aggregation is a well-behaved coarse-graining operation, while WLNK acts as a conservative bound on energy and risk, preventing "free lunch" synergies from appearing by mere arithmetic.
-*   **Distributed Systems:** The COMM and LOC invariants are the formal prerequisites for modern, large-scale distributed computing. Systems like Spark and Flink rely on the guarantee that data can be processed on independent workers in any order, and the final result will be deterministic.
-*   **Systems Engineering & Safety:** The WLNK and MONO invariants are cornerstones of safety-critical design. Fault-tree analysis and reliability engineering are built on the WLNK principle that system reliability is bounded by the least reliable link. The MONO principle provides the formal justification for iterative improvement ("Kaizen"): it guarantees that a local fix will not cause a global regression.
+Mathematical apparatus remains available. It becomes more useful after the governed object is known: graph for dependency representation, algebra for selected composition rules, tuple for slot relation expression, matrix or embedding for analysis, and C.29 when a mathematical lens is relied on for the current claim.
 
-By elevating these cross-disciplinary insights to the level of a mandatory, constitutional Standard, FPF ensures that all composition within the framework is predictable, auditable, and physically plausible. It transforms aggregation from an ad-hoc, domain-specific art into a universal, repeatable science.
+### B.1:10 - SoTA-Echoing
 
-### B.1:10 - Anti-Patterns & Conceptual Repairs
-
-| Anti-Pattern | Symptom | Conceptual Fix |
-| :--- | :--- | :--- |
-| **Averaging Risk** | A dashboard shows a high overall reliability score for a system by averaging a high-reliability component with a low-reliability one. | Enforce the **WLNK** invariant. The aggregate reliability must be `min(R_parts)`, not `avg(R_parts)`. |
-| **Order-Dependent Builds**| The same set of software patterns produces a different final build depending on the compilation order. | Enforce **COMM/LOC**. Identify the hidden dependency between the patterns and either remove it or make it explicit, moving to `Γ\_ctx` if necessary. |
-| **Improvement Paradox** | A team replaces a component with a better one, but a system-level KPI gets worse. | Enforce **MONO**. This indicates a hidden, negative coupling. The model must be updated to make this coupling an explicit constraint or interaction. |
-| **Synergy by Narrative** | A claim is made that the whole is greater than the sum of its parts, without a formal mechanism. | This violates **WLNK**. If the synergy is real (e.g., due to redundancy or a new feedback loop), it must be modeled as a **Meta-Holon Transition** (Pattern B.2). |
+| Source family | Current lesson for B.1 | FPF decision |
+| --- | --- | --- |
+| Constructional ontology and applied ontology practice | Whole identity, dependency, and construction need explicit grounding rather than unrestricted composition. | B.1 requires A.14 relation vocabulary and C.13 constructional grounding before part-whole claims are relied on. |
+| Systems engineering and digital engineering practice | Whole-level characteristics and architecture views need traceable part relations and selected structures. | B.1 separates part-whole construction from selected-structure descriptions, dashboards, and mathematical representations. |
+| Method and process-modeling traditions | Plans, procedures, and performed occurrences are often conflated. | Method relation structure remains with method owners; performed-work holarchy remains with A.15.1. |
+| Emergence and holonic systems practice | Genuine whole-level novelty must be distinguished from measurement, architecture, role, method, or work repair. | B.2 owns whole reidentification after existing-whole explanations are tested. |
 
 ### B.1:11 - Relations
 
-* **Builds on:** *Holonic Foundation*, *Transformer Principle*, *Open‑Ended Kernel*.
-* **Enables:** *Meta‑Holon Transition* (B .2), *Calculus of Trust* (B .3), *Holonic evolution patterns* (Cluster C).
-* **Refined by:** Flavour sub‑patterns B .1.2 – B .1.4.
-* **Exemplifies:** Pillars *Cross‑Scale Consistency*, *State Explicitness*, *Ontological Parsimony*.
-
-> **Working maxim:** *“Aggregation is never neutral; Γ makes its politics explicit and testable.”*
+- **Builds on:** `A.1` for holon admission, `A.14` for relation vocabulary, `C.13` for constructional grounding, and `B.3.5` for Working-Model assurance grounding.
+- **Coordinates with:** `A.15` and `A.15.1` for method and work, `A.22` and `C.30` for selected structure and architecture, `C.16` for whole-level characteristics, `C.29` for mathematical lenses, and `B.2` for whole reidentification.
+- **Refined by:** `B.1.1`, `B.1.2`, `B.1.4`, and `B.1.6` for selected dependency, system aggregation, contextual-temporal aggregation, and work-resource aggregation cases.
 
 ### B.1:End
 

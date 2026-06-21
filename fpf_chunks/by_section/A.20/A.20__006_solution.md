@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:4 — Solution"
-line_start: 28597
-line_end: 28748
+line_start: 29238
+line_end: 29389
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -72,7 +72,7 @@ Minimum pins on faces that carry CV outcomes (**Lean publication** under the sel
 * **CtxState pins.** `⟨L,P,E⃗,D⟩` on ports and tokens; raw `U.Transfer` preserves them.
 * **Path pins.** `PathId` and `PathSliceId` appear where slice-local refresh or reinterpretation witnesses are relevant; valuation semantics are carried by `E.18` plus `A.20`, with `G.11` when refresh wiring is present.
 * **CV pins.** `CV.Status ∈ {abstain, pass, degrade, block}`, `CV.WitnessRef?` (refs only).
-* **Edition pins.** If a face cites `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi`, the face **includes** the compatibility reference (`BridgeCard + UTS row`, with `CL` and `CL^plane`) under `F.9`, `F.17`, `E.17`, and `E.18` for later use. A.20 references this requirement; it does not introduce or modify Bridge and UTS formats.
+* **Edition pins.** If a face cites `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi`, the face **includes** the compatibility reference (`BridgeCard + UTS row`, with `CL` and `CL^plane`) under `F.9`, `F.17`, `E.17`, and `E.18` for neighboring use. A.20 references this requirement; it does not introduce or modify Bridge and UTS formats.
 * **Face scope.** Each face includes `PublicationScopeId` with an **MVPK profile** value of `Min`, `Lite`, `SetReady`, or `Max` — no new publication-face kinds.
 * **Register discipline.** Tech names ASCII; twin labels; required LEX tokens follow E.10 (e.g., `SentinelId`, `PathSliceId`, `SliceRefresh`).
 
@@ -184,7 +184,7 @@ Each CV class yields one `CV.Status` value: `abstain`, `pass`, `degrade`, or `bl
 
 #### A.20:4.12 - Idempotency and congruence discipline
 
-Any publication consumed by an `A.21` gate decision uses the `A.21` decision-stability witness for input equivalence and idempotency; use `G.6` or `G.11` when an A.10 evidence path visibility or refresh-implication claim is present. A.20 does not introduce keys, hashes, or cache policies.
+Any publication consumed by an `A.21` gate decision uses the `A.21` decision-stability witness for input equivalence and idempotency; use `G.6` or `G.11` when an A.10 evidence relation visibility or refresh-implication claim is present. A.20 does not introduce keys, hashes, or cache policies.
 
 **Minimal lexeme set for CV‑adjacent equivalence (normative).** Where an `A.21` gate decision consumes CV outcomes, the **equivalence witness** SHALL identify at least: `{PathSliceId, GateProfileId, Γ selector (+window bounds if interval), E⃗ editions vector for cited registries, ReturnShape kind (if comparable), CV class and kind set considered}`. Changing any of these breaks equivalence and triggers re-aggregation.
 

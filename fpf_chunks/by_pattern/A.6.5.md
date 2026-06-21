@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.5.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
-line_start: 15607
-line_end: 15892
+line_start: 15870
+line_end: 16155
 dependencies:
   - "A.1"
   - "A.2.1"
@@ -316,7 +316,7 @@ The role decision is especially important. If every slot position is called a ro
 
 `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, and `A.15` govern role values, role assignments, role-state checks, role relation structure, and role-method-work alignment. `A.6.5` only expresses the SlotSpecs of relations that include role values or role assignments.
 
-`A.10`, `B.3`, `G.6`, `C.28`, and `F.10` govern evidence-use, assurance, causal-use, provenance, and status-use relations. Old evidence-role and status-role source wording is governed through typed evidence-use, assurance, causal-use, provenance, or status-use relations, not through work-role assignment.
+`A.10`, `B.3`, `G.6`, `C.28`, and `F.10` govern evidence-use, assurance, causal-use, provenance, and status-use relations. Evidence-role and status-role source wording is governed through typed evidence-use, assurance, causal-use, provenance, or status-use relations, not through work-role assignment.
 
 `A.6.M`, `A.6.F`, `E.18`, `C.30.TFS-REL`, and architecture patterns govern interface, port, functional, and transformation-flow cases. `A.6.5` applies only after the governing EntityOfConcern has been recovered.
 

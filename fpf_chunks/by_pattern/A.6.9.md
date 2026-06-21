@@ -1,16 +1,16 @@
 ---
 chunk_kind: "parent"
 pattern_id: "A.6.9"
-pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
+pattern_title: "Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.9.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same / equivalent / align\" via explicit Bridges (RPR-XCTX)"
-line_start: 17422
-line_end: 17848
+  - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
+line_start: 17692
+line_end: 18126
 dependencies:
   - "A.6.6"
   - "A.6.P"
@@ -40,22 +40,30 @@ keywords:
   - "weakest-link"
 ---
 
-## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)
+## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)
+> **Type:** Relational precision-restoration pattern
+> **Status:** Stable
+
+**Use this pattern when** a document, table row, boundary statement, or publication claim says “same”, “equivalent”, “aligned”, “mapped”, or “corresponding” across contexts, reference planes, A.7 lanes, or SenseCells.
+
+**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or substitution license; direction, loss, scope, edition, and admissible use disappear.
+
+**What this buys.** The sameness claim becomes an explicit Bridge claim with direction, BridgeKind, CL, loss, scope, time basis, witness refs, and a boundary between interpretation and substitution.
 
 ### E.24.UK settlement
 
-A.6.9 does not admit `U.CrossContextSamenessDisambiguation` as a durable U-kind. The pattern governs cross-context sameness disambiguation as a relational precision-restoration pattern. The durable values it uses are Bridge, BridgeKind, direction, congruence level, loss, scope, EntityOfConcern, Description episteme, carrier, and direct C.3/F.9/E.17 values when current; A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots, not new kernel relations.
+A.6.9 does not admit `U.CrossContextSamenessDisambiguation` as a durable U-kind. The pattern governs cross-context sameness disambiguation as a relational precision-restoration pattern. The durable values it uses are Bridge, BridgeKind, direction, congruence level, loss, scope, EntityOfConcern, Description episteme, carrier, and direct C.3/F.9/E.17 values when current; A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots, not new relation kinds.
 
 > **Type:** Architectural (A) — A.6.P specialisation (RPR)
 > **Status:** Stable
 > **Normativity:** Normative
 > **Placement:** A.6 cluster; immediately after A.6.8
-> **Builds on:** A.6.P (RPR); F.0.1:2.3 (Explicit Bridge Principle); E.10.D1 (Context discipline); E.10.U9 (Alignment/Bridge lexical discipline); F.9 (Bridge discipline + reasoning primitives); F.7/F.8 (Concept‑Set rows & weakest‑link); F.5 (labels); A.7 (Strict Distinction: lanes + stance hygiene); E.19 (normative precision)
-> **Coordinates with:** E.17 (Viewpoints / Views / Correspondences, when the prose is really about views/projections); C.3.3 (KindBridge, when the claim is about kind/classification transfer); A.6.6 (Identification/indexing, when the umbrella is really about IDs); Concept‑Set row scope rules; E.10 lexical SD (umbrella tokens); B.3 penalty conversion (if used)
+> **Builds on:** A.6.P (RPR); F.0.1:2.3 (Explicit Bridge Principle); E.10.D1 (Context discipline); E.10.U9 (Alignment and Bridge lexical discipline); F.9 (Bridge discipline + reasoning primitives); F.7 and F.8 (Concept‑Set rows and weakest‑link); F.5 (labels); A.7 (Strict Distinction: lanes and stance hygiene); E.19 (normative precision)
+> **Coordinates with:** E.17 (Viewpoints, Views, and Correspondences, when the prose is really about views, projections, or correspondences); C.3.3 (KindBridge, when the claim is about kind or classification transfer); A.6.6 (Identification and indexing, when the umbrella is really about IDs); Concept‑Set row scope rules; E.10 lexical SD (umbrella tokens); B.3 penalty conversion (if used)
 
 Use this pattern for any document, table row, or boundary statement that asserts cross-context sameness, compatibility, alignment, mapping, or correspondence between SenseCells, or collapses A.7 lanes or `CHR:ReferencePlane`s under umbrella wording such as "same", "equivalent", or "aligned".
 
-This pattern reuses `Bridge`, `BridgeKind`, `dir`, `CL`, `Loss`, and `scope`. A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots that make the bridge judgement reviewable; they do not alter the kernel Bridge predicate and do not mint new kernel relations.
+This pattern reuses `Bridge`, `BridgeKind`, `dir`, `CL`, `Loss`, and `scope`. A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots that make the bridge judgement reviewable; they do not alter the governed Bridge predicate and do not mint new relation kinds.
 
 When a bridge scope is broader than Naming-only, or when an edit broadens the scope or increases the declared `CL`, provide `witnessRefs` such as a review note, evaluation suite, decision excerpt, or other evidence named by the relying context.
 
@@ -69,9 +77,9 @@ In FPF terms, this is almost never a single claim. It is a *Bridge situation* th
 * a potentially hidden **direction** (A→B is not B→A);
 * a hidden **degree of fit** (≈ vs ⊑/⊒ vs ⋂ vs ⊥, or interpretation‑only);
 * near‑inevitable **loss/distortion** on transfer;
-* a (usually implicit) **edition / time‑slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
+* a (usually implicit) **edition or time-slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
 * a usually implicit **facet span** (`facetSpan`; “which aspects are being aligned?”) — the correspondence is often a *partial lens*, not whole‑cell sameness;
-* a critical ambiguity between **lexical synonymy / translation** (“same word/label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ‑normalization / unit conversion”).
+* a critical ambiguity between **lexical synonymy or translation** (“same word or label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ-normalization or unit conversion”).
 * a critical ambiguity between **explaining** a correspondence and **licensing substitution**.
 
 A.6.9 is the RPR specialisation that makes this structure explicit and prevents accidental “global identity” claims when the author’s intent is merely naming convenience or interpretive help.
@@ -116,29 +124,29 @@ An occurrence SHALL be treated as an A.6.9 trigger when **either** (i) `CtxA ≠
 * **Reuse-intent shorthands** that often smuggle licences: "treat as", "reuse", "share", "unify", "canonical source", "synced", "normalized", "one-to-one", "same ID", "mirrors".
 * **Endpoint umbrellas** in the presence of a cross‑context sameness claim (e.g., “the system/service/model/table/class”) — this is simultaneously an endpoint‑identity problem and a Bridge problem.
 
-**ID/reference caveat.** Tokens like “same ID”, “same key”, “one‑to‑one”, “synced”, or “mirrors” often denote an **identification/indexing** claim or an **operational mapping witness** rather than a sense-level correspondence. If an ID claim is being used as a proxy for meaning (“same ID ⇒ same sense or role”), split it into (i) an explicit identification/indexing claim (A.6.6) and (ii) any Bridge claim about meaning (this pattern). Keep code/ETL facts as `witnessRefs`; they do not determine `kind/CL/Loss/scope` by themselves.
+**ID/reference caveat.** Tokens like “same ID”, “same key”, “one-to-one”, “synced”, or “mirrors” often denote an **identification or indexing** claim or an **operational mapping witness** rather than a sense-level correspondence. If an ID claim is being used as a proxy for meaning (“same ID ⇒ same sense or role”), split it into (i) an explicit identification or indexing claim (A.6.6) and (ii) any Bridge claim about meaning (this pattern). Keep code or ETL facts as `witnessRefs`; they do not determine `kind`, `CL`, `Loss`, or `scope` by themselves.
 
 **Multilingual caveat.** In non‑English prose, treat local‑language equivalents of the umbrella tokens as the same trigger class (e.g., Russian “эквивалентно”, “соответствует”, “это одно и то же”).
 
-**Lane/plane‑only caveat.** If `CtxA = CtxB` and the trigger is solely a lane/plane collapse, repair lane/plane typing first (A.7 / declared `Φ_plane`). You MAY satisfy this pattern by re‑typing endpoints + adding an explicit non‑licensing marker; do not invent a Bridge unless you actually need an auditable cross‑Context licence record.
+**Lane-only or plane-only caveat.** If `CtxA = CtxB` and the trigger is solely a lane or plane collapse, repair lane and plane typing first (A.7 or declared `Φ_plane`). You MAY satisfy this pattern by re‑typing endpoints and adding an explicit non‑licensing marker; do not invent a Bridge unless you actually need an auditable cross‑Context licence record.
 
 When triggered, the author SHALL do exactly one of:
 
-1. **Rewrite into an explicit Bridge** (BridgeId or inline Bridge Card) with the required slots (`kind/dir/CL/Loss/scope` at minimum), or
+1. **Rewrite into an explicit Bridge** (BridgeId or inline Bridge Card) with the required slots (`kind`, `dir`, `CL`, `Loss`, and `scope` at minimum), or
 2. **Rewrite into an Explanation‑only form**: either declare an **Explanation‑only Bridge** (`scope=Explanation‑only`) or keep the statement as Plain explanatory prose with an explicit **non‑licensing marker** (“no Bridge licence; do not substitute; do not justify rows”). In either form, it MUST NOT be used to justify Concept‑Set rows, cross‑Context reuse, or substitution.
 
 The repair has three moves:
 
 **Terminology discipline (Tech register).**
-* In this spec, **Context** means `U.BoundedContext` (E.10.D1 / D.CTX).
+* In this spec, **Context** means `U.BoundedContext` (E.10.D1 and D.CTX).
 * Use **lane** for the A.7 split (**Object | Description | Carrier**).
-* **CHR:ReferencePlane** is reserved for world/concept/episteme crossings; do **not** use it as a synonym for lane.
+* **CHR:ReferencePlane** is reserved for world, concept, and episteme crossings; do **not** use it as a synonym for lane.
 
 0. **Resolve endpoints as SenseCells (and pin editions where relevant).** If the prose wording uses pronominal/metonymic bundles (“the system”, “the model”, “it”, “this class”, “that table”, “the service”), treat this as an endpoint‑identity problem first: enumerate candidates and select the intended `σ@Ctx` endpoints (Candidate‑Set Note, A.6.P:4.0b). Also check **lane** and **stance/time tags**: ensure each candidate sits on the intended A.7 lane (**Object | Description | Carrier**) and record any time-stance tags on the relevant carriers or source publications (e.g., `DesignRunTag = design | run`) that affect substitution safety. Do not treat `DesignRunTag` as a separate Context; it is a time tag on carriers, source publications, or source epistemes as applicable. If the only crossing is design↔run, express it as an Interpretation Bridge (`kind=⇄ᴅʀ`, `scope=Explanation‑only`) unless you have a separately justified substitution Bridge within a fixed lane. If the triggering token is an identifier/key/code, repair it as a Carrier‑lane identification/indexing claim first (A.6.6), and only then decide whether there is also a sense‑level Bridge claim. If the ambiguity is actually a **CHR:ReferencePlane** mix (e.g., “a database column” vs “a real‑world attribute”), treat that as a ReferencePlane issue: restate endpoints on a single `CHR:ReferencePlane`, or handle the crossing through a declared `Φ_plane` policy before attempting any substitution licence. In decision/publication lanes, endpoint ambiguity is fail‑closed: if the intended endpoints cannot be resolved from local cues and `witnessRefs`, keep the sentence as Plain explanatory prose (or an Explanation‑only Bridge) and do not use it to justify cross‑Context reuse, Concept‑Set rows, or substitution.
    * **Modularity note:** if the endpoint token itself is a known umbrella term (e.g., “service”), apply the relevant endpoint‑disambiguation RPR first (e.g., A.6.8 for “service”), then return here for the cross‑context sameness predicate.
-   * **View/projection note:** if the prose is primarily about **views/projections/correspondences** rather than sameness licences, coordinate with E.17 (multi‑view describing). You may still need a Bridge for naming/substitution licences, but do not let “is a view of” silently become “is the same as”.
-   * **Edition / canon pinning (Γ_time).** If either endpoint’s meaning is fixed by a versioned canon (glossary, schema, code list, ontology, model release), record the specific editions (or “as‑of” date) used to make the correspondence judgement, and carry that as `Γ_time` on the Bridge Card. If you cannot state `Γ_time` in decision/publication lanes, fail‑closed: keep the prose Explanation‑only and do not justify rows or substitution.
-   * **Ontology category sanity (Kinds vs instances vs values).** Before declaring `kind/dir/CL/scope`, check that the endpoints live at compatible ontological strata (e.g., *Kind/classification* vs *instance* vs *measurement value*). If the “equivalence” is really a kind/classification transfer, coordinate with **C.3.3 KindBridge**; if it is a value‑normalization claim, treat it as a Measurement‑family bridge and make the normalization channel explicit in `Loss` (and/or `witnessRefs`).
+   * **View and projection note:** if the prose is primarily about **views, projections, or correspondences** rather than sameness licences, coordinate with E.17 (multi‑view describing). You may still need a Bridge for naming or substitution licences, but do not let “is a view of” silently become “is the same as”.
+   * **Edition and canon pinning (Γ_time).** If either endpoint’s meaning is fixed by a versioned canon (glossary, schema, code list, ontology, model release), record the specific editions (or “as‑of” date) used to make the correspondence judgement, and carry that as `Γ_time` on the Bridge Card. If you cannot state `Γ_time` in decision or publication lanes, fail‑closed: keep the prose Explanation‑only and do not justify rows or substitution.
+   * **Ontology category sanity (Kinds vs instances vs values).** Before declaring `kind`, `dir`, `CL`, or `scope`, check that the endpoints live at compatible ontological strata, for example *Kind or classification* versus *instance* versus *measurement value*. If the “equivalence” is really a kind or classification transfer, coordinate with **C.3.3 KindBridge**; if it is a value-normalization claim, treat it as a Measurement-family bridge and make the normalization channel explicit in `Loss`, with `witnessRefs` when current.
 
 1. **Replace the umbrella predicate with a Bridge reference** (or an inline Bridge Card).
 2. **Choose the Bridge’s kind, direction, licence scope, `CL`, and Loss notes explicitly**, instead of letting readers infer them.
@@ -173,21 +181,21 @@ This record is a **conceptual judgement and licensed‑use record** (a thought�
 
 #### A.6.9:4.2 - Explicit claim skeleton
 
-A.6.9 fixes the minimal slot set that must be made explicit whenever a cross‑Context (or cross‑lane / cross‑plane) “same/equivalent/align/map/…” assertion appears.
-| Slot                 |               Required | Meaning / constraints                                                                                                                  |
+A.6.9 fixes the minimal slot set that must be made explicit whenever a cross‑Context, cross-lane, or cross-plane “same/equivalent/align/map/…” assertion appears.
+| Slot                 |               Required | Meaning and constraints                                                                                                                  |
 | -------------------- | ---------------------: | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `BridgeId`           |          Yes (if cited) | Required whenever the Bridge is referenced from multiple places, used to justify row scope, or used as a licence in decision/publication lanes. Inline cards MAY omit an id for a single‑use didactic gloss. **When present, the id is a registry reference** (per the F.9 registry‑reference note): check existence / edition pinning, not signature export. |
+| `BridgeId`           |          Yes (if cited) | Required whenever the Bridge is referenced from multiple places, used to justify row scope, or used as a licence in decision or publication lanes. Inline cards MAY omit an id for a single-use didactic gloss. **When present, the id is a registry reference** (per the F.9 registry-reference note): check existence and edition pinning, not signature export. |
 | `σA@CtxA`, `σB@CtxB` |                    Yes | Endpoints are **SenseCells** (not strings, not “the systems”).                                                                         |
-| `senseFamily`        |                    Yes | Use a named family (F.9). For substitution‑capable Bridges, this MUST be a single family (Role, Status, Measurement, Type-structure, ...). If the correspondence crosses families, use an **Interpretation** kind (`⇄ᴅʀ / →ᴍᴇᵃ / →ᴅᵉᵒ`) and record the channel explicitly (e.g., `Method ⇄ᴅʀ Execution`, `Measurement →ᴍᴇᵃ Requirement/Clause`, `Deontic →ᴅᵉᵒ Execution`), keeping `scope=Explanation‑only`. |
+| `senseFamily`        |                    Yes | Use a named family (F.9). For substitution-capable Bridges, this MUST be a single family (Role, Status, Measurement, Type-structure, ...). If the correspondence crosses families, use an **Interpretation** kind (`⇄ᴅʀ`, `→ᴍᴇᵃ`, or `→ᴅᵉᵒ`) and record the channel explicitly, for example `Method ⇄ᴅʀ Execution`, `Measurement →ᴍᴇᵃ Requirement or Clause`, or `Deontic →ᴅᵉᵒ Execution`, keeping `scope=Explanation-only`. |
 | `kind`               |                    Yes | One of the F.9 kinds: `≈ / ⊑ / ⊒ / ⋂ / ⊥ / ⇄ᴅʀ / →ᴍᴇᵃ / →ᴅᵉᵒ`. Use `⊑/⊒` only for defensible inclusion. If you can name a counter‑case that violates inclusion for these endpoints, you do **not** have `⊑/⊒` — use `⋂` or refine endpoints (SenseCell split). |
 | `dir`                |                    Yes | Always explicit (F.9). Use `A→B` for any **substitution** claim (Role Assignment & Enactment‑eligible), even when `kind=≈`. Use `A↔B` only to express a symmetric correspondence (or Type‑structure reuse); it does **not** imply bidirectional substitution. **No implicit inversion.** **Inclusion sanity:** when `kind∈{⊑,⊒}`, ensure `dir` matches the intended safe reading (substitution, when allowed, goes **from narrower to broader**); if needed, swap endpoints or declare the inverse Bridge explicitly rather than relying on prose. |
-| `Γ_time`             | Yes (in decision/publication lanes); otherwise Should | **Edition / time‑slice basis** for the Bridge judgement. Pin (or reference) the editions of the canons that fix the endpoints’ meanings (glossary/schema/code list/ontology/model release), or state an “as‑of” date for both sides. If endpoint notation already pins editions unambiguously, you MAY set `Γ_time = =endpointPins`. If the correspondence is intentionally *rolling*, say so explicitly and attach an update policy + witnesses; rolling claims MUST NOT justify substitution unless a specific edition pair is pinned for the decision being justified. |
+| `Γ_time`             | Yes in decision or publication lanes; otherwise Should | **Edition or time-slice basis** for the Bridge judgement. Pin or reference the editions of the canons that fix the endpoints’ meanings: glossary, schema, code list, ontology, or model release. Alternatively, state an “as-of” date for both sides. If endpoint notation already pins editions unambiguously, you MAY set `Γ_time = =endpointPins`. If the correspondence is intentionally *rolling*, say so explicitly and attach an update policy plus witnesses; rolling claims MUST NOT justify substitution unless a specific edition pair is pinned for the decision being justified. |
 | `CL`                 |                    Yes | Integer `0–3` with label (`0 Opposed`, `1 Comparable`, `2 Translatable`, `3 Near‑identity`) and a one‑line “why”. For `CL=3`, the “why” MUST cite matched invariants (see below). |
 | `Loss`               |                    Yes | **Non‑empty Loss Notes** stating what fails to carry (units, scope, granularity, preconditions, stance). `Loss: none` is permitted **only** when `CL=3` and matched invariants are cited; for `kind=⊥`, use `Loss: n/a (incompatibility claim)` (F.9). |
-| `facetSpan`          | Yes (if not whole‑cell); otherwise May | The **facet span** of the correspondence (what is being aligned / preserved): e.g., `{label}`, `{identifier semantics}`, `{membership}`, `{value after unit normalization}`, `{role qualifiers}`, `{status lattice}`. If the bridge is facet‑limited, either (a) refine endpoints into facet SenseCells (preferred), or (b) declare `facetSpan` explicitly and keep `scope` capped appropriately. |
+| `facetSpan`          | Yes (if not whole-cell); otherwise May | The **facet span** of the correspondence: what is being aligned or preserved, for example `{label}`, `{identifier semantics}`, `{membership}`, `{value after unit normalization}`, `{role qualifiers}`, or `{status lattice}`. If the bridge is facet-limited, either (a) refine endpoints into facet SenseCells (preferred), or (b) declare `facetSpan` explicitly and keep `scope` capped appropriately. |
 | `counterExample`     |           Yes (if CL≤2) | The crispest case where the next higher-licence reading would mislead (substitution, row scope, or type reuse). For `CL=3`, state “no known counterexamples under invariants” (and cite the invariant set). |
 | `invariants`         |           Yes (if CL=3) | A short list of the invariants that justify `CL=3` (domain + measurement + stance constraints as applicable), with pointers (`witnessRefs`) to where they are checked or argued. |
-| `scope`              |                    Yes | Allowed use (F.9): `Explanation‑only / Naming‑only / Role Assignment & Enactment‑eligible / Type‑structure`. This is a **maximum licence** for how the Bridge may be used in reasoning and tables. Do not confuse it with **Claim scope (G)** from USM (A.2.6), and do not encode “sometimes substitution” by mixing scopes—narrow endpoints instead (see below). |
+| `scope`              |                    Yes | Allowed use (F.9): `Explanation-only`, `Naming-only`, `Role Assignment & Enactment-eligible`, or `Type-structure`. This is a **maximum licence** for how the Bridge may be used in reasoning and tables. Do not confuse it with **Claim scope (G)** from USM (A.2.6), and do not encode “sometimes substitution” by mixing scopes: narrow endpoints instead. |
 | `witnessRefs`        | Should (MUST in decision/publication lanes for any Bridge used beyond Explanation‑only) | Evidence carriers or witness set (rules, tests, audits, empirical evaluations, review notes, alignment reports). `witnessRefs` are how readers distinguish “declared” from “demonstrated”. |
 | `didacticHook`       |                    May | A single sentence that teaches the safe reading.                                                                                       |
 
@@ -212,7 +220,7 @@ The following constraints are stated as *admissibility conditions* (E.19): they 
 
 #### A.6.9:4.3 - Change‑class lexicon
 
-A.6.9 forbids “re‑align / re‑map / now equivalent” as a change description. Changes are narrated using the **A.6.P change classes**; the Bridge‑specific verbs below are narrative shorthands that map to A.6.P:4.4 (`declareRelation`, `withdrawRelation`, `retargetParticipant`, `reviseByValue`, `rescope`, `retime`, `refreshWitnesses`).
+A.6.9 forbids “re-align”, “re-map”, or “now equivalent” as a change description. Changes are narrated using the **A.6.P change classes**; the Bridge-specific verbs below are narrative shorthands that map to A.6.P:4.4 (`declareRelation`, `withdrawRelation`, `retargetParticipant`, `reviseByValue`, `rescope`, `retime`, `refreshWitnesses`).
 Authors SHALL NOT use umbrella verbs (“re‑align”, “re‑map”, “now equivalent”, …) as change narration. Narrate changes using the change‑class lexicon below (mapped to A.6.P:4.4).
 
 1. `declareBridge(BridgeId, σA@CtxA, σB@CtxB, …slots…)`
@@ -221,7 +229,7 @@ Authors SHALL NOT use umbrella verbs (“re‑align”, “re‑map”, “now e
 4. `retime(BridgeId, Γ_time→Γ_time')` (maps to A.6.P `retime(newΓ_time)`; semantic; edition‑fenced in decision/publication lanes)
 5. `changeBridgeKind(BridgeId, kind→kind')` (maps to A.6.P `changeRelationKind`)
 6. `adjustCL(BridgeId, CL→CL')` (raise/lower, with at least one new invariant or counter‑example)
-7. `rescope(BridgeId, scope→scope')` (Naming‑only → Role Assignment & Enactment‑eligible / Type‑structure is a strengthening; requires DRR and MUST be unconditional for the same endpoints)
+7. `rescope(BridgeId, scope→scope')` (Naming-only → Role Assignment & Enactment-eligible or Type-structure is a strengthening; requires DRR and MUST be unconditional for the same endpoints)
 8. `reviseLossNotes(BridgeId, Loss→Loss')`
 9. `reviseFacetSpan(BridgeId, facetSpan→facetSpan')` (maps to A.6.P `reviseByValue`; semantic; edition‑fenced in decision/publication lanes)
 10. `refreshWitnesses(BridgeId, witnessRefs→witnessRefs')` (adding one witness is a special case: set‑union + re‑publish)
@@ -232,14 +240,14 @@ Semantic edits include changes to `Γ_time` or declared `facetSpan` (because the
 
 **Guard-scoped licence increase is not a plain `rescope`.** If the higher licence holds only after filtering or guards (e.g., “human users only”), represent that by **refining endpoints** (SenseCell split) and declaring a Bridge for the refined endpoints (new id or new edition), rather than upgrading the broad Bridge’s scope.
 
-**Direction inversion is not an edit.** If the inverse relation is needed, declare a *new* Bridge (new `BridgeId`) with its own `dir`, `kind`, `CL`, and Loss; optionally withdraw the old one.
+**Direction inversion is not an edit.** If the inverse relation is needed, declare a *new* Bridge (new `BridgeId`) with its own `dir`, `kind`, `CL`, and Loss; optionally withdraw the prior one.
 
 #### A.6.9:4.4 - Lexical guardrails and name selection
 
 **Umbrella tokens (red‑flag triggers):** “same”, “identical”, “equivalent”, “align”, “map”, “match”, “correspond(s)”, and close variants.
 
 These are only in‑scope here when used as **cross‑Context predicates** (`CtxA ≠ CtxB`) or when the prose collapses **A.7 lanes** / `CHR:ReferencePlane`s under an umbrella sameness predicate. For that case:
-* In **Tech register** (normative / decision‑carrying prose), authors SHALL NOT use umbrella tokens as standalone cross‑Context predicates. Use a Bridge reference and a licence‑revealing verb instead (“share a label”, “substitutes for”, “explain in terms of”).
+* In **Tech register** (normative or decision-carrying prose), authors SHALL NOT use umbrella tokens as standalone cross‑Context predicates. Use a Bridge reference and a licence-revealing verb instead (“share a label”, “substitutes for”, “explain in terms of”).
 * In **Plain didactic** or quoted older prose, umbrella tokens MAY appear, but only if the paragraph also includes an explicit Bridge reference (BridgeId or inline Bridge Card) so readers are not forced to infer `kind/dir/CL/Loss/scope`.
 
 Instead, choose a phrase that reveals the intended licence:
@@ -250,7 +258,7 @@ Instead, choose a phrase that reveals the intended licence:
 | Naming convenience              | “Share a label under a *Naming‑only* Bridge (scope=Naming‑only; kind∈{⋂,⊑,⊒} (and **≈ only when you state why substitution is still forbidden); CL≥1; Loss + counterexample).” | “σA corresponds to σB (so we can treat them as…)” |
 | Safe substitution (directional) | “Licence substitution A↠B under a *Substitution Bridge* (kind∈{≈,⊑,⊒}, dir A→B, CL≥2, same senseFamily + stance; Loss + counterexample; scope=Role Assignment & Enactment‑eligible).” | “σA and σB are equivalent.” |
 | Type‑structure reuse (strong)   | “Declare a *Type‑structure* Bridge (senseFamily=Type‑structure; kind=≈; dir A↔B; CL=3; invariants; scope=Type‑structure).” | “They are literally the same class everywhere.” |
-| Disjoint / contrast             | “Declare kind=⊥ with scope=Explanation‑only (contrast only).”                       | “Almost the same” / “basically equivalent”        |
+| Disjoint or contrast             | “Declare kind=⊥ with scope=Explanation-only (contrast only).”                       | “Almost the same” or “basically equivalent”        |
 
 **Name selection rule:** if the author wants “the same name”, choose *Naming‑only* and keep the verb “share a label”; if the author wants “can be substituted”, use *Substitution* and keep the verb “substitutes for” with explicit direction.
 
@@ -258,20 +266,20 @@ Instead, choose a phrase that reveals the intended licence:
 
 Use this table when you encounter umbrella‑sameness wording.
 
-| Trigger in text                    | Candidate Bridges (default first)                                                                 | Discriminating questions / tests                                                                 | Canonical rewrite                                                                 | Routing hooks                                              |
+| Trigger in text                    | Candidate Bridges (default first)                                                                 | Discriminating questions or tests                                                                 | Canonical rewrite                                                                 | Routing hooks                                              |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | “A is the same as B” (CtxA ≠ CtxB) | Explanation‑only (interpretation) → Naming‑only (⋂/⊑/⊒/≈) → Substitution (≈/⊑/⊒, CL≥2)            | Is this a licence or a teaching gloss? What direction is safe? What is lost? What is the counter‑example? | `Bridge(σA@CtxA, σB@CtxB): ⟨kind=?, dir=?, CL=?, Loss=?, scope=?⟩`                | E (witness), D (naming), A (admissibility if substitution) |
 | “Align A and B”                    | Naming‑only with overlap (⋂)                                                                        | Do we only need a shared label, or do we need safe substitution/type reuse?                       | `Bridge(σA,σB): kind=⋂, dir=A↔B, CL=1, Loss + counterExample, scope=Naming‑only`   | D (labeling), E (counterexample)                           |
 | “Map A to B”                       | (i) semantic Bridge (this pattern) vs (ii) operational mapping witness (ETL, transform, or lookup)             | Is “map” about a thinking move (licence) or about code/execution? What is the substitution direction (if any) vs code direction? | `Bridge(σA,σB): dir A→B, kind chosen for that direction, Loss bullets + counterExample` | E (witness), A (if substitution proposed)                 |
-| “Same ID / same key / 1‑to‑1”      | Identification/indexing claim (A.6.6) ± semantic Bridge                                              | Is the claim about **Carrier‑lane equality** (identifier scheme), or about **sense/meaning**? What is the reference scheme? Are collisions/aliases possible? | First: repair as an identification/indexing relation (A.6.6). Then (only if needed): declare a Bridge for meaning with explicit `kind/dir/CL/Loss/scope`. | A.6.6 (Carrier), E (reference scheme), A.6.9 (meaning)     |
+| “Same ID”, “same key”, or “1-to-1”      | Identification or indexing claim (A.6.6) ± semantic Bridge                                              | Is the claim about **Carrier-lane equality** (identifier scheme), or about **sense or meaning**? What is the reference scheme? Are collisions or aliases possible? | First: repair as an identification or indexing relation (A.6.6). Then, only if needed, declare a Bridge for meaning with explicit `kind`, `dir`, `CL`, `Loss`, and `scope`. | A.6.6 (Carrier), E (reference scheme), A.6.9 (meaning)     |
 | “B is a view or projection of A”      | Explanation‑only or Naming‑only by default; substitution only after explicit guards/refined endpoints | Is this a `U.View` statement, a correspondence statement (E.17), or a reuse licence? Does projection drop constraints, fields, or stance? | `Bridge(σA,σB): kind=⊑ (if A is narrower), dir A→B (if substitution is intended), Loss states dropped structure/constraints, scope capped unless proven` | E.17 (views), E (witness), A (if substitution proposed)   |
-| “A matches B” / “corresponds to”   | Naming‑only overlap (⋂)                                                                             | Is it overlap (⋂) or inclusion (⊑/⊒)? What breaks under substitution?                              | `kind=⋂, scope=Naming‑only, CL=1 (or CL=2 if translatable), Loss + counterExample` | D, E                                                       |
+| “A matches B” or “corresponds to”   | Naming-only overlap (⋂)                                                                             | Is it overlap (⋂) or inclusion (⊑ or ⊒)? What breaks under substitution?                              | `kind=⋂, scope=Naming-only, CL=1 (or CL=2 if translatable), Loss + counterExample` | D, E                                                       |
 | “Equivalent”                       | ≈ only under explicit invariants; otherwise overlap/inclusion                                       | Equivalent in what **senseFamily** and under what invariants? Any counter‑examples?               | Prefer `⋂ + Naming‑only`, or specify `≈` with invariants & CL                       | L (invariant claim), E                                     |
 
 Updates:
 
 * For “Align A and B”, default to `kind=⋂`, `scope=Naming‑only`, `dir=A↔B`, `CL=1`, with explicit Loss + counterexample. Use `kind=≈` only when you can state the equivalence criterion; invariants are mandatory for `CL=3` (and recommended whenever you use `≈`). Use `scope=Type‑structure` only when `kind=≈` and `CL=3` with matched invariants (INV‑XCTX‑KS‑5).
-* For “Map A to B”, first decide whether “map” denotes (i) a semantic Bridge claim (this pattern) or (ii) an operational transformation witness (ETL, id translation, schema mapping). If (ii), keep the witness in `witnessRefs` and still declare the Bridge kind/dir/Loss separately; do not let “there exists a map” collapse into substitution.
+* For “Map A to B”, first decide whether “map” denotes (i) a semantic Bridge claim (this pattern) or (ii) an operational transformation witness (ETL, id translation, schema mapping). If (ii), keep the witness in `witnessRefs` and still declare the Bridge `kind`, `dir`, and `Loss` separately; do not let “there exists a map” collapse into substitution.
 
 **Default safety rule (normative):** authors SHALL NOT assign `CL≥1` (nor claim Naming‑only or substitution) unless they can state `Loss` notes and (for `CL≤2`) a `counterExample`. Otherwise, keep the statement as Explanation‑only (didactic gloss) or postpone the cross‑Context claim until evidence exists.
 If the stable intent is **anti‑conflation** (“do not treat them as the same”), make that explicit as `kind=⊥` with `scope=Explanation‑only` (contrast), or—when the contrast is stable and repeatedly needed—publish a contrast row per the Concept‑Set discipline instead of relying on “not the same” prose.
@@ -282,19 +290,19 @@ When endpoint meanings are versioned, the same rule applies to `Γ_time`: if you
 
 Many projects use “map” to mean an implementation witness: a lookup table, aligner model, transformation function, or ETL step. A.6.9 treats those implementation witnesses as **witnesses**, not as semantics. The Bridge is where you record:
 
-* what correspondence is claimed (`kind/dir/senseFamily`);
+* what correspondence is claimed (`kind`, `dir`, and `senseFamily`);
 * which `CL` value is declared, with invariants for `CL=3`;
 * what breaks (`Loss`, counterexample);
 * what it licenses (`scope`).
 
 **Direction reminder.** A transformation witness may be written `f:A→B` while the safe semantic substitution (if any) is `B↠A` (or none at all). Treat `dir` as the direction of the licensed **reading/substitution move**, not the direction of code execution.
 
-If the witness changes, narrate the update as `refreshWitness` / `reviseLossNotes` / `adjustCL` (editioned), not as “re‑mapped”.
+If the witness changes, narrate the update as `refreshWitness`, `reviseLossNotes`, or `adjustCL` (editioned), not as “re-mapped”.
 
 #### A.6.9:4.7 - Coordination notes (keep A.6.9 modular)
 
-* **Views / projections / correspondences:** if the core intent is multi‑view description (“this diagram is a view of that system”, “these views correspond”), apply **E.17** to the multi-view description claim and keep A.6.9 focused on preventing umbrella‑token licence smuggling. A.6.9 may still be used to declare any *naming/substitution* licence between view elements, but it MUST NOT replace E.17’s correspondence discipline.
-* **Kinds / classifications:** if the cross‑context claim is about **kind transfer** (“Class X in A is the same kind as Class Y in B” as a classification move), consider recording the classification channel using **C.3.3 KindBridge**. Do not conflate Bridge‑CL with kind‑mapping CL^k.
+* **Views, projections, and correspondences:** if the core intent is multi-view description (“this diagram is a view of that system”, “these views correspond”), apply **E.17** to the multi-view description claim and keep A.6.9 focused on preventing umbrella-token licence smuggling. A.6.9 may still be used to declare any naming or substitution licence between view elements, but it MUST NOT replace E.17’s correspondence discipline.
+* **Kinds and classifications:** if the cross-context claim is about **kind transfer** (“Class X in A is the same kind as Class Y in B” as a classification move), consider recording the classification channel using **C.3.3 KindBridge**. Do not conflate Bridge-CL with kind-mapping CL^k.
 
 ### A.6.9:5 - Archetypal Grounding
 
@@ -325,7 +333,7 @@ Didactic hook: “Overlap only: share labels; do not substitute without guards/r
 **Show B (change narration, later evidence):**
 After hard constraints are added (e.g., “human‑verified email”, “not a service account”), a team wants higher-licence reuse in the ticketing integration.
 
-*Do not write:* “Now they are equivalent / now the mapping is fixed.”
+*Do not write:* “Now they are equivalent” or “now the mapping is fixed.”
 *Write:*
 
 0. Keep the broad Bridge **as‑is** (Naming‑only, overlap): it remains the correct “shared label” relation for the unguarded endpoints.
@@ -364,7 +372,7 @@ A reviewer proposes Type‑structure reuse (“treat them as the same class acro
 * Since Type‑structure reuse requires CL=3 and matched invariants, the proposal is rejected unless the invariants are aligned and the counterexample class is eliminated (e.g., by refining `Person@KG-A` into `FictionalPerson` vs `RealPerson`).
 * The correct change narrative is: `changeBridgeKind` (if kind changes), `adjustCL` only if the counterexample disappears and invariants are shown, else keep CL=2 and Naming‑only scope.
 
-### A.6.9:6 - Bias‑Annotation
+### A.6.9:6 - Bias-Annotation
 
 This pattern is biased toward:
 
@@ -389,31 +397,31 @@ A document or boundary statement conforms to A.6.9 iff:
 * **CC‑A.6.9‑5 (Substitution thresholds).** Any statement that implies substitution MUST be backed by a substitution‑eligible Bridge (`kind∈{≈,⊑,⊒}`, `CL≥2`, same `senseFamily`, stance‑compatible), with Loss notes and a counter‑example discipline.
 * **CC‑A.6.9‑6 (Weakest‑link respect).** Any Concept‑Set row or composed claim that depends on multiple Bridges MUST bound its scope and `CL` by the weakest participating Bridge.
 * **CC‑A.6.9‑7 (Loss visibility).** Loss notes are present and **non‑empty**. `Loss: none` is permitted only for `CL=3` with cited invariants; `Loss: n/a` is permitted for `kind=⊥`. Loss must be consistent with the allowed scope.
-* **CC‑A.6.9‑8 (Change narration).** Changes to cross‑Context fit are narrated using the change‑class lexicon (declare/withdraw/adjustCL/rescope/…) rather than umbrella verbs.
-* **CC‑A.6.9‑9 (Kind/scope admissibility).** Any Bridge used to justify cross‑Context sameness satisfies the admissibility constraints INV‑XCTX‑KS‑1 … INV‑XCTX‑KS‑5 (no overlap‑to‑substitution; no disjoint/interpretation rows; substitution is directional; Type‑structure only under `≈` + `CL=3` + invariants).
-* **CC‑A.6.9‑10 (Registry reference hygiene).** If a BridgeId (or policy/edition id) is cited, it is treated as a **registry reference** (existence / edition pinning), not as a semantic symbol exported by signatures.
-* **CC‑A.6.9‑11 (Edition basis).** In decision/publication lanes, any Bridge used to justify Naming‑only / substitution / Type‑structure SHALL state `Γ_time` (edition pins or “as‑of” basis). If `Γ_time` cannot be stated, the claim MUST remain Explanation‑only and MUST NOT justify rows or substitution.
+* **CC‑A.6.9‑8 (Change narration).** Changes to cross‑Context fit are narrated using the change‑class lexicon (`declare`, `withdraw`, `adjustCL`, `rescope`, and related verbs) rather than umbrella verbs.
+* **CC‑A.6.9‑9 (Kind and scope admissibility).** Any Bridge used to justify cross‑Context sameness satisfies the admissibility constraints INV‑XCTX‑KS‑1 … INV‑XCTX‑KS‑5: no overlap-to-substitution, no disjoint or interpretation rows, substitution is directional, and Type-structure only under `≈` + `CL=3` + invariants.
+* **CC‑A.6.9‑10 (Registry reference hygiene).** If a BridgeId or policy or edition id is cited, it is treated as a **registry reference** (existence and edition pinning), not as a semantic symbol exported by signatures.
+* **CC‑A.6.9‑11 (Edition basis).** In decision or publication lanes, any Bridge used to justify Naming-only, substitution, or Type-structure SHALL state `Γ_time` (edition pins or “as-of” basis). If `Γ_time` cannot be stated, the claim MUST remain Explanation-only and MUST NOT justify rows or substitution.
 * **CC‑A.6.9‑12 (Facet honesty).** If the correspondence holds only on a subset of facets, the author SHALL either (a) refine endpoints into the facet SenseCells (preferred) or (b) declare `facetSpan` explicitly, with `Loss` consistent with that facet span. Whole‑cell Bridges MUST NOT be used to smuggle facet‑only correspondences.
 
-### A.6.9:8 - Common Anti‑Patterns and How to Avoid Them
+### A.6.9:8 - Common Anti-Patterns and How to Avoid Them
 
 | ID            | Anti‑pattern           | Example                                              | Why it breaks                                           | Remedy                                                               |
 | ------------- | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
 | **AP‑XCTX‑1** | Bridge‑by‑adjective    | “A is the same as B (across contexts).”              | Smuggles scope + direction + loss as implicit defaults. | Replace with Bridge Card + explicit `scope`.                         |
-| **AP‑XCTX‑3** | Stealth substitution   | “We’ll just treat A like B for now.”                 | Introduces implicit licence without CL/Loss gates.      | Publish Bridge Card; if CL<2, keep `Naming‑only`.                    |
+| **AP‑XCTX‑3** | Stealth substitution   | “We’ll just treat A like B for now.”                 | Introduces implicit licence without CL and Loss gates.      | Publish Bridge Card; if CL<2, keep `Naming-only`.                    |
 | **AP‑XCTX‑2** | Symmetry hallucination | Treating `⊑/⊒` as symmetric “equivalence”.           | Causes unsafe inverse substitution.                     | Record `kind` and `dir`. Only symmetric kinds (`≈`, `⋂`, `⊥`, `⇄ᴅʀ`) may be written as `A↔B`; inclusion kinds require direction; substitution is always directional. |
-| **AP‑XCTX‑4** | Lossless fantasy       | “Equivalent” with no loss note.                      | Loss is almost always present; hiding it misleads decisions.       | State Loss notes (even if “none”), add a counter‑example (CL≤2) or invariants (CL=3); adjust CL/scope accordingly. |
+| **AP‑XCTX‑4** | Lossless fantasy       | “Equivalent” with no loss note.                      | Loss is almost always present; hiding it misleads decisions.       | State Loss notes (even if “none”), add a counter-example (CL≤2) or invariants (CL=3); adjust CL and scope accordingly. |
 | **AP‑XCTX‑5** | Silent inversion       | Later prose uses B→A without redeclaration.          | Violates direction guard; breaks auditability.          | Declare inverse Bridge (new id) or withdraw+replace.                 |
-| **AP‑XCTX‑6** | Confidence laundering  | Raising CL or scope without new invariants/evidence. | Inflates trust; expands row scopes illegitimately.      | Use `adjustCL`/`rescope` with witnessRefs + DRR.                     |
+| **AP‑XCTX‑6** | Confidence laundering  | Raising CL or scope without new invariants or evidence. | Inflates trust; expands row scopes illegitimately.      | Use `adjustCL` or `rescope` with witnessRefs and DRR.                     |
 | **AP‑XCTX‑7** | Chain upgrade          | Treating A↠B and B↠C as “therefore A≈C”.             | Violates weakest‑link and loss accumulation.            | Use min‑CL and accumulated Loss; avoid chaining unless justified.    |
 | **AP‑XCTX‑8** | Conditional scope smuggling | “Naming‑only generally; substitution in workflow X.” | Encodes two licences in one record; leaks into row scope and downstream reasoning. | Refine endpoints (SenseCell split) and declare a separate Bridge for the guarded subset; keep broad Bridge Naming‑only. |
-| **AP‑XCTX‑9** | Artefact⇒equivalence fallacy | “There is a mapping table, so they are the same.” | Confuses operational transformation with semantic licence; hides Loss and direction. | Record the witness in `witnessRefs`, keep Bridge kind/dir/Loss explicit, and keep scope capped until CL+counterexamples justify promotion. |
-| **AP‑XCTX‑10** | Two‑way substitution by symmetry | “The Bridge is A↔B, so we can substitute both ways.” | `A↔B` expresses correspondence symmetry, not two substitution licences; substitution is directional and must be stated (F.9:13.2). | Declare both substitution directions explicitly (two licences / two Bridges / two editions), each with Loss + counter‑examples. |
-| **AP‑XCTX‑11** | Kind/dir mismatch | `kind=⊒` but `dir=A→B` is used as if it licensed substitution. | Inverts narrower/broader; encourages unsafe “narrowing substitution” and silent information loss. | Swap endpoints (so the intended safe direction is written as `A→B` with `kind=⊑`), or declare an explicit inverse Bridge; keep scope ≤ Naming‑only until the direction is justified. |
+| **AP‑XCTX‑9** | Artefact⇒equivalence fallacy | “There is a mapping table, so they are the same.” | Confuses operational transformation with semantic licence; hides Loss and direction. | Record the witness in `witnessRefs`, keep Bridge `kind`, `dir`, and `Loss` explicit, and keep scope capped until CL plus counterexamples justify promotion. |
+| **AP‑XCTX‑10** | Two-way substitution by symmetry | “The Bridge is A↔B, so we can substitute both ways.” | `A↔B` expresses correspondence symmetry, not two substitution licences; substitution is directional and must be stated (F.9:13.2). | Declare both substitution directions explicitly, as two licences, two Bridges, or two editions, each with Loss plus counter-examples. |
+| **AP‑XCTX‑11** | Kind and direction mismatch | `kind=⊒` but `dir=A→B` is used as if it licensed substitution. | Inverts narrower and broader; encourages unsafe “narrowing substitution” and silent information loss. | Swap endpoints (so the intended safe direction is written as `A→B` with `kind=⊑`), or declare an explicit inverse Bridge; keep scope ≤ Naming-only until the direction is justified. |
 | **AP‑XCTX‑12** | Kernel promotion by Bridge | “Since A≈B, we can admit a unified global kind and treat both as instances.” | Bridges translate local senses; they do not admit new U-kinds. | If you need a new shared kind, follow E.24.UK and A.11; keep Bridges as translators between Context-local senses. |
-| **AP‑XCTX‑13** | Edition drift / timeless equivalence | “A is equivalent to B” with no edition/as‑of basis. | Makes the claim temporally incoherent as canons evolve; readers silently compare different revisions. | Pin editions via `Γ_time`; publish Bridge edits as new editions; fail‑closed to Explanation‑only when `Γ_time` cannot be stated. |
+| **AP‑XCTX‑13** | Edition drift or timeless equivalence | “A is equivalent to B” with no edition or as-of basis. | Makes the claim temporally incoherent as canons evolve; readers silently compare different revisions. | Pin editions via `Γ_time`; publish Bridge edits as new editions; fail-closed to Explanation-only when `Γ_time` cannot be stated. |
 | **AP‑XCTX‑14** | Facet‑only alignment masquerading as whole‑cell sameness | “Customer corresponds to User” (but only `email` or an external ID aligns). | Collapses a partial lens into global sameness; invites unsafe substitution and row scope creep. | Refine endpoints to the facet SenseCells, or declare `facetSpan` explicitly and keep `scope` capped (usually Naming‑only). |
-| **AP‑XCTX‑15** | Lexical translation ⇒ semantic identity | “Term A is the same as term B” (just a translation / synonym). | Confuses labels with referents; erases loss and context. | Use `scope=Naming‑only` with explicit `Loss` (incl. language/canon notes) and a counter‑example; do not imply substitution. |
+| **AP‑XCTX‑15** | Lexical translation ⇒ semantic identity | “Term A is the same as term B” as a translation or synonym. | Confuses labels with referents; erases loss and context. | Use `scope=Naming-only` with explicit `Loss`, including language and canon notes, and a counter-example; do not imply substitution. |
 
 ### A.6.9:9 - Consequences
 
@@ -445,7 +453,7 @@ Cross‑Context “sameness” is a *family of relations*, not a single predicat
 
 A.6.9 turns a dangerous linguistic convenience into an explicit, reviewable, evolvable claim.
 
-### A.6.9:11 - SoTA‑Echoing
+### A.6.9:11 - SoTA-Echoing
 
 (informative; post‑2015 alignment)
 

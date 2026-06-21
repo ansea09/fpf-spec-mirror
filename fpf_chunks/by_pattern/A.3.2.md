@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
-line_start: 6352
-line_end: 6656
+line_start: 6513
+line_end: 6817
 dependencies:
   - "A.1.1"
   - "A.10"

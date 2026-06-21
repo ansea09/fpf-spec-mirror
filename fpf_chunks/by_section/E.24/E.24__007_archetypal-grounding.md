@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 70236
-line_end: 70345
+line_start: 72902
+line_end: 72952
 dependencies:
   - "A.15"
   - "A.19.ECS"
@@ -99,63 +99,4 @@ The same test applies to any draft-only locus. If the label has no current gover
 | `E.8` | publication-form and section-order boundary | `E.24:0`, `E.24:4.4`, `E.24:6`, `E.24:8` | Lower if E.24 starts regulating pattern format instead of the ontic-introduction decision. |
 | `E.10.ARCH` | wording-use restoration architecture that uses existing subject ontology before sending wording symptoms to the governing precision-restoration pattern | `E.24:4.1`, `E.24:4.5`, `E.24:5.2`, `E.24:7` | Lower if a local use frame is treated as a durable ontic or if a wording trigger alone creates a new ontology unit. |
 | `F.18` | durable naming after ontology is settled | `E.24:4.4`, `E.24:6`, `E.24:7` | Lower if a new name substitutes for identity, slot, and dependent-pattern settlement. |
-
-#### E.24:5.6 - Bias-Annotation
-
-Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
-Scope: the authoring decision for a durable ontic, direct governing-pattern use, or local use frame, not the subject matter governed by the resulting pattern.
-
-This pattern intentionally biases toward explicit identity, typed slots, and governing-pattern reuse. It resists five recurring distortions:
-
-- **shadow-kind bias:** repetition of a local use frame is mistaken for a new object;
-- **placement bias:** a pattern nest or draft ToC row is mistaken for semanticArea or governing text;
-- **name bias:** a cleaner term hides unresolved kinds, slots, and relations;
-- **semio-bias:** discussion of descriptions, publications, or review evidence displaces the ontic or subject matter being introduced;
-- **process-bias:** development-state, publication-state, evaluation-state, or process evidence status is copied into ontic or subject-matter content.
-
-The mitigation is the same in each case: recover the primary `EntityOfConcern`, stable identity, typed slot relation, selected `semanticArea`, selected `ontologicalNeighborhood`, and governing-pattern reuse before naming, placement, dependent pattern reliance, or publication form starts governing the decision.
-
-#### E.24:5.7 - Rationale
-
-FPF needs a pattern for ontic introduction because many important FPF ontology units are not one term, one field, one taxonomy branch, or one U-kind. They are small typed slot relations with identity criteria, slots, admissible values, record or publication species, dependent patterns, and action-facing use boundaries.
-
-The compactness gain is the central reason for `U.Ontic`. A taxonomy-heavy design tends to create a new type for each contextual position: reviewer, evidence reviewer, architecture reviewer, work reviewer, mechanism reviewer; method, mechanism, procedure, process, algorithm; record, evidence record, gate record, authority record. An ontic design instead keeps a small number of governed ontology units and lets many objects fill typed relation slots. A relation slot works like a parameter position in a relation-function: the value is typed and constrained by the slot, but it does not become a new kind merely because it fills that position.
-
-`U.Episteme` is the main stress case inside FPF. `C.2.1` does not define epistemes by a long taxonomy of descriptions. It defines stable identity and a small slot relation: EntityOfConcernSlot, claim graph, viewpoint, reference scheme, grounding, publication-form and source boundaries, and dependent episteme patterns plus publication patterns. The same small slot relation can hold many claim kinds, descriptions, views, publications, and project cases without minting a new episteme kind for each one.
-
-Role participation is the second stress case. It is not the claim that roles are slots, slots are roles, or role is a special case of slot. `U.Role` remains useful because holons participate in contexts under context-bound role values, and `U.RoleAssignment` remains useful because the assignment binds holder, role, context, and window before work can be enacted through that assignment. The compactness gain comes from representing `U.RoleAssignment` as a typed relation with slot positions while preserving the governing kinds of the filled holon, role, context, window, method, plan, and work values.
-
-This prevents a separate ontology for every participation name while preserving the real action-facing gain of the role patterns. "Engineer", "reviewer", "evidence reviewer", and "operator" do not become new system kinds merely because they appear in project language. They are recovered, when the case requires it, as role values and assignment relations under A.2, A.2.1, and A.15. Conversely, arbitrary relation participants such as a transformed television, an evidence target, an input, an output, a base, or a dependent are slot fillers or relation participants under their governing patterns, not `U.Role` values merely because ordinary language can say they "play a role."
-
-Without E.24, FPF ontology development oscillates between two bad moves. One move invents a new umbrella name and leaves the mixed ontology intact. The other refuses the new name but still leaves several patterns carrying duplicated local slot doctrine. E.24 gives a bounded authoring decision: use an existing governing pattern, introduce a durable ontic, keep a local use frame local, or keep the source label quote-only or reduced-use.
-
-The pattern is deliberately about the introduction decision. It does not define every ontic and does not become a registry of system, episteme, method, mechanism, architecture, source, quality, temporal, dynamics, or change objects. Each accepted subject matter still needs its own governing pattern or accepted local frame.
-
-#### E.24:5.8 - SoTA-Echoing and Currentness
-
-E.24 does not claim to replace ontology engineering, OWL-style formal ontology, or UFO-style foundational ontology. Its governing reason is the current FPF need for action-facing ontology compactness, plus a narrow SoTA echo:
-
-| Source family | Current lesson for E.24 | FPF decision |
-| --- | --- | --- |
-| W3C [SKOS Reference](https://www.w3.org/TR/skos-reference/), 2009, and W3C [OWL 2 Primer](https://www.w3.org/TR/owl2-primer/), 2012. | Reference-baseline use, not a current-best SoTA claim: SKOS remains useful for controlled vocabularies, labels, broader and narrower relations, and concept schemes; OWL remains useful for classes, properties, individuals, axioms, and declarative semantics. | Adopt as baseline and adapt: do not present FPF ontology as one taxonomy tree. Use taxonomy relations where they fit, but introduce an ontic only when stable identity and typed slot relation are required. Current competitive guidance comes from the 2024-2026 modular ontology, interoperability, process-representation, and foundational-ontology rows below. |
-| Modular ontology design patterns, MODL/MOMo, and commonsense ontology micropatterns, including [Shimizu and Hitzler 2024](https://arxiv.org/abs/2411.09601) and [Eells, Dave, Hitzler, and Shimizu 2024](https://arxiv.org/abs/2402.18715). | Current ontology-engineering work emphasizes reusable small ontology structures and pattern libraries, including LLM-assisted ontology engineering where modularity becomes more important, not less. | E.24 adapts the modular-pattern lesson: a durable ontic is a reusable FPF ontology unit with a governing head pattern and dependent-pattern obligations, not a local checklist copied across patterns. |
-| [Qiang 2025/2026 ontology-interoperability ecosystem](https://arxiv.org/abs/2507.12311). | Overlapping and conflicting concepts block interoperability; current approaches combine design patterns, matching and versioning, and validation across the ontology lifecycle. | E.24 prevents shadow ontology and type explosion before matching and versioning becomes a rescue operation. It asks whether a proposed head is a durable ontic, existing governing-pattern use, local use frame, or non-use. |
-| [Norouzi, Hertling, Waitelonis, and Sack 2025 process-representation ODP work](https://arxiv.org/abs/2509.23776). | Process ontologies and workflow ontologies often contain implicit design patterns; reuse suffers when those patterns are not explicit and accessible to domain experts. | E.24 uses this as a caution for any process-like or temporal subject: do not hide process, method, work, or temporal material in a local use frame. If such material needs a durable ontic, write its own slot relation and governing pattern. |
-| [Almeida, Guizzardi, Sales, and Fonseca 2026 gUFO](https://arxiv.org/abs/2603.20948); UFO and OntoUML role, relator, situation, and high-order type practice. | Current foundational-ontology work uses type typology, reification of intrinsic and relational aspects, situations, and high-order types to avoid naive taxonomic flattening. | E.24 keeps role-assignment, relation-slot, signature, interface-as-boundary, episteme and publication distinctions, and mechanism, method, and work distinctions as slot-governed ontology architecture rather than one taxonomic tree. |
-
-This SoTA echo justifies a bounded conclusion: ontic-based FPF ontology architecture gives compactness and structure compared with a taxonomy-only design when the governed subject depends on identity, relation slots, dependent patterns, and action-facing use. It does not make every modular ontology pattern an FPF ontic. External sources govern the decision only when the DRR selects their payload for the specific ontic or subject matter under decision.
-
-Use external sources when one ontic or subject matter itself depends on a source tradition. Put that source decision in the DRR and in the governing pattern for that subject matter. Do not make E.24 carry a borrowed external theory of every durable ontic.
-
-#### E.24:5.9 - Currentness and Lowering Logic
-
-Treat E.24 as current for ontic-introduction decisions only while the current FPF slot, precision-restoration, naming, and pattern-quality apparatus remain the governing source set. Lower E.24's current authority for a case when one of these changes governs that case:
-
-- a new accepted FPF pattern changes slot discipline, `EntityOfConcern` discipline, or durable-name discipline;
-- a local use frame begins to be reused as if it were a durable ontic;
-- a draft locus becomes a current pattern and changes the ontic-introduction decision;
-- dependent patterns start copying a slot relation instead of relying on the governing head pattern;
-- external source work governs the introduction method itself rather than one selected ontic or subject matter.
-
-Lower the decision before use when E.24 cannot decide among durable ontic, local use frame, existing governing-pattern use, quote-only source label, or reduced-use source label. A failed decision is not resolved by adding more fields; it is resolved by returning to `E.24:4.1` and settling which object, slot relation, semantic area, ontological neighborhood, and governing patterns actually govern the decision.
 

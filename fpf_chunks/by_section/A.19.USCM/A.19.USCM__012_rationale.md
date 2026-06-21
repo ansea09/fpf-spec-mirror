@@ -6,12 +6,12 @@ section_id: "A.19.USCM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__012_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:10 — Rationale"
-line_start: 27462
-line_end: 27472
+line_start: 28103
+line_end: 28113
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -27,7 +27,7 @@ keywords:
 
 Scoring is a frequent source of semantic precision loss: it is easy to smuggle normalization, illegal arithmetic, implicit thresholds, and uncertainty coercion into “a simple scoring function.” USCM prevents that by forcing a clean boundary:
 
-* **Legality first:** all transforms are justified by `CG‑Spec.SCP` and CSLC.
+* **Admissibility first:** all transforms are justified by `CG‑Spec.SCP` and CSLC.
 * **No hidden steps:** normalization is explicit (UNM), aggregation is explicit (ULSAM), ordering is explicit (CPM/SelectorMechanism).
 * **Uncertainty is visible:** admissibility is tri‑state; unknown is not coerced.
 * **Audit is minimal yet decisive:** effective editions and effective evidence policy are always traceable.

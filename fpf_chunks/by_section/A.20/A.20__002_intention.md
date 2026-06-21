@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Intention"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_intention.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:0 — Intention"
-line_start: 28525
-line_end: 28573
+line_start: 29166
+line_end: 29214
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -42,7 +42,7 @@ keywords:
 
 **Operational interpretation.** **Eulerian** interpretation: **flow = valuation** over `U.Transfer`; **CV is attached to transformations (steps)** and evaluated **before any GateFit**; edges carry **assurance‑only operations**; no token‑passing semantics are assumed.
 
-**Use this when.** Use A.20 when the question under repair is whether one transformation step internally satisfies its declared constraints before any `GateProfile` fit is evaluated.
+**Use this when.** Use A.20 when the current question is whether one transformation step internally satisfies its declared constraints before any `GateProfile` fit is evaluated.
 **First useful move.** Name the step, the CV class being checked, the `CV.Status`, and the witness or missing witness. Stop there unless a gate, comparator, bridge, freshness, or work-boundary question is actually being made.
 
 **Smallest sufficient CV guidance.** Use the lightest CV guidance that preserves the next practitioner move made available by the local CV result. Add publication lexemes, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`, `RSCR`, or MIP-run material only when the CV claim being made would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
@@ -57,7 +57,7 @@ keywords:
 
 Repaired anti-case: a manufacturing conformance label near release may carry only the local CV or conformance relation it actually records. If release permission, safety acceptance, or work authorization is attempted, state the attempted stronger use without a governing relation and name and use the governing relation for that attempted claim rather than treating the label as release authority.
 
-**Same problem, different question under repair.** For a transformation-flow-looking problem, use `E.18` for graph value, flow valuation, or crossing relation, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not apply the other three until their own claim is present.
+**Same problem, different current question.** For a transformation-flow-looking problem, use `E.18` for graph value, flow valuation, or crossing relation, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not apply the other three until their own claim is present.
 
 **Semantic repair return.** When A.20 blocks a misleading word, face, alias, or source label, the repair must return to the enabled CV action: name `CV.Status`, the applicable CV class, and the witness or refusal available for the local CV use. Do not stop at a classification of vocabulary or publication faces.
 
@@ -77,11 +77,11 @@ Repaired anti-case: a manufacturing conformance label near release may carry onl
 
 **Anti-Goodhart guard.** CV completeness is not a substitute for the governed step result: the step must still satisfy the applicable internal constraint, and CV conformance does not create gate fit, freshness, comparator-use claim, or launch readiness.
 
-**Generative side.** A.20 preserves open-ended action by letting internally valid steps, set publications, and archives remain usable without premature gate, ranking, or launch claims; CV supplies a local applicability relation plus `CV.Status` for later neighboring claims, not only an assurance stop.
+**Generative side.** A.20 preserves open-ended action by letting internally valid steps, set publications, and archives remain usable without premature gate, ranking, or launch claims; CV supplies a local applicability relation plus `CV.Status` for neighboring claims, not only an assurance stop.
 
 **What goes wrong if missed.** A practitioner may treat internal constraint satisfaction as gate passage, launch readiness, freshness, comparator-use claim, or decision reuse. That collapses CV into GateFit and hides the `A.21` gate decision relation.
 
-**What this buys.** A.20 lets a practitioner keep the step-local mechanism constraint and `CV.Status` local to the step and use `A.21` only when gate fit or gate decision aggregation is really the question under repair.
+**What this buys.** A.20 lets a practitioner keep the step-local mechanism constraint and `CV.Status` local to the step and use `A.21` only when gate fit or gate decision aggregation is really the current question.
 
 **Not this pattern when.** If the question is `GateProfile` fit, gate decision, gate-decision reuse, gate explanation, or pass or fail gate publication, use `A.21`. If the question is graph crossing or flow valuation, use `E.18`. If the question is comparator use, set-return, archive, or refresh policy, use the current neighboring loci named in Relations.
 

@@ -6,12 +6,12 @@ section_id: "C.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:4 — Solution"
-line_start: 37631
-line_end: 37667
+line_start: 38938
+line_end: 38974
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -34,9 +34,9 @@ keywords:
 ### C.2.5:4 - Solution
 `U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
 
-#### C.2.5:4.0a - E.24.UK settlement
+#### C.2.5:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateClosureDegree` is retained as a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` settlement, not as a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
+`U.LanguageStateClosureDegree` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the closure-degree basis slot and ordinal scale discipline for governed episteme publication positions. Local route commitments, gate claims, or authority states remain neighboring claims unless their governing patterns make them current.
 
 #### C.2.5:4.1 - Characteristic specification
 - **Kind:** CHR characteristic.

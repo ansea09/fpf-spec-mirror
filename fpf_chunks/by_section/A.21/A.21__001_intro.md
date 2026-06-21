@@ -6,12 +6,12 @@ section_id: "A.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:intro — Intro"
-line_start: 28868
-line_end: 28920
+line_start: 29518
+line_end: 29570
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -49,7 +49,7 @@ keywords:
 
 **One-liner.** A single microkernel-style gate aggregates **GateChecks (CV + GF)** into an **order-independent** `GateDecision` via the `GateDecision` join-semilattice `abstain <= pass <= degrade <= block`, uses the **CV=>GF activation predicate** and the LaunchGate pre-run barrier, applies `GateProfile`-bound folds for `error|timeout|unknown`, and publishes replay-grade traces through MVPK faces, `DecisionLog`, and `EquivalenceWitnessRef`.
 
-**Use this when.** Use A.21 when the question under repair is whether a gate-decision relation publishes a `GateProfile`-bound `GateDecision` from declared GateChecks, folds, pins, and rationale.
+**Use this when.** Use A.21 when the current question is whether a gate-decision relation publishes a `GateProfile`-bound `GateDecision` from declared GateChecks, folds, pins, and rationale.
 
 **First useful move.** Name the `OperationalGate(profile)`, the current declared `GateProfile`, the effective `GateCheckRef` set, the aggregated CV status, and the `DecisionLogRef` that carries the decision rationale.
 
@@ -65,7 +65,7 @@ keywords:
 
 Repaired anti-case: a release screen says all checks are green but no current `OperationalGate(profile)`, effective `GateCheckRef` set, `GateDecision`, or `DecisionLogRef` is recoverable. The display remains a cue or evidence question; the attempted gate-passage use has no bounded current gate use until the A.21 gate-decision relation is recoverable.
 
-**Same problem, different question under repair.** For a gate-bearing transformation-flow problem, use `E.18` for transformation-flow structure, graph/path, valuation, or crossing claims, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not use the other three until their own claim is present.
+**Same problem, different current question.** For a gate-bearing transformation-flow problem, use `E.18` for transformation-flow structure, graph value, path relation, valuation, or crossing claims, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not use the other three until their own claim is present.
 
 **Semantic repair target.** When A.21 blocks a misleading word, face, alias, or source label, the repair must restore the gate-decision claim: name the current gate-decision relation, current `GateProfile`, consumed `GateCheckRef` set, aggregate, `GateDecision`, and `DecisionLogRef` that remain available under A.21. Do not stop at a classification of vocabulary or publication faces.
 

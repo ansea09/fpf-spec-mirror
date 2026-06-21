@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations (attach these when producing an Assurance tuple)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations-attach-these-when-producing-an-assurance-tuple.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:5 — Proof obligations (attach these when producing an Assurance tuple)"
-line_start: 32635
-line_end: 32688
+line_start: 33855
+line_end: 33908
 dependencies:
   - "A.10"
   - "A.14"
@@ -58,7 +58,7 @@ keywords:
 
 ### B.3:5 Proof obligations (attach these when producing an Assurance tuple)
 
-These obligations refine the generic Proof Kit from **B.1.1 §6** for **assurance** outputs. Each Γ-flavour that emits an *Assurance(H, C | K, S)* tuple attaches the applicable obligations below.
+These obligations adapt the current B.1 and B.1.1 dependency-structure and relation-grounding checks for **assurance** outputs. Each Γ-flavour that emits an *Assurance(H, C | K, S)* tuple attaches the applicable obligations below.
 
 #### B.3:5.1 - Common obligations (all Γ‑flavours)
 
@@ -71,8 +71,8 @@ These obligations refine the generic Proof Kit from **B.1.1 §6** for **assuranc
 * **ASS‑WLNK (Weakest‑link evidence).**
   Identify the **cutset** (node or edge set) that caps `F`, `G`, and `R` for the claim (the proof spine for epistemes, the structural or assurance bottleneck for systems).
 
-* **ASS‑CL (Congruence path).**
-  Identify the **relevant integration path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
+* **ASS‑CL (Congruence on integration dependency).**
+  Identify the **relevant integration dependency path(s)** and record `CL_min` used in the penalty `Φ(CL_min)`.
 
 * **ASS‑MAN (evidence-source record).**
   Produce an assurance source-currentness record listing all contributing nodes and edges with `(F, G, R)` and `CL` values, their **DesignRunTag**, and Evidence Graph Ref (A.10). If order or time affect the claim, include the **OrderSpec** or **TimeWindow** identifiers from the governing temporal or order pattern.

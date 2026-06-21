@@ -6,12 +6,12 @@ section_id: "B.5.2:14"
 section_title: "Admissible Transitions, Abort Paths, and Reopening"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__015_admissible-transitions-abort-paths-and-reopening.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:14 — Admissible Transitions, Abort Paths, and Reopening"
-line_start: 34055
-line_end: 34092
+line_start: 35321
+line_end: 35358
 dependencies:
   - "A.10"
   - "A.16"
@@ -35,7 +35,7 @@ The abductive loop is iterative, but it is not formless. Several transition case
 
 #### B.5.2:14.1 - Relation to `B.4.1` and `A.16`
 
-`B.4.1` and `A.16` often supply the pre-abductive seam. They help preserve, stabilize, and route upstream publications before they are fit for explicit conjecture. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
+`B.4.1` and `A.16` often supply the pre-abductive seam. They help preserve and stabilize upstream publications, including route-bearing publication forms when those forms are explicitly governed, before the publication is fit for explicit conjecture. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
 - **premature abduction**, where a low-articulation cue is treated as if it had already earned hypothesis form;
 - **delayed abduction**, where a now-stable prompt is kept indefinitely in early cue form even though rival conjectures should already be compared.

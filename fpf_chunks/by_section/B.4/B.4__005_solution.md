@@ -6,12 +6,12 @@ section_id: "B.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__005_solution.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:4 — Solution"
-line_start: 33388
-line_end: 33415
+line_start: 34642
+line_end: 34669
 dependencies:
   - "A.12"
   - "A.4"
@@ -28,7 +28,7 @@ keywords:
 
 FPF defines the **Canonical Evolution Loop**, a four-phase cycle that serves as the universal engine for all principled, open-ended evolution. This loop is a direct implementation of the **Explore → Shape → Evidence → Operate** state machine (Pattern B.5.1) and is powered by the **Canonical Reasoning Cycle** (Pattern B.5).
 
-The loop creates a closed, auditable circuit between the two temporal scopes. Crucially, transitions between phases are performed by an **external `Transformer`** (Pattern A.12). A holon does not evolve itself; it is evolved by an external agent acting upon it.
+The loop creates a closed, auditable circuit between the two temporal scopes. Crucially, transitions between phases are performed by an external acting-side holder under `TransformerRole@Context` (Pattern A.12). A holon does not evolve itself; it is evolved by an external holder acting upon it.
 
 *A diagram showing a cycle: Operate (Run-time) → Observe (Run-time to Design-time bridge, performed by a Transformer) → Refine (Design-time) → Deploy (Design-time to Run-time bridge, performed by a Transformer) → Operate.*
 

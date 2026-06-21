@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__010_consequences.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:9 — Consequences"
-line_start: 56196
-line_end: 56204
+line_start: 58056
+line_end: 58064
 dependencies:
   - "A.10"
   - "A.17"

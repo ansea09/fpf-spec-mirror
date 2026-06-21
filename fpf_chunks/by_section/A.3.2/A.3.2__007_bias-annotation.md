@@ -6,12 +6,12 @@ section_id: "A.3.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__007_bias-annotation.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:6 — Bias-Annotation"
-line_start: 6554
-line_end: 6566
+line_start: 6715
+line_end: 6727
 dependencies:
   - "A.1.1"
   - "A.10"

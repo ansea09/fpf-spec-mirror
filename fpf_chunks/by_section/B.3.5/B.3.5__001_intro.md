@@ -6,12 +6,12 @@ section_id: "B.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:intro — Intro"
-line_start: 33059
-line_end: 33074
+line_start: 34285
+line_end: 34301
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,6 +27,7 @@ keywords:
 
 ## B.3.5 - Working-Model Relations & Grounding (CT2R-LOG)
 > **Status:** Stable
+> **Type:** Pattern
 
 **At a glance.** Use B.3.5 when a human-facing Working-Model relation such as `ut:ComponentOf`, `ut:MemberOf`, `ut:PortionOf`, or `ut:AspectOf` needs an assurance grounding relation without exposing constructive machinery as the public vocabulary.
 

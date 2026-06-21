@@ -6,12 +6,12 @@ section_id: "A.3:5"
 section_title: "Solution — The Transformer Quartet"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__006_solution-the-transformer-quartet.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:5 — Solution — The Transformer Quartet"
-line_start: 5814
-line_end: 5869
+line_start: 5975
+line_end: 6030
 dependencies:
   - "A.15"
   - "A.2"
@@ -50,15 +50,15 @@ Use the universal assignment to state **who plays which role where and when**:
 
 ```
 U.RoleAssignment(
-  holder  : U.System,          -- the acting system (bearer)
-  role    : U.TransformerRole, -- behavioural role
-  context : U.BoundedContext,  -- semantic boundary
-  timespan?: Interval          -- optional validity window
+  holderRef         : U.System,                 -- the acting system (bearer)
+  roleRef           : TransformerRole@Context,  -- role value, not a U-kind
+  boundedContextRef : U.BoundedContext,         -- semantic boundary
+  validInterval?    : Interval                  -- optional validity window
 )
 ```
 
-* A role is **local to context** and **time‑indexed**.
-* The same system may bear multiple roles **if** the context allows compatibility.
+* A role assignment is **local to context** and **time-indexed**.
+* The same system may bear multiple role values **if** the context allows compatibility.
 * For epistemes, the target of change is their **symbol carriers**; the acting side is still a **system**.
 
 #### A.3:5.3 - Boundary & externality

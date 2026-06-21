@@ -6,12 +6,12 @@ section_id: "A.2.8:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__014_rationale.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:10 — Rationale"
-line_start: 5426
-line_end: 5433
+line_start: 5582
+line_end: 5589
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -47,5 +47,5 @@ The triad “promise, utterance, and commitment” is useful for language discip
 
 * stabilizes what a “commitment” structurally is,
 * ensures “MUST/SHALL” talk is representable without category mistakes,
-* and provides the missing bridge between governance claims and adjudication (via explicit hooks), which is essential for boundary engineering and for later ethics/governance work.
+* and provides the bridge between governance claims and adjudication (via explicit hooks), which is essential for boundary engineering and ethics/governance work.
 

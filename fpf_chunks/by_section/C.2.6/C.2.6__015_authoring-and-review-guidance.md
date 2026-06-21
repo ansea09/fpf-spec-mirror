@@ -6,12 +6,12 @@ section_id: "C.2.6:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__015_authoring-and-review-guidance.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:14 — Authoring and Review Guidance"
-line_start: 37892
-line_end: 37907
+line_start: 39205
+line_end: 39220
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,7 +44,7 @@ When declaring anchoring mode, ask:
 - if multiple modes matter, which ones and why?
 
 #### C.2.6:14.2 - Review prompt
-A reviewer should watch for the common mistake where later prose formatting tricks authors into forgetting the original anchoring mode.
+An assurance reader should watch for the common mistake where prose formatting tricks authors into forgetting the original anchoring mode.
 
 #### C.2.6:14.3 - Bridge note
 If anchoring changes across publication or translation, `F.9` and `F.9.1` should often carry explicit loss or stance notes rather than silent equivalence language.

@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_forces.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:3 — Forces"
-line_start: 72897
-line_end: 72907
+line_start: 75586
+line_end: 75596
 dependencies:
   - "A.15"
   - "A.2"
@@ -47,7 +47,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Local idiom vs cross-context neutrality | RoleDescription labels must sound right inside one context; U-kind names must not privilege one witness context. |
-| Brevity vs kind recovery | Names must be usable, but the reader must still recover whether the named value is a type, role, status, method, work, relation, or episteme-use relation. |
+| Brevity vs kind recovery | Names must be usable, but the reader must still recover whether the named value is a kind, role, status, method, work, relation, or episteme-use relation. |
 | Teaching vs widening | Plain labels should help readers, not broaden the Tech label's meaning. |
 | Stability vs changed meaning | Names should remain stable across edition or publication changes, but real sense change must split or rename with lineage. |
 | Morphology vs ontology | Word form should hint at kind, but suffixes are not ontology. A word ending in `Role` does not create `U.Role`. |

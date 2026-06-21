@@ -6,12 +6,12 @@ section_id: "C.31:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__002_problem-frame.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:1 — Problem frame"
-line_start: 55195
-line_end: 55224
+line_start: 57053
+line_end: 57082
 dependencies:
 keywords:
 ---
@@ -44,5 +44,5 @@ What goes wrong if C.31 is missed: "modular" becomes a binary label; a single mo
 
 What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next move, which false use is blocked, which repair is plausible, and which governing pattern governs measurement, evidence, causal, scale, selection, or accounting claims.
 
-Not this pattern when the question under repair is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement legality, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
+Not this pattern when the question under repair is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement admissibility, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
 

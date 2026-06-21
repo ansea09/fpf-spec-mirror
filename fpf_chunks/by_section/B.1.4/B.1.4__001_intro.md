@@ -1,38 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.4"
-pattern_title: "Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
+pattern_title: "Contextual and Temporal Aggregation"
 section_id: "B.1.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__001_intro.md"
-commit_sha: "cf12b97913ff82ca8a45ba77d3658ad11e0fdeb6"
+commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
 heading_path:
-  - "B.1.4 — Contextual & Temporal Aggregation (Γ\\_ctx & Γ\\_time)"
+  - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:intro — Intro"
-line_start: 30575
-line_end: 30585
+line_start: 31274
+line_end: 31287
 dependencies:
-  - "A.12"
+  - "A.1.1"
   - "A.14"
-  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "B.1"
-  - "B.1.1"
+  - "B.1.6"
+  - "B.2-family"
+  - "B.2.P"
+  - "C.13"
+  - "C.27"
+  - "C.27.TA"
+  - "C.29"
+  - "E.18"
+  - "E.18.2"
 keywords:
-  - "composition"
-  - "order-sensitive"
-  - "temporal aggregation"
-  - "time-series"
 ---
 
-## B.1.4 - Contextual & Temporal Aggregation (Γ\_ctx & Γ\_time)
+## B.1.4 - Contextual and Temporal Aggregation
 
+> **Type:** B-family aggregation pattern
 > **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
 
-> **► decided‑by: A.14 Advanced Mereology**
-**A.14 compliance —** **Γ\_ctx** relies on **SerialStepOf/ParallelFactorOf** (order semantics); **Γ\_time** composes **PhaseOf** slices of the *same* carrier with coverage/no‑overlap; **PortionOf** is orthogonal (quantities within steps), mappings are not parthood.
+**Use this when.** Use this pattern when the current claim aggregates relations across a bounded context, ordered situation, phase set, or time window, and the question is not just ordinary part-whole construction. Typical cues are ordered steps, order-sensitive argument chains, version histories, asset histories, phases of one carrier, rolling windows, context-scoped roll-ups, or time-sliced evidence.
 
-> **Plain‑English headline.**
-> Use **Γ\_ctx** when *the order of steps changes meaning*.
-> Use **Γ\_time** when *we are aggregating the same carrier across a timeline*.
+**Not this pattern when.** If the question is ordinary part-whole or collection admission, use `B.1`, `A.14`, and `C.13`. If the question is the method as such, method description, work plan, or dated work occurrence, use `A.3.1`, `A.3.2`, `A.15.2`, or `A.15.1`. If the question is work-resource accounting, use `B.1.6`. If the question is changed identity, use `A.3.4`; if a new whole must be reidentified, use `B.2` through `B.2.P`. If the question is temporal adequacy of a claim, use `C.27`.
+
+**What goes wrong if missed.** Order, phase, context, or time-window wording becomes ordinary parthood, method order, performed work, evidence currentness, or whole reidentification by label.
+
+**What this buys.** The practitioner can aggregate context-sensitive and temporal material while returning method, work, transformation, work-resource, temporal-adequacy, and MHT claims to their direct owners.
 
