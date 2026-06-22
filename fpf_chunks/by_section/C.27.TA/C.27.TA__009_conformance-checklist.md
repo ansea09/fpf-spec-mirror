@@ -6,12 +6,12 @@ section_id: "C.27.TA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__009_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:7 — Conformance Checklist"
-line_start: 51712
-line_end: 51723
+line_start: 52005
+line_end: 52016
 dependencies:
   - "A.10"
   - "A.15.1"

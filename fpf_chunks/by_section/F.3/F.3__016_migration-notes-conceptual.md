@@ -6,12 +6,12 @@ section_id: "F.3:15"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__016_migration-notes-conceptual.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:15 — Migration notes (conceptual)"
-line_start: 75882
-line_end: 75890
+line_start: 76643
+line_end: 76651
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 55390
-line_end: 55658
+line_start: 55694
+line_end: 55962
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 **Plain-name.** Stratification and architecture-operation source-label repair.
 
-**Intent.** Recover source wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, and `gate` by completing the `E.10.ARCH` recovery row for that wording use: `semanticAreaBaseConcept`, `semanticAreaSenseFamily`, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader move. No conforming `C.30.STRAT` use mints `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, `U.Ladder`, `U.Rung`, `U.Block`, `U.Expert`, `U.Cache`, or one universal `U.Stratification`.
+**Intent.** Recover source wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, and `gate` by completing the `E.10.ARCH` recovery row for that wording use: `semanticAreaBaseConcept`, `semanticAreaSenseFamily`, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader use. No conforming `C.30.STRAT` use mints `U.Layer`, `U.Level`, `U.Tier`, `U.Stack`, `U.Ladder`, `U.Rung`, `U.Block`, `U.Expert`, `U.Cache`, or one universal `U.Stratification`.
 
 **Builds on.** `E.10`, `E.10.ARCH`, `E.8`, `F.18`, `C.30.P`, `A.22`, and `C.30`.
 
@@ -76,7 +76,7 @@ Typical source labels:
 
 **What this buys.** The practitioner can keep useful source language while recovering the selected `ontologicalNeighborhood` and applying the governing pattern, instead of replacing the source label with another umbrella word.
 
-**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, governing pattern, admissible use, non-admissible use, and remaining reader move.
+**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, governing pattern, admissible use, non-admissible use, and remaining reader use.
 
 **Not this pattern when.** If the governing pattern is already recoverable by value, use it directly. Do not use `C.30.STRAT` merely because a familiar word appears. If the wording is only ordinary source prose with no FPF-governed use, keep ordinary prose or quote-only wording and stop.
 
@@ -84,7 +84,7 @@ Typical source labels:
 
 Architecture and engineering sources use compact labels because they work in local practice. Neural-network architecture prose says `block`, `expert`, `cache`, or `router`. Control architecture says `layer`. Organizations say `level` or `tier`. Documentation says `section`, `stack`, or `view`. Mathematical and scale prose says `level`, `resolution`, or `coarse-graining step`.
 
-Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible move is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
+Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible use is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
 
 The repair question is:
 
@@ -98,7 +98,7 @@ How can FPF keep common stratification and architecture-operation language witho
 - making `C.30` govern all structure-like wording;
 - making `A.6.M` or `C.30.LCA` carry a duplicate local trigger registry;
 - treating source labels as non-source-label FPF-governed claims by appearance;
-- removing useful source language before a remaining admissible reader move is recoverable?
+- removing useful source language before a remaining admissible reader use is recoverable?
 
 ### C.30.STRAT:3 - Forces
 
@@ -131,7 +131,7 @@ StratificationSourceLabelRepairNote:
   governingPatternRef:
   admissibleUse:
   nonAdmissibleUse:
-  remainingReaderMove:
+  remainingReaderUse:
   disposition:
     governing-pattern-ref | local-rewrite | ordinary-source-label |
     quote-only | reduced-use-cue | blocked-use | incomplete-rewrite
@@ -145,7 +145,7 @@ StratificationSourceLabelRepairNote:
 4. **Select the ontological neighborhood.** Select the first applicable neighborhood by recovered relation, claim-use, source-use disposition, formal apparatus, or governing-pattern field set, not by the source label.
 5. **State the apparatus that makes the repair checkable.** Use relation slots, control roles and rate bands, module-interface fields, flow fields, transformation-flow fields, characteristic and scale construction, publication relation set, source-use disposition, mathematical-lens fields, evidence relation, assurance argument, gate record, work occurrence, decision record, causal-use record, or ordinary non-use disposition, with scope, time, viewpoint, and context facets only where the recovered claim or use needs them.
 6. **Project back to wording.** Produce the repaired wording, compact note, direct governing-pattern application, or non-use disposition. The replacement candidate is accepted only after it passes `E.10`.
-7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader move. If no move remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
+7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader use. If no reader use remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
 
 #### C.30.STRAT:4.2 - Ontological-neighborhood governing-pattern applications
 
@@ -225,7 +225,7 @@ StratificationSourceLabelRepairNote:
   governingPatternRef: `A.6.M`, `A.6.F`, `E.18`, `A.19.SPR`, or `A.3.3` for cache apparatus when recovered; `C.16.P`, `C.29`, or `C.31.ASAP` for scale or lens use when recovered; `A.10`, `B.3`, or `G.6` for evidence or assurance only when that claim is being made
   admissibleUse: use the sentence to start the field split and then cite only the recovered governing pattern results
   neighboringClaimBoundary: proof, assurance, scale-success, module-substitutability, and architecture-quality claims apply the governing pattern for the recovered claim being made
-  remainingReaderMove: write the smallest governing-pattern result for the recovered scale, state, module-interface, flow, evidence, or assurance claim; otherwise keep ordinary source wording or quote-only wording
+  remainingReaderUse: write the smallest governing-pattern result for the recovered scale, state, module-interface, flow, evidence, or assurance claim; otherwise keep ordinary source wording or quote-only wording
   disposition: local-rewrite plus governing-pattern-ref application for each recovered claim being made; blocked or reduced-use cue for the rest
 ```
 
@@ -233,15 +233,15 @@ A compact local rewrite can therefore say: `The response cache is a candidate st
 
 #### C.30.STRAT:4.6 - Lowering and reopen conditions
 
-A `StratificationSourceLabelRepairNote` remains admissible only while its source span, selected `ontologicalNeighborhood`, governing pattern, and remaining reader move stay recoverable. Reopen or lower the repair when:
+A `StratificationSourceLabelRepairNote` remains admissible only while its source span, selected `ontologicalNeighborhood`, governing pattern, and remaining reader use stay recoverable. Reopen or lower the repair when:
 
 - the source label starts carrying a new relation, characteristic, publication, evidence, assurance, gate, work, decision, causal-use, or mathematical-lens claim;
 - a direct governing pattern becomes recoverable and `C.30.STRAT` no longer buys action guidance;
 - the selected neighborhood was chosen by label similarity rather than by recovered apparatus;
-- the repair preserves kind recovery but leaves no useful admissible reader move;
+- the repair preserves kind recovery but leaves no useful admissible reader use;
 - `E.10.ARCH` changes the required recovery fields, `C.30.P` changes architecture-wording repair law, `F.19` changes apparatus-vs-usability policy, or a more source-label realization pattern now governs a label family currently repaired here.
 
-Lower the result to quote-only, reduced-use cue, blocked use, or incomplete rewrite when the governing pattern, admissible use, non-admissible use, or remaining move cannot be stated.
+Lower the result to quote-only, reduced-use cue, blocked use, or incomplete rewrite when the governing pattern, admissible use, non-admissible use, or remaining reader use cannot be stated.
 
 ### C.30.STRAT:5 - Archetypal Grounding
 
@@ -262,13 +262,13 @@ This pattern intentionally biases away from lexical replacement and toward ontol
 | ID | Check |
 | --- | --- |
 | `CC-C30STRAT-1` | The source label is copied as a source label before any FPF kind is assigned. |
-| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader use. |
 | `CC-C30STRAT-3` | No root kind or universal kind is minted for layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or stratification. |
 | `CC-C30STRAT-4` | The selected `ontologicalNeighborhood` and governing-pattern row select the governing pattern; the source label does not select the pattern nest by itself. |
 | `CC-C30STRAT-5` | Already recovered cases use the governing pattern directly instead of detouring through this pattern. |
 | `CC-C30STRAT-6` | The repair distinguishes the neighborhoods in `C.30.STRAT:4.2` when any of them are being used, and it does not compress several ontological neighborhoods being used into one word. |
 | `CC-C30STRAT-7` | Subject patterns use at most a thin pointer to this pattern and do not copy this trigger table. |
-| `CC-C30STRAT-8` | The result preserves one useful admissible reader move; if no move remains, the disposition is quote-only, reduced-use cue, blocked use, or incomplete rewrite rather than recovered by value. |
+| `CC-C30STRAT-8` | The result preserves one useful admissible reader use; if no move remains, the disposition is quote-only, reduced-use cue, blocked use, or incomplete rewrite rather than recovered by value. |
 
 ### C.30.STRAT:8 - Common Anti-Patterns and How to Avoid Them
 

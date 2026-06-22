@@ -6,12 +6,12 @@ section_id: "A.20:10"
 section_title: "SoTA-Echoing (post-2015)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__013_sota-echoing-post-2015.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:10 — SoTA-Echoing (post-2015)"
-line_start: 29470
-line_end: 29480
+line_start: 29751
+line_end: 29761
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.20:10 - SoTA-Echoing (post-2015)
 
-| SoTA source idea | FPF invariant | Practitioner move | Rejected shortcut |
+| SoTA source idea | FPF invariant | Practitioner action | Rejected shortcut |
 | --- | --- | --- | --- |
 | Algebraic effects, refinement, and certified-computation practice separate local constraint satisfaction from handler or deployment policy. | CV is internal step validity with `CV.Status` plus witness or refusal; GateFit (`A.21`) may consume the CV result only when a gate relation is being claimed. | Name the step, the applicable CV class, and the witness or refusal before making any gate claim. | Treating `CV.Status=pass` as gate passage, launch readiness, comparator-use claim, or a release-confidence claim. |
 | Reproducible-pipeline practice keeps mechanism constraints distinct from release or deployment criteria. | A.20 records assumption-bound status and witnesses; it does not define build tooling, cache keys, storage formats, or release policy. | Keep release and `GateProfile` questions outside CV unless the neighboring claim is present. | Treating a validation checklist as release readiness. |

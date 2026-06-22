@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:6"
 section_title: "Admission and extraction criterion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__012_admission-and-extraction-criterion.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:6 — Admission and extraction criterion"
-line_start: 64089
-line_end: 64105
+line_start: 64621
+line_end: 64637
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -69,7 +69,7 @@ Add or retain a `WordingUseRestorationApplicabilityRow` when all of the followin
 - the hidden primary-EntityOfConcern use field set is stable;
 - the recovery apparatus or field set is stable enough to teach;
 - repeated in-place repair distracts from the subject pattern's primary EntityOfConcern and first useful move;
-- a useful remaining reader move survives after overread removal;
+- a useful remaining reader use survives after overread removal;
 - no existing governing pattern already carries the row without duplicating repair-only doctrine inside subject patterns.
 
 Do not add a new realization pattern when an existing governing pattern such as `A.6.F`, `A.6.A`, `A.6.M`, `A.15.4`, `A.6.6`, `A.6.3.CSC`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, or another governing pattern already carries the EntityOfConcern under repair, relation, claim, or field. Record that pattern as the `governingPattern`.

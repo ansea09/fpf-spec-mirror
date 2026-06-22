@@ -6,12 +6,12 @@ section_id: "A.3.4.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__010_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:9 — Consequences"
-line_start: 7805
-line_end: 7813
+line_start: 7809
+line_end: 7817
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.18"
   - "E.18.2"
@@ -49,7 +50,7 @@ keywords:
 
 ### A.3.4.P:9 - Consequences
 
-- FPF gains one reusable repair move for language about change situations without making every subject pattern carry its own cue list.
+- FPF gains one reusable restoration pattern for language about change situations without making every subject pattern carry its own cue list.
 - `A.3.4` becomes easier to use because source labels are translated into transformation identity slots and neighboring values.
 - `E.18`, `E.18.2`, and `C.29` stay distinct: selected compound structure, mathematical expression, and mathematical-lens use do not collapse.
 - Architecture, method, work, mechanism, function, evidence, publication, and temporal patterns can point to the transformation ontic without becoming transformation patterns.

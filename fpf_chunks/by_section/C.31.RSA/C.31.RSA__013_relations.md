@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 57963
-line_end: 57977
+line_start: 58267
+line_end: 58281
 dependencies:
 keywords:
 ---
@@ -20,7 +20,7 @@ keywords:
 
 | Pattern | Relation |
 | --- | --- |
-| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, gate, and pruning mask before RSA uses recovered reusable loci, bespoke-residue loci, accounting-basis fields, repair moves, or source-return conditions. |
+| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, gate, and pruning mask before RSA uses recovered reusable loci, bespoke-residue loci, accounting-basis fields, repair actions, or source-return conditions. |
 | `C.31` | Supplies modularity characteristics under evaluation; RSA does not duplicate the characteristic taxonomy. |
 | `A.6.M` | Supplies module-interface relation repair for reusable interface and platform-grammar claims. |
 | `C.30` and `C.30.ASV` | Supply architecture claim and structural-view context for the structures being accounted over. |

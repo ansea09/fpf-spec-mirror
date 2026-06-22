@@ -6,16 +6,17 @@ section_id: "A.15.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22291
-line_end: 22301
+line_start: 22346
+line_end: 22356
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.5"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18.1"
   - "E.19"
   - "E.20"
+  - "E.24"
   - "G.11"
   - "G.6"
   - "U.RelationSlotDiscipline"
@@ -50,7 +52,7 @@ keywords:
 
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
-| Plan-as-execution | The plan contains launch values, witnesses, decision logs, or actual fillers. | Move actuals to performed `U.Work`, gate, evidence, or result records; leave planned rows in A.15.3. |
+| Plan-as-execution | The plan contains launch values, witnesses, decision logs, or actual fillers. | Record actuals under performed `U.Work`, gate, evidence, or result records; leave planned rows in A.15.3. |
 | Latest-as-baseline | "Latest" is used where replay needs a pinned edition or time rule. | Add time selector and edition pins, or lower to a plan cue. |
 | View-as-baseline | A card, dashboard, or generated page becomes the row source. | Make the PlanItem rows authoritative and treat the view as E.17 projection. |
 | Mechanism-prose baseline | Suite or mechanism prose hides plan-instance choices. | Put suite meaning in the suite pattern and planned fillers in A.15.3. |

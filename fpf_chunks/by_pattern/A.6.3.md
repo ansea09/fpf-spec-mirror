@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
-line_start: 11125
-line_end: 11637
+line_start: 11130
+line_end: 11642
 dependencies:
   - "A.6.0"
   - "A.6.2"
@@ -446,7 +446,7 @@ For each species, the definition SHALL provide:
 
 ### A.6.3:6.2 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Correct move |
+| Anti-pattern | Why it fails | Correct action |
 |---|---|---|
 | View as retargeting | The output episteme is about a different system, function, scale, or concern object. | Use A.6.4 or a KindBridge retargeting relation when `EntityOfConcernRef` changes. |
 | View as publication face | A document, GUI, export, or dashboard is treated as the viewing morphism. | Use E.17 for publication forms and A.6.3 for the episteme relation behind the face. |

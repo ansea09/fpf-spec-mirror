@@ -6,16 +6,17 @@ section_id: "C.30.AD:End"
 section_title: "C.30.AD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__015_c-30-ad-end.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:End — C.30.AD:End"
-line_start: 54951
-line_end: 54952
+line_start: 55255
+line_end: 55256
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -39,6 +40,8 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.17"
   - "E.17.0"
   - "E.17.1"

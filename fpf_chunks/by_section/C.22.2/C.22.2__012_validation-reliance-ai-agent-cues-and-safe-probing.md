@@ -6,15 +6,16 @@ section_id: "C.22.2:11"
 section_title: "Validation, Reliance, AI-Agent Cues, and Safe Probing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__012_validation-reliance-ai-agent-cues-and-safe-probing.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:11 — Validation, Reliance, AI-Agent Cues, and Safe Probing"
-line_start: 46709
-line_end: 46729
+line_start: 47000
+line_end: 47020
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.19"
   - "A.21"
   - "A.6.3"
@@ -36,6 +37,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
+  - "E.10.MOVE"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -66,9 +68,9 @@ keywords:
 
 `ProblemCard@Context` exposes three local fields for downstream use:
 
-- problem-formulation next-move reason: why this formulation is worth keeping, reviewing, discriminating, or moving onward now;
-- validation boundary: what has been checked for the current next move, what may be used now, and which use is governed by another pattern;
-- risk condition: the monitored risk, cost-of-error concern, or containment concern that may change the safe next move.
+- problem-formulation follow-up reason: why this formulation is worth keeping, reviewing, discriminating, or moving onward now;
+- validation boundary: what has been checked for the current next use, what may be used now, and which use is governed by another pattern;
+- risk condition: the monitored risk, cost-of-error concern, or containment concern that may change the safe next action.
 
 Use these fields to state a local reliance disposition, not to authorize downstream action.
 
@@ -77,9 +79,9 @@ Use these fields to state a local reliance disposition, not to authorize downstr
 | The current reason is sufficient for the named reversible P2W use. | `P2W-ready` only for that named use, with validation boundary, context, window, and stop condition. | Apply measurement, evidence, temporal, refresh, representation, gate, autonomy, work, or assurance patterns only when those claims are part of the use. |
 | The reason is useful but narrower than the attempted use. | Narrow the attempted use; name the narrowed use, blocked attempted use, and stop condition. | Apply the governing pattern for the missing claim, relation, or boundary. |
 | Source, validation, or currentness is stale, conflicted, uncalibrated, or untied to the current relation. | Choose `abstainOrNoChange`, `refresh`, or `reopen`; name the missing relation, evidence-needed cue when current, and decision point. | Use `A.10`, `G.6`, `B.3`, `C.16`, `C.27`, `G.11`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` according to the reopened relation. |
-| The proposed next move can affect the world, spend resources, call tools, delegate to agents, change operational state, or make safety, release, gate, or work claims. | Block local use or name the governing relation; keep only the problem-side cue inside the card. | Apply `B.3`, `A.21`, `E.16`, `A.15`, `A.10`, `G.6`, or `B.2.5` when the corresponding controlled-EntityOfConcern relation is current. |
+| The proposed next action can affect the world, spend resources, call tools, delegate to agents, change operational state, or make safety, release, gate, or work claims. | Block local use or name the governing relation; keep only the problem-side cue inside the card. | Apply `B.3`, `A.21`, `E.16`, `A.15`, `A.10`, `G.6`, or `B.2.5` when the corresponding controlled-EntityOfConcern relation is current. |
 
 Cause-theory cues may focus problem formulation inside `ProblemCard@Context`. Association, intervention, counterfactual, responsibility, expected-effect, or causal-evidence claims are governed by `C.28` plus evidence, provenance, or assurance patterns when those claims are being made.
 
-Environment design and safe probing may appear as source signal reference, validation boundary, risk condition, or governing-pattern cue. If the next move can affect a controlled EntityOfConcern, the card names the probe need plus the claim kind named by value that blocks local action; it does not authorize the probe locally.
+Environment design and safe probing may appear as source signal reference, validation boundary, risk condition, or governing-pattern cue. If the next action can affect a controlled EntityOfConcern, the card names the probe need plus the claim kind named by value that blocks local action; any deontic permission, work authorization, release authorization, or gate passage stays with the governing pattern for that claim.
 

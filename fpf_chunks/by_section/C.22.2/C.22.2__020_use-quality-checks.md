@@ -6,15 +6,16 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 46855
-line_end: 46866
+line_start: 47146
+line_end: 47157
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.19"
   - "A.21"
   - "A.6.3"
@@ -36,6 +37,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
+  - "E.10.MOVE"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -70,7 +72,7 @@ These checks protect the card's practical use; they do not add fields.
 |---|---|
 | Recognition | Can the practitioner recognize the working situation before outside-governed relation material appears? |
 | Thin affordance | Can a truthful card fit under one page when only Thin fields are current? |
-| Next move | Does the card choose `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or the FPF pattern governing the named claim kind, relation kind, or boundary? |
+| Next use | Does the card choose `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or the FPF pattern governing the named claim kind, relation kind, or boundary? |
 | Record budget | Are heavier fields present only because they change the current move? |
 | P2W export | Does the card state what P2W may use now and which governing-pattern cues remain outside the card? |
 

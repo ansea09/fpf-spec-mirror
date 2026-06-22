@@ -6,15 +6,17 @@ section_id: "E.11:4"
 section_title: "Solution - Assign Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_solution-assign-each-entry-publication-unit-one-job.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Assign Each Entry Publication Unit One Job"
-line_start: 64893
-line_end: 64907
+line_start: 65425
+line_end: 65441
 dependencies:
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.19"
   - "E.21"
   - "E.8"
@@ -41,4 +43,6 @@ Use this distribution.
 | Retrieval cards or other projection material | Thin finding aids that point to the governing pattern body and say what they cannot decide. | Authority, evidence, gate, decision, or final pattern interpretation. |
 
 A separate first-entry index is not maintained when it repeats the `readme` scenario set. If one first-entry row has value not carried by the FPF `readme` section, ToC, a pattern Problem frame, or an expanded case, place that value in the appropriate publication unit instead of maintaining a duplicate index body.
+
+When the live question is no longer public discoverability but "which FPF pattern use is recommended now for this concrete concern?", use `E.11.PUR`. `E.11` governs where entry and discovery material lives; `E.11.PUR` governs the project-local relation between the concern, candidate pattern uses, the recommended pattern use, and the expected first result. A `PatternUseSequence@Context` is not a universal sequence for all users; it is a bounded recommendation for one current concern.
 

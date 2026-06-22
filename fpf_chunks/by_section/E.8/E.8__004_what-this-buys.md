@@ -6,15 +6,17 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 60767
-line_end: 60791
+line_start: 61071
+line_end: 61097
 dependencies:
   - "E.10"
+  - "E.10.MOVE"
   - "E.11"
+  - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
@@ -58,6 +60,8 @@ keywords:
 
 **First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
 
+**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance phrases. They do not create a root `U.Move` or a local pattern-application ontology. When the phrase itself becomes load-bearing, recover the governed value: usually `PatternUseRecommendation@Context` or `PatternUseSequence@Context` under `E.11.PUR`, or a direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its own governing pattern. Use `E.10.MOVE` when the text cannot tell which value is current.
+
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 
 **FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or related-pattern material only when the light recognition text would leave a false claim, unstable primary `EntityOfConcern`, hidden governing pattern for a specific claim, relation, or boundary, unbacked practical payoff, or misleading admissible use.
@@ -67,7 +71,7 @@ When an authoring pass claims quality improvement rather than ordinary drafting,
 When a pattern claims practical payoff or uses a score, coordinate value, checklist result, benchmark, projection signal, review result, or release posture as evidence of value, name the intended value and the visible proxy relation. If the visible proxy is being treated as the value itself, apply `E.13` and repair the proxy-to-value substitution before the payoff claim is admitted.
 
 
-**Quality or projection evidence placement.** Pattern-quality status, corpus projection, README, ToC, `E.11`, and `I.2` alignment, card or retrieval evidence, cold-reader evidence, monolith parity, landing evidence, developer, reviewer, and executor correspondence, and other quality-carrier facts belong in the evaluation result, review run record, projection carrier, or release or landing evidence carrier. They do not belong anywhere in the pattern itself, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, and checklist rows, unless the pattern's own `EntityOfConcern` and intended-reader move are that evaluation or projection work. Part E patterns may govern FPF-pattern authoring, review, evaluation, entry, or publication when that is their declared EntityOfConcern; that permission does not admit rules or rationale about developing that same pattern version. This is a role test, not a lexical test: the same word may be user-facing content in an evaluation pattern and carrier leakage when it reports quality, landing, projection, or role-turn state for this pattern.
+**Quality or projection evidence placement.** Pattern-quality status, corpus projection, README, ToC, `E.11`, and `I.2` alignment, card or retrieval evidence, cold-reader evidence, monolith parity, landing evidence, developer, reviewer, and executor correspondence, and other quality-carrier facts belong in the evaluation result, review run record, projection carrier, or release or landing evidence carrier. They do not belong anywhere in the pattern itself, including notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, examples, tables, and checklist rows, unless the pattern's own `EntityOfConcern` and intended-reader use are that evaluation or projection work. Part E patterns may govern FPF-pattern authoring, review, evaluation, entry, or publication when that is their declared EntityOfConcern; that authoring scope does not admit rules or rationale about developing that same pattern version. This is a role test, not a lexical test: the same word may be user-facing content in an evaluation pattern and carrier leakage when it reports quality, landing, projection, or role-turn state for this pattern.
 
 **Pattern roles across coupled flows.** In authoring guidance, speak at the pattern level. One pattern may be the pattern of concern for different roles in different flows: an author repairs it, `E.21` evaluates it, `E.19` admits or refreshes it, a practitioner selects and uses it, and a later evaluator may reopen it. Those flows may be joined in one `TransformationFlowStructure` through transfer, feedback, return, projection, landing, edition-change, or repair relations, but their roles and `EntityOfConcern` assignments stay distinct. The pattern itself also carries its own primary `EntityOfConcern`: the subject its Problem, Solution, or guidance is about. Development-flow evidence may cause rewrites, but reviewer and executor exchange, status, projection proof, landing proof, and use-found evidence remain in their carriers rather than entering the pattern as if they were guidance for the intended reader. This is the pattern-authoring instance of the broader transformation-flow and P2W coupled-flow rule: a publication, principle scheme, work plan, or self-evolving specification flow may help create or govern later work without becoming the performed work, project evidence, gate passage, assurance, edition bump, or applied-edition content.
 

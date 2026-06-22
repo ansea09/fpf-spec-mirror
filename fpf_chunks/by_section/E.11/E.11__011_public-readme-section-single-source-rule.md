@@ -6,15 +6,17 @@ section_id: "E.11:4.5"
 section_title: "Public readme Section Single-Source Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__011_public-readme-section-single-source-rule.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.5 — Public readme Section Single-Source Rule"
-line_start: 65037
-line_end: 65042
+line_start: 65573
+line_end: 65578
 dependencies:
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.19"
   - "E.21"
   - "E.8"

@@ -6,12 +6,12 @@ section_id: "A.8:4.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19464
-line_end: 19472
+line_start: 19469
+line_end: 19477
 dependencies:
   - "A.11"
   - "C.3"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.8:4.1 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Correct move |
+| Anti-pattern | Why it fails | Correct action |
 |---|---|---|
 | Same-word admission | A term is admitted because many domains use the same word. | Require three domain-family projection records that show the same abstract contribution. |
 | Prestige admission | A famous source or standard is treated as universal-core evidence by itself. | Record the candidate's role in multiple domain families and state difference/loss. |

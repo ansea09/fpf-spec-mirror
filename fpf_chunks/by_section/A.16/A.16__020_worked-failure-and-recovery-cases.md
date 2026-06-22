@@ -6,13 +6,14 @@ section_id: "A.16:19"
 section_title: "Worked Failure and Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__020_worked-failure-and-recovery-cases.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:19 — Worked Failure and Recovery Cases"
-line_start: 23007
-line_end: 23023
+line_start: 23286
+line_end: 23302
 dependencies:
+  - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
   - "A.16.1"
@@ -30,14 +31,15 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.18"
 keywords:
-  - "admissible move"
-  - "handoff"
+  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
+  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -48,7 +50,7 @@ keywords:
 A low-articulation cue is observed and quickly described as if it were already a requirement. Under `A.16`, this is rejected because the move history is missing: the publication should first be noticed, stabilized, and route-published. The recovery is not to defend the over-committing label, but to reopen and publish the earlier route-bearing form.
 
 #### A.16:19.2 - Silent route drift
-A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit handoff to a governing pattern.
+A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit responsibility transfer to a governing pattern.
 
 #### A.16:19.3 - admissible retreat after over-formalization
 A note is formalized too early into a relation-like shape, but later review shows the anchors are still unstable. The correct continuation is not to leave the relation form in place and quietly reinterpret it. The correct continuation is `reopen -> sketchBackoff`, preserving what still holds and lowering the authority of what no longer does.

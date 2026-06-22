@@ -6,12 +6,13 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16 — Language-State Move Coordination"
-line_start: 22716
-line_end: 23062
+line_start: 22993
+line_end: 23341
 dependencies:
+  - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
   - "A.16.1"
@@ -29,14 +30,15 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.18"
 keywords:
-  - "admissible move"
-  - "handoff"
+  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
+  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -49,18 +51,18 @@ keywords:
 
 **Plain-name.** Language-state move coordination.
 
-**Start here when.** Your first honest content is a cue, not yet a claim, requirement, method, or work record, and you need to name the next admissible move without pretending that one downstream governing pattern has already taken over.
+**Start here when.** Your first honest content is a cue, not yet a claim, requirement, method, or work record, and you need to name the next admissible language-state move without pretending that one downstream governing pattern has already taken over.
 
-**First output.** A small typed move note or early preservation-to-routing note that names the source publication form, target publication form, target governing pattern, and MVPK face where that face matters.
+**First output.** A small typed language-state move note or early preservation-to-routing note that names the source publication form, target publication form, target governing pattern, and MVPK face where that face matters.
 
-**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right move is reopen/backoff/respecify/retire.
+**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right language-state move is reopen, backoff, respecify, or retire.
 
 **Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
 
 ### A.16:1 - Problem frame
-Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or hand off across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
+Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or transfer responsibility across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
 
-A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while still remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or handoff history become governance-relevant.
+A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while still remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or responsibility-transfer history become governance-relevant.
 
 ### A.16:2 - Problem
 Without a dedicated coordination pattern, authors either misuse `F0-F9`, force every cue into anomaly/problem language too early, let reopen and backoff happen informally with no explicit guards, or over-wrap every local move in a meta-account that should have remained optional.
@@ -76,7 +78,9 @@ Without a dedicated coordination pattern, authors either misuse `F0-F9`, force e
 ### A.16:4 - Solution
 `A.16` governs only admissible move kinds, their guards, and docking rules for how governed `U.Episteme` publications may be related across declared language-state positions. It does **not** govern `F`, does **not** define the trajectory-account semantics itself, and does **not** define a rival graph calculus beside `E.18`.
 
-A conforming move may be published as a local move note without any `U.LanguageStateMoveTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing pattern handoff has governance value that should be published as an account.
+In this pattern, `move` is a local term for a typed language-state publication transition over governed `U.Episteme` publication forms. It is not a general project move, pattern-use recommendation, work-entry readiness relation, performed work, or work plan. When source prose uses move-like wording outside this local language-state scope, restore the project concern through `E.10.MOVE` and then use `E.11.PUR`, `A.15.5`, `A.15.1`, `A.15.2`, or the direct governing pattern named by value.
+
+A conforming move may be published as a local move note without any `U.LanguageStateMoveTrajectory` wrapper. `A.16.0` is used only when lineage, branch structure, loss notes, supersession, retirement, bridge-sensitive history, or governing-pattern responsibility transfer has governance value that should be published as an account.
 
 Observation itself is a precursor condition typically published through `B.4.1`. `A.16` move kinds begin once a cue is deliberately noticed, stabilized, route-published, reopened, formalized, operationalized, respecified, or retired under explicit move discipline.
 
@@ -113,7 +117,7 @@ After `route`, `projection`, `formalize`, or `operationalize`, the next admissib
 Naming only the governing pattern is insufficient because governing patterns are not forms. Naming only the face is insufficient because faces are not forms. An admissible move note states the pattern-governed publication form first, then the governing pattern, then the face if the face matters.
 
 #### A.16:4.4 - Effect-free versus work-requiring moves
-Some `formalize` and `operationalize` moves are effect-free epistemic rewrites or moves to publication forms with higher articulation or closure over already available grounds. Others require new measurements, experiments, instrumentation, execution, or other `U.Work`. When the latter happens, the move note shall expose the crossing or handoff explicitly; `A.16` does not pretend that world-facing work occurred inside the language layer.
+Some `formalize` and `operationalize` moves are effect-free epistemic rewrites or moves to publication forms with higher articulation or closure over already available grounds. Others require new measurements, experiments, instrumentation, execution, or other `U.Work`. When the latter happens, the move note shall expose the work-boundary crossing or responsibility transfer explicitly; `A.16` does not pretend that world-facing work occurred inside the language layer.
 
 #### A.16:4.5 - Move-note threshold and path publication discipline
 A typed local move note is sufficient when a small move or short move chain can be kept reconstructible without publishing extra lineage machinery.
@@ -123,7 +127,7 @@ Use `A.16.0` only when at least one of the following is load-bearing:
 - derivation, supersession, fork, merge, or retirement structure;
 - a multi-move history whose compression would hide governing pattern or authority changes;
 - visible loss notes or reopen conditions spanning more than one move;
-- responsibility handoff or bridge/viewpoint entry that depends on upstream history.
+- responsibility transfer, bridge entry, or viewpoint entry that depends on upstream history.
 
 If the history itself must be published as a graph publication, reuse `E.18`. `A.16` governs move admissibility; `A.16.0` packages trajectory accounts; `E.18` governs graph publication of paths.
 
@@ -155,7 +159,7 @@ The pattern biases authors toward explicit move-typing and away from folk storie
 - **Form-face collapse.** Do not treat an MVPK face as if it were the publication form itself. Name both when both matter.
 - **Irreversible maturity story.** Reopen, sketch-backoff, respecify, and retirement are admissible moves, not failures of the trajectory discipline.
 - **Silent branch retirement.** Do not let one route or branch disappear without a retirement or supersession note.
-- **Route/fork confusion.** Several live routes in one `RoutedCueSet` are not yet a lineage fork.
+- **Route and fork confusion.** Several live routes in one `RoutedCueSet` are not yet a lineage fork.
 
 ### A.16:9 - Consequences
 The benefit is a clear governing pattern for language-state moves and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
@@ -170,13 +174,13 @@ This separation keeps `C.2.3` as the sole governing pattern of formality while `
 
 **Claim 2.** Best-known current provenance, path-publication, and model-evaluation practice distinguishes a local transition note from a heavier published history account.
 
-**Practice source, local alignment, and adoption decision.** Contemporary provenance and evaluation practice separates lightweight transition marking from heavier account publication when branch structure, loss notes, or handoff history become governance-relevant. This pattern **adopts** that separation, **adapts** it through the `A.16` / `A.16.0` / `E.18` split, and **rejects** both extremes: wrapping every move in a mandatory trajectory wrapper and compressing a governance-relevant move history into one vague maturity sentence.
+**Practice source, local alignment, and adoption decision.** Contemporary provenance and evaluation practice separates lightweight transition marking from heavier account publication when branch structure, loss notes, or responsibility-transfer history become governance-relevant. This pattern **adopts** that separation, **adapts** it through the `A.16` / `A.16.0` / `E.18` split, and **rejects** both extremes: wrapping every move in a mandatory trajectory wrapper and compressing a governance-relevant move history into one vague maturity sentence.
 
 **Local stance.** The load-bearing SoTA claim for this pattern is narrow: admissible language-state movement needs typed move notes, explicit authority effects, and explicit retreat/retirement options, but it does not need a mandatory formality climb or a mandatory wrapper around every move.
 
 ### A.16:12 - Relations
 - Builds on: `C.2.2a`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.18`, `A.19`.
-- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `E.18`.
+- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `E.18`, and `E.10.MOVE` when move-like source wording is not a local A.16 language-state publication transition.
 - Constrains: language-state move publication and docking.
 
 ### A.16:13 - Admissible Move Matrix
@@ -189,14 +193,14 @@ This separation keeps `C.2.3` as the sole governing pattern of formality while `
 | `route` | cue pack or stabilized note | `RoutedCueSet` or equivalent route-bearing publication becomes admissible | route plurality, selected route if any, route rationale, route authority state |
 | `projection` | routed cue or selected route | a typed route-bounded publication form rendered on an existing MVPK face | what is foregrounded, what is omitted, and how reopen remains admissible |
 | `formalize` | explicit but not yet formal-enough publication | a named `U.EpistemePublication` form with higher articulation or closure governed by a later formal pattern becomes admissible | new symbolic or slot structure and governing-pattern entry |
-| `operationalize` | method-facing, work-facing, or gate-facing publication | a method-facing, work-facing, or gate-facing `U.EpistemePublication` form governed by a later method, work, or gate pattern becomes admissible | hook governing pattern, guard, authority basis, and work crossing if any |
+| `operationalize` | method-facing, work-facing, or gate-facing publication | a method-facing, work-facing, or gate-facing `U.EpistemePublication` form governed by a later method, work, or gate pattern becomes admissible | hook governing pattern, guard, authority grounds, and work crossing if any |
 | `reopen` | route-bearing or endpoint-bound publication | same family with reduced closure | which rivals reopen and what authority falls |
 | `sketchBackoff` | over-rigid form | exploratory cue-bearing form such as `U.PreArticulationCuePack` or `RoutedCueSet` | withdrawn authority and retained witnesses |
 | `respecify` | plausible family under wrong framing scaffold | same family with revised framing scaffold or route specification | replaced framing commitments and invariants that stay fixed |
 | `retire` | cue pack, route-bearing publication, or branch | retired / withdrawn state with successor or no-successor note | why continuation stopped and what now carries authority |
 
 #### A.16:13.2 - Invariance reminder
-An admissible move may change articulation, closure, representation, route, authority, or publication form, but it shall not silently rewrite governing pattern boundaries. A move is not permission to retype a cue into any convenient governing pattern.
+An admissible move may change articulation, closure, representation, route, authority, or publication form, but it shall not silently rewrite governing pattern boundaries. A move does not justify retyping a cue into any convenient governing pattern.
 
 ### A.16:14 - Worked Move Notes
 
@@ -289,7 +293,7 @@ The pattern is not just about movement; it is about admissible movement under ex
 #### A.16:18.1 - Multi-route state versus lineage fork
 A **multi-route state** means one governed member still keeps several downstream directions live inside one publication such as `RoutedCueSet`.
 
-A **lineage fork** means separate successor members have already been published, each with distinct authority, losses, and future handoff semantics.
+A **lineage fork** means separate successor members have already been published, each with distinct authority, losses, and future responsibility-transfer semantics.
 
 The first is plurality inside one member. The second is explicit branching of lineage. Reviewers shall not treat them as the same lineage relation.
 
@@ -298,7 +302,7 @@ A governed publication after route work is usually in one of four states:
 
 - **open plurality** - several downstream directions remain live;
 - **selected-route-before-endpoint-publication** - one route is preferred, but the `U.EpistemePublication` is still an early or seam publication form;
-- **endpoint-pattern-publication-issued** - a named endpoint pattern now governs the relevant `U.EpistemePublication` form and responsibility handoff;
+- **endpoint-pattern-publication-issued** - a named endpoint pattern now governs the relevant `U.EpistemePublication` form and responsibility transfer;
 - **retired / withdrawn** - the publication or branch is no longer current and survives only as historical continuity.
 
 Confusing these states is one of the main causes of premature endpoint language.
@@ -324,11 +328,11 @@ The authority effect should be named as carefully as the move kind itself.
 `A.16` never authorizes a silent governing pattern replacement. If a route crosses into `A.6.P`, `B.5.2`, `A.15`, `C.25`, or another endpoint governing pattern, that governing pattern and the pattern-governed publication form must be named explicitly. `A.16` coordinates the crossing; it does not absorb the destination governing pattern's semantics.
 
 #### A.16:18.6 - `EndpointAdmissionProfile` extraction note
-The corridor can reuse an `EndpointAdmissionProfile` as a declarative pattern-derived profile for admissible handoff from language-state publications to governing patterns.
+The corridor can reuse an `EndpointAdmissionProfile` as a declarative pattern-derived profile for admissible responsibility transfer from language-state publications to governing patterns.
 
 That profile is stated over already pattern-governed conditions: declared language-state positions in `C.2.2a`, facet readings in `C.2.LS` and `C.2.4`-`C.2.7`, explicit route state in `B.4.1`, prompt-readiness in `B.5.2.0`, and witness or grounding conditions that are already visible in the publication chain.
 
-`EndpointAdmissionProfile` decides whether handoff is admissible; it does not govern the downstream publication form itself. A relation-like skeleton may therefore be admitted toward `A.6.P`; an explicit open question with rival-set may be admitted toward `B.5.2.0`; evaluative or `A.6.A`-inviting publication content may be admitted toward `C.16.Q` or `A.6.A`; executable docking may be admitted toward `A.15`.
+`EndpointAdmissionProfile` decides whether responsibility transfer is admissible; it does not govern the downstream publication form itself. A relation-like skeleton may therefore be admitted toward `A.6.P`; an explicit open question with rival-set may be admitted toward `B.5.2.0`; evaluative or `A.6.A`-inviting publication content may be admitted toward `C.16.Q` or `A.6.A`; executable docking may be admitted toward `A.15`.
 
 No admission result makes a governing pattern optional. Tone, style, or mere apparent explicitness is never sufficient by itself; the relevant governing pattern conditions still have to be named and met.
 
@@ -338,7 +342,7 @@ No admission result makes a governing pattern optional. Tone, style, or mere app
 A low-articulation cue is observed and quickly described as if it were already a requirement. Under `A.16`, this is rejected because the move history is missing: the publication should first be noticed, stabilized, and route-published. The recovery is not to defend the over-committing label, but to reopen and publish the earlier route-bearing form.
 
 #### A.16:19.2 - Silent route drift
-A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit handoff to a governing pattern.
+A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit responsibility transfer to a governing pattern.
 
 #### A.16:19.3 - admissible retreat after over-formalization
 A note is formalized too early into a relation-like shape, but later review shows the anchors are still unstable. The correct continuation is not to leave the relation form in place and quietly reinterpret it. The correct continuation is `reopen -> sketchBackoff`, preserving what still holds and lowering the authority of what no longer does.
@@ -369,10 +373,10 @@ When the history must be published as a path publication in a graph sense, reuse
 Move histories may be compared across contexts only if the compared moves are typed by publication form, governing pattern, and authority effect. Comparing one context's `route -> projection` chain to another context's `cue -> requirement` leap as though they were the same "formalization speed" is a category mistake.
 
 #### A.16:21.2 - No maturity-climb compression
-A multi-move path shall not be redescribed as one generic climb in maturity, rigor, or readiness. The admissible comparison is over move kinds, facet shifts, route states, governing pattern crossings, and authority effects.
+A multi-move chain shall not be redescribed as one generic climb in maturity, rigor, or readiness. The admissible comparison is over move kinds, facet shifts, route states, governing pattern crossings, and authority effects.
 
-#### A.16:21.3 - Boundary test for silent path laundering
-If a endpoint claim depends on prior move publications that are not visible anywhere in the publication chain, reviewers should assume silent path laundering until the missing move records are supplied. `A.16` exists precisely to prevent such invisible transitions.
+#### A.16:21.3 - Boundary test for hidden-lineage laundering
+If an endpoint claim depends on prior move publications that are not visible anywhere in the publication chain, reviewers should assume hidden-lineage laundering until the missing move records are supplied. `A.16` exists precisely to prevent such invisible transitions.
 
 ### A.16:22 - Review Matrix for Integration Integrity
 

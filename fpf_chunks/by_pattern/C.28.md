@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
-line_start: 51760
-line_end: 52626
+line_start: 52053
+line_end: 52919
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 **Intent.** Govern live causal questions and decision-bearing causal use: improvement, intervention effect, causal fairness, counterfactual comparison, causal policy optimality, realized counterfactual-rung evidence, identified counterfactual estimate, or simulation-only counterfactual output.
 
-**Primary EntityOfConcern.** A causal-use question or claim together with the causal-use basis and follow-on records needed to use it admissibly: causality-ladder rung, estimand or contrast, evidence basis, identification status, counterfactual sampling realizability status, supported use, unsupported use, and next move.
+**Primary EntityOfConcern.** A causal-use question or claim together with the causal-use basis and follow-on records needed to use it admissibly: causality-ladder rung, estimand or contrast, evidence basis, identification status, counterfactual sampling realizability status, supported use, unsupported use, and next supported use.
 
 **Not a physical ontology.** `C.28` governs how FPF authors, reviewers, and operators use causal models, evidence, and counterfactual reasoning in records, policy claims, fairness claims, method comparisons, and work plans. It does not define physical causality in general and does not replace local domain science.
 
@@ -104,7 +104,7 @@ The practical error is laundering: the reader sees causal language but cannot re
 
 `C.28` gives FPF one cheap first stop for causal use.
 
-The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal support-basis triage value supports it, and what the next move is.
+The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal support-basis triage value supports it, and what the next supported use is.
 
 Durable cards and profiles appear only when the claim needs them. The pattern buys explicit causal discipline without turning every causal word into a paperwork exercise.
 
@@ -113,10 +113,10 @@ Durable cards and profiles appear only when the claim needs them. The pattern bu
 `C.28` in 60 seconds is the operational entry into `CausalUseTriageRecord`:
 
 1. Detect whether the claim reaches `CausalUseActivation`: it changes what publication, choice, deployment, assurance, audit, benchmark, or support treatment is admissible.
-2. Stop with `nextMove.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
+2. Stop with `nextCausalUseAction.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
 3. If causal use is live, fill `targetCausalityLadderRung`, `comparatorOrCounterfactualRef`, and `causalSupportBasisTriageValue`.
 4. Fill `supportedUse: CausalUseSupportStatement` and `unsupportedUse: CausalUseUnsupportedStatement` as one action pair.
-5. Fill `nextMove: CausalUseNextMove`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
+5. Fill `nextCausalUseAction: CausalUseNextAction`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
 
 #### C.28:0.4 - First Output
 
@@ -130,11 +130,11 @@ CausalUseTriageRecord:
   causalSupportBasisTriageValue: CausalSupportBasisTriageValue
   supportedUse?: CausalUseSupportStatement
   unsupportedUse?: CausalUseUnsupportedStatement
-  nextMove: CausalUseNextMove
+  nextCausalUseAction: CausalUseNextAction
 ```
 
 ```text
-CausalUseNextMove:
+CausalUseNextAction:
   cheapStop:
     stopNoCausalUse |
     publishAssociationOnly |
@@ -193,7 +193,7 @@ FPF already has dedicated neighboring patterns for measurement, evidence, assura
 - a quantum-like residual handled by `C.26`;
 - or a causal-use claim governed here.
 
-The first pattern task is therefore not to classify wording for its own sake. It is to recover the live causal question, the target causality-ladder rung, the support basis currently available, and the cheapest truthful next move. Sometimes that move is to downgrade the claim to association, temporal change, metric-only fairness, or simulation-only use. Sometimes it is to open identification, realizability, evidence-design, fairness, policy-evaluation, or benchmark-parity work. `C.28` exists to keep those moves distinct and to stop teams from acting as if an identification, realizability, or intervention-support basis had already been earned.
+The first pattern task is therefore not to classify wording for its own sake. It is to recover the live causal question, the target causality-ladder rung, the support basis currently available, and the cheapest truthful next use. Sometimes that move is to downgrade the claim to association, temporal change, metric-only fairness, or simulation-only use. Sometimes it is to open identification, realizability, evidence-design, fairness, policy-evaluation, or benchmark-parity work. `C.28` exists to keep those moves distinct and to stop teams from acting as if an identification, realizability, or intervention-support basis had already been earned.
 
 ### C.28:2 - Problem
 
@@ -230,9 +230,9 @@ The default move is cheap. The heavy move is triggered.
 
 | Record or profile kind | Ordinary size | Trigger |
 | --- | --- | --- |
-| `CausalUseTriageRecord` | one short record; usually `5-8` lines covering activation, rung, comparator or counterfactual, causal support-basis triage value, supported use and unsupported use pair, and next move | any live causal wording or suspected causal laundering |
-| `LocalCausalUseQuestionCard` | one small card; usually one causal-use question, one rung, optional comparator or estimand, one support basis, one supported use and unsupported use pair, and one next move | the team needs a reusable local record but not a publication, release, fairness, benchmark, or assurance object |
-| `DurableCausalUseQuestionCard` | one durable card with causal-use kind, estimand, timing and outcome when needed, assumptions, rival causes, support basis, supported use and unsupported use pair, next move, and stop-or-reopen condition | the claim is decision-bearing, publication-bearing, fairness-bearing, benchmark-bearing, assurance-bearing, or reusable |
+| `CausalUseTriageRecord` | one short record; usually `5-8` lines covering activation, rung, comparator or counterfactual, causal support-basis triage value, supported use and unsupported use pair, and next supported use | any live causal wording or suspected causal laundering |
+| `LocalCausalUseQuestionCard` | one small card; usually one causal-use question, one rung, optional comparator or estimand, one support basis, one supported use and unsupported use pair, and one next supported use | the team needs a reusable local record but not a publication, release, fairness, benchmark, or assurance object |
+| `DurableCausalUseQuestionCard` | one durable card with causal-use kind, estimand, timing and outcome when needed, assumptions, rival causes, support basis, supported use and unsupported use pair, next supported use, and stop-or-reopen condition | the claim is decision-bearing, publication-bearing, fairness-bearing, benchmark-bearing, assurance-bearing, or reusable |
 | heavy profile or specialized record | only the fields needed for the named triggered question or work item; absent fields remain absent rather than becoming implied dossier requirements | identification, realizability, target-trial emulation, parameter estimation, transportability, off-policy evaluation, causal representation, evidence design, fairness audit, or causal parity is materially needed |
 
 #### C.28:4.0 - Causal-use governance and consumer carry-through boundary
@@ -327,7 +327,7 @@ LocalCausalUseQuestionCard:
   causalEvidenceSupportBasis: CausalEvidenceSupportBasis
   supportedUse: CausalUseSupportStatement
   unsupportedUse: CausalUseUnsupportedStatement
-  nextMove: CausalUseNextMove
+  nextCausalUseAction: CausalUseNextAction
 ```
 
 Use a durable card when the claim is decision-bearing, publication-bearing, fairness-bearing, benchmark-bearing, assurance-bearing, or reusable:
@@ -358,7 +358,7 @@ DurableCausalUseQuestionCard:
   rivalCauseStressTestRef?
   supportedUse: CausalUseSupportStatement
   unsupportedUse: CausalUseUnsupportedStatement
-  nextMove: CausalUseNextMove
+  nextCausalUseAction: CausalUseNextAction
   stopOrReopenCondition
 ```
 
@@ -752,8 +752,8 @@ The causal-use payoff check keeps a causal-use record only when it changes the a
 | --- | --- |
 | Did the record change the next action? | Remove fields until only the action-changing line remains. |
 | Did it block a concrete causal overclaim by naming the causal use governed by `C.28` as unsupported? | Use association, trend, simulation-only, or metric-only wording and stop. |
-| Did it support one concrete decision, evidence-work, fairness, assurance, benchmark-parity, or deployment move by changing `supportedUse` or `unsupportedUse`? | Keep the neighboring pattern and do not open a durable causal-use object. |
-| Was there a cheaper `nextMove.cheapStop` that preserved the same admissible use boundary? | Use the cheaper stop. |
+| Did it support one concrete decision, evidence-work, fairness, assurance, benchmark-parity, or deployment action by changing `supportedUse` or `unsupportedUse`? | Keep the neighboring pattern and do not open a durable causal-use object. |
+| Was there a cheaper `nextCausalUseAction.cheapStop` that preserved the same admissible use boundary? | Use the cheaper stop. |
 | Is the problem only the word "causal" or "counterfactual", rather than an admissible causal use? | Repair wording locally or apply the neighboring language or authoring pattern. |
 
 #### C.28:4.15 - PublicationUnit Stability Relation
@@ -779,7 +779,7 @@ When the live problem is only local wording pressure inside one `PublicationUnit
 
 **Tell.** A causal-use claim is a promise about what a reader may do with a result. The claim is safe only when the rung, contrast, support basis, and allowed use are named.
 
-**Show (System).** A product team observes that users who received an intervention had better outcomes. `C.28` first records an observational association unless the team can name an interventional-action design, target trial protocol, identification profile, or evidence design that supports intervention-effect use. If the team only has observational association, the next move is to publish association or build evidence, not to claim causal improvement.
+**Show (System).** A product team observes that users who received an intervention had better outcomes. `C.28` first records an observational association unless the team can name an interventional-action design, target trial protocol, identification profile, or evidence design that supports intervention-effect use. If the team only has observational association, the next supported use is to publish association or build evidence, not to claim causal improvement.
 
 **Show (Episteme).** A fairness report says one model is fair because a metric improved after a policy change. `C.28` asks whether the fairness claim is associative, interventional, or counterfactual. If it is interventional-action-rung only, it cannot be published as counterfactual fairness without identification or realizability support.
 

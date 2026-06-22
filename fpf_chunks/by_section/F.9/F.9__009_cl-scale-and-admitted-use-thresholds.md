@@ -6,12 +6,12 @@ section_id: "F.9:7"
 section_title: "CL scale and admitted-use thresholds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__009_cl-scale-and-admitted-use-thresholds.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:7 — CL scale and admitted-use thresholds"
-line_start: 77709
-line_end: 77726
+line_start: 78470
+line_end: 78487
 dependencies:
   - "A.15.1"
   - "A.2"

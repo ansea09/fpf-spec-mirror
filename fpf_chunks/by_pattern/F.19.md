@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 81358
-line_end: 81592
+line_start: 82119
+line_end: 82353
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -81,7 +81,7 @@ Mature technical languages accumulate enough ontology that many bad sentences ar
 
 The repair question is:
 
-> What content remains when words that add no object, kind, relation, claim, role, flow, evidence value, or user move are removed?
+> What content remains when words that add no object, kind, relation, claim, role, flow, evidence value, or user-facing action are removed?
 
 Examples inside FPF:
 
@@ -89,7 +89,7 @@ Examples inside FPF:
 - "pattern text" when the text means "the pattern" or "the pattern of concern";
 - "governing relation" when the named object is a pattern, not a relation;
 - long "not X, not Y, not Z" paragraphs when the text needs a positive object, action, and one stop condition;
-- corpus-projection proof written inside a pattern whose own user move is not corpus projection.
+- corpus-projection proof written inside a pattern whose own user-facing action is not corpus projection.
 
 The same defect appears outside pattern prose. A system note may hide an evaluation claim inside process language; a project note may treat a dashboard as evidence authority when it is a publication form; an architecture memo may replace a scale-preference claim over alternatives with a platform label.
 
@@ -138,7 +138,7 @@ Use the full result form when the repair must be inspectable; otherwise a local 
 |---|---|
 | `TextSpanRef` | Bounded span under repair. |
 | `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, negative-catalogue, reference, or quality-proof apparatus candidates. |
-| `ContentCandidateSet` | Phrase parts that may carry object, kind, claim, relation, current ontic slot, relation position, use relation, actual role value when current, flow position, evidence-use value, or user move. |
+| `ContentCandidateSet` | Phrase parts that may carry object, kind, claim, relation, current ontic slot, relation position, use relation, actual role value when current, flow position, evidence-use value, or user-facing action. |
 | `ObjectOfConcern` | Object the span is about. |
 | `KindAndClaimMap` | Head kind, claim kind, relation kind, current ontic slot, relation position, use relation, publication relation when it changes admissible use, scope, and governing pattern when another pattern governs a specific outside claim. |
 | `ConcernAndFlowPosition` | Concerned actor or reader role only when a role is current; design, run, or coupled-flow position when it changes meaning. |
@@ -215,7 +215,7 @@ Pattern prose moves out:
 |---|---|---|
 | Lexical paint | One umbrella word is replaced by another while the object kind stays hidden. | Recover the object kind and rewrite in the object's technical name. |
 | Plain-language drift | Smooth prose drops the kind named by value or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
-| Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to the review record, quality result, projection record, release document, or other governing evidence document and keep only the resulting user move or boundary. |
+| Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to the review record, quality result, projection record, release document, or other governing evidence document and keep only the resulting user-facing action or boundary. |
 | Role label as ontology | A role label replaces the object kind. | Name the object kind; state the role relation only when it changes the claim. |
 | Slot label as ontology | A slot, field, relation-position, or use-relation label replaces the object kind, or the same object in several slots or relation positions is treated as several kinds. | Preserve object kind, current ontic slot, relation position, and use relation separately and apply the governing pattern for the content-bearing relation, signature, lens, role, method, or work claim. |
 | Apparatus-looking data structure | A record, card, table, schema, dashboard, or data-structure word is kept because it sounds precise, but it does not carry the EntityOfConcern, slot relation, publication relation, admissible use, or governing pattern. | Treat it as apparatus and remove it, or use `E.24.CD`, `E.24.PUB`, or the direct governing pattern if it really carries a candidate ontic, publication boundary, or subject-pattern relation. |

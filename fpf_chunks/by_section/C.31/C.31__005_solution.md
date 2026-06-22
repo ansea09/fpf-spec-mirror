@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 57290
-line_end: 57486
+line_start: 57594
+line_end: 57790
 dependencies:
 keywords:
 ---
@@ -80,7 +80,7 @@ Every C.31 head is classified before use:
 
 | Class | Use | Boundary |
 | --- | --- | --- |
-| `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair move. | It is not automatically a score or decision selector. |
+| `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair action. | It is not automatically a score or decision selector. |
 | `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
 | `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are being made. |
@@ -108,7 +108,7 @@ MeasurementHeadMapping:
   evidenceClaimAbsentBecause?:
   commonFalseUse:
   nonAdmissibleUse:
-  repairMove:
+  repairAction:
   governingPatternRef:
 ```
 
@@ -135,15 +135,15 @@ ModularityCharacteristicCard:
   proxyRisk:
   auditQuestion:
   nonAdmissibleUse:
-  repairMove:
+  repairAction:
   relatedClaimGovernanceRefs:
 ```
 
-Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair move. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair action. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
 
-#### C.31:4.5 - Seed characteristic heads and repair moves
+#### C.31:4.5 - Seed characteristic heads and repair actions
 
-These heads are seeds, not an exhaustive taxonomy. Use only the heads that change the next move.
+These heads are seeds, not an exhaustive taxonomy. Use only the heads that change the next action.
 
 | Characteristic head | Intended characteristic interpretation | Typical scale or value form | Declared measurement or comparison basis | Defect signal | Repair direction | Escalation trigger |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__003_problem-frame.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:1 — Problem frame"
-line_start: 55423
-line_end: 55432
+line_start: 55727
+line_end: 55736
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 Architecture and engineering sources use compact labels because they work in local practice. Neural-network architecture prose says `block`, `expert`, `cache`, or `router`. Control architecture says `layer`. Organizations say `level` or `tier`. Documentation says `section`, `stack`, or `view`. Mathematical and scale prose says `level`, `resolution`, or `coarse-graining step`.
 
-Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible move is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
+Those labels are useful recognition cues, but FPF cannot rely on them as kinds. A label is not enough to know whether the next admissible use is module-relation repair, structure selection, functional-structure record, control-structure view, scale-window naming, source-publication return, or non-source-label claim assignment named by value.
 
 The repair question is:
 

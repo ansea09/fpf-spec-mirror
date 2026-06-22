@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 38730
-line_end: 38911
+line_start: 39017
+line_end: 39198
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -95,7 +95,7 @@ The anchors are a starter set; a Context may refine them locally, but it shall k
 Raising `AE` requires additional explicit anchors, slots, or normal-form structure. Lowering `AE` is admissible under `A.16.2` when a prior articulation proves over-committed or misleading.
 
 ### C.2.4:5 - Archetypal Grounding
-**Tell.** "Something is off" may be a real cue even before role bearer, intended work move, reliance move, or evaluator are explicit.
+**Tell.** "Something is off" may be a real cue even before role bearer, intended work occurrence, reliance use, or evaluator are explicit.
 
 **Show (System).** An operator alert cue grounded in a disturbance trace may be stabilized as a candidate intervention cue before a full work relation or reliance relation specification exists.
 

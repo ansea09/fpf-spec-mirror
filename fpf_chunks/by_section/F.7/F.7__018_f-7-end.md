@@ -6,12 +6,12 @@ section_id: "F.7:End"
 section_title: "F.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__018_f-7-end.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:End — F.7:End"
-line_start: 77188
-line_end: 77189
+line_start: 77949
+line_end: 77950
 dependencies:
   - "A.6.9"
   - "E.10.D1"

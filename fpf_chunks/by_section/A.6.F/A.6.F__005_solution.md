@@ -6,12 +6,12 @@ section_id: "A.6.F:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:4 — Solution"
-line_start: 15210
-line_end: 15438
+line_start: 15215
+line_end: 15443
 dependencies:
   - "A.10"
   - "A.15"
@@ -156,7 +156,7 @@ FunctionUseRepair ::= {
   blockedLocalOverreadRefs,
   admissibleUse,
   nonAdmissibleUse,
-  nextAdmissibleMove,
+  nextAdmissibleUse,
   stopCondition
 }
 ```
@@ -276,7 +276,7 @@ recoveredViewRecordRefs: FunctionalStructureView@Context when selected functiona
 recoveredFpFReferenceRefs: ArchitectureOf@Context with structureKindRef = FunctionalStructure
 directGoverningPatternApplicationRefs: C.30; C.30.ASV
 blockedLocalOverreadRefs: user journey publication, work log, selected transformation-flow structure, mathematical graph description, module diagram
-nextAdmissibleMove: open C.30.ASV only if the selected functional structure changes action
+nextAdmissibleUse: open C.30.ASV only if the selected functional structure changes action
 stopCondition: ordinary phrase remains Plain if no architecture claim is being made
 ```
 **Functionality as quality.** A product note says, "new functionality improves adequacy." The repair separates added capability or effect from quality claim. Capability or effect wording may stay as recognition, but adequacy claim goes to `C.25`, `C.16`, C.16.Q, or an admitted characteristic or measurement governing pattern when the claim is being made. A.6.F stops after value-kind, relation-record, slot-reference, view-record, or governing-pattern recovery when no quality claim remains.

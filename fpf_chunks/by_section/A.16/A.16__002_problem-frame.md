@@ -6,13 +6,14 @@ section_id: "A.16:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__002_problem-frame.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:1 — Problem frame"
-line_start: 22732
-line_end: 22736
+line_start: 23009
+line_end: 23013
 dependencies:
+  - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
   - "A.16.1"
@@ -30,20 +31,21 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.18"
 keywords:
-  - "admissible move"
-  - "handoff"
+  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
+  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
 
 ### A.16:1 - Problem frame
-Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or hand off across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
+Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or transfer responsibility across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
 
-A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while still remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or handoff history become governance-relevant.
+A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while still remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or responsibility-transfer history become governance-relevant.
 

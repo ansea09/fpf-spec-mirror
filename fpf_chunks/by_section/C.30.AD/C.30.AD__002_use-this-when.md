@@ -6,16 +6,17 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 54575
-line_end: 54624
+line_start: 54874
+line_end: 54923
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -39,6 +40,8 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -70,11 +73,11 @@ Use `C.30.AD` when the practitioner needs to know:
 - which correspondences, source returns, freshness boundaries, or specification-use boundaries make the description usable;
 - what the description can guide and which uses are non-admissible.
 
-**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, or architecture model starts acting as architecture, proof, gate, assurance, decision, work authority, or release permission by presentation alone.
+**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, or architecture model starts acting as architecture, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
 
 **What this buys.** The practitioner can keep one architecture description inspectable across views, viewpoints, selected structures, correspondences, publications, source returns, and direct governing-pattern applications.
 
-**First useful move.** Write one `ArchitectureDescriptionUseCard@Project`:
+**First useful description-use output.** Write one `ArchitectureDescriptionUseCard@Project`:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
@@ -96,7 +99,7 @@ ArchitectureDescriptionUseCard@Project:
 
 `@Project` guard: in this card name, `@Project` marks a project-side use card for first-pass triage or specification-use control. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
 
-The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture move or direct governing-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
+The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
 
 **Not this pattern when.**
 
@@ -106,5 +109,5 @@ The use card is a controlled first-pass slice. It can close ordinary use only wh
 - If the current use is built-asset architecture-description, BIM, IFC, asset-information, digital-twin, or reference-designation specialization, use `C.30.AD.BA`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
 - If the current use is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
-- If the description is being used as evidence, assurance, gate passage, decision, work authority, causal-use claim, release permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the direct pattern governing that claim to the claim being made.
+- If the description is being used as pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, decision, work authorization, causal-use claim, release authorization, deontic permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the direct pattern governing that claim to the claim being made.
 

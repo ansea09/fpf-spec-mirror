@@ -6,18 +6,19 @@ section_id: "A.15.1:2"
 section_title: "Problem (what breaks without a clean notion of Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-clean-notion-of-work.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:2 — Problem (what breaks without a clean notion of Work)"
-line_start: 21348
-line_end: 21355
+line_start: 21359
+line_end: 21366
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.4"
+  - "A.15.5"
   - "A.2"
   - "A.2.1"
   - "A.2.2"

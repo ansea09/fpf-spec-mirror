@@ -6,12 +6,12 @@ section_id: "E.18.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__007_bias-annotation.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:6 — Bias-Annotation"
-line_start: 71137
-line_end: 71146
+line_start: 71898
+line_end: 71907
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
@@ -28,6 +29,7 @@ dependencies:
   - "C.22.2"
   - "C.29"
   - "E.10"
+  - "E.11.PUR"
   - "E.17"
   - "E.18"
   - "E.19"
@@ -50,9 +52,9 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did**. Scope: **accepted problem-side output moving toward FPF applications**.
 
-- **Governance bias (Gov):** permission, gate, release, assurance, and decision cues are preserved only as local cues until the relevant FPF relation is recovered.
-- **Architectural bias (Arch):** diagrams, selected structures, and module-interface language help classify the next move; they do not displace the P2W carry-through relation.
+- **Governance bias (Gov):** authorization, gate, release, assurance, and decision cues are preserved only as local cues until the relevant FPF relation is recovered.
+- **Architectural bias (Arch):** diagrams, selected structures, and module-interface language help classify the next P2W application; they do not displace the P2W carry-through relation.
 - **Ontological and epistemic bias:** `U.Signature(profile=FormalSubstrate)`, near-sameness, source publication, and evidence-looking language are turned into recovered FPF kinds and relations.
 - **Pragmatic bias (Prag):** the carry-through structure is useful for action without becoming a required project procedure.
-- **Didactic bias (Did):** the positive carry-through structure and filled record come before the boundary table, so precision does not bury the working move.
+- **Didactic bias (Did):** the positive carry-through structure and filled record come before the boundary table, so precision does not bury the working P2W application.
 

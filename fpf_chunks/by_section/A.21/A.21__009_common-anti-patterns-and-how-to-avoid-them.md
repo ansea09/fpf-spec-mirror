@@ -6,12 +6,12 @@ section_id: "A.21:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29883
-line_end: 29891
+line_start: 30164
+line_end: 30172
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -43,10 +43,10 @@ keywords:
 
 ### A.21:7.1 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Correct move |
+| Anti-pattern | Why it fails | Correct use |
 |---|---|---|
 | Guard as GateCheck | A guard, status cue, or publication label is treated as a profile-bound gate check. | Declare the `GateCheckRef`, check criteria, fold policy, and governing neighboring truth condition. |
 | Explanation as decision | A readable narrative is treated as the `GateDecision` or `DecisionLog`. | Keep `GateDecision`, `GateDecisionRationale`, optional explanation, and decision record distinct. |
-| Gate pass as performed work | `GateDecision=pass` is read as work occurrence, release action, or work authorization. | Use A.21 only for the gate-decision relation and use A.15 or the release-governing pattern for work or authorization claims. |
+| Gate pass as performed work | `GateDecision=pass` is read as work occurrence, release action, work-entry readiness, or work authorization. | Use A.21 only for the gate-decision relation; use A.15.5 for work-entry readiness and A.15 or the release-governing pattern for work or authorization claims. |
 | Profile drift by publication mode | `PublishMode=Lite` is read as a weaker `GateProfile`. | Keep publication-face reduction in E.17 and keep `GateProfile` fold policy explicit in A.21. |
 

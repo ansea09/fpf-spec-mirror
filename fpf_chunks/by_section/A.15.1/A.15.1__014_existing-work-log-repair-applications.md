@@ -3,21 +3,22 @@ chunk_kind: "child"
 pattern_id: "A.15.1"
 pattern_title: "U.Work"
 section_id: "A.15.1:12"
-section_title: "Existing work-log repair moves"
+section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
-output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-moves.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.1 — U.Work"
-  - "A.15.1:12 — Existing work-log repair moves"
-line_start: 21685
-line_end: 21694
+  - "A.15.1:12 — Existing work-log repair applications"
+line_start: 21698
+line_end: 21707
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.4"
+  - "A.15.5"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
@@ -47,7 +48,7 @@ keywords:
   - "run"
 ---
 
-### A.15.1:12 - Existing work-log repair moves
+### A.15.1:12 - Existing work-log repair applications
 
 1. **Backfill links.** For existing logs, create work-occurrence records and attach `enactsMethod`, `methodDescriptionRef` when current, and `performedBy`.
 2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts accept.

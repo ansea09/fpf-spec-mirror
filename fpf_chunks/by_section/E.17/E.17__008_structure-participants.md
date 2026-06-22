@@ -6,12 +6,12 @@ section_id: "E.17:7"
 section_title: "Structure & participants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__008_structure-participants.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:7 — Structure & participants"
-line_start: 67854
-line_end: 67870
+line_start: 68614
+line_end: 68630
 dependencies:
   - "A.6.2"
   - "A.6.3"

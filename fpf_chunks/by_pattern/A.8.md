@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.8.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.8 — Universal Core Principle"
-line_start: 19353
-line_end: 19492
+line_start: 19358
+line_end: 19497
 dependencies:
   - "A.11"
   - "C.3"
@@ -138,7 +138,7 @@ A.8 intentionally biases against kernel growth by name familiarity. This is usef
 
 ### A.8:4.1 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Correct move |
+| Anti-pattern | Why it fails | Correct action |
 |---|---|---|
 | Same-word admission | A term is admitted because many domains use the same word. | Require three domain-family projection records that show the same abstract contribution. |
 | Prestige admission | A famous source or standard is treated as universal-core evidence by itself. | Record the candidate's role in multiple domain families and state difference/loss. |

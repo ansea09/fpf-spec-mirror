@@ -6,15 +6,16 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:24 — Consequences"
-line_start: 46963
-line_end: 46981
+line_start: 47254
+line_end: 47272
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.19"
   - "A.21"
   - "A.6.3"
@@ -36,6 +37,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
+  - "E.10.MOVE"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -68,7 +70,7 @@ keywords:
 
 - FPF gains a clear problem-side output for problematization as the input P2W can use.
 - P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
-- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without a declared indicator-use relation; problem-formulation next-move reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation next-move reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
+- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive role of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.

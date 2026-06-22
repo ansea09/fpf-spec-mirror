@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:3 — Forces"
-line_start: 68556
-line_end: 68570
+line_start: 69316
+line_end: 69330
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -49,7 +49,7 @@ keywords:
 | **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |
 | **Bridge restraint** | Interpretation does not become a second bridge taxonomy. |
 | **Explanation restraint** | Interpretation does not become a shadow face-use discipline system next to `E.17.EFP`. |
-| **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next move. |
+| **Abductive restraint** | Interpretation stops before an abductive-prompt or action-selection claim governs the next action. |
 | **Ontology restraint** | Interpretation does not hide same-referent pressure, retargeted-EntityOfConcernRef pressure, or changed `EntityOfConcernRef`. |
 | **Interpretant-side boundedness** | Reader-fit can matter, but it remains explicit and bounded rather than silently rewriting authority. |
 

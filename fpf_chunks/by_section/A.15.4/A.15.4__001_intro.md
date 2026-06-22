@@ -6,16 +6,17 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:intro — Intro"
-line_start: 22357
-line_end: 22396
+line_start: 22414
+line_end: 22453
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.5"
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
@@ -32,7 +33,6 @@ dependencies:
   - "U.Work"
 keywords:
   - "P2W load and position"
-  - "admissible next project move"
   - "approval-looking display"
   - "blocked overread"
   - "copied statement"
@@ -40,6 +40,7 @@ keywords:
   - "dashboard display"
   - "generated explanation"
   - "provenance mark"
+  - "relation-governed current use"
   - "required project-side FPF kind and reference"
   - "work-relevant source restoration"
 ---
@@ -62,25 +63,25 @@ SourceRestorationNote:
   WorkOrRelianceClaimUnderRepair:
   ClaimOrEffectNeeded:
   GoverningSourceNeeded:
-  RelationGovernedMoveNow:
+  CurrentRelationGovernedUse:
   BlockedOverread:
   StopOrReopenCondition:
 ```
 
-**First move in practice.** Name what the encountered source candidate may safely do now: orient the user, help find a source, allow a bounded reversible probe under `U.WorkPlan`, proceed inside a recovered relation, or block only the unsupported work or reliance claim.
+**First source-restoration use in practice.** Name what the encountered source candidate may safely do now: orient the user, help find a source, allow a bounded reversible probe under `U.WorkPlan`, proceed inside a recovered relation, or block only the unsupported work or reliance claim.
 
-**What goes wrong if missed.** A dashboard, credential view, copied approval, generated explanation, provenance mark, schema wording, API wording, publication, display, or cue starts acting as the work or reliance source relation. Work then proceeds or stops while the gate decision, evidence path, speech act, commitment, role assignment, status record, work occurrence, source episteme, or source publication that would carry the claim is missing, stale, revoked, or contradicted.
+**What goes wrong if missed.** A dashboard, credential view, copied approval, generated explanation, provenance mark, schema wording, API wording, publication, display, or cue starts acting as the work or reliance source relation. Work then proceeds or stops while the gate decision, evidence relation, speech act, commitment, role assignment, credential-status or role-state currentness record, work occurrence, source episteme, or source publication that would carry the claim is missing, stale, revoked, or contradicted.
 
-**Primary EntityOfConcern in plain terms.** One source-restoration relation for one work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair. The relation connects the encountered source candidate, the needed claim or effect, the source required for that claim, the next relation-governed move, and the blocked overread.
+**Primary EntityOfConcern in plain terms.** One source-restoration relation for one work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair. The relation connects the encountered source candidate, the needed claim or effect, the source required for that claim, the current relation-governed use, and the blocked overread.
 
 **First restoration checks.**
 1. Name the encountered source-candidate kind and publication position without treating its appearance as the source relation itself.
 2. Name the work or reliance claim under repair, work-relevant P2W claim under repair, or P2W chain position under repair.
-3. Name the claim or effect that would be carried: gate passage, release reliance, evidence relation, assurance claim, speech act, commitment, role-assignment relation, status currentness, work occurrence, source currentness, boundary claim, or another claim named by value.
+3. Name the claim or effect that would be carried: gate passage, release reliance, evidence relation, assurance claim, speech act, commitment, role-assignment relation, role-state or credential-status currentness, work occurrence, source-currentness, boundary claim, or another claim named by value.
 4. Recover the source required for that claim: the governing FPF pattern plus the reference named by value.
-5. Choose the lightest relation-governed disposition now: proceed inside the recovered relation, narrow the move, run a bounded reversible probe under `U.WorkPlan`, reopen or refresh the source, ask the accountable role assignment to expose or repair it, or block only the unsupported claim or effect.
+5. Choose the lightest relation-governed disposition now: proceed inside the recovered relation, narrow the recovered use, run a bounded reversible probe under `U.WorkPlan`, reopen or refresh the source, ask the accountable role assignment to expose or repair it, or block only the unsupported claim or effect.
 
-**Not this pattern when.** Stay in A.15 when the question under repair is only `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. Stay in A.10, B.3, A.20, A.21, A.2.8, A.2.9, A.6, or A.15.1 when evidence, currentness, engineering justification, gate-passage claim, `ConstraintValidity` status, commitment, speech act, boundary claim, or work occurrence already governs the claim or effect directly.
+**Not this pattern when.** Stay in A.15 when the question under repair is only `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation. Stay in A.15.5 when the question is full-kit condition or work-entry readiness rather than source restoration. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. Stay in A.10, B.3, A.20, A.21, A.2.8, A.2.9, A.6, or A.15.1 when evidence, currentness, engineering justification, gate-passage claim, `ConstraintValidity` status, commitment, speech act, boundary claim, or work occurrence already governs the claim or effect directly.
 
 **What this buys.** The acting engineer-manager can keep work moving without trusting appearances: use the source candidate for orientation or source-finding when that is all it can carry, proceed only inside the recovered relation when that relation exists, and turn repeated ambiguity into source-relation repair work rather than repeated manual reconstruction.
 

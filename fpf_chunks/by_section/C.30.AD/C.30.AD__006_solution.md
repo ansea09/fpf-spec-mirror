@@ -6,16 +6,17 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 54662
-line_end: 54859
+line_start: 54961
+line_end: 55160
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -39,6 +40,8 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -146,7 +149,7 @@ ArchitectureDescriptionViewMembership@Context ::= {
 }
 ```
 
-Use `C.30.ASV` when the current question is whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return. Use `A.22` when the current question is structure as such. Use `C.30` when the current question is the grounded architecture claim. Use `C.30.AD` only for the description's membership, composition, correspondence, source-return, freshness, specification-use, publication-use, or remaining-move boundary.
+Use `C.30.ASV` when the current question is whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return. Use `A.22` when the current question is structure as such. Use `C.30` when the current question is the grounded architecture claim. Use `C.30.AD` only for the description's membership, composition, correspondence, source-return, freshness, specification-use, publication-use, or remaining architecture candidate-use boundary.
 
 Common architecture-description views:
 
@@ -226,7 +229,7 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
 }
 ```
 
-If the specification use becomes evidence, assurance, gate, work, decision, causal-use, or release authority, apply the direct pattern governing that claim to that authority claim. The architecture description remains the description boundary, not the authority.
+If the specification use becomes pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, performed work, work authorization, decision claim, causal-use claim, or release authorization, apply the direct pattern governing that claim to the claim being made. The architecture description remains the description boundary, not the governing claim.
 
 Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, source-current records, or renderings unless the source episteme and use boundary are explicit.
 
@@ -235,6 +238,8 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Question after the architecture-description boundary is clear | FPF application |
 | --- | --- |
 | Grounded architecture claim, selected structures, first architecture move | `C.30` |
+| Recommended FPF pattern use after reading the description | `E.11.PUR` |
+| Work-entry readiness or full-kit condition for intended architecture work | `A.15.5` |
 | Architecture or structure wording is still overloaded | `C.30.P` |
 | Architecture structural view or structure-kind and viewpoint relation | `C.30.ASV` |
 | Transformation-flow relation or graph description used by architecture | `C.30.TFS-REL` and `E.18` |
@@ -248,11 +253,11 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or quality pattern governing the claim |
-| Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or governing pattern |
+| Evidence, assurance, gate, work planning, performed work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.28`, release or admissibility pattern, or governing pattern |
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
 
-An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, or work permission. Use `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, and the A.15 family for planning or performed work.
+An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
 
 For an architecture-description claim, record only description membership, view membership, viewpoint, correspondence, source return, freshness, publication use, and specification use. If a candidate claim changes the architecture, return to `C.30`. If it changes which variants are retained, selected, published, or refreshed, return to the pattern that owns that relation.
 

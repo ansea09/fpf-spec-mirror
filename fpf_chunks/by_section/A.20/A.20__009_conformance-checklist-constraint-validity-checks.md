@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist - Constraint-validity checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist-constraint-validity-checks.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:7 — Conformance Checklist - Constraint-validity checks"
-line_start: 29412
-line_end: 29444
+line_start: 29693
+line_end: 29725
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.20:7 - Conformance Checklist - Constraint-validity checks
 
-**Conformance use.** This checklist is evidence for the internal-step CV guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; a checklist row is applied only when its corresponding CV class, witness, publication face, or neighboring relation is present. Before applying any row, name the Solution move it tests; if no such Solution move is present, treat the row as orientation-only or not applicable rather than expanding the applied assurance or conformance material.
+**Conformance use.** This checklist is evidence for the internal-step CV guidance already stated in the Solution. It is not the first entry text for ordinary use and not a full audit regime by default; a checklist row is applied only when its corresponding CV class, witness, publication face, or neighboring relation is present. Before applying any row, name the Solution guidance it tests; if no such Solution guidance is present, treat the row as orientation-only or not applicable rather than expanding the applied assurance or conformance material.
 
 **Conformance groups.** Ordinary CV use starts with step, applicable CV class, `CV.Status`, and witness or refusal. Crossing and launch rows apply only when a CV-checked step is adjacent to a present gate, crossing, or launch boundary. Publication and assurance rows apply only when the CV result is carried on MVPK faces or consumed by replay or audit. Extension and change rows apply only when species binding, valuation, refresh, or neighboring selector and comparator loci are being changed or consumed.
 

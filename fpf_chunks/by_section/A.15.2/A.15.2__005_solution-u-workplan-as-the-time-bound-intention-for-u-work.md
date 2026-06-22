@@ -6,18 +6,19 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 21811
-line_end: 21886
+line_start: 21824
+line_end: 21899
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.15.3"
   - "A.15.4"
+  - "A.15.5"
   - "A.2.1"
   - "A.20"
   - "A.21"
@@ -54,7 +55,7 @@ A `U.WorkPlan` **contains `PlanItem` values** (think: scheduled tasks or operati
 3. **Role requirements** — required `U.Role` values, not people; optional proposed `U.RoleAssignment`s if pre-assignment is admitted in the context.
 4. **Capability thresholds** — minimal abilities required of the performer, checked for the performed-work interval.
 5. **Resource budgets and reservations** — planned energy, materials, machine windows, money, and reservations on assets.
-6. **Dependencies** — precedence, overlap permissions, required gate references, and required approval references.
+6. **Dependencies** — precedence, overlap constraints, required gate references, and required approval references.
 7. **Acceptance targets** — quality windows and SLA targets to be judged when Work completes.
 8. **Location and asset constraints** — where the run is expected to take place.
 9. **Links to Service promises** (if any) — external commitments that this plan aims to satisfy.

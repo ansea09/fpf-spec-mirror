@@ -6,13 +6,14 @@ section_id: "A.16:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__012_sota-echoing.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:11 — SoTA-Echoing"
-line_start: 22838
-line_end: 22848
+line_start: 23117
+line_end: 23127
 dependencies:
+  - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
   - "A.16.1"
@@ -30,14 +31,15 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.18"
 keywords:
-  - "admissible move"
-  - "handoff"
+  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
+  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
@@ -49,7 +51,7 @@ keywords:
 
 **Claim 2.** Best-known current provenance, path-publication, and model-evaluation practice distinguishes a local transition note from a heavier published history account.
 
-**Practice source, local alignment, and adoption decision.** Contemporary provenance and evaluation practice separates lightweight transition marking from heavier account publication when branch structure, loss notes, or handoff history become governance-relevant. This pattern **adopts** that separation, **adapts** it through the `A.16` / `A.16.0` / `E.18` split, and **rejects** both extremes: wrapping every move in a mandatory trajectory wrapper and compressing a governance-relevant move history into one vague maturity sentence.
+**Practice source, local alignment, and adoption decision.** Contemporary provenance and evaluation practice separates lightweight transition marking from heavier account publication when branch structure, loss notes, or responsibility-transfer history become governance-relevant. This pattern **adopts** that separation, **adapts** it through the `A.16` / `A.16.0` / `E.18` split, and **rejects** both extremes: wrapping every move in a mandatory trajectory wrapper and compressing a governance-relevant move history into one vague maturity sentence.
 
 **Local stance.** The load-bearing SoTA claim for this pattern is narrow: admissible language-state movement needs typed move notes, explicit authority effects, and explicit retreat/retirement options, but it does not need a mandatory formality climb or a mandatory wrapper around every move.
 

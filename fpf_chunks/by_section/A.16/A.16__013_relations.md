@@ -6,13 +6,14 @@ section_id: "A.16:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__013_relations.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:12 — Relations"
-line_start: 22849
-line_end: 22853
+line_start: 23128
+line_end: 23132
 dependencies:
+  - "A.16"
   - "A.16.0"
   - "A.16.0-A.16.2"
   - "A.16.1"
@@ -30,20 +31,21 @@ dependencies:
   - "C.2.6"
   - "C.2.7"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.18"
 keywords:
-  - "admissible move"
-  - "handoff"
+  - "admissible language-state move"
   - "language-state"
   - "move"
   - "reopen"
   - "respecify"
+  - "responsibility transfer"
   - "retire"
   - "sketch-backoff"
 ---
 
 ### A.16:12 - Relations
 - Builds on: `C.2.2a`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.18`, `A.19`.
-- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `E.18`.
+- Coordinates with: `A.16.0`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `A.6.A`, `C.16.Q`, `E.18`, and `E.10.MOVE` when move-like source wording is not a local A.16 language-state publication transition.
 - Constrains: language-state move publication and docking.
 

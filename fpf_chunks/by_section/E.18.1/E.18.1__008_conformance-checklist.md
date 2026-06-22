@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 71147
-line_end: 71162
+line_start: 71908
+line_end: 71923
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
@@ -28,6 +29,7 @@ dependencies:
   - "C.22.2"
   - "C.29"
   - "E.10"
+  - "E.11.PUR"
   - "E.17"
   - "E.18"
   - "E.19"
@@ -56,9 +58,9 @@ keywords:
 - `CC-E18.1-6` `PrincipleFrame` material keeps postulates and CHR observability distinct from units, planes, comparators, thresholds, ontology editions, CHR editions, plans, work, evidence, and gates.
 - `CC-E18.1-7` Measurement, source currentness, reference-plane, method-set, comparator, or problem-side changes return to the smallest affected application.
 - `CC-E18.1-8` Non-P2W governing law appears only as a recovered relation in `E.18.1:4.6` and as a pattern list in Relations, not as repeated local doctrine.
-- `CC-E18.1-9` Local boundary wording remains only where it names a near-miss that changes the next P2W action.
+- `CC-E18.1-9` Local boundary wording remains only where it names a near-miss that changes the next P2W application.
 - `CC-E18.1-10` The pattern leaves one useful relation-governed action: write the carry-through record, write or use the governed record, split a source phrase, stop with a reduced-use cue, or return to a changed application.
 - `CC-E18.1-11` Archetypal grounding can replay at least one coupled transformation-flow-slice pilot from `E.18.1:5.3`; the pilot joins development, application, evaluation, and repair slices in one selected `TransformationFlowStructure` while keeping their objects, slice-local relation positions, `DesignRunTag` boundaries, and evidence distinct. The self-evolving-spec pilot keeps development-slice evidence or use-found evidence outside the used pattern, specification, or process description.
 - `CC-E18.1-12` Every carried claim family can be lowered, stopped, split, or reopened through `E.18.1:4.7`; a source cue that cannot name the recovered FPF kind or relation remains a reduced-use cue.
-- `CC-E18.1-13` Every replay after changed source, measurement, problem-side material, or FPF relation law names the changed assumption kind, what is still carried, what is no longer carried, the smallest reopened application, the governing relation checked, and the next move.
+- `CC-E18.1-13` Every replay after changed source, measurement, problem-side material, or FPF relation law names the changed assumption kind, what is still carried, what is no longer carried, the smallest reopened application, the governing relation checked, and the next FPF use.
 

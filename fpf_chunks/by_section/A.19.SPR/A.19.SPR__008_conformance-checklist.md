@@ -6,12 +6,12 @@ section_id: "A.19.SPR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__008_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:6 — Conformance checklist"
-line_start: 24979
-line_end: 24993
+line_start: 25260
+line_end: 25274
 dependencies:
   - "A.10"
   - "A.16"
@@ -55,6 +55,6 @@ keywords:
 | `CC-A19SPR-6` | Source, evidence, assurance, publication, gate, work, decision, release or admission, and administrative uses SHALL be assigned to patterns governing the recovered claims or project-side records rather than hidden under state-family wording. |
 | `CC-A19SPR-7` | Semio patterns govern only language-state and source or publication cases. They SHALL NOT become the general home for evidence, assurance, gate, work, temporal, mathematical-lens, or administrative states. |
 | `CC-A19SPR-8` | Local fields named by value, such as `LensUseAdmissibilityValue` and `dynClaimPosture`, may stay only with declared governing pattern, value set, boundary, and reopen condition; specification wording SHALL recover a Description episteme admitted for specification use or refinement plus the specification-granting neighbouring pattern named by value. |
-| `CC-A19SPR-9` | The repair SHALL preserve one remaining reader move. Type-correct but inert wording is incomplete. |
+| `CC-A19SPR-9` | The repair SHALL preserve one remaining reader use. Type-correct but inert wording is incomplete. |
 | `CC-A19SPR-10` | Whole-corpus cleanup SHALL be classified. Blind global replacement of `posture`, `state`, `status`, or `readiness` is nonconforming. |
 

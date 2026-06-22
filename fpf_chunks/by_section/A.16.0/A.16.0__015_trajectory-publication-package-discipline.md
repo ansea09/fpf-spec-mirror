@@ -6,12 +6,12 @@ section_id: "A.16.0:14"
 section_title: "Trajectory publication package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__015_trajectory-publication-package-discipline.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:14 — Trajectory publication package discipline"
-line_start: 23287
-line_end: 23301
+line_start: 23568
+line_end: 23582
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -25,6 +25,7 @@ dependencies:
   - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.1"
   - "E.18"
@@ -32,10 +33,10 @@ dependencies:
   - "F.9.1"
 keywords:
   - "fork"
-  - "handoff"
   - "heavy history"
   - "lineage"
   - "merge"
+  - "responsibility transfer"
   - "supersedes"
   - "trajectory account"
 ---

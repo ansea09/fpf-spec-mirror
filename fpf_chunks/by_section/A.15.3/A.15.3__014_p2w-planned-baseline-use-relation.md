@@ -6,16 +6,17 @@ section_id: "A.15.3:12a"
 section_title: "P2W planned-baseline use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__014_p2w-planned-baseline-use-relation.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12a — P2W planned-baseline use relation"
-line_start: 22335
-line_end: 22340
+line_start: 22390
+line_end: 22397
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.5"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18.1"
   - "E.19"
   - "E.20"
+  - "E.24"
   - "G.11"
   - "G.6"
   - "U.RelationSlotDiscipline"
@@ -48,7 +50,9 @@ keywords:
 
 ### A.15.3:12a - P2W planned-baseline use relation
 
-When `E.18.1` reaches a planned-baseline question, `SlotFillingsPlanItem` records the planned relation between one slot-bearing description's SlotKinds and the fillers intended for a future work-planning move.
+When `E.18.1` reaches a planned-baseline question, `SlotFillingsPlanItem` records the planned relation between one slot-bearing description's SlotKinds and the fillers intended for a future work-planning or work-entry-readiness use.
+
+When `A.15.5` checks full-kit condition, it may cite `SlotFillingsPlanItem` for planned fillers, target description edition, required refs, and time selector. That citation does not make the planned baseline a readiness verdict; `A.15.5` states the readiness relation and any missing-input or degraded-use condition.
 
 If the same source phrase also carries launch-value, performed-work, evidence, gate, result, measurement, publication-use, source-restoration, or refresh meaning, name that separate current relation before using the PlanItem downstream.
 

@@ -6,12 +6,12 @@ section_id: "B.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__003_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:2 — Problem"
-line_start: 35162
-line_end: 35176
+line_start: 35449
+line_end: 35463
 dependencies:
   - "A.10"
   - "A.16"
@@ -34,7 +34,7 @@ keywords:
 Without an explicit abductive pattern:
 
 1. **Inquiry stalls at surprise.**
-   A team encounters an anomaly, opportunity, or probe pressure but has no admissible next move for producing a candidate hypothesis.
+   A team encounters an anomaly, opportunity, or probe pressure but has no admissible next action for producing a candidate hypothesis.
 2. **Origin is lost.**
    Once a conjecture appears, the initiating prompt, rival candidates, and early plausibility grounds disappear from the record.
 3. **Candidate space collapses too early.**

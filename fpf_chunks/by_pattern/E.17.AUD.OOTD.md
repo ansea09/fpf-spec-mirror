@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.AUD.OOTD.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
-line_start: 69876
-line_end: 70194
+line_start: 70636
+line_end: 70954
 dependencies:
   - "A.10"
   - "A.15"
@@ -92,7 +92,7 @@ It is caused by one whole publication unit no longer holding a stable answer to 
 Without a named publication-unit discipline:
 1. authors repair one vague phrase at a time but still leave the unit unstable as a whole;
 2. reviewers argue about wording while missing that the unit has already shifted from primary EntityOfConcern to process or from description to decision pressure;
-3. teams quietly read one note as if it licensed a downstream move the unit never declared;
+3. teams quietly read one note as if it licensed a downstream use the unit never declared;
 4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for publication-unit interpretation instability it was never meant to solve alone;
 5. unit-form confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is simpler and closer.
 

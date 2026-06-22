@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 68855
-line_end: 69090
+line_start: 69615
+line_end: 69850
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -227,7 +227,7 @@ Why it stays here:
 **Prompt-bearing review unit.** "This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we normally publish a U.AbductivePrompt around that shared control possibility."
 
 Why `ComparativeReviewUnit` no longer governs:
-- abductive-prompt or action-selection claim governs the next move;
+- abductive-prompt or action-selection claim governs the next action;
 - the review unit is now prompt-bearing rather than only interpretive;
 - the selected governing pattern is `B.5.2.0` or `B.5.2` through explicit `U.AbductivePrompt` publication.
 

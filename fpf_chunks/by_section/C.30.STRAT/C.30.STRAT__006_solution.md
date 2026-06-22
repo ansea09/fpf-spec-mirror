@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:4 — Solution"
-line_start: 55453
-line_end: 55585
+line_start: 55757
+line_end: 55889
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ StratificationSourceLabelRepairNote:
   governingPatternRef:
   admissibleUse:
   nonAdmissibleUse:
-  remainingReaderMove:
+  remainingReaderUse:
   disposition:
     governing-pattern-ref | local-rewrite | ordinary-source-label |
     quote-only | reduced-use-cue | blocked-use | incomplete-rewrite
@@ -83,7 +83,7 @@ StratificationSourceLabelRepairNote:
 4. **Select the ontological neighborhood.** Select the first applicable neighborhood by recovered relation, claim-use, source-use disposition, formal apparatus, or governing-pattern field set, not by the source label.
 5. **State the apparatus that makes the repair checkable.** Use relation slots, control roles and rate bands, module-interface fields, flow fields, transformation-flow fields, characteristic and scale construction, publication relation set, source-use disposition, mathematical-lens fields, evidence relation, assurance argument, gate record, work occurrence, decision record, causal-use record, or ordinary non-use disposition, with scope, time, viewpoint, and context facets only where the recovered claim or use needs them.
 6. **Project back to wording.** Produce the repaired wording, compact note, direct governing-pattern application, or non-use disposition. The replacement candidate is accepted only after it passes `E.10`.
-7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader move. If no move remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
+7. **State use and move.** State admissible use, non-admissible wider or adjacent use, and one remaining reader use. If no reader use remains, the disposition is reduced-use, quote-only, blocked use, or incomplete rewrite.
 
 #### C.30.STRAT:4.2 - Ontological-neighborhood governing-pattern applications
 
@@ -163,7 +163,7 @@ StratificationSourceLabelRepairNote:
   governingPatternRef: `A.6.M`, `A.6.F`, `E.18`, `A.19.SPR`, or `A.3.3` for cache apparatus when recovered; `C.16.P`, `C.29`, or `C.31.ASAP` for scale or lens use when recovered; `A.10`, `B.3`, or `G.6` for evidence or assurance only when that claim is being made
   admissibleUse: use the sentence to start the field split and then cite only the recovered governing pattern results
   neighboringClaimBoundary: proof, assurance, scale-success, module-substitutability, and architecture-quality claims apply the governing pattern for the recovered claim being made
-  remainingReaderMove: write the smallest governing-pattern result for the recovered scale, state, module-interface, flow, evidence, or assurance claim; otherwise keep ordinary source wording or quote-only wording
+  remainingReaderUse: write the smallest governing-pattern result for the recovered scale, state, module-interface, flow, evidence, or assurance claim; otherwise keep ordinary source wording or quote-only wording
   disposition: local-rewrite plus governing-pattern-ref application for each recovered claim being made; blocked or reduced-use cue for the rest
 ```
 
@@ -171,13 +171,13 @@ A compact local rewrite can therefore say: `The response cache is a candidate st
 
 #### C.30.STRAT:4.6 - Lowering and reopen conditions
 
-A `StratificationSourceLabelRepairNote` remains admissible only while its source span, selected `ontologicalNeighborhood`, governing pattern, and remaining reader move stay recoverable. Reopen or lower the repair when:
+A `StratificationSourceLabelRepairNote` remains admissible only while its source span, selected `ontologicalNeighborhood`, governing pattern, and remaining reader use stay recoverable. Reopen or lower the repair when:
 
 - the source label starts carrying a new relation, characteristic, publication, evidence, assurance, gate, work, decision, causal-use, or mathematical-lens claim;
 - a direct governing pattern becomes recoverable and `C.30.STRAT` no longer buys action guidance;
 - the selected neighborhood was chosen by label similarity rather than by recovered apparatus;
-- the repair preserves kind recovery but leaves no useful admissible reader move;
+- the repair preserves kind recovery but leaves no useful admissible reader use;
 - `E.10.ARCH` changes the required recovery fields, `C.30.P` changes architecture-wording repair law, `F.19` changes apparatus-vs-usability policy, or a more source-label realization pattern now governs a label family currently repaired here.
 
-Lower the result to quote-only, reduced-use cue, blocked use, or incomplete rewrite when the governing pattern, admissible use, non-admissible use, or remaining move cannot be stated.
+Lower the result to quote-only, reduced-use cue, blocked use, or incomplete rewrite when the governing pattern, admissible use, non-admissible use, or remaining reader use cannot be stated.
 

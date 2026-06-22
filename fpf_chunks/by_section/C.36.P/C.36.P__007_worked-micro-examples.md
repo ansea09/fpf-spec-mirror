@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 58679
-line_end: 58709
+line_start: 58983
+line_end: 59013
 dependencies:
   - "A.1"
   - "A.15"
@@ -67,7 +67,7 @@ CulturalEvolutionWordingRecoveryLine@Context:
   retainedSourceLabelUse: keep "platform" as source label for the mediating system and visibility infrastructure
   admissibleUse: discuss how visibility and recognition relations changed retained dance variants
   blockedUse: treat platform as a root cultural kind or style as one global kind
-  nextMove: write C.36 case card, then apply C.18 or G.11 if archive or refresh is current
+  nextUse: write C.36 case card, then apply C.18 or G.11 if archive or refresh is current
 ```
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"

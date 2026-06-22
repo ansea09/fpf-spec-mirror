@@ -6,14 +6,16 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-line_start: 64824
-line_end: 65145
+line_start: 65356
+line_end: 65682
 dependencies:
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.19"
   - "E.21"
   - "E.8"
@@ -109,6 +111,8 @@ Use this distribution.
 | Retrieval cards or other projection material | Thin finding aids that point to the governing pattern body and say what they cannot decide. | Authority, evidence, gate, decision, or final pattern interpretation. |
 
 A separate first-entry index is not maintained when it repeats the `readme` scenario set. If one first-entry row has value not carried by the FPF `readme` section, ToC, a pattern Problem frame, or an expanded case, place that value in the appropriate publication unit instead of maintaining a duplicate index body.
+
+When the live question is no longer public discoverability but "which FPF pattern use is recommended now for this concrete concern?", use `E.11.PUR`. `E.11` governs where entry and discovery material lives; `E.11.PUR` governs the project-local relation between the concern, candidate pattern uses, the recommended pattern use, and the expected first result. A `PatternUseSequence@Context` is not a universal sequence for all users; it is a bounded recommendation for one current concern.
 
 ### E.11:4.1 - readme First-Entry Scenario Rule
 
@@ -236,6 +240,8 @@ Preserve the first-entry terminology.
 | `first-entry cue` | A phrase, project question, table row, heading, retrieval card, or local recognition text that helps recover the first pattern family. |
 | `first-entry pattern-comparison set` | A small case-relative set of plausible candidate patterns and tempting wrong patterns for the current project question; it is used only when the first governing pattern choice is genuinely ambiguous and is not a standing replacement index. |
 | `expanded entry-disambiguation case` | A longer case used only when `readme`, ToC, and local Problem-frame recognition are not enough. |
+| `PatternUseRecommendation@Context` | The `E.11.PUR` relation that says which FPF pattern use is recommended now for one current concern. |
+| `PatternUseSequence@Context` | The `E.11.PUR` relation for a bounded sequence of recommended pattern uses for one concern; it is not a universal process order. |
 
 Avoid `route`, `workflow`, `lifecycle`, `entry neighborhood`, `semantic area`, `ontological neighborhood`, `map`, `owner`, `load`, `posture`, `support`, and other broad heads as entry terms unless the relevant governing pattern has recovered their specific FPF kind and admissible use.
 
@@ -340,6 +346,7 @@ After discharge, the remaining row is deleted because it only duplicates the `re
 - The FPF `readme` section carries public first practical entries.
 - `Preface` carries cross-cutting ideas and principles behind the public first practical entries.
 - `E.8` governs pattern form and pattern-local Problem-frame discipline.
+- `E.11.PUR` governs `PatternUseRecommendation@Context` and `PatternUseSequence@Context` after discoverability has become a concrete pattern-use recommendation for one current concern.
 - `E.19` checks entry, projection, and pattern-use discoverability during review and refresh.
 - `E.21` evaluates whether corpus entry and projection material preserve quality without becoming pattern content.
 - `F.17`, `F.18`, `F.19`, `E.10`, and `E.10.ARCH` govern lexical, naming, and wording precision when entry cues hide FPF kinds or relations.

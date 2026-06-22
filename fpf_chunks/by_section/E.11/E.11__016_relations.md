@@ -6,15 +6,17 @@ section_id: "E.11:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__016_relations.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:8 — Relations"
-line_start: 65133
-line_end: 65143
+line_start: 65669
+line_end: 65680
 dependencies:
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.19"
   - "E.21"
   - "E.8"
@@ -32,6 +34,7 @@ keywords:
 - The FPF `readme` section carries public first practical entries.
 - `Preface` carries cross-cutting ideas and principles behind the public first practical entries.
 - `E.8` governs pattern form and pattern-local Problem-frame discipline.
+- `E.11.PUR` governs `PatternUseRecommendation@Context` and `PatternUseSequence@Context` after discoverability has become a concrete pattern-use recommendation for one current concern.
 - `E.19` checks entry, projection, and pattern-use discoverability during review and refresh.
 - `E.21` evaluates whether corpus entry and projection material preserve quality without becoming pattern content.
 - `F.17`, `F.18`, `F.19`, `E.10`, and `E.10.ARCH` govern lexical, naming, and wording precision when entry cues hide FPF kinds or relations.

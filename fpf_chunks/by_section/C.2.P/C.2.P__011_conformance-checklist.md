@@ -6,12 +6,12 @@ section_id: "C.2.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__011_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:7 — Conformance Checklist"
-line_start: 37380
-line_end: 37402
+line_start: 37667
+line_end: 37689
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,7 @@ keywords:
 | CC-C2P-4 | Broad use-boundary, source-use, publication-face, carrier, placement, movement, procedure-like, topic-like, pre-FPF sign, or publication wording requires epistemic precision restoration when it carries ontology, authority, evidence, or use-boundary claim. Relation-support wording belongs to `A.6.P` unless the publication or source-use construction is itself unresolved. |
 | CC-C2P-5 | Unclear meaning is not rewritten by guesswork; it is classified as reduced-use cue, blocked use, or understandable FPF extension candidate. |
 | CC-C2P-6 | Any newly stable name passes `F.18`; any relation claim passes `A.6.P`; any use-boundary claim fills `declaredUseBoundary` and uses `A.6.B` when L-, A-, D-, and E-claim separation is current; any claim-bearing episteme, episteme species named by value, episteme-lane view, or project-side FPF kind and reference named by value passes `C.2.1` or the named governing FPF pattern as needed; any publication, view, or carrier claim passes `E.17.0`, `E.17`, and MVPK as needed. |
-| CC-C2P-7 | The final text remains action guidance under `E.2` `P-2` and `E.12`: it tells the author what wording action to take, what overread to block, why the distinction still matters to the working reader, and what remaining reader move or FPF pattern application remains. When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech interpretation under `E.10:6.2`. |
+| CC-C2P-7 | The final text remains action guidance under `E.2` `P-2` and `E.12`: it tells the author what wording action to take, what overread to block, why the distinction still matters to the working reader, and what remaining reader use or FPF pattern application remains. When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech interpretation under `E.10:6.2`. |
 | CC-C2P-8 | This pattern does not rename existing FPF patterns or mint reusable heads without `F.18` and `A.6.P`. |
 | CC-C2P-9 | The smallest sufficient product was used: local sentence repair, compact epistemic precision-restoration row, full check, or explicit non-use disposition. A full check is not required when a local sentence or compact row preserves the current distinction. |
 | CC-C2P-10 | The repair names a lowering or reopen condition when it is used as reusable guidance, when it changes entry or projection wording, or when the result is claimed as a stable pattern-body repair. |
@@ -70,5 +70,5 @@ Lexical trigger scanning is governed by `E.10:0.2`, `E.10:0.2a`, `E.10:0.2b`, `E
 
 `C.2.P` conformance begins only when the `E.10` result is `epistemic precision restoration required` or `combined precision restoration required`, or when non-FPF source text is being unpacked before possible FPF transfer.
 
-Do not copy the `E.10` trigger list into this pattern as a second registry. Use the `E.10` result as input and recover source-expression unpacking mode, FPF-governed use mode, current episteme-publication relation set, use disposition, and remaining reader move. When the relation-bearing slice is current, `A.6.P` remains a separate required precision-restoration pattern.
+Do not copy the `E.10` trigger list into this pattern as a second registry. Use the `E.10` result as input and recover source-expression unpacking mode, FPF-governed use mode, current episteme-publication relation set, use disposition, and remaining reader use. When the relation-bearing slice is current, `A.6.P` remains a separate required precision-restoration pattern.
 

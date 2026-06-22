@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 71174
-line_end: 71183
+line_start: 71935
+line_end: 71944
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
@@ -28,6 +29,7 @@ dependencies:
   - "C.22.2"
   - "C.29"
   - "E.10"
+  - "E.11.PUR"
   - "E.17"
   - "E.18"
   - "E.19"
@@ -50,7 +52,7 @@ keywords:
 
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
-| The carry-through record becomes the local project record. | A practitioner can replay the move from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
+| The carry-through record becomes the local project record. | A practitioner can replay the carry-through from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
 | Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
 | Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source phrase. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method material or `A.15.2` planning material outside P2W. |

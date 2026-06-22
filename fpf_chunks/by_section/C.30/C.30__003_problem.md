@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 54020
-line_end: 54043
+line_start: 54313
+line_end: 54336
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,5 +80,5 @@ How can FPF describe architecture without:
 - treating a description, view, diagram, graph, ADR, dashboard, or generated relation graph as the architecture;
 - reducing architecture to module structure or interface relation;
 - letting E.18 transformation-flow structures, LCA structures, control structures, C.29 lenses, quality language, evidence, assurance, gates, work, or decisions silently become architecture ontology;
-- making architecture descriptions so heavy that ordinary practitioners cannot get a first useful move.
+- making architecture descriptions so heavy that ordinary practitioners cannot get a first useful architecture move.
 

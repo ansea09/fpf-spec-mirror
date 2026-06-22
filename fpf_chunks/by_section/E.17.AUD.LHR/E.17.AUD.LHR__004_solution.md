@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__004_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:3 — Solution"
-line_start: 69600
-line_end: 69679
+line_start: 70360
+line_end: 70439
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 > `Local Head Restoration` repairs the overloaded local lexical head before the rest of the publication unit is allowed to inherit it.
 >
-> It restores lexical-head kind, active local reading, carried move or question under repair, and any family, governing-pattern, primary entity, and active relation that the sentence is quietly relying on.
+> It restores lexical-head kind, active local reading, carried action or question under repair, and any family, governing-pattern, primary entity, and active relation that the sentence is quietly relying on.
 
 #### E.17.AUD.LHR:3.1 - Pairwise plain glosses
 
@@ -48,9 +48,9 @@ keywords:
 - **Active local work position** = where the local work is happening here: for example review, publication, comparison, process, or authority.
 - **Active primary entity or relation** = what the local sentence or publication unit is actually about here, when such an object or relation is active.
 - **Move or question under repair** = what the sentence is doing with the active primary entity, active relation, or local lexical-head repair object, if anything.
-- **Family, governing pattern, primary entity, and active relation set** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity, active relation, carried move or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
+- **Family, governing pattern, primary entity, and active relation set** = when a broader family or governing pattern is active, name the family, governing pattern, primary entity, active relation, carried action or question under repair, and outside work separately rather than letting one familiar local lexical head carry them by implication.
 
-**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication form, publication face, and carrier relation, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which local work position is primary, what active primary entity or relation is in play, what carried move or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
+**Local reading lens.** Treat the overloaded local lexical head as one typed local head inside one publication unit. This local lens restores one overloaded local lexical head; it does not settle publication-unit modeling-lens policy, redefine the inherited moving lineage or its publication form, publication face, and carrier relation, or replace neighboring semioarchitecture characteristics. The smallest honest local lens asks five entries: what lexical-head kind is named here, which local work position is primary, what active primary entity or relation is in play, what carried action or question under repair is carried, and what still remains outside. If that local lens no longer stabilizes the same publication unit, local repair has already reached its limit; apply its governing FPF pattern or use the project-side FPF kind and reference named by value.
 
 #### E.17.AUD.LHR:3.2 - Ordinary working card
 
@@ -61,7 +61,7 @@ Use this five-row card for ordinary cases:
 | 1 | Which trigger word is carrying unresolved semantic load? |
 | 2 | What lexical-head kind is it honestly naming here? |
 | 3 | Which local reading is actually primary here? |
-| 4 | What active primary entity or relation, carried move or question under repair, and outside work are actually in play here? |
+| 4 | What active primary entity or relation, carried action or question under repair, and outside work are actually in play here? |
 | 5 | After one honest repair, is local restoration enough, or does another governing FPF pattern or project-side FPF kind and reference named by value now govern the case? |
 
 Treat that card as the recognition block. It is a local repair aid, not a universal sequence rail.
@@ -86,7 +86,7 @@ If the local case is close to a neighbouring-pattern boundary and the ordinary c
 - restored lexical-head kind;
 - restored active local reading;
 - restored active primary entity or relation;
-- restored carried move or question under repair;
+- restored carried action or question under repair;
 - restored outside-work boundary;
 - any family, governing pattern, primary entity, and active relation distinction now made explicit;
 - governing-pattern and project-side-reference decision.
@@ -104,7 +104,7 @@ Use this order when one local lexical head is carrying too much:
 2. restore the lexical-head kind;
 3. restore the active local reading;
 4. restore the active primary entity or relation when one is active;
-5. restore the carried move or question under repair, if any;
+5. restore the carried action or question under repair, if any;
 6. restore any family, governing pattern, primary entity, active relation, and nearest outside-work boundary the sentence is relying on;
 7. decide which of three repair dispositions is honest: stay with local repair, apply bounded comparison, or apply publication-unit discipline.
 

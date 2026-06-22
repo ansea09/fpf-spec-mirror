@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
-line_start: 58580
-line_end: 58727
+line_start: 58884
+line_end: 59031
 dependencies:
   - "A.1"
   - "A.15"
@@ -73,7 +73,7 @@ The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` b
 
 #### C.36.P:0.2 - What This Buys
 
-The practitioner gets one recovery line: current wording, recovered object, governing pattern, admissible use, blocked use, and next move. The subject work then returns to `C.36` or to the direct governing pattern for method, work, discipline, bridge, archive, pool, selected-set publication, architecture, dynamics, measurement, choice, or refresh.
+The practitioner gets one recovery line: current wording, recovered object, governing pattern, admissible use, blocked use, and next governed use. The subject work then returns to `C.36` or to the direct governing pattern for method, work, discipline, bridge, archive, pool, selected-set publication, architecture, dynamics, measurement, choice, or refresh.
 
 #### C.36.P:0.3 - First Useful Move
 
@@ -89,7 +89,7 @@ CulturalEvolutionWordingRecoveryLine@Context:
   retainedSourceLabelUse:
   admissibleUse:
   blockedUse:
-  nextMove:
+  nextUse:
 ```
 
 If `recoveredCurrentObject`, `recoveredRelationOrSlot`, or `directGoverningPatternRef` cannot be filled, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not repair it by choosing a smoother umbrella word.
@@ -136,7 +136,7 @@ Use this recovery order:
 7. **Attractor and dynamics wording.** Use `A.3.3`, `C.27`, and `C.29` only when stable dynamics, basin, state-transition law, temporal claim, or mathematical-lens use is being claimed. Otherwise keep the label as style or tradition term work.
 8. **Architecture-candidate wording.** Use `C.30`, `C.30.ASV`, or `C.30.AD` only when the recovered object is an `ArchitectureOf@Context`, selected structure, structural view, or architecture description.
 
-`C.36.P` closes only when the direct governing pattern is named and the next move is visible. It does not govern development-loop semantics, archive semantics, front semantics, pool policy, selected-set publication, method-family semantics, measurement, refresh, publication use, or architecture use.
+`C.36.P` closes only when the direct governing pattern is named and the next use is visible. It does not govern development-loop semantics, archive semantics, front semantics, pool policy, selected-set publication, method-family semantics, measurement, refresh, publication use, or architecture use.
 
 #### C.36.P:4.1 - Recovery Result Table
 
@@ -165,7 +165,7 @@ CulturalEvolutionWordingRecoveryLine@Context:
   retainedSourceLabelUse: keep "platform" as source label for the mediating system and visibility infrastructure
   admissibleUse: discuss how visibility and recognition relations changed retained dance variants
   blockedUse: treat platform as a root cultural kind or style as one global kind
-  nextMove: write C.36 case card, then apply C.18 or G.11 if archive or refresh is current
+  nextUse: write C.36 case card, then apply C.18 or G.11 if archive or refresh is current
 ```
 
 #### C.36.P:5.2 - "This Tradition Is An Attractor"

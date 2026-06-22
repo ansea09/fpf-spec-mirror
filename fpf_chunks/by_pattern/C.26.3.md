@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.3.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
-line_start: 49193
-line_end: 49523
+line_start: 49486
+line_end: 49816
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ Plain glosses:
 - `service situation`: an `A.6.8` facet-binding lens that identifies access point, delivery system, provider principal, promise content, commitment, delivery work, and evidence; it is not itself a new root bearer unless the relevant system facet is declared.
 - `viability envelope`: the region where the bearer can still keep the relevant promise or function, across several dimensions.
 - `envelope variable`: one characteristic that must stay within bounds, such as latency, reliability, support load, compliance exposure, safety margin, energy, or operator attention.
-- `actuator`: a work move that can change the situation, such as cache policy, throttle, staffing, routing, bridge rewrite, protocol, access, escalation, or measurement design.
+- `actuator`: a work action that can change the situation, such as cache policy, throttle, staffing, routing, bridge rewrite, protocol, access, escalation, or measurement design.
 - `allostasis`: preserving function by changing settings, environment, boundary condition, actuation, or operating regime when circumstances change.
 
 ### C.26.3:2 - Problem

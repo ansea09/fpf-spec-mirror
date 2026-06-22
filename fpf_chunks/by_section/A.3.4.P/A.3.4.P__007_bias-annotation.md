@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 7769
-line_end: 7780
+line_start: 7773
+line_end: 7784
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.18"
   - "E.18.2"
@@ -54,7 +55,7 @@ Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 This pattern intentionally biases toward kind recovery before wording repair. It resists:
 
 - **source-label ontology:** familiar labels such as pipeline, process, network, circuit, or workflow become FPF kinds;
-- **graph or path overread:** graph path, evidence path, and carrier path become action route, proof, permission, or work sequence;
+- **graph or path overread:** graph path, evidence path, and carrier path become action route, evidence sufficiency, assurance, deontic permission, work authorization, release authorization, or work sequence;
 - **function collapse:** functioning, functional element, module allocation, mathematical function, software routine, and everyday purpose collapse into one "function";
 - **semio displacement:** descriptions and publications of transformations replace the transformation under concern;
 - **slot-filler fusion:** a method, mechanism, work occurrence, system, or evidence record fills a transformation slot and is then treated as the whole transformation.

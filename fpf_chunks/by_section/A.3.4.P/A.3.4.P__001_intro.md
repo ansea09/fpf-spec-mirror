@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:intro — Intro"
-line_start: 7598
-line_end: 7623
+line_start: 7601
+line_end: 7626
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.18"
   - "E.18.2"
@@ -50,7 +51,7 @@ keywords:
 ## A.3.4.P - Transformation Ontic Precision Restoration
 
 > **Type:** A.3.4 precision-restoration child pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless a section is explicitly informative
 
 **Plain-name.** Transformation wording repair.
@@ -59,11 +60,11 @@ keywords:
 
 **Use this when.** Use `A.3.4.P` when source or FPF-governed wording such as "pipeline", "dataflow", "flow", "network", "circuit", "path", "slice", "workflow", "process", "operation", "transformation", or "change" seems to name the thing under concern, but the text has not yet recovered what kind of FPF value is actually current.
 
-**First useful move.** Fill a compact `TransformationWordingRepair` note: encountered wording, working concern, recovered transformation or non-transformation object, recovered slot or neighboring pattern, retained use, blocked overread, and remaining reader move. Then rewrite only the wording that depends on the recovered kind.
+**First useful restoration output.** Fill a compact `TransformationWordingRepair` note: encountered wording, working concern, recovered transformation or non-transformation object, recovered slot or neighboring pattern, retained use, blocked overread, and remaining reader use. Then rewrite only the wording that depends on the recovered kind.
 
-**What goes wrong if missed.** The text silently creates a local ontology from a convenient source label: "process" becomes method in one paragraph, dated work in another, and transformation-flow structure in a third; "path" becomes proof or permission; "function" becomes behavior, bearer, mathematical function, and software routine at once.
+**What goes wrong if missed.** The text silently creates a local ontology from a convenient source label: "process" becomes method in one paragraph, dated work in another, and transformation-flow structure in a third; "path" becomes evidence sufficiency, assurance, gate passage, deontic permission, work authorization, or release authorization; "function" becomes behavior, bearer, mathematical function, and software routine at once.
 
-**What this buys.** The reader gets one small repair move that keeps bounded transformations, compound transformation-flow structures, formal descriptions, methods, mechanisms, work, evidence, publications, and functional structures in their governing places before any wording is changed.
+**What this buys.** The reader gets one small restoration use that keeps bounded transformations, compound transformation-flow structures, formal descriptions, methods, mechanisms, work, evidence, publications, and functional structures in their governing places before any wording is changed.
 
 **Not this pattern when.**
 

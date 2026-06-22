@@ -6,12 +6,12 @@ section_id: "C.27:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__008_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:7 — Conformance Checklist"
-line_start: 51036
-line_end: 51085
+line_start: 51329
+line_end: 51378
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -65,7 +65,7 @@ is sufficiently supported for the use it is making. Ordinary local use can stay 
 | Card minimum | A `Dyn2TemporalClaimAdequacyCard` names temporal reading or bearer, move, intervention, window, resistance or cost, evidence relation, model assumption, planning assumption, or neighbouring-pattern relation, supported use, unsupported downstream claim, effect, or use, and reopen or pattern-reference condition. |
 | Boundary-crossing profile | `Dyn2TemporalClaimProfile` appears only when the authored temporal claim is used beyond the local working context into benchmark, publication, assurance, promise-like, gate, reusable method, cross-context, cross-scale, or formal or control use. |
 | Governing-pattern relation | C.27 does not carry measurement, transition law, Work actuals, planning, `C.28`-governed causal-use claim, benchmark parity, promise or boundary claim, assurance, or QL residue. |
-| Neighboring-pattern-use block | If supported use relies on measurement, causal attribution, benchmark parity, control or policy relation, cross-scale transfer, debt or hysteresis, promise, high-stakes temporal move, or QL residue, the corresponding governing-pattern relation or present profile block is named. |
+| Neighboring-pattern-use block | If supported use relies on measurement, causal attribution, benchmark parity, control or policy relation, cross-scale transfer, debt or hysteresis, promise, high-stakes temporal action, or QL residue, the corresponding governing-pattern relation or present profile block is named. |
 | Profile-block closure | Every present block is defined by C.27, pattern-reference-only, or absent from `activeBlocks`; a block name is not a new EntityOfConcern. |
 | Pattern-relation economy | Add a C.27 relation note to another pattern only when that pattern has a concrete boundary reason to inspect temporal-claim adequacy; otherwise a C.27 card or profile cites the FPF pattern that governs the other question instead of creating a thin duplicate temporal record. |
 | Stop or lower | If no downstream claim, effect, or use changes, the claim remains ordinary prose, Dyn0 reading, Dyn1 reading, C.16 measurement, `U.Dynamics`, or another governing pattern. |
@@ -73,7 +73,7 @@ is sufficiently supported for the use it is making. Ordinary local use can stay 
 **Value and harm boundary.** A temporally adequate claim is not automatically a
 valuable claim. A valuable claim is not automatically temporally adequate. If
 value, harm, safety, legal, ethics, quality, or promise impact is FPF-governed,
-C.27 states only the temporal move, window, supported use, unsupported
+C.27 states only the temporal action, window, supported use, unsupported
 downstream claim, effect, or use, and pattern relation. The value, harm, safety, legal, ethics, quality, or
 promise pattern governs the other question.
 

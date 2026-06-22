@@ -6,12 +6,12 @@ section_id: "B.4.1:15"
 section_title: "Migration and worked continuation boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__016_migration-and-worked-continuation-boundaries.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:15 — Migration and worked continuation boundaries"
-line_start: 34937
-line_end: 34965
+line_start: 35224
+line_end: 35252
 dependencies:
   - "A.15"
   - "A.16"
@@ -58,7 +58,7 @@ An operator-facing disturbance may legitimately support both:
 A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement already exists. The route is only one admissible continuation unless a later requirement governing pattern is actually entered.
 
 #### B.4.1:15.4 - Leaving the seam
-The routed cue set should leave this pattern only when one later publication is already explicit enough to own the next move, for example:
+The routed cue set should leave this pattern only when one later publication is already explicit enough to own the next governed use, for example:
 
 - explicit evaluative family selection for `C.16.Q`,
 - explicit `A.6.A` family selection,

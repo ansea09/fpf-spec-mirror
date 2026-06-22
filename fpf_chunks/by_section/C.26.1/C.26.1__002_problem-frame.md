@@ -6,12 +6,12 @@ section_id: "C.26.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__002_problem-frame.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:1 — Problem frame"
-line_start: 48556
-line_end: 48575
+line_start: 48849
+line_end: 48868
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,7 +49,7 @@ This is the main everyday entry into the QL cluster. It is useful because many t
 | --- | --- |
 | Primary reader | Architect, platform lead, domain modeler, or manager judging a boundary read, workshop, dashboard, metric, API read, or bridge result. |
 | Boundary interaction under concern | A boundary interaction being used as evidence, export, comparison, or decision input. |
-| Boundary-interaction decision move | Replace false passive-read wording or unjustified lossless boundary-to-decision inference with a probe-coupled boundary decision and reroute where needed. |
+| Boundary-interaction decision use | Replace false passive-read wording or unjustified lossless boundary-to-decision inference with a probe-coupled boundary decision and reroute where needed. |
 | Outside work | Ordinary message passing, ordinary causal intervention, ordinary API semantics, bridge loss alone, and generic relation-token minting. |
 | What changes in practice | The team records what the probe changed before using its output as architecture evidence. |
 

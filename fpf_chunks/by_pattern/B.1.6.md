@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
-line_start: 31815
-line_end: 32022
+line_start: 32097
+line_end: 32309
 dependencies:
   - "A.1"
   - "A.10"
@@ -18,11 +18,13 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "B.1"
   - "B.1.4"
+  - "B.1.6"
   - "B.2"
   - "B.2-family"
   - "B.2.P"
@@ -42,7 +44,7 @@ keywords:
 
 **Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over dated work occurrences, phase slices, boundary partitions, or comparable work-resource ledgers.
 
-**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether work occurred, use `A.15.1`. If it is temporal phase aggregation without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family owner.
+**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether work occurred, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is temporal phase aggregation without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family owner.
 
 **What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
 
@@ -56,17 +58,17 @@ Practitioners need to roll up work-resource claims across runs, phases, teams, d
 
 ### B.1.6:1.0 - Problem
 
-Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
+Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource-accounting basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
 
 ### B.1.6:1.1 - Forces
 
 | Force | Tension |
 | --- | --- |
 | Measured work vs. planned work | Expected yield, duration, or resource use helps planning, but cannot prove performed-work resource use. |
-| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume, and attention can be compared only after their basis and conversion relation are declared. |
+| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume, and attention can be compared only after their resource-accounting basis and conversion relation are declared. |
 | Boundary accounting vs. local convenience | Resource values are useful only when the holon delimitation, boundary-crossing relation, stock relation, and time window are named. |
 | Additivity vs. shared stocks | Disjoint partitions can be added; shared meters, tools, people, inventories, data, or ports need overlap and deduplication policy. |
-| Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
+| Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed accounting basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 
 ### B.1.6:2 - Solution
 
@@ -100,6 +102,8 @@ WorkResourceAggregation@Context:
 
 The record is a resource-aggregation relation over work evidence. It is not a method, not a method description, not proof that planned work happened, not a new holon level, and not a whole reidentification claim.
 
+Resource readiness is a neighboring claim, not a measured aggregation result. Planned capacity, reserved inventory, staffing availability, or a full-kit-looking label may be cited as a work-plan, source, or readiness reference, but `A.15.5` governs whether intended work is ready to enter performed-work execution. `B.1.6` governs only the resource-accounting basis, ledger, evidence, aggregation rule, and aggregated value for dated work occurrences or explicitly narrowed planned estimates.
+
 #### B.1.6:2.1 - Direct Owner Map
 
 | Current claim | Direct owner |
@@ -107,6 +111,7 @@ The record is a resource-aggregation relation over work evidence. It is not a me
 | Semantic way of doing | `A.3.1` |
 | Description of the way of doing, including algorithm text or SOP | `A.3.2` |
 | Planned work window or planned assignment | `A.15.2` |
+| Work-entry readiness, full-kit condition, or resource readiness before work entry | `A.15.5` |
 | Dated performed work occurrence and occurrence evidence | `A.15.1` |
 | Work-resource aggregation over dated work occurrences | `B.1.6` |
 | Holon delimitation, ports, interfaces, or part-whole boundary used for accounting | `A.1`, `B.1`, `A.14`, `C.13`, or the direct relation owner named by value |
@@ -125,14 +130,14 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationRule)
   -> aggregated resource value plus ledger
 ```
 
-The notation applies only after the work occurrence refs, resource basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
+The notation applies only after the work occurrence refs, resource-accounting basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
 
 ### B.1.6:4 - Ledger Discipline
 
 A conforming `WorkResourceAggregation@Context` includes a work-resource ledger with:
 
 - work occurrence refs or parent and child work occurrence refs;
-- resource basis and unit refs;
+- resource-accounting basis and unit refs;
 - time window and phase refs when time slicing is used;
 - holon delimitation refs and any boundary-crossing relation refs used for accounting;
 - method, method-description, and work-plan refs only when those objects are actually used;
@@ -140,7 +145,7 @@ A conforming `WorkResourceAggregation@Context` includes a work-resource ledger w
 - overlap or deduplication policy when work occurrences share resources, time windows, ports, stocks, people, tools, or data;
 - admissible use and non-admissible overread.
 
-For any resource type in the selected basis, the ledger should say whether the value is measured, estimated, normalized, or converted. If the value is measured, it names the measurement or evidence relation. If the value is planned, it stays marked as expected work-resource use and does not become performed-work evidence.
+For any resource type in the selected resource-accounting basis, the ledger should say whether the value is measured, estimated, normalized, or converted. If the value is measured, it names the measurement or evidence relation. If the value is planned, it stays marked as expected work-resource use and does not become performed-work evidence.
 
 When the aggregation divides a stock or resource amount, use `PortionOf` or the direct quantitative relation owner. When the aggregation slices one work occurrence or one carrier over time, use `PhaseOf` or the direct phase owner. Do not use `MemberOf` for resource stock, resource portion, or time-slice composition.
 
@@ -154,16 +159,16 @@ When the aggregation divides a stock or resource amount, use `PortionOf` or the 
 
 **Plan and result stay separate.** A method description or work plan may provide expected yield, expected duration, or expected resource use. Measured work-resource aggregation uses dated work occurrence evidence. Do not overwrite one with the other.
 
-**B.1 invariant carry-through.** `B.1.6` keeps B.1 invariants only for recovered work-resource ledgers. A singleton zero-resource occurrence is idempotent for the selected basis. Addition is commutative only for independent partitions, non-overlapping slices, or explicitly deduplicated overlaps. Weakest-link claims must name the critical resource, availability, or threshold; monotonicity claims must name the resource characteristic being improved. Apparent "free" gains remain measurement, equivalence, or whole-reidentification questions until their direct owner is recovered.
+**B.1 invariant carry-through.** `B.1.6` keeps B.1 invariants only for recovered work-resource ledgers. A singleton zero-resource occurrence is idempotent for the selected resource-accounting basis. Addition is commutative only for independent partitions, non-overlapping slices, or explicitly deduplicated overlaps. Weakest-link claims must name the critical resource, availability, or threshold; monotonicity claims must name the resource characteristic being improved. Apparent "free" gains remain measurement, equivalence, or whole-reidentification questions until their direct owner is recovered.
 
-**Proof-sketch obligations.** For idempotence, show the zero-resource or singleton ledger under the selected basis. For commutativity or locality, show disjoint boundary partitions, disjoint time slices, or the declared deduplication relation. For weakest-link, name the critical resource and availability condition. For monotonicity, name the exact resource characteristic that cannot get worse under the selected improvement. These are user-facing obligations for the aggregation claim, not a separate proof package.
+**Proof-sketch obligations.** For idempotence, show the zero-resource or singleton ledger under the selected resource-accounting basis. For commutativity or locality, show disjoint boundary partitions, disjoint time slices, or the declared deduplication relation. For weakest-link, name the critical resource and availability condition. For monotonicity, name the exact resource characteristic that cannot get worse under the selected improvement. These are user-facing obligations for the aggregation claim, not a separate proof package.
 
 #### B.1.6:5.1 - Compact Obligation Rows
 
 | Obligation | What must be named | Why it matters |
 | --- | --- | --- |
-| Typed resource vector | Resource basis, unit, measure, evidence refs, and source refs for each component. | Prevents hours, energy, material, cost, and data volume from becoming one undifferentiated total. |
-| Disjoint partition | Boundary partition, stock relation, time window, and work occurrence refs. | Allows addition only where the partitions are actually disjoint for the selected resource basis. |
+| Typed resource vector | Resource-accounting basis, unit, measure, evidence refs, and source refs for each component. | Prevents hours, energy, material, cost, and data volume from becoming one undifferentiated total. |
+| Disjoint partition | Boundary partition, stock relation, time window, and work occurrence refs. | Allows addition only where the partitions are actually disjoint for the selected resource-accounting basis. |
 | Shared-stock handling | Shared meter, shared tool, shared person, shared data, shared inventory, or overlap policy. | Prevents double counting and false savings. |
 | Critical resource cap | The capacity, availability, threshold, or bottleneck resource whose limit governs the claim. | Makes weakest-link and capacity claims inspectable. |
 | Yield relation | Input resource refs, output result refs, loss refs, and measurement basis. | Keeps efficiency from being asserted without a result relation. |
@@ -194,10 +199,11 @@ When the aggregation divides a stock or resource amount, use `PortionOf` or the 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-B1.6-1 | The aggregation names dated work occurrence refs or explicitly narrows use to planned estimates. | Prevents plans and method descriptions from masquerading as performed work. |
-| CC-B1.6-2 | Resource basis, units, measurement refs, evidence refs, and source refs are named. | Keeps resource values comparable and reviewable. |
+| CC-B1.6-2 | Resource-accounting basis, units, measurement refs, evidence refs, and source refs are named. | Keeps resource values comparable and reviewable. |
 | CC-B1.6-3 | Holon delimitation and any boundary-crossing relation used for accounting are named by value. | Prevents an unexplained boundary word from carrying the claim. |
 | CC-B1.6-4 | Time windows, phase refs, and overlap and deduplication policy are present when slices or shared resources are aggregated. | Prevents double counting and missing epochs. |
 | CC-B1.6-5 | Method, method-description, work-plan, transformation, and whole-reidentification claims use their direct owners. | Keeps work-resource aggregation from absorbing neighboring objects. |
+| CC-B1.6-5a | Work-entry readiness, full-kit condition, and resource readiness before work entry use `A.15.5`; B.1.6 cites such refs only as neighboring inputs when a resource aggregation claim also exists. | Keeps planned or reserved resource availability from becoming measured performed-work aggregation. |
 | CC-B1.6-6 | `Gamma_work` is used only as notation over a recovered aggregation record. | Keeps algebraic notation from becoming ontology by spelling. |
 
 ### B.1.6:8 - Common Anti-Patterns and How to Avoid Them
@@ -218,7 +224,7 @@ The cost is explicit accounting discipline. The gain is that resource roll-ups b
 
 ### B.1.6:9.1 - Rationale
 
-`B.1.6` exists because work-resource accounting is easy to confuse with method, plan, phase, transformation, evidence, and whole reidentification. The governed object is the resource aggregation claim over dated work occurrences or explicitly narrowed estimates. That claim needs a ledger discipline: typed resource basis, holon delimitation, time window, stock and boundary-crossing relation, measurement or evidence relation, and overlap policy.
+`B.1.6` exists because work-resource accounting is easy to confuse with method, plan, phase, transformation, evidence, and whole reidentification. The governed object is the resource aggregation claim over dated work occurrences or explicitly narrowed estimates. That claim needs a ledger discipline: typed resource-accounting basis, holon delimitation, time window, stock and boundary-crossing relation, measurement or evidence relation, and overlap policy.
 
 The pattern keeps the useful old `Gamma_work` notation, but only as notation over a recovered aggregation record. It also preserves the old planned-versus-measured warning: a method description or work plan can declare expected yield or expected resource use, but measured aggregation depends on dated work evidence.
 
@@ -226,15 +232,16 @@ The pattern keeps the useful old `Gamma_work` notation, but only as notation ove
 
 | Source line | Practical implication for this pattern |
 | --- | --- |
-| Conservation and engineering accounting practice | Resource roll-ups need a selected basis, boundary, stock relation, and time window before addition is meaningful. |
+| Conservation and engineering accounting practice | Resource roll-ups need a selected resource-accounting basis, boundary, stock relation, and time window before addition is meaningful. |
 | Constructive mereology and phase discipline | Resource portions, work phases, and collection membership are different relations; `PortionOf`, `PhaseOf`, and `MemberOf` cannot substitute for one another. |
 | Measurement and mathematical-lens discipline | Unit conversion, normalization, efficiency, and typed vectors need their measurement, model, or mathematical-lens owner. |
-| Work/method distinction in FPF | A method, method description, or work plan can guide expected resource use, but performed-work aggregation requires dated work occurrence evidence. |
+| Work and method distinction in FPF | A method, method description, or work plan can guide expected resource use, but performed-work aggregation requires dated work occurrence evidence. |
 
 ### B.1.6:10 - Relations
 
 - Builds on `A.15.1` for dated work occurrence and on `A.15` for role-method-work alignment.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
+- Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `B.1.4` and `C.27` for phase and temporal-claim adequacy.
 - Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, phase, and constructive grounding.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.

@@ -6,12 +6,12 @@ section_id: "B.1.6:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__003_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:1.0 — Problem"
-line_start: 31835
-line_end: 31838
+line_start: 32117
+line_end: 32120
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,11 +19,13 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "B.1"
   - "B.1.4"
+  - "B.1.6"
   - "B.2"
   - "B.2-family"
   - "B.2.P"
@@ -37,5 +39,5 @@ keywords:
 
 ### B.1.6:1.0 - Problem
 
-Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
+Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource-accounting basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
 

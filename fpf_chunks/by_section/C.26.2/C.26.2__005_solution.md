@@ -6,12 +6,12 @@ section_id: "C.26.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:4 — Solution"
-line_start: 48895
-line_end: 49112
+line_start: 49188
+line_end: 49405
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,7 +80,7 @@ Full EDSE record:
 | Reprobe cost | What does it cost in time, risk, disruption, attention, coordination, privacy, or evidence quality to check again? |
 | Rival explanation not ruled out | Which ordinary explanation remains possible? |
 | Minimal supported claim | What may be said without exceeding the evidence, carrier set, time window, or export limit? |
-| Supported action or use | Which planning, communication, incident, routing, bridge, evidence, or decision move may now be taken without exceeding the claim? |
+| Supported action or use | Which planning action, communication action, incident action, routing action, bridge use, evidence use, or decision use may now be taken without exceeding the claim? |
 
 #### C.26.2:4.1 - Minimal claim principle
 
@@ -141,7 +141,7 @@ When the distributed-state reading is load-bearing, state the decomposition expl
 | Factorable part | Which part of the behavior is explained by policy, routine, shared stimulus, incentive, dashboard following, or copied artifact? |
 | Coordination residue | What remains as a minimal distributed-state reading after the ordinary rival explanations are named? |
 | Minimal supported claim | What evidence-bound claim survives for the declared time window and carrier set? |
-| Supported action or use | Which planning, communication, incident, routing, bridge, evidence, or decision move may now be taken without exceeding that minimal claim? |
+| Supported action or use | Which planning action, communication action, incident action, routing action, bridge use, evidence use, or decision use may now be taken without exceeding that minimal claim? |
 
 #### C.26.2:4.6 - Evidence-bound state reading and claim floor
 

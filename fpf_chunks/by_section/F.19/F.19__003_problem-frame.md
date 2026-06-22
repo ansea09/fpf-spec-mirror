@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 81401
-line_end: 81420
+line_start: 82162
+line_end: 82181
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,7 +39,7 @@ Mature technical languages accumulate enough ontology that many bad sentences ar
 
 The repair question is:
 
-> What content remains when words that add no object, kind, relation, claim, role, flow, evidence value, or user move are removed?
+> What content remains when words that add no object, kind, relation, claim, role, flow, evidence value, or user-facing action are removed?
 
 Examples inside FPF:
 
@@ -47,7 +47,7 @@ Examples inside FPF:
 - "pattern text" when the text means "the pattern" or "the pattern of concern";
 - "governing relation" when the named object is a pattern, not a relation;
 - long "not X, not Y, not Z" paragraphs when the text needs a positive object, action, and one stop condition;
-- corpus-projection proof written inside a pattern whose own user move is not corpus projection.
+- corpus-projection proof written inside a pattern whose own user-facing action is not corpus projection.
 
 The same defect appears outside pattern prose. A system note may hide an evaluation claim inside process language; a project note may treat a dashboard as evidence authority when it is a publication form; an architecture memo may replace a scale-preference claim over alternatives with a platform label.
 

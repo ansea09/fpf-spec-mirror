@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__006_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:4 — Solution"
-line_start: 14231
-line_end: 14312
+line_start: 14236
+line_end: 14317
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ RSIRRepairNote:
   neighboringCandidateValues:
   retainedSourceLabelUse:
   blockedOverread:
-  nextAdmissibleMove:
+  nextAdmissibleUse:
   stopCondition:
 ```
 

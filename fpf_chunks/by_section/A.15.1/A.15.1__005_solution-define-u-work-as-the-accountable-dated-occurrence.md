@@ -6,18 +6,19 @@ section_id: "A.15.1:4"
 section_title: "Solution — define U.Work as the accountable, dated occurrence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__005_solution-define-u-work-as-the-accountable-dated-occurrence.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:4 — Solution — define U.Work as the accountable, dated occurrence"
-line_start: 21366
-line_end: 21419
+line_start: 21377
+line_end: 21432
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.15"
   - "A.15.4"
+  - "A.15.5"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
@@ -82,11 +83,13 @@ When you describe a Work instance in a review, answer these prompts:
 | The **assignment** ("who is being what")     | **`U.Role` value plus `U.RoleAssignment` relation** | Can be reassigned without changing the system?                  |
 | The **ability** (“can do within bounds”)      | **Capability**         | Would remain even if not assigned?                             |
 | The **dated occurrence** with logs, resources | **Work**               | Did it happen at (t₀, t₁), consume resources, produce outcomes? |
-| The **state change observed for this occurrence** | **Work.Δ**             | Did the referent move from pre→post on the declared state-plane? |
+| The **state change observed for this occurrence** | **Work.Δ**             | Did the referent change from pre→post on the declared state-plane? |
 
 #### A.15.1:4.4 - Publication-use boundary for `U.Work`
 
 A `U.Work` publication projects an already declared work occurrence; it does not create the occurrence, add run-time facts, or make a plan, source reconstruction, dashboard, or publication face count as performed work.
+
+Preparation work is `U.Work` only when preparation has actually occurred and has its own performer, method, time window, affected referent, resources, and outcome. The readiness relation that asks whether intended work is ready enough to enter a work boundary is `WorkEntryReadiness@Context` under `A.15.5`; a readiness label, full-kit checklist, or launch-looking cue is not a performed occurrence.
 
 | Publication-use pressure | Work-local rule |
 |---|---|

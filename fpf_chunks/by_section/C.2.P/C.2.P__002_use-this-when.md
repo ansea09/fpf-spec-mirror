@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0 — Use this when"
-line_start: 36893
-line_end: 36922
+line_start: 37180
+line_end: 37209
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 Use `C.2.P` as epistemic precision restoration for wording whose current entity or construction is an episteme, publication, or source-use construction: source wording, source-local meaning, claim-bearing episteme, publication, view, face, carrier, publication unit, EntityOfConcern, grounding relation, pattern-application wording, project-side reliance wording, or the disposition by which source expression has or lacks FPF-governed use.
 
-`E.10` governs lexical and wording-use precision. `C.2.P` governs epistemic precision restoration across episteme, publication, carrier, and view distinctions: expression, source-local meaning, recovered FPF kind and relation set, publication construction, carrier construction, view construction, EntityOfConcern or grounding relation, reader move, and use or non-use disposition.
+`E.10` governs lexical and wording-use precision. `C.2.P` governs epistemic precision restoration across episteme, publication, carrier, and view distinctions: expression, source-local meaning, recovered FPF kind and relation set, publication construction, carrier construction, view construction, EntityOfConcern or grounding relation, reader use, and use or non-use disposition.
 
-The practical partition is episteme-slot or publication-construction use, but it is not limited to named `C.2.1` slots. It also includes publication constructions, carrier and face constructions, source expression selected for FPF-governed use, and pattern-application wording when those are used as claim-bearing or use-boundary-bearing signs. Apply this pattern from `E.10` only when the governing pattern cannot yet be selected directly because source wording, claim-bearing episteme, publication or carrier construction, project-side reliance, pattern-application wording, or use or non-use disposition is still unresolved. The pattern-local decision selects source-expression clarification or FPF-governed use, recovers the current episteme-publication relation set, chooses recovered-by-value, reduced-use-cue, extension-candidate, blocked-use, rewrite-incomplete, or not-triggered disposition, and preserves the remaining reader move before any neighboring pattern governs its own invariant.
+The practical partition is episteme-slot or publication-construction use, but it is not limited to named `C.2.1` slots. It also includes publication constructions, carrier and face constructions, source expression selected for FPF-governed use, and pattern-application wording when those are used as claim-bearing or use-boundary-bearing signs. Apply this pattern from `E.10` only when the governing pattern cannot yet be selected directly because source wording, claim-bearing episteme, publication or carrier construction, project-side reliance, pattern-application wording, or use or non-use disposition is still unresolved. The pattern-local decision selects source-expression clarification or FPF-governed use, recovers the current episteme-publication relation set, chooses recovered-by-value, reduced-use-cue, extension-candidate, blocked-use, rewrite-incomplete, or not-triggered disposition, and preserves the remaining reader use before any neighboring pattern governs its own invariant.
 
 **Precision-restoration pattern note.** A precision-restoration pattern is an architectural pattern for a recurring complex precision problem whose wording routinely hides several current distinctions. `A.6.P` is relation precision restoration; `C.2.P` is epistemic precision restoration. `C.30.P` is the selected architecture and structure precision-restoration pattern when architecture or structure wording hides the architecture claim being made, structure kind, structure relation, view, or publication relation or source-use relation. `C.16.P` is the selected characteristic and scale precision-restoration pattern when characteristic, scale, metric, score, indicator, coordinate, threshold, or comparison construction is hidden. `C.16.Q` is the selected quality-term precision-restoration pattern when quality-term or evaluative characterization is current and the found problem is not relation construction. `E.10` detects the wording problem and selects the applicable recovery pattern; `E.10.ARCH` carries the shared recovery algorithm and applicability-row architecture; neither replaces this pattern's episteme, publication, and source-use ontology.
 

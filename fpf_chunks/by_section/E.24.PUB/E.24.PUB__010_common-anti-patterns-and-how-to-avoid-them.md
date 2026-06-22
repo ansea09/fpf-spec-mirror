@@ -6,12 +6,12 @@ section_id: "E.24.PUB:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74296
-line_end: 74306
+line_start: 75057
+line_end: 75067
 dependencies:
   - "A.19"
   - "A.19.ECS"

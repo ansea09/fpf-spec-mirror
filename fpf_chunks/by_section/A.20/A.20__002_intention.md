@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Intention"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_intention.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:0 — Intention"
-line_start: 29167
-line_end: 29215
+line_start: 29448
+line_end: 29496
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -45,13 +45,13 @@ keywords:
 **Use this when.** Use A.20 when the current question is whether one transformation step internally satisfies its declared constraints before any `GateProfile` fit is evaluated.
 **First useful move.** Name the step, the CV class being checked, the `CV.Status`, and the witness or missing witness. Stop there unless a gate, comparator, bridge, freshness, or work-boundary question is actually being made.
 
-**Smallest sufficient CV guidance.** Use the lightest CV guidance that preserves the next practitioner move made available by the local CV result. Add publication lexemes, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`, `RSCR`, or MIP-run material only when the CV claim being made would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
+**Smallest sufficient CV guidance.** Use the lightest CV guidance that preserves the next practitioner action made available by the local CV result. Add publication lexemes, witnesses, `DecisionLog` detail, `CrossingBundle`, `PQG`, `RSCR`, or MIP-run material only when the CV claim being made would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
 
-**Minimum sufficient next move.** For ordinary CV, `step + CV class + CV.Status + witness or refusal` is enough. Per-check publication lexemes are needed only when the CV result is carried into a publication face, gate relation, or assurance material.
+**Minimum sufficient CV output.** For ordinary CV, `step + CV class + CV.Status + witness or refusal` is enough. Per-check publication lexemes are needed only when the CV result is carried into a publication face, gate relation, or assurance material.
 
 **Do not escalate when.** Do not create `GateDecision`, `GateDecisionExplanation`, GateFit narrative, comparator law, bridge law, freshness claim, release-confidence claim, or work-boundary authority from `CV.Status`. Use the neighboring pattern relation only when its own claim is present.
 
-**Conformance-marker overread note.** Use this note when a conformance label, `CV.Status=pass`, release-screen status, dashboard cue, or CV-looking publication is being interpreted as gate passage, release confidence, safety acceptance, assurance, work occurrence, work authorization, or performed work. The first A.20 move is to return to the local step, CV class, `CV.Status`, witness or refusal, and window governed here; then state the attempted stronger use without a governing relation and name the governing neighboring relation only if that relation is being claimed: `A.21` for gate decision, `B.3` for assurance, `A.10` for evidence or currentness, `A.15` for work, or the neighboring pattern governing that claim. Write `CV.Status=pass` when CV is meant; do not write plain `pass` near gate, release, safety, or work use. Plain wording remains ordinary unless it changes bounded CV use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern relation.
+**Conformance-marker overread note.** Use this note when a conformance label, `CV.Status=pass`, release-screen status, dashboard cue, or CV-looking publication is being interpreted as gate passage, release confidence, safety acceptance, assurance, work occurrence, work authorization, or performed work. The first A.20 action is to return to the local step, CV class, `CV.Status`, witness or refusal, and window governed here; then state the attempted stronger use without a governing relation and name the governing neighboring relation only if that relation is being claimed: `A.21` for gate decision, `B.3` for assurance, `A.10` for evidence or currentness, `A.15` for work, or the neighboring pattern governing that claim. Write `CV.Status=pass` when CV is meant; do not write plain `pass` near gate, release, safety, or work use. Plain wording remains ordinary unless it changes bounded CV use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern relation.
 
 **Common wrong interpretation.** `CV.Status=pass` means release, safety acceptance, or gate passage. First honest entry: `CV.Status` is local step constraint validity with witness or refusal; release, safety, gate, assurance, or work use belongs to its governing pattern only when that claim is present.
 

@@ -6,12 +6,12 @@ section_id: "E.9.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__003_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:2 — Problem"
-line_start: 61859
-line_end: 61874
+line_start: 62166
+line_end: 62181
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -39,5 +39,5 @@ Recurring failures:
 6. Source use is copied without saying what changed in the accepted decision.
 7. Architecture descriptions, views, graphs, packets, or notes are treated as the FPF decision.
 8. Administrative state becomes adequacy evidence.
-9. Ordinal adequacy values become repair targets, so the `DRR` gains source rows, locus tables, boundary catalogues, or review proof while the selected answer and first drafting move do not become more decisive.
+9. Ordinal adequacy values become repair targets, so the `DRR` gains source rows, locus tables, boundary catalogues, or review proof while the selected answer and first drafting action do not become more decisive.
 

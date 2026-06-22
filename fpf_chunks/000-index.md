@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `9b6d71cff42a9ac45e46a2be2d9450f766868bc4`
+Commit SHA: `b74ecf2b633a2315086198e4aab07c2b61257c27`
 
 Chunking method: `pattern-aware`
 
-Patterns: `254`
+Patterns: `257`
 
 ## Patterns
 
@@ -68,6 +68,7 @@ Patterns: `254`
 - [A.15.2 — U.WorkPlan](by_pattern/A.15.2.md)
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
 - [A.15.4 — Work-Relevant Source Restoration](by_pattern/A.15.4.md)
+- [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
 - [A.16.1 — U.PreArticulationCuePack](by_pattern/A.16.1.md)
@@ -196,11 +197,13 @@ Patterns: `254`
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
+- [E.10.MOVE — Move and Readiness Wording Precision Restoration](by_pattern/E.10.MOVE.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
+- [E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence](by_pattern/E.11.PUR.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
 - [E.13 — Pragmatic Utility and Value Alignment](by_pattern/E.13.md)
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)

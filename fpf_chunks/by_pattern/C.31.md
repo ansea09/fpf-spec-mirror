@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 57235
-line_end: 57599
+line_start: 57539
+line_end: 57903
 dependencies:
 keywords:
 ---
@@ -47,7 +47,7 @@ Claim-use boundary: comparison, publication, evidence, assurance, gate, decision
 
 What goes wrong if C.31 is missed: "modular" becomes a binary label; a single modularity score hides incompatible characteristics; interface publication is confused with substitutability; internal cohesion is improved while evidence reuse gets worse; bespoke residue moves from templates into work or assurance; and complexity language becomes a commensurable score without a declared characteristic, scale, measurement basis, comparison basis, or admissible-use boundary.
 
-What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next move, which false use is blocked, which repair is plausible, and which governing pattern governs measurement, evidence, causal, scale, selection, or accounting claims.
+What C.31 buys in practice: the practitioner can see which modularity characteristic changes the next architecture use, which false use is blocked, which repair is plausible, and which governing pattern governs measurement, evidence, causal, scale, selection, or accounting claims.
 
 Not this pattern when the question under repair is only source-label recovery, module-interface relation repair, reusable-structure accounting, general measurement admissibility, quality-family claim, architecture scale-preference claim, mathematical-lens use, candidate architecture synthesis, or selection. Use `C.30.STRAT`, `A.6.M`, `C.31.RSA`, `C.16`, `C.25`, `C.31.ASAP`, `C.29`, `G.5`, or `C.11` as appropriate; do not treat C.31 as the synthesis or selector pattern.
 
@@ -134,7 +134,7 @@ Every C.31 head is classified before use:
 
 | Class | Use | Boundary |
 | --- | --- | --- |
-| `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair move. | It is not automatically a score or decision selector. |
+| `DirectCharacteristic` | A C.16-governed characteristic can be named with subject, scale, unit or unitless interpretation, declared measurement basis, comparability basis, and repair action. | It is not automatically a score or decision selector. |
 | `CompositeCharacteristicDescription` | The head is a bundle or description with sub-slots, such as function-module alignment or flow-boundary alignment. | Do not pretend the bundle is one raw measure. |
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
 | `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are being made. |
@@ -162,7 +162,7 @@ MeasurementHeadMapping:
   evidenceClaimAbsentBecause?:
   commonFalseUse:
   nonAdmissibleUse:
-  repairMove:
+  repairAction:
   governingPatternRef:
 ```
 
@@ -189,15 +189,15 @@ ModularityCharacteristicCard:
   proxyRisk:
   auditQuestion:
   nonAdmissibleUse:
-  repairMove:
+  repairAction:
   relatedClaimGovernanceRefs:
 ```
 
-Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair move. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
+Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair action. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
 
-#### C.31:4.5 - Seed characteristic heads and repair moves
+#### C.31:4.5 - Seed characteristic heads and repair actions
 
-These heads are seeds, not an exhaustive taxonomy. Use only the heads that change the next move.
+These heads are seeds, not an exhaustive taxonomy. Use only the heads that change the next action.
 
 | Characteristic head | Intended characteristic interpretation | Typical scale or value form | Declared measurement or comparison basis | Defect signal | Repair direction | Escalation trigger |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -295,14 +295,14 @@ Holon and episteme: architecture and modules are selected structures of describe
 | `CC-C31-1` | Ordinary use starts with `ModularityVectorLite`, three characteristics under evaluation at most, observed problem, repair direction, and stop condition. |
 | `CC-C31-2` | Each characteristic head under evaluation is classified as `DirectCharacteristic`, `CompositeCharacteristicDescription`, `LensBackedCharacteristic`, `TemporalOrScaleCharacteristic`, `CausalUseSensitiveCharacteristic`, or `ReportOnlyProxy`. |
 | `CC-C31-3` | A decision-facing or publication-facing head has `MeasurementHeadMapping`, C.16-compatible fields, and a required evidence relation, evidence-provenance relation, source relation, or explicit evidence-claim-absent reason before it is relied on. |
-| `CC-C31-4` | Each characteristic row states at least one repair move or claim named by value-governance assignment. |
+| `CC-C31-4` | Each characteristic row states at least one repair action or claim named by value-governance assignment. |
 | `CC-C31-5` | Report-only proxies state forbidden overread and do not establish beyond-local-repair use. |
 | `CC-C31-6` | Proxy-risk and audit-question fields are present for decision-facing cards. |
 | `CC-C31-7` | Complexity, residual, and growth heads remain claim-scoped cues; apply C.29, C.31.ASAP when an architecture scale-preference claim is being made, C.27, C.28, C.16, C.25, C.30.ILC, C.31.RSA, G.5, or C.11 when the corresponding claim kind is being made. |
 | `CC-C31-8` | No C.31 text treats modularity as a single quality proof, assurance proof, gate result, causal proof, or architecture decision. |
 | `CC-C31-9` | Any score discloses scoring method, codomain, polarity, characteristic basis, comparability basis, and use boundary through the governing pattern. |
 | `CC-C31-10` | SoTA seeds for DSM, modularity-index, empirical modularity, platform, evidence-reuse, Conway and mirroring, Amdahl, queueing, coordination-overhead, information-hiding, abstraction-leakage, or Goodhart and Campbell proxy-risk sources are converted into pattern-local `G.2` rows before C.31 uses them for practitioner guidance being relied on. |
-| `CC-C31-11` | Source labels such as block, layer, expert, cache, router, or gate use `C.30.STRAT` before they become C.31 characteristic subjects, scale cues, repair moves, or proxy-risk rows. |
+| `CC-C31-11` | Source labels such as block, layer, expert, cache, router, or gate use `C.30.STRAT` before they become C.31 characteristic subjects, scale cues, repair actions, or proxy-risk rows. |
 | `CC-C31-12` | A vector, card, or report-only proxy states a lowering or reopen condition when proxy audit worsens, measurement or comparability basis changes, evidence relation, evidence-provenance relation, or source relation becomes stale, characteristic head changes, or a related governing pattern changes. |
 
 ### C.31:8 - Common Anti-Patterns and How to Avoid Them
@@ -310,7 +310,7 @@ Holon and episteme: architecture and modules are selected structures of describe
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | `ScalarModularityScore` | A single score claims architecture quality. | Replace with `ModularityVectorLite`, disclosed scoring basis and governing pattern, or report-only boundary. |
-| `UntypedMeasureList` | A table of heads appears without characteristic, scale, declared measurement basis, or repair move. | Classify heads and create C.16-compatible cards only where the recovered claim needs them. |
+| `UntypedMeasureList` | A table of heads appears without characteristic, scale, declared measurement basis, or repair action. | Classify heads and create C.16-compatible cards only where the recovered claim needs them. |
 | `MeasurementBeforeRepair` | The practitioner is asked for full measurement before one useful move exists. | Start with three characteristics under evaluation and repair direction. |
 | `OpenInterfaceEqualsModular` | Interface publication is treated as modularity. | Apply relation repair through A.6.M and characterize only the interface or substitutability head under evaluation. |
 | `ComplexityAsOneCharacteristic` | Algorithmic cost, graph-connectivity cost, policy and approval cost, evidence-maintenance cost, and cognitive cost are averaged. | Keep residual heads claim-scoped and apply lens or measurement patterns when those uses are being made. |
@@ -333,7 +333,7 @@ Costs:
 
 ### C.31:10 - Rationale
 
-C.31 is a characterization pattern because modularity and reusable-structure talk changes engineering action through characteristics: coupling, cohesion, interface variation, substitutability, reuse, evidence reuse, hidden coupling, source-return cost, and residual growth. Those heads are useful only when their subject, scale, declared measurement or comparison basis, false use, and repair move are visible.
+C.31 is a characterization pattern because modularity and reusable-structure talk changes engineering action through characteristics: coupling, cohesion, interface variation, substitutability, reuse, evidence reuse, hidden coupling, source-return cost, and residual growth. Those heads are useful only when their subject, scale, declared measurement or comparison basis, false use, and repair action is visible.
 
 The pattern puts `ModularityVectorLite` first to preserve affordability. Many practitioners need to see one relation to repair, one interface grammar to tighten, or one residue to account for. Requiring the full measurement apparatus too early would turn C.31 into a control form and would violate the architecture source invariant: repair succeeds only when one useful admissible action remains.
 
@@ -364,7 +364,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 
 | Pattern | Relation |
 | --- | --- |
-| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 uses any recovered characteristic subject, scale cue, repair move, or proxy-risk row. |
+| `C.30.STRAT` | Recovers source labels such as layer, level, tier, stack, block, expert, cache, router, and gate before C.31 uses any recovered characteristic subject, scale cue, repair action, or proxy-risk row. |
 | `A.6.M` | Repairs module-interface relations before C.31 characterizes modularity. |
 | `C.31.RSA` | Governs reusable-structure accounting, bespoke residue, and report-only shares. |
 | `C.31.ASAP` | Governs architecture scale-preference claims after C.31 names the scale-sensitive characteristic, scale variable or window, and repair direction. |

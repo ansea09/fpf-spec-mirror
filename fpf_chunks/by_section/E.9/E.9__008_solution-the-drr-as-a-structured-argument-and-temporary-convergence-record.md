@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — the DRR as a structured argument and temporary convergence record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-the-drr-as-a-structured-argument-and-temporary-convergence-record.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — the DRR as a structured argument and temporary convergence record"
-line_start: 61562
-line_end: 61725
+line_start: 61869
+line_end: 62032
 dependencies:
   - "E.10"
   - "E.19"
@@ -184,7 +184,7 @@ The `DRR` names:
 - the selected FPF pattern chosen to carry that delta;
 - process-control material excluded from FPF pattern prose, such as role dispatch, seam state, helper behavior, Git recovery, packet transport, review transport, chat cadence, and mutable release state;
 - the source-use result for that passage or decision-ground item: quote named by value, narrowed scope, instantiated case, decision-bearing use, draft-guidance source, example-only use, or retired source use;
-- any meaning loss or addition created by that source-use result: changed scope, relation, evidence path, admissible use, non-admissible use, reader move, or recoverability condition;
+- any meaning loss or addition created by that source-use result: changed scope, relation, evidence path, admissible use, non-admissible use, reader use, or recoverability condition;
 - the first improved FPF use that the admitted method gives to an author, reviewer, or downstream FPF user;
 - the current disposition: selected now, inherited sufficient, rejected now, or outside the current decision with the named evaluation pattern, accepted `DRR`, or accepted decision-ground item named by value.
 

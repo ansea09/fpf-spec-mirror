@@ -6,12 +6,12 @@ section_id: "E.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__004_forces.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:3 — Forces"
-line_start: 70809
-line_end: 70819
+line_start: 71570
+line_end: 71580
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
@@ -28,6 +29,7 @@ dependencies:
   - "C.22.2"
   - "C.29"
   - "E.10"
+  - "E.11.PUR"
   - "E.17"
   - "E.18"
   - "E.19"
@@ -52,7 +54,7 @@ keywords:
 |---|---|---|
 | First-principles usefulness | A strong problem-side insight may guide method, planning, work, or result interpretation. | The insight is tempting to treat as a completed downstream claim. |
 | Governing-kind precision | The next FPF kind or relation must be recoverable before a continuing carry-through relation is used. | Diagrams, graph-shaped expressions, and source wording can look sufficient without a record to write. |
-| Practical readability | First use needs a compact record and a quick next action. | Too much boundary prose can hide the working P2W move. |
+| Practical readability | First use needs a compact record and a quick continuing FPF use. | Too much boundary prose can hide the working P2W application. |
 | Non-linear use | P2W may skip, branch, split, stop, or reopen loci in the carry-through structure. | A readable diagram or graph-shaped expression can be mistaken for a required project sequence. |
 | Result usefulness | Result phrases often point to artifacts, telemetry, acceptance, measurement, refresh, or role enactability. | One broad result word can hide several different records. |
 | Governing-pattern economy | Direct governing patterns keep their own law. | Repeating their non-use doctrine inside P2W creates content fanout. |

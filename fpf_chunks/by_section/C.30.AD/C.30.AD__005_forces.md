@@ -6,16 +6,17 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 54651
-line_end: 54661
+line_start: 54950
+line_end: 54960
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -39,6 +40,8 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -62,7 +65,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, selected structure, decision, proof, or release authority. |
+| Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, selected structure, decision claim, proof, or release authorization. |
 | Multi-view richness vs selected-structure recovery | Several views can be needed, but each view names the architecture claim, viewpoint, selected structure or structure kind, and admissible use before it is relied on. |
 | Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints help a role or practice inspect an architecture; they do not choose the structure kind unless `C.30.ASV` or another governing structural-view pattern names the structure-kind relation by value. |
 | Reuse vs freshness | A reused architecture description needs source edition, structure edition, or source-return boundaries when its admissible use depends on currentness. |

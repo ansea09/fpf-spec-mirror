@@ -6,12 +6,12 @@ section_id: "B.1.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__013_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:9 — Consequences"
-line_start: 31991
-line_end: 31996
+line_start: 32277
+line_end: 32282
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,11 +19,13 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "B.1"
   - "B.1.4"
+  - "B.1.6"
   - "B.2"
   - "B.2-family"
   - "B.2.P"

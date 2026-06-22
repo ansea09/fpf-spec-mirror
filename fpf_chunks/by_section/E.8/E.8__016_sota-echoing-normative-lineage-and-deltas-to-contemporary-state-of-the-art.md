@@ -6,15 +6,17 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 61265
-line_end: 61301
+line_start: 61571
+line_end: 61607
 dependencies:
   - "E.10"
+  - "E.10.MOVE"
   - "E.11"
+  - "E.11.PUR"
   - "E.13"
   - "E.19"
   - "E.21"
@@ -87,5 +89,5 @@ keywords:
 | Pattern quality needs explicit validation beyond folklore. | Critique of ad hoc validation, including the rule of three, and push toward more rigorous discovery and validation methods. | **Current-best source use for pattern discovery and validation rigor in this row's narrow use.** The source changes E.8 by requiring validation to be explicit rather than folklore-based. | Riehle, Harutyunyan, Barcomb (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | E.8 encodes validation as Conformance Checklist plus SoTA-Echoing with adoption status and evidence binding. | **Adopt.** Adopt auditability goals; keep the mechanism lightweight through checks and evidence binding. |
 | Governance should constrain structure, not mandate tools. | Specify conformance and structure; do not prescribe processes, notations, tools, or recording media. | **Current-standard reference use.** The architecture-description standard supplies a useful conformance-vs-tooling distinction, but E.8 does not import architecture-description ontology as pattern-authoring ontology. | ISO/IEC/IEEE 42010:2022, *Software, systems and enterprise - Architecture description*. | E.8 is template-centric and conformance-centric, with guardrails against tool and notation lock-in in core narrative. | **Adopt.** Directly adopt the conformance-not-tooling discipline for authoring shape. |
 | Pattern languages are networks; visuals often mislead. | Systematic surveys report low consensus on what to visualise and ambiguous or inexpressive visuals; relations need clear definition in text. | **Current-practice rationale use.** The source is used as rationale for the text-first relation discipline; it is not current-best source material for all pattern-language visualization. | Quirino, Barcellos, Falbo (2018), “Visual Notations for Software Pattern Languages: A Mapping Study”. | E.8 requires a Relations section and keeps diagrams optional, placing primacy on textual structure and explicit links. | **Adapt.** Use the finding as rationale for text-first, relation-explicit authoring. |
-| Controlled technical writing should be plain without losing necessary terms. | Plain-language practice writes for a specific audience, removes unnecessary words and hidden verbs, avoids synonym churn for the same object, and keeps necessary technical or legal terms when they carry the meaning. | **Current-practice source use for kind-safe plain wording.** The source changes E.8 by making plain wording a precision-preserving diagnostic, not decorative simplification. | U.S. Plain Writing Act implementation and Digital.gov plain-language guides; SEC, *A Plain English Handbook*. | E.8 encodes kind-safe plain rewriting: remove phrase-level role/carrier/locus/flow/status apparatus only when it adds no kind, relation, evidence value, or user move; preserve established FPF terms unless `E.10`/`F.18` changes them. | **Adapt.** Adopt audience-first, concise, consistent wording; adapt it to FPF kind preservation. |
+| Controlled technical writing should be plain without losing necessary terms. | Plain-language practice writes for a specific audience, removes unnecessary words and hidden verbs, avoids synonym churn for the same object, and keeps necessary technical or legal terms when they carry the meaning. | **Current-practice source use for kind-safe plain wording.** The source changes E.8 by making plain wording a precision-preserving diagnostic, not decorative simplification. | U.S. Plain Writing Act implementation and Digital.gov plain-language guides; SEC, *A Plain English Handbook*. | E.8 encodes kind-safe plain rewriting: remove phrase-level role/carrier/locus/flow/status apparatus only when it adds no kind, relation, evidence value, or user-facing action; preserve established FPF terms unless `E.10`/`F.18` changes them. | **Adapt.** Adopt audience-first, concise, consistent wording; adapt it to FPF kind preservation. |
 

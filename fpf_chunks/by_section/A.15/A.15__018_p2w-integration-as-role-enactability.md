@@ -6,18 +6,19 @@ section_id: "A.15:12e"
 section_title: "P2W Integration As Role Enactability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__018_p2w-integration-as-role-enactability.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12e — P2W Integration As Role Enactability"
-line_start: 21295
-line_end: 21300
+line_start: 21306
+line_end: 21311
 dependencies:
   - "A.10"
   - "A.12"
   - "A.15"
-  - "A.15.1-A.15.4"
+  - "A.15.1-A.15.5"
   - "A.15.4"
+  - "A.15.5"
   - "A.2"
   - "A.20"
   - "A.21"
@@ -47,6 +48,7 @@ keywords:
   - "role-method-work distinction"
   - "source-restoration boundary"
   - "work admission display"
+  - "work-entry readiness"
 ---
 
 ### A.15:12e - P2W Integration As Role Enactability

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.P.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-line_start: 55150
-line_end: 55389
+line_start: 55454
+line_end: 55693
 dependencies:
   - "A.10"
   - "A.15"
@@ -151,7 +151,7 @@ ArchitectureOrStructureRepairNote:
   repairedWordingOrDemotion:
   admissibleUse:
   nonAdmissibleUse:
-  remainingReaderMove:
+  remainingReaderUse:
   disposition:
 ```
 
@@ -243,14 +243,14 @@ This row belongs in this pattern because it blocks diagram-as-architecture, grap
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C30P-1` | The repair names the trigger span, encountered FPF kind or reference, selected use under repair, governing pattern, admissible use, non-admissible use, and remaining reader move. |
+| `CC-C30P-1` | The repair names the trigger span, encountered FPF kind or reference, selected use under repair, governing pattern, admissible use, non-admissible use, and remaining reader use. |
 | `CC-C30P-2` | A diagram, model, graph, dashboard, ADR, source, publication, view, face, `PublicationUnit`, file, carrier, or rendering is not treated as architecture or structure by appearance. |
 | `CC-C30P-3` | Direct `A.22`, `C.30`, `C.30.ASV`, or named `C.30.*` use applies the governing pattern directly when the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, or named C.30 subcase is already recoverable. |
 | `CC-C30P-4` | Source-use, currentness, and publication-to-carrier relation recovery uses `C.2.P` before architecture or structure claim use when that relation set is being made. |
 | `CC-C30P-5` | Function-like, relation-like, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, and method claims are assigned to their governing patterns. |
 | `CC-C30P-6` | The repair does not mint `U.Architecture`, `ArchitectureStructure`, a generic architecture head, or mandatory architecture-repair record. |
 | `CC-C30P-7` | The subject architecture or structure pattern keeps its own invariant central and carries at most a thin pointer back to this pattern. |
-| `CC-C30P-8` | The repaired wording preserves one useful admissible reader move; type-correct but inert architecture wording is not recovered by value. |
+| `CC-C30P-8` | The repaired wording preserves one useful admissible reader use; type-correct but inert architecture wording is not recovered by value. |
 
 ### C.30.P:9 - Common anti-patterns
 

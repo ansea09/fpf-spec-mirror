@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ILC.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
-line_start: 56644
-line_end: 56895
+line_start: 56948
+line_end: 57199
 dependencies:
   - "A.10"
   - "A.22"
@@ -222,7 +222,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no et
 * **Mediation-default bias.** Every conflict is treated as ethical mediation or negotiation. Repair by checking whether the use under repair is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
 * **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before applying `G.5` to a residual-reducing candidate set.
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected move; it is not a required project control form and not a substitute for the card, note, view, relation, or repair move above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
 
 ### C.30.ILC:7 - Conformance Checklist
 
@@ -264,7 +264,7 @@ This makes multilevel optimization usable rather than decorative. `C.30.ILC` ide
 
 Interlevel conflict and frustration are useful Plain entry labels because they point to a recurrent architecture failure: local repair in one declared holon level or declared scope leaves a residual in another. They are dangerous as generic labels because they can hide which level, scope, level-bearing structure, relation, conflict carrier, or source-return condition bears the residual.
 
-A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the residual-bearing locus is recoverable and the next move can be named.
+A local optimum or successful local repair is therefore not treated as whole-architecture adequacy. It becomes architecture-relevant only when the residual-bearing locus is recoverable and the next architecture use can be named.
 
 `C.30.ILC` keeps the entry label but recovers the architecture relation or structure claim. It treats conflict or frustration as architecture-shaping only when declared holon levels or declared scopes, the level-bearing structure, conflict carriers, and residual-bearing loci are named. This lets FPF preserve the practical intuition without introducing a second ontology of levels, a hidden measurement pattern, a physics or biology transfer, a global optimizer proof, or a prescribed architecture work order.
 

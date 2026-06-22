@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.2.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.5.2 — Abductive Loop"
-line_start: 35144
-line_end: 35441
+line_start: 35431
+line_end: 35728
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,7 +51,7 @@ The Canonical Reasoning Cycle begins with abduction: the disciplined proposal of
 Without an explicit abductive pattern:
 
 1. **Inquiry stalls at surprise.**
-   A team encounters an anomaly, opportunity, or probe pressure but has no admissible next move for producing a candidate hypothesis.
+   A team encounters an anomaly, opportunity, or probe pressure but has no admissible next action for producing a candidate hypothesis.
 2. **Origin is lost.**
    Once a conjecture appears, the initiating prompt, rival candidates, and early plausibility grounds disappear from the record.
 3. **Candidate space collapses too early.**
@@ -201,7 +201,7 @@ A selected prime hypothesis should preserve more than the hypothesis sentence it
 - the **prompt** it answers,
 - the **filters** under which it outranked rivals,
 - the **scope** within which it is being advanced,
-- the **next admissible downstream move** (deduction, probe design, targeted evidence acquisition, or explicit reopening criteria),
+- the **next admissible downstream use** (deduction, probe design, targeted evidence acquisition, or explicit reopening criteria),
 - and any **known fragilities** already visible at selection time.
 
 This is how `B.5.2` stays connected to the rest of the reasoning cycle. The abductive loop does not merely emit an idea; it emits a conjecture with explicit downstream-use terms.
@@ -291,7 +291,7 @@ Authors should treat the abductive loop as a **selection discipline**, not as a 
 - what is the prompt,
 - what rival candidates were seriously considered,
 - why is one candidate currently the best live conjecture,
-- and what downstream move could expose that selection as right or wrong?
+- and what downstream use could expose that selection as right or wrong?
 
 If those answers cannot be given, the publication is probably not yet at `B.5.2` and should return to prompt-shaping or lexical repair.
 

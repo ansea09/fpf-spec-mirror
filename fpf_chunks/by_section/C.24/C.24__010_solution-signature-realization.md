@@ -6,15 +6,16 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 47271
-line_end: 47482
+line_start: 47564
+line_end: 47775
 dependencies:
   - "A.1"
   - "A.15"
+  - "A.15.5"
   - "B.3"
   - "C.11"
   - "C.18"
@@ -22,6 +23,8 @@ dependencies:
   - "C.24"
   - "C.28"
   - "C.5"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.23"
   - "E.3"
   - "E.5"
@@ -35,10 +38,10 @@ keywords:
 
 ### C.24:4 - Solution — Signature & Realization
 
-**Types (aliases).**
-*`ATC.CallRouteDescription`* ≡ `U.MethodDescription` with `accessSpec` for one tool service or callable route;
-*`ATC.CallPlan`* ≡ `U.WorkPlan` specialised for intended tool-call work; it cites one or more `ATC.CallRouteDescription` editions plus planned order, budget ceilings, stop or replan triggers, and next move;
-*`ATC.CallGraph`* ≡ Evidence/Provenance graph over a `U.Work` ledger;
+**Local value names.**
+*`ATC.CallRouteDescription`* is a `U.MethodDescription` with `accessSpec` for one tool service or callable route;
+*`ATC.CallPlan`* is a `U.WorkPlan` specialised for intended tool-call work; it cites one or more `ATC.CallRouteDescription` editions plus planned order, budget ceilings, stop or replan triggers, and `nextPlannedAction`;
+*`ATC.CallGraph`* is an evidence or provenance graph over a `U.Work` ledger;
 *`ATC.Policy`* references `U.EmitterPolicyRef` (E/E-LOG) and local call gates **including BLP tolerances (alpha, delta)**.
 
 **Roles.**
@@ -76,7 +79,7 @@ A successful probe does not by itself justify a larger burn or a committed rollo
 
 **Bridge to neighboring patterns.** `ProbeBudget` belongs to `C.11` while it means epistemic budget for further probing before choice. `C.24` carries budgets once they are enactment, tool-call, or rollout budgets. If the question is still which option survives now, apply `C.11`; if it is now pool policy over several still-live candidate lines, apply `C.19`; if it is selector-facing publication of the selected result, apply `G.5`.
 
-**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, the cited route descriptions or planned call order, the planned budget envelope, the stop or replan condition, and the next move, or one `CheckpointReturn` that states the current objective or task family, the burned and residual actual budget, the evidence locus, the commit trigger, and the recommended next action.
+**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, the cited route descriptions or planned call order, the planned budget envelope, the stop or replan condition, and the next planned action, or one `CheckpointReturn` that states the current objective or task family, the burned and residual actual budget, the evidence locus, the commit trigger, and the recommended next action.
 
 **Unfinished-state rule.** A `C.24` result remains unfinished when it cannot say whether execution should continue now, pause at one checkpoint, or reroute, when it confuses route description with plan or plan with executed work, or when it does not state which budget is planned versus already burned and what event would stop or replan the current route.
 
@@ -121,14 +124,14 @@ The causal action-use tail may be omitted only when the call plan does not reach
 
 What changes in practice: a call plan that probes, intervenes, samples, simulates, or evaluates a policy for a causal purpose must state `CausalUseClaimKind` and the causal regime of the planned action before execution evidence is treated as support for a causal-use claim.
 
-What this does not authorize: `C.24` does not estimate effects, prove identification, certify fairness, or turn simulation output into realized counterfactual-rung evidence; it governs admissible call planning and redirects causal-use support to `C.28`.
+What this does not establish: `C.24` does not estimate effects, prove identification, certify fairness, or turn simulation output into realized counterfactual-rung evidence; it governs admissible call planning and redirects causal-use support to `C.28`.
 
 - Planning should reuse the declared source set, decision lens, probe budget, and stopping condition rather than creating one planning-only choice semantics.
 - Budgeted sequencing may mix exploitation and exploration, but the declared source set and the declared reason for the next probe must stay recoverable.
 - Use planning language such as `probe next`, `hold as archive`, `apply G.5 for shortlist publication`, or `stop for now` only when the relevant lens-side reason is stated directly.
 - `explore_share`, `backstop_confidence`, probe budgets, and replan triggers are planning harmonization terms for that same declared choice doctrine.
 - They may regulate sequence and stopping; they do not redefine `Front`, `Archive`, `Shortlist`, or `SelectionSlot`.
-- If the next planned move is one public `Shortlist` or `RankedShortlist`, `C.24` should name that as a neighbouring-pattern exit to `G.5`, not emit the selector artifact itself.
+- If the next planned output is one public `Shortlist` or `RankedShortlist`, `C.24` should name that as a neighbouring-pattern exit to `G.5`, not emit the selector artifact itself.
 
 #### C.24:4.2 - Policy profile and BLP precedence
 
@@ -149,7 +152,7 @@ A finished `C.24` pass should publish one enactment result rather than one vague
 Two output shapes are admissible here:
 
 - one enactment-facing `CallPlan`; or
-- one bounded `CheckpointReturn` when probing is still the admissible next move inside enactment planning.
+- one bounded `CheckpointReturn` when probing is still the admissible next action inside enactment planning.
 
 A `CallPlan` should state at least these fields:
 
@@ -158,7 +161,7 @@ A `CallPlan` should state at least these fields:
 - active policy or planning state;
 - planned budget envelope or reserved budget;
 - stop or replan condition;
-- next move if the current plan is accepted now.
+- `nextPlannedAction` if the current plan is accepted now.
 
 A `CheckpointReturn` should state at least these fields:
 
@@ -178,7 +181,7 @@ CallPlan(
   routeRefsInOrder = [search_route_v3, retrieve_route_v1, synthesize_route_v2, code_check_route_v1],
   plannedBudgetEnvelope = {time<=60_minutes, compute<=x1, cost<=y1, risk<=r1},
   stopOrReplan = low_R_or_cost_ceiling,
-  nextMove = enact_now
+  nextPlannedAction = enact_now
 )
 ```
 
@@ -212,7 +215,7 @@ CallPlan(
   routeRefsInOrder = [inspect_repo_route, edit_candidate_route, run_targeted_tests_route],
   plannedBudgetEnvelope = {time<=45_minutes, compute<=x2, cost<=y2, risk<=r2},
   stopOrReplan = targeted_tests_fail_twice,
-  nextMove = enact_now
+  nextPlannedAction = enact_now
 )
 ```
 

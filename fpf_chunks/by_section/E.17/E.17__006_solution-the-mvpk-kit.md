@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 67455
-line_end: 67805
+line_start: 68215
+line_end: 68565
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -151,9 +151,9 @@ Use these terms when a publication face, rendering, narrower-use rendering, expl
 | Term | Meaning for FPF use |
 | --- | --- |
 | `orientation use` | The publication-facing unit helps a reader find, inspect, triage, compare, teach, discuss, or prepare planning while the unit itself does not carry a downstream work, reliance, claim, or effect. |
-| `reliance use` | The publication-facing unit is used as the source relation for an engineering claim or effect that changes a next work or reliance move, such as method choice, work plan, performed-work claim, release, gate, approval, role or status, evidence, assurance, or external-impact move. |
+| `reliance use` | The publication-facing unit is used as the source relation for an engineering claim or effect that changes a next work occurrence or reliance use, such as method choice, work plan, performed-work claim, release, gate, approval, role or status, evidence, assurance, or external-impact action. |
 | `work, reliance, claim, or effect` | A claim or instituted effect about method selection, selected method, `U.WorkPlan`, performed `U.Work`, work result, gate or release, role or status, evidence, assurance, boundary or policy effect, or another typed project-side value named by value and reference. |
-| `operative claim` | A claim whose acceptance would change the next bounded work or reliance move, the typed project-side value named by value and reference to recover, or the cross-context use of the publication-facing unit. Explanatory prose, examples, and source-finding cues are not operative claims unless they are used that way. |
+| `operative claim` | A claim whose acceptance would change the next bounded work occurrence or reliance use, the typed project-side value named by value and reference to recover, or the cross-context use of the publication-facing unit. Explanatory prose, examples, and source-finding cues are not operative claims unless they are used that way. |
 | `non-admissible downstream use` | A wider use that the current source relation does not carry. It requires narrowing the use, returning to the source-bearing side, recovering the source relation named by value, or using the neighboring FPF pattern governing that claim and typed project-side value named by value and reference that governs the wider claim or effect. |
 | `reopen trigger` | A dispute, use escalation, missing, stale, or contradictory source relation, source update, context or window change, or wider claim or effect that requires source-bearing return, source refresh, re-expansion, or use of the governing pattern. |
 | `authority-looking case` | A recognition phrase for an encountered publication-facing unit that can be overinterpreted as permission, approval, evidence, gate passage, role or status, work occurrence, assurance, or release source relation. It is not a `U.*` kind, not a typed project-side value named by value and reference, and not a governing pattern. |
@@ -172,7 +172,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 
 | Present claim or effect question | Apply or recover |
 | --- | --- |
-| Is the publication-facing unit being used to guide a work or reliance move by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the live question, use it directly. |
+| Is the publication-facing unit being used to guide a work occurrence or reliance use by appearance, while the acting user still needs the typed project-side value named by value and reference before proceeding? | `A.15.4` for the restoration step; the recovered value can then be `A.15`, `A.15.1`, `A.10`, `B.3`, `A.20`, `A.21`, `A.2.8`, `A.2.9`, `A.6.B`, or another typed project-side value named by value and reference. If that exact value is already the live question, use it directly. |
 | Is the publication-facing unit being used as evidence, provenance, attestation, currentness, freshness, or claim-bound evidence relation? | `A.10` evidence, provenance, or currentness path for the claim named by value. |
 | Is the publication-facing unit being used as engineering justification, assurance, confidence, readiness, or limitations relation? | `B.3` assurance or engineering-justification claim with evidence, limits, and decay explicit. |
 | Is the publication-facing unit being used as gate passage, constraint validity, adjudication, or release decision source? | `A.20` or `A.21` project records, including gate profile, constraint profile, decision record, log reference, scope, window, replay reference and freshness reference. |

@@ -6,12 +6,12 @@ section_id: "C.3.2:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__003_context.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:2 — Context"
-line_start: 40068
-line_end: 40071
+line_start: 40355
+line_end: 40358
 dependencies:
   - "C.3.1"
   - "C.3.3"

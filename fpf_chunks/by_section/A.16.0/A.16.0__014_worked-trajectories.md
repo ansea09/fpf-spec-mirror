@@ -6,12 +6,12 @@ section_id: "A.16.0:13"
 section_title: "Worked trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__014_worked-trajectories.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:13 — Worked trajectories"
-line_start: 23264
-line_end: 23286
+line_start: 23545
+line_end: 23567
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -25,6 +25,7 @@ dependencies:
   - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.1"
   - "E.18"
@@ -32,10 +33,10 @@ dependencies:
   - "F.9.1"
 keywords:
   - "fork"
-  - "handoff"
   - "heavy history"
   - "lineage"
   - "merge"
+  - "responsibility transfer"
   - "supersedes"
   - "trajectory account"
 ---
@@ -51,7 +52,7 @@ An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may fir
 - `notice -> stabilize -> route -> projection -> formalize`, with a cue-derived prompt publication carrying the explanatory branch, and
 - `notice -> stabilize -> route -> projection -> operationalize`
 
-if one branch supports explanatory work while another supports immediate probe or control work. The branches remain admissible only if the fork is visible and each branch keeps distinct loss notes and handoff conditions.
+if one branch supports explanatory work while another supports immediate probe or control work. The branches remain admissible only if the fork is visible and each branch keeps distinct loss notes and responsibility-transfer conditions.
 
 #### A.16.0:13.3 - Operator trajectory with retirement
 An operator alert note about a service disturbance may move:

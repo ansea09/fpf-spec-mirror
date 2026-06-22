@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 62048
-line_end: 62066
+line_start: 62355
+line_end: 62373
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -32,7 +32,7 @@ keywords:
 | `CC-E9DA-1` | Name `DRRVersionRef`, declared authoring use, selected-locus disposition map, and qualification window. |
 | `CC-E9DA-2` | Evaluate every coordinate in `E.9.DA:4.4` with value, short rationale, and evidence locus, using the required result-row shape. |
 | `CC-E9DA-3` | Justify values from `DRR` decision content and accepted source-use payload, not administrative state or reputation. |
-| `CC-E9DA-4` | State `DRRDecisionAdequacyStatus`, first drafting move or first repair, bounded non-use, and reopen condition. |
+| `CC-E9DA-4` | State `DRRDecisionAdequacyStatus`, first drafting action or first repair, bounded non-use, and reopen condition. |
 | `CC-E9DA-5` | Keep `DRR` adequacy distinct from pattern quality, review pass, release state, evidence, assurance, gate, and project work. |
 | `CC-E9DA-6` | Apply `E.10` to decision-governing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
 | `CC-E9DA-6a` | Record `DRRPrecisionRestorationProfile` before assigning or accepting values: word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or a governing pattern; phrase apparatus goes to `F.19`; repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology are classified by their governing pattern; boilerplate stays out of future pattern prose. |

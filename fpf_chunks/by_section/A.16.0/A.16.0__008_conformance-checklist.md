@@ -6,12 +6,12 @@ section_id: "A.16.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__008_conformance-checklist.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:7 — Conformance Checklist"
-line_start: 23232
-line_end: 23241
+line_start: 23513
+line_end: 23522
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -25,6 +25,7 @@ dependencies:
   - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.1"
   - "E.18"
@@ -32,10 +33,10 @@ dependencies:
   - "F.9.1"
 keywords:
   - "fork"
-  - "handoff"
   - "heavy history"
   - "lineage"
   - "merge"
+  - "responsibility transfer"
   - "supersedes"
   - "trajectory account"
 ---
@@ -47,6 +48,6 @@ keywords:
 - `CC-A.16.0-4` Fork, merge, supersession, derivation, and retirement **SHALL** be made explicit whenever the account depends on them.
 - `CC-A.16.0-5` Publication form and MVPK face **SHALL NOT** be collapsed, and untyped seam placeholders **SHALL NOT** substitute for typed publication forms.
 - `CC-A.16.0-6` `projection` **SHALL** be read as route-bounded partialization with visible loss notes and an admissible reopen condition.
-- `CC-A.16.0-7` Work-requiring `formalize` or `operationalize` steps **SHALL** expose the relevant crossing or handoff rather than pretending that `U.Work` occurred inside the language layer.
+- `CC-A.16.0-7` Work-requiring `formalize` or `operationalize` steps **SHALL** expose the relevant work-boundary crossing or responsibility transfer rather than pretending that `U.Work` occurred inside the language layer.
 - `CC-A.16.0-8` When graph publication of paths is needed, authors **SHOULD** reuse `E.18` rather than inventing a rival path calculus here.
 

@@ -6,12 +6,12 @@ section_id: "C.27:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:4 — Solution"
-line_start: 49869
-line_end: 50701
+line_start: 50162
+line_end: 50994
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -201,7 +201,7 @@ temporal claim. `patternReferenceOnly` means C.27 states only the temporal
 move, window, and supported-use boundary and cites the FPF pattern that carries the
 other question. `relationOnly` means the concern appears in relations or
 examples but not as an active block. `dyn2PromiseBoundaryRelation?`,
-`dyn2HighStakesTemporalMoveRelation?`, and `dyn2PolicyTransferRelation?` are
+`dyn2HighStakesTemporalActionRelation?`, and `dyn2PolicyTransferRelation?` are
 pattern-reference-only by default; `dyn2PolicyTransferRelation?` is folded into
 `dyn2ControlPolicyRelation?` when behavior-policy and evaluation-policy transfer is
 FPF-governed.
@@ -239,7 +239,7 @@ Dyn2TemporalClaimProfile {
     dyn2ViabilityEnvelopeRelation? // if rate-change, braking, rhythm, or stabilization is used to keep a viability envelope inside usable bounds
     dyn2DebtHysteresisBlock? // if supported use relies on sustained acceleration, braking, recovery, stabilization, or residue after effort changes
     dyn2PromiseBoundaryRelation? // pattern-reference-only when a promise, SLA or SLO, gate, assurance, or public commitment claim is being made
-    dyn2HighStakesTemporalMoveRelation? // pattern-reference-only when a high-stakes acceleration, braking, redirection, or rollout claim is being made
+    dyn2HighStakesTemporalActionRelation? // pattern-reference-only when a high-stakes acceleration, braking, redirection, or rollout claim is being made
     dyn2QLResidualRelation? // if residual probe, frame, order, export, or coarsening cue remains after ordinary FPF pattern relations
 }
 ```
@@ -255,12 +255,12 @@ Pattern-reference-only blocks:
   names `behaviorPolicyRef`, `proposedPolicyRef`, `offPolicyRisk`, and the
   evaluation or control pattern relation; it does not create a separate policy-transfer
   pattern.
-- `dyn2PromiseBoundaryRelation?` states only the temporal move, window,
+- `dyn2PromiseBoundaryRelation?` states only the temporal action, window,
   supported use, unsupported downstream claim, effect, or use, and references to the patterns that
   carry promise, commitment, instituting speech act, service acceptance,
   contract unpacking, and assurance: `A.2.3`, `A.2.8`, `A.2.9`, `A.6.C`,
   `F.12`, and assurance patterns.
-- `dyn2HighStakesTemporalMoveRelation?` states only the high-stakes temporal move, window,
+- `dyn2HighStakesTemporalActionRelation?` states only the high-stakes temporal action, window,
   unsupported downstream claim, effect, or use, and reference to the pattern that carries the harm,
   quality, safety, ethics, legal, financial, operations-service, or
   human-wellbeing question.
@@ -497,7 +497,7 @@ change" claims.
 dyn2ViabilityEnvelopeRelation? {
   viabilityBearerRef?
   protectedPromiseOrFunctionRef?
-  temporalMoveRef?
+  temporalActionRef?
   C26_3ViabilityEnvelopeRelationRef
 }
 ```
@@ -744,7 +744,7 @@ intervention relation that changes supported use, no entry here applies.
 | Transformation-flow, gate, or crossing use | If a C.27-typed temporal claim is used as a `GateCheckRef` input, `GateDecisionRationale`, `LaunchGate` condition, `PathSlice` refresh trigger, crossing condition, or published flow condition, C.27 states only the temporal-claim adequacy question. `E.18`, `A.20`, and `A.21` carry the selected transformation-flow structure, `OperationalGate(profile)`, `ConstraintValidity`, `GateFit`, `DecisionLog`, `PathSlice`, `SquareLaw`, `Gamma_time`, and crossing pins. |
 | Derivative noise | Noisy rate-change readings used for comparison, benchmark, gate, or control need sampling window and stability or noise class, or downgrade. |
 | Coasting | Coasting needs evidence or an assumption when continued movement or stability after effort changes or stops carries the claim. |
-| High-stakes temporal move | Pattern-reference-only relation: high-stakes acceleration, braking, or redirection claims name the temporal move, window, and unsupported use and cite the harm, resource, quality envelope, assurance, ethics, legal, safety, financial, or human-wellbeing pattern that governs the other question. |
+| High-stakes temporal action | Pattern-reference-only relation: high-stakes acceleration, braking, or redirection claims name the temporal action, window, and unsupported use and cite the harm, resource, quality envelope, assurance, ethics, legal, safety, financial, or human-wellbeing pattern that governs the other question. |
 | C.26 residual relation | C.27 does not add QL relation. If a Dyn2 claim also depends on probe, frame, order, export, or coarsening residue that ordinary FPF patterns cannot carry, C.26 carries the residue after ordinary C.27, C.24, C.16, G.9, and E.13 pattern relations are named. |
 | No new publication role | `Dyn2TemporalClaimAdequacyCard` and `Dyn2TemporalClaimProfile` are pattern-local records or cards, not new Part G publication roles, MVPK faces, primary EntityOfConcern values of related FPF patterns, or U-kinds. |
 | Use-triggered lint | Useful lint requires temporal-improvement wording plus decision, comparison, budget, benchmark, gate, promise, publication, assurance, or intervention-plan use. |
@@ -788,7 +788,7 @@ Prefer: `DynOrder`, `Dyn2TemporalClaimAdequacyCard`, `Dyn2TemporalClaimProfile`,
 `hypotheticalUseNote`, `actorCapabilityRef`, `resistanceOrInertiaProxy`,
 `resistanceProxyEvidenceOrAssumption`,
 `dyn2MetricTargetEffectBlock?`, `dyn2ObjectCentricTraceBlock?`,
-`dyn2CrossScaleTransferBlock?`, `dyn2HighStakesTemporalMoveRelation?`,
+`dyn2CrossScaleTransferBlock?`, `dyn2HighStakesTemporalActionRelation?`,
 `supportedUse`, `unsupportedUse`, and `reopenTrigger`.
 
 The dynamic-order labels are values of a claim classification, not kinds of

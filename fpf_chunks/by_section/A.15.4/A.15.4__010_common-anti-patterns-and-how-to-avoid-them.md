@@ -6,16 +6,17 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22656
-line_end: 22659
+line_start: 22713
+line_end: 22716
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.5"
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
@@ -32,7 +33,6 @@ dependencies:
   - "U.Work"
 keywords:
   - "P2W load and position"
-  - "admissible next project move"
   - "approval-looking display"
   - "blocked overread"
   - "copied statement"
@@ -40,6 +40,7 @@ keywords:
   - "dashboard display"
   - "generated explanation"
   - "provenance mark"
+  - "relation-governed current use"
   - "required project-side FPF kind and reference"
   - "work-relevant source restoration"
 ---

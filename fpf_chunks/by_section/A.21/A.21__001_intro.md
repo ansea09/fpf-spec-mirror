@@ -6,12 +6,12 @@ section_id: "A.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__001_intro.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:intro — Intro"
-line_start: 29519
-line_end: 29571
+line_start: 29800
+line_end: 29852
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -51,15 +51,15 @@ keywords:
 
 **Use this when.** Use A.21 when the current question is whether a gate-decision relation publishes a `GateProfile`-bound `GateDecision` from declared GateChecks, folds, pins, and rationale.
 
-**First useful move.** Name the `OperationalGate(profile)`, the current declared `GateProfile`, the effective `GateCheckRef` set, the aggregated CV status, and the `DecisionLogRef` that carries the decision rationale.
+**First useful gate use.** Name the `OperationalGate(profile)`, the current declared `GateProfile`, the effective `GateCheckRef` set, the aggregated CV status, and the `DecisionLogRef` that carries the decision rationale.
 
-**Smallest sufficient gate-publication guidance.** Use the lightest gate-publication guidance that preserves the next bounded practitioner move. Add crossing fields, launch fields, regulated fields, safety-critical fields, replay witnesses, `CrossingBundle`, `PQG` or `RSCR`, or MIP-run material only when the present gate-decision claim would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
+**Smallest sufficient gate-publication guidance.** Use the lightest gate-publication guidance that preserves the current bounded gate use. Add crossing fields, launch fields, regulated fields, safety-critical fields, replay witnesses, `CrossingBundle`, `PQG` or `RSCR`, or MIP-run material only when the present gate-decision claim would otherwise become false, unsafe, non-replayable, or lack a named governing-definition locus.
 
-**Minimum sufficient next move.** If there is only a guard, dashboard cue, explanation, or readiness-looking label and no `A.21` gate-decision relation, A.21 has no gate-decision relation to publish. Once the gate-decision relation is present, the low-risk publication minimum is `GateId + GateProfile + GateCheckRef set + CV aggregate + GateDecision + DecisionLogRef`; crossing, launch, regulated, and safety-critical fields appear only when those claims are being made.
+**Minimum sufficient gate use.** If there is only a guard, dashboard cue, explanation, full-kit-looking label, or readiness-looking label and no `A.21` gate-decision relation, A.21 has no gate-decision relation to publish. Once the gate-decision relation is present, the low-risk publication minimum is `GateId + GateProfile + GateCheckRef set + CV aggregate + GateDecision + DecisionLogRef`; crossing, launch, regulated, and safety-critical fields appear only when those claims are being made. If the current question is whether intended work has full-kit or work-entry readiness without a gate-decision relation, use `A.15.5`.
 
 **Do not escalate when.** Do not turn cues, guards, narrative explanations, dashboard states, CV results, or readiness-looking labels into a `GateDecision`. Use A.21 only when a present gate-decision relation consumes check refs under a current declared `GateProfile`.
 
-**Gate-looking display and conformance-label disposition.** A green tile, readiness badge, release screen, conformance label, `CV.Status`, safety-envelope note, or regulated-conformance phrase is not gate passage by resemblance. If the attempted use is gate passage, recover the current `OperationalGate(profile)`, `GateProfile`, effective `GateCheckRef` set, CV aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and effective window. If those fields are not recoverable, keep the display as a cue, source pointer, CV result, or evidence question; the evidence claim is governed by `A.10`, the CV result by `A.20`, the assurance claim by `B.3`, the language-quality question by `E.19`, or the recovered neighboring claim by its own governing pattern. Safety-envelope and assurance claims do not belong to A.21 unless they are declared gate checks consumed under the current `GateProfile`; their evidence and assurance relations remain with `A.10` and `B.3`. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or neighboring-pattern relation.
+**Gate-looking display and conformance-label disposition.** A green tile, readiness badge, release screen, full-kit label, conformance label, `CV.Status`, safety-envelope note, or regulated-conformance phrase is not gate passage by resemblance. If the attempted use is gate passage, recover the current `OperationalGate(profile)`, `GateProfile`, effective `GateCheckRef` set, CV aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and effective window. If those fields are not recoverable, keep the display as a cue, source pointer, CV result, evidence question, or work-entry-readiness question; the evidence claim is governed by `A.10`, the CV result by `A.20`, the work-entry-readiness relation by `A.15.5`, the assurance claim by `B.3`, the language-quality question by `E.19`, or the recovered neighboring claim by its own governing pattern. Safety-envelope, work-entry-readiness, and assurance claims do not belong to A.21 unless they are declared gate checks consumed under the current `GateProfile`; their evidence, readiness, and assurance relations remain with `A.10`, `A.15.5`, and `B.3`. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, readiness, assurance, work, decision, or neighboring-pattern relation.
 
 **Common wrong interpretation.** A green tile, readiness display, or release screen means `GateDecision=pass` exists. First honest entry: A.21 applies only when a current `OperationalGate(profile)` consumes declared checks and publishes a `GateDecision` with `DecisionLogRef`; otherwise the display remains a cue or source question.
 
@@ -92,5 +92,5 @@ Repaired anti-case: a release screen says all checks are green but no current `O
 
 **What this buys.** A.21 gives the practitioner one place to separate `GateProfile` fit, decision aggregation, rationale, optional explanation, and decision-record reuse while keeping gate logic out of CV and planning.
 
-**Not this pattern when.** If the question is internal step constraint satisfaction, use `A.20`. If the question is graph crossing or valuation, use `E.18`. If the question is performed work or work planning, use the work occurrence or work-planning loci. If the text only contains a guard, cue, explanation, dashboard state, lexical pseudo-gate, or readiness-looking label without an `A.21` gate-decision relation, do not infer gate passage.
+**Not this pattern when.** If the question is internal step constraint satisfaction, use `A.20`. If the question is graph crossing or valuation, use `E.18`. If the question is performed work or work planning, use the work occurrence or work-planning loci. If the question is full-kit condition or work-entry readiness before work entry, use `A.15.5` unless an actual gate-decision relation is current. If the text only contains a guard, cue, explanation, dashboard state, lexical pseudo-gate, or readiness-looking label without an `A.21` gate-decision relation, do not infer gate passage.
 

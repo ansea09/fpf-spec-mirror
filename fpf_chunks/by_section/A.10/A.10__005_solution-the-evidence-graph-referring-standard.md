@@ -6,12 +6,12 @@ section_id: "A.10:4"
 section_title: "Solution — The Evidence Graph Referring Standard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__005_solution-the-evidence-graph-referring-standard.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:4 — Solution — The Evidence Graph Referring Standard"
-line_start: 19658
-line_end: 19884
+line_start: 19663
+line_end: 19889
 dependencies:
   - "A.1"
   - "A.10"
@@ -94,13 +94,13 @@ The work occurrence that produces, measures, interprets, verifies, publishes, or
 
 #### A.10:4.6a - Authority-reliance use of ordinary A.10 evidence-provenance paths
 
-Use this subsection when an authority-looking case is being used as evidence for a reliance claim. The `A.10` evidence-provenance path is claim-bound: it evidences one named claim or effect for one named work move or reliance move, not "authority" in general. This subsection does not change the A.10 `EntityOfConcern`; it applies the same evidence-provenance graph relation to source-sensitive cases where displays, credentials, copied text, generated text, dashboards, provenance labels, or attestations are being overread. If the work occurrence, gate decision, speech act, commitment, or evidence relation is already recorded in a project-side FPF source, recover and cite that source named by value directly instead of analyzing nearby wording first.
+Use this subsection when an authority-looking case is being used as evidence for a reliance claim. The `A.10` evidence-provenance path is claim-bound: it evidences one named claim or effect for one named work occurrence or reliance use, not "authority" in general. This subsection does not change the A.10 `EntityOfConcern`; it applies the same evidence-provenance graph relation to source-sensitive cases where displays, credentials, copied text, generated text, dashboards, provenance labels, or attestations are being overread. If the work occurrence, gate decision, speech act, commitment, or evidence relation is already recorded in a project-side FPF source, recover and cite that source named by value directly instead of analyzing nearby wording first.
 
 A10-lite is enough for source-finding, orientation, learning, and bounded reversible probes:
 
 | Field | Required content |
 | --- | --- |
-| claim or effect | The claim, effect, or source-backed reliance use the evidence carrier is being asked to evidence for the named work move or reliance move. |
+| claim or effect | The claim, effect, or source-backed reliance use the evidence carrier is being asked to evidence for the named work occurrence or reliance use. |
 | evidence carrier | The display, badge, credential, attestation, dashboard tile, copied text, generated text, log, trace, source file, report, or other `SymbolCarrier`/publication carrier. |
 | producer, issuer, verifier, or source-maintenance role assignment | The role assignment or system that issued, performed, attested, measured, copied, generated, verified, or displayed the carrier or source-backed content. |
 | method enactment or work occurrence | The work act, measurement, verification, review, build, attestation, copy, extraction, generation, dashboard query, API query, trace, log, or method enactment that produced the carrier. |
@@ -181,9 +181,9 @@ What this does not authorize: `A.10` does not approve, authorize work or relianc
 
 #### A.10:4.6b - Local evidence-use classifier and `RelianceDisposition` for source-looking evidence uses
 
-Use this subsection when a visible source is being treated as evidence for a claim, act, work move, gate, release, review claim, assurance use, or problem-side P2W use. The first A.10 move is to recover the evidence kind and the bounded evidence use. Broad source words such as `source`, `metric`, `confidence`, `conformant`, `safe`, `ready`, `certified`, `approval`, or `permission` are only recovery prompts; they do not name the evidence relation by themselves.
+Use this subsection when a visible source is being treated as evidence for a claim, act, work occurrence, gate, release, review claim, assurance use, or problem-side P2W use. The first A.10 action is to recover the evidence kind and the bounded evidence use. Broad source words such as `source`, `metric`, `confidence`, `conformant`, `safe`, `ready`, `certified`, `approval`, or `permission` are only recovery prompts; they do not name the evidence relation by themselves.
 
-This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next move: recover the evidence relation, name the bounded evidence use and unsupported attempted use, then either stay inside A.10 or apply the governing pattern for the stronger claim being made. It is not a required project review step and does not ask the practitioner to inspect every source-looking carrier or display.
+This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next action: recover the evidence relation, name the bounded evidence use and unsupported attempted use, then either stay inside A.10 or apply the governing pattern for the stronger claim being made. It is not a required project review step and does not ask the practitioner to inspect every source-looking carrier or display.
 
 Section role: the first table is an A.10 recognition aid, the `RelianceDisposition` table is a minimum local record aid, and the worked source-overread slices are regression slices and review slices. They are not project checklists, a required sequence, a new evidence ontology, or a general source classifier. Use only the row that answers the attempted evidence use, then stop when the bounded evidence relation, unsupported attempted use, and reopen condition are clear. This local section keeps the attempted use inside the A.10 evidence relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
 
@@ -193,9 +193,9 @@ Cheap stop: if a bounded claim, current carrier, evidence-provenance path, windo
 
 Common wrong first classification: a visible source is approval, permission, safety, or readiness. First honest entry: recover the A.10 evidence-provenance path for one bounded claim or use; approval, permission, safety, readiness, gate passage, and work authority stay with their governing patterns when those relations are being claimed.
 
-Plain move palette: `RelianceDisposition=pass` means proceed only inside the bounded evidence use; `RelianceDisposition=degrade` means use only a narrower or reversible version; `RelianceDisposition=abstain` means do not decide yet; `RelianceDisposition=reopen` means changed or contested evidence relation defeated the previous evidence-use classification; `RelianceDisposition=evidence-needed` means ask for the named missing evidence at the named decision point; `RelianceDisposition=safety-case-required` means apply `B.3` because the B.3 material-reliance threshold is met; `RelianceDisposition=blocked-current-use` means block the current attempted use until the evidence-provenance path or governing source relation changes.
+Plain disposition palette: `RelianceDisposition=pass` means proceed only inside the bounded evidence use; `RelianceDisposition=degrade` means use only a narrower or reversible version; `RelianceDisposition=abstain` means do not decide yet; `RelianceDisposition=reopen` means changed or contested evidence relation defeated the previous evidence-use classification; `RelianceDisposition=evidence-needed` means ask for the named missing evidence at the named decision point; `RelianceDisposition=safety-case-required` means apply `B.3` because the B.3 material-reliance threshold is met; `RelianceDisposition=blocked-current-use` means block the current attempted use until the evidence-provenance path or governing source relation changes.
 
-| Source-looking evidence use or attempted use | First A.10 move | Escalation trigger | Forbidden overread |
+| Source-looking evidence use or attempted use | First A.10 action | Escalation trigger | Forbidden overread |
 | --- | --- | --- | --- |
 | Ordinary source-backed report, record, citation, observation, model card, datasheet, data card, or publication excerpt | Name the claim, evidence carrier, producer or method trace, evidence-provenance path, currentness window, bounded evidence use, unsupported attempted use, and reopen trigger. | Open `B.3` only when an assurance claim is being made or the B.3 material-reliance threshold is met; open `A.21` for a gate decision currently being relied on, `A.15` or `A.15.1` for work, or another governing neighboring pattern only when that relation is being claimed; open `B.2.5` only when a controlled object is regulated through a feedback channel, evidence channel, cadence, window, supervisory relation, or control relation. | Evidence presence as approval, gate passage, assurance, release permission, work authority, control authority, or safety acceptance. |
 | Confidence, calibration, prediction interval, abstention reason, or selective-action cue | Name the act, context, window, calibration population, exchangeability condition, shift condition, applicability condition, and stop condition for the bounded evidence use. Use `RelianceDisposition=pass` or `RelianceDisposition=degrade` only for that bounded use, and state the unsupported attempted use beside it. | Open `C.27` or `G.11` when timing, expiry, refresh, distribution shift, monitoring, or applicability change alters the bounded act; open `B.3` when an assurance claim is being made or the B.3 material-reliance threshold is met. | Confidence as global permission, trust, readiness, safety, release reliance, or engineering justification. |
@@ -214,7 +214,7 @@ If publication or observation of a cue changes the represented situation or repr
 
 | `RelianceDisposition` | A.10 classification | Minimum A.10 statement |
 | --- | --- | --- |
-| `RelianceDisposition=pass` | The evidence relation named by value is present and current for the named use, the evidence kind is present, the source is current enough for that use, and the evidenced use is bounded. | State the evidenced claim, act, work move, review claim, or P2W carry-through use, the unsupported attempted use, the evidence-provenance path, and the window. |
+| `RelianceDisposition=pass` | The evidence relation named by value is present and current for the named use, the evidence kind is present, the source is current enough for that use, and the evidenced use is bounded. | State the evidenced claim, act, work occurrence, review claim, or P2W carry-through use, the unsupported attempted use, the evidence-provenance path, and the window. |
 | `RelianceDisposition=degrade` | The source relation carries only a narrower claim, smaller audience, reversible local act, lower assurance input, or shorter window. | State the narrowed bounded evidence use, the unsupported attempted use, and the stop condition. |
 | `RelianceDisposition=abstain` | Evidence is insufficient, stale, out-of-context, uncalibrated, conflicted, or not tied to the claimed relation, while immediate rejection is not justified. | State the claim not decided and the missing evidence or relation needed before use. |
 | `RelianceDisposition=reopen` | A contest, changed representation, changed selected entity, stale source, expired window, changed profile, conflicting source, retargeting, or new evidence defeats the previous evidence-provenance path. | State the source or relation to reopen and the previous use that is no longer evidenced. |

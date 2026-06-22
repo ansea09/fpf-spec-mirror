@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51086
-line_end: 51133
+line_start: 51379
+line_end: 51426
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -95,7 +95,7 @@ that trap.
 | Dyn2 profile as hidden promise | A planning note becomes a service guarantee, SLA-like statement, or public commitment. | Separate planning assumption or planning-model relation from promise content and boundary obligation. |
 | Noisy acceleration worship | Small variation is overread as meaningful rate-change. | Widen sampling, add uncertainty, downgrade, or collect higher-quality or more directly relevant evidence. |
 | Tool-call acceleration theater | More calls or more context are treated as faster reasoning. | Name the rate-change under concern and stop or replan trigger. |
-| Harmful acceleration | Work is accelerated while safety, ethics, legality, operations-service demand, or human wellbeing becomes worse. | Use pattern-reference-only `dyn2HighStakesTemporalMoveRelation?` to name the high-stakes temporal move, window, and unsupported use and cite the assurance, ethics, legal, safety, quality, or wellbeing pattern that governs the other question. |
+| Harmful acceleration | Work is accelerated while safety, ethics, legality, operations-service demand, or human wellbeing becomes worse. | Use pattern-reference-only `dyn2HighStakesTemporalActionRelation?` to name the high-stakes temporal action, window, and unsupported use and cite the assurance, ethics, legal, safety, quality, or wellbeing pattern that governs the other question. |
 | Coasting claim without evidence or assumption | Continued motion after effort stops is treated as free evidence of success. | Name coasting evidence or assumption: habit, automation, stored work, learned capability, social norm, commitment momentum, physical inertia, queue pressure, or unknown. |
 | Reversibility fantasy | Effort is removed and the system is assumed to return cleanly. | Include `dyn2DebtHysteresisBlock?` only when supported use depends on residue or reversibility; record `unknown` if needed and bound supported use, with brake or recovery relation when FPF-governed. |
 

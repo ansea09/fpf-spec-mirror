@@ -6,16 +6,17 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:4 — Solution"
-line_start: 22070
-line_end: 22224
+line_start: 22086
+line_end: 22278
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.5"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18.1"
   - "E.19"
   - "E.20"
+  - "E.24"
   - "G.11"
   - "G.6"
   - "U.RelationSlotDiscipline"
@@ -47,6 +49,44 @@ keywords:
 ---
 
 ### A.15.3:4 - Solution
+
+#### A.15.3:4.0 - Planned slot-filling ontic
+
+`A.15.3` governs the planned slot-filling ontic: a bounded planning relation in which one `U.WorkPlan.PlanItem` states which planned fillers are intended for which SlotKinds of one slot-bearing description before performed work occurs.
+
+Keep three levels distinct:
+
+- the planned slot-filling ontic: the E.24 ontic-level SlotRelation architecture for planned fillers of SlotKinds before performed work;
+- `SlotFillingsPlanItem`: one filled `U.WorkPlan.PlanItem` value over that ontic for one bounded planning use;
+- a card, table, view, schema, checklist, or document that publishes or projects a `SlotFillingsPlanItem` value.
+
+By E.24 and E.24.UK, this is not an ontic without a kind settlement. The selected settlement reuses the root `U.WorkPlan` U-kind and admits `SlotFillingsPlanItem` as a dependent durable plan-item U-kind within `U.WorkPlan`; its filled instances are values inside a `U.WorkPlan`. The planned slot-filling ontic is the ontic-level SlotRelation that gives that dependent U-kind its identity and filler discipline. It does not introduce an independent root U-kind, a C.3 subkind claim, or a publication form. The stable identity is the planned-baseline relation among one work plan, one target slot-bearing description edition, one EntityOfConcern, one bounded context, one time selector or time rule when required, and one planned-filling row set. Changing the planned baseline before work creates a new PlanItem edition or a new PlanItem; performed-work variance does not rewrite the cited baseline.
+
+The ontic keeps these objects distinct:
+
+- `SlotFillingsPlanItem`: the dependent plan-item U-kind in this settlement; a filled value lives inside a `U.WorkPlan`, and the dependent U-kind does not introduce an independent root U-kind, the ontic-level SlotRelation itself, or a second slot ontology.
+- `target_slot_bearing_description_ref`: the Description episteme whose SlotSpecs supply the SlotKinds being planned.
+- `planned_fillings[]`: the row set that connects each selected SlotKind to a planned filler, filler mode, and edition pin when current.
+- preparation refs: guard, evidence-reference, crossing-policy, time, context, or source-currentness refs that prepare later work without becoming evidence, a gate decision, or performed work.
+- performed-work variance relation: the later `U.Work`, gate, evidence, result, archive, or variance relation that states what happened against the cited baseline.
+
+Ontic-level `onticSlotRelation`:
+
+| Slot group | Required or optional-in-use | Filler discipline |
+| --- | --- | --- |
+| Plan identity | Required | `plan_item_id`, `kind = SlotFillingsPlanItem`, `work_plan_ref`, and optional `plan_item_edition`; governed by `A.15.2` and this pattern. |
+| Target slot-bearing description | Required | One Description episteme that exposes SlotSpecs; governed by the target description pattern and `A.6.5`. |
+| EntityOfConcern, context, and time | Required for a conforming baseline | `entity_of_concern_ref`, `bounded_context_ref`, and `time_selector_ref` or `time_rule_ref` when reproducibility, currentness, or comparison depends on time. |
+| Planned-filling rows | Required | Each row names a SlotKind from the target description, planned filler, ByValue or concrete RefKind mode, and edition pin when current; filler values keep their own governing patterns. |
+| Preparation refs | Optional-in-use | Guard, readiness-preparation, evidence-reference, crossing-policy, source-currentness, bridge, or refresh refs; they prepare later relations but do not become `WorkEntryReadiness@Context`, gate decisions, evidence sufficiency, crossings, or performed work. |
+| Derived projections | Optional-in-use | Cards, records, tables, views, indices, or summaries are E.17 publication or view-use projections; they are not the ontic and not row authority. |
+| Variance policy | Required for reliance-bearing use | Names how later `U.Work`, gate, evidence, result, archive, or variance relations cite the baseline and record substitutions, missing fillers, extra fillers, launch values, or edition changes. |
+
+A conforming instance fills only the slots that are current to the planning claim. Optional refs stay absent when the project does not rely on them. The open-world assumption is preserved: not writing an optional planned filler does not say that no such project value exists; it only says the current planned-baseline claim does not rely on it.
+
+Use this ontic whenever a suite, kit, comparison, selector, archive, refresh, work-entry-readiness check, or P2W carry-through needs project-specific editions, policy ids, evidence-reference pins, bridge ids, method-description refs, or other planned fillers. Use the neighboring governing pattern when the current object is mechanism meaning, comparison result, selection result, work-entry readiness, performed work, evidence, gate passage, publication-use, source-currentness, or refresh.
+
+This ontic is selected because dependent patterns need a shared settlement. Without it, suite, comparison, selector, archive, refresh, and P2W patterns would each invent a local baseline field, a local planned-pin phrase, or a local warning that planned values are not performed values. With this ontic, they cite `A.15.3` and keep their own EoC thin.
 
 #### A.15.3:4.1 - Definition
 
@@ -107,8 +147,8 @@ A conforming `SlotFillingsPlanItem` states these fields when the corresponding c
    - a pin ref is not evidence and does not create evidence sufficiency.
 
 8. **Crossing-preparation refs**
-   - optional refs for expected cross-context or cross-plane support, such as BridgeCard refs, policy-id refs, reference-plane refs, or already-published CrossingBundle baseline refs;
-   - these refs state expected crossing support only;
+   - optional refs for expected cross-context or cross-plane bridge or crossing relations, such as BridgeCard refs, policy-id refs, reference-plane refs, or already-published CrossingBundle baseline refs;
+   - these refs state expected bridge or crossing relations only;
    - they are not crossing witnesses, do not embed CL/Phi/Psi tables, and do not claim that a crossing occurred.
 
 9. **Authoritative planned-filling rows**

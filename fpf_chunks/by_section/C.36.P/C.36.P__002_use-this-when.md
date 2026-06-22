@@ -6,12 +6,12 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:0 — Use This When"
-line_start: 58591
-line_end: 58623
+line_start: 58895
+line_end: 58927
 dependencies:
   - "A.1"
   - "A.15"
@@ -63,7 +63,7 @@ The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` b
 
 #### C.36.P:0.2 - What This Buys
 
-The practitioner gets one recovery line: current wording, recovered object, governing pattern, admissible use, blocked use, and next move. The subject work then returns to `C.36` or to the direct governing pattern for method, work, discipline, bridge, archive, pool, selected-set publication, architecture, dynamics, measurement, choice, or refresh.
+The practitioner gets one recovery line: current wording, recovered object, governing pattern, admissible use, blocked use, and next governed use. The subject work then returns to `C.36` or to the direct governing pattern for method, work, discipline, bridge, archive, pool, selected-set publication, architecture, dynamics, measurement, choice, or refresh.
 
 #### C.36.P:0.3 - First Useful Move
 
@@ -79,7 +79,7 @@ CulturalEvolutionWordingRecoveryLine@Context:
   retainedSourceLabelUse:
   admissibleUse:
   blockedUse:
-  nextMove:
+  nextUse:
 ```
 
 If `recoveredCurrentObject`, `recoveredRelationOrSlot`, or `directGoverningPatternRef` cannot be filled, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not repair it by choosing a smoother umbrella word.

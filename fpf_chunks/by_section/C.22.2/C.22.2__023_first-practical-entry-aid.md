@@ -6,15 +6,16 @@ section_id: "C.22.2:22"
 section_title: "First Practical Entry Aid"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__023_first-practical-entry-aid.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:22 — First Practical Entry Aid"
-line_start: 46918
-line_end: 46947
+line_start: 47209
+line_end: 47238
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.5"
   - "A.19"
   - "A.21"
   - "A.6.3"
@@ -36,6 +37,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "E.10"
+  - "E.10.MOVE"
   - "E.16"
   - "E.17"
   - "E.17.ID.CR"
@@ -82,11 +84,11 @@ Direct-entry cues that are not `C.22.2`:
 - proof, provenance, reliability, or assurance claim: use `A.10`, `G.6`, or `B.3`;
 - local choice among explicit options: use `C.11`, or `G.5` when set publication or selected-set semantics are current;
 - agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or relation named by value;
-- ordinary discussion with no downstream project-side move: no `C.22.2` use.
+- ordinary discussion with no downstream project-side use: no `C.22.2` use.
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner can produce a Thin `ProblemCard@Context` in under one page and correctly choose one governed next move: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
+Given a messy signal, a practitioner can produce a Thin `ProblemCard@Context` in under one page and correctly choose one governed next use: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
 
 Entry relation:
 

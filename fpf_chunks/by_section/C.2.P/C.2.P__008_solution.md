@@ -6,12 +6,12 @@ section_id: "C.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__008_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:4 — Solution"
-line_start: 36980
-line_end: 37339
+line_start: 37267
+line_end: 37626
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,9 +60,9 @@ A successful rewrite satisfies these field-validity constraints:
 3. a relation, comparison, dependency, support, sameness, grounding, mapping, or endpoint claim has `A.6.P` relation precision, with use-boundary and project-side reliance questions split into their own fields;
 4. a claim-bearing episteme, episteme species named by value, episteme-lane view, or project-side FPF kind and reference named by value has the needed `C.2.1` typing or named FPF claim or declared-use boundary named by value;
 5. publication, view, face, and carrier distinctions satisfy `E.17.0`, `E.17`, and MVPK;
-6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader move: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim being made; when both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`; ordinary Plain wording and intentional didactic metaphor stay light when they carry no FPF-governed use, but ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim in a more expressive Plain line must be recoverable through the repaired Tech fields; FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices must still show the broad working situation and first useful move, or the rewrite is incomplete;
+6. the repaired text satisfies `E.2` Pillars, especially `P-2 Didactic Primacy`, by preserving or restoring one remaining reader use: a usable action, a recognition reason that tells the working reader why the distinction matters, or a named FPF pattern application that carries the claim being made; when both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech kind, relation, or FPF pattern application under `E.10:6.2`; ordinary Plain wording and intentional didactic metaphor stay light when they carry no FPF-governed use, but ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim in a more expressive Plain line must be recoverable through the repaired Tech fields; FPF-governed Problem frames, Problem sections, recognition texts, examples, and worked slices must still show the broad working situation and first useful move, or the rewrite is incomplete;
 7. the final phrase preserves the distinction without adding another claim;
-8. unrecoverable meaning, kind, register mapping, or remaining reader move fails closed.
+8. unrecoverable meaning, kind, register mapping, or remaining reader use fails closed.
 
 The detailed solution below carries the glossary and rewrite rules as ordinary pattern subsections. It is not an external container: these subsections are the pattern's detailed epistemic precision-restoration guidance.
 
@@ -87,7 +87,7 @@ Recover by sentence function and claim being made, not word form. For words such
 | `projectSideFPFRef` | The project-side FPF kind and reference named by value when the sentence would be used for work, evidence, gate, constraint, adjudication, decision, commitment, method, action invitation, assurance, or engineering justification. | `A.15`, `A.15.4`, `A.10`, `A.20`, `A.21`, `B.3`, `C.11`, `A.2.8`, `A.2.9`, `A.6.A`, or another governing FPF pattern. |
 | `recoveredClaimGoverningPattern` | Empty, or the precision-restoration or governing pattern for the claim recovered after source wording, current FPF wording, publication, and carrier recovery: `A.6.P`, `A.6.F`, `C.30.P`, `C.16.P`, `C.16.Q`, `A.6.3.CSC`, `F.18`, or an evidence named by value, assurance, gate, work, decision, causal-use, release, mathematical-lens, architecture, characteristic, quality, or publication pattern. | `E.10`, `E.10.ARCH`, and the pattern governing the recovered claim named in the field. |
 | `selectedRewrite` | The final wording named by value or record-shaped value. | This pattern plus the governing FPF pattern named above. |
-| `remainingReaderMove` | One short line, Plain-facing when the text serves a working reader, naming what the reader may now do, why the distinction still matters, or which named FPF pattern governs the claim being made. This field is the local `E.2` `P-2` preservation check for FPF-governed epistemic precision restoration, not an optional commentary line. When both Tech and Plain registers are current, this line must map back to the recovered Tech kind, relation, or FPF pattern application. It may be more readable or memorable than the Tech line, and may use an intentional didactic metaphor, but any ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim must remain recoverable through that repaired Tech interpretation. If no such line can be stated, the rewrite is incomplete or must fall to a non-use disposition. | This pattern, `E.2`, `E.8`, `E.10:6.2`, `E.12`, and the FPF pattern named by value when another pattern governs a claim being made. |
+| `remainingReaderUse` | One short line, Plain-facing when the text serves a working reader, naming what the reader may now do, why the distinction still matters, or which named FPF pattern governs the claim being made. This field is the local `E.2` `P-2` preservation check for FPF-governed epistemic precision restoration, not an optional commentary line. When both Tech and Plain registers are current, this line must map back to the recovered Tech kind, relation, or FPF pattern application. It may be more readable or memorable than the Tech line, and may use an intentional didactic metaphor, but any ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim must remain recoverable through that repaired Tech interpretation. If no such line can be stated, the rewrite is incomplete or must fall to a non-use disposition. | This pattern, `E.2`, `E.8`, `E.10:6.2`, `E.12`, and the FPF pattern named by value when another pattern governs a claim being made. |
 | `disposition` | Local recovery outcome: recovered by value, reduced-use cue, understandable FPF extension candidate, blocked use, rewrite incomplete, or not triggered. This slot is not a recovered FPF kind. | This pattern. |
 
 Use the short form when only one field is current. Use the full record when several fields are current or when the phrase might otherwise create a grouped kind, hidden authority claim, project-side overclaim, conflict among publication, EntityOfConcern, and project-side action claims, contested source-use meaning, or procedure-like ordering of pattern applications.
@@ -116,8 +116,8 @@ Use this recovery check whenever text proposes a new term, repairs an episteme-p
 5a. **Neighboring-pattern selection after source wording and current FPF wording recovery.**
    If source wording and current FPF wording, publication, carrier, face, or `PublicationUnit` recovery exposes architecture or structure wording, characteristic or scale wording, quality-term or evaluative characterization, function-like carrier wording, relation construction, controlled coarsening, naming, evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens, or another neighboring claim, fill `recoveredClaimGoverningPattern` with the pattern governing the recovered claim. Do not keep the neighboring claim inside `C.2.P` after this pattern has recovered the source wording, current FPF wording, and publication relation set.
 
-6. **Remaining reader move.**
-   After the kind, relation, publication, and project-side splits are recovered, state the remaining reader move in one short line: what the working reader can now do, why the distinction still matters, or which named FPF pattern governs the claim being made. If both Tech and Plain registers are current, keep the Tech interpretation recoverable and make the Plain or didactic line map back to the recovered Tech kind, relation, or named FPF pattern application under `E.10:6.2`. Do not make this a heavy form for ordinary prose: a Plain line that carries no FPF-governed use may stay ordinary; a Plain line that carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim must be recoverable through the repaired Tech fields. If the repaired wording only proves that an overclaim was removed, but leaves no usable action, recognition reason, or FPF pattern application for the claim being made, do not classify the repair as recovered by value.
+6. **Remaining reader use.**
+   After the kind, relation, publication, and project-side splits are recovered, state the remaining reader use in one short line: what the working reader can now do, why the distinction still matters, or which named FPF pattern governs the claim being made. If both Tech and Plain registers are current, keep the Tech interpretation recoverable and make the Plain or didactic line map back to the recovered Tech kind, relation, or named FPF pattern application under `E.10:6.2`. Do not make this a heavy form for ordinary prose: a Plain line that carries no FPF-governed use may stay ordinary; a Plain line that carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim must be recoverable through the repaired Tech fields. If the repaired wording only proves that an overclaim was removed, but leaves no usable action, recognition reason, or FPF pattern application for the claim being made, do not classify the repair as recovered by value.
 
 7. **Authority-changing rewrite boundary.**
    If the result would rename an accepted FPF pattern, change an accepted FPF term, or mint a reusable FPF kind, this pattern only classifies the phrase as recovered by value or as an understandable FPF extension candidate. It does not make the authority change by itself. Use the accepted source that already carries the decision by value; do not add a second decision source merely to restate the same content.
@@ -127,7 +127,7 @@ Fail closed:
 - if the relation kind cannot be recovered, keep the statement as a cue or split alternatives;
 - if the publication construction cannot be recovered, do not use that publication, generic publication face, MVPK face under E.17 constraints, form, carrier, or rendered unit for work, evidence, gate, or authority claims;
 - fill `relationClaimSlice` only when a relation claim is current, and fill `declaredUseBoundary` plus `projectSideFPFRef` when an use-boundary or project-side reliance claim is current;
-- if the recovered wording is type-correct but leaves no remaining reader move, recognition reason, Tech-to-Plain mapping when both registers are current, or FPF pattern application, or if a Plain or didactic line supplies practical guidance through unrecovered ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim, mark the rewrite incomplete or demote the phrase to reduced-use cue or blocked use before using it as claim-bearing FPF or project text.
+- if the recovered wording is type-correct but leaves no remaining reader use, recognition reason, Tech-to-Plain mapping when both registers are current, or FPF pattern application, or if a Plain or didactic line supplies practical guidance through unrecovered ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim, mark the rewrite incomplete or demote the phrase to reduced-use cue or blocked use before using it as claim-bearing FPF or project text.
 
 ##### C.2.P:4.1.1 - Slash Discipline
 
@@ -161,7 +161,7 @@ Classify the case explicitly:
 - **source wording without FPF-governed use:** the phrase has no current authority, evidence, or use-boundary claim;
 - **reduced-use cue:** the phrase is kept only as a recognition cue or anti-case, not as a claim-bearing architecture decision;
 - **blocked use:** the phrase is blocked for claim-bearing architecture, pattern, or project text while the needed meaning, kind, or relation is missing.
-- **rewrite incomplete:** the repaired wording may be kind-correct, but it does not yet state a remaining reader move, recognition reason, Tech-to-Plain mapping when both registers are current, or FPF pattern application, or a Plain or didactic line carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim that cannot be recovered from the Tech interpretation; continue repair or demote to a non-use disposition before the text has FPF-governed use.
+- **rewrite incomplete:** the repaired wording may be kind-correct, but it does not yet state a remaining reader use, recognition reason, Tech-to-Plain mapping when both registers are current, or FPF pattern application, or a Plain or didactic line carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary claim that cannot be recovered from the Tech interpretation; continue repair or demote to a non-use disposition before the text has FPF-governed use.
 
 These dispositions are recovery results, not a meta-governance authority over all of `FPF`.
 When recovery names another FPF kind named by value, that FPF pattern governs that kind, its declared use boundary, and its conformance checks.
@@ -223,7 +223,7 @@ Lexical trigger scanning and direct known governing-pattern selection are govern
 
 This pattern is applicable after that scan only when the governing pattern cannot yet be selected directly because the sentence still confuses source wording, claim-bearing episteme, publication or carrier construction, project-side reliance, pattern-application wording, or use or non-use disposition.
 
-When this pattern is applicable, do not restart from word taste. Keep the `E.10` trigger result as input and recover source-expression clarification, FPF-governed use, current episteme-publication relation set, use disposition, and remaining reader move.
+When this pattern is applicable, do not restart from word taste. Keep the `E.10` trigger result as input and recover source-expression clarification, FPF-governed use, current episteme-publication relation set, use disposition, and remaining reader use.
 
 #### C.2.P:4.3 - Current Preferred Vocabulary
 Use `PublicationUnit` when the intended entity is a bounded, human-inspected unit inside a publication.
@@ -280,7 +280,7 @@ Use this pattern after those rules only when one of these remains unresolved:
 - EntityOfConcern, grounding relation, or source cue versus project-side evidence, work, gate, decision, assurance, method, action, release, or engineering justification;
 - declarative FPF pattern application versus project work or control flow;
 - use disposition: recovered by value, reduced-use cue, understandable FPF extension candidate, blocked use, rewrite incomplete, or not triggered;
-- remaining reader move or Tech-to-Plain mapping after epistemic precision repair.
+- remaining reader use or Tech-to-Plain mapping after epistemic precision repair.
 
 When none of these remains unresolved, apply the governing pattern selected by `E.10` directly.
 
@@ -322,7 +322,7 @@ Compact epistemic precision-restoration row:
     project-side reference named by value, if current:
     notTriggeredReason:
   replacement:
-  remaining reader move:
+  remaining reader use:
   distinction disposition: preserved, split, intentionally retired, still missing
 ```
 
@@ -375,7 +375,7 @@ Epistemic precision-restoration check:
   heterogeneous-list classification: one kind under repair, relation set, tuple-like record, alternative cases, failed ontology, not triggered
   pattern application, project work, decision distinction:
   chosen rewrite:
-  remaining reader move:
+  remaining reader use:
   distinction disposition: preserved, split, intentionally retired, still missing
   unrecovered wording retained? no, yes, with scope and reason:
   use disposition: recovered by value, extension candidate, reduced-use cue, blocked use, rewrite incomplete, not triggered
@@ -383,7 +383,7 @@ Epistemic precision-restoration check:
 
 ##### C.2.P:4.5.4 - Epistemic Precision-Restoration Note
 
-Use an epistemic precision-restoration note only when wording carries ontology, authority, evidence, or use-boundary claim. The note records the original phrase, recovered FPF kind or relation, reference named by value when current, project-side FPF kind and reference when current, remaining reader move, and disposition: recovered by value, extension candidate, reduced-use cue, blocked use, rewrite incomplete, or not triggered.
+Use an epistemic precision-restoration note only when wording carries ontology, authority, evidence, or use-boundary claim. The note records the original phrase, recovered FPF kind or relation, reference named by value when current, project-side FPF kind and reference when current, remaining reader use, and disposition: recovered by value, extension candidate, reduced-use cue, blocked use, rewrite incomplete, or not triggered.
 
 #### C.2.P:4.6 - Ordinary Completion and Reopen Boundary
 
@@ -393,7 +393,7 @@ A `C.2.P` application is complete for ordinary pattern-authoring use when the sm
 2. the wording is either left ordinary, repaired locally, expressed as a compact epistemic precision-restoration row, or escalated to the full check because the claim being made requires it;
 3. the recovered episteme, publication, view, face, carrier, publication unit, EntityOfConcern, grounding relation, project-side reference, or use disposition is named by value;
 4. every relation-like slice that remains current is assigned to `A.6.P` or its retained specialization, rather than being hidden inside this pattern;
-5. the remaining reader move survives in ordinary prose or the wording is explicitly demoted to reduced-use cue, blocked use, rewrite incomplete, or not triggered.
+5. the remaining reader use survives in ordinary prose or the wording is explicitly demoted to reduced-use cue, blocked use, rewrite incomplete, or not triggered.
 
 Use the lowest sufficient product. A clean sentence is enough when one sentence recovers the claim being made. Use a compact row when the reader must inspect one recovered kind, relation, or disposition later. Use the full check only when several fields are current, when source wording's FPF use is contested, when a durable name may be minted, or when a publication, carrier, or project-side overread would otherwise survive.
 
@@ -407,5 +407,5 @@ Reopen or lower a prior `C.2.P` repair when one of these content discoveries app
 - an entry cue, ToC row, summary, dashboard, retrieval snippet, or source-use note preserves the pre-repair broad interpretation after the pattern body was repaired;
 - repeated use shows that authors are filling the full check where a local sentence or compact row would suffice.
 
-The ordinary stop condition is local: once the current sentence or bounded publication unit preserves kind, relation, use disposition, and remaining reader move, stop. Do not keep improving wording merely because a more elaborate record could be filled.
+The ordinary stop condition is local: once the current sentence or bounded publication unit preserves kind, relation, use disposition, and remaining reader use, stop. Do not keep improving wording merely because a more elaborate record could be filled.
 

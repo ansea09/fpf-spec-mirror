@@ -6,12 +6,12 @@ section_id: "E.24.CD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__007_archetypal-grounding.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:5 — Archetypal Grounding"
-line_start: 73973
-line_end: 74016
+line_start: 74734
+line_end: 74777
 dependencies:
   - "A.19"
   - "A.19.ECS"
@@ -37,7 +37,7 @@ keywords:
 
 Before `C.2.1`, "description", "view", "claim set", and "publication" could be confused. E.24.CD would detect stable concern across forms, typed-value spread, slot doctrine, publication-form temptation, and dependent-pattern need. The sufficiency rationale points to a durable ontic: `U.Episteme`, with EntityOfConcernSlot, claim graph, viewpoint, reference scheme, grounding, and publication-form boundaries.
 
-The next move is E.24-style introduction, then the governing pattern `C.2.1`. The cards and publications are not the episteme; they describe or publish it.
+The next governed use is E.24-style introduction, then the governing pattern `C.2.1`. The cards and publications are not the episteme; they describe or publish it.
 
 #### E.24.CD:5.2 - Problem Card as Stress Case
 

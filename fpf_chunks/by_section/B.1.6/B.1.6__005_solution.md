@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution"
-line_start: 31849
-line_end: 31896
+line_start: 32131
+line_end: 32181
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,11 +19,13 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "B.1"
   - "B.1.4"
+  - "B.1.6"
   - "B.2"
   - "B.2-family"
   - "B.2.P"
@@ -67,6 +69,8 @@ WorkResourceAggregation@Context:
 
 The record is a resource-aggregation relation over work evidence. It is not a method, not a method description, not proof that planned work happened, not a new holon level, and not a whole reidentification claim.
 
+Resource readiness is a neighboring claim, not a measured aggregation result. Planned capacity, reserved inventory, staffing availability, or a full-kit-looking label may be cited as a work-plan, source, or readiness reference, but `A.15.5` governs whether intended work is ready to enter performed-work execution. `B.1.6` governs only the resource-accounting basis, ledger, evidence, aggregation rule, and aggregated value for dated work occurrences or explicitly narrowed planned estimates.
+
 #### B.1.6:2.1 - Direct Owner Map
 
 | Current claim | Direct owner |
@@ -74,6 +78,7 @@ The record is a resource-aggregation relation over work evidence. It is not a me
 | Semantic way of doing | `A.3.1` |
 | Description of the way of doing, including algorithm text or SOP | `A.3.2` |
 | Planned work window or planned assignment | `A.15.2` |
+| Work-entry readiness, full-kit condition, or resource readiness before work entry | `A.15.5` |
 | Dated performed work occurrence and occurrence evidence | `A.15.1` |
 | Work-resource aggregation over dated work occurrences | `B.1.6` |
 | Holon delimitation, ports, interfaces, or part-whole boundary used for accounting | `A.1`, `B.1`, `A.14`, `C.13`, or the direct relation owner named by value |

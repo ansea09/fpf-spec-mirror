@@ -6,12 +6,12 @@ section_id: "B.2:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__008_bias-annotation.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5.1 — Bias-Annotation"
-line_start: 32225
-line_end: 32234
+line_start: 32512
+line_end: 32521
 dependencies:
   - "A.1"
   - "A.10"

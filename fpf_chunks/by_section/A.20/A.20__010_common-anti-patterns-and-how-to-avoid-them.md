@@ -6,12 +6,12 @@ section_id: "A.20:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29445
-line_end: 29453
+line_start: 29726
+line_end: 29734
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.20:7.1 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Correct move |
+| Anti-pattern | Why it fails | Correct action |
 |---|---|---|
 | CV as gate passage | Internal step validity is treated as release, safety, launch, or admission readiness. | Keep `CV.Status` local to the step and use `A.21` when gate fit or gate decision is current. |
 | CV as scalar ranking | A valid set return is folded into one best item without a comparator relation. | Keep set, archive, and comparator claims with the neighboring loci named in Relations. |

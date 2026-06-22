@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:4 — Solution"
-line_start: 29631
-line_end: 29813
+line_start: 29912
+line_end: 30094
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -62,7 +62,7 @@ If a local short form `{ kind, edition, scope }` appears in prose, it is interpr
 
 * `GateDecision` is the published lattice value.
 * `GateDecisionRationale` is the minimal structured rationale payload for that decision (check outcomes, folds, witness refs).
-* `GateDecisionExplanation` is optional, human-readable, derived from the rationale; it **does not carry decision status** and is not used as one.
+* `GateDecisionExplanation` is optional, human-readable, derived from the rationale; it **does not carry the decision value** and is not used as one.
 
 **Register discipline.** Tech labels are ASCII and twin-labeled where the plain form uses symbolic notation.
 (Example: paired labels use `CLPlane` and “CL^plane”, `CLKind` and “CL^k”, `UNM.TransportRegistryPhi` and “UNM.TransportRegistryΦ”, `GammaTimeRule` and “Γ_timeRule”.)
@@ -103,7 +103,7 @@ Publications carry only:
 A check may encounter `error`, `timeout`, or evidence-scoped `unknown`. These do **not** become new decision values; they are folded into the decision lattice **by profile and check policy**.
 **Normative minimum folds (tri-state).**
 
-> **Naming note.** Some conformance tables use **Lean** as a label for the `GateProfile=Lite` GateProfile value. Treat this as an alias only, and do not confuse it with `PublishMode=Lite` (a publication-face reduction mode).
+> **Naming note.** Some conformance tables use **Lean** as a display label for the `GateProfile=Lite` GateProfile value. Treat this as a label only, and do not confuse it with `PublishMode=Lite` (a publication-face reduction mode).
 
 | Current `GateProfile` | `error` fold | `timeout` fold | `unknown` fold (evidence-scoped) |
 | -------------------- | -----------: | -------------: | ------------------------------: |

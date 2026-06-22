@@ -6,16 +6,17 @@ section_id: "A.15.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__010_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:9 — Consequences"
-line_start: 22302
-line_end: 22311
+line_start: 22357
+line_end: 22366
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.5"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18.1"
   - "E.19"
   - "E.20"
+  - "E.24"
   - "G.11"
   - "G.6"
   - "U.RelationSlotDiscipline"
@@ -54,5 +56,5 @@ keywords:
 | Performed-work variance becomes attributable. | Teams preserve cited baselines rather than editing history. |
 | Suite and kit reuse becomes cleaner. | Specialized PlanItems may be needed, but only under the suite or kit governing pattern. |
 | Publication views remain affordable. | Views can be generated, but they are projections, not the planned rows themselves. |
-| P2W carry-through gets a stable planned-baseline relation. | P2W still does not prescribe a project method, work plan, or performed work; it only carries a recovered planned-baseline relation. |
+| P2W carry-through and work-entry readiness get a stable planned-baseline relation. | P2W and `A.15.5` still do not prescribe a project method, work plan, or performed work from the baseline alone; they only cite a recovered planned-baseline relation when current. |
 

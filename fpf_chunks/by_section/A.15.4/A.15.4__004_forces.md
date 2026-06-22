@@ -6,16 +6,17 @@ section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:2.1 — Forces"
-line_start: 22411
-line_end: 22420
+line_start: 22468
+line_end: 22477
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.5"
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
@@ -32,7 +33,6 @@ dependencies:
   - "U.Work"
 keywords:
   - "P2W load and position"
-  - "admissible next project move"
   - "approval-looking display"
   - "blocked overread"
   - "copied statement"
@@ -40,6 +40,7 @@ keywords:
   - "dashboard display"
   - "generated explanation"
   - "provenance mark"
+  - "relation-governed current use"
   - "required project-side FPF kind and reference"
   - "work-relevant source restoration"
 ---
@@ -48,9 +49,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Work momentum vs. source recoverability | Teams need to keep work moving, but an appearance-based source can make the wrong claim carry work authority. |
-| Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, status, and gate cases need more fields. |
+| Work momentum vs. source recoverability | Teams need to keep work moving, but an appearance-based source can make the wrong claim look like work authorization. |
+| Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, credential-status, role-state, and gate cases need more fields. |
 | Publication face vs. governing source | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side source named by value. |
-| Neighboring authority vs. local restoration | A.15.4 can recover the missing source relation, but evidence, gate, assurance, speech-act, commitment, boundary, status, and work-occurrence claims must return to their governing patterns. |
+| Neighboring governed claims vs. local restoration | A.15.4 can recover the missing source relation, but evidence, gate, assurance, speech-act, commitment, boundary, credential-status, role-state, and work-occurrence claims must return to their governing patterns. |
 | Repeated ambiguity vs. individual burden | Repeated source ambiguity should become source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
 

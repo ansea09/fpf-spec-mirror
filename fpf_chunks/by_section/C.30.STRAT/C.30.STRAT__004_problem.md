@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__004_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:2 — Problem"
-line_start: 55433
-line_end: 55442
+line_start: 55737
+line_end: 55746
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,5 +56,5 @@ How can FPF keep common stratification and architecture-operation language witho
 - making `C.30` govern all structure-like wording;
 - making `A.6.M` or `C.30.LCA` carry a duplicate local trigger registry;
 - treating source labels as non-source-label FPF-governed claims by appearance;
-- removing useful source language before a remaining admissible reader move is recoverable?
+- removing useful source language before a remaining admissible reader use is recoverable?
 

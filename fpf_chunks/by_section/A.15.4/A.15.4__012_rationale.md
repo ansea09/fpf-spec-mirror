@@ -6,16 +6,17 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:7 — Rationale"
-line_start: 22668
-line_end: 22673
+line_start: 22725
+line_end: 22730
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.5"
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
@@ -32,7 +33,6 @@ dependencies:
   - "U.Work"
 keywords:
   - "P2W load and position"
-  - "admissible next project move"
   - "approval-looking display"
   - "blocked overread"
   - "copied statement"
@@ -40,13 +40,14 @@ keywords:
   - "dashboard display"
   - "generated explanation"
   - "provenance mark"
+  - "relation-governed current use"
   - "required project-side FPF kind and reference"
   - "work-relevant source restoration"
 ---
 
 ### A.15.4:7 - Rationale
 
-A.15.4 exists because work often meets sources through displays, publication faces, generated explanations, copied statements, credential views, dashboard tiles, schema wording, API wording, or composed source chains before the governing source is visible. The pattern protects work momentum and source recoverability together: it lets the practitioner use the encountered source candidate for orientation or bounded source-finding, while preventing the source candidate from becoming approval, evidence, assurance, gate passage, performed work, release permission, role-assignment currentness, or status currentness by appearance.
+A.15.4 exists because work often meets sources through displays, publication faces, generated explanations, copied statements, credential views, dashboard tiles, schema wording, API wording, or composed source chains before the governing source is visible. The pattern protects work momentum and source recoverability together: it lets the practitioner use the encountered source candidate for orientation or bounded source-finding, while preventing the source candidate from becoming approval, evidence, assurance, gate passage, performed work, release authorization, role-assignment currentness, role-state currentness, or credential-status currentness by appearance.
 
-The pattern is deliberately a restoration relation, not a new authority source. Once the evidence, gate, assurance, speech-act, commitment, role-assignment, status, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim carries it directly.
+The pattern is deliberately a restoration relation, not a new authority source. Once the evidence, gate, assurance, speech-act, commitment, role-assignment, role-state, credential-status, context-state, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim carries it directly.
 

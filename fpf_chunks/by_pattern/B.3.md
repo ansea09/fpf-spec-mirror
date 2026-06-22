@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-line_start: 33482
-line_end: 34083
+line_start: 33769
+line_end: 34370
 dependencies:
   - "A.10"
   - "A.14"
@@ -195,7 +195,7 @@ B.3 dispositions for such a source or publication face are:
 | Full assurance tuple | The source or publication face is being used to raise readiness, compliance, safety, release confidence, trust, `F`, `G`, `R`, or `CL`. | One typed `Assurance(H, C &#124; K, S)` claim per named assurance claim `C`, with argument, evidence, limitations, and decay condition. |
 | Rejected or narrowed assurance claim | Evidence, scope, argument, currentness, or limitations do not carry the attempted assurance claim. | State the assurance claim, work claim, or reliance claim that the current assurance tuple does not carry, then name the next legitimate formalization, evidence repair, scope narrowing, or claim narrowing move. |
 
-Build a `B.3` assurance claim only when the next work move or reliance move depends on a typed assurance claim. The typed assurance claim names:
+Build a `B.3` assurance claim only when the next work occurrence or reliance use depends on a typed assurance claim. The typed assurance claim names:
 
 | Field | Required content |
 | --- | --- |
@@ -274,7 +274,7 @@ Trigger and non-trigger cases:
 | Ordinary source-backed report, citation, model card, datasheet, data card, or documentation record with no assurance use and no met B.3 material-reliance threshold | No B.3 assurance use. | Stay in `A.10` with claim, source record or publication face, evidence-provenance path, window, bounded evidence use, unsupported attempted use, and reopen trigger. |
 | Generated explanation, generated summary, or didactic reconstruction used only for source-finding or learning | No B.3 assurance use. | Stay in `E.17.EFP` unless operative claims are relied on through `A.10` evidence-provenance paths or another source relation that carries or exposes the source basis for the operative claim. |
 | Local conformance label, `CV.Status`, benchmark result, or score near a release conversation but not used to raise assurance | No B.3 assurance use. | Keep `CV.Status` in `A.20`, gate-decision publication in `A.21`, pattern-quality result in `E.19`, measurement or marker relation in `C.16` or `A.10`, and no assurance tuple unless an assurance claim is being made. |
-| Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration condition, stop condition, bounded evidence use, and unsupported attempted use; use `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the move. |
+| Confidence, calibration, prediction interval, or abstention reason tied to one reversible local act | Compact bounded assurance claim only when the act depends on assurance; otherwise no B.3 use. | State act, context, window, calibration condition, stop condition, bounded evidence use, and unsupported attempted use; use `C.27` or `G.11` when time, expiry, refresh, or monitoring changes the action. |
 | Safety-looking note, compliance-looking label, public warning, dashboard value, generated operational explanation, or status-value display is intended or reasonably foreseeable to meet the B.3 material-reliance threshold: reliance materially changes behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people or team status value, operational action, or controlled-entity regulation. | Minimum reliance safety assurance record is required. | Build the B.3 assurance record with A.10 evidence-provenance path and any relevant `A.20`, `A.21`, `E.19`, `C.27`, `G.11`, `B.2.5`, or representation and retargeting dependency. |
 
 Minimum assurance record:

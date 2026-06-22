@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D2.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
-line_start: 64469
-line_end: 64823
+line_start: 65001
+line_end: 65355
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -122,7 +122,7 @@ E10D2BoundaryLine:
   nonAdmissibleUse:
 ```
 
-Stop at the boundary line when it makes the next admissible move clear. Open heavier episteme, publication, source, bridge, evidence, assurance, gate, decision, work, or state-family records only when those claims are being made.
+Stop at the boundary line when it makes the next admissible use clear. Open heavier episteme, publication, source, bridge, evidence, assurance, gate, decision, work, or state-family records only when those claims are being made.
 
 ### E.10.D2:4.1 - Core field discipline
 
@@ -340,7 +340,7 @@ Currentness and reopen condition: reopen this source-use section when ISO/IEC/IE
 * **F.9.** Cross-context relation or near-sameness requires a bridge, not label reuse.
 * **F.4, F.5, F.8, and F.10.** Role, service, naming, acceptance, and evaluation patterns consume this boundary when they name descriptions and specifications.
 
-### E.10.D2:16 - Current repair moves
+### E.10.D2:16 - Current repair actions
 
 Use these repairs when live FPF prose violates this pattern:
 

@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 31897
-line_end: 31907
+line_start: 32182
+line_end: 32192
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,11 +19,13 @@ dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "B.1"
   - "B.1.4"
+  - "B.1.6"
   - "B.2"
   - "B.2-family"
   - "B.2.P"
@@ -44,5 +46,5 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationRule)
   -> aggregated resource value plus ledger
 ```
 
-The notation applies only after the work occurrence refs, resource basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
+The notation applies only after the work occurrence refs, resource-accounting basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
 

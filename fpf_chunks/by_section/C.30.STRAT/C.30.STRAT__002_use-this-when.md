@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__002_use-this-when.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:0 — Use this when"
-line_start: 55406
-line_end: 55422
+line_start: 55710
+line_end: 55726
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ Typical source labels:
 
 **What this buys.** The practitioner can keep useful source language while recovering the selected `ontologicalNeighborhood` and applying the governing pattern, instead of replacing the source label with another umbrella word.
 
-**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, governing pattern, admissible use, non-admissible use, and remaining reader move.
+**First useful move.** Treat the word as a `sourceLabel` and complete the recovery row: source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, relation to that `EntityOfConcern`, recovered kind, relation, or claim-use, governing pattern, admissible use, non-admissible use, and remaining reader use.
 
 **Not this pattern when.** If the governing pattern is already recoverable by value, use it directly. Do not use `C.30.STRAT` merely because a familiar word appears. If the wording is only ordinary source prose with no FPF-governed use, keep ordinary prose or quote-only wording and stop.
 

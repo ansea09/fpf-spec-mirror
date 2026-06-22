@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 23063
-line_end: 23318
+line_start: 23342
+line_end: 23599
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -24,6 +24,7 @@ dependencies:
   - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.1"
   - "E.18"
@@ -31,10 +32,10 @@ dependencies:
   - "F.9.1"
 keywords:
   - "fork"
-  - "handoff"
   - "heavy history"
   - "lineage"
   - "merge"
+  - "responsibility transfer"
   - "supersedes"
   - "trajectory account"
 ---
@@ -53,14 +54,14 @@ keywords:
 **Used by.**
 `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9.1`, `E.17.1`.
 
-**Use this when.** Use this pattern when a local language-state move is no longer enough because the history of governed `U.Episteme` publications, branches, retirements, losses, or handoffs must be visible as one reviewable account.
+**Use this when.** Use this pattern when a local language-state move is no longer enough because the history of governed `U.Episteme` publications, branches, retirements, losses, or responsibility transfers must be visible as one reviewable account.
 
-**What goes wrong if missed.** Readers treat a sequence of cue packs, routed cue sets, endpoint-bound publications, and handoffs as one magically moving publication; forks, losses, authority changes, and work-requiring crossings become implicit.
+**What goes wrong if missed.** Readers treat a sequence of cue packs, routed cue sets, endpoint-bound publications, and responsibility transfers as one magically moving publication; forks, losses, authority changes, and work-requiring crossings become implicit.
 
 **What this buys.** One optional trajectory account that records lineage, position claims, move kinds, publication forms, losses, and next governing responsibility without wrapping every local A.16 move in heavy history machinery.
 
 ### A.16.0:1 - Problem frame
-In engineering, inquiry, operator, and management practice, teams sometimes need more than a local move note. When branch structure, supersession, retirement, handoff, bridge-sensitive loss, or multi-step governing pattern change matters, readers need one place where the history of successive governed `U.Episteme` publications is made explicit.
+In engineering, inquiry, operator, and management practice, teams sometimes need more than a local move note. When branch structure, supersession, retirement, responsibility transfer, bridge-sensitive loss, or multi-step governing pattern change matters, readers need one place where the history of successive governed `U.Episteme` publications is made explicit.
 
 Cue packs, routed cue sets, abductive prompts, typed route-bounded projection publications, partial normal forms, and endpoint-bound records are publication forms that may appear in that history. They are not the raw disturbances, telemetry traces, model outputs, bodily tensions, or carrier documents that ground it.
 
@@ -72,7 +73,7 @@ Without an explicit trajectory-account pattern for those heavier cases:
 1. history is mistaken for generic one-pass process story rather than for governed move lineage over a declared language-state `U.CharacteristicSpace`;
 2. early seam publications are confused with `U.EpistemePublication` forms governed by endpoint patterns;
 3. forks, merges, route retirement, supersession, and route-sensitive loss become implicit and unverifiable;
-4. every local move is either over-wrapped in ad hoc history prose or under-wrapped in a way that hides handoff and authority change;
+4. every local move is either over-wrapped in ad hoc history prose or under-wrapped in a way that hides responsibility transfer and authority change;
 5. bridge and viewpoint docking inherit under-described upstream history.
 
 ### A.16.0:3 - Forces
@@ -93,7 +94,7 @@ It answers the question: `when history itself matters, which governed publicatio
 
 #### A.16.0:4.0a - E.24.UK settlement
 
-`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
+`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account U-kind under the language-state settlement, not as a root U-kind. Its filled trajectory-account instances are values whose identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
 
 #### A.16.0:4.1 - Ontological subject and slot groups
 In this cluster, keep six slot groups distinct:
@@ -105,7 +106,7 @@ In this cluster, keep six slot groups distinct:
 - **publication faces** - the existing MVPK faces on which those publication forms are rendered when face typing matters;
 - **carriers** - documents, console notes, cards, trace files, or model outputs or carriers that hold or render those publications.
 
-A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or handoff semantics.
+A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or responsibility-transfer semantics.
 
 A trajectory step may add a new lineage member, revise the current member, or relate several members through fork, merge, supersession, or retirement. It does **not** mean that the source phenomenon itself has moved through the language-state chart.
 
@@ -117,13 +118,13 @@ The position read by this pattern is the slot-explicit claim defined in `C.2.2a`
 Early seam publications may leave some slots unknown or wide. That uncertainty is admissible only if it is explicit. A trajectory account therefore records the position claims of the current lineage member and, when needed, of the predecessor or sibling members that justify the move reading.
 
 #### A.16.0:4.3 - Use threshold and core trajectory record
-A single local `A.16` move note is sufficient when no load-bearing branch, loss, handoff, or supersession structure needs publication.
+A single local `A.16` move note is sufficient when no load-bearing branch, loss, responsibility transfer, or supersession structure needs publication.
 
 Use `U.LanguageStateMoveTrajectory` when at least one of the following is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - multi-step loss notes or reopen conditions that would be hidden by a compressed move note;
-- responsibility handoff whose legitimacy depends on upstream history;
+- responsibility transfer whose legitimacy depends on upstream history;
 - bridge or viewpoint entry that depends on upstream route, loss, or lineage structure.
 
 A conforming trajectory account then keeps at least the following explicit:
@@ -134,7 +135,7 @@ A conforming trajectory account then keeps at least the following explicit:
 - the current position claim and any load-bearing predecessor position claims;
 - the typed move or move sequence that relates them;
 - the publication form currently carrying the governed member and, if it matters, the MVPK face carrying that form;
-- the next intended governing pattern or handoff state;
+- the next intended governing pattern or responsibility-transfer state;
 - any loss note, reopen condition, branch-specific authority note, or bridge-sensitive note that matters.
 
 #### A.16.0:4.4 - Recorded move-family discipline
@@ -151,14 +152,14 @@ A trajectory account may refer to seam publications that remain upstream of endp
 - `RoutedCueSet`;
 - `U.AbductivePrompt`;
 - partial normal forms already typed elsewhere;
-- other explicitly typed upstream publications that preserve non-endpoint status.
+- other explicitly typed upstream publications that preserve a non-endpoint position.
 
 These are not a rival publication-face sequence. They are typed publication forms rendered, when necessary, on existing MVPK faces under `E.17`.
 
 Untyped placeholders such as "route-bounded publication face" are non-conformant in a trajectory account unless the text also names the actual publication form and, separately, the MVPK face if face typing matters.
 
-#### A.16.0:4.6 - Endpoint docking and responsibility handoff
-A trajectory does not need to terminate in order to be useful. What matters is a visible docking milestone or responsibility handoff into a governing pattern that is allowed to take the next pattern-governed declaration.
+#### A.16.0:4.6 - Endpoint docking and responsibility transfer
+A trajectory does not need to terminate in order to be useful. What matters is a visible docking milestone or responsibility transfer into a governing pattern that is allowed to take the next pattern-governed declaration.
 
 Typical docking governing patterns include:
 
@@ -169,14 +170,14 @@ Typical docking governing patterns include:
 - `A.15` for method-facing or work-facing forms;
 - `C.25` for endpoint bundle structures.
 
-A trajectory account should therefore name not only the docking governing pattern but also the pattern-governed publication or record that now carries the next pattern-governed declaration. Naming only the governing pattern under-publishes the handoff.
+A trajectory account should therefore name not only the docking governing pattern but also the pattern-governed publication or record that now carries the next pattern-governed declaration. Naming only the governing pattern under-publishes the responsibility transfer.
 
-After such a handoff, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
+After such a responsibility transfer, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
 
 #### A.16.0:4.7 - Effect-free moves versus work-requiring crossings
 Some `formalize` and `operationalize` steps are effect-free epistemic changes: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
 
-Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the crossing or handoff explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
+Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the work-boundary crossing or responsibility transfer explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
 
 #### A.16.0:4.8 - Relation to `A.16` and `E.18`
 `U.LanguageStateMoveTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
@@ -187,6 +188,8 @@ Other steps require new measurements, experiments, instrumentation, execution, o
 - endpoint patterns govern endpoint-local `U.EpistemePublication` forms and declarations.
 
 `A.16.0` standardizes only the heavier history package for cases where that package is itself worth publication.
+
+The word `move` remains inherited from `A.16` and means a typed language-state publication transition. `A.16.0` does not generalize it into project action, work-entry readiness, pattern-use recommendation, performed work, work plan, workflow, or transformation-flow path. If source wording uses move-like language outside the language-state trajectory account, restore the concern through `E.10.MOVE` before selecting `E.11.PUR`, `A.15.5`, the A.15 work family, or another direct governing pattern.
 
 #### A.16.0:4.9 - Bridge and viewpoint entry
 A trajectory may later cross a viewpoint or context boundary. When that happens:
@@ -206,7 +209,7 @@ A trajectory may later cross a viewpoint or context boundary. When that happens:
 **Show (Episteme).** A model-vs-observation discrepancy is a witness-lane tension, not the positioned episteme publication or lineage itself. Once preserved as a cue pack, the governed lineage may project into a typed prompt publication on one branch and later formalize on another, or it may reopen and retire one branch if the provisional route proves unsupported.
 
 ### A.16.0:6 - Bias-Annotation
-The pattern biases authors toward lineage-aware history accounts rather than stage stories about one magically maturing `U.Episteme` publication. That bias is intentional when branch, loss, or handoff semantics matter. The counter-bias is equally intentional: do **not** publish a trajectory account when a local move note already suffices.
+The pattern biases authors toward lineage-aware history accounts rather than stage stories about one magically maturing `U.Episteme` publication. That bias is intentional when branch, loss, or responsibility-transfer semantics matter. The counter-bias is equally intentional: do **not** publish a trajectory account when a local move note already suffices.
 
 ### A.16.0:7 - Conformance Checklist
 - `CC-A.16.0-1` `U.LanguageStateMoveTrajectory` **SHALL NOT** be treated as mandatory wrapper syntax around every `A.16` move.
@@ -215,29 +218,29 @@ The pattern biases authors toward lineage-aware history accounts rather than sta
 - `CC-A.16.0-4` Fork, merge, supersession, derivation, and retirement **SHALL** be made explicit whenever the account depends on them.
 - `CC-A.16.0-5` Publication form and MVPK face **SHALL NOT** be collapsed, and untyped seam placeholders **SHALL NOT** substitute for typed publication forms.
 - `CC-A.16.0-6` `projection` **SHALL** be read as route-bounded partialization with visible loss notes and an admissible reopen condition.
-- `CC-A.16.0-7` Work-requiring `formalize` or `operationalize` steps **SHALL** expose the relevant crossing or handoff rather than pretending that `U.Work` occurred inside the language layer.
+- `CC-A.16.0-7` Work-requiring `formalize` or `operationalize` steps **SHALL** expose the relevant work-boundary crossing or responsibility transfer rather than pretending that `U.Work` occurred inside the language layer.
 - `CC-A.16.0-8` When graph publication of paths is needed, authors **SHOULD** reuse `E.18` rather than inventing a rival path calculus here.
 
 ### A.16.0:8 - Common Anti-Patterns and How to Avoid Them
 - **Meta-wrapper inflation.** Treat `A.16.0` as obligatory around every move. Repair by publishing a local `A.16` move note unless history itself has governance value.
 - **One-publication myth.** Treat one frozen episteme as literally moving unchanged. Repair by publishing lineage members and their links.
-- **Governing-pattern/form collapse.** Treat governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
-- **Form/face collapse.** Treat seam publications as if they minted a second MVPK face family. Repair by naming form and face separately.
-- **Multi-route/fork collapse.** Treat several live routes in one governed member as if they were already several successor members.
+- **Governing-pattern and form collapse.** Treat governing patterns as if they were publication forms. Repair by naming the pattern-governed form and the governing pattern separately.
+- **Form and face collapse.** Treat seam publications as if they minted a second MVPK face family. Repair by naming form and face separately.
+- **Multi-route and fork collapse.** Treat several live routes in one governed member as if they were already several successor members.
 - **Hidden work crossing.** Describe operationalization as purely linguistic when it actually required new world-facing work. Repair by publishing the crossing explicitly.
 
 ### A.16.0:9 - Consequences
-The benefit is that heavy-history language-state movement becomes lineage-aware, reviewable, and dockable without premature endpoint capture or metonymic collapse. The trade-off is more explicit publication of position claims, lineage links, move kinds, loss notes, and handoffs when history is worth publishing.
+The benefit is that heavy-history language-state movement becomes lineage-aware, reviewable, and dockable without premature endpoint capture or metonymic collapse. The trade-off is more explicit publication of position claims, lineage links, move kinds, loss notes, and responsibility transfers when history is worth publishing.
 
 ### A.16.0:10 - Rationale
-Language-state work needs one explicit trajectory-account normal form for the subset of cases where history itself matters. Without that account, readers have to reconstruct lineage, branch structure, retirement, and handoff semantics from fragments. With it overused, every local move becomes over-wrapped. The pattern exists to hold the middle line.
+Language-state work needs one explicit trajectory-account normal form for the subset of cases where history itself matters. Without that account, readers have to reconstruct lineage, branch structure, retirement, and responsibility-transfer semantics from fragments. With it overused, every local move becomes over-wrapped. The pattern exists to hold the middle line.
 
 ### A.16.0:11 - SoTA-Echoing
-The pattern matches contemporary practice in exploratory inquiry, operator-centered incident work, model probing, and structured design iteration: admissible progress sometimes requires visible intermediate publications, branch-aware history, disciplined retreat, and explicit handoffs rather than hidden jumps from cue to endpoint.
+The pattern matches contemporary practice in exploratory inquiry, operator-centered incident work, model probing, and structured design iteration: admissible progress sometimes requires visible intermediate publications, branch-aware history, disciplined retreat, and explicit responsibility transfers rather than hidden jumps from cue to endpoint.
 
 ### A.16.0:12 - Relations
 - Builds on: `C.2.2a`, `A.16`, `A.19`, `E.17`, `E.18`.
-- Coordinates with: `C.2.LS`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9`, `F.9.1`, `E.17.1`.
+- Coordinates with: `C.2.LS`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `B.5.2`, `A.6.P`, `C.16.Q`, `A.6.A`, `F.9`, `F.9.1`, `E.17.1`, and `E.10.MOVE` when move-like wording is not a language-state trajectory-account claim.
 - Constrains: trajectory-account publication, branch visibility, seam publication reading, docking visibility, and anti-pipeline language across the cluster.
 
 ### A.16.0:13 - Worked trajectories
@@ -251,7 +254,7 @@ An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may fir
 - `notice -> stabilize -> route -> projection -> formalize`, with a cue-derived prompt publication carrying the explanatory branch, and
 - `notice -> stabilize -> route -> projection -> operationalize`
 
-if one branch supports explanatory work while another supports immediate probe or control work. The branches remain admissible only if the fork is visible and each branch keeps distinct loss notes and handoff conditions.
+if one branch supports explanatory work while another supports immediate probe or control work. The branches remain admissible only if the fork is visible and each branch keeps distinct loss notes and responsibility-transfer conditions.
 
 #### A.16.0:13.3 - Operator trajectory with retirement
 An operator alert note about a service disturbance may move:
@@ -287,11 +290,11 @@ A practitioner should ask:
 4. Are multi-route state and lineage fork being kept distinct?
 5. Are derivation, supersession, fork, merge, or retirement links visible where the reading depends on them?
 6. Is the current publication a seam publication or already a `U.EpistemePublication` form governed by a named endpoint pattern?
-7. If `formalize` or `operationalize` required world-facing work, is the crossing or handoff explicit?
+7. If `formalize` or `operationalize` required world-facing work, is the work-boundary crossing or responsibility transfer explicit?
 
 ### A.16.0:16 - Boundary notes
 `A.16.0` does not replace `C.2.2a` / `A.19` position semantics, `A.16` move guards, `A.16.1` cue-pack semantics, `A.16.2` retreat / retirement semantics, `B.4.1` seam entry routing, `B.5.2.0` abductive prompt species, `E.17` face typing, `E.18` path publication, or any endpoint-local repair logic.
 
-Its job is narrower and architectural: to make the heavier trajectory account visible only where lineage, branch, loss, retreat, retirement, and handoff need to be published as one intelligible package.
+Its job is narrower and architectural: to make the heavier trajectory account visible only where lineage, branch, loss, retreat, retirement, and responsibility transfer need to be published as one intelligible package.
 ### A.16.0:End
 

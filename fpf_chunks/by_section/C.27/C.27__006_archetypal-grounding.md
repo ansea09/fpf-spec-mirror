@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 50702
-line_end: 51007
+line_start: 50995
+line_end: 51300
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -99,7 +99,7 @@ Additional dynamic near-misses:
 | Case | Example | Expected classification |
 | --- | --- | --- |
 | Coasting | "Adoption continues after incentives stop." | `Dyn2TemporalClaimAdequacyCard` with coasting evidence or assumption and reopen trigger. |
-| High-stakes temporal move | "We can cut review time in half for this regulated release." | Pattern-reference-only `dyn2HighStakesTemporalMoveRelation?` plus assurance, legal, or quality relation, or claim downgraded. |
+| High-stakes temporal action | "We can cut review time in half for this regulated release." | Pattern-reference-only `dyn2HighStakesTemporalActionRelation?` plus assurance, legal, or quality relation, or claim downgraded. |
 | Premature convergence | "The search process is better because we reached a shortlist faster." | C.19 relation; distinguish faster narrowing from healthy search. |
 | Metric target | "Velocity improved after becoming the quarterly target." | `dyn2MetricTargetEffectBlock?` only if target publication changes temporal behavior and supported use; C.16 carries measurement, E.13 or proxy audit carries utility distortion, and C.26 applies only for residual probe, frame, or export cue. |
 | Scale-variable fantasy | "More data, model capacity, reviewers, tokens, or parallelism will improve twice as fast." | C.18.1 carries scale variables, scale windows, scale probes, and scale-elasticity value; C.27 only names the temporal claim when the scale variable is used to make a rate-change, learning, recovery, throughput, or stabilization claim. |

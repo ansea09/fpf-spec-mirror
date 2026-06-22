@@ -6,15 +6,16 @@ section_id: "C.24:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__008_problem.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:2 — Problem"
-line_start: 47259
-line_end: 47261
+line_start: 47552
+line_end: 47554
 dependencies:
   - "A.1"
   - "A.15"
+  - "A.15.5"
   - "B.3"
   - "C.11"
   - "C.18"
@@ -22,6 +23,8 @@ dependencies:
   - "C.24"
   - "C.28"
   - "C.5"
+  - "E.10.MOVE"
+  - "E.11.PUR"
   - "E.23"
   - "E.3"
   - "E.5"

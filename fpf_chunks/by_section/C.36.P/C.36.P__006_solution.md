@@ -6,12 +6,12 @@ section_id: "C.36.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__006_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:4 — Solution"
-line_start: 58651
-line_end: 58678
+line_start: 58955
+line_end: 58982
 dependencies:
   - "A.1"
   - "A.15"
@@ -66,7 +66,7 @@ Use this recovery order:
 7. **Attractor and dynamics wording.** Use `A.3.3`, `C.27`, and `C.29` only when stable dynamics, basin, state-transition law, temporal claim, or mathematical-lens use is being claimed. Otherwise keep the label as style or tradition term work.
 8. **Architecture-candidate wording.** Use `C.30`, `C.30.ASV`, or `C.30.AD` only when the recovered object is an `ArchitectureOf@Context`, selected structure, structural view, or architecture description.
 
-`C.36.P` closes only when the direct governing pattern is named and the next move is visible. It does not govern development-loop semantics, archive semantics, front semantics, pool policy, selected-set publication, method-family semantics, measurement, refresh, publication use, or architecture use.
+`C.36.P` closes only when the direct governing pattern is named and the next use is visible. It does not govern development-loop semantics, archive semantics, front semantics, pool policy, selected-set publication, method-family semantics, measurement, refresh, publication use, or architecture use.
 
 #### C.36.P:4.1 - Recovery Result Table
 

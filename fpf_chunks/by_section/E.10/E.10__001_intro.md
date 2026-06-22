@@ -6,12 +6,12 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:intro — Intro"
-line_start: 62122
-line_end: 62131
+line_start: 62429
+line_end: 62438
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.24"
   - "E.24.CD"
@@ -40,7 +41,7 @@ keywords:
 ## E.10 - Unified Lexical Rules for FPF
 > **Type:** Part E lexical-governance pattern
 > **Status:** Stable
-*Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.*
+> **Normativity:** Definitional pattern; normative for all FPF pattern text and for any Context that claims FPF conformance.
 
 **Status and placement.** Part E.10 (“Lexical Discipline and Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (EntityOfConcern and Description-episteme boundary and specification-use gates)**, the **DesignRunTag and CtxState boundary discipline** (**A.15**; **E.18**), `E.10.ARCH` wording-use restoration architecture, `A.6.P` relation precision restoration, `C.2.P` epistemic precision restoration, `A.19.SPR` state-family precision restoration, and `F.18` local-first naming. `E.10:0.2` is the shared lexical trigger scan. The detailed LEX sections below supply register, naming, morphology, and local rewrite checks only for the selected wording problem; they are not a second wording-recognition table and do not replace `E.10.ARCH`, the selected precision-restoration realization patterns, governing patterns, or `F.18`.
 

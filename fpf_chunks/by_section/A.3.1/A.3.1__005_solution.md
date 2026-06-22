@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:4 — Solution"
-line_start: 6200
-line_end: 6378
+line_start: 6203
+line_end: 6381
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -57,7 +57,7 @@ It is not the text, code, diagram, model, plan, run, role, capability, or eviden
 * **run-independent**: one method may be enacted by many `U.Work` occurrences;
 * **assignment-independent**: method requirements may name role kinds or capability requirements, but named holders and dated assignments belong elsewhere.
 
-The primary repair move is not to replace the word "method" with one better word. Recover the current slot first:
+The primary repair action is not to replace the word "method" with one better word. Recover the current slot first:
 
 | If the text is really about... | Govern it as... |
 | --- | --- |

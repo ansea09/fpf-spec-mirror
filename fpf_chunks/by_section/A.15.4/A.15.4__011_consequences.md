@@ -6,16 +6,17 @@ section_id: "A.15.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__011_consequences.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:6 — Consequences"
-line_start: 22660
-line_end: 22667
+line_start: 22717
+line_end: 22724
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.5"
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
@@ -32,7 +33,6 @@ dependencies:
   - "U.Work"
 keywords:
   - "P2W load and position"
-  - "admissible next project move"
   - "approval-looking display"
   - "blocked overread"
   - "copied statement"
@@ -40,6 +40,7 @@ keywords:
   - "dashboard display"
   - "generated explanation"
   - "provenance mark"
+  - "relation-governed current use"
   - "required project-side FPF kind and reference"
   - "work-relevant source restoration"
 ---
@@ -50,5 +51,5 @@ keywords:
 | --- | --- | --- |
 | Work can continue at the lightest relation-governed level instead of stopping on every suspicious display. | The practitioner names the claim being made and governing source reference before relying on the source. | Use the ordinary six-field source-restoration note first; use fuller fields only for high-impact or contested reliance. |
 | Appearance-based approval, evidence, assurance, gate, and work-occurrence overreads are blocked. | Some convenient dashboard or copied-text shortcuts become unusable until source currentness is recovered. | Keep orientation, source-finding, and bounded reversible probes available when no external-impact reliance is being made. |
-| Repeated ambiguity becomes source-relation repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale source publications, or underspecified gate and evidence paths. | Assign only prospective repair work or source-gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
+| Repeated ambiguity becomes source-relation repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale source publications, or underspecified gate and evidence relations. | Assign only prospective repair work or source-gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
 

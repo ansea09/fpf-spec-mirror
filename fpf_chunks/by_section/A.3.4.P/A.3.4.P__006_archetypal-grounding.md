@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 7728
-line_end: 7768
+line_start: 7732
+line_end: 7772
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,7 @@ dependencies:
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.18"
   - "E.18.2"
@@ -65,13 +66,13 @@ Repair: the block may be a system-like architecture locus or module allocation; 
 
 Source wording says: "The guide-selection workflow changes the target gene."
 
-Repair: the target-gene edit is the candidate `U.Transformation`; guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim. A table rank or workflow diagram does not approve the edit.
+Repair: the target-gene edit is the candidate `U.Transformation`; guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim. A table rank or workflow diagram does not establish gate passage, deontic permission, work authorization, release authorization, or performed lab work for the edit.
 
 #### A.3.4.P:5.4 - Evidence path near a plant change
 
 Source wording says: "The evidence path lets the valve-change flow proceed."
 
-Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs the transformation, work plan, dated work, gate, assurance, and result relations when those claims are current. The path does not authorize the change by shape or name.
+Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs the transformation, work plan, dated work, gate, assurance, and result relations when those claims are current. The path does not establish work authorization, release authorization, gate passage, or performed work by shape or name.
 
 #### A.3.4.P:5.5 - Filled minimal repair note
 
@@ -85,6 +86,6 @@ TransformationWordingRepair:
   GoverningPattern: `E.18` for selected transformation-flow structure; `A.3.4` for each bounded component transformation when named; `C.30.ASV` for functional architecture view; direct publication pattern when the schematic publication is current.
   RetainedUse: "circuit" may stay as ordinary domain wording after the selected structure is named.
   BlockedOverread: the circuit label is not proof of functioning, not a gate decision, not dated work, and not one atomic transformation.
-  RemainingReaderMove: name the selected transformation-flow structure and then open the direct governing pattern for the next claim being made.
+  RemainingReaderUse: name the selected transformation-flow structure and then open the direct governing pattern for the next claim being made.
 ```
 

@@ -6,12 +6,12 @@ section_id: "I.2:section-014"
 section_title: "Change Log (normative migration record)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__015_change-log-normative-migration-record.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:section-014 — Change Log (normative migration record)"
-line_start: 88489
-line_end: 88494
+line_start: 89250
+line_end: 89255
 dependencies:
 keywords:
 ---

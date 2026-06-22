@@ -6,12 +6,12 @@ section_id: "C.31.RSA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:4 — Solution"
-line_start: 57658
-line_end: 57795
+line_start: 57962
+line_end: 58099
 dependencies:
 keywords:
 ---
@@ -92,9 +92,9 @@ total-described-structure under accountingBasisRef:
 
 This is not `ReusableStructureEquation`, not an architecture amount, and not a hidden `StructureAmount` kind. It is a readable decomposition of one declared accounting description. If the slots do not share a declared accounting basis and comparability rule, they cannot be summed or ranked.
 
-#### C.31.RSA:4.5 - Structure-relocation moves
+#### C.31.RSA:4.5 - Structure-relocation actions
 
-RSA is useful because it points to relocation and repair moves:
+RSA is useful because it points to relocation and repair actions:
 
 | Situation | Repair direction |
 | --- | --- |

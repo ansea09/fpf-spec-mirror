@@ -6,12 +6,12 @@ section_id: "E.10:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__025_relations.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:16 — Relations"
-line_start: 63845
-line_end: 63851
+line_start: 64154
+line_end: 64160
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.2.1"
   - "C.2.P"
   - "E.10.ARCH"
+  - "E.10.MOVE"
   - "E.17"
   - "E.24"
   - "E.24.CD"
@@ -40,7 +41,7 @@ keywords:
 ### E.10:16 - Relations
 
 - **Builds on:** `A.7`, `C.2.1`, `E.17`, `E.24`, `A.6.0`, `A.6.5`, `F.18`, and `F.19` for EntityOfConcern discipline, description and publication separation, ontic discipline, slot discipline, naming, and phrase-level repair.
-- **Coordinates with precision-restoration patterns:** `E.10.ARCH`, `A.6.P`, `C.2.P`, `A.19.SPR`, and the direct domain restoration pattern selected by the current trigger.
+- **Coordinates with precision-restoration patterns:** `E.10.ARCH`, `A.6.P`, `C.2.P`, `A.19.SPR`, `E.10.MOVE`, and the direct domain restoration pattern selected by the current trigger.
 - **Coordinates with governed-object owners:** architecture, transformation, work, evidence, assurance, gate, publication, source-use, mathematical-lens, characteristic, temporal, role, method, and relation patterns when those claims are current.
 - **Returns to:** the direct governing pattern whenever the issue is no longer wording-use precision but an object, relation, evidence, authority, work, publication, or admissible-use claim.
 

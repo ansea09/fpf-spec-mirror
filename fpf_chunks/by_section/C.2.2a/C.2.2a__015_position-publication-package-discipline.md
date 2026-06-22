@@ -6,12 +6,12 @@ section_id: "C.2.2a:14"
 section_title: "Position Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__015_position-publication-package-discipline.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:14 — Position Publication Package Discipline"
-line_start: 38149
-line_end: 38164
+line_start: 38436
+line_end: 38451
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,5 +53,5 @@ Minimum self-check:
 1. Is the author naming a position claim in the chart, or only a folk stage label?
 2. Is `F` being used as a surrogate for another slot?
 3. Are source phenomena, publication forms, publication faces, and carriers being confused with the positioned episteme publication?
-4. Are threshold claims explicit enough for the next move or endpoint decision?
+4. Are threshold claims explicit enough for the next position claim or endpoint decision?
 5. If the text compares two contexts, is there a real bridge or only a lexical resemblance?

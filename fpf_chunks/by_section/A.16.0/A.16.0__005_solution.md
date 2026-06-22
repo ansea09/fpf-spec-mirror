@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:4 — Solution"
-line_start: 23108
-line_end: 23221
+line_start: 23387
+line_end: 23502
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -25,6 +25,7 @@ dependencies:
   - "C.16.Q"
   - "C.2.2a"
   - "C.2.LS"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.1"
   - "E.18"
@@ -32,10 +33,10 @@ dependencies:
   - "F.9.1"
 keywords:
   - "fork"
-  - "handoff"
   - "heavy history"
   - "lineage"
   - "merge"
+  - "responsibility transfer"
   - "supersedes"
   - "trajectory account"
 ---
@@ -49,7 +50,7 @@ It answers the question: `when history itself matters, which governed publicatio
 
 #### A.16.0:4.0a - E.24.UK settlement
 
-`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account value under the language-state settlement, not as a root U-kind. Its identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the trajectory account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
+`U.LanguageStateMoveTrajectory` is retained as a dependent durable trajectory-account U-kind under the language-state settlement, not as a root U-kind. Its filled trajectory-account instances are values whose identity depends on the governed `U.Episteme` publication lineage, the declared `U.CharacteristicSpace` from `C.2.2a`, and the lineage relation set that makes the account reviewable. The public name is therefore admissible only with this dependence relation; ordinary local histories, route notes, and publication forms do not become `U.LanguageStateMoveTrajectory` by resemblance.
 
 #### A.16.0:4.1 - Ontological subject and slot groups
 In this cluster, keep six slot groups distinct:
@@ -61,7 +62,7 @@ In this cluster, keep six slot groups distinct:
 - **publication faces** - the existing MVPK faces on which those publication forms are rendered when face typing matters;
 - **carriers** - documents, console notes, cards, trace files, or model outputs or carriers that hold or render those publications.
 
-A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or handoff semantics.
+A multi-route state inside one current governed member is **not** yet a lineage fork. It becomes a fork only when distinct successor members are published and given distinct authority, losses, or responsibility-transfer semantics.
 
 A trajectory step may add a new lineage member, revise the current member, or relate several members through fork, merge, supersession, or retirement. It does **not** mean that the source phenomenon itself has moved through the language-state chart.
 
@@ -73,13 +74,13 @@ The position read by this pattern is the slot-explicit claim defined in `C.2.2a`
 Early seam publications may leave some slots unknown or wide. That uncertainty is admissible only if it is explicit. A trajectory account therefore records the position claims of the current lineage member and, when needed, of the predecessor or sibling members that justify the move reading.
 
 #### A.16.0:4.3 - Use threshold and core trajectory record
-A single local `A.16` move note is sufficient when no load-bearing branch, loss, handoff, or supersession structure needs publication.
+A single local `A.16` move note is sufficient when no load-bearing branch, loss, responsibility transfer, or supersession structure needs publication.
 
 Use `U.LanguageStateMoveTrajectory` when at least one of the following is load-bearing:
 
 - derivation, supersession, fork, merge, or retirement structure;
 - multi-step loss notes or reopen conditions that would be hidden by a compressed move note;
-- responsibility handoff whose legitimacy depends on upstream history;
+- responsibility transfer whose legitimacy depends on upstream history;
 - bridge or viewpoint entry that depends on upstream route, loss, or lineage structure.
 
 A conforming trajectory account then keeps at least the following explicit:
@@ -90,7 +91,7 @@ A conforming trajectory account then keeps at least the following explicit:
 - the current position claim and any load-bearing predecessor position claims;
 - the typed move or move sequence that relates them;
 - the publication form currently carrying the governed member and, if it matters, the MVPK face carrying that form;
-- the next intended governing pattern or handoff state;
+- the next intended governing pattern or responsibility-transfer state;
 - any loss note, reopen condition, branch-specific authority note, or bridge-sensitive note that matters.
 
 #### A.16.0:4.4 - Recorded move-family discipline
@@ -107,14 +108,14 @@ A trajectory account may refer to seam publications that remain upstream of endp
 - `RoutedCueSet`;
 - `U.AbductivePrompt`;
 - partial normal forms already typed elsewhere;
-- other explicitly typed upstream publications that preserve non-endpoint status.
+- other explicitly typed upstream publications that preserve a non-endpoint position.
 
 These are not a rival publication-face sequence. They are typed publication forms rendered, when necessary, on existing MVPK faces under `E.17`.
 
 Untyped placeholders such as "route-bounded publication face" are non-conformant in a trajectory account unless the text also names the actual publication form and, separately, the MVPK face if face typing matters.
 
-#### A.16.0:4.6 - Endpoint docking and responsibility handoff
-A trajectory does not need to terminate in order to be useful. What matters is a visible docking milestone or responsibility handoff into a governing pattern that is allowed to take the next pattern-governed declaration.
+#### A.16.0:4.6 - Endpoint docking and responsibility transfer
+A trajectory does not need to terminate in order to be useful. What matters is a visible docking milestone or responsibility transfer into a governing pattern that is allowed to take the next pattern-governed declaration.
 
 Typical docking governing patterns include:
 
@@ -125,14 +126,14 @@ Typical docking governing patterns include:
 - `A.15` for method-facing or work-facing forms;
 - `C.25` for endpoint bundle structures.
 
-A trajectory account should therefore name not only the docking governing pattern but also the pattern-governed publication or record that now carries the next pattern-governed declaration. Naming only the governing pattern under-publishes the handoff.
+A trajectory account should therefore name not only the docking governing pattern but also the pattern-governed publication or record that now carries the next pattern-governed declaration. Naming only the governing pattern under-publishes the responsibility transfer.
 
-After such a handoff, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
+After such a responsibility transfer, monitoring, maintenance, revisit, or later re-entry may continue through new lineage members or later trajectories. The pattern therefore distinguishes `lineage continuity` from `current governing pattern responsibility`.
 
 #### A.16.0:4.7 - Effect-free moves versus work-requiring crossings
 Some `formalize` and `operationalize` steps are effect-free epistemic changes: rewriting, slot-explicit articulation, route-bounded partialization, view retargeting, or normal-form repair over already available grounds.
 
-Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the crossing or handoff explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
+Other steps require new measurements, experiments, instrumentation, execution, or other `U.Work`. When that happens, the trajectory account shall publish the work-boundary crossing or responsibility transfer explicitly rather than pretending that world-facing work occurred inside the language layer. `A.16.0` records that the crossing was required; the relevant work, gate, or endpoint governing pattern records the world step itself.
 
 #### A.16.0:4.8 - Relation to `A.16` and `E.18`
 `U.LanguageStateMoveTrajectory` is not an `E.18` path publication, and `A.16.0` does **not** govern the semantics of language-state movement.
@@ -143,6 +144,8 @@ Other steps require new measurements, experiments, instrumentation, execution, o
 - endpoint patterns govern endpoint-local `U.EpistemePublication` forms and declarations.
 
 `A.16.0` standardizes only the heavier history package for cases where that package is itself worth publication.
+
+The word `move` remains inherited from `A.16` and means a typed language-state publication transition. `A.16.0` does not generalize it into project action, work-entry readiness, pattern-use recommendation, performed work, work plan, workflow, or transformation-flow path. If source wording uses move-like language outside the language-state trajectory account, restore the concern through `E.10.MOVE` before selecting `E.11.PUR`, `A.15.5`, the A.15 work family, or another direct governing pattern.
 
 #### A.16.0:4.9 - Bridge and viewpoint entry
 A trajectory may later cross a viewpoint or context boundary. When that happens:

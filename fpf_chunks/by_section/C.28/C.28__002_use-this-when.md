@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:0 — Use This When"
-line_start: 51774
-line_end: 51887
+line_start: 52067
+line_end: 52180
 dependencies:
   - "A.10"
   - "A.15"
@@ -91,7 +91,7 @@ The practical error is laundering: the reader sees causal language but cannot re
 
 `C.28` gives FPF one cheap first stop for causal use.
 
-The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal support-basis triage value supports it, and what the next move is.
+The first useful result is not a heavy record. It is one small causal-use triage that says whether causal use is present, which causality-ladder rung is being used, what comparator or counterfactual is in play, what causal support-basis triage value supports it, and what the next supported use is.
 
 Durable cards and profiles appear only when the claim needs them. The pattern buys explicit causal discipline without turning every causal word into a paperwork exercise.
 
@@ -100,10 +100,10 @@ Durable cards and profiles appear only when the claim needs them. The pattern bu
 `C.28` in 60 seconds is the operational entry into `CausalUseTriageRecord`:
 
 1. Detect whether the claim reaches `CausalUseActivation`: it changes what publication, choice, deployment, assurance, audit, benchmark, or support treatment is admissible.
-2. Stop with `nextMove.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
+2. Stop with `nextCausalUseAction.cheapStop` if the claim only reports association, trend, description, measurement, or simulation-only output.
 3. If causal use is live, fill `targetCausalityLadderRung`, `comparatorOrCounterfactualRef`, and `causalSupportBasisTriageValue`.
 4. Fill `supportedUse: CausalUseSupportStatement` and `unsupportedUse: CausalUseUnsupportedStatement` as one action pair.
-5. Fill `nextMove: CausalUseNextMove`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
+5. Fill `nextCausalUseAction: CausalUseNextAction`: choose `cheapStop` or escalate only when the claim is decision-bearing, publication-bearing, assurance-bearing, fairness-bearing, benchmark-bearing, or reusable.
 
 #### C.28:0.4 - First Output
 
@@ -117,11 +117,11 @@ CausalUseTriageRecord:
   causalSupportBasisTriageValue: CausalSupportBasisTriageValue
   supportedUse?: CausalUseSupportStatement
   unsupportedUse?: CausalUseUnsupportedStatement
-  nextMove: CausalUseNextMove
+  nextCausalUseAction: CausalUseNextAction
 ```
 
 ```text
-CausalUseNextMove:
+CausalUseNextAction:
   cheapStop:
     stopNoCausalUse |
     publishAssociationOnly |

@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__005_solution.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 37948
-line_end: 38062
+line_start: 38235
+line_end: 38349
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -94,7 +94,7 @@ A published position claim in `U.LanguageStateSpace` should normally make at lea
 - the current publication form and, when it matters, the MVPK face carrying it;
 - the carrier or SCR/RSCR lane if physical or digital preservation/distribution matters;
 - the grounds, witnesses, or inherited pins that justify the current reading;
-- any local threshold note that makes one region, corridor, or endpoint claim admissible for the next move.
+- any local threshold note that makes one region, corridor, or endpoint claim admissible for the next position claim.
 
 For this pattern, a position claim is reviewable when:
 

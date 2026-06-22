@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.2a.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
-line_start: 37903
-line_end: 38166
+line_start: 38190
+line_end: 38453
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -138,7 +138,7 @@ A published position claim in `U.LanguageStateSpace` should normally make at lea
 - the current publication form and, when it matters, the MVPK face carrying it;
 - the carrier or SCR/RSCR lane if physical or digital preservation/distribution matters;
 - the grounds, witnesses, or inherited pins that justify the current reading;
-- any local threshold note that makes one region, corridor, or endpoint claim admissible for the next move.
+- any local threshold note that makes one region, corridor, or endpoint claim admissible for the next position claim.
 
 For this pattern, a position claim is reviewable when:
 
@@ -298,7 +298,7 @@ Minimum self-check:
 1. Is the author naming a position claim in the chart, or only a folk stage label?
 2. Is `F` being used as a surrogate for another slot?
 3. Are source phenomena, publication forms, publication faces, and carriers being confused with the positioned episteme publication?
-4. Are threshold claims explicit enough for the next move or endpoint decision?
+4. Are threshold claims explicit enough for the next position claim or endpoint decision?
 5. If the text compares two contexts, is there a real bridge or only a lexical resemblance?
 ### C.2.2a:End
 

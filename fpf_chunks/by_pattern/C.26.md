@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
+commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 47953
-line_end: 48549
+line_start: 48246
+line_end: 48842
 dependencies:
   - "A.10"
   - "A.15"
@@ -246,7 +246,7 @@ Stop: not a reusable QL model, not assurance evidence, not physical quantum clai
 
 This is enough for `QLP-0` / `QLP-1` ordinary working use unless the claim is reused, externalized, contested, assurance-facing, comparative, formal, or ontology-bearing.
 
-Use the `C.11` mini-output discipline across the cluster: finish with one next move, not with an interesting label.
+Use the `C.11` mini-output discipline across the cluster: finish with one choice result or governed follow-up, not with an interesting label.
 
 | Mini-output | Cluster meaning |
 | --- | --- |
