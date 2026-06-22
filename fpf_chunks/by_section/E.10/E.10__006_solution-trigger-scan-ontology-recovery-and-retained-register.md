@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - trigger scan, ontology recovery, and retained register"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-trigger-scan-ontology-recovery-and-retained-register.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - trigger scan, ontology recovery, and retained register"
-line_start: 62382
-line_end: 62394
+line_start: 63020
+line_end: 63032
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.10:4 - Solution - trigger scan, ontology recovery, and retained register
 
-**LEX-BUNDLE** and **ULR (Unified Lexical Rules)** are retained labels for reference apparatus inside the current `E.10` pattern. They name register, naming, morphology, and local rewrite checks only; they do not name a second pattern, a second ontology, or a second mandatory audit. Use this material only after the `E.10:0.2` scan has selected a lexical, register, morphology, or naming problem that actually needs those details.
+**LEX-BUNDLE** and **ULR (Unified Lexical Rules)** name subordinate register, naming, morphology, and local rewrite checks inside the current `E.10` pattern. They do not name a second pattern, a second ontology, or a second mandatory audit. Use this material only after the `E.10:0.2` scan has selected a lexical, register, morphology, or naming problem that actually needs those details.
 
 1. **Vertical Stratification** (E.10 -> four strata);
 2. **Twin‑Register Discipline** (Tech and Plain pairs);

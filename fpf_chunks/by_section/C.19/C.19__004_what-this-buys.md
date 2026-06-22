@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__004_what-this-buys.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.2 — What this buys"
-line_start: 44997
-line_end: 45002
+line_start: 45108
+line_end: 45113
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -41,5 +45,5 @@ keywords:
 
 - one explicit pool-governance result for exploration, graduation, narrowing, and sunset treatment
 - one explicit link from lens or policy state to the next pool-side treatment
-- one repeatable way to preserve heterogeneity and frontier discipline without forcing illegal totalization
+- one repeatable way to preserve heterogeneity and frontier discipline without forcing inadmissible totalization
 

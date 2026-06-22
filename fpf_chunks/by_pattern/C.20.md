@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.20.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
-line_start: 45429
-line_end: 45563
+line_start: 45566
+line_end: 45700
 dependencies:
   - "A.19"
   - "C.2"

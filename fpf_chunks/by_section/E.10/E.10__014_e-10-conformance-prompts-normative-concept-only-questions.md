@@ -6,12 +6,12 @@ section_id: "E.10:11"
 section_title: "E.10 conformance prompts (normative, concept-only questions)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_e-10-conformance-prompts-normative-concept-only-questions.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11 — E.10 conformance prompts (normative, concept-only questions)"
-line_start: 63046
-line_end: 63068
+line_start: 63684
+line_end: 63706
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 > Use these **prompts** during review. They reference § 7 (MG-DA) and § 8 (LEX.Morph) instead of repeating them.
 
 1. **Context prompt.** Is each potentially polysemous noun interpreted inside a **named `U.BoundedContext`**?
-2. **EntityOfConcern and Description-episteme boundary and specification-use prompt.** Does each sentence use the correct boundary (the EntityOfConcern named directly; Description-episteme use for descriptions; specification use only where a neighbouring gate grants it; run: actuals)?
+2. **EntityOfConcern and Description-episteme boundary and specification-use prompt.** Does each sentence use the correct boundary (the EntityOfConcern named directly; Description-episteme use for descriptions; specification use only where a direct gate pattern grants it; run: actuals)?
 3. **Token prompt.** For new or renamed tokens, is **`LEX.TokenClass`** declared and consistent with where the token appears?
 4. **Head-kind prompt.** Does the **head noun** name what kind of thing the phrase is actually about: Role, Method, Work, Context, Characteristic, Capability, Requirement, publication form, service-access relation, service-offer record, interpretation, process, or authority use? A narrowing qualifier alone does **not** answer this question.
 5. **Qualifier-claim prompt.** If an adjective, participle, genitive, or comparative modifier carries a claim being made, comparison criterion, relation, or admissible-use boundary, has that use been restored explicitly rather than left inside the modifier alone?
@@ -56,7 +56,7 @@ keywords:
 13. **Bridge prompt.** If sameness spans Contexts, is there an explicit **Bridge** with **CL** and loss notes?
 13. **Collision prompt.** Were full-text and Reserved-Names checks completed, with no other meaning of this token anywhere in FPF?
 14. **Naming-procedure prompt.** If one durable reusable name is needed because no admissible existing token carries the needed meaning beyond one local repair, was the full **F.18 `MintNew` or `DocumentLegacy`** procedure completed rather than picking a label by intuition and filling a partial Name Card afterward?
-15. **Value-substitution prompt.** After the repair, can the declared reader still see the remaining admissible move, and did the repair preserve usability, affordability, semantic composability, neighbor-pattern fit, and local action guidance? If not, narrow the repair, keep ordinary wording with an recovery note with recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.
+15. **Value-substitution prompt.** After the repair, can the declared reader still see the remaining admissible move, and did the repair preserve usability, affordability, semantic composability, governing-pattern fit, and local action guidance? If not, narrow the repair, keep ordinary wording with an recovery note with recovered kind and use, or leave the issue blocking instead of optimizing for lexical purity.
 
 **Working order for precision repair on FPF-governed prose.** Restore the head kind first; a narrowing qualifier such as `comparative`, `safe`, `interactive`, or `reliable` does **not** by itself restore that kind. Then unpack the qualifier claim, then check whether the comparison or escalation basis is homogeneous. Only after that may a later Plain, didactic, or coarsened rendering admissibly relax the sentence, and even then the more precise upstream interpretation must remain recoverable.
 

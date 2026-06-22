@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50949
-line_end: 50996
+line_start: 51086
+line_end: 51133
 dependencies:
   - "A.10"
   - "A.3.3"

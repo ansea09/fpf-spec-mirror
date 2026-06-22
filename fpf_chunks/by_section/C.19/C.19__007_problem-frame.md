@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:1 — Problem frame"
-line_start: 45018
-line_end: 45029
+line_start: 45130
+line_end: 45141
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -38,7 +42,7 @@ keywords:
 ---
 
 ### C.19:1 - Problem frame
-The E/E governor provides named, versioned policies and lenses that steer NQD generation/selection under lawful dominance and provenance constraints.
+C.19 provides named, versioned policies and lenses that govern still-live pool treatment after C.18 generation, archive, or front records exist.
 
 When `C.11` has already made local choice among one fixed `OptionSet` explicit, `C.19` begins where the question becomes policy over several still-live candidate lines, family regions, or frontier segments rather than one more local `ChoiceResult` record.
 

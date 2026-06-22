@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 62412
-line_end: 62497
+line_start: 63050
+line_end: 63135
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,13 +50,13 @@ keywords:
   * **Don’t:** `IncidentBoard`, `TDD Tradition`, `Production Process` (kernel), `Service Function` (kernel).
 
  **Onto2 — EntityOfConcern and Description-episteme boundary and specification-use morphology**  *(ref. E.10.D2)*
-* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`**: `MethodDescription`, `TraditionDescription`. A **Description episteme admitted for specification use** appends **`...Spec`** and presupposes acceptance criteria, harnesses, measurable anchors, formal checkability, verification use, or another specification-granting gate named by value (normative in **E.10.D2** and neighbouring patterns). E.g., *Algorithm* is a species of `MethodDescription` for a computer (a system in the role of information transformer); **if** expressed in a formal language **and** bundled with acceptance tests, it is **`MethodSpec`** (per **F.11**). **If** expressed as pseudo-code, it is **`MethodDescription`**.
+* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`**: `MethodDescription`, `TraditionDescription`. A **Description episteme admitted for specification use** appends **`...Spec`** and presupposes acceptance criteria, harnesses, measurable anchors, formal checkability, verification use, or another specification-granting gate named by value (normative in **E.10.D2** and direct governing patterns). E.g., *Algorithm* is a species of `MethodDescription` for a computer (a system in the role of information transformer); **if** expressed in a formal language **and** bundled with acceptance tests, it is **`MethodSpec`** (per **F.11**). **If** expressed as pseudo-code, it is **`MethodDescription`**.
 * **Formal-description guard:** A formal mathematical or physical theorem, including a formal postulate theorem in physics, remains a Description episteme until a bounded use assigns specification use. Its formal language belongs to formality and publication-expression discipline; it becomes a specification only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another specification-granting condition named by value.
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `TransformationFlowStructureDescription`, `TransformationFlowStructureSpec`, `SystemDescription`, and `SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
 * **Don’t:** `SamplingAlgorithm` (when it is just prose), `SamplingProcessSpec` (head not signalling kind).
 **Onto3 — Roles, RoleAssignments, and episteme-symbol carriers (holonic)**  *(ref. A.2, A.2.1, F.4, and F.5)*
-* **Rule:** A work-facing role value may use a Tech label ending in **`…Role`** and is described through **F.4 Role Description**, e.g., `SafetyOfficerRole`, `ReviewerRole`. Role-characteristic spaces, role-state relations, and role relation structures are neighboring governed values; they are not hidden inside the role name. The concrete assignment relation is a **`U.RoleAssignment`** with explicit `holderRef`, `roleRef`, `boundedContextRef`, and optional `windowRef`; do not use a compact role-assignment display string as the normative model. **Carrier** is **reserved for a system that carries or makes available a symbol of episteme** (`U.Episteme`, `Tradition`, `Lineage`, `Profile`, repertoire) **independent of any concrete role assignment**, e.g., `LeanTraditionCarrier`, `CalibrationLineageCarrier`. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between an episteme-symbol carrier, a system made by a transformer, or an episteme abstracted from its carrier.
+* **Rule:** A work-facing role value may use a Tech label ending in **`…Role`** and is described through **F.4 Role Description**, e.g., `SafetyOfficerRole`, `ReviewerRole`. Role-characteristic spaces, role-state relations, and role relation structures are separate governed values; they are not hidden inside the role name. The concrete assignment relation is a **`U.RoleAssignment`** with explicit `holderRef`, `roleRef`, `boundedContextRef`, and optional `windowRef`; do not use a compact role-assignment display string as the normative model. **Carrier** is **reserved for a system that carries or makes available a symbol of episteme** (`U.Episteme`, `Tradition`, `Lineage`, `Profile`, repertoire) **independent of any concrete role assignment**, e.g., `LeanTraditionCarrier`, `CalibrationLineageCarrier`. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between an episteme-symbol carrier, a system made by a transformer, or an episteme abstracted from its carrier.
 * **Register note:** Job titles (`Reviewer`, `Owner`, `Lead`) belong in the **Plain** register and MUST twin-map to explicit Tech `…Role` tokens.
 * **Why:** This resolves inconsistent “role carrier” and “role-assigned holon/system” usage: use **`U.RoleAssignment`** for the contextual assignment of a holon/system to a `…Role`; keep **“Carrier”** for the system that carries or makes available a symbol of episteme.
 * **Rewrite note.** `…CarrierRole` used for a role-assigned holon/system **MUST be rewritten** to an explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`. Use SCR-LEX to enforce the rewrite.

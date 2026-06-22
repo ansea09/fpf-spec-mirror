@@ -6,12 +6,12 @@ section_id: "E.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__001_intro.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:intro — Intro"
-line_start: 69557
-line_end: 69565
+line_start: 70195
+line_end: 70203
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -44,8 +44,8 @@ keywords:
 
 > **Tech-name:** **TransformationFlowStructure** (pattern label)
 > **Plain-name:** Transformation flow structure
-> **Type:** Structural/ontic-relation pattern (E)
+> **Type:** Structural pattern for ontic relations (E)
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
-> **Twin labels:** Tech / Plain per E.10; faces published through E.17 MVPK (no schemas in Part E).
+> **Twin labels:** Tech and Plain per E.10; faces published through E.17 MVPK (no schemas in Part E).
 

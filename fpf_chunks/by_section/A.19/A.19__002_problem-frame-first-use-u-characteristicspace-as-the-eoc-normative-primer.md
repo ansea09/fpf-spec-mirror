@@ -6,12 +6,12 @@ section_id: "A.19:0"
 section_title: "Problem frame - First use: U.CharacteristicSpace as the EoC (normative primer)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_problem-frame-first-use-u-characteristicspace-as-the-eoc-normative-primer.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Problem frame - First use: U.CharacteristicSpace as the EoC (normative primer)"
-line_start: 24137
-line_end: 24157
+line_start: 24138
+line_end: 24158
 dependencies:
   - "A.17"
   - "A.18"

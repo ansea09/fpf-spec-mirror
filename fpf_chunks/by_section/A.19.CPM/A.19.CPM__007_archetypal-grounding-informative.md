@@ -6,12 +6,12 @@ section_id: "A.19.CPM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__007_archetypal-grounding-informative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:5 — Archetypal Grounding — informative"
-line_start: 28632
-line_end: 28663
+line_start: 28637
+line_end: 28668
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,7 +29,7 @@ keywords:
 
 Think of CPM as an **auditable relation‑builder**:
 
-* Input: "two admitted profiles + an explicit comparator spec + declared admissibility/evidence surfaces"
+* Input: "two admitted profiles + an explicit comparator spec + declared admissibility and evidence declarations"
 * Output: “a **set‑valued** relation outcome that preserves incomparability and uncertainty”
 
 The key didactic boundary is: **CPM compares; it does not decide.**
@@ -38,7 +38,7 @@ The key didactic boundary is: **CPM compares; it does not decide.**
 
 A program manager compares Supplier‑A vs Supplier‑B for a safety‑critical component. The team tracks a profile of measures (cost, lead time, defect rate, assurance, sustainability), but not all measures are strictly comparable across regions (different reporting regimes, different units).
 
-* The project has a declared `CN‑Spec` (admission + comparability routing) and a declared `CG‑Spec` that lists lawful comparators in `ComparatorSet` and evidence rules in `MinimalEvidence`.
+* The project has a declared `CN‑Spec` (admission and comparability declarations) and a declared `CG‑Spec` that lists admissible comparators in `ComparatorSet` and evidence rules in `MinimalEvidence`.
 * The comparator chosen is explicit: `ComparatorSpecSlot = ParetoDominanceComparatorSpecRef@edition` (declared in `CG‑Spec.ComparatorSet`).
 * CPM runs `Compare(...)`.
 

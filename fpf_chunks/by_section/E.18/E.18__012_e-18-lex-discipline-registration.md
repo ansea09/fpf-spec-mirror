@@ -6,12 +6,12 @@ section_id: "E.18:9"
 section_title: "E.18 LEX Discipline (registration)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__012_e-18-lex-discipline-registration.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:9 — E.18 LEX Discipline (registration)"
-line_start: 70020
-line_end: 70023
+line_start: 70668
+line_end: 70671
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -42,5 +42,5 @@ keywords:
 
 ### E.18:9 - E.18 LEX Discipline (registration)
 Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Add an ASCII alias **`CLKind`** <-> Plain `CL^k` (cf. `CLPlane` <-> `CL^plane`). Reference MVPK E.17 naming for faces.
-**CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order law (with neutral/absorbing), SquareLaw compatibility note, and the owning Gate profile(s) that may change it. Absence of registration ⇒ **non‑conformant**.
+**CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order law (with neutral or absorbing), SquareLaw compatibility note, and the Gate profile or profiles allowed to change it. Absence of registration ⇒ **non‑conformant**.
 

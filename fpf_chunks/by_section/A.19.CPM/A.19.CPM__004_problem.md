@@ -6,12 +6,12 @@ section_id: "A.19.CPM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__004_problem.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:2 — Problem"
-line_start: 28509
-line_end: 28521
+line_start: 28514
+line_end: 28526
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -29,10 +29,10 @@ Engineering teams frequently need to compare two options (designs, methods, vend
 
 * **Hidden scalarization:** forcing a single number (or a single winner) from multi‑criteria reality, erasing incomparability and ties.
 * **Silent totalization:** inventing an implied total order by convenience tie‑breakers or implicit thresholds, even when only a partial order is warranted.
-* **Inadmissible arithmetic:** comparing across measures using operations that are not scale‑lawful (CSLC‑violating) or not admitted by the declared admissibility frame.
+* **Inadmissible arithmetic:** comparing across measures using operations that are not scale-admissible (CSLC‑violating) or not admitted by the declared admissibility frame.
 * **Comparator drift:** “the comparator” exists only as prose or code intuition; different teams compare the same option set and measure set differently because the comparator spec is not explicit and edition‑pinned.
-* **Unknown coercion:** missing/unknown evidence is coerced into an outcome (e.g., “treat missing as equal”, “treat unknown as worse”), producing comparisons that look decisive but are epistemically unsafe.
-* **Cross‑context leakage:** comparing across contexts or planes without explicit bridges, CL routing, or penalties discipline, producing misleading outcomes that ignore transport costs and reference plane constraints.
+* **Unknown coercion:** missing or unknown evidence is coerced into an outcome (e.g., “treat missing as equal”, “treat unknown as worse”), producing comparisons that look decisive but are epistemically unsafe.
+* **Cross‑context leakage:** comparing across contexts or planes without explicit bridges, CL references, or penalty discipline, producing misleading outcomes that ignore transport costs and reference plane constraints.
 
 CPM exists to make the comparison act explicit, admissibility‑gated, set‑valued, and auditable -- so downstream selection can remain a separate, policy‑bound step.
 

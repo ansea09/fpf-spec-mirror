@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__012_bias-annotation.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:6 — Bias-Annotation"
-line_start: 45270
-line_end: 45273
+line_start: 45407
+line_end: 45410
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -39,5 +43,5 @@ keywords:
 
 ### C.19:6 - Bias-Annotation
 
-No global scalarisation of partial orders; ordinal scales excluded from arithmetic; all selections record lens id and policy id; notation/tool neutrality.
+No global scalarisation of partial orders; ordinal scales excluded from arithmetic; all selections record lens id and policy id; notation and tool neutrality.
 

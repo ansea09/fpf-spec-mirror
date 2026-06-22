@@ -6,12 +6,12 @@ section_id: "E.10:11.6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__020_rationale.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11.6 — Rationale"
-line_start: 63143
-line_end: 63151
+line_start: 63781
+line_end: 63789
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.10:11.6 - Rationale
 
-Wording mistakes in FPF usually matter because they hide an ontology choice, a relation position, a source-use relation, an admissible-use boundary, or a neighbouring pattern application. A synonym replacement can make the sentence smoother while changing the claim. `E.10` therefore starts with a cheap trigger scan and then returns the work to the smallest pattern that can govern the recovered object.
+Wording mistakes in FPF usually matter because they hide an ontology choice, a relation position, a source-use relation, an admissible-use boundary, or a direct governing pattern application. A synonym replacement can make the sentence smoother while changing the claim. `E.10` therefore starts with a cheap trigger scan and then returns the work to the smallest pattern that can govern the recovered object.
 
 The pattern stays deliberately limited. It is not the ontology for evidence, assurance, work, gate, decision, publication, architecture, characteristic, temporal, role, method, mathematical-lens, or source-use claims. It only prevents wording from smuggling those claims in under broad heads. Once the recovered object or relation is visible, the direct governing pattern carries the substantive decision.
 

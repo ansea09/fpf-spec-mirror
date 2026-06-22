@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 63336
-line_end: 63394
+line_start: 63974
+line_end: 64032
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ The standing construction is:
 1. `E.10` recognizes an FPF-governed wording use and either closes it locally or selects a governing pattern, controlled precision-reduction pattern, durable-name application, or fail-closed non-use disposition.
 2. `E.10.ARCH` maintains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
 3. A realization pattern or retained governing pattern such as `A.6.RSIR`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `A.3.1`, or a direct evidence, graph, method, mechanism, work, gate, authority, release, or publication-use governing pattern unpacks the wording according to the shared algorithm for one named `semanticArea` and its `ontologicalNeighborhood`.
-4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move that no existing governing pattern already carries.
+4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader move that no existing governing pattern already carries.
 5. `E.8` governs publication-form and placement wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the governing `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. `E.19` checks that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
 

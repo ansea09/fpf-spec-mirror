@@ -6,12 +6,12 @@ section_id: "A.6.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_sota-echoing.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:11 — SoTA-Echoing"
-line_start: 16126
-line_end: 16135
+line_start: 16127
+line_end: 16136
 dependencies:
   - "A.1"
   - "A.2.1"

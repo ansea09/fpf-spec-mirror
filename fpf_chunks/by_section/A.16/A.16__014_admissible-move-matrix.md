@@ -6,12 +6,12 @@ section_id: "A.16:13"
 section_title: "Admissible Move Matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__014_admissible-move-matrix.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:13 — Admissible Move Matrix"
-line_start: 22853
-line_end: 22871
+line_start: 22854
+line_end: 22872
 dependencies:
   - "A.16.0"
   - "A.16.0-A.16.2"

@@ -1,26 +1,34 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.18"
-pattern_title: "Open‑Ended Search Calculus (NQD‑CAL)"
+pattern_title: "Open-Ended Search Archive and Front Stewardship"
 section_id: "C.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__001_intro.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
+  - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:intro — Intro"
-line_start: 44723
-line_end: 44733
+line_start: 44724
+line_end: 44734
 dependencies:
-  - "A.1"
   - "A.15"
   - "A.17-A.19"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.5.2.1"
   - "C.16"
   - "C.17"
   - "C.19"
   - "C.2"
+  - "C.30"
+  - "C.36"
+  - "E.18"
+  - "E.18.1"
+  - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
   - "G.5"
   - "G.6"
@@ -41,14 +49,14 @@ keywords:
   - "Γ_nqd.updateArchive"
 ---
 
-## C.18 - Open‑Ended Search Calculus (NQD‑CAL)
+## C.18 - Open-Ended Search Archive and Front Stewardship
 
-**Status.** Calculus specification (**CAL**). Exports `Γ_nqd.*` operators for open‑ended, illumination‑style generation. **ΔKernel = 0** (no kernel primitives added). *Minting note:* this CAL **does not mint** new U‑types; it defines **CAL‑records** that MAY alias to registered U‑types where present via **E.10/UTS**.
-
-**Depends on.** A‑kernel (A.1–A.15), **MM‑CHR** (C.16) for measurements, **KD‑CAL** for similarity/corpora, **Sys‑CAL** for carriers, **Decsn‑CAL** (objectives; advisory), **Compose‑CAL** (set aggregation; advisory).
-
-**Coordinates with.** **B.5.2.1** (binding), **C.17 Creativity‑CHR** (characteristics & scales), **C.19 E/E‑LOG** (policies: emitter selection, explore/exploit).
-
-**Exports (CAL; no U‑type minting here).**
- - Records: `NQD.DescriptorMap` (alias of `U.DescriptorMap` if minted), `NQD.NQDArchive` (alias of `U.NQDArchive`), `NQD.Niche`, `NQD.ArchiveCell`, `NQD.EmissionSeed?`, `U.EmitterPolicyRef`, `U.InsertionPolicyRef`, `U.IlluminationSummary`, and `NQD.CandidateSet` (alias of `Set<U.Hypothesis>`).
+> **Tech-name:** `OpenEndedSearchArchiveAndFrontStewardship`
+> **Plain-name:** open-ended search archive and front stewardship
+> **Type:** C-pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+> **Placement:** Part C
+> **Builds on:** `C.16`, `C.19`, `G.5`, `G.11`, `E.18`, `E.18.1`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.30`, `F.17`, `F.18`, and `F.9`.
+> **Purpose:** make archive, front, Q-front, descriptor, telemetry, retained exploration value, stepping-stone value, lineage, edition, architecture-candidate generation, and cultural-variant generation usable without turning them into publication, decision, work permission, or cultural-evolution authority.
 

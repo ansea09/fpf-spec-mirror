@@ -6,12 +6,12 @@ section_id: "A.19.SPR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__002_use-this-when.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:0 — Use this when"
-line_start: 24840
-line_end: 24863
+line_start: 24841
+line_end: 24864
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "F.12:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 78486
-line_end: 78511
+line_start: 79219
+line_end: 79244
 dependencies:
   - "A.2.3"
   - "F.1"

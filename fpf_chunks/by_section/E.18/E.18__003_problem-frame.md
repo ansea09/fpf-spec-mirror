@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 69613
-line_end: 69626
+line_start: 70251
+line_end: 70264
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -42,13 +42,13 @@ keywords:
 
 ### E.18:2 - Problem frame
 
-Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described/context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed loci. The P2W reference path is:
+Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed loci. The P2W reference path is:
 `U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus (selector relation governed by G.5) <-> WorkPlanning locus (A.15.2 U.WorkPlan or plan-item relation) -> U.Work -> EvaluatingAndRefreshing locus (refresh relation governed by G.11)`
 is one **path** among many possible domain-specific transformation-flow paths. Without a common **structure discipline**:
 
 * flows look ad-hoc and **non-comparable**;
-* cross‑Context **crossings** (plane/Context changes) are undocumented;
-* MVPK faces carry **hidden arithmetic** or restate I/O;
+* cross‑Context **crossings** (plane or Context changes) are undocumented;
+* MVPK faces carry **hidden arithmetic** or restate input and output;
 * set‑returning selection is silently replaced by **single scores**;
 * cycles lack **budget** discipline; refresh is **out‑of‑band**.
 

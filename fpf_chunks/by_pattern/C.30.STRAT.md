@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 55222
-line_end: 55490
+line_start: 55390
+line_end: 55658
 dependencies:
   - "A.10"
   - "A.15"
@@ -306,7 +306,7 @@ Internal FPF current practice is the governing source here: `E.10` supplies trig
 
 - `E.10` catches the trigger and selects this pattern only when stratification or architecture-operation source-label recovery is needed.
 - `E.10.ARCH` supplies the recovery architecture, placement rule, and anti-fanout discipline.
-- `C.30.P` remains the broader architecture and structure wording repair. `C.30.STRAT` is the narrower stratification source-label realization when those labels recur with stable recovery apparatus.
+- `C.30.P` remains the broader architecture and structure wording repair. `C.30.STRAT` is the narrower stratification source-label realization when those labels recur with stable recovery shape.
 - `A.6.M` governs only recovered module-interface relation and interface-specification cases.
 - `C.30.LCA` governs only recovered control-structure view cases with control roles, relations, rate bands, control-layer labels, and bounded context.
 - `C.31` and `C.31.RSA` govern only recovered characteristic, reusable-locus, bespoke-residue, `accountingBasisRef`, or report-only share cases.

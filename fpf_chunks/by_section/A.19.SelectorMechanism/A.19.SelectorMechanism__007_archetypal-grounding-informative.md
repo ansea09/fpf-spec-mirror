@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__007_archetypal-grounding-informative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:5 — Archetypal Grounding — informative"
-line_start: 28987
-line_end: 29033
+line_start: 28988
+line_end: 29034
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -45,7 +45,7 @@ When comparisons are partial or set‑valued, selection must not pretend there i
 
 **Outcome.**
 
-* `SelectEligibility` returns `degrade` (or `abstain`, depending on the declared failure behavior) **because** `OptionC` fails evidence gating; selection excludes `OptionC` under an explicit policy route rather than coercing unknowns.
+* `SelectEligibility` returns `degrade` (or `abstain`, depending on the declared failure behavior) **because** `OptionC` fails evidence gating; selection excludes `OptionC` under an explicit policy relation rather than coercing unknowns.
 * `SelectionSlot` returns `{OptionA, OptionB}` as a selected set, rather than forcing a single winner.
 * `Audit` records `CGSpecRef.edition`, the effective evidence policy, and the stable identity of the selected set result.
 
@@ -54,11 +54,11 @@ When comparisons are partial or set‑valued, selection must not pretend there i
 **Scenario.** A methods group selects a declared set of analysis methods for a task. Candidates are method family refs. The group wants diversity in the selected set, but does not want diversity metrics to silently become dominance criteria.
 
 * `CandidateSetSlot` = `{Family1, Family2, Family3, Family4}`
-* `ComparisonResultSlot` is produced by lawful comparison on declared indicators and evidence gates.
-* `TaskSignatureSlot` is present and is the single routing slot/ref for policy defaults:
+* `ComparisonResultSlot` is produced by admissible comparison on declared indicators and evidence gates.
+* `TaskSignatureSlot` is present and is the single policy-default slot or ref:
 
   * `PortfolioMode` and dominance regime,
-  * budgeting/telemetry hooks (when used).
+  * budgeting and telemetry hooks (when used).
 * `CriteriaSlot` declares that diversity signals are telemetry unless explicitly promoted by policy.
 
 **Outcome.**

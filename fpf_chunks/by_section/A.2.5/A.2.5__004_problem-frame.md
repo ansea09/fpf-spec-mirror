@@ -6,12 +6,12 @@ section_id: "A.2.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__004_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:1 — Problem Frame"
-line_start: 3747
-line_end: 3754
+line_start: 3748
+line_end: 3755
 dependencies:
   - "A.15"
   - "A.2.1"

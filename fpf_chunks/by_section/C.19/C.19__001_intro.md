@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 44969
-line_end: 44984
+line_start: 45079
+line_end: 45094
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -37,19 +41,19 @@ keywords:
   - "widen"
 ---
 
-## C.19 - Explore–Exploit Governor (E/E‑LOG)
+## C.19 - Explore-Exploit Live-Pool Governor
 
-> **Type:** Calculus (C)
+> **Type:** C-pattern
 > **Status:** Stable
 > **Normativity:** Normative
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** Govern exploration/exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
+**Intent.** Govern exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
 
-**Export relation.** No `Γ` operators are exported; policies parameterize calls in `C.18 NQD-CAL`.
+**Export relation.** C.19 does not export generation operators. It governs live-pool treatment records over candidate pools, fronts, archive regions, family regions, and cultural live pools.
 
-**Depends on.** `C.18 NQD-CAL` (generators), `C.17 Creativity-CHR` (measurements), `Decsn-CAL` (objectives/constraints and scalarization lenses), `B.3` (trust adjustments), and `Compose-CAL` (set aggregation; advisory).
+**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` and `G.11` for selected-set publication and refresh.
 
 **Coordinates with.** `C.11` for local choice among already-available options, `C.24` for enactment planning after choice, `G.5` for selector-facing publication, `C.17`, and `G.9`.
 

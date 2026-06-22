@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71287
-line_end: 71316
+line_start: 72020
+line_end: 72049
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -51,7 +51,7 @@ keywords:
 | **Terminology drift by “synonym”** | Authors swap kernel terms for nicer-sounding words. | Increases ambiguity; harms cross-pattern composability. | Apply PCP-TERM and require explicit mini-definitions on first use. |
 | **Lexical substitution accepted as repair** | The reviewed text no longer contains the trigger word, but the replacement changes the FPF kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, or scope. | The review rewards surface cleanup while ontology drift remains or gets worse. | Require a `KindRestorationCheck`; if pre/post kinds or slots, relation positions, use relations, or claim kinds do not match or an accepted split/change decision is absent, keep the finding blocking. |
 | **Form-only review** | Review time goes to formatting and micro-edits while the normative content, terms, Bridges, modularity, slot discipline and SoTA stance are barely checked. | Raises editorial cost without raising semantic trust. | Use the triage rule: treat FPF-governed sections as depth loci and keep mechanical cleanup subordinate to semantic correction. |
-| **Checklist-clean but content-wrong** | The named profiles, lexical checks, and conformance rows are marked complete, but the repaired text no longer solves the stated problem, assigns a claim to the wrong locus, creates shadow authority, loses a selected companion or projection function, or adds needless apparatus. | Review accepts a locally tidy pattern while weakening the actual `FPF` guidance. | Apply substantive solution and locus adequacy: name local content questions, check the actual problem and governing loci named by value, ask what became worse, and widen the declared boundary by value when the fix belongs outside the initial reviewed pattern or subset. |
+| **Checklist-clean but content-wrong** | The named profiles, lexical checks, and conformance rows are marked complete, but the repaired text no longer solves the stated problem, assigns a claim to the wrong locus, creates shadow authority, loses a selected companion or projection function, or adds needless boilerplate or support material. | Review accepts a locally tidy pattern while weakening the actual `FPF` guidance. | Apply substantive solution and locus adequacy: name local content questions, check the actual problem and governing loci named by value, ask what became worse, and widen the declared boundary by value when the fix belongs outside the initial reviewed pattern or subset. |
 | **Architecturally right, didactically thin** | The family is admissible, but readers still need project notes to understand what the pattern really governs. | Trust in the monolith depends on external context rather than the pattern text. | Add the missing problem frame, worked slices, local definitions, and governing-pattern or project-side FPF kind and reference named by value guidance before admission. |
 | **Scenario-name grounding** | Grounding names a situation but does not show what the source and resulting publication actually look like. | Readers cannot tell why the case stays in the family or where it leaves the family. | Add concrete source and resulting-publication slices, especially for transform families and easy boundary confusions. |
 | **Generic-head underspecification** | An FPF-governed phrase uses a generic head such as `note`, `view`, `guidance`, `output`, or `artifact`, but the run leaves that head uninterpreted. | Review discusses the sentence before the object kind is even stable. | Restore the head kind first in pattern-local terms before accepting or comparing the sentence. |

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_first-minute-questions.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.3 — First-minute questions"
-line_start: 45003
-line_end: 45009
+line_start: 45114
+line_end: 45121
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -41,6 +45,7 @@ keywords:
 
 - Which still-live pool, frontier segment, or family region is actually under governance now?
 - Which lens or policy state is governing it?
-- Is the next lawful treatment `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`?
+- Is the next admissible pool treatment `widen`, `keep frontier`, `narrow to subset`, or `sunset line`?
+- If none of those treatments is current, which governing pattern now applies, and why is the question no longer pool policy?
 - What event or threshold would justify changing that treatment next?
 

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 45289
-line_end: 45295
+line_start: 45426
+line_end: 45432
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -40,7 +44,7 @@ keywords:
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
 - **Treating one scalarized top-1 as the frontier.** Avoid by naming the governing lens and keeping the live frontier distinct from any lens-ranked pick.
-- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit pool-side action: `widen`, `keep frontier`, `narrow to subset`, `sunset line`, or `reroute`.
+- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit pool-side treatment: `widen`, `keep frontier`, `narrow to subset`, or `sunset line`. If the current question is no longer pool policy, name the next governing pattern instead of inventing another pool treatment.
 - **Letting `Surprise` or `Illumination` quietly become dominance criteria.** Avoid by promoting them only through one declared lens or policy id and recording that promotion in provenance.
-- **Absorbing neighboring questions.** Avoid by rerouting fixed-option choice to `C.11`, enactment-facing call planning to `C.24`, and selector-facing publication to `G.5`.
+- **Absorbing other governing questions.** Avoid by applying `C.11` for fixed-option choice, `C.24` for enactment-facing planning, and `G.5` for selector-facing publication.
 

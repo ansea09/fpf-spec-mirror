@@ -6,12 +6,12 @@ section_id: "F.9:24"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__025_sota-echoing.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:24 — SoTA-Echoing"
-line_start: 77345
-line_end: 77355
+line_start: 78078
+line_end: 78088
 dependencies:
   - "A.15.1"
   - "A.2"

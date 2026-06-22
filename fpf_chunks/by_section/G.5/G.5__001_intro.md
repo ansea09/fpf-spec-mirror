@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher & MethodFamily Registry"
+pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
 section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
+  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:intro — Intro"
-line_start: 83494
-line_end: 83503
+line_start: 84227
+line_end: 84236
 dependencies:
   - "C.11"
   - "C.18"
@@ -38,7 +38,7 @@ keywords:
   - "dispatcher"
   - "eligibility"
   - "generator-family registry"
-  - "in core registry/eligibility fields"
+  - "in core registry and eligibility fields"
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
@@ -47,7 +47,7 @@ keywords:
   - "tool choices are outside the core"
 ---
 
-## G.5 - Multi‑Method Dispatcher & MethodFamily Registry
+## G.5 - Multi‑Method Dispatcher and MethodFamily Registry
 
 > **Type:** General (G)
 > **Status:** Stable

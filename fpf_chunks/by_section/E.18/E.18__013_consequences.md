@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 70024
-line_end: 70038
+line_start: 70672
+line_end: 70686
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -45,13 +45,13 @@ keywords:
 **Benefits.**
 
 1. **Universality with discipline:** one transfer relation kind and explicit gates eliminate second hidden work and method orders and make cross-domain flows (ML, supply-chain, TAMP and MPC, scientific work structures) uniformly analyzable and auditable.
-2. **Comparability & replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
+2. **Comparability and replayability:** CSLC and edition‑pinned comparators prevent covert scalarization and enable declared set returns and reproducible decisions.
 3. **Locality of change:** sentinel subflows restrict refresh to affected `PathSlice`s; large selected structures remain stable under frequent edition bumps.
 4. **Clean DesignRunTag fold:** LaunchGate and `DesignRunTagConsistency` stop premature launch-value slot filling; acceptance and telemetry belong where they occur (`U.Work`).
-5. **Assurance visibility:** MVPK makes GateProfile/DecisionLog records locally checkable and cacheable for the same `{PathSlice, GateChecks, Editions}`.
+5. **Assurance visibility:** MVPK makes GateProfile and DecisionLog records locally checkable and cacheable for the same `{PathSlice, GateChecks, Editions}`.
 
 **Trade‑offs.**
-a) **Higher upfront modeling cost:** explicit Bridge/UTS pins and GateProfiles demand care; mitigated by Lean profile and templates.
+a) **Higher upfront modeling cost:** explicit Bridge and UTS pins and GateProfiles demand care; mitigated by Lean profile and templates.
 b) **Longer transfer face sets:** MVPK faces are verbose by design; lean face sets can be used for low-risk segments.
 c) **Tooling alignment:** some incumbent DAG-only orchestrators conflict with budgeted cycles and set-return semantics; adapters project E.18 semantics to their interop boundary, while `E.18.2` carries the mathematical graph-description relation when that projection matters.
 

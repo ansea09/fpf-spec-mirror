@@ -6,12 +6,12 @@ section_id: "A.2.8:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__014_rationale.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:10 — Rationale"
-line_start: 5582
-line_end: 5589
+line_start: 5583
+line_end: 5590
 dependencies:
   - "A.15.1"
   - "A.2"

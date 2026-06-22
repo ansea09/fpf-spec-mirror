@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 70097
-line_end: 70109
+line_start: 70745
+line_end: 70757
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -43,7 +43,7 @@ keywords:
 ### E.18:15 - Conformance Use Checks
 
 1. **Model lint:** run static checks for CC-E18-01...25 (transfer relation kind, gates on crossings, CV=>GF, guard aggregation assignment, UNM declaration locus, SquareLaw).
-2. **Publication audit:** sample a commuting square and a sentinel‑bounded subflow; verify pins and DecisionLog behavior on *block/degrade*.
+2. **Publication audit:** sample a commuting square and a sentinel‑bounded subflow; verify pins and DecisionLog behavior on *block* or *degrade*.
 3. **Replay test:** hold editions fixed; re‑run selection on a PathSlice; observe identical return‑sets; apply a bump; see only affected `PathSlice`s refresh.
 4. **StructuralReinterpretation probe:** construct a minimal reinterpretation step; confirm `CL^k` with `bridgeChannel=Kind` on UTS, a SquareLaw‑retargeting witness on UTS, `PathSliceId` pinned, **CV.ReinterpretationEquivalence=pass**, and absence of hidden scalarization.
 
@@ -51,5 +51,5 @@ keywords:
 
 Relation boundary: `E.18` governs selected transformation-flow structures for structures of atomic `U.Transformation` values and their structure-positioned slot-filler loci. It does not define a second change ontology, a work sequence, a method, a mechanism, a mathematical graph expression, or a publication record. When a selected-structure use raises bounded-transformation, dynamics-episteme, temporal-aspect, temporal-claim adequacy, work planning, performed work, evidence, assurance, gate, decision, architecture, structural-view, mechanism, selector, comparison, refresh, publication, or wording-use claims, name the governing pattern for that relation before relying on the structure.
 
-When a selected structure locus, selected path, path slice, substructure, or flow valuation expresses, decomposes, or constrains one bounded transformation relation, use `A.3.4` for the atomic `U.Transformation` claim and use `E.18` for the selected structure, containing locus, pins, locus kind, crossing, publication, comparability, and refresh discipline. E.18 locus kinds do not automatically fill neighboring slots: `Transformation` points to `A.3.4`, `Signature` points to `A.6.0`, `Mechanism` points to `A.6.1` and `E.20`, `WorkPlanning` and `Work` point to the A.15 work family, and `Check` points to `A.20` or `A.21` according to the current claim.
+When a selected structure locus, selected path, path slice, substructure, or flow valuation expresses, decomposes, or constrains one bounded transformation relation, use `A.3.4` for the atomic `U.Transformation` claim and use `E.18` for the selected structure, containing locus, pins, locus kind, crossing, publication, comparability, and refresh discipline. E.18 locus kinds do not automatically fill slots in other patterns: `Transformation` points to `A.3.4`, `Signature` points to `A.6.0`, `Mechanism` points to `A.6.1` and `E.20`, `WorkPlanning` and `Work` point to the A.15 work family, and `Check` points to `A.20` or `A.21` according to the current claim.
 

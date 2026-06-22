@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Temporal & Aggregation Semantics (normative operators & invariants)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_temporal-aggregation-semantics-normative-operators-invariants.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:9 — Temporal & Aggregation Semantics (normative operators & invariants)"
-line_start: 21623
-line_end: 21654
+line_start: 21624
+line_end: 21655
 dependencies:
   - "A.1"
   - "A.1.1"

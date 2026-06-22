@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-line_start: 63216
-line_end: 63621
+line_start: 63854
+line_end: 64259
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -89,7 +89,7 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 ### E.10.ARCH:0 - Use This When
 
-Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move.
+Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader move.
 
 **Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
 
@@ -187,7 +187,7 @@ The standing construction is:
 1. `E.10` recognizes an FPF-governed wording use and either closes it locally or selects a governing pattern, controlled precision-reduction pattern, durable-name application, or fail-closed non-use disposition.
 2. `E.10.ARCH` maintains the shared recovery algorithm and the `WordingUseRestorationApplicabilityTable`.
 3. A realization pattern or retained governing pattern such as `A.6.RSIR`, `A.6.P`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `A.3.1`, or a direct evidence, graph, method, mechanism, work, gate, authority, release, or publication-use governing pattern unpacks the wording according to the shared algorithm for one named `semanticArea` and its `ontologicalNeighborhood`.
-4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move that no existing governing pattern already carries.
+4. Additional applicability rows, and only when needed additional realization patterns, appear when repeated FPF-governed wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader move that no existing governing pattern already carries.
 5. `E.8` governs publication-form and placement wording such as `pattern nest`, and requires authoring prose that uses `ontologicalNeighborhood` to expose the governing `semanticAreaBaseConcept`, `semanticArea`, and `semanticAreaSenseFamily` rather than treating neighborhood as the semantic unit.
 6. `E.19` checks that authored pattern hosts preserve this distribution and do not keep rival first-stage repair doctrine.
 
@@ -314,7 +314,7 @@ Keep material in the subject pattern when it states the subject pattern's own in
 
 ### E.10.ARCH:7 - Subject-pattern thin-pointer rule
 
-Subject patterns keep at most one local first-use cue when the EntityOfConcern under repair, relation, claim, or field is hidden, then name the selected precision-restoration pattern as a pattern through ordinary reference apparatus or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
+Subject patterns keep at most one local first-use cue when the EntityOfConcern under repair, relation, claim, or field is hidden, then name the selected precision-restoration pattern as a pattern through ordinary references or `Relations`. They do not turn that reference into local reference boilerplate, and they do not copy:
 
 - the full `E.10` wording-recognition table;
 - this shared algorithm;
@@ -383,7 +383,7 @@ This pattern blocks semio-bias in two directions. It prevents subject patterns f
 | `CC-E10ARCH-1` | `E.10` remains the compact trigger-and-applicability pattern; `E.10.ARCH` carries the shared algorithm and applicability-row architecture. |
 | `CC-E10ARCH-2` | Each `WordingUseRestorationApplicabilityRow` names `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, primary EntityOfConcern kind and use fields, `ontologicalNeighborhood`, first applicable restoration or governing pattern, recovery product, non-use boundary, and remaining reader move. |
 | `CC-E10ARCH-3` | Direct known governing-pattern cases use the governing pattern directly instead of creating a restoration detour. |
-| `CC-E10ARCH-4` | A new realization pattern is added only when no existing governing pattern carries the stable recovery apparatus without duplicating repair-only doctrine inside subject patterns. |
+| `CC-E10ARCH-4` | A new realization pattern is added only when no existing governing pattern carries the stable recovery shape without duplicating repair-only doctrine inside subject patterns. |
 | `CC-E10ARCH-5` | Subject patterns of concern keep their primary `EntityOfConcern` and first useful move central and carry only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use are kept in a named description and publication-use boundary section or description-publication pattern governing that use; they do not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
 | `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` recognizes the wording-use row, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, and source-use wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and governing patterns carry their own claim being made or admissible-use boundary. |
@@ -405,7 +405,7 @@ This pattern blocks semio-bias in two directions. It prevents subject patterns f
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Classification without repair | The text says "this belongs under `A.6.P`" or "this belongs under `C.2.P`" but leaves no recovered wording, record, source-use disposition, direct governing-pattern application, or blocker. | Apply the selected pattern or fail closed. |
-| Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep one thin cue in the subject pattern of concern and cite `E.10` and `E.10.ARCH` through ordinary reference apparatus or `Relations`. |
+| Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep one thin cue in the subject pattern of concern and cite `E.10` and `E.10.ARCH` through ordinary references or `Relations`. |
 | Umbrella-to-umbrella replacement | `support` becomes `basis`, `surface` becomes `view`, `reading` becomes `evaluation`, or `function` becomes `role` without recovered kind and use. | Recover kind, relation, apparatus, admissible use, and remaining reader move; otherwise demote or block. |
 | Source-ontology smuggling | `interface`, `schema`, `record`, `profile`, `path`, or another familiar source-domain word is used because it sounds precise, but the recovered slot, relation, boundary, or object kind is different. | Recover the source ontology and the FPF current ontic slot, relation position, use relation, or claim kind first; keep the source word only when its governing pattern makes that meaning current. |
 | Over-annotated restoration | A clear subject sentence is expanded into type labels or source-ontology commentary even though no object, kind, relation, slot, admissible use, or governing pattern changes. | Keep the ordinary wording; annotate only the claim-governing term under repair and use `F.19` if phrase apparatus remains. |
@@ -419,7 +419,7 @@ This pattern blocks semio-bias in two directions. It prevents subject patterns f
 
 **Benefits.** Wording-use restoration stays distributed but coherent; subject patterns stay object-centered; recurring hidden-field families get one recovery architecture instead of many local catalogues.
 
-**Costs.** Authors must decide whether the current case is local `E.10`, a direct governing pattern, an existing restoration row, or a new row with a stable recovery apparatus.
+**Costs.** Authors must decide whether the current case is local `E.10`, a direct governing pattern, an existing restoration row, or a new row with a stable recovery shape.
 
 **Risks avoided.** The main avoided risks are semio-bias in subject patterns, lexical substitution without kind recovery, and pattern-nest or placement language masquerading as semantic-area architecture.
 

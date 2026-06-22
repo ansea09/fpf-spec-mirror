@@ -6,12 +6,12 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__011_worked-examples-informative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:10 — Worked Examples (informative)"
-line_start: 40636
-line_end: 40659
+line_start: 40637
+line_end: 40660
 dependencies:
   - "C.3.1"
   - "C.3.2"

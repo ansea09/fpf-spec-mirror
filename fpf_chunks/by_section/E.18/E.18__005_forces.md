@@ -6,12 +6,12 @@ section_id: "E.18:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__005_forces.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:4 — Forces"
-line_start: 69634
-line_end: 69644
+line_start: 70272
+line_end: 70282
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -48,6 +48,6 @@ keywords:
 | **Publication neutrality vs auditability**       | Keep faces notation‑neutral and non‑mechanistic while requiring **pins**, **ComparatorSet**, **Bridge and CL**, and **PublicationScope**.                                            |
 | **Set-return discipline vs business pressure for totals** | Preserve **return sets and declared partial orders** ↔ stakeholders demand single numbers.                                                                                     |
 | **Cross‑Context reuse vs safety**                | Enable reuse across `U.BoundedContext` while requiring **Bridge and CL** with **R‑only penalties**.                                                                                  |
-| **Agility vs reproducibility**                   | Permit evolving CG‑Spec/UNM/Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
+| **Agility vs reproducibility**                   | Permit evolving CG‑Spec, UNM, and Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
 | **Cycles vs convergence**                        | Allow Selection↔Planning iteration ↔ impose **budget** and **slice‑scoped** refresh to prevent thrash.                                                                     |
 

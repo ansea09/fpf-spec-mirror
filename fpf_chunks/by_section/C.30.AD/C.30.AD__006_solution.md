@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 54502
-line_end: 54693
+line_start: 54662
+line_end: 54859
 dependencies:
   - "A.1"
   - "A.10"
@@ -118,10 +118,10 @@ workingConcernRef
 -> sourceEpistemeRef or sourceViewRef when source use is being made
 -> PublicationUnitRef, publication face, or publication form only when published
 -> correspondenceRef or sourceReturnCondition when cross-view or source reuse is being made
--> admissibleArchitectureMove or neighboring-pattern application
+-> admissibleArchitectureMove or governing-pattern application
 ```
 
-`E.17.0` carries the generic multi-view Description machinery. `C.30.ASV` carries the selected-structure-kind-to-view relation and view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which architecture claim the description is about, which structural views it uses, what correspondence or source return keeps the use honest, and which architecture move or neighboring pattern remains admissible.
+`E.17.0` carries the generic multi-view Description machinery. `C.30.ASV` carries the selected-structure-kind-to-view relation and view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which architecture claim the description is about, which structural views it uses, what correspondence or source return keeps the use honest, and which architecture move or governing pattern remains admissible.
 
 If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation.
 
@@ -226,11 +226,11 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
 }
 ```
 
-If the specification use becomes evidence, assurance, gate, work, decision, causal-use, or release authority, apply the neighboring pattern governing that claim to that authority claim. The architecture description remains the description boundary, not the authority.
+If the specification use becomes evidence, assurance, gate, work, decision, causal-use, or release authority, apply the direct pattern governing that claim to that authority claim. The architecture description remains the description boundary, not the authority.
 
 Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, source-current records, or renderings unless the source episteme and use boundary are explicit.
 
-#### C.30.AD:4.6 - Neighboring-pattern applications
+#### C.30.AD:4.6 - Direct governing-pattern applications
 
 | Question after the architecture-description boundary is clear | FPF application |
 | --- | --- |
@@ -249,4 +249,10 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or quality pattern governing the claim |
 | Evidence, assurance, gate, work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, release or admissibility pattern, or governing pattern |
+
+#### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
+
+An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, or work permission. Use `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, and the A.15 family for planning or performed work.
+
+For an architecture-description claim, record only description membership, view membership, viewpoint, correspondence, source return, freshness, publication use, and specification use. If a candidate claim changes the architecture, return to `C.30`. If it changes which variants are retained, selected, published, or refreshed, return to the pattern that owns that relation.
 

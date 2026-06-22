@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__013_relations.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:12 — Relations"
-line_start: 8975
-line_end: 8981
+line_start: 8976
+line_end: 8982
 dependencies:
   - "A.6"
   - "A.6.P"

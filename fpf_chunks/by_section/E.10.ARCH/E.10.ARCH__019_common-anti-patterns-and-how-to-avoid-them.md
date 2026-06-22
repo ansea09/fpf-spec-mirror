@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__019_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 63556
-line_end: 63570
+line_start: 64194
+line_end: 64208
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Classification without repair | The text says "this belongs under `A.6.P`" or "this belongs under `C.2.P`" but leaves no recovered wording, record, source-use disposition, direct governing-pattern application, or blocker. | Apply the selected pattern or fail closed. |
-| Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep one thin cue in the subject pattern of concern and cite `E.10` and `E.10.ARCH` through ordinary reference apparatus or `Relations`. |
+| Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep one thin cue in the subject pattern of concern and cite `E.10` and `E.10.ARCH` through ordinary references or `Relations`. |
 | Umbrella-to-umbrella replacement | `support` becomes `basis`, `surface` becomes `view`, `reading` becomes `evaluation`, or `function` becomes `role` without recovered kind and use. | Recover kind, relation, apparatus, admissible use, and remaining reader move; otherwise demote or block. |
 | Source-ontology smuggling | `interface`, `schema`, `record`, `profile`, `path`, or another familiar source-domain word is used because it sounds precise, but the recovered slot, relation, boundary, or object kind is different. | Recover the source ontology and the FPF current ontic slot, relation position, use relation, or claim kind first; keep the source word only when its governing pattern makes that meaning current. |
 | Over-annotated restoration | A clear subject sentence is expanded into type labels or source-ontology commentary even though no object, kind, relation, slot, admissible use, or governing pattern changes. | Keep the ordinary wording; annotate only the claim-governing term under repair and use `F.19` if phrase apparatus remains. |

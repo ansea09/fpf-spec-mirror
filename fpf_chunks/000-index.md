@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e`
+Commit SHA: `9b6d71cff42a9ac45e46a2be2d9450f766868bc4`
 
 Chunking method: `pattern-aware`
 
-Patterns: `252`
+Patterns: `254`
 
 ## Patterns
 
@@ -140,9 +140,9 @@ Patterns: `252`
 - [C.16.P — Characteristic and Scale Precision Restoration](by_pattern/C.16.P.md)
 - [C.16.Q — Quality-Term Precision Restoration](by_pattern/C.16.Q.md)
 - [C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)](by_pattern/C.17.md)
-- [C.18 — Open‑Ended Search Calculus (NQD‑CAL)](by_pattern/C.18.md)
+- [C.18 — Open-Ended Search Archive and Front Stewardship](by_pattern/C.18.md)
 - [C.18.1 — Scaling‑Law Lens Binding (SLL)](by_pattern/C.18.1.md)
-- [C.19 — Explore–Exploit Governor (E/E‑LOG)](by_pattern/C.19.md)
+- [C.19 — Explore-Exploit Live-Pool Governor](by_pattern/C.19.md)
 - [C.19.1 — Bitter‑Lesson Preference (BLP)](by_pattern/C.19.1.md)
 - [C.20 — Composition of U.Discipline (Discipline‑CAL)](by_pattern/C.20.md)
 - [C.21 — Field Health & Structure (Discipline-CHR)](by_pattern/C.21.md)
@@ -172,6 +172,8 @@ Patterns: `252`
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
+- [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
+- [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)
 - [D.2 — Multilevel Ethics For Holon Work](by_pattern/D.2.md)
 - [D.3 — Interlevel Ethical Conflict Structure](by_pattern/D.3.md)
@@ -252,13 +254,13 @@ Patterns: `252`
 - [G.2 — SoTA Harvester & Synthesis](by_pattern/G.2.md)
 - [G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates](by_pattern/G.3.md)
 - [G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring](by_pattern/G.4.md)
-- [G.5 — Multi‑Method Dispatcher & MethodFamily Registry](by_pattern/G.5.md)
+- [G.5 — Multi‑Method Dispatcher and MethodFamily Registry](by_pattern/G.5.md)
 - [G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths](by_pattern/G.6.md)
 - [G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)](by_pattern/G.7.md)
 - [G.8 — SoS‑LOG Bundles & Maturity Ladders](by_pattern/G.8.md)
 - [G.9 — Parity and Benchmark Harness](by_pattern/G.9.md)
 - [G.10 — SoTA Pack Shipping](by_pattern/G.10.md)
-- [G.11 — Telemetry-Driven Refresh & Decay Orchestrator](by_pattern/G.11.md)
+- [G.11 — Telemetry-Driven Refresh and Decay Orchestrator](by_pattern/G.11.md)
 - [G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)](by_pattern/G.12.md)
 - [G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)](by_pattern/G.13.md)
 - [I.2 — Expanded Entry Disambiguation Cases](by_pattern/I.2.md)

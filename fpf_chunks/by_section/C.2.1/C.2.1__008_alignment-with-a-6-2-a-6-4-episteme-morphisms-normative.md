@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_alignment-with-a-6-2-a-6-4-episteme-morphisms-normative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:7 — Alignment with A.6.2–A.6.4 (episteme morphisms)  (normative)"
-line_start: 36598
-line_end: 36666
+line_start: 36599
+line_end: 36667
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

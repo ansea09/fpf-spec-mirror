@@ -6,12 +6,12 @@ section_id: "C.22:7"
 section_title: "Bias-Annotation (LEX/discipline guards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__009_bias-annotation-lex-discipline-guards.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:7 — Bias-Annotation (LEX/discipline guards)"
-line_start: 45976
-line_end: 45981
+line_start: 46113
+line_end: 46118
 dependencies:
   - "C.16"
   - "C.18"

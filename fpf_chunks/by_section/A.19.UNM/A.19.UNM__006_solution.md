@@ -6,12 +6,12 @@ section_id: "A.19.UNM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__006_solution.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:4 — Solution"
-line_start: 27205
-line_end: 27406
+line_start: 27206
+line_end: 27407
 dependencies:
 keywords:
   - "CV→NCV"

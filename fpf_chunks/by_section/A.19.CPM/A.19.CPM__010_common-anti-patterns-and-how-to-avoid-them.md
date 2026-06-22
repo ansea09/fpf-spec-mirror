@@ -6,12 +6,12 @@ section_id: "A.19.CPM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 28696
-line_end: 28733
+line_start: 28701
+line_end: 28738
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -33,31 +33,31 @@ keywords:
   *Symptom:* comparison logic embeds winner selection or selected-set truncation.
   *Avoid:* CPM only compares; selection is `SelectorMechanism`, which consumes comparison outcomes and remains policy‑bound.
 
-* **Anti‑pattern: “Comparator by prose / by code default.”**
+* **Anti‑pattern: “Comparator by prose or code default.”**
   *Symptom:* comparator choice is implicit (e.g., “we usually do lexicographic by safety then cost”), not edition‑pinned.
   *Avoid:* require an explicit `ComparatorSpecRef` from `CG‑Spec.ComparatorSet` and record it in Audit.
 
 * **Anti‑pattern: “GateDecision leakage.”**
-  *Symptom:* the `compare` step emits/assumes GateDecision, GateLog, or DecisionLog records as part of suite closure, or uses reserved gate‑lexemes (`…Guard`) for mechanism‑level predicates.
-  *Avoid:* keep CPM at guard+audit level (`…Eligibility → GuardDecision ∈ {pass|degrade|abstain}`); assign gate decisions to their proper governing patterns or gate records and keep publish/telemetry outside suite closure.
+  *Symptom:* the `compare` step emits or assumes GateDecision, GateLog, or DecisionLog records as part of suite closure, or uses reserved gate‑lexemes (`…Guard`) for mechanism‑level predicates.
+  *Avoid:* keep CPM at guard+audit level (`…Eligibility → GuardDecision ∈ {pass|degrade|abstain}`); assign gate decisions to their proper governing patterns or gate records and keep publication and telemetry outside suite closure.
 
 * **Anti‑pattern: “SlotKind drift.”**
-  *Symptom:* renaming/re‑purposing `LeftProfileSlot/RightProfileSlot/ComparatorSpecSlot/ComparisonResultSlot` across specializations or across CHR layers.
+  *Symptom:* renaming or re‑purposing `LeftProfileSlot`, `RightProfileSlot`, `ComparatorSpecSlot`, or `ComparisonResultSlot` across specializations or across CHR layers.
   *Avoid:* use the suite SlotKind lexicon (`A.19.CHR:4.2.1`) and keep SlotIndex as a derived projection.
 
 * **Anti‑pattern: “Smuggling plan‑binding into CPM.”**
-  *Symptom:* hard‑coding comparator editions, policy ids, or “launch values” inside the CPM intension/pattern prose.
-  *Avoid:* bind editions/policies only in P2W planned baseline plan items; keep CPM refs‑only and record effective bindings in `Audit`.
+  *Symptom:* hard‑coding comparator editions, policy ids, or “launch values” inside the CPM intension or pattern prose.
+  *Avoid:* put edition and policy fillers only in `SlotFillingsPlanItem` rows; keep CPM refs-only and record effective refs and pins in `Audit`.
 
 * **Anti‑pattern: “Tie‑breakers as hidden constants.”**
   *Symptom:* forced total order via untracked thresholds, epsilons, or “if equal then compare cost” logic.
-  *Avoid:* make tie‑break policy part of explicit comparator/acceptance policies; pin editions; audit.
+  *Avoid:* make tie‑break policy part of explicit comparator and acceptance policies; pin editions; audit.
 
 * **Anti‑pattern: “Unknown coerces to outcome.”**
-  *Symptom:* missing evidence treated as equal/zero/worse, producing decisive comparisons from absent information.
+  *Symptom:* missing evidence treated as equal, zero, or worse, producing decisive comparisons from absent information.
   *Avoid:* tri‑state guard; fail‑closed on missing evidence; explicit failure behavior via evidence policy.
 
 * **Anti‑pattern: “Cross‑context compare without transport.”**
-  *Symptom:* comparing profiles across contexts or planes without Bridge+CL/ReferencePlane discipline.
-  *Avoid:* use transport mechanisms and crossing pins; penalties route to `R_eff` only; audit crossing ids.
+  *Symptom:* comparing profiles across contexts or planes without Bridge, CL, and ReferencePlane discipline.
+  *Avoid:* use transport mechanisms and crossing pins; assign penalties to `R_eff` only; audit crossing ids.
 

@@ -1,24 +1,28 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.19"
-pattern_title: "Explore–Exploit Governor (E/E‑LOG)"
+pattern_title: "Explore-Exploit Live-Pool Governor"
 section_id: "C.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__015_consequences.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.19 — Explore–Exploit Governor (E/E‑LOG)"
+  - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:9 — Consequences"
-line_start: 45296
-line_end: 45301
+line_start: 45433
+line_end: 45438
 dependencies:
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.17"
   - "C.18"
   - "C.24"
   - "C.28"
+  - "G.11"
   - "G.5"
   - "G.9"
 keywords:
@@ -39,7 +43,7 @@ keywords:
 
 ### C.19:9 - Consequences
 
-- the result states whether the pool is being widened, kept live, narrowed, sunset, or rerouted
-- heterogeneity can remain lawful without pretending every frontier is one scalar winner
+- the result states whether the pool is being widened, kept live, narrowed, or sunset; if the question leaves pool policy, the record names the next governing pattern separately
+- heterogeneity can remain admissible without pretending every frontier is one scalar winner
 - the cost is stricter provenance and the need to name lenses, policies, and change triggers explicitly
 

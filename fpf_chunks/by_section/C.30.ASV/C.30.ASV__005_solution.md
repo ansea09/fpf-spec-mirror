@@ -6,12 +6,12 @@ section_id: "C.30.ASV:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__005_solution.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:4 — Solution"
-line_start: 55553
-line_end: 56094
+line_start: 55721
+line_end: 56282
 dependencies:
   - "A.1"
   - "A.10"
@@ -169,7 +169,7 @@ ArchitectureStructureKindTriage@Project ::= {
   hiddenOrLostStructureCueRefs?,
   primaryGoverningPatternApplicationRef?,
   admissibleArchitectureMove:
-    inspect | split | relate | downgrade | assignNeighbor | stop |
+    inspect | split | relate | downgrade | assignGoverningPattern | stop |
     otherDeclared,
   governingPatternApplicationRefs?,
   nonAdmissibleOverread?,
@@ -177,7 +177,7 @@ ArchitectureStructureKindTriage@Project ::= {
 }
 ```
 
-`architectureConcernCue?` and `sourceMaterialRef?` are recognition and source-reference positions; they do not create `ArchitectureStructureKindRef` values. `primaryGoverningPatternApplicationRef?` names the one neighboring pattern that carries the next non-ASV claim kind when such a claim is current. `nonAdmissibleOverread?` names only the overread that would change this triage. Candidate generation, evidence, assurance, gate, publication, decision, or work claims are named through `governingPatternApplicationRefs?` and stay with their governing patterns rather than becoming ASV fields.
+`architectureConcernCue?` and `sourceMaterialRef?` are recognition and source-reference positions; they do not create `ArchitectureStructureKindRef` values. `primaryGoverningPatternApplicationRef?` names the one direct governing pattern that carries the next non-ASV claim kind when such a claim is current. `nonAdmissibleOverread?` names only the overread that would change this triage. Candidate generation, evidence, assurance, gate, publication, decision, or work claims are named through `governingPatternApplicationRefs?` and stay with their governing patterns rather than becoming ASV fields.
 
 When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
 Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-governed records use the Tech values below:
@@ -195,7 +195,27 @@ Security -> SecurityTrustBoundaryStructure
 
 ```
 
+#### C.30.ASV:4.3a - Evolutionary-engineering candidate structural view
+
+Use this view when a retained variant, front member, selected set, or architecture-candidate palette needs structural-view triage. The ASV claim is not "this archive is architecture"; it is "this candidate makes a selected structure or structure kind current for an `ArchitectureOf@Context` claim."
+
+```text
+ArchitectureCandidateStructuralView@Context:
+  CandidateSetOrArchiveRef:
+  CandidateRef:
+  ArchitectureOfRef:
+  SelectedStructureOrStructureKindRef:
+  StructuralViewRef:
+  AffectedCharacteristicRef:
+  CorrespondenceOrLossRef?:
+  NextGoverningPatternRef:
+```
+
+If the candidate cannot name a selected structure or structure kind, keep it in `C.18`, `C.19`, or `G.5`. If the view only publishes, compares, or explains the candidate, use `C.30.AD`, the comparison pattern, or the publication-use pattern named by value. ASV admits the candidate only for selected-structure triage.
+
 #### C.30.ASV:4.4 - Architecture viewpoint bundle and binding rows
+
+
 
 Architecture structural views use `VF.ARCH.STRUCTURE` without turning structure kinds into viewpoints. The bundle is separate from `VF.TEVB.ENG`: it may import TEVB, but it does not expand the TEVB core engineering viewpoint set.
 
@@ -300,7 +320,7 @@ SecurityTrustBoundaryStructureView@Context ::= {
     A.10 | G.6 | B.3 | C.28 | A.20 | A.21 |
     C.16 | C.25 | C.24 agentic tool-use relation or call-planning relation when tool authority is being claimed | C.30.LCA when a control relation is being claimed
   admissibleUse:
-  neighboringClaimBoundary:
+  otherClaimBoundary:
     compliance, risk-score, assurance, checklist-security, and zero-trust claims apply the evidence, assurance, risk, gate, or security pattern governing the claim being made
 }
 ```

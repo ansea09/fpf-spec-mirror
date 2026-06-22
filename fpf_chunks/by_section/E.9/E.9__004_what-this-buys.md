@@ -6,12 +6,12 @@ section_id: "E.9:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__004_what-this-buys.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:0.2 — What this buys"
-line_start: 60881
-line_end: 60899
+line_start: 61517
+line_end: 61535
 dependencies:
   - "E.10"
   - "E.19"
@@ -37,7 +37,7 @@ keywords:
 
 **Cheap stop.** If the change is ordinary local wording repair, application of an already accepted pattern, or editorial cleanup that does not change FPF semantics, obligations, boundaries, names, admissible uses, or normative force, do not open a full DRR. Use the lighter governing pattern for the local repair: `E.17.AUD.LHR` for one overloaded local lexical head inside one publication unit, `C.2.P` for one episteme, publication, or source-use phrase requiring local epistemic precision restoration, `E.10` for general lexical repair, `F.18` only when a durable reusable name is being minted, and `E.8` for authoring-form correction. Leave `E.9` for bounded content decisions that need rationale by value.
 
-**Kind-or-boilerplate diagnostic.** When a DRR proposes wording for selected patterns, apply `F.19` to separate boilerplate apparatus from remaining content before any wording is treated as pasteable pattern prose. If the remaining content still hides wording-use, naming, relation, claim, admissible-use, selected-locus, user-move, or flow-role precision, the DRR names the applied `E.10`, `E.10.ARCH`, `F.18`, or governing pattern. Process, architecture, review, or reference apparatus belongs in its own carrier, not in pasteable pattern prose.
+**Kind-or-boilerplate diagnostic.** When a DRR proposes wording for selected patterns, apply `F.19` to separate boilerplate from remaining content before any wording is treated as pasteable pattern prose. If the remaining content still hides wording-use, naming, relation, claim, admissible-use, selected-locus, user-move, or flow-role precision, the DRR names the applied `E.10`, `E.10.ARCH`, `F.18`, or governing pattern. Process, architecture, review, or reference boilerplate belongs in its own carrier, not in pasteable pattern prose.
 
 A DRR-proposed wording repair is not pasteable pattern prose until it carries a kind-restoration check. The DRR must show the pre-repair and post-repair object kind, relation or claim kind, slot or use-position, admissible use, and scope, or explicitly decide that the change is a semantic change rather than an editorial repair. A nicer head word, shorter phrase, or removed trigger word is not decision evidence when it narrows a graph into a sequence, turns a method into work, widens an evidence record into assurance, treats a use-position as a new kind, or otherwise changes the kind or use-position without an accepted decision. When the decision depends on slot, lens, role, method, work, evidence, assurance, gate, or decision ontology, the DRR cites the governing pattern rather than redefining that ontology locally.
 

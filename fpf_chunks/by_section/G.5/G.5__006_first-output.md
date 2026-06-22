@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher & MethodFamily Registry"
+pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
 section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
+  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.4 — First output"
-line_start: 83533
-line_end: 83544
+line_start: 84266
+line_end: 84277
 dependencies:
   - "C.11"
   - "C.18"
@@ -38,7 +38,7 @@ keywords:
   - "dispatcher"
   - "eligibility"
   - "generator-family registry"
-  - "in core registry/eligibility fields"
+  - "in core registry and eligibility fields"
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
@@ -49,7 +49,7 @@ keywords:
 
 ### G.5:0.4 - First output
 
-The first useful output from this dispatcher and registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain/escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
+The first useful output from this dispatcher and registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain or escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
 
 If that first output still cannot be written honestly, the current publication result is not finished `G.5` publication yet.
 

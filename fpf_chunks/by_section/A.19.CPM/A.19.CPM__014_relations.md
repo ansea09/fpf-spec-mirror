@@ -6,12 +6,12 @@ section_id: "A.19.CPM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__014_relations.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:12 — Relations"
-line_start: 28763
-line_end: 28784
+line_start: 28768
+line_end: 28789
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -25,23 +25,23 @@ keywords:
 
 ### A.19.CPM:12 - Relations
 
-**Builds on / cites (non‑exhaustive):**
+**Builds on and cites (non‑exhaustive):**
 
 * `A.6.1` (shape of `U.Mechanism.Intension`; specialization discipline)
 * `A.6.5` (slot discipline; SlotIndex as derived projection)
 * `A.19.CHR` (suite membership + obligations + `suite_protocols`; CHR SlotKind lexicon)
-* `A.15.3` + `A.19.CHR:4.7.2` (P2W planned baseline binding; CPM remains refs‑only w.r.t. pin binding)
-* `A.19.CN` (CN‑Spec comparability routing + acceptance/admission surfaces)
-* `G.0` (CG‑Spec: `ComparatorSet`, `SCP`, `MinimalEvidence`, CL/ReferencePlane framing)
-* `A.18` (CSLC scale lawfulness)
-* `E.10` (lexical/ontological authoring rules; kind suffix discipline)
+* `A.15.3` + `A.19.CHR:4.7.2` (planned slot-filling ontic and `SlotFillingsPlanItem` rows; CPM remains refs-only with respect to planned slot filling)
+* `A.19.CN` (CN-Spec comparability plus acceptance and admission declarations)
+* `G.0` (CG‑Spec: `ComparatorSet`, `SCP`, `MinimalEvidence`, CL and ReferencePlane framing)
+* `A.18` (CSLC scale admissibility)
+* `E.10` (lexical and ontological authoring rules; kind suffix discipline)
 * `E.19` (checks; authoring discipline)
 * `E.20` (governing-pattern discipline)
 * `F.18` (alias docking; ID continuity)
 * `E.18` (project transformation-flow structures consume CPM instances; CPM does not create a parallel “card deck”)
 
-**Relates to (typical neighbors in CHR Uses contour):**
+**Relates to (typical named patterns in the CHR Uses contour):**
 
 * `UNM.IntensionRef`, `UINDM.IntensionRef`, `USCM.IntensionRef`, `ULSAM.IntensionRef`, and `SelectorMechanism.IntensionRef` (downstream consumer of CPM results).
-* `G.5` (selection conformance), `G.9` (parity / benchmark harness), `G.10`/PTM (publish/telemetry outside suite closure).
+* `G.5` (selection conformance), `G.9` (parity and benchmark harness), `G.10` and PTM (publication and telemetry outside suite closure).
 

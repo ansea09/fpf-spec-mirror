@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher & MethodFamily Registry"
+pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
 section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
+  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84062
-line_end: 84091
+line_start: 84817
+line_end: 84846
 dependencies:
   - "C.11"
   - "C.18"
@@ -38,7 +38,7 @@ keywords:
   - "dispatcher"
   - "eligibility"
   - "generator-family registry"
-  - "in core registry/eligibility fields"
+  - "in core registry and eligibility fields"
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
@@ -51,10 +51,10 @@ keywords:
 
 * **Anti‑pattern: “Selector as a shadow spec.”**
   *Symptom:* local acceptance or admissibility rules appear in selector prose or code, diverging from CN, CG, and CAL.
-  *Avoid:* govern constraint semantics through `CNSpecRef/CGSpecRef` and pinned CAL records; keep G.5 core as a facade.
+  *Avoid:* govern constraint semantics through `CNSpecRef` and `CGSpecRef` plus pinned CAL records; keep G.5 core as a boundary.
 
 * **Anti‑pattern: “Implicit crossings.”**
-  *Symptom:* cross‑Context reuse is claimed without Bridge/CL pins, or without cited `CrossingBundle`.
+  *Symptom:* cross‑Context reuse is claimed without Bridge and CL pins, or without cited `CrossingBundle`.
   *Avoid:* require explicit crossing pins; block consumption without publication.
 
 * **Anti‑pattern: “Hidden scalarisation.”**
@@ -67,11 +67,11 @@ keywords:
 
 * **Anti‑pattern: “Churn by meaning.”**
   *Symptom:* registry entries are “renamed” to reflect updated interpretation, breaking continuity.
-  *Avoid:* version/deprecate; keep stable ids; use explicit edition pins and deprecation notices.
+  *Avoid:* publish a new edition or deprecate; keep stable ids; use explicit edition pins and deprecation notices.
 
 * **Anti‑pattern: “Publication hidden in upstream reasoning.”**
   *Symptom:* the retained set exists only as one implication inside `C.11`, `C.19`, or `C.24`, while `G.5` never names the published selected-set label.
-  *Avoid:* publish the selected-set result directly, with explicit label, members, and basis pins, instead of leaving the shortlist implicit in neighboring doctrine.
+  *Avoid:* publish the selected-set result directly, with explicit label, members, and basis pins, instead of leaving the shortlist implicit in upstream doctrine.
 
 * **Anti‑pattern: “Published result without closure record.”**
   *Symptom:* a `Shortlist`, narrowed handoff, or abstain result is named, but the emitted result still does not state its members, ordering status, or basis pins.

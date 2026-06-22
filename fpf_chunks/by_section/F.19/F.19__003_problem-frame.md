@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 80668
-line_end: 80687
+line_start: 81401
+line_end: 81420
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -35,7 +35,7 @@ keywords:
 
 ### F.19:1 - Problem frame
 
-Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference apparatus, or repeated negative distinctions.
+Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference boilerplate, or repeated negative distinctions.
 
 The repair question is:
 

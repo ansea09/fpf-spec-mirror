@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.19.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
-line_start: 80625
-line_end: 80859
+line_start: 81358
+line_end: 81592
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -77,7 +77,7 @@ Typical in-scope prose includes:
 
 ### F.19:1 - Problem frame
 
-Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference apparatus, or repeated negative distinctions.
+Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference boilerplate, or repeated negative distinctions.
 
 The repair question is:
 
@@ -234,7 +234,7 @@ The cost is that some edits need a short repair note before they look simple. Th
 
 Plain technical style in FPF is not a separate aesthetic layer. It is the visible result of ontology-first repair with less apparatus. The order matters:
 
-1. remove or move boilerplate apparatus;
+1. remove or move boilerplate;
 2. restore the remaining content through wording-use, naming, relation, slot, source-use, or object-governing patterns named by value;
 3. write the shortest sentence that keeps the recovered meaning.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 63532
-line_end: 63555
+line_start: 64170
+line_end: 64193
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -68,7 +68,7 @@ keywords:
 | `CC-E10ARCH-1` | `E.10` remains the compact trigger-and-applicability pattern; `E.10.ARCH` carries the shared algorithm and applicability-row architecture. |
 | `CC-E10ARCH-2` | Each `WordingUseRestorationApplicabilityRow` names `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamily`, primary EntityOfConcern kind and use fields, `ontologicalNeighborhood`, first applicable restoration or governing pattern, recovery product, non-use boundary, and remaining reader move. |
 | `CC-E10ARCH-3` | Direct known governing-pattern cases use the governing pattern directly instead of creating a restoration detour. |
-| `CC-E10ARCH-4` | A new realization pattern is added only when no existing governing pattern carries the stable recovery apparatus without duplicating repair-only doctrine inside subject patterns. |
+| `CC-E10ARCH-4` | A new realization pattern is added only when no existing governing pattern carries the stable recovery shape without duplicating repair-only doctrine inside subject patterns. |
 | `CC-E10ARCH-5` | Subject patterns of concern keep their primary `EntityOfConcern` and first useful move central and carry only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use are kept in a named description and publication-use boundary section or description-publication pattern governing that use; they do not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
 | `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` recognizes the wording-use row, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, and source-use wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and governing patterns carry their own claim being made or admissible-use boundary. |

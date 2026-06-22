@@ -6,12 +6,12 @@ section_id: "C.2.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__007_bias-annotation.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:6 — Bias-Annotation"
-line_start: 38799
-line_end: 38801
+line_start: 38800
+line_end: 38802
 dependencies:
   - "A.16"
   - "A.16.0"

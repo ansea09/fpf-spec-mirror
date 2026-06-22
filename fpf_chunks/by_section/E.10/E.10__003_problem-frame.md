@@ -6,12 +6,12 @@ section_id: "E.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__003_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:1 — Problem frame"
-line_start: 62350
-line_end: 62364
+line_start: 62988
+line_end: 63002
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,9 +38,9 @@ keywords:
 ---
 
 ### E.10:1 - Problem frame
-**Current name set.** `E.10` is the current FPF pattern. `E.10:0.2` is the shared wording-use trigger scan. The older `LEX-BUNDLE` or `ULR` material below is retained as detailed reference apparatus for selected lexical, register, naming, morphology, and local rewrite problems. It is not a second current ontology, not a second wording-recognition table, not a second pattern head, and not a replacement for `E.10.ARCH`, the selected precision-restoration realization pattern, a governing pattern, or `F.18`. When the retained material conflicts with `E.10:0.2`, `E.10.ARCH`, `A.3.4.P`, `A.6.F`, `C.2.P`, `E.24.*`, `F.18`, or a governing pattern named by value, the current applicability table and that governing pattern control the repair.
+**Current name set.** `E.10` is the current FPF pattern. `E.10:0.2` is the shared wording-use trigger scan. The `LEX-BUNDLE` and `ULR` sections below are subordinate current material for selected lexical, register, naming, morphology, and local rewrite problems. They are not a second current ontology, not a second wording-recognition table, not a second pattern head, and not a replacement for `E.10.ARCH`, the selected precision-restoration realization pattern, a governing pattern, or `F.18`. When the subordinate material conflicts with `E.10:0.2`, `E.10.ARCH`, `A.3.4.P`, `A.6.F`, `C.2.P`, `E.24.*`, `F.18`, or a governing pattern named by value, the current applicability table and that governing pattern control the repair.
 
-**Intent.** Provide one **normative** trigger-and-repair rule set that makes FPF language **unambiguous, composable across contexts, and teachable** by design. Authors, reviewers, and tooling use the retained reference apparatus only for the selected wording problem after `E.10:0.2` has chosen the closure disposition:
+**Intent.** Provide one **normative** trigger-and-repair rule set that makes FPF language **unambiguous, composable across contexts, and teachable** by design. Authors, reviewers, and tooling use the subordinate material only for the selected wording problem after `E.10:0.2` has chosen the closure disposition:
 
 * **Vertical stratification** (Kernel ↔ Extensions ↔ Context ↔ Instance);
 * **Twin registers** (Tech and Plain) with safe synonyms;

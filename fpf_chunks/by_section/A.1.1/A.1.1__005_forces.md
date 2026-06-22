@@ -6,12 +6,12 @@ section_id: "A.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__005_forces.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:3 — Forces"
-line_start: 1711
-line_end: 1720
+line_start: 1712
+line_end: 1721
 dependencies:
   - "A.1"
   - "A.15"

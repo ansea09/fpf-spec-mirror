@@ -6,12 +6,12 @@ section_id: "C.3.2:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__004_problem.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:3 — Problem"
-line_start: 40071
-line_end: 40077
+line_start: 40072
+line_end: 40078
 dependencies:
   - "C.3.1"
   - "C.3.3"

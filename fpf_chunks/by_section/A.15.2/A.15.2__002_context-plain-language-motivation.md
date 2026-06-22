@@ -6,12 +6,12 @@ section_id: "A.15.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__002_context-plain-language-motivation.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:1 — Context (plain‑language motivation)"
-line_start: 21781
-line_end: 21791
+line_start: 21782
+line_end: 21792
 dependencies:
   - "A.10"
   - "A.15"

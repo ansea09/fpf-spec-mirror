@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 54743
-line_end: 54757
+line_start: 54911
+line_end: 54925
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ Positive consequences:
 
 - Architecture descriptions become reusable without pretending to be the architecture itself.
 - Multi-view work can keep viewpoints, views, selected structures, correspondences, source return, freshness, and specification use inspectable.
-- Description, publication, evidence, assurance, gate, decision, work, release, and mathematical-lens claims keep separate owners.
+- Description, publication, evidence, assurance, gate, decision, work, release, and mathematical-lens claims stay with separate governing patterns.
 - C.30 can stay focused on architecture while C.30.AD carries the heavier description machinery.
 
 Costs:

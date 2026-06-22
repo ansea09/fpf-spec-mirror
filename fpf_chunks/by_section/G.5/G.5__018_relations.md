@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.5"
-pattern_title: "Multi‑Method Dispatcher & MethodFamily Registry"
+pattern_title: "Multi‑Method Dispatcher and MethodFamily Registry"
 section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__018_relations.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "G.5 — Multi‑Method Dispatcher & MethodFamily Registry"
+  - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 84122
-line_end: 84139
+line_start: 84880
+line_end: 84897
 dependencies:
   - "C.11"
   - "C.18"
@@ -38,7 +38,7 @@ keywords:
   - "dispatcher"
   - "eligibility"
   - "generator-family registry"
-  - "in core registry/eligibility fields"
+  - "in core registry and eligibility fields"
   - "method-family registry"
   - "no hidden scalar winner"
   - "or selector‑kernel obligations (E.5.*)"
@@ -51,17 +51,17 @@ keywords:
 
 **Builds on (normative):** `G.Core` (core invariants + linkage discipline).
 
-**Uses (conceptual dependencies; cited via pins/ids):**
+**Uses (conceptual dependencies; cited via pins and ids):**
 
 * Governing spec refs: `A.19 (CN‑Spec)`, `G.0 (CG‑Spec)`.
 * Upstream object sets: `G.1 (CG‑Frame Card)`, `G.2 (SoTA Pack)`, `G.3 (CHR Pack)`, `G.4 (CAL Pack)`.
 * Evidence and crossings: `G.6` (EvidenceGraph; `PathId` and `PathSliceId`), `G.7` (Bridge and CL calibration), `E.18` and `A.21` (CrossingBundle and GateChecks).
-* Planning/enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the plannedBaselineRef (cited, not redefined).
+* Planning and enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the plannedBaselineRef (cited, not redefined).
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
-* Optional method or generator extensions via `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus any future extension-bearing patterns that add extra selector pins.
-* Mathematical-lens use: apply `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved/lost structure, or stop condition is not yet recoverable. `C.29` may return `NoMathLensUseNeeded`, `MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, or `NeighborGoverningPatternNote` for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
+* Optional method or generator extensions through `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus extension-bearing patterns admitted by a governing Part G relation when they add extra selector pins.
+* Mathematical-lens use: apply `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved or lost structure, or stop condition is not yet recoverable. `C.29` may return no math-lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the direct governing pattern for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
 
-**Publishes to:** `UTS` (family ids, selector policy records, and selected-set identities such as `ShortlistId` when one public result is emitted), `G.6` (audit citations), RSCR emission records (typed triggers + payload pins), and downstream packs via `G.10` shipping publications.
+**Publishes to:** `UTS` (family ids, selector policy records, and selected-set identities such as `ShortlistId` when one public result is emitted), `G.6` (audit citations), RSCR emission records (typed triggers and payload pins), and downstream packs through `G.10` shipping publications.
 
 **Coordinates with:** `C.11` for local choice results, `C.19` for pool-policy records, `C.24` for enactment-facing next-move records, and the accepted Q-Front shortlist-family continuity line when the published selected-set label is one shortlist-family result.
 

@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 53918
-line_end: 54305
+line_start: 54055
+line_end: 54465
 dependencies:
   - "A.1"
   - "A.10"
@@ -89,7 +89,7 @@ ArchitectureOf@Context ::= {
 
 `ArchitectureOf@Context` is a project-side architecture claim record over selected structures. It is not the selected structure itself, not a Description episteme, not a view, not a diagram, not a publication face, not a decision, and not a new root `U.*` kind.
 
-`ArchitectureOf@ContextRef` is admissible as a `DescriptionContext.EntityOfConcernRef` for architecture Description epistemes and views. The holon whose architecture is claimed remains `ArchitectureOf@Context.describedHolonRef`; it is not the DescriptionContext `EntityOfConcernRef` for those architecture descriptions unless a separate direct holon description is opened.
+`ArchitectureOf@ContextRef` is admissible as a `DescriptionContext.EntityOfConcernRef` for architecture Description epistemes and views. The holon whose architecture is claimed remains `ArchitectureOf@Context.describedHolonRef`; it is not the DescriptionContext `EntityOfConcernRef` for those architecture descriptions unless a separate direct holon description is being made.
 
 **EntityOfConcern bridge.** In C.30, the primary `EntityOfConcern` is the `ArchitectureOf@Context` claim record, one of its selected structures, or a related relation record or claim record selected by the use under repair. Selected architecture structure is dependent, non-agentive, and claim-bearing through episteme or view records, but it is not a second EntityOfConcern family beside `EntityOfConcern`. Publication faces, forms, units, and renderings publish descriptions or views; they do not become the architecture claim or the selected structure.
 
@@ -99,11 +99,34 @@ Recover which holonic architecture mode is current before applying MHT, structur
 
 | Mode | Current EntityOfConcern | Admissible C.30 use | Boundary |
 | --- | --- | --- | --- |
-| Direct holonic architecture mode | `ArchitectureOf@Context` over selected structures of one described holon in one bounded context. | Name selected structures, structure kinds, architecture concern, and first architecture move. | Do not open MHT merely because the architecture has levels, scopes, parts, modules, or views. |
+| Direct holonic architecture mode | `ArchitectureOf@Context` over selected structures of one described holon in one bounded context. | Name selected structures, structure kinds, architecture concern, and first architecture move. | Do not apply MHT merely because the architecture has levels, scopes, parts, modules, or views. |
 | Architecture-bound holon mode | An architecture residual raises a whole-reidentification question for a candidate result holon. | Use C.30 only for the architecture residual and selected-structure claim; use `B.2` or `B.2.P` when whole reidentification is current. | `MHTTriggerProfile` is not a general architecture heuristic. |
-| Non-holonic description, record, or mathematical mode | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical-lens result is under repair. | Assign the claim to `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, `C.29`, or another direct owner. | Do not treat the representation as the architecture or as MHT evidence by label. |
+| Non-holonic description, record, or mathematical mode | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical-lens result is under repair. | Assign the claim to `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, `C.29`, or another direct governing pattern. | Do not treat the representation as the architecture or as MHT evidence by label. |
+
+#### C.30:4.1b - Evolutionary-engineering architecture candidate bridge
+
+Use this bridge when an open-ended search, quality-diversity archive, current pool, front, or selected set contains possible architecture moves. The archive or front is not yet an architecture claim. It becomes C.30 material only when the current claim names `ArchitectureOf@Context`, the selected structure or structure kind, the affected architecture characteristic, and the next architecture move.
+
+```text
+ArchitectureCandidateMove@Context:
+  CandidateSetOrArchiveRef:
+  ArchitectureOfRef:
+  SelectedStructureOrStructureKindRef:
+  AffectedArchitectureCharacteristicRef:
+  CandidateMoveClaim:
+  SelectedSetPublicationRef?:
+  LocalChoiceRef?:
+  WorkPlanOrWorkHandoffRef?:
+  StopCondition:
+```
+
+`ArchitectureCandidateMove@Context` is a thin architecture-candidate use record over an `ArchitectureOf@Context` claim. It records why a generated, retained, front-member, or selected-set variant can be considered as architecture material; it is not a work plan, local choice result, selected-set publication, or new kind.
+
+If the current work is archive generation, front maintenance, current-pool treatment, selected-set publication, or local choice, use `C.18`, `C.19`, `G.5`, or `C.11` before C.30 relies on it. If the selected architecture move is ready to enter planning or performed work, apply the A.15 family. C.30 keeps only the architecture claim: which architecture of which entity in which context, which selected structure matters, which characteristic changes, and which architecture move is admissible next.
 
 #### C.30:4.2 - Conditional architecture-description bridge
+
+
 
 C.30 does not define a second local `ArchitectureDescription@Context` record shape. The canonical `ArchitectureDescription@Context` record is governed by `C.30.AD:4.1`. C.30 admits only a thin bridge to that record when durable architecture-description use changes the first architecture move.
 
@@ -143,9 +166,9 @@ ArchitectureDescriptionPublication@Project ::= {
 }
 ```
 
-`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It publishes one source episteme or episteme-lane view reference. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not add neighboring claim authority; apply `C.30:4.3` and the governing pattern when evidence, gate, work, assurance, decision, or release claims are current.
+`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It publishes one source episteme or episteme-lane view reference. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not add other claim authority; apply `C.30:4.3` and the governing pattern when evidence, gate, work, assurance, decision, or release claims are current.
 
-Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs `ArchitectureOf@Context`, selected structures, and any neighboring proof, release, or gate claim assigned to its governing pattern.
+Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs `ArchitectureOf@Context`, selected structures, and any proof, release, or gate claim assigned to its governing pattern.
 
 ```text
 ModelCardOrSystemCardBoundaryNote@Project ::= {

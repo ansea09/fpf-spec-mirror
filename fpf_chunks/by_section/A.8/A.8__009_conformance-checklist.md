@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_conformance-checklist.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4 — Conformance Checklist"
-line_start: 19452
-line_end: 19462
+line_start: 19453
+line_end: 19463
 dependencies:
   - "A.11"
   - "C.3"

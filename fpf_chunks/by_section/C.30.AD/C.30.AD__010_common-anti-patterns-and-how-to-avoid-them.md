@@ -6,12 +6,12 @@ section_id: "C.30.AD:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 54732
-line_end: 54742
+line_start: 54900
+line_end: 54910
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,7 +65,7 @@ keywords:
 | Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture. | Recover `ArchitectureOf@Context` and keep the source material as description, view, publication form, or source relation. |
 | Viewpoint-as-structure-kind | A stakeholder, role, concern, or viewpoint label is used as if it named the selected structure. | Use `C.30.ASV` to recover structure kind and viewpoint separately. |
 | Multi-view fog | Many views are listed, but no one can tell which selected structures they describe or how they correspond. | Add architecture claim ref, selected structure refs, viewpoint refs, correspondence refs, and source-return conditions. |
-| Specification-as-authority | A specification-looking architecture description is used as work, gate, decision, assurance, evidence, or release authority. | Declare specification use and apply the neighboring pattern governing that claim to the authority claim. |
+| Specification-as-authority | A specification-looking architecture description is used as work, gate, decision, assurance, evidence, or release authority. | Declare specification use and apply the direct pattern governing that claim to the authority claim. |
 | Freshness laundering | A recently generated diagram is treated as adequate because it is current. | Record source edition and refresh trigger; do not treat currentness as adequacy, evidence, or assurance. |
 | Architecture-documentation takeover | The pattern spends most of its practitioner guidance on diagrams, publications, and wording guards instead of architecture claim, selected structures, and views. | Keep C.30 centered on architecture and use C.30.AD only when the description itself is the EntityOfConcern. |
 

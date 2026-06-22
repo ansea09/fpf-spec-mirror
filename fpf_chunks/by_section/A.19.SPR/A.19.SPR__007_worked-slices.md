@@ -6,12 +6,12 @@ section_id: "A.19.SPR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__007_worked-slices.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:5 — Worked slices"
-line_start: 24964
-line_end: 24977
+line_start: 24965
+line_end: 24978
 dependencies:
   - "A.10"
   - "A.16"

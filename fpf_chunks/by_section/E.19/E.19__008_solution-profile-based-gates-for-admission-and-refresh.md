@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 70755
-line_end: 71234
+line_start: 71488
+line_end: 71967
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -88,7 +88,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 5. **Didactic grounding**
    Archetypal Grounding is present and teaches the concept with concrete cases or references, not only abstractions.
 6. **Reader-fit**
-   The pattern body stays addressed to the intended FPF user rather than to FPF developers, package architects, reviewers, evaluators, or release/projection carriers. FPF-governed sections explain admissible use, costs, boundaries, FPF governing patterns named by value, project-side FPF kinds and references named by value, and related relation named by values in user terms. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` run record, README, ToC, `E.11`, `I.2`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary reference apparatus unless they change the working reader's first admissible move.
+   The pattern body stays addressed to the intended FPF user rather than to FPF developers, package architects, reviewers, evaluators, or release/projection carriers. FPF-governed sections explain admissible use, costs, boundaries, FPF governing patterns named by value, project-side FPF kinds and references named by value, and related relation named by values in user terms. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` run record, README, ToC, `E.11`, `I.2`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary references unless they change the working reader's first admissible move.
 7. **Template & section integrity**
    This is lowest priority for review depth and **SHOULD NOT** consume effort that would displace ontology, semantics, modularity, slot discipline, or SoTA checks.
 8. **Modularity & contradiction hygiene**
@@ -97,7 +97,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
    The pattern SHOULD balance cohesion and coupling across FPF.
    If the pattern defines specialization or an abstraction stack, it SHOULD NOT mix slot interfaces or parameters from different abstraction positions; use explicit `⊑/⊑⁺` or `Uses` cuts instead.
 9. **Substantive solution and locus adequacy**
-   Baseline triage includes a small reviewed-pattern-specific question set about the actual problem and current change: does the pattern still solve the stated problem, are decision loci and governing-pattern applications correct, are kind boundaries and selected companion or projection functions preserved, did anything get worse, are SoTA rows current enough for the claim they discipline, and is the applied apparatus neither too thin nor too heavy for that claim?
+   Baseline triage includes a small reviewed-pattern-specific question set about the actual problem and current change: does the pattern still solve the stated problem, are decision loci and governing-pattern applications correct, are kind boundaries and selected companion or projection functions preserved, did anything get worse, are SoTA rows current enough for the claim they discipline, and is the support material required by that claim neither too thin nor too heavy?
 
 ##### E.19:4.2.1 - Triage: spend depth on FPF-governed sections without making reviews heavier
 
@@ -507,7 +507,7 @@ A PQG run **MUST** end with (a) one compact list of blocking findings and (b) on
 
 **Precision-remediation order.** When a defect sentence combines a generic head, a claim-bearing qualifier, and mixed comparison-criterion pressure, remediation SHOULD repair them in that order: restore head kind, then qualifier claim kind or admissible-use boundary, then comparison-criterion homogeneity. A narrowing qualifier does **not** by itself repair the head-kind defect. Only after those repairs may the run keep or reintroduce a Plain, didactic, or coarsened restatement, and only if the more precise upstream interpretation remains recoverable.
 
-**Kind-restoration closure.** A remediation direction or accepted repair does not close a precision-restoration finding merely because the old trigger word disappeared. For every wording, naming, or phrase-apparatus repair that changes FPF-governed text, the run record must recover the pre-repair kind, relation or claim kind, admissible use, and scope, then the post-repair kind, relation or claim kind, admissible use, and scope. If the repair narrows, widens, splits, or changes the kind, the run records the accepted decision or leaves the finding blocking. A lexical substitution without this account is still an open finding.
+**Kind-restoration closure.** A remediation direction or accepted repair does not close a precision-restoration finding merely because the old trigger word disappeared. For every wording, naming, or F.19 phrase-level repair that changes FPF-governed text, the run record must recover the pre-repair kind, relation or claim kind, admissible use, and scope, then the post-repair kind, relation or claim kind, admissible use, and scope. If the repair narrows, widens, splits, or changes the kind, the run records the accepted decision or leaves the finding blocking. A lexical substitution without this account is still an open finding.
 
 **Report ordering (impact-first).** The blocking findings are the primary review output. Remediation directions accompany them and SHOULD be listed in descending order of expected impact on semantic trust (FPF-governed sections first). Template-only issues belong at the end unless they hide missing content.
 

@@ -1,25 +1,33 @@
 ---
 chunk_kind: "parent"
 pattern_id: "C.18"
-pattern_title: "Open‑Ended Search Calculus (NQD‑CAL)"
+pattern_title: "Open-Ended Search Archive and Front Stewardship"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
-  - "C.18 — Open‑Ended Search Calculus (NQD‑CAL)"
-line_start: 44723
-line_end: 44833
+  - "C.18 — Open-Ended Search Archive and Front Stewardship"
+line_start: 44724
+line_end: 44943
 dependencies:
-  - "A.1"
   - "A.15"
   - "A.17-A.19"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "B.5.2.1"
   - "C.16"
   - "C.17"
   - "C.19"
   - "C.2"
+  - "C.30"
+  - "C.36"
+  - "E.18"
+  - "E.18.1"
+  - "F.17"
+  - "F.18"
+  - "F.9"
   - "G.11"
   - "G.5"
   - "G.6"
@@ -40,114 +48,223 @@ keywords:
   - "Γ_nqd.updateArchive"
 ---
 
-## C.18 - Open‑Ended Search Calculus (NQD‑CAL)
+## C.18 - Open-Ended Search Archive and Front Stewardship
 
-**Status.** Calculus specification (**CAL**). Exports `Γ_nqd.*` operators for open‑ended, illumination‑style generation. **ΔKernel = 0** (no kernel primitives added). *Minting note:* this CAL **does not mint** new U‑types; it defines **CAL‑records** that MAY alias to registered U‑types where present via **E.10/UTS**.
+> **Tech-name:** `OpenEndedSearchArchiveAndFrontStewardship`
+> **Plain-name:** open-ended search archive and front stewardship
+> **Type:** C-pattern
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+> **Placement:** Part C
+> **Builds on:** `C.16`, `C.19`, `G.5`, `G.11`, `E.18`, `E.18.1`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.30`, `F.17`, `F.18`, and `F.9`.
+> **Purpose:** make archive, front, Q-front, descriptor, telemetry, retained exploration value, stepping-stone value, lineage, edition, architecture-candidate generation, and cultural-variant generation usable without turning them into publication, decision, work permission, or cultural-evolution authority.
 
-**Depends on.** A‑kernel (A.1–A.15), **MM‑CHR** (C.16) for measurements, **KD‑CAL** for similarity/corpora, **Sys‑CAL** for carriers, **Decsn‑CAL** (objectives; advisory), **Compose‑CAL** (set aggregation; advisory).
+### C.18:0 - Use This When
 
-**Coordinates with.** **B.5.2.1** (binding), **C.17 Creativity‑CHR** (characteristics & scales), **C.19 E/E‑LOG** (policies: emitter selection, explore/exploit).
+Use this pattern when a project needs to generate, retain, compare, or report many candidate variants while preserving descriptor editions, distance definitions, archive policies, front semantics, telemetry, lineage, and retained exploration value.
 
-**Exports (CAL; no U‑type minting here).**
- - Records: `NQD.DescriptorMap` (alias of `U.DescriptorMap` if minted), `NQD.NQDArchive` (alias of `U.NQDArchive`), `NQD.Niche`, `NQD.ArchiveCell`, `NQD.EmissionSeed?`, `U.EmitterPolicyRef`, `U.InsertionPolicyRef`, `U.IlluminationSummary`, and `NQD.CandidateSet` (alias of `Set<U.Hypothesis>`).
+Typical cases include quality-diversity archives, open-ended engineering variant sets, Pareto or Q-front treatment, phenotype-like descriptor maps, architecture-candidate generation, style or tradition variant generation, scientific or engineering school variants, and candidate pools whose value is not captured by one immediate selected set.
 
-### C.18:1 - Problem frame
-Open‑ended search (NQD) equips FPF with illumination‑style generation and Pareto / selected-set selection in multi‑criteria, partially ordered spaces; it feeds G.5 without scalarising ordinal or mixed‑scale characteristics.
+#### C.18:0.1 - What Goes Wrong If Missed
+
+The project treats an archive as a shortlist, a front as a decision, illumination telemetry as dominance, a retained stepping stone as current best, or a cultural-style variant as a root cultural kind. Generation looks productive, but the next relation is unclear: retain, compare, publish selected set, choose locally, plan work, measure effects, refresh, or write a cultural-evolution case.
+
+#### C.18:0.2 - What This Buys
+
+The practitioner gets separate records for archive, front, and generation. Each record pins descriptors, characteristic spaces, edition refs, retention policy, telemetry, lineage, and next governing relation. Downstream selection, architecture, cultural evolution, work planning, measurement, and refresh then start from named records rather than from a broad archive label.
+
+### C.18:1 - Problem Frame
+
+Open-ended search and quality-diversity work deliberately keep more than one candidate alive. That is useful for engineering, science, design, music, dance, AI-agent frameworks, medical method families, and other evolving practices. The same archive or front label can hide strong candidates, weak but promising stepping stones, coverage-expanding variants, architecture candidates, cultural variants, and telemetry-only signals.
+
+The primary `EntityOfConcern` in C.18 is the archive or front relation being stewarded: which variants are generated or retained, under which descriptor and characteristic space, with which edition and lineage pins, and with which next relation available. C.18 is not a local-choice pattern, not a selected-set publication pattern, not a cultural-evolution subject-governing pattern, and not an architecture pattern.
 
 ### C.18:2 - Problem
-Without a disciplined NQD calculus, contexts (a) conflate illumination telemetry with dominance, (b) lose reproducibility due to undeclared DescriptorMap/DistanceDefRef.editions, and (c) perform illegal aggregations across scales.
+
+Without C.18, a team often compresses several different objects into one word such as archive, front, Q-front, portfolio, style pool, or candidate set. That loses four distinctions:
+
+- a front answers current non-domination under a declared comparator or dominance set;
+- an archive answers retained exploration value, coverage, stepping-stone value, or future reachability under a declared retention policy;
+- telemetry reports search health, coverage, novelty, diversity, or lineage but does not by itself dominate alternatives;
+- downstream selected-set publication, local choice, architecture work, cultural-evolution case work, planning, performed work, and refresh each have their own governing pattern.
 
 ### C.18:3 - Forces
-• Posets vs. scalarisation — selectors must return sets (Pareto/archive) rather than illegal weighted sums across mixed scales.
-• Exploration vs. exploitation — emitters must adapt while preserving provenance and editioning.
-• Telemetry metric vs. objective — Illumination (coverage/QD‑score) informs health but is not a dominance characteristic by default.
-• Reproducibility vs. adaptivity — budgets, ε, K, and InsertionPolicy must be edition‑tracked.
+
+| Force | Tension |
+|---|---|
+| Exploration value | A retained variant may be valuable as a stepping stone even when it is not on the current front. |
+| Front honesty | A front must preserve the declared comparator, dominance set, admissibility, and partial-order semantics. |
+| Descriptor currentness | Descriptor maps, distance definitions, characteristic spaces, and family coordinates change over time. |
+| Practical continuation | Engineering teams need selected sets, architecture candidates, work plans, and measurements from archives without letting the archive authorize those moves. |
+| Cultural and style cases | Music, dance, science, medical, product, and AI-agent variants need source labels and term bridges without minting cultural root kinds. |
+| Telemetry usefulness | Coverage, novelty, diversity, QD score, and lineage are useful signals but can be overread as value, proof, or decision. |
 
 ### C.18:4 - Solution
-Provide Γ_nqd.* operators and governed values for DescriptorMap, Archive/Niche, policies, and illumination telemetry summaries; bind measurement admission to MM-CHR and policy control to E/E-LOG. (Exports, value notes, and operator specs below are normative parts of this Solution.)
 
-- Operators (Γ):
-  - `Γ_nqd.generate(seed?, EmitterPolicyRef, Budget, DescriptorMapRef, QualityMeasuresRef, NoveltyMetricRef, CoverageGrid, CellCapacity K=1, EpsilonDominance ε=0, DedupThreshold?, InsertionPolicyRef?) → CandidateSet<U.Hypothesis>`
-  - `Γ_nqd.updateArchive(Archive, CandidateSet, InsertionPolicyRef?) → Archive'`
-  - `Γ_nqd.illuminate(Archive) → IlluminationSummary{coverage, QD-score, occupancyEntropy, filledCells}` (report‑only telemetry summary; not a dominance characteristic unless a policy explicitly promotes it).
-  - `Γ_nqd.selectFront(Archive|CandidateSet, characteristics={Q components, Novelty@context, ΔDiversity_P, …}) → ParetoFront`
+Keep archive, front, telemetry, generation, and downstream relations as separate records.
 
-**Type notes.**
-- `U.DescriptorMap (Tech; twin‑labelled Plain) : Hypothesis → ℝ^d` (declares encoder, invariances, version, **CharacteristicSpaceRef**). Publish Tech/Plain per **E.10**; declare `DescriptorMapRef.edition` and `DistanceDefRef.edition`. **Dimensionality rule.** **Require `d≥2` only when QD/illumination surfaces are active**; for non‑QD contexts `d≥1` is lawful.
-- `NQD.CandidateSet` ≡ `Set<U.Hypothesis>` with attached per‑item vectors `{Q_i, N_i, D_i:=ΔDiversity_P, S_i?, provenance_i}`.
-- `U.NQDArchive` holds per‑cell elites and genealogy refs; context‑local.
-- `U.Niche` is a region in CharacteristicSpace (grid bucket / CVT centroid / cluster).
-- `U.EmitterPolicyRef` points to a named policy in **C.19 E/E‑LOG**.
-- `U.InsertionPolicyRef` — named archive‑update policy (e.g., `replace_if_better | replace_worst | bounded_age | bounded_regret`); versioned.
-- `U.IlluminationSummary` is a **telemetry summary** over `Diversity_P` (see C.17), not a dominance characteristic.
+#### C.18:4.1 - Archive Record
 
-**Operator specs (normative).**
-- `Γ_nqd.generate(… )` SHALL:
-  (a) respect **Budget**,
-  (b) compute `{Q_i}` (vector), `N_i` (Novelty@context), `D_i := ΔDiversity_P(h_i | Pool)` under the same CharacteristicSpace & TimeWindow as the Pool, and optional `S_i` (Surprise),
-  (c) deduplicate by `DedupThreshold` in CharacteristicSpace,
-  (d) record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `EmitterPolicyRef`, `ε`, `K`, `Seeds`, and genealogy references (parent/seed ids) to enable replay and selection auditing.
-- `Γ_nqd.updateArchive` SHALL apply local competition per cell (keep up to K elites), preserve genealogy, and **enact the declared `InsertionPolicyRef`**; default is `replace_if_better` with deterministic tie‑breakers.
-- `Γ_nqd.illuminate` SHALL return coverage and QD‑score computed against the declared grid and archive edition.
-- `Γ_nqd.selectFront` SHALL compute the (ε‑)Pareto front over the declared characteristics; **Illumination** is excluded by default (report‑only).
+```text
+ExplorationArchiveRecord@Context:
+  archiveRef:
+  variantSetRef:
+  descriptorMapRef:
+  characteristicSpaceRef:
+  distanceDefinitionRef?:
+  retentionPolicyRef:
+  retainedExplorationValue:
+  steppingStoneUse?:
+  lineageOrEditionPins:
+  telemetryRefs?:
+  nextGoverningRelation:
+```
 
-**Pipeline:** apply **Eligibility (ConstraintFit=pass)** → **Dominance over the declared `DominanceSet`** → **Tie‑breakers (`Novelty@context`, `ΔDiversity_P`, `Surprise`; `Illumination` telemetry metric)**. When the context relies on the ordinary default, consume `DefaultId.DominanceRegime` from `G.Core/G.5` together with the active `C.19` emitter/archive policy instead of restating one local dominance doctrine here.
-**Ordinary default Q-front mode:** When no narrower promotion policy is declared, dominance stays on the context-declared `Q` components while `N/ΔD` work through archive occupancy and tie-breakers. Any deviation SHALL be declared by policy id and recorded in provenance.
+Use this record when the current question is retained exploration value, coverage, novelty, diversity, stepping-stone value, future reachability, curriculum expansion, lineage, or archive policy. Do not use the archive record as a selected-set publication or work permission.
 
-**Reproducibility & editions.** Each call SHALL emit provenance sufficient for replay: `{DHCMethodRef.edition, DescriptorMapRef.edition, EmitterPolicyRef (params), **InsertionPolicyRef**, DedupThreshold?, ε, K, Seeds, TimeWindow}`.
-Telemetry hook: whenever IlluminationSummary increases (Δcoverage>0 or ΔQD‑score>0), the Context SHALL emit a Telemetry(PathSlice) record that cites {EmitterPolicyRef, DescriptorMapRef.edition, DistanceDefRef.edition, InsertionPolicyRef?, TimeWindow}. (Aligns with G.6/G.7/G.11 `PortfolioMode`/edition constraints.)
+#### C.18:4.2 - Front Record
 
-**Measurement alignment.** `Novelty@context`, `Use‑Value (ValueGain)`, `Surprise`, `Diversity_P` SHALL be measured per **C.17** (MM‑CHR templates). **IlluminationSummary** is a telemetry summary over `Diversity_P` (coverage/QD‑score); when CharacteristicSpace includes domain‑family cells, publish grid id and FamilyCoverage, plus **DescriptorMapRef.edition/DistanceDefRef.edition**.
-.
+```text
+FrontRecord@Context:
+  frontRef:
+  candidateSetRef:
+  comparatorOrDominanceSetRef:
+  admissibilityRef:
+  descriptorMapRef?:
+  characteristicSpaceRef?:
+  relationTokenSetRef:
+  excludedTelemetryRefs?:
+  selectedSetPublicationRef?:
+  nextGoverningRelation:
+```
 
-#### C.18:4.1 - Front and archive are different returns
+Use this record when the current question is non-domination, Pareto relation, Q-front membership, comparator currentness, admissibility, or partial-order preservation. The front may feed `G.5`, but it is not itself a selected-set publication unless `G.5` makes that publication.
 
-- Start from one declared `EligibilitySet`.
-- Return the non-dominated `Front` over the declared `DominanceSet`.
-- When archive mode is active, return the corresponding `ExplorationArchive` separately.
-- Archive membership may use novelty, diversity, stepping-stone potential, or coverage policy and is not by itself evidence of membership in the current `Q-Front`.
-- Keep `TieBreakerSet` and `TelemetrySet` explicit so diversity or illumination signals do not silently rewrite the front semantics.
-- Use `RetentionIntent=steppingStone` when the point of retention is frontier expansion rather than current dominance.
-- Here `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, and `TelemetrySet` are comparison-bundle sets, while `RetentionIntent=steppingStone` is one archive-retention field value; none of them renames the returned `Front` or `ExplorationArchive`.
-- If one line keeps both returns, say that the front answers current non-domination while the archive answers retained exploration value.
-- When retained exploration value depends on future reachability or curriculum expansion across transitions, cite the declared reachability or transfer rule together with `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue`. That bridge stays archive/pool-policy-side unless one explicit policy promotes it; it does not require the heavier atlas layer and it does not rewrite front semantics.
+#### C.18:4.2a - Filled Archive And Front Micro-Records
+
+```text
+ExplorationArchiveRecord@Context:
+  archiveRef: dance-lab-variant-archive-2026
+  variantSetRef: choreography variants generated during a festival lab
+  descriptorMapRef: timing, body vocabulary, risk, teachability, audience recognizability
+  characteristicSpaceRef: festival style-engineering characteristic space
+  distanceDefinitionRef: difference in timing and body-vocabulary descriptors
+  retentionPolicyRef: keep rare but teachable variants and variants that open later combination work
+  retainedExplorationValue: stepping stones for teaching and later style intervention
+  steppingStoneUse: candidate material for C.36 cultural-evolution case work
+  lineageOrEditionPins: lab session, teacher edit, platform-publication edition
+  telemetryRefs: replay counts, class adoption counts, jury notes
+  nextGoverningRelation: C.36 case card or G.11 refresh, depending on the current question
+```
+
+```text
+FrontRecord@Context:
+  frontRef: cooling-module-maintainability-energy-front
+  candidateSetRef: retained cooling-module architecture candidates
+  comparatorOrDominanceSetRef: energy-use and maintainability comparator
+  admissibilityRef: safety and manufacturing constraints already admitted by project policy
+  descriptorMapRef: thermal performance, service access, part count, manufacturing tolerance
+  characteristicSpaceRef: product-family architecture characteristic space
+  relationTokenSetRef: non-dominated candidates under current comparator
+  excludedTelemetryRefs: tests outside the current temperature envelope
+  selectedSetPublicationRef: empty until G.5 publishes the selected set
+  nextGoverningRelation: C.30 architecture candidate treatment or G.5 selected-set publication
+```
+
+#### C.18:4.3 - Generation And Downstream-Use Record
+
+```text
+OpenEndedVariantGenerationRecord@Project:
+  problemCardRef?:
+  generationMethodOrFamilyRef:
+  variantSetRef:
+  descriptorMapRef:
+  characteristicOrDescriptorSetRef:
+  archiveOrFrontRef?:
+  architectureCandidateRefs?:
+  culturalVariantRefs?:
+  telemetryRefs?:
+  workPlanOrMeasurementRef?:
+  refreshRef?:
+  nextGoverningRelation:
+```
+
+Use this record when generation is current. `architectureCandidateRefs` become architecture moves only through `C.30`, `C.30.ASV`, or `C.30.AD`. `culturalVariantRefs` become cultural-evolution cases only through `C.36`. Work planning, performed work, effect measurement, and refresh use the A.15 family and `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
+
+#### C.18:4.4 - Front And Archive Are Different Returns
+
+- Start from one declared candidate or eligibility set.
+- Return the non-dominated front over the declared comparator, dominance set, or relation-token set.
+- Return the exploration archive separately when retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability is current.
+- Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
+- Use `RetentionIntent=steppingStone` when retention exists for frontier expansion or later curriculum value rather than current dominance.
+- If one source line keeps both returns, say that the front answers current non-domination while the archive answers retained exploration value.
+
+#### C.18:4.5 - Cultural And Architecture Variant Boundaries
+
+For architecture-candidate generation, C.18 records generation, archive, front, descriptor, telemetry, and retained exploration value. C.30 governs the architecture claim: `ArchitectureOf@Context`, selected structure or structure kind, affected characteristic, and next architecture move.
+
+For cultural variants, C.18 records the generated or retained variant set and its descriptors, lineage, telemetry, and archive or front relation. C.36 governs the cultural-evolution case when collective-holon or discipline-facing method, work, role, canon, memory, recognition, selection, mediation, style, tradition, or intervention relations are current. F.17, F.18, and F.9 govern durable term and bridge work for labels such as style, tradition, genre, scene, school, and technique.
 
 ### C.18:5 - Conformance Checklist
-- **C18‑1** Declare `DescriptorMap` (encoder, invariances, corpus edition) before generation.
-- **C18‑1b** When used in F/G triads, DescriptorMap SHALL declare a domain‑family coordinate (grid/cells) and reference an F1‑Card::DistanceDefRef & δ_family.
-- **C18‑1c**  When a domain‑family coordinate is declared, the Context SHALL compute and publish **AliasRisk** for each front / declared set-result emission, together with the dSig collision rule and the policy id. AliasRisk is computed against `U.DomainDiversitySignature (dSig)`; **the DescriptorMap SHALL publish**: (i) `collisionRuleId` (near‑duplicate threshold, e.g. “≥3 characteristics equal”),  (ii) `dSigSource` pointers used for coding the five characteristics. The collision rule and formula **MUST** be part of `DescriptorMap` provenance (see **Creativity‑CHR**, Heterogeneity Characterisation).
-- **C18‑2** Record `EmitterPolicyRef` (policy id from C.19) and parameter set.
-- **C18‑3** Compute `D = ΔDiversity_P(h | Pool)` under the same DescriptorMap & TimeWindow as the Pool (see C.17).
-- **C18‑4** Exclude Illumination from dominance unless policy explicitly promotes it.
-- **C18‑5** Keep `Use‑Value` separate from assurance scores; do not alter `F/G/R` semantics (see B.3, C.17 §Use‑Value).
-- **C18‑6** Emit full provenance; thinning after front computation MUST be recorded.
-- **C18‑7** Before computing any front, apply **ConstraintFit = pass** as a hard eligibility filter.
 
-**Defaults.** Default-governance responsibility is split on purpose: `G.Core` and `G.5` govern `DefaultId.DominanceRegime` and selector-facing default routing, while `C.19` governs emitter, insertion, and pool-policy defaults. `C.18` consumes those defaults and records the active refs instead of restating them locally. Minimum provenance remains: `DescriptorMapRef.edition` and `DistanceDefRef.edition`, `DHCMethodRef.edition`, `EmitterPolicyRef`, `InsertionPolicyRef`, `TimeWindow`, `Seeds`, `DedupThreshold?`; also record `FamilyCoverage/MinInterFamilyDistance`.
-
-**Didactic quickstart (Context).**
-1) Pick 2–4 Quality coordinates and a simple DescriptorMap (2–4 dims).
-2) Set defaults: `K=1`, `ε=0`, a conservative `EmitterPolicy`.
-3) Run `Γ_nqd.generate` to fixed Budget; inspect the front; log coverage (IlluminationSummary).
-4) Apply abductive plausibility filters; promote prime hypothesis to L0.
+- `CC-C18-1` Descriptor, characteristic, distance, and family-coordinate refs are named before generation, archive update, or front publication.
+- `CC-C18-2` Archive and front returns are separate unless a governing pattern explicitly publishes a selected set from one of them.
+- `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria.
+- `CC-C18-4` Retained exploration value, stepping-stone use, lineage, and edition pins are recorded for archive use.
+- `CC-C18-5` Architecture candidates use C.30 family patterns before becoming architecture moves.
+- `CC-C18-6` Cultural variants use C.36 or term-bridge patterns before becoming cultural-evolution claims.
+- `CC-C18-7` Refresh uses `G.11` with the smallest affected archive, front, descriptor, edition, or lineage locus.
 
 ### C.18:6 - Archetypal Grounding
-**System.** Legged‑robot gait exploration: `Q = {forward speed, energy efficiency}`; `DescriptorMap/CharacteristicSpace = morphology/coordination descriptors (ℝ^d)`; `D = ΔDiversity_P(h | Pool)` computed over that declared descriptor space; `Archive = CVT grid`; illumination reports coverage without entering dominance.
-**Episteme.** SoTA palette synthesis: `Q` is one declared objective tuple for the current synthesis task, for example external-validity gain, reuse value, or `Use-Value` only when the Context explicitly declares it inside `Q`; `DescriptorMap/CharacteristicSpace` carries method-family or claim-graph descriptors; `D = ΔDiversity_P(h | Pool)` is computed over that declared descriptor space or niche grid. Publish `DescriptorMapRef.edition` and `DistanceDefRef.edition` so the front remains reproducible.
 
-### C.18:7 - Bias‑Annotation
-Lexical firewall and notation independence apply; no vendor/tool tokens; ordinal characteristics never averaged; illumination treated as report‑only telemetry unless a policy promotes it. (E.5.1, E.5.2, C.16)
+**System-facing case.** A robotics team generates gait variants. The front records non-dominated speed and energy relations under declared measures. The archive retains diverse coordination patterns because some are stepping stones for new terrain. Telemetry reports coverage. A selected set may later be published through `G.5`; performed test runs use A.15.
+
+**Architecture case.** A cooling-module project keeps an archive of modular layout variants and a front over maintainability and energy use. C.18 records descriptors, archive policy, front relation, and telemetry. C.30 decides whether any retained variant becomes an architecture move by naming the selected structure and affected architecture characteristic.
+
+**Cultural case.** A dance-lab project generates movement variants around several source labels. C.18 records generated variants, descriptors, archive membership, front relation, and lineage. C.36 decides whether the lab is deliberately changing a cultural-evolution case; F.17, F.18, and F.9 handle the label bridges.
+
+### C.18:7 - Bias-Annotation
+
+Lexical and semiotic bias are controlled by keeping archive, front, telemetry, selected-set publication, local choice, cultural-evolution case, architecture move, work permission, and evidence relations distinct. Mathematical descriptions of descriptor maps, fronts, distances, coverage, or novelty use the mathematical-lens pattern when lens adequacy matters.
 
 ### C.18:8 - Consequences
-• Selected-set honesty (no forced scalarisation). • Reproducibility (editioned maps/policies). • Healthy diversity signals via telemetry metrics.
+
+Positive consequences:
+
+- archives keep exploration value without pretending to decide;
+- fronts preserve partial-order and comparator semantics;
+- architecture and cultural-variant generation become usable without creating parallel root kinds;
+- refresh and source-currentness have clear loci.
+
+Costs:
+
+- teams must keep at least archive and front records separate;
+- one generated variant may need several downstream records before it becomes selected, chosen, planned, worked, measured, or refreshed;
+- descriptor editions and distance definitions require maintenance.
 
 ### C.18:9 - Rationale
-Post‑2015 Quality‑Diversity (MAP‑Elites & successors) demonstrates illumination efficacy; NQD‑CAL captures these ideas while preserving MM‑CHR legality and LOG governance.
 
-### C.18:10 - Relations
-Builds on: C.16, C.2. Coordinates with: B.5.2.1 (binding), C.17, C.19, G.5, G.6, G.11.
+Current quality-diversity, illumination search, open-ended engineering, and evolutionary-engineering practice shows that retained diversity, stepping stones, archive lineage, and descriptor currentness often matter before a single choice is justified. FPF keeps that practical gain while preventing archive and front language from replacing comparison, selected-set publication, architecture, cultural evolution, work, evidence, decision, or refresh patterns.
+
+### C.18:10 - SoTA-Echoing
+
+| Source or source family | Adopted FPF move | Rejected overread | Field or boundary changed |
+|---|---|---|---|
+| Lin et al., `Quality-Diversity Optimization as Multi-Objective Optimization`, arXiv:2602.00478. | Treat QD and Q-front work through declared Q components, `DominanceSet`, comparator refs, archive relation, front relation, selected-set publication, and refresh. | Cell-filling or popularity accounts are the current ontology by default. | `FrontRecord@Context` must keep dominance grounds, comparator refs, and Q-component refs explicit. |
+| `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 2026, DOI `10.1016/j.swevo.2025.102240`. | Use survey support for current approaches, applications, archive use, diversity use, and challenge framing. | Survey taxonomy replaces FPF governing loci. | `ExplorationArchiveRecord@Context`, `FrontRecord@Context`, and `OpenEndedVariantGenerationRecord@Project` stay governed by C.18 while selected-set publication and refresh stay with `G.5` and `G.11`. |
+| Batra et al., `Quality Diversity for Robot Learning: Limitations and Future Directions`, arXiv:2407.17515. | State retained exploration value, generalization pressure, and limitations when an archive is used beyond current dominance. | Bounded archives or cell occupancy are enough evidence that NQD and OEE are useful. | `retainedValue`, `retentionPolicyRef`, `telemetryRefs`, and `nextGoverningRelation` must be filled when the archive is relied on. |
+| Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954. | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their governing patterns. |
+| Novikov et al., `AlphaEvolve`, arXiv:2506.13131, and Liu et al., `Deep Research` augmentation, arXiv:2510.06056. | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
+| Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set labels continue to `G.5`. |
+| Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates exit to `C.30`, `C.30.ASV`, or `C.30.AD` after C.18 records descriptor, archive or front relation, and telemetry. |
+
+### C.18:11 - Relations
+
+Builds on: `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
+
+Coordinates with: `C.19` for current-pool treatment, `G.5` for selected-set publication, `G.11` for refresh, `E.18.1` for P2W carry-through, `C.30` family for architecture candidates, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
 
 ### C.18:End
-
 ---
 

@@ -6,12 +6,12 @@ section_id: "A.15:12e"
 section_title: "P2W Integration As Role Enactability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__018_p2w-integration-as-role-enactability.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12e — P2W Integration As Role Enactability"
-line_start: 21294
-line_end: 21299
+line_start: 21295
+line_end: 21300
 dependencies:
   - "A.10"
   - "A.12"

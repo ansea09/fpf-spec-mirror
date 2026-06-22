@@ -6,12 +6,12 @@ section_id: "C.17:19"
 section_title: "Quick reference cards (tear‑out)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__022_quick-reference-cards-tear-out.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:19 — Quick reference cards (tear‑out)"
-line_start: 44573
-line_end: 44578
+line_start: 44574
+line_end: 44579
 dependencies:
   - "A.1"
   - "A.10"

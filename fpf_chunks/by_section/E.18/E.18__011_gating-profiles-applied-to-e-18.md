@@ -6,12 +6,12 @@ section_id: "E.18:8"
 section_title: "Gating Profiles (applied to E.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_gating-profiles-applied-to-e-18.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:8 — Gating Profiles (applied to E.18)"
-line_start: 70007
-line_end: 70019
+line_start: 70655
+line_end: 70667
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -47,9 +47,9 @@ This table is a selected-structure coverage table for E.18 crossings and path sl
 
 | Profile                          | Required CC‑items                                         | Additional notes                                                                               |
 | -------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Lean**                         | 01–06, 08–09, 11–12, 15, 19–21, 25                                                                                                           | Minimal MVPK presence; LaunchGate keeps `FreshnessUpToDate` & `DesignRunTagConsistency`. |
-| **Core**                         | **Lean** + 07, 10, 13–14, 16–18, 22–23, 24                                                                                                  | Adds CV⇒GF order, CSLC pins, budgeted loop, guards, valuation/sentinel refresh, error folds, SquareLaw, and the UNM declaration locus. |
-| **Safety‑Critical / RegulatedX** | **Core** + profile‑specific GateChecks (safety envelope, regulator id/editions) with stricter folds per **CC-E18‑22**; SquareLaw audits tightened | — |
+| **Lean**                         | 01–06, 08–09, 11–12, 15, 19–21, 25                                                                                                           | Minimal MVPK presence; LaunchGate keeps `FreshnessUpToDate` and `DesignRunTagConsistency`. |
+| **Core**                         | **Lean** + 07, 10, 13–14, 16–18, 22–23, 24                                                                                                  | Adds CV⇒GF order, CSLC pins, budgeted loop, guards, valuation and sentinel refresh, error folds, SquareLaw, and the UNM declaration locus. |
+| **Safety‑Critical or RegulatedX** | **Core** + profile‑specific GateChecks (safety envelope, regulator id and editions) with stricter folds per **CC-E18‑22**; SquareLaw audits tightened | — |
 
 **Recommended defaults (non-normative, tie-in to `A.21` and `G.11`).** Profiles inherit along a `PathSlice`; local overrides only **add** GateChecks; weakening uses a new `PathSlice` and refresh wiring through the current `G.11` locus when refresh wiring is current.
 

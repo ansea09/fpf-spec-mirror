@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 63243
-line_end: 63277
+line_start: 63881
+line_end: 63915
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,7 +63,7 @@ keywords:
 
 ### E.10.ARCH:0 - Use This When
 
-Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery apparatus, and a useful remaining reader move.
+Use this pattern when a recurring FPF-governed wording-use problem cannot be closed by one local `E.10` rewrite because the wording hides a stable primary-EntityOfConcern use field set, a stable recovery shape, and a useful remaining reader move.
 
 **Early failure cue.** FPF accumulates many small local wording-recognition lists, and subject patterns start teaching repair doctrine instead of their own EntityOfConcern, invariants, and first useful move.
 

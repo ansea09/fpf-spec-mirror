@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 6042
-line_end: 6078
+line_start: 6043
+line_end: 6079
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "C.30.AD:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__008_bias-annotation.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5.1 — Bias-Annotation"
-line_start: 54709
-line_end: 54718
+line_start: 54877
+line_end: 54886
 dependencies:
   - "A.1"
   - "A.10"
@@ -63,7 +63,7 @@ keywords:
 | Bias | How C.30.AD prevents it |
 | --- | --- |
 | Description-as-architecture bias | `ArchitectureDescription@Context` points to one `ArchitectureOf@Context`; the description does not become the architecture, selected structure, or described holon. |
-| View-as-structure bias | Every architecture structural view remains bound to `C.30.ASV` or another structure owner; C.30.AD records membership, correspondence, source return, and use boundary. |
+| View-as-structure bias | Every architecture structural view remains bound to `C.30.ASV` or another structure-governing pattern; C.30.AD records membership, correspondence, source return, and use boundary. |
 | Publication-as-authority bias | Publication form, dashboard polish, model-card form, or report status does not create evidence, assurance, gate, decision, work, or release authority. |
 | Freshness-as-evidence bias | A freshness cue bounds admissible use; it does not make the description evidence-sufficient. |
 | Semio-bias in architecture work | C.30 remains centered on architecture as EntityOfConcern; C.30.AD opens only when the architecture description itself is the current EntityOfConcern. |

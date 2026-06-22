@@ -6,12 +6,12 @@ section_id: "B.1.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__004_forces.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
   - "B.1.5:3 — Forces"
-line_start: 31514
-line_end: 31523
+line_start: 31515
+line_end: 31524
 dependencies:
   - "A.12"
   - "A.14"

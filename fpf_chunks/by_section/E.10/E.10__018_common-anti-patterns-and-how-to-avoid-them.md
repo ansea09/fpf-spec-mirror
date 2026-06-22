@@ -6,12 +6,12 @@ section_id: "E.10:11.4"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__018_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11.4 — Common Anti-Patterns and How to Avoid Them"
-line_start: 63120
-line_end: 63128
+line_start: 63758
+line_end: 63766
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,6 @@ keywords:
 | --- | --- | --- |
 | Replace one umbrella with another | `support` becomes `basis`, `route` becomes `path`, or `posture` becomes `status` without recovering the kind. | Recover EntityOfConcern, relation position, governing pattern, admissible use, and blocked overread before choosing wording. |
 | Pattern does the work | A pattern is said to send, route, approve, authorize, or repair a project object. | Say the user applies the governing pattern, or name the resulting relation, record, or admissible use. |
-| Description becomes object | A description, diagram, publication face, source span, or dashboard is treated as the in-life object or authority. | Use A.7, C.2.1, E.17, publication patterns, and the direct owner for the claim being made. |
+| Description becomes object | A description, diagram, publication face, source span, or dashboard is treated as the in-life object or authority. | Use A.7, C.2.1, E.17, publication patterns, and the direct governing pattern for the claim being made. |
 | Source label becomes FPF kind | A quoted term, acronym, legacy label, or local handle is kept as a live kind. | Treat it as source wording until the governing FPF kind or relation is recovered. |
 

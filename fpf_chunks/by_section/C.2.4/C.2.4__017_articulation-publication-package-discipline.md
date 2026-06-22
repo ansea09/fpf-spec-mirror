@@ -6,12 +6,12 @@ section_id: "C.2.4:16"
 section_title: "Articulation Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__017_articulation-publication-package-discipline.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:16 — Articulation Publication Package Discipline"
-line_start: 38863
-line_end: 38881
+line_start: 38864
+line_end: 38882
 dependencies:
   - "A.16"
   - "A.16.0"

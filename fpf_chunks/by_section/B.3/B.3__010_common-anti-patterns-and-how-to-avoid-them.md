@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33994
-line_end: 34007
+line_start: 33995
+line_end: 34008
 dependencies:
   - "A.10"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.3"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__020_consequences.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.3 — Consequences"
-line_start: 63571
-line_end: 63578
+line_start: 64209
+line_end: 64216
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ keywords:
 
 **Benefits.** Wording-use restoration stays distributed but coherent; subject patterns stay object-centered; recurring hidden-field families get one recovery architecture instead of many local catalogues.
 
-**Costs.** Authors must decide whether the current case is local `E.10`, a direct governing pattern, an existing restoration row, or a new row with a stable recovery apparatus.
+**Costs.** Authors must decide whether the current case is local `E.10`, a direct governing pattern, an existing restoration row, or a new row with a stable recovery shape.
 
 **Risks avoided.** The main avoided risks are semio-bias in subject patterns, lexical substitution without kind recovery, and pattern-nest or placement language masquerading as semantic-area architecture.
 

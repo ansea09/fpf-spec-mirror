@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 53847
-line_end: 53882
+line_start: 53984
+line_end: 54019
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,15 +82,15 @@ ArchitectureQuestionCard@Project:
 
 `architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, bounded context, selected structure, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady` rather than promoting it to `ArchitectureOf@Context` by wording alone.
 
-`ArchitectureQuestionCard@Project` is a project-side triage aid for choosing one architecture move. `questionDisposition` records the card's current result: keep it as a concern cue, prepare a `ProblemCard@Context`, open an `ArchitectureOf@Context` claim, or name the non-architecture governing pattern. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-authority claim. When those claims are being made, name the governing FPF pattern and keep C.30 to the architecture-claim portion; later sections cite this boundary rather than repeating the full non-use catalogue.
+`ArchitectureQuestionCard@Project` is a project-side triage aid for choosing one architecture move. `questionDisposition` records the card's current result: keep it as a concern cue, prepare a `ProblemCard@Context`, form an `ArchitectureOf@Context` claim, or name the non-architecture governing pattern. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-authority claim. When those claims are being made, name the governing FPF pattern and keep C.30 to the architecture-claim portion; later sections cite this boundary rather than repeating the full non-use catalogue.
 
 Use a conditional `ArchitectureDescription@Context` bridge only when durable architecture-description use is current: cross-team reuse, regulated or safety use, reusable design, comparison, source or lens reuse, or another named full-mode architecture-description use. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear. If the architecture description itself becomes the `EntityOfConcern` under repair, use `C.30.AD`.
 
-What goes wrong if C.30 is missed: the practitioner reasons from a document, module diagram, transformation-flow graph description, mathematical lens, benchmark, maturity score, or decision record instead of recovering the described holon, selected structures, first architecture move, and neighboring claim kind.
+What goes wrong if C.30 is missed: the practitioner reasons from a document, module diagram, transformation-flow graph description, mathematical lens, benchmark, maturity score, or decision record instead of recovering the described holon, selected structures, first architecture move, and non-architecture claim kind.
 
 What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication form, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
-Not this pattern when the `EntityOfConcern` under repair is not an architecture claim, selected architecture-relevant structure, source relation, description relation, view relation, publication-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the direct governing pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common neighboring claim boundaries are summarized in `C.30:12`.
+Not this pattern when the `EntityOfConcern` under repair is not an architecture claim, selected architecture-relevant structure, source relation, description relation, view relation, publication-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the direct governing pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common non-architecture claim boundaries are summarized in `C.30:12`.
 
 Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, publication form, source relation, structure, or non-architecture governing-pattern application, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. If the recovered issue is mathematical-lens use, apply `C.29`; when no mathematical-lens move changes the architecture work, keep ordinary prose or use `NoMathLensUseNeededNote` under C.29 rather than creating a C.30-local lens result. Keep the trigger tables in those patterns; C.30 is applied only after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
 

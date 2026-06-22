@@ -6,12 +6,12 @@ section_id: "B.3:11b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__016_c-29-mathematical-lens-use-relation.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:11b — C.29 mathematical-lens use relation"
-line_start: 34077
-line_end: 34080
+line_start: 34078
+line_end: 34081
 dependencies:
   - "A.10"
   - "A.14"

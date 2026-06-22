@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 54465
-line_end: 54479
+line_start: 54625
+line_end: 54639
 dependencies:
   - "A.1"
   - "A.10"
@@ -70,6 +70,6 @@ The first-minute practitioner can ask:
 - Which selected structures or structure kinds does this view describe?
 - Which viewpoint makes this view useful?
 - What correspondence connects this view to the architecture claim and other views?
-- When does source return to a source episteme, source view, or neighboring pattern governing that claim become necessary?
+- When does source return to a source episteme, source view, or direct governing pattern for that claim become necessary?
 - What admissible architecture move remains after the description has been used?
 

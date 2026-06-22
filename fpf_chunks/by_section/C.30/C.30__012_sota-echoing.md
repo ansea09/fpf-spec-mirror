@@ -6,12 +6,12 @@ section_id: "C.30:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__012_sota-echoing.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:11 — SoTA-Echoing"
-line_start: 54377
-line_end: 54389
+line_start: 54537
+line_end: 54549
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 view, viewpoint, concern, and correspondence discipline | Adopt view, viewpoint, and correspondence discipline for architecture descriptions. | Ask for architecture claim, `DescriptionContext`, viewpoint or correspondence relation, and next architecture move before notation-specific records. | Reject tool, notation, or method-description lock-in; FPF holon, episteme, view, and publication split stays governing. |
 | OMG SysML v2 and current MBSE traceability and model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording has FPF-governed use. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
-| SEI views-and-beyond lineage plus current multi-view practice | Keep module, component-and-connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module structure or interface relation; assign structural-view claims to `C.30.ASV`. | Older view taxonomies are lineage and comparison lineage, not a second FPF ontology. |
+| SEI views-and-beyond lineage plus current multi-view practice | Keep module, component-and-connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module structure or interface relation; assign structural-view claims to `C.30.ASV`. | View taxonomies are lineage and comparison support, not a second FPF ontology. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
 | Holon-architecture law-like constraint set from the architecture source | Adopt Conway mirroring, Amdahl, queueing, requisite-variety, information-hiding, effective-interface, abstraction-leakage, proxy-pressure, end-to-end, distributed-structure, and evolution-constraint sources only as architecture-relevant pressure and recognition cues. | Use them to ask which selected structure, characteristic, correspondence, flow boundary, control boundary, or architecture move is being considered; then apply `A.6.M`, `C.31`, `C.30.ASV`, `C.30.LCA`, `C.30.TFS-REL`, `C.29`, `C.16`, `C.25`, `G.5`, `C.11`, or the governing pattern. | No law-like slogan is architecture adequacy, decision, evidence sufficiency, assurance, gate passage, or universal architecture ontology by itself. |
 | GonzoML neural-network architecture corpus as source example for general architecture-operation language | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, and latency tradeoffs. | Keep source labels as source labels through `C.30.STRAT`; after recovery, use the language for architecture-description and architecture-view recognition, transformation-flow-structure source relation, module-and-interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |

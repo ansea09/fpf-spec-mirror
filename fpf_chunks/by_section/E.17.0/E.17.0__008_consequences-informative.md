@@ -6,12 +6,12 @@ section_id: "E.17.0:7"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__008_consequences-informative.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:7 — Consequences  (informative)"
-line_start: 65848
-line_end: 65867
+line_start: 66486
+line_end: 66505
 dependencies:
   - "A.15"
   - "A.2"

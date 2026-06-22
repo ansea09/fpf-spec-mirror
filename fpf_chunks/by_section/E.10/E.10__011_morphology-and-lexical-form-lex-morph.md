@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "fe0df9dcb06cfc87c8a6cb2f7cce3ac0d3b64d5e"
+commit_sha: "9b6d71cff42a9ac45e46a2be2d9450f766868bc4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 62643
-line_end: 62882
+line_start: 63281
+line_end: 63520
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,7 +75,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 | **`Objective`**         | **Target state**                           | EntityOfConcern side or Description episteme side, depending on formalization | KernelToken or ContextToken        | `HemostasisObjective`                             | Encoding acceptance tests here (put tests in `...Spec` or `MethodDescription`). |
 | **`Requirement`**       | **Acceptance condition, requirement claim, or commitment record where binding condition is being made**         | Description episteme or Description episteme admitted for specification use                            | KernelToken or ContextToken        | `LatencyRequirement`                              | Using as a role or capability.                                        |
 | **`BoundedContext`**    | **Context card**                           | (meta-structural; not EntityOfConcern and Description-episteme or specification use)         | ContextToken                    | `ITIL_2020_BoundedContext`                        | Treating Context as domain; minting `U.*` inside a Context.           |
-| **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical surface, geometric surface, or the neighboring FPF object. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
+| **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical surface, geometric surface, or another FPF object named by value. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
 | **`Card`**                 | UTS or record unit (episteme)               | Description episteme, Description episteme admitted for specification use, or publication-unit use, depending on FPF kind named by value       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
 
 #### E.10:8.1.1 - Suffix conventions and retained-family boundaries
