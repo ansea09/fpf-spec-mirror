@@ -6,12 +6,12 @@ section_id: "A.12:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__013_sota-echoing.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:10 — SoTA-Echoing"
-line_start: 20430
-line_end: 20438
+line_start: 20396
+line_end: 20404
 dependencies:
   - "A.1"
   - "A.10"

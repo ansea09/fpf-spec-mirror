@@ -6,14 +6,36 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 57910
-line_end: 57942
+line_start: 57889
+line_end: 57921
 dependencies:
+  - "A.10"
+  - "A.19"
+  - "A.6.M"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.27"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.31"
+  - "C.31.ASAP"
+  - "G.5"
+  - "G.6"
 keywords:
+  - "accounting basis"
+  - "bespoke residue"
+  - "refactoring opportunity"
+  - "report-only share"
+  - "reusable share"
+  - "reusable-structure accounting"
+  - "source return"
 ---
 
 ### C.31.RSA:1 - Problem frame

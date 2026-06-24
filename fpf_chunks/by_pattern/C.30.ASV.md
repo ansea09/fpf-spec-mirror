@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 55963
-line_end: 56678
+line_start: 55940
+line_end: 56655
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,7 +49,7 @@ keywords:
   - "VF.ARCH.STRUCTURE"
   - "architecture structural view"
   - "correspondence"
-  - "hidden/lost structure"
+  - "hidden or lost structure"
   - "source return"
   - "structure kind"
   - "viewpoint bundle"

@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:7 — Conformance checklist"
-line_start: 34265
-line_end: 34281
+line_start: 34231
+line_end: 34247
 dependencies:
   - "A.10"
   - "A.14"
@@ -66,7 +66,7 @@ keywords:
 | **CC-B3.4** | `R_eff = max(0, min_i R_i - Φ(CL_min))` for the relevant integration dependency paths, unless a stricter domain-specific rule is justified. | Enforce WLNK and penalize low-CL integrations. |
 | **CC-B3.5** | For `G`, essential dependency paths compose by intersection; `SpanUnion` applies only across explicitly independent evidence lines to the same claim and only over evidenced slices. | Prevent over-generalization. |
 | **CC-B3.6** | An assurance source-currentness record lists node and edge values, Evidence Graph Ref, and any OrderSpec or TimeWindow identifiers; it also displays the `describe(EntityOfConcernRef->GroundingHolonRef)` binding for the claim, the declared ReferencePlane value of world, concept, or episteme, a separable TA, VA, and LA evidence breakdown per **CC-KD-08**, decay or valid-until indicators on empirical bindings, and the Epistemic-Debt tally from **B.3.4**. | Provide auditability through A.10 without collapsing evidence families. |
-| **CC-B3.7** | Agency-CHR values (A.13) do not override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a Meta-Holon Transition. | Preserve safety; keep agency separate. |
+| **CC-B3.7** | Agency-characteristic values (A.13/C.9) do not override WLNK or `Φ(CL)` penalties; if agency grade change alters capabilities, model it as a Meta-Holon Transition. | Preserve safety; keep agency separate. |
 | **CC-B3.8** | Design-time assurance and run-time assurance are kept in separate tuples and compared side by side when both matter. | Avoid design-time and run-time mixing. |
 | **CC-B3.9** | If an assurance claim depends on a `C.28` causal-use verdict, it consumes `CausalUseSupportVerdict`, `CausalEvidenceSupportBasis`, and relevant profile refs from `C.28` or `A.10`; a causal-use claim whose C.28 verdict is unsupported degrades, blocks, or abstains rather than raising `R`. | Prevent assurance prose from certifying unsupported causal claims. |
 | **CC-B3.10** | A local `C.28` downgrade, redirection to the relation governing the asserted use, or abstain disposition is not a new assurance tuple trigger unless the claim is assurance-bearing, publication-bearing, release-bearing, or reused as an assurance input. | Keeps cheap causal triage from becoming assurance ceremony. |

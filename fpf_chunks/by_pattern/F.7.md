@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.7.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.7 — Concept‑Set Table"
-line_start: 77678
-line_end: 77950
+line_start: 79393
+line_end: 79665
 dependencies:
   - "A.6.9"
   - "E.10.D1"

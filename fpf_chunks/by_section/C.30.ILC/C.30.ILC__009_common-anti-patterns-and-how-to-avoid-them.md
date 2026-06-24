@@ -6,12 +6,12 @@ section_id: "C.30.ILC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57147
-line_end: 57160
+line_start: 57124
+line_end: 57137
 dependencies:
   - "A.10"
   - "A.22"
@@ -26,6 +26,9 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.MLAO"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -33,10 +36,11 @@ dependencies:
 keywords:
   - "cross-scope residual"
   - "declared scope"
+  - "first architecture move"
   - "frustration"
   - "interlevel conflict"
   - "local repair"
-  - "source return"
+  - "residual-bearing locus"
   - "structure kind"
 ---
 
@@ -51,6 +55,6 @@ keywords:
 | Measurement-first conflict | The team starts measuring before declaring what is in conflict. | Run ILC triage first; apply `C.16` or the characteristic pattern governing the characteristic under evaluation only when the measured characteristic is under evaluation. |
 | Risk color as cross-scope decision | A red, yellow, or green risk cell, risk matrix, or maturity score decides the cross-scope architecture move or resource-allocation priority. | Recover declared holon levels or declared scopes, structure kind under considerations, the residual, the loss, hazard, or threat relation, selected source, evidence, or relation interpretation, characteristic scale, comparator, gate pattern, and first admissible architecture move; do not treat ordinal risk color as architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation priority, or gate passage. |
 | Mediation-only conflict | A structural residual is treated as ethical mediation with no architecture move. | Use `D.3` only when interlevel ethical conflict structure is current and `D.4` only when mediation or decision use of that structure is current. |
-| Hidden candidate generation | The residual immediately spawns many designs. | State the first admissible move; apply `G.5` to a residual-reducing candidate set only when candidate generation is being claimed. |
+| Hidden candidate generation | The residual immediately spawns many designs. | State the first admissible move; apply `C.32.MLAO` and `C.32` only when residual-reducing candidate work is being claimed, and apply `G.5` only when selected-set publication is current. |
 | Scope word without scope record | The text says `level`, `layer`, `scale`, or `scope` without a declared field. | Recover the declared holon level or declared scope named by value, or demote the phrase to ordinary recognition. |
 

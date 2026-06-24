@@ -6,12 +6,12 @@ section_id: "B.5.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__001_intro.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:intro — Intro"
-line_start: 35431
-line_end: 35444
+line_start: 35397
+line_end: 35410
 dependencies:
   - "A.10"
   - "A.16"

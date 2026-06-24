@@ -6,17 +6,19 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 54961
-line_end: 55160
+line_start: 54931
+line_end: 55129
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.5"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -28,6 +30,8 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.16.P"
+  - "C.18"
+  - "C.19"
   - "C.2.P"
   - "C.28"
   - "C.29"
@@ -38,6 +42,8 @@ dependencies:
   - "C.30.LCA"
   - "C.30.P"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.ARCH"
   - "E.10.MOVE"
@@ -50,11 +56,13 @@ dependencies:
   - "E.24.PUB"
   - "E.8"
   - "F.18"
+  - "G.5"
 keywords:
   - "ArchitectureDescription@Context"
   - "architecture description"
   - "architecture description use card"
   - "architecture structural view"
+  - "candidate-description boundary"
   - "correspondence"
   - "source return"
   - "specification-use boundary"
@@ -164,7 +172,7 @@ Common architecture-description views:
 | Evidence or assurance reuse view | `A.10`, `B.3`, or assurance or evidence pattern governing the claim for the non-architecture claim. |
 | Architecture residual view | `C.30.ILC` when the view is about a cross-scope or interlevel architecture residual. If the view uses conflict wording or frustration wording, C.30.AD records only membership, correspondence, and source return; C.30.ILC governs the residual. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
-| Residual-reducing candidate or optimization view | `G.5` for candidate sets and residual-reducing candidate moves; `C.11` for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
+| Residual-reducing candidate or optimization view | `C.32.MLAO` for the residual-reducing multilevel candidate frame; `C.32` for the candidate architecture palette; `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use; `C.18` and `C.19` for archive, front, or current-pool treatment; `G.5` only for selected-set publication; `C.11` only for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
 
 #### C.30.AD:4.3 - Correspondence and source return
 
@@ -246,8 +254,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
-| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `G.5` for candidate sets, `C.11` for final local choice, and measurement or comparison patterns named by value when those claims are being made |
-
+| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `C.32.MLAO` for the residual-reducing frame, `C.32` for the candidate palette, `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use, `C.18` and `C.19` for archive, front, or pool treatment, `G.5` for selected-set publication, `C.11` for final local choice, and measurement patterns named by value when those claims are being made |
 | Generic description, view, viewpoint, publication, publication form, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
@@ -257,7 +264,7 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
 
-An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
+An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
 
-For an architecture-description claim, record only description membership, view membership, viewpoint, correspondence, source return, freshness, publication use, and specification use. If a candidate claim changes the architecture, return to `C.30`. If it changes which variants are retained, selected, published, or refreshed, return to the pattern that owns that relation.
+For an architecture-description claim, record only description membership, view membership, viewpoint, correspondence, source return, freshness, publication use, and specification use. If the source claim only grounds a first architecture move, return to `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO` according to the residual frame. If it changes which variants are archived, kept in a pool, compared, selected, published, locally chosen, or decided, return to the pattern that owns that relation.
 

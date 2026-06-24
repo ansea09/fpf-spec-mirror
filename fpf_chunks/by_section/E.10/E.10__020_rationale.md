@@ -6,12 +6,12 @@ section_id: "E.10:11.6"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__020_rationale.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11.6 — Rationale"
-line_start: 64090
-line_end: 64098
+line_start: 65805
+line_end: 65813
 dependencies:
   - "A.10"
   - "A.15"

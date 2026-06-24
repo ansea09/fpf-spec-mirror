@@ -6,12 +6,15 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.16.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
-line_start: 81085
-line_end: 81369
+line_start: 82800
+line_end: 83084
 dependencies:
+  - "A.15"
+  - "A.3"
+  - "B.1.5"
   - "B.3"
   - "D.CTX"
   - "E.10.D1"
@@ -30,7 +33,7 @@ keywords:
 **“Show the thought, not the tooling.”**
 **Status.** Architectural pattern.
 **Builds on:** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; F.1–F.15.
-**Coordinates with.** B.3 **Trust & Assurance Calculus** (CL on Bridges); Part C patterns (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL).
+**Coordinates with.** B.3 **Trust & Assurance Calculus** (CL on Bridges); Part C patterns (Sys‑CAL, KD‑CAL, Kind-CAL) and the method/work stack (A.3/A.15/B.1.5).
 
 ### F.16:1 - Intent & applicability
 

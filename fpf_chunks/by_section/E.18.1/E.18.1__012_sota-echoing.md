@@ -6,12 +6,12 @@ section_id: "E.18.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__012_sota-echoing.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:11 — SoTA-Echoing"
-line_start: 71951
-line_end: 71964
+line_start: 73666
+line_end: 73679
 dependencies:
   - "A.10"
   - "A.15"

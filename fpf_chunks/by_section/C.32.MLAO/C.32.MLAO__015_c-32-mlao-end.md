@@ -1,0 +1,54 @@
+---
+chunk_kind: "child"
+pattern_id: "C.32.MLAO"
+pattern_title: "Multilevel Architecture Residual Optimization"
+section_id: "C.32.MLAO:End"
+section_title: "C.32.MLAO:End"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.32.MLAO/C.32.MLAO__015_c-32-mlao-end.md"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+heading_path:
+  - "C.32.MLAO — Multilevel Architecture Residual Optimization"
+  - "C.32.MLAO:End — C.32.MLAO:End"
+line_start: 60059
+line_end: 60060
+dependencies:
+  - "A.10"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
+  - "A.6.M"
+  - "B.2"
+  - "B.2.P"
+  - "B.3"
+  - "C.11"
+  - "C.18"
+  - "C.19"
+  - "C.19.1"
+  - "C.29"
+  - "C.30.ILC"
+  - "C.30.LCA"
+  - "C.30.STRAT"
+  - "C.30.TFS-REL"
+  - "C.31"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.ACE"
+  - "C.32.ACS"
+  - "C.32.CONWAY"
+  - "C.32.FAIL"
+  - "E.10"
+  - "E.10.ARCH"
+  - "G.5"
+keywords:
+  - "Pareto front"
+  - "declared level"
+  - "declared scope"
+  - "ideality pressure"
+  - "multilevel architecture residual optimization"
+  - "residual-reducing candidate frame"
+  - "scale amenability"
+  - "stepping stone"
+---
+
+### C.32.MLAO:End
+

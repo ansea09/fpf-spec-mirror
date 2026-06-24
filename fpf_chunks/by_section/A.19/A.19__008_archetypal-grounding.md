@@ -6,12 +6,12 @@ section_id: "A.19:6.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__008_archetypal-grounding.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6.1 — Archetypal Grounding"
-line_start: 24714
-line_end: 24721
+line_start: 24680
+line_end: 24687
 dependencies:
   - "A.17"
   - "A.18"

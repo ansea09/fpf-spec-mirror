@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
-line_start: 75737
-line_end: 76060
+line_start: 77452
+line_end: 77775
 dependencies:
   - "A.11"
   - "A.7"
@@ -221,7 +221,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 #### F.1:12.2 Method quartet with types & measurement (model state graph)
 
-**Unification line.** Method‑CAL + Kind-CAL + KD‑CAL.
+**Unification line.** Method/work stack (A.3/A.15/B.1.5) + Kind-CAL + KD‑CAL.
 
 **Contexts (five Cards).**
 
@@ -318,7 +318,7 @@ A.11 **Ontological Parsimony** — motivates the small cut.
 **F.9** (Alignment & Bridge): only F.9 may relate Contexts; never F.1–F.4.
 
 **Used by.**
-Extention patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CAL) as the *lexical starting grid* for their examples and definitions.
+Extension patterns in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, LCA‑CAL) plus the method/work stack (A.3/A.15/B.1.5) as the *lexical starting grid* for their examples and definitions.
 
 ### F.1:16 - Migration notes (conceptual)
 

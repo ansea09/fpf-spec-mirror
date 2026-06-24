@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Worked examples (context‑local only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_worked-examples-context-local-only.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:11 — Worked examples (context‑local only)"
-line_start: 76206
-line_end: 76266
+line_start: 77921
+line_end: 77981
 dependencies:
   - "A.11"
   - "A.7"
@@ -71,7 +71,7 @@ keywords:
 
 *Thinking pay‑off:* avoids calling a plant fault an “incident” unless you **cross Contexts later** with an explicit bridge.
 
-#### F.2:11.3 Kind-CAL + Method‑CAL + KD‑CAL
+#### F.2:11.3 Kind-CAL + method/work stack + KD‑CAL
 
 * **Context:** *OWL 2 (profiles)* — **LNF:** `subclass‑of`
   **Tech:** `subclass‑of` - **Plain:** `is‑a (type hierarchy)`

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__007_bias-annotation.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:6 — Bias-Annotation"
-line_start: 57120
-line_end: 57132
+line_start: 57097
+line_end: 57109
 dependencies:
   - "A.10"
   - "A.22"
@@ -26,6 +26,9 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.MLAO"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -33,10 +36,11 @@ dependencies:
 keywords:
   - "cross-scope residual"
   - "declared scope"
+  - "first architecture move"
   - "frustration"
   - "interlevel conflict"
   - "local repair"
-  - "source return"
+  - "residual-bearing locus"
   - "structure kind"
 ---
 
@@ -49,7 +53,7 @@ keywords:
 * **Global-optimizer bias.** Local optimization in one declared holon level or declared scope is used as if the architecture literally optimizes one global function. Repair by keeping the local optimization claim as a triage input unless `C.29` supplies an admissible mathematical-lens use with recoverable level mapping or scale mapping and the candidate-set or decision pattern carries any synthesis or selection claim.
 * **Measurement-first bias.** A residual is measured before its level-bearing structure and scope grounding are declared. Repair by applying `C.16` or the characteristic pattern governing the characteristic under evaluation only after triage names the affected characteristic or measurement relation.
 * **Mediation-default bias.** Every conflict is treated as ethical mediation or negotiation. Repair by checking whether the use under repair is architecture structure, allocation, interface grammar, control, work or evidence scope, source-return, or another declared level-bearing architecture relation.
-* **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before applying `G.5` to a residual-reducing candidate set.
+* **Synthesis-jump bias.** A local residual immediately triggers candidate generation. Repair by identifying the first admissible architecture move before applying `C.32.MLAO` and `C.32`; use `G.5` only when selected-set publication is current.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
 

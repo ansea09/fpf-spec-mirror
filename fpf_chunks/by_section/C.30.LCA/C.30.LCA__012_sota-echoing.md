@@ -6,12 +6,12 @@ section_id: "C.30.LCA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__012_sota-echoing.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:11 — SoTA-Echoing"
-line_start: 56925
-line_end: 56934
+line_start: 56902
+line_end: 56911
 dependencies:
   - "A.10"
   - "A.20"
@@ -33,7 +33,7 @@ dependencies:
 keywords:
   - "control layer"
   - "control-structure view"
-  - "controller/plant"
+  - "controller and plant"
   - "layered control architecture"
   - "proof overread"
   - "rate band"

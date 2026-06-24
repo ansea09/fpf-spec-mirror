@@ -6,12 +6,12 @@ section_id: "C.30.ILC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__002_problem-frame.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:1 — Problem frame"
-line_start: 56954
-line_end: 56990
+line_start: 56931
+line_end: 56967
 dependencies:
   - "A.10"
   - "A.22"
@@ -26,6 +26,9 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.MLAO"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -33,10 +36,11 @@ dependencies:
 keywords:
   - "cross-scope residual"
   - "declared scope"
+  - "first architecture move"
   - "frustration"
   - "interlevel conflict"
   - "local repair"
-  - "source return"
+  - "residual-bearing locus"
   - "structure kind"
 ---
 
@@ -53,7 +57,7 @@ Use this pattern when a project situation contains a cross-scope architecture re
 "We may need to add, split, or mediate a declared holon level, declared scope, control layer, interface grammar, work scope, or evidence scope, but it is not clear which architecture move is admissible."
 ```
 
-**First-minute use slice.** A robotics team says a local controller upgrade made each arm faster, but cell-level stoppages and audit exceptions grew. Before drawing another architecture view, C.30.ILC records: described holon = assembly cell; declared levels/scopes = arm controller, cell control, evidence scope; level-bearing selected structure = control and evidence-reuse structure; residual-bearing locus = control-rate conflict plus evidence-reuse failure; local repair already attempted = retuned each arm controller; first architecture move = add or change mediator/control-layer relation and apply `C.30.ASV` for the selected structural view.
+**First-minute use slice.** A robotics team says a local controller upgrade made each arm faster, but cell-level stoppages and audit exceptions grew. Before drawing another architecture view, C.30.ILC records: described holon = assembly cell; declared levels and scopes = arm controller, cell control, evidence scope; level-bearing selected structure = control and evidence-reuse structure; residual-bearing locus = control-rate conflict plus evidence-reuse failure; local repair already attempted = retuned each arm controller; first architecture move = add or change mediator relation or control-layer relation and apply `C.30.ASV` for the selected structural view.
 
 The first useful move is `CrossScopeArchitectureResidualTriageRecord@Context`: name the affected declared holon levels or declared scopes, the selected structure in which those levels or scopes are recoverable, residual-bearing locus, local repair already attempted, why local repair is insufficient, and the first admissible architecture move or governing-pattern application.
 

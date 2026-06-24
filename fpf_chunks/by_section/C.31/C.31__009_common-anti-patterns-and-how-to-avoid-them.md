@@ -6,14 +6,39 @@ section_id: "C.31:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 57829
-line_end: 57839
+line_start: 57808
+line_end: 57818
 dependencies:
+  - "A.10"
+  - "A.17"
+  - "A.18"
+  - "A.19"
+  - "A.6.M"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.25"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.31.ASAP"
+  - "C.31.RSA"
+  - "C.32"
+  - "G.5"
 keywords:
+  - "ModularityVectorLite"
+  - "bespoke residue"
+  - "cohesion"
+  - "coupling"
+  - "evidence reuse"
+  - "interface variation"
+  - "modularity characteristics"
+  - "reusable-structure characteristics"
+  - "substitutability"
 ---
 
 ### C.31:8 - Common Anti-Patterns and How to Avoid Them

@@ -1,0 +1,52 @@
+---
+chunk_kind: "child"
+pattern_id: "C.32.ACE"
+pattern_title: "Architecture Characteristic Eval Programs"
+section_id: "C.32.ACE:8"
+section_title: "Common failures and repairs"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.32.ACE/C.32.ACE__009_common-failures-and-repairs.md"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+heading_path:
+  - "C.32.ACE — Architecture Characteristic Eval Programs"
+  - "C.32.ACE:8 — Common failures and repairs"
+line_start: 59485
+line_end: 59496
+dependencies:
+  - "A.10"
+  - "A.19.CPM"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.16.P"
+  - "C.25"
+  - "C.32"
+  - "C.32.ACS"
+  - "C.32.HCS"
+  - "C.32.MLAO"
+  - "E.13"
+  - "E.22"
+  - "E.23"
+  - "G.5"
+keywords:
+  - "architecture-characteristic eval program"
+  - "comparison input"
+  - "eval result"
+  - "measurement boundary"
+  - "missing-data policy"
+  - "parity frame"
+  - "proxy risk"
+---
+
+### C.32.ACE:8 - Common failures and repairs
+
+| Failure | Symptom | Repair |
+|---|---|---|
+| `SourceFitnessTermAsFPFObject` | "Fitness function" is written as the object under work. | Rewrite as `ArchitectureCharacteristicEvalProgram@Project` and name evaluated rows, candidates, parity frame, eval operations, and receiving use. |
+| `EvalAsCriterion` | A benchmark, monitor, or test is named as the architecture characteristic. | Return to ACS; name the criterion, bearer, scale, proxy risk, and protected counter-characteristics before writing the eval. |
+| `TestModeAsEvalWhole` | The team only asks whether one candidate passes while the work question is variant comparison. | Keep the test for the hard constraint, then add eval result forms that compare candidates or expose the trade-off front. |
+| `UnfairComparison` | Candidates are compared under different budgets, evidence windows, environments, or missing-data rules. | Rebuild the parity frame or record the result as unusable for selection. |
+| `ResultAsDecision` | A rank, score, pass, or dashboard reading selects the architecture. | Treat the result as source material for an A.10 evidence relation when an evidence claim is current, or as comparison input when comparison is current; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to the project-selected architecture-decision pattern. |
+| `SingleIndicatorGoodhart` | Work improves one optimized indicator while an unmeasured architecture concern worsens. | Limit optimized indicators, add protected counter-characteristics, and open `E.13` when proxy-to-value drift appears. |
+| `LosingVariantAsError` | A candidate that lost a planned eval is recorded as a mistake. | Record it as a variant result unless an expectation caused unplanned rework; keep useful learning in the variant archive. |
+

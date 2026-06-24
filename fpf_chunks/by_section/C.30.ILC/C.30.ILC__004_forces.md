@@ -6,12 +6,12 @@ section_id: "C.30.ILC:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__004_forces.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:3 — Forces"
-line_start: 57001
-line_end: 57010
+line_start: 56978
+line_end: 56987
 dependencies:
   - "A.10"
   - "A.22"
@@ -26,6 +26,9 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.MLAO"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -33,10 +36,11 @@ dependencies:
 keywords:
   - "cross-scope residual"
   - "declared scope"
+  - "first architecture move"
   - "frustration"
   - "interlevel conflict"
   - "local repair"
-  - "source return"
+  - "residual-bearing locus"
   - "structure kind"
 ---
 

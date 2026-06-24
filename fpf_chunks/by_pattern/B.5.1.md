@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.1.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
-line_start: 35371
-line_end: 35430
+line_start: 35337
+line_end: 35396
 dependencies:
   - "B.5"
 keywords:

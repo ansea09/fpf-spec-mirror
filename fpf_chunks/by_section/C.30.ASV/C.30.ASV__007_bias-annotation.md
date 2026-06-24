@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 56595
-line_end: 56608
+line_start: 56572
+line_end: 56585
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
   - "VF.ARCH.STRUCTURE"
   - "architecture structural view"
   - "correspondence"
-  - "hidden/lost structure"
+  - "hidden or lost structure"
   - "source return"
   - "structure kind"
   - "viewpoint bundle"

@@ -6,14 +6,36 @@ section_id: "C.31.RSA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__004_forces.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:3 — Forces"
-line_start: 57951
-line_end: 57961
+line_start: 57930
+line_end: 57940
 dependencies:
+  - "A.10"
+  - "A.19"
+  - "A.6.M"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.27"
+  - "C.28"
+  - "C.29"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.31"
+  - "C.31.ASAP"
+  - "G.5"
+  - "G.6"
 keywords:
+  - "accounting basis"
+  - "bespoke residue"
+  - "refactoring opportunity"
+  - "report-only share"
+  - "reusable share"
+  - "reusable-structure accounting"
+  - "source return"
 ---
 
 ### C.31.RSA:3 - Forces

@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "CSLC recap and the Creativity CharacteristicSpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_cslc-recap-and-the-creativity-characteristicspace.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:12 — CSLC recap and the Creativity CharacteristicSpace"
-line_start: 44587
-line_end: 44712
+line_start: 44553
+line_end: 44678
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,8 +28,9 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.7"
   - "C.9"
+  - "D.1-D.5"
+  - "E.5"
   - "F.18"
   - "F.5"
   - "F.6"
@@ -66,9 +67,9 @@ The core **characteristics** below are **kernel‑portable** names; Contexts **s
 | **Novelty\@context**        | Distance from known ideas **in this Context**                   | `U.Episteme` value or `U.Work` set | Ratio or bounded \[0..1] via *similarity→distance* | `KD‑CAL` corpus + `U.BoundedContext` |
 | **Use‑Value**            | Benefit vs a **declared objective**                          | `U.Episteme` value or `U.Evaluation` | Ordinal (Fail/Partial/Pass) or scalar KPI          | `B.3` Evidence & `U.Evaluation`      |
 | **Surprise**             | Unexpectedness under the Context’s **GenerativePrior**          | `U.Episteme` value | bits or nats (−log‑likelihood)                     | Prior cards & calibration            |
-| **ConstraintFit**        | Degree of **must‑constraints** satisfied while exploring     | `U.Work` or `U.Episteme` value | % satisfied (0–100)                                | `Norm‑CAL` + step guards             |
+| **ConstraintFit**        | Degree of **must‑constraints** satisfied while exploring     | `U.Work` or `U.Episteme` value | % satisfied (0–100)                                | Declared constraint owner + step guards |
 | **Diversity_P**          | Declared retained-set **coverage/dispersion** (incl. coverage map view)  | Set of `U.Episteme` values | Set‑functional; coverage index                     | `Γ_ctx` fold + USM ClaimScopes       |
-| **AttributionIntegrity** | Lawful and transparent **provenance/licensing**                | `U.Episteme` value plus provenance | \[0,1]                                              | PROV + Norm‑CAL                      |
+| **AttributionIntegrity** | Lawful and transparent **provenance/licensing**                | `U.Episteme` value plus provenance | \[0,1]                                              | PROV + declared constraint policy |
 
 > **Locality.** **Every characteristic is context‑local** (e.g., **Novelty\@context**). Cross‑context claims **must** use a **Bridge** and record **CL** penalties (B.3). No global novelty.
 
@@ -94,7 +95,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * *Use‑Value.*
   `Pass` iff **acceptanceSpec** (from `U.PromiseContent` or Decision KPI) is met from **Work** evidence; else `Partial`/`Fail`. For scalar KPIs, publish mean ± CI and the acceptance threshold; predicted values carry error bars and are updated post‑run.
 * *ConstraintFit.*
-  Ratio = satisfied / declared **must** constraints. Constraints are `Norm‑CAL` rules; **count only declared** ones (no unspoken “norms”).
+  Ratio = satisfied / declared **must** constraints. Constraints are context-local declared rules; **count only declared** ones (no unspoken “norms”).
 
 #### C.17:12.4 - Metric templates (normative kernels + manager‑ready variants)
 
@@ -124,7 +125,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **carrierKind:** `U.Work` or `U.Episteme` value.
 * **definition:** `|{c∈C_must : pass(c)}| / |C_must|` within the **MethodDescription** scope; optional weighting by criticality allowed if declared.
 * **scale:** ratio \[0..1].
-* **EvidencePin:** constraint list from **Norm‑CAL**; checks from Work telemetry.
+* **EvidencePin:** declared constraint list; checks from Work telemetry.
 
 4. **`MT.ReframeDelta`**
 

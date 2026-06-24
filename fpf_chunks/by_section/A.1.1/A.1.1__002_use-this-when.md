@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_use-this-when.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:0 — Use This When"
-line_start: 1672
-line_end: 1696
+line_start: 1638
+line_end: 1662
 dependencies:
   - "A.1"
   - "A.15"

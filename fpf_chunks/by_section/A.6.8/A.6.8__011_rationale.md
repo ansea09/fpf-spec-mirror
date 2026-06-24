@@ -6,12 +6,12 @@ section_id: "A.6.8:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__011_rationale.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:10 — Rationale"
-line_start: 17618
-line_end: 17626
+line_start: 17584
+line_end: 17592
 dependencies:
   - "A.15"
   - "A.2.3"

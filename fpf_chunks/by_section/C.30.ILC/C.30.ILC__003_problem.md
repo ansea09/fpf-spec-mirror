@@ -6,12 +6,12 @@ section_id: "C.30.ILC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__003_problem.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:2 — Problem"
-line_start: 56991
-line_end: 57000
+line_start: 56968
+line_end: 56977
 dependencies:
   - "A.10"
   - "A.22"
@@ -26,6 +26,9 @@ dependencies:
   - "C.30.ASV"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.MLAO"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -33,10 +36,11 @@ dependencies:
 keywords:
   - "cross-scope residual"
   - "declared scope"
+  - "first architecture move"
   - "frustration"
   - "interlevel conflict"
   - "local repair"
-  - "source return"
+  - "residual-bearing locus"
   - "structure kind"
 ---
 
@@ -44,7 +48,7 @@ keywords:
 
 Architecture work often starts from a residual: a local fix works in one declared holon level or declared scope and fails in another. Component optimization increases whole-holon or product-line integration cost. A new module boundary reduces local complexity and increases exceptions at the product-line scope. A control layer improves local safety and creates accountability or latency claims elsewhere. A reusable evidence set reduces repeated work and hides a new source-return condition.
 
-The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the claim being made, that residual is governed by `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is being claimed; by `C.31.ASAP` when architecture scale preference over declared alternatives is being claimed; or by `G.5` when residual-reducing candidate architecture moves form a candidate set being used. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
+The useful architecture intuition is narrower than a new `Frustration` kind: local optimization at one declared holon level or declared scope can create a persistent residual in another declared holon level, declared scope, or level-bearing structure relation. Depending on the claim being made, that residual is governed by `C.29` only when a recoverable multilevel mapping, scale mapping, or coarse-graining mapping is being claimed; by `C.31.ASAP` when architecture scale preference over declared alternatives is being claimed; by `C.32.MLAO` and `C.32` when residual-reducing candidate architecture work is current; and by `G.5` only when selected-set publication is current. An ordinary conflict between structures is not enough for the RG lens or frustration mathematical lens, but a conflict between structures assigned to different declared holon levels or scale windows may be enough when the mapping, preserved-structure line, and lost-structure line are recoverable. The first C.30.ILC output is only the grounded triage record.
 
 Without a pattern, teams either discuss the residual as vague `complexity`, treat it as an ordinary negotiation problem, jump into measurement, use mathematical frustration language as proof, or jump to candidate generation too early. `C.30.ILC` keeps the first move small: identify whether the residual is architecture-shaping and name the first admissible architecture move or governing-pattern application.
 

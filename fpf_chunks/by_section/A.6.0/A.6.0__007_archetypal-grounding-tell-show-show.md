@@ -6,12 +6,12 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10202
-line_end: 10220
+line_start: 10168
+line_end: 10186
 dependencies:
   - "A.2.6"
   - "A.6.1"

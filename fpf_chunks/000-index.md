@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `b74ecf2b633a2315086198e4aab07c2b61257c27`
+Commit SHA: `10cd224cef9c92043fb6821e165decd6ea05073f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `257`
+Patterns: `264`
 
 ## Patterns
 
@@ -173,6 +173,13 @@ Patterns: `257`
 - [C.31 — Modularity and Reusable Structure Characteristics](by_pattern/C.31.md)
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
+- [C.32 — Architecture Candidate Synthesis](by_pattern/C.32.md)
+- [C.32.HCS — Holon-Family Architecture Characteristic Starter Packs](by_pattern/C.32.HCS.md)
+- [C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles](by_pattern/C.32.ACS.md)
+- [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
+- [C.32.CONWAY — Transformer and Transformed Architecture Correspondence](by_pattern/C.32.CONWAY.md)
+- [C.32.MLAO — Multilevel Architecture Residual Optimization](by_pattern/C.32.MLAO.md)
+- [C.32.FAIL — Architecture Failure Recognition and Repair](by_pattern/C.32.FAIL.md)
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)

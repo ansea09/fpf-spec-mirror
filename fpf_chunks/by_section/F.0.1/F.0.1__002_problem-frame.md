@@ -6,12 +6,12 @@ section_id: "F.0.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__002_problem-frame.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:1 — Problem Frame"
-line_start: 75433
-line_end: 75443
+line_start: 77148
+line_end: 77158
 dependencies:
   - "A.1.1"
   - "A.11"

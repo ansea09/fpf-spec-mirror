@@ -6,12 +6,12 @@ section_id: "A.2:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_working-guidance.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:7 — Working Guidance"
-line_start: 2193
-line_end: 2202
+line_start: 2159
+line_end: 2168
 dependencies:
   - "A.1"
   - "A.1.1"

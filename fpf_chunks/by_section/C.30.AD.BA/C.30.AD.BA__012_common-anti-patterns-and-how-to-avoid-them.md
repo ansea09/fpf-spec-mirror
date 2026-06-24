@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:8.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:8.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 55413
-line_end: 55421
+line_start: 55382
+line_end: 55390
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,15 +6,17 @@ section_id: "C.30.P:7"
 section_title: "Reduced SoTA row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__010_reduced-sota-row.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:7 — Reduced SoTA row"
-line_start: 55639
-line_end: 55652
+line_start: 55616
+line_end: 55629
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -24,20 +26,28 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.16.P"
+  - "C.18"
+  - "C.19"
   - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.CONWAY"
+  - "C.32.FAIL"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
   - "E.17"
   - "E.8"
+  - "G.5"
 keywords:
 ---
 
@@ -45,7 +55,7 @@ keywords:
 
 Current architecture-description, model, view, and decision-record practice treats architecture as distinct from architecture descriptions, models, views, viewpoints, diagrams, and decision records. FPF adopts that line only where it changes action guidance: examples, non-use boundaries, governing-pattern assignments, source-return conditions, and conformance checks.
 
-| Practice source | Source-use role and currentness | What `C.30.P` adopts or adapts | FPF import boundary |
+| Practice source | Source-use relation and currentness | What `C.30.P` adopts or adapts | FPF import boundary |
 | --- | --- | --- | --- |
 | ISO/IEC/IEEE 42010:2022 on architecture descriptions, architecture viewpoints, model kinds, and conformance requirements. | Current standard and reference source for architecture-description and viewpoint separation. | Disciplines direct use of `C.30` and `C.30.ASV`; blocks diagram-as-architecture, model-as-architecture, view-as-architecture, and publication-as-architecture overread; disciplines `CC-C30P-2`, `CC-C30P-3`, and `CC-C30P-4`. | Does not import 42010 terminology as FPF ontology; FPF still uses `A.22`, `C.30`, `C.30.ASV`, and named `C.30.*` patterns. |
 | SEI "Documenting Software Architectures: Views and Beyond" practice line. | Current reference and lineage source for documenting views for stakeholder use. | Disciplines the source, publication, and view split in worked cases and keeps view artifacts useful without making them the selected structure. | Does not make "view" a generic proof or decision record. |

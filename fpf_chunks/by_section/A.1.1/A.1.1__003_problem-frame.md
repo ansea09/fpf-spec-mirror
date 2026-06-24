@@ -6,12 +6,12 @@ section_id: "A.1.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__003_problem-frame.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:1 — Problem Frame"
-line_start: 1697
-line_end: 1704
+line_start: 1663
+line_end: 1670
 dependencies:
   - "A.1"
   - "A.15"

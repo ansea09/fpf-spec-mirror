@@ -6,12 +6,12 @@ section_id: "A.2.7:12"
 section_title: "Excluded Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__018_excluded-objects.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:12 — Excluded Objects"
-line_start: 5268
-line_end: 5280
+line_start: 5234
+line_end: 5246
 dependencies:
   - "A.15"
   - "A.2"

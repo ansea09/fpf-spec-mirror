@@ -6,12 +6,12 @@ section_id: "A.6.0:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_sota-echoing.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:9.1 — SoTA-Echoing"
-line_start: 10279
-line_end: 10287
+line_start: 10245
+line_end: 10253
 dependencies:
   - "A.2.6"
   - "A.6.1"

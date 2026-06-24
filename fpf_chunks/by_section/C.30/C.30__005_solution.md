@@ -6,16 +6,18 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 54348
-line_end: 54764
+line_start: 54314
+line_end: 54734
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -26,6 +28,8 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.18"
+  - "C.19"
   - "C.2.1"
   - "C.2.P"
   - "C.25"
@@ -38,6 +42,9 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.CONWAY"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.D2"
   - "E.17"
@@ -47,6 +54,7 @@ dependencies:
   - "E.18"
   - "E.24.PUB"
   - "F.18"
+  - "G.5"
   - "G.6"
 keywords:
   - "ArchitectureOf@Context"
@@ -54,6 +62,7 @@ keywords:
   - "architecture question card"
   - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "candidate architecture use"
   - "grounded architecture"
   - "selected structure"
 ---
@@ -129,6 +138,10 @@ ArchitectureCandidateMove@Context:
 If the current work is archive generation, front maintenance, current-pool treatment, selected-set publication, or local choice, use `C.18`, `C.19`, `G.5`, or `C.11` before C.30 relies on it. If the selected architecture move is a recommended FPF pattern use, cite `E.11.PUR`. If it is ready to enter planning, work-entry readiness, gate decision, or performed work, use `A.15.2`, `A.15.5`, `A.21`, or `A.15.1` respectively. C.30 keeps only the architecture claim: which architecture of which entity in which context, which selected structure matters, which characteristic changes, and which architecture candidate use is admissible next.
 
 In C.30, architecture-move wording is practitioner shorthand for an architecture-candidate use over an `ArchitectureOf@Context` claim. It does not create a root `U.Move`, WorkPlan, readiness relation, gate decision, performed work, decision, or source-use claim by itself. When source wording uses "move" outside this architecture-candidate use, restore the concern through `E.10.MOVE` and name the direct governing pattern.
+
+When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded architecture claim, stop the C.30 question card after the described holon, bounded context, selected structure or structure kind, architecture concern, and admissible next use are named.
+Apply `C.32` only to build the candidate architecture palette.
+If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, queue number 5, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 

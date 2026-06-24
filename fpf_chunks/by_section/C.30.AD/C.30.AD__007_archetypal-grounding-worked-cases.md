@@ -6,17 +6,19 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 55161
-line_end: 55177
+line_start: 55130
+line_end: 55146
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
   - "A.15.5"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -28,6 +30,8 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.16.P"
+  - "C.18"
+  - "C.19"
   - "C.2.P"
   - "C.28"
   - "C.29"
@@ -38,6 +42,8 @@ dependencies:
   - "C.30.LCA"
   - "C.30.P"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.ARCH"
   - "E.10.MOVE"
@@ -50,11 +56,13 @@ dependencies:
   - "E.24.PUB"
   - "E.8"
   - "F.18"
+  - "G.5"
 keywords:
   - "ArchitectureDescription@Context"
   - "architecture description"
   - "architecture description use card"
   - "architecture structural view"
+  - "candidate-description boundary"
   - "correspondence"
   - "source return"
   - "specification-use boundary"
@@ -75,6 +83,6 @@ keywords:
 | A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if allocation-responsibility semantics apply. |
 | A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records which architecture claim and structural views the document uses, plus source-return conditions for product variation. `A.6.M` normalizes module-interface relations; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting frame are declared. |
 | A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records the description membership, correspondence, and source-return boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
-| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Candidate sets and selected-set publication use `G.5`; final local choice uses `C.11`; measurement or comparison claims use their governing patterns. |
+| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Residual-reducing frames use `C.32.MLAO`; candidate palettes use `C.32`; comparison and selector-policy use `A.19.CPM` or `A.19.SelectorMechanism`; archives and fronts use `C.18` or `C.19`; selected-set publication uses `G.5`; final local choice uses `C.11`; measurement claims use their governing patterns. |
 | A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | The architecture description can be the EntityOfConcern for that second-description use; the second description is handled as a Description, view, source relation, publication face, review record, or evaluation record over that EoC. `C.30.AD` keeps the chain to the underlying `ArchitectureOf@Context` visible without treating the second description as the architecture, the residual, the decision, or the proof. |
 

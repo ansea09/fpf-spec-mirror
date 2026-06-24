@@ -6,20 +6,22 @@ section_id: "B.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__006_archetypal-grounding.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:5 — Archetypal Grounding"
-line_start: 34958
-line_end: 34989
+line_start: 34924
+line_end: 34955
 dependencies:
   - "A.12"
   - "A.4"
-  - "B.4.1-B.4.3"
+  - "B.4.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
   - "evolution loop"
+  - "knowledge refinement"
+  - "method refinement"
   - "observe-notice-stabilize-route"
   - "open-ended evolution"
 ---
@@ -36,7 +38,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
         3.  **Stabilize:** The team publishes a `U.PreArticulationCuePack` that preserves the cue nucleus, the primary witness traces, and the current language-state position without pretending that a final anomaly or action record already exists.
         4.  **Route:** The team publishes a `RoutedCueSet` that keeps multiple admissible continuations visible (for example, battery-chemistry investigation versus route-planning adjustment) so that endpoint governing patterns can take over without losing the early signal.
 
-*   **B.4.2 - Knowledge Instantiation (Theory Refinement Loop):**
+*   **Knowledge-instantiation slice (theory refinement loop):**
     *   **Context:** A scientific theory of protein folding (`U.Episteme`) is being used to predict structures.
     *   **Loop Example:**
         1.  **Operate:** The theory exists and is applied by researchers.
@@ -46,7 +48,7 @@ The Canonical Evolution Loop is universal. It applies identically to the evoluti
 
       **Adaptive-specialization note.** Knowledge instantiation for one declared task family **SHALL** name the prior basis being refined from, the named work-measure threshold being pursued, the adaptation budget being spent, and the freshness or provenance basis for claiming the specialization is reusable. If the refinement is claimed as one specialization step, it **SHALL** also cite the declared `TaskFamily` or `TaskSignature` anchor consumed by `C.22.1`, `G.5`, and `G.9`. This keeps the refinement legible as contextual task-family specialization rather than vague general capability growth.
 
-*   **B.4.3 - Method Instantiation (Adaptive Method Loop):**
+*   **Method-instantiation slice (adaptive method loop):**
     *   **Context:** A field-maintenance organization uses a declared inspection-and-repair method (`U.Method`).
     *   **Loop Example:**
         1.  **Operate:** Teams execute the current method during each maintenance cycle.

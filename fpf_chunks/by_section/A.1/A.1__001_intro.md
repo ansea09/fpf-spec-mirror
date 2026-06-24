@@ -6,12 +6,12 @@ section_id: "A.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__001_intro.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:intro — Intro"
-line_start: 1316
-line_end: 1321
+line_start: 1282
+line_end: 1287
 dependencies:
   - "A.1.1"
   - "A.12"

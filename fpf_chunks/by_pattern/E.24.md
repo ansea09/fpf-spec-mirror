@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
-line_start: 74087
-line_end: 74556
+line_start: 75802
+line_end: 76271
 dependencies:
   - "A.15"
   - "A.19.ECS"
@@ -105,7 +105,7 @@ E.24 governs that ontic-introduction decision.
 Without this discipline:
 
 1. **Local use frames become pseudo-kinds.** A repeated local table or record starts to look like a new FPF object even though its rows are only links to existing values.
-2. **Draft-only loci become false authorities.** A ToC row such as `C.4 Method-CAL` is cited as if it already supplied current governing text.
+2. **Draft-only loci become false authorities.** A planned ToC row is cited as if it already supplied current governing text.
 3. **Pattern nests are mistaken for semantic units.** The placement label becomes the ontic, while `semanticArea` and `ontologicalNeighborhood` stay unstated.
 4. **Slot relations are copied without identity.** Several patterns list similar slots but no pattern says what identifies the ontic, which slots are required, and which dependent patterns may rely on them.
 5. **Existing typed values are duplicated.** A new head repeats `U.Method`, `U.Mechanism`, `U.WorkPlan`, `U.Work`, evidence, gate, source, or result relations under a new name.
@@ -388,7 +388,7 @@ Dependent subject patterns may keep a thin cue: when one recognizable concern sp
 
 A draft ToC row or older source label may name a calculus, family, or object before current FPF has a governing pattern for it. Such a label can guide investigation, but it cannot govern current use.
 
-Example: `C.4 Method-CAL` may appear in a ToC row or older source wording. If no current pattern text carries it, it is not a governing pattern for current FPF use. Use the current patterns that govern the filled values. A Method-CAL pattern can govern other patterns only after it has its own E.24-style ontic decision, stable identity, slot relation, and dependent-pattern declaration.
+Example: older source wording may name a method calculus before current pattern text carries it. If no current pattern text carries it, it is not a governing pattern for current FPF use. Use the current patterns that govern the filled values: `A.3.1` for method semantics, `A.3.2` for method description, `A.15.2` for work planning, `A.15.1` for dated work, and `B.1.5` for method composition when ordering is current. A separate method calculus can govern other patterns only after it has its own E.24-style ontic decision, stable identity, slot relation, and dependent-pattern declaration.
 
 The same test applies to any draft-only locus. If the label has no current governing text, do not cite it as ontology. Either cite current governing patterns, keep the label as investigation context, or open an E.24 ontic-introduction decision.
 

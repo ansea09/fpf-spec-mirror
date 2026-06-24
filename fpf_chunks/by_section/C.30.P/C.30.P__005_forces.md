@@ -6,15 +6,17 @@ section_id: "C.30.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__005_forces.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:3 — Forces"
-line_start: 55530
-line_end: 55540
+line_start: 55499
+line_end: 55509
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -24,20 +26,28 @@ dependencies:
   - "C.11"
   - "C.16"
   - "C.16.P"
+  - "C.18"
+  - "C.19"
   - "C.2.P"
   - "C.25"
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.CONWAY"
+  - "C.32.FAIL"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.ARCH"
   - "E.11"
   - "E.17"
   - "E.8"
+  - "G.5"
 keywords:
 ---
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.13.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
-line_start: 88582
-line_end: 88940
+line_start: 90297
+line_end: 90644
 dependencies:
   - "A.18"
   - "A.19"
@@ -385,20 +385,9 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 
 ### G.13:End
 
-# **Part H – Glossary & Definitional Pattern Index**
-
-| §   | ID & Title                     | Concise reminder                                               |
-| --- | ------------------------------ | -------------------------------------------------------------- |
-| H.1 | Alphabetic Glossary            |  Every admitted U-kind, relation, operator, and term-sheet name with four-register naming. |
-| H.2 | Definitional Pattern Catalogue |  One‑page micro‑stubs of every definitional pattern for quick lookup.  |
-| H.3 | Cross‑Reference Maps           |  Bidirectional links: Part A ↔ Part C ↔ Part B terms.           |
-
 # **Part I – Annexes & Extended Tutorials**
 
 | §   | ID & Title                  |  Concise reminder                                                |
 | --- | --------------------------- | --------------------------------------------------------------- |
-| I.1 | Deprecated Aliases          |  Deprecated names kept as alias labels for continuity; aliases do not carry current semantics. |
 | I.2 | Expanded Entry Disambiguation Cases | Expanded entry-disambiguation cases for high-risk or compact-insufficient first-entry comparison; compact `E.11` entry cues plus local Problem frames are complete when enough. |
-| I.3 | Change‑Log (auto‑generated) |  Version history keyed to DRR ids.                               |
-| I.4 | External Standards Mappings |  Trace tables to ISO 15926, BORO, CCO, Constructor‑Theory terms. |
 

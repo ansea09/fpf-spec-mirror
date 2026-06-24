@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_worked-examples.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:12 — Worked examples"
-line_start: 75901
-line_end: 75957
+line_start: 77616
+line_end: 77672
 dependencies:
   - "A.11"
   - "A.7"
@@ -58,7 +58,7 @@ keywords:
 
 #### F.1:12.2 Method quartet with types & measurement (model state graph)
 
-**Unification line.** Method‑CAL + Kind-CAL + KD‑CAL.
+**Unification line.** Method/work stack (A.3/A.15/B.1.5) + Kind-CAL + KD‑CAL.
 
 **Contexts (five Cards).**
 

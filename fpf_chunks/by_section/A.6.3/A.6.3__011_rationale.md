@@ -6,12 +6,12 @@ section_id: "A.6.3:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__011_rationale.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:7 — Rationale"
-line_start: 11580
-line_end: 11583
+line_start: 11546
+line_end: 11549
 dependencies:
   - "A.6.0"
   - "A.6.2"

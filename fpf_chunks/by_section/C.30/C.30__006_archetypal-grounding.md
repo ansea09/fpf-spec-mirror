@@ -6,16 +6,18 @@ section_id: "C.30:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__006_archetypal-grounding.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:5 — Archetypal Grounding"
-line_start: 54765
-line_end: 54772
+line_start: 54735
+line_end: 54742
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -26,6 +28,8 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.18"
+  - "C.19"
   - "C.2.1"
   - "C.2.P"
   - "C.25"
@@ -38,6 +42,9 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.32"
+  - "C.32.CONWAY"
+  - "C.32.MLAO"
   - "E.10"
   - "E.10.D2"
   - "E.17"
@@ -47,6 +54,7 @@ dependencies:
   - "E.18"
   - "E.24.PUB"
   - "F.18"
+  - "G.5"
   - "G.6"
 keywords:
   - "ArchitectureOf@Context"
@@ -54,6 +62,7 @@ keywords:
   - "architecture question card"
   - "architecture-description boundary"
   - "artifact-as-architecture guard"
+  - "candidate architecture use"
   - "grounded architecture"
   - "selected structure"
 ---

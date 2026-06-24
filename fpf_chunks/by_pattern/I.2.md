@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/I.2.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
-line_start: 88941
-line_end: 89255
+line_start: 90645
+line_end: 90853
 dependencies:
 keywords:
 ---
@@ -224,109 +224,3 @@ Each expanded entry-disambiguation case keeps recoverable:
 - **What not to infer:** a randomized procedure is not automatically counterfactual support; a simulation is not realized counterfactual data; a target-trial phrase is not proof of identification; a fairness metric is not causal fairness; a method benchmark is not comparable if methods sit on different causal rungs or estimands; and a causal support record does not by itself create a duty, promise, commitment, release gate, or admissibility predicate.
 
 ### I.2:End
-
-# **Part J – Indexes & Navigation Aids**
-
-| §   | ID & Title               |  Concise reminder                                        |
-| --- | ------------------------ | ------------------------------------------------------- |
-| J.1 | Concept‑to‑Pattern Index |  Quick jump from idea (“boundary”) to pattern (§, id).   |
-| J.2 | Pattern‑to‑Example Index |  Table listing every archetypal grounding vignette.      |
-| J.3 | Principle‑Trace Index    |  Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
-
-# **Part K - Lexical Debt**
-
-## Mandatory replacement map for measurement terms
-
-
-> **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, deprecated aliases may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
-
-| Deprecated term (context) | **Replace with** (Tech register) | Plain register allowance | Canonical Reference |
-| --- | --- | --- | --- |
-| axis (of measurement); dimension (of a system or quality) | **(disallowed in Core prose)** → use **Characteristic** | No parenthetical allowance in Core; use **Characteristic**, **Measure**, or **Coordinate** only | A.17 (CHR-NORM) |
-| point (on an axis); data point | **Coordinate** (on a Scale) | “point” _(in explanations only, e.g. “a point on the scale”)_ | A.18 (CSLC-KERNEL) |
-| metric value; raw score | **Coordinate** (or **Value**) | “value” _(acceptable in plain usage when context is clear, but formally it’s a Coordinate tied to a Characteristic)_ | A.18, C.16 |
-| score (composite or normalized) | **Score** (produced via a **ScoringMethod**) | “score” _(if needed in narrative, ensure it’s explained as a result of a defined ScoringMethod)_ | A.17/A.18 (ScoringMethod/Score) |
-| unit dimension; unit axis | **Unit** (of a Scale) | “unit” _(plain usage okay)_ | A.18 (Scale/Unit) |
-| metric (as a noun) | **Avoid in Tech and as primitive** → use **`U.DHCMethodRef` / `U.Measure` / Score** | “metric” _(Plain only on first use, with pointer to canonical terms)_ | C.16 § 5.1 (L5), A.18 |
-
-## Temporal claim lexical debt from C.27
-
-Retire untyped velocity, acceleration, cadence, agility, rhythm, inertia, and dynamics language when it is used outside a named C.27, C.16, or A.3.3 reading. Repair each occurrence to one of: ordinary prose, Dyn0 state reading or snapshot, Dyn1 measured rate or trend, Dyn2 intervention-sensitive temporal claim, C.16 measurement construction, or A.3.3 reusable transition law or model.
-
-Russian/English Plain-Tech twins for authoring:
-
-| Russian Plain | Safe Tech reading |
-| --- | --- |
-| скорость | rate, throughput, or tempo reading |
-| ускорение | rate-change or intervention-sensitive temporal claim |
-| усилие | planned effort, work, resource, or input basis, or intervention basis |
-| инерция | resistance/inertia proxy, not a physical mass analogue by default |
-| ритм | bearer/anchor/window/proxy relation |
-| динамика второй производной | Dyn2 claim reading, not second-derivative ontology |
-
-## Migration debt from A.2.6 (Scope, ClaimScope, WorkScope)
-
-### Deprecations (normative)
-
-The following terms **MUST NOT** name scope objects in normative text, guards, or conformance blocks:
-
-* *applicability*, *envelope*, *generality*, *capability envelope*, *validity* (as a characteristic name).
-
-Use instead:
-
-* **`U.ClaimScope`** (*Claim scope*, nick **G**) for epistemes;
-* **`U.WorkScope`** (*Work scope*) for capabilities;
-* **`U.Scope`** only when explaining the abstract mechanism (not in guards).
-
-### Affected locations and required edits (normative)
-
-Editors SHALL apply the following replacements:
-
-1. **Part C.2.2 (F–G–R).**
-
-   * Replace any internal definition of “Generality” with a normative reference to **A.2.6 §6.3** (*Claim scope (G)*).
-   * Where “abstraction level” is mentioned as G, replace with “Claim scope (where the claim holds)”; keep **AT** (AbstractionTier) only as optional didactics (non‑G).
-   * Ensure composition examples use **intersection/SpanUnion** for G, not ordinal “more/less general”.
-
-2. **Part C.2.3 (Formality F).**
-
-   * No change to F itself.
-   * Any example that implies “raising F widens G” MUST be rephrased: F changes expression form; G changes only via **ΔG**.
-
-3. **Part A.2.2 (Capabilities).**
-
-   * Replace “capability envelope/applicability” with **`U.WorkScope`**.
-   * Method–Work gates MUST test **Work scope covers JobSlice**, with **measures** and **qualification windows** bound.
-
-4. **Part B (Bridges & CL).**
-
-   * Add a note: **CL penalties apply to R**, not to **F/G**; mapping MAY recommend **narrowing** the mapped scope (best practice).
-
-5. **Part E (Lexicon).**
-
-   * Add entries for **Claim scope (G)**, **Work scope**, **Scope** (mechanism).
-   * Mark listed deprecated terms as **deprecated aliases** allowed only in explanatory notes.
-
-6. **ESG & Method–Work templates.**
-
-   * Replace any “applicability”/“envelope” guard phrasing with **ScopeCoverage** (see §10).
-   * Require explicit **`Γ_time`** selectors in all scope‑sensitive guards.
-
-### Migration playbook (informative)
-
-1. **Inventory** scope‑like phrases across your Context (search: applicability, envelope, generality, capability envelope, valid\*).
-2. **Classify** each occurrence as **Claim scope** (episteme) or **Work scope** (capability); replace any “scope characteristic(s)” with “scope object”, “scope type”, or “USM scope object” depending on sentence grammar.
-3. **Rewrite** guards to use `Scope covers TargetSlice` + explicit **`Γ_time`**; remove “latest”.
-4. **Publish** any required **Bridges** with **CL** for Cross‑context usage.
-5. **Document** ΔG changes separately from evidence freshness (R).
-
-### Alias and body-prose continuity (informative)
-
-Existing body prose may keep older phrasing only when it is explanatory and carries no current requirement. All **guards, conformance checklists, and state assertions** MUST be rewritten to the USM terms and semantics.
-
-### Change Log (normative migration record)
-
-* **A.2.6 introduced.** Defines `U.ContextSlice`, `U.Scope`, `U.ClaimScope (G)`, `U.WorkScope`; sets algebra and guard patterns.
-* **Deprecated labels.** “applicability / envelope / generality / capability envelope / validity” as characteristic names.
-* **Edits required.** C.2.2 (G = Claim scope), A.2.2 (Work scope for capabilities), Part B (CL→R note), Part E (Lexicon updates), ESG/Method–Work guard templates (ScopeCoverage + `Γ_time`).
-* **No change.** C.2.3 (F) unchanged; its examples updated only for wording consistency.

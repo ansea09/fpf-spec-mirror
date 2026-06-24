@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "The Core Characteristics (kernel nucleus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_the-core-characteristics-kernel-nucleus.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:5 — The Core Characteristics (kernel nucleus)"
-line_start: 44396
-line_end: 44505
+line_start: 44362
+line_end: 44471
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,8 +28,9 @@ dependencies:
   - "C.16"
   - "C.18"
   - "C.19"
-  - "C.7"
   - "C.9"
+  - "D.1-D.5"
+  - "E.5"
   - "F.18"
   - "F.5"
   - "F.6"
@@ -111,7 +112,7 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * **Carrier.** Outcome + Work evidence.
 * **Polarity.** Higher is **better** (1 = all mandatory satisfied).
 * **Scale.** **\[0, 1]**, ratio or pass/fail.
-* **Measurement template:** declare **set `C_must`** (Norm‑CAL / Service acceptance), compute **`ConstraintFit := |{c∈C_must : pass(c)}| / |C_must|`**; optionally weight per criticality.
+* **Measurement template:** declare **set `C_must`** under its governing constraint owner or service-acceptance policy, compute **`ConstraintFit := |{c∈C_must : pass(c)}| / |C_must|`**; optionally weight per criticality.
 * **Evidence.** Checklists, tests, audits; Who/Role performed the **SpeechActs** (approvals/waivers).
 * **Scope.** Constraints are **context‑local**; Cross‑context requires **Bridge**; waivers are **SpeechAct Work** with RSG gates (A.2.5).
 * **Interpretation note.** Low `ConstraintFit` signals tension with declared **must‑constraints** and warrants reframing or redesign; **this pattern does not prescribe go/no‑go rules**.
@@ -142,11 +143,11 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 * **Carrier.** Outcome + provenance graph.
 * **Polarity.** Higher is better.
 * **Scale.** **\[0, 1]**; fraction of **required attributions/licence duties** satisfied.
-* **Template.** Trace graph coverage against Context policy; licence constraints as **Norm‑CAL** rules.
+* **Template.** Trace graph coverage against Context policy; licence constraints as declared must-constraint rules.
 * **Evidence.** PROV‑style links; licence scans; acknowledgements.
 * **Didactic cue.** High `AttributionIntegrity` signals lawful and transparent recombination; low values indicate unacceptable practice in most Contexts.
-* **Default role.** `AttributionIntegrity` is **measurable but non‑dominant**. It MAY serve as a **policy filter/tie‑break** (C.19). If certain attribution duties are **must‑constraints**, they belong to **ConstraintFit** (Norm‑CAL) and act as **eligibility gates**. It is **not** part of the default dominance set.
-* **Dominance & gating note (normative).** `AttributionIntegrity` is a measurable **Characteristic**; it is **not** in the default dominance set. Contexts MAY use it as a **filter** or **tie‑break** via policy (C.19). Legal/ethical **must‑fit** checks live in **ConstraintFit** (Norm‑CAL); failing those blocks eligibility **before** dominance.
+* **Default role.** `AttributionIntegrity` is **measurable but non‑dominant**. It MAY serve as a **policy filter/tie‑break** (C.19). If certain attribution duties are **must‑constraints**, they belong to **ConstraintFit** under the declared constraint owner and act as **eligibility gates**. It is **not** part of the default dominance set.
+* **Dominance & gating note (normative).** `AttributionIntegrity` is a measurable **Characteristic**; it is **not** in the default dominance set. Contexts MAY use it as a **filter** or **tie‑break** via policy (C.19). Legal/ethical **must‑fit** checks live in **ConstraintFit** under the declared constraint owner; failing those blocks eligibility **before** dominance.
 
 #### C.17:5.7 - `EffortCost` *(advisory)* — “What did it take?”
 

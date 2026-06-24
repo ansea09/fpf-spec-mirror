@@ -6,12 +6,12 @@ section_id: "C.30.ASV:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__002_problem-frame.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:1 — Problem frame"
-line_start: 55969
-line_end: 55998
+line_start: 55946
+line_end: 55975
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
   - "VF.ARCH.STRUCTURE"
   - "architecture structural view"
   - "correspondence"
-  - "hidden/lost structure"
+  - "hidden or lost structure"
   - "source return"
   - "structure kind"
   - "viewpoint bundle"

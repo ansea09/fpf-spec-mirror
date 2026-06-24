@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Source-Restoration Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-source-restoration-slice.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Source-Restoration Slice"
-line_start: 22684
-line_end: 22698
+line_start: 22650
+line_end: 22664
 dependencies:
   - "A.10"
   - "A.15"

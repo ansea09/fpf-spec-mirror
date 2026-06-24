@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__012_sota-echoing.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:11 — SoTA-Echoing"
-line_start: 57517
-line_end: 57528
+line_start: 57496
+line_end: 57507
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.ASV"
   - "C.30.STRAT"
+  - "C.32"
   - "E.10"
   - "E.17"
   - "E.17.0"
@@ -41,6 +42,7 @@ dependencies:
 keywords:
   - "architecture structural view"
   - "architecture-to-transformation-flow relation"
+  - "candidate architecture input"
   - "functional behavior"
   - "selected structure"
   - "transformation-flow structure"

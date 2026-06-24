@@ -6,12 +6,12 @@ section_id: "A.2.5:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 3969
-line_end: 3979
+line_start: 3935
+line_end: 3945
 dependencies:
   - "A.15"
   - "A.2.1"

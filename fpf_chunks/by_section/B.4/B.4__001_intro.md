@@ -6,20 +6,22 @@ section_id: "B.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__001_intro.md"
-commit_sha: "b74ecf2b633a2315086198e4aab07c2b61257c27"
+commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:intro — Intro"
-line_start: 34898
-line_end: 34909
+line_start: 34864
+line_end: 34875
 dependencies:
   - "A.12"
   - "A.4"
-  - "B.4.1-B.4.3"
+  - "B.4.1"
 keywords:
   - "DesignRunTag feedback"
   - "drift repair"
   - "evolution loop"
+  - "knowledge refinement"
+  - "method refinement"
   - "observe-notice-stabilize-route"
   - "open-ended evolution"
 ---
