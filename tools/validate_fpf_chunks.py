@@ -11,8 +11,25 @@ PATTERN_ID_RE = re.compile(
     r"^(?:[A-Z](?:\.[A-Za-z0-9]+(?:[-_][A-Za-z0-9]+)*)+|G\.Core)$"
 )
 
+CHR_CAL_REPLACEMENT_PATTERNS = [
+    # C.7 CHR-CAL was deprecated/removed upstream. The validator now requires
+    # the existing replacement basis rather than a removed ToC-only pattern.
+    "A.17",
+    "A.18",
+    "A.19",
+    "C.16",
+    "G.3",
+    "G.4",
+]
+
+DEPRECATED_PATTERN_MIGRATIONS = {
+    "C.7": {
+        "status": "deprecated_or_removed",
+        "replacement_basis": CHR_CAL_REPLACEMENT_PATTERNS,
+    }
+}
+
 # These patterns must have real body chunks under fpf_chunks/by_pattern.
-# C.7 is intentionally NOT here because in the current FPF it is ToC-only.
 REQUIRED_BODY_PATTERNS = [
     "A.1",
     "A.1.1",
@@ -30,6 +47,7 @@ REQUIRED_BODY_PATTERNS = [
     "A.10",
     "A.11",
     "A.15",
+    *CHR_CAL_REPLACEMENT_PATTERNS,
     "C.24",
     "C.27",
     "C.28",
@@ -39,12 +57,11 @@ REQUIRED_BODY_PATTERNS = [
     "G.11",
 ]
 
-# These patterns are required by your answer protocol, but they may be either:
+# These patterns are required by the runtime answer protocol and may be either:
 # - a real body pattern, or
 # - a ToC-only navigation entry.
 REQUIRED_TOC_OR_BODY_PATTERNS = [
     *REQUIRED_BODY_PATTERNS,
-    "C.7",
 ]
 
 REQUIRED_FRONT_MATTER_KEYS = [

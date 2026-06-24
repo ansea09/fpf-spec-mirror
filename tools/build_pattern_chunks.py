@@ -47,6 +47,29 @@ DEPENDENCY_LABELS = (
     "Specialized by",
 )
 
+CHR_CAL_REPLACEMENT_PATTERNS = [
+    # C.7 CHR-CAL was deprecated/removed upstream. The required contract now
+    # validates the existing replacement basis instead of a removed ToC entry.
+    "A.17",
+    "A.18",
+    "A.19",
+    "C.16",
+    "G.3",
+    "G.4",
+]
+
+DEPRECATED_PATTERN_MIGRATIONS = {
+    "C.7": {
+        "status": "deprecated_or_removed",
+        "replacement_basis": CHR_CAL_REPLACEMENT_PATTERNS,
+        "note": (
+            "C.7 CHR-CAL is no longer required as a standalone pattern. "
+            "Validate the characteristic/measurement/calculus basis through "
+            "C.16 plus A.17/A.18/A.19 and G.3/G.4."
+        ),
+    }
+}
+
 DEFAULT_REQUIRED_PATTERNS = [
     "A.1",
     "A.1.1",
@@ -64,7 +87,7 @@ DEFAULT_REQUIRED_PATTERNS = [
     "A.10",
     "A.11",
     "A.15",
-    "C.7",
+    *CHR_CAL_REPLACEMENT_PATTERNS,
     "C.24",
     "C.27",
     "C.28",
@@ -400,6 +423,7 @@ def build(source: Path, out_dir: Path, commit_sha: str) -> None:
         "commit_sha": commit_sha,
         "chunking_method": "pattern-aware",
         "pattern_count": len(patterns),
+        "deprecated_pattern_migrations": DEPRECATED_PATTERN_MIGRATIONS,
         "patterns": [],
     }
 
