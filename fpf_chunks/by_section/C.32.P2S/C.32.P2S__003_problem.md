@@ -6,12 +6,12 @@ section_id: "C.32.P2S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__003_problem.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:2 — Problem"
-line_start: 58977
-line_end: 58986
+line_start: 58990
+line_end: 58999
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,6 +44,9 @@ dependencies:
   - "C.32.HCS"
   - "C.32.MLAO"
   - "C.32.PAD"
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.17"
   - "E.18"
   - "E.23"

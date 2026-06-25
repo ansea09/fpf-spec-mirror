@@ -6,12 +6,12 @@ section_id: "A.6.0:10c"
 section_title: "PrincipleFrame And CHR Observability Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__017_principleframe-and-chr-observability-relation.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:10c — PrincipleFrame And CHR Observability Relation"
-line_start: 10287
-line_end: 10290
+line_start: 10290
+line_end: 10293
 dependencies:
   - "A.2.6"
   - "A.6.1"

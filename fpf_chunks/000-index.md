@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `b0368ed8d883c04d0b261b03f46c28e23d790dc5`
+Commit SHA: `6bbbb622859fbbcddc02b23ea76bee4dd71c6291`
 
 Chunking method: `pattern-aware`
 
-Patterns: `268`
+Patterns: `271`
 
 ## Patterns
 
@@ -184,6 +184,9 @@ Patterns: `268`
 - [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
 - [C.32.ADR — Architecture Decision Record Projection](by_pattern/C.32.ADR.md)
 - [C.32.ADA — Architecture Decision Adequacy Scales](by_pattern/C.32.ADA.md)
+- [C.33 — Structural Information Adequacy for Architecture Capture and Source Return](by_pattern/C.33.md)
+- [C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy](by_pattern/C.34.md)
+- [C.35 — Structural Synthesis and Discovery Adequacy](by_pattern/C.35.md)
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)

@@ -6,12 +6,12 @@ section_id: "C.2.1:5"
 section_title: "Semantic triangle as didactic view  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__006_semantic-triangle-as-didactic-view-informative.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:5 — Semantic triangle as didactic view  (informative)"
-line_start: 36781
-line_end: 36810
+line_start: 36787
+line_end: 36816
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

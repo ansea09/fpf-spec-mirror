@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__003_problem.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:2 — Problem"
-line_start: 59889
-line_end: 59898
+line_start: 59904
+line_end: 59913
 dependencies:
   - "A.10"
   - "A.15"

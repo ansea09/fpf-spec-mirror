@@ -6,12 +6,12 @@ section_id: "E.11:4.2"
 section_title: "Preface Principle Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_preface-principle-rule.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.2 — Preface Principle Rule"
-line_start: 68253
-line_end: 68293
+line_start: 68834
+line_end: 68874
 dependencies:
   - "E.10"
   - "E.10.ARCH"

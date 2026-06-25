@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 30263
-line_end: 30480
+line_start: 30267
+line_end: 30484
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,6 +40,9 @@ dependencies:
   - "C.30.P"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.10"
   - "E.10.D2"
   - "E.17"

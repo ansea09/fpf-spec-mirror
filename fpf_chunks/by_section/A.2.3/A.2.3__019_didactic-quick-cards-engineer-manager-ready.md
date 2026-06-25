@@ -6,12 +6,12 @@ section_id: "A.2.3:12"
 section_title: "Didactic quick cards (engineer‑manager ready)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__019_didactic-quick-cards-engineer-manager-ready.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:12 — Didactic quick cards (engineer‑manager ready)"
-line_start: 3348
-line_end: 3356
+line_start: 3351
+line_end: 3359
 dependencies:
   - "A.1.1"
   - "A.15.1"

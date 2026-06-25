@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Cross-Context Checks (MethodDescription, RoleAssignment, and Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_cross-context-checks-methoddescription-roleassignment-and-work.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Cross-Context Checks (MethodDescription, RoleAssignment, and Work)"
-line_start: 21638
-line_end: 21655
+line_start: 21642
+line_end: 21659
 dependencies:
   - "A.1"
   - "A.1.1"

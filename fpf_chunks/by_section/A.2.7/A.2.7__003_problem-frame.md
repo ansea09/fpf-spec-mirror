@@ -6,12 +6,12 @@ section_id: "A.2.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__003_problem-frame.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:1 — Problem frame"
-line_start: 4939
-line_end: 4962
+line_start: 4942
+line_end: 4965
 dependencies:
   - "A.15"
   - "A.2"

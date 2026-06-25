@@ -6,12 +6,12 @@ section_id: "C.29:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__019_relations.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:15 — Relations"
-line_start: 54231
-line_end: 54242
+line_start: 54239
+line_end: 54251
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -69,6 +69,7 @@ keywords:
 
 ### C.29:15 - Relations
 - **Architecture lens boundary:** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return. C.29 does not decide the architecture and does not supply evidence, assurance, gate, or quality authority.
+- **Structural-information adequacy boundary:** `C.33`, `C.34`, and `C.35` may cite C.29 outputs when mathematical-lens results expose captured structure, preserved structure, lost structure, or discovery adequacy. The C.29 output stays local to lens use; it is not architecture adequacy, candidate admission, measurement, eval, evidence, assurance, or project decision authority.
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16.P`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
 - **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.

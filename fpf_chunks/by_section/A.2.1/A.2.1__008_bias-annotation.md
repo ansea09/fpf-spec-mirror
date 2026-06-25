@@ -6,12 +6,12 @@ section_id: "A.2.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__008_bias-annotation.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:6 — Bias-Annotation"
-line_start: 2495
-line_end: 2504
+line_start: 2498
+line_end: 2507
 dependencies:
   - "A.15"
   - "A.2"

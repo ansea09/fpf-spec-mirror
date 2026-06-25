@@ -6,12 +6,12 @@ section_id: "E.10:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__001_intro.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:intro — Intro"
-line_start: 65182
-line_end: 65191
+line_start: 65763
+line_end: 65772
 dependencies:
   - "A.10"
   - "A.15"

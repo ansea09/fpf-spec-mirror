@@ -6,12 +6,12 @@ section_id: "C.2.1:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__016_sota-echoing.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:14.1 — SoTA-Echoing"
-line_start: 37111
-line_end: 37114
+line_start: 37117
+line_end: 37120
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.M.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.6.M — Module Relation Repair"
-line_start: 15500
-line_end: 15843
+line_start: 15503
+line_end: 15847
 dependencies:
   - "A.10"
   - "A.20"
@@ -384,6 +384,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `A.6.0` and `A.6.5` | Signatures, slots, ports, endpoints, and field structure remain governed by signature and slot discipline. |
 | `A.6.B`, `A.6.C`, and `A.6.8` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M only when the claim is module-interface relation, interface specification, substitutability, change policy, platform grammar, or open-architecture module-interface claim. |
 | `C.30` and `C.30.ASV` | Architecture claims and module-interface structural views stay architecture-governed. |
+| `C.33`, `C.34`, and `C.35` | Use these only when a module carrier, interface carrier, view, source label, generated map, or discovered structure needs architecture-specific captured-structure adequacy, lost-structure adequacy, preservation adequacy, or generated-carrier admission support. A.6.M keeps module-interface relation, interface specification, substitutability, change policy, and platform grammar ownership. |
 | `A.6.F` | Function and functional wording stays distinct from module allocation. |
 | `A.15` and `A.2` | Method, work-plan, performed-work, role-assignment, role claims, responsibility claims, team-boundary wording, and delivery-unit wording are governed by `A.15`, `A.2`, `VP.Procedural`, or `VP.AllocationResponsibility` unless a module-interface relation or correspondence is recovered; A.6.M governs only that recovered module-interface slice. |
 | `E.18` and `C.30.TFS-REL` | E.18 transformation-flow relations, path slices, crossings, and flow valuations are not interface specifications. |

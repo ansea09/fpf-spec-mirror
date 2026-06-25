@@ -6,12 +6,12 @@ section_id: "A.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__006_archetypal-grounding.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:5 — Archetypal Grounding"
-line_start: 20504
-line_end: 20518
+line_start: 20508
+line_end: 20522
 dependencies:
   - "A.12"
   - "A.2"

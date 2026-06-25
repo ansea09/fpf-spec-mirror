@@ -6,12 +6,12 @@ section_id: "E.17.2:2"
 section_title: "Problem  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__003_problem-informative.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:2 — Problem  (informative)"
-line_start: 70497
-line_end: 70507
+line_start: 71078
+line_end: 71088
 dependencies:
   - "A.1"
   - "A.15"

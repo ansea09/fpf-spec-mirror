@@ -6,12 +6,12 @@ section_id: "E.24.UK:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__011_consequences.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:8 — Consequences"
-line_start: 78137
-line_end: 78151
+line_start: 78719
+line_end: 78733
 dependencies:
   - "A.11"
   - "A.6.5"

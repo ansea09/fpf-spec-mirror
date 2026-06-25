@@ -6,12 +6,12 @@ section_id: "E.11:3.1"
 section_title: "Practice Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_practice-grounding.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3.1 — Practice Grounding"
-line_start: 68169
-line_end: 68177
+line_start: 68750
+line_end: 68758
 dependencies:
   - "E.10"
   - "E.10.ARCH"

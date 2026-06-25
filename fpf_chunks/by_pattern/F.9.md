@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
-line_start: 81092
-line_end: 81672
+line_start: 81674
+line_end: 82255
 dependencies:
   - "A.15.1"
   - "A.2"
@@ -625,6 +625,7 @@ Repair from same, equivalent, align, and map prose should therefore recover the 
 * **F.8.** Mint-or-reuse decisions consume Bridge Cards and choose local phrase, alias, row, RoleDescription label, policy id, direct-pattern name, or block-or-lower decision without strengthening the Bridge.
 * **A.6.5.** Relation-position labels and SlotSpec claims are governed by slot discipline, not by F.9.
 * **C.29.** Mathematical-lens use may cite F.9 when the lens crosses contexts; C.29 still governs the mathematical object, preserved structure, lost structure, and lens-use admissibility.
+* **C.34.** Structural correspondence, equivalence, or morphism adequacy may cite F.9 when the preservation claim crosses bounded contexts, source traditions, or local sense families. C.34 states preserved and lost architecture structure for the declared use; F.9 governs the Bridge Card, bridge kind, local sense loss, and cross-context admissibility.
 * **B.3.** Assurance may apply `CL` penalties to cross-context claims.
 * **A.6.3.CSC, C.26.1, and C.26.2.** Coarsened renderings and quantum-like state export need these patterns when export loss, probe effects, or no faithful-enough report becomes the live concern.
 

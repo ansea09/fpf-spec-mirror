@@ -6,12 +6,12 @@ section_id: "G.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__008_problem.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:2 — Problem"
-line_start: 87808
-line_end: 87821
+line_start: 88392
+line_end: 88405
 dependencies:
   - "C.11"
   - "C.18"
@@ -19,6 +19,7 @@ dependencies:
   - "C.23"
   - "C.24"
   - "C.32.P2S"
+  - "C.35"
   - "G.0"
   - "G.2"
   - "G.2-G.4"

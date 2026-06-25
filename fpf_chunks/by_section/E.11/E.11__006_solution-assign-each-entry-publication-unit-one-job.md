@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Assign Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_solution-assign-each-entry-publication-unit-one-job.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Assign Each Entry Publication Unit One Job"
-line_start: 68178
-line_end: 68194
+line_start: 68759
+line_end: 68775
 dependencies:
   - "E.10"
   - "E.10.ARCH"

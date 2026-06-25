@@ -6,12 +6,12 @@ section_id: "A.21:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__007_bias-annotation.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:6 — Bias-Annotation"
-line_start: 30084
-line_end: 30093
+line_start: 30088
+line_end: 30097
 dependencies:
   - "A.19"
   - "A.2.6"

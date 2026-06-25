@@ -6,12 +6,12 @@ section_id: "A.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__001_intro.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:intro — Intro"
-line_start: 24089
-line_end: 24090
+line_start: 24093
+line_end: 24094
 dependencies:
   - "A.17"
   - "A.18"

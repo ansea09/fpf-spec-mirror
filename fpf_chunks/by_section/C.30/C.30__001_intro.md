@@ -6,12 +6,12 @@ section_id: "C.30:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__001_intro.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:intro — Intro"
-line_start: 54245
-line_end: 54250
+line_start: 54254
+line_end: 54259
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,6 +49,9 @@ dependencies:
   - "C.32.MLAO"
   - "C.32.P2S"
   - "C.32.PAD"
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.10"
   - "E.10.D2"
   - "E.17"

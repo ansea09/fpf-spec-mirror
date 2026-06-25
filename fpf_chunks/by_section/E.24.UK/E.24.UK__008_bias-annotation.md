@@ -6,12 +6,12 @@ section_id: "E.24.UK:5.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__008_bias-annotation.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:5.6 — Bias-Annotation"
-line_start: 78110
-line_end: 78113
+line_start: 78692
+line_end: 78695
 dependencies:
   - "A.11"
   - "A.6.5"

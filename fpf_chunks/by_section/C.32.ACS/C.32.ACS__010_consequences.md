@@ -6,12 +6,12 @@ section_id: "C.32.ACS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__010_consequences.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:9 — Consequences"
-line_start: 59541
-line_end: 59550
+line_start: 59554
+line_end: 59563
 dependencies:
   - "A.10"
   - "A.17"

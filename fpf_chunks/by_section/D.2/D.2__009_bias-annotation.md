@@ -6,12 +6,12 @@ section_id: "D.2:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__009_bias-annotation.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:5.1 — Bias-Annotation"
-line_start: 62001
-line_end: 62009
+line_start: 62582
+line_end: 62590
 dependencies:
   - "A.1"
   - "A.15"

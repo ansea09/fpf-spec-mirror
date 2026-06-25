@@ -6,12 +6,12 @@ section_id: "C.32.P2S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__013_relations.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:12 — Relations"
-line_start: 59117
-line_end: 59123
+line_start: 59130
+line_end: 59136
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,6 +44,9 @@ dependencies:
   - "C.32.HCS"
   - "C.32.MLAO"
   - "C.32.PAD"
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.17"
   - "E.18"
   - "E.23"
@@ -62,8 +65,8 @@ keywords:
 
 ### C.32.P2S:12 - Relations
 
-- **Builds on:** `C.22.2` for problem-side recovery, `C.30`, `C.30.AD`, and `C.30.ASV` for grounded architecture, architecture-description adequacy, and structural-view adequacy, `C.32` for candidate architecture synthesis, `C.32.HCS`, `C.32.ACS`, and `C.32.ACE` for characteristic starter heads, project criteria rows, and eval programs, `C.25` for Q-bundles, `C.31` family patterns for modularity, reusable structure, and scale preference, `C.29` for mathematical-lens use when claimed, and `E.17` and `E.24.PUB` for publication-face and publication-use claims.
+- **Builds on:** `C.22.2` for problem-side recovery, `C.30`, `C.30.AD`, and `C.30.ASV` for grounded architecture, architecture-description adequacy, and structural-view adequacy, `C.33`, `C.34`, and `C.35` for structural-information capture, preservation, and generated or discovered carrier adequacy inside the flow, `C.32` for candidate architecture synthesis, `C.32.HCS`, `C.32.ACS`, and `C.32.ACE` for characteristic starter heads, project criteria rows, and eval programs, `C.25` for Q-bundles, `C.31` family patterns for modularity, reusable structure, and scale preference, `C.29` for mathematical-lens use when claimed, and `E.17` and `E.24.PUB` for publication-face and publication-use claims.
 - **Uses:** `C.30.TFS-REL`, `E.18`, and `A.3.4` when architecture pressure concerns transformation-flow or bounded change; `C.30.ILC`, `C.32.MLAO`, and `B.2` family patterns when cross-scope, interlevel, interlayer, meta-holon, emergence, or reidentification pressure changes the candidate frame; `C.32.CONWAY` when co-synthesis of transformer and transformed architectures is current; `C.32.FAIL` when a recognizable architecture-synthesis failure becomes a repair action.
 - **Receiving patterns:** `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, and `C.11` for comparison, selection, archive, front, pool policy, publication of a selected set, and local choice; `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` for project architecture decision, ADR-like projection, and decision adequacy; `C.30.AD`, `E.17`, and `E.24.PUB` for architecture descriptions, publication faces, and publication-use claims; `A.15`, `A.15.1`, `A.15.2`, and `A.15.5` for method, performed work, work plan, and readiness; `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, and `E.18` for measurement, Q-bundle, mathematical lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh.
-- **Boundary:** C.32.P2S governs the connected architecturing flow from architecture-relevant pressure to realized selected structures and feedback. It does not replace any owner pattern for architecture claim, architecture description, structural view, candidate palette, comparison, selected-set publication, decision, ADR-like publication, publication form, publication-use claim, method, work, measurement, eval, evidence, assurance, gate, release, improvement, `G.11` currentness refresh, or formal structural-information theory.
+- **Boundary:** C.32.P2S governs the connected architecturing flow from architecture-relevant pressure to realized selected structures and feedback. `C.33`, `C.34`, and `C.35` deepen the structural-information lane already present in P2S; they do not move the whole architecturing spine out of P2S. C.32.P2S does not replace any owner pattern for architecture claim, architecture description, structural view, candidate palette, comparison, selected-set publication, decision, ADR-like publication, publication form, publication-use claim, method, work, measurement, eval, evidence, assurance, gate, release, improvement, `G.11` currentness refresh, or formal structural-information theory.
 

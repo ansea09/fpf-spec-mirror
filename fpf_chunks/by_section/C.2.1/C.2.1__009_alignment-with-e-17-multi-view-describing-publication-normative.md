@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_alignment-with-e-17-multi-view-describing-publication-normative.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:8 — Alignment with E.17. (Multi‑View Describing & Publication)  (normative)*"
-line_start: 36924
-line_end: 36977
+line_start: 36930
+line_end: 36983
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

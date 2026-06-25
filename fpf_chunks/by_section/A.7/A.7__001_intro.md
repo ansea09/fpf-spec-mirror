@@ -6,12 +6,12 @@ section_id: "A.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__001_intro.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:intro — Intro"
-line_start: 18906
-line_end: 18908
+line_start: 18910
+line_end: 18912
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame-informative.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:1 — Problem frame  (informative)"
-line_start: 69691
-line_end: 69708
+line_start: 70272
+line_end: 70289
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "C.3.5:7"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__008_authoring-review-guidance-informative.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:7 — Authoring & Review Guidance (informative)"
-line_start: 41074
-line_end: 41090
+line_start: 41080
+line_end: 41096
 dependencies:
   - "C.3.1"
 keywords:

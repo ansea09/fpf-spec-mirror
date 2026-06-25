@@ -6,12 +6,12 @@ section_id: "A.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__012_consequences.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:10 — Consequences"
-line_start: 2197
-line_end: 2206
+line_start: 2200
+line_end: 2209
 dependencies:
   - "A.1"
   - "A.1.1"

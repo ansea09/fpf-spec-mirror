@@ -6,12 +6,12 @@ section_id: "C.32.PAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__013_relations.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:12 — Relations"
-line_start: 60832
-line_end: 60842
+line_start: 60847
+line_end: 60858
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,6 +61,7 @@ keywords:
 - **Builds on:** `C.30`, `C.30.ASV`, `C.30.AD`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.25`, `C.16`, `C.29`, `C.31`, and `C.31.ASAP`.
 - **Comparison and selection boundary:** `A.19.CPM` compares, `A.19.SelectorMechanism` returns a selected set, `G.5` publishes a selected set, and `C.11` governs local choice. PAD records the project architecture decision relation after those inputs are sufficient.
 - **Description boundary:** `C.30.AD` and `C.30.ASV` govern architecture-description and selected-structure view adequacy. PAD may cite those descriptions but does not replace them.
+- **Structural-information boundary:** `C.33`, `C.34`, and `C.35` may support PAD only for captured structure, lost structure, preservation adequacy, generated-carrier typing, or discovered-carrier typing used by the decision relation. PAD keeps decision relation, rationale, consequences, accepted losses, method consequences, work consequences, source-return, repair ownership, and supersession ownership.
 - **Publication boundary:** `C.32.ADR` projects an `ArchitectureDecisionDescription@Project` into ADR-like form. `E.17` and `E.24.PUB` govern publication faces and publication-use claims.
 - **Adequacy boundary:** `C.32.ADA` evaluates a PAD decision relation, method docking, and publication projection for a declared use.
 - **P2S docking:** P2S reaches PAD only when implementation commitment is live; PAD records the decision relation and returns reopen conditions to P2S when actual structures, eval results, or source-return change the architecture question.

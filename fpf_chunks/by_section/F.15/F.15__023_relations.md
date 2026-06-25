@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__023_relations.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:16 — Relations"
-line_start: 83824
-line_end: 83834
+line_start: 84407
+line_end: 84418
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,6 +55,7 @@ keywords:
 * **F.4, A.2, A.2.1, F.6, A.15.1.** Govern RoleDescription, role assignment, and performed-work claims that F.15 must not absorb.
 * **F.7 and F.8.** Govern rows and mint-or-reuse decisions checked by SCR-F15-S9 through S11 and RSCR-F15-E5 through E6.
 * **F.9 and B.3.** Govern Bridge Cards, `CL`, loss, and assurance penalties.
+* **C.34.** Provides architecture-specific preservation or equivalence adequacy when a later slice claims that selected architecture structures still correspond after renaming, bridging, projection, coarsening, or conformance strengthening. F.15 checks regression; C.34 names the preserved and lost structure for the architecture use.
 * **F.10.** Governs status family, value, confidence, and window claims.
 * **F.13, F.17, F.18.** Govern aliases, public term sheets, and durable names.
 * **F.14.** Governs anti-explosion before names are minted for role-like and status-like families.

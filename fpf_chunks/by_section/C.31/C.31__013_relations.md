@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 57873
-line_end: 57891
+line_start: 57885
+line_end: 57904
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,6 +54,7 @@ keywords:
 | `C.16`, `A.17`, `A.18`, `A.19` | Govern characteristic, scale, coordinate, score, unit, comparability, and measurement admissibility. |
 | `C.25` | Governs broader quality-family Q-Bundles when modularity is used in a quality claim. |
 | `C.30` and `C.30.ASV` | Govern architecture claims and structural views that supply C.31 subjects. |
+| `C.33`, `C.34`, and `C.35` | Govern captured-structure adequacy, lost-structure adequacy, preservation adequacy, correspondence adequacy, generated-carrier adequacy, or discovered-carrier adequacy around modularity and reusable-structure material. C.31 still owns modularity, reuse, proxy-risk, report-only, and characteristic use. |
 | `C.30.ILC` | Governs cross-scope residual and frustration recognition when architecture move triage is being made. |
 | `C.29` | Governs mathematical-lens use such as compression, RG, epiplexity, or graph-lens transfer. |
 | `C.27`, `C.18.1`, `C.19.1` | Govern temporal and set-dynamic claims such as learning transfer, exception slope, and scale-window movement. |

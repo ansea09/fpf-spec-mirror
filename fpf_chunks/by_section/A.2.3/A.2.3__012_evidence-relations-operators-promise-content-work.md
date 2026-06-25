@@ -6,12 +6,12 @@ section_id: "A.2.3:8"
 section_title: "Evidence relations & operators (Promise content ⇄ Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__012_evidence-relations-operators-promise-content-work.md"
-commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
+commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:8 — Evidence relations & operators (Promise content ⇄ Work)"
-line_start: 3259
-line_end: 3286
+line_start: 3262
+line_end: 3289
 dependencies:
   - "A.1.1"
   - "A.15.1"
