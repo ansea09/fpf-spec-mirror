@@ -6,12 +6,12 @@ section_id: "A.6.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__004_forces.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:3 — Forces"
-line_start: 16252
-line_end: 16262
+line_start: 16253
+line_end: 16263
 dependencies:
   - "A.10"
   - "A.14"

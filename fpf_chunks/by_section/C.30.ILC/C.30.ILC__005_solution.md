@@ -6,12 +6,12 @@ section_id: "C.30.ILC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:4 — Solution"
-line_start: 56988
-line_end: 57089
+line_start: 56997
+line_end: 57098
 dependencies:
   - "A.10"
   - "A.22"
@@ -29,6 +29,7 @@ dependencies:
   - "C.31.ASAP"
   - "C.32"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "D.3"
   - "D.4"
   - "G.5"
@@ -108,7 +109,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its residual-bearing locus is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared locus.
 
-**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate or compare residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `G.5` only when selected-set publication is current and `C.11` or queue number 5 when final local choice or project architecture decision is current; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
+**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate or compare residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `G.5` only when selected-set publication is current, `C.11` when final local choice is current, and `C.32.PAD` when project architecture decision is current; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
 Anti-collapse rule: no generic frustration score, no risk-matrix residual, no ethical-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; `D.3` applies only when interlevel ethical conflict structure is current; `D.4` applies only when mediation or decision use of that structure is current.
 
@@ -119,7 +120,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no et
 | measurement or characteristic claim | `C.16` or the characteristic pattern that governs the characteristic under evaluation |
 | scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` when an architecture scale-preference claim is being made; use `C.29` when mathematical-lens use is being claimed |
 | multilevel learning or frustration mathematical-lens use with recoverable level mapping or scale mapping | `C.29` with `MLU.Description@MultilevelLearningFrustration` |
-| candidate generation or residual-reducing candidate architecture moves | `C.32.MLAO` when the residual-reducing multilevel frame is current; `C.32` for the candidate palette; `G.5` when selected-set publication is current; `C.11` or queue number 5 when final local choice or project architecture decision is current |
+| candidate generation or residual-reducing candidate architecture moves | `C.32.MLAO` when the residual-reducing multilevel frame is current; `C.32` for the candidate palette; `G.5` when selected-set publication is current; `C.11` when final local choice is current; `C.32.PAD` when project architecture decision is current |
 | final local choice | `C.11` |
 | causal outcome claim | `C.28` |
 | evidence or assurance | `A.10`, `B.3`, or `G.6` |

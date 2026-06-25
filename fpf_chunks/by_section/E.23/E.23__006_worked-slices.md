@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_worked-slices.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Worked slices"
-line_start: 75709
-line_end: 75718
+line_start: 76503
+line_end: 76512
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

@@ -6,12 +6,12 @@ section_id: "E.17.2:6.2"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_consequences.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:6.2 — Consequences"
-line_start: 69813
-line_end: 69825
+line_start: 70606
+line_end: 70618
 dependencies:
   - "A.1"
   - "A.15"

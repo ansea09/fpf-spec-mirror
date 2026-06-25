@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ACS.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
-line_start: 59078
-line_end: 59341
+line_start: 59087
+line_end: 59350
 dependencies:
   - "A.10"
   - "A.17"
@@ -28,6 +28,7 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.HCS"
+  - "C.32.PAD"
   - "E.13"
   - "E.22"
   - "E.23"
@@ -125,7 +126,7 @@ Common exits by claim kind:
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
-- The project-selected architecture-decision pattern for project decision.
+- `C.32.PAD` for project decision.
 
 ### C.32.ACS:2 - Problem
 
@@ -166,7 +167,7 @@ Work in this order:
 2. Start from a `C.32.HCS` starter pack when the project has no draft criteria rows yet. Use source catalogues only as input, not as the criteria set.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and receiving pattern.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
-5. Narrow the optimization-indicator core. The ordinary target is three to five rows. More rows require an explicit reason, such as a regulated trade-off study or a multi-team decision surface.
+5. Narrow the optimization-indicator core. The ordinary target is three to five rows. More rows require an explicit reason, such as a regulated trade-off study or a multi-team decision use.
 6. Classify remaining admitted rows as `monitoredGuardrail` or `contextOnly`. A guardrail protects against a loss caused by optimizing another row; a context-only row helps interpretation but does not drive optimization now.
 7. Bind each admitted row to bearer or selected structure, scale form, polarity, current reading or no-reading reason, proxy risk, protected counter-characteristics, receiving use, and source-return condition.
 8. Reference `C.32.ACE` only after the row exists and an eval program is needed for current characterization, candidate comparison, monitoring, or preparing inputs for `A.19.SelectorMechanism`.
@@ -227,7 +228,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 - C.31.ASAP scale-preference claims, governed by `C.31.ASAP`;
 - E.22 question framing and E.23 repeated improvement method, governed by `E.22` and `E.23`;
 - C.32 candidate synthesis, governed by `C.32`;
-- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for the project-selected decision pattern.
+- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for `C.32.PAD`.
 
 ### C.32.ACS:7 - Conformance requirements
 
@@ -254,7 +255,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 | `EvalProgramAsCriterion` | A test, monitor, source-side fitness function, benchmark, dashboard, or eval result is named as the criterion. | Name the characteristic row first; eval-program construction belongs to `C.32.ACE` and measurement claims belong to `C.16`. |
 | `HolonLevelCarryoverWithoutRebinding` | An engineered-system row is copied to a method, role, or culture without changing bearer, scale, or admissible use. | Return to HCS and ACS; rebind the row to the new holon family and selected structures. |
 | `LocalGainHidesCounterLoss` | A candidate improves one row while worsening evidence burden, control burden, source-return cost, or functional adequacy. | Add monitored guardrail rows and open `E.13` when proxy-to-value drift appears before comparison or next synthesis. |
-| `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to the project-selected architecture-decision pattern. |
+| `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
 
 ### C.32.ACS:9 - Consequences
 
@@ -291,14 +292,14 @@ These rows document transfers from source practice into C.32.ACS. Keep a source 
 ### C.32.ACS:12 - Relations
 
 - **Builds on:** `C.32.HCS`, `A.17`, `A.18`, `C.16`, `C.16.P`, `C.25`, `C.30`, `C.30.P`, `C.31`, `C.31.ASAP`, `E.13`, `E.22`, and `E.23`.
-- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` multilevel residual work, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair cues, `C.32.ACE` eval programs, `A.19.CPM` comparison inputs, `A.19.SelectorMechanism` selection inputs, `C.11` local choice inputs, inputs for publishing a selected set under `G.5`, and architecture-decision inputs for the project-selected architecture-decision pattern.
+- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` multilevel residual work, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair cues, `C.32.ACE` eval programs, `A.19.CPM` comparison inputs, `A.19.SelectorMechanism` selection inputs, `C.11` local choice inputs, inputs for publishing a selected set under `G.5`, and architecture-decision inputs for `C.32.PAD`.
 - **Starter-pack boundary:** Use `C.32.HCS` when the project needs a holon-family starting set before criteria rows exist.
 - **Q-Bundle boundary:** Use `C.25` when the architecture characteristic is really a composite quality family with several measures, scope slots, mechanisms, statuses, qualification windows, or evidence.
 - **Eval boundary:** Use `C.32.ACE` when a project wants an eval program over declared rows, Q-Bundle slots, candidates, or selected-structure changes.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, or cross-case comparability claim is made.
 - **Proxy boundary:** Use `E.13` when an optimization indicator, score, eval result, or dashboard state begins to replace the declared architecture concern.
 - **Synthesis boundary:** Use `C.32` after criteria rows exist and the next useful work is to synthesize candidate selected-structure changes.
-- **Decision and publication boundary:** Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and the project-selected architecture-decision pattern when comparison, selection, choice, publication of a selected set, or architecture decision is being made.
+- **Decision and publication boundary:** Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and `C.32.PAD` when comparison, selection, choice, publication of a selected set, or architecture decision is being made.
 
 ### C.32.ACS:13 - Footer marker
 

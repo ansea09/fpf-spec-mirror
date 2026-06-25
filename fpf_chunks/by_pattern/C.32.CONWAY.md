@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.CONWAY.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
-line_start: 59542
-line_end: 59792
+line_start: 59551
+line_end: 59801
 dependencies:
   - "A.10"
   - "A.15"
@@ -25,6 +25,7 @@ dependencies:
   - "C.32"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.18"
   - "G.5"
 keywords:
@@ -81,7 +82,7 @@ Common exits by claim kind:
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set publication; `C.18` and `C.19` for archive, front, or pool-treatment policy.
-- `C.11` for fixed local choice and the project-selected architecture-decision pattern for project decision.
+- `C.11` for fixed local choice and `C.32.PAD` for project decision.
 
 The first useful output is `TransformerTransformedArchitectureCorrespondenceFrame@Project`. The frame is the project working record for the correspondence question. It records candidate co-synthesis pressure; it does not make a C.29 structural-equivalence claim, organization-design decision, or new correspondence ontology:
 
@@ -172,7 +173,7 @@ Work in eight steps:
    - change both sides as one co-synthesis candidate;
    - keep a bounded mismatch with exception cost, source-return condition, and reopen trigger.
 7. Use `C.29` only when the correspondence is claimed as structural similarity, homomorphism-like mapping, equivalence, or formal preservation. Otherwise keep it as architecture synthesis material.
-8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or the project-selected architecture-decision pattern.
+8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or `C.32.PAD`.
 
 Correspondence repair rows are local C.32.CONWAY entries. They do not create new FPF kinds.
 
@@ -279,7 +280,7 @@ These rows document transfers from source practice into C.32.CONWAY. Each row st
 
 - **Builds on:** `C.32` for candidate architecture synthesis, `A.3.4` and `A.3.4.P` for bounded change recovery, `E.18` for transformation-flow structure, `A.15` and role patterns for work and responsibility, `A.6.M` for module-interface relation repair, and `C.30` for grounded architecture over selected structures.
 - **Uses:** `C.32.MLAO` when the correspondence problem is a cross-scope or interlevel residual; `C.32.FAIL` when a Conway or inverse-Conway cue first appears as a repair failure; `C.29` when structural similarity, preservation, homomorphism-like mapping, or equivalence is being claimed.
-- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, the project-selected architecture-decision pattern for project architecture decisions, `A.10` for evidence sufficiency, `B.3` for assurance, `A.20` or `A.21` for gate or release claims when those claims are being made, and method, work, or organization-governance patterns when those claims are being made.
+- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.32.PAD` for project architecture decisions, `A.10` for evidence sufficiency, `B.3` for assurance, `A.20` or `A.21` for gate or release claims when those claims are being made, and method, work, or organization-governance patterns when those claims are being made.
 - **Boundary:** C.32.CONWAY governs correspondence framing inside architecture candidate synthesis. It does not govern organization-redesign decisions, organization-redesign authority relations, work authorization, evidence sufficiency, assurance, gate passage, release, structural-equivalence theory, or final architecture decision.
 
 ### C.32.CONWAY:13 - Footer marker

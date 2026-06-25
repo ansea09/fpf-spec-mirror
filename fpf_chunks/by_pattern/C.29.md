@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.29.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.29 — Mathematical Lens Use"
-line_start: 52886
-line_end: 54236
+line_start: 52893
+line_end: 54244
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -1405,6 +1405,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 | **Quantum-like and contextual probability** | Probe effects, incompatible frames, order effects. | Dashboards, workshops, surveys, measurement-as-intervention. | Quantum-like is not physical quantum unless separate physics evidence is supplied. | `C.26`, `C.16`, `F.9` |
 
 ### C.29:15 - Relations
+- **Architecture-decision lens boundary:** `C.32.PAD` and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return. C.29 does not decide the architecture and does not supply evidence, assurance, gate, or quality authority.
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16.P`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
 - **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.

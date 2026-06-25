@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split With E.24.UK"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split-with-e-24-uk.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split With E.24.UK"
-line_start: 40085
-line_end: 40096
+line_start: 40087
+line_end: 40098
 dependencies:
   - "A.1"
   - "A.11"

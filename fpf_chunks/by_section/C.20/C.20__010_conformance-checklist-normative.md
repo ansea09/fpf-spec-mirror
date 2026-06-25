@@ -6,12 +6,12 @@ section_id: "C.20:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__010_conformance-checklist-normative.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:7 — Conformance Checklist (normative)"
-line_start: 45919
-line_end: 45931
+line_start: 45922
+line_end: 45934
 dependencies:
   - "A.19"
   - "C.2"

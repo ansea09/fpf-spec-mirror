@@ -6,12 +6,12 @@ section_id: "A.6.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__011_rationale.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:7 — Rationale"
-line_start: 13253
-line_end: 13256
+line_start: 13254
+line_end: 13257
 dependencies:
   - "A.6.2"
   - "A.6.3"

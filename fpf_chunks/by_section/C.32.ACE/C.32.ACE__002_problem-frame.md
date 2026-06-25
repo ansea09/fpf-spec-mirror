@@ -6,12 +6,12 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 59348
-line_end: 59415
+line_start: 59357
+line_end: 59424
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -24,6 +24,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.13"
   - "E.22"
   - "E.23"
@@ -104,5 +105,5 @@ Common exits by claim kind:
 - `C.32` for candidate synthesis, `C.32.MLAO` for residual input, and `E.23` for repeated improvement feedback.
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
-- The project-selected architecture-decision pattern for project decision.
+- `C.32.PAD` for project decision.
 

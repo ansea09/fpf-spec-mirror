@@ -6,12 +6,12 @@ section_id: "F.5:11"
 section_title: "SoTA-Echoing - Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_sota-echoing-source-use.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:11 — SoTA-Echoing - Source-Use"
-line_start: 78993
-line_end: 79004
+line_start: 79787
+line_end: 79798
 dependencies:
   - "A.15"
   - "A.2"

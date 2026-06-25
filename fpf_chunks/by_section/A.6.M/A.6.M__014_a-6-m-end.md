@@ -6,21 +6,49 @@ section_id: "A.6.M:End"
 section_title: "A.6.M:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__014_a-6-m-end.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:End — A.6.M:End"
-line_start: 15840
-line_end: 15841
+line_start: 15841
+line_end: 15842
 dependencies:
+  - "A.10"
+  - "A.20"
+  - "A.21"
+  - "A.6.5"
+  - "A.6.B"
+  - "A.6.F"
+  - "A.6.P"
+  - "B.3"
+  - "C.11"
+  - "C.28"
+  - "C.30"
+  - "C.30.ASV"
+  - "C.30.TFS-REL"
+  - "C.31"
+  - "C.31.RSA"
+  - "E.18"
+  - "E.20"
+  - "G.5"
 keywords:
   - "are used only for pattern users"
   - "claims"
+  - "component"
   - "conformance items"
   - "evidence records"
+  - "interface"
+  - "interface specification"
+  - "layer"
+  - "module relation"
+  - "open architecture"
   - "or assurance records. Modeled modules and interfaces are not written as agents with duties"
   - "or publication records"
+  - "platform"
+  - "port"
   - "records"
+  - "stack"
+  - "substitutability"
 ---
 
 ### A.6.M:End

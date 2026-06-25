@@ -6,12 +6,12 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:intro — Intro"
-line_start: 82341
-line_end: 82355
+line_start: 83135
+line_end: 83149
 dependencies:
   - "A.10"
   - "A.15.1"

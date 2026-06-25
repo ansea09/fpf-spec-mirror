@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:4 — Solution"
-line_start: 59900
-line_end: 59955
+line_start: 59909
+line_end: 59964
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -36,6 +36,7 @@ dependencies:
   - "C.32.ACS"
   - "C.32.CONWAY"
   - "C.32.FAIL"
+  - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
   - "G.5"
@@ -63,7 +64,7 @@ Work in eight steps:
 5. For each candidate, state the residual it reduces, the selected structure changed, and the criteria rows affected.
 6. State the new burden, loss, exception, or source-return load created by that candidate.
 7. Record the evolution window and whether any NQD, OEE, archive, front, stepping-stone, ideality, or BLP support is only keeping candidate plurality or directionality alive.
-8. Stop at the frame, or name the receiving pattern when a later claim is being made: explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, architecture decision to the project-selected architecture-decision pattern, architecture-description work to `C.30.AD`, publication-face work to `E.17` or `E.24.PUB`, and mathematical-lens use to `C.29`.
+8. Stop at the frame, or name the receiving pattern when a later claim is being made: explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, architecture decision to `C.32.PAD`, architecture-description work to `C.30.AD`, publication-face work to `E.17` or `E.24.PUB`, and mathematical-lens use to `C.29`.
 
 Admit a residual-reducing candidate only when it answers the working questions: which declared holon-level ref or declared scope ref is affected, which selected structure changes, which architecture-characteristic row or Q-Bundle slot is at stake, what residual is reduced, what structure is preserved or lost, and what new burden appears.
 
@@ -104,5 +105,5 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 
 **Stop condition.** Stop after the frame names residual, affected declared holon-level refs or declared scope refs, candidate changes, new burdens, preserved and lost structure, source-return conditions, and receiving patterns.
 
-**Lowering condition.** Keep the frame as C.32.MLAO work only while the residual triage, affected level or scope refs, selected structures, criteria rows, evolution window, residual reduced, new burden, and receiving pattern remain current. Lower a candidate to a diagnostic note when the residual is not recoverable, the selected structure is unknown or stale, the architecture characteristic is missing, the new burden is not named, or the receiving pattern cannot use the row. Retire a candidate when its evolution window closes or a stronger residual triage replaces it. Return to `C.30.ILC` when the residual itself is missing, to `C.32.ACS` when criteria rows are missing, to `C.32.ACE` when eval results are needed but not current, to `C.29` when the current claim is a mathematical-lens claim, and to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or the project-selected architecture-decision pattern when the downstream claim is current.
+**Lowering condition.** Keep the frame as C.32.MLAO work only while the residual triage, affected level or scope refs, selected structures, criteria rows, evolution window, residual reduced, new burden, and receiving pattern remain current. Lower a candidate to a diagnostic note when the residual is not recoverable, the selected structure is unknown or stale, the architecture characteristic is missing, the new burden is not named, or the receiving pattern cannot use the row. Retire a candidate when its evolution window closes or a stronger residual triage replaces it. Return to `C.30.ILC` when the residual itself is missing, to `C.32.ACS` when criteria rows are missing, to `C.32.ACE` when eval results are needed but not current, to `C.29` when the current claim is a mathematical-lens claim, and to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` when the downstream claim is current.
 

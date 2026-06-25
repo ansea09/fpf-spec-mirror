@@ -82,8 +82,7 @@ The public FPF readme section after the Table of Content gives human-facing firs
 | A.6.RSIR | **Relation, Signature, Interface, Role, and Slot Precision Restoration** | Stable | *Keywords:* relation-signature-interface-role-slot recovery, interface wording, role wording, slot wording, field, parameter, endpoint, port, API, protocol, capability, affordance, method, function, concern, interest, shadow ontology. *Queries:* "How do I repair interface, role, slot, parameter, function, or concern wording before choosing the direct governing pattern?", "When is interface wording a port, API, protocol, signature, module boundary, or publication view?", "When is role wording U.Role, U.RoleAssignment, relation position, evidence use, status use, or source label?" | **Builds on:** E.10, E.10.ARCH, A.6.P, A.6.5, A.6.0, A.2, A.2.1, A.15, F.18, F.19. **Coordinates with:** A.6.M, A.6.F, A.6.A, C.2.P, C.2.P.DR, E.17, A.10, F.10, G.6. |
 | A.6.A | **Action-Invitation Precision Restoration (ACT-INV)** | Stable | *Keywords:* affordance, action invitation, action-first language, post-threshold classification, A.15 docking, language-state seam. *Queries:* "How do I repair overloaded affordance language in FPF?", "When does action-guiding language become an action invitation?", "How does A.6.A differ from early cue routing?" | **Builds on:** A.6.P, A.15, C.2.2a, A.16, B.4.1, F.9. **Coordinates with:** C.16.Q, B.5.2.0. |
 | A.6.F | **Function and Functional Precision Restoration (RPR-FUNCTION)** | Stable | *Keywords:* function wording, functional architecture, FunctionalStructure, function-use repair, capability/effect, work/method boundary, module allocation, mathematical function. *Queries:* "When is functional architecture a structure kind rather than a separate ontology?", "How do I repair function-like wording?", "When is a function a capability, method, work, role, quality, module allocation, or mathematical mapping?" | **Builds on:** A.6.P, A.6.5, A.7, C.30, C.30.ASV, C.29. **Coordinates with:** A.6.M, A.15, C.16.Q, A.6.0, A.6.5, A.6.B, A.6.C, A.6.8, E.18, C.30.TFS-REL. |
-| A.6.M | **Module Relation Repair** | Stable | *Keywords:* module relation, component, interface, port, platform, layer, stack, open architecture, substitutability, interface specification. *Queries:* "When is a module relation being claimed?"
-, "How do I keep functional links, signatures, ports, and implemented interfaces distinct?", "When does open architecture require module-interface repair?" | **Builds on:** A.6.P, A.6.5, A.6.B, C.30, C.30.ASV, A.6.F. **Coordinates with:** C.31, C.31.RSA, E.18, C.30.TFS-REL, A.10, B.3, A.20, A.21, C.28, E.20, G.5, C.11. |
+| A.6.M | **Module Relation Repair** | Stable | *Keywords:* module relation, component, interface, port, platform, layer, stack, open architecture, substitutability, interface specification. *Queries:* "When is a module relation being claimed?", "How do I keep functional links, signatures, ports, and implemented interfaces distinct?", "When does open architecture require module-interface repair?" | **Builds on:** A.6.P, A.6.5, A.6.B, C.30, C.30.ASV, A.6.F. **Coordinates with:** C.31, C.31.RSA, E.18, C.30.TFS-REL, A.10, B.3, A.20, A.21, C.28, E.20, G.5, C.11. |
 | A.6.5 | **U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline** | Stable | *Keywords:* slot, argument position, value, reference, signature, substitution, pass-by-value, pass-by-reference. *Queries:* “How do I declare positions and references in relations?”, “How do we stop mixing roles, values and ids in signatures?”, “How does SlotKind/ValueKind/RefKind interact with EntityOfConcern / Description / specification-use and Epistemes?” | **Builds on:** A.6.0 (U.Signature), A.1 (Holon), A.7 (Strict Distinction), E.8 (pattern authoring discipline), E.10 (LEX-BUNDLE; Tech/Plain registers). **Used by:** C.2.1 (U.EpistemeSlotRelation), A.6.2–A.6.4 (episteme morphisms), A.2.1 and F.6 (RoleEnactmentFact and performed-work attribution), C.3.* (Kinds & KindSignature), E.17.0 (U.MultiViewDescribing), discipline-packs for methods/services. |
 | A.6.6 | **Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)** | Stable | *Keywords:* base declaration, basedness, baseRelation, SWBD, witnesses, scope, Γ_time, anchoring, support-as-basedness, rebase, retime, rescope. *Queries:* "What is base-declaration discipline?", "How to model base-dependence without anchoring?", "When is support really base-dependence?", "What is a ScopedWitnessedBaseDeclaration (SWBD)?" | **Builds on:** A.6.0, A.6.5, A.2.6, A.2.4, A.7, E.8, E.10. **Coordinates with:** A.10, A.14, C.2.1, A.6.3-A.6.4, C.3.3, E.18, F.9, F.15, F.18. **Used by:** base-relative admissibility/calibration/attribution patterns; anchor* and support-as-basedness rewrites into explicit `baseRelation(dependent, base)`. |
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, spec pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
@@ -217,27 +216,29 @@ The public FPF readme section after the Table of Content gives human-facing firs
 | C.27.TA | **Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness** | Stable | *Keywords:* temporal aspect, time window, freshness, currentness, rhythm, cadence, validity window, recovery timing. *Queries:* "Which time relation matters for this claim or object?", "How do I state freshness, rhythm, latency, or validity window without turning it into evidence, work, or dynamics law?" | **Builds on:** A.3.4, A.3.3, C.27, E.24. **Coordinates with:** A.10, B.3, A.15.1, A.15.2, A.20, A.21, C.16, C.29, E.18, G.11. |
 | C.28 | **CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability** | Stable | *Keywords:* causal-use question, causality ladder, association, intervention, counterfactual, Pearl Causal Hierarchy, Structural Causal Model, causal diagram, causal estimand, identification, counterfactual sampling realizability, causal evidence support basis, target trial, causal fairness, off-policy causal evaluation, causal-RL evaluation. *Queries:* "Can I say this caused that?", "Is this intervention claim supported?", "What evidence supports a counterfactual claim?", "When does a fairness metric need causal support?", "Is simulation enough for a counterfactual claim?", "Which pattern handles causal benchmark parity?", "When should causal language be downgraded to association, measurement, temporal, QL, or local prose?" | **Builds on:** A.10, B.3, C.11, C.19, C.24, C.26, C.27, D.5, G.5, G.9. **Coordinates with:** A.2.4, A.3.2, A.6, A.15, C.16, G.11. |
 | C.29 | **Mathematical Lens Use** | Stable | *Keywords:* mathematical lens, structure-preserving representation, lens mapping mode, preserved structure, lost structure, invariants, stop condition, scale window, coarse-graining, rival lens, `LensUseAdmissibilityValue`, validation boundary, learned lens, ontology smuggling. *Queries:* "When does a mathematical analogy become an admissible FPF lens?", "What structure is preserved by this lens?", "Where must this math transfer stop?", "How do I use mathematical structure without importing ontology?" | **Builds on:** A.1.1, A.6.P, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC, F.9. **Constrained by:** E.8, E.10, C.2.P, E.19. **Decision basis:** E.9 and C.29:13a. **Coordinates with:** C.11, A.15.1, A.15.4, C.18.1, C.19.1, C.26, C.27, C.28, G.5, G.9, G.2, G.10. |
-| C.30 | **Grounded Architecture and Selected-Structure Adequacy** | Stable | *Keywords:* grounded architecture, ArchitectureOf@Context, selected structure, architecture claim, architecture question card, candidate architecture use, architecture-description boundary, artifact-as-architecture guard. *Queries:* "How do I recover a grounded architecture claim?", "Which selected structure changes the architecture move?", "When does candidate synthesis go to C.32 rather than C.30?" | **Builds on:** A.22, C.2.1, A.6.3, A.7, E.17.0, E.17, E.10.D2, F.18. **Coordinates with:** C.30.AD, C.30.ASV, A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, C.32.CONWAY, C.29, C.16, C.25, C.28, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3, A.20, A.21, A.15. |
+| C.30 | **Grounded Architecture and Selected-Structure Adequacy** | Stable | *Keywords:* grounded architecture, ArchitectureOf@Context, selected structure, architecture claim, architecture question card, candidate architecture use, architecture-description boundary, artifact-as-architecture guard. *Queries:* "How do I recover a grounded architecture claim?", "Which selected structure changes the architecture move?", "When does candidate synthesis go to C.32 rather than C.30?" | **Builds on:** A.22, C.2.1, A.6.3, A.7, E.17.0, E.17, E.10.D2, F.18. **Coordinates with:** C.30.AD, C.30.ASV, A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, C.32.CONWAY, C.32.PAD, C.32.ADR, C.32.ADA, C.29, C.16, C.25, C.28, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3, A.20, A.21, A.15. |
 | C.30.AD | **Architecture Description Adequacy** | Stable | *Keywords:* architecture description, ArchitectureDescription@Context, architecture description use card, architecture structural view, viewpoint, correspondence, source return, specification-use boundary, candidate-description boundary. *Queries:* "When is an architecture description the EntityOfConcern under repair?", "How do I keep views, viewpoints, selected structures, and publication boundaries distinct?", "Where do described candidate palettes and residual frames go?" | **Builds on:** C.30, C.30.ASV, A.22, A.7, A.6.3, E.17.0, E.17.1, E.17.2, E.17, C.2.P, E.10, E.10.ARCH. **Coordinates with:** C.30.P, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.6.F, A.6.M, C.29, C.16, C.16.P, A.10, B.3, A.20, A.21, A.15, C.28, E.8, F.18. |
 | C.30.AD.BA | **Built-Asset Architecture Description and Reference Designation** | Stable | Built-asset architecture-description use for BIM, IFC, asset registers, digital-twin views, handover tables, and ISO/IEC 81346-style reference designations without turning descriptions into assets, evidence, gates, work, or decisions. | **Builds on:** C.30, C.30.AD, C.30.ASV, A.22, E.17. **Coordinates with:** A.6.F, A.6.M, C.30.TFS-REL, C.30.LCA, C.30.ILC, A.10, B.3, A.20, A.21, C.11, C.28. |
 | C.30.P | **Architecture and Structure Precision Restoration** | Stable | Repairs architecture or structure wording whose EntityOfConcern or claim kind is hidden before A.22, C.30, C.30.AD, C.30.ASV, a selected C.30.* pattern, C.32-family synthesis work, or another governing pattern is applied. | **Builds on:** E.10, E.10.ARCH, A.22, C.30, C.30.AD, C.30.ASV, C.2.P, A.6.P, A.6.F, C.29, C.16.P, C.16, C.25, E.17, E.8. **Coordinates with:** C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, C.32.CONWAY, C.32.FAIL, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, A.10, B.3, A.20, A.21, C.11, C.28, A.15, E.11. |
 | C.30.STRAT | **Stratification Wording Precision Restoration** | Stable | Repairs source-label uses such as layer, level, tier, stack, ladder, rung, block, expert, cache, router, and gate by recovering selected ontological neighborhood, primary EntityOfConcern kind, governing pattern, admissible use, and remaining reader use before FPF-governed use. | **Builds on:** E.10, E.10.ARCH, E.8, F.18, C.30.P, A.22, C.30. **Coordinates with:** C.30.ASV, C.30.LCA, C.30.TFS-REL, C.30.ILC, A.6.M, A.6.F, E.18, C.16.P, C.16, A.19.SPR, C.2.P, E.17, C.29, C.28, A.10, G.6, B.3, A.20, A.21, A.15, A.2, G.5, C.11, E.11, I.2. |
 | C.30.ASV | **Architecture Structural View Adequacy (ASV)** | Stable | *Keywords:* architecture structural view, ArchitectureStructureKindRef, VF.ARCH.STRUCTURE, viewpoint bundle, structure kind, hidden or lost structure, correspondence, source return. *Queries:* "Which structure kind does this architecture view describe?", "How do viewpoint and structure kind stay distinct?", "When does a view hide or lose structure?" | **Builds on:** C.30, A.22, A.6.3, E.17.0, E.17.1, E.17.2, E.17, E.10.D2. **Coordinates with:** A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, E.18, C.29. |
 | C.30.LCA | **Control Structure View Adequacy (LCA)** | Stable | *Keywords:* control-structure view, layered control architecture, supervisor loop, controller and plant, rate band, control layer, proof overread. *Queries:* "When is LCA a control-structure view rather than proof?", "How do layer, level, stack, and rate labels recover fields named by value?", "Where do stability, safety, evidence, and gate claims go?" | **Builds on:** C.30, C.30.ASV, B.2.5, A.22. **Coordinates with:** A.3.3, C.27, C.28, A.10, G.6, B.3, A.20, A.21, C.29. |
-| C.30.ILC | **Cross-Scope Architecture Residual Triage** | Stable | *Keywords:* cross-scope residual, interlevel conflict, frustration, declared scope, structure kind, local repair, residual-bearing locus, first architecture move. *Queries:* "What is the first architecture move when a local fix creates a residual elsewhere?", "When does residual-reducing synthesis go to C.32.MLAO and C.32?", "When should the case exit to measurement, scale, evidence, decision, or selected-set publication?" | **Builds on:** C.30, C.30.ASV, A.22. **Coordinates with:** C.32.MLAO, C.32, C.31.ASAP, C.16, C.29, G.5, C.11, C.28, A.10, B.3, G.6, D.3, D.4. |
+| C.30.ILC | **Cross-Scope Architecture Residual Triage** | Stable | *Keywords:* cross-scope residual, interlevel conflict, frustration, declared scope, structure kind, local repair, residual-bearing locus, first architecture move. *Queries:* "What is the first architecture move when a local fix creates a residual elsewhere?", "When does residual-reducing synthesis go to C.32.MLAO and C.32?", "When should the case exit to measurement, scale, evidence, decision, or selected-set publication?" | **Builds on:** C.30, C.30.ASV, A.22. **Coordinates with:** C.32.MLAO, C.32, C.32.PAD, C.31.ASAP, C.16, C.29, G.5, C.11, C.28, A.10, B.3, G.6, D.3, D.4. |
 | C.30.TFS-REL | **Architecture Transformation-Flow Structure Relation** | Stable | *Keywords:* architecture-to-transformation-flow relation, transformation-flow structure, functional behavior, selected structure, architecture structural view, candidate architecture input. *Queries:* "When can a transformation-flow structure inform a grounded architecture or structural view?", "How do architecture, function, and transformation flow stay distinct?", "When do transformation-flow variants become C.32 candidate inputs?" | **Builds on:** C.30, C.30.ASV, E.18, A.22. **Coordinates with:** C.32, A.6.F, E.18.2, C.29, C.16, C.28, A.10, B.3, A.20, A.21, A.15. |
 | C.31 | **Modularity and Reusable Structure Characteristics** | Stable | *Keywords:* modularity characteristics, reusable-structure characteristics, coupling, cohesion, substitutability, interface variation, evidence reuse, bespoke residue, ModularityVectorLite. *Queries:* "Which modularity characteristic is under evaluation?", "When is a modularity score report-only?", "How do I keep module, interface, reuse, and evidence-reuse claims distinct?" | **Builds on:** C.16, A.17, A.18, A.19, C.25, C.30, C.30.ASV. **Coordinates with:** A.6.M, C.31.RSA, C.31.ASAP, C.32, C.29, A.10, B.3, G.5, C.11. |
 | C.31.RSA | **Reusable Structure Accounting** | Stable | *Keywords:* reusable-structure accounting, reusable share, bespoke residue, accounting basis, report-only share, source return, refactoring opportunity. *Queries:* "Where is reusable structure located?", "When is a reusable share only report-only?", "What gets worse when we increase reuse?" | **Builds on:** C.31, C.30, C.30.ASV, C.16, A.19. **Coordinates with:** A.6.M, C.31.ASAP, C.29, A.10, B.3, G.6, C.27, C.28, G.5, C.11. |
-| C.31.ASAP | **Architecture Scale-Amenability Preference** | Stable | *Keywords:* architecture scale preference, scale amenability, ScaleClaimTriage, scale variable, scale window, architecture alternatives, source-return condition, coarse-graining, RG, platform scale claim, waiver reason. *Queries:* "When does modularity or platform wording carry an architecture scale-preference claim?", "How can scale preference inform C.32 candidate generation without selecting the architecture?", "When is coarse-graining or RG-like language only a mathematical lens?" | **Builds on:** C.31, C.31.RSA, C.16, A.17, A.18, A.19, C.18.1, C.19.1, C.29. **Coordinates with:** C.32, A.6.M, C.30, C.30.ASV, C.30.LCA, C.30.ILC, A.10, B.3, G.6, G.5, G.9, C.11. |
-| C.32 | **Architecture Candidate Synthesis** | Stable | *Keywords:* architecture candidate synthesis, CandidateArchitecturePalette@Project, selected structures, architecture characteristics, synthesis structure map, candidate configurations, trade-off front, retained alternatives. *Queries:* "How do I synthesize candidate architecture configurations before comparison?", "Which selected structures and architecture characteristics change?", "When does C.32 stop before comparison, selected-set publication, local choice, or decision?" | **Builds on:** C.30, A.22, A.6.F, A.6.M, C.16, C.25, C.31, C.30.ILC. **Coordinates with:** C.32.HCS, C.32.ACS, C.32.ACE, C.32.CONWAY, C.32.MLAO, C.32.FAIL, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3. |
-| C.32.HCS | **Holon-Family Architecture Characteristic Starter Packs** | Stable | *Keywords:* holon-family architecture characteristic starter pack, architecture characteristic heads, source catalogue narrowing, first criteria questions, characteristic transfer. *Queries:* "Which few architecture-characteristic heads should we inspect first?", "How do software-quality catalogues transfer to systems, methods, roles, cultures, AI workflows, or evidence practices?", "When does starter work hand off to ACS?" | **Builds on:** C.32, C.25, C.16, E.13. **Coordinates with:** C.32.ACS, C.32.ACE, C.30, C.31, A.19, G.5, C.11. |
-| C.32.ACS | **Architecture Characteristic Criteria Set for Improvement Cycles** | Stable | *Keywords:* architecture characteristic criteria set, criteria row, Q-Bundle, improvement cycle, proxy risk, protected counter-characteristic, anti-Goodhart guard. *Queries:* "How do I turn broad -ility names into project criteria rows?", "Which three to five characteristics enter optimization and which remain guardrails?", "How does the criteria set feed eval and candidate synthesis?" | **Builds on:** C.32.HCS, C.25, C.16, E.13. **Coordinates with:** C.32, C.32.ACE, E.22, E.23, A.19.CPM, G.5, C.11, A.10, B.3. |
-| C.32.ACE | **Architecture Characteristic Eval Programs** | Stable | *Keywords:* architecture-characteristic eval program, eval result, measurement boundary, parity frame, missing-data policy, proxy risk, comparison input. *Queries:* "How do I evaluate architecture candidates against criteria rows?", "Why is eval not the characteristic itself?", "When does an eval result feed comparison, publication, or decision without replacing them?" | **Builds on:** C.32.ACS, C.16, C.25, E.13. **Coordinates with:** C.32, C.32.MLAO, A.19.CPM, G.5, C.11, A.10, B.3. |
-| C.32.CONWAY | **Transformer and Transformed Architecture Correspondence** | Stable | *Keywords:* Conway correspondence, inverse Conway maneuver, transformer holon, transformed holon, changing relation, selected-structure correspondence, coordination cost. *Queries:* "When must the architecture of the transforming holon and transformed holon be synthesized together?", "Which selected structures correspond across the changing relation?", "When is mirroring only a source cue rather than architecture adequacy?" | **Builds on:** C.32, A.3.4, E.18, A.15, C.29. **Coordinates with:** C.32.MLAO, C.32.FAIL, A.19.CPM, G.5, C.11, A.10, B.3. |
-| C.32.MLAO | **Multilevel Architecture Residual Optimization** | Stable | *Keywords:* multilevel architecture residual optimization, residual-reducing candidate frame, declared level, declared scope, Pareto front, stepping stone, ideality pressure, scale amenability. *Queries:* "How do I prepare candidate architecture changes after cross-scope residual triage?", "How do residuals, fronts, archives, and stepping stones inform synthesis without deciding?", "When does the case return to C.30.ILC, C.29, C.31.ASAP, C.32, G.5, or C.11?" | **Builds on:** C.30.ILC, C.32, C.32.ACS, C.32.ACE, C.29, C.31.ASAP. **Coordinates with:** C.32.CONWAY, C.32.FAIL, C.18, C.19, G.5, C.11, A.10, B.3. |
-| C.32.FAIL | **Architecture Failure Recognition and Repair** | Stable | *Keywords:* architecture failure cue, architecture repair cue, stressed architecture object, selected-structure relation, candidate repair, repair-entry family, source overread. *Queries:* "How do I turn an architecture warning into the smallest repair action?", "Which governing pattern owns the repair?", "When should evidence, assurance, comparison, selection, publication, choice, or decision claims leave the repair cue?" | **Builds on:** C.32, C.30.P, A.6.F, A.6.M, C.31, C.29, E.10. **Coordinates with:** C.32.MLAO, C.32.CONWAY, C.30, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, E.17, E.24.PUB, A.10, B.3, A.20, A.21. |
+| C.31.ASAP | **Architecture Scale-Amenability Preference** | Stable | *Keywords:* architecture scale preference, scale amenability, ScaleClaimTriage, scale variable, scale window, architecture alternatives, source-return condition, coarse-graining, RG, platform scale claim, waiver reason. *Queries:* "When does modularity or platform wording carry an architecture scale-preference claim?", "How can scale preference inform C.32 candidate generation without selecting the architecture?", "When is coarse-graining or RG-like language only a mathematical lens?" | **Builds on:** C.31, C.31.RSA, C.16, A.17, A.18, A.19, C.18.1, C.19.1, C.29. **Coordinates with:** C.32, C.32.PAD, A.6.M, C.30, C.30.ASV, C.30.LCA, C.30.ILC, A.10, B.3, G.6, G.5, G.9, C.11. |
+| C.32 | **Architecture Candidate Synthesis** | Stable | *Keywords:* architecture candidate synthesis, CandidateArchitecturePalette@Project, selected structures, architecture characteristics, synthesis structure map, candidate configurations, trade-off front, retained alternatives. *Queries:* "How do I synthesize candidate architecture configurations before comparison?", "Which selected structures and architecture characteristics change?", "When does C.32 stop before comparison, selected-set publication, local choice, or project architecture decision?" | **Builds on:** C.30, A.22, A.6.F, A.6.M, C.16, C.25, C.31, C.30.ILC. **Coordinates with:** C.32.HCS, C.32.ACS, C.32.ACE, C.32.CONWAY, C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3. |
+| C.32.HCS | **Holon-Family Architecture Characteristic Starter Packs** | Stable | *Keywords:* holon-family architecture characteristic starter pack, architecture characteristic heads, source catalogue narrowing, first criteria questions, characteristic transfer. *Queries:* "Which few architecture-characteristic heads should we inspect first?", "How do software-quality catalogues transfer to systems, methods, roles, cultures, AI workflows, or evidence practices?", "When does starter work hand off to ACS?" | **Builds on:** C.32, C.25, C.16, E.13. **Coordinates with:** C.32.ACS, C.32.ACE, C.30, C.31, A.19, G.5, C.11, C.32.PAD. |
+| C.32.ACS | **Architecture Characteristic Criteria Set for Improvement Cycles** | Stable | *Keywords:* architecture characteristic criteria set, criteria row, Q-Bundle, improvement cycle, proxy risk, protected counter-characteristic, anti-Goodhart guard. *Queries:* "How do I turn broad -ility names into project criteria rows?", "Which three to five characteristics enter optimization and which remain guardrails?", "How does the criteria set feed eval and candidate synthesis?" | **Builds on:** C.32.HCS, C.25, C.16, E.13. **Coordinates with:** C.32, C.32.ACE, C.32.PAD, E.22, E.23, A.19.CPM, G.5, C.11, A.10, B.3. |
+| C.32.ACE | **Architecture Characteristic Eval Programs** | Stable | *Keywords:* architecture-characteristic eval program, eval result, measurement boundary, parity frame, missing-data policy, proxy risk, comparison input. *Queries:* "How do I evaluate architecture candidates against criteria rows?", "Why is eval not the characteristic itself?", "When does an eval result feed comparison, publication, or decision without replacing them?" | **Builds on:** C.32.ACS, C.16, C.25, E.13. **Coordinates with:** C.32, C.32.MLAO, C.32.PAD, A.19.CPM, G.5, C.11, A.10, B.3. |
+| C.32.CONWAY | **Transformer and Transformed Architecture Correspondence** | Stable | *Keywords:* Conway correspondence, inverse Conway maneuver, transformer holon, transformed holon, changing relation, selected-structure correspondence, coordination cost. *Queries:* "When must the architecture of the transforming holon and transformed holon be synthesized together?", "Which selected structures correspond across the changing relation?", "When is mirroring only a source cue rather than architecture adequacy?" | **Builds on:** C.32, A.3.4, E.18, A.15, C.29. **Coordinates with:** C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, G.5, C.11, A.10, B.3. |
+| C.32.MLAO | **Multilevel Architecture Residual Optimization** | Stable | *Keywords:* multilevel architecture residual optimization, residual-reducing candidate frame, declared level, declared scope, Pareto front, stepping stone, ideality pressure, scale amenability. *Queries:* "How do I prepare candidate architecture changes after cross-scope residual triage?", "How do residuals, fronts, archives, and stepping stones inform synthesis without deciding?", "When does the case return to C.30.ILC, C.29, C.31.ASAP, C.32, G.5, C.11, or C.32.PAD?" | **Builds on:** C.30.ILC, C.32, C.32.ACS, C.32.ACE, C.29, C.31.ASAP. **Coordinates with:** C.32.CONWAY, C.32.FAIL, C.32.PAD, C.18, C.19, G.5, C.11, A.10, B.3. |
+| C.32.FAIL | **Architecture Failure Recognition and Repair** | Stable | *Keywords:* architecture failure cue, architecture repair cue, stressed architecture object, selected-structure relation, candidate repair, repair-entry family, source overread. *Queries:* "How do I turn an architecture warning into the smallest repair action?", "Which governing pattern owns the repair?", "When should evidence, assurance, comparison, selection, publication, choice, or decision claims leave the repair cue?" | **Builds on:** C.32, C.30.P, A.6.F, A.6.M, C.31, C.29, E.10. **Coordinates with:** C.32.MLAO, C.32.CONWAY, C.32.PAD, C.30, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, E.17, E.24.PUB, A.10, B.3, A.20, A.21. |
+| C.32.PAD | **Project Architecture Decision After Candidate Synthesis** | Stable | *Keywords:* project architecture decision, ArchitectureDecisionRelation@Project, selected architecture option, affected selected structure, architecture-characteristic trade-off, accepted loss, method-use instruction, architect-developer split, reopen condition. *Queries:* "How do I turn candidate architecture configurations into a project decision?", "Which selected structures and accepted losses does the architecture decision commit?", "How does an architecture decision guide developer methods without becoming an ADR or work plan?" | **Builds on:** C.32, C.32.MLAO, C.32.CONWAY, C.32.FAIL, A.19.CPM, A.19.SelectorMechanism, C.11, G.5, C.30, C.30.AD, C.30.ASV. **Coordinates with:** C.32.ADR, C.32.ADA, C.32.ACS, C.32.ACE, C.16, C.25, C.29, A.15, E.8, E.11.PUR, E.17, E.24.PUB, A.10, B.3, A.21, B.2, B.2.P. |
+| C.32.ADR | **Architecture Decision Record Projection** | Stable | *Keywords:* architecture decision record, ADR projection, ArchitectureDecisionDescription@Project, ArchitectureDecisionRecordProjection@Project, section function, rationale, consequences, method-use instruction, supersession, publication boundary. *Queries:* "How do I write an ADR-like record from an architecture decision relation?", "Which ADR sections are required by the decision use?", "When is an ADR only a publication projection rather than the decision?" | **Builds on:** C.32.PAD, C.30.AD, C.30.ASV, E.17, E.24.PUB, A.15, E.8, E.11.PUR. **Coordinates with:** C.32.ADA, A.10, B.3, A.21, C.16, C.25, C.29. |
+| C.32.ADA | **Architecture Decision Adequacy Scales** | Stable | *Keywords:* architecture decision adequacy, ArchitectureDecisionAdequacyEvaluation@Project, declared use, complete coordinate set, E.21 labels, method docking, publication projection, no average, repair target. *Queries:* "How do I evaluate whether an architecture decision is adequate for a declared use?", "Which weak coordinate should be repaired before developer work?", "Why does an ADR score not approve an architecture decision?" | **Builds on:** C.32.PAD, C.32.ADR, E.21, E.22. **Coordinates with:** C.32, C.32.ACS, C.32.ACE, C.30.AD, A.15, C.16, C.25, C.29, E.13, E.17, E.24.PUB, A.10, B.3, A.21. |
 | C.36 | **Cultural Evolution and Cultural-Evolution Engineering** | Stable | Cultural-evolution and cultural-evolution-engineering case use: collective holons, roles, work and method families, canon or memory epistemes, recognition and selection regimes, mediation systems, variant sets, term bridges, intervention, measurement, and refresh relations without minting root culture, style, or tradition kinds. | **Builds on:** A.1, A.2.1, A.3.1, A.15, C.18, C.19, C.20, C.23, E.18.1, F.9, F.17, F.18, G.5, G.11. **Coordinates with:** C.36.P, E.10, E.10.ARCH, C.30, C.16, C.11, A.10, B.3. |
- | Stable | Cultural-evolution and cultural-evolution-engineering case use: collective holons, roles, work and method families, canon or memory epistemes, recognition and selection regimes, mediation systems, variant sets, term bridges, intervention, measurement, and refresh relations without minting root culture, style, or tradition kinds. | **Builds on:** A.1, A.2.1, A.3.1, A.15, C.18, C.19, C.20, C.23, E.18.1, F.9, F.17, F.18, G.5, G.11. **Coordinates with:** C.36.P, E.10, E.10.ARCH, C.30, C.16, C.11, A.10, B.3. |
 | C.36.P | **Cultural-Evolution Wording-Use Precision Restoration** | Stable | Recovers the FPF object hidden by culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor, or developmental-machinery wording; returns subject work to C.36 or the direct governing pattern. | **Builds on:** E.10, E.10.ARCH, C.36, F.17, F.18, F.9. **Coordinates with:** A.3.1, A.3.2, A.15, C.18, C.19, G.5, G.11. |
 **Part D – Multi-scale Ethics & Conflict-Optimisation**
 
@@ -21216,6 +21217,7 @@ For visible credential, provenance, dashboard, explanation, or composed-source c
 The nearest recovery loci are the manufacturing, peer-review, rollout briefing, `CC-A15-7`, `CC-A15-10`, `CC-A15-12`, and the boundary to `A.15.4`. If a SoTA row cannot be recovered through those local checks, do not let the source citation stand in for the local `A.15` rule.
 
 ### A.15:12 - Relations
+*   **Architecture-decision method boundary:** `C.32.PAD` may cite method descriptions, pattern-use refs, responsible roles, readiness exits, and expected structure effects as decision-output duties. `C.32.ADR` may publish those refs. A.15 still governs method, method description, work plan, work-entry readiness, performed work, and role enactment claims.
 
 *   **Directly applies:** `A.7 Strict Distinction` for the role, method, method-description, plan, and work split.
 *   **Builds upon:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `A.2.2` for `U.Capability`, `A.2.5` for role-state admission, `A.2.7` for role relation structure, `A.6.5` for slot-relation discipline used by assignment and relation declarations, `A.3.1` for `U.Method`, `A.3.2` for `U.MethodDescription`, `A.3.3` for `U.Dynamics`, `A.3.4` for `U.Transformation`, `A.15.1` for `U.Work`, `A.15.2` for `U.WorkPlan`, `A.15.3` for slot-filling plan items, and `A.15.5` for work-entry readiness.
@@ -43172,6 +43174,7 @@ Measurement practice across physics, engineering quality, data quality, semantic
 The pattern therefore treats ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, and domain metric traditions as alignment sources through bridges, not as vocabulary imports. This keeps SoTA measurement discipline available while preventing the common shortcut where a familiar external label overrides the local characteristic, scale, unit, comparability, and evidence requirements.
 
 ### C.16:15 - Relations - Placement *(Informative)*
+**Architecture-decision metric boundary.** `C.32.PAD` and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
 **Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement or characteristic object is not yet recoverable. C.16 keeps the measurement substrate and resumes after the bearer, characteristic, scale, coordinate/value, unit, evidence stub, or exact non-C.16 governing pattern has been recovered.
 **C.27 temporal-claim relation.**
@@ -48157,7 +48160,7 @@ A context may publish a summary proxy for reporting convenience, but the proxy r
 When a gate uses a quality family, the gate should bind to explicit bundle slots: declared scope, specific measures, qualification window, and any required mechanism or status slots. Gate authors should not rely on the family label alone, because labels invite different local decompositions.
 
 #### C.25:19.3 - Roll-up caution
-A summary publication or review may aggregate several bundle instances, but the roll-up must remain visibly downstream from the underlying bundle structure. If the roll-up begins to drive local engineering decisions directly, the governing bundle slots should be surfaced again rather than hiding them behind one summary score.
+A summary publication or review may aggregate several bundle instances, but the roll-up must remain visibly downstream from the underlying bundle structure. If the roll-up begins to drive local engineering decisions directly, the governing bundle slots should be made explicit again rather than hiding them behind one summary score.
 
 ### C.25:20 - Review Matrix and Repair Tests
 
@@ -48206,6 +48209,10 @@ Useful outputs:
 - a `C.26.3` envelope-regulation note when probes/actuators/boundary conditions change the admissible viability reading;
 - a `C.27` temporal-claim adequacy card when rate-change, effort, window, resistance, or cadence changes the admissible use;
 - no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
+
+#### C.25:20b - Architecture-decision Q-Bundle boundary
+
+`C.32.PAD` and `C.32.ADA` may cite Q-Bundles as architecture-characteristic inputs, accepted-loss structure, guardrail rows, or adequacy concerns. C.25 keeps composite quality-family slots, bearer, scope, measures, mechanisms, qualification window, and evidence distinct from the project architecture decision relation and from ADR-like publication projection.
 
 ### C.25:End
 
@@ -54222,6 +54229,7 @@ Use this recognition menu only to identify a possible lens family and likely nei
 | **Quantum-like and contextual probability** | Probe effects, incompatible frames, order effects. | Dashboards, workshops, surveys, measurement-as-intervention. | Quantum-like is not physical quantum unless separate physics evidence is supplied. | `C.26`, `C.16`, `F.9` |
 
 ### C.29:15 - Relations
+- **Architecture-decision lens boundary:** `C.32.PAD` and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return. C.29 does not decide the architecture and does not supply evidence, assurance, gate, or quality authority.
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16.P`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
 - **Constrained by:** `E.8`, `E.10`, `C.2.P`, `E.19`.
@@ -54385,7 +54393,7 @@ In C.30, architecture-move wording is practitioner shorthand for an architecture
 
 When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded architecture claim, stop the C.30 question card after the described holon, bounded context, selected structure or structure kind, architecture concern, and admissible next use are named.
 Apply `C.32` only to build the candidate architecture palette.
-If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, queue number 5, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
+If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, `C.32.PAD`, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 
@@ -54820,7 +54828,7 @@ The DescriptionContext structure also preserves plurality. The same architecture
 
 Builds on: `A.1`, `A.22`, `E.24.PUB`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D2`, `E.17.0`, `E.17.1`, `E.17`, `E.17.2`, `A.6.P`, `F.18`, `E.10`, and `C.2.P`.
 
-Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, and named governing patterns for architecture decision and candidate-set claims when those claim kinds are being made.
+Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, `C.32`, `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` when candidate-set, architecture-decision, ADR-projection, or decision-adequacy claim kinds are being made.
 
 Other claims stay with their governing patterns: `A.1` for the described holon, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `E.18` for selected transformation-flow structure, path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15.2` for WorkPlan, `A.15.5` for work-entry readiness, `A.15.1` for performed work, `C.11` for decisions, `E.11.PUR` for pattern-use recommendation, `E.10.MOVE` for move-like wording outside C.30 architecture-candidate use, and `E.17` for publication. `C.30` governs the grounded architecture claim, selected structures, and the next admissible architecture candidate use.
 
@@ -54839,7 +54847,7 @@ Keep an architecture description useful without letting the description, view, d
 
 **Builds on.** `C.30`, `C.30.ASV`, `A.1`, `A.22`, `E.24.PUB`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, and `E.10.ARCH`.
 
-**Coordinates with.** `C.30.AD.BA`, `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `C.32`, `C.32.MLAO`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `A.15.5`, `C.11`, `C.28`, `E.8`, `E.10.MOVE`, `E.11.PUR`, `E.24.CD`, and `F.18`.
+**Coordinates with.** `C.30.AD.BA`, `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `C.32`, `C.32.MLAO`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `A.15.5`, `C.11`, `C.28`, `E.8`, `E.10.MOVE`, `E.11.PUR`, `E.24.CD`, and `F.18`.
 
 ### C.30.AD:0 - Use this when
 
@@ -55119,9 +55127,10 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or quality pattern governing the claim |
-| Evidence, assurance, gate, work planning, performed work, decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.28`, release or admissibility pattern, or governing pattern |
+| Evidence, assurance, gate, work planning, performed work, local choice, project architecture decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.32.PAD`, `C.28`, release or admissibility pattern, or governing pattern |
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
+Architecture-description material can also describe a project architecture decision or the source structure used by an ADR-like projection. Use `C.32.PAD` when the claim is the project architecture decision relation. Use `C.32.ADR` when the claim is publication projection of an architecture-decision description. Use `C.32.ADA` when the claim is adequacy of that decision for a declared use. C.30.AD keeps only architecture-description membership, correspondence, source return, freshness, publication use, and specification use.
 
 An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
 
@@ -55975,7 +55984,7 @@ Thin precision-restoration pointer: if the issue under repair is still whether *
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure use. Publication faces, forms, units, and renderings may publish the view; they are not the view and do not become the selected structure.
+An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, and renderings may publish the view; they are not the view and do not become the selected structure.
 
 Without this pattern:
 
@@ -56003,7 +56012,7 @@ Without this pattern:
 
 Govern architecture structural views by first naming the selected architecture-relevant structure, structure kind, view construction, correspondence, hidden or lost structure, source or reliance relation, source-return condition, admissible use, and next architecture move. Use `ArchitectureStructuralView@Context` as the record form when that view must be durable, reusable, comparable, or reliance-bearing.
 
-A conforming `ArchitectureStructuralView@Context` record is a Description or view over selected `U.Structure` references in one `ArchitectureOf@Context` claim record, under one declared `ArchitectureStructureKindRef` and one `DescriptionContext.ViewpointRef`. The description and view machinery makes the selected-structure use inspectable; it does not replace that move.
+A conforming `ArchitectureStructuralView@Context` record is a Description or view over selected `U.Structure` references in one `ArchitectureOf@Context` claim record, under one declared `ArchitectureStructureKindRef` and one `DescriptionContext.ViewpointRef`. The description and view machinery makes the selected-structure move inspectable; it does not replace that move.
 
 C.30.ASV is the selected-structure-kind-to-view relation pattern for architecture work. It explains how different selected structure kinds become views under declared viewpoints and concerns. It is not a complete architecture-description pattern; a durable `ArchitectureDescription@Context` composes one or more structural-view records through C.30 and E.17.0 only when description use is being made.
 
@@ -56647,7 +56656,7 @@ The TEVB decision is conservative. TEVB remains the small engineering viewpoint 
 
 Builds on: `C.30.P`, `C.30`, `A.1`, `A.22`, `E.24.PUB`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and governing patterns for architecture decision and candidate-set claims. Use `A.6.M` when the module-interface claim kind is being made.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.32`, `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` when candidate-set, architecture-decision, ADR-projection, or decision-adequacy claim kinds are being made. Use `A.6.M` when the module-interface claim kind is being made.
 
 Other claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.1` for the described holon recovered through `ArchitectureOf@Context`, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `E.18` for selected transformation-flow structure, transformation-flow path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
 
@@ -57049,7 +57058,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its residual-bearing locus is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared locus.
 
-**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate or compare residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `G.5` only when selected-set publication is current and `C.11` or queue number 5 when final local choice or project architecture decision is current; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
+**Multilevel optimization boundary.** `C.30.ILC` can recognize that local optimization in one declared holon level or declared scope degrades another declared holon level or declared scope. It does not optimize the architecture and does not prove that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate or compare residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `G.5` only when selected-set publication is current, `C.11` when final local choice is current, and `C.32.PAD` when project architecture decision is current; `C.30.ILC` stops at the residual and first admissible move. If the case is only a conflict between two selected structures with no declared multilevel mapping or scale mapping, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
 Anti-collapse rule: no generic frustration score, no risk-matrix residual, no ethical-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; `D.3` applies only when interlevel ethical conflict structure is current; `D.4` applies only when mediation or decision use of that structure is current.
 
@@ -57060,7 +57069,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no et
 | measurement or characteristic claim | `C.16` or the characteristic pattern that governs the characteristic under evaluation |
 | scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` when an architecture scale-preference claim is being made; use `C.29` when mathematical-lens use is being claimed |
 | multilevel learning or frustration mathematical-lens use with recoverable level mapping or scale mapping | `C.29` with `MLU.Description@MultilevelLearningFrustration` |
-| candidate generation or residual-reducing candidate architecture moves | `C.32.MLAO` when the residual-reducing multilevel frame is current; `C.32` for the candidate palette; `G.5` when selected-set publication is current; `C.11` or queue number 5 when final local choice or project architecture decision is current |
+| candidate generation or residual-reducing candidate architecture moves | `C.32.MLAO` when the residual-reducing multilevel frame is current; `C.32` for the candidate palette; `G.5` when selected-set publication is current; `C.11` when final local choice is current; `C.32.PAD` when project architecture decision is current |
 | final local choice | `C.11` |
 | causal outcome claim | `C.28` |
 | evidence or assurance | `A.10`, `B.3`, or `G.6` |
@@ -57141,7 +57150,7 @@ The gain is an early architecture move that is small and precise. The practition
 
 The cost is that `C.30.ILC` refuses to solve the whole problem. It identifies the first architecture move or governing-pattern application. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, ethical mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
 
-This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; `C.32.MLAO` and `C.32` carry residual-reducing candidate frames and palettes; `G.5` carries selected-set publication; and the decision pattern carries any final selected architecture.
+This makes multilevel optimization usable rather than decorative. `C.30.ILC` identifies the residual that makes optimization relevant; `C.29` carries an admissible mathematical-lens use only when level mapping or scale mapping and preserved structure and lost structure are recoverable; `C.32.MLAO` and `C.32` carry residual-reducing candidate frames and palettes; `G.5` carries selected-set publication; and `C.32.PAD` carries any project architecture decision.
 
 ### C.30.ILC:10 - Rationale
 
@@ -58362,7 +58371,7 @@ When architecture alternatives satisfy the same safety boundary, law-domain boun
 
 This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern. C.31.ASAP governs only the scale-preference claim and its boundary.
 
-A scale-preference claim may inform `C.32` candidate generation or comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `G.5`, `C.11`, queue number 5, evidence, assurance, gate, and release patterns govern those claims when current.
+A scale-preference claim may inform `C.32` candidate generation or comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `G.5` governs selected-set publication, `C.11` governs final local choice, `C.32.PAD` governs project architecture decision, and evidence, assurance, gate, and release patterns govern those claims when current.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -58601,7 +58610,7 @@ Common exits by claim kind:
 - `C.30` grounds the architecture claim; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
 - `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, and `C.16` govern starter heads, project criteria rows, eval programs, Q-Bundles, modularity or scale-preference claims, and measurement.
 - `C.32.MLAO`, `C.32.CONWAY`, `C.32.FAIL`, and `C.29` govern residual-reducing frames, transformer-transformed correspondence, candidate repair, and mathematical-lens use.
-- `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `C.11`, and the project-selected architecture-decision pattern govern comparison, selection, archive, front, publication of a selected set, local choice, and decision work.
+- `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `C.11`, and `C.32.PAD` govern comparison, selection, archive, front, publication of a selected set, local choice, and decision work.
 - `C.30.AD`, `E.17`, `E.24.PUB`, `A.10`, and `B.3` govern architecture-description, publication-face, evidence, and assurance claims.
 
 The first useful output is `CandidateArchitecturePalette@Project`. It is the project working record for candidate-palette construction. The name does not introduce a new `U.*` kind, and the record does not carry selection, publication, evidence, assurance, or decision authority.
@@ -58702,7 +58711,7 @@ The synthesis structure map is not an audit checklist. It is the small set of st
 Keep each receiving claim with its own pattern.
 Criteria rows stay with `C.32.ACS`; Q-Bundles with `C.25`; scale preference with `C.31.ASAP`; measurement with `C.16`; eval programs and eval results with `C.32.ACE`.
 Improvement-question framing and repeated-improvement method stay with `E.22` or `E.23`.
-Comparison, set-returning selection, selected-set publication, local choice, and project architecture decision stay with `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, and the project-selected architecture-decision pattern.
+Comparison, set-returning selection, selected-set publication, local choice, and project architecture decision stay with `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, and `C.32.PAD`.
 C.32 only consumes the changed characteristic pressure and produces the next candidate palette.
 Open the next synthesis question from the resulting eval result, front relation, retained alternative, rejected candidate, or source-return trigger.
 
@@ -58745,7 +58754,7 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | `decompositionOrAllocationChange` | Reallocate module, role, work, evidence responsibility, data custody, control responsibility, or variation slot across structures. | State the new boundary and migration burden. |
 | `placementOrDeploymentChange` | Change locality, deployment, material placement, installation, or maintenance access. | Name the affected structure and the latency, access, source-return, or environment burden. |
 | `flowOrControlVariant` | Change transformation flow, control depth, rate band, feedback boundary, or mediator relation. | State the timing, control, observability, or accountability burden created by the change. |
-| `interfaceGrammarChange` | Narrow, split, widen, or stabilize an interaction surface. | Apply `A.6.M` when module-interface relation repair is current. |
+| `interfaceGrammarChange` | Narrow, split, widen, or stabilize an interaction boundary. | Apply `A.6.M` when module-interface relation repair is current. |
 | `declaredScopeOrHolonLevelChange` | Split, merge, add, or remove a declared holon-level reference, declared scope, evidence scope, work-method scope, or aggregation scope. | Name the affected reference, use `C.30.STRAT` when the wording is only a stratification term, and use `B.2` only when whole reidentification is current. |
 | `boundedException` | Keep a residual because removing it costs more than it buys now. | State the exception, reopen trigger, and next governing pattern if later source use or decision use expands. |
 
@@ -58763,7 +58772,7 @@ The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the corresponde
 
 A richer dossier is optional. Open it only when one candidate must carry source views, relation notes, measurements, C.29 lens outputs, evidence notes, or failure repairs that affect the next architecture use. Ordinary C.32 use should remain one row per candidate configuration.
 
-**Downstream use.** C.32 prepares architecture-specific candidate content. Publishing a selected set belongs to `G.5`. A fixed local choice belongs to `C.11`. A project architecture decision belongs to the project-selected architecture-decision pattern. Archive, front, pool-treatment, or generation policy belongs to `C.18` or `C.19` when that claim is being made. Architecture-description or publication-face work belongs to `C.30.AD`, `E.17`, or `E.24.PUB`.
+**Downstream use.** C.32 prepares architecture-specific candidate content. Publishing a selected set belongs to `G.5`. A fixed local choice belongs to `C.11`. A project architecture decision belongs to `C.32.PAD`. Archive, front, pool-treatment, or generation policy belongs to `C.18` or `C.19` when that claim is being made. Architecture-description or publication-face work belongs to `C.30.AD`, `E.17`, or `E.24.PUB`.
 
 **Stop condition.** Stop C.32 when the palette can support the next use without hiding the selected structures, architecture-change kind, architecture gain, architecture loss, constraint fit, source-return condition, or receiving pattern.
 
@@ -58856,9 +58865,9 @@ These rows document transfers from source practice into C.32. Each row states wh
 | Current FPF architecture kernel: `A.22`, `C.30`, `C.30.ASV`, `C.30.ILC`, `C.31`, `C.31.ASAP`; architecture source section 15.3 | This is the current local architecture law for holonic architecture: selected structures of a described holon in a bounded context remain primary. | Use SoTA and domain sources only after recovering described holon, synthesis structure map, architecture criteria rows, selected structure changes, gain, loss, and receiving pattern. | `CandidateArchitecturePalette@Project` now requires `synthesisStructureMap`, architecture-characteristic criteria rows, selected structure changes, `constraintFit`, preserved and lost structure, source-return condition, and `nextUse`; worked cases cover heterogeneous holon kinds. | Diagrams, source expressions, software-system templates, and platform proposals remain source cues until the described holon, selected structures, architecture criteria, gain, loss, and receiving pattern are recovered. |
 | ISO 42010:2022 architecture-description standard (`https://www.iso.org/standard/74393.html`) | Current architecture-description standard. It is load-bearing because C.32 must not confuse architecture, description, view, viewpoint, concern, correspondence, or model kind. ISO also states that architecture itself is outside the AD standard's subject. | Treat architecture-description artifacts as source cues or architecture-description material until a candidate selected-structure change is recovered. | C.32 fields distinguish source cues, source-side referents, selected structures, and architecture characteristics; the Relations section names `C.30.AD` or `C.30.ASV` for description or view repair, and `E.17` or `E.24.PUB` for publication-face use, when current. | An architecture-description artifact or publication face is not a candidate architecture by itself. |
 | Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed.; overview at `https://evolutionaryarchitecture.com/` and O'Reilly page `https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/` | Best current practitioner line for architecture as guided incremental change over declared architecture characteristics, affected selected structures, and feedback from source-side fitness functions. | Add evolutionary candidate discipline: reversible first step where useful, affected criteria row, ACE eval result, source-return trigger, next synthesis question, and no source-term takeover. | Solution and SoTA rows now say source-side fitness-function practice is restored through `C.32.ACE` as eval programs over ACS rows; candidate rows can name `affectedCriteriaRowRefs?`, `architectureCharacteristicEvalResultRefs?`, next synthesis question, and source-return condition; measurement claims belong to C.16. | Eval results need a receiving comparison, local choice, or governance pattern before they affect preference or start the next synthesis iteration. |
-| Shaw and Petre, `Design Spaces and How Software Designers Use Them` (`https://arxiv.org/abs/2407.18502`); Cortellessa, Diaz-Pace, Di Pompeo, Tucci, `Towards Assessing Spread in Sets of Software Architecture Designs` (`https://arxiv.org/abs/2402.19171`) | Current research line for design alternatives and architecture-space diversity. It repairs the common error of judging only objective-space scores while losing architectural differences. | Preserve a candidate palette when one scalar winner would hide structurally different alternatives; distinguish objective-space signals from selected-structure differences. | C.32 keeps candidate plurality until `G.5`, `C.11`, or project-selected architecture-decision work is being made; each candidate must name selected structure, architecture-change kind, gain, loss, and hidden or preserved structure. | A Pareto front, score, spread indicator, or generated set does not select the architecture and does not replace architecture-space inspection. |
+| Shaw and Petre, `Design Spaces and How Software Designers Use Them` (`https://arxiv.org/abs/2407.18502`); Cortellessa, Diaz-Pace, Di Pompeo, Tucci, `Towards Assessing Spread in Sets of Software Architecture Designs` (`https://arxiv.org/abs/2402.19171`) | Current research line for design alternatives and architecture-space diversity. It repairs the common error of judging only objective-space scores while losing architectural differences. | Preserve a candidate palette when one scalar winner would hide structurally different alternatives; distinguish objective-space signals from selected-structure differences. | C.32 keeps candidate plurality until `G.5`, `C.11`, or a `C.32.PAD` project architecture decision relation is current; each candidate must name selected structure, architecture-change kind, gain, loss, and hidden or preserved structure. | A Pareto front, score, spread indicator, or generated set does not select the architecture and does not replace architecture-space inspection. |
 | MOSA and open-system engineering from `C.31.RSA` (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`); product-line variability and product-platform practice from `C.31.RSA` and `C.31.ASAP` (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`; `https://link.springer.com/article/10.1007/s00163-023-00427-1`; `https://arxiv.org/abs/2510.11089`); information-hiding lineage carried by `C.31.RSA` | Current source families for modular interface conformance, substitution policy, variability slots, extension rules, exception curves, and assembly or realization constraints. Information hiding is lineage for hidden-change and implicit-dependency repair. | Use them as candidate-generation prompts: change the interface grammar, change substitution policy, move a variation slot, split evidence scope, admit a bounded exception, or consolidate a bearer. | C.32 adds `interfaceGrammarChange`, `declaredScopeOrHolonLevelChange`, and `boundedException` as architecture-change kinds; the product-family worked case prepares interface-grammar change, evidence-scope split, and bounded exception as candidate alternatives. | Before a candidate is preferred, send reusable-structure accounting to `C.31.RSA`, scale preference to `C.31.ASAP`, interface grammar to `A.6.M`, comparison to `C.16` or `A.19`, and selected-set or local-decision use to `G.5` or `C.11`. |
-| TRIZ ideality, Ideal Final Result, laws of technical-system evolution, and current FPF `C.19.1` BLP | Older heuristic lineage for increasing useful function while reducing cost, harm, and unnecessary parts; BLP supplies current FPF discipline for preferring more general scale-amenable bearers when safety and admissibility are comparable. | Use idealization only to generate candidates: transfer function to an existing bearer, remove support bearers, use available resources, or try a more general bearer as a candidate. | C.32 adds `architectureIdealityPressureRef?`, `scaleAmenabilityPolicyRef?`, and `functionBearerConsolidation`; repair cues require function-bearing, affected architecture characteristics, losses, scale window, and BLP scale window or waiver when scale advantage is claimed. | An ideal-final-result slogan, fewer modules, or one universal module is not architecture adequacy, scale adequacy, or project architecture decision. |
+| TRIZ ideality, Ideal Final Result, technical-system evolution regularities, and current FPF `C.19.1` BLP | Older heuristic lineage for increasing useful function while reducing cost, harm, and unnecessary parts; BLP supplies current FPF discipline for preferring more general scale-amenable bearers when safety and admissibility are comparable. | Use idealization only to generate candidates: transfer function to an existing bearer, remove support bearers, use available resources, or try a more general bearer as a candidate. | C.32 adds `architectureIdealityPressureRef?`, `scaleAmenabilityPolicyRef?`, and `functionBearerConsolidation`; repair cues require function-bearing, affected architecture characteristics, losses, scale window, and BLP scale window or waiver when scale advantage is claimed. | An ideal-final-result slogan, fewer modules, or one universal module is not architecture adequacy, scale adequacy, or project architecture decision. |
 | NAS survey line: Elsken, Metzen, and Hutter 2019 (`https://www.jmlr.org/papers/v20/18-598.html`); multi-objective differentiable NAS 2025 (`https://arxiv.org/abs/2402.18213`); hardware-aware NAS 2024 (`https://arxiv.org/abs/2404.12403`); Sutton's Bitter Lesson (`https://www.incompleteideas.net/IncIdeas/BitterLesson.html`) and scaling-law practice | Current ML architecture line for functional graph search under multi-objective performance, resource, hardware, and transfer constraints. It is load-bearing as a transferable synthesis technique, not as an IT ontology. | Treat functional architecture as one selected structure and require bearer feasibility across module, deployment, resource, control, information, and evidence structures before comparison. | C.32 adds `functionBearerFeasibilityRef?`, `functionBearerFeasibilityRepair`, and didactic slices where a functional graph or method step fails because no bearer can carry it under current constraints. | A neural cell graph, function graph, benchmark winner, or scale curve is not holonic architecture adequacy unless selected structures and bearers are recovered. |
 | Conway's law, mirroring, DORA loosely coupled teams (`https://dora.dev/capabilities/loosely-coupled-teams/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current socio-technical architecture practice for co-synthesizing the changing holon and the changed holon under independent change, test, deployment, evidence, and coordination constraints. | Treat team, work, responsibility, method, toolchain, deployment, and communication structures as transformer-side selected structures when they constrain transformed-holon architecture. Use inverse Conway only as a candidate architecture change that changes selected transformer structures. | C.32 adds `transformerTransformedCorrespondenceSynthesis`, names `C.32.CONWAY` as the correspondence-frame governing pattern, and keeps role, work, module-interface, evidence, and mathematical-lens claims with their governing patterns. | Keep transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs; explicit comparison, module-interface, evidence, decision, and G.5 publication claims exit to their own patterns. |
 | MAAD 2025 (`https://arxiv.org/abs/2507.21382`) and LLM-assisted ADD 2025 (`https://arxiv.org/abs/2506.22688`) | Current AI-assisted architecture design research. It is load-bearing because generated alternatives are now practical, but the research itself stresses knowledge intensity, trade-offs, evaluation, and human oversight. | Use AI outputs to widen candidate space, then recover source-side referent, selected structure, architecture-change kind, gain, loss, source-return condition, and receiving pattern before palette admission. | C.32 problem and Solution now treat generated outputs as source cues; `sourceCueRefs?` and `sourceSideReferent?` prevent generated text from carrying an architecture-adequacy authority relation. | A generated blueprint, evaluation report, benchmark, or agent consensus is not an authority relation for architecture adequacy, evidence sufficiency, assurance, gate passage, or decision. |
@@ -58869,7 +58878,7 @@ These rows document transfers from source practice into C.32. Each row states wh
 
 - **Builds on:** `C.30`, `C.30.P`, `C.30.ASV`, `A.22`, `A.6.F`, `A.6.M`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, `C.16`, `C.16.P`, `E.22`, `E.23`, `C.19.1`, `C.30.LCA`, `C.30.TFS-REL`, `E.18`, `A.3.4`, `A.15`, and local patterns for recovering source-side architecture referents.
 - **Uses:** `C.30.ILC` when a residual starts the candidate work; `C.32.MLAO` when residual-reducing multilevel framing is being used; `C.32.CONWAY` when transformer and transformed architectures must be co-synthesized; `C.32.FAIL` when a candidate needs repair before explicit comparison, selection, local choice, or decision; `C.32.ACE` when candidate eval results are needed before later comparison or selection; `C.29` when mathematical-lens use is being claimed.
-- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and the project-selected architecture-decision pattern for project architecture decisions.
+- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and `C.32.PAD` for project architecture decisions.
 - **Boundary:** C.32 governs candidate architecture palette construction for one grounded architecture question over selected structures of a described holon. Evidence, assurance, gate, release, work authorization, method governance, ethical mediation, and causal claims use their own patterns when those claims are being made.
 
 ### C.32:13 - Footer marker
@@ -58936,7 +58945,7 @@ Common exits by claim kind:
 - `E.13` when a source cue, score, benchmark, or dashboard starts replacing the architecture concern.
 - `C.32` for candidate synthesis after project criteria rows exist.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project decision.
+- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
 ### C.32.HCS:2 - Problem
 
@@ -59015,7 +59024,7 @@ Before ACS criteria-row use, ask one proxy-resistance question for each carried 
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-C.32.HCS governs holon-family starter packs. It does not govern project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, or project architecture decisions. Use `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or the project-selected architecture-decision pattern when those claims are being made.
+C.32.HCS governs holon-family starter packs. It does not govern project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, or project architecture decisions. Use `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or `C.32.PAD` when those claims are being made.
 
 ### C.32.HCS:7 - Conformance checklist
 
@@ -59158,7 +59167,7 @@ Common exits by claim kind:
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
-- The project-selected architecture-decision pattern for project decision.
+- `C.32.PAD` for project decision.
 
 ### C.32.ACS:2 - Problem
 
@@ -59199,7 +59208,7 @@ Work in this order:
 2. Start from a `C.32.HCS` starter pack when the project has no draft criteria rows yet. Use source catalogues only as input, not as the criteria set.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and receiving pattern.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
-5. Narrow the optimization-indicator core. The ordinary target is three to five rows. More rows require an explicit reason, such as a regulated trade-off study or a multi-team decision surface.
+5. Narrow the optimization-indicator core. The ordinary target is three to five rows. More rows require an explicit reason, such as a regulated trade-off study or a multi-team decision use.
 6. Classify remaining admitted rows as `monitoredGuardrail` or `contextOnly`. A guardrail protects against a loss caused by optimizing another row; a context-only row helps interpretation but does not drive optimization now.
 7. Bind each admitted row to bearer or selected structure, scale form, polarity, current reading or no-reading reason, proxy risk, protected counter-characteristics, receiving use, and source-return condition.
 8. Reference `C.32.ACE` only after the row exists and an eval program is needed for current characterization, candidate comparison, monitoring, or preparing inputs for `A.19.SelectorMechanism`.
@@ -59260,7 +59269,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 - C.31.ASAP scale-preference claims, governed by `C.31.ASAP`;
 - E.22 question framing and E.23 repeated improvement method, governed by `E.22` and `E.23`;
 - C.32 candidate synthesis, governed by `C.32`;
-- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for the project-selected decision pattern.
+- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for `C.32.PAD`.
 
 ### C.32.ACS:7 - Conformance requirements
 
@@ -59287,7 +59296,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 | `EvalProgramAsCriterion` | A test, monitor, source-side fitness function, benchmark, dashboard, or eval result is named as the criterion. | Name the characteristic row first; eval-program construction belongs to `C.32.ACE` and measurement claims belong to `C.16`. |
 | `HolonLevelCarryoverWithoutRebinding` | An engineered-system row is copied to a method, role, or culture without changing bearer, scale, or admissible use. | Return to HCS and ACS; rebind the row to the new holon family and selected structures. |
 | `LocalGainHidesCounterLoss` | A candidate improves one row while worsening evidence burden, control burden, source-return cost, or functional adequacy. | Add monitored guardrail rows and open `E.13` when proxy-to-value drift appears before comparison or next synthesis. |
-| `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to the project-selected architecture-decision pattern. |
+| `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
 
 ### C.32.ACS:9 - Consequences
 
@@ -59324,14 +59333,14 @@ These rows document transfers from source practice into C.32.ACS. Keep a source 
 ### C.32.ACS:12 - Relations
 
 - **Builds on:** `C.32.HCS`, `A.17`, `A.18`, `C.16`, `C.16.P`, `C.25`, `C.30`, `C.30.P`, `C.31`, `C.31.ASAP`, `E.13`, `E.22`, and `E.23`.
-- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` multilevel residual work, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair cues, `C.32.ACE` eval programs, `A.19.CPM` comparison inputs, `A.19.SelectorMechanism` selection inputs, `C.11` local choice inputs, inputs for publishing a selected set under `G.5`, and architecture-decision inputs for the project-selected architecture-decision pattern.
+- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` multilevel residual work, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair cues, `C.32.ACE` eval programs, `A.19.CPM` comparison inputs, `A.19.SelectorMechanism` selection inputs, `C.11` local choice inputs, inputs for publishing a selected set under `G.5`, and architecture-decision inputs for `C.32.PAD`.
 - **Starter-pack boundary:** Use `C.32.HCS` when the project needs a holon-family starting set before criteria rows exist.
 - **Q-Bundle boundary:** Use `C.25` when the architecture characteristic is really a composite quality family with several measures, scope slots, mechanisms, statuses, qualification windows, or evidence.
 - **Eval boundary:** Use `C.32.ACE` when a project wants an eval program over declared rows, Q-Bundle slots, candidates, or selected-structure changes.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, or cross-case comparability claim is made.
 - **Proxy boundary:** Use `E.13` when an optimization indicator, score, eval result, or dashboard state begins to replace the declared architecture concern.
 - **Synthesis boundary:** Use `C.32` after criteria rows exist and the next useful work is to synthesize candidate selected-structure changes.
-- **Decision and publication boundary:** Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and the project-selected architecture-decision pattern when comparison, selection, choice, publication of a selected set, or architecture decision is being made.
+- **Decision and publication boundary:** Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and `C.32.PAD` when comparison, selection, choice, publication of a selected set, or architecture decision is being made.
 
 ### C.32.ACS:13 - Footer marker
 
@@ -59411,7 +59420,7 @@ Common exits by claim kind:
 - `C.32` for candidate synthesis, `C.32.MLAO` for residual input, and `E.23` for repeated improvement feedback.
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
-- The project-selected architecture-decision pattern for project decision.
+- `C.32.PAD` for project decision.
 
 ### C.32.ACE:2 - Problem
 
@@ -59446,7 +59455,7 @@ Work in this order:
 6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the eval operation is actually checking an expectation or hard constraint.
 7. Declare the result form: reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding.
 8. Name proxy risk and protected counter-characteristics before the eval result can drive work. Optimize only the cycle's chosen indicators; keep the remaining protected characteristics visible as guardrails or risk signals.
-9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for publishing a selected set under `G.5`, or architecture-decision input for the project-selected architecture-decision pattern.
+9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for publishing a selected set under `G.5`, or architecture-decision input for `C.32.PAD`.
 10. Refresh or retire the eval program when the evaluated row, C.32 candidate palette, bearer, selected structure, environment, parity frame, or source-currentness relation changes.
 
 **Stop condition.** Stop C.32.ACE when the eval program names evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, eval operation, result form, receiving use, proxy risk, protected counter-characteristics, and refresh or retire condition.
@@ -59467,7 +59476,7 @@ Work in this order:
 
 ### C.32.ACE:6 - Kind and Receiving-Claim Boundary
 
-C.32.ACE governs architecture-characteristic eval-program construction and the kind boundary between criterion, eval operation, eval result, comparison input, selection input, and decision input. It does not govern starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison-policy design, final selection, local choice, publishing a selected set under `G.5`, or architecture decisions. Use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or the project-selected architecture-decision pattern when those claims are being made.
+C.32.ACE governs architecture-characteristic eval-program construction and the kind boundary between criterion, eval operation, eval result, comparison input, selection input, and decision input. It does not govern starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison-policy design, final selection, local choice, publishing a selected set under `G.5`, or architecture decisions. Use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` when those claims are being made.
 
 ### C.32.ACE:7 - Conformance requirements
 
@@ -59490,7 +59499,7 @@ C.32.ACE governs architecture-characteristic eval-program construction and the k
 | `EvalAsCriterion` | A benchmark, monitor, or test is named as the architecture characteristic. | Return to ACS; name the criterion, bearer, scale, proxy risk, and protected counter-characteristics before writing the eval. |
 | `TestModeAsEvalWhole` | The team only asks whether one candidate passes while the work question is variant comparison. | Keep the test for the hard constraint, then add eval result forms that compare candidates or expose the trade-off front. |
 | `UnfairComparison` | Candidates are compared under different budgets, evidence windows, environments, or missing-data rules. | Rebuild the parity frame or record the result as unusable for selection. |
-| `ResultAsDecision` | A rank, score, pass, or dashboard reading selects the architecture. | Treat the result as source material for an A.10 evidence relation when an evidence claim is current, or as comparison input when comparison is current; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to the project-selected architecture-decision pattern. |
+| `ResultAsDecision` | A rank, score, pass, or dashboard reading selects the architecture. | Treat the result as source material for an A.10 evidence relation when an evidence claim is current, or as comparison input when comparison is current; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
 | `SingleIndicatorGoodhart` | Work improves one optimized indicator while an unmeasured architecture concern worsens. | Limit optimized indicators, add protected counter-characteristics, and open `E.13` when proxy-to-value drift appears. |
 | `LosingVariantAsError` | A candidate that lost a planned eval is recorded as a mistake. | Record it as a variant result unless an expectation caused unplanned rework; keep useful learning in the variant archive. |
 
@@ -59527,11 +59536,11 @@ These rows document transfers from source practice into C.32.ACE. Keep a source 
 ### C.32.ACE:12 - Relations
 
 - **Builds on:** `C.32.HCS`, `C.32.ACS`, `C.16`, `C.16.P`, `C.25`, `E.13`, `E.22`, `E.23`, and `A.19.CPM`.
-- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` residual optimization, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair, `A.19.CPM` comparison, `A.19.SelectorMechanism` selection, `C.11` local choice, publication of a selected set under `G.5`, and architecture-decision work for the project-selected decision pattern.
+- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` residual optimization, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair, `A.19.CPM` comparison, `A.19.SelectorMechanism` selection, `C.11` local choice, publication of a selected set under `G.5`, and architecture-decision work for `C.32.PAD`.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, uncertainty, or cross-case comparability claim is made.
 - **Q-Bundle boundary:** Use `C.25` when the evaluated item is a composite quality family.
 - **Test boundary:** Use `test` only as an eval operation for a declared expectation or hard constraint. Error recognition and architecture-synthesis repair use `C.32.FAIL`; non-architecture defects use the local defect-governing pattern.
-- **Decision boundary:** ACE can produce readings, ranks, dominance relations, trade-off-front descriptions, and source material for an A.10 evidence relation when an evidence claim is current. Explicit comparison, set-returning selection, local choice, publication of a selected set, and project architecture decision belong to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and the project-selected architecture-decision pattern.
+- **Decision boundary:** ACE can produce readings, ranks, dominance relations, trade-off-front descriptions, and source material for an A.10 evidence relation when an evidence claim is current. Explicit comparison, set-returning selection, local choice, publication of a selected set, and project architecture decision belong to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and `C.32.PAD`.
 
 ### C.32.ACE:13 - Footer marker
 
@@ -59583,7 +59592,7 @@ Common exits by claim kind:
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set publication; `C.18` and `C.19` for archive, front, or pool-treatment policy.
-- `C.11` for fixed local choice and the project-selected architecture-decision pattern for project decision.
+- `C.11` for fixed local choice and `C.32.PAD` for project decision.
 
 The first useful output is `TransformerTransformedArchitectureCorrespondenceFrame@Project`. The frame is the project working record for the correspondence question. It records candidate co-synthesis pressure; it does not make a C.29 structural-equivalence claim, organization-design decision, or new correspondence ontology:
 
@@ -59674,7 +59683,7 @@ Work in eight steps:
    - change both sides as one co-synthesis candidate;
    - keep a bounded mismatch with exception cost, source-return condition, and reopen trigger.
 7. Use `C.29` only when the correspondence is claimed as structural similarity, homomorphism-like mapping, equivalence, or formal preservation. Otherwise keep it as architecture synthesis material.
-8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or the project-selected architecture-decision pattern.
+8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or `C.32.PAD`.
 
 Correspondence repair rows are local C.32.CONWAY entries. They do not create new FPF kinds.
 
@@ -59781,7 +59790,7 @@ These rows document transfers from source practice into C.32.CONWAY. Each row st
 
 - **Builds on:** `C.32` for candidate architecture synthesis, `A.3.4` and `A.3.4.P` for bounded change recovery, `E.18` for transformation-flow structure, `A.15` and role patterns for work and responsibility, `A.6.M` for module-interface relation repair, and `C.30` for grounded architecture over selected structures.
 - **Uses:** `C.32.MLAO` when the correspondence problem is a cross-scope or interlevel residual; `C.32.FAIL` when a Conway or inverse-Conway cue first appears as a repair failure; `C.29` when structural similarity, preservation, homomorphism-like mapping, or equivalence is being claimed.
-- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, the project-selected architecture-decision pattern for project architecture decisions, `A.10` for evidence sufficiency, `B.3` for assurance, `A.20` or `A.21` for gate or release claims when those claims are being made, and method, work, or organization-governance patterns when those claims are being made.
+- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.32.PAD` for project architecture decisions, `A.10` for evidence sufficiency, `B.3` for assurance, `A.20` or `A.21` for gate or release claims when those claims are being made, and method, work, or organization-governance patterns when those claims are being made.
 - **Boundary:** C.32.CONWAY governs correspondence framing inside architecture candidate synthesis. It does not govern organization-redesign decisions, organization-redesign authority relations, work authorization, evidence sufficiency, assurance, gate passage, release, structural-equivalence theory, or final architecture decision.
 
 ### C.32.CONWAY:13 - Footer marker
@@ -59835,7 +59844,7 @@ Common exits by claim kind:
 - `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
 - `C.18` and `C.19` for archive, front, pool treatment, or stepping-stone retention.
 - `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work.
-- The project-selected architecture-decision pattern for project decision.
+- `C.32.PAD` for project decision.
 
 The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is the project working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
 
@@ -59910,7 +59919,7 @@ Work in eight steps:
 5. For each candidate, state the residual it reduces, the selected structure changed, and the criteria rows affected.
 6. State the new burden, loss, exception, or source-return load created by that candidate.
 7. Record the evolution window and whether any NQD, OEE, archive, front, stepping-stone, ideality, or BLP support is only keeping candidate plurality or directionality alive.
-8. Stop at the frame, or name the receiving pattern when a later claim is being made: explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, architecture decision to the project-selected architecture-decision pattern, architecture-description work to `C.30.AD`, publication-face work to `E.17` or `E.24.PUB`, and mathematical-lens use to `C.29`.
+8. Stop at the frame, or name the receiving pattern when a later claim is being made: explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, architecture decision to `C.32.PAD`, architecture-description work to `C.30.AD`, publication-face work to `E.17` or `E.24.PUB`, and mathematical-lens use to `C.29`.
 
 Admit a residual-reducing candidate only when it answers the working questions: which declared holon-level ref or declared scope ref is affected, which selected structure changes, which architecture-characteristic row or Q-Bundle slot is at stake, what residual is reduced, what structure is preserved or lost, and what new burden appears.
 
@@ -59951,7 +59960,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 
 **Stop condition.** Stop after the frame names residual, affected declared holon-level refs or declared scope refs, candidate changes, new burdens, preserved and lost structure, source-return conditions, and receiving patterns.
 
-**Lowering condition.** Keep the frame as C.32.MLAO work only while the residual triage, affected level or scope refs, selected structures, criteria rows, evolution window, residual reduced, new burden, and receiving pattern remain current. Lower a candidate to a diagnostic note when the residual is not recoverable, the selected structure is unknown or stale, the architecture characteristic is missing, the new burden is not named, or the receiving pattern cannot use the row. Retire a candidate when its evolution window closes or a stronger residual triage replaces it. Return to `C.30.ILC` when the residual itself is missing, to `C.32.ACS` when criteria rows are missing, to `C.32.ACE` when eval results are needed but not current, to `C.29` when the current claim is a mathematical-lens claim, and to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or the project-selected architecture-decision pattern when the downstream claim is current.
+**Lowering condition.** Keep the frame as C.32.MLAO work only while the residual triage, affected level or scope refs, selected structures, criteria rows, evolution window, residual reduced, new burden, and receiving pattern remain current. Lower a candidate to a diagnostic note when the residual is not recoverable, the selected structure is unknown or stale, the architecture characteristic is missing, the new burden is not named, or the receiving pattern cannot use the row. Retire a candidate when its evolution window closes or a stronger residual triage replaces it. Return to `C.30.ILC` when the residual itself is missing, to `C.32.ACS` when criteria rows are missing, to `C.32.ACE` when eval results are needed but not current, to `C.29` when the current claim is a mathematical-lens claim, and to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` when the downstream claim is current.
 
 ### C.32.MLAO:5 - Worked Residual Cases
 
@@ -60000,7 +60009,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 |---|---|---|
 | `LocalEvalAsWholeArchitecture` | One scope improves or one eval result is better, and the whole architecture is called better. | Return to residual triage; name improved and harmed scopes, selected structures, criteria rows, and residual-bearing locus before framing residual-reducing candidates. |
 | `ProxyResultAsPreferenceRule` | A residual vector, score, graph, front, dashboard reading, or lens output is used to prefer a candidate before the selected structures and lost structure are recovered. | Recover the selected structures and lost structure, interpret the result as a diagnostic signal or lens output; comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and publication of a selected set to `G.5`. |
-| `ParetoFrontAsDecision` | A front is treated as selected architecture. | Publication of a selected set belongs to `G.5`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and project architecture decision to the project-selected architecture-decision pattern. |
+| `ParetoFrontAsDecision` | A front is treated as selected architecture. | Publication of a selected set belongs to `G.5`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and project architecture decision to `C.32.PAD`. |
 | `StaticOptimumClaim` | A current residual-reducing candidate is called optimal without an evolution window. | Add evolution window, source-return condition, reopen trigger, and the receiving pattern result that actually produced the preference. |
 | `TransformerTransformedCollapse` | The architecture of the changing holon and the changed holon are treated as one structure. | Open `C.32.CONWAY`; recover the changing relation, selected structures on both sides, residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
 | `LevelWordsNoLevels` | Text says level or scope without declared refs. | Use `C.30.STRAT` for stratification-term recovery or `B.2.P` for whole-reidentification wording, then return to residual triage before candidate framing. |
@@ -60037,7 +60046,7 @@ These rows document transfers from source practice into C.32.MLAO. Each row stat
 | Evolutionary architecture: Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) | Current practitioner architecture line for guided incremental change over declared architecture characteristics, affected selected structures, and feedback from source-side fitness functions. | Residual-reducing candidates must name the new burden they introduce and the stop or reopen condition; source-side fitness-function practice is restored as ACE eval programs over ACS criteria rows. | Candidate-family table includes bounded exception, evidence scope, interface grammar, control structure, and work-method scope; consequences require new burden, source-return triggers, and receiving use for eval results. | A local eval improvement needs an architecture interpretation before a comparison, selection, or choice receiving pattern can use it. |
 | TRIZ ideality and laws of technical-system evolution, read with `C.19.1` BLP | Older heuristic line: systems tend toward more useful function with less cost, harm, and support apparatus; BLP supplies FPF scale-amenability discipline for general bearers. | Use ideality and scale amenability to generate residual-reducing candidates, not to select them. | Frame adds `architectureIdealityPressureRef?` and `scaleAmenabilityPolicyRef?`; Solution adds ideality and BLP discipline; anti-pattern table adds `IdealityNoBurden`. | Removing a part, consolidating functions, or choosing a universal bearer is not residual reduction unless selected structures, characteristics, new burden, and scale boundary are declared. |
 | Multi-objective and hardware-aware NAS: Elsken, Metzen, and Hutter 2019 (`https://www.jmlr.org/papers/v20/18-598.html`); Sukthanker et al., v3 revised 2025-02-04 (`https://arxiv.org/abs/2402.18213`); Sinha et al. 2024 (`https://arxiv.org/abs/2404.12403`) | Current architecture-search line where functional graph candidates are judged against hardware, latency, cost, and transfer constraints; useful as a general co-design lesson beyond ML. | Residual-reducing candidates that change functional structure must also name feasible bearers at affected scopes. | Frame adds `functionBearerFeasibilityRef?`; Solution adds functional-bearer feasibility discipline; candidate-family table adds `repairFunctionBearerGap`. | A functional graph, resource score, or Pareto member is not residual reduction if no admitted bearer can carry the function. |
-| Architecture trade-off practice and `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Best current practitioner line for no-best-practice architecture decisions and explicit trade-off analysis in hard architecture problems. | Frame each candidate as residual reduced plus burden created, not as a universal best answer. | Candidate rows require `residualReduced`, `newBurden`, `preservedStructure`, and `lostOrHiddenStructure`; final choice exits to `C.11` or the project-selected architecture-decision pattern. | A trade-off scenario, ranking, or preferred decomposition is not a decision inside C.32.MLAO. |
+| Architecture trade-off practice and `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Best current practitioner line for no-best-practice architecture decisions and explicit trade-off analysis in hard architecture problems. | Frame each candidate as residual reduced plus burden created, not as a universal best answer. | Candidate rows require `residualReduced`, `newBurden`, `preservedStructure`, and `lostOrHiddenStructure`; final choice exits to `C.11` or `C.32.PAD`. | A trade-off scenario, ranking, or preferred decomposition is not a decision inside C.32.MLAO. |
 | DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`), DORA trunk-based development (`https://dora.dev/capabilities/trunk-based-development/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current socio-technical practice for independent change, testing, deployment, small batches, dependency reduction, and fast flow. It is load-bearing because many residuals are borne by role, work, responsibility, and coordination structures, not only software modules. | Admit organization, work, role-enactor, and method-scope residuals when selected structures and affected scopes are recoverable. | Worked cases include clinical practice, AI-agent review setup, and method family; candidate-family table includes mediator, work-method scope, interface grammar, and control structure. | Organization-design observations enter C.32.MLAO only after they are mapped to role, work, responsibility, coordination, or method structures; they do not supply module, evidence, assurance, or decision claims by themselves. |
 | Design-space and architecture-spread research: Shaw and Petre 2024 (`https://arxiv.org/abs/2407.18502`); Cortellessa et al. 2024 (`https://arxiv.org/abs/2402.19171`) | Current research showing that useful alternatives need a design-space or architecture-space view, not only objective-space scores. | Preserve plural residual-reducing candidates when residuals shift differently across structures or scopes. | C.32.MLAO preserves candidate plurality as C.32 input; publication of a selected set belongs to G.5; spread, diversity, or objective-space output is used only after the architecture differences it reveals are named. | Candidate preference still depends on declared architecture characteristics, losses, and a receiving pattern. |
 | C.18 archive and front stewardship plus C.19 explore-exploit governance | Current FPF pattern line for open-ended search, NQD, OEE, archive, front, pool treatment, and stepping-stone retention. | Treat NQD and OEE as generation and retention support for residual-reducing candidates, not as architecture selection. | Frame fields add `dynamicFrontOrArchiveRef?`, `nqdOrOeeSupportRef?`, `steppingStoneRefs?`, and `evolutionWindowRef`; Solution adds dynamic optimum discipline. | Archive membership, front membership, retained stepping stone, or pool treatment is not architecture adequacy or decision. |
@@ -60049,7 +60058,7 @@ These rows document transfers from source practice into C.32.MLAO. Each row stat
 
 - **Builds on:** `C.30.ILC` for residual triage, `C.32` for palettes, `C.32.ACS` for architecture-characteristic criteria rows, `C.32.ACE` for eval programs and eval results, `C.29` for mathematical-lens use when claimed, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice over an existing option set, `G.5` for publication of a selected set, `C.19.1` for scale-amenability preference claims, and `C.31` or `C.31.ASAP` for characteristic or scale-preference claims.
 - **Uses:** `E.10.ARCH` and `C.30.STRAT` when stratification terms hide the recovered neighborhood; `E.10` and `B.2.P` when BOSC, emergence-family, MHT, MET, MFT, boundary-crossing, or promotion-like wording hides the claim kind; `B.2` when the candidate creates, reidentifies, splits, joins, or changes the relevant whole after existing-whole explanations are insufficient; `C.32.CONWAY` when residual reduction requires co-synthesis of transformer and transformed architectures; `A.6.M`, `C.30.LCA`, `C.30.TFS-REL`, and method or work patterns when their structures are the affected selected structures.
-- **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and the project-selected architecture-decision pattern for project architecture decisions.
+- **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and `C.32.PAD` for project architecture decisions.
 - **Boundary:** C.32.MLAO governs residual-reducing architecture candidate frames after residual triage. It does not govern mathematical-lens adequacy, evidence, assurance, gate passage, ethical mediation, causal claim adequacy, work authorization, or final selection.
 
 ### C.32.MLAO:13 - Footer marker
@@ -60101,7 +60110,7 @@ Common exits by claim kind:
 - `C.18` and `C.19` for archive, front, pool-treatment, or retained-stepping-stone claims.
 - `A.10` for evidence, `B.3` for assurance, and `A.20` or `A.21` for gate or release claims.
 - `C.30.AD` for architecture description and `E.17` or `E.24.PUB` for publication faces.
-- `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project decision.
+- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
 The first useful output is `ArchitectureRepairCue@Project`. It is the project working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
 
@@ -60168,7 +60177,7 @@ Core repair families for first-draft use:
 |---|---|---|---|---|
 | Weak module-interface | A source-side bearer is called a module because it has a convenient boundary. | Candidate module-interface relation and selected structure boundary. | Recover interface behavior, admissible-use boundary, change policy, and interface-conformance witness. | Stop at repaired interface cue; module-interface structure claims belong to `A.6.M`, `C.30.ASV`, or `C.31` when current. |
 | False platform | A reusable-structure promise hides variation pressure and local exceptions. | Variation structure, substitution policy, evidence scope, and exception boundary. | Recover variation slots, substitution rules, substitution-conformance checks, and exception-growth trigger. | Cross-scope residual work belongs to `C.32.MLAO` when current. |
-| Hidden single winner | A comparison or generation result is treated as selected architecture. | Candidate palette and retained alternatives. | Rebuild the C.32 palette with candidate gain, loss, preserved structure, hidden structure, and source-return condition. | Explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, and project architecture decision to the project-selected architecture-decision pattern. |
+| Hidden single winner | A comparison or generation result is treated as selected architecture. | Candidate palette and retained alternatives. | Rebuild the C.32 palette with candidate gain, loss, preserved structure, hidden structure, and source-return condition. | Explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, publication of a selected set to `G.5`, local choice to `C.11`, and project architecture decision to `C.32.PAD`. |
 | Proxy result or description as authority | A score, graph, residual vector, generated output, architecture-description artifact, or MVPK publication face is used to accept or prefer an architecture candidate before the selected structure and receiving pattern are named. | Candidate architecture claim and selected-structure relation hidden behind the proxy, description, or visible result. | Recover the selected structure, source-side referent, view relation, or lens-output relation first. Use `C.29` for lens output, `C.30.ASV` or `C.30.AD` for view or description use, `A.19.CPM` for comparison, `C.11` for local choice, `A.19.SelectorMechanism` for set-returning selection, and `G.5` for publication of a selected set. | Stop when the visible work product only orients repair; evidence claims belong to `A.10` and assurance claims belong to `B.3`. |
 | Coordination cost displaced by responsibility change | A team, work, or responsibility change improves local flow while pushing coordination into module interfaces, shared test, evidence, approval, or deployment structures. | Correspondence among role-enactor structure, work structure, coordination relation, module-interface structure, and evidence or deployment structure. | Recover the shifted coordination cost, then decide whether the repair belongs to `C.32.CONWAY`, `A.6.M`, `C.32.MLAO`, or a work and role pattern. | Role and work claims belong to the A.15 family; use architecture only for selected structures and architecture characteristics. |
 | Temporal or control coupling | Named parts need brittle timing or control coordination. | Temporal relation, control relation, and affected work or evidence relation. | Recover the timing or control constraint and ask whether a candidate architecture change affects the selected structure. | Temporal adequacy claims belong to `C.27`, control or mechanism placement claims belong to the governing mechanism pattern, and flow-structure claims belong to `E.18` when current. |
@@ -60177,7 +60186,7 @@ Core repair families for first-draft use:
 | Single-structure synthesis | One selected structure is improved and called the architecture synthesis. | Synthesis structure map and architecture characteristic bundle. | Return to C.32; name the other selected structures that must be coordinated and the architecture characteristics that make the trade-off real. | Stop at repaired C.32 palette, or open `C.32.MLAO` if the failure crosses scopes. |
 | User function as architecture characteristic | A user-visible function is treated as the architecture quality being optimized. | Functional demand, architecture characteristic, and quality bundle boundary. | Recover the function through `A.6.F` or `C.30.ASV`; then name the architecture characteristic or `C.25` quality bundle separately. | Stop before comparison until function and characteristic occupy distinct fields. |
 | Function with no feasible bearer | A function graph, workflow, use case, method step, or neural cell graph names a required function that no admitted bearer can perform under the current constraints. | Functional demand, candidate bearer set, module-interface relation, placement or deployment relation, resource access, control relation, and evidence burden. | Return to `C.32`; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. | Stop before comparison, G.5 publication, assurance, or decision claims. |
-| Static optimum | A front member or local winner is treated as durable optimum. | Evolution window, receiving pattern result, front or archive relation, and reopen trigger. | Add evolution window, source-return condition, and receiving pattern; keep C.18 and C.19 as retention or pool policy only. | Comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and architecture decision to the project-selected architecture-decision pattern when the decision claim is being made. |
+| Static optimum | A front member or local winner is treated as durable optimum. | Evolution window, receiving pattern result, front or archive relation, and reopen trigger. | Add evolution window, source-return condition, and receiving pattern; keep C.18 and C.19 as retention or pool policy only. | Comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and architecture decision to `C.32.PAD` when the decision claim is being made. |
 | Ideality shortcut | Fewer bearers or fewer modules is treated as architecture improvement by itself. | Function-bearing allocation, selected structure count, and architecture characteristic bundle. | Recover the function-bearing transfer; name the removed or generalized bearer, the functions still carried, the new burden, and lost structure. | Return to `C.32`; use `C.31`, `A.6.F`, `A.6.M`, and `C.19.1` when their claims are current. |
 | Universal bearer as adequacy shortcut | A universal module or general substrate is treated as architecture adequacy or scale adequacy by itself. | Scale-amenability claim, module-interface relation, evidence burden, control burden, and safety or admissibility boundary. | Treat universality as a candidate; require BLP scale window or waiver when scale advantage is claimed and record coupling, evidence, control, and source-return effects. | Stop before G.5 publication, assurance, release, or decision claims unless receiving patterns are current. |
 | Transformer and transformed architecture mismatch | The architecture of a holon that changes another holon is collapsed with the changed holon's architecture, or the changed architecture is desired without a feasible changing holon. | Transformer-side selected structures, transformed-side selected structures, and the changing relation. | Open `C.32.CONWAY`; recover the changing relation through `A.3.4`, `E.18`, work, or method patterns; generate candidate repairs that change the transformer side, the transformed side, both sides, or a bounded mismatch. | Use `A.6.M` only for module-interface repair and `C.29` only when structural similarity is claimed. |
@@ -60240,7 +60249,7 @@ Admit a new repair family only when its row tells the practitioner what to repai
 | `EverythingIsFailureCue` | Any architecture worry is admitted as a C.32.FAIL cue. | Admit only recurring failures that change the first architecture repair action. |
 | `AuditPromptAsPattern` | The row says to measure, review, or audit. | Demote it unless it names the architecture object and repair action first. |
 | `EvidenceAsRepair` | More evidence is treated as the repair. | Name the architecture repair first; evidence may follow under its own pattern. |
-| `DecisionInsideRepairCue` | The cue says which architecture to choose. | Local choice belongs to `C.11`; project architecture decision belongs to the project-selected architecture-decision pattern after the candidate repair is available. |
+| `DecisionInsideRepairCue` | The cue says which architecture to choose. | Local choice belongs to `C.11`; project architecture decision belongs to `C.32.PAD` after the candidate repair is available. |
 | `DescriptionCarrierAsRepair` | A diagram, report, dashboard, or publication face is treated as the repair. | Description use belongs to `C.30.AD`; publication-face use belongs to `E.17` or `E.24.PUB`; dashboard, report, or generated carrier use must stay under source-use or publication governance. Keep C.32.FAIL only if an architecture object under stress and repair action are named. |
 | `FunctionAsQuality` | A function such as teach, compute, certify, or regulate is treated as the architecture characteristic. | Recover the function under `A.6.F` and name the separate architecture characteristic or quality bundle. |
 | `FunctionalGraphNoBearer` | A functional graph, workflow, or method structure names a required function that no admitted bearer can perform under the module, placement, resource, control, or evidence constraints declared for the case. | Return to C.32; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. |
@@ -60274,7 +60283,7 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 | Parnas information hiding (`https://doi.org/10.1145/361598.361623`), MOSA and open-systems practice (`https://www.cto.mil/sea/mosa/`), product-line and platform practice, and the current `C.31` source line | Strong architecture lineage for stable boundaries, hidden variation, replacement policy, and interface conformance. | Repair weak-module and false-platform cues by restoring interface behavior, variation slots, substitution policy, conformance expectation, and bounded exceptions. | Repair table rows for `Weak module-interface` and `False platform`; worked cases A and B. | Module wording, platform promise, or published interface text does not establish modularity, substitutability, or architecture adequacy. |
 | ISO 42010:2022 architecture-description practice (`https://www.iso.org/standard/74393.html`), plus `C.30.AD`, `C.30.ASV`, `E.17`, and `E.24.PUB` | Current standard and FPF line for distinguishing architecture, architecture description, view, viewpoint, concern, model kind, correspondence, and publication face. | Treat architecture-description artifacts and publication faces as description or publication material until selected-structure repair is recovered. | Repair row `Proxy result or description as authority`; fields for `sourceCueRef?` and `firstGoverningPatternRef`; worked cases D and E. | A description artifact or publication face is not architecture adequacy, evidence sufficiency, or project architecture decision. |
 | Evolutionary architecture practice (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`), DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`), DORA trunk-based development (`https://dora.dev/capabilities/trunk-based-development/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current practitioner line for changeability, small batches, independent change, dependency reduction, and fast flow. | Use change pain, coordination load, and flow bottlenecks as cues for selected-structure stress while keeping role, work, transformer-side, and module-interface structures distinct. | Repair rows `Coordination cost displaced by responsibility change`, `Temporal or control coupling`, and `Transformer and transformed architecture mismatch`; field `sourceReturnCondition`; stop rule before decision work. | Fast-flow evidence can guide architecture repair only after it is interpreted as stress on named selected structures. |
-| `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`), design-space practice (`https://arxiv.org/abs/2407.18502`), architecture-spread research (`https://arxiv.org/abs/2402.19171`), and C.18 and C.19 open-ended search governance | Strong current line for hard trade-offs, dynamic candidate fronts, retained stepping stones, and preserving structurally different alternatives instead of hiding them behind one score. | Repair hidden-single-winner and static-optimum cases by rebuilding candidate palette content before publication of a selected set, local choice, or architecture decision. | Repair rows `Hidden single winner` and `Static optimum`; fields for preserved and lost structure through the C.32 palette; receiving exits to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.18`, `C.19`, `C.11`, and the project-selected architecture-decision pattern. | A score, Pareto front, generated winner, retained stepping stone, or workshop favorite is not a selected architecture. |
+| `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`), design-space practice (`https://arxiv.org/abs/2407.18502`), architecture-spread research (`https://arxiv.org/abs/2402.19171`), and C.18 and C.19 open-ended search governance | Strong current line for hard trade-offs, dynamic candidate fronts, retained stepping stones, and preserving structurally different alternatives instead of hiding them behind one score. | Repair hidden-single-winner and static-optimum cases by rebuilding candidate palette content before publication of a selected set, local choice, or architecture decision. | Repair rows `Hidden single winner` and `Static optimum`; fields for preserved and lost structure through the C.32 palette; receiving exits to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.18`, `C.19`, `C.11`, and `C.32.PAD`. | A score, Pareto front, generated winner, retained stepping stone, or workshop favorite is not a selected architecture. |
 | TRIZ ideality and laws of technical-system evolution, with `C.19.1` BLP | Older heuristic line for useful-function consolidation and removing unnecessary bearers, plus FPF scale-amenability discipline for general bearers. | Repair ideality and universal-module shortcuts by turning them into typed C.32 candidates. | Repair rows `Ideality shortcut` and `Universal bearer as adequacy shortcut`; anti-pattern rows `IdealityAsAdequacyShortcut` and `UniversalBearerAsAdequacyClaim`. | Ideality, fewer parts, or one universal module is not architecture adequacy, scale adequacy, assurance, release, or project architecture decision. |
 | Multi-objective NAS, hardware-aware co-design, scaling-law practice (`https://www.jmlr.org/papers/v20/18-598.html`, Sukthanker et al. v3 revised 2025-02-04 at `https://arxiv.org/abs/2402.18213`, Sinha et al. 2024 at `https://arxiv.org/abs/2404.12403`), and `C.19.1` BLP | Current ML architecture line makes functional graph search, resource constraints, hardware constraints, and scale-amenability visible as architecture-synthesis pressure. | Repair cases where a functional architecture or universal bearer is admitted without feasible bearers, scale window, or affected characteristics. | Repair row `Function with no feasible bearer`; anti-pattern row `FunctionalGraphNoBearer`; worked Show-F. | A functional graph, neural architecture, benchmark result, or scale curve is not architecture adequacy, assurance, release, or project architecture decision. |
 | MAAD submitted 2025-07-28 (`https://arxiv.org/abs/2507.21382`), LLM-assisted ADD submitted 2025-06-27 (`https://arxiv.org/abs/2506.22688`), and model-card or evaluation-drift practice | Current AI-assisted architecture work makes generated alternatives common, while also making evaluation boundary, hallucination, drift, and human oversight concerns that must be declared. | Treat generated outputs and model behavior records as source cues; recover source-side referent, selected structure, architecture-change kind, gain, loss, review boundary, and evidence-decay boundary. | Repair rows `Weak module-interface`, `Evidence jump`, and `Generated output as authority`; worked cases A and D. | A generated or model-bearing artifact does not carry an architecture-adequacy authority relation, evidence sufficiency, assurance, or gate passage. |
@@ -60284,8 +60293,8 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 ### C.32.FAIL:12 - Relations
 
 - **Builds on:** `C.32` for candidate palette repair, `C.32.CONWAY` for transformer and transformed architecture correspondence repair, `C.30` and `C.30.AD` for architecture description boundaries, `C.30.ASV` for architecture structural views, `C.31` for module and interface architecture, `C.32.MLAO` for cross-scope residual repairs, `C.29` for mathematical-lens use, `E.17` and `E.24.PUB` for publication-face boundaries, `A.6.P` and `E.10` for source-expression and relation recovery.
-- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project architecture-decision claims.
-- **Receiving patterns after the repair cue:** `A.10` for evidence claims, `B.3` for assurance claims, `A.20` or `A.21` for gate or release claims when those claims are being made, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project architecture decisions, only after the architecture repair cue has named the object under stress and the repair action.
+- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture-decision claims.
+- **Receiving patterns after the repair cue:** `A.10` for evidence claims, `B.3` for assurance claims, `A.20` or `A.21` for gate or release claims when those claims are being made, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture decisions, only after the architecture repair cue has named the object under stress and the repair action.
 - **Boundary:** C.32.FAIL governs repair cues for architecture-synthesis failures. It does not govern final candidate selection, evidence sufficiency, assurance, gate passage, release claims, or architecture decision.
 
 ### C.32.FAIL:13 - Footer marker
@@ -60293,6 +60302,790 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 `C.32.FAIL` governs conversion of a recognizable architecture-synthesis failure into one repair action over one architecture object under stress.
 
 ### C.32.FAIL:End
+
+## C.32.PAD - Project Architecture Decision After Candidate Synthesis
+
+> **Type:** Architecture decision pattern under C.32
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.32.PAD:1 - Problem frame
+
+Use this pattern when a project has synthesized candidate architecture configurations and must make the project architecture decision that will guide later design, implementation, construction, operation, governance, or change work.
+
+Primary working reader: an architect or architecture-responsible practitioner who has enough candidate synthesis, comparison input, and architecture-characteristic pressure to decide what architecture will be pursued now.
+
+Typical entry phrases:
+
+```text
+"We have three candidate architecture configurations; which one becomes the project decision?"
+"The candidate improves maintainability but worsens evidence reuse; what is the accepted trade-off?"
+"Developers need to know which architectural style, method, or pattern use is now required."
+"The architecture decision must say where architect-owned structure ends and developer-owned refinement starts."
+"The ADR cannot be written yet because the decision relation is not clear."
+```
+
+**First-minute use slice.** A product-family architect has a C.32 candidate palette with three module, placement, and evidence-structure variants. C.32.ACS names maintainability, substitutability, and evidence reuse as optimization indicators, and C.32.ACE has evaluated the candidates under one parity frame. Using C.32.PAD, the architect records the selected configuration, the affected selected structures, the accepted loss in evidence reuse, the method-use instruction for product teams, the work split between architecture-owned structure and team-owned refinement, the source-return condition, and the reopen trigger. The result is not an ADR file yet; it is the project architecture decision relation that an ADR or another publication form can describe.
+
+The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: a project-scoped decision relation over one bounded architecture question. It links the decision subject, candidate basis, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
+
+`ArchitectureDecisionRelation@Project` is not a new `U.*` kind. It is a non-U project relation with filled slots. When a slot becomes load-bearing as an FPF object, recover the governing pattern for that object.
+
+What goes wrong if C.32.PAD is missed: a team writes an architecture record, diagram, shortlist, ranking, or local choice without a recoverable project decision relation. Later workers cannot tell which architecture configuration is selected, which structures are affected, which method they must use, which losses were accepted, or when the decision must be reopened.
+
+What C.32.PAD buys in practice: the project can turn a candidate palette into one governed decision relation that is strong enough to guide work, publish an ADR-like record, support review, and reopen under architecture evolution.
+
+Ordinary working move: recover the live decision question, cite the candidate basis, select the architecture option or bounded exception, record the trade-off over declared architecture characteristics, then bind the decision to method-use expectations, work split, source-return, and reopen conditions.
+
+Adoption test: after using C.32.PAD, another practitioner can answer: what architecture option was selected, from which candidate basis, for which affected structures, under which architecture-characteristic trade-off, with which method and work consequences, and under which reopen condition.
+
+Not this pattern when the current work is candidate synthesis, architecture-description adequacy, ADR publication projection, adequacy evaluation, evidence, assurance, gate passage, local choice, or performed work. Use the receiving pattern named in `Relations` for those claims.
+
+The first useful output is `ArchitectureDecisionRelation@Project`:
+
+```text
+ArchitectureDecisionRelation@Project:
+  decisionId:
+  decisionSubjectRef:
+  describedHolonRef:
+  boundedContextRef:
+  decisionQuestion:
+  candidateBasisRefs:
+  comparisonOrSelectionRefs?
+  structuralInformationLensUseRefs?
+  holonTransitionOrBOSCTriggerRefs?
+  transformerTransformedCorrespondenceRef?
+  selectedArchitectureOptionRefs:
+  selectedStructureEffects:
+    - structureKindRef:
+      selectedStructureRef:
+      decisionEffect:
+      governingPatternRef:
+  architectureCharacteristicTradeoffs:
+    - architectureCharacteristicRef:
+      criteriaRowRef?
+      expectedGain:
+      acceptedLoss:
+      evalResultRef?
+      guardrailRef?
+  rationaleRefs:
+  rejectedOptionRefs:
+  consequenceRows:
+  architectureDescriptionRefs:
+  methodUseInstructions:
+    - methodDescriptionRefOrPatternRef:
+      expectedStructureEffect:
+      responsibleRoleRef:
+      workBoundaryRef:
+      readinessOrGateExitRef?
+  architectDeveloperSplit:
+    architectOwnedStructureRefs:
+    developerOwnedRefinementRefs:
+    sourceReturnCondition:
+  publicationProjectionRef?
+  evidenceOrAssuranceExitRefs?
+  governanceExitRefs?
+  reopenConditions:
+  supersedesDecisionRefs?
+  status:
+```
+
+The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this project instance points to the value governed by the slot-bearing relation.
+
+### C.32.PAD:2 - Problem
+
+
+Architecture synthesis produces candidates; project work still needs a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the project relation that says which architecture option is now pursued and what follows from that selection.
+
+The problem is difficult because architecture decisions sit between structures and methods. Architecture descriptions describe selected structures of the target holon. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work produces or preserves the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the target system. The decision relation must keep both sides visible: intended structure of the transformed holon and method expectations for the transformer holon.
+
+The problem is also multilevel. The architect may decide selected structures at one holon level while developers later refine lower-level structures. A decision must therefore say where the architect-owned architecture claim stops, where developer-owned refinement starts, which source detail must remain recoverable, and which result can reopen the decision. If that boundary is missing, architecture governance becomes either empty advice or uncontrolled micro-management.
+
+Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or transformer-transformed mismatch appears.
+
+C.32.PAD solves the post-synthesis decision problem by making the decision relation explicit before any ADR-like publication projection is written.
+
+### C.32.PAD:3 - Forces
+
+| Force | Tension |
+|---|---|
+| Candidate plurality | Several candidate configurations can be valid under different trade-offs, while project work needs one current direction or a bounded exception. |
+| Trade-off visibility | Architecture characteristics compete; a decision that hides accepted losses cannot be responsibly executed or reopened. |
+| Structure and method coupling | The decision must govern intended structures of the target holon and may also prescribe developer methods that produce those structures. |
+| Work split | Architect-owned structure and developer-owned refinement must be separated without severing source return. |
+| Evolution | A decision must close enough work for now while staying reopenable when context, eval readings, or candidates change. |
+| Publication pressure | Teams often want an ADR file before the decision relation is recoverable. |
+
+### C.32.PAD:4 - Solution
+
+Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publication record. Treat it as the project decision relation that binds candidate basis, selected architecture option, affected structures, architecture-characteristic trade-offs, rationale, consequences, method expectations, work split, and reopen conditions.
+
+Work in this order:
+
+1. Name the decision subject: described holon, bounded context, decision question, and status.
+2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when transformer and transformed structures were synthesized together, and `C.32.FAIL` for repaired candidate errors.
+3. Cite comparison or selection input only when it exists. Explicit comparison belongs to `A.19.CPM`; set-returning selection belongs to `A.19.SelectorMechanism`; selected-set publication belongs to `G.5`; local choice belongs to `C.11`.
+4. State the selected architecture option or bounded exception. Name the affected selected structures and the governing pattern for each structure claim.
+5. Record the architecture-characteristic trade-off. Use criteria rows from `C.32.ACS`, eval results from `C.32.ACE`, measurement support from `C.16`, Q-Bundles from `C.25`, modularity or scale support from `C.31`, and `C.29` structural-information lens uses for compressed recoverable structure, accepted description loss, hidden dependency, and source-return. None of those lenses, measures, or bundles decides the architecture by itself.
+6. Record rationale, rejected options, accepted losses, and consequences. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
+7. Bind the decision to architecture descriptions. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
+8. Bind the decision to method-use instructions when the architect needs developers to use a method, pattern, style, toolchain step, or work practice so the target holon gains the intended structure. Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `A.6.M`, `E.8`, `E.11.PUR`, and `C.24` according to the live claim.
+9. State the architect-developer split. Name architect-owned selected structures, developer-owned refinement objects, source-return conditions, readiness exits, and governance exits. When the split depends on holon level, changed whole, or BOSC-triggered boundary pressure, fill `holonTransitionOrBOSCTriggerRefs?` through `B.2.P` claim-kind recovery or `B.2` whole reidentification instead of leaving a generic level note.
+10. Choose a publication projection only after the decision relation is clear. Use `C.32.ADR` for ADR-like publication projection; use `E.17` and `E.24.PUB` for publication-face and publication-use claims.
+11. Add evidence, assurance, gate, and governance exits only when those claims are being made. Use `A.10`, `B.3`, `A.21`, and the local governance pattern rather than adding those statuses to the decision relation by name.
+12. Write reopen and supersession conditions. Reopen when the candidate basis changes, a protected architecture characteristic crosses its guardrail, the transformer structure can no longer produce the transformed structure, a stronger source changes the accepted loss, or the decision's method-use instruction proves unusable.
+
+#### C.32.PAD:4.1 - Decision readiness
+
+A C.32.PAD decision is ready to draft when the current decision relation can cite at least one candidate basis, one affected selected structure, one architecture-characteristic trade-off or declared reason for no live trade-off, one expected work consequence, one reopen condition, and any triggered `holonTransitionOrBOSCTriggerRefs?` or `structuralInformationLensUseRefs?` needed to preserve source return.
+
+If the candidate basis is absent, return to `C.32`. If architecture-characteristic rows are absent, return to `C.32.ACS` or `C.25`. If the decision only says "the metric is best", return to `C.32.ACE`, `C.16`, or `A.19.CPM` before deciding. If the intended work method is not recoverable, return to `A.15`.
+
+#### C.32.PAD:4.2 - Constructive architecture decision path
+
+Some architecture decisions are constructive: they prescribe methods that, when used by developer roles, produce or preserve the intended structures. Admit that path only when the decision names:
+
+- the architecture claim or selected structure to be produced or preserved;
+- the method description, architectural style, pattern use, or work practice to be used;
+- the developer role or transformer holon expected to use it;
+- the expected structure effect on the transformed holon;
+- the work-planning boundary and readiness or gate exit;
+- the source-return condition and reopen trigger.
+
+This keeps architecture decisions connected to work without treating the decision description, ADR file, method description, or performed work as the architecture itself.
+
+#### C.32.PAD:4.3 - Minimum sufficient relation and slot-change impact
+
+A small complete PAD instance can be this short:
+
+```text
+ArchitectureDecisionRelation@OrderFlow:
+  decisionSubjectRef: order-integration architecture for product-family Q3
+  describedHolonRef: product-family order-flow system
+  candidateBasisRefs: [C32CandidatePalette:order-flow-2026-06]
+  selectedArchitectureOptionRefs: [event-carried integration with payment exception]
+  selectedStructureEffects:
+    - structureKindRef: module structure
+      selectedStructureRef: order events between service modules
+      decisionEffect: preserve service substitutability, accept added event-schema governance
+      governingPatternRef: C.30.ASV
+  architectureCharacteristicTradeoffs:
+    - architectureCharacteristicRef: substitutability
+      expectedGain: service replacement without order-flow rewrite
+      acceptedLoss: additional schema-version coordination
+      guardrailRef: version-skew eval band
+  methodUseInstructions:
+    - methodDescriptionRefOrPatternRef: event-schema change method
+      expectedStructureEffect: compatible event contracts across service modules
+      responsibleRoleRef: service-team developer role
+      workBoundaryRef: team-owned schema refinement after architect-owned event boundary
+  architectDeveloperSplit:
+    architectOwnedStructureRefs: [event boundary, payment exception]
+    developerOwnedRefinementRefs: [schema fields inside approved event boundary]
+    sourceReturnCondition: return to PAD when refinement changes event boundary or version-skew band
+  holonTransitionOrBOSCTriggerRefs?: [B.2.P: no new operational whole claimed for team-local schema refinement]
+  structuralInformationLensUseRefs?: [C.29: event-flow view compresses deployment and rollout structure; source-return keeps model refs recoverable]
+  publicationProjectionRef?: C.32.ADR:order-flow-adr
+  reopenConditions: [payment latency guardrail crossed, schema-version coordination cost guardrail crossed]
+  status: acceptedForDeveloperWork
+```
+
+When a filled field changes, repair the smallest owner that governs the changed content:
+
+| Changed filled field | Immediate repair locus |
+|---|---|
+| `candidateBasisRefs` or `selectedArchitectureOptionRefs` | Return to `C.32`, `C.32.MLAO`, comparison or selection inputs, then update PAD before ADR projection. |
+| `selectedStructureEffects` | Repair the architecture claim or selected-structure view in `C.30`, `C.30.AD`, or `C.30.ASV`; then update PAD consequences. |
+| `architectureCharacteristicTradeoffs` | Repair `C.32.ACS`, `C.32.ACE`, `C.25`, `C.16`, or comparison input before relying on the decision. |
+| `methodUseInstructions` or `architectDeveloperSplit` | Repair method, work, role, readiness, and work-boundary claims through `A.15` family, `E.8`, `E.11.PUR`, or `C.24`. |
+| `holonTransitionOrBOSCTriggerRefs?` | Use `B.2.P` for wording and claim-kind recovery; use `B.2` only when the decision depends on whole reidentification. |
+| `structuralInformationLensUseRefs?` | Use `C.29` to state which structure is preserved, compressed, hidden, or recoverable; return to source when the accepted loss changes. |
+| `publicationProjectionRef?` | Repair only the publication projection through `C.32.ADR`, `E.17`, or `E.24.PUB`; do not rewrite the decision by template pressure. |
+| `reopenConditions` or `supersedesDecisionRefs?` | Update PAD and the active ADR-like projection; old decisions remain historical unless a governed archival policy says otherwise. |
+
+### C.32.PAD:5 - Archetypal Grounding
+
+
+**Software service architecture.** A platform team compares synchronous service calls, event-carried integration, and a bounded shared kernel. The selected option is event-carried integration for order events with a bounded exception for payment authorization. C.32.PAD records affected module and information structures, latency and substitutability trade-offs, the method-use instruction for service teams, the event-schema source-return condition, and the reopen trigger when payment volume crosses the declared eval band.
+
+**Manufacturing fixture architecture.** A production architect compares a dedicated fixture per product, a universal fixture with adapters, and a mixed cell layout. The selected option uses a universal fixture only for products inside a scale window. C.32.PAD records module, placement, maintenance, and evidence-structure effects, the accepted setup-time loss, the method instruction for cell design, and the trigger for returning to candidate synthesis when adapter complexity exceeds the guardrail.
+
+**Method-family architecture.** A review-method owner compares role-specialized review, peer rotation, and tool-supported triage. The selected option uses peer rotation plus a tool-supported evidence handoff. C.32.PAD records role, method, evidence, and information structures, the trade-off between teachability and evidence custody, and the developer-owned refinement boundary for local checklists.
+
+**Transformer and transformed holons.** An automation program changes both the toolchain that transforms products and the product architecture being transformed. C.32.CONWAY supplies the correspondence frame. C.32.PAD records which toolchain structure is required to produce the target product structure and which mismatch will reopen the decision.
+
+**Digital-twin structural information loss.** A built-asset team publishes a 6D-style digital-twin decision view for construction planning. The view intentionally hides supplier-contract and temporary-work structures. C.32.PAD records the selected building, placement, schedule, cost, operation, and evidence structures that the decision uses; `C.29` records which hidden structures remain recoverable and which accepted loss reopens the decision. The view count, file, and model do not become the decision authority.
+
+### C.32.PAD:6 - Bias-Annotation
+
+| Risk handled | How C.32.PAD handles it |
+|---|---|
+| Record-before-decision drift | The pattern requires `ArchitectureDecisionRelation@Project` before ADR-like publication projection. |
+| Description-as-decision drift | Architecture descriptions remain `C.30.AD` objects; PAD records the decision relation that may cite them. |
+| Metric-winner drift | Eval readings and metrics can inform trade-offs but do not select or decide by themselves. |
+| Method-structure collapse | Method-use instructions and intended target structures are both recorded and kept distinct. |
+| Work-split loss | Architect-owned structures, developer-owned refinement, and source-return conditions are explicit. |
+| Evolution lock-in | Supersession and reopen conditions are part of the decision relation. |
+
+### C.32.PAD:7 - Conformance Checklist
+
+| Requirement | Required result |
+|---|---|
+| `CC-PAD-1` | The decision subject, described holon, bounded context, and decision question are explicit. |
+| `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
+| `CC-PAD-3` | The selected architecture option or bounded exception is named. |
+| `CC-PAD-4` | Affected selected structures are named with governing pattern refs. |
+| `CC-PAD-5` | Architecture-characteristic trade-offs, accepted losses, and guardrails are recorded. |
+| `CC-PAD-6` | Architecture-description refs, method-use instructions, and performed-work boundaries remain distinct. |
+| `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
+| `CC-PAD-8` | Triggered holon-transition or BOSC boundary pressure cites `B.2.P` or `B.2`, and structural-information loss or compression cites `C.29`. |
+| `CC-PAD-9` | ADR-like publication, evidence, assurance, gate, comparison, selection, selected-set publication, local choice, and work claims exit to their receiving patterns. |
+
+### C.32.PAD:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| `ADRBeforeDecisionRelation` | The team starts from an ADR template and fills prose before the selected option, trade-off, and work consequences are recoverable. | Draft `ArchitectureDecisionRelation@Project` first; then use `C.32.ADR` only as publication projection. |
+| `CandidateWinnerByMetric` | One score, benchmark, or eval reading is treated as the architecture decision. | Return to `C.32.ACS`, `C.32.ACE`, `C.16`, and `A.19.CPM`; decide only after trade-offs and accepted losses are recorded. |
+| `StructureOnlyDecision` | The decision names a target structure but gives no method-use or work-split instruction for those who must realize it. | Add method-description or pattern-use refs, responsible roles, work boundary, readiness exit, and expected structure effect; use `A.15` for work claims. |
+| `MethodOnlyDecision` | The decision says which style, pattern, or tool to use but not which target structures it is expected to produce or preserve. | Name the intended selected structures and architecture-characteristic trade-offs; return to `C.30`, `C.30.ASV`, or `C.32` if the structure is not recoverable. |
+| `FrozenArchitectureDecision` | The decision has no source-return or reopen condition. | Add eval guardrails, source-currentness return, transformer-transformed mismatch trigger, or supersession rule. |
+| `LensOrQBundleAsDecisionAuthority` | A view, structural-information lens, measurement row, Q-Bundle, or eval reading is treated as if it selected the architecture. | Return the source to its owner: `C.29` for lens use, `C.25` for Q-Bundle, `C.16` for measurement, `C.32.ACE` for eval, and PAD for the actual decision relation. |
+| `GovernanceByImplication` | Teams are expected to follow the decision, but no readiness, gate, evidence, assurance, or governance exit is named. | Add the exact receiving pattern refs; do not import those statuses into PAD. |
+
+### C.32.PAD:9 - Consequences
+
+| Consequence | Benefit | Cost |
+|---|---|---|
+| The project decision relation is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect must do decision work before documentation work. |
+| Structure and method are coupled without collapsing. | Developers can see both intended architecture structures and required methods. | The decision record needs enough detail to avoid empty method instructions. |
+| Trade-offs and accepted losses are recorded. | Later teams can reopen the decision under changed characteristics instead of guessing the original rationale. | Decisions may look less tidy because loss is visible. |
+| Architect-developer split is stated. | Team refinement can proceed without losing source return. | Architecture governance must maintain split and reopen conditions. |
+
+### C.32.PAD:10 - Rationale
+
+C.32.PAD exists because candidate synthesis and architecture decision are different work moments. C.32 builds the option space; PAD commits the project to a current architecture option or bounded exception and records the method and work consequences of that commitment.
+
+The pattern keeps three objects apart: `ArchitectureOf@Context` as the architecture claim over structures, `ArchitectureDecisionRelation@Project` as the project relation that selects and obligates, and `ArchitectureDecisionDescription@Project` as the description that can be published in ADR-like or other forms. This lets FPF reuse its existing description, method, work, evidence, assurance, measurement, and publication patterns instead of creating a separate architecture-only duplicate ontology.
+
+The pattern is holonic because the same decision relation can apply to systems, organizations, methods, roles, built assets, AI-agent workflows, evidence practices, or other admitted holon kinds after affected structures, bearers, roles, and work boundaries are rebound.
+
+### C.32.PAD:11 - SoTA-Echoing
+
+These rows document transfers from source practice into C.32.PAD. Keep a source citation only when it changes a decision-relation field, boundary, or reopen condition.
+
+| Source to inspect | Why this source is load-bearing here | Transfer into PAD | Concrete PAD mutation | Blocked overread |
+|---|---|---|---|---|
+| ISO/IEC/IEEE 42010:2022 official standard (`https://www.iso.org/standard/74393.html`; IEEE page `https://standards.ieee.org/ieee/42010/6846/`) | Current official source for architecture-description requirements; it explicitly scopes itself to AD structure and expression, not architecting methods or the architecture itself. | Keep architecture descriptions as description objects and use PAD for the decision relation that may cite them. | PAD has `architectureDescriptionRefs`, selected-structure effects, and source-return conditions rather than treating a view, viewpoint, file, or model as the decision. | ISO 42010 architecture-description structure does not replace C.32 synthesis, A.15 method work, or PAD decision relation. |
+| Michael Nygard, `Documenting Architecture Decisions` (`https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions`) | Practitioner source for small, statused records that preserve context, decision, and consequences across time. | Use context, decision, status, consequences, and supersession as publication-relevant decision-description fields. | PAD requires status, consequences, and supersession or reopen conditions before ADR projection. | ADR records are not the project decision relation and do not by themselves ground selected structures. |
+| MADR 4.x (`https://adr.github.io/madr/`) | Current ADR practice with options, outcome, status, links, and confirmation pressure. | Require candidate basis, outcome, decision status, links to related decisions, and confirmation or eval exits. | PAD separates candidate basis, selected option, consequence rows, method-use instruction, and reopen conditions. | MADR's broad "any decision" use is not imported as FPF architecture-decision ontology. |
+| Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) | Current practitioner source for guided incremental architecture change and source-side fitness-function wording. | Treat eval support as `C.32.ACE` inputs and reopen conditions, not as the decision itself. | PAD requires eval refs, guardrails, and reopen conditions when evolutionary feedback guides the decision. | Fitness-function terminology is not imported as an FPF object name. |
+| Ford, Richards, Sadalage, and Dehghani, `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Current practitioner source for trade-offs, least-worst choices, and architecture characteristics under uncertainty. | Make accepted losses and protected counter-characteristics mandatory decision content. | PAD records architecture-characteristic trade-offs, rejected options, accepted losses, and consequences. | A trade-off discussion does not replace candidate synthesis, comparison, evidence, or governance. |
+| NASA Systems Engineering Handbook, decision analysis and trade-study practice (`https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf`) | Non-software engineering source for alternatives, selection criteria, assumptions, limitations, recommendation, impacts, and final decision documentation. | Generalize PAD beyond software ADR practice by requiring candidate basis, selection criteria or comparison refs, assumptions or accepted losses, impacts, and decision-maker commitment. | PAD carries `candidateBasisRefs`, `comparisonOrSelectionRefs?`, trade-offs, consequence rows, status, and reopen conditions for engineering decisions such as fixtures, vehicles, built assets, or methods. | NASA trade-study process is not imported as FPF architecture ontology and does not by itself decide the architecture. |
+| Conway and Team Topologies source line, mediated through `C.32.CONWAY` | Architecture of the transformer holon and transformed holon can constrain each other. | Use correspondence as decision content when work organization, method, toolchain, or team structure must fit target architecture. | PAD may cite `transformerTransformedCorrespondenceRef` and reopen on mismatch. | Team structure is not automatically the target holon's architecture; correspondence must be recovered through C.32.CONWAY. |
+| Current FPF `A.15`, `E.8`, `E.11.PUR`, `C.30.AD`, `C.32`, `C.32.ACS`, `C.32.ACE`, `C.32.ADR`, and `C.32.ADA` | Existing FPF ontology for method descriptions, pattern use, architecture descriptions, candidate synthesis, evals, publication projection, and adequacy evaluation. | Keep PAD narrow: decision relation after candidate synthesis. | Relation and conformance rows send neighboring claims to their governing patterns. | PAD does not duplicate FPF method, publication, evidence, assurance, or pattern-form doctrine. |
+
+**Source-currentness boundary.** Recheck a source row when an ADR template, architecture-description standard, evolutionary-architecture practice, FPF pattern, or project governance practice changes the decision field, method-work boundary, or reopen condition that PAD uses.
+
+### C.32.PAD:12 - Relations
+
+- **Builds on:** `C.30`, `C.30.ASV`, `C.30.AD`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.25`, `C.16`, `C.29`, `C.31`, and `C.31.ASAP`.
+- **Comparison and selection boundary:** `A.19.CPM` compares, `A.19.SelectorMechanism` returns a selected set, `G.5` publishes a selected set, and `C.11` governs local choice. PAD records the project architecture decision relation after those inputs are sufficient.
+- **Description boundary:** `C.30.AD` and `C.30.ASV` govern architecture-description and selected-structure view adequacy. PAD may cite those descriptions but does not replace them.
+- **Publication boundary:** `C.32.ADR` projects an `ArchitectureDecisionDescription@Project` into ADR-like form. `E.17` and `E.24.PUB` govern publication faces and publication-use claims.
+- **Adequacy boundary:** `C.32.ADA` evaluates a PAD decision relation, method docking, and publication projection for a declared use.
+- **Method and work boundary:** `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` govern method descriptions, work plans, readiness, pattern-use recommendations, and agentic tool-use work.
+- **Evidence, assurance, and gate boundary:** `A.10`, `B.3`, and `A.21` govern evidence relations, assurance calculus, and gate profiles when those claims are current.
+
+### C.32.PAD:13 - Footer marker
+
+C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the decision subject, candidate basis, selected architecture option or bounded exception, affected structures, architecture-characteristic trade-offs, accepted losses, rationale, consequences, architecture-description refs, method-use and work-split expectations, source-return condition, triggered holon-transition or BOSC refs, triggered structural-information lens uses, publication projection exit, and reopen or supersession conditions.
+
+### C.32.PAD:End
+
+## C.32.ADR - Architecture Decision Record Projection
+
+> **Type:** Architecture publication pattern under C.32
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.32.ADR:1 - Problem frame
+
+Use this pattern when an `ArchitectureDecisionRelation@Project` or equivalent project architecture decision must be published as an ADR-like record, decision memo, trade-study record, certification rationale, or similar decision-description record.
+
+Primary working reader: an architect or architecture-responsible practitioner preparing a decision record for developers, reviewers, maintainers, operators, certifiers, or future architects.
+
+Typical entry phrases:
+
+```text
+"The project decision is made; now we need an ADR that future developers can use."
+"The record must show options, decision, rationale, consequences, and confirmation without becoming the decision itself."
+"This is not a software project; can a trade-study memo play the ADR role?"
+"The ADR package must link to architecture views without duplicating the whole architecture description."
+"A future team must know when this decision is superseded or violated."
+```
+
+**First-minute use slice.** A platform architect has a C.32.PAD decision relation selecting event-carried integration with a bounded exception. Using C.32.ADR, the architect creates an ADR projection with section functions for problem frame, candidate options, decision outcome, rationale, consequences, method-use instruction, work split, confirmation eval, source-return links, and supersession. The file is short enough for developers to read, but it remains a publication projection of the decision description, not the decision relation and not the architecture itself.
+
+The primary `EntityOfConcern` is `ArchitectureDecisionRecordProjection@Project`: a publication projection of `ArchitectureDecisionDescription@Project` into an ADR-like record or package. Select this pattern only when the work is to publish or package that decision description for a declared reader use; generic ADR advice that cannot be mapped to decision-section functions stays outside C.32.ADR.
+
+`ArchitectureDecisionRecordProjection@Project` is not a new `U.*` kind and not a new root publication ontology. It is a project publication projection with filled section-function rows. Use `E.17` and `E.24.PUB` for publication-face and publication-use claims; use `C.32.PAD` for the decision relation.
+
+What goes wrong if C.32.ADR is missed: the project either publishes a record-shaped text that hides the actual architecture decision, or it copies architecture descriptions, diagrams, and method material into a record without telling the reader what decision was made and what work must change.
+
+What C.32.ADR buys in practice: a decision record can be small, readable, updateable, and still tied to candidate synthesis, selected structures, architecture characteristics, method-use instructions, work split, confirmation evals, and source-return.
+
+Ordinary working move: start from a PAD decision relation, select the record's publication scope, map each necessary section to the decision content it carries, then publish only what the reader needs to use, check, or reopen the decision.
+
+Adoption test: after using C.32.ADR, a future reader can recover the decision question, considered options, outcome, rationale, consequences, required method or work change, confirmation or eval path, source links, and supersession condition without mistaking the record for the architecture or the decision relation.
+
+Not this pattern when the decision relation is not yet recoverable, the current work is architecture-description adequacy, the record is a general MVPK publication face, or the claim is evidence, assurance, gate passage, local choice, performed work, or pattern authoring. Use the receiving pattern named in `Relations`.
+
+The first useful output is `ArchitectureDecisionRecordProjection@Project`:
+
+```text
+ArchitectureDecisionRecordProjection@Project:
+  projectionId:
+  architectureDecisionRelationRef:
+  architectureDecisionDescriptionRef:
+  publicationCarrierRef:
+  publicationScopeRef:
+  intendedReaderRefs:
+  status:
+  sectionFunctionRows:
+    - sectionFunction:
+      sectionHeadingOrCarrierSlot:
+      sourceDecisionSlotRefs:
+      requiredReaderUse:
+      omittedByDesign?
+      sourceReturnCondition?
+  architectureDescriptionRefs:
+  methodAndWorkRefs:
+  confirmationOrEvalRefs:
+  supersedesRecordRefs?
+  supersededByRecordRef?
+  updateOrReopenCondition:
+  publicationUseRefs?
+```
+
+### C.32.ADR:2 - Problem
+
+ADR practice is useful because it makes architectural decisions small enough to read and update. It is also easy to misuse. A record can become a substitute for the decision relation, a loose essay about architecture, a copied architecture description, or a method prescription with no recoverable target structure.
+
+C.32.ADR treats ADR as a publication projection. The project decision relation belongs to `C.32.PAD`. The architecture description belongs to `C.30.AD` and related view patterns. The method description or pattern-use recommendation belongs to `A.15`, `E.8`, and `E.11.PUR` when those claims are live. The ADR-like record publishes a decision description for a declared reader and use.
+
+The section question is therefore not "which headings are allowed?" The section question is "which decision functions must a reader recover?" A heading can vary by organization or industry, but the record must carry the decision question, candidate options or reason no candidate set is live, outcome, rationale, consequences, method-use instruction when the decision guides work, work split, confirmation or eval path, source-return, status, and supersession or reopen condition.
+
+ADR-like projection is not software-only. Engineering trade-study records, safety-certification rationale, design review memos, BIM decision logs, method-governance records, and organization-design records can play the same publication role after the project decision relation and record use are typed. The source form may differ; the FPF section functions stay recoverable.
+
+### C.32.ADR:3 - Forces
+
+| Force | Tension |
+|---|---|
+| Reader economy | The record should be short enough to use, but not so short that decision content disappears. |
+| Section variation | ADR templates and engineering memos differ, while the decision functions must remain recoverable. |
+| Publication and decision separation | The record publishes a description of the decision; it does not become the decision relation. |
+| Architecture and method coupling | A record often needs to cite both target structures and required developer methods. |
+| Evolution | Supersession, violation detection, and update conditions must be visible without making the record a governance system. |
+| Cross-domain use | Software ADR practice must generalize to other holon kinds without importing software-only assumptions. |
+
+### C.32.ADR:4 - Solution
+
+Create `ArchitectureDecisionRecordProjection@Project` from an existing `ArchitectureDecisionRelation@Project` and `ArchitectureDecisionDescription@Project`. If the decision relation is missing, return to `C.32.PAD` before writing the record.
+
+Work in this order:
+
+1. Name the publication carrier and intended readers. The carrier can be a Markdown ADR file, decision memo, trade-study record, engineering change note, certification rationale, design-review record, or another typed file or record.
+2. Cite the decision relation and decision description. If the record cannot cite them, draft them first.
+3. Choose the smallest record scope that lets intended readers use the decision. Avoid copying architecture descriptions or full method descriptions; cite them by value where possible.
+4. Map section functions to headings or carrier slots. Use local headings if needed, but keep the function rows recoverable.
+5. Carry the candidate basis. Record candidate options from `C.32` or the reason no candidate-set question is live. Do not invent options in the ADR after the decision.
+6. Carry the decision outcome. State the selected architecture option, bounded exception, or supersession relation from PAD.
+7. Carry rationale, accepted losses, and consequences. Include architecture-characteristic trade-offs and guardrails, not only benefits.
+8. Carry method-use instruction and work split when the decision guides developer work. Cite `A.15`, method descriptions, pattern-use refs, readiness exits, and expected structure effects rather than burying them in prose.
+9. Carry confirmation, eval, or violation-detection exits. Use `C.32.ACE`, `C.16`, `A.10`, `B.3`, `A.21`, or governance patterns when those claims are live.
+10. Carry publication and source-return boundaries. Use `E.17`, `E.24.PUB`, and `C.30.AD` for publication-face and architecture-description claims.
+11. Carry status, supersession, and update conditions. Old records remain useful as history when superseded; the active decision relation tells which one governs current work.
+
+#### C.32.ADR:4.1 - Required section functions
+
+The following section functions are required unless the decision relation states why the function is not live for this record use.
+
+| Section function | What the record must let the reader recover |
+|---|---|
+| Identity and status | Record id, title, status, date or version, relation to superseded or superseding records. |
+| Problem frame and decision question | The bounded architecture question, described holon, context, and current reader use. |
+| Forces and architecture characteristics | The architecture characteristics, constraints, concerns, and trade-offs that made the decision nontrivial. |
+| Candidate options | Candidate options, rejected options, bounded exception, or stated reason no candidate-set question is live. |
+| Decision outcome | The selected architecture option and affected selected structures. |
+| Rationale | Why this outcome is acceptable now, including accepted losses and protected guardrails. |
+| Consequences | Expected effects on structures, methods, teams, costs, risks, evidence, operation, and later change. |
+| Method-use instruction | Required style, pattern use, method description, or work practice, when the decision changes developer work. |
+| Work split | Architect-owned selected structures, developer-owned refinement, readiness or gate exits, and source-return condition. |
+| Confirmation or eval exit | How the decision can be checked, evaluated, monitored, or found violated. |
+| Publication boundary | Links to architecture descriptions, views, evidence, assurance, and source material without making the ADR the source object. |
+
+#### C.32.ADR:4.2 - ADR package use
+
+When several records form a package, create a package map that names active, proposed, superseded, and related records. A package map is a publication navigation aid. It does not merge decisions, replace PAD relations, or decide record priority by file order alone.
+
+When one decision changes another, use explicit supersession or amendment links. Do not rewrite history by deleting the old record unless the project has a governed archival policy.
+
+### C.32.ADR:5 - Archetypal Grounding
+
+**Software ADR.** A team publishes an ADR for event-carried integration. The record uses local headings, but the function rows recover context, options, selected outcome, rationale, consequences, method-use instruction for event schema work, confirmation eval, and supersession. Developers can see what to implement and when the decision reopens.
+
+**Manufacturing trade-study record.** A fixture decision is published as an engineering trade-study memo rather than a Markdown ADR. The memo carries candidate fixture variants, selected universal-fixture scope, accepted setup-time loss, cell-design method instruction, evidence links, and reopen threshold. C.32.ADR admits the memo because it projects the decision description for the intended reader.
+
+**Certification rationale.** A regulated product records a safety-architecture decision in a certification rationale. The record carries the decision outcome, rationale, evidence refs, architecture-description refs, and confirmation path, while evidence and assurance claims stay in `A.10` and `B.3`.
+
+**Method-governance record.** A method family decides that reviewers must use an evidence handoff pattern before final review. The ADR-like record cites the method description and expected evidence-structure effect; it does not become the method itself or the performed review work.
+
+### C.32.ADR:6 - Bias-Annotation
+
+| Risk handled | How C.32.ADR handles it |
+|---|---|
+| Template-first writing | The record starts from a PAD decision relation and section functions, not from a blank template. |
+| Publication-as-decision drift | The ADR projection cites the decision relation and remains a publication object. |
+| Architecture-copy drift | Architecture descriptions are cited through `C.30.AD`; the record carries only decision-relevant references. |
+| Method prose drift | Method-use instruction is typed through `A.15`, `E.8`, or `E.11.PUR` when live. |
+| History loss | Status and supersession are record functions; old records stay recoverable unless governed archival policy says otherwise. |
+| Software-only overread | ADR-like projection is generalized by section function and reader use, not by software tool convention. |
+
+### C.32.ADR:7 - Conformance Checklist
+
+| Requirement | Required result |
+|---|---|
+| `CC-ADR-1` | The record cites an `ArchitectureDecisionRelation@Project` or states the equivalent accepted decision relation by value. |
+| `CC-ADR-2` | The record's publication carrier, intended readers, scope, and status are explicit. |
+| `CC-ADR-3` | Section functions are mapped to headings or carrier slots. |
+| `CC-ADR-4` | Problem frame, forces, candidate options, outcome, rationale, consequences, confirmation or eval exit, and supersession or update condition are recoverable. |
+| `CC-ADR-5` | Method-use instruction and work split are included when the decision guides developer work. |
+| `CC-ADR-6` | Architecture descriptions, views, evidence, assurance, gate, method, work, and publication claims exit to their governing patterns. |
+| `CC-ADR-7` | The record does not create new candidate options, new architecture-description adequacy, or new evidence authority by prose. |
+
+### C.32.ADR:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| `BlankTemplateADR` | A template is filled with plausible prose but no PAD relation can be cited. | Draft or recover `ArchitectureDecisionRelation@Project` with `C.32.PAD`; then project it into the record. |
+| `ArchitectureDescriptionDump` | The ADR copies diagrams, views, or model text and the decision outcome is hard to find. | Keep the record small; cite architecture-description refs and restore decision outcome, rationale, consequences, and work effects. |
+| `OptionsInventedInRecord` | The ADR lists options that were not part of candidate synthesis or accepted decision basis. | Return to `C.32`, `A.19.CPM`, or PAD; update the decision relation before updating the record. |
+| `MethodInstructionHiddenInRationale` | Developers are expected to change work, but the instruction is buried in rationale prose. | Add a method-use section function with method refs, responsible roles, expected structure effect, and readiness or gate exit. |
+| `NoConfirmationPath` | Future teams cannot tell whether the decision still holds or has been violated. | Add confirmation, eval, guardrail, source-return, or supersession condition; use the receiving evaluation or governance pattern. |
+| `PackageOrderAsGovernance` | The latest file by number is treated as active without explicit status or supersession. | Add package map or status fields; make active, proposed, superseded, and related relations explicit. |
+
+### C.32.ADR:9 - Consequences
+
+| Consequence | Benefit | Cost |
+|---|---|---|
+| ADR is a publication projection. | Records stay readable while decision authority remains in PAD. | Authors must maintain the relation between record and decision. |
+| Section functions are stable even when headings vary. | Software ADR, engineering memo, and certification rationale can be compared by function. | Local templates must be mapped rather than copied blindly. |
+| Method and work effects are visible. | Developers can act on the decision instead of only reading rationale. | Records may need exact method refs and work-split refs. |
+| Supersession is explicit. | Future readers can distinguish history from current decision. | Record packages need simple upkeep. |
+
+### C.32.ADR:10 - Rationale
+
+ADR practice is valuable when it makes architectural decisions communicable and revisitable. It becomes weak when a record is treated as the decision itself or when a template substitutes for decision work.
+
+C.32.ADR therefore uses the record as a projection. The decision relation is made in `C.32.PAD`; the record publishes a decision description for a declared reader. This preserves the strongest ADR practice, small and updateable records, while adding FPF kind control for architecture descriptions, method descriptions, evidence, assurance, gate, publication, and performed work.
+
+The pattern also generalizes ADR practice beyond software by using section functions rather than software-specific carrier assumptions. A record can be a Markdown file, engineering memo, or certification rationale if it projects the decision description and keeps receiving claims with their governing patterns.
+
+### C.32.ADR:11 - SoTA-Echoing
+
+These rows document transfers from source practice into C.32.ADR. Keep a source citation only when it changes section function, projection boundary, or update condition.
+
+| Source to inspect | Why this source is load-bearing here | Transfer into ADR projection | Concrete ADR mutation | Blocked overread |
+|---|---|---|---|---|
+| Michael Nygard, `Documenting Architecture Decisions` (`https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions`) | Foundational practitioner source for small decision records with context, decision, status, and consequences. | Preserve the small-record and future-reader practice. | C.32.ADR requires status, context, decision outcome, consequences, and supersession or reopen condition. | The ADR record is not the decision relation or the architecture description. |
+| MADR 4.x (`https://adr.github.io/madr/`) | Current Markdown ADR practice with options, outcome, status, links, and confirmation. | Use options, outcome, links, and confirmation as section functions rather than fixed FPF ontology. | Required section functions include candidate options, decision outcome, confirmation or eval exit, and package links. | "Any decision" scope is not imported as architecture-decision kind expansion. |
+| ISO/IEC/IEEE 42010:2022 official standard (`https://www.iso.org/standard/74393.html`; IEEE page `https://standards.ieee.org/ieee/42010/6846/`) with the 42010 companion site as secondary reading (`https://iso-architecture.org/42010/`) | Current official source for architecture descriptions, viewpoints, views, correspondence, and rationale. | Keep architecture views as cited description refs inside the ADR projection. | ADR rows carry `architectureDescriptionRefs` and publication boundary instead of copying view content wholesale. | A 42010 architecture description is not an ADR projection and not a PAD relation. |
+| 2026 ADR violation-detection research (`https://arxiv.org/abs/2602.07609`) | Recent research shows explicit decisions are easier to check, while implicit deployment or organization knowledge remains weak. | Make confirmation, violation-detection scope, and non-code source refs explicit. | ADR section functions require confirmation or eval exit, source-return condition, and method or deployment refs when live. | LLM-detectability is not evidence, assurance, or gate passage. |
+| Current FPF `E.8`, `E.17`, `E.24.PUB`, `A.15`, `A.10`, `B.3`, `C.30.AD`, and `C.32.PAD` | Existing FPF patterns govern pattern form, publication, method work, evidence, assurance, architecture description, and decision relation. | Keep ADR projection thin and typed. | The record maps section functions and exits neighboring claims to their governing patterns. | ADR projection does not duplicate pattern language, MVPK, method, evidence, assurance, gate, or description doctrine. |
+| NASA Systems Engineering Handbook, decision analysis and trade-study practice (`https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf`) plus domain certification-rationale practice where governed locally | Non-software engineering decisions are commonly recorded through trade studies, engineering memos, review records, safety cases, or certification rationale. NASA supplies a concrete source for alternatives, criteria, assumptions, recommendation, impacts, and decision documentation. | Generalize by record function and reader use rather than by Markdown file convention. | `publicationCarrierRef` can be a memo, trade-study record, certification rationale, or design-review record, while section functions still recover problem frame, options, outcome, rationale, consequences, confirmation, source return, status, and supersession. | Non-software carrier form does not change the PAD decision relation or section functions. |
+
+**Source-currentness boundary.** Recheck a source row when ADR template practice, decision-record tooling, violation-detection practice, architecture-description practice, FPF publication patterns, or project governance changes the section function or update rule used by C.32.ADR.
+
+### C.32.ADR:12 - Relations
+
+- **Builds on:** `C.32.PAD`, `C.30.AD`, `C.30.ASV`, `E.17`, `E.24.PUB`, `A.15`, `E.8`, `E.11.PUR`, and `C.32.ADA`.
+- **Decision boundary:** Use `C.32.PAD` for the project architecture decision relation. C.32.ADR publishes an `ArchitectureDecisionDescription@Project`; it is not generic ADR guidance and not a second decision authority.
+- **Architecture-description boundary:** Use `C.30.AD` and `C.30.ASV` for architecture-description and view adequacy. ADR carries refs and reader-use slices, not full description authority.
+- **Pattern and method boundary:** Use `E.8` when the published object is an FPF pattern, `E.11.PUR` for pattern-use recommendation, and `A.15` for method and work claims.
+- **Publication boundary:** Use `E.17` and `E.24.PUB` for MVPK face, publication carrier, and publication-use claims not specific to architecture decisions.
+- **Evaluation boundary:** Use `C.32.ADA` for decision adequacy; use `C.32.ACE`, `C.16`, `A.10`, `B.3`, or `A.21` for eval, measurement, evidence, assurance, or gate claims.
+- **Package boundary:** A record package map aids navigation among records. It does not decide active architecture by file order; PAD relations and status refs remain governing.
+
+### C.32.ADR:13 - Footer marker
+
+C.32.ADR closes when `ArchitectureDecisionRecordProjection@Project` cites the decision relation and decision description, names carrier, readers, scope, status, section-function mapping, decision outcome, rationale, consequences, method and work refs when live, confirmation or eval exit, publication boundaries, and update or supersession condition.
+
+### C.32.ADR:End
+
+## C.32.ADA - Architecture Decision Adequacy Scales
+
+> **Type:** Architecture evaluation pattern under C.32
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.32.ADA:1 - Problem frame
+
+Use this pattern when a project architecture decision, its method docking, or its ADR-like publication projection must be evaluated for adequacy before use, review, handoff, governance, or improvement.
+
+Primary working reader: an architect, reviewer, or architecture-responsible practitioner checking whether a project architecture decision is good enough for a declared use and which repair should happen next.
+
+Typical entry phrases:
+
+```text
+"The decision is written, but can developers actually use it?"
+"The ADR looks complete; is the architecture decision itself adequate?"
+"Which part is weak: candidate basis, trade-off, method instruction, work split, or publication projection?"
+"We need a scale like E.21, but for architecture decisions rather than pattern quality."
+"Do not average the decision; tell us what must be repaired."
+```
+
+**First-minute use slice.** A reviewer receives a PAD decision relation and ADR projection for a modularization decision. Using C.32.ADA, the reviewer declares the use: "ready for developer work and ADR publication." The reviewer scores each coordinate with a short rationale. Candidate traceability is `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off is `3 sufficientlyExpressedForDeclaredUse`, method docking is `2 partiallyExpressedForDeclaredUse`, and publication projection is `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, responsible roles, readiness exit, and expected structure effect before the decision can guide developer work.
+
+The primary `EntityOfConcern` is `ArchitectureDecisionAdequacyEvaluation@Project`: an evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use.
+
+`ArchitectureDecisionAdequacyEvaluation@Project` is not a new `U.*` kind, not a gate, not evidence, not assurance, not pattern-quality evaluation, and not a replacement for `C.32.PAD`. It is a typed adequacy evaluation that sends weak coordinates back to their governing repair patterns.
+
+What goes wrong if C.32.ADA is missed: a decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
+
+What C.32.ADA buys in practice: the project can evaluate architecture decisions by complete coordinate set, keep kinds distinct, and repair the weakest live coordinates without turning adequacy into a single score.
+
+Ordinary working move: declare the evaluation use, evaluate every coordinate with an ordinal value and rationale, then return each weak coordinate to the smallest governing pattern that can repair it.
+
+Adoption test: after using C.32.ADA, another practitioner can see the declared use, complete coordinate values, rationales, repair targets, and stop condition for the architecture decision.
+
+Not this pattern when the current object is FPF pattern quality, measurement validity, evidence support, assurance, gate passage, candidate synthesis, comparison, selection, local choice, or ADR publication projection itself. Use the receiving pattern named in `Relations`.
+
+The first useful output is `ArchitectureDecisionAdequacyEvaluation@Project`:
+
+```text
+ArchitectureDecisionAdequacyEvaluation@Project:
+  evaluationId:
+  declaredUse:
+  architectureDecisionRelationRef:
+  architectureDecisionRecordProjectionRef?
+  evaluatorRoleRef:
+  coordinateValues:
+    - coordinateRef:
+      value: 0|1|2|3|4|5
+      valueLabel: absent|namedOnly|partiallyExpressedForDeclaredUse|sufficientlyExpressedForDeclaredUse|wellExpressedForDeclaredUse|exceptionallyExpressedForDeclaredUse
+      adjacentValueRationale:
+      evidenceOrSourceRefs?
+      repairPatternRef?
+      repairInstruction:
+  strongestBlockingCoordinates:
+  noAveragePolicy: true
+  stopCondition:
+  reevaluationTrigger:
+```
+
+### C.32.ADA:2 - Problem
+
+Architecture decisions are multi-kind objects in practice. A decision relation can be strong while its ADR projection is weak. A record can be readable while the decision lacks candidate traceability. A candidate basis can be strong while method docking is absent. A method instruction can be clear while the architecture-characteristic trade-off is hidden.
+
+Because of that, a single pass, single grade, or average score is misleading. Adequacy must be evaluated by coordinates tied to the declared use. "Ready for internal architecture review", "ready for developer work", "ready for ADR publication", and "ready for governance enforcement" can require different stop conditions, but each use still needs complete coordinate inspection.
+
+C.32.ADA supplies an E.21-shaped ordinal evaluation pattern for architecture decisions. It uses the E.21 value domain and labels directly, then defines architecture-decision coordinates over PAD relation, method docking, publication projection, structural description, characteristic trade-off, and evolution. Weak coordinates point back to `C.32.PAD`, `C.32.ADR`, `C.30.AD`, `A.15`, `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25`, or another governing pattern.
+
+### C.32.ADA:3 - Forces
+
+| Force | Tension |
+|---|---|
+| Decision complexity | One architecture decision carries candidate, structure, characteristic, method, work, publication, and evolution content. |
+| Declared use | A decision can be adequate for discussion and inadequate for developer work or governance. |
+| Repair focus | Review must point to the smallest repair locus, not produce a general complaint. |
+| No average | A strong rationale cannot compensate for absent work split or missing source-return. |
+| Kind precision | Eval results, evidence, assurance, gates, and publication records must stay distinct from adequacy evaluation. |
+| Evolution | The evaluation must expose reopen and supersession weakness before the decision becomes stale. |
+
+### C.32.ADA:4 - Solution
+
+Create `ArchitectureDecisionAdequacyEvaluation@Project` for one declared use. Evaluate the complete coordinate set. Do not average coordinate values. Use the weakest live coordinate to choose the next repair.
+
+#### C.32.ADA:4.1 - Shared value meanings
+
+Use the same ordinal value domain and labels as `E.21`. ADA specializes what counts as expression for architecture-decision adequacy; it does not create a second scale.
+
+| Value | Label | Architecture-decision adequacy meaning |
+|---:|---|---|
+| `0` | `absent` | The coordinate is not expressed for the declared architecture-decision use. |
+| `1` | `namedOnly` | The coordinate is named or implied, but cannot support reliance, action, evaluation, or repair. |
+| `2` | `partiallyExpressedForDeclaredUse` | The coordinate is present but incomplete, fragile, misplaced, or too narrow for the declared use. |
+| `3` | `sufficientlyExpressedForDeclaredUse` | The coordinate can support the declared use in the current project, with limits visible. |
+| `4` | `wellExpressedForDeclaredUse` | The coordinate has clear refs, boundaries, source-return, and repair path for likely project changes. |
+| `5` | `exceptionallyExpressedForDeclaredUse` | The coordinate is well expressed and transferable across another team, later slice, or adjacent holon kind with minimal recovery work and no hidden neighbor loss. |
+
+Values are ordinal content evaluations. They are not measures, averages, votes, maturity ladder names, evidence weights, assurance levels, gate statuses, or implementation approval.
+
+The result-bearing coordinate row uses the E.21 label domain with an architecture-decision coordinate:
+
+| Coordinate | Value | Label | ShortRationale |
+|---|---:|---|---|
+| `<ADA coordinate>` | `<0..5>` | `<E.21 label>` | `<why the lower adjacent value would understate the expressed content; why the higher adjacent value would overstate it, or for 5 what makes 4 too weak and what would lower or reopen>` |
+
+`5` is not required for every use. Stop conditions are declared before evaluation. A lower diagnostic floor may be used for exploration or internal discussion, but it does not make the decision ready for developer work, implementation commitment, or governance enforcement.
+
+#### C.32.ADA:4.2 - Complete coordinate set
+
+Evaluate every coordinate. If a coordinate is not live, mark it `notTriggered` only with a short reason grounded in the declared use.
+
+| Coordinate | What is evaluated | Repair when weak |
+|---|---|---|
+| `BoundedDecisionQuestionRecoverability` | Decision subject, described holon, bounded context, status, and decision question can be recovered. | Return to `C.32.PAD` decision subject fields. |
+| `CandidateBasisAndSelectionTraceability` | Candidate palette, residual frame, comparison, selection, selected set, or reason no candidate-set question is live is recoverable. | Return to `C.32`, `C.32.MLAO`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, or `C.11`. |
+| `AffectedStructureAndDescriptionAdequacy` | Affected selected structures, views, architecture descriptions, correspondence, structural-information lens uses, and source-return are recoverable. | Return to `C.30`, `C.30.ASV`, `C.30.AD`, `A.6.F`, `A.6.M`, or `C.29`. |
+| `ArchitectureCharacteristicTradeoffAdequacy` | Architecture characteristics, criteria rows, Q-Bundles, eval readings, accepted losses, and guardrails are explicit. | Return to `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, or `C.31.ASAP`. |
+| `MethodAndWorkDockingAdequacy` | Method-use instructions, responsible roles, work boundaries, readiness, and expected structure effects are usable. | Return to `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, or `C.24`. |
+| `ArchitectDeveloperSplitAdequacy` | Architect-owned structures, developer-owned refinement, holon-transition or BOSC-triggered boundary refs, and source-return condition are explicit. | Return to `C.32.PAD`, `A.15`, `B.2.P` for claim-kind recovery, and `B.2` when whole reidentification is triggered. |
+| `PublicationProjectionAdequacy` | ADR-like or other publication projection carries the needed section functions for the declared readers. | Return to `C.32.ADR`, `E.17`, or `E.24.PUB`. |
+| `EvidenceEvalAndGateExitAdequacy` | Eval, evidence, assurance, gate, or governance exits are named only when live and routed to governing patterns. | Return to `C.32.ACE`, `C.16`, `A.10`, `B.3`, `A.21`, or local governance pattern. |
+| `EvolutionAndReopenConditionAdequacy` | Reopen, supersession, stronger-source return, and changed-context triggers are clear. | Return to `C.32.PAD`, `C.32.FAIL`, `C.18`, `C.19`, `E.23`, or source-currentness pattern. |
+| `TransformerTransformedCorrespondenceAdequacy` | Required correspondence between transformer-side and transformed-side structures is present when the decision depends on it. | Return to `C.32.CONWAY`, `A.15`, `A.3.4`, `A.3.4.P`, or `E.18`. |
+| `NonOverreadAndReceivingPatternAdequacy` | The decision, description, publication, method, eval, evidence, assurance, and gate claims are kept with their governing patterns. | Return to `A.7`, `A.6.P`, `E.10`, `F.18`, or the exact receiving pattern. |
+| `ConsequenceAndRepairGuidanceAdequacy` | Consequences, accepted losses, weak coordinates, and next repair instructions are actionable for the declared use. | Return to PAD consequence rows, ADR section functions, or the coordinate-specific repair pattern. |
+
+#### C.32.ADA:4.3 - Use-specific stop conditions
+
+Declare the use before scoring. Common uses:
+
+| Declared use | Ordinary stop condition |
+|---|---|
+| Internal architecture discussion | Every triggered coordinate is evaluated; `0 absent` coordinates block reliance, and values below `3 sufficientlyExpressedForDeclaredUse` carry repair owners. |
+| Ready for architecture review | No triggered coordinate below `3 sufficientlyExpressedForDeclaredUse`; candidate basis, trade-off, affected structures, work split, and reopen condition are strong enough for reviewers to inspect by value. |
+| Ready for developer work or implementation commitment | Every triggered coordinate is at least `4 wellExpressedForDeclaredUse` unless a governing project decision explicitly declares a lower diagnostic floor and says the result is not an implementation commitment. |
+| Ready for ADR-like publication | Publication projection, section functions, status, source-return, and supersession are at least `4 wellExpressedForDeclaredUse`; if the record will guide developer work, use the developer-work floor too. |
+| Ready for governance enforcement | Every triggered coordinate is at least `4 wellExpressedForDeclaredUse`; the gate, evidence, assurance, or governance pattern still owns enforcement status. |
+
+Use these as ordinary defaults. A project can declare stricter stop conditions. It must not weaken a triggered coordinate by hiding it under an average, and it must not call a diagnostic result ready for developer work or governance enforcement.
+
+#### C.32.ADA:4.4 - Small complete evaluation slice
+
+```text
+ArchitectureDecisionAdequacyEvaluation@OrderFlow:
+  declaredUse: readyForDeveloperWork
+  architectureDecisionRelationRef: PAD:order-flow-event-integration
+  architectureDecisionRecordProjectionRef: ADR:order-flow-event-integration
+  noAveragePolicy: true
+  stopCondition: every triggered coordinate >= 4 wellExpressedForDeclaredUse
+  strongestBlockingCoordinates:
+    - MethodAndWorkDockingAdequacy
+    - ArchitectureCharacteristicTradeoffAdequacy
+  result: repairBeforeUse
+```
+
+| Coordinate | Value | Label | Short rationale and repair |
+|---|---:|---|---|
+| `BoundedDecisionQuestionRecoverability` | `4` | `wellExpressedForDeclaredUse` | Subject, holon, context, status, and question are clear; `5` would need transfer evidence across another product-family slice. |
+| `CandidateBasisAndSelectionTraceability` | `4` | `wellExpressedForDeclaredUse` | Candidate palette and selected option are cited; `5` would need another team to replay the selection without local recovery. |
+| `AffectedStructureAndDescriptionAdequacy` | `4` | `wellExpressedForDeclaredUse` | Module and information structures plus C.30.ASV refs are usable; `5` would need a worked cross-team source-return case. |
+| `ArchitectureCharacteristicTradeoffAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Substitutability gain and latency loss are named, but guardrail eval rows are incomplete; repair through `C.32.ACS`, `C.32.ACE`, `C.25`, and `C.16`. |
+| `MethodAndWorkDockingAdequacy` | `2` | `partiallyExpressedForDeclaredUse` | The ADR says "use events" but lacks method description, responsible role, readiness exit, and expected structure effect; repair through PAD and `A.15`. |
+| `ArchitectDeveloperSplitAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Architect-owned event boundary is clear, but developer-owned schema refinement lacks source-return threshold; repair through PAD and, if level pressure is real, `B.2.P` or `B.2`. |
+| `PublicationProjectionAdequacy` | `4` | `wellExpressedForDeclaredUse` | ADR section functions are mapped; `5` would need a replayed package-update or supersession case. |
+| `EvidenceEvalAndGateExitAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Eval and gate exits are named but not replayable enough for developer commitment; repair through `C.32.ACE`, `C.16`, `A.10`, `B.3`, or `A.21` as triggered. |
+| `EvolutionAndReopenConditionAdequacy` | `4` | `wellExpressedForDeclaredUse` | Reopen triggers cover latency and schema-version pressure; `5` would need an executed supersession slice. |
+| `TransformerTransformedCorrespondenceAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Toolchain and product-structure correspondence is locally stated; repair through `C.32.CONWAY` if it becomes load-bearing for work organization. |
+| `NonOverreadAndReceivingPatternAdequacy` | `4` | `wellExpressedForDeclaredUse` | Decision, ADR, method, eval, and gate claims are routed to owners; `5` would need a near-miss showing avoided overread. |
+| `ConsequenceAndRepairGuidanceAdequacy` | `4` | `wellExpressedForDeclaredUse` | Consequences and repair loci are actionable; `5` would need transfer evidence across another holon kind. |
+
+**PAD adequate, ADR weak.** A fixture architecture decision relation can reach `4 wellExpressedForDeclaredUse` on every triggered PAD, method, work-split, trade-off, and reopen coordinate while the trade-study memo omits status and supersession. ADA returns only the publication projection to `C.32.ADR`; it does not rewrite the PAD relation.
+
+**ADR readable, PAD weak.** A Markdown ADR can have clear headings, status, context, decision, and consequences while the project relation lacks candidate basis, affected selected structures, and method docking. ADA returns the decision relation to `C.32.PAD`, `C.32`, and `A.15`; template completeness does not make the architecture decision adequate.
+
+### C.32.ADA:5 - Archetypal Grounding
+
+**Developer-work readiness.** A service architecture decision has strong candidate traceability and trade-off rationale, but the ADR only says "teams should use events." ADA gives `MethodAndWorkDockingAdequacy = 2 partiallyExpressedForDeclaredUse` because responsible roles, method description, expected structure effect, and readiness exit are not recoverable. The repair returns to PAD and A.15 before developers are instructed.
+
+**ADR-publication readiness.** A manufacturing architecture decision is clear, but the trade-study memo omits status and supersession. ADA gives `PublicationProjectionAdequacy = 2 partiallyExpressedForDeclaredUse` and `EvolutionAndReopenConditionAdequacy = 3 sufficientlyExpressedForDeclaredUse`. The repair returns to C.32.ADR for record status and supersession rows.
+
+**Architecture review.** A method-family architecture decision has candidate options and method instructions, but no declared architecture characteristics. ADA gives `ArchitectureCharacteristicTradeoffAdequacy = 0 absent`. The repair returns to C.32.ACS and C.25 before review can judge the decision.
+
+**Governance enforcement.** A toolchain-product correspondence decision depends on team and tool structures. ADA evaluates `TransformerTransformedCorrespondenceAdequacy`; if the correspondence refs are absent, the repair returns to C.32.CONWAY before governance can enforce the method.
+
+### C.32.ADA:6 - Bias-Annotation
+
+| Risk handled | How C.32.ADA handles it |
+|---|---|
+| Record completeness as adequacy | ADR projection is one coordinate, not the whole evaluation. |
+| Average-score drift | Coordinate values are not averaged; weak coordinates drive repair. |
+| Generic review prose | Each weak coordinate names a governing repair pattern. |
+| Gate confusion | ADA does not approve, certify, assure, or pass a gate. |
+| Hidden method failure | Method and work docking has its own coordinate. |
+| Evolution blindness | Reopen, supersession, and source-return have explicit coordinates. |
+
+### C.32.ADA:7 - Conformance Checklist
+
+| Requirement | Required result |
+|---|---|
+| `CC-ADA-1` | Declared use and stop condition are written before evaluation. |
+| `CC-ADA-2` | The evaluated decision relation and optional ADR projection are cited. |
+| `CC-ADA-3` | Every coordinate is scored `0 absent` through `5 exceptionallyExpressedForDeclaredUse` or marked `notTriggered` with a grounded reason. |
+| `CC-ADA-4` | Every value has adjacent-value rationale, not only a number. |
+| `CC-ADA-5` | No coordinate values are averaged or converted into one global score. |
+| `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
+| `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, method, work, and pattern-quality claims exit to their governing patterns. |
+
+### C.32.ADA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+|---|---|---|
+| `DecisionAdequacyAverage` | Strong rationale and readable ADR produce a high average despite absent method docking. | Remove the average; use weakest triggered coordinates to choose repair. |
+| `ADRCompletenessAsDecisionAdequacy` | The record has all headings, so the decision is treated as adequate. | Evaluate PAD relation, method docking, trade-off, source-return, and reopen conditions separately. |
+| `ReviewCommentWithoutRepairPattern` | The reviewer says "unclear" or "not enough detail" without a target repair pattern. | Assign the weak coordinate to `C.32.PAD`, `C.32.ADR`, `A.15`, `C.30.AD`, `C.32.ACS`, or another exact governing pattern. |
+| `GateByScale` | A value of `4` or `5` is treated as approval or certification. | Keep ADA as evaluation; use `A.21`, `A.10`, `B.3`, or governance patterns for gate, evidence, assurance, and enforcement claims. |
+| `NotTriggeredAsConvenience` | A difficult coordinate is marked not triggered to close the review. | Require a declared-use reason and receiving-pattern boundary; otherwise score it and repair. |
+| `MethodDockingSkipped` | The decision is adequate for architecture discussion but then used to direct developer work. | Re-declare use as developer-work readiness and evaluate method docking, work split, and publication handoff. |
+
+### C.32.ADA:9 - Consequences
+
+| Consequence | Benefit | Cost |
+|---|---|---|
+| Adequacy is coordinate-based. | Review can point to exact repairs instead of vague approval or rejection. | Evaluation takes longer than reading a record once. |
+| Declared use controls stop condition. | A decision can be adequate for one use and inadequate for another without contradiction. | Teams must state intended use before scoring. |
+| No average is allowed. | Weak but critical coordinates stay visible. | Some dashboards and summaries need redesign. |
+| Repair exits are mandatory. | Review results become actionable. | Reviewers must know or find the receiving pattern. |
+
+### C.32.ADA:10 - Rationale
+
+C.32.ADA exists because architecture-decision adequacy is not one property. It is a family of recoverability and use-readiness coordinates across decision relation, selected structures, architecture characteristics, method docking, work split, publication projection, evidence or eval exits, and evolution.
+
+The pattern follows the same discipline as FPF quality evaluation: declared use first, complete coordinate set, ordinal values with rationale, no average, and targeted repair. It remains architecture-specific because the coordinates are tied to PAD, ADR projection, architecture descriptions, candidate synthesis, method-use instructions, and architecture-characteristic trade-offs.
+
+### C.32.ADA:11 - SoTA-Echoing
+
+These rows document transfers from source practice into C.32.ADA. Keep a source citation only when it changes a coordinate, value meaning, stop condition, or repair exit.
+
+| Source to inspect | Why this source is load-bearing here | Transfer into ADA | Concrete ADA mutation | Blocked overread |
+|---|---|---|---|---|
+| Current FPF `E.21` scale discipline | Existing FPF pattern for declared-use evaluation, exact `0 absent` through `5 exceptionallyExpressedForDeclaredUse` labels, complete coordinates, adjacent-value rationale, and no averaging. | Reuse the value domain and evaluation discipline for architecture decisions without copying pattern-quality coordinates. | ADA requires declared use, complete coordinate set, E.21 value labels with adjacent rationale, no average, and use-specific stop conditions. | E.21 pattern-quality status and coordinates are not architecture-decision adequacy. |
+| `C.32.PAD` and `C.32.ADR` | PAD and ADR define the decision relation and publication projection being evaluated. | Make relation adequacy and projection adequacy separate coordinates. | ADA can say a PAD relation is usable while ADR projection needs repair, or the reverse. | A complete ADR does not make the decision relation adequate. |
+| ISO/IEC/IEEE 42010:2022 official standard (`https://www.iso.org/standard/74393.html`; IEEE page `https://standards.ieee.org/ieee/42010/6846/`) with the 42010 companion site as secondary reading (`https://iso-architecture.org/42010/`) | Current official source for architecture descriptions, viewpoints, views, correspondence, and rationale; the companion site is used only as secondary reading. | Add coordinates for affected structure, architecture-description adequacy, and source-return. | ADA routes weak description coordinates to `C.30.AD` and `C.30.ASV`. | Architecture-description adequacy does not decide or approve the architecture. |
+| Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) | Current practitioner source for architecture feedback and incremental change under eval-like mechanisms. | Add evolution, reopen, guardrail, and confirmation coordinates. | ADA checks reopen and eval exits before a decision is used for long-running work. | Source-side fitness-function wording is not imported as ADA object naming. |
+| Ford, Richards, Sadalage, and Dehghani, `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Current practitioner source for trade-off analysis under competing characteristics. | Add architecture-characteristic trade-off adequacy and accepted-loss repair. | ADA sends weak trade-off coordinates to ACS, ACE, C.16, C.25, C.31, or C.31.ASAP. | Trade-off discussion is not an assurance claim or governance approval. |
+| 2026 ADR violation-detection research (`https://arxiv.org/abs/2602.07609`) | Recent research shows explicit, code-inferable decisions are easier to check than implicit deployment or organization decisions. | Add confirmation, source-return, method, deployment, and organization refs to adequacy checks when live. | ADA scores confirmation and method docking separately and blocks hidden organizational knowledge from passing as ready. | Automated violation detection is not proof, evidence, assurance, or gate passage. |
+
+**Source-currentness boundary.** Recheck a source row when FPF evaluation discipline, architecture-decision practice, ADR violation checking, evolutionary-architecture eval practice, or project governance changes a coordinate, value meaning, or repair exit.
+
+### C.32.ADA:12 - Relations
+
+- **Builds on:** `C.32.PAD`, `C.32.ADR`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.30.AD`, `C.30.ASV`, `A.15`, `C.16`, `C.25`, `C.29`, `E.17`, and `E.21`.
+- **Evaluation boundary:** ADA evaluates architecture-decision adequacy for declared use. It does not perform candidate synthesis, comparison, selection, selected-set publication, local choice, evidence support, assurance, gate passage, governance enforcement, or pattern-quality evaluation.
+- **Decision and projection boundary:** Use `C.32.PAD` to repair the decision relation and `C.32.ADR` to repair ADR-like publication projection.
+- **Description and structure boundary:** Use `C.30`, `C.30.AD`, and `C.30.ASV` for architecture claim, description, and view adequacy.
+- **Method and work boundary:** Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` for method, work, readiness, pattern-use, and agentic tool-use claims.
+- **Characteristic and eval boundary:** Use `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, and `C.31.ASAP` for characteristic rows, Q-Bundles, eval programs, measurement, modularity, and scale preference.
+- **Evidence, assurance, gate, and governance boundary:** Use `A.10`, `B.3`, `A.21`, and local governance patterns when those claims are live.
+
+### C.32.ADA:13 - Footer marker
+
+C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition, cites the evaluated decision relation and optional projection, evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status, names weakest blocking coordinates, assigns repair patterns and repair instructions, and avoids average-score replacement.
+
+### C.32.ADA:End
 
 ## C.36 - Cultural Evolution and Cultural-Evolution Engineering
 
@@ -70442,6 +71235,7 @@ Multi-view publication is needed because one description can serve several conce
 (References are selected because they supply source material for local MVPK invariants and tests; MVPK remains notation-agnostic.)
 
 ### E.17:13 - Relations
+* **Architecture ADR projection boundary:** `C.32.ADR` is the architecture-specific publication projection for `ArchitectureDecisionDescription@Project`. E.17 keeps publication face, source episteme, carrier, scope, and downstream typed value separate for the broader MVPK claim.
 
 * **Builds on:** `A.7` and `E.10.D2` for carrier and front-end discipline plus the EntityOfConcern and Description-episteme boundary and specification-use gates; `A.6.2`-`A.6.3` for episteme morphisms, `U.EffectFreeEpistemicMorphing`, and `U.EpistemicViewing`; `E.17.0` for `U.MultiViewDescribing`; `E.8` and `E.10` for authoring and publication-language discipline; Part F and Part G for bridge, terminology, characteristic, and pin discipline.
 * **Constrains:** publication-face-emitting automation and hand-written publication faces. They remain species of `U.EpistemicViewing` over existing Description epistemes, including Description epistemes admitted for specification use, and do not become a second EntityOfConcern-to-Description mechanism, specification-use gate, evidence path, gate decision, work occurrence, assurance record, release source, or bridge declaration by readable form.

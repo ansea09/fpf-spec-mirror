@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 60067
-line_end: 60123
+line_start: 60076
+line_end: 60132
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,6 +37,7 @@ dependencies:
   - "C.32"
   - "C.32.CONWAY"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.10"
   - "E.17"
   - "E.18"
@@ -89,7 +90,7 @@ Common exits by claim kind:
 - `C.18` and `C.19` for archive, front, pool-treatment, or retained-stepping-stone claims.
 - `A.10` for evidence, `B.3` for assurance, and `A.20` or `A.21` for gate or release claims.
 - `C.30.AD` for architecture description and `E.17` or `E.24.PUB` for publication faces.
-- `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project decision.
+- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
 The first useful output is `ArchitectureRepairCue@Project`. It is the project working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
 

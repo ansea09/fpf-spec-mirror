@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:4 — Solution"
-line_start: 59660
-line_end: 59703
+line_start: 59669
+line_end: 59712
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.32"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.18"
   - "G.5"
 keywords:
@@ -55,7 +56,7 @@ Work in eight steps:
    - change both sides as one co-synthesis candidate;
    - keep a bounded mismatch with exception cost, source-return condition, and reopen trigger.
 7. Use `C.29` only when the correspondence is claimed as structural similarity, homomorphism-like mapping, equivalence, or formal preservation. Otherwise keep it as architecture synthesis material.
-8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or the project-selected architecture-decision pattern.
+8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or `C.32.PAD`.
 
 Correspondence repair rows are local C.32.CONWAY entries. They do not create new FPF kinds.
 

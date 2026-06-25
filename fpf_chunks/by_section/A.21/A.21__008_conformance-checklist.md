@@ -6,12 +6,12 @@ section_id: "A.21:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__008_conformance-checklist.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:7 — Conformance Checklist"
-line_start: 30091
-line_end: 30129
+line_start: 30093
+line_end: 30131
 dependencies:
   - "A.19"
   - "A.2.6"

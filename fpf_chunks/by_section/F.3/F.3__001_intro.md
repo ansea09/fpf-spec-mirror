@@ -6,12 +6,12 @@ section_id: "F.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__001_intro.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:intro — Intro"
-line_start: 78073
-line_end: 78080
+line_start: 78867
+line_end: 78874
 dependencies:
   - "A.11"
   - "A.7"

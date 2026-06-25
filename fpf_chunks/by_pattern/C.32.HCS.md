@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
-line_start: 58881
-line_end: 59077
+line_start: 58890
+line_end: 59086
 dependencies:
   - "A.19"
   - "C.11"
@@ -22,6 +22,7 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
+  - "C.32.PAD"
   - "E.13"
   - "G.5"
 keywords:
@@ -90,7 +91,7 @@ Common exits by claim kind:
 - `E.13` when a source cue, score, benchmark, or dashboard starts replacing the architecture concern.
 - `C.32` for candidate synthesis after project criteria rows exist.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project decision.
+- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
 ### C.32.HCS:2 - Problem
 
@@ -169,7 +170,7 @@ Before ACS criteria-row use, ask one proxy-resistance question for each carried 
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-C.32.HCS governs holon-family starter packs. It does not govern project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, or project architecture decisions. Use `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or the project-selected architecture-decision pattern when those claims are being made.
+C.32.HCS governs holon-family starter packs. It does not govern project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, or project architecture decisions. Use `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or `C.32.PAD` when those claims are being made.
 
 ### C.32.HCS:7 - Conformance checklist
 

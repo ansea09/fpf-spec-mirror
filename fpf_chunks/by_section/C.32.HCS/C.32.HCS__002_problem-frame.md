@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 58887
-line_end: 58940
+line_start: 58896
+line_end: 58949
 dependencies:
   - "A.19"
   - "C.11"
@@ -23,6 +23,7 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
+  - "C.32.PAD"
   - "E.13"
   - "G.5"
 keywords:
@@ -85,5 +86,5 @@ Common exits by claim kind:
 - `E.13` when a source cue, score, benchmark, or dashboard starts replacing the architecture concern.
 - `C.32` for candidate synthesis after project criteria rows exist.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for publication of a selected set, `C.11` for local choice, and the project-selected architecture-decision pattern for project decision.
+- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 

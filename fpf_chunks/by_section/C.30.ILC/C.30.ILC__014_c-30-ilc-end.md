@@ -6,12 +6,12 @@ section_id: "C.30.ILC:End"
 section_title: "C.30.ILC:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__014_c-30-ilc-end.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:End — C.30.ILC:End"
-line_start: 57175
-line_end: 57176
+line_start: 57184
+line_end: 57185
 dependencies:
   - "A.10"
   - "A.22"
@@ -29,6 +29,7 @@ dependencies:
   - "C.31.ASAP"
   - "C.32"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "D.3"
   - "D.4"
   - "G.5"

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `10cd224cef9c92043fb6821e165decd6ea05073f`
+Commit SHA: `792091cf6f89f21f3423d75c72238bb0982777f2`
 
 Chunking method: `pattern-aware`
 
-Patterns: `264`
+Patterns: `267`
 
 ## Patterns
 
@@ -180,6 +180,9 @@ Patterns: `264`
 - [C.32.CONWAY — Transformer and Transformed Architecture Correspondence](by_pattern/C.32.CONWAY.md)
 - [C.32.MLAO — Multilevel Architecture Residual Optimization](by_pattern/C.32.MLAO.md)
 - [C.32.FAIL — Architecture Failure Recognition and Repair](by_pattern/C.32.FAIL.md)
+- [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
+- [C.32.ADR — Architecture Decision Record Projection](by_pattern/C.32.ADR.md)
+- [C.32.ADA — Architecture Decision Adequacy Scales](by_pattern/C.32.ADA.md)
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
 - [C.36.P — Cultural-Evolution Wording-Use Precision Restoration](by_pattern/C.36.P.md)
 - [D.1 — Ethical Value Plurality and FPF Boundary](by_pattern/D.1.md)

@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 39010
-line_end: 39045
+line_start: 39012
+line_end: 39047
 dependencies:
   - "A.16"
   - "A.16.0"

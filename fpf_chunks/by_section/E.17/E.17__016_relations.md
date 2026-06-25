@@ -6,12 +6,12 @@ section_id: "E.17:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__016_relations.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:13 — Relations"
-line_start: 70444
-line_end: 70451
+line_start: 71237
+line_end: 71245
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -37,6 +37,7 @@ keywords:
 ---
 
 ### E.17:13 - Relations
+* **Architecture ADR projection boundary:** `C.32.ADR` is the architecture-specific publication projection for `ArchitectureDecisionDescription@Project`. E.17 keeps publication face, source episteme, carrier, scope, and downstream typed value separate for the broader MVPK claim.
 
 * **Builds on:** `A.7` and `E.10.D2` for carrier and front-end discipline plus the EntityOfConcern and Description-episteme boundary and specification-use gates; `A.6.2`-`A.6.3` for episteme morphisms, `U.EffectFreeEpistemicMorphing`, and `U.EpistemicViewing`; `E.17.0` for `U.MultiViewDescribing`; `E.8` and `E.10` for authoring and publication-language discipline; Part F and Part G for bridge, terminology, characteristic, and pin discipline.
 * **Constrains:** publication-face-emitting automation and hand-written publication faces. They remain species of `U.EpistemicViewing` over existing Description epistemes, including Description epistemes admitted for specification use, and do not become a second EntityOfConcern-to-Description mechanism, specification-use gate, evidence path, gate decision, work occurrence, assurance record, release source, or bridge declaration by readable form.

@@ -6,12 +6,12 @@ section_id: "A.2.6:12"
 section_title: "Archetypal Grounding - Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__013_archetypal-grounding-worked-examples.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:12 — Archetypal Grounding - Worked Examples"
-line_start: 4530
-line_end: 4583
+line_start: 4531
+line_end: 4584
 dependencies:
   - "A.1.1"
   - "A.2.2"

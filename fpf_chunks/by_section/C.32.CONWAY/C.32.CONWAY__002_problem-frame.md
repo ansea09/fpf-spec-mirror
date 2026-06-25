@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 59548
-line_end: 59639
+line_start: 59557
+line_end: 59648
 dependencies:
   - "A.10"
   - "A.15"
@@ -26,6 +26,7 @@ dependencies:
   - "C.32"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.18"
   - "G.5"
 keywords:
@@ -76,7 +77,7 @@ Common exits by claim kind:
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set publication; `C.18` and `C.19` for archive, front, or pool-treatment policy.
-- `C.11` for fixed local choice and the project-selected architecture-decision pattern for project decision.
+- `C.11` for fixed local choice and `C.32.PAD` for project decision.
 
 The first useful output is `TransformerTransformedArchitectureCorrespondenceFrame@Project`. The frame is the project working record for the correspondence question. It records candidate co-synthesis pressure; it does not make a C.29 structural-equivalence claim, organization-design decision, or new correspondence ontology:
 

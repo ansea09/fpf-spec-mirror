@@ -6,12 +6,12 @@ section_id: "E.10.D2:7"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_reasoning-primitives.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:7 — Reasoning primitives"
-line_start: 66868
-line_end: 66909
+line_start: 67661
+line_end: 67702
 dependencies:
   - "A.7"
   - "C.2.1"

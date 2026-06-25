@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "How Role Relation Structure Is Used"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__008_how-role-relation-structure-is-used.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:4 — How Role Relation Structure Is Used"
-line_start: 5048
-line_end: 5090
+line_start: 5049
+line_end: 5091
 dependencies:
   - "A.15"
   - "A.2"

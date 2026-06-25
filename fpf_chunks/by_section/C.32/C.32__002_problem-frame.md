@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 58569
-line_end: 58657
+line_start: 58578
+line_end: 58666
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -94,7 +95,7 @@ Common exits by claim kind:
 - `C.30` grounds the architecture claim; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
 - `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, and `C.16` govern starter heads, project criteria rows, eval programs, Q-Bundles, modularity or scale-preference claims, and measurement.
 - `C.32.MLAO`, `C.32.CONWAY`, `C.32.FAIL`, and `C.29` govern residual-reducing frames, transformer-transformed correspondence, candidate repair, and mathematical-lens use.
-- `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `C.11`, and the project-selected architecture-decision pattern govern comparison, selection, archive, front, publication of a selected set, local choice, and decision work.
+- `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `C.11`, and `C.32.PAD` govern comparison, selection, archive, front, publication of a selected set, local choice, and decision work.
 - `C.30.AD`, `E.17`, `E.24.PUB`, `A.10`, and `B.3` govern architecture-description, publication-face, evidence, and assurance claims.
 
 The first useful output is `CandidateArchitecturePalette@Project`. It is the project working record for candidate-palette construction. The name does not introduce a new `U.*` kind, and the record does not carry selection, publication, evidence, assurance, or decision authority.

@@ -6,12 +6,12 @@ section_id: "C.32.ACS:6"
 section_title: "Kind and Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__007_kind-and-receiving-claim-boundary.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:6 — Kind and Receiving-Claim Boundary"
-line_start: 59251
-line_end: 59264
+line_start: 59260
+line_end: 59273
 dependencies:
   - "A.10"
   - "A.17"
@@ -29,6 +29,7 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.HCS"
+  - "C.32.PAD"
   - "E.13"
   - "E.22"
   - "E.23"
@@ -55,5 +56,5 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 - C.31.ASAP scale-preference claims, governed by `C.31.ASAP`;
 - E.22 question framing and E.23 repeated improvement method, governed by `E.22` and `E.23`;
 - C.32 candidate synthesis, governed by `C.32`;
-- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for the project-selected decision pattern.
+- A.19.CPM comparison, A.19.SelectorMechanism selection, C.11 local choice, G.5 publication of a selected set, or architecture-decision work for `C.32.PAD`.
 

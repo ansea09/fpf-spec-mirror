@@ -1,0 +1,67 @@
+---
+chunk_kind: "child"
+pattern_id: "C.32.PAD"
+pattern_title: "Project Architecture Decision After Candidate Synthesis"
+section_id: "C.32.PAD:12"
+section_title: "Relations"
+source_path: "FPF-Spec.md"
+output_path: "by_section/C.32.PAD/C.32.PAD__013_relations.md"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+heading_path:
+  - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
+  - "C.32.PAD:12 — Relations"
+line_start: 60590
+line_end: 60599
+dependencies:
+  - "A.10"
+  - "A.15"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
+  - "A.21"
+  - "B.2"
+  - "B.2.P"
+  - "B.3"
+  - "C.11"
+  - "C.16"
+  - "C.25"
+  - "C.29"
+  - "C.30"
+  - "C.30.AD"
+  - "C.30.ASV"
+  - "C.31"
+  - "C.31.ASAP"
+  - "C.32"
+  - "C.32.ACE"
+  - "C.32.ACS"
+  - "C.32.ADA"
+  - "C.32.ADR"
+  - "C.32.CONWAY"
+  - "C.32.FAIL"
+  - "C.32.MLAO"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.8"
+  - "G.5"
+keywords:
+  - "ArchitectureDecisionRelation@Project"
+  - "accepted loss"
+  - "affected selected structure"
+  - "architect-developer split"
+  - "architecture-characteristic trade-off"
+  - "method-use instruction"
+  - "project architecture decision"
+  - "reopen condition"
+  - "selected architecture option"
+---
+
+### C.32.PAD:12 - Relations
+
+- **Builds on:** `C.30`, `C.30.ASV`, `C.30.AD`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.25`, `C.16`, `C.29`, `C.31`, and `C.31.ASAP`.
+- **Comparison and selection boundary:** `A.19.CPM` compares, `A.19.SelectorMechanism` returns a selected set, `G.5` publishes a selected set, and `C.11` governs local choice. PAD records the project architecture decision relation after those inputs are sufficient.
+- **Description boundary:** `C.30.AD` and `C.30.ASV` govern architecture-description and selected-structure view adequacy. PAD may cite those descriptions but does not replace them.
+- **Publication boundary:** `C.32.ADR` projects an `ArchitectureDecisionDescription@Project` into ADR-like form. `E.17` and `E.24.PUB` govern publication faces and publication-use claims.
+- **Adequacy boundary:** `C.32.ADA` evaluates a PAD decision relation, method docking, and publication projection for a declared use.
+- **Method and work boundary:** `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` govern method descriptions, work plans, readiness, pattern-use recommendations, and agentic tool-use work.
+- **Evidence, assurance, and gate boundary:** `A.10`, `B.3`, and `A.21` govern evidence relations, assurance calculus, and gate profiles when those claims are current.
+

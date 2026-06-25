@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 54314
-line_end: 54734
+line_start: 54322
+line_end: 54742
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,8 +43,11 @@ dependencies:
   - "C.30.STRAT"
   - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ADA"
+  - "C.32.ADR"
   - "C.32.CONWAY"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.10"
   - "E.10.D2"
   - "E.17"
@@ -141,7 +144,7 @@ In C.30, architecture-move wording is practitioner shorthand for an architecture
 
 When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded architecture claim, stop the C.30 question card after the described holon, bounded context, selected structure or structure kind, architecture concern, and admissible next use are named.
 Apply `C.32` only to build the candidate architecture palette.
-If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, queue number 5, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
+If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, `C.32.PAD`, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 

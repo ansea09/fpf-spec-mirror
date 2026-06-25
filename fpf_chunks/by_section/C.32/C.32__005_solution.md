@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 58682
-line_end: 58771
+line_start: 58691
+line_end: 58780
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.PAD"
   - "E.18"
   - "E.22"
   - "E.23"
@@ -82,7 +83,7 @@ The synthesis structure map is not an audit checklist. It is the small set of st
 Keep each receiving claim with its own pattern.
 Criteria rows stay with `C.32.ACS`; Q-Bundles with `C.25`; scale preference with `C.31.ASAP`; measurement with `C.16`; eval programs and eval results with `C.32.ACE`.
 Improvement-question framing and repeated-improvement method stay with `E.22` or `E.23`.
-Comparison, set-returning selection, selected-set publication, local choice, and project architecture decision stay with `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, and the project-selected architecture-decision pattern.
+Comparison, set-returning selection, selected-set publication, local choice, and project architecture decision stay with `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, and `C.32.PAD`.
 C.32 only consumes the changed characteristic pressure and produces the next candidate palette.
 Open the next synthesis question from the resulting eval result, front relation, retained alternative, rejected candidate, or source-return trigger.
 
@@ -125,7 +126,7 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | `decompositionOrAllocationChange` | Reallocate module, role, work, evidence responsibility, data custody, control responsibility, or variation slot across structures. | State the new boundary and migration burden. |
 | `placementOrDeploymentChange` | Change locality, deployment, material placement, installation, or maintenance access. | Name the affected structure and the latency, access, source-return, or environment burden. |
 | `flowOrControlVariant` | Change transformation flow, control depth, rate band, feedback boundary, or mediator relation. | State the timing, control, observability, or accountability burden created by the change. |
-| `interfaceGrammarChange` | Narrow, split, widen, or stabilize an interaction surface. | Apply `A.6.M` when module-interface relation repair is current. |
+| `interfaceGrammarChange` | Narrow, split, widen, or stabilize an interaction boundary. | Apply `A.6.M` when module-interface relation repair is current. |
 | `declaredScopeOrHolonLevelChange` | Split, merge, add, or remove a declared holon-level reference, declared scope, evidence scope, work-method scope, or aggregation scope. | Name the affected reference, use `C.30.STRAT` when the wording is only a stratification term, and use `B.2` only when whole reidentification is current. |
 | `boundedException` | Keep a residual because removing it costs more than it buys now. | State the exception, reopen trigger, and next governing pattern if later source use or decision use expands. |
 
@@ -143,7 +144,7 @@ The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the corresponde
 
 A richer dossier is optional. Open it only when one candidate must carry source views, relation notes, measurements, C.29 lens outputs, evidence notes, or failure repairs that affect the next architecture use. Ordinary C.32 use should remain one row per candidate configuration.
 
-**Downstream use.** C.32 prepares architecture-specific candidate content. Publishing a selected set belongs to `G.5`. A fixed local choice belongs to `C.11`. A project architecture decision belongs to the project-selected architecture-decision pattern. Archive, front, pool-treatment, or generation policy belongs to `C.18` or `C.19` when that claim is being made. Architecture-description or publication-face work belongs to `C.30.AD`, `E.17`, or `E.24.PUB`.
+**Downstream use.** C.32 prepares architecture-specific candidate content. Publishing a selected set belongs to `G.5`. A fixed local choice belongs to `C.11`. A project architecture decision belongs to `C.32.PAD`. Archive, front, pool-treatment, or generation policy belongs to `C.18` or `C.19` when that claim is being made. Architecture-description or publication-face work belongs to `C.30.AD`, `E.17`, or `E.24.PUB`.
 
 **Stop condition.** Stop C.32 when the palette can support the next use without hiding the selected structures, architecture-change kind, architecture gain, architecture loss, constraint fit, source-return condition, or receiving pattern.
 

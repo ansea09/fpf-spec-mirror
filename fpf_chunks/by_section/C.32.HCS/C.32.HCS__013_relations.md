@@ -6,12 +6,12 @@ section_id: "C.32.HCS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__013_relations.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:12 — Relations"
-line_start: 59066
-line_end: 59071
+line_start: 59075
+line_end: 59080
 dependencies:
   - "A.19"
   - "C.11"
@@ -23,6 +23,7 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
+  - "C.32.PAD"
   - "E.13"
   - "G.5"
 keywords:

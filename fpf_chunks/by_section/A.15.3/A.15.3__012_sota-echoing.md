@@ -6,12 +6,12 @@ section_id: "A.15.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__012_sota-echoing.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:11 — SoTA-Echoing"
-line_start: 22341
-line_end: 22349
+line_start: 22343
+line_end: 22351
 dependencies:
   - "A.10"
   - "A.15.1"

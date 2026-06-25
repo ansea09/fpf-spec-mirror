@@ -6,12 +6,12 @@ section_id: "A.21:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30130
-line_end: 30138
+line_start: 30132
+line_end: 30140
 dependencies:
   - "A.19"
   - "A.2.6"

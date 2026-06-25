@@ -6,12 +6,12 @@ section_id: "B.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__013_sota-echoing.md"
-commit_sha: "10cd224cef9c92043fb6821e165decd6ea05073f"
+commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:10 — SoTA-Echoing"
-line_start: 32534
-line_end: 32542
+line_start: 32536
+line_end: 32544
 dependencies:
   - "A.1"
   - "A.10"
