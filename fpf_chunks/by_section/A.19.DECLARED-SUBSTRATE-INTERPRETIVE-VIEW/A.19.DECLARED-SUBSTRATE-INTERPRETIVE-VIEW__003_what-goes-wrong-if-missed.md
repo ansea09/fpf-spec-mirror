@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__003_what-goes-wrong-if-missed.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:0.1 — What goes wrong if missed"
-line_start: 25848
-line_end: 25858
+line_start: 25849
+line_end: 25859
 dependencies:
   - "A.0"
   - "A.19"

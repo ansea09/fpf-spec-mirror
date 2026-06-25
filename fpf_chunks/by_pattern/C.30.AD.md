@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
 line_start: 54837
-line_end: 55234
+line_end: 55235
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,6 +45,7 @@ dependencies:
   - "C.32.ADA"
   - "C.32.ADR"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.10"
   - "E.10.ARCH"
@@ -84,7 +85,7 @@ Keep an architecture description useful without letting the description, view, d
 
 **Builds on.** `C.30`, `C.30.ASV`, `A.1`, `A.22`, `E.24.PUB`, `A.7`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, `C.2.P`, `E.10`, and `E.10.ARCH`.
 
-**Coordinates with.** `C.30.AD.BA`, `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `C.32`, `C.32.MLAO`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `A.15.5`, `C.11`, `C.28`, `E.8`, `E.10.MOVE`, `E.11.PUR`, `E.24.CD`, and `F.18`.
+**Coordinates with.** `C.30.AD.BA`, `C.30.P`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.6.F`, `A.6.M`, `C.29`, `C.16`, `C.16.P`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `A.15.5`, `C.11`, `C.28`, `E.8`, `E.10.MOVE`, `E.11.PUR`, `E.24.CD`, and `F.18`.
 
 ### C.30.AD:0 - Use this when
 
@@ -461,6 +462,7 @@ The pattern therefore specializes generic Description and publication machinery 
 - `C.30.P` normalizes overloaded architecture or structure wording before this pattern is used.
 - `C.30.ASV` governs architecture structural views and structure-kind and viewpoint separation.
 - `C.30.TFS-REL`, `C.30.LCA`, and `C.30.ILC` govern architecture structure-relation subcases named by value.
+- `C.32.P2S` governs the connected architecturing flow when the description carries only part of selected structure, decision handoff, method expectation, source-return, or actual-structure feedback.
 - `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, and `E.17` govern generic EntityOfConcern, Description, view, viewpoint, publication, and MVPK machinery.
 - `C.2.P` normalizes source-current and publication-form relation-set overreads.
 - `E.11.PUR` governs recommended FPF pattern use after an architecture description has been read; C.30.AD only records the description-use boundary.

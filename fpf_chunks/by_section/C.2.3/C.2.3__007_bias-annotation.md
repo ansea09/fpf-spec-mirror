@@ -6,12 +6,12 @@ section_id: "C.2.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__007_bias-annotation.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:6 — Bias-Annotation"
-line_start: 38510
-line_end: 38513
+line_start: 38511
+line_end: 38514
 dependencies:
   - "A.16"
   - "A.18"

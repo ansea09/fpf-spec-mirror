@@ -6,12 +6,12 @@ section_id: "C.32.HCS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__013_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:12 — Relations"
-line_start: 59075
-line_end: 59080
+line_start: 59315
+line_end: 59320
 dependencies:
   - "A.19"
   - "C.11"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.32.HCS:12 - Relations
 
-- **Receiving use:** `C.32.ACS` project criteria-set construction, including scale rows and use classes when the project later needs them.
+- **Receiving use:** `C.32.ACS` project criteria-set construction, including scale rows and use classes when the project later needs them; `C.32.P2S` when starter heads are needed before the architecturing flow can bind project criteria, candidate synthesis, eval, and refresh.
 - **Uses:** `C.25` when a starter head is composite; `C.30` and `C.30.ASV` when the selected structures are not yet recoverable.
 - **Boundary:** HCS is not a catalogue, measurement pattern, Q-Bundle pattern, optimization method, or architecture decision pattern.
 

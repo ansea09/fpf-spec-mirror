@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.ASV.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
-line_start: 55949
-line_end: 56664
+line_start: 55950
+line_end: 56665
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,6 +37,7 @@ dependencies:
   - "C.32"
   - "C.32.ADA"
   - "C.32.ADR"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.10"
   - "E.10.D2"
@@ -769,9 +770,9 @@ The TEVB decision is conservative. TEVB remains the small engineering viewpoint 
 
 Builds on: `C.30.P`, `C.30`, `A.1`, `A.22`, `E.24.PUB`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.32`, `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` when candidate-set, architecture-decision, ADR-projection, or decision-adequacy claim kinds are being made. Use `A.6.M` when the module-interface claim kind is being made.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.32.P2S`, `C.32`, `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` when problem-to-structure carry-through, candidate-set, architecture-decision, ADR-projection, or decision-adequacy claim kinds are being made. Use `A.6.M` when the module-interface claim kind is being made.
 
-Other claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.1` for the described holon recovered through `ArchitectureOf@Context`, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `E.18` for selected transformation-flow structure, transformation-flow path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
+Other claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.1` for the described holon recovered through `ArchitectureOf@Context`, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `E.18` for selected transformation-flow structure, transformation-flow path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, `C.32.P2S` for problem-to-structure carry-through when the view is one captured or lost-structure stage, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
 
 ### C.30.ASV:End
 

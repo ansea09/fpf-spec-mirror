@@ -6,12 +6,12 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 9551
-line_end: 9561
+line_start: 9552
+line_end: 9562
 dependencies:
   - "A.10"
   - "A.2.3"

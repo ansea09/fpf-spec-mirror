@@ -6,12 +6,12 @@ section_id: "A.15.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__011_rationale.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:10 — Rationale"
-line_start: 22939
-line_end: 22944
+line_start: 22940
+line_end: 22945
 dependencies:
   - "A.10"
   - "A.15"
@@ -24,6 +24,7 @@ dependencies:
   - "A.3.4.P"
   - "B.1.6"
   - "B.3"
+  - "C.32.P2S"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"

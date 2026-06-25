@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.P.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
-line_start: 32555
-line_end: 32812
+line_start: 32556
+line_end: 32813
 dependencies:
   - "A.10"
   - "A.14"
@@ -31,6 +31,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.TFS-REL"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
@@ -293,7 +294,7 @@ B.2.P follows the E.10.ARCH algorithm: recover ontology first, then choose wordi
 - **Builds on:** `E.10`, `E.10.ARCH`, `E.24`, `F.18`, and `B.2`.
 - **Returns whole reidentification to:** `B.2`, with `B.2.2`, `B.2.3`, and `B.2.4` as current specializations.
 - **Keeps collection admission with:** `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, and `C.16`.
-- **Coordinates with:** `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.ILC`, `C.29`, `A.10`, `C.2.1`, `E.17`, and source-use patterns.
+- **Coordinates with:** `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.ILC`, `C.32.P2S`, `C.29`, `A.10`, `C.2.1`, `E.17`, and source-use patterns.
 
 ### B.2.P:End
 

@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 58255
-line_end: 58269
+line_start: 58257
+line_end: 58272
 dependencies:
   - "A.10"
   - "A.19"
@@ -26,6 +26,7 @@ dependencies:
   - "C.30.ASV"
   - "C.31"
   - "C.31.ASAP"
+  - "C.32.P2S"
   - "G.5"
   - "G.6"
 keywords:
@@ -51,5 +52,6 @@ keywords:
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
+| `C.32.P2S` | Uses RSA rows when reusable structure, bespoke residue, evidence reuse, or source-return pressure must be carried through architecturing; RSA does not govern candidate synthesis, selected-set publication, or architecture decisions. |
 | `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate-synthesis and selected-set publication claims are governed by `G.5` when set-return or candidate-set publication is being claimed; local decision claims are governed by `C.11`; RSA does not govern candidate-synthesis, selected-set, or decision use. |
 

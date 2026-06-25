@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__003_problem-frame.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem Frame"
-line_start: 61161
-line_end: 61168
+line_start: 61406
+line_end: 61413
 dependencies:
   - "A.1"
   - "A.10"

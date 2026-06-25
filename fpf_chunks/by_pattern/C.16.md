@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 42781
-line_end: 43232
+line_start: 42782
+line_end: 43233
 dependencies:
   - "A.10"
   - "A.17"
@@ -429,7 +429,7 @@ Measurement practice across physics, engineering quality, data quality, semantic
 The pattern therefore treats ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, and domain metric traditions as alignment sources through bridges, not as vocabulary imports. This keeps SoTA measurement discipline available while preventing the common shortcut where a familiar external label overrides the local characteristic, scale, unit, comparability, and evidence requirements.
 
 ### C.16:15 - Relations - Placement *(Informative)*
-**Architecture-decision metric boundary.** `C.32.PAD` and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become decision criteria, eval programs, evidence, gates, or decision authority by themselves.
+**Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
 **Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement or characteristic object is not yet recoverable. C.16 keeps the measurement substrate and resumes after the bearer, characteristic, scale, coordinate/value, unit, evidence stub, or exact non-C.16 governing pattern has been recovered.
 **C.27 temporal-claim relation.**

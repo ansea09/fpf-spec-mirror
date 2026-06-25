@@ -6,12 +6,12 @@ section_id: "F.2:7"
 section_title: "Guard‑rails (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_guard-rails-normative-lightweight.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:7 — Guard‑rails (normative, lightweight)"
-line_start: 78650
-line_end: 78660
+line_start: 78897
+line_end: 78907
 dependencies:
   - "A.11"
   - "A.7"

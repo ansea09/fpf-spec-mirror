@@ -6,12 +6,12 @@ section_id: "E.2.DA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__001_intro.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:intro — Intro"
-line_start: 62460
-line_end: 62463
+line_start: 62705
+line_end: 62708
 dependencies:
   - "A.19.ECS"
   - "E.10"

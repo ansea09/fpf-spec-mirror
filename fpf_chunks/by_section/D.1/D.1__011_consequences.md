@@ -6,12 +6,12 @@ section_id: "D.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__011_consequences.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:6 — Consequences"
-line_start: 61644
-line_end: 61649
+line_start: 61889
+line_end: 61894
 dependencies:
   - "A.1"
   - "A.10"

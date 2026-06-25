@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:9 — Consequences"
-line_start: 6439
-line_end: 6458
+line_start: 6440
+line_end: 6459
 dependencies:
   - "A.1"
   - "A.1.1"

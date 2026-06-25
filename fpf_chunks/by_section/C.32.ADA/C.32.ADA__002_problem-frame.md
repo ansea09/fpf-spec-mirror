@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 60832
-line_end: 60886
+line_start: 61076
+line_end: 61130
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,7 @@ dependencies:
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.13"
   - "E.17"

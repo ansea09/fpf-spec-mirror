@@ -6,18 +6,19 @@ section_id: "G.11:3"
 section_title: "Forces — Minimal recomputation under strict invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__005_forces-minimal-recomputation-under-strict-invariants.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:3 — Forces — Minimal recomputation under strict invariants"
-line_start: 90315
-line_end: 90322
+line_start: 90561
+line_end: 90568
 dependencies:
   - "B.3.4"
   - "C.18"
   - "C.19"
   - "C.23"
   - "C.28"
+  - "C.32.P2S"
   - "E.18"
   - "F.15"
   - "G.10"

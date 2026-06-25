@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 57527
-line_end: 57891
+line_start: 57528
+line_end: 57893
 dependencies:
   - "A.10"
   - "A.17"
@@ -24,9 +24,11 @@ dependencies:
   - "C.29"
   - "C.30"
   - "C.30.ASV"
+  - "C.31"
   - "C.31.ASAP"
   - "C.31.RSA"
   - "C.32"
+  - "C.32.P2S"
   - "G.5"
 keywords:
   - "ModularityVectorLite"
@@ -401,6 +403,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `C.27`, `C.18.1`, `C.19.1` | Govern temporal and set-dynamic claims such as learning transfer, exception slope, and scale-window movement. |
 | `C.28` | Governs causal-use claims. |
 | `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence, assurance, gate, safety, and release claims. |
+| `C.32.P2S` | Uses C.31 modularity and reusable-structure characteristics when problem pressure must continue into candidate synthesis, decision, realization, and actual-structure feedback; C.31 still governs only characteristic and report-only modularity use. |
 | `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Candidate-generation or architecture-synthesis claims stay outside C.31 unless `G.5`, `C.11`, or a named architecture-synthesis governing pattern governs that claim; C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
 
 ### C.31:End

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.5.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
-line_start: 22741
-line_end: 22960
+line_start: 22742
+line_end: 22961
 dependencies:
   - "A.10"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.3.4.P"
   - "B.1.6"
   - "B.3"
+  - "C.32.P2S"
   - "E.10.MOVE"
   - "E.11.PUR"
   - "E.18"
@@ -255,7 +256,7 @@ The readiness question is practical and recurrent: should this intended work ent
 ### A.15.5:12 - Relations
 
 - **Builds on:** `A.15`, `A.15.1`, `A.15.2`, `A.15.3`, `A.15.4`, `A.21`, `B.1.6`, `E.18`, `E.18.1`, and `E.24`.
-- **Coordinates with:** `E.11.PUR` for recommended pattern use before readiness is selected, `E.10.MOVE` for readiness wording repair, and `A.3.4.P` when workflow or process wording is primarily transformation-situation wording.
+- **Coordinates with:** `E.11.PUR` for recommended pattern use before readiness is selected, `E.10.MOVE` for readiness wording repair, `C.32.P2S` when readiness prepares work that realizes architecture-selected structures, and `A.3.4.P` when workflow or process wording is primarily transformation-situation wording.
 - **Does not replace:** target `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, `GateDecision`, source-restoration relation, resource aggregation, or transformation-flow structure.
 
 ### A.15.5:End

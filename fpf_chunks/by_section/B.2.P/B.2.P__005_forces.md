@@ -6,12 +6,12 @@ section_id: "B.2.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__005_forces.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:3 — Forces"
-line_start: 32607
-line_end: 32616
+line_start: 32608
+line_end: 32617
 dependencies:
   - "A.10"
   - "A.14"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.TFS-REL"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"

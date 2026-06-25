@@ -6,12 +6,12 @@ section_id: "C.32.ACE:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__014_footer-marker.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:13 — Footer marker"
-line_start: 59545
-line_end: 59548
+line_start: 59785
+line_end: 59788
 dependencies:
   - "A.10"
   - "A.19.CPM"

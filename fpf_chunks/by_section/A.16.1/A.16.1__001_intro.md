@@ -6,12 +6,12 @@ section_id: "A.16.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__001_intro.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:intro — Intro"
-line_start: 23568
-line_end: 23589
+line_start: 23569
+line_end: 23590
 dependencies:
   - "A.16"
   - "A.16.0"

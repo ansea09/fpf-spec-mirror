@@ -6,12 +6,12 @@ section_id: "F.6:15"
 section_title: "Footer Marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__017_footer-marker.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:15 — Footer Marker"
-line_start: 80176
-line_end: 80184
+line_start: 80423
+line_end: 80431
 dependencies:
   - "A.15"
   - "A.15.1"

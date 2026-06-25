@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 21506
-line_end: 21604
+line_start: 21507
+line_end: 21605
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -27,6 +27,7 @@ dependencies:
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"

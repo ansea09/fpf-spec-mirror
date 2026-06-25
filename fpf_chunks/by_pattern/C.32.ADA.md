@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADA.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
-line_start: 60826
-line_end: 61089
+line_start: 61070
+line_end: 61334
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,6 +28,7 @@ dependencies:
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.13"
   - "E.17"
@@ -296,10 +297,11 @@ These rows document transfers from source practice into C.32.ADA. Keep a source 
 
 ### C.32.ADA:12 - Relations
 
-- **Builds on:** `C.32.PAD`, `C.32.ADR`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.30.AD`, `C.30.ASV`, `A.15`, `C.16`, `C.25`, `C.29`, `E.17`, and `E.21`.
+- **Builds on:** `C.32.PAD`, `C.32.ADR`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.30.AD`, `C.30.ASV`, `A.15`, `C.16`, `C.25`, `C.29`, `E.17`, and `E.21`.
 - **Evaluation boundary:** ADA evaluates architecture-decision adequacy for declared use. It does not perform candidate synthesis, comparison, selection, selected-set publication, local choice, evidence support, assurance, gate passage, governance enforcement, or pattern-quality evaluation.
 - **Decision and projection boundary:** Use `C.32.PAD` to repair the decision relation and `C.32.ADR` to repair ADR-like publication projection.
 - **Description and structure boundary:** Use `C.30`, `C.30.AD`, and `C.30.ASV` for architecture claim, description, and view adequacy.
+- **P2S docking:** Use `C.32.P2S` when a weak decision-adequacy row must reopen the connected architecturing flow rather than only repair the decision record.
 - **Method and work boundary:** Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` for method, work, readiness, pattern-use, and agentic tool-use claims.
 - **Characteristic and eval boundary:** Use `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, and `C.31.ASAP` for characteristic rows, Q-Bundles, eval programs, measurement, modularity, and scale preference.
 - **Evidence, assurance, gate, and governance boundary:** Use `A.10`, `B.3`, `A.21`, and local governance patterns when those claims are live.

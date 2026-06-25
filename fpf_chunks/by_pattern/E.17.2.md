@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
-line_start: 70185
-line_end: 70655
+line_start: 70430
+line_end: 70900
 dependencies:
   - "A.1"
   - "A.15"

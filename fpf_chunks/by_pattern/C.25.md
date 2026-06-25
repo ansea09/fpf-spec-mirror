@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.25.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
 line_start: 47802
@@ -454,7 +454,7 @@ Useful outputs:
 
 #### C.25:20b - Architecture-decision Q-Bundle boundary
 
-`C.32.PAD` and `C.32.ADA` may cite Q-Bundles as architecture-characteristic inputs, accepted-loss structure, guardrail rows, or adequacy concerns. C.25 keeps composite quality-family slots, bearer, scope, measures, mechanisms, qualification window, and evidence distinct from the project architecture decision relation and from ADR-like publication projection.
+`C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite Q-Bundles as architecture-characteristic inputs, accepted-loss structure, guardrail rows, feedback concerns, or adequacy concerns. C.25 keeps composite quality-family slots, bearer, scope, measures, mechanisms, qualification window, and evidence distinct from the problem-to-structure architecturing flow, project architecture decision relation, and ADR-like publication projection.
 
 ### C.25:End
 

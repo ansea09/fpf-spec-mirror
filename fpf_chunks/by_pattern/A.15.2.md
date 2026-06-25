@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.2.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15.2 — U.WorkPlan"
-line_start: 21732
-line_end: 21979
+line_start: 21733
+line_end: 21980
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "A.20"
   - "A.21"
   - "B.3"
+  - "C.32.P2S"
   - "E.17"
   - "U.Method"
   - "U.MethodDescription"
@@ -257,8 +258,8 @@ Use this as a human-facing checklist (not a rigid schema):
 ### A.15.2:7e - Relations
 
 * **Builds on:** `A.15` Role-Method-Work Alignment, `A.15.1` `U.Work`, `A.2.1` `U.RoleAssignment`, `U.Method`, and `U.MethodDescription`.
-* **Coordinates with:** `A.15.3` for `SlotFillingsPlanItem` values, `A.15.4` for work-relevant source restoration, `A.15.5` for work-entry readiness and full-kit preparation, `A.10` for evidence-provenance relations, `B.3` for assurance, `A.20` and `A.21` for gates and constraint decisions, and `E.17` for publication-use questions.
-* **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning and keeps plan, work-entry readiness, performed work, evidence, gate, and result-measurement relations separate.
+* **Coordinates with:** `A.15.3` for `SlotFillingsPlanItem` values, `A.15.4` for work-relevant source restoration, `A.15.5` for work-entry readiness and full-kit preparation, `A.10` for evidence-provenance relations, `B.3` for assurance, `A.20` and `A.21` for gates and constraint decisions, `C.32.P2S` for architecturing-flow refs to intended work that realizes selected structures, and `E.17` for publication-use questions.
+* **Used by:** P2W carry-through when principle-to-work reasoning reaches WorkPlanning, and P2S carry-through when architecture-selected structures require intended work records. Both uses keep plan, work-entry readiness, performed work, evidence, gate, and result-measurement relations separate.
 
 ### A.15.2:8 - P2W WorkPlanning Use Relation
 

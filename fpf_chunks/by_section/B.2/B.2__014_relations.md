@@ -6,12 +6,12 @@ section_id: "B.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__014_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:11 — Relations"
-line_start: 32545
-line_end: 32552
+line_start: 32546
+line_end: 32553
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30.ILC"
+  - "C.32.P2S"
   - "E.24.UK"
   - "U.Episteme"
 keywords:
@@ -39,7 +40,7 @@ keywords:
 ### B.2:11 - Relations
 
 - **Builds on:** `A.1` for holon admission, `B.1` for part-whole construction, `A.14` and `C.13` for relation and constructional grounding, and `E.24.UK` for result-kind admission discipline.
-- **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.15` and `A.15.1` for method and work, `C.16` and `A.19` for characteristic space and threshold, `C.29` for mathematical lenses, and `A.10` for evidence.
+- **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.15` and `A.15.1` for method and work, `C.16` and `A.19` for characteristic space and threshold, `C.29` for mathematical lenses, `C.32.P2S` when architecturing pressure becomes whole reidentification or emergence rather than local structure repair, and `A.10` for evidence.
 - **Specialized by:** `B.2.2` for system-result MHT, `B.2.3` for MHT-result holons admitted as `U.Episteme`, and `B.2.4` for capability and functioning whole reidentification.
 - **Can use neighboring evidence from:** `B.2.5` when a supervisor-subholon feedback relation is part of the B.2 case evidence or neighboring structure; that does not make B.2.5 a result-kind specialization.
 - **Uses:** `B.2.P` when emergence-family, MHT, MET, MFT, synergy, or metric-mirage wording hides which claim kind is current before B.2 is applied.

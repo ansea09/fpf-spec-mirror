@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 73984
-line_end: 74014
+line_start: 74229
+line_end: 74260
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -42,6 +42,7 @@ keywords:
 
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
 * **E.18 -> coordinates with -> A.15.5 WorkEntryReadiness.** A selected structure may position a launch or work-boundary readiness locus only as a relation to `A.15.5`; E.18 supplies the crossing, path, slice, LaunchGate position, and structure-local pins, while `A.15.5` governs `FullKitCondition`, planned preparation references, commitment disposition, resource-readiness references, and whether intended work is ready to enter performed-work execution.
+* **E.18 -> coordinates with -> C.32.P2S ProblemToStructureArchitecturingFlow.** P2S may cite selected transformation-flow structure, path, crossing, or valuation as architecture content, uncertainty, method/work handoff, or feedback material; E.18 still governs the transformation-flow structure and does not become the whole architecturing flow.
 
 > Relation rows use the named relation kinds **builds_on**, **constrains**, **coordinates**, **specializes**, **publishes_on**, **requires**, and **provides_checks_for**.
 

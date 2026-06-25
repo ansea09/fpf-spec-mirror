@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.FAIL.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
-line_start: 60070
-line_end: 60305
+line_start: 60312
+line_end: 60547
 dependencies:
   - "A.10"
   - "A.15"
@@ -36,6 +36,7 @@ dependencies:
   - "C.32"
   - "C.32.CONWAY"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.10"
   - "E.17"
@@ -278,7 +279,7 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 ### C.32.FAIL:12 - Relations
 
 - **Builds on:** `C.32` for candidate palette repair, `C.32.CONWAY` for transformer and transformed architecture correspondence repair, `C.30` and `C.30.AD` for architecture description boundaries, `C.30.ASV` for architecture structural views, `C.31` for module and interface architecture, `C.32.MLAO` for cross-scope residual repairs, `C.29` for mathematical-lens use, `E.17` and `E.24.PUB` for publication-face boundaries, `A.6.P` and `E.10` for source-expression and relation recovery.
-- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture-decision claims.
+- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `C.32.P2S` when the failure reopens problem-to-structure carry-through, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture-decision claims.
 - **Receiving patterns after the repair cue:** `A.10` for evidence claims, `B.3` for assurance claims, `A.20` or `A.21` for gate or release claims when those claims are being made, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture decisions, only after the architecture repair cue has named the object under stress and the repair action.
 - **Boundary:** C.32.FAIL governs repair cues for architecture-synthesis failures. It does not govern final candidate selection, evidence sufficiency, assurance, gate passage, release claims, or architecture decision.
 

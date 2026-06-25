@@ -6,12 +6,12 @@ section_id: "F.4:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_reasoning-primitives.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:6 — Reasoning Primitives"
-line_start: 79344
-line_end: 79372
+line_start: 79591
+line_end: 79619
 dependencies:
   - "A.15"
   - "A.15.1"

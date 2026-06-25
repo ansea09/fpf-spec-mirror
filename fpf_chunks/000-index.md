@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `792091cf6f89f21f3423d75c72238bb0982777f2`
+Commit SHA: `b0368ed8d883c04d0b261b03f46c28e23d790dc5`
 
 Chunking method: `pattern-aware`
 
-Patterns: `267`
+Patterns: `268`
 
 ## Patterns
 
@@ -174,6 +174,7 @@ Patterns: `267`
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
 - [C.32 — Architecture Candidate Synthesis](by_pattern/C.32.md)
+- [C.32.P2S — Problem-to-Structure Architecturing Transformation Flow](by_pattern/C.32.P2S.md)
 - [C.32.HCS — Holon-Family Architecture Characteristic Starter Packs](by_pattern/C.32.HCS.md)
 - [C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles](by_pattern/C.32.ACS.md)
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)

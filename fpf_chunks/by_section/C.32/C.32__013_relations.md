@@ -6,12 +6,12 @@ section_id: "C.32:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__013_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:12 — Relations"
-line_start: 58877
-line_end: 58883
+line_start: 58880
+line_end: 58887
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.18"
   - "E.22"
@@ -65,5 +66,6 @@ keywords:
 - **Builds on:** `C.30`, `C.30.P`, `C.30.ASV`, `A.22`, `A.6.F`, `A.6.M`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, `C.16`, `C.16.P`, `E.22`, `E.23`, `C.19.1`, `C.30.LCA`, `C.30.TFS-REL`, `E.18`, `A.3.4`, `A.15`, and local patterns for recovering source-side architecture referents.
 - **Uses:** `C.30.ILC` when a residual starts the candidate work; `C.32.MLAO` when residual-reducing multilevel framing is being used; `C.32.CONWAY` when transformer and transformed architectures must be co-synthesized; `C.32.FAIL` when a candidate needs repair before explicit comparison, selection, local choice, or decision; `C.32.ACE` when candidate eval results are needed before later comparison or selection; `C.29` when mathematical-lens use is being claimed.
 - **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and `C.32.PAD` for project architecture decisions.
+- **P2S docking:** `C.32.P2S` uses C.32 for the candidate-synthesis stages after problem pressure, selected structures, architecture characteristics, and structural uncertainty have been recovered; C.32 remains the candidate-palette owner.
 - **Boundary:** C.32 governs candidate architecture palette construction for one grounded architecture question over selected structures of a described holon. Evidence, assurance, gate, release, work authorization, method governance, ethical mediation, and causal claims use their own patterns when those claims are being made.
 

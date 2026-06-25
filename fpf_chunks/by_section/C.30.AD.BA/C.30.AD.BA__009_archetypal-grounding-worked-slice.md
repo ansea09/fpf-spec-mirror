@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:6"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__009_archetypal-grounding-worked-slice.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:6 — Archetypal Grounding (Worked Slice)"
-line_start: 55365
-line_end: 55370
+line_start: 55366
+line_end: 55371
 dependencies:
   - "A.1"
   - "A.10"

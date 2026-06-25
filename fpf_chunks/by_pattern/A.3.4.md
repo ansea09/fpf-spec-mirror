@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
-line_start: 7097
-line_end: 7567
+line_start: 7098
+line_end: 7568
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -32,6 +32,7 @@ dependencies:
   - "C.27.TA"
   - "C.29"
   - "C.30.ASV"
+  - "C.32.P2S"
   - "E.18"
   - "E.18.1"
   - "E.18.2"
@@ -513,7 +514,7 @@ The slot-relation design keeps the ontic compact. Identity slots recover one bou
 ### A.3.4:12 - Relations
 
 - **Builds on:** `E.24`, `A.1`, `A.6.0`, `A.6.5`, `C.2.1`, `A.3`, `A.7`.
-- **Coordinates with:** `A.3.1`, `A.3.2`, `A.3.3`, `A.6.1`, `E.20`, `A.15.1`, `A.15.2`, `E.18`, `E.18.1`, `C.27.TA`, `C.27`, `C.29`, evidence, gate, decision, source, result, assurance, and publication patterns.
+- **Coordinates with:** `A.3.1`, `A.3.2`, `A.3.3`, `A.6.1`, `E.20`, `A.15.1`, `A.15.2`, `E.18`, `E.18.1`, `C.32.P2S`, `C.27.TA`, `C.27`, `C.29`, evidence, gate, decision, source, result, assurance, and publication patterns.
 - **Specializes:** the A.3 transformer-constitution family for bounded transformations under declared conditions.
 
 ### A.3.4:End

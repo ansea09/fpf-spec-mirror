@@ -6,12 +6,12 @@ section_id: "C.32:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__010_consequences.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:9 — Consequences"
-line_start: 58834
-line_end: 58846
+line_start: 58837
+line_end: 58849
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,6 +44,7 @@ dependencies:
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "E.18"
   - "E.22"

@@ -6,18 +6,19 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__018_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 88150
-line_end: 88167
+line_start: 88397
+line_end: 88414
 dependencies:
   - "C.11"
   - "C.18"
   - "C.19"
   - "C.23"
   - "C.24"
+  - "C.32.P2S"
   - "G.0"
   - "G.2"
   - "G.2-G.4"
@@ -63,5 +64,5 @@ keywords:
 
 **Publishes to:** `UTS` (family ids, selector policy records, and selected-set identities such as `ShortlistId` when one public result is emitted), `G.6` (audit citations), RSCR emission records (typed triggers and payload pins), and downstream packs through `G.10` shipping publications.
 
-**Coordinates with:** `C.11` for local choice results, `C.19` for pool-policy records, `C.24` for enactment-facing next-action records, and the accepted Q-Front shortlist-family continuity line when the published selected-set label is one shortlist-family result.
+**Coordinates with:** `C.11` for local choice results, `C.19` for pool-policy records, `C.32.P2S` when publication of a selected set is one stage in architecture problem-to-structure carry-through, `C.24` for enactment-facing next-action records, and the accepted Q-Front shortlist-family continuity line when the published selected-set label is one shortlist-family result.
 

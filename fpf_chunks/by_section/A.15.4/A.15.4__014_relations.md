@@ -6,12 +6,12 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:9 — Relations"
-line_start: 22714
-line_end: 22720
+line_start: 22715
+line_end: 22721
 dependencies:
   - "A.10"
   - "A.15"

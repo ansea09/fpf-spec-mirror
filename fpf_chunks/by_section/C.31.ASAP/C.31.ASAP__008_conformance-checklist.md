@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__008_conformance-checklist.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:7 — Conformance Checklist"
-line_start: 58513
-line_end: 58527
+line_start: 58516
+line_end: 58530
 dependencies:
   - "A.10"
   - "A.17"
@@ -31,6 +31,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
+  - "C.32.P2S"
   - "C.32.PAD"
   - "G.5"
   - "G.6"

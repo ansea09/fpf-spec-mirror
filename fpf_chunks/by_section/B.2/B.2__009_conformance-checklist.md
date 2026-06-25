@@ -6,12 +6,12 @@ section_id: "B.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__009_conformance-checklist.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:6 — Conformance Checklist"
-line_start: 32490
-line_end: 32503
+line_start: 32491
+line_end: 32504
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,6 +31,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30.ILC"
+  - "C.32.P2S"
   - "E.24.UK"
   - "U.Episteme"
 keywords:

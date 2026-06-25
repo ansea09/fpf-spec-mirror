@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
-line_start: 58890
-line_end: 59086
+line_start: 59130
+line_end: 59326
 dependencies:
   - "A.19"
   - "C.11"
@@ -220,7 +220,7 @@ These rows document transfers from source practice into C.32.HCS. Keep a source 
 
 ### C.32.HCS:12 - Relations
 
-- **Receiving use:** `C.32.ACS` project criteria-set construction, including scale rows and use classes when the project later needs them.
+- **Receiving use:** `C.32.ACS` project criteria-set construction, including scale rows and use classes when the project later needs them; `C.32.P2S` when starter heads are needed before the architecturing flow can bind project criteria, candidate synthesis, eval, and refresh.
 - **Uses:** `C.25` when a starter head is composite; `C.30` and `C.30.ASV` when the selected structures are not yet recoverable.
 - **Boundary:** HCS is not a catalogue, measurement pattern, Q-Bundle pattern, optimization method, or architecture decision pattern.
 

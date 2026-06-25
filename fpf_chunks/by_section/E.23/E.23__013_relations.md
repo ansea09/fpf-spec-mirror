@@ -6,21 +6,23 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 76575
-line_end: 76593
+line_start: 76821
+line_end: 76840
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
   - "C.19.1"
   - "C.22.1"
   - "C.24"
+  - "C.32.P2S"
   - "E.2.DA"
   - "E.21"
   - "E.22"
+  - "E.23"
   - "E.9.DA"
   - "F.19"
   - "G.11"
@@ -45,6 +47,7 @@ keywords:
 | `C.19.1` | Governs BLP and cost/risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD candidate characteristics, archive/front, pool, selected set, parity, and refresh. |
+| `C.32.P2S` | Uses improvement-loop results only when they reopen architecture problem-to-structure carry-through; E.23 still governs the loop record and re-evaluation. |
 | `C.11`, `A.10`, `B.3`, `A.15`, `A.20`, `A.21` | Govern decision, evidence, assurance, work, gate, and release claims when a loop result is reused beyond quality improvement. |
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by loop records. |
 

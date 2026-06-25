@@ -6,12 +6,12 @@ section_id: "A.2.9:11"
 section_title: "SoTA-Echoing (informative; post-2015 alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__014_sota-echoing-informative-post-2015-alignment.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:11 — SoTA-Echoing (informative; post-2015 alignment)"
-line_start: 5888
-line_end: 5895
+line_start: 5889
+line_end: 5896
 dependencies:
   - "A.10"
   - "A.15.1"

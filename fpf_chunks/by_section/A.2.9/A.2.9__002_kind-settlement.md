@@ -6,12 +6,12 @@ section_id: "A.2.9:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__002_kind-settlement.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:0.1 — Kind Settlement"
-line_start: 5598
-line_end: 5601
+line_start: 5599
+line_end: 5602
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "F.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__006_solution.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:4 — Solution"
-line_start: 80531
-line_end: 80620
+line_start: 80778
+line_end: 80867
 dependencies:
   - "A.11"
   - "A.15"

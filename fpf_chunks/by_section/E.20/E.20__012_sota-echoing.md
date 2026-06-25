@@ -6,12 +6,12 @@ section_id: "E.20:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__012_sota-echoing.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:11 — SoTA-Echoing"
-line_start: 75754
-line_end: 75763
+line_start: 76000
+line_end: 76009
 dependencies:
   - "A.15.3"
   - "A.6.1"

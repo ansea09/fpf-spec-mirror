@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
 line_start: 46212
@@ -17,6 +17,7 @@ dependencies:
   - "C.19"
   - "C.22.1"
   - "C.23"
+  - "C.32.P2S"
   - "E.10"
   - "E.18"
   - "G.0"
@@ -251,7 +252,7 @@ C.22 exists because a task-shaped problem record must stay method-agnostic until
 C.22 follows contemporary selector and optimization practice by refusing one universal “best method” view: a typed problem attachment states the task family, admissible characteristics, constraints, evidence, and unknown-handling policy before a selector compares candidates. Modern multi-objective optimization, QD archive practice, open-ended generation, and solver-interface practice all support the same boundary: selection works over typed problem cases and admissible comparison rules, not over prose labels or popularity. The pattern therefore keeps the problem-side record separate from method choice, keeps scalarization in Acceptance or CAL policy, and keeps archive or generator telemetry out of dominance unless a governing policy admits it.
 
 ### C.22:13 - Relations
-**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**. **Constrained by:** **E.10 (selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording)**, **E.18 (GateCrossing visibility and publication gating)**.
+**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**, and `C.32.P2S` when typed problem pressure must continue into architecture selected structures and synthesis. **Constrained by:** **E.10 (selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording)**, **E.18 (GateCrossing visibility and publication gating)**.
 
 ### C.22:14 - Practical Use Checks
 

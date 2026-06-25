@@ -6,7 +6,7 @@ section_id: "C.22.2:25"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__026_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:25 — Relations"
@@ -36,6 +36,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.MOVE"
   - "E.16"
@@ -67,5 +68,5 @@ keywords:
 ### C.22.2:25 - Relations
 
 - Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
-- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, and `E.10.MOVE`.
+- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
 

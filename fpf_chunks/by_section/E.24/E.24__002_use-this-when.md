@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 76602
-line_end: 76639
+line_start: 76849
+line_end: 76886
 dependencies:
   - "A.15"
   - "A.19.ECS"

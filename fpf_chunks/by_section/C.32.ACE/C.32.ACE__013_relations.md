@@ -6,12 +6,12 @@ section_id: "C.32.ACE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__013_relations.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:12 — Relations"
-line_start: 59536
-line_end: 59544
+line_start: 59776
+line_end: 59784
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -42,7 +42,7 @@ keywords:
 ### C.32.ACE:12 - Relations
 
 - **Builds on:** `C.32.HCS`, `C.32.ACS`, `C.16`, `C.16.P`, `C.25`, `E.13`, `E.22`, `E.23`, and `A.19.CPM`.
-- **Receiving uses:** `C.32` candidate synthesis, `C.32.MLAO` residual optimization, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair, `A.19.CPM` comparison, `A.19.SelectorMechanism` selection, `C.11` local choice, publication of a selected set under `G.5`, and architecture-decision work for `C.32.PAD`.
+- **Receiving uses:** `C.32.P2S` actual-structure feedback and next-synthesis repair, `C.32` candidate synthesis, `C.32.MLAO` residual optimization, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair, `A.19.CPM` comparison, `A.19.SelectorMechanism` selection, `C.11` local choice, publication of a selected set under `G.5`, and architecture-decision work for `C.32.PAD`.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, uncertainty, or cross-case comparability claim is made.
 - **Q-Bundle boundary:** Use `C.25` when the evaluated item is a composite quality family.
 - **Test boundary:** Use `test` only as an eval operation for a declared expectation or hard constraint. Error recognition and architecture-synthesis repair use `C.32.FAIL`; non-architecture defects use the local defect-governing pattern.

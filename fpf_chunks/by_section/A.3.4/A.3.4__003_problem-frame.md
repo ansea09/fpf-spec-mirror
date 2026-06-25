@@ -6,12 +6,12 @@ section_id: "A.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__003_problem-frame.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:1 — Problem Frame"
-line_start: 7137
-line_end: 7162
+line_start: 7138
+line_end: 7163
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -33,6 +33,7 @@ dependencies:
   - "C.27.TA"
   - "C.29"
   - "C.30.ASV"
+  - "C.32.P2S"
   - "E.18"
   - "E.18.1"
   - "E.18.2"

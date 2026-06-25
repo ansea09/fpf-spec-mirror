@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
 line_start: 46596
@@ -35,6 +35,7 @@ dependencies:
   - "C.27"
   - "C.28"
   - "C.29"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.MOVE"
   - "E.16"
@@ -79,7 +80,7 @@ keywords:
 
 **Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 
-**Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, and `E.10.MOVE`.
+**Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `C.32.P2S`, and `E.10.MOVE`.
 
 **Boundary summary.** `C.22.2` use starts from messy problem-side signals and yields one reviewable `ProblemCard@Context`, a `P2W-ready` problem-side input for downstream `C.22`, or a stop with a governing-pattern cue for the claim being made, relation, or boundary outside the card.
 
@@ -712,7 +713,7 @@ For P2W carry-through, use `E.18.1` with the accepted problem-side material and 
 ### C.22.2:25 - Relations
 
 - Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
-- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, and `E.10.MOVE`.
+- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
 
 ### C.22.2:End
 

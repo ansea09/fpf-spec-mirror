@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale (why an Annex) (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale-why-an-annex-informative.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale (why an Annex) (informative)"
-line_start: 41351
-line_end: 41842
+line_start: 41352
+line_end: 41843
 dependencies:
   - "A.2.6"
   - "C.3.x"

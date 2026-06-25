@@ -6,12 +6,12 @@ section_id: "A.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__001_intro.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:intro — Intro"
-line_start: 20414
-line_end: 20417
+line_start: 20415
+line_end: 20418
 dependencies:
   - "A.12"
   - "A.2"

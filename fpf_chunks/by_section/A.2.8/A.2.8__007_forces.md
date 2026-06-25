@@ -6,12 +6,12 @@ section_id: "A.2.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__007_forces.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:3 — Forces"
-line_start: 5323
-line_end: 5333
+line_start: 5324
+line_end: 5334
 dependencies:
   - "A.15.1"
   - "A.2"

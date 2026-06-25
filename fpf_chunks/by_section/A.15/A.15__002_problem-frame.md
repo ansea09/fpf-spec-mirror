@@ -6,12 +6,12 @@ section_id: "A.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__002_problem-frame.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:1 — Problem frame"
-line_start: 20916
-line_end: 20932
+line_start: 20917
+line_end: 20933
 dependencies:
   - "A.10"
   - "A.12"
@@ -31,6 +31,7 @@ dependencies:
   - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.16"

@@ -6,12 +6,12 @@ section_id: "E.24.UK:5.7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__012_rationale.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:5.7 — Rationale"
-line_start: 77905
-line_end: 77910
+line_start: 78152
+line_end: 78157
 dependencies:
   - "A.11"
   - "A.6.5"

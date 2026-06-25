@@ -6,12 +6,12 @@ section_id: "B.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__001_intro.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:intro — Intro"
-line_start: 32813
-line_end: 32818
+line_start: 32814
+line_end: 32819
 dependencies:
   - "A.1"
   - "A.10"

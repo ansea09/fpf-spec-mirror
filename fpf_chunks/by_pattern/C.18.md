@@ -6,10 +6,10 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.18.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
-line_start: 44980
+line_start: 44981
 line_end: 45199
 dependencies:
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "C.19"
   - "C.2"
   - "C.30"
+  - "C.32.P2S"
   - "C.36"
   - "E.18"
   - "E.18.1"
@@ -257,14 +258,13 @@ Current quality-diversity, illumination search, open-ended engineering, and evol
 | Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954. | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their governing patterns. |
 | Novikov et al., `AlphaEvolve`, arXiv:2506.13131, and Liu et al., `Deep Research` augmentation, arXiv:2510.06056. | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
 | Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set labels continue to `G.5`. |
-| Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates exit to `C.30`, `C.30.ASV`, or `C.30.AD` after C.18 records descriptor, archive or front relation, and telemetry. |
+| Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates exit to `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
 
 ### C.18:11 - Relations
 
 Builds on: `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
 
-Coordinates with: `C.19` for current-pool treatment, `G.5` for selected-set publication, `G.11` for refresh, `E.18.1` for P2W carry-through, `C.30` family for architecture candidates, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
+Coordinates with: `C.19` for current-pool treatment, `G.5` for selected-set publication, `G.11` for refresh, `E.18.1` for P2W carry-through, `C.30` family and `C.32.P2S` for architecture candidates and problem-to-structure carry-through, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
 
 ### C.18:End
----
 

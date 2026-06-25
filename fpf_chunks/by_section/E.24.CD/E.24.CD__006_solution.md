@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:4 — Solution"
-line_start: 77127
-line_end: 77242
+line_start: 77374
+line_end: 77489
 dependencies:
   - "A.19"
   - "A.19.ECS"

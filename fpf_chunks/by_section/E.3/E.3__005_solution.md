@@ -6,12 +6,12 @@ section_id: "E.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__005_solution.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:4 — Solution"
-line_start: 62750
-line_end: 62781
+line_start: 62995
+line_end: 63026
 dependencies:
   - "E.2"
 keywords:

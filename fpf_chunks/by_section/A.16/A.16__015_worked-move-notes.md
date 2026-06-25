@@ -6,12 +6,12 @@ section_id: "A.16:14"
 section_title: "Worked Move Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__015_worked-move-notes.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:14 — Worked Move Notes"
-line_start: 23120
-line_end: 23147
+line_start: 23121
+line_end: 23148
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,20 +6,22 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.23.md"
-commit_sha: "792091cf6f89f21f3423d75c72238bb0982777f2"
+commit_sha: "b0368ed8d883c04d0b261b03f46c28e23d790dc5"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
-line_start: 76372
-line_end: 76595
+line_start: 76618
+line_end: 76842
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
   - "C.19.1"
   - "C.22.1"
   - "C.24"
+  - "C.32.P2S"
   - "E.2.DA"
   - "E.21"
   - "E.22"
+  - "E.23"
   - "E.9.DA"
   - "F.19"
   - "G.11"
@@ -69,7 +71,7 @@ The loop also fails when an ordinal value becomes a work target. `5` is an assig
 
 #### E.23:4.1 - Local names and kind settlement
 
-| Local name | Kind and role |
+| Local name | Kind and function |
 |---|---|
 | `QualityImprovementLoopMethod` | Repeated improvement method for one object version under one evaluation. |
 | `ObjectUnderImprovementRef` | Exact object kind and version being changed. |
@@ -85,7 +87,7 @@ The loop also fails when an ordinal value becomes a work target. `5` is an assig
 | `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost/risk, and loop decision. |
 | `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD/OEE comparison. |
 | `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
-| `KindRestorationCheck` | Required precision-repair check that records pre-repair kind, relation, slot or use-position, admissible use, and scope, proposed post-repair kind, relation, slot or use-position, admissible use, and scope, and whether each live field is not triggered, ordinary prose, preserved, split, intentionally changed by accepted decision, or blocking. |
+| `KindRestorationCheck` | Required precision-repair check that records pre-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, proposed post-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, and whether each live field is not triggered, ordinary prose, preserved, split, intentionally changed by accepted decision, or blocking. |
 
 These names belong to loop method. They do not create quality values, project evidence, release state, selected-set publication, parity, refresh, or proof of quality.
 
@@ -98,7 +100,7 @@ For one quality-improvement loop:
 3. Use `E.22` to frame the first quality evaluation when the purpose is not already explicit.
 4. Run the object-under-improvement evaluation in its required result form. For one FPF pattern version, this is an `E.21` result with every required coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
 5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary.
-6. Apply repairs or variants to the object. Repair below-floor findings first. When exceptional improvement is requested, search coordinate-by-coordinate for substantive content moves: better positive action guidance, a missing worked slice, case/countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or relocation of quality/process proof. Repairs must not add guards, boundary catalogues, relation menus, or quality proof solely to make a higher value defensible. A no-change closure is admissible only when the row gives loci and explains why no non-dominated content improvement is available under the protected trade-offs. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, slot or use-position, admissible use, and scope were present before the edit and what kind, relation, slot or use-position, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
+6. Apply repairs or variants to the object. Repair below-floor findings first. When exceptional improvement is requested, search coordinate-by-coordinate for substantive content moves: better positive action guidance, a missing worked slice, case/countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or relocation of quality/process proof. Repairs must not add guards, boundary catalogues, relation menus, or quality proof solely to make a higher value defensible. A no-change closure is admissible only when the row gives loci and explains why no non-dominated content improvement is available under the protected trade-offs. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Also record a bounded complete `KindRestorationCheck` before closing the finding: the repair must say what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope were present before the edit and what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, or `already satisfied` with loci; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
 7. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, mandatory attention-discharge rows, and coordinate-specific payloads.
 8. Record what improved, what stayed floor-only, what was unchanged by value with loci, what became worse, and which rows moved outside the evaluation.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
@@ -188,7 +190,7 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
 | `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. The loop repairs below-floor results first. Exceptional-improvement work may proceed only through non-dominated proposal rows that name the expected substantive content movement, protected trade-offs, and cost/risk. A no-proposal or stay-at-current-value disposition must show the checked loci and why every plausible content move is dominated, unavailable, or outside the declared scope. If a change would only add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology, reject that change rather than counting it as improvement. |
 | `CC-E23-8` | Keep candidate generation, pool policy, selected-set publication, parity, refresh, decision, planning, work, evidence, assurance, gate, release, safety, and compliance claims with the pattern that governs each claim, relation, or boundary. State those pattern relations declaratively in loop records or `Relations`; keep loop-method and architecture-placement prose out of the object under improvement unless that prose is the object's own user-facing content. |
-| `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the selected restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair is word/head/use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or a governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: pre-repair kind/relation/slot-or-use-position/admissible use/scope, post-repair kind/relation/slot-or-use-position/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
+| `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the selected restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair is word/head/use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or a governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: pre-repair kind/relation/current ontic slot, relation position, use relation, or claim kind/admissible use/scope, post-repair kind/relation/current ontic slot, relation position, use relation, or claim kind/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
 | `CC-E23-10` | Preserve the named evaluation's required evidence basis, result-row shape, short-rationale rule, mandatory attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
 
@@ -247,6 +249,7 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 | `C.19.1` | Governs BLP and cost/risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD candidate characteristics, archive/front, pool, selected set, parity, and refresh. |
+| `C.32.P2S` | Uses improvement-loop results only when they reopen architecture problem-to-structure carry-through; E.23 still governs the loop record and re-evaluation. |
 | `C.11`, `A.10`, `B.3`, `A.15`, `A.20`, `A.21` | Govern decision, evidence, assurance, work, gate, and release claims when a loop result is reused beyond quality improvement. |
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by loop records. |
 
