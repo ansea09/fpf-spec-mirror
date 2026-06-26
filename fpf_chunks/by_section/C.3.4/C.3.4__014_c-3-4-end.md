@@ -6,12 +6,12 @@ section_id: "C.3.4:End"
 section_title: "C.3.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__014_c-3-4-end.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:End — C.3.4:End"
-line_start: 40959
-line_end: 40960
+line_start: 40962
+line_end: 40963
 dependencies:
   - "C.3.1"
   - "C.3.2"

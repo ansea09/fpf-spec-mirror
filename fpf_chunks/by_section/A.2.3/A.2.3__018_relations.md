@@ -6,12 +6,12 @@ section_id: "A.2.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__018_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:11 — Relations"
-line_start: 3344
-line_end: 3350
+line_start: 3347
+line_end: 3353
 dependencies:
   - "A.1.1"
   - "A.15.1"

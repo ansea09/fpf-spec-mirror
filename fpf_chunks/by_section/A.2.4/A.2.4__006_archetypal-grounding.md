@@ -6,12 +6,12 @@ section_id: "A.2.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__006_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:5 — Archetypal Grounding"
-line_start: 3549
-line_end: 3597
+line_start: 3552
+line_end: 3600
 dependencies:
   - "A.10"
   - "A.2"

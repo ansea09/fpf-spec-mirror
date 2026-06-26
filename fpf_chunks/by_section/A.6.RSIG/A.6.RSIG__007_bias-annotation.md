@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__007_bias-annotation.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:6 — Bias-Annotation"
-line_start: 8855
-line_end: 8869
+line_start: 8858
+line_end: 8872
 dependencies:
   - "A.6"
   - "A.6.P"

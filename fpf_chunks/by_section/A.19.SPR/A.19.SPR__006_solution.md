@@ -6,12 +6,12 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:4 — Solution"
-line_start: 25150
-line_end: 25218
+line_start: 25153
+line_end: 25221
 dependencies:
   - "A.10"
   - "A.16"

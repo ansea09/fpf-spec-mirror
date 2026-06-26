@@ -6,12 +6,12 @@ section_id: "E.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:intro — Intro"
-line_start: 63560
-line_end: 63561
+line_start: 63563
+line_end: 63564
 dependencies:
   - "E.2"
 keywords:

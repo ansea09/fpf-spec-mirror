@@ -6,12 +6,12 @@ section_id: "E.8:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__015_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:10 — Rationale"
-line_start: 64892
-line_end: 64904
+line_start: 65600
+line_end: 65612
 dependencies:
   - "E.10"
   - "E.10.MOVE"

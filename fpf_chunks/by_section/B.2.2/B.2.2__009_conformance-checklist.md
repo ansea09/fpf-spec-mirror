@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 33011
-line_end: 33023
+line_start: 33014
+line_end: 33026
 dependencies:
   - "A.1"
   - "A.10"

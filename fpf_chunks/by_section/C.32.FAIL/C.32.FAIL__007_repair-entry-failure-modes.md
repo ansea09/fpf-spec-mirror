@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:6"
 section_title: "Repair-Entry Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__007_repair-entry-failure-modes.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:6 — Repair-Entry Failure Modes"
-line_start: 60473
-line_end: 60488
+line_start: 60476
+line_end: 60491
 dependencies:
   - "A.10"
   - "A.15"

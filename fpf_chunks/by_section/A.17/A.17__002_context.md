@@ -6,12 +6,12 @@ section_id: "A.17:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__002_context.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:1 — Context"
-line_start: 24095
-line_end: 24098
+line_start: 24098
+line_end: 24101
 dependencies:
   - "A.17"
   - "A.18"

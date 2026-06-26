@@ -6,12 +6,12 @@ section_id: "A.19.UNM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 27715
-line_end: 27740
+line_start: 27718
+line_end: 27743
 dependencies:
 keywords:
   - "CV→NCV"

@@ -6,12 +6,12 @@ section_id: "A.19:12.2"
 section_title: "Source Role and Currentness"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__016_source-role-and-currentness.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:12.2 — Source Role and Currentness"
-line_start: 24810
-line_end: 24815
+line_start: 24813
+line_end: 24818
 dependencies:
   - "A.17"
   - "A.18"

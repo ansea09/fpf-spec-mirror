@@ -6,12 +6,12 @@ section_id: "A.19.CPM:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__008_bias-annotation-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:6 — Bias-Annotation — informative"
-line_start: 28923
-line_end: 28933
+line_start: 28926
+line_end: 28936
 dependencies:
 keywords:
   - "ComparatorSet"

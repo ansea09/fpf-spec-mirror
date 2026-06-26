@@ -6,12 +6,12 @@ section_id: "A.2.6:1"
 section_title: "Problem frame - Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__003_problem-frame-purpose-and-audience.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:1 — Problem frame - Purpose and Audience"
-line_start: 4045
-line_end: 4059
+line_start: 4048
+line_end: 4062
 dependencies:
   - "A.1.1"
   - "A.2.2"

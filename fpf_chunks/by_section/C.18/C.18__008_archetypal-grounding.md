@@ -6,12 +6,12 @@ section_id: "C.18:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__008_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:6 — Archetypal Grounding"
-line_start: 45157
-line_end: 45164
+line_start: 45160
+line_end: 45167
 dependencies:
   - "A.15"
   - "A.17-A.19"

@@ -6,12 +6,12 @@ section_id: "C.32.HCS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__003_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:2 — Problem"
-line_start: 59203
-line_end: 59208
+line_start: 59206
+line_end: 59211
 dependencies:
   - "A.19"
   - "C.11"

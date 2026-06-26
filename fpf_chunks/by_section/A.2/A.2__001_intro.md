@@ -6,12 +6,12 @@ section_id: "A.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:intro — Intro"
-line_start: 1918
-line_end: 1923
+line_start: 1921
+line_end: 1926
 dependencies:
   - "A.1"
   - "A.1.1"

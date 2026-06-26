@@ -6,12 +6,12 @@ section_id: "B.5.2.1:2"
 section_title: "Intent & Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__003_intent-problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:2 — Intent & Problem"
-line_start: 35911
-line_end: 35916
+line_start: 35914
+line_end: 35919
 dependencies:
   - "A.17"
   - "A.18"

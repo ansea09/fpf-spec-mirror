@@ -6,12 +6,12 @@ section_id: "A.6.2:4"
 section_title: "Solution — define U.EffectFreeEpistemicMorphing once"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__005_solution-define-u-effectfreeepistemicmorphing-once.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:4 — Solution — define U.EffectFreeEpistemicMorphing once"
-line_start: 10730
-line_end: 10914
+line_start: 10733
+line_end: 10917
 dependencies:
   - "A.1"
   - "A.6.0"

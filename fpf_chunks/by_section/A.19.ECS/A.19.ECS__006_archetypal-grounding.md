@@ -6,12 +6,12 @@ section_id: "A.19.ECS:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__006_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:5 — Archetypal Grounding"
-line_start: 24980
-line_end: 24991
+line_start: 24983
+line_end: 24994
 dependencies:
   - "A.17-A.19"
   - "C.16"

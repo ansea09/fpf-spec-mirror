@@ -6,12 +6,12 @@ section_id: "C.30.P:6"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__009_worked-cases.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:6 — Worked cases"
-line_start: 55625
-line_end: 55636
+line_start: 55628
+line_end: 55639
 dependencies:
   - "A.10"
   - "A.15"

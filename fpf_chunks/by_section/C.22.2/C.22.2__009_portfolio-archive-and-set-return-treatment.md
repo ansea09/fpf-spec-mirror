@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 46905
-line_end: 46929
+line_start: 46908
+line_end: 46932
 dependencies:
   - "A.10"
   - "A.15"

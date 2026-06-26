@@ -6,12 +6,12 @@ section_id: "F.3:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__003_problem-frame.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:2 — Problem Frame"
-line_start: 79712
-line_end: 79722
+line_start: 80420
+line_end: 80430
 dependencies:
   - "A.11"
   - "A.7"

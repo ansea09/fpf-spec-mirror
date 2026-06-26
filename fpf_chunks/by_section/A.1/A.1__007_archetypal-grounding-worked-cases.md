@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 1498
-line_end: 1551
+line_start: 1501
+line_end: 1554
 dependencies:
   - "A.1.1"
   - "A.12"

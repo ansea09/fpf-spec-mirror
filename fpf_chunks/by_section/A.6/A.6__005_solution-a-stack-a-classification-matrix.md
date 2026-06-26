@@ -6,12 +6,12 @@ section_id: "A.6:4"
 section_title: "Solution — A stack + a classification matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__005_solution-a-stack-a-classification-matrix.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:4 — Solution — A stack + a classification matrix"
-line_start: 8120
-line_end: 8346
+line_start: 8123
+line_end: 8349
 dependencies:
   - "A.10"
   - "A.15"

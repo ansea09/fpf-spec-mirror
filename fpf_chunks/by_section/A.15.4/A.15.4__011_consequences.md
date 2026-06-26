@@ -6,12 +6,12 @@ section_id: "A.15.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__011_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:6 — Consequences"
-line_start: 22690
-line_end: 22697
+line_start: 22693
+line_end: 22700
 dependencies:
   - "A.10"
   - "A.15"

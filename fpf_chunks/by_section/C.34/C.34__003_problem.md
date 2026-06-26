@@ -6,12 +6,12 @@ section_id: "C.34:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__003_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:2 — Problem"
-line_start: 61601
-line_end: 61608
+line_start: 61604
+line_end: 61611
 dependencies:
   - "A.22"
   - "A.6.M"

@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-the-u-scopedwitnessedbasedeclaration-object-and-its-lexicon.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:4 — Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
-line_start: 16269
-line_end: 16472
+line_start: 16272
+line_end: 16475
 dependencies:
   - "A.10"
   - "A.14"

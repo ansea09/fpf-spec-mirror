@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__008_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:7 — Conformance Checklist"
-line_start: 60249
-line_end: 60261
+line_start: 60252
+line_end: 60264
 dependencies:
   - "A.10"
   - "A.19.CPM"

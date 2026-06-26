@@ -6,12 +6,12 @@ section_id: "F.9:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__002_intent-and-applicability.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:1 — Intent and applicability"
-line_start: 81689
-line_end: 81710
+line_start: 82397
+line_end: 82418
 dependencies:
   - "A.15.1"
   - "A.2"

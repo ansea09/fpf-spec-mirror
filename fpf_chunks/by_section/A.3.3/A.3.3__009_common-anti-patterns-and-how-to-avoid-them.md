@@ -6,12 +6,12 @@ section_id: "A.3.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7043
-line_end: 7054
+line_start: 7046
+line_end: 7057
 dependencies:
   - "A.1.1"
   - "A.10"

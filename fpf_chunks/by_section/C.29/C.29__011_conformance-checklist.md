@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__011_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Conformance Checklist"
-line_start: 53816
-line_end: 53853
+line_start: 53819
+line_end: 53856
 dependencies:
   - "A.1.1"
   - "A.10"

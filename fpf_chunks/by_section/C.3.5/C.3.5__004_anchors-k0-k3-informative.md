@@ -6,12 +6,12 @@ section_id: "C.3.5:3"
 section_title: "Anchors K0…K3 (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__004_anchors-k0-k3-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:3 — Anchors K0…K3 (informative)"
-line_start: 41016
-line_end: 41047
+line_start: 41019
+line_end: 41050
 dependencies:
   - "C.3.1"
 keywords:

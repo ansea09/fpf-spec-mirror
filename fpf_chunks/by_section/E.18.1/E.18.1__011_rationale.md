@@ -6,12 +6,12 @@ section_id: "E.18.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__011_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:10 — Rationale"
-line_start: 75282
-line_end: 75287
+line_start: 75990
+line_end: 75995
 dependencies:
   - "A.10"
   - "A.15"

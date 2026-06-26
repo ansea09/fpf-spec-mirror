@@ -6,12 +6,12 @@ section_id: "B.1:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__009_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:6 — Conformance Checklist"
-line_start: 30748
-line_end: 30760
+line_start: 30751
+line_end: 30763
 dependencies:
   - "A.1"
   - "A.14"

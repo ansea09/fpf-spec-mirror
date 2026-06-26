@@ -6,12 +6,12 @@ section_id: "C.31.RSA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__013_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:12 — Relations"
-line_start: 58270
-line_end: 58285
+line_start: 58273
+line_end: 58288
 dependencies:
   - "A.10"
   - "A.19"

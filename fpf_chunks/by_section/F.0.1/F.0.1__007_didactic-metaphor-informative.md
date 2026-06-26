@@ -6,12 +6,12 @@ section_id: "F.0.1:6"
 section_title: "Didactic Metaphor (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__007_didactic-metaphor-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:6 — Didactic Metaphor (informative)"
-line_start: 78891
-line_end: 78898
+line_start: 79599
+line_end: 79606
 dependencies:
   - "A.1.1"
   - "A.11"

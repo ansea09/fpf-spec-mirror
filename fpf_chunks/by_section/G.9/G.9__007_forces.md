@@ -6,12 +6,12 @@ section_id: "G.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__007_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:3 — Forces"
-line_start: 90219
-line_end: 90228
+line_start: 90927
+line_end: 90936
 dependencies:
   - "A.19"
   - "A.21"

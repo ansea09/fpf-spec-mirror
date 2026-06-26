@@ -6,12 +6,12 @@ section_id: "C.2.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__008_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:7 — Conformance Checklist"
-line_start: 38088
-line_end: 38104
+line_start: 38091
+line_end: 38107
 dependencies:
   - "A.2.6"
   - "A.21"

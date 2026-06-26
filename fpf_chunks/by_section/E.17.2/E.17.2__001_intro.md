@@ -6,12 +6,12 @@ section_id: "E.17.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:intro — Intro"
-line_start: 71011
-line_end: 71058
+line_start: 71719
+line_end: 71766
 dependencies:
   - "A.1"
   - "A.15"

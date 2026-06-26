@@ -6,12 +6,12 @@ section_id: "C.24:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__011_bias-annotation.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:6 — Bias-Annotation"
-line_start: 47753
-line_end: 47756
+line_start: 47756
+line_end: 47759
 dependencies:
   - "A.1"
   - "A.15"

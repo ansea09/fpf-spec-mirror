@@ -6,26 +6,44 @@ section_id: "E.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__003_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:2 — Problem"
-line_start: 63720
-line_end: 63723
+line_start: 63731
+line_end: 63742
 dependencies:
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.1"
+  - "E.11"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.19"
+  - "E.2"
+  - "E.21"
+  - "E.23"
+  - "E.4.DPF"
+  - "E.4.PFAD"
+  - "E.4.PFR"
   - "E.5.3"
+  - "F.18"
+  - "G.11"
+  - "G.2"
+  - "G.5"
 keywords:
-  - "Conceptual Core"
-  - "Pedagogical Companion"
-  - "Tooling Reference"
-  - "canon"
-  - "ecosystem families"
-  - "linter"
-  - "tutorial"
 ---
 
 ### E.4:2 - Problem
 
-How can we structure the FPF ecosystem to ensure a clean separation of concerns between normative concepts, didactic materials, and executable tooling? A formal architecture is required to maintain conceptual purity, enable independent evolution of components, and provide a clear map for all stakeholders.
+FPF has grown from a single core pattern set into an ecosystem of core rules, tools, companions, domain frameworks, local practice frameworks, source packs, decisions, quality records, and publication units. If those objects are described only by file names, abbreviations, or reader-facing tables of contents, several different kinds collapse:
+
+- a pattern set is treated as a publication unit;
+- a local practice framework is treated as an FPF Core amendment;
+- a relation record is treated as a method order;
+- a dependency on a framework edition is treated as a specialization relation;
+- a source or generated carrier is treated as architecture evidence without source-return and preservation claims.
+
+The result is a framework that may look organized but cannot answer ordinary architecture questions: what structure is selected, what depends on what, what can change independently, what is preserved by a projection, and what must return to a stronger owner before it is used.
 

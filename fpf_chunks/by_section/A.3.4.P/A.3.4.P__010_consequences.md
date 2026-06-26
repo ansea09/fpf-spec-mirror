@@ -6,12 +6,12 @@ section_id: "A.3.4.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__010_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:9 — Consequences"
-line_start: 7780
-line_end: 7788
+line_start: 7783
+line_end: 7791
 dependencies:
   - "A.10"
   - "A.15"

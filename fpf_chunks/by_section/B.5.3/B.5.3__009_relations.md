@@ -6,12 +6,12 @@ section_id: "B.5.3:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__009_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:8 — Relations"
-line_start: 36157
-line_end: 36162
+line_start: 36160
+line_end: 36165
 dependencies:
   - "A.13"
   - "A.15"

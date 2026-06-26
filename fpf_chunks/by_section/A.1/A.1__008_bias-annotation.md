@@ -6,12 +6,12 @@ section_id: "A.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__008_bias-annotation.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:6 — Bias-Annotation"
-line_start: 1552
-line_end: 1565
+line_start: 1555
+line_end: 1568
 dependencies:
   - "A.1.1"
   - "A.12"

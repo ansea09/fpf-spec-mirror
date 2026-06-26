@@ -6,12 +6,12 @@ section_id: "A.2.6:11.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__017_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:11.1 — Consequences"
-line_start: 4623
-line_end: 4626
+line_start: 4626
+line_end: 4629
 dependencies:
   - "A.1.1"
   - "A.2.2"

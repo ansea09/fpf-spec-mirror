@@ -6,12 +6,12 @@ section_id: "C.28:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__004_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:2 — Problem"
-line_start: 52182
-line_end: 52193
+line_start: 52185
+line_end: 52196
 dependencies:
   - "A.10"
   - "A.15"

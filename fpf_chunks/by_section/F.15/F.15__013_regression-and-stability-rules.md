@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 84191
-line_end: 84254
+line_start: 84899
+line_end: 84962
 dependencies:
   - "A.10"
   - "A.15.1"

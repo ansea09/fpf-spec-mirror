@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations (attach these when producing an Assurance tuple)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations-attach-these-when-producing-an-assurance-tuple.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:5 — Proof obligations (attach these when producing an Assurance tuple)"
-line_start: 34118
-line_end: 34171
+line_start: 34121
+line_end: 34174
 dependencies:
   - "A.10"
   - "A.14"

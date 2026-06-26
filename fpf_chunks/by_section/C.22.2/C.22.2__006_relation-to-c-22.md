@@ -6,12 +6,12 @@ section_id: "C.22.2:5"
 section_title: "Relation to C.22"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__006_relation-to-c-22.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:5 — Relation to C.22"
-line_start: 46865
-line_end: 46872
+line_start: 46868
+line_end: 46875
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.10.D1:End"
 section_title: "E.10.D1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__015_e-10-d1-end.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:End — E.10.D1:End"
-line_start: 68333
-line_end: 68334
+line_start: 69041
+line_end: 69042
 dependencies:
   - "A.4"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:3 — Forces"
-line_start: 72651
-line_end: 72665
+line_start: 73359
+line_end: 73373
 dependencies:
   - "A.15"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "E.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:intro — Intro"
-line_start: 69328
-line_end: 69333
+line_start: 70036
+line_end: 70041
 dependencies:
   - "A.10"
   - "A.21"

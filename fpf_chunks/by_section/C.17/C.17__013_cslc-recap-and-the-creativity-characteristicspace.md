@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "CSLC recap and the Creativity CharacteristicSpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_cslc-recap-and-the-creativity-characteristicspace.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:12 — CSLC recap and the Creativity CharacteristicSpace"
-line_start: 44565
-line_end: 44690
+line_start: 44568
+line_end: 44693
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.16:3"
 section_title: "Problem Frame - Context (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__004_problem-frame-context-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:3 — Problem Frame - Context (Informative)"
-line_start: 42837
-line_end: 42840
+line_start: 42840
+line_end: 42843
 dependencies:
   - "A.10"
   - "A.17"

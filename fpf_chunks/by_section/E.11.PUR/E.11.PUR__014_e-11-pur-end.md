@@ -6,12 +6,12 @@ section_id: "E.11.PUR:End"
 section_title: "E.11.PUR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__014_e-11-pur-end.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:End — E.11.PUR:End"
-line_start: 69238
-line_end: 69239
+line_start: 69946
+line_end: 69947
 dependencies:
   - "A.15"
   - "A.15.1"

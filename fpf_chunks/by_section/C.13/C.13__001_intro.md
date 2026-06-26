@@ -6,12 +6,12 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 42568
-line_end: 42581
+line_start: 42571
+line_end: 42584
 dependencies:
   - "A.14"
   - "B.3.5"

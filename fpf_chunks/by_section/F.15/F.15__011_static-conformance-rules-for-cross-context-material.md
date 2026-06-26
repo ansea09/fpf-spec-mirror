@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for cross-context material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-cross-context-material.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:9 — Static conformance rules for cross-context material"
-line_start: 84124
-line_end: 84171
+line_start: 84832
+line_end: 84879
 dependencies:
   - "A.10"
   - "A.15.1"

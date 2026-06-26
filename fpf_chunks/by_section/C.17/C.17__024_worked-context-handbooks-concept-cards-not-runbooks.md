@@ -6,12 +6,12 @@ section_id: "C.17:21"
 section_title: "Worked‑Context Handbooks (concept cards, not runbooks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__024_worked-context-handbooks-concept-cards-not-runbooks.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:21 — Worked‑Context Handbooks (concept cards, not runbooks)"
-line_start: 44885
-line_end: 44915
+line_start: 44888
+line_end: 44918
 dependencies:
   - "A.1"
   - "A.10"

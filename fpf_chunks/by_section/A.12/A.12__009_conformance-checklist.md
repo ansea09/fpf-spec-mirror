@@ -6,12 +6,12 @@ section_id: "A.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__009_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:6 — Conformance Checklist"
-line_start: 20356
-line_end: 20368
+line_start: 20359
+line_end: 20371
 dependencies:
   - "A.1"
   - "A.10"

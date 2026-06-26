@@ -6,12 +6,12 @@ section_id: "F.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__012_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:10 — Rationale"
-line_start: 80608
-line_end: 80615
+line_start: 81316
+line_end: 81323
 dependencies:
   - "A.15"
   - "A.2"

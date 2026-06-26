@@ -6,12 +6,12 @@ section_id: "C.32.HCS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__012_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:11 — SoTA-Echoing"
-line_start: 59315
-line_end: 59327
+line_start: 59318
+line_end: 59330
 dependencies:
   - "A.19"
   - "C.11"

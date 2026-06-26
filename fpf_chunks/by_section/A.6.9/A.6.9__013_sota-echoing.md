@@ -6,12 +6,12 @@ section_id: "A.6.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__013_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:11 — SoTA-Echoing"
-line_start: 18083
-line_end: 18095
+line_start: 18086
+line_end: 18098
 dependencies:
   - "A.6.6"
   - "A.6.P"

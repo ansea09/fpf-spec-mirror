@@ -6,12 +6,12 @@ section_id: "E.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:intro — Intro"
-line_start: 74290
-line_end: 74298
+line_start: 74998
+line_end: 75006
 dependencies:
   - "A.2.6"
   - "A.20"

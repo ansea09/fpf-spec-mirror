@@ -6,12 +6,12 @@ section_id: "E.24.UK:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:intro — Intro"
-line_start: 78447
-line_end: 78452
+line_start: 79155
+line_end: 79160
 dependencies:
   - "A.11"
   - "A.6.5"

@@ -6,12 +6,12 @@ section_id: "B.1.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__012_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:11 — Relations"
-line_start: 31520
-line_end: 31529
+line_start: 31523
+line_end: 31532
 dependencies:
   - "A.1"
   - "A.12"

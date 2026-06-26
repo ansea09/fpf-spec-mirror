@@ -6,12 +6,12 @@ section_id: "C.25:17"
 section_title: "Repair and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__018_repair-and-boundary-notes.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:17 — Repair and Boundary Notes"
-line_start: 48112
-line_end: 48150
+line_start: 48115
+line_end: 48153
 dependencies:
   - "A.15"
   - "A.16.0"

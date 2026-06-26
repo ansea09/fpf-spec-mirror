@@ -6,12 +6,12 @@ section_id: "A.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__003_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:2 — Problem"
-line_start: 7833
-line_end: 7840
+line_start: 7836
+line_end: 7843
 dependencies:
   - "B.4"
 keywords:

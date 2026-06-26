@@ -6,12 +6,12 @@ section_id: "C.3.1:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:9 — Conformance Checklist"
-line_start: 40258
-line_end: 40267
+line_start: 40261
+line_end: 40270
 dependencies:
   - "A.1"
   - "A.11"

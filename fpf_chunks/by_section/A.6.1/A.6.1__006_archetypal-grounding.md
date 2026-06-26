@@ -6,12 +6,12 @@ section_id: "A.6.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__006_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:5 — Archetypal Grounding"
-line_start: 10514
-line_end: 10531
+line_start: 10517
+line_end: 10534
 dependencies:
   - "A.1.1"
   - "A.10"

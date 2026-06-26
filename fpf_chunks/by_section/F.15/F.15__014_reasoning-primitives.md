@@ -6,12 +6,12 @@ section_id: "F.15:12"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_reasoning-primitives.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:12 — Reasoning primitives"
-line_start: 84255
-line_end: 84284
+line_start: 84963
+line_end: 84992
 dependencies:
   - "A.10"
   - "A.15.1"

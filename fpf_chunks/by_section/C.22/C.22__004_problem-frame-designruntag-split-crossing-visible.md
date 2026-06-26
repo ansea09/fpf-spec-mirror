@@ -6,12 +6,12 @@ section_id: "C.22:2"
 section_title: "Problem Frame (DesignRunTag split; crossing-visible)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__004_problem-frame-designruntag-split-crossing-visible.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:2 — Problem Frame (DesignRunTag split; crossing-visible)"
-line_start: 46262
-line_end: 46269
+line_start: 46265
+line_end: 46272
 dependencies:
   - "C.16"
   - "C.18"

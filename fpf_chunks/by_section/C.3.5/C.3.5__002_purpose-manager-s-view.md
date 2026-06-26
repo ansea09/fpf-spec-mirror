@@ -6,12 +6,12 @@ section_id: "C.3.5:1"
 section_title: "Purpose (manager’s view)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__002_purpose-manager-s-view.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:1 — Purpose (manager’s view)"
-line_start: 40980
-line_end: 40989
+line_start: 40983
+line_end: 40992
 dependencies:
   - "C.3.1"
 keywords:

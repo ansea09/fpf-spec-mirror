@@ -6,12 +6,12 @@ section_id: "C.32.P2S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__013_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:12 — Relations"
-line_start: 59130
-line_end: 59136
+line_start: 59133
+line_end: 59139
 dependencies:
   - "A.15"
   - "A.15.1"

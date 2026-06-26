@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:9 — Archetypal Grounding"
-line_start: 36984
-line_end: 36991
+line_start: 36987
+line_end: 36994
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

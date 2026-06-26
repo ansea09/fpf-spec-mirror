@@ -6,12 +6,12 @@ section_id: "C.32.HCS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__005_solution.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:4 — Solution"
-line_start: 59219
-line_end: 59267
+line_start: 59222
+line_end: 59270
 dependencies:
   - "A.19"
   - "C.11"

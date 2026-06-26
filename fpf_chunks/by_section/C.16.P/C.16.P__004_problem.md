@@ -6,12 +6,12 @@ section_id: "C.16.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__004_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:2 — Problem"
-line_start: 43298
-line_end: 43308
+line_start: 43301
+line_end: 43311
 dependencies:
   - "A.10"
   - "A.15"

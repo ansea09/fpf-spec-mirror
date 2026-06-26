@@ -6,12 +6,12 @@ section_id: "C.2.1:15"
 section_title: "Relations  (overview)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__017_relations-overview.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:15 — Relations  (overview)"
-line_start: 37121
-line_end: 37146
+line_start: 37124
+line_end: 37149
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

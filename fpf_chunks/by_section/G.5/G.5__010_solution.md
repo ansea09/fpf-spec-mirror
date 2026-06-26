@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 88414
-line_end: 88843
+line_start: 89122
+line_end: 89551
 dependencies:
   - "C.11"
   - "C.18"

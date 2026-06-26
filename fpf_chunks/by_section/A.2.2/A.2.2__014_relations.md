@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:13 — Relations"
-line_start: 2853
-line_end: 2872
+line_start: 2856
+line_end: 2875
 dependencies:
   - "A.15"
   - "A.2"

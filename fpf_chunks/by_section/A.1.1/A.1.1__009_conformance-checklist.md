@@ -6,12 +6,12 @@ section_id: "A.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
   - "A.1.1:7 — Conformance Checklist"
-line_start: 1851
-line_end: 1863
+line_start: 1854
+line_end: 1866
 dependencies:
   - "A.1"
   - "A.15"

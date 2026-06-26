@@ -6,12 +6,12 @@ section_id: "C.29:13b"
 section_title: "Source-use boundary notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__017_source-use-boundary-notes.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13b — Source-use boundary notes"
-line_start: 54211
-line_end: 54218
+line_start: 54214
+line_end: 54221
 dependencies:
   - "A.1.1"
   - "A.10"

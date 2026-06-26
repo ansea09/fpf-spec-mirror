@@ -6,12 +6,12 @@ section_id: "A.3:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__002_intent.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:1 — Intent"
-line_start: 5918
-line_end: 5921
+line_start: 5921
+line_end: 5924
 dependencies:
   - "A.15"
   - "A.2"

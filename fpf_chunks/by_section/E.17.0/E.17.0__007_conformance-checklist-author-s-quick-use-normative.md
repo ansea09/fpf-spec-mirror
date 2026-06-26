@@ -6,12 +6,12 @@ section_id: "E.17.0:6"
 section_title: "Conformance checklist (author’s quick use)  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__007_conformance-checklist-author-s-quick-use-normative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:6 — Conformance checklist (author’s quick use)  (normative)"
-line_start: 70555
-line_end: 70579
+line_start: 71263
+line_end: 71287
 dependencies:
   - "A.15"
   - "A.2"

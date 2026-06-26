@@ -1,0 +1,48 @@
+---
+chunk_kind: "child"
+pattern_id: "E.4.PFR"
+pattern_title: "Pattern-Framework Relation and Edition Discipline"
+section_id: "E.4.PFR:7"
+section_title: "Conformance Checklist"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.4.PFR/E.4.PFR__008_conformance-checklist.md"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+heading_path:
+  - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
+  - "E.4.PFR:7 — Conformance Checklist"
+line_start: 64436
+line_end: 64447
+dependencies:
+  - "A.10"
+  - "C.33"
+  - "C.34"
+  - "C.35"
+  - "E.11"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.21"
+  - "E.22"
+  - "E.23"
+  - "E.4"
+  - "E.4.PFAD"
+  - "E.5.3"
+  - "E.9"
+  - "F.18"
+  - "G.11"
+  - "G.2"
+  - "G.5"
+keywords:
+---
+
+### E.4.PFR:7 - Conformance Checklist
+
+| Check | Passing condition |
+| --- | --- |
+| CC-PFR.1 Relation record exists | Each load-bearing relation has a record naming source, target, relation function, governed use, owner, and return condition. |
+| CC-PFR.2 Function before label | The relation function is selected by what the relation does, not by word similarity. |
+| CC-PFR.3 Dependency separated | Framework edition dependency is separated from specialization, publication, pattern-use recommendation, and preservation. |
+| CC-PFR.4 E.5.3 respected | Dependency direction points toward stable framework editions and Core does not depend on domain or local frameworks. |
+| CC-PFR.5 Compatibility boundary present | Edition dependencies that carry compatibility claims name boundary, deprecation, supersession, and refresh conditions. |
+| CC-PFR.6 Carrier relation routed | Publication, preservation, and produced-carrier claims use `E.11`, `E.17`, `C.33`, `C.34`, or `C.35` as appropriate. |
+| CC-PFR.7 Source and decision reuse routed | Source-line, SoTA-pack, DRR, accepted-decision, evidence, and currentness reuse claims route to `G.2`, `E.9`, or `A.10` instead of relation-label prose. |
+

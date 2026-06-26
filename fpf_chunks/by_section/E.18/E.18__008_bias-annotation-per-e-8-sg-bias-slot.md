@@ -6,12 +6,12 @@ section_id: "E.18:13"
 section_title: "Bias-Annotation (per E.8 SG-bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:13 — Bias-Annotation (per E.8 SG-bias slot)"
-line_start: 74662
-line_end: 74671
+line_start: 75370
+line_end: 75379
 dependencies:
   - "A.2.6"
   - "A.20"

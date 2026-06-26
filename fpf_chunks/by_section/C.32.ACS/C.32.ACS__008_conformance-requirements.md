@@ -6,12 +6,12 @@ section_id: "C.32.ACS:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__008_conformance-requirements.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:7 — Conformance requirements"
-line_start: 59527
-line_end: 59540
+line_start: 59530
+line_end: 59543
 dependencies:
   - "A.10"
   - "A.17"

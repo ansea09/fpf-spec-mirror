@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__014_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:10 — Relations"
-line_start: 13300
-line_end: 13317
+line_start: 13303
+line_end: 13320
 dependencies:
   - "A.6.2"
   - "A.6.3"

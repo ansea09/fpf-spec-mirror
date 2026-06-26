@@ -6,12 +6,12 @@ section_id: "A.6.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 18033
-line_end: 18052
+line_start: 18036
+line_end: 18055
 dependencies:
   - "A.6.6"
   - "A.6.P"

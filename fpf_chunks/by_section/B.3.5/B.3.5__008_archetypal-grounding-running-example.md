@@ -6,12 +6,12 @@ section_id: "B.3.5:6"
 section_title: "Archetypal Grounding - Running example"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__008_archetypal-grounding-running-example.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:6 — Archetypal Grounding - Running example"
-line_start: 34637
-line_end: 34654
+line_start: 34640
+line_end: 34657
 dependencies:
   - "B.3"
   - "C.13"

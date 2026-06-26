@@ -6,24 +6,38 @@ section_id: "E.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:intro — Intro"
-line_start: 63714
-line_end: 63715
+line_start: 63717
+line_end: 63722
 dependencies:
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.1"
+  - "E.11"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.19"
+  - "E.2"
+  - "E.21"
+  - "E.23"
+  - "E.4.DPF"
+  - "E.4.PFAD"
+  - "E.4.PFR"
   - "E.5.3"
+  - "F.18"
+  - "G.11"
+  - "G.2"
+  - "G.5"
 keywords:
-  - "Conceptual Core"
-  - "Pedagogical Companion"
-  - "Tooling Reference"
-  - "canon"
-  - "ecosystem families"
-  - "linter"
-  - "tutorial"
 ---
 
 ## E.4 - FPF Ecosystem Family Architecture
+
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative.
 

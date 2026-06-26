@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48672
-line_end: 48738
+line_start: 48675
+line_end: 48741
 dependencies:
   - "A.10"
   - "A.15"

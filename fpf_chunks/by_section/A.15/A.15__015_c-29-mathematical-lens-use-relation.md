@@ -6,12 +6,12 @@ section_id: "A.15:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12b — C.29 mathematical-lens use relation"
-line_start: 21263
-line_end: 21266
+line_start: 21266
+line_end: 21269
 dependencies:
   - "A.10"
   - "A.12"

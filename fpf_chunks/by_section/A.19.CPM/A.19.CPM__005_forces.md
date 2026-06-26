@@ -6,12 +6,12 @@ section_id: "A.19.CPM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__005_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:3 — Forces"
-line_start: 28781
-line_end: 28789
+line_start: 28784
+line_end: 28792
 dependencies:
 keywords:
   - "ComparatorSet"

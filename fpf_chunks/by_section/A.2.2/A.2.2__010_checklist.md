@@ -6,12 +6,12 @@ section_id: "A.2.2:9"
 section_title: "Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__010_checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:9 — Checklist"
-line_start: 2796
-line_end: 2810
+line_start: 2799
+line_end: 2813
 dependencies:
   - "A.15"
   - "A.2"

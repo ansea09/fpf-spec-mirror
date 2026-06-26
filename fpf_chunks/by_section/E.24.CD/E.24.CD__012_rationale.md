@@ -6,12 +6,12 @@ section_id: "E.24.CD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__012_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:10 — Rationale"
-line_start: 78173
-line_end: 78180
+line_start: 78881
+line_end: 78888
 dependencies:
   - "A.19"
   - "A.19.ECS"

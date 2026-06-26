@@ -6,12 +6,12 @@ section_id: "G.7:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__006_archetypal-grounding-system-episteme.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:5 — Archetypal Grounding (System / Episteme)"
-line_start: 89628
-line_end: 89635
+line_start: 90336
+line_end: 90343
 dependencies:
   - "A.21"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_anti-patterns-and-repairs.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Anti-patterns and repairs"
-line_start: 68539
-line_end: 68551
+line_start: 69247
+line_end: 69259
 dependencies:
   - "A.7"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "A.19.CPM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__009_conformance-checklist.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:7 — Conformance Checklist"
-line_start: 28934
-line_end: 28954
+line_start: 28937
+line_end: 28957
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "A.19:3"
 section_title: "Problem (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__005_problem-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:3 — Problem (Informative)"
-line_start: 24448
-line_end: 24459
+line_start: 24451
+line_end: 24462
 dependencies:
   - "A.17"
   - "A.18"

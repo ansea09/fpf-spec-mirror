@@ -6,12 +6,12 @@ section_id: "F.13:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 83540
-line_end: 83595
+line_start: 84248
+line_end: 84303
 dependencies:
   - "F.1"
   - "F.10"

@@ -6,12 +6,12 @@ section_id: "E.5.1:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__006_archetypal-grounding-system-episteme.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:5 — Archetypal Grounding (System / Episteme)"
-line_start: 63924
-line_end: 63930
+line_start: 64632
+line_end: 64638
 dependencies:
   - "E.5"
 keywords:

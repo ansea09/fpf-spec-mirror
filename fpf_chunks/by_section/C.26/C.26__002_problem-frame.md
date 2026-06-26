@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 48233
-line_end: 48307
+line_start: 48236
+line_end: 48310
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:10 — Rationale"
-line_start: 65436
-line_end: 65457
+line_start: 66144
+line_end: 66165
 dependencies:
   - "E.10"
   - "E.19"

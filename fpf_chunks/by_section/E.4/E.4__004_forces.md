@@ -6,30 +6,43 @@ section_id: "E.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__004_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:3 — Forces"
-line_start: 63724
-line_end: 63731
+line_start: 63743
+line_end: 63753
 dependencies:
+  - "C.33"
+  - "C.34"
+  - "C.35"
   - "E.1"
+  - "E.11"
+  - "E.11.PUR"
+  - "E.17"
+  - "E.19"
+  - "E.2"
+  - "E.21"
+  - "E.23"
+  - "E.4.DPF"
+  - "E.4.PFAD"
+  - "E.4.PFR"
   - "E.5.3"
+  - "F.18"
+  - "G.11"
+  - "G.2"
+  - "G.5"
 keywords:
-  - "Conceptual Core"
-  - "Pedagogical Companion"
-  - "Tooling Reference"
-  - "canon"
-  - "ecosystem families"
-  - "linter"
-  - "tutorial"
 ---
 
 ### E.4:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Stability vs. Agility** | The conceptual core must evolve slowly and deliberately ↔ tools and tutorials must iterate quickly to keep pace with technology and user needs. |
-| **Authority vs. Accessibility** | Users need to know which rules are normative and binding ↔ they also need accessible, non-normative guides to help them learn. |
-| **Modularity vs. Cohesion** | The different FPF ecosystem families must be able to evolve independently <-> they must remain part of a single, coherent FPF ecosystem. |
+| --- | --- |
+| Core stability | The FPF Core must stay stable enough to govern other frameworks, while domain and local frameworks need faster evolution. |
+| Reuse and bounded context | Domain and local frameworks should reuse FPF Core distinctions, but they must not silently redefine Core meaning. |
+| Publication pressure | Readers need monoliths, tables of contents, cards, examples, and first-entry material, but those carriers do not by themselves settle architecture. |
+| Relation richness | Pattern ecosystems need recommendation, specialization, dependency, publication, preservation, evaluation, and source-use relations, but a single "related patterns" list hides the relation function. |
+| Source and generation pressure | Source summaries, relation graphs, and generated candidate sets speed work, but their losses and admissible use must be declared before architecture work relies on them. |
+| Evolution pressure | Framework editions, dependencies, and names change over time, so compatibility, deprecation, supersession, and refresh conditions must be explicit. |
 

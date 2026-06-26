@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution - U.EpistemeSlotRelation as the normative episteme ontology"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution-u-epistemeslotrelation-as-the-normative-episteme-ontology.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:4 — Solution - U.EpistemeSlotRelation as the normative episteme ontology"
-line_start: 36402
-line_end: 36786
+line_start: 36405
+line_end: 36789
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

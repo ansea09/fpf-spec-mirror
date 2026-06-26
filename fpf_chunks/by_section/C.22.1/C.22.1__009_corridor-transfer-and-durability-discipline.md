@@ -6,12 +6,12 @@ section_id: "C.22.1:8"
 section_title: "Corridor, transfer, and durability discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__009_corridor-transfer-and-durability-discipline.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:8 — Corridor, transfer, and durability discipline"
-line_start: 46521
-line_end: 46532
+line_start: 46524
+line_end: 46535
 dependencies:
   - "A.15"
   - "C.19.1"

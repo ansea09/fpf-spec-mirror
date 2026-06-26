@@ -6,12 +6,12 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:0 — Use This When"
-line_start: 62229
-line_end: 62261
+line_start: 62232
+line_end: 62264
 dependencies:
   - "A.1"
   - "A.15"

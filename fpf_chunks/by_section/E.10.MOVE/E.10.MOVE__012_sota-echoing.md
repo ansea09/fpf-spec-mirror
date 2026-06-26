@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 67704
-line_end: 67711
+line_start: 68412
+line_end: 68419
 dependencies:
   - "A.10"
   - "A.15"

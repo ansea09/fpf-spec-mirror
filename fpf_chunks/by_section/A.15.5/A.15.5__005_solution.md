@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 22788
-line_end: 22865
+line_start: 22791
+line_end: 22868
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.2.6:13"
 section_title: "Playbooks (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_playbooks-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:13 — Playbooks (Informative)"
-line_start: 4627
-line_end: 4676
+line_start: 4630
+line_end: 4679
 dependencies:
   - "A.1.1"
   - "A.2.2"

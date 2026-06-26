@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__008_bias-annotation-informative.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:6 — Bias-Annotation (informative)"
-line_start: 27977
-line_end: 27988
+line_start: 27980
+line_end: 27991
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

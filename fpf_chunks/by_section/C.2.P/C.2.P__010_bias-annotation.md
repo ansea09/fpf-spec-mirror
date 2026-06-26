@@ -6,12 +6,12 @@ section_id: "C.2.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__010_bias-annotation.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:6 — Bias-Annotation"
-line_start: 37633
-line_end: 37641
+line_start: 37636
+line_end: 37644
 dependencies:
   - "A.10"
   - "A.15"

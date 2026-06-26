@@ -6,12 +6,12 @@ section_id: "C.16:8"
 section_title: "Integration with Role-State Relation and Dynamics (Normative and Clarifying)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__011_integration-with-role-state-relation-and-dynamics-normative-and-clarifying.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8 — Integration with Role-State Relation and Dynamics (Normative and Clarifying)"
-line_start: 43050
-line_end: 43061
+line_start: 43053
+line_end: 43064
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:4"
 section_title: "Reference Designation Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__007_reference-designation-boundary.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:4 — Reference Designation Boundary"
-line_start: 55349
-line_end: 55368
+line_start: 55352
+line_end: 55371
 dependencies:
   - "A.1"
   - "A.10"

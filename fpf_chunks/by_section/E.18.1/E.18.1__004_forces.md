@@ -6,12 +6,12 @@ section_id: "E.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__004_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:3 — Forces"
-line_start: 74907
-line_end: 74917
+line_start: 75615
+line_end: 75625
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2a.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2a.1 — SoTA-Echoing"
-line_start: 68088
-line_end: 68098
+line_start: 68796
+line_end: 68806
 dependencies:
   - "A.10"
   - "A.15.1"

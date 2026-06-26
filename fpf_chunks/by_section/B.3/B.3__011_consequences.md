@@ -6,12 +6,12 @@ section_id: "B.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__011_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:9 — Consequences"
-line_start: 34271
-line_end: 34283
+line_start: 34274
+line_end: 34286
 dependencies:
   - "A.10"
   - "A.14"

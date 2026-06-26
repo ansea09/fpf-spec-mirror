@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `6bbbb622859fbbcddc02b23ea76bee4dd71c6291`
+Commit SHA: `f1d0f9319cf1f93129b7691a328a281022252c4e`
 
 Chunking method: `pattern-aware`
 
-Patterns: `271`
+Patterns: `274`
 
 ## Patterns
 
@@ -199,6 +199,9 @@ Patterns: `271`
 - [E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy & Precedence Model](by_pattern/E.3.md)
 - [E.4 — FPF Ecosystem Family Architecture](by_pattern/E.4.md)
+- [E.4.PFAD — Principle-Framework Architecture Decision](by_pattern/E.4.PFAD.md)
+- [E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing](by_pattern/E.4.DPF.md)
+- [E.4.PFR — Pattern-Framework Relation and Edition Discipline](by_pattern/E.4.PFR.md)
 - [E.5 — Four Guard‑Rails of FPF](by_pattern/E.5.md)
 - [E.5.1 — DevOps Lexical Firewall](by_pattern/E.5.1.md)
 - [E.5.2 — Notational Independence](by_pattern/E.5.2.md)

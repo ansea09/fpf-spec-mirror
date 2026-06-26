@@ -6,12 +6,12 @@ section_id: "C.3.1:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__009_archetypal-grounding.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:7 — Archetypal Grounding"
-line_start: 40246
-line_end: 40253
+line_start: 40249
+line_end: 40256
 dependencies:
   - "A.1"
   - "A.11"

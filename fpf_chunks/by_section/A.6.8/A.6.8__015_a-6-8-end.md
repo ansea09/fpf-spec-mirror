@@ -6,12 +6,12 @@ section_id: "A.6.8:End"
 section_title: "A.6.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__015_a-6-8-end.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:End — A.6.8:End"
-line_start: 17668
-line_end: 17669
+line_start: 17671
+line_end: 17672
 dependencies:
   - "A.15"
   - "A.2.3"

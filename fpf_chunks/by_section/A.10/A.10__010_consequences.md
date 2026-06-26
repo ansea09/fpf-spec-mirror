@@ -6,12 +6,12 @@ section_id: "A.10:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__010_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:7 — Consequences"
-line_start: 19909
-line_end: 19919
+line_start: 19912
+line_end: 19922
 dependencies:
   - "A.1"
   - "A.10"

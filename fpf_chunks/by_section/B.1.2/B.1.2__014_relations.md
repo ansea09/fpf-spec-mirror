@@ -6,12 +6,12 @@ section_id: "B.1.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__014_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:11 — Relations"
-line_start: 31237
-line_end: 31242
+line_start: 31240
+line_end: 31245
 dependencies:
   - "A.1"
   - "A.12"

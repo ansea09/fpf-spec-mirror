@@ -6,12 +6,12 @@ section_id: "A.6.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__004_problem.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:2 — Problem"
-line_start: 9989
-line_end: 9998
+line_start: 9992
+line_end: 10001
 dependencies:
   - "A.2.6"
   - "A.6.1"

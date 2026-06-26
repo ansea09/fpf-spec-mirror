@@ -6,12 +6,12 @@ section_id: "A.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__001_intro.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:intro — Intro"
-line_start: 20144
-line_end: 20149
+line_start: 20147
+line_end: 20152
 dependencies:
   - "A.1"
   - "A.10"

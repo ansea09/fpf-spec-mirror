@@ -6,12 +6,12 @@ section_id: "A.2.5:End"
 section_title: "A.2.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__017_a-2-5-end.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:End — A.2.5:End"
-line_start: 4011
-line_end: 4012
+line_start: 4014
+line_end: 4015
 dependencies:
   - "A.15"
   - "A.2.1"

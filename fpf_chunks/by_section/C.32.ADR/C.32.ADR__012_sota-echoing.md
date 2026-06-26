@@ -6,12 +6,12 @@ section_id: "C.32.ADR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__012_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:11 — SoTA-Echoing"
-line_start: 61054
-line_end: 61068
+line_start: 61057
+line_end: 61071
 dependencies:
   - "A.10"
   - "A.15"

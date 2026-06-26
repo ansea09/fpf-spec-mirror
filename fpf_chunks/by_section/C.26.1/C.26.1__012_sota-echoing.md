@@ -6,12 +6,12 @@ section_id: "C.26.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__012_sota-echoing.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:11 — SoTA-Echoing"
-line_start: 49095
-line_end: 49113
+line_start: 49098
+line_end: 49116
 dependencies:
   - "A.1.1"
   - "A.10"

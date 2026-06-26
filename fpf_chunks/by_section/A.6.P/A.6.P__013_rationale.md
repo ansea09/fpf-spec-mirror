@@ -6,12 +6,12 @@ section_id: "A.6.P:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_rationale.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:10 — Rationale"
-line_start: 14060
-line_end: 14068
+line_start: 14063
+line_end: 14071
 dependencies:
   - "A.10"
   - "A.2.4"

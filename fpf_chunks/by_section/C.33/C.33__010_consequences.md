@@ -6,12 +6,12 @@ section_id: "C.33:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__010_consequences.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:9 — Consequences"
-line_start: 61501
-line_end: 61515
+line_start: 61504
+line_end: 61518
 dependencies:
   - "A.22"
   - "A.6.M"

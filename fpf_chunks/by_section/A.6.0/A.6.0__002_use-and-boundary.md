@@ -6,12 +6,12 @@ section_id: "A.6.0:0"
 section_title: "Use and boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__002_use-and-boundary.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:0 — Use and boundary"
-line_start: 9968
-line_end: 9979
+line_start: 9971
+line_end: 9982
 dependencies:
   - "A.2.6"
   - "A.6.1"

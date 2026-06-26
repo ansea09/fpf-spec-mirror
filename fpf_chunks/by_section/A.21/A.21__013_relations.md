@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__013_relations.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:11 — Relations"
-line_start: 30184
-line_end: 30193
+line_start: 30187
+line_end: 30196
 dependencies:
   - "A.19"
   - "A.2.6"

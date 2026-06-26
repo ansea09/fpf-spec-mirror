@@ -6,12 +6,12 @@ section_id: "A.19:6"
 section_title: "Conformance Checklist (normative) — CC‑A19"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_conformance-checklist-normative-cc-a19.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance Checklist (normative) — CC‑A19"
-line_start: 24701
-line_end: 24752
+line_start: 24704
+line_end: 24755
 dependencies:
   - "A.17"
   - "A.18"

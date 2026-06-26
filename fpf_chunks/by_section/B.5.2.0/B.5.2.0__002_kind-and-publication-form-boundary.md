@@ -6,12 +6,12 @@ section_id: "B.5.2.0:0"
 section_title: "Kind and publication-form boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__002_kind-and-publication-form-boundary.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:0 — Kind and publication-form boundary"
-line_start: 35720
-line_end: 35723
+line_start: 35723
+line_end: 35726
 dependencies:
   - "A.16"
   - "A.16.0"

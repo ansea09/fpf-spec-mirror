@@ -6,12 +6,12 @@ section_id: "E.23:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__004_forces.md"
-commit_sha: "6bbbb622859fbbcddc02b23ea76bee4dd71c6291"
+commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:3 — Forces"
-line_start: 77224
-line_end: 77234
+line_start: 77932
+line_end: 77942
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
