@@ -6,12 +6,12 @@ section_id: "B.4.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__005_solution.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:4 — Solution"
-line_start: 35077
-line_end: 35140
+line_start: 35079
+line_end: 35142
 dependencies:
   - "A.15"
   - "A.16"

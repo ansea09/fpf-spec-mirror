@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
-line_start: 45379
-line_end: 45759
+line_start: 45387
+line_end: 45779
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -87,6 +87,7 @@ keywords:
 - What event or threshold would justify changing that treatment next?
 
 ### C.19:0.4 - First output
+For loop-engineering practice, use this first output only when the live question is pool policy over still-live loop, harness, workflow, method-family, or framework-seed candidates. `C.19` may decide to widen, keep, narrow, or sunset the pool under a declared lens. It does not improve one object version, publish the selected set, or authorize work; those exits go to `E.23`, `G.5`, or the `A.15` family.
 
 The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy state, the current treatment (`widen`, `keep frontier`, `narrow to subset`, or `sunset line`), and the exact event that would justify changing that treatment next. If the current question has become local choice, enactment planning, selected-set publication, or refresh, the first output names `C.11`, `C.24`, `G.5`, or `G.11` as the next governing pattern instead of filling `currentTreatment`.
 
@@ -389,6 +390,9 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 - **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** name the governing pattern rather than restate `C.11`, `C.24`, or `G.5`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
+- **C19-13** If a pool-policy result concerns loop, agent-harness, workflow, or DPF-seed candidates, the result names the still-live pool, governing lens, current treatment, and change trigger, and names `E.23`, `G.5`, the `A.15` family, or `G.11` as the next owner when improvement, publication, work, or refresh becomes current.
+
+
 
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -410,6 +414,14 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 - Post-2015 bandit and Bayesian-optimization practice treats explore and exploit policy as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
 - Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep frontier`, `narrow to subset`, and `sunset line` as visible alternatives rather than silently totalizing the pool.
 - Modern pool-management and fairness-preserving lines keep coverage or heterogeneity pressures explicit until one declared reason justifies retirement or use of a different governing pattern. The practical implication is simple: sunset or name the next governing pattern only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
+
+### C.19:11 - SoTA-Echoing
+
+| Source or source family | Adopted FPF move | Rejected overread | Practitioner implication |
+|---|---|---|---|
+| Russo et al., `A Tutorial on Thompson Sampling`, arXiv:1707.02038. | Treat explore/exploit balancing as an explicit sequential policy pressure rather than one hidden winner-selection aftereffect. | Thompson sampling or any bandit algorithm becomes the default C.19 method. | A pool-policy result names the policy or lens and the change trigger; local option choice still exits to `C.11`. |
+| Frazier, `A Tutorial on Bayesian Optimization`, arXiv:1807.02811, and Yu et al., `Efficient and Principled Scientific Discovery through Bayesian Optimization`, arXiv:2604.01328. | Keep acquisition, cost, uncertainty, and experiment-selection pressure visible when pool policy is used for expensive probing. | Bayesian optimization vocabulary locally redefines FPF choice, work, or evidence kinds. | Use BO-style source pressure to require policy ids, evidence/cost boundaries, and stop or change triggers, while comparison and enactment stay with their owners. |
+| Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Preserve live front, archive, coverage, and diversity pressure without collapsing them to one scalarized winner. | QD taxonomy replaces C.18 archive/front ownership or G.5 selected-set publication. | Keep `keep frontier`, `narrow to subset`, and `sunset line` distinct; archive/front meaning stays with `C.18`, publication with `G.5`. |
 
 ### C.19:12 - Relations
 

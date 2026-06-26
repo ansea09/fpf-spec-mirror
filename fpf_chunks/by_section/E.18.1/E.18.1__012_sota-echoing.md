@@ -6,12 +6,12 @@ section_id: "E.18.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__012_sota-echoing.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:11 — SoTA-Echoing"
-line_start: 76029
-line_end: 76042
+line_start: 76094
+line_end: 76107
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 
 | Practice tradition | Distinction kept for P2W | P2W invariant | Practitioner implication | Reopen if |
 |---|---|---|---|---|
-| Development-for-developed deck inspected for this queue. | Cheap solution variants make problem production, characteristic choice, fair comparison, selected-set publication, decision record, autonomy budget, performed work, measurement, and refresh the expensive work. | `DevelopmentLoopFirstApplicationRecord@Project` carries only the accepted problem-side distinction and the next governed relation; it does not become a development-factory kind, portfolio kind, archive authority, or lifecycle. | An engineering lead can start with one thin record and then apply `C.22.2`, `C.16`, `A.19`, `C.18`, `C.19`, `G.5`, `C.11`, `E.16`, A.15-family patterns, `G.11`, or `C.30.ILC` according to the field that is current. | The problem framing, characteristic set, comparator, selected-set publication, decision relation, autonomy declaration, work plan, measurement, residual, or refresh relation changes. |
+| Development-for-developed practice with cheap solution generation. | Cheap solution variants make problem production, characteristic choice, fair comparison, selected-set publication, decision record, autonomy budget, performed work, measurement, and refresh the expensive work. | `DevelopmentLoopFirstApplicationRecord@Project` carries only the accepted problem-side distinction and the next governed relation; it does not become a development-factory kind, portfolio kind, archive authority, or lifecycle. | An engineering lead can start with one thin record and then apply `C.22.2`, `C.16`, `A.19`, `C.18`, `C.19`, `G.5`, `C.11`, `E.16`, `A.15` family patterns, `G.11`, or `C.30.ILC` according to the field that is current. | The problem framing, characteristic set, comparator, selected-set publication, decision relation, autonomy declaration, work plan, measurement, residual, or refresh relation changes. |
 | Current OEE lines such as Darwin Godel Machine, AlphaEvolve, and DeepEvolve-style source-use. | Generated methods, method descriptions, evaluators, selected sets, source-use records, work results, and refresh each have different authority. | P2W preserves the problem-side distinction until the generated-variant, comparison, selector, work, measurement, source-currentness, or refresh relation is named. | Generated algorithm text can be used as a cue without becoming proof, gate passage, accepted method selection, or performed work. | Evaluator, source, method-description, selected-set, work-result, or refresh assumptions change. |
 | Current QD and OEE survey pressure, including Quality-Diversity survey DOI `10.1016/j.swevo.2025.102240`. | Archives, fronts, diversity pressure, stepping stones, and retained variants often matter before one choice is justified. | P2W names whether the next relation is archive or front stewardship, pool treatment, selected-set publication, local choice, work planning, performed work, measurement, or refresh. | The project can keep the archive useful without letting archive or front language authorize work or decide one winner. | Descriptor, distance, dominance, archive policy, comparator, publication, or refresh currentness changes. |
 | Model-based engineering and systems practice separates model, view, requirement, evidence, and performed-work records because each has different authority. | A useful diagram or view can classify the next relation without changing the governed kind. | P2W separates transformation-flow structure, mathematical graph description, view, publication, evidence, gate, and work applications before the next FPF use. | The practitioner can use a diagram as thinking material without letting the diagram authorize work, prove readiness, or settle evidence. | The project source, architecture-description relation, evidence relation, gate relation, or release relation changes. |

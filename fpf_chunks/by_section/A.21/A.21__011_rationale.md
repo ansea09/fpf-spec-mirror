@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.21"
 pattern_title: "GateProfilization: OperationalGate(profile) (GateFit core)"
-section_id: "A.21:9"
+section_id: "A.21:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_rationale.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
-  - "A.21:9 — Rationale"
-line_start: 30197
-line_end: 30206
+  - "A.21:10 — Rationale"
+line_start: 30199
+line_end: 30208
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -41,7 +41,7 @@ keywords:
   - "join-semilattice"
 ---
 
-### A.21:9 - Rationale
+### A.21:10 - Rationale
 
 * The microkernel framing preserves a single graph semantics: checks are gate/check loci and decision publications, not an external execution sequence; this keeps a second hidden execution order outside the gate core from appearing.
 * The join lattice provides minimal, monotone aggregation with two useful properties:

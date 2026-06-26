@@ -6,12 +6,12 @@ section_id: "E.4.DPF:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__003_problem.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing"
   - "E.4.DPF:2 — Problem"
-line_start: 64135
-line_end: 64140
+line_start: 64190
+line_end: 64195
 dependencies:
   - "C.33"
   - "C.34"

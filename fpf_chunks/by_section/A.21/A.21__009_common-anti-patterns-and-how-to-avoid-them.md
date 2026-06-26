@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.21"
 pattern_title: "GateProfilization: OperationalGate(profile) (GateFit core)"
-section_id: "A.21:7.1"
+section_id: "A.21:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
-  - "A.21:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30173
-line_end: 30181
+  - "A.21:8 — Common Anti-Patterns and How to Avoid Them"
+line_start: 30175
+line_end: 30183
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -41,7 +41,7 @@ keywords:
   - "join-semilattice"
 ---
 
-### A.21:7.1 - Common Anti-Patterns and How to Avoid Them
+### A.21:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Correct use |
 |---|---|---|

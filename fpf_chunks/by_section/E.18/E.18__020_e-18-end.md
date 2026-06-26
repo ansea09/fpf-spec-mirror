@@ -5,13 +5,13 @@ pattern_title: "Transformation Flow Structure"
 section_id: "E.18:End"
 section_title: "E.18:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.18/E.18__019_e-18-end.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+output_path: "by_section/E.18/E.18__020_e-18-end.md"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:End — E.18:End"
-line_start: 75601
-line_end: 75602
+line_start: 75662
+line_end: 75663
 dependencies:
   - "A.2.6"
   - "A.20"

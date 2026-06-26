@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.1.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
-line_start: 82997
-line_end: 83189
+line_start: 83087
+line_end: 83279
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

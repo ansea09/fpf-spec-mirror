@@ -6,12 +6,12 @@ section_id: "E.18.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__007_bias-annotation.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:6 — Bias-Annotation"
-line_start: 75976
-line_end: 75985
+line_start: 76038
+line_end: 76047
 dependencies:
   - "A.10"
   - "A.15"

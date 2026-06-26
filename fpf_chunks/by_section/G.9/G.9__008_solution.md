@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_solution.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 90970
-line_end: 91294
+line_start: 91063
+line_end: 91387
 dependencies:
   - "A.19"
   - "A.21"
@@ -45,7 +45,6 @@ keywords:
 ---
 
 ### G.9:4 — Solution
-
 #### G.9:4.0 — G.Core linkage (normative)
 
 This pattern is **core‑invariant** and therefore binds to **G.Core** by declaration (not by restating invariants here).
@@ -192,6 +191,7 @@ When parity is comparing bounded specialization, the report should echo the acti
 5. **Emit telemetry hooks (optional, report‑only).** When telemetry is produced, it is emitted as telemetry pins/events for refresh wiring (not as a silent change in dominance interpretation).
 
 #### G.9:4.3a — Worked parity slice
+Loop-engineering parity compares loop or harness variants only after the parity object is declared. An evaluation program, benchmark script, or dashboard is not the characteristic being improved; it is part of the evaluation or comparison procedure. The parity plan must pin the object family, baseline set, freshness window, comparator editions, budget when relevant, and outcome shape before a result can be consumed by `E.23`, `C.19`, or `G.5`.
 
 - Two agentic search setups both claim bounded specialization on the same declared task family.
 - The `ParityPlan` pins the same freshness window, threshold target, adaptation budget, prior-exposure declaration, comparator editions, and corridor-entry baseline. One setup reaches threshold sooner but shows low retention and no transfer. The other reaches threshold later, but carries reusable transfer and lower downside field.
@@ -278,7 +278,7 @@ Causality-ladder parity is a degrade/abstain condition, not a universal comparis
 
 What changes in practice: one benchmark cannot compare a predictive model, an interventional action/effect question optimizer, and a counterfactual comparison question strategy as one undifferentiated "method improvement" set.
 
-What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity and benchmark harness authority and sends causal-use support to `C.28`.
+What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity and benchmark harness authority, while causal-use support remains governed by `C.28`.
 
 #### G.9:4.9 — Extensions (pattern‑scoped; non‑core)
 

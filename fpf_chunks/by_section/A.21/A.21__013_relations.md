@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.21"
 pattern_title: "GateProfilization: OperationalGate(profile) (GateFit core)"
-section_id: "A.21:11"
+section_id: "A.21:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__013_relations.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
-  - "A.21:11 — Relations"
-line_start: 30220
-line_end: 30229
+  - "A.21:12 — Relations"
+line_start: 30222
+line_end: 30231
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -41,7 +41,7 @@ keywords:
   - "join-semilattice"
 ---
 
-### A.21:11 - Relations
+### A.21:12 - Relations
 
 * **`E.18` transformation-flow structure →coordinates→ A.21.** GateFit-scoped GateChecks are aggregated by `OperationalGate(profile)`; GateCheck enumeration and publication shape are governed here.
 * **A.20 →couples_to→ A.21 via CV=>GF.** CV is evaluated inside transformations; while `CV.Status!=pass`, GF is `abstain` and GF explanations do not apply.

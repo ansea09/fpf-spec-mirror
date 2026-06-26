@@ -6,12 +6,12 @@ section_id: "C.19.1:5"
 section_title: "Archetypal grounding (post-2015; informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__006_archetypal-grounding-post-2015-informative.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:5 — Archetypal grounding (post-2015; informative)"
-line_start: 45833
-line_end: 45841
+line_start: 45874
+line_end: 45882
 dependencies:
   - "A.0"
   - "B.3"
@@ -31,19 +31,19 @@ dependencies:
 keywords:
   - "BLP‑waiver"
   - "Scale‑Audit"
-  - "general‑method preference"
+  - "alpha and delta tolerances"
+  - "general-solution preference"
   - "iso‑scale parity"
   - "scale‑amenability"
   - "slope vector"
-  - "α/δ tolerances"
 ---
 
 ### C.19.1:5 - Archetypal grounding (post-2015; informative)
 
-Source posture: this section is informative grounding for scale-amenable method comparison, not a current SoTA table. A concrete BLP claim still needs the local context, comparator set, alpha/delta tolerances, budget, assurance boundary, and source-currentness row named by the applying pattern or parity harness.
+Source-use relation and source-currentness: this section is informative grounding for scale-amenable bearer comparison, not a current SoTA table. A concrete BLP claim still needs the local context, comparator set, alpha and delta tolerances, budget, assurance boundary, and source-currentness row named by the applying pattern or parity harness.
 
-* **LLMs:** prompt-programs, **retrieval-augmented** and **MoE** policies vs narrow task-specific pipelines; set-returning selection across editions/budgets.
-* **RL & planning:** model-based optimization/general agents vs hand-coded controllers (subject to alpha/delta and safety).
+* **LLMs:** prompt programs, **retrieval-augmented** policies, and **MoE** policies compared with narrow task-specific pipelines; set-returning selection across editions and budgets.
+* **RL and planning:** model-based optimization and general agents compared with hand-coded controllers, subject to alpha and delta tolerances and safety.
 * **Preference learning:** **RLHF <-> DPO** families.
-* **QD/OEE:** MAP-Elites/**CMA-ME**/**DQD**/**QDax**; **POET/Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
+* **QD and OEE:** MAP-Elites, **CMA-ME**, **DQD**, and **QDax**; **POET** and **Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
 

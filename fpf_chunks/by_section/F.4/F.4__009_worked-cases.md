@@ -6,12 +6,12 @@ section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:7 — Worked Cases"
-line_start: 80943
-line_end: 80992
+line_start: 81033
+line_end: 81082
 dependencies:
   - "A.15"
   - "A.15.1"

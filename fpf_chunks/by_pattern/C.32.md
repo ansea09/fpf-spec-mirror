@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
-line_start: 58624
-line_end: 58942
+line_start: 58679
+line_end: 58997
 dependencies:
   - "A.10"
   - "A.15"

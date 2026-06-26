@@ -6,7 +6,7 @@ section_id: "A.2.6:17.4.0"
 section_title: "SoTA-Echoing - F-Cluster Unification for A.2.6 (F.17 and F.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__023_sota-echoing-f-cluster-unification-for-a-2-6-f-17-and-f-18.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17.4.0 — SoTA-Echoing - F-Cluster Unification for A.2.6 (F.17 and F.18)"

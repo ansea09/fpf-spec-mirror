@@ -6,12 +6,12 @@ section_id: "C.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__006_solution.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:4 — Solution"
-line_start: 45076
-line_end: 45182
+line_start: 45078
+line_end: 45185
 dependencies:
   - "A.15"
   - "A.17-A.19"
@@ -29,12 +29,14 @@ dependencies:
   - "C.36"
   - "E.18"
   - "E.18.1"
+  - "E.23"
   - "F.17"
   - "F.18"
   - "F.9"
   - "G.11"
   - "G.5"
   - "G.6"
+  - "G.9"
 keywords:
   - "CandidateSet"
   - "DescriptorMapRef"
@@ -125,6 +127,7 @@ FrontRecord@Context:
 ```
 
 #### C.18:4.3 - Generation And Downstream-Use Record
+When loop-engineering practice generates many agent prompts, harness variants, workflow variants, or framework seeds, `C.18` records generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and next governing relation. It does not say that the loop improved. Use `E.23` only when a retained object version is changed and re-evaluated; use `G.9` for parity between variants and `G.5` when a selected set must be published.
 
 ```text
 OpenEndedVariantGenerationRecord@Project:

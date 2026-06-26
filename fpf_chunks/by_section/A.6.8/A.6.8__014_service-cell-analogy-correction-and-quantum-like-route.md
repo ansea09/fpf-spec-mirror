@@ -6,7 +6,7 @@ section_id: "A.6.8:12a"
 section_title: "Service/cell analogy correction and quantum-like route"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__014_service-cell-analogy-correction-and-quantum-like-route.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:12a — Service/cell analogy correction and quantum-like route"

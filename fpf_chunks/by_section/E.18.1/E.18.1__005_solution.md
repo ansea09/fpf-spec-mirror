@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 75659
-line_end: 75893
+line_start: 75720
+line_end: 75955
 dependencies:
   - "A.10"
   - "A.15"
@@ -139,10 +139,11 @@ Field-compression map:
 | Autonomy budget or permitted generator action | `AutonomyBudgetRef` | `E.16` when an autonomy declaration or boundary is current. |
 | Trust, evidence, assurance, or confidence use | `EvidenceAssuranceOrConfidenceUseRef?` | `A.10`, `B.3`, `G.6`, `A.20`, `A.21`, or another direct evidence, assurance, gate, release, or provenance pattern when confidence is used to support action, publication, selection, work entry, or acceptance. |
 | Architecture candidate | `ArchitectureCandidateRef` | `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.ILC` when the candidate changes architecture, structural view, architecture description, or interlevel residual treatment. |
-| Planning and performed work | `WorkPlanOrWorkRef` | A.15-family patterns when a plan, plan item, work occurrence, or work-result relation is current. |
+| Planning and performed work | `WorkPlanOrWorkRef` | `A.15` family patterns when a plan, plan item, work occurrence, or work-result relation is current. |
 | Measurement, result, residual, and refresh | `EffectMeasurementRef` and `RefreshOrResidualTriageRef` | Measurement and result patterns by value, `G.11` for refresh or currentness, and the governing level-and-residual pattern when an interlevel residual is current. |
 
 #### E.18.1:4.1b - Development-for-developed first-minute slice
+For a fast DPF seed, use this slice to keep the seed-to-hardening route readable without pretending that the seed is public-ready. The problem-side material may carry a domain question, a `G.2` source-use or source-pack return, and a provisional framework purpose into `E.4.PFAD`, `E.4.PFR`, pattern seeds, quality evaluation, `E.23` improvement, and `G.11` currentness. P2W does not replace those owners. It only preserves the carried distinction until the next governing relation is named.
 
 Use this slice when a project source says that AI agents or cheap generators make solution variants easy while problem setting, characteristic choice, fair comparison, selected-set choice, and effect measurement become the expensive work.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.CONWAY.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
-line_start: 59842
-line_end: 60093
+line_start: 59897
+line_end: 60148
 dependencies:
   - "A.10"
   - "A.15"

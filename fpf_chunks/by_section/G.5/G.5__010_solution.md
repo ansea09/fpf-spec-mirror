@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__010_solution.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 89155
-line_end: 89584
+line_start: 89248
+line_end: 89677
 dependencies:
   - "C.11"
   - "C.18"
@@ -211,7 +211,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 
 A finished `G.5` pass should publish one explicit selected-set result from the dispatcher and registry question rather than one selector trace that leaves the public result implicit.
 
-Publication here is the closure record for selector work over registered families. It does not replace registry maintenance, dispatcher comparison law, or the upstream pool-policy and local-choice pattern authorities that supplied the retained members.
+Publication here is the closure record for selector work over registered families. It does not replace registry maintenance, dispatcher comparison rules, or the upstream pool-policy and local-choice pattern authorities that supplied the retained members.
 
 The admissible selector outcome families here are:
 
@@ -322,7 +322,7 @@ If the card does not already state what was published, who survived, whether ord
 
 #### G.5:4.4d - Worked publication closure slice
 
-Three short contrasts keep the publication law practical.
+Three short contrasts keep the publication closure rule practical.
 
 **Several survivors, no public order belongs to the result.**
 When the selector has retained more than one admissible family but no downstream public order belongs to the published result, `G.5` should close as one `Shortlist` over the registered surviving rows:

@@ -6,12 +6,12 @@ section_id: "C.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__004_problem.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:2 — Problem"
-line_start: 45056
-line_end: 45064
+line_start: 45058
+line_end: 45066
 dependencies:
   - "A.15"
   - "A.17-A.19"
@@ -29,12 +29,14 @@ dependencies:
   - "C.36"
   - "E.18"
   - "E.18.1"
+  - "E.23"
   - "F.17"
   - "F.18"
   - "F.9"
   - "G.11"
   - "G.5"
   - "G.6"
+  - "G.9"
 keywords:
   - "CandidateSet"
   - "DescriptorMapRef"

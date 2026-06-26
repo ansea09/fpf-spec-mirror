@@ -29830,6 +29830,8 @@ Register token classes (Tech) include: `TransformationFlowStructure`, `Transform
 
 Repaired anti-case: a release screen says all checks are green but no current `OperationalGate(profile)`, effective `GateCheckRef` set, `GateDecision`, or `DecisionLogRef` is recoverable. The display remains a cue or evidence question; the attempted gate-passage use has no bounded current gate use until the A.21 gate-decision relation is recoverable.
 
+Agent-loop anti-case: a monitor retries twice, escalates to a supervisor, and the harness dashboard turns green. That sequence may be performed work, telemetry, a transformation-flow path, or evidence for a later check, but it is not `GateDecision=pass` unless a current `OperationalGate(profile)` consumes declared `GateCheckRef`s and publishes `GateDecision` plus `DecisionLogRef`. If the gate-decision relation is intended but missing, repair it by recovering the A.21 gate-decision relation; otherwise the result remains a cue for A.15, E.18, G.9, or evidence work, not an A.21 gate passage.
+
 **Same problem, different current question.** For a gate-bearing transformation-flow problem, use `E.18` for transformation-flow structure, graph value, path relation, valuation, or crossing claims, `A.20` for internal step validity, `A.21` for gate-decision publication, and `E.20` for mechanism-meaning placement; do not use the other three until their own claim is present.
 
 **Semantic repair target.** When A.21 blocks a misleading word, face, alias, or source label, the repair must restore the gate-decision claim: name the current gate-decision relation, current `GateProfile`, consumed `GateCheckRef` set, aggregate, `GateDecision`, and `DecisionLogRef` that remain available under A.21. Do not stop at a classification of vocabulary or publication faces.
@@ -30170,7 +30172,7 @@ Minimum unified conformance for A.21 and for any `PathSlice` or gate-bearing tra
 * [ ] Tech names are ASCII and twin-labeled; required token classes are registered under LEX (including `GateProfile`, `GateCheckKind`, `GateCheckRef`, `DecisionLog`).
 * [ ] Any lexical alias view is trace-only and cannot change `GateDecision`.
 
-### A.21:7.1 - Common Anti-Patterns and How to Avoid Them
+### A.21:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Correct use |
 |---|---|---|
@@ -30179,7 +30181,7 @@ Minimum unified conformance for A.21 and for any `PathSlice` or gate-bearing tra
 | Gate pass as performed work | `GateDecision=pass` is read as work occurrence, release action, work-entry readiness, or work authorization. | Use A.21 only for the gate-decision relation; use A.15.5 for work-entry readiness and A.15 or the release-governing pattern for work or authorization claims. |
 | Profile drift by publication mode | `PublishMode=Lite` is read as a weaker `GateProfile`. | Keep publication-face reduction in E.17 and keep `GateProfile` fold policy explicit in A.21. |
 
-### A.21:8 - Consequences
+### A.21:9 - Consequences
 
 **Benefits**
 
@@ -30194,7 +30196,7 @@ Minimum unified conformance for A.21 and for any `PathSlice` or gate-bearing tra
 * **Two-stage reasoning.** Users need the rule “GF does not apply until `CV.Status=pass` holds”; mitigated by explicit inapplicability rules and optional narratives only when applicable.
 * **Scope complexity.** Multi-scope merge semantics can feel heavy; mitigated by union + worst-wins + preserved rationales.
 
-### A.21:9 - Rationale
+### A.21:10 - Rationale
 
 * The microkernel framing preserves a single graph semantics: checks are gate/check loci and decision publications, not an external execution sequence; this keeps a second hidden execution order outside the gate core from appearing.
 * The join lattice provides minimal, monotone aggregation with two useful properties:
@@ -30204,20 +30206,20 @@ Minimum unified conformance for A.21 and for any `PathSlice` or gate-bearing tra
 * CV⇒GF activation is the mechanism that keeps orthogonality strict while still publishing a single gate decision publication: GF results do not replace CV failures.
 * Explicit folds for `error|timeout|unknown` make safety review result inspectable and profile-specific without inventing new decision values.
 
-### A.21:10 - SoTA-Echoing
+### A.21:11 - SoTA-Echoing
 
 Source references (post-2015) that this pattern **adopts, adapts, or rejects**, consistent with the transformation-flow goal of assured lanes, open graph composition, and join-semantics.
 
 * **Adopt.** *Join-semilattice aggregation as deterministic, profile-bound merge* (distributed-systems and CRDT literature, e.g., Kleppmann 2017; Kleppmann & Beresford 2017): A.21 uses the algebraic idea only so declared gate-check outcomes fold to the same `GateDecision` under the same current `GateProfile` and equivalence witness. It does not import CRDT architecture or use CRDT as prestige terminology.
 
 * **Adapt.** *Compositional reasoning with commuting diagrams* (applied category theory, e.g., Fong & Spivak 2019): A.21 adapts the intuition by making SquareLaw a gate-audited invariant on crossings, while keeping publications human-first and pin-based.
-* **Adapt.** *Supply-chain provenance and policy gating via attestations* (software supply-chain security, e.g., in-toto 2019; SLSA v1.2 current specification for provenance and VSA attestation formats): A.21 adapts the attestation-shaped evidence discipline as MVPK pins plus `DecisionLog`, not DevOps release procedure, tool-specific methods, or runtime scripts.
+* **Adapt.** *Supply-chain provenance and policy gating via attestations* (software supply-chain security, e.g., in-toto 2019; SLSA v1.2 provenance and VSA attestation specification line): A.21 adapts the attestation-shaped evidence discipline as MVPK pins plus `DecisionLog`, not DevOps release procedure, tool-specific methods, or runtime scripts.
 
 * **Reject.** *Narrative-as-authority.* Any approach where human-readable explanations function as decision-bearing records is rejected; in A.21, narratives remain optional derivatives of structured rationales and are explicitly non-decisional.
 
 Gate-publication result in attestation-shaped practice: green tiles, readiness badges, full-kit labels, release screens, conformance labels, safety-envelope notes, CV results, and gate-looking explanations do not become gate passage, release authorization, deontic permission, safety acceptance, work-entry readiness, assurance, work occurrence, or work authorization by appearance. The local A.21 result is a current `OperationalGate(profile)`, current `GateProfile`, effective `GateCheckRef` set, CV aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and effective window, or else the display remains a cue, source pointer, CV result, evidence question, or readiness question governed outside A.21. Reopen the gate result when the current `GateProfile`, check set, CV aggregate, decision, rationale, scope, currentness, effective window, equivalence witness, or consuming neighboring relation changes.
 
-### A.21:11 - Relations
+### A.21:12 - Relations
 
 * **`E.18` transformation-flow structure →coordinates→ A.21.** GateFit-scoped GateChecks are aggregated by `OperationalGate(profile)`; GateCheck enumeration and publication shape are governed here.
 * **A.20 →couples_to→ A.21 via CV=>GF.** CV is evaluated inside transformations; while `CV.Status!=pass`, GF is `abstain` and GF explanations do not apply.
@@ -45146,6 +45148,7 @@ FrontRecord@Context:
 ```
 
 #### C.18:4.3 - Generation And Downstream-Use Record
+When loop-engineering practice generates many agent prompts, harness variants, workflow variants, or framework seeds, `C.18` records generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and next governing relation. It does not say that the loop improved. Use `E.23` only when a retained object version is changed and re-evaluated; use `G.9` for parity between variants and `G.5` when a selected set must be published.
 
 ```text
 OpenEndedVariantGenerationRecord@Project:
@@ -45189,6 +45192,9 @@ For cultural variants, C.18 records the generated or retained variant set and it
 - `CC-C18-5` Architecture candidates use C.30 family patterns before becoming architecture moves.
 - `CC-C18-6` Cultural variants use C.36 or term-bridge patterns before becoming cultural-evolution claims.
 - `CC-C18-7` Refresh uses `G.11` with the smallest affected archive, front, descriptor, edition, or lineage locus.
+- `CC-C18-8` Agent-loop, harness-loop, workflow-store, or DPF-seed variants retained in an archive name their descriptor, lineage, telemetry, and next governing relation; archive membership does not claim quality improvement without `E.23` re-evaluation.
+
+
 
 ### C.18:6 - Archetypal Grounding
 
@@ -45226,10 +45232,10 @@ Current quality-diversity, illumination search, open-ended engineering, and evol
 | Source or source family | Adopted FPF move | Rejected overread | Field or boundary changed |
 |---|---|---|---|
 | Lin et al., `Quality-Diversity Optimization as Multi-Objective Optimization`, arXiv:2602.00478. | Treat QD and Q-front work through declared Q components, `DominanceSet`, comparator refs, archive relation, front relation, selected-set publication, and refresh. | Cell-filling or popularity accounts are the current ontology by default. | `FrontRecord@Context` must keep dominance grounds, comparator refs, and Q-component refs explicit. |
-| `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 2026, DOI `10.1016/j.swevo.2025.102240`. | Use survey support for current approaches, applications, archive use, diversity use, and challenge framing. | Survey taxonomy replaces FPF governing loci. | `ExplorationArchiveRecord@Context`, `FrontRecord@Context`, and `OpenEndedVariantGenerationRecord@Project` stay governed by C.18 while selected-set publication and refresh stay with `G.5` and `G.11`. |
+| Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Use current survey support for approaches, applications, archive use, diversity use, and challenge framing. | Survey taxonomy replaces FPF governing loci. | `ExplorationArchiveRecord@Context`, `FrontRecord@Context`, and `OpenEndedVariantGenerationRecord@Project` stay governed by C.18 while selected-set publication and refresh stay with `G.5` and `G.11`. |
 | Batra et al., `Quality Diversity for Robot Learning: Limitations and Future Directions`, arXiv:2407.17515. | State retained exploration value, generalization pressure, and limitations when an archive is used beyond current dominance. | Bounded archives or cell occupancy are enough evidence that NQD and OEE are useful. | `retainedValue`, `retentionPolicyRef`, `telemetryRefs`, and `nextGoverningRelation` must be filled when the archive is relied on. |
 | Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954. | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their governing patterns. |
-| Novikov et al., `AlphaEvolve`, arXiv:2506.13131, and Liu et al., `Deep Research` augmentation, arXiv:2510.06056. | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
+| Novikov et al., `AlphaEvolve`, arXiv:2506.13131. | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
 | Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set labels continue to `G.5`. |
 | Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates exit to `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
 
@@ -45237,7 +45243,9 @@ Current quality-diversity, illumination search, open-ended engineering, and evol
 
 Builds on: `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
 
-Coordinates with: `C.19` for current-pool treatment, `G.5` for selected-set publication, `G.11` for refresh, `E.18.1` for P2W carry-through, `C.30` family, `C.32.P2S`, `C.32`, and `C.35` for architecture candidates, problem-to-structure carry-through, candidate palette admission, and generated or discovered carrier adequacy before archive or front use, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
+Coordinates with: `C.19` for current-pool treatment, `G.5` for selected-set publication, `G.9` for parity and benchmark comparison, `G.11` for refresh, `E.23` when an archived object version enters a declared quality-improvement loop, `E.18.1` for P2W carry-through, `C.30` family, `C.32.P2S`, `C.32`, and `C.35` for architecture candidates, problem-to-structure carry-through, candidate palette admission, and generated or discovered carrier adequacy before archive or front use, `C.36` for cultural-evolution cases, `F.17`, `F.18`, and `F.9` for term and bridge work, and the A.15 family for planning or performed work.
+
+
 
 ### C.18:End
 
@@ -45420,6 +45428,7 @@ The pattern also keeps SoTA scaling practice from overriding FPF ontology. Scali
 - What event or threshold would justify changing that treatment next?
 
 ### C.19:0.4 - First output
+For loop-engineering practice, use this first output only when the live question is pool policy over still-live loop, harness, workflow, method-family, or framework-seed candidates. `C.19` may decide to widen, keep, narrow, or sunset the pool under a declared lens. It does not improve one object version, publish the selected set, or authorize work; those exits go to `E.23`, `G.5`, or the `A.15` family.
 
 The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy state, the current treatment (`widen`, `keep frontier`, `narrow to subset`, or `sunset line`), and the exact event that would justify changing that treatment next. If the current question has become local choice, enactment planning, selected-set publication, or refresh, the first output names `C.11`, `C.24`, `G.5`, or `G.11` as the next governing pattern instead of filling `currentTreatment`.
 
@@ -45722,6 +45731,9 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 - **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** name the governing pattern rather than restate `C.11`, `C.24`, or `G.5`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
+- **C19-13** If a pool-policy result concerns loop, agent-harness, workflow, or DPF-seed candidates, the result names the still-live pool, governing lens, current treatment, and change trigger, and names `E.23`, `G.5`, the `A.15` family, or `G.11` as the next owner when improvement, publication, work, or refresh becomes current.
+
+
 
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -45744,6 +45756,14 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 - Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep frontier`, `narrow to subset`, and `sunset line` as visible alternatives rather than silently totalizing the pool.
 - Modern pool-management and fairness-preserving lines keep coverage or heterogeneity pressures explicit until one declared reason justifies retirement or use of a different governing pattern. The practical implication is simple: sunset or name the next governing pattern only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
 
+### C.19:11 - SoTA-Echoing
+
+| Source or source family | Adopted FPF move | Rejected overread | Practitioner implication |
+|---|---|---|---|
+| Russo et al., `A Tutorial on Thompson Sampling`, arXiv:1707.02038. | Treat explore/exploit balancing as an explicit sequential policy pressure rather than one hidden winner-selection aftereffect. | Thompson sampling or any bandit algorithm becomes the default C.19 method. | A pool-policy result names the policy or lens and the change trigger; local option choice still exits to `C.11`. |
+| Frazier, `A Tutorial on Bayesian Optimization`, arXiv:1807.02811, and Yu et al., `Efficient and Principled Scientific Discovery through Bayesian Optimization`, arXiv:2604.01328. | Keep acquisition, cost, uncertainty, and experiment-selection pressure visible when pool policy is used for expensive probing. | Bayesian optimization vocabulary locally redefines FPF choice, work, or evidence kinds. | Use BO-style source pressure to require policy ids, evidence/cost boundaries, and stop or change triggers, while comparison and enactment stay with their owners. |
+| Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Preserve live front, archive, coverage, and diversity pressure without collapsing them to one scalarized winner. | QD taxonomy replaces C.18 archive/front ownership or G.5 selected-set publication. | Keep `keep frontier`, `narrow to subset`, and `sunset line` distinct; archive/front meaning stays with `C.18`, publication with `G.5`. |
+
 ### C.19:12 - Relations
 
 **C.27 temporal-claim relation.**
@@ -45760,69 +45780,90 @@ Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coor
 ## C.19.1 - Bitter‑Lesson Preference (BLP)
 
 **One‑screen purpose (manager‑first).**
-Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable methods**—those that improve with **more data/compute/capacity and greater freedom‑of‑action**—over bespoke narrow heuristics **when safety and legality are equal**. Exceptions require a transparent **Scale‑Audit** under the parity harness.
+Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable solution bearers for admitted holons**. A scale-amenable bearer may be a method, module, platform, system, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure that improves with more data, compute, capacity, usable resources, reuse, or freedom of action. Prefer it over bespoke narrow heuristics when safety, guard-rail fit, and admissibility are comparable. Exceptions require a transparent **Scale‑Audit** under the parity harness.
 
-**Builds on.** C.19 (E/E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
+**Builds on.** C.19 (E and E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).
-**Keywords.** general‑method preference; scale‑amenability; **BLP‑waiver**; iso‑scale parity; **Scale‑Audit**; slope vector; **α/δ tolerances**.
+**Keywords.** general-solution preference; scale‑amenability; **BLP‑waiver**; iso‑scale parity; **Scale‑Audit**; slope vector; **alpha and delta tolerances**.
+
+**Use this when.**
+Use `C.19.1` when a project prefers a narrower special-purpose solution over a more general scale-amenable bearer, or when it claims that a general bearer should be preferred because it scales. In architecture synthesis, this includes a universal module, platform, reusable method family, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure proposed to carry more functions or improve with scale. `C.19.1` supplies comparison and waiver discipline; it does not make the candidate architecture adequate.
+
+When `E.23` selects between a general adaptive agent loop, a specialized object-family cycle, a simpler direct repair, or a reusable harness substrate, `C.19.1` governs only the scale-amenability and waiver claim. The `E.23` loop still must name the object under improvement, evaluation, cost and risk account, protected trade-offs, and stop or switch condition.
+
+#### C.19.1:0.1 - What Goes Wrong If Missed
+
+A team treats "more agentic", "more automated", "more specialized", or "works on this benchmark" as proof that one bearer should displace a more general scale-amenable bearer. Another team repeats the opposite error: it invokes the Bitter Lesson as permission to ignore safety, cost, task-family fit, or a narrow heuristic that actually wins inside the declared scale window. In both cases, the selector loses parity, waiver, and scale-window discipline.
+
+#### C.19.1:0.2 - What This Buys
+
+The practitioner gets one bounded comparison move: name the narrower bearer, the general bearer, the task family or admitted holon, the audited scale window, the parity basis, and the waiver or preference result. This makes a specialization admissible when it is genuinely justified, and makes a general substrate preference admissible when scale evidence, safety, and cost are comparable.
+
+#### C.19.1:0.3 - Not This Pattern When
+
+Do not use `C.19.1` to prove that an architecture candidate is adequate, to publish a selected set, to run the improvement loop, to plan or perform work, or to claim a gate decision. Use the direct owner for that question: `C.30`/`C.32` for architecture adequacy and synthesis, `G.5` for selected-set publication, `E.23` for object-version improvement, the A.15 family for work, and `A.21` for gate decisions.
+
+#### C.19.1:0.4 - First Output
+
+The first useful output is either a `Scale-Audit` pointer or a `BLP-waiver` record. It states the competing bearers, task family or holon scope, scale dimensions, comparator set, safety/admissibility posture, alpha and delta tolerances, and the reason the result is preference, waiver, or no BLP claim yet.
 
 ### C.19.1:1 - Problem frame
 
-Bespoke heuristics can win locally but **do not scale**; general methods (search/learning/planning) **improve with scale** and transfer across bridges/planes. Without a standing policy, selectors drift toward bespoke local heuristics and single-winner leaderboards, violating parity and admissible order relations.
+Bespoke heuristics can win locally while failing to scale. General solution bearers, including search, learning, planning, platforms, reusable modules, organization forms, and episteme-bearing practices, can improve with scale and transfer across declared bridges and planes. Without a standing policy, selectors drift toward bespoke local heuristics and single-winner leaderboards, violating parity and admissible order relations.
 
 ### C.19.1:2 - Policy clauses (normative; synchronized with Core)
 
 **BLP‑1 — Scale‑Audit requirement.**
-Any DRR that selects a **narrower/hand‑engineered** method over a **general/scalable** alternative while claiming scale advantage, BLP override, selector-facing method preference, publication-facing method superiority, or durable project-side method preference **MUST** include a **Scale‑Audit**:
-(a) **Parity harness**: equal **FreshnessWindows**, a common **ComparatorSet**, **replicates/seeds**, **set-returning** evaluation; **Dominance = ParetoOnly** unless a CAL policy says otherwise (policy‑id cited).
+Any DRR that selects a **narrower hand‑engineered** method, module, platform, system form, organization form, episteme-bearing practice, or other solution bearer over a **general scale-amenable** alternative while claiming scale advantage, BLP override, selector-facing preference, publication-facing superiority, or durable project-side preference **MUST** include a **Scale‑Audit**:
+(a) **Parity harness**: equal **FreshnessWindows**, a common **ComparatorSet**, replicate counts, seed records, and **set-returning** evaluation; **Dominance = ParetoOnly** unless a CAL policy says otherwise (policy‑id cited).
 (b) **Budget sweeps**: vary **compute**, **data**, and **FoA** within a fixed safety envelope; **pin** any unsweepable knob and record the invariant.
-(c) **Slopes & uncertainty**: report ∂quality/∂compute, ∂quality/∂data, and (where applicable) ∂coverage/∂FoA, with **CI/error bars** and **edition/policy pins** in telemetry. Use **bootstrapped CIs** or repeated‑seed estimates; disclose heteroscedasticity handling.
-(d) **Resources**: publish **Resrc‑CAL** accounts (time/energy/FLOPs) and assurance deltas (B.3).
-(e) **Objective vector**: list **Q/Risk/Cost** and—**only if policy promotes them**—illumination/coverage telemetry metrics.
+(c) **Slopes and uncertainty**: report ∂quality over ∂compute, ∂quality over ∂data, and, where applicable, ∂coverage over ∂FoA, with **confidence intervals, error bars, edition pins, and policy pins** in telemetry. Use **bootstrapped confidence intervals** or repeated‑seed estimates; disclose heteroscedasticity handling.
+(d) **Resources**: publish **Resrc‑CAL** accounts for time, energy, FLOPs, and assurance deltas under B.3.
+(e) **Objective vector**: list quality, risk, cost, and only policy-promoted illumination or coverage telemetry metrics.
 (f) **DoE recipe**: for ≥2 active knobs, apply a **fractional factorial** or **Latin‑hypercube** with ≥ 3 levels per knob to avoid aliasing; justify any lower design.
 (g) **Knee & regret tests**: if claiming a heuristic wins, show either (i) a **knee** inside the audited window for the general method (per SLL‑5 policy thresholds) or (ii) **budget‑constrained regret** over the sweep where the heuristic dominates within CI.
 
-**BLP‑2 — Preference rule (with α/δ tolerances).**
-Among admissible options with comparable assurance (within **δ**) and budget (within **α**), prefer the method whose **slope vector** **Pareto‑dominates** over the audited range; if no dominance within error bounds, prefer the **more general** method; else resolve by the **E/E‑LOG** tie‑breakers declared in policy. (Agentic contexts implement this as **ATC‑2**; **BLP_delta_α/δ** live in **ATC.Policy**.)
+**BLP‑2 — Preference rule with alpha and delta tolerances.**
+Among admissible options with comparable assurance within **delta** and budget within **alpha**, prefer the bearer whose **slope vector** **Pareto‑dominates** over the audited range; if no dominance within error bounds, prefer the **more general** bearer; otherwise resolve by the **E and E‑LOG** tie‑breakers declared in policy. Agentic contexts implement this as **ATC‑2**; **BLP_delta_alpha_delta** values live in **ATC.Policy**.
 
 > **BLP‑2.1 — Valid waiver grounds (override transparency).**
 > Overrides of BLP‑2 are allowed **only** when:
-> • **Deontic override:** regulation/ethics make the general method inapplicable (E.5/E.3).
+> • **Admissibility override:** guard rails, ethics, or precedence make the general bearer inadmissible (`E.5`, `E.3`).
 > • **Scale‑probe overturn:** under **iso‑scale parity** in the declared **ScaleWindow**, the heuristic **sustainedly outperforms** with uncertainty accounted for.
 > • **Complementary bias:** the heuristic is an **inductive bias** that **improves** the general method **without blocking scale** (graceful degradation as `S` grows).
-> All overrides record a **BLP‑waiver** with rationale, responsible role, and expiry/review in the DRR.
+> All overrides record a **BLP‑waiver** with rationale, responsible role, and expiry or review in the DRR.
 
 **BLP‑2.2 — Task-family specialization compatibility.**
-A bounded task-family specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. If the user is not claiming scale advantage or overriding a general method, a bounded task-family specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-method claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current method was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
+A bounded specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. The specialization may be a method, module, platform variant, system form, organization form, agent behavior, or episteme-bearing practice. If the user is not claiming scale advantage or overriding a general bearer, a bounded specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-bearer claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current bearer was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
 
-Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence source or evidence locus are explicit by value and the same `Scale‑Audit`, `α/δ`, waiver, and override discipline is preserved.
+Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence source or evidence locus are explicit by value and the same `Scale‑Audit`, alpha and delta, waiver, and override discipline is preserved.
 **BLP‑3 — Minimal‑prescription default.**
-Author **rules‑as‑prohibitions** (negative constraints) instead of stepwise scripts; encode limits in **Φ policy tables** (and **Φ_plane**) and allow agents to **sequence autonomously** within those constraints. Scripts are permissible only when mandated by safety/regulation or with compelling DRR evidence reviewed under E.3/E.5.
+Author **rules‑as‑prohibitions** (negative constraints) instead of stepwise scripts; encode limits in **Φ policy tables** and **Φ_plane** and allow agents to **sequence autonomously** within those constraints. Scripts are permissible only when mandated by safety or regulation, or with compelling DRR evidence reviewed under E.3 and E.5.
 
 **BLP‑4 — Heuristic‑Debt register (mandatory).**
-Record **Heuristic Debt** only when an admitted heuristic functions as reusable method-family policy, selector-facing method preference, durable override of a general scale-amenable alternative, DRR-backed scale waiver, or project-side method choice that claims scale advantage or BLP override. Ordinary local bounded tactics that make no reusable-method, scale-advantage, selector-facing, or override claim may remain local and bounded without Heuristic Debt publication. `BLP.HeuristicDebtEntry` is a `C.19.1`-local or `G.11`-linked policy/debt entry; it is not a universal `U.*` record kind unless separately admitted through `F.18`, `C.3`, and `E.9`. For a live debt entry, record scope, responsible role, expiry/review window, and a de-hardening plan; track in **CalibrationLedger/BCT** and cite in SCR.
+Record **Heuristic Debt** only when an admitted heuristic functions as reusable solution-family policy, selector-facing preference, durable override of a general scale-amenable alternative, DRR-backed scale waiver, or project-side choice that claims scale advantage or BLP override. Ordinary local bounded tactics that make no reusable-bearer, scale-advantage, selector-facing, or override claim may remain local and bounded without Heuristic Debt publication. `BLP.HeuristicDebtEntry` is a `C.19.1`-local or `G.11`-linked policy and debt entry; it is not a universal `U.*` record kind unless separately admitted through `F.18`, `C.3`, and `E.9`. For a live debt entry, record scope, responsible role, expiry or review window, and a de-hardening plan; track in **CalibrationLedger** or **BCT** and cite in SCR.
 
-**BLP‑5 — Continuous‑learning posture.**
+**BLP‑5 — Continuous-learning discipline.**
 Where product policy allows, enable **feedback‑driven adaptation** (preference learning, critique loops) within Guard‑Rails and privacy controls; disabling adaptation requires DRR justification and review date.
 
 **BLP‑6 — Precedence & safeguards.**
-BLP is constitutional (instantiates **P‑10/P‑11/P‑7/P‑1**), but **does not supersede Guard‑Rails (E.5) or precedence rulings (E.3)**. Where **NQD/E/E‑LOG** promotes illumination into dominance, **BLP adopts that lens** for the audited window.
+BLP is constitutional (instantiates **P‑10**, **P‑11**, **P‑7**, and **P‑1**), but **does not supersede Guard‑Rails (E.5) or precedence rulings (E.3)**. Where **NQD** or **C.19 E‑LOG** promotes illumination into dominance, **BLP adopts that lens** for the audited window.
 
 **BLP‑7 — Publication discipline.**
-Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI level, α/δ, ComparatorSet, and **BLP.Policy@Context** reference so downstream selectors can reuse evidence without re‑running audits.
+Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI level, alpha and delta tolerances, ComparatorSet, and **BLP.Policy@Context** reference so downstream selectors can reuse evidence without re‑running audits.
 
 ### C.19.1:3 - Conformance Checklist (CC‑BLP)
 
-1. **α/δ tolerances** declared in DRR or via policy profile (and CI level stated).
-2. DRR includes a **Scale‑Audit** (BLP‑1a–g) with slopes, **CI**, edition/policy pins, and Resrc‑CAL.
+1. **Alpha and delta tolerances** declared in DRR or via policy profile, with CI level stated.
+2. DRR includes a **Scale‑Audit** (BLP‑1a through BLP‑1g) with slopes, confidence intervals, edition pins, policy pins, and Resrc‑CAL.
 3. Selection cites **BLP‑2** and precedence checks.
 4. Any heuristic that meets the BLP‑4 trigger is recorded as a `BLP.HeuristicDebtEntry` with scope, responsible role, expiry or review window, and de‑hardening plan; ordinary local bounded tactics do not create a debt entry.
-5. Authoring defaults to **rules‑as‑prohibitions**; deviations are DRR‑justified and safety‑anchored.
+5. Authoring defaults to **rules‑as‑prohibitions**; deviations are DRR‑justified and safety-bounded.
 6. **Resrc‑CAL** accounts and assurance deltas reported.
-7. **Replicate counts/seeds** and **confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.
+7. **Replicate counts, seed records, and confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.
 8. Audit artefacts exported to **G.11** with **BLP.Policy@Context** id.
 
-9. When a narrower specialist method is selected or returned for one declared task family, the record names the task family/work target and the Scale‑Audit, waiver, or override ground that keeps the choice BLP‑compatible.
+9. When a narrower specialist bearer is selected or returned for one declared task family, the record names the task family, work target, holon structure under comparison when current, and the Scale‑Audit, waiver, or override ground that keeps the choice BLP‑compatible.
 
 ### C.19.1:4 - Anti‑patterns & remedies
 
@@ -45832,34 +45873,48 @@ Single‑winner leaderboards; hidden budget mixing; promoting illumination into 
 
 ### C.19.1:5 - Archetypal grounding (post-2015; informative)
 
-Source posture: this section is informative grounding for scale-amenable method comparison, not a current SoTA table. A concrete BLP claim still needs the local context, comparator set, alpha/delta tolerances, budget, assurance boundary, and source-currentness row named by the applying pattern or parity harness.
+Source-use relation and source-currentness: this section is informative grounding for scale-amenable bearer comparison, not a current SoTA table. A concrete BLP claim still needs the local context, comparator set, alpha and delta tolerances, budget, assurance boundary, and source-currentness row named by the applying pattern or parity harness.
 
-* **LLMs:** prompt-programs, **retrieval-augmented** and **MoE** policies vs narrow task-specific pipelines; set-returning selection across editions/budgets.
-* **RL & planning:** model-based optimization/general agents vs hand-coded controllers (subject to alpha/delta and safety).
+* **LLMs:** prompt programs, **retrieval-augmented** policies, and **MoE** policies compared with narrow task-specific pipelines; set-returning selection across editions and budgets.
+* **RL and planning:** model-based optimization and general agents compared with hand-coded controllers, subject to alpha and delta tolerances and safety.
 * **Preference learning:** **RLHF <-> DPO** families.
-* **QD/OEE:** MAP-Elites/**CMA-ME**/**DQD**/**QDax**; **POET/Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
+* **QD and OEE:** MAP-Elites, **CMA-ME**, **DQD**, and **QDax**; **POET** and **Enhanced-POET**; illumination remains **report-only telemetry** unless policy promotes it.
+
+### C.19.1:5.1 - SoTA-Echoing
+
+| Source or source family | Adopted FPF move | Rejected overread | Practitioner implication |
+|---|---|---|---|
+| Yousefi and Collins, `Learning the Bitter Lesson: Empirical Evidence from 20 Years of CVPR Proceedings`, arXiv:2410.09649, as current empirical pressure around Sutton's 2019 Bitter Lesson. | Treat general scale-amenable approaches as a live preference pressure that must be tested through declared comparison, not as folklore. | "General" or "Bitter Lesson" is proof without task-family, safety, cost, and scale-window evidence. | Use `Scale-Audit` or `BLP-waiver` before turning the slogan into selector-facing preference. |
+| Kaplan et al., `Scaling Laws for Neural Language Models`, arXiv:2001.08361, and Hoffmann et al., `Training Compute-Optimal Large Language Models`, arXiv:2203.15556. | Keep compute, data, model size, budget, and scale-window relations explicit when a bearer is claimed to improve with scale. | Parameter count, compute spend, or one benchmark substitutes for the audited objective vector. | State the swept dimensions, alpha and delta tolerances, CI, and budget window before preferring the general bearer. |
+| Lu et al., `The Bitter Lesson of Diffusion Language Models for Agentic Workflows: A Comprehensive Reality Check`, arXiv:2601.12979. | Treat current agentic-substrate claims as evaluation-sensitive and task-family-sensitive, especially when efficiency hype competes with reliability. | "More agentic" or "more efficient backbone" proves better workflow performance. | Keep agent-loop or substrate selection under `E.23`, `G.9`, and `C.19.1` with task-family evaluation, protected trade-offs, and stop/switch conditions. |
 
 ### C.19.1:6 - Payload — exports
 
 `BLP.Policy@Context` (UTS row; editioned):
-`⟨PreferenceDefault, α/δ tolerances + CI, Scale‑Audit recipe (G.9 link; DoE), WaiverRegister{reason, responsibleRoleRef, expiry}, E/E‑LOG lens policy‑ids, ATC.PolicyRef? (agentic), G.11.TelemetryPins⟩`.
+`<PreferenceDefault, alpha and delta tolerances plus CI, Scale-Audit recipe (G.9 link; DoE), WaiverRegister{reason, responsibleRoleRef, expiry}, E-LOG lens policy-ids, ATC.PolicyRef? (agentic), G.11.TelemetryPins>`.
 
 **UTS row template (conceptual; pencil‑ready).**
-`BLP.Policy@Context := PreferenceDefault=(prefer‑general|neutral), α/δ=(α=…, δ=…, CI=…), Scale‑Audit=(parity=G.9; sweep=S={…}; DoE=factorial|LHD; kneeTest=policy‑τ), WaiverRegister=[{reason=…, responsibleRoleRef=…, expiry=…}], E/E‑LOG=(policyIds=…), ATC.PolicyRef=(…), TelemetryPins=(edition=…, seeds=…, comparatorSet=…)`.
+`BLP.Policy@Context := PreferenceDefault=(prefer-general or neutral), tolerances=(alpha=..., delta=..., CI=...), Scale-Audit=(parity=G.9; sweep=S={...}; DoE=factorial or LHD; kneeTest=policy-tau), WaiverRegister=[{reason=..., responsibleRoleRef=..., expiry=...}], E-LOG=(policyIds=...), ATC.PolicyRef=(...), TelemetryPins=(edition=..., seeds=..., comparatorSet=...)`.
 
 ### C.19.1:7 - Relations
 
-**Depends on:** **G.5/G.9** (selector/parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E/E‑LOG), **F.7/F.9** (Bridges, CL/Φ/Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
+**Depends on:** **G.5** and **G.9** (selector and parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E and E‑LOG), **F.7** and **F.9** (bridges, CL, Φ, and Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
 
-#### C.19.1:7.1 - C.29 mathematical-lens use relation
+#### C.19.1:7.1 - C.32 architecture-synthesis use relation
 
-When a mathematical lens is chosen over a general, scale-amenable method because it is elegant, specialized, or theoretically prestigious, `C.19.1` governs the scale-advantage and method-preference claim. A `C.29` application may state `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseAdmissibilityValue`, `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`; it does not supply BLP compatibility, scale dominance, or waiver evidence.
+When `C.32` generates candidate architectures, `C.19.1` applies to claims that one general bearer, universal module, platform, method family, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure can carry more functions or improve with scale. BLP does not select the architecture. It requires the candidate to name the holon under change, function-bearing transfer, selected structure changed, architecture characteristics improved and worsened, scale window, admissibility boundary, and waiver or audit basis.
+
+For TRIZ-style ideality, BLP supports the move only when the general bearer remains scale-amenable inside the declared window. If the candidate merely removes parts, it belongs to `C.32` and `C.31` until it has a scale claim; it is not a BLP proof.
+
+#### C.19.1:7.2 - C.29 mathematical-lens use relation
+
+When a mathematical lens is chosen over a general, scale-amenable bearer because it is elegant, specialized, or theoretically prestigious, `C.19.1` governs the scale-advantage and preference claim. A `C.29` application may state `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseAdmissibilityValue`, `admissibleUse`, `nonAdmissibleUse`, and `StopCondition`; it does not supply BLP compatibility, scale dominance, or waiver evidence.
 
 If scale advantage is live, cite a `Scale-Audit` or `BLP-waiver`. If scale advantage is not live, keep the mathematical lens local and bounded by its `C.29` stop condition.
 
 > *Memory hook.* **Prefer what scales; explain when you don’t.**
 
-When `E.23` selects between a Ralph-like general adaptive loop, a specialized object-family cycle, or a mixed operation-family set, `C.19.1` governs the BLP comparison and waiver discipline. The local `E.23` cost and risk prompt `token_or_compute_cost + tool_cost + adaptation_attempt_cost + human_supervision_cost + rework_cost - avoided_loss_value` is not a scalar quality score; it is a practical accepted-work cost account for deciding whether the next pass, added operation, or method-family switch is BLP-compatible. Repeated automation alone does not satisfy BLP; the record must still name the object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk posture, and stop or switch condition.
+When `E.23` selects between a Ralph-like general adaptive loop, a specialized object-family cycle, or a mixed operation-family set, `C.19.1` governs the BLP comparison and waiver discipline. The local `E.23` cost and risk prompt `token_or_compute_cost + tool_cost + adaptation_attempt_cost + human_supervision_cost + rework_cost - avoided_loss_value` is not a scalar quality score; it is a practical accepted-work cost account for deciding whether the next pass, added operation, or method-family switch is BLP-compatible. Repeated automation alone does not satisfy BLP; the record must still name the object under improvement, object-under-improvement evaluation, protected trade-offs, bounded cost and risk condition, and stop or switch condition.
 
 ### C.19.1:End
 
@@ -75598,6 +75653,12 @@ When a selected structure locus, selected path, path slice, substructure, or flo
 
 `E.18.1` is a child pattern for principles-to-work carry-through. It inherits this pattern's selected structure, path, flow-valuation, transfer, crossing, and gate minimum, then adds the local P2W relation from accepted problem-side output to the next FPF kind named by value, relation, record, or application. In this split, `E.18.1` carries P2W specialization examples and P2W relation guidance; `E.18` carries the selected-structure law and this short child-pattern relation.
 
+### E.18:15b - E.23 Improvement-Loop Boundary Relation
+
+When a transformation-flow structure contains a cycle, budgeted retry path, monitor/escalate path, or slice-local refresh relation, `E.18` governs the selected structure: loci, transfer relation, path or slice, gate positions, pins, and refresh locality. The cycle becomes an `E.23` quality-improvement loop only when a named object version is changed and then re-evaluated by a declared object-under-improvement evaluation. Otherwise the cycle remains a transformation-flow structure, work-control cue, gate relation, or refresh relation governed by its direct owner.
+
+Agent-loop diagrams often contain both kinds. A monitor/retry/escalate loop over physical execution state may be a valid `TransformationFlowStructure` and may include an `A.21` gate, but it does not prove that the controlled object improved. If the harness itself is improved, `E.23` governs that object-version improvement; if the harness only runs work, the A.15 family governs the work occurrence.
+
 ### E.18:End
 
 ## E.18.1 - Principles-to-Work Carry-Through
@@ -75747,10 +75808,11 @@ Field-compression map:
 | Autonomy budget or permitted generator action | `AutonomyBudgetRef` | `E.16` when an autonomy declaration or boundary is current. |
 | Trust, evidence, assurance, or confidence use | `EvidenceAssuranceOrConfidenceUseRef?` | `A.10`, `B.3`, `G.6`, `A.20`, `A.21`, or another direct evidence, assurance, gate, release, or provenance pattern when confidence is used to support action, publication, selection, work entry, or acceptance. |
 | Architecture candidate | `ArchitectureCandidateRef` | `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.ILC` when the candidate changes architecture, structural view, architecture description, or interlevel residual treatment. |
-| Planning and performed work | `WorkPlanOrWorkRef` | A.15-family patterns when a plan, plan item, work occurrence, or work-result relation is current. |
+| Planning and performed work | `WorkPlanOrWorkRef` | `A.15` family patterns when a plan, plan item, work occurrence, or work-result relation is current. |
 | Measurement, result, residual, and refresh | `EffectMeasurementRef` and `RefreshOrResidualTriageRef` | Measurement and result patterns by value, `G.11` for refresh or currentness, and the governing level-and-residual pattern when an interlevel residual is current. |
 
 #### E.18.1:4.1b - Development-for-developed first-minute slice
+For a fast DPF seed, use this slice to keep the seed-to-hardening route readable without pretending that the seed is public-ready. The problem-side material may carry a domain question, a `G.2` source-use or source-pack return, and a provisional framework purpose into `E.4.PFAD`, `E.4.PFR`, pattern seeds, quality evaluation, `E.23` improvement, and `G.11` currentness. P2W does not replace those owners. It only preserves the carried distinction until the next governing relation is named.
 
 Use this slice when a project source says that AI agents or cheap generators make solution variants easy while problem setting, characteristic choice, fair comparison, selected-set choice, and effect measurement become the expensive work.
 
@@ -75998,6 +76060,9 @@ Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did
 - `CC-E18.1-11` Archetypal grounding can replay at least one coupled transformation-flow-slice pilot from `E.18.1:5.3`; the pilot joins development, application, evaluation, and repair slices in one selected `TransformationFlowStructure` while keeping their objects, slice-local relation positions, `DesignRunTag` boundaries, and evidence distinct. The self-evolving-spec pilot keeps development-slice evidence or use-found evidence outside the used pattern, specification, or process description.
 - `CC-E18.1-12` Every carried claim family can be lowered, stopped, split, or reopened through `E.18.1:4.7`; a source cue that cannot name the recovered FPF kind or relation remains a reduced-use cue.
 - `CC-E18.1-13` Every replay after changed source, measurement, problem-side material, or FPF relation law names the changed assumption kind, what is still carried, what is no longer carried, the smallest reopened application, the governing relation checked, and the next FPF use.
+- `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use or source-pack cue when source-bearing material is used, the problem-side cue when that is current, the next governing relation (`G.2`, `E.4.PFAD`, `E.4.PFR`, `E.8`, `E.21`, `E.23`, `G.11`, or another direct owner), and the stop condition that prevents the seed from becoming public authority by generation alone.
+
+
 
 ### E.18.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -76032,7 +76097,7 @@ The design puts the positive carry-through table first because repeated negative
 
 | Practice tradition | Distinction kept for P2W | P2W invariant | Practitioner implication | Reopen if |
 |---|---|---|---|---|
-| Development-for-developed deck inspected for this queue. | Cheap solution variants make problem production, characteristic choice, fair comparison, selected-set publication, decision record, autonomy budget, performed work, measurement, and refresh the expensive work. | `DevelopmentLoopFirstApplicationRecord@Project` carries only the accepted problem-side distinction and the next governed relation; it does not become a development-factory kind, portfolio kind, archive authority, or lifecycle. | An engineering lead can start with one thin record and then apply `C.22.2`, `C.16`, `A.19`, `C.18`, `C.19`, `G.5`, `C.11`, `E.16`, A.15-family patterns, `G.11`, or `C.30.ILC` according to the field that is current. | The problem framing, characteristic set, comparator, selected-set publication, decision relation, autonomy declaration, work plan, measurement, residual, or refresh relation changes. |
+| Development-for-developed practice with cheap solution generation. | Cheap solution variants make problem production, characteristic choice, fair comparison, selected-set publication, decision record, autonomy budget, performed work, measurement, and refresh the expensive work. | `DevelopmentLoopFirstApplicationRecord@Project` carries only the accepted problem-side distinction and the next governed relation; it does not become a development-factory kind, portfolio kind, archive authority, or lifecycle. | An engineering lead can start with one thin record and then apply `C.22.2`, `C.16`, `A.19`, `C.18`, `C.19`, `G.5`, `C.11`, `E.16`, `A.15` family patterns, `G.11`, or `C.30.ILC` according to the field that is current. | The problem framing, characteristic set, comparator, selected-set publication, decision relation, autonomy declaration, work plan, measurement, residual, or refresh relation changes. |
 | Current OEE lines such as Darwin Godel Machine, AlphaEvolve, and DeepEvolve-style source-use. | Generated methods, method descriptions, evaluators, selected sets, source-use records, work results, and refresh each have different authority. | P2W preserves the problem-side distinction until the generated-variant, comparison, selector, work, measurement, source-currentness, or refresh relation is named. | Generated algorithm text can be used as a cue without becoming proof, gate passage, accepted method selection, or performed work. | Evaluator, source, method-description, selected-set, work-result, or refresh assumptions change. |
 | Current QD and OEE survey pressure, including Quality-Diversity survey DOI `10.1016/j.swevo.2025.102240`. | Archives, fronts, diversity pressure, stepping stones, and retained variants often matter before one choice is justified. | P2W names whether the next relation is archive or front stewardship, pool treatment, selected-set publication, local choice, work planning, performed work, measurement, or refresh. | The project can keep the archive useful without letting archive or front language authorize work or decide one winner. | Descriptor, distance, dominance, archive policy, comparator, publication, or refresh currentness changes. |
 | Model-based engineering and systems practice separates model, view, requirement, evidence, and performed-work records because each has different authority. | A useful diagram or view can classify the next relation without changing the governed kind. | P2W separates transformation-flow structure, mathematical graph description, view, publication, evidence, gate, and work applications before the next FPF use. | The practitioner can use a diagram as thinking material without letting the diagram authorize work, prove readiness, or settle evidence. | The project source, architecture-description relation, evidence relation, gate relation, or release relation changes. |
@@ -76041,6 +76106,10 @@ The design puts the positive carry-through table first because repeated negative
 | Assurance, safety, evidence, gate, and decision practice treats confidence, acceptance, validation, approval, and release as distinct relations. | Labels and readiness phrases are cues, not local authority. | P2W preserves the cue, recovers the relation, and stops local authority until the governed relation is being made. | A warning, green label, or approval note remains useful without becoming an evidence case, gate record, decision, or release. | Evidence, assurance, gate, conformance, release, work-entry readiness, or decision relation changes. |
 
 ### E.18.1:12 - Relations
+- `G.2` governs source-use, source-pack return, source evidence anchors, and source-currentness payloads before source-bearing seed material is carried into DPF hardening.
+- `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
+- `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
+- `G.11` governs currentness, source decay, edition change, and refresh when changed source or telemetry reopens the smallest affected P2W application.
 
 - `E.18` governs selected `TransformationFlowStructure`, transfer annotations, flow valuation, `ConstraintValidity`, `GateFit`, gate profile, design tags, and run tags.
 - `C.22.2` governs the accepted problem-side record and problem-side claims related to the carried distinction.
@@ -77943,8 +78012,9 @@ There is no neutral generic request when a quality result is wanted. The useful 
 Status: Core.
 
 ### E.23:1 - Problem frame
+When the entry phrase is "loop engineering", "agent loop", "harness loop", or "improve this with an agent", treat the phrase as a recognition cue, not as an FPF kind. First recover the object version under improvement and the evaluation that can be rerun. If those cannot be named, this is not yet an `E.23` use; name the live claim and route it to its direct owner. Common exits are work, transformation-flow structure, evolutionary retention and publication, source use, refresh, gate-decision publication, and DPF framework authoring.
 
-Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE/NQD candidate, archive/front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
+Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
 
 Not this pattern when one direct quality evaluation is enough. Use `E.22` to frame one evaluation and then run the named object-under-improvement evaluation. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 
@@ -77978,6 +78048,16 @@ The loop also fails when an ordinal value becomes a work target. `5` is an assig
 `E.23` is the general method for repeated improvement of an object version under an object-under-improvement evaluation named by value. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
 
 #### E.23:4.1 - Local names and kind settlement
+Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `ObjectUnderImprovementEvaluationRef`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord`, or else name the direct owner of the live claim and leave `E.23` closed.
+
+Quick lowering map:
+
+| Entry cue | `E.23` use | Exit when this is the live claim |
+|---|---|---|
+| "Build a loop" or "loop engineering" | Ask which object version is being improved and which evaluation will be rerun. | If no object-version improvement claim is present, choose the direct owner named by the live claim. |
+| Agent retry, monitor, or escalation cycle | Use `E.23` only when the retry changes an object version and re-evaluation can show quality movement. | Performed execution and work plans use the A.15 family; gate passage uses `A.21`; transformation-flow cycle structure uses `E.18`. |
+| Harness engineering | The harness can be the object under improvement when its next version is evaluated against declared quality, cost, and risk conditions. | Running the harness is work; comparing harness variants is `G.9`; retaining variants is `C.18` or `C.19`; selected-set publication is `G.5`. |
+| Fast DPF seed hardening | A local DPF seed, pattern seed, relation record, or source pack can enter `E.23` after the object version and evaluation are declared. | Source-use and source-pack return use `G.2`; source decay, edition change, and refresh use `G.11`; PFAD and PFR decisions use `E.4.PFAD` and `E.4.PFR`; first-entry publication uses `E.11` only when publication is current. |
 
 | Local name | Kind and function |
 |---|---|
@@ -77992,8 +78072,8 @@ The loop also fails when an ordinal value becomes a work target. `5` is an assig
 | `ObjectUnderImprovementReEvaluation` | Re-run or cited result of the evaluation on the changed object version. |
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
 | `StopContinueSwitchFrameHoldDecision` | Local loop decision after re-evaluation. |
-| `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost/risk, and loop decision. |
-| `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD/OEE comparison. |
+| `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost and risk, and loop decision. |
+| `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD and OEE comparison. |
 | `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
 | `KindRestorationCheck` | Required precision-repair check that records pre-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, proposed post-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, and whether each live field is not triggered, ordinary prose, preserved, split, intentionally changed by accepted decision, or blocking. |
 
@@ -78012,13 +78092,13 @@ For one quality-improvement loop:
 7. Re-evaluate the changed object version through the object-under-improvement evaluation, using that evaluation's required coordinate set, evidence basis, result-row shape, short rationales, mandatory attention-discharge rows, and coordinate-specific payloads.
 8. Record what improved, what stayed floor-only, what was unchanged by value with loci, what became worse, and which rows moved outside the evaluation.
 9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdForExactInformation`.
-10. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost/risk, and loop decision.
+10. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, evidence basis, evaluation result, trade-offs, cost and risk, and loop decision.
 
 #### E.23:4.3 - Stop, continue, and reopen
 
 Stop when the current object version meets the declared floor or improvement aim and no feasible non-dominated proposal remains worth its cost under the current use, comparison set, source state, and protected trade-offs. If the remaining proposal mainly makes a value easier to argue while adding apparatus or worsening use, affordability, locality, source preservation, or ecology, reject that proposal; continue searching for a substantive content move if the improvement aim is still open, and stop only with a by-value no-proposal disposition.
 
-Continue only when the next pass has an expected evaluation movement and acceptable cost/risk. Switch method when the current method family is not moving the object, is too costly, or no longer fits the evaluation. Hold when object, evaluation, authority, evidence, source condition, or comparison set is too under-specified.
+Continue only when the next pass has an expected evaluation movement and acceptable cost and risk. Switch method when the current method family is not moving the object, is too costly, or no longer fits the evaluation. Hold when object, evaluation, authority, evidence, source condition, or comparison set is too under-specified.
 
 An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result closes this loop locally. It does not say that future development is impossible. A new use, `Q` component, source line, `SoTA` front, comparison set, affordability boundary, or higher-payoff proposal can open a later loop.
 
@@ -78029,13 +78109,13 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 | `PDSAorPDCAFamily` | Learning quality, baseline comparison, measuring instruments, or standardize/repeat action matter for the improvement loop. |
 | `POOGIFamily` | The evaluation problem is throughput-shaped or constraint-shaped. |
 | `OODAFamily` | Orientation quality and feedback under changing conditions affect the evaluation. |
-| `RalphLikeGeneralAdaptiveFamily` | A broadly capable agent can improve the object through repeated specification, feedback, memory, and verification under `C.19.1` cost/risk discipline. |
+| `RalphLikeGeneralAdaptiveFamily` | A broadly capable agent can improve the object through repeated specification, feedback, memory, and verification under `C.19.1` cost and risk discipline. |
 | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily` | The performer or harness stays fixed while the object version is edited and re-evaluated. |
-| `NQDQualitySideImprovementFamily` | The evaluation supplies the `Q` side for a declared NQD/OEE comparison and loop changes seek non-dominated `Q` movement. |
+| `NQDQualitySideImprovementFamily` | The evaluation supplies the `Q` side for a declared NQD and OEE comparison and loop changes seek non-dominated `Q` movement. |
 | `SoTAReachAndMaintainFamily` | Several accepted source or practice lines must be composed to reach or maintain an externally assigned front. |
 | `SpecializedObjectFamilyCycle` | A specialized method family fits a declared characteristic space and is BLP-compatible. |
 
-The selected family is justified by characteristic-space fit, expected evaluation movement, cost/risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
+The selected family is justified by characteristic-space fit, expected evaluation movement, cost and risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
 
 #### E.23:4.5 - Operation-family selection
 
@@ -78057,19 +78137,20 @@ Typical operation families are specification articulation, task decomposition, c
 AcceptedWorkCost ~= token_or_compute_cost + tool_cost + adaptation_attempt_cost + human_supervision_cost + rework_cost - avoided_loss_value
 ```
 
-This is not a hidden quality score. It is a prompt for cost/risk reasoning. If avoided loss is large, an expensive loop can be right. If the object is simple, a human edit, small direct repair, lower-cost model, specialized cycle, or one-shot evaluation can be better.
+This is not a hidden quality score. It is a prompt for cost and risk reasoning. If avoided loss is large, an expensive loop can be right. If the object is simple, a human edit, small direct repair, lower-cost model, specialized cycle, or one-shot evaluation can be better.
 
 Harness improvement is usually the first high-leverage move when it reduces blind retry: better frames, row shapes, test cases, source references, local tools, memory, verification, and stop conditions.
 
-#### E.23:4.7 - Source-bearing and OEE/NQD improvement
+#### E.23:4.7 - Source-bearing and OEE and NQD improvement
 
 Accepted `SoTA` is the working external front only when assigned by the object-under-improvement evaluation, accepted source-use decision, or declared comparison set. `E.23` can govern a loop that reaches, maintains, or improves relative to that front; it does not self-assign `SoTA`.
 
 When several source lines are used, the loop records each line's contribution: value semantics, operation family, boundary, comparison discipline, failure mode, protected trade-off, or stop discipline. The changed object version then states the `SourceComposedResultClaim` and is re-evaluated.
 
-For NQD/OEE, `E.23` can change one object version or candidate to improve declared `Q` movement. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over novelty, diversity, descriptors, distances, archive/front insertion, pool policy, selected-set publication, parity, and refresh.
+For NQD and OEE, `E.23` can change one object version or candidate to improve declared `Q` movement. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over novelty, diversity, descriptors, distances, archive or front insertion, pool policy, selected-set publication, parity, and refresh.
 
 ### E.23:5 - Worked slices
+**Agent harness improvement from a loop-engineering request.** A user asks to "build an agent loop that improves my local DPF seed." The `E.23` entry is not the loop word; it is the recovered object and evaluation: `ObjectUnderImprovementRef = PersonalDevelopmentDPFSeed@v0.1`, `ObjectUnderImprovementEvaluationRef = declared E.21 or DPF-quality evaluation`, `ImprovementAim = make the seed usable as a local first-entry framework without public-Core claims`, and `CostAndRiskAccount = token, tool, supervision, and rework budget`. The loop may change only the declared seed version, or a declared evaluation or harness slice that is itself the object under improvement. Source-return prompts, pattern-seed expansion, adversarial examples, or harness checks enter the loop only when the record states expected evaluation movement and a removal or stop condition for that declared slice. Source-use and source-pack return are `G.2`; source decay, edition change, and refresh orchestration are `G.11`; the harness run itself is `U.Work`; parity between harness variants is `G.9`; retained candidate variants are `C.18` or `C.19`; selected-set publication is `G.5`; PFAD and PFR claims stay with `E.4.PFAD` and `E.4.PFR`. A change outside the declared slice opens that neighboring work; it is not one giant `E.23` evolution loop.
 
 **Affordable floor evaluation.** A pattern needs admission readiness. `E.22` frames `floorEvaluation`; `E.21` evaluates all required coordinates. If the result is admissible and no improvement aim is requested, `E.23` stays closed. If an admission, refresh, landing, or release crossing is claimed, `E.19` and the release named by value/admission process still check the gate conditions; the `E.21` status is necessary quality evidence, not the gate itself.
 
@@ -78077,13 +78158,13 @@ For NQD/OEE, `E.23` can change one object version or candidate to improve declar
 
 **DRR improvement.** A `DRR` needs drafting adequacy for multi-locus authoring. `E.9.DA` supplies coordinates; `E.23` applies decision repairs and re-evaluates. The improved object is still a decision record, not prewritten pattern prose.
 
-**NQD quality-side improvement.** A generated candidate has declared `Q` components and a comparison set. `E.22` returns proposal rows. `E.23` may change the candidate and re-evaluate `Q`; archive/front insertion, selected-set publication, parity, and refresh remain under the pattern that governs each claim and are not quality-loop decisions.
+**NQD quality-side improvement.** A generated candidate has declared `Q` components and a comparison set. `E.22` returns proposal rows. `E.23` may change the candidate and re-evaluate `Q`; archive or front insertion, selected-set publication, parity, and refresh remain under the pattern that governs each claim and are not quality-loop decisions.
 
 ### E.23:6 - Bias annotation
 
 This pattern biases FPF toward adaptive improvement with explicit re-evaluation. The bias is useful because many real objects improve only through feedback and revision.
 
-The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by expected evaluation movement and acceptable cost/risk.
+The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by expected evaluation movement and acceptable cost and risk.
 
 ### E.23:7 - Conformance checklist
 
@@ -78094,13 +78175,15 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | `CC-E23-3` | Represent returned work as row-atomic findings or proposal rows with expected evaluation movement and closure tests; a step is not closed until its row is written, and grouped memory summaries do not discharge skipped rows. |
 | `CC-E23-4` | Re-evaluate the changed object version before claiming coordinate, status, `Q`, or front movement. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
-| `CC-E23-6` | Continue only with expected evaluation movement and cost/risk reason. |
+| `CC-E23-6` | Continue only with expected evaluation movement and cost and risk reason. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
-| `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. The loop repairs below-floor results first. Exceptional-improvement work may proceed only through non-dominated proposal rows that name the expected substantive content movement, protected trade-offs, and cost/risk. A no-proposal or stay-at-current-value disposition must show the checked loci and why every plausible content move is dominated, unavailable, or outside the declared scope. If a change would only add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology, reject that change rather than counting it as improvement. |
-| `CC-E23-8` | Keep candidate generation, pool policy, selected-set publication, parity, refresh, decision, planning, work, evidence, assurance, gate, release, safety, and compliance claims with the pattern that governs each claim, relation, or boundary. State those pattern relations declaratively in loop records or `Relations`; keep loop-method and architecture-placement prose out of the object under improvement unless that prose is the object's own user-facing content. |
+| `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. The loop repairs below-floor results first. Exceptional-improvement work may proceed only through non-dominated proposal rows that name the expected substantive content movement, protected trade-offs, and cost and risk. A no-proposal or stay-at-current-value disposition must show the checked loci and why every plausible content move is dominated, unavailable, or outside the declared scope. If a change would only add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology, reject that change rather than counting it as improvement. |
+| `CC-E23-8` | When a neighboring claim appears during a loop, name the live claim and its direct owner before continuing. `E.23` may cite that owner in the loop record, but it does not absorb the neighbor's authority unless the neighbor's object version is itself the declared object under improvement. |
 | `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the selected restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair is word/head/use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or a governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: pre-repair kind/relation/current ontic slot, relation position, use relation, or claim kind/admissible use/scope, post-repair kind/relation/current ontic slot, relation position, use relation, or claim kind/admissible use/scope, or `not triggered`/`ordinary prose`/`already satisfied`/`blocker` disposition with loci. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
 | `CC-E23-10` | Preserve the named evaluation's required evidence basis, result-row shape, short-rationale rule, mandatory attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
+| `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring owner and stop the `E.23` overread. |
+| `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work with its own owner, not implicit `E.23` scope. |
 
 ### E.23:8 - Common anti-patterns and repairs
 
@@ -78108,12 +78191,13 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 |---|---|
 | **Checklist closed, quality improved.** Discharge count replaces re-evaluation. | Re-evaluate the changed object. |
 | **Loop result without evaluation form.** The loop says the object improved but records only prose, applied rows, or values without the named evaluation's evidence basis. | Re-run the object-under-improvement evaluation in its required result-row shape. |
-| **Agentic retry as method law.** Repetition continues without expected movement. | Add evaluation movement, cost/risk, trade-offs, and stop/switch condition. |
+| **Agentic retry as method law.** Repetition continues without expected movement. | Add evaluation movement, cost and risk, trade-offs, and stop or switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can move the evaluation enough to justify cost. |
 | **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content movement when the improvement aim is still open; record `stay at current value` only with loci showing that no non-dominated content improvement remains. |
-| **Lexical substitution closure.** A trigger word disappears, but the replacement narrows, widens, or changes the object kind; for example a graph-shaped method/workflow cue becomes a work sequence without a selected ontology decision. | Reopen the row, recover the pre/post kind through `E.10`, `F.19`, `F.18`, or the governing pattern, and leave the repair blocking if the kind cannot be preserved or explicitly changed by accepted decision. |
+| **Lexical substitution closure.** A trigger word disappears, but the replacement narrows, widens, or changes the object kind; for example a graph-shaped method or workflow cue becomes a work sequence without a selected ontology decision. | Reopen the row, recover the pre-repair and post-repair kind through `E.10`, `F.19`, `F.18`, or the governing pattern, and leave the repair blocking if the kind cannot be preserved or explicitly changed by accepted decision. |
 | **Maturity-ceiling stop.** All-`5` is treated as end of development. | Close this loop locally and record reopen conditions. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |
+| **Loop engineering as ontology.** A fashionable source phrase is treated as a new Core kind or as proof that all repeated activity is one improvement loop. | Use the phrase only as an entry cue; recover object version and evaluation, or route the live claim to its direct owner. Common exits are work, gates, evolutionary retention and publication, source use, refresh, transformation-flow, and DPF owners. |
 
 ### E.23:9 - Consequences
 
@@ -78121,12 +78205,12 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 |---|---|---|
 | Repeated improvement has one method locus. | FPF no longer relies on hidden authoring habits. | Users must name object and evaluation. |
 | Row discharge is separated from quality movement. | Improvement claims become replayable. | Re-evaluation is required. |
-| General and specialized loops are comparable. | BLP can be applied without craft folklore. | Cost/risk and characteristic-space fit must be explicit. |
+| General and specialized loops are comparable. | BLP can be applied without craft folklore. | Cost, risk, and characteristic-space fit must be explicit. |
 | Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | Reopen conditions must be recorded. |
 
 ### E.23:10 - Rationale
 
-The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE/NQD lines contribute useful operations and boundaries, but they do not replace this method.
+The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method.
 
 ### E.23:11 - SoTA-Echoing
 
@@ -78134,11 +78218,12 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 |---|---|---|
 | Improvement needs aim, measures, changes, learning, and adaptation. | Model for Improvement/PDSA-PDCA lineage, including aim-measure-change discipline. | The loop names aim, current evaluation, applied changes, re-evaluation, learning, and stop/continue decision. |
 | Formative feedback requires more than a score. | Sadler and Hattie/Timperley feedback traditions. | The loop requires substantive proposal rows or checked no-proposal dispositions, not value-only closure. |
-| Broad adaptive loops are useful but costly. | Ralph-like current technique signal, Reflexion/Self-Refine/ReAct/LATS/SWE-agent lineage. | General adaptive methods are selectable under `C.19.1` cost/risk and re-evaluation discipline. |
-| Fixed-performer object-version optimization is a useful current line. | SkillOpt-like work with fixed performer and mutable external skill/document object. | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily`, bounded change budget, held-out evaluation, rejected-change memory, and optimizer-memory separation. |
+| Broad adaptive loops are useful but costly. | Ralph-like current technique signal, Reflexion, Self-Refine, ReAct, LATS, and SWE-agent lineage. | General adaptive methods are selectable under `C.19.1` cost and risk and re-evaluation discipline. |
+| Current agent-loop and harness practice creates a real entry problem without creating a new FPF kind. | The media phrase "loop engineering" is an entry cue; OAgents, Efficient Agents, Physical Agentic Loop, Harnesses for Inference-Time Alignment, and AI Workflow Store lines supply source-use payloads for evaluation protocol, cost trade-offs, monitoring, retry, escalation, harness failure modes, hardening, and reuse. | Treat the media phrase as recognition text only. Use the research lines through `G.2` source-use discipline and route each payload to `E.23`, `G.9`, `A.15`, `A.21`, `G.11`, or DPF owners by the live claim. |
+| Fixed-performer object-version optimization is a useful current line. | SkillOpt `arXiv:2605.23904` work with fixed performer and mutable external skill/document object. | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily`, bounded change budget, held-out evaluation, rejected-change memory, and optimizer-memory separation. |
 | Multi-coordinate improvement needs trade-offs. | MCDA, Pareto, ATAM, and current proxy-failure work. | Re-evaluation includes what became worse, rejects dominated changes, and applies `E.13` when the visible value under optimization starts replacing the intended value. |
-| Measures and specifications can be gamed under optimization pressure. | Goodhart/Campbell, surrogation, specification-gaming, and reward-hacking lines. | The loop forbids all-`5` targeting, separates floor repair from substantive exceptional proposals, rejects apparatus-only proof as dominated change, and opens `E.13` when the loop target becomes a proxy for value. |
-| OEE/NQD improvement is relative to declared `Q`, comparison sets, and fronts. | Current quality-diversity and open-ended exploration survey lines. | `NQDQualitySideImprovementFamily` changes object versions while OEE/NQD neighbours keep archive/front and selected-set authority. |
+| Measures and specifications can be gamed under optimization pressure. | Goodhart and Campbell, surrogation, specification-gaming, and reward-hacking lines. | The loop forbids all-`5` targeting, separates floor repair from substantive exceptional proposals, rejects apparatus-only proof as dominated change, and opens `E.13` when the loop target becomes a proxy for value. |
+| OEE and NQD improvement is relative to declared `Q`, comparison sets, and fronts. | Current quality-diversity and open-ended exploration survey lines. | `NQDQualitySideImprovementFamily` changes object versions while OEE and NQD neighbours keep archive, front, and selected-set authority. |
 | Source-bearing improvement must synthesize contributions. | Current source-currentness discipline in FPF plus source-composition practice. | The loop records contribution strata and `SourceComposedResultClaim` before claiming front reach or maintenance. |
 
 ### E.23:12 - Relations
@@ -78151,12 +78236,17 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
-
+| `G.2` | Governs source-use and source-pack return before source-bearing DPF seeds, agent-practice claims, or source-composed improvement claims can be used as evidence. |
 | `F.18` | Supplies durable-name evaluation for naming loops. |
 | `C.25`, `C.16.Q` | Govern engineering quality bundles and quality-word precision repair. |
-| `C.19.1` | Governs BLP and cost/risk comparison for method-family choice. |
+| `C.19.1` | Governs BLP and cost and risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
-| `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD candidate characteristics, archive/front, pool, selected set, parity, and refresh. |
+| `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE and NQD candidate characteristics, archive, front, pool, selected set, parity, and refresh. |
+| `E.18` | Governs cyclic transformation-flow structures, paths, gates, and slice-local refresh; a cyclic selected structure is not a quality-improvement method unless an object version is changed and re-evaluated under `E.23`. |
+| `E.18.1` | Carries accepted problem-side or generated seed material toward the next FPF relation, including DPF seed-to-hardening routes before a quality-improvement loop is ready. |
+| `E.4.DPF` | Governs DPF authoring routes and publication carriers when a fast local framework seed is the object being carried toward use or admission. |
+| `E.4.PFAD`, `E.4.PFR` | Govern framework architecture decisions and framework relation records; `E.23` may improve a declared artifact version but does not decide those framework slots. |
+| `A.21` | Governs gate-decision publication; monitoring, retry, escalation, or a green harness state does not publish gate passage unless an `OperationalGate(profile)` gate-decision relation is present. |
 | `C.32.P2S` | Uses improvement-loop results only when they reopen architecture problem-to-structure carry-through; E.23 still governs the loop record and re-evaluation. |
 | `C.11`, `A.10`, `B.3`, `A.15`, `A.20`, `A.21` | Govern decision, evidence, assurance, work, gate, and release claims when a loop result is reused beyond quality improvement. |
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by loop records. |
@@ -89077,6 +89167,7 @@ All of these remain method‑specific semantics and therefore belong in `Extensi
 **Intent.** Govern the dispatcher and registry object set for rival method families and publish selector-facing retained-set outcomes without collapsing plurality into one hidden scalar winner.
 
 ### G.5:0 - Use this when
+When loop-engineering work retains several loop candidates, harness variants, method families, workflow-store entries, or DPF framework candidates for downstream use, use `G.5` only when the live claim is selector-facing publication of that retained set. The published result states the outcome kind, retained members, ordering status if any, and basis pins. It does not prove that any member improved, that work occurred, or that a local choice has been made.
 
 - several method families or generator families can admissibly act on the same declared task family or work target
 - you need one selector to return a `Shortlist`, `RankedShortlist`, one `SpecialistHandoff`, one other narrowed handoff plan, or one abstain outcome without pretending that there is always one scalar winner
@@ -89116,6 +89207,8 @@ G.5 keeps the dispatcher and registry object set here and leaves universal Part-
 When `C.11` has already emitted one local choice result, `C.19` one pool-policy result, or `C.24` one enactment-facing next action, `G.5` begins where the question becomes selector-facing publication of the retained set or narrowed handoff result rather than one more explanation of why the result looked reasonable. A conformant `G.5` pass should therefore publish the retained set, narrowed handoff, or abstain result directly, with its declared outcome kind, any applicable public selected-set label, and basis pins explicit in the result itself.
 
 A publication result remains unfinished if the declared outcome kind, any applicable public selected-set label, retained members or handoff content, ordering status, abstain or escalation condition, or basis pins are still only implicit in upstream notes.
+
+When a framework publishes a selected pattern set, use `G.5` only for the selected-set publication claim: scope, selection conditions, included pattern refs, excluded candidate refs when relevant, publication status, and basis pins. This selected-set claim does not define pattern-use relations, architecture decisions, or framework edition dependencies.
 
 ### G.5:1 - Problem frame
 
@@ -89314,7 +89407,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 
 A finished `G.5` pass should publish one explicit selected-set result from the dispatcher and registry question rather than one selector trace that leaves the public result implicit.
 
-Publication here is the closure record for selector work over registered families. It does not replace registry maintenance, dispatcher comparison law, or the upstream pool-policy and local-choice pattern authorities that supplied the retained members.
+Publication here is the closure record for selector work over registered families. It does not replace registry maintenance, dispatcher comparison rules, or the upstream pool-policy and local-choice pattern authorities that supplied the retained members.
 
 The admissible selector outcome families here are:
 
@@ -89425,7 +89518,7 @@ If the card does not already state what was published, who survived, whether ord
 
 #### G.5:4.4d - Worked publication closure slice
 
-Three short contrasts keep the publication law practical.
+Three short contrasts keep the publication closure rule practical.
 
 **Several survivors, no public order belongs to the result.**
 When the selector has retained more than one admissible family but no downstream public order belongs to the published result, `G.5` should close as one `Shortlist` over the registered surviving rows:
@@ -89706,14 +89799,14 @@ Potential biases and failure modes this pattern explicitly guards against:
 
 This pattern is designed to carry extension declarations for, not redefine, post-2015 SoTA families through `Uses` plus edition and policy pins:
 
-* **Quality-Diversity survey currentness (2026 DOI `10.1016/j.swevo.2025.102240`).** Survey support keeps approaches, applications, archives, diversity use, and challenges visible, but it does not replace FPF governing loci. The practical implication for G.5 is publication closure only: if the selected result is a `Shortlist`, `RankedShortlist`, declared `ExplorationArchive`, `Front`, `Q-front`, abstain, or escalation, publish the declared outcome kind, source-set family, ordering status, and basis pins instead of letting survey taxonomy name the result.
+* **Quality-Diversity survey currentness (2026 DOI `10.1016/j.swevo.2025.102240`, ScienceDirect `S2210650225003979`).** Survey support keeps approaches, applications, archives, diversity use, and challenges visible, but it does not replace FPF governing loci. The practical implication for G.5 is publication closure only: if the selected result is a `Shortlist`, `RankedShortlist`, declared `ExplorationArchive`, `Front`, `Q-front`, abstain, or escalation, publish the declared outcome kind, source-set family, ordering status, and basis pins instead of letting survey taxonomy name the result.
 * **QD-as-MOO and archive-centric QD lines.** Current QD work can return fronts, archives, and set-shaped outcomes under descriptor, distance, dominance, and comparator editions. The practical implication is that G.5 publishes the selector-facing result without redefining archive and front relations; `C.18` and `A.19.CPM` keep descriptor, archive, front, and comparator meaning.
 * **Cultural and style selected-set labels.** Music, dance, and cultural-market source rows motivate labels such as `StyleShortlist` or `TraditionShortlist` only after term bridges and cultural-evolution case meaning are clear. The practical implication is to keep `DerivedViewKind`, `BasePaletteRef`, and `SourceSetFamily` visible; G.5 does not define style, tradition, canon, or platform semantics.
 * **Quality-Diversity and illumination (post-2015 refinements).** Archive-centric QD families fit naturally as `G.5:Ext.NQD` extension declarations with explicit descriptor, distance, and insertion pins. The practical implication is to keep publication honest about whether the selector is returning one admissible set, one ranked result, or no admissible survivor at all.
-* **Open-Endedness (post-2015 line).** POET-class and later open-ended or co-evolutionary families use generator registries plus `TransferRulesRef.edition` pins. The practical implication is to publish pair- or retained-set-shaped results explicitly rather than silently squeezing them into one false single-family winner.
+* **Open-Endedness (post-2015 line; POET `arXiv:1901.01753`, AlphaEvolve `arXiv:2506.13131`).** POET-class and later open-ended or co-evolutionary families use generator registries plus `TransferRulesRef.edition` pins. The practical implication is to publish pair- or retained-set-shaped results explicitly rather than silently squeezing them into one false single-family winner.
 
-* **Algorithm selection and meta-selection.** Modern selection under uncertainty, robust evaluation, and policy-driven probing use explicit policy records and typed telemetry pins, rather than hard-coded scoring rules. The practical safeguard is that the publication label and basis pins must still remain explicit after those policies have acted.
-* **Budgeted specialist acquisition.** Current agentic search lines compete on time or budget to threshold plus truthful selected-set return when heterogeneous specialists remain non-dominated, so `G.5` keeps specialization profiles and set-return semantics explicit instead of forcing one static breadth winner.
+* **Algorithm selection and meta-selection (Thompson sampling tutorial `arXiv:1707.02038`; Bayesian optimization tutorial `arXiv:1807.02811`).** Modern selection under uncertainty, robust evaluation, and policy-driven probing use explicit policy records and typed telemetry pins, rather than hard-coded scoring rules. The practical safeguard is that the publication label and basis pins must still remain explicit after those policies have acted.
+* **Budgeted specialist acquisition (current agentic-search source-pack pressure via `G.2`).** Current agentic search lines compete on time or budget to threshold plus truthful selected-set return when heterogeneous specialists remain non-dominated. Treat those rows as source-pack pressure until cited by `G.2`; `G.5` keeps specialization profiles and set-return semantics explicit instead of forcing one static breadth winner.
 * **Preference-learning comparators.** Interactive and learned-preference regimes are treated as comparator or policy records with explicit editions when they are actually declared.
 
 SoTA here is treated as **best-known practice for a declared goal and constraint regime**, not whatever is currently popular.
@@ -90968,7 +91061,6 @@ G.9’s role is to make these recoverable as **pinned and publishable** as a *me
 * **Refreshability.** Parity must emit RSCR‑relevant causes as canonical ids, with enough pins to re‑run.
 
 ### G.9:4 — Solution
-
 #### G.9:4.0 — G.Core linkage (normative)
 
 This pattern is **core‑invariant** and therefore binds to **G.Core** by declaration (not by restating invariants here).
@@ -91115,6 +91207,7 @@ When parity is comparing bounded specialization, the report should echo the acti
 5. **Emit telemetry hooks (optional, report‑only).** When telemetry is produced, it is emitted as telemetry pins/events for refresh wiring (not as a silent change in dominance interpretation).
 
 #### G.9:4.3a — Worked parity slice
+Loop-engineering parity compares loop or harness variants only after the parity object is declared. An evaluation program, benchmark script, or dashboard is not the characteristic being improved; it is part of the evaluation or comparison procedure. The parity plan must pin the object family, baseline set, freshness window, comparator editions, budget when relevant, and outcome shape before a result can be consumed by `E.23`, `C.19`, or `G.5`.
 
 - Two agentic search setups both claim bounded specialization on the same declared task family.
 - The `ParityPlan` pins the same freshness window, threshold target, adaptation budget, prior-exposure declaration, comparator editions, and corridor-entry baseline. One setup reaches threshold sooner but shows low retention and no transfer. The other reaches threshold later, but carries reusable transfer and lower downside field.
@@ -91201,7 +91294,7 @@ Causality-ladder parity is a degrade/abstain condition, not a universal comparis
 
 What changes in practice: one benchmark cannot compare a predictive model, an interventional action/effect question optimizer, and a counterfactual comparison question strategy as one undifferentiated "method improvement" set.
 
-What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity and benchmark harness authority and sends causal-use support to `C.28`.
+What this does not authorize: `G.9` does not decide causal identification, causal fairness, or counterfactual sampling realizability; it keeps parity and benchmark harness authority, while causal-use support remains governed by `C.28`.
 
 #### G.9:4.9 — Extensions (pattern‑scoped; non‑core)
 
@@ -91376,10 +91469,10 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
 **Show‑A — Multi‑tradition parity for decision systems (post‑2015 practice).**
 ParityPlan pins a rolling evidence window and comparator refs; ParityReport publishes a selected-set outcome plus the evidence trace. Family labels such as preference-learning comparators, causal decision pipelines, offline-RL evaluation pipelines, and robust BO-style selectors remain illustrative until a `G.2` SoTA pack or named current source pins the exact family being compared; the parity report still must preserve the selected set or partial order rather than collapse everything into a single scalar.
 
-**Show‑B — QD parity (MAP‑Elites lineage → CMA‑ME / DQD / QDax JMLR 2024, with QDHF or QDAIF refs only when a feedback-guided QD claim is live).**
+**Show‑B — QD parity (MAP‑Elites lineage; CMA-MAE `arXiv:2205.10752`; DQD `arXiv:2106.03894`; QDax `arXiv:2308.03665`; QDHF or QDAIF refs only when a feedback-guided QD claim is live).**
 ParityPlan pins descriptor/distance definitions and archive insertion policy editions. ParityReport includes archive outcomes and telemetry deltas needed for refresh, without silently converting illumination summaries into dominance.
 
-**Show‑C — Open‑ended parity (POET as lineage; current generator-family claims require a named `G.2` SoTA pack or exact current source).**
+**Show‑C — Open‑ended parity (POET `arXiv:1901.01753` as lineage; AlphaEvolve `arXiv:2506.13131` when the live generator-family claim is coding-agent discovery; other current generator-family claims require a named `G.2` SoTA pack or exact current source).**
 ParityPlan pins transfer rule editions and exploration policy refs. ParityReport publishes selected-set outcomes plus transfer‑keyed traces (PathSlice), enabling refresh reruns when any pinned policy changes.
 
 **Show-D — Causal method rung parity.**
@@ -91856,8 +91949,11 @@ The team either rebuilds everything after every small change or keeps using a sh
 The practitioner gets a small refresh kit: name the affected object, currentness object kind, source record, edition or lineage pins, affected scope, governing pattern, planned refresh action, and report. The refresh can stay local while still preserving comparability, selected-set meaning, archive and front meaning, and source-currentness evidence.
 
 #### G.11:0.3 - First output
+For loop, harness, workflow-store, or DPF seed artifacts, a refresh line names the currentness object directly: source pack, evaluator, benchmark, harness edition, workflow edition, pattern seed, PFAD and PFR dependency, selected set, archive, front, or publication carrier. `G.11` records currentness, source decay, edition change, telemetry, scoped refresh action, and report refs; it does not create a local "reopen and refresh" pair and does not decide whether the artifact improved.
 
 Write one `RefreshCurrentnessLine@Context` or one `RefreshPlan@Context` with the affected scope and direct governing pattern named. If the meaning belongs to selected-set publication, archive or front stewardship, cultural evolution, term bridges, evidence, dashboard, or shipping, cite that governing pattern rather than defining the meaning inside the refresh record.
+
+Framework edition pins, source packs, local monolith currentness, deprecation, supersession, and source-decay conditions are refresh and currentness claims governed here when currentness is the live question. Record the framework-specific trigger and cite `E.4`, `E.4.PFR`, `E.4.PFAD`, `G.2`, `E.11`, or `E.17` as the direct owner of the affected framework, source, decision, or publication meaning instead of creating a private refresh vocabulary in the framework pattern.
 
 ### G.11:1 - Problem frame — Keeping shipped SoTA current without global rebuilds
 
@@ -92208,37 +92304,37 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 
 0a. **Open-ended engineering outputs need source and evaluator currentness.**
    Practice: self-improving-agent, AlphaEvolve-style, and DeepEvolve-style lines use generated variants, external knowledge, evaluators, tests, archives, and empirical validation.
-   Source: Darwin Godel Machine, AlphaEvolve, and Deep Research augmentation source rows selected by the DRR.
+   Source: Darwin Godel Machine `arXiv:2505.22954`, AlphaEvolve `arXiv:2506.13131`, and DeepEvolve-style deep-research augmentation `arXiv:2510.06056`.
    Alignment: G.11 refresh records carry source, evaluator, descriptor, policy, edition, lineage, and report refs; generated method text, evaluator success, and archive update keep their governing patterns.
    Adoption: **Adopt and adapt** (refresh tracks currentness and smallest affected scope; it does not accept generated text as proof, gate passage, or performed work).
 
 1. **Continuous refresh is necessary in deployed evaluation pipelines.**
    Practice: production ML systems use monitoring, retraining, and reevaluation triggers and insist on reproducibility hooks.
-   Source: Breck et al., *The ML Test Score* (2017); Amershi et al., *Software Engineering for Machine Learning* (2019).
+   Source: Breck et al., *The ML Test Score* (`arXiv:1706.04599`, 2017); Amershi et al., *Software Engineering for Machine Learning* (ICSE-SEIP 2019).
    Alignment: `G.11` formalizes triggers as typed causes and forces edition and policy pins for replay.
    Adoption: **Adopt and adapt** (adapted to id-based, PathSlice-scoped refresh rather than “retrain everything”).
 
 2. **Non-stationarity requires explicit drift and decay handling, not ad-hoc updates.**
    Practice: continual learning emphasizes non-stationarity as a first-class maintenance condition.
-   Source: Parisi et al., *Continual Lifelong Learning with Neural Networks* (2019); De Lange et al., *A Continual Learning Survey* (2021).
+   Source: Parisi et al., *Continual Lifelong Learning with Neural Networks* (`arXiv:1802.07569`, 2019); De Lange et al., *A Continual Learning Survey* (`arXiv:1909.08383`, 2021).
    Alignment: `B.3.4` supplies decay semantics; `G.11` wires decay events into refresh planning and controlled deprecation.
    Adoption: **Adapt** (refresh of conceptual artefacts and evidence closures, not untracked model mutation).
 
 3. **Quality-Diversity requires archive semantics and comparability under descriptor and distance evolution.**
    Practice: QD methods treat the archive as the primary result and track changes under policy and edition conditions.
-   Source: contemporary QD families such as CMA‑ME (post‑2018) and differentiable QD lines (post‑2019).
+   Source: contemporary QD families such as CMA-MAE (`arXiv:2205.10752`) and differentiable QD (`arXiv:2106.03894`).
    Alignment: QD-specific meaning lives with the governing patterns; `G.11:Ext.QDRefreshWiring` ensures edition pins and scope pins exist so targeted archive refresh is admissible.
    Adoption: **Adopt** (set and archive preservation; no covert scalarization).
 
 4. **Open-endedness co-evolves environments and agents; transfer rules must be versioned.**
    Practice: POET-class open-ended systems require explicit transfer rules and environment validity constraints.
-   Source: Wang et al., POET (2019) and subsequent POET extensions (2020+).
+   Source: Wang et al., POET (`arXiv:1901.01753`, 2019); later generator-family claims require a named `G.2` SoTA pack or exact current source.
    Alignment: `G.11:Ext.OEERefreshWiring` requires `TransferRulesRef.edition` and scope pins so refresh reruns remain comparable and auditable.
    Adoption: **Adopt and adapt** (adapted to Part G pin and UTS publication discipline).
 
 5. **Efficient orchestration benefits from bandit and early-stopping scheduling, but it must not become semantics.**
    Practice: modern hyperparameter and experiment scheduling uses bandit-style resource allocation and asynchronous early stopping.
-   Source: Async Hyperband and BOHB-style work (2018+) as representative post‑2015 scheduling practice.
+   Source: ASHA (`arXiv:1810.05934`) and BOHB (`arXiv:1807.01774`) as representative post-2015 scheduling practice.
    Alignment: scheduling is expressed as `RefreshQueue` and `RefreshPlan@Context` policy pins (`RefreshPriorityPolicyIdRef`, `BudgetDeclRef`) so core semantics remain stable and WorkPlanning stays separate from executed Work.
    Adoption: **Adapt** (useful practice, but quarantined outside core norms).
 

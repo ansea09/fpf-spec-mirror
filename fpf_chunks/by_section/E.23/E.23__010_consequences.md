@@ -6,12 +6,12 @@ section_id: "E.23:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__010_consequences.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:9 — Consequences"
-line_start: 78118
-line_end: 78126
+line_start: 78202
+line_end: 78210
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -37,6 +37,6 @@ keywords:
 |---|---|---|
 | Repeated improvement has one method locus. | FPF no longer relies on hidden authoring habits. | Users must name object and evaluation. |
 | Row discharge is separated from quality movement. | Improvement claims become replayable. | Re-evaluation is required. |
-| General and specialized loops are comparable. | BLP can be applied without craft folklore. | Cost/risk and characteristic-space fit must be explicit. |
+| General and specialized loops are comparable. | BLP can be applied without craft folklore. | Cost, risk, and characteristic-space fit must be explicit. |
 | Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | Reopen conditions must be recorded. |
 

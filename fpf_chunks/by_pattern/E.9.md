@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
-line_start: 65878
-line_end: 66224
+line_start: 65933
+line_end: 66279
 dependencies:
   - "E.10"
   - "E.19"

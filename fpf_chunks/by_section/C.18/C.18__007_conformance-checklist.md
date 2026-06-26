@@ -6,12 +6,12 @@ section_id: "C.18:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_conformance-checklist.md"
-commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
+commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:5 — Conformance Checklist"
-line_start: 45183
-line_end: 45192
+line_start: 45186
+line_end: 45198
 dependencies:
   - "A.15"
   - "A.17-A.19"
@@ -29,12 +29,14 @@ dependencies:
   - "C.36"
   - "E.18"
   - "E.18.1"
+  - "E.23"
   - "F.17"
   - "F.18"
   - "F.9"
   - "G.11"
   - "G.5"
   - "G.6"
+  - "G.9"
 keywords:
   - "CandidateSet"
   - "DescriptorMapRef"
@@ -61,4 +63,7 @@ keywords:
 - `CC-C18-5` Architecture candidates use C.30 family patterns before becoming architecture moves.
 - `CC-C18-6` Cultural variants use C.36 or term-bridge patterns before becoming cultural-evolution claims.
 - `CC-C18-7` Refresh uses `G.11` with the smallest affected archive, front, descriptor, edition, or lineage locus.
+- `CC-C18-8` Agent-loop, harness-loop, workflow-store, or DPF-seed variants retained in an archive name their descriptor, lineage, telemetry, and next governing relation; archive membership does not claim quality improvement without `E.23` re-evaluation.
+
+
 
