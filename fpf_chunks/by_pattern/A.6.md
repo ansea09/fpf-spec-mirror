@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
-line_start: 7999
-line_end: 8539
+line_start: 8032
+line_end: 8572
 dependencies:
   - "A.10"
   - "A.15"

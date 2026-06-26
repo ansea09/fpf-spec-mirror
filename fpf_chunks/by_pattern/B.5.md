@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
-line_start: 35249
-line_end: 35348
+line_start: 35282
+line_end: 35381
 dependencies:
   - "A.10"
   - "B.4"

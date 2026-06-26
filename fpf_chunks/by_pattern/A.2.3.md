@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.3.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
-line_start: 2891
-line_end: 3364
+line_start: 2924
+line_end: 3397
 dependencies:
   - "A.1.1"
   - "A.15.1"

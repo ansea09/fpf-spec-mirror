@@ -6,12 +6,12 @@ section_id: "E.4.DPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__001_intro.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing"
   - "E.4.DPF:intro — Intro"
-line_start: 64075
-line_end: 64080
+line_start: 64108
+line_end: 64113
 dependencies:
   - "C.33"
   - "C.34"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
-line_start: 64492
-line_end: 64592
+line_start: 64525
+line_end: 64625
 dependencies:
   - "E.2"
   - "E.3"

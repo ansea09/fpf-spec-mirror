@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.CSC.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
-line_start: 11617
-line_end: 11978
+line_start: 11650
+line_end: 12011
 dependencies:
   - "A.15"
   - "A.20"

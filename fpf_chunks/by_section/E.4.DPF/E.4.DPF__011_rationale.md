@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing"
   - "E.4.DPF:10 — Rationale"
-line_start: 64272
-line_end: 64277
+line_start: 64305
+line_end: 64310
 dependencies:
   - "C.33"
   - "C.34"

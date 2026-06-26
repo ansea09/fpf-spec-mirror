@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.Core.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "G.Core — Part G Core Invariants"
-line_start: 86402
-line_end: 86844
+line_start: 86435
+line_end: 86877
 dependencies:
   - "A.15.3"
   - "A.19"

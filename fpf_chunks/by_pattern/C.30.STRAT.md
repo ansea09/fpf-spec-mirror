@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.STRAT.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
-line_start: 55695
-line_end: 55964
+line_start: 55728
+line_end: 55997
 dependencies:
   - "A.10"
   - "A.15"

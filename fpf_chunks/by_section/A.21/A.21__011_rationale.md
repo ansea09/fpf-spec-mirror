@@ -6,12 +6,12 @@ section_id: "A.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__011_rationale.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:9 — Rationale"
-line_start: 30164
-line_end: 30173
+line_start: 30197
+line_end: 30206
 dependencies:
   - "A.19"
   - "A.2.6"

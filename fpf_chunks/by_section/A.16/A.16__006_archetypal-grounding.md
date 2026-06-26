@@ -6,12 +6,12 @@ section_id: "A.16:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__006_archetypal-grounding.md"
-commit_sha: "f1d0f9319cf1f93129b7691a328a281022252c4e"
+commit_sha: "40b232f11ed950ed34082273c57ff4f6c45b7f06"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:5 — Archetypal Grounding"
-line_start: 23057
-line_end: 23063
+line_start: 23090
+line_end: 23096
 dependencies:
   - "A.16"
   - "A.16.0"
