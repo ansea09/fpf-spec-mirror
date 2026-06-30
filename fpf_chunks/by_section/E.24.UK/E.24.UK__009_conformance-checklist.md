@@ -6,12 +6,12 @@ section_id: "E.24.UK:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:6 — Conformance Checklist"
-line_start: 80371
-line_end: 80383
+line_start: 80373
+line_end: 80385
 dependencies:
   - "A.11"
   - "A.6.5"

@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Block plan"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_block-plan.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:8 — Block plan"
-line_start: 86525
-line_end: 86540
+line_start: 86527
+line_end: 86542
 dependencies:
   - "A.10"
   - "A.15.1"

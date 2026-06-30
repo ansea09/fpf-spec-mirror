@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__004_forces.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:3 — Forces"
-line_start: 64563
-line_end: 64572
+line_start: 64565
+line_end: 64574
 dependencies:
   - "C.32.ADR"
   - "C.32.PAD"

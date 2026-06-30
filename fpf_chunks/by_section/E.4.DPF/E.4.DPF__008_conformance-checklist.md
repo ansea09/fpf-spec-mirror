@@ -6,12 +6,12 @@ section_id: "E.4.DPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__008_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:7 — Conformance Checklist"
-line_start: 64903
-line_end: 64916
+line_start: 64905
+line_end: 64918
 dependencies:
   - "C.33"
   - "C.34"
@@ -46,6 +46,6 @@ keywords:
 | CC-DPF.5 Carriers admitted | Any all-in-one carrier, skill pack, MCP-backed access route, graph, generated set, source summary, or transformed view used as evidence has `C.33`, `C.34`, or `C.35` treatment. |
 | CC-DPF.6 Patterns drafted through E.8 | Pattern bodies carry recognition text for recurring domain or local problem situations, positive SoTA-informed solution moves, worked cases, known failure modes or local anti-patterns, checklist, SoTA-Echoing, and relations. Skeletons, prompt seeds, and compressed design notes are named as seeds rather than treated as normal DPF patterns. |
 | CC-DPF.7 Quality and refresh routes present | `E.22` frames evaluation purpose when needed; `E.4.DPF.DA` package adequacy, `E.21` pattern quality, `E.23` improvement, and `G.11` refresh routes are named with edition or refresh conditions. Public, teaching, enterprise, or reliance-bearing DPF publication names the checked pattern-quality basis or remains `seedOnly`. |
-| CC-DPF.8 Carrier self-rendering visible | Readme, Preface, or equivalent first-entry carrier says what domain or local problem-and-solution structure the framework renders, for whom, what is foregrounded, deliberately coarsened, abstracted, omitted, deferred, or lost, and where source, pattern, evidence, or relation return happens. |
+| CC-DPF.8 Carrier structure-account visible | Readme, Preface, or equivalent first-entry carrier says which domain or local problem-and-solution structures the framework exposes, for whom, what is foregrounded, deliberately coarsened, abstracted, omitted, deferred, or lost, and where source, pattern, evidence, or relation return happens. |
 | CC-DPF.9 Problem-solving primacy | The DPF tells which typical domain or local problems it helps solve, which known failure modes it blocks, and which source-grounded SoTA solution moves it offers. If it mainly provides vocabulary, ontology, commentary, or conversation guidance, it is not yet a reliance-bearing DPF. |
 

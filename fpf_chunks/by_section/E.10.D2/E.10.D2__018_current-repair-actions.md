@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Current repair actions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_current-repair-actions.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Current repair actions"
-line_start: 70279
-line_end: 70292
+line_start: 70281
+line_end: 70294
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -44,7 +44,7 @@ Use these repairs when live FPF prose violates this pattern:
 1. Replace old `DescribedEntity*`, `EntityOfInterest`, `EoI`, and `EoIClass` wording with `EntityOfConcern`, `EntityOfConcernRef`, `EntityOfConcernClass`, or the local FPF kind named by value. Retain old spellings only as source-side trigger wording.
 2. Replace peer-layer I-D-S wording with EntityOfConcern, Description episteme, and specification-use admission wording.
 3. Replace "contains role characteristic space, role-state relation, or checklist" with "is characterized through the Description episteme by role characteristic space, role-state relation, or checklist".
-4. Replace carrier identity with "carrier encodes" or "publication exposes" wording.
+4. Replace carrier identity with "`U.PresentationCarrier` or carrier relation bears or renders" and "publication exposes" wording.
 5. Replace generic "object under description" talk with the EntityOfConcern named by value and its `DescriptionContext`.
 6. Replace `...Spec` names that lack specification-use admission with `...Description`.
 

@@ -6,7 +6,7 @@ section_id: "A.15.4:3"
 section_title: "Solution - Work-Relevant Source Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__005_solution-work-relevant-source-restoration.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:3 — Solution - Work-Relevant Source Restoration"

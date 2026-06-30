@@ -6,12 +6,12 @@ section_id: "C.36:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__010_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:8 — Consequences"
-line_start: 62629
-line_end: 62643
+line_start: 62631
+line_end: 62645
 dependencies:
   - "A.1"
   - "A.10"

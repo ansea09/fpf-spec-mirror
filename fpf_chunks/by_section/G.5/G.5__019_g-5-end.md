@@ -6,12 +6,12 @@ section_id: "G.5:End"
 section_title: "G.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_g-5-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:End — G.5:End"
-line_start: 90679
-line_end: 90680
+line_start: 90681
+line_end: 90682
 dependencies:
   - "C.11"
   - "C.18"

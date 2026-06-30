@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.D1.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
-line_start: 69796
-line_end: 69974
+line_start: 69798
+line_end: 69976
 dependencies:
   - "A.4"
   - "A.7"

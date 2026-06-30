@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__009_sota-echoing.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:8 — SoTA-Echoing"
-line_start: 75582
-line_end: 75596
+line_start: 75584
+line_end: 75598
 dependencies:
   - "A.10"
   - "A.15"

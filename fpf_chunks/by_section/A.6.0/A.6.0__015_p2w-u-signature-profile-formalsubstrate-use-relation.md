@@ -6,7 +6,7 @@ section_id: "A.6.0:10a"
 section_title: "P2W U.Signature(profile=FormalSubstrate) Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__015_p2w-u-signature-profile-formalsubstrate-use-relation.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:10a — P2W U.Signature(profile=FormalSubstrate) Use Relation"

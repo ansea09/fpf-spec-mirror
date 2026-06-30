@@ -6,12 +6,12 @@ section_id: "C.30.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__002_use-this-when.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:0 — Use this when"
-line_start: 55890
-line_end: 55913
+line_start: 55892
+line_end: 55915
 dependencies:
   - "A.10"
   - "A.15"

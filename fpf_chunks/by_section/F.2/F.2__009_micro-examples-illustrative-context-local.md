@@ -6,12 +6,12 @@ section_id: "F.2:8"
 section_title: "Micro‑examples (illustrative, context‑local)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__009_micro-examples-illustrative-context-local.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:8 — Micro‑examples (illustrative, context‑local)"
-line_start: 81165
-line_end: 81192
+line_start: 81167
+line_end: 81194
 dependencies:
   - "A.11"
   - "A.7"

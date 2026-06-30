@@ -6,12 +6,12 @@ section_id: "E.17.2:6.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:6.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 73063
-line_end: 73071
+line_start: 73065
+line_end: 73073
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 65138
-line_end: 65149
+line_start: 65140
+line_end: 65151
 dependencies:
   - "A.19.ECS"
   - "C.33"
@@ -44,5 +44,5 @@ Show: A hydroponic-cucumber DPF has excellent crop-control sources but no relati
 
 Near miss: A DPF all-in-one publication carrier has a huge map before the pattern bodies. The map is correct but cold readers do not know when to open it. `D2` and `D5` fall unless pattern relations, low-value repair actions, or first-entry text route readers into the map from a real work trigger.
 
-Near miss: A DPF has polished readme and Preface prose, but neither says what selected domain structure the carrier is rendering, what it deliberately coarsens or abstracts, or where a reader returns for fuller source and pattern detail. If the carrier is based on an architecture description, view, model, or graph, it also hides the fact that the intermediate source already selected and coarsened structure on the route `source structures -> architecture -> architecture description or view -> carrier`. `D1`, `D2`, `D5`, `D7`, `D8`, and `D11` fall because the carrier may be pleasant but its structure-capture claim is not inspectable.
+Near miss: A DPF has polished readme and Preface prose, but neither says what selected domain structure the publication/access expression exposes, what it deliberately coarsens or abstracts, or where a reader returns for fuller source and pattern detail. If the carrier is based on an architecture description, view, model, or graph, it also hides the fact that the intermediate source already selected and coarsened structure on the route `source structures -> architecture -> architecture description or view -> publication/access expression`. `D1`, `D2`, `D5`, `D7`, `D8`, and `D11` fall because the carrier may be pleasant but its structure-capture claim is not inspectable.
 

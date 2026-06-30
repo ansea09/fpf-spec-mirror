@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__005_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:4 — Solution"
-line_start: 65014
-line_end: 65137
+line_start: 65016
+line_end: 65139
 dependencies:
   - "A.19.ECS"
   - "C.33"
@@ -123,7 +123,7 @@ Run this subpass for any all-in-one DPF publication carrier, selected-host-set, 
 | `PFM8 Cross-DPF relation discipline` | References to another DPF or local framework are recorded as dependency, specialization, source reuse, publication, selected-set, or other `E.4.PFR` relation with blocked stronger reading and refresh condition. | `D4`, `D5`, `D9` |
 | `PFM9 Normal-pattern maturity` | Every pattern body claimed as part of a public, teaching, enterprise, or reliance-bearing DPF is a normal action-guiding FPF-style pattern for its declared use: it is drafted through `E.8`, evaluated through `E.21`, and not merely a heading skeleton, seed note, prompt output, compressed DRR recap, term sheet, ontology catalog, or commentary about the domain. The pattern should show the typical problem, known failure mode or anti-pattern, SoTA-informed solution move, worked case, and boundary. Seeds are allowed only when the package status says `seedOnly` or the affected pattern is explicitly non-reliance-bearing. | `D2`, `D7`, `D8`, `D11` |
 | `PFM10 Access-currentness and callable-use boundary` | Skill packs and MCP-backed access services expose framework edition, dependency, source and currentness, bounded use, and refresh route. Generated outputs route to `C.35`; tool and work actions route to `A.15` or the local work owner; evidence, assurance, decision, and currentness claims route to their direct owners. | `D2`, `D5`, `D9`, `D10` |
-| `PFM11 Carrier self-rendering and controlled structural coarsening` | Readme, Preface, or equivalent first-entry carrier says what the package renders for whom, which domain or local structures and source denominator it foregrounds, what it deliberately coarsens, abstracts, omits, loses, or sends to appendices and sources, and how a reader returns to pattern bodies, source packs, evidence owners, or relation records. This is source-structure-to-carrier accounting, not only text summarization. In architecture-mediated cases, the return chain is `narrative or carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`; every arrow has its own selection, coarsening, abstraction, omission, preservation, and loss account. If package-level structure-capture or epiplexity is claimed, its declared use and lowering reason are explicit. | `D1`, `D2`, `D5`, `D7`, `D8`, `D10`, `D11` |
+| `PFM11 Carrier structure-account and controlled structural coarsening` | Readme, Preface, or equivalent first-entry carrier provides a structure-account: what the package exposes for whom, which domain or local structures and source denominator it foregrounds, what it deliberately coarsens, abstracts, omits, loses, or sends to appendices and sources, and how a reader returns to pattern bodies, source packs, evidence owners, or relation records. This is source-structure-to-publication/access accounting, not only text summarization. The carrier is not itself the framework edition, the domain, or a narrative by type. In architecture-mediated narrative-rendering cases, the return chain is `narrative rendering carried by a publication or access carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`; when no narrative rendering is present, the first step is `framework publication or access carrier -> selected source structures`. Every arrow has its own selection, coarsening, abstraction, omission, preservation, and loss account. If package-level structure-capture or epiplexity is claimed, its declared use and lowering reason are explicit. | `D1`, `D2`, `D5`, `D7`, `D8`, `D10`, `D11` |
 
 A failure in this subpass lowers the affected coordinate even when individual pattern bodies pass `E.21`. Repair the package carrier, relation record, first-entry route, dependency record, or support-map placement; do not copy the package-form proof into pattern bodies.
 
@@ -138,7 +138,7 @@ Use these owners instead of expanding this pattern into a package bureaucracy:
 | Individual pattern quality | `E.21` |
 | Pattern admission or profile gating | `E.19` |
 | First-entry and publication carrier | `E.11`, `E.17` |
-| Carrier self-rendering, captured/coarsened/lost structure, package-level source return, and structure-capture or epiplexity account | `E.4.DPF`, `E.11`, `E.17`, `A.6.3.CSC`, `C.33`, `C.34`, and `A.6.3.NAR` when sequential narrative rendering is load-bearing |
+| Carrier structure-account, captured/coarsened/lost structure, package-level source return, and structure-capture or epiplexity account | `E.4.DPF`, `E.11`, `E.17`, `A.6.3.CSC`, `C.33`, `C.34`, and `A.6.3.NAR` when sequential narrative rendering is load-bearing |
 | Naming and local vocabulary | `E.10`, `F.18`, direct governing pattern |
 | Generated or searched package candidate | `C.35`, then `E.4.PFAD` or direct owner |
 | Carrier capture, loss, and preservation | `C.33`, `C.34` |

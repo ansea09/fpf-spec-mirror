@@ -6,12 +6,12 @@ section_id: "C.30:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__003_problem.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:2 — Problem"
-line_start: 54723
-line_end: 54746
+line_start: 54725
+line_end: 54748
 dependencies:
   - "A.1"
   - "A.10"

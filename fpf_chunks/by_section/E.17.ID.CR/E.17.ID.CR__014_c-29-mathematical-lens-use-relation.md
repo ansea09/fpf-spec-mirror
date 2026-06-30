@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:12a"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__014_c-29-mathematical-lens-use-relation.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:12a — C.29 mathematical-lens use relation"
-line_start: 74943
-line_end: 74946
+line_start: 74945
+line_end: 74948
 dependencies:
   - "A.15"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:9 — Consequences"
-line_start: 59522
-line_end: 59531
+line_start: 59524
+line_end: 59533
 dependencies:
   - "A.15"
   - "A.15.1"

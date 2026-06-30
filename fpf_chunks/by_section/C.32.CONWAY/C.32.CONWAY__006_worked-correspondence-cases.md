@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:5"
 section_title: "Worked Correspondence Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__006_worked-correspondence-cases.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:5 — Worked Correspondence Cases"
-line_start: 60395
-line_end: 60404
+line_start: 60397
+line_end: 60406
 dependencies:
   - "A.10"
   - "A.15"

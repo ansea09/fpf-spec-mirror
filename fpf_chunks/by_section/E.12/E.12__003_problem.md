@@ -6,12 +6,12 @@ section_id: "E.12:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.12/E.12__003_problem.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.12 — Didactic Primacy & Cognitive Ergonomics"
   - "E.12:2 — Problem"
-line_start: 70886
-line_end: 70892
+line_start: 70888
+line_end: 70894
 dependencies:
   - "E.13"
   - "E.2"

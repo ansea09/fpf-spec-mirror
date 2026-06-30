@@ -6,12 +6,12 @@ section_id: "C.27.TA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__004_problem.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:2 — Problem"
-line_start: 52232
-line_end: 52241
+line_start: 52234
+line_end: 52243
 dependencies:
   - "A.10"
   - "A.15.1"

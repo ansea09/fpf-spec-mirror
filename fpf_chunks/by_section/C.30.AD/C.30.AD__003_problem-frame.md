@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 55338
-line_end: 55352
+line_start: 55340
+line_end: 55354
 dependencies:
   - "A.1"
   - "A.10"

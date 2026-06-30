@@ -6,12 +6,12 @@ section_id: "E.17.2:4"
 section_title: "Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__005_solution-tevb-as-a-core-u-viewpointbundle-for-holons-normative.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:4 — Solution — TEVB as a core U.ViewpointBundle for holons  (normative)"
-line_start: 72741
-line_end: 72980
+line_start: 72743
+line_end: 72982
 dependencies:
   - "A.1"
   - "A.15"

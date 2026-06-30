@@ -6,12 +6,12 @@ section_id: "D.2:5"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__008_archetypal-grounding-worked-slice.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:5 — Archetypal Grounding (Worked Slice)"
-line_start: 63016
-line_end: 63019
+line_start: 63018
+line_end: 63021
 dependencies:
   - "A.1"
   - "A.15"

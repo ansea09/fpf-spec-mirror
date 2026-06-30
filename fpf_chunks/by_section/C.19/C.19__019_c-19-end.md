@@ -6,12 +6,12 @@ section_id: "C.19:End"
 section_title: "C.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__019_c-19-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:End — C.19:End"
-line_start: 46114
-line_end: 46115
+line_start: 46116
+line_end: 46117
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

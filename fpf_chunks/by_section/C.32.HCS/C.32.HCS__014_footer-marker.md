@@ -6,12 +6,12 @@ section_id: "C.32.HCS:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__014_footer-marker.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:13 — Footer marker"
-line_start: 59761
-line_end: 59764
+line_start: 59763
+line_end: 59766
 dependencies:
   - "A.19"
   - "C.11"

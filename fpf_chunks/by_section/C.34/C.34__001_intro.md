@@ -6,12 +6,12 @@ section_id: "C.34:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__001_intro.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:intro — Intro"
-line_start: 61977
-line_end: 61982
+line_start: 61979
+line_end: 61984
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

@@ -6,12 +6,12 @@ section_id: "E.7:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__009_rationale.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:8 — Rationale"
-line_start: 66009
-line_end: 66017
+line_start: 66011
+line_end: 66019
 dependencies:
   - "E.5.4"
   - "E.6"

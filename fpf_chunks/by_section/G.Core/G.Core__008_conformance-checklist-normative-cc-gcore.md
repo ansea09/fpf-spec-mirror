@@ -6,12 +6,12 @@ section_id: "G.Core:7"
 section_title: "Conformance checklist (normative) — CC‑GCORE"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__008_conformance-checklist-normative-cc-gcore.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:7 — Conformance checklist (normative) — CC‑GCORE"
-line_start: 87714
-line_end: 87739
+line_start: 87716
+line_end: 87741
 dependencies:
   - "A.15.3"
   - "A.19"

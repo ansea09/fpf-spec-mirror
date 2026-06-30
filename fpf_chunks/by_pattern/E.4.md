@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
-line_start: 64152
-line_end: 64355
+line_start: 64154
+line_end: 64357
 dependencies:
   - "C.33"
   - "C.34"
@@ -124,10 +124,10 @@ The ordinary method is:
 
 1. Declare the ecosystem scope and bounded context.
 2. Name the family member being created, used, or changed.
-3. List the selected structures that matter for the architecture claim: recurring problem-situation structures, known failure modes, reusable SoTA solution-move structures, pattern set, pattern-use relations, pattern-framework relations, decision records, dependency and edition records, publication/access carriers, source packs, quality records, and currentness records. For PF work, the pattern-language carrier is the reader-facing rendering of that problem-and-solution architecture, not a neutral list of topics.
+3. List the selected structures that matter for the architecture claim: recurring problem-situation structures, known failure modes, reusable SoTA solution-move structures, pattern set, pattern-use relations, pattern-framework relations, decision records, dependency and edition records, publication/access carriers, source packs, quality records, and currentness records. For PF work, the pattern-language publication carrier exposes a reader-facing expression of that problem-and-solution architecture, not a neutral list of topics.
 4. If the family member is FPF itself as a framework edition, open `E.4.FPF` for form, publication/access carriers, and whole-FPF adequacy routing.
 5. Apply `E.5.3`: dependencies point toward more stable framework editions. FPF Core does not depend on domain or local frameworks.
-6. Send publication and first-entry claims to `E.11` and `E.17`, and send framework-carrier self-rendering questions to `E.4.FPF` for FPF itself or `E.4.DPF`/`E.4.DPF.DA` for domain and local frameworks.
+6. Send publication and first-entry claims to `E.11` and `E.17`, and send framework-carrier structure-account questions to `E.4.FPF` for FPF itself or `E.4.DPF`/`E.4.DPF.DA` for domain and local frameworks.
 7. Send pattern-use recommendation claims to `E.11.PUR`.
 8. Send architecture-decision claims for a framework to `E.4.PFAD`, and general project architecture decisions to `C.32.PAD`.
 9. Send relation, dependency, compatibility, deprecation, and edition claims to `E.4.PFR`.
@@ -152,7 +152,7 @@ Use this routing table when a proposed change is ambiguous:
 | A source, search result, transformed view, or generated carrier supplies candidate material. | `G.2`, `C.33`, `C.34`, or `C.35` before architecture use. | Do not treat a carrier as authoritative because it has plausible names. |
 | Whole-FPF adequacy, DPF package adequacy, individual pattern quality, repeated improvement, admission gating, or currentness is the live problem. | `E.2.DA`, `E.4.DPF.DA`, `E.21`, `E.23`, `E.19`, and `G.11` according to the claim. | Do not average pattern scores into package adequacy or whole-FPF adequacy, and do not run all quality gates when only one evaluation or refresh owner is live. |
 
-This pattern should leave the reader with one architecture sentence: "This framework edition belongs to this family member, renders this selected architecture of recurring problems and solution moves in pattern-language form, depends on these stable editions, publishes through these carriers, preserves these selected structures, and sends each non-owned claim to this receiving pattern."
+This pattern should leave the reader with one architecture sentence: "This framework edition belongs to this family member, expresses this selected architecture of recurring problems and solution moves in pattern-language form, depends on these stable editions, publishes or gives access through these carriers, preserves these selected structures, and sends each non-owned claim to this receiving pattern."
 
 ### E.4:5 - Archetypal Grounding
 
@@ -193,7 +193,7 @@ Another recurrent drift is Core absorption: useful domain or local material is p
 | CC-E4.4 Publication/access separated | All-in-one carriers, tables of contents, cards, readmes, skill packs, MCP-backed routes, retrieval routes, assistant integrations, and views are publication, access, or discoverability records with their own owners. |
 | CC-E4.5 Relation owner named | Pattern-use, relation, dependency, decision, naming, source, currentness, quality, and preservation claims each have a receiving pattern owner. |
 | CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and return owner. |
-| CC-E4.7 Framework carrier self-rendering routed | README, Preface, ToC, all-in-one carrier, skill pack, MCP route, or other framework carrier states what framework structure it renders for whom, or the work routes to `E.4.FPF`, `E.4.DPF`, and `E.4.DPF.DA` before adoption or adequacy claims are made. |
+| CC-E4.7 Framework carrier structure-account routed | README, Preface, ToC, all-in-one carrier, skill pack, MCP route, or other framework carrier states which framework structures its publication or access expression exposes for whom, or the work routes to `E.4.FPF`, `E.4.DPF`, and `E.4.DPF.DA` before adoption or adequacy claims are made. |
 
 ### E.4:8 - Common Anti-Patterns and How to Avoid Them
 

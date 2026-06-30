@@ -6,7 +6,7 @@ section_id: "A.6.3.NAR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:8 — Common Anti-Patterns and How to Avoid Them"
@@ -50,5 +50,5 @@ keywords:
 | Engagement as evidence | Reader attention, transportation, or emotional uptake is treated as stronger truth or permission. | Keep engagement as a declared-use effect; route evidence to `A.10`, assurance to `B.3`, and ethics to `D.1` through `D.5`. |
 | Narratology word import | Terms such as plot, focalization, voice, protagonist, suspense, or narrator are used as Core FPF kinds. | Keep those terms in domain source packs or local and domain frameworks unless a later DRR admits a reusable Core distinction. |
 | Generated narrative by fluency | LLM output is accepted because it reads coherently. | Use `C.35` for generated carrier admission, then apply NAR only to a declared source-to-narrative relation. |
-| Teaching material inside pattern body | A seminar script or exercises are inserted into the pattern rather than testing the pattern. | Keep teaching material in a separate test-run or teaching carrier; the pattern states the relation, checks, and source-return rule. |
+| Teaching material inside pattern body | A seminar script or exercises are inserted into the pattern rather than testing the pattern. | Keep teaching material in a separate test-run publication carrier or teaching publication carrier; the pattern states the relation, checks, and source-return rule. |
 

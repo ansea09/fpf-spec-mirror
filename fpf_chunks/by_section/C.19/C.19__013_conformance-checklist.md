@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 46056
-line_end: 46073
+line_start: 46058
+line_end: 46075
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

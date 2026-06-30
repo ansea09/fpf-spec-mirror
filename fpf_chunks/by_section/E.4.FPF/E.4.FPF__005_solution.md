@@ -6,12 +6,12 @@ section_id: "E.4.FPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__005_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:4 — Solution"
-line_start: 64397
-line_end: 64455
+line_start: 64399
+line_end: 64457
 dependencies:
   - "C.33"
   - "C.34"
@@ -80,7 +80,7 @@ The ordinary method is:
 6. Keep downstream direction clear: DPFs and local practice frameworks may depend on FPF Core; FPF Core does not depend on them except by a deliberate Core amendment decision.
 7. For whole-FPF adequacy, use `E.2.DA` over the scoped FPF object and declared use. Use `E.21` for individual pattern bodies, `E.9.DA` for DRR, and `E.4.DPF.DA` only for DPF or local-framework packages.
 8. For first-entry and reader-facing exposure, use `E.11` and `E.17`; keep their projection text thin enough that governing pattern authority remains in the patterns.
-9. Make the FPF readme, Preface, and ToC self-rendering-aware: they should state the reader and use they serve, which first-principles structures they foreground, what they deliberately coarsen, abstract, omit, or defer, and where the reader returns for governing pattern detail. This protects adoption text from becoming a second spec while still telling readers what FPF is about.
+9. Make the FPF readme, Preface, and ToC structure-account-aware: they should state the reader and use they serve, which first-principles structures they foreground, what they deliberately coarsen, abstract, omit, or defer, and where the reader returns for governing pattern detail. This protects adoption text from becoming a second spec while still telling readers what FPF is about.
 10. For source-front, currentness, and refresh claims, use `G.2` and `G.11`; do not let a publication carrier become source-currentness proof.
 11. For skill packs or MCP-backed access, expose edition identity, dependency boundary, and currentness or refusal conditions. Generated candidate text goes to `C.35`; tool and work claims go to `A.15` and local tool or work owners; assurance, evidence, and decision authority go to their direct owners.
 Use this quick routing test:

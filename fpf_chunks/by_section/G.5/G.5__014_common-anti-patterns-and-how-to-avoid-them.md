@@ -6,12 +6,12 @@ section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 90596
-line_end: 90625
+line_start: 90598
+line_end: 90627
 dependencies:
   - "C.11"
   - "C.18"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.2"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__017_bias-annotation.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.2 — Bias-Annotation"
-line_start: 69672
-line_end: 69675
+line_start: 69674
+line_end: 69677
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,7 +6,7 @@ section_id: "A.2.8:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__002_kind-settlement.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:0.1 — Kind Settlement"

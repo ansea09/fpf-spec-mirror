@@ -6,12 +6,12 @@ section_id: "C.26.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__001_intro.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:intro — Intro"
-line_start: 49894
-line_end: 49899
+line_start: 49896
+line_end: 49901
 dependencies:
   - "A.10"
   - "A.15"

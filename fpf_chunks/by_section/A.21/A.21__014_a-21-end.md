@@ -6,7 +6,7 @@ section_id: "A.21:End"
 section_title: "A.21:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__014_a-21-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:End — A.21:End"

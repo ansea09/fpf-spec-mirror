@@ -6,7 +6,7 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.a"
 section_title: "TERM/LEX token-status guard (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__005_term-lex-token-status-guard-local-first.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:0.a — TERM/LEX token-status guard (local-first)"
@@ -46,5 +46,5 @@ Keep this token-status split explicit:
 - `SourceToOutcomeRelation` and `DistortionPosture` are local declaration fields. Their field names do not by themselves create one new generic ontology; the declaration requirement is satisfied only when their payload is explicit enough to audit.
 - `SourceSetFamily`, `SourceSetComposition`, and `DerivedViewKind` are local fields in this `SourceSetSpaceSubstrate` declaration. Whether any value later becomes a broader stable head is outside this pattern.
 - `BasePaletteRef`, `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, `BridgeDistortionNote`, `DescriptorMapRef`, and `DistanceDefRef` are guarded neighboring refs or interpretive qualifiers reused here. This pattern may cite them, but it does not redefine them.
-- `carrier` inside `SourceToOutcomeRelation` names the declared line, declared object, or neighboring declared map ref / qualifier ref through which the relation is being realized in this local record. It is not a claim that the thing is `U.Carrier`.
+- `carrier` inside `SourceToOutcomeRelation` names the declared line, declared object, or neighboring declared map ref / qualifier ref through which the relation is being realized in this local record. It is not a claim that the thing is `U.PresentationCarrier` or another carrier relation.
 

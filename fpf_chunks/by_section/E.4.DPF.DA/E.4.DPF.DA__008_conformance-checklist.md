@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__008_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:7 — Conformance Checklist"
-line_start: 65160
-line_end: 65175
+line_start: 65162
+line_end: 65177
 dependencies:
   - "A.19.ECS"
   - "C.33"
@@ -46,7 +46,7 @@ keywords:
 | CC-DPFDA.6 Relation and publication separated | Maps, manifests, readmes, prefaces, ToCs, all-in-one carriers, source packs, relation records, quality records, and pattern bodies keep their owners. |
 | CC-DPFDA.6a Package-form subpass complete | `PFM1` through `PFM11` have explicit pass, fail, or not-applicable-with-reason dispositions before D1, D2, D4, D5, D7, D8, D9, D10, and D11 values are assigned. |
 | CC-DPFDA.6b Reverse dependency blocked | The result checks that FPF Core and the main monolith do not depend on this DPF; any needed Core-level content returns through a Core amendment decision. |
-| CC-DPFDA.6c Self-rendering checked | The result checks whether readme, Preface, ToC, all-in-one carrier, skill entry, or MCP front door states reader, rendered structure, controlled coarsening, abstraction, omission, loss, source return, and any structure-capture or epiplexity claim before adoption or package adequacy values are raised. |
+| CC-DPFDA.6c Structure-account checked | The result checks whether readme, Preface, ToC, all-in-one carrier, skill entry, or MCP front door states reader, selected or exposed structure, controlled coarsening, abstraction, omission, loss, source return, and any structure-capture or epiplexity claim before adoption or package adequacy values are raised. |
 | CC-DPFDA.7 Improvement route concrete | Below-floor coordinates return smallest useful repair slices; above-floor improvement proposals are substantive or explicitly dominated. |
 | CC-DPFDA.8 Seed status honest | Seed, prompt-output, and generated candidates are not promoted to reliance-bearing package status without evidence, admission, quality, and refresh routes. |
 

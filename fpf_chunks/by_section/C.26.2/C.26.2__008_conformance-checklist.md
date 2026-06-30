@@ -6,12 +6,12 @@ section_id: "C.26.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__008_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:7 — Conformance Checklist"
-line_start: 49828
-line_end: 49846
+line_start: 49830
+line_end: 49848
 dependencies:
   - "A.10"
   - "A.15"

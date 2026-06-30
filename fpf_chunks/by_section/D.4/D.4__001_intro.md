@@ -6,12 +6,12 @@ section_id: "D.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__001_intro.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:intro — Intro"
-line_start: 63221
-line_end: 63234
+line_start: 63223
+line_end: 63236
 dependencies:
   - "A.10"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "E.10.D2:10"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_anti-patterns-and-repairs.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Anti-patterns and repairs"
-line_start: 70179
-line_end: 70191
+line_start: 70181
+line_end: 70193
 dependencies:
   - "A.7"
   - "C.2.1"
@@ -45,7 +45,7 @@ keywords:
 | **Entity-description collapse** | "The method is the document"; "the architecture is the diagram"; "the role contains the checklist". | Name the EntityOfConcern, then name the Description episteme or publication relation separately. |
 | **Spec by name** | Any detailed write-up is called `...Spec`. | Use `...Description` unless specification-use admission conditions are present. |
 | **Publication as authority** | A card, dashboard, schema, generated view, or file is treated as permission, evidence, gate, assurance, decision, or work. | Apply the neighboring pattern that governs the exact claim being made; keep the publication relation separate. |
-| **Carrier identity** | The file path or repository entry is treated as the episteme or EntityOfConcern. | Say the carrier encodes or renders the episteme. |
+| **Carrier identity** | The file path or repository entry is treated as the episteme or EntityOfConcern. | Say the `U.PresentationCarrier` or carrier relation bears, encodes, transports, or renders the publication, and keep the episteme and EntityOfConcern separate. |
 | **Context erasure** | A context-local Description episteme is read as a global definition. | Restore `BoundedContextRef` and `ViewpointRef`, or use F.9, A.6.3, or A.6.4 for cross-context relations. |
 | **Status-state leakage** | Evidence, requirement, approval, or standard status becomes a role-state value. | Keep statuses over epistemes distinct from role-state relations and runtime state attestations. |
 | **Episteme-role shortcut** | "The standard plays the compliance role"; "the evidence has the approval role"; "the source authorizes work". | Recover the typed relation: standard-use, evidence-use, status-use, source-use, assurance-use, gate-use, publication-use, or work-relevance relation. Use `U.RoleAssignment` only for work-facing holder-role claims. |

@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__011_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 68564
-line_end: 68803
+line_start: 68566
+line_end: 68805
 dependencies:
   - "A.10"
   - "A.15"
@@ -253,7 +253,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge or a
 
 **Notes.**
 1) Scope‑sensitive guards **must** declare the **Γ_time** window selector used for admission checks.
-2) Proper names of patterns and components that already include “Agent” or “Agency” (e.g., *C.9 Agency Characteristic Profile*, *Agent‑Tools‑CAL*) are permitted as **titled terms**; avoid re‑introducing “agent” as a free‑standing noun in new prose.
+2) Proper names of patterns and components that already include “Agent” or “Agency” (e.g., *Agency‑CHR*, *Agent‑Tools‑CAL*) are permitted as **titled terms**; avoid re‑introducing “agent” as a free‑standing noun in new prose.
 
 #### E.10:8.9 - LEX-CHR-STRICT — Reserve *Characteristic* for CSLC-measurable aspects
 

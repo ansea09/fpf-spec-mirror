@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.ARCH.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-line_start: 69360
-line_end: 69765
+line_start: 69362
+line_end: 69767
 dependencies:
   - "A.10"
   - "A.15.1"

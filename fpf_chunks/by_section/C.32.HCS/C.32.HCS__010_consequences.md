@@ -6,12 +6,12 @@ section_id: "C.32.HCS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__010_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
   - "C.32.HCS:9 — Consequences"
-line_start: 59730
-line_end: 59737
+line_start: 59732
+line_end: 59739
 dependencies:
   - "A.19"
   - "C.11"

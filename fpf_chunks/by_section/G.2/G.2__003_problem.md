@@ -6,12 +6,12 @@ section_id: "G.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__003_problem.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:2 — Problem"
-line_start: 88619
-line_end: 88627
+line_start: 88621
+line_end: 88629
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

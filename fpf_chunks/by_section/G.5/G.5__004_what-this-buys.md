@@ -6,12 +6,12 @@ section_id: "G.5:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__004_what-this-buys.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.2 — What this buys"
-line_start: 90027
-line_end: 90035
+line_start: 90029
+line_end: 90037
 dependencies:
   - "C.11"
   - "C.18"

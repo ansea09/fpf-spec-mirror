@@ -6,12 +6,12 @@ section_id: "F.10:End"
 section_title: "F.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__014_f-10-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:End — F.10:End"
-line_start: 84374
-line_end: 84375
+line_start: 84376
+line_end: 84377
 dependencies:
   - "A.2.4"
   - "B.3"

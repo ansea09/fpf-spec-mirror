@@ -6,12 +6,12 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 39530
-line_end: 39545
+line_start: 39532
+line_end: 39547
 dependencies:
   - "A.16"
   - "A.16.0"

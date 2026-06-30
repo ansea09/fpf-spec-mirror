@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA-Echoing and Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-echoing-and-source-use.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:10 — SoTA-Echoing and Source-Use"
-line_start: 81955
-line_end: 81967
+line_start: 81957
+line_end: 81969
 dependencies:
   - "A.15"
   - "A.15.1"

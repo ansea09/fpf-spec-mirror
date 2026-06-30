@@ -6,12 +6,12 @@ section_id: "C.34:End"
 section_title: "C.34:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__014_c-34-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:End — C.34:End"
-line_start: 62161
-line_end: 62162
+line_start: 62163
+line_end: 62164
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

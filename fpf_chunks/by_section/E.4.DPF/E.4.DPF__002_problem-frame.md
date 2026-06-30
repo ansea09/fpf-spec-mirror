@@ -6,12 +6,12 @@ section_id: "E.4.DPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__002_problem-frame.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:1 — Problem frame"
-line_start: 64720
-line_end: 64744
+line_start: 64722
+line_end: 64746
 dependencies:
   - "C.33"
   - "C.34"
@@ -41,7 +41,7 @@ Use this pattern when a group needs to create a domain principle framework or lo
 
 Primary `EntityOfConcern`: the authoring method for a bounded FPF-grounded framework edition. The first useful output is not a list of candidate pattern names. It is an authoring spine with context, SoTA source pack, architecture decision, name-card route, pattern drafts, relation and edition records, publication carrier, access carrier, quality loop, and currentness route.
 
-Default artifact contract for a request such as "make a DPF about this topic" separates developer and user carriers. In a campaign or repository setting, create a developer decision carrier such as `SUBSTANTIVE-DRR.md` or `DPF-DRR.md` governed by `E.9` and checked by `E.9.DA`; it carries the source basis, selected architecture, PFAD decision, candidate pattern split, relation plan, quality plan, and rejected alternatives. Create a user-facing framework publication or access carrier named by the individual framework, such as `<DomainOrPractice>-PRINCIPLES-FRAMEWORK.md`, `<PublicFrameworkName>.md`, a split readme, pattern, and appendix set, a skill pack, or an MCP-backed access service; it carries access to the DPF that readers or agents use. Optional source-pack, PFR, quality-run, package-evaluation, skill-manifest, or access-service files may be separate when they need independent maintenance, but they must not be copied into the user carrier as process state.
+Default artifact contract for a request such as "make a DPF about this topic" separates developer and user carriers. In a campaign or repository setting, create a developer decision carrier such as `SUBSTANTIVE-DRR.md` or `DPF-DRR.md` governed by `E.9` and checked by `E.9.DA`; it carries the source basis, selected architecture, PFAD decision, candidate pattern split, relation plan, quality plan, and rejected alternatives. Create a user-facing framework publication or access carrier named by the individual framework, such as `<DomainOrPractice>-PRINCIPLES-FRAMEWORK.md`, `<PublicFrameworkName>.md`, a split readme, pattern, and appendix set, a skill pack, or an MCP-backed access service; it is the access route through which readers or agents use the DPF edition. Optional source-pack, PFR, quality-run, package-evaluation, skill-manifest, or access-service files may be separate when they need independent maintenance, but they must not be copied into the user carrier as process state.
 
 Use this pattern when the work creates a framework. Use `E.11` or `E.17` when the work only changes how existing material is exposed to readers.
 

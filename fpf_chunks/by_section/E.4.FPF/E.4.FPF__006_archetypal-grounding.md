@@ -6,12 +6,12 @@ section_id: "E.4.FPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__006_archetypal-grounding.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:5 — Archetypal Grounding"
-line_start: 64456
-line_end: 64478
+line_start: 64458
+line_end: 64480
 dependencies:
   - "C.33"
   - "C.34"
@@ -53,7 +53,7 @@ Mini-map:
 | `selectedCorePatternSetRefs` | selected Core hosts and monolith sections |
 | `selectedFirstPrinciplesProblemSituationRefs` | cross-domain problem situations where meaning, evidence, description, architecture, work, decision, publication, or improvement claims collapse |
 | `selectedFirstPrinciplesSolutionMoveRefs` | reusable pattern-language moves that separate kinds, recover source, route owners, compare options, publish views, and improve claims |
-| `publicationSelfRenderingRefs` | README and Preface statements of intended reader, selected first-principles route, deliberately coarsened, abstracted, omitted, or deferred structures, and return to pattern bodies |
+| `publicationStructureAccountRefs` | README and Preface statements of intended reader, selected first-principles route, deliberately coarsened, abstracted, omitted, or deferred structures, and return to pattern bodies |
 | `selectedPublicationCarrierRefs` | README, Preface, ToC, `FPF-Spec.md`, extracted host set |
 | `selectedAccessCarrierRefs` | optional FPF skill pack or MCP-backed retrieval route |
 | `qualityAndImprovementRefs` | `E.2.DA` for whole-FPF adequacy, `E.21` for pattern bodies, `E.23` for improvement cycles |

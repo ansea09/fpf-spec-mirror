@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:3"
 section_title: "View and Relation Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__006_view-and-relation-discipline.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:3 — View and Relation Discipline"
-line_start: 55764
-line_end: 55775
+line_start: 55766
+line_end: 55777
 dependencies:
   - "A.1"
   - "A.10"

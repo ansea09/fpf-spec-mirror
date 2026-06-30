@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:13 — Relations"
-line_start: 71472
-line_end: 71493
+line_start: 71474
+line_end: 71495
 dependencies:
   - "B.3.5"
   - "C.13"

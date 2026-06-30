@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_decision-split.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:6 — Decision Split"
-line_start: 40611
-line_end: 40619
+line_start: 40613
+line_end: 40621
 dependencies:
   - "A.1"
   - "A.11"

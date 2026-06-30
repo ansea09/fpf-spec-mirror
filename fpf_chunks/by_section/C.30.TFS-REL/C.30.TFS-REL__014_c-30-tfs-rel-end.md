@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:End"
 section_title: "C.30.TFS-REL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__014_c-30-tfs-rel-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:End — C.30.TFS-REL:End"
-line_start: 57965
-line_end: 57966
+line_start: 57967
+line_end: 57968
 dependencies:
   - "A.10"
   - "A.15"

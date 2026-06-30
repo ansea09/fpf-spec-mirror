@@ -6,12 +6,12 @@ section_id: "G.1:End"
 section_title: "G.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__014_g-1-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:End — G.1:End"
-line_start: 88588
-line_end: 88589
+line_start: 88590
+line_end: 88591
 dependencies:
   - "A.10"
   - "A.15.3"

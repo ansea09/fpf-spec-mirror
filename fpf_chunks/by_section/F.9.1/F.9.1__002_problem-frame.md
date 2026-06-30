@@ -6,12 +6,12 @@ section_id: "F.9.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__002_problem-frame.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:1 — Problem frame"
-line_start: 83946
-line_end: 83948
+line_start: 83948
+line_end: 83950
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

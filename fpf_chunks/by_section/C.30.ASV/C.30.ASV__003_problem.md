@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 56425
-line_end: 56439
+line_start: 56427
+line_end: 56441
 dependencies:
   - "A.1"
   - "A.10"

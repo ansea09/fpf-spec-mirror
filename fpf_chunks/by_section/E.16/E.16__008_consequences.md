@@ -6,12 +6,12 @@ section_id: "E.16:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__008_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:7 — Consequences"
-line_start: 71827
-line_end: 71868
+line_start: 71829
+line_end: 71870
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__004_forces.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:3 — Forces"
-line_start: 90722
-line_end: 90732
+line_start: 90724
+line_end: 90734
 dependencies:
   - "A.10"
   - "A.15.1"

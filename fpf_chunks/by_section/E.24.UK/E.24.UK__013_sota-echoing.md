@@ -6,12 +6,12 @@ section_id: "E.24.UK:5.8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__013_sota-echoing.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:5.8 — SoTA-Echoing"
-line_start: 80415
-line_end: 80422
+line_start: 80417
+line_end: 80424
 dependencies:
   - "A.11"
   - "A.6.5"

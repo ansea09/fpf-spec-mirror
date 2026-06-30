@@ -6,12 +6,12 @@ section_id: "E.9:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__013_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:9 — Consequences"
-line_start: 67067
-line_end: 67075
+line_start: 67069
+line_end: 67077
 dependencies:
   - "E.10"
   - "E.19"

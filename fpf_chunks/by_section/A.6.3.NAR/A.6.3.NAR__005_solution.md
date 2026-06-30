@@ -6,7 +6,7 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
@@ -105,7 +105,7 @@ Use the correspondence-mediated profile when the narrative is produced from a so
 
 Use the direct source-structure route when the narrative worker renders a situation, event stream, domain model, proof dependency field, evidence set, fictional canon, or source pack directly into a narrative path. View and viewpoint discipline may still help, but the central owner is the NAR relation plus any domain owner, not the architecture line.
 
-Direct does not mean implicit. If the selected source structures, selection rationale, reader-interest hypothesis, ordering rationale, and loss account are left inside the writer's intuition, an LLM prompt, or a finished story, the output is only a candidate narrative carrier. It can inspire a later NAR case, but reliance-facing use requires reconstructing and checking the missing selection and loss record.
+Direct does not mean implicit. If the selected source structures, selection rationale, reader-interest hypothesis, ordering rationale, and loss account are left inside the writer's intuition, an LLM prompt, or a finished story, the output is only a candidate carrier or candidate prose, not an admitted narrative rendering. It can inspire a later NAR case, but reliance-facing use requires reconstructing and checking the missing selection and loss record.
 
 Use the architecture-mediated route when the source structure is actual or possible holon structure that has been understood through architecture work: reverse-engineering an existing holon, comparing candidate future structures, using architecture descriptions and views, applying architecture decisions, or checking telemetry after realization. In this route the return chain is `narrative rendering -> architecture description or view -> architecture as selected structures in context -> wider holon or source structures`. Each arrow can select, coarsen, abstract, omit, or order structure, and each arrow needs its own source-return condition when the loss becomes live. `C.33`, `C.34`, `C.32.*`, architecture-description owners, and architecture-decision owners remain live. NAR governs only the narrative rendering of that architecture-relevant structural information.
 
@@ -154,7 +154,7 @@ A NAR case stays admissible only while its source material, selected source stru
 
 | Trigger | Required move |
 | --- | --- |
-| Selected source structures or source material change | Reopen the NAR case; restate preserved, foregrounded, coarsened, and lost structure; use `C.33` only when the narrative carrier is architecture-relevant structural information, use the domain evaluation owner for non-architecture epiplexity, use `G.2` for source-pack claims, and lower admissible use until source return is restored. |
+| Selected source structures or source material change | Reopen the NAR case; restate preserved, foregrounded, coarsened, and lost structure; use `C.33` only when the narrative rendering is being used as architecture-relevant structural information, use the domain evaluation owner for non-architecture epiplexity, use `G.2` for source-pack claims, and lower admissible use until source return is restored. |
 | Intended reader or listener use becomes stronger, broader, or more reliance-facing | Lower the narrative to orientation-only use until the case is repaired; route publication or audience-unit claims to `E.17` or `E.17.AUD`, and route evidence, assurance, ethics, or policy force to `A.10`, `B.3`, or `D.1` through `D.5`. |
 | Ordering rationale or traversal rule changes | Reopen the ordering field and visible-loss account; use `A.6.3.RT` if the representation scheme changed, `A.6.3.CSC` if the source was deliberately coarsened for narrower use, and NAR only when source structure is still being ordered into a narrative path. |
 | Source-return condition is missing, stale, or no longer reachable | Lower downstream use, return to the source material, and refresh the source-return route before treating the narrative as reliance-facing. Use `G.11` when currentness or freshness is the live problem. |

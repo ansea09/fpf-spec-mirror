@@ -6,12 +6,12 @@ section_id: "F.3:9"
 section_title: "Self‑checks (mental probes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__010_self-checks-mental-probes.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:9 — Self‑checks (mental probes)"
-line_start: 81476
-line_end: 81483
+line_start: 81478
+line_end: 81485
 dependencies:
   - "A.11"
   - "A.7"

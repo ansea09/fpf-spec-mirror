@@ -6,12 +6,12 @@ section_id: "C.25:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__010_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:9 — Consequences"
-line_start: 48352
-line_end: 48360
+line_start: 48354
+line_end: 48362
 dependencies:
   - "A.15"
   - "A.16.0"

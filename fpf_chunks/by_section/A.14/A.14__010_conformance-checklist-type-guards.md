@@ -6,7 +6,7 @@ section_id: "A.14:9"
 section_title: "Conformance Checklist - type guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__010_conformance-checklist-type-guards.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9 — Conformance Checklist - type guards"

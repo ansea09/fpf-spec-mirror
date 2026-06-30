@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_common-repair-cues.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:8 — Common repair cues"
-line_start: 60689
-line_end: 60702
+line_start: 60691
+line_end: 60704
 dependencies:
   - "A.10"
   - "A.19.CPM"

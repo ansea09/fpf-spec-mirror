@@ -6,12 +6,12 @@ section_id: "C.32:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__009_common-repair-cues.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:8 — Common Repair Cues"
-line_start: 59262
-line_end: 59276
+line_start: 59264
+line_end: 59278
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__005_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:4 — Solution"
-line_start: 63619
-line_end: 63639
+line_start: 63621
+line_end: 63641
 dependencies:
   - "C.18"
   - "C.19"

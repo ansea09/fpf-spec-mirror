@@ -6,12 +6,12 @@ section_id: "G.Core:11"
 section_title: "SoTA alignment (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__012_sota-alignment-informative.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:11 — SoTA alignment (informative)"
-line_start: 87775
-line_end: 87784
+line_start: 87777
+line_end: 87786
 dependencies:
   - "A.15.3"
   - "A.19"

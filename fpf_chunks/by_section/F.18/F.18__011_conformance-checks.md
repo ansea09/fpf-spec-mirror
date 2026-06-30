@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_conformance-checks.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:9 — Conformance Checks"
-line_start: 87078
-line_end: 87101
+line_start: 87080
+line_end: 87103
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "C.17:22"
 section_title: "Placement sanity‑check across the pattern language (avoid scope creep)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__025_placement-sanity-check-across-the-pattern-language-avoid-scope-creep.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:22 — Placement sanity‑check across the pattern language (avoid scope creep)"
-line_start: 45290
-line_end: 45300
+line_start: 45292
+line_end: 45302
 dependencies:
   - "A.1"
   - "A.10"

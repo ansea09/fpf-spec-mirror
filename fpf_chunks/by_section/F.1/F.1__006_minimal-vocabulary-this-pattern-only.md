@@ -6,12 +6,12 @@ section_id: "F.1:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:5 — Minimal vocabulary (this pattern only)"
-line_start: 80791
-line_end: 80798
+line_start: 80793
+line_end: 80800
 dependencies:
   - "A.11"
   - "A.7"

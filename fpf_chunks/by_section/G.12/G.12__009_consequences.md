@@ -6,12 +6,12 @@ section_id: "G.12:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__009_consequences.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:8 — Consequences"
-line_start: 93564
-line_end: 93569
+line_start: 93566
+line_end: 93571
 dependencies:
   - "A.19"
   - "C.18"

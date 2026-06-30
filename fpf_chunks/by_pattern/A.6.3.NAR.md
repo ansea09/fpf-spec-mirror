@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.NAR.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
 line_start: 12835
@@ -91,7 +91,7 @@ Without `A.6.3.NAR`:
 3. source structure, order, event model, and lost relations disappear behind fluent prose;
 4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without a direct owner;
 5. generated narrative output is trusted because it is coherent or dramatic;
-6. teaching material can be smuggled into pattern bodies instead of being kept as a separate test-run or publication carrier.
+6. teaching material can be smuggled into pattern bodies instead of being kept as a separate test-run publication carrier or ordinary publication carrier.
 
 ### A.6.3.NAR:3 - Forces
 
@@ -168,7 +168,7 @@ Use the correspondence-mediated profile when the narrative is produced from a so
 
 Use the direct source-structure route when the narrative worker renders a situation, event stream, domain model, proof dependency field, evidence set, fictional canon, or source pack directly into a narrative path. View and viewpoint discipline may still help, but the central owner is the NAR relation plus any domain owner, not the architecture line.
 
-Direct does not mean implicit. If the selected source structures, selection rationale, reader-interest hypothesis, ordering rationale, and loss account are left inside the writer's intuition, an LLM prompt, or a finished story, the output is only a candidate narrative carrier. It can inspire a later NAR case, but reliance-facing use requires reconstructing and checking the missing selection and loss record.
+Direct does not mean implicit. If the selected source structures, selection rationale, reader-interest hypothesis, ordering rationale, and loss account are left inside the writer's intuition, an LLM prompt, or a finished story, the output is only a candidate carrier or candidate prose, not an admitted narrative rendering. It can inspire a later NAR case, but reliance-facing use requires reconstructing and checking the missing selection and loss record.
 
 Use the architecture-mediated route when the source structure is actual or possible holon structure that has been understood through architecture work: reverse-engineering an existing holon, comparing candidate future structures, using architecture descriptions and views, applying architecture decisions, or checking telemetry after realization. In this route the return chain is `narrative rendering -> architecture description or view -> architecture as selected structures in context -> wider holon or source structures`. Each arrow can select, coarsen, abstract, omit, or order structure, and each arrow needs its own source-return condition when the loss becomes live. `C.33`, `C.34`, `C.32.*`, architecture-description owners, and architecture-decision owners remain live. NAR governs only the narrative rendering of that architecture-relevant structural information.
 
@@ -217,7 +217,7 @@ A NAR case stays admissible only while its source material, selected source stru
 
 | Trigger | Required move |
 | --- | --- |
-| Selected source structures or source material change | Reopen the NAR case; restate preserved, foregrounded, coarsened, and lost structure; use `C.33` only when the narrative carrier is architecture-relevant structural information, use the domain evaluation owner for non-architecture epiplexity, use `G.2` for source-pack claims, and lower admissible use until source return is restored. |
+| Selected source structures or source material change | Reopen the NAR case; restate preserved, foregrounded, coarsened, and lost structure; use `C.33` only when the narrative rendering is being used as architecture-relevant structural information, use the domain evaluation owner for non-architecture epiplexity, use `G.2` for source-pack claims, and lower admissible use until source return is restored. |
 | Intended reader or listener use becomes stronger, broader, or more reliance-facing | Lower the narrative to orientation-only use until the case is repaired; route publication or audience-unit claims to `E.17` or `E.17.AUD`, and route evidence, assurance, ethics, or policy force to `A.10`, `B.3`, or `D.1` through `D.5`. |
 | Ordering rationale or traversal rule changes | Reopen the ordering field and visible-loss account; use `A.6.3.RT` if the representation scheme changed, `A.6.3.CSC` if the source was deliberately coarsened for narrower use, and NAR only when source structure is still being ordered into a narrative path. |
 | Source-return condition is missing, stale, or no longer reachable | Lower downstream use, return to the source material, and refresh the source-return route before treating the narrative as reliance-facing. Use `G.11` when currentness or freshness is the live problem. |
@@ -260,9 +260,9 @@ The NAR case records that the narrative can orient the listener during the event
 
 A team tests whether a future seminar series can explain FPF. The narrative route may use `A.6.3.NAR` to declare how FPF source structures are ordered for learners: EntityOfConcern discipline, problem frames, pattern use, relation records, source return, framework authoring, and improvement loops.
 
-The probe evaluates whether NAR supports an external seminar-route carrier for declared teaching use. It is not a narrative-rendering quality result, not evidence that FPF is correct, and not permission to place seminar outlines, slides, scripts, or exercises inside Core pattern bodies.
+The probe evaluates whether NAR supports an external seminar-route publication carrier for declared teaching use. It is not a narrative-rendering quality result, not evidence that FPF is correct, and not permission to place seminar outlines, slides, scripts, or exercises inside Core pattern bodies.
 
-The actual seminar outline, slides, exercises, and script are not part of this pattern. They belong in a separate test-run or teaching carrier. This pattern governs only the structure-to-sequence relation used by that carrier.
+The actual seminar outline, slides, exercises, and script are not part of this pattern. They belong in a separate test-run publication carrier or teaching publication carrier. This pattern governs only the structure-to-sequence relation used by that carrier.
 
 #### A.6.3.NAR:5.4 - Franchise-continuation storycraft probe boundary
 
@@ -318,7 +318,7 @@ NAR records the relation only after source admission and generation owners have 
 | Engagement as evidence | Reader attention, transportation, or emotional uptake is treated as stronger truth or permission. | Keep engagement as a declared-use effect; route evidence to `A.10`, assurance to `B.3`, and ethics to `D.1` through `D.5`. |
 | Narratology word import | Terms such as plot, focalization, voice, protagonist, suspense, or narrator are used as Core FPF kinds. | Keep those terms in domain source packs or local and domain frameworks unless a later DRR admits a reusable Core distinction. |
 | Generated narrative by fluency | LLM output is accepted because it reads coherently. | Use `C.35` for generated carrier admission, then apply NAR only to a declared source-to-narrative relation. |
-| Teaching material inside pattern body | A seminar script or exercises are inserted into the pattern rather than testing the pattern. | Keep teaching material in a separate test-run or teaching carrier; the pattern states the relation, checks, and source-return rule. |
+| Teaching material inside pattern body | A seminar script or exercises are inserted into the pattern rather than testing the pattern. | Keep teaching material in a separate test-run publication carrier or teaching publication carrier; the pattern states the relation, checks, and source-return rule. |
 
 ### A.6.3.NAR:9 - Consequences
 
@@ -355,8 +355,8 @@ The chosen Core pattern is therefore narrow. It does not make FPF a narratology,
 
 - **Specializes:** `A.6.3` as a same-EntityOfConcern or declared-correspondence epistemic-viewing relation.
 - **Coordinates with:** `A.6.3.CR` for same-regime textual re-expression, `A.6.3.RT` for representation-scheme transition, `A.6.3.CSC` for controlled semantic coarsening, `A.6.4` for changed EntityOfConcern, and `E.17.EFP` for explanation-use adequacy.
-- **Uses:** `C.33` when the narrative carrier is architecture-relevant structural information and its captured and lost structure must be made explicit, the domain evaluation owner when the same question is non-architecture narrative epiplexity, and `C.34` when source structure and narrative structure are treated as same enough for downstream use.
-- **Coordinates with:** `C.35` for generated or discovered narrative carriers, `G.2` for source-pack claims, `E.6` and `E.11` for learning-order and first-entry publication questions, and `E.17` or `E.17.AUD` for publication-face and audience-unit questions.
+- **Uses:** `C.33` when the narrative rendering is being used as architecture-relevant structural information and its captured and lost structure must be made explicit, the domain evaluation owner when the same question is non-architecture narrative epiplexity, and `C.34` when source structure and narrative structure are treated as same enough for downstream use.
+- **Coordinates with:** `C.35` for generated or discovered carriers that may contain candidate narrative renderings, `G.2` for source-pack claims, `E.6` and `E.11` for learning-order and first-entry publication questions, and `E.17` or `E.17.AUD` for publication-face and audience-unit questions.
 - **Uses:** `G.11` when source-return currentness, freshness, telemetry, or source-pack decay is the live reason a NAR case must be refreshed before reuse.
 - **Routes to:** `D.1` through `D.5`, `A.10`, and `B.3` when value frame, multilevel harm, conflict, decision use, bias, impact, evidence, or assurance becomes live.
 - **Boundary:** NAR governs the structure-to-sequence narrative rendering relation. It does not publish the narrative, authorize reliance, prove the source, admit generated output, decide ethics, create a teaching script, or make a domain narrative vocabulary part of FPF Core.

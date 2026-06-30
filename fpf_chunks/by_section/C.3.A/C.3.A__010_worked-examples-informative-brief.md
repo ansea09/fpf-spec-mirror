@@ -6,12 +6,12 @@ section_id: "C.3.A:9"
 section_title: "Worked Examples (informative, brief)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__010_worked-examples-informative-brief.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:9 — Worked Examples (informative, brief)"
-line_start: 41716
-line_end: 41731
+line_start: 41718
+line_end: 41733
 dependencies:
   - "A.2.6"
   - "C.3.x"

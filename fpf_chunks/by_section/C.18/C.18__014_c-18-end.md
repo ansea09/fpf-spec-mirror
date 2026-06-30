@@ -6,12 +6,12 @@ section_id: "C.18:End"
 section_title: "C.18:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__014_c-18-end.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:End — C.18:End"
-line_start: 45586
-line_end: 45587
+line_start: 45588
+line_end: 45589
 dependencies:
   - "A.15"
   - "A.17-A.19"

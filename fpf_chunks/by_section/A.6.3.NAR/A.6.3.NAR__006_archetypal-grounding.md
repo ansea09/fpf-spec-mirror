@@ -6,7 +6,7 @@ section_id: "A.6.3.NAR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__006_archetypal-grounding.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:5 — Archetypal Grounding"
@@ -74,9 +74,9 @@ The NAR case records that the narrative can orient the listener during the event
 
 A team tests whether a future seminar series can explain FPF. The narrative route may use `A.6.3.NAR` to declare how FPF source structures are ordered for learners: EntityOfConcern discipline, problem frames, pattern use, relation records, source return, framework authoring, and improvement loops.
 
-The probe evaluates whether NAR supports an external seminar-route carrier for declared teaching use. It is not a narrative-rendering quality result, not evidence that FPF is correct, and not permission to place seminar outlines, slides, scripts, or exercises inside Core pattern bodies.
+The probe evaluates whether NAR supports an external seminar-route publication carrier for declared teaching use. It is not a narrative-rendering quality result, not evidence that FPF is correct, and not permission to place seminar outlines, slides, scripts, or exercises inside Core pattern bodies.
 
-The actual seminar outline, slides, exercises, and script are not part of this pattern. They belong in a separate test-run or teaching carrier. This pattern governs only the structure-to-sequence relation used by that carrier.
+The actual seminar outline, slides, exercises, and script are not part of this pattern. They belong in a separate test-run publication carrier or teaching publication carrier. This pattern governs only the structure-to-sequence relation used by that carrier.
 
 #### A.6.3.NAR:5.4 - Franchise-continuation storycraft probe boundary
 

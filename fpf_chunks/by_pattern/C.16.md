@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.16.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
-line_start: 43162
-line_end: 43615
+line_start: 43164
+line_end: 43617
 dependencies:
   - "A.10"
   - "A.17"

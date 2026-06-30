@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 61520
-line_end: 61574
+line_start: 61522
+line_end: 61576
 dependencies:
   - "A.10"
   - "A.15"

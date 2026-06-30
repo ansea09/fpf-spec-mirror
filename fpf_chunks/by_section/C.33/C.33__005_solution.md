@@ -6,12 +6,12 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:4 — Solution"
-line_start: 61869
-line_end: 61887
+line_start: 61871
+line_end: 61889
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

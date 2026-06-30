@@ -6,12 +6,12 @@ section_id: "C.27.TA:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__002_use-this-when.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:0 — Use This When"
-line_start: 52195
-line_end: 52225
+line_start: 52197
+line_end: 52227
 dependencies:
   - "A.10"
   - "A.15.1"

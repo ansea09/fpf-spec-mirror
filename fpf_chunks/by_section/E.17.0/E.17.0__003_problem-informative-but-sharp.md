@@ -6,12 +6,12 @@ section_id: "E.17.0:2"
 section_title: "Problem  (informative, but sharp)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__003_problem-informative-but-sharp.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:2 — Problem  (informative, but sharp)"
-line_start: 71930
-line_end: 71953
+line_start: 71932
+line_end: 71955
 dependencies:
   - "A.15"
   - "A.2"

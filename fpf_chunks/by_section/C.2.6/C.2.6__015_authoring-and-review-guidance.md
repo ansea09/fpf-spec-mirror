@@ -6,12 +6,12 @@ section_id: "C.2.6:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__015_authoring-and-review-guidance.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:14 — Authoring and Review Guidance"
-line_start: 39842
-line_end: 39857
+line_start: 39844
+line_end: 39859
 dependencies:
   - "A.16"
   - "A.16.0"

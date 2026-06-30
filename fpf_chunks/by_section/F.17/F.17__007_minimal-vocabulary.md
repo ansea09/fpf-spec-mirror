@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:5 — Minimal vocabulary"
-line_start: 86468
-line_end: 86487
+line_start: 86470
+line_end: 86489
 dependencies:
   - "A.10"
   - "A.15.1"

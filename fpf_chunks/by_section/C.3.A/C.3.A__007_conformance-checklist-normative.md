@@ -6,12 +6,12 @@ section_id: "C.3.A:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__007_conformance-checklist-normative.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:6 — Conformance Checklist (normative)"
-line_start: 41657
-line_end: 41680
+line_start: 41659
+line_end: 41682
 dependencies:
   - "A.2.6"
   - "C.3.x"

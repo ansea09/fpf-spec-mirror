@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 58906
-line_end: 58945
+line_start: 58908
+line_end: 58947
 dependencies:
   - "A.10"
   - "A.17"

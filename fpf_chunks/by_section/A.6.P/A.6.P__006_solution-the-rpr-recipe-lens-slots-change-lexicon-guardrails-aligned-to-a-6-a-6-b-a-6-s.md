@@ -6,7 +6,7 @@ section_id: "A.6.P:4"
 section_title: "Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_solution-the-rpr-recipe-lens-slots-change-lexicon-guardrails-aligned-to-a-6-a-6-b-a-6-s.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:4 — Solution — The RPR recipe (Lens → Slots → Change Lexicon → Guardrails), aligned to A.6 / A.6.B / A.6.S"

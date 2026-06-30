@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 73189
-line_end: 73539
+line_start: 73191
+line_end: 73541
 dependencies:
   - "A.6.2"
   - "A.6.3"

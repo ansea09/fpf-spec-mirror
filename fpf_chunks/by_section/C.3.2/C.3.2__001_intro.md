@@ -6,12 +6,12 @@ section_id: "C.3.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__001_intro.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:intro — Intro"
-line_start: 40674
-line_end: 40693
+line_start: 40676
+line_end: 40695
 dependencies:
   - "C.3.1"
   - "C.3.3"

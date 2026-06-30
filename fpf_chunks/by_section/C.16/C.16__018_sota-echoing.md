@@ -6,12 +6,12 @@ section_id: "C.16:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__018_sota-echoing.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:14.1 — SoTA-Echoing"
-line_start: 43553
-line_end: 43556
+line_start: 43555
+line_end: 43558
 dependencies:
   - "A.10"
   - "A.17"

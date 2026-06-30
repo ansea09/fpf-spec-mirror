@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:4 — Solution"
-line_start: 40156
-line_end: 40247
+line_start: 40158
+line_end: 40249
 dependencies:
   - "A.10"
   - "A.15.1"

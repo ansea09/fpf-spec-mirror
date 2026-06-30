@@ -6,12 +6,12 @@ section_id: "D.1:3"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__006_boundaries.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:3 — Boundaries"
-line_start: 62863
-line_end: 62876
+line_start: 62865
+line_end: 62878
 dependencies:
   - "A.1"
   - "A.10"

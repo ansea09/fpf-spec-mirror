@@ -6,12 +6,12 @@ section_id: "E.4.FPF:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__008_conformance-checklist.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:7 — Conformance checklist"
-line_start: 64485
-line_end: 64498
+line_start: 64487
+line_end: 64500
 dependencies:
   - "C.33"
   - "C.34"
@@ -48,5 +48,5 @@ keywords:
 | CC-FPF.6 Publication thinness preserved | README, Preface, ToC, cards, and other projection carriers help entry without becoming semantic authority beside governing patterns. |
 | CC-FPF.7 Access carrier bounded | Skill packs, MCP routes, retrieval, and assistant integrations expose edition identity, currentness, and refusal conditions without becoming framework authority, runtime dependency, or work permission. |
 | CC-FPF.8 Refresh route visible | Source-front, edition, entry-use, currentness, and evaluation changes have receiving owners such as `G.2`, `G.11`, `E.2.DA`, `E.21`, or direct pattern owners. |
-| CC-FPF.9 Self-rendering boundary visible | README, Preface, ToC, or equivalent FPF carrier states what first-principles route it tells, for which reader and use, what it deliberately coarsens, abstracts, omits, or defers, and where governing pattern detail resumes. |
+| CC-FPF.9 Carrier structure-account boundary visible | README, Preface, ToC, or equivalent FPF carrier states what first-principles route its publication expression tells, for which reader and use, what it deliberately coarsens, abstracts, omits, or defers, and where governing pattern detail resumes. |
 

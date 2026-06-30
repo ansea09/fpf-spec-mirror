@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__007_bias-annotation.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:6 — Bias-Annotation"
-line_start: 65150
-line_end: 65159
+line_start: 65152
+line_end: 65161
 dependencies:
   - "A.19.ECS"
   - "C.33"
@@ -42,5 +42,5 @@ The second drift is local excellence laundering: good-looking patterns, a polish
 
 The third drift is quality proof leakage: evaluation results, review status, or package architecture evidence are copied into user-facing pattern prose. Repair by moving quality evidence to this evaluation, `E.21`, `E.19`, `E.11`, `I.2`, or publication evidence loci, and keep only the user-facing move or boundary in pattern bodies.
 
-The fourth drift is invisible carrier narration: the package is presented as a transparent list of principles, so nobody asks which domain structures were selected, coarsened, abstracted, omitted, or already transformed through `source structures -> architecture -> architecture description or view -> carrier` before the publication carrier was written. Repair by making the readme, Preface, or access front door carry a short self-rendering account and checking it through `PFM11`.
+The fourth drift is invisible carrier narration: the package is presented as a transparent list of principles, so nobody asks which domain structures were selected, coarsened, abstracted, omitted, or already transformed through `source structures -> architecture -> architecture description or view -> publication/access expression` before the publication carrier was written. Repair by making the readme, Preface, or access front door provide a short carrier structure-account and checking it through `PFM11`.
 

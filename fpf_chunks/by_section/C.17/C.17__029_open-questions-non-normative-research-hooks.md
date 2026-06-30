@@ -6,12 +6,12 @@ section_id: "C.17:26-"
 section_title: "Open questions (non‑normative, research hooks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__029_open-questions-non-normative-research-hooks.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:26- — Open questions (non‑normative, research hooks)"
-line_start: 45353
-line_end: 45358
+line_start: 45355
+line_end: 45360
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.11:9"
 section_title: "Micro‑examples (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__010_micro-examples-didactic.md"
-commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
+commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:9 — Micro‑examples (didactic)"
-line_start: 84504
-line_end: 84517
+line_start: 84506
+line_end: 84519
 dependencies:
   - "A.15"
   - "A.15.1"
