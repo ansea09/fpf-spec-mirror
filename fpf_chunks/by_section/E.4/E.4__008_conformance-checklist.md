@@ -6,12 +6,12 @@ section_id: "E.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__008_conformance-checklist.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:7 — Conformance Checklist"
-line_start: 63942
-line_end: 63952
+line_start: 64298
+line_end: 64309
 dependencies:
   - "C.33"
   - "C.34"
@@ -22,9 +22,12 @@ dependencies:
   - "E.17"
   - "E.19"
   - "E.2"
+  - "E.2.DA"
   - "E.21"
   - "E.23"
   - "E.4.DPF"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.5.3"
@@ -39,10 +42,11 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-E4.1 Family member named | The work names whether it concerns Core, Tooling Reference, Pedagogical Companion, foundational principle pattern set, FPF Core, domain principle framework, or local practice framework. |
-| CC-E4.2 Selected structures named | The family-and-structure map names the selected pattern-set, relation, decision, publication, source, quality, dependency, and currentness structures that matter for the claim. |
+| CC-E4.1 Family member named | The work names whether it concerns Core, Tooling Reference, Pedagogical Companion, foundational principle pattern set, First Principles Framework edition, FPF Core, domain principle framework, or local practice framework. |
+| CC-E4.2 Selected structures named | The family-and-structure map names the selected problem-situation, known-failure, SoTA solution-move, pattern-set, relation, decision, publication/access, source, quality, dependency, and currentness structures that matter for the claim. |
 | CC-E4.3 E.5.3 respected | Dependency direction points toward more stable framework editions, and Core does not depend on domain or local frameworks. |
-| CC-E4.4 Publication separated | Monoliths, tables of contents, cards, readmes, and views are publication or discoverability records with their own owners. |
+| CC-E4.4 Publication/access separated | All-in-one carriers, tables of contents, cards, readmes, skill packs, MCP-backed routes, retrieval routes, assistant integrations, and views are publication, access, or discoverability records with their own owners. |
 | CC-E4.5 Relation owner named | Pattern-use, relation, dependency, decision, naming, source, currentness, quality, and preservation claims each have a receiving pattern owner. |
 | CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and return owner. |
+| CC-E4.7 Framework carrier self-rendering routed | README, Preface, ToC, all-in-one carrier, skill pack, MCP route, or other framework carrier states what framework structure it renders for whom, or the work routes to `E.4.FPF`, `E.4.DPF`, and `E.4.DPF.DA` before adoption or adequacy claims are made. |
 

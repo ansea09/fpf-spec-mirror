@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.3.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
-line_start: 49558
-line_end: 49888
+line_start: 49894
+line_end: 50224
 dependencies:
   - "A.10"
   - "A.15"

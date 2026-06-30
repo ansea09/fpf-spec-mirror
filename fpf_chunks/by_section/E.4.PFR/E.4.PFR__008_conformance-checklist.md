@@ -6,12 +6,12 @@ section_id: "E.4.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__008_conformance-checklist.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:7 — Conformance Checklist"
-line_start: 64524
-line_end: 64535
+line_start: 65366
+line_end: 65377
 dependencies:
   - "A.10"
   - "C.33"
@@ -20,10 +20,13 @@ dependencies:
   - "E.11"
   - "E.11.PUR"
   - "E.17"
+  - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.5.3"
   - "E.9"
@@ -43,6 +46,6 @@ keywords:
 | CC-PFR.3 Dependency separated | Framework edition dependency is separated from specialization, publication, pattern-use recommendation, and preservation. |
 | CC-PFR.4 E.5.3 respected | Dependency direction points toward stable framework editions and Core does not depend on domain or local frameworks. |
 | CC-PFR.5 Compatibility boundary present | Edition dependencies that carry compatibility claims name boundary, deprecation, supersession, and refresh conditions. |
-| CC-PFR.6 Carrier relation routed | Publication, preservation, and produced-carrier claims use `E.11`, `E.17`, `C.33`, `C.34`, or `C.35` as appropriate. |
+| CC-PFR.6 Carrier relation routed | Publication, access, preservation, and produced-carrier claims use `E.11`, `E.17`, `C.33`, `C.34`, `C.35`, `A.15`, or `G.11` as appropriate. |
 | CC-PFR.7 Source and decision reuse routed | Source-line, SoTA-pack, DRR, accepted-decision, evidence, and currentness reuse claims route to `G.2`, `E.9`, or `A.10` instead of relation-label prose. |
 

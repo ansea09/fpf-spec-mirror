@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:3 — Forces"
-line_start: 60246
-line_end: 60255
+line_start: 60582
+line_end: 60591
 dependencies:
   - "A.10"
   - "A.19.CPM"

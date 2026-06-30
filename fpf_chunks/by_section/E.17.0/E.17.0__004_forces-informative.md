@@ -6,12 +6,12 @@ section_id: "E.17.0:3"
 section_title: "Forces  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__004_forces-informative.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:3 — Forces  (informative)"
-line_start: 71110
-line_end: 71120
+line_start: 71954
+line_end: 71964
 dependencies:
   - "A.15"
   - "A.2"

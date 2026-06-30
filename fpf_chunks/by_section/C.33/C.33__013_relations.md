@@ -6,14 +6,15 @@ section_id: "C.33:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__013_relations.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:12 — Relations"
-line_start: 61626
-line_end: 61632
+line_start: 61968
+line_end: 61974
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.18"
@@ -50,6 +51,6 @@ keywords:
 
 - **Builds on:** `A.22`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.32.P2S`, and `C.32`.
 - **Uses:** `C.29` when a mathematical lens exposes or compresses structure; `C.16`, `C.25`, and `C.32.ACE` when a claim about captured or lost structure is recorded as a measurement, Q-bundle slot, criterion, or eval reading.
-- **Coordinates with:** `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.31.ASAP`, `C.32.PAD`, `C.32.ADR`, `G.5`, `C.18`, `C.19`, `E.18`, `F.9`, and `F.15`.
+- **Coordinates with:** `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `A.6.3.NAR`, `C.31`, `C.31.ASAP`, `C.32.PAD`, `C.32.ADR`, `G.5`, `C.18`, `C.19`, `E.18`, `F.9`, and `F.15`.
 - **Boundary:** C.33 governs structure-capture adequacy and source return for a declared architecture use. It does not ground architecture, select candidates, decide projects, publish records, measure values, supply evidence or assurance, authorize work, or claim realization.
 

@@ -6,12 +6,12 @@ section_id: "F.3:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__002_intent-applicability.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:1 — Intent & applicability"
-line_start: 80535
-line_end: 80542
+line_start: 81379
+line_end: 81386
 dependencies:
   - "A.11"
   - "A.7"

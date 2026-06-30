@@ -6,12 +6,12 @@ section_id: "A.6.P:End"
 section_title: "A.6.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__018_a-6-p-end.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:End — A.6.P:End"
-line_start: 14182
-line_end: 14183
+line_start: 14518
+line_end: 14519
 dependencies:
   - "A.10"
   - "A.2.4"

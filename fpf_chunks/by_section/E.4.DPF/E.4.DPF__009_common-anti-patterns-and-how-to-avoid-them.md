@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.DPF"
-pattern_title: "Domain Principle Framework Authoring and Local-Monolith Landing"
+pattern_title: "Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
 section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
-  - "E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing"
+  - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 64333
-line_end: 64353
+line_start: 64917
+line_end: 64941
 dependencies:
   - "C.33"
   - "C.34"
@@ -24,6 +24,8 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
@@ -39,8 +41,12 @@ keywords:
 | --- | --- | --- |
 | Checklist promoted to framework | Local tips are published as a principle framework without source, relation, or quality work. | Treat the checklist as local process text until `G.2`, `E.8`, `E.4.PFR`, and `E.21` are satisfied. |
 | Source summary as SoTA | A literature summary replaces adopted and rejected source payload. | Build a `G.2` source pack and carry each load-bearing source into solution, boundary, or example text. |
-| Local monolith as architecture | The publication unit hides relation and dependency records. | Add `E.4.PFAD`, `E.4.PFR`, and source-return records before relying on the monolith as architecture evidence. |
+| Ontology catalog as framework | The package classifies the domain or defines terms, but it does not tell a practitioner what typical problem is live or what SoTA solution move avoids a known failure. | Keep ontology as support material; draft or repair DPF patterns around problem frames, positive solution moves, worked cases, anti-patterns, and refresh. |
+| Publication carrier as architecture | The publication or access carrier hides relation and dependency records. | Add `E.4.PFAD`, `E.4.PFR`, and source-return records before relying on the carrier as architecture evidence. |
+| Invisible framework story | A DPF carrier reads as a neutral list of principles, but the reader cannot tell what source or domain structures were selected, why this route is for them, what was deliberately coarsened, abstracted, omitted, or left to source return, or whether the carrier is a second-step coarsening after an architecture description or view. | Add a short self-rendering account in the readme, Preface, or equivalent carrier, then evaluate it through `E.4.DPF.DA` rather than scattering explanation into every pattern body. |
 | Generated candidate authority | Search or LLM output becomes the framework because it is fluent. | Use `C.35` for admission, then decide candidate selection through `E.4.PFAD` or `C.32`. |
+| Skeleton carrier as DPF | A file has a ToC, headings, and very short pattern-shaped sections, but readers still cannot apply the patterns without reconstructing the missing guidance from the DRR or source notes. | Keep it as `seedOnly`; harden each DPF pattern through `E.8`, evaluate through `E.21`, and only then assemble the user publication carrier. |
+| Access carrier as framework | A skill pack, MCP endpoint, retrieval route, or assistant integration is treated as the framework itself because it is what agents call. | Record it as an access carrier through `E.4.PFR`, expose framework edition and refresh refs, and route generated, tool, evidence, currentness, or work claims to their direct owners. |
 
 Adoption risk tripwires:
 

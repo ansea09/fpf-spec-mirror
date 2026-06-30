@@ -6,12 +6,12 @@ section_id: "A.22:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 30560
-line_end: 30570
+line_start: 30896
+line_end: 30906
 dependencies:
   - "A.1"
   - "A.10"

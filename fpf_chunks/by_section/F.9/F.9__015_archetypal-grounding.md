@@ -6,12 +6,12 @@ section_id: "F.9:19"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__015_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:19 — Archetypal Grounding"
-line_start: 82808
-line_end: 82825
+line_start: 83652
+line_end: 83669
 dependencies:
   - "A.15.1"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "A.10:4"
 section_title: "Solution — The Evidence Graph Referring Standard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__005_solution-the-evidence-graph-referring-standard.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:4 — Solution — The Evidence Graph Referring Standard"
-line_start: 19671
-line_end: 19897
+line_start: 20007
+line_end: 20233
 dependencies:
   - "A.1"
   - "A.10"

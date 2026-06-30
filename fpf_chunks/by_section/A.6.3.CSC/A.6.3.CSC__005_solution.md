@@ -6,23 +6,25 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
 line_start: 11720
-line_end: 11849
+line_end: 11850
 dependencies:
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.6.3"
   - "A.6.3.CR"
+  - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
   - "C.26"
   - "C.26.1"
+  - "C.33"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
@@ -32,16 +34,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "coarsened rendering"
-  - "controlled semantic coarsening"
-  - "dashboard tile"
-  - "lookup handle"
-  - "narrower admissible use"
-  - "non-admissible downstream use"
-  - "redaction"
-  - "reopen trigger"
-  - "source-bearing episteme or source publication"
-  - "state-representation shortcut"
 ---
 
 ### A.6.3.CSC:4 - Solution
@@ -155,6 +147,7 @@ Aggregation or quotient-like coarsening remains inside this pattern only while t
 | --- | --- |
 | Same-entity textual rewording without a separate narrower-use card | `A.6.3.CR` |
 | Representation scheme or reasoning-medium shift | `A.6.3.RT` |
+| Source structure is ordered into a sequential narrative path and the ordering rationale is primary | `A.6.3.NAR` for the narrative rendering relation; keep CSC only for the coarsened narrower-use card when source distinctions are dropped or narrowed |
 | Explanation-facing class over existing source `U.Episteme` or `U.EpistemePublication` | `E.17.EFP` |
 | Bounded comparison over already pinned source epistemes or source publications | `E.17.ID.CR` |
 | Equivalence, substitution, interop row, or bridge or substitution use | `F.9` |

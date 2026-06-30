@@ -6,12 +6,12 @@ section_id: "E.15:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__007_consequences.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:6 — Consequences"
-line_start: 70801
-line_end: 70808
+line_start: 71645
+line_end: 71652
 dependencies:
   - "A.10"
   - "B.3"

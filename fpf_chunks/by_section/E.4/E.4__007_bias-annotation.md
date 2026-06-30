@@ -6,12 +6,12 @@ section_id: "E.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__007_bias-annotation.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:6 — Bias-Annotation"
-line_start: 63936
-line_end: 63941
+line_start: 64292
+line_end: 64297
 dependencies:
   - "C.33"
   - "C.34"
@@ -22,9 +22,12 @@ dependencies:
   - "E.17"
   - "E.19"
   - "E.2"
+  - "E.2.DA"
   - "E.21"
   - "E.23"
   - "E.4.DPF"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.5.3"
@@ -37,7 +40,7 @@ keywords:
 
 ### E.4:6 - Bias-Annotation
 
-The recurrent drift is publication-first architecture: the visible file, local monolith, card deck, table of contents, or graph is treated as the architecture because it is what a reader sees first. The repair is to name the selected structures and dependency direction first, then use publication patterns to expose them.
+The recurrent drift is publication-first architecture: the visible file, all-in-one carrier, card deck, table of contents, or graph is treated as the architecture because it is what a reader sees first. The repair is to name the selected structures and dependency direction first, then use publication patterns to expose them.
 
 Another recurrent drift is Core absorption: useful domain or local material is pulled into the Core because it is well written or broadly reusable. The repair is to ask which bounded context owns the claim and which framework edition should depend on which more stable edition.
 

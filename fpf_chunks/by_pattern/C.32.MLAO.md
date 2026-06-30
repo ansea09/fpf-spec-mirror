@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.MLAO.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
-line_start: 60149
-line_end: 60417
+line_start: 60485
+line_end: 60753
 dependencies:
   - "A.10"
   - "A.19.CPM"

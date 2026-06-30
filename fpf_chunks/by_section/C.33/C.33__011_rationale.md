@@ -6,14 +6,15 @@ section_id: "C.33:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__011_rationale.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:10 — Rationale"
-line_start: 61607
-line_end: 61614
+line_start: 61949
+line_end: 61956
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.18"

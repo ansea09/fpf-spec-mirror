@@ -6,12 +6,12 @@ section_id: "F.15:8"
 section_title: "Static conformance rules for local material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__010_static-conformance-rules-for-local-material.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:8 — Static conformance rules for local material"
-line_start: 84927
-line_end: 84954
+line_start: 85771
+line_end: 85798
 dependencies:
   - "A.10"
   - "A.15.1"

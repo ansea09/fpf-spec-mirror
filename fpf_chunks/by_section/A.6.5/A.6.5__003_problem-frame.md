@@ -6,12 +6,12 @@ section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__003_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 15908
-line_end: 15921
+line_start: 16244
+line_end: 16257
 dependencies:
   - "A.1"
   - "A.2.1"

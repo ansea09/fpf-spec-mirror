@@ -6,14 +6,15 @@ section_id: "C.34:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__006_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:5 — Archetypal Grounding"
-line_start: 61728
-line_end: 61739
+line_start: 62072
+line_end: 62085
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.25"
@@ -54,4 +55,6 @@ Show - source model and generated graph case. A code-agent dependency graph matc
 Show - candidate and realized structure case. A candidate architecture promises that a service split preserves interface substitutability, but the realized structure adds shared storage and a hidden orchestration dependency. C.34 records preserved interface signatures, lost runtime independence, changed coupling, and source return to `A.6.M`, `C.31`, `C.30`, and `C.32.PAD` before the decision is reused.
 
 Show - neural substitution case. A candidate replaces an attention block with an SSM block. C.34 asks which selected structures are preserved: sequence dataflow, routing interface, memory access, latency envelope, training resource boundary, or inference resource boundary. Shape sameness or benchmark improvement does not by itself preserve the architecture relation needed by the next claim.
+
+Show - source structure and narrative structure case. An architecture narrative orders a candidate set as "pressure, alternative, trade-off, decision, residual." C.34 records mapping mode `correspondence`, preserved structure `candidate alternative and selected trade-off relation`, lost structure `full Pareto-front detail and rejected-candidate evals`, directionality `source to narrative only`, and admissible use `team orientation and decision memory`. The narrative order is not exact equivalence and does not license implementation, evidence, or assurance use without the direct owner.
 

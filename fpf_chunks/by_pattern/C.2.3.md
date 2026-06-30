@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
-line_start: 38467
-line_end: 38777
+line_start: 38803
+line_end: 39113
 dependencies:
   - "A.16"
   - "A.18"

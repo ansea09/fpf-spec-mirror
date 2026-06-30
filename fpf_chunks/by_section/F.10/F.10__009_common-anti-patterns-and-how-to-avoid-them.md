@@ -6,12 +6,12 @@ section_id: "F.10:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 83473
-line_end: 83485
+line_start: 84317
+line_end: 84329
 dependencies:
   - "A.2.4"
   - "B.3"

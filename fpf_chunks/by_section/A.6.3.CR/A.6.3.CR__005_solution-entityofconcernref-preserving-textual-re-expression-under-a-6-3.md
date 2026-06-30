@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:4"
 section_title: "Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__005_solution-entityofconcernref-preserving-textual-re-expression-under-a-6-3.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:4 — Solution — entityOfConcernRef-preserving textual re-expression under A.6.3"
-line_start: 12053
-line_end: 12198
+line_start: 12056
+line_end: 12201
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -72,14 +72,14 @@ These terms are only local review aids. They inherit the `E.17:5.1e` local-field
 **Out of scope**
 - any change of `entityOfConcernRef` or hidden change of EntityOfConcern (`A.6.4`);
 - explanation-facing renderings whose main purpose is explanatory rendering rather than same-entity rewrite (`ExplanationFaithfulnessProfile`);
-- representation-regime changes such as text→table, text→diagram, or text→latent form (`Representation-Scheme Transition`);
+- representation-regime changes such as text→table, text→diagram, or text→latent form (`RepresentationSchemeTransition`);
 - comparison, abductive-prompt, ranking, recommendation, bridge-mediated, substitution, or action-selection work that introduces new claims rather than restating available ones.
 
 #### A.6.3.CR:4.2.a - Reader guidance
 
 Use this pattern when the EntityOfConcern stays fixed and the published result still remains textual.
 - If the main change is explanatory, apply ExplanationFaithfulnessProfile.
-- If the main change is a representation-scheme shift, apply Representation-Scheme Transition.
+- If the main change is a representation-scheme shift, apply RepresentationSchemeTransition.
 - If the EntityOfConcern changes, apply A.6.4.
 
 #### A.6.3.CR:4.2.b - What the user checks first

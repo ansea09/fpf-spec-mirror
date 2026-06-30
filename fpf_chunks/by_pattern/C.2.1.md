@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.1.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
-line_start: 36319
-line_end: 37186
+line_start: 36655
+line_end: 37522
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

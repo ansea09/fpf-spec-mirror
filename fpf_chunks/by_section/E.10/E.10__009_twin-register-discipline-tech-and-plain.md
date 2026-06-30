@@ -6,12 +6,12 @@ section_id: "E.10:6.2"
 section_title: "Twin‑Register Discipline (Tech and Plain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_twin-register-discipline-tech-and-plain.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6.2 — Twin‑Register Discipline (Tech and Plain)"
-line_start: 67575
-line_end: 67650
+line_start: 68419
+line_end: 68494
 dependencies:
   - "A.10"
   - "A.15"

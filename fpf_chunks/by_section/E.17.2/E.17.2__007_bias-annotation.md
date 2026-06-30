@@ -6,12 +6,12 @@ section_id: "E.17.2:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__007_bias-annotation.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:5.1 — Bias-Annotation"
-line_start: 72168
-line_end: 72177
+line_start: 73012
+line_end: 73021
 dependencies:
   - "A.1"
   - "A.15"

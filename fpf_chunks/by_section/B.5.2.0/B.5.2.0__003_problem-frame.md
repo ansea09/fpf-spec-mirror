@@ -6,12 +6,12 @@ section_id: "B.5.2.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__003_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:1 — Problem frame"
-line_start: 35762
-line_end: 35764
+line_start: 36098
+line_end: 36100
 dependencies:
   - "A.16"
   - "A.16.0"

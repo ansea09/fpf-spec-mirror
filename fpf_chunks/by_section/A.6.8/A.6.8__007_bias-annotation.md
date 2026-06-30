@@ -6,12 +6,12 @@ section_id: "A.6.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__007_bias-annotation.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:6 — Bias-Annotation"
-line_start: 17528
-line_end: 17537
+line_start: 17864
+line_end: 17873
 dependencies:
   - "A.15"
   - "A.2.3"

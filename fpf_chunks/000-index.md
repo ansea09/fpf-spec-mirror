@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `02a8b4bac1f141b1751421bf522e9dc489ae522e`
+Commit SHA: `c859eed90b5ca9d0f717a1ffb13a841a3b52c016`
 
 Chunking method: `pattern-aware`
 
-Patterns: `274`
+Patterns: `277`
 
 ## Patterns
 
@@ -42,6 +42,7 @@ Patterns: `274`
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
 - [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
 - [A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
+- [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
@@ -199,8 +200,10 @@ Patterns: `274`
 - [E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace](by_pattern/E.2.DA.md)
 - [E.3 — Principle Taxonomy & Precedence Model](by_pattern/E.3.md)
 - [E.4 — FPF Ecosystem Family Architecture](by_pattern/E.4.md)
+- [E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly](by_pattern/E.4.FPF.md)
 - [E.4.PFAD — Principle-Framework Architecture Decision](by_pattern/E.4.PFAD.md)
-- [E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing](by_pattern/E.4.DPF.md)
+- [E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly](by_pattern/E.4.DPF.md)
+- [E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace](by_pattern/E.4.DPF.DA.md)
 - [E.4.PFR — Pattern-Framework Relation and Edition Discipline](by_pattern/E.4.PFR.md)
 - [E.5 — Four Guard‑Rails of FPF](by_pattern/E.5.md)
 - [E.5.1 — DevOps Lexical Firewall](by_pattern/E.5.1.md)

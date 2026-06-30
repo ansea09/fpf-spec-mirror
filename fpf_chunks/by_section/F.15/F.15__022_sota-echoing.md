@@ -6,12 +6,12 @@ section_id: "F.15:17"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__022_sota-echoing.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:17 — SoTA-Echoing"
-line_start: 85227
-line_end: 85237
+line_start: 86071
+line_end: 86081
 dependencies:
   - "A.10"
   - "A.15.1"

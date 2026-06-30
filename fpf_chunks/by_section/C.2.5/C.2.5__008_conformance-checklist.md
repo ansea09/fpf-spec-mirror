@@ -6,12 +6,12 @@ section_id: "C.2.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__008_conformance-checklist.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:7 — Conformance Checklist"
-line_start: 39286
-line_end: 39291
+line_start: 39622
+line_end: 39627
 dependencies:
   - "A.16"
   - "A.16.0"

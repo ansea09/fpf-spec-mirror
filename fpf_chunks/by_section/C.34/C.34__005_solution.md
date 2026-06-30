@@ -6,14 +6,15 @@ section_id: "C.34:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__005_solution.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:4 — Solution"
-line_start: 61710
-line_end: 61727
+line_start: 62053
+line_end: 62071
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.25"
@@ -58,6 +59,7 @@ Work in this order:
 5. State lost structure, hidden structure, directionality, and scope or scale window.
 6. Cite `C.29` only when a mathematical object, graph match, functor, invariant, entropy, or formal mapping is being used as a lens.
 7. Cite `C.30.ASV`, `C.30.AD`, or their correspondence records when the relation is view or architecture-description correspondence.
-8. Cite `F.9` or `F.15` when the claim crosses bounded contexts, source traditions, or later conformance strengthening.
-9. Stop when admissible use, non-admissible use, source-return condition, receiving owner, and receiving claim kind are named.
+8. Cite `A.6.3.NAR` when the target structure is a narrative rendering whose ordering rationale, preserved source structure, and source return must stay inspectable.
+9. Cite `F.9` or `F.15` when the claim crosses bounded contexts, source traditions, or later conformance strengthening.
+10. Stop when admissible use, non-admissible use, source-return condition, receiving owner, and receiving claim kind are named.
 

@@ -6,12 +6,12 @@ section_id: "F.3:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__011_anti-patterns-remedies.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:10 — Anti‑patterns & remedies"
-line_start: 80640
-line_end: 80654
+line_start: 81484
+line_end: 81498
 dependencies:
   - "A.11"
   - "A.7"

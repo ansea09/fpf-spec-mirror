@@ -6,12 +6,12 @@ section_id: "C.26:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:3 — Forces"
-line_start: 48407
-line_end: 48416
+line_start: 48743
+line_end: 48752
 dependencies:
   - "A.10"
   - "A.15"

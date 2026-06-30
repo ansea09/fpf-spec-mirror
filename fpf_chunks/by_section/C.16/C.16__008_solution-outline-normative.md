@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution - Outline (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_solution-outline-normative.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution - Outline (Normative)"
-line_start: 42898
-line_end: 43053
+line_start: 43234
+line_end: 43389
 dependencies:
   - "A.10"
   - "A.17"

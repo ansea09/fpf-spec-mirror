@@ -6,12 +6,12 @@ section_id: "E.14:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70588
-line_end: 70597
+line_start: 71432
+line_end: 71441
 dependencies:
   - "B.3.5"
   - "C.13"

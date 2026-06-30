@@ -6,12 +6,12 @@ section_id: "C.32.P2S:End"
 section_title: "C.32.P2S:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__015_c-32-p2s-end.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:End — C.32.P2S:End"
-line_start: 59232
-line_end: 59233
+line_start: 59568
+line_end: 59569
 dependencies:
   - "A.15"
   - "A.15.1"

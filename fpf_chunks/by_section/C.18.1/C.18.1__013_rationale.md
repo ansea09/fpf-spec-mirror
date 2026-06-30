@@ -6,12 +6,12 @@ section_id: "C.18.1:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__013_rationale.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:12 — Rationale"
-line_start: 45358
-line_end: 45361
+line_start: 45694
+line_end: 45697
 dependencies:
   - "C.16"
   - "C.17"

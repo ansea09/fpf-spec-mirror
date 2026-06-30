@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:1 — Problem frame"
@@ -18,11 +18,13 @@ dependencies:
   - "A.21"
   - "A.6.3"
   - "A.6.3.CR"
+  - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
   - "C.26"
   - "C.26.1"
+  - "C.33"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
@@ -32,23 +34,13 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "coarsened rendering"
-  - "controlled semantic coarsening"
-  - "dashboard tile"
-  - "lookup handle"
-  - "narrower admissible use"
-  - "non-admissible downstream use"
-  - "redaction"
-  - "reopen trigger"
-  - "source-bearing episteme or source publication"
-  - "state-representation shortcut"
 ---
 
 ### A.6.3.CSC:1 - Problem frame
 
 **EntityOfConcern preservation discipline.** Controlled coarsening stays under entityOfConcernRef-preserving viewing only when the C.2.1 `entityOfConcernRef` remains stable. When the source-bearing side is a declared source set, its membership, loss account, and reopen condition must also be bounded; that source-set discipline does not substitute for same-EntityOfConcern preservation. Any `entityOfConcernRef` shift leaves this pattern for `A.6.4`.
 
-**Use this when.** A summary, briefing, redaction, dashboard tile, lookup handle, didactic compression, or other readable coarsened rendering coarsens one source-bearing side by dropping or narrowing distinctions, recoverability, reliability transport, or admissible-use value, or when review discovers that the readable item can be retained only as a coarsened rendering.
+**Use this when.** A summary, briefing, redaction, dashboard tile, lookup handle, didactic compression, architecture description, architecture view, framework readme, preface, pattern-language carrier, or other readable coarsened rendering coarsens one source-bearing side by dropping or narrowing distinctions, recoverability, reliability transport, structural content, or admissible-use value, or when review discovers that the readable item can be retained only as a coarsened rendering. The source-bearing side may be a text, but it may also be wider source structure, architecture as selected structures in context, a model, a graph, a source pack, or a pattern set.
 
 **Plain recognition line.** A short version is useful only while the reader can still see what it came from, what it leaves out, and when to go back.
 

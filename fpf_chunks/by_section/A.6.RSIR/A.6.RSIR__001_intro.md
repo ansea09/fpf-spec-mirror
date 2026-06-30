@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__001_intro.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:intro — Intro"
-line_start: 14184
-line_end: 14189
+line_start: 14520
+line_end: 14525
 dependencies:
   - "A.10"
   - "A.15"

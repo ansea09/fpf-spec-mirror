@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.1.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
-line_start: 64681
-line_end: 64755
+line_start: 65525
+line_end: 65599
 dependencies:
   - "E.5"
 keywords:

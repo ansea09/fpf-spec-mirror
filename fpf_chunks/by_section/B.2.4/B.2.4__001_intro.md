@@ -6,12 +6,12 @@ section_id: "B.2.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__001_intro.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:intro — Intro"
-line_start: 33344
-line_end: 33349
+line_start: 33680
+line_end: 33685
 dependencies:
   - "A.10"
   - "A.15"

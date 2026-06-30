@@ -6,14 +6,15 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:1 — Problem frame"
-line_start: 61641
-line_end: 61691
+line_start: 61983
+line_end: 62034
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.25"
@@ -57,6 +58,7 @@ Typical entry phrases:
 "The generated graph matches the module graph; is the semantic relation the same?"
 "This candidate preserves dataflow but changes control authority."
 "The neural architecture replacement keeps shape but changes routing and memory placement."
+"The narrative order preserves the architecture trade-off; what source structure is still same enough for this use?"
 ```
 
 The first useful output is `StructuralPreservationAdequacyNote@Context`:

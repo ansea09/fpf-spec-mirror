@@ -6,12 +6,12 @@ section_id: "A.6.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__005_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:3 — Forces"
-line_start: 17764
-line_end: 17775
+line_start: 18100
+line_end: 18111
 dependencies:
   - "A.6.6"
   - "A.6.P"

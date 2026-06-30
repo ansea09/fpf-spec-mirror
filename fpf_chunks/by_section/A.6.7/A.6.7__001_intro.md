@@ -6,12 +6,12 @@ section_id: "A.6.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__001_intro.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:intro — Intro"
-line_start: 16745
-line_end: 16775
+line_start: 17081
+line_end: 17111
 dependencies:
   - "A.21"
   - "A.6.1"

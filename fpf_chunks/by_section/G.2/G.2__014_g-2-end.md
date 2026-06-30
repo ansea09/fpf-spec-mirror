@@ -6,12 +6,12 @@ section_id: "G.2:End"
 section_title: "G.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__014_g-2-end.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:End — G.2:End"
-line_start: 88246
-line_end: 88249
+line_start: 89090
+line_end: 89093
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

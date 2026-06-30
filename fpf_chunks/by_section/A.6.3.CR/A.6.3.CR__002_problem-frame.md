@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 12018
-line_end: 12035
+line_start: 12021
+line_end: 12038
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -48,5 +48,5 @@ Use this pattern when one already available source line about the same EntityOfC
 
 **Reliance-facing use.** Open the fuller rewrite-admissibility record only when the rewritten text will be externally relied on, disputed, cited as a source-relation reason, used across context, or read as release, gate, work-preparation, engineering-justification, approval, or evidence justification.
 
-**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`Representation-Scheme Transition`), changed EntityOfConcern (`A.6.4`), comparative review (`E.17.ID.CR`), bridge or substitution use (`F.9` or `F.9.1`), or a deliberately coarsened rendering whose narrower admissible use, non-admissible downstream use, and source-bearing return card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening`.
+**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationSchemeTransition`), changed EntityOfConcern (`A.6.4`), comparative review (`E.17.ID.CR`), bridge or substitution use (`F.9` or `F.9.1`), or a deliberately coarsened rendering whose narrower admissible use, non-admissible downstream use, and source-bearing return card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening`.
 

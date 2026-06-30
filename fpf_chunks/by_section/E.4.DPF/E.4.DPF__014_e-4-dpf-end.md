@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.4.DPF"
-pattern_title: "Domain Principle Framework Authoring and Local-Monolith Landing"
+pattern_title: "Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
 section_id: "E.4.DPF:End"
 section_title: "E.4.DPF:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__014_e-4-dpf-end.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
-  - "E.4.DPF — Domain Principle Framework Authoring and Local-Monolith Landing"
+  - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:End — E.4.DPF:End"
-line_start: 64385
-line_end: 64386
+line_start: 64973
+line_end: 64974
 dependencies:
   - "C.33"
   - "C.34"
@@ -24,6 +24,8 @@ dependencies:
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"

@@ -6,14 +6,15 @@ section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:1 — Problem frame"
-line_start: 61449
-line_end: 61504
+line_start: 61785
+line_end: 61843
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.18"
@@ -50,6 +51,8 @@ keywords:
 
 Use this pattern when an architect has a structure-bearing description, view, decision record, ADR-like projection, eval report, method handoff, generated relation graph, source model, or realized holon observation and needs to know which selected architecture-relevant structure is actually recoverable for the next architecture use.
 
+Use the same pattern when the carrier is a narrative rendering or principle-framework carrier for architecture work: the carrier may preserve a problem-to-structure route, problem-situation architecture, solution-move architecture, candidate trade-off, decision rationale, or source-return cue, but it may also hide selected structures that the next architecture use still needs. In architecture-mediated rendering, inspect the chain `carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`, because each step may have captured and lost different structure.
+
 Primary working reader: an architect, architecture reviewer, method owner, or AI-assisted architecture worker who must use one carrier or observation without letting it stand for the whole architecture, the project decision, evidence sufficiency, or realized structure.
 
 Typical entry phrases:
@@ -74,6 +77,7 @@ StructuralInformationAdequacyNote@Context:
   selectedStructureRefs:
   sourceStructureRefs?:
   sourceDescriptionOrViewRefs?:
+  narrativeRenderingRefs?:
   decisionOrRecordCarrierRefs?:
   realizedStructureObservationRefs?:
   capturedSelectedStructure:

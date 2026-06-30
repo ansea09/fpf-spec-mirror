@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__001_intro.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:intro — Intro"
-line_start: 58379
-line_end: 58384
+line_start: 58715
+line_end: 58720
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.30.AD:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__012_rationale.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:9 — Rationale"
-line_start: 55305
-line_end: 55310
+line_start: 55641
+line_end: 55646
 dependencies:
   - "A.1"
   - "A.10"

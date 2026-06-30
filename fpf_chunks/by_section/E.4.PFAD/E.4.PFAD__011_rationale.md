@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__011_rationale.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:10 — Rationale"
-line_start: 64137
-line_end: 64142
+line_start: 64688
+line_end: 64693
 dependencies:
   - "C.32.ADR"
   - "C.32.PAD"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
   - "F.18"
@@ -33,7 +34,7 @@ keywords:
 
 ### E.4.PFAD:10 - Rationale
 
-FPF already has decision, architecture decision, and ADR-projection patterns. The reason PFAD exists is narrower: framework authors repeatedly need the same framework-specific slots that generic decision patterns do not keep visible by default. Those slots are edition dependency, selected pattern set, relation structure, local monolith publication, source-return, naming, quality route, and currentness route.
+FPF already has decision, architecture decision, and ADR-projection patterns. The reason PFAD exists is narrower: framework authors repeatedly need the same framework-specific slots that generic decision patterns do not keep visible by default. Those slots are edition dependency, selected pattern set, relation structure, publication carrier, access carrier, source-return, naming, quality route, and currentness route.
 
 PFAD is therefore a specialization by obligation, not by vocabulary. If those obligations are not live, the specialization has no value.
 

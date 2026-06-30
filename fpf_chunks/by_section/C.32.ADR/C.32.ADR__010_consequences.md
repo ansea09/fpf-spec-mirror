@@ -6,12 +6,12 @@ section_id: "C.32.ADR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__010_consequences.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:9 — Consequences"
-line_start: 61128
-line_end: 61136
+line_start: 61464
+line_end: 61472
 dependencies:
   - "A.10"
   - "A.15"

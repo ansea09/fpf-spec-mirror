@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-entityofconcernref-preserving-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
-line_start: 12397
-line_end: 12618
+line_start: 12400
+line_end: 12622
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.NAR"
   - "A.6.4"
   - "A.7"
   - "B.3"
@@ -255,7 +256,8 @@ Use this table after the positive field spine. It is not a second catalogue of e
 | --- | --- |
 | `entityOfConcernRef`, EntityOfConcern kind, ontology frame, admissible predicate set, or invariant-bearing receiving rendering changes | Apply `A.6.4` or the ontology-facing governing pattern. |
 | The receiving rendering is only a textual rewrite | Apply `ConservativeRetextualization`. |
-| The primary job is teaching, narration, or explanation-facing rendering | Apply `ExplanationFaithfulnessProfile` unless EntityOfConcern or ontology-frame change makes `A.6.4` primary. |
+| The primary job is explanation-use adequacy for an existing source on an MVPK face | Apply `ExplanationFaithfulnessProfile` unless EntityOfConcern or ontology-frame change makes `A.6.4` primary. |
+| Selected source structures are ordered into a sequential narrative for a declared reader or listener use | Apply `A.6.3.NAR`; keep RT only for the representation-scheme shift that remains after the narrative ordering, source loss, and source return are declared. |
 | The work is rendering, export, upload, serialization, OCR-style extraction, parsing-style extraction, or other carrier work | Keep carrier work outside RT; start with the pattern governing carrier or extraction use, such as `A.7` when source extraction is the current question. |
 | Geometry, notation, embedding space, feature clustering, decoded output, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is being used as ontology, continuity proof, gate, work, evidence, assurance, or transformation-flow currentness claim | Keep RT only for the representation shift and apply the governing pattern for the stronger claim. |
 | Problem formulation, temporal claim, dynamics claim, control claim, or transformation-flow claim becomes primary | Apply `B.5.2`, `C.27`, `A.3.3`, `E.18`, or the governing pattern for that claim. |

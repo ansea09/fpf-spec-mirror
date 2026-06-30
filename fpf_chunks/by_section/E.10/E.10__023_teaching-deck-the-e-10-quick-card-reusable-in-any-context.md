@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Teaching deck — the E.10 quick card (reusable in any Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__023_teaching-deck-the-e-10-quick-card-reusable-in-any-context.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Teaching deck — the E.10 quick card (reusable in any Context)"
-line_start: 68260
-line_end: 68272
+line_start: 69104
+line_end: 69116
 dependencies:
   - "A.10"
   - "A.15"

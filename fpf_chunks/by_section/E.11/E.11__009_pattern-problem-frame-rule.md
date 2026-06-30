@@ -6,12 +6,12 @@ section_id: "E.11:4.3"
 section_title: "Pattern Problem-Frame Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__009_pattern-problem-frame-rule.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.3 — Pattern Problem-Frame Rule"
-line_start: 69671
-line_end: 69685
+line_start: 70515
+line_end: 70529
 dependencies:
   - "E.10"
   - "E.10.ARCH"

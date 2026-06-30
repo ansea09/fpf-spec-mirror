@@ -6,12 +6,12 @@ section_id: "C.17:24"
 section_title: "Minimal didactic cards (one screen each)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__027_minimal-didactic-cards-one-screen-each.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:24 — Minimal didactic cards (one screen each)"
-line_start: 44975
-line_end: 45005
+line_start: 45311
+line_end: 45341
 dependencies:
   - "A.1"
   - "A.10"

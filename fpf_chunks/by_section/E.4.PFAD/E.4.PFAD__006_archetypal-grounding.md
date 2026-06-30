@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 64070
-line_end: 64103
+line_start: 64619
+line_end: 64654
 dependencies:
   - "C.32.ADR"
   - "C.32.PAD"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
   - "F.18"
@@ -33,7 +34,7 @@ keywords:
 
 ### E.4.PFAD:5 - Archetypal Grounding
 
-Tell: A team wants a hydroponic-cucumber domain principle framework. The PFAD decision asks whether the framework depends directly on FPF Core only, or also on an agriculture-domain framework edition; which crop-growth concerns become first patterns; which source packs are strong enough; and which local monolith or publication unit will expose the framework.
+Tell: A team wants a hydroponic-cucumber domain principle framework. The PFAD decision asks whether the framework depends directly on FPF Core only, or also on an agriculture-domain framework edition; which crop-growth concerns become first patterns; which source packs are strong enough; and which publication or access carrier will expose the framework.
 
 Show: A Codex local practice framework has process patterns for baton handoff and prelanding checks. The decision records that these are local practice framework patterns, not FPF Core patterns. It names the FPF Core edition, selected local process patterns, local publication unit, source-return owners, and refresh conditions.
 
@@ -53,14 +54,16 @@ PrincipleFrameworkArchitectureDecision@HydroponicCucumberDomain:
   namingDecisionRefs: F18-HC-framework-name-card-required
   selectedPatternSetRefs: problem-framing, nutrient-monitoring, climate-control interpretation, harvest-feedback patterns
   selectedPatternRelationRefs: PFR-HC-source-reuse, PFR-HC-specialization, PFR-HC-publication
-  publicationUnitRefs: HC-local-monolith-readme-and-toc
+  publicationUnitRefs: HC-all-in-one-carrier-readme-and-toc
+  accessCarrierRefs: HC-grower-skill-pack-or-MCP-route-if-built
   dependencyAndEditionRefs: depends on FPFCorePatternSet@current; no Core reverse dependency
   qualityEvaluationRefs: E21-HC-first-pattern-evaluation
   admissionReviewRefs: none until admission is claimed
   rejectedAlternatives: land into FPF-Spec.md; publish only a crop checklist
   rationaleRefs: source-pack claim sheet and E.4 family map
   consequences: faster domain guidance; explicit refresh debt when sources or Core edition change
-  localMonolithLandingRefs: HC-local-monolith-draft
+  publicationCarrierRefs: HC-all-in-one-carrier
+  accessCarrierRefs: HC-grower-skill-pack-or-MCP-route-if-built
   sourceReturnConditions: return to G.2 when source pack loses a rival horticulture tradition
   refreshOrSupersessionConditions: G.11 refresh when Core edition or greenhouse practice changes
 ```

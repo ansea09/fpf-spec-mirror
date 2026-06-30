@@ -6,12 +6,12 @@ section_id: "E.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__003_problem.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:2 — Problem"
-line_start: 63819
-line_end: 63830
+line_start: 64166
+line_end: 64177
 dependencies:
   - "C.33"
   - "C.34"
@@ -22,9 +22,12 @@ dependencies:
   - "E.17"
   - "E.19"
   - "E.2"
+  - "E.2.DA"
   - "E.21"
   - "E.23"
   - "E.4.DPF"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.5.3"
@@ -37,9 +40,9 @@ keywords:
 
 ### E.4:2 - Problem
 
-FPF has grown from a single core pattern set into an ecosystem of core rules, tools, companions, domain frameworks, local practice frameworks, source packs, decisions, quality records, and publication units. If those objects are described only by file names, abbreviations, or reader-facing tables of contents, several different kinds collapse:
+FPF has grown from a single core pattern set into an ecosystem of core rules, tools, companions, domain frameworks, local practice frameworks, source packs, decisions, quality records, publication carriers, and access carriers. If those objects are described only by file names, abbreviations, or reader-facing tables of contents, several different kinds collapse:
 
-- a pattern set is treated as a publication unit;
+- a pattern set is treated as a publication or access carrier;
 - a local practice framework is treated as an FPF Core amendment;
 - a relation record is treated as a method order;
 - a dependency on a framework edition is treated as a specialization relation;

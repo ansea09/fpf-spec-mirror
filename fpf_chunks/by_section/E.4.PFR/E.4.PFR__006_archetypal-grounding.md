@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Archetypal Grounding"
-line_start: 64480
-line_end: 64517
+line_start: 65322
+line_end: 65359
 dependencies:
   - "A.10"
   - "C.33"
@@ -20,10 +20,13 @@ dependencies:
   - "E.11"
   - "E.11.PUR"
   - "E.17"
+  - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.5.3"
   - "E.9"
@@ -36,7 +39,7 @@ keywords:
 
 ### E.4.PFR:5 - Archetypal Grounding
 
-Tell: A hydroponic-cucumber framework edition depends on an FPF Core edition. It has a publication relation to its local monolith, a source relation to greenhouse-control source packs, a specialization relation where one pattern narrows an FPF authoring pattern for crop-domain use, and quality relations for evaluated pattern drafts.
+Tell: A hydroponic-cucumber framework edition depends on an FPF Core edition. It has a publication relation to its all-in-one publication carrier, an access relation to a grower-assistant skill pack or MCP-backed advisory route when those are built, a source relation to greenhouse-control source packs, a specialization relation where one pattern narrows an FPF authoring pattern for crop-domain use, and quality relations for evaluated pattern drafts.
 
 Show: A local Codex process framework depends on FPF Core and on selected architecture patterns. Its baton-handoff pattern may coordinate with `E.11.PUR`, but that relation is not an instruction to perform that method. The relation record states the governed use and the direct pattern owner.
 

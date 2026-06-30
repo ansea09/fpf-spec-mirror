@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:3 — Forces"
-line_start: 12389
-line_end: 12396
+line_start: 12392
+line_end: 12399
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.NAR"
   - "A.6.4"
   - "A.7"
   - "B.3"

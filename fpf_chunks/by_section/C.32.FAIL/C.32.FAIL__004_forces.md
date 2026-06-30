@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:3 — Forces"
-line_start: 60501
-line_end: 60510
+line_start: 60837
+line_end: 60846
 dependencies:
   - "A.10"
   - "A.15"

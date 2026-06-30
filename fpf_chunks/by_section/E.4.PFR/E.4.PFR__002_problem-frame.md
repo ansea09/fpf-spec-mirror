@@ -6,12 +6,12 @@ section_id: "E.4.PFR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__002_problem-frame.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:1 — Problem frame"
-line_start: 64393
-line_end: 64400
+line_start: 65234
+line_end: 65241
 dependencies:
   - "A.10"
   - "C.33"
@@ -20,10 +20,13 @@ dependencies:
   - "E.11"
   - "E.11.PUR"
   - "E.17"
+  - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.5.3"
   - "E.9"
@@ -36,7 +39,7 @@ keywords:
 
 ### E.4.PFR:1 - Problem frame
 
-Use this pattern when an FPF framework needs to record how patterns, framework editions, publication units, source packs, decisions, generated carriers, and quality records relate without collapsing every relation into dependency, method order, inheritance, or cross-reference.
+Use this pattern when an FPF framework needs to record how patterns, framework editions, publication carriers, access carriers, source packs, decisions, generated carriers, and quality records relate without collapsing every relation into dependency, method order, inheritance, runtime/API relation, or cross-reference.
 
 Primary `EntityOfConcern`: relation and edition records for an FPF-grounded pattern framework. The first useful output is one or more relation records with a relation function, direct governing pattern, dependency or edition effect when present, blocked stronger reading, and return condition.
 

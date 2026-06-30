@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
-line_start: 20896
-line_end: 21330
+line_start: 21232
+line_end: 21666
 dependencies:
   - "A.10"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "G.9:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__002_use-this-when.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:0 — Use this when"
-line_start: 91012
-line_end: 91017
+line_start: 91856
+line_end: 91861
 dependencies:
   - "A.19"
   - "A.21"

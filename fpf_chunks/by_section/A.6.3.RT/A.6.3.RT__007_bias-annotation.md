@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__007_bias-annotation.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:6 — Bias-Annotation"
-line_start: 12702
-line_end: 12706
+line_start: 12714
+line_end: 12718
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.NAR"
   - "A.6.4"
   - "A.7"
   - "B.3"

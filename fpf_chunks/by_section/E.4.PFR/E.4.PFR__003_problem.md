@@ -6,12 +6,12 @@ section_id: "E.4.PFR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__003_problem.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:2 — Problem"
-line_start: 64401
-line_end: 64406
+line_start: 65242
+line_end: 65247
 dependencies:
   - "A.10"
   - "C.33"
@@ -20,10 +20,13 @@ dependencies:
   - "E.11"
   - "E.11.PUR"
   - "E.17"
+  - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.5.3"
   - "E.9"
@@ -36,7 +39,7 @@ keywords:
 
 ### E.4.PFR:2 - Problem
 
-Pattern frameworks need many relation functions. One pattern may specialize another. A local framework may depend on a domain framework edition. A local monolith may publish a selected pattern set. A generated graph may suggest relation candidates. A quality result may evaluate a pattern version. These relations have different meanings and different owners.
+Pattern frameworks need many relation functions. One pattern may specialize another. A local framework may depend on a domain framework edition. An all-in-one publication carrier may publish a selected pattern set. A skill pack or MCP-backed service may expose access to that set. A generated graph may suggest relation candidates. A quality result may evaluate a pattern version. These relations have different meanings and different owners.
 
 If they are all recorded as "related patterns" or "dependencies", maintainers cannot tell which relation can be used for what purpose, which stronger reading is blocked, what breaks when an edition changes, or which owner receives repair.
 

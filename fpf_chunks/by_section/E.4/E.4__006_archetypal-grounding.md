@@ -6,12 +6,12 @@ section_id: "E.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__006_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:5 — Archetypal Grounding"
-line_start: 63913
-line_end: 63935
+line_start: 64269
+line_end: 64291
 dependencies:
   - "C.33"
   - "C.34"
@@ -22,9 +22,12 @@ dependencies:
   - "E.17"
   - "E.19"
   - "E.2"
+  - "E.2.DA"
   - "E.21"
   - "E.23"
   - "E.4.DPF"
+  - "E.4.DPF.DA"
+  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.5.3"
@@ -37,7 +40,7 @@ keywords:
 
 ### E.4:5 - Archetypal Grounding
 
-Tell: A team creating a hydroponic-cucumber domain principle framework should not place every useful crop-growing rule into `FPF-Spec.md`. It creates a domain framework edition grounded in FPF Core and horticulture SoTA, declares its dependency on an FPF Core edition, records its source packs, drafts domain patterns under `E.8`, and publishes a local monolith for growers or agronomists.
+Tell: A team creating a hydroponic-cucumber domain principle framework should not place every useful crop-growing rule into `FPF-Spec.md`. It creates a domain framework edition grounded in FPF Core and horticulture SoTA, declares its dependency on an FPF Core edition, records its source packs, drafts domain patterns under `E.8`, and publishes an all-in-one publication carrier for growers or agronomists.
 
 Mini-example:
 
@@ -46,13 +49,13 @@ Mini-example:
 | `ecosystemScopeRef` | `HydroponicCucumberPrincipleFramework@GreenhouseCropDomain` |
 | `frameworkFamilyMembers` | domain principle framework; local grower practice framework as a later dependent edition |
 | `selectedPatternSetRefs` | crop-growth problem framing, nutrient-solution monitoring, climate-control interpretation, harvest-quality feedback patterns |
-| `selectedRelationRecordRefs` | source or decision reuse from horticulture source pack; specialization from general FPF authoring patterns; publication relation to local monolith |
+| `selectedRelationRecordRefs` | source or decision reuse from horticulture source pack; specialization from general FPF authoring patterns; publication relation to all-in-one carrier |
 | `selectedDependencyAndEditionRefs` | depends on `FPFCorePatternSet@Edition`; no reverse dependency from FPF Core |
-| `selectedPublicationUnitRefs` | domain local monolith plus readme as first-entry carrier |
+| `selectedPublicationOrAccessCarrierRefs` | domain all-in-one publication carrier plus readme as first-entry carrier |
 | `selectedSourcePackRefs` | greenhouse-control and crop-production `G.2` source packs |
 | `qualityAndImprovementRefs` | `E.21` pattern-quality evaluation and `E.23` improvement loop for drafted domain patterns |
 | `currentnessAndRefreshRefs` | `G.11` refresh condition when source pack, Core edition, or crop-production practice changes |
-| `blockedOverreadRefs` | do not read the local monolith as the architecture itself; do not read domain patterns as FPF Core changes |
+| `blockedOverreadRefs` | do not read the publication carrier as the architecture itself; do not read domain patterns as FPF Core changes |
 
 Show: A Codex-process local practice framework may depend on FPF Core and selected architecture-domain patterns. Its handoff patterns, prelanding patterns, and process runbooks can be local framework material. They do not define the FPF Core merely because they use FPF vocabulary and are useful to this workspace.
 

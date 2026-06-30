@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist (CC‑A.6.P)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_conformance-checklist-cc-a-6-p.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7 — Conformance Checklist (CC‑A.6.P)"
-line_start: 13949
-line_end: 14006
+line_start: 14285
+line_end: 14342
 dependencies:
   - "A.10"
   - "A.2.4"

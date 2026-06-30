@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 33117
-line_end: 33136
+line_start: 33453
+line_end: 33472
 dependencies:
   - "A.1"
   - "A.10"

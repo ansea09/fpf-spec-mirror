@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 76108
-line_end: 76122
+line_start: 76952
+line_end: 76966
 dependencies:
   - "A.10"
   - "A.15"

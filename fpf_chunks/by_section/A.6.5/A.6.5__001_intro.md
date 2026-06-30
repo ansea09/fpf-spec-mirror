@@ -6,12 +6,12 @@ section_id: "A.6.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__001_intro.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:intro — Intro"
-line_start: 15884
-line_end: 15891
+line_start: 16220
+line_end: 16227
 dependencies:
   - "A.1"
   - "A.2.1"

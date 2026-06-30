@@ -6,12 +6,12 @@ section_id: "F.3:17"
 section_title: "Didactic close (60‑second recap)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__018_didactic-close-60-second-recap.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:17 — Didactic close (60‑second recap)"
-line_start: 80840
-line_end: 80843
+line_start: 81684
+line_end: 81687
 dependencies:
   - "A.11"
   - "A.7"

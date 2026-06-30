@@ -6,14 +6,15 @@ section_id: "C.34:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:3 — Forces"
-line_start: 61700
-line_end: 61709
+line_start: 62043
+line_end: 62052
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.25"
@@ -50,6 +51,6 @@ keywords:
 | Equivalence vs use | Exact equivalence is rare and often unnecessary; the declared use decides how much preservation is enough. |
 | Formal rigor vs practitioner action | Formal mapping modes help only when preserved and lost structure are named in architecture terms. |
 | Shape vs semantics | Two graphs, views, or diagrams can have the same shape while their relation types differ. |
-| Compression vs loss | Projection, abstraction, coarsening, and simulation relations make work possible by dropping structure. |
+| Compression vs loss | Projection, abstraction, coarsening, and simulation relations make work possible by dropping structure. In a chain such as `source structures -> architecture -> architecture description or view -> narrative or framework carrier`, preservation must be checked arrow by arrow rather than claimed as one global sameness. |
 | Cross-context reach | A mapping across teams, source traditions, tool models, or holon levels needs bridge and conformance owners when substitution or transfer is claimed. |
 

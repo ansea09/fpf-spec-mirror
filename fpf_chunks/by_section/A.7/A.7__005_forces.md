@@ -6,12 +6,12 @@ section_id: "A.7:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__005_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:4 — Forces"
-line_start: 18979
-line_end: 18986
+line_start: 19315
+line_end: 19322
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__004_forces.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:3 — Forces"
-line_start: 84205
-line_end: 84213
+line_start: 85049
+line_end: 85057
 dependencies:
   - "F.1"
   - "F.10"

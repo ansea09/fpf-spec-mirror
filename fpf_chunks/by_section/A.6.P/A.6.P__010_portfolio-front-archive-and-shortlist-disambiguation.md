@@ -6,12 +6,12 @@ section_id: "A.6.P:7a"
 section_title: "Portfolio, front, archive, and shortlist disambiguation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_portfolio-front-archive-and-shortlist-disambiguation.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7a — Portfolio, front, archive, and shortlist disambiguation"
-line_start: 14007
-line_end: 14043
+line_start: 14343
+line_end: 14379
 dependencies:
   - "A.10"
   - "A.2.4"

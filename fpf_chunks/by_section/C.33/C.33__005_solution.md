@@ -6,14 +6,15 @@ section_id: "C.33:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__005_solution.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
   - "C.33:4 — Solution"
-line_start: 61530
-line_end: 61548
+line_start: 61869
+line_end: 61887
 dependencies:
   - "A.22"
+  - "A.6.3.NAR"
   - "A.6.M"
   - "C.16"
   - "C.18"
@@ -56,7 +57,7 @@ Work in this order:
 
 1. Name the architecture claim or pre-claim described holon and bounded context.
 2. Name the selected structure refs or structure kinds being relied on. If they are not recoverable, stop and return to `C.30`, `C.30.ASV`, `A.22`, or `C.32.P2S`.
-3. Name the carrier, source structure, description, view, decision record, eval report, method handoff, generated relation graph, or realized observation being used.
+3. Name the carrier, source structure, description, view, narrative rendering, decision record, eval report, method handoff, generated relation graph, or realized observation being used.
 4. State the captured selected structure in relation terms: relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization.
 5. State the expected but uncaptured structure when the next use needs it: hidden placement, data custody, runtime dependency, transformation-flow relation, source label semantics, confidence class, unexplored region, or missing bearer.
 6. State lost or hidden structure. If no loss is claimed, justify why the carrier is adequate for the declared use rather than for all uses.

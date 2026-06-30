@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 64152
-line_end: 64160
+line_start: 64703
+line_end: 64711
 dependencies:
   - "C.32.ADR"
   - "C.32.PAD"
@@ -23,6 +23,7 @@ dependencies:
   - "E.21"
   - "E.23"
   - "E.4"
+  - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
   - "F.18"
@@ -38,5 +39,5 @@ keywords:
 - **Coordinates with:** `C.32.ADR` and `E.17` for decision publication projections.
 - **Coordinates with:** `E.4` for family membership and selected structures.
 - **Coordinates with:** `E.4.PFR` for dependency, edition, compatibility, relation, and supersession effects.
-- **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.21`, `E.23`, `C.33`, `C.34`, and `C.35` for name, source, currentness, quality, preservation, and produced-carrier claims.
+- **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.4.DPF.DA`, `E.21`, `E.23`, `C.33`, `C.34`, and `C.35` for name, source, currentness, package adequacy, pattern quality, preservation, and produced-carrier claims.
 

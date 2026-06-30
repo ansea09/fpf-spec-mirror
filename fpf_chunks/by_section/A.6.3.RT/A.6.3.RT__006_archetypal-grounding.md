@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 12619
-line_end: 12701
+line_start: 12623
+line_end: 12713
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,6 +22,7 @@ dependencies:
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.NAR"
   - "A.6.4"
   - "A.7"
   - "B.3"
@@ -113,6 +114,14 @@ This also stays outside `RepresentationSchemeTransition`. The representation sch
 **Published dashboard tile.** `Service S: current dashboard view foregrounds cache-failover evidence; alternative branches and confidence bands remain in the incident worksheet.`
 
 This does **not** remain ordinary RepresentationSchemeTransition if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with source-bearing return to the source-bearing worksheet and a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, ordinary entityOfConcernRef-preserving representation-scheme transition no longer governs; apply A.6.3.CSC Controlled Semantic Coarsening rather than treating it as a normal scheme shift.
+
+#### A.6.3.RT:5.4.d - Boundary to structure-to-narrative rendering
+
+**Source structure slice.** `Architecture candidate C-2 has module split M, data-custody constraint D, placement constraint P, and unresolved latency versus maintainability trade-off T.`
+
+**Published narrative slice.** `The team first tried to preserve module split M, then discovered that data custody D forced placement P, so candidate C-2 accepts latency residual T to keep maintainability within the selected range.`
+
+This does not stay ordinary `RepresentationSchemeTransition` merely because prose is one representation of architecture. The receiving rendering orders selected source structures into a narrative path for a reader. Apply `A.6.3.NAR` for ordering rationale, preserved and lost structure, admissible use, and source return. Use RT only for any remaining representation-scheme shift that does not depend on narrative ordering.
 
 #### A.6.3.RT:5.5 - Boundary to decode-mediated latent cases
 A user or decoding relation tries to restate a latent region or distributed feature cluster as explicit entity content or relation content. This stays outside the admissible entityOfConcernRef-preserving case under `A.6.3.RT` unless the pinned source claim or publication, decoding relation or access relation, recoverability evidence, admissible-use value, and remaining user action are already present. Readable decoded output alone is not enough.

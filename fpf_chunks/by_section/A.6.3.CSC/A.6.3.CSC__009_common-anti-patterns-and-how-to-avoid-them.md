@@ -6,23 +6,25 @@ section_id: "A.6.3.CSC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "02a8b4bac1f141b1751421bf522e9dc489ae522e"
+commit_sha: "c859eed90b5ca9d0f717a1ffb13a841a3b52c016"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11906
-line_end: 11918
+line_start: 11909
+line_end: 11921
 dependencies:
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.6.3"
   - "A.6.3.CR"
+  - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
   - "C.26"
   - "C.26.1"
+  - "C.33"
   - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
@@ -32,16 +34,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "coarsened rendering"
-  - "controlled semantic coarsening"
-  - "dashboard tile"
-  - "lookup handle"
-  - "narrower admissible use"
-  - "non-admissible downstream use"
-  - "redaction"
-  - "reopen trigger"
-  - "source-bearing episteme or source publication"
-  - "state-representation shortcut"
 ---
 
 ### A.6.3.CSC:8 - Common Anti-Patterns and How to Avoid Them
