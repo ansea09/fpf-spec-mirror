@@ -6,12 +6,12 @@ section_id: "A.3.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__008_conformance-checklist.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:7 — Conformance Checklist"
-line_start: 6442
-line_end: 6467
+line_start: 6558
+line_end: 6585
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.7"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
@@ -29,7 +30,10 @@ dependencies:
   - "A.6.1"
   - "B.1.5"
   - "C.2.P.DR"
+  - "C.20"
   - "C.29"
+  - "C.36"
+  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
@@ -38,10 +42,12 @@ dependencies:
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "abstract process"
-  - "how-to"
-  - "procedure"
-  - "recipe"
+  - "method"
+  - "method composition"
+  - "method vs method description vs work"
+  - "non-agentive holon"
+  - "submethod"
+  - "way of doing"
 ---
 
 ### A.3.1:7 - Conformance Checklist
@@ -52,7 +58,7 @@ keywords:
 
 **CC-A3.1-3 (Description relation).** A method should have at least one named `U.MethodDescription` when work, assurance, gate, or audit reliance depends on it. Several descriptions may describe the same method only under a stated method-identity relation or criterion.
 
-**CC-A3.1-4 (Assignment-free method).** A method may state role-kind requirements or capability requirements. It does not bind named people, teams, organizations, or calendar slots.
+**CC-A3.1-4 (Assignment-free method).** A method may state role-kind admission conditions or capability-fit conditions. These are method-side admissibility conditions, not deontic obligations by default. The method does not bind named people, teams, organizations, or calendar slots.
 
 **CC-A3.1-5 (Runtime-free method).** Dated runs, timestamps, telemetry, logs, and work-result records belong to `U.Work` and associated evidence patterns or source patterns, not to the method identity.
 
@@ -64,9 +70,11 @@ keywords:
 
 **CC-A3.1-9 (Graph and representation guard).** A graph path, path slice, query, predicate, table, dashboard, publication face, or pattern relation is not a method or work sequence by layout. Use `C.2.P.DR` when representation wording is overread as imperative action.
 
-**CC-A3.1-10 (Method relation structure and work composition distinction).** Method composition, method-family selection, fallback, refinement, substitution, iteration, decomposition, and work-occurrence composition must stay separate even when they correspond. When method-side relations are current, recover `MethodRelationStructure@BoundedContext`; algebraic, graph, categorical, process-calculus, effect-calculus, matrix, embedding, distributed, or neural notation is a lens or representation over that structure unless a governing pattern states a different object by value.
+**CC-A3.1-10 (Method holon, method relation structure, and work composition distinction).** Method-holon composition, method-family selection, fallback, refinement, substitution, iteration, decomposition, and work-occurrence composition must stay separate even when they correspond. When submethods are assembled into a whole method, govern the result as `U.Method` with `B.1.5` when order-sensitive composition is current. A step label, step description, order edge, work-plan item, event-log segment, telemetry interval, engine stroke label, detector component, or graph node is not a submethod until it is recovered as a `U.Method` with method-level preconditions, effects, interface or boundary, and whole-method relation. A temporal work part may enact the same whole method during a slice, and an episode may split continuity without changing method identity. When method-side relations are current without whole-method assembly, recover `MethodRelationStructure@BoundedContext`. Algebraic, graph, categorical, process-calculus, effect-calculus, matrix, embedding, distributed, or neural notation is a lens or representation over the selected method object or method relation structure unless a governing pattern states a different object by value.
 
-**CC-A3.1-11 (Parameter and variant discipline).** Parameters may be declared at method or method-description level; concrete values are bound in work planning or work occurrence. Variant identity must be justified by effects, bounds, accepted inputs, and context.
+**CC-A3.1-11 (Practice wording recovery).** When source wording says `practice`, record the recovered claim kind before accepting a method statement: `U.Method`, method family or method relation structure, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, role assignment or role relation, bounded context, discipline, cultural-evolution case, canon or memory episteme, recognition or selection regime, mediation system, evidence relation, source label, or quote-only wording.
 
-**CC-A3.1-12 (Evidence and assurance boundary).** A method or method description does not by itself prove that work happened, that a result is warranted for the claimed use, that a gate is passed, or that action is authorized. Those claims use the relevant evidence, assurance, gate, temporal, authority, work-plan, or work patterns.
+**CC-A3.1-12 (Parameter and variant discipline).** Parameters may be declared at method or method-description level; concrete values are bound in work planning or work occurrence. Variant identity must be justified by effects, bounds, accepted inputs, and context.
+
+**CC-A3.1-13 (Evidence and assurance boundary).** A method or method description does not by itself prove that work happened, that a result is warranted for the claimed use, that a gate is passed, or that action is authorized. Those claims use the relevant evidence, assurance, gate, temporal, authority, work-plan, or work patterns.
 

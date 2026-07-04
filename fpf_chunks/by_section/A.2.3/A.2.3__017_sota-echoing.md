@@ -6,12 +6,12 @@ section_id: "A.2.3:10.3"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__017_sota-echoing.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.3 — SoTA-Echoing"
-line_start: 3374
-line_end: 3379
+line_start: 3457
+line_end: 3462
 dependencies:
   - "A.1.1"
   - "A.15.1"

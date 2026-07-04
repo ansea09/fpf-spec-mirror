@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__007_bias-annotation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:6 — Bias-Annotation"
-line_start: 12284
-line_end: 12288
+line_start: 12405
+line_end: 12409
 dependencies:
   - "A.15"
   - "A.6.2"

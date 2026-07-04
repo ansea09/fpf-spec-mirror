@@ -6,12 +6,12 @@ section_id: "A.15.1:16"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__021_lowering-repair-and-refresh-conditions.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:16 — Lowering, Repair, and Refresh Conditions"
-line_start: 22099
-line_end: 22106
+line_start: 22273
+line_end: 22280
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,17 +41,19 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ### A.15.1:16 - Lowering, Repair, and Refresh Conditions
 
-Lower a candidate `U.Work` claim when performer, enacted method, method-description source when current, time window, `executedWithin`, affected referent, parameter bindings, resources, outcome, or state-change witness cannot be named at the granularity required by the next performed-work use. The acceptable lowered record is a plan note, readiness-gap note, evidence note, source-gap note, source-restoration request, or method-description reference, not a backdated work occurrence.
+Lower a candidate `U.Work` claim when performer, enacted method, method-description source when current, time window, `executedWithin`, affected referent, parameter bindings, resources, outcome, or state-change witness cannot be named at the granularity required by the next performed-work use. Lower a candidate work-part claim when the downstream use does not need a named work part or when the candidate is only an interval, event-log row, telemetry segment, method-description constituent, component behavior, mechanism material, or source cue. The acceptable lowered record is a temporal relation, plan note, readiness-gap note, evidence note, telemetry slice, method-description reference, source-gap note, source-restoration request, or direct neighboring object, not a backdated work occurrence or a gratuitous work part.
 
 Repair the work record when a subsequent source changes the work interval, performer, role assignment, enacted method, method-description edition, parameter binding, resource ledger, outcome, affected referent, state-plane reference, pre-state reference, post-state reference, overlap policy, or aggregation policy. Repair only the changed relation: do not rewrite the method when only evidence changed, do not rewrite evidence when only work time changed, and do not convert a plan or source-restoration request into work.
 

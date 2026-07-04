@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:4 — Solution"
-line_start: 21329
-line_end: 21451
+line_start: 21450
+line_end: 21576
 dependencies:
   - "A.10"
   - "A.12"
@@ -58,26 +58,26 @@ keywords:
  When a source-side "process", "algorithm", "solver", "workflow", "procedure", or similar label points to changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed values. A.15 carries only the alignment among role, method, method-description, work-plan, and performed-work references. Formal substrate, mathematical-lens use, mechanism declaration or realization, evidence, gate, source, result, publication, and temporal claims are governed by their own patterns.
 
 When methods are related to one another, A.15 keeps only the alignment use of that relation. The method-side object is `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `G.5`, or a direct method-composition pattern when current. A method algebra, workflow graph, process calculus, matrix, category, embedding, or neural representation is a lens or method description over that structure, not a role relation, work plan, dated work occurrence, or assignment relation.
-The solution is a stratified alignment that cleanly separates the `design-time` and `run-time` for contextual **enactment**. The bridge between these worlds is the **`U.RoleAssignment`**.
+The solution is a stratified alignment that cleanly separates semantic method, method-description source, holder-in-role assignment, holder `U.Capability` instances when relied on, separate capability statements or currentness assessments when those are used, separate capability-fit conditions when current, intended work plan, and dated performed work. The work-facing assignment relation is **`U.RoleAssignment`**.
 
 #### A.15:4.1 - The Core Entities: A Strict Distinction
 
 FPF mandates the use of the following distinct, non-overlapping entities to model method, plan, and work enactment. Using them interchangeably is a conformance violation.
 
-**A) Design-Time Entities (The World of Potential):**
+**A) Method, Description, Capability, And Plan Values:**
 
-*   **`U.Role`:** A contextual "mask" or "job title" (e.g., `TesterRole`). It specifies expected contribution or responsibility in a bounded context; it is not the holder, method, capability, work plan, or work occurrence.
+*   **`U.Role`:** A context-bound role value naming what a holder is being in a bounded context. Expected contribution, responsibility, permission, commitment, obligation, capability-fit, and admission conditions are neighboring relations governed by their direct patterns; the role value is not the holder, method, capability, work plan, or work occurrence.
 *   **`U.Method`:** The **abstract way-of-doing** inside a context (paradigm-agnostic; may be imperative, functional, logical, or hybrid).
 *   **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`**; it may be expressed in an SOP, algorithm, proof, recipe, or other method-description publication.
-*   **`U.Capability`:** An **attribute** of a `U.System` that represents its **ability** to enact the declared `U.Method` under stated conditions. A `MethodDescription` may describe that method; the capability is not the description and not the work occurrence.
+*   **`U.Capability`:** The `A.2.2` admitted dependent durable U-kind for holder-dependent capability instances. A concrete instance is a `U.System` holder's ability to perform a work family or produce a result class within a declared envelope, measure set, qualification window, and currentness condition. A `CapabilityStatement`, evidence relation, source-use relation, or currentness assessment may support relying on that instance; a capability-fit condition may test it. The capability instance is not the method, method description, support record, fit predicate, work plan, or work occurrence.
 *   **`U.WorkPlan`:** An **`U.Episteme`** declaring **intended `U.Work` occurrences** (windows, dependencies, intended performers as role kinds, budgets) - see **A.15.2**.
 
 **B) The Bridge Entity:**
-*   **`U.RoleAssignment`:** The typed work-facing assignment relation that links a holder system or acting holon, a `U.Role`, a `U.BoundedContext`, any current window, and justification or source references when they matter.
+*   **`U.RoleAssignment`:** The typed assignment relation for enactment-facing roles. It links a holder system or acting holon, a `U.Role`, a `U.BoundedContext`, any current window, and justification or source references when they matter.
 
-**C) Run-Time Entity (The World of Actuality):**
+**C) Performed Occurrence:**
 
-*   **`U.Work`:** An **occurrence** or **event**. It is the concrete, dated, resource-consuming enactment or execution of a `U.Method` by a `Holder` acting under a `U.RoleAssignment`; capability checks are evaluated at run time against the holder, and `methodDescriptionRef` names the source episteme used to identify or constrain the method when that source is being used for the work claim. This is the only entity that has a start and end time and consumes resources.
+*   **`U.Work`:** An **occurrence** or **event**. It is the concrete, dated, resource-consuming enactment or execution of a `U.Method` by a holder under a `U.RoleAssignment`; capability-fit checks are evaluated against that holder for the occurrence, and `methodDescriptionRef` names the source episteme used to identify or constrain the method when that source is being used for the work claim. This is the only value in this alignment that has a start and end time and consumes resources.
 
 **Kinds of Work and the primary target**
 
@@ -95,7 +95,7 @@ This model can be easily understood using the analogy of a chef in a restaurant.
 
 *   **`ChefRole`** is the **Role**. It's a job title with certain expectations.
 *   A **Cookbook (`U.MethodDescription`)** contains the **recipe** for a Souffle. It's a piece of knowledge.
-*   The chef's **skill** in making souffles is their **`U.Capability`**. They have this skill even when they are not cooking.
+*   The chef's **skill** in making souffles is their **`U.Capability`** instance. They have this skill even when they are not cooking, while a certificate or review about the skill is a separate support record.
 *   The restaurant's rulebook (`U.BoundedContext`) states that a holder assigned to `ChefRole` needs the capability to follow the recipes in the cookbook before the relevant cooking work is admitted.
 *   The actual act of **making a souffle** on Tuesday evening - using eggs and butter, taking 25 minutes, and consuming gas - is the **`U.Work`**.
 
@@ -107,17 +107,19 @@ The entities are connected by precise, normative relations that form a traceable
 
 ```mermaid
 graph TD
-    subgraph Design-Time Scope (Tᴰ)
+    subgraph Method, Role, and Plan Scope
         A[U.BoundedContext] -- defines --> B(U.Role)
         M[U.Method] -- isDescribedBy --> D[U.MethodDescription]
-        Cap[U.Capability] -- is capability for --> M
+        Cap[U.Capability instance] -- ability-for method family --> M
+        Fit[CapabilityFitCondition] -- tests declared measures of --> Cap
+        Fit -- may cite --> Q[U.Characteristic value, Q-Bundle slot, or architecture-characteristic row]
         H(U.System as Holder) --> RB(U.RoleAssignment)
         B -- is the role in --> RB
         A -- is the context for --> RB
-        A -- bindsCapability(Role,Capability) --> Cap
+        A -- declares work-admission condition --> Fit
     end
 
-    subgraph Run-Time Scope (Tᴿ)
+    subgraph Performed Work Occurrence
         W[U.Work]
     end
 
@@ -127,6 +129,8 @@ graph TD
     style A fill:#e6f3ff,stroke:#36c,stroke-width:2px
     style B fill:#fff2cc,stroke:#d6b656,stroke-width:2px
     style Cap fill:#d5e8d4,stroke:#82b366,stroke-width:2px
+    style Fit fill:#d5e8d4,stroke:#82b366,stroke-width:2px,stroke-dasharray: 4 4
+    style Q fill:#fff2cc,stroke:#d6b656,stroke-width:2px,stroke-dasharray: 4 4
     style M fill:#d5e8d4,stroke:#82b366,stroke-width:2px
     style D fill:#f8cecc,stroke:#b85450,stroke-width:2px
     style H fill:#e1d5e7,stroke:#9673a6,stroke-width:2px
@@ -134,14 +138,14 @@ graph TD
     style W fill:#ffe6cc,stroke:#d79b00,stroke-width:2px,font-weight:bold
 ```
 
-*   **`bindsCapability(Role, Capability)`:** A `U.BoundedContext` asserts that a given `Role` requires a specific `Capability`. This is a `design-time` rule.
+*   **Capability-fit condition:** A bounded context, method-description source, work plan, or work-admission rule may state that the holder under a `U.RoleAssignment` must satisfy a capability threshold or envelope for a method or work claim. The fit condition tests the holder's `U.Capability` instance and may cite declared capability measures, `U.Characteristic` values, Q-Bundle slots, or architecture-characteristic criteria rows. The role value does not own the capability, the support record does not become the capability, and the fit condition is not a second capability kind.
 *   **`isDescribedBy(Method, MethodDescription)`:** A `U.Method` is formally described by one or more `MethodDescription`s. This links the abstract way-of-doing to the method-description episteme and to the publication used when that source is being used for the method claim.
-*   **`enactsMethod(Work, Method)`:** A specific `U.Work` is a run-time enactment of a `U.Method` under a `U.RoleAssignment`. Capability checks are evaluated against the holder at run time; the `MethodDescription` remains the source episteme or method-description reference used to identify, constrain, or justify the method when that source is being used for the work claim.
+*   **`enactsMethod(Work, Method)`:** A specific `U.Work` is a dated performed enactment of a `U.Method` under a `U.RoleAssignment`. Capability-fit checks are evaluated against the holder for that occurrence; the `MethodDescription` remains the source episteme or method-description reference used to identify, constrain, or justify the method when that source is being used for the work claim.
 *   **`performedBy(Work, RoleAssignment)`:** A `U.Work` is performed by the holder named through a specific `U.RoleAssignment`. This links the work occurrence to the holder-in-role-in-context.
 
-_At run time, capability thresholds declared by the context or specification are **checked** against the holder; `U.Work` outcomes provide **evidence** for capability conformance._
+For a performed occurrence, capability thresholds declared by the context, method-description source, work plan, or work-admission rule are **checked** against the holder; `U.Work` outcomes provide **evidence** for capability conformance only through the governing evidence or evaluation relation.
 
-This chain provides complete traceability: a specific instance of `U.Work` can be traced back to the `U.Method` it enacts, the `MethodDescription` or source publication used to identify or constrain that method, and the `U.RoleAssignment` relation whose holder, role, bounded-context, and current-window slots make the work-facing assignment explicit.
+This chain provides complete traceability: a specific instance of `U.Work` can be traced back to the `U.Method` it enacts, the `MethodDescription` or source publication used to identify or constrain that method, and the `U.RoleAssignment` relation whose holder, role, bounded-context, and current-window slots make the holder-in-role admission explicit.
 
 #### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
 
@@ -157,15 +161,15 @@ Every `CheckpointReturn` carries:
 - the recommended next work-family use or reliance use: continue probing, commit to planned work, narrow the method or claim, apply the direct governing pattern for a non-A.15 claim, or stop
 - the commit trigger named by value that would justify leaving the bounded probe
 
-The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution evidence/provenance relation, or rollout decision. Those claims need the project-side FPF kind and reference named by value before committed rollout.
+The return is candidate-approach evidence, burned and residual budget amounts, observed result, and commit-trigger condition. It is not the selected method, `U.WorkPlan`, performed `U.Work`, execution evidence relation, evidence-provenance relation, or rollout decision. Those claims need the project-side FPF kind and reference named by value before committed rollout.
 
-Low-human-overlap approaches remain admissible here only while they stay tied to the declared outcome criterion, budget limits, and evidence/provenance relation by value.
+Low-human-overlap approaches remain admissible here only while they stay tied to the declared outcome criterion, budget limits, and evidence relation or evidence-provenance relation by value.
 
 #### A.15:4.4 - Boundary to A.15.4 Work-Relevant Source Restoration
 
 Use `A.15.4` when an encountered episteme, episteme publication, display, credential view, generated explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain is being used by appearance for a work claim, reliance claim, role-assignment currentness claim, role-state currentness claim, source-currentness claim, approval, authorization, gate passage, evidence, engineering justification, release reliance, or performed `U.Work`.
 
-`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question recovers the project-side FPF kind and reference named by value before the encountered source candidate or display can carry the work claim, reliance claim, or effect claim being made; that question belongs to `A.15.4` or to the source-restoration pattern governing that reliance named there.
+`A.15` itself keeps the kernel separation: `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated performed `U.Work`, and the `U.RoleAssignment` chain between them. The source-restoration question recovers the project-side FPF kind and reference named by value before the encountered source candidate or display can carry the work claim, reliance claim, or effect claim being made; that question belongs to `A.15.4` or to the source-restoration pattern governing that reliance named there.
 
 A principle scheme, functional diagram, scenario, screen, or explanation that makes an `E.18.1` P2W carry-through structure recoverable may help the team plan work or find the needed source.
 

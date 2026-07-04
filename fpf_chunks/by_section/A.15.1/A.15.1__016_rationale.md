@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
-line_start: 22062
-line_end: 22065
+line_start: 22236
+line_end: 22239
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,12 +41,14 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ### A.15.1:13.0 - Rationale

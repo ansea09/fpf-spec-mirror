@@ -6,23 +6,24 @@ section_id: "A.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__002_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:1 — Problem Frame"
-line_start: 2650
-line_end: 2668
+line_start: 2685
+line_end: 2703
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:1 - Problem Frame
@@ -35,7 +36,7 @@ In ordinary work, the same sentence often carries several typed values:
 - "The robot welded batch B at 10:20."
 - "The supplier promises 12 seams per minute."
 
-Only the second sentence is a `U.Capability` claim. The others may be role assignment, method description, performed work, or promise content. When FPF collapses them, project reasoning becomes brittle:
+Only the second sentence can support a `U.Capability` instance when the holder, work family, envelope, measures, and currentness conditions are recoverable. The sentence itself is a statement about the capability instance. The others may be role assignment, method description, performed work, or promise content. When FPF collapses them, project reasoning becomes brittle:
 
 1. **Role assignment becomes fake ability.** "Assigned as verifier" is treated as "able to verify".
 2. **Method description becomes fake ability.** A recipe or algorithm is treated as if it can execute itself.

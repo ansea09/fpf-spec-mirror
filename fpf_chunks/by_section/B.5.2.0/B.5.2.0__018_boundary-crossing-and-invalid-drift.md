@@ -6,12 +6,12 @@ section_id: "B.5.2.0:16"
 section_title: "Boundary crossing and invalid drift"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__018_boundary-crossing-and-invalid-drift.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:16 — Boundary crossing and invalid drift"
-line_start: 36236
-line_end: 36245
+line_start: 36398
+line_end: 36407
 dependencies:
   - "A.16"
   - "A.16.0"

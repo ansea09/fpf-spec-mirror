@@ -6,12 +6,12 @@ section_id: "A.2.7:2"
 section_title: "Solution - Core Role-Relation Structure"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution-core-role-relation-structure.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:2 — Solution - Core Role-Relation Structure"
-line_start: 5015
-line_end: 5052
+line_start: 5100
+line_end: 5137
 dependencies:
   - "A.15"
   - "A.2"
@@ -35,7 +35,7 @@ RoleRelationStructure:
   RoleDescriptionRefs?:
   RoleValueSet:
   RoleExpressionSet?:
-  RoleRequirementSubstitutionSet:
+  RoleAdmissionSubstitutionSet:
   IncompatibilityRelationSet:
   FactorOrQualificationExpressionSet?:
   BundleExpressionSet:
@@ -49,9 +49,9 @@ RoleRelationStructure:
 
 **RoleValueSet.** The structure ranges over `U.Role` values governed by `A.2`.
 
-**RoleExpressionSet.** The structure may include context-local role expressions such as qualified roles, bundle expressions, or labels that ordinary prose uses before a durable role value is declared.
+**RoleExpressionSet.** The structure may include context-local role expressions such as qualified roles, bundle expressions, decomposition candidates, or labels that ordinary prose uses before a durable role value is declared.
 
-**RoleRequirementSubstitutionSet.** The context may declare `AcceptedRoleForRequirement <= RequiredRole` as a role-requirement substitution relation. This is a local admissibility relation for method, work-admission, staffing, safety, or governance checks. It is not kind subsumption, org-chart rank, capability evidence, source-label equivalence, or public naming.
+**RoleAdmissionSubstitutionSet.** The context may declare `AcceptedAssignmentRole <= AdmissionConditionRole` as a role-admission substitution relation. This is a local admissibility relation for method, work-admission, staffing, safety, or governance checks. It is not kind subsumption, org-chart rank, capability evidence, source-label equivalence, or public naming.
 
 **IncompatibilityRelationSet.** The context may declare `RoleA incompatibleWith RoleB`. This means the same holder cannot use overlapping role assignments for both roles in the same bounded context and window when that incompatibility is current for the work claim.
 

@@ -6,12 +6,12 @@ section_id: "A.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__013_sota-echoing.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:11 — SoTA-Echoing"
-line_start: 1653
-line_end: 1664
+line_start: 1659
+line_end: 1670
 dependencies:
   - "A.1.1"
   - "A.12"
@@ -39,7 +39,7 @@ keywords:
 | Source family | Current lesson for A.1 | FPF decision |
 | --- | --- | --- |
 | Florio and Linnebo 2024 constructional ontology frame | Construction, identity, dependency, and process distinctions discipline when a whole is being constructed rather than merely named. | A.1 admits holon treatment only with bounded context, identity or recognition rule, current part relation, and direct governing pattern. |
-| Core Constructional Ontology and BORO applied ontology lineage | Applied part-whole and identity work needs explicit constructional and refactoring discipline. | A.14, C.13, and B.3.5 remain direct owners for relation vocabulary, constructive grounding, and assurance grounding. |
+| Core Constructional Ontology and BORO applied ontology lineage | Applied part-whole and identity work needs explicit constructional and refactoring discipline. | A.14, C.13, and B.3.5 remain direct governing patterns for relation vocabulary, constructive grounding, and assurance grounding. |
 | Contemporary holonic systems literature | Holon work is often system-facing and useful for coordination, closure, and system-wide outcomes. | `U.System` is retained as acting holon kind, but `U.Holon` is broader than system. |
 | Knowledge-representation, provenance, and publication practice | Claim-bearing objects and their publication forms must be separated from acting systems. | `U.Episteme` is a non-agentive holon; systems in role create, publish, cite, compare, or use epistemes. |
 | Digital-twin and systems-engineering practice | Models and descriptions need boundary-consistent grounding objects. | Architecture and structure patterns name the described holon before treating selected structure, view, or description as current. |

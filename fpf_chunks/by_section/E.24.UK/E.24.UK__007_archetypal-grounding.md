@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 80347
-line_end: 80368
+line_start: 80529
+line_end: 80550
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -41,11 +41,11 @@ A structural title that names an action-invitation precision-restoration move as
 
 #### E.24.UK:5.3 - Dependent Durable Value
 
-`U.WorkPlan` is not performed work. It may remain a dependent durable value when the work-plan pattern states dependence on method, role, time, and intended work relations. The dependence relation is not `U.SubkindOf` unless C.3 typed-reasoning law explicitly says so.
+`U.WorkPlan` is not performed work. It may remain a dependent durable value when the work-plan pattern states dependence on method, role, time, and intended work relations. The dependence relation is not `U.SubkindOf` unless C.3 typed-reasoning rules explicitly say so.
 
 #### E.24.UK:5.4 - Type And Kind Governance Passage
 
-A passage that says a proposed type must pass A.8 or A.11 is a kernel-level U-kind admission question. A passage that says `U.Kind` and `U.SubkindOf` are used for typed reasoning remains C.3 law. A naming passage in F.5 or F.8 waits until the recovered value and admission decision are stable.
+A passage that says a proposed type must pass A.8 or A.11 is a kernel-level U-kind admission question. A passage that says `U.Kind` and `U.SubkindOf` are used for typed reasoning remains under C.3 rules. A naming passage in F.5 or F.8 waits until the recovered value and admission decision are stable.
 
 #### E.24.UK:5.5 - Lower-level Heading
 

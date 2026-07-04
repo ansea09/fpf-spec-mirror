@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:intro — Intro"
-line_start: 21667
-line_end: 21697
+line_start: 21792
+line_end: 21822
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,12 +41,14 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ## A.15.1 - U.Work
@@ -65,7 +67,7 @@ keywords:
 1. Name the candidate occurrence and the work-facing claim that depends on it.
 2. Recover the `U.RoleAssignment`, enacted `U.Method`, method-description source, time window, accountable `U.System` or system in subsystem position, affected referent, parameters, resources, outcome, and evidence relation when current.
 3. Decide whether the encountered record, trace, or source candidate or display is performed `U.Work`, only a plan (`A.15.2`), only a method (`A.3.1`), only a method description (`A.3.2`), only evidence for work (`A.10`), only a publication-use relation (`E.17`), only a declarative representation (`C.2.P.DR` or the direct representation pattern), or a work-relevant source-restoration case (`A.15.4`).
-4. For composite, repeated, interrupted, or overlapping occurrences, declare the work-part relation and aggregation policy before using totals or identity claims.
+4. For composite, repeated, interrupted, or overlapping occurrences, declare the work-part relation, naming threshold, and aggregation policy before using totals or identity claims. Do not name a work part when a temporal relation, evidence slice, telemetry segment, or source-gap note is the actual object needed.
 5. If the required occurrence references cannot be recovered, lower the claim to a source-gap note, work-evidence note, plan note, publication-use note, declarative-representation note, or source-restoration request; do not backdate work.
 
 **Ordinary use.** For a simple occurrence, one compact work card with performer, method, time window, affected referent, resources, and outcome is enough.

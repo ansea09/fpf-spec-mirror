@@ -6,12 +6,12 @@ section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_solution.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:4 — Solution"
-line_start: 2350
-line_end: 2498
+line_start: 2368
+line_end: 2519
 dependencies:
   - "A.15"
   - "A.2"
@@ -28,7 +28,7 @@ keywords:
 
 ### A.2.1:4 - Solution
 
-Use `U.RoleAssignment` for the typed relation that assigns a work-facing `U.Role` to an admitted acting holder in one bounded context.
+Use `U.RoleAssignment` for the typed relation that assigns an enactment-facing `U.Role` to an admitted system holder in one bounded context.
 
 ```text
 RoleAssignmentCoreSlotSpec:
@@ -46,7 +46,7 @@ This is a relation value. A record, registry row, publication, diagram, or file 
 
 | SlotKind | ValueKind | Slot-use disposition | Meaning |
 | --- | --- | --- | --- |
-| `HolderSlot` | `U.System` or acting holon admitted as system-like performer by the governing work or method pattern | identity slot | The holder that bears the role in the bounded context. `U.Episteme` is not admitted here merely because it is used as evidence, source, standard, requirement, explanation, status bearer, publication, or assurance input. |
+| `HolderSlot` | admitted `U.System` selected as system-like performer by the governing work, transformation, functioning, or method pattern | identity slot | The holder that bears the role in the bounded context. `U.Episteme` is not admitted here merely because it is used as evidence, source, standard, requirement, explanation, status bearer, publication, or assurance input. |
 | `RoleValueSlot` | `U.Role` | identity slot | The context-bound role value governed by `A.2`. It is not a SlotKind and not a capability. |
 | `BoundedContextSlot` | `U.BoundedContext` | identity slot | The context that gives the role value its local meaning. |
 | `AssignmentWindowSlot` | assignment-currentness window, role-state window, or temporal-validity value governed by the temporal pattern current in the project | optional-in-use; currentness-required when the claim depends on current assignment validity | Missing window means not recovered or not current for the claim, not that no window exists. |
@@ -64,7 +64,7 @@ Invariant RA-S1 (Local role):
   RoleValueSlot content is a U.Role admitted in the BoundedContextSlot content.
 
 Invariant RA-S2 (Holder admission):
-  HolderSlot content is a U.System or an acting holon admitted as system-like performer by the governing work or method pattern.
+  HolderSlot content is an admitted U.System selected as system-like performer by the governing work, transformation, functioning, or method pattern.
 
 Invariant RA-S3 (No role-as-holder):
   HolderSlot content is not U.Role and not U.RoleAssignment.
@@ -100,7 +100,7 @@ For example, a quick staffing note may only need holder, role, and context. A sa
 
 `U.RoleAssignment` does not contain a role-state relation or a role-state description. The `U.Role` and its role description may be linked to:
 
-- RoleCharacteristicSpace, the characteristic space used to describe role variants or role requirements in one bounded context;
+- RoleCharacteristicSpace, the characteristic space used to describe role variants or role-admission conditions in one bounded context;
 - Role State Relation, the state-family relation used to decide whether a role assignment is in an enactable state;
 - state assertions or evaluations governed by `A.2.5` and the relevant evidence or evaluation pattern.
 
@@ -108,7 +108,7 @@ A work attribution claim may depend on those neighboring values. The assignment 
 
 #### A.2.1:4.5 - Role Assignment and Work
 
-Work is not performed by the role value. Work is performed by the holder under a role assignment.
+Work is not performed by the role value. Work is performed by the holder under a role assignment. For machines and components, this includes physical or operational work such as driving, pumping, regulating, heating, cooling, sensing, stabilizing, or transforming a state under the governing functional or transformation context.
 
 Use the direct relation:
 
@@ -119,8 +119,10 @@ Work.performedBy = RoleAssignment
 Then check neighboring claims:
 
 - the work occurrence is governed by `A.15.1`;
+- the bounded transformation is governed by `A.3.4` when the work is claimed as transformation participation;
+- functional wording is restored through `A.6.F` when the role is named by what the holder does functionally;
 - the selected method is governed by `A.3.1`;
-- the method description or required-role declaration is governed by `A.3.2` and `A.15`;
+- the method description or role-admission declaration is governed by `A.3.2` and `A.15`;
 - the work plan is governed by `A.15.2`;
 - role-state admission is governed by `A.2.5`;
 - capability is governed by `A.2.2`.
@@ -170,6 +172,7 @@ Use it only as a readable notation for the typed assignment relation.
 Examples:
 
 - `Robot_7#InspectorRole:MaintenanceLine_A@2026-06-15T09:00..2026-06-15T11:00`
+- `Motor_M1#DriveMotorRole:WaterPumpAssembly_A@installed-window`
 - `OpsTeam#IncidentCommanderRole:PlantIncident_2026@open`
 - `CI_Service#DeployerRole:ReleaseTrain_2026@2026-Q2`
 

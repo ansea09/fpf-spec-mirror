@@ -6,12 +6,12 @@ section_id: "A.15.2:1"
 section_title: "Context (plain‑language motivation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__002_context-plain-language-motivation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:1 — Context (plain‑language motivation)"
-line_start: 22140
-line_end: 22150
+line_start: 22314
+line_end: 22324
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,12 +38,12 @@ keywords:
 
 ### A.15.2:1 - Context (plain‑language motivation)
 
-Operations happen in **time**. Even with perfect roles, abilities, and methods, nothing ships unless teams decide when and by whom concrete runs are intended to happen, under what **constraints** and **budgets**. Teams need a first-class concept for **plans and schedules** that does **not** get confused with:
+Operations happen in **time**. Even with perfect roles, abilities, and methods, nothing ships unless teams decide when and by whom concrete work occurrences are intended to happen, under what **constraints** and **budgets**. Teams need a first-class concept for **plans and schedules** that does **not** get confused with:
 
 * the **semantic “way of doing”** (that is `U.Method`),
 * the **written recipe** (that is `U.MethodDescription`),
 * the **performed work occurrence** (that is `U.Work`), or
-* the **state laws** (that is `U.Dynamics`).
+* the **state-change model** (that is `U.Dynamics`).
 
 `U.WorkPlan` is that missing intended-work record.
 

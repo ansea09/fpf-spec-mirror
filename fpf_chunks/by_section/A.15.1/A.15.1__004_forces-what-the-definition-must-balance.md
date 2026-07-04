@@ -6,12 +6,12 @@ section_id: "A.15.1:3"
 section_title: "Forces (what the definition must balance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__004_forces-what-the-definition-must-balance.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:3 — Forces (what the definition must balance)"
-line_start: 21712
-line_end: 21721
+line_start: 21837
+line_end: 21846
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,12 +41,14 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ### A.15.1:3 - Forces (what the definition must balance)
@@ -54,7 +56,7 @@ keywords:
 | Force                              | Tension we resolve                                                                                    |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Universality vs. domain detail** | One Work notion for surgery, welding, ETL, proofs, lab cycles—while letting each keep its vocabulary. |
-| **Granularity vs. aggregation**    | Atomic runs vs. composite operations; we need roll‑up without double‑count.                           |
+| **Granularity vs. aggregation**    | Atomic occurrences vs. composite operations; we need roll-up without double-count.                           |
 | **Concurrency vs. order**          | Parallel or overlapped activities need clear part and overlap semantics.                              |
 | **Identity vs. retries**           | A failed attempt, a retry, and a resumed episode—what is “the same” work?                             |
 | **Time realism vs. simplicity**    | We need intervals and coverage but cannot bury users in temporal logic notation.                      |

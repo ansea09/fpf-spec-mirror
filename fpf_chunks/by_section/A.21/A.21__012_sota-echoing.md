@@ -6,12 +6,12 @@ section_id: "A.21:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__012_sota-echoing.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:11 — SoTA-Echoing"
-line_start: 30545
-line_end: 30557
+line_start: 30719
+line_end: 30731
 dependencies:
   - "A.19"
   - "A.2.6"

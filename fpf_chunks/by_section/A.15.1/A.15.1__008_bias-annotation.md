@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "A.15.1"
 pattern_title: "U.Work"
-section_id: "A.15.1:6.4"
+section_id: "A.15.1:6.7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__008_bias-annotation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
-  - "A.15.1:6.4 — Bias-Annotation"
-line_start: 21867
-line_end: 21876
+  - "A.15.1:6.7 — Bias-Annotation"
+line_start: 22029
+line_end: 22038
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,21 +41,23 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
-### A.15.1:6.4 - Bias-Annotation
+### A.15.1:6.7 - Bias-Annotation
 
 | Bias | How A.15.1 prevents it |
 | --- | --- |
 | Plan-as-work bias | `U.WorkPlan`, schedules, method descriptions, and intended parameter bindings stay separate from the dated occurrence. |
 | Log-as-work bias | Telemetry, dashboards, provenance rows, and work publications can evidence or describe a work occurrence; they do not become the occurrence. |
-| Method-as-occurrence bias | `U.Method` and `U.MethodDescription` identify or constrain the way of doing; `U.Work` records the run-time enactment. |
+| Method-as-occurrence bias | `U.Method` and `U.MethodDescription` identify or constrain the way of doing; `U.Work` records the dated performed enactment. |
 | Evidence-as-authority bias | Evidence, assurance, gate, release, and causal-use claims keep their governing patterns and do not follow from a work record by appearance. |
 | Record-only transformation bias | Record manipulation qualifies as `U.Work` only when the context declares the record or dataset as the affected product referent. |
 

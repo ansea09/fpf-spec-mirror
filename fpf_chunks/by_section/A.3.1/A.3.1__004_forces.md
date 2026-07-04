@@ -6,12 +6,12 @@ section_id: "A.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__004_forces.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:3 — Forces"
-line_start: 6202
-line_end: 6209
+line_start: 6305
+line_end: 6312
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.7"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
@@ -29,7 +30,10 @@ dependencies:
   - "A.6.1"
   - "B.1.5"
   - "C.2.P.DR"
+  - "C.20"
   - "C.29"
+  - "C.36"
+  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
@@ -38,10 +42,12 @@ dependencies:
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "abstract process"
-  - "how-to"
-  - "procedure"
-  - "recipe"
+  - "method"
+  - "method composition"
+  - "method vs method description vs work"
+  - "non-agentive holon"
+  - "submethod"
+  - "way of doing"
 ---
 
 ### A.3.1:3 - Forces

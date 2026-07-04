@@ -6,12 +6,12 @@ section_id: "E.24.UK:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:6 — Conformance Checklist"
-line_start: 80373
-line_end: 80385
+line_start: 80555
+line_end: 80567
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -40,5 +40,5 @@ keywords:
 | `CC-E24UK-5` | Structural locations retain `U.*` only with settlement evidence or direct reference to an already governed value. |
 | `CC-E24UK-6` | Non-U objects are classified as slot, relation, record, form, lens, local frame, expression, or source wording outside current FPF use, with the direct governing pattern named where the claim remains current. |
 | `CC-E24UK-7` | F.8, F.5, F.18, and F.17 are used only after the recovered value and admission decision are stable. |
-| `CC-E24UK-8` | E.24 remains the head ontic pattern; this pattern owns detailed U-kind law and does not duplicate it back into E.24. |
+| `CC-E24UK-8` | E.24 remains the head ontic pattern; this pattern owns detailed U-kind admission rules and does not duplicate them back into E.24. |
 

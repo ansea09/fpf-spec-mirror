@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:6 — Bias-Annotation"
-line_start: 21493
-line_end: 21509
+line_start: 21618
+line_end: 21634
 dependencies:
   - "A.10"
   - "A.12"
@@ -59,9 +59,9 @@ Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: 
 Bias risks and mitigations:
 
 * **Governance bias (Gov):** teams may over-treat role labels or approval displays as enough evidence that work happened.
-  *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` distinct, and let only `U.Work` carry actuals and resource use.
-* **Architectural bias (Arch):** modelers may pull roles or capabilities into structural part hierarchies because those diagrams are already present.
-  *Mitigation:* preserve role and capability as context-bound assignment and ability values, not parts.
+  *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` distinct, and let only `U.Work` carry performed values and resource use.
+* **Architectural bias (Arch):** modelers may pull roles, capability instances, fit predicates, or capability support records into structural part hierarchies because those diagrams are already present.
+  *Mitigation:* preserve role as a context-bound value, `U.Capability` as the `A.2.2` admitted capability instance, capability statements and currentness assessments as separately governed support relations, capability-fit as a separate checking or admission condition over that instance, and all of them outside structural part decomposition.
 * **Epistemic bias (Onto and Epist):** a documented recipe or schedule can be mistaken for proof of execution.
   *Mitigation:* require the traceability chain from `U.RoleAssignment` and `U.MethodDescription` to dated `U.Work`.
 * **Pragmatic bias (Prag):** teams may keep using one overloaded source-side "process" word because it feels faster.

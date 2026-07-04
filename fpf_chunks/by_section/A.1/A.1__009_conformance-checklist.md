@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_conformance-checklist.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:7 — Conformance Checklist"
-line_start: 1602
-line_end: 1617
+line_start: 1608
+line_end: 1623
 dependencies:
   - "A.1.1"
   - "A.12"
@@ -47,6 +47,6 @@ keywords:
 | `CC-A1-7` | Collection membership, collection-as-whole, acting collective system, whole-level characteristic, and B.2 whole reidentification are kept distinct. |
 | `CC-A1-8` | Boundary wording recovers `HolonDelimitationRelation@Context` or another direct object; interaction wording recovers `HolonBoundaryCrossingRelation@Context`, `U.Transformation`, source use, publication use, evidence relation, probe relation, control relation, or another direct relation. |
 | `CC-A1-9` | A system changing another holon is not treated as that holon's super-holon unless a separate part-whole relation is admitted. |
-| `CC-A1-10` | A.14, C.13, and B.3.5 remain the direct owners for relation vocabulary, constructive grounding, and Working-Model assurance grounding. |
+| `CC-A1-10` | A.14, C.13, and B.3.5 remain the direct governing patterns for relation vocabulary, constructive grounding, and Working-Model assurance grounding. |
 | `CC-A1-11` | Publication forms and descriptions of holons are kept distinct from the holons they describe. |
 

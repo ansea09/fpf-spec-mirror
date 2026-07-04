@@ -1,39 +1,56 @@
 ---
 chunk_kind: "child"
 pattern_id: "B.1.5"
-pattern_title: "Γ_method — Order‑Sensitive Method Composition & Work Enactment"
+pattern_title: "Gamma_method - Order-Sensitive Method Composition and Work Enactment"
 section_id: "B.1.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__001_intro.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
-  - "B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment"
+  - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:intro — Intro"
-line_start: 32116
-line_end: 32122
+line_start: 32290
+line_end: 32295
 dependencies:
-  - "A.12"
+  - "A.1"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.3.1"
+  - "A.3.2"
+  - "A.6.0"
+  - "A.6.1"
   - "B.1"
-  - "B.1.1"
   - "B.1.4"
   - "B.1.6"
+  - "B.2"
   - "B.3"
+  - "B.3.5"
+  - "C.13"
+  - "C.29"
+  - "E.10"
+  - "E.20"
+  - "G.5"
+  - "U.Method"
+  - "U.MethodDescription"
 keywords:
-  - "concurrent"
+  - "MIC"
+  - "assurance hooks"
+  - "capability continuity"
   - "method composition"
-  - "plan vs run"
-  - "sequential"
-  - "workflow"
+  - "method relation structure"
+  - "method/work granularity"
+  - "order-sensitive method"
+  - "submethod"
+  - "typed join"
+  - "work enactment"
 ---
 
-## B.1.5 - Γ_method — Order‑Sensitive Method Composition & Work Enactment
-> **► decided‑by: A.14 Advanced Mereology**
-**A.14 compliance —** Methods compose over **SerialStepOf/ParallelFactorOf** on **MethodDescription/Method** graphs (order, not parthood); stuff‑like inputs are modelled via **PortionOf** on resources and accounted in **Γ_work**; method/version history uses **PhaseOf**; mapping quality is handled via **CL** (B.3).
+## B.1.5 - Gamma_method - Order-Sensitive Method Composition and Work Enactment
 
-> **Plain‑English headline.**
-> **Γ\_method** composes **ordered step specifications** into a **single MethodDescription** (design‑time) that **describes** a composite **Method**, and governs its **run‑time enactment as Work** (pre/post, capability typing, MIC honouring) while delegating **resource accounting** to **Γ\_work** and **order semantics** to **Γ\_ctx**.
+> **Type:** Part B composition and grounding pattern
+> **Status:** Stable
+> **Normativity:** Normative unless a section is explicitly informative
 

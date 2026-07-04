@@ -6,12 +6,12 @@ section_id: "A.6.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__013_relations.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:12 — Relations"
-line_start: 17988
-line_end: 17994
+line_start: 18109
+line_end: 18115
 dependencies:
   - "A.15"
   - "A.2.3"

@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
 line_start: 1392
-line_end: 1533
+line_end: 1539
 dependencies:
   - "A.1.1"
   - "A.12"
@@ -43,6 +43,7 @@ U.Entity
   U.Holon
     U.System
     U.Episteme
+    U.Method           only under A.3.1 and direct method-composition patterns
     U.Work             only under A.15.1
     U.BoundedContext   only under A.1.1
     U.Discipline       only under C.20
@@ -77,7 +78,7 @@ HolonSlotRelation@Context:
   holonDelimitationRelationRefs?
   holonBoundaryCrossingRelationRefs?
   containingWholeRefs?
-  admittedHolonKindRef?: U.System | U.Episteme | U.Work | U.BoundedContext | U.Discipline | named C.3 U.Kind admitted by a direct governing pattern
+  admittedHolonKindRef?: U.System | U.Episteme | U.Method | U.Work | U.BoundedContext | U.Discipline | named C.3 U.Kind admitted by a direct governing pattern
 ```
 
 This relation is a selected SlotRelation expression, not a new U-kind and not a record that acts. Under open-world discipline, an omitted slot means "not current or not recovered for this claim", not "absent in the world".
@@ -90,9 +91,14 @@ Current accepted holon-kind examples are:
 - `U.Episteme`, governed here only as a non-agentive claim-bearing holon, with full slot discipline in `C.2.1`;
 - `U.Work`, governed by `A.15.1` as a dated 4D occurrence holon;
 - `U.BoundedContext`, governed by `A.1.1` as a semantic-frame holon;
-- `U.Discipline`, governed by `C.20` as a field-level practice-and-knowledge holon.
+- `U.Discipline`, governed by `C.20` as a field-level practice-and-knowledge holon;
+- `U.Method`, governed by `A.3.1` and method-composition patterns such as `B.1.5` as a non-agentive method holon whose submethods compose into a whole method across levels.
 
 No blank "other kind" escape hatch is selected. If a source claims another holon kind, the current FPF use must name the concrete C.3 `U.Kind`, the part-whole relation, the direct governing pattern, and the slot discipline that makes holon treatment admissible before any part-whole, architecture, role, work, evidence, or source-use claim relies on it.
+
+Holon admission is decided by own constructive assembly with meta-holon transition, not by agentivity or wording. A candidate kind can be treated holonically when a bounded context can select the participating objects from the surrounding practice or world, fix their boundaries, assemble them through a current part-whole relation into a whole, and recover a whole-level property, capability, constraint, function, claim-bearing structure, or other characteristic that belongs to the assembled whole rather than to any single part or to a label. The resulting whole must also be eligible to become a part in a larger assembly. Grounding is the agreement discipline for that construction: it fixes the selected objects, boundaries, part relation, assembly operation, MHT evidence, and governing patterns. Relations may arrange, constrain, assign, qualify, or describe parts; those relations do not become parts by that fact.
+
+`U.Role` and `U.Method` are therefore not decided by whether they act. `U.Episteme` already shows that a non-agentive object can be a holon. The ontology decision is: `U.Method` is a non-agentive holon kind, and `U.Role` is not a holon kind. A method can have submethods composing into whole methods with whole-level preconditions, effects, invariants, interfaces, constraints, and assurance hooks; the resulting method can participate in a larger method. A step label or step description is not a method part by label: it must first be recovered as a `U.Method` submethod rather than as a method-description node, order relation, work-plan item, or work occurrence. A role value names what a holder is being in a context; its assignment, state, capability, responsibility, permission, commitment, obligation, method participation, and role relation structure are neighboring objects, relation positions, or descriptions, not role parts.
 
 #### A.1:4.4 - U.System
 
@@ -120,7 +126,7 @@ SystemParticipationRelation@Context:
   dynamicsAspectRefs?
 ```
 
-This relation links acting-system participation across role, capability, method, mechanism, work, transformation, functioning, evidence, assurance, temporal, and dynamics concerns. It does not collapse those concerns into one kind. Role assignment remains role discipline; method remains method discipline; performed work remains work discipline; transformation remains `U.Transformation`; functioning and functional element remain their direct owners.
+This relation links acting-system participation across role, capability, method, mechanism, work, transformation, functioning, evidence, assurance, temporal, and dynamics concerns. It does not collapse those concerns into one kind. Role assignment remains role discipline; method remains method discipline; performed work remains work discipline; transformation remains `U.Transformation`; functioning and functional element remain with their direct governing patterns.
 
 #### A.1:4.5 - U.Episteme
 
@@ -140,7 +146,7 @@ Use `HolonBoundaryCrossingRelation@Context` when the current claim is about a re
 
 Do not call every boundary an interface. Use interface language only when a governing signature, module, architecture, port, or interface pattern makes interface meaning current.
 
-External holon vocabularies do not admit FPF kinds by label. If a source says `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, or a similar semantic-web holon class, recover the FPF claim before using it. Acting-agent and organization claims require `U.System` admission; data, document, and projected-content claims usually require `U.Episteme`, publication, source, evidence, or description owners; process-holon wording requires work, method, work-plan, or transformation owners; portal or traversal wording requires an access, boundary-crossing, policy, or evidence relation. A.1 admits only the holon or system claim when that claim is current.
+External holon vocabularies do not admit FPF kinds by label. If a source says `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, or a similar semantic-web holon class, recover the FPF claim before using it. Acting-agent and organization claims require `U.System` admission; data, document, and projected-content claims usually require `U.Episteme`, publication, source, evidence, or description patterns; process-holon wording requires work, method, work-plan, or transformation patterns; portal or traversal wording requires an access, boundary-crossing, policy, or evidence relation. A.1 admits only the holon or system claim when that claim is current.
 
 Do not call a Markov blanket a holon boundary, interface, interface module, physical component, statistical separator, or agency proof until the current claim is recovered. If source wording says `Markov blanket`, first decide whether it names accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or boundary-crossing relation, a physical interface module or component, a functional element, a boundary description or publication, or an agency-threshold claim. Apply the direct governing pattern. A.1 admits only the holon and delimitation claim when those are current.
 
@@ -153,10 +159,10 @@ First recover whether the source claims:
 - membership only, governed by A.14 relation vocabulary;
 - collection-as-whole constructive grounding, governed by C.13 and B.3.5 where assurance grounding is current;
 - whole-level characteristic, governed by C.16;
-- acting collective system, governed by `U.System` admission plus A.15 and role, method, and work owners;
+- acting collective system, governed by `U.System` admission plus A.15 and role, method, and work patterns;
 - whole reidentification, governed by B.2.
 
-An acting collective `U.System` needs boundary, coordination, role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under direct owners.
+An acting collective `U.System` needs boundary, coordination, role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under direct governing patterns.
 
 #### A.1:4.8 - Constructional Grounding
 

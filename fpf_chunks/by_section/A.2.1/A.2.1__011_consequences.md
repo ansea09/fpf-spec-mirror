@@ -6,12 +6,12 @@ section_id: "A.2.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__011_consequences.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:9 — Consequences"
-line_start: 2571
-line_end: 2580
+line_start: 2603
+line_end: 2612
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,7 +30,7 @@ keywords:
 
 `A.2.1` makes work attribution and role admission replayable. A reader can ask: who is the holder, what role value is assigned, which bounded context gives that role meaning, and which window or source is current for the claim?
 
-The benefit is compactness. FPF can keep one role-assignment relation for work-facing roles instead of multiplying role kinds for documents, standards, reports, dashboards, interfaces, method descriptions, and relation arguments.
+The benefit is compactness. FPF can keep one role-assignment relation for enactment-facing roles instead of multiplying role kinds for documents, standards, reports, dashboards, interfaces, method descriptions, and relation arguments.
 
 The cost is discipline. Authors must recover neighboring claims instead of putting them into assignment prose. Capability, role state, method, work plan, performed work, evidence, status, publication, assurance, gate, and decision claims each keep their governing pattern.
 

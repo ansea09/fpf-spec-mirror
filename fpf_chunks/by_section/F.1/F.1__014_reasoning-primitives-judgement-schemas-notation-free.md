@@ -6,12 +6,12 @@ section_id: "F.1:13"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__014_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:13 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 80973
-line_end: 81012
+line_start: 81155
+line_end: 81194
 dependencies:
   - "A.11"
   - "A.7"

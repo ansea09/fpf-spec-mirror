@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 22260
-line_end: 22282
+line_start: 22434
+line_end: 22456
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 * **WorkPlan:** `OR_DayPlan_2025‑08‑12`.
 * **`PlanItem` values:** `Case_1_Appendectomy`, `Case_2_Hernia`, with windows, context assignments, and surgeon `U.Role` values; anesthetist intended `U.RoleAssignment` provided.
 * **Budgets:** OR time blocks, consumables envelopes.
-* **Fulfilment:** Each surgery Work links to its `PlanItem`; variances computed (over-run time, substitutions).
+* **Fulfilment:** Each surgery Work links to its `PlanItem`; variances computed (duration overrun, substitutions).
 
 #### A.15.2:6.2 - Fab maintenance weekend (asset reservations)
 

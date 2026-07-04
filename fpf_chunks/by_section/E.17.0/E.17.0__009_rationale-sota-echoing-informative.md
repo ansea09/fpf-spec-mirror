@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Rationale & SoTA‑echoing  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_rationale-sota-echoing-informative.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:8 — Rationale & SoTA‑echoing  (informative)"
-line_start: 72242
-line_end: 72258
+line_start: 72404
+line_end: 72420
 dependencies:
   - "A.15"
   - "A.2"

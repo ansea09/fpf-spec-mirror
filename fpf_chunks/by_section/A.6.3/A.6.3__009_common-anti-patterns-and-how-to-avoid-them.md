@@ -6,12 +6,12 @@ section_id: "A.6.3:6.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:6.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 11553
-line_end: 11561
+line_start: 11674
+line_end: 11682
 dependencies:
   - "A.6.0"
   - "A.6.2"

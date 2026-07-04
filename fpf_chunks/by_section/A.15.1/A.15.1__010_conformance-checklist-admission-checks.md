@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 21883
-line_end: 21981
+line_start: 22045
+line_end: 22149
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,18 +41,20 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ### A.15.1:8 - Conformance Checklist (admission checks)
 
 **CC-A15.1-1 (Strict distinction).**
-`U.Work` is a dated run-time occurrence. It is not a `U.Method` (semantic way), not a `U.MethodDescription` (description), not a `U.Role` or `U.RoleAssignment` (assignment), and not a `U.WorkPlan` (plan or schedule).
+`U.Work` is a dated performed occurrence. It is not a `U.Method` (semantic way), not a `U.MethodDescription` (description), not a `U.Role` or `U.RoleAssignment` (assignment), and not a `U.WorkPlan` (plan or schedule).
 
 **CC-A15.1-2 (Required links).**
 A conforming `U.Work` claim names:
@@ -89,7 +91,7 @@ Success and failure classes and quality grades are determined by the acceptance 
 Performed consumptions and costs (energy, materials, machine-time, money, tool wear) are booked to `U.Work`, not to `U.Method`, `U.MethodDescription`, `U.Role`, or `U.Capability`. Estimates belong in method descriptions or plans; performed values belong in work occurrences.
 
 **CC-A15.1-10 (Mereology declared).**
-When a work occurrence has parts, the selected part relation is declared: temporal-part, episode-part, operational-part, or concurrent-part. Ambiguous mixtures lower aggregation and identity claims.
+When a work occurrence has parts, the selected part relation is declared: temporal-part, episode-part, operational-part, or concurrent-part. Ambiguous mixtures lower aggregation and identity claims. A `TemporalPartOf_work` claim names parent work identity plus interval or aspect; an `EpisodeOf_work` claim names the event-bounded continuity policy; an `OperationalPartOf_work` claim names the occurrence-side part and any recovered method factor separately.
 
 **CC-A15.1-11 (Temporal coverage selection).**
 For a roll-up, the judgement context declares which temporal coverage operator applies: union for utilization or convex hull for lead time. Silent mixing lowers the KPI or comparison claim.
@@ -98,7 +100,7 @@ For a roll-up, the judgement context declares which temporal coverage operator a
 Aggregation of resource ledgers across work parts names an overlap policy, such as attributing shared machine-time to the parent only, before totals are used.
 
 **CC-A15.1-13 (Identity and retries).**
-A retry is a new `U.Work` occurrence linked via `retryOf`. Interruptions treated as the same run are represented as episodes (`resumptionOf`) under a context-declared episode policy.
+A retry is a new `U.Work` occurrence linked via `retryOf`. Interruptions treated as the same occurrence are represented as episodes (`resumptionOf`) under a context-declared episode policy. Interruption, retune, rework, changed parameter set, changed method-description edition, changed affected referent, switch-away, or restart become a separate `U.Work` when the bounded-context policy declares a new occurrence.
 
 **CC-A15.1-14 (Concurrency and ordering).**
 Overlaps and precedences among work occurrences use interval relations (`overlaps`, `precedes`, `contains`, or `within`). Implicit "step order" claims are not admitted as performed-work evidence.
@@ -107,7 +109,7 @@ Overlaps and precedences among work occurrences use interval relations (`overlap
 If a work occurrence is accepted in multiple contexts, either re-judge it in each context or provide bridge relations that map acceptance criteria, units, and role-assignment relations. Name identity alone does not carry cross-context acceptance.
 
 **CC-A15.1-16 (Method-description source changes during work).**
-If the method-description version changes mid-run, split the work into episodes bound to respective method-description source editions, or record an explicit method-description override event in the judgement context. Silent substitution lowers the work claim.
+If the method-description version changes mid-occurrence, split the work into episodes bound to respective method-description source editions, or record an explicit method-description override event in the judgement context. Silent substitution lowers the work claim.
 
 **CC-A15.1-17 (Distributed performers).**
 If multiple `U.RoleAssignment` values jointly perform the same top-level work occurrence, either designate a lead `U.RoleAssignment` with concurrent parts, or model the top-level occurrence as a parent work with child work occurrences per `U.RoleAssignment`.
@@ -119,10 +121,10 @@ Logs and telemetry evidence a work occurrence only after they are bound to metho
 Each `U.Work` claim names at least one affected referent, such as asset, product, batch, dataset, or document, through `affected -> {...}`.
 
 **CC-A15.1-20 (State-change witness).**
-Each `U.Work` claim carries either explicit pre-state and post-state references on the declared state-plane or a delta predicate evaluable on evidence. A no-op run is flagged as such.
+Each `U.Work` claim carries either explicit pre-state and post-state references on the declared state-plane or a delta predicate evaluable on evidence. A no-op occurrence is flagged as such.
 
 **CC-A15.1-21 (Affected-referent declaration vs. record handling).**
-A run whose only effect is copying or reformatting records qualifies as `U.Work` only when the judgement context declares those records to be the product referent, such as data-product manufacture.
+A work occurrence whose only effect is copying or reformatting records qualifies as `U.Work` only when the judgement context declares those records to be the product referent, such as data-product manufacture.
 
 **CC-A15.1-22 (Executed-within declaration).**
 Each `U.Work` claim names `executedWithin -> U.System`; when the accountable system is a subsystem in ordinary speech, name the system and its part relation to the larger holon. When that system differs from the asset of change, keep `affected` explicit.
@@ -140,11 +142,17 @@ Publication views reference Gamma operators and policies by id when showing aggr
 Publication views do not restate method-description input and output lists; they publish presence pins and source references only under the publication-use pattern governing that view.
 
 **CC-A15.1-27 (Comparator ordering and return sets).**
-Across-run comparison presented on a `U.Work` publication view uses a declared `ComparatorSet` (map-then-compare), returns sets when order is partial, and lowers hidden scalarization or ordinal-mean claims.
+Across-occurrence comparison presented on a `U.Work` publication view uses a declared `ComparatorSet` (map-then-compare), returns sets when order is partial, and lowers hidden scalarization or ordinal-mean claims.
 
 **CC-A15.1-28 (Comparator and transport pins).**
 Numeric or comparable acceptance or KPI claims on a `U.Work` publication view pin `ComparatorSet.edition`, comparator-spec edition, and, where conversions occur, `TransportRegistry.edition` with the selected transport policy ids. Bridge ids carry cross-context or cross-plane reuse; penalties affect the reliability relation only.
 
 **CC-A15.1-29 (Telemetry-reference pins, when applicable).**
 If a work occurrence feeds G.11 or QD and OEE portfolios, the evidence relation cites the telemetry, archive, and policy references declared by the governing comparison, archive, evidence, or refresh pattern. Illumination remains report-only telemetry unless a governing comparison, archive, or selection pattern promotes that use.
+
+**CC-A15.1-30 (Part naming parsimony).**
+Do not create a durable named work part for every interval, telemetry segment, pause, event-log row, engine stroke label, detector component, or source phrase. Name a work part only when downstream use needs its own resources, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-return role. Otherwise lower to a temporal relation, evidence slice, telemetry segment, method-description constituent, source-gap note, or another direct neighboring object.
+
+**CC-A15.1-31 (Method and work granularity are coupled but not isomorphic).**
+A work part may enact a recovered submethod, but the correspondence is not automatic. A temporal work part usually enacts the same whole method during a slice. An episode records continuity under one method or mode and may span several operational parts, repeat the same method fragment, or be split by evidence policy without changing method identity. An operational work part corresponds to a method factor only when that factor is recovered as `U.Method` under `A.3.1` and `B.1.5`; otherwise govern the material as a work part, method-description node, evidence segment, mechanism material, or system-component behavior under the direct pattern.
 

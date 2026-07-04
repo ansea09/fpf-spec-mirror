@@ -6,12 +6,12 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:5 — Archetypal Grounding"
-line_start: 2158
-line_end: 2189
+line_start: 2173
+line_end: 2204
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -51,7 +51,7 @@ This does not say the pump has the capability to circulate under every condition
 Current FPF expression:
 
 - the RFC publication is an episteme or publication used as source, standard, requirement, or method-description source;
-- the design service, engineer, or team is the system or acting holon holding any work-facing role;
+- the design service, engineer, or team is the admitted `U.System` holding any work-facing role;
 - the design work is performed by that holder under a role assignment;
 - the RFC does not perform the work and does not hold `U.Role`.
 

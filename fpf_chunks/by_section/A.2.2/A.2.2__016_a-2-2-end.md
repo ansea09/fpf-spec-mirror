@@ -6,23 +6,24 @@ section_id: "A.2.2:End"
 section_title: "A.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__016_a-2-2-end.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:End — A.2.2:End"
-line_start: 2922
-line_end: 2923
+line_start: 3005
+line_end: 3006
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:End

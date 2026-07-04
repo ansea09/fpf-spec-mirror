@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.7.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
-line_start: 39918
-line_end: 40092
+line_start: 40080
+line_end: 40254
 dependencies:
   - "A.16"
   - "A.16.0"

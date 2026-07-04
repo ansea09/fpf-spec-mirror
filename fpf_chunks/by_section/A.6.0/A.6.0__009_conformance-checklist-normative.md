@@ -6,12 +6,12 @@ section_id: "A.6.0:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__009_conformance-checklist-normative.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:7 — Conformance Checklist (normative)"
-line_start: 10236
-line_end: 10263
+line_start: 10357
+line_end: 10384
 dependencies:
   - "A.2.6"
   - "A.6.1"

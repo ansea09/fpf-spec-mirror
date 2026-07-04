@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Archetypal Grounding - Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__009_archetypal-grounding-worked-cases.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:5 — Archetypal Grounding - Worked Cases"
-line_start: 5132
-line_end: 5190
+line_start: 5233
+line_end: 5291
 dependencies:
   - "A.15"
   - "A.2"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.2.7:5 - Archetypal Grounding - Worked Cases
 
-#### A.2.7:5.1 - Role-Requirement Substitution Without Capability Smuggling
+#### A.2.7:5.1 - Role-Admission Substitution Without Capability Smuggling
 
 `PlantMaintenance_2026` declares:
 
@@ -35,7 +35,7 @@ keywords:
 SeniorHydraulicsTechnician <= HydraulicsTechnician
 ```
 
-A method step requiring `HydraulicsTechnician` may accept an assignment to `SeniorHydraulicsTechnician`. This does not prove that the technician has the pressure-test capability. The method step may separately require `PressureTestCapability` under `A.2.2`.
+A method-description source or work-admission check that states `HydraulicsTechnician` as a role-admission condition may accept an assignment to `SeniorHydraulicsTechnician`. This does not prove that the technician has the pressure-test capability. The same source or admission check may separately state `PressureTestCapability` as a capability-fit condition under `A.2.2`.
 
 #### A.2.7:5.2 - Incompatibility for Independence
 
@@ -55,7 +55,7 @@ The same holder cannot use overlapping assignments for both roles when approving
 IncidentLeadOnCall := IncidentCommander and Communicator and DecisionMaker
 ```
 
-This is a reusable role-bundle expression for method requirements. It does not state that one person has incident-management capability; that remains a capability claim. It does not state that incident work happened; that remains a work claim.
+This is a reusable role-bundle expression for method role-admission checks. It does not state that one person has incident-management capability; that remains a capability claim. It does not state that incident work happened; that remains a work claim.
 
 #### A.2.7:5.4 - Naming Engineer-Roboticist and Musician
 

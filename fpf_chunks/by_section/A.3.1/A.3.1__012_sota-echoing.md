@@ -6,12 +6,12 @@ section_id: "A.3.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__012_sota-echoing.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:11 — SoTA-Echoing"
-line_start: 6505
-line_end: 6515
+line_start: 6624
+line_end: 6634
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.7"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
@@ -29,7 +30,10 @@ dependencies:
   - "A.6.1"
   - "B.1.5"
   - "C.2.P.DR"
+  - "C.20"
   - "C.29"
+  - "C.36"
+  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
@@ -38,10 +42,12 @@ dependencies:
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "abstract process"
-  - "how-to"
-  - "procedure"
-  - "recipe"
+  - "method"
+  - "method composition"
+  - "method vs method description vs work"
+  - "non-agentive holon"
+  - "submethod"
+  - "way of doing"
 ---
 
 ### A.3.1:11 - SoTA-Echoing
@@ -53,5 +59,5 @@ keywords:
 | Current graph and equivalence representation work | Tiurin, Barrett, Ghica, and Hu, "Equivalence Hypergraphs: DPO Rewriting for Monoidal E-Graphs", arXiv:2406.15882, v2 revised 2025-05-20. | Adapt: graph, query, equivalence, and rewrite structures can be representations without being ordered instructions. | Graph path, query, and table overreads are repaired with `C.2.P.DR` unless a direct graph, method, work, evidence, or gate claim is recovered. |
 | Historical declarative versus imperative programming contrasts | Codd 1970; Kowalski 1979; Selinger et al. 1979; van der Aalst, Pesic, and Schonenberg 2009; Van Roy and Haridi 2004; Deutsch 2013; Deutsch and Marletto 2015. | Reject as current SoTA; retain only as lineage and regression contrast. | Older slogans such as "declarative versus imperative" are used only as recognition cues; the repair recovers FPF kind and slot. |
 
-Refresh this pattern when current work on constructor theory, process theory, effect systems, process modeling, graph and equivalence representations, or FPF's own method, work, and mechanism patterns changes the governing distinction among method, method description, formal substrate, mechanism, work plan, dated work, and evidence.
+Refresh this pattern when current work on constructor theory, process theory, effect systems, process modeling, practice theory, cultural-evolution work, graph and equivalence representations, or FPF's own method, work, role, discipline, and mechanism patterns changes the governing distinction among method, method description, formal substrate, mechanism, role assignment, work plan, dated work, cultural-evolution material, and evidence.
 

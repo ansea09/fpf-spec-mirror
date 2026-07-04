@@ -6,23 +6,24 @@ section_id: "A.2.2:8"
 section_title: "Composite Capability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__009_composite-capability.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:8 — Composite Capability"
-line_start: 2816
-line_end: 2831
+line_start: 2889
+line_end: 2904
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:8 - Composite Capability
@@ -30,7 +31,7 @@ keywords:
 A composite system may have a capability that none of its parts has alone. Treat the composite as the holder.
 
 ```text
-Capability:
+ConcreteCapabilityInstance:
   holder: Cell_3
   canDo: place 12 PCB per minute
   envelope: feeder, vision, head, controller, and operator conditions
@@ -39,5 +40,5 @@ Capability:
   dependencyNotes: feeder and vision subsystem conditions
 ```
 
-The capability belongs to `Cell_3`, not to every part and not to the method description. Dependencies may be named, but the whole-system capability remains a property of the composite holder.
+The concrete capability instance is asserted for `Cell_3`, not for every part and not for the method description. Dependencies may be named, but the bounded capability claim is about the composite holder.
 

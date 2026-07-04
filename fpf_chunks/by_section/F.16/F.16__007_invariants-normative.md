@@ -6,12 +6,12 @@ section_id: "F.16:6"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__007_invariants-normative.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:6 — Invariants (normative)"
-line_start: 86189
-line_end: 86199
+line_start: 86371
+line_end: 86381
 dependencies:
   - "A.15"
   - "A.3"

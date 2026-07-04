@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:9 — Consequences"
-line_start: 6479
-line_end: 6498
+line_start: 6597
+line_end: 6617
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.7"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
@@ -29,7 +30,10 @@ dependencies:
   - "A.6.1"
   - "B.1.5"
   - "C.2.P.DR"
+  - "C.20"
   - "C.29"
+  - "C.36"
+  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
@@ -38,10 +42,12 @@ dependencies:
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "abstract process"
-  - "how-to"
-  - "procedure"
-  - "recipe"
+  - "method"
+  - "method composition"
+  - "method vs method description vs work"
+  - "non-agentive holon"
+  - "submethod"
+  - "way of doing"
 ---
 
 ### A.3.1:9 - Consequences
@@ -49,7 +55,7 @@ keywords:
 * Method-like language becomes reusable across physical, informational, organizational, and mathematical work without privileging software code or ordered instructions.
 * Teams can compare descriptions, variants, and implementations without confusing them with dated work.
 * Work planning and evidence become more reliable because a method no longer smuggles in authority, proof, schedule, or performed-work claims.
-* The cost is explicit slot recovery: when wording says "method", "algorithm", "workflow", "process", "procedure", "program", "recipe", "proof", or "solver", the user must recover which FPF object or claim position is current before relying on it.
+* The cost is explicit slot recovery: when wording says "method", "practice", "algorithm", "workflow", "process", "procedure", "program", "recipe", "proof", or "solver", the user must recover which FPF object or claim position is current before relying on it.
 
 #### A.3.1:9.1 - Lowering and refresh conditions
 
@@ -58,9 +64,10 @@ Lower confidence in a `U.Method` use when:
 * the text cannot state transformation or enactment kind, `EntityOfConcern`, preconditions, and intended effects;
 * the method name is only a document, repository, diagram, model, run log, team name, supplier label, or authorization claim;
 * the same typed value is assigned as both `U.Method` and `U.Mechanism` without a governing pattern admitting the dual typing;
+* practice wording has not been recovered to method, method relation structure, work, role assignment, bounded context, discipline, cultural-evolution, evidence, source label, or quote-only use before method reliance begins;
 * the first usable move requires a long related-pattern catalogue before the method slot is visible;
 * graph, path, query, table, or predicate wording is treated as ordered execution without `C.2.P.DR` recovery;
 * a later `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, `C.29`, `E.18`, or evidence pattern changes the slot relation on which the method statement relied.
 
-The smallest useful repair is usually local: rewrite the method statement, split the neighboring value into its governing pattern, or add one `ClaimBoundary` line. Reopen the wider method family only when repeated project material shows that `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, formal substrate, or mathematical-lens use can no longer be separated by the current slot rules.
+The smallest useful repair is usually local: rewrite the method statement, split the neighboring value into its governing pattern, or add one `ClaimBoundary` line. Reopen the wider method family only when repeated project material shows that `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, formal substrate, role assignment, bounded context, discipline, cultural-evolution material, evidence, or mathematical-lens use can no longer be separated by the current slot rules.
 

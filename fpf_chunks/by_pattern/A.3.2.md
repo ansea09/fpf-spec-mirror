@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.2.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
-line_start: 6524
-line_end: 6828
+line_start: 6643
+line_end: 6949
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -36,9 +36,11 @@ keywords:
   - "SOP"
   - "U.Episteme"
   - "code"
+  - "method description"
+  - "method vs description vs work"
   - "model"
   - "recipe"
-  - "specification"
+  - "source"
 ---
 
 ## A.3.2 - U.MethodDescription: Description Episteme for a Way of Doing
@@ -190,6 +192,8 @@ If the source turns a graph path, evidence path, query plan, predicate, checklis
 #### A.3.2:4.8 - Method-relation descriptions and algebra lenses
 
 A method description may describe not only one `U.Method`, but also a selected `MethodRelationStructure@BoundedContext`: the relation structure by which methods or method families compose, refine, substitute, iterate, dispatch, or fall back in one bounded context.
+
+Description nodes, workflow boxes, code blocks, proof-script blocks, diagram paths, and table rows are representation constituents. They do not become method parts by position in the description. A node can participate in method-holon composition only after the recovered object is itself a `U.Method` value governed by `A.3.1` and, when order-sensitive composition is current, `B.1.5`.
 
 Keep the positions separate:
 

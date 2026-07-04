@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "How Role Relation Structure Is Used"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__008_how-role-relation-structure-is-used.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:4 — How Role Relation Structure Is Used"
-line_start: 5089
-line_end: 5131
+line_start: 5189
+line_end: 5232
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,9 +30,10 @@ keywords:
 Role relation structure is normally used by neighboring patterns as one selected structure, sometimes informally called the local role architecture:
 
 ```text
-MethodStepRequirement:
-  requiredRole: WeldingInspector
-  acceptedAssignmentRole: SeniorWeldingInspector
+MethodRoleAdmissionCheck:
+  methodRef: WeldInspectionMethod
+  requiredRoleValue: WeldingInspector
+  proposedAssignmentRoleValue: SeniorWeldingInspector
   substitutionRef: SeniorWeldingInspector <= WeldingInspector
 ```
 
@@ -44,11 +45,11 @@ WorkAdmissionCheck:
   window: AssignmentWindow
 ```
 
-The role relation structure supplies one relation used by the check. The method, method family, method relation structure, work plan, performed work, capability envelope, and evidence use remain governed by their direct patterns. When a method relation or method composition structure also needs to be named, the current object is `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern when current; method-algebra notation is a lens over that structure, not a hidden product of roles.
+The role relation structure supplies one role-substitution relation used by the method role-admission or work-admission check. The method, method family, method relation structure, work plan, performed work, capability envelope, and evidence use remain governed by their direct patterns. When a method relation or method composition structure also needs to be named, the current object is `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern when current; method-algebra notation is a lens over that structure, not a hidden product of roles.
 
 #### A.2.7:4.1 - Naming role-relation and role-method expressions
 
-Role relation work may leave behind something people need to name in ordinary project prose. The named object is not always an atomic `U.Role` value. It may be a holder-in-role statement, a context-local role expression, a role-requirement substitution relation, an incompatibility relation, a role-bundle expression, a durable combined role value, a coupled role-method expression, a method name, or a work name.
+Role relation work may leave behind something people need to name in ordinary project prose. The named object is not always an atomic `U.Role` value. It may be a holder-in-role statement, a context-local role expression, a role-admission substitution relation, an incompatibility relation, a role-bundle expression, a durable combined role value, a coupled role-method expression, a method name, or a work name.
 
 Recover the named object before choosing the label:
 
@@ -66,5 +67,5 @@ Recover the named object before choosing the label:
 
 Hyphenation is not algebra by itself. Use a hyphenated ordinary label when it helps a reader see a recovered factor, domain, practice, method-family qualification, or combined role expression. Use "and" when the current point is multiple independent role assignments. Do not mechanically concatenate operands into a Tech label.
 
-The math-lens boundary is narrow. A role-algebra, graph, matrix, embedding, distributed, or neural representation is a lens over role values, role-requirement substitution relations, incompatibility relations, role-factor or qualification expressions, and role-bundle expressions. The lens is not itself the role, holder, assignment, method, work, or capability. The name attaches to the recovered object or expression, not to the notation that helped recover it.
+The math-lens boundary is narrow. A role-algebra, graph, matrix, embedding, distributed, or neural representation is a lens over role values, role-admission substitution relations, incompatibility relations, role-factor or qualification expressions, and role-bundle expressions. The lens is not itself the role, holder, assignment, method, work, or capability. The name attaches to the recovered object or expression, not to the notation that helped recover it.
 

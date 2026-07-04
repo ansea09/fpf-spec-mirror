@@ -6,12 +6,12 @@ section_id: "A.15:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__013_relations.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12 — Relations"
-line_start: 21596
-line_end: 21603
+line_start: 21721
+line_end: 21728
 dependencies:
   - "A.10"
   - "A.12"
@@ -53,7 +53,7 @@ keywords:
 ---
 
 ### A.15:12 - Relations
-*   **Architecture method/work boundary:** `C.32.P2S` and `C.32.PAD` may cite method descriptions, pattern-use refs, responsible roles, readiness exits, and expected structure effects as architecturing or decision-output duties. `C.32.ADR` may publish those refs. A.15 still governs method, method description, work plan, work-entry readiness, performed work, and role enactment claims.
+*   **Architecture method/work boundary:** `C.32.P2S` and `C.32.PAD` may cite method descriptions, pattern-use refs, responsibility-bearing role assignments, readiness exits, and expected structure effects as architecturing or decision-output duties. `C.32.ADR` may publish those refs. A.15 still governs method, method description, work plan, work-entry readiness, performed work, and role enactment claims.
 
 *   **Directly applies:** `A.7 Strict Distinction` for the role, method, method-description, plan, and work split.
 *   **Builds upon:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `A.2.2` for `U.Capability`, `A.2.5` for role-state admission, `A.2.7` for role relation structure, `A.6.5` for slot-relation discipline used by assignment and relation declarations, `A.3.1` for `U.Method`, `A.3.2` for `U.MethodDescription`, `A.3.3` for `U.Dynamics`, `A.3.4` for `U.Transformation`, `A.15.1` for `U.Work`, `A.15.2` for `U.WorkPlan`, `A.15.3` for slot-filling plan items, and `A.15.5` for work-entry readiness.

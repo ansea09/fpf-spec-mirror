@@ -6,12 +6,12 @@ section_id: "F.11:12"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__013_reasoning-primitives-judgement-schemas.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:12 — Reasoning primitives (judgement schemas)"
-line_start: 84597
-line_end: 84648
+line_start: 84779
+line_end: 84830
 dependencies:
   - "A.15"
   - "A.15.1"

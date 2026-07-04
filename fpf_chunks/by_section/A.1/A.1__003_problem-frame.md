@@ -6,7 +6,7 @@ section_id: "A.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__003_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:1 — Problem Frame"
@@ -45,5 +45,5 @@ A.1 separates four questions that are often collapsed:
 - **acting eligibility:** what can be admitted as `U.System`;
 - **claim-bearing knowledge:** what can be admitted as `U.Episteme`.
 
-Other admitted holon kinds are not created by title, slot position, or ordinary-language label. They remain governed by their direct patterns. Current accepted examples include `U.Work` under `A.15.1`, `U.BoundedContext` under `A.1.1`, and `U.Discipline` under `C.20`.
+Other admitted holon kinds are not created by title, slot position, or ordinary-language label. They remain governed by their direct patterns. Current accepted examples include `U.Method` under `A.3.1`, `U.Work` under `A.15.1`, `U.BoundedContext` under `A.1.1`, and `U.Discipline` under `C.20`.
 

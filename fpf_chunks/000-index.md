@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `e264bfb1cdeecdfe1b7407deba14165475c20ac7`
+Commit SHA: `f7c7e93f137a4691b390d46046428434e847099d`
 
 Chunking method: `pattern-aware`
 
@@ -97,7 +97,7 @@ Patterns: `277`
 - [B.1.2 — System Aggregation and Holon Delimitation](by_pattern/B.1.2.md)
 - [B.1.3 — Γ_epist - Knowledge‑Specific Aggregation](by_pattern/B.1.3.md)
 - [B.1.4 — Contextual and Temporal Aggregation](by_pattern/B.1.4.md)
-- [B.1.5 — Γ_method — Order‑Sensitive Method Composition & Work Enactment](by_pattern/B.1.5.md)
+- [B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment](by_pattern/B.1.5.md)
 - [B.1.6 — Work-Resource Aggregation](by_pattern/B.1.6.md)
 - [B.2 — Meta-Holon Transition - Whole Reidentification](by_pattern/B.2.md)
 - [B.2.P — Emergence and MHT Precision Restoration](by_pattern/B.2.P.md)

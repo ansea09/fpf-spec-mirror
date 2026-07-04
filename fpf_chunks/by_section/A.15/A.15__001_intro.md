@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:intro — Intro"
-line_start: 21232
-line_end: 21292
+line_start: 21353
+line_end: 21413
 dependencies:
   - "A.10"
   - "A.12"
@@ -60,30 +60,30 @@ keywords:
 
 **At a glance.** This pattern is the enactment-alignment pattern for engineer-managers when the real confusion is not "what component is this" but `who is responsible`, `how the work is supposed to happen`, `when the plan applies`, and `what actually happened`.
 
-**Use this when.** Use this pattern when the real job is to separate role, method, plan, capability, and actual work before a team treats one cue, one schedule, one display, one copied or generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
+**Use this when.** Use this pattern when the real job is to separate role, method, plan, holder `U.Capability` instance, any capability statement or currentness assessment relied on, capability-fit checks, and performed work before a team treats one cue, one schedule, one display, one copied or generated statement, or one document as if it already counted as the role assignment, the method, the work plan, execution evidence, or the work itself.
 
-**Start here when.** The dominant ambiguity is role vs method vs schedule vs actual run, and the team keeps arguing over a source-side "process" cue without separating recipe, plan, capability, and executed work.
+**Start here when.** The dominant ambiguity is role vs method vs schedule vs performed work occurrence, and the team keeps arguing over a source-side "process" cue without separating recipe, plan, capability, and executed work.
 
-**First output.** One explicit separation of `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`, plus the shortest traceable chain that already exists from `U.RoleAssignment` through the governing `U.Method` and its method-description source to the intended `U.WorkPlan` or actual `U.Work` occurrence, or an explicit source gap that blocks admission of the claim.
+**First output.** One explicit separation of `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`, plus the shortest traceable chain that already exists from `U.RoleAssignment` through the governing `U.Method` and its method-description source to the intended `U.WorkPlan` or dated performed `U.Work` occurrence, or an explicit source gap that blocks admission of the claim.
 
-**Working enactment-alignment spine.** Role, method, plan, and work confusion -> separate role, holder, bounded context, method description, intended `U.WorkPlan`, and actual `U.Work` -> choose proceed, plan, bounded probe, narrow, apply the direct governing pattern for any non-A.15 claim, or stop -> output the smallest alignment frame needed for the next work-family use -> use `A.15.4` only when an encountered episteme publication, display, credential view, explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain begins to carry or justify a work claim or reliance claim.
+**Working enactment-alignment spine.** Role, method, plan, and work confusion -> separate role, holder, bounded context, method description, intended `U.WorkPlan`, and dated performed `U.Work` -> choose proceed, plan, bounded probe, narrow, apply the direct governing pattern for any non-A.15 claim, or stop -> output the smallest alignment frame needed for the next work-family use -> use `A.15.4` only when an encountered episteme publication, display, credential view, explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source chain begins to carry or justify a work claim or reliance claim.
 
 **Working alignment applications.**
 1. Name the role, holder, and context distinction under repair.
 2. Name the method or method description that is meant to govern the work.
-3. Name the intended `U.WorkPlan` or actual `U.Work` occurrence being claimed.
+3. Name the intended `U.WorkPlan` or dated performed `U.Work` occurrence being claimed.
 4. Choose the next governed use: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the governing FPF pattern and project-side FPF kind and reference named by value for the claim or effect being made, or stop.
 5. If an encountered source candidate or display is being used by appearance for a work claim, reliance claim, or source-restoration claim, apply `A.15.4 Work-Relevant Source Restoration` to that source-restoration claim; keep `A.15` only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
 
-**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, capability, and actual work distinct so the acting engineer-manager can choose the next admissible work-family or reliance use. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
+**Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, holder `U.Capability` instance, separately governed capability-support records and relations, capability-fit checks, and performed work distinct so the acting engineer-manager can choose the next admissible work-family or reliance use. Work-relevant source restoration is handled by the related `A.15.4` cluster member.
 
 **Minimum sufficient governed use.** Choose the minimum sufficient governed use, recover only the project-side FPF kind and reference named by value needed for that use, and do not raise the claim beyond that recovered relation, source, or admissible-use boundary.
 
 **Recovered-source sufficiency condition.** If the required project-side FPF kind and reference named by value is present and its scope and window match the role, method, plan, or work-family claim under repair, proceed inside that recovered scope and window. If not, narrow scope, run a bounded reversible probe, source-find, or create only the smallest source-restoration request, decision-request record, prospective work-plan entry, source-gap note, or missing-source admission block needed for the next governed use.
 
-**Ordinary use.** If the team only needs to separate role, method, plan, capability, and actual work for orientation or planning, one separation sentence or small working card is enough.
+**Ordinary use.** If the team only needs to separate role, method, plan, holder `U.Capability` instance, capability-fit checks, and performed work for orientation or planning, one separation sentence or small working card is enough.
 
-**Reliance-bearing use.** Use the fuller alignment frame when an encountered source candidate or display is about to guide planned work, actual work, role attribution, role-state attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the issue under repair is whether that source candidate exposes the project-side FPF kind and reference named by value needed for that work claim or reliance claim.
+**Reliance-bearing use.** Use the fuller alignment frame when an encountered source candidate or display is about to guide planned work, performed work, role attribution, role-state attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the issue under repair is whether that source candidate exposes the project-side FPF kind and reference named by value needed for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work-family use or reliance use and blocks no concrete overclaim about role, role-state, method, plan, work, approval, evidence, or release.
 
@@ -95,9 +95,9 @@ keywords:
 
 **Alignment frame in plain terms.** One alignment frame linking `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` through `U.RoleAssignment`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
 
-**First admissible work-family use in plain terms.** Keep design-time role, method, and work plan distinct from run-time work while making the chain between them inspectable enough for enactment, audit, and source restoration.
+**First admissible work-family use in plain terms.** Keep role value, holder assignment, semantic method, method-description source, intended work plan, and dated performed work distinct while making the chain between them inspectable enough for enactment, audit, and source restoration.
 
-**What goes wrong if missed.** Teams collapse role, recipe, plan, capability, and actual run into one fuzzy source-side "process" label, then mistake documentation for execution, capability for evidence, schedule for occurrence, or a narrower briefing for the source that makes work admissible.
+**What goes wrong if missed.** Teams collapse role, recipe, plan, capability, and performed work occurrence into one fuzzy source-side "process" label, then mistake documentation for execution, capability for evidence, schedule for occurrence, or a narrower briefing for the source that makes work admissible.
 
 **What this buys.** One inspectable enactment frame that lets a team ask who held what role, which method governed, what plan existed, and what work actually occurred before treating follow-on work, blame, or approval as if those distinctions were the same.
 

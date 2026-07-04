@@ -6,55 +6,80 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"
-line_start: 2669
-line_end: 2701
+line_start: 2704
+line_end: 2760
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:2 - Kind and Boundary
 
-`U.Capability` is a system-side ability claim.
+`U.Capability` is retained as a dependent durable U-kind name under `E.24.UK`. A concrete `U.Capability` instance is the holder-dependent capability instance of a named `U.System`; its identity is grounded by the holder, work family or result class, envelope, measure set, qualification window, and currentness condition. The statement that asserts the ability, the evidence that supports reliance, and the fit predicate that tests work admission are separately governed records or relations rather than the `U.Capability` instance.
 
 ```text
-Capability:
+CapabilityUKindAdmissionDecision:
+  CandidateSpelling: U.Capability
+  Disposition: retained as dependent durable U-kind name
+  E24Settlement: dependent capability instance under the named U.System holder settlement, governed here by A.2.2
+  RootSubjectUKind: U.System holder whose ability is being stated
+  DependentInstance: holder-dependent concrete U.Capability instance
+  semanticArea: system ability, work admission, capability planning, and method threshold use
+  ontologicalNeighborhood: U.System holder, U.RoleAssignment, U.Method, U.MethodDescription, U.WorkPlan, U.Work, U.Characteristic, Q-Bundle, architecture-characteristic row, evidence relation, source-use relation, currentness assessment, and capability-fit predicate
+  IdentityGroundingOrRecognitionRule: holder plus work family or result class plus envelope plus measure set plus qualification window plus currentness condition
+  admissibleUse: state or test that a named holder can perform a work family or produce a result class within declared bounds for planning, promise support, role-method-work admission, or architecture move feasibility
+  nonUseBoundary: do not use U.Capability for statements, reports, evidence, source-use relations, currentness assessments, characteristics, Q-Bundles, architecture-characteristic rows, fit predicates, role assignments, method descriptions, work plans, or work occurrences
+  NonUSubstitutionBoundary: statements, evidence, source-use relations, currentness assessments, Q-Bundles, characteristics, architecture-characteristic rows, and fit predicates do not become U.Capability
+
+ConcreteCapabilityInstance:
   CapabilityHolderRef: U.System
   WorkFamilyOrResultClassRef:
   CapabilityEnvelope:
   CapabilityMeasureSet:
   QualificationWindow:
-  EvidenceOrSourceUseRefs:
-  CapabilityCurrentnessPredicate:
+  CapabilityCurrentnessCondition:
+  DependentInstancePolicy: dependent on holder identity and declared envelope/measure/window boundary
+
+SupportAndUseReferencesAroundCapability:
+  CapabilityStatementRefs?: governed episteme or publication records that describe the instance
+  EvidenceRelationRefs?: governed evidence relations that support reliance
+  SourceUseRelationRefs?: governed source-use relations used to justify or constrain the statement
+  CurrentnessAssessmentRefs?: dated assessment relations evaluating the currentness condition
+  CapabilityFitConditionRefs?: admission predicates or gate relations that test this instance for a use
 ```
 
 **CapabilityHolderRef.** The holder is a `U.System`: a physical system, cyber system, socio-technical system, organization, team, composite cell, software service as deployed system, or other acting holon admitted as system for the claim. A role assignment, method, method description, work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
 
 **WorkFamilyOrResultClassRef.** The ability is about a class of work results or a method family the holder can enact. It may refer to a `U.Method`, `U.MethodDescription`, method family, result class, or work family, but the reference does not turn the method or description into the holder.
 
-**CapabilityEnvelope.** The envelope states the bounded conditions under which the ability is claimed: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
+**CapabilityEnvelope.** The envelope states the bounded conditions under which the ability holds: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
 
-**CapabilityMeasureSet.** The measures state the achieved or required bounds with units, scales, tolerances, success predicates, reliability, throughput, latency, precision, defect rate, or other characteristics.
+**CapabilityMeasureSet.** The measures state achieved or required bounds with units, scales, tolerances, success predicates, reliability, throughput, latency, precision, defect rate, or other declared characteristics. A measure may cite a `U.Characteristic`, Q-Bundle slot, or architecture-characteristic criteria row as an input for a capability-fit check, but that characteristic, Q-Bundle, or architecture row does not become the capability.
 
-**QualificationWindow.** Capability is stable enough to plan with but not timeless. A claim may depend on software version, calibration horizon, team training state, wear, operating season, regulatory state, or other temporal currentness relation.
+**QualificationWindow.** Capability is stable enough to plan with but not timeless. The instance may depend on software version, calibration horizon, team training state, wear, operating season, regulatory state, or other temporal currentness relation.
 
-**EvidenceOrSourceUseRefs.** Evidence, tests, certifications, prior work summaries, simulations, audit records, standards, and model results can justify a capability claim through direct evidence or source-use relations. They do not become the capability.
+**CapabilityStatementRefs.** A `CapabilityStatement` is a governed episteme or publication-side record that says a capability instance exists, describes its holder, envelope, measures, and window, or cites it for planning. It is not `U.Capability`, but it is still a governed record under its own episteme or publication pattern.
 
-**CapabilityCurrentnessPredicate.** The claim states what keeps the ability current and what lowers or reopens it.
+**EvidenceRelationRefs and SourceUseRelationRefs.** Evidence, tests, certifications, prior work summaries, simulations, audit records, standards, and model results can justify a capability statement through direct evidence or source-use relations. These are governed relations or records. They do not become the capability and do not become its holder.
 
-**Neighboring-term boundary.** When a neighboring pattern uses `U.WorkScope`, recover the set-valued condition part of `CapabilityEnvelope`: the inputs, environment, resources, configuration, and assumptions against which an intended work slice is checked. When it uses `U.WorkMeasures`, recover `CapabilityMeasureSet`. `JobSlice` names the intended work slice for a work-admission check. `QualificationWindow` names the temporal currentness relation for the capability claim. These are neighboring governed terms, not substitute names for `U.Capability`.
+**CurrentnessAssessmentRefs.** A currentness assessment is a dated assessment relation saying whether the capability instance remains usable under its qualification window and current conditions. It is not the capability instance, but it is still a governed assessment relation. `CapabilityCurrentnessCondition` states what must remain true; an assessment evaluates that condition.
+
+**CapabilityFitConditionRefs.** A capability-fit condition is an admission predicate, threshold, or gate relation that tests a holder capability and any declared characteristic, Q-Bundle, or architecture-characteristic inputs against a current role, method step, work plan, work occurrence, bounded context, or gate need. It is a governed relation or predicate. Unless a separate E.24.UK admission is written, it is not a `U.*` kind.
+
+**Neighboring-term boundary.** When a neighboring pattern uses `U.WorkScope`, recover the set-valued condition part of `CapabilityEnvelope`: the inputs, environment, resources, configuration, and assumptions against which an intended work slice is checked. When it uses `U.WorkMeasures`, recover `CapabilityMeasureSet`. `JobSlice` names the intended work slice for a work-admission check. `QualificationWindow` names the temporal currentness relation for the capability instance. These are neighboring governed terms, not substitute names for `U.Capability`.
 
 
 

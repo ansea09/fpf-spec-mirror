@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__010_consequences.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:9 — Consequences"
-line_start: 69327
-line_end: 69339
+line_start: 69489
+line_end: 69501
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.24:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48202
-line_end: 48209
+line_start: 48364
+line_end: 48371
 dependencies:
   - "A.1"
   - "A.15"

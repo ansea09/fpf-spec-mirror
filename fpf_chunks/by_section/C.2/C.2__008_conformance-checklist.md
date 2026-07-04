@@ -6,12 +6,12 @@ section_id: "C.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__008_conformance-checklist.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:7 — Conformance Checklist"
-line_start: 36622
-line_end: 36629
+line_start: 36784
+line_end: 36791
 dependencies:
   - "A.1"
   - "A.10"

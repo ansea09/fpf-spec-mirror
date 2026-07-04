@@ -6,12 +6,12 @@ section_id: "C.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.2.1 — U.Episteme - Epistemes and their slot relation"
   - "C.2.1:1 — Problem Frame"
-line_start: 36674
-line_end: 36704
+line_start: 36836
+line_end: 36866
 dependencies:
   - "A.1"
   - "A.6.2-A.6.4"

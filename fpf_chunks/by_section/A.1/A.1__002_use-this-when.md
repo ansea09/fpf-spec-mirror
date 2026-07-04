@@ -6,7 +6,7 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
@@ -46,11 +46,11 @@ Typical moments:
 - a list, batch, fleet, pool, clientele, community, or supplier base is expected to act, but no acting system has been admitted;
 - architecture or selected-structure claims need the holon whose structure is being selected.
 
-**First useful move.** Name the `U.Entity` under concern. Then decide whether the current claim also admits it as `U.Holon`, and whether a direct governing pattern admits a more specific holon kind such as `U.System`, `U.Episteme`, `U.Work`, `U.BoundedContext`, or `U.Discipline`.
+**First useful move.** Name the `U.Entity` under concern. Then decide whether the current claim also admits it as `U.Holon`, and whether a direct governing pattern admits a more specific holon kind such as `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.BoundedContext`, or `U.Discipline`.
 
 **What goes wrong if missed.** A document edits itself, a theory gets ports, a list becomes an organization, a lathe becomes the super-holon of the workpiece it changes, and architecture is discussed without naming the holon whose structure is selected.
 
-**What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; other admitted holon kinds keep their own governing patterns.
+**What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; method holonhood is governed by `U.Method`; other admitted holon kinds keep their own governing patterns.
 
 **Not this pattern when.**
 

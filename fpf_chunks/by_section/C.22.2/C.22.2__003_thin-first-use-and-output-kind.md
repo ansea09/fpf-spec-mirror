@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 47065
-line_end: 47253
+line_start: 47227
+line_end: 47415
 dependencies:
   - "A.10"
   - "A.15"

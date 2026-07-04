@@ -6,12 +6,12 @@ section_id: "A.2.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__006_problem.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:2 — Problem"
-line_start: 5352
-line_end: 5362
+line_start: 5455
+line_end: 5465
 dependencies:
   - "A.15.1"
   - "A.2"

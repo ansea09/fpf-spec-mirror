@@ -6,12 +6,12 @@ section_id: "A.2.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 2559
-line_end: 2570
+line_start: 2591
+line_end: 2602
 dependencies:
   - "A.15"
   - "A.2"
@@ -31,7 +31,7 @@ keywords:
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
 | Contextless assignment: "Alice is reviewer" | No bounded context, role identity, or assignment window is recoverable. | Recover `Alice#ReviewerRole:ReviewContext` and state window disposition when current. |
-| Episteme as holder: "The report has EvidenceRole" | The report is being used in an evidence relation, not holding a work-facing role. | Use evidence-use relation with target claim, scope, polarity, and relevance window when current. |
+| Episteme as holder: "The report has EvidenceRole" | The report is being used in an evidence relation, not holding an enactment-facing role. | Use evidence-use relation with target claim, scope, polarity, and relevance window when current. |
 | Assignment as capability | The role assignment is treated as evidence that the holder can perform the work. | Use `A.2.2` for capability and connect capability evidence only when the claim depends on it. |
 | Assignment as work | The assignment is treated as if work already happened. | Use `A.15.1` for dated work and cite `performedBy = RoleAssignment`. |
 | `U.RoleEnactment` as root object | A derived performed-by fact becomes a second run-time ontology. | Use `RoleEnactmentFact` only as a named fact over work and assignment, or write direct `Work.performedBy` relation. |

@@ -6,37 +6,38 @@ section_id: "A.2.2:7"
 section_title: "Capability Currentness and Lowering"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__008_capability-currentness-and-lowering.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:7 — Capability Currentness and Lowering"
-line_start: 2801
-line_end: 2815
+line_start: 2874
+line_end: 2888
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:7 - Capability Currentness and Lowering
 
-Lower or reopen a capability claim when any of these changes:
+Lower or reopen a capability instance, or lower reliance on a statement about it, when any of these changes:
 
 - the holder system changes composition, version, calibration, staffing, training state, toolchain, or environment;
 - the envelope no longer covers the intended work slice;
 - measures no longer meet the required threshold;
 - the qualification window expires or becomes contested;
-- evidence, source-use, test, audit, or simulation relations become stale or are reclassified;
+- evidence, source-use, test, audit, or simulation relations become stale or are reclassified, lowering the support or currentness assessment rather than becoming the capability;
 - the method or method description changes the required capability threshold;
 - the role assignment or role state changes, causing a work-admission claim to fail even though capability remains true;
 - a composite holder changes dependency conditions.
 
-Repair the smallest value that changed. A stale calibration window lowers the capability claim; it does not rewrite the role value. A failed role assignment lowers work admission; it does not by itself lower the holder's measured ability.
+Repair the smallest object that changed. A stale calibration window lowers the capability currentness assessment and may lower reliance on the capability instance; it does not rewrite the role value. A failed role assignment lowers work admission; it does not by itself lower the holder's measured ability. A stale report lowers a statement or evidence relation before it lowers the capability instance itself.
 

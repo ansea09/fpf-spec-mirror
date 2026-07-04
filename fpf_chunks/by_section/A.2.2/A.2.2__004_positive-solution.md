@@ -6,39 +6,50 @@ section_id: "A.2.2:3"
 section_title: "Positive Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_positive-solution.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:3 — Positive Solution"
-line_start: 2702
-line_end: 2729
+line_start: 2761
+line_end: 2798
 dependencies:
   - "A.15"
   - "A.2"
   - "A.2.3"
+  - "E.24.UK"
 keywords:
-  - "ability"
-  - "action"
-  - "measures"
-  - "performance"
-  - "skill"
-  - "work scope"
+  - "ability envelope"
+  - "capability-fit condition"
+  - "currentness"
+  - "holder-dependent capability instance"
+  - "measure set"
+  - "qualification window"
 ---
 
 ### A.2.2:3 - Positive Solution
 
 Use `U.Capability` when the object under discussion is the holder's ability to achieve a result class within a declared envelope and measure set.
 
-Minimal capability statement:
+Minimal capability instance:
 
 ```text
-CapabilityStatement:
+ConcreteCapabilityInstance:
   holder: U.System
   canDo: WorkFamilyOrResultClass
   envelope: CapabilityEnvelope
   measures: CapabilityMeasureSet
   qualificationWindow: QualificationWindow
-  evidenceOrSourceUse: EvidenceOrSourceUseRefs
+  currentnessCondition: CapabilityCurrentnessCondition
+```
+
+Separate supporting record:
+
+```text
+CapabilityStatementRecord:
+  describedCapabilityRef: ConcreteCapabilityInstance
+  statementSourceRef:
+  evidenceOrSourceUseRefs:
+  currentnessAssessmentRefs?:
 ```
 
 Plain sentence form:
@@ -51,5 +62,5 @@ during <qualification window>,
 with <evidence or source-use relation>.
 ```
 
-This form is deliberately not a method description. It does not list the step order or algorithm. It also does not assign the holder to a role or assert that a work occurrence happened.
+This sentence form is a publication or statement about the capability instance. It is deliberately not a method description. It does not list the step order or algorithm. It also does not assign the holder to a role, assert that a work occurrence happened, prove an architecture characteristic, or make the evidence relation into the capability.
 

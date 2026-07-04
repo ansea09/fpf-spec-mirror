@@ -6,12 +6,12 @@ section_id: "A.2.7:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__017_relations.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:11 — Relations"
-line_start: 5258
-line_end: 5274
+line_start: 5361
+line_end: 5377
 dependencies:
   - "A.15"
   - "A.2"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | `A.1.1` | Supplies `U.BoundedContext`, the locality boundary for role relation structure. |
 | `A.2` | Governs `U.Role` values ranged over by role relation structure. |
-| `A.2.1` | Governs `U.RoleAssignment`, the relation checked when role-requirement substitutions, incompatibilities, or bundles are used for real holders. |
+| `A.2.1` | Governs `U.RoleAssignment`, the relation checked when role-admission substitutions, incompatibilities, or bundles are used for real holders. |
 | `A.2.2` | Governs capability; role relation structure does not grant ability. |
 | `A.2.5` | Governs role state and enactable-state admission; role relation structure does not prove current state. |
 | `A.3.1`, `A.3.2`, `A.15`, `A.15.1`, `A.15.2` | Govern method, method description, plan, and performed work uses that may cite a role relation. |

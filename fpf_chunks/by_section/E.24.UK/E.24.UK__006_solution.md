@@ -6,12 +6,12 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:4 — Solution"
-line_start: 80195
-line_end: 80346
+line_start: 80357
+line_end: 80528
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -70,7 +70,7 @@ Retain or introduce a candidate `U.*` name as a durable U-kind only if all of th
 3. The admission cites an identity, grounding, or recognition rule: direct governing pattern, C.3 membership and extent rule, Concept-Set witness set, A.6 `SubjectBlock` with `RangedValueKind`, imported signature symbol, CT2R/Compose-CAL constructive grounding for structural claims, formal-substrate or principle-frame declaration when current, or another accepted operational identity test.
 4. FPF users need to make action-facing claims about that value, not only about a wording choice.
 5. Existing root U-kinds plus slot and relation combinatorics cannot express the claim without losing reviewable distinctions.
-6. The candidate has a primary governing pattern or a selected governing pattern in the same landing set.
+6. The candidate has a primary governing pattern or another selected governing pattern in the same governed source set.
 7. The candidate has an E.24-compatible settlement: root subject, SlotRelation when needed, semanticArea, ontologicalNeighborhood, admissible use, non-use boundary, and dependent-value policy.
 8. Dependent patterns rely on this value by value or are expected to rely on it after the selected amendments.
 9. F.18 and F.17 can name and publish the term without turning a local slot label into a kernel kind.
@@ -82,7 +82,7 @@ If any row fails, the candidate is not admitted as a durable U-kind in the curre
 
 A root U-kind is the subject value whose identity is held by the primary settlement.
 
-A dependent durable U-kind is a reusable governed value whose identity is kept by the same primary settlement as a root U-kind, while the head pattern states the exact dependence relation and the governing pattern for the dependent value. It is not automatically:
+A dependent durable U-kind is a reusable public U-kind name for governed individual instances whose identity is kept through the same primary settlement as a root U-kind. The head pattern states the exact dependence relation and the governing pattern for those instances. It is not automatically:
 
 - a C.3 subkind;
 - a slot name;
@@ -91,6 +91,26 @@ A dependent durable U-kind is a reusable governed value whose identity is kept b
 - a synonym for the root;
 - a title convenience.
 
+Read the words carefully:
+
+- A **U-kind name** such as `U.WorkPlan`, `U.RoleAssignment`, `U.MethodDescription`, or `U.Capability` names a reusable governed kind admitted by this pattern and by its direct owner.
+- An **individual instance of that U-kind** is one concrete governed object under that kind, for example one work plan, one role assignment, one method description, or one holder capability. It is not a second kind named `Value`, not a slot filler by that fact, and not a record field.
+- **Dependent durable** means that the individual instance has durable identity for FPF use, but its identity is held through another settlement and declared dependence relation. It is not a root beside that settlement.
+- The dependency relation is an identity and governance relation, not parthood by default. A `U.RoleAssignment` depends on role, holder, bounded context, and window; that does not make the assignment a part of the role. A `U.Capability` may depend on a holder `U.System`; that does not make the capability a system part or a `U.Characteristic`.
+- A statement, record, evidence relation, publication, dashboard row, source expression, or fit predicate about a dependent individual remains a neighboring object unless its own governing pattern admits it as a governed object.
+- Avoid bare **value** when the contrast is kind versus instance. Use **individual**, **instance**, or **concrete governed object**. Reserve slot-filler wording for actual slot relations and record-field wording for records.
+
+Use this small reading table when authoring:
+
+| Form in prose | Ontological reading |
+| --- | --- |
+| "`U.WorkPlan` is dependent durable" | The public U-kind name is admitted, but its instances depend on method, role, time, and intended-work relations rather than forming a root beside `U.Work`. |
+| "this `U.WorkPlan` instance" | One concrete intended-work episteme or plan record governed by the work-plan pattern. |
+| "`U.RoleAssignment` is dependent" | Assignment instances depend on role, holder, bounded context, window, and work-facing use. |
+| "this `U.RoleAssignment` instance" | One concrete assignment relation, not the role, not the holder, and not performed work. |
+| "`U.Capability` is dependent" | The public U-kind name is admitted for holder-dependent capability instances under the system-holder settlement. |
+| "this `U.Capability` instance" | One concrete holder capability under envelope, measures, qualification window, and currentness condition; not the statement, evidence, currentness assessment, characteristic, Q-Bundle, architecture row, or fit predicate around it. |
+
 Examples:
 
 | Candidate | Disposition |
@@ -98,18 +118,18 @@ Examples:
 | `U.Episteme` | root U-kind governed by the episteme ontic settlement. |
 | `U.EpistemePublication` | dependent durable value only when the episteme/publication settlement states the dependence relation. |
 | `U.View` and `U.Viewpoint` | dependent or directly governed values under episteme and multi-view settlement, not automatic roots. |
-| `U.Method` | root U-kind for semantic way-of-doing when governed by the method pattern. |
+| `U.Method` | root U-kind for semantic way-of-doing and admitted non-agentive method holon kind when governed by `A.3.1` and direct method-composition patterns. |
 | `U.MethodDescription` | dependent value: description episteme for a method, not a C.3 subkind by default. |
 | `U.Work` | root U-kind for dated performed occurrence. |
 | `U.WorkPlan` | dependent value under method, work, role, and time settlement; it does not show that work occurred. |
 | `U.Role` | root work-facing role value under role patterns. |
 | `U.RoleAssignment` | dependent typed assignment relation value under role, holder, bounded-context, and work settlement. |
 | `RoleRelationStructure` | non-U selected relation structure unless E.24.UK evidence admits durable U-kindhood. |
-| `MethodRelationStructure` | non-U selected relation structure unless direct method-composition law admits durable U-kindhood. |
+| `MethodRelationStructure` | non-U selected relation structure for method-side relations that do not assert one `U.Method` whole assembled from method parts; direct method-composition patterns govern composite `U.Method` claims without promoting this relation structure to a U-kind. |
 
 #### E.24.UK:4.3 - Combined Admission Order
 
-Use existing law in this order:
+Use existing rules in this order:
 
 1. Recover the source use and governed EntityOfConcern.
 2. If the current question is typed claim quantification, apply C.3 and C.3.1 first. `U.Kind` is the context-local intensional value; `U.SubkindOf` is a partial-order relation over those values.
@@ -145,7 +165,7 @@ Then select the FPF object:
 
 | Source construct use | FPF recovery |
 | --- | --- |
-| claim quantification, membership, extent, subkind, or kind bridge | C.3 `U.Kind`, C.3.1 `U.SubkindOf`, and typed-reasoning law |
+| claim quantification, membership, extent, subkind, or kind bridge | C.3 `U.Kind`, C.3.1 `U.SubkindOf`, and typed-reasoning rules |
 | public durable FPF kind needed across patterns | E.24.UK durable U-kind admission, then E.24-compatible settlement |
 | a reusable cluster of slots, fillers, and governing relations | E.24 ontic settlement with one root subject U-kind or explicit reuse of an existing root |
 | imported formal symbol or declared range in a signature or mechanism | A.6 `SubjectBlock` with `RangedValueKind`, imported signature symbol, Concept-Set row, or admitted durable U-kind |

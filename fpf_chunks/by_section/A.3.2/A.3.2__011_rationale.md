@@ -6,12 +6,12 @@ section_id: "A.3.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__011_rationale.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:10 — Rationale"
-line_start: 6803
-line_end: 6808
+line_start: 6924
+line_end: 6929
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -37,9 +37,11 @@ keywords:
   - "SOP"
   - "U.Episteme"
   - "code"
+  - "method description"
+  - "method vs description vs work"
   - "model"
   - "recipe"
-  - "specification"
+  - "source"
 ---
 
 ### A.3.2:10 - Rationale

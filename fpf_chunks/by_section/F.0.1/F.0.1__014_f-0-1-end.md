@@ -6,12 +6,12 @@ section_id: "F.0.1:End"
 section_title: "F.0.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__014_f-0-1-end.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:End — F.0.1:End"
-line_start: 80750
-line_end: 80751
+line_start: 80932
+line_end: 80933
 dependencies:
   - "A.1.1"
   - "A.11"

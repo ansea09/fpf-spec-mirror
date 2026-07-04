@@ -6,12 +6,12 @@ section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:1 — Problem frame"
-line_start: 6168
-line_end: 6189
+line_start: 6271
+line_end: 6292
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.7"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
@@ -29,7 +30,10 @@ dependencies:
   - "A.6.1"
   - "B.1.5"
   - "C.2.P.DR"
+  - "C.20"
   - "C.29"
+  - "C.36"
+  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
@@ -38,25 +42,27 @@ dependencies:
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "abstract process"
-  - "how-to"
-  - "procedure"
-  - "recipe"
+  - "method"
+  - "method composition"
+  - "method vs method description vs work"
+  - "non-agentive holon"
+  - "submethod"
+  - "way of doing"
 ---
 
 ### A.3.1:1 - Problem frame
 
-Use this pattern when a project needs to say **how something is done in principle** without prematurely treating that method claim as a document, program, workflow diagram, plan, run log, role assignment, capability statement, mechanism claim, or mathematical-model claim before those positions are recovered.
+Use this pattern when a project needs to say **how something is done in principle** without prematurely treating that method or practice claim as a document, program, workflow diagram, plan, run log, role assignment, capability statement, mechanism claim, cultural tradition, discipline position, or mathematical-model claim before those positions are recovered.
 
 Typical moments:
 
 * a team says "the method is the code", "the process is the BPMN", "the workflow is the evidence", or "the solver model is the operation";
-* a procedure, protocol, proof script, optimization model, control strategy, or recipe must be reused across many runs;
+* a practice, procedure, protocol, proof script, optimization model, control strategy, or recipe must be reused across many runs;
 * two descriptions look different but may describe the same way of doing;
 * a graph, query, table, dashboard, checklist predicate, or mathematical representation is being interpreted as if it were an instruction sequence;
-* work planning, dated work, method description, formal substrate, mechanism, and evidence are starting to collapse into one vague "method" word.
+* work planning, dated work, method description, formal substrate, mechanism, role assignment, cultural-evolution, discipline, and evidence are starting to collapse into one vague "method" or "practice" word.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: the context-local semantic way of doing a kind of transformation or enactment.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: the context-local semantic way of doing a kind of transformation or enactment. `U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. This does not make a method an actor, a method description, a work plan, or a dated work occurrence. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
 
 **First useful move.** Name the context-local way of doing, the transformation or enactment it is about, and the `EntityOfConcern` whose state, result, selection, derivation, control relation, or maintained condition changes or is preserved.
 

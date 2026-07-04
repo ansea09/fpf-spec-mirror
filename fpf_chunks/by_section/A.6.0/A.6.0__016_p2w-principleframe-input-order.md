@@ -6,12 +6,12 @@ section_id: "A.6.0:10b"
 section_title: "P2W PrincipleFrame Input Order"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__016_p2w-principleframe-input-order.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:10b — P2W PrincipleFrame Input Order"
-line_start: 10322
-line_end: 10325
+line_start: 10443
+line_end: 10446
 dependencies:
   - "A.2.6"
   - "A.6.1"

@@ -6,12 +6,12 @@ section_id: "G.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91341
-line_end: 91355
+line_start: 91523
+line_end: 91537
 dependencies:
   - "A.21"
   - "B.3"

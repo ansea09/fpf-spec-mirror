@@ -6,12 +6,12 @@ section_id: "E.24.UK:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__003_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:1 — Problem Frame"
-line_start: 80160
-line_end: 80173
+line_start: 80322
+line_end: 80335
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -41,5 +41,5 @@ The same token shape can name different kinds of things:
 - type, kind, or subkind wording whose governed value must be recovered before current FPF use;
 - a slot position, relation structure, selected structure, record form, publication form, math lens, representation lens, local frame, or source expression.
 
-E.24.UK governs that separation. It is an E.24 subpattern because U-kind admission depends on ontic settlement, but it is not the head E.24 pattern. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK owns the detailed U-kind law.
+E.24.UK governs that separation. It is an E.24 subpattern because U-kind admission depends on ontic settlement, but it is not the head E.24 pattern. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK owns the detailed U-kind admission rules.
 

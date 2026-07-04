@@ -6,12 +6,12 @@ section_id: "B.5.2.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__008_bias-annotation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:6 — Bias-Annotation"
-line_start: 36155
-line_end: 36157
+line_start: 36317
+line_end: 36319
 dependencies:
   - "A.16"
   - "A.16.0"

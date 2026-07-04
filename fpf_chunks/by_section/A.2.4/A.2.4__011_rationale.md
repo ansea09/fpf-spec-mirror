@@ -6,12 +6,12 @@ section_id: "A.2.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__011_rationale.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:10 — Rationale"
-line_start: 3683
-line_end: 3686
+line_start: 3766
+line_end: 3769
 dependencies:
   - "A.10"
   - "A.2"

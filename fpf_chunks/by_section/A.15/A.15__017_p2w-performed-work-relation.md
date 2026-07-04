@@ -6,12 +6,12 @@ section_id: "A.15:12d"
 section_title: "P2W Performed-Work Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__017_p2w-performed-work-relation.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:12d — P2W Performed-Work Relation"
-line_start: 21645
-line_end: 21650
+line_start: 21770
+line_end: 21775
 dependencies:
   - "A.10"
   - "A.12"
@@ -56,5 +56,5 @@ keywords:
 
 When `E.18.1` reaches performed work, this family keeps the current kind as `U.Work`. WorkEnactment wording is explanatory only: it points to dated performed work, not to a second work kind.
 
-A performed-work record may cite a `U.WorkPlan` and planned baseline, while recording launch values, actuals, substitutions, variance, telemetry, outputs, outcome, and result-related records in the performed-work occurrence. Comparator, transport, `PrincipleFrame`, `U.Signature(profile=FormalSubstrate)`, evidence, assurance, and gate relations are named separately when those claims are being made.
+A performed-work record may cite a `U.WorkPlan` and planned baseline, while recording launch values, performed values, substitutions, variance, telemetry, outputs, outcome, and result-related records in the performed-work occurrence. Comparator, transport, `PrincipleFrame`, `U.Signature(profile=FormalSubstrate)`, evidence, assurance, and gate relations are named separately when those claims are being made.
 

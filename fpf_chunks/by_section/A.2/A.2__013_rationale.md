@@ -6,12 +6,12 @@ section_id: "A.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_rationale.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:11 — Rationale"
-line_start: 2246
-line_end: 2257
+line_start: 2264
+line_end: 2275
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,5 +41,5 @@ The selected ontology keeps three levels separate:
 2. `U.RoleAssignment`: the typed relation value linking holder, role, context, and window.
 3. Neighboring values: capability, method, method description, work plan, work occurrence, evidence-use relation, status-use relation, source-use relation, publication-use relation, and role description.
 
-This is a compact architecture. It avoids type explosion, but it also avoids the opposite error of making role a generic slot word for anything that participates in anything else. A role is a real role value when an acting system or acting holon is being something in a bounded context. Other participation claims use their own relation patterns.
+This is a compact architecture. It avoids type explosion, but it also avoids the opposite error of making role a generic slot word for anything that participates in anything else. A role is a real role value when an admitted `U.System` holder is being something in a bounded context for work, transformation, functioning, method, or attribution. Other participation claims use their own relation patterns.
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 22043
-line_end: 22052
+line_start: 22215
+line_end: 22226
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,21 +41,25 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
+  - "EpisodeOf_work"
+  - "TemporalPartOf_work"
   - "actuals"
-  - "event"
-  - "execution"
-  - "log"
-  - "occurrence"
-  - "run"
+  - "concurrent work part"
+  - "operational work part"
+  - "performed enactment"
+  - "trace"
+  - "work occurrence"
 ---
 
 ### A.15.1:12 - Existing work-log repair applications
 
 1. **Backfill links.** For existing logs, create work-occurrence records and attach `enactsMethod`, `methodDescriptionRef` when current, and `performedBy`.
 2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts accept.
-3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new run.
-4. **Choose Γ\_time per KPI.** Put "union" or "hull" in the KPI definition so disputes expose the coverage policy instead of hiding it.
-5. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
-6. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record performed values.
-7. **Parameter blocks.** Make parameters explicit and bind them at start; root-cause analyses become easier.
+3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new occurrence.
+4. **Separate slice, episode, and operational part.** Use interval/aspect for `TemporalPartOf_work`, event-bounded continuity for `EpisodeOf_work`, and recovered occurrence-side part plus any separately recovered method factor for `OperationalPartOf_work`.
+5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.
+6. **Choose Γ\_time per KPI.** Put "union" or "hull" in the KPI definition so disputes expose the coverage policy instead of hiding it.
+7. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
+8. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record performed values.
+9. **Parameter blocks.** Make parameters explicit and bind them at start; root-cause analyses become easier.
 

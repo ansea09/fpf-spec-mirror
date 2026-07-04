@@ -6,12 +6,12 @@ section_id: "A.2.7:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_forces.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:1.1 — Forces"
-line_start: 5006
-line_end: 5014
+line_start: 5091
+line_end: 5099
 dependencies:
   - "A.15"
   - "A.2"
@@ -29,7 +29,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Local relation vs universal type | A role-requirement substitution is valid inside one bounded context; it must not become kind subsumption or a universal role taxonomy. |
+| Local relation vs universal type | A role-admission substitution is valid inside one bounded context; it must not become kind subsumption or a universal role taxonomy. |
 | Life structure vs representation lens | Algebra, graph, matrix, embedding, or neural representation may describe the selected role relation structure; the lens is not the holder, role assignment, capability, method, or work. |
 | Compact naming vs hidden bundle | Ordinary names such as engineer-roboticist can help when the context declares the relation or bundle; they hide work when they silently combine independent roles or methods. |
 | Role-method coupling vs collapse | Role and method relation structures often appear together, but method, method family, work plan, and performed work keep their direct governing patterns. |

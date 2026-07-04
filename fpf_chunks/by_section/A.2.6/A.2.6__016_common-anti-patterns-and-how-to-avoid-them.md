@@ -6,12 +6,12 @@ section_id: "A.2.6:13.3"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__016_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:13.3 — Common Anti-Patterns and How to Avoid Them"
-line_start: 4649
-line_end: 4658
+line_start: 4732
+line_end: 4741
 dependencies:
   - "A.1.1"
   - "A.2.2"

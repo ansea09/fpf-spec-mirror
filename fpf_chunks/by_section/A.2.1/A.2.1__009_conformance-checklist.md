@@ -6,12 +6,12 @@ section_id: "A.2.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__009_conformance-checklist.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:7 — Conformance Checklist"
-line_start: 2544
-line_end: 2558
+line_start: 2576
+line_end: 2590
 dependencies:
   - "A.15"
   - "A.2"
@@ -31,7 +31,7 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-A2.1-1` | A `U.RoleAssignment` identifies holder, role value, and bounded context. |
-| `CC-A2.1-2` | The holder is a `U.System` or acting holon admitted as system-like performer by the governing work or method pattern. |
+| `CC-A2.1-2` | The holder is an admitted `U.System` selected as system-like performer by the governing work, transformation, functioning, or method pattern. |
 | `CC-A2.1-3` | No `U.Role`, `U.RoleAssignment`, or `U.Episteme` is used as holder merely because source language says "role". |
 | `CC-A2.1-4` | Any claim depending on current assignment validity names the assignment window, inherits a declared bounded-context default, or lowers or blocks the stronger claim. |
 | `CC-A2.1-5` | The assignment relation is not used as evidence of capability, selected method, planned work, performed work, gate passage, commitment, permission, or evidence-use relation. |

@@ -6,12 +6,12 @@ section_id: "C.3.A:4"
 section_title: "Normative Guard Macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:4 — Normative Guard Macros"
-line_start: 41553
-line_end: 41642
+line_start: 41715
+line_end: 41804
 dependencies:
   - "A.2.6"
   - "C.3.x"

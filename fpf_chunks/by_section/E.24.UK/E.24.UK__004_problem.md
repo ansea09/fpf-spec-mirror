@@ -6,12 +6,12 @@ section_id: "E.24.UK:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__004_problem.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:2 — Problem"
-line_start: 80174
-line_end: 80184
+line_start: 80336
+line_end: 80346
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -34,7 +34,7 @@ keywords:
 Without this pattern:
 
 1. **`U.*` spelling substitutes for admission.** A public name is retained because it looks like a kind.
-2. **Unsettled type and kind wording competes with U-kind admission law.** Type, kind, subkind, Concept-Set rows, U-kind names, and E.24 ontics become overlapping ontologies.
+2. **Unsettled type and kind wording competes with U-kind admission rules.** Type, kind, subkind, Concept-Set rows, U-kind names, and E.24 ontics become overlapping ontologies.
 3. **Dependent values become root values.** A value whose identity is held by a root settlement gets treated as a new root kind.
 4. **Structural names over-admit.** Titles, filenames, headings, and ToC rows advertise kindhood more strongly than the pattern body establishes.
 5. **Slot names and lenses become objects.** Relation positions, graph expressions, tuple views, table columns, and publication forms receive `U.*` names.

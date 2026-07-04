@@ -6,12 +6,12 @@ section_id: "A.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__012_rationale.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:10 — Rationale"
-line_start: 1645
-line_end: 1652
+line_start: 1651
+line_end: 1658
 dependencies:
   - "A.1.1"
   - "A.12"

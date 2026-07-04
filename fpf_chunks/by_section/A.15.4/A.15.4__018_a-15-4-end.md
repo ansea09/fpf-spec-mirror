@@ -6,12 +6,12 @@ section_id: "A.15.4:End"
 section_title: "A.15.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__018_a-15-4-end.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:End — A.15.4:End"
-line_start: 23116
-line_end: 23117
+line_start: 23290
+line_end: 23291
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.15.4:3"
 section_title: "Solution - Work-Relevant Source Restoration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__005_solution-work-relevant-source-restoration.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.15.4 — Work-Relevant Source Restoration"
   - "A.15.4:3 — Solution - Work-Relevant Source Restoration"
-line_start: 22823
-line_end: 22948
+line_start: 22997
+line_end: 23122
 dependencies:
   - "A.10"
   - "A.15"

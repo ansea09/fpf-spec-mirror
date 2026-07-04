@@ -6,12 +6,12 @@ section_id: "E.17:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__013_consequences.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:11 — Consequences"
-line_start: 73679
-line_end: 73687
+line_start: 73841
+line_end: 73849
 dependencies:
   - "A.6.2"
   - "A.6.3"

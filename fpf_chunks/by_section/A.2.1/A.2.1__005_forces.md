@@ -6,12 +6,12 @@ section_id: "A.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__005_forces.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
   - "A.2.1:3 — Forces"
-line_start: 2339
-line_end: 2349
+line_start: 2357
+line_end: 2367
 dependencies:
   - "A.15"
   - "A.2"
@@ -35,5 +35,5 @@ keywords:
 | Open-world use vs heavy forms | Some assignment claims need only holder, role, and context; other claims need window, state assertion, assignment source, capability, or method details. Missing optional-in-use slots must not force dummy values. |
 | Role state vs work occurrence | A role assignment can be current while the holder is not in an enactable role state; work occurrence is still a separate dated occurrence. |
 | Ordinary notation vs ontology | `Holder#Role:Context@Window` is memorable, but it is notation for a typed assignment relation, not the relation's ontology. |
-| Episteme use vs work performance | Epistemes can be used as evidence, standard, requirement, definition, explanation, status bearer, publication, or assurance input; they do not perform work by holding work-facing roles. |
+| Episteme use vs work performance | Epistemes can be used as evidence, standard, requirement, definition, explanation, status bearer, publication, or assurance input; they do not perform work by holding enactment-facing roles. |
 

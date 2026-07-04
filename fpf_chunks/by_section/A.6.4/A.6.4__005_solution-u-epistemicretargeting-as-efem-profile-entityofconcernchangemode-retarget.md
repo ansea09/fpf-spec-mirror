@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-u-epistemicretargeting-as-efem-profile-entityofconcernchangemode-retarget.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:4 — Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
-line_start: 13264
-line_end: 13521
+line_start: 13385
+line_end: 13642
 dependencies:
   - "A.6.2"
   - "A.6.3"

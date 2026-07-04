@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding-worked-slices.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:5 — Archetypal Grounding - Worked Slices"
-line_start: 70776
-line_end: 70815
+line_start: 70938
+line_end: 70977
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.2.7:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__004_problem.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:1.0 — Problem"
-line_start: 5002
-line_end: 5005
+line_start: 5087
+line_end: 5090
 dependencies:
   - "A.15"
   - "A.2"
@@ -27,5 +27,5 @@ keywords:
 
 ### A.2.7:1.0 - Problem
 
-A combined role expression such as engineer-roboticist, inspector-auditor, or musician-teacher can hide several different claims: a local role-requirement substitution, a role bundle, an incompatibility, a holder assignment, a capability claim, or a method/work coupling. The problem is to recover the local role relation structure without minting a new universal role kind or treating an algebraic, graph, factor, embedding, or neural description as the role structure itself.
+A combined role expression such as engineer-roboticist, inspector-auditor, or musician-teacher can hide several different claims: a local role-admission substitution, a role bundle, a factor or qualification, an incompatibility, a holder assignment, a capability claim, a responsibility, permission, commitment, or obligation relation, a role-state refinement, or a method/work coupling. The problem is to recover the local role relation structure without minting a new universal role kind, treating role decomposition as mereological parthood, or treating an algebraic, graph, factor, embedding, or neural description as the role structure itself.
 

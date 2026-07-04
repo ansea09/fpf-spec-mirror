@@ -6,12 +6,12 @@ section_id: "A.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__004_problem.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:2 — Problem"
-line_start: 2002
-line_end: 2013
+line_start: 2009
+line_end: 2021
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,4 +42,5 @@ Without this pattern:
 5. **Role and evidence collapse.** A document, dataset, standard, proof, or model card is treated as a role holder because it is used as evidence or source material.
 6. **Role and work collapse.** A role label is treated as evidence that work was performed.
 7. **Argument-position drift appears.** "Role" is used for relation argument positions or slot positions, competing with `A.6.5` SlotSpec discipline.
+8. **Role-whole overclaim.** A role is decomposed into factors, responsibilities, states, permissions, obligations, or method participation and then treated as a holon, although `U.Role` is not admitted as a holon kind. The recoverable objects are neighboring relations or values, not role parts.
 

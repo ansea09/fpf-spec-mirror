@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__014_relations.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:7 — Relations"
-line_start: 80425
-line_end: 80430
+line_start: 80607
+line_end: 80612
 dependencies:
   - "A.11"
   - "A.6.5"

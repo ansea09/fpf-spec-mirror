@@ -6,12 +6,12 @@ section_id: "F.4:8"
 section_title: "Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__010_anti-patterns-and-repairs.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:8 — Anti-Patterns and Repairs"
-line_start: 81929
-line_end: 81941
+line_start: 82111
+line_end: 82123
 dependencies:
   - "A.15"
   - "A.15.1"

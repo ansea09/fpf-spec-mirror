@@ -6,12 +6,12 @@ section_id: "A.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__003_problem-frame.md"
-commit_sha: "e264bfb1cdeecdfe1b7407deba14165475c20ac7"
+commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:1 — Problem Frame"
-line_start: 1994
-line_end: 2001
+line_start: 2001
+line_end: 2008
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,5 +37,5 @@ FPF needs role language because the same holon can be used, treated, expected, o
 
 At the same time, role language is dangerous. Everyday phrases such as "the role of this standard", "the role of this dataset", "the role of this theorem", "the role of this dashboard", or "the role of this interface" can hide several different FPF claims. They may be evidence-use, source-use, publication-use, status-use, requirement-use, explanation-use, interface, signature, capability, method, or work claims. They are not automatically `U.Role` claims.
 
-A.2 therefore keeps `U.Role` real, but narrow. A role is a work-facing context-bound role value. It becomes operational through neighboring relations, especially `U.RoleAssignment` in `A.2.1` and role-method-work alignment in `A.15`. It does not absorb every relation in which a value participates.
+A.2 therefore keeps `U.Role` real, but narrow. A role is a context-bound enactment-facing role value. Enactment-facing does not mean "human job" or "social agent only": a motor can be assigned as a drive motor, a pump can be assigned as a cooling circulator, and a valve can be assigned as a regulator inside a functional or transformation context. A method or method description may name role-admission conditions; performed work cites a `U.RoleAssignment`; transformation and functioning claims may also need the same role value. A role becomes operational through neighboring relations, especially `U.RoleAssignment` in `A.2.1`, role-method-work alignment in `A.15`, transformation participation in `A.3.4`, and functional precision restoration in `A.6.F` when function wording is current. It does not absorb every relation in which a value participates.
 
