@@ -6,12 +6,12 @@ section_id: "C.32.PAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__008_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:7 — Conformance Checklist"
-line_start: 61378
-line_end: 61391
+line_start: 61439
+line_end: 61452
 dependencies:
   - "A.10"
   - "A.15"

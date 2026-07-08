@@ -6,12 +6,12 @@ section_id: "C.29:End"
 section_title: "C.29:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__020_c-29-end.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:End — C.29:End"
-line_start: 54843
-line_end: 54844
+line_start: 54900
+line_end: 54901
 dependencies:
   - "A.1.1"
   - "A.10"

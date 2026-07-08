@@ -6,13 +6,14 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 73704
-line_end: 73751
+line_start: 73789
+line_end: 73836
 dependencies:
+  - "A.15.4"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
@@ -68,10 +69,10 @@ For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_v
 4. **Pin discipline (Part F and Part G).**
      * Any numeric or comparable content in a view pins {UnitType, ScaleKind, ReferencePlane}. **EditionId can be coarse at Lean profiles**; if units and scale are unknown, the face declares ordinal compare-only and keeps arithmetic outside the face until CHR pins are available. Pins upgrade monotonically with profile and risk.
 5. **No Γ‑leakage (publication independence).**
-    Publication morphisms carry **no** Γ\_method, Γ\_time, or Γ_work semantics. Any build, render, or upload activity is **separate `U.Work` by a system or acting holon under current `U.RoleAssignment` over carrier/rendering infrastructure** (`A.7`, `A.15`, `A.10`).
+    Publication morphisms carry **no** Γ\_method, Γ\_time, or Γ_work semantics. Any build, render, or upload activity is **separate `U.Work` by a system or acting holon under current `U.RoleAssignment` over carrier infrastructure or rendering infrastructure** (`A.7`, `A.15`, `A.10`).
      **Lean `AssuranceLane` face:** `AssuranceLane-Lite` exposes only presence bits for {PathId or PathSlice?, Γ_time window?, BridgeId?}; unknowns propagate (tri-state) with an explicit {degrade|abstain|sandbox} policy note.
 6. **Carrier provenance.**
-    Every emitted view records carrier references and any A.10/G.6 source-currentness or provenance record ids on first occurrence when reliance, evidence, or replay is current.
+    Every emitted view records carrier references and any A.10 or G.6 source-currentness or provenance record ids on first occurrence when reliance, evidence, or replay is current.
 7. **Isomorphism preservation.**
     * If `f` is an isomorphism in `U`, then `Emit_s(f)` is an isomorphism in `View_s(U)`; inverses map accordingly.
 8. **Cross‑Context and ReferencePlane bridging.**

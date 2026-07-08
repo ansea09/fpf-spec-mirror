@@ -6,7 +6,7 @@ section_id: "A.2.7:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:1.1 — Forces"

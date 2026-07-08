@@ -6,7 +6,7 @@ section_id: "A.15.2:10"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__016_lowering-repair-and-refresh-conditions.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:10 — Lowering, Repair, and Refresh Conditions"
@@ -38,9 +38,9 @@ keywords:
 
 ### A.15.2:10 - Lowering, Repair, and Refresh Conditions
 
-Lower a candidate `U.WorkPlan` claim when horizon, planned window, target method, method-description source when current, intended role value or role-admission condition, planned constraint, resource budget, dependency, acceptance target, or baseline cannot be named at the granularity required by the next planning use. The acceptable lowered result is a planning cue, method-description note, source-gap note, source-restoration request, publication-use cue, declarative-representation note, readiness-gap note for `A.15.5`, or evidence-reference note, not a conforming WorkPlan.
+Lower a candidate `U.WorkPlan` claim when horizon, planned window, target method, method-description reference when current, intended role value or role-admission condition, planned constraint, resource budget, dependency, acceptance target, or baseline cannot be named at the granularity required by the next planning use. The acceptable lowered result is a planning cue, method-description note, missing-source-relation note, `A.15.4` repair request, publication-use cue, declarative-representation note, readiness-gap note for `A.15.5`, or evidence-reference note, not a conforming WorkPlan.
 
 Repair the WorkPlan when a subsequent source changes the intended method, planned window, intended role value or role-admission condition, planned resource budget, dependency, acceptance target, baseline, version, bridge, or exception policy. Repair the plan; do not rewrite performed `U.Work` unless the work record itself changed, and do not make the repaired plan into evidence that the work occurred.
 
-Refresh before relying on a WorkPlan for cross-context coordination, budget reservation, release preparation, gate preparation, work-entry readiness, evidence-reference use, performed-work entry, result measurement, or P2W carry-through. If the claim being made after refresh is work-entry readiness, performed work, evidence, assurance, gate passage, publication use, declarative representation, or source restoration, use the governing pattern for that relation and keep only the returned WorkPlan relation here.
+Refresh before relying on a WorkPlan for cross-context coordination, budget reservation, release preparation, gate preparation, work-entry readiness, evidence-reference use, performed-work entry, result measurement, or P2W carry-through. If the claim being made after refresh is work-entry readiness, performed work, evidence, assurance, gate passage, publication use, declarative representation, or appearance-based reliance repair, use the governing pattern for that relation and keep only the returned WorkPlan relation here.
 

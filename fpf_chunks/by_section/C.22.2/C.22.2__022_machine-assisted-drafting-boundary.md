@@ -6,12 +6,12 @@ section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 47764
-line_end: 47776
+line_start: 47812
+line_end: 47824
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ Machine-assisted `ProblemCard@Context` drafting is only a drafting aid. Before t
 
 Required practitioner checks for a machine-assisted draft:
 
-- source signal;
+- problem signal;
 - improvement check or acceptance probe;
 - problem-formulation follow-up reason;
 - unknown handling;

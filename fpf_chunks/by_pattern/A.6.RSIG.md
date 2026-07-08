@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RSIG.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
 line_start: 8694
@@ -121,7 +121,7 @@ encountered publication or projection, that wording does not mint a new surface
 kind; use an existing publication face, publication form, interop publication form,
 `U.View`, card, or lane kind only when that kind is actually being made.
 
-Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme by being the encountered item.
+Use `definitionEpistemeRef` for the defining `U.Episteme`. If the definition is available only through one publication, cite the `U.EpistemePublication` that publishes it separately; the publication, projection, or carrier does not become the defining episteme merely because it exposed the definition to the reader.
 
 `A.6.RSIG` does not govern:
 

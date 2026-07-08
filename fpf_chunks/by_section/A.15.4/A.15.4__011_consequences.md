@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__011_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:6 — Consequences"
-line_start: 23236
-line_end: 23243
+line_start: 23265
+line_end: 23272
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,28 +28,33 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:6 - Consequences
 
 | Consequence | Trade-off and cost | Mitigation |
 | --- | --- | --- |
-| Work can continue at the lightest relation-governed level instead of stopping on every suspicious display. | The practitioner names the claim being made and governing source reference before relying on the source. | Use the ordinary six-field source-restoration note first; use fuller fields only for high-impact or contested reliance. |
-| Appearance-based approval, evidence, assurance, gate, and work-occurrence overreads are blocked. | Some convenient dashboard or copied-text shortcuts become unusable until source currentness is recovered. | Keep orientation, source-finding, and bounded reversible probes available when no external-impact reliance is being made. |
-| Repeated ambiguity becomes source-relation repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale source publications, or underspecified gate and evidence relations. | Assign only prospective repair work or source-gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
+| Work can continue at the lightest relation-governed level instead of stopping on every suspicious display. | The practitioner names the claim being made and governing pattern position or project reference before relying on the appearance. | Use the ordinary local repair record first; use fuller fields only for high-impact or contested reliance. |
+| Appearance-based approval, evidence, assurance, gate, and work-occurrence overreads are blocked. | Some convenient dashboard or copied-text shortcuts become unusable until source-currentness relation is recovered. | Keep orientation, source-finding, and bounded reversible probes available when no external-impact reliance is being made. |
+| Repeated ambiguity becomes governing pattern or source-relation repair work rather than repeated manual heroics. | The repair may reveal missing register entries, stale `U.EpistemePublication` records that expose source relations, or underspecified gate and evidence relations. | Assign only prospective repair work or source-relation gap work; do not backdate evidence, gate passage, work occurrence, or assurance. |
 

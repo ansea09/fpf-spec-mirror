@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 69508
-line_end: 69515
+line_start: 69587
+line_end: 69594
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,6 +43,6 @@ keywords:
 | Source family | Use in this pattern | Local adoption |
 | --- | --- | --- |
 | Current FPF E.10 and E.10.ARCH precision-restoration architecture | Supplies trigger scan, governed-object recovery, and anti-synonym discipline. | Adopt the recovery order and specialize it only for move and readiness wording. |
-| Current FPF transformation precision restoration | Supplies the split between change-situation wording and project concern or pattern-use wording. | Use `A.3.4.P` first when transformation, flow, path, process, workflow, or operation is current. |
-| TameFlow `MOVE` and Full-Kitting source material | Supplies one important source-use class for readiness wording. | Treat as source material whose distinctions are recovered under A.15, A.15.5, A.21, and B.1.6. |
+| Current FPF transformation precision restoration | Supplies the split between change-situation wording and pattern-use or readiness wording. | Use `A.3.4.P` first when transformation, flow, path, process, workflow, or operation is current. |
+| TameFlow `MOVE` and Full-Kitting source material | Supplies one important encountered wording class for readiness wording. | Treat as source material whose distinctions are recovered under A.15, A.15.5, A.21, and B.1.6. |
 

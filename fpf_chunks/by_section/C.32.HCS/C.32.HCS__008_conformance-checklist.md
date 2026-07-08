@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.HCS"
-pattern_title: "Holon-Family Architecture Characteristic Starter Packs"
+pattern_title: "Architecture-Bearing Family Characteristic Starter Packs"
 section_id: "C.32.HCS:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__008_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
+  - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:7 — Conformance checklist"
-line_start: 59873
-line_end: 59883
+line_start: 59934
+line_end: 59944
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,9 +28,9 @@ dependencies:
   - "G.5"
 keywords:
   - "architecture characteristic heads"
+  - "architecture-bearing family characteristic starter pack"
   - "characteristic transfer"
   - "first criteria questions"
-  - "holon-family architecture characteristic starter pack"
   - "source catalogue narrowing"
 ---
 
@@ -38,10 +38,10 @@ keywords:
 
 | Check | Required result |
 |---|---|
-| `CC-HCS-1` | The described holon family is named. |
+| `CC-HCS-1` | The architecture-bearing family is named; when it is not itself an admitted holon family, the described holon, or the source-bearing episteme or publication context for a description-side family, and governing pattern refs are named. |
 | `CC-HCS-2` | Starter heads are paired with likely bearers or selected structures. |
 | `CC-HCS-3` | Q-Bundle boundaries are marked when the head is composite. |
-| `CC-HCS-4` | Software-derived heads are generalized only after the holon bearer is recoverable. |
-| `CC-HCS-5` | Before project optimization, measurement, comparison, or selection, starter heads are either handed to `C.32.ACS` for project-row admission or kept as source vocabulary. |
-| `CC-HCS-6` | Source cues that look mature answer the proxy-resistance question or remain source vocabulary. |
+| `CC-HCS-4` | Software-derived heads are generalized only after the bearer, scale, and governing pattern are recoverable. |
+| `CC-HCS-5` | Before project optimization, measurement, comparison, or selection, starter heads are either handed to `C.32.ACS` for project-row admission or kept as source catalogue wording. |
+| `CC-HCS-6` | Catalogue, benchmark, or dashboard cues that look mature answer the proxy-resistance question or remain source catalogue wording. |
 

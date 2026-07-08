@@ -6,12 +6,12 @@ section_id: "E.11.PUR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__008_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:7 — Conformance Checklist"
-line_start: 70984
-line_end: 70998
+line_start: 71065
+line_end: 71079
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- | --- |
 | `CC-E11PUR-1` | names the project concern before recommending a pattern use. | The concern is not replaced by a pattern id alone. |
 | `CC-E11PUR-2` | separates applicability from recommendation. | `ApplicabilityFinding` and `RecommendedPatternUse` are both recoverable when both claims are made. |
-| `CC-E11PUR-3` | blocks stronger uses. | Work, plan, gate, decision, source, publication, architecture, and transformation overreads are named only when their governing pattern is current. |
+| `CC-E11PUR-3` | blocks stronger uses. | Work, plan, gate, decision, source-relation, publication, architecture, and transformation overreads are named only when their governing pattern is current. |
 | `CC-E11PUR-4` | preserves the remaining reader use. | The result says what the practitioner can inspect, write, decide, or apply next. |
 | `CC-E11PUR-5` | uses `PatternUseSequence@Context` only for pattern-use relations. | The sequence is not a work plan, workflow, lifecycle, or performed work. |
 | `CC-E11PUR-6` | keeps didactic move language plain. | "First useful move" can remain in teaching prose, but durable FPF text names the recovered relation. |

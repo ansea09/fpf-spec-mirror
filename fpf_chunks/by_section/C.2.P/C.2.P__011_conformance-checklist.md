@@ -6,12 +6,12 @@ section_id: "C.2.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__011_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:7 — Conformance Checklist"
-line_start: 38180
-line_end: 38202
+line_start: 38228
+line_end: 38250
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 | CC-C2P-1 | Every FPF-governed broad head names the recovered FPF kind, relation record, relation phrase, tuple-like record, project-side FPF kind and reference named by value when `projectSideFPFRef` is current, or explicit non-use disposition. The selected project-side entry must be one named kind under repair, such as `C.11` `ChoiceResult`, `C.11` decision record, `A.6.A` action invitation, `A.15` `U.WorkPlan`, `A.15.1` dated `U.Work` occurrence, `U.Method`, `U.MethodDescription`, `A.20` constraint or adjudication decision record, `A.21` `GateDecision`, `A.21` `DecisionLogRef`, `A.10` evidence path, typed evidence record, `B.3` assurance or engineering-justification record, typed status record whose FPF status pattern is named, carrier relation, front-end relation, or not-triggered alternative. |
 | CC-C2P-2 | Slash compounds and heterogeneous lists are not left as final kinds unless they are accepted tokens, carrier syntax, plain synonym pairs with no FPF-governed use, or explicitly recovered tuple-like constructions or relation constructions. |
 | CC-C2P-3 | FPF pattern-application claims and project-side publication, record, work, method, carrier, and action claims stay separated when both are current. |
-| CC-C2P-4 | Broad use-boundary, source-use, publication-face, carrier, placement, movement, procedure-like, topic-like, pre-FPF sign, or publication wording requires epistemic precision restoration when it carries ontology, authority, evidence, or use-boundary claim. Relation-support wording belongs to `A.6.P` unless the publication or source-use construction is itself unresolved. |
+| CC-C2P-4 | Broad use-boundary, source wording, source-relation use, publication-face, carrier, placement, movement, procedure-like, topic-like, pre-FPF sign, or publication wording requires epistemic precision restoration when it carries ontology, authority, evidence, or use-boundary claim. Relation-support wording belongs to `A.6.P` unless the publication or source-relation construction is itself unresolved. |
 | CC-C2P-5 | Unclear meaning is not rewritten by guesswork; it is classified as reduced-use cue, blocked use, or understandable FPF extension candidate. |
 | CC-C2P-6 | Any newly stable name passes `F.18`; any relation claim passes `A.6.P`; any use-boundary claim fills `declaredUseBoundary` and uses `A.6.B` when L-, A-, D-, and E-claim separation is current; any claim-bearing episteme, episteme species named by value, episteme-lane view, or project-side FPF kind and reference named by value passes `C.2.1` or the named governing FPF pattern as needed; any publication, view, or carrier claim passes `E.17.0`, `E.17`, and MVPK as needed. |
 | CC-C2P-7 | The final text remains action guidance under `E.2` `P-2` and `E.12`: it tells the author what wording action to take, what overread to block, why the distinction still matters to the working reader, and what remaining reader use or FPF pattern application remains. When both Tech and Plain registers are current, the Plain or didactic line maps back to the recovered Tech interpretation under `E.10:6.2`. |

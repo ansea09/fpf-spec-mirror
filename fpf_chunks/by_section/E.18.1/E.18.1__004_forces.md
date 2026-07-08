@@ -6,12 +6,12 @@ section_id: "E.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__004_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:3 — Forces"
-line_start: 76717
-line_end: 76727
+line_start: 76802
+line_end: 76812
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,5 +57,5 @@ keywords:
 | Practical readability | First use needs a compact record and a quick continuing FPF use. | Too much boundary prose can hide the working P2W application. |
 | Non-linear use | P2W may skip, branch, split, stop, or reopen loci in the carry-through structure. | A readable diagram or graph-shaped expression can be mistaken for a required project sequence. |
 | Result usefulness | Result phrases often point to artifacts, telemetry, acceptance, measurement, refresh, or role enactability. | One broad result word can hide several different records. |
-| Governing-pattern economy | Direct governing patterns keep their own law. | Repeating their non-use doctrine inside P2W creates content fanout. |
+| Governing-pattern economy | Direct governing patterns keep their own rules. | Repeating their non-use doctrine inside P2W creates content fanout. |
 

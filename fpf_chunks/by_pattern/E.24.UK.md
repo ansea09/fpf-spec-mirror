@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
-line_start: 80286
-line_end: 80616
+line_start: 80371
+line_end: 80699
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -356,6 +356,4 @@ The coupling rule keeps the architecture compact: a durable U-kind needs an E.24
 - **Does not replace:** direct subject patterns for method, work, role, episteme, transformation, relation, characteristic, view, measurement, publication, evidence, gate, source, or decision claims.
 
 ### E.24.UK:End
-
-# **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 

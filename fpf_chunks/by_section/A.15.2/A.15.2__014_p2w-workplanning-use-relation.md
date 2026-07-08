@@ -6,7 +6,7 @@ section_id: "A.15.2:8"
 section_title: "P2W WorkPlanning Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__014_p2w-workplanning-use-relation.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:8 — P2W WorkPlanning Use Relation"
@@ -42,5 +42,5 @@ When `E.18.1` reaches WorkPlanning, `U.WorkPlan` states intended work occurrence
 
 When the P2W use also needs a readiness question, the WorkPlan may supply target PlanItems, planned preparation tasks, reservations, and planned baselines. `A.15.5` carries the `WorkEntryReadiness@Context` relation that judges full-kit condition, commitment disposition, resource readiness, WIP or flow policy, and launch-gate refs when those are current.
 
-If the same P2W source material also makes a performed-work, launch-value, evidence, gate, result, measurement, publication-use, source-restoration, or refresh claim, write that meaning as a separate current relation before using the plan.
+If the same P2W source material also makes a performed-work, launch-value, evidence, gate, result, measurement, publication-use, appearance-based reliance repair, or refresh claim, write that meaning as a separate current relation before using the plan.
 

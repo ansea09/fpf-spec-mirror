@@ -6,7 +6,7 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
@@ -57,7 +57,7 @@ keywords:
 2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts accept.
 3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new occurrence.
 4. **Separate slice, episode, and operational part.** Use interval/aspect for `TemporalPartOf_work`, event-bounded continuity for `EpisodeOf_work`, and recovered occurrence-side part plus any separately recovered method factor for `OperationalPartOf_work`.
-5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.
+5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.
 6. **Choose Γ\_time per KPI.** Put "union" or "hull" in the KPI definition so disputes expose the coverage policy instead of hiding it.
 7. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
 8. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record performed values.

@@ -6,12 +6,12 @@ section_id: "F.1:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__003_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:2 — Problem frame"
-line_start: 80951
-line_end: 80960
+line_start: 81034
+line_end: 81043
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 38259
-line_end: 38319
+line_start: 38307
+line_end: 38367
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,12 +77,12 @@ The current FPF corpus already has explicit governing patterns for this discipli
 - `C.2.1` gives the episteme slot relation and selected `EntityOfConcern` discipline.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
-- `A.15.4` is a good current pattern example of keeping encountered publication, display, or cue items distinct from the project-side FPF kind and reference named by value that governs work or reliance use.
+- `A.15.4` is a good current pattern example of keeping encountered publication, display, or low-articulation cue items distinct from the project-side FPF kind and reference named by value that governs work or reliance.
 - `A.16`, `A.16.0`, `A.19`, `B.2.5`, `C.27`, and `A.3.3` provide the movement, control, and temporal machinery used when episteme-publication prose talks about route, trajectory, movement, cadence, or dynamics.
 - `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the question under repair is a decision rather than generic action.
-- `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from work-relevant source restoration, so episteme-publication prose must not let `A.15` become a universal episteme-publication governing pattern.
+- `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from appearance-based reliance repair, so episteme-publication prose must not let `A.15` become a universal episteme-publication governing pattern.
 - `E.9` is the campaign `DRR` pattern for campaign-level content decisions; `E.11` is only for entry-discoverability situations and must not organize an episteme and publication repair by default.
 
 The internal FPF governing patterns remain primary:

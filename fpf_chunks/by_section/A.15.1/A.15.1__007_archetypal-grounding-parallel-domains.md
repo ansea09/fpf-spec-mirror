@@ -6,7 +6,7 @@ section_id: "A.15.1:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:6 — Archetypal grounding (parallel domains)"
@@ -56,7 +56,7 @@ keywords:
 #### A.15.1:6.1 - Surgical case (overlap and episodes)
 
 * **Top work occurrence:** `Appendectomy_Case_2025-08-10T0905_1142`.
-* **Method-description source:** `Appendectomy_v5`.
+* **`methodDescriptionRef`:** `Appendectomy_v5`.
 * **Performer:** `U.RoleAssignment` with holder slot `OR_Team_A`, role value `SurgicalTeamRole`, bounded-context slot `Hospital_2025`, and current-window slot covering the surgery interval.
 * **Operational parts:** `Incision` (09:15–09:22), `Exploration` (overlaps with monitoring), `Closure` (11:10–11:35).
 * **Episode:** brief power dip 10:02-10:07 -> **resumptionOf** same occurrence (per hospital policy).
@@ -66,7 +66,7 @@ keywords:
 #### A.15.1:6.2 - ETL pipeline (parallelism and retries)
 
 * **Top work occurrence:** `ETL_Nightly_2025-08-11T01:00-01:47`.
-* **Method-description source:** `ETL_v12.bpmn`.
+* **`methodDescriptionRef`:** `ETL_v12.bpmn`.
 * **Performer:** `U.RoleAssignment` with holder slot `ETL_Runtime`, role value `TransformerRole`, bounded-context slot `DataOps_2025`, and current-window slot covering the ETL occurrence.
 * **Parallel parts:** `Extract_A` ‖ `Extract_B`; `Transform` starts when either completes (overlap).
 * **Retry:** `WarehouseWrite` failed at 01:36; retried with batch size ↓ — **new Work** linked via `retryOf`.
@@ -76,7 +76,7 @@ keywords:
 #### A.15.1:6.3 - Thermodynamic cycle (work through a state-plane trace)
 
 * **Run:** `Carnot_Cycle_Run_2025-08-09T1300_1306`.
-* **Method-description source:** `Carnot_Cycle_Spec` with Dynamics model.
+* **`methodDescriptionRef`:** `Carnot_Cycle_Spec` with Dynamics model.
 * **Performer:** `U.RoleAssignment` with holder slot `LabRig_7`, role value `TransformerRole`, bounded-context slot `ThermoLab`, and current-window slot covering the lab occurrence.
 * **Work identity:** the occurrence is identified by the occurrence interval plus occurrence references; the thermodynamic state-plane trace is a dynamics or geometry relation used to describe the change, not a work-control relation or ordered instruction sequence.
 * **Γ\_time:** straightforward interval; **Γ\_work:** integrates energy exchange; no “steps” required.
@@ -84,7 +84,7 @@ keywords:
 #### A.15.1:6.4 - Claim handling (episodes versus monitoring slices)
 
 * **Top work occurrence:** `ClaimHandling_Case_8142_2026-06-03`.
-* **Method-description source:** `Claims_Method_v7`.
+* **`methodDescriptionRef`:** `Claims_Method_v7`.
 * **Performer:** `U.RoleAssignment` with holder slot `ClaimsTeam_A`, role value `ClaimsHandlerRole`, bounded-context slot `InsuranceOps_2026`, and current-window slot covering the work occurrence.
 * **Episode policy:** a customer callback interruption under one hour keeps the same parent work identity and creates two `EpisodeOf_work` fragments: `InitialReview_09:00-09:42` and `ResumedResolution_10:11-10:38`.
 * **Temporal monitoring slice:** `MonitoringSlice_09:15-09:20` is `TemporalPartOf_work` for queue-latency evidence. It is not a new work occurrence and not an episode unless downstream reliance needs a named part with its own evidence, KPI, acceptance, repair, or aggregation role.
@@ -93,7 +93,7 @@ keywords:
 #### A.15.1:6.5 - Internal-combustion engine (cycle parts without human-only boundary language)
 
 * **Top work occurrence:** `EngineRun_Cell7_2026-06-03T1300_1330`.
-* **Method-description source:** `FourStrokeOperationSpec_v4`.
+* **`methodDescriptionRef`:** `FourStrokeOperationSpec_v4`.
 * **Performer:** `U.RoleAssignment` with holder slot `Engine_Cell7`, role value `EngineOperationRole`, bounded-context slot `TestBench_2026`, and current-window slot covering the run.
 * **Episodes:** start, stop, mode-change, fuel/ignition policy, or diagnosis policy may bound `EpisodeOf_work` fragments. The definition uses boundary events and policy, not a human-attention metaphor.
 * **Temporal parts:** crank-angle intervals or one-second telemetry windows are `TemporalPartOf_work` unless the context declares a named work part for resource, evidence, KPI, acceptance, repair, or aggregation use.
@@ -102,7 +102,7 @@ keywords:
 #### A.15.1:6.6 - Detector radio receiver (component behavior, method factor, work part)
 
 * **Top work occurrence:** `ReceiverReception_Rx42_2026-06-03T2115_2120`.
-* **Method-description source:** `EnvelopeDetectionMethod_v2`.
+* **`methodDescriptionRef`:** `EnvelopeDetectionMethod_v2`.
 * **Performer:** `U.RoleAssignment` with holder slot `Receiver_Rx42`, role value `DetectorReceiverRole`, bounded-context slot `RadioLab_2026`, and current-window slot covering the reception occurrence.
 * **Episodes:** a continuous reception interval between retune, on/off, interruption, or declared diagnostic mode events is `EpisodeOf_work` only under the receiver's episode policy.
 * **Temporal parts:** a one-second reception slice is `TemporalPartOf_work` for signal-quality evidence or telemetry aggregation. It is not a new occurrence merely because it appears in a trace.

@@ -6,12 +6,12 @@ section_id: "B.5.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__002_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:1 — Problem frame"
-line_start: 35956
-line_end: 35959
+line_start: 35988
+line_end: 35991
 dependencies:
   - "A.10"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "C.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__001_intro.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:intro — Intro"
-line_start: 37685
-line_end: 37690
+line_start: 37717
+line_end: 37722
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,7 +51,7 @@ keywords:
 
 ## C.2.P - Epistemic Precision Restoration
 
-> **Type:** C.2 precision-restoration pattern for episteme, publication, and source-use wording
+> **Type:** C.2 precision-restoration pattern for episteme, publication, source wording, and source-relation wording
 > **Status:** Stable
 > **Normativity:** Normative unless a section is explicitly informative
 

@@ -6,12 +6,12 @@ section_id: "C.17:3"
 section_title: "Solution Overview — The context‑local CreativitySpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__004_solution-overview-the-context-local-creativityspace.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:3 — Solution Overview — The context‑local CreativitySpace"
-line_start: 44872
-line_end: 44890
+line_start: 44920
+line_end: 44938
 dependencies:
   - "A.1"
   - "A.10"

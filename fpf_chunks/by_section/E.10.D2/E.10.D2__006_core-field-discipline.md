@@ -6,12 +6,12 @@ section_id: "E.10.D2:4.1"
 section_title: "Core field discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_core-field-discipline.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4.1 — Core field discipline"
-line_start: 70227
-line_end: 70260
+line_start: 70308
+line_end: 70341
 dependencies:
   - "A.7"
   - "C.2.1"

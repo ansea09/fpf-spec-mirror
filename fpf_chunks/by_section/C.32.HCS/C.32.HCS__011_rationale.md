@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.HCS"
-pattern_title: "Holon-Family Architecture Characteristic Starter Packs"
+pattern_title: "Architecture-Bearing Family Characteristic Starter Packs"
 section_id: "C.32.HCS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__011_rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
+  - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:10 — Rationale"
-line_start: 59902
-line_end: 59905
+line_start: 59963
+line_end: 59966
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,13 +28,13 @@ dependencies:
   - "G.5"
 keywords:
   - "architecture characteristic heads"
+  - "architecture-bearing family characteristic starter pack"
   - "characteristic transfer"
   - "first criteria questions"
-  - "holon-family architecture characteristic starter pack"
   - "source catalogue narrowing"
 ---
 
 ### C.32.HCS:10 - Rationale
 
-The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Holon-family starter packs give a small, recognizable entry while project criteria-row construction, measurement, eval, comparison, selection, publication of a selected set, local choice, and project architecture decision work stays with its receiving pattern.
+The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Architecture-bearing starter packs give a small, recognizable entry while project criteria-row construction, measurement, eval, comparison, selection, publication of a selected set, local choice, and project architecture decision work stays with its receiving pattern.
 

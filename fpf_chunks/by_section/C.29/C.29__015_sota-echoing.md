@@ -6,12 +6,12 @@ section_id: "C.29:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__015_sota-echoing.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13 — SoTA-Echoing"
-line_start: 54622
-line_end: 54730
+line_start: 54670
+line_end: 54787
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -72,6 +72,15 @@ keywords:
 SoTA source use for `C.29` is accepted only when it changes action guidance. A citation that only decorates the file does not establish `C.29` use.
 
 `C.29` separates source-use relations from source-use disposition. `Adopt`, `Adapt`, `Reject`, and candidate-stress-test disposition say what FPF does with the source; `SourceUseRelation` says what work the source may perform inside a C.29 application.
+
+Local `SourceUseRelation` slot discipline:
+
+- source material reference or locator;
+- declared C.29 output, lens-use boundary, or `LensUseBoundaryValue` affected by that source;
+- source-use disposition: adopt, adapt, reject, candidate stress test, recognition cue, source identity locator, checked source-text carrier, or historical background only;
+- currentness, supersession, contradiction, narrowing, or demotion condition;
+- output-change condition for the C.29 result;
+- blocked overread, especially source prestige becoming evidence, causal-use verdict, bridge semantics, assurance, release, selector, benchmark, or accepted law.
 
 | `SourceUseRelation` | Declared `C.29` use | Blocked `C.29` use |
 |---|---|---|

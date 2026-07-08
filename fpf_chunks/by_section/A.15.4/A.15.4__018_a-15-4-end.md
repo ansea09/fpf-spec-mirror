@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:End"
 section_title: "A.15.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__018_a-15-4-end.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:End — A.15.4:End"
-line_start: 23290
-line_end: 23291
+line_start: 23319
+line_end: 23320
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,21 +28,26 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:End

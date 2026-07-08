@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_bias-annotation.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4.1 — Bias-Annotation"
-line_start: 23218
-line_end: 23223
+line_start: 23247
+line_end: 23252
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,26 +28,31 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:4.1 - Bias-Annotation
 
-A.15.4 corrects source-appearance bias. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look like a work source before the governing project-side source is named. The pattern keeps the encountered source candidate separate from the source relation that carries the claim.
+A.15.4 corrects appearance-based reliance. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look ready for work before the governing pattern position and project-side FPF reference are named. The pattern keeps the reliance appearance separate from the source relation or other governing relation that carries the claim.
 
-It also corrects over-restoration bias. Not every source-looking case needs a full dossier. The source-restoration note names the claim, governing source, current relation-governed use, blocked overread, and reopen condition at the smallest useful depth for the work or reliance question.
+It also corrects over-repair bias. Not every reliance appearance being used as a reason for work or reliance needs a full dossier. The local repair record names the reliance appearance, work or reliance use, required claim or instituted effect, claim/effect position, allowed current use, blocked appearance overread, and recovery or stop condition at the smallest useful depth for the work or reliance question.
 

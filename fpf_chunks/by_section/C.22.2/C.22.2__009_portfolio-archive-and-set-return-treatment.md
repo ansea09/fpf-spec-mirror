@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 47496
-line_end: 47520
+line_start: 47544
+line_end: 47568
 dependencies:
   - "A.10"
   - "A.15"
@@ -85,8 +85,8 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `
 
 A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention criterion, budget or window, review cadence, and pattern reference named by value when current. `setContextRef` is a reference field, not a new `SetContext` kind and not a downstream claim carrier.
 
-`setContextRef` preserves the recoverable source-set form when current: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the source-set form is not recoverable, the card may keep a source cue, but it does not claim selected-set readiness or archive-derived readiness.
+`setContextRef` preserves the recoverable set-source relation when current: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the set-source relation is not recoverable, the card may keep a set-finding cue, but it does not claim selected-set readiness or archive-derived readiness.
 
 When multiple plausible problem formulations remain current, `C.22.2` does not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` states the rival formulation, EntityOfConcern, context, preserved concern, lost concern, reason not selected yet, and next discrimination action. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame kind.
-The next discrimination action may be to characterize, compare, retarget, reopen the source, choose a local problem formulation, or apply the relation-bearing pattern. Reframing is triggered when context grounding, EntityOfConcern, viewpoint, scope cut, or cause-theory cue changes the problem representation enough that readiness or use-boundary cannot be inherited by wording continuity.
+The next discrimination action may be to characterize, compare, retarget, reopen the source material or source relation, choose a local problem formulation, or apply the relation-bearing pattern. Reframing is triggered when context grounding, EntityOfConcern, viewpoint, scope cut, or cause-theory cue changes the problem representation enough that readiness or use-boundary cannot be inherited by wording continuity.
 

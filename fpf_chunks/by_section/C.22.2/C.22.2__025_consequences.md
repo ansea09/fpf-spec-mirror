@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:24 — Consequences"
-line_start: 47822
-line_end: 47840
+line_start: 47870
+line_end: 47888
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,5 +82,5 @@ keywords:
 - A `ProblemCard@Context` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
 - The practitioner keeps the card small: preserve the split between problem, task, method, work, and result; keep `TaskSignature` minimal; and add conditional fields only when their relation is current.
 - For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `setContextRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
-- External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation requirement. Otherwise they remain examples or source cues.
+- External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation requirement. Otherwise they remain examples or local cues.
 

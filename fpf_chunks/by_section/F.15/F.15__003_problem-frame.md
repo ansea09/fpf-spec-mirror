@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:2 — Problem frame"
-line_start: 85867
-line_end: 85879
+line_start: 85950
+line_end: 85962
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ Unification work fails when composition is claimed before locality and continuit
 
 1. **Locality leak.** A same-spelled label is treated as one meaning across contexts.
 2. **Row sprawl.** Concept-Set rows grow laterally with near-duplicates.
-3. **Role or status inflation.** Adjectival, temporal, or source-looking variants become new role or status types.
+3. **Role or status inflation.** Adjectival, temporal, or source-label variants become new role or status types.
 4. **Silent rewrite.** An edition or rename changes meaning while keeping the old row or name.
 5. **Bridge hardening.** A weak Bridge is later used as equivalence without a new witness set.
 6. **Register split.** Unified Tech and Plain labels drift apart and no longer refer to the same local sense.

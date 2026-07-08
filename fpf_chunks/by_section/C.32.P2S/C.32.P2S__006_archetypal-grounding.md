@@ -6,12 +6,12 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 59634
-line_end: 59647
+line_start: 59691
+line_end: 59704
 dependencies:
   - "A.15"
   - "A.15.1"

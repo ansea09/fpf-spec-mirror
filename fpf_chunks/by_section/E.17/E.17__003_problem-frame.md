@@ -6,13 +6,14 @@ section_id: "E.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__003_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:2 — Problem frame"
-line_start: 73328
-line_end: 73336
+line_start: 73412
+line_end: 73420
 dependencies:
+  - "A.15.4"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
@@ -41,7 +42,7 @@ keywords:
 * Teams routinely need several **faces** of the *same* arrow: a **`TechCard`** for the catalog, an **`InteropCard`** for machine exchange, a **`PlainView`** for narrative, and an **`AssuranceLane`** for evidence.
 * Informal “renderings” quietly **drift semantics**; **composite arrows** are often published piecemeal, breaking traceability; **evidence** forgets unit, scale, and edition pins.
 * “View” and “viewpoint” are **blurred** in practice; authors conflate **publication** with **mechanism**.
-* publication-face-kind discipline requires **`publication-face kind` token discipline**; Core allows only literal values **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** (no ad-hoc `...Surface` kinds).
+* publication-face-kind discipline requires **`publication-face kind` token discipline**; Core allows only literal values **publication face/form** or **interop publication form**; faces are named **...View**, **...Card**, or **...Lane** with no ad-hoc face-kind names outside the literal set.
 
 **MVPK** fixes this by making publication a typed projection from existing source epistemes or episteme-side views via species of `U.EpistemicViewing` subject to explicit viewpoint specs and pinning guards. In the morphism profile, this projection is the functorial publication discipline for Description epistemes, including Description epistemes admitted for specification use, described below. **Part E is conceptual:** no machine-exchange formats are specified here.
 

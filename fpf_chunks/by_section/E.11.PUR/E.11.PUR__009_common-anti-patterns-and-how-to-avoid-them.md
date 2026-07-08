@@ -6,12 +6,12 @@ section_id: "E.11.PUR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70999
-line_end: 71007
+line_start: 71080
+line_end: 71088
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -38,8 +38,8 @@ keywords:
 
 | Anti-pattern | Why it fails | Better use |
 | --- | --- | --- |
-| Move as kind | A useful phrase becomes a false `U.Move`. | Recover recommended pattern use, work, plan, gate, source, publication, architecture, or transformation. |
+| Move as kind | A useful phrase becomes a false `U.Move`. | Recover recommended pattern use, work, plan, gate, source relation, publication, architecture, or transformation. |
 | Applicability as recommendation | Every applicable pattern appears equally selected. | State why this pattern use is recommended for the current concern. |
 | Pattern phrase as work plan | A pattern-use sequence is treated as intended or performed project work. | Use `A.15.2` for work planning and `A.15.1` for performed work. |
-| Pattern recommendation as authorization | A pattern recommendation is read as gate passage, source sufficiency, assurance, or work authorization. | Use A.21, source restoration, assurance, or the direct work-authorization pattern when those claims are current. |
+| Pattern recommendation as authorization | A pattern recommendation is read as gate passage, evidence sufficiency, source-relation sufficiency, assurance, or work authorization. | Use `A.21` for gate passage, `A.10` for evidence or source relation, `B.3` for assurance, `A.15.4` for appearance-based reliance repair, and the direct governing pattern for authorization or work planning when those claims are current. |
 

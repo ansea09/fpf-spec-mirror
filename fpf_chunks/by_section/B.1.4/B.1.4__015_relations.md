@@ -6,12 +6,12 @@ section_id: "B.1.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__015_relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:9 — Relations"
-line_start: 32280
-line_end: 32287
+line_start: 32312
+line_end: 32319
 dependencies:
   - "A.1.1"
   - "A.14"

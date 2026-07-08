@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 77086
-line_end: 77095
+line_start: 77171
+line_end: 77180
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,7 +54,7 @@ keywords:
 |---|---|---|
 | The carry-through record becomes the local project record. | A practitioner can replay the carry-through from problem-side output to continuing FPF application. | The record adds a small step before downstream work. |
 | Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
-| Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source phrase. |
+| Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one source-bearing wording span. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | Teams that want a work procedure must add method material or `A.15.2` planning material outside P2W. |
 | Related patterns keep their authority. | P2W avoids duplicating evidence, gate, decision, architecture, publication, mechanism, and work-family doctrine. | Users consult the pattern named by the recovered relation when that relation is being made. |
 

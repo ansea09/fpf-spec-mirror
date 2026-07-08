@@ -6,12 +6,12 @@ section_id: "B.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__013_relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:11 — Relations"
-line_start: 35543
-line_end: 35550
+line_start: 35575
+line_end: 35582
 dependencies:
   - "A.12"
   - "A.4"

@@ -6,7 +6,7 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7a — Conformance Checklist"
@@ -41,7 +41,7 @@ keywords:
 | ID | Requirement | Practical test |
 | --- | --- | --- |
 | CC-A15.2-1 | A conforming `U.WorkPlan` names intended `U.Work`, not performed work. | The record can state planned windows and baselines without claiming performed values. |
-| CC-A15.2-2 | Each reliance-bearing `PlanItem` names target `U.Method`, method-description source when current, planned window, intended role value or role-admission condition, planned resource budget, dependencies, and acceptance target. | A performer can prepare the intended work without treating the plan as performed work. |
+| CC-A15.2-2 | Each reliance-bearing `PlanItem` names target `U.Method`, method-description reference when current, planned window, intended role value or role-admission condition, planned resource budget, dependencies, and acceptance target. | A performer can prepare the intended work without treating the plan as performed work. |
 | CC-A15.2-3 | Proposed `U.RoleAssignment`s remain intended assignments until checked for the performed-work interval by A.15 and A.15.1. | The plan does not accept the role assignment for that interval by publication alone. |
 | CC-A15.2-4 | Performed cost, resource use, launch values, substitutions, telemetry, and outcomes belong to performed `U.Work`. | The plan points to the work record for performed values and variance. |
 | CC-A15.2-5 | `PlanItem` decomposition does not force the same shape on performed work. | Fulfilment and variance relations explain split, consolidated, emergency, or substituted work. |

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
-line_start: 79264
-line_end: 79733
+line_start: 79349
+line_end: 79818
 dependencies:
   - "A.15"
   - "A.19.ECS"

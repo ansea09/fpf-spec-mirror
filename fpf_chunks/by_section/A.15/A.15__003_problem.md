@@ -6,7 +6,7 @@ section_id: "A.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__003_problem.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:2 — Problem"
@@ -44,10 +44,10 @@ keywords:
   - "U.Role"
   - "U.WorkPlan"
   - "actual U.Work"
+  - "appearance-based reliance boundary"
   - "contextual enactment"
   - "coordinated-work evidence"
   - "role-method-work distinction"
-  - "source-restoration boundary"
   - "work admission display"
   - "work-entry readiness"
 ---
@@ -59,6 +59,6 @@ Without this formal framework, models suffer from a cascade of category errors:
 1.  **Role-as-Part:** A Role (e.g., `AuditorRole`) is incorrectly placed inside a structural parts list (`ComponentOf`), making the system's architecture brittle and nonsensical.
 2.  **Specification-as-Execution:** A `MethodDescription` (the "recipe") is treated as evidence that the work was done. This leads to "paper compliance," where a system is considered complete simply because its documentation exists.
 3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
-4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role assignment, recovered method, method-description source, and capability-fit or admission condition that made it admissible, making the work unauditable and its results impossible to reproduce.
-5.  **Ambiguous source-side "process" or "activity" cue:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication. Repair generic doing or activity terms through `E.10` and `E.10.ARCH` to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), `U.Work` (performed occurrence), or another direct governing pattern.
+4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role assignment, recovered method, method-description reference, and capability-fit or admission condition that made it admissible, making the work unauditable and its results impossible to reproduce.
+5.  **Ambiguous "process" or "activity" wording:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication. Repair generic doing or activity terms through `E.10` and `E.10.ARCH` to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), `U.Work` (performed occurrence), or another direct governing pattern.
 

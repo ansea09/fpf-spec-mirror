@@ -6,7 +6,7 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
@@ -52,5 +52,5 @@ keywords:
 
 - **Builds upon:** `A.15.2` for `U.WorkPlan` and PlanItem discipline; `A.15.1` for performed `U.Work`; `A.6.5` for SlotKind, ValueKind, RefKind, and SlotSpec discipline; `E.24` for ontic introduction and slot-relation discipline; `E.10.D2` for EntityOfConcern vs Description episteme vs specification-use; `E.17` for publication-use and view-use projection; `E.18.1` for P2W carry-through; `E.20` for mechanism-introduction boundaries.
 - **Coordinates with:** `A.15.5` for work-entry readiness and full-kit preparation; `A.20` and `A.21` for gates and constraint decisions; `A.10`, `B.3`, and `G.6` for evidence, assurance, and provenance; `C.27.TA` and `G.11` for currentness and refresh; Part G patterns when planned baselines are used by kits, packs, or refresh plans.
-- **Does not replace:** target description patterns, mechanism definitions, suite definitions, gate records, evidence relations, publication views, performed work, or source restoration.
+- **Does not replace:** target description patterns, mechanism definitions, suite definitions, gate records, evidence relations, publication views, performed work, or `A.15.4` appearance-based reliance repair.
 

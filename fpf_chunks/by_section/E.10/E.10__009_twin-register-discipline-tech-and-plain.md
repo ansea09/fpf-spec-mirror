@@ -6,12 +6,12 @@ section_id: "E.10:6.2"
 section_title: "Twin‑Register Discipline (Tech and Plain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_twin-register-discipline-tech-and-plain.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6.2 — Twin‑Register Discipline (Tech and Plain)"
-line_start: 68583
-line_end: 68658
+line_start: 68652
+line_end: 68727
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,7 +82,7 @@ A plain twin **MUST** bind to the **same SenseCell** as its Tech name in that Co
 **CC‑TWIN‑3 - Head‑term discipline (HND).**
 The plain twin **MUST** preserve the **head term** of the Tech name, or append an explicit bracketed head on **first use**:
 
-* Roles keep **“(role)”**, service-facet labels keep **“(service promise/access)”** after the direct governed value is recovered, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
+* Roles keep **“(role)”**, service-facet labels keep **“(service promise/access)”** after the direct FPF target is recovered, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
   *Examples:*
   `TransformerRole` → “**Transformer (role)**”,
   `U.PromiseContent` → “**post-op monitoring service promise**”; service-access publication or access relation → “**service access**”,

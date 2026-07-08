@@ -6,7 +6,7 @@ section_id: "A.15.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__006_archetypal-grounding.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:5 — Archetypal Grounding"
@@ -82,7 +82,7 @@ If the later work uses `ComparatorSpecRef:CG42-v4`, the work record states varia
 
 #### A.15.3:5.3 - Hardware acceptance fixture
 
-**Tell.** A hardware team plans acceptance work for a fixture. The slot-bearing description is an acceptance-method description with slots for reference plane, measurement method, calibration source, and acceptance threshold.
+**Tell.** A hardware team plans acceptance work for a fixture. The slot-bearing description is an acceptance-method description with slots for reference plane, measurement method, calibration record or certificate, and acceptance threshold.
 
-**Show with A.15.3.** The planned baseline pins the reference-plane description, calibration source ref, and threshold edition. The performed acceptance work later records actual measurements and substitutions. The PlanItem does not become the measurement evidence.
+**Show with A.15.3.** The planned baseline pins the reference-plane description, calibration-record or certificate ref, and threshold edition. The performed acceptance work later records actual measurements and substitutions. The PlanItem does not become the measurement evidence.
 

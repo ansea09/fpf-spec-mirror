@@ -6,7 +6,7 @@ section_id: "A.10:10"
 section_title: "Older source text interpretation and neighboring-pattern notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_older-source-text-interpretation-and-neighboring-pattern-notes.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10 — Older source text interpretation and neighboring-pattern notes"
@@ -60,10 +60,10 @@ Older source texts may use names such as `manifest`, `release manifest`, `creato
 
 Use these recoveries:
 
-- a source register used for evidence carriers becomes a carrier/source-currentness record;
-- a release-context source register becomes a context-adapted carrier/source-currentness record when the bounded context, identifiers, and hashes matter for publication or release use;
+- a source register used for evidence carriers becomes an evidence-provenance entry with carrier identity and source-currentness fields;
+- a release-context source register becomes a context-adapted evidence-provenance entry when the bounded context, identifiers, and hashes matter for publication or release use;
 - an internal `creator` or `observer` used as evidencer becomes evidence-producing work, evidence-interpreting work, source-maintenance role assignment, verifier assignment, or quote-only source wording according to the claim being made;
-- a method instantiation note is a method relation or work relation only when it states the `U.Method`, the method-description source, ordering relation when relevant, and work-trace relation;
+- a method instantiation note is a method relation or work relation only when it states the `U.Method`, the `U.MethodDescription` ref or method-description source publication ref, ordering relation when relevant, and work-trace relation;
 - resource rosters in `Γ_work` remain separate from evidence-carrier registers; cite meter, log, or observation carriers through the evidence-provenance graph.
 
 When an older source text also claims approval, permission, gate passage, assurance, causal authority, measured comparability, representation shift, or publication-face effect, keep A.10 to the evidence-provenance graph relation and apply the neighboring governing pattern for that extra claim.

@@ -6,7 +6,7 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"
@@ -82,7 +82,7 @@ For probe-coupled, distributed-state, bridge-loss, measurement-frame, or viabili
 Useful outputs:
 
 - a local evidence note when the claim only guides discussion;
-- an evidence-provenance record or context-adapted carrier/source-currentness entry when the claim enters a published assertion;
+- an evidence-provenance entry or context-adapted evidence-provenance entry when the claim enters a published assertion;
 - a B.3 assurance tuple when the claim will feed readiness, audit, release, compliance, or comparative assurance;
 - a neighboring-pattern note when the carrier shows only ordinary measurement, bridge loss, or work enactment.
 

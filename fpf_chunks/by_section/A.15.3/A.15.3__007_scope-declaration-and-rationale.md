@@ -6,7 +6,7 @@ section_id: "A.15.3:6"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_scope-declaration-and-rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:6 — Scope Declaration and Rationale"
@@ -54,5 +54,5 @@ keywords:
 
 The pattern does not try to make every work plan heavy. Ordinary plans stay in A.15.2. A.15.3 opens only when slot-filling choices themselves are the planned baseline that later work, gates, evidence, or publication projections will rely on.
 
-The anti-bias guard is locality: if the current issue is mechanism meaning, work-entry readiness, evidence sufficiency, gate passage, source restoration, publication use, or performed work, use that governing pattern and bring only the returned planned-baseline relation back here.
+The anti-bias guard is locality: if the current issue is mechanism meaning, work-entry readiness, evidence sufficiency, gate passage, appearance-based reliance repair, publication use, or performed work, use that governing pattern and bring only the returned planned-baseline relation back here.
 

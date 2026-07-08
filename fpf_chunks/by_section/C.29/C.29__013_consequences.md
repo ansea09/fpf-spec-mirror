@@ -6,12 +6,12 @@ section_id: "C.29:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__013_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11 — Consequences"
-line_start: 54473
-line_end: 54569
+line_start: 54521
+line_end: 54617
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -103,7 +103,7 @@ Smallest source-return and output-change conditions:
 | a later source supersedes or contradicts the source-use decision that bounded the lens use | Mark the source-use decision as superseded or contradicted for that use, then select a new source-use relation, lower the output class, or block claim-bearing use. |
 | a neighboring governing pattern changes the declared lens-use boundary for measurement, evidence, causal use, assurance, Bridge semantics, scale law, selector, benchmark, decision, or work | Keep C.29 only for the declared lens-use part and apply the changed governing pattern to the neighboring claim before the C.29 output is reused. |
 | the same lens family starts carrying validation, causal-use, evidence, assurance, selector, benchmark, release, or work claim | Add the governing-pattern application, or narrow the C.29 result to lens-bounded prediction, distinction, obstruction, diagnostic boundary, or stop condition only. |
-| preserved structure or lost structure can no longer be replayed from the source-side variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
+| preserved structure or lost structure can no longer be replayed from the source-domain variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
 
 AI-assisted thin-echo result rule:
 

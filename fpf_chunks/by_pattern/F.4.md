@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
-line_start: 81874
-line_end: 82207
+line_start: 81957
+line_end: 82290
 dependencies:
   - "A.15"
   - "A.15.1"

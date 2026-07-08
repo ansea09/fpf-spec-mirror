@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__016_archetypal-grounding.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.1 — Archetypal Grounding"
-line_start: 69828
-line_end: 69835
+line_start: 69909
+line_end: 69916
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ keywords:
 
 | Situation | E.10.ARCH move | Boundary |
 | --- | --- | --- |
-| Architecture text repeatedly says diagrams, ADRs, dashboards, and views are not architecture. | Use the architecture/structure row and `C.30.P`/`C.30.AD` boundary. | C.30 remains about architecture and selected structures, not a generic diagram-warning pattern. |
-| Method text uses algorithm, workflow, solver, proof, and program as one family. | Use the method/work/P2W constellation row and recover method, method description, formal substrate, mechanism, work plan, dated work, or evidence relation separately. | Do not assign one typed value to several kinds because one source label was shared. |
+| Architecture text repeatedly says diagrams, ADRs, dashboards, and views are not architecture. | Use the architecture and structure row, then apply `C.30.P` or `C.30.AD` according to the recovered architecture field. | C.30 remains about architecture and selected structures, not a generic diagram-warning pattern. |
+| Method text uses algorithm, workflow, solver, proof, and program as one family. | Use the method, work, and P2W constellation row and recover method, method description, formal substrate, mechanism, work plan, dated work, or evidence relation separately. | Do not assign one typed value to several kinds because one source label was shared. |
 | A dashboard or evidence-path wording is treated as permission or release. | Use the declarative-representation row or the direct evidence, gate, authority, or release pattern. | Graph and provenance relations remain legitimate when they are not overread as routes, calls, permissions, or releases. |
 

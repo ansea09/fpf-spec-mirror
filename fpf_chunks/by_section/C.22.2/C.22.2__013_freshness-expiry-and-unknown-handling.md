@@ -6,12 +6,12 @@ section_id: "C.22.2:12"
 section_title: "Freshness, Expiry, and Unknown Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__013_freshness-expiry-and-unknown-handling.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:12 — Freshness, Expiry, and Unknown Handling"
-line_start: 47589
-line_end: 47618
+line_start: 47637
+line_end: 47666
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,19 +71,19 @@ keywords:
 
 | State or disposition label | Required interpretation |
 |---|---|
-| `draftSignal` | A source signal has been captured, but the card is not yet reviewable. |
+| `draftSignal` | A problem signal has been captured, but the card is not yet reviewable. |
 | `reviewable` | The problem-side record can be inspected, challenged, sent onward, or refined, but it is not necessarily P2W-ready. |
 | `P2W-ready` | Local disposition label with plain gloss: problem-side input ready. The problem-side record is sufficient for downstream P2W or selector-facing use; it is not `ReadyForWork`, `GateReady`, `MethodReady`, `AutonomyReady`, or work authorization. |
 | governing-pattern cue | A claim, relation, or boundary outside `C.22.2` changes the current problem-card use; the card names the governing FPF pattern and claim kind named by value to use next without claiming that use inside `C.22.2`. |
 | `stale` | Freshness or expiry blocks the intended downstream use until refreshed, retired, or otherwise disposed. |
-| `refreshed` | The relevant source, context, characterization, parity, evidence, provenance, assurance, representation relation, or wording-use relation has been updated enough for the named use. |
+| `refreshed` | The relevant source material, source relation, context, characterization, parity, evidence, provenance, assurance, representation relation, or wording-use relation has been updated enough for the named use. |
 | `retired` | The problem-side record is no longer used as a current problem for downstream work. |
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being current for P2W. |
 | `abstainOrNoChange` | No downstream project-side use is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
 
-Freshness names the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason or source, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended downstream use. For problem-formulation reason or source, ask whether cited sources, provenance, stated reason references, and source references are fresh enough for the problem-formulation follow-up reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next use, or relation needed for inheritance.
+Freshness names the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason, source material, source relation, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended downstream use. For problem-formulation reason, source material, or source relation, ask whether cited sources, provenance, stated reason references, and source references are fresh enough for the problem-formulation follow-up reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next use, or relation needed for inheritance.
 
-A stale source or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or a governing-pattern cue for the claim, relation, or boundary that is checked.
+A stale source material, source relation, or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or a governing-pattern cue for the claim, relation, or boundary that is checked.
 
 Freshness or expiry failure is a current disposition. A stale or unknown-bearing problem card may remain reviewable as a problem-side record, but it does not become P2W-ready unless freshness and unknown handling permit the intended downstream use. A stale problem card does not silently remain usable as P2W input.
 

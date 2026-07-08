@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:intro — Intro"
-line_start: 69301
-line_end: 69316
+line_start: 69370
+line_end: 69385
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,13 +44,13 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative for move-like and readiness-like wording-use restoration.
 
-**At a glance.** `E.10.MOVE` restores the FPF object hidden by wording such as move, step, action, application, solution, next action, work item, work entry, full kit, readiness, TameFlow `MOVE`, route, workflow, and process when that wording is about project concern, pattern-use recommendation, work-entry readiness, or another direct governing pattern.
+**At a glance.** `E.10.MOVE` restores the FPF object hidden by wording such as move, step, action, application, solution, next action, work item, work entry, full kit, readiness, TameFlow `MOVE`, route, workflow, and process when that wording is about a claim being made, an object under wording repair, pattern-use recommendation, work-entry readiness, or another direct governing pattern.
 
-**Use this when.** Use this pattern when move-like or readiness-like wording helps recognition but starts to hide whether the current value is pattern use, P2W carry-through, WorkPlan, SlotFillingsPlanItem, WorkEntryReadiness, GateDecision, performed Work, transformation, method, publication, source use, language-state move, call plan, or architecture candidate material.
+**Use this when.** Use this pattern when move-like or readiness-like wording helps recognition but starts to hide whether the current value is pattern use, P2W carry-through, WorkPlan, SlotFillingsPlanItem, WorkEntryReadiness, GateDecision, performed Work, transformation, method, publication, source `U.Episteme`, source `U.EpistemePublication`, source relation, language-state move, call plan, or architecture candidate material.
 
 **Primary EntityOfConcern.** One wording-use restoration over a bounded text span whose move-like or readiness-like wording has an FPF-governed use.
 
-**First output.** One `MoveAndReadinessWordingRepair` note naming the project concern, source-use class, recovered relation or value, direct governing pattern, retained plain wording, blocked overread, split if needed, final wording or blocker, and remaining reader use.
+**First output.** One `MoveAndReadinessWordingRepair` note naming `GovernedTextSpan`, `ClaimBeingMade`, `ObjectUnderWordingRepair`, `DirectFPFTarget`, encountered wording class, recovered relation or value, direct governing pattern, retained plain wording, blocked overread, split if needed, final wording or blocker, and `RemainingReaderUse`.
 
 **Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about transformation, flow, path, process, workflow, operation, or change as a change-situation label. Use the direct governing pattern immediately when the current object is already known and no move-like or readiness-like wording problem remains.
 

@@ -6,7 +6,7 @@ section_id: "A.15.3:12a"
 section_title: "P2W planned-baseline use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__014_p2w-planned-baseline-use-relation.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12a — P2W planned-baseline use relation"
@@ -54,5 +54,5 @@ When `E.18.1` reaches a planned-baseline question, `SlotFillingsPlanItem` record
 
 When `A.15.5` checks full-kit condition, it may cite `SlotFillingsPlanItem` for planned fillers, target description edition, required refs, and time selector. That citation does not make the planned baseline a readiness verdict; `A.15.5` states the readiness relation and any missing-input or degraded-use condition.
 
-If the same source phrase also carries launch-value, performed-work, evidence, gate, result, measurement, publication-use, source-restoration, or refresh meaning, name that separate current relation before using the PlanItem downstream.
+If the same wording in a source `U.Episteme`, source `U.EpistemePublication`, or source relation also carries launch-value, performed-work, evidence, gate, result, measurement, publication-use, appearance-based reliance repair, or refresh meaning, name that separate current relation before using the PlanItem downstream.
 

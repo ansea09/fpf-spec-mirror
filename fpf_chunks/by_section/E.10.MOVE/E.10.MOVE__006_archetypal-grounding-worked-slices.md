@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__006_archetypal-grounding-worked-slices.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:5 — Archetypal Grounding - Worked Slices"
-line_start: 69419
-line_end: 69455
+line_start: 69495
+line_end: 69534
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,8 +47,11 @@ Source sentence: "The next FPF move is to check architecture."
 Repair:
 
 ```text
-ProjectConcern: architecture uncertainty in a current project
-SourceUseClass: seminarPatternUse
+GovernedTextSpan: "The next FPF move is to check architecture."
+ClaimBeingMade: recommendation of the next useful FPF pattern use
+ObjectUnderWordingRepair: architecture uncertainty in a current project
+EncounteredWordingClass: seminarPatternUse
+DirectFPFTarget: PatternUseRecommendation@Context
 RecoveredRelations: PatternUseRecommendation@Context
 DirectGoverningPatterns: E.11.PUR, C.30
 RetainedPlainWording: "next useful move" may stay in teaching prose

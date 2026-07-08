@@ -6,7 +6,7 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
@@ -53,5 +53,5 @@ keywords:
 
 ### A.15.1:13.0 - Rationale
 
-`U.Work` is kept as a dated occurrence because method, method description, work plan, and result are different FPF objects. The same source phrase can point to several of them, but performed-work claims need occurrence evidence, time bounds, role assignment, and affected EntityOfConcern rather than a convenient method or plan label. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
+`U.Work` is kept as a dated occurrence because method, method description, work plan, and result are different FPF objects. The same wording in a source `U.Episteme`, source `U.EpistemePublication`, method description, or work plan can point to several of them, but performed-work claims need occurrence evidence, time bounds, role assignment, and affected EntityOfConcern rather than a convenient method or plan label. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
 

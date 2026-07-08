@@ -6,7 +6,7 @@ section_id: "A.15.2:7c"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__011_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7c — Consequences"
@@ -43,5 +43,5 @@ keywords:
 | Plans become inspectable without being confused with performed work. | More explicit records; mitigate by using compact `PlanItem` values for ordinary coordination. |
 | Variance becomes meaningful because planned baseline and performed work stay separate. | Requires discipline around baselines; keep baseline and version visible on the plan. |
 | Cross-role and cross-context coordination becomes safer. | Requires bridge checks when contexts differ; name only the bridge needed for the planned use. |
-| P2W carry-through can prepare work without pretending work already happened. | Use `A.15.1`, `A.15.3`, `A.15.4`, `A.15.5`, `A.10`, `B.3`, `A.20`, or `A.21` only when the performed-work, planned-baseline, source-restoration, work-entry readiness, evidence, assurance, gate, or constraint relation becomes current. |
+| P2W carry-through can prepare work without pretending work already happened. | Use `A.15.1`, `A.15.3`, `A.15.4`, `A.15.5`, `A.10`, `B.3`, `A.20`, or `A.21` only when the performed-work, planned-baseline, appearance-based reliance repair, work-entry readiness, evidence, assurance, gate, or constraint relation becomes current. |
 

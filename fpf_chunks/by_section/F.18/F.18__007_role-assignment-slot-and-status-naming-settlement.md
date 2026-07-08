@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "Role, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_role-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — Role, Assignment, Slot, and Status Naming Settlement"
-line_start: 87027
-line_end: 87116
+line_start: 87110
+line_end: 87199
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:2"
 section_title: "Problem - Cluster Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__003_problem-cluster-boundary.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2 — Problem - Cluster Boundary"
-line_start: 22983
-line_end: 22986
+line_start: 23002
+line_end: 23005
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,24 +28,29 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:2 - Problem - Cluster Boundary
 
-A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when an encountered source candidate begins to justify a work claim or reliance claim and the team needs to recover the source that carries that claim, effect, or relation. If the governing pattern and project-side reference are already known, use them directly and keep A.15.4 as the bounded restoration step.
+A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when a reliance appearance begins to justify a work claim or reliance claim and the team needs to recover the governing pattern position and project-side reference that carry that claim or effect. If the governing pattern and project-side reference are already known, use them directly and keep A.15.4 as the bounded repair relation.
 

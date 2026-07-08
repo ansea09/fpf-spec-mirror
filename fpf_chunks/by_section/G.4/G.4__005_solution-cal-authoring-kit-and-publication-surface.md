@@ -6,12 +6,12 @@ section_id: "G.4:4"
 section_title: "Solution — CAL authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-cal-authoring-kit-and-publication-surface.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — CAL authoring kit and publication surface"
-line_start: 89766
-line_end: 90065
+line_start: 89849
+line_end: 90148
 dependencies:
   - "A.10"
   - "A.18"

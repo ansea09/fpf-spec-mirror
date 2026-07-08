@@ -6,12 +6,12 @@ section_id: "E.11.PUR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__004_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:3 — Forces"
-line_start: 70852
-line_end: 70861
+line_start: 70933
+line_end: 70942
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 | Force | Pressure |
 | --- | --- |
 | Teachability | Engineer-facing speech needs simple words such as first useful move, working move, and professional move. |
-| Ontological precision | FPF must not create a root `U.Move` when the direct governed value is pattern use, plan, work, gate, source, publication, architecture, or transformation. |
+| Ontological precision | FPF must not create a root `U.Move` when the direct governed value is pattern use, plan, work, gate, source relation, publication, architecture, or transformation. |
 | Applicability vs recommendation | A pattern can be applicable without being the recommended use for the current concern. |
 | Composition | Several pattern uses can form a useful FPF phrase without becoming a work plan or process. |
 | Practical payoff | The result must still tell the practitioner what can be produced or inspected next. |

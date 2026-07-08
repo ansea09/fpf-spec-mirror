@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 69644
-line_end: 69702
+line_start: 69723
+line_end: 69781
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -81,7 +81,7 @@ For wording such as `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `D
 `EntityOfInterest`, `EoI`, `EoIClass`, `describedEntity`, `DescribedEntityRef`, and `primary described entity` are active repair triggers. FPF-governed wording must recover the EntityOfConcern-family use named by value, publication-unit primary-EoC use, or local FPF kind, then rewrite to `EntityOfConcern`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernClass`, `publicationUnitPrimaryEntityOfConcern`, or the local FPF kind named by value. If no use is recoverable by value, the wording remains quoted source or trigger wording and cannot be used for reliance.
 
 - `C.2.1` carries the selected episteme slot and reference ontology: `EntityOfConcernSlot`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernChangeMode`, and `EntityOfConcernClass`.
-- `C.2.P` carries episteme, publication, and source-use precision restoration when the sentence still hides source wording, claim-bearing episteme, publication or publication-form construction, project-side reliance, pattern-application wording, or use or non-use disposition.
+- `C.2.P` carries episteme, publication, source-wording, and source-relation precision restoration when the sentence still hides source wording, claim-bearing episteme, publication construction, publication-form construction, project-side reliance, pattern-application wording, or use or non-use disposition.
 - `F.18` carries durable naming, selected head settlement, and source-string and durable-name discipline after the kind under repair and use are recovered.
 - `E.17.AUD.OOTD` carries `publicationUnitPrimaryEntityOfConcern` for one bounded publication unit with one carried move and one outside-work boundary; it must not create a second C.2.1 slot.
 - `A.6.3`, its retained `entityOfConcernRef`-preserving specializations, and `A.6.4` carry preservation or retargeting of the EntityOfConcern across episteme morphisms.

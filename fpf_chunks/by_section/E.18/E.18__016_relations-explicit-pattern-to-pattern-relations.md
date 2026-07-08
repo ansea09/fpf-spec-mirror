@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 76614
-line_end: 76646
+line_start: 76699
+line_end: 76731
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -43,7 +43,7 @@ keywords:
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
 * **E.18 -> coordinates with -> A.15.5 WorkEntryReadiness.** A selected structure may position a launch or work-boundary readiness locus only as a relation to `A.15.5`; E.18 supplies the crossing, path, slice, LaunchGate position, and structure-local pins, while `A.15.5` governs `FullKitCondition`, planned preparation references, commitment disposition, resource-readiness references, and whether intended work is ready to enter performed-work execution.
 * **E.18 -> coordinates with -> C.32.P2S ProblemToStructureArchitecturingFlow.** P2S may cite selected transformation-flow structure, path, crossing, or valuation as architecture content, uncertainty, method handoff, work handoff, or feedback material; E.18 still governs the transformation-flow structure and does not become the whole architecturing flow.
-* **E.18 -> coordinates with -> C.33, C.34, and C.35 structural-information patterns.** When a transformation-flow carrier, path, generated map, or changed structure-bearing result needs architecture-specific capture, preservation, or discovery adequacy, use `C.33`, `C.34`, or `C.35` for that architecture use. E.18 keeps transformation-flow selected structure, path, crossing, valuation, and slice-local source-return ownership.
+* **E.18 -> coordinates with -> C.33, C.34, and C.35 structural-information patterns.** When a transformation-flow carrier, path, generated map, or changed structure-bearing result needs architecture-specific capture, preservation, or discovery adequacy, use `C.33`, `C.34`, or `C.35` for that architecture use. E.18 keeps transformation-flow selected structure, path, crossing, valuation, and slice-local source-return relation visible.
 
 > Relation rows use the named relation kinds **builds_on**, **constrains**, **coordinates**, **specializes**, **publishes_on**, **requires**, and **provides_checks_for**.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_solution.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 32363
-line_end: 32515
+line_start: 32395
+line_end: 32547
 dependencies:
   - "A.1"
   - "A.14"
@@ -76,7 +76,7 @@ OrderSensitiveMethodComposition:
   EnactmentBoundary:
     which U.Work may enact this method and which U.MethodDescription describes it
   LoweredDispositionIfNotComposite:
-    MethodRelationStructure | U.MethodDescription | U.WorkPlan | U.Work | G.5 selector | lens | source-restoration request
+    MethodRelationStructure | U.MethodDescription | U.WorkPlan | U.Work | G.5 selector | lens | A.15.4 appearance-based reliance repair request
 ```
 
 #### B.1.5:4.1 - Recover Parts Before Composition
@@ -92,7 +92,7 @@ An apparent step can be:
 - an order relation, fallback relation, or selector relation inside `MethodRelationStructure@BoundedContext`;
 - a mathematical or representation lens over a relation structure;
 - mechanism or formal-substrate material;
-- quote-only source wording.
+- quoted wording that does not yet carry a method claim.
 
 Only the first case can be a method part. Do not mint `U.StepSpec`, `U.StepMethod`, `U.MethodStep`, or `U.MethodAlgebra` for the others.
 
@@ -120,7 +120,7 @@ Use A.14, C.13, and B.3.5 when the claim is about structural parts of a holon. U
 
 When the current method-composition claim needs explicit order aggregation, context hash, partial-order soundness, or `Gamma_ctx` notation, use `B.1.4` for that ordered-relation apparatus. `B.1.4` can express the order discipline; B.1.5 still decides whether the recovered ordered methods are enough to admit one composite `U.Method`.
 
-When the current claim is temporal phasing of the same carrier or method-description edition history, use the phase or temporal owner rather than B.1.5. A phase boundary becomes a B.2-family question only when the boundary also introduces whole reidentification, closure, supervision, or context rebase. Order, phase, structural parthood, and MHT are different claims even when one source diagram uses one line for all of them.
+When the current claim is temporal phasing of the same carrier or method-description edition history, use the pattern that governs the phase or temporal claim rather than B.1.5. A phase boundary becomes a B.2-family question only when the boundary also introduces whole reidentification, closure, supervision, or context rebase. Order, phase, structural parthood, and MHT are different claims even when one source diagram uses one line for all of them.
 
 #### B.1.5:4.4 - Expose The Composite Method Interface
 
@@ -163,13 +163,13 @@ B.1.5 admits and grounds a composite `U.Method`. It may require a `U.MethodDescr
 A performed enactment is `U.Work` under `A.15.1`. The work record cites:
 
 - the enacted `U.Method`;
-- the method-description source when current;
+- the method-description reference when current;
 - the performer through `U.RoleAssignment`;
 - the time window, parameter bindings, affected referent, resource ledger, outcome, and evidence relations.
 
 Resource aggregation, elapsed time, telemetry, retries, and work outcomes belong to `U.Work`, `Gamma_work`, and evidence patterns. They do not become parts of the method.
 
-The composition link is not one-to-one. A work occurrence may enact the whole method without exposing every submethod as a separate work part. A temporal work slice often enacts the same whole method during a selected interval. An episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. A work part enacts a submethod only when that submethod has already been recovered as `U.Method`; otherwise the current object is a work part, method-description node, evidence segment, mechanism material, system-component behavior, or source-restoration request.
+The composition link is not one-to-one. A work occurrence may enact the whole method without exposing every submethod as a separate work part. A temporal work slice often enacts the same whole method during a selected interval. An episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. A work part enacts a submethod only when that submethod has already been recovered as `U.Method`; otherwise the current object is a work part, method-description node, evidence segment, mechanism material, system-component behavior, or `A.15.4` appearance-based reliance repair request.
 
 **Reader check.** Before saying that a work part enacts a submethod, name both sides:
 
@@ -183,7 +183,7 @@ If either side is missing, lower only that side. Do not repair a missing submeth
 B.1.5 has two common use positions, but they are positions in use, not two U-kinds:
 
 - **Planning or description-side use.** Recover the submethods, order apparatus, typed joins or adapters, method interface exposure, invariants, and whole-level commitments. The output is a composite `U.Method` claim and, when a representation is needed, a `U.MethodDescription` or MIC that describes that method.
-- **Performed-work use.** A `U.Work` occurrence may cite the composite `U.Method` and the method-description source it used. The work record checks role assignment, capability-fit or admission conditions when current, preconditions, postconditions, order conformance, MIC-honouring interactions, resource ledger handoff, and evidence relations. These checks annotate or support the performed work; they do not become parts of the method.
+- **Performed-work use.** A `U.Work` occurrence may cite the composite `U.Method` and the method-description reference it used. The work record checks role assignment, capability-fit or admission conditions when current, preconditions, postconditions, order conformance, MIC-honouring interactions, resource ledger handoff, and evidence relations. These checks annotate or support the performed work; they do not become parts of the method.
 - **Assurance use.** Identify cutset submethods, fragile typed joins, adapter points, mapping congruence or CL-sensitive edges, and the envelope or scope in which the composite method is expected to hold. B.3 and related assurance patterns evaluate those hooks; B.1.5 only makes them visible.
 
 Useful invariants remain: a single recovered submethod composed alone does not create a surprising new method; order is deterministic only under the declared order apparatus; composite quality or throughput is constrained by critical path and weakest-link considerations unless a B.2-family whole reidentification claim is separately admitted; strengthening a submethod, adapter, or typed join should not make the composite method worse unless a stated side condition changes.

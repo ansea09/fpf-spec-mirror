@@ -6,12 +6,12 @@ section_id: "A.20:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__011_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:8 — Consequences"
-line_start: 30254
-line_end: 30265
+line_start: 30286
+line_end: 30297
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

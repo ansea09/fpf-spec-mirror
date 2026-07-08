@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:9.3"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__017_lowering-repair-and-refresh-conditions.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.3 — Lowering, Repair, and Refresh Conditions"
-line_start: 23282
-line_end: 23289
+line_start: 23311
+line_end: 23318
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,28 +28,33 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:9.3 - Lowering, Repair, and Refresh Conditions
 
-Lower an `A.15.4` use when the work or reliance claim under repair, work-relevant P2W claim under repair, P2W chain position under repair, governing pattern, governing source, relying context, time window, source-currentness relation, revocation relation, evidence relation, gate decision, assurance claim, speech-act ref, commitment, role assignment, role-state record, credential-status record, context-state record, or work-occurrence source cannot be named for the intended use. The lowered use is orientation, source-finding, contested use, bounded reversible probe, source-repair request, or blocked unsupported claim.
+Lower an `A.15.4` use when the work or reliance claim under repair, work-relevant P2W claim under repair, P2W chain position under repair, governing pattern, governing pattern position, relying context, time window, source-currentness relation, revocation relation, evidence relation, gate decision, assurance claim, speech-act ref, commitment, role-assignment relation, role-state record, credential-status record, context-state record, or dated work-occurrence record cannot be named for the intended use. The lowered use is orientation, source-finding, contested use, bounded reversible probe, repair request, or blocked unsupported claim.
 
-Repair the source-restoration note when source currentness, revocation, source order, governing decision source, evidence relation, copied-source relation, generated-source relation, dashboard publication, credential view, role-state register, credential-status register, context-state record, boundary wording, or work-result cue changes. Repair the governing source through the evidence, assurance, gate, constraint, speech-act, commitment, role-assignment, role-state, credential-status, context-state, work-occurrence, publication, or boundary-wording pattern governing the recovered claim when that recovered claim belongs outside A.15.4.
+Repair the local `A.15.4` record when source currentness, revocation, source-relation order, governing decision record, evidence relation, copied-source relation, generated-source relation, dashboard publication, credential view, role-state register, credential-status register, context-state record, boundary wording, or work-result cue changes. Repair the recovered value through the evidence, assurance, gate, constraint, speech-act, commitment, role-assignment, role-state, credential-status, context-state, work-occurrence, publication, or boundary-wording pattern governing the recovered claim when that recovered claim belongs outside A.15.4.
 
-Refresh before allowing the encountered source candidate to guide release, safety, compliance, delegated role-assignment or role-state, contested source, cross-context reuse, work-result reliance, external-impact reliance, or irreversible work. Stop the refresh at the smallest changed source-restoration value: encountered source candidate, source episteme, source publication, governing source, source-currentness relation, role-state record, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or work-governed relation.
+Refresh before allowing the reliance appearance to guide release, safety, compliance, delegated role-assignment or role-state, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible work. Stop the refresh at the smallest changed governing pattern value or source relation: reliance appearance, source `U.Episteme` for the current claim, `U.EpistemePublication` exposing the claim-bound source relation, governing pattern position, source-currentness relation, role-state record, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or work-governed relation.
 

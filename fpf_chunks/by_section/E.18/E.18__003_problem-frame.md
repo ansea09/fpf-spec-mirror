@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 76150
-line_end: 76163
+line_start: 76235
+line_end: 76248
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -52,5 +52,5 @@ is one **path** among many possible domain-specific transformation-flow paths. W
 * set‑returning selection is silently replaced by **single scores**;
 * cycles lack **budget** discipline; refresh is **out‑of‑band**.
 
-MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts those **publication and comparability laws** to the **selected transformation-flow structure as a whole**.
+MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts those **publication and comparability rules** to the **selected transformation-flow structure as a whole**.
 

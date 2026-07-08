@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 76964
-line_end: 77045
+line_start: 77049
+line_end: 77130
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,7 +72,7 @@ keywords:
 
 6. **Interface split before P2W use.** A source says a port-throughput limit makes a solution feasible after integration. P2W first splits the phrase: module-interface relation (`A.6.M`), `E.18` transformation-flow relation or `A.6.F` function or throughput relation when function use is being claimed, WorkPlan constraint (`A.15.2`), dated `U.Work` occurrence (`A.15.1`), evidence or gate claim (`A.10`, `G.6`, `A.20`, or `A.21`), or architecture and structural-view claim (`C.30` family). The carry-through record writes only the relation that changes the P2W application being made and leaves the other readings as stopped cues.
 
-7. **Result measurement returns to planning.** A performed `U.Work` occurrence produced telemetry and an artifact. Later measurement shows that the planned module-interface constraint was interpreted against the wrong reference plane. P2W splits measurement, reference-plane repair, source restoration, refresh, planning revision, and method-comparison claims. If the original `ProblemCard@Context` no longer states the right problem, the problem-side correction returns to the problem-side pattern.
+7. **Result measurement returns to planning.** A performed `U.Work` occurrence produced telemetry and an artifact. Later measurement shows that the planned module-interface constraint was interpreted against the wrong reference plane. P2W splits measurement, reference-plane repair, source-currentness repair, refresh, planning revision, and method-comparison claims. If the original `ProblemCard@Context` no longer states the right problem, the problem-side correction returns to the problem-side pattern.
 
 #### E.18.1:5.2 - Additional worked situations
 
@@ -81,13 +81,13 @@ keywords:
 | First-minute use | A practitioner has only an accepted `ProblemCard@Context` and the sentence "the cooling fixture violates the heat-flow invariant." Fill `ProblemCardRef`, `CarriedDistinction`, `NextFPFUseQuestion`, and `RecoveredFPFKindOrRelation` or `StopCondition`. | The next P2W application becomes a `C.29` and `A.6.0` application, not method selection or evidence writing. |
 | Diagram and approval note in the same source | The same source contains a diagram, a test photo, and a manager note saying "approved." Keep P2W focused on the distinction carried from the problem-side result. | Diagram, evidence-looking material, and gate-looking material are separated by relation recovery; the P2W record keeps only the carried distinction and next relation. |
 | Principle story without accepted problem-side material | A source has an inspiring principle story but no accepted `ProblemCard@Context`. | P2W stops before it begins; the material remains a reduced-use cue until `C.22.2` or the problem-side pattern named by value accepts problem-side material. |
-| Acceptance label hides wrong measurement | A dashboard shows a green acceptance label, but the measurement used the wrong reference plane. | Acceptance color does not guide the next FPF use; P2W returns to measurement, normalization, source restoration, planning, and method comparison. |
-| Changed unit after source restoration | Later source restoration changes only the unit and reference plane used by the planning constraint. | P2W reopens the smallest affected applications; the earlier dated `U.Work` occurrence is cited, not rewritten. |
+| Acceptance label hides wrong measurement | A dashboard shows a green acceptance label, but the measurement used the wrong reference plane. | Acceptance color does not guide the next FPF use; P2W returns to measurement, normalization, source-currentness repair, planning, and method comparison. |
+| Changed unit after source-currentness repair | Later source-currentness repair changes only the unit and reference plane used by the planning constraint. | P2W reopens the smallest affected applications; the earlier dated `U.Work` occurrence is cited, not rewritten. |
 | Near-sameness under a formal declaration | A mathematical near-sameness claim preserves heat-flow structure but loses deformation factors outside the model. | P2W uses `C.29` for mathematical-lens use and `A.6.0` for `U.Signature(profile=FormalSubstrate)`, names preserved and lost structure, and prevents the lens from settling empirical truth or work authorization. |
-| FPF relation law changes after a P2W record | A governing FPF pattern changes the boundary for architecture-description, evidence, or source-restoration use. Fill the replay and currentness check: changed law, still-carried distinction, no-longer-carried cue, smallest reopened application, and next FPF use. | The earlier carry-through record is replayed rather than trusted by age; only the affected architecture-description, evidence, source-restoration, or P2W field changes. |
+| FPF relation rule changes after a P2W record | A governing FPF pattern changes the boundary for architecture-description, evidence, or `A.15.4` appearance-based reliance repair use. Fill the replay and currentness check: changed rule, still-carried distinction, no-longer-carried cue, smallest reopened application, and next FPF use. | The earlier carry-through record is replayed rather than trusted by age; only the affected architecture-description, evidence, `A.15.4`, or P2W field changes. |
 | Relation selection would over-select from one phrase | A source says "the new port contract proves integration readiness." P2W splits module-interface relation, `E.18` transformation-flow relation, dated `U.Work` occurrence, evidence cue, gate cue, and architecture-description cue. | Only the relation that changes the P2W application being made is written; the remaining readings stop as named cues until their governed relations are being made. |
 | Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side material. | The mathematical phrase lowers to a reduced-use cue; P2W does not justify method selection, evidence, gate, or `A.15.2` planning from mathematical prestige alone. |
-| Result source becomes stale | A result-looking source is later replaced by a fresher source with a different artifact reference and measurement reference. | P2W uses `A.15.4`-style source restoration before result carry-through; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
+| Result source relation becomes stale | A result-looking source relation or publication cue is later replaced by a fresher source relation with a different artifact reference and measurement reference. | P2W uses `A.15.4` appearance-based reliance repair before result carry-through; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
 
 #### E.18.1:5.3 - Pilot examples for coupled transformation-flow slices
 

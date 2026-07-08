@@ -6,7 +6,7 @@ section_id: "A.15.2:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_scope-declaration-and-rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7 — Scope Declaration and Rationale"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.15.2:7 - Scope Declaration and Rationale
 
-* **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions; when the current claim is performed work, evidence, assurance, publication-use, source restoration, or declarative representation, apply the governing pattern for that claim.
+* **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions; when the current claim is performed work, evidence, assurance, publication-use, appearance-based reliance repair, or declarative representation, apply the governing pattern for that claim.
 * **Scope declaration:** Universal; meanings of windows, budgets, constraints, and authorization references are **context-local** via `U.BoundedContext`.
 * **Rationale:** Elevates **planning and scheduling** to a first-class episteme that coordinates Methods, `U.RoleAssignment`s, and Work without conflation.
 

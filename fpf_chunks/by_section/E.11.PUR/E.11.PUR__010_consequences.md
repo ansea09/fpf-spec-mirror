@@ -6,12 +6,12 @@ section_id: "E.11.PUR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__010_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:9 — Consequences"
-line_start: 71008
-line_end: 71020
+line_start: 71089
+line_end: 71101
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -40,7 +40,7 @@ Benefits:
 
 - FPF can keep friendly "what is the next useful move?" language without minting a root `Move`.
 - The first-entry and seminar-facing pattern-language metaphor becomes useful but bounded.
-- P2W, work planning, performed work, gates, architecture, source, and publication claims keep their governing patterns.
+- P2W, work planning, performed work, gates, architecture, source-relation, and publication claims keep their governing patterns.
 
 Costs:
 

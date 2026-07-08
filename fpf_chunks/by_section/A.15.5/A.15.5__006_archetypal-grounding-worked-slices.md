@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 23412
-line_end: 23449
+line_start: 23444
+line_end: 23481
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,15 +50,15 @@ Situation: a cooling-fixture team plans a deformation test. The ProblemCard is a
 
 ```text
 WorkEntryReadiness@Context:
-  ProjectConcernRef: cooling-fixture deformation test
+  WorkEntryConcernRef: cooling-fixture deformation test
   BoundedContextRef: lab test before comparator run
   TargetWorkPlanRef: WorkPlan-LAB-043
   TargetPlanItemRef: PlanItem-TEST-043
   FullKitCondition:
-    NeededInputRefs: specimen id, heat-flow invariant note, boundary-condition plan, sensor calibration source, fixture drawing edition
+    NeededInputRefs: specimen id, heat-flow invariant note, boundary-condition plan, sensor calibration record or certificate, fixture drawing edition
     KnownInputRefs: specimen id, heat-flow invariant note
-    MissingInputRefs: sensor calibration source, fixture drawing edition
-    GoverningPatternForEachMissingValue: A.15.4 for calibration source, E.17 for drawing publication edition
+    MissingInputRefs: sensor calibration record or certificate, fixture drawing edition
+    GoverningPatternForEachMissingValue: A.15.3 for planned calibration-record filler, A.10 when calibration evidence or currentness is claimed, E.17 for drawing publication edition
     PlannedBaselineRef: SlotFillingsPlanItem-SFI-043
     StopOrDegradedUseRule: no launch until calibration and drawing edition are pinned
   CommitmentDisposition: blocked
@@ -78,5 +78,5 @@ Use `WorkEntryReadiness@Context` only for the readiness of the probe or repair w
 
 Situation: a release dashboard shows a green readiness badge.
 
-If the current claim is "the release gate passed", use A.21 and recover `OperationalGate(profile)`, declared checks, aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and window. If those fields are not recoverable, the display may be a source cue for `A.15.4`, an evidence question, or a readiness cue. It is not gate passage by appearance.
+If the current claim is "the release gate passed", use A.21 and recover `OperationalGate(profile)`, declared checks, aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and window. If those fields are not recoverable, the display may be a reliance appearance for `A.15.4`, an evidence question, or a readiness indication. It is not gate passage by appearance.
 

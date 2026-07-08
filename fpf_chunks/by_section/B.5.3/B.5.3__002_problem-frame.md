@@ -6,12 +6,12 @@ section_id: "B.5.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__002_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:1 — Problem Frame"
-line_start: 36609
-line_end: 36614
+line_start: 36641
+line_end: 36646
 dependencies:
   - "A.13"
   - "A.15"

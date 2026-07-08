@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem-Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-kind-recovery.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:3 — Problem-Kind Recovery"
-line_start: 47416
-line_end: 47433
+line_start: 47464
+line_end: 47481
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ For this decision, `problem` remains an ordinary word in non-FPF-governed prose.
 
 | FPF-governed use | Current FPF recovery | `C.22.2` disposition |
 |---|---|---|
-| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or source signal reference | May trigger a `ProblemCard@Context`, but is not yet a problem-side representation by itself. |
+| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or problem signal reference | May trigger a `ProblemCard@Context`, but is not yet a problem-side representation by itself. |
 | Problematic situation | Context-bound situation under a viewpoint, domain, constraints, risks, and candidate EntityOfConcern | Captured only through fields that make the situation reviewable. |
 | Framed problem representation | Problem-side representation of a selected EntityOfConcern under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims apply `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when current. |
 | Candidate problem in archive or retained candidate pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that FPF relation is being made and named by value, retention criterion, budget or window, and review cadence when the retention rule requires it. |
@@ -81,5 +81,5 @@ For this decision, `problem` remains an ordinary word in non-FPF-governed prose.
 | E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |
 | E.9 DRR `Problem frame` | Decision-rationale section in a design-rationale record | Not the C.22 problem-side representation. |
 
-Local interpretation rule: `ProblemCard@Context` is the problem-side record shape before downstream typing or work. It may name candidate `ProblemProfile`, candidate `TaskSignature`, `setContextRef`, source cue, governing-pattern cue, or first-principles cue material only when those references change the problem-card use. It does not promote those references into local kinds or claims outside `C.22.2`.
+Local interpretation rule: `ProblemCard@Context` is the problem-side record shape before downstream typing or work. It may name candidate `ProblemProfile`, candidate `TaskSignature`, `setContextRef`, problem-side cue, governing-pattern cue, or first-principles cue material only when those references change the problem-card use. It does not promote those references into local kinds or claims outside `C.22.2`.
 

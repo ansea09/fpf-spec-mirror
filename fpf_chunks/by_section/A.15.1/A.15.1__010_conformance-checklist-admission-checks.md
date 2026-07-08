@@ -6,7 +6,7 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
@@ -59,7 +59,7 @@ keywords:
 **CC-A15.1-2 (Required links).**
 A conforming `U.Work` claim names:
 (a) `enactsMethod -> U.Method` (the method enacted),
-(b) `methodDescriptionRef -> U.MethodDescription` when the source episteme or editioned method description is current,
+(b) `methodDescriptionRef -> U.MethodDescription` when a source-material episteme is the current method description or an editioned method description is current,
 (c) `performedBy -> U.RoleAssignment` (the assigned performer in context), and
 (d) `executedWithin -> U.System`; if ordinary speech says subsystem, name the `U.System` in subsystem position plus the part relation to the larger holon under A.1, A.14, or B.1.2.
 
@@ -69,7 +69,7 @@ A conforming `U.Work` claim carries a closed interval `[t_start, t_end]`, or an 
 **CC-A15.1-4 (Context reference and judgement).**
 A `U.Work` claim is judged inside a declared `U.BoundedContext` (the judgement context).
 
-- By default, the judgement context is the context of the referenced method-description source.
+- By default, the judgement context is the context of the referenced `U.MethodDescription`.
 - If `performedBy` references a `U.RoleAssignment` in a different context, cross-context acceptance needs an explicit bridge relation or policy. Otherwise the work claim is not admitted in that context.
 
 **CC-A15.1-4b (State-plane reference).**
@@ -108,14 +108,14 @@ Overlaps and precedences among work occurrences use interval relations (`overlap
 **CC-A15.1-15 (Cross-context evidence).**
 If a work occurrence is accepted in multiple contexts, either re-judge it in each context or provide bridge relations that map acceptance criteria, units, and role-assignment relations. Name identity alone does not carry cross-context acceptance.
 
-**CC-A15.1-16 (Method-description source changes during work).**
-If the method-description version changes mid-occurrence, split the work into episodes bound to respective method-description source editions, or record an explicit method-description override event in the judgement context. Silent substitution lowers the work claim.
+**CC-A15.1-16 (Method-description reference changes during work).**
+If the method-description version changes mid-occurrence, split the work into episodes bound to respective `U.MethodDescription` editions, or record an explicit method-description override event in the judgement context. Silent substitution lowers the work claim.
 
 **CC-A15.1-17 (Distributed performers).**
 If multiple `U.RoleAssignment` values jointly perform the same top-level work occurrence, either designate a lead `U.RoleAssignment` with concurrent parts, or model the top-level occurrence as a parent work with child work occurrences per `U.RoleAssignment`.
 
 **CC-A15.1-18 (Logs are evidence, not work by themselves).**
-Logs and telemetry evidence a work occurrence only after they are bound to method-description source when current, performer, time window, affected referent, and judgement context.
+Logs and telemetry evidence a work occurrence only after they are bound to `methodDescriptionRef` when current, performer, time window, affected referent, and judgement context.
 
 **CC-A15.1-19 (Affected referent).**
 Each `U.Work` claim names at least one affected referent, such as asset, product, batch, dataset, or document, through `affected -> {...}`.
@@ -151,7 +151,7 @@ Numeric or comparable acceptance or KPI claims on a `U.Work` publication view pi
 If a work occurrence feeds G.11 or QD and OEE portfolios, the evidence relation cites the telemetry, archive, and policy references declared by the governing comparison, archive, evidence, or refresh pattern. Illumination remains report-only telemetry unless a governing comparison, archive, or selection pattern promotes that use.
 
 **CC-A15.1-30 (Part naming parsimony).**
-Do not create a durable named work part for every interval, telemetry segment, pause, event-log row, engine stroke label, detector component, or source phrase. Name a work part only when downstream use needs its own resources, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-return role. Otherwise lower to a temporal relation, evidence slice, telemetry segment, method-description constituent, source-gap note, or another direct neighboring object.
+Do not create a durable named work part for every interval, telemetry segment, pause, event-log row, engine stroke label, detector component, or encountered wording. Name a work part only when downstream use needs its own resources, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use. Otherwise lower to a temporal relation, evidence slice, telemetry segment, method-description constituent, missing-source-relation note, or another direct neighboring object.
 
 **CC-A15.1-31 (Method and work granularity are coupled but not isomorphic).**
 A work part may enact a recovered submethod, but the correspondence is not automatic. A temporal work part usually enacts the same whole method during a slice. An episode records continuity under one method or mode and may span several operational parts, repeat the same method fragment, or be split by evidence policy without changing method identity. An operational work part corresponds to a method factor only when that factor is recovered as `U.Method` under `A.3.1` and `B.1.5`; otherwise govern the material as a work part, method-description node, evidence segment, mechanism material, or system-component behavior under the direct pattern.

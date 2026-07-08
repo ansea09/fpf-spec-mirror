@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `f7c7e93f137a4691b390d46046428434e847099d`
+Commit SHA: `c927fef1dac0f4d5f8ca93deef8a52de75e3f77b`
 
 Chunking method: `pattern-aware`
 
@@ -68,7 +68,7 @@ Patterns: `277`
 - [A.15.1 — U.Work](by_pattern/A.15.1.md)
 - [A.15.2 — U.WorkPlan](by_pattern/A.15.2.md)
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
-- [A.15.4 — Work-Relevant Source Restoration](by_pattern/A.15.4.md)
+- [A.15.4 — Work-Relevant Appearance-Based Reliance Repair](by_pattern/A.15.4.md)
 - [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
@@ -176,7 +176,7 @@ Patterns: `277`
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
 - [C.32 — Architecture Candidate Synthesis](by_pattern/C.32.md)
 - [C.32.P2S — Problem-to-Structure Architecturing Transformation Flow](by_pattern/C.32.P2S.md)
-- [C.32.HCS — Holon-Family Architecture Characteristic Starter Packs](by_pattern/C.32.HCS.md)
+- [C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs](by_pattern/C.32.HCS.md)
 - [C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles](by_pattern/C.32.ACS.md)
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
 - [C.32.CONWAY — Transformer and Transformed Architecture Correspondence](by_pattern/C.32.CONWAY.md)

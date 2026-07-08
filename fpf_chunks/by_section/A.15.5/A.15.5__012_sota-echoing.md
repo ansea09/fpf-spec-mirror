@@ -6,12 +6,12 @@ section_id: "A.15.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__012_sota-echoing.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:11 — SoTA-Echoing"
-line_start: 23496
-line_end: 23503
+line_start: 23528
+line_end: 23535
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,7 +46,7 @@ keywords:
 
 | Source family | Use in this pattern | Local adoption |
 | --- | --- | --- |
-| TameFlow `MOVE` and Full-Kitting source material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt as source distinctions; adapt into FPF `WorkEntryReadiness@Context`, WorkPlan, PlanItem, gate, preparation work, resource, and performed-work relations. |
+| TameFlow `MOVE` and Full-Kitting material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt as external distinctions; adapt into FPF `WorkEntryReadiness@Context`, WorkPlan, PlanItem, gate, preparation work, resource, and performed-work relations. |
 | Current A.15 work-family settlement | Separates intended work, planned baseline, and dated performed work. | Reuse the split directly; readiness cites but does not replace those values. |
 | Current A.21 gate-publication discipline | Separates readiness-looking displays from gate decisions. | Readiness may feed a gate, but gate passage belongs to A.21. |
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:1"
 section_title: "Purpose & Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__002_purpose-audience.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:1 — Purpose & Audience"
-line_start: 40858
-line_end: 40867
+line_start: 40906
+line_end: 40915
 dependencies:
   - "C.3.1"
   - "C.3.3"

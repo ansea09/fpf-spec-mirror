@@ -6,13 +6,14 @@ section_id: "E.17:8.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__010_bias-annotation.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:8.1 — Bias-Annotation"
-line_start: 73784
-line_end: 73787
+line_start: 73869
+line_end: 73872
 dependencies:
+  - "A.15.4"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
@@ -38,5 +39,5 @@ keywords:
 
 ### E.17:8.1 - Bias-Annotation
 
-E.17 blocks publication-face bias: a face, card, view, rendering, source link, dashboard tile, or generated explanation is treated as if readability or layout created the underlying claim, evidence, work, gate, authority, or release relation. It also blocks source-proximity bias: a source-looking face points near a source, but the operative source relation still has to be recoverable by value.
+E.17 blocks publication-face bias: a face, card, view, rendering, source pointer, dashboard tile, or generated explanation is treated as if readability or layout created the underlying claim, evidence, work, gate, authority, or release relation. It also blocks source-proximity bias: a source-proximate face points near source material or a source relation, but the operative source relation still has to be recoverable by value.
 

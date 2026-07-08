@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:10"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__018_conformance-checklist.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:10 — Conformance Checklist"
-line_start: 69840
-line_end: 69863
+line_start: 69921
+line_end: 69944
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -71,8 +71,8 @@ keywords:
 | `CC-E10ARCH-4` | A new realization pattern is added only when no existing governing pattern carries the stable recovery shape without duplicating repair-only doctrine inside subject patterns. |
 | `CC-E10ARCH-5` | Subject patterns of concern keep their primary `EntityOfConcern` and first useful move central and carry only thin first-use cues to precision restoration when wording is hidden. Generic guards about description and publication use are kept in a named description and publication-use boundary section or description-publication pattern governing that use; they do not become the subject Solution. |
 | `CC-E10ARCH-6` | `reading`, `read`, and `quality-read` wording remains trigger wording and does not mint `ReadingPrecisionRestoration`. |
-| `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` recognizes the wording-use row, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, and source-use wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and governing patterns carry their own claim being made or admissible-use boundary. |
-| `CC-E10ARCH-6b` | State-family wording follows the selected distribution: `E.10` recognizes the wording-use row, `A.19.SPR` realizes recurring hidden bearer, state-frame, value, and use recovery, and governing patterns carry already-recovered evidence, assurance, gate, work, decision, temporal, mathematical-lens, pattern-quality, source-use, or process cases directly. |
+| `CC-E10ARCH-6a` | EntityOfConcern-like hidden fields follow the selected distribution: `E.10` recognizes the wording-use row, `C.2.1` carries slot and reference ontology, `C.2.P` restores episteme, publication, source-wording, and source-relation wording, `F.18` settles durable heads and source-string decisions, `E.17.AUD.OOTD` carries publication-unit primary entity of concern, and governing patterns carry their own claim being made or admissible-use boundary. |
+| `CC-E10ARCH-6b` | State-family wording follows the selected distribution: `E.10` recognizes the wording-use row, `A.19.SPR` realizes recurring hidden bearer, state-frame, value, and use recovery, and governing patterns carry already-recovered evidence, assurance, gate, work, decision, temporal, mathematical-lens, pattern-quality, source-relation, or process cases directly. |
 | `CC-E10ARCH-6c` | Stratification and source-label wording follows the selected distribution: `E.10` recognizes the wording-use row, `C.30.STRAT` realizes recurring source-label repair, and governing patterns carry already-recovered control-layer, module-interface, architecture-to-`TransformationFlowStructure`, scale or coarse-graining, publication relation set, gate, work, decision, or ordinary non-use cases directly. |
 | `CC-E10ARCH-6d` | Admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, and authority wording does not mint a generic admissibility object. The repair recovers bearer, claim kind, source relation, value frame, admissible use, non-admissible overread, and the direct governing pattern; `A.19.SPR` is used only when hidden state-family wording remains. |
 | `CC-E10ARCH-6e` | Method-like and algorithm-like wording first recovers the project concern and then recovers separately governed typed values through the existing method, work, and P2W governing-pattern constellation. `A.3.1` governs the semantic way of doing, `A.3.2` governs descriptions of that way, `A.6.0` and `C.29` govern formal-substrate and mathematical-lens use, `A.6.1` and `E.20` govern mechanism meaning, and work, plan, evidence relation, source relation, gate relation, result relation, or quote-only cases go to their direct governing patterns. One source label may link several typed values, but no typed value is both `U.Method` and `U.Mechanism` unless a governing pattern explicitly admits dual typing. Slot-position labels do not create alternate ontology. |

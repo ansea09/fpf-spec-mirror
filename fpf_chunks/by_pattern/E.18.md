@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 76094
-line_end: 76671
+line_start: 76179
+line_end: 76756
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -107,7 +107,7 @@ is one **path** among many possible domain-specific transformation-flow paths. W
 * set‑returning selection is silently replaced by **single scores**;
 * cycles lack **budget** discipline; refresh is **out‑of‑band**.
 
-MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts those **publication and comparability laws** to the **selected transformation-flow structure as a whole**.
+MVPK already fixes publication drift at the **single-arrow** scope; E.18 lifts those **publication and comparability rules** to the **selected transformation-flow structure as a whole**.
 
 ### E.18:3 - Problem
 
@@ -147,7 +147,7 @@ with:
   • `E⃗ := Edition vector` — a **partial map** `edition_key ↦ EditionId` over named families `{CG‑Spec, ComparatorSet, UNM.TransportRegistryΦ}` and optional `{DescriptorMapRef, DistanceDefRef, CharacteristicSpaceRef}` when cited.
   • `D := DesignRunTag` — `design(T^D)` or `run(T^R)`, used by **LaunchGate** and acceptance and telemetry duties.
  **Invariants.** Raw `U.Transfer` preserves `CtxState` (`⟨L,P,E⃗,D⟩`): it does **not** write or update any CtxState slot; any CtxState write or update (or entry to `U.WorkEnactment`) occurs at `OperationalGate(profile)`.
- **Extension discipline.** A conforming use registers any extra slot beyond ⟨L,P,E⃗,D⟩ in the **E.17 publication discipline and the E.18 LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order law (neutral or absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
+ **Extension discipline.** A conforming use registers any extra slot beyond ⟨L,P,E⃗,D⟩ in the **E.17 publication discipline and the E.18 LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order rule (neutral or absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
  **Data-shape location.** E.18 names the structure and valuation obligations for `PathId`, `PathSliceId`, Gamma pins, and lineage: flow is a valuation over `U.Transfer`, raw transfer preserves `CtxState`, and path or slice evidence is carried through this pattern plus `A.20`, with `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. These are the current structure loci for path and slice currentness.
 
  * **Locus kinds:** `Transformation`, `Signature`, `Mechanism`, `WorkPlanning`, `Work`, `Check`, and `StructuralReinterpretation` are the current minimal structure-positioned locus baseline. Domain-specific species are open-world and non-exhaustive, but each species binds to one of the locus kinds or requires an explicit E.18 update. These are positioned loci in the selected structure, not a local taxonomy of new FPF kinds.
@@ -162,7 +162,7 @@ with:
 
   `OperationalGate` is the E.18 check locus with DecisionLog aggregation. A check-locus label names only the current gate or check value that the selected structure positions: `A.20` governs internal constraint validity when that claim is current, `A.21` governs gate profile, aggregation, decision, and publication minima when gate fit or gate decision is current, and `A.3.4` governs the bounded transformation claim that the check constrains.
   The only extra discipline E.18 adds for `StructuralReinterpretation` is **structure-local**: CtxState and GateCrossing behaviour are governed by **CC-E18-06-EX** and **CC-E18-11** (projection-preserving w.r.t. `⟨L,P,E⃗,D⟩`, PathSlice-local, and "no plane or unit change without a gate"). `StructuralReinterpretation` is not a gate exception; it carries a recorded witness condition for saying no GateCrossing occurred. If any `CtxState` slot, plane, unit, edition, or design-run boundary changes, the case is a GateCrossing again.
-> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 **reuses** MVPK's publication laws (pins, declared-order discipline, "no new numeric claims and no re-listing of inputs and outputs") and only adds structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does **not** define a second, local publication semantics.
+> **MVPK integration (import).** Every locus with an external publication face is published via **MVPK** faces (`PlainView`, `TechCard`, `AssuranceLane`, `InteropCard`) under a declared **PublicationScope** (E.17). E.18 **reuses** MVPK's publication rules (pins, declared-order discipline, "no new numeric claims and no re-listing of inputs and outputs") and only adds structure-scope constraints in S3 and **CC-E18-09 and CC-E18-10**; it does **not** define a second, local publication semantics.
 
 **GateCrossing (normative)**
 **Definition.** A **GateCrossing** is the typed transition at a structure locus that writes or updates any of:
@@ -203,11 +203,11 @@ with:
 **Why "flow = valuation" preserves the ordinary "something changes" intuition**
 There are two complementary perspectives:
 * **Lagrangian (intuitive):** track tokens or state changes through a physical, organizational, or computational network.
-* **Eulerian (structural):** define a **function on transfer relations** ("which quantity or object is associated with each relation under a given regime"), with gate laws. E.18 deliberately fixes the **Eulerian semantics of flow** at the selected-structure scope: "flow (= valuation) with publication log", while change over time appears as **re-valuation** over a **PathSlice** (the execution and republishing window) under gate rules and the SquareLaw. This yields comparability, reproducibility, and slice-local refresh.
+* **Eulerian (structural):** define a **function on transfer relations** ("which quantity or object is associated with each relation under a given regime"), with gate rules. E.18 deliberately fixes the **Eulerian semantics of flow** at the selected-structure scope: "flow (= valuation) with publication log", while change over time appears as **re-valuation** over a **PathSlice** (the execution and republishing window) under gate rules and the SquareLaw. This yields comparability, reproducibility, and slice-local refresh.
 
 #### E.18:5.2a - Split-and-join structure discipline
 
-Use split and join only as selected-structure relations inside one `TransformationFlowStructure`. A split separates one source, variant set, problem-side cue, or candidate family into several governed loci or flow valuations. A join relates several governed loci, selected sets, gates, measurements, or refresh returns back to one current structure position. Neither operation creates a new FPF kind, a new pattern, or a prescribed work procedure.
+Use split and join only as selected-structure relations inside one `TransformationFlowStructure`. A split separates one source locus, variant set, problem-side cue, or candidate family into several governed loci or flow valuations. A join relates several governed loci, selected sets, gates, measurements, or refresh returns back to one current structure position. Neither operation creates a new FPF kind, a new pattern, or a prescribed work procedure.
 
 Minimum split-and-join use names the selected `TransformationFlowStructure`, the split or join predicate or policy when membership changes, the set-return kind when a set is returned, the publication relation when a result is published, and the smallest refresh scope when currentness changes. Comparator, selector, archive, pool, publication, gate, and refresh authority remains with `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.21`, and `G.11` when those relations are current.
 
@@ -218,12 +218,12 @@ For evolutionary-engineering work, the same selected structure may contain loci 
 
 
 E.18 **imports E.17** wholesale **and associates MVPK faces with `PublicationScope` (USM)**.
-**MVPK remains the normative source** for:
+**MVPK remains the governing reference** for:
 * the set of face kinds (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`),
 * pin discipline and Publication Characteristics (PC),
 * “no new numeric claims, no re‑listing of inputs and outputs, and no Γ‑semantics on faces”.
 
-E.18 **does not re-specify** these laws; it only adds **structure-scope obligations** for faces published over transformation-flow paths:
+E.18 **does not re-specify** these rules; it only adds **structure-scope obligations** for faces published over transformation-flow paths:
 
 1. **Crossings on faces.** When a face participates in a GateCrossing (S1.b and S9), it cites `BridgeId`, UTS row, and CL and publishes **Φ(CL) and Φ_plane RuleIds**; **penalties remain in R‑lane**.
 2. **Gate requirement on cited editions.** Any face that references editions of `CG-Spec`, `ComparatorSet`, or `UNM.TransportRegistryPhi` includes **`BridgeCard` and UTS row**; faces without this are treated as **non-consumable downstream**. Bridge and terminology-synchronization checks are governed by `F.9`, `F.17`, `E.17`, and `E.18`; selection and comparator pressure stays with `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11` for current selector or comparator cases.
@@ -303,7 +303,7 @@ E.18 does not mint new viewpoint or view kinds. It **imports** the generic multi
 
 **Two-part use of TEVB and MVPK (ISO 42010 summary, no local re‑definition).**
 
-* **Engineering viewpoints.** For engineering holons, E.18 assumes a TEVB bundle with `ViewFamilyId = VF.TEVB.ENG`. `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`, and TEVB is the normative source for their semantics. E.18 does not refine these viewpoints.
+* **Engineering viewpoints.** For engineering holons, E.18 assumes a TEVB bundle with `ViewFamilyId = VF.TEVB.ENG`. `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`, and TEVB is the governing reference for their semantics. E.18 does not refine these viewpoints.
 * **Publication viewpoints.** Publication viewpoints come from MVPK (E.17); `PublicationVPId` is a `MVPK.ViewpointId` that governs faces under a `PublicationScope`.
 * **Architecture relation.** E.18 can supply the selected transformation-flow structure used by an `ArchitectureOf@Context` claim when `DescriptionContext`, described holon, bounded context, and structure kind are explicit. It does not define architecture itself, and a transformation-flow structure is not the functional architecture by default. Use `C.30`, `C.30.ASV`, and the architecture transformation-flow relation pattern when the selected structure is used in an architecture-flow relation. Crossings and penalties follow E.18 gating rules (S9; CC-E18-11 and CC-E18-23) but do not change viewpoint semantics.
 * **Separation of roles.** `VP.*` from TEVB are **EngineeringVPId** values only; they are not publication faces. `PublicationVPId` values are defined in MVPK. The mapping between them is entirely via ISO-style correspondences and the `UTS.ViewpointMap`; E.18 does not define a second notion of viewpoint.
@@ -376,7 +376,7 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 * `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).
 * `EngineeringVPId : ViewpointId` — a viewpoint from that bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`).
 * `PublicationVPId : ViewpointId?` — MVPK publication viewpoint id that governs faces implementing this engineering view (optional if not publishing).
-* `TargetHolon ∈ {U.System, U.Episteme}` *(extended species can add `{U.PromiseContent|U.MethodFamily}`; if `TargetHolon ≠ U.System`, no `U.Work` enactment appears).*
+* `TargetHolon ∈ {U.System, U.Episteme}` *(extension species must be admitted holon kinds by a direct governing pattern. `U.PromiseContent` and `U.MethodFamily` do not fill `TargetHolon` by label. If promise-content or method-family wording is current, recover the direct promise, method, description, work, or architecture governing pattern first, and use E.18 only for selected transformation-flow structures around an admitted target. If `TargetHolon != U.System`, no `U.Work` enactment appears).*
 * `PrimaryE18Constructs` - loci, transfer relations, and gates actually used for this `(ViewFamilyId, EngineeringVPId, TargetHolon)` (typically one of the four families above).
 * `Crossings{BridgeId, CL, CL^plane?}` — crossings involved; penalties appear in R-lane only.
 * `EditionPins{...}` whenever comparable claims appear (bind to CG-Spec and ComparatorSet editions; any face citing editions includes `BridgeCard` and UTS row per MVPK and UNM).
@@ -497,10 +497,10 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 | Flow as performed work | A valuation or path is treated as a work occurrence or work procedure. | Keep work planning and performed work with the A.15 family. |
 | Gate everywhere | Internal step validity, crossing, launch, and gate-decision publication are collapsed. | Use `A.20` for internal constraint validity and `A.21` for gate fit, aggregation, decision, and publication. |
 | Publication face as evidence | An MVPK face or dashboard view is treated as evidence, gate passage, release authorization, or deontic permission. | Use `E.17`, `A.10`, `A.21`, `A.2.8`, `A.2.9`, or release-governing patterns according to the claim being made. |
-| Whole-flow refresh | Any small edition or source change triggers a whole-structure rewrite. | Refresh the smallest affected path slice, crossing, edition pin, or publication face. |
+| Whole-flow refresh | Any small edition, source-material, or source-relation change triggers a whole-structure rewrite. | Refresh the smallest affected path slice, crossing, edition pin, source relation, or publication face. |
 
 ### E.18:8 - Gating Profiles (applied to E.18)
-This table is a selected-structure coverage table for E.18 crossings and path slices. It is not the source of `GateProfile` semantics. `A.21` governs gate decision semantics, folds, `DecisionLog` minima, and the GateFit check-catalog boundary.
+This table is a selected-structure coverage table for E.18 crossings and path slices. It does not govern `GateProfile` semantics. `A.21` governs gate decision semantics, folds, `DecisionLog` minima, and the GateFit check-catalog boundary.
 
 > Gating is expressed as **publication-gating** per E.17 profiles. The structure model aligns with the **CC items** listed for the chosen profile; broader obligation profiles include all narrower-profile items.
 
@@ -514,7 +514,7 @@ This table is a selected-structure coverage table for E.18 crossings and path sl
 
 ### E.18:9 - E.18 LEX Discipline (registration)
 Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Register ASCII spelling **`CLKind`** for Plain display `CL^k` (cf. `CLPlane` for `CL^plane`). Reference MVPK E.17 naming for faces.
-**CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order law (with neutral or absorbing), SquareLaw compatibility note, and the Gate profile or profiles allowed to change it. Absence of registration ⇒ **non‑conformant**.
+**CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order rule (with neutral or absorbing), SquareLaw compatibility note, and the Gate profile or profiles allowed to change it. Absence of registration ⇒ **non‑conformant**.
 
 ### E.18:10 - Consequences
 
@@ -562,7 +562,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
 * **E.18 -> coordinates with -> A.15.5 WorkEntryReadiness.** A selected structure may position a launch or work-boundary readiness locus only as a relation to `A.15.5`; E.18 supplies the crossing, path, slice, LaunchGate position, and structure-local pins, while `A.15.5` governs `FullKitCondition`, planned preparation references, commitment disposition, resource-readiness references, and whether intended work is ready to enter performed-work execution.
 * **E.18 -> coordinates with -> C.32.P2S ProblemToStructureArchitecturingFlow.** P2S may cite selected transformation-flow structure, path, crossing, or valuation as architecture content, uncertainty, method handoff, work handoff, or feedback material; E.18 still governs the transformation-flow structure and does not become the whole architecturing flow.
-* **E.18 -> coordinates with -> C.33, C.34, and C.35 structural-information patterns.** When a transformation-flow carrier, path, generated map, or changed structure-bearing result needs architecture-specific capture, preservation, or discovery adequacy, use `C.33`, `C.34`, or `C.35` for that architecture use. E.18 keeps transformation-flow selected structure, path, crossing, valuation, and slice-local source-return ownership.
+* **E.18 -> coordinates with -> C.33, C.34, and C.35 structural-information patterns.** When a transformation-flow carrier, path, generated map, or changed structure-bearing result needs architecture-specific capture, preservation, or discovery adequacy, use `C.33`, `C.34`, or `C.35` for that architecture use. E.18 keeps transformation-flow selected structure, path, crossing, valuation, and slice-local source-return relation visible.
 
 > Relation rows use the named relation kinds **builds_on**, **constrains**, **coordinates**, **specializes**, **publishes_on**, **requires**, and **provides_checks_for**.
 
@@ -607,11 +607,11 @@ When a selected structure locus, selected path, path slice, substructure, or flo
 
 ### E.18:15a - E.18.1 P2W Child-Pattern Relation
 
-`E.18.1` is a child pattern for principles-to-work carry-through. It inherits this pattern's selected structure, path, flow-valuation, transfer, crossing, and gate minimum, then adds the local P2W relation from accepted problem-side output to the next FPF kind named by value, relation, record, or application. In this split, `E.18.1` carries P2W specialization examples and P2W relation guidance; `E.18` carries the selected-structure law and this short child-pattern relation.
+`E.18.1` is a child pattern for principles-to-work carry-through. It inherits this pattern's selected structure, path, flow-valuation, transfer, crossing, and gate minimum, then adds the local P2W relation from accepted problem-side output to the next FPF kind named by value, relation, record, or application. In this split, `E.18.1` carries P2W specialization examples and P2W relation guidance; `E.18` carries the selected-structure invariants and this short child-pattern relation.
 
 ### E.18:15b - E.23 Improvement-Loop Boundary Relation
 
-When a transformation-flow structure contains a cycle, budgeted retry path, monitor/escalate path, or slice-local refresh relation, `E.18` governs the selected structure: loci, transfer relation, path or slice, gate positions, pins, and refresh locality. The cycle becomes an `E.23` quality-improvement loop only when a named object version is changed and then re-evaluated by a declared object-under-improvement evaluation. Otherwise the cycle remains a transformation-flow structure, work-control cue, gate relation, or refresh relation governed by its direct owner.
+When a transformation-flow structure contains a cycle, budgeted retry path, monitor/escalate path, or slice-local refresh relation, `E.18` governs the selected structure: loci, transfer relation, path or slice, gate positions, pins, and refresh locality. The cycle becomes an `E.23` quality-improvement loop only when a named object version is changed and then re-evaluated by a declared object-under-improvement evaluation. Otherwise the cycle remains a transformation-flow structure, work-control cue, gate relation, or refresh relation governed by its direct governing pattern.
 
 Agent-loop diagrams often contain both kinds. A monitor/retry/escalate loop over physical execution state may be a valid `TransformationFlowStructure` and may include an `A.21` gate, but it does not prove that the controlled object improved. If the harness itself is improved, `E.23` governs that object-version improvement; if the harness only runs work, the A.15 family governs the work occurrence.
 

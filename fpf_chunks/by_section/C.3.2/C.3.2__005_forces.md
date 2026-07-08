@@ -6,12 +6,12 @@ section_id: "C.3.2:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:4 — Forces"
-line_start: 40879
-line_end: 40887
+line_start: 40927
+line_end: 40935
 dependencies:
   - "C.3.1"
   - "C.3.3"

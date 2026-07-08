@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15.4"
-pattern_title: "Work-Relevant Source Restoration"
+pattern_title: "Work-Relevant Appearance-Based Reliance Repair"
 section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "A.15.4 — Work-Relevant Source Restoration"
+  - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2.1 — Forces"
-line_start: 22987
-line_end: 22996
+line_start: 23006
+line_end: 23015
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,30 +28,35 @@ dependencies:
   - "A.6.C"
   - "B.3"
   - "C.2.1"
+  - "E.10"
+  - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
   - "U.Work"
 keywords:
-  - "P2W load and position"
-  - "approval-looking display"
-  - "blocked overread"
-  - "copied statement"
+  - "allowed use now"
+  - "appearance overread blocked"
+  - "appearance-based reliance"
+  - "claim/effect position"
+  - "copied approval"
   - "credential view"
   - "dashboard display"
   - "generated explanation"
-  - "provenance mark"
-  - "relation-governed current use"
-  - "required project-side FPF kind and reference"
-  - "work-relevant source restoration"
+  - "project-side claim/effect reference"
+  - "publication face"
+  - "reliance appearance"
+  - "required claim before use"
+  - "required instituted effect before use"
+  - "work or reliance use"
 ---
 
 ### A.15.4:2.1 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Work momentum vs. source recoverability | Teams need to keep work moving, but an appearance-based source can make the wrong claim look like work authorization. |
+| Work momentum vs. governing-position recoverability | Teams need to keep work moving, but a reliance appearance can make the wrong claim look like work authorization when the governing pattern position is still unnamed. |
 | Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, credential-status, role-state, and gate cases need more fields. |
-| Publication face vs. governing source | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side source named by value. |
-| Neighboring governed claims vs. local restoration | A.15.4 can recover the missing source relation, but evidence, gate, assurance, speech-act, commitment, boundary, credential-status, role-state, and work-occurrence claims must return to their governing patterns. |
-| Repeated ambiguity vs. individual burden | Repeated source ambiguity should become source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
+| Publication face vs. governing pattern value | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side FPF kind and reference named by value. |
+| Neighboring governed claims vs. local repair | A.15.4 can recover the missing governing pattern position for the attempted work or reliance use, but evidence, gate, assurance, speech-act, commitment, boundary, credential-status, role-state, and work-occurrence claims must return to their governing patterns. |
+| Repeated ambiguity vs. individual burden | Repeated ambiguity about the required claim, instituted effect, or governing position should become governing-position or source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
 

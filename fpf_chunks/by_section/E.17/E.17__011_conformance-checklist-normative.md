@@ -6,13 +6,14 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 73788
-line_end: 73827
+line_start: 73873
+line_end: 73912
 dependencies:
+  - "A.15.4"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
@@ -50,7 +51,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying Description epistemes, including Description epistemes admitted for specification use. | Red‑line vs Description episteme, including any exact specification-use source, shows only formatting or indexing. |
 | **CC-MVPK-4 (Pins and source references)** | Numbers and thresholds pin {...}. **Lean exception:** at MVPK-Min or MVPK-Lite profiles, EditionId can remain coarse; ordinal claims stay compare-only (no means or z-scores). | Validation shows pins present or compare-only mode engaged. |
 | **CC-MVPK-4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence-bit green. |
-| **CC-MVPK-5 (Carrier reference)** | First mention includes carrier references and any A.10/G.6 source-currentness or provenance records when carrier work, rendering work, reliance, evidence, or replay is present. | Carrier and provenance references are visible when used. |
+| **CC-MVPK-5 (Carrier reference)** | First mention includes carrier references and any A.10 or G.6 source-currentness or provenance records when carrier work, rendering work, reliance, evidence, or replay is present. | Carrier and provenance references are visible when used. |
 
 #### E.17:9.2 - Conditional checks
 

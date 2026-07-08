@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.HCS"
-pattern_title: "Holon-Family Architecture Characteristic Starter Packs"
+pattern_title: "Architecture-Bearing Family Characteristic Starter Packs"
 section_id: "C.32.HCS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__013_relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
+  - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:12 — Relations"
-line_start: 59919
-line_end: 59924
+line_start: 59980
+line_end: 59985
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,9 +28,9 @@ dependencies:
   - "G.5"
 keywords:
   - "architecture characteristic heads"
+  - "architecture-bearing family characteristic starter pack"
   - "characteristic transfer"
   - "first criteria questions"
-  - "holon-family architecture characteristic starter pack"
   - "source catalogue narrowing"
 ---
 

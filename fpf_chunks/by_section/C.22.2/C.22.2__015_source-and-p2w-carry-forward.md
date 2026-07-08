@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 47635
-line_end: 47658
+line_start: 47683
+line_end: 47706
 dependencies:
   - "A.10"
   - "A.15"
@@ -87,5 +87,5 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; apply `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, or `B.3` when the corresponding claim is current. |
 | Trust debt after reliance-window expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or problem-formulation follow-up reason, not as punishment, proof failure, or gate passage by itself. |
 
-This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough source cues and project-side references to select method families, plans, performed work, and result measurement without making the problem card a P2W pattern.
+This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and project-side references to select method families, plans, performed work, and result measurement without making the problem card a P2W pattern.
 

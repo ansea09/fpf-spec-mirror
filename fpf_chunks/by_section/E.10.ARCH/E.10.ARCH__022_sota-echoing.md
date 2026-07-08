@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2a.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_sota-echoing.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2a.1 — SoTA-Echoing"
-line_start: 69892
-line_end: 69902
+line_start: 69973
+line_end: 69983
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,7 +65,7 @@ keywords:
 
 | Source or practice line | Source-use function or relation | What the line changes in `E.10.ARCH` |
 | --- | --- | --- |
-| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, assigns relation, source-use, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
+| Current FPF distribution: `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.F`, `C.2.P`, `C.30.P`, `C.30.STRAT`, `C.16.P`, `C.16.Q`, `A.19.SPR`, `F.18`, `E.8`, `E.19`, `E.11`, and `I.2`. | Current FPF-internal architecture source line for the selected distribution. | Keeps `E.10` compact, puts the shared recovery algorithm in `E.10.ARCH`, assigns relation, source-relation, architecture, stratification-source-label, characteristic, quality, state-family, function-like, naming, entry-distribution, and expanded entry-disambiguation cases to realization or governing patterns named by value, and gives `E.19` a distribution-preservation check. |
 | Pattern-language locality and FPF primary-EntityOfConcern discipline in `E.8` and `E.19`. | Current FPF authoring and review source line; not an external standard imported as ontology. | Forces thin governing-pattern pointers and blocks local wording-recognition-table copies inside patterns of concern whose real work is architecture, structure, characteristic, quality, evidence, gate, work, decision, state-family precision, or release. |
 | Terminology and controlled-vocabulary practice named in `E.10:11a` only where it concerns designations, labels, discoverability, and controlled vocabulary publication. | Current-standard and reference-use source line; it does not define FPF kind ontology. | Provides explicit recovered heads and reusable-name discipline, but rejects a central word list or controlled vocabulary as the solution to every wording-use repair. |
 | Current governing-pattern coverage in FPF. | Applicability boundary for this architecture, not evidence that E.10.ARCH owns every wording-use case. | Uses the direct governing pattern when that pattern can carry the EntityOfConcern under repair, relation, claim, or local field directly; reopens E.10.ARCH only when the shared distribution rule itself no longer fits. |

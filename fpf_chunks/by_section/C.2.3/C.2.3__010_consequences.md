@@ -6,12 +6,12 @@ section_id: "C.2.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__010_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:9 — Consequences"
-line_start: 39087
-line_end: 39095
+line_start: 39135
+line_end: 39143
 dependencies:
   - "A.16"
   - "A.18"

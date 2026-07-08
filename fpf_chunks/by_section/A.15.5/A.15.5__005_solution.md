@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 23334
-line_end: 23411
+line_start: 23363
+line_end: 23443
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,13 +46,13 @@ keywords:
 
 Represent readiness as `WorkEntryReadiness@Context`, a dependent relation under the A.15 family and A.21 boundary.
 
-E.24.UK settlement: this pattern does not introduce a root `U.Readiness`, root `U.Move`, imported TameFlow `MOVE` kind, or independent readiness ontic. The governed value is a context readiness relation over existing values: `U.WorkPlan`, PlanItem, `SlotFillingsPlanItem`, intended work kind, target EntityOfConcern, commitment disposition, resource-readiness refs, gate refs, evidence refs, and performed `U.Work` only when that work has occurred. `FullKitCondition` is a condition inside this readiness relation, not a separate root kind.
+E.24.UK settlement: this pattern does not introduce a root `U.Readiness`, root `U.Move`, imported TameFlow `MOVE` kind, or independent readiness ontic. The selected relation is a context readiness relation over existing values: `U.WorkPlan`, PlanItem, `SlotFillingsPlanItem`, intended work kind, target EntityOfConcern, commitment disposition, resource-readiness refs, gate refs, evidence refs, and performed `U.Work` only when that work has occurred. `FullKitCondition` is a condition inside this readiness relation, not a separate root kind.
 
 #### A.15.5:4.1 - WorkEntryReadiness@Context
 
 ```text
 WorkEntryReadiness@Context:
-  ProjectConcernRef
+  WorkEntryConcernRef
   BoundedContextRef
   TargetWorkPlanRef?
   TargetPlanItemRef?
@@ -67,7 +67,7 @@ WorkEntryReadiness@Context:
   SlotFillingsPlanItemRefs?
   PreparationWorkRefs?
   PriorWorkEvidenceRefs?
-  SourceReadinessRefs?
+  SourceCurrentnessRefs?
   LaunchGateRef?
   GateDecisionRef?
   EvidenceRefs?
@@ -91,12 +91,15 @@ FullKitCondition:
   GoverningPatternForEachMissingValue
   PreparationWorkRef?          # only when preparation was performed
   PlannedBaselineRef?          # usually A.15.3 SlotFillingsPlanItem
-  SourceOrPublicationRefs?
+  SourceCurrentnessRefs?
+  PublicationRefs?
   ResourceReadinessRefs?
   StopOrDegradedUseRule
 ```
 
-Full-kit preparation can include gathering information, coordinating roles, producing a missing source, reserving a resource, pinning a planned filler, or creating shared understanding. Those activities are `U.Work` only when actually performed. The readiness record cites them; it does not become them.
+Full-kit preparation can include gathering information, coordinating roles, producing a missing source `U.Episteme` or source `U.EpistemePublication`, reserving a resource, pinning a planned filler, or creating shared understanding. Those activities are `U.Work` only when actually performed. The readiness record cites them; it does not become them.
+
+**Boundary with planned fillers and appearance-based reliance.** A missing planned value in `FullKitCondition` stays with `A.15.3` as a planned slot-filling baseline or with the direct governing pattern when an evidence, currentness, publication, gate, or assurance relation is already known. Use `A.15.4` only when a reliance appearance, such as a dashboard label, copied approval, publication face, or credential view, is being used as the reason to treat the readiness or work-reliance claim as carried before that governing pattern slot or relation has been recovered.
 
 #### A.15.5:4.3 - Commitment and Launch Boundary
 

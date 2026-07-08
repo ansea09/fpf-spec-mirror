@@ -6,12 +6,12 @@ section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 47807
-line_end: 47821
+line_start: 47855
+line_end: 47869
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,5 +78,5 @@ The compact export fields are:
 - source-set or representation relation reference when current;
 - problem-formulation follow-up reason and validation boundary when P2W relies on the card.
 
-For P2W carry-through, use `E.18.1` with the accepted problem-side material and the current relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is current. For work need, use the A.15 family only after work planning, work-entry readiness, performed work, or work-relevant source restoration is current; `A.15.5` carries `WorkEntryReadiness@Context` when the downstream question is whether intended work is ready enough to enter the work boundary. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
+For P2W carry-through, use `E.18.1` with the accepted problem-side material and the current relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is current. For work need, use the A.15 family only after work planning, work-entry readiness, performed work, or work-relevant appearance-based reliance repair is current; `A.15.5` carries `WorkEntryReadiness@Context` when the downstream question is whether intended work is ready enough to enter the work boundary. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
 

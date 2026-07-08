@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.HCS"
-pattern_title: "Holon-Family Architecture Characteristic Starter Packs"
+pattern_title: "Architecture-Bearing Family Characteristic Starter Packs"
 section_id: "C.32.HCS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__010_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
+  - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:9 — Consequences"
-line_start: 59894
-line_end: 59901
+line_start: 59955
+line_end: 59962
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,9 +28,9 @@ dependencies:
   - "G.5"
 keywords:
   - "architecture characteristic heads"
+  - "architecture-bearing family characteristic starter pack"
   - "characteristic transfer"
   - "first criteria questions"
-  - "holon-family architecture characteristic starter pack"
   - "source catalogue narrowing"
 ---
 
@@ -38,7 +38,7 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| Criteria-row narrowing starts from holon family. | The practitioner is not forced to read a giant catalogue first. | Starter packs must be maintained as FPF architecture practice grows. |
-| Holonic generalization is disciplined. | Software sources can inform starter packs without importing software ontology. | Every reuse requires bearer and scale rebinding. |
+| Criteria-row narrowing starts from architecture-bearing family. | The practitioner is not forced to read a giant catalogue first. | Starter packs must be maintained as FPF architecture practice grows. |
+| Cross-family generalization is disciplined. | Software sources can inform starter packs without importing software ontology or admitting source labels as holon kinds. | Every reuse requires governing-pattern, bearer, and scale rebinding. |
 | ACS remains project-specific. | HCS does not overload project criteria construction. | The project still must do ACS work before optimization. |
 

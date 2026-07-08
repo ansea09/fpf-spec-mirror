@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__003_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0.1 — Problem Frame"
-line_start: 69586
-line_end: 69589
+line_start: 69665
+line_end: 69668
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -63,5 +63,5 @@ keywords:
 
 ### E.10.ARCH:0.1 - Problem Frame
 
-Precision restoration in FPF is ontology-first, not word-substitution-first. A recurring wording family is important only when it hides a stable governed object, relation position, claim kind, ontic slot, publication-use relation, source-use disposition, mathematical lens, or neighboring-pattern boundary.
+Precision restoration in FPF is ontology-first, not word-substitution-first. A recurring wording family is important only when it hides a stable governed object, relation position, claim kind, ontic slot, publication-use relation, source-relation disposition, mathematical lens, or neighboring-pattern boundary.
 

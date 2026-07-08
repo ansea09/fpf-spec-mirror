@@ -6,12 +6,12 @@ section_id: "C.29:13b"
 section_title: "Source-use boundary notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__017_source-use-boundary-notes.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13b — Source-use boundary notes"
-line_start: 54802
-line_end: 54809
+line_start: 54859
+line_end: 54866
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,7 +70,7 @@ keywords:
 ### C.29:13b - Source-use boundary notes
 
 1. `VAN-GEOM-LEARNING-2025/2026` is a replayable candidate-lens source for geometric learning dynamics. Its useful FPF contribution is the metric-tensor, noise-covariance, and learning-dynamics lens family and the stress it puts on `CandidateMathObject`, `LensMappingMode`, preserved and lost structure, validation boundary, and stop condition.
-2. Vanchurin-style physical or biological interpretations remain source-side claims unless a local C.29 output and neighboring evidence, causal-use, validation, or assurance pattern bound the use. C.29 does not promote those interpretations to FPF law.
+2. Vanchurin-style physical or biological interpretations remain claims from the cited source unless a local C.29 output and neighboring evidence, causal-use, validation, or assurance pattern bound the use. C.29 does not promote those interpretations to FPF law.
 3. `SAND-THREAD-MATH-LINKS-2026-05-12` is a recognition cue, not a mathematical proof source or FPF law.
 4. CLT-as-RG or fixed-point wording is retained only as a structural modeling viewpoint. A safe formulation is: under the usual normalization, the Gaussian is an attractive fixed point for finite-variance distributions; other stable laws are other fixed points under suitable normalization.
 5. The intake correction from direct identification to structure-preserving representation is selected and becomes a central ontology guard.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.HCS"
-pattern_title: "Holon-Family Architecture Characteristic Starter Packs"
+pattern_title: "Architecture-Bearing Family Characteristic Starter Packs"
 section_id: "C.32.HCS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__004_forces.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
-  - "C.32.HCS — Holon-Family Architecture Characteristic Starter Packs"
+  - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:3 — Forces"
-line_start: 59800
-line_end: 59809
+line_start: 59859
+line_end: 59868
 dependencies:
   - "A.19"
   - "C.11"
@@ -28,9 +28,9 @@ dependencies:
   - "G.5"
 keywords:
   - "architecture characteristic heads"
+  - "architecture-bearing family characteristic starter pack"
   - "characteristic transfer"
   - "first criteria questions"
-  - "holon-family architecture characteristic starter pack"
   - "source catalogue narrowing"
 ---
 
@@ -40,7 +40,7 @@ keywords:
 |---|---|
 | Broad catalogues | Standards, textbooks, and local sources offer many possible quality names. |
 | Project attention | A project needs a small first set of draft criteria rows, not a catalogue. |
-| Holon generality | The same head can recur across holon families, but the bearer and scale change. |
+| Bearer recovery | The same head can recur across admitted holon families and adjacent governed structures, but the governing pattern, bearer, and scale change. |
 | Software-source overfit | Mature software sources are useful but overfit to code modules, services, and operations if copied. |
 | Q-Bundle boundary | Many `-ility` heads are composite quality families, not one architecture characteristic. |
 

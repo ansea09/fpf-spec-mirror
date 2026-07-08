@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 69502
-line_end: 69507
+line_start: 69581
+line_end: 69586
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.10.MOVE:10 - Rationale
 
-Move-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the concern, classify the source use, name the direct FPF value, preserve reader use, and apply the pattern that governs the recovered value.
+Move-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim being made, and object under wording repair; classify borrowed or ordinary wording; name the direct FPF target; preserve reader use; and apply the pattern that governs the recovered target.
 
-The pattern is a child of E.10 because it starts as wording-use restoration. It stays small because the substantive objects are already governed elsewhere: `E.11.PUR`, `A.15.5`, `E.18.1`, the A.15 family, A.21, A.3.4.P, C.24, C.30, A.16, E.17, and source-restoration patterns.
+The pattern is a child of E.10 because it starts as wording-use restoration. It stays small because the substantive objects are already governed elsewhere: `E.11.PUR`, `A.15.5`, `E.18.1`, the A.15 family, A.21, A.3.4.P, C.24, C.30, A.16, E.17, and `A.15.4` appearance-based reliance repair.
 

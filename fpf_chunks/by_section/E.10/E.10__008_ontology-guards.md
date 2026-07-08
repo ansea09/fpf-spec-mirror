@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 68497
-line_end: 68582
+line_start: 68566
+line_end: 68651
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,8 +59,8 @@ keywords:
 **Onto3 — Roles, RoleAssignments, and carrier-relation separation (holonic)**  *(ref. A.2, A.2.1, F.4, F.5, C.2.1+, C.2.P, E.17, A.10, and C.35)*
 * **Rule:** A work-facing role value may use a Tech label ending in **`…Role`** and is described through **F.4 Role Description**, e.g., `SafetyOfficerRole`, `ReviewerRole`. Role-characteristic spaces, role-state relations, and role relation structures are separate governed values; they are not hidden inside the role name. The concrete assignment relation is a **`U.RoleAssignment`** with explicit `holderRef`, `roleRef`, `boundedContextRef`, and optional `windowRef`; do not use a compact role-assignment display string as the normative model. **Carrier** is not a free holon/system kind. In Tech use, recover the governed carrier relation: `U.PresentationCarrier` or `PresentationCarrierSlot` when C.2.1+ publication/presentation discipline is current; file, transport, rendering, front-end, or access-carrier relation under `E.17`; evidence or source-currentness carrier under `A.10`/`G.11`; generated or produced carrier under `C.35`; or a named episteme-symbol carrier relation only when a tradition, lineage, profile, repertoire, or other episteme is made available independently of any role assignment. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between a carrier relation, a system made by a transformer, or an episteme abstracted from its carrier.
 * **Register note:** Job titles (`Reviewer`, `Owner`, `Lead`) belong in the **Plain** register and MUST twin-map to explicit Tech `…Role` tokens.
-* **Why:** This resolves inconsistent “role carrier”, “role-assigned holon/system”, and generic carrier-kind usage: use **`U.RoleAssignment`** for the contextual assignment of a holon/system to a `…Role`; use `U.PresentationCarrier` or another direct owner only for the recovered carrier relation.
-* **Rewrite note.** `…CarrierRole` used for a role-assigned holon/system **MUST be rewritten** to an explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`. Any `…Carrier` KernelToken must name the direct owner and relation it uses, or be rewritten through `C.2.P`/`E.10.D2`. Use SCR-LEX to enforce the rewrite.
+* **Why:** This resolves inconsistent “role carrier”, “role-assigned holon/system”, and generic carrier-kind usage: use **`U.RoleAssignment`** for the contextual assignment of a holon/system to a `…Role`; use `U.PresentationCarrier` or another direct governing pattern only for the recovered carrier relation.
+* **Rewrite note.** `…CarrierRole` used for a role-assigned holon/system **MUST be rewritten** to an explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`. Any `…Carrier` KernelToken must name the direct governing pattern and relation it uses, or be rewritten through `C.2.P`/`E.10.D2`. Use SCR-LEX to enforce the rewrite.
 * **Do:** `ReviewerRole` (or `AssessorRole`), `U.RoleAssignment(holderRef=TeamAlpha, roleRef=ReviewerRole, boundedContextRef=JournalIssue42Context)`; `LeanTraditionCarrier` only when declared as an episteme-symbol carrier relation over a holon independent of any particular role assignment.
 **Don’t:** `Reviewer` (as a U-kind), `ReviewerCarrier` (to mean a role-assigned holon/system), `SystemReviewer` (role collapsed into a system kind), or `Carrier` as an unstated system kind.
 **Onto4 — Domain only as a catalog mark**  *(ref. E.10.D1 D.CTX; publish stitching on UTS)*
@@ -102,7 +102,7 @@ keywords:
 **Checklist before minting a KernelToken**
 * Head noun signals kind (Onto1).
 * EntityOfConcern and Description-episteme boundary and specification-use morphology correct (Onto2).
-* If role-related or carrier-related: **Role, RoleAssignment, and carrier-relation** separation observed; holonic scope explicit and direct carrier owner named (Onto3).
+* If role-related or carrier-related: **Role, RoleAssignment, and carrier-relation** separation observed; holonic scope explicit and direct carrier-governing pattern named (Onto3).
 * Any Domain mention stitched to D.CTX and UTS; **no norms on Domain** (Onto4, Onto6).
 * Object‑of‑talk declared (Onto5).
 * SCR-LEX rewrites checked for current role-assignment and carrier-relation separation (Onto6).

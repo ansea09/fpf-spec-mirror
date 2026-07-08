@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:4 — Solution"
-line_start: 70862
-line_end: 70937
+line_start: 70943
+line_end: 71018
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -42,7 +42,7 @@ In engineer-facing speech, phrases such as "first useful move", "working move", 
 
 In didactic pattern-language speech, the same idea can be explained as building a useful FPF phrase from pattern words: one pattern may frame the problem, another preserve variants, another recommend an architecture question, another carry the decision toward work, and another update SoTA or wording.
 
-In the precise FPF layer, do not create a `Move` kind from either metaphor. Recover `PatternUseRecommendation@Context` for the recommended use of one pattern, `PatternUseSequence@Context` for several pattern uses, and the direct governing pattern for work, plan, gate, decision, publication, architecture, source, or transformation claims.
+In the precise FPF layer, do not create a `Move` kind from either metaphor. Recover `PatternUseRecommendation@Context` for the recommended use of one pattern, `PatternUseSequence@Context` for several pattern uses, and the direct governing pattern for work, plan, gate, decision, publication, architecture, source-relation, or transformation claims.
 
 #### E.11.PUR:4.1 - PatternUseRecommendation@Context
 

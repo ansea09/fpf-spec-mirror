@@ -6,12 +6,12 @@ section_id: "B.1.5:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__011_relations.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:9 — Relations"
-line_start: 32591
-line_end: 32605
+line_start: 32623
+line_end: 32637
 dependencies:
   - "A.1"
   - "A.14"
@@ -61,5 +61,5 @@ keywords:
 - Coordinates with `B.2` when whole reidentification, MHT, or emergence-family explanation is current.
 - Coordinates with `G.5` when method-family registry, selector, fallback, or candidate-set relation is current.
 - Coordinates with `C.29`, `A.6.0`, `A.6.1`, and `E.20` when mathematical lens, formal substrate, or mechanism claim is current.
-- Coordinates with `E.10` for method, step, process, workflow, owner, requirement, and source wording precision recovery.
+- Coordinates with `E.10` for method, step, process, workflow, ownership/stewardship, requirement, and source wording precision recovery.
 

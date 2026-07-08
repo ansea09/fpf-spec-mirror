@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 37739
-line_end: 37757
+line_start: 37785
+line_end: 37803
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,9 +59,9 @@ The recurring situation is simple: a sentence is understandable enough to feel w
 
 This pattern gives the current glossary and rewrite rules for terms around epistemes, publications, views, publication forms, generic publication faces, MVPK faces under E.17 constraints, carriers, records, and bounded publication units.
 
-It exists because episteme-publication-heavy texts can use locally convenient heads that collapse EntityOfConcern, publication unit, publication face, carrier, record, source relation, and project-side value. Those words may be useful recognition handles, but they are not safe FPF heads when they carry ontology, authority, or authority-changing meaning.
+It exists because episteme-publication-heavy texts can use locally convenient heads that collapse EntityOfConcern, publication unit, publication face, carrier, record, source relation, and project-side FPF kind and reference. Those words may be useful recognition handles, but they are not safe FPF heads when they carry ontology, authority, or authority-changing meaning.
 
-The rewrite discipline here is ontological and use-facing, not lexical; in this pattern the repair is bounded to episteme, publication, and source-use precision:
+The rewrite discipline here is ontological and use-facing, not lexical; in this pattern the repair is bounded to episteme, publication, source wording, and source-relation precision:
 - do not replace one broad token with one new broad token by string substitution;
 - first recover the FPF kind and relation set, whether the wording carries a claim, the publication, view, carrier, or relation construction, and any work, action, or authority crossing;
 - then choose the smallest wording that preserves the FPF-governed distinction without creating a second ontology.

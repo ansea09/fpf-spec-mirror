@@ -6,7 +6,7 @@ section_id: "A.15.1:15a"
 section_title: "P2W Performed-Work Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_p2w-performed-work-use-relation.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15a — P2W Performed-Work Use Relation"
@@ -53,7 +53,7 @@ keywords:
 
 ### A.15.1:15a - P2W Performed-Work Use Relation
 
-When `E.18.1` reaches performed work, `U.Work` states the dated occurrence: performer, method-description source, parameters, resources, time window, pre-state, post-state, outputs, outcome, and audit trace.
+When `E.18.1` reaches performed work, `U.Work` states the dated occurrence: performer, `methodDescriptionRef` when current, parameters, resources, time window, pre-state, post-state, outputs, outcome, and audit trace.
 
 A `U.Work` occurrence may cite a `U.WorkPlan`, `SlotFillingsPlanItem`, or prior `WorkEntryReadiness@Context` as planned baseline or pre-entry context. The performed-work record states launch values, performed values, substitutions, variance, telemetry, and result-related records; comparator, transport, `PrincipleFrame`, evidence, assurance, gate, and readiness claims are separate current relations when the carry-through record names them.
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_use-this-when.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:0 — Use This When"
-line_start: 32296
-line_end: 32324
+line_start: 32328
+line_end: 32356
 dependencies:
   - "A.1"
   - "A.14"
@@ -56,17 +56,17 @@ Typical moments:
 
 - a procedure, workflow, algorithm, pipeline, proof route, clinical protocol, manufacturing recipe, inference pipeline, or operational playbook has named steps or branches;
 - changing the order of two candidate submethods changes the result or the admissible conditions of use;
-- a source diagram or code file looks like a method, but it may be only a method description, a work plan, a dated work trace, a selector registry, or a mathematical lens;
+- a diagram or code file looks like a method, but it may be only a method description, a work plan, a dated work trace, a selector registry, or a mathematical lens;
 - a larger method must expose some interactions at its boundary while hiding internal steps;
 - assurance needs to know which joins, adapters, cutsets, or exposed interfaces make the composite method reliable enough to enact.
 
 **Primary EntityOfConcern.** The EntityOfConcern is an order-sensitive method-composition claim: a claim that recovered `U.Method` values form one composite `U.Method` under a bounded context.
 
-**First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, `MethodRelationStructure@BoundedContext`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quote-only source wording.
+**First useful move.** For each apparent step or branch, recover the governed object before composing anything: `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, `MethodRelationStructure@BoundedContext`, method-family registry or selector outcome, mathematical lens, mechanism, formal substrate, or quoted wording that does not yet carry a method claim.
 
 **What goes wrong if missed.** A flowchart becomes the method, a plan item becomes a submethod, an event log becomes proof that a method was enacted, an order edge becomes a part, or a registry of alternatives is treated as one composed method. Then work starts from a description or label whose method identity, joins, interfaces, and failure conditions were never recovered.
 
-**What this buys.** The project can admit a composite `U.Method` only when method parts, whole-forming relations, whole identity, interface exposure, assurance hooks, and enactment boundary are explicit. If that threshold is not met, the project still has a useful lower object: a selected method relation structure, description, plan, work record, lens, or source-restoration request.
+**What this buys.** The project can admit a composite `U.Method` only when method parts, whole-forming relations, whole identity, interface exposure, assurance hooks, and enactment boundary are explicit. If that threshold is not met, the project still has a useful lower object: a selected method relation structure, description, plan, work record, lens, or `A.15.4` appearance-based reliance repair request.
 
 **Not this pattern when.**
 

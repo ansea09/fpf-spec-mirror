@@ -6,12 +6,12 @@ section_id: "A.15.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__010_consequences.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:9 — Consequences"
-line_start: 23477
-line_end: 23489
+line_start: 23509
+line_end: 23521
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,5 +53,5 @@ Benefits:
 Costs:
 
 - Some "ready" claims become incomplete until the target work, missing inputs, and stop condition are named.
-- A full-kit record may expose preparation work that needs its own plan, source, evidence, and resource records.
+- A full-kit record may expose preparation work that needs its own plan, currentness, evidence, publication, and resource records.
 

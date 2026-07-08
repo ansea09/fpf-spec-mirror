@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 69810
-line_end: 69827
+line_start: 69891
+line_end: 69908
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -65,13 +65,13 @@ keywords:
 
 | Wording | Applicable result | Blocked overread |
 | --- | --- | --- |
-| "The architecture is the diagram." | `C.30.P` recovers whether the diagram is publication form, structure view, architecture description, source relation, or ordinary source cue; then `C.30` or `C.30.ASV` applies only after the selected architecture or structural-view use is recovered. | diagram-as-architecture; diagram-as-proof; diagram-as-gate. |
-| "`ArchitectureOf@PlantOps` is defined over structures S1 and S2 under context C." | Direct `C.30`; no `C.30.P` unless selected structure, architecture-description use, structural-view use, source use, model use, diagram use, graph use, dashboard use, or ordinary prose remains hidden. | unnecessary restoration detour. |
-| "The model has three layers." | `C.30.STRAT` treats `layers` as a source label until the recovered FPF kind, relation, claim-use, or source-use disposition is recovered: control-layer relation, neural-network block sequence, publication relation set, mathematical scale or coarse-graining relation, or ordinary source wording. Then the governing pattern applies to the recovered result. | layer-as-universal-kind; source label as proof of structure. |
+| "The architecture is the diagram." | `C.30.P` recovers whether the diagram is publication form, structure view, architecture description, source relation, or ordinary source-finding cue; then `C.30` or `C.30.ASV` applies only after the selected architecture or structural-view use is recovered. | diagram-as-architecture; diagram-as-proof; diagram-as-gate. |
+| "`ArchitectureOf@PlantOps` is defined over structures S1 and S2 under context C." | Direct `C.30`; no `C.30.P` unless selected structure, architecture-description use, structural-view use, source relation, model relation, diagram relation, graph relation, dashboard relation, or ordinary prose remains hidden. | unnecessary restoration detour. |
+| "The model has three layers." | `C.30.STRAT` treats `layers` as a source label until the recovered FPF kind, relation, claim-use, or source-relation disposition is recovered: control-layer relation, neural-network block sequence, publication relation set, mathematical scale or coarse-graining relation, or ordinary source wording. Then the governing pattern applies to the recovered result. | layer-as-universal-kind; source label as proof of structure. |
 | "The query plan calls the next pattern." | `C.2.P.DR` recovers whether the query plan is a representation, method description, formal substrate, evidence or provenance relation, or ordinary source wording; if a pattern relation is current, the relation is stated declaratively rather than as a call. | query-as-work sequence; pattern relation as invocation. |
 | "The evidence path authorizes release." | If a provenance relation for a claim is current, use `A.10`; if authorization or release is current, use the authority, gate, or release pattern. `C.2.P.DR` applies only when `path` wording turns the relation into an action route or permission. | evidence path as permission; graph relation as release. |
-| "The solver algorithm is the mechanism." | `A.3.1` first recovers whether the current slot is method, method description, formal substrate, mathematical-lens use, mechanism declaration or realization, work, evidence, or quote-only wording. Use `A.6.1` and `E.20` only when operation algebra, laws, admissibility predicates, transport, audit, or governing-definition assignment is current. | algorithm-as-default-method; method-as-mechanism by vocabulary. |
-| "This record is admissible." | Recover bearer, claim kind, source relation, value frame, admissible use, and governing pattern. Use `A.19.SPR` only if hidden state-family wording remains; otherwise use the direct evidence, gate, mechanism, temporal, authority, release, or source-use pattern. | admissible-as-generic status; pass-looking word as gate. |
+| "The solver algorithm is the mechanism." | `A.3.1` first recovers whether the current slot is method, method description, formal substrate, mathematical-lens use, mechanism declaration or realization, work, evidence, or quote-only wording. Use `A.6.1` and `E.20` only when operation algebra, admissibility rules, transport, audit, or governing-definition assignment is current. | algorithm-as-default-method; method-as-mechanism by vocabulary. |
+| "This record is admissible." | Recover bearer, claim kind, source relation, value frame, admissible use, and governing pattern. Use `A.19.SPR` only if hidden state-family wording remains; otherwise use the direct evidence, gate, mechanism, temporal, authority, release, or source-relation pattern. | admissible-as-generic status; pass-looking word as gate. |
 | "This score proves readiness." | `C.16.P` recovers characteristic, scale, value, score, threshold, comparison reference set, and gate, evidence, and decision pattern applications. | score-as-proof; score-as-release permission. |
 | "This source supports the claim." | `C.2.P` is used if source-currentness relation or publication relation set is current; relation slice applies `A.6.P`; final use states recovered relation or non-use disposition. | source-as-proof; support-as-generic relation. |
 | "Quality improved." | `C.16.Q` recovers quality characterization or evaluative characterization, or names the `C.16.P`, `C.25`, `E.21`, `A.6.P`, action, work, or bridge pattern application governing the recovered claim. | quality-as-one scalar; quality-as-gate. |

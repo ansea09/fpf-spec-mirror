@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69479
-line_end: 69488
+line_start: 69558
+line_end: 69567
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,9 +42,9 @@ keywords:
 
 | Anti-pattern | Why it fails | Better use |
 | --- | --- | --- |
-| Synonym replacement | "Move" becomes "action" or "use" without recovered kind. | Recover project concern, relation, and governing pattern first. |
+| Synonym replacement | "Move" becomes "action" or "use" without recovered kind. | Recover governed text span, claim being made, object under wording repair, relation, and governing pattern first. |
 | Imported MOVE kind | TameFlow source wording becomes FPF ontology. | Recover intended work, readiness, gate, preparation work, or performed work. |
 | Readiness as gate passage | A ready label becomes `GateDecision=pass`. | Use A.21 only when gate fields are present. |
-| Path as work-authorization route | Evidence or source path becomes a way to authorize work by resemblance. | Recover evidence, source, graph path, gate relation, work authorization, or deontic permission separately. |
+| Path as work-authorization route | Evidence path or source-reference path becomes a way to authorize work by resemblance. | Recover evidence relation, source relation, graph path, gate relation, work authorization, or deontic permission separately. |
 | Local move generalized | A.16, C.24, or C.30 local move wording is generalized to all project work. | Keep local loci local and use the direct governing pattern elsewhere. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__011_rationale.md"
-commit_sha: "f7c7e93f137a4691b390d46046428434e847099d"
+commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:10 — Rationale"
-line_start: 23490
-line_end: 23495
+line_start: 23522
+line_end: 23527
 dependencies:
   - "A.10"
   - "A.15"
@@ -46,5 +46,5 @@ keywords:
 
 The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer that question, but without a small readiness relation the same words pull in too many objects at once.
 
-`WorkEntryReadiness@Context` is deliberately dependent. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, B.1.6 resource relations, and source restoration while giving the practitioner one inspectable pre-work-entry record.
+`WorkEntryReadiness@Context` is deliberately dependent. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, B.1.6 resource relations, and A.15.4 appearance-based reliance repair while giving the practitioner one inspectable pre-work-entry record. A readiness record may cite an `A.15.4` repair result; it does not turn every missing input into a source problem.
 
