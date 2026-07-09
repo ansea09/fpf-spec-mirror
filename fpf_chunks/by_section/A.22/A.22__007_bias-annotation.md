@@ -6,12 +6,12 @@ section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:6 — Bias-Annotation"
-line_start: 31073
-line_end: 31086
+line_start: 31162
+line_end: 31175
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15"
   - "A.20"
   - "A.21"
+  - "A.22.CGUS"
   - "A.6.2"
   - "A.6.3"
   - "A.6.F"
@@ -49,6 +50,7 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.18.3"
   - "E.24"
   - "E.24.PUB"
   - "F.18"
@@ -73,7 +75,7 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
 | Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 remains the governing pattern for lens-use result, admissibility, and stop condition. |
 | Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. description, specification-use, and publication boundaries stay explicit. |
-| Review-only bias | Checks leave a repair action: name the structure, name the structure-claim reliance relation named by value, state a structural view, add a `SourceReturnCondition`, or apply the governing FPF pattern. |
+| Review-only bias | Checks leave a repair action: name the structure, name the structure-claim reliance relation record by value, state a structural view, add a `StructureUseReturnCondition`, or apply the governing FPF pattern. |
 | Didactic-thinning risk | Semantic repair does not leave inert prose. The recognition text keeps the first useful move and the practical payoff visible before the formal records. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.

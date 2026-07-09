@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.P2S"
-pattern_title: "Problem-to-Structure Architecturing Transformation Flow"
+pattern_title: "Problem-to-Structure Architecturing Unfolding"
 section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
+  - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 59691
-line_end: 59704
+line_start: 60279
+line_end: 60292
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22.CGUS"
   - "A.3.4"
   - "B.2"
   - "C.11"
@@ -49,16 +50,19 @@ dependencies:
   - "C.35"
   - "E.17"
   - "E.18"
+  - "E.18.3"
   - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
 keywords:
+  - "ArchitectureUnfoldingStructureUse@Project"
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
-  - "architecture work flow"
-  - "owner-specific return"
-  - "problem-to-structure architecturing flow"
+  - "candidate structures"
+  - "expected structures"
+  - "governing-pattern-specific return"
+  - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
 ---
@@ -67,13 +71,13 @@ keywords:
 
 **Tell.** A capable architect does not merely "document the architecture." The architect transforms pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling work that realizes the structures, and watching whether the actual holon has the intended architecture under operation.
 
-**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S card pass names the production cell as described holon, the operating shift as bounded context, pressure kind `actualStructureDivergesFromExpectedStructure`, first owner `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and neighboring owner `C.32`. The card does not yet add a PAD decision, work plan, or eval result; those refs appear only after their owners become current.
+**First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S card pass names the production cell as described holon, the operating shift as bounded context, pressure kind `actualStructureDivergesFromExpectedStructure`, first governing pattern `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and governing pattern for the next claim `C.32`. The card does not yet add a PAD decision, work plan, or eval result; those refs appear only after their governing patterns become current.
 
-**Lens-use slice.** If the plant team builds a DSM or epiplexity-style lens over stations, buffers, and routing events, P2S records only the architecture use: which dependency or learnable structural content was preserved, which flow distinction was compressed away, which selected structures the lens can inform, and which source-return condition sends the claim back to `C.29`. The lens result is not architecture adequacy, an eval result, or a decision.
+**Lens-use slice.** If the plant team builds a DSM or epiplexity-style lens over stations, buffers, and routing events, P2S records only the architecture use: which dependency or learnable structural content was preserved, which flow distinction was compressed away, which selected structures the lens can inform, and which lens-use return condition sends the claim back to `C.29`. The lens result is not architecture adequacy, an eval result, or a decision.
 
-**Show A - built asset and technical system.** A clinic has rising instrument-turnaround delays and infection-control pressure. The first P2S move does not ask for a better diagram. It names the described holon, bounded context, candidate structure kinds, architecture characteristics, and uncertainty: room layout, sterile and contaminated flows, equipment modules, tray interface, maintenance work, throughput, contamination isolation, maintainability, and surge adaptability. Candidate synthesis compares a centralized autoclave bay, distributed sterilization modules, and a reusable tray-interface change. `C.32.PAD` decides a selected configuration, `C.30.AD` and `C.32.ADR` publish the decision and views, A.15-family records guide construction and operating work, and operation measures actual turnaround, contamination events, maintenance burden, and source-return triggers.
+**Show A - built asset and technical system.** A clinic has rising instrument-turnaround delays and infection-control pressure. The first P2S move does not ask for a better diagram. It names the described holon, bounded context, candidate structure kinds, architecture characteristics, and uncertainty: room layout, sterile and contaminated flows, equipment modules, tray interface, maintenance work, throughput, contamination isolation, maintainability, and surge adaptability. Candidate synthesis compares a centralized autoclave bay, distributed sterilization modules, and a reusable tray-interface change. `C.32.PAD` decides a selected configuration, `C.30.AD` and `C.32.ADR` publish the decision and views, A.15-family records guide construction and operating work, and operation measures actual turnaround, contamination events, maintenance burden, and actual-structure feedback triggers.
 
-**Show B - organization and role/method holon.** An inspection practice catches ontological errors late. The described holon is a method and role arrangement, not a software module. Structure kinds include role boundaries, inspection steps, evidence handoffs, decision records, and live attention cues. Architecture characteristics include error containment, learnability, throughput, evidence reuse, and repair locality. Candidate synthesis compares a single checker role, a split intake and ontology-checking role, and a live-beat microstep method. The project architecture decision binds the selected role/method structure to method descriptions and readiness checks. Later inspection work and telemetry show whether errors are caught earlier or whether the method architecture needs repair.
+**Show B - organization and role/method structures.** Inspection work catches ontological errors late. The source may call the object a review practice, but P2S first restores the claim: the described holon is the review organization-as-system or bounded review-work context; the adjacent governed structures include role relation structure, method relation structure, method descriptions, evidence handoffs, decision records, and live attention cues. Architecture characteristics include error containment, learnability, throughput, evidence reuse, and repair locality. Candidate synthesis compares a single checker role assignment, a split intake and ontology-checking role relation structure, and a live-beat microstep method relation structure. The project architecture decision binds those selected structures to method descriptions and readiness checks. Later inspection work and telemetry show whether errors are caught earlier or whether the selected method-side or role-side structures need repair.
 
-**Show C - transformer and transformed co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence practice only support one tightly coupled build. P2S uses `C.32.CONWAY`: transformer-side structures and transformed-side product structures are both candidate variables. Candidate families include changing the product modules only, changing the team and toolchain only, changing both, or accepting a bounded mismatch while retaining source-return. The decision states which side changes now, what architecture characteristics are protected, what work realizes the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
+**Show C - transformer and transformed co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. P2S uses `C.32.CONWAY`: transformer-side structures and transformed-side product structures are both candidate variables. Candidate families include changing the product modules only, changing the team and toolchain only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what work realizes the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
 

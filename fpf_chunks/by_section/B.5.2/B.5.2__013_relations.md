@@ -6,15 +6,16 @@ section_id: "B.5.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__013_relations.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:12 — Relations"
-line_start: 36099
-line_end: 36110
+line_start: 36585
+line_end: 36597
 dependencies:
   - "A.10"
   - "A.16"
+  - "A.22.CGUS"
   - "A.6.P"
   - "B.3.3"
   - "B.4.1"
@@ -36,6 +37,7 @@ keywords:
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
 - **Produces:** hypothesis-bearing `U.Episteme` publications at `AssuranceLevel:L0`.
 - **Provides inputs for:** downstream deduction, probe design, and evidence acquisition in the reasoning cycle.
+- **Coordinates with:** `A.22.CGUS` when the abductive prompt, `B.4.1` cue publication, rival hypotheses, plausibility constraints, evidence-return loci, and downstream tests must be inspected as an `AbductiveSearchUnfoldingStructure`.
 
 #### B.5.2:12.1 - Prompt-entry broadening via `U.AbductivePrompt`
 

@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `c927fef1dac0f4d5f8ca93deef8a52de75e3f77b`
+Commit SHA: `d77339d7056433de3ee55ad863860ee4b3006f6f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `277`
+Patterns: `279`
 
 ## Patterns
 
@@ -92,6 +92,7 @@ Patterns: `277`
 - [A.20 — Flow Constraint Validity — Eulerian](by_pattern/A.20.md)
 - [A.21 — GateProfilization: OperationalGate(profile) (GateFit core)](by_pattern/A.21.md)
 - [A.22 — Structure and Structural Views (STRUCT-CAL)](by_pattern/A.22.md)
+- [A.22.CGUS — Constraint-Governed Unfolding Structure](by_pattern/A.22.CGUS.md)
 - [B.1 — Holon Aggregation and Part-Whole Construction](by_pattern/B.1.md)
 - [B.1.1 — Dependency Structure and Relation Grounding](by_pattern/B.1.1.md)
 - [B.1.2 — System Aggregation and Holon Delimitation](by_pattern/B.1.2.md)
@@ -175,7 +176,7 @@ Patterns: `277`
 - [C.31.RSA — Reusable Structure Accounting](by_pattern/C.31.RSA.md)
 - [C.31.ASAP — Architecture Scale-Amenability Preference](by_pattern/C.31.ASAP.md)
 - [C.32 — Architecture Candidate Synthesis](by_pattern/C.32.md)
-- [C.32.P2S — Problem-to-Structure Architecturing Transformation Flow](by_pattern/C.32.P2S.md)
+- [C.32.P2S — Problem-to-Structure Architecturing Unfolding](by_pattern/C.32.P2S.md)
 - [C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs](by_pattern/C.32.HCS.md)
 - [C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles](by_pattern/C.32.ACS.md)
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
@@ -185,7 +186,7 @@ Patterns: `277`
 - [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
 - [C.32.ADR — Architecture Decision Record Projection](by_pattern/C.32.ADR.md)
 - [C.32.ADA — Architecture Decision Adequacy Scales](by_pattern/C.32.ADA.md)
-- [C.33 — Structural Information Adequacy for Architecture Capture and Source Return](by_pattern/C.33.md)
+- [C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return](by_pattern/C.33.md)
 - [C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy](by_pattern/C.34.md)
 - [C.35 — Structural Synthesis and Discovery Adequacy](by_pattern/C.35.md)
 - [C.36 — Cultural Evolution and Cultural-Evolution Engineering](by_pattern/C.36.md)
@@ -241,6 +242,7 @@ Patterns: `277`
 - [E.18 — Transformation Flow Structure](by_pattern/E.18.md)
 - [E.18.1 — Principles-to-Work Carry-Through](by_pattern/E.18.1.md)
 - [E.18.2 — Transformation Flow Mathematical Description](by_pattern/E.18.2.md)
+- [E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure](by_pattern/E.18.3.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)

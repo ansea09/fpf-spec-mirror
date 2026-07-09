@@ -6,12 +6,12 @@ section_id: "B.1.1:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__008_bias-annotation.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:5.1 — Bias-Annotation"
-line_start: 31531
-line_end: 31539
+line_start: 31971
+line_end: 31979
 dependencies:
   - "A.1"
   - "A.10"

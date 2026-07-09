@@ -6,15 +6,16 @@ section_id: "B.5.2:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__017_authoring-and-review-guidance.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:16 — Authoring and Review Guidance"
-line_start: 36228
-line_end: 36256
+line_start: 36715
+line_end: 36743
 dependencies:
   - "A.10"
   - "A.16"
+  - "A.22.CGUS"
   - "A.6.P"
   - "B.3.3"
   - "B.4.1"
@@ -38,7 +39,7 @@ Authors should treat the abductive loop as a **selection discipline**, not as a 
 - what is the prompt,
 - what rival candidates were seriously considered,
 - why is one candidate currently the best live conjecture,
-- and what downstream use could expose that selection as right or wrong?
+- and what downstream move could expose that selection as right or wrong?
 
 If those answers cannot be given, the publication is probably not yet at `B.5.2` and should return to prompt-shaping or lexical repair.
 

@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 76813
-line_end: 77048
+line_start: 77580
+line_end: 77846
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,23 +54,54 @@ The solution has two parts: use the declarative carry-through structure below to
 
 #### E.18.1:4.0 - P2W Declarative Carry-Through Structure
 
-Use P2W as a declarative carry-through structure of relation-governed applications from an accepted `ProblemCard@Context` to accepted FPF applications. The structure is not a prescribed FPF-use procedure. It can be expressed as a graph-shaped description or joined with project method-description or work-plan material only when that description or plan is the current EntityOfConcern of a governed use: a `U.MethodDescription`, `U.WorkPlan`, `TransformationFlowStructure`, flow valuation, or `E.18.2` mathematical description. P2W itself shows which distinction can be preserved, which FPF relation is recovered, which record is written, which cue is stopped, and which earlier application reopens after a problem-side result becomes useful for work.
+Use P2W as a declarative carry-through structure of relation-governed applications from an accepted `ProblemCard@Context` to accepted FPF applications. The structure is not a prescribed FPF-use procedure. It can be expressed as a graph-shaped description or joined with a `U.MethodDescription` or `U.WorkPlan` only when that description or plan is the current EntityOfConcern of a governed use: a `U.MethodDescription`, `U.WorkPlan`, `TransformationFlowStructure`, flow valuation, or `E.18.2` mathematical description. P2W itself shows which distinction can be preserved, which FPF relation is recovered, which record is written, which cue is stopped, and which earlier application reopens after a problem-side result becomes useful for work.
 
-The carry-through structure has nine recurring loci. A concrete P2W application selects a carry-through slice: it may use one locus, branch into several applications, split one source-bearing wording span into several records, stop with a reduced-use cue, or reopen an earlier locus when measurement or source currentness changes.
+The carry-through structure has nine recurring loci. A concrete P2W application selects a carry-through slice: it may use one locus, branch into several applications, split one wording span from an admitted source publication or source-use record into several records, stop with a reduced-use cue, or reopen an earlier locus when measurement or `G.11` source-currentness relation changes.
 
 | Locus | Question answered | Output of the P2W application |
 |---|---|---|
-| `AcceptedProblemSideOutput` | What accepted problem-side material is being preserved for the next use? | Problem-card reference plus carried distinction. |
+| `AcceptedProblemSideRecordAndCarriedDistinction` | What accepted problem-side record or accepted `ProblemCard@Context`, and which carried distinction, are being preserved for the next use? | Problem-card reference plus carried distinction. |
 | `NextFPFUseQuestion` | What is the next unsettled FPF kind or relation? | One question stated in FPF vocabulary. |
 | `FirstPrinciplesLens` | What structure, invariant, loss, or payoff makes the next use worth formal treatment? | Preserved structure, lost structure, payoff, and stop condition. |
 | `DeclarationStack` | Which `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, ontology, CHR, measurement, normalization, or bridge relation is needed? | Declaration or reference to the declaration relation named by value. |
 | `MechanismMethodCandidate` | Is the next work-facing issue mechanism-position meaning, method-position meaning, method comparison, or retained-set handling? | Mechanism cue, method cue, comparison cue, selector cue, or retained-set cue. |
 | `TransformationTemporalAspect` | Is the next issue a bounded transformation under conditions, a temporal aspect of a governed object or claim, or the adequacy of an authored temporal claim? | `A.3.4`, `C.27.TA`, or `C.27` application. |
 | `WorkPreparation` | Is a planning record, planned slot-filling baseline, feasibility note, evidence-reference pin, or freshness request needed? | `U.WorkPlan`, PlanItem, or the `A.15.3` planned slot-filling ontic through `SlotFillingsPlanItem`. |
-| `PerformedWorkAndResult` | Has dated `U.Work` occurred, and what result-related records appeared? | Work occurrence plus unpacked artifact, telemetry, acceptance, measurement, source relation, or role-enactability relation. |
-| `ReturnAndRefresh` | Did measurement, source currentness, reference plane, or problem-side wording change an earlier assumption? | Return to the affected application with the changed relation named. |
+| `PerformedWorkAndResult` | Has dated `U.Work` occurred, and what result-related records appeared? | Work occurrence plus unpacked artifact, telemetry, acceptance, measurement, source-use relation, or role-enactability relation. |
+| `ReturnAndRefresh` | Did measurement, `G.11` source-currentness relation, reference plane, or problem-side wording change an earlier assumption? | Return to the affected application with the changed relation named. |
 
-P2W relation labels are `carry`, `recover`, `write`, `split`, `stop`, and `return`. `Carry` preserves a distinction from the problem side. `Recover` names the FPF kind or relation. `Write` creates or amends the governed record. `Split` separates one source-bearing wording span into several applications. `Stop` preserves a reduced-use cue when no relation-governed continuation is available. `Return` reopens the smallest earlier application whose assumption changed. These are carry-through relation labels for P2W use, not a project-work procedure.
+P2W relation labels are `carry`, `recover`, `write`, `split`, `stop`, and `return`. `Carry` preserves a distinction from the problem side. `Recover` names the FPF kind or relation. `Write` creates or amends the governed record. `Split` separates one wording span from an admitted source into several applications. `Stop` preserves a reduced-use cue when no relation-governed continuation is available. `Return` reopens the smallest earlier application whose assumption changed. These are carry-through relation labels for P2W use, not a project-work procedure.
+
+#### E.18.1:4.0a - P2W Unfolding Structure Block
+
+When the P2W use needs explicit unfolding structure, write the local block below or a filled equivalent. It references the current `E.18.3` transformation-flow unfolding structure because P2W carries accepted problem-side records through a transformation-flow slice toward one or more admissible next FPF uses.
+
+```text
+P2WUnfoldingStructureBlock:
+  unfoldingStructureRef: current ConstraintGovernedTransformationFlowUnfoldingStructure record
+  acceptedProblemCardRef:
+  principleOrDistinctionRefs[]:
+  carryThroughStructureRef:
+  governingPatternLoci[]:
+  admissibleNextForms[]:
+    patternUseRecommendation |
+    methodSelectionFrame |
+    mechanismRealizationFrame |
+    workPlanningSeed |
+    evaluationRefreshFrame |
+    returnToGoverningPatternRequest
+  methodWorkLinkageRef?:
+  evidenceOrGateLinkageRef?:
+  blockedOverread: not workflow, not performed work, not launch permission
+```
+
+`unfoldingStructureRef` names the current local structure record. If that record is also declared as a narrower A.22.CGUS specialization, that relation belongs in `specializedStructureRef?` on the A.22.CGUS record, not in this local block slot.
+
+`P2WUnfoldingStructureBlock` is a local `E.18.3` transformation-flow unfolding structure block governed here for principles-to-work carry-through use. It is not a root U-kind, not a workflow, not performed work, and not launch permission. `E.18.1` governs the carry-through relation among accepted problem-side records, distinctions, governing-pattern loci, and admissible next forms; method, work, evidence, gate, and currentness claims leave to their direct governing patterns.
+
+Use the block when a reader must see how accepted problem-side records constrain the next FPF use or use set. `acceptedProblemCardRef` or equivalent accepted problem-side record is mandatory: raw principles, attractive distinctions, source prose, or model outputs do not directly become work. `admissibleNextForms[]` tells what can be written next; it does not say that the project must execute a sequence.
+
+`methodWorkLinkageRef?` points to `MethodWorkUnfoldingLinkage@Context` only when the method-work relation itself must stay inspectable. If a next form is work-facing, exit to the A.15 family before claiming plan, readiness, launch, or performed work. If evidence or gate claims appear, exit to `A.10`, `B.3`, `A.20`, or `A.21`. If a `G.11` source-currentness relation or edition-decay claim changes the carry-through, use `G.11` for currentness and return to the smallest affected P2W locus.
 
 #### E.18.1:4.1 - Carry-through record
 
@@ -93,7 +124,7 @@ P2W carry-through record:
   SourceCurrentnessCheck: source-currentness repair and refresh reopen the measurement, normalization, planning, and method-comparison applications; the earlier U.Work occurrence is cited but not rewritten by P2W.
 ```
 
-`ProblemCardRef` and `CarriedDistinction` locate the accepted problem-side material and the distinction being carried. `NextFPFUseQuestion`, `P2WLocus`, and `RecoveredFPFKindOrRelation` keep the next FPF kind or relation explicit before a continuing carry-through relation is used. `SelectedApplication` and `WrittenRecordOrApplication` name what is used or written.
+`ProblemCardRef` and `CarriedDistinction` locate the accepted problem-side record and the distinction being carried. `NextFPFUseQuestion`, `P2WLocus`, and `RecoveredFPFKindOrRelation` keep the next FPF kind or relation explicit before a continuing carry-through relation is used. `SelectedApplication` and `WrittenRecordOrApplication` name what is used or written.
 
 `NotCarried` is a compact field, not a place to repeat boundary doctrine from other governing patterns. It names only the local overread that would change this P2W application. `StopCondition`, `ReturnTrigger`, and `SourceCurrentnessCheck` keep stopping and reopening tied to a changed relation, measurement, source-currentness, or problem-side assumption.
 
@@ -124,13 +155,13 @@ The record does not create a development-factory kind, portfolio kind, or archiv
 
 In development-for-developed work, cheap variant generation shifts effort toward problem production, characterization, archive stewardship, fair comparison, choice rule, decision record, autonomy boundary, trust and confidence use, evidence, assurance, performed work, effect measurement, currentness, and refresh. P2W keeps that shift usable by carrying the problem-side distinction into exactly one next relation instead of treating an archive, front, selected set, confidence phrase, or choice rule as work authorization.
 
-Source wording such as "trust budget" is recovered to existing FPF relations: evidence support, assurance-sensitive confidence use, gate or release conditions, source-currentness, autonomy boundaries, `A.15.5` work-entry readiness, or decision records. It is not a new `U.TrustBudget`.
+Source wording in an admitted source publication or source-use record, such as "trust budget", is recovered to existing FPF relations: evidence support, assurance-sensitive confidence use, gate or release conditions, source-currentness, autonomy boundaries, `A.15.5` work-entry readiness, or decision records. It is not a new `U.TrustBudget`.
 
 Field-compression map:
 
 | Development concern | Record field | Governing continuation |
 |---|---|---|
-| Problem factory or problem production | `ProblemCardRef` and `ImprovementConcern` | `C.22.2` when the problem statement, opportunity, anomaly, or accepted problem-side material is current. |
+| Problem factory or problem production | `ProblemCardRef` and `ImprovementConcern` | `C.22.2` when the problem statement, opportunity, anomaly, or accepted problem-side record is current. |
 | Solution variants, stepping stones, archives, or retained populations | `VariantSetOrArchiveRef` | `C.18` for archive, front, descriptor, retained-value, lineage, and generation records; `C.19` when live-pool or explore-exploit treatment is current. |
 | Acceptance criteria, descriptors, parity expressions, and value dimensions | `CharacteristicOrDescriptorSetRef` | `C.16` when a characteristic space, descriptor set, indicator expression, or acceptance expression is being selected or repaired. |
 | Fair comparison and front treatment | `ComparisonOrFrontRef` | `A.19.CPM` for comparison mechanism and `C.18` or `C.19` for front or pool records. |
@@ -143,13 +174,13 @@ Field-compression map:
 | Measurement, result, residual, and refresh | `EffectMeasurementRef` and `RefreshOrResidualTriageRef` | Measurement and result patterns by value, `G.11` for refresh or currentness, and the governing level-and-residual pattern when an interlevel residual is current. |
 
 #### E.18.1:4.1b - Development-for-developed first-minute slice
-For a fast DPF seed, use this slice to keep the seed-to-hardening carry-through readable without pretending that the seed is public-ready. The problem-side material may carry a domain question, a `G.2` record for source-bearing seed material or source-pack return, and a provisional framework purpose into `E.4.PFAD`, `E.4.PFR`, pattern seeds, quality evaluation, `E.23` improvement, and `G.11` currentness. P2W does not replace those governing patterns. It only preserves the carried distinction until the next governing relation is named.
+For a fast DPF seed, use this slice to keep the seed-to-hardening carry-through readable without pretending that the seed is public-ready. An admitted problem-side record or entry cue may carry a domain question, a `G.2` source-use record, a source `U.EpistemePublication` reference, a source-pack cue or source-pack return, and a provisional framework purpose into `E.4.PFAD`, `E.4.PFR`, pattern seeds, quality evaluation, `E.23` improvement, and `G.11` currentness. P2W does not replace those governing patterns. It only preserves the carried distinction until the next governing relation is named.
 
-Use this slice when a project source says that AI agents or cheap generators make solution variants easy while problem setting, characteristic choice, fair comparison, selected-set choice, and effect measurement become the expensive work.
+Use this slice when a project source publication or source-use record says that AI agents or cheap generators make solution variants easy while problem setting, characteristic choice, fair comparison, selected-set choice, and effect measurement become the expensive work.
 
 ```text
 DevelopmentLoopFirstApplicationRecord@Project:
-  ProblemCardRef: accepted problem-side material for the development cycle.
+  ProblemCardRef: accepted problem-side record for the development cycle.
   ImprovementConcern: what must become better, easier to change, easier to test, or more valuable.
   CharacteristicOrDescriptorSetRef: the characteristic, descriptor, indicator, acceptance, or parity expression being selected now.
   VariantSetOrArchiveRef: `C.18` archive, front, Q-front, or retained variant set.
@@ -193,18 +224,18 @@ If a source calls these "problem factory", "solution factory", or "factory of fa
 | Bounded transformation or temporal-aspect cue | Separate bounded transformation, temporal aspect, and temporal-claim adequacy. | `A.3.4` for bounded transformation, `C.27.TA` for temporal aspect, or `C.27` when authored temporal-claim adequacy or currentness-use is being made. |
 | Planning cue | Write or amend a planning record, plan item, evidence-reference pin, freshness request, or planned constraint. | `A.15.2 U.WorkPlan` or plan-item application. |
 | Dated performed `U.Work` | Record the work occurrence and relation to plan, gate, launch values, provenance, and later result records. | Performed-work application plus any separate entry or provenance relation. |
-| Result phrase | Split the phrase into artifact, resource, launch-value, telemetry, acceptance, measurement, source relation, quality, done-state, feedback, parity, refresh, or role-enactability relation. | One or more result-related applications. |
-| Changed measurement or source currentness | Return to the smallest earlier application whose assumption changed. | Measurement, normalization, source-currentness repair, refresh, planning, method-comparison, or problem-side correction. |
+| Result phrase | Split the phrase into artifact, resource, launch-value, telemetry, acceptance, measurement, source-use relation, quality, done-state, feedback, parity, refresh, or role-enactability relation. | One or more result-related applications. |
+| Changed measurement or `G.11` source-currentness relation | Return to the smallest earlier application whose assumption changed. | Measurement, normalization, source-currentness repair, refresh, planning, method-comparison, or problem-side correction. |
 
 #### E.18.1:4.3 - Locus Use Details
 
-Problem-side input: P2W starts only from accepted problem-side material. The record carries the distinction that matters for the next FPF use, not the whole problem-side pattern.
+Problem-side input: P2W starts only from an accepted problem-side record. The record carries the distinction that matters for the next FPF use, not the whole problem-side pattern.
 
-First-principles and declarations: mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, ontology, UTS, CHR, measurement, normalization, bridge, and `PrincipleFrame` material are handled as declaration-stack applications. The P2W record names which declaration or direct governing relation is being written or cited, what structure is preserved, what is lost, and which downstream relation is still unsettled.
+First-principles and declarations: mathematical-lens use, `U.Signature(profile=FormalSubstrate)`, ontology, UTS, CHR, measurement, normalization, bridge, and `PrincipleFrame` references are handled as declaration-stack applications. The P2W record names which declaration or direct governing relation is being written or cited, what structure is preserved, what is lost, and which downstream relation is still unsettled.
 
 When mathematical wording points both to a formal declaration and to a mathematical lens, P2W does not decide by vocabulary. Use the slot discipline in `A.6.0:10a.1`: `A.6.0` governs `U.Signature(profile=FormalSubstrate)` declaration, `C.29` governs mathematical-lens use, `A.6.1` governs mechanism consumption or realization, and `E.18.1` governs only the carry-through cue and next-relation selection.
 
-Mechanism and method: do not decide by noun. Recover the claim position. A mechanism-position claim names operation algebra, law set, applicability predicates, effect realization, or mechanism-description need. A method-position claim names a context-defined semantic way of doing work, candidate set, comparison, selector, retained set, or selected-record need. A shared source label, project-side name, or recognizable change concern may require linked method and mechanism typed values, but P2W records only which relation is being carried through and leaves the other typed value as a stopped cue unless its governing pattern is applied.
+Mechanism and method: do not decide by noun. Recover the claim position. A mechanism-position claim names operation algebra, law set, applicability predicates, effect realization, or mechanism-description need. A method-position claim names a context-defined semantic way of doing work, candidate set, comparison, selector, retained set, or selected-record need. A shared source label, project-side name, or recognizable change concern may require linked method value and mechanism-position value, but P2W records only which relation is being carried through and leaves the other candidate governed value as a stopped cue unless its governing pattern is applied.
 
 Transformation and temporal aspects: a problem-side distinction may point to a bounded transformation, a temporal aspect, and a temporal-claim adequacy question at once. Do not fold these into method, mechanism, plan, or work. `A.3.4` governs bounded transformation under conditions, including transformed object, pre-state, post-state, condition set, and admissible effect claim. `C.27.TA` governs temporal aspects such as interval, deadline, cadence, rhythm, synchronization, currentness window, recovery timing, or stabilization timing when the aspect itself is being named. `C.27` governs adequacy, supported use, unsupported use, or source-currentness use of authored temporal claims.
 
@@ -212,19 +243,19 @@ Planning and performed work: planning records are `A.15.2 U.WorkPlan` values or 
 
 Result carry-through: a result phrase is treated as a bundle of possible records. The P2W application is to unpack it before it guides any next FPF use.
 
-Structure, publication, function, module-interface, and integration cues: a transformation-flow structure, mathematical graph description, diagram, or publication can help classify the P2W application. Function wording continues only as an `A.6.F` function or functional-relation claim; interface, port, protocol, connection, resource limit, or integration wording continues only as a module-interface, signature-slot, reusable-structure, or architecture relation named by value through `A.6.M`, `A.6.5`, `C.31`, or the `C.30` family. Otherwise the wording remains classification material for the P2W record.
+Structure, publication, function, module-interface, and integration cues: a transformation-flow structure, mathematical graph description, diagram, or publication can help classify the P2W application. Function wording continues only as an `A.6.F` function or functional-relation claim; interface, port, protocol, connection, resource limit, or integration wording continues only as a module-interface, signature-slot, reusable-structure, or architecture relation named by value through `A.6.M`, `A.6.5`, `C.31`, or the `C.30` family. Otherwise the wording remains only a classification cue for the P2W record.
 
 #### E.18.1:4.4 - Boundary and relation discipline
 
 P2W is not a catalogue of boundary doctrines from other governing patterns. It has one local boundary rule: carry only the distinction accepted on the problem side, recover the next FPF kind or relation, and stop anything that would require a different governing relation until that relation is being made.
 
-| Source pressure | Local P2W decision | Continuation |
+| Cue or changed assumption | Local P2W decision | Continuation |
 |---|---|---|
-| Problem-side material | Carry only the accepted distinction and the next FPF-use question. | Continue when the next FPF kind or relation is named; otherwise stop before P2W begins. |
+| Accepted problem-side record or entry cue | Carry only the accepted distinction and the next FPF-use question. | Continue when the next FPF kind or relation is named; otherwise stop before P2W begins. |
 | First-principles or mathematical wording | State preserved structure, lost structure, payoff, and stop condition. | Continue only as mathematical-lens use or as a `U.Signature(profile=FormalSubstrate)` declaration when that relation is being made. |
 | Declaration-stack wording | Keep the declaration being made separate from measurement, normalization, comparison, ontology, or bridge relations. | Continue through the declaration relation that changes this P2W application. |
-| Work-facing, temporal, or result wording | Recover the concrete mechanism-position, method-position, bounded-transformation, temporal, planning, performed-work, or result-related relation. | Continue through the matching application; split one source-bearing wording span only when several relations are being made. |
-| Another governed relation appears inside the source-bearing wording span | Preserve the cue as source material, but do not import its governing rule into P2W. | Continue only through the relation that changes this P2W application; leave the other cue stopped until its governing relation is being made. |
+| Work-facing, temporal, or result wording | Recover the concrete mechanism-position, method-position, bounded-transformation, temporal, planning, performed-work, or result-related relation. | Continue through the matching application; split one wording span from an admitted source only when several relations are being made. |
+| Another governed relation appears inside the wording span from an admitted source | Preserve the cue as wording from the admitted source or as a source-pack cue, but do not import its governing rule into P2W. | Continue only through the relation that changes this P2W application; leave the other cue stopped until its governing relation is being made. |
 
 #### E.18.1:4.5 - Return and refresh rule
 
@@ -233,7 +264,7 @@ P2W can reopen earlier applications without becoming a required work procedure. 
 | Changed assumption | Smallest reopened application |
 |---|---|
 | measurement value, unit, scale, reference plane, or transport relation | measurement, normalization, bridge, or comparison application |
-| source record, source edition, source reference, or publication-use relation | work-relevant appearance-based reliance repair, publication-use, or refresh application |
+| changed source-use record, admitted reference-publication edition, source-pack reference, source-currentness relation, or publication-use relation | work-relevant appearance-based reliance repair, publication-use, `G.11` refresh, or the direct governing-pattern application named by the changed relation |
 | result artifact, telemetry, acceptance, done-state, or role-enactability record | result-related split plus the evidence named by value, measurement, quality, role, or refresh relation |
 | method set, comparator, selector, retained set, or selected record | method-comparison, selector, retained-set, or selected-record application |
 | problem-side statement or accepted carried distinction | problem-side correction in the problem-card application |
@@ -244,30 +275,30 @@ The earlier dated `U.Work` occurrence remains a dated occurrence. P2W may cite i
 
 Use this aid after the carry-through record when several cues compete for the continuing FPF application. It names the relation family P2W must recover before another pattern can govern the claim; pattern names for those families are listed once in `E.18.1:12`.
 
-| What the source-bearing wording span makes current | Relation to recover before continuation | Local P2W application |
+| What the wording span from an admitted source makes current | Relation to recover before continuation | Local P2W application |
 |---|---|---|
-| accepted problem-side distinction | accepted `ProblemCard@Context` material plus one unsettled next relation | State what is carried and what question remains. |
+| accepted problem-side distinction | accepted `ProblemCard@Context` or equivalent accepted problem-side record plus one unsettled next relation | State what is carried and what question remains. |
 | preserved or lost structure, invariant, near-sameness, formal payoff, or formal stop condition | mathematical-lens use or `U.Signature(profile=FormalSubstrate)` declaration | Name preserved structure, lost structure, payoff, and stop condition. |
 | postulate, observability, unit, plane, comparator, threshold, ontology edition, CHR edition, normalization, bridge, or measurement | the declaration or measurement-family relation being made | Write or cite only that relation. |
 | mechanism position, method position, method candidate set, comparator, selector, retained set, or selected record | the mechanism, method, comparison, selector, retained-set, or selected-record relation being made | Keep these relation positions distinct and continue only through the recovered one. |
 | bounded transformation, temporal aspect, dynamics episteme, or temporal supported-use claim | `A.3.4`, `C.27.TA`, `A.3.3`, or `C.27` relation according to the claim being made | Split one phrase when it carries several of these relations. |
 | planning record, plan item, performed work, launch value, result artifact, telemetry, acceptance, measurement, refresh, or role enactability | `A.15.2 U.WorkPlan`, plan-item, dated `U.Work`, or the result-related relation being made | Write or cite the record being made; do not let generic result wording guide the next FPF use. |
-| structure, transformation-flow cue, diagram, scenario, view, graph expression, publication, module-interface, function, evidence-looking, gate-looking, or decision-looking wording | the relation named by value in the source-bearing wording span, or no continuation if none is recoverable | Use the material only as classification until the relation is recovered. |
+| structure, transformation-flow cue, diagram, scenario, view, graph expression, publication, module-interface, function, evidence-looking, gate-looking, or decision-looking wording | the relation named by value in the wording span from the admitted source, or no continuation if none is recoverable | Use the wording span only as classification until the relation is recovered. |
 
 #### E.18.1:4.7 - Lowering and reopen block
 
-Use this block when the carry-through record cannot preserve and continue the stronger-looking cue from source material. P2W succeeds when it leaves one relation-governed application. If the application is not recoverable by value, lower the cue, stop, or reopen the smallest affected application.
+Use this block when the carry-through record cannot preserve and continue the stronger-looking cue from a wording span in an admitted source or from a source-pack cue. P2W succeeds when it leaves one relation-governed application. If the application is not recoverable by value, lower the cue, stop, or reopen the smallest affected application.
 
 | Claim family | Lowering or stop condition | Reopened or continuing relation |
 |---|---|---|
-| Problem-side material | No accepted `ProblemCard@Context`, or the accepted problem-side statement changes the carried distinction. | Stop before P2W begins, or return to the problem-side record named by value that changed. |
-| First-principles, mathematical, formal, or declaration-stack claim | Preserved structure, lost structure, payoff, stop condition, declaration relation, measurement relation, normalization relation, bridge relation, or comparison relation cannot be named. | Lower to a reduced-use cue from source material; continue only after the recovered declaration, mathematical-lens, measurement, normalization, bridge, or comparison relation is being made. |
-| Mechanism, method, selected-set, transformation, temporal, dynamics, planning, performed-work, or result claim | The source-bearing wording span blurs relation positions that change different P2W applications. | Split to the recovered relation and continue only through that relation. |
-| Another governed relation is only signaled by a label, diagram, port, module-interface phrase, publication, view, approval word, readiness word, or wording phrase | The source material classifies a possible relation but does not name the relation being made. | Preserve the cue and stop local continuation until the governed relation is recoverable by value. |
+| Accepted problem-side record or entry cue | No accepted `ProblemCard@Context`, or the accepted problem-side statement changes the carried distinction. | Stop before P2W begins, or return to the problem-side record named by value that changed. |
+| First-principles, mathematical, formal, or declaration-stack claim | Preserved structure, lost structure, payoff, stop condition, declaration relation, measurement relation, normalization relation, bridge relation, or comparison relation cannot be named. | Lower to a reduced-use cue from the wording span in the admitted source or from a source-pack cue; continue only after the recovered declaration, mathematical-lens, measurement, normalization, bridge, or comparison relation is being made. |
+| Mechanism, method, selected-set, transformation, temporal, dynamics, planning, performed-work, or result claim | The wording span from the admitted source blurs relation positions that change different P2W applications. | Split to the recovered relation and continue only through that relation. |
+| Another governed relation is only signaled by a label, diagram, port, module-interface phrase, publication, view, approval word, readiness word, or wording phrase | The wording span from the admitted source classifies a possible relation but does not name the relation being made. | Preserve the cue and stop local continuation until the governed relation is recoverable by value. |
 
 #### E.18.1:4.8 - Replay and currentness record
 
-Use this compact record after source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side material, FPF pattern change, or a use-found defect. The record keeps replay local: it says what changed, what still carries, what no longer carries, and which application reopens.
+Use this compact record after `G.11` source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side record, FPF pattern change, or a use-found defect. The record keeps replay local: it says what changed, what still carries, what no longer carries, and which application reopens.
 
 ```text
 P2W replay and currentness check:
@@ -282,5 +313,5 @@ P2W replay and currentness check:
   NextFPFUse:
 ```
 
-`ChangedAssumptionKind` names the assumption kind, such as measurement, unit, reference plane, source record, problem-side statement, method set, comparator, module-interface relation, publication-use relation, or FPF pattern change. `StillCarried` and `NoLongerCarried` prevent a source-currentness change from silently rewriting the whole carry-through slice. `SmallestReopenedApplication` keeps the repair local, and `NextFPFUse` states whether to continue, stop, split, lower to a reduced-use cue, or return to the problem-side pattern.
+`ChangedAssumptionKind` names the assumption kind, such as measurement, unit, reference plane, source-use record, source-currentness relation, problem-side statement, method set, comparator, module-interface relation, publication-use relation, or FPF pattern change. `StillCarried` and `NoLongerCarried` prevent a source-currentness change from silently rewriting the whole carry-through slice. `SmallestReopenedApplication` keeps the repair local, and `NextFPFUse` states whether to continue, stop, split, lower to a reduced-use cue, or return to the problem-side pattern.
 

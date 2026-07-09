@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 79322
-line_end: 79346
+line_start: 80357
+line_end: 80382
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -40,15 +40,16 @@ keywords:
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
+| `A.22.CGUS` | Supplies the unfolding structure for improvement loops when object version, evaluation frame, candidate repair loci, protected tradeoffs, expected movement, and loop decision must be inspected together. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
-| `G.2` | Governs source-use and source-pack return before source-bearing DPF seeds, agent-practice claims, or source-composed improvement claims can be used as evidence. |
+| `G.2` | Governs source-use and source-pack return before DPF seeds based on source-use records, admitted source publications, agent-practice claims, or source-composed improvement claims can be used as evidence. |
 | `F.18` | Supplies durable-name evaluation for naming loops. |
 | `C.25`, `C.16.Q` | Govern engineering quality bundles and quality-word precision repair. |
 | `C.19.1` | Governs BLP and cost and risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE and NQD candidate characteristics, archive, front, pool, selected set, parity, and refresh. |
-| `E.18` | Governs cyclic transformation-flow structures, paths, gates, and slice-local refresh; a cyclic selected structure is not a quality-improvement method unless an object version is changed and re-evaluated under `E.23`. |
-| `E.18.1` | Carries accepted problem-side or generated seed material toward the next FPF relation, including DPF seed-to-hardening routes before a quality-improvement loop is ready. |
+| `E.18` | Governs cyclic transformation-flow structures, paths, gates, and slice-local refresh; a cyclic transformation-flow structure is not a quality-improvement method unless an object version is changed and re-evaluated under `E.23`. |
+| `E.18.1` | Carries accepted problem-side records or generated seed records toward the next FPF relation, including DPF seed-to-hardening routes before a quality-improvement loop is ready. |
 | `E.4.DPF` | Governs DPF authoring routes and publication carriers when a fast local framework seed is the object being carried toward use or admission. |
 | `E.4.PFAD`, `E.4.PFR` | Govern framework architecture decisions and framework relation records; `E.23` may improve a declared artifact version but does not decide those framework slots. |
 | `A.21` | Governs gate-decision publication; monitoring, retry, escalation, or a green harness state does not publish gate passage unless an `OperationalGate(profile)` gate-decision relation is present. |

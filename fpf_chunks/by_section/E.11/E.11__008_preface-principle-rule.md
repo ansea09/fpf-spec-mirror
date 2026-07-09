@@ -6,12 +6,12 @@ section_id: "E.11:4.2"
 section_title: "Preface Principle Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__008_preface-principle-rule.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4.2 — Preface Principle Rule"
-line_start: 70719
-line_end: 70759
+line_start: 71459
+line_end: 71499
 dependencies:
   - "E.10"
   - "E.10.ARCH"
@@ -68,5 +68,5 @@ A conforming Preface:
 - shows how the first-entry scenarios are grounded in real concepts, not only how they are distributed across patterns;
 - can be understood before the reader has studied the pattern bodies, even though the pattern bodies remain the source of exact governance.
 
-FPF-specific terms such as `EntityOfConcern`, `episteme`, `publication form`, `carrier`, `viewpoint`, `DRR`, `math lens`, `FormalSubstrate`, `NQD`, `OEE`, `Plain`, or `Tech` may appear in the Preface only when the ordinary engineering distinction is already visible or immediately glossed. A Preface paragraph that cannot be understood without prior FPF vocabulary is not yet in Preface style, even if every term is technically lawful.
+FPF-specific terms such as `EntityOfConcern`, `episteme`, `publication form`, `carrier`, `viewpoint`, `DRR`, `math lens`, `FormalSubstrate`, `NQD`, `OEE`, `Plain`, or `Tech` may appear in the Preface only when the ordinary engineering distinction is already visible or immediately glossed. A Preface paragraph that cannot be understood without prior FPF vocabulary is not yet in Preface style, even if every term is technically admissible.
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Source Return"
+pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
 section_id: "C.33:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__013_relations.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
+  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:12 — Relations"
-line_start: 62193
-line_end: 62199
+line_start: 62788
+line_end: 62794
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -38,12 +38,13 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured structure"
+  - "captured selected structure"
   - "carrier"
   - "lost structure"
+  - "missing structure"
+  - "missing-structure return"
   - "observer boundary"
   - "selected structure"
-  - "source return"
   - "structural information adequacy"
 ---
 
@@ -52,5 +53,5 @@ keywords:
 - **Builds on:** `A.22`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.32.P2S`, and `C.32`.
 - **Uses:** `C.29` when a mathematical lens exposes or compresses structure; `C.16`, `C.25`, and `C.32.ACE` when a claim about captured or lost structure is recorded as a measurement, Q-bundle slot, criterion, or eval reading.
 - **Coordinates with:** `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `A.6.3.NAR`, `C.31`, `C.31.ASAP`, `C.32.PAD`, `C.32.ADR`, `G.5`, `C.18`, `C.19`, `E.18`, `F.9`, and `F.15`.
-- **Boundary:** C.33 governs structure-capture adequacy and source return for a declared architecture use. It does not ground architecture, select candidates, decide projects, publish records, measure values, supply evidence or assurance, authorize work, or claim realization.
+- **Boundary:** C.33 governs structure-capture adequacy and missing-structure return for a declared architecture use. It does not ground architecture, select candidates, decide projects, publish records, measure values, supply evidence or assurance, authorize work, or claim realization.
 

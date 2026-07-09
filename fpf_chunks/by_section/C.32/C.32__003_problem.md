@@ -6,12 +6,12 @@ section_id: "C.32:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__003_problem.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:2 — Problem"
-line_start: 59331
-line_end: 59344
+line_start: 59863
+line_end: 59876
 dependencies:
   - "A.10"
   - "A.15"
@@ -70,7 +70,7 @@ Architecture synthesis is the constructive middle of architecture work. A practi
 
 The typical synthesis problem is multi-structure. Required functions or effects must be borne by candidate modules, roles, work methods, control relations, transformation-flow structures, placement structures, information structures, or evidence structures. A control relation can improve supervision while increasing timing or accountability burden; an information structure can improve maintenance access when exposed through a digital-twin view while still hiding source-return loss; a team structure can improve flow while failing to match module or deployment structure.
 
-A functional architecture is not enough by itself. A function graph, use case decomposition, workflow, neural cell graph, method step, or cultural practice function can enter architecture synthesis only after a possible bearer is named. If no admitted module, role, method, resource, placement, control relation, or evidence structure can carry the required function under current constraints, the candidate must be repaired before it enters comparison, selection, local choice, or decision work.
+A functional architecture is not enough by itself. A function graph, use case decomposition, workflow, neural cell graph, method step, or culture/practice source function can enter architecture synthesis only after a possible bearer or selected structure is named and the source label has been restored. If no admitted module relation, role assignment or role relation structure, method relation structure or method description, resource, placement, control relation, work relation, or evidence structure can carry the required function under current constraints, the candidate must be repaired before it enters comparison, selection, local choice, or decision work.
 
 The typical synthesis problem is also multi-characteristic. Architecture characteristics such as cohesion, coupling, substitutability, evidence reuse, work repeatability, latency, locality, control separation, source-return cost, and composite quality families often compete. Functional demands describe what the holon is to do; architecture characteristics describe whether the selected structures make those demands maintainable, controllable, evolvable, replaceable, inspectable, and otherwise acceptable in the current context.
 

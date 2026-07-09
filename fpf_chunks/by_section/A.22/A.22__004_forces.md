@@ -6,12 +6,12 @@ section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:3 — Forces"
-line_start: 30836
-line_end: 30846
+line_start: 30919
+line_end: 30929
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15"
   - "A.20"
   - "A.21"
+  - "A.22.CGUS"
   - "A.6.2"
   - "A.6.3"
   - "A.6.F"
@@ -49,6 +50,7 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.18.3"
   - "E.24"
   - "E.24.PUB"
   - "F.18"
@@ -69,7 +71,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | First-principles structure EntityOfConcern vs ontology inflation | FPF needs a reusable selected-structure EntityOfConcern for relations, constraints, invariants, variation classes, preserved organization, and lost organization, but adding one such EntityOfConcern can accidentally invite many false root kinds. |
-| Useful compression vs source return | Structure makes work easier by compressing cases, but a source-return condition is needed when compression, extraction, coarsening, source-description reuse, base-dependence reuse, grounding reuse, evidence reuse, lens reuse, simulation reuse, or representation reuse hides a distinction needed for action. |
+| Useful compression vs structure-use return | Structure makes work easier by compressing cases, but a `StructureUseReturnCondition` is needed when compression, extraction, coarsening, source-description reuse, base-dependence reuse, grounding reuse, evidence reuse, lens reuse, simulation reuse, or representation reuse hides a distinction needed for action. |
 | Description and view usability vs structure confusion | Descriptions and views make structure inspectable, but a useful view can be mistaken for the structure itself. |
 | Mathematical-lens application vs mathematical overread | C.29 lenses can expose structure, but lens output does not become the structure and does not license evidence, causal, assurance, or decision claims by itself. |
 | Architecture dependency vs architecture takeover | Architecture uses selected structure through `C.30`; A.22 does not import architecture as its parent or make every structure an architecture. |

@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:4 — Solution"
-line_start: 40368
-line_end: 40459
+line_start: 40855
+line_end: 40959
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -98,6 +98,19 @@ The note records the local repair long enough to make the next governing pattern
 `A.10 evidence path for <claim, effect, or use>` is legitimate when the evidence relation or provenance relation for the named claim, effect, or reliance use is current. `E.18` graph path and `PathSlice` are legitimate when the graph object, path, slice, crossing, or flow valuation is current. Carrier file paths, URLs, mathematical paths, and quoted source paths are legitimate when their notation, source-use function, or use relation is current.
 
 The defect is not the word. The defect is hidden ontology: the sentence treats a representation as if something literally ran, flowed, executed, authorized, released, proved, selected, or prescribed action without the governing kind named by value.
+
+When the representation is route-shaped, loop-shaped, graph-shaped, diffusion-like, or workflow-like, ask first which object is current:
+
+| Current object | Governing pattern |
+| --- | --- |
+| constraint-governed `U.Structure` across several constrained loci | `A.22.CGUS` |
+| transformation-flow structure, path, path slice, crossing, guard, or valuation | `E.18` and `E.18.3` when unfolding use is current |
+| description, diagram, table, graph, route card, slide, README line, or narrative that renders the structure | `ConstraintGovernedUnfoldingStructureDescription@Context`, `DemonstrativeUnfoldingSlice@Context`, `A.6.3.NAR`, `E.17`, or the direct description governing pattern |
+| method or method description | `A.3.1` or `A.3.2` |
+| work plan, work readiness, or performed work | A.15 family |
+| evidence, assurance, gate, decision, architecture, publication, or currentness-refresh claim | the direct governing pattern for that claim |
+
+Do not repair route-shaped wording by replacing it with another route-shaped word. The repair succeeds only when the representation, represented EntityOfConcern or claim, preserved and lost structure, admissible use, blocked overread, and direct governing pattern are recoverable.
 
 #### C.2.P.DR:4.4 - Method, algorithm, mechanism, and work-slot settlement
 

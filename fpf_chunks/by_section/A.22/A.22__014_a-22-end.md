@@ -6,12 +6,12 @@ section_id: "A.22:End"
 section_title: "A.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__014_a-22-end.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:End — A.22:End"
-line_start: 31151
-line_end: 31154
+line_start: 31241
+line_end: 31242
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15"
   - "A.20"
   - "A.21"
+  - "A.22.CGUS"
   - "A.6.2"
   - "A.6.3"
   - "A.6.F"
@@ -49,6 +50,7 @@ dependencies:
   - "E.17.0"
   - "E.17.1"
   - "E.18"
+  - "E.18.3"
   - "E.24"
   - "E.24.PUB"
   - "F.18"
@@ -65,6 +67,4 @@ keywords:
 ---
 
 ### A.22:End
-
-# **Part B — Trans-disciplinary Reasoning Cluster**
 

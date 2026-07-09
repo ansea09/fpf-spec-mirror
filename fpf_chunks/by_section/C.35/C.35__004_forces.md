@@ -6,12 +6,12 @@ section_id: "C.35:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__004_forces.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:3 — Forces"
-line_start: 62456
-line_end: 62466
+line_start: 63055
+line_end: 63065
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -56,8 +56,8 @@ keywords:
 | --- | --- |
 | Discovery value vs authority overread | Generated and discovered outputs widen the candidate space, but cannot select, decide, prove, or realize architecture by themselves. |
 | Carrier vs described structure | A diagram, query result, graph, cluster, model, or proposal is a produced carrier or description; the selected structure it describes must be recovered. |
-| Search quality vs architecture adequacy | A Pareto point, benchmark score, archive member, or cluster objective can guide synthesis only through declared structures, criteria, losses, and receiving owners. |
+| Search quality vs architecture adequacy | A Pareto point, benchmark score, archive member, or cluster objective can guide synthesis only through declared structures, criteria, losses, and receiving governing patterns. |
 | Model transformation vs preservation | Graph grammars and model transformations can produce useful carriers only when transformation rules, preserved structure, and lost structure are recoverable. |
 | Bearer feasibility | A function or relation found by search matters architecturally only when an admitted bearer can carry it under constraints. |
-| Reusable generator boundary | One-case generated output stays with C.35 and the receiving owner; reusable generator or mechanism-suite governance needs a later owner. |
+| Reusable generator boundary | One-case generated output stays with C.35 and the receiving governing pattern; reusable generator or mechanism-suite governance needs a later governing pattern. |
 

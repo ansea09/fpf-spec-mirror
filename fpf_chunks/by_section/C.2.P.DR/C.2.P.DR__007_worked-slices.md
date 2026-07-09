@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 40460
-line_end: 40548
+line_start: 40960
+line_end: 41048
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ Repair:
 DeclarativeRepresentationRepair:
   EncounteredRepresentation: P2W path or path slice in a selected TransformationFlowStructure
   RepresentationKind: graph path or PathSlice candidate under E.18 and E.18.1
-  RepresentedEntityOfConcernOrClaim: carry-through relation from accepted problem-side material to next FPF kind named by value
+  RepresentedEntityOfConcernOrClaim: carry-through relation among accepted problem-side records, candidate next FPF kinds or records, and governing-pattern returns named by value
   SourceOrPublicationRelation: current graph or pattern publication when relevant
   TemptingImperativeOverread: ordered work route for the team
   RecoveredGoverningPattern: E.18.1, with A.15.2 or A.15.1 only if planned or dated work is current

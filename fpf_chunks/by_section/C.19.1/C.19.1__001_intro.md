@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 46328
-line_end: 46357
+line_start: 46839
+line_end: 46868
 dependencies:
   - "A.0"
   - "B.3"
@@ -41,14 +41,14 @@ keywords:
 ## C.19.1 - Bitter‑Lesson Preference (BLP)
 
 **One‑screen purpose (manager‑first).**
-Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable solution bearers for admitted holons**. A scale-amenable bearer may be a method, module, platform, system, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure that improves with more data, compute, capacity, usable resources, reuse, or freedom of action. Prefer it over bespoke narrow heuristics when safety, guard-rail fit, and admissibility are comparable. Exceptions require a transparent **Scale‑Audit** under the parity harness.
+Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable solution bearers for work on admitted holons**. A scale-amenable bearer may be a method family, module relation, platform, system, agent substrate, organization design, evidence-bearing episteme/work arrangement, or selected structure of an admitted holon that improves with more data, compute, capacity, usable resources, reuse, or freedom of action. The bearer kind and governing owner must be named; a method family, role label, practice label, or culture label is not made a holon merely because it is compared as a bearer. Prefer the general bearer over bespoke narrow heuristics when safety, guard-rail fit, and admissibility are comparable. Exceptions require a transparent **Scale‑Audit** under the parity harness.
 
 **Builds on.** C.19 (E and E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).
 **Keywords.** general-solution preference; scale‑amenability; **BLP‑waiver**; iso‑scale parity; **Scale‑Audit**; slope vector; **alpha and delta tolerances**.
 
 **Use this when.**
-Use `C.19.1` when a project prefers a narrower special-purpose solution over a more general scale-amenable bearer, or when it claims that a general bearer should be preferred because it scales. In architecture synthesis, this includes a universal module, platform, reusable method family, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure proposed to carry more functions or improve with scale. `C.19.1` supplies comparison and waiver discipline; it does not make the candidate architecture adequate.
+Use `C.19.1` when a project prefers a narrower special-purpose solution over a more general scale-amenable bearer, or when it claims that a general bearer should be preferred because it scales. In architecture synthesis, this includes a universal module relation, platform, reusable method family, agent substrate, organization design, evidence-bearing episteme/work arrangement, or selected structure of an admitted holon proposed to carry more functions or improve with scale. `C.19.1` supplies comparison and waiver discipline; it does not make the candidate architecture adequate and does not admit the bearer as a holon by label.
 
 When `E.23` selects between a general adaptive agent loop, a specialized object-family cycle, a simpler direct repair, or a reusable harness substrate, `C.19.1` governs only the scale-amenability and waiver claim. The `E.23` loop still must name the object under improvement, evaluation, cost and risk account, protected trade-offs, and stop or switch condition.
 

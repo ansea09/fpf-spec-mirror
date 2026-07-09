@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Source Return"
+pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
 section_id: "C.33:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__011_rationale.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
+  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:10 — Rationale"
-line_start: 62174
-line_end: 62181
+line_start: 62769
+line_end: 62776
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -38,20 +38,21 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured structure"
+  - "captured selected structure"
   - "carrier"
   - "lost structure"
+  - "missing structure"
+  - "missing-structure return"
   - "observer boundary"
   - "selected structure"
-  - "source return"
   - "structural information adequacy"
 ---
 
 ### C.33:10 - Rationale
 
-Architecture work often starts from carriers that are neither useless nor complete. A mature pattern must preserve both facts. If C.33 only says "do not confuse the carrier with architecture," it becomes a negative catalogue. If it treats every carrier as an architecture description or measurement, it duplicates C.30, C.16, and C.32.ACE. The chosen solution is a small adequacy note whose center is captured selected structure, lost structure, admissible use, and source return.
+Architecture work often starts from carriers that are neither useless nor complete. A mature pattern must preserve both facts. If C.33 only says "do not confuse the carrier with architecture," it becomes a negative catalogue. If it treats every carrier as an architecture description or measurement, it duplicates C.30, C.16, and C.32.ACE. The chosen solution is a small adequacy note whose center is captured selected structure, lost structure, admissible use, and missing-structure return.
 
-This split keeps P2S as the whole architecturing spine and C.32 as candidate synthesis owner. C.33 does not synthesize architecture and does not decide the project architecture. It gives the next owner a typed account of what a carrier contributes and what must still be recovered.
+This split keeps P2S as the whole architecturing spine and C.32 as candidate synthesis governing pattern. C.33 does not synthesize architecture and does not decide the project architecture. It gives the receiving governing pattern a typed account of what a carrier contributes and what must still be recovered.
 
 The source choices explain the fields. Epiplexity motivates observer-bounded structural information but not a universal architecture metric. Multi-relational structural entropy motivates relation-kind awareness but not adequacy by number. Sapunov and ToCS motivate partial observability, active-passive gap, invariant fields, confidence, and unexplored regions. GonzoML motivates richer neural architecture operation language without making those labels FPF ontology.
 

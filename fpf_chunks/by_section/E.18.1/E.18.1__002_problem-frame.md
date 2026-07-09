@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 76768
-line_end: 76795
+line_start: 77535
+line_end: 77562
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is not yet settled. The practitioner has an unsettled carry-through question: which problem-side distinction can be carried into the next FPF relation or record named by value?
 
-The primary EntityOfConcern is the P2W carry-through relation: the relation between accepted problem-side material and the next FPF use whose governing relation can be named by value. P2W keeps first-principles material usable by turning it into one recoverable next FPF use instead of letting an inspiring explanation become an all-purpose project claim.
+The primary EntityOfConcern is the P2W carry-through relation: the relation between an accepted problem-side record and the next FPF use whose governing relation can be named by value. P2W keeps a carried distinction usable by turning it into one recoverable next FPF use instead of letting an inspiring explanation become an all-purpose project claim.
 
 #### E.18.1:1.1 - Use this when
 

@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Assign Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_solution-assign-each-entry-publication-unit-one-job.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Assign Each Entry Publication Unit One Job"
-line_start: 70644
-line_end: 70660
+line_start: 71286
+line_end: 71304
 dependencies:
   - "E.10"
   - "E.10.ARCH"
@@ -36,7 +36,7 @@ Use this distribution.
 | Publication unit | Job | Not its job |
 | --- | --- | --- |
 | FPF `readme` section | Public first-entry scenarios for working projects; plain explanation of what FPF is and where it helps first. | Pattern authority, conformance rules, full ToC, internal governance evidence, or duplicate pattern body. |
-| `Preface` | Plain-engineering narrative explaining why the first-entry scenarios are credible: transdisciplinarity, local closure, holons, EntityOfConcern and description, multi-view publication, architecture as structure, epiplexity, first-principles-to-work, mathematical modeling and FormalSubstrate distinctions, ontology-first repair, evidence/assurance boundaries, characteristic spaces, NQD/OEE, state of the art, didactic primacy, and FPF as a whole project with companion explanations and tools. | Repeating the scenario table, defining a second entry index, serving as conformance authority, or requiring prior FPF vocabulary before the idea is understandable. |
+| `Preface` | Plain-engineering narrative explaining why the first-entry scenarios are credible: transdisciplinarity, local closure, holons, EntityOfConcern and description, multi-view publication, architecture as structure, epiplexity, first-principles-to-work, mathematical modeling and FormalSubstrate distinctions, ontology-first repair, evidence and assurance boundaries, characteristic spaces, NQD/OEE, state of the art, didactic primacy, and FPF as a whole project with companion explanations and tools. | Repeating the scenario table, defining a second entry index, serving as conformance authority, or requiring prior FPF vocabulary before the idea is understandable. |
 | Table of Content | Search-oriented pattern overview: id, title, admission state, keywords, query phrases, dependencies. | Public first-entry explanation or durable pattern semantics. |
 | Pattern `Problem frame` | High-precision local recognition text for that pattern's own EntityOfConcern and first useful action. | A related-pattern fanout list, package-placement rationale, or first-entry index. |
 | `I.2` or other expanded cases | Longer entry-disambiguation cases only when compact first-entry scenarios and pattern Problem frames are insufficient. | Tutorial obligation for every pattern or replacement for pattern bodies. |
@@ -44,5 +44,7 @@ Use this distribution.
 
 A separate first-entry index is not maintained when it repeats the `readme` scenario set. If one first-entry row has value not carried by the FPF `readme` section, ToC, a pattern Problem frame, or an expanded case, place that value in the appropriate publication unit instead of maintaining a duplicate index body.
 
-When the live question is no longer public discoverability but "which FPF pattern use is recommended now for this concrete concern?", use `E.11.PUR`. `E.11` governs where entry and discovery material lives; `E.11.PUR` governs the project-local relation between the concern, candidate pattern uses, the recommended pattern use, and the expected first result. A `PatternUseSequence@Context` is not a universal sequence for all users; it is a bounded recommendation for one current concern.
+When the live question is no longer public discoverability but "which FPF pattern use is recommended now for this concrete concern?", use `E.11.PUR`. `E.11` governs where entry and discovery material lives; `E.11.PUR` governs the project-local relation between the concern, candidate pattern uses, the recommended pattern use, and the expected first result or result set. A `PatternUseSequence@Context` is not a universal sequence for all users; it is a bounded recommendation for one current concern.
+
+For FPF-grounded domain principle frameworks and local practice frameworks, the readme, preface, table of contents, card set, all-in-one publication carrier, skill pack, MCP-backed access service, retrieval entry, or assistant integration can be a first-entry and discoverability carrier. It should expose family membership, framework edition, dependency boundary, bounded use, and relation-entry cues already decided by `E.4`, `E.4.PFAD`, and `E.4.PFR`. `E.11` does not decide framework architecture, and a callable access service does not become the pattern body or authority source because a user or agent reaches the framework through it.
 

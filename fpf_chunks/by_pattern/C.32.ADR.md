@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADR.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
-line_start: 61517
-line_end: 61738
+line_start: 62105
+line_end: 62328
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,6 +111,8 @@ ArchitectureDecisionRecordProjection@Project:
 ADR practice is useful because it makes architectural decisions small enough to read and update. It is also easy to misuse. A record can become a substitute for the decision relation, a loose essay about architecture, a copied architecture description, or a method prescription with no recoverable target structure.
 
 C.32.ADR treats ADR as a publication projection. The project decision relation belongs to `C.32.PAD`. The architecture description belongs to `C.30.AD` and related view patterns. The method description or pattern-use recommendation belongs to `A.15`, `E.8`, and `E.11.PUR` when those claims are live. The ADR-like record publishes a decision description for a declared reader and use.
+
+For a principle framework, `E.4.PFAD` supplies the prior framework architecture decision relation. The ADR-like record should recover decision question, context, selected answer, alternatives, rationale, consequences, status, links, and supersession conditions, while framework realization, pattern quality, and publication adequacy stay with their direct owners.
 
 The section question is therefore not "which headings are allowed?" The section question is "which decision functions must a reader recover?" A heading can vary by organization or industry, but the record must carry the decision question, candidate options or reason no candidate set is live, outcome, rationale, consequences, method-use instruction when the decision guides work, work split, confirmation or eval path, source-return, status, and supersession or reopen condition.
 

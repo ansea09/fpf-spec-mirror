@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.3.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
-line_start: 22531
-line_end: 22932
+line_start: 22614
+line_end: 23015
 dependencies:
   - "A.10"
   - "A.15.1"

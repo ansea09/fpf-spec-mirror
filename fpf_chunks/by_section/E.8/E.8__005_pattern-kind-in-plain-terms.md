@@ -6,12 +6,12 @@ section_id: "E.8:0.3"
 section_title: "Pattern Kind In Plain Terms"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_pattern-kind-in-plain-terms.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.3 — Pattern Kind In Plain Terms"
-line_start: 66298
-line_end: 66317
+line_start: 66902
+line_end: 66923
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -67,6 +67,8 @@ The same rule blocks pattern-application drift for any FPF object, not only for 
 Treat precision-restoration problems in pattern prose as one profile with five layers: word, head, and use precision; phrase apparatus; repetition and distribution; role and carrier separation; and pattern application. Do not add a local row for each new symptom. `E.8` requires the author to keep the positive subject and action spine first; `F.19` repairs phrase-level apparatus; `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern repairs remaining word, head, and use precision; `E.21` measures the collapsed effect on pattern quality.
 
 A wording cleanup is kind-preserving by default. Before an author accepts a changed FPF-governed phrase as a repair, the pre-repair and post-repair `EntityOfConcern`, kind, relation or claim kind, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope must be recoverable when those items are live. This is a bounded complete preservation check, not an order to formalize ordinary prose or unchanged text and not permission to choose "no edit" as the easy minimum. Leaving text unchanged closes only when the phrase is `not triggered`, ordinary prose, or already satisfied by value with loci; otherwise the finding remains open. Removing a trigger word or replacing a generic head is not a repair when it changes the ontology: for example, a graph-shaped method cue must not be narrowed into a work sequence unless an accepted decision explicitly changes the kind and consequences. If a relation, signature, mathematical-lens, role, method, work, or evidence position is live, the author cites the governing pattern for that position instead of restating its ontology in `E.8`. If the phrase hides several kinds, split them or assign the decision to the governing pattern or `DRR`; do not flatten them into one cleaner-looking word.
+
+Authoring repairs also have an MG-DA cold-reader closure. A phrase is not mature merely because it avoids a trigger word or uses an FPF-looking abstraction. A reader who has not read the `DRR`, campaign notes, or author memory must still be able to recover the object being named, its FPF kind or ordinary status, the relation or claim kind, the admissible use, and the governing pattern for any outside claim. If authoring uses `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, or another broad head, name the specific governed object and position or keep the phrase ordinary. If authoring uses `specialization`, state what object is specialized, what relation makes it a specialization, what inherited or changed slots or uses matter, and which pattern governs that specialization. Otherwise the edit is bureaucratic abstraction, not an improvement.
 
 For boilerplate overwrap, follow `F.19`. `E.8` adds only the pattern-authoring placement rule: after boilerplate is removed or moved and remaining content is precision-restored under `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern when needed, pattern prose keeps only the intended user's admissible move and boundary. Process, architecture, review, quality, projection, and release evidence stay in their own carriers unless they are rewritten as that user-facing move.
 

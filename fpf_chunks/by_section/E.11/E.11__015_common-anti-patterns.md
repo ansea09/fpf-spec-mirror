@@ -6,12 +6,12 @@ section_id: "E.11:7"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__015_common-anti-patterns.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:7 — Common Anti-Patterns"
-line_start: 70873
-line_end: 70887
+line_start: 71633
+line_end: 71647
 dependencies:
   - "E.10"
   - "E.10.ARCH"
@@ -34,7 +34,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Internal diagnosis as public entry | `readme` starts with "roles, methods, and work are mixed" before the user sees a project problem they recognize. | Rewrite the entry from the project question: architecture review, regulation writing, option comparison, problem shaping, naming, quality improvement, evidence, mathematics, or SoTA portfolio. |
-| Ungrounded public value claim | The first-entry text claims broad benefit but does not show the first useful result, working object, distinction, comparison, or pattern family that makes the benefit credible. | Keep the value claim only when it is grounded by a recognizable project need, a first result, and one substantive FPF idea or governing pattern family. |
+| Ungrounded public value claim | The first-entry text claims broad benefit but does not show the first useful result or result set, working object, distinction, comparison, or pattern family that makes the benefit credible. | Keep the value claim only when it is grounded by a recognizable project need, a first useful result or result set, and one substantive FPF idea or governing pattern family. |
 | FPF-slang front door | The `readme` or Preface starts with pattern ids, FPF kinds, internal quality vocabulary, or terms such as `EntityOfConcern`, `episteme`, `DRR`, `carrier`, `math lens`, `NQD`, or `OEE` before plain meaning is visible. | Put the ordinary engineering distinction first, then add the FPF name as a precise address or gloss. |
 | Preface as pattern-id catalogue | The Preface lists pattern families and terms but does not explain why the first-entry value claims are possible or how the ideas compose. | Rewrite as cross-cutting narrative: project problem, idea, why it matters, then pattern family for stricter treatment. |
 | Pattern-body prerequisite | The Preface is only understandable after the reader has already studied the patterns. | Add plain glosses and project examples so the Preface can be read before the pattern bodies while still pointing to them. |

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__003_problem.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:2 — Problem"
-line_start: 70924
-line_end: 70932
+line_start: 71684
+line_end: 71692
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -41,5 +41,5 @@ Without an explicit pattern-use recommendation relation, four failures recur:
 1. A pattern that only recommends a next FPF use is overread as if it performed work, passed a gate, or authorized work.
 2. Applicability and recommendation collapse: "this pattern can be used" becomes "this pattern is the selected useful use now."
 3. Several pattern uses are described as a workflow or lifecycle, even when they are only a recommended pattern-use sequence.
-4. Teaching language such as "first useful move" becomes a false kind and starts competing with `U.Work`, `U.WorkPlan`, P2W, A.16 language-state moves, C.24 call planning, and C.30 architecture candidate material.
+4. Teaching language such as "first useful move" becomes a false kind and starts competing with `U.Work`, `U.WorkPlan`, P2W, A.16 language-state moves, C.24 call planning, and C.30 architecture candidate records.
 

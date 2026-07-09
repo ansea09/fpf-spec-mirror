@@ -6,12 +6,12 @@ section_id: "C.30.P:5"
 section_title: "Direct governing-pattern assignments"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__007_direct-governing-pattern-assignments.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:5 — Direct governing-pattern assignments"
-line_start: 56228
-line_end: 56260
+line_start: 56740
+line_end: 56772
 dependencies:
   - "A.10"
   - "A.15"

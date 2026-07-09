@@ -6,12 +6,12 @@ section_id: "C.32.PAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__011_rationale.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:10 — Rationale"
-line_start: 61474
-line_end: 61481
+line_start: 62062
+line_end: 62069
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,5 +62,5 @@ C.32.PAD exists because candidate synthesis and architecture decision are differ
 
 The pattern keeps three objects apart: `ArchitectureOf@Context` as the architecture claim over structures, `ArchitectureDecisionRelation@Project` as the project relation that selects and obligates, and `ArchitectureDecisionDescription@Project` as the description that can be published in ADR-like or other forms. This lets FPF reuse its existing description, method, work, evidence, assurance, measurement, and publication patterns instead of creating a separate architecture-only duplicate ontology.
 
-The pattern is holonic because the same decision relation can apply to systems, organizations, methods, roles, built assets, AI-agent workflows, evidence practices, or other admitted holon kinds after affected structures, bearers, roles, and work boundaries are rebound.
+The pattern is architecture-reusable across holon kinds, not because every decision target is itself a holon kind. The same decision relation can apply to admitted holons such as systems, organizations-as-systems, built assets, AI-agent setups, epistemes, work occurrences, or disciplines, and it can also govern method-side, role-side, or evidence-side structures when those structures are kept under `A.3.1`, `A.2.7`, `A.10`, and `A.15` rather than admitted as holons by label.
 

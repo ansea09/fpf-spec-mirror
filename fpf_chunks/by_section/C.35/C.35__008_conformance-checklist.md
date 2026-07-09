@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 62509
-line_end: 62520
+line_start: 63112
+line_end: 63123
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -54,11 +54,11 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | Grounded architecture question, source structures, generation method or discovery method, and produced carrier or description are named. |
+| `CC-C35-1` | Grounded architecture question, selected source structures, generation method or discovery method, and produced carrier or description are named. |
 | `CC-C35-2` | Produced carrier or description is separated from described structure, selected candidate structure, realized holon structure, measurement return, eval return, and decision authority. |
 | `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, and comparison refs are present when they affect use. |
 | `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |
-| `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question is routed to the direct owner. |
-| `CC-C35-6` | Archive, front, pool, publication, eval, measurement, mathematical lens, decision, evidence, assurance, gate, release, method, and work claims are routed to their owners. |
-| `CC-C35-7` | Admissible use, non-admissible use, source-return condition, receiving owner, and receiving claim kind are named. |
+| `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question is routed to the direct governing pattern. |
+| `CC-C35-6` | Archive, front, pool, publication, eval, measurement, mathematical lens, decision, evidence, assurance, gate, release, method, and work claims are routed to their governing patterns. |
+| `CC-C35-7` | Admissible use, non-admissible use, carrier-admission return condition, receiving governing pattern, and receiving claim kind are named. |
 

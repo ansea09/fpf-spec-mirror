@@ -6,12 +6,12 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 87025
-line_end: 87109
+line_start: 88063
+line_end: 88149
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -93,6 +93,8 @@ Field discipline:
 - `RejectedCandidates` records why tempting names were not selected.
 - `UnifiedTermRowRef` is present only when `F.17` term-row publication is current.
 - `RefreshCondition` says when the name must be reconsidered: context edition change, bridge change, governing-pattern change, or repeated reader error.
+
+Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization in a concrete context. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value, bounded context, rejected candidates, and admissible short form.
 
 #### F.18:4.3 - Candidate Selection
 

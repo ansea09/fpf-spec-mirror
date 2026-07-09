@@ -6,12 +6,12 @@ section_id: "A.6.0:10d"
 section_title: "PrincipleFrame Name And Profile Boundary For P2W"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__018_principleframe-name-and-profile-boundary-for-p2w.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind"
   - "A.6.0:10d — PrincipleFrame Name And Profile Boundary For P2W"
-line_start: 10451
-line_end: 10454
+line_start: 10483
+line_end: 10486
 dependencies:
   - "A.2.6"
   - "A.6.1"

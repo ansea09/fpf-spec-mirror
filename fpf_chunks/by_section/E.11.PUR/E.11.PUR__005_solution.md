@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:4 — Solution"
-line_start: 70943
-line_end: 71018
+line_start: 71703
+line_end: 71778
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -101,12 +101,12 @@ The sequence is not a work plan, route, workflow, lifecycle, or performed work. 
 | --- | --- |
 | Which FPF pattern use is recommended now? | `PatternUseRecommendation@Context`. |
 | Which several FPF pattern uses belong together for this concern? | `PatternUseSequence@Context`. |
-| Accepted problem-side material is carried toward a next FPF value. | `E.18.1`. |
+| Accepted problem-side record or cue is carried toward a next FPF value. | `E.18.1`. |
 | Work is intended, scheduled, or prepared. | `A.15.2`, `A.15.3`, or `A.15.5`. |
 | Work actually occurred. | `A.15.1`. |
 | A gate admits, degrades, blocks, or abstains. | `A.21`. |
 | An AI agent is planning tool calls. | `C.24`. |
-| Architecture candidate material is current. | `C.30` or the direct architecture child pattern. |
+| Architecture candidate record is current. | `C.30` or the direct architecture child pattern. |
 | Language-state transition is current. | `A.16`. |
 | Publication expression makes the pattern use visible. | `E.8`, `E.11`, `E.17`, or the direct publication pattern. |
 

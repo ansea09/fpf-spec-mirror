@@ -6,12 +6,12 @@ section_id: "F.18:5"
 section_title: "Role, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_role-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — Role, Assignment, Slot, and Status Naming Settlement"
-line_start: 87110
-line_end: 87199
+line_start: 88150
+line_end: 88239
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -118,7 +118,7 @@ Do not name these as `U.Role` values unless a work-facing role value is actually
 If a name touches relation, slot, interface, port, boundary, protocol, API, or signature wording, use `A.6.RSIR` and direct governing patterns.
 
 - `A.6.5` governs relation slot discipline and SlotSpecs.
-- `A.6.0` governs signatures and law-governed declarations.
+- `A.6.0` governs signatures and rule-governed declarations.
 - `A.6.M` and architecture patterns govern module interfaces and architecture interfaces.
 - `A.6.F`, transformation, and architecture patterns govern functional ports and functional structures.
 - `A.6.C`, protocol, service-access, and commitment patterns govern API, protocol, and service-access cases.

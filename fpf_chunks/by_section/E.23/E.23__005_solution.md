@@ -6,12 +6,12 @@ section_id: "E.23:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__005_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:4 — Solution"
-line_start: 79139
-line_end: 79244
+line_start: 80146
+line_end: 80279
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,13 +36,13 @@ keywords:
 `E.23` is the general method for repeated improvement of an object version under an object-under-improvement evaluation named by value. It changes the object, re-evaluates the changed version using that evaluation's required evidence basis and result-row shape, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold for exact information.
 
 #### E.23:4.1 - Local names and kind settlement
-Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `ObjectUnderImprovementEvaluationRef`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord`, or else name the direct owner of the live claim and leave `E.23` closed.
+Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `ObjectUnderImprovementEvaluationRef`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord`, or else name the direct governing pattern for the live claim and leave `E.23` closed.
 
 Quick lowering map:
 
 | Entry cue | `E.23` use | Exit when this is the live claim |
 |---|---|---|
-| "Build a loop" or "loop engineering" | Ask which object version is being improved and which evaluation will be rerun. | If no object-version improvement claim is present, choose the direct owner named by the live claim. |
+| "Build a loop" or "loop engineering" | Ask which object version is being improved and which evaluation will be rerun. | If no object-version improvement claim is present, choose the direct governing pattern named by the live claim. |
 | Agent retry, monitor, or escalation cycle | Use `E.23` only when the retry changes an object version and re-evaluation can show quality movement. | Performed execution and work plans use the A.15 family; gate passage uses `A.21`; transformation-flow cycle structure uses `E.18`. |
 | Harness engineering | The harness can be the object under improvement when its next version is evaluated against declared quality, cost, and risk conditions. | Running the harness is work; comparing harness variants is `G.9`; retaining variants is `C.18` or `C.19`; selected-set publication is `G.5`. |
 | Fast DPF seed hardening | A local DPF seed, pattern seed, relation record, or source pack can enter `E.23` after the object version and evaluation are declared. | Source-use and source-pack return use `G.2`; source decay, edition change, and refresh use `G.11`; PFAD and PFR decisions use `E.4.PFAD` and `E.4.PFR`; first-entry publication uses `E.11` only when publication is current. |
@@ -62,10 +62,38 @@ Quick lowering map:
 | `StopContinueSwitchFrameHoldDecision` | Local loop decision after re-evaluation. |
 | `QualityImprovementLoopRecord` | Record of object versions, applied rows, re-evaluation, trade-offs, cost and risk, and loop decision. |
 | `QualitySideMovementClaim` | Local claim that a changed object moved on declared `Q` components under NQD and OEE comparison. |
-| `SourceComposedResultClaim` | Result produced by composing accepted source or practice lines and readable by the evaluation. |
+| `SourceComposedResultClaim` | Result produced by composing accepted source or practice anchors and readable by the evaluation. |
 | `KindRestorationCheck` | Required precision-repair check that records pre-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, proposed post-repair kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope, and whether each live field is not triggered, ordinary prose, preserved, split, intentionally changed by accepted decision, or blocking. |
 
 These names belong to loop method. They do not create quality values, project evidence, release state, selected-set publication, parity, refresh, or proof of quality.
+
+#### E.23:4.1a - Improvement Unfolding Structure Block
+
+Use this block when the improvement loop must show its constraint-governed unfolding structure rather than only a method record. It makes the object version, evaluation frame, candidate repair loci, protected tradeoffs, expected movement, and loop decision visible.
+
+```text
+ImprovementUnfoldingStructureBlock:
+  unfoldingStructureRef: current ImprovementLoopUnfoldingStructure record
+  objectVersionUnderImprovementRef:
+  evaluationFrameRef:
+  currentEvaluationResultRefs[]:
+  candidateRepairLoci[]:
+  protectedTradeoffRefs[]:
+  expectedEvaluationMovement:
+  loopDecisionLocus:
+    stop | continue | switchMethodFamily | openNewFrame | holdForInformation
+  methodWorkLinkageRef?:
+  evidenceOrEvaluationLinkageRef?:
+  blockedOverread: not blind retry, not work occurrence, not score-as-value
+```
+
+The block is admitted only when the changed object version and evaluation frame are recoverable. `unfoldingStructureRef` names the current local structure record; use A.22.CGUS `specializedStructureRef?` only when the generic CGUS record must point to this narrower specialization. A retry loop, prompt loop, monitor/escalate path, or repeated work occurrence is not improvement by shape. `expectedEvaluationMovement` names the intended movement under the declared evaluation; it is not proof that the value moved. `loopDecisionLocus` records the local decision after re-evaluation and does not replace selected-set publication, release, gate, or work authorization. `methodWorkLinkageRef?` is used only when a method or work record is part of the improvement unfolding; otherwise leave method and work outside the block.
+
+`ImprovementLoopUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization governed here for improvement-loop use. It is not a root U-kind, not a generic loop, not performed work, not evidence, and not quality proof. `E.23` governs the object version, evaluation frame, candidate repair loci, protected tradeoffs, expected evaluation movement, and loop decision; source currentness, selected-set publication, gate, release, work, evidence, and assurance claims leave to their direct governing patterns.
+
+If the loop contains source currentness, edition decay, or telemetry-triggered refresh, use `G.11` for that claim. If the loop contains a transformation-flow cycle without object-version improvement, keep the structure with `E.18` or `E.18.3`. If the loop changes a harness, pattern, source pack, DPF seed, or architecture candidate, name that exact object version and the evaluation that will be rerun.
+
+A visible cycle such as "draft -> evaluate -> repair -> re-evaluate" may be used before execution as a presentation chain for attention. Its job is to help fill the loop slots: object version, evaluation frame, candidate repair loci, protected tradeoffs, expected evaluation movement, evidence basis, loop-decision locus, and stop, continue, switch, or return condition. Until those slots are filled enough for the next use, the chain is a planning scaffold or demonstrative slice, not a `QualityImprovementLoopRecord`, not performed work, and not proof that improvement happened.
 
 #### E.23:4.2 - Loop method
 
@@ -88,7 +116,7 @@ Stop when the current object version meets the declared floor or improvement aim
 
 Continue only when the next pass has an expected evaluation movement and acceptable cost and risk. Switch method when the current method family is not moving the object, is too costly, or no longer fits the evaluation. Hold when object, evaluation, authority, evidence, source condition, or comparison set is too under-specified.
 
-An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result closes this loop locally. It does not say that future development is impossible. A new use, `Q` component, source line, `SoTA` front, comparison set, affordability boundary, or higher-payoff proposal can open a later loop.
+An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result closes this loop locally. It does not say that future development is impossible. A new use, `Q` component, source anchor, `SoTA` front, comparison set, affordability boundary, or higher-payoff proposal can open a later loop.
 
 #### E.23:4.4 - Method-family selection
 
@@ -100,7 +128,7 @@ An all-`5`, all-exceptional, current-front-reaching, or current-front-improving 
 | `RalphLikeGeneralAdaptiveFamily` | A broadly capable agent can improve the object through repeated specification, feedback, memory, and verification under `C.19.1` cost and risk discipline. |
 | `FixedPerformerObjectVersionUnderImprovementOptimizationFamily` | The performer or harness stays fixed while the object version is edited and re-evaluated. |
 | `NQDQualitySideImprovementFamily` | The evaluation supplies the `Q` side for a declared NQD and OEE comparison and loop changes seek non-dominated `Q` movement. |
-| `SoTAReachAndMaintainFamily` | Several accepted source or practice lines must be composed to reach or maintain an externally assigned front. |
+| `SoTAReachAndMaintainFamily` | Several accepted source or practice anchors must be composed to reach or maintain an externally assigned front. |
 | `SpecializedObjectFamilyCycle` | A specialized method family fits a declared characteristic space and is BLP-compatible. |
 
 The selected family is justified by characteristic-space fit, expected evaluation movement, cost and risk, and protected trade-offs. Familiarity, automation, or current popularity is not enough.
@@ -115,7 +143,7 @@ An operation family is selected only when the loop record names:
 4. protected trade-offs;
 5. stop or removal condition.
 
-Typical operation families are specification articulation, task decomposition, context refresh with carry-forward evidence, failure-context retry, verification against specification, memory or distillation, external critic or co-regulation, proposal portfolio use, search breadth or variants, bounded object-change budget, held-out evaluation, rejected-change memory, optimizer-memory separation, source-line contribution assignment, agent-tool-interface hardening, and task-family adaptation signature. They remain selectable only for the loop that justifies them.
+Typical operation families are specification articulation, task decomposition, context refresh with carry-forward evidence, failure-context retry, verification against specification, memory or distillation, external critic or co-regulation, proposal portfolio use, search breadth or variants, bounded object-change budget, held-out evaluation, rejected-change memory, optimizer-memory separation, source-anchor contribution assignment, agent-tool-interface hardening, and task-family adaptation signature. They remain selectable only for the loop that justifies them.
 
 #### E.23:4.6 - Cost and BLP discipline
 
@@ -133,7 +161,7 @@ Harness improvement is usually the first high-leverage move when it reduces blin
 
 Accepted `SoTA` is the working external front only when assigned by the object-under-improvement evaluation, accepted source-use decision, or declared comparison set. `E.23` can govern a loop that reaches, maintains, or improves relative to that front; it does not self-assign `SoTA`.
 
-When several source lines are used, the loop records each line's contribution: value semantics, operation family, boundary, comparison discipline, failure mode, protected trade-off, or stop discipline. The changed object version then states the `SourceComposedResultClaim` and is re-evaluated.
+When several source anchors are used, the loop records each anchor's contribution: value semantics, operation family, boundary, comparison discipline, failure mode, protected trade-off, or stop discipline. The changed object version then states the `SourceComposedResultClaim` and is re-evaluated.
 
 For NQD and OEE, `E.23` can change one object version or candidate to improve declared `Q` movement. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over novelty, diversity, descriptors, distances, archive or front insertion, pool policy, selected-set publication, parity, and refresh.
 

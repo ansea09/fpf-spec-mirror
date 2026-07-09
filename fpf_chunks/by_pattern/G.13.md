@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.13.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
-line_start: 93871
-line_end: 94218
+line_start: 94913
+line_end: 95262
 dependencies:
   - "A.18"
   - "A.19"
@@ -384,6 +384,8 @@ FPF is a conceptual framework for disciplined creative work, not a data governan
 6. Keep provider/tool specifics in `Extensions` (or Phase‑3 seed) and do not let formats redefine semantics.
 
 ### G.13:End
+
+# **Part H - Reserved**
 
 # **Part I – Annexes & Extended Tutorials**
 

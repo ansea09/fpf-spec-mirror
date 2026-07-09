@@ -6,12 +6,12 @@ section_id: "C.19.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__009_relations.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:7 — Relations"
-line_start: 46447
-line_end: 46466
+line_start: 46958
+line_end: 46977
 dependencies:
   - "A.0"
   - "B.3"
@@ -44,7 +44,7 @@ keywords:
 
 #### C.19.1:7.1 - C.32 architecture-synthesis use relation
 
-When `C.32` generates candidate architectures, `C.19.1` applies to claims that one general bearer, universal module, platform, method family, agent substrate, organization design, episteme-bearing practice, or other admitted holon structure can carry more functions or improve with scale. BLP does not select the architecture. It requires the candidate to name the holon under change, function-bearing transfer, selected structure changed, architecture characteristics improved and worsened, scale window, admissibility boundary, and waiver or audit basis.
+When `C.32` generates candidate architectures, `C.19.1` applies to claims that one general bearer, universal module relation, platform, method family, agent substrate, organization design, evidence-bearing episteme/work arrangement, or selected structure of an admitted holon can carry more functions or improve with scale. BLP does not select the architecture and does not turn method-family, role-side, practice, or culture bearers into holon kinds. It requires the candidate to name the holon under change, function-bearing transfer, selected structure changed, architecture characteristics improved and worsened, scale window, admissibility boundary, and waiver or audit basis.
 
 For TRIZ-style ideality, BLP supports the move only when the general bearer remains scale-amenable inside the declared window. If the candidate merely removes parts, it belongs to `C.32` and `C.31` until it has a scale claim; it is not a BLP proof.
 

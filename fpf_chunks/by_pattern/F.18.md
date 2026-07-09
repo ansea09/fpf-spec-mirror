@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.18.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
-line_start: 86951
-line_end: 87400
+line_start: 87989
+line_end: 88440
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -167,6 +167,8 @@ Field discipline:
 - `UnifiedTermRowRef` is present only when `F.17` term-row publication is current.
 - `RefreshCondition` says when the name must be reconsidered: context edition change, bridge change, governing-pattern change, or repeated reader error.
 
+Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization in a concrete context. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value, bounded context, rejected candidates, and admissible short form.
+
 #### F.18:4.3 - Candidate Selection
 
 Do not pick a durable label in one stroke. Build a small candidate set, normally five to ten candidates, from at least two head-term families. Judge candidates on:
@@ -276,7 +278,7 @@ Do not name these as `U.Role` values unless a work-facing role value is actually
 If a name touches relation, slot, interface, port, boundary, protocol, API, or signature wording, use `A.6.RSIR` and direct governing patterns.
 
 - `A.6.5` governs relation slot discipline and SlotSpecs.
-- `A.6.0` governs signatures and law-governed declarations.
+- `A.6.0` governs signatures and rule-governed declarations.
 - `A.6.M` and architecture patterns govern module interfaces and architecture interfaces.
 - `A.6.F`, transformation, and architecture patterns govern functional ports and functional structures.
 - `A.6.C`, protocol, service-access, and commitment patterns govern API, protocol, and service-access cases.

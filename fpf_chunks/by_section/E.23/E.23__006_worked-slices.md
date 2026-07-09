@@ -6,12 +6,12 @@ section_id: "E.23:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__006_worked-slices.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:5 — Worked slices"
-line_start: 79245
-line_end: 79255
+line_start: 80280
+line_end: 80290
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,7 @@ keywords:
 ---
 
 ### E.23:5 - Worked slices
-**Agent harness improvement from a loop-engineering request.** A user asks to "build an agent loop that improves my local DPF seed." The `E.23` entry is not the loop word; it is the recovered object and evaluation: `ObjectUnderImprovementRef = PersonalDevelopmentDPFSeed@v0.1`, `ObjectUnderImprovementEvaluationRef = declared E.21 or DPF-quality evaluation`, `ImprovementAim = make the seed usable as a local first-entry framework without public-Core claims`, and `CostAndRiskAccount = token, tool, supervision, and rework budget`. The loop may change only the declared seed version, or a declared evaluation or harness slice that is itself the object under improvement. Source-return prompts, pattern-seed expansion, adversarial examples, or harness checks enter the loop only when the record states expected evaluation movement and a removal or stop condition for that declared slice. Source-use and source-pack return are `G.2`; source decay, edition change, and refresh orchestration are `G.11`; the harness run itself is `U.Work`; parity between harness variants is `G.9`; retained candidate variants are `C.18` or `C.19`; selected-set publication is `G.5`; PFAD and PFR claims stay with `E.4.PFAD` and `E.4.PFR`. A change outside the declared slice opens that neighboring work; it is not one giant `E.23` evolution loop.
+**Agent harness improvement from a loop-engineering request.** A user asks to "build an agent loop that improves my local DPF seed." The `E.23` entry is not the loop word; it is the recovered object and evaluation: `ObjectUnderImprovementRef = PersonalDevelopmentDPFSeed@v0.1`, `ObjectUnderImprovementEvaluationRef = declared E.4.DPF.DA package adequacy or E.21 pattern-quality evaluation`, `ImprovementAim = make the seed usable as a local first-entry framework without public-Core claims`, and `CostAndRiskAccount = token, tool, supervision, and rework budget`. The loop may change only the declared seed version, or a declared evaluation or harness slice that is itself the object under improvement. Source-return prompts, pattern-seed expansion, adversarial examples, or harness checks enter the loop only when the record states expected evaluation movement and a removal or stop condition for that declared slice. Source-use and source-pack return are `G.2`; source decay, edition change, and refresh orchestration are `G.11`; the harness run itself is `U.Work`; parity between harness variants is `G.9`; retained candidate variants are `C.18` or `C.19`; selected-set publication is `G.5`; PFAD and PFR claims stay with `E.4.PFAD` and `E.4.PFR`. A change outside the declared slice opens that neighboring work; it is not one giant `E.23` evolution loop.
 
 **Affordable floor evaluation.** A pattern needs admission readiness. `E.22` frames `floorEvaluation`; `E.21` evaluates all required coordinates. If the result is admissible and no improvement aim is requested, `E.23` stays closed. If an admission, refresh, landing, or release crossing is claimed, `E.19` and the release named by value/admission process still check the gate conditions; the `E.21` status is necessary quality evidence, not the gate itself.
 

@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 59242
-line_end: 59330
+line_start: 59774
+line_end: 59862
 dependencies:
   - "A.10"
   - "A.15"
@@ -82,7 +82,7 @@ Typical entry phrases:
 
 **First-minute use slice.** A regulated product-family team has a grounded `ArchitectureOf@Context` for a field device family. The work question is synthesis: how should required functions, constructive modules, field placement, control responsibility, and certification evidence be coordinated so maintainability, substitutability, latency, and evidence reuse stay acceptable? Using C.32, the practitioner first builds a synthesis structure map, then records three candidate configurations: one shared module grammar with tighter evidence scope, one product-family split with lower interface burden, and one bounded exception that keeps the existing module split but changes evidence responsibility and reopen trigger. The team now has candidate architecture configurations under declared characteristics, not one attractive platform proposal.
 
-The primary `EntityOfConcern` is the local candidate architecture palette for one synthesis question over `ArchitectureOf@Context`. The described holon can be a system, product family, organization, method family, discipline, cultural practice, evidence-bearing practice, AI-agent setup, built asset, or another admitted holon kind when the governing FPF pattern admits that use. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
+The primary `EntityOfConcern` is the local candidate architecture palette for one synthesis question over `ArchitectureOf@Context`. The described holon can be a system, product family, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or another admitted holon kind when the governing FPF pattern admits that use. Source labels such as practice, culture, tradition, style, method, or role enter C.32 only after they are restored into admitted holons, method-side structures, role-side structures, work structures, epistemes, bounded contexts, or C.36 cultural-evolution relations by their governing patterns. Architecture pressure may concern method-family or role-side structures, but then C.32 treats them as selected structures or adjacent governed values around a described holon or bounded context, not as admitted holon kinds by label. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
 
 What goes wrong if C.32 is missed: the team optimizes one visible structure, such as modules, placement, team responsibility, control relation, or evidence package, and then treats that local improvement as architecture synthesis. The competing structures, architecture characteristics, losses, and alternatives disappear before they can be compared.
 

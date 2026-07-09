@@ -6,12 +6,12 @@ section_id: "A.2.5:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__010_bias-annotation.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:7 — Bias-Annotation"
-line_start: 4035
-line_end: 4043
+line_start: 4067
+line_end: 4075
 dependencies:
   - "A.15"
   - "A.2.1"

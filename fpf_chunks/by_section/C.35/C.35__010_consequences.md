@@ -6,12 +6,12 @@ section_id: "C.35:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__010_consequences.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:9 — Consequences"
-line_start: 62532
-line_end: 62546
+line_start: 63135
+line_end: 63150
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -54,14 +54,15 @@ keywords:
 
 Positive consequences:
 
-- Generated and discovered material can enter architecture work without becoming authority. The architect gets a useful admission note instead of rejecting all generated material or accepting it too early.
-- C.32 remains the candidate-palette owner. C.35 supplies the carrier admission and source-return information that C.32 may need.
-- Search, query, transformation, and AI-assisted outputs become auditable: source structures, search space, constraints, preserved structure, lost structure, validation refs, and bearer boundaries are visible.
+- Generated or discovered outputs, produced carriers, descriptions, clusters, graphs, traces, and query results can enter architecture work without becoming authority. The architect gets a useful admission note instead of rejecting useful outputs or accepting them too early.
+- C.35 keeps the carrier-admission return visible for later use: if the produced carrier cannot support the receiving architecture claim, the repair returns to the named carrier, described structure, lost or missing structure, admission condition, and receiving governing pattern.
+- C.32 remains the candidate-palette governing pattern. C.35 supplies the carrier admission and carrier-admission return information that C.32 may need.
+- Search, query, transformation, and AI-assisted outputs become auditable: selected source structures, search space, constraints, preserved structure, lost structure, validation refs, and bearer boundaries are visible.
 - Reusable generator governance stays outside C.35 until explicitly opened, which prevents one-case output review from becoming a hidden method or mechanism-suite pattern.
 
 Costs and trade-offs:
 
 - C.35 adds an admission step before fast use of generated outputs. That is a real cost when teams want quick candidate expansion.
-- Some outputs will be useful but not yet admissible. The repair is not to discard them; it is to name the missing selected structure, bearer boundary, validation trace, or receiving owner.
+- Some outputs will be useful but not yet admissible. The repair is not to discard them; it is to name the missing selected structure, bearer boundary, validation trace, or receiving governing pattern.
 - The pattern is intentionally narrow. It does not choose among alternatives, manage archives, define eval programs, or authorize work.
 

@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 69412
-line_end: 69494
+line_start: 70052
+line_end: 70136
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,12 +80,13 @@ Trigger this pattern only when the wording has FPF-governed use:
 - full kit, full-kitting, readiness, ready, committed, launch-ready;
 - TameFlow `MOVE` or source MOVE;
 - route, workflow, and process when the wording hides pattern-use, direct-object, or readiness relation rather than a transformation-situation claim.
+- unfolding, path, loop, flow, diffusion, graph, chain, route, workflow, and process when the wording hides a selected structure, description, demonstrative slice, method, work, evidence, gate, publication, decision, architecture use, or currentness/refresh claim governed by `G.11` or slice-local refresh governed by `E.18`.
 
 The list is not a replacement vocabulary. It is a recognition aid for the recovery order.
 
 #### E.10.MOVE:4.2a - Step And Action Synonym-Substitution Repair
 
-Do not close a move-like repair by replacing `move` with `step`, `action`, `application`, `solution`, `work item`, or `next action`. Those words are still triggers when they carry FPF-governed use. A conforming repair first names the object under wording repair, then the direct FPF target: pattern-use recommendation, P2W carry-through, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, `GateDecision`, performed `U.Work`, transformation, method, publication, source relation, local language-state move, call-planning action, architecture candidate material, ordinary prose, or quote-only wording. The final wording may keep `step` or `action` only when the direct governing pattern and remaining reader use are explicit.
+Do not close a move-like repair by replacing `move` with `step`, `action`, `application`, `solution`, `work item`, or `next action`. Those words are still triggers when they carry FPF-governed use. A conforming repair first names the object under wording repair, then the direct FPF target: pattern-use recommendation, P2W carry-through, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, `GateDecision`, performed `U.Work`, transformation, method, publication, source relation, local language-state move, call-planning action, architecture candidate record, ordinary prose, or quote-only wording. The final wording may keep `step` or `action` only when the direct governing pattern and remaining reader use are explicit.
 
 #### E.10.MOVE:4.3 - Source-Wording Classes
 
@@ -95,6 +96,7 @@ Do not close a move-like repair by replacing `move` with `step`, `action`, `appl
 | `tameFlowMoveWording` | WorkPlan, PlanItem, full-kit preparation, `WorkEntryReadiness@Context`, A.21 when gate decision is current, preparation `U.Work`, target `U.Work`, resource relation, or result relation. |
 | `workEntryReadiness` | `WorkEntryReadiness@Context`, `FullKitCondition`, A.15.2, A.15.3, A.15.1, A.21, B.1.6, or A.15.4. |
 | `localMoveLocus` | A.16 language-state move, C.24 call-planning action, C.30 architecture candidate move, or another accepted local locus. |
+| `unfoldingStructureWording` | `A.22.CGUS` only when several loci, cross-locus constraints, preserved and lost structure, admissible next forms, and stop or return conditions are recoverable; otherwise select the direct governing pattern for description, demonstrative slice, method, work, evidence, gate, decision, architecture, publication, or currentness/refresh, or record a no-restoration ordinary-prose disposition when no FPF object is being claimed. |
 | `ordinaryProse` | Keep or lightly rewrite without FPF restoration. |
 | `quoteOnly` | Keep as source wording and block stronger use. |
 

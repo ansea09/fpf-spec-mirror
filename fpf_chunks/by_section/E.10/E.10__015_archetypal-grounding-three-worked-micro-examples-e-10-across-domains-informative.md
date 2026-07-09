@@ -6,12 +6,12 @@ section_id: "E.10:11.1"
 section_title: "Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_archetypal-grounding-three-worked-micro-examples-e-10-across-domains-informative.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:11.1 — Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
-line_start: 69223
-line_end: 69248
+line_start: 69863
+line_end: 69888
 dependencies:
   - "A.10"
   - "A.15"

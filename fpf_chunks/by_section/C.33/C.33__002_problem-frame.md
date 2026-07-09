@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Source Return"
+pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
 section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
+  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:1 — Problem frame"
-line_start: 62010
-line_end: 62068
+line_start: 62600
+line_end: 62659
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -38,22 +38,23 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured structure"
+  - "captured selected structure"
   - "carrier"
   - "lost structure"
+  - "missing structure"
+  - "missing-structure return"
   - "observer boundary"
   - "selected structure"
-  - "source return"
   - "structural information adequacy"
 ---
 
 ### C.33:1 - Problem frame
 
-Use this pattern when an architect has a structure-bearing description, view, decision record, ADR-like projection, eval report, method handoff, generated relation graph, source model, or realized holon observation and needs to know which selected architecture-relevant structure is actually recoverable for the next architecture use.
+Use this pattern when an architect has a description, view, decision record, ADR-like projection, eval report, method handoff, generated relation graph, source model, or realized holon observation that carries or describes selected architecture-relevant structure and needs to know which selected structure is actually recoverable for the next architecture use.
 
-Use the same pattern when the carrier is a narrative rendering or principle-framework carrier for architecture work: the carrier may preserve a problem-to-structure route, problem-situation architecture, solution-move architecture, candidate trade-off, decision rationale, or source-return cue, but it may also hide selected structures that the next architecture use still needs. In architecture-mediated rendering, inspect the chain `carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`, because each step may have captured and lost different structure.
+Use the same pattern when the carrier is a narrative rendering or principle-framework publication for architecture work: the carrier may preserve a problem-to-structure ordering, problem-situation architecture, solution-move architecture, candidate trade-off, decision rationale, or missing-structure cue, but it may also hide selected structures that the next architecture use still needs. In architecture-mediated rendering, inspect the chain from carrier to architecture description or view, then to architecture as selected structures in context, then to wider selected source structures, because each relation may have captured and lost different structure.
 
-Primary working reader: an architect, architecture reviewer, method owner, or AI-assisted architecture worker who must use one carrier or observation without letting it stand for the whole architecture, the project decision, evidence sufficiency, or realized structure.
+Primary working reader: an architect, architecture reviewer, method steward, or AI-assisted architecture worker who must use one carrier or observation without letting it stand for the whole architecture, the project decision, evidence sufficiency, or realized structure.
 
 Typical entry phrases:
 
@@ -75,9 +76,10 @@ StructuralInformationAdequacyNote@Context:
   describedHolonRef:
   boundedContextRef:
   selectedStructureRefs:
-  sourceStructureRefs?:
+  selectedSourceStructureRefs?:
   sourceDescriptionOrViewRefs?:
   narrativeRenderingRefs?:
+  constraintGovernedUnfoldingStructureRef?:
   decisionOrRecordCarrierRefs?:
   realizedStructureObservationRefs?:
   capturedSelectedStructure:
@@ -85,7 +87,7 @@ StructuralInformationAdequacyNote@Context:
   lostOrHiddenStructure:
   compressionOrAbstractionMode?:
   observerOrBudgetBoundary?:
-  sourceObservationClass?:
+  relationObservationClass?:
   typedRelationSemantics?:
   unexploredRegionRefs?:
   sourceLabelRecoveryRef?:
@@ -93,16 +95,16 @@ StructuralInformationAdequacyNote@Context:
   measurementOrEvalRefs?:
   admissibleUse:
   nonAdmissibleUse:
-  sourceReturnCondition:
-  receivingOwnerOrPatternRef:
+  missingStructureReturnCondition:
+  receivingGoverningPatternRef:
   receivingClaimKind:
 ```
 
-Adoption test: after using C.33, another practitioner can tell what selected structure is captured, what structure is expected but not captured, what is lost or hidden, what use is admissible, which non-admissible uses are blocked, and which owner receives the next claim.
+Adoption test: after using C.33, another practitioner can tell what selected structure is captured, what structure is expected but not captured, what is lost or hidden, what use is admissible, which non-admissible uses are blocked, and which governing pattern receives the next claim.
 
-What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, source return, and next owner.
+What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and receiving governing pattern.
 
 Ordinary working move: underline the carrier sentence, diagram, graph edge set, or observation being relied on; write what selected structure it captures; write what it leaves out; then name the use that remains admissible.
 
-Not this pattern when the current question asks whether the architecture, record, lens, reading, decision, authorization, or publication is admissible. Use the owner of that question first. Return to C.33 only when that owner relies on a carrier whose captured structural content and missing structural content must be made explicit.
+Not this pattern when the current question asks whether the architecture, record, lens, reading, decision, authorization, or publication is admissible. Use the governing pattern for that question first. Return to C.33 only when that governing pattern relies on a carrier whose captured structural content and missing structural content must be made explicit.
 

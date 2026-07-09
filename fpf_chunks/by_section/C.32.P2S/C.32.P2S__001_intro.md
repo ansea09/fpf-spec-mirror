@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.P2S"
-pattern_title: "Problem-to-Structure Architecturing Transformation Flow"
+pattern_title: "Problem-to-Structure Architecturing Unfolding"
 section_id: "C.32.P2S:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__001_intro.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
+  - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:intro — Intro"
-line_start: 59555
-line_end: 59560
+line_start: 60087
+line_end: 60092
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22.CGUS"
   - "A.3.4"
   - "B.2"
   - "C.11"
@@ -49,21 +50,24 @@ dependencies:
   - "C.35"
   - "E.17"
   - "E.18"
+  - "E.18.3"
   - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
 keywords:
+  - "ArchitectureUnfoldingStructureUse@Project"
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
-  - "architecture work flow"
-  - "owner-specific return"
-  - "problem-to-structure architecturing flow"
+  - "candidate structures"
+  - "expected structures"
+  - "governing-pattern-specific return"
+  - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
 ---
 
-## C.32.P2S - Problem-to-Structure Architecturing Transformation Flow
+## C.32.P2S - Problem-to-Structure Architecturing Unfolding
 
 > **Type:** Architectural process pattern under C.32
 > **Status:** Stable

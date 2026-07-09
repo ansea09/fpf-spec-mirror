@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Source Return"
+pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
 section_id: "C.33:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__004_forces.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
+  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:3 — Forces"
-line_start: 62083
-line_end: 62093
+line_start: 62674
+line_end: 62684
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -38,12 +38,13 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured structure"
+  - "captured selected structure"
   - "carrier"
   - "lost structure"
+  - "missing structure"
+  - "missing-structure return"
   - "observer boundary"
   - "selected structure"
-  - "source return"
   - "structural information adequacy"
 ---
 
@@ -55,6 +56,6 @@ keywords:
 | Capture vs loss | Architecture use often depends as much on what was lost or hidden as on what was captured. |
 | Cheap first note vs full record | Many cases need one note before a full architecture description, view correspondence record, measurement, or eval result. |
 | Observer boundary | Code agents, learned representations, probes, and epiplexity-like lenses expose structure under observation and budget limits. |
-| Source label pressure | Domain labels are useful recognition material but must be recovered into selected structure, relation, bearer, characteristic, and receiving owner. |
-| Evolution | The captured structure can decay when source edition, realized structure, environment, bearer, or holon level changes. |
+| Source label pressure | Domain labels are useful recognition cues but must be recovered into selected structure, relation, bearer, characteristic, and receiving governing pattern. |
+| Evolution | The captured structure can decay when source publication edition, realized structure, environment, bearer, or holon level changes. |
 

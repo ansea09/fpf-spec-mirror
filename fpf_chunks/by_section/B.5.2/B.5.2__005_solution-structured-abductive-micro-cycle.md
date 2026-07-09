@@ -6,15 +6,16 @@ section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 36017
-line_end: 36051
+line_start: 36481
+line_end: 36537
 dependencies:
   - "A.10"
   - "A.16"
+  - "A.22.CGUS"
   - "A.6.P"
   - "B.3.3"
   - "B.4.1"
@@ -63,4 +64,26 @@ The filtering step is local and context-sensitive, but the criteria used **SHALL
 - **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
 
 No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.
+
+#### B.5.2:4.5 - Abductive Unfolding Structure Block
+
+When the abductive run must be reused as more than a one-off hypothesis note, add an unfolding block. It shows how the prompt becomes rival hypotheses and downstream tests without treating the creative passage as evidence.
+
+```text
+AbductiveUnfoldingStructureBlock:
+  unfoldingStructureRef: current AbductiveSearchUnfoldingStructure record
+  abductivePromptRef:
+  cueSetWithDownstreamPatternAlternativesRef:
+  rivalHypothesisSetRef:
+  hypothesisGenerationLoci[]:
+  plausibilityConstraintRefs[]:
+  evidenceReturnLoci[]:
+  languageStateMoveRefs[]:
+  poolPolicyOrSelectionRef?:
+  blockedOverread: not inspiration event, not linear ideation workflow, not evidence by itself
+```
+
+Use `unfoldingStructureRef` for the current local structure record; use A.22.CGUS `specializedStructureRef?` only when the generic CGUS record must point to this narrower specialization. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible downstream governing-pattern alternatives. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. If the live claim becomes candidate retention, pool policy, selected-set publication, or comparison, exit to `C.18`, `C.19`, `G.5`, or the comparison governing pattern instead of making abduction a selector.
+
+`AbductiveSearchUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization governed here for abductive-search use. It is not a root U-kind, not an ideation workflow, not evidence, and not a selection decision. `B.5.2` governs the abductive prompt, cue set with downstream governing-pattern alternatives, rival hypotheses, plausibility constraints, and evidence-return loci; evidence, deduction, probe design, assurance, selected-set publication, pool policy, and comparison claims leave to their direct governing patterns.
 

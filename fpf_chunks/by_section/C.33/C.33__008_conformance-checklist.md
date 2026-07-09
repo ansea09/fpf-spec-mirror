@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.33"
-pattern_title: "Structural Information Adequacy for Architecture Capture and Source Return"
+pattern_title: "Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
 section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.33 — Structural Information Adequacy for Architecture Capture and Source Return"
+  - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:7 — Conformance checklist"
-line_start: 62137
-line_end: 62147
+line_start: 62732
+line_end: 62742
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -38,12 +38,13 @@ dependencies:
   - "F.9"
   - "G.5"
 keywords:
-  - "captured structure"
+  - "captured selected structure"
   - "carrier"
   - "lost structure"
+  - "missing structure"
+  - "missing-structure return"
   - "observer boundary"
   - "selected structure"
-  - "source return"
   - "structural information adequacy"
 ---
 
@@ -54,7 +55,7 @@ keywords:
 | `CC-C33-1` | The note names described holon, bounded context, selected structure refs or structure kinds, and the carrier or observation being used. |
 | `CC-C33-2` | Captured selected structure is stated as relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization. |
 | `CC-C33-3` | Expected but uncaptured structure and lost or hidden structure are stated when the next use depends on them. |
-| `CC-C33-4` | Observer or budget boundary is present for agent-produced, learned, probed, source-derived, or epiplexity-style carriers. |
-| `CC-C33-5` | Mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, and publication claims are routed to their owners. |
-| `CC-C33-6` | Admissible use, non-admissible use, source-return condition, receiving owner, and receiving claim kind are named. |
+| `CC-C33-4` | Observer or budget boundary is present for agent-produced, learned, probed, epiplexity-style, or maps derived from a named source publication, source model, or source codebase. |
+| `CC-C33-5` | Mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, and publication claims are routed to their governing patterns. |
+| `CC-C33-6` | Admissible use, non-admissible use, missing-structure return condition, receiving governing pattern, and receiving claim kind are named. |
 

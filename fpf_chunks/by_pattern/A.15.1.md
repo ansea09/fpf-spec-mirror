@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.15.1.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.15.1 — U.Work"
-line_start: 21792
-line_end: 22282
+line_start: 21875
+line_end: 22365
 dependencies:
   - "A.1"
   - "A.1.1"

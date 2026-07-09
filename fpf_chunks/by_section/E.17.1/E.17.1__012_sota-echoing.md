@@ -6,12 +6,12 @@ section_id: "E.17.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__012_sota-echoing.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:11 — SoTA-Echoing"
-line_start: 72676
-line_end: 72679
+line_start: 73436
+line_end: 73439
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"

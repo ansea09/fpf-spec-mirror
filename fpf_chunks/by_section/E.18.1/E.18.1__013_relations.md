@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 77201
-line_end: 77215
+line_start: 77999
+line_end: 78015
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,10 +49,12 @@ keywords:
 ---
 
 ### E.18.1:12 - Relations
-- `G.2` governs records for source material, source-pack return, evidence anchors for source material, and source-currentness payloads before source-material seeds are carried into DPF hardening.
+- `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W must expose loci, constraints, admissible next forms, and stop or return conditions.
+- `E.18.3` supplies the transformation-flow unfolding specialization for the `P2WUnfoldingStructureBlock`; P2W remains a carry-through use, not a workflow, launch permission, or performed-work record.
+- `G.2` governs source-use records, source-pack return, evidence anchors for admitted source publications, and source-currentness payloads before DPF hardening can rely on a seed drawn from those admitted sources.
 - `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
 - `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
-- `G.11` governs currentness, source-material decay, source-relation change, edition change, and refresh when changed source material, source relation, or telemetry reopens the smallest affected P2W application.
+- `G.11` governs currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the smallest affected P2W application.
 
 - `E.18` governs selected `TransformationFlowStructure`, transfer annotations, flow valuation, `ConstraintValidity`, `GateFit`, gate profile, design tags, and run tags.
 - `C.22.2` governs the accepted problem-side record and problem-side claims related to the carried distinction.

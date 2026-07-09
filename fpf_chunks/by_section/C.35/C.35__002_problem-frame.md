@@ -6,12 +6,12 @@ section_id: "C.35:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:1 — Problem frame"
-line_start: 62394
-line_end: 62447
+line_start: 62992
+line_end: 63046
 dependencies:
   - "A.22"
   - "A.6.M"
@@ -52,9 +52,9 @@ keywords:
 
 ### C.35:1 - Problem frame
 
-Use this pattern when a generated, searched, clustered, queried, learned, transformed, simulated, or discovered structure-bearing output may seed or inform architecturing, and the practitioner must decide whether it can enter architecture work before or around `C.32` candidate admission.
+Use this pattern when a generated, searched, clustered, queried, learned, transformed, simulated, or discovered output that carries or describes selected structure may seed or inform architecturing, and the practitioner must decide whether it can enter architecture work before or around `C.32` candidate admission.
 
-Primary working reader: an architect, architecture researcher, AI-assisted architecture worker, model-based engineer, or reviewer receiving a structure-bearing output from DSM and MDM modularization, MBSE query and view generation, graph grammar, model transformation, NAS, DSE, QD, OEE, and NQD search, LLM-assisted architecture design, code-agent mapping, simulation, benchmark trace, or source discovery.
+Primary working reader: an architect, architecture researcher, AI-assisted architecture worker, model-based engineer, or reviewer receiving an output that carries or describes selected structure from DSM and MDM modularization, MBSE query and view generation, graph grammar, model transformation, NAS, DSE, QD, OEE, and NQD search, LLM-assisted architecture design, code-agent mapping, simulation, benchmark trace, or source discovery.
 
 Typical entry phrases:
 
@@ -71,7 +71,7 @@ The first useful output is `StructuralSynthesisDiscoveryAdequacyNote@Project`:
 ```text
 StructuralSynthesisDiscoveryAdequacyNote@Project:
   groundedArchitectureQuestionRef:
-  sourceStructureRefs:
+  selectedSourceStructureRefs:
   generationOrDiscoveryMethodRef:
   searchOrQuerySpaceRef?:
   constraintRefs:
@@ -80,6 +80,7 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
   synthesisStructureMapOrTransformationTrace?:
   preservedStructure:
   lostStructure:
+  constraintGovernedUnfoldingStructureRef?:
   sourceLabelRecoveryRef?:
   observationAndUncertaintyRefs?:
   validationOrComparisonRefs?:
@@ -89,18 +90,18 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
   realizedHolonStructureRefs?:
   measurementOrEvalReturnRefs?:
   bearerFeasibilityQuestionRef?:
-  receivingOwnerOrPatternRef:
+  receivingGoverningPatternRef:
   receivingClaimKind:
   admissibleUse:
   nonAdmissibleUse:
-  sourceReturnCondition:
+  carrierAdmissionReturnCondition:
 ```
 
-Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which owner receives the next claim.
+Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which governing pattern receives the next claim.
 
-What C.35 buys in practice: the practitioner can accept useful generated or discovered material without handing it authority. The pattern lets a search output, cluster, query result, model transformation, or LLM proposal become source material for architecturing only after carrier, described structure, admission condition, and receiving owner are named.
+What C.35 buys in practice: the practitioner can accept useful generated or discovered output without handing it authority. The pattern lets a search output, cluster, query result, model transformation, or LLM proposal become candidate input for architecturing only after carrier, described structure, admission condition, and receiving governing pattern are named.
 
 Ordinary working move: name the produced carrier first, then the described structure, then the admission condition. If those three cannot be separated, do not let the output enter C.32 or a decision.
 
-Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, or run the work itself. Use the owner of that question first. Return to C.35 only when a produced carrier must be admitted or rejected before another architecture owner relies on it.
+Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, or run the work itself. Use the governing pattern for that question first. Return to C.35 only when a produced carrier must be admitted or rejected before another architecture pattern relies on it.
 

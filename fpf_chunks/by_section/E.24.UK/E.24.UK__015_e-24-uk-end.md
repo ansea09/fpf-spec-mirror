@@ -6,12 +6,12 @@ section_id: "E.24.UK:End"
 section_title: "E.24.UK:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__015_e-24-uk-end.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
   - "E.24.UK:End — E.24.UK:End"
-line_start: 80698
-line_end: 80699
+line_start: 81734
+line_end: 81737
 dependencies:
   - "A.11"
   - "A.6.5"
@@ -30,4 +30,6 @@ keywords:
 ---
 
 ### E.24.UK:End
+
+# **Part F — The Unification Suite (U-Suite): Concept-Sets, SenseCells & Contextual Role Assignment**
 

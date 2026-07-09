@@ -6,16 +6,17 @@ section_id: "C.3:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__015_sota-echoing.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:13 — SoTA-Echoing"
-line_start: 40735
-line_end: 40738
+line_start: 41239
+line_end: 41242
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.22.CGUS"
   - "A.8"
   - "C.2.3"
   - "C.3.1"

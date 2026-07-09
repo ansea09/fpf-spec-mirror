@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 67629
-line_end: 69369
+line_start: 68267
+line_end: 70009
 dependencies:
   - "A.10"
   - "A.15"
@@ -176,6 +176,8 @@ After kind and governing pattern recovery, state the remaining admissible reader
 Tool-assisted trigger inventories may help find candidate spans, but they cannot close ontological precision repair. Closure remains recovered kind, recovered relation or substrate, admissible use, non-admissible overread, and remaining reader use by value.
 
 **Replacement-candidate closure.** A repair that replaces one trigger word with another word or phrase is not closed until the replacement candidate itself passes the same `E.10` trigger scan. If the candidate is another umbrella word, quasi-scale, process metaphor, role-free deontic word, or untyped head, recover the kind named by value, relation, admissible use, and governing pattern, apply `F.18` when a durable name is being minted, or fail closed. A bounded repair may therefore require repeated `E.10` passes until the candidate wording reaches a stable closure point: ordinary wording with no FPF-governed use, local repair with recovered kind and use, governing-pattern application, `F.18` durable-name result, controlled precision-reduction result, or explicit blocker. Do not accept a smoother synonym as repair evidence.
+
+**MG-DA cold-reader closure.** A repair is closed only when a reader who has not read the `DRR`, campaign notes, or reviewer memory can recover the object under discussion, its FPF kind or ordinary non-FPF status, the relation or claim position it occupies, the admissible reader use, and the next governing pattern when a stronger claim is being made. Replacing a trigger with `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, `specialization`, or another broad head fails this check unless the sentence names the specific live object and position that make the wording meaningful: for example the relation kind when a relation is claimed, the value slot when a value is claimed, the condition bearer when a condition is claimed, or the receiving governing pattern when authority is being assigned. A phrase such as `specialization` must say what specializes what, by which specialization relation or governing pattern, and which inherited or changed slots or uses matter. This is the MG-DA test for wording repair: the repaired phrase must preserve meaningful generality without losing the domain object a practitioner should recognize.
 
 #### E.10:0.2b - Wording-Use Trigger Check Registry
 

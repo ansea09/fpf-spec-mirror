@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame-informative.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:1 — Problem frame  (informative)"
-line_start: 72157
-line_end: 72174
+line_start: 72917
+line_end: 72934
 dependencies:
   - "A.15"
   - "A.2"
@@ -48,7 +48,7 @@ Post‑2015 MBSE and architecture practice emphasise **viewpoints and views** (I
 
 In FPF terms:
 
-* the things we talk about — systems, methods, services, epistemes — are `U.Entity` or `U.Holon` values in `EntityOfConcernSlot`;
+* the things we talk about — systems and admitted holons, methods, services, and epistemes — fill `EntityOfConcernSlot` under their governing kind discipline; describing or viewing a method, service, or source label does not make it a holon by label;
 * descriptions and specifications of those things are `U.Episteme` instances (`…Description` or `…Spec`) with a **DescriptionContext** = `⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`;
 * episteme-side views are `U.View` (`U.EpistemeView`) that slice ClaimGraphs under specific viewpoints and representation schemes.
 

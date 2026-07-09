@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding-worked-slices.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
   - "E.11.PUR:5 — Archetypal Grounding - Worked Slices"
-line_start: 71019
-line_end: 71058
+line_start: 71779
+line_end: 71818
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -64,9 +64,9 @@ Use `PatternUseRecommendation@Context` when the current question is which FPF pa
 
 #### E.11.PUR:5.3 - P2W Boundary
 
-Situation: a problem card has accepted problem-side material and the team asks for the next useful FPF use.
+Situation: a problem card has an accepted problem-side record or cue and the team asks for the next useful FPF use.
 
-Use `E.18.1` for the carry-through relation. `E.18.1` may cite `PatternUseRecommendation@Context` when the next recovered value is a recommended FPF pattern use. P2W remains the relation from accepted problem-side material to the next governed value; `E.11.PUR` does not replace it.
+Use `E.18.1` for the carry-through relation. `E.18.1` may cite `PatternUseRecommendation@Context` when the next recovered value is a recommended FPF pattern use. P2W remains the relation from accepted problem-side record or cue to the next governed value; `E.11.PUR` does not replace it.
 
 #### E.11.PUR:5.4 - Proxy Failure
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:section-001"
 section_title: "E.24.UK settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_e-24-uk-settlement.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
   - "A.6.5:section-001 — E.24.UK settlement"
-line_start: 16349
-line_end: 16364
+line_start: 16403
+line_end: 16418
 dependencies:
   - "A.1"
   - "A.2.1"

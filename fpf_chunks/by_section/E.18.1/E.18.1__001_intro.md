@@ -6,12 +6,12 @@ section_id: "E.18.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__001_intro.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.18.1 — Principles-to-Work Carry-Through"
   - "E.18.1:intro — Intro"
-line_start: 76757
-line_end: 76767
+line_start: 77524
+line_end: 77534
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,5 +57,5 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
 > **Builds on:** `E.18` Transformation Flow Structure, `C.22.2` ProblemCard@Context, `A.6.0` `U.Signature`, `A.6.1` `U.Mechanism`, the A.15 work family, `C.29`, `C.16`, `F.9`, `A.20`, `A.21`, and Part G comparison, selection, and refresh patterns.
-> **Purpose:** relate accepted problem-side material to the next FPF kind named by value, relation, record, or pattern application while preserving useful first-principles carry-through.
+> **Purpose:** relate an accepted problem-side record to the next FPF kind named by value, relation, record, or pattern application while preserving useful first-principles carry-through.
 

@@ -6,16 +6,17 @@ section_id: "C.3:6"
 section_title: "Decision Split With E.24.UK"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split-with-e-24-uk.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split With E.24.UK"
-line_start: 40680
-line_end: 40691
+line_start: 41180
+line_end: 41195
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.22.CGUS"
   - "A.8"
   - "C.2.3"
   - "C.3.1"
@@ -41,9 +42,13 @@ Use this decision split:
 
 | Current question | Governing pattern |
 | --- | --- |
-| What kind of thing does this claim quantify over? | `C.3`, `C.3.1`, and dependent C.3 patterns |
+| What kind of entity or value does this claim quantify over? | `C.3`, `C.3.1`, and dependent C.3 patterns |
 | Is this local kind a subkind of that local kind? | `C.3.1` |
 | Does this context-local kind deserve a durable public FPF `U.*` name? | `E.24.UK`, then `F.8` and `F.5` or `F.18` |
 | Is the candidate universal enough for kernel-level status? | `A.8` after `E.24.UK` |
 | Can existing ontology express it without a new kind? | `A.11` after object recovery |
+
+When typed reasoning is part of a passage from constructive representation or working model to a target kind or logical representation, cite `TypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.3 contributes the kind intent, extent, subkind, and bridge loci inside that B.3.5-governed local `A.22.CGUS` structure specialization. It does not create separate unfolding-structure authority and does not make the constructive trace, working-model relation, proof, or evidence relation true by label.
+
+The unfolding is admitted only when the block can name the starting representation, target kind or logical representation, bridge if current, preserved structure, lost or collapsed structure, `CL` or `CL^k`, admissible reuse, blocked substitution, and the proof or evidence governing pattern when that stronger claim is current.
 

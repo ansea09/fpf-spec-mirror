@@ -6,12 +6,12 @@ section_id: "E.24.CD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__001_intro.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection"
   - "E.24.CD:intro — Intro"
-line_start: 79819
-line_end: 79824
+line_start: 80855
+line_end: 80860
 dependencies:
   - "A.19"
   - "A.19.ECS"

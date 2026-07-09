@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:1 — Problem frame"
-line_start: 62208
-line_end: 62259
+line_start: 62803
+line_end: 62855
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -46,7 +46,7 @@ keywords:
 
 ### C.34:1 - Problem frame
 
-Use this pattern when two structure-bearing objects are being treated as the same enough for architecture work and the practitioner must say what selected structure is preserved, what is lost, and which use the correspondence licenses.
+Use this pattern when two descriptions, views, models, generated outputs, or realized observations that carry or describe selected structure are being treated as the same enough for architecture work and the practitioner must say what selected structure is preserved, what is lost, and which use the correspondence licenses.
 
 Primary working reader: an architect, reviewer, or model-assisted practitioner comparing views, descriptions, source models, generated graphs, candidate architectures, realized structures, abstraction levels, coarsened models, or transformed models.
 
@@ -58,15 +58,15 @@ Typical entry phrases:
 "The generated graph matches the module graph; is the semantic relation the same?"
 "This candidate preserves dataflow but changes control authority."
 "The neural architecture replacement keeps shape but changes routing and memory placement."
-"The narrative order preserves the architecture trade-off; what source structure is still same enough for this use?"
+"The narrative order preserves the architecture trade-off; what selected source structure is still same enough for this use?"
 ```
 
 The first useful output is `StructuralPreservationAdequacyNote@Context`:
 
 ```text
 StructuralPreservationAdequacyNote@Context:
-  sourceStructureRefs:
-  targetStructureRefs:
+  selectedSourceStructureRefs:
+  selectedTargetStructureRefs:
   architectureClaimRef?:
   mappingMode:
     exactEquivalence | isomorphism | homomorphism | correspondence |
@@ -76,15 +76,16 @@ StructuralPreservationAdequacyNote@Context:
   preservedInvariantsOrCompositions?:
   lostStructure:
   relationTypeSemantics?:
-  sourceObservationClass?:
+  relationObservationClass?:
   directionality:
   scopeOrScaleWindow?:
   lensUseOutputRef?:
   correspondenceRecordRef?:
+  constraintGovernedUnfoldingStructureRefs?:
   admissibleUse:
   nonAdmissibleUse:
-  sourceReturnCondition:
-  receivingOwnerOrPatternRef:
+  preservationLossReturnCondition:
+  receivingGoverningPatternRef:
   receivingClaimKind:
 ```
 
@@ -94,5 +95,5 @@ What C.34 buys in practice: the practitioner can say "same enough for this use" 
 
 Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name the relation that does not survive, and choose the weakest mapping word that still supports the next use.
 
-Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the direct owner and keep C.34 only for the architecture-specific preservation claim.
+Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the direct governing pattern and keep C.34 only for the architecture-specific preservation claim.
 

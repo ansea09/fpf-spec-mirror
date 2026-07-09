@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.P2S"
-pattern_title: "Problem-to-Structure Architecturing Transformation Flow"
+pattern_title: "Problem-to-Structure Architecturing Unfolding"
 section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "c927fef1dac0f4d5f8ca93deef8a52de75e3f77b"
+commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
 heading_path:
-  - "C.32.P2S — Problem-to-Structure Architecturing Transformation Flow"
+  - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 59561
-line_end: 59637
+line_start: 60093
+line_end: 60170
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22.CGUS"
   - "A.3.4"
   - "B.2"
   - "C.11"
@@ -49,29 +50,32 @@ dependencies:
   - "C.35"
   - "E.17"
   - "E.18"
+  - "E.18.3"
   - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
 keywords:
+  - "ArchitectureUnfoldingStructureUse@Project"
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
-  - "architecture work flow"
-  - "owner-specific return"
-  - "problem-to-structure architecturing flow"
+  - "candidate structures"
+  - "expected structures"
+  - "governing-pattern-specific return"
+  - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
 ---
 
 ### C.32.P2S:1 - Problem frame
 
-Use this pattern when an architect or architecture-responsible practitioner starts from architecture-relevant problem pressure that needs to stay connected through selected structures, candidate synthesis, project architecture decision, realization work, actual-structure feedback, and the next owner-specific action.
+Use this pattern when an architect or architecture-responsible practitioner starts from architecture-relevant problem pressure that needs to stay connected through selected structures, candidate synthesis, project architecture decision, realization work, actual-structure feedback, and the next governed action.
 
 The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; a transformer holon cannot yet produce the desired transformed holon; or operation shows that expected structures and actual structures diverge.
 
-The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a local project record of one architecturing flow. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains governed by its owner pattern.
+The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a local project record of one architecturing flow. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains governed by the pattern that governs the current claim.
 
-For the first pass, fill only the fields that prevent the next wrong move: described holon, bounded context, problem pressure, first governing owner, one unknown or selected structure slot, and neighboring owner for the next claim. Add decision, work, eval, publication, and feedback refs only when the flow reaches the owner pattern that governs them.
+For the first pass, fill only the fields that prevent the next wrong move: described holon, bounded context, problem pressure, first governing pattern, one unknown or selected structure slot, and governing pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the flow reaches the pattern that governs them.
 
 ```text
 ProblemToStructureArchitecturingFlowCard@Project:
@@ -79,10 +83,11 @@ ProblemToStructureArchitecturingFlowCard@Project:
   describedHolonRef:
   boundedContextRef:
   architectingHolonOrRoleRef?:
-  firstGoverningOwnerRef:
+  firstGoverningPatternRef:
   problemPressure:
     pressureKind:
-    sourceSignalRefs?:
+    problemPressureSignalRefs?:
+    sourceUseRecordRefs?:
     architectureConcernRefs?:
     currentStopOrReturnReason?:
   architectureContent:
@@ -103,7 +108,7 @@ ProblemToStructureArchitecturingFlowCard@Project:
     handedToMethodsOrWork:
     latentOrHiddenStructure:
     lostStructure:
-    sourceReturnCondition:
+    strongerStructureInspectionReturnCondition:
   decisionAndWorkDocking:
     candidateSetOrPaletteRef?:
     selectedSetRef?:
@@ -127,16 +132,16 @@ ProblemToStructureArchitecturingFlowCard@Project:
     operationOrUseObservationRefs?:
     functionalCharacteristicImplications?:
     freshnessOrDecaySignalRefs?:
-    ownerSpecificReturnOrRepair:
+    governingPatternSpecificReturnOrRepair:
       c32NextSynthesisExit?
       c32PadOrAdaDecisionRepairOrSupersessionExit?
       e23ImprovementCycleRef?
       g11CurrentnessRefreshRef?
       e18TransformationFlowRefreshRef?
       c18C19ArchiveFrontPoolUpdateRef?
-      c30DescriptionOrViewSourceReturnRef?
-  neighboringOwnerForNextClaim:
+      c30DescriptionOrViewLossRepairRef?
+  governingPatternForNextClaim:
 ```
 
-Not this pattern when the current work is only a problem card, only a grounded architecture claim, only a structural view, only a candidate palette, only a project architecture decision, only an ADR-like publication, only work planning, only performed work, only measurement, only a mathematical lens, or only `G.11` currentness, freshness, telemetry, edition, or decay orchestration. Use the owner named in `Relations` for that narrower claim.
+Not this pattern when the current work is only a problem card, only a grounded architecture claim, only a structural view, only a candidate palette, only a project architecture decision, only an ADR-like publication, only work planning, only performed work, only measurement, only a mathematical lens, or only `G.11` currentness, freshness, telemetry, edition, or decay orchestration. Use the pattern named in `Relations` for that narrower claim.
 
