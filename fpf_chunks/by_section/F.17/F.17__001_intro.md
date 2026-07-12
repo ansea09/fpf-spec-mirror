@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:intro — Intro"
-line_start: 87690
-line_end: 87703
+line_start: 89221
+line_end: 89236
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,18 +19,22 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.7"
+  - "A.22.CGUS"
   - "A.6.5"
   - "A.6.P"
   - "B.3"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.MOVE"
+  - "E.11"
   - "E.17"
   - "F.1"
   - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -40,26 +44,23 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.11"
 keywords:
-  - "UTS"
-  - "Unified Term Sheet"
-  - "glossary"
-  - "human-readable output"
-  - "publication"
-  - "summary table"
 ---
 
 ## F.17 - Unified Term Sheet
-> **Type:** Pattern
+> **Type:** Lexical publication pattern (F)
 > **Status:** Stable
 
-Use this when a term decision must become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and must be shown as one reviewed term row.
+Use this when a term decision is to become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and publication as one reviewed term row is current.
 
-First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed FPF kind or governed object kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying object. Then publish only the term-row facts that are already governed there.
+First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed value and its kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying value. Then publish only the term-row facts that are already governed there.
+
+Primary EntityOfConcern: one durable reader-facing term decision published by one `UnifiedTermRow` in one bounded unification thread. The role, status value, relation, slot kind, local concept, demonstrated row, or other underlying governed value remains the EntityOfConcern of its direct pattern; F.17 publishes its term decision and does not reconstitute that value.
 
 What goes wrong if missed: a public term sheet becomes a global glossary, a row turns into an ontology claim, a block name becomes a subtype, or a familiar label smuggles role, status, evidence, publication, or source authority into reuse.
 
 What this pattern buys: a compact reader-facing row that preserves the governed object, direct pattern, local senses, bridge, selected names, admissible use, blocked use, and currentness condition without redoing the whole unification argument.
 
-Do not use this pattern for one sentence repair, one private glossary note, one local synonym choice, or one attempt to make an object real by putting it into a table. Use `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the direct domain pattern first when the kind, relation, slot position, admissible use, or name-card decision is still unsettled.
+Do not use this pattern for one sentence repair, one private glossary note, one local synonym choice, or one attempt to make an object real by putting it into a table. A short local mantra that only keeps one pattern's Solution in attention remains Plain pattern-local wording and needs no UTS row. Use `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the direct domain pattern first when the kind, relation, slot position, admissible use, or name-card decision is still unsettled.
 

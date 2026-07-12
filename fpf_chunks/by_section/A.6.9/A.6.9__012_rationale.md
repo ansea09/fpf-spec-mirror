@@ -6,12 +6,12 @@ section_id: "A.6.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__012_rationale.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:10 — Rationale"
-line_start: 18621
-line_end: 18631
+line_start: 18766
+line_end: 18776
 dependencies:
   - "A.6.6"
   - "A.6.P"

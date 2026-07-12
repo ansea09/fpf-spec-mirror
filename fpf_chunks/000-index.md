@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `d77339d7056433de3ee55ad863860ee4b3006f6f`
+Commit SHA: `44dd88188a07646ef23aca32627a3f670525853f`
 
 Chunking method: `pattern-aware`
 
-Patterns: `279`
+Patterns: `280`
 
 ## Patterns
 
@@ -223,8 +223,9 @@ Patterns: `279`
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
-- [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
-- [E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence](by_pattern/E.11.PUR.md)
+- [E.11 — Practical-Use Guidance and Pattern Discovery](by_pattern/E.11.md)
+- [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
+- [E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination](by_pattern/E.11.PUR.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)
 - [E.13 — Pragmatic Utility and Value Alignment](by_pattern/E.13.md)
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)
@@ -240,7 +241,7 @@ Patterns: `279`
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
 - [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
 - [E.18 — Transformation Flow Structure](by_pattern/E.18.md)
-- [E.18.1 — Principles-to-Work Carry-Through](by_pattern/E.18.1.md)
+- [E.18.1 — P2W Problem-to-Work Carry-Through](by_pattern/E.18.1.md)
 - [E.18.2 — Transformation Flow Mathematical Description](by_pattern/E.18.2.md)
 - [E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure](by_pattern/E.18.3.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)

@@ -1,73 +1,63 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Carry-Through"
+pattern_title: "P2W Problem-to-Work Carry-Through"
 section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.18.1 — Principles-to-Work Carry-Through"
+  - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 77535
-line_end: 77562
+line_start: 78768
+line_end: 78800
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
-  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
   - "A.6.1"
-  - "B.3"
   - "C.16"
   - "C.22.2"
   - "C.29"
-  - "E.10"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.17"
   - "E.18"
-  - "E.19"
+  - "E.18.3"
   - "F.9"
+  - "G.11"
+  - "G.2"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
-  - "P2W"
-  - "accepted ProblemCard@Context"
-  - "carry-through record"
-  - "evaluation refresh"
-  - "formal substrate"
-  - "mechanism realization"
-  - "method-family selection"
-  - "principles-to-work"
-  - "work planning"
 ---
 
 ### E.18.1:1 - Problem frame
 
 Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is not yet settled. The practitioner has an unsettled carry-through question: which problem-side distinction can be carried into the next FPF relation or record named by value?
 
-The primary EntityOfConcern is the P2W carry-through relation: the relation between an accepted problem-side record and the next FPF use whose governing relation can be named by value. P2W keeps a carried distinction usable by turning it into one recoverable next FPF use instead of letting an inspiring explanation become an all-purpose project claim.
+The primary EntityOfConcern is the P2W carry-through relation: the relation between accepted problem-side material and the wider work transformation that continues to use its selected distinctions. P2W carries those distinctions through method selection, planning when current, dated work, result interpretation, and return when an earlier assumption changes.
+
+Keep three objects separate. The **P2W relation** is the EntityOfConcern of this pattern. The **subject EntityOfConcern** is the system, episteme, method, role, work occurrence, relation, or other project entity addressed by the accepted problem and by each direct pattern. The **ProblemCard, compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those relations inspectable. Later method enactment or dated work can change or preserve the subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+
+E.11.PUA governs a smaller use and may begin without `ProblemCard@Context`: apply one selected pattern to one current practical question, obtain the first directly typed result, and state its receiving use. E.18.1 begins only when the wider work transformation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
+
 
 #### E.18.1:1.1 - Use this when
 
 - an accepted `ProblemCard@Context` names a working problem and the team needs a disciplined next FPF use toward method, planning, performed work, or result interpretation;
-- a first-principles, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism-position, method-position, `A.15.2 U.WorkPlan` or plan-item, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
-- a transformation-flow structure, mathematical path relation in a graph-shaped description, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next FPF use must still be recovered as an FPF kind or relation named by value;
+- an invariant, `U.Signature(profile=FormalSubstrate)`, `PrincipleFrame`, mechanism-position, method-position, `A.15.2 U.WorkPlan` or plan-item, performed-work, result-record, or source-currentness cue is present, but the FPF kind or relation to use next is still unsettled;
+- a transformation-flow structure, mathematical path relation in a graph-shaped description, flow diagram, principle scheme, scenario, functional description, or source publication helps the team think, while the next FPF use still lacks an FPF kind or relation named by value;
 - a result artifact, telemetry line, acceptance record, quality-evaluation record, done-state update, feedback pin, or integration claim needs to be unpacked before it can guide the next FPF use.
 
 #### E.18.1:1.2 - What goes wrong if missed
 
-The team jumps from a convincing problem-side formulation into downstream language without naming the FPF relation being used. The work then looks connected to first principles, but the next record is unclear, the result phrase becomes too broad, and measurement or source-currentness changes have no honest return relation.
+The team jumps from a convincing problem-side formulation into downstream language without naming the FPF relation being used. The work then looks responsive to the accepted problem, but the next record is unclear, the result phrase becomes too broad, and measurement or source-currentness changes have no honest return relation.
 
 #### E.18.1:1.3 - What this buys
 
-The practitioner gets one next FPF use whose governing relation is named: write a P2W carry-through record, recover the next FPF kind or relation, write or use the governed record, stop with a reduced-use cue, or return to the earlier application whose assumption changed. The payoff is practical: first-principles thinking remains action-guiding without becoming hidden work authorization.
+The practitioner gets one next FPF use whose governing relation is named: preserve the accepted claim, recover and apply the direct pattern, obtain its governed value, stop with a reduced-use cue, branch across independently governed relations, or return to the earlier continuation whose relied-on relation changed. Under named reliance, a compact carry-through note keeps that path replayable. The payoff is practical: accepted problem-side distinctions remain action-guiding without becoming hidden work authorization.
 
 #### E.18.1:1.4 - Not this pattern when
 

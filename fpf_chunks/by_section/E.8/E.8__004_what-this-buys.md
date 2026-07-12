@@ -6,12 +6,12 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 66875
-line_end: 66901
+line_start: 67576
+line_end: 67602
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -60,7 +60,7 @@ keywords:
 
 **First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
 
-**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance phrases. They do not create a root `U.Move` or a local pattern-application ontology. When the phrase itself becomes load-bearing, recover the governed value: usually `PatternUseRecommendation@Context` or `PatternUseSequence@Context` under `E.11.PUR`, or a direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its own governing pattern. Use `E.10.MOVE` when the text cannot tell which value is current.
+**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance phrases. They do not create a root `U.Move` or a local pattern-application ontology. When the phrase itself becomes load-bearing, recover the governed value: usually `PatternUseRecommendation@Context`; when one named `PatternUseCoordination@Context` has `orderingMode=totalOrder`, its bounded specialization may be called `PatternUseSequence@Context` under `E.11.PUR`. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its own governing pattern. Use `E.10.MOVE` when the text cannot tell which value is current.
 
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 

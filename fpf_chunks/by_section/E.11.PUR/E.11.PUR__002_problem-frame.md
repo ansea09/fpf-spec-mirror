@@ -1,42 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUR"
-pattern_title: "Pattern-Use Recommendation and Pattern-Use Sequence"
+pattern_title: "Pattern-Use Applicability, Recommendation, and Coordination"
 section_id: "E.11.PUR:1"
-section_title: "Problem Frame"
+section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__002_problem-frame.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
-  - "E.11.PUR:1 — Problem Frame"
-line_start: 71678
-line_end: 71683
+  - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
+  - "E.11.PUR:1 — Problem frame"
+line_start: 72852
+line_end: 72863
 dependencies:
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.5"
-  - "A.16"
+  - "A.19"
+  - "A.19.ECS"
   - "A.21"
+  - "A.6.5"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
-  - "E.10"
-  - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.11.PUA"
+  - "E.18"
   - "E.18.1"
-  - "E.24"
-  - "E.8"
+  - "G.11"
 keywords:
 ---
 
-### E.11.PUR:1 - Problem Frame
+### E.11.PUR:1 - Problem frame
 
-FPF is meant to help a working team find a useful next pattern use in an actual problem situation. The natural way to say this in teaching and project conversation is often "what is the next useful move?" or "what professional move does FPF give here?"
+#### E.11.PUR:1.1 - Use this when
 
-That speech is useful, but it becomes unsafe when the word "move" starts to name a new ontology. A recommended pattern use is not the work itself, not a gate passage, not a work plan, not an architecture decision, and not an authorization to act. It is a pattern-use relation that helps the user choose the next FPF pattern application and its expected output.
+Use `E.11.PUR` after one or more `CandidatePatternUse@Context` values are available and a person or assisting agent needs to decide whether each use fits, which use to recommend, or how several uses should be coordinated for the current concern.
+
+**Primary EntityOfConcern.** One current PUR-governed value over already inspected candidate pattern uses: a `PatternUseApplicabilityFinding@Context`, a `PatternUseRecommendation@Context`, or a `PatternUseCoordination@Context`. A `PatternUseOrderingRelation@Context` is current only inside the coordination it qualifies.
+
+**What this buys.** Applicability no longer silently becomes recommendation, and presentation order no longer silently becomes workflow order. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms.
+
+**Not this pattern when.** Use `E.11` while public cards are still being compared. Use `E.11.PUA` to apply one selected pattern and obtain its first result. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
 

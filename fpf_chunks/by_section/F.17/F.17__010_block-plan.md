@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Block plan"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_block-plan.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:8 — Block plan"
-line_start: 87830
-line_end: 87845
+line_start: 89428
+line_end: 89443
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,18 +19,22 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.7"
+  - "A.22.CGUS"
   - "A.6.5"
   - "A.6.P"
   - "B.3"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.MOVE"
+  - "E.11"
   - "E.17"
   - "F.1"
   - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -40,18 +44,13 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.11"
 keywords:
-  - "UTS"
-  - "Unified Term Sheet"
-  - "glossary"
-  - "human-readable output"
-  - "publication"
-  - "summary table"
 ---
 
 ### F.17:8 - Block plan
 
-A UTS must declare its block plan. Blocks should be few enough for a careful reader to remember and specific enough to make row search easy.
+A UTS is complete only with a declared block plan. Blocks stay few enough for a careful reader to remember and specific enough to make row search easy.
 
 Example block plan for a role, method, work, and status thread:
 
@@ -63,5 +62,5 @@ Example block plan for a role, method, work, and status thread:
 - Relation, slot, interface, and bridge terms.
 - Evidence, assurance, source, and publication terms when those are the governed values.
 
-This example is not a required ontology. It is a didactic grouping. The sheet may use different blocks when the unification thread is about architecture, transformation flows, evaluation characteristics, Part G search packs, or another area.
+This example does not define an ontology. It is a didactic grouping. The sheet may use different blocks when the unification thread is about architecture, transformation flows, evaluation characteristics, Part G search packs, or another area.
 

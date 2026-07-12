@@ -6,14 +6,15 @@ section_id: "E.4.DPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__010_consequences.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:9 — Consequences"
-line_start: 65772
-line_end: 65777
+line_start: 66472
+line_end: 66477
 dependencies:
   - "C.33"
+  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -25,7 +26,6 @@ dependencies:
   - "E.23"
   - "E.4"
   - "E.4.DPF.DA"
-  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
@@ -39,5 +39,5 @@ keywords:
 
 The authoring spine adds overhead before a local framework becomes durable. That overhead prevents hidden source loss, hidden Core change, hidden relation semantics, and hidden currentness debt.
 
-The pattern also makes local publication more useful. Readers get a coherent publication carrier or first-entry carrier, while maintainers can still inspect the framework edition, source pack, relation records, decision records, and quality route.
+The pattern also makes local publication more useful. Readers get a coherent publication or practical-use carrier, while maintainers can still inspect the framework edition, source pack, relation records, decision records, and quality route.
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 12776
-line_end: 12866
+line_start: 12894
+line_end: 13013
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,7 +59,36 @@ This is an admissible direct `RepresentationSchemeTransition` if no new claims a
 
 **Published diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
 
-The move stays in this pattern only if the EntityOfConcern is preserved, the diagram does not silently add new semantic commitments, and reasoning-medium change is declared. If the diagram starts asserting dependency theory not actually stated by the source table, the case must reopen and another governing pattern may apply.
+The transition stays in this pattern only if the EntityOfConcern is preserved, the diagram does not silently add new semantic commitments, and reasoning-medium change is declared. If the diagram starts asserting dependency theory not stated by the source table, return to the source relation and open the governing pattern for the changed claim.
+
+The concrete case can be cited as follows:
+
+```text
+RepresentationSchemeTransitionRelation@CoolingLoopReview <: U.Relation:
+  TransitionBoundedContextSlot = CoolingLoopReview
+  PreservedEntityOfConcernSlot = CoolingLoop
+  SourceRepresentationSlot = CoolingLoopRelationTable
+  ReceivingRepresentationSlot = CoolingLoopDependencyDiagram
+  SourceRepresentationSchemeDescriptionSlot = TabularRelationScheme
+  ReceivingRepresentationSchemeDescriptionSlot = DirectedDiagramScheme
+  direction = CoolingLoopRelationTable -> CoolingLoopDependencyDiagram
+
+RepresentationSchemeTransitionDescription@CoolingLoopReview <: U.Episteme:
+  entityOfConcernRef: CoolingLoopTableToDiagramTransitionRef
+  sourceRelationReferenceEpistemeRefs[]: CoolingLoopSensorRelationReference; CoolingLoopValveRelationReference
+  preservedClaimRefs[]: SensorAConnectedToCoolingLoop; ValveBConnectedToCoolingLoop
+  representationSchemeDeltaDescriptionRef: rows become directed diagram edges
+  reasoningMediumDeltaDescriptionRef: pairwise lookup becomes topology inspection
+  representationLossDescriptionRef: table cell qualifiers are not printed on the diagram edge
+  recoverabilityDescriptionRef: each edge links to its exact source table relation
+  admissibleUseDescriptionRef: inspect connection topology and recover source rows
+  nonAdmissibleDownstreamUseDescriptionRef: infer control timing or work order
+  returnConditionDescriptionRef: return to the exact source relation when a qualifier or timing claim matters
+  changedClaimGoverningPatternRef: direct control, timing, or work pattern selected for that later claim
+```
+The diagram does not become the CoolingLoop, control architecture, or work sequence. The transition relation identifies the same-EntityOfConcern source-to-receiving relation. The transition-description episteme states its declared use and recovery path.
+
+
 
 #### A.6.3.RT:5.2.a - Correspondence-mediated text-to-table shift
 **Source prose slice.** `In the safety view, CL-2 maintains the required temperature condition during standard operating demand.`
@@ -67,7 +96,7 @@ The move stays in this pattern only if the EntityOfConcern is preserved, the dia
 **Published table slice.** `| View | Entity | Condition | Correspondence model |
 | Safety | CL-2 | required temperature condition during standard operating demand | CM-12 |`
 
-The move stays in this pattern only if the correspondence remains explicit, the EntityOfConcern stays preserved, and the resulting table does not quietly import bridge semantics or a changed EntityOfConcern. Because the required correspondence witness is doing real work here, a source-bearing continuity note is often warranted instead of relying only on the rendered table.
+The transition stays in this pattern only if the correspondence remains explicit, the EntityOfConcern stays preserved, and the resulting table does not quietly import bridge semantics or a changed EntityOfConcern. Because the correspondence witness supplies the continuity basis here, a continuity note that cites the exact source representation and source relations is often warranted instead of relying only on the rendered table.
 
 #### A.6.3.RT:5.2.b - Same-entity diagram-to-structured-notation shift
 **Source diagram slice.** `CoolingLoop -> Sensor A; CoolingLoop -> Valve B`
@@ -86,7 +115,7 @@ This remains under `RepresentationSchemeTransition` when the notation states the
 
 This remains `RepresentationSchemeTransition` only when the same EntityOfConcern is preserved and the table or screen changes representation scheme or reasoning medium without adding performed-work order, module structure, evidence, gate passage, or control architecture. If the diagram, table, or screen turns the receiving representation into a functional, control, or flow architecture claim rather than re-rendering the already declared functional slice, apply `A.6.4`, `OntologicalReframing`, or `E.18` as applicable. If the diagram order is explanatory, causal, dependency-like, or didactic, do not treat it as physical time order or performed-work sequence unless that temporal claim is present in the source episteme and separately admissible. If a parser step or OCR step only extracts pixels, text, or carrier layout from a scanned diagram or screen, start with `A.7`; apply this pattern only when the extracted structure is being treated as an entityOfConcernRef-preserving representation of source `U.Episteme` claims with source-relation chain and loss notes visible.
 
-If the published screen becomes honest only by omitting exceptions, confidence bands, or source distinctions and by carrying a narrower admissible use with source-bearing return, apply A.6.3.CSC Controlled Semantic Coarsening rather than keeping the case here as ordinary representation-scheme transition.
+If the published screen becomes honest only by omitting exceptions, confidence bands, or source distinctions and by carrying a narrower admissible use with an explicit return condition to the exact source representation or source relations, apply A.6.3.CSC Controlled Semantic Coarsening rather than keeping the case here as ordinary representation-scheme transition.
 
 #### A.6.3.RT:5.3 - Boundary to textual rewrite
 A source prose note is shortened, reordered, or translated but remains essentially textual. That case stays with `ConservativeRetextualization`, not this pattern.
@@ -113,7 +142,7 @@ This also stays outside `RepresentationSchemeTransition`. The representation sch
 
 **Published dashboard tile.** `Service S: current dashboard view foregrounds cache-failover evidence; alternative branches and confidence bands remain in the incident worksheet.`
 
-This does **not** remain ordinary RepresentationSchemeTransition if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with source-bearing return to the source-bearing worksheet and a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, ordinary entityOfConcernRef-preserving representation-scheme transition no longer governs; apply A.6.3.CSC Controlled Semantic Coarsening rather than treating it as a normal scheme shift.
+This does **not** remain ordinary RepresentationSchemeTransition if the tile is treated as more than a narrow report view. The tile foregrounds one causal branch and suppresses uncertainty and alternative branches, so it stays honest only with an explicit return to the exact incident worksheet and its source relations, plus a non-admissible downstream-use line. It is not a causal proof, service status verdict, or action cue. Once that narrower-use card becomes primary, ordinary entityOfConcernRef-preserving representation-scheme transition no longer governs; apply A.6.3.CSC Controlled Semantic Coarsening rather than treating it as a normal scheme shift.
 
 #### A.6.3.RT:5.4.d - Boundary to structure-to-narrative rendering
 
@@ -129,7 +158,7 @@ A user or decoding relation tries to restate a latent region or distributed feat
 #### A.6.3.RT:5.5.a - Guarded decode-mediated rendering
 **Pinned source cluster.** `Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4 for the same diagnostic case.`
 
-**Published exploratory slice.** `A decoded rendering suggests a cluster that may correspond to the same failure episode already pinned in P-8, M-12, and EV-4. This rendering stays exploratory and report-only until the required recoverability evidence is published.`
+**Published exploratory slice.** `A decoded rendering suggests a cluster that may correspond to the same failure episode already pinned in P-8, M-12, and EV-4. This rendering stays exploratory and report-only until recoverability evidence sufficient for that use is published.`
 
 This example remains guarded-open rather than green. The didactic point is that a decode-mediated rendering may still be useful, but it does not become a normal same-entity publication merely because the result looks readable.
 

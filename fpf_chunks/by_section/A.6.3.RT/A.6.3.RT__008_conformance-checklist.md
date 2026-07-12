@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-checklist.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:7 — Conformance Checklist"
-line_start: 12872
-line_end: 12909
+line_start: 13019
+line_end: 13058
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,7 +44,7 @@ keywords:
 
 ### A.6.3.RT:7 - Conformance Checklist
 
-A conformance check is retained only if it changes the next admissible use of the shifted representation, blocks a concrete overclaim, or preserves a source relation or source-bearing return condition needed for the declared admissible use.
+A conformance check is retained only if it changes the next admissible use of the shifted representation, blocks a concrete overclaim, or preserves a source relation or exact return condition needed for the declared admissible use.
 
 #### A.6.3.RT:7.1 - RT-Core ordinary checks
 
@@ -54,9 +54,11 @@ A conformance check is retained only if it changes the next admissible use of th
    The result is genuinely a representation-scheme or reasoning-medium shift rather than mere textual rewrite, explanation work, carrier work, or changed EntityOfConcern.
 3. **CC-RT-3 — Admissible and non-admissible use are visible.**
    The ordinary use field set states the source representation or publication, the receiving representation or rendering, preservation of the same `entityOfConcernRef`, the source claim or commitment preserved for the intended use, the representation-scheme or reasoning-medium change, the admissible user action, and the downstream use not made admissible by this representation shift.
-4. **CC-RT-8 — Preserve-vs-retarget governing pattern is explicit.**
+4. **CC-RT-3a — Relation, transition description, and source-relation reference remain distinct.**
+   The `RepresentationSchemeTransitionRelation@Context` carries its exact RelationSignature and source-to-receiving direction. `RepresentationSchemeTransitionDescription@Context` has that relation as its EntityOfConcern and carries deltas, loss or recoverability, use, and return claims. Each `RepresentationTransitionSourceRelationReference@Context` instead has one source relation instance as its EntityOfConcern and carries its exact kind, signature, and governing-pattern reference.
+5. **CC-RT-8 — Preserve-vs-retarget governing pattern is explicit.**
    If the case fails the ordinary checks, the governing pattern for the changed claim is named explicitly (A.6.3.CR, E.17.EFP, A.6.3.CSC, A.6.4, carrier work under A.7, or another governing pattern).
-5. **CC-RT-14 — Functional-description publication overread is blocked.**
+6. **CC-RT-14 — Functional-description publication overread is blocked.**
    Functional diagrams, tables, screens, exports, parser results, and OCR results are kept separate from performed `U.Work`, gate passage, evidence, engineering justification, supervisory architecture, control architecture, and carrier work. OCR-style extraction and parsing-style extraction start with `A.7`; same-entity representation work stays here only when source-relation chain, same EntityOfConcern, representation-scheme change, and loss notes remain visible.
 
 #### A.6.3.RT:7.2 - RT-Conditional checks

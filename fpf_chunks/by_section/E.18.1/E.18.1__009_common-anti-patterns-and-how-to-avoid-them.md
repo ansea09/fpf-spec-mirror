@@ -1,51 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Carry-Through"
+pattern_title: "P2W Problem-to-Work Carry-Through"
 section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.18.1 — Principles-to-Work Carry-Through"
+  - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 77958
-line_end: 77968
+line_start: 79233
+line_end: 79243
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
-  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
   - "A.6.1"
-  - "B.3"
   - "C.16"
   - "C.22.2"
   - "C.29"
-  - "E.10"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.17"
   - "E.18"
-  - "E.19"
+  - "E.18.3"
   - "F.9"
+  - "G.11"
+  - "G.2"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
-  - "P2W"
-  - "accepted ProblemCard@Context"
-  - "carry-through record"
-  - "evaluation refresh"
-  - "formal substrate"
-  - "mechanism realization"
-  - "method-family selection"
-  - "principles-to-work"
-  - "work planning"
 ---
 
 ### E.18.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -53,7 +38,7 @@ keywords:
 | Anti-pattern | Repair |
 |---|---|
 | **Boundary fanout.** The pattern repeats long lists of what P2W is not. | Keep relation discipline in `E.18.1:4.4`; make local sections state the next P2W application. |
-| **Carry-through-as-procedure.** A carry-through structure, diagram, or graph-shaped expression is read as a required project sequence. | Treat it as relation-governed carry-through over FPF applications; use `stop`, `split`, and `return` relations. |
+| **Carry-through-as-procedure.** A carry-through structure, diagram, or graph-shaped expression is read as a prescribed project sequence. | Treat it as relation-governed carry-through over FPF applications; use `stop`, `split`, and `return` relations. |
 | **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, work, evidence, or result. | Write the carried distinction and next FPF-use question before selecting an application. |
 | **Math-as-authority.** A `U.Signature(profile=FormalSubstrate)` declaration, mathematical lens, or near-sameness does all downstream work. | Record preserved structure, lost structure, payoff, and stop condition; continue through the recovered relation. |
 | **Generic result token.** "Result" becomes one local kind. | Split the phrase into artifact, telemetry, acceptance, quality, measurement, refresh, source-use relation, evidence, or role-enactability relation. |

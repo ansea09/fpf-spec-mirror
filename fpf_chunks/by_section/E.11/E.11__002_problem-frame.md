@@ -1,53 +1,44 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
+pattern_title: "Practical-Use Guidance and Pattern Discovery"
 section_id: "E.11:1"
-section_title: "Problem Frame"
+section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
-  - "E.11:1 — Problem Frame"
-line_start: 71233
-line_end: 71254
+  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11:1 — Problem frame"
+line_start: 71998
+line_end: 72013
 dependencies:
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.MOVE"
+  - "A.22.CGUS"
+  - "C.2.1"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.19"
-  - "E.21"
+  - "E.17.AUD"
+  - "E.18"
   - "E.8"
+  - "F.17"
   - "F.18"
-  - "F.19"
-  - "I.2"
+  - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "dependencies"
-  - "query phrases"
 ---
 
-### E.11:1 - Problem Frame
+### E.11:1 - Problem frame
 
-FPF has many patterns. New users do not usually arrive saying "I need A.15" or "I need C.30.AD." They arrive with project questions:
+#### E.11:1.1 - Use this when
 
-- "I need to design or review architecture."
-- "I need to write a regulation, method, boundary, contract, API, or work-process document."
-- "I need to compare options without jumping to one favorite."
-- "I need to turn a vague situation into a problem."
-- "I need to say what better means before improving."
-- "I need to know what evidence or assurance is missing."
-- "I need to keep a temporal, freshness, rate, or action-window claim honest."
-- "I need to use causal claims, model outputs, interventions, or responsibility claims safely."
-- "I need to publish, compare, or rely on descriptions, views, dashboards, or explanations of the same entity."
-- "I need better names for project entities."
-- "I need to repair a technical text."
-- "I need to know whether mathematics would help."
-- "I need the field of current options or state of the art."
+Use `E.11` when a practitioner, manager, or assisting agent has a recognizable working situation but does not yet know which FPF pattern to inspect first.
 
-Those project questions need public first-entry scenarios. They should not be forced through a compact internal index before the user has recognized what FPF can do.
+Public guidance answers three questions quickly: "Is this my situation? What useful result could I obtain first? Which direct pattern should I open?" A public example remains a template; it is not a project instance, applicability finding, recommendation, plan, decision, or work occurrence.
 
-At the same time, first-entry text is dangerous when it becomes too powerful. A `readme` blurb, table row, search cue, or example can start acting as if it defines the pattern, prescribes a universal method sequence, or grants authority that belongs only in the governing pattern.
+**Primary EntityOfConcern.** One context-free public practical-use guidance episteme and its expansion, published through an E.17-conforming public card unit.
+
+**Conditional support object.** A `PracticalUseCardShortlist@Context` is current only when a named receiving use relies on addressable comparison history. It records that bounded comparison; it is not a second public guidance form or the primary `EntityOfConcern`.
+
+**What this buys.** A cold reader can move from an ordinary project question to one or a few inspectable direct patterns. A wrong first choice remains recoverable, while ordinary comparison stays conversational.
+
+**Not this pattern when.** Use `E.11.PUA` after one direct pattern has been selected and its application to obtain the first result is current. Use `E.11.PUR` when local applicability, recommendation, coordination, or ordering among candidate pattern uses is current. Use the direct subject pattern for the actual result, plan, work, evidence, decision, or publication claim.
 

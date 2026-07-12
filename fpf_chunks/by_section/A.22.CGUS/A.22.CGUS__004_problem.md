@@ -6,40 +6,42 @@ section_id: "A.22.CGUS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__004_problem.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:2 — Problem"
-line_start: 31263
-line_end: 31270
+line_start: 31408
+line_end: 31415
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
   - "B.3.5"
   - "B.5.2"
   - "C.13"
+  - "C.18"
+  - "C.19"
   - "C.2.P.DR"
   - "C.3"
   - "C.32.P2S"
+  - "C.33"
   - "C.35"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.23"
-  - "E.9"
-  - "E.9.DA"
+  - "F.17"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:2 - Problem
 
-The problem is that a route-shaped or loop-shaped record or description can hide the structure it is trying to expose.
+The problem is that a constraint-governed unfolding structure becomes unrecoverable when one route-shaped or loop-shaped description stands in for it.
 
-First, the record or description becomes decorative prose. The DRR or pattern uses words such as "flow", "move", "unfold", "loop", or "route", but no reader can recover the loci, constraints, preserved structure, lost structure, stop condition, or direct governing pattern for stronger claims.
+First, the structure's typed positions, exact relations, constraints, preserved structures, C.33 adequacy notes, stop boundary, and direct governing patterns disappear behind decorative prose. Words such as "flow", "move", "unfold", "loop", or "route" remain, but no reader can recover what constrains a continuation.
 
-Second, the record or description becomes a fake workflow. A teaching sequence, diagram, README entry, prompt example, or happy path is treated as the order in which real project work must happen. Method, work plan, performed work, evidence, gate, decision, publication, and architecture claims then silently move into the route-shaped record or description.
+Second, one demonstration of the structure becomes a fake workflow. A teaching sequence, diagram, README entry, prompt example, or happy path is treated as the order of real project work. Method, work plan, performed work, evidence, gate, decision, publication, and architecture claims then become unsupported inferences from displayed order.
 

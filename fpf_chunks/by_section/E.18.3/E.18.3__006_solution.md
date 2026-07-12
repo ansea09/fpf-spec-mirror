@@ -6,12 +6,12 @@ section_id: "E.18.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__006_solution.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:4 — Solution"
-line_start: 78264
-line_end: 78347
+line_start: 79544
+line_end: 79663
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,15 +22,16 @@ dependencies:
   - "A.3.4"
   - "A.6.3.NAR"
   - "B.3"
-  - "C.29"
+  - "C.18"
+  - "C.19"
   - "C.30.TFS-REL"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
   - "E.23"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
@@ -39,82 +40,118 @@ keywords:
 Select `ConstraintGovernedTransformationFlowUnfoldingStructure@Context <: U.Structure` as the E.18 transformation-flow specialization of `ConstraintGovernedUnfoldingStructure@Context`.
 
 ```text
-ConstraintGovernedTransformationFlowUnfoldingStructure@Context:
-  kind: U.Structure
-  unfoldingStructureRef:
-  boundedContextRef:
-  transformedEntityOrConcernRef:
-  transformationLoci[]:
-  adjacentGovernedLoci[]:
-  transferOrDependencyRelations[]:
-  pathOrPathSliceRefs[]:
-  crossingRefs[]:
-  guardRefs[]:
-  flowValuationRef?:
-  methodWorkLinkageRef?:
-  evidenceOrAssuranceLinkageRef?:
-  architectureUseRef?:
-  narrativeOrPublicationUseRef?:
-  preservedTransformationStructure:
-  lostOrHiddenTransformationStructure:
-  nonAdmissibleOverreads:
-  returnToGoverningPatternCondition:
-  stopOrReopenCondition:
+ConstraintGovernedTransformationFlowUnfoldingStructure@Context <: U.Structure:
+  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
+  boundedContextRef: U.BoundedContextRef
+  transformedEntityRef: U.EntityRef
+  transformedEntityKindRef: U.KindRef
+  transformationPositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
+  governingPatternPositionRelationRefs[]: U.EntityRef, each referencing one TransformationFlowGoverningPatternPositionRelation@Context
+  transferRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=transfer
+  dependencyRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=dependency
+  pathIds[]: E.18 PathId
+  pathSliceIds[]: E.18 PathSliceId
+  demonstrativeSliceRefs[]: U.EpistemeRef, each referencing one DemonstrativeUnfoldingSlice@Context
+  crossingRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=crossing
+  guardRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=guard
+  transformationFlowValuationRef?: U.EntityRef, referencing one E.18 TransformationFlowValuation
+  methodWorkLinkageRef?: U.EntityRef, referencing one MethodWorkUnfoldingLinkage@Context
+  evidenceRelationReferenceEpistemeRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=evidence
+  assuranceRelationReferenceEpistemeRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=assurance
+  architectureUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=architecture
+  narrativeUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=narrative
+  publicationUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=publication
+  preservedTransformationStructureRefs[]: U.EntityRef, each referencing one U.Structure
+  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context
+  governingPatternReturnBoundaryRefs[]: U.EntityRef, each referencing one UnfoldingStructureUseBoundaryCondition@Context
+  stopBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
 ```
 
-The record is admitted only when the substrate is bounded transformation-flow structure. `A.3.4` governs each atomic bounded transformation claim. `E.18` governs the compound structure over transformations, crossings, path slices, guards, valuations, and structure-positioned loci. This pattern governs the narrower `U.Structure` specialization that says how the current transformation-flow structure unfolds toward next uses without becoming those uses.
+`unfoldingStructureRef` names the generic `ConstraintGovernedUnfoldingStructure@Context` whose `specializedStructureRef` points to this narrower transformation-flow structure. The reciprocal references state the specialization relation; they do not split the primary EntityOfConcern or create a second transformation-flow structure.
 
-`methodWorkLinkageRef?` may point to one `MethodWorkUnfoldingLinkage@Context` when the method-work relation itself must stay inspectable. If only a method, method description, work plan, work-entry readiness, or performed-work claim is current, point directly to the A.3 or A.15 governing record instead of creating a linkage record.
+The transformed entity and its kind are both present. A flow position points to one typed `ConstraintGovernedUnfoldingPosition@Context`; an external governed position is related through `TransformationFlowGoverningPatternPositionRelation@Context`, not put into a heterogeneous adjacency list.
 
-`pathOrPathSliceRefs[]` does not make the structure a chain. A transformation-flow unfolding structure may branch, join, cycle, expose partial orders, or keep several guarded continuations live. A path slice is one selected traversal for explanation, comparison, or local review.
+Paths and demonstrations remain different. `pathIds[]` and `pathSliceIds[]` identify E.18 flow structure. `demonstrativeSliceRefs[]` identify post-admission A.22.CGUS epistemes whose EntityOfConcern is the already-admitted wider structure. A pre-admission flow card, worked example, or explanation remains a separate `ProvisionalUnfoldingDemonstrationDescription@Context` and does not fill `demonstrativeSliceRefs[]`. An admitted demonstrative slice can be linear while the current flow structure branches, joins, cycles, or keeps alternatives live.
 
-#### E.18.3:4.0a - Field Glosses
+A pattern-selection flow, selected-pattern-application flow, and downstream-subject-work flow keep different EntitiesOfConcern, changes, work occurrences, results, direct governing patterns, constraints, and returns. One flow's result may fill an input, tool, context, or constraint position in another flow without changing kind. E.18 relates those positions without turning the flows into one workflow. When a `DemonstrativeUnfoldingSlice@Context` asserts this cross-flow provenance, its `transformationFlowStructureRef`, `pathSliceId`, and `designRunTag` are all present; otherwise all three are absent. Those fields locate the demonstration in one flow valuation. They do not merge the demonstrated structures, rows, work occurrences, or result claims. A nested pattern-selection slice is present only when selection provenance is current; it returns a candidate, fit finding, or recommendation to the enclosing demonstrated-pattern-use row rather than borrowing that row's application result.
 
-The record is a transformation-flow `U.Structure` specialization. Fields that point outside transformation-flow name adjacent governed loci; they do not transfer authority into E.18.3.
 
-| Field | What this slot names | Not this | Direct exit when stronger claim is current |
-| --- | --- | --- | --- |
-| `unfoldingStructureRef` | the A.22.CGUS structure record or local CGUS block being specialized | not a route card or workflow title | `A.22.CGUS` for the generic structure |
-| `transformedEntityOrConcernRef` | entity or concern whose transformation-flow unfolding is organized | not the carrier, diagram, or method description | direct pattern for that EntityOfConcern |
-| `transformationLoci[]` | selected positions in the E.18 transformation-flow structure | not a performed sequence | `E.18` and `A.3.4` |
-| `adjacentGovernedLoci[]` | method, work, evidence, architecture, publication, or refresh positions adjacent to the flow | not claims governed by E.18.3 itself | direct governing pattern for each adjacent locus |
-| `transferOrDependencyRelations[]` | flow relations or dependencies among loci | not proof that a work order is feasible | `E.18`, `A.6.0`, `A.6.5`, or C.29 when a lens is current |
-| `pathOrPathSliceRefs[]` | selected traversal or local slice through the flow | not the whole topology and not a project procedure | `DemonstrativeUnfoldingSlice@Context`, E.18, or A.15 family as current |
-| `crossingRefs[]` | boundary-crossing positions in the selected flow | not gate passage | `A.20`, `A.21`, or E.18 crossing discipline |
-| `guardRefs[]` | conditions that permit or block a continuation | not evidence or assurance by itself | `A.20`, `A.21`, `A.10`, or `B.3` as current |
-| `flowValuationRef?` | valuation over the selected flow relation | not an architecture score or decision | E.18 valuation discipline; comparison or decision patterns when current |
-| `methodWorkLinkageRef?` | optional A.15-owned relation record for method and work linkage | not work authorization | `A.15` and A.15 child patterns |
-| `architectureUseRef?` | optional C.32.P2S or C.30.TFS-REL architecture-use relation | not architecture decision or description | `C.32.P2S`, `C.30`, `C.30.TFS-REL`, `C.32.PAD`, or `C.30.AD` |
-| `preservedTransformationStructure` | transformation-flow structure kept by the unfolding use | not the complete structure in a source description, source-use record, or observed system | `C.33` or `C.34` when preservation adequacy is current |
-| `lostOrHiddenTransformationStructure` | transformation-flow structure omitted, coarsened, or not recoverable | not a failure by itself | return to E.18, C.33, C.34, or the receiving governing pattern for omitted or coarsened structure |
-| `nonAdmissibleOverreads` | blocked stronger readings for this flow use | not a catalogue of unrelated mistakes | direct pattern needed for the blocked claim |
-| `returnToGoverningPatternCondition` | condition that sends the next claim to the direct pattern | not a local mini-ontology of reopening | receiving governing pattern named by value |
-| `stopOrReopenCondition` | condition to stop at a description or reopen the smallest affected relation | not a `G.11` refresh unless currentness is the claim | `G.11` only for currentness or decay; direct governing pattern otherwise |
+Preserved transformation structure is carried by exact `U.Structure` refs. Captured, expected-but-uncaptured, lost, and hidden structure for a declared use is carried by C.33 `StructuralInformationAdequacyNote@Context`. E.18.3 does not mint parallel free-text loss fields. Stop and governing-pattern return are different boundary relations. Source currentness and decay remain with G.11; E.18 slice-local flow refresh remains with E.18.
 
-#### E.18.3:4.1 - Adjacent Locus Rule
+`methodWorkLinkageRef?` appears only when a named receiving use relies on an inspectable method-to-work relation. A method, method description, WorkPlan, work-entry readiness relation, or performed Work remains governed by its exact A.3 or A.15 pattern.
 
-An adjacent governed locus can be present in the unfolding structure, but its stronger claim remains outside this pattern.
+#### E.18.3:4.0 - Application sequence
 
-| Adjacent locus | Present in E.18.3 as | Direct governing pattern for stronger claim |
-| --- | --- | --- |
-| Method selection or method relation | locus, dependency, or linkage ref | `A.3.1`, `A.3.2`, `B.1.5`, local method patterns |
-| Work planning or work occurrence | locus, readiness dependency, or work linkage ref | A.15 family, especially `A.15.2`, `A.15.5`, `A.15.1` |
-| Evidence, assurance, or gate | evidence or gate linkage ref, crossing, guard, or readiness condition | `A.10`, `B.3`, `A.20`, `A.21`, `G.6` |
-| Architecture use | architecture-use ref over the current transformation-flow structure when it is used inside an architecture claim | `C.30`, `C.30.TFS-REL`, `C.32.P2S`, `C.32.PAD` |
-| Narrative or publication use | demonstrative slice, view, publication, or rendering ref | `A.6.3.NAR`, `E.17`, `E.17.0` |
-| Currentness or slice-local refresh | path-slice currentness or refresh trigger | `G.11` for currentness; `E.18` for slice-local flow refresh |
+1. Start from one admitted generic CGUS and name this narrower structure through the reciprocal specialization refs.
+2. Name the transformed entity and kind, then the typed transformation positions that matter to the current use.
+3. Reference the exact transfer, dependency, crossing, or guard relations. Add a subject-use classifier only when the same relation supports a separately governed evidence, assurance, architecture, narrative, or publication use.
+4. Connect every neighboring governed position through its exact kind, ref, governing pattern, connection kind, rationale, and supporting relation when that connection kind needs one.
+5. Name paths and path slices as transformation-flow structure; name demonstrative slices separately as presentation epistemes. Add the E.18 flow locator triple only when cross-flow demonstration provenance is current.
+6. Name preserved transformation structures and use C.33 for omitted or hidden structure needed by the declared use.
+7. Add a stop boundary and separate returns to the direct patterns governing stronger claims. If the transformation substrate, exact relation, or typed connection is absent, keep the artifact as a `ProvisionalUnfoldingDemonstrationDescription@Context`, route card, graph description, or broader A.22.CGUS admission question; do not fill `demonstrativeSliceRefs[]`.
 
-#### E.18.3:4.2 - Demonstrative Slice Rule
+#### E.18.3:4.0a - Exact relation references
 
-A path slice, flow card, worked example, replay, or first-use explanation is a `DemonstrativeUnfoldingSlice@Context` when it teaches or demonstrates an admissible traversal. It must state included loci, omitted branches, loop compression, traversal rule, and return condition when those affect use.
+`E.18.3` governs `TransformationFlowRelationReference@Context`, a reference-bearing episteme whose EntityOfConcern is one exact transformation-flow relation instance. The episteme records two independent classifications without becoming the referenced relation:
 
-Do not infer that the demonstrated order is the project work order. If work order is current, open the work plan or method-description pattern.
+```text
+TransformationFlowRelationReference@Context <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing the exact relation instance
+  entityOfConcernKindRef: U.KindRef, referencing that relation kind
+  boundedContextRef: U.BoundedContextRef
+  claimGraph: U.ClaimGraph by value
+  referenceSchemeRef: U.ReferenceSchemeRef
+  editionId
+  FlowStructureSlot = <FlowStructureSlot, ConstraintGovernedTransformationFlowUnfoldingStructure@Context, U.EntityRef>
+  StructuralFunctionSlot? = <StructuralFunctionSlot, TransformationFlowStructuralFunctionValue, by-value>
+  SubjectUseSlot? = <SubjectUseSlot, TransformationFlowSubjectUseValue, by-value>
+  RelationSignatureSlot = <RelationSignatureSlot, U.Signature, U.EntityRef>
+  DirectGoverningPatternSlot = <DirectGoverningPatternSlot, U.MethodDescription, U.EntityRef>
+```
 
-Do not infer that the demonstrated path is the whole transformation-flow topology. If the underlying flow has branches, joins, cycles, alternatives, or partial orders, name what the slice omits or compresses before relying on it for comparison, architecture, evidence, or work planning.
+`TransformationFlowStructuralFunctionValue` is `transfer | dependency | crossing | guard`. It states what the referenced relation does inside the flow structure. `TransformationFlowSubjectUseValue` is `evidence | assurance | architecture | narrative | publication`. It states which separately governed subject use the same relation supports. At least one classifier is present; both may be present when both claims are true. Neither classifier changes the exact relation signature, value kind, value ref, or direct governing pattern.
 
-A path slice or flow card can still be useful before work starts. Use it as a slot-filling scaffold: each visible step should either fill a transformation locus, crossing, guard, valuation, preserved/lost transformation-structure field, adjacent-governing-pattern exit, stop condition, or return condition, or else be rejected as a teaching-only position. This keeps attention on the objects being planned while the team is still discovering constraints. The slice is not ready to guide method, work, evidence, gate, architecture, or publication claims until the receiving direct governing pattern has admitted that claim.
+For example, one crossing relation can also support evidence use. It remains one exact relation with `structuralFunction=crossing` and `subjectUse=evidence`; the two classifiers do not create two relations or let E.18.3 own the evidence claim.
+
+#### E.18.3:4.1 - Connections to positions governed elsewhere
+
+```text
+TransformationFlowGoverningPatternPositionRelation@Context <: U.Relation:
+  FlowStructureSlot = <FlowStructureSlot, ConstraintGovernedTransformationFlowUnfoldingStructure@Context, U.EntityRef>
+  FlowPositionSlot = <FlowPositionSlot, ConstraintGovernedUnfoldingPosition@Context, U.EntityRef>
+  NeighborGoverningPatternSlot = <NeighborGoverningPatternSlot, U.MethodDescription, U.EntityRef>
+  NeighborPositionKindSlot = <NeighborPositionKindSlot, U.Kind, U.KindRef>
+  NeighborPositionRefSlot = <NeighborPositionRefSlot, U.Entity, U.EntityRef>
+  PositionConnectionKindSlot = <PositionConnectionKindSlot, TransformationFlowPositionConnectionKindValue, by-value>
+  SupportingRelationReferenceSlot? = <SupportingRelationReferenceSlot, TransformationFlowRelationReference@Context, U.EpistemeRef>
+  ConnectionRationaleSlot = <ConnectionRationaleSlot, U.Episteme, U.EpistemeRef>
+  RelationRefKind = U.EntityRef
+  Direction = FlowPositionSlot -> NeighborPositionRefSlot
+  Dependence = bounded-context local to FlowStructureSlot and NeighborGoverningPatternSlot editions
+  Identity = <FlowStructureSlot, FlowPositionSlot, NeighborGoverningPatternSlot, NeighborPositionRefSlot, PositionConnectionKindSlot>
+```
+
+`TransformationFlowPositionConnectionKindValue` is `basisDependency | producedResult | governingConstraint | returnTarget | comparisonPeer`. `basisDependency`, `producedResult`, `governingConstraint`, and `returnTarget` carry an exact supporting relation reference. `basisDependency` states a dependency on a basis position governed elsewhere; it creates no obligation. `comparisonPeer` permits the supporting reference to remain absent because this E.18.3 relation itself states the exact pairwise comparison connection and rationale. The neighbor ref is always paired with its exact kind.
+
+This connection relation keeps the neighboring pattern visible without importing its result kind into transformation-flow ontology. Recommendation, method, work, evidence, assurance, gate, architecture, narrative, publication, and currentness claims remain under their direct governing patterns.
+
+#### E.18.3:4.2 - Provisional flow demonstration and admitted slice
+
+Before a `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` passes admission, a path fragment, flow card, worked example, replay, or first-use explanation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. Its subject is the transformed entity, current flow question, or proposed continuation set. Candidate positions and relation descriptions may guide discovery, but they are not admitted transformation positions or relation instances.
+
+After the generic CGUS and this transformation-flow specialization are admitted, a separate `DemonstrativeUnfoldingSlice@Context` may teach or demonstrate one admissible traversal. It names the admitted CGUS as EntityOfConcern and states included typed positions, C.33 notes for relevant omitted structure, loop-compression rule, presentation-ordering rule, alternatives, and return boundary when those affect use. It may cite the provisional description as derivation basis; it does not retype that description or the transformed entity.
+
+Do not infer that demonstrated order is project work order. If work order is current, open the work-plan or method-description pattern. Do not infer that a demonstrated path is the whole transformation-flow topology. If the admitted flow has branches, joins, cycles, alternatives, or partial orders, name what the slice omits or compresses before relying on it for comparison, architecture, evidence, or work planning.
+
+A pre-admission flow card can still help slot discovery. Each visible candidate position states the subject-domain object or question it concerns and the exact admission coordinate still unresolved. Once the transformed entity, typed positions, exact crossing or guard relations, valuation, preserved structures, C.33 notes, governing-pattern connections, and boundaries are recoverable, admit the structure first and create the slice second. This preserves the practical aid without circularly using a supposed slice as evidence for its own whole.
 
 #### E.18.3:4.3 - Boundary
 
-This `U.Structure` specialization is not a second transformation ontology, workflow, method, work plan, performed work, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It is a transformation-flow structure over transformation loci plus the exit map to the direct patterns that govern those stronger claims.
+This `U.Structure` specialization is not a second transformation ontology, workflow, method, work plan, performed work, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It is a transformation-flow structure over typed transformation positions and exact relation references, together with explicit connections and returns to the patterns governing stronger claims.
+
+#### E.18.3:4.4 - Replay and change localization
+
+Replay one use from the reciprocal CGUS specialization refs, transformed entity and kind, typed transformation positions, exact relation signatures and values, structural-function and subject-use classifiers, governed-position connections, path and slice ids, optional valuation, preserved structures, C.33 adequacy notes, and stop and return boundaries. For each continuation, recover the exact relation or guard that admits it and the pattern governing any stronger claim.
+
+Localize changes by the relation they affect. A changed relation value reopens its classifiers, dependent guards, and continuations. A changed neighbor value or kind reopens that governed-position connection and its supporting relation. A changed path or valuation reopens only the dependent path slices and demonstrations. Changed omitted structure reopens the C.33 note. Source edition, freshness, telemetry, and decay remain G.11 changes; E.18 owns only slice-local flow refresh. Reconstruct the wider specialization only when the transformed entity, transformation-position set, relation topology, preserved structure, or declared use boundary changes.
 

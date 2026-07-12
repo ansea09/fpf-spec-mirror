@@ -6,17 +6,19 @@ section_id: "C.22:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__002_use-this-when.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:0 — Use This When"
-line_start: 47382
-line_end: 47389
+line_start: 47768
+line_end: 47777
 dependencies:
+  - "A.6.0"
   - "C.16"
   - "C.18"
   - "C.19"
   - "C.22.1"
+  - "C.22.2"
   - "C.23"
   - "C.32.P2S"
   - "E.10"
@@ -25,19 +27,15 @@ dependencies:
   - "G.4"
   - "G.5"
 keywords:
-  - "Problem‑CHR"
-  - "ScopeSlice(G)"
-  - "TaskKind"
-  - "TaskSignature"
-  - "specialization anchor"
-  - "unknown handling"
 ---
 
 ### C.22:0 - Use This When
 
-Use this pattern when a stabilized problem-side representation must become a selector-facing typed attachment record for eligibility, acceptance, or policy-governed selection. Typical cases include solver choice, method-family eligibility, QD archive selection, open-ended generator selection, or specialization claims that need a declared task family or work target.
+Use this pattern when a stabilized problem-side episteme must be related to a selector-facing `TaskSignature@Context` for eligibility, acceptance, or policy-governed selection. Typical cases include solver choice, method-family eligibility, QD archive selection, open-ended generator selection, or specialization claims that need a declared task family or work target.
+
+The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable here?" Use C.22 to construct the smallest four-row `TaskSignature@Context` that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
 
 **What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and cross-context reuse happens by name instead of Bridge+CL.
 
-**What this buys.** The downstream selection question gets one minimal `TaskSignature` with typed fields, unknown handling, evidence relations, scope, freshness, and crossing conditions visible before any method family is admitted or compared.
+**What this buys.** The downstream selection question gets one minimal `TaskSignature@Context` with typed vocabulary, laws, applicability, unknown handling, evidence relations, scope, freshness, and crossing conditions visible before any method family is admitted or compared. Its assignment to the problem-side episteme is replayable, while publication and serialization can vary without changing the signature.
 

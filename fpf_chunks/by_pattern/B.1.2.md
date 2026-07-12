@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.2.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
-line_start: 32039
-line_end: 32264
+line_start: 32423
+line_end: 32648
 dependencies:
   - "A.1"
   - "A.12"

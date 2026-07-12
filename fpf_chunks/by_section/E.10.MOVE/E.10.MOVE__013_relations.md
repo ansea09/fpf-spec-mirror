@@ -6,41 +6,38 @@ section_id: "E.10.MOVE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__013_relations.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:12 — Relations"
-line_start: 70237
-line_end: 70242
+line_start: 71012
+line_end: 71017
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
   - "A.15.5"
-  - "A.16"
-  - "A.16.0"
   - "A.21"
+  - "A.22.CGUS"
   - "A.3.4.P"
-  - "B.1.6"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
   - "E.10"
   - "E.10.ARCH"
   - "E.11.PUR"
   - "E.17"
+  - "E.18"
   - "E.18.1"
+  - "E.23"
   - "E.24"
-  - "G.6"
+  - "F.17"
+  - "F.18"
+  - "G.11"
 keywords:
 ---
 
 ### E.10.MOVE:12 - Relations
 
-- **Builds on:** `E.10`, `E.10.ARCH`, `A.3.4.P`, `E.11.PUR`, `A.15.5`, and `E.24`.
-- **Coordinates with:** `E.18.1`, `A.15`, `A.15.1`, `A.15.2`, `A.15.3`, `A.15.4`, `A.21`, `B.1.6`, `A.16`, `C.24`, `C.30`, `C.30.AD`, `E.17`, `A.10`, and `G.6`.
+- **Builds on:** `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.22.CGUS`, `E.11.PUR`, `E.23`, `A.15.5`, and `E.24`.
+- **Coordinates with:** `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, `A.10`, and each recovered governed value's direct governing pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
 - **Selected by:** E.10 trigger scan when move or readiness wording has FPF-governed use and no direct governing pattern has already resolved the wording.
 

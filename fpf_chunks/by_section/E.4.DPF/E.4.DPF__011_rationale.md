@@ -6,14 +6,15 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 65778
-line_end: 65783
+line_start: 66478
+line_end: 66483
 dependencies:
   - "C.33"
+  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -25,7 +26,6 @@ dependencies:
   - "E.23"
   - "E.4"
   - "E.4.DPF.DA"
-  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
@@ -39,5 +39,5 @@ keywords:
 
 Domain and local frameworks are not mere subsets of FPF. They are FPF-grounded framework editions in bounded contexts. They need domain source work, FPF authoring discipline, architecture decisions, relation records, quality loops, and refresh routes.
 
-The pattern keeps the work practical by using existing FPF owners instead of inventing a second framework-development ontology. Its contribution is the ordered spine and the requirement that each produced artifact has a receiving owner.
+Its contribution is the condition-governed authoring spine and the rule that each produced result has an exact receiving use and a pattern governing that use relation.
 

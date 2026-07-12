@@ -1,56 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.18.1"
-pattern_title: "Principles-to-Work Carry-Through"
+pattern_title: "P2W Problem-to-Work Carry-Through"
 section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.18.1 — Principles-to-Work Carry-Through"
+  - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 77999
-line_end: 78015
+line_start: 79275
+line_end: 79291
 dependencies:
-  - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
-  - "A.15.5"
   - "A.20"
   - "A.21"
   - "A.6.0"
   - "A.6.1"
-  - "B.3"
   - "C.16"
   - "C.22.2"
   - "C.29"
-  - "E.10"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.17"
   - "E.18"
-  - "E.19"
+  - "E.18.3"
   - "F.9"
+  - "G.11"
+  - "G.2"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
-  - "P2W"
-  - "accepted ProblemCard@Context"
-  - "carry-through record"
-  - "evaluation refresh"
-  - "formal substrate"
-  - "mechanism realization"
-  - "method-family selection"
-  - "principles-to-work"
-  - "work planning"
 ---
 
 ### E.18.1:12 - Relations
-- `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W must expose loci, constraints, admissible next forms, and stop or return conditions.
-- `E.18.3` supplies the transformation-flow unfolding specialization for the `P2WUnfoldingStructureBlock`; P2W remains a carry-through use, not a workflow, launch permission, or performed-work record.
+- `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or return conditions.
+- `E.18.3` supplies `ConstraintGovernedTransformationFlowUnfoldingStructure@Context`, its exact transformation-flow relation references, governing-pattern-position relations, and distinct stop and return boundaries when the P2W receiving use relies on explicit unfolding structure. P2W adds no parallel block or workflow authority.
 - `G.2` governs source-use records, source-pack return, evidence anchors for admitted source publications, and source-currentness payloads before DPF hardening can rely on a seed drawn from those admitted sources.
 - `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
 - `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.

@@ -6,12 +6,12 @@ section_id: "B.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33519
-line_end: 33529
+line_start: 33903
+line_end: 33913
 dependencies:
   - "A.1"
   - "A.10"

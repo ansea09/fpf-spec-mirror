@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__013_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 69800
-line_end: 69839
+line_start: 70542
+line_end: 70581
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.10:10 - Reference routine for turning messy language into E.10-clean prose *(informative)*
 
-> A pragmatic **three-pass** routine. It is subordinate to `E.10:0.2` and is used only when the selected wording problem needs register, naming, morphology, or local rewrite details. It works with plain text, diagrams, or models; no tools required.
+> A pragmatic **three-pass** routine. It is subordinate to `E.10:0.2` and is used only when the selected wording problem needs register, naming, morphology, or local rewrite details. It works with plain text, diagrams, or models and uses no special tool.
 
 #### E.10:10.1 - Pass 0 — *Pre‑flight (2 minutes per page)*
 
@@ -64,8 +64,8 @@ Pass 2 is not a lexical replacement table. For each underlined word or phrase, f
  • planned work window or dated occurrence -> **`U.WorkPlan`** or **`U.Work`**
  • promise -> **`U.PromiseContent`**
  • ability -> **`U.Capability`**
- • actor/doer wording -> **`...Role`** role value or explicit `U.RoleAssignment`, depending on whether the value or the assignment relation is being named
- • document or evidence-bearing publication cue → **`Episteme`** used in an evidence-use, source-use, status-use, requirement, gate, or publication-use relation named by the direct governing pattern
+ • actor or doer wording -> **`...Role`** role value or explicit `U.RoleAssignment`, depending on whether the value or the assignment relation is being named
+ • document or evidence-bearing publication cue → **`Episteme`** used in an evidence-use, source-use, status-use, constraint, commitment, gate, or publication-use relation named by the direct governing pattern
 2.2 Apply **LEX.Morph** (§ 8): suffix gates such as `...Role`, `...Work`, `MethodDescription`, service-description episteme, service-access publication, or service-offer record labels, casing, and reserved prefixes.
 2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: the EntityOfConcern named directly; recipes and docs as Description epistemes; Spec only where the specification-granting gate is present; actuals as run records.
 2.4 Attach **Context tags** on first use; set **twin labels** (Tech and Plain) in the local Glossary.

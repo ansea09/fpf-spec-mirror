@@ -6,17 +6,19 @@ section_id: "C.22:11"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__013_consequences-informative.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:11 — Consequences (informative)"
-line_start: 47574
-line_end: 47580
+line_start: 48089
+line_end: 48095
 dependencies:
+  - "A.6.0"
   - "C.16"
   - "C.18"
   - "C.19"
   - "C.22.1"
+  - "C.22.2"
   - "C.23"
   - "C.32.P2S"
   - "E.10"
@@ -25,17 +27,11 @@ dependencies:
   - "G.4"
   - "G.5"
 keywords:
-  - "Problem‑CHR"
-  - "ScopeSlice(G)"
-  - "TaskKind"
-  - "TaskSignature"
-  - "specialization anchor"
-  - "unknown handling"
 ---
 
 ### C.22:11 - Consequences (informative)
 
-* **Admissible selection.** Selection is **explainable** and **inspectable**; every reason in/out cites TaskSignature fields, CG-Spec rows, and Gamma-fold contributors.
+* **Admissible selection.** Selection is **explainable** and **inspectable**; every admission or rejection reason cites TaskSignature fields, CG-Spec rows, and Gamma-fold contributors.
 * **Local first, Bridge-portable.** Context-local semantics are primary; Bridges make portability **deliberate and costed** (penalties to **R** only).
 * **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.

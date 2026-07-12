@@ -1,49 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUR"
-pattern_title: "Pattern-Use Recommendation and Pattern-Use Sequence"
+pattern_title: "Pattern-Use Applicability, Recommendation, and Coordination"
 section_id: "E.11.PUR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__010_consequences.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
+  - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:9 — Consequences"
-line_start: 71849
-line_end: 71861
+line_start: 73083
+line_end: 73088
 dependencies:
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.5"
-  - "A.16"
+  - "A.19"
+  - "A.19.ECS"
   - "A.21"
+  - "A.6.5"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
-  - "E.10"
-  - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.11.PUA"
+  - "E.18"
   - "E.18.1"
-  - "E.24"
-  - "E.8"
+  - "G.11"
 keywords:
 ---
 
 ### E.11.PUR:9 - Consequences
 
-Benefits:
+**Benefits.** A team can explain why a pattern fits, why it is recommended, and how several uses relate without creating a false workflow. Reliance-bearing decisions remain replayable. Result-based precedence stays synchronized with the candidate expectation.
 
-- FPF can keep friendly "what is the next useful move?" language without minting a root `Move`.
-- The first-entry and seminar-facing pattern-language metaphor becomes useful but bounded.
-- P2W, work planning, performed work, gates, architecture, source-relation, and publication claims keep their governing patterns.
-
-Costs:
-
-- Users must name the current concern and expected output shape rather than only naming a favorite pattern.
-- A pattern-use sequence needs one line per governed use when several patterns are composed.
+**Costs.** Consequential recommendations need explicit rationales and sometimes five addressable findings. Partial orders need pairwise relations. Ranking candidates that solve different questions produces an inadmissible comparison rather than a useful shortcut.
 

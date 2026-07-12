@@ -1,45 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUR"
-pattern_title: "Pattern-Use Recommendation and Pattern-Use Sequence"
+pattern_title: "Pattern-Use Applicability, Recommendation, and Coordination"
 section_id: "E.11.PUR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__003_problem.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
+  - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:2 — Problem"
-line_start: 71684
-line_end: 71692
+line_start: 72864
+line_end: 72869
 dependencies:
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.5"
-  - "A.16"
+  - "A.19"
+  - "A.19.ECS"
   - "A.21"
+  - "A.6.5"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
-  - "E.10"
-  - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.11.PUA"
+  - "E.18"
   - "E.18.1"
-  - "E.24"
-  - "E.8"
+  - "G.11"
 keywords:
 ---
 
 ### E.11.PUR:2 - Problem
 
-Without an explicit pattern-use recommendation relation, four failures recur:
+Several different claims are often compressed into "use this pattern next." A pattern can fit the problem frame but fail its Solution conditions. It can be applicable yet not be the recommended use because another pattern produces a more useful first result. Several candidate uses can belong together without forming a sequence, and a sequence can be shown without creating a WorkPlan.
 
-1. A pattern that only recommends a next FPF use is overread as if it performed work, passed a gate, or authorized work.
-2. Applicability and recommendation collapse: "this pattern can be used" becomes "this pattern is the selected useful use now."
-3. Several pattern uses are described as a workflow or lifecycle, even when they are only a recommended pattern-use sequence.
-4. Teaching language such as "first useful move" becomes a false kind and starts competing with `U.Work`, `U.WorkPlan`, P2W, A.16 language-state moves, C.24 call planning, and C.30 architecture candidate records.
+When these distinctions are missing, familiar PatternIDs become proxies for value. Teams recommend the pattern they know, copy one result description into several order relations, and treat a diagram or teaching order as execution order.
 

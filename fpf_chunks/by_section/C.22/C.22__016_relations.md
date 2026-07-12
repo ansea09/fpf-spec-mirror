@@ -6,17 +6,19 @@ section_id: "C.22:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__016_relations.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:13 — Relations"
-line_start: 47589
-line_end: 47591
+line_start: 48111
+line_end: 48113
 dependencies:
+  - "A.6.0"
   - "C.16"
   - "C.18"
   - "C.19"
   - "C.22.1"
+  - "C.22.2"
   - "C.23"
   - "C.32.P2S"
   - "E.10"
@@ -25,14 +27,8 @@ dependencies:
   - "G.4"
   - "G.5"
 keywords:
-  - "Problem‑CHR"
-  - "ScopeSlice(G)"
-  - "TaskKind"
-  - "TaskSignature"
-  - "specialization anchor"
-  - "unknown handling"
 ---
 
 ### C.22:13 - Relations
-**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**, and `C.32.P2S` when typed problem pressure must continue into architecture selected structures and synthesis. **Constrained by:** **E.10 (selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording)**, **E.18 (GateCrossing visibility and publication gating)**.
+**Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**, and `C.32.P2S` when typed problem pressure continues into architecture selected structures and synthesis. **Constrained by:** **E.10 (selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording)**, **E.18 (GateCrossing visibility and publication gating)**.
 

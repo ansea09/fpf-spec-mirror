@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 87918
-line_end: 87927
+line_start: 89699
+line_end: 89709
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,18 +19,22 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.7"
+  - "A.22.CGUS"
   - "A.6.5"
   - "A.6.P"
   - "B.3"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.MOVE"
+  - "E.11"
   - "E.17"
   - "F.1"
   - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -40,22 +44,18 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.11"
 keywords:
-  - "UTS"
-  - "Unified Term Sheet"
-  - "glossary"
-  - "human-readable output"
-  - "publication"
-  - "summary table"
 ---
 
 ### F.17:13.5 - Conformance Checklist
 
-| Check | Requirement |
+| Check | Passing condition |
 | --- | --- |
-| `CC-F17-1` | The row names the governed kind or value and the direct governing pattern before naming choices are published. |
+| `CC-F17-1` | The row names the governed value, its exact kind, and the direct governing pattern before naming choices are published. |
 | `CC-F17-2` | Local senses are bounded-context and edition scoped; cross-context use names the bridge and loss. |
 | `CC-F17-3` | Tech and Plain names are selected under naming patterns after the governed value is stable. |
 | `CC-F17-4` | Admissible use, blocked use, row edition, and currentness condition are present. |
 | `CC-F17-5` | Role, status, evidence, source, publication, description, method, work, relation, slot, interface, and characteristic claims remain under direct patterns. |
+| `CC-F17-6` | A SenseCell uses `NameCardRef` only for its naming settlement and separately cites every relied-on local-sense basis through `LocalSenseBasisRelation@Context` with exact value-kind and ref-kind pairs. |
 

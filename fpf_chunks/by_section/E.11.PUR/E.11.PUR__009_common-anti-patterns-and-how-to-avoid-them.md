@@ -1,45 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUR"
-pattern_title: "Pattern-Use Recommendation and Pattern-Use Sequence"
+pattern_title: "Pattern-Use Applicability, Recommendation, and Coordination"
 section_id: "E.11.PUR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
+  - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71840
-line_end: 71848
+line_start: 73073
+line_end: 73082
 dependencies:
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.5"
-  - "A.16"
+  - "A.19"
+  - "A.19.ECS"
   - "A.21"
+  - "A.6.5"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
-  - "E.10"
-  - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.11.PUA"
+  - "E.18"
   - "E.18.1"
-  - "E.24"
-  - "E.8"
+  - "G.11"
 keywords:
 ---
 
 ### E.11.PUR:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Better use |
+| Misuse | Why it fails | Repair |
 | --- | --- | --- |
-| Move as kind | A useful phrase becomes a false `U.Move`. | Recover recommended pattern use, work, plan, gate, source relation, publication, architecture, or transformation. |
-| Applicability as recommendation | Every applicable pattern appears equally selected. | State why this pattern use is recommended for the current concern. |
-| Pattern phrase as work plan | A pattern-use sequence is treated as intended or performed project work. | Use `A.15.2` for work planning and `A.15.1` for performed work. |
-| Pattern recommendation as authorization | A pattern recommendation is read as gate passage, evidence sufficiency, source-relation sufficiency, assurance, or work authorization. | Use `A.21` for gate passage, `A.10` for evidence or source relation, `B.3` for assurance, `A.15.4` for appearance-based reliance repair, and the direct governing pattern for authorization or work planning when those claims are current. |
+| Recommend before aggregating fit | A partial match is overread as selection. | Resolve all five aspects or return `insufficientBasis`. |
+| Rank every candidate | A scalar order hides complements and incomparable results. | Use unordered or partial coordination when that matches the current relation. |
+| Use sequence as WorkPlan | Pattern-use relations acquire dates, resources, and work authority they do not own. | Create an A.15.2 WorkPlan only when intended work is current. |
+| Copy the prerequisite result | Duplicated kind and signature can drift from the candidate expectation. | Reference the exact expectation. |
+| Treat recommendation as authorization | Guidance bypasses evidence, gate, commitment, or work governance. | Continue to the direct governing pattern for the stronger claim. |
 

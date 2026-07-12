@@ -6,12 +6,12 @@ section_id: "E.18.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__008_bias-annotation.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:6 — Bias-Annotation"
-line_start: 78372
-line_end: 78380
+line_start: 79704
+line_end: 79712
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,15 +22,16 @@ dependencies:
   - "A.3.4"
   - "A.6.3.NAR"
   - "B.3"
-  - "C.29"
+  - "C.18"
+  - "C.19"
   - "C.30.TFS-REL"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
   - "E.23"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
@@ -38,8 +39,8 @@ keywords:
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Path-as-workflow | Require transformed concern, transformation loci, guards, crossings, preserved and lost transformation structure, and direct work-pattern exit. |
-| Graph-as-structure-in-every-sense | Treat graph expressions and path cards as descriptions or demonstrative slices unless the governed transformation-flow structure itself is named. |
+| Path-as-workflow | Restore the transformed entity and kind, typed flow positions, exact relation references, guards, crossings, preserved structures, C.33 adequacy notes, and direct work-pattern connection. |
+| Graph-as-structure-in-every-sense | Keep graph expressions and path cards as provisional descriptions before admission or separate admitted slices afterward; neither presentation is the governed transformation-flow structure. |
 | E.18 as universal CGUS parent | Admit E.18.3 only when bounded transformation-flow substrate is current. |
-| Gate or evidence absorption | Keep gate and evidence claims with their direct governing patterns even when they appear as crossings, guards, or adjacent loci. |
+| Gate or evidence absorption | Keep gate and evidence claims with their direct governing patterns even when the same exact relation has a crossing or guard structural function. |
 

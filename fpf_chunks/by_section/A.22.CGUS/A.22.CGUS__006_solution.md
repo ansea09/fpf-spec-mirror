@@ -6,198 +6,421 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:4 — Solution"
-line_start: 31281
-line_end: 31484
+line_start: 31426
+line_end: 31857
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
   - "B.3.5"
   - "B.5.2"
   - "C.13"
+  - "C.18"
+  - "C.19"
   - "C.2.P.DR"
   - "C.3"
   - "C.32.P2S"
+  - "C.33"
   - "C.35"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.23"
-  - "E.9"
-  - "E.9.DA"
+  - "F.17"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
 ### A.22.CGUS:4 - Solution
 
-Select `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` as a thin A.22 specialization of `U.Structure` for constraint-governed unfolding across named loci.
+Select `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` as a thin A.22 specialization of `U.Structure` for constraint-governed unfolding across typed positions and exact governed relations.
 
-A constraint-governed unfolding structure is a `U.Structure` whose relation signatures, constraints, invariants, guarded transitions, preserved and lost structure, and governing-pattern exits make several loci jointly constrain admissible next forms. It states how admitted starting records and already-current structures can participate in that structure. It does not state that real work must occur in the displayed order, and it does not require one starting record, one starting structure, or one resulting record.
+A constraint-governed unfolding structure is a `U.Structure` whose typed positions, relation signatures, referenced relation values, constraints, invariants, guarded transitions, preserved structures, C.33 adequacy notes, and governing-pattern exits jointly constrain admissible next forms. It states how admitted starting records and already-current structures participate through exact relations. It makes no displayed-order claim about real work and fixes no cardinality of starting records, starting structures, or resulting records.
 
-Do not read "unfolding" as a chain by default. The unfolding structure may be branching, merging, cyclic, partially ordered, or graph-shaped, and it may leave several alternative next forms live at once. A linear chain, cycle drawn as "back to the start", seminar order, prompt path, or happy path is usually a `DemonstrativeUnfoldingSlice@Context`: one declared traversal or presentation of a wider structure.
+Do not read "unfolding" as a chain by default. The unfolding structure may be branching, merging, cyclic, partially ordered, or graph-shaped, and it may leave several alternative next forms live at once. Before the wider structure passes the admission test, a linear chain, seminar order, prompt path, or happy path remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. After admission, a presentation of one traversal may be a `DemonstrativeUnfoldingSlice@Context` whose EntityOfConcern is that admitted CGUS.
 
-#### A.22.CGUS:4.1 - Ontic Field Block
+#### A.22.CGUS:4.1 - Constraint-governed unfolding structure
 
 ```text
-ConstraintGovernedUnfoldingStructure@Context:
-  kind: U.Structure
-  unfoldingStructureId:
-  boundedContextRef:
-  declaredStructureSubstrateRef:
-  entityOfConcernRef:
-  acceptedStartingRecordRefs[]:
-  acceptedStartingStructureRefs[]:
-  promotedCoreFamilyCueRefs[]?:
-    UF.P2W |
-    UF.P2S |
-    UF.ABD |
-    UF.NAR |
-    UF.IMP |
-    UF.GND |
-    UF.SEL |
-    UF.REFRESH |
-    UF.CALL |
-    otherDeclared
-  localFamilyCueRefs[]?:
-  unfoldingFamilyClass?:
-    transformationFlow |
-    methodWork |
-    reasoningSearch |
-    narrativeOrdering |
-    improvementLoop |
-    typingGrounding |
-    architectureSelection |
-    selectionOrPortfolio |
-    referenceCurrentness |
-    toolUsePlanning |
-    otherDeclared
-  specializedStructureRef?:
-  relationSignatureRefs[]:
-  unfoldingLoci[]:
-  constraintRefs[]:
-  invariantRefs[]:
-  guardedTransitionRefs[]:
-  preservedStructure:
-  lostOrHiddenStructure:
-  admissibleNextFormKindRefs[]:
-  defaultDemonstrativeSliceRecipeRefs[]:
-  admissibleUse:
-  nonAdmissibleUse:
-  structureUseReturnCondition:
-  stopCondition:
-  reopenOrRefreshTriggers[]:
+UnfoldingStructureReferenceKindValue = acceptedStartingRecord | relationInstance | constraint | invariant | guardedTransition | currentness
+UnfoldingStructureBoundaryKindValue = admissibleUse | nonAdmissibleUse | stop | return
+
+ConstraintGovernedUnfoldingStructure@Context <: U.Structure:
+  boundedContextRef: U.BoundedContextRef
+  declaredStructureSubstrateRef: U.EntityRef, referencing one U.Structure
+  entityOfConcernRef: U.EntityRef
+  entityOfConcernKindRef: U.KindRef
+  specializedStructureRef?: U.EntityRef, referencing one narrower U.Structure
+  acceptedStartingRecordReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=acceptedStartingRecord
+  acceptedStartingStructureRefs[]: U.EntityRef, each referencing one U.Structure
+  relationSignatureRefs[]: U.EntityRef, each referencing one U.Signature
+  structurePositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
+  relationInstanceReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=relationInstance
+  constraintReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=constraint
+  invariantReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=invariant
+  guardedTransitionReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=guardedTransition
+  preservedStructureRefs[]: U.EntityRef, each referencing one U.Structure
+  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
+  admissibleNextFormKindRefs[]: U.KindRef
+  demonstrativeSliceRecipeRefs[]?: U.EntityRef, each referencing one U.MethodDescription
+  admissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  nonAdmissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  stopBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  structureUseReturnBoundaryRefs[]: U.EntityRef, each referencing one UnfoldingStructureUseBoundaryCondition@Context
+  currentnessRelationReferenceRefs[]?: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=currentness
 ```
 
-`acceptedStartingRecordRefs[]` names already admitted project records that the unfolding structure may use at the start of the current use: problem cards, `G.2` source packs, candidate-set records, evaluation results, cue publications, or other governed records. Each record must keep its own direct governing pattern and admitted use. The field does not make raw source prose, attractive distinctions, prompts, model output, or a visible route into an admitted starting record by itself.
+The declared substrate is the structure being unfolded, not a topic label or container. `specializedStructureRef` is present only when one narrower `U.Structure` record is current, such as an E.18.3 transformation-flow specialization. That narrower record may point back through its `unfoldingStructureRef`; the reciprocal references state one generic-to-narrower specialization relation and do not create two unrelated unfolding structures. Accepted starting records and accepted starting structures remain different: a record may describe, publish, or evaluate a structure without becoming that structure. Every referenced entity retains its exact kind and direct governing pattern.
 
-`acceptedStartingStructureRefs[]` names already-current `U.Structure` refs that the unfolding structure may use at the start of the current use. This slot is intentionally separate from `acceptedStartingRecordRefs[]`: a record may describe, publish, or evaluate a structure, but it is not that structure.
+#### A.22.CGUS:4.1.1 - Dependent position, reference, and boundary relations
 
-`declaredStructureSubstrateRef` names the structure substrate whose loci and relations are being unfolded, such as transformation-flow structure, architecture-facing structure use, narrative ordering, abductive search, improvement loop, typing-grounding passage, refresh situation, or option-selection structure. `entityOfConcernRef` names the entity or concern whose unfolding is being organized. `unfoldingLoci[]` names the governed positions inside the structure. The accepted-starting slots are therefore not duplicates of substrate, EntityOfConcern, or loci: they record which admitted records and current structures are available at the start of the current unfolding use.
+```text
+ConstraintGovernedUnfoldingPosition@Context <: U.Relation:
+  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
+  positionSlotSpecRef: U.EntityRef, referencing one A.6.5 SlotSpec
+  positionFillingRef?: U.EntityRef
+  positionFillingKindRef?: U.KindRef
+  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  RelationRefKind: U.EntityRef
+  Dependence: bounded-context local to unfoldingStructureRef
+  Identity: <unfoldingStructureRef, positionSlotSpecRef, positionFillingRef if present>
 
-`promotedCoreFamilyCueRefs[]?` may name short FPF-core cues such as `UF.P2S` or `UF.REFRESH` when they help readers recognize a familiar core family. These cues are optional examples, not a maintained list, not a conformance vocabulary, and not a DPF index. A DPF or project-local package may use `localFamilyCueRefs[]?`, local cue examples, or no family cue at all; its authoritative route is the local governing-pattern map plus the relevant FPF and DPF pattern bodies. `unfoldingFamilyClass?` is optional broad retrieval and review shorthand; it is not the governing vocabulary.
+UnfoldingStructureReferencedValueRelation@Context <: U.Relation:
+  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
+  referenceKind: UnfoldingStructureReferenceKindValue
+  referencedValueKindRef: U.KindRef
+  referencedValueRef: U.EntityRef
+  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  relationSignatureRef?: U.EntityRef, referencing one U.Signature
+  RelationRefKind: U.EntityRef
+  Direction: unfoldingStructureRef -> referencedValueRef
+  Dependence: bounded-context local to unfoldingStructureRef and referencedValueRef editions
+  Identity: <unfoldingStructureRef, referenceKind, referencedValueKindRef, referencedValueRef>
 
-`specializedStructureRef` is used only when a narrower `U.Structure` specialization is current, such as `E.18.3` for transformation-flow unfolding, `C.32.P2S` for architecture-facing P2S, `B.5.2` for abductive search, `A.6.3.NAR` for narrative ordering, `E.23` for improvement loops, or typing-grounding patterns for constructive-to-logical grounding.
+UnfoldingStructureUseBoundaryCondition@Context <: U.Relation:
+  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
+  boundaryConditionKind: UnfoldingStructureBoundaryKindValue
+  conditionDescriptionRef: U.EpistemeRef
+  affectedStructureRef: U.EntityRef, referencing one U.Structure
+  boundaryGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  RelationRefKind: U.EntityRef
+  Dependence: bounded-context local to unfoldingStructureRef and affectedStructureRef editions
+  Identity: <unfoldingStructureRef, boundaryConditionKind, conditionDescriptionRef, affectedStructureRef, conditionalReceivingPatternRef if present>
+```
 
-#### A.22.CGUS:4.1a - Field Glosses
+The two `...KindValue` declarations are local closed enumerations, not U-kinds. Position filling ref and kind are both present or both absent. A relation signature is present when the referenced value is a relation. Every boundary names its governing pattern; only `return` names a conditional receiver.
 
-These fields are ordinary structure slots, not a second method, work, evidence, architecture, or publication record.
+`StructuralInformationAdequacyNote@Context` under C.33 carries captured, expected-but-uncaptured, lost, and hidden structure for a declared use. CGUS does not mint parallel loss or hiddenness fields. A use boundary is not permission, gate passage, evidence, assurance, or currentness refresh by itself.
 
-| Field | What this slot names | Not this | Direct exit when stronger claim is current |
-| --- | --- | --- | --- |
-| `relationSignatureRefs[]` | references to relation signatures that make the unfolding positions connectable | not proof that the relations hold in the world | `A.6.0`, `A.6.5`, or the pattern governing the relation |
-| `constraintRefs[]` | constraints that restrict admissible continuations | not a gate result or work authorization | `A.20`, `A.21`, A.15 family, or the domain pattern |
-| `invariantRefs[]` | structure that must survive admissible unfolding | not a measurement or evidence result | `C.16`, `C.25`, `A.10`, or `B.3` when those claims are current |
-| `guardedTransitionRefs[]` | guarded changes between loci or admissible next positions | not a performed work occurrence | `A.3.4`, A.15 family, `A.20`, or `A.21` |
-| `preservedStructure` | selected structure kept by this unfolding use | not a claim that every selected starting structure or source-described structure is preserved | `C.33`, `C.34`, or the direct governing pattern for the preservation claim |
-| `lostOrHiddenStructure` | selected or expected structure not carried by the unfolding use | not a defect by itself | structure-use return condition, `C.33`, `C.34`, or the direct governing pattern named by the use |
-| `admissibleNextFormKindRefs[]` | kinds of records or uses that may be written next | not a required sequence and not execution | receiving governing pattern for each next form |
-| `defaultDemonstrativeSliceRecipeRefs[]` | teaching or planning slice recipes over the structure | not the structure and not work order | `DemonstrativeUnfoldingSlice@Context`, `E.17`, or A.15 family as current |
-| `admissibleUse` | what this CGUS may safely support | not blanket permission for all uses | direct governing pattern for the supported claim |
-| `nonAdmissibleUse` | blocked overread for this CGUS use | not a negative catalogue of every possible mistake | direct governing pattern that would be needed for the blocked claim |
-| `structureUseReturnCondition` | condition that names the selected structure or expected structure at issue, the lost or hidden distinction, and the receiving governing pattern; when current it also names the exact source description, publication, source-use relation, lens result, extraction, or probe locus whose use must be repaired | not a `G.11` refresh unless currentness or decay is the claim | receiving governing pattern named by value |
-| `stopCondition` | condition for keeping the current record, description, or demonstrative slice at reduced use | not failure of the admitted starting record, source pack, or description by itself | A.16, E.11, E.17, or the direct governing pattern as applicable |
-| `reopenOrRefreshTriggers[]` | changed facts, currentness, or use conditions that reopen the smallest affected claim | not a new reopen and refresh ontology | `G.11` for currentness or decay; `E.18` for slice-local refresh; the direct governing pattern for repair |
+#### A.22.CGUS:4.2 - Admission test
 
-#### A.22.CGUS:4.2 - Admission Test
+A readable chain is not sufficient for admission. Use CGUS only when the current structure recovers all of the following:
 
-Use CGUS only when all of these are recoverable enough for the next use:
-
-| Coordinate | Required recovery | If missing |
+| Coordinate | Recovery for CGUS admission | Reduced use when absent |
 | --- | --- | --- |
-| Several logical loci | More than one governed position is live: problem-side record, current structure, candidate set, method relation, work-planning locus, evidence locus, reader route, evaluation row, refresh trigger, or another declared position. | Keep the candidate wording as a note, cue, recommendation, or description. |
-| Cross-locus constraints | Loci constrain each other through relations, guards, boundaries, preserved or lost structure, stop rules, or return conditions. | Treat a list of steps or pattern IDs as an index until constraints are recoverable. |
-| `U.Structure` specialization | The object is a `U.Structure` under A.22 or a narrower `U.Structure` specialization governed elsewhere. | Treat a card, graph, narrative, publication, README line, or method description as a description or seed. |
-| Admissible next forms | One or more next forms are named: pattern-use recommendations, candidate sets, narrative orderings, work-plan seeds, method-selection frames, evaluation repair frames, architecture inputs, return requests, refresh actions, or demonstrative slices. | Do not sell the structure as user-facing solution structure. |
-| Direct governing-pattern exits | Any locus that makes a stronger claim points to the pattern that governs that claim. | The unfolding structure is overreading itself as method, work, evidence, gate, decision, architecture, or publication authority. |
-| Non-workflow boundary | The actual project sequence remains allowed to be nonlinear, iterative, partial, or interrupted. | Lower the artifact to a work plan or method description only if the direct pattern governs that claim. |
-| Non-chain topology | Branches, joins, cycles, partial orders, many-to-many constraints, or alternative live next forms remain visible when they matter. | Treat a linear chain as a demonstrative slice until the wider structure is recoverable. |
-| Stop, split, return, refresh | Conditions for stopping, splitting, returning to a governing pattern, or refreshing after changed evidence, currentness, or context are named. | The structure becomes a one-way story that cannot localize repair. |
+| Structure identity | One exact `U.Structure` substrate, bounded context, EntityOfConcern, and kind. | Keep a note, card, description, or method description. |
+| Typed positions | More than one SlotSpec-grounded position and any current filling ref-kind pairs. | Keep a list or seed description. |
+| Connecting relations | Relation signatures and exact referenced relation instances. | Keep an index until connections are recoverable. |
+| Cross-position constraints | Constraints, invariants, guards, branches, joins, cycles, partial orders, or many-to-many dependencies that matter to the use. | Keep a linear presentation as a provisional demonstration description until the wider structure is admitted. |
+| Preserved and omitted structure | Preserved structures and any C.33 adequacy notes needed by the declared use. | Lower the adequacy claim and retain the return. |
+| Admissible next forms | Exact next-form kinds, not one forced next record. | Do not claim a usable unfolding structure. |
+| Direct governing-pattern exits | Each stronger claim points to its direct pattern. | The structure is overreading itself as method, work, evidence, gate, architecture, publication, or refresh authority. |
+| Use boundaries | Admissible, non-admissible, stop, and return conditions are explicit. | Keep the artifact as a provisional explanation. |
 
-#### A.22.CGUS:4.3 - Descriptions And Demonstrative Slices
+Branches or joins that are current remain visible. A cycle shown as "return to the start" is not thereby a chain. One slice may be linear because attention needs one path; the wider structure remains graph-shaped when its relations are graph-shaped.
 
-Keep the structure separate from descriptions and teaching slices.
+#### A.22.CGUS:4.3 - Provisional demonstrations, admitted-structure descriptions, and demonstrative slices
+
+A presentation may help discover positions and relations before any CGUS exists. Keep that pre-admission object as a C.2.1-conformant episteme about the actual subject-domain object, question, or proposed continuation set:
 
 ```text
-ConstraintGovernedUnfoldingStructureDescription@Context:
-  kind: U.Episteme
-  entityOfConcernRef: ConstraintGovernedUnfoldingStructure@Context
-  representationSchemeRef:
-  viewpointRef?:
-  preservedStructure:
-  lostOrCoarsenedStructure:
-  declaredUse:
-  descriptionUseReturnCondition:
-  publicationRefs[]?:
+DemonstrationUseModeValue = workedSlice | firstUseExample | actualCaseReplay | variantComparison | otherDeclared
+DemonstrationPresentationFormValue = orderedList | chainDiagram | flowCard | table | narrativePath | slideSequence | promptBlock | graphSlice | otherDeclared
+
+ProvisionalUnfoldingDemonstrationDescription@Context <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing the actual subject-domain object, question, or proposed continuation set
+  entityOfConcernKindRef: U.KindRef
+  boundedContextRef: U.BoundedContextRef
+  viewpointRef: U.ViewpointRef
+  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
+  groundingHolonRef?: U.HolonRef
+  claimGraph: U.ClaimGraph by value
+  referenceScheme: U.ReferenceScheme by value
+  editionId
+  demonstrationUseMode: DemonstrationUseModeValue
+  presentationForm: DemonstrationPresentationFormValue
+  provisionalContinuationDescriptionRefs[1..*]: U.EpistemeRef
+  candidatePositionDescriptionRefs[2..*]: U.EpistemeRef
+  candidateRelationDescriptionRefs[]?: U.EpistemeRef
+  unresolvedCGUSAdmissionCoordinateDescriptionRefs[1..*]: U.EpistemeRef
+  admissionTransitionConditionDescriptionRef: U.EpistemeRef
+```
+
+This local declaration form is an episteme, not a structure slice and not a new root kind. Its C.2.1 identity comes from its exact EntityOfConcern, DescriptionContext, optional grounding holon, ClaimGraph, reference scheme, and edition. `entityOfConcernRef` names the subject that the explanation is currently about; it may not point to a not-yet-admitted CGUS. Candidate positions and relations are claims to investigate, not admitted `ConstraintGovernedUnfoldingPosition@Context` or relation instances. At least one unresolved admission coordinate remains present while the description is provisional.
+
+Once every coordinate in `4.2` is recoverable and the wider `ConstraintGovernedUnfoldingStructure@Context` is admitted, describe that structure without selecting a traversal through it by creating this C.2.1-conformant episteme:
+
+```text
+ConstraintGovernedUnfoldingStructureDescription@Context <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing one admitted ConstraintGovernedUnfoldingStructure@Context
+  entityOfConcernKindRef: U.KindRef, referencing ConstraintGovernedUnfoldingStructure@Context
+  boundedContextRef: U.BoundedContextRef
+  viewpointRef: U.ViewpointRef
+  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
+  groundingHolonRef?: U.HolonRef
+  claimGraph: U.ClaimGraph by value
+  referenceScheme: U.ReferenceScheme by value
+  editionId
+  preservedStructureRefs[]: U.StructureRef
+  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
+  declaredUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  descriptionUseReturnBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+```
+
+Its EntityOfConcern is the admitted CGUS. Its ClaimGraph may describe branches, joins, cycles, partial orders, positions, relations, constraints, and admissible next forms without choosing one route through them. Carrier, diagram form, table layout, or publication location does not determine its identity. A new edition is required when the described CGUS edition, DescriptionContext, applicable grounding, ClaimGraph, reference scheme, preserved-structure account, adequacy account, declared use, or return boundary changes.
+
+When one presentation selects a traversal or ordering through that admitted structure, create a different post-admission episteme:
+
+```text
+DemonstrativeUnfoldingSlice@Context <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing one admitted ConstraintGovernedUnfoldingStructure@Context
+  boundedContextRef: U.BoundedContextRef
+  claimGraph: U.ClaimGraph by value
+  referenceScheme: U.ReferenceScheme by value
+  editionId
+  derivedFromProvisionalDemonstrationRef?: U.EpistemeRef, referencing one ProvisionalUnfoldingDemonstrationDescription@Context
+  demonstrationUseMode: DemonstrationUseModeValue
+  transformationFlowStructureRef?: U.EntityRef, referencing one E.18 TransformationFlowStructure
+  pathSliceId?: E.18 PathSliceId
+  designRunTag?: E.18 DesignRunTag
+  demonstratedPatternUseRowRefs[]: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
+  includedStructurePositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
+  omittedStructureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
+  loopCompressionRuleRef?: U.EntityRef, referencing one U.MethodDescription
+  alternativeSliceRefs[]?: U.EpistemeRef, each referencing one DemonstrativeUnfoldingSlice@Context
+  presentationOrderingRuleRef: U.EntityRef, referencing one U.MethodDescription
+  presentationForm: DemonstrationPresentationFormValue
+  admissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  nonAdmissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+  sliceReturnBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+```
+
+The transition does not retype the provisional episteme or any subject-domain result. The admitted slice cites the provisional description only as its derivation basis, names the already-admitted CGUS as EntityOfConcern, and replaces candidate position and relation descriptions with exact admitted structure positions and relation references. Its edition changes when that CGUS edition, included positions, omitted-structure account, traversal or ordering rule, alternatives, use boundary, ClaimGraph, or reference scheme changes; carrier or rendering change alone does not. If admission later fails, the provisional explanation may remain useful under its declared use while the slice claim is withdrawn.
+
+The local mode and presentation-form values are enumerations, not CharacteristicSpaces or U-kinds. Presentation form says how the episteme is rendered; it is not a carrier kind. Add an E.17 publication relation only when publication is current.
+
+The E.18 triple is all present or all absent. When present, it locates this post-admission demonstration in one flow valuation and relates pattern-selection, selected-pattern-application, and downstream-subject-work slices without merging their structures, rows, work occurrences, or results.
+
+#### A.22.CGUS:4.3.1 - Demonstrated pattern-use rows
+
+When a local pattern mantra is admitted as a `DemonstrativeUnfoldingSlice@Context`, `mantra move` is bounded Plain wording for one `DemonstratedPatternUseRow@Context` inside that slice. The row consumes A.6.5 SlotSpec discipline, but A.6.5 does not govern the row's identity. The row is not a root U-kind, an operation, or a work occurrence. It shows one result-bearing conditional continuation. A short repeatable formula that only recalls one pattern's Solution may still be a useful local mantra without containing such rows and without becoming a CGUS.
+
+```text
+DemonstrationBasisModeValue = publicTemplate | projectCandidate
+
+DemonstratedPatternUseRow@Context <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing the containing DemonstrativeUnfoldingSlice@Context
+  boundedContextRef: U.BoundedContextRef
+  claimGraph: U.ClaimGraph by value
+  referenceScheme: U.ReferenceScheme by value
+  editionId
+  sourcePracticeContinuationDescriptionRef?: U.EpistemeRef, referencing one PatternUsePracticeContinuationDescription@Context
+  demonstrationBasisMode: DemonstrationBasisModeValue
+  demonstratedResultFlowPosition: PatternUseResultFlowPositionValue
+  nestedPatternSelectionSliceRef?: U.EpistemeRef, referencing one DemonstrativeUnfoldingSlice@Context
+  actionOrProposedUseDescriptionRef: U.EpistemeRef
+  directPatternIdentifier: PatternIdentifierValue
+  directPatternName: PatternNameValue
+  publicCandidateUseTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
+  projectCandidatePatternUseRef?: U.EpistemeRef, referencing one CandidatePatternUse@Context
+  publicPracticalUseQuestionRef?: U.EpistemeRef, referencing one PublicPracticalUseQuestion@FPFReadme
+  projectPracticalUseQuestionRef?: U.EpistemeRef, referencing one PracticalUseQuestion@Context
+  solutionMethodDescriptionRef: U.EntityRef, referencing one U.MethodDescription
+  publicResultTemplateRef?: U.EpistemeRef, referencing one PublicPatternUseResultTemplate@FPFReadme
+  projectResultExpectationRef?: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
+  publicContinuationConditionRef?: U.EpistemeRef, referencing one PublicPatternUseBoundaryConditionTemplate@FPFReadme
+  projectContinuationConditionRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
+  alternativeDemonstratedRowRefs[]?: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
+  returnDemonstratedRowRefs[]?: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
+  applicabilityFindingRef?: U.EpistemeRef, referencing one PatternUseApplicabilityFinding@Context
+  recommendationRef?: U.EpistemeRef, referencing one PatternUseRecommendation@Context
+  workPlanRef?: U.EntityRef, referencing one U.WorkPlan
+  performedWorkRef?: U.EntityRef, referencing one U.Work
+```
+
+In `publicTemplate` mode, exactly the public candidate, question, result, and continuation positions are filled; the project positions are absent. In `projectCandidate` mode, exactly the project candidate, question, expectation, and continuation positions are filled; the public positions are absent. Applicability, recommendation, WorkPlan, and Work refs appear only when those values already exist.
+
+The result-flow position is always present. An unresolved direct-pattern choice opens a separate nested pattern-selection slice. That slice returns a candidate, finding, or recommendation used by the enclosing row; it does not become the enclosing result-producing structure.
+
+#### A.22.CGUS:4.3.2 - Pre-execution slot-filling scaffold
+
+A provisional demonstration can hold attention on visible candidate positions before execution and before CGUS admission. Each visible position initially points to a subject-domain object, question, or proposed continuation and states which A.22.CGUS admission coordinate remains unresolved. It does not yet point to an admitted `ConstraintGovernedUnfoldingPosition@Context`.
+
+Fill the scaffold in small passes. First name the visible candidate positions. Then recover the exact objects, kinds, relation signatures, constraints, invariants, guards, preserved structures, C.33 notes, next-form kinds, and stop or return conditions that would satisfy `4.2`. Keep every unresolved coordinate explicit in the provisional description. Only after the wider structure is admitted may a separate demonstrative slice replace candidate descriptions with exact structure-position and relation refs.
+
+**Minimal first use.** Write three visible candidate positions such as `candidate`, `evaluate`, and `repair`; describe the proposed relation that would make repair conditional on an evaluation result; and show both `accept candidate` and `repair candidate` as possible continuations. Keep this as a `ProvisionalUnfoldingDemonstrationDescription@Context` while the exact position kinds, relation instance, guard, preserved structure, or use boundary remains unresolved. It already helps a team hold the branch in attention without asserting the wider CGUS.
+
+After CGUS admission, create a separate `DemonstrativeUnfoldingSlice@Context`, cite the provisional description as derivation basis, and map only the recovered candidate material to exact admitted positions and relations. The scaffold helps design the wider graph; neither provisional nor admitted presentation asserts project work order or authorizes work.
+
+#### A.22.CGUS:4.3.3 - Bounded names and bridge
+
+`Mantra` is broader Plain didactic wording for a short repeatable formulation that keeps a local pattern's Solution in attention. The word alone does not recover one universal FPF kind. `A.6.P`, for example, can publish a local RPR mantra that recalls its repair order without claiming a wider unfolding structure.
+
+Other patterns may keep an established local name such as `mnemonic`, `watchword`, or `heuristic` when that name better tells their readers what the aid does. A.19's common-space comparison mnemonic, A.15.1's CAC mnemonic, and E.8's seven-step heuristic need not be renamed `mantra`. Conversely, an acronym, title mnemonic, or retrieval label is not a local mantra merely because it is memorable. These are Plain didactic choices interpreted from the local Solution and reader use, not rival FPF kinds.
+
+This pattern governs only the narrower case in which a local mantra presents admissible conditional continuations through a named wider constraint-governed unfolding structure. In that case, `mantra` may name the admitted `DemonstrativeUnfoldingSlice@Context`, and `mantra move` may name one `DemonstratedPatternUseRow@Context` inside it. Neither label grants method, plan, order, authority, work, or teaching-medium identity.
+
+##### Ordinary bounded use
+
+In public FPF explanation, call the admitted slice a `demonstrative walkthrough`. In the bounded seminar context recorded below, `mantra` is the shorter repeatable name for that same demonstrative episteme. One `mantra move` is a `DemonstratedPatternUseRow@Context`: it names the direct pattern, its Solution, the expected result, and the condition for continuing. Outside this admitted CGUS-demonstrative use, interpret a local mantra from the pattern's own Solution and context rather than forcing it into `DemonstrativeUnfoldingSlice@Context`.
+
+##### Naming assurance
+
+The following F.18 cards and directional Bridge preserve the lexical and contextual decisions behind those Plain labels. The separate `LocalSenseBasisRelation@Context` values identify which public pattern episteme or seminar publication episteme supports each local sense. NameCards support naming review; the basis relations support the bounded sense lines. Neither adds a step to CGUS application.
+
+```text
+NameCardId: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
+GovernedValueRef: DemonstrativeUnfoldingSlice@Context
+GoverningPatternRef: A.22.CGUS
+BoundedContextRef: FPF English public publication, edition 2026-07-11
+LocalSenseRef: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+TechLabel: DemonstrativeUnfoldingSlice@Context
+PlainLabel: demonstrative walkthrough
+CandidateSet: [demonstrative walkthrough, mantra, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
+RejectedCandidates:
+  mantra -> broader local didactic wording that does not by itself identify this CGUS-demonstrative value
+  mnemonic walkthrough -> foregrounds a memory technique rather than the represented structure
+  solution-story refrain -> overstates narrative form and refrain structure
+  repeated explanatory walkthrough -> is too long to serve as the public label
+  pattern-use refrain -> narrows the value although a CGUS slice may demonstrate wider structure
+SelectionRationale: the phrase identifies a presented explanatory episteme for a cold reader while the Tech value restores represented structure
+BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.FPFPublic
+LineageEntries: demonstrative slice -> cold-reader public Plain label
+RefreshCondition: readers treat the phrase as actual traversal, fixed work order, or teaching medium rather than the governed episteme
 ```
 
 ```text
-DemonstrativeUnfoldingSlice@Context:
-  kind: U.Episteme
-  entityOfConcernRef: ConstraintGovernedUnfoldingStructure@Context
-  demonstrationUseKind:
-    happyPath |
-    workedSlice |
-    firstUseExample |
-    promptExample |
-    actualCaseReplay |
-    variantComparison |
-    otherDeclared
-  traversalOrOrderingRuleRef:
-  includedLocusRefs[]:
-  omittedBranchRefs[]:
-  loopCompressionPolicyRef?:
-  alternativeSliceRefs[]?:
-  presentationFormKind:
-    orderedList |
-    chainDiagram |
-    flowCard |
-    table |
-    narrativePath |
-    slideSequence |
-    promptBlock |
-    graphSlice |
-    otherDeclared
-  admissibleUse:
-  nonAdmissibleUse:
-  sliceUseReturnCondition:
+NameCardId: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
+GovernedValueRef: DemonstrativeUnfoldingSlice@Context
+GoverningPatternRef: A.22.CGUS
+BoundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
+LocalSenseRef: a short repeatable explanatory walkthrough that helps a participant hold the whole solution structure in mind without prescribing performed-work order
+TechLabel: DemonstrativeUnfoldingSlice@Context
+PlainLabel: mantra
+CandidateSet: [mantra, demonstrative walkthrough, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
+RejectedCandidates:
+  demonstrative walkthrough -> accurate but too long for repeated seminar speech and does not foreground attention
+  mnemonic walkthrough -> foregrounds a memory technique rather than repeatable explanatory content
+  solution-story refrain -> overstates narrative form
+  repeated explanatory walkthrough -> is too long for the repeated teaching alias
+  pattern-use refrain -> narrows demonstrations to pattern use and loses wider CGUS cases
+SelectionRationale: repeated-formula and watchword senses support remembered repetition; the Sanskrit analysis instrument of thought supplies the attentional rationale; bounded context excludes ritual, slogan, method, plan, and work senses
+BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.SeminarTeaching
+LineageEntries: seminar teaching concept -> English lexical comparison -> bounded teaching alias over the same governed value
+RefreshCondition: readers infer ritual authority, slogan, rote formula, method, WorkPlan, Work, teaching medium, or cannot recover the demonstrated structure
 ```
 
-`DemonstrativeUnfoldingSlice@Context` is the right place for a happy path, P2W chain, P2S chain, cycle steps, prompt example, case replay, or seminar sequence. The slice shows one admissible traversal of the unfolding structure for a declared use. It is not a chain in the world and not a performed-work order.
+```text
+NameCardId: NameCard.DemonstratedPatternUseRow.SeminarTeaching
+GovernedValueRef: DemonstratedPatternUseRow@Context
+GoverningPatternRef: A.22.CGUS
+BoundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
+LocalSenseRef: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
+TechLabel: DemonstratedPatternUseRow@Context
+PlainLabel: mantra move
+CandidateSet: [mantra move, mantra row, demonstrated pattern-use row, walkthrough continuation, mnemonic step, solution-story move]
+RejectedCandidates:
+  mantra row -> foregrounds a table container rather than the conditional continuation
+  demonstrated pattern-use row -> is exact but too technical for repeated seminar speech
+  walkthrough continuation -> loses the bounded relation to the seminar mantra alias
+  mnemonic step -> suggests a fixed serial step and memory technique
+  solution-story move -> overstates narrative form and can be read as movement
+SelectionRationale: the phrase keeps the bounded mnemonic relation and names one continuation; row fields restore direct pattern, Solution, result, and condition
+BridgeRefs: none; expression and governed row are local to one seminar context
+UnifiedTermRowRef: UTS.DemonstratedPatternUseRow.SeminarTeaching
+LineageEntries: bounded mantra alias plus local move wording -> typed demonstrated-pattern-use row
+RefreshCondition: readers infer universal Move, physical movement, operation, fixed serial step, PlanItem, Work, or a row detached from its slice
+```
 
-When a graph-shaped or workflow-shaped description is used for teaching, record which branches, joins, cycles, or alternatives are included, omitted, compressed, or represented by a "return to start" arrow. The slice may be a chain because the reader needs one path; the governed unfolding structure need not be a chain.
+```text
+SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
+  Context: FPF English public publication, edition 2026-07-11
+  LocalExpression: demonstrative walkthrough
+  LocalSense: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+  senseFamily: DemonstrativeExplanation
+  NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
 
-A demonstrative slice may also be used before execution as a slot-filling scaffold. The presentation chain holds attention on visible positions such as "first record", "candidate repair", "evaluation row", "gate condition", or "return". Each visible position asks which CGUS field or direct governing pattern must be filled: admitted starting record, starting structure, locus, constraint, invariant, guard, preserved structure, lost structure, admissible next form, stop condition, return condition, method or work link, evidence link, architecture use, or publication use. The chain helps the team plan the structure by filling or rejecting these slots; it does not make the slot filled and does not authorize the work.
+SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
+  Context: English-language FPF seminar teaching, edition 2026-07-11
+  LocalExpression: mantra
+  LocalSense: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
+  senseFamily: DemonstrativeExplanation
+  NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
 
-Use the scaffold in small passes. First name the visible positions. Then attach each position to `unfoldingLoci[]` or to a direct governing pattern. Then fill constraints, invariants, guards, preserved and lost structure, admissible next forms, and stop or return conditions. If a position cannot be attached to a locus or governing pattern, keep the chain as a seed description or demonstrative slice and do not admit the full unfolding structure yet.
+LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
+  localSenseCellRef: SenseCell(FPF-English-Public-2026-07-11, DemonstrativeUnfoldingSlice-public)
+  basisEpistemeRef: A.22.CGUS
+  basisEpistemeKindRef: U.MethodDescription
+  basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
+  boundedContextRef: FPF English public publication, edition 2026-07-11
 
-For example, "draft -> evaluate -> repair -> re-evaluate" is a useful presentation chain for an improvement cycle only after the object version, evaluation frame, candidate repair loci, expected evaluation movement, loop-decision locus, and stop or continue condition are recoverable. Before those slots are filled, the chain is a planning scaffold, not an improvement loop and not performed work.
+LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
+  entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  boundedContextRef: FPF English public publication, edition 2026-07-11
+  viewpointRef: FPFPublicReaderViewpoint
+  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11, FPF English public publication 2026-07-11, FPFPublicReaderViewpoint>
+  claimGraph:
+    supportedSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+    admittedUseClaim: support the public local-sense line for this SenseCell
+    nonAdmittedUseClaim: no evidence, authority, work-order, or naming decision follows from this relation
+  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  editionId: 2026-07-11
+
+LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
+  localSenseCellRef: SenseCell(FPF-Seminar-Teaching-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
+  basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
+  basisEpistemeKindRef: U.EpistemePublication
+  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
+  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
+
+LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
+  entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
+  viewpointRef: FPF Seminar Participant Viewpoint
+  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11, English-language FPF seminar teaching 2026-07-11, FPF Seminar Participant Viewpoint>
+  claimGraph:
+    supportedSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
+    admittedUseClaim: support the bounded teaching sense from the seminar expression
+    nonAdmittedUseClaim: the slide carrier does not become the sense, naming settlement, method, plan, or work
+  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  editionId: 2026-07-11
+BridgeCardId: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+BridgeKind: Narrower-than
+Direction: seminar CellB to public CellA only
+CL: 2
+LossNotes: the public sense omits repeated speech, remembered replay, and seminar attentional function
+CounterExampleOrInvariantEvidence: a public walkthrough may be read once without mnemonic repetition
+AdmittedUse: Naming-only from seminar mantra to public demonstrative walkthrough and the same governed value
+NonAdmittedUse: no reverse substitution and no inference of method, plan, order, authority, work, or teaching-medium identity
+RevisionTrigger: context edition, observed loss, local label, or governed value changes
+```
+
+The local relation species and its SlotKind, ValueKind, RefKind, direction, dependence, and identity are declared in `F.17:5.1`. `SeminarExpression.FPFPracticalUse.2026-07-11` is the seminar content as a `U.EpistemePublication`; the `.pptx` and extracted Markdown are separate carriers or renderings.
+
+The bridge is directional; shared reference to one governed value does not erase the sense difference. It governs only the two senses of this CGUS-demonstrative value and does not govern every local pattern mantra. The seminar publication expression supplies the teaching problem and the local-sense basis; its carriers do not. Dictionaries supply English lexical and etymological evidence, while F.18 plus reader-use tests decide the bounded names. A changed NameCard therefore reopens naming without silently changing the public or teaching sense. A changed SenseCell address, basis-episteme edition, bounded context, or cited publication unit reopens the corresponding `LocalSenseBasisRelation@Context`; a changed supported-sense claim or use boundary opens a new `LocalSenseBasisRelationDescription@Context` edition. F.18 remains the naming procedure.
 
 #### A.22.CGUS:4.4 - Direct Governing Pattern Exits
 
@@ -210,6 +433,7 @@ CGUS carries the unfolding structure. It does not absorb stronger claims.
 | Work plan, work entry, or performed work | `A.15.2`, `A.15.5`, `A.15.1`, and neighboring work patterns |
 | Evidence, assurance, or gate | `A.10`, `B.3`, `A.20`, `A.21`, `G.6` as current |
 | Architecture use, architecture decision, or architecture description | `C.30`, `C.30.ASV`, `C.32.P2S`, `C.32.PAD`, `C.32.ADR`, `C.30.AD` |
+| Variant archive, non-dominated front, live pool, or selected-set publication | `C.18`, `C.19`, `G.5` |
 | Narrative rendering or publication use | `A.6.3.NAR`, `E.17`, `E.17.0` |
 | Improvement of an object version | `E.23`, with evaluation patterns for the declared object |
 | Source currentness, decay, edition shift, or refresh orchestration | `G.11` |
@@ -219,9 +443,9 @@ Use the word `refresh` only when a currentness, telemetry, edition, decay, or sl
 
 #### A.22.CGUS:4.4a - Direct Governing-Pattern Dependent Records
 
-Some CGUS uses need dependent records that keep adjacent method, work, evidence, architecture, description, or publication claims inspectable. A.22.CGUS does not define those record schemas. It only requires that a CGUS field name the direct governing pattern before a stronger claim is relied on.
+Some CGUS uses need dependent records that keep adjacent method, work, evidence, architecture, description, or publication claims inspectable. A.22.CGUS does not define those record schemas. Reliance on a stronger claim is admitted only when the corresponding CGUS field names its direct governing pattern.
 
-For method and work linkage, use the A.15-owned `MethodWorkUnfoldingLinkage@Context` only when the relation among method, method description, role assignment, capability-fit condition, work plan, readiness, performed work, evidence, assurance, or gate must stay inspectable as a relation. If only one method, work-plan, readiness, performed-work, evidence, assurance, or gate claim is current, use that direct governing record instead.
+For method and work linkage, use `MethodWorkUnfoldingLinkage@Context`, governed by A.15, only when a named receiving use relies on that relation remaining inspectable across method, method description, role assignment, capability-fit condition, work plan, readiness, performed work, evidence, assurance, or gate positions. If only one method, work-plan, readiness, performed-work, evidence, assurance, or gate claim is current, use that direct governing record instead.
 
 For architecture use, use the C.32.P2S-owned `ArchitectureUnfoldingStructureUse@Project` only when a named unfolding structure is being used as architecture-relevant structure in problem-to-structure architecturing. If the current claim is only grounded architecture, structural view, architecture description, decision, ADR-like projection, measurement, eval, or performed realization work, use the direct pattern for that claim.
 
@@ -238,4 +462,10 @@ For example, `UF.IMP` can be useful when an object version, evaluation frame, ca
 For example, `UF.REFRESH` can be useful when a `G.11` source-currentness relation, telemetry, evidence decay, or edition shift is current. The cue points toward `G.11` and warns that a stale reference set is not current authority.
 
 If no promoted cue helps, omit the cue. Do not invent a core `UF.*` cue merely to make a CGUS use look governed. DPFs and project-local frameworks may carry their own local cue examples when useful, but the governing claim still comes from the local governing-pattern map and the relevant pattern bodies.
+
+#### A.22.CGUS:4.6 - Replay and change localization
+
+Replay one CGUS use from its bounded context, unfolded structure, subject EntityOfConcern and kind, current position fillings, exact referenced relation instances, constraints, invariants, guards, preserved structures, C.33 adequacy notes, admissible next-form kinds, and use boundaries. For each selected continuation, recover the relations and guards that admit it and the direct pattern governing any stronger claim. A demonstrative slice is replayable only as one declared presentation of that wider structure.
+
+Localize a change before reopening wider work. A changed relation instance reopens that reference and its dependent guards or continuations. Changed omitted structure reopens the affected C.33 adequacy note and any slice relying on it. A changed presentation changes the demonstrative slice without changing the CGUS unless it reveals missing or false structure. A freshness, edition, telemetry, or decay change is handled by its exact `G.11` relation. A changed method, work, evidence, architecture, publication, or formal claim returns to the direct governing pattern for that claim. Rebuild the wider CGUS only when its structure identity, position set, relation structure, constraints, or declared use boundary has changed.
 

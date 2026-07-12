@@ -6,25 +6,22 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 80357
-line_end: 80382
+line_start: 81888
+line_end: 81913
 dependencies:
   - "A.19.ECS"
+  - "A.22.CGUS"
   - "C.17-C.19"
-  - "C.19.1"
-  - "C.22.1"
-  - "C.24"
   - "C.32.P2S"
   - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.9.DA"
-  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -40,7 +37,7 @@ keywords:
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
-| `A.22.CGUS` | Supplies the unfolding structure for improvement loops when object version, evaluation frame, candidate repair loci, protected tradeoffs, expected movement, and loop decision must be inspected together. |
+| `A.22.CGUS` | Supplies the unfolding structure when one review or replay use inspects object version, evaluation frame, E.22 proposal refs, protected trade-offs, expected evaluation-result changes, and the loop-decision value together. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
 | `G.2` | Governs source-use and source-pack return before DPF seeds based on source-use records, admitted source publications, agent-practice claims, or source-composed improvement claims can be used as evidence. |
 | `F.18` | Supplies durable-name evaluation for naming loops. |

@@ -6,41 +6,38 @@ section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 70223
-line_end: 70228
+line_start: 70996
+line_end: 71001
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
   - "A.15.5"
-  - "A.16"
-  - "A.16.0"
   - "A.21"
+  - "A.22.CGUS"
   - "A.3.4.P"
-  - "B.1.6"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
   - "E.10"
   - "E.10.ARCH"
   - "E.11.PUR"
   - "E.17"
+  - "E.18"
   - "E.18.1"
+  - "E.23"
   - "E.24"
-  - "G.6"
+  - "F.17"
+  - "F.18"
+  - "G.11"
 keywords:
 ---
 
 ### E.10.MOVE:10 - Rationale
 
-Move-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim being made, and object under wording repair; classify borrowed or ordinary wording; name the direct FPF target; preserve reader use; and apply the pattern that governs the recovered target.
+Move-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim being made, and object under wording repair; classify borrowed or ordinary wording; name the governed FPF value; preserve reader use; and apply the pattern that governs that value.
 
-The pattern is a child of E.10 because it starts as wording-use restoration. It stays small because the substantive objects are already governed elsewhere: `E.11.PUR`, `A.15.5`, `E.18.1`, the A.15 family, A.21, A.3.4.P, C.24, C.30, A.16, E.17, and `A.15.4` appearance-based reliance repair.
+The pattern is a child of E.10 because it starts as wording-use restoration. Two retained restorations are deliberately narrow: `mantra move` returns to one A.22.CGUS demonstrated row, while evaluation movement wording returns to one E.23 prediction about a later evaluation result. Recommendation, transformation, readiness, gate, publication, and work claims remain with their direct patterns.
 

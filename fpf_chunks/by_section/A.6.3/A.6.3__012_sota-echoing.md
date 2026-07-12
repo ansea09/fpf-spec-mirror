@@ -6,12 +6,12 @@ section_id: "A.6.3:7.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__012_sota-echoing.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:7.1 — SoTA-Echoing"
-line_start: 11744
-line_end: 11765
+line_start: 11804
+line_end: 11825
 dependencies:
   - "A.6.0"
   - "A.6.2"

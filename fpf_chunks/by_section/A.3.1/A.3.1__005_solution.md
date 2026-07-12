@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:4 — Solution"
-line_start: 6345
-line_end: 6535
+line_start: 6366
+line_end: 6592
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "G.11"
   - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
@@ -53,6 +54,8 @@ keywords:
 ### A.3.1:4 - Solution
 
 `U.Method` is the **context-defined semantic way of doing a kind of transformation or enactment**.
+
+**Local method mantra.** *Name the reusable way of doing; bound its context and transformed entity or structure; state its preconditions and intended effects; keep its descriptions, plans, work occurrences, and mechanisms in their own relations; then use the direct pattern for every stronger claim.* This compact formula keeps the Solution in attention. It is not a work order, a `U.WorkPlan`, a dated enactment, or a `DemonstrativeUnfoldingSlice@Context`.
 
 It is a non-agentive holon kind. Part methods can be selected, bounded, ordered, joined, adapted, and hidden or exposed through method interfaces to form a whole method with whole-level preconditions, effects, invariants, constraints, and assurance hooks. The whole method may then be used as a part method in a larger method.
 
@@ -82,30 +85,62 @@ The primary repair action is not to replace the word "method" or "practice" with
 | evidence or provenance relation for a claim | `A.10` |
 | graph path, path slice, flow valuation, state predicate, query, table, dashboard, publication face, or pattern relation overread as a method or work sequence | `C.2.P.DR` first, then the direct governing pattern named by the recovery |
 
-#### A.3.1:4.1 - Thin first-use record
+#### A.3.1:4.0a - Strategy wording by current position
 
-For ordinary first use, write only the fields needed to keep the method claim from collapsing into a description, plan, run, mechanism, or evidence relation:
+Treat `strategy` as ordinary source wording until the current position is recovered. Do not mint `U.Strategy`.
+
+When the wording names a context-local reusable way of deciding or acting, the governed value is `U.Method`. A clinical treatment strategy, manufacturing setup strategy, search strategy, or negotiation strategy is a method when it states the reusable way of doing and its preconditions, effects, and bounds.
+
+When a protocol, playbook, program, diagram, or prose passage describes that way, the governed value is `U.MethodDescription`. Reusable strategizing can itself be a `U.Method`; a dated strategy workshop, search episode, or planning session is `U.Work` when it is the occurrence that happened.
+
+When the current claim selects candidates under criteria or policy pins, use the selector relation and policy values governed by `A.19.SelectorMechanism` and G.5. The word `strategy` does not replace `CriteriaSlot`, `PolicyHooksRef`, `InsertionPolicyRef`, `EmitterPolicyRef`, `PromotionPolicy`, or the emitted `SelectorOutcome` when one of those is the actual claim.
+
+Ordinary quoted or explanatory strategy wording may remain when no FPF-governed method, description, work, selector, or policy claim is being made. The repair is complete when the current position and direct governing pattern are recoverable, not when every occurrence has been replaced by one preferred word.
+
+#### A.3.1:4.1 - Thin first-use method identification
+
+
+Use the cheapest apparatus that preserves the current distinction:
+
+1. **Ordinary conversational use.** Apply the local mantra, name the method, context, transformed entity or structure, preconditions, effects, and nearest boundary, then stop. Materialize no record when feedback is immediate and no later use relies on replay.
+2. **Reliance-bearing use.** Materialize the Plain identification aid below when comparison, transfer, planning, audit, automation, delayed feedback, expensive reversal, or another named use relies on recovering the method identity and its boundary.
+3. **Structure-bearing use.** Open `MethodRelationStructure@BoundedContext`, `B.1.5`, or another direct composition pattern only when the receiving use relies on relations among methods, method parts, families, descriptions, selectors, or work-facing uses being explicit.
+
+Moving upward must answer a named reliance need. More fields do not make the method real, improve it, authorize its use, or establish that work occurred.
+
+For the reliance-bearing level, state only the fields needed to keep the method claim from collapsing into a description, plan, run, mechanism, or evidence relation. The following is a Plain identification aid, not a record kind, ontic, serialization, or mandatory form:
 
 ```text
-Method statement:
+Method identification aid:
   MethodRef:
   BoundedContext:
   TransformationOrEnactmentKind:
-  EntityOfConcern:
+  TransformedEntityOrStructureRef:
   Preconditions:
   IntendedEffectsOrPreservedConditions:
-  CurrentMethodDescriptionRef:
-  WorkRelation:
+  CurrentMethodDescriptionRefAndEdition:
+  WorkRelationWhenCurrent:
+  IdentityBasisRelationsAndDirectPatterns:
+  QualificationWindow:
+  ReviewWhen:
   ClaimBoundary:
 ```
 
 `ClaimBoundary` names the nearest stronger claim that is not carried by this method statement, such as work authorization, performed work, evidence for success, mechanism declaration, or formal-substrate adequacy. It is a boundary field, not a place to repeat every neighboring pattern.
 
+For reliance-bearing use, every identity-basis entry names one exact relation together with the pattern governing that relation; generic `source`, `support`, or `evidence` wording is not a replay basis. `QualificationWindow` states the context, method variant, and time or edition range for which the identification is being relied on. `ReviewWhen` names which change in context, preconditions, effects, bounds, transformed entity or structure, description relation, or work-facing acceptance relation would make that identification unsafe to reuse without review.
+
+#### A.3.1:4.1a - Closure and bounded non-use
+
+A method identification closes positively for the current use when the context-local way of doing, bounded context, transformation or enactment kind, `A.3.4 transformedEntityOrStructure`, applicable preconditions, intended effects or preserved conditions, and nearest `ClaimBoundary` are recoverable. Add a method-description relation or work relation only when the receiving use relies on a particular description or enactment family.
+
+Close by bounded non-use when the current claim is only a description, plan, dated work occurrence, mechanism, selector result, role relation, evidence relation, publication use, or ordinary quoted wording. If the available material cannot distinguish those positions, keep the source wording as an unresolved cue and stop; do not infer a `U.Method`. A later plan, work occurrence, or evidence result does not keep the method identification open unless it changes a relation on which that identity relied.
+
 #### A.3.1:4.2 - Method and mechanism settlement
 
 Do not decide the method and mechanism question by vocabulary. When a source expression or project concern appears to name changing, producing, selecting, deriving, controlling, or maintaining an `EntityOfConcern`, use `E.10.ARCH:3.1` to recover the project concern first and then assign separately governed typed FPF values.
 
-For this host, keep the local question thin: does the current claim state a `U.Method`, the context-local way of doing a transformation or enactment? If the source label also raises mechanism, formal-substrate, work-plan, dated-work, role-assignment, cultural-evolution, discipline, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
+For ordinary use, keep the local question thin: does the current claim state a `U.Method`, the context-local way of doing a transformation or enactment? If the source label also raises mechanism, formal-substrate, work-plan, dated-work, role-assignment, cultural-evolution, discipline, evidence, source, gate, result, publication, or temporal claims, keep those values linked only by explicit relation positions and apply their own governing patterns.
 * In **method position**, the current claim is the context-local way of doing a transformation or enactment.
 * In **mechanism position**, the current claim is a law-governed declaration or revision of operations, laws, admissibility predicates, transport, audit relation set, and monotone realizations under `A.6.1` and `E.20`.
 
@@ -113,7 +148,7 @@ Do not assign the same typed value as both `U.Method` and `U.Mechanism` unless a
 
 This gives the working distinction:
 
-| Current question | Governing pattern | What must be recoverable |
+| Current question | Governing pattern | Recoverable relation or value |
 | --- | --- | --- |
 | What way of doing is intended or enacted? | `A.3.1 U.Method` | context, transformation or enactment kind, preconditions, effects, work-facing identity, description relation |
 | What description states the way of doing? | `A.3.2 U.MethodDescription` | episteme, representation form, method described, parameters, acceptance criteria, edition relation or source relation when current |
@@ -147,12 +182,12 @@ A useful `U.Method` statement can usually recover these fields in ordinary proje
 | Method name | the context-local way of doing |
 | Bounded context | the project, discipline, organization, regulatory setting, theory, or operational context that interprets the method |
 | Transformation or enactment kind | what changes, is produced, decided, derived, controlled, selected, or maintained |
-| EntityOfConcern under transformation | the material object, information object, organization, episteme, holon, or state whose transformation matters |
-| Preconditions | what must already hold for the method to be applicable |
+| Transformed entity or structure | the `A.3.4 transformedEntityOrStructure`: material object, information object, organization, episteme, holon, state, or other governed object whose change or preserved condition matters |
+| Preconditions | states already in effect for the method to be applicable |
 | Effects or postconditions | what successful enactment is meant to produce or preserve |
 | Interface or signature | inputs, outputs, ports, resources, constraints, or role-kind admission conditions needed to state the method without naming this run |
-| Capability requirements | thresholds or envelopes to be checked against a holder's capability, not baked into the method identity |
-| Failure and stop conditions | when the method is blocked, when a description must be revised, or when work must not start |
+| Capability acceptance conditions | thresholds or envelopes evaluated against a holder's capability, not baked into the method identity |
+| Failure and stop conditions | when the method is blocked, when description revision is current, or when work-entry is inadmissible |
 | Description relation | which `U.MethodDescription` epistemes currently describe it |
 | Work relation | what kind of `U.Work` may enact it and how runs cite the description used |
 
@@ -160,7 +195,7 @@ This is not a data schema. It is the minimum recognition field set needed before
 
 #### A.3.1:4.5 - Representation and programming-paradigm discipline
 
-A `U.Method` does not require an imperative step structure.
+A `U.Method` does not depend on an imperative step structure.
 
 Imperative procedures, functional compositions, logical rule sets, constraint models, object-centric event models, effect-handler programs, process diagrams, SQL queries, equality-saturation graphs, proof scripts, and optimization models may all help describe, represent, or analyze a way of doing. Their representation style does not by itself decide whether the current claim position is a method, a method description, a formal substrate, a mechanism, a work plan, work, evidence, or a declarative representation under `C.2.P.DR`.
 
@@ -175,7 +210,7 @@ Use this discipline:
 * If the text states an evidence relation or provenance relation, use `A.10`.
 * If the text turns a graph, path, query, table, dashboard, predicate, publication face, or pattern relation into a route, call sequence, dispatch, or work procedure by metaphor, use `C.2.P.DR` before choosing the direct governing pattern.
 
-This is why "algorithm" and "practice" are not repaired to "method" automatically. An algorithm-looking expression may indicate a method description, formal substrate, mechanism, control strategy, work plan, work occurrence, evidence relation, or quoted source wording. A practice-looking expression may indicate a method, method family, method relation structure, method description, work plan, dated work, role assignment, bounded context, discipline position, cultural-evolution case, canon or memory episteme, recognition or selection regime, mediation system, evidence relation, or quoted source wording. The repair must recover the slot.
+This is why "algorithm" and "practice" are not repaired to "method" automatically. An algorithm-looking expression may indicate a method description, formal substrate, mechanism, control strategy, work plan, work occurrence, evidence relation, or quoted source wording. A practice-looking expression may indicate a method, method family, method relation structure, method description, work plan, dated work, role assignment, bounded context, discipline position, cultural-evolution case, canon or memory episteme, recognition or selection regime, mediation system, evidence relation, or quoted source wording. The repair closes only after recovering the current slot.
 
 #### A.3.1:4.6 - Constructor and process-theory settlement
 
@@ -213,6 +248,8 @@ Methods may compose into larger method holons. Work occurrences may compose into
 
 When the current question is one semantic way of doing, the governed object is `U.Method`. When submethods are assembled into a whole method, the governed object is still `U.Method`, now under method-holon composition. When the current question is only a relation among methods, method families, local method expressions, method-description links, or work-facing method-use relations, the governed object is `MethodRelationStructure@BoundedContext`: a context-local structure over method-side values.
 
+By the `E.24.UK` settlement, `MethodRelationStructure@BoundedContext` is a non-U selected relation structure below the whole-method threshold. The suffix states its bounded-context qualification; it does not create a root kind. Its participants are exact method-side values, and its connections are exact composition, refinement, substitution, iteration, decomposition, family-membership, selector, fallback, description, or use relations governed by their direct patterns. The list below is recognition guidance, not a closed relation type or a substitute schema.
+
 A method relation structure may include:
 
 - serial composition;
@@ -228,7 +265,7 @@ A method relation structure may include:
 
 Those relations are design-side or definition-side claims about ways of doing. They are not dated work merely because an implementation, graph, process model, or workflow-looking diagram can be executed or followed.
 
-Method-holon composition is not A.14 structural component mereology. `SerialStepOf`, `ParallelFactorOf`, guarded choice, iteration, typed joins, adapters, and method-interface exposure are arrangement or constraint relations over recovered `U.Method` submethods. Method-description nodes may describe those relations, but they are not method parts unless the governed object is recovered as a `U.Method`. Use `B.1.5` when order-sensitive method composition is current, and use `B.2` when the composite method requires whole reidentification.
+Method-holon composition is not A.14 structural component mereology. `SerialStepOf`, `ParallelFactorOf`, guarded choice, iteration, typed joins, adapters, and method-interface exposure are arrangement or constraint relations over recovered `U.Method` submethods. Method-description nodes may describe those relations, but they are not method parts unless the governed object is recovered as a `U.Method`. Use `B.1.5` when order-sensitive method composition is current, and use `B.2` when whole reidentification of the composite method is current.
 
 Work composition is occurrence-side: dated work may interleave, split, merge, retry, fail, recover, or be recorded in traces differently from the method description or method relation structure. Method decomposition and work decomposition are coupled because work enacts method, but they are not isomorphic. A temporal work part may enact the same whole method during a slice. An episode may record continuity under one method or mode while spanning several operational parts, repeating a fragment, or being split by evidence policy. A work part corresponds to a submethod only when the candidate factor is recovered as a `U.Method` with method-level preconditions, effects, interface or boundary, and whole-method relation under `B.1.5`.
 

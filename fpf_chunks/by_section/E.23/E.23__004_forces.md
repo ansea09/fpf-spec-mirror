@@ -6,25 +6,22 @@ section_id: "E.23:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__004_forces.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:3 — Forces"
-line_start: 80135
-line_end: 80145
+line_start: 81573
+line_end: 81583
 dependencies:
   - "A.19.ECS"
+  - "A.22.CGUS"
   - "C.17-C.19"
-  - "C.19.1"
-  - "C.22.1"
-  - "C.24"
   - "C.32.P2S"
   - "E.2.DA"
   - "E.21"
   - "E.22"
   - "E.23"
   - "E.9.DA"
-  - "F.19"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -35,10 +32,10 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Improvement ambition vs cost | Exceptional improvement can be valuable; ordinary floor work must stay affordable. |
+| Improvement ambition vs cost | Exceptional improvement can be valuable while ordinary floor work stays affordable. |
 | General adaptive methods vs specialized cycles | Broad loops scale, while specialized cycles can be cheaper when the characteristic space fits. |
 | Feedback vs self-confirming retry | Feedback helps only when re-evaluation checks changed quality. |
-| Operation hardening vs bureaucracy | Verification, memory, decomposition, and supervision can help but must justify cost. |
+| Operation hardening vs bureaucracy | Verification, memory, decomposition, and supervision are admitted only when their expected improvement effect justifies cost. |
 | Visible improvement vs protected trade-offs | One coordinate can rise while use, source preservation, locality, or ecology worsens. |
 | Proposal portfolio vs selector overread | Proposals can guide improvement without becoming selected results or work plans. |
 

@@ -6,14 +6,15 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:12 — Relations"
-line_start: 65793
-line_end: 65802
+line_start: 66494
+line_end: 66503
 dependencies:
   - "C.33"
+  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -25,7 +26,6 @@ dependencies:
   - "E.23"
   - "E.4"
   - "E.4.DPF.DA"
-  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
@@ -43,5 +43,5 @@ keywords:
 - **Coordinates with:** `E.4.PFR` for relation, dependency, edition, compatibility, deprecation, and supersession records.
 - **Coordinates with:** `C.33`, `C.34`, and `C.35` for carrier preservation and admission.
 - **Coordinates with:** `E.22` for quality-evaluation framing when needed, `E.4.DPF.DA` for DPF package adequacy, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, `E.19` for admission or profile gating when claimed, and `G.11` for currentness.
-- **Exits to:** `E.11` and `E.17` when the live problem is publication or first-entry discoverability rather than framework authoring.
+- **Exits to:** `E.11` and `E.17` when the live problem is practical-use or publication discoverability rather than framework authoring.
 

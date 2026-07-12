@@ -6,14 +6,15 @@ section_id: "E.4.DPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__007_bias-annotation.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:6 — Bias-Annotation"
-line_start: 65727
-line_end: 65732
+line_start: 66414
+line_end: 66420
 dependencies:
   - "C.33"
+  - "C.33-C.35"
   - "C.34"
   - "C.35"
   - "E.10"
@@ -25,7 +26,6 @@ dependencies:
   - "E.23"
   - "E.4"
   - "E.4.DPF.DA"
-  - "E.4.FPF"
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
@@ -36,6 +36,7 @@ keywords:
 ---
 
 ### E.4.DPF:6 - Bias-Annotation
+
 
 The first drift is source-summary confidence: a summary feels sufficient because it names the right domain terms. The repair is to turn sources into a `G.2` source pack with adopted and rejected payload, then carry that payload into pattern solutions and examples.
 

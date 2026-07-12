@@ -1,42 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11.PUR"
-pattern_title: "Pattern-Use Recommendation and Pattern-Use Sequence"
+pattern_title: "Pattern-Use Applicability, Recommendation, and Coordination"
 section_id: "E.11.PUR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__011_rationale.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11.PUR — Pattern-Use Recommendation and Pattern-Use Sequence"
+  - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:10 — Rationale"
-line_start: 71862
-line_end: 71867
+line_start: 73089
+line_end: 73094
 dependencies:
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.5"
-  - "A.16"
+  - "A.19"
+  - "A.19.ECS"
   - "A.21"
+  - "A.6.5"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
-  - "E.10"
-  - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.11.PUA"
+  - "E.18"
   - "E.18.1"
-  - "E.24"
-  - "E.8"
+  - "G.11"
 keywords:
 ---
 
 ### E.11.PUR:10 - Rationale
 
-The practical question "what should I do next with FPF?" is real. It deserves a stable relation because it recurs in first-entry use, seminar teaching, AI assistance, and multi-pattern composition. The relation is not a new kind of project object. It is a pattern-use recommendation relation that points to the pattern likely to produce the next useful result.
+Applicability, recommendation, and coordination answer different questions. Applicability asks whether a candidate's conditions hold. Recommendation asks which applicable use best serves the current concern. Coordination asks how several candidate uses belong together. Keeping the questions separate prevents a familiar label or score from becoming an unexamined decision.
 
-This keeps FPF action-guiding: users can still ask for a first useful move, while FPF can answer with a precise pattern use and then use the pattern that governs work, gates, architecture, source relation, publication, or transformation.
+Pairwise precedence is intentionally narrow. A graph of pattern uses can be unordered, partially ordered, or totally ordered. Only a current dependency justifies an edge, and only a prerequisite result justifies a result-expectation reference. This preserves graph structure without turning every explanation into a chain.
 

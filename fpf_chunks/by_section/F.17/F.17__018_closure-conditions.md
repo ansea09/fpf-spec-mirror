@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14 — Closure conditions"
-line_start: 87939
-line_end: 87951
+line_start: 89721
+line_end: 89734
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -19,18 +19,22 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.7"
+  - "A.22.CGUS"
   - "A.6.5"
   - "A.6.P"
   - "B.3"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
+  - "E.10.MOVE"
+  - "E.11"
   - "E.17"
   - "F.1"
   - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.18"
   - "F.2"
   - "F.3"
@@ -40,23 +44,19 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.11"
 keywords:
-  - "UTS"
-  - "Unified Term Sheet"
-  - "glossary"
-  - "human-readable output"
-  - "publication"
-  - "summary table"
 ---
 
 ### F.17:14 - Closure conditions
 
 A UTS row is ready for ordinary reuse only when:
 
-- the governed kind or value is explicit;
+- the governed value and its exact kind are explicit;
 - the direct pattern is named;
 - Tech and Plain names are selected under `F.5` and `F.18`;
 - local senses are bounded-context and edition scoped;
+- each relied-on local-sense basis is separate from its naming settlement and is cited through `LocalSenseBasisRelation@Context`;
 - cross-context claims cite `F.9`;
 - the row names admissible use and blocked use;
 - currentness conditions are stated;

@@ -6,12 +6,12 @@ section_id: "A.3.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__012_rationale.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:9 — Rationale"
-line_start: 7738
-line_end: 7743
+line_start: 7798
+line_end: 7803
 dependencies:
   - "A.1"
   - "A.1.1"

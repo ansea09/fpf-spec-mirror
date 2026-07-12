@@ -1,41 +1,34 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
+pattern_title: "Practical-Use Guidance and Pattern Discovery"
 section_id: "E.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__003_problem.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
+  - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:2 — Problem"
-line_start: 71255
-line_end: 71264
+line_start: 72014
+line_end: 72019
 dependencies:
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.MOVE"
+  - "A.22.CGUS"
+  - "C.2.1"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.19"
-  - "E.21"
+  - "E.17.AUD"
+  - "E.18"
   - "E.8"
+  - "F.17"
   - "F.18"
-  - "F.19"
-  - "I.2"
+  - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "dependencies"
-  - "query phrases"
 ---
 
 ### E.11:2 - Problem
 
-Entry material fails in three recurring ways.
+Pattern libraries are difficult to enter from a working situation. A reader may see a long table of contents, search by a familiar word, or choose the first appealing pattern title. That choice can be premature because nearby cards may lead to different first results and different stop conditions.
 
-First, it becomes too internal. It starts with FPF diagnoses such as "roles and methods are mixed" even though a working practitioner only knows that they need an architecture review, a regulation, a decision, or a better name.
-
-Second, it becomes a duplicate corpus. A separate first-entry index repeats `readme` scenarios, then each pattern repeats the same related-pattern fanout list, and soon FPF carries several slightly different entry arrangements.
-
-Third, it becomes too authoritative. A projection row, heading, card, or `readme` paragraph starts answering as if it were the pattern body. That is projection drift: a finding aid becomes a shadow source.
+Attempts to help can create a second problem. Public guidance becomes a numbered method, a shadow pattern body, or a form that asks the reader to fabricate project-local values before the direct pattern has been inspected. The discovery aid then competes with the patterns it should expose.
 

@@ -6,12 +6,12 @@ section_id: "E.18.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__009_conformance-checklist.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:7 — Conformance Checklist"
-line_start: 78381
-line_end: 78391
+line_start: 79713
+line_end: 79723
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,26 +22,27 @@ dependencies:
   - "A.3.4"
   - "A.6.3.NAR"
   - "B.3"
-  - "C.29"
+  - "C.18"
+  - "C.19"
   - "C.30.TFS-REL"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
   - "E.23"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
 ### E.18.3:7 - Conformance Checklist
 
-| ID | Requirement | Failed-check repair |
+| ID | Passing condition | Failed-check repair |
 | --- | --- | --- |
-| **CC-E18.3-1 Transformation substrate.** | Bounded transformations, transformation loci, and transformed concern are named. | Use `A.22.CGUS` or another direct pattern instead of E.18.3. |
-| **CC-E18.3-2 Flow structure.** | Transfer or dependency relations, path or path-slice refs, crossings, guards, and optional valuation are recoverable. | Lower to a route card, graph description, or ordinary explanation. |
-| **CC-E18.3-3 Adjacent locus boundary.** | Method, work, evidence, gate, architecture, publication, and refresh claims point to direct governing patterns. | Add direct exits or narrow the claim to the transformation-flow structure. |
-| **CC-E18.3-4 Preserved and lost structure.** | Preserved and lost or hidden transformation structure are named. | Add them before using the structure for action, comparison, architecture, or publication. |
-| **CC-E18.3-5 Stop or return.** | Stop, return, governing-pattern-specific repair, and currentness-refresh conditions are recoverable. | Add the condition or keep the slice as a one-use example. |
-| **CC-E18.3-6 Non-chain topology.** | Branches, joins, cycles, partial orders, and guarded alternatives are preserved or explicitly lost when the flow is graph-shaped. | Treat any linear path as a demonstrative slice, not the whole flow structure. |
+| **CC-E18.3-1 Transformation substrate.** | Bounded transformations, transformed entity and kind, and typed transformation positions are named. | Use `A.22.CGUS` or another direct pattern instead of E.18.3. |
+| **CC-E18.3-2 Flow structure.** | Exact transfer, dependency, crossing, and guard relation refs; path and path-slice refs; demonstrations; and optional valuation are recoverable without union fields. | Lower to a route card, graph description, or ordinary explanation. |
+| **CC-E18.3-3 Governing-position connections.** | Every neighboring position has exact kind, ref, governing pattern, connection kind, and rationale. Every connection except `comparisonPeer` has an exact supporting relation; for `comparisonPeer`, this connection relation itself states the exact pair and rationale. | Add the typed connection or remove the neighboring-position claim. |
+| **CC-E18.3-4 Preserved and omitted structure.** | Preserved transformation structures are exact refs; relevant loss and hiddenness are C.33 adequacy notes for the declared use. | Add the exact structures and C.33 notes before relying on the slice. |
+| **CC-E18.3-5 Stop and return.** | Stop boundary and returns to exact governing patterns are separate; E.18 slice-local refresh and G.11 currentness remain distinct. | Add exact boundaries or keep the slice as a one-use example. |
+| **CC-E18.3-6 Non-chain topology.** | Branches, joins, cycles, partial orders, and guarded alternatives are preserved or explicitly lost when the flow is graph-shaped. | Keep a linear path provisional before admission; after admission, a separate demonstrative slice may present it but never replaces the whole flow structure. |
 

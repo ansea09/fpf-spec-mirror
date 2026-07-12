@@ -6,32 +6,34 @@ section_id: "A.22.CGUS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__001_intro.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:intro — Intro"
-line_start: 31243
-line_end: 31248
+line_start: 31388
+line_end: 31393
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
   - "B.3.5"
   - "B.5.2"
   - "C.13"
+  - "C.18"
+  - "C.19"
   - "C.2.P.DR"
   - "C.3"
   - "C.32.P2S"
+  - "C.33"
   - "C.35"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "E.18"
   - "E.18.1"
   - "E.18.3"
   - "E.23"
-  - "E.9"
-  - "E.9.DA"
+  - "F.17"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 

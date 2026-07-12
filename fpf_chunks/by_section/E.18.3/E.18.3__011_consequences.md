@@ -6,12 +6,12 @@ section_id: "E.18.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__011_consequences.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:9 — Consequences"
-line_start: 78401
-line_end: 78406
+line_start: 79733
+line_end: 79738
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,21 +22,22 @@ dependencies:
   - "A.3.4"
   - "A.6.3.NAR"
   - "B.3"
-  - "C.29"
+  - "C.18"
+  - "C.19"
   - "C.30.TFS-REL"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
   - "E.23"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
 ### E.18.3:9 - Consequences
 
-This narrower `U.Structure` specialization lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture, and refresh cases can share transformation-flow structure while each stronger claim remains governed by its direct pattern.
+This narrower `U.Structure` specialization lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture, and currentness-related cases can share exact transformation-flow relations while each subject claim remains governed by its direct pattern.
 
-The cost is that a flow-shaped artifact must carry its boundary. If the artifact cannot name transformation loci, guards, crossings, preserved and lost structure, and direct exits, it remains a description or demonstrative slice rather than a governed transformation-flow unfolding structure.
+The cost is an explicit boundary. A flow-shaped structure is admitted as a governed transformation-flow unfolding structure only when it names typed transformation positions, exact relation refs, guards, crossings, preserved structures, C.33 adequacy notes, and direct governing-position connections. Before that admission, the visible episteme remains a provisional demonstration description; only afterward may a separate demonstrative slice present the admitted structure.
 

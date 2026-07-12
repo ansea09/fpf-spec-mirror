@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 78239
-line_end: 78244
+line_start: 79515
+line_end: 79524
 dependencies:
   - "A.10"
   - "A.15"
@@ -22,21 +22,26 @@ dependencies:
   - "A.3.4"
   - "A.6.3.NAR"
   - "B.3"
-  - "C.29"
+  - "C.18"
+  - "C.19"
   - "C.30.TFS-REL"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
   - "E.23"
   - "G.11"
+  - "G.5"
 keywords:
 ---
 
 ### E.18.3:0 - Use This When
 
-Use this pattern when the unfolding structure is specifically a `U.Structure` whose substrate is transformation-flow structure over bounded `U.Transformation` values and adjacent governed loci such as method-selection, mechanism realization, work planning, work occurrence, evidence, assurance, gate, architecture use, narrative or publication use, result interpretation, or refresh.
+Use this pattern when a team is planning, reviewing, or explaining a transformation and a route-like flow card is useful, but branches, joins, guards, or connections to separately governed positions determine what can follow. The practical need is to recover those transformation-flow relations without treating displayed order as performed-work order, evidence, decision, or authorization.
 
-Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether transformation loci, crossings, guards, valuation, and transformation-flow preserved or lost structure are recoverable.
+The admitted object is a `U.Structure` whose substrate is transformation-flow structure over bounded `U.Transformation` values, typed flow positions, exact flow relations, and explicit connections to positions governed by neighboring patterns.
+
+Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether typed transformation positions, exact crossings and guards, a flow valuation when current, preserved transformation structures, C.33 adequacy notes, and direct governing-pattern connections are recoverable.
+
+The first useful move is small: name the transformed entity and kind, then name two candidate transformation positions and the exact relation or guard that may change which continuation is admissible. If that relation is not recoverable, keep the visible artifact as a `ProvisionalUnfoldingDemonstrationDescription@Context` and use the broader `A.22.CGUS` admission question.
 

@@ -6,120 +6,117 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 70052
-line_end: 70136
+line_start: 70794
+line_end: 70878
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.3"
-  - "A.15.4"
   - "A.15.5"
-  - "A.16"
-  - "A.16.0"
   - "A.21"
+  - "A.22.CGUS"
   - "A.3.4.P"
-  - "B.1.6"
   - "C.24"
   - "C.30"
-  - "C.30.AD"
   - "E.10"
   - "E.10.ARCH"
   - "E.11.PUR"
   - "E.17"
+  - "E.18"
   - "E.18.1"
+  - "E.23"
   - "E.24"
-  - "G.6"
+  - "F.17"
+  - "F.18"
+  - "G.11"
 keywords:
 ---
 
 ### E.10.MOVE:4 - Solution
 
-Apply this recovery order:
+**Cheap ordinary use.** When the governed value and its direct pattern are already evident, name them, rewrite the phrase without changing the claim, confirm the remaining reader use, and stop. Do not materialize the repair note or traverse the disposition table. Open the fuller procedure only when the wording remains ambiguous, carries several governed values, imports a source term, or must be replayed later.
 
-1. Name `GovernedTextSpan`: the exact text span whose move-like or readiness-like wording is being repaired.
-2. Name `ClaimBeingMade` and `ObjectUnderWordingRepair`: what claim, relation, object, change situation, intended result, or remaining reader use made the wording matter?
-3. Classify borrowed or ordinary wording: seminar pattern-use language, TameFlow `MOVE` wording, work-entry readiness, local move locus, ordinary prose, or quote-only wording.
-4. Decide `DirectFPFTarget`: `PatternUseRecommendation@Context`, E.18.1 P2W, `U.WorkPlan`, PlanItem, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, A.21 `GateDecision`, performed `U.Work`, `U.Transformation`, `U.Method`, `U.MethodDescription`, A.16 language-state move, C.24 call planning, C.30 architecture candidate move, selected set, publication expression, source relation, or ordinary prose.
-5. If several values are current, split them and name the direct governing pattern for each.
-6. Preserve `RemainingReaderUse`. The repair fails if the text becomes formally clean but no longer tells the practitioner what can be done now.
-7. Use `A.3.4.P` for the change-situation branch and return to `E.10.MOVE` only for pattern-use, direct-object, or work-entry readiness wording left after the transformation branch is recovered.
+Restore the governed target before choosing replacement wording:
 
-#### E.10.MOVE:4.1 - MoveAndReadinessWordingRepair note
+1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
+2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
+3. When the phrase is `mantra move`, first determine whether the local mantra has been admitted by `A.22.CGUS` as a `DemonstrativeUnfoldingSlice@Context`. If so, recover one `DemonstratedPatternUseRow@Context` and keep the phrase only when the enclosing slice, EntityOfConcern, practical-use question, public template or project candidate, direct pattern, Solution, expected result, and current condition are recoverable. If not, keep the local mantra as a compact rendering of its pattern's Solution and repair the move-like wording through that direct pattern rather than inventing a demonstrated row.
+4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover `ExpectedEvaluationResultChange@Context` under `E.23`. That value is a coordinate-and-scale-qualified prediction episteme, not an operation, transition, movement, work occurrence, or proof of improvement.
+5. For every other governed use, name the exact recovered value or relation, its kind, relation signature when the kind admits a relation, and its direct governing pattern. If that governed value is already clear, use its pattern directly.
+6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness relation, gate decision, publication relation, and performed work do not become one value because the same word was used for them.
+7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
+
+#### E.10.MOVE:4.1 - MoveAndReadinessWordingRepairNote
 
 ```text
-MoveAndReadinessWordingRepair:
+MoveAndReadinessWordingRepairNote:
   EncounteredWording:
   GovernedTextSpan:
   ClaimBeingMade:
   ObjectUnderWordingRepair:
-  EncounteredWordingClass: seminarPatternUse | tameFlowMoveWording | workEntryReadiness | localMoveLocus | ordinaryProse | quoteOnly
-  DirectFPFTarget:
-  RecoveredRelations:
-  DirectGoverningPatterns:
-  RetainedPlainWording:
+  WordingUseDispositionValue: boundedDemonstratedContinuation | evaluationResultChangePrediction | directGovernedUse | importedSourceWording | ordinaryProse | quoteOnly
+  DirectGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  RecoveredGovernedValueRef?: U.EntityRef
+  RecoveredGovernedValueKindRef?: U.KindRef
+  RecoveredRelationSignatureRef?: U.EntityRef, referencing one RelationSignature
+  RetainedPlainWording?:
   BlockedOverread:
-  RequiredSplit?:
+  SplitDisposition?:
   FinalWordingOrBlocker:
   RemainingReaderUse:
+  QualificationWindow:
+  CurrentnessBasis:
+  ReopenCondition:
 ```
 
-The note is a temporary wording-use restoration aid. It does not create project records, gate decisions, WorkPlans, or work occurrences.
+The governed-value ref and kind ref are both present or both absent. The relation-signature ref is present exactly when the recovered governed value is a relation. A governed use has a direct governing pattern and a recovered governed value. Ordinary prose and quote-only uses may leave those positions absent and record why no FPF object is being claimed. The `...Ref` fields carry references of the declared RefKinds; they do not carry the referenced values or kinds. A materialized note also states the edition, source, context, or time window in which the repair is relied on, the current pattern or source basis for that interpretation, and the smallest change that reopens it. Use `G.11` only when actual refresh orchestration is current; the note merely records its own currentness boundary. The note is a temporary wording-restoration aid, not a project result, method, plan, gate decision, or work occurrence. Ordinary immediate repair need not materialize the note.
 
-#### E.10.MOVE:4.2 - Short Cue Set
+#### E.10.MOVE:4.2 - Trigger groups
 
-Trigger this pattern only when the wording has FPF-governed use:
+Run this restoration when one of these wording groups carries an FPF-governed use:
 
-- move, first useful move, working move, professional move, SoTA move, strong move, admissible move, next move;
-- step, action, application, solution, next action, work item, work entry;
-- full kit, full-kitting, readiness, ready, committed, launch-ready;
-- TameFlow `MOVE` or source MOVE;
-- route, workflow, and process when the wording hides pattern-use, direct-object, or readiness relation rather than a transformation-situation claim.
-- unfolding, path, loop, flow, diffusion, graph, chain, route, workflow, and process when the wording hides a selected structure, description, demonstrative slice, method, work, evidence, gate, publication, decision, architecture use, or currentness/refresh claim governed by `G.11` or slice-local refresh governed by `E.18`.
+- `move`, `step`, `action`, `application`, `solution`, and `next action`;
+- `readiness`, `ready`, `full kit`, `work entry`, and `launch-ready`;
+- `movement`, `direction`, or `shift` used for an expected evaluation-result change;
+- `route`, `workflow`, `process`, `path`, `loop`, or `flow` used for a demonstrated continuation, selected structure, transformation, method, work, gate, publication, decision, or currentness claim;
+- imported source wording such as TameFlow `MOVE`.
 
-The list is not a replacement vocabulary. It is a recognition aid for the recovery order.
+The trigger group only opens the repair. It does not supply a replacement vocabulary or choose the governed-value kind.
 
-#### E.10.MOVE:4.2a - Step And Action Synonym-Substitution Repair
+#### E.10.MOVE:4.2a - No synonym closure
 
-Do not close a move-like repair by replacing `move` with `step`, `action`, `application`, `solution`, `work item`, or `next action`. Those words are still triggers when they carry FPF-governed use. A conforming repair first names the object under wording repair, then the direct FPF target: pattern-use recommendation, P2W carry-through, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, `GateDecision`, performed `U.Work`, transformation, method, publication, source relation, local language-state move, call-planning action, architecture candidate record, ordinary prose, or quote-only wording. The final wording may keep `step` or `action` only when the direct governing pattern and remaining reader use are explicit.
+Replacing `move` with `step`, `action`, `use`, or `application` does not close the repair. Close only after the recovered governed value and its direct governing pattern or actual responsibility assignment are explicit, or after an ordinary-prose or quote-only disposition establishes that no FPF-governed value is claimed.
 
-#### E.10.MOVE:4.3 - Source-Wording Classes
+#### E.10.MOVE:4.3 - Wording-use dispositions
 
-| EncounteredWordingClass | Typical recovery |
+`WordingUseDispositionValue` is a local finite enumeration for choosing a repair branch. It is not a U-kind, relation kind, state frame, or claim about the project value being repaired.
+
+| `WordingUseDispositionValue` | Selected recovery |
 | --- | --- |
-| `seminarPatternUse` | `PatternUseRecommendation@Context`, `PatternUseSequence@Context`, publication phrase, or direct neighboring pattern. |
-| `tameFlowMoveWording` | WorkPlan, PlanItem, full-kit preparation, `WorkEntryReadiness@Context`, A.21 when gate decision is current, preparation `U.Work`, target `U.Work`, resource relation, or result relation. |
-| `workEntryReadiness` | `WorkEntryReadiness@Context`, `FullKitCondition`, A.15.2, A.15.3, A.15.1, A.21, B.1.6, or A.15.4. |
-| `localMoveLocus` | A.16 language-state move, C.24 call-planning action, C.30 architecture candidate move, or another accepted local locus. |
-| `unfoldingStructureWording` | `A.22.CGUS` only when several loci, cross-locus constraints, preserved and lost structure, admissible next forms, and stop or return conditions are recoverable; otherwise select the direct governing pattern for description, demonstrative slice, method, work, evidence, gate, decision, architecture, publication, or currentness/refresh, or record a no-restoration ordinary-prose disposition when no FPF object is being claimed. |
-| `ordinaryProse` | Keep or lightly rewrite without FPF restoration. |
-| `quoteOnly` | Keep as source wording and block stronger use. |
+| `boundedDemonstratedContinuation` | One `DemonstratedPatternUseRow@Context` governed by A.22.CGUS; for Plain `mantra move`, retain the complete bounded CGUS-demonstrative context and exit stronger claims to their direct patterns. |
+| `evaluationResultChangePrediction` | One E.23 `ExpectedEvaluationResultChange@Context` with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. |
+| `directGovernedUse` | The exact governed value or relation, its kind, relation signature when applicable, and its direct governing pattern. The wording disposition itself contributes no project ontology. |
+| `importedSourceWording` | Preserve the source expression only as source wording; recover every FPF use under its direct pattern. |
+| `ordinaryProse` | Keep or lightly rewrite after recording that no FPF-governed value is being asserted. |
+| `quoteOnly` | Preserve the quotation and block stronger project use not licensed by the quoted source. |
 
 #### E.10.MOVE:4.4 - Relation to A.3.4.P
 
-Use `A.3.4.P` first when the wording is mainly about change in the world or a transformation-flow structure:
+Use `A.3.4.P` first when the claim is about a change situation or transformation-flow structure. Return to `E.10.MOVE` only for the remaining wording-use question. If the same sentence also recommends a pattern use, claims readiness, or names a demonstrated continuation, split those claims and send each to its direct pattern.
 
-- process, workflow, path, pipeline, operation, flow, transformation, change, circuit, network, and route-like wording;
-- graph path, path slice, flow valuation, or transformation-flow structure claims;
-- method, mechanism, work, or publication-description confusion caused by change-situation wording.
+#### E.10.MOVE:4.5 - Durable name repair
 
-Use `E.10.MOVE` when the remaining question is: which object under wording repair, pattern use, work-entry readiness relation, or local move locus should the reader use next? If both are current, split the text and apply both patterns to their own current objects.
+A durable name states the recovered subject value or relation; it does not retain an implementation head merely because the fields are typed.
 
-#### E.10.MOVE:4.5 - Durable Name Repair
-
-Durable field and record names must name the direct FPF target they recover. Examples:
-
-| Dirty durable name | Prefer |
+| Misleading durable name | Repair |
 | --- | --- |
-| `FirstMoveRecord@Context` | `FirstApplicationRecord@Context` when the object is the first application record. |
-| `RelationMoveNow` | `CurrentRelationGovernedUse` when the object is the local `A.15.4` relation-governed use. |
-| `NextMoveHypothesis` | `RecommendedPatternUse` or another direct candidate, selected set, work, gate, or architecture object. |
-| `Pattern-Use Sequence` | `PatternUseSequence@Context` when the durable relation is meant. |
+| `localMoveLocus` | Name the exact local value or relation and its governing pattern. Do not preserve `locus` as a cross-pattern grouping head. |
+| `ExpectedEvaluationMovement` | Use `ExpectedEvaluationResultChange@Context` only when the E.23 prediction positions are recoverable. |
+| `FirstMoveRecord@Context` | Name the actual first result or relation governed by the direct pattern. |
+| `Pattern-Use Sequence` | Use `PatternUseCoordination@Context` or `PatternUsePairwiseOrderingRelation@Context` when that exact relation is current. |
 
-Do not run these as mechanical global replacements. Recover the governed object first.
+These are repair demonstrations, not a global replacement table.
 

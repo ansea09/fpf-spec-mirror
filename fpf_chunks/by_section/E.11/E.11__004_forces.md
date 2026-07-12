@@ -1,43 +1,41 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
+pattern_title: "Practical-Use Guidance and Pattern Discovery"
 section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "d77339d7056433de3ee55ad863860ee4b3006f6f"
+commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
 heading_path:
-  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
+  - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:3 — Forces"
-line_start: 71265
-line_end: 71276
+line_start: 72020
+line_end: 72032
 dependencies:
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.MOVE"
+  - "A.22.CGUS"
+  - "C.2.1"
+  - "E.11.PUA"
   - "E.11.PUR"
-  - "E.19"
-  - "E.21"
+  - "E.17.AUD"
+  - "E.18"
   - "E.8"
+  - "F.17"
   - "F.18"
-  - "F.19"
-  - "I.2"
+  - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "dependencies"
-  - "query phrases"
 ---
 
 ### E.11:3 - Forces
 
-| Force | Tension |
+| Force | Pressure on the solution |
 | --- | --- |
-| Project recognizability | The public entry must start from ordinary project questions, not from internal pattern topology. |
-| Technical precision | The entry must still make the first admissible governing pattern recoverable. |
-| Low burden | A newcomer should not need to fill forms or parse a compact index before seeing value. |
-| Plain credibility | A newcomer should see the project value and the idea behind it before seeing forms, pattern ids, or FPF internal vocabulary. |
-| No duplicate canon | `readme`, Preface, ToC, local pattern Problem frames, and expanded cases must not carry competing first-entry arrangements. |
-| No semio-bias | Wording and description repair must be visible, but FPF must not present itself mainly as a language-policing framework. |
-| Corpus evolution | New patterns may change first-entry scenarios, but entry material must update without copying whole pattern bodies into projections. |
+| Recognition | Public wording starts from situations engineers recognize, not internal pattern topology. |
+| Exactness | Every candidate points to a direct `Solution` and an exact first-result kind. |
+| No fictitious context | Public guidance has no reader-project identity and cannot contain `@Context` instances. |
+| Bounded search | Several cards can remain plausible, so comparison needs stop and return conditions rather than one perfect first guess. |
+| Light ordinary use | Card comparison should normally remain in conversation. |
+| Durable reliance | A named transfer, replay, audit, or automation use can rely on addressable comparison history. |
+| Didactic continuity | Every card needs a readable walkthrough, not only a list of PatternIDs. |
+| One source of guidance | README carries the public card set; Preface, ToC, retrieval, and pattern bodies answer different questions. |
 
