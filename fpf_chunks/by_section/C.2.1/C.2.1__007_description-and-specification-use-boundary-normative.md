@@ -6,29 +6,29 @@ section_id: "C.2.1:6"
 section_title: "Description and specification-use boundary  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_description-and-specification-use-boundary-normative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:6 — Description and specification-use boundary  (normative)"
-line_start: 38483
-line_end: 38502
+line_start: 38487
+line_end: 38506
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.14"
-  - "A.15.PROD"
   - "A.2.6"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.RCD"
   - "A.6.REL"
   - "A.7"
   - "B.3"
@@ -59,7 +59,7 @@ For a description use, keep these values recoverable:
 
 | Value | Meaning | Identity status |
 | --- | --- | --- |
-| `entityOfConcernRef` | designation of the exact EntityOfConcern in the description episteme's constitution relation | C.2.1 identity-bearing |
+| `entityOfConcernRef` | designation of the exact EntityOfConcern in the description episteme's constitution relation | its resolved exact EntityOfConcern, not the reference value or designation, is C.2.1 identity-bearing |
 | effective `U.ReferenceScheme` | rules by which the description claims refer to and can be checked against that entity | C.2.1 identity-bearing |
 | `viewpointRef`, when current | governed reference resolving to the exact `U.Viewpoint` episteme selected for this describing use under E.17.0 | use qualifier outside episteme identity; work that changes an identity discriminator identifies another episteme independently |
 | `claimScopeRef`, when current | designation of the exact `U.ClaimScope` under A.2.6 | claim-use qualifier |

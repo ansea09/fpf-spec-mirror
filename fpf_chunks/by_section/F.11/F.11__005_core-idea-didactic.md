@@ -6,12 +6,12 @@ section_id: "F.11:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__005_core-idea-didactic.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:4 — Core idea (didactic)"
-line_start: 87443
-line_end: 87460
+line_start: 87613
+line_end: 87630
 dependencies:
   - "A.15"
   - "A.15.1"

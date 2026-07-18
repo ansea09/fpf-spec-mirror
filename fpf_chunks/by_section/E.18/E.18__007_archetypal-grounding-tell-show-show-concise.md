@@ -6,12 +6,12 @@ section_id: "E.18:6"
 section_title: "Archetypal Grounding (Tell–Show–Show; concise)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__007_archetypal-grounding-tell-show-show-concise.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:6 — Archetypal Grounding (Tell–Show–Show; concise)"
-line_start: 78610
-line_end: 78625
+line_start: 78693
+line_end: 78708
 dependencies:
   - "A.2.6"
   - "A.20"

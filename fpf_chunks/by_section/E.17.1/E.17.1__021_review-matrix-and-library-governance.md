@@ -6,12 +6,12 @@ section_id: "E.17.1:20"
 section_title: "Review Matrix and Library Governance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__021_review-matrix-and-library-governance.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:20 — Review Matrix and Library Governance"
-line_start: 74958
-line_end: 74968
+line_start: 75041
+line_end: 75051
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"

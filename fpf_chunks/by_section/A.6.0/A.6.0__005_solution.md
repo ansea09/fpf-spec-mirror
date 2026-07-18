@@ -6,16 +6,19 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
 line_start: 10649
-line_end: 10827
+line_end: 10829
 dependencies:
   - "A.15.1"
+  - "A.17"
+  - "A.18"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.3.1"
   - "A.6.0"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
+  - "C.16"
   - "C.2.1"
   - "C.22"
   - "C.29"
@@ -30,6 +34,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.9"
 keywords:
 ---
 
@@ -70,11 +75,11 @@ The four content groups are semantic components, not a mandatory visual table. A
 | `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule` | Name the declared subject, value range, optional distinct result kind, and any varying extension on which a receiving use depends. No additional container kind is implied. |
 | `Vocabulary` | Declares the public designators for value kinds, relation kinds, operators, and other independently identified declared objects. A `RelationSignature` may include SlotSpecs under A.6.5; each SlotSpec gives a declaration-local SlotKind name and the exact participant ValueKind and designation mode. A mechanism may include operation argument and result declarations under A.6.1. A vocabulary token does not by itself admit a durable U-kind. |
 | `Laws` | States semantic predicates, equations, invariants, closure conditions, and other declared regularities. A.6.1 governs an operation-admission predicate for a mechanism; A.3.1 governs the method, and A.15.1 governs the dated work occurrence that enacts it, including direct `performedBy` to the exact covering `U.RoleAssignment`. Writing the operation-admission predicate as a condition does not make it a signature law. |
-| `Applicability` | States the exact `U.ClaimScope`, relevant time interval, selected `CHR:ReferencePlane`, and other conditions under which the declaration is used. Cite an optional `modelUseStructureRef : U.StructureRef` only when an independently selected model-use structure changes interpretation. |
+| `Applicability` | States the exact `U.ClaimScope` and any other use qualifiers current for this declaration, such as a relevant time interval or selected `CHR:ReferencePlane`. Cite an optional `modelUseStructureRef : U.StructureRef` only when an independently selected model-use structure changes interpretation. |
 
 `SubjectKind` and `RangedValueKind` are declaration-content components. They do not create a second hierarchy beside C.3 or E.24.UK. A trivial `SliceSet` or constant `ExtentRule` added solely as filler contributes no declaration meaning.
 
-Applicability and meaning remain distinct. The effective `U.ReferenceScheme` is part of episteme identity. `U.ClaimScope`, time, and the selected `CHR:ReferencePlane` delimit use. A selected `BoundedModelUseStructure : U.Structure` may organize model applicability and crossings, but it does not replace the reference scheme or claim scope.
+Applicability and meaning remain distinct. The effective `U.ReferenceScheme` is part of episteme identity. The exact `U.ClaimScope` delimits use; when current for the declaration, a relevant time interval, selected `CHR:ReferencePlane`, or selected `BoundedModelUseStructure : U.Structure` further delimits or organizes applicability. None replaces the reference scheme or claim scope.
 
 #### A.6.0:4.3 - Use RelationSignature for reusable relation declaration
 
@@ -165,6 +170,8 @@ A relation between two signatures is stated directly as refinement, conservative
 | Performed work | A.15.1 |
 | Optional source-to-receiving-episteme viewing construction | A.6.3 |
 | Same-EntityOfConcern representation-scheme transition | A.6.3.RT |
+| Cross-reference-scheme, cross-plane, or cross-model-use-structure use with explicit preservation and loss | F.9 for the exact bridge relation; the direct pattern for the affected meaning or structure remains authoritative |
+| Numeric comparison, normalization, units, scales, and measurement | A.19.CPM and A.19.UNM, together with A.17, A.18, C.16, and the direct measurement pattern when each object or relation is current |
 | Actual mathematical or diagrammatic lens, operand mapping, or correspondence use | C.29 |
 | Current representation-factor bundle for governed episteme publication positions | C.2.7 |
 | Publication-face use and the distinct publication occurrence, form, and carrier relations | E.17 for the publication-face use profile; E.24.PUB for the direct occurrence, form, and carrier relations |

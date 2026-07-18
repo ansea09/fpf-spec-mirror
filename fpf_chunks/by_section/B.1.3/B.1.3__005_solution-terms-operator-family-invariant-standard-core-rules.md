@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 33135
-line_end: 33258
+line_start: 33137
+line_end: 33260
 dependencies:
   - "A.1"
   - "A.12"

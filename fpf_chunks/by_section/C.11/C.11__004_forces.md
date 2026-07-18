@@ -6,12 +6,12 @@ section_id: "C.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__004_forces.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:3 — Forces"
-line_start: 43463
-line_end: 43472
+line_start: 43469
+line_end: 43478
 dependencies:
   - "A.13"
   - "A.18"

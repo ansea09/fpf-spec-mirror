@@ -6,12 +6,12 @@ section_id: "I.2"
 section_title: ".4 - Admissible comparison, candidate-pool policy, selection, and selected-set publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__005_4-admissible-comparison-candidate-pool-policy-selection-and-selected-set-publication.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2 — .4 - Admissible comparison, candidate-pool policy, selection, and selected-set publication"
-line_start: 97342
-line_end: 97371
+line_start: 97512
+line_end: 97541
 dependencies:
 keywords:
 ---

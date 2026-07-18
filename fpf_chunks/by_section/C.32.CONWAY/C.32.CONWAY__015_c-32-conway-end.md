@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:End"
 section_title: "C.32.CONWAY:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__015_c-32-conway-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:End — C.32.CONWAY:End"
-line_start: 61900
-line_end: 61901
+line_start: 61906
+line_end: 61907
 dependencies:
   - "A.10"
   - "A.15"

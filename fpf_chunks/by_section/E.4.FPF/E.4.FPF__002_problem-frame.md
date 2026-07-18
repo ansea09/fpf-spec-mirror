@@ -6,12 +6,12 @@ section_id: "E.4.FPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__002_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:1 — Problem frame"
-line_start: 65796
-line_end: 65805
+line_start: 65802
+line_end: 65811
 dependencies:
   - "C.33"
   - "C.34"

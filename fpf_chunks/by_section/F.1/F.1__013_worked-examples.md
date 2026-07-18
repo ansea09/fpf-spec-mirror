@@ -6,12 +6,12 @@ section_id: "F.1:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__013_worked-examples.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:12 — Worked examples"
-line_start: 83939
-line_end: 83995
+line_start: 84109
+line_end: 84165
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.3.2:12"
 section_title: "Conformance checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__013_conformance-checklist-normative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
   - "C.3.2:12 — Conformance checklist (normative)"
-line_start: 42042
-line_end: 42054
+line_start: 42048
+line_end: 42060
 dependencies:
   - "C.3.1"
   - "C.3.3"

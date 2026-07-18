@@ -6,12 +6,12 @@ section_id: "F.0.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__001_intro.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:intro — Intro"
-line_start: 83458
-line_end: 83470
+line_start: 83628
+line_end: 83640
 dependencies:
   - "A.1.1"
   - "A.11"

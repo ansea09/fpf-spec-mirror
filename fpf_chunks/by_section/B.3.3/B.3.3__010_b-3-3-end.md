@@ -6,12 +6,12 @@ section_id: "B.3.3:End"
 section_title: "B.3.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__010_b-3-3-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:End — B.3.3:End"
-line_start: 36267
-line_end: 36268
+line_start: 36269
+line_end: 36270
 dependencies:
   - "A.10"
   - "A.19"

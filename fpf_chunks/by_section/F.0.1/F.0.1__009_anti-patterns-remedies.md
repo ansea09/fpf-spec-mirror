@@ -6,12 +6,12 @@ section_id: "F.0.1:8"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__009_anti-patterns-remedies.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:8 — Anti‑patterns & remedies"
-line_start: 83604
-line_end: 83618
+line_start: 83774
+line_end: 83788
 dependencies:
   - "A.1.1"
   - "A.11"

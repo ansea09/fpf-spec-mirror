@@ -6,12 +6,12 @@ section_id: "F.9:8"
 section_title: "Bridge Card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__010_bridge-card.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:8 — Bridge Card"
-line_start: 86526
-line_end: 86550
+line_start: 86696
+line_end: 86720
 dependencies:
   - "A.15.1"
   - "A.2"

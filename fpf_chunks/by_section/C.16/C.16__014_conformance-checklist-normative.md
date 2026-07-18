@@ -6,12 +6,12 @@ section_id: "C.16:10"
 section_title: "Conformance Checklist (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__014_conformance-checklist-normative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:10 — Conformance Checklist (Normative)"
-line_start: 44653
-line_end: 44666
+line_start: 44659
+line_end: 44672
 dependencies:
   - "A.10"
   - "A.17"

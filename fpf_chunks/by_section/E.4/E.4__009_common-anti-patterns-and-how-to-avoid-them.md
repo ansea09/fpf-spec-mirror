@@ -6,12 +6,12 @@ section_id: "E.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 65744
-line_end: 65754
+line_start: 65750
+line_end: 65760
 dependencies:
   - "C.33"
   - "C.34"

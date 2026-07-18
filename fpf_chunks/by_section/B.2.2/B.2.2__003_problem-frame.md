@@ -6,12 +6,12 @@ section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:1 — Problem Frame"
-line_start: 34692
-line_end: 34699
+line_start: 34694
+line_end: 34701
 dependencies:
   - "A.1"
   - "A.10"

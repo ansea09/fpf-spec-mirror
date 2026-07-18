@@ -6,12 +6,12 @@ section_id: "G.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__010_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:9 — Consequences"
-line_start: 93238
-line_end: 93244
+line_start: 93408
+line_end: 93414
 dependencies:
   - "A.10"
   - "A.18"

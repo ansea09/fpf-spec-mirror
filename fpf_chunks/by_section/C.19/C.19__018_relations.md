@@ -6,12 +6,12 @@ section_id: "C.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__018_relations.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:12 — Relations"
-line_start: 47292
-line_end: 47302
+line_start: 47298
+line_end: 47308
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

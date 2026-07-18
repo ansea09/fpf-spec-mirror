@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:0"
 section_title: "At a glance (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__002_at-a-glance-didactic-informative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:0 — At a glance (didactic, informative)"
-line_start: 29067
-line_end: 29077
+line_start: 29069
+line_end: 29079
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

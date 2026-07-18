@@ -6,12 +6,12 @@ section_id: "A.6.A:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:2 — Problem"
-line_start: 15561
-line_end: 15571
+line_start: 15563
+line_end: 15573
 dependencies:
   - "A.15"
   - "A.16"

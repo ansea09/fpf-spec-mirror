@@ -6,12 +6,12 @@ section_id: "E.9:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__009_archetypal-grounding-system-episteme.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:5 — Archetypal Grounding (System / Episteme)"
-line_start: 68650
-line_end: 68656
+line_start: 68733
+line_end: 68739
 dependencies:
   - "E.10"
   - "E.19"

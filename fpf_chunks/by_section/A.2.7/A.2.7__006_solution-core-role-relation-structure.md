@@ -6,7 +6,7 @@ section_id: "A.2.7:2"
 section_title: "Solution - Core Role-Relation Structure"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution-core-role-relation-structure.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:2 — Solution - Core Role-Relation Structure"

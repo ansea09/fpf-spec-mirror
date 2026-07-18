@@ -6,12 +6,12 @@ section_id: "A.14:4"
 section_title: "Solution — extend the mereology catalogue, keep it clean"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__005_solution-extend-the-mereology-catalogue-keep-it-clean.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:4 — Solution — extend the mereology catalogue, keep it clean"
-line_start: 21763
-line_end: 21773
+line_start: 21765
+line_end: 21775
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.11:9"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__011_consequences-informative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:9 — Consequences (informative)"
-line_start: 96406
-line_end: 96412
+line_start: 96576
+line_end: 96582
 dependencies:
   - "B.3.4"
   - "C.18"

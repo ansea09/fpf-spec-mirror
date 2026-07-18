@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__010_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:9 — Consequences"
-line_start: 68356
-line_end: 68361
+line_start: 68439
+line_end: 68444
 dependencies:
   - "A.19.ECS"
   - "C.25"

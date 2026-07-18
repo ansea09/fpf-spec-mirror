@@ -6,12 +6,12 @@ section_id: "C.22.1:5"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__006_what-this-buys.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:5 — What this buys"
-line_start: 48240
-line_end: 48245
+line_start: 48246
+line_end: 48251
 dependencies:
   - "A.15"
   - "C.19.1"

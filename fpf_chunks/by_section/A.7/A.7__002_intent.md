@@ -6,12 +6,12 @@ section_id: "A.7:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__002_intent.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:1 — Intent"
-line_start: 20054
-line_end: 20064
+line_start: 20056
+line_end: 20066
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.32.ACE:End"
 section_title: "C.32.ACE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__015_c-32-ace-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:End — C.32.ACE:End"
-line_start: 61648
-line_end: 61649
+line_start: 61654
+line_end: 61655
 dependencies:
   - "A.10"
   - "A.19.CPM"

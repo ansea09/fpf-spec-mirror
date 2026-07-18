@@ -6,12 +6,12 @@ section_id: "F.17:14.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__019_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.1 — Consequences"
-line_start: 89924
-line_end: 89931
+line_start: 90094
+line_end: 90101
 dependencies:
   - "A.10"
   - "A.15.1"

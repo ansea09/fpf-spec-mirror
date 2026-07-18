@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.1.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
-line_start: 83775
-line_end: 84098
+line_start: 83945
+line_end: 84268
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "F.7:6"
 section_title: "The table (conceptual layout)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__007_the-table-conceptual-layout.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:6 — The table (conceptual layout)"
-line_start: 85780
-line_end: 85796
+line_start: 85950
+line_end: 85966
 dependencies:
   - "A.6.9"
   - "E.10.D1"

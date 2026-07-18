@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 16996
-line_end: 17150
+line_start: 16998
+line_end: 17152
 dependencies:
   - "A.6.0"
   - "A.6.P"
@@ -106,7 +106,7 @@ A relation predicate is often written as a verb phrase: a system **holds** a rol
 
 Use the direct patterns for that settlement:
 
-- `U.Work`, `U.Method`, and `U.Transformation` are holons only because their governing patterns specify constructive parts, composition rules, identity, and meta-holon transition conditions. Verb-shaped wording is not that proof.
+- `U.Work` and `U.Method` are admitted holon kinds only because their governing patterns supply the required constructive assembly, composition, identity, and meta-holon-transition conditions. `U.Transformation` is instead a root U-kind under `A.3.4` for one independently grounded actual bounded change. Verb-shaped wording proves neither classification.
 - `U.Role` is a work-facing role value, not a holon. An admitted `U.System` holds it through `U.RoleAssignment`.
 - `U.Relation` is an individuable obtaining relation occurrence under `A.6.REL`. A SlotSpec does not give it constructive parthood or meta-holon transition and does not admit it as a holon.
 - Only an admitted `U.System` acts and holds a role. Work is performed, a method is applied in work, and a transformation occurs or is carried out. The relation, method, work, transformation, role, signature, and structure do not become actors because prose gives them an active verb.

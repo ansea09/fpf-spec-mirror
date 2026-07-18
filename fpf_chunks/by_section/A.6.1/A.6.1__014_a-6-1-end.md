@@ -6,12 +6,12 @@ section_id: "A.6.1:End"
 section_title: "A.6.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__014_a-6-1-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:End — A.6.1:End"
-line_start: 11298
-line_end: 11299
+line_start: 11300
+line_end: 11301
 dependencies:
   - "A.1.1"
   - "A.10"

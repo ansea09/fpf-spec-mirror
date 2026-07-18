@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__011_rationale.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:10 — Rationale"
-line_start: 12935
-line_end: 12938
+line_start: 12937
+line_end: 12940
 dependencies:
   - "A.15"
   - "A.6.2"

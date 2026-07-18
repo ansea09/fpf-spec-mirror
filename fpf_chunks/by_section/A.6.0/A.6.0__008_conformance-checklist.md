@@ -6,16 +6,19 @@ section_id: "A.6.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__008_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:7 — Conformance Checklist"
-line_start: 10878
-line_end: 10896
+line_start: 10880
+line_end: 10898
 dependencies:
   - "A.15.1"
+  - "A.17"
+  - "A.18"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.3.1"
   - "A.6.0"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
+  - "C.16"
   - "C.2.1"
   - "C.22"
   - "C.29"
@@ -30,6 +34,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.9"
 keywords:
 ---
 
@@ -43,7 +48,7 @@ keywords:
 6. **Relation declaration.** A `RelationSignature` identifies one already admitted direct relation kind. An admitted derived relation kind already has obtaining and occurrence-identity laws under its direct governor. A predicate-definition episteme is not treated as that `RelationSignature`, and the declaration does not assert an occurrence.
 7. **Direct relation-pattern governance.** The direct relation pattern governs obtaining and occurrence identity.
 8. **Typed-declaration boundary.** Reused participant meanings are declared inside a `RelationSignature` by A.6.5 SlotSpecs with exact SlotKind, ValueKind, and refMode. Operation arguments and results remain A.6.1 declaration content. Mathematical operands remain C.29 representation elements, with explicit correspondence to `RelationSignature` SlotSpecs only when a relation claim consumes them.
-9. **Semantic locality.** Meaning uses the effective reference scheme; applicability uses exact claim scope, time, selected `CHR:ReferencePlane`, and only a genuinely current model-use structure.
+9. **Semantic locality.** Meaning uses the effective reference scheme; applicability uses the exact claim scope and only qualifiers current for the declaration, such as a relevant time interval, selected `CHR:ReferencePlane`, or genuinely current model-use structure.
 10. **Dependency truth.** Imports and provided names correspond to actual declaration dependencies; SM-1 through SM-4 hold for the claimed use.
 11. **Realization boundary.** Mechanism behavior and admission conditions remain with A.6.1.
 12. **Progressive elaboration.** Explicit signature and relation-occurrence identity appear only for named receiving uses.

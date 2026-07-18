@@ -6,12 +6,12 @@ section_id: "E.17.EFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:2 — Problem"
-line_start: 76117
-line_end: 76125
+line_start: 76200
+line_end: 76208
 dependencies:
   - "A.10"
   - "A.15"

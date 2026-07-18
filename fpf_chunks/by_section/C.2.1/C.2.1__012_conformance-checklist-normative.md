@@ -6,29 +6,29 @@ section_id: "C.2.1:11"
 section_title: "Conformance Checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_conformance-checklist-normative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:11 — Conformance Checklist  (normative)"
-line_start: 38596
-line_end: 38613
+line_start: 38602
+line_end: 38619
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.14"
-  - "A.15.PROD"
   - "A.2.6"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.RCD"
   - "A.6.REL"
   - "A.7"
   - "B.3"
@@ -58,11 +58,11 @@ keywords:
 3. **Declaration identity and Slot discipline.** Each of the three named relation declarations is first a C.2.1 episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership and `RelationSignature` is its relation-facing use. Its complete declaration carries the direct predicate, occurrence identity, applicability, exact A.6.5 SlotSpecs, and only actual dependencies and provided names. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
 4. **Classification discipline.** `A.1` governs recognition under an admitted holon kind, `C.3.2` governs local-kind membership, and `E.24.UK` governs public U-kind admission. A separately current classification assertion is a C.2.1 episteme about the exact candidate and neither creates that candidate nor changes the kind's admission.
 5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Obtaining requires the exact current direct observation, intervention, measurement, or evaluation relation structure involving the grounding holon. One occurrence is reidentified from the episteme, grounding holon, and maximal continuous grounding interval; demonstrated loss followed by restoration yields another occurrence. Evidence availability or absence alone sets no grounding status and neither proves nor disproves a temporal gap: known obtaining or nonobtaining follows the direct structure, and only unknown status of that structure leaves a positive grounding assertion unresolved. Evidence use may support an assertion, but evidence storage, availability, or work-log loss neither makes nor unmakes grounding.
-6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. The identified edition work, exact source-to-revision use, enacted-method semantics, actual change facts, and any current local entity-identity-inception claim make the obtaining judgment inspectable without entering occurrence identity.
-7. **View and neighboring-relation discipline.** C.2.1 owns episteme identity; `E.17.0` alone owns fixed E/P conformance and same-individual `U.View` membership; `DescriptionContext` resolves exactly one `viewpointRef`, selects no view, and remains separate from A.6.3 source-to-receiving construction. Several views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection, and recover an A.22 structure only when the use additionally depends on their organization. Cross-view claims use their exact direct subject-relation governor or return an A.6.RCD blocker. E.17 and E.24.PUB own publication, not view membership or correspondence.
+6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. The identified edition work, exact source-to-revision use, enacted-method semantics, actual change facts, and any separately governed entity-identity-inception claim make the obtaining judgment inspectable without entering occurrence identity. If a required inception claim lacks a current direct governor, return the exact missing-governor blocker.
+7. **View and neighboring-relation discipline.** C.2.1 owns episteme identity; `E.17.0` alone owns fixed E/P conformance and same-individual `U.View` membership; `DescriptionContext` resolves exactly one `viewpointRef`, selects no view, and remains separate from A.6.3 source-to-receiving construction. Several views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection, and recover an A.22 structure only when the use additionally depends on their organization. Cross-view claims use their exact direct subject-relation governor or return an exact blocker naming the participants, required predicate and use, and missing governor. E.17 and E.24.PUB own publication, not view membership or correspondence.
 8. **Description boundary.** The EntityOfConcern and any Description episteme about it remain distinct, including self-description and episteme-about-episteme cases.
 9. **Specification use.** Specification force is admitted only when the `E.10.D2` conditions obtain: checkable claims, a preserved or updated DescriptionContext, and a named harness or validation relation. Naming and appearance do not grant it.
-10. **Agency and work-result boundary.** Only systems perform authoring, evaluation, revision, publication, viewing, query, redrawing, and use work. `A.6.1` declares typed argument and result positions; for each exact current operation application, each application binding relates one exact entity to its declared argument or result position, and every bound entity retains its independently governed kind, identity, and any domain-result algebra. Identify actual change facts, the affected or newly constituted entity, and any local A.15.PROD inception claim separately. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation is inferred.
+10. **Agency and work-result boundary.** Only systems perform authoring, evaluation, revision, publication, viewing, query, redrawing, and use work. `A.6.1` declares typed argument and result positions; for each exact current operation application, each application binding relates one exact entity to its declared argument or result position, and every bound entity retains its independently governed kind, identity, and any domain-result algebra. Identify actual change facts, the affected or newly constituted entity, and any separately governed entity-identity-inception claim. If the receiving claim requires inception and no current direct governor supplies it, return the exact missing-governor blocker. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation is inferred.
 11. **Publication boundary.** Episteme, publication occurrence, publication form, view, and carrier keep separate identities. Plain `published episteme` names a contingent relation use, not another durable kind.
 12. **Representation boundary.** Tuple components, graph elements, schema fields, and notation tokens remain representation elements. An explicit correspondence may relate one to an independently recovered object without identifying the two or changing the represented direct relation's participants.
 13. **Transformation boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. Cross-context sense use additionally states the `F.9` Bridge direction, congruence, loss, and admitted use; the mathematical morphism performs no work.

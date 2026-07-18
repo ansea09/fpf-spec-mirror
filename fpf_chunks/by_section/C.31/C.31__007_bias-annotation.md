@@ -6,12 +6,12 @@ section_id: "C.31:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__007_bias-annotation.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:6 — Bias-Annotation"
-line_start: 59586
-line_end: 59596
+line_start: 59592
+line_end: 59602
 dependencies:
   - "A.10"
   - "A.17"

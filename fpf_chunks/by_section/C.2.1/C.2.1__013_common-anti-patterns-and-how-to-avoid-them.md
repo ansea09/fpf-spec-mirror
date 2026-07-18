@@ -6,29 +6,29 @@ section_id: "C.2.1:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 38614
-line_end: 38629
+line_start: 38620
+line_end: 38635
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
   - "A.14"
-  - "A.15.PROD"
   - "A.2.6"
   - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.5"
-  - "A.6.RCD"
   - "A.6.REL"
   - "A.7"
   - "B.3"
@@ -61,9 +61,9 @@ keywords:
 | Dependent kind as second identity | `U.MethodDescription`, `U.View`, or another dependent episteme kind is given an extra identity discriminator merely because its direct pattern supplies a membership condition. | Keep the C.2.1 identity of the same episteme individual. Apply the direct pattern only to judge dependent-kind membership; if work changes a C.2.1 discriminator, identify the resulting episteme through that changed discriminator. |
 | Context identifier in episteme identity by habit | A surrounding project or model-use context identifier is treated as identifying every episteme used there. | Keep the shared C.2.1 identity context-independent; add claim scope, viewpoint, or bounded model-use structure only through the direct relation on which the current use depends. |
 | Grounding by evidence presence | Stored evidence is treated as an automatic empirical-grounding relation. | Recover the direct observation, intervention, measurement, or evaluation relations involving the exact grounding holon and test continuity of `EpistemeEmpiricalGroundingRelation`. Evidence availability or absence alone sets no grounding status; known obtaining or nonobtaining follows the direct structure, and only unknown status of that structure leaves a positive grounding assertion unresolved. |
-| Edition work as relation participant | Revision work is inserted into `EpistemeEditionRelation`, so two works appear to create two continuities between the same editions. | Keep earlier and later epistemes as the two participants; recover exact source-to-revision use, enacted-method semantics, actual change facts, any current local entity-identity-inception claim, evaluation, and evidence separately. |
-| Edition by filename | `v2` or a later timestamp is taken as epistemic succession. | Recover the two episteme identities, then test edition continuity through identified revision work, exact source-to-revision use, enacted-method semantics, actual change facts, and any current local `A.15.PROD` inception claim. |
+| Edition work as relation participant | Revision work is inserted into `EpistemeEditionRelation`, so two works appear to create two continuities between the same editions. | Keep earlier and later epistemes as the two participants; recover exact source-to-revision use, enacted-method semantics, actual change facts, any separately governed entity-identity-inception claim, evaluation, and evidence separately. If a required inception claim lacks a current direct governor, return the exact missing-governor blocker. |
+| Edition by filename | `v2` or a later timestamp is taken as epistemic succession. | Recover the two episteme identities, then test edition continuity through identified revision work, exact source-to-revision use, enacted-method semantics, and actual change facts. If that test also requires an entity-identity-inception claim, use a current direct governor only when one actually exists; otherwise return the exact missing-governor blocker. |
 | Published-episteme kind | Temporary participation in publication is treated as a second durable episteme kind. | Keep the episteme identity and state the exact publication occurrence; use Plain `published episteme` only for that contingent use. |
-| View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an A.6.RCD blocker. |
+| View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an exact blocker naming the participants, required predicate and use, and missing governor. |
 | Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep C.29 representation identity separate and use the C.2.1 identity triple. |
 

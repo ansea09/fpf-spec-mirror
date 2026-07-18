@@ -6,12 +6,12 @@ section_id: "A.19.UNM:11"
 section_title: "SoTA‑Echoing (post‑2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__013_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:11 — SoTA‑Echoing (post‑2015 practice alignment)"
-line_start: 29016
-line_end: 29030
+line_start: 29018
+line_end: 29032
 dependencies:
 keywords:
   - "CV→NCV"

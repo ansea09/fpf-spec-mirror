@@ -6,12 +6,12 @@ section_id: "A.16:15"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__016_authoring-and-review-guidance.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:15 — Authoring and Review Guidance"
-line_start: 24406
-line_end: 24430
+line_start: 24408
+line_end: 24432
 dependencies:
   - "A.16"
   - "A.16.0"

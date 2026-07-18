@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 81226
-line_end: 81247
+line_start: 81372
+line_end: 81394
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -54,4 +54,5 @@ keywords:
 | `CC-E21-13` | Keep quality results out of project evidence, assurance, gate, work, safety, compliance, release, and publication truth claims. |
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-result praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action and usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
 | `CC-E21-15` | Keep ordinal values as measurement results, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the positive subject-and-action spine. A no-proposal disposition must name checked loci and why no substantive content improvement remains. |
+| `CC-E21-16` | When `E.19:4.3.3` use-value replay evidence is current, evaluate the full existing coordinate set and carry every probe separately with its branch, exact basis, working use or relying work, expected first useful result, boundary, necessity, disposition or outcome, checked loci, and evidence basis. Apply the required-failure caps and `repairBeforeUse` effects in `E.21:4.5.1`; keep optional absence non-blocking by itself while denying unsupported breadth, transfer, or value-`5` claims. Do not regroup probes, reclassify a branch, average outcomes, substitute an E.19 label for an ordinal value or status, compensate a failed required use with unrelated strengths, or infer values from a successful label alone. |
 

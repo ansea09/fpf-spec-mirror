@@ -6,12 +6,12 @@ section_id: "A.6.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__006_archetypal-grounding.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:5 — Archetypal Grounding"
-line_start: 17151
-line_end: 17192
+line_start: 17153
+line_end: 17194
 dependencies:
   - "A.6.0"
   - "A.6.P"
@@ -58,7 +58,7 @@ When a direct relation among an episteme and other entities is current, the gove
 
 #### A.6.5:5.4 - Relation-dependent result wording
 
-After machining, the machined component can remain the same physical entity in a changed state. It does not acquire a special result kind. When a receiving claim calls it a *result*, first recover the exact current relation or relation-bearing claim: affected-referent and actual-change facts for a continuing component, an entity-identity-inception claim under `A.15.PROD` when a new entity first exists, or the direct measurement, evaluation, delivery, acceptance, or transfer relation when that is what the claim means. If no direct governor is available, keep an exact missing-governor blocker instead of presuming a generic work-result relation.
+After machining, the machined component can remain the same physical entity in a changed state. It does not acquire a special result kind. When a receiving claim calls it a *result*, first recover the exact current relation or relation-bearing claim: affected-referent and actual-change facts for a continuing component, an entity-identity-inception claim when a new entity first exists, or the direct measurement, evaluation, delivery, acceptance, or transfer relation when that is what the claim means. Use an entity-identity-inception governor only when a current pattern actually supplies it. If that claim or any other needed relation has no current direct governor, keep an exact missing-governor blocker instead of presuming a generic work-result relation.
 
 Only a selected reusable direct relation receives a compatible `RelationSignature` with one SlotSpec per participant meaning. An assertion episteme may then state that exact relation. A local kind of participating entities is introduced only when typed quantification is current in a receiving use. This case demonstrates the three readings in A.6.5:4.6 without naming a participant after a broad result word.
 

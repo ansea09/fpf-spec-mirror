@@ -6,12 +6,12 @@ section_id: "F.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__013_relations.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:11 — Relations"
-line_start: 84993
-line_end: 85005
+line_start: 85163
+line_end: 85175
 dependencies:
   - "A.15"
   - "A.15.1"

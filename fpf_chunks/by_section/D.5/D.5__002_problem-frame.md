@@ -6,12 +6,12 @@ section_id: "D.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__002_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1 — Problem Frame"
-line_start: 64806
-line_end: 64811
+line_start: 64812
+line_end: 64817
 dependencies:
   - "A.10"
   - "B.3"

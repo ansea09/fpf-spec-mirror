@@ -6,12 +6,12 @@ section_id: "B.5.2.1:3"
 section_title: "The Creativity‑CHR (references only; no re‑definitions here)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__004_the-creativity-chr-references-only-no-re-definitions-here.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:3 — The Creativity‑CHR (references only; no re‑definitions here)"
-line_start: 37803
-line_end: 37816
+line_start: 37805
+line_end: 37818
 dependencies:
   - "A.17"
   - "A.18"

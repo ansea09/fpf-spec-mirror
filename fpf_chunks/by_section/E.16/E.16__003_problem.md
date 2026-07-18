@@ -6,12 +6,12 @@ section_id: "E.16:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:2 — Problem"
-line_start: 74014
-line_end: 74020
+line_start: 74097
+line_end: 74103
 dependencies:
   - "A.13"
   - "A.15"

@@ -6,16 +6,19 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_archetypal-grounding.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:5 — Archetypal Grounding"
-line_start: 10828
-line_end: 10865
+line_start: 10830
+line_end: 10867
 dependencies:
   - "A.15.1"
+  - "A.17"
+  - "A.18"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.3.1"
   - "A.6.0"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
+  - "C.16"
   - "C.2.1"
   - "C.22"
   - "C.29"
@@ -30,6 +34,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.9"
 keywords:
 ---
 
@@ -45,7 +50,7 @@ Practical payoff: engineers can compare the connector variables and laws in two 
 
 #### A.6.0:5.2 - Clinical work: dose-response relation
 
-A clinical modeling group reuses `DoseResponseRelationKind`. The relation signature names `PatientEpisodeSlot`, `InterventionSlot`, `OutcomeCharacteristicSlot`, and `ObservationWindowSlot`. Its Laws declare the response predicate and the temporal-aggregation conditions under which that predicate is evaluated. Applicability identifies the studied population, intervention kind, declared dosing frequency and timing conditions, observation interval, and effective reference scheme.
+A clinical modeling group reuses `DoseResponseRelationKind`. The relation signature names `PatientEpisodeSlot`, `InterventionSlot`, `OutcomeCharacteristicSlot`, and `ObservationWindowSlot`. Its Laws declare the response predicate and the temporal-aggregation conditions under which that predicate is evaluated. Applicability identifies the studied population, intervention kind, declared dosing frequency and timing conditions, and observation interval. The effective reference scheme separately fixes how the declaration content is interpreted.
 
 The signature does not assert that one patient responded. A response assertion designates the actual participants and states its modality. An A.2.4 evidence-use relation may relate a selected assay-result episteme to that response assertion under the named claim scope, evidential polarity, relevance window, and provenance constraints; it may thereby make that episteme admissible for the assertion, while the direct response pattern determines independently whether the response relation obtains. A changed assay result or later use leaves the signature unchanged. If the declared outcome characteristic or Applicability changes, the exact claim content carried by the signature's `U.ClaimGraph` changes and C.2.1 identifies another episteme. A.6.0 then judges `U.Signature` membership independently, and any edition, refinement, or supersession relation must separately obtain.
 
@@ -61,9 +66,9 @@ Practical payoff: changing the publication form or making a new publication occu
 
 #### A.6.0:5.4 - Formal work: dependent operation parameters
 
-A formal substrate declares an operator whose result kind depends on one input. Its A.6.1 operation declaration names the input arguments, their ValueKinds, the ResultKind, and the dependent law. A Lean structure or another dependent-type representation can encode those declarations precisely, but its fields, argument order, and tuple forms remain representation-side.
+A FormalSubstrate signature is used with an operator whose result kind depends on one input. A separate A.6.1 operation declaration names the input arguments, their ValueKinds, the ResultKind, and the dependent law; it cites the FormalSubstrate signature only when that declaration dependency is current. A Lean structure or another dependent-type representation can encode those declarations precisely, but its fields, argument order, and tuple forms remain representation-side.
 
-When an FPF relation claim consumes that formal representation, C.29 states what structure the representation preserves and an explicit correspondence relates its operands to the independently declared `RelationSignature` SlotSpecs. A.6.3.RT governs the representation transition. Neither notation nor correspondence changes the `U.Signature` EntityOfConcern, effective `U.ReferenceScheme`, Applicability, or identity.
+When an FPF relation claim consumes that formal representation, C.29 states what structure the representation preserves and an explicit correspondence relates its operands to the independently declared `RelationSignature` SlotSpecs. A.6.3.RT governs the representation transition. Neither notation nor correspondence changes either declaration's EntityOfConcern, effective `U.ReferenceScheme`, Applicability, or identity.
 
 Practical payoff: formal-methods engineers can inspect the dependency in the operation declaration and compare another representation without importing mathematical operand order into relation ontology.
 

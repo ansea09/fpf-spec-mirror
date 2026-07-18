@@ -6,12 +6,12 @@ section_id: "E.24:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__007_archetypal-grounding.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5 — Archetypal Grounding"
-line_start: 82379
-line_end: 82418
+line_start: 82531
+line_end: 82570
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -50,9 +50,9 @@ Use these slices as archetypes for the ontic-introduction decision. They are not
 
 A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. The point of this archetype is not that all such subjects are one kind. The E.24 decision instead settles the status of the cross-pattern subject before patterns rely on it.
 
-In this archetype, "process" and "workflow" are source-side expressions until recovered. They may point to method, method description, work plan, dated work, transformation-flow structure, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, or another governed value. They become durable FPF ontology only through the same E.24 decision as any other proposed ontic; otherwise keep them quote-only, reduced-use, or resolved under the governing patterns that already carry the claim.
+In this archetype, "process" and "workflow" are source-side expressions until recovered. They may point to method, method description, work plan, dated work, transformation-flow structure, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, or another governed value. They become durable FPF ontology only through the same E.24 decision as any other proposed ontic; otherwise keep them quote-only, reduced-use, or resolved under the exact governing patterns that already carry the claim.
 
-A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, a source expression `workflow` may be retained in quotation while its current use relies only on one recovered `U.MethodDescription` and one selected `TransformationFlowStructure`. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and apply the direct governing pattern for that stronger claim.
+A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, a source expression `workflow` may be retained in quotation while its current use relies only on one recovered `U.MethodDescription` under `A.3.2` and one selected `TransformationFlowStructure` under `E.18`. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and apply the exact direct governing pattern for that stronger claim.
 
 The E.24 move is:
 1. name the candidate subject under concern;
@@ -62,7 +62,7 @@ The E.24 move is:
 
 Method, work, and change are one current stress case for this archetype. A project concern about changing, producing, selecting, deriving, controlling, maintaining, planning, performing, measuring, or carrying a result may involve `U.Method`, `U.MethodDescription`, `U.Mechanism`, formal-substrate declaration, mathematical-lens use, `U.WorkPlan`, dated `U.Work`, source-local process labels or workflow labels, a selected `TransformationFlowStructure`, a separate C.29 representation of that structure when current, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, and temporal relation. That spread is an E.24 applicability signal. It does not by itself settle either "make one new ontic" or "the existing governing patterns are sufficient".
 
-Apply the same decision to a proposed `system`, `relation`, role-participation, role-assignment, slot-discipline, `characteristic space`, `temporal dynamics`, or `architecture` ontic. E.24 supplies the decision form; the governing subject pattern supplies the subject ontology and source set by value.
+As non-exhaustive examples, apply the same decision to candidate subjects expressed as `system`, `relation`, role-participation, role-assignment, slot-discipline, `characteristic space`, `temporal dynamics`, or `architecture`; none is admitted as an ontic by the head alone. E.24 supplies the decision form; the governing subject pattern supplies the subject ontology and source set by value.
 
 Dependent subject patterns may keep a thin cue: when one recognizable concern spans several direct entities and relations, name the relation currently being asserted and use its governing pattern. That cue does not license treating a local set of references as a durable ontic before the E.24 decision, assigning one entity to two kinds without direct admission, or treating a SlotKind label as alternate ontology.
 
@@ -76,5 +76,5 @@ The same test applies to any draft ToC row or planned pattern label. If no curre
 
 #### E.24:5.4 - Broad Terms That Hide Several Governed Objects
 
-`system`, `episteme`, `architecture`, `method`, `mechanism`, `temporal claim`, `dynamics`, and `change` can each appear as a broad head for many dependent FPF patterns. That breadth is not itself enough to create a durable FPF ontic. Apply E.24 before treating a broad head as current governing ontology: name the primary governed subject kind, stable identity, core direct relation and governing pattern, neighboring direct relations, dependent patterns, description-episteme boundary, and the boundaries among publication occurrence, form, carrier, view, and representation. If those claims are missing, use the current governing patterns that already carry the work and do not cite the broad head as if it supplied current slot discipline.
+Non-exhaustive examples of broad heads include `system`, `episteme`, `architecture`, `method`, `mechanism`, `temporal claim`, `dynamics`, and `change`; each can stand in for many dependent FPF patterns. That breadth is not itself enough to create a durable FPF ontic. Apply E.24 before treating a broad head as current governing ontology: name the primary governed subject kind, stable identity, core direct relation and governing pattern, neighboring direct relations, dependent patterns, description-episteme boundary, and the boundaries among publication occurrence, form, carrier, view, and representation. If those claims are missing, use the current governing patterns that already carry the work and do not cite the broad head as if it supplied current slot discipline.
 

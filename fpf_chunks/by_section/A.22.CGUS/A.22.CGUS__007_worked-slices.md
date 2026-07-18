@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_worked-slices.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:5 — Worked Slices"
-line_start: 32305
-line_end: 32348
+line_start: 32307
+line_end: 32350
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

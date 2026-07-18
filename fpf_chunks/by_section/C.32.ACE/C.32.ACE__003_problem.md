@@ -6,12 +6,12 @@ section_id: "C.32.ACE:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:2 — Problem"
-line_start: 61523
-line_end: 61530
+line_start: 61529
+line_end: 61536
 dependencies:
   - "A.10"
   - "A.19.CPM"

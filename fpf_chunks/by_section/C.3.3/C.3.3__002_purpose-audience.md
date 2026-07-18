@@ -6,12 +6,12 @@ section_id: "C.3.3:1"
 section_title: "Purpose & Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__002_purpose-audience.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:1 — Purpose & Audience"
-line_start: 42077
-line_end: 42085
+line_start: 42083
+line_end: 42091
 dependencies:
   - "A.2.6"
   - "C.2.2"

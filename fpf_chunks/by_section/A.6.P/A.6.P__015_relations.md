@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__015_relations.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:12 — Relations"
-line_start: 15172
-line_end: 15197
+line_start: 15174
+line_end: 15199
 dependencies:
   - "A.10"
   - "A.2.4"

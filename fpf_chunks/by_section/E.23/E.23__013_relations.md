@@ -6,12 +6,12 @@ section_id: "E.23:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__013_relations.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:12 — Relations"
-line_start: 81970
-line_end: 81995
+line_start: 82117
+line_end: 82142
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

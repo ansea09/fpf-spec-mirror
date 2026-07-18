@@ -6,12 +6,12 @@ section_id: "F.6:End"
 section_title: "F.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__018_f-6-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:End — F.6:End"
-line_start: 85714
-line_end: 85715
+line_start: 85884
+line_end: 85885
 dependencies:
   - "A.15"
   - "A.15.1"

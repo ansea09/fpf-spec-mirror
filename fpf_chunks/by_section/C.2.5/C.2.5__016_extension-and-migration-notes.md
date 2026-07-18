@@ -6,12 +6,12 @@ section_id: "C.2.5:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__016_extension-and-migration-notes.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:15 — Extension and Migration Notes"
-line_start: 40838
-line_end: 40847
+line_start: 40844
+line_end: 40853
 dependencies:
   - "A.16"
   - "A.16.0"

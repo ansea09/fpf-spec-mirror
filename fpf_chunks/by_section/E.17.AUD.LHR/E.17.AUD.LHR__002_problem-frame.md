@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__002_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:1 — Problem frame"
-line_start: 77625
-line_end: 77649
+line_start: 77708
+line_end: 77732
 dependencies:
   - "A.10"
   - "A.15"

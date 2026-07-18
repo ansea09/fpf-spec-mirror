@@ -6,12 +6,12 @@ section_id: "F.12:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__003_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:2 — Problem frame"
-line_start: 87737
-line_end: 87744
+line_start: 87907
+line_end: 87914
 dependencies:
   - "A.2.3"
   - "F.1"

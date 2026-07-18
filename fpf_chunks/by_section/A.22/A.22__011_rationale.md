@@ -6,12 +6,12 @@ section_id: "A.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__011_rationale.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:10 — Rationale"
-line_start: 31804
-line_end: 31811
+line_start: 31806
+line_end: 31813
 dependencies:
   - "A.1"
   - "A.10"

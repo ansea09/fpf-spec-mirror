@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 48627
-line_end: 48644
+line_start: 48633
+line_end: 48650
 dependencies:
   - "A.10"
   - "A.15"

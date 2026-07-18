@@ -6,12 +6,12 @@ section_id: "G.7:7"
 section_title: "Conformance Checklist (normative) — CC‑G7"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__008_conformance-checklist-normative-cc-g7.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:7 — Conformance Checklist (normative) — CC‑G7"
-line_start: 94601
-line_end: 94620
+line_start: 94771
+line_end: 94790
 dependencies:
   - "A.21"
   - "B.3"

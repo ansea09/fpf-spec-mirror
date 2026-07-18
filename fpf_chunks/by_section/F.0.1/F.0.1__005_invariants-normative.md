@@ -6,12 +6,12 @@ section_id: "F.0.1:4"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__005_invariants-normative.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:4 — Invariants (normative)"
-line_start: 83562
-line_end: 83570
+line_start: 83732
+line_end: 83740
 dependencies:
   - "A.1.1"
   - "A.11"

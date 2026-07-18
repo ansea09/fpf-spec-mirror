@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 35430
-line_end: 35491
+line_start: 35432
+line_end: 35493
 dependencies:
   - "A.1"
   - "A.10"

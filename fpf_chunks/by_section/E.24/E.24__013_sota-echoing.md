@@ -6,12 +6,12 @@ section_id: "E.24:5.8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__013_sota-echoing.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.8 — SoTA-Echoing"
-line_start: 82494
-line_end: 82523
+line_start: 82646
+line_end: 82675
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -66,5 +66,5 @@ Treat E.24 as current for ontic-introduction decisions while the governing patte
 - dependent patterns start copying direct-relation rules or `RelationSignature` declarations instead of relying on their governing patterns;
 - external source work governs the introduction method itself rather than one selected ontic or subject matter.
 
-Do not let an unresolved decision govern dependent use. When the ontic-introduction decision remains unresolved among a durable ontic, a bounded local episteme under C.2.1, existing governing-pattern use, quote-only source wording, or reduced-use source wording, return to `E.24:4.1` and settle the primary governed subject kind, stable identity criterion, core direct relation, named neighboring direct relations, governing patterns, and non-use boundary.
+Do not let an unresolved decision govern dependent use. When the ontic-introduction decision remains unresolved among the four closed dispositions—a durable ontic, a bounded local episteme under C.2.1, existing governing-pattern use, or source-expression-only use in its quote-only or reduced-use mode—return to `E.24:4.1` and settle the primary governed subject kind, stable identity criterion, core direct relation, named neighboring direct relations, governing patterns, and non-use boundary.
 

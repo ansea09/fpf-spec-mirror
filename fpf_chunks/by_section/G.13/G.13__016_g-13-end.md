@@ -6,12 +6,12 @@ section_id: "G.13:End"
 section_title: "G.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__016_g-13-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:End — G.13:End"
-line_start: 97226
-line_end: 97235
+line_start: 97396
+line_end: 97405
 dependencies:
   - "A.18"
   - "A.19"

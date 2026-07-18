@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
-line_start: 81998
-line_end: 82534
+line_start: 82145
+line_end: 82686
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -49,7 +49,7 @@ Use this pattern when FPF work appears to need a durable ontic: a connected acti
 
 On first reading, distinguish four outcomes. A durable ontic is a reusable ontology unit whose governing pattern states its identity and core relations for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already governed entities and relations for one named use. Direct governing-pattern use means relying on those existing patterns without adding another ontology unit. Quote-only or reduced use keeps a source expression available without giving it FPF kind or governing force.
 
-Typical moments:
+Typical, non-exhaustive working situations include:
 
 - a bounded local episteme starts being cited as though it were a new ontology unit;
 - a source expression or project-side expression keeps pointing to several FPF values at once;
@@ -132,15 +132,15 @@ A `U.View` remains the same episteme individual for which E.17.0 conformance to 
 
 Keep the direct verbs with their objects. A designator designates an already recoverable referent. A governed reference resolves under an effective reference scheme. An assertion or description episteme carries claims and participant designations. A publication occurrence makes an episteme edition available; a publication form expresses it for that use; a presentation carrier bears the form.
 
-Start from the ontic and add only the named neighboring object on which the current decision or receiving use depends: a claim-bearing episteme, `U.View`, C.29 representation, publication occurrence, publication form, or `U.PresentationCarrier`. These objects are downstream of the ontic-introduction question and do not establish that a durable ontic is needed.
+Start from the ontic and add only a named neighboring object whose independently governed identity or direct relation changes the current decision or receiving use. Non-exhaustive examples of such neighboring objects are a claim-bearing episteme, `U.View`, C.29 representation, publication occurrence, publication form, or `U.PresentationCarrier`. These objects are downstream of the ontic-introduction question and do not establish that a durable ontic is needed.
 
-An ontic-introduction decision states:
+When a durable ontic is selected, its branch of the ontic-introduction decision states at least:
 
 - the primary governed subject kind and the practical concern through which users recognize why coherence among its direct relations matters to the named work or decision;
 - the `onticSlotRelation`, meaning the direct relation kind that connects the ontic's core participants; its governing pattern states participant meanings, predicate obtaining, and occurrence identity;
 - any `RelationSignature` episteme used to declare reusable SlotSpecs for those relation-participant meanings;
 - the current FPF patterns that govern the primary subject kind, the core direct relation, and the named neighboring direct relations;
-- the pattern that governs the durable ontic or, when no ontic is selected, the C.2.1 identity of the bounded local episteme in which that decision is stated;
+- the pattern that governs the durable ontic;
 - the named dependent-pattern reliance: each dependent pattern and the identified ontic identity, direct relation rule, or `RelationSignature` declaration on which it relies without copying that rule or declaration.
 
 A project entity does not fill an ontic. It keeps its own kind and may participate in the ontic's direct relation or in a neighboring direct relation. A SlotSpec belongs to a `RelationSignature` declaration. An assertion or description episteme may designate the world-side participants by value or reference and claim that the direct predicate obtains. The participant, SlotSpec, designation, assertion, and relation occurrence remain different objects.
@@ -166,7 +166,7 @@ If a reader asks where FPF ontics get constructive grounding, start here and the
 
 For structural identity claims, the constructive chain is `E.14 -> B.3.5 -> C.13`: Working-Model relation first, declared `validationMode`, `tv:groundedBy`, and a reconstructible `Γ_m.sum`, `Γ_m.set`, or `Γ_m.slice` trace. The `Γ_m` trace is the reconstructible grounding object cited through `tv:groundedBy` under B.3.5. If a graph, tuple, or another mathematical expression represents that trace, the expression is a separate C.29 representation. Neither the trace nor its representation becomes the public relation vocabulary, and this structural grounding apparatus is not required for non-structural ontics.
 
-For non-structural ontics, use the governing identity, grounding, or recognition rule named by the direct pattern: for example `EpistemeConstitutionRelation`, work occurrence identity, `C.3` typed reasoning, `A.6` declaration shape, Concept-Set witnesses, formal-substrate or principle-frame declaration, or another accepted identity test. Use `C.29` when the mathematical lens itself is current; use `E.24.UK` when a `U.*` name is being admitted; use C.2.1 for the identity of a description episteme; use `E.24.PUB` for the publication occurrence that makes one selected episteme edition available, its audience and bounded use, publication form, and presentation carrier.
+For non-structural ontics, use the governing identity, grounding, or recognition rule named by the direct pattern. Non-exhaustive examples of such direct-pattern bases include `EpistemeConstitutionRelation`, work occurrence identity, `C.3` typed reasoning, `A.6` declaration shape, Concept-Set witnesses, formal-substrate or principle-frame declaration, and another accepted identity test. Use `C.29` when the mathematical lens itself is current; use `E.24.UK` when a `U.*` name is being admitted; use C.2.1 for the identity of a description episteme; use `E.24.PUB` for the publication occurrence that makes one selected episteme edition available, its audience and bounded use, publication form, and presentation carrier.
 
 `A.14`, `B.2`, and `A.15.1` carry BORO- and CCO-compatible identity and occurrence discipline. They support the constructive foundation; they do not create a separate durable-kind ontology.
 
@@ -233,7 +233,7 @@ Within this split, E.24 carries the distinction among the ontic, the claim-beari
 Use the current split this way:
 
 - use `E.24` for `U.Ontic` identity, the primary governed subject kind, core direct relation, governing patterns, named dependent-pattern reliance, and non-use boundary;
-- use `E.24.CD` when the current problem is detecting and characterizing an apparent subject before deciding whether it should enter an E.24 ontic-introduction decision at all; `E.24.CD` does not select the durable-ontic disposition;
+- use `E.24.CD` when the current problem is detecting and characterizing an apparent subject before deciding whether it should enter an E.24 ontic-introduction decision at all; `E.24.CD` supplies detection and characterization only and selects no E.24 disposition. `Local use frame` is not an E.24 disposition: when detection material uses that phrase, recover whether it means direct governing-pattern use, a bounded local episteme under C.2.1, or source-expression use before E.24 can rely on the result;
 - use `E.24.PUB` when the current problem is the distinction among the ontic, an ontic-description episteme, the publication occurrence that makes one selected edition available, the publication form that expresses it for that use, and the `U.PresentationCarrier` that bears the form; use `E.17.0` for `U.View` membership, A.6.3 for optional viewing construction, and `C.29` for a representation;
 - use `A.19.ECS` only when the contested question is how to construct an evaluation `CharacteristicSpace` for comparing the resulting FPF pattern-set structures after retaining the governing-pattern relations, adding one bounded local episteme whose claims cite them for a declared use, or adding a durable ontic and its governing pattern.
 
@@ -246,7 +246,7 @@ Introduce or rely on a durable FPF ontic only after the ontic-introduction decis
 
 Name the current claim under decision and ask whether an existing pattern already carries it.
 
-Use direct governing patterns first. If the case is method semantics, use `A.3.1`; if it is method description, use `A.3.2`; if it is mechanism meaning, use `A.6.1` and `E.20`; if it is work planning or dated work, use `A.15.2` or `A.15.1`; if it is evidence, gate, source, assurance, decision, release, or publication use, use that governing pattern.
+Use direct governing patterns first. If the case is method semantics, use `A.3.1`; if it is method description, use `A.3.2`; if it is mechanism meaning, use `A.6.1` and `E.20`; if it is work planning or dated work, use `A.15.2` or `A.15.1`. For evidence, gate, source, assurance, decision, release, publication, or another case, name the current claim and its current direct governing pattern by exact pattern ID before selecting direct governing-pattern use. If no current governor can be recovered by value, that disposition is unavailable; return to the other E.24 dispositions rather than treating the topic word as authority.
 
 Do not introduce a durable ontic only because several patterns are near each other or because one source word appears often.
 
@@ -272,12 +272,18 @@ One-screen first-use card:
 
 The following code block is a compact publication form for a claim-bearing ontic-introduction decision episteme. Its labels prompt claims; they are not SlotSpecs, actual relation participants, or a `RelationSignature`.
 
+Treat a filled card as the decision episteme only when its claim content, exact EntityOfConcern—the candidate subject or selected ontic under decision—and effective ReferenceScheme are recoverable under C.2.1. Otherwise the card remains a publication-form prompt and cannot be relied on as the identified decision.
+
+For ordinary first use, complete the common prompts `practicalConcern`, `decision`, and `blockedLocalOverread`, and state `primaryGovernedSubjectKind` only when a current FPF kind has actually been recovered. In the source-expression-only branch, record that field as `unrecovered` rather than inventing a kind. Then complete only the selected disposition's current fields. A durable-ontic decision needs its root, core relation, and any declaration, neighboring relation, or dependent reliance actually consumed; a bounded-local-episteme decision needs `boundedLocalEpistemeIfSelected`; direct governing-pattern use needs `directGoverningPatternsIfSelected`; source-expression use needs `sourceExpressionUseIfCurrent`. Omit every other `IfNeeded` prompt unless that neighboring object is current; the printed form is a branch menu, not a completion checklist.
+
 ```text
 OnticIntroductionDecisionCard:
-  primaryGovernedSubjectKind: the current FPF kind whose direct relations need one durable ontology unit.
+  primaryGovernedSubjectKind: the exact current FPF kind when recovered; otherwise unrecovered in the source-expression-only branch.
   practicalConcern: the named work or decision that needs those relations to stay coherent.
-  decision: durable ontic | bounded local episteme under C.2.1 | direct governing-pattern use | source expression only.
+  decision: exactly one value from this closed disposition set, selected by the current claim and required coordination: durable ontic | bounded local episteme under C.2.1 | direct governing-pattern use | source expression only (quote-only or reduced use).
   sourceExpressionUseIfCurrent: exact expression; source episteme; source publication occurrence when current; recovered entities, relations, and claims; current admissible use; smallest stronger-use condition.
+  directGoverningPatternsIfSelected: exact current claim and exact current direct governing pattern for the direct-use disposition.
+  boundedLocalEpistemeIfSelected: identified C.2.1 episteme; declared bounded use; ClaimGraph; EntityOfConcern; effective ReferenceScheme; non-governing stop.
   onticRootIfSelected: the EntityOfConcern and stable identity criterion.
   coreDirectRelation: relation kind; relation-participant meanings; admitted actual-participant kinds; obtaining condition; occurrence-identity rule; direct governing pattern.
   reusableDeclarationIfNeeded: RelationSignature and one SlotSpec per relation-participant meaning needed by typed reuse.
@@ -306,18 +312,18 @@ The filled card below applies the form to a pump-maintenance specification. It n
 OnticIntroductionDecisionCard:
   primaryGovernedSubjectKind: `U.Episteme`.
   practicalConcern: maintenance engineers need one stable way to identify the PumpStation37 specification while grounding, views, evidence, editions, and publications change.
-  decision: retain one durable ontic governing `U.Episteme`.
+  decision: durable ontic.
   onticRootIfSelected: `U.Episteme`, identified under `C.2.1` through `EpistemeConstitutionRelation`.
   coreDirectRelation: `EpistemeConstitutionRelation` among `MaintenanceClaims_v7` as constitutive claim content, `PumpStation37` as the identified EntityOfConcern, and `StationMaintenanceReferenceScheme_2026` as the effective reference scheme. The admitted actual-participant kinds are `U.ClaimGraph`, `U.Entity`, and `U.ReferenceScheme`. The relation obtains when the scheme makes that claim graph interpretable and evaluable as claims about that entity and the three participants are organized as one claim-bearing whole. That participant triple identifies the occurrence. `C.2.1` governs the relation.
   reusableDeclarationIfNeeded: `EpistemeConstitutionRelationSignature` with the three SlotSpecs declared in `C.2.1`, only where another pattern needs reusable participant typing.
-  neighboringDirectRelations: empirical-grounding, viewpoint, viewing, claim-scope, bounded-model-use, evidence-use, edition, and publication relations under their direct patterns.
-  claimBearingEpistemesIfNeeded: this ontic-introduction decision is an episteme about the episteme ontic; a separate assertion about the named constitution occurrence is added only when that claim is current.
+  neighboringDirectRelations: `EpistemeEmpiricalGroundingRelation` and `EpistemeEditionRelation` under C.2.1; `EpistemeViewpointConformanceRelation` under E.17.0 when view membership is current; and `EpistemePublicationRelation` under E.24.PUB when availability is current. A.6.3 viewing construction remains in `viewIfNeeded` and is not relabeled as one of these relation kinds. A.10 evidence-provenance use remains separately governed and enters this field only after an exact direct relation kind and direct governor are current; this worked case asserts no such evidence relation.
+  claimBearingEpistemesIfNeeded: this decision is identified under C.2.1 by `PumpMaintenanceOnticDecisionClaims_v1` as its ClaimGraph, the selected `U.Episteme` ontic as its EntityOfConcern, and `FPF-Ontic-Decision-Scheme-2026` as its effective ReferenceScheme; a separate assertion about the named constitution occurrence is added only when that claim is current.
   viewIfNeeded: exact maintenance episteme E is the same individual as a `U.View` only when E.17.0 conformance to exact maintenance viewpoint P obtains; any source episteme and A.6.3 construction remain separate.
   representationIfNeeded: a wiring-diagram representation remains under C.29 and corresponds to independently recovered objects.
   publicationOccurrenceIfNeeded: if the specification edition is made available to the maintenance team for scheduled repair work, name that selected edition, audience, bounded use, and publication occurrence.
   publicationFormIfNeeded: name the form that expresses the selected edition for that use.
   presentationCarrierIfNeeded: name the identified paper sheet, file, display, or other `U.PresentationCarrier` that bears the form.
-  dependentPatterns: patterns using the specification cite `C.2.1` and the named neighboring direct relation they rely on; they do not copy the constitution rule.
+  dependentPatterns: `E.17.0` relies on the same C.2.1 episteme identity plus exact viewpoint conformance when the specification is admitted as a `U.View`; `A.6.3` relies on the independently identified source and receiving epistemes only when viewing construction is current. Neither pattern copies the constitution rule.
   blockedLocalOverread: grounding holon, viewpoint, view, evidence, edition work, publication occurrence, form, carrier, and representation are not extra participants of `EpistemeConstitutionRelation`.
 ```
 
@@ -347,12 +353,11 @@ OnticIntroductionDecision:
   PracticalConcern: named work or decision and how absent coordination changes its use.
   OnticAsEntityOfConcernIfSelected:
   StableIdentityCriterion:
-  UKindDecision:
-    verdict: selected U-kind, no U-kind, or blocked
-    selectedUKindName:
-    gain:
-    cost:
-    duplicateOntologyRisk:
+  UKindDecisionIfCurrent:
+    E24UKDecisionRef: exact E.24.UK `UKindAdmissionDecision` episteme.
+    AdmissionDisposition: exactly one value from E.24.UK's closed set: root | same-individual-dependent | identity-dependent | reuse | local-kind | reject.
+    BranchDetailRefIfRequired: the exact branch-specific reference or references required by E.24.UK for that disposition.
+    LocalGainCostAndDuplicateOntologyRisk: the decision-changing local rationale; not another disposition field.
   OnticSlotRelation:
     DirectRelationKind:
     DirectGoverningPattern:
@@ -387,7 +392,7 @@ OnticIntroductionDecision:
 
 For every other candidate, complete the decision form by value; no candidate inherits the `U.*` decision from E.24.
 
-The direct `onticSlotRelation` uses A.6.5 only for a reusable declaration of its relation-participant meanings and defines no second slot discipline. A SlotKind names one participant meaning only inside the selected `RelationSignature`, and its ValueKind constrains the admitted kind of the actual participant corresponding to that SlotSpec. Neither the SlotKind label nor its wording decides that kind; the participant's direct governing pattern does.
+When typed reuse needs a declaration of the core direct relation, its `RelationSignature` uses A.6.5 and the E.24 decision defines no second slot discipline; the direct relation itself remains governed by its direct pattern. A SlotKind names one participant meaning only inside the selected `RelationSignature`, and its ValueKind constrains the admitted kind of the actual participant corresponding to that SlotSpec. Neither the SlotKind label nor its wording decides that kind; the participant's direct governing pattern does.
 
 #### E.24:4.4 - Check 4: Governing-Pattern and Dependent-Use Test
 
@@ -430,9 +435,9 @@ Use these slices as archetypes for the ontic-introduction decision. They are not
 
 A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. The point of this archetype is not that all such subjects are one kind. The E.24 decision instead settles the status of the cross-pattern subject before patterns rely on it.
 
-In this archetype, "process" and "workflow" are source-side expressions until recovered. They may point to method, method description, work plan, dated work, transformation-flow structure, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, or another governed value. They become durable FPF ontology only through the same E.24 decision as any other proposed ontic; otherwise keep them quote-only, reduced-use, or resolved under the governing patterns that already carry the claim.
+In this archetype, "process" and "workflow" are source-side expressions until recovered. They may point to method, method description, work plan, dated work, transformation-flow structure, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, or another governed value. They become durable FPF ontology only through the same E.24 decision as any other proposed ontic; otherwise keep them quote-only, reduced-use, or resolved under the exact governing patterns that already carry the claim.
 
-A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, a source expression `workflow` may be retained in quotation while its current use relies only on one recovered `U.MethodDescription` and one selected `TransformationFlowStructure`. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and apply the direct governing pattern for that stronger claim.
+A source-driven use closes only after the exact expression remains linked to what was carried forward. For example, a source expression `workflow` may be retained in quotation while its current use relies only on one recovered `U.MethodDescription` under `A.3.2` and one selected `TransformationFlowStructure` under `E.18`. The source expression neither becomes their common kind nor disappears from the provenance of that use. If a later claim needs the source's stronger ordering, execution, or evidence meaning, reopen the named source episteme and apply the exact direct governing pattern for that stronger claim.
 
 The E.24 move is:
 1. name the candidate subject under concern;
@@ -442,7 +447,7 @@ The E.24 move is:
 
 Method, work, and change are one current stress case for this archetype. A project concern about changing, producing, selecting, deriving, controlling, maintaining, planning, performing, measuring, or carrying a result may involve `U.Method`, `U.MethodDescription`, `U.Mechanism`, formal-substrate declaration, mathematical-lens use, `U.WorkPlan`, dated `U.Work`, source-local process labels or workflow labels, a selected `TransformationFlowStructure`, a separate C.29 representation of that structure when current, evidence relation, source relation, gate relation, result relation, publication occurrence and its named direct relation, and temporal relation. That spread is an E.24 applicability signal. It does not by itself settle either "make one new ontic" or "the existing governing patterns are sufficient".
 
-Apply the same decision to a proposed `system`, `relation`, role-participation, role-assignment, slot-discipline, `characteristic space`, `temporal dynamics`, or `architecture` ontic. E.24 supplies the decision form; the governing subject pattern supplies the subject ontology and source set by value.
+As non-exhaustive examples, apply the same decision to candidate subjects expressed as `system`, `relation`, role-participation, role-assignment, slot-discipline, `characteristic space`, `temporal dynamics`, or `architecture`; none is admitted as an ontic by the head alone. E.24 supplies the decision form; the governing subject pattern supplies the subject ontology and source set by value.
 
 Dependent subject patterns may keep a thin cue: when one recognizable concern spans several direct entities and relations, name the relation currently being asserted and use its governing pattern. That cue does not license treating a local set of references as a durable ontic before the E.24 decision, assigning one entity to two kinds without direct admission, or treating a SlotKind label as alternate ontology.
 
@@ -456,7 +461,7 @@ The same test applies to any draft ToC row or planned pattern label. If no curre
 
 #### E.24:5.4 - Broad Terms That Hide Several Governed Objects
 
-`system`, `episteme`, `architecture`, `method`, `mechanism`, `temporal claim`, `dynamics`, and `change` can each appear as a broad head for many dependent FPF patterns. That breadth is not itself enough to create a durable FPF ontic. Apply E.24 before treating a broad head as current governing ontology: name the primary governed subject kind, stable identity, core direct relation and governing pattern, neighboring direct relations, dependent patterns, description-episteme boundary, and the boundaries among publication occurrence, form, carrier, view, and representation. If those claims are missing, use the current governing patterns that already carry the work and do not cite the broad head as if it supplied current slot discipline.
+Non-exhaustive examples of broad heads include `system`, `episteme`, `architecture`, `method`, `mechanism`, `temporal claim`, `dynamics`, and `change`; each can stand in for many dependent FPF patterns. That breadth is not itself enough to create a durable FPF ontic. Apply E.24 before treating a broad head as current governing ontology: name the primary governed subject kind, stable identity, core direct relation and governing pattern, neighboring direct relations, dependent patterns, description-episteme boundary, and the boundaries among publication occurrence, form, carrier, view, and representation. If those claims are missing, use the current governing patterns that already carry the work and do not cite the broad head as if it supplied current slot discipline.
 
 ### E.24:5.6 - Bias-Annotation
 
@@ -561,7 +566,7 @@ Treat E.24 as current for ontic-introduction decisions while the governing patte
 - dependent patterns start copying direct-relation rules or `RelationSignature` declarations instead of relying on their governing patterns;
 - external source work governs the introduction method itself rather than one selected ontic or subject matter.
 
-Do not let an unresolved decision govern dependent use. When the ontic-introduction decision remains unresolved among a durable ontic, a bounded local episteme under C.2.1, existing governing-pattern use, quote-only source wording, or reduced-use source wording, return to `E.24:4.1` and settle the primary governed subject kind, stable identity criterion, core direct relation, named neighboring direct relations, governing patterns, and non-use boundary.
+Do not let an unresolved decision govern dependent use. When the ontic-introduction decision remains unresolved among the four closed dispositions—a durable ontic, a bounded local episteme under C.2.1, existing governing-pattern use, or source-expression-only use in its quote-only or reduced-use mode—return to `E.24:4.1` and settle the primary governed subject kind, stable identity criterion, core direct relation, named neighboring direct relations, governing patterns, and non-use boundary.
 
 ### E.24:8 - Relations
 

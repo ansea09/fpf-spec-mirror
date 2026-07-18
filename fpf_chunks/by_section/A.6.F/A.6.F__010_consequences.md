@@ -6,12 +6,12 @@ section_id: "A.6.F:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__010_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:9 — Consequences"
-line_start: 16554
-line_end: 16562
+line_start: 16556
+line_end: 16564
 dependencies:
   - "A.10"
   - "A.15"

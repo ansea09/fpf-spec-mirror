@@ -6,12 +6,12 @@ section_id: "A.6.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__011_rationale.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:10 — Rationale"
-line_start: 11252
-line_end: 11257
+line_start: 11254
+line_end: 11259
 dependencies:
   - "A.1.1"
   - "A.10"

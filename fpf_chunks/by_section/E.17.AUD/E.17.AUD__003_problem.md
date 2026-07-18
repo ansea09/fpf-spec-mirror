@@ -6,12 +6,12 @@ section_id: "E.17.AUD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:2 — Problem"
-line_start: 77354
-line_end: 77362
+line_start: 77437
+line_end: 77445
 dependencies:
   - "A.10"
   - "A.15"

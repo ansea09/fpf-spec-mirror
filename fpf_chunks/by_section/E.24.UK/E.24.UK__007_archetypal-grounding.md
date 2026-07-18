@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 83346
-line_end: 83377
+line_start: 83515
+line_end: 83546
 dependencies:
   - "A.11"
   - "A.3.2"
@@ -41,7 +41,7 @@ keywords:
 
 #### E.24.UK:5.1 - False Structural U-kind Title
 
-A structural title that names an action-invitation precision-restoration move as `U.ActionInvitationPrecisionRestoration` looks like it names a durable U-kind. Apply E.24.UK to recover the governed object. If the pattern governs a precision-restoration move for action-invitation wording, the `U.*` spelling misnames the public object. Rename the title to the actual pattern object unless its author records E.24.UK evidence that a durable U-kind exists.
+A structural title that names an action-invitation precision-restoration move as `U.ActionInvitationPrecisionRestoration` looks like it names a durable U-kind. A.6.A already settles the case: its governed object is the action-invitation precision-restoration move, and no durable kind with this spelling is admitted. Record `reject`, recover the exact `actionInvitation(...)` relation and whichever related governed value is current, and rename the public title to the actual pattern object.
 
 #### E.24.UK:5.2 - Retained Root U-kind
 

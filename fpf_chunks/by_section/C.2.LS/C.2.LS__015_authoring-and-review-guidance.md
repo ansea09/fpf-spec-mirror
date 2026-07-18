@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 40443
-line_end: 40463
+line_start: 40449
+line_end: 40469
 dependencies:
   - "A.16"
   - "A.16.0"

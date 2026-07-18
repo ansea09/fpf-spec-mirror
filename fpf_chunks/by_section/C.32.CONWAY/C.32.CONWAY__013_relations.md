@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__013_relations.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
   - "C.32.CONWAY:12 — Relations"
-line_start: 61888
-line_end: 61895
+line_start: 61894
+line_end: 61901
 dependencies:
   - "A.10"
   - "A.15"

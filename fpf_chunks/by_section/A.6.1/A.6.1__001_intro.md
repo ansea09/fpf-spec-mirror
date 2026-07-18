@@ -6,12 +6,12 @@ section_id: "A.6.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__001_intro.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
   - "A.6.1:intro — Intro"
-line_start: 10966
-line_end: 10971
+line_start: 10968
+line_end: 10973
 dependencies:
   - "A.1.1"
   - "A.10"

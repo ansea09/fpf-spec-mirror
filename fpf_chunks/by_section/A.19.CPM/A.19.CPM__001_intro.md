@@ -6,12 +6,12 @@ section_id: "A.19.CPM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__001_intro.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:intro — Intro"
-line_start: 29964
-line_end: 29976
+line_start: 29966
+line_end: 29978
 dependencies:
 keywords:
   - "ComparatorSet"

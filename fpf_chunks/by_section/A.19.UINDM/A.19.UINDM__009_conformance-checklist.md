@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__009_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:7 — Conformance Checklist"
-line_start: 29242
-line_end: 29265
+line_start: 29244
+line_end: 29267
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

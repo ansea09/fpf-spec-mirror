@@ -6,12 +6,12 @@ section_id: "E.7:End"
 section_title: "E.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__011_e-7-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:End — E.7:End"
-line_start: 67638
-line_end: 67639
+line_start: 67644
+line_end: 67645
 dependencies:
   - "E.5.4"
   - "E.6"

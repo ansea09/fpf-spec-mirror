@@ -6,16 +6,19 @@ section_id: "A.6.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__010_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:9 — Consequences"
-line_start: 10908
-line_end: 10924
+line_start: 10910
+line_end: 10926
 dependencies:
   - "A.15.1"
+  - "A.17"
+  - "A.18"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.3.1"
   - "A.6.0"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
+  - "C.16"
   - "C.2.1"
   - "C.22"
   - "C.29"
@@ -30,6 +34,7 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.9"
 keywords:
 ---
 
@@ -39,7 +44,7 @@ keywords:
 
 - Reusable declarations receive one stable episteme identity.
 - `RelationSignature` epistemes can expose named typed SlotSpecs without forcing every relation occurrence into a record.
-- Applicability becomes inspectable through the exact reference scheme, claim scope, time, selected `CHR:ReferencePlane`, and any selected model-use structure.
+- Meaning becomes inspectable through the exact reference scheme; applicability becomes inspectable through the exact claim scope plus any current time interval, selected `CHR:ReferencePlane`, or selected model-use structure.
 - Physical and clinical work retain their world-side entities while using the same declaration discipline.
 - A changed realization can be repaired independently from its declaration.
 

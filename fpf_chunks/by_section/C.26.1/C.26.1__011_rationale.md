@@ -6,12 +6,12 @@ section_id: "C.26.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__011_rationale.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:10 — Rationale"
-line_start: 50843
-line_end: 50848
+line_start: 50849
+line_end: 50854
 dependencies:
   - "A.1.1"
   - "A.10"

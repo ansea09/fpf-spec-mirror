@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 23821
-line_end: 23900
+line_start: 23823
+line_end: 23902
 dependencies:
   - "A.10"
   - "A.15"

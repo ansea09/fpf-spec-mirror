@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__011_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:9 — Consequences"
-line_start: 30586
-line_end: 30602
+line_start: 30588
+line_end: 30604
 dependencies:
 keywords:
   - "SelectEligibility"

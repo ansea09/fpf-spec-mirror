@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 82004
-line_end: 82045
+line_start: 82151
+line_end: 82192
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,7 +44,7 @@ Use this pattern when FPF work appears to need a durable ontic: a connected acti
 
 On first reading, distinguish four outcomes. A durable ontic is a reusable ontology unit whose governing pattern states its identity and core relations for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already governed entities and relations for one named use. Direct governing-pattern use means relying on those existing patterns without adding another ontology unit. Quote-only or reduced use keeps a source expression available without giving it FPF kind or governing force.
 
-Typical moments:
+Typical, non-exhaustive working situations include:
 
 - a bounded local episteme starts being cited as though it were a new ontology unit;
 - a source expression or project-side expression keeps pointing to several FPF values at once;

@@ -6,12 +6,12 @@ section_id: "G.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__007_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:1 — Problem frame"
-line_start: 93339
-line_end: 93351
+line_start: 93509
+line_end: 93521
 dependencies:
   - "C.11"
   - "C.18"

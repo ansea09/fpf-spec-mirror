@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 83382
-line_end: 83403
+line_start: 83551
+line_end: 83573
 dependencies:
   - "A.11"
   - "A.3.2"
@@ -46,6 +46,7 @@ keywords:
 | `CC-E24UK-3` | A root U-kind has a primary E.24-compatible settlement and an identity, grounding, recognition, or membership rule rather than a taxonomic label alone. |
 | `CC-E24UK-3a` | Root `U.Relation` classifies only individuable obtaining relation occurrences; `A.6.REL` supplies the common discipline and each direct relation pattern supplies its participant meanings, obtaining condition, and occurrence-identity rule. |
 | `CC-E24UK-3b` | The claim-bearing decision episteme records exactly one typed `AdmissionDisposition` value — `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject` — and only the detail fields conditional on that value; it creates no project-side relation occurrence, and naming begins only after disposition. |
+| `CC-E24UK-3c` | The combined admission order tests exact existing-kind coverage before new admission; a failed new admission closes only as `local-kind` with one exact current C.3.2 declaration or as `reject` with the actual object and direct governor recovered under section 4.6. |
 | `CC-E24UK-4` | A dependent durable U-kind states its root U-kind and either a same-individual membership rule that preserves root identity or an identity-dependence relation with every additional discriminator. |
 | `CC-E24UK-4a` | `U.MethodDescription` preserves C.2.1 identity and uses the exact stable A.3.2 membership condition: one admitted `U.Method` is the exact EntityOfConcern and at least one substantive claim concerns that method as a way of doing; mention-only content, use adequacy, C.29 representation, publication occurrence, publication form, `U.PresentationCarrier`, approval, and work do not establish membership. `U.Viewpoint` and `U.View` likewise preserve C.2.1 identity and use the exact stable E.17.0 membership predicates; structure selection, bundle membership, DescriptionContext selection, direct authoring, A.6.3 construction, form, carrier, publication, query execution, evaluation, and work do not substitute for those predicates. |
 | `CC-E24UK-4b` | `U.EpistemePublication` is rejected; Plain `published episteme` is relation-defined wording in a claim that states obtaining participation and identifies or permits recovery of the exact `EpistemePublicationRelation` occurrence. The Plain wording is neither a reference nor a designator and does not resolve. |

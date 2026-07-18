@@ -6,12 +6,12 @@ section_id: "A.9:4"
 section_title: "Solution — Invariant Quintet + Meta‑Holon Transition"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__005_solution-invariant-quintet-meta-holon-transition.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:4 — Solution — Invariant Quintet + Meta‑Holon Transition"
-line_start: 20638
-line_end: 20660
+line_start: 20640
+line_end: 20662
 dependencies:
   - "A.1"
   - "A.8"

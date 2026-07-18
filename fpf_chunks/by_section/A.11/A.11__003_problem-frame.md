@@ -6,12 +6,12 @@ section_id: "A.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem-frame.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1 — Problem Frame"
-line_start: 21166
-line_end: 21171
+line_start: 21168
+line_end: 21173
 dependencies:
   - "A.8"
   - "C.3"

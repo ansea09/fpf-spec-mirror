@@ -6,12 +6,12 @@ section_id: "E.14:7"
 section_title: "Bias-Annotation (what to watch for, and the counter-moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__010_bias-annotation-what-to-watch-for-and-the-counter-moves.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:7 — Bias-Annotation (what to watch for, and the counter-moves)"
-line_start: 73679
-line_end: 73692
+line_start: 73762
+line_end: 73775
 dependencies:
   - "B.3.5"
   - "C.13"

@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 35041
-line_end: 35073
+line_start: 35043
+line_end: 35075
 dependencies:
   - "A.1"
   - "A.10"

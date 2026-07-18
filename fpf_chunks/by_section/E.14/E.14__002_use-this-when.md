@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:0 — Use This When"
-line_start: 73487
-line_end: 73494
+line_start: 73570
+line_end: 73577
 dependencies:
   - "B.3.5"
   - "C.13"

@@ -6,12 +6,12 @@ section_id: "E.19:4"
 section_title: "Solution — Profile-based gates for admission and refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__008_solution-profile-based-gates-for-admission-and-refresh.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:4 — Solution — Profile-based gates for admission and refresh"
-line_start: 79911
-line_end: 80390
+line_start: 79994
+line_end: 80515
 dependencies:
   - "A.6.P"
   - "C.2.P"
@@ -498,6 +498,48 @@ Use triggered accounts only for the selected entry-recognition function:
 5. **Accepted-decision or accepted source-material carry-through.** Record this when the review work states that accepted decisions from an accepted `DRR`, returned-finding set, accepted intake, architecture source material, or other accepted source material named by value are implemented in or discharged by the `E.19` reviewed pattern or subset. The run record assigns accepted decisions and conformance subjects to loci inside that reviewed pattern or subset or to a named governing FPF pattern, companion document, record, or accepted source material, and classifies each as expressed sufficiently, expressed partially, not expressed and blocking, carried by a direct accepted-source-material consultation condition, correctly absent because rejected or not triggered, inherited unchanged, or outside the reviewed pattern or subset with a named governing FPF pattern, companion document, record, or accepted source material. This account does not rename an `E.17.ID.CR` comparative review unit, `PublicationUnit`, publication form or face, source-pinned interpretation case, document whose accepted-source-material, evidence-source-material, architecture-source-material, or review-source-material function is named, or project-side review relation as an `E.19` reviewed pattern or subset; when those are present, name the governing-pattern kind and reference and assign carry-through to it or to a named governing FPF pattern, companion document, record, or accepted source material.
 
 For `PCP-ENTRY`, the ordinary compact pattern-local note remains enough unless one of the triggered concerns above is genuinely present.
+
+#### E.19:4.3.3 - Pattern-Edition Use-Value Replay
+
+Use this replay when an exact candidate pattern edition changes materially under `E.8:4.1.2`. First verify the author-selected branch against the exact edition basis and changed locus. A mechanical change closes as `not triggered` only when the smallest relevant comparison shows that every materiality value named in `E.8:4.1.2` is preserved. Physical rewrite size is not evidence.
+
+Keep each selected use probe as one atomic judgment; one run may contain probes from both branches. Carry the same probe separately by its branch, exact edition or candidate-only basis, working use or relying work, expected first useful result, boundary, necessity, and selected evidence mode. E.19 adds the branch-correct disposition or outcome and checked evidence without regrouping or reclassifying the use. A grouped verdict such as `uses preserved or added` or `usability preserved` closes neither branch. Record the results in the existing E.19 run record; the labels below are review dispositions, not U-kinds, coordinates, statuses, cards, or another result ontology.
+
+**Prior-edition differential.** Review one candidate pattern edition × one prior-edition use probe and close it with exactly one disposition:
+
+| Disposition | Semantic test and recoverability |
+| --- | --- |
+| `preserved` | The situation, action, result, and required boundary remain semantically available, so the declared use remains admissible and replayable from the pinned editions. |
+| `improved` | The required old use remains and a separate replay demonstrates an action, result, boundary, or affordability gain. |
+| `transferred` | A discoverable handoff reaches one named neighboring pattern whose Solution carries the needed action guidance and exposes its result. A bare pattern ID or unreachable action is `regressed`. |
+| `intentionally retired` | An accepted decision drops a harmful or false old action and supplies the corrected positive action or boundary as the recoverability endpoint. |
+| `regressed` | A required action, result, risk disclosure, cheap exit, or usable handoff is unintentionally absent; repair or an explicit retirement decision is required. |
+
+A use classified as unsupported historical residue before replay receives no differential disposition and supports no compatibility claim. New evidence of a valid old use reopens that classification instead of restoring wording silently. A required `regressed` probe blocks closure; keep the probe's required/optional necessity visible for later evaluation.
+
+**Candidate-only adequacy.** Review one candidate pattern edition × one new intended-use probe against its exact candidate-only basis, never against invented history. Close it with exactly one outcome:
+
+| Outcome | Semantic test |
+| --- | --- |
+| **adequate for the candidate-only use** | The selected basis, situation, action, first useful result, action-changing boundary, and intended reader are recoverable and executable enough for the declared use. |
+| **absent or insufficient for the candidate-only use** | The use is only promised, named, ambiguous, or unsupported; the intended reader cannot perform the action and distinguish the first result under the required boundary. |
+
+A missing candidate-only decision or basis is `absent or insufficient`; it never licenses a fabricated prior edition. Absence for a required new use blocks closure. Absence for optional breadth is non-blocking by itself but cannot support breadth, transfer, or exceptional-expression claims. If no exact new intended use is selected, no candidate-only check opens.
+
+**Replay the positive Solution separately.** Judge these atomic items over the candidate edition:
+
+1. the governed subject;
+2. the recurring problem and ordinary failure;
+3. an executable proposed move;
+4. a first useful result rather than completed review apparatus;
+5. each prominent boundary or guard and the credible neighboring case whose action it changes; and
+6. guards that inspect an already present positive Solution instead of supplying its outline.
+
+Refine item 5 by boundary whenever boundaries can pass, fail, or route independently. Follow the short first-use rendering's action and result logic against a concrete situation. Merely finding words such as `situation`, `move`, `result`, or `stop` is not evidence. Record each failed item as an exact finding with remediation direction; do not replace the replay with one prose-quality impression.
+
+**Replay each triggered enumeration.** Verify the semantic resolution selected under `E.8:4.1.2`: a declared closed set has one explicit membership rule covering every member; named-kind or proposition examples remain subordinate and explicitly non-exhaustive; heterogeneous neighbors do not assert a false common kind; an implicit kind, relation, or structure reaches an existing direct governor or remains blocked; and a hidden action or claim is stated before its examples. One list is a small attention series. Review a member separately when its membership can fail independently or route to another owner. A genuinely small closed set may close as one predicate-level unit only when one rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and an unchanged declared set or example list still covered by its exact rule, take the cheap positive-control path. A blanket `all lists are coherent` result cannot close a triggered enumeration.
+
+Desk replay is the ordinary evidence mode for both use branches, the positive Solution, and enumerations. Escalate to a cold reader, AI agent, or observed-work exercise when competing actions remain plausible, the result distinction is not recoverable by inspection, a transfer is uncertain, or a missed failure has high consequence. When a claim extends recurring applicability beyond the exact cases, or high consequence makes one observed slice insufficient, select a proportionate qualitative practitioner survey, action-research cycle, or case study. Evidence escalation is risk-selected; it is not a universal benchmark or an ordinary-rewrite requirement. The E.19 run returns branch-correct evidence and remediation direction while leaving ordinal coordinate values and `PatternQualityStatus` to the full E.21 evaluation.
 
 #### E.19:4.4 - Decision outcomes
 

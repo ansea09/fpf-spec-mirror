@@ -6,12 +6,12 @@ section_id: "D.5:4"
 section_title: "Causal Fairness Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__007_causal-fairness-boundary.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:4 — Causal Fairness Boundary"
-line_start: 64896
-line_end: 64903
+line_start: 64902
+line_end: 64909
 dependencies:
   - "A.10"
   - "B.3"

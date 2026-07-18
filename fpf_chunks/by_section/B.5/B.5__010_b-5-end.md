@@ -6,12 +6,12 @@ section_id: "B.5:End"
 section_title: "B.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__010_b-5-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:End — B.5:End"
-line_start: 37207
-line_end: 37208
+line_start: 37209
+line_end: 37210
 dependencies:
   - "A.10"
   - "B.4"

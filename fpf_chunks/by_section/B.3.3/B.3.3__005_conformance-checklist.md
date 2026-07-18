@@ -6,12 +6,12 @@ section_id: "B.3.3:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.3/B.3.3__005_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
   - "B.3.3:4 — Conformance Checklist"
-line_start: 36228
-line_end: 36240
+line_start: 36230
+line_end: 36242
 dependencies:
   - "A.10"
   - "A.19"

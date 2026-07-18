@@ -6,12 +6,12 @@ section_id: "A.12:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__006_solution.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:4 — Solution"
-line_start: 21345
-line_end: 21432
+line_start: 21347
+line_end: 21434
 dependencies:
   - "A.1"
   - "A.10"

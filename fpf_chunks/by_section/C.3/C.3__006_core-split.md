@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Core Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_core-split.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Core Split"
-line_start: 41618
-line_end: 41630
+line_start: 41624
+line_end: 41636
 dependencies:
   - "A.1"
   - "A.11"

@@ -6,12 +6,12 @@ section_id: "E.20:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:2 — Problem"
-line_start: 80588
-line_end: 80597
+line_start: 80714
+line_end: 80723
 dependencies:
   - "A.15.3"
   - "A.6.1"

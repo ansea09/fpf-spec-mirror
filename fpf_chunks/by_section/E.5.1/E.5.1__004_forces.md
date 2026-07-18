@@ -6,12 +6,12 @@ section_id: "E.5.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__004_forces.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:3 — Forces"
-line_start: 67152
-line_end: 67159
+line_start: 67158
+line_end: 67165
 dependencies:
   - "E.5"
 keywords:

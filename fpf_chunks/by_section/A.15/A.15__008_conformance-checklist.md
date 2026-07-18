@@ -6,12 +6,12 @@ section_id: "A.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__008_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
   - "A.15:7 — Conformance Checklist"
-line_start: 22310
-line_end: 22331
+line_start: 22312
+line_end: 22333
 dependencies:
   - "A.10"
   - "A.12"

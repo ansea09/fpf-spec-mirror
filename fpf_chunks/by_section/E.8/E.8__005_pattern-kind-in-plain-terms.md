@@ -6,12 +6,12 @@ section_id: "E.8:0.3"
 section_title: "Pattern Kind In Plain Terms"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_pattern-kind-in-plain-terms.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.3 — Pattern Kind In Plain Terms"
-line_start: 67685
-line_end: 67706
+line_start: 67691
+line_end: 67712
 dependencies:
   - "E.10"
   - "E.10.MOVE"

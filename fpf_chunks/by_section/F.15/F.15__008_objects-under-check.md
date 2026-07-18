@@ -6,12 +6,12 @@ section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__008_objects-under-check.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:6 — Objects under check"
-line_start: 88754
-line_end: 88769
+line_start: 88924
+line_end: 88939
 dependencies:
   - "A.10"
   - "A.15.1"

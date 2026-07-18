@@ -6,12 +6,12 @@ section_id: "A.9:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__007_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:6 — Conformance Checklist"
-line_start: 20670
-line_end: 20679
+line_start: 20672
+line_end: 20681
 dependencies:
   - "A.1"
   - "A.8"

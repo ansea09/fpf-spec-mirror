@@ -6,12 +6,12 @@ section_id: "E.11:End"
 section_title: "E.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__014_e-11-end.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:End — E.11:End"
-line_start: 72438
-line_end: 72439
+line_start: 72521
+line_end: 72522
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "E.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__010_consequences.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:9 — Consequences"
-line_start: 72405
-line_end: 72410
+line_start: 72488
+line_end: 72493
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

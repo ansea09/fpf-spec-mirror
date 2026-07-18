@@ -6,12 +6,12 @@ section_id: "E.1:7"
 section_title: "Relations & Precedence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__008_relations-precedence.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:7 — Relations & Precedence"
-line_start: 65026
-line_end: 65030
+line_start: 65032
+line_end: 65036
 dependencies:
   - "E.2"
 keywords:

@@ -6,12 +6,12 @@ section_id: "B.1.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__010_conformance-checklist.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:6 — Conformance Checklist"
-line_start: 33541
-line_end: 33551
+line_start: 33543
+line_end: 33553
 dependencies:
   - "A.1.1"
   - "A.14"

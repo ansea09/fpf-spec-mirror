@@ -6,12 +6,12 @@ section_id: "F.9:25"
 section_title: "Bridge Card publication discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__026_bridge-card-publication-discipline.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:25 — Bridge Card publication discipline"
-line_start: 86888
-line_end: 86912
+line_start: 87058
+line_end: 87082
 dependencies:
   - "A.15.1"
   - "A.2"

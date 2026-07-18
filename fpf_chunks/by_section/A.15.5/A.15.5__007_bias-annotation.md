@@ -6,12 +6,12 @@ section_id: "A.15.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__007_bias-annotation.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:6 — Bias-Annotation"
-line_start: 24157
-line_end: 24162
+line_start: 24159
+line_end: 24164
 dependencies:
   - "A.10"
   - "A.15"

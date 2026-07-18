@@ -6,7 +6,7 @@ section_id: "A.6.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__003_problem.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:2 — Problem"
@@ -14,8 +14,11 @@ line_start: 10627
 line_end: 10638
 dependencies:
   - "A.15.1"
+  - "A.17"
+  - "A.18"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.19.UNM"
   - "A.2.6"
   - "A.3.1"
   - "A.6.0"
@@ -23,6 +26,7 @@ dependencies:
   - "A.6.5"
   - "A.6.REL"
   - "A.7"
+  - "C.16"
   - "C.2.1"
   - "C.22"
   - "C.29"
@@ -30,12 +34,13 @@ dependencies:
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
+  - "F.9"
 keywords:
 ---
 
 ### A.6.0:2 - Problem
 
-FPF uses signatures to supply reusable declarations for independently governed EntityOfConcern kinds across theory epistemes, mechanisms, methods, A.3.3 selection methods, formal substrates, and direct relation kinds. Without one precise ontic:
+FPF uses a signature whenever one independently governed `EntityOfConcern` needs reusable vocabulary, laws, and applicability. Current non-exhaustive uses include theory or `A.3.3 U.Dynamics` epistemes, mechanism or `A.19.SelectorMechanism` declarations, method kinds, formal substrates, and direct relation kinds; these examples create neither a shared subject kind nor a closed family of signature profiles. Without one precise ontic:
 
 1. the signature is confused with the entity it describes;
 2. a relation declaration is confused with an obtaining relation occurrence;

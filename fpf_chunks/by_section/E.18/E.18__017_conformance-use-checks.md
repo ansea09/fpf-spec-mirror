@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 78808
-line_end: 78820
+line_start: 78891
+line_end: 78903
 dependencies:
   - "A.2.6"
   - "A.20"

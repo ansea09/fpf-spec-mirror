@@ -6,12 +6,12 @@ section_id: "E.21:5"
 section_title: "Archetypal Grounding - worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__006_archetypal-grounding-worked-slices.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:5 — Archetypal Grounding - worked slices"
-line_start: 81203
-line_end: 81221
+line_start: 81349
+line_end: 81367
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -39,7 +39,7 @@ keywords:
 
 **Short architecture pattern.** A compact pattern has a triage form but no worked slice and no mature-pattern comparison. It can be useful as local expert reference material, but `MaturePatternParity...` and `CaseCountercase...` stay below exceptional until selected mature content is present.
 
-**Precision-restoration profile in a non-semio pattern.** A pattern about architecture, work, system levels, method, P2W, or another non-semio `EntityOfConcern` tries to introduce the subject through a catalog of other claim kinds or objects that are outside its own subject. That catalog is unbounded because every EoC is outside infinitely many other EoCs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Repair by leading with this pattern's own `EntityOfConcern` and action spine, and replace copied boundary doctrine with one governing pattern id or one `governing pattern for <claim, relation, or boundary>` statement unless a documented local confusion needs an local stop condition not already carried there. If the same doctrine is spread across Problem frame, Solution, anti-patterns, checklist, and Relations, classify the aggregate under the profile's repetition-and-distribution layer and repair the distribution, not just each local sentence.
+**Precision-restoration profile in a non-semio pattern.** A pattern about architecture, work, system levels, method, P2W, or another non-semio `EntityOfConcern` tries to introduce the subject through a catalog of other claim kinds or objects that are outside its own subject. That catalog is unbounded because every EoC is outside infinitely many other EoCs. If copied boundary doctrine leads the Problem frame or Solution, `EntityOfConcernPrimacyAndSemioBiasResistance` falls to `2` or `3` even when every individual boundary is true. Repair by leading with this pattern's own `EntityOfConcern` and action spine, and replace copied boundary doctrine with one governing pattern id or one `governing pattern for <claim, relation, or boundary>` statement unless a documented local confusion needs a local stop condition not already carried there. If the same doctrine is spread across Problem frame, Solution, anti-patterns, checklist, and Relations, classify the aggregate under the profile's repetition-and-distribution layer and repair the distribution, not just each local sentence.
 
 **Reference apparatus before Solution content.** A pattern's first Solution paragraph assigns other patterns or related-pattern mappings before it unfolds the ontology, method, norm, worked action, or other positive solution for the pattern of concern's own `EntityOfConcern`. Even if the related pattern id is correct, `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and sometimes `NeighborAuthorityAndBoundedUseFit` fall. Repair by moving discoverability to README, ToC, `E.11`, `I.2`, or retrieval or projection loci, moving compact pattern-id or `governing pattern for <claim, relation, or boundary>` statements to `Relations` or a late boundary row, moving architecture-placement rationale to `DRR` or architecture documents, and rewriting the Solution to answer "what do I do with this pattern's EoC?" before any statement about another pattern.
 

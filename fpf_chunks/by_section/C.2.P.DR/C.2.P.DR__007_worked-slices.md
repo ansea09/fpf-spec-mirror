@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 41426
-line_end: 41514
+line_start: 41432
+line_end: 41520
 dependencies:
   - "A.10"
   - "A.15.1"

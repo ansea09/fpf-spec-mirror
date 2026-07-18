@@ -6,12 +6,12 @@ section_id: "C.25:13"
 section_title: "Decision Test: Single Characteristic or Bundle?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__014_decision-test-single-characteristic-or-bundle.md"
-commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
+commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:13 — Decision Test: Single Characteristic or Bundle?"
-line_start: 49715
-line_end: 49751
+line_start: 49721
+line_end: 49757
 dependencies:
   - "A.15"
   - "A.16.0"
