@@ -6,12 +6,12 @@ section_id: "A.2.3:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 3462
-line_end: 3484
+line_start: 3463
+line_end: 3485
 dependencies:
   - "A.1.1"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "F.1:14"
 section_title: "F1‑Card example (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__015_f1-card-example-informative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:14 — F1‑Card example (informative)"
-line_start: 83847
-line_end: 83857
+line_start: 84036
+line_end: 84046
 dependencies:
   - "A.11"
   - "A.7"

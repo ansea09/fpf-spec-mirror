@@ -1,40 +1,64 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__004_forces.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:3 — Forces"
-line_start: 37830
-line_end: 37840
+line_start: 38232
+line_end: 38242
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:3 - Forces
 
-| Force                                          | Tension we must resolve                                                                                                                |
-| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Geometry vs. operations**                    | Simple geometric pictures (triangles) are memorable; real epistemic work is **slot-relation disciplined** and often contains real graph-valued claim, evidence, or dependency structures. |
-| **Universality vs. representation regimes**    | One ontology must accommodate symbolic calculi, diagrams, DSLs, interactive notebooks, and latent vectors.                             |
-| **EntityOfConcern vs. Description episteme and specification use and refinement** | The `EntityOfConcern` value is not the Description episteme produced by this describing, viewing, or morphing use; however, the EntityOfConcern value may itself be a `U.Episteme` when an episteme is the current `EntityOfConcern`. Specification is not a third peer class in C.2.1; it is a gated use or refinement of a Description episteme selected by neighbouring formality plus checkable constraint, harness, acceptance, C.16 measurement criterion, suffix, verification, or publication-expression discipline for an already admitted specification use. |
-| **Viewpoint locality vs. reuse**               | Viewpoints should be **local** to families of descriptions, yet we want reusable **viewpoint bundles** across domains (E.17.1 and E.17.2). |
-| **Slot discipline vs. usability**              | A clean `SlotKind`/`ValueKind`/`RefKind` discipline is vital for reasoning, but must not render engineering episteme unreadable.             |
-| **Stability vs. SoTA evolution**               | The core must remain stable while integrating evolving practices: LLM tool‑use, ReAct‑style loops, structured cospans, optics, etc.    |
+| Force | Tension |
+| --- | --- |
+| Readability vs precision | Ordinary use needs a short statement of what an episteme says and concerns; load-bearing use needs exact identity and direct relations. |
+| Holon identity vs relation-occurrence identity | The same three participant identities reidentify both the episteme and its constitution-relation occurrence, but the episteme is the knowledge holon and the relation occurrence is the obtaining organization among those participants. |
+| Shared episteme identity vs dependent-kind membership | The C.2.1 identity triple identifies every `U.Episteme`. Direct patterns may recognize the same individual as a `U.MethodDescription`, `U.View`, or another admitted dependent episteme kind by a stable membership condition; they do not add a second identity. Grounding, viewpoint, scope, and publication stay in their neighboring relations. |
+| Recursion vs circular justification | Epistemes may describe epistemes, including themselves, while an assurance path terminates in separately governed evidence and evaluation relations. |
+| Representation variety vs ontology stability | Text, diagrams, formal calculi, learned representations, and interactive tools differ operationally, while representation identity remains distinct from the governed-object identities. |
+| Explicit relation distinctions vs usability | The complete set of direct relations, declaration epistemes, assertions, publications, and representations remains recoverable without forcing every engineer to publish a signature, card, or occurrence description for an ordinary claim. |
 

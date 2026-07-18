@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.1.1.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.1.1 — U.BoundedContext Semantic Frame"
-line_start: 1732
-line_end: 2012
+line_start: 1733
+line_end: 2013
 dependencies:
   - "A.1"
   - "A.15"

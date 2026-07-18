@@ -6,37 +6,26 @@ section_id: "E.24:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__014_relations.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:8 — Relations"
-line_start: 82378
-line_end: 82383
+line_start: 82524
+line_end: 82532
 dependencies:
-  - "A.15"
   - "A.19.ECS"
-  - "A.2"
-  - "A.2.1"
-  - "A.2.2"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.3.4"
-  - "A.6.1"
+  - "A.6.0"
+  - "A.6.3"
   - "A.6.5"
+  - "A.6.REL"
   - "B.3.5"
   - "C.13"
   - "C.2.1"
-  - "C.2.P"
-  - "C.2.P.DR"
-  - "C.27.TA"
   - "C.29"
-  - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
   - "E.14"
-  - "E.18"
-  - "E.2.DA"
-  - "E.20"
+  - "E.17.0"
   - "E.21"
   - "E.24.CD"
   - "E.24.PUB"
@@ -45,13 +34,16 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
-  - "F.19"
+  - "U.View"
 keywords:
 ---
 
 ### E.24:8 - Relations
 
-- **Builds on:** `E.8`, `E.9`, `E.9.DA`, `E.10`, `E.10.ARCH`, `E.20`, `E.21`, `F.18`, `A.6.5`, `C.2.1`, `E.24.CD`, and `E.24.PUB`.
-- **Coordinates with:** `E.24.UK` for durable U-kind admission and structural-name U-kind settlement; `C.29` when the mathematical lens itself is current; `E.14`, `B.3.5`, and `C.13` for structural constructive grounding; governing patterns that describe durable ontics or their filled values, especially `C.2.1` for epistemes; `A.2`, `A.2.1`, `A.2.2`, and `A.15` for role participation, role assignment, capability, and role-method-work alignment; `A.6.1` and `E.20` for mechanisms; `A.3.1` and `A.3.2` for method and method description; `A.3.4`, `E.18`, and `C.27.TA` for transformation, transformation-flow, and temporal-aspect examples; and precision-restoration patterns such as `C.2.P`, `C.2.P.DR`, and `C.30.STRAT`.
-- **Used by:** DRRs and pattern authors when repeated slot-relation-shaped material is being considered as either a durable ontic or a local use frame.
+- **Builds on:** `A.6.REL` for direct relation occurrence identity; `A.6.0` and `A.6.5` for reusable `RelationSignature` and `SlotSpec` declarations; and `C.2.1` for decision, assertion, and description epistemes.
+- **Coordinates with:** `E.8` for pattern publication placement, `E.10` and `E.10.ARCH` for wording-use restoration, and `F.18` for durable naming after ontology is settled.
+- **Coordinates with:** `E.24.CD` for candidate detection before the ontic-introduction decision, `E.24.UK` for U-kind admission, and `E.24.PUB` for ontic-description and publication distinctions.
+- **Coordinates with:** `E.17.0` for `U.View` membership, A.6.3 for optional viewing construction, `C.29` for mathematical representation, and the `E.14 -> B.3.5 -> C.13` chain for structural constructive grounding. Each ontic-introduction decision names any additional subject-specific governing patterns instead of treating this relation list as a registry.
+- **Coordinates with:** `A.19.ECS` for contested comparison of candidate dispositions, `E.9` and `E.9.DA` for recording and evaluating the authoring decision, and `E.21` for evaluating the resulting pattern. Those evaluation results do not become part of the selected ontic.
+- **Used by:** FPF authors when repeated relation and declaration material may need one durable ontic rather than direct governing-pattern use or claims coordinated only inside a bounded local episteme.
 

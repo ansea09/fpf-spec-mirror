@@ -6,12 +6,12 @@ section_id: "C.16:11"
 section_title: "Common Anti-Patterns and How to Avoid Them (Normative unless marked “Informative”)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__015_common-anti-patterns-and-how-to-avoid-them-normative-unless-marked-informative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:11 — Common Anti-Patterns and How to Avoid Them (Normative unless marked “Informative”)"
-line_start: 44585
-line_end: 44647
+line_start: 44667
+line_end: 44729
 dependencies:
   - "A.10"
   - "A.17"

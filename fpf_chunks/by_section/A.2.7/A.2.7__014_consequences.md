@@ -6,12 +6,12 @@ section_id: "A.2.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__014_consequences.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:9 — Consequences"
-line_start: 5384
-line_end: 5398
+line_start: 5385
+line_end: 5399
 dependencies:
   - "A.15"
   - "A.2"

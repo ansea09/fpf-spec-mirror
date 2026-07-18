@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `44dd88188a07646ef23aca32627a3f670525853f`
+Commit SHA: `89fcd508edbf9a49dc956955a42884fbca43f88c`
 
 Chunking method: `pattern-aware`
 
-Patterns: `280`
+Patterns: `281`
 
 ## Patterns
 
@@ -35,7 +35,8 @@ Patterns: `280`
 - [A.6.RSIG — Recognition Signatures for Descriptions](by_pattern/A.6.RSIG.md)
 - [A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)](by_pattern/A.6.B.md)
 - [A.6.C — Contract Unpacking for Boundaries](by_pattern/A.6.C.md)
-- [A.6.0 — U.Signature - Universal, law-governed declaration for a SubjectKind over a RangedValueKind](by_pattern/A.6.0.md)
+- [A.6.REL — Relation Obtaining and Individuated Relation Occurrences](by_pattern/A.6.REL.md)
+- [A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme](by_pattern/A.6.0.md)
 - [A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
 - [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
@@ -49,7 +50,7 @@ Patterns: `280`
 - [A.6.A — Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
 - [A.6.M — Module Relation Repair](by_pattern/A.6.M.md)
-- [A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline](by_pattern/A.6.5.md)
+- [A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline](by_pattern/A.6.5.md)
 - [A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
 - [A.6.8 — Service Polysemy Unpacking (RPR‑SERV)](by_pattern/A.6.8.md)
@@ -119,7 +120,7 @@ Patterns: `280`
 - [B.5.2.1 — Creative Abduction with NQD](by_pattern/B.5.2.1.md)
 - [B.5.3 — Domain-Concept Bridge](by_pattern/B.5.3.md)
 - [C.2 — Epistemic holon composition (KD-CAL)](by_pattern/C.2.md)
-- [C.2.1 — U.Episteme - Epistemes and their slot relation](by_pattern/C.2.1.md)
+- [C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations](by_pattern/C.2.1.md)
 - [C.2.P — Epistemic Precision Restoration](by_pattern/C.2.P.md)
 - [C.2.2 — Reliability R in the F–G–R triad](by_pattern/C.2.2.md)
 - [C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace](by_pattern/C.2.2a.md)
@@ -252,7 +253,7 @@ Patterns: `280`
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
 - [E.24.CD — Ontic Candidate Detection](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
-- [E.24.UK — U-kind Governance and Ontic Settlement Coupling](by_pattern/E.24.UK.md)
+- [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)

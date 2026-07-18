@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
-line_start: 36289
-line_end: 36432
+line_start: 36736
+line_end: 36879
 dependencies:
   - "A.12"
   - "A.4"

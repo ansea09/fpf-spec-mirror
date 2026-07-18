@@ -6,12 +6,12 @@ section_id: "F.3:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__009_invariants-normative-lightweight.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:8 — Invariants (normative, lightweight)"
-line_start: 84301
-line_end: 84311
+line_start: 84490
+line_end: 84500
 dependencies:
   - "A.11"
   - "A.7"

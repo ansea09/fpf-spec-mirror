@@ -6,12 +6,12 @@ section_id: "E.4.PFR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__013_relations.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:12 — Relations"
-line_start: 66941
-line_end: 66952
+line_start: 67023
+line_end: 67034
 dependencies:
   - "A.10"
   - "C.33"

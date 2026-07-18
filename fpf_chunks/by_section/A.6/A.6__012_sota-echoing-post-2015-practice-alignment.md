@@ -6,12 +6,12 @@ section_id: "A.6:11"
 section_title: "SoTA-Echoing (post-2015 practice alignment)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__012_sota-echoing-post-2015-practice-alignment.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:11 — SoTA-Echoing (post-2015 practice alignment)"
-line_start: 8718
-line_end: 8738
+line_start: 8719
+line_end: 8739
 dependencies:
   - "A.10"
   - "A.15"

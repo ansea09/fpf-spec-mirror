@@ -1,33 +1,59 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:14"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__015_rationale.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14 — Rationale"
-line_start: 38552
-line_end: 38555
+line_start: 38638
+line_end: 38643
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:14 - Rationale
 
-The rationale for C.2.1 is that modern epistemic work is not adequately captured by one Object, Concept, and Symbol triangle. Engineering specifications, formal theories, simulation models, dashboards, proof states, LLM-assisted reasoning traces, and architecture descriptions all need a common way to say what the episteme is about, how its claims are grounded, what claim graph it carries, which viewpoint or view is current, and which reference scheme makes claims readable.
+Adding empirical grounding, viewpoint, scope, edition, and publication to every identity would instead collapse distinct relations and make ordinary use needlessly heavy.
+
+Separating the episteme from its constitution relation is equally important. The direct relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
 

@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution — The unified concept U.PromiseContent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_solution-the-unified-concept-u-promisecontent.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:4 — Solution — The unified concept U.PromiseContent"
-line_start: 3131
-line_end: 3327
+line_start: 3132
+line_end: 3328
 dependencies:
   - "A.1.1"
   - "A.15.1"

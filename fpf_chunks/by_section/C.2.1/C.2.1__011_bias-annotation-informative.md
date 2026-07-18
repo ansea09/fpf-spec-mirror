@@ -1,49 +1,61 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:10"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_bias-annotation-informative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:10 — Bias-Annotation  (informative)"
-line_start: 38431
-line_end: 38450
+line_start: 38588
+line_end: 38595
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:10 - Bias-Annotation  *(informative)*
 
-**Episteme‑first and pragmatics‑first.**
-The pattern assumes that a claim-bearing episteme is meaningful only when it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: EntityOfConcern and concerns are not afterthoughts but part of the core structure. The slot relation is organized around EntityOfConcern, GroundingHolon, Viewpoint, and ClaimGraph positions, while graph-valued fillers such as `ClaimGraph` and `JustificationGraph` remain distinct values inside those positions.
+C.2.1 deliberately favors explicit aboutness and interpretation because claims without an exact EntityOfConcern and effective reference scheme are difficult to compare or test. The mitigation is the `A.6.REL` minimum-current-object rule: ordinary use adds another object only when the receiving use depends on it and states that object's direct relation to an already recoverable object.
 
-**Operational and representational bias.**
-C.2.1+ anticipates that certain RepresentationSchemes are **operational** in Novaes’ sense (admitting direct syntactic inference, like pen-and-paper arithmetic or proof states) while others are **purely notational**. The pattern remains neutral on which schemes are used but bakes in a place for operations and carriers so that:
+The pattern also resists representation bias. Formal calculi, diagrams, learned representations, and interactive tools can materially change available reasoning operations, but their convenience or geometry cannot establish subject identity. C.29 and the selected transition pattern govern those differences.
 
-* symbol‑manipulating tools (SAT solvers, SMT solvers, proof assistants, classical programming languages),
-* distributed and latent representations (LLM embeddings, latent protocols like "DroidSpeak", "Coconut"-style communication),
-* hybrid ReAct‑style agent loops
-
-can all be treated as different species operating over the same `U.EpistemeSlotRelation`. There is a bias towards making these operational differences **explicit** instead of hiding them behind "the model".
-
-**Viewpoint and stakeholder bias.**
-The pattern leans on the ISO‑style idea that viewpoints encode **stakeholder concerns and role‑families**, but it generalises this beyond architecture. `U.Viewpoint` is intentionally context-local and not bound to any single discipline; still, the examples are skewed toward engineering and epistemic use‑cases.
-
-**Didactic bias.**
-The pattern is written to be teachable: semantic triangles are kept as didactic projections; examples like stools on lab rigs, services and SLAs, and model‑evaluation epistemes are deliberately simple. This may under‑represent more exotic epistemes (e.g. artistic, law-domain, or socio‑technical ones), but the intention is that these use the same slots with different species‑level constraints.
+Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not make the decoded entity an episteme. The decoded entity is admitted as an episteme only when claim content, an exact EntityOfConcern, and an effective reference scheme are recoverable and together satisfy the constitution relation.
 

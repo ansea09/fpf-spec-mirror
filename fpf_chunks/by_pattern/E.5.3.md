@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.5.3.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
-line_start: 67210
-line_end: 67289
+line_start: 67292
+line_end: 67371
 dependencies:
   - "E.4"
   - "E.5"

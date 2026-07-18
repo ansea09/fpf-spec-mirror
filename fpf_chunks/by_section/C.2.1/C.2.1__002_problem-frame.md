@@ -1,60 +1,74 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__002_problem-frame.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:1 — Problem Frame"
-line_start: 37739
-line_end: 37769
+line_start: 38197
+line_end: 38217
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:1 - Problem Frame
 
-FPF’s kernel recognises two archetypal sub‑holons: **System** and **Episteme**. Systems are operational wholes; **epistemes** are **knowledge holons**—theories, models, specifications, standards, algorithms, proofs—whose reason for being is to **say something defeasible or deductive about something** and to be **held to account** by justification.
+FPF treats an episteme as a holon, not as a document class or a filled record. A pump-maintenance specification, a clinical model, a theorem, a learned classifier description, and a curriculum model can all be epistemes when each is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Their carriers, notations, and admissible operations differ, but that difference does not remove the shared ontology question: what makes this one episteme, and what changes its identity?
 
-**Readers.** Engineering managers and lead designers who need a uniform way to reason about **theories, specifications, algorithms, proofs**—from charter memos up to formal axiomatics—without collapsing into tooling or discipline‑specific notations.
+The episteme ontic coordinates these distinct objects without collapsing them:
 
-KD‑CAL (C.2) needs a precise notion of **what an episteme is** and **how it mediates** between:
+1. the `U.Episteme` knowledge holon;
+2. direct relation occurrences that constitute, ground, or connect editions of that holon;
+3. declaration epistemes whose C.2.1 identity is fixed independently, whose same individual has `U.Signature` membership under `A.6.0`, and whose relation-facing `RelationSignature` use declares reusable participant SlotSpecs for one exact relation kind;
+4. assertion epistemes that claim a direct relation predicate obtains and description epistemes whose EntityOfConcern is one explicitly individuated occurrence;
+5. publication occurrences that make one selected episteme edition available for a bounded audience and use;
+6. publication forms that express the selected edition for that publication use;
+7. `U.PresentationCarrier` entities that bear those forms;
+8. C.29 mathematical representations that correspond to independently recovered objects for an explicit modeling or reasoning use.
 
-* the thing(s) it is about,
-* the contexts and systems that ground and test it, and
-* the representational machinery (notations, carriers, operations) we use to work with it.
+The core constructive question is not which fields a card contains. It is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
-Contemporary work on **formal languages as cognitive tools** (Dutilh Novaes), **operational iconicity** of notations (Krӓmer), **material engagement** (Malafouris), **distributed representations** and **latent-space communication** in ML, and **tool-augmented reasoning** (ReAct-style agent loops) shows that:
-* the relation between an episteme and its **EntityOfConcernSlot** is not a single undifferentiated “Object” vertex: it involves explicit **slots and morphisms** (EntityOfConcern-reference mapping, grounding, evaluation) typed by SlotKinds and contexts;
-* **representations** come in heterogeneous forms (symbolic, diagrammatic, latent, interactive), with very different **admissible operations**;
-* **inference** is often **mixed‑mode**: symbolic reasoning plus calls to tools, solvers, and learned models.
+Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern a system, work, method, relation occurrence, another episteme, or itself without changing the constitution relation. Episteme recursion does not introduce a second meta-episteme ontology.
 
-FPF therefore needs a **more modular, slot-relation ontology** for epistemes which:
-* keeps **KD-CAL** and the boundary between `EntityOfConcern` and Description episteme plus specification use and refinement discipline intact,
-* is compatible with **A.6.0** and **A.6.5** signatures (`SlotKind`, `ValueKind`, and `RefKind`),
-* can be used uniformly by A.6.2-A.6.4 (epistemic morphisms) and E.17.* (views & publication),
-* preserves real graph-valued structures such as `ClaimGraph` and `JustificationGraph` as values inside or beside the episteme relation, and
-* keeps the coarse **semantic triangle** only as a **didactic projection**, not the normative ontology.
-
-In this pattern:
-* `U.Episteme` is the **holon genus** for epistemes (C.2), with components and identity governed by A.1, A.6.0, and A.7.
-* `U.EpistemeSlotRelation` names the **internal slot relation** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2-A.6.4 and E.17.* rely.
-* Species such as `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` are holonic realisations of `U.Episteme` whose component structure is constrained to be compatible with `U.EpistemeSlotRelation`.
-
-**Adopted EntityOfConcern family.** C.2.1 uses `EntityOfConcernSlot`, `entityOfConcernRef`, `EntityOfConcernRef`, `EntityOfConcernChangeMode`, and `EntityOfConcernClass` as the adopted slot, ref, and class family. These names are the current C.2.1 vocabulary and must not be shadowed by a second episteme ontology.
+Contemporary work on formal languages as cognitive tools, material and diagrammatic reasoning, distributed representations, and tool-assisted reasoning explains why representation regimes matter. C.2.1 preserves that insight by keeping representation and admitted operations explicit when current. It does not let notation, latent geometry, tool output, or a publication form determine episteme identity.
 

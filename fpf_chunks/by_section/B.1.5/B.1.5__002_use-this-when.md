@@ -6,12 +6,12 @@ section_id: "B.1.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__002_use-this-when.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:0 — Use This When"
-line_start: 33152
-line_end: 33180
+line_start: 33599
+line_end: 33627
 dependencies:
   - "A.1"
   - "A.14"

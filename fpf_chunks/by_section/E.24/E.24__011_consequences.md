@@ -6,37 +6,26 @@ section_id: "E.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__011_consequences.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:9 — Consequences"
-line_start: 82327
-line_end: 82333
+line_start: 82474
+line_end: 82480
 dependencies:
-  - "A.15"
   - "A.19.ECS"
-  - "A.2"
-  - "A.2.1"
-  - "A.2.2"
-  - "A.3.1"
-  - "A.3.2"
-  - "A.3.4"
-  - "A.6.1"
+  - "A.6.0"
+  - "A.6.3"
   - "A.6.5"
+  - "A.6.REL"
   - "B.3.5"
   - "C.13"
   - "C.2.1"
-  - "C.2.P"
-  - "C.2.P.DR"
-  - "C.27.TA"
   - "C.29"
-  - "C.30.STRAT"
   - "E.10"
   - "E.10.ARCH"
   - "E.14"
-  - "E.18"
-  - "E.2.DA"
-  - "E.20"
+  - "E.17.0"
   - "E.21"
   - "E.24.CD"
   - "E.24.PUB"
@@ -45,14 +34,14 @@ dependencies:
   - "E.9"
   - "E.9.DA"
   - "F.18"
-  - "F.19"
+  - "U.View"
 keywords:
 ---
 
 ### E.24:9 - Consequences
 
-- FPF can introduce rich ontology units without letting every local use frame become a new ontology.
-- Draft-only loci stop acting like current governing patterns.
-- Dependent patterns get a stable slot relation when a durable ontic is selected.
-- The cost is a short ontic-introduction decision before writing or relying on a durable ontic.
+- FPF can introduce rich ontology units without treating every bounded local episteme as a new durable ontic.
+- Draft ToC rows and planned pattern labels stop acting like current governing patterns.
+- Dependent patterns can rely on the ontic-governing pattern and its named direct-relation patterns instead of reconstructing those rules locally.
+- Selecting a durable ontic has an ongoing maintenance consequence: a change to the primary governed subject kind or core relation semantics reopens the ontic-introduction decision and may affect dependent patterns. The bounded-local-episteme and direct-use outcomes avoid that cost when no durable coordination is needed.
 

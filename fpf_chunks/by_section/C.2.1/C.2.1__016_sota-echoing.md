@@ -1,33 +1,71 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__016_sota-echoing.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14.1 — SoTA-Echoing"
-line_start: 38556
-line_end: 38559
+line_start: 38644
+line_end: 38661
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:14.1 - SoTA-Echoing
 
-C.2.1 echoes current work on formal languages as cognitive tools, operational iconicity of notations, material engagement, distributed representations, and tool-augmented reasoning by giving FPF a slot relation rather than one notation-bound representation model. The SoTA implication is practical: graph-valued claim and justification structures stay graph-valued, while the episteme core stays a typed n-ary slot relation that can be viewed through tuple or graph lenses only when C.29 makes that lens explicit.
+| Source and status | Adopted move | Rejected overread | Practical effect in C.2.1 |
+| --- | --- | --- | --- |
+| [Catarina Dutilh Novaes, *Formal Languages in Logic* (2012)](https://www.cambridge.org/core/books/formal-languages-in-logic/7D1DD805F7B3C70A0C32F2F6A66BE3DD), conceptual lineage | Treat a formal language as a cognitive tool whose notation and admissible operations affect reasoning. | A notation, calculus, or formal-language file does not thereby identify the episteme or its EntityOfConcern. | The semantic-triangle case keeps the effective reference scheme and C.29 representation operations explicit while episteme identity remains independently governed. |
+| [Sybille Krämer, "Why notational iconicity is a form of operational iconicity" (2017)](https://benjamins.com/catalog/ill.15.17kra), diagrammatic-reasoning lineage | Preserve the operational consequences of spatial and material notation. | Visual arrangement does not make diagram elements actual relation participants and does not prove that a view preserves source claims. | The wiring-diagram and view cases use an explicit representation correspondence or viewing relation rather than relying on visual similarity. |
+| [Lambros Malafouris, *People Are STRANGE* (2026)](https://mitpress.mit.edu/9780262553902/people-are-strange/), current continuation of Material Engagement Theory | Use changing boundaries under material engagement as pressure on grounding: when an engagement changes what can be inspected or inferred, FPF still identifies the exact holon in the current grounding occurrence. | A material setting, carrier, or tool is not automatically the episteme's EntityOfConcern or grounding holon. | The pump and learning cases name one exact grounding holon and the direct grounding relation structure instead of absorbing the surrounding setting into episteme identity. |
+| [Florio and Linnebo, *Introduction to Constructional Ontology* (2024)](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/florio-linnebo-introduction-to-constructional-ontology.pdf) and [Borgo and Righetti, *Towards Applied Constructional Ontology* (2025)](https://doi.org/10.3233/FAIA250480), current constructional-ontology line | Adapt the separation among accepted inputs, the construction by which a whole emerges, and the resulting identity rule as a stress discipline for episteme constitution. | `EpistemeConstitutionRelation` is not imported as a constructor object or work occurrence, and C.2.1 does not import a universal staged ontology. | Sections 4.1 and 4.2 make the exact claim graph, EntityOfConcern, reference scheme, and their constitutive organization explicit in the constitution test; a tuple, card, or carrier cannot substitute for that construction or its identity rule. |
+| [Andrei Rodin, *Venus Homotopically* (2016)](https://philsci-archive.pitt.edu/12116/), constructive identity-grounding lineage | Adapt the use of observations, theoretical background, and a physically testable trajectory to make an identity judgment across different presentations inspectable. | Shared wording, one label, or one grounding referent does not by itself prove identical EntityOfConcern, episteme, or substitutable claim content. | The two-observation case in 9.6 separates the world-side identity assertion from both observation epistemes and keeps their C.2.1 identities independently testable. |
+| [Chris Partridge, *BORO Ontology* (2025)](https://borosolutions.net/boro-ontology), bounded four-dimensional extensional comparator | Use extensional identity as a stress test when a grounding relation can cease and later recur: a demonstrated temporal gap distinguishes the occurrences. | C.2.1 does not import unrestricted composition, collapse work with participating systems, or attribute constructional input identity to BORO. | Section 4.3 uses the maximal continuous grounding interval as the recurrence discriminator, while evidence availability or absence alone neither proves nor disproves a temporal gap. |
+| [W3C PROV-O Recommendation (2013)](https://www.w3.org/TR/prov-o/), stable provenance lineage | Keep an entity, the activity that uses or generates it, and revision or derivation relations distinct. | `wasRevisionOf` or generic derivation metadata alone does not establish FPF edition continuity, and the revision activity is not therefore a participant of the edition relation. | `EpistemeEditionRelation` keeps the earlier and later epistemes as its two participants; exact source-to-revision use, enacted-method semantics, change facts, and any needed local entity-identity-inception claim make the obtaining judgment inspectable. |
+| [W3C RDF 1.2 Concepts, Candidate Recommendation Snapshot of 7 April 2026](https://www.w3.org/TR/2026/CR-rdf12-concepts-20260407/), current representation standard | Distinguish an asserted triple, an unasserted triple term, and a reifier used for statements about a proposition. | An RDF triple, reifier, graph edge, or annotation is not the direct relation occurrence merely by representation. | The relation-object boundary keeps assertion episteme, relation-occurrence description episteme, graph representation, and direct relation obtaining separate. |
+| [Almeida, Guizzardi, Sales, and Fonseca, *gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs* (March 2026)](https://arxiv.org/abs/2603.20948), current preprint | Use its typology and reification patterns for relational aspects as a current comparison case when deciding whether an explicit relation pattern is needed. | C.2.1 does not import a universal relator, situation, or graph-reifier ontology; each direct relation pattern governs its participants, obtaining condition, and occurrence-identity rule. | Constitution, grounding, and edition relations receive separate rules rather than one record-shaped reification scheme. |
+| [Anthropic, *A global workspace in language models* (6 July 2026)](https://www.anthropic.com/research/global-workspace), current primary research summary with linked paper | Recognize that learned internal representations can causally mediate reasoning while remaining distinct from produced text. | A latent activation, probe label, or readable internal trace is not automatically a claim-bearing episteme. | Case 9.8 keeps the observed system-side activation phenomenon, its probe representation, decoded rendering, and any claim-bearing probe episteme distinct; C.2.1 admission still requires recoverable claim content, an exact EntityOfConcern, and an effective reference scheme. |
+| [Cheng et al., *Teaching Thinking Models to Reason with Tools* (May 2026)](https://arxiv.org/abs/2605.06326), current preprint | Keep tool use, reasoning trajectories, evaluation, and their failure modes explicit because tool integration can change or degrade reasoning behavior. | Tool availability, a tool trace, or an evaluation harness does not by itself establish claim truth, grounding, or episteme identity. | Case 9.8 separates enacted inference and call work, the exact work-to-trace relation or A.6.1 binding current in that case, answer and evaluation epistemes, representation use, evidence, and empirical grounding; a changed tool regime reopens only the exact changed objects and relations. |
+
+These sources discipline different parts of the same working problem; they do not jointly define `U.Episteme`. Constructional ontology disciplines the separation among accepted constituents, constitutive organization, and resulting identity without turning the relation into work. Rodin disciplines evidence-backed identity across different observations, while the bounded BORO comparison stresses temporal recurrence without supplying FPF construction rules. Formal-language and material-engagement work explains why representation and grounding matter. RDF 1.2 remains a representation standard, while gUFO remains an ontology comparator for relational aspects; neither graph terms nor reifiers establish the direct relation occurrence. PROV-O motivates keeping the earlier episteme, revision work, exact source-to-revision use, actual change or local inception claim, and later episteme distinct while C.2.1 keeps only the two epistemes as participants of the edition relation. Current learned-representation and tool-integration research makes the same separations necessary for computational epistemes. In every case, C.2.1 retains the minimum-current-object rule: add only the object and direct relation needed by the receiving use, without collapsing either into the episteme or its carrier.
 

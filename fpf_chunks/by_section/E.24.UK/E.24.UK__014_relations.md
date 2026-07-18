@@ -1,37 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.UK"
-pattern_title: "U-kind Governance and Ontic Settlement Coupling"
-section_id: "E.24.UK:7"
+pattern_title: "U-kind Admission and Ontic Settlement"
+section_id: "E.24.UK:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__014_relations.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
-  - "E.24.UK:7 — Relations"
-line_start: 83259
-line_end: 83264
+  - "E.24.UK — U-kind Admission and Ontic Settlement"
+  - "E.24.UK:12 — Relations"
+line_start: 83446
+line_end: 83453
 dependencies:
   - "A.11"
+  - "A.3.2"
+  - "A.6.0"
+  - "A.6.3"
   - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17.0"
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "F.18"
-  - "F.5"
-  - "F.8"
+  - "U.MethodDescription"
+  - "U.View"
+  - "U.Viewpoint"
 keywords:
 ---
 
-### E.24.UK:7 - Relations
+### E.24.UK:12 - Relations
 
-- **Specializes:** `E.24` for durable U-kind admission and structural-name U-kind settlement.
-- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.PUB` for publication and structural-name pressure, `C.3` and `C.3.1` for typed reasoning, `A.8` and `A.11` for kernel admission constraints, `F.8` and `F.5` for naming decisions, `E.10` and `E.10.ARCH` for source wording outside current FPF use.
-- **Does not replace:** direct subject patterns for method, work, role, episteme, transformation, relation, characteristic, view, measurement, publication, evidence, gate, source, or decision claims.
+- **Specializes:** `E.24` for durable U-kind admission after the governed individuals and ontic settlement are recovered.
+- **Uses for relation admission:** `A.6.REL` supplies the common occurrence discipline; each direct relation pattern supplies relation-participant meanings, obtaining, and occurrence identity.
+- **Uses for neighboring objects:** `A.6.0` and `A.6.5` govern reusable declarations; `C.2.1` governs admission-decision, assertion, and description epistemes; `F.18` governs the selected Tech label and designators; `C.29` governs mathematical and data-model representations.
+- **Coordinates with:** `C.3`, `C.3.1`, and `C.3.2` for local typed reasoning and membership judgments; `E.24.CD` for candidate dispatch after these exits are stable; `E.24.PUB` for `EpistemePublicationRelation`, publication form, and carrier distinctions; `A.3.2` for `U.MethodDescription` membership; `E.17.0` for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View` membership; `A.6.3` only for an optional viewing construction; `A.8` and `A.11` for kernel parsimony; and `E.10` for source wording that still hides the governed object.
+- **Does not replace:** the direct pattern that governs the classified individuals, their identity or membership, their intended extent, and their action-facing use.
 

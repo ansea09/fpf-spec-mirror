@@ -6,12 +6,12 @@ section_id: "C.3.5:2"
 section_title: "Context & Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__003_context-rationale.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:2 — Context & Rationale"
-line_start: 42464
-line_end: 42489
+line_start: 42546
+line_end: 42571
 dependencies:
   - "C.3.1"
 keywords:

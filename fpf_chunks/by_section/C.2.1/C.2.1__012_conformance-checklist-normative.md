@@ -1,95 +1,71 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:11"
 section_title: "Conformance Checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_conformance-checklist-normative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:11 — Conformance Checklist  (normative)"
-line_start: 38451
-line_end: 38516
+line_start: 38596
+line_end: 38613
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:11 - Conformance Checklist  *(normative)*
 
-**CC‑C.2.1‑1 - Minimal core components for episteme species.**
-Any species of `U.Episteme` that participates in the boundary between `EntityOfConcern` and Description episteme discipline, specification use and refinement, or E.17 multi-view and publishing **MUST** be representable as `U.EpistemeCard` or `U.EpistemeView` with at least:
-
-```
-content            : U.ClaimGraph
-entityOfConcernRef : U.EntityRef
-groundingHolonRef? : U.HolonRef
-viewpointRef?      : U.ViewpointRef
-referenceScheme?   : U.ReferenceScheme      // ByValue
-meta               : ...                      // edition, provenance, status (A.7 and F.15)
-```
-
-and corresponding SlotSpecs consistent with A.6.5 (`EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`).
-
-**CC‑C.2.1‑2 - No durable U-kind for “EntityOfConcern” or “GroundingHolon”.**
-Patterns **MUST NOT** introduce durable U-kinds `U.EntityOfConcern` or `U.GroundingHolon`:
-* EntityOfConcernSlot has ValueKind `U.Entity` ( species‑constrained via EntityOfConcernClass if needed),
-* GroundingHolonSlot has ValueKind `U.Holon`.
-
-Plain terms "EntityOfConcern value" and "grounding holon" are allowed only as **slot-filler descriptions** under the declared SlotKind, ValueKind, and RefKind discipline.
-
-**CC-C.2.1-3 - SlotKind, ValueKind, and RefKind discipline.**
-All episteme‑related slots, including `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot` (and any extensions in C.2.1+), **MUST**:
-* follow the naming discipline of A.6.5 (`*Slot` for SlotKinds, `*Ref` only for RefKinds or fields),
-* declare a ValueKind and refMode (`ByValue` or a RefKind),
-* be used consistently across patterns that refer to the same conceptual position.
-
-**CC‑C.2.1‑4 - DescriptionContext wiring.**
-Any episteme species whose name or pattern claims to be a `…Description` or `…Spec` in the sense of E.10.D2 **MUST**:
-* expose `subjectRef : U.SubjectRef`,
-* provide a decoding to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`,
-* ensure that `EntityOfConcernRef` matches `entityOfConcernRef` (EntityOfConcernSlot), and
-* ensure that `ViewpointRef` matches `viewpointRef` or is derivable from a `U.ViewpointBundle` under documented rules.
-
-**CC‑C.2.1‑5 - Morphism declarations over slots.**
-Any pattern in A.6.2–A.6.4, E.17, E.18, or discipline packs that defines morphisms between epistemes **SHALL**:
-* state whether it is a species of `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, or `U.EpistemicRetargeting`,
-* declare its `entityOfConcernChangeMode` (`preserve` or `retarget`),
-* name which SlotKinds it reads and writes,
-* state its behaviour on `entityOfConcernRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`.
-
-**CC-C.2.1-5a - Episteme and publication relation-position split for semio-facing terms.**
-Any pattern, publication-form profile, evidence-use note, or FPF-facing term that uses pre-FPF sign vocabulary, explanation, publication, source cues, authority-looking cases, or reader reliance **MUST** name the claim-bearing value as `U.Episteme`, `U.EpistemePublication`, or a declared species of `U.Episteme`. When publication is current, it **MUST** separately name the publication form, `U.View` or MVPK face, carrier or rendering, source-finding cue, and either `governingPatternRef` or `authoritySourceRef` when interpretation or use depends on a named authority reference. It **MUST NOT** use generic semio wording, generic source wording, generic project-work wording, or container-placement wording as solution terms.
-
-**CC-C.2.1-6 - Semantic-triangle usage guard.**
-
-If a semantic triangle or parallelogram diagram appears in a pattern or tutorial, there must be an explicit note that:
-* it is a didactic projection of `U.EpistemeSlotRelation`, and
-* normative laws are stated in terms of C.2.1 slots, graph-valued fillers such as `ClaimGraph`, and morphisms, not in terms of triangle corners.
-
-**CC-C.2.1-7 - KD-CAL and ReferencePlane alignment.**
-Any pattern that evaluates or compares epistemes (KD-CAL, LOG-CAL, CHR, CG-Spec, etc.) **MUST** point out:
-* how `U.ClaimGraph` is interpreted in a ReferencePlane,
-* how `GroundingHolonSlot` figures into measurement or validation,
-
-**CC‑C.2.1‑8 - Context locality and Bridges.**
-Any `U.Episteme` species that is consumed by KD-CAL, LOG-CAL, or CHR-based patterns **SHALL** declare a `U.BoundedContextRef`; all F-G-R computations and C.2.1 slot interpretations are **context-local**. Cross-context use **MUST** proceed via an explicit Bridge with CL and Phi-policy (F.9 and B.3), with penalties applied to the R component only; F and the slot structure from C.2.1 remain unchanged.
-
-**CC‑C.2.1‑9 - Carriers and Work outside episteme content.**
-C.2.1 **inherits** the current A.7 strict distinction plus C.2.1 slot-relation, E.17 publication and carrier, A.10 evidence-use and provenance, B.3 assurance, A.2 and A.2.1 role-assignment, A.15 work, and A.3.4 transformation discipline: `U.PresentationCarrier` values, publication-side values, `U.Work` occurrences, and role assignments **MUST NOT** be treated as parts of `U.Episteme` or as values of any SlotKind in `U.EpistemeSlotRelation`. Episteme content stays in `U.ClaimGraph` and `U.ReferenceScheme`; evidence enters only through an A.10 evidence-provenance graph relation or B.3 assurance-evidence input that points to evidence-producing or evidence-interpreting `U.Work` occurrences, carrier and source-currentness records, and role assignments when those are current. Changing carriers or re-publishing work alone does **not** change the episteme determined by the filled `content`, `entityOfConcernRef`, and effective `referenceScheme` positions in its `U.BoundedContext`.
-
-**CC‑C.2.1‑10 - Reflexive entityOfConcern guard.**
-When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane = episteme), or about itself (self-describing or meta-specification cases), patterns **SHALL** ensure that the resulting JustificationGraph and evaluation chains are **acyclic** along justification paths. Reflexive `describe` or citation edges may exist as literature references, but they MUST NOT form minimal justification cycles for acceptance or KD-CAL assurance decisions; the trust calculus MUST always bottom out in separated evidence relation material, such as evidence-producing or evidence-interpreting `U.Work` plus an A.10 evidence-provenance graph relation or B.3 assurance-evidence input, rather than in purely self-referential claims.
+1. **Episteme identity.** Claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` are recoverable, and the text states what changes each discriminator. A dependent episteme kind such as `U.MethodDescription` or `U.View` adds a governed membership judgment for the same individual, not another identity discriminator.
+2. **Direct constitution.** `EpistemeConstitutionRelation` has its three identified participants, obtaining condition, and participant-determined occurrence identity.
+3. **Declaration identity and Slot discipline.** Each of the three named relation declarations is first a C.2.1 episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership and `RelationSignature` is its relation-facing use. Its complete declaration carries the direct predicate, occurrence identity, applicability, exact A.6.5 SlotSpecs, and only actual dependencies and provided names. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
+4. **Classification discipline.** `A.1` governs recognition under an admitted holon kind, `C.3.2` governs local-kind membership, and `E.24.UK` governs public U-kind admission. A separately current classification assertion is a C.2.1 episteme about the exact candidate and neither creates that candidate nor changes the kind's admission.
+5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Obtaining requires the exact current direct observation, intervention, measurement, or evaluation relation structure involving the grounding holon. One occurrence is reidentified from the episteme, grounding holon, and maximal continuous grounding interval; demonstrated loss followed by restoration yields another occurrence. Evidence availability or absence alone sets no grounding status and neither proves nor disproves a temporal gap: known obtaining or nonobtaining follows the direct structure, and only unknown status of that structure leaves a positive grounding assertion unresolved. Evidence use may support an assertion, but evidence storage, availability, or work-log loss neither makes nor unmakes grounding.
+6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. The identified edition work, exact source-to-revision use, enacted-method semantics, actual change facts, and any current local entity-identity-inception claim make the obtaining judgment inspectable without entering occurrence identity.
+7. **View and neighboring-relation discipline.** C.2.1 owns episteme identity; `E.17.0` alone owns fixed E/P conformance and same-individual `U.View` membership; `DescriptionContext` resolves exactly one `viewpointRef`, selects no view, and remains separate from A.6.3 source-to-receiving construction. Several views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection, and recover an A.22 structure only when the use additionally depends on their organization. Cross-view claims use their exact direct subject-relation governor or return an A.6.RCD blocker. E.17 and E.24.PUB own publication, not view membership or correspondence.
+8. **Description boundary.** The EntityOfConcern and any Description episteme about it remain distinct, including self-description and episteme-about-episteme cases.
+9. **Specification use.** Specification force is admitted only when the `E.10.D2` conditions obtain: checkable claims, a preserved or updated DescriptionContext, and a named harness or validation relation. Naming and appearance do not grant it.
+10. **Agency and work-result boundary.** Only systems perform authoring, evaluation, revision, publication, viewing, query, redrawing, and use work. `A.6.1` declares typed argument and result positions; for each exact current operation application, each application binding relates one exact entity to its declared argument or result position, and every bound entity retains its independently governed kind, identity, and any domain-result algebra. Identify actual change facts, the affected or newly constituted entity, and any local A.15.PROD inception claim separately. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation is inferred.
+11. **Publication boundary.** Episteme, publication occurrence, publication form, view, and carrier keep separate identities. Plain `published episteme` names a contingent relation use, not another durable kind.
+12. **Representation boundary.** Tuple components, graph elements, schema fields, and notation tokens remain representation elements. An explicit correspondence may relate one to an independently recovered object without identifying the two or changing the represented direct relation's participants.
+13. **Transformation boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. Cross-context sense use additionally states the `F.9` Bridge direction, congruence, loss, and admitted use; the mathematical morphism performs no work.
+14. **Recursive assurance.** Self-reference and meta-description do not form a minimal justification cycle; assurance terminates in independently governed evidence, observation, or formal derivation.
+15. **Minimum current object.** Readable prose adds no object beyond the current use's dependency and states the direct relation to an already recoverable object.
 

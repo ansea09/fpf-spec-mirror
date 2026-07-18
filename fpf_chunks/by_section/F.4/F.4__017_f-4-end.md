@@ -6,12 +6,12 @@ section_id: "F.4:End"
 section_title: "F.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__017_f-4-end.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:End — F.4:End"
-line_start: 84858
-line_end: 84859
+line_start: 85047
+line_end: 85048
 dependencies:
   - "A.15"
   - "A.15.1"

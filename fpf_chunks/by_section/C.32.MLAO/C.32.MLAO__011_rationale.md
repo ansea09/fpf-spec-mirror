@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__011_rationale.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:10 — Rationale"
-line_start: 62048
-line_end: 62055
+line_start: 62130
+line_end: 62137
 dependencies:
   - "A.10"
   - "A.19.CPM"

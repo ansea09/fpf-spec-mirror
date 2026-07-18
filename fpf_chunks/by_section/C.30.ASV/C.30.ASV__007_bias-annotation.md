@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 58276
-line_end: 58289
+line_start: 58358
+line_end: 58371
 dependencies:
   - "A.1"
   - "A.10"

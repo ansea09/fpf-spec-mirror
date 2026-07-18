@@ -6,12 +6,12 @@ section_id: "F.11:15"
 section_title: "Acceptance tests (SCR/RSCR — concept level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:15 — Acceptance tests (SCR/RSCR — concept level)"
-line_start: 87506
-line_end: 87522
+line_start: 87695
+line_end: 87711
 dependencies:
   - "A.15"
   - "A.15.1"

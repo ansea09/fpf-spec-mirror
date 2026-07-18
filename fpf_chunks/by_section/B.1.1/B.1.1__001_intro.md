@@ -6,12 +6,12 @@ section_id: "B.1.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__001_intro.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:intro — Intro"
-line_start: 32213
-line_end: 32218
+line_start: 32660
+line_end: 32665
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.20:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__001_intro.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:intro — Intro"
-line_start: 47364
-line_end: 47367
+line_start: 47446
+line_end: 47449
 dependencies:
   - "A.19"
   - "C.2"

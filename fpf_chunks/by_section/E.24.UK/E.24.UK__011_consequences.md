@@ -1,40 +1,48 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.UK"
-pattern_title: "U-kind Governance and Ontic Settlement Coupling"
-section_id: "E.24.UK:8"
+pattern_title: "U-kind Admission and Ontic Settlement"
+section_id: "E.24.UK:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__011_consequences.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
-  - "E.24.UK:8 — Consequences"
-line_start: 83230
-line_end: 83244
+  - "E.24.UK — U-kind Admission and Ontic Settlement"
+  - "E.24.UK:9 — Consequences"
+line_start: 83415
+line_end: 83429
 dependencies:
   - "A.11"
+  - "A.3.2"
+  - "A.6.0"
+  - "A.6.3"
   - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17.0"
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "F.18"
-  - "F.5"
-  - "F.8"
+  - "U.MethodDescription"
+  - "U.View"
+  - "U.Viewpoint"
 keywords:
 ---
 
-### E.24.UK:8 - Consequences
+### E.24.UK:9 - Consequences
 
 Positive consequences:
 
 - public `U.*` names become reliable orientation signals;
-- dependent values can be named without pretending to be roots;
+- dependent durable U-kinds can be named without pretending to be independent roots;
 - type and kind wording is governed by C.3, E.24.UK, A.8, A.11, F.8, and F.5 rather than preserved as overlapping ontology;
 - structural names are settled before they become misleading public names.
 

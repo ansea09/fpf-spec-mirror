@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__003_problem-frame.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:1 — Problem frame"
-line_start: 41210
-line_end: 41217
+line_start: 41292
+line_end: 41299
 dependencies:
   - "A.10"
   - "A.15.1"

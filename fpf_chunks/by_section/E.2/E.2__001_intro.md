@@ -6,12 +6,12 @@ section_id: "E.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__001_intro.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:intro — Intro"
-line_start: 64951
-line_end: 64952
+line_start: 65033
+line_end: 65034
 dependencies:
   - "C.18"
   - "C.19"

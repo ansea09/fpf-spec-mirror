@@ -1,55 +1,61 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.2.1"
-pattern_title: "U.Episteme - Epistemes and their slot relation"
+pattern_title: "U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
 section_id: "C.2.1:13"
 section_title: "Consequences  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__014_consequences-informative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "C.2.1 — U.Episteme - Epistemes and their slot relation"
+  - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:13 — Consequences  (informative)"
-line_start: 38526
-line_end: 38551
+line_start: 38630
+line_end: 38637
 dependencies:
   - "A.1"
-  - "A.6.2-A.6.4"
+  - "A.1.1"
+  - "A.10"
+  - "A.14"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
   - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
-  - "B.1.3"
-  - "C.2"
-  - "C.2.1"
+  - "B.3"
+  - "C.13"
+  - "C.2.P"
+  - "C.29"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.13"
   - "E.17"
-  - "E.17.0-E.17.2"
-  - "E.18"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "F.9"
+  - "G.11"
+  - "U.Episteme"
+  - "U.MethodDescription"
+  - "U.Signature"
+  - "U.View"
 keywords:
 ---
 
 ### C.2.1:13 - Consequences  *(informative)*
 
-**Benefits**
-* **Single, extensible episteme core.**
-  C.2.1 gives a small, stable set of positions (EntityOfConcern, GroundingHolon, ClaimGraph, Viewpoint, View, ReferenceScheme) and components (`U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication`) on which all higher‑level patterns depend. This avoids the proliferation of “epistemic objects” and “facets” with overlapping semantics.
-**Transparent EntityOfConcern & grounding discipline.**
-  The pair (`EntityOfConcernSlot`, `GroundingHolonSlot`) is no longer hidden inside ad-hoc “SubjectRef” fields or semantic triangles: both are explicit, typed slots. This makes retargeting, viewing and correspondence laws (A.6.2–A.6.4, E.17.0) easier to state and check.
-* **Better fit for contemporary representation practice.**
-  By distinguishing ClaimGraph, RepresentationScheme, Tokens, Carriers and Operations (in C.2.1+), the pattern matches contemporary SoTA views of notation and formalism:
-  * formal languages as cognitive tools and de-semanticisation techniques (Novaes),
-  * operational iconicity and medium‑sensitive reasoning (Krämer, Malafouris),
-  * hybrid symbolic-neural reasoning methods (e.g. ReAct, tool-augmented LLMs, latent protocols).
-  FPF can model both symbol-heavy and latent-heavy reasoning methods without privileging either.
-* **Uniform substrate for multi‑view description and publication.**
-  MultiViewDescribing, viewpoint bundles (TEVB), and MVPK all land on the same episteme core. This avoids the current “views vs viewpoints vs faces” confusion and leaves “architecture” as a domain‑specific specialisation rather than a competing meta‑ontology.
-* **Tooling alignment.**
-  Slot discipline plus explicit episteme components map cleanly to implementation types (records, row‑typed schemas, effectful handlers). Tools can generate code, schemas or telemetry from episteme species without guessing what “subject”, “context” or “object” mean.
+**Benefits.** Episteme identity becomes stable across carrier and publication changes. Description, empirical grounding, viewing, edition, and representation questions can be repaired locally because each has a direct relation. Self-description and multi-view use need no second ontology. The same pattern works for physical engineering, medicine, learning, formal work, and computational modeling.
 
-**Trade-offs and costs**
-* **More explicit structure.**
-  Pattern users and authors must declare slots, ValueKinds and references explicitly, and keep DescriptionContext consistent. This is more upfront work than writing ad-hoc "Subject" or "Object" fields, but it pays off in substitution safety and cross-pattern reuse.
-* **Repair effort.**
-  Uses of “EpistemicObject”, “Facet”, “Subject”/“Object”, and raw `...Ref` fields need repair into C.2.1 slots + A.6.5 SlotSpecs when the claim is current. Current prose uses the selected C.2.1 slots and A.6.5 SlotSpecs directly; such wording is source material for repair, not a current alternate vocabulary.
-* **Exposure of representation biases.**
-  Being explicit about RepresentationSchemes and Operations may make disagreements visible about which representations are "primary" in a team or discipline. C.2.1 does not resolve these disagreements; it only makes them visible and therefore debatable.
+**Costs.** A load-bearing episteme use has a recoverable exact EntityOfConcern and effective reference scheme rather than relying on a title or file. Empirical-grounding and edition claims depend on their own obtaining and identity evidence. Existing record-shaped schemas sometimes need to distinguish their fields from actual relation participants.
+
+**Limits.** C.2.1 does not decide whether an epistemic claim is true, sufficient, current, or authoritative. It does not prescribe a file format, graph database, proof calculus, or publication layout. Those questions remain with evidence, evaluation, temporal, representation, and publication patterns.
 

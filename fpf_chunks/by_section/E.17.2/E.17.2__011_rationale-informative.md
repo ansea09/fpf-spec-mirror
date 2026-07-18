@@ -6,12 +6,12 @@ section_id: "E.17.2:7"
 section_title: "Rationale  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__011_rationale-informative.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:7 — Rationale  (informative)"
-line_start: 75323
-line_end: 75333
+line_start: 75405
+line_end: 75415
 dependencies:
   - "A.1"
   - "A.15"

@@ -1,45 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.UK"
-pattern_title: "U-kind Governance and Ontic Settlement Coupling"
+pattern_title: "U-kind Admission and Ontic Settlement"
 section_id: "E.24.UK:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__003_problem-frame.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "E.24.UK — U-kind Governance and Ontic Settlement Coupling"
+  - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:1 — Problem Frame"
-line_start: 82974
-line_end: 82987
+line_start: 83124
+line_end: 83131
 dependencies:
   - "A.11"
+  - "A.3.2"
+  - "A.6.0"
+  - "A.6.3"
   - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17.0"
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "F.18"
-  - "F.5"
-  - "F.8"
+  - "U.MethodDescription"
+  - "U.View"
+  - "U.Viewpoint"
 keywords:
 ---
 
 ### E.24.UK:1 - Problem Frame
 
-FPF uses `U.*` names for durable universal values and nearby governed values. Recent ontic work made that spelling more visible in titles, filenames, ToC rows, slot relations, source rows, and headings. The spelling is useful, but it is not ontology.
+FPF reserves `U.*` names for admitted durable U-kinds. Current source material and older corpus passages can still place that spelling on a declaration-local SlotKind, participant designation, selected structure, publication form, representation element, or unsettled candidate. The spelling is therefore evidence of admission pressure, not evidence of admission.
 
-The same token shape can name different kinds of things:
+The current examples in section 4.2 have explicit dispositions. `U.System`, `U.Episteme`, `U.Method`, `U.Work`, and `U.Relation` are retained root U-kinds under their direct patterns. `U.WorkPlan`, `U.RoleAssignment`, `U.MethodDescription`, `U.Viewpoint`, and `U.View` are retained same-individual dependent kinds; `U.Capability` is retained as an identity-dependent kind under its holder `U.System`. A candidate distinction already covered by an admitted durable U-kind receives `reuse`; a bounded classificatory distinction receives `local-kind` under C.3.2. `U.EpistemePublication` is rejected: Plain `published episteme` is relation-defined wording for contingent participation of one `U.Episteme` in an exact publication occurrence. C.3 `U.Kind` and `U.SubkindOf` remain the governed classification objects and relation used for local typed reasoning; they do not replace ontology-level U-kind admission.
 
-- a root durable value such as `U.Episteme`, `U.Method`, `U.Work`, or `U.Transformation`;
-- a dependent durable value such as `U.MethodDescription`, `U.WorkPlan`, `U.RoleAssignment`, `U.View`, or `U.EpistemePublication`;
-- C.3 `U.Kind` or `U.SubkindOf` typed-reasoning values;
-- type, kind, or subkind wording whose governed value must be recovered before current FPF use;
-- a slot position, relation structure, selected structure, record form, publication form, math lens, representation lens, local frame, or source expression.
-
-E.24.UK governs that separation. It is an E.24 subpattern because U-kind admission depends on ontic settlement, but it is not the head E.24 pattern. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK owns the detailed U-kind admission rules.
+E.24.UK governs this separation. A world-side relation participant keeps its independently governed kind; a `RelationSignature` SlotKind stays declaration-local; an assertion-side designation stays in its claim-bearing episteme; and a publication form or C.29 representation keeps its direct use. It is an E.24 subpattern because U-kind admission depends on ontic settlement, but it is not the head E.24 pattern. E.24 remains the head pattern for `U.Ontic` and ontic introduction. E.24.UK governs the detailed U-kind admission rules.
 

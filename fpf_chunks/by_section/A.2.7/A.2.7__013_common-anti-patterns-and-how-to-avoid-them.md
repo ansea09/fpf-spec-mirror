@@ -6,12 +6,12 @@ section_id: "A.2.7:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 5371
-line_end: 5383
+line_start: 5372
+line_end: 5384
 dependencies:
   - "A.15"
   - "A.2"

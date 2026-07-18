@@ -1,49 +1,33 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.5"
-pattern_title: "U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
+pattern_title: "Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
 section_id: "A.6.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__001_intro.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
-  - "A.6.5 — U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline"
+  - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:intro — Intro"
-line_start: 16540
-line_end: 16547
+line_start: 16937
+line_end: 16943
 dependencies:
-  - "A.1"
-  - "A.2.1"
   - "A.6.0"
-  - "A.6.2"
-  - "A.6.4"
-  - "A.7"
+  - "A.6.P"
+  - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
+  - "C.29"
   - "C.3"
-  - "E.10"
-  - "E.17.0"
-  - "E.8"
-  - "F.6"
-  - "U.EpistemeSlotRelation"
-  - "U.MultiViewDescribing"
-  - "U.Signature"
+  - "E.24.UK"
 keywords:
-  - "argument position"
-  - "pass-by-reference"
-  - "pass-by-value"
-  - "reference"
-  - "signature"
-  - "slot"
-  - "substitution"
-  - "value"
 ---
 
-## A.6.5 - U.RelationSlotDiscipline - SlotKind, ValueKind, RefKind, and slot-operation discipline
+## A.6.5 - Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain name.** Relation slot discipline.
 

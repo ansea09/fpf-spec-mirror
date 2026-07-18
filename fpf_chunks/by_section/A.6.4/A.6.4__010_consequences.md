@@ -6,12 +6,12 @@ section_id: "A.6.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__010_consequences.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:6 — Consequences"
-line_start: 13931
-line_end: 13949
+line_start: 14328
+line_end: 14346
 dependencies:
   - "A.6.2"
   - "A.6.3"

@@ -6,12 +6,12 @@ section_id: "D.2:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__004_forces.md"
-commit_sha: "44dd88188a07646ef23aca32627a3f670525853f"
+commit_sha: "89fcd508edbf9a49dc956955a42884fbca43f88c"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:1.1 — Forces"
-line_start: 64314
-line_end: 64323
+line_start: 64396
+line_end: 64405
 dependencies:
   - "A.1"
   - "A.15"
