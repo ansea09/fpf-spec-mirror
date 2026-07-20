@@ -6,12 +6,12 @@ section_id: "A.15.1:5"
 section_title: "Work mereology (how occurrences form holarchies)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__006_work-mereology-how-occurrences-form-holarchies.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:5 — Work mereology (how occurrences form holarchies)"
-line_start: 22580
-line_end: 22648
+line_start: 23778
+line_end: 23849
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,19 +22,23 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.6"
+  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
-  - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.ReferenceScheme"
   - "U.Role"
   - "U.RoleAssignment"
   - "U.System"
@@ -58,7 +62,9 @@ We adopt a **4D extensional** stance for occurrences: a Work is identified prima
 #### A.15.1:5.1 - Parts and wholes of Work (occurrence facts)
 
 * **Temporal-part (`TemporalPartOf_work`).** A proper **time-slice relation** over one selected `U.Work` occurrence or work phase. The selected part is grounded by parent work identity plus interval and, when needed, a named aspect such as resource use, telemetry, SLA coverage, or interval-local evidence. A temporal part is useful for monitoring, utilization, lead time, and interval-local evidence. It has no independent method-switch identity by that fact.
-* **Episode-part (`EpisodeOf_work` or `WorkEpisode`).** A **policy-governed, event-bounded, maximally continuous enactment fragment** of one parent work occurrence. It starts at a work-entry, resumption, mode-switch, or switch-to-method event and ends at interruption, switch-away, completion, or a policy-declared pause. It is not an arbitrary time slice. It remains under the parent work identity only when the bounded-context episode policy says the interrupted or resumed activity is still the same `U.Work`.
+* **Episode-part (`EpisodeOf_work` or `WorkEpisode`).** A **policy-governed, event-bounded, maximally continuous enactment fragment** of one parent work occurrence. It starts at a work-entry, resumption, mode-switch, or switch-to-method event and ends at interruption, switch-away, completion, or a policy-declared pause. It is not an arbitrary time slice. It remains under the parent work identity only when the exact continuity-policy description selected for that work says that the interrupted or resumed activity is still the same `U.Work`.
+`continuityPolicyDescriptionRef` designates the exact `U.MethodDescription` whose claims state the episode boundaries and work-continuity rule used for this occurrence. Interpret those claims under that episteme's effective `U.ReferenceScheme`; name any current `U.ClaimScope`, temporal qualification window, or model-use structure separately. These values govern the identity judgment without becoming a context container or another part of the work.
+
 * **Operational-part (`OperationalPartOf_work`).** A **work-part occurrence** that may enact a factor of a recovered `U.Method`, for example, an incision occurrence within an appendectomy occurrence, possibly **overlapping** with others in time. If a method-description reference is current, it identifies, describes, constrains, or evidences that method factor; the referenced `U.MethodDescription` is not enacted. If no `U.Method` factor is recovered, govern the material as a work part, evidence segment, telemetry segment, mechanism material, system-component behavior, or missing-source-relation note under the direct pattern.
 * **Parallel-part (`ConcurrentPartOf_work`).** Two work-part occurrences that **overlap** in their windows, coordinated by the same higher-level occurrence.
 
@@ -70,7 +76,7 @@ We adopt a **4D extensional** stance for occurrences: a Work is identified prima
 
 - Ask **"which interval or aspect of the parent work do I need?"** If that is enough, use `TemporalPartOf_work`.
 - Ask **"which continuous attempt under the episode policy do I need?"** If entry, resumption, mode-switch, interruption, switch-away, completion, or policy pause is the boundary, use `EpisodeOf_work`.
-- Ask **"which performed sub-occurrence has its own resources, affected referent, evidence, outcome, or aggregation role?"** If that is current, use `OperationalPartOf_work` or another declared work-part relation.
+- Ask **"which performed sub-occurrence has its own performer assignment, temporal extent, enacted method, affected referent, bindings, resource use, or aggregation role?"** If that is current, use `OperationalPartOf_work` or another declared work-part relation. A neighboring evaluation or effect claim does not establish work parthood by itself.
 - Ask **"which way-of-doing part is being composed?"** If the answer needs preconditions, effects, interface, and whole-method relation, recover a `U.Method` submethod under `A.3.1` and `B.1.5`; do not make the work part itself carry the method identity.
 
 #### A.15.1:5.2 - Key relations among Work
@@ -91,30 +97,31 @@ These relations are **occurrence facts**, not method-design assumptions.
   *Properties:* idempotent, commutative, monotone under set inclusion.
 
 * **Resource aggregation — `Γ_work(S)`**
-  For a set `S` of Work parts, returns the **aggregated resource ledger** (materials, energy, time, money) with de-duplication rules for shared and overlapped parts (context-declared).
+  For a set `S` of Work parts, returns the **aggregated resource ledger** (materials, energy, time, money) with de-duplication rules for shared and overlapped parts declared by the exact aggregation-policy description.
   *Properties:* additive on **disjoint** parts; requires **overlap policy** otherwise (e.g., attribute costs to the parent once, not to each child).
 
 **Manager’s tip:** Pick the coverage operator that matches your KPI: **union** for machine utilization; **hull** for calendar elapsed; never mix silently.
 
 #### A.15.1:5.4 - Identity of a Work (extensional criterion, pragmatically framed)
 
-Two Work records refer to the **same Work** iff, in the relevant context:
+Two work records refer to the same `U.Work` only when they resolve to one occurrence under the declared work-identity tolerances and continuity-policy description. Check at least:
 
-* their **time–space extent** is the same (within declared tolerance),
-* they link to the **same `MethodDescription`**,
-* they have the **same performer** (`U.RoleAssignment`), and
-* they bind the **same parameters** (or declared‑equivalent values).
+* the same time-space extent within the declared temporal and spatial tolerances;
+* the same enacted `U.Method` and, when current, the same `U.MethodDescription` edition;
+* the same performer `U.RoleAssignment`;
+* the same affected referent and concrete parameter bindings, or explicit equivalence relations for changed bindings; and
+* the same continuity-policy description interpreted under its effective `U.ReferenceScheme`.
 
-If any of these differ (or the context declares equivalence absent), they are **distinct** Work instances (e.g., a retry).
+A changed label, record, publication, or model-use structure does not decide work identity. A changed participant, extent, binding, or policy outcome identifies another occurrence unless the exact continuity rule admits the change.
 
 #### A.15.1:5.5 - Interruptions, retries, resumptions (episode policy)
 
 * **Retry:** **new Work** with its own window and parameters; link via `retryOf`.
-* **Episode under same parent work:** same `U.Work` identity split into event-bounded episodes when the context's episode policy declares the interruption, resumption, mode switch, or policy pause to remain inside the same parent occurrence.
-* **Separate occurrence after interruption or change:** a separate `U.Work` when the policy treats interruption, retune, rework, retry, changed parameter set, changed method-description edition, changed affected referent, switch-away, or restart as a new occurrence. Link via `retryOf`, `resumptionOf`, `precedes`, `overlaps`, `contains`, or another declared relation.
-* **Rework:** **new Work** initiated after a failure in earlier Work unless the bounded-context policy explicitly keeps the rework inside the same parent occurrence; link the occurrences and put any causal attribution in the governing causal-use pattern.
+* **Episode under the same parent work:** split one `U.Work` into event-bounded episodes only when `continuityPolicyDescriptionRef` admits the interruption, resumption, mode switch, or policy pause inside the same parent occurrence.
+* **Separate occurrence after interruption or change:** identify another `U.Work` when that policy treats interruption, retune, rework, retry, changed parameter set, changed method-description edition, changed affected referent, switch-away, or restart as a new occurrence. Link the occurrences through `retryOf`, `resumptionOf`, `precedes`, `overlaps`, `contains`, or another declared relation that actually obtains.
+* **Rework:** identify new work after failed earlier work unless the exact continuity-policy description admits it as an episode or operational part of the same parent occurrence. Keep any causal attribution with the governing causal-use pattern.
 
-**Why it matters:** plans, costs, quality stats, telemetry evidence, and method-reliance claims depend on whether you treat a subinterval as a temporal part, an event-bounded episode, an operational part, or a new occurrence. Declare the policy **in the bounded context** before using the relation.
+**Why it matters:** plans, costs, quality statistics, telemetry evidence, and method-reliance claims depend on whether the selected interval is a temporal part, event-bounded episode, operational part, or new occurrence. Name the exact policy episteme, effective reference scheme, and any current scope or temporal qualification before relying on that distinction.
 
 #### A.15.1:5.6 - Compositionality of effects (Δ)
 

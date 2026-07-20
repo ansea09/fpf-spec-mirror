@@ -6,12 +6,12 @@ section_id: "C.31:End"
 section_title: "C.31:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__014_c-31-end.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:End — C.31:End"
-line_start: 59695
-line_end: 59696
+line_start: 61343
+line_end: 61344
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 78393
-line_end: 78406
+line_start: 80047
+line_end: 80060
 dependencies:
   - "A.2.6"
   - "A.20"
@@ -42,9 +42,9 @@ keywords:
 
 ### E.18:2 - Problem frame
 
-Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed loci. The P2W reference path is:
-`U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus (selector relation governed by G.5) <-> WorkPlanning locus (A.15.2 U.WorkPlan or plan-item relation) -> U.Work -> EvaluatingAndRefreshing locus (refresh relation governed by G.11)`
-is one **path** among many possible domain-specific transformation-flow paths. Without a common **structure discipline**:
+Teams can produce many **well-typed flow valuations** for transformations of the same context holon under `VP.Functional`, for example for a declared `U.Capability` or transformation claim. The holon is the described context object; the E.18 `EntityOfConcern` remains the selected `TransformationFlowStructure` over transformations and adjacent governed positions.
+
+`E.18.1 P2W Problem-to-Work Carry-Through` begins with an accepted `ProblemCard@Context` claim and carries it into whichever directly governed method, planning, work, result, interpretation, stop, branch, or local-return relation becomes current. It does not prescribe one path. A first-principles specialization may traverse a path such as `U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> selector relation -> U.WorkPlan or plan-item relation -> U.Work -> evaluation or currentness relation`; that is one possible transformation-flow path, not the definition of P2W. Without a common **structure discipline**:
 
 * flows look ad-hoc and **non-comparable**;
 * cross‑Context **crossings** (plane or Context changes) are undocumented;

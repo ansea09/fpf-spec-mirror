@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 67737
-line_end: 68144
+line_start: 69387
+line_end: 69795
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -196,7 +196,8 @@ A new intended-use receives no old-use class and asserts no prior-edition preser
 3. state a move the reader can perform;
 4. state the first useful result in the subject work;
 5. add the next action-changing condition, branch, stop, or return; and
-6. add guards and conformance checks only after they can inspect that positive Solution.
+6. add guards and conformance checks only after they can inspect that positive Solution; and
+7. when the Solution prescribes actual work or world-side change, name the intended reader separately from the admitted `U.System` that performs dated `U.Work` and from the current role assignment under which that system performs that work, and keep the method episteme and problem-facing result distinct. Do not add this work position to a judgment-only pattern merely to fill the template.
 
 Test first-use affordability by checking whether the Solution supports a short rendering with this semantic shape:
 

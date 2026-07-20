@@ -6,12 +6,12 @@ section_id: "A.15.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__005_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:4 — Solution"
-line_start: 24040
-line_end: 24120
+line_start: 25231
+line_end: 25314
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.2.8.PER"
   - "A.20"
   - "A.21"
   - "A.3.4.P"
@@ -37,8 +38,10 @@ keywords:
   - "full-kit condition"
   - "launch gate"
   - "planned slot fillings"
+  - "prospective permission inputs"
   - "readiness before work entry"
   - "resource-readiness refs"
+  - "retrospective exercise evidence"
   - "work-entry readiness"
 ---
 
@@ -61,12 +64,15 @@ WorkEntryReadiness@Context:
   IntendedOutcomeOrValueRef?
   FullKitCondition?
   CommitmentDisposition?
+  GrantedPermissionOccurrenceRef?     # prospective direct input when current
+  NonProhibitionFindingRef?           # prospective direct input when current
+  PermissionNormConflictFindingRef?   # prospective current-conflict input
   ResourceReadinessRefs?
   WIPPolicyRef?
   FlowPolicyRef?
   SlotFillingsPlanItemRefs?
   PreparationWorkRefs?
-  PriorWorkEvidenceRefs?
+  PriorWorkEvidenceRefs?              # may cite exercise/non-violation only for a different exact already-dated work occurrence
   SourceCurrentnessRefs?
   LaunchGateRef?
   GateDecisionRef?
@@ -74,7 +80,7 @@ WorkEntryReadiness@Context:
   StopCondition
   DegradedUse?
   ReturnOrRecheckCondition?
-  PostLaunchVarianceRef?
+  PostLaunchVarianceRef?              # target-work exercise/non-violation only in an explicit post-launch recheck after that work is actual
 ```
 
 The record is filled according to the current readiness claim. It is not a demand to fill every slot. It is a checklist of concerns that must not be forgotten when those concerns are live.
@@ -105,7 +111,7 @@ Full-kit preparation can include gathering information, coordinating roles, prod
 
 `CommitmentDisposition` states the work-entry stance, such as `notReady`, `readyWithKnownGaps`, `readyForProbe`, `readyForCommitment`, `committed`, `blocked`, or `requiresGateDecision`.
 
-Use A.21 only when a current `OperationalGate(profile)` consumes declared checks and publishes a `GateDecision`. A readiness badge, green tile, full-kit label, or commitment board position is not gate passage unless A.21 fields are recoverable.
+Use `A.2.8.PER` when a pre-entry readiness check requires a current granted-permission occurrence, non-prohibition finding, or permission-conflict finding. `PermissionExerciseRelation@Context` and `NonViolationFinding@Context` require already dated actual work: cite either through `PriorWorkEvidenceRefs` only for a different exact work occurrence, or in an explicitly marked post-launch recheck only after the target work is actual; the latter is not evidence that the target was ready before entry. Prior exercise or non-violation proves none of a current grant, current capability, future exercise, future non-violation, readiness, gate passage, or target-work performance. Readiness does not institute permission, exercise it, resolve conflict, or turn non-prohibition into a grant; an unresolved current conflict blocks or degrades reliance according to `A.2.8.PER`. Use A.21 only when a current `OperationalGate(profile)` consumes declared checks and publishes a `GateDecision`. A readiness badge, green tile, full-kit label, or commitment board position is not gate passage unless A.21 fields are recoverable; gate passage creates none of the permission objects.
 
 #### A.15.5:4.4 - Relation to A.15 Family
 

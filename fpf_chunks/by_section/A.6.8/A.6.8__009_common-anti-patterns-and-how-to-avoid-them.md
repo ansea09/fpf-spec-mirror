@@ -6,12 +6,12 @@ section_id: "A.6.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 18688
-line_end: 18713
+line_start: 19339
+line_end: 19364
 dependencies:
   - "A.15"
   - "A.2.3"

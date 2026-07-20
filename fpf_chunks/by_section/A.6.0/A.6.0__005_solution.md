@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 10649
-line_end: 10829
+line_start: 10942
+line_end: 11122
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -186,7 +186,7 @@ The rows name the direct patterns that govern these common adjacent objects and 
 
 Make three receiving-use decisions while keeping their objects distinct:
 
-1. A readable direct assertion designates the actual participants and states its modality for present work; the direct pattern still determines whether the relation obtains.
+1. A readable direct relational assertion designates the actual participants and states affirmative or negative assertion polarity for the direct obtaining predicate. The exact direct claim family governs a forecast, scenario, counterfactual, permission, or other non-ordinary claim when one is current. When an explicit reliance judgment is current for the receiving use, `A.10` or the receiving evaluation separately states supported, refuted, or unresolved reliance; without that question, the readable direct assertion is sufficient. The direct relation pattern still determines whether the relation obtains.
 2. Repeated typed use may justify authoring, selecting, or reusing a shared signature declaration for vocabulary, laws, applicability, or dependencies. When a new declaration is authored, its own claim content, exact EntityOfConcern, effective reference scheme, and C.2.1 constitution identify the episteme; A.6.0 then judges whether that same episteme satisfies `U.Signature` membership.
 3. An obtaining `U.Relation` occurrence is explicitly recognized and individuated when a receiving claim or operation consumes that occurrence's identity.
 

@@ -6,17 +6,18 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10041
-line_end: 10111
+line_start: 10321
+line_end: 10403
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.8"
@@ -35,24 +36,28 @@ dependencies:
   - "U.Work"
 keywords:
   - "(RFC 2119 + RFC 8174)"
-  - "(e.g"
   - "A as predicates (“is admissible iff…”)"
   - "Boundary Norm Square (L/A/D/E)"
   - "MVPK faces “no new semantics”"
-  - "OPTIONAL)"
   - "RECOMMENDED"
   - "REQUIRED"
   - "SLA/guarantee claim classification"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword (or synonym) appears in an L/A/E claim"
+  - "accountable commitment vs exact permission result"
+  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
+  - "and OPTIONAL"
   - "as a disciplined modality family"
   - "contract bundle unpacking"
+  - "exercise"
+  - "finding"
   - "in L/A/E claims"
-  - "including common synonyms (SHALL"
+  - "including common synonyms such as SHALL"
+  - "non-violation"
+  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
   - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content (promise content) ≠ work"
-  - "promise-act/utterance/commitment separation"
-  - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
-  - "turn it into explanatory prose that cites the relevant claim IDs) or moved out of the face"
+  - "promise content ≠ work"
+  - "promise-act/utterance separation"
+  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
+  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
   - "“holds iff…”)"
 ---
 
@@ -63,9 +68,9 @@ keywords:
 If you use contract-language for a boundary, do not treat “the interface or specification” as an acting system. Instead:
 
 1. Identify the **promise content** (promise content) being promised,
-2. Identify the accountable **Commitment** holder(s) (accountable role assignments or admitted acting systems),
+2. Identify the accountable **Commitment** holder(s) for a duty/recommendation/prohibition branch; when permission is current, identify the exact `A.2.8.PER` grant, finding, exercise, non-violation, or conflict result and preserve that object's own participants and references,
 3. Identify the **Utterance** surfaces that publish the boundary (signature or mechanism descriptions plus MVPK views),
-4. Identify the **Performed work and evidence** carriers that could adjudicate whether commitments were met,
+4. Identify the **Performed work and evidence** carriers that could adjudicate whether commitments were met or whether actual work exercised a grant or was non-violating in the checked frame,
 5. Classify each claim through **L/A/D/E** and reference across quadrants rather than paraphrasing.
 
 #### A.6.C:5.2 — Show (System archetypes)
@@ -98,6 +103,18 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 * **A:** admissibility predicate: power delivery is admissible only after handshake state reaches an agreed mode.
 * **D:** manufacturer or integrator obligations: implement handshake; enforce voltage constraints.
 * **E:** evidence: test-report carriers; measurement traces; observable negotiation logs (if exposed), or lab measurements under a declared method.
+
+**(B-PER) Compact permission replay (only when the permission branch is live)**
+
+*Situation:* “ReleaseAuthority approved Operator-A to deploy Release-4711; deployment is allowed after preflight.”
+
+**Unpack + classify:**
+
+* **Utterance and institution:** the dated `Approve` speech-act occurrence `SA-4711`, performed by the exact grantor assignment under current `ReleaseGrantPolicy`, institutes—not merely publishes—the separately represented grant occurrence `PER-4711`. Approval text without that policy and act does not create the grant.
+* **D — permission result:** `GrantedPermissionRelation@Context` names beneficiary `RoleAssignmentRef(Operator-A)` and `permittedActionSpecificationRef = U.EpistemeRef(Deploy-Release-4711)`; `SA-4711`, the grantor assignment, policy, context, scope, and window remain ground or qualifiers. If the available basis establishes only current absence of prohibition, record `NonProhibitionFinding@Context` instead and do not promote it to a strong grant.
+* **A — independent entry predicate:** “deployment is admissible iff `PER-4711` currently obtains and preflight is green” is an `A-*` predicate. It may consume the grant as one condition but is neither the grant nor proof of gate passage.
+* **Work and exercise:** only after later dated actual `U.Work` occurrence `DeployRun-4711` exists, instantiates the action specification, matches the beneficiary branch, and stays inside the grant's scope and window may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.EntityRef(PER-4711)`. Planned work, the approval wording, and preflight alone are not exercise.
+* **E:** speech-act, policy-edition, grant-occurrence, preflight, work, and observation carriers support the classified claims without replacing their direct objects.
 
 #### A.6.C:5.3 — Show (Episteme archetypes)
 

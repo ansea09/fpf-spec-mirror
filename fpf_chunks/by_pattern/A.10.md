@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.10.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
-line_start: 20727
-line_end: 21140
+line_start: 21925
+line_end: 22338
 dependencies:
   - "A.1"
   - "A.10"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.1"
   - "A.2.4"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -44,6 +45,7 @@ keywords:
   - "claim support"
   - "evidence"
   - "evidence carrier"
+  - "evidence for permission result versus commitment or issuing act"
   - "exact authority reference"
   - "generated-explanation source support"
   - "probe/distributed/export/causal evidence"
@@ -191,8 +193,8 @@ Case repairs:
 | Case | Evidence repair |
 | --- | --- |
 | Stale credential badge or status display | Show issuer or trust root, governing status register when one exists, holder or subject binding, verifier and relying-party context, proof result or status result, revocation and freshness, effective window, status-source entry version, and evidence-carrier integrity. Display presence is not current role assignment, status assertion, or permission. |
-| Verifiable credential, credential view, or register excerpt | Treat as an `A.10` carrier with issuer or trust root, governing status register when one exists, status-register entry id or source `U.EpistemePublication` ref and version, holder or subject binding, verifier, proof result, status result, currentness, relying context, effective window, revocation window, and acceptance rule. When those checks pass, it may evidence credential-currentness for that holder and relying context. It evidences permission, authorization, role assignment, status assertion, or gate passage only when the register entry or another governing FPF relation named by value such as `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` creates or states that effect for the bounded context. |
-| Copied approval or review summary | Show the original `A.2.9` `SpeechActRef` or issuing act when approval or authorization is claimed, or the original reviewed source when only review-content currentness is claimed. Add copy relation, currentness, scope, window, evidence-producing work occurrence, and whether a separate commitment relation or work relation is being claimed. Copy evidence is not approval by itself. |
+| Verifiable credential, credential view, or register excerpt | Treat as an `A.10` carrier with issuer or trust root, governing status register when one exists, status-register entry id or source `U.EpistemePublication` ref and version, holder or subject binding, verifier, proof result, status result, currentness, relying context, effective window, revocation window, and acceptance rule. When those checks pass, it may evidence credential-currentness for that holder and relying context. A strong grant, exercise, weak non-prohibition/non-violation finding, or conflict requires `A.2.8.PER`; an actual commitment requires `A.2.8`; an issuing act, role assignment or status assertion, entry predicate, or gate passage requires `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` respectively, named by value for the bounded context. Display presence creates none of them. |
+| Copied approval or review summary | Show the original `A.2.9 SpeechActRef` or issuing act when approval or authorization is claimed, or the original reviewed source when only review-content currentness is claimed. Add copy relation, currentness, scope, window, evidence-producing work occurrence, and whether a separate `A.2.8.PER` grant/finding/exercise/conflict result, `A.2.8` duty/recommendation/prohibition commitment, or work relation is being claimed. Copy evidence is not approval by itself. |
 | Provenance, authenticity, or attestation label | Show the bounded origin, history, build, or process claim; source `U.Episteme`, source `U.EpistemePublication`, or evidence carrier; method trace or work trace; source-specific proof; evidence-carrier integrity; verifier or relying policy that accepts it for this claim or effect; and rival explanation. Provenance does not show truth, safety, approval, release, gate passage, permission, or assurance unless another governing FPF relation named by value carries that additional claim or effect. |
 | Dashboard status tile | For gate-passage or release reliance, show dashboard query, the source relation used by the dashboard query or the source-bearing record used by that query, time, window, currentness, source-order relation, freshness policy, rival explanation, and the current `A.21` `GateDecision` or `DecisionLogRef` with gate profile, gate version, release target, and work target; the A.10 evidence-provenance path evidences that source-to-use path. A status display is not gate passage or work occurrence by itself. |
 | Rollback command-like cue | Show command record or issuing speech act, authorization relation, actor, affected work target or claim target, scope, window, and whether the cue is only an `A.6.A` action invitation. A command cue is not performed-work evidence. |

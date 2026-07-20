@@ -6,12 +6,12 @@ section_id: "A.15.1:13"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__015_consequences.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13 — Consequences"
-line_start: 22904
-line_end: 22912
+line_start: 24093
+line_end: 24101
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,19 +22,23 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.6"
+  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
-  - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.ReferenceScheme"
   - "U.Role"
   - "U.RoleAssignment"
   - "U.System"
@@ -57,6 +61,6 @@ keywords:
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
 | **Auditable reality.** Costs, time, and quality attach to concrete work occurrences; root-cause analysis and accountability improve. | **More records.** You create Work instances; mitigate with templates and automation.       |
 | **Sound roll-ups.** Γ\_time and Γ\_work turn roll-ups from hand-waving into declared policy; KPIs become comparable.     | **Policy discipline.** Choose union or hull and an overlap policy before using the roll-up; write that policy once. |
-| **Cross‑context clarity.** CAC checks prevent silent model drift; bridges make acceptance explicit.                      | **Bridge upkeep.** Keep mappings short and focused; review at releases.                    |
+| **Cross-locality clarity.** Exact method-description, scheme, scope, criterion, evaluation, and acceptance relations prevent silent meaning drift. | **Bridge upkeep.** Maintain F.9 Bridges only for exact local-sense crossings that a receiving use actually needs. |
 | **4D extensional coherence.** Parts, overlaps, and retries stop double-counting and identity confusion.                  | **Learning curve.** Teach episode vs retry; include examples in onboarding.                |
 

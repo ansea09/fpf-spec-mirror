@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 23903
-line_end: 23923
+line_start: 25094
+line_end: 25114
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -41,6 +42,7 @@ keywords:
   - "copied approval"
   - "credential view"
   - "dashboard display"
+  - "exact permission-result relation or finding"
   - "generated explanation"
   - "project-side claim/effect reference"
   - "publication face"
@@ -60,14 +62,14 @@ A.15.4 local repair record:
   RelianceAppearanceKind: dashboard display plus copied wording
   WorkOrRelianceUseKind: intended work
   WorkOrRelianceUseRef: proceed with the planned gene-editing work for sample batch B-17
-  RequiredClaimBeforeUseRef: current protocol and current lab work plan for batch B-17
-  RequiredInstitutedEffectBeforeUseRef: authorization for intervention when carried by an approval act or gate decision
-  ClaimOrEffectPatternRef: A.2.9 or A.21 for authorization, A.2.1 for role assignment, A.10 for evidence and currentness, A.15.2 for the work plan
-  ClaimOrEffectPositionKind: speech-act ref, gate decision, role-assignment ref, evidence relation, currentness relation, and work-plan record
-  ClaimOrEffectPositionRef: positions named by the project records for batch B-17
-  ProjectSideClaimOrEffectRef: current protocol publication, approval record or gate record when required, role assignment, evidence relation, currentness relation, and A.15.2 work plan
+  RequiredClaimBeforeUseRef: current protocol and current A.15.2 lab work plan for batch B-17
+  RequiredInstitutedEffectBeforeUseRef: strong permission for the intervention as an obtaining A.2.8.PER GrantedPermissionRelation@Context grounded by a policy-valid A.2.9 instituting speech act; any separately required A.21 gate outcome remains a gate result and does not create the permission
+  ClaimOrEffectPatternRef: A.2.8.PER for the enduring strong permission, A.2.9 for the instituting communicative work, A.21 for a separately required gate outcome, A.2.1 for role assignment, A.10 for evidence and currentness, A.15.2 for the work plan
+  ClaimOrEffectPositionKind: granted-permission relation occurrence, instituting speech-act ref, separately required gate decision, role-assignment ref, evidence relation, currentness relation, and work-plan record
+  ClaimOrEffectPositionRef: exact grant occurrence, instituting speech-act occurrence, gate decision when separately required, role assignment, evidence and currentness relations, and work-plan record named by the project records for batch B-17
+  ProjectSideClaimOrEffectRef: current protocol publication, matching granted-permission occurrence and its instituting-act record, A.21 gate decision when separately required, role assignment, evidence relation, currentness relation, and A.15.2 work plan
   AllowedUseNow: source-finding and source-relation refresh; no intervention until the required records and relations are named
   AppearanceOverreadBlocked: tile color and copied message do not authorize biological work or prove safety
-  RecoveryOrStopCondition: reopen when the protocol, approval record or gate decision, evidence relation, role assignment, and work plan are current for batch B-17
+  RecoveryOrStopCondition: reopen when the current protocol, matching grant with its policy-valid instituting speech-act reference, any separately required gate outcome, evidence and currentness relations, role assignment, and work plan are named and current for batch B-17
 ```
 

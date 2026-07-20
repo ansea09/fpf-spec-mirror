@@ -6,12 +6,12 @@ section_id: "A.15.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__001_intro.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:intro — Intro"
-line_start: 23998
-line_end: 24013
+line_start: 25189
+line_end: 25204
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.2"
   - "A.15.3"
   - "A.15.4"
+  - "A.2.8.PER"
   - "A.20"
   - "A.21"
   - "A.3.4.P"
@@ -37,8 +38,10 @@ keywords:
   - "full-kit condition"
   - "launch gate"
   - "planned slot fillings"
+  - "prospective permission inputs"
   - "readiness before work entry"
   - "resource-readiness refs"
+  - "retrospective exercise evidence"
   - "work-entry readiness"
 ---
 
@@ -54,7 +57,7 @@ keywords:
 
 **Primary EntityOfConcern.** One `WorkEntryReadiness@Context` relation for one intended work item, target work plan, PlanItem, or work-boundary concern in one bounded context.
 
-**First output.** One `WorkEntryReadiness@Context` record with its `FullKitCondition`, commitment disposition, resource-readiness refs, WIP or flow-policy refs, planned-baseline refs, gate refs when current, and stop or degraded-use condition.
+**First output.** One `WorkEntryReadiness@Context` record with its `FullKitCondition`, commitment disposition, prospective direct permission inputs (a current grant occurrence, non-prohibition finding, or permission-conflict finding), and any retrospective exercise/non-violation ref only through `PriorWorkEvidenceRefs` for a different exact already-dated work occurrence or an explicitly post-launch recheck whose target work is already actual; plus resource-readiness, WIP or flow-policy, planned-baseline, gate, and stop or degraded-use refs when current.
 
 **Not this pattern when.** Use `A.15.2` for the work plan itself, `A.15.3` for planned slot fillers, `A.15.1` for dated performed work, `A.21` for gate decisions, `A.15.4` only when a reliance appearance is already being used as a reason for work or reliance before the governing pattern slot, relation, or project-side reference is named, `B.1.6` for resource aggregation after work, `E.18` for transformation-flow structure, and `E.18.1` for P2W carry-through from accepted problem-side material.
 

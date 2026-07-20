@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `1d5c1edd154b636a446b3887a6094be60c60faff`
+Commit SHA: `d6af871b3e4e47c952d800a2a418c0634f180aaf`
 
 Chunking method: `pattern-aware`
 
-Patterns: `281`
+Patterns: `288`
 
 ## Patterns
 
@@ -22,6 +22,7 @@ Patterns: `281`
 - [A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes](by_pattern/A.2.6.md)
 - [A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary](by_pattern/A.2.7.md)
 - [A.2.8 — U.Commitment (Deontic Commitment Object)](by_pattern/A.2.8.md)
+- [A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition](by_pattern/A.2.8.PER.md)
 - [A.2.9 — U.SpeechAct (Communicative Work Object)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
 - [A.3.1 — U.Method: Context-Defined Way of Doing](by_pattern/A.3.1.md)
@@ -46,6 +47,7 @@ Patterns: `281`
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
+- [A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission](by_pattern/A.6.RCD.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
 - [A.6.A — Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
 - [A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)](by_pattern/A.6.F.md)
@@ -58,6 +60,9 @@ Patterns: `281`
 - [A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature](by_pattern/A.6.S.md)
 - [A.6.H — Wholeness Language Unpacking — RPR-WHOLE](by_pattern/A.6.H.md)
 - [A.7 — Strict Distinction (Clarity Lattice)](by_pattern/A.7.md)
+- [A.7.1 — Consequence-Guided Ontological Problem Solving](by_pattern/A.7.1.md)
+- [A.7.2 — FPF Ontology-Premise Reconciliation](by_pattern/A.7.2.md)
+- [A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use](by_pattern/A.7.CP.md)
 - [A.8 — Universal Core Principle](by_pattern/A.8.md)
 - [A.9 — Cross‑Scale Consistency (C‑3)](by_pattern/A.9.md)
 - [A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph](by_pattern/A.10.md)
@@ -148,10 +153,12 @@ Patterns: `281`
 - [C.18.1 — Scaling‑Law Lens Binding (SLL)](by_pattern/C.18.1.md)
 - [C.19 — Explore-Exploit Live-Pool Governor](by_pattern/C.19.md)
 - [C.19.1 — Bitter‑Lesson Preference (BLP)](by_pattern/C.19.1.md)
+- [C.19.2 — Use-Bounded Apparatus Application](by_pattern/C.19.2.md)
 - [C.20 — Composition of U.Discipline (Discipline‑CAL)](by_pattern/C.20.md)
 - [C.21 — Field Health & Structure (Discipline-CHR)](by_pattern/C.21.md)
 - [C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)](by_pattern/C.22.md)
 - [C.22.1 — Task-family adaptation signature](by_pattern/C.22.1.md)
+- [C.22.PFR — Problematic-For Relation](by_pattern/C.22.PFR.md)
 - [C.22.2 — ProblemCard@Context](by_pattern/C.22.2.md)
 - [C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)](by_pattern/C.23.md)
 - [C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)](by_pattern/C.24.md)

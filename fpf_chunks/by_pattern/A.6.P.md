@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.P.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
-line_start: 14411
-line_end: 15238
+line_start: 14704
+line_end: 15533
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -411,6 +411,8 @@ Passive umbrella voice (“X is synced, linked, or anchored …”) is permitted
 If any participant or qualifier implies cross‑Context or cross‑plane reuse, the L/A/D/E-classified claim bundle MUST cite the relevant Bridge ids + CL policy (and loss notes, when applicable) in the appropriate L/A/D/E-classified claims: A-classified claims, E-classified claims, or both when both admissibility and evidence or disclosure consequences are live. Label identity is not an admissible substitute.
 
 #### A.6.P:4.4 — Change‑class lexicon (operations are not adjectives)
+
+**Assertion-family boundary (normative).** The direct relation owner determines whether the relation obtains for the named participants, independently of assertions and evidence. A relational assertion is a `C.2.1` episteme that either affirms or denies that exact direct obtaining predicate and names the exact direct claim-family reference when one is current. `A.10` and the receiving evaluation separately record whether reliance on that assertion is supported, refuted, or unresolved for the declared use. `unresolved` is not a third obtaining value; denial, refutation, or unresolved reliance creates no negative relation occurrence. Revising an assertion or its reliance posture therefore uses its claim or evidence owner and is not `declareRelation`, `withdrawRelation`, or another world-side relation-change class.
 
 A RPR‑pattern SHALL publish a **relation‑change lexicon**: a small set of semantic change classes used in normative prose to describe “what changed” without umbrella verbs.
 

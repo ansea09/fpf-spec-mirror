@@ -6,16 +6,17 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.3.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
-line_start: 39974
-line_end: 40284
+line_start: 41171
+line_end: 41482
 dependencies:
   - "A.16"
   - "A.18"
   - "A.19"
   - "B.3"
+  - "C.19.2"
   - "C.2"
   - "C.2.2"
   - "C.2.4"
@@ -176,6 +177,7 @@ Post-2015 practice across formal methods, software architecture, safety engineer
 - **Defines:** the `F` coordinate of the typed `F-G-R` assurance tuple.
 - **Builds on:** characteristic machinery from `A.18` / `A.19` and episteme-level characteristic assignment from Part C.
 - **Coordinates with:** `C.2.2`, `B.3`, `F.9`, `C.2.LS`, `A.16`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
+- **Coordinates with:** `C.19.2` when a declared use asks whether increasing rigor of expression or selecting/configuring a formal apparatus repays application work. `F` measures expression rigor; it does not select the apparatus, plan the work, or establish the problem-facing result.
 - **Constrains:** any pattern, gate, or editorial rule that speaks about rigor of expression.
 
 ### C.2.3:13 - Canonical Anchors `F0...F9`

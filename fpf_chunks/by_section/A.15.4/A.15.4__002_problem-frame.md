@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:1 — Problem Frame"
-line_start: 23659
-line_end: 23678
+line_start: 24848
+line_end: 24867
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -41,6 +42,7 @@ keywords:
   - "copied approval"
   - "credential view"
   - "dashboard display"
+  - "exact permission-result relation or finding"
   - "generated explanation"
   - "project-side claim/effect reference"
   - "publication face"
@@ -52,7 +54,7 @@ keywords:
 
 ### A.15.4:1 - Problem Frame
 
-Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source-relation chains often look ready for work or reliance before the record or relation that carries the claim is visible. The practical problem is to decide what an engineer-manager may do now without turning appearance into approval, gate passage, evidence, assurance, performed work, role-assignment currentness, role-state or credential-status currentness, or release authorization.
+Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source-relation chains often look ready for work or reliance before the record or relation that carries the claim is visible. The practical problem is to decide what an engineer-manager may do now without turning appearance into approval, an exact permission result, gate passage, evidence, assurance, performed work, role-assignment currentness, role-state or credential-status currentness, or release authorization.
 
 **Plain recognition line.** Let the dashboard tile, credential view, copied approval, generated explanation, publication face, API response, or pointer lead to the governing pattern position that must be checked. Do not let the reliance appearance become the relation, slot filler, or project-side reference that authorizes work or reliance.
 
@@ -62,7 +64,7 @@ Dashboards, credential views, generated explanations, copied approvals, provenan
 - `RelianceAppearanceRef` names the dashboard tile, credential view, copied wording, generated explanation, publication face, carrier, display, API wording, source-finding pointer, or low-articulation indication whose appearance is tempting the work or reliance use. Its actual kind is named separately in `RelianceAppearanceKind`, so the record can distinguish an episteme, episteme publication, publication face, carrier, display, copied wording, generated explanation, API wording, source-finding pointer, or low-articulation indication without making them one kind. If the live value is a preserve-worthy early cue, use `U.PreArticulationCuePack` under `A.16.1`.
 - `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef` name the use being justified: intended work, reliance on a claim, reliance on performed work, a work-relevant P2W claim, or a P2W chain position. These fields select the current branch; they do not create a durable kind.
 - `RequiredClaimBeforeUseRef` is filled when the governing pattern must carry a claim before the work or reliance use is admissible.
-- `RequiredInstitutedEffectBeforeUseRef` is filled when the governing pattern must carry an effect before the work or reliance use is admissible, such as a gate passage, role-state change, commitment, or speech-act effect.
+- `RequiredInstitutedEffectBeforeUseRef` is filled when the governing pattern must carry an instituted effect before the work or reliance use is admissible, such as gate passage, role-state change, commitment, speech-act effect, or a strong `A.2.8.PER` grant validly instituted under exact policy. For another exact permission-side relation/finding, `RequiredClaimBeforeUseRef` names the required claim and the generic pattern/position fields cite the direct object; non-prohibition/non-violation findings, an exercise relation, and a conflict finding are not instituted effects merely because they are permission-side results.
 - `ClaimOrEffectPatternRef`, `ClaimOrEffectPositionKind`, `ClaimOrEffectPositionRef`, and `ProjectSideClaimOrEffectRef` name the direct FPF pattern, the position kind in that pattern, the exact position or relation to inspect, and the project-side reference required by that pattern.
 - `AllowedUseNow` states what use remains admissible after repair, such as orientation, source-finding, bounded reversible probe, narrowed reliance, or proceed-inside-recovered-relation.
 - `AppearanceOverreadBlocked` names the false use that the reliance appearance would create by appearance, for example treating a dashboard color as gate passage or a copied approval as a current speech act.

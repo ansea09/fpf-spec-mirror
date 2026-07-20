@@ -6,12 +6,12 @@ section_id: "A.6.REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__005_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:4 — Solution"
-line_start: 10262
-line_end: 10461
+line_start: 10555
+line_end: 10754
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -95,7 +95,7 @@ In the world-side relation, the actual entities participate directly under the r
 | Canonical FPF name | What this object is | Direct relation to preserve | Naming rule | Direct governing pattern |
 |---|---|---|---|---|
 | **relation-participant designation** | a value or governed reference in a receiving episteme; it retains its own value kind or RefKind | denotes the actual relation participant corresponding to one SlotSpec | use the SlotKind as the representation field label and the participant's own value or reference designator as the field value; the field value is not renamed as a participant kind | `C.2.1`, `A.6.5`, and `F.18` when durable naming is current |
-| **relational assertion** | a claim-bearing `U.Episteme` | its content states a modality for the direct obtaining predicate with relation-participant designations; a positive assertion may also designate an already individuated occurrence | name the asserted direct relation and its modality; a durable assertion-family name makes the relation kind and assertion reading recoverable | `C.2.1` and the direct claim pattern |
+| **relational assertion** | a claim-bearing `U.Episteme` | its content states affirmative or negative assertion polarity for the direct obtaining predicate with relation-participant designations; an affirmative assertion may also designate an already individuated occurrence only after the direct relation owner independently establishes obtaining; a forecast, scenario, counterfactual, permission, or other claim family keeps its own direct semantics, while supported, refuted, or unresolved reliance belongs to `A.10` or the receiving evaluation | name the asserted direct relation and its polarity; name the exact direct claim family whenever ordinary affirmation or denial is insufficient | `C.2.1`, the direct claim pattern, and `A.10` or the receiving evaluation for reliance |
 | **relation-occurrence description episteme** | a `U.Episteme` whose EntityOfConcern is one explicitly individuated relation occurrence | describes that occurrence without replacing it or supplying its identity | use `description of <relation-occurrence designator>` in readable prose; give a reusable description-episteme kind its own governed name only when another use depends on that kind | `C.2.1` |
 
 A receiving episteme can therefore contain a representation field whose label corresponds to a SlotKind and whose value is a relation-participant designation. That designation denotes an actual participant. The actual participant remains a `U.Entity`, and the obtaining relation occurrence remains a `U.Relation`. The receiving episteme keeps its own identity under `C.2.1`.
@@ -145,7 +145,7 @@ Here **receiving use** is a Plain head, not a common FPF kind. Resolve it to the
 
 1. Name the direct relation kind and participants in a readable sentence.
 2. Recover the direct governing pattern, relation obtaining predicate, relation-participant meanings, actual relation participants, applicability, and relation occurrence-identity rule. Cite the established settlement rather than restating it unless this use introduces or changes one of those objects. Recover the `RelationSignature` SlotSpecs only when typed assertion or description reuse is current.
-3. Check whether the direct relation obtains and the named participants jointly satisfy the predicate. If the relational assertion content is negative, modal, or unresolved, no obtaining occurrence is available for individuation; return to the direct claim pattern or `A.6.P`.
+3. Check through the direct relation owner whether the relation obtains and the named participants jointly satisfy the predicate. A denial, a forecast, scenario, counterfactual, permission, or another separately governed claim, and supported, refuted, or unresolved reliance do not establish an obtaining occurrence; do not infer occurrence identity from any of them. Individuate only an occurrence whose obtaining the direct owner establishes, or return to the exact direct claim pattern or `A.6.P`.
 4. Ask whether the named receiving assertion or description episteme, direct relation, or operation-application assertion episteme depends on this occurrence being distinguishable from another.
 5. If not, keep the readable assertion and stop. Do not create a relation-occurrence description episteme for completeness.
 6. If yes, apply the direct identity rule and explicitly individuate one occurrence.
@@ -174,7 +174,7 @@ A changed episteme contributes to occurrence identity only when that episteme it
 
 #### A.6.REL:4.4 - Separate occurrence, assertion, reifier, relator, description, and publication
 
-A relational assertion is an episteme whose content states that the direct relation obtains, does not obtain, or has another modality. The assertion can be revised or superseded while the world-side relation remains unchanged.
+A relational assertion is an episteme whose content affirms or denies the direct obtaining predicate for the designated participants. Forecast, scenario, counterfactual, permission, and other claim families keep their exact direct governors rather than entering one common catch-all field; `A.10` or the receiving evaluation separately states supported, refuted, or unresolved reliance. The assertion and its reliance posture can be revised or superseded while the world-side relation remains unchanged.
 
 A reifier is a representation-side term or node. A system may use it to represent statements about a proposition, assertion episteme, or relation-occurrence description episteme. Its presence does not make the direct relation obtain and is not a world-side occurrence-identity rule.
 
@@ -196,7 +196,7 @@ This is demand-driven progressive elaboration within the Solution, not a draftin
 
 ```text
 readable direct relation assertion with named participants
-  +-- direct obtaining and predicate-satisfaction check, when positive modality or occurrence use is current
+  +-- direct obtaining and predicate-satisfaction check, whenever occurrence use is current; affirmative assertion polarity alone does not supply obtaining
   +-- RelationSignature and SlotSpecs, when typed reuse matters
   +-- explicit occurrence individuation, when a named receiving use needs identity
       +-- relation-occurrence description episteme, when a receiving episteme describes the occurrence

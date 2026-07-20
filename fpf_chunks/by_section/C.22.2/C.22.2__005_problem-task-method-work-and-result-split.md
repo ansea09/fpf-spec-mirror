@@ -6,12 +6,12 @@ section_id: "C.22.2:4"
 section_title: "Problem, Task, Method, Work, and Result Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__005_problem-task-method-work-and-result-split.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:4 — Problem, Task, Method, Work, and Result Split"
-line_start: 48603
-line_end: 48624
+line_start: 50251
+line_end: 50272
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,9 +28,11 @@ dependencies:
   - "C.16.Q"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.2.P"
   - "C.22"
   - "C.22.1"
+  - "C.22.PFR"
   - "C.24"
   - "C.25"
   - "C.27"
@@ -54,14 +56,16 @@ dependencies:
 keywords:
   - "P2W-ready"
   - "Thin problem card"
+  - "actual PFR versus non-actual or solvability claim"
+  - "assertion polarity"
+  - "current reliance"
   - "first-principles cue"
   - "freshness and unknown disposition"
-  - "problem card"
+  - "problem card episteme"
   - "problem signal"
   - "problem-side record"
   - "safe-probe-needed"
   - "setContextRef"
-  - "support posture"
   - "validation boundary"
 ---
 
@@ -73,7 +77,7 @@ Use this split:
 
 | Term or local name | Current FPF recovery | Local disposition |
 |---|---|---|
-| `Problem` | Problem-side representation of the selected EntityOfConcern under context | Center of `C.22.2` only after problem-kind recovery. |
+| `Problem` | Either Plain wording for the framed problem episteme or an actual `ProblematicForRelation`, according to the current claim | `C.22.2` governs the episteme; `C.22.PFR` governs the actual relation. Do not infer either from the label alone. |
 | ProblemCard@Context | Compact problem-side record before P2W | `C.22.2`-governed record shape under `C.22`; stabilizes a problem-side representation under declared context. |
 | ProblemProfile | C.22-facing `ProblemProfile` prepared or bound from a problem-side representation when sufficient | Downstream `ProblemProfile` reference; not the card itself and not a work request. |
 | `TaskKind` | Selector-facing task kind in `C.22` | Downstream typed selector reference; not a work-plan entry. |

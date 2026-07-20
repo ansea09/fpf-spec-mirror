@@ -6,17 +6,18 @@ section_id: "A.6.C:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__002_problem-frame.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:1 — Problem frame"
-line_start: 9899
-line_end: 9919
+line_start: 10178
+line_end: 10198
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.8"
@@ -35,24 +36,28 @@ dependencies:
   - "U.Work"
 keywords:
   - "(RFC 2119 + RFC 8174)"
-  - "(e.g"
   - "A as predicates (“is admissible iff…”)"
   - "Boundary Norm Square (L/A/D/E)"
   - "MVPK faces “no new semantics”"
-  - "OPTIONAL)"
   - "RECOMMENDED"
   - "REQUIRED"
   - "SLA/guarantee claim classification"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword (or synonym) appears in an L/A/E claim"
+  - "accountable commitment vs exact permission result"
+  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
+  - "and OPTIONAL"
   - "as a disciplined modality family"
   - "contract bundle unpacking"
+  - "exercise"
+  - "finding"
   - "in L/A/E claims"
-  - "including common synonyms (SHALL"
+  - "including common synonyms such as SHALL"
+  - "non-violation"
+  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
   - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content (promise content) ≠ work"
-  - "promise-act/utterance/commitment separation"
-  - "the face is non‑conformant until rewritten (no BCP‑14 keyword) or moved out of the face"
-  - "turn it into explanatory prose that cites the relevant claim IDs) or moved out of the face"
+  - "promise content ≠ work"
+  - "promise-act/utterance separation"
+  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
+  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
   - "“holds iff…”)"
 ---
 
@@ -62,7 +67,7 @@ Boundary descriptions frequently use “contract” as a shorthand for “the th
 
 * **Promise-level intent** (what is promised to be true or provided),
 * **Published description** (what is written and versioned),
- * **Deontic commitment relation** (who is accountable for which obligations and permissions),
+* **Deontic governance results** (accountable obligations/recommendations/prohibitions as commitments, and strong/weak permission under its separate owner),
 * **Operational work and evidence** (what actually happens and what can be observed).
 
 When these layers are collapsed, authors accidentally assign agency to epistemes (“the interface guarantees…”), encode runtime gates as if they were internal laws, or treat observability as a property of text rather than of carriers and work. A.6 and A.6.B already provide an L/A/D/E claim-classification discipline for boundary claims, but “contract” language remains a recurring entry point for category mistakes.
@@ -73,7 +78,7 @@ A.6.C makes contract-language usable inside the A.6 stack by providing a canonic
 
 **Non‑goals (to preserve modularity).** A.6.C does **not**:
 * define “legal contract” doctrine (offer, acceptance, consideration, jurisdictional enforceability, etc.);
-* resolve conflicts between incompatible commitments across scales or contexts (capture them as separate `D-*` claims and apply conflict or mediation patterns when they exist);
-* redefine the core meanings of `U.PromiseContent`, `U.Work`, `U.SpeechAct`, or `U.Commitment`—it only makes “contract talk” classifiable into those objects or claims.
+* resolve conflicts between incompatible commitments or between a current grant and prohibition across scales or contexts (capture them as separate `D-*` claims and apply the direct commitment, permission-conflict, or mediation owner when it exists);
+* redefine the core meanings of `U.PromiseContent`, `U.Work`, `U.SpeechAct`, `U.Commitment`, or the exact `A.2.8.PER` results—it only makes “contract talk” classifiable into those objects or claims.
 * redefine quadrant semantics (`L/A/D/E`) or cross‑quadrant reference rules; those are defined normatively in A.6.B.
 

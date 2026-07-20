@@ -6,16 +6,17 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 9280
-line_end: 9317
+line_start: 9557
+line_end: 9594
 dependencies:
   - "A.10"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.0"
@@ -41,7 +42,7 @@ keywords:
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "Keeps modalities separated and audit‑ready"
+  - "Keeps modalities separated and audit-ready"
   - "L/A/D/E claim classification"
   - "MAY"
   - "MUST"
@@ -51,7 +52,9 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
+  - "accountable commitments"
   - "admissible use"
+  - "alone select neither branch"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -60,10 +63,9 @@ keywords:
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
   - "atomic claims"
-  - "belong here"
   - "boundary norm square"
   - "claim IDs"
-  - "laws vs gates vs commitments vs evidence"
+  - "laws vs entry predicates vs deontic results vs evidence"
   - "may"
   - "non-admissible use"
   - "not a duty.)"
@@ -71,12 +73,12 @@ keywords:
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
+  - "strong or weak permission results"
   - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
-  - "“the interface or system promises” does not)"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -99,7 +101,7 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 | **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
 
 **Clarification (do not conflate).** The Governance column includes two different “normative” roles:
-* **D** is **role-assignment, `U.Role`, or admitted acting-system governance** (duties, commitments, prohibitions).
+* **D** is **role-assignment, `U.Role`, or admitted acting-system governance**. Duties, recommendations-as-duty, and prohibitions use `A.2.8 U.Commitment`; strong or weak permission claims use the exact `A.2.8.PER` grant, finding, exercise, or conflict object warranted by the statement.
 * **A** is **mechanism governance** (admissibility predicates: what the mechanism admits at application time).
 `A-*` is not an obligation on an actor; obligations belong in `D-*` and may reference `A-*`.
 
@@ -113,7 +115,7 @@ The quadrants have canonical placements in the boundary stack:
 
 * **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
 * **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime admissibility predicates).
-* **D → Norms & commitments layer:** role-bound duties, commitments, publication and accountability duties (often rendered inside MVPK `TechCard`).
+* **D → Norms & deontic-results layer:** accountable duty/recommendation/prohibition commitments under `A.2.8`, or exact permission grant/finding/exercise/conflict results under `A.2.8.PER`; publication and accountability duties remain in the commitment branch (often rendered inside MVPK `TechCard`).
 * **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence-and-carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
 
 A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.

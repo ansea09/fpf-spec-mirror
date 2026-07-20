@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 22892
-line_end: 22903
+line_start: 24081
+line_end: 24092
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,19 +22,23 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.6"
+  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
-  - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.ReferenceScheme"
   - "U.Role"
   - "U.RoleAssignment"
   - "U.System"
@@ -54,7 +58,7 @@ keywords:
 ### A.15.1:12 - Existing work-log repair applications
 
 1. **Backfill links.** For existing logs, create work-occurrence records and attach `enactsMethod`, `methodDescriptionRef` when current, and `performedBy`.
-2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts accept.
+2. **Recover the work-judgment basis.** Name the exact method-description edition, effective reference scheme, continuity-policy description, and any current scope, qualification window, aggregation policy, criterion, or evidence-use relation.
 3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new occurrence.
 4. **Separate slice, episode, and operational part.** Use interval/aspect for `TemporalPartOf_work`, event-bounded continuity for `EpisodeOf_work`, and recovered occurrence-side part plus any separately recovered method factor for `OperationalPartOf_work`.
 5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.

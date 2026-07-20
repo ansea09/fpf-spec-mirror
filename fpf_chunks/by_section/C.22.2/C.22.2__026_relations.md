@@ -6,12 +6,12 @@ section_id: "C.22.2:25"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__026_relations.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:25 — Relations"
-line_start: 49010
-line_end: 49014
+line_start: 50658
+line_end: 50662
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,9 +28,11 @@ dependencies:
   - "C.16.Q"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.2.P"
   - "C.22"
   - "C.22.1"
+  - "C.22.PFR"
   - "C.24"
   - "C.25"
   - "C.27"
@@ -54,19 +56,21 @@ dependencies:
 keywords:
   - "P2W-ready"
   - "Thin problem card"
+  - "actual PFR versus non-actual or solvability claim"
+  - "assertion polarity"
+  - "current reliance"
   - "first-principles cue"
   - "freshness and unknown disposition"
-  - "problem card"
+  - "problem card episteme"
   - "problem signal"
   - "problem-side record"
   - "safe-probe-needed"
   - "setContextRef"
-  - "support posture"
   - "validation boundary"
 ---
 
 ### C.22.2:25 - Relations
 
 - Builds on: `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
-- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
+- Coordinates with: `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`. Use `C.22.PFR` when actual Problem obtaining or identity is current. Use `C.32.P2S` only when a problem-side record exposes architecture pressure that must continue into selected structures, candidate synthesis, decision, realization, actual-structure feedback, or refresh.
 

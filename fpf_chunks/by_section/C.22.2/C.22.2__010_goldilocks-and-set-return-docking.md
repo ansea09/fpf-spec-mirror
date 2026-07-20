@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 48690
-line_end: 48714
+line_start: 50338
+line_end: 50362
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,9 +28,11 @@ dependencies:
   - "C.16.Q"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.2.P"
   - "C.22"
   - "C.22.1"
+  - "C.22.PFR"
   - "C.24"
   - "C.25"
   - "C.27"
@@ -54,14 +56,16 @@ dependencies:
 keywords:
   - "P2W-ready"
   - "Thin problem card"
+  - "actual PFR versus non-actual or solvability claim"
+  - "assertion polarity"
+  - "current reliance"
   - "first-principles cue"
   - "freshness and unknown disposition"
-  - "problem card"
+  - "problem card episteme"
   - "problem signal"
   - "problem-side record"
   - "safe-probe-needed"
   - "setContextRef"
-  - "support posture"
   - "validation boundary"
 ---
 

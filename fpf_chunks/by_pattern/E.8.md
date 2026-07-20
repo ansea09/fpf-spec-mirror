@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 67646
-line_end: 68295
+line_start: 69294
+line_end: 69946
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -101,6 +101,8 @@ When a pattern claims practical payoff or uses a score, coordinate value, checkl
 ### E.8:0.3 - Pattern Kind In Plain Terms
 
 An FPF pattern is an action-guiding method description for a recurring working situation. It is applied by an intended FPF user who recognizes the situation, understands the problem and forces, and then uses the `Solution` to decide what to do, what to stabilize, what to avoid, and what practical change should follow.
+
+When a method-bearing `Solution` prescribes actual work or world-side change, it must also distinguish the intended reader from the admitted `U.System` that can perform that work and from the current role assignment under which that system performs the work, and distinguish the method episteme, dated `U.Work`, and problem-facing result. The intended reader and performer may coincide in one person-system, but the positions remain different. A pattern episteme, checklist, reader role, plan, or prose cannot perform the prescribed work. Do not invent a fictive performer or work occurrence when the pattern only guides a judgment or another episteme-side use.
 
 Pattern application is the user-side act: the user recognizes the working situation, applies the pattern, and uses the `Solution` to shape the next admissible use. Its `Problem frame`, `Problem`, `Forces`, `Solution`, `Consequences`, worked slices, and anti-patterns carry the guidance. Its `Conformance Checklist` checks whether that guidance has been applied and authored correctly; it must not replace the `Solution` or turn the pattern into a control form.
 
@@ -286,7 +288,8 @@ A new intended-use receives no old-use class and asserts no prior-edition preser
 3. state a move the reader can perform;
 4. state the first useful result in the subject work;
 5. add the next action-changing condition, branch, stop, or return; and
-6. add guards and conformance checks only after they can inspect that positive Solution.
+6. add guards and conformance checks only after they can inspect that positive Solution; and
+7. when the Solution prescribes actual work or world-side change, name the intended reader separately from the admitted `U.System` that performs dated `U.Work` and from the current role assignment under which that system performs that work, and keep the method episteme and problem-facing result distinct. Do not add this work position to a judgment-only pattern merely to fill the template.
 
 Test first-use affordability by checking whether the Solution supports a short rendering with this semantic shape:
 

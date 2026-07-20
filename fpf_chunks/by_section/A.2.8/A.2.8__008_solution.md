@@ -6,18 +6,20 @@ section_id: "A.2.8:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__008_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:4 — Solution"
-line_start: 5531
-line_end: 5663
+line_start: 5542
+line_end: 5674
 dependencies:
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.3"
   - "A.2.6"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.6.B"
   - "A.6.C"
   - "A.7"
@@ -35,9 +37,9 @@ keywords:
   - "evidenceRefs"
   - "modality normalization"
   - "obligation"
-  - "permission"
   - "prohibition"
-  - "scope+validity window"
+  - "recommendation-as-duty"
+  - "scope and validity window"
   - "they are not the governed object of this pattern"
 ---
 
@@ -49,7 +51,7 @@ This pattern defines:
 
 * a **normative minimal structure** for `U.Commitment`,
 * how `U.Commitment` relates to `U.PromiseContent`, `U.Work`, and evidence,
-* how it is used as the canonical payload for **D-quadrant** claims (A.6.B),
+* how it is used as the canonical payload for **D-quadrant** obligation, recommendation-as-duty, and prohibition claims (A.6.B), while permission claims route to the exact `A.2.8.PER` result,
 * and what must be stated for a commitment to be considered **auditable**.
 
 #### A.2.8:4.1 - Normative definition
@@ -89,7 +91,7 @@ CounterpartyRef ::=
   // Optional “to whom”/beneficiary/counterparty handle. Keep minimal: do not treat it as a full legal-party model.
 
 DeonticModalityToken ::=
-  MUST | MUST_NOT | SHOULD | SHOULD_NOT | MAY
+  MUST | MUST_NOT | SHOULD | SHOULD_NOT
   // FPF deontic-modality values for the `modality` slot.
   // RFC words and their synonyms are source expressions; map them only after the commitment relation is recovered.
   //
@@ -98,7 +100,7 @@ DeonticModalityToken ::=
   // - SHALL NOT, PROHIBITED  -> MUST_NOT
   // - RECOMMENDED            -> SHOULD
   // - NOT RECOMMENDED        -> SHOULD_NOT
-  // - OPTIONAL               -> MAY
+  // MAY and OPTIONAL do not normalize into U.Commitment. Recover their actual claim: strong or weak permission under A.2.8.PER, an A-* entry predicate, or informative prose.
 
 ReferentRef ::=
   ClaimIdRef | PromiseContentRef | MethodDescriptionRef | WorkRef
@@ -141,7 +143,7 @@ CommitmentSource ::=
 * **(C1) Subject must be accountable.** `subject` **MUST** resolve to an accountable role or party; it **MUST NOT** be “the interface, spec, service, or system” as an episteme.
 * **(C2) Modality must be explicit and normalized.** `modality` **MUST** be present for normative commitments and **MUST** be normalized to `DeonticModalityToken`.
 * **(C3) Scope + validity must be explicit.** `scope` and `validityWindow` **MUST** be present. Defaults are allowed only when an explicit context policy is cited as the source of those defaults (do not rely on “implied defaults”). `validityWindow` expresses *in-force* conditions; per-action admissibility gates belong in referenced `A-*` predicates.
-* **(C4) Referents must be non-empty.** `referents` **MUST** contain at least one referent (what is being obligated, permitted, or prohibited).
+* **(C4) Referents must be non-empty.** `referents` **MUST** contain at least one referent (what is being obligated, recommended as a duty, or prohibited).
 * **(C5) Referents must be by reference when possible.** If the bound content already exists as claim IDs, `referents` **SHOULD** cite those IDs rather than restating them.
 * **(C6) Auditable commitments must have adjudication hooks.** If a commitment is intended to be audited/adjudicated by observation, `adjudication.evidenceRefs` **SHALL** include the evidence claim IDs (typically `E-*`) that carry the adjudication substrate.
 * **(C7) Evidence belongs in adjudication by default.** If an `E-*` claim is referenced **only** to define *how to measure/verify* a commitment, it **SHALL** be listed in `adjudication.evidenceRefs` (not in `referents`). An `E-*` claim **MAY** appear in `referents` only when the commitment’s content is itself an evidence-producing/retaining duty (e.g., “MUST retain traces”).
@@ -166,7 +168,7 @@ CommitmentSource ::=
 
 #### A.2.8:4.4 - Canonical use in boundary claim registers (recommended)
 
-When using the A.6 stack, represent each **D-quadrant** atomic claim as a `U.Commitment` payload with:
+When using the A.6 stack, represent each **D-quadrant** atomic claim that states an accountable obligation, recommendation-as-duty, or prohibition as a `U.Commitment` payload with the fields below. A `D-*` strong/weak permission, exercise, non-violation, or conflict claim instead cites the exact `A.2.8.PER` result and does not acquire a `U.Commitment` payload:
 
 * `id = D-*`,
 * `subject = accountable role or party`,

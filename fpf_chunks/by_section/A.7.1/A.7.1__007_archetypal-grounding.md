@@ -1,0 +1,36 @@
+---
+chunk_kind: "child"
+pattern_id: "A.7.1"
+pattern_title: "Consequence-Guided Ontological Problem Solving"
+section_id: "A.7.1:5"
+section_title: "Archetypal Grounding"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.7.1/A.7.1__007_archetypal-grounding.md"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+heading_path:
+  - "A.7.1 — Consequence-Guided Ontological Problem Solving"
+  - "A.7.1:5 — Archetypal Grounding"
+line_start: 21213
+line_end: 21220
+dependencies:
+  - "A.7"
+  - "A.7.2"
+  - "A.7.CP"
+  - "C.19.2"
+  - "E.24"
+  - "E.24.UK"
+keywords:
+  - "bounded unresolved result"
+  - "direct-owner return"
+  - "ontology repair"
+  - "wrong engineering consequence"
+---
+
+### A.7.1:5 - Archetypal Grounding
+
+**Support occurrence repair.** A maintenance claim says bearing B1 continued supporting shaft S1 after removal and reinstallation. The direct relation identity rule defeats that reading before a second ontology is written. The current relation owner is already selected, so the work creates no option set. Ontology-analysis work uses `A7CP-01` and `A7CP-10`, recovers two support occurrences, repairs the warranty and incident-attribution claim, and returns it to maintenance. No new relation kind or U-kind is created.
+
+**Missing telemetry non-use.** A team cannot determine pump state because telemetry was never collected. State kinds, evidence relations, and candidate actions are already clear. The result is `returnToDirectOwner` for measurement and evidence work with the blocked state claim; no premise-use occurrence or ontology artifact is minted.
+
+**Construction-changing case.** A maintenance set uses “part” for both `MemberOf` and `ComponentOf`. Removal action differs only in the structural construction case. The work returns the disputed item to `C.13`, repairs the direct maintenance claim, and leaves unrelated set membership unchanged.
+

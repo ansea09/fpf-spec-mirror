@@ -6,12 +6,12 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 48883
-line_end: 48894
+line_start: 50531
+line_end: 50542
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,9 +28,11 @@ dependencies:
   - "C.16.Q"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.2.P"
   - "C.22"
   - "C.22.1"
+  - "C.22.PFR"
   - "C.24"
   - "C.25"
   - "C.27"
@@ -54,14 +56,16 @@ dependencies:
 keywords:
   - "P2W-ready"
   - "Thin problem card"
+  - "actual PFR versus non-actual or solvability claim"
+  - "assertion polarity"
+  - "current reliance"
   - "first-principles cue"
   - "freshness and unknown disposition"
-  - "problem card"
+  - "problem card episteme"
   - "problem signal"
   - "problem-side record"
   - "safe-probe-needed"
   - "setContextRef"
-  - "support posture"
   - "validation boundary"
 ---
 

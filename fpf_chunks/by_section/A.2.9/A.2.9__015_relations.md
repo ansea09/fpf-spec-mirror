@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:12 — Relations"
-line_start: 6093
-line_end: 6106
+line_start: 6368
+line_end: 6381
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -43,7 +43,7 @@ keywords:
 
 **Used by**
 
-* **A.2.8 (`U.Commitment`)** as a concrete target for `source.speechActRef` provenance.
+* **A.2.8 (`U.Commitment`)** as a concrete target for `source.speechActRef` provenance, and **A.2.8.PER** for a `GrantedPermissionRelation@Context` grounded by `institutingSpeechActRef`.
 * **A.2.5 (RSG checklists/guards)** when “presence of authorization/approval act” is a criterion.
 * **A.6.C (Contract unpacking)** as the “utterance/instituting act” hook that prevents episteme-as-agent claims and improves provenance.
 

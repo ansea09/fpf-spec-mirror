@@ -6,19 +6,21 @@ section_id: "C.3:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_archetypal-grounding.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:7 — Archetypal Grounding"
-line_start: 41668
-line_end: 41676
+line_start: 42866
+line_end: 42874
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.7.1"
   - "A.8"
   - "C.2.3"
+  - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
@@ -40,8 +42,8 @@ keywords:
 
 | Situation | C.3 typed-reasoning move | Boundary |
 | --- | --- | --- |
-| A safety standard uses a source category such as "critical component". | Treat the category as a context-local `U.Kind` value with intent and extent criteria for this claim. | Do not mint a durable FPF U-kind unless `E.24.UK` admits the ontic and public naming case. |
-| A software schema has a `Customer` class. | Use C.3 to ask what claims quantify over instances matching that schema in the bounded context. | Do not assume the schema class is the same kind as a contractual customer, user role, payer, or account holder. |
+| A safety standard uses a source category such as "critical component". | Treat the category as a local `U.Kind` value interpreted under the selected reference scheme, with intent and extent criteria for the named context slices. | Do not mint a durable FPF U-kind unless `E.24.UK` admits the ontic and public naming case. |
+| A software schema has a `Customer` class. | Use C.3 to ask what claims quantify over instances matching that schema under the declared reference scheme and in the named context slice. | Do not assume the schema class is the same kind as a contractual customer, user role, payer, or account holder. |
 | A cross-discipline term appears with the same label in two traditions. | Keep kind reuse bridge-visible and record loss notes before comparing extents. | Same label is not sameness of kind or scope. |
 | A local project splits "robotic musical instrument" into several working categories. | Let local kinds support the current typed reasoning claim. | Public `U.*` spelling, FPF naming, and durable ontic admission remain outside C.3. |
 

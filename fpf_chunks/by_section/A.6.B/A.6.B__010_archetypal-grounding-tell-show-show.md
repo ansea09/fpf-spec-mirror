@@ -6,16 +6,17 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 9515
-line_end: 9784
+line_start: 9792
+line_end: 10063
 dependencies:
   - "A.10"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.0"
@@ -41,7 +42,7 @@ keywords:
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "Keeps modalities separated and audit‑ready"
+  - "Keeps modalities separated and audit-ready"
   - "L/A/D/E claim classification"
   - "MAY"
   - "MUST"
@@ -51,7 +52,9 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
+  - "accountable commitments"
   - "admissible use"
+  - "alone select neither branch"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -60,10 +63,9 @@ keywords:
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
   - "atomic claims"
-  - "belong here"
   - "boundary norm square"
   - "claim IDs"
-  - "laws vs gates vs commitments vs evidence"
+  - "laws vs entry predicates vs deontic results vs evidence"
   - "may"
   - "non-admissible use"
   - "not a duty.)"
@@ -71,12 +73,12 @@ keywords:
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
+  - "strong or weak permission results"
   - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
-  - "“the interface or system promises” does not)"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -134,18 +136,20 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 * **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
-* **D** if it assigns **duties or commitments** to an accountable role assignment, `U.Role`, or admitted acting system (RFC keywords belong here; “the interface or system promises” does not).
-  **Guardrails:** `D-*` MUST name an accountable subject and SHOULD reference `L-*`/`A-*`/`E-*` by ID rather than restating them in new words (to prevent paraphrase drift).
+* **D** if it either assigns an accountable duty/recommendation/prohibition commitment under `A.2.8`, or asserts the exact strong/weak permission, exercise, non-violation, or conflict result governed by `A.2.8.PER`. RFC keywords alone select neither branch.
+  **Guardrails:** a commitment-branch `D-*` claim MUST name its accountable subject; a permission-branch `D-*` claim MUST cite the exact `A.2.8.PER` object with its direct participants/references. Either branch SHOULD reference `L-*`/`A-*`/`E-*` by ID rather than restating them in new words.
 * **E** if it is an *in‑work* truth‑conditional claim about adjudicable effects and evidence: what carriers exist, under what observation conditions, or both.
   **Minimum fields (recommended):** (1) observation and measurement conditions, (2) carrier-class and carrier-schema reference, and (3) viewpoint and consumer.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
   *(If the sentence is “Role SHALL measure, retain, or expose …”, classify that obligation to **D**, even if it is about evidence.)*
 
-**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an obligation or commitment, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
+**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an accountable obligation or commitment, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
 
 * **A**: the admissibility predicate (what must be true to treat the claim as applicable),
 * **D → A**: who is responsible for keeping or ensuring the predicate,
 * **E → A**: what evidence or traces are used to adjudicate the predicate.
+
+A permission-branch `D-*` claim instead cites its exact `A.2.8.PER` relation or finding. An `A-*` predicate may consume that result as one condition without becoming it, instituting a grant, or resolving a conflict.
 
 **Note (claim-classification sanity).** `D-*` claims are authored in the description even when their compliance is audited via `E-*` claims. Auditing via evidence does not move `D-*` into quadrant E.
 
@@ -314,7 +318,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 **A-PRJ-01 (Gate predicate: stage entry).**
 For starting execution work, `ExecutionAdmissible(project)` holds iff required approvals are present *and* required prerequisites are satisfied (e.g., risk review completed, budget line exists, key roles staffed).
-*(This is the real “may start work” gate; references L-PRJ-01 for what counts as approvals.)*
+*(This is the real “may start work” entry predicate; references L-PRJ-01 for what counts as approvals. It does not assert a `GrantedPermissionRelation@Context` unless a separate D-side grant claim and its `A.2.8.PER` ground are present.)*
 
 **D-PRJ-01 (Duty).**
 `ProjectOwner` SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-01`.

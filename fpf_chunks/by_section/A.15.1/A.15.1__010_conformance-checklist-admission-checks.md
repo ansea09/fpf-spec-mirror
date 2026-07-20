@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 22722
-line_end: 22826
+line_start: 23923
+line_end: 24023
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,19 +22,23 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.6"
+  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
-  - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.ReferenceScheme"
   - "U.Role"
   - "U.RoleAssignment"
   - "U.System"
@@ -60,33 +64,30 @@ keywords:
 A conforming `U.Work` claim names:
 (a) `enactsMethod -> U.Method` (the method enacted),
 (b) `methodDescriptionRef -> U.MethodDescription` when a source-material episteme is the current method description or an editioned method description is current,
-(c) `performedBy -> U.RoleAssignment` (the assigned performer in context), and
+(c) `performedBy -> U.RoleAssignment` (the exact assignment whose interval covers the occurrence), and
 (d) `executedWithin -> U.System`; if ordinary speech says subsystem, name the `U.System` in subsystem position plus the part relation to the larger holon under A.1, A.14, or B.1.2.
 
 **CC-A15.1-3 (Time window).**
 A conforming `U.Work` claim carries a closed interval `[t_start, t_end]`, or an explicitly marked open end for in-flight work, and, where relevant, location or asset.
 
-**CC-A15.1-4 (Context reference and judgement).**
-A `U.Work` claim is judged inside a declared `U.BoundedContext` (the judgement context).
+**CC-A15.1-4 (Interpretation and policy basis).**
+A load-bearing work claim names the exact method-description edition when current, its effective `U.ReferenceScheme`, `continuityPolicyDescriptionRef`, and any claim scope, qualification window, aggregation-policy description, acceptance predicate, or selected model-use structure on which the judgment actually depends. Plain *work-judgment basis* is shorthand for these separately governed values, not a new context object or record.
 
-- By default, the judgement context is the context of the referenced `U.MethodDescription`.
-- If `performedBy` references a `U.RoleAssignment` in a different context, cross-context acceptance needs an explicit bridge relation or policy. Otherwise the work claim is not admitted in that context.
-
+If two local senses must be related, F.9 receives the exact sense endpoints and the claimed direction and loss. A different reference scheme, role assignment, or model-use structure alone does not establish a Bridge.
 **CC-A15.1-4b (State-plane reference).**
 The work claim names the `StatePlaneRef` used for its delta judgement.
 
 **CC-A15.1-5 (RoleAssignment interval coverage).**
-The `performedBy` `U.RoleAssignment` timespan covers the work interval. If it does not, lower the claim to a non-admitted role-assignment relation for that context or re-judge it in a context that admits retroactive assignments.
+The `performedBy` `U.RoleAssignment` interval covers the work interval. If it does not, keep the work occurrence and the assignment claim separate: repair or reject the attribution, or establish a retroactive assignment only under the exact A.2.1 rule that admits it.
 
 **CC-A15.1-6 (Parameter binding).**
 Parameters declared by the `U.MethodDescription` have concrete values bound at work creation or start and recorded with the work occurrence. Defaults in the method description do not by themselves admit the performed-work claim.
 
 **CC-A15.1-7 (Capability check).**
-Capability thresholds stated by the `U.Method` or `U.MethodDescription` are checked against the holder in `performedBy` for the performed-work interval or declared checkpoints. Violations are recorded on the work outcome.
+Capability thresholds stated by the `U.Method` or `U.MethodDescription` are checked against the holder in `performedBy` for the performed-work interval or declared checkpoints. A violation is stated by the separately governed evaluation-result episteme or direct characteristic/evaluation relation; it is not recorded as an intrinsic work outcome.
 
 **CC-A15.1-8 (Acceptance criteria).**
-Success and failure classes and quality grades are determined by the acceptance criteria declared or referenced by the `U.MethodDescription` or comparator specification in the judgement context. The verdict is recorded on the work occurrence.
-
+An acceptance claim names the exact criterion or comparator specification, its edition, applicable scope and window, the evaluation or acceptance work that applied it, and the direct result relation. Success class, quality measurement, comparison result, and acceptance verdict remain distinct; no verdict is an intrinsic field of `U.Work`.
 **CC-A15.1-9 (Resource honesty).**
 Performed consumptions and costs (energy, materials, machine-time, money, tool wear) are booked to `U.Work`, not to `U.Method`, `U.MethodDescription`, `U.Role`, or `U.Capability`. Estimates belong in method descriptions or plans; performed values belong in work occurrences.
 
@@ -94,28 +95,27 @@ Performed consumptions and costs (energy, materials, machine-time, money, tool w
 When a work occurrence has parts, the selected part relation is declared: temporal-part, episode-part, operational-part, or concurrent-part. Ambiguous mixtures lower aggregation and identity claims. A `TemporalPartOf_work` claim names parent work identity plus interval or aspect; an `EpisodeOf_work` claim names the event-bounded continuity policy; an `OperationalPartOf_work` claim names the occurrence-side part and any recovered method factor separately.
 
 **CC-A15.1-11 (Temporal coverage selection).**
-For a roll-up, the judgement context declares which temporal coverage operator applies: union for utilization or convex hull for lead time. Silent mixing lowers the KPI or comparison claim.
+For a roll-up, the exact aggregation-policy description declares whether temporal coverage uses union for utilization or convex hull for lead time. Silent mixing lowers the KPI or comparison claim.
 
 **CC-A15.1-12 (Resource aggregation).**
 Aggregation of resource ledgers across work parts names an overlap policy, such as attributing shared machine-time to the parent only, before totals are used.
 
 **CC-A15.1-13 (Identity and retries).**
-A retry is a new `U.Work` occurrence linked via `retryOf`. Interruptions treated as the same occurrence are represented as episodes (`resumptionOf`) under a context-declared episode policy. Interruption, retune, rework, changed parameter set, changed method-description edition, changed affected referent, switch-away, or restart become a separate `U.Work` when the bounded-context policy declares a new occurrence.
+A retry is a new `U.Work` occurrence linked via `retryOf`. An interruption remains inside the same occurrence only when the exact `continuityPolicyDescriptionRef` admits an `EpisodeOf_work`; otherwise the later enactment is another occurrence. Changed method-description edition, affected referent, parameter binding, or temporal extent is tested by that policy rather than by a context label.
 
 **CC-A15.1-14 (Concurrency and ordering).**
 Overlaps and precedences among work occurrences use interval relations (`overlaps`, `precedes`, `contains`, or `within`). Implicit "step order" claims are not admitted as performed-work evidence.
 
-**CC-A15.1-15 (Cross-context evidence).**
-If a work occurrence is accepted in multiple contexts, either re-judge it in each context or provide bridge relations that map acceptance criteria, units, and role-assignment relations. Name identity alone does not carry cross-context acceptance.
-
+**CC-A15.1-15 (Cross-locality evaluation).**
+A work occurrence keeps one identity when several receiving uses evaluate it. Each use names its own effective reference scheme, claim scope, criterion, qualification window, evaluation work, and result episteme. Use F.9 only when an exact Bridge between local senses is actually needed; a shared work name or record carries no acceptance across uses.
 **CC-A15.1-16 (Method-description reference changes during work).**
-If the method-description version changes mid-occurrence, split the work into episodes bound to respective `U.MethodDescription` editions, or record an explicit method-description override event in the judgement context. Silent substitution lowers the work claim.
+If the method-description edition changes mid-occurrence, split the work into episodes bound to the respective editions, or record an exact override occurrence and its direct relation to the work and selected description edition. Silent substitution lowers the work claim.
 
 **CC-A15.1-17 (Distributed performers).**
 If multiple `U.RoleAssignment` values jointly perform the same top-level work occurrence, either designate a lead `U.RoleAssignment` with concurrent parts, or model the top-level occurrence as a parent work with child work occurrences per `U.RoleAssignment`.
 
 **CC-A15.1-18 (Logs are evidence, not work by themselves).**
-Logs and telemetry evidence a work occurrence only after they are bound to `methodDescriptionRef` when current, performer, time window, affected referent, and judgement context.
+Logs and telemetry support a claim about work only through an exact evidence-use relation that identifies the work occurrence, method-description edition when current, performer assignment, temporal extent, affected referent, and the policy or qualification values on which the receiving claim relies.
 
 **CC-A15.1-19 (Affected referent).**
 Each `U.Work` claim names at least one affected referent, such as asset, product, batch, dataset, or document, through `affected -> {...}`.
@@ -124,7 +124,7 @@ Each `U.Work` claim names at least one affected referent, such as asset, product
 Each `U.Work` claim carries either explicit pre-state and post-state references on the declared state-plane or a delta predicate evaluable on evidence. A no-op occurrence is flagged as such.
 
 **CC-A15.1-21 (Affected-referent declaration vs. record handling).**
-A work occurrence whose only effect is copying or reformatting records qualifies as `U.Work` only when the judgement context declares those records to be the product referent, such as data-product manufacture.
+A work occurrence whose only effect is copying or reformatting records qualifies as `U.Work` only when an exact affected-referent or operation-participation relation identifies those records as the product referent. A label or surrounding record does not establish that relation.
 
 **CC-A15.1-22 (Executed-within declaration).**
 Each `U.Work` claim names `executedWithin -> U.System`; when the accountable system is a subsystem in ordinary speech, name the system and its part relation to the larger holon. When that system differs from the asset of change, keep `affected` explicit.

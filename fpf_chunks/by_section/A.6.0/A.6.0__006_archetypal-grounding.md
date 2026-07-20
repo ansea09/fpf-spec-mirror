@@ -6,12 +6,12 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_archetypal-grounding.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:5 — Archetypal Grounding"
-line_start: 10830
-line_end: 10867
+line_start: 11123
+line_end: 11160
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -52,7 +52,7 @@ Practical payoff: engineers can compare the connector variables and laws in two 
 
 A clinical modeling group reuses `DoseResponseRelationKind`. The relation signature names `PatientEpisodeSlot`, `InterventionSlot`, `OutcomeCharacteristicSlot`, and `ObservationWindowSlot`. Its Laws declare the response predicate and the temporal-aggregation conditions under which that predicate is evaluated. Applicability identifies the studied population, intervention kind, declared dosing frequency and timing conditions, and observation interval. The effective reference scheme separately fixes how the declaration content is interpreted.
 
-The signature does not assert that one patient responded. A response assertion designates the actual participants and states its modality. An A.2.4 evidence-use relation may relate a selected assay-result episteme to that response assertion under the named claim scope, evidential polarity, relevance window, and provenance constraints; it may thereby make that episteme admissible for the assertion, while the direct response pattern determines independently whether the response relation obtains. A changed assay result or later use leaves the signature unchanged. If the declared outcome characteristic or Applicability changes, the exact claim content carried by the signature's `U.ClaimGraph` changes and C.2.1 identifies another episteme. A.6.0 then judges `U.Signature` membership independently, and any edition, refinement, or supersession relation must separately obtain.
+The signature does not assert that one patient responded. A response assertion designates the actual participants and states affirmative or negative assertion polarity for the response predicate. When an evidence-use question is current, an evidence-use relation using A.2.4 SlotKinds may relate a selected assay-result episteme to that response assertion and carry the assay episteme, target assertion, named claim scope, evidential polarity, relevance window, and provenance constraints. When an explicit reliance judgment is also current for the declared use, `A.10` or the receiving evaluation separately returns supported, refuted, or unresolved reliance. Neither the evidence-use relation nor that reliance result determines whether the response relation obtains; the direct response pattern does so independently. A changed assay result or later use leaves the signature unchanged. If the declared outcome characteristic or Applicability changes, the exact claim content carried by the signature's `U.ClaimGraph` changes and C.2.1 identifies another episteme. A.6.0 then judges `U.Signature` membership independently, and any edition, refinement, or supersession relation must separately obtain.
 
 Practical payoff: protocol authors and analysts can share the relation declaration while keeping patient occurrences, evidence epistemes, and their claim-bound evidence-use relations under their own identities.
 

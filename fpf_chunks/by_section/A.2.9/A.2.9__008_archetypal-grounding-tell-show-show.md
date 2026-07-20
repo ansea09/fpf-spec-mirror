@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 5970
-line_end: 6032
+line_start: 6243
+line_end: 6307
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,7 +37,7 @@ keywords:
 
 #### A.2.9:5.1 — Tell (universal rule)
 
-When governance or gating depends on “someone said/did X”, model **that saying/doing** as a `U.SpeechAct` (a Work occurrence), and keep the utterance text and carriers separate. If the saying/doing creates obligations, model those obligations as `U.Commitment` objects instituted by the speech act.
+When governance or gating depends on “someone said/did X”, model **that saying/doing** as a `U.SpeechAct` (a Work occurrence), and keep the utterance text and carriers separate. If it creates obligations, recommendations-as-duty, or prohibitions, cite explicit `U.Commitment` objects; if it creates strong permission, cite an explicit `GrantedPermissionRelation@Context`. The act institutes neither effect without the exact context policy.
 
 #### A.2.9:5.2 — Show #1 (system archetype: change-control approval gates a deployment)
 
@@ -53,27 +53,29 @@ When governance or gating depends on “someone said/did X”, model **that sayi
   * `isExecutionOf = MethodDescriptionRef(ChangeApprovalProcedure_v3)`
   * `executedWithin = ChangeControlBoardSystem`
   * `window = [t,t]`
-  * `affected = {ChangeRequestId(4711), WorkRef(Deploy-4711)}`
+  * `affected = {ChangeRequestId(4711)}`
   * `utteranceRefs = {EpistemeRef(ChangeTicket#4711)}`
   * `carrierRefs = {CarrierRef(TicketSystemRecord#4711)}`
-  * `institutes.commitments = {CommitmentIdRef(D-Deploy-Authorized)}`
+  * `institutes.permissions = {U.EntityRef(PER-Deploy-4711)}`
 
-* `U.Commitment D-Deploy-Authorized`
+* `GrantedPermissionRelation@ChangeControl PER-Deploy-4711`
 
-  * `subject = RoleAssignmentRef(OpsBot#DeployerRole:CD_Pipeline_v7)`
-  * `modality = MAY` (permission to enact)
-  * `referents = {A-Gate-Deploy-4711}`
-  * `source.speechActRef = SA-Approve-4711`
+  * `beneficiaryRef = RoleAssignmentRef(OpsBot#DeployerRole:CD_Pipeline_v7)`
+  * `permittedActionSpecificationRef = EpistemeRef(DeployChange4711WorkSpecification)`
+  * `institutingSpeechActRef = SA-Approve-4711`
+  * `grantorAssignmentRef = RoleAssignmentRef(CAB_Chair as ApproverRole@ChangeControl)`
+  * `grantValidityPolicyRef = EpistemeRef(ChangeControlGrantPolicy_v3)`
+  * `scope`, `validityWindow`, and revocation stance are explicit.
 
-* Gate predicate `A-Gate-Deploy-4711` may include:
-  `exists SpeechAct(type=Approval, affected includes ChangeRequestId(4711), performedBy role=ApproverRole, within 90d)`.
+* Gate predicate `A-Gate-Deploy-4711` independently states whether deployment entry conditions hold. It may check `exists SpeechAct(type=Approval, affected includes ChangeRequestId(4711), performedBy role=ApproverRole, within 90d)`, consume the current grant occurrence, and apply other prerequisites; passing the gate neither institutes nor equals the grant.
 
 This preserves:
 
-* act vs text vs carrier,
-* explicit performer,
-* time window for freshness,
-* explicit provenance from commitment back to the instituting act.
+* act vs text vs carrier vs enduring grant,
+* explicit performer and grant beneficiary,
+* time window and policy for currentness,
+* explicit provenance from the grant to the instituting act, and
+* the distinction between strong permission and an admissibility gate.
 
 #### A.2.9:5.3 — Show #2 (episteme archetype: publishing a spec edition without making the spec an agent)
 

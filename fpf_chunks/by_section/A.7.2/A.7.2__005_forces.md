@@ -1,0 +1,41 @@
+---
+chunk_kind: "child"
+pattern_id: "A.7.2"
+pattern_title: "FPF Ontology-Premise Reconciliation"
+section_id: "A.7.2:3"
+section_title: "Forces"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.7.2/A.7.2__005_forces.md"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+heading_path:
+  - "A.7.2 — FPF Ontology-Premise Reconciliation"
+  - "A.7.2:3 — Forces"
+line_start: 21313
+line_end: 21322
+dependencies:
+  - "A.10"
+  - "A.7.1"
+  - "A.7.2"
+  - "A.7.CP"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "G.11"
+keywords:
+  - "incompatible FPF consequences"
+  - "optional convergence"
+  - "premise reconciliation"
+  - "same receiving claim and scope"
+  - "source-use conflict"
+---
+
+### A.7.2:3 - Forces
+
+| Force | Tension |
+|---|---|
+| Compatibility vs honest pluralism | Shared use is valuable, but some methods should remain context-separated or non-composable. |
+| Small repair vs foundation drift | Reopen the decision that carries the conflict without rewriting unrelated ontology. |
+| Source use vs source prestige | Sources matter through exact claim use, not status labels or total rankings. |
+| Formal comparability vs domain evidence | Typed consequences can expose contradiction, but formal shape cannot settle the world by itself. |
+| Current decision vs reopenability | Landed FPF is the default internal basis, yet grounded counterexamples and accepted contradictions can reopen it. |
+

@@ -6,18 +6,20 @@ section_id: "A.2.8:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 5727
-line_end: 5736
+line_start: 5738
+line_end: 5747
 dependencies:
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.3"
   - "A.2.6"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.6.B"
   - "A.6.C"
   - "A.7"
@@ -35,9 +37,9 @@ keywords:
   - "evidenceRefs"
   - "modality normalization"
   - "obligation"
-  - "permission"
   - "prohibition"
-  - "scope+validity window"
+  - "recommendation-as-duty"
+  - "scope and validity window"
   - "they are not the governed object of this pattern"
 ---
 

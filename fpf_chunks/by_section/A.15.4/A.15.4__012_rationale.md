@@ -6,12 +6,12 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:7 — Rationale"
-line_start: 23950
-line_end: 23955
+line_start: 25141
+line_end: 25146
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -41,6 +42,7 @@ keywords:
   - "copied approval"
   - "credential view"
   - "dashboard display"
+  - "exact permission-result relation or finding"
   - "generated explanation"
   - "project-side claim/effect reference"
   - "publication face"
@@ -54,5 +56,5 @@ keywords:
 
 A.15.4 exists because work often first meets a source expression, source `U.Episteme`, source `U.EpistemePublication`, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the governing pattern position and project-side reference are visible. The pattern protects work momentum and recoverability together: it lets the practitioner use the reliance appearance for orientation or bounded source-finding, while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed work, release authorization, role-assignment currentness, role-state currentness, or credential-status currentness by appearance.
 
-The pattern is deliberately a local repair relation, not a new authority relation. Once the evidence, gate, assurance, speech-act, commitment, role-assignment, role-state, credential-status, context-state, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim carries it directly.
+The pattern is deliberately a local repair relation, not a new authority relation. Once the evidence, gate, assurance, speech-act, commitment or exact permission result, role-assignment, role-state, credential-status, context-state, work-occurrence, publication, or boundary claim named by value is recovered, the pattern that governs that claim or result carries it directly.
 

@@ -6,18 +6,19 @@ section_id: "A.6:End"
 section_title: "A.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__015_a-6-end.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:End — A.6:End"
-line_start: 8785
-line_end: 8786
+line_start: 9062
+line_end: 9063
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -42,12 +43,9 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.9"
-  - "U.EpistemicViewing"
   - "U.Mechanism"
-  - "U.MultiViewDescribing"
   - "U.Signature"
   - "U.View"
-  - "U.Viewpoint"
   - "U.Work"
 keywords:
   - "A.6.B L/A/D/E claims"

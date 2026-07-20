@@ -6,12 +6,12 @@ section_id: "A.15.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__002_problem-frame.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:1 — Problem Frame"
-line_start: 22500
-line_end: 22505
+line_start: 23698
+line_end: 23703
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -22,19 +22,23 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.2"
+  - "A.2.6"
+  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
   - "B.1"
   - "B.1.6"
   - "B.3"
+  - "C.2.1"
+  - "C.27.TA"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
-  - "U.BoundedContext"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
+  - "U.ReferenceScheme"
   - "U.Role"
   - "U.RoleAssignment"
   - "U.System"
@@ -55,5 +59,5 @@ keywords:
 
 After we have separated **who is assigned** (via `U.RoleAssignment`), **what capability is being relied on** (via `U.Capability`), and **how in principle** the work is done (via `U.Method` or `U.MethodDescription`), we still need a precise concept for **what happened as performed work** in real time and space.
 
-That concept is **`U.Work`**: the **dated performed occurrence** of enacting a `U.Method` by a specific performer under a `U.RoleAssignment`, with concrete parameter bindings, resource consumption, and outcomes, **naming the domain referent changed by the occurrence** (asset, product, or dataset) - **not** merely the manipulation of records about that referent. Managers care about Work because cost, time, defects, and result evidence are booked on performed occurrences. Architects care because Work ties plans and method descriptions to accountable performed work.
+That concept is **`U.Work`**: the **dated performed occurrence** of enacting a `U.Method` by a specific performer under a `U.RoleAssignment`, with concrete bindings and resource use, **naming the domain referent affected by the occurrence** (asset, product, patient, learner, or dataset) - **not** merely the manipulation of records about that referent. Managers care about Work because cost, time, and responsibility attach to performed occurrences. Architects care because Work connects plans and method descriptions to accountable performance without absorbing the separately governed changes, measurements, verdicts, or downstream effects.
 

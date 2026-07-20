@@ -6,16 +6,17 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 9846
-line_end: 9853
+line_start: 10125
+line_end: 10132
 dependencies:
   - "A.10"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.0"
@@ -41,7 +42,7 @@ keywords:
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "Keeps modalities separated and audit‑ready"
+  - "Keeps modalities separated and audit-ready"
   - "L/A/D/E claim classification"
   - "MAY"
   - "MUST"
@@ -51,7 +52,9 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
+  - "accountable commitments"
   - "admissible use"
+  - "alone select neither branch"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -60,10 +63,9 @@ keywords:
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
   - "atomic claims"
-  - "belong here"
   - "boundary norm square"
   - "claim IDs"
-  - "laws vs gates vs commitments vs evidence"
+  - "laws vs entry predicates vs deontic results vs evidence"
   - "may"
   - "non-admissible use"
   - "not a duty.)"
@@ -71,12 +73,12 @@ keywords:
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
+  - "strong or weak permission results"
   - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
-  - "“the interface or system promises” does not)"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -86,5 +88,5 @@ keywords:
 * **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
 * **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are classified as `E-*` with carrier references.
 * **Requires A.7:** binds quadrants to `EntityOfConcern`, Description episteme, or publication carrier so agency and evidence are not misattributed.
-* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims; faces must not mint new semantic commitments.
+* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims; faces must not mint new semantic commitments or permissions. **A.2.8** owns accountable duty/recommendation/prohibition commitments; **A.2.8.PER** owns strong/weak permission, exercise, non-violation, and conflict results.
 

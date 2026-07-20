@@ -6,12 +6,12 @@ section_id: "C.22.2:3"
 section_title: "Problem-Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-kind-recovery.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:3 — Problem-Kind Recovery"
-line_start: 48585
-line_end: 48602
+line_start: 50233
+line_end: 50250
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,9 +28,11 @@ dependencies:
   - "C.16.Q"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.2.P"
   - "C.22"
   - "C.22.1"
+  - "C.22.PFR"
   - "C.24"
   - "C.25"
   - "C.27"
@@ -54,14 +56,16 @@ dependencies:
 keywords:
   - "P2W-ready"
   - "Thin problem card"
+  - "actual PFR versus non-actual or solvability claim"
+  - "assertion polarity"
+  - "current reliance"
   - "first-principles cue"
   - "freshness and unknown disposition"
-  - "problem card"
+  - "problem card episteme"
   - "problem signal"
   - "problem-side record"
   - "safe-probe-needed"
   - "setContextRef"
-  - "support posture"
   - "validation boundary"
 ---
 
@@ -72,7 +76,7 @@ For this decision, `problem` remains an ordinary word in non-FPF-governed prose.
 | FPF-governed use | Current FPF recovery | `C.22.2` disposition |
 |---|---|---|
 | Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or problem signal reference | May trigger a `ProblemCard@Context`, but is not yet a problem-side representation by itself. |
-| Problematic situation | Context-bound situation under a viewpoint, domain, constraints, risks, and candidate EntityOfConcern | Captured only through fields that make the situation reviewable. |
+| Problematic situation | Plain cue for an exact condition, entity, work, transformation, relation, or combination already governed by their direct patterns | The card states claims about the exact recovered objects; the phrase does not introduce `U.Situation`. An actual Problem requires an obtaining `ProblematicForRelation` under `C.22.PFR`. |
 | Framed problem representation | Problem-side representation of a selected EntityOfConcern under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims apply `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when current. |
 | Candidate problem in archive or retained candidate pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that FPF relation is being made and named by value, retention criterion, budget or window, and review cadence when the retention rule requires it. |
 | Selected problem from a set-return treatment | Selected set member or emitted problem-side record under a selection criterion | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |

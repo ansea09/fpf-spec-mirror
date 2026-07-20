@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 23823
-line_end: 23902
+line_start: 25014
+line_end: 25093
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,6 +20,7 @@ dependencies:
   - "A.16.0"
   - "A.2.1"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -41,6 +42,7 @@ keywords:
   - "copied approval"
   - "credential view"
   - "dashboard display"
+  - "exact permission-result relation or finding"
   - "generated explanation"
   - "project-side claim/effect reference"
   - "publication face"
@@ -110,12 +112,12 @@ Lintable overread cues:
 
 | Lint signal | Governing relation named by value |
 | --- | --- |
-| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, and `A.2.9` for agreement-like wording when agreement, commitment, or speech-act claims are being made. |
+| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, `A.2.8.PER`, and `A.2.9` for agreement-like wording when commitment, permission, or speech-act claims are being made. |
 | Dashboard tile, credential-status color, role-state color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` or `DecisionLogRef` plus `A.10` evidence relation and currentness relation. |
-| Credential screenshot or badge used as deontic permission, authorization, role-assignment relation, role-state relation, or credential-status relation | Require `A.10` issuer, holder, verifier, credential-status, currentness, and relying-context fields, then the `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` governing record or relation named by value for the required deontic permission, authorization, role assignment, role-state, credential-status, gate claim, or gate effect. |
-| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation relation and source-finding relation and `A.10` claim-bound source relation; issue, approval, gate, and commitment claims still need `A.2.9`, `A.21`, or `A.2.8`. |
+| Credential screenshot or badge used as deontic permission, authorization, role-assignment relation, role-state relation, or credential-status relation | Require `A.10` issuer, holder, verifier, credential-status, currentness, and relying-context fields, then the exact `A.2.8.PER`, `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` governing record or relation named by value for the required permission, commitment, authorization act, role assignment, role state, credential status, gate claim, or gate effect. |
+| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for the explanation relation and source-finding relation and `A.10` for the claim-bound source relation; an issuing or approval act still needs `A.2.9`, a permission result `A.2.8.PER`, a commitment `A.2.8`, and a gate effect `A.21`. |
 | Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence relation. Use `A.15.5` instead when the current claim is full-kit or work-entry readiness. |
-| Provenance or attestation label cited as truth, safety, release, deontic permission, or authorization | Require `A.10` bounded provenance claim or process-trace claim plus separate evidence for truth, safety, release, deontic permission, authorization, or assurance. |
+| Provenance or attestation label cited as truth, safety, release, deontic permission, or authorization | Require `A.10` bounded provenance claim or process-trace claim plus the separate direct owner and evidence for truth, safety, release, authorization act, assurance, or the exact `A.2.8.PER` permission result. |
 | Evidence, assurance, gate, or work-occurrence words without the governing pattern value that carries that claim or effect | Recover the `A.10` evidence relation, `B.3` assurance claim, `A.21` gate decision, or `A.15.1` work-occurrence record respectively before the work claim or reliance claim is used. |
 
 Stress cases for practice:
@@ -123,10 +125,10 @@ Stress cases for practice:
 | Case | Expected A.15.4 disposition |
 | --- | --- |
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision or decision log plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Recover original `A.2.9` `SpeechActRef`, currentness, freshness, and any `A.2.8` commitment or `A.21` gate decision record needed for the claim. |
+| Copied approval from last month. | Recover the original `A.2.9 SpeechActRef`, currentness, freshness, and the exact `A.2.8.PER` permission result, `A.2.8` commitment, or `A.21` gate decision record needed for the claim. |
 | Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer, holder, verifier, credential-status, and revocation relation and do not infer deontic permission or authorization. |
-| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation and source-finding and `A.10` claim-bound source relation; issuing, gate, and commitment claims still need the relevant `A.2.9` issuing act, `A.21` gate decision, or `A.2.8` commitment relation named by value. |
-| Boundary wording says `guaranteed approved for production`. | Split through `A.6` or `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, and `A.2.9`. |
+| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation and source-finding and `A.10` for the claim-bound source relation; issuing, permission, commitment, and gate claims still need the relevant `A.2.9` issuing act, `A.2.8.PER` permission result, `A.2.8` commitment relation, or `A.21` gate decision named by value. |
+| Boundary wording says `guaranteed approved for production`. | Split through `A.6` or `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, `A.2.8.PER`, and `A.2.9`. |
 | Dashboard says green while decision log says blocked. | Treat as conflicting source relations; name source-relation order, governing decision record, freshness policy, and supersession rule before the work claim or reliance claim is used. |
 | CRISPR lab dashboard says the guide edit is ready. | Treat the dashboard as orientation or source-finding until the protocol publication or protocol record, approval record or gate record, role-assignment record, evidence relation, current lab context record, and `U.WorkPlan` for the intended edit are recoverable. If the question is full-kit or work-entry readiness for the intended edit, use `A.15.5`; the readiness tile still does not create biological-intervention authorization, deontic permission, safety, or performed work. |
 

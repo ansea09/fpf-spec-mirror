@@ -6,16 +6,17 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 9318
-line_end: 9422
+line_start: 9595
+line_end: 9699
 dependencies:
   - "A.10"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.6"
   - "A.6.0"
@@ -41,7 +42,7 @@ keywords:
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
   - "(they are not obligations"
-  - "Keeps modalities separated and audit‑ready"
+  - "Keeps modalities separated and audit-ready"
   - "L/A/D/E claim classification"
   - "MAY"
   - "MUST"
@@ -51,7 +52,9 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
+  - "accountable commitments"
   - "admissible use"
+  - "alone select neither branch"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
@@ -60,10 +63,9 @@ keywords:
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
   - "atomic claims"
-  - "belong here"
   - "boundary norm square"
   - "claim IDs"
-  - "laws vs gates vs commitments vs evidence"
+  - "laws vs entry predicates vs deontic results vs evidence"
   - "may"
   - "non-admissible use"
   - "not a duty.)"
@@ -71,12 +73,12 @@ keywords:
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
+  - "strong or weak permission results"
   - "they describe adjudicable effects and evidence)"
   - "triangle decomposition"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
-  - "“the interface or system promises” does not)"
   - "”) used as operators inside L- or A- predicates (should be D- that references L-/A-)"
 ---
 
@@ -104,7 +106,7 @@ This section is the normative “API” of the square: what each quadrant is for
 
 #### A.6.B:5.2 — Quadrant A: Admissibility & Gates
 
-**Intent.** Specify when a mechanism application is admissible: runtime entry predicates, authorization gates, validity gates, applicability checks that require context or execution environment.
+**Intent.** Specify when a mechanism application is admissible: runtime entry predicates, validity gates, and applicability checks that require context or execution environment. An `A-*` predicate may test a current grant or conflict result as one condition, but it does not institute permission, resolve conflict, or become a grant.
 
 **Common mistake #0 — Applicability ≠ Admissibility (informative).** Signature `Applicability` scopes *intended use and bounded context*; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If your prose reads like “clients must satisfy the applicability”, you almost certainly want a `D-*` duty + an `A-*` gate (linked by ID) instead.
 
@@ -127,21 +129,21 @@ This section is the normative “API” of the square: what each quadrant is for
 
 #### A.6.B:5.3 — Quadrant D: Deontics & Commitments
 
-**Intent.** State governance: obligations, governance conditions, exclusions, commitments, publication duties, operational duties, contractual commitments—always with accountable role assignments, role values, or admitted acting systems.
+**Intent.** State governance through one of two D branches: accountable obligations, recommendations-as-duty, prohibitions, commitments, publication duties, operational duties, or contractual commitments under `A.2.8`; or the exact strong/weak permission, exercise, non-violation, or conflict result under `A.2.8.PER`. Only the commitment branch requires an accountable role assignment, role value, or admitted acting system as its subject.
 
 **Adjudication.** In‑description (governance is stated in the spec); compliance may be audited via `E-*`.
 
-**Canonical form.** A deontic statement **MUST** have an accountable subject (role assignment, `U.Role`, or admitted acting system), e.g.:
+**Canonical form.** In the `U.Commitment` branch, a `D-*` statement **MUST** have an accountable subject (role assignment, `U.Role`, or admitted acting system). In the permission branch, it **MUST** cite the exact `A.2.8.PER` object and preserve that object's own participant/reference contract: beneficiary/action for a grant or weak finding, actual work plus grant occurrence for exercise, checked actual work for non-violation, or the exact grant and conflicting norm for conflict. Commitment-branch examples:
 
 * “Client implementers **MUST** satisfy `A-…`.”
 * “Operators **SHALL** retain carriers …”
 * “Provider **SHALL** meet `E-…` under exclusions …”
 
-**Canonical payload (recommended; lintable).** When a `D-*` claim is intended to be lintable and reusable, it **SHOULD** be representable as a `U.Commitment` record (A.2.8). Default fields to make explicit:
+**Canonical payload (recommended; lintable).** When a `D-*` claim states an accountable obligation, recommendation-as-duty, or prohibition and is intended to be lintable and reusable, it **SHOULD** be representable as a `U.Commitment` record (A.2.8). A `D-*` statement that instead asserts strong permission, weak non-prohibition/non-violation, actual permission exercise, or permission conflict cites the exact `A.2.8.PER` result and does not force it through `U.Commitment.modality`. Default commitment fields to make explicit:
 
 * `id` (often the `D-*` claim ID),
 * `subject` (accountable role assignment or party; never an episteme),
-* `modality` (BCP‑14/RFC keyword family normalized),
+* `modality` (the exact A.2.8 `DeonticModalityToken`: `MUST | MUST_NOT | SHOULD | SHOULD_NOT`),
 * `scope` + `validityWindow`,
 * `referents` (by ID; e.g., `SVC-*`, `L-*`, `A-*`, `E-*`, `MethodDescriptionRef(...)`),
 * optional `adjudication.evidenceRefs` when the commitment is meant to be auditable,
@@ -149,11 +151,11 @@ This section is the normative “API” of the square: what each quadrant is for
 
 **Prohibitions.**
 
-* A `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as the grammatical subject unless the accountable role assignment or admitted acting system is explicitly named (so the statement is representable as a `U.Commitment` with an explicit `subject`, A.2.8). Use `A.6.C` when contract, promise, utterance, or agreement-like boundary language is live.
+* A commitment-branch `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as the grammatical subject unless the accountable role assignment or admitted acting system is explicitly named. A permission-branch `D-*` statement **MUST NOT** acquire a commitment subject; it **MUST** preserve the exact selected `A.2.8.PER` object's participants and references. Use `A.6.C` when contract, promise, utterance, or agreement-like boundary language is live.
 * A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID.
-* A `D-*` statement **MUST NOT** pretend that commitments are laws. A commitment is an agent relation, not a truth‑conditional invariant.
+* A `D-*` statement **MUST NOT** pretend that deontic results are laws. A commitment is an accountable-agent relation, and a permission result retains its direct `A.2.8.PER` relation/finding kind; neither is a truth-conditional invariant.
 
-**A.7 EntityOfConcern binding.** `D-*` claims are primarily **about Objects** (accountable role assignments or admitted acting systems and their duties) or **about Carriers** (retention and exposure duties), but they are still written as **Descriptions**.
+**A.7 EntityOfConcern binding.** A commitment-branch `D-*` claim is about the accountable role assignment or admitted acting system and its duty, or about a carrier-retention/exposure duty. A permission-branch `D-*` claim is about the exact `A.2.8.PER` relation or finding with its direct participants and references. Both remain written as **Descriptions**.
 
 **Required references (explicit).**
 

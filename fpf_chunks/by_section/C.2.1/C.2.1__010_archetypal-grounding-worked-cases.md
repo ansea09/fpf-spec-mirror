@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 38548
-line_end: 38593
+line_start: 39745
+line_end: 39790
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -81,7 +81,7 @@ Episteme `E1` participates in revision work `W2` through the exact source-to-rev
 
 #### C.2.1:9.6 - Grounded identity across two observations
 
-A morning-observation episteme concerns observed object `M` under one reference scheme; an evening-observation episteme concerns observed object `E` under another. A physically testable trajectory together with observations can support an assertion that `M` and `E` designate the same planet only under the exact direct identity or reidentification governor for the observed entity. If no such current governor is recoverable, keep the identity claim unresolved and return an exact missing-relation blocker naming `M`, `E`, the required identity predicate and use, and the missing governor. The assertion is another episteme whose claim content designates the direct identity and evidence relations that make its modality inspectable. Once both designations resolve to the same exact entity, the two observation epistemes still need not merge: their claim graphs or effective reference schemes can keep their C.2.1 identities different. A shared label or shared grounding holon alone establishes neither world-side identity nor episteme identity.
+A morning-observation episteme concerns observed object `M` under one reference scheme; an evening-observation episteme concerns observed object `E` under another. A physically testable trajectory together with observations can support an assertion that `M` and `E` designate the same planet only under the exact direct identity or reidentification governor for the observed entity. If no such current governor is recoverable, keep the identity assertion's reliance unresolved and return an exact missing-relation blocker naming `M`, `E`, the required identity predicate and use, and the missing governor. The assertion is another episteme whose claim content states affirmative or negative polarity for the direct identity predicate and designates the direct identity and evidence relations that make its supported, refuted, or unresolved reliance inspectable. Once both designations resolve to the same exact entity, the two observation epistemes still need not merge: their claim graphs or effective reference schemes can keep their C.2.1 identities different. A shared label or shared grounding holon alone establishes neither world-side identity nor episteme identity.
 
 #### C.2.1:9.7 - Readable wiring diagram as a proxy
 

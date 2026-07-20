@@ -6,19 +6,21 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 41585
-line_end: 41605
+line_start: 42783
+line_end: 42803
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.7.1"
   - "A.8"
   - "C.2.3"
+  - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
@@ -40,7 +42,7 @@ keywords:
 
 Use this pattern when a claim needs to say what kind of entity or value it quantifies over, which instances belong to that kind in a context slice, how intent and extent are related, and how typed compatibility affects composition.
 
-**What goes wrong if missed.** A source type, local category, programming class, schema shape, or public `U.*` name starts doing several jobs at once: membership, scope, construction basis, public kind admission, and cross-context sameness all blur.
+**What goes wrong if missed.** A source type, local category, programming class, schema shape, or public `U.*` name starts doing several jobs at once: membership, scope, construction basis, public kind admission, and sameness across reference schemes or context slices all blur.
 
 **What this buys.** Typed reasoning becomes reviewable before naming or ontology growth: the user can separate local `U.Kind` values, intent, extent, claim scope, bridge loss, and durable FPF U-kind admission.
 
@@ -51,7 +53,7 @@ Typical moments:
 - a local kind needs membership, extension, bridge, or subkind reasoning;
 - a `U.Kind` or `U.SubkindOf` occurrence must be kept distinct from durable FPF U-kind admission.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the typed reasoning claim: kind, intent, extent, membership, and typed compatibility in a bounded context.
+**Primary EntityOfConcern.** The EntityOfConcern is one typed-reasoning claim: one local `U.Kind` intent interpreted under an effective `U.ReferenceScheme`, its extent in an exact `U.ContextSlice`, membership, and typed compatibility.
 
 **First useful move.** Ask whether the current question is C.3 typed reasoning or U-kind admission. If it is U-kind admission, use `E.24.UK`. If it is claim quantification, stay in C.3.
 

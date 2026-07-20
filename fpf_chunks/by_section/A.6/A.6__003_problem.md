@@ -6,18 +6,19 @@ section_id: "A.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__003_problem.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:2 — Problem"
-line_start: 8343
-line_end: 8357
+line_start: 8618
+line_end: 8632
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.1"
   - "A.2.3"
   - "A.2.8"
+  - "A.2.8.PER"
   - "A.2.9"
   - "A.20"
   - "A.21"
@@ -42,12 +43,9 @@ dependencies:
   - "E.8"
   - "F.18"
   - "F.9"
-  - "U.EpistemicViewing"
   - "U.Mechanism"
-  - "U.MultiViewDescribing"
   - "U.Signature"
   - "U.View"
-  - "U.Viewpoint"
   - "U.Work"
 keywords:
   - "A.6.B L/A/D/E claims"
@@ -74,11 +72,11 @@ keywords:
 When boundaries are described without an L/A/D/E claim-classification discipline, four confusions dominate:
 
 1. **Laws vs admissibility.** Authors encode runtime gate predicates as “laws”, or write invariants using RFC‑style deontic verbs, blurring “what is true or defined” with “what is allowed to be applied”. FPF explicitly separates these: operational guard predicates belong to mechanisms (A.6.1), not signatures (A.6.0).
-   *Common mistake #0 — Applicability ≠ Admissibility (informative):* Signature `Applicability` scopes declared admissible use and bounded context; it is not a runtime entry gate. Runtime entry checks and permission predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If an accountable role assignment or admitted acting system is obligated to satisfy or enforce such a gate, express that as a `D-*` duty that references the `A-*` claim ID (per A.6.B), not by rewriting the gate as “X MUST …”.
+   *Common mistake #0 — Applicability ≠ Admissibility (informative):* Signature `Applicability` scopes declared admissible use and bounded context; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. An `A-*` predicate may consume a current `A.2.8.PER` permission result as one condition, but it is not that result and does not institute a grant. If an accountable role assignment or admitted acting system is obligated to satisfy or enforce such a gate, express that as a `D-*` duty that references the `A-*` claim ID (per A.6.B), not by rewriting the gate as "X MUST …".
 
-2. **Admissibility vs deontics.** The RFC keywords `MUST`, `SHOULD`, and `MAY` are used both for role-assignment or acting-system obligations and for world‑state admissibility predicates. E.8 already demands keeping deontics distinct from admissibility and definitions and recommends predicate‑style constraints for admissibility rather than RFC keywords.
+2. **Admissibility vs deontics.** RFC keywords such as `MUST`, `SHOULD`, and `MAY` can mask three distinct semantic destinations: an accountable duty, recommendation-as-duty, or prohibition commitment under `A.2.8`; an exact strong/weak permission result under `A.2.8.PER`; or a world-state entry/admissibility predicate under A.6.1. The keyword alone selects none. E.8 already requires deontics to remain distinct from admissibility and definitions and recommends predicate-style constraints for admissibility rather than RFC keywords.
 
-3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, and delivered work are different FPF objects: promise content is governed by A.2.3, a speech act is work governed by A.2.9, a commitment is a deontic commitment relation governed by A.2.8, and a running service is delivered work with evidence. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
+3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, permission result, and delivered work are different FPF objects: A.2.3 owns promise content, A.2.9 the communicative work, A.2.8 accountable duty/recommendation/prohibition, A.2.8.PER strong/weak permission and exercise/conflict, and A.15.1 delivered work with its evidence relations. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
 
 4. **Effects without evidence or carriers.** Effects happen only in work; therefore, “effect claims” must be anchored to observation and carriers. Without A.7’s EntityOfConcern and Description-episteme / publication-carrier discipline, writers conflate the published description with runtime traces or treat a file as the system itself.
 

@@ -6,12 +6,12 @@ section_id: "C.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__006_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:4 — Solution"
-line_start: 44172
-line_end: 44219
+line_start: 45370
+line_end: 45417
 dependencies:
   - "A.14"
   - "B.3.5"
@@ -67,9 +67,9 @@ Use Compose-CAL whenever a claim concerns **structural containment** of entities
 * **PortionOf** ⇢ `slice(entity, facet="material/spatial‑region")` **plus** metrical semantics (A.14);
 * **ConstituentOf** (logical/content) ⇢ `sum` narrative over conceptual parts. *(Material mixtures are **not** `ConstituentOf`; use `PortionOf` or `ComponentOf` per A.14.)*
 
-#### C.13:4.4 - Typing-Grounding Unfolding Use
+#### C.13:4.4 - Structural CT2R Typing-Grounding Use
 
-When a `Γ_m` trace is part of a larger passage from constructive representation to a working-model relation, target kind, or logical representation, cite `TypingGroundingUnfoldingStructureBlock` from `B.3.5`. The C.13 contribution is the constructive trace and the preserved or lost mereological structure inside that B.3.5-governed local `A.22.CGUS` structure specialization. C.13 does not create separate unfolding-structure authority and does not by itself supply cross-context bridge, kind intent, proof, empirical evidence, or admissible reuse.
+When a `Γ_m` trace and working-model relation must be carried with a target kind or logical representation as a structural construction-to-typed/logical projection, cite `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. The C.13 contribution is only the constructive-trace locus and its preserved or lost mereological structure inside that B.3.5-governed local `A.22.CGUS` structure specialization. C.13 does not create separate unfolding-structure authority and does not by itself supply cross-context bridge, kind intent, proof, empirical evidence, or admissible reuse. A general diagnostic return from an inadequate working account to the exact subject construction belongs to `A.7.1`, not to this structural CT2R block.
 
-Use this split especially when a readable relation label such as ComponentOf, MemberOf, AspectOf, ConstituentOf, or RepresentationOf is being reused as if the label itself proved constructive grounding. The repair is to name the constructor trace, the target relation or kind, the bridge when current, preserved and collapsed structure, and the proof or evidence relation when that stronger claim is being made.
+Use this split especially when a readable relation label such as ComponentOf, MemberOf, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its label warrants. The readable label does not by itself prove either constructive grounding or the wider structural projection. The repair is to name the constructor trace and working-model relation, the target kind or logical representation, the bridge when current, preserved and collapsed structure, and the proof or evidence relation when that stronger structural claim is being made. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, route the return through `A.7.1`.
 

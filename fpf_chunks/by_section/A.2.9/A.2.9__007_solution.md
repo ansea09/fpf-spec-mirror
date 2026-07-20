@@ -6,12 +6,12 @@ section_id: "A.2.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__007_solution.md"
-commit_sha: "1d5c1edd154b636a446b3887a6094be60c60faff"
+commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Object)"
   - "A.2.9:4 — Solution"
-line_start: 5870
-line_end: 5969
+line_start: 6142
+line_end: 6242
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -85,6 +85,7 @@ AddresseeRef ::=
 InstitutedEffects ::=
   {
     commitments: optional<set<CommitmentIdRef>>,
+    permissions: optional<set<U.EntityRef>>,       // resolves to GrantedPermissionRelation@Context occurrences (A.2.8.PER)
     roleAssignments: optional<set<RoleAssignmentRef>>,
     statusClaims: optional<set<ClaimIdRef>>,         // e.g., “StandardStatus=Approved” if modeled as claims
     other: optional<set<ObjectIdRef>>
@@ -97,8 +98,8 @@ InstitutedEffects ::=
 * **(SA‑C1) PerformedBy must be an accountable actor.** `performedBy` **MUST** resolve to a `RoleAssignmentRef` whose holder is an accountable system or party in the named scope. It **MUST NOT** resolve to a specification episteme, interface-description episteme, or document-carried episteme.
 * **(SA‑C2) ActTypes are required and context-local.** `actTypes` **MUST** contain at least one `SpeechActTypeRef` recognized in the Work’s judgement context (local meaning). Free‑text verbs are nonconformant unless registered as a context token.
 * **(SA‑C3) Time honesty.** `window` **MUST** be explicit (or inherited from the parent `U.Work` record) so freshness rules can be evaluated.
-* **(SA‑C4) If used for gate checks or audit, it must be observable.** If a speech act is used as a checklist criterion, guard condition, or provenance hook for a `U.Commitment`, the model **SHALL** include at least one observable handle: `utteranceRefs`, `carrierRefs`, or both. When the act is used as evidence, at least one carrier reference **SHOULD** be SCR/RSCR‑resolvable per A.10.
-* **(SA‑C5) Institutional effects are references, not paraphrases.** When the act is intended to institute/update commitments, role assignments, or statuses, `institutes.*` **SHOULD** reference the corresponding object IDs/claim IDs rather than restating content.
+* **(SA‑C4) If used for gate checks or audit, it must be observable.** If a speech act is used as a checklist criterion, guard condition, or provenance or constructive-ground hook for a `U.Commitment` or `GrantedPermissionRelation@Context`, the model **SHALL** include at least one observable handle: `utteranceRefs`, `carrierRefs`, or both. When the act is used as evidence, at least one carrier reference **SHOULD** be SCR/RSCR‑resolvable per A.10.
+* **(SA‑C5) Institutional effects are references, not paraphrases.** When the act is intended to institute or update commitments, granted permissions, role assignments, or statuses, the exact `institutes.*` field **SHOULD** reference the corresponding object, relation-occurrence, or claim IDs rather than restating content.
 * **(SA‑C6) Cross-context use is Bridge-only.** If a `SpeechActRef` is used for checking, gate evidence, or provenance in a **different bounded context** than the act’s judgement context, the referencing object **MUST** satisfy the spec’s cross-context discipline by citing an explicit Bridge/policy that licenses the interpretation (and surfacing congruence vs loss where applicable), rather than assuming equivalence by label.
 
 #### A.2.9:4.3 — `SpeechActRef` discipline (normative)
@@ -109,10 +110,10 @@ A **`SpeechActRef`** is a reference to `U.SpeechAct.id`.
 * A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when provenance is needed; the episteme is an utterance description, not the act.
 * If a system cannot record a full `U.SpeechAct`, it may record a **stub** that still satisfies **SA‑C0…SA‑C4** (minimal `actTypes`, performer, judgement context, window, `affected`, plus at least one observable handle). When a required `U.Work` anchor is unknown, the stub **MUST** use an explicit placeholder (e.g., an “AdHocCommunication” MethodDescription) rather than omitting the field.
 
-#### A.2.9:4.4 — Separation rules with `U.Commitment` and `U.PromiseContent` (normative)
+#### A.2.9:4.4 — Separation rules with `U.Commitment`, `GrantedPermissionRelation@Context`, and `U.PromiseContent` (normative)
 
-1. **Speech act is not the deontic binding.**
-   A speech act may **institute** a `U.Commitment`, but the deontic relation itself is the `U.Commitment` object (A.2.8). Do not encode obligations/permissions inside `U.SpeechAct` as prose; instead, create/point to `U.Commitment` IDs in `institutes.commitments`.
+1. **Speech act is not the enduring deontic relation.**
+   A speech act may **institute** a `U.Commitment` for an obligation, recommendation-as-duty, or prohibition, or a `GrantedPermissionRelation@Context` for strong permission. The enduring relation is the separately governed object, not the act. Do not encode obligations or permissions inside `U.SpeechAct` as prose: cite commitments in `institutes.commitments` and grants in `institutes.permissions`, each under the exact instituting policy (`A.2.8`, `A.2.8.PER`).
 
 2. **Speech act is not the service promise clause.**
    `U.PromiseContent` is the promised-outcome statement; a speech act may be the act of offering or issuing that promise, but the promise content lives in the promise-content object and is referenced from the resulting commitments.
@@ -121,7 +122,7 @@ A **`SpeechActRef`** is a reference to `U.SpeechAct.id`.
    A “signed approval PDF”, “ticket record”, “Slack message”, or “API call log” is a carrier (and may carry an episteme as utterance content); the speech act is the Work occurrence that produced/issued it.
 
 4. **Publishing a spec is not a commitment by default.**
-   **Default interpretation rule (normative).** A conformant model/interpreter **MUST NOT** infer `U.Commitment` objects solely from `Publish`/`Approve` speech acts. Publication MAY institute publication/status claims (e.g., “Published”, “Approved”, “Deprecated”), but any obligations/permissions on implementers/operators/providers **MUST** be modeled explicitly as `U.Commitment` objects (A.2.8). If a Context defines a policy that maps publication acts to commitment-instituting effects (e.g., a named `SpecPublicationPolicy@Context`), that policy **MUST** be named and cited where the implication is used.
+   **Default interpretation rule (normative).** A conformant model/interpreter **MUST NOT** infer `U.Commitment` or `GrantedPermissionRelation@Context` occurrences solely from `Publish`/`Approve` speech acts. Publication MAY institute publication/status claims (e.g., “Published”, “Approved”, “Deprecated”), but obligations, recommendations-as-duty, or prohibitions **MUST** be explicit `U.Commitment` objects and strong permission **MUST** be an explicit `A.2.8.PER` grant occurrence. Any context policy that maps a publication act to one of those effects **MUST** be named and cited where the implication is used.
 
 #### A.2.9:4.5 — Multi-function and multi-party support (normative)
 
